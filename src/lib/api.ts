@@ -64,6 +64,11 @@ function writeDb(db: WebDb) {
   localStorage.setItem(WEB_KEY, JSON.stringify(db));
 }
 
+function localDay(ts: number): string {
+  const d = new Date(ts);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
 async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Promise<T> {
   const db = readDb();
   const now = Date.now();
@@ -145,7 +150,7 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
     case 'load_daily_stats': {
       const byDay = new Map<string, { minutes: number; reviews: number; correct: number; total: number }>();
       for (const a of db.attempts) {
-        const key = new Date(a.ts).toISOString().slice(0, 10);
+        const key = localDay(a.ts);
         const cur = byDay.get(key) ?? { minutes: 0, reviews: 0, correct: 0, total: 0 };
         cur.minutes += a.durationMs / 60000;
         cur.correct += a.correct ? 1 : 0;
@@ -153,7 +158,7 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
         byDay.set(key, cur);
       }
       for (const r of db.reviews) {
-        const key = new Date(r.ts).toISOString().slice(0, 10);
+        const key = localDay(r.ts);
         const cur = byDay.get(key) ?? { minutes: 0, reviews: 0, correct: 0, total: 0 };
         cur.reviews += 1;
         byDay.set(key, cur);
@@ -163,7 +168,7 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
         .map(([date, v]) => ({ date, ...v })) as T;
     }
     case 'load_totals': {
-      const days = new Set(db.attempts.map((a) => new Date(a.ts).toISOString().slice(0, 10)));
+      const days = new Set(db.attempts.map((a) => localDay(a.ts)));
       return {
         lessonsCompleted: db.lessonStates.filter((s) => s.status === 'completed').length,
         reviews: db.reviews.length,
