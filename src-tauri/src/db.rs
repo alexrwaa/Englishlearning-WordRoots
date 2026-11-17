@@ -1,0 +1,612 @@
+use rusqlite::{params, Connection};
+use serde::{Deserialize, Serialize};
+use std::fs;
+use std::path::Path;
+
+use crate::paths;
+
+pub const SCHEMA_VERSION: i32 = 1;
+
+const MIGRATION_V1: &str = r#"
+CREATE TABLE IF NOT EXISTS meta (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS settings (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL
+);
+CREATE TABLE IF NOT EXISTS lesson_state (
+  lesson_id TEXT PRIMARY KEY,
+  status TEXT NOT NULL DEFAULT 'not_started',
+  started_at INTEGER,
+  completed_at INTEGER,
+  elapsed_ms INTEGER NOT NULL DEFAULT 0,
+  score REAL,
+  cursor INTEGER NOT NULL DEFAULT 0
+);
+CREATE TABLE IF NOT EXISTS card (
+  card_id TEXT PRIMARY KEY,
+  kind TEXT NOT NULL,
+  ref_id TEXT NOT NULL,
+  stability REAL NOT NULL DEFAULT 0,
+  difficulty REAL NOT NULL DEFAULT 0,
+  reps INTEGER NOT NULL DEFAULT 0,
+  lapses INTEGER NOT NULL DEFAULT 0,
+  state INTEGER NOT NULL DEFAULT 0,
+  due INTEGER NOT NULL,
+  last_review INTEGER
+);
+CREATE TABLE IF NOT EXISTS review (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  card_id TEXT NOT NULL,
+  rating INTEGER NOT NULL,
+  ts INTEGER NOT NULL,
+  correct INTEGER NOT NULL,
+  phase TEXT NOT NULL,
+  elapsed_ms INTEGER
+);
+CREATE TABLE IF NOT EXISTS attempt (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  lesson_id TEXT NOT NULL,
+  exercise_id TEXT NOT NULL,
+  kind TEXT NOT NULL,
+  correct INTEGER NOT NULL,
+  ts INTEGER NOT NULL,
+  duration_ms INTEGER NOT NULL DEFAULT 0,
+  answer TEXT
+);
+CREATE TABLE IF NOT EXISTS note (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  target_type TEXT NOT NULL,
+  target_id TEXT NOT NULL,
+  body TEXT NOT NULL,
+  created_at INTEGER NOT NULL,
+  updated_at INTEGER NOT NULL
+);
+CREATE TABLE IF NOT EXISTS bookmark (
+  target_type TEXT NOT NULL,
+  target_id TEXT NOT NULL,
+  created_at INTEGER NOT NULL,
+  PRIMARY KEY (target_type, target_id)
+);
+CREATE TABLE IF NOT EXISTS session (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  lesson_id TEXT NOT NULL,
+  started_at INTEGER NOT NULL,
+  ended_at INTEGER,
+  minutes INTEGER NOT NULL DEFAULT 0,
+  completed INTEGER NOT NULL DEFAULT 0
+);
+CREATE INDEX IF NOT EXISTS idx_review_ts ON review(ts);
+CREATE INDEX IF NOT EXISTS idx_attempt_ts ON attempt(ts);
+CREATE INDEX IF NOT EXISTS idx_card_due ON card(due);
+CREATE INDEX IF NOT EXISTS idx_note_target ON note(target_type, target_id);
+"#;
+
+pub fn open() -> Result<Connection, String> {
+    let path = paths::db_path();
+    if let Some(parent) = path.parent() {
+        fs::create_dir_all(parent).map_err(|e| e.to_string())?;
+    }
+    let existed_with_data = path.exists() && fs::metadata(&path).map(|m| m.len() > 0).unwrap_or(false);
+
+    let conn = Connection::open(&path).map_err(|e| e.to_string())?;
+    conn.pragma_update(None, "journal_mode", "WAL")
+        .map_err(|e| e.to_string())?;
+    conn.pragma_update(None, "synchronous", "NORMAL")
+        .map_err(|e| e.to_string())?;
+
+    let version = read_version(&conn)?;
+    if version < SCHEMA_VERSION {
+        if existed_with_data && version > 0 {
+            // Never migrate without a restore point.
+            let _ = backup(&format!("pre-migration-v{version}"));
+        }
+        conn.execute_batch(MIGRATION_V1).map_err(|e| e.to_string())?;
+        conn.execute(
+            "INSERT INTO meta(key, value) VALUES('schema_version', ?1)
+             ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+            params![SCHEMA_VERSION.to_string()],
+        )
+        .map_err(|e| e.to_string())?;
+        conn.execute(
+            "INSERT INTO meta(key, value) VALUES('created_at', ?1)
+             ON CONFLICT(key) DO NOTHING",
+            params![paths::now_ms().to_string()],
+        )
+        .map_err(|e| e.to_string())?;
+        paths::log_line(&format!("schema migrated to v{SCHEMA_VERSION}"));
+    }
+    Ok(conn)
+}
+
+fn read_version(conn: &Connection) -> Result<i32, String> {
+    let exists: i32 = conn
+        .query_row(
+            "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name='meta'",
+            [],
+            |row| row.get(0),
+        )
+        .map_err(|e| e.to_string())?;
+    if exists == 0 {
+        return Ok(0);
+    }
+    let value: Option<String> = conn
+        .query_row("SELECT value FROM meta WHERE key='schema_version'", [], |row| row.get(0))
+        .ok();
+    Ok(value.and_then(|v| v.parse().ok()).unwrap_or(0))
+}
+
+/// Copy the live database into `backups/` with a timestamped name.
+pub fn backup(label: &str) -> Result<String, String> {
+    let source = paths::db_path();
+    if !source.exists() {
+        return Err("database not created yet".into());
+    }
+    fs::create_dir_all(paths::backups_dir()).map_err(|e| e.to_string())?;
+    let stamp = paths::now_ms();
+    let target = paths::backups_dir().join(format!("wordroots-{label}-{stamp}.db"));
+    // Use SQLite's backup-friendly copy semantics: checkpoint happens on close,
+    // but copying WAL + db is not atomic, so copy via the sqlite API instead.
+    let conn = Connection::open(&source).map_err(|e| e.to_string())?;
+    conn.execute_batch(&format!(
+        "VACUUM INTO '{}'",
+        target.to_string_lossy().replace('\'', "''")
+    ))
+    .map_err(|e| format!("backup failed: {e}"))?;
+    Ok(target.to_string_lossy().to_string())
+}
+
+pub fn integrity_ok(conn: &Connection) -> bool {
+    match conn.query_row("PRAGMA integrity_check", [], |row| row.get::<_, String>(0)) {
+        Ok(v) => v == "ok",
+        Err(_) => false,
+    }
+}
+
+/// Remove backups beyond the 20 most recent, keeping disk usage bounded.
+pub fn prune_backups() {
+    let dir = paths::backups_dir();
+    let Ok(entries) = fs::read_dir(&dir) else { return };
+    let mut files: Vec<_> = entries
+        .flatten()
+        .filter(|e| e.path().extension().map(|x| x == "db").unwrap_or(false))
+        .collect();
+    files.sort_by_key(|e| e.metadata().and_then(|m| m.modified()).ok());
+    if files.len() > 20 {
+        for f in &files[..files.len() - 20] {
+            let _ = fs::remove_file(f.path());
+        }
+    }
+}
+
+/* ---------------------------- row types ---------------------------- */
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct LessonStateRow {
+    pub lesson_id: String,
+    pub status: String,
+    pub started_at: Option<i64>,
+    pub completed_at: Option<i64>,
+    pub elapsed_ms: i64,
+    pub score: Option<f64>,
+    pub cursor: i64,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct CardRow {
+    pub card_id: String,
+    pub kind: String,
+    pub ref_id: String,
+    pub stability: f64,
+    pub difficulty: f64,
+    pub reps: i64,
+    pub lapses: i64,
+    pub state: i64,
+    pub due: i64,
+    pub last_review: Option<i64>,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct ReviewRow {
+    pub card_id: String,
+    pub rating: i64,
+    pub ts: i64,
+    pub correct: bool,
+    pub phase: String,
+    pub elapsed_ms: Option<i64>,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct AttemptRow {
+    pub lesson_id: String,
+    pub exercise_id: String,
+    pub kind: String,
+    pub correct: bool,
+    pub ts: i64,
+    pub duration_ms: i64,
+    pub answer: Option<String>,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct NoteRow {
+    pub id: i64,
+    pub target_type: String,
+    pub target_id: String,
+    pub body: String,
+    pub created_at: i64,
+    pub updated_at: i64,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct BookmarkRow {
+    pub target_type: String,
+    pub target_id: String,
+    pub created_at: i64,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct DailyStat {
+    pub date: String,
+    pub minutes: f64,
+    pub reviews: i64,
+    pub correct: i64,
+    pub total: i64,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct Totals {
+    pub lessons_completed: i64,
+    pub reviews: i64,
+    pub attempts: i64,
+    pub correct: i64,
+    pub total_minutes: f64,
+    pub first_day: Option<String>,
+    pub active_days: i64,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct KindStat {
+    pub kind: String,
+    pub correct: i64,
+    pub total: i64,
+}
+
+/* ---------------------------- queries ---------------------------- */
+
+pub fn load_lesson_states(conn: &Connection) -> Result<Vec<LessonStateRow>, String> {
+    let mut stmt = conn
+        .prepare("SELECT lesson_id, status, started_at, completed_at, elapsed_ms, score, cursor FROM lesson_state")
+        .map_err(|e| e.to_string())?;
+    let rows = stmt
+        .query_map([], |r| {
+            Ok(LessonStateRow {
+                lesson_id: r.get(0)?,
+                status: r.get(1)?,
+                started_at: r.get(2)?,
+                completed_at: r.get(3)?,
+                elapsed_ms: r.get(4)?,
+                score: r.get(5)?,
+                cursor: r.get(6)?,
+            })
+        })
+        .map_err(|e| e.to_string())?;
+    rows.collect::<rusqlite::Result<Vec<_>>>().map_err(|e| e.to_string())
+}
+
+pub fn load_cards(conn: &Connection) -> Result<Vec<CardRow>, String> {
+    let mut stmt = conn
+        .prepare("SELECT card_id, kind, ref_id, stability, difficulty, reps, lapses, state, due, last_review FROM card")
+        .map_err(|e| e.to_string())?;
+    let rows = stmt
+        .query_map([], |r| {
+            Ok(CardRow {
+                card_id: r.get(0)?,
+                kind: r.get(1)?,
+                ref_id: r.get(2)?,
+                stability: r.get(3)?,
+                difficulty: r.get(4)?,
+                reps: r.get(5)?,
+                lapses: r.get(6)?,
+                state: r.get(7)?,
+                due: r.get(8)?,
+                last_review: r.get(9)?,
+            })
+        })
+        .map_err(|e| e.to_string())?;
+    rows.collect::<rusqlite::Result<Vec<_>>>().map_err(|e| e.to_string())
+}
+
+pub fn daily_stats(conn: &Connection) -> Result<Vec<DailyStat>, String> {
+    let mut stmt = conn
+        .prepare(
+            "WITH days AS (
+               SELECT date(ts/1000, 'unixepoch', 'localtime') AS d,
+                      SUM(COALESCE(elapsed_ms,0))/60000.0 AS m
+               FROM attempt GROUP BY d
+             ),
+             rev AS (
+               SELECT date(ts/1000, 'unixepoch', 'localtime') AS d,
+                      COUNT(*) AS n,
+                      SUM(correct) AS c
+               FROM review GROUP BY d
+             )
+             SELECT COALESCE(days.d, rev.d) AS day,
+                    COALESCE(days.m, 0) AS minutes,
+                    COALESCE(rev.n, 0) AS reviews,
+                    COALESCE(rev.c, 0) AS correct,
+                    COALESCE(rev.n, 0) AS total
+             FROM days LEFT JOIN rev ON days.d = rev.d
+             UNION
+             SELECT rev.d, 0, rev.n, rev.c, rev.n FROM rev
+             WHERE rev.d NOT IN (SELECT d FROM days)
+             ORDER BY day ASC",
+        )
+        .map_err(|e| e.to_string())?;
+    let rows = stmt
+        .query_map([], |r| {
+            Ok(DailyStat {
+                date: r.get(0)?,
+                minutes: r.get(1)?,
+                reviews: r.get(2)?,
+                correct: r.get(3)?,
+                total: r.get(4)?,
+            })
+        })
+        .map_err(|e| e.to_string())?;
+    rows.collect::<rusqlite::Result<Vec<_>>>().map_err(|e| e.to_string())
+}
+
+pub fn totals(conn: &Connection) -> Result<Totals, String> {
+    let lessons_completed: i64 = conn
+        .query_row(
+            "SELECT COUNT(*) FROM lesson_state WHERE status='completed'",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap_or(0);
+    let reviews: i64 = conn.query_row("SELECT COUNT(*) FROM review", [], |r| r.get(0)).unwrap_or(0);
+    let attempts: i64 = conn.query_row("SELECT COUNT(*) FROM attempt", [], |r| r.get(0)).unwrap_or(0);
+    let correct: i64 = conn
+        .query_row("SELECT COALESCE(SUM(correct),0) FROM attempt", [], |r| r.get(0))
+        .unwrap_or(0);
+    let active_days: i64 = conn
+        .query_row(
+            "SELECT COUNT(DISTINCT date(ts/1000,'unixepoch','localtime')) FROM attempt",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap_or(0);
+    let total_minutes: f64 = conn
+        .query_row(
+            "SELECT COALESCE(SUM(elapsed_ms),0)/60000.0 FROM attempt",
+            [],
+            |r| r.get(0),
+        )
+        .unwrap_or(0.0);
+    let first_day: Option<String> = conn
+        .query_row(
+            "SELECT MIN(date(ts/1000,'unixepoch','localtime')) FROM attempt",
+            [],
+            |r| r.get(0),
+        )
+        .ok()
+        .flatten();
+    Ok(Totals {
+        lessons_completed,
+        reviews,
+        attempts,
+        correct,
+        total_minutes,
+        first_day,
+        active_days,
+    })
+}
+
+pub fn kind_stats(conn: &Connection) -> Result<Vec<KindStat>, String> {
+    let mut stmt = conn
+        .prepare("SELECT kind, SUM(correct), COUNT(*) FROM attempt GROUP BY kind")
+        .map_err(|e| e.to_string())?;
+    let rows = stmt
+        .query_map([], |r| {
+            Ok(KindStat {
+                kind: r.get(0)?,
+                correct: r.get(1)?,
+                total: r.get(2)?,
+            })
+        })
+        .map_err(|e| e.to_string())?;
+    rows.collect::<rusqlite::Result<Vec<_>>>().map_err(|e| e.to_string())
+}
+
+pub fn notes(conn: &Connection) -> Result<Vec<NoteRow>, String> {
+    let mut stmt = conn
+        .prepare("SELECT id, target_type, target_id, body, created_at, updated_at FROM note ORDER BY updated_at DESC")
+        .map_err(|e| e.to_string())?;
+    let rows = stmt
+        .query_map([], |r| {
+            Ok(NoteRow {
+                id: r.get(0)?,
+                target_type: r.get(1)?,
+                target_id: r.get(2)?,
+                body: r.get(3)?,
+                created_at: r.get(4)?,
+                updated_at: r.get(5)?,
+            })
+        })
+        .map_err(|e| e.to_string())?;
+    rows.collect::<rusqlite::Result<Vec<_>>>().map_err(|e| e.to_string())
+}
+
+pub fn bookmarks(conn: &Connection) -> Result<Vec<BookmarkRow>, String> {
+    let mut stmt = conn
+        .prepare("SELECT target_type, target_id, created_at FROM bookmark ORDER BY created_at DESC")
+        .map_err(|e| e.to_string())?;
+    let rows = stmt
+        .query_map([], |r| {
+            Ok(BookmarkRow {
+                target_type: r.get(0)?,
+                target_id: r.get(1)?,
+                created_at: r.get(2)?,
+            })
+        })
+        .map_err(|e| e.to_string())?;
+    rows.collect::<rusqlite::Result<Vec<_>>>().map_err(|e| e.to_string())
+}
+
+/* ---------------------------- export ---------------------------- */
+
+#[derive(Serialize, Deserialize)]
+struct Snapshot {
+    format: String,
+    schema_version: i32,
+    exported_at: i64,
+    lesson_state: Vec<LessonStateRow>,
+    card: Vec<CardRow>,
+    review: Vec<serde_json::Value>,
+    attempt: Vec<serde_json::Value>,
+    note: Vec<NoteRow>,
+    bookmark: Vec<BookmarkRow>,
+}
+
+pub fn export_snapshot(conn: &Connection) -> Result<String, String> {
+    fn rows(conn: &Connection, sql: &str) -> Result<Vec<serde_json::Value>, String> {
+        let mut stmt = conn.prepare(sql).map_err(|e| e.to_string())?;
+        let cols: Vec<String> = stmt.column_names().iter().map(|c| c.to_string()).collect();
+        let mut out = Vec::new();
+        let mut cursor = stmt.query([]).map_err(|e| e.to_string())?;
+        while let Some(row) = cursor.next().map_err(|e| e.to_string())? {
+            let mut map = serde_json::Map::new();
+            for (i, col) in cols.iter().enumerate() {
+                let value = match row.get_ref(i) {
+                    Ok(rusqlite::types::ValueRef::Null) => serde_json::Value::Null,
+                    Ok(rusqlite::types::ValueRef::Integer(v)) => serde_json::json!(v),
+                    Ok(rusqlite::types::ValueRef::Real(v)) => serde_json::json!(v),
+                    Ok(rusqlite::types::ValueRef::Text(t)) => {
+                        serde_json::json!(String::from_utf8_lossy(t))
+                    }
+                    _ => serde_json::Value::Null,
+                };
+                map.insert(col.clone(), value);
+            }
+            out.push(serde_json::Value::Object(map));
+        }
+        Ok(out)
+    }
+
+    let snapshot = Snapshot {
+        format: "wordroots-snapshot".into(),
+        schema_version: SCHEMA_VERSION,
+        exported_at: paths::now_ms(),
+        lesson_state: load_lesson_states(conn)?,
+        card: load_cards(conn)?,
+        review: rows(conn, "SELECT * FROM review")?,
+        attempt: rows(conn, "SELECT * FROM attempt")?,
+        note: notes(conn)?,
+        bookmark: bookmarks(conn)?,
+    };
+    fs::create_dir_all(paths::backups_dir()).map_err(|e| e.to_string())?;
+    let path = paths::backups_dir().join(format!("wordroots-export-{}.json", paths::now_ms()));
+    let json = serde_json::to_string_pretty(&snapshot).map_err(|e| e.to_string())?;
+    write_with_checksum(&path, &json)?;
+    Ok(path.to_string_lossy().to_string())
+}
+
+fn write_with_checksum(path: &Path, content: &str) -> Result<(), String> {
+    fs::write(path, content).map_err(|e| e.to_string())?;
+    // Simple, dependency-free integrity marker (FNV-1a 64-bit).
+    let mut hash: u64 = 0xcbf29ce484222325;
+    for byte in content.as_bytes() {
+        hash ^= *byte as u64;
+        hash = hash.wrapping_mul(0x100000001b3);
+    }
+    let sidecar = path.with_extension("json.fnv");
+    fs::write(sidecar, format!("{hash:016x}")).map_err(|e| e.to_string())?;
+    Ok(())
+}
+
+pub fn import_snapshot(conn: &mut Connection, json: &str) -> Result<(), String> {
+    let snapshot: Snapshot =
+        serde_json::from_str(json).map_err(|e| format!("invalid snapshot: {e}"))?;
+    if snapshot.format != "wordroots-snapshot" {
+        return Err("not a WordRoots snapshot".into());
+    }
+    if snapshot.schema_version > SCHEMA_VERSION {
+        return Err("snapshot comes from a newer app version".into());
+    }
+    let tx = conn.transaction().map_err(|e| e.to_string())?;
+    tx.execute_batch(
+        "DELETE FROM lesson_state; DELETE FROM card; DELETE FROM review; DELETE FROM attempt;
+         DELETE FROM note; DELETE FROM bookmark;",
+    )
+    .map_err(|e| e.to_string())?;
+    for s in &snapshot.lesson_state {
+        tx.execute(
+            "INSERT INTO lesson_state(lesson_id,status,started_at,completed_at,elapsed_ms,score,cursor)
+             VALUES(?1,?2,?3,?4,?5,?6,?7)",
+            params![s.lesson_id, s.status, s.started_at, s.completed_at, s.elapsed_ms, s.score, s.cursor],
+        )
+        .map_err(|e| e.to_string())?;
+    }
+    for c in &snapshot.card {
+        tx.execute(
+            "INSERT INTO card(card_id,kind,ref_id,stability,difficulty,reps,lapses,state,due,last_review)
+             VALUES(?1,?2,?3,?4,?5,?6,?7,?8,?9,?10)",
+            params![c.card_id, c.kind, c.ref_id, c.stability, c.difficulty, c.reps, c.lapses, c.state, c.due, c.last_review],
+        )
+        .map_err(|e| e.to_string())?;
+    }
+    for r in &snapshot.review {
+        let card_id = r.get("card_id").and_then(|v| v.as_str()).unwrap_or_default();
+        let rating = r.get("rating").and_then(|v| v.as_i64()).unwrap_or(3);
+        let ts = r.get("ts").and_then(|v| v.as_i64()).unwrap_or(0);
+        let correct = r.get("correct").and_then(|v| v.as_i64()).unwrap_or(0);
+        let phase = r.get("phase").and_then(|v| v.as_str()).unwrap_or("review");
+        let elapsed = r.get("elapsed_ms").and_then(|v| v.as_i64());
+        tx.execute(
+            "INSERT INTO review(card_id,rating,ts,correct,phase,elapsed_ms) VALUES(?1,?2,?3,?4,?5,?6)",
+            params![card_id, rating, ts, correct, phase, elapsed],
+        )
+        .map_err(|e| e.to_string())?;
+    }
+    for a in &snapshot.attempt {
+        let lesson_id = a.get("lesson_id").and_then(|v| v.as_str()).unwrap_or_default();
+        let exercise_id = a.get("exercise_id").and_then(|v| v.as_str()).unwrap_or_default();
+        let kind = a.get("kind").and_then(|v| v.as_str()).unwrap_or("mcq");
+        let correct = a.get("correct").and_then(|v| v.as_i64()).unwrap_or(0);
+        let ts = a.get("ts").and_then(|v| v.as_i64()).unwrap_or(0);
+        let duration = a.get("duration_ms").and_then(|v| v.as_i64()).unwrap_or(0);
+        let answer = a.get("answer").and_then(|v| v.as_str());
+        tx.execute(
+            "INSERT INTO attempt(lesson_id,exercise_id,kind,correct,ts,duration_ms,answer) VALUES(?1,?2,?3,?4,?5,?6,?7)",
+            params![lesson_id, exercise_id, kind, correct, ts, duration, answer],
+        )
+        .map_err(|e| e.to_string())?;
+    }
+    for n in &snapshot.note {
+        tx.execute(
+            "INSERT INTO note(id,target_type,target_id,body,created_at,updated_at) VALUES(?1,?2,?3,?4,?5,?6)",
+            params![n.id, n.target_type, n.target_id, n.body, n.created_at, n.updated_at],
+        )
+        .map_err(|e| e.to_string())?;
+    }
+    for b in &snapshot.bookmark {
+        tx.execute(
+            "INSERT OR REPLACE INTO bookmark(target_type,target_id,created_at) VALUES(?1,?2,?3)",
+            params![b.target_type, b.target_id, b.created_at],
+        )
+        .map_err(|e| e.to_string())?;
+    }
+    tx.commit().map_err(|e| e.to_string())?;
+    Ok(())
+}

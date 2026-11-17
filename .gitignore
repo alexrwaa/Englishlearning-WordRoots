@@ -1,0 +1,15 @@
+node_modules/
+dist/
+dist-portable/
+src-tauri/target/
+src-tauri/gen/
+*.log
+.DS_Store
+Thumbs.db
+.vite/
+coverage/
+*.db
+*.db-journal
+*.db-wal
+!src/content/**/*.json
+.materials/

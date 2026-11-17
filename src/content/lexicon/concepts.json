@@ -1,0 +1,282 @@
+[
+  {
+    "id": "c-morpheme",
+    "zh": "词素",
+    "en": "morpheme",
+    "kind": "concept",
+    "summary": "语言中承载意义或语法功能的最小单位。一个词素不能再切分成更小的有意义的成分。",
+    "detail": "判断标准是“能否替换”：teachers 可分为 teach + -er + -s，三段都可与别的成分替换并保持意义稳定；而“table”不能再切。注意词素是抽象单位，实际出现的语音/拼写形式是它的语素变体。"
+  },
+  {
+    "id": "c-root",
+    "zh": "词根",
+    "en": "root",
+    "kind": "concept",
+    "summary": "一个词族中承载核心词汇意义的不可再分部分，如 struct“建造”、fer“携带”。",
+    "detail": "词根是历史与形态概念：拉丁词根 struct- 在现代英语中一般不能单独成词（除少数如 act、form），必须与词缀或另一个构词成分结合。不要把“拼写相似”当作同源证据。"
+  },
+  {
+    "id": "c-base",
+    "zh": "词基",
+    "en": "base",
+    "kind": "concept",
+    "summary": "当前构词操作所作用的那个形式，可以是词根、单词，也可以是已带词缀的派生词。",
+    "detail": "unhelpfulness 的构词不是 un+help+ful+ness 一次性拼合，而是层层派生：help → helpful → unhelpful → unhelpfulness。每一步的输入就是词基。"
+  },
+  {
+    "id": "c-affix",
+    "zh": "词缀",
+    "en": "affix",
+    "kind": "concept",
+    "summary": "必须附着在词基上的粘着词素，包括前缀、后缀（英语中还有少量中缀式强调手段）。",
+    "detail": "词缀分派生词缀（改变词义或词性，如 -ness）与屈折词缀（只表达语法信息，如 -s、-ed）。"
+  },
+  {
+    "id": "c-prefix",
+    "zh": "前缀",
+    "en": "prefix",
+    "kind": "concept",
+    "summary": "位于词基之前、通常改变词义而不改变词性的派生词缀，如 un-、re-、pre-。",
+    "detail": "英语本土前缀多来自古英语（un-、mis-、over-），学术前缀多来自拉丁语与希腊语（sub-、hyper-、anti-）。前缀一般不改变词性：happy → unhappy 仍是形容词。"
+  },
+  {
+    "id": "c-suffix",
+    "zh": "后缀",
+    "en": "suffix",
+    "kind": "concept",
+    "summary": "位于词基之后、常决定派生词词性的词缀，如 -ness（名词）、-ify（动词）、-ous（形容词）。",
+    "detail": "后缀是判断词性的关键线索：-tion/-ment/-ness 多构成名词，-ize/-ify 多构成动词，-able/-ive 多构成形容词。"
+  },
+  {
+    "id": "c-combining",
+    "zh": "组合形式",
+    "en": "combining form",
+    "kind": "concept",
+    "summary": "源自希腊语或拉丁语、带连接元音 -o- 或 -i- 的构词成分，如 bio-、-graph-y、therm-o-。",
+    "detail": "photograph、hydrogen、telescope 这类词不是“前缀+词根”的简单叠加，而是组合形式构成的学术词汇。组合形式在科技英语中能产性极高。"
+  },
+  {
+    "id": "c-allomorph",
+    "zh": "词素变体",
+    "en": "allomorph",
+    "kind": "concept",
+    "summary": "同一词素在不同语音/拼写环境下的不同形式，如 in- 在 impossible 中变为 im-。",
+    "detail": "否定前缀 in- 有 im-（唇音前）、il-（l 前）、ir-（r 前）三种变体；-s 有 /s/、/z/、/ɪz/ 三种读音。词素变体解释了“为什么拼写变了但词素没变”。"
+  },
+  {
+    "id": "c-word-sum",
+    "zh": "构词算式",
+    "en": "word sum",
+    "kind": "method",
+    "summary": "用“词素 + 词素 → 单词”的写法把构词过程写清楚，如 un + help + ful → unhelpful。",
+    "detail": "Word Sum 是结构化词汇探究（SWI）的核心书写工具：它迫使学习者对每个词素给出意义，并暴露拼写调整发生在哪一步。"
+  },
+  {
+    "id": "c-word-matrix",
+    "zh": "构词矩阵",
+    "en": "word matrix",
+    "kind": "method",
+    "summary": "以词基为中心，把可共现的前缀、后缀排成行列，系统生成同族词的表格。",
+    "detail": "矩阵的价值不在“生成更多词”，而在于显示哪些槽位能组合、哪些不能，以及同一词基如何在不同词性间转换。"
+  },
+  {
+    "id": "c-word-family",
+    "zh": "词族",
+    "en": "word family",
+    "kind": "concept",
+    "summary": "共享同一词根、并在形态与语义上可追溯的一组词，如 struct、construct、instruct、destruction。",
+    "detail": "词族成员必须有可证明的形态关系（词素边界清晰）与可追溯的语义联系。reject 与 inject 虽都含 -ject，但若要归入同族必须说明 ject“投掷”的来源。"
+  },
+  {
+    "id": "c-etymology",
+    "zh": "词源学",
+    "en": "etymology",
+    "kind": "concept",
+    "summary": "研究词的形式与意义如何从更早语言演变而来的学科。",
+    "detail": "词源学与共时构词分析不同：前者追问历史来源，后者描述现代说话人如何分析这个词。二者可以不一致——nice 历史上来自拉丁 nescius“无知”，但现代英语使用者不会这样分析。"
+  },
+  {
+    "id": "c-cognate",
+    "zh": "同源词",
+    "en": "cognate",
+    "kind": "concept",
+    "summary": "不同语言中由同一祖语形式继承而来的词，如英语 father 与拉丁 pater。",
+    "detail": "同源关系需要历史语言学的语音对应规律支持，不能只凭拼写相似（英语 day 与拉丁 dies 并非直观同源）。"
+  },
+  {
+    "id": "c-borrowing",
+    "zh": "借词",
+    "en": "borrowing / loanword",
+    "kind": "concept",
+    "summary": "一种语言从另一种语言借入的词，英语词汇史就是连续的借词史。",
+    "detail": "英语经历过诺曼法语借词（government、justice）、文艺复兴拉丁借词（datum、species）、希腊学术借词（analysis、physics），近代还有大量全球借词。"
+  },
+  {
+    "id": "c-compound",
+    "zh": "复合词",
+    "en": "compound",
+    "kind": "concept",
+    "summary": "由两个或更多自由词基组合成的新词，如 laptop、windmill、software。",
+    "detail": "复合词的语义常常不能直接从成分推出（greenhouse 不是“绿色的房子”），重音与拼写（分写、连字符、合写）也反映其词汇化程度。"
+  },
+  {
+    "id": "c-conversion",
+    "zh": "转换构词",
+    "en": "conversion / zero derivation",
+    "kind": "concept",
+    "summary": "不添加词缀而改变词性的构词方式，如 to email、a download、to google。",
+    "detail": "转换在英语中极其能产，尤其是名词转动词。判断依据是句法位置而非拼写。"
+  },
+  {
+    "id": "c-blend",
+    "zh": "混成词",
+    "en": "blend / portmanteau",
+    "kind": "concept",
+    "summary": "取两个词的部分拼合而成的新词，如 smog（smoke+fog）、brunch、motel。",
+    "detail": "混成词保留了双方的部分音形，与复合词（完整词基相加）不同。现代新词大量使用这种方式（podcast、staycation）。"
+  },
+  {
+    "id": "c-clipping",
+    "zh": "截短词",
+    "en": "clipping",
+    "kind": "concept",
+    "summary": "截去原词的一部分形成的新词，如 gym（gymnasium）、lab、flu、photo。",
+    "detail": "截短常伴随语域变化：exam、prof 更口语化；有些截短形式已完全取代原形（bus 来自 omnibus）。"
+  },
+  {
+    "id": "c-acronym",
+    "zh": "首字母缩略词",
+    "en": "acronym / initialism",
+    "kind": "concept",
+    "summary": "取词组首字母构成的新词；能按词读的称 acronym（NASA），逐字母读的称 initialism（CPU）。",
+    "detail": "缩略词进入日常语言后会继续参与构词：laser 已被当作词基，产生 lasik、laser-ed 等用法。"
+  },
+  {
+    "id": "c-derivation",
+    "zh": "派生",
+    "en": "derivation",
+    "kind": "concept",
+    "summary": "通过添加派生词缀创造新词的过程，通常改变词义或词性。",
+    "detail": "派生有层次：nation → national → nationalize → nationalization。层次决定了词重音与拼写变化的位置。"
+  },
+  {
+    "id": "c-inflection",
+    "zh": "屈折",
+    "en": "inflection",
+    "kind": "concept",
+    "summary": "只表达语法信息（数、时、格、级）而不创造新词的词形变化，如 -s、-ed、-er（比较级）。",
+    "detail": "屈折词缀位于派生词缀之外：nationalizations = nationalize + -tion + -s。"
+  },
+  {
+    "id": "c-transparency",
+    "zh": "透明度",
+    "en": "morphological transparency",
+    "kind": "concept",
+    "summary": "词素边界与语义关系对学习者是否清晰可见，如 unhelpful 很透明，nice 则不透明。",
+    "detail": "透明词可以由规则推导意义，不透明词必须整体记忆。教学中应优先讲透明词，再处理历史层积导致的不透明词。"
+  },
+  {
+    "id": "c-greek-latin",
+    "zh": "希腊语与拉丁语成分",
+    "en": "Greek and Latin elements",
+    "kind": "concept",
+    "summary": "英语学术与科技词汇的两大来源，提供了绝大多数词根、前缀与组合形式。",
+    "detail": "拉丁成分多经法语进入英语（-tion、-ment、con-），希腊成分多经拉丁转写直接进入学术语域（-logy、hyper-、anti-）。二者在构词规则上略有差异。"
+  },
+  {
+    "id": "c-scientific",
+    "zh": "科技英语构词",
+    "en": "scientific vocabulary",
+    "kind": "concept",
+    "summary": "科学术语多用希腊/拉丁组合形式系统构造，因而可预测、可拆分。",
+    "detail": "hydrogen、photograph、telescope、localization 等词都可分解为有明确意义的组合形式。掌握高频组合形式等于获得科技词汇的“解码表”。"
+  },
+  {
+    "id": "c-inference",
+    "zh": "词汇推理",
+    "en": "lexical inference",
+    "kind": "method",
+    "summary": "在语境中综合构词分析、句法线索与背景知识推测陌生词义的策略。",
+    "detail": "四步法：①切分可识别词素；②判断词性（看后缀与句法位置）；③用语境验证或修正；④检查是否符合语域与搭配。推理结果应表述为带置信度的假设，而非确定结论。"
+  },
+  {
+    "id": "c-spelling-rule",
+    "zh": "拼写连接规则",
+    "en": "orthographic joining rules",
+    "kind": "rule",
+    "summary": "词素相接时的拼写调整规则：去 e、y→i、辅音双写、连字符与空格。",
+    "detail": "这些规则解释了为什么构词算式的结果与词素直接相加不同。它们是有条件的、可预测的，而不是“例外”。"
+  },
+  {
+    "id": "c-semantic-shift",
+    "zh": "语义演变",
+    "en": "semantic change",
+    "kind": "concept",
+    "summary": "词义随时间发生的系统性变化，包括扩大、缩小、褒贬化与隐喻转移。",
+    "detail": "语义演变有规律可循：从具体到抽象、从空间到时间、从身体经验到心理域，是人类语言常见的隐喻路径。"
+  },
+  {
+    "id": "c-metaphor",
+    "zh": "隐喻",
+    "en": "metaphor",
+    "kind": "concept",
+    "summary": "用源域的具体经验理解目标域的抽象概念，如 virus 从生物学扩展到计算机领域。",
+    "detail": "隐喻不只是修辞，而是词义扩展的主要机制。识别隐喻路径能帮助学习者预测多义词的新用法。"
+  },
+  {
+    "id": "c-metonymy",
+    "zh": "转喻",
+    "en": "metonymy",
+    "kind": "concept",
+    "summary": "用与目标概念相邻或相关的实体指代目标，如用 the White House 指代美国政府。",
+    "detail": "转喻基于邻近关系（部分代整体、容器代内容、机构代人员），与基于相似性的隐喻不同。"
+  },
+  {
+    "id": "c-broadening",
+    "zh": "词义扩大",
+    "en": "semantic broadening",
+    "kind": "concept",
+    "summary": "词义从较窄范围扩展到较宽范围，如 place 原指“广场”，现泛指任何地方。",
+    "detail": "扩大常伴随搭配范围扩张，是词成为高频词的重要途径。"
+  },
+  {
+    "id": "c-narrowing",
+    "zh": "词义缩小",
+    "en": "semantic narrowing",
+    "kind": "concept",
+    "summary": "词义从较宽范围收缩到较窄范围，如 meat 原指“食物”，现专指“肉”。",
+    "detail": "缩小常发生在借词竞争或专业化的情境中。"
+  },
+  {
+    "id": "c-amelioration",
+    "zh": "词义升格",
+    "en": "amelioration",
+    "kind": "concept",
+    "summary": "词义向褒义或更高地位方向变化，如 nice 从“无知”变为“令人愉快”。",
+    "detail": "升格与降格都属于评价性语义变化，常与社会态度变迁相关。"
+  },
+  {
+    "id": "c-pejoration",
+    "zh": "词义降格",
+    "en": "pejoration",
+    "kind": "concept",
+    "summary": "词义向贬义或更低地位方向变化，如 silly 从“有福的、幸福的”变为“愚蠢的”。",
+    "detail": "教学中应注意：现代使用贬义时不代表历史含义，也不应用历史含义为该词辩护。"
+  },
+  {
+    "id": "c-register",
+    "zh": "语域",
+    "en": "register",
+    "kind": "concept",
+    "summary": "语言使用因场合、专业领域与社会关系而形成的变体，如论文语域与技术文档语域。",
+    "detail": "同义的不同词素来源常对应不同语域：ask（本土）、question（法语）、interrogate（拉丁）正式程度递增。"
+  },
+  {
+    "id": "c-frequency",
+    "zh": "词频与能产性",
+    "en": "frequency and productivity",
+    "kind": "concept",
+    "summary": "词缀的能产性指它能否用于创造新词；高频词缀（un-、-ness、re-）能产性最强。",
+    "detail": "能产性受语音、语义与历史条件限制：-th（warmth、width）已基本不再产生新词。"
+  }
+]
