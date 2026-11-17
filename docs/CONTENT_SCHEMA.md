@@ -7,26 +7,31 @@
 
 | 内容 | 路径 |
 |---|---|
-| 每周课程 | `src/content/weeks/week01.json` … `week12.json` |
+| 每周主题 | `src/content/weeks/weekNN/meta.json` |
+| 每日课程 | `src/content/weeks/weekNN/day1.json` … `day7.json` |
 | 词素词典 | `src/content/lexicon/morphemes.json` |
 | 词条词典 | `src/content/lexicon/words.json` |
 | 概念词典（已存在，勿改 id） | `src/content/lexicon/concepts.json` |
 
-类型定义见 `src/lib/types.ts`（`Week` / `Lesson` / `Card` / `Exercise`）。
+一天一个文件，便于多人并行写同一周的不同天，也让 diff 可读。
 
-## 2. 一周文件的结构
+类型定义见 `src/lib/types.ts`（`Week` / `Lesson` / `Card` / `Exercise`）。
+完整范例：`src/content/weeks/week01/day1.json`（照此质量与密度写作）。
+
+## 2. 文件结构
+
+`weekNN/meta.json`：
 
 ```json
 {
   "week": 1,
   "theme": "词素、词根、词基与构词基础",
-  "intro": "2–4 句中文导语，说明本周要解决的问题，以及它与前后周的关系。",
-  "lessons": [ /* 恰好 7 个 Lesson */ ]
+  "intro": "2–4 句中文导语，说明本周要解决的问题，以及它与前后周的关系。"
 }
 ```
 
-`lesson.id` 必须为 `w{周两位}d{日一位}`，例如第 3 周第 2 天 = `w03d2`；
-`week` 字段与文件一致，`day` 为 1..7。
+`weekNN/dayN.json` = 一个 `Lesson` 对象（见第 3 节）。`id` 必须为 `w{周两位}d{日一位}`，
+例如第 3 周第 2 天 = `w03d2`；`week` 与目录一致，`day` 与文件名一致（`day3.json` → `day: 3`）。
 
 ## 3. Lesson 字段
 

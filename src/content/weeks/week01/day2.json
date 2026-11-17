@@ -1,0 +1,137 @@
+{
+  "id": "w01d2",
+  "week": 1,
+  "day": 2,
+  "title": "词根：一个词族的共同核心",
+  "tagline": "认出 struct、form、port 这类词根，并用“形态 + 语义”两条线画出词族的边界",
+  "objectives": [
+    "能说出词根与自由词素的区别，并指出哪些词根可以独立成词",
+    "能用 struct、form、port 各扩展出三个同族词并说明共享的核心义",
+    "能判断两个拼写相似的词是否真的属于同一词根"
+  ],
+  "prereqs": ["w01d1", "c-morpheme"],
+  "concepts": ["c-root", "c-word-family", "c-morpheme"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "词根：词族里那块承载核心意义的部分",
+      "body": "你已经会切词了，接下来要认出一类特殊的词素：**词根**。它承载一个词族的核心词汇意义，但在现代英语里通常不能单独成词。以 `struct` 为例，它的意思是“建造、堆叠”，来自拉丁语 struere。\n\n- construct：con（共同）+ struct → 把材料堆到一起 → 建造\n- instruct：in（在内）+ struct → 在头脑里搭起结构 → 指导\n- obstruct：ob（对着、反着）+ struct → 挡在路前 → 阻塞\n\n三块共享同一个核心意义“建造、搭建”，所以它们属于同一词族。词根本身不是单词：你不会说 “I struct a bridge”。",
+      "terms": [
+        { "term": "root", "zh": "词根", "en": "root", "note": "词族中承载核心词汇意义、不可再分的部分" },
+        { "term": "word family", "zh": "词族", "en": "word family" }
+      ],
+      "morphemes": ["struct"]
+    },
+    {
+      "kind": "table",
+      "title": "先记三个高频词根",
+      "body": "这三个词根都来自拉丁语，但活跃程度不同：有的完全不能独立，有的已经变成普通单词。这个差别很重要，因为它决定了你能不能把词根当单词用。表格里每个例词的切分都按拼写顺序给出。",
+      "head": ["词根", "来源与核心义", "例词与切分"],
+      "rows": [
+        ["struct", "拉丁 struere 堆叠、建造", "construct = con + struct；instruct = in + struct；structure = struct + ure"],
+        ["form", "拉丁 forma 形状", "inform = in + form；reform = re + form；transform = trans + form"],
+        ["port", "拉丁 portare 携带", "import = im + port；export = ex + port；portable = port + able"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "有些词根可以独立成词",
+      "body": "词根不必然“不能单独成词”。`form` 就是独立的英语单词（“形式”），`act` 也是（“行动”）。判断标准不是“它看起来像不像词根”，而是**它在这个词族里是否承载核心意义、且能否再切分**。\n\n反过来也要小心：`port` 作为单词是“港口”，来自拉丁语 portus；而词根 port“携带”来自 portare。两者拼写相同、来源不同，**不是同一个词根**。只凭拼写相同就合并词族，是这一步最容易犯的错。",
+      "morphemes": ["form", "act", "port"]
+    },
+    {
+      "kind": "text",
+      "title": "词族的边界：意义必须能追溯",
+      "body": "判断两个词是否同族，要同时满足两条：**形态上能划出共同词根**，**语义上这条线索能说通**。\n\ncomfort 看起来含 -fort，很像 port 家族，但它是 com（加强）+ 拉丁 fortis（强壮），意思是“使强壮”，与“携带”无关，因此不在 port 词族里。\n\n再看 pedagogy：它含 ped-，却来自希腊语 pais“儿童”，指“引导儿童”，与拉丁 ped“脚”（pedal、pedestrian）毫无形态关系。**拼写撞车不等于同源**，这是本课要反复确认的边界。",
+      "morphemes": ["port", "ped"]
+    },
+    {
+      "kind": "compare",
+      "title": "词根与词基：今天先把界线画清",
+      "body": "这两个中文词只差一个字，指的东西却不同。词根是词族的“身份”，词基是某一次构词操作的“输入”。明天整节课讲词基，今天先建立对照。",
+      "a": "词根 root",
+      "b": "词基 base",
+      "rows": [
+        ["定义", "词族中承载核心词汇意义、不可再分的部分", "当前这一次构词操作所作用的形式"],
+        ["数量", "一个词族只有一个（可有拼写变体）", "每一步派生都不同"],
+        ["例子", "struct", "help → helpful 中的 help；helpful → unhelpful 中的 helpful"],
+        ["能否已带词缀", "本身不带词缀", "可以已经带词缀"]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w01d2-p1",
+      "kind": "mcq",
+      "prompt": "下面哪个词不属于“携带”词根 port 的词族？",
+      "choices": ["transport", "portable", "port（港口）", "export"],
+      "answer": 2,
+      "explain": "port“港口”来自拉丁语 portus“港口、入口”，与 portare“携带”只是拼写相同，来源不同。transport、portable、export 都含“携带、运送”这一核心义。",
+      "concepts": ["c-root", "c-word-family", "port"],
+      "hint": "先问每个词的核心义是不是“带过去”。"
+    },
+    {
+      "id": "w01d2-p2",
+      "kind": "mcq",
+      "prompt": "下面哪个词根在现代英语中可以直接单独成词？",
+      "choices": ["struct", "port（携带）", "form", "spect"],
+      "answer": 2,
+      "explain": "form 既是词根也是独立单词（“形式、形成”）。struct 只能出现在 construct、structure 这类词里；port 表示“携带”时不能独立成词；spect“看”同样必须附着（inspect、spectator）。",
+      "concepts": ["c-root", "c-morpheme"]
+    },
+    {
+      "id": "w01d2-p3",
+      "kind": "cloze",
+      "prompt": "填入正确的词根（只写字母串）",
+      "sentence": "The Latin root ___ means 'to build or heap up', as in construct and structure.",
+      "answer": "struct",
+      "accept": ["struct"],
+      "explain": "struct 来自拉丁 struere“堆叠、建造”，是 construct、instruct、obstruct、structure 共同的核心成分，属于粘着词根。",
+      "concepts": ["c-root", "struct"]
+    },
+    {
+      "id": "w01d2-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词：in + struct + ion",
+      "parts": ["in", "struct", "ion"],
+      "answer": "instruction",
+      "explain": "in（向内）+ struct（建造）+ ion（名词后缀）→ instruction“指导、指令”，字面是“在头脑里搭建起来的东西”。三块依次相接，拼写无需调整。",
+      "concepts": ["c-affix", "struct", "tion"]
+    },
+    {
+      "id": "w01d2-p5",
+      "kind": "mcq",
+      "prompt": "有学习者把 comfort 归入 port 词族，理由是“都含 -fort/-port，意思也差不多”。这个判断的问题在哪？",
+      "choices": [
+        "comfort 里的 fort 来自拉丁 fortis“强壮”，与 portare“携带”无关",
+        "comfort 是屈折变化，不能进词族",
+        "port 根本不是词素",
+        "comfort 来自希腊语，所以不能和拉丁词根组合"
+      ],
+      "answer": 0,
+      "explain": "comfort 是 com（加强）+ fortis（强壮）→“使强壮、使安慰”，核心义与“携带”无关。词族要求形态与语义双重可追溯，只靠拼写相似不够。",
+      "concepts": ["c-word-family", "c-etymology", "port"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w01d2-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "Because the entire calibration rig is transportable, the team can repeat the same measurement protocol in different laboratories, which makes cross-site comparison far more reliable.",
+      "word": "transportable",
+      "choices": ["可运输的、便于搬运的", "可翻译成多种语言的", "可无线传输数据的", "需要专门许可才能使用的"],
+      "answer": 0,
+      "strategy": "①切分 trans（跨越）+ port（携带）+ able（能够……的）；②-able 构成形容词，在句中作表语；③语境说“能在不同实验室重复同一套流程”，指向设备可以被搬动；④排除“翻译”：translate 虽也含 trans-，但 core 是 lat“携带”的另一条线，不能类推。",
+      "explain": "trans + port + able 字面是“能够被带过去的”。trans- 表“跨越”，port 表“携带”，合起来就是“可运输的”。这里说的是整套标定设备，所以选择“便于搬运”这一义项。",
+      "concepts": ["trans", "port", "able", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 2 章：拉丁词根与词族的构成" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：root、base 与派生关系" },
+    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "port（portus 与 portare 分属不同词条）、comfort、pedagogy 的词源" }
+  ]
+}

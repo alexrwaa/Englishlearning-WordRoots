@@ -50,6 +50,9 @@ jobs:
       - uses: Swatinem/rust-cache@v2
         with:
           workspaces: src-tauri
+      - name: Provide frontend dist for tauri context
+        shell: bash
+        run: mkdir -p dist && printf '<!doctype html><title>ci</title>' > dist/index.html
       - name: cargo check
         working-directory: src-tauri
         run: cargo check --all-targets

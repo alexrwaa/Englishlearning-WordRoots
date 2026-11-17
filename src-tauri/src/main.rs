@@ -1,10 +1,11 @@
+#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+
 mod commands;
 mod db;
 mod paths;
 
 use std::sync::Mutex;
 
-#[cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 fn main() {
     paths::configure_webview_dir();
     if let Err(err) = paths::ensure_layout() {

@@ -1,11 +1,14 @@
 /**
- * Content registry. Course JSON is bundled at build time (offline safe) and can
- * be overridden at runtime by files in `<exe dir>/courses/` for content updates
- * without rebuilding the app.
+ * Content registry. Course JSON is bundled at build time (offline safe).
+ *
+ * Layout: `content/weeks/weekNN/meta.json` (week theme) plus one file per day
+ * (`day1.json` … `day7.json`). Splitting the week into per-day files keeps the
+ * content pipeline mergeable: several authors can write different days of the
+ * same week without touching the same file.
  */
 import type { Concept, Curriculum, Lesson, Morpheme, Week, WordEntry } from './types';
 
-const weekModules = import.meta.glob<{ default: Week }>('../content/weeks/*.json', {
+const weekModules = import.meta.glob<{ default: unknown }>('../content/weeks/**/*.json', {
   eager: true,
 });
 const morphemeModules = import.meta.glob<{ default: Morpheme[] }>('../content/lexicon/morphemes.json', {
@@ -18,13 +21,44 @@ const conceptModules = import.meta.glob<{ default: Concept[] }>('../content/lexi
   eager: true,
 });
 
+interface WeekMeta {
+  week: number;
+  theme: string;
+  intro: string;
+}
+
+const weekMetas = new Map<number, WeekMeta>();
+const weekLessons = new Map<number, Lesson[]>();
+
+for (const [path, mod] of Object.entries(weekModules)) {
+  const match = /weeks\/week(\d{2})\/(.+)\.json$/.exec(path);
+  if (!match) continue;
+  const weekNo = Number(match[1]);
+  const file = match[2];
+  if (file === 'meta') {
+    weekMetas.set(weekNo, mod.default as WeekMeta);
+  } else {
+    const lesson = mod.default as Lesson;
+    const list = weekLessons.get(weekNo) ?? [];
+    list.push(lesson);
+    weekLessons.set(weekNo, list);
+  }
+}
+
 function collect<T>(mods: Record<string, { default: T }>): T[] {
   return Object.keys(mods)
     .sort()
     .map((k) => mods[k].default);
 }
 
-const weeks: Week[] = collect(weekModules).sort((a, b) => a.week - b.week);
+const weeks: Week[] = [...weekMetas.entries()]
+  .sort((a, b) => a[0] - b[0])
+  .map(([weekNo, meta]) => ({
+    week: weekNo,
+    theme: meta.theme,
+    intro: meta.intro,
+    lessons: (weekLessons.get(weekNo) ?? []).sort((a, b) => a.day - b.day),
+  }));
 const morphemes: Morpheme[] = collect(morphemeModules).flat();
 const words: WordEntry[] = collect(wordModules).flat();
 const concepts: Concept[] = collect(conceptModules).flat();

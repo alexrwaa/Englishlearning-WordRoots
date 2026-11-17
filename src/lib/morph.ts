@@ -30,7 +30,7 @@ export interface BuildResult {
 function joinPrefix(prefix: string, base: string): { text: string; steps: SpellingStep[] } {
   const p = prefix.replace(/-+$/, '');
   const steps: SpellingStep[] = [];
-  let text = p + base;
+  const text = p + base;
   if (p.endsWith(base[0] ?? '')) {
     steps.push({ rule: 'prefix ends with the base’s first letter; keep both letters', before: `${p}+${base}`, after: text });
   }

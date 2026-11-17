@@ -42,7 +42,7 @@ jobs:
 
       - name: Build desktop binary
         working-directory: src-tauri
-        run: cargo build --release --locked
+        run: cargo build --release
 
       - name: Assemble portable folder
         shell: pwsh

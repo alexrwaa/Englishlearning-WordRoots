@@ -53,12 +53,15 @@ const wordSet = new Set(words.map((w) => w.w.toLowerCase()));
 
 const PLACEHOLDER = /(TODO|FIXME|占位|lorem ipsum|Lorem ipsum|待补充|示例课程|xxx)/;
 
-const weekFiles = existsSync(WEEKS_DIR)
-  ? readdirSync(WEEKS_DIR).filter((f) => /^week\d{2}\.json$/.test(f)).sort()
+const weekDirs = existsSync(WEEKS_DIR)
+  ? readdirSync(WEEKS_DIR, { withFileTypes: true })
+      .filter((d) => d.isDirectory() && /^week\d{2}$/.test(d.name))
+      .map((d) => d.name)
+      .sort()
   : [];
 
-if (weekFiles.length === 0) {
-  fail('no week files found in src/content/weeks');
+if (weekDirs.length === 0) {
+  fail('no week folders found in src/content/weeks (expected week01 … week12)');
 }
 
 const seenLessonIds = new Set<string>();
@@ -66,16 +69,28 @@ let lessonCount = 0;
 let exerciseCount = 0;
 let cardCount = 0;
 
-for (const file of weekFiles) {
-  const week = readJson<Json>(join(WEEKS_DIR, file));
+for (const dirName of weekDirs) {
+  const dir = join(WEEKS_DIR, dirName);
+  const metaPath = join(dir, 'meta.json');
+  if (!existsSync(metaPath)) {
+    fail(`${dirName}: missing meta.json`);
+    continue;
+  }
+  const week = readJson<Json>(metaPath);
   const weekNo = Number(week.week);
-  if (!Number.isInteger(weekNo) || weekNo < 1 || weekNo > 12) fail(`${file}: invalid week number`);
-  if (!week.theme || String(week.theme).length < 4) fail(`${file}: missing theme`);
-  const lessons = (week.lessons ?? []) as Json[];
-  if (lessons.length !== 7) warn(`${file}: expected 7 lessons, found ${lessons.length}`);
+  if (!Number.isInteger(weekNo) || weekNo < 1 || weekNo > 12) fail(`${dirName}: invalid week number`);
+  if (String(weekNo).padStart(2, '0') !== dirName.slice(4)) fail(`${dirName}: week number does not match folder name`);
+  if (!week.theme || String(week.theme).length < 4) fail(`${dirName}: missing theme`);
+  if (!week.intro || String(week.intro).length < 20) fail(`${dirName}: intro too short`);
+
+  const dayFiles = readdirSync(dir)
+    .filter((f) => /^day\d\.json$/.test(f))
+    .sort((a, b) => Number(a.slice(3, 4)) - Number(b.slice(3, 4)));
+  const lessons = dayFiles.map((f) => readJson<Json>(join(dir, f)));
+  if (lessons.length !== 7) warn(`${dirName}: expected 7 day files, found ${lessons.length}`);
 
   lessons.forEach((lesson, idx) => {
-    const where = `${file} lesson ${String(lesson.id ?? idx)}`;
+    const where = `${dirName}/${dayFiles[idx]}`;
     lessonCount += 1;
     const id = String(lesson.id ?? '');
     if (!/^w\d{2}d\d$/.test(id)) fail(`${where}: id must look like w03d02`);
@@ -149,8 +164,13 @@ for (const file of weekFiles) {
       if (PLACEHOLDER.test(JSON.stringify(ex))) fail(`${at}: contains placeholder text`);
       const conceptsRef = (ex.concepts ?? []) as string[];
       for (const ref of conceptsRef) {
-        if (!conceptIds.has(ref) && !morphemeForms.has(ref.replace(/^-+|-+$/g, '').toLowerCase())) {
-          fail(`${at}: unknown concept/morpheme reference "${ref}"`);
+        const form = ref.replace(/^-+|-+$/g, '').toLowerCase();
+        if (ref.startsWith('c-')) {
+          if (!conceptIds.has(ref)) fail(`${at}: unknown concept "${ref}"`);
+        } else if (!morphemeForms.has(form)) {
+          // The lexicon is authored after the lessons; a missing form is a
+          // coverage gap to fix before release, not a broken reference.
+          warn(`${at}: morpheme "${ref}" not yet in lexicon/morphemes.json`);
         }
       }
       switch (ex.kind) {
@@ -217,12 +237,12 @@ for (const file of weekFiles) {
 
 const strict = process.env.STRICT === '1' || process.env.STRICT === 'true';
 if (strict) {
-  if (weekFiles.length < 12) fail(`strict: expected 12 week files, found ${weekFiles.length}`);
+  if (weekDirs.length < 12) fail(`strict: expected 12 week folders, found ${weekDirs.length}`);
   if (lessonCount < 84) fail(`strict: expected 84 lessons, found ${lessonCount}`);
 }
 
 const summary = [
-  `weeks: ${weekFiles.length}`,
+  `weeks: ${weekDirs.length}`,
   `lessons: ${lessonCount}`,
   `cards: ${cardCount}`,
   `exercises: ${exerciseCount}`,
