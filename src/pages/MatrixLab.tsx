@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Badge, EmptyState, Panel } from '../components/ui';
+import { Badge, Button, EmptyState, Panel } from '../components/ui';
 import { BasePicker } from '../components/matrix/BasePicker';
 import { MatrixGrid, type GridRow } from '../components/matrix/MatrixGrid';
-import { WordDetail, type MatrixSelection } from '../components/matrix/WordDetail';
+import { WordDetail, PRACTICE_QUEUE_KEY, type MatrixSelection } from '../components/matrix/WordDetail';
+import { PracticeQueue } from '../components/matrix/PracticeQueue';
 import {
   affixInventory,
   buildBaseCandidates,
@@ -56,6 +57,23 @@ export default function MatrixLab() {
   const base = baseChoice || candidates[0]?.form || '';
 
   const [selection, setSelection] = useState<MatrixSelection | null>(null);
+  const [queueOpen, setQueueOpen] = useState(false);
+  const [queueCount, setQueueCount] = useState(0);
+
+  useEffect(() => {
+    const read = () => {
+      try {
+        const raw = localStorage.getItem(PRACTICE_QUEUE_KEY);
+        const list = raw ? (JSON.parse(raw) as unknown) : [];
+        setQueueCount(Array.isArray(list) ? list.length : 0);
+      } catch {
+        setQueueCount(0);
+      }
+    };
+    read();
+    window.addEventListener('focus', read);
+    return () => window.removeEventListener('focus', read);
+  }, [queueOpen]);
   const [pos, setPos] = useState<PosFilter>('all');
   const [onlyAttested, setOnlyAttested] = useState(false);
   const [suffixFilter, setSuffixFilter] = useState('');
@@ -204,6 +222,9 @@ export default function MatrixLab() {
         <div className="row" style={{ gap: 8, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
           <Badge tone="accent">{familyWords.length} 个词族词条</Badge>
           <Badge>{attestedTotal} 格已收录</Badge>
+          <Button size="sm" onClick={() => setQueueOpen(true)}>
+            练习队列{queueCount > 0 ? ` (${queueCount})` : ''}
+          </Button>
         </div>
       </header>
 
@@ -306,6 +327,7 @@ export default function MatrixLab() {
 
         <WordDetail selection={current} base={base} family={family} onPick={pickFamilyWord} />
       </div>
+      <PracticeQueue open={queueOpen} onClose={() => setQueueOpen(false)} />
     </div>
   );
 }
