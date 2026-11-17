@@ -163,7 +163,15 @@ export default function Stats() {
         <Panel>
           <Stat
             label="总学习时长"
-            value={totalMinutes < 60 ? `${totalMinutes} 分钟` : `${(totalMinutes / 60).toFixed(1)} 小时`}
+            value={
+              totalMinutes === 0
+                ? '0 分钟'
+                : totalMinutes < 1
+                  ? '不足 1 分钟'
+                  : totalMinutes < 60
+                    ? `${totalMinutes} 分钟`
+                    : `${(totalMinutes / 60).toFixed(1)} 小时`
+            }
             hint={`累计 ${totalMinutes} 分钟`}
           />
         </Panel>

@@ -10,8 +10,13 @@ WordRoots 是一个**离线优先的 Windows 桌面学习工具**，把英语构
 
 ## 下载
 
-前往 [Releases](../../releases/latest) 下载 `WordRoots-Portable-Windows-x64.zip`，解压到任意目录，
-双击 `WordRoots.exe` 即可。无需安装、无需联网、无需 Node/Rust 环境。
+**[下载最新便携版](https://github.com/alexrwaa/Englishlearning-WordRoots/releases/latest)** ·
+`WordRoots-Portable-Windows-x64.zip`（约 2 MB，v0.1.0）
+
+解压到任意目录（支持中文与空格路径），双击 `WordRoots.exe` 即可。无需安装、无需联网、无需 Node/Rust 环境。
+同一 Release 附带 `WordRoots-SHA256.txt` 用于校验。
+
+![今日学习](docs/screenshots/01-home.png)
 
 ```
 WordRoots/
@@ -26,6 +31,20 @@ WordRoots/
 便携性：软件自身写入的所有数据都在 `WordRoots.exe` 所在目录内，**不写 `%APPDATA%`/文档/用户目录**。
 整个文件夹复制到别的磁盘或电脑，学习记录一起走。（WebView2 运行时本身由 Windows 维护，
 可能产生系统级临时文件，这不属于本软件的可控数据。）
+
+## 界面
+
+| 构词实验室 | 词源词典 |
+|---|---|
+| ![构词实验室](docs/screenshots/03-matrix.png) | ![词源词典](docs/screenshots/04-word-etymology.png) |
+
+| 每日学习 | 学习统计 |
+|---|---|
+| ![课程](docs/screenshots/06-session.png) | ![统计](docs/screenshots/07-stats.png) |
+
+| 12 周课程 | 深色阅读主题 |
+|---|---|
+| ![课程地图](docs/screenshots/02-course.png) | ![深色主题](docs/screenshots/09-dark-theme.png) |
 
 ## 功能
 
@@ -101,6 +120,16 @@ CI 负责类型检查、ESLint、单元测试、课程内容校验与无占位�
   仅作历史对照，其词源结论均按现代资料复核，不与现代语言学结论等同。
 
 详见 [`docs/COPYRIGHT.md`](docs/COPYRIGHT.md)。
+
+## 验证状态
+
+- CI：类型检查、ESLint、37 个单元测试、课程 JSON 校验、无占位页检查、生产构建全部通过。
+- Windows 构建：GitHub Actions 上 14 步全绿，包含**真实启动冒烟测试**（在含空格与中文的临时目录里
+  启动 EXE，确认数据库与日志落在程序目录内、重启后仍在）。
+- 本机实测：从 Release 下载 ZIP，在 `…\便携 测试\` 路径启动成功；复制整个文件夹到新路径后学习记录完整保留，
+  `schema_version` 未重复迁移。
+- 端到端：脚本驱动真实前端完成 3 节课（18 次作答、60 次复习评分），刷新后进度仍在。
+- 详细记录与**未自动验证项**见 [`docs/VERIFICATION.md`](docs/VERIFICATION.md)。
 
 ## 已知限制
 
