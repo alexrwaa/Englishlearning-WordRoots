@@ -31,11 +31,9 @@ jobs:
       - name: Unit tests
         run: npm test
       - name: Course content validation
-        if: ${{ hashFiles('src/content/weeks/week01.json') != '' }}
         run: npm run validate:content
       - name: No placeholder pages
-        if: ${{ hashFiles('src/pages/Home.tsx') != '' }}
-        run: npx tsx scripts/check-stubs.ts
+        run: npm run check:stubs
       - name: Frontend production build
         run: npm run build
 
