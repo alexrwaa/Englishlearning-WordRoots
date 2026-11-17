@@ -41,11 +41,14 @@ describe('buildWord', () => {
   it('joins a prefix and suffix around a base', () => {
     const r = buildWord('un', 'help', 'ful');
     expect(r.word).toBe('unhelpful');
-    expect(r.attested).toBe(false); // lexicon is owned by content, not by this unit test
+    // The lexicon confirms the form, so the matrix may present it as a real word.
+    expect(r.attested).toBe(true);
+    expect(r.entry?.parts).toEqual(['un', 'help', 'ful']);
   });
 
   it('never claims a word exists without lexicon evidence', () => {
     expect(buildWord('', 'zzz', 'qqq').attested).toBe(false);
+    expect(buildWord('un', 'struct', 'ion').attested).toBe(false);
   });
 });
 

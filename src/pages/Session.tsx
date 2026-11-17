@@ -125,6 +125,7 @@ function SessionFlow({ lesson }: { lesson: Lesson }) {
   }, [stageIdx, index]);
 
   const goNext = useCallback(() => {
+    if (stages.length === 0) return;
     if (needsAnswer && !answered) return;
     if (index + 1 < stage.count) {
       setIndex(index + 1);

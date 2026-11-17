@@ -1,0 +1,7768 @@
+[
+  {
+    "w": "abstain",
+    "parts": [
+      "abs",
+      "tain"
+    ],
+    "pos": "v",
+    "glossZh": "弃权；戒除",
+    "tags": [
+      "abs",
+      "tain"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "abstract",
+    "parts": [
+      "abs",
+      "tract"
+    ],
+    "pos": "adj",
+    "glossZh": "抽象的；摘要的",
+    "glossEn": "pulled away from concrete things",
+    "tags": [
+      "abs",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "accept",
+    "parts": [
+      "ac",
+      "cept"
+    ],
+    "pos": "v",
+    "glossZh": "接受；认可；承认",
+    "tags": [
+      "ac",
+      "cept"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "acceptable",
+    "parts": [
+      "ac",
+      "cept",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "可接受的；令人满意的",
+    "tags": [
+      "able",
+      "ac",
+      "cept"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "access",
+    "parts": [
+      "ac",
+      "cess"
+    ],
+    "pos": "v",
+    "glossZh": "访问；获取",
+    "glossEn": "to gain entry to data or a place",
+    "tags": [
+      "ac",
+      "cess"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "act",
+    "parts": [
+      "act"
+    ],
+    "pos": "v",
+    "glossZh": "行动；表演；起作用",
+    "glossEn": "to do something; to perform",
+    "tags": [
+      "act"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "action",
+    "parts": [
+      "act",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "行动；作用；诉讼",
+    "tags": [
+      "act",
+      "ion"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "activate",
+    "parts": [
+      "act",
+      "ive",
+      "ate"
+    ],
+    "pos": "v",
+    "glossZh": "激活；启动",
+    "tags": [
+      "act",
+      "ate",
+      "ive"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "activation",
+    "parts": [
+      "act",
+      "ive",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "激活；活化",
+    "tags": [
+      "act",
+      "ation",
+      "ive"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "active",
+    "parts": [
+      "act",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "积极的；活跃的；主动的",
+    "tags": [
+      "act",
+      "ive"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "activity",
+    "parts": [
+      "act",
+      "ive",
+      "ity"
+    ],
+    "pos": "n",
+    "glossZh": "活动；活跃；活性",
+    "tags": [
+      "act",
+      "ity",
+      "ive"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "actor",
+    "parts": [
+      "act",
+      "or"
+    ],
+    "pos": "n",
+    "glossZh": "演员；行动者",
+    "tags": [
+      "act",
+      "or"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "actual",
+    "parts": [
+      "act",
+      "ual"
+    ],
+    "pos": "adj",
+    "glossZh": "实际的；真实的",
+    "tags": [
+      "act",
+      "ual"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "actuate",
+    "parts": [
+      "act",
+      "u",
+      "ate"
+    ],
+    "pos": "v",
+    "glossZh": "驱动；促动；激励",
+    "glossEn": "to put into motion",
+    "tags": [
+      "act",
+      "ate",
+      "u"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "actuator",
+    "parts": [
+      "act",
+      "uator"
+    ],
+    "pos": "n",
+    "glossZh": "执行器、致动器",
+    "glossEn": "a device that moves or controls something",
+    "ety": {
+      "from": "act（拉丁 agere“做”）+ -uate + -or",
+      "note": "act → actuate → actuator 的逐层派生，机器人语域指驱动关节的装置。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary",
+          "detail": "actuate"
+        }
+      ]
+    },
+    "tags": [
+      "act",
+      "c-derivation"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "ad",
+    "parts": [
+      "ad"
+    ],
+    "pos": "n",
+    "glossZh": "广告",
+    "ety": {
+      "from": "advertisement 的截短形式",
+      "note": "19 世纪报刊口语截短。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "ad"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "adjective",
+    "parts": [
+      "ad",
+      "ject",
+      "ive"
+    ],
+    "pos": "n",
+    "glossZh": "形容词",
+    "glossEn": "a word thrown alongside a noun",
+    "tags": [
+      "ad",
+      "ive",
+      "ject"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "admit",
+    "parts": [
+      "ad",
+      "mit"
+    ],
+    "pos": "v",
+    "glossZh": "承认；准许进入",
+    "tags": [
+      "ad",
+      "mit"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "advertise",
+    "parts": [
+      "ad",
+      "vert",
+      "ise"
+    ],
+    "pos": "v",
+    "glossZh": "做广告；宣传；征聘",
+    "tags": [
+      "ad",
+      "ise",
+      "vert"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "advertisement",
+    "parts": [
+      "ad",
+      "vert",
+      "ise",
+      "ment"
+    ],
+    "pos": "n",
+    "glossZh": "广告；宣传",
+    "tags": [
+      "ad",
+      "ise",
+      "ment",
+      "vert"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "agreement",
+    "parts": [
+      "agree",
+      "ment"
+    ],
+    "pos": "n",
+    "glossZh": "协议；同意；一致",
+    "tags": [
+      "agree",
+      "ment"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "ai",
+    "parts": [
+      "ai"
+    ],
+    "pos": "n",
+    "glossZh": "人工智能",
+    "ety": {
+      "from": "artificial intelligence 的首字母缩写",
+      "note": "1956 年达特茅斯会议后成为学科名称。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "ai"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "algorithm",
+    "parts": [
+      "algorithm"
+    ],
+    "pos": "n",
+    "glossZh": "算法",
+    "ety": {
+      "from": "中古拉丁 algorismus，源自 9 世纪数学家花拉子米（al-Khwārizmī）的名字",
+      "firstAttested": "13 世纪",
+      "note": "原指“用阿拉伯数字计算的方法”，后泛指解题步骤；现代计算机义是 20 世纪的专门化。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "algorithm"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "analysis",
+    "parts": [
+      "ana",
+      "lys",
+      "is"
+    ],
+    "pos": "n",
+    "glossZh": "分析；解析",
+    "ety": {
+      "from": "希腊 analysis（拆解），ana-（向上、分开）+ lysis（松开）",
+      "firstAttested": "16 世纪",
+      "note": "16 世纪经拉丁语进入英语，原是数学与逻辑术语；现代“数据分析”是同一“拆开来看”的隐喻。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "ana",
+      "is",
+      "lys"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "apologize",
+    "parts": [
+      "apo",
+      "log",
+      "ize"
+    ],
+    "pos": "v",
+    "glossZh": "道歉；认错",
+    "tags": [
+      "apo",
+      "ize",
+      "log"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "artist",
+    "parts": [
+      "art",
+      "ist"
+    ],
+    "pos": "n",
+    "glossZh": "艺术家；画家",
+    "tags": [
+      "art",
+      "ist"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "astronomy",
+    "parts": [
+      "astro",
+      "nom",
+      "y"
+    ],
+    "pos": "n",
+    "glossZh": "天文学",
+    "glossEn": "the law of the stars",
+    "tags": [
+      "astro",
+      "nom",
+      "y"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "attract",
+    "parts": [
+      "at",
+      "tract"
+    ],
+    "pos": "v",
+    "glossZh": "吸引；引起",
+    "tags": [
+      "at",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "attraction",
+    "parts": [
+      "at",
+      "tract",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "吸引力；吸引人的事物",
+    "tags": [
+      "at",
+      "ion",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "attractive",
+    "parts": [
+      "at",
+      "tract",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "有吸引力的；漂亮的",
+    "tags": [
+      "at",
+      "ive",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "automatic",
+    "parts": [
+      "auto",
+      "mat",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossZh": "自动的；无意识的",
+    "glossEn": "acting by itself",
+    "tags": [
+      "auto",
+      "ic",
+      "mat"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "automation",
+    "parts": [
+      "auto",
+      "mat",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "自动化",
+    "glossEn": "the use of automatic equipment",
+    "tags": [
+      "auto",
+      "ion",
+      "mat"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "autonomous",
+    "parts": [
+      "auto",
+      "nom",
+      "ous"
+    ],
+    "pos": "adj",
+    "glossZh": "自主的；自治的；自动驾驶的",
+    "glossEn": "self-governing; operating independently",
+    "tags": [
+      "auto",
+      "nom",
+      "ous"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "autonomy",
+    "parts": [
+      "auto",
+      "nom",
+      "y"
+    ],
+    "pos": "n",
+    "glossZh": "自治；自主权",
+    "glossEn": "giving oneself one's own law",
+    "tags": [
+      "auto",
+      "nom",
+      "y"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "awful",
+    "parts": [
+      "awful"
+    ],
+    "pos": "adj",
+    "glossZh": "糟糕的；可怕的；极其的",
+    "ety": {
+      "from": "古英语 egefull（充满敬畏的），ege 恐惧 + -full",
+      "firstAttested": "古英语时期",
+      "note": "原义“令人敬畏的”，19 世纪口语中弱化为“糟糕的、极坏的”，并发展出加强副词用法。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "awful"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "bicycle",
+    "parts": [
+      "bi",
+      "cycle"
+    ],
+    "pos": "n",
+    "glossZh": "自行车",
+    "tags": [
+      "bi",
+      "cycle"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "bilingual",
+    "parts": [
+      "bi",
+      "lingu",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "双语的；会说两种语言的",
+    "tags": [
+      "al",
+      "bi",
+      "lingu"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "biology",
+    "parts": [
+      "bio",
+      "logy"
+    ],
+    "pos": "n",
+    "glossZh": "生物学",
+    "ety": {
+      "from": "bio-（生命）+ -logy（学科），源自希腊语",
+      "firstAttested": "1802 年",
+      "note": "1802 年由拉马克等人在科学拉丁语/法语中同时提出，属近代人造学科名。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "bio",
+      "logy"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "book",
+    "parts": [
+      "book"
+    ],
+    "pos": "v",
+    "glossZh": "预订",
+    "glossEn": "to reserve in advance",
+    "tags": [
+      "book",
+      "c-conversion"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "broadcast",
+    "parts": [
+      "broad",
+      "cast"
+    ],
+    "pos": "v",
+    "glossZh": "播送；传播（信息）",
+    "glossEn": "to scatter seed widely, hence to transmit widely",
+    "ety": {
+      "from": "broad（广泛）+ cast（撒、投）的复合词",
+      "note": "原为农业术语“撒播种子”，20 世纪广播技术借用为“向大众播送”。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "broad",
+      "cast"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "brunch",
+    "parts": [
+      "brunch"
+    ],
+    "pos": "n",
+    "glossZh": "早午餐",
+    "ety": {
+      "from": "breakfast + lunch 的混成词",
+      "firstAttested": "1895 年",
+      "note": "19 世纪末英国校园俚语，取 breakfast 的首部与 lunch 的尾部拼合。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "brunch"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "bug",
+    "parts": [
+      "bug"
+    ],
+    "pos": "n",
+    "glossZh": "虫子；程序错误；窃听器",
+    "ety": {
+      "from": "中古英语 bugge（昆虫；鬼怪），确切来源有争议",
+      "note": "“程序错误”义在 20 世纪 40–70 年代的计算语境中定型，与“虫子”义是同一词的隐喻扩展；词源细节仍有争议，不宜细说年代。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "bug"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "calibrate",
+    "parts": [
+      "calibr",
+      "ate"
+    ],
+    "pos": "v",
+    "glossZh": "校准；标定",
+    "glossEn": "to adjust an instrument against a standard",
+    "tags": [
+      "ate",
+      "calibr"
+    ],
+    "domain": "sensor"
+  },
+  {
+    "w": "calibration",
+    "parts": [
+      "calibr",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "校准；标定",
+    "glossEn": "the act of adjusting an instrument to a standard",
+    "tags": [
+      "ation",
+      "calibr"
+    ],
+    "domain": "sensor"
+  },
+  {
+    "w": "capable",
+    "parts": [
+      "cap",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "有能力的；能够的",
+    "tags": [
+      "able",
+      "cap"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "capacity",
+    "parts": [
+      "cap",
+      "acity"
+    ],
+    "pos": "n",
+    "glossZh": "容量；能力；产能",
+    "tags": [
+      "acity",
+      "cap"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "capitalism",
+    "parts": [
+      "capital",
+      "ism"
+    ],
+    "pos": "n",
+    "glossZh": "资本主义",
+    "tags": [
+      "capital",
+      "ism"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "captive",
+    "parts": [
+      "capt",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "被俘的；受制的",
+    "tags": [
+      "capt",
+      "ive"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "capture",
+    "parts": [
+      "capt",
+      "ure"
+    ],
+    "pos": "v",
+    "glossZh": "捕获；夺取；记录",
+    "glossEn": "to take hold of",
+    "tags": [
+      "capt",
+      "ure"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "carefully",
+    "parts": [
+      "care",
+      "ful",
+      "ly"
+    ],
+    "pos": "adv",
+    "glossZh": "小心地；仔细地",
+    "tags": [
+      "care",
+      "ful",
+      "ly"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "carrying",
+    "parts": [
+      "carry",
+      "ing"
+    ],
+    "pos": "n",
+    "glossZh": "携带；运送",
+    "glossEn": "the act of carrying",
+    "tags": [
+      "carry",
+      "ing"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "centipede",
+    "parts": [
+      "centi",
+      "ped",
+      "e"
+    ],
+    "pos": "n",
+    "glossZh": "蜈蚣",
+    "tags": [
+      "centi",
+      "e",
+      "ped"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "childhood",
+    "parts": [
+      "child",
+      "hood"
+    ],
+    "pos": "n",
+    "glossZh": "童年；幼年时期",
+    "tags": [
+      "child",
+      "hood"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "circumspect",
+    "parts": [
+      "circum",
+      "spect"
+    ],
+    "pos": "adj",
+    "glossZh": "谨慎的；周密的",
+    "tags": [
+      "circum",
+      "spect"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "civilization",
+    "parts": [
+      "civil",
+      "ize",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "文明；文明社会",
+    "tags": [
+      "ation",
+      "civil",
+      "ize"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "clarify",
+    "parts": [
+      "clar",
+      "ify"
+    ],
+    "pos": "v",
+    "glossZh": "澄清；阐明",
+    "tags": [
+      "clar",
+      "ify"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "cloud",
+    "parts": [
+      "cloud"
+    ],
+    "pos": "n",
+    "glossZh": "云；云端（云计算）",
+    "ety": {
+      "from": "古英语 clūd（岩块、土丘）",
+      "firstAttested": "古英语时期",
+      "note": "本义指“岩块、丘”，中古英语转指天空中的云团（与 clod 同源分化）；“云计算/云端”是 21 世纪初的隐喻扩展。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "cloud"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "comfortable",
+    "parts": [
+      "comfort",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "舒适的；自在的",
+    "tags": [
+      "able",
+      "comfort"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "commit",
+    "parts": [
+      "com",
+      "mit"
+    ],
+    "pos": "v",
+    "glossZh": "犯（罪）；承诺；投入",
+    "tags": [
+      "com",
+      "mit"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "component",
+    "parts": [
+      "com",
+      "pon",
+      "ent"
+    ],
+    "pos": "n",
+    "glossZh": "部件；组成部分；分量",
+    "tags": [
+      "com",
+      "ent",
+      "pon"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "compose",
+    "parts": [
+      "com",
+      "pos",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "组成；创作；使平静",
+    "tags": [
+      "com",
+      "e",
+      "pos"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "composition",
+    "parts": [
+      "com",
+      "posit",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "组成；作品；作文",
+    "tags": [
+      "com",
+      "ion",
+      "posit"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "concept",
+    "parts": [
+      "con",
+      "cept"
+    ],
+    "pos": "n",
+    "glossZh": "概念；观念",
+    "tags": [
+      "cept",
+      "con"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "conception",
+    "parts": [
+      "con",
+      "cept",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "概念；构想；受孕",
+    "tags": [
+      "cept",
+      "con",
+      "ion"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "conduct",
+    "parts": [
+      "con",
+      "duct"
+    ],
+    "pos": "v",
+    "glossZh": "实施；指挥；传导",
+    "glossEn": "to lead or carry out; to transmit heat or electricity",
+    "tags": [
+      "con",
+      "duct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "conductor",
+    "parts": [
+      "con",
+      "duct",
+      "or"
+    ],
+    "pos": "n",
+    "glossZh": "导体；指挥；售票员",
+    "tags": [
+      "con",
+      "duct",
+      "or"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "conference",
+    "parts": [
+      "con",
+      "fer",
+      "ence"
+    ],
+    "pos": "n",
+    "glossZh": "会议；研讨会",
+    "tags": [
+      "con",
+      "ence",
+      "fer"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "conform",
+    "parts": [
+      "con",
+      "form"
+    ],
+    "pos": "v",
+    "glossZh": "遵从；符合；一致",
+    "tags": [
+      "con",
+      "form"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "construct",
+    "parts": [
+      "con",
+      "struct"
+    ],
+    "pos": "v",
+    "glossZh": "建造；构筑；构造",
+    "glossEn": "to build or form by putting parts together",
+    "tags": [
+      "con",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "construction",
+    "parts": [
+      "con",
+      "struct",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "建造；构造；建筑物",
+    "glossEn": "the act of building; something built",
+    "ety": {
+      "from": "拉丁 constructio（堆叠、建造），经古法语 construction 进入英语",
+      "firstAttested": "14 世纪",
+      "note": "con-（共同）+ struere（堆叠）的过去分词词干 struct-；-ion 是拉丁名词后缀。",
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements"
+        }
+      ]
+    },
+    "tags": [
+      "con",
+      "ion",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "contain",
+    "parts": [
+      "con",
+      "tain"
+    ],
+    "pos": "v",
+    "glossZh": "包含；容纳；控制",
+    "tags": [
+      "con",
+      "tain"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "container",
+    "parts": [
+      "con",
+      "tain",
+      "er"
+    ],
+    "pos": "n",
+    "glossZh": "容器；集装箱",
+    "tags": [
+      "con",
+      "er",
+      "tain"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "containment",
+    "parts": [
+      "con",
+      "tain",
+      "ment"
+    ],
+    "pos": "n",
+    "glossZh": "控制；遏制；密闭",
+    "tags": [
+      "con",
+      "ment",
+      "tain"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "contract",
+    "parts": [
+      "con",
+      "tract"
+    ],
+    "pos": "n",
+    "glossZh": "合同；契约",
+    "glossEn": "a binding agreement; also to shrink",
+    "tags": [
+      "con",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "contraction",
+    "parts": [
+      "con",
+      "tract",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "收缩；缩略形式",
+    "tags": [
+      "con",
+      "ion",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "contradict",
+    "parts": [
+      "contra",
+      "dict"
+    ],
+    "pos": "v",
+    "glossZh": "反驳；与…矛盾",
+    "tags": [
+      "contra",
+      "dict"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "contradiction",
+    "parts": [
+      "contra",
+      "dict",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "矛盾；反驳",
+    "tags": [
+      "contra",
+      "dict",
+      "ion"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "converge",
+    "parts": [
+      "con",
+      "verg",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "收敛；汇聚",
+    "glossEn": "to come together toward a point",
+    "tags": [
+      "con",
+      "e",
+      "verg"
+    ],
+    "domain": "slam"
+  },
+  {
+    "w": "convergence",
+    "parts": [
+      "con",
+      "verg",
+      "ence"
+    ],
+    "pos": "n",
+    "glossZh": "收敛；汇聚",
+    "glossEn": "the process of coming together",
+    "tags": [
+      "con",
+      "ence",
+      "verg"
+    ],
+    "domain": "slam"
+  },
+  {
+    "w": "conversion",
+    "parts": [
+      "con",
+      "vers",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "转换；转变；换算",
+    "tags": [
+      "con",
+      "ion",
+      "vers"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "convert",
+    "parts": [
+      "con",
+      "vert"
+    ],
+    "pos": "v",
+    "glossZh": "转换；改变信仰；兑换",
+    "tags": [
+      "con",
+      "vert"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "coupling",
+    "parts": [
+      "coupl",
+      "ing"
+    ],
+    "pos": "n",
+    "glossZh": "耦合；联接",
+    "glossEn": "a connection between parts or systems",
+    "tags": [
+      "coupl",
+      "ing"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "cpu",
+    "parts": [
+      "cpu"
+    ],
+    "pos": "n",
+    "glossZh": "中央处理器",
+    "ety": {
+      "from": "central processing unit 的首字母缩写",
+      "note": "按字母逐个读出（initialism），属于现代技术术语的缩略构词。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "cpu"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "creativity",
+    "parts": [
+      "create",
+      "ive",
+      "ity"
+    ],
+    "pos": "n",
+    "glossZh": "创造力；创造性",
+    "tags": [
+      "create",
+      "ity",
+      "ive"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "credibility",
+    "parts": [
+      "cred",
+      "ibil",
+      "ity"
+    ],
+    "pos": "n",
+    "glossZh": "可信度；可靠性",
+    "tags": [
+      "cred",
+      "ibil",
+      "ity"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "credible",
+    "parts": [
+      "cred",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossZh": "可信的；可靠的",
+    "tags": [
+      "cred",
+      "ible"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "credit",
+    "parts": [
+      "credit"
+    ],
+    "pos": "n",
+    "glossZh": "信用；学分；贷款",
+    "glossEn": "belief in someone, hence trust and a unit of study",
+    "tags": [
+      "credit"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "creditor",
+    "parts": [
+      "credit",
+      "or"
+    ],
+    "pos": "n",
+    "glossZh": "债权人；贷方",
+    "tags": [
+      "credit",
+      "or"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "creed",
+    "parts": [
+      "creed"
+    ],
+    "pos": "n",
+    "glossZh": "信条；教义",
+    "tags": [
+      "creed"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "dangerous",
+    "parts": [
+      "danger",
+      "ous"
+    ],
+    "pos": "adj",
+    "glossZh": "危险的",
+    "tags": [
+      "danger",
+      "ous"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "database",
+    "parts": [
+      "data",
+      "base"
+    ],
+    "pos": "n",
+    "glossZh": "数据库",
+    "glossEn": "a structured store of data",
+    "tags": [
+      "base",
+      "data"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "dataset",
+    "parts": [
+      "data",
+      "set"
+    ],
+    "pos": "n",
+    "glossZh": "数据集",
+    "glossEn": "a collection of data",
+    "tags": [
+      "data",
+      "set"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "debug",
+    "parts": [
+      "de",
+      "bug"
+    ],
+    "pos": "v",
+    "glossZh": "调试；排除故障",
+    "glossEn": "to remove faults from a system",
+    "tags": [
+      "bug",
+      "de"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "decoupled",
+    "parts": [
+      "de",
+      "coupl",
+      "ed"
+    ],
+    "pos": "adj",
+    "glossZh": "解耦的；已解耦的",
+    "glossEn": "separated so that they no longer affect each other",
+    "tags": [
+      "coupl",
+      "de",
+      "ed"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "deer",
+    "parts": [
+      "deer"
+    ],
+    "pos": "n",
+    "glossZh": "鹿",
+    "ety": {
+      "from": "古英语 dēor（野兽、动物）",
+      "firstAttested": "古英语时期",
+      "note": "本义泛指“动物”（德语 Tier 仍表动物），现代英语词义缩小为“鹿”。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "deer"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "deformation",
+    "parts": [
+      "de",
+      "form",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "变形；畸变",
+    "tags": [
+      "ation",
+      "de",
+      "form"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "demo",
+    "parts": [
+      "demo"
+    ],
+    "pos": "n",
+    "glossZh": "演示；样片",
+    "ety": {
+      "from": "demonstration 的截短形式",
+      "note": "口语截短，计算机语境指试用版。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "demo"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "deport",
+    "parts": [
+      "de",
+      "port"
+    ],
+    "pos": "v",
+    "glossZh": "驱逐出境；遣送",
+    "tags": [
+      "de",
+      "port"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "deposit",
+    "parts": [
+      "de",
+      "posit"
+    ],
+    "pos": "n",
+    "glossZh": "存款；沉积物；矿床",
+    "glossEn": "something placed down",
+    "tags": [
+      "de",
+      "posit"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "describe",
+    "parts": [
+      "de",
+      "scrib",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "描述；形容；描绘",
+    "tags": [
+      "de",
+      "e",
+      "scrib"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "description",
+    "parts": [
+      "de",
+      "script",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "描述；说明；种类",
+    "tags": [
+      "de",
+      "ion",
+      "script"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "descriptive",
+    "parts": [
+      "de",
+      "script",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "描述性的；描写的",
+    "tags": [
+      "de",
+      "ive",
+      "script"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "destruction",
+    "parts": [
+      "de",
+      "struct",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "破坏；毁灭",
+    "glossEn": "the act of destroying",
+    "tags": [
+      "de",
+      "ion",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "destructive",
+    "parts": [
+      "de",
+      "struct",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "破坏性的；毁灭性的",
+    "tags": [
+      "de",
+      "ive",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "detain",
+    "parts": [
+      "de",
+      "tain"
+    ],
+    "pos": "v",
+    "glossZh": "拘留；耽搁",
+    "tags": [
+      "de",
+      "tain"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "detection",
+    "parts": [
+      "de",
+      "tect",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "检测；察觉",
+    "glossEn": "the act of discovering something hidden",
+    "tags": [
+      "de",
+      "ion",
+      "tect"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "detention",
+    "parts": [
+      "de",
+      "tent",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "拘留；留堂",
+    "tags": [
+      "de",
+      "ion",
+      "tent"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "deterministic",
+    "parts": [
+      "de",
+      "termin",
+      "istic"
+    ],
+    "pos": "adj",
+    "glossZh": "确定性的",
+    "glossEn": "giving the same result for the same input",
+    "tags": [
+      "de",
+      "istic",
+      "termin"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "dictate",
+    "parts": [
+      "dict",
+      "ate"
+    ],
+    "pos": "v",
+    "glossZh": "口述；命令；支配",
+    "tags": [
+      "ate",
+      "dict"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "dictation",
+    "parts": [
+      "dict",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "口述；听写",
+    "tags": [
+      "ation",
+      "dict"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "dictator",
+    "parts": [
+      "dict",
+      "ator"
+    ],
+    "pos": "n",
+    "glossZh": "独裁者；口述者",
+    "tags": [
+      "ator",
+      "dict"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "dictionary",
+    "parts": [
+      "dict",
+      "ion",
+      "ary"
+    ],
+    "pos": "n",
+    "glossZh": "词典；字典",
+    "tags": [
+      "ary",
+      "dict",
+      "ion"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "differ",
+    "parts": [
+      "dif",
+      "fer"
+    ],
+    "pos": "v",
+    "glossZh": "不同；有分歧",
+    "tags": [
+      "dif",
+      "fer"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "difference",
+    "parts": [
+      "dif",
+      "fer",
+      "ence"
+    ],
+    "pos": "n",
+    "glossZh": "差别；差异",
+    "tags": [
+      "dif",
+      "ence",
+      "fer"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "disagree",
+    "parts": [
+      "dis",
+      "agree"
+    ],
+    "pos": "v",
+    "glossZh": "不同意；有分歧",
+    "tags": [
+      "agree",
+      "dis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "disappear",
+    "parts": [
+      "dis",
+      "appear"
+    ],
+    "pos": "v",
+    "glossZh": "消失；不见",
+    "tags": [
+      "appear",
+      "dis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "disaster",
+    "parts": [
+      "dis",
+      "aster"
+    ],
+    "pos": "n",
+    "glossZh": "灾难；灾害",
+    "ety": {
+      "from": "意大利语 disastro，dis-（坏）+ astro（星），源自拉丁 astrum",
+      "firstAttested": "16 世纪",
+      "note": "本义“星位不吉”，即占星术中的“凶星”，现代义“灾难”是隐喻的残留。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "aster",
+      "dis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "disconnect",
+    "parts": [
+      "dis",
+      "connect"
+    ],
+    "pos": "v",
+    "glossZh": "断开；脱离",
+    "tags": [
+      "connect",
+      "dis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "discredit",
+    "parts": [
+      "dis",
+      "credit"
+    ],
+    "pos": "v",
+    "glossZh": "使不可信；使丧失信誉",
+    "tags": [
+      "credit",
+      "dis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "dismiss",
+    "parts": [
+      "dis",
+      "miss"
+    ],
+    "pos": "v",
+    "glossZh": "解雇；驳回；不予考虑",
+    "tags": [
+      "dis",
+      "miss"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "distract",
+    "parts": [
+      "dis",
+      "tract"
+    ],
+    "pos": "v",
+    "glossZh": "分散（注意力）；使分心",
+    "tags": [
+      "dis",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "divergence",
+    "parts": [
+      "di",
+      "verg",
+      "ence"
+    ],
+    "pos": "n",
+    "glossZh": "发散；分歧",
+    "glossEn": "the process of moving apart",
+    "tags": [
+      "di",
+      "ence",
+      "verg"
+    ],
+    "domain": "slam"
+  },
+  {
+    "w": "download",
+    "parts": [
+      "down",
+      "load"
+    ],
+    "pos": "v",
+    "glossZh": "下载",
+    "ety": {
+      "from": "down + load 的复合动词",
+      "note": "20 世纪后期计算机术语，用“把数据装载下来”的空间隐喻造词。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "down",
+      "load"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "dynamics",
+    "parts": [
+      "dynam",
+      "ics"
+    ],
+    "pos": "n",
+    "glossZh": "动力学；动态",
+    "glossEn": "the study of forces and motion",
+    "tags": [
+      "dynam",
+      "ics"
+    ],
+    "domain": "science"
+  },
+  {
+    "w": "earthquake",
+    "parts": [
+      "earth",
+      "quake"
+    ],
+    "pos": "n",
+    "glossZh": "地震",
+    "tags": [
+      "earth",
+      "quake"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "economy",
+    "parts": [
+      "eco",
+      "nom",
+      "y"
+    ],
+    "pos": "n",
+    "glossZh": "经济；节约",
+    "glossEn": "household management, hence the management of resources",
+    "tags": [
+      "eco",
+      "nom",
+      "y"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "ecosystem",
+    "parts": [
+      "eco",
+      "system"
+    ],
+    "pos": "n",
+    "glossZh": "生态系统",
+    "glossEn": "a system of interacting organisms and their environment",
+    "tags": [
+      "eco",
+      "system"
+    ],
+    "domain": "science"
+  },
+  {
+    "w": "effective",
+    "parts": [
+      "effect",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "有效的；生效的",
+    "tags": [
+      "effect",
+      "ive"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "email",
+    "parts": [
+      "e",
+      "mail"
+    ],
+    "pos": "n",
+    "glossZh": "电子邮件",
+    "glossEn": "electronic mail; also to send such a message",
+    "ety": {
+      "from": "e-（electronic 的首字母）+ mail 的现代缩合复合词",
+      "note": "20 世纪 70 年代计算机通信术语；名词转用作动词（to email someone）是典型的转类构词。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "e",
+      "mail"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "emission",
+    "parts": [
+      "e",
+      "miss",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "排放；发射；排放物",
+    "tags": [
+      "e",
+      "ion",
+      "miss"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "emit",
+    "parts": [
+      "e",
+      "mit"
+    ],
+    "pos": "v",
+    "glossZh": "发出；排放；发射",
+    "tags": [
+      "e",
+      "mit"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "emoticon",
+    "parts": [
+      "emoticon"
+    ],
+    "pos": "n",
+    "glossZh": "表情符号",
+    "ety": {
+      "from": "emotion + icon 的混成词",
+      "note": "20 世纪 90 年代计算机交流用语。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "emoticon"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "endanger",
+    "parts": [
+      "en",
+      "danger"
+    ],
+    "pos": "v",
+    "glossZh": "危及；使遭危险",
+    "tags": [
+      "danger",
+      "en"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "evidence",
+    "parts": [
+      "e",
+      "vid",
+      "ence"
+    ],
+    "pos": "n",
+    "glossZh": "证据；迹象",
+    "tags": [
+      "e",
+      "ence",
+      "vid"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "exam",
+    "parts": [
+      "exam"
+    ],
+    "pos": "n",
+    "glossZh": "考试",
+    "ety": {
+      "from": "examination 的截短形式",
+      "note": "19 世纪校园口语截短。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "exam"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "exception",
+    "parts": [
+      "ex",
+      "cept",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "例外；异议",
+    "tags": [
+      "cept",
+      "ex",
+      "ion"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "exclude",
+    "parts": [
+      "ex",
+      "clud",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "排除；不包括；拒绝接纳",
+    "tags": [
+      "clud",
+      "e",
+      "ex"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "expensive",
+    "parts": [
+      "ex",
+      "pens",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "昂贵的；花钱多的",
+    "tags": [
+      "ex",
+      "ive",
+      "pens"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "export",
+    "parts": [
+      "ex",
+      "port"
+    ],
+    "pos": "v",
+    "glossZh": "出口；输出",
+    "glossEn": "to send goods to another country",
+    "tags": [
+      "ex",
+      "port"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "expose",
+    "parts": [
+      "ex",
+      "pos",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "暴露；揭露；使接触",
+    "tags": [
+      "e",
+      "ex",
+      "pos"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "exposure",
+    "parts": [
+      "ex",
+      "pos",
+      "ure"
+    ],
+    "pos": "n",
+    "glossZh": "暴露；曝光；接触",
+    "tags": [
+      "ex",
+      "pos",
+      "ure"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "extract",
+    "parts": [
+      "ex",
+      "tract"
+    ],
+    "pos": "v",
+    "glossZh": "提取；摘录；拔出",
+    "tags": [
+      "ex",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "extraction",
+    "parts": [
+      "ex",
+      "tract",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "提取；开采；拔除",
+    "tags": [
+      "ex",
+      "ion",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "extracurricular",
+    "parts": [
+      "extra",
+      "curricular"
+    ],
+    "pos": "adj",
+    "glossZh": "课外的",
+    "tags": [
+      "curricular",
+      "extra"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "extraordinary",
+    "parts": [
+      "extra",
+      "ordinary"
+    ],
+    "pos": "adj",
+    "glossZh": "非凡的；特别的",
+    "tags": [
+      "extra",
+      "ordinary"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "famous",
+    "parts": [
+      "fame",
+      "ous"
+    ],
+    "pos": "adj",
+    "glossZh": "著名的；出名的",
+    "tags": [
+      "fame",
+      "ous"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "feedback",
+    "parts": [
+      "feed",
+      "back"
+    ],
+    "pos": "n",
+    "glossZh": "反馈；回授",
+    "tags": [
+      "back",
+      "feed"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "firewall",
+    "parts": [
+      "fire",
+      "wall"
+    ],
+    "pos": "n",
+    "glossZh": "防火墙",
+    "tags": [
+      "fire",
+      "wall"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "flexible",
+    "parts": [
+      "flex",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossZh": "灵活的；可弯曲的",
+    "tags": [
+      "flex",
+      "ible"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "flu",
+    "parts": [
+      "flu"
+    ],
+    "pos": "n",
+    "glossZh": "流感",
+    "ety": {
+      "from": "influenza 的截短形式",
+      "note": "influenza 借自意大利语，原义“影响（星象的影响）”，英语口语截为 flu。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "flu"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "form",
+    "parts": [
+      "form"
+    ],
+    "pos": "n",
+    "glossZh": "形状；形式；表格",
+    "glossEn": "shape; a document with spaces for answers",
+    "tags": [
+      "form"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "formal",
+    "parts": [
+      "form",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "正式的；形式上的",
+    "tags": [
+      "al",
+      "form"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "formation",
+    "parts": [
+      "form",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "形成；构成；编队",
+    "tags": [
+      "ation",
+      "form"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "formula",
+    "parts": [
+      "form",
+      "ula"
+    ],
+    "pos": "n",
+    "glossZh": "公式；配方；方案",
+    "tags": [
+      "form",
+      "ula"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "freedom",
+    "parts": [
+      "free",
+      "dom"
+    ],
+    "pos": "n",
+    "glossZh": "自由；自主",
+    "tags": [
+      "dom",
+      "free"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "fridge",
+    "parts": [
+      "fridge"
+    ],
+    "pos": "n",
+    "glossZh": "冰箱",
+    "ety": {
+      "from": "refrigerator 的截短形式",
+      "note": "口语截短并保留 d 的拼写（受 bridge 类推影响）。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "fridge"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "gate",
+    "parts": [
+      "gate"
+    ],
+    "pos": "n",
+    "glossZh": "大门；闸门；（丑闻）后缀",
+    "ety": {
+      "from": "古英语 geat（门、开口）",
+      "firstAttested": "古英语时期",
+      "note": "“门”是本义。1972 年水门事件（Watergate）之后，-gate 被剥离出来当作“政治丑闻”的构词后缀（如 Iran-gate），这是现代新产生的后缀，与古英语 geat 的“门”义已无共时语义联系。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "gate"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "geography",
+    "parts": [
+      "geo",
+      "graph",
+      "y"
+    ],
+    "pos": "n",
+    "glossZh": "地理学；地形",
+    "tags": [
+      "geo",
+      "graph",
+      "y"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "geology",
+    "parts": [
+      "geo",
+      "logy"
+    ],
+    "pos": "n",
+    "glossZh": "地质学",
+    "ety": {
+      "from": "geo-（地球）+ -logy（学科），源自希腊语",
+      "firstAttested": "18 世纪",
+      "note": "18 世纪的科学拉丁语/法语术语，用希腊词根新造，不是古英语词。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "geo",
+      "logy"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "geothermal",
+    "parts": [
+      "geo",
+      "therm",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "地热的",
+    "glossEn": "relating to heat from the earth",
+    "tags": [
+      "al",
+      "geo",
+      "therm"
+    ],
+    "domain": "science"
+  },
+  {
+    "w": "globalization",
+    "parts": [
+      "global",
+      "ize",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "全球化",
+    "tags": [
+      "ation",
+      "global",
+      "ize"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "gps",
+    "parts": [
+      "gps"
+    ],
+    "pos": "n",
+    "glossZh": "全球定位系统",
+    "ety": {
+      "from": "Global Positioning System 的首字母缩写",
+      "note": "20 世纪 70 年代美国卫星导航系统，现泛指卫星定位。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "gps"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "graphic",
+    "parts": [
+      "graph",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossZh": "图形的；生动的",
+    "tags": [
+      "graph",
+      "ic"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "graphite",
+    "parts": [
+      "graph",
+      "ite"
+    ],
+    "pos": "n",
+    "glossZh": "石墨",
+    "tags": [
+      "graph",
+      "ite"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "greenhouse",
+    "parts": [
+      "green",
+      "house"
+    ],
+    "pos": "n",
+    "glossZh": "温室；暖房",
+    "tags": [
+      "green",
+      "house"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "gym",
+    "parts": [
+      "gym"
+    ],
+    "pos": "n",
+    "glossZh": "健身房；体育馆",
+    "ety": {
+      "from": "gymnasium 的截短形式",
+      "note": "gymnasium 源自希腊 gymnasion（训练场），英语口语截去尾部成为 gym。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "gym"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "happily",
+    "parts": [
+      "happy",
+      "ly"
+    ],
+    "pos": "adv",
+    "glossZh": "快乐地；乐意地",
+    "tags": [
+      "happy",
+      "ly"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "happiness",
+    "parts": [
+      "happy",
+      "ness"
+    ],
+    "pos": "n",
+    "glossZh": "幸福；快乐",
+    "tags": [
+      "happy",
+      "ness"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "hardware",
+    "parts": [
+      "hard",
+      "ware"
+    ],
+    "pos": "n",
+    "glossZh": "硬件；五金器具",
+    "tags": [
+      "hard",
+      "ware"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "helper",
+    "parts": [
+      "help",
+      "er"
+    ],
+    "pos": "n",
+    "glossZh": "帮手；助手",
+    "tags": [
+      "er",
+      "help"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "helpful",
+    "parts": [
+      "help",
+      "ful"
+    ],
+    "pos": "adj",
+    "glossZh": "有帮助的；有用的",
+    "tags": [
+      "ful",
+      "help"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "helpfulness",
+    "parts": [
+      "help",
+      "ful",
+      "ness"
+    ],
+    "pos": "n",
+    "glossZh": "有帮助；乐于助人",
+    "tags": [
+      "ful",
+      "help",
+      "ness"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "helpless",
+    "parts": [
+      "help",
+      "less"
+    ],
+    "pos": "adj",
+    "glossZh": "无助的；无能为力的",
+    "tags": [
+      "help",
+      "less"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "holiday",
+    "parts": [
+      "holiday"
+    ],
+    "pos": "n",
+    "glossZh": "假日；节日",
+    "ety": {
+      "from": "古英语 hāligdæg（圣日），holy + day 的复合词",
+      "firstAttested": "古英语时期",
+      "note": "本义“宗教圣日”，现代义泛化为“休息日、假期”，属词义扩展；拼写已合并为一个词。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "holiday"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "host",
+    "parts": [
+      "host"
+    ],
+    "pos": "v",
+    "glossZh": "主办；托管",
+    "glossEn": "to receive guests; to run a service",
+    "tags": [
+      "c-conversion",
+      "host"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "hound",
+    "parts": [
+      "hound"
+    ],
+    "pos": "n",
+    "glossZh": "猎犬",
+    "ety": {
+      "from": "古英语 hund（狗）",
+      "firstAttested": "古英语时期",
+      "note": "本义泛指“狗”（德语 Hund 仍是狗），现代英语缩小为“猎犬”，普通“狗”由 dog 承担。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "hound"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "html",
+    "parts": [
+      "html"
+    ],
+    "pos": "n",
+    "glossZh": "超文本标记语言",
+    "ety": {
+      "from": "HyperText Markup Language 的首字母缩写",
+      "note": "万维网的页面标记语言。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "html"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "hydroelectric",
+    "parts": [
+      "hydro",
+      "electr",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossZh": "水力发电的",
+    "glossEn": "relating to electricity generated by water",
+    "tags": [
+      "electr",
+      "hydro",
+      "ic"
+    ],
+    "domain": "science"
+  },
+  {
+    "w": "hydrogen",
+    "parts": [
+      "hydro",
+      "gen"
+    ],
+    "pos": "n",
+    "glossZh": "氢",
+    "ety": {
+      "from": "法语 hydrogène，由希腊 hydro-（水）+ -gène（产生）构成",
+      "firstAttested": "1787 年",
+      "note": "1787 年拉瓦锡团队为命名新发现的“成水元素”而造的科学拉丁语，不是古英语遗存；-gen 在此是“产生者”，与英语本土的 gen 无关。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "gen",
+      "hydro"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "hypothermia",
+    "parts": [
+      "hypo",
+      "therm",
+      "ia"
+    ],
+    "pos": "n",
+    "glossZh": "体温过低；低体温症",
+    "glossEn": "condition of abnormally low body heat",
+    "tags": [
+      "hypo",
+      "ia",
+      "therm"
+    ],
+    "domain": "science"
+  },
+  {
+    "w": "hypothesis",
+    "parts": [
+      "hypo",
+      "thes",
+      "is"
+    ],
+    "pos": "n",
+    "glossZh": "假设；假说",
+    "glossEn": "something placed under as a basis",
+    "tags": [
+      "hypo",
+      "is",
+      "thes"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "illegal",
+    "parts": [
+      "il",
+      "legal"
+    ],
+    "pos": "adj",
+    "glossZh": "非法的；违法的",
+    "tags": [
+      "il",
+      "legal"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "immature",
+    "parts": [
+      "im",
+      "mature"
+    ],
+    "pos": "adj",
+    "glossZh": "不成熟的",
+    "tags": [
+      "im",
+      "mature"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "impatient",
+    "parts": [
+      "im",
+      "patient"
+    ],
+    "pos": "adj",
+    "glossZh": "不耐烦的；急切的",
+    "tags": [
+      "im",
+      "patient"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "import",
+    "parts": [
+      "im",
+      "port"
+    ],
+    "pos": "v",
+    "glossZh": "进口；输入",
+    "glossEn": "to bring goods in from another country",
+    "tags": [
+      "im",
+      "port"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "impose",
+    "parts": [
+      "im",
+      "pos",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "强加；征收；把…强加于",
+    "tags": [
+      "e",
+      "im",
+      "pos"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "impossible",
+    "parts": [
+      "im",
+      "possible"
+    ],
+    "pos": "adj",
+    "glossZh": "不可能的",
+    "tags": [
+      "im",
+      "possible"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "incredible",
+    "parts": [
+      "in",
+      "cred",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossZh": "难以置信的；极好的",
+    "tags": [
+      "cred",
+      "ible",
+      "in"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "industrialization",
+    "parts": [
+      "industrial",
+      "ize",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "工业化",
+    "tags": [
+      "ation",
+      "industrial",
+      "ize"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "inertial",
+    "parts": [
+      "inert",
+      "ial"
+    ],
+    "pos": "adj",
+    "glossZh": "惯性的",
+    "glossEn": "relating to inertia",
+    "tags": [
+      "ial",
+      "inert"
+    ],
+    "domain": "sensor"
+  },
+  {
+    "w": "infer",
+    "parts": [
+      "in",
+      "fer"
+    ],
+    "pos": "v",
+    "glossZh": "推断；推论",
+    "tags": [
+      "fer",
+      "in"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "inference",
+    "parts": [
+      "in",
+      "fer",
+      "ence"
+    ],
+    "pos": "n",
+    "glossZh": "推断；推论；推理",
+    "glossEn": "a conclusion drawn from evidence",
+    "tags": [
+      "ence",
+      "fer",
+      "in"
+    ],
+    "domain": "ai"
+  },
+  {
+    "w": "inform",
+    "parts": [
+      "in",
+      "form"
+    ],
+    "pos": "v",
+    "glossZh": "通知；告知；影响",
+    "tags": [
+      "form",
+      "in"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "informal",
+    "parts": [
+      "in",
+      "form",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "非正式的；随意的",
+    "tags": [
+      "al",
+      "form",
+      "in"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "information",
+    "parts": [
+      "in",
+      "form",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "信息；资料；通知",
+    "tags": [
+      "ation",
+      "form",
+      "in"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "infrastructure",
+    "parts": [
+      "infra",
+      "struct",
+      "ure"
+    ],
+    "pos": "n",
+    "glossZh": "基础设施；基础架构",
+    "glossEn": "the basic systems and services a society needs",
+    "tags": [
+      "infra",
+      "struct",
+      "ure"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "initialization",
+    "parts": [
+      "initial",
+      "ize",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "初始化；赋初值",
+    "glossEn": "the act of setting a starting state",
+    "tags": [
+      "ation",
+      "initial",
+      "ize"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "initialize",
+    "parts": [
+      "initial",
+      "ize"
+    ],
+    "pos": "v",
+    "glossZh": "初始化；设定初值",
+    "glossEn": "to set a starting state",
+    "tags": [
+      "initial",
+      "ize"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "inject",
+    "parts": [
+      "in",
+      "ject"
+    ],
+    "pos": "v",
+    "glossZh": "注射；注入",
+    "tags": [
+      "in",
+      "ject"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "injection",
+    "parts": [
+      "in",
+      "ject",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "注射；注入；喷射",
+    "tags": [
+      "in",
+      "ion",
+      "ject"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "inscribe",
+    "parts": [
+      "in",
+      "scrib",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "题写；铭刻",
+    "tags": [
+      "e",
+      "in",
+      "scrib"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "inscription",
+    "parts": [
+      "in",
+      "script",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "铭文；题词",
+    "tags": [
+      "in",
+      "ion",
+      "script"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "inspect",
+    "parts": [
+      "in",
+      "spect"
+    ],
+    "pos": "v",
+    "glossZh": "检查；视察",
+    "glossEn": "to look at something closely",
+    "tags": [
+      "in",
+      "spect"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "inspection",
+    "parts": [
+      "in",
+      "spect",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "检查；视察",
+    "tags": [
+      "in",
+      "ion",
+      "spect"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "inspector",
+    "parts": [
+      "in",
+      "spect",
+      "or"
+    ],
+    "pos": "n",
+    "glossZh": "检查员；督察",
+    "tags": [
+      "in",
+      "or",
+      "spect"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "instruct",
+    "parts": [
+      "in",
+      "struct"
+    ],
+    "pos": "v",
+    "glossZh": "指导；教授；指示",
+    "glossEn": "to teach or give directions",
+    "tags": [
+      "in",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "instruction",
+    "parts": [
+      "in",
+      "struct",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "指导；教学；说明",
+    "glossEn": "teaching; a direction or order",
+    "tags": [
+      "in",
+      "ion",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "instructive",
+    "parts": [
+      "in",
+      "struct",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "有教育意义的；增长知识的",
+    "tags": [
+      "in",
+      "ive",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "interact",
+    "parts": [
+      "inter",
+      "act"
+    ],
+    "pos": "v",
+    "glossZh": "互动；相互作用",
+    "tags": [
+      "act",
+      "inter"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "interaction",
+    "parts": [
+      "inter",
+      "act",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "互动；相互作用",
+    "tags": [
+      "act",
+      "inter",
+      "ion"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "intercept",
+    "parts": [
+      "inter",
+      "cept"
+    ],
+    "pos": "v",
+    "glossZh": "拦截；截获；截断",
+    "tags": [
+      "cept",
+      "inter"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "interface",
+    "parts": [
+      "inter",
+      "face"
+    ],
+    "pos": "n",
+    "glossZh": "接口；界面",
+    "glossEn": "a surface where two systems meet",
+    "tags": [
+      "face",
+      "inter"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "international",
+    "parts": [
+      "inter",
+      "nation",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "国际的；国际性的",
+    "tags": [
+      "al",
+      "inter",
+      "nation"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "intranational",
+    "parts": [
+      "intra",
+      "nation",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "一国之内的",
+    "glossEn": "within a single nation",
+    "ety": {
+      "from": "intra-（在内）+ national",
+      "note": "与 international（国与国之间）只差一个字母，语义相反。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary",
+          "detail": "intra-"
+        }
+      ]
+    },
+    "tags": [
+      "intra",
+      "nation"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "introduce",
+    "parts": [
+      "intro",
+      "duce"
+    ],
+    "pos": "v",
+    "glossZh": "介绍；引入；推行",
+    "tags": [
+      "duce",
+      "intro"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "introduction",
+    "parts": [
+      "intro",
+      "duct",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "介绍；引言；引进",
+    "tags": [
+      "duct",
+      "intro",
+      "ion"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "invert",
+    "parts": [
+      "in",
+      "vert"
+    ],
+    "pos": "v",
+    "glossZh": "使倒转；颠倒",
+    "tags": [
+      "in",
+      "vert"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "invisible",
+    "parts": [
+      "in",
+      "vis",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossZh": "看不见的；隐形的",
+    "tags": [
+      "ible",
+      "in",
+      "vis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "irregular",
+    "parts": [
+      "ir",
+      "regular"
+    ],
+    "pos": "adj",
+    "glossZh": "不规则的；不规律的",
+    "tags": [
+      "ir",
+      "regular"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "irreproducible",
+    "parts": [
+      "ir",
+      "re",
+      "pro",
+      "duc",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossZh": "不可复现的；无法重现的",
+    "glossEn": "not able to be reproduced",
+    "tags": [
+      "duc",
+      "ible",
+      "ir",
+      "pro",
+      "re"
+    ],
+    "domain": "science"
+  },
+  {
+    "w": "irresponsible",
+    "parts": [
+      "ir",
+      "responsible"
+    ],
+    "pos": "adj",
+    "glossZh": "不负责任的",
+    "tags": [
+      "ir",
+      "responsible"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "iteration",
+    "parts": [
+      "iter",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "迭代；重复",
+    "glossEn": "a repeated pass through a process",
+    "tags": [
+      "ation",
+      "iter"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "keyboard",
+    "parts": [
+      "key",
+      "board"
+    ],
+    "pos": "n",
+    "glossZh": "键盘",
+    "tags": [
+      "board",
+      "key"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "kindness",
+    "parts": [
+      "kind",
+      "ness"
+    ],
+    "pos": "n",
+    "glossZh": "善良；好意",
+    "tags": [
+      "kind",
+      "ness"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "lab",
+    "parts": [
+      "lab"
+    ],
+    "pos": "n",
+    "glossZh": "实验室",
+    "ety": {
+      "from": "laboratory 的截短形式",
+      "note": "口语中截去 laboratory 的后半，属截短构词（clipping）。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "lab"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "laptop",
+    "parts": [
+      "lap",
+      "top"
+    ],
+    "pos": "n",
+    "glossZh": "笔记本电脑",
+    "ety": {
+      "from": "lap（膝上）+ top（上面）的复合词",
+      "firstAttested": "20 世纪 80 年代",
+      "note": "按“可以放在膝上使用”命名，属现代英语复合构词，与拉丁词根无关。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "lap",
+      "top"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "laser",
+    "parts": [
+      "laser"
+    ],
+    "pos": "n",
+    "glossZh": "激光；激光器",
+    "ety": {
+      "from": "Light Amplification by Stimulated Emission of Radiation 的首字母缩略词",
+      "firstAttested": "1960 年",
+      "note": "1960 年首次实现，原为缩略词，现已完全词化，可作普通名词与动词。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "laser"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "led",
+    "parts": [
+      "led"
+    ],
+    "pos": "n",
+    "glossZh": "发光二极管",
+    "ety": {
+      "from": "light-emitting diode 的首字母缩写",
+      "note": "按字母读出；注意与动词 lead 的过去式 led 同形不同源。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "led"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "lidar",
+    "parts": [
+      "lidar"
+    ],
+    "pos": "n",
+    "glossZh": "激光雷达",
+    "ety": {
+      "from": "LIght Detection And Ranging 的首字母缩略词",
+      "note": "仿 radar 造成，20 世纪 60 年代激光问世后出现；机器人、SLAM 中的核心传感器。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "lidar"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "local",
+    "parts": [
+      "loc",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "地方的；局部的",
+    "glossEn": "relating to a particular place",
+    "tags": [
+      "al",
+      "loc"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "localization",
+    "parts": [
+      "loc",
+      "al",
+      "ize",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "定位；（软件的）本地化",
+    "glossEn": "determining a position; adapting a product to a local market",
+    "ety": {
+      "from": "local（地方的）+ -ize + -ation，local 源自拉丁 locus（地方）",
+      "note": "现代构词是 loc + -al + -ize + -ation。机器人/SLAM 语境指“确定自身在环境中的位置”（定位）；软件语境指“把产品适配到本地语言文化”（本地化）。两个现代义都是 20 世纪的专门化延伸，不是拉丁词根的直接拼接义。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "al",
+      "ation",
+      "c-scientific",
+      "ize",
+      "loc"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "locate",
+    "parts": [
+      "loc",
+      "ate"
+    ],
+    "pos": "v",
+    "glossZh": "定位；找出…的位置；设置于",
+    "glossEn": "to find the place of",
+    "tags": [
+      "ate",
+      "loc"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "location",
+    "parts": [
+      "loc",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "位置；地点；定位",
+    "glossEn": "a place; the act of finding a place",
+    "tags": [
+      "ation",
+      "loc"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "manual",
+    "parts": [
+      "manu",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "手工的；体力的",
+    "glossEn": "done by hand",
+    "tags": [
+      "al",
+      "manu"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "manually",
+    "parts": [
+      "manu",
+      "al",
+      "ly"
+    ],
+    "pos": "adv",
+    "glossZh": "手动地；用手地",
+    "tags": [
+      "al",
+      "ly",
+      "manu"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "manufacture",
+    "parts": [
+      "manu",
+      "fact",
+      "ure"
+    ],
+    "pos": "v",
+    "glossZh": "制造；生产；捏造",
+    "tags": [
+      "fact",
+      "manu",
+      "ure"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "manufacturer",
+    "parts": [
+      "manu",
+      "fact",
+      "ure",
+      "er"
+    ],
+    "pos": "n",
+    "glossZh": "制造商；厂商",
+    "tags": [
+      "er",
+      "fact",
+      "manu",
+      "ure"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "manuscript",
+    "parts": [
+      "manu",
+      "script"
+    ],
+    "pos": "n",
+    "glossZh": "手稿；原稿",
+    "tags": [
+      "manu",
+      "script"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "map",
+    "parts": [
+      "map"
+    ],
+    "pos": "v",
+    "glossZh": "绘制地图；映射",
+    "glossEn": "to make a map of; to establish a correspondence",
+    "tags": [
+      "c-conversion",
+      "map"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "mapping",
+    "parts": [
+      "map",
+      "ing"
+    ],
+    "pos": "n",
+    "glossZh": "建图；映射",
+    "glossEn": "the process of making a map; a correspondence between sets",
+    "tags": [
+      "ing",
+      "map"
+    ],
+    "domain": "slam"
+  },
+  {
+    "w": "meat",
+    "parts": [
+      "meat"
+    ],
+    "pos": "n",
+    "glossZh": "肉；（坚果等的）可食部分",
+    "ety": {
+      "from": "古英语 mete（食物）",
+      "firstAttested": "古英语时期",
+      "note": "本义泛指“食物”（cf. sweetmeat, mincemeat），后词义缩小（narrowing）专指“肉”。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "meat"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "memo",
+    "parts": [
+      "memo"
+    ],
+    "pos": "n",
+    "glossZh": "备忘录",
+    "ety": {
+      "from": "memorandum 的截短形式",
+      "note": "拉丁 memorandum（应记住之事）的英语截短。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "memo"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "microphone",
+    "parts": [
+      "micro",
+      "phone"
+    ],
+    "pos": "n",
+    "glossZh": "麦克风；话筒",
+    "tags": [
+      "micro",
+      "phone"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "microscope",
+    "parts": [
+      "micro",
+      "scope"
+    ],
+    "pos": "n",
+    "glossZh": "显微镜",
+    "tags": [
+      "micro",
+      "scope"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "missile",
+    "parts": [
+      "miss",
+      "ile"
+    ],
+    "pos": "n",
+    "glossZh": "导弹；发射物",
+    "tags": [
+      "ile",
+      "miss"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "mission",
+    "parts": [
+      "miss",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "任务；使命；代表团",
+    "tags": [
+      "ion",
+      "miss"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "misunderstand",
+    "parts": [
+      "mis",
+      "understand"
+    ],
+    "pos": "v",
+    "glossZh": "误解；误会",
+    "tags": [
+      "mis",
+      "understand"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "misuse",
+    "parts": [
+      "mis",
+      "use"
+    ],
+    "pos": "v",
+    "glossZh": "误用；滥用",
+    "tags": [
+      "mis",
+      "use"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "model",
+    "parts": [
+      "model"
+    ],
+    "pos": "n",
+    "glossZh": "模型；模范；模特",
+    "ety": {
+      "from": "法语 modèle，源自意大利 modello，最终来自拉丁 modulus（小量度，modus 的指小形式）",
+      "firstAttested": "16 世纪",
+      "note": "本义是“小量度、标准尺寸”，经法语进入英语后指“样板、模范”，再隐喻扩展为“模型、模式”；现代机器学习中的“模型”是这一隐喻链的最新一环。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "model"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "modernization",
+    "parts": [
+      "modern",
+      "ize",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "现代化",
+    "tags": [
+      "ation",
+      "ize",
+      "modern"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "moonlight",
+    "parts": [
+      "moon",
+      "light"
+    ],
+    "pos": "n",
+    "glossZh": "月光",
+    "tags": [
+      "light",
+      "moon"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "motel",
+    "parts": [
+      "motel"
+    ],
+    "pos": "n",
+    "glossZh": "汽车旅馆",
+    "ety": {
+      "from": "motor + hotel 的混成词",
+      "firstAttested": "1925 年",
+      "note": "20 世纪 20 年代美国公路旅行的产物，取 motor 的首部与 hotel 的尾部。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "motel"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "movement",
+    "parts": [
+      "move",
+      "ment"
+    ],
+    "pos": "n",
+    "glossZh": "运动；移动；运动（社会）",
+    "tags": [
+      "ment",
+      "move"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "muscle",
+    "parts": [
+      "muscle"
+    ],
+    "pos": "n",
+    "glossZh": "肌肉",
+    "ety": {
+      "from": "拉丁 musculus（小老鼠，mus 的指小形式）",
+      "firstAttested": "14 世纪",
+      "note": "因肌肉收缩时形似小老鼠而得名；现代义与“老鼠”已无共时联系。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "muscle"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nasa",
+    "parts": [
+      "nasa"
+    ],
+    "pos": "other",
+    "glossZh": "美国国家航空航天局",
+    "ety": {
+      "from": "National Aeronautics and Space Administration 的首字母缩略词",
+      "firstAttested": "1958 年",
+      "note": "1958 年成立，按字母组合读作一个词（acronym），不是词素组合。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "nasa"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "national",
+    "parts": [
+      "nation",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "国家的；民族的；全国的",
+    "tags": [
+      "al",
+      "nation"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nationalism",
+    "parts": [
+      "nation",
+      "al",
+      "ism"
+    ],
+    "pos": "n",
+    "glossZh": "民族主义",
+    "glossEn": "nationalism",
+    "tags": [
+      "nation"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nationalist",
+    "parts": [
+      "nation",
+      "al",
+      "ist"
+    ],
+    "pos": "n",
+    "glossZh": "民族主义者",
+    "glossEn": "nationalist",
+    "tags": [
+      "nation"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nationality",
+    "parts": [
+      "nation",
+      "al",
+      "ity"
+    ],
+    "pos": "n",
+    "glossZh": "国籍；民族",
+    "tags": [
+      "al",
+      "ity",
+      "nation"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nationalization",
+    "parts": [
+      "nation",
+      "al",
+      "ize",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "国有化；民族化",
+    "tags": [
+      "al",
+      "ation",
+      "ize",
+      "nation"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nationalize",
+    "parts": [
+      "nation",
+      "al",
+      "ize"
+    ],
+    "pos": "v",
+    "glossZh": "使国有化；使民族化",
+    "tags": [
+      "al",
+      "ize",
+      "nation"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nationally",
+    "parts": [
+      "nation",
+      "al",
+      "ly"
+    ],
+    "pos": "adv",
+    "glossZh": "在全国范围内",
+    "glossEn": "across the nation",
+    "tags": [
+      "nation"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nervous",
+    "parts": [
+      "nerve",
+      "ous"
+    ],
+    "pos": "adj",
+    "glossZh": "紧张的；神经的",
+    "tags": [
+      "nerve",
+      "ous"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "netizen",
+    "parts": [
+      "netizen"
+    ],
+    "pos": "n",
+    "glossZh": "网民",
+    "ety": {
+      "from": "net + citizen 的混成词",
+      "note": "20 世纪 90 年代互联网文化用语，取 net 与 citizen 的尾部拼合。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "netizen"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "network",
+    "parts": [
+      "net",
+      "work"
+    ],
+    "pos": "n",
+    "glossZh": "网络；网状系统；人脉",
+    "ety": {
+      "from": "net（网）+ work（劳作、制品）的复合词",
+      "firstAttested": "19 世纪",
+      "note": "19 世纪先指铁路网、电报网等“像网一样连成的系统”，20 世纪下半叶扩展为计算机网络；现代义是复合词的比喻延伸，不是古英语单词原义。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "net",
+      "work"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "neural",
+    "parts": [
+      "neur",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "神经的；神经网络的",
+    "glossEn": "relating to nerves",
+    "tags": [
+      "al",
+      "neur"
+    ],
+    "domain": "ai"
+  },
+  {
+    "w": "neuron",
+    "parts": [
+      "neur",
+      "on"
+    ],
+    "pos": "n",
+    "glossZh": "神经元",
+    "glossEn": "a nerve cell",
+    "tags": [
+      "neur",
+      "on"
+    ],
+    "domain": "ai"
+  },
+  {
+    "w": "nice",
+    "parts": [
+      "nice"
+    ],
+    "pos": "adj",
+    "glossZh": "好的；友好的；令人愉快的",
+    "ety": {
+      "from": "古法语 nice（愚蠢的、软弱的），源自拉丁 nescius（无知的，ne- 不 + scire 知道）",
+      "firstAttested": "13 世纪",
+      "note": "本义“无知、愚蠢”，中古英语后依次变为“羞怯、挑剔、精细、令人愉快”。现代“好”义与拉丁词根的“知/不知”已无共时形态联系，只能算词源关系。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "nice"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nitrogen",
+    "parts": [
+      "nitro",
+      "gen"
+    ],
+    "pos": "n",
+    "glossZh": "氮",
+    "ety": {
+      "from": "nitre（硝石）+ -gen（产生）",
+      "firstAttested": "18 世纪末",
+      "note": "18 世纪末科学拉丁语术语，因存在于硝石中得名。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "gen",
+      "nitro"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nomination",
+    "parts": [
+      "nomin",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "提名；任命",
+    "tags": [
+      "ation",
+      "nomin"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nondeterministic",
+    "parts": [
+      "non",
+      "de",
+      "termin",
+      "istic"
+    ],
+    "pos": "adj",
+    "glossZh": "非确定性的",
+    "glossEn": "not giving a single predictable result",
+    "tags": [
+      "de",
+      "istic",
+      "non",
+      "termin"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "nonsense",
+    "parts": [
+      "non",
+      "sense"
+    ],
+    "pos": "n",
+    "glossZh": "胡说；无意义的话",
+    "tags": [
+      "non",
+      "sense"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "nonstop",
+    "parts": [
+      "non",
+      "stop"
+    ],
+    "pos": "adj",
+    "glossZh": "不停的；直达的",
+    "tags": [
+      "non",
+      "stop"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "object",
+    "parts": [
+      "ob",
+      "ject"
+    ],
+    "pos": "n",
+    "glossZh": "物体；对象；宾语",
+    "glossEn": "something thrown in the way, hence a thing perceived",
+    "tags": [
+      "ject",
+      "ob"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "objection",
+    "parts": [
+      "ob",
+      "ject",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "反对；异议",
+    "tags": [
+      "ion",
+      "ject",
+      "ob"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "objective",
+    "parts": [
+      "ob",
+      "ject",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "客观的；目标的",
+    "glossEn": "based on facts, not feelings",
+    "tags": [
+      "ive",
+      "ject",
+      "ob"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "obstruct",
+    "parts": [
+      "ob",
+      "struct"
+    ],
+    "pos": "v",
+    "glossZh": "阻塞；妨碍",
+    "glossEn": "to block or get in the way of",
+    "tags": [
+      "ob",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "obstruction",
+    "parts": [
+      "ob",
+      "struct",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "阻塞；障碍物",
+    "glossEn": "something that blocks",
+    "tags": [
+      "ion",
+      "ob",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "occluded",
+    "parts": [
+      "oc",
+      "clud",
+      "ed"
+    ],
+    "pos": "adj",
+    "glossZh": "被遮挡的；闭塞的",
+    "glossEn": "blocked from view",
+    "tags": [
+      "clud",
+      "ed",
+      "oc"
+    ],
+    "domain": "slam"
+  },
+  {
+    "w": "occlusion",
+    "parts": [
+      "oc",
+      "clus",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "遮挡；闭塞",
+    "glossEn": "the state of being blocked from view",
+    "tags": [
+      "clus",
+      "ion",
+      "oc"
+    ],
+    "domain": "slam"
+  },
+  {
+    "w": "odometry",
+    "parts": [
+      "odo",
+      "metr",
+      "y"
+    ],
+    "pos": "n",
+    "glossZh": "里程计；航位推算",
+    "glossEn": "the measurement of distance travelled",
+    "tags": [
+      "metr",
+      "odo",
+      "y"
+    ],
+    "domain": "slam"
+  },
+  {
+    "w": "offer",
+    "parts": [
+      "of",
+      "fer"
+    ],
+    "pos": "v",
+    "glossZh": "提供；提议；出价",
+    "tags": [
+      "fer",
+      "of"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "oppose",
+    "parts": [
+      "op",
+      "pos",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "反对；对抗",
+    "tags": [
+      "e",
+      "op",
+      "pos"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "organization",
+    "parts": [
+      "organ",
+      "ize",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "组织；机构；编排",
+    "tags": [
+      "ation",
+      "ize",
+      "organ"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "oxygen",
+    "parts": [
+      "oxygen"
+    ],
+    "pos": "n",
+    "glossZh": "氧",
+    "ety": {
+      "from": "法语 oxygène，由希腊 oxys（尖锐、酸）+ -gène（产生）构成",
+      "firstAttested": "1777 年",
+      "note": "1777 年前后拉瓦锡命名，原以为它是“成酸元素”，名字保留了这一错误假设。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "oxygen"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "pdf",
+    "parts": [
+      "pdf"
+    ],
+    "pos": "n",
+    "glossZh": "便携式文档格式",
+    "ety": {
+      "from": "Portable Document Format 的首字母缩写",
+      "note": "20 世纪 90 年代由 Adobe 提出的文档格式。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "pdf"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "pedal",
+    "parts": [
+      "ped",
+      "al"
+    ],
+    "pos": "n",
+    "glossZh": "踏板；脚蹬",
+    "glossEn": "a foot-operated lever",
+    "tags": [
+      "al",
+      "ped"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "perceive",
+    "parts": [
+      "per",
+      "ceive"
+    ],
+    "pos": "v",
+    "glossZh": "感知；察觉；认为",
+    "tags": [
+      "ceive",
+      "per"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "perception",
+    "parts": [
+      "per",
+      "cept",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "感知；知觉；看法",
+    "tags": [
+      "cept",
+      "ion",
+      "per"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "perform",
+    "parts": [
+      "per",
+      "form"
+    ],
+    "pos": "v",
+    "glossZh": "表演；执行；表现",
+    "tags": [
+      "form",
+      "per"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "performance",
+    "parts": [
+      "per",
+      "form",
+      "ance"
+    ],
+    "pos": "n",
+    "glossZh": "表演；表现；性能",
+    "tags": [
+      "ance",
+      "form",
+      "per"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "permission",
+    "parts": [
+      "per",
+      "miss",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "许可；允许",
+    "tags": [
+      "ion",
+      "miss",
+      "per"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "permit",
+    "parts": [
+      "per",
+      "mit"
+    ],
+    "pos": "v",
+    "glossZh": "允许；许可",
+    "tags": [
+      "mit",
+      "per"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "perspective",
+    "parts": [
+      "per",
+      "spect",
+      "ive"
+    ],
+    "pos": "n",
+    "glossZh": "视角；观点；透视法",
+    "tags": [
+      "ive",
+      "per",
+      "spect"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "phone",
+    "parts": [
+      "phone"
+    ],
+    "pos": "n",
+    "glossZh": "电话",
+    "ety": {
+      "from": "telephone 的截短形式",
+      "note": "20 世纪口语截去 tele-，只保留希腊词根 phone（声音）。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "phone"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "photo",
+    "parts": [
+      "photo"
+    ],
+    "pos": "n",
+    "glossZh": "照片",
+    "ety": {
+      "from": "photograph 的截短形式",
+      "note": "口语截去 -graph，只保留希腊词根 photo-（光）。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "photo"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "photograph",
+    "parts": [
+      "photo",
+      "graph"
+    ],
+    "pos": "n",
+    "glossZh": "照片；相片",
+    "ety": {
+      "from": "photo-（光）+ -graph（写、记录）",
+      "firstAttested": "1839 年",
+      "note": "19 世纪光学与化学结合后造出的科学术语，用“用光写字”命名；不是古英语遗存。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "graph",
+      "photo"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "photographer",
+    "parts": [
+      "photo",
+      "graph",
+      "er"
+    ],
+    "pos": "n",
+    "glossZh": "摄影师；拍照者",
+    "tags": [
+      "er",
+      "graph",
+      "photo"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "photography",
+    "parts": [
+      "photo",
+      "graph",
+      "y"
+    ],
+    "pos": "n",
+    "glossZh": "摄影；摄影术",
+    "tags": [
+      "graph",
+      "photo",
+      "y"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "photosynthesis",
+    "parts": [
+      "photo",
+      "syn",
+      "thes",
+      "is"
+    ],
+    "pos": "n",
+    "glossZh": "光合作用",
+    "tags": [
+      "is",
+      "photo",
+      "syn",
+      "thes"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "place",
+    "parts": [
+      "place"
+    ],
+    "pos": "n",
+    "glossZh": "地方；位置；座位",
+    "ety": {
+      "from": "拉丁 platea（宽阔的街道），源自希腊 plateia（宽），经古法语 place 进入英语",
+      "firstAttested": "13 世纪",
+      "note": "由“宽街、广场”扩展为“地点、位置”，再抽象为“地位、名次”；属词义扩展（broadening）。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "place"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "podcast",
+    "parts": [
+      "podcast"
+    ],
+    "pos": "n",
+    "glossZh": "播客",
+    "ety": {
+      "from": "iPod + broadcast 的混成词",
+      "firstAttested": "2004 年",
+      "note": "2004 年前后出现，取 iPod 的 pod 与 broadcast 的 cast 拼合；现代义指可订阅的音频节目。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "podcast"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "podium",
+    "parts": [
+      "pod",
+      "ium"
+    ],
+    "pos": "n",
+    "glossZh": "讲台；领奖台",
+    "tags": [
+      "ium",
+      "pod"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "portable",
+    "parts": [
+      "port",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "便携的；可携带的",
+    "glossEn": "easy to carry",
+    "tags": [
+      "able",
+      "port"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "position",
+    "parts": [
+      "posit",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "位置；职位；立场",
+    "glossEn": "a place where something is put",
+    "tags": [
+      "ion",
+      "posit"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "positive",
+    "parts": [
+      "posit",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "积极的；肯定的；正的",
+    "tags": [
+      "ive",
+      "posit"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "possibility",
+    "parts": [
+      "poss",
+      "ibil",
+      "ity"
+    ],
+    "pos": "n",
+    "glossZh": "可能性；可能的事",
+    "tags": [
+      "ibil",
+      "ity",
+      "poss"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "possible",
+    "parts": [
+      "poss",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossZh": "可能的",
+    "tags": [
+      "ible",
+      "poss"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "postpone",
+    "parts": [
+      "post",
+      "pon",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "推迟；延期",
+    "tags": [
+      "e",
+      "pon",
+      "post"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "powerless",
+    "parts": [
+      "power",
+      "less"
+    ],
+    "pos": "adj",
+    "glossZh": "无力的；无能为力的",
+    "tags": [
+      "less",
+      "power"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "precaution",
+    "parts": [
+      "pre",
+      "caution"
+    ],
+    "pos": "n",
+    "glossZh": "预防措施；防备",
+    "tags": [
+      "caution",
+      "pre"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "predict",
+    "parts": [
+      "pre",
+      "dict"
+    ],
+    "pos": "v",
+    "glossZh": "预测；预言",
+    "tags": [
+      "dict",
+      "pre"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "predictable",
+    "parts": [
+      "pre",
+      "dict",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "可预测的；可预见的",
+    "tags": [
+      "able",
+      "dict",
+      "pre"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "prediction",
+    "parts": [
+      "pre",
+      "dict",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "预测；预言",
+    "tags": [
+      "dict",
+      "ion",
+      "pre"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "prefer",
+    "parts": [
+      "pre",
+      "fer"
+    ],
+    "pos": "v",
+    "glossZh": "更喜欢；宁愿",
+    "tags": [
+      "fer",
+      "pre"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "preference",
+    "parts": [
+      "pre",
+      "fer",
+      "ence"
+    ],
+    "pos": "n",
+    "glossZh": "偏爱；优先",
+    "tags": [
+      "ence",
+      "fer",
+      "pre"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "prescribe",
+    "parts": [
+      "pre",
+      "scrib",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "开处方；规定",
+    "tags": [
+      "e",
+      "pre",
+      "scrib"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "prescription",
+    "parts": [
+      "pre",
+      "script",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "处方；规定",
+    "tags": [
+      "ion",
+      "pre",
+      "script"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "produce",
+    "parts": [
+      "pro",
+      "duce"
+    ],
+    "pos": "v",
+    "glossZh": "生产；产生；出示",
+    "glossEn": "to make or bring forth",
+    "tags": [
+      "duce",
+      "pro"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "product",
+    "parts": [
+      "pro",
+      "duct"
+    ],
+    "pos": "n",
+    "glossZh": "产品；产物；乘积",
+    "glossEn": "something produced",
+    "tags": [
+      "duct",
+      "pro"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "production",
+    "parts": [
+      "pro",
+      "duct",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "生产；产量；制作",
+    "tags": [
+      "duct",
+      "ion",
+      "pro"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "productive",
+    "parts": [
+      "pro",
+      "duct",
+      "ive"
+    ],
+    "pos": "adj",
+    "glossZh": "多产的；富有成效的",
+    "tags": [
+      "duct",
+      "ive",
+      "pro"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "project",
+    "parts": [
+      "pro",
+      "ject"
+    ],
+    "pos": "n",
+    "glossZh": "项目；工程；课题",
+    "glossEn": "something thrown forward, hence a plan",
+    "tags": [
+      "ject",
+      "pro"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "projection",
+    "parts": [
+      "pro",
+      "ject",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "投影；预测；突出物",
+    "tags": [
+      "ion",
+      "ject",
+      "pro"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "prospect",
+    "parts": [
+      "pro",
+      "spect"
+    ],
+    "pos": "n",
+    "glossZh": "前景；可能性；勘探",
+    "tags": [
+      "pro",
+      "spect"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "provide",
+    "parts": [
+      "pro",
+      "vid",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "提供；供应；规定",
+    "tags": [
+      "e",
+      "pro",
+      "vid"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "psychology",
+    "parts": [
+      "psycho",
+      "logy"
+    ],
+    "pos": "n",
+    "glossZh": "心理学",
+    "ety": {
+      "from": "psycho-（灵魂、心智）+ -logy（学科），源自希腊语",
+      "firstAttested": "16 世纪末",
+      "note": "16 世纪末出现于人文拉丁语，19 世纪才成为独立学科名。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "logy",
+      "psycho"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "radar",
+    "parts": [
+      "radar"
+    ],
+    "pos": "n",
+    "glossZh": "雷达",
+    "ety": {
+      "from": "RAdio Detection And Ranging 的首字母缩略词",
+      "firstAttested": "1940 年",
+      "note": "1940 年前后英美军事术语，现已词化。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "radar"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "ram",
+    "parts": [
+      "ram"
+    ],
+    "pos": "n",
+    "glossZh": "随机存取存储器",
+    "ety": {
+      "from": "random-access memory 的首字母缩写",
+      "note": "计算机术语，按字母读出。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "ram"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reaction",
+    "parts": [
+      "re",
+      "act",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "反应；反作用",
+    "glossEn": "a response; a force exerted in return",
+    "ety": {
+      "from": "re- + act + -ion，17 世纪科学用语",
+      "note": "物理学中指反作用力，化学中指反应，心理学中指反应——同一构词在不同学科各自专门化。",
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "词根 act"
+        }
+      ]
+    },
+    "tags": [
+      "act",
+      "c-semantic-shift"
+    ],
+    "domain": "science"
+  },
+  {
+    "w": "reality",
+    "parts": [
+      "real",
+      "ity"
+    ],
+    "pos": "n",
+    "glossZh": "现实；实际情况",
+    "tags": [
+      "ity",
+      "real"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reception",
+    "parts": [
+      "re",
+      "cept",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "接待；接收；招待会",
+    "tags": [
+      "cept",
+      "ion",
+      "re"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reconstruct",
+    "parts": [
+      "re",
+      "con",
+      "struct"
+    ],
+    "pos": "v",
+    "glossZh": "重建；重现",
+    "glossEn": "to build again; to piece together from evidence",
+    "tags": [
+      "con",
+      "re",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reconstruction",
+    "parts": [
+      "re",
+      "con",
+      "struct",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "重建；复原",
+    "tags": [
+      "con",
+      "ion",
+      "re",
+      "struct"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reduce",
+    "parts": [
+      "re",
+      "duce"
+    ],
+    "pos": "v",
+    "glossZh": "减少；降低；简化",
+    "tags": [
+      "duce",
+      "re"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reduction",
+    "parts": [
+      "re",
+      "duct",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "减少；降价；还原",
+    "tags": [
+      "duct",
+      "ion",
+      "re"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "redundancy",
+    "parts": [
+      "re",
+      "dund",
+      "ancy"
+    ],
+    "pos": "n",
+    "glossZh": "冗余；冗余度；裁员",
+    "glossEn": "more than is strictly needed",
+    "tags": [
+      "ancy",
+      "dund",
+      "re"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "redundant",
+    "parts": [
+      "re",
+      "dund",
+      "ant"
+    ],
+    "pos": "adj",
+    "glossZh": "冗余的；多余的",
+    "glossEn": "more than necessary",
+    "tags": [
+      "ant",
+      "dund",
+      "re"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "refer",
+    "parts": [
+      "re",
+      "fer"
+    ],
+    "pos": "v",
+    "glossZh": "提到；参考；转诊",
+    "tags": [
+      "fer",
+      "re"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reference",
+    "parts": [
+      "re",
+      "fer",
+      "ence"
+    ],
+    "pos": "n",
+    "glossZh": "参考；引用；推荐信",
+    "tags": [
+      "ence",
+      "fer",
+      "re"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reform",
+    "parts": [
+      "re",
+      "form"
+    ],
+    "pos": "v",
+    "glossZh": "改革；改造",
+    "tags": [
+      "form",
+      "re"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reject",
+    "parts": [
+      "re",
+      "ject"
+    ],
+    "pos": "v",
+    "glossZh": "拒绝；驳回；排斥",
+    "tags": [
+      "ject",
+      "re"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "relationship",
+    "parts": [
+      "relation",
+      "ship"
+    ],
+    "pos": "n",
+    "glossZh": "关系；联系",
+    "tags": [
+      "relation",
+      "ship"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "relocate",
+    "parts": [
+      "re",
+      "loc",
+      "ate"
+    ],
+    "pos": "v",
+    "glossZh": "重新安置；搬迁",
+    "glossEn": "to move to a new place",
+    "tags": [
+      "ate",
+      "loc",
+      "re"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "report",
+    "parts": [
+      "re",
+      "port"
+    ],
+    "pos": "v",
+    "glossZh": "报告；报道",
+    "glossEn": "to give an account of something",
+    "tags": [
+      "port",
+      "re"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reporter",
+    "parts": [
+      "re",
+      "port",
+      "er"
+    ],
+    "pos": "n",
+    "glossZh": "记者；报告人",
+    "tags": [
+      "er",
+      "port",
+      "re"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "residual",
+    "parts": [
+      "re",
+      "sid",
+      "ual"
+    ],
+    "pos": "adj",
+    "glossZh": "剩余的；残差的",
+    "glossEn": "remaining after most has gone",
+    "tags": [
+      "re",
+      "sid",
+      "ual"
+    ],
+    "domain": "slam"
+  },
+  {
+    "w": "respect",
+    "parts": [
+      "re",
+      "spect"
+    ],
+    "pos": "n",
+    "glossZh": "尊敬；尊重；方面",
+    "glossEn": "a feeling of admiration; to look back at with esteem",
+    "tags": [
+      "re",
+      "spect"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "respectful",
+    "parts": [
+      "re",
+      "spect",
+      "ful"
+    ],
+    "pos": "adj",
+    "glossZh": "恭敬的；有礼貌的",
+    "tags": [
+      "ful",
+      "re",
+      "spect"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "responsibility",
+    "parts": [
+      "respons",
+      "ibil",
+      "ity"
+    ],
+    "pos": "n",
+    "glossZh": "责任；职责",
+    "tags": [
+      "ibil",
+      "ity",
+      "respons"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "responsible",
+    "parts": [
+      "respons",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossZh": "负责的；有责任的",
+    "tags": [
+      "ible",
+      "respons"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "retain",
+    "parts": [
+      "re",
+      "tain"
+    ],
+    "pos": "v",
+    "glossZh": "保留；保持；记住",
+    "tags": [
+      "re",
+      "tain"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "retention",
+    "parts": [
+      "re",
+      "tent",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "保留；保持；记忆力",
+    "tags": [
+      "ion",
+      "re",
+      "tent"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reversal",
+    "parts": [
+      "re",
+      "vers",
+      "al"
+    ],
+    "pos": "n",
+    "glossZh": "反转；逆转；撤销",
+    "tags": [
+      "al",
+      "re",
+      "vers"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "reverse",
+    "parts": [
+      "re",
+      "verse"
+    ],
+    "pos": "v",
+    "glossZh": "颠倒；倒车；撤销",
+    "glossEn": "to turn back",
+    "tags": [
+      "re",
+      "verse"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "revert",
+    "parts": [
+      "re",
+      "vert"
+    ],
+    "pos": "v",
+    "glossZh": "恢复；回复；重新提及",
+    "tags": [
+      "re",
+      "vert"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "revise",
+    "parts": [
+      "re",
+      "vis",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "修订；复习；改变",
+    "tags": [
+      "e",
+      "re",
+      "vis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "revision",
+    "parts": [
+      "re",
+      "vis",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "修订；复习；修订版",
+    "tags": [
+      "ion",
+      "re",
+      "vis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "robot",
+    "parts": [
+      "robot"
+    ],
+    "pos": "n",
+    "glossZh": "机器人",
+    "ety": {
+      "from": "捷克语 robota（苦役、强制劳动），经卡雷尔·恰佩克 1920 年剧作 R.U.R. 进入英语",
+      "firstAttested": "1920 年",
+      "note": "1920 年恰佩克在剧本中造出 robots 一词指人造工人；现代“机器人/自动程序”义由此扩展。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "robot"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "robotics",
+    "parts": [
+      "robot",
+      "ics"
+    ],
+    "pos": "n",
+    "glossZh": "机器人学；机器人技术",
+    "glossEn": "the study and building of robots",
+    "tags": [
+      "ics",
+      "robot"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "robust",
+    "parts": [
+      "robust"
+    ],
+    "pos": "adj",
+    "glossZh": "稳健的；强健的",
+    "glossEn": "strong; able to withstand disturbance",
+    "tags": [
+      "robust"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "robustness",
+    "parts": [
+      "robust",
+      "ness"
+    ],
+    "pos": "n",
+    "glossZh": "稳健性；鲁棒性",
+    "glossEn": "the quality of withstanding disturbance",
+    "tags": [
+      "ness",
+      "robust"
+    ],
+    "domain": "robotics"
+  },
+  {
+    "w": "rom",
+    "parts": [
+      "rom"
+    ],
+    "pos": "n",
+    "glossZh": "只读存储器",
+    "ety": {
+      "from": "read-only memory 的首字母缩写",
+      "note": "计算机术语，按字母读出。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "rom"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "runner",
+    "parts": [
+      "run",
+      "er"
+    ],
+    "pos": "n",
+    "glossZh": "跑步者；赛跑者",
+    "tags": [
+      "er",
+      "run"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "salary",
+    "parts": [
+      "sal",
+      "ary"
+    ],
+    "pos": "n",
+    "glossZh": "薪水；工资",
+    "ety": {
+      "from": "拉丁 salarium（士兵的盐钱），源自 sal（盐）",
+      "firstAttested": "14 世纪",
+      "note": "词源与“买盐的津贴”有关，但这一细节本身有争议；现代义“固定工资”是词义扩展。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "ary",
+      "sal"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "scientist",
+    "parts": [
+      "scient",
+      "ist"
+    ],
+    "pos": "n",
+    "glossZh": "科学家",
+    "tags": [
+      "ist",
+      "scient"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "screenshot",
+    "parts": [
+      "screen",
+      "shot"
+    ],
+    "pos": "n",
+    "glossZh": "屏幕截图",
+    "tags": [
+      "screen",
+      "shot"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "script",
+    "parts": [
+      "script"
+    ],
+    "pos": "n",
+    "glossZh": "剧本；文字；脚本",
+    "glossEn": "written text; a set of instructions",
+    "tags": [
+      "script"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "scuba",
+    "parts": [
+      "scuba"
+    ],
+    "pos": "n",
+    "glossZh": "水肺；自携式水下呼吸器",
+    "ety": {
+      "from": "Self-Contained Underwater Breathing Apparatus 的首字母缩略词",
+      "firstAttested": "1952 年",
+      "note": "1952 年前后出现，已完全词化。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "scuba"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "semiconductor",
+    "parts": [
+      "semi",
+      "conduct",
+      "or"
+    ],
+    "pos": "n",
+    "glossZh": "半导体",
+    "tags": [
+      "conduct",
+      "or",
+      "semi"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "sensation",
+    "parts": [
+      "sens",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "感觉；知觉；轰动",
+    "glossEn": "a physical feeling; a stir of public interest",
+    "tags": [
+      "ation",
+      "sens"
+    ],
+    "domain": "sensor"
+  },
+  {
+    "w": "sensible",
+    "parts": [
+      "sens",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossZh": "明智的；合理的",
+    "tags": [
+      "ible",
+      "sens"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "sensing",
+    "parts": [
+      "sens",
+      "ing"
+    ],
+    "pos": "n",
+    "glossZh": "感测；传感",
+    "glossEn": "the act of detecting a physical quantity",
+    "tags": [
+      "ing",
+      "sens"
+    ],
+    "domain": "sensor"
+  },
+  {
+    "w": "sensor",
+    "parts": [
+      "sens",
+      "or"
+    ],
+    "pos": "n",
+    "glossZh": "传感器；感应器",
+    "glossEn": "a device that detects a physical quantity",
+    "tags": [
+      "or",
+      "sens"
+    ],
+    "domain": "sensor"
+  },
+  {
+    "w": "sensory",
+    "parts": [
+      "sens",
+      "ory"
+    ],
+    "pos": "adj",
+    "glossZh": "感觉的；感官的",
+    "glossEn": "relating to sensation",
+    "tags": [
+      "ory",
+      "sens"
+    ],
+    "domain": "sensor"
+  },
+  {
+    "w": "ship",
+    "parts": [
+      "ship"
+    ],
+    "pos": "v",
+    "glossZh": "运送；发货",
+    "glossEn": "to send goods",
+    "tags": [
+      "c-conversion",
+      "ship"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "significance",
+    "parts": [
+      "sign",
+      "ific",
+      "ance"
+    ],
+    "pos": "n",
+    "glossZh": "意义；重要性；显著性",
+    "glossEn": "the quality of being meaningful or statistically notable",
+    "tags": [
+      "ance",
+      "ific",
+      "sign"
+    ],
+    "domain": "science"
+  },
+  {
+    "w": "silly",
+    "parts": [
+      "silly"
+    ],
+    "pos": "adj",
+    "glossZh": "愚蠢的；傻的",
+    "ety": {
+      "from": "古英语 sælig（有福的、幸运的）",
+      "firstAttested": "古英语时期",
+      "note": "语义链：有福 → 天真 → 可怜 → 愚蠢。现代义是词义贬降（pejoration），与“福”已无共时联系。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "silly"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "simplify",
+    "parts": [
+      "simple",
+      "ify"
+    ],
+    "pos": "v",
+    "glossZh": "简化；使简易",
+    "tags": [
+      "ify",
+      "simple"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "simulcast",
+    "parts": [
+      "simulcast"
+    ],
+    "pos": "n",
+    "glossZh": "同步播出",
+    "ety": {
+      "from": "simultaneous + broadcast 的混成词",
+      "note": "20 世纪 30 年代广播术语。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "simulcast"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "simultaneous",
+    "parts": [
+      "simul",
+      "taneous"
+    ],
+    "pos": "adj",
+    "glossZh": "同时的；同时发生的",
+    "glossEn": "happening at the same time",
+    "tags": [
+      "simul",
+      "taneous"
+    ],
+    "domain": "slam"
+  },
+  {
+    "w": "smog",
+    "parts": [
+      "smog"
+    ],
+    "pos": "n",
+    "glossZh": "烟雾",
+    "ety": {
+      "from": "smoke + fog 的混成词（blend）",
+      "firstAttested": "1905 年",
+      "note": "1905 年前后伦敦报刊用来描述烟与雾混合的污染，属于典型的混成构词，不能拆成词素相加。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "smog"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "socialism",
+    "parts": [
+      "social",
+      "ism"
+    ],
+    "pos": "n",
+    "glossZh": "社会主义",
+    "tags": [
+      "ism",
+      "social"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "software",
+    "parts": [
+      "soft",
+      "ware"
+    ],
+    "pos": "n",
+    "glossZh": "软件",
+    "ety": {
+      "from": "soft + ware 的复合词，仿 hardware 而成",
+      "note": "ware 原指“制品、器皿”，20 世纪中期计算机语境把它用作“（软/硬）件”的构词成分。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "soft",
+      "ware"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "sonar",
+    "parts": [
+      "sonar"
+    ],
+    "pos": "n",
+    "glossZh": "声呐",
+    "ety": {
+      "from": "SOund Navigation And Ranging 的首字母缩略词",
+      "note": "二战时期术语，仿 radar 造成。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "sonar"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "spectator",
+    "parts": [
+      "spect",
+      "ator"
+    ],
+    "pos": "n",
+    "glossZh": "观众；旁观者",
+    "tags": [
+      "ator",
+      "spect"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "structural",
+    "parts": [
+      "struct",
+      "ure",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "结构的；结构性的",
+    "tags": [
+      "al",
+      "struct",
+      "ure"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "structure",
+    "parts": [
+      "struct",
+      "ure"
+    ],
+    "pos": "n",
+    "glossZh": "结构；构造；建筑物",
+    "glossEn": "the arrangement of parts; something built",
+    "tags": [
+      "struct",
+      "ure"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "subject",
+    "parts": [
+      "sub",
+      "ject"
+    ],
+    "pos": "n",
+    "glossZh": "主题；科目；研究对象",
+    "glossEn": "something placed under discussion",
+    "tags": [
+      "ject",
+      "sub"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "submarine",
+    "parts": [
+      "sub",
+      "marine"
+    ],
+    "pos": "n",
+    "glossZh": "潜艇",
+    "glossEn": "a vessel that goes under the sea",
+    "tags": [
+      "marine",
+      "sub"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "submission",
+    "parts": [
+      "sub",
+      "miss",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "提交；屈服；投稿",
+    "tags": [
+      "ion",
+      "miss",
+      "sub"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "submit",
+    "parts": [
+      "sub",
+      "mit"
+    ],
+    "pos": "v",
+    "glossZh": "提交；屈服；主张",
+    "tags": [
+      "mit",
+      "sub"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "subnational",
+    "parts": [
+      "sub",
+      "nation",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "次国家级的（如省级）",
+    "glossEn": "below the national level",
+    "ety": {
+      "from": "sub-（在下）+ national",
+      "note": "政治学与治理研究常用，指低于中央政府的层级。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary",
+          "detail": "sub-"
+        }
+      ]
+    },
+    "tags": [
+      "sub",
+      "nation"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "subscribe",
+    "parts": [
+      "sub",
+      "scrib",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "订阅；认购；赞同",
+    "tags": [
+      "e",
+      "scrib",
+      "sub"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "subscription",
+    "parts": [
+      "sub",
+      "script",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "订阅；订阅费",
+    "tags": [
+      "ion",
+      "script",
+      "sub"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "subtract",
+    "parts": [
+      "sub",
+      "tract"
+    ],
+    "pos": "v",
+    "glossZh": "减去；扣除",
+    "tags": [
+      "sub",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "subway",
+    "parts": [
+      "sub",
+      "way"
+    ],
+    "pos": "n",
+    "glossZh": "地铁；地下通道",
+    "tags": [
+      "sub",
+      "way"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "supermarket",
+    "parts": [
+      "super",
+      "market"
+    ],
+    "pos": "n",
+    "glossZh": "超市",
+    "tags": [
+      "market",
+      "super"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "supernatural",
+    "parts": [
+      "super",
+      "natural"
+    ],
+    "pos": "adj",
+    "glossZh": "超自然的",
+    "tags": [
+      "natural",
+      "super"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "supersonic",
+    "parts": [
+      "super",
+      "son",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossZh": "超音速的",
+    "tags": [
+      "ic",
+      "son",
+      "super"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "supervise",
+    "parts": [
+      "super",
+      "vis",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "监督；管理；指导",
+    "tags": [
+      "e",
+      "super",
+      "vis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "supervision",
+    "parts": [
+      "super",
+      "vis",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "监督；管理",
+    "tags": [
+      "ion",
+      "super",
+      "vis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "support",
+    "parts": [
+      "sup",
+      "port"
+    ],
+    "pos": "v",
+    "glossZh": "支持；支撑；供养",
+    "glossEn": "to hold up; to give help to",
+    "tags": [
+      "port",
+      "sup"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "supporter",
+    "parts": [
+      "sup",
+      "port",
+      "er"
+    ],
+    "pos": "n",
+    "glossZh": "支持者；拥护者",
+    "tags": [
+      "er",
+      "port",
+      "sup"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "suppose",
+    "parts": [
+      "sup",
+      "pos",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "假设；认为；猜想",
+    "tags": [
+      "e",
+      "pos",
+      "sup"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "supranational",
+    "parts": [
+      "supra",
+      "nation",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "超国家的",
+    "tags": [
+      "al",
+      "nation",
+      "supra"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "sustain",
+    "parts": [
+      "sus",
+      "tain"
+    ],
+    "pos": "v",
+    "glossZh": "维持；支撑；承受",
+    "tags": [
+      "sus",
+      "tain"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "sustainable",
+    "parts": [
+      "sus",
+      "tain",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "可持续的；可维持的",
+    "tags": [
+      "able",
+      "sus",
+      "tain"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "synthesis",
+    "parts": [
+      "syn",
+      "thes",
+      "is"
+    ],
+    "pos": "n",
+    "glossZh": "综合；合成",
+    "tags": [
+      "is",
+      "syn",
+      "thes"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "teacher",
+    "parts": [
+      "teach",
+      "er"
+    ],
+    "pos": "n",
+    "glossZh": "教师；老师",
+    "tags": [
+      "er",
+      "teach"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "technology",
+    "parts": [
+      "techno",
+      "logy"
+    ],
+    "pos": "n",
+    "glossZh": "技术；工艺",
+    "tags": [
+      "logy",
+      "techno"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "telegram",
+    "parts": [
+      "tele",
+      "gram"
+    ],
+    "pos": "n",
+    "glossZh": "电报",
+    "tags": [
+      "gram",
+      "tele"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "telemetry",
+    "parts": [
+      "tele",
+      "metr",
+      "y"
+    ],
+    "pos": "n",
+    "glossZh": "遥测；遥测技术",
+    "tags": [
+      "metr",
+      "tele",
+      "y"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "telephone",
+    "parts": [
+      "tele",
+      "phone"
+    ],
+    "pos": "n",
+    "glossZh": "电话",
+    "ety": {
+      "from": "tele-（远）+ phone（声音），源自希腊语",
+      "firstAttested": "19 世纪",
+      "note": "19 世纪先用于“远距离传声装置”的命名，1876 年贝尔的装置使这个词定型；属科学希腊语构词，不是英语本土复合词。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "phone",
+      "tele"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "telescope",
+    "parts": [
+      "tele",
+      "scope"
+    ],
+    "pos": "n",
+    "glossZh": "望远镜",
+    "glossEn": "an instrument for seeing far",
+    "tags": [
+      "scope",
+      "tele"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "television",
+    "parts": [
+      "tele",
+      "vis",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "电视；电视机",
+    "tags": [
+      "ion",
+      "tele",
+      "vis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "tenable",
+    "parts": [
+      "ten",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "站得住脚的；可维持的",
+    "tags": [
+      "able",
+      "ten"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "termination",
+    "parts": [
+      "termin",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "终止；结束；末端",
+    "glossEn": "the act of ending",
+    "tags": [
+      "ation",
+      "termin"
+    ],
+    "domain": "cs"
+  },
+  {
+    "w": "terrible",
+    "parts": [
+      "terr",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossZh": "可怕的；糟糕的",
+    "tags": [
+      "ible",
+      "terr"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "text",
+    "parts": [
+      "text"
+    ],
+    "pos": "v",
+    "glossZh": "发短信",
+    "glossEn": "to send a text message",
+    "tags": [
+      "c-conversion",
+      "text"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "thermal",
+    "parts": [
+      "therm",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "热的；保温的",
+    "glossEn": "relating to heat",
+    "tags": [
+      "al",
+      "therm"
+    ],
+    "domain": "science"
+  },
+  {
+    "w": "thermodynamics",
+    "parts": [
+      "thermo",
+      "dynamics"
+    ],
+    "pos": "n",
+    "glossZh": "热力学",
+    "glossEn": "the study of heat and energy",
+    "tags": [
+      "dynamics",
+      "thermo"
+    ],
+    "domain": "science"
+  },
+  {
+    "w": "thermometer",
+    "parts": [
+      "thermo",
+      "meter"
+    ],
+    "pos": "n",
+    "glossZh": "温度计",
+    "tags": [
+      "meter",
+      "thermo"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "threshold",
+    "parts": [
+      "threshold"
+    ],
+    "pos": "n",
+    "glossZh": "阈值；门槛",
+    "glossEn": "a boundary that triggers a change; a doorway",
+    "tags": [
+      "threshold"
+    ],
+    "domain": "sensor"
+  },
+  {
+    "w": "timetable",
+    "parts": [
+      "time",
+      "table"
+    ],
+    "pos": "n",
+    "glossZh": "时间表；课程表",
+    "tags": [
+      "table",
+      "time"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "token",
+    "parts": [
+      "token"
+    ],
+    "pos": "n",
+    "glossZh": "标记；代币；词元；令牌",
+    "ety": {
+      "from": "古英语 tācn（记号、标志）",
+      "firstAttested": "古英语时期",
+      "note": "古英语原义是“符号、记号”，中古英语后引申出“凭证、代币”；现代计算机的“令牌”与自然语言处理的“词元”都是 20 世纪对“记号”这一核心义的技术化延伸。",
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements"
+        }
+      ]
+    },
+    "tags": [
+      "token"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "tract",
+    "parts": [
+      "tract"
+    ],
+    "pos": "n",
+    "glossZh": "地带；大片土地；（政治/宗教）小册子",
+    "tags": [
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "traction",
+    "parts": [
+      "tract",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "牵引；牵引力；摩擦力",
+    "tags": [
+      "ion",
+      "tract"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "trajectory",
+    "parts": [
+      "traject",
+      "ory"
+    ],
+    "pos": "n",
+    "glossZh": "轨迹；弹道；（发展）轨道",
+    "glossEn": "the path of a moving object",
+    "tags": [
+      "ory",
+      "traject"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "transfer",
+    "parts": [
+      "trans",
+      "fer"
+    ],
+    "pos": "v",
+    "glossZh": "转移；转让；换乘",
+    "glossEn": "to carry across",
+    "tags": [
+      "fer",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "transferable",
+    "parts": [
+      "trans",
+      "fer",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "可转移的；可转让的",
+    "tags": [
+      "able",
+      "fer",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "transform",
+    "parts": [
+      "trans",
+      "form"
+    ],
+    "pos": "v",
+    "glossZh": "转变；变换",
+    "tags": [
+      "form",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "transformation",
+    "parts": [
+      "trans",
+      "form",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "转变；变换；改造",
+    "tags": [
+      "ation",
+      "form",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "translate",
+    "parts": [
+      "trans",
+      "lat",
+      "e"
+    ],
+    "pos": "v",
+    "glossZh": "翻译；转化",
+    "tags": [
+      "e",
+      "lat",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "translation",
+    "parts": [
+      "trans",
+      "lat",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "翻译；译文；转化",
+    "tags": [
+      "ion",
+      "lat",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "transmission",
+    "parts": [
+      "trans",
+      "miss",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "传输；传播；变速器",
+    "tags": [
+      "ion",
+      "miss",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "transmit",
+    "parts": [
+      "trans",
+      "mit"
+    ],
+    "pos": "v",
+    "glossZh": "传输；传送；传播",
+    "tags": [
+      "mit",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "transnational",
+    "parts": [
+      "trans",
+      "nation",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "跨国的",
+    "tags": [
+      "al",
+      "nation",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "transport",
+    "parts": [
+      "trans",
+      "port"
+    ],
+    "pos": "v",
+    "glossZh": "运输；运送",
+    "glossEn": "to carry from one place to another",
+    "tags": [
+      "port",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "transportable",
+    "parts": [
+      "trans",
+      "port",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "可运输的；可移动的",
+    "tags": [
+      "able",
+      "port",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "transportation",
+    "parts": [
+      "trans",
+      "port",
+      "ation"
+    ],
+    "pos": "n",
+    "glossZh": "运输；交通；运输系统",
+    "tags": [
+      "ation",
+      "port",
+      "trans"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "tripod",
+    "parts": [
+      "tri",
+      "pod"
+    ],
+    "pos": "n",
+    "glossZh": "三脚架",
+    "tags": [
+      "pod",
+      "tri"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "uncalibrated",
+    "parts": [
+      "un",
+      "calibr",
+      "ate",
+      "ed"
+    ],
+    "pos": "adj",
+    "glossZh": "未校准的；未标定的",
+    "glossEn": "not adjusted to a standard",
+    "tags": [
+      "ate",
+      "calibr",
+      "ed",
+      "un"
+    ],
+    "domain": "sensor"
+  },
+  {
+    "w": "uncertain",
+    "parts": [
+      "un",
+      "certain"
+    ],
+    "pos": "adj",
+    "glossZh": "不确定的；无把握的",
+    "tags": [
+      "certain",
+      "un"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "uncertainty",
+    "parts": [
+      "un",
+      "certain",
+      "ty"
+    ],
+    "pos": "n",
+    "glossZh": "不确定性；不确定的事",
+    "tags": [
+      "certain",
+      "ty",
+      "un"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "underestimate",
+    "parts": [
+      "under",
+      "estimate"
+    ],
+    "pos": "v",
+    "glossZh": "低估；看轻",
+    "tags": [
+      "estimate",
+      "under"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "unhappy",
+    "parts": [
+      "un",
+      "happy"
+    ],
+    "pos": "adj",
+    "glossZh": "不快乐的；不满意的",
+    "tags": [
+      "happy",
+      "un"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "unhelpful",
+    "parts": [
+      "un",
+      "help",
+      "ful"
+    ],
+    "pos": "adj",
+    "glossZh": "无帮助的；没用的",
+    "tags": [
+      "ful",
+      "help",
+      "un"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "unhelpfulness",
+    "parts": [
+      "un",
+      "help",
+      "ful",
+      "ness"
+    ],
+    "pos": "n",
+    "glossZh": "无帮助；无用",
+    "tags": [
+      "ful",
+      "help",
+      "ness",
+      "un"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "uniform",
+    "parts": [
+      "uni",
+      "form"
+    ],
+    "pos": "n",
+    "glossZh": "制服",
+    "glossEn": "uniform clothes; from uni- one + forma shape",
+    "tags": [
+      "form",
+      "uni"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "universal",
+    "parts": [
+      "uni",
+      "vers",
+      "al"
+    ],
+    "pos": "adj",
+    "glossZh": "普遍的；通用的；全体的",
+    "tags": [
+      "al",
+      "uni",
+      "vers"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "universe",
+    "parts": [
+      "uni",
+      "verse"
+    ],
+    "pos": "n",
+    "glossZh": "宇宙；总体；领域",
+    "tags": [
+      "uni",
+      "verse"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "unkind",
+    "parts": [
+      "un",
+      "kind"
+    ],
+    "pos": "adj",
+    "glossZh": "不友善的；刻薄的",
+    "tags": [
+      "kind",
+      "un"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "unkindness",
+    "parts": [
+      "un",
+      "kind",
+      "ness"
+    ],
+    "pos": "n",
+    "glossZh": "不友善；刻薄",
+    "tags": [
+      "kind",
+      "ness",
+      "un"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "unpredictable",
+    "parts": [
+      "un",
+      "pre",
+      "dict",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "不可预测的；变化莫测的",
+    "tags": [
+      "able",
+      "dict",
+      "pre",
+      "un"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "untenable",
+    "parts": [
+      "un",
+      "ten",
+      "able"
+    ],
+    "pos": "adj",
+    "glossZh": "站不住脚的；难以维持的",
+    "tags": [
+      "able",
+      "ten",
+      "un"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "update",
+    "parts": [
+      "up",
+      "date"
+    ],
+    "pos": "v",
+    "glossZh": "更新；使现代化",
+    "tags": [
+      "date",
+      "up"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "upgrade",
+    "parts": [
+      "up",
+      "grade"
+    ],
+    "pos": "v",
+    "glossZh": "升级；提升",
+    "tags": [
+      "grade",
+      "up"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "upload",
+    "parts": [
+      "up",
+      "load"
+    ],
+    "pos": "v",
+    "glossZh": "上传",
+    "tags": [
+      "load",
+      "up"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "usb",
+    "parts": [
+      "usb"
+    ],
+    "pos": "n",
+    "glossZh": "通用串行总线",
+    "ety": {
+      "from": "Universal Serial Bus 的首字母缩写",
+      "note": "计算机接口标准，按字母读出。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "usb"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "verdict",
+    "parts": [
+      "ver",
+      "dict"
+    ],
+    "pos": "n",
+    "glossZh": "裁决；判决；定论",
+    "tags": [
+      "dict",
+      "ver"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "version",
+    "parts": [
+      "vers",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "版本；说法；改编本",
+    "tags": [
+      "ion",
+      "vers"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "vertical",
+    "parts": [
+      "vert",
+      "ical"
+    ],
+    "pos": "adj",
+    "glossZh": "垂直的；纵向的",
+    "tags": [
+      "ical",
+      "vert"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "video",
+    "parts": [
+      "video"
+    ],
+    "pos": "n",
+    "glossZh": "视频；录像",
+    "glossEn": "from Latin video \"I see\"",
+    "tags": [
+      "video"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "virus",
+    "parts": [
+      "virus"
+    ],
+    "pos": "n",
+    "glossZh": "病毒；计算机病毒",
+    "ety": {
+      "from": "拉丁 virus（毒、黏液、毒液）",
+      "firstAttested": "19 世纪末",
+      "note": "19 世纪末借入生物学指致病因子；“计算机病毒”是 20 世纪 80 年代的隐喻扩展（自我复制、传染）。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "virus"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "visible",
+    "parts": [
+      "vis",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossZh": "可见的；明显的",
+    "tags": [
+      "ible",
+      "vis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "vision",
+    "parts": [
+      "vis",
+      "ion"
+    ],
+    "pos": "n",
+    "glossZh": "视力；视野；愿景",
+    "tags": [
+      "ion",
+      "vis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "visual",
+    "parts": [
+      "vis",
+      "ual"
+    ],
+    "pos": "adj",
+    "glossZh": "视觉的；可视的",
+    "tags": [
+      "ual",
+      "vis"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "web",
+    "parts": [
+      "web"
+    ],
+    "pos": "n",
+    "glossZh": "网；蜘蛛网；万维网",
+    "ety": {
+      "from": "古英语 webb（织物、网）",
+      "firstAttested": "古英语时期",
+      "note": "本义“织成的网”，1989 年万维网（World Wide Web）借用这一隐喻命名。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "web"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "webinar",
+    "parts": [
+      "webinar"
+    ],
+    "pos": "n",
+    "glossZh": "网络研讨会",
+    "ety": {
+      "from": "web + seminar 的混成词",
+      "note": "20 世纪 90 年代末网络会议用语。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Online Etymology Dictionary"
+        }
+      ]
+    },
+    "tags": [
+      "webinar"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "widen",
+    "parts": [
+      "wide",
+      "en"
+    ],
+    "pos": "v",
+    "glossZh": "加宽；扩大",
+    "tags": [
+      "en",
+      "wide"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "worker",
+    "parts": [
+      "work",
+      "er"
+    ],
+    "pos": "n",
+    "glossZh": "工人；工作者",
+    "tags": [
+      "er",
+      "work"
+    ],
+    "domain": "general"
+  },
+  {
+    "w": "workflow",
+    "parts": [
+      "work",
+      "flow"
+    ],
+    "pos": "n",
+    "glossZh": "工作流程",
+    "glossEn": "the sequence of tasks in a process",
+    "tags": [
+      "flow",
+      "work"
+    ],
+    "domain": "cs"
+  }
+]

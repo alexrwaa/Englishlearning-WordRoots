@@ -13,3 +13,4 @@ coverage/
 *.db-wal
 !src/content/**/*.json
 .materials/
+scripts/morpheme-refs.json

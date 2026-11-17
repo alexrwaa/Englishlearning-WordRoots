@@ -143,7 +143,7 @@ export function PartChips({ parts, onPick }: { parts: string[]; onPick: (form: s
             title={m ? `${typeLabel(m.type)} · ${m.glossZh}` : '词典尚未收录该词素'}
           >
             <span className="mono" style={{ fontSize: 13 }}>
-              {m ? m.form : part}
+              {part}
             </span>
             <span className="tiny faint">{m ? m.glossZh : '未收录'}</span>
           </button>
