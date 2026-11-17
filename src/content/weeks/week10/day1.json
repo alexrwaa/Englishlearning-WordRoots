@@ -1,0 +1,155 @@
+{
+  "id": "w10d1",
+  "week": 10,
+  "day": 1,
+  "title": "一词多义的结构：核心义与扩展义",
+  "tagline": "不再把一个词的多条释义当清单背，而是画出以核心义为中心的义项网络",
+  "objectives": [
+    "能指出一个多义词的核心义，并说明至少两条扩展路径",
+    "能区分一词多义（polysemy）与同形异源（homonymy）",
+    "能在词典多条释义中依据语境选出正确义项"
+  ],
+  "prereqs": ["w09d7", "c-semantic-shift"],
+  "concepts": ["c-semantic-shift", "c-metaphor", "c-transparency"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "head：从身体部位长出来的一棵树",
+      "body": "查 head，你会看到十几条释义。它们不是偶然凑在一起的，而是从同一个核心义长出来的：\n\n- **核心义**：人或动物的头部（身体最上端、控制中枢）\n- 相似（形状／位置在上）：the head of a page、the head of a nail、the head of the river\n- 相似（功能上居首）：the head of the department、head chef\n- 转类（名词→动词）：to head a team、to head north\n\n注意扩展不是随便联想：每一条都能说清“凭什么”从核心义推过来——位置在上、功能居首、或整体转指动作。这就是**多义词的网络结构**。",
+      "terms": [
+        { "term": "core sense", "zh": "核心义", "en": "core sense", "note": "其他义项由它延伸而来" },
+        { "term": "extension", "zh": "扩展义", "en": "extended sense" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "扩展的三条常见通道",
+      "body": "大多数多义词的义项都能归到三条通道之一：\n\n1. **相似（隐喻）**：形状像、位置像、功能像。head of a nail 是形状相似；bottleneck 是功能相似（窄处限流）。\n2. **邻近（转喻）**：两个事物在时间、空间或因果上挨着。the kettle boiled 是容器代内容。\n3. **转类（转换构词）**：不改变拼写而改变词性。to head、to table、to email。\n\n三条通道不是互斥的标签，而是**解释工具**。遇到一个新义项，先问“它和核心义在哪一点上说得通”，比背释义有效得多。",
+      "terms": [
+        { "term": "prototype", "zh": "原型", "en": "prototype", "note": "范畴中最典型、最先被想到的成员" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "run：一个动词的义项地图",
+      "body": "run 是英语里义项最多的动词之一。下表只取六条，重点不是记住释义，而是看清每条义项背后的扩展机制。一旦看出机制，没见过的用法也能猜个八九不离十，比逐条背释义省力得多。",
+      "head": ["义项", "例句", "扩展机制"],
+      "rows": [
+        ["奔跑（核心义）", "She runs five kilometres every morning.", "人体快速移动，双腿交替"],
+        ["（机器）运转", "The engine runs smoothly.", "持续、有节律地运动 → 泛指运转"],
+        ["经营、管理", "He runs a small lab.", "让一个系统持续运转 → 使其运作"],
+        ["（程序）执行", "The script runs in under a second.", "机器运转 → 计算过程运转"],
+        ["（衣物）抽丝", "My tights have run.", "线状物“跑开” → 脱线"],
+        ["（液体）流动", "The tap is running.", "沿路径持续移动"]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "多义还是同形异源：一个可操作的判据",
+      "body": "不是所有“一个拼写多个意思”都是多义词。判据有两条：义项之间**有没有可解释的联系**，以及**来源链是否相同**。两条都指向“无”，就按同形异源处理。",
+      "a": "一词多义 polysemy",
+      "b": "同形异源 homonymy",
+      "rows": [
+        ["义项联系", "可解释：相似、邻近、转类", "无可解释联系，纯属撞形"],
+        ["来源", "同一来源，义项逐步扩展", "不同来源，后来拼写合并"],
+        ["例子", "head：头 → 负责人 → 率领", "bank：河岸（北欧语）／银行（意大利语 banca）"],
+        ["另一个例子", "run：跑 → 运转 → 经营", "sole：脚底（拉丁 solum）／唯一的（拉丁 solus）"],
+        ["判断失误的后果", "把有联系的义项割裂记忆，负担变重", "硬编一个“联系”，记错来源"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "学习者最容易犯的三个错",
+      "body": "**错误一：一个词配一个中文词。** 把 head 只记成“头”，于是 the head of the department 读不通。正确做法是记“核心义＋两条典型搭配”。\n\n**错误二：以为词典第一条最重要。** 词典义项顺序有的按历史、有的按频率，并不等于“最常用”。请按语境选，不要按序号选。\n\n**错误三：看到多个义项就以为要分别背。** 先找核心义，再看扩展机制，往往能一次记住四五条。比如 run 的“运转—经营—执行程序”其实是同一条“持续运作”的延伸。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w10d1-p1",
+      "kind": "mcq",
+      "prompt": "the head of the department 中的 head，与下面哪个义项关系最近？",
+      "choices": [
+        "身体最上端的部位",
+        "处于顶端或首位、居领导地位的部分",
+        "河流的源头",
+        "硬币的正面"
+      ],
+      "answer": 1,
+      "explain": "head 的核心义是“头部”，扩展路径是“位置在上、功能居首”。部门负责人正是“居首”这一支的延伸，和“河流源头”（位置在上）同源但不同支。身体部位义只是历史起点，不是这里的意思。",
+      "concepts": ["c-semantic-shift", "c-metaphor"]
+    },
+    {
+      "id": "w10d1-p2",
+      "kind": "mcq",
+      "prompt": "下面哪一组属于同形异源（homonymy），而不是一词多义？",
+      "choices": [
+        "bank（河岸）／ bank（银行）",
+        "head（头）／ head（部门负责人）",
+        "run（跑）／ run（经营）",
+        "field（田野）／ field（研究领域）"
+      ],
+      "answer": 0,
+      "explain": "两个 bank 来源不同（古北欧语 banki 与意大利语 banca“长凳”），义项之间也没有可解释的联系。其余三组都能说清扩展路径：head 靠“居首”，run 靠“持续运作”，field 靠“范围”的隐喻扩展。",
+      "concepts": ["c-semantic-shift"]
+    },
+    {
+      "id": "w10d1-p3",
+      "kind": "cloze",
+      "prompt": "填入术语（中文或英文均可）",
+      "sentence": "一个词有多个相互关联的义项，这种现象叫 ___ 。",
+      "answer": "一词多义",
+      "accept": ["一词多义", "polysemy", "多义现象", "多义"],
+      "explain": "polysemy（一词多义）指同一来源的多个义项共存，义项之间可通过隐喻、转喻或转类解释。与之相对的是 homonymy（同形异源），后者是不同来源的词撞成同一形状。",
+      "concepts": ["c-semantic-shift"]
+    },
+    {
+      "id": "w10d1-p4",
+      "kind": "mcq",
+      "prompt": "The script runs in under a second. 中的 runs，其义项最直接来自哪一条？",
+      "choices": [
+        "“奔跑”，因为程序在“跑”",
+        "“（机器）运转”，再扩展到计算过程",
+        "“经营”，因为脚本“管理”任务",
+        "“抽丝”，因为执行会“散开”"
+      ],
+      "answer": 1,
+      "explain": "run 从“持续有节律地运动”扩展到“机器运转”，再通过隐喻映射到“程序执行”——计算过程被看作一台运转的机器。这条链条也解释了为什么是 runs 而不是 works：work 没有“持续运转”的意象强度。",
+      "concepts": ["c-metaphor", "c-semantic-shift"]
+    },
+    {
+      "id": "w10d1-p5",
+      "kind": "mcq",
+      "prompt": "有学习者说：“词典里 head 的第一条是‘头’，所以其他义项都是从它派生、次要的。”这个说法的问题在于？",
+      "choices": [
+        "词典义项顺序有的按历史、有的按频率，不表示重要性；实际理解要看语境",
+        "head 只有一条义项，其余都是短语",
+        "词典第一条一定是错的",
+        "所有义项地位完全平等，没有核心义"
+      ],
+      "answer": 0,
+      "explain": "义项顺序是编纂惯例，不是语义地位的裁决。认知上确实存在核心义（身体部位最典型），但“词典第一条＝最重要”是错误推理；阅读时应依据语境与搭配判断，而不是序号。",
+      "concepts": ["c-semantic-shift"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w10d1-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "Her field is robot perception, but most of the methods she borrows come from computer vision and control theory.",
+      "word": "field",
+      "choices": ["研究领域", "农田", "运动场地", "视野范围"],
+      "answer": 0,
+      "strategy": "① 句法：field 作主语，后接 is robot perception，说明它是可被“是”定义的抽象范围；② 并列线索：methods、computer vision、control theory 都是学科名；③ 搭配线索：her field is… 是学术自我介绍的高频句式。",
+      "explain": "field 的核心义是“田地、开阔地”，通过“有边界的范围”这一意象扩展到“领域、学科”。判断依据是语境中的学科名与 methods 搭配，而不是“田地”这个本义。这正说明多义词取义靠语境，不靠词源。",
+      "concepts": ["c-semantic-shift", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "多义词的义项结构与语义扩展" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Semantics：polysemy 与 homonymy 的区分" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "head / run / field 的义项划分与语源" }
+  ]
+}

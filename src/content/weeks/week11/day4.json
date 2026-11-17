@@ -1,0 +1,184 @@
+{
+  "id": "w11d4",
+  "week": 11,
+  "day": 4,
+  "title": "传感器词族：radar、sonar、LiDAR、IMU",
+  "tagline": "三个 -ar 结尾的测距词，三种不同的造词机制，别当成一个模式",
+  "objectives": [
+    "能写出 radar、sonar 的完整展开形式并说明年代背景",
+    "能说明 lidar 是混成词，而 light detection and ranging 是后起的回读式展开",
+    "能拆解 inertial 并区分它与 internal",
+    "能判断一个缩写该按词读还是逐字母读"
+  ],
+  "prereqs": ["w11d3", "c-acronym", "c-blend"],
+  "concepts": ["c-acronym", "c-blend", "c-scientific", "c-etymology", "c-compound"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "三个测距词，三种出身",
+      "body": "radar、sonar、lidar 看起来是同一条流水线的产品，其实只有前两个是真正的首字母缩略词，第三个是混成词。这张表是本课的核心：**同一个后缀 -ar 不代表同一种构词方式**。",
+      "head": ["词", "完整形式", "构词方式", "出现时间"],
+      "rows": [
+        ["radar", "radio detection and ranging", "首字母缩略词（acronym），1940 年美军术语，取代旧称 radiolocation", "二战期间"],
+        ["sonar", "sound navigation and ranging", "首字母缩略词，仿 radar 的模式造出，用于水声探测", "1940 年代"],
+        ["lidar", "常写作 light detection and ranging", "先由 light + radar 混成（blend），完整形式是后来按 radar 模式回读的", "1960 年代初"],
+        ["IMU", "inertial measurement unit", "逐字母读的缩略语（initialism）", "20 世纪中后期"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "lidar 的真相：先混成，后回读",
+      "body": "很多教材说 lidar 是 light detection and ranging 的缩写。这句话在**用**上没错，在**史**上是倒过来的：\n\n- 1960 年激光器问世后，人们需要一个词来指“用光做雷达那样的事”。于是把 **li**（light）+ **dar**（radar）拼成 lidar——这是混成词（blend），和 smog、motel 同一机制。\n- 后来因为 radar（radio detection and ranging）与 sonar（sound navigation and ranging）都是“×× … and ranging”格式的缩写，人们**回头**给 lidar 配了一个同样格式的展开式：light detection and ranging。这种“先有词、后配全称”的展开叫 **backronym**（回读式缩写）。\n\n结论：lidar 的构词方式是混成，不是缩略。这个区别有实际意义——它解释了为什么 lidar 可以直接作动词（to lidar-scan）、可以直接加后缀（lidar-based），而 radar 的派生方式略有不同。\n\n另外注意大小写：LiDAR 的写法是厂商与媒体推广的结果，学术写作中 lidar 更常见，同一篇文章内保持一致即可。",
+      "terms": [
+        { "term": "backronym", "zh": "回读式缩写", "en": "backronym", "note": "先有词，再为它配一个“完整形式”" },
+        { "term": "blend", "zh": "混成词", "en": "blend" }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "inertial：从“无技艺”到“惯性”",
+      "body": "**inertial** = inert（惰性的）+ -ial（形容词后缀）。inert 来自拉丁 **iners**（in-“不”+ ars“技艺、本领”），本义“无技艺的、不活动的”。17 世纪起，这个词被用来描述物质“不愿改变运动状态”的性质，于是有了 **inertia**（惯性）。\n\n物理学的 inertia 是概念先行、旧词赋新义的典型：词的形式没变，意义从“无能”转到“抵抗运动状态改变”。\n\n**IMU**（inertial measurement unit，惯性测量单元）因此字面是“测量惯性的单元”：它用加速度计与陀螺仪感知自身的加速度与角速度，不需要外部参照。这也是它能在隧道、室内、水下工作的原因，也是它误差会累积（drift）的原因。\n\n常见形近误区：inertial ≠ internal。internal 是“内部的”（intern-），与“惯性”无关；inertial navigation 是“惯性导航”，不是“内部导航”。",
+      "steps": [
+        { "period": "拉丁", "form": "iners / inert-", "note": "in-（不）+ ars（技艺）→ 无技艺的、不活动的" },
+        { "period": "英语 17 世纪", "form": "inert", "note": "惰性的；化学上指不活泼" },
+        { "period": "科学拉丁/英语", "form": "inertia", "note": "惯性：抵抗运动状态改变的性质" },
+        { "period": "英语", "form": "inertial", "note": "惯性的 → inertial measurement unit" }
+      ],
+      "terms": [
+        { "term": "inertia", "zh": "惯性", "en": "inertia" },
+        { "term": "drift", "zh": "漂移（误差累积）", "en": "drift" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "sense 与 detect：感知这一族的两条线",
+      "body": "传感器的两个核心动作，各有自己的词根：\n\n**sense**（感知）来自拉丁 sentire“感觉、察觉”：sense、sensor、sensory、sensation、sensitive、insensitive。注意 consent（con-“共同”+ sentire“感觉”→“同意”）与 resent（re-“回”+ sentire→“回感”→“怨恨”）也在这一族里，语义已专业化，但可追溯。\n\n**detect**（探测）来自拉丁 detegere = de-（去除）+ tegere（覆盖），“揭开盖子”→ 发现。同族：detection、detector、undetected。所以 detector 的字面义是“揭开覆盖物者”，这正是探测器做的事：让隐藏的东西显形。\n\n两条线的分工在论文里很清楚：sensor 是器件，sensing 是过程，detection 是“判断某物是否存在”的任务（object detection、anomaly detection）。写“传感器检测到障碍”时，detect 比 sense 更强调判断结果。",
+      "morphemes": ["sens", "de", "tect", "ion"]
+    },
+    {
+      "kind": "matrix",
+      "title": "以 sens 为词基的感知词族",
+      "body": "sens 词族的成员覆盖“能力—器件—过程—性质”四个位置，是写方法部分时最常用的一组词。注意 -ory 与 -ation 的分工：前者多指“与……有关的”，后者指“感知这件事”。",
+      "base": "sens",
+      "prefixes": [
+        { "text": "in", "glossZh": "否定：不" },
+        { "text": "con", "glossZh": "共同" }
+      ],
+      "suffixes": [
+        { "text": "or", "glossZh": "名词后缀：器件" },
+        { "text": "ory", "glossZh": "形容词后缀：与……有关的" },
+        { "text": "ing", "glossZh": "名词化：过程" },
+        { "text": "ation", "glossZh": "名词后缀：行为、结果" }
+      ],
+      "words": [
+        { "w": "sensor", "parts": ["sens", "or"], "glossZh": "传感器" },
+        { "w": "sensory", "parts": ["sens", "ory"], "glossZh": "感觉的、感官的" },
+        { "w": "sensing", "parts": ["sens", "ing"], "glossZh": "感知（过程）" },
+        { "w": "sensation", "parts": ["sens", "ation"], "glossZh": "感觉、知觉" },
+        { "w": "sensible", "parts": ["sens", "ible"], "glossZh": "合理的、可感知的" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "缩写怎么读：一条可操作的判断规则",
+      "body": "读论文时会遇到大量缩写，读法影响听报告时的理解。判断规则不是背名单，而是看**能否连读成一个可发音的词**：\n\n- 能按词读 → acronym：SLAM、NASA、LiDAR（读 /ˈlaɪdɑːr/）、RADAR。\n- 只能逐字母读 → initialism：IMU、GPS、CPU、GPU、CNN。\n- 混合型也存在：ISO 按字母读，但 JPEG 常读 /ˈdʒeɪpeɡ/。\n\n一条实用补充：**同一个缩写在不同的圈子里读法可能不同**。IMU 在机器人组里几乎总是逐字母读；某些厂商宣传材料会读成 /ˈɪmuː/，属于行外用法。写论文时不需标注读音，但作报告时要跟本领域习惯。",
+      "terms": [
+        { "term": "initialism", "zh": "逐字母读的缩略语", "en": "initialism" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w11d4-p1",
+      "kind": "mcq",
+      "prompt": "radar 的完整形式是？",
+      "choices": [
+        "radio detection and ranging",
+        "ranging and detection of radio",
+        "radio distance and ranging",
+        "radiation detection and ranging"
+      ],
+      "answer": 0,
+      "explain": "radar = radio detection and ranging（无线电探测与测距），1940 年由美国海军术语确立，取代了较早的 radiolocation。注意词序是 detection 在前、ranging 在后，与 sonar 的 navigation and ranging 不同。",
+      "concepts": ["c-acronym", "c-scientific"]
+    },
+    {
+      "id": "w11d4-p2",
+      "kind": "mcq",
+      "prompt": "关于 lidar 的构词，哪一项最准确？",
+      "choices": [
+        "它是 light detection and ranging 的首字母缩略词，1960 年按此形式造出",
+        "它由 light 与 radar 混成，完整形式是后来按 radar 模式回读的",
+        "它是 light + 拉丁词根 dar（给予）的组合形式",
+        "它是 laser 的截短形式"
+      ],
+      "answer": 1,
+      "explain": "lidar 出现于 1960 年代初，是 light + radar 的混成词；light detection and ranging 是后来为对齐 radar/sonar 的命名模式而配的 backronym。把它当缩略词会误解它的派生能力（可直接作动词、加后缀）。",
+      "concepts": ["c-blend", "c-acronym", "c-etymology"],
+      "hint": "想想 smog = smoke + fog 的机制。"
+    },
+    {
+      "id": "w11d4-p3",
+      "kind": "cloze",
+      "prompt": "填入 inertial 的正确形式（形容词）",
+      "sentence": "Because the tunnel blocks satellite signals, the pipeline relies on an ___ measurement unit for short-term motion estimates.",
+      "answer": "inertial",
+      "accept": ["inertial"],
+      "explain": "inert（惰性的，来自拉丁 iners“无技艺的”）+ -ial → inertial“惯性的”。inertial measurement unit 即 IMU。注意不要误写成 internal（内部的），二者词根不同。",
+      "concepts": ["c-etymology", "c-suffix"]
+    },
+    {
+      "id": "w11d4-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词（“探测”）",
+      "parts": ["de", "tect", "ion"],
+      "answer": "detection",
+      "explain": "de（去除）+ tect（覆盖，拉丁 tegere）+ ion（名词后缀）→ detection“探测、检测”。字面义“揭开覆盖”，同族有 detect、detector、undetected。",
+      "concepts": ["de", "tect", "ion", "c-suffix"]
+    },
+    {
+      "id": "w11d4-p5",
+      "kind": "mcq",
+      "prompt": "下面哪个缩写属于 initialism（逐字母读）？",
+      "choices": ["SLAM", "NASA", "IMU", "LiDAR"],
+      "answer": 2,
+      "explain": "IMU 读作 I-M-U 三个字母，是 initialism。SLAM 读 /slæm/、NASA 读 /ˈnæsə/、LiDAR 读 /ˈlaɪdɑːr/，都能连读成词，属于 acronym。",
+      "concepts": ["c-acronym"]
+    },
+    {
+      "id": "w11d4-p6",
+      "kind": "mcq",
+      "prompt": "论文写 object detection，而不写 object sensing，主要差别是？",
+      "choices": [
+        "detection 强调判断某物是否存在并给出位置，sensing 只指采集信号的过程",
+        "两者完全同义，可任意替换",
+        "detection 只用于声学，sensing 只用于光学",
+        "detection 是形容词，sensing 是名词"
+      ],
+      "answer": 0,
+      "explain": "sensing 是器件采集信号的过程（sensing modality），detection 是在信号基础上作出“有无/在哪”的判断（object detection、anomaly detection）。这一区分在方法部分决定了你描述的是硬件还是算法任务。",
+      "concepts": ["c-register", "de", "tect"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w11d4-a1",
+      "kind": "infer",
+      "prompt": "推测 complementary 在句中的含义",
+      "passage": "The two sensors are complementary rather than redundant: the IMU is accurate over short intervals but drifts, whereas the camera provides absolute measurements that are noisy at high frame rates. Fusing them yields an estimate that is better than either alone.",
+      "word": "complementary",
+      "choices": ["互补的、各自弥补对方缺点的", "完全重复冗余的", "互相干扰的", "可以互换使用的"],
+      "answer": 0,
+      "strategy": "① 切分：complement（补足）+ -ary（形容词后缀）；② 词性：作表语，与 redundant 对比；③ 语境：rather than redundant 排除“重复”，后半句分别给出两者优缺点，最后说融合更好；④ 验证：better than either alone 是互补关系的直接证据。",
+      "explain": "complement 来自拉丁 complementum“补足物”，complementary 指“两者相合而完整”。这里与 redundant（冗余、重复）对照：IMU 短期准但漂移，相机绝对但有噪声，正好互补。注意不要与 complimentary（称赞的、免费的）混淆。",
+      "concepts": ["c-inference", "c-scientific", "c-register"]
+    }
+  ],
+  "sources": [
+    { "id": "S5", "title": "Oxford English Dictionary / Online Etymology Dictionary", "detail": "radar（1940）、sonar、lidar（1960s，light + radar）、inertia 的词源" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 7 章：缩略、混成与截短" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 4：能产性与新词构造方式" }
+  ]
+}

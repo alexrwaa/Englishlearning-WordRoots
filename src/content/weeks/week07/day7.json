@@ -1,0 +1,138 @@
+{
+  "id": "w07d7",
+  "week": 7,
+  "day": 7,
+  "title": "第 7 周复盘：给一个新词判定“出身”",
+  "tagline": "用一张表、一条流程，把六种构词方式用在陌生词上",
+  "objectives": [
+    "能在六种构词方式之间做出正确判断并说明依据",
+    "能纠正“brunch 是复合词”“edit 是 editor 的词根”这类常见误判",
+    "能对新闻与科技语料中的新词给出构词分析"
+  ],
+  "prereqs": ["w07d6"],
+  "concepts": ["c-compound", "c-conversion", "c-blend", "c-clipping", "c-acronym"],
+  "minutes": { "review": 6, "learn": 7, "practice": 8, "apply": 4 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "六种方式，一张总表",
+      "body": "判断构词方式，只需要看两件事：**成分是否完整**，以及**形式是否改变**。下表按这两个维度排列，最后一列是可以实际检验的线索。建议先遮住最后一列自测，再对照检查——能说出线索，才算真的会判断，而不是记住了例子。",
+      "head": ["方式", "操作", "例子", "可检验的线索"],
+      "rows": [
+        ["复合 compound", "两个完整自由词基相加", "software, greenhouse", "两成分都能独立成词"],
+        ["转换 conversion", "不加词缀，改变词性", "to email, a download", "同一拼写在两个句法槽位"],
+        ["混成 blend", "各取一部分拼合", "smog, brunch, podcast", "两个来源都被截断"],
+        ["截短 clipping", "截去原词一部分", "gym, flu, fridge", "只剩一个来源"],
+        ["缩略 acronym", "取词组首字母", "NASA, CPU, laser", "来源是词组；按读音分两类"],
+        ["逆构 back-formation", "删去看似词缀的部分", "edit, burgle, televise", "长词先出现，短词后出现"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "一条判定流程，从结构到语义",
+      "body": "按顺序问，不要跳步：\n\n1. 有两个**完整**的自由词基？→ 复合。\n2. 两个来源都在、但都缺一截？→ 混成。\n3. 只有一个来源、明显被削短？→ 截短。\n4. 来源是一个词组、取首字母？→ 缩略（再按读音分 acronym / initialism）。\n5. 拼写不变、词性变了？→ 转换。\n6. 长词先有、短词像是“去掉后缀”？→ 逆构。\n\n第 6 步要查词典的首见年代，不能只凭形态——edit / editor 的形态看起来像派生，历史却是逆构。"
+    },
+    {
+      "kind": "compare",
+      "title": "三组最容易混的对子",
+      "body": "考试与阅读中最常出现的误判集中在这三组。记住每一组的“一句话判据”，比背例子有效：要问的是成分是否完整、历史方向如何、按什么方式读，而不是这两个词“看起来像不像”。",
+      "a": "前者",
+      "b": "后者",
+      "rows": [
+        ["smog / software", "混成：smoke、fog 都缺一截", "复合：soft + ware 两个词基完整"],
+        ["edit / modernize", "逆构：editor 先出现，edit 是删出来的", "派生：modern 先出现，加 -ize 造新词"],
+        ["NASA / CPU", "acronym：/ˈnæsə/ 按一个词读", "initialism：/siː piː juː/ 逐字母读"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "能产性与语域：什么时候用哪种",
+      "body": "六种方式的“活跃度”差别很大：\n\n- **转换**最能产，几乎任何名词都可临时作动词，但多数用法只在口语或行业内部流通。\n- **混成**在新闻、广告、品牌命名中最活跃，寿命往往很短。\n- **复合**最稳，科技新概念几乎都靠它（smart grid、neural network、cloud storage）。\n- **截短**偏口语，正式写作慎用。\n- **缩略**在科技与机构名中密度最高，首次出现应给全称。\n- **逆构**是历史过程，现代人很少有意使用，但理解它能解释很多“不规则”的词对。\n\n写作时的实用原则：正式语域优先复合与完整形式；口语与标题可以用混成、截短，但别自创。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w07d7-p1",
+      "kind": "mcq",
+      "prompt": "下面哪个词是混成词？",
+      "choices": ["smog", "laptop", "gym", "NASA"],
+      "answer": 0,
+      "explain": "smog = smoke + fog，两个来源都只保留一部分，是混成。laptop 是完整复合，gym 是截短，NASA 是首字母缩略。",
+      "concepts": ["c-blend"]
+    },
+    {
+      "id": "w07d7-p2",
+      "kind": "mcq",
+      "prompt": "哪一组体现了逆构词的历史方向？",
+      "choices": ["editor → edit", "edit → editor", "modern → modernize", "nation → national"],
+      "answer": 0,
+      "explain": "editor 先出现，edit 是从它删去 -or 而来的逆构词。edit → editor 是今天的共时分析，不是历史顺序；后两组都是正常的加缀派生。",
+      "concepts": ["c-derivation", "c-etymology"]
+    },
+    {
+      "id": "w07d7-p3",
+      "kind": "mcq",
+      "prompt": "gym 与 NASA 的构词方式分别是：",
+      "choices": ["截短 / 首字母缩略", "混成 / 复合", "复合 / 转换", "逆构 / 截短"],
+      "answer": 0,
+      "explain": "gym 由 gymnasium 截短而来，只剩一个来源；NASA 取五个词的首字母并按词读。两者都不涉及两个完整词基相加，因此都不是复合。",
+      "concepts": ["c-clipping", "c-acronym"]
+    },
+    {
+      "id": "w07d7-p4",
+      "kind": "cloze",
+      "prompt": "填入术语（中文或英文均可）",
+      "sentence": "A word formed by taking parts of two words, such as brunch, is called a ___.",
+      "answer": "blend",
+      "accept": ["混成词", "portmanteau", "合成词"],
+      "explain": "blend（混成词）指取两个词的部分拼合，brunch 取 breakfast 与 lunch 各一部分。它与 compound 的区别在于成分不完整。",
+      "concepts": ["c-blend", "c-compound"]
+    },
+    {
+      "id": "w07d7-p5",
+      "kind": "mcq",
+      "prompt": "“a download” 与 “to download” 中的 download 说明：",
+      "choices": [
+        "同一形式承担两个词位，靠句法位置区分",
+        "download 是混成词，有两个来源",
+        "download 是缩略词，按词读",
+        "download 加了零词缀 -ed 变成名词"
+      ],
+      "answer": 0,
+      "explain": "限定词后是名词，to 后是动词，拼写相同而词性不同，属转换构词。两个词位各自有屈折形式：downloads / downloaded。",
+      "concepts": ["c-conversion"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w07d7-a1",
+      "kind": "infer",
+      "prompt": "推测划线词 fintech 的含义与构词方式",
+      "passage": "Regulators are struggling to keep pace with fintech, where lending, payments and insurance are delivered through apps rather than through branches.",
+      "word": "fintech",
+      "choices": ["金融科技（financial + technology 的混成词）", "精密制造技术（fine + technique）", "金融领域的合规审查", "一种移动支付品牌"],
+      "answer": 0,
+      "strategy": "① 构词：fin(ancial) + tech(nology)，两个来源都被截断，是混成词；② 语境：lending、payments、insurance 指向金融业务，apps 指向技术渠道；③ 对照：rather than branches 说明它替代实体网点。",
+      "explain": "fintech 指以软件与移动应用提供金融服务的行业。passage 用 lending、payments、insurance 与 apps 双向锁定“金融 + 科技”。注意它不是 fine + technique——那是拼写联想，语义与语境都对不上。",
+      "concepts": ["c-blend", "c-inference"]
+    },
+    {
+      "id": "w07d7-a2",
+      "kind": "infer",
+      "prompt": "推测划线词 webinar 的含义与构词方式",
+      "passage": "The annual workshop was replaced by a webinar, so participants in three countries could join without booking flights or hotel rooms.",
+      "word": "webinar",
+      "choices": ["通过网络举行的研讨会（web + seminar）", "网络广播剧（web + drama）", "远程实验室操作", "线上闭卷考试"],
+      "answer": 0,
+      "strategy": "① 构词：web + seminar，各取一部分，是混成词；② 语境：replaced the workshop 说明功能相同；③ 支撑细节：three countries、without flights 说明是远程形式。",
+      "explain": "webinar 是 web + seminar 的混成词，指在线研讨会。passage 把它与 workshop 对等替换，并强调不用出差，正好对应“远程 + 研讨”两个义素。",
+      "concepts": ["c-blend", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：构词方式总览" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5：word formation processes 分类" },
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "fintech、webinar、smog、gym 词条" }
+  ]
+}

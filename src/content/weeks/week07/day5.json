@@ -1,0 +1,144 @@
+{
+  "id": "w07d5",
+  "week": 7,
+  "day": 5,
+  "title": "逆构词：看似加词缀，其实在减词缀",
+  "tagline": "能识别 edit ← editor 这类“倒着造”的词，并说清它与截短的区别",
+  "objectives": [
+    "能说出逆构词的定义，并说明它为什么是“减”而不是“加”",
+    "能判断 edit、burgle、televise 分别从哪个词逆构而来",
+    "能区分逆构词、截短与正常派生三种关系"
+  ],
+  "prereqs": ["w07d4"],
+  "concepts": ["c-derivation", "c-affix", "c-etymology"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 4 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "先有 editor，后有 edit",
+      "body": "直觉上 edit 是词根，editor 是 edit + -or。事实相反：**editor** 先出现（17 世纪），**edit** 到 18 世纪才被“削”出来。说话人把 editor 里的 -or 当成施事后缀（像 actor → act），于是反推出一动词。\n\n这种“看似加词缀、实则减词缀”的构词方式叫**逆构词**（back-formation）。同类：\n\n- burgle ← burglar\n- televise ← television\n- diagnose ← diagnosis\n- enthuse ← enthusiasm\n- laze ← lazy",
+      "terms": [
+        { "term": "back-formation", "zh": "逆构词", "en": "back-formation", "note": "从较长词中删去看似词缀的部分而造出新词" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "哪些“后缀”其实是被误认的",
+      "body": "逆构词的关键在于说话人把某个结尾误认为能产后缀。下表列出五个典型案例：左边是实际先出现的词，中间是逆构结果，右边是被误认的成分。注意最后一行 sculptor → sculpt：这两者今天都常用，但顺序仍是名词在先。",
+      "head": ["已有词（先出现）", "逆构词（后出现）", "被误认的“后缀”"],
+      "rows": [
+        ["editor", "edit", "-or（施事后缀）"],
+        ["burglar", "burgle", "-ar（被当作 -er 的变体）"],
+        ["television", "televise", "-ion（名词后缀）"],
+        ["diagnosis", "diagnose", "-osis / -is（名词后缀）"],
+        ["sculptor", "sculpt", "-or（施事后缀）"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么容易误判：共时分析是成立的",
+      "body": "在今天的英语里，edit / editor 完全符合“动词 + -or = 施事名词”的规则，这是英语最规则的派生模式之一。所以现代说话人把 editor 分析成 edit + or——这个分析在**共时层面**成立，只是**历史方向**相反。\n\n这正好复习第 1 周建立的区分：**历史词源**（谁先出现）与**共时构词**（今天的说话人怎么分析）是两条独立的事实线。二者不一致不但可能，而且很常见。\n\n答题时的表述要分清：“历史上 edit 由 editor 逆构而来”与“今天 editor 可分析为 edit + -or”，两句话都对。",
+      "morphemes": ["edit", "or"]
+    },
+    {
+      "kind": "compare",
+      "title": "逆构、截短、派生：三种方向",
+      "body": "三者都涉及“去掉或加上某段材料”，但操作对象与结果不同。逆构去掉的是**看似词缀**的部分，并常改变词性；截短去掉的是任意音节片段，词性不变。",
+      "a": "逆构 back-formation",
+      "b": "截短 clipping",
+      "rows": [
+        ["去掉什么", "看似词缀的部分（-or, -ar, -ion）", "任意音节片段"],
+        ["词性是否改变", "常改变：名词→动词", "不变：gymnasium→gym 仍是名词"],
+        ["说话人的感觉", "像在“还原”一个更基本的词", "像在“缩短”一个长词"],
+        ["例子", "edit ← editor；burgle ← burglar", "exam ← examination；phone ← telephone"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "接受度：语言不看逻辑，看社区",
+      "body": "19 世纪后期，enthuse、burgle 曾被评论者斥为“不合逻辑的新造词”，理由是“名词不能凭空生出动词”。今天两者都是标准用法：burgle 在英式英语里很常见，美式则多用 burglarize——后者反而是从 burglar 正常派生的动词。\n\n这说明构词方式的“合法性”不取决于逻辑，而取决于语言社区是否接受。写作时要注意语域：diagnose、edit 已完全中性，可用于学术；enthuse 仍偏口语，正式论文里更常写 express enthusiasm。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w07d5-p1",
+      "kind": "mcq",
+      "prompt": "edit 与 editor 的历史关系是：",
+      "choices": [
+        "editor 先出现，edit 由它逆构而来",
+        "edit 先出现，editor 由它加 -or 派生",
+        "两者同时出现，互不派生",
+        "edit 是截短词，editor 是复合词"
+      ],
+      "answer": 0,
+      "explain": "editor 于 17 世纪先进入英语，edit 到 18 世纪才由它逆构出来。虽然今天 editor 可以分析为 edit + -or，但那是共时分析，不是历史顺序。",
+      "concepts": ["c-derivation", "c-etymology"]
+    },
+    {
+      "id": "w07d5-p2",
+      "kind": "mcq",
+      "prompt": "下面哪个词是逆构词？",
+      "choices": ["burgle", "burglar", "burglary", "robbery"],
+      "answer": 0,
+      "explain": "burgle 由 burglar 去掉 -ar 而来，是把名词“削”成动词，属逆构。burglar 与 burglary 都是先存在的名词；robbery 与这个词族无关。",
+      "concepts": ["c-derivation"]
+    },
+    {
+      "id": "w07d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个动词",
+      "sentence": "The verb ___ was formed from the noun burglar by dropping the ending -ar.",
+      "answer": "burgle",
+      "accept": ["burglarize"],
+      "explain": "burgle 是 burglar 的逆构词；burglarize 则是正常加 -ize 的派生词，美式英语常用。两者都成立，但构词方向不同。",
+      "concepts": ["c-derivation"]
+    },
+    {
+      "id": "w07d5-p4",
+      "kind": "mcq",
+      "prompt": "televise 为什么算逆构词？",
+      "choices": [
+        "television 先出现，-ion 被当作名词后缀去掉",
+        "television 由 televise 加 -ion 派生",
+        "televise 是 tele + vise 的复合词",
+        "televise 是 television 的截短形式"
+      ],
+      "answer": 0,
+      "explain": "television 先进入英语，说话人把 -ion 误认为能产的名词后缀，反推出动词 televise。若按今天的共时规则看，televise + -ion 也说得通，但历史方向相反。",
+      "concepts": ["c-derivation", "c-affix"]
+    },
+    {
+      "id": "w07d5-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一组是“正常派生”而不是“逆构”？",
+      "choices": [
+        "modern → modernize",
+        "editor → edit",
+        "television → televise",
+        "burglar → burgle"
+      ],
+      "answer": 0,
+      "explain": "modern 先存在，modernize 是加 -ize 派生的结果，方向正常。其余三组的较长形式都先出现，短形式是后来“削”出来的。",
+      "concepts": ["c-derivation", "c-affix"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w07d5-a1",
+      "kind": "infer",
+      "prompt": "推测划线词 diagnose 的含义",
+      "passage": "Because the log records every sensor dropout with a timestamp, engineers can diagnose most faults without opening the enclosure.",
+      "word": "diagnose",
+      "choices": ["判断故障的性质与原因", "记录故障发生的时间", "更换已经损坏的部件", "忽略异常的读数"],
+      "answer": 0,
+      "strategy": "① 构词：diagnose 由 diagnosis 逆构而来，共享“辨识、判断”的核心义；② 句法：can 之后是动词，带宾语 faults；③ 语境：log 提供时间戳，without opening the enclosure 说明不必拆机就能定位问题。",
+      "explain": "diagnose 指根据线索判断故障的性质与原因。passage 里“有日志、不必拆机”正是诊断的条件。注意不要把它与 record（记录）混淆——记录是诊断的输入，不是诊断本身。",
+      "concepts": ["c-derivation", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：back-formation 的机制" },
+    { "id": "S5", "title": "Oxford English Dictionary / Merriam-Webster", "detail": "edit、editor、burgle、televise、diagnose 的首见年代；burgle 与 burglarize 的语域说明" }
+  ]
+}

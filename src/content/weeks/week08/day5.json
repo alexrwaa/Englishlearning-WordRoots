@@ -1,0 +1,138 @@
+{
+  "id": "w08d5",
+  "week": 8,
+  "day": 5,
+  "title": "辅音双写：三个条件缺一不可",
+  "tagline": "能判断 runner、biggest、preferred 为什么双写，photographer 为什么不双写",
+  "objectives": [
+    "能列出辅音双写需要同时满足的三个条件",
+    "能用重音位置解释 preferred 与 visited 的差别",
+    "能解释 photograph + er 为何不双写 t，并说明双写对读音的作用"
+  ],
+  "prereqs": ["w08d4"],
+  "concepts": ["c-spelling-rule", "c-affix", "c-base"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 4 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三个条件必须同时满足",
+      "body": "辅音双写需要**同时**满足三个条件：\n\n1. 词基以“单元音字母 + 单辅音字母”结尾（CVC 结构）；\n2. 该音节是**重读**音节（单音节词自动满足）；\n3. 后缀以**元音**开头（-ed, -ing, -er, -est, -able）。\n\n例：run + er → runner、big + est → biggest、prefer + ed → preferred、begin + ing → beginning。\n\n三个条件缺一不可。只看“词很短”或“听起来要双写”都会错——这是中国学习者拼写错误最集中的一处。",
+      "terms": [
+        { "term": "CVC", "zh": "辅-元-辅结构", "en": "consonant-vowel-consonant", "note": "如 r-u-n、b-i-g，是双写规则的形态前提" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "重音条件：preferred 与 visited",
+      "body": "**prefer** 的重音在 -fer /prɪˈfɜː/，末音节重读，所以双写：preferred、preferring。**visit** 的重音在第一音节 /ˈvɪzɪt/，末音节不重读，所以不双写：visited、visiting。\n\n同理：**offer** → offered、**enter** → entering、**open** → opened，都不双写。而 **begin** → beginning、**occur** → occurred、**refer** → referred，都双写，因为重音在末音节。\n\n英式与美式在 -l 结尾时不同：travel + ed → travelled（英）/ traveled（美）；cancel → cancelled / canceled。考试中按所考变体作答，不要在同一篇里混用。"
+    },
+    {
+      "kind": "text",
+      "title": "为什么 photographer 不双写 t",
+      "body": "**photograph + er → photographer**，只有一个 t。三个条件里只勉强满足“后缀以元音开头”，其余两条都不成立：\n\n1. 重音在**第一**音节 /ˈfəʊtəɡrɑːf/，不在末音节；\n2. 词基结尾是 **ph** 两个字母表示一个音 /f/，不符合“单个辅音字母”；\n3. 即使只看音，/f/ 前是长元音 /ɑː/，也不是短元音。\n\n对比 **begin**：重音在 -gin，结尾是“短元音 /ɪ/ + 单辅音 /n/”，三条全中，才双写 n → beginning。\n\n所以不要记“多音节词都双写”或“photograph 特殊”，要按条件逐条核对。",
+      "morphemes": ["graph", "er"]
+    },
+    {
+      "kind": "table",
+      "title": "六个词的条件核对",
+      "body": "下表把三个条件拆成三列，最后一列给结论。做题时照这个顺序核：先看结尾是不是“单元音 + 单辅音”，再看重音，最后看后缀首音。三列全“是”才双写。",
+      "head": ["词基", "结尾结构", "重音位置", "结果"],
+      "rows": [
+        ["run + er", "短元音 + 单辅音", "单音节，重读", "runner"],
+        ["big + est", "短元音 + 单辅音", "单音节，重读", "biggest"],
+        ["prefer + ed", "短元音 + 单辅音", "末音节重读", "preferred"],
+        ["visit + ed", "短元音 + 单辅音", "第一音节重读", "visited"],
+        ["photograph + er", "长元音 + ph（双字母）", "第一音节重读", "photographer"],
+        ["travel + ed", "短元音 + 单辅音", "第一音节重读", "travelled（英）/ traveled（美）"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "双写的功能：区分长短元音",
+      "body": "双写不是装饰，它标示**前一个元音读短音**：\n\n- hop + ing → hopping /ˈhɒpɪŋ/（短 /ɒ/）\n- hope + ing → hoping /ˈhəʊpɪŋ/（长 /əʊ/，去 e）\n- din + er → dinner /ˈdɪnə/（晚餐）\n- dine + er → diner /ˈdaɪnə/（用餐者）\n\n英语拼写用“辅音单/双”来区分长短元音，这是它少数几个可靠的读音线索之一。双写写错，读者可能读成另一个词——这已经不只是拼写问题，而是词义问题。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w08d5-p1",
+      "kind": "wordSum",
+      "prompt": "把词素拼成正确的单词（注意拼写调整）",
+      "parts": ["run", "er"],
+      "answer": "runner",
+      "explain": "run 是单音节、以“短元音 /ʌ/ + 单辅音 n”结尾，-er 以元音开头，三条件全中，双写 n 得 runner。",
+      "concepts": ["c-spelling-rule", "c-suffix"]
+    },
+    {
+      "id": "w08d5-p2",
+      "kind": "cloze",
+      "prompt": "填入 prefer 的正确过去式",
+      "sentence": "She ___ the earlier proposal to the later one because it required fewer sensors.",
+      "answer": "preferred",
+      "accept": ["preferred"],
+      "explain": "prefer 的重音在末音节 -fer，结尾是“短元音 + 单辅音 r”，-ed 以元音开头，故双写 r 得 preferred。若写 prefered，读者可能把重音前移、元音读短。",
+      "concepts": ["c-spelling-rule"]
+    },
+    {
+      "id": "w08d5-p3",
+      "kind": "mcq",
+      "prompt": "photographer 不双写 t 的最完整理由是：",
+      "choices": [
+        "重音不在末音节，且结尾是 ph 两个字母表示一个音、前为长元音",
+        "因为 photographer 是四个音节的长词",
+        "因为 -er 不是重读后缀",
+        "因为 photograph 来自希腊语，不受英语拼写规则约束"
+      ],
+      "answer": 0,
+      "explain": "双写需要三条同时成立。photograph 重音在第一音节，结尾 ph 是两个字母一个音，且前面的元音是长音 /ɑː/，三条都不满足，所以只写一个 t。",
+      "concepts": ["c-spelling-rule"]
+    },
+    {
+      "id": "w08d5-p4",
+      "kind": "mcq",
+      "prompt": "hoping 与 hopping 的差别在于：",
+      "choices": [
+        "hopping 双写表示短元音 /ɒ/，hoping 去 e 表示长元音 /əʊ/",
+        "两者读音相同，只是拼写习惯不同",
+        "hoping 是名词，hopping 是动词",
+        "hopping 是 hop 的复数形式"
+      ],
+      "answer": 0,
+      "explain": "hop + ing 双写 p，保持短元音 /ɒ/；hope + ing 去 e 不双写，保持长元音 /əʊ/。这是双写规则最主要的功能：用辅音的单双区分长短元音，进而区分词义。",
+      "concepts": ["c-spelling-rule"]
+    },
+    {
+      "id": "w08d5-p5",
+      "kind": "mcq",
+      "prompt": "visited 不双写 t 的原因是：",
+      "choices": [
+        "重音在第一音节，末音节不重读",
+        "visit 以两个辅音结尾",
+        "-ed 不以元音开头",
+        "visit 是拉丁借词"
+      ],
+      "answer": 0,
+      "explain": "visit /ˈvɪzɪt/ 的重音在 vis-，末音节 -it 不重读，因此不双写。对照 prefer /prɪˈfɜː/，重音在末音节，才双写 r。",
+      "concepts": ["c-spelling-rule"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w08d5-a1",
+      "kind": "infer",
+      "prompt": "推测划线词 compelling 的含义",
+      "passage": "The evidence for the new coating is compelling: panels exposed to five hundred hours of salt spray showed no visible corrosion.",
+      "word": "compelling",
+      "choices": ["有说服力的、令人信服的", "强制性的、必须执行的", "相互竞争的、彼此排斥的", "令人困惑的、难以判断的"],
+      "answer": 0,
+      "strategy": "① 构词：compel + -ing，双写 l 因重音在 -pel /kəmˈpel/；② 词性：-ing 形式作表语形容词；③ 语境：冒号后给出实验证据（500 小时盐雾无腐蚀），说明证据“有力、令人信服”。",
+      "explain": "compelling 在此指证据有说服力。compel 原义“强迫”，但 compelling evidence / argument 是固定搭配，指“有力到让人不能不接受”。注意双写 l 的条件：末音节重读的 CVC 结构。",
+      "concepts": ["c-spelling-rule", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "辅音双写的三条件与重音检验" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 5 章：orthographic doubling 与音节结构" },
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "travelled / traveled 的变体说明" }
+  ]
+}

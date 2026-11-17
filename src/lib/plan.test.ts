@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { lessons } from './content';
 import { buildDailyPlan, computeStreak, redistribute } from './plan';
 import { DEFAULT_SETTINGS, type MemoryCard } from './types';
 
@@ -47,7 +48,20 @@ describe('daily plan', () => {
     expect(total).toBe(DEFAULT_SETTINGS.dailyMinutes);
   });
 
-  it('marks a rest day when nothing is left', () => {
+  it('marks a rest day when every lesson is finished and no review is due', () => {
+    const allDone = new Set(lessons.map((l) => l.id));
+    const plan = buildDailyPlan({
+      cards: [],
+      completed: allDone,
+      settings: DEFAULT_SETTINGS,
+      now,
+      introducedToday: 0,
+    });
+    expect(plan.restDay).toBe(true);
+    expect(plan.lesson).toBeUndefined();
+  });
+
+  it('is not a rest day while lessons remain', () => {
     const plan = buildDailyPlan({
       cards: [],
       completed: new Set(),
@@ -55,7 +69,8 @@ describe('daily plan', () => {
       now,
       introducedToday: 0,
     });
-    expect(plan.restDay).toBe(true);
+    expect(plan.restDay).toBe(false);
+    expect(plan.lesson).toBeDefined();
   });
 });
 

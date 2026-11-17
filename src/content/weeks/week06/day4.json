@@ -1,0 +1,280 @@
+{
+  "id": "w06d4",
+  "week": 6,
+  "day": 4,
+  "title": "-logy：一个只能站在后面的成分",
+  "tagline": "biology、geology、psychology 共用一套词族模板：学科、学者、形容词",
+  "objectives": [
+    "能说明 -logy 在构词中的固定位置与含义",
+    "能由一个学科名推出 -logist 与 -ic 形式，并解释拼写变化",
+    "能区分 -logy（研究）与 -nomy（规律体系）以及 -graphy（描写）"
+  ],
+  "prereqs": [
+    "w06d3"
+  ],
+  "concepts": [
+    "logy",
+    "c-combining",
+    "c-suffix",
+    "c-spelling-rule",
+    "c-word-family"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "logos 是“言说、道理”，-logy 是“系统论述”",
+      "body": "希腊 **logos** 的含义很宽：言词、叙述、道理、理性。作为组合形式 **-logy**，它表示“对某对象的系统论述”，现代汉语通常译成“……学”。\n\n它有一个硬性限制：**永远出现在词的第二个位置**。你可以说 biology、geology、psychology，但不能把 -logy 放前面。这与上周的拉丁后缀位置相同，却与自由词基不同——**位置本身就是一条构词信息**。\n\n顺便记住三个同族形式：\n\n- **-logy**：学科、研究领域。\n- **-logist**：从事该学科的人。\n- **-logic / -logical**：与该学科相关的（形容词）。",
+      "morphemes": [
+        "logy"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "学科词族的三人组模板",
+      "body": "希腊学科词的派生非常规整：一个学科名几乎总能生成“学者”和“形容词”两种形式。掌握这个模板，你就能从一个陌生学科名反推出另外两个词，而不是分别记三遍。最后一行的 methodology 也遵循同一模板，只是它的词干含义更抽象，指“对研究路径的论述”。",
+      "head": [
+        "学科 -logy",
+        "学者 -logist",
+        "形容词 -logical",
+        "研究对象"
+      ],
+      "rows": [
+        [
+          "biology",
+          "biologist",
+          "biological",
+          "生命"
+        ],
+        [
+          "geology",
+          "geologist",
+          "geological",
+          "地球、岩石"
+        ],
+        [
+          "psychology",
+          "psychologist",
+          "psychological",
+          "心理"
+        ],
+        [
+          "technology",
+          "technologist",
+          "technological",
+          "技术、工艺"
+        ],
+        [
+          "methodology",
+          "methodologist",
+          "methodological",
+          "方法"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么是 biologist 而不是 biologyist",
+      "body": "这是学生最常写错的拼写之一。原因不在“y 变 i”这条规则，而在构词层次：\n\n- biology = bio + logy，其中 -logy 的完整形式带 -y。\n- 加 -ist 时，实际接的是词干 **-log-**，后面直接加 -ist，得到 -logist。\n- 所以是 bio + log + ist = biologist。\n\n如果把 -logy 当成不可分的整体再加 -ist，就会写出 biologyist 这种不存在的形式。**先分层，再拼写**——这正是第 2 周构词算式的用处：算式写对了，拼写一般不会错。\n\n同类还有 geologist、psychologist、technologist，全部遵循同一模式。",
+      "terms": [
+        {
+          "term": "spelling rule",
+          "zh": "拼写连接规则",
+          "en": "orthographic rule"
+        }
+      ],
+      "morphemes": [
+        "logy",
+        "ist"
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "-logy、-graphy、-nomy：三种“学问”",
+      "body": "汉语都译成“……学”，英语里的侧重却不同。这不是同义词替换，而是三种不同的研究姿态：**论述、描写、规律**。\n\n最经典的一组对照是 astrology 与 astronomy：两者都看星星，但前者是“论说星象”，后者是“星辰的法则”。今天前者被视为伪科学，后者是科学，差别恰好落在成分上。",
+      "a": "-logy（论述、研究）",
+      "b": "-nomy（法则、体系）",
+      "rows": [
+        {
+          "label": "来源",
+          "a": "logos 言说、道理",
+          "b": "nomos 法则、秩序"
+        },
+        {
+          "label": "侧重",
+          "a": "系统论述某个对象",
+          "b": "对象自身的规律体系"
+        },
+        {
+          "label": "例词",
+          "a": "biology, geology, psychology",
+          "b": "astronomy, economy, autonomy"
+        },
+        {
+          "label": "对照",
+          "a": "astrology 占星术",
+          "b": "astronomy 天文学"
+        },
+        {
+          "label": "另一组",
+          "a": "geology 研究地球内部与岩石",
+          "b": "geography 描写地表（-graphy）"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三个论文高频词，别译错",
+      "body": "**methodology** 不是 method 的同义词。method 是具体方法，methodology 是“方法论的论述”——论文的 Methodology 一节讲的是“你如何设计研究、为什么这样收集数据”，而不是罗列工具。meta-（在后、伴随）+ hodos（道路）+ logia，字面是“对探求之路的论述”。\n\n**technology** 来自 technē（技艺）+ logia，本义是“关于技艺的论述”，今天指技术体系。注意它不是“tech + nology”。\n\n**psychology** 与 **psychiatry** 常混：前者是研究心理，后者是 iatreia（治疗）+ psychē，指精神病学的临床治疗。研究者是 psychologist，医生是 psychiatrist。",
+      "morphemes": [
+        "logy",
+        "techn"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w06d4-p1",
+      "kind": "mcq",
+      "prompt": "关于 -logy 的位置，下面哪项正确？",
+      "choices": [
+        "固定出现在第二个成分位置，不能前置",
+        "可以出现在词首，如 logybiology",
+        "位置自由，取决于重音",
+        "只能出现在三个成分以上的词里"
+      ],
+      "answer": 0,
+      "explain": "-logy 是组合形式，只能作第二成分。它的位置固定，这也是识别学科词的一个标志；把 -logy 放前面会得到不存在的形式。",
+      "concepts": [
+        "logy",
+        "c-combining"
+      ]
+    },
+    {
+      "id": "w06d4-p2",
+      "kind": "mcq",
+      "prompt": "biology 的“生物学家”为什么写作 biologist？",
+      "choices": [
+        "-ist 接在词干 -log- 之后，而不是接在完整的 -logy 之后",
+        "-y 在任何情况下都要变成 -i",
+        "因为 biology 是例外，需要单独记",
+        "-ist 只能接在以辅音结尾的词后"
+      ],
+      "answer": 0,
+      "explain": "构词层次是 bio + log + ist：-logy 的 -y 属于名词后缀部分，接 -ist 时用词干 -log-。若把 -logy 视为整体再加 -ist，就会写出 biologyist。",
+      "concepts": [
+        "logy",
+        "ist",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w06d4-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词",
+      "sentence": "The ___ section explains how the dataset was collected and why that protocol was chosen, not how the algorithm works.",
+      "answer": "methodology",
+      "accept": [
+        "methodology",
+        "Methodology"
+      ],
+      "explain": "method（具体方法）+ o + logy（论述）→ methodology“方法学、方法论述”。后半句 not how the algorithm works 正是与 method 划清界限的线索。",
+      "concepts": [
+        "logy",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w06d4-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词，写出结果",
+      "parts": [
+        "geo",
+        "logy"
+      ],
+      "answer": "geology",
+      "explain": "geo（大地）+ logy（学科）→ geology“地质学”。注意与 geography 的区别：后者是 -graphy“描写”，指地理学。",
+      "concepts": [
+        "geo",
+        "logy"
+      ]
+    },
+    {
+      "id": "w06d4-p5",
+      "kind": "matrix",
+      "prompt": "用矩阵生成单词：词基 logy，加组合形式 bio-，结果是？",
+      "base": "logy",
+      "prefix": "bio",
+      "answer": "biology",
+      "explain": "bio（生命）+ logy（学科）→ biology“生物学”。拼接处不需要额外加字母，因为 bio 自带 -o。",
+      "concepts": [
+        "bio",
+        "logy"
+      ]
+    },
+    {
+      "id": "w06d4-p6",
+      "kind": "mcq",
+      "prompt": "astrology 与 astronomy 都涉及星体，差别主要来自哪两个成分？",
+      "choices": [
+        "-logy（论述）与 -nomy（法则）",
+        "-graphy（描写）与 -metry（测量）",
+        "-ist（人）与 -ic（性质）",
+        "astro-（星）与 aster-（星）"
+      ],
+      "answer": 0,
+      "explain": "两者第一部分都是 astro-（星），区别在第二部分：-logy 是“论说”，-nomy 来自 nomos“法则”。因此 astronomy 指研究天体规律的学科，astrology 指占星论说。",
+      "concepts": [
+        "logy",
+        "c-combining",
+        "c-register"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w06d4-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的审稿意见，推测划线词在句中的含义",
+      "passage": "The reviewers asked for a clearer methodology: the current draft lists the sensors and their sampling rates but never explains how the ground-truth trajectories were obtained.",
+      "word": "methodology",
+      "choices": [
+        "研究方法的设计与说明",
+        "所使用的具体仪器清单",
+        "实验数据的统计结果",
+        "论文的章节编排"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：meta（伴随）+ hodos（道路）+ logia（论述）；② 语境：冒号后说明“现在只列了传感器与采样率，但没解释真值轨迹怎么来的”；③ 排除：仪器清单正是被批评为不足的部分，不是 methodology 本身。",
+      "explain": "methodology 指“研究方法的整体设计与论证”，包括数据如何获得、为何这样设计。句中把它与“只列传感器参数”对立，正好说明它不是设备清单。这一区分在写论文与读论文时都极重要。",
+      "concepts": [
+        "logy",
+        "c-inference",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "希腊组合形式 -logy 与学科词族"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "methodology、technology、psychology、astronomy 词条"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "分层构词与拼写连接"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "w07d6",
+  "week": 7,
+  "day": 6,
+  "title": "新词如何进入语言：借用、扩展、复合、混成",
+  "tagline": "面对一个陌生新词，能按四条途径判断它是怎么来的",
+  "objectives": [
+    "能说出新词进入英语的四条主要途径并各举两例",
+    "能解释 -gate 从“门”变成“丑闻后缀”的语义与形态过程",
+    "能按“成分是否完整”的顺序判断一个陌生新词的构词方式"
+  ],
+  "prereqs": ["w07d5"],
+  "concepts": ["c-semantic-shift", "c-borrowing", "c-compound", "c-blend"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 4 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "四条主路，外加三条辅路",
+      "body": "新词进入英语，通常走四条路：\n\n1. **借用**（`borrowing`）：直接从别的语言拿来。algorithm 来自 9 世纪数学家 al-Khwārizmī 的名字，经阿拉伯语进入中世纪拉丁语。\n2. **语义扩展**：不造新形，给旧词加新义。token 从“记号、代币”扩展到 NLP 的“词元”。\n3. **复合**：smartphone = smart + phone，chatbot = chat + bot。\n4. **混成**：podcast = iPod + broadcast，webinar = web + seminar。\n\n此外还有三条辅路：转换（to google）、截短（app ← application）、缩略（API）。前四条解释了绝大多数现代新词。",
+      "terms": [
+        { "term": "borrowing", "zh": "借用", "en": "borrowing", "note": "从其他语言引入词语，也叫借词 loanword" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "gate：一个词如何变成后缀",
+      "body": "**gate** 的故事最能说明语义扩展与构词如何联手。古英语 geat 指“门”。1972 年华盛顿水门大厦（Watergate）窃听丑闻后，新闻界反复使用 -gate，它逐渐抽象成“……丑闻”的粘着成分：Irangate、Deflategate、Cameragate。\n\n两个要点：\n\n1. -gate 今天**不能独立成词**，只能附着在专名后表示丑闻，是典型的“被解放出来的后缀”（libfix）。\n2. 它不是复合词。Water + gate 的组合义是“水门大厦”这个地名；而 -gate 的新义与“门”毫无关系，是**转喻加语义专门化**的结果。\n\n这类成分在新闻标题里能产性极高，但寿命短，多数只流行几周。",
+      "terms": [
+        { "term": "libfix", "zh": "被解放的粘着成分", "en": "libfix", "note": "从原有词中截取出来、可自由附着造新词的成分，如 -gate" }
+      ],
+      "morphemes": ["gate"]
+    },
+    {
+      "kind": "text",
+      "title": "token 与 network：旧形式装新义",
+      "body": "**token** 的义项扩张很有代表性：实物筹码 → 象征性记号 → 计算机科学的“词元”（文本处理的最小单位）→ 区块链的“代币”。每一步都是**隐喻**：把具体物件投射到抽象系统里。\n\n**network** 从“网（织物）”扩展到“网络”：人际网络、神经网络、交通网络。形式上它还能继续走：networking、networked、neural network。\n\n读科技文献时，遇到熟悉的词在新语境里“怪怪的”，先问一句：这是不是语义扩展？如果是，别去拆词素，要去查这个领域里它的固定搭配。"
+    },
+    {
+      "kind": "table",
+      "title": "四条途径的判定线索",
+      "body": "把线索按“形式是否变化”排列，比死记例子有用。形式完全没变的，只可能是语义扩展或转换；形式变了但成分不完整的，是混成或截短。最后一列给出可查证的依据，遇到新词时按这一列去找证据，而不是凭感觉归类。",
+      "head": ["途径", "形式变化", "例子", "判定线索"],
+      "rows": [
+        ["借用", "整词引入，常保留外来拼写", "algorithm, sushi, café", "能查到来源语言"],
+        ["语义扩展", "形式不变，新增义项", "token, gate, network", "同一拼写，意义域转移"],
+        ["复合", "两个完整词基相加", "smartphone, chatbot", "可切成两个自由词"],
+        ["混成", "各取一部分拼合", "podcast, webinar", "两个来源都不完整"],
+        ["转换", "形式不变，词性改变", "to google, a download", "句法位置改变"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四步判定流程",
+      "body": "遇到陌生新词，按顺序问四个问题：\n\n1. 能否切成两个**完整**的自由词基？→ 复合词。\n2. 是否只有部分音节、但能看出两个来源？→ 混成词。\n3. 是否只是某个长词被截短？→ 截短词。\n4. 形式没变，只是多了新义或新词性？→ 语义扩展或转换。\n\n四问都不成立，再考虑借用与缩略。\n\n顺序很重要：先排除结构清晰的，再处理语义问题。反过来先猜意义，很容易把 -gate 当成“门”，把 token 当成“代币”。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w07d6-p1",
+      "kind": "mcq",
+      "prompt": "今天 -gate（如 Deflategate）属于哪种语言成分？",
+      "choices": [
+        "从专名中解放出来的粘着成分，不能独立成词",
+        "一个可以独立使用的名词，意为“门”",
+        "一个复合词的中心语",
+        "一个首字母缩略词"
+      ],
+      "answer": 0,
+      "explain": "-gate 只能附着在专名后表示“丑闻”，不能单说“a gate”来指丑闻，因此是粘着成分（libfix）。它的意义与“门”无关，也不是靠复合规则产生的。",
+      "concepts": ["c-semantic-shift", "c-compound"]
+    },
+    {
+      "id": "w07d6-p2",
+      "kind": "mcq",
+      "prompt": "token 在自然语言处理中指“词元”，这属于哪种途径？",
+      "choices": ["语义扩展（隐喻投射）", "借用", "混成", "截短"],
+      "answer": 0,
+      "explain": "形式没有变化，只是把“记号、代币”这一具体义投射到文本处理这一抽象域，属语义扩展。若是借用，应能指出另一语言的来源形式。",
+      "concepts": ["c-semantic-shift", "c-metaphor"]
+    },
+    {
+      "id": "w07d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个成分（不带连字符也可以）",
+      "sentence": "After the leak, reporters added -___ to the company's name, following the pattern set by Watergate.",
+      "answer": "gate",
+      "accept": ["-gate"],
+      "explain": "这里考的是 -gate 作为“丑闻”后缀的用法。它的能产性来自 Watergate 这一地名事件的反复引用，属于从专名中解放出来的粘着成分。",
+      "concepts": ["c-semantic-shift"]
+    },
+    {
+      "id": "w07d6-p4",
+      "kind": "mcq",
+      "prompt": "algorithm 这个词的来源是：",
+      "choices": [
+        "借用：来自数学家 al-Khwārizmī 的名字",
+        "复合：al + gorithm 两个词基相加",
+        "混成：algebra 与 rhythm 拼合",
+        "缩略：取五个词的首字母"
+      ],
+      "answer": 0,
+      "explain": "algorithm 经中世纪拉丁语从阿拉伯语借入，源头是 9 世纪数学家 al-Khwārizmī 的名字。它与 algebra 同源，但不是 algebra + rhythm 的混成——那是拼写联想。",
+      "concepts": ["c-borrowing", "c-etymology"]
+    },
+    {
+      "id": "w07d6-p5",
+      "kind": "mcq",
+      "prompt": "smartphone 的构词方式是：",
+      "choices": [
+        "复合：smart + phone，两个成分完整",
+        "混成：sm + art + phone 各取一部分",
+        "截短：由 smart telephone 截短而来",
+        "转换：由形容词直接改作名词"
+      ],
+      "answer": 0,
+      "explain": "smart 与 phone 都是完整自由词基，相加构成复合词，语义为“智能手机”。它的两个成分都能独立使用，因此不符合混成“各取一部分”的条件。",
+      "concepts": ["c-compound"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w07d6-a1",
+      "kind": "infer",
+      "prompt": "推测句中 -gate 的含义",
+      "passage": "Within days of the leak, the press had appended -gate to the project's name, a reflex that turned a Washington office complex into a permanent label for political scandal.",
+      "word": "gate",
+      "choices": ["表示“丑闻”的粘着后缀", "表示“大门”的普通名词", "指代那栋办公楼本身", "指调查委员会的正式名称"],
+      "answer": 0,
+      "strategy": "① 形态：-gate 前有连字符，附着在专名后，不能独立使用；② 语境：leak、press、political scandal 三个词锁定“丑闻”义；③ 来源：a Washington office complex 提示 Watergate 这一地名典故。",
+      "explain": "句中的 -gate 是“丑闻”标签，不指建筑物，也不指门。passage 自己给了路径：从华盛顿的一处办公楼群（Watergate）变成政治丑闻的固定标签。理解这个典故，才能读懂新闻标题里的各种 -gate。",
+      "concepts": ["c-semantic-shift", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "algorithm、token、network、-gate 组合形式的词条说明" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 1 章：英语词汇的借词史与语义变化" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "新词构成途径的分类框架" }
+  ]
+}

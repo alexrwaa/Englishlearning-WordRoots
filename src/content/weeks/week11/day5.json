@@ -1,0 +1,158 @@
+{
+  "id": "w11d5",
+  "week": 11,
+  "day": 5,
+  "title": "计算机与 AI 词族：algorithm、neural、network、inference",
+  "tagline": "四个高频词，一个来自人名，一个是生物学隐喻，两个是老词新用",
+  "objectives": [
+    "能说明 algorithm 来自 9 世纪数学家 al-Khwārizmī 的名字，并解释词义如何转移",
+    "能拆解 inference 并列出 fer 词族至少四个成员",
+    "能区分 network 的本土复合与 neural network 的隐喻层次",
+    "能解释 AI 领域为何大量使用旧词新义（train、learn、gate、attention）"
+  ],
+  "prereqs": ["w11d4", "c-metaphor", "c-word-family"],
+  "concepts": ["c-etymology", "c-metaphor", "c-word-family", "c-compound", "c-register", "c-inference"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "etym",
+      "title": "algorithm：一个人的名字",
+      "body": "**algorithm** 不是词根拼出来的，它来自人名：9 世纪巴格达学者 **Muḥammad ibn Mūsā al-Khwārizmī**（花拉子米），他的著作把印度的十进制记数法引入阿拉伯世界，再经拉丁译本传入欧洲。\n\n他的名字被拉丁化为 **Algoritmi**，出现在书名《Algoritmi de numero Indorum》里。于是 algorism 先指“十进制算术”，后来泛指“按固定步骤求解的一类过程”，拼写受希腊词 arithmos（数）影响变成 algorithm。\n\n三点必须记清：\n\n1. 不能拆成 alg + orithm，现代英语里没有对应的词素。\n2. 词义发生过**转移**：从“某人的算术体系”到“任何有限步骤的求解程序”。\n3. 这是“人名 → 术语”的典型案例，同类还有 watt、volt、ampere、boycott。",
+      "steps": [
+        { "period": "阿拉伯语人名", "form": "al-Khwārizmī", "note": "9 世纪巴格达数学家、天文学家" },
+        { "period": "中世纪拉丁", "form": "Algoritmi", "note": "人名的拉丁化，用于其著作译本标题" },
+        { "period": "英语", "form": "algorism", "note": "十进制算术" },
+        { "period": "英语 17–20 世纪", "form": "algorithm", "note": "拼写受希腊 arithmos 影响；义为“算法”" }
+      ],
+      "terms": [
+        { "term": "al-Khwārizmī", "zh": "花拉子米", "en": "al-Khwārizmī", "note": "algorithm 与 algebra 都与其著作传统有关" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "neural：从神经到网络",
+      "body": "**neural** = neur（神经）+ -al（形容词后缀）。希腊语 **neuron** 本义“筋、腱”，后来专指神经。同族：neuron（神经元）、neurology（神经学）、neuroscience、neuro- 作为组合形式（neuroimaging、neuroprosthetics）。\n\n**neural network** 是典型的**隐喻构词**：把“一层层加权连接的计算单元”比作生物神经元的连接。但要注意隐喻的边界——人工神经网络的单元并不是生物神经元，这个名称是历史与类比的结果，不是解剖学描述。\n\n读论文时的实际影响：neural 修饰的是方法（neural network、neural rendering），不是“与大脑有关”。看到 neural 就该预期“用可训练的参数化模型”，而不是“模拟大脑”。",
+      "morphemes": ["neur", "al"],
+      "terms": [
+        { "term": "neuron", "zh": "神经元", "en": "neuron", "note": "希腊语 neuron 原指“筋、腱”" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "network 与 dataset：一个本土复合，一个现代拼合",
+      "body": "**network** 是英语本土复合词：古英语 net（网）+ weorc（工作）→“网状的劳作结构”。它先是日常词（railway network、social network），20 世纪被借去指“互联的计算节点”，属于旧词新义而不是新造词。\n\n**dataset** 是现代拼合：data + set。data 是拉丁 **datum**“给定之物”的复数形式，17 世纪进入英语时确实作复数（the data are ...），现代科技英语中 **the data is ...** 已非常普遍。两种用法都见于期刊，关键是**同一篇文章内保持一致**。\n\n一个对比：network 的意义可以从两个成分推出来（网状 + 工作物），dataset 的意义则需要知道 data 在计算机语境里指“待处理的数据集合”。前者是透明复合，后者是专业化的拼合，透明度更低。"
+    },
+    {
+      "kind": "etym",
+      "title": "inference：把结论“带进来”",
+      "body": "**inference** = in-（进入）+ fer（携带）+ -ence（名词后缀）。拉丁 inferre 字面“带进去”，逻辑上指“从前提把结论带出来”，于是有“推论”义。\n\nfer 是英语最能产的拉丁词根之一，词族几乎覆盖学术写作的全部基本动作：\n\n- confer：con-（共同）+ fer → 商议；授予\n- refer：re-（回）+ fer → 指向、提及\n- transfer：trans-（越过）+ fer → 转移\n- prefer：pre-（在前）+ fer → 更看重\n- differ：dif-（分开）+ fer → 不同\n- offer：of-（朝向）+ fer → 提供\n\n在机器学习里 inference 有专门义：**用训练好的模型对新输入做前向计算**，与 training 相对。同一个词，逻辑学义“推论”、机器学习义“推理/前向计算”，都是“从已知得出结果”这一核心的延伸。",
+      "steps": [
+        { "period": "拉丁", "form": "ferre", "note": "携带、运送" },
+        { "period": "拉丁", "form": "inferre", "note": "带入 → 引出（结论）" },
+        { "period": "英语", "form": "infer / inference", "note": "推断；推论" },
+        { "period": "现代计算机", "form": "inference", "note": "模型前向计算（与 training 相对）" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "AI 术语的隐喻链：几乎全是旧词",
+      "body": "AI 领域的核心词汇几乎都是日常词的隐喻扩展，理解隐喻路径比背定义更有效：\n\n- **train**：训练（原义“拉、牵引”）→ 用数据调整参数。\n- **learn**：学习 → 参数随数据改变。\n- **model**：模型（原义“小样本”）→ 对数据分布的近似。\n- **gate**：门 → 控制信息通过比例的单元（LSTM 的 input/forget gate）。\n- **attention**：注意 → 按相关性给不同位置分配权重。\n- **token**：记号 → 文本被切分后的最小单位。\n\n这套隐喻有一个共同点：**把“人对信息的处理”投射到“机器对数据的处理”**。它让术语易懂，也带来风险——比如 learn 会让人误以为模型“理解”内容。读论文时要能区分隐喻说法与技术定义。",
+      "terms": [
+        { "term": "gate", "zh": "门控单元", "en": "gate", "note": "控制信息通过比例的结构" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w11d5-p1",
+      "kind": "mcq",
+      "prompt": "algorithm 的词源是？",
+      "choices": [
+        "希腊语 arithmos（数）+ logos（学问）的组合",
+        "9 世纪数学家 al-Khwārizmī 名字的拉丁化",
+        "拉丁语 algor（寒冷）+ rhythm（节奏）",
+        "阿拉伯语 al-jabr（还原）的直接音译"
+      ],
+      "answer": 1,
+      "explain": "algorithm 来自 al-Khwārizmī 的拉丁化形式 Algoritmi。后期的拼写受希腊 arithmos 影响而改变，但词本身是人名，不是 arithmos + logos 的组合。al-jabr 是 algebra 的来源，两个词常被混为一谈。",
+      "concepts": ["c-etymology", "c-borrowing"],
+      "hint": "人名进入术语的例子还有 watt、volt。"
+    },
+    {
+      "id": "w11d5-p2",
+      "kind": "cloze",
+      "prompt": "填入 fer 词族中表示“转移”的动词",
+      "sentence": "To reduce bandwidth, the node may ___ the compressed feature map instead of the raw image.",
+      "answer": "transfer",
+      "accept": ["transfer"],
+      "explain": "trans-（越过）+ fer（携带）→ transfer“转移、传输”。同族 confer、refer、prefer、differ 都保留“携带”这一核心，只是方向前缀不同。",
+      "concepts": ["fer", "trans", "c-word-family"]
+    },
+    {
+      "id": "w11d5-p3",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词（“推论/推理”）",
+      "parts": ["in", "fer", "ence"],
+      "answer": "inference",
+      "explain": "in（进入）+ fer（携带）+ ence（名词后缀）→ inference“推论；模型前向推理”。注意 -ence 与 -ance 都是名词后缀，但 infer 固定搭配 -ence。",
+      "concepts": ["in", "fer", "ence", "c-suffix"]
+    },
+    {
+      "id": "w11d5-p4",
+      "kind": "mcq",
+      "prompt": "network 与 dataset 在构词上的主要差别是？",
+      "choices": [
+        "network 是英语本土复合词，dataset 是现代由 data + set 拼合的专业词",
+        "network 是缩略词，dataset 是混成词",
+        "两者都是拉丁借词",
+        "dataset 是 network 的派生词"
+      ],
+      "answer": 0,
+      "explain": "network 由古英语 net + weorc 构成，是本土复合；dataset 是 20 世纪由 data（拉丁复数）+ set 拼合而成，属于现代专业复合。两者的透明度也不同：network 可从成分推测，dataset 需知道 data 的计算机义。",
+      "concepts": ["c-compound", "c-word-family"]
+    },
+    {
+      "id": "w11d5-p5",
+      "kind": "mcq",
+      "prompt": "论文写 inference latency，这里的 inference 指？",
+      "choices": ["逻辑推论的可信度", "模型对新输入做前向计算的过程", "训练集的规模", "数据标注的一致性"],
+      "answer": 1,
+      "explain": "在机器学习语境中 inference 与 training 相对，指用已训练好的模型对新样本做前向计算；latency 指这一步的耗时。逻辑学义“推论”是同一核心（从已知得出结果）的专业化延伸。",
+      "concepts": ["c-register", "fer", "c-inference"]
+    },
+    {
+      "id": "w11d5-p6",
+      "kind": "mcq",
+      "prompt": "the data is / the data are 两种写法，最合理的处理方式是？",
+      "choices": [
+        "data 是复数，用 are 才是唯一正确形式",
+        "data 已完全变为不可数名词，只能用 is",
+        "两者都有依据，同一篇文章内保持一致即可",
+        "取决于 data 是否来自拉丁语原文"
+      ],
+      "answer": 2,
+      "explain": "data 是 datum 的拉丁复数，传统学术写作偏好 the data are；但现代科技英语中 the data is 已广泛使用（尤其指“数据集”这一整体）。期刊风格指南不同，关键是内部一致，而非绝对对错。",
+      "concepts": ["c-register", "c-etymology"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w11d5-a1",
+      "kind": "infer",
+      "prompt": "推测 inference 在句中的具体含义",
+      "passage": "On-device inference is attractive because it avoids streaming raw images to a server, but the model must fit within a few hundred megabytes and still meet the latency budget of a 30 Hz control loop.",
+      "word": "inference",
+      "choices": ["在设备上运行模型做前向计算", "在设备上采集训练数据", "把模型压缩后上传", "对模型进行逻辑验证"],
+      "answer": 0,
+      "strategy": "① 切分：in + fer + ence，“把结果带出来”；② 词性：名词作主语中心词，On-device 修饰它；③ 语境：与 streaming raw images 对比，且受 latency budget 约束，说明是运行时的计算；④ 验证：与 model 同现，符合机器学习义而非逻辑学义。",
+      "explain": "inference 在此不是“推论”，而是“用训练好的模型对新输入做前向计算”。证据是 latency budget 与 30 Hz 控制回路——只有运行时计算才有延迟约束；训练不会有这种要求。",
+      "concepts": ["c-inference", "c-register", "fer"]
+    }
+  ],
+  "sources": [
+    { "id": "S5", "title": "Oxford English Dictionary / Online Etymology Dictionary", "detail": "algorithm 与 al-Khwārizmī、inference 与 inferre、data 的复数用法" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 5 章：fer 词族与拉丁词根的能产性" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 4：隐喻构词与专业语域" }
+  ]
+}

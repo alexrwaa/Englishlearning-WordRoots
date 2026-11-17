@@ -1,0 +1,363 @@
+{
+  "id": "w05d6",
+  "week": 5,
+  "day": 6,
+  "title": "mit / miss：送出去，还是放过去",
+  "tagline": "submit、transmit、permission、missile——四个词共用一次“发送”",
+  "objectives": [
+    "能用“送 + 方向”解释 submit、transmit、permission 的词义",
+    "能说明 mit- 与 miss- 的差异来自拉丁词干，不是英语拼写规则",
+    "能区分 transmit（传信号）与 transfer（转位置或所有权）"
+  ],
+  "prereqs": [
+    "w05d5",
+    "c-prefix"
+  ],
+  "concepts": [
+    "mit",
+    "miss",
+    "c-root",
+    "c-prefix",
+    "c-word-family"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "mittere：送出、放开",
+      "body": "拉丁 **mittere** 的意思是“送出、放走”，分词词干 **miss-**。它的英语后代覆盖了从行政到军事的一大批高频词：\n\n- sub-（在下）+ mittere → submittere“送到下面”→ submit 提交、屈服。\n- trans-（越过）+ mittere → transmittere“送过去”→ transmit 传输、传播。\n- per-（穿过）+ mittere → permittere“让通过”→ permit 允许，名词 permission。\n- missilis“可以被投出的”→ missile 导弹。\n\n注意 missile 的后缀 -ile 是“能被……的”形容词后缀，所以它字面是“可投掷物”。**词性变化往往就藏在最后一个后缀里**。",
+      "morphemes": [
+        "mit",
+        "miss"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "前缀与词根的语义叠加：谁送给谁",
+      "body": "这一族词最适合练“叠加”而不是“背释义”。每个词都回答两个问题：**往哪个方向送？送给谁？**\n\n- ad-（朝向）+ mittere → admit 让进来 → 准许进入、承认。\n- dis-（分开、离开）+ mittere → dismiss 送走 → 解散、驳回。\n- e-（向外）+ mittere → emit 送出 → 发出（光、声、气体）。\n- com-（一起、完全）+ mittere → commit 交付 → 承诺、犯罪（把自己交出去）。\n- pro-（向前）+ mittere → promise 向前送出（诺言）→ 承诺。\n- inter-（在……之间）+ mittere → intermittent 在中间断断续续地送 → 间歇的。\n\n读论文时这套推导特别有用：emission 是“排放”，但 emission spectrum 是“发射光谱”，都是“送出去”。",
+      "morphemes": [
+        "ad",
+        "dis",
+        "e",
+        "com",
+        "pro",
+        "inter",
+        "mit"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "mit- 与 miss-：两套词干，不是拼写规则",
+      "body": "很多学习者以为 miss- 是 mit- 加后缀时“变出来的”，就像 happy → happiness 那样。这个类比会带来错误预期：并非所有 -ion 都触发 t → ss。真实原因是拉丁语本身就有两个词干，英语分别继承了它们。**这属于历史来源差异，不属于英语的拼写调整规则**，第 8 周讲的 -tion、-sion 规则是另一件事。",
+      "head": [
+        "形式",
+        "来源",
+        "出现位置",
+        "例子"
+      ],
+      "rows": [
+        [
+          "mit-",
+          "拉丁现在时词干 mittere",
+          "动词，多为拉丁原形借入",
+          "submit, transmit, admit, emit"
+        ],
+        [
+          "miss-",
+          "拉丁分词词干 missus",
+          "名词与形容词",
+          "mission, permission, transmission"
+        ],
+        [
+          "配对记忆",
+          "同一个动词的两种形式",
+          "动词 / 名词成对出现",
+          "submit / submission, permit / permission"
+        ],
+        [
+          "判断方法",
+          "看词性与历史来源",
+          "先问这是动词还是名词",
+          "不要期待所有 -ion 都触发 t → ss"
+        ]
+      ]
+    },
+    {
+      "kind": "matrix",
+      "title": "mit / miss 的构词矩阵",
+      "body": "矩阵按“方向 + 送 + 词性”读。注意 mission 与 missile 都是 miss- 开头却完全无关军事与宗教：mission 是“被派出去的任务”，missile 是“被投出去的东西”。**同词根的分化可以很大，靠语境定位**。",
+      "base": "mit",
+      "prefixes": [
+        {
+          "text": "sub",
+          "glossZh": "在下"
+        },
+        {
+          "text": "trans",
+          "glossZh": "越过"
+        },
+        {
+          "text": "per",
+          "glossZh": "穿过"
+        },
+        {
+          "text": "ad",
+          "glossZh": "朝向"
+        },
+        {
+          "text": "dis",
+          "glossZh": "分开、离开"
+        },
+        {
+          "text": "e",
+          "glossZh": "向外"
+        }
+      ],
+      "suffixes": [
+        {
+          "text": "ion",
+          "glossZh": "名词后缀：行为、结果"
+        },
+        {
+          "text": "ive",
+          "glossZh": "形容词后缀"
+        },
+        {
+          "text": "ile",
+          "glossZh": "形容词后缀：能被……的"
+        }
+      ],
+      "words": [
+        {
+          "w": "submit",
+          "parts": [
+            "sub",
+            "mit"
+          ],
+          "glossZh": "提交、屈服"
+        },
+        {
+          "w": "submission",
+          "parts": [
+            "sub",
+            "miss",
+            "ion"
+          ],
+          "glossZh": "提交、呈交"
+        },
+        {
+          "w": "transmit",
+          "parts": [
+            "trans",
+            "mit"
+          ],
+          "glossZh": "传输、发射"
+        },
+        {
+          "w": "transmission",
+          "parts": [
+            "trans",
+            "miss",
+            "ion"
+          ],
+          "glossZh": "传输、传动装置"
+        },
+        {
+          "w": "permission",
+          "parts": [
+            "per",
+            "miss",
+            "ion"
+          ],
+          "glossZh": "许可"
+        },
+        {
+          "w": "admit",
+          "parts": [
+            "ad",
+            "mit"
+          ],
+          "glossZh": "准许进入、承认"
+        },
+        {
+          "w": "dismiss",
+          "parts": [
+            "dis",
+            "miss"
+          ],
+          "glossZh": "解散、驳回"
+        },
+        {
+          "w": "missile",
+          "parts": [
+            "miss",
+            "ile"
+          ],
+          "glossZh": "导弹、投掷物"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "transmit 与 transfer：都是“转”，转的东西不同",
+      "body": "两个词都以 trans- 开头，都译成“传”，但对象不同：\n\n- **transmit** 传的是**信号、信息、能量、疾病**——送出去后原件仍在，复制或传播。transmit data / a signal / a disease。\n- **transfer** 转的是**位置、所有权、人员**——从一个地方或一个人挪到另一个。transfer a file / ownership / a patient。\n\n一个实用的判断：能“同时存在于两端”的，用 transmit；必须“离开一端才到另一端”的，用 transfer。\n\n另外 transmission 在机械工程里指“变速箱、传动装置”，因为它的作用正是把动力传下去。同一词根，从信号到机械，语义一直在“传递”这条线上。",
+      "morphemes": [
+        "trans",
+        "mit",
+        "fer"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w05d6-p1",
+      "kind": "mcq",
+      "prompt": "permission 中的 per- 表达的是什么？",
+      "choices": [
+        "穿过、通过",
+        "否定",
+        "在下",
+        "再次"
+      ],
+      "answer": 0,
+      "explain": "per- 表示“穿过、通过”。permittere 是“让通过”，所以 permit 是允许，permission 是许可。否定由 in-/un- 承担。",
+      "concepts": [
+        "per",
+        "miss"
+      ]
+    },
+    {
+      "id": "w05d6-p2",
+      "kind": "mcq",
+      "prompt": "submit 由 sub-（在下）+ mittere（送）构成，为什么是“提交”而不是“往下扔”？",
+      "choices": [
+        "把文件送到上级或机构“之下”，即呈交；对人则是把自己置于其下，即屈服",
+        "sub- 在这里是否定前缀",
+        "submit 与 mittere 无关",
+        "submit 原本是名词，后来才作动词"
+      ],
+      "answer": 0,
+      "explain": "submittere 的“送到下面”既可指把材料呈给上位者（提交），也可指把自己放在下面（屈服、服从）。两种现代义都从同一个空间关系来。",
+      "concepts": [
+        "sub",
+        "mit",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w05d6-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词（必要时改变词形）",
+      "sentence": "The rover ___s its telemetry to the ground station every ten seconds.",
+      "answer": "transmit",
+      "accept": [
+        "transmit",
+        "transmits"
+      ],
+      "explain": "trans（越过）+ mit（送）→ transmit“传输”。主语 The rover 是第三人称单数，句中已给出 -s，故填 transmit。",
+      "concepts": [
+        "trans",
+        "mit"
+      ]
+    },
+    {
+      "id": "w05d6-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词，写出结果",
+      "parts": [
+        "trans",
+        "miss",
+        "ion"
+      ],
+      "answer": "transmission",
+      "explain": "trans（越过）+ miss（送，分词词干）+ ion（名词后缀）→ transmission“传输、传动装置”。注意这里用 miss 而非 mit。",
+      "concepts": [
+        "trans",
+        "miss",
+        "ion"
+      ]
+    },
+    {
+      "id": "w05d6-p5",
+      "kind": "mcq",
+      "prompt": "关于 mit- 与 miss- 的关系，下面哪种说法正确？",
+      "choices": [
+        "它们是同一个拉丁动词的两套词干，英语分别继承，与英语的拼写规则无关",
+        "miss- 是 mit- 加 -ion 时按规则变来的",
+        "mit- 是动词词干，miss- 是它的否定形式",
+        "两者是同形异源的两个不同词根"
+      ],
+      "answer": 0,
+      "explain": "拉丁 mittere 的现在时词干是 mitt-，分词词干是 miss-，英语两套都借了。它不同于英语内部的拼写调整（如 happy → happiness），后者才是第 8 周要讲的规则。",
+      "concepts": [
+        "mit",
+        "miss",
+        "c-allomorph",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w05d6-p6",
+      "kind": "mcq",
+      "prompt": "dismiss 中的 dis- 表示什么？",
+      "choices": [
+        "分开、离开",
+        "否定",
+        "在下",
+        "穿过"
+      ],
+      "answer": 0,
+      "explain": "dis- 表示“分开、离开”。dismittere 是“送走”，所以 dismiss 是解散、打发走，进而指驳回（dismiss a claim）。",
+      "concepts": [
+        "dis",
+        "miss"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w05d6-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的系统描述，推测划线词的含义",
+      "passage": "The wireless link was intermittent: packets arrived in bursts of three or four, and the controller sometimes waited several seconds for a single pose update.",
+      "word": "intermittent",
+      "choices": [
+        "间歇的、时断时续的",
+        "双向的",
+        "内部的",
+        "一旦中断就无法恢复的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：inter（在……之间）+ mitt（送）+ ent（形容词后缀）；② 语境：冒号后的 bursts、waited several seconds 是对前文的解释；③ 排除：“无法恢复”与 packets arrived 矛盾。",
+      "explain": "intermittent 是“中间有停顿的”，即间歇的。inter-（之间）+ mittere（送）字面就是“在中间断掉再送”。bursts of three or four 与 sometimes waited 正是断续的证据。",
+      "concepts": [
+        "inter",
+        "mit",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "拉丁词根 mit-/miss- 与词族扩展"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford Dictionary of English Etymology",
+      "detail": "submit、permission、missile、transmission 词条"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "以 mit/miss 为词基的矩阵与词族判定"
+    }
+  ]
+}

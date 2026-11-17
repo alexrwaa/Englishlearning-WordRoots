@@ -1,0 +1,146 @@
+{
+  "id": "w09d3",
+  "week": 9,
+  "day": 3,
+  "title": "文艺复兴的拉丁借词与“学术化拼写”",
+  "tagline": "看懂 datum / species 这类学术借词，并解释 debt、receipt 里那些不发音的字母",
+  "objectives": [
+    "能说出文艺复兴时期拉丁借词集中在哪些语义场",
+    "能解释 datum / phenomenon / analysis 的复数形式为何特殊",
+    "能说明 debt、receipt、island 中插入字母的性质，并区分“真实词源”与“错误类推”"
+  ],
+  "prereqs": ["w09d2"],
+  "concepts": ["c-borrowing", "c-etymology", "c-cognate"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "15–17 世纪：学术语言是拉丁语",
+      "body": "文艺复兴时期，欧洲学术圈通用拉丁语。学者读拉丁文，也用拉丁文写作；当他们要把新知识写进英语时，最省力的办法是**整词搬过来**。于是英语在 15–17 世纪成批借入拉丁词：\n\n- datum（给定之物）、species（种类、外观）、stratum（层）、radius（半径）\n- focus（火炉、焦点）、census（人口登记）、appendix（附附录）、area（空地）\n\n这类借词与诺曼法语层的词不同：它们不是通过几百年的口语接触慢慢渗入，而是**通过书本一次性进入**。因此它们保留了拉丁的形态特征，包括复数变化。",
+      "terms": [
+        { "term": "learned borrowing", "zh": "学术借词", "en": "learned borrowing", "note": "通过书面文本而非口语接触进入的借词" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "借词带进来的不只是词，还有语法",
+      "body": "拉丁借词把拉丁的复数规则也带了进来：\n\n- datum → data；stratum → strata；medium → media\n- phenomenon → phenomena；criterion → criteria\n- analysis → analyses；hypothesis → hypotheses；crisis → crises\n\n这些形式在学术写作里仍是标准。但英语化程度并不一致：data 在日常与部分科技语境里已常作不可数集合名词（*the data is clear*），而 phenomena、criteria 用错复数仍会被认为不严谨。\n\n实用建议：**写论文时保留拉丁／希腊复数**（data、phenomena、criteria、analyses）；口语里 data 的单数动词已被广泛接受，不必纠正别人。",
+      "terms": [
+        { "term": "plural", "zh": "复数", "en": "plural" }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "debt：一个不发音的 b 是怎么进来的",
+      "body": "debt 读作 /det/，b 完全不发音。它不是古英语词，也不是从拉丁语直接借来的，而是走了**法语中转**：\n\n拉丁 debitum（欠下的东西）→ 古法语 dette → 中古英语 dette。\n\n到了 15–16 世纪，一些书写者出于“让拼写体现拉丁来源”的风气，把 b 加回了 dette，写成 debt。**读音没有跟着变**，于是留下一个只存在于纸面上的字母。\n\n这类改动叫**学术化拼写**（learned spelling）。它证明了一件关键的事：拼写可以携带历史信息，也可以携带**历史错觉**，但拼写从来不等于发音。",
+      "steps": [
+        { "period": "拉丁", "form": "debitum", "note": "“欠下的东西”，debēre“欠”的过去分词" },
+        { "period": "古法语", "form": "dette", "note": "音变后 b 脱落" },
+        { "period": "中古英语", "form": "dette", "note": "约 13 世纪借入" },
+        { "period": "15–16 世纪", "form": "debt", "note": "书写者按拉丁语源插入 b，读音不变" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个词，两类插入：真实语源与错误类推",
+      "body": "同样是“多出一个字母”，来源却完全不同：前三行有真实的拉丁语源作依据，最后一行只有一次错误联想。区分这两类，是判断词源主张是否可靠的基本功——同一个现象，可能一个是证据，一个是错觉。",
+      "head": ["词", "真实来源", "插入的字母", "性质"],
+      "rows": [
+        ["debt", "拉丁 debitum，经古法语 dette", "b", "依据真实拉丁语源的学术化拼写"],
+        ["receipt", "拉丁 recepta，经古法语 receite", "p", "依据真实拉丁语源的学术化拼写"],
+        ["doubt", "拉丁 dubitare，经古法语 douter", "b", "依据真实拉丁语源的学术化拼写"],
+        ["island", "古英语 īeg“岛”，与拉丁 insula 无关", "s", "错误类推：被误认为与 insula 有关"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "debris：一个反例，说明“层”还在增加",
+      "body": "debris（碎片、残骸）常被误当成拉丁借词，因为它长得“很像”。实际上它来自**18 世纪法语** débris，进入英语后保留了法语拼写，词尾的 s 不发音：/ˈdebriː/。\n\n它和 datum、species 属于完全不同的层次：后者是文艺复兴的学术借词，debris 是近代法语借词，常出现在工程、灾后报道与地质描述里（*debris flow* 泥石流、*space debris* 空间碎片）。\n\n教训有两条：\n\n1. **看来源要看证据链，不要看长相**。“像拉丁词”不是来源证据。\n2. **借词史没有结束**。英语至今仍在从各语言借词，只是速度与领域不同。",
+      "terms": [
+        { "term": "debris", "zh": "碎片、残骸", "en": "debris", "note": "18 世纪法语借词，词尾 s 不发音" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w09d3-p1",
+      "kind": "mcq",
+      "prompt": "phenomenon 的标准复数形式是？",
+      "choices": ["phenomenons", "phenomena", "phenomenae", "phenomenas"],
+      "answer": 1,
+      "explain": "phenomenon 来自希腊语 phainomenon，经拉丁进入英语，保留希腊—拉丁复数 -a：phenomena。在学术写作中 phenomena 作复数、接复数动词；把 phenomena 当单数（*a phenomena*）是常见错误。",
+      "concepts": ["c-borrowing"]
+    },
+    {
+      "id": "w09d3-p2",
+      "kind": "mcq",
+      "prompt": "debt 中的 b 是什么？",
+      "choices": [
+        "15–16 世纪书写者按拉丁语源 debitum 插入的字母，不发音",
+        "古英语原有的字母，读作 /b/",
+        "来自法语 dette 的原有拼写",
+        "表示过去分词的语法标记"
+      ],
+      "answer": 0,
+      "explain": "debt 经古法语 dette 进入英语，本无 b。文艺复兴时期的书写风气倾向于让拼写反映拉丁语源，于是插入 b，但读音始终是 /det/。这是“拼写保存词源”的典型，也说明拼写不能用来推断读音。",
+      "concepts": ["c-etymology", "c-spelling-rule"]
+    },
+    {
+      "id": "w09d3-p3",
+      "kind": "cloze",
+      "prompt": "写出正确的复数形式",
+      "sentence": "The plural of analysis is ___ .",
+      "answer": "analyses",
+      "accept": ["analyses"],
+      "explain": "analysis 来自希腊语 analysis，经拉丁进入学术英语，复数把 -is 改为 -es：analyses，读作 /əˈnæləsiːz/。同类还有 crisis → crises、hypothesis → hypotheses、thesis → theses。",
+      "concepts": ["c-borrowing", "c-etymology"]
+    },
+    {
+      "id": "w09d3-p4",
+      "kind": "mcq",
+      "prompt": "island 拼写中的 s 是怎么来的？",
+      "choices": [
+        "古英语 īeg 本无 s，16 世纪被误认为与拉丁 insula 有关而插入",
+        "来自拉丁 insula 的正常音变，s 本来就有",
+        "是复数标记 -s 的残留",
+        "来自古北欧语 íland 的拼写"
+      ],
+      "answer": 0,
+      "explain": "island 源自古英语 īeg“岛”，与拉丁 insula 没有发生学关系。s 是后人按 insula 错误类推插入的。这是“拼写相似导致错误词源”的经典案例，和 debt 的真实拉丁语源形成对照。",
+      "concepts": ["c-etymology"]
+    },
+    {
+      "id": "w09d3-p5",
+      "kind": "mcq",
+      "prompt": "debris 的来源是？",
+      "choices": [
+        "18 世纪法语 débris，词尾 s 不发音",
+        "拉丁语 debilis“虚弱的”",
+        "古英语 brīsan“破碎”",
+        "希腊语 debris“残渣”"
+      ],
+      "answer": 0,
+      "explain": "debris 是近代法语借词，约 18 世纪进入英语，保留法语拼写与读音 /ˈdebriː/。它常被误判为拉丁学术借词，正说明“看拼写猜来源”不可靠——来源要靠文献证据链。",
+      "concepts": ["c-borrowing", "c-etymology"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w09d3-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "After the impact test, debris from the shattered housing was scattered across the track, and two of the smaller fragments had to be cleared before the next run.",
+      "word": "debris",
+      "choices": ["碎片、残骸", "检测设备", "撞击速度", "清理人员"],
+      "answer": 0,
+      "strategy": "① 句法：debris 是主语中心词，后接 from the shattered housing，说明它是外壳破碎后的产物；② 同义复现：后半句 the smaller fragments 直接给出近义线索；③ 语境：impact test 与 had to be cleared 指向“散落的碎块”。",
+      "explain": "debris 指破碎、毁坏后留下的碎片或残骸，工程语境常见 debris flow（泥石流）、space debris（空间碎片）。识别它的关键是同位复现（fragments）而非词源——这个词的拼写对推测帮助很小。",
+      "concepts": ["c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "文艺复兴拉丁借词与学术化拼写" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "debt / receipt / doubt / island / debris 的语源与拼写史" }
+  ]
+}

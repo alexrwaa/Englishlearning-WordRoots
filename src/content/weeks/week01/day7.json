@@ -1,0 +1,153 @@
+{
+  "id": "w01d7",
+  "week": 1,
+  "day": 7,
+  "title": "第 1 周复盘：把切分变成习惯",
+  "tagline": "用一套固定流程处理任何长词，并避开这一周反复出现的五个坑",
+  "objectives": [
+    "能独立完成一次“剥屈折—剥派生—找词根—验替换”的完整分析",
+    "能在词素、词根、词基、词缀、组合形式之间准确选用术语",
+    "能指出五种常见错误分析各自错在哪一步"
+  ],
+  "prereqs": ["w01d6", "c-morpheme", "c-base"],
+  "concepts": ["c-morpheme", "c-root", "c-base", "c-affix", "c-combining", "c-etymology"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "六个术语，一张表分清",
+      "body": "这一周的所有术语都在这里。考试式的定义记不住没关系，关键是能用一句话说出它和相邻概念的区别；会区分，才可能用对。建议遮住右列逐个自测，答不上来的那一行就是今天要重看的部分。",
+      "head": ["术语", "一句话定义", "最容易混淆的点"],
+      "rows": [
+        ["词素 morpheme", "承载意义或语法功能的最小单位", "不是音节，也不等于字母块"],
+        ["词根 root", "词族中承载核心词汇意义的不可再分部分", "有的能独立成词（form、act），有的不能（struct）"],
+        ["词基 base", "当前这一步构词操作所作用的形式", "每一步都不同，可以已经带词缀"],
+        ["词缀 affix", "必须附着的粘着词素，分前缀与后缀", "屈折还是派生，要看它造不造新词"],
+        ["组合形式 combining form", "希腊/拉丁来源、常用于学术构词的粘着成分", "常带 -o-，但 o 本身不是词素"],
+        ["词族 word family", "共享词根且形态语义都可追溯的一组词", "拼写相似不等于同族（comfort 与 port）"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四步流程：拿到任何长词都能用",
+      "body": "**第一步，剥屈折。** 看结尾是不是 -s、-ed、-ing、-er/-est。若是，先记下来并剥掉，因为屈折永远在最外层。\n\n**第二步，剥派生后缀。** 从右往左，每次剥一个，同时记录词性怎么变。\n\n**第三步，处理前缀与词根。** 剩下的核心部分就是词根；左边若还有成分，多为前缀。\n\n**第四步，验替换。** 每一层都问：换掉这一块，词义是否可预测地改变？有没有三个以上同族词支持？两问都过，切分才成立。\n\n以 unhelpfulness 走一遍：剥 -ness（名词）→ 剩 unhelpful；剥 un-（否定）→ 剩 helpful；剥 -ful（形容词）→ 剩 help（词根，自由词素）。",
+      "morphemes": ["un", "help", "ful", "ness"]
+    },
+    {
+      "kind": "text",
+      "title": "这一周最常出现的五个坑",
+      "body": "1. **按音节切词。** strengths 只有一个音节，却有两个词素。\n2. **把词源当共时结构。** understand 历史上是 under + stand，今天不能这么分析。\n3. **拼写相似就归同族。** comfort 与 port、pedagogy 与 pedal 都是反例。\n4. **一次性拼装。** 忽略层次，就会造出 *unhelp 这种不存在的中间形式。\n5. **把连接元音当词素。** thermometer 里的 o 不表义，不要单独记卡。\n\n每一条都对应一个具体的判断动作，而不是一句“要注意”。复盘时对着这五条检查自己的分析过程，比再背一遍定义有效。",
+      "morphemes": ["strength", "s", "understand", "port", "therm"]
+    },
+    {
+      "kind": "compare",
+      "title": "分析之前先问三个问题",
+      "body": "这三问的顺序不能颠倒。第一问决定“要不要拆”，第二问决定“从哪拆”，第三问决定“拆得对不对”。右列这些问题并不愚蠢，它们只是不能用来支撑结构判断——问错了方向，答案再流利也没有解释力。",
+      "a": "该问的问题",
+      "b": "不该问的问题",
+      "rows": [
+        ["第一问", "这个词今天还有可分析的结构吗？", "这个词历史上从哪来？"],
+        ["第二问", "最外层是什么？剥掉后剩下的是真词吗？", "它有几个字母？"],
+        ["第三问", "每一块都能被替换吗？有同族词支持吗？", "它听起来像哪个中文词？"],
+        ["结论形式", "带证据的结构描述", "一个好听的故事"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "下周：把切分写成算式和矩阵",
+      "body": "你已经会切了，但切分结果还停留在口头上。第 2 周要把它们写成两种可检验的形式：**构词算式**（un + help + ful → unhelpful）和**构词矩阵**（以词基为中心，排出可组合的前缀与后缀）。\n\n算式强迫你给每一块标意义，矩阵强迫你面对“哪些组合不存在”。这两件工具会在后面十周反复使用，尤其是第 5、6 周的词根扩展和第 11 周的科技术语拆解。",
+      "morphemes": ["un", "help", "ful"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w01d7-p1",
+      "kind": "mcq",
+      "prompt": "下面哪个词在现代英语中不能再切分为更小的有意义单位？",
+      "choices": ["unkindness", "table", "helpful", "reconstruction"],
+      "answer": 1,
+      "explain": "table 切出的 tab、le 不承载可与 table 组合的稳定意义，也过不了替换测试。其余三词都能切出两个以上词素。",
+      "concepts": ["c-morpheme"]
+    },
+    {
+      "id": "w01d7-p2",
+      "kind": "mcq",
+      "prompt": "struct 属于哪一类词素？",
+      "choices": ["自由词素", "粘着词根", "屈折词缀", "组合形式"],
+      "answer": 1,
+      "explain": "struct 承载“建造”这一核心词汇意义，但不能单独成词，所以是粘着词根。它不是词缀（不改变词性也不只表语法），也不是希腊来源的组合形式。",
+      "concepts": ["c-root", "c-morpheme"]
+    },
+    {
+      "id": "w01d7-p3",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词：un + help + ful",
+      "parts": ["un", "help", "ful"],
+      "answer": "unhelpful",
+      "explain": "un（否定）+ help（帮助）+ ful（充满……的）→ unhelpful“无帮助的”。层次上是 un + (help + ful)，先构成形容词再加否定前缀。",
+      "concepts": ["c-affix", "un", "ful"]
+    },
+    {
+      "id": "w01d7-p4",
+      "kind": "mcq",
+      "prompt": "下面哪一项是屈折词缀？",
+      "choices": ["books 中的 -s", "kindness 中的 -ness", "modernize 中的 -ize", "readable 中的 -able"],
+      "answer": 0,
+      "explain": "-s 只表示复数，不造新词，是屈折。-ness、-ize、-able 都造出新词并改变词性，属于派生。",
+      "concepts": ["c-inflection", "c-derivation"]
+    },
+    {
+      "id": "w01d7-p5",
+      "kind": "cloze",
+      "prompt": "填入术语（中文或英文均可）",
+      "sentence": "在 thermometer 中，两个构词成分之间的 -o- 是连接元音，它本身不承载 ___。",
+      "answer": "意义",
+      "accept": ["词汇意义", "meaning", "语义", "lexical meaning"],
+      "explain": "连接元音只起连接作用，不是独立词素，因此没有词汇意义。分析时应把它算进前一个组合形式的拼写。",
+      "concepts": ["c-combining", "therm"]
+    },
+    {
+      "id": "w01d7-p6",
+      "kind": "matrix",
+      "prompt": "用词基 struct，加上前缀 ob- 与后缀 -ion，写出结果",
+      "base": "struct",
+      "prefix": "ob",
+      "suffix": "ion",
+      "answer": "obstruction",
+      "explain": "ob（对着、反着）+ struct（建造）+ ion（名词后缀）→ obstruction“阻塞、障碍”，字面是“挡在路前搭起来的东西”。",
+      "concepts": ["struct", "tion", "c-word-matrix"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w01d7-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "Each sensor is calibrated against a reference standard that is irreplaceable: the original factory jig was destroyed in a fire, and no equivalent has been built since.",
+      "word": "irreplaceable",
+      "choices": ["无法替代的", "无法修复的", "不可再充电的", "不可重复使用的"],
+      "answer": 0,
+      "strategy": "①切分 ir（否定，in- 在 r 前的变体）+ replace（替换）+ able（能够……的）；②形容词作表语；③冒号后解释：原始夹具毁于火灾、此后没有造出等效品，指向“换不了”；④排除“无法修复”，那是 irreparable 的词族，词根是 repair 而非 replace。",
+      "explain": "ir- 是 in- 在 r 前的拼写变体，不是另一个前缀。replace + able 是“可替换的”，加否定即“不可替代的”。语境给出的证据是“没有等效品”，正对应“替代”。",
+      "concepts": ["ir", "replace", "able", "c-inference"]
+    },
+    {
+      "id": "w01d7-a2",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "At low resolution the two textures are virtually indistinguishable, so the classifier must rely on spectral information rather than shape.",
+      "word": "indistinguishable",
+      "choices": ["无法区分的", "无法探测的", "不可压缩的", "不能重叠的"],
+      "answer": 0,
+      "strategy": "①切分 in（否定）+ distinguish（区分）+ able（能够……的）；②形容词作表语，virtually 表示“几乎”；③语境：低分辨率下两种纹理难以分辨，因此分类器改用光谱信息；④排除“不可压缩”，那是 compress 的词族，与 distinguish 无关。",
+      "explain": "distinguish“区分”→ distinguishable“可区分的”→ 加 in- 否定 → indistinguishable“无法区分的”。后半句“只能依靠光谱信息而不是形状”正是对“看不出差别”的解释。",
+      "concepts": ["in", "distinguish", "able", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 1–3 章复习：词素、词根、词基与词缀" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：层级结构与屈折—派生区分" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "替换测试与四步分析流程" }
+  ]
+}

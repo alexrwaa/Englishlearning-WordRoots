@@ -1,0 +1,140 @@
+{
+  "id": "w07d4",
+  "week": 7,
+  "day": 4,
+  "title": "截短与缩略：gym、flu 与 NASA、CPU",
+  "tagline": "能分清截短词、首字母缩略词与逐字母缩写，并知道它们的语域差异",
+  "objectives": [
+    "能按截去的位置给截短词分类，并各举两例",
+    "能按读音区分 acronym 与 initialism",
+    "能说明缩略词一旦词汇化就能继续参与构词"
+  ],
+  "prereqs": ["w07d3"],
+  "concepts": ["c-clipping", "c-acronym", "c-register"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 4 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "把长词砍短：gym、lab、flu、exam",
+      "body": "**gym** 来自 gymnasium，**lab** 来自 laboratory，**flu** 来自 influenza，**exam** 来自 examination。这类把原词截去一部分、核心意义不变的构词方式叫**截短**（`clipping`）。\n\n按截去的位置分三类：\n\n1. **截尾**（保留开头）：gym、lab、exam、photo\n2. **截首**（保留结尾）：phone（telephone）、plane（aeroplane）、bus（omnibus）\n3. **两头截**（保留中间）：flu（in-flu-enza）、fridge（re-frig-erator）\n\n截短词不是“缩写”，它没有取首字母，也没有保留词组的痕迹，只是一个长词被削短了。",
+      "terms": [
+        { "term": "clipping", "zh": "截短", "en": "clipping", "note": "截去原词一部分而形成的新词" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "acronym 与 initialism：全看怎么读",
+      "body": "**NASA**（National Aeronautics and Space Administration）读作 /ˈnæsə/，像一个普通单词；**CPU**（central processing unit）读作 /ˌsiː piː ˈjuː/，逐个字母念。两者都是取首字母，但读法不同：\n\n- 能按词读的：**acronym**（首字母缩略词），如 NASA、NATO、radar、scuba\n- 逐字母读的：**initialism**（首字母缩写），如 CPU、DNA、PDF、UN\n\n判定只看**读音**，不看大小写。很多 acronym 习惯全大写，但全大写并不改变它的读音类型；反过来，有些全大写词（如 NATO）也是按词读的。",
+      "terms": [
+        { "term": "acronym", "zh": "首字母缩略词", "en": "acronym", "note": "取首字母构成、并按一个词来读的新词" },
+        { "term": "initialism", "zh": "首字母缩写", "en": "initialism", "note": "取首字母构成、但逐字母读的形式" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "laser：从缩略词变成普通词基",
+      "body": "**laser** 原本是 acronym：Light Amplification by Stimulated Emission of Radiation。今天几乎没人记得全称，因为它已经彻底**词汇化**：\n\n- 可数：a laser, two lasers\n- 可作动词：to laser-cut, lasered\n- 可复合：laser beam, laser printer, laser scanner\n\n同类还有 radar（radio detection and ranging）、scuba（self-contained underwater breathing apparatus）。\n\n判断标准很简单：一旦一个缩略词能被当作普通词基加复数、加 -ed、参与复合，它就不再“缩略”，而是英语词汇的正式成员。第 6 周的科技词汇里，这类词非常多。",
+      "morphemes": ["laser"]
+    },
+    {
+      "kind": "table",
+      "title": "四类造词方式对照",
+      "body": "把本周前四天放在一张表里看，判定线索各不相同：复合看成分是否完整，混成看是否各取一部分，截短看是否只剩一个来源，缩略看来源是否是词组。做题时先比对第一列的操作描述，再用第三列的例子验证自己的判断。",
+      "head": ["类型", "操作", "例子", "判据"],
+      "rows": [
+        ["复合 compound", "两个完整自由词基相加", "software, keyboard", "两个成分都能独立成词"],
+        ["混成 blend", "各取一部分拼合", "smog, brunch", "两个来源都被截断"],
+        ["截短 clipping", "截去原词一部分", "gym, flu, phone", "只剩一个来源，意义不变"],
+        ["缩略 acronym/initialism", "取词组首字母", "NASA（按词读）、CPU（逐字母）", "来源是一个词组"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "语域：lab 能进论文，gym 不能",
+      "body": "截短词常带**口语或非正式**色彩：lab、gym、exam 在校园口语里自然，正式论文里仍写 laboratory、examination。但有些截短已经中性化，甚至取代原形：bus（← omnibus）、zoo（← zoological garden）、piano（← pianoforte）。\n\n形态上，截短词是完整的词基：labs、gyms、exams 正常加复数；lab coat、gym bag 正常复合。不要因为“它是缩写”就拒绝给它加词缀——这一点与 acronym 完全一致。\n\n写作建议：正式语域优先用完整形式；如果同一段里反复出现 laboratory，可以在首次出现时标注 “laboratory (lab)”，之后用 lab。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w07d4-p1",
+      "kind": "mcq",
+      "prompt": "下面哪个是截短词？",
+      "choices": ["flu", "smog", "brunch", "software"],
+      "answer": 0,
+      "explain": "flu 由 influenza 截去首尾而成，只剩一个来源，属截短。smog 与 brunch 各取两个词的一部分，是混成；software 是两个完整词基相加的复合词。",
+      "concepts": ["c-clipping", "c-blend"]
+    },
+    {
+      "id": "w07d4-p2",
+      "kind": "mcq",
+      "prompt": "CPU 与 NASA 的区别是：",
+      "choices": [
+        "CPU 逐字母读，是 initialism；NASA 按词读，是 acronym",
+        "CPU 按词读，是 acronym；NASA 逐字母读，是 initialism",
+        "两者都是 acronym，只是 CPU 字母更少",
+        "两者都是截短词，只是截去的位置不同"
+      ],
+      "answer": 0,
+      "explain": "区分 acronym 与 initialism 的唯一标准是读音：/ˌsiː piː ˈjuː/ 逐字母，/ˈnæsə/ 成词。大小写和字母数量都不能作为判据。",
+      "concepts": ["c-acronym"]
+    },
+    {
+      "id": "w07d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个词",
+      "sentence": "___ is an acronym for Light Amplification by Stimulated Emission of Radiation.",
+      "answer": "laser",
+      "accept": ["Laser", "LASER"],
+      "explain": "laser 由五个词的首字母构成，且按一个词读 /ˈleɪzə/，所以是 acronym。它今天已完全词汇化，可加复数、作动词、参与复合。",
+      "concepts": ["c-acronym"]
+    },
+    {
+      "id": "w07d4-p4",
+      "kind": "mcq",
+      "prompt": "fridge（← refrigerator）的拼写里为什么多出一个 d？",
+      "choices": [
+        "截短时插入 d，用来标示 g 读 /dʒ/",
+        "因为 refrigerator 里本来就有 d",
+        "因为它是混成词，d 来自另一个来源",
+        "因为它是逆构词，d 是被误认的后缀"
+      ],
+      "answer": 0,
+      "explain": "英语里 g 在 e 前常读 /dʒ/（如 badge、bridge），fridge 借这个模式插入 d，避免读者把 g 读成 /ɡ/。这是截短伴随的拼写调整，不是构词成分。",
+      "concepts": ["c-clipping", "c-spelling-rule"]
+    },
+    {
+      "id": "w07d4-p5",
+      "kind": "mcq",
+      "prompt": "关于 laser 的现代用法，哪项正确？",
+      "choices": [
+        "它已被当作普通词基，可加复数、作动词、参与复合",
+        "它只能全大写使用，不能加复数",
+        "它是 initialism，必须逐字母读",
+        "它仍是纯缩略词，不能进入复合词"
+      ],
+      "answer": 0,
+      "explain": "laser 已经词汇化：lasers、lasered、laser beam 都成立。这说明缩略词完成词汇化后，形态行为与本土词无异，这正是它能产的关键。",
+      "concepts": ["c-acronym", "c-frequency"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w07d4-a1",
+      "kind": "infer",
+      "prompt": "推测划线词 radar 在此处的含义",
+      "passage": "When visibility drops below fifty metres, the camera pipeline becomes unreliable, but the radar keeps returning clean range measurements: it simply times the echo of each pulse.",
+      "word": "radar",
+      "choices": ["利用回波测距的探测装置", "光学成像设备", "惯性测量单元", "激光扫描仪"],
+      "answer": 0,
+      "strategy": "① 构词：radar 是 radio detection and ranging 的首字母缩略词，按词读；② 语境对比：camera 不可靠，but 转折，说明 radar 在低能见度下仍工作；③ 定义线索：times the echo of each pulse 直接给出测距原理。",
+      "explain": "radar 指通过发射脉冲并计时回波来测距的装置。冒号后的解释就是定义；如果只记住“雷达”这个译名而不懂原理，遇到 range measurements、echo、pulse 这类搭配仍会读不懂。",
+      "concepts": ["c-acronym", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：clipping、acronym 与 initialism" },
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "laser、radar、scuba、fridge 词条" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5：word formation processes" }
+  ]
+}

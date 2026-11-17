@@ -1,0 +1,147 @@
+{
+  "id": "w09d4",
+  "week": 9,
+  "day": 4,
+  "title": "希腊语经拉丁转写：analysis、physics、problem",
+  "tagline": "看懂希腊来源学术词的构词理据，以及它们为什么至今保留希腊式复数",
+  "objectives": [
+    "能说出 analysis、physics、problem 的希腊语词源与字面义",
+    "能解释希腊词进入英语的“书写路径”，并据此判断复数形式",
+    "能区分“希腊词源的现代学术义”与“词源字面义”，不做过度推导"
+  ],
+  "prereqs": ["w09d3"],
+  "concepts": ["c-borrowing", "c-greek-latin", "c-scientific"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "希腊词不是“走海路”来的，是“抄”来的",
+      "body": "英语里的希腊词，绝大多数不是英语使用者与希腊人直接接触借来的。它们的路径通常是：\n\n希腊语 → 拉丁语（罗马人转写、翻译）→ 法语或学术拉丁 → 英语\n\n这条路径决定了三件事：\n\n1. **拼写被拉丁化**：希腊字母 χ、φ、υ 转写为 ch、ph、y，所以是 physics 而不是“fysiks”，是 philosophy 而不是“filosofia”。\n2. **词形保持稳定**：因为是从书本抄来的，希腊的屈折结尾被一起带进来（-sis、-on、-ma）。\n3. **语域偏学术**：这些词一进入英语就属于科学、哲学、医学，几乎没有“厨房希腊语”。\n\n所以“希腊来源”在英语里几乎等于一个语域标签：正式、技术、可拆分。",
+      "terms": [
+        { "term": "transliteration", "zh": "转写", "en": "transliteration", "note": "把一种文字的字母按对应关系换成另一种文字" }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "analysis：字面就是“拆开”",
+      "body": "analysis 来自希腊语 analysis，源自 analyein“解开、拆散”：ana-（向上、彻底）＋ lyein（松开）。\n\n这个字面义和现代义高度一致：分析就是把一个整体拆成部件，看清它们如何组成。所以 analysis 是一个**词源与共时义都对得上**的幸运例子。\n\n但要注意两点：\n\n1. ana- 在这里不是“再、回”（那是拉丁 re- 的活），把它记成“再分析”是错的。\n2. 复数 analyses 保留了希腊—拉丁的 -is → -es 变化，不是简单加 -s。\n\n同族还有 analytic / analytical（分析的）、analytically。化学里的 analyze 是同一词源的动词。",
+      "steps": [
+        { "period": "希腊", "form": "analysis", "note": "“拆解”，来自 analyein" },
+        { "period": "中世纪拉丁", "form": "analysis", "note": "经转写进入学术拉丁" },
+        { "period": "英语", "form": "analysis", "note": "16–17 世纪进入学术语域；复数 analyses" }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "problem：被“抛到面前”的东西",
+      "body": "problem 来自希腊语 problema，源自 proballein“往前扔”：pro-（向前）＋ ballein（投掷）。字面是“被抛到面前的东西”——一个摆在你面前、必须处理的任务。\n\n这个意象很好用：problem 的原型不是“坏消息”，而是“待处理的对象”。所以数学题叫 problem，医学上的“主诉”也叫 problem，工程里的优化对象同样叫 problem。\n\n顺带一个高频同根词：**symbol** 来自希腊语 symbolon，源自动词 symballēin“扔在一起”，本指对半折断、各自保存以相互认证的符契。两个词共享 ballein“投掷”，但一个向前抛、一个抛到一起，语义路径完全不同。",
+      "steps": [
+        { "period": "希腊", "form": "problema", "note": "“被抛在前面的东西”，pro- 前 ＋ ballein 投" },
+        { "period": "拉丁", "form": "problema", "note": "转写进入学术拉丁，保留 -ma 词尾" },
+        { "period": "英语", "form": "problem", "note": "14–15 世纪进入英语，指待解决的难题" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "physics：一个形式是复数、意思是单数的词",
+      "body": "physics 来自希腊语 ta physika“自然的事物”：ta 是中性复数冠词，physika 来自 physis“自然”，而 physis 又来自 phyein“生长”。字面链条是“生长 → 自然 → 自然之物 → 自然之学”。\n\n在英语里，physics 形式上是复数（-s 结尾），但指一门学科，作主语时接**单数**动词：*Physics is my favourite subject.*\n\n这类词不止一个：mathematics、economics、linguistics、robotics、genetics 都以 -ics 结尾、作单数。但如果转指“活动、现象或观点”，就可能变复数：*The economics of the project are unclear.*（这里指具体的经济状况）\n\n注意 physics 在近代以前常被称为 natural philosophy，它与“物理”这个中文词并不是一一对应的历史产物。",
+      "terms": [
+        { "term": "-ics", "zh": "学科后缀", "en": "-ics", "note": "源自希腊形容词中性复数，构成学科名" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "希腊学术词的三个识别信号",
+      "body": "不必背词源也能提高判断率：希腊来源的学术词在拼写与形态上有几个高频信号。它们只是**线索**，不是定律——最终仍需查证。但有了这几条，你在论文里遇到陌生长词时至少能先猜出它属于哪个学科语域。",
+      "head": ["信号", "例子", "说明"],
+      "rows": [
+        ["ph, ch, y, rh 拼写", "physics, chromosome, hypothesis, rhetoric", "希腊字母 φ、χ、υ、ρ 的拉丁转写"],
+        ["-sis / -ma / -on 词尾", "analysis, problema, phenomenon", "希腊名词词尾，复数常为 -ses / -mata / -a"],
+        ["-logy / -graphy / -metry", "biology, geography, geometry", "组合形式构成学科名，能产性极高"],
+        ["-itis / -osis", "arthritis, diagnosis", "医学语域：炎症、病理状态"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "词源能解释，但不能预测",
+      "body": "知道 problem 字面是“被抛到前面的东西”，能帮你记住它在数学、医学、工程里都指“待处理的对象”。但**不能用词源去推断现代义**：\n\n- 医学的 problem 不等于数学的 problem；\n- physics 今天的范围与希腊 physis 差得很远；\n- 术语的当代定义由学科共同体约定，不由词源决定。\n\n正确用法是：**词源提供记忆钩子与语义直觉，定义提供实际边界**。写论文时，术语定义要以后者为准。这一条会一直用到第 12 周。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w09d4-p1",
+      "kind": "mcq",
+      "prompt": "analysis 的希腊语构词理据是？",
+      "choices": [
+        "ana-（向上、彻底）＋ lyein（松开），字面“拆解”",
+        "ana-（再）＋ lysis（写），字面“重写”",
+        "来自拉丁语 analysis“计算”",
+        "来自古法语 analyse“摘要”"
+      ],
+      "answer": 0,
+      "explain": "analysis 源自希腊 analyein“解开”，ana- 表“向上、彻底”，lyein 表“松开”。字面义“拆解”与现代义“分析”高度一致。把它记成“再分析”是把 ana- 误当成了拉丁 re-。",
+      "concepts": ["c-greek-latin", "c-etymology"]
+    },
+    {
+      "id": "w09d4-p2",
+      "kind": "cloze",
+      "prompt": "填入正确的动词形式",
+      "sentence": "Physics ___ my favourite subject, although the laboratory work is demanding.",
+      "answer": "is",
+      "accept": ["is"],
+      "explain": "physics 虽以 -s 结尾，但指一门学科，作主语时接单数动词。同类还有 mathematics、economics（作学科时）、linguistics、robotics、genetics。",
+      "concepts": ["c-greek-latin"]
+    },
+    {
+      "id": "w09d4-p3",
+      "kind": "mcq",
+      "prompt": "problem 与 symbol 的关系，下面哪种说法正确？",
+      "choices": [
+        "二者共享希腊语 ballein“投掷”：problem 是“抛到前面”，symbol 是“抛在一起”",
+        "二者毫无关系，只是拼写偶然相近",
+        "二者都表示“计算”，来自同一拉丁词根",
+        "symbol 来自拉丁语，problem 来自希腊语，因此不同源"
+      ],
+      "answer": 0,
+      "explain": "problem < problema < proballein（pro- 前 ＋ ballein 投）；symbol < symbolon < symballēin（syn- 一起 ＋ ballein 投）。两者共享 ballein，但方向不同，语义路径也不同。这正是“同根不等于同义”的好例子。",
+      "concepts": ["c-greek-latin", "c-cognate"]
+    },
+    {
+      "id": "w09d4-p4",
+      "kind": "mcq",
+      "prompt": "hypothesis 的复数形式是？",
+      "choices": ["hypothesises", "hypotheses", "hypothesi", "hypothesis"],
+      "answer": 1,
+      "explain": "hypothesis 来自希腊 hypothesis（hypo- 在下 ＋ tithenai 放置），复数按 -is → -es 变为 hypotheses。写论文时说 *these hypotheses were tested*，不要写成 hypothesises。",
+      "concepts": ["c-greek-latin", "c-borrowing"]
+    },
+    {
+      "id": "w09d4-p5",
+      "kind": "mcq",
+      "prompt": "下面哪个词不是经拉丁转写进入英语的希腊学术词？",
+      "choices": ["analysis", "physics", "problem", "government"],
+      "answer": 3,
+      "explain": "government 来自古法语 governement，最终源自拉丁 gubernare“掌舵”，属于诺曼法语层，不是希腊学术词。前三个词都源自希腊语并经拉丁转写进入学术英语。",
+      "concepts": ["c-greek-latin", "c-borrowing"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w09d4-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "The explanation is elegant but purely empirical: no theory predicts the observed drift, yet the same pattern reappears in every trial we run.",
+      "word": "empirical",
+      "choices": ["基于观察与实验的", "基于纯理论推导的", "明显错误的", "可以忽略的"],
+      "answer": 0,
+      "strategy": "① 转折结构：elegant but… 提示后面在限定这个解释的性质；② 冒号解释：no theory predicts… yet the pattern reappears in every trial 说明结论来自反复实验而非理论；③ 词源辅助：希腊 empeiria“经验” → 经验的、实证的。",
+      "explain": "empirical 指知识来自观察与实验，而非纯理论。句中“没有理论能预测，但每次实验都重现”正是典型的实证证据。它与 theoretical 相对，是科研语域的高频对立组：empirical evidence / empirical study。",
+      "concepts": ["c-greek-latin", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "希腊语成分经拉丁转写进入学术英语" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "analysis / physics / problem / symbol / hypothesis 的语源" }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "w11d1",
+  "week": 11,
+  "day": 1,
+  "title": "科技术语的三种出身：组合、人造、旧词新义",
+  "tagline": "先判断一个术语是“拼出来的”还是“被起出来的”，再决定要不要拆",
+  "objectives": [
+    "能判断一个科技术语属于组合形式拼装、人造术语（coinage）还是旧词新义",
+    "能拆解 thermometer 并说明连接元音 -o- 的作用",
+    "能解释 laser 从首字母缩略词变为可再构词的单位这一过程",
+    "能在语境中区分 token、cloud 的日常义与技术义"
+  ],
+  "prereqs": ["w10d7", "c-scientific", "c-combining"],
+  "concepts": ["c-scientific", "c-combining", "c-greek-latin", "c-acronym", "c-metaphor", "c-semantic-shift"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三类术语，三种处理方式",
+      "body": "科技术语看起来吓人，但出身只有三类，处理方式完全不同：\n\n1. **组合形式拼装**——用希腊/拉丁的构词成分按规则造，如 therm-o-meter。可拆、可预测，拆开就能得到意义。\n2. **人造术语（coinage）**——先有概念，再起名字，如 hydrogen、laser。能拆，但“为什么这样命名”要靠造词时的科学背景。\n3. **旧词新义**——形式没变，意义扩展，如 token、cloud。拆不动，只能靠搭配和语境定名。\n\n判断顺序很重要：先问“这个词是被拼出来的，还是被起出来的，还是老词换了新意思”，再决定要不要拆。把第三类当第一类硬拆，是本周最常见的错误。",
+      "terms": [
+        { "term": "coinage", "zh": "人造新词", "en": "coinage", "note": "由个人或团体有意创造的新词，如 hydrogen、laser" },
+        { "term": "combining form", "zh": "组合形式", "en": "combining form", "note": "源自希腊/拉丁、带连接元音的构词成分" }
+      ],
+      "morphemes": ["therm", "meter", "hydro", "gen"]
+    },
+    {
+      "kind": "etym",
+      "title": "thermometer：希腊材料 + 连接元音",
+      "body": "**thermometer** = therm（热）+ -o-（连接元音）+ meter（量度）。两个成分都来自希腊语：thermē“热”，metron“量”。\n\n它不是英语本土复合，而是 17 世纪按希腊语材料在欧洲学术语言中构造出来的词（法语 thermomètre，新拉丁语 thermometer）。中间的 -o- 不是随便加的：希腊来源的组合形式相接时用它作连接元音，photograph、biology、thermodynamics 都遵循这条规则。\n\n所以看到 -o- 夹在两个成分之间，先怀疑“这是希腊组合形式”，而不是“两个英文单词拼在一起”。这也是判断第一类术语最快的信号。",
+      "steps": [
+        { "period": "希腊语", "form": "thermē", "note": "热" },
+        { "period": "希腊语", "form": "metron", "note": "量度" },
+        { "period": "法语/新拉丁 17 世纪", "form": "thermomètre", "note": "按希腊材料构造的学术词" },
+        { "period": "英语", "form": "thermometer", "note": "进入普通科技语域" }
+      ],
+      "terms": [
+        { "term": "connecting vowel", "zh": "连接元音", "en": "connecting vowel", "note": "组合形式相接时插入的 -o- 或 -i-" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "hydrogen：1783 年的一次命名",
+      "body": "**hydrogen** 是拉瓦锡（Lavoisier）团队在 1783 年前后造的科学拉丁语词：hydro-（水）+ -gen（产生者），字面义“生成水的东西”——因为它在氧气中燃烧生成水。\n\n两点必须记住：\n\n- 这是**人造术语**，不是英语历史上自然长出来的复合词。它的可分析性来自造词者的设计，而不是语言演变。\n- -gen 在化学里高度能产：oxygen（命名者当时误以为它是一切酸的生成者）、nitrogen、halogen。同一个成分用了三次，三次的命名逻辑各不相同——这正好说明“能拆”不等于“意义自动可推”。\n\n另外，hydro- 在现代化学里常直接指“氢”，如 hydrocarbon（烃：碳氢化合物）；但在 hydrogel（水凝胶）、hydrology（水文学）里仍然指“水”。同一个组合形式落在“水”或“氢”两侧，只能靠搭配判断。",
+      "morphemes": ["hydro", "gen"],
+      "terms": [
+        { "term": "scientific Latin", "zh": "科学拉丁语", "en": "Neo-Latin", "note": "文艺复兴以后用拉丁语材料新造术语的国际学术语言" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "laser：缩写词如何变成普通词",
+      "body": "**laser** = Light Amplification by Stimulated Emission of Radiation，1960 年前后出现的首字母缩略词。它按词读作 /ˈleɪzə/，不逐字母念，所以是 acronym 而不是 initialism（后者如 CPU、IMU）。\n\n一个缩略词成熟的标志，是它开始被当作普通词继续构词：laser 可以作动词（to laser-cut）、可以派生（laser printer）、还能参与混成（lasik 由 laser 与 keratomileusis 拼合）。这时候再说“laser 是缩写”只是词源事实，现代使用者已经不这样分析了。\n\n这条准则贯穿本周：**词源可拆 ≠ 现代构词可拆**。判断依据是现代说话人是否还按成分理解它，而不是词典里那个完整形式。",
+      "terms": [
+        { "term": "acronym", "zh": "首字母缩略词（按词读）", "en": "acronym" },
+        { "term": "initialism", "zh": "首字母缩略语（逐字母读）", "en": "initialism" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "旧词新义：token 与 cloud",
+      "body": "第三类术语最容易被误拆，因为它们的拼写完全不提供线索。token 和 cloud 都是古英语就有的常用词，技术义是通过**隐喻**扩展出来的：抓住旧义里某个特征，投射到新领域。判断只能靠搭配。",
+      "a": "token",
+      "b": "cloud",
+      "rows": [
+        ["古英语形式", "tācn“记号、标志”", "clūd“岩块、丘”"],
+        ["现代日常义", "代币、凭证、象征", "天空中的云"],
+        ["技术义", "语言模型处理文本的最小单位", "通过网络提供的计算与存储服务"],
+        ["扩展机制", "隐喻：把“可计数的符号单位”投射到文本切分", "隐喻：早期网络拓扑图把互联网画成一朵云"],
+        ["判断依据搭配", "token budget、tokenizer、context window", "cloud storage、deploy on the cloud"],
+        ["常见误解", "以为与“象征”义无关，其实同源", "以为指“模糊、不可靠”，实际强调“无需自建机房”"]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w11d1-p1",
+      "kind": "mcq",
+      "prompt": "下面哪个词的理解必须依赖“造词时的科学背景”，而不能只靠成分意义相加？",
+      "choices": ["hydrogen", "helpful", "network", "unbelievable"],
+      "answer": 0,
+      "explain": "hydrogen 的 hydro + -gen 可以拆成“水 + 产生者”，但为什么用“水”命名，要回到 1783 年拉瓦锡发现它燃烧生成水的实验；其余三词的意义都能由成分直接推出。",
+      "concepts": ["c-scientific", "hydro", "gen"],
+      "hint": "先判断每个词属于三类中的哪一类。"
+    },
+    {
+      "id": "w11d1-p2",
+      "kind": "cloze",
+      "prompt": "补全 laser 的完整形式",
+      "sentence": "laser 是 Light Amplification by Stimulated Emission of ___ 的首字母缩略词。",
+      "answer": "Radiation",
+      "accept": ["radiation", "Radiation"],
+      "explain": "laser 的完整形式是 Light Amplification by Stimulated Emission of Radiation（受激辐射光放大）。它按词读，所以是 acronym；CPU、IMU 那类逐字母读的才是 initialism。",
+      "concepts": ["c-acronym"]
+    },
+    {
+      "id": "w11d1-p3",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词（含连接元音）",
+      "parts": ["therm", "o", "meter"],
+      "answer": "thermometer",
+      "explain": "therm（热）+ o（连接元音）+ meter（量度）→ thermometer“温度计”。-o- 不是词素，而是希腊组合形式相接时的连接元音，写构词算式时保留它才能得到正确拼写。",
+      "concepts": ["c-combining", "therm", "meter"]
+    },
+    {
+      "id": "w11d1-p4",
+      "kind": "mcq",
+      "prompt": "cloud storage 中 cloud 的意义，属于哪种变化？",
+      "choices": ["词义缩小", "隐喻扩展", "借词", "截短"],
+      "answer": 1,
+      "explain": "云是“悬浮在上方、位置不固定的一团”，早期网络图把互联网画成一朵云表示“不必关心内部”，于是 cloud 获得“通过网络远程提供”的技术义，这是基于相似性的隐喻扩展，不是缩小也不是借用。",
+      "concepts": ["c-metaphor", "c-semantic-shift"]
+    },
+    {
+      "id": "w11d1-p5",
+      "kind": "mcq",
+      "prompt": "oxygen、hydrogen、nitrogen 共用 -gen，最合理的结论是？",
+      "choices": [
+        "三者意义相同，可以互换",
+        "-gen 是能产的组合形式，意为“产生者”，但每个词的命名逻辑不同",
+        "-gen 是屈折后缀，表示复数",
+        "三个词都来自古英语"
+      ],
+      "answer": 1,
+      "explain": "-gen 确实表示“产生……的（物质）”，但三个词的命名逻辑各不相同：oxygen 基于“产生酸”的旧理论（后被推翻），hydrogen 基于“产生水”，nitrogen 来自 nitre（硝石）+ gen，“硝石生成者”（拉瓦锡另用 azote“无生命”一词，后被取代）。共享成分只保证构词方式一致，不保证语义逻辑一致。",
+      "concepts": ["c-combining", "c-scientific", "gen"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w11d1-a1",
+      "kind": "infer",
+      "prompt": "推测 inherited 在句中的含义",
+      "passage": "Most terms in this field were not inherited from Old English. They were deliberately coined by engineers who wanted labels that would travel well across languages, which is why so many of them are built from Greek and Latin elements rather than from native roots.",
+      "word": "inherited",
+      "choices": ["从更早的语言中传承下来的", "从其他学科借入的", "由工程师新造的", "被重新拼写过的"],
+      "answer": 0,
+      "strategy": "① 切分：in + herit + ed 看似可切，但 herit 在现代英语不独立成词，说明这是拉丁借词，不必强拆；② 词性：过去分词，与 were 构成被动；③ 语境：下一句用 deliberately coined 作对比，not ... but ... 结构提示两者相反；④ 验证：与 native roots 并列，指向“本土传承”。",
+      "explain": "inherit 来自拉丁 heres“继承人”，现代英语中不宜再切分。这里靠的是对比语境：not inherited from Old English 与 deliberately coined 构成反义，因此 inherited 指“从早期语言传承而来”。切不动时，语境就是主要证据。",
+      "concepts": ["c-inference", "c-etymology", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 1、9 章：希腊/拉丁成分与学术词汇的构造" },
+    { "id": "S5", "title": "Oxford English Dictionary / Online Etymology Dictionary", "detail": "thermometer、hydrogen、laser 的首次用例与构词说明" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "区分词源结构与现代共时结构" }
+  ]
+}

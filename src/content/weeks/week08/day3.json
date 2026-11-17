@@ -1,0 +1,131 @@
+{
+  "id": "w08d3",
+  "week": 8,
+  "day": 3,
+  "title": "去 e 规则：什么时候去掉，什么时候必须留",
+  "tagline": "能判断 create+ive、notice+able、argue+ment 三种情况为什么结果不同",
+  "objectives": [
+    "能说出“元音开头后缀去 e、辅音开头后缀留 e”的基本规则",
+    "能解释 notice+able 保留 e 是为了保住 c 的 /s/ 读音",
+    "能记住 argument、truly、wholly 这类高频例外"
+  ],
+  "prereqs": ["w08d2"],
+  "concepts": ["c-spelling-rule", "c-suffix", "c-base"],
+  "minutes": { "review": 5, "learn": 8, "practice": 8, "apply": 4 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "基本规则：元音开头去掉，辅音开头保留",
+      "body": "以**不发音的 e** 结尾的词基，接**以元音开头**的后缀时，通常去掉 e：\n\n- create + ive → creative\n- note + able → notable\n- arrive + al → arrival\n- fame + ous → famous\n\n接**辅音开头**的后缀则保留 e：hope + ful → hopeful、care + less → careless、awe + ful → awful。\n\n原因：词尾 e 本来不发音，只在拼写上标示前面元音的长音；当后缀以元音开头时，这个功能由后缀的元音接手，e 变成多余。反之，后缀以辅音开头时，e 仍要留着标示长音。",
+      "terms": [
+        { "term": "silent e", "zh": "不发音的 e", "en": "silent e", "note": "词尾不发音、用于标示前元音长音的 e" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "例外一：为了保住软音而留 e",
+      "body": "有些词保留 e，是为了保住前面字母的**软音**：\n\n- notice + able → noticeable（不是 noticable）：c 在 e 前读 /s/，去掉 e 就可能被读成 /k/\n- change + able → changeable：g 在 e 前读 /dʒ/\n- courage + ous → courageous：同样保 /dʒ/\n- manage + able → manageable\n\n这类不算“例外”，而是另一条规则（保音）优先于去 e 规则。拼写规则常有优先级，这正是结构化词汇探究强调“先问为什么”的原因：规则不是清单，是有条件的系统。",
+      "terms": [
+        { "term": "soft sound", "zh": "软音", "en": "soft sound", "note": "c 在 e/i/y 前读 /s/、g 读 /dʒ/ 的现象" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "例外二：argument 为什么去 e",
+      "body": "**argue + ment → argument** 是常考例外：-ment 以辅音开头，按理应保留 e，实际却去掉了。类似还有：\n\n- true + ly → truly\n- whole + ly → wholly\n- due + ly → duly\n\n历史原因：这些词的 e 在早期拼写中就不稳定，18 世纪词典编纂时定型为去 e 形式。不要硬套规则，记住这张高频例外表即可。\n\n顺带一个对比：**awful = awe + ful** 保留了 e，因为 -ful 以辅音开头且没有软音问题。argument 与 awful 的差别不在规则，而在历史上的定形习惯。",
+      "morphemes": ["argue", "ment"]
+    },
+    {
+      "kind": "table",
+      "title": "六种组合的结果",
+      "body": "下表把“后缀首音”和“是否需要保音”交叉排列。做题时先看后缀第一个字母是元音还是辅音，再看词基末尾的 c/g 是否需要保护，两步就能定。最后两行是典型例外，请单独记住它们的结果，而不是现场推导。",
+      "head": ["词基 + 后缀", "结果", "说明"],
+      "rows": [
+        ["create + ive", "creative", "元音开头 → 去 e"],
+        ["note + able", "notable", "元音开头 → 去 e"],
+        ["hope + ful", "hopeful", "辅音开头 → 保留 e"],
+        ["notice + able", "noticeable", "保留 e 以保 c 的 /s/"],
+        ["manage + able", "manageable", "保留 e 以保 g 的 /dʒ/"],
+        ["argue + ment", "argument", "辅音开头但去 e，高频例外"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "扩展到 -ing 与 -ie 结尾",
+      "body": "以 e 结尾的动词加 -ing 遵循同一逻辑：make → making、write → writing、use → using。\n\n两类特殊要单独记：\n\n- **-ie 结尾**：lie → lying、die → dying、tie → tying，ie 整体变 y。\n- **-ee / -oe / -ye 结尾**：see → seeing、agree → agreeing、canoe → canoeing，保留 e，否则词基无法辨认。\n\n所以“去 e”不是万能公式，它服从一个更上位的原则：**避免读音歧义、保持词基可识别**。规则是原则的产物，遇到例外先问它在保护什么。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w08d3-p1",
+      "kind": "wordSum",
+      "prompt": "把词素拼成正确的单词（注意拼写调整）",
+      "parts": ["create", "ive"],
+      "answer": "creative",
+      "explain": "create 以不发音的 e 结尾，-ive 以元音开头，所以去 e 得 creative。若写成 createive，两个元音字母相邻，读者会误判音节。",
+      "concepts": ["c-spelling-rule", "c-suffix"]
+    },
+    {
+      "id": "w08d3-p2",
+      "kind": "cloze",
+      "prompt": "填入一个形容词",
+      "sentence": "The difference between the two samples was barely ___ , well within the noise level.",
+      "answer": "noticeable",
+      "accept": ["noticeable"],
+      "explain": "notice + able 保留 e，写成 noticeable，以保住 c 的 /s/ 读音。若写成 noticable，c 可能被读成 /k/，与词基的读音脱节。",
+      "concepts": ["c-spelling-rule"]
+    },
+    {
+      "id": "w08d3-p3",
+      "kind": "mcq",
+      "prompt": "notice + able 保留 e 的原因是：",
+      "choices": [
+        "保住 c 的 /s/ 读音，避免被读成 /k/",
+        "因为 -able 以辅音开头",
+        "因为 notice 是法语借词",
+        "因为所有双音节词都保留 e"
+      ],
+      "answer": 0,
+      "explain": "-able 其实以元音开头，按基本规则应去 e；保留 e 是“保音”规则优先级更高的结果。c 在 e 前读 /s/，去掉 e 后 c 后接 a，容易被读成 /k/。",
+      "concepts": ["c-spelling-rule"]
+    },
+    {
+      "id": "w08d3-p4",
+      "kind": "mcq",
+      "prompt": "argue + ment 的正确拼写是：",
+      "choices": ["argument", "arguement", "argment", "argumente"],
+      "answer": 0,
+      "explain": "argument 是去 e 的高频例外：-ment 以辅音开头，按基本规则应保留 e，但历史上定形为去 e。同类还有 truly、wholly、duly。",
+      "concepts": ["c-spelling-rule"]
+    },
+    {
+      "id": "w08d3-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一项拼写正确？",
+      "choices": ["hope + ful → hopeful", "hope + ful → hopefull", "hope + ful → hopful", "hope + ful → hopfully"],
+      "answer": 0,
+      "explain": "-ful 以辅音开头，e 保留，且 -ful 只有一个 l，所以是 hopeful。hopefull 是常见的“按发音双写”错误，hopful 则丢了词基的 e。",
+      "concepts": ["c-spelling-rule", "c-suffix"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w08d3-a1",
+      "kind": "infer",
+      "prompt": "推测划线词 manageable 的含义",
+      "passage": "The full dataset is large but manageable: it fits on a single external drive and can be cleaned in one afternoon.",
+      "word": "manageable",
+      "choices": ["规模可控、处理得了的", "必须分批处理的", "需要专用软件才能读取的", "已经部分损坏的"],
+      "answer": 0,
+      "strategy": "① 切分：manage + able，保留 e 以保 g 的 /dʒ/；② 词性：-able 形容词，作表语；③ 语境：but 转折后给出两条证据——装得进一块硬盘、一个下午能清理完，都指向“可控”。",
+      "explain": "manageable 意为“应付得了的、可控的”。passage 用 fits on a single drive 与 one afternoon 具体化了“可控”的标准。注意拼写保留 e：若写 managable，g 可能被读成 /ɡ/。",
+      "concepts": ["c-spelling-rule", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "去 e 与保音规则的优先级" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 5 章：orthographic adjustment at morpheme boundaries" },
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "argument、truly、wholly 的拼写史" }
+  ]
+}

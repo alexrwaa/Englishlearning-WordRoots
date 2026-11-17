@@ -1,0 +1,318 @@
+{
+  "id": "w05d7",
+  "week": 5,
+  "day": 7,
+  "title": "第 5 周复盘：七个拉丁词根，一套判断方法",
+  "tagline": "把七组词根压成一张表，并用三道判断题校正最容易犯的错",
+  "objectives": [
+    "能不查词典说出七组拉丁词根的核心义与两个代表词",
+    "能区分“同形异源”与“同源异形”两种容易混淆的情况",
+    "能在论文段落中用词根加语境推断陌生派生词"
+  ],
+  "prereqs": [
+    "w05d6",
+    "c-word-family"
+  ],
+  "concepts": [
+    "c-word-family",
+    "c-root",
+    "c-etymology",
+    "c-inference",
+    "struct",
+    "port",
+    "duct",
+    "spect",
+    "script",
+    "fer",
+    "miss"
+  ],
+  "minutes": {
+    "review": 6,
+    "learn": 7,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "七组词根总表：这一周的全部收获",
+      "body": "复习时不要只看中文释义，要能反向操作：给出一个词根，说出两个代表词；给出一个词，说出词根与方向。这张表就是自测清单，遮住后两列，逐行过一遍。凡是卡住的，说明那一组还没形成“方向感”，而不是记性不好。最后一列是本周错误率最高的地方，优先看它。",
+      "head": [
+        "词根",
+        "核心义",
+        "代表词",
+        "易混点"
+      ],
+      "rows": [
+        [
+          "struct",
+          "堆叠、建造",
+          "construct, instruct, destruction",
+          "in- 在 instruct 中是方向不是否定"
+        ],
+        [
+          "port",
+          "携带",
+          "transport, import, support",
+          "airport 的 port 是“港口”，不同源"
+        ],
+        [
+          "duc / duct",
+          "引导",
+          "produce, introduce, conduct",
+          "reduce 的“减少”来自“引回去”"
+        ],
+        [
+          "spect",
+          "看",
+          "inspect, respect, perspective",
+          "respect 的“尊重”是引申义"
+        ],
+        [
+          "scrib / script",
+          "刻写",
+          "describe, inscribe, prescription",
+          "动词 scrib，名词多 script"
+        ],
+        [
+          "fer",
+          "携带、承受",
+          "transfer, refer, offer",
+          "translate 的 lat- 也是它"
+        ],
+        [
+          "mit / miss",
+          "送出、放走",
+          "submit, transmit, permission",
+          "两套词干来自拉丁语，非英语规则"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "两种最容易搞混的情况",
+      "body": "词族判定出问题，几乎都落在这两类上。它们的表现相反，处理方式也相反：一类是拼写像但血缘不同，一类是血缘同但拼写不同。做题时先问自己遇到的是哪一种。最实用的检验是“能不能说出中间的意义链条”——说不出，就不要急着归入同一词族。",
+      "a": "同形异源",
+      "b": "同源异形",
+      "rows": [
+        {
+          "label": "表现",
+          "a": "拼写相同或相似，来源不同",
+          "b": "来源相同，拼写差别较大"
+        },
+        {
+          "label": "例子",
+          "a": "port“携带”与 port“港口”；theme 与 thermal",
+          "b": "destroy 与 destruction；translate 与 transfer"
+        },
+        {
+          "label": "判断依据",
+          "a": "查词源，看是否有语义链条",
+          "b": "查拉丁原形，看是否同一词的不同词干"
+        },
+        {
+          "label": "常见错误",
+          "a": "凭拼写归入同一词族",
+          "b": "因拼写不同而漏掉同族关系"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三个必须校正的说法",
+      "body": "1. **“in- 就是否定”**。instruct、import、inscribe 里的 in- 都是方向“向内、在上面”。判断前缀义要看词根义与整词语义，不能只看前缀表。\n2. **“加 -ion 时 t 变 ss 是拼写规则”**。submit → submission 是拉丁两套词干，不是英语规则；真正的英语拼写规则是 happy → happiness 这一类。\n3. **“知道了词源就等于知道了词义”**。respect 字面是“回头看”，现代义是“尊重、方面”；能解释来源，不等于能直接推出今义。**词源是解释力，不是预测器**。",
+      "morphemes": [
+        "in",
+        "mit",
+        "miss",
+        "spect"
+      ]
+    },
+    {
+      "kind": "passage",
+      "title": "放进论文里读一遍",
+      "body": "下面这段是机器人论文里常见的写法。先自己读，再看两个问题——注意 infer、transmit、inspection 都不是生词，但需要在句子里定位它们的对象：传输的是数据流，检查的是批次，推断的是丢包原因。这种定位练习比查词义更接近真实阅读。",
+      "excerpt": "We transmit the raw IMU stream at 200 Hz and run a separate inspection pass over each batch before it enters the estimator. From the residual pattern we infer that most dropouts are caused by buffer overflow rather than by radio interference.",
+      "glossZh": "我们以 200 Hz 传输原始 IMU 数据流，并在每批数据进入估计器之前单独做一次检查。从残差模式我们推断，大多数丢包是缓冲区溢出造成的，而不是无线电干扰。",
+      "questions": [
+        {
+          "q": "transmit 的对象是什么？",
+          "a": "the raw IMU stream（原始 IMU 数据流），即信号而非实物。"
+        },
+        {
+          "q": "infer 的结论是什么？",
+          "a": "大多数丢包源于缓冲区溢出，而不是无线电干扰。"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "下周预告：换一套材料",
+      "body": "这一周的词根都来自拉丁语，它们多经法语进入英语，构词方式以“前缀 + 词根 + 后缀”为主。\n\n下周换成希腊语材料，你会遇到一个明显不同的现象：**两个成分之间常常多出一个 -o-**，比如 bio-logy、thermo-meter。这不是英语的拼写习惯，而是希腊语复合词的连接方式。\n\n提前记住一句话：**希腊成分构成的词，很多不是古代传下来的，而是近代科学家用希腊材料新造的**。这会改变你对“词源”的期待。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w05d7-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一组词真正属于同一词族？",
+      "choices": [
+        "inspect / spectator / perspective",
+        "airport / export / report",
+        "portable / portal / import",
+        "thermal / thermometer / theme"
+      ],
+      "answer": 0,
+      "explain": "三项都含 spect“看”，语义链条完整。airport 的 port 是“港口”（portus）；portal 的 port 是“门”（porta）；theme 与 thermal 拼写相近但 theme 来自希腊 tithenai“放置”，与 therm“热”无关。",
+      "concepts": [
+        "spect",
+        "port",
+        "c-word-family"
+      ]
+    },
+    {
+      "id": "w05d7-p2",
+      "kind": "mcq",
+      "prompt": "下面哪个词的前缀表示“在下”，从而整体意为“支撑”？",
+      "choices": [
+        "support",
+        "transport",
+        "export",
+        "inspect"
+      ],
+      "answer": 0,
+      "explain": "sup- 是 sub-“在下”在 p 前的同化形式，supportare 是“从下面托住”。transport 是 trans-“越过”，export 是 ex-“向外”，inspect 是 in-“向内”。",
+      "concepts": [
+        "sub",
+        "port",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w05d7-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词（必要时改变词形）",
+      "sentence": "The manuscript was ___ to the journal in March and accepted two months later.",
+      "answer": "submitted",
+      "accept": [
+        "submitted",
+        "submit"
+      ],
+      "explain": "sub（在下）+ mit（送）→ submit“提交”，submit a manuscript to a journal 是学术出版的固定说法。被动语态 was ___ 需要过去分词 submitted，注意 t 双写。",
+      "concepts": [
+        "sub",
+        "mit"
+      ]
+    },
+    {
+      "id": "w05d7-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词，写出结果",
+      "parts": [
+        "con",
+        "struct",
+        "ion"
+      ],
+      "answer": "construction",
+      "explain": "con（一起）+ struct（建造）+ ion（名词后缀）→ construction“建造、构造”。这是本周第一天就出现的词，现在应能一次写对。",
+      "concepts": [
+        "con",
+        "struct",
+        "ion"
+      ]
+    },
+    {
+      "id": "w05d7-p5",
+      "kind": "matrix",
+      "prompt": "用矩阵生成单词：词基 spect，加前缀 circum-（环绕），得到形容词，结果是？",
+      "base": "spect",
+      "prefix": "circum",
+      "answer": "circumspect",
+      "explain": "circum（环绕）+ spect（看）→ circumspect“环顾四周的”，即谨慎、周密的。这个词在正式写作中表示“考虑到各方面风险”。",
+      "concepts": [
+        "spect",
+        "c-prefix"
+      ]
+    },
+    {
+      "id": "w05d7-p6",
+      "kind": "mcq",
+      "prompt": "有学习者说：“既然 respect 字面是‘回头看’，那么凡是 respect 都应译成‘回头看’。”问题在哪？",
+      "choices": [
+        "词源只解释来源，现代义已演变为“尊重、方面”，须按语境定译",
+        "respect 的字面义其实是“向前看”",
+        "respect 没有词源可考",
+        "respect 只能作名词"
+      ],
+      "answer": 0,
+      "explain": "respicere 确实是“回头看”，但英语中它已发展出“顾及、方面、尊重”等义。in this respect 译“在这方面”，与“看”已无直接对应。词源帮助记忆，不能替代语境判断。",
+      "concepts": [
+        "respect",
+        "c-etymology",
+        "c-semantic-shift"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w05d7-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的方法说明，推测划线词的含义",
+      "passage": "The guidelines are descriptive rather than prescriptive: they report what practitioners usually do, not what they must do, and no reviewer is expected to enforce them.",
+      "word": "prescriptive",
+      "choices": [
+        "规定性的、带有强制要求的",
+        "描述性的、记录现状的",
+        "预先写好的处方",
+        "被广泛订阅的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：pre（在前）+ script（写）+ ive；② 结构：rather than 连接两个对立形容词，与 descriptive 构成对照；③ 语境：not what they must do、no reviewer is expected to enforce 都指向“强制规定”。",
+      "explain": "prescriptive 是“规定性的”，即告诉人必须怎么做；descriptive 是“描述性的”，只记录现状。二者是学术写作与方法论里的标准对立。构词上 pre + script 是“事先写下”，引申为“预先规定”。",
+      "concepts": [
+        "script",
+        "c-inference",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w05d7-a2",
+      "kind": "infer",
+      "prompt": "阅读下面的实验结论，推测划线词的含义",
+      "passage": "Irrespective of which lidar model was used, the drift pattern remained the same, which suggests that the error originates in the extrinsics rather than in the sensor itself.",
+      "word": "Irrespective",
+      "choices": [
+        "不论、不管",
+        "不尊重地",
+        "分别地",
+        "回顾地"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：ir-（in- 在 r 前的变体，否定）+ re（回）+ spect（看）+ ive；② 搭配：Irrespective of + 名词，是固定结构；③ 语境：后半句说漂移模式不变，说明结论不随雷达型号改变。",
+      "explain": "irrespective of 意为“不论、不考虑”，字面是“不回头看”，即“不把某因素纳入考虑”。注意 ir- 是 in- 在 r 前的同化形式，不是独立前缀；同类还有 irregular、irreversible。",
+      "concepts": [
+        "spect",
+        "c-allomorph",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "拉丁词根总览与词族判定"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "词族、矩阵与同形异源的辨析"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford Dictionary of English Etymology",
+      "detail": "本周各词条复核"
+    }
+  ]
+}

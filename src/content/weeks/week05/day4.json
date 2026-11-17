@@ -1,0 +1,350 @@
+{
+  "id": "w05d4",
+  "week": 5,
+  "day": 4,
+  "title": "spect：所有的“看”，都有一个方向",
+  "tagline": "respect 不是“尊敬”这么简单，它是“回头看”——一次语义三步跳",
+  "objectives": [
+    "能用“看 + 方向”解释 inspect、expect、prospect、suspect 的差别",
+    "能说明 respect 从“回头看”到“尊重”的语义链条",
+    "能区分 spectator 的 -ator 与 perspective 的 -ive 在词性上的作用"
+  ],
+  "prereqs": [
+    "w05d3",
+    "c-semantic-shift"
+  ],
+  "concepts": [
+    "spect",
+    "c-root",
+    "c-semantic-shift",
+    "c-suffix"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "specere 是“看”，spectare 是“盯着看”",
+      "body": "拉丁 **specere** 意为“看、看见”，它的反复形式 **spectare** 意为“注视、观察”。英语主要从 spect- 这条词干取词，所以几乎每个词都能读成“往某个方向看”：\n\n- in-（向内）+ spect → inspect 看进去 → 检查。\n- ex-（向外）+ spect → expect 向外张望 → 期待。\n- pro-（向前）+ spect → prospect 向前看 → 前景。\n- circum-（环绕）+ spect → circumspect 四面看 → 谨慎的。\n\n把这四个词的“看的方向”说清楚，比分别背四个中文释义更稳，因为方向是可推导的。",
+      "morphemes": [
+        "spect"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "respect 的三步跳：回头看 → 顾及 → 尊重",
+      "body": "这是本周最值得记住的一条语义链。拉丁 **respicere** = re-（回）+ specere（看），字面是“回头再看一眼”。它发展出三层意思：\n\n1. **回头看**：再看一次，所以看得更仔细。\n2. **顾及、考虑**：把某人某物“纳入视野”，于是 in this respect 是“在这个方面”，with respect to 是“关于”。\n3. **尊重**：值得你回头看的人，就是值得敬重的人。\n\n中文的“敬重”看不出“看”，但英语的 respect 一直保留着这条路径。**遇到抽象义，先找回它的具体动作**，这是本课程处理多义词的通用办法。",
+      "terms": [
+        {
+          "term": "semantic shift",
+          "zh": "语义演变",
+          "en": "semantic change"
+        }
+      ],
+      "morphemes": [
+        "re",
+        "spect"
+      ]
+    },
+    {
+      "kind": "matrix",
+      "title": "spect 的构词矩阵",
+      "body": "矩阵的读法是“方向 + 看 + 词性”。注意 -ator 与 -ive 的分工：spectator 是“看的人”，perspective 是“看的方式”。同一个词根，后缀决定它是人还是抽象性质。expect 没有列入矩阵，因为它拼作 ex + pect，词干已变形，但语义仍是“向外张望”，可与 prospect 对照记忆。",
+      "base": "spect",
+      "prefixes": [
+        {
+          "text": "in",
+          "glossZh": "向内"
+        },
+        {
+          "text": "re",
+          "glossZh": "回、向后"
+        },
+        {
+          "text": "ex",
+          "glossZh": "向外"
+        },
+        {
+          "text": "pro",
+          "glossZh": "向前"
+        },
+        {
+          "text": "per",
+          "glossZh": "穿过"
+        }
+      ],
+      "suffixes": [
+        {
+          "text": "or",
+          "glossZh": "名词后缀：做某事的人"
+        },
+        {
+          "text": "ion",
+          "glossZh": "名词后缀：行为、结果"
+        },
+        {
+          "text": "ive",
+          "glossZh": "形容词或名词后缀"
+        },
+        {
+          "text": "ful",
+          "glossZh": "形容词后缀：充满……的"
+        }
+      ],
+      "words": [
+        {
+          "w": "inspect",
+          "parts": [
+            "in",
+            "spect"
+          ],
+          "glossZh": "检查、视察"
+        },
+        {
+          "w": "inspection",
+          "parts": [
+            "in",
+            "spect",
+            "ion"
+          ],
+          "glossZh": "检查、检验"
+        },
+        {
+          "w": "respect",
+          "parts": [
+            "re",
+            "spect"
+          ],
+          "glossZh": "尊重、方面"
+        },
+        {
+          "w": "respectful",
+          "parts": [
+            "re",
+            "spect",
+            "ful"
+          ],
+          "glossZh": "恭敬的"
+        },
+        {
+          "w": "spectator",
+          "parts": [
+            "spect",
+            "ator"
+          ],
+          "glossZh": "观众、旁观者"
+        },
+        {
+          "w": "perspective",
+          "parts": [
+            "per",
+            "spect",
+            "ive"
+          ],
+          "glossZh": "视角、透视法"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "六个 spect 词：方向决定含义",
+      "body": "同一个词根配不同前缀，语义差异几乎完全由方向承担。这张表可以当作读论文时的速查表：遇到不认识的 spect 词，先找前缀，方向对了，意思就八九不离十。注意 suspect 与 respect 的差别只在“从下往上看”与“回头看”这两个视角。",
+      "head": [
+        "单词",
+        "前缀方向",
+        "字面",
+        "现代常用义"
+      ],
+      "rows": [
+        [
+          "inspect",
+          "in- 向内",
+          "往里看",
+          "检查、检验"
+        ],
+        [
+          "expect",
+          "ex- 向外",
+          "向外张望",
+          "期待、预料"
+        ],
+        [
+          "prospect",
+          "pro- 向前",
+          "向前看",
+          "前景、可能性"
+        ],
+        [
+          "respect",
+          "re- 回",
+          "回头看",
+          "尊重；方面"
+        ],
+        [
+          "suspect",
+          "sub- 从下往上看",
+          "自下而上打量",
+          "怀疑；嫌疑人"
+        ],
+        [
+          "circumspect",
+          "circum- 环绕",
+          "四面都看",
+          "谨慎的、周密的"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "spectrum：从“影像”到“光谱”",
+      "body": "拉丁 **spectrum** 的本义是“显现出来的影像、幻象”，同样来自 specere。17 世纪牛顿研究棱镜分光时，需要一个词来指“光被展开后呈现的那一列颜色”，于是用了 spectrum——**展开后显现出来的东西**。\n\n这个词义转移很典型：从“看见的影像”到“按波长排列的可见现象”，再到今天的“频谱、光谱、谱”。所以 spectral analysis 是“频谱分析”，不是“幽灵分析”，虽然 specter（幽灵）确实与它同源。\n\n读论文时遇到 spectrum 的抽象用法（a spectrum of opinions），抓住“展开成一列、连续分布”这个意象，就不会译错。",
+      "morphemes": [
+        "spect"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w05d4-p1",
+      "kind": "mcq",
+      "prompt": "respect 中的 re- 表达的是什么？",
+      "choices": [
+        "再次、回",
+        "否定",
+        "向外",
+        "全部"
+      ],
+      "answer": 0,
+      "explain": "re- 表示“回、再次”。respicere 是“回头再看”，由此发展出“顾及”和“尊重”。这里的 re- 不是“重复做一次”的机械义，而是空间上的“往回”。",
+      "concepts": [
+        "re",
+        "spect"
+      ]
+    },
+    {
+      "id": "w05d4-p2",
+      "kind": "mcq",
+      "prompt": "哪个词由“向前看”构成，因而表示“前景、可能性”？",
+      "choices": [
+        "prospect",
+        "inspect",
+        "respect",
+        "circumspect"
+      ],
+      "answer": 0,
+      "explain": "pro- 表示“向前”，prospect 字面是“向前看”，引申为眼前展开的前景。inspect 是向内看，respect 是回头看，circumspect 是环视四周。",
+      "concepts": [
+        "pro",
+        "spect"
+      ]
+    },
+    {
+      "id": "w05d4-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词（必要时改变词形）",
+      "sentence": "The engineer ___ed every weld for cracks before the pressure test.",
+      "answer": "inspect",
+      "accept": [
+        "inspect",
+        "inspected"
+      ],
+      "explain": "空格后接 every weld，需要一个“仔细查看”的动词，且与 for cracks 搭配。in + spect（向内看）→ inspect“检查”。",
+      "concepts": [
+        "in",
+        "spect"
+      ]
+    },
+    {
+      "id": "w05d4-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词，写出结果",
+      "parts": [
+        "per",
+        "spect",
+        "ive"
+      ],
+      "answer": "perspective",
+      "explain": "per（穿过）+ spect（看）+ ive → perspective“视角、透视”。字面是“看穿”，指透过表面看到一个有纵深的景象。",
+      "concepts": [
+        "per",
+        "spect",
+        "ive"
+      ]
+    },
+    {
+      "id": "w05d4-p5",
+      "kind": "mcq",
+      "prompt": "spectator 与 perspective 都含 spect，为什么一个是“人”、一个是“抽象性质”？",
+      "choices": [
+        "-ator 指执行动作的人，-ive 构成形容词或抽象名词",
+        "-ator 是复数后缀",
+        "spectator 是复合词，perspective 是派生词",
+        "两者词根不同"
+      ],
+      "answer": 0,
+      "explain": "-ator 是施事后缀（如 creator、operator），指做这件事的人；-ive 构成形容词，也可作抽象名词。词根相同，后缀决定词性与指称。",
+      "concepts": [
+        "spect",
+        "c-suffix"
+      ]
+    },
+    {
+      "id": "w05d4-p6",
+      "kind": "matrix",
+      "prompt": "用矩阵生成单词：词基 spect，加前缀 in-，得到动词，结果是？",
+      "base": "spect",
+      "prefix": "in",
+      "answer": "inspect",
+      "explain": "in（向内）+ spect（看）→ inspect“检查”。若再加 -ion 则得到名词 inspection。",
+      "concepts": [
+        "in",
+        "spect"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w05d4-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的研究记录，推测划线词的含义",
+      "passage": "In a retrospective review of the field logs, the team found that most failures had occurred within seconds of a loop closure, when the pose graph was abruptly corrected.",
+      "word": "retrospective",
+      "choices": [
+        "回顾过去的",
+        "向前预测的",
+        "反复检查的",
+        "事后修改的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：retro-（向后）+ spect（看）+ ive；② 词性：形容词修饰 review；③ 语境：review of the field logs 是回看已记录的数据，且后面用过去完成时 had occurred。",
+      "explain": "retro- 是拉丁前缀“向后”，所以 retrospective 是“回看已发生之事的”，retrospective review 即“回溯性复查”。它与 prospective（前瞻的，pro- 向前）构成一对，是论文里描述研究设计的常用对照。",
+      "concepts": [
+        "spect",
+        "c-prefix",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "拉丁词根 spec-/spect- 与语义扩展"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford Dictionary of English Etymology",
+      "detail": "respect、perspective、spectrum 词条"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "以拉丁词根为纲的词族练习法"
+    }
+  ]
+}

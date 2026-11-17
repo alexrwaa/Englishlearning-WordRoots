@@ -1,0 +1,145 @@
+{
+  "id": "w03d7",
+  "week": 3,
+  "day": 7,
+  "title": "第 3 周复盘：把前缀变成阅读工具",
+  "tagline": "用“语义类别 + 方向 + 语境”三步拆解陌生长词，并识别本周六个高频误读点",
+  "objectives": [
+    "能把一个陌生前缀词归入否定、方向、时间、程度四类之一",
+    "能在同一段落中区分 un-、non-、dis- 的不同否定方式",
+    "能独立完成含前缀术语的段落推理，并说明每一步依据"
+  ],
+  "prereqs": ["w03d6"],
+  "concepts": ["c-prefix", "c-inference", "c-scientific"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "一张表收拢本周的前缀",
+      "body": "复盘不是重背例词，而是把前缀归到四类语义里。遇到陌生词时，先归类，再定方向，最后用语境收窄——这三步比逐字翻译快得多。表格里的代表词每类只取两到四个，覆盖不全是有意的：真正要带走的是分类框架，而不是这几十个词。试着遮住第四列，只看前缀说出方向，再对照检查。",
+      "head": ["类别", "前缀", "一句话语义", "代表词"],
+      "rows": [
+        ["否定", "un- / in- / non- / dis-", "相反状态 / 拉丁否定 / 类别之外 / 分离剥夺", "unfair, invisible, non-linear, disconnect"],
+        ["方向", "sub- / super- / inter- / trans- / circum- / intra-", "下 / 上 / 之间 / 穿过 / 环绕 / 内部", "submarine, supervise, interface, transmit"],
+        ["时间", "pre- / post- / ante- / retro- / re-", "之前 / 之后 / 更早 / 向后 / 再次或返回", "preheat, postwar, antedate, retrospect, rebuild"],
+        ["程度", "hyper- / hypo- / over- / under- / semi- / multi- / mono-", "过高 / 过低 / 过度 / 不足 / 半 / 多 / 一", "hypertension, hypothermia, multicore, monorail"]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "三个否定前缀的语用差别",
+      "body": "同样是“不”，选哪个前缀会改变句子的态度。这一点在写作与阅读理解里都会考到。考试常见的问法是“作者对某做法持什么态度”，而 unscientific 与 non-scientific 的区别恰好能改变判断：前者在批评，后者只是划界。读文章时留意作者选了哪个否定前缀，往往比形容词本身更能透露立场。",
+      "a": "un-",
+      "b": "non- / dis-",
+      "rows": [
+        ["否定对象", "性质、状态", "non- 否定类别；dis- 否定关系或动作"],
+        ["态度色彩", "常暗示“未达到应有标准”，带评价", "non- 中性分类；dis- 强调断裂或剥夺"],
+        ["例证", "unscientific 不合科学方法（批评）", "non-scientific 非科学领域（中性）；disconnect 断开连接"],
+        ["替换测试", "换成 non- 后语气变中性，说明原句带评价", "换成 un- 后往往不成立或意义改变"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三步拆词法：类别 → 方向 → 语境",
+      "body": "第一步**归类**：这个前缀属于否定、方向、时间还是程度？归类只需要一秒钟，却能排除大量错误方向。\n\n第二步**定方向**：同一类内部还要定方向。hypo- 是低不是高，intra- 是内不是间，ante- 是前不是反，retro- 是向后不是再次。这一步靠的是成对记忆，而不是孤立背诵。\n\n第三步**用语境收窄**：前缀只给出一个大方向，具体译法由上下文决定。subsea 可能是“海底的”，也可能是“水下的”，要看它修饰的是 cable 还是 vehicle。**三步都做完，再下结论**；只做第一步就翻译，是长词误读的主要来源。",
+      "morphemes": ["hypo", "intra", "ante", "retro"]
+    },
+    {
+      "kind": "passage",
+      "title": "在真实段落里演练",
+      "body": "下面这段文字描述一个海底传感器网络。先不要查词，用本周的方法把每个含前缀的词标出来，再读问题。段落里至少藏了五个前缀词：subsea、transmits、inter-node、intermittent、retransmit。建议按“类别—方向—语境”三步逐个过一遍，再对照问答检查自己的推理链断在哪一步。",
+      "excerpt": "The node is built for subsea deployment. Every ten minutes it transmits a short burst to an inter-node relay, which forwards the data to a surface buoy. Because the acoustic link is intermittent, the controller must tolerate gaps of several minutes and retransmit any packet that fails to arrive.",
+      "glossZh": "该节点为海底部署而设计。它每十分钟向节点间中继发送一次短脉冲，中继再把数据转发到水面浮标。由于水声链路是间歇性的，控制器必须容忍数分钟的断档，并重传任何未能到达的数据包。",
+      "questions": [
+        { "q": "subsea 中的 sub- 提供了什么信息？", "a": "位置在海水之下；sub- 表“在下”，与 submarine、subsurface 同义项。" },
+        { "q": "inter-node 与 intermittent 的 inter- 是同一个意思吗？", "a": "不是同一层次：inter-node 是能产的“节点之间”，inter- 的“之间”义直接可见；intermittent 整体借自拉丁 intermittere，现代义是“间歇的”，成分义已不能直接推出。" },
+        { "q": "retransmit 的 re- 是“再一次”还是“向后”？", "a": "“再一次”。重传是把同一个动作再做一遍，不涉及方向返回。" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "本周六个高频误读点",
+      "body": "1. **inflammable** 是“易燃”，不是“不可燃”。\n2. **hypo-** 是低，**hyper-** 是高，别读反。\n3. **inter-** 是之间，**intra-** 是内部；intramural 是校内。\n4. **ante-** 是之前，**anti-** 是反对；antedate 与 antidote 无关。\n5. **irrigate** 的 ir- 是“进入”，不是否定。\n6. **resign** 是辞职，**re-sign** 是再签一次；连字符不是装饰。\n\n这六条的共同点是：**同形不同义**。前缀的意义不由拼写单独决定，而由“词基 + 历史来源 + 语境”共同决定。这也是第 8 周继续处理词素变体时的基本立场。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w03d7-p1",
+      "kind": "mcq",
+      "prompt": "An unmanned aerial vehicle circled above the site. 中 unmanned 的 un- 表示：",
+      "choices": ["反向动作，表示“重新载人”", "否定状态，表示“无人的”", "类别之外，表示“非载人类别”", "分离，表示“与人分开”"],
+      "answer": 1,
+      "explain": "unmanned 是 un + manned（被配备人员的），否定的是“有人操控”这一状态，因此是“无人的”。它不是反向动作（那需要动词词基，如 untie）；non- 才偏类别分类，而 manned 是分词性形容词，通常用 un- 否定。",
+      "concepts": ["un", "c-prefix"]
+    },
+    {
+      "id": "w03d7-p2",
+      "kind": "mcq",
+      "prompt": "医学论文中的 non-invasive test 与 invasive test 的关系是：",
+      "choices": ["前者是后者的否定类别，指不进入体内的检测", "前者表示“检测效果不好”", "前者是后者的反向动作", "两者是同义词，只是语域不同"],
+      "answer": 0,
+      "explain": "non-invasive 用 non- 做类别划分：这类检测不属于“进入体内”的那一类，如超声、体表传感器。它不含评价色彩，也不表示动作逆转。若换成 uninvasive，既不符合通行搭配，也会误导读者以为在否定某种性质。",
+      "concepts": ["non", "c-register", "c-prefix"]
+    },
+    {
+      "id": "w03d7-p3",
+      "kind": "cloze",
+      "prompt": "填入一个以 super- 开头的动词",
+      "sentence": "One engineer can ___ the deployment of twelve robots from the control room, stepping in only when a unit reports an error.",
+      "answer": "supervise",
+      "accept": ["监督", "监控"],
+      "explain": "super（在上）+ vise（看）→ supervise“从上面看”，即监督。后半句“只在某台设备报错时介入”说明这个角色是 oversight 而非亲自操作。supervise 是及物动词，宾语是 deployment。",
+      "concepts": ["super", "c-prefix"]
+    },
+    {
+      "id": "w03d7-p4",
+      "kind": "wordSum",
+      "prompt": "写出构词算式的结果：trans + port → ?",
+      "parts": ["trans", "port"],
+      "answer": "transport",
+      "explain": "trans（穿过、越过）+ port（搬运）→ transport“运输”，字面是“把东西搬过去”。port 是拉丁词根 portare“搬运”，同族有 portable、import、export，可与第 5 周的词根学习衔接。",
+      "concepts": ["trans", "port", "c-root"]
+    },
+    {
+      "id": "w03d7-p5",
+      "kind": "mcq",
+      "prompt": "inter-node relay（节点之间的中继）中的 inter-，与下面哪个前缀方向相反？",
+      "choices": ["intra-", "circum-", "trans-", "sub-"],
+      "answer": 0,
+      "explain": "inter- 是“在两者之间”，intra- 是“在某一范围内部”，两者在同一坐标轴上方向相反：inter-node 连接不同节点，intra-node 则发生在单个节点内部。circum- 是环绕，trans- 是穿过，sub- 是在下，都不构成“之间/内部”的对立。",
+      "concepts": ["inter", "intra", "c-prefix"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w03d7-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的通信说明，推测划线词的含义",
+      "passage": "The acoustic link is intermittent: the drone surfaces for a few seconds every ten minutes, and any packet sent outside that window is simply lost.",
+      "word": "intermittent",
+      "choices": ["间歇的、时断时续的", "双向的", "内部的", "超高速的"],
+      "answer": 0,
+      "strategy": "① 切分：inter（在……之间）+ mitt（送）+ ent（形容词后缀），历史义为“送于其间、中途停下”；② 词性：-ent 构成形容词，作表语；③ 语境：每十分钟才上浮几秒，窗口外发送的数据包会丢失；④ 校验：若指“双向”或“内部”，无法解释“窗口外丢失”。",
+      "explain": "intermittent 意为“间歇的”。这个词正好说明词源义与共时义的距离：成分义只能提示“中间有停顿”，真正确定“时断时续”的是冒号后的解释。**当成分义推不出确切词义时，语境是最终依据**，这也是第 11 周推断训练的前置能力。",
+      "concepts": ["inter", "mitt", "c-inference"]
+    },
+    {
+      "id": "w03d7-a2",
+      "kind": "infer",
+      "prompt": "阅读下面的机器人应用说明，推测划线词的含义",
+      "passage": "These robots map subterranean tunnels where GPS is unavailable, relying on LiDAR and wheel odometry to estimate their position in the dark.",
+      "word": "subterranean",
+      "choices": ["地下的", "水下的", "高空的", "室内的"],
+      "answer": 0,
+      "strategy": "① 切分：sub（在下）+ terr（土地，拉丁 terra）+ ane + ous（形容词后缀）；② 词性：形容词，修饰 tunnels；③ 语境：GPS 不可用、需要 LiDAR、环境黑暗，指向地下空间；④ 排除：水下对应 subsea/submarine，高空对应 aerial，室内对应 indoor。",
+      "explain": "subterranean 意为“地下的”，sub- 表“在下”，terr 是“土地”（同族 territory、terrain）。干扰项都对应真实存在的其他前缀词，属于同类混淆；判断的关键是把 sub- 与 terr 两块意义都落实，再用“GPS 不可用 + 黑暗”验证。",
+      "concepts": ["sub", "c-inference", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：前缀语义分类复习" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "前缀总表与高频例词" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "intermittent、subterranean 的释义与词源" }
+  ]
+}

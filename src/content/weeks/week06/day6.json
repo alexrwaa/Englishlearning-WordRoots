@@ -1,0 +1,263 @@
+{
+  "id": "w06d6",
+  "week": 6,
+  "day": 6,
+  "title": "hydrogen 的生日：1787 年，不是古代",
+  "tagline": "现代术语常常是“用希腊零件新造的词”，不是从古代继承的遗产",
+  "objectives": [
+    "能说明 hydrogen 是 18 世纪科学拉丁语的人造术语，并能解释 -gen 的含义",
+    "能区分本土继承词、借词与人造术语三个层次",
+    "能识别混用希腊与拉丁成分的混合术语，如 television、automobile"
+  ],
+  "prereqs": [
+    "w06d5",
+    "c-etymology"
+  ],
+  "concepts": [
+    "hydr",
+    "c-scientific",
+    "c-etymology",
+    "c-greek-latin",
+    "c-borrowing"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 6,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一个被普遍误读的词",
+      "body": "很多人以为 hydrogen 是“自古就有的希腊词”。事实上，它是 1780 年代由拉瓦锡和他的同事在化学命名改革中造出来的：法语 **hydrogène**，来自希腊 hydōr（水）+ -gène（产生……的），字面就是“**产生水的**”。\n\n命名的理由很具体：这种气体燃烧后会生成水。在此之前，卡文迪什称它为“易燃空气”。1787 年《化学命名法》把它定名为 hydrogène，随后进入英语成为 hydrogen。\n\n所以要看清楚：**零件是希腊的，词是 18 世纪的**。这类词叫新拉丁语术语。古希腊人没有 hydrogen 这个词，也不可能用它。",
+      "terms": [
+        {
+          "term": "Neo-Latin",
+          "zh": "新拉丁语",
+          "en": "Neo-Latin",
+          "note": "近代用希腊/拉丁材料新造的学术术语层"
+        }
+      ],
+      "morphemes": [
+        "hydr",
+        "gen"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "同一批造词：oxygen 命名了一场错误的胜利",
+      "body": "拉瓦锡团队同一时期还造了 **oxygène**：oxys（尖锐的、酸的）+ -gène（产生）→“产生酸的”。依据是当时流行的理论——氧是一切酸的必要成分。\n\n这个理论后来被推翻了：盐酸等酸并不含氧。但**名字留了下来**。oxygen 至今仍叫“成酸元素”，尽管它并不成立。\n\n这是一个极好的警示：**术语的名称记录的是命名当时的理论，不是今天的科学结论**。读文献时不要用词源去论证科学事实；反过来，理解命名逻辑能帮你记住术语的由来。稍后造出的 **nitrogen**（硝石 + 产生）走的是同一条路。",
+      "morphemes": [
+        "hydr",
+        "gen"
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "三个层次：water、river、hydrogen",
+      "body": "英语词汇不是一层，而是好几层叠起来的。同样是“水”，三个词的历史完全不同。区分层次，能避免很多错误推论——比如认为 hydrogen 比 water“更古老”或“更科学”。\n\n判断方法很简单：问这个词**什么时候进入英语**。本土词有一千多年的连续使用史；借词有明确的借入年代；人造术语则往往能查到命名者与年份。",
+      "a": "water（本土继承）",
+      "b": "hydrogen（人造术语）",
+      "rows": [
+        {
+          "label": "来源",
+          "a": "古英语 wæter，日耳曼语族继承",
+          "b": "1787 年法语 hydrogène"
+        },
+        {
+          "label": "能否拆",
+          "a": "单语素，不可拆",
+          "b": "可拆为 hydr + gen"
+        },
+        {
+          "label": "命名者",
+          "a": "无，自然演变",
+          "b": "拉瓦锡团队，有明确文献"
+        },
+        {
+          "label": "语义透明度",
+          "a": "必须整体记忆",
+          "b": "成分义清晰，但整词义仍需科学定义"
+        },
+        {
+          "label": "常见误解",
+          "a": "以为它“不正式”",
+          "b": "以为它“自古就有”"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "混合术语：希腊零件 + 拉丁零件",
+      "body": "如果以为科技术语必须“纯希腊”或“纯拉丁”，那就错了。近代造词者只在意好不好用，不在意血统：\n\n- **television**：tele-（希腊“远”）+ visio（拉丁“看”）+ -ion。1900 年前后由法语 télévision 定型。\n- **automobile**：auto-（希腊“自身”）+ mobilis（拉丁“可动的”）。\n- **sociology**：socius（拉丁“同伴”）+ -logy（希腊“学科”）。孔德 1838 年造此词时就是混搭。\n\n语言学界把这类词叫**混合词**（hybrid）。它的存在说明：**构词规则是习惯，不是法律**。造词者需要的是可读、可译、可扩展，而不是词源纯正。",
+      "terms": [
+        {
+          "term": "hybrid",
+          "zh": "混合词",
+          "en": "hybrid word",
+          "note": "由不同来源语言的成分拼合而成的词"
+        }
+      ],
+      "morphemes": [
+        "tele",
+        "auto",
+        "logy"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "读论文时的正确用法：拆成分，不猜定义",
+      "body": "能拆 hydrogen = hydr + gen，不等于能推出“氢气”。因为 -gen 只说明“产生水”，而“氢气”这个科学定义来自实验与约定。\n\n所以遇到人造术语，正确的做法是两步：\n\n1. **拆成分**，得到一个大致的语义方向（与水有关、与产生有关）。\n2. **看上下文**，确认它在这个领域的具体所指（燃料？还原剂？泄漏检测对象？）。\n\n错误做法是只做第一步就下结论，比如把 hydrogen 理解成“水生的”或“含水物”。**构词分析给方向，语境给定义**——这是本课程对科技词汇的核心态度。",
+      "morphemes": [
+        "hydr",
+        "gen"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w06d6-p1",
+      "kind": "mcq",
+      "prompt": "hydrogen 中的 -gen 表示什么？",
+      "choices": [
+        "产生……的",
+        "基因",
+        "种类",
+        "测量"
+      ],
+      "answer": 0,
+      "explain": "-gen 来自希腊 -genēs“生出、产生”，所以 hydrogen 字面是“产生水的”。把它理解为“基因”是现代生物学里 gene 的影响，属于典型的形近误读。",
+      "concepts": [
+        "gen",
+        "hydr"
+      ]
+    },
+    {
+      "id": "w06d6-p2",
+      "kind": "mcq",
+      "prompt": "关于 hydrogen 的词源，下面哪项正确？",
+      "choices": [
+        "18 世纪由拉瓦锡团队造出的科学拉丁语术语，零件取自希腊语",
+        "从古希腊语直接继承的词",
+        "古英语本土词，后来拼写拉丁化",
+        "20 世纪为核物理新造的词"
+      ],
+      "answer": 0,
+      "explain": "氢在 1787 年《化学命名法》中被定名为 hydrogène，由 hydōr（水）+ -gène（产生）构成，理由是燃烧生成水。零件是希腊的，整词是 18 世纪人造的。",
+      "concepts": [
+        "hydr",
+        "c-etymology",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w06d6-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词",
+      "sentence": "The fuel cell combines ___ with oxygen to produce electricity, releasing only water as a by-product.",
+      "answer": "hydrogen",
+      "accept": [
+        "hydrogen"
+      ],
+      "explain": "hydr（水）+ gen（产生）→ hydrogen。句中 combines ... with oxygen 与 only water as a by-product 正是燃料电池的典型描述，也与命名的“生成水”相呼应。",
+      "concepts": [
+        "hydr",
+        "gen"
+      ]
+    },
+    {
+      "id": "w06d6-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词，写出结果",
+      "parts": [
+        "hydro",
+        "gen"
+      ],
+      "answer": "hydrogen",
+      "explain": "hydro（水）+ gen（产生）→ hydrogen“氢”，字面“产生水的”。注意拼接处用 hydro 而非 hydr，因为 -o- 在这里是连接元音。",
+      "concepts": [
+        "hydr",
+        "gen"
+      ]
+    },
+    {
+      "id": "w06d6-p5",
+      "kind": "mcq",
+      "prompt": "television 为什么被称为混合词？",
+      "choices": [
+        "tele- 来自希腊语，visio 来自拉丁语，两者来源不同却拼在一起",
+        "因为它同时是名词和动词",
+        "因为它由两个英语本土词复合而成",
+        "因为它的拼写在英式与美式英语中不同"
+      ],
+      "answer": 0,
+      "explain": "tele-（希腊“远”）与 visio（拉丁“看”）来源不同，属于希腊 + 拉丁的混合术语；automobile、sociology 也是同类。这说明现代造词并不追求词源纯正。",
+      "concepts": [
+        "tele",
+        "c-scientific",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w06d6-p6",
+      "kind": "mcq",
+      "prompt": "oxygen 的名字来自“产生酸的”，但这一理论后来被推翻。这件事说明什么？",
+      "choices": [
+        "术语名称记录的是命名当时的理论，可能与今天的科学结论不一致",
+        "oxygen 这个词拼错了",
+        "oxygen 不含氧元素",
+        "词源分析可以用来推翻化学理论"
+      ],
+      "answer": 0,
+      "explain": "拉瓦锡认为氧是一切酸的必要成分，故命名“成酸元素”；后来发现盐酸等并不含氧，但名称沿用。命名逻辑属于历史，不等于当代定义。",
+      "concepts": [
+        "gen",
+        "c-etymology",
+        "c-scientific"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w06d6-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的方法对比，推测划线词的含义",
+      "passage": "Photogrammetry reconstructs three-dimensional structure from overlapping images, so in texture-rich scenes it can complement lidar, which returns accurate range but sparse geometry on plain surfaces.",
+      "word": "Photogrammetry",
+      "choices": [
+        "利用重叠影像重建三维结构的测量技术",
+        "用激光测量距离的技术",
+        "对照片进行压缩存储的方法",
+        "对相机镜头进行几何标定的流程"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：phot（光）+ gram（记录）+ metry（测量）；② 语境：reconstructs three-dimensional structure from overlapping images 是定义句；③ 对照：后半句的 lidar 是另一种手段，说明 photogrammetry 与它互补而非相同。",
+      "explain": "photogrammetry 是“摄影测量”：从多张重叠照片反推三维结构。它的三个成分分别是光、记录、测量，正好对应“用影像做测量”。把它理解成“激光测距”是把 lidar 的定义错套过来。",
+      "concepts": [
+        "metr",
+        "graph",
+        "c-inference",
+        "c-scientific"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "hydrogen、oxygen、television、sociology 的首次用例与命名说明"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "科技词汇的层次与新拉丁语构词"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5：hybrid word 与借词层次"
+    }
+  ]
+}

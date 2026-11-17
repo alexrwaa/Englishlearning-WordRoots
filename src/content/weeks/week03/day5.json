@@ -1,0 +1,151 @@
+{
+  "id": "w03d5",
+  "week": 3,
+  "day": 5,
+  "title": "拉丁前缀的同化：拼写为什么跟着变",
+  "tagline": "看懂 im- / il- / ir-、ac- / af- / al- 这类“变形”，不再把同一个词素当成两个",
+  "objectives": [
+    "能列出 in- 的三种拼写变体及其出现的语音条件",
+    "能识别 ad-、con-、sub-、dis- 在词基前的常见变体",
+    "能区分“拼写变了”与“词素不同”，并解释 irrigate 的 ir- 为何不是否定"
+  ],
+  "prereqs": ["w03d4"],
+  "concepts": ["c-allomorph", "c-prefix", "c-greek-latin"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三个拼写，一个词素",
+      "body": "把 impossible、illegal、irregular 放在一起看：三个词都表否定，都来自拉丁语否定前缀 in-，但拼写分别是 im-、il-、ir-。\n\n规律很整齐：**in- 的末辅音 n 会被后面词基的首辅音“带跑”**。在 p、b、m 前变成 m（impossible、imbalance、immoral）；在 l 前变成 l（illegal、illogical）；在 r 前变成 r（irregular、irrelevant）。\n\n这不是三个前缀，而是**同一个词素在不同语音环境下的三个形式**，语言学术语叫**词素变体**（allomorph）。判断依据是：意义相同、分布互补、从不出现在同一环境。",
+      "terms": [
+        { "term": "assimilation", "zh": "同化", "en": "assimilation", "note": "一个音受相邻音影响而变得与它相似" },
+        { "term": "allomorph", "zh": "词素变体", "en": "allomorph" }
+      ],
+      "morphemes": ["in", "im", "il", "ir"]
+    },
+    {
+      "kind": "table",
+      "title": "常见拉丁前缀的变体表",
+      "body": "下表只列高频形式，不必一次背完。读表的方法：先看“原形”，再看“变体出现在什么辅音前”，最后看例词。你会发现变体总与后一个音“长得像”——im- 后面一定是 p、b、m，il- 后面一定是 l，ir- 后面一定是 r。掌握这条，遇到不认识的词也能反推原形：看到 symmetrical，就知道它来自 syn-，而不是某个陌生的 sym-。",
+      "head": ["原形", "变体", "出现条件", "例词"],
+      "rows": [
+        ["in-（否定）", "im- / il- / ir-", "p, b, m 前 / l 前 / r 前", "impossible, illegal, irregular"],
+        ["ad-（朝向）", "ac- af- ag- al- an- ap- ar- as- at-", "随词基首辅音变化", "accept, affect, aggressive, allocate, announce, appear, arrange, assist, attract"],
+        ["con-（共同）", "col- cor- co-", "l 前 / r 前 / 元音及部分辅音前", "collect, correct, cooperate"],
+        ["sub-（在下）", "suc- suf- sug- sup- sus-", "c / f / g / p / s 前", "succeed, suffer, suggest, support, suspend"],
+        ["dis-（分开）", "dif- di-", "f 前 / 部分词基前", "differ, difficult, divide"],
+        ["ex-（向外）", "ef- e-", "f 前 / 多数辅音前", "effect, eject, emerge"],
+        ["ob-（对着）", "oc- of- op-", "c / f / p 前", "occur, offer, oppose"],
+        ["syn-（共同，希腊）", "sym- syl-", "p, b, m 前 / l 前", "sympathy, symmetry, syllable"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么会变：发音器官偷懒的结果",
+      "body": "同化的动因是发音经济性。in- 的 n 是鼻音，发音时舌尖抵住齿龈；如果后面的音是 p、b、m（双唇音），舌尖还没到位，双唇已经闭合，n 就自然被同化成同部位的 m。il- 与 ir- 同理：n 直接变成与 l、r 相同的音，省去一次舌位调整。\n\nad- 的变化更彻底：d 是塞音，遇到 c、f、p、t 这类清辅音时常被完全同化，只剩一个与后面相同的辅音，于是 accept、affect、appear 里的 ac-、af-、ap- 其实都是 ad-。\n\n**本课只要求你认出这个现象**：拼写差异有语音理据，不是例外，也不必死记。完整的机制（部位同化、清浊同化、以及 -s 的三种读音）放在第 8 周。",
+      "morphemes": ["ad", "con", "sub", "ex"]
+    },
+    {
+      "kind": "compare",
+      "title": "拼写变了 ≠ 词素变了",
+      "body": "初学阶段最容易把变体当成新前缀，于是词汇量凭空多出一倍。下面这张表给出两种判断路径。左边是词素视角：一个词素、若干变体、一条语音规则；右边是拼写视角：若干“前缀”、若干要背的清单。两者的学习成本差别很大——遇到没见过的长词时，前者能推，后者只能查。",
+      "a": "正确的理解",
+      "b": "常见的误解",
+      "rows": [
+        ["impossible / illegal / irregular", "同一个否定词素 in- 的三个变体", "三个不同的前缀 im-、il-、ir-"],
+        ["accept / affect / appear", "同一个 ad-（朝向）的变体", "三个独立前缀，各自要背"],
+        ["判断依据", "意义一致、分布互补、有语音理据", "只按拼写归类"],
+        ["学习成本", "记一个词素加一条规则", "记十来个“前缀”，且无法推新词"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三个陷阱：并不是所有 im-/ir- 都是那个前缀",
+      "body": "同化规律有边界，不能见形就切。\n\n第一，**irrigate**（灌溉）的 ir- 不是否定 in-，而是“进入”义的 in-（与 irritate 无关），所以它是“把水引入”，不是“不灌溉”。同理 **illuminate**（照亮）的 il- 也是“进入”。\n\n第二，**imitate**（模仿）、**image**（图像）、**immediate**（立即的）里的 im- 根本不是前缀，这些词整体借入，切不出否定义。\n\n第三，in- 在 k、g 前拼写不变，仍是 in-（incorrect、ingredient），但读音里的 n 会变成 /ŋ/。也就是说，**拼写同化与语音同化不总是同步**。第 8 周会把这层讲透。",
+      "morphemes": ["ir", "il", "in"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w03d5-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一组词的前缀是同一个词素的不同变体？",
+      "choices": [
+        "impossible 与 irregular",
+        "illegal 与 illuminate",
+        "irregular 与 irrigate",
+        "impossible 与 imitate"
+      ],
+      "answer": 0,
+      "explain": "impossible 的 im- 与 irregular 的 ir- 都是否定前缀 in- 的变体，只是受后面 p 与 r 的影响而改变拼写。illegal 与 illuminate 虽都写作 il-，前者否定、后者表“进入”；irrigate 的 ir- 也是“进入”；imitate 的 im- 不是前缀。",
+      "concepts": ["in", "c-allomorph"],
+      "hint": "先确认两边的意义是否都是“不”。"
+    },
+    {
+      "id": "w03d5-p2",
+      "kind": "mcq",
+      "prompt": "The farmers irrigate the fields in summer. 中 ir- 的作用是：",
+      "choices": ["否定，表示“不灌溉”", "进入，表示“把水引入”", "再次，表示“重新灌溉”", "过度，表示“灌溉过多”"],
+      "answer": 1,
+      "explain": "irrigate 来自拉丁 irrigare，ir- 是 in-“进入”的同化形式，词基 rigare 意为“浇水”，整体是“把水引入田地”。若按否定理解会得到相反意义。这说明同形前缀要靠词义与词源区分，不能只看拼写。",
+      "concepts": ["ir", "c-allomorph", "c-etymology"]
+    },
+    {
+      "id": "w03d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个以 in- 开头的形容词",
+      "sentence": "The two datasets are ___ because they were collected with different sensors and different sampling rates.",
+      "answer": "incomparable",
+      "accept": ["不可比较的", "无法比较的"],
+      "explain": "in（不）+ compar（比较）+ able（能够……的）→ incomparable“无法比较的”。注意 in- 在 c 前拼写不变，仍是 in-，这与 im-/il-/ir- 的变体规则一致：只有 n 后的辅音与 n 部位不同且可同化时才改写。",
+      "concepts": ["in", "c-allomorph", "able"]
+    },
+    {
+      "id": "w03d5-p4",
+      "kind": "mcq",
+      "prompt": "sympathy 与 syllable 开头的 sym-、syl- 来自哪个前缀？",
+      "choices": ["syn-（共同）", "sub-（在下）", "super-（在上）", "semi-（一半）"],
+      "answer": 0,
+      "explain": "syn- 是希腊语“共同、一起”，在 p、b、m 前变为 sym-（sympathy、symmetry、symptom），在 l 前变为 syl-（syllable）。这与 in- 的变体是同一类现象，只不过发生在希腊来源的词里。",
+      "concepts": ["syn", "c-allomorph", "c-greek-latin"]
+    },
+    {
+      "id": "w03d5-p5",
+      "kind": "wordSum",
+      "prompt": "写出构词算式的结果：in + legal → ?（注意拼写）",
+      "parts": ["in", "legal"],
+      "answer": "illegal",
+      "explain": "否定前缀 in- 在 l 前同化为 il-，因此写作 illegal 而不是 inlegal。词素没变，只是拼写层做了调整；这也解释了为什么英语里没有 inlegal 这个词。",
+      "concepts": ["in", "il", "c-spelling-rule"]
+    },
+    {
+      "id": "w03d5-p6",
+      "kind": "mcq",
+      "prompt": "下面哪个形式是英语中实际存在的词？",
+      "choices": ["unperfect", "inperfect", "imperfect", "nonperfect"],
+      "answer": 2,
+      "explain": "perfect 是拉丁来源词基，否定用 in-，且在 p 前同化为 im-，所以是 imperfect。un- 一般不与这类拉丁词基搭配；inperfect 违反同化规则；nonperfect 虽偶尔可见于分类语境，但不是表示“不完美”的常规词。",
+      "concepts": ["in", "im", "c-allomorph"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w03d5-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的材料说明，推测划线词的含义",
+      "passage": "The adhesive bond is effectively irreversible: once the resin has cured, the joint cannot be separated without destroying both parts.",
+      "word": "irreversible",
+      "choices": ["不可逆转的", "可以反复使用的", "需要重新加热的", "不影响零件的"],
+      "answer": 0,
+      "strategy": "① 切分：ir（否定 in- 在 r 前的变体）+ revers（反转）+ ible（能够……的）；② 词性：-ible 构成形容词，作表语；③ 语境：冒号后解释“固化后无法分离，除非毁掉两个零件”；④ 校验：与“可反复使用”“不影响零件”直接矛盾。",
+      "explain": "irreversible 意为“不可逆的”。这里的 ir- 是否定前缀 in- 在 r 前的同化形式，不是“进入”。推理时若把 ir- 误判为其他词素，就会失去否定线索；把同化现象认出来，长词立刻变得可拆。",
+      "concepts": ["ir", "c-allomorph", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5：allomorph 与同化现象" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：拉丁前缀的拼写变体" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "ad- / con- / sub- / dis- / ex- / ob- 的变体词表" }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "id": "w06d5",
+  "week": 6,
+  "day": 5,
+  "title": "micro / macro / tele / auto：四个尺度词",
+  "tagline": "autonomous 的 auto 是“自身”，但第二个成分不是“自动”，而是“法则”",
+  "objectives": [
+    "能用 micro-、macro-、tele-、auto- 解释 microscope、macroscopic、teleoperation、autonomous",
+    "能说明 autonomous 的第二个成分是 nomos“法则”，而非“自动”",
+    "能区分 autonomous（自主决策）与 automatic（自动执行）"
+  ],
+  "prereqs": [
+    "w06d4"
+  ],
+  "concepts": [
+    "micro",
+    "macro",
+    "tele",
+    "auto",
+    "c-combining",
+    "c-scientific"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 6,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "四个尺度与位置成分",
+      "body": "这四个组合形式的共同点是：它们都描述“相对于观察者的位置或大小”，因此特别适合做术语的第一成分。注意它们本身不能独立成词，必须后接另一个成分；这也解释了为什么它们总出现在词的左边，而 -logy、-metry 总在右边。",
+      "head": [
+        "组合形式",
+        "希腊原词",
+        "核心义",
+        "例词"
+      ],
+      "rows": [
+        [
+          "micro-",
+          "mikros 小",
+          "微小",
+          "microscope, microphone, microsecond"
+        ],
+        [
+          "macro-",
+          "makros 长、大",
+          "宏大、整体",
+          "macroscopic, macroeconomics"
+        ],
+        [
+          "tele-",
+          "tēle 远方",
+          "远距离",
+          "telescope, telephone, teleoperation"
+        ],
+        [
+          "auto-",
+          "autos 自身",
+          "自身、自动",
+          "autonomous, automatic, autopilot"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "micro 与 macro：一对镜像",
+      "body": "**microscope** 是“看小的东西的器具”，**telescope** 是“看远处的东西的器具”。注意两者第二部分都是 **-scope**（从 skopein“看”来），差别全在第一成分：micro 小，tele 远。\n\n这一对词最能说明组合形式的效率：**换一个第一成分，就换了一个观察尺度**。同类还有 macroscopic（肉眼可见的、宏观的）与 microscopic（微观的），macroeconomics（宏观经济学）与 microeconomics（微观经济学）。\n\n编程里的 **macro** 是另一条路：它来自 macro-instruction（宏指令），指“一条指令代表一组操作”。这里的 macro 仍取“大”义——一个符号撑起一大段代码。**术语的比喻方向往往就藏在原始义里**。",
+      "morphemes": [
+        "micro",
+        "macro",
+        "tele",
+        "scope"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "tele：从“看远”到“远程操作”",
+      "body": "tēle 是“远方”。17 世纪初，伽利略那一圈学者把新发明的观星装置命名为 **telescope**（远 + 看），这个词随即传遍欧洲。此后 tele- 成了“远距离”的通用零件：telephone（远 + 声）、telegraph（远 + 写）、telemetry（远 + 测量）。\n\n机器人领域有两个高频词：\n\n- **teleoperation**：操作者在远处操控机器，主从控制。\n- **telepresence**：让操作者“感觉自己在现场”。\n\n注意这两个词的 tele 都是“操作者与现场之间的距离”，不是“设备之间的距离”。**同一个成分在不同术语里指称的关系可以不同**，这是读术语时容易忽略的一层。",
+      "morphemes": [
+        "tele",
+        "scope",
+        "phon"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "autonomous：自己给自己立法",
+      "body": "这是本周最值得精确掌握的一个词。希腊 **autonomos** = autos（自身）+ nomos（法则、惯例），原义是“按自己的法则生活”，用于描述城邦自治。所以：\n\n- **autonomous** 的核心不是“没人操作”，而是“**自己决定规则与目标**”。\n- **autonomy**（自治、自主权）保留了这层政治与伦理含义。\n- 在机器人语境里，autonomous navigation 指系统能自行决定去哪、怎么走，而不只是“按预设轨迹自动跑”。\n\n对比 **automatic**：它来自希腊 automatos，第二成分是 -matos（凭自身意愿行动的），指“无需人介入即可运转”。自动门是 automatic，但它不是 autonomous——它没有目标，也不做决策。",
+      "terms": [
+        {
+          "term": "autonomy",
+          "zh": "自主性",
+          "en": "autonomy",
+          "note": "自我立法、自我决定目标与规则的能力"
+        }
+      ],
+      "morphemes": [
+        "auto",
+        "nom"
+      ]
+    },
+    {
+      "kind": "matrix",
+      "title": "nom 的构词矩阵：法则的三个方向",
+      "body": "nomos 这条词干在英语里主要出现在三个领域：自我（auto）、天体（astro）、家政（eco）。economy 的字面是“家务的管理法则”，今天指经济；astronomy 是“星辰的法则”；autonomy 是“自身的法则”。三个词共享同一个“法则”核心。",
+      "base": "nom",
+      "prefixes": [
+        {
+          "text": "auto",
+          "glossZh": "自身"
+        },
+        {
+          "text": "astro",
+          "glossZh": "星辰"
+        },
+        {
+          "text": "eco",
+          "glossZh": "家、环境"
+        }
+      ],
+      "suffixes": [
+        {
+          "text": "y",
+          "glossZh": "名词后缀"
+        },
+        {
+          "text": "ous",
+          "glossZh": "形容词后缀：具有……性质的"
+        },
+        {
+          "text": "ic",
+          "glossZh": "形容词后缀"
+        }
+      ],
+      "words": [
+        {
+          "w": "autonomy",
+          "parts": [
+            "auto",
+            "nom",
+            "y"
+          ],
+          "glossZh": "自治、自主性"
+        },
+        {
+          "w": "autonomous",
+          "parts": [
+            "auto",
+            "nom",
+            "ous"
+          ],
+          "glossZh": "自主的、自治的"
+        },
+        {
+          "w": "astronomy",
+          "parts": [
+            "astro",
+            "nom",
+            "y"
+          ],
+          "glossZh": "天文学"
+        },
+        {
+          "w": "economy",
+          "parts": [
+            "eco",
+            "nom",
+            "y"
+          ],
+          "glossZh": "经济、节约"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w06d5-p1",
+      "kind": "mcq",
+      "prompt": "autonomous 中的 -nom- 表示什么？",
+      "choices": [
+        "法则、规则",
+        "自动",
+        "名称",
+        "数量"
+      ],
+      "answer": 0,
+      "explain": "nomos 是“法则、惯例”。autonomos 即“按自己的法则行事”，所以 autonomous 强调自主决策，而不是“自动运转”。",
+      "concepts": [
+        "auto",
+        "nom",
+        "c-combining"
+      ]
+    },
+    {
+      "id": "w06d5-p2",
+      "kind": "mcq",
+      "prompt": "automatic 与 autonomous 的关键差别在哪？",
+      "choices": [
+        "automatic 指无需人介入即可运转，autonomous 指能自行决定目标与规则",
+        "两者完全同义，只是语域不同",
+        "automatic 只能形容机器，autonomous 只能形容人",
+        "automatic 来自拉丁语，autonomous 来自希腊语"
+      ],
+      "answer": 0,
+      "explain": "两者第一成分都是 auto“自身”，但第二成分不同：-matos 表“凭自身运转”，-nomos 表“按自身法则”。因此自动门是 automatic，而能在未知环境自主导航的系统才是 autonomous。",
+      "concepts": [
+        "auto",
+        "nom",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w06d5-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词",
+      "sentence": "In ___, a human operator drives the manipulator from a control room while the robot works inside the reactor.",
+      "answer": "teleoperation",
+      "accept": [
+        "teleoperation",
+        "tele-operation"
+      ],
+      "explain": "tele（远方）+ operation（操作）→ teleoperation“远程操作”。后半句 a human operator ... from a control room 正是定义性线索。",
+      "concepts": [
+        "tele",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w06d5-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词，写出结果",
+      "parts": [
+        "micro",
+        "scope"
+      ],
+      "answer": "microscope",
+      "explain": "micro（微小）+ scope（看）→ microscope“显微镜”。与 telescope（远 + 看）构成一对：差别只在第一成分的尺度。",
+      "concepts": [
+        "micro",
+        "scope"
+      ]
+    },
+    {
+      "id": "w06d5-p5",
+      "kind": "matrix",
+      "prompt": "用矩阵生成单词：词基 nom，加前缀 auto-，加后缀 -y，结果是？",
+      "base": "nom",
+      "prefix": "auto",
+      "suffix": "y",
+      "answer": "autonomy",
+      "explain": "auto（自身）+ nom（法则）+ y（名词后缀）→ autonomy“自治、自主性”。形容词形式是 autonomous。",
+      "concepts": [
+        "auto",
+        "nom"
+      ]
+    },
+    {
+      "id": "w06d5-p6",
+      "kind": "mcq",
+      "prompt": "microscope 与 telescope 的第二部分都是 -scope，为什么意思不同？",
+      "choices": [
+        "差别在第一成分：micro 指“小”，tele 指“远”，-scope 只表示“看的器具”",
+        "-scope 在两个词里意义不同",
+        "telescope 不含 -scope",
+        "microscope 是复合词，telescope 是派生词"
+      ],
+      "answer": 0,
+      "explain": "-scope 来自 skopein“看”，在两词中都指观察器具。语义差异完全由第一成分承担：micro 是尺度小，tele 是距离远。这体现了组合形式的“槽位”逻辑。",
+      "concepts": [
+        "micro",
+        "tele",
+        "scope"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w06d5-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的现场报告，推测划线词的含义",
+      "passage": "Under teleoperation the excavator followed the operator's commands with a delay of about 400 ms, which made precise grading difficult; the team therefore moved to a shared-autonomy mode.",
+      "word": "teleoperation",
+      "choices": [
+        "操作者在远处实时操控机器",
+        "机器完全自主完成任务",
+        "由多名操作者轮流操作",
+        "对机器进行远程故障诊断"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：tele（远方）+ operation（操作）；② 语境：followed the operator's commands 说明仍由人下指令；“400 ms 延迟”正是远程链路的特征；③ 对照：后文 shared-autonomy 与它形成程度上的递进。",
+      "explain": "teleoperation 指操作者在远端通过通信链路实时操控机器，人的指令仍是控制源。它不是“完全自主”，也不是“故障诊断”：延迟影响的是操控精度，而非诊断。",
+      "concepts": [
+        "tele",
+        "auto",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "telescope、microscope、autonomy、automatic 词条"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "希腊组合形式 micro-/macro-/tele-/auto-"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "组合形式的槽位与替换练习"
+    }
+  ]
+}

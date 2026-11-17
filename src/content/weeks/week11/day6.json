@@ -1,0 +1,166 @@
+{
+  "id": "w11d6",
+  "week": 11,
+  "day": 6,
+  "title": "陌生长词推理：三个真实案例的完整演示",
+  "tagline": "遇到没见过的词时，用四步法把“猜”变成有依据的假设",
+  "objectives": [
+    "能对 occluded、odometry、extrinsic 三个未学词完整执行四步推理",
+    "能在切分失败时改用语境对比作为主要证据",
+    "能说明 clud 词族的共同语义核心并列举四个成员",
+    "能对自己给出的词义标注置信度并说明依据"
+  ],
+  "prereqs": ["w11d5", "c-inference", "c-root"],
+  "concepts": ["c-inference", "c-root", "c-word-family", "c-scientific", "c-register"],
+  "minutes": { "review": 5, "learn": 9, "practice": 8, "apply": 6 },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "四步法：把猜测变成假设",
+      "body": "第 1 周建立的推理流程，到本周要能自动化执行：\n\n1. **切分**：找出可识别的前缀、词根、后缀。切不动就承认切不动——这不是失败，而是信息（说明它是借词或术语整体）。\n2. **定词性**：看后缀与句法位置。-ed/-ive/-ous 多是形容词，-tion/-ence 是名词，-ize 是动词。\n3. **用语境验证**：看并列、对照、因果、定义性同位语。冒号、破折号、such as、i.e. 后面往往是作者自己给的释义。\n4. **检查语域与搭配**：这个词常和谁一起出现？是否符合本文的专业领域？\n\n最后给结论加**置信度**：高（切分清晰 + 语境明确）、中（只有语境支持）、低（只能靠领域常识）。论文阅读中，低置信度的推测要标记出来，回头查证。",
+      "terms": [
+        { "term": "confidence", "zh": "置信度", "en": "confidence", "note": "对推理结论可靠程度的主观分级" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "案例一：occluded（被遮挡的）",
+      "body": "句：*Up to 60% of the scan is occluded by the robot arm.*\n\n**切分**：oc-（朝向、对着）+ clud（关闭）+ -ed。clud 来自拉丁 claudere“关闭”，词族很好记：include（关进去→包含）、exclude（关在外面→排除）、conclude（完全关上→结束、得出结论）、preclude（预先关上→阻止）、occlude（挡住→遮蔽）。\n\n**词性**：-ed 分词，与 is 构成被动，作谓语。\n\n**语境**：主语是 scan（扫描数据），施事是 robot arm，比例是 60%——机械臂挡住了部分扫描线。\n\n**验证**：occlusion 在视觉与激光领域是标准术语（occlusion reasoning、occluded object），搭配吻合。\n\n结论：被遮挡的。置信度高。",
+      "morphemes": ["oc", "clud", "in", "ex", "con"],
+      "terms": [
+        { "term": "occlusion", "zh": "遮挡", "en": "occlusion" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "案例二：odometry（里程计）",
+      "body": "句：*Wheel odometry drifts quickly on loose gravel.*\n\n**切分**：odo-（路，希腊 hodos）+ metr（测量）+ -y（名词后缀）。和 thermometer 的 meter 同源，都是 metron“量”。\n\n**词性**：-y 结尾的抽象名词，作主语。\n\n**语境**：wheel 修饰它，谓语是 drifts（漂移），状语是 on loose gravel（松散砾石）——在打滑的地面上会累积误差。这描述的是“靠轮子转动推算走了多远”的方法。\n\n**验证**：同族 odometer（里程表）是汽车上的常见词，visual odometry（视觉里程计）、lidar odometry 是 SLAM 论文的标准术语。\n\n结论：通过传感器（轮子、相机、激光）在时间上的变化推算自身运动的技术，中文“里程计/里程法”。置信度高。\n\n注意：不要因为拼写里有 odd 就联想“奇怪”——odo 与“路”有关，和 odd 无关。",
+      "morphemes": ["od", "metr", "y"],
+      "terms": [
+        { "term": "odometry", "zh": "里程计（法）", "en": "odometry" },
+        { "term": "visual odometry", "zh": "视觉里程计", "en": "visual odometry" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "案例三：intrinsic / extrinsic（内参与外参）",
+      "body": "句：*Intrinsic parameters describe the camera itself; extrinsic parameters describe its pose relative to the robot.*\n\n**切分尝试**：intrinsic 来自晚期拉丁 intrinsecus“向内的”，extrinsic 来自 extrinsecus“向外的”。现代英语里 **intr-/extr- 之后的成分不能独立成词素**，强拆（intr + insic）只会造出假词素。\n\n**改用对比策略**：两者成对出现，句中用分号并列定义。intrinsic 对应 the camera itself（焦距、畸变等自身属性），extrinsic 对应 pose relative to the robot（相对机体的位姿）。\n\n**验证**：相机标定文献中 camera intrinsics / extrinsics 是固定搭配；robotics 里也说 extrinsic calibration（手眼标定）。\n\n结论：intrinsic = 内部的、自身的（内参）；extrinsic = 外部的、相对于他物的（外参）。置信度高，但依据是**语境对比**而非构词切分。\n\n这是本课最重要的一条：**切分失败时，语境对比就是主证据**。不要为了“拆得漂亮”而编造词素。",
+      "terms": [
+        { "term": "intrinsic", "zh": "内在的、固有的", "en": "intrinsic" },
+        { "term": "extrinsic", "zh": "外在的、外部的", "en": "extrinsic" }
+      ]
+    },
+    {
+      "kind": "passage",
+      "title": "综合演练：一段真实的实验描述",
+      "body": "下面这段包含多个本周学过的推理点。先自己标出所有不确定的词，再对照问题检查：“残差”“遮挡”“静态场景假设”分别对应哪个词？注意 inlier 与 threshold 在这一段里同时出现，正是第 3 天与本周的交叉点。",
+      "excerpt": "The estimator assumes a mostly static scene, an assumption that is violated whenever a person walks through the field of view. In such cases the residuals of the matched points grow sharply, and the optimizer may converge to a wrong local minimum. We therefore reject correspondences whose residual exceeds a fixed threshold and re-initialize the map if too few inliers remain.",
+      "glossZh": "该估计器假设场景基本静态；一旦有人穿过视野，这一假设就被破坏。此时匹配点的残差会急剧增大，优化器可能收敛到错误的局部极小值。因此我们剔除残差超过固定阈值的对应点，并在内点过少时重新初始化地图。",
+      "questions": [
+        { "q": "residual 在此指什么？", "a": "残差：观测值与模型预测值之差。re-（回）+ sedere（坐）→“剩下的东西”。" },
+        { "q": "inlier 与 outlier 的构词差别？", "a": "in-（在内）+ lie + -er → 落在模型内的点；out-（在外）+ lie + -er → 偏离模型的点。同一词基 lie，前缀决定方向。" },
+        { "q": "threshold 在这里是物理的门槛吗？", "a": "不是。threshold 已从“门槛”隐喻扩展为“阈值”，指判断的临界值。" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w11d6-p1",
+      "kind": "mcq",
+      "prompt": "occluded 中 clud 的核心义是？",
+      "choices": ["关闭", "打开", "携带", "看"],
+      "answer": 0,
+      "explain": "clud 来自拉丁 claudere“关闭”：include 关进去、exclude 关在外面、conclude 完全关上（结束）、occlude 挡住（对着关上）。四个词的差异来自前缀方向，核心义不变。",
+      "concepts": ["clud", "c-root", "c-word-family"]
+    },
+    {
+      "id": "w11d6-p2",
+      "kind": "cloze",
+      "prompt": "填入表示“里程计”的名词",
+      "sentence": "Because the wheels slip on wet floors, pure wheel ___ accumulates error within seconds.",
+      "answer": "odometry",
+      "accept": ["odometry"],
+      "explain": "odo-（路，希腊 hodos）+ metr（测量）+ -y → odometry“里程计法”。与 odometer 同族；在 SLAM 中指用传感器随时间的变化推算运动。",
+      "concepts": ["metr", "c-inference"]
+    },
+    {
+      "id": "w11d6-p3",
+      "kind": "mcq",
+      "prompt": "camera intrinsics 与 camera extrinsics 的区别是？",
+      "choices": [
+        "前者是相机自身的焦距、畸变等参数，后者是相机相对于世界或机体的位姿",
+        "前者用于彩色图像，后者用于深度图像",
+        "前者是硬件参数，后者是软件参数",
+        "两者是同义词，只是风格不同"
+      ],
+      "answer": 0,
+      "explain": "intrinsic 指“内在的、自身的”（焦距、主点、畸变系数），extrinsic 指“外在的”，即相机相对其他坐标系的旋转与平移。两者共同构成投影模型，缺一不可。",
+      "concepts": ["c-inference", "c-scientific"]
+    },
+    {
+      "id": "w11d6-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词（过去分词，“被遮挡的”）",
+      "parts": ["oc", "clud", "ed"],
+      "answer": "occluded",
+      "explain": "oc（对着）+ clud（关闭）+ ed → occluded“被遮挡的”。注意拼写：oc + clud 得到 occlud，再加 -ed 不双写 d，因为重音不在末音节。",
+      "concepts": ["oc", "clud", "c-spelling-rule"]
+    },
+    {
+      "id": "w11d6-p5",
+      "kind": "matrix",
+      "prompt": "用词基 clud 加前缀 ex-，写出“排除”",
+      "base": "clud",
+      "prefix": "ex",
+      "answer": "exclude",
+      "explain": "ex-（向外）+ clud（关闭）+ e → exclude“关在外面→排除”。同族 include、conclude、occlude、preclude 都靠前缀方向区分意义。",
+      "concepts": ["clud", "ex", "c-prefix"]
+    },
+    {
+      "id": "w11d6-p6",
+      "kind": "mcq",
+      "prompt": "四步法中，如果切分失败，最合理的下一步是？",
+      "choices": [
+        "强行切出看起来像词素的部分",
+        "放弃这个词，跳过不读",
+        "改用语境对比与搭配作为主要证据",
+        "只根据拼写猜测中文意思"
+      ],
+      "answer": 2,
+      "explain": "切分失败说明这个词可能是借词或整体术语（如 intrinsic、robot）。这时语境对比（并列、定义、对照）比构词更可靠；强行切分会造出假词素，反而误导。",
+      "concepts": ["c-inference", "c-morpheme"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w11d6-a1",
+      "kind": "infer",
+      "prompt": "推测 odometry 的含义",
+      "passage": "Because the wheel encoders slip on loose gravel, wheel odometry alone accumulates error within seconds. The team therefore fuses it with scan matching, which aligns consecutive lidar frames and is unaffected by wheel slip.",
+      "word": "odometry",
+      "choices": ["通过传感器随时间的读数和推算自身运动", "对车轮直径的静态测量", "对路面材质的分类", "对轮胎磨损的检测"],
+      "answer": 0,
+      "strategy": "① 切分：odo（路）+ metr（测量）+ -y（名词）；② 词性：主语中心词，wheel 作定语；③ 语境：与 encoder slip、accumulates error 同现，说明靠轮子读数推算运动；④ 验证：与 scan matching 对比，后者不依赖轮子，正是替代方案。",
+      "explain": "odometry 是“用传感器随时间的读数推算自身运动”的技术，词源是“测路”。段落给了两条证据：wheel encoders 是输入，accumulates error 是缺点，scan matching 是不受打滑影响的替代——只有“推算运动”才符合这三点。",
+      "concepts": ["c-inference", "metr", "c-scientific"]
+    },
+    {
+      "id": "w11d6-a2",
+      "kind": "infer",
+      "prompt": "推测 extrinsic 的含义",
+      "passage": "Intrinsic parameters describe the camera itself, such as focal length and lens distortion, whereas extrinsic parameters describe where the camera sits relative to the robot body. Both are estimated during calibration.",
+      "word": "extrinsic",
+      "choices": ["相机相对于其他坐标系的位姿参数", "相机内部镜头的焦距参数", "图像的色彩校正参数", "相机的曝光时间设置"],
+      "answer": 0,
+      "strategy": "① 切分：extr-（向外）可识别，但 -insic 不承载独立意义，故不强拆；② 词性：形容词修饰 parameters；③ 语境：whereas 与 intrinsic 对照，intrinsic 是 the camera itself，extrinsic 则是 relative to the robot body；④ 验证：与 calibration 同现，符合标定术语的固定搭配。",
+      "explain": "extrinsic 与 intrinsic 成对出现，whereas 标明对比：前者描述“相机在哪儿”（相对机体），后者描述“相机本身”（焦距、畸变）。这里的证据是对照结构，不是构词切分——这正是切分失败时的正确做法。",
+      "concepts": ["c-inference", "c-register", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 5、6 章：clud 词族与希腊 metron 组合形式" },
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "intrinsic / extrinsic 的拉丁来源 intrinsecus / extrinsecus" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "拒绝假词素：切分失败时的处理原则" }
+  ]
+}

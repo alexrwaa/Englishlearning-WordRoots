@@ -1,0 +1,144 @@
+{
+  "id": "w03d4",
+  "week": 3,
+  "day": 4,
+  "title": "程度与数量前缀：多、少、半、一",
+  "tagline": "掌握 hyper-/hypo- 与 over-/under- 两套刻度，并读懂 semi-、multi-、mono- 构成的科技词",
+  "objectives": [
+    "能区分 hyper-（过高）与 hypo-（过低），并说明它们与 over-/under- 的语域差异",
+    "能用 semi- / multi- / mono- 解释半导体、多核、单轨一类术语的构词理据",
+    "能识别 overlook、understand 这类“成分可切但意义已专门化”的词"
+  ],
+  "prereqs": ["w03d3"],
+  "concepts": ["c-prefix", "c-scientific", "c-register"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两套刻度：希腊语的和本土的",
+      "body": "表示“过多／过少”，英语有两套平行的前缀。一套是希腊来源的 **hyper-**（过高）与 **hypo-**（过低），另一套是本土的 **over-** 与 **under-**。\n\n同一个概念，两套说法并存，差别在语域：医学与科学文献用 hyper-/hypo-，如 hypertension（高血压）、hypothermia（低体温）、hypersensitive（过敏的）；日常英语用 over-/under-，如 overwork（过度工作）、underweight（体重不足）。\n\n这不是同义反复，而是**同一刻度在不同语域里的两套编码**。读论文时认希腊那套，写邮件时用本土那套，通常不会错。",
+      "morphemes": ["hyper", "hypo", "over", "under"]
+    },
+    {
+      "kind": "table",
+      "title": "程度与数量前缀一览",
+      "body": "注意第三列：多数前缀的核心义只有一条，但落到具体词上会出现专门化，不能一律直译。比如 semi- 在 semicircle 里是精确的一半，在 semiconductor 里只是“部分、介于之间”；over- 在 overheat 里是“过度”，在 overlook 里却变成“漏看”。读表时把“核心义”与“词义”分开：前者是词素贡献的，后者是整词约定俗成的，两者不能画等号。",
+      "head": ["前缀", "来源", "核心义", "例词"],
+      "rows": [
+        ["hyper-", "希腊 hyper 在上、超过", "超过正常、过度", "hyperactive, hypertension, hyperparameter"],
+        ["hypo-", "希腊 hypo 在下", "低于正常、不足", "hypothermia, hypotension, hypodermic"],
+        ["over-", "古英语 ofer", "过度、在上", "overestimate, overheat, overconfident"],
+        ["under-", "古英语 under", "不足、在下", "underestimate, underweight, underperform"],
+        ["semi-", "拉丁 semi 一半", "一半、部分", "semicircle, semiconductor, semifinal"],
+        ["multi-", "拉丁 multus 多", "多、多个", "multimedia, multicore, multilingual"],
+        ["mono-", "希腊 monos 单一", "一、单一", "monotone, monologue, monorail"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "超纲提醒：hyper- 与 hypo- 别读反",
+      "body": "中国学习者最常犯的错，是把 hypo- 当成“高”。原因大概是 hypo 与 hyper 只差一个字母，而 hyper 更眼熟。\n\n记法：**hyper- 里的 e 可以联想成“excess（过量）”，hypo- 里的 o 联想成“below / 低”**。这只是助记，但方向必须记死：hypothermia 是体温过低，不是过高；hypotension 是低血压；hypoglycemia 是低血糖。\n\n反过来，hypertension 是高血压，hyperthermia 是体温过高。医学语境里读反一个前缀，结论会完全相反，这不是小事。",
+      "terms": [
+        { "term": "register", "zh": "语域", "en": "register", "note": "语言使用场合造成的正式程度差异" }
+      ],
+      "morphemes": ["hyper", "hypo"]
+    },
+    {
+      "kind": "compare",
+      "title": "hyper- 与 over-：同一方向，不同场合",
+      "body": "两者都表“过度”，但不能随意互换。hyper- 已经绑定在学术与医学术语里，over- 则自由得多，能产性也更高。判断方法不是查词表，而是看语域：写临床报告用 hypertension，写邮件说 overwork。反过来，也不能因为 over- 能产就把它塞进术语——over-tension 不是“高血压”的学术说法，读者第一反应会是“过度紧张”。",
+      "a": "hyper-（希腊来源）",
+      "b": "over-（本土来源）",
+      "rows": [
+        ["语域", "医学、科学、技术文献", "日常口语与通用写作"],
+        ["能产性", "限于学术构词，新词较少", "极高，可临时造词（over-water the plants）"],
+        ["语义色彩", "中性描述指标偏高", "常含“做过头”的评价"],
+        ["例词", "hypertension, hyperactive, hypersensitive", "overwork, overheat, overconfident"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "semi- 与 mono-：别把术语当算术",
+      "body": "**semi-** 在拉丁语里是“一半”，但进入术语后常表示“部分、介于两者之间”。**semiconductor** 不是“半个导体”，而是导电性介于导体与绝缘体之间的材料；**semiautomatic** 也不是“半自动”的精确一半，而是“部分环节自动”。\n\n**mono-** 是“单一”：monologue（独白）、monorail（单轨）、monotone（单调）、monochromatic（单色）。这些词的成分义与整体义一致，比较透明。\n\n**multi-** 则几乎可以自由加在名词前：multicore（多核）、multimodal（多模态）、multi-agent（多智能体），在计算机文献里能产性极高。",
+      "morphemes": ["semi", "mono", "multi"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w03d4-p1",
+      "kind": "mcq",
+      "prompt": "A patient rescued from an icy lake is treated for hypothermia. 这里的 hypothermia 指：",
+      "choices": ["体温过高", "体温过低", "血压过高", "对寒冷过敏"],
+      "answer": 1,
+      "explain": "hypo-（低于正常）+ therm（热）+ ia（名词后缀）= 体温低于正常，即低体温。hyperthermia 才是体温过高；hypertension 是血压过高（tension 压力）；对寒冷过敏是 cold hypersensitivity，词根不同。",
+      "concepts": ["hypo", "therm", "c-scientific"],
+      "hint": "先分清 hypo-（低）与 hyper-（高）。"
+    },
+    {
+      "id": "w03d4-p2",
+      "kind": "cloze",
+      "prompt": "填入一个以 multi- 开头的形容词",
+      "sentence": "A ___ processor can execute several instruction streams at once, which is why the onboard computer stays cool under load.",
+      "answer": "multicore",
+      "accept": ["multi-core", "多核的", "多核"],
+      "explain": "multi（多）+ core（核心）→ multicore“多核的”。后半句 several instruction streams at once 是“多核并行”的语境线索；单核处理器无法同时执行多条指令流。连字符写法 multi-core 也可接受。",
+      "concepts": ["multi", "c-scientific"]
+    },
+    {
+      "id": "w03d4-p3",
+      "kind": "mcq",
+      "prompt": "The safety check was overlooked. 这句话的意思是安全检查：",
+      "choices": ["被监督完成", "被遗漏了", "被反复检查", "被提前执行"],
+      "answer": 1,
+      "explain": "overlook 的现代义是“未注意到、忽略”，不是“从上面看”。同族的 oversee 反而是“监督”，两者字面都像 look over，意义却分道扬镳。这说明成分义可切分，不等于整体义可推导，必须按词记。",
+      "concepts": ["over", "c-transparency", "c-semantic-shift"]
+    },
+    {
+      "id": "w03d4-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词：semi + conduct + or → ?（提示：一种材料）",
+      "parts": ["semi", "conduct", "or"],
+      "answer": "semiconductor",
+      "explain": "semi（部分、一半）+ conduct（传导）+ or（表物名词后缀）→ semiconductor“半导体”。语义上它指导电性介于导体与绝缘体之间的材料，不是“半个导体”，这是术语化后意义收窄的典型例子。",
+      "concepts": ["semi", "c-scientific", "c-suffix"]
+    },
+    {
+      "id": "w03d4-p5",
+      "kind": "mcq",
+      "prompt": "在一篇临床研究论文中，描述“患者血压偏高”最符合语域的说法是：",
+      "choices": ["the patient has high blood pressure", "the patient has hypertension", "the patient is over-pressured", "the patient has hyperpressure"],
+      "answer": 1,
+      "explain": "hypertension 是医学文献的标准术语，由 hyper-（过高）+ tension（压力）构成。high blood pressure 语法正确、日常可懂，但在论文中偏口语；over-pressured 与 hyperpressure 都不是通行医学术语。选词要看语域，而不只看是否“能懂”。",
+      "concepts": ["hyper", "c-register", "c-scientific"]
+    },
+    {
+      "id": "w03d4-p6",
+      "kind": "mcq",
+      "prompt": "monologue、monorail、monotone 三个词共同的前缀含义是：",
+      "choices": ["单一", "在上", "之间", "过多"],
+      "answer": 0,
+      "explain": "mono- 来自希腊语 monos“单一”：monologue 是一个人说的话，monorail 是一条轨道，monotone 是单一音调。三词的成分义与整体义一致，属于透明度高的派生词，可直接由前缀推出大意。",
+      "concepts": ["mono", "c-prefix", "c-transparency"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w03d4-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的遥感说明，推测划线词的含义",
+      "passage": "Hyperspectral cameras record hundreds of narrow wavelength bands, far more than the three wide channels of an ordinary RGB sensor, which makes them useful for detecting subtle differences in plant health.",
+      "word": "Hyperspectral",
+      "choices": ["波段数量极多的", "超出可见光范围的", "光谱分辨率很低的", "对光过敏的"],
+      "answer": 0,
+      "strategy": "① 切分：hyper（超过、极多）+ spectr（光谱）+ al（形容词后缀）；② 词性：-al 构成形容词，修饰 cameras；③ 语境：hundreds of narrow bands 与 RGB 的 three wide channels 形成数量对比；④ 校验：若指“超出可见光”，后文不会强调“波段多而窄”。",
+      "explain": "hyperspectral 指“高光谱的”，核心是波段极多且窄。hyper- 在此不是“病态过度”，而是科学构词中“超出一般数量级”的中性用法——这与 hypertension 的评价性色彩不同，说明同一前缀的语用色彩随领域变化。",
+      "concepts": ["hyper", "c-inference", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：程度前缀与希腊/本土地语域对应" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "hyper- / hypo- / semi- / multi- / mono- 词表" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "semiconductor 的术语义与 semi- 的“部分”用法" }
+  ]
+}

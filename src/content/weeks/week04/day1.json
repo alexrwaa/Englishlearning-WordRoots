@@ -1,0 +1,144 @@
+{
+  "id": "w04d1",
+  "week": 4,
+  "day": 1,
+  "title": "名词后缀：把动作与性质变成“东西”",
+  "tagline": "看到 -tion、-ment、-ness、-ity、-ism、-ist 时，能立刻判断这是名词，并猜出它指什么",
+  "objectives": [
+    "能根据词基词性说出 -tion / -ment / -ness / -ity 各自接什么样的词",
+    "能区分 -ness 与 -ity 在语域与搭配上的差别",
+    "能解释 -ism 与 -ist 的分工，并各举三个真实词"
+  ],
+  "prereqs": ["w03d7"],
+  "concepts": ["c-suffix", "c-derivation", "c-frequency", "c-register"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "后缀是词性的身份证",
+      "body": "第 3 周讲过：前缀决定方向，后缀决定身份。一个词以 **-tion** 结尾，它几乎一定是名词；以 **-ize** 结尾，几乎一定是动词；以 **-ous** 结尾，几乎一定是形容词。这个判断不需要认识词根，只需要看词尾。\n\n名词后缀的任务是把别的东西“变成名词”：动作变成事件（decide → decision），性质变成状态（dark → darkness），形容词变成抽象属性（real → reality），主张变成体系（capital → capitalism），做事的人变成职业身份（science → scientist）。\n\n今天先建立这张“名词化路线图”，后面三张卡片分别处理拼写、语域与语义分工。",
+      "terms": [
+        { "term": "nominalisation", "zh": "名词化", "en": "nominalisation", "note": "把动词或形容词转成名词的过程" }
+      ],
+      "morphemes": ["tion", "ment", "ness", "ity", "ism", "ist"]
+    },
+    {
+      "kind": "table",
+      "title": "六个高频名词后缀",
+      "body": "第三列“词基”是关键：知道后缀接什么词性，就能反推陌生名词的原形。第四列的能产性只是大致排序，用于判断哪些后缀可以放心用来造新词。比如看到 readability，由 -ity 可知词基是形容词 readable；看到 management，由 -ment 可知词基是动词 manage。反过来，若你想把某个形容词变名词，应优先考虑 -ness 或 -ity，而不是 -ment。",
+      "head": ["后缀", "词基", "语义", "例词"],
+      "rows": [
+        ["-tion / -sion", "动词（多拉丁来源）", "动作、过程、结果", "construction, decision, permission"],
+        ["-ment", "动词", "动作、结果、手段", "development, measurement, agreement"],
+        ["-ness", "形容词", "性质、状态", "darkness, happiness, robustness"],
+        ["-ity", "形容词（多拉丁来源）", "抽象属性", "reality, ability, productivity"],
+        ["-ism", "名词、形容词", "学说、制度、行为倾向", "capitalism, realism, criticism"],
+        ["-ist", "名词、形容词", "从事者、信奉者", "scientist, artist, realist"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-tion 还是 -sion：看动词词尾",
+      "body": "两者是同一个拉丁后缀在不同语音环境下的形式，分工大致如下：\n\n- 词干以 **-t** 结尾时多用 **-tion**：construct → construction，inform → information，act → action。\n- 词干以 **-ss** 或 **-mit** 结尾时多用 **-sion**：permit → permission，admit → admission，submit → submission。\n- 动词以 **-de** 结尾时，d 变 s：decide → decision，conclude → conclusion，divide → division。\n\n还有一个高频形式 **-ation**，主要出现在两类词基后：拉丁 -are 动词（form → formation，adapt → adaptation）与 -ize / -ify 动词（organize → organization，classify → classification）。看到 -ation 时，可以据此反推词基大致长什么样。",
+      "morphemes": ["tion", "sion", "ation"]
+    },
+    {
+      "kind": "compare",
+      "title": "-ness 与 -ity：两条名词化路径",
+      "body": "同一个形容词常有两条名词化路径，但分布不同。-ness 是本土后缀，几乎可以对任何形容词开放，包括新造的、口语的；-ity 是拉丁后缀，绑定在特定词基上，语域更正式。",
+      "a": "-ness",
+      "b": "-ity",
+      "rows": [
+        ["来源", "古英语 -nes", "拉丁 -itas（经法语）"],
+        ["能产性", "极高，几乎不受限制", "较低，只跟固定词基搭配"],
+        ["语域", "中性，口语与学术都可", "正式、学术、技术"],
+        ["例词", "darkness, happiness, robustness, effectiveness", "reality, ability, productivity, complexity"],
+        ["搭配倾向", "常与日常形容词搭配", "常与 -able / -ive / -ous 形容词搭配"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-ism 与 -ist：一套信念，一个信徒",
+      "body": "**-ism** 构成抽象名词，指学说、制度、行为倾向或状态：capitalism（资本主义）、realism（现实主义）、criticism（批评）、alcoholism（酗酒）、bilingualism（双语现象）。它的语义范围比中文“主义”宽，不要一律译成“主义”。\n\n**-ist** 构成指人名词，指从事者或信奉者：scientist、artist、capitalist、realist、typist、dentist。两者常成对出现：capitalism / capitalist，realism / realist。\n\n还要与另外两个指人后缀区分：**-er** 是本土后缀，能产性最高（teacher、driver），**-or** 多固定在拉丁词里（actor、supervisor），一般不新造。",
+      "morphemes": ["ism", "ist", "er", "or"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w04d1-p1",
+      "kind": "mcq",
+      "prompt": "reliable 的名词形式是：",
+      "choices": ["reliability", "reliablity", "reliableness", "reliablement"],
+      "answer": 0,
+      "explain": "reliable 来自 rely + able，名词化时 -able 变为 -ability：reliable → reliability。reliablity 是漏写 a 的常见拼写错误；reliableness 虽偶见但非常用形式；-ment 不能接在形容词后构成这个名词。",
+      "concepts": ["ity", "able", "c-suffix"],
+      "hint": "注意 -able 与 -ability 的对应关系。"
+    },
+    {
+      "id": "w04d1-p2",
+      "kind": "cloze",
+      "prompt": "把括号中的词变成合适的名词形式",
+      "sentence": "After three rounds of talks, the two sides finally reached an ___ (agree).",
+      "answer": "agreement",
+      "accept": ["协议", "一致意见"],
+      "explain": "agree 是动词，reach an agreement 是固定搭配“达成协议”。-ment 加在动词后构成表示“结果”的名词。这里不能用 agreeness（-ness 一般接形容词）或 agreety（无此后缀组合）。",
+      "concepts": ["ment", "c-suffix", "c-derivation"]
+    },
+    {
+      "id": "w04d1-p3",
+      "kind": "mcq",
+      "prompt": "The ___ of the room showed that no one had entered for weeks. 空白处最合适的是：",
+      "choices": ["darkness", "darkment", "darkity", "darkism"],
+      "answer": 0,
+      "explain": "dark 是本土形容词，名词化用 -ness：darkness。dark 是单音节古英语词，不与拉丁后缀 -ity、-ment 搭配；-ism 表学说或倾向，语义不符。这条题的关键不是“哪个能懂”，而是“哪个是英语里存在的形式”。",
+      "concepts": ["ness", "c-suffix", "c-frequency"]
+    },
+    {
+      "id": "w04d1-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词：govern + ment → ?",
+      "parts": ["govern", "ment"],
+      "answer": "government",
+      "explain": "govern（治理）+ ment（名词后缀）→ government“政府、治理”。注意拼写中 n 后直接接 m，不省略也不双写；发音上第二个音节常被弱化，但拼写必须保留 govern 的 n。",
+      "concepts": ["ment", "c-spelling-rule"]
+    },
+    {
+      "id": "w04d1-p5",
+      "kind": "mcq",
+      "prompt": "在一篇讨论算法性能的论文里，“可扩展性”最合适的表达是：",
+      "choices": ["scalableness", "scalability", "scalation", "scalement"],
+      "answer": 1,
+      "explain": "scalable → scalability 是技术文献的固定术语，-able 变 -ability。scalableness 理论上可解但不用；scalation 会与 escalation（升级）混淆；scalement 不是英语词。学术语域里 -ity 是抽象属性的默认选择。",
+      "concepts": ["ity", "c-register", "c-scientific"]
+    },
+    {
+      "id": "w04d1-p6",
+      "kind": "mcq",
+      "prompt": "criticism 中的 -ism 表示：",
+      "choices": ["一种政治制度", "一种行为或态度的反复实践", "从事批评的人", "批评这一动作的瞬间"],
+      "answer": 1,
+      "explain": "-ism 不只表“主义”，还可表反复的行为、倾向或状态：criticism（批评这种行为）、alcoholism（酗酒）、bilingualism（双语现象）。表“从事者”要用 -ist（critic 本身即是“批评家”，criticist 不是常用词）。这说明后缀义项要按词记，不能一律套“主义”。",
+      "concepts": ["ism", "c-suffix", "c-register"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w04d1-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的评估报告片段，推测划线词的含义",
+      "passage": "The report questions the scalability of the current approach: performance degrades sharply once the map grows beyond a few city blocks.",
+      "word": "scalability",
+      "choices": ["系统随规模扩大的适应能力", "系统的测量精度", "系统的能耗水平", "系统的可移植性"],
+      "answer": 0,
+      "strategy": "① 切分：scal（尺度、规模）+ able（能够……的）+ ity（名词后缀）；② 词性：-ity 构成抽象名词，作 questions 的宾语；③ 语境：冒号后说“地图超过几个街区后性能急剧下降”，正是规模变大时的表现；④ 校验：精度、能耗、可移植性都无法由“规模变大后性能下降”直接推出。",
+      "explain": "scalability 指“可扩展性”，即系统在规模增大时维持性能的能力。这个词的构词线索很清楚：scale（规模）+ -able（能够）+ -ity（属性）。在计算机与机器人文献里，它是评价系统的高频指标，常与 degrade、bottleneck 共现。",
+      "concepts": ["ity", "able", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4 章：名词化后缀与能产性" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "-tion / -ment / -ness / -ity / -ism / -ist 词表" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5：派生词缀的能产性与语域分布" }
+  ]
+}

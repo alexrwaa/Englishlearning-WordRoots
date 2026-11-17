@@ -1,0 +1,341 @@
+{
+  "id": "w06d7",
+  "week": 6,
+  "day": 7,
+  "title": "第 6 周复盘：把希腊零件装成解码表",
+  "tagline": "十三个成分 + 三条原则，覆盖绝大多数科技长词",
+  "objectives": [
+    "能不查词典说出本周十三个组合形式的核心义",
+    "能用三条原则判断一个科学术语该拆、该查、还是该整体记",
+    "能在论文段落中推断含 -metry、auto-、macro- 的陌生术语"
+  ],
+  "prereqs": [
+    "w06d6",
+    "c-combining"
+  ],
+  "concepts": [
+    "c-combining",
+    "c-scientific",
+    "c-greek-latin",
+    "c-etymology",
+    "c-inference",
+    "bio",
+    "geo",
+    "therm",
+    "hydr",
+    "phon",
+    "graph",
+    "metr",
+    "logy"
+  ],
+  "minutes": {
+    "review": 6,
+    "learn": 7,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "本周解码表",
+      "body": "自测方式：遮住“核心义”一列，逐行说出意义，再各造一个真实单词。凡是说不出的，回到对应那天的卡片，不要只重读这张表——**能产出才算掌握**。十三个成分看着多，其实分四组：生命地水热、写与量、学科、尺度与自身。",
+      "head": [
+        "组合形式",
+        "核心义",
+        "代表词"
+      ],
+      "rows": [
+        [
+          "bio-",
+          "生命",
+          "biology, antibiotic, biosphere"
+        ],
+        [
+          "geo-",
+          "大地",
+          "geography, geothermal, georeference"
+        ],
+        [
+          "therm-",
+          "热",
+          "thermal, thermometer, hypothermia"
+        ],
+        [
+          "hydr-",
+          "水",
+          "hydrate, dehydrate, hydrogen"
+        ],
+        [
+          "phon-",
+          "声音",
+          "telephone, microphone, phoneme"
+        ],
+        [
+          "graph-",
+          "写、记录",
+          "photograph, geography, graphite"
+        ],
+        [
+          "-gram",
+          "写下的东西",
+          "telegram, diagram, program"
+        ],
+        [
+          "metr- / -meter",
+          "测量、量具",
+          "geometry, thermometer, parameter"
+        ],
+        [
+          "-logy",
+          "学科、系统论述",
+          "biology, geology, methodology"
+        ],
+        [
+          "micro-",
+          "微小",
+          "microscope, microsecond"
+        ],
+        [
+          "macro-",
+          "宏大、整体",
+          "macroscopic, macroeconomics"
+        ],
+        [
+          "tele-",
+          "远方",
+          "telescope, teleoperation, telemetry"
+        ],
+        [
+          "auto-",
+          "自身",
+          "autonomous, automatic, autopilot"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三条原则：拆、查、记",
+      "body": "**原则一：组合形式不是“前缀 + 词根”。** bio-、-logy 不能独立成词，它们是并列拼合的单位，中间常有连接元音。用旧标签套会掩盖构词方式。\n\n**原则二：-o- 通常不表义。** 它是连接元音。但要先确认这个 -o 是否属于词干（photo-、zoo- 就属于词干），否则会把“光”的一部分误当成连接成分。\n\n**原则三：人造术语要查年代。** hydrogen（1787）、photograph（1839）、television（1900 前后）都是近代造词。它们的零件可拆，整词定义不可由零件直接推出。\n\n三条合起来就是一套动作：**先看能否拆，再判断 -o- 归属，最后确认整词是不是人造术语**。",
+      "morphemes": [
+        "bio",
+        "logy",
+        "graph"
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "仪器、方法、学科：三个槽位别混",
+      "body": "同一批希腊材料可以造出三种性质完全不同的词。判断时看最后一个成分：-meter 是实物，-metry 是方法或数据，-logy 是学科。这在读论文时直接影响理解——把 telemetry 当成“遥测仪”，就会误读整句的主语。",
+      "a": "-meter（仪器）",
+      "b": "-metry（方法或数据）",
+      "rows": [
+        {
+          "label": "词性",
+          "a": "可数名词，指实物",
+          "b": "多作不可数名词，指技术或读数"
+        },
+        {
+          "label": "例词",
+          "a": "thermometer, telemeter, parameter",
+          "b": "telemetry, odometry, geometry"
+        },
+        {
+          "label": "论文搭配",
+          "a": "install a thermometer",
+          "b": "receive telemetry, estimate odometry"
+        },
+        {
+          "label": "常见误译",
+          "a": "把 parameter 译成“参数仪”",
+          "b": "把 telemetry 译成“遥测仪”"
+        },
+        {
+          "label": "第三类参照",
+          "a": "-logy 指学科：methodology",
+          "b": "不适用"
+        }
+      ]
+    },
+    {
+      "kind": "passage",
+      "title": "把本周的成分放进一段真实语域",
+      "body": "这段文字里出现了 telemetry、odometry、georeferenced 三个本周成分构成的词。先自己读，再回答两个问题：它们各自指“数据”“方法”还是“处理结果”？注意句子把“流式传输”与“闭环后才配准”放进了一条因果链。",
+      "excerpt": "The rover streams telemetry at 10 Hz, but its wheel odometry is only georeferenced after each loop closure, so early estimates in the log can be off by several metres.",
+      "glossZh": "巡视器以 10 Hz 传输遥测数据，但它的轮式里程计只有在每次闭环之后才被配准到地理坐标，因此日志中较早的估计可能偏差数米。",
+      "questions": [
+        {
+          "q": "telemetry 在句中指什么？",
+          "a": "下行的遥测数据流（10 Hz），是数据而非仪器。"
+        },
+        {
+          "q": "为什么早期估计会偏差数米？",
+          "a": "因为轮式里程计要等闭环后才被地理配准，误差在此之前持续累积。"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "下周：英语自己的构词方式",
+      "body": "前两周讲的都是“外来材料”：拉丁词根与希腊组合形式。它们构成的是**派生**与**学术拼装**。\n\n第 7 周换到另一条线：英语本土的构词方式——**复合**（software、windmill）、**转换**（to email）、**混成**（smog）、**截短**（lab）、**缩略**（lidar、CPU）。\n\n你会看到一个有意思的对照：同样是“把两块拼起来”，希腊组合形式要求成分粘着且常带 -o-，而英语复合词要求两个成分都能独立成词。**判断一个长词该怎么拆，第一步是先确定它属于哪一类**。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w06d7-p1",
+      "kind": "mcq",
+      "prompt": "下面哪个词不是由希腊组合形式构成的？",
+      "choices": [
+        "software",
+        "biology",
+        "geology",
+        "thermometer"
+      ],
+      "answer": 0,
+      "explain": "software 由 soft 与 ware 两个自由词基复合而成，是英语本土复合词。其余三词的成分都不能独立成词，属于希腊组合形式。",
+      "concepts": [
+        "c-compound",
+        "c-combining"
+      ]
+    },
+    {
+      "id": "w06d7-p2",
+      "kind": "mcq",
+      "prompt": "thermometer 中 thermo- 末尾的 -o- 属于什么？",
+      "choices": [
+        "连接元音，不承载词汇意义",
+        "表示“水”的词根",
+        "表示“仪器”的后缀",
+        "表示“整体”的前缀"
+      ],
+      "answer": 0,
+      "explain": "它是连接元音，只把 therm 与 meter 接起来。“热”由 therm 承担，“仪器”由 -meter 承担。与 photo- 的情况不同，那里的 -o 属于词干。",
+      "concepts": [
+        "c-combining",
+        "therm"
+      ]
+    },
+    {
+      "id": "w06d7-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词",
+      "sentence": "Wheel ___ gives a rough motion estimate between lidar scans, but it must be corrected whenever the error grows too large.",
+      "answer": "odometry",
+      "accept": [
+        "odometry"
+      ],
+      "explain": "hodos（道路）+ metron（测量）+ y → odometry“里程计”。后半句的 must be corrected 说明它是会累积误差的粗略估计，正是里程计的特征。",
+      "concepts": [
+        "metr",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w06d7-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词，写出结果",
+      "parts": [
+        "photo",
+        "graph"
+      ],
+      "answer": "photograph",
+      "explain": "photo（光）+ graph（记录）→ photograph“照片”。这是 1830 年代法语 photographie 的人造术语，1839 年进入英语。",
+      "concepts": [
+        "graph",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w06d7-p5",
+      "kind": "matrix",
+      "prompt": "用矩阵生成单词：词基 logy，加组合形式 psycho-（心灵），结果是？",
+      "base": "logy",
+      "prefix": "psycho",
+      "answer": "psychology",
+      "explain": "psycho（心灵）+ logy（学科）→ psychology“心理学”。学者是 psychologist，形容词是 psychological。",
+      "concepts": [
+        "logy",
+        "c-combining"
+      ]
+    },
+    {
+      "id": "w06d7-p6",
+      "kind": "mcq",
+      "prompt": "判断 hydrogen 属于哪一类词，最可靠的依据是什么？",
+      "choices": [
+        "查它首次被使用的年代与命名者，确认是近代人造术语",
+        "看它是否含有希腊字母对应的拼写",
+        "看它的长度是否超过三个音节",
+        "看它能否在古英语文献中找到"
+      ],
+      "answer": 0,
+      "explain": "hydrogen 由拉瓦锡团队在 1787 年定名，零件来自希腊语但整词是近代科学拉丁语。判断术语层次要看年代与文献，而不是拼写外观或音节数。",
+      "concepts": [
+        "hydr",
+        "c-etymology",
+        "c-scientific"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w06d7-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的检测报告，推测划线词的含义",
+      "passage": "At the macroscopic level the machined surface looks perfectly flat, but a scan at 0.1 mm resolution reveals shallow pits that trap lubricant and slowly change the contact geometry.",
+      "word": "macroscopic",
+      "choices": [
+        "肉眼可见的宏观尺度上",
+        "显微镜下的微观尺度上",
+        "经过数学放大的",
+        "由机器自动测量的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：macro（大）+ scop（看）+ ic；② 结构：At the ... level 与后半句 a scan at 0.1 mm resolution 形成尺度对照；③ 语境：but 转折说明“看上去平”与“实际有凹坑”的差别来自观察尺度。",
+      "explain": "macroscopic 指“宏观的、肉眼尺度可见的”，与 microscopic 相对。句中的对照正是“宏观看似平整，微观扫描才见凹坑”。它不是“机器自动测量”，那是 automatic 的语义。",
+      "concepts": [
+        "macro",
+        "scope",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w06d7-a2",
+      "kind": "infer",
+      "prompt": "阅读下面的评论句，推测划线词在句中的确切含义",
+      "passage": "The platform is often called autonomous, yet a human still selects the goal region; the system only decides how to reach it and when to stop.",
+      "word": "autonomous",
+      "choices": [
+        "能自行决定如何行动与何时停止的",
+        "无需电力即可运行的",
+        "由远程操作者实时操控的",
+        "完全不需要设定目标的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：auto（自身）+ nom（法则）+ ous；② 结构：yet 引出让步，冒号后解释系统“只决定怎么走、何时停”；③ 排除：句中明说人仍选目标，故“完全不需要目标”与原文冲突。",
+      "explain": "autonomous 的核心是“按自身法则行事”，即在给定目标后自行决定行动方式。句子的让步结构正好界定了它的范围：目标由人给，路径由系统定。这正是自主性（autonomy）与全自动（automatic）的区别。",
+      "concepts": [
+        "auto",
+        "nom",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "希腊组合形式总览与构词原则"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "本周各术语的年代与首次用例复核"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "拆与不拆的判断流程"
+    }
+  ]
+}

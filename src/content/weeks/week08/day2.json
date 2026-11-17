@@ -1,0 +1,136 @@
+{
+  "id": "w08d2",
+  "week": 8,
+  "day": 2,
+  "title": "-s 与 -ed 的三读：拼写一样，读音三种",
+  "tagline": "能根据词基末尾的音判断 -s 读 /s/、/z/ 还是 /ɪz/，-ed 读 /t/、/d/ 还是 /ɪd/",
+  "objectives": [
+    "能说出 -s 三种读音的语音条件并各举三例",
+    "能说出 -ed 三种读音的语音条件并各举三例",
+    "能修正“看到 -s 就读 /s/、看到 -ed 就读 /ɪd/”的错误习惯"
+  ],
+  "prereqs": ["w08d1"],
+  "concepts": ["c-allomorph", "c-inflection", "c-spelling-rule"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 4 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "-s：三种读音由前一个音决定",
+      "body": "复数 -s、第三人称单数 -s、所有格 -s 的拼写只有 -s 与 -es 两种，但读音有三种，由**前一个音**决定：\n\n- 清辅音后读 /s/：cats /kæts/、stops、laughs\n- 浊辅音与元音后读 /z/：dogs /dɒɡz/、runs、plays\n- 咝音后读 /ɪz/：buses、watches、judges、wishes、noises\n\n规则的本质是：英语不允许两个清浊不同的咝音直接相连；咝音后再接 /s/ 或 /z/ 听不出词尾，必须插入元音 /ɪ/ 才形成可感知的音节。",
+      "terms": [
+        { "term": "sibilant", "zh": "咝音", "en": "sibilant", "note": "/s z ʃ ʒ tʃ dʒ/ 这一类摩擦或塞擦音" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-ed：同一套逻辑",
+      "body": "规则动词过去式 -ed 同样三读：\n\n- 清辅音后读 /t/：walked、stopped、laughed\n- 浊辅音与元音后读 /d/：played、cleaned、robbed\n- /t/ 或 /d/ 后读 /ɪd/：wanted、needed、decided、started\n\n记忆口诀：**清后清，浊后浊，t/d 后加 /ɪ/**。\n\n原因与 -s 一致：/t/ 与 /d/ 本身是塞音，后面再接同部位的 /t/ 或 /d/ 无法区分，必须插入元音形成一个音节，词尾才听得见。",
+      "morphemes": ["ed", "s"]
+    },
+    {
+      "kind": "table",
+      "title": "六种情况一张表",
+      "body": "下表按“词尾音的性质”排列。做题时先读词基最后一个音，再查表，不要看最后一个字母：laughs 的结尾字母是 h，实际音是 /f/，所以读 /s/；houses 的结尾字母是 e，实际音是 /z/，所以读 /ɪz/。",
+      "head": ["词尾", "条件", "读音", "例子"],
+      "rows": [
+        ["-s", "清辅音后", "/s/", "cats, stops, laughs"],
+        ["-s", "浊辅音或元音后", "/z/", "dogs, runs, plays"],
+        ["-s", "咝音后", "/ɪz/", "buses, watches, wishes"],
+        ["-ed", "清辅音后", "/t/", "walked, stopped, laughed"],
+        ["-ed", "浊辅音或元音后", "/d/", "played, cleaned, robbed"],
+        ["-ed", "/t/ 或 /d/ 后", "/ɪd/", "wanted, needed, started"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "拼写规则与读音规则并不重合",
+      "body": "一个常被混淆的点：加 -es 是**拼写规则**，读 /ɪz/ 是**读音规则**，两者条件不同。\n\n- 以 o 结尾加 -es：potatoes、goes、echoes。这是拼写习惯，读音按前一个音决定：goes 读 /ɡəʊz/，不是 /ɡəʊɪz/。\n- 以咝音结尾加 -es：watches、buses。此时拼写与读音刚好一致。\n\n所以不能反推“写了 -es 就读 /ɪz/”。同理，-ed 的拼写永远是 -ed，读音却三选一；英语拼写保留的是历史形态，不是音值。",
+      "terms": [
+        { "term": "orthography", "zh": "正字法", "en": "orthography", "note": "一个语言的书写规范体系" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "听力与口语：词尾丢失的根源",
+      "body": "中国学习者常“听不见” -s 与 -ed，原因不是语速快，而是这两个词尾在多数环境下**不带元音**，音量很低：cats 的 /s/、played 的 /d/ 都只是一个辅音。只有在 /ɪz/、/ɪd/ 的情况下才有一个完整音节。\n\n练习方法：先判断词基末尾音的清浊，再有意识地延长词尾。**watched** 读 /wɒtʃt/（两个清辅音相连），**changed** 读 /tʃeɪndʒd/（两个浊辅音相连）——这两类恰恰是中国学习者最容易吞掉的。\n\n口语中把 played 读成 /ˈpleɪɪd/ 是典型过度纠正，反而错误。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w08d2-p1",
+      "kind": "mcq",
+      "prompt": "watches 的 -es 读作：",
+      "choices": ["/ɪz/", "/s/", "/z/", "/es/"],
+      "answer": 0,
+      "explain": "词基 watch 以 /tʃ/ 结尾，是咝音，后面必须插入 /ɪ/ 才能听出词尾，所以读 /ˈwɒtʃɪz/。清浊规则在这里不适用，因为咝音条件优先。",
+      "concepts": ["c-allomorph", "c-inflection"]
+    },
+    {
+      "id": "w08d2-p2",
+      "kind": "mcq",
+      "prompt": "played 的 -ed 读作：",
+      "choices": ["/d/", "/t/", "/ɪd/", "/əd/"],
+      "answer": 0,
+      "explain": "play 以元音 /eɪ/ 结尾，是浊音，所以 -ed 读 /d/。读成 /ɪd/ 是过度纠正，通常只发生在词基以 /t/ 或 /d/ 结尾时（如 wanted）。",
+      "concepts": ["c-allomorph", "c-inflection"]
+    },
+    {
+      "id": "w08d2-p3",
+      "kind": "cloze",
+      "prompt": "用音标回答（只写符号也可以）",
+      "sentence": "The past tense of “stop” ends with the sound ___, because /p/ is voiceless.",
+      "answer": "/t/",
+      "accept": ["t", "t/", "/t"],
+      "explain": "stop 以清辅音 /p/ 结尾，-ed 读 /t/，整个词读 /stɒpt/。规则是“清后清”：清辅音后的 -ed 送气清音 /t/，不读 /d/ 或 /ɪd/。",
+      "concepts": ["c-allomorph", "c-inflection"]
+    },
+    {
+      "id": "w08d2-p4",
+      "kind": "mcq",
+      "prompt": "buses 读 /ˈbʌsɪz/ 的原因是：",
+      "choices": [
+        "词基以咝音 /s/ 结尾，需插入 /ɪ/ 才能区分词尾",
+        "所有以 s 结尾的名词复数都读 /ɪz/",
+        "buses 是例外，没有规则可循",
+        "因为 bus 是截短词，读音特殊"
+      ],
+      "answer": 0,
+      "explain": "bus 以 /s/ 结尾，若直接加 /s/ 会与词基的 /s/ 合并、听不出复数，所以插入 /ɪ/。同理 watches、judges、wishes 都读 /ɪz/；而 cats 的 /t/ 不是咝音，只加 /s/。",
+      "concepts": ["c-allomorph"]
+    },
+    {
+      "id": "w08d2-p5",
+      "kind": "mcq",
+      "prompt": "关于 -s 与 -ed 的拼写和读音，哪项正确？",
+      "choices": [
+        "拼写形式固定，读音随词基末尾音的清浊与是否咝音变化",
+        "拼写随读音变化，读 /z/ 时要写成 -es",
+        "-s 永远读 /s/，-ed 永远读 /ɪd/",
+        "只有名词复数的 -s 有变读，动词的 -s 没有"
+      ],
+      "answer": 0,
+      "explain": "复数、第三人称单数、所有格的 -s 拼写规则相同，读音规则也相同；-ed 拼写恒为 -ed，读音三选一。把拼写当成读音的镜像，是这类错误的总根源。",
+      "concepts": ["c-spelling-rule", "c-allomorph"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w08d2-a1",
+      "kind": "infer",
+      "prompt": "推测划线词 calibrated 的含义",
+      "passage": "Every sensor was calibrated against a reference unit before deployment, so readings from different sites can be compared without further correction.",
+      "word": "calibrated",
+      "choices": ["与基准仪器比对并调整过", "被安装在支架上", "被充满电并测试过", "被密封以防进水"],
+      "answer": 0,
+      "strategy": "① 形态：calibrate + -ed，此处为被动谓语，读 /ˈkælɪbreɪtɪd/（词基以 /t/ 结尾，故 -ed 读 /ɪd/）；② 语境：against a reference unit 是比对基准，compared 是目的；③ 结果：without further correction 说明已经校正过。",
+      "explain": "calibrate 指用已知基准比对并调整测量装置。passage 中 reference unit（基准件）与 without further correction（无需再校正）两侧夹住，语义只能指向“校准”。注意这里的 -ed 读 /ɪd/，因为词基以 /t/ 结尾。",
+      "concepts": ["c-inflection", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 3：English obstruents, voicing and sibilants" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 5 章：屈折词缀的语音变体" },
+    { "id": "S5", "title": "Cambridge English Pronouncing Dictionary", "detail": "-s / -ed 三种读音的标注" }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "id": "w06d3",
+  "week": 6,
+  "day": 3,
+  "title": "graph / gram 与 meter / metr：写下来，量出来",
+  "tagline": "photograph 是 19 世纪人造词，odometry 才是机器人里真正的 -metry",
+  "objectives": [
+    "能区分 graph（写、记录）与 gram（写下的东西）在构词中的分工",
+    "能解释 -metry 的含义，并用它拆解 geometry、telemetry、odometry",
+    "能说明 lidar 为什么不能按希腊词根拆解"
+  ],
+  "prereqs": [
+    "w06d2"
+  ],
+  "concepts": [
+    "graph",
+    "gram",
+    "meter",
+    "metr",
+    "c-combining",
+    "c-acronym",
+    "c-scientific"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 6,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "graphein 是“刻划”，graph 与 gram 分工不同",
+      "body": "希腊 **graphein** 意为“刻划、书写”，名词 **graphē** 是“书写、图画”。英语里它分化成两个常用形态：\n\n- **graph-**：侧重“写的行为、工具或产物”，如 photograph、geography、graphic、graphite（石墨，因为用来写字）。\n- **-gram**：侧重“写下来的那个东西、记录”，如 telegram（远方的记录）、diagram（画出来的图形）、program（事先写出的通告）。\n\n一个便于记忆的对照：**graph 是“写”，gram 是“写出来的那一份”**。所以 photography 是拍摄行为，telegram 是那份电报。",
+      "morphemes": [
+        "graph",
+        "gram"
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "photograph：一个人造术语的完整履历",
+      "body": "photograph 常被当作“希腊词”，其实它比火车还年轻。\n\n1830 年代，法国人把“用光作画”的技术命名为 photographie：photo-（光）+ graphie（书写、记录）。1839 年摄影术公开，同年英国学者约翰·赫歇尔在英语里使用 photograph 一词，此后定型。\n\n这说明两件事：第一，**希腊零件 ≠ 古希腊词**；第二，**术语的命名年代决定了它的含义**。photograph 的“光”指的是曝光成像，而不是任何古代观念。同理，graphite 是 1789 年才因“用来写字”得名。",
+      "steps": [
+        {
+          "period": "希腊",
+          "form": "phōs / phōtos",
+          "note": "光；词干 phōt- 自带 -o-"
+        },
+        {
+          "period": "希腊",
+          "form": "graphein",
+          "note": "刻划、书写"
+        },
+        {
+          "period": "法语 1830s",
+          "form": "photographie",
+          "note": "用光记录影像的技术，人造新词"
+        },
+        {
+          "period": "英语 1839",
+          "form": "photograph",
+          "note": "随摄影术公开进入英语并定型"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "metron 是“测量”，metry 是“测量术”",
+      "body": "希腊 **metron** 意为“尺度、测量”。它构成的词分两类：\n\n- 带 **-meter** 的是**测量工具**：thermometer（温度计）、barometer（气压计）、telemeter（测距仪）。\n- 带 **-metry** 的是**测量方法或结果**：geometry（量地）、telemetry（远距离测量 → 遥测）、odometry（里程测量）、photogrammetry（用照片测量）。\n\n机器人领域还有 **parameter**（para 在旁边 + metron → 旁边的尺度 → 参数），以及 **symmetric**（syn 一起 + metron → 两边同尺度 → 对称）。\n\n记住这条分工：**-meter 是仪器，-metry 是方法**。写论文时 telemetry 指“遥测数据”，telemeter 指“测距装置”，不能互换。",
+      "morphemes": [
+        "metr",
+        "meter",
+        "tele",
+        "syn"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三组易混成分对照",
+      "body": "graph、gram、metr 三组经常出现在同一个句子里，混用会让译文失真。下表给出判断依据：先看它指的是“写的行为”“写下的东西”还是“测量”，再看它后面接的是仪器还是方法。按这个顺序问两遍，选词基本不会错。",
+      "head": [
+        "成分",
+        "含义",
+        "例词",
+        "辨析要点"
+      ],
+      "rows": [
+        [
+          "graph",
+          "写、记录（行为或工具）",
+          "photograph, geography, graphic",
+          "强调书写动作或手段"
+        ],
+        [
+          "gram",
+          "写下的东西、记录",
+          "telegram, diagram, program",
+          "强调成品的文本或图形"
+        ],
+        [
+          "-meter",
+          "测量仪器",
+          "thermometer, telemeter",
+          "是实物，可数"
+        ],
+        [
+          "-metry",
+          "测量术、测量结果",
+          "geometry, telemetry, odometry",
+          "是方法或数据，不可数"
+        ],
+        [
+          "-graphy",
+          "记录术、学科",
+          "photography, geography",
+          "常指一门技术或学科"
+        ]
+      ]
+    },
+    {
+      "kind": "matrix",
+      "title": "graph 的构词矩阵",
+      "body": "矩阵显示 graph 的两种用法：作第二成分（photo + graph、geo + graphy）时表示“记录、描写”；作第一成分（graph + ic、graph + ite）时表示“书写”这一动作特征。graphite 的命名理由很朴素——它能在纸上留下字迹。",
+      "base": "graph",
+      "prefixes": [
+        {
+          "text": "photo",
+          "glossZh": "光"
+        },
+        {
+          "text": "geo",
+          "glossZh": "大地"
+        },
+        {
+          "text": "tele",
+          "glossZh": "远"
+        }
+      ],
+      "suffixes": [
+        {
+          "text": "y",
+          "glossZh": "名词后缀：技术、学科"
+        },
+        {
+          "text": "ic",
+          "glossZh": "形容词后缀"
+        },
+        {
+          "text": "ite",
+          "glossZh": "名词后缀：矿物"
+        },
+        {
+          "text": "er",
+          "glossZh": "名词后缀：人或器材"
+        }
+      ],
+      "words": [
+        {
+          "w": "photograph",
+          "parts": [
+            "photo",
+            "graph"
+          ],
+          "glossZh": "照片；拍照"
+        },
+        {
+          "w": "photographer",
+          "parts": [
+            "photo",
+            "graph",
+            "er"
+          ],
+          "glossZh": "摄影师"
+        },
+        {
+          "w": "geography",
+          "parts": [
+            "geo",
+            "graph",
+            "y"
+          ],
+          "glossZh": "地理学"
+        },
+        {
+          "w": "graphic",
+          "parts": [
+            "graph",
+            "ic"
+          ],
+          "glossZh": "图形的、生动的"
+        },
+        {
+          "w": "graphite",
+          "parts": [
+            "graph",
+            "ite"
+          ],
+          "glossZh": "石墨"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "lidar 不是希腊词：别硬拆",
+      "body": "在机器人论文里，lidar 出现频率极高，但它是 **LIght Detection And Ranging** 的首字母缩略词，与希腊词根无关。看到 -dar 就去找“测量”的词根，是典型的过度拆分。\n\n真正的 -metry 术语在同一个领域里另有其人：**odometry**（轮式里程计，hodos“道路”+ metron）、**telemetry**（遥测，tele“远”+ metron）、**photogrammetry**（摄影测量）、**trilateration**（三边定位，虽然用的是拉丁 later-“边”，不是希腊 metron）。\n\n所以读论文时要分清三种词：**继承或借入的词、用希腊零件造的术语、首字母缩略词**。缩略词只能整体记，拆开没有意义。",
+      "terms": [
+        {
+          "term": "acronym",
+          "zh": "首字母缩略词",
+          "en": "acronym",
+          "note": "取词组首字母构成的新词，如 lidar、NASA"
+        }
+      ],
+      "morphemes": [
+        "metr",
+        "tele"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w06d3-p1",
+      "kind": "mcq",
+      "prompt": "-metry 这个成分表示什么？",
+      "choices": [
+        "测量、测量术",
+        "记录",
+        "仪器",
+        "学科"
+      ],
+      "answer": 0,
+      "explain": "metron 是“尺度、测量”，-metry 表示测量的方法或结果，如 geometry、telemetry、odometry。仪器是 -meter，记录是 -graphy，学科是 -logy。",
+      "concepts": [
+        "metr",
+        "c-combining"
+      ]
+    },
+    {
+      "id": "w06d3-p2",
+      "kind": "mcq",
+      "prompt": "关于 photograph 的词源，下面哪项正确？",
+      "choices": [
+        "19 世纪用希腊零件造的人造术语，1839 年前后进入英语",
+        "直接从古希腊语继承而来的词",
+        "由英语本土词 photo 与 graph 复合而成",
+        "来自拉丁语，与希腊语无关"
+      ],
+      "answer": 0,
+      "explain": "photo-（光）与 -graph（记录）都是希腊成分，但整词是 1830 年代法语 photographie 的人造术语，1839 年随摄影术公开进入英语。古希腊语中不存在这个词。",
+      "concepts": [
+        "graph",
+        "c-scientific",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w06d3-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词",
+      "sentence": "Wheel ___ is unreliable on loose gravel, because slip accumulates with every rotation.",
+      "answer": "odometry",
+      "accept": [
+        "odometry"
+      ],
+      "explain": "hodos（道路）+ metron（测量）+ y → odometry“里程计”，靠累计轮子转动推算位移。后半句的 slip accumulates 正是它失准的原因。",
+      "concepts": [
+        "metr",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w06d3-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词，写出结果",
+      "parts": [
+        "thermo",
+        "meter"
+      ],
+      "answer": "thermometer",
+      "explain": "thermo（热）+ meter（测量仪器）→ thermometer“温度计”。-meter 指仪器，所以它是实物名词；若换成 -metry 则指测温方法。",
+      "concepts": [
+        "therm",
+        "meter"
+      ]
+    },
+    {
+      "id": "w06d3-p5",
+      "kind": "mcq",
+      "prompt": "telegram 与 telegraph 的差别，最准确的解释是？",
+      "choices": [
+        "-gram 指发送出去的那份文字记录，-graph 指发送与记录的技术装置",
+        "两者完全同义，只是拼写不同",
+        "-gram 是动词，-graph 是名词",
+        "-gram 来自拉丁语，-graph 来自希腊语"
+      ],
+      "answer": 0,
+      "explain": "gram 是“写下的东西”，所以 telegram 是电报（那份报文）；graph 是“书写、记录的手段”，telegraph 是电报机与电报系统。同源成分，指称对象不同。",
+      "concepts": [
+        "gram",
+        "graph"
+      ]
+    },
+    {
+      "id": "w06d3-p6",
+      "kind": "matrix",
+      "prompt": "用矩阵生成单词：词基 metr，加前缀 tele-，加后缀 -y，结果是？",
+      "base": "metr",
+      "prefix": "tele",
+      "suffix": "y",
+      "answer": "telemetry",
+      "explain": "tele（远）+ metr（测量）+ y（名词后缀）→ telemetry“遥测”。注意词基用 metr 而非 meter，因为后面接的是 -y。",
+      "concepts": [
+        "tele",
+        "metr"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w06d3-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的系统说明，推测划线词的含义",
+      "passage": "Because wheel odometry drifts badly on wet grass, the planner fuses it with scan matching, which aligns consecutive lidar sweeps to estimate motion.",
+      "word": "odometry",
+      "choices": [
+        "通过累计轮子转动推算的位移测量",
+        "对车轮直径的几何测量",
+        "对路面摩擦系数的估计",
+        "对激光扫描点数的统计"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：hodos（道路）+ metron（测量）+ y；② 搭配：wheel odometry 是固定术语；③ 语境：fuses it with scan matching ... to estimate motion，说明它是估计运动的一种手段，且与“轮子”有关。",
+      "explain": "odometry 是“里程计”：由轮子转过的圈数乘以周长推算位移。drifts badly 说明误差会累积，因此需要与 scan matching 融合。它不等于“测量车轮尺寸”，那是几何测量而非运动估计。",
+      "concepts": [
+        "metr",
+        "c-inference",
+        "c-scientific"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "photograph、telegram、graphite、odometry 的首次用例"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "希腊词根 graph、gram、metron"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5：acronym 与 combining form 的边界"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "id": "w09d6",
+  "week": 9,
+  "day": 6,
+  "title": "怎样读一条词源：字段、证据与三条红线",
+  "tagline": "拿到一条词源记录，能分清哪句是证据、哪句是推测，以及它不能证明什么",
+  "objectives": [
+    "能说出词源条目的五个基本字段并各举一例",
+    "能解释 first attested 的含义，并指出它不等于词的产生时间",
+    "能识别民间词源与同形异源，避免用词源直接推断现代义"
+  ],
+  "prereqs": ["w09d5"],
+  "concepts": ["c-etymology", "c-cognate", "c-semantic-shift"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "词源条目其实是五栏表格",
+      "body": "一条标准的词源记录，结构比看起来简单。以 **etymology** 自己为例（希腊 etymologia < etymon“真义”＋ -logia“研究”），任何条目都大致包含：\n\n1. **词头**（headword）与词性。\n2. **首次文献记录**（first attested）：如“14 世纪”“1590s”“古英语”。\n3. **来源链**：语言与形式逐层回溯，如 Latin → Old French → Middle English。\n4. **语源词的意义**（etymon gloss）：如 debitum“欠下的东西”。\n5. **同源词与注释**：cognates、方言形式、拼写变化说明。\n\n读条目时，先把这五栏在心里分开。**第 3 栏是证据，第 4 栏常是重建或推测**，两者不能混着引用。",
+      "terms": [
+        { "term": "etymon", "zh": "语源词", "en": "etymon", "note": "被追溯的那个更早形式" },
+        { "term": "first attested", "zh": "首次文献记录", "en": "first attested" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "first attested 是“最早的书面证据”，不是“生日”",
+      "body": "词典写“1590s”，意思是：**目前找到的最早书面记录出现在 1590 年代**。它不等于这个词在 1590 年代被发明。\n\n原因很实际：口语先于书写，书写又受保存条件限制。一个词可能在民间说了几十年才第一次被写进一本书；一份手稿可能已经失传。所以：\n\n- 记录晚，不代表词新；\n- 记录早，也不代表词老——可能只是那份文本恰好留存下来；\n- 不同词典的年份略有差异，通常是因为收录的语料库不同。\n\n写论文时正确表述是：“the word is first attested in the 1590s”，而不是“the word was coined in the 1590s”。这一字之差，就是学术严谨度。",
+      "terms": [
+        { "term": "attestation", "zh": "文献见证", "en": "attestation" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "词源与共时构词：两套完全不同的问题",
+      "body": "这是本课程最重要的一条边界。同一个词可以有两种描述，它们回答的不是同一个问题，因此也不能互相“证明”。下表左列追时间，右列看当下；把两列混用，是词源类题目最常见的失分点。",
+      "a": "历史词源（etymology）",
+      "b": "共时构词（synchronic morphology）",
+      "rows": [
+        ["追问", "这个词从哪个更早的形式、经什么路径来", "今天的说话人如何分析这个词的结构"],
+        ["证据", "文献记录、语音对应规律、借词路径", "替换测试、词族成员的共现"],
+        ["结论示例", "nice 来自拉丁 nescius“无知的”", "nice 在现代英语中不可再切分"],
+        ["能否预测现代义", "不能。词义由后来用法决定", "部分能。透明词可由词素推出"],
+        ["常见误用", "因为词源是 X，所以现代义是 X", "把 mnemonic 拆分当成历史事实"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "同形异源：bank 的两个“bank”",
+      "body": "**bank**（河岸）与 **bank**（银行）拼写相同、读音相同，但来源不同：\n\n- 河岸义来自古北欧语 banki（与“隆起、台地”有关）；\n- 金融义经法语 banque 来自意大利语 banca“长凳、钱桌”，因为早期钱商在长凳上交易。\n\n也就是说，它们不是“一个词扩展出两个义项”，而是**两个不同的词在英语里撞成了同一个形状**。这叫**同形异源**（homonymy），与**一词多义**（polysemy）相对。\n\n判断方法：如果两个义项之间找不到可解释的语义联系，且来源链不同，就按同形异源处理。第 10 周第 1 天会专门讲这套区分。",
+      "terms": [
+        { "term": "homonymy", "zh": "同形异源", "en": "homonymy" },
+        { "term": "polysemy", "zh": "一词多义", "en": "polysemy" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三条红线：拼写相似、民间词源、以源代义",
+      "body": "**红线一：拼写相似不等于同源。** 英语 have 与拉丁 habere 长得像，但并不同源；island 的 s 是被错误插入的。判断同源要靠**规则语音对应**，而不是视觉相似。\n\n**红线二：民间词源会伪装成词源。** 典型例子：\n\n- female 并非“fe + male”，它来自古法语 femelle（< 拉丁 femella），-male 的拼写是后人按 male 类推改的；\n- hamburger 来自德国城市 Hamburg ＋ -er，与 ham（火腿）无关；\n- history 不是“his story”。\n\n**红线三：不能用词源替代现代义。** nice 来自“无知的”，但今天说 *a nice day* 与“无知”毫无关系。词源是历史，意义是现状。\n\n这三条会在第 10 周反复用到，因为语义演变的题目最容易在这里出错。"
+    },
+    {
+      "kind": "passage",
+      "title": "实战：一条真实条目该怎么引用",
+      "body": "假设你在写一篇关于“预算”的论文，想加一句词源说明。词源可以写，但要区分“来源链”与“演变轶事”：前者可以引用，后者通常只是通行解释。下面这条真实条目里，两种信息混在一起，需要你拆开。",
+      "excerpt": "budget (n.): from Middle French bougette “little bag”, diminutive of bouge “leather bag”, from Latin bulga “bag”. The modern sense “estimate of income and expenditure” developed in the 18th century, and is often associated with the practice of presenting financial plans to Parliament in a bag.",
+      "glossZh": "budget（名词）：来自中古法语 bougette“小袋子”，是 bouge“皮袋”的指小形式，源自拉丁 bulga“袋子”。现代义“收支预算”于 18 世纪发展出来，源于把财政计划装在袋中提交议会的做法。",
+      "questions": [
+        { "q": "这条记录里哪部分是文献可证的来源链？", "a": "Middle French bougette < Latin bulga，以及 18 世纪出现“预算”义的记录。" },
+        { "q": "“装在袋中提交议会”属于哪类信息？", "a": "语义演变的背景解释，常被视为通行说法（anecdotal account），引用时应注明是解释而非直接证据。" },
+        { "q": "能不能据此说 budget 的本义就是“预算”？", "a": "不能。本义是“小袋子”，现代义是 18 世纪才出现的扩展。" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w09d6-p1",
+      "kind": "mcq",
+      "prompt": "词典标注某个词“first attested 1590s”，正确的理解是？",
+      "choices": [
+        "这是目前找到的最早书面记录年代，不等于词的产生时间",
+        "这个词是 1590 年代被发明的",
+        "这个词在 1590 年代才进入口语",
+        "1590 年代之后这个词不再变化"
+      ],
+      "answer": 0,
+      "explain": "attestation 只说明现存文献中最早的出现时间。口语先于书写，文献又有散佚，因此记录年代通常晚于实际使用年代。学术写作应写 first attested in，而不是 was coined in。",
+      "concepts": ["c-etymology"]
+    },
+    {
+      "id": "w09d6-p2",
+      "kind": "mcq",
+      "prompt": "关于 bank（河岸）与 bank（银行），下面哪种说法正确？",
+      "choices": [
+        "二者同形异源：河岸义来自古北欧语 banki，金融义经法语 banque 来自意大利语 banca“长凳”",
+        "二者是同一个词的两个义项，金融义由河岸义隐喻扩展而来",
+        "二者都来自拉丁语 bancus，只是拼写分化",
+        "bank 只有一个义项，另一个是俚语"
+      ],
+      "answer": 0,
+      "explain": "两个 bank 来源链不同、语义上也没有可解释的联系，属于同形异源（homonymy），不是一词多义。判断依据是来源链与语义联系，而非“看起来像不像”。",
+      "concepts": ["c-etymology", "c-semantic-shift"]
+    },
+    {
+      "id": "w09d6-p3",
+      "kind": "mcq",
+      "prompt": "下面哪个解释属于民间词源（folk etymology）？",
+      "choices": [
+        "female 是 fe + male 的组合，表示“女性相对于男性”",
+        "female 来自古法语 femelle，源自拉丁 femella",
+        "hamburger 来自德国城市 Hamburg 加 -er",
+        "nice 来自拉丁 nescius“无知的”"
+      ],
+      "answer": 0,
+      "explain": "female 并非 fe + male 的组合；它来自古法语 femelle（< 拉丁 femella，femina 的指小形式），拼写中的 -male 是后人按 male 类推改的。把一个不透明的词重新解释成“看起来合理”的结构，就是民间词源。",
+      "concepts": ["c-etymology"]
+    },
+    {
+      "id": "w09d6-p4",
+      "kind": "cloze",
+      "prompt": "填入一个中文词",
+      "sentence": "词源研究词的 ___ 来源与语义演变，共时构词分析则描述现代说话人如何分析这个词。",
+      "answer": "历史",
+      "accept": ["历史", "historical", "history"],
+      "explain": "词源是历时（diachronic）研究，追问形式与意义的历史来源；共时构词（synchronic morphology）只描述某一时期的系统状态。两者可以不一致，例如 nice 有拉丁语源，但在现代英语中不可再切分。",
+      "concepts": ["c-etymology"]
+    },
+    {
+      "id": "w09d6-p5",
+      "kind": "mcq",
+      "prompt": "有学习者说：“nice 的词源是‘无知的’，所以它其实带贬义。”这个推理错在哪里？",
+      "choices": [
+        "词源只说明历史来源，现代义由后来的用法决定，不能用词源否定现代义",
+        "因为词源是 X，现代义就一定是 X",
+        "词源可以预测所有现代义项",
+        "nice 没有可考的词源"
+      ],
+      "answer": 0,
+      "explain": "nice 从拉丁 nescius“无知的”经法语进入英语，经历了“愚蠢 → 挑剔 → 精细 → 令人愉快”的长期变化。现代语料中 nice 是中性偏褒的评价词。用历史义否定现代义，是把历时与共时混为一谈。",
+      "concepts": ["c-etymology", "c-semantic-shift"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w09d6-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "The lab's equipment budget was cut by a third this year, so the team postponed the sensor upgrade and reused the older cameras.",
+      "word": "budget",
+      "choices": ["可用于支出的经费额度", "装钱的小袋子", "设备的清单编号", "实验的时间安排"],
+      "answer": 0,
+      "strategy": "① 句法：budget 作中心名词，被 equipment 修饰，后接 was cut by a third，说明是可被削减的额度；② 因果链：so 引出“推迟升级、改用旧相机”，说明削减的是钱；③ 词源干扰：本义“小袋子”在此完全不适用，必须靠语境取义。",
+      "explain": "budget 本义是“小袋子”，18 世纪才发展出“收支预算”义。这个题的关键是：**词源不能用于取义**。语境（cut by a third、推迟采购）已经明确指向经费额度，若按本义理解就会出错。",
+      "concepts": ["c-etymology", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "词源记录的结构与历时／共时之分" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "bank、female、budget、nice 的条目与首次记录年代" }
+  ]
+}

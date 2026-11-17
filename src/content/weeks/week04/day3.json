@@ -1,0 +1,143 @@
+{
+  "id": "w04d3",
+  "week": 4,
+  "day": 3,
+  "title": "动词后缀：把名词和形容词“变成动作”",
+  "tagline": "用 -ize / -ify / -en / -ate 认出动词，并知道哪个后缀还能放心用来造新词",
+  "objectives": [
+    "能说出 -ize、-ify、-en、-ate 各自的语义功能与能产性差别",
+    "能识别 -ate 结尾词的多重词性，不把 estimate 一律当动词",
+    "能区分 -en 作动词后缀与作过去分词、形容词后缀的三种用法"
+  ],
+  "prereqs": ["w04d2"],
+  "concepts": ["c-suffix", "c-derivation", "c-frequency", "c-register"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "动词后缀只有四个常用",
+      "body": "相比名词和形容词后缀，动词后缀数量少、分工清楚。它们大多表达“使……”：\n\n- **-ize / -ise**：使……化（modernize、stabilize）\n- **-ify**：使成为、使变得（simplify、classify）\n- **-en**：使变得（widen、strengthen）\n- **-ate**：多为拉丁动词的固定词尾（activate、calculate）\n\n前三个仍能造新词，第四个基本封闭。判断一个陌生词是不是动词，先看词尾：-ize、-ify 几乎不会错；-en 与 -ate 有同形干扰，需要结合句法位置。",
+      "morphemes": ["ize", "ise", "ify", "en", "ate"]
+    },
+    {
+      "kind": "table",
+      "title": "四个动词后缀的对比",
+      "body": "第四列的能产性是相对排序，不是绝对数字。它决定了你在写作时能不能“自己造一个词”，以及造出来会不会显得自然。-ize 可以接在新名词上（containerize、tokenize），读者一般能懂；-ate 若拿来造新词，几乎一定显得别扭。这条差别很实际：需要新动词时优先用 -ize，而不是从拉丁词尾硬凑。",
+      "head": ["后缀", "来源", "语义", "能产性与例词"],
+      "rows": [
+        ["-ize / -ise", "希腊 -izein，经拉丁、法语", "使……化、以……方式处理", "最高：modernize, optimize, standardize, tokenize"],
+        ["-ify", "拉丁 -ificare（facere 做）", "使成为、使变得", "较高：simplify, classify, verify, quantify"],
+        ["-en", "古英语", "使变得、使成为", "中等：widen, deepen, strengthen, frighten"],
+        ["-ate", "拉丁过去分词词尾", "构成动词（多为固定词）", "很低：activate, calculate, generate, isolate"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-ize：技术语域里最活跃的动词后缀",
+      "body": "**-ize** 几乎可以加在任何名词或形容词后，表示“使成为／使具备／按某种方式处理”：computer → computerize，standard → standardize，optimal → optimize，token → tokenize，vector → vectorize。计算机与工程文献里的新动词，很大一部分走这条路。\n\n英式拼写常用 **-ise**（standardise、organise），美式用 **-ize**；两种都被接受，但同一篇文章内要统一。\n\n一个必须记住的边界：**不是所有以 -ise 结尾的词都是 -ize 动词**。exercise、promise、advise、surprise、revise、supervise 都来自其他拉丁或法语词尾，不能改写成 -ize，也不能按“使……化”理解。",
+      "morphemes": ["ize", "ise"]
+    },
+    {
+      "kind": "text",
+      "title": "-en 的三副面孔",
+      "body": "**-en** 在英语里有三种完全不同的用法，混起来会判错词性：\n\n1. **动词后缀**，加在形容词或名词后表“使变得”：wide → widen，strength → strengthen，dark → darken。\n2. **过去分词词尾**，属于屈折变化：break → broken，take → taken，speak → spoken。这里的 -en 不创造新词，只改变语法形式。\n3. **形容词后缀**，加在名词后表“由……制成的”：gold → golden，wood → wooden，silk → silken。\n\n判断方法还是句法位置：The glass was broken 里是分词；a wooden box 里是形容词；to widen the road 里是动词。词尾只提供候选，位置做最终裁决。",
+      "morphemes": ["en"]
+    },
+    {
+      "kind": "compare",
+      "title": "-ize 与 -ify：都能造动词，气质不同",
+      "body": "两者都表“使……”，但搭配的词基与语域不同。-ize 更偏“纳入某个系统、按某种程序处理”，-ify 更偏“使某物获得某种性质”。所以 standardize 是“按标准处理”，simplify 是“使变简单”：前者强调过程与规范，后者强调结果状态。少数词两者都能接但意义不同，遇到时要查词典而不是类推。",
+      "a": "-ize",
+      "b": "-ify",
+      "rows": [
+        ["核心义", "使……化、按……方式处理", "使成为、使具有某性质"],
+        ["典型词基", "名词为主（computer, standard, token）", "形容词与名词（simple, class, solid）"],
+        ["语域", "技术、商业、管理", "通用与学术兼有"],
+        ["例词", "optimize, standardize, operationalize", "simplify, classify, solidify"],
+        ["新词潜力", "很高，但部分新造词被视为行话", "中等"]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w04d3-p1",
+      "kind": "mcq",
+      "prompt": "“使……标准化”对应的动词是：",
+      "choices": ["standard", "standardize", "standardly", "standardness"],
+      "answer": 1,
+      "explain": "standard（标准）是名词，加 -ize 构成 standardize“使标准化”。standardly 是副词（且很少用），standardness 不是常用名词。在技术写作里，-ize 是名词转动词最常用的路径。",
+      "concepts": ["ize", "c-derivation"]
+    },
+    {
+      "id": "w04d3-p2",
+      "kind": "cloze",
+      "prompt": "把括号中的词 simple 变成合适的动词形式",
+      "sentence": "The new interface ___ the setup process: two clicks instead of twelve.",
+      "answer": "simplifies",
+      "accept": ["simplify", "简化"],
+      "explain": "simple 是形容词，加 -ify 构成 simplify“使简化”。主语 The new interface 是第三人称单数，一般现在时用 simplifies。冒号后的“两次点击代替十二次”是对“简化”的具体说明。",
+      "concepts": ["ify", "c-suffix", "c-inflection"]
+    },
+    {
+      "id": "w04d3-p3",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词：strength + en → ?",
+      "parts": ["strength", "en"],
+      "answer": "strengthen",
+      "explain": "strength（力量）是名词，加 -en 构成 strengthen“加强”。这里 -en 加在名词而非形容词后，表示“使具备该名词所示的性质”。注意拼写保留 strength 的全部字母，不省略中间的 g。",
+      "concepts": ["en", "c-derivation"]
+    },
+    {
+      "id": "w04d3-p4",
+      "kind": "mcq",
+      "prompt": "The window was broken during the storm. 中 broken 的 -en 属于：",
+      "choices": ["动词后缀，构成新动词", "过去分词词尾，属于屈折变化", "形容词后缀，表示“由……制成”", "名词后缀，表示状态"],
+      "answer": 1,
+      "explain": "broken 是 break 的过去分词，-en 在此承担语法功能（构成被动/完成形式），不创造新词，属于屈折而非派生。对比 widen（形容词 + -en 构成动词）与 wooden（名词 + -en 构成形容词），同一个词尾三种身份，必须靠句法位置区分。",
+      "concepts": ["en", "c-inflection", "c-derivation"]
+    },
+    {
+      "id": "w04d3-p5",
+      "kind": "mcq",
+      "prompt": "关于 estimate 一词，正确的说法是：",
+      "choices": [
+        "只能作动词",
+        "只能作名词",
+        "既可作动词也可作名词，词性由句法位置决定",
+        "-ate 结尾的词一定是动词"
+      ],
+      "answer": 2,
+      "explain": "estimate 既可作动词（estimate the cost）也可作名词（a rough estimate），属于转换构词。同类还有 graduate、moderate、separate。-ate 是四个动词后缀中最不可靠的一个：accurate、fortunate 是形容词，candidate 是名词，不能凭词尾定词性。",
+      "concepts": ["ate", "c-conversion", "c-suffix"]
+    },
+    {
+      "id": "w04d3-p6",
+      "kind": "mcq",
+      "prompt": "要在论文中为“把点云转成体素表示”造一个动词，最自然的后缀选择是：",
+      "choices": ["-en", "-ify", "-ize", "-ate"],
+      "answer": 2,
+      "explain": "-ize 在技术语域能产性最高，voxelize（体素化）、tokenize、vectorize 都是这样造的。-en 主要接单音节形容词，且偏本土日常；-ify 可以但不如 -ize 常见于这类“转为某种表示”的动词；-ate 已基本不用于新造词。",
+      "concepts": ["ize", "c-frequency", "c-register"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w04d3-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的点云处理说明，推测划线词的含义",
+      "passage": "Before matching, the raw point cloud is voxelized: the space is divided into small cubes, and all points inside a cube are replaced by a single representative point.",
+      "word": "voxelized",
+      "choices": ["被划分成体素网格的", "被降噪滤波的", "被转换成图像的", "被标记为无效的"],
+      "answer": 0,
+      "strategy": "① 切分：voxel（体素，三维像素）+ ize（使……化）+ ed（过去分词）；② 词性：be + 过去分词构成被动，voxelized 是动词的被动形式；③ 语境：冒号后解释“空间被分成小立方体，每格内的点用一个代表点替代”；④ 排除：降噪、转图像、标无效都没有“划分网格”的含义。",
+      "explain": "voxelized 意为“体素化的”，即把连续空间离散成三维网格。voxel 由 volume 与 pixel 缩合而成（属混成词），再加 -ize 构成动词，是技术语域里 -ize 高能产性的典型例证。",
+      "concepts": ["ize", "c-inference", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4 章：动词后缀与能产性排序" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "-ize / -ify / -en / -ate 词表" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5：派生与屈折的区分" }
+  ]
+}

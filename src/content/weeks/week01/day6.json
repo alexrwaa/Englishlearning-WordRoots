@@ -1,0 +1,151 @@
+{
+  "id": "w01d6",
+  "week": 1,
+  "day": 6,
+  "title": "三种分析不能混：词源、共时构词与记忆拆分",
+  "tagline": "分清“这个词历史上从哪来”“今天怎么构成”“用什么办法记”，从此不再被词源故事带偏",
+  "objectives": [
+    "能区分历史词源、现代共时构词、辅助记忆拆分三种陈述",
+    "能解释为什么 nice、understand 不能按现代词素切开",
+    "能识别拼写中并不承载意义的字母（如 island 的 s）"
+  ],
+  "prereqs": ["w01d5", "c-word-family"],
+  "concepts": ["c-etymology", "c-morpheme", "c-transparency", "c-inference"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "三种陈述，三种证据",
+      "body": "同一个词可以有三套完全不同的说法，它们回答的问题不一样，可靠程度也不一样。混乱几乎都来自把其中一种当成另一种来用，尤其是拿词源去解释现代词义——那样得到的结论往往听起来很专业，实际上无法预测今天的用法。",
+      "head": ["类型", "回答的问题", "证据来源", "典型例子"],
+      "rows": [
+        ["历史词源 etymology", "这个词从哪个更早的形式演变而来", "历史文献、同源语言比较", "nice 来自拉丁 nescius“无知”"],
+        ["共时构词 synchronic morphology", "今天的说话人怎样分析这个词的结构", "替换测试、词族、能产性", "unhelpful = un + helpful"],
+        ["辅助记忆 mnemonic", "用什么办法帮我记住它", "联想、谐音、故事，无须真实", "把 business 记成“忙（busy）出来的事”"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "nice：词源是“无知”，现代义是“令人愉快”",
+      "body": "nice 的词源链条很清楚：拉丁 nescius“无知的”（ne- 不 + scire 知道）→ 古法语 nice“愚蠢的、软弱的”→ 中古英语“羞怯的、挑剔的”→ 18 世纪以后“令人愉快的”。\n\n但今天没有人会把 nice 切成 ne + scius，也没有人能从“不 + 知道”推出“令人愉快”。**历史上有结构，不等于今天还有结构**。\n\n这正是词源故事的危险之处：它听起来很有说服力，却常常解释不了现代用法。词源可以用来理解语义演变（第 9、10 周会讲），但不能用来做今天的构词分析。",
+      "morphemes": ["nice"]
+    },
+    {
+      "kind": "text",
+      "title": "understand：已经词汇化",
+      "body": "understand 在历史上确实由 under + stand 构成，古英语 understandan 的字面义接近“站在其中、置于其间”。但现代义“理解”无法由“站在下面”推出，两个成分的边界对今天的说话人也不透明。\n\n这类词叫**词汇化**（lexicalization）：一个原本可分析的组合，整体意义固化成一个不可推导的单位。对它的正确处理是：承认历史来源，但按一个整体词素来教与记。\n\n判断标准很实用：**能不能用替换测试得到稳定的意义变化**。stand → understand 换不出可预测的结果，所以它不是现代构词。",
+      "terms": [
+        { "term": "lexicalization", "zh": "词汇化", "en": "lexicalization" },
+        { "term": "transparency", "zh": "透明度", "en": "morphological transparency" }
+      ],
+      "morphemes": ["understand"]
+    },
+    {
+      "kind": "text",
+      "title": "拼写里的字母不等于词素",
+      "body": "island 拼写里的 s 是 16 世纪加上去的：这个词古英语写作 īegland（īeg“岛”+ land“陆地”），学者们误以为它与拉丁来源的 isle 同源，于是补了一个 s。**这个 s 不承载任何意义**，也不能通过替换测试。\n\nhydrogen 是另一种情况：它确实可以拆成 hydro（水）+ gen（产生），但这个拆法反映的是 18 世纪造词者的设计，而不是英语自然演变的结果。它属于“按规则造出来的术语”，所以拆解可靠、可教学。\n\n两种情况的共同教训是：**先问这个结构属于哪一类，再决定要不要拆**。",
+      "morphemes": ["island", "hydrogen"]
+    },
+    {
+      "kind": "compare",
+      "title": "怎么判断一种说法靠不靠谱",
+      "body": "遇到“这个词其实是 XX + XX”的说法，用下面三行快速检验。第三行最有用：如果拆出来的部分在现代英语里根本不能独立使用，那多半只是记忆技巧。前两行则用来排除“碰巧拼得像”的情况——真实的结构总能找到一批同伴。",
+      "a": "可靠的结构分析",
+      "b": "不可靠的联想",
+      "rows": [
+        ["可替换性", "换掉某一块，词义可预测地改变", "换掉之后讲不通或意义无关"],
+        ["同族证据", "能找到三个以上共享该成分的真实词", "只有这一个词能这么拆"],
+        ["成分地位", "每块都是词典收录的词素", "有一块只在这个词里出现"],
+        ["目的", "解释词义与词性", "只求记住拼写"]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w01d6-p1",
+      "kind": "mcq",
+      "prompt": "有学习者说：“nice 来自拉丁 nescius（无知的），所以 nice 里含‘无知’的意思。”这个说法的问题是什么？",
+      "choices": [
+        "nescius 不是拉丁词",
+        "把历史词源当成了现代共时构词，现代义无法由成分推出",
+        "nice 是屈折变化，不能分析",
+        "nice 其实来自希腊语"
+      ],
+      "answer": 1,
+      "explain": "词源说明的是历史来源，现代 nice 已不能切成 ne + scius，也无法从“不 + 知道”推出“令人愉快”。承认词源，但不能用它解释今天的结构与词义。",
+      "concepts": ["c-etymology", "c-transparency", "c-morpheme"]
+    },
+    {
+      "id": "w01d6-p2",
+      "kind": "mcq",
+      "prompt": "island 拼写中的 s 说明了什么？",
+      "choices": [
+        "s 是一个表示“岛”的词素",
+        "s 是复数标记",
+        "拼写中的字母不一定对应词素，这个 s 是后来误加的",
+        "island 是拉丁借词"
+      ],
+      "answer": 2,
+      "explain": "island 来自古英语 īegland（īeg + land），16 世纪学者误以为它与拉丁 insula 来源的 isle 相关，才补上 s。这个 s 不承载意义，也无法通过替换测试。",
+      "concepts": ["c-morpheme", "c-etymology"]
+    },
+    {
+      "id": "w01d6-p3",
+      "kind": "cloze",
+      "prompt": "填入术语（英文或中文均可）",
+      "sentence": "A trick that helps you remember a word's spelling but does not reflect its real structure is called a ___ device.",
+      "answer": "mnemonic",
+      "accept": ["记忆", "助记", "mnemonic", "辅助记忆"],
+      "explain": "mnemonic（助记）只服务于记忆，不承诺结构真实。它可以很好用，但不能当成构词分析写进答案。",
+      "concepts": ["c-morpheme", "c-transparency"]
+    },
+    {
+      "id": "w01d6-p4",
+      "kind": "mcq",
+      "prompt": "关于 hydrogen，下面哪个说法是准确的？",
+      "choices": [
+        "它是英语本土的复合词，由 hydro 和 gen 自然组合而成",
+        "它可以拆成 hydro（水）+ gen（产生），但它是 18 世纪科学界新造的术语",
+        "它不能拆解，因为现代英语里没有 hydro 这个词",
+        "它的 gen 是屈折后缀"
+      ],
+      "answer": 1,
+      "explain": "hydrogen 可拆为 hydro + gen，这个结构反映造词者的设计；但它是 1783 年前后拉瓦锡团队在法语中造出的科学术语，不是英语本土自然复合。可拆解与自然生成是两件事。",
+      "concepts": ["c-etymology", "c-scientific", "c-combining", "hydro"]
+    },
+    {
+      "id": "w01d6-p5",
+      "kind": "mcq",
+      "prompt": "有学习者把 business 切成 busi + ness，并说 busi 是“巴士”。正确分析应该是？",
+      "choices": [
+        "business = busy + ness，拼写中 y 变 i",
+        "business 是 bus + ness 的复合词",
+        "business 的 -ness 是屈折后缀",
+        "business 不能切分，是一个单纯词"
+      ],
+      "answer": 0,
+      "explain": "business 来自 busy + ness，属派生词；拼写上 y 在 -ness 前变为 i。busi 不是独立词素，“巴士”只是谐音联想，属于助记而非结构分析。",
+      "concepts": ["c-morpheme", "c-derivation", "ness"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w01d6-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "Travellers arriving from affected regions were required to spend two weeks in quarantine, a restriction that public-health officials defended as a way to keep the virus from spreading through the port city.",
+      "word": "quarantine",
+      "choices": ["隔离期、检疫隔离", "四分之一", "询问与登记", "港口通行许可"],
+      "answer": 0,
+      "strategy": "①现代形态上 quarantine 不可再切（quarant + ine 不承载可组合的意义）；②作名词，与 spend two weeks in 搭配，说明是一段时期；③语境是来自疫区的旅客、防止病毒扩散，指向隔离；④不要被词源里的“四十”带偏，那是历史来源，不是现代义。",
+      "explain": "quarantine 的历史词源是意大利语 quaranta giorni“四十天”，指中世纪港口对船只的四十天隔离期。但现代义就是“隔离、检疫隔离”，不能据此推成“四分之一”。这是词源与现代分析不一致的典型例子。",
+      "concepts": ["c-etymology", "c-inference", "c-morpheme"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 9 章：词源与共时分析的区别" },
+    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "nice（nescius）、island（īegland 与 16 世纪 s 的增补）、quarantine 词条" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "词源证据与共时结构证据的区分" }
+  ]
+}

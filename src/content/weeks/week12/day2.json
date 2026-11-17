@@ -1,0 +1,159 @@
+{
+  "id": "w12d2",
+  "week": 12,
+  "day": 2,
+  "title": "论文摘要实战：一段一百词的四层结构",
+  "tagline": "把摘要拆成“背景—方法—结果”，同时把每个技术词拆到词素",
+  "objectives": [
+    "能识别摘要中背景、方法、结果三类信息各自的信号词",
+    "能在不查词典的情况下解析 abstract 中的八个技术词",
+    "能回答关于实验设置与量化结果的理解题",
+    "能说明 voxel 这类混成词与 lidar 的构词共性"
+  ],
+  "prereqs": ["w12d1", "c-scientific", "c-blend"],
+  "concepts": ["c-scientific", "c-blend", "c-register", "c-inference", "c-acronym", "c-combining"],
+  "minutes": { "review": 5, "learn": 9, "practice": 8, "apply": 5 },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "passage",
+      "title": "摘要原文：紧耦合激光惯性里程计",
+      "body": "先通读一遍，不要停下查词。第二遍再用本周的方法处理技术词：每个词先问“head 在哪”，再看前缀。读完后回答下面三个问题——它们分别对应摘要的三层信息。",
+      "excerpt": "Reliable state estimation is a prerequisite for autonomous navigation in GPS-denied environments. This paper presents a tightly coupled lidar–inertial odometry system that fuses measurements from a solid-state lidar and a low-cost inertial measurement unit. To cope with aggressive motion, we propose an adaptive voxel map that is rebuilt whenever the estimated velocity exceeds a threshold. The system is evaluated on three public datasets and on a handheld platform deployed in a subterranean tunnel. Experimental results show that the proposed method reduces translational drift by 42% relative to a loosely coupled baseline, while running in real time on a single CPU core.",
+      "glossZh": "可靠的状态估计是在无 GPS 环境中自主导航的前提。本文提出一种紧耦合的激光—惯性里程计系统，融合固态激光雷达与低成本惯性测量单元的测量。为应对剧烈运动，我们提出自适应体素地图，当估计速度超过阈值时重建。系统在三个公开数据集以及一个部署于地下隧道的手持平台上评估。实验结果表明，相比松耦合基线，所提方法将平移漂移降低 42%，同时在单个 CPU 核心上实时运行。",
+      "questions": [
+        { "q": "这篇论文要解决的问题是什么？", "a": "在无 GPS 环境下为自主导航提供可靠的状态估计（位姿）。信号词：is a prerequisite for。" },
+        { "q": "自适应体素地图在什么条件下重建？", "a": "当估计速度超过阈值时（whenever the estimated velocity exceeds a threshold）。信号词：whenever。" },
+        { "q": "42% 这个数字衡量的是什么？", "a": "相对松耦合基线，平移漂移的降低比例。注意是比较对象（relative to a loosely coupled baseline），不是绝对精度。" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "摘要的四层结构与信号词",
+      "body": "绝大多数工程论文摘要按固定顺序推进：先说问题，再说方法，然后是评估设置，最后给结果。认出信号词，就能在不逐句翻译的情况下定位关键信息——这对快速筛选文献特别有用。下表把四个层级与本段的具体句子对应起来，可以当作读摘要的检查清单。",
+      "head": ["层级", "回答的问题", "常见信号词", "本段对应句"],
+      "rows": [
+        ["背景 / 问题", "为什么这件事重要、难在哪", "is a prerequisite for、remains challenging、however", "第 1 句"],
+        ["方法", "作者做了什么", "we propose、this paper presents、we introduce", "第 2–3 句"],
+        ["评估", "怎么验证", "is evaluated on、we conduct experiments、benchmark", "第 4 句"],
+        ["结果", "得到什么结论", "results show、reduces … by、outperforms、achieves", "第 5 句"]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "八个技术词的构词解剖",
+      "body": "这张表把摘要里的技术词逐个拆开。注意两类特殊成员：lidar 与 voxel 都是混成词，它们的“完整形式”不是构词来源，而是后来配上的解释。",
+      "head": ["词", "构词方式", "拆解", "在句中的意思"],
+      "rows": [
+        ["prerequisite", "拉丁派生", "pre（在前）+ requisite（必需之物）", "前提条件"],
+        ["lidar", "混成 light + radar", "不是缩略词；light detection and ranging 是后配全称", "激光雷达"],
+        ["inertial", "派生", "inert（惰性的）+ ial", "惯性的"],
+        ["odometry", "希腊组合", "odo（路）+ metr（测量）+ y", "里程计"],
+        ["adaptive", "派生", "ad（向）+ apt（适合）+ ive", "自适应的"],
+        ["voxel", "混成 volume + pixel", "三维像素，1980 年代造词", "体素"],
+        ["translational", "派生", "trans（越过）+ lat（被携带）+ ion + al", "平移的"],
+        ["loosely", "派生", "loose（松的）+ ly", "松散地（loosely coupled 松耦合）"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么摘要里的名词这么长",
+      "body": "摘要要在有限字数里塞进最多信息，于是大量使用**名词化**与**多层修饰**：\n\n- 动词变名词：fuse → fusion、estimate → estimation、evaluate → evaluation。好处是可以带定语、可以作主语，坏处是动作的施事消失了。\n- 名词叠加：solid-state lidar、low-cost inertial measurement unit、handheld platform。英语允许名词直接修饰名词，最后一个才是中心词。\n- 形容词化：-al、-ive、-ed 把整段关系压进一个词，如 translational drift（平移漂移，区别于旋转漂移）。\n\n读的时候先做一件事：**找出每个名词短语的中心词**。a tightly coupled lidar–inertial odometry system 的中心是 system，前面四个成分都在回答“哪种系统”。抓住中心，长短语就塌缩成一个简单的骨架。",
+      "morphemes": ["trans", "lat", "ion", "al"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w12d2-p1",
+      "kind": "mcq",
+      "prompt": "根据摘要，自适应体素地图的重建触发条件是？",
+      "choices": [
+        "每处理完一帧就重建",
+        "估计速度超过某个阈值时",
+        "数据集切换时",
+        "CPU 占用率过高时"
+      ],
+      "answer": 1,
+      "explain": "原文是 is rebuilt whenever the estimated velocity exceeds a threshold。whenever 引出触发条件，threshold 是阈值。其余选项在文中均无依据。",
+      "concepts": ["c-inference", "c-register"],
+      "hint": "找 whenever 引导的从句。"
+    },
+    {
+      "id": "w12d2-p2",
+      "kind": "cloze",
+      "prompt": "填入表示“前提条件”的名词",
+      "sentence": "Accurate time synchronization is a ___ for fusing lidar and inertial data, because a few milliseconds of offset can bias the estimated motion.",
+      "answer": "prerequisite",
+      "accept": ["prerequisite"],
+      "explain": "pre（在前）+ requisite（必需之物）→ prerequisite“前提条件”。a prerequisite for 是学术写作的固定搭配，比口语的 first you need 更正式。",
+      "concepts": ["pre", "c-register", "c-scientific"]
+    },
+    {
+      "id": "w12d2-p3",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词（“平移/翻译”）",
+      "parts": ["trans", "lat", "ion"],
+      "answer": "translation",
+      "explain": "trans（越过）+ lat（被携带，拉丁 latus，ferre 的分词）+ ion → translation。字面“被带过去”，所以既指“翻译”也指几何上的“平移”——两个义项共享同一核心。",
+      "concepts": ["trans", "lat", "ion", "c-etymology"]
+    },
+    {
+      "id": "w12d2-p4",
+      "kind": "matrix",
+      "prompt": "用词基 fer 加前缀 in- 和后缀 -ence，写出“推论/推理”",
+      "base": "fer",
+      "prefix": "in",
+      "suffix": "ence",
+      "answer": "inference",
+      "explain": "in（进入）+ fer（携带）+ ence → inference。fer 词族还有 transfer、refer、differ、confer；方向前缀不同，核心“携带”不变。",
+      "concepts": ["fer", "in", "ence", "c-word-family"]
+    },
+    {
+      "id": "w12d2-p5",
+      "kind": "mcq",
+      "prompt": "voxel 与 lidar 在构词上的共同点是？",
+      "choices": [
+        "都是首字母缩略词",
+        "都是两个词各取一部分拼合而成的混成词",
+        "都是拉丁词根加希腊后缀",
+        "都是从德语借入的词"
+      ],
+      "answer": 1,
+      "explain": "voxel = volume + pixel，lidar = light + radar，都是取双方部分音形拼合的混成词（blend）。它们后来都被配上“完整形式”，但那是解释而非来源。",
+      "concepts": ["c-blend", "c-acronym"]
+    },
+    {
+      "id": "w12d2-p6",
+      "kind": "mcq",
+      "prompt": "摘要中 relative to a loosely coupled baseline 这一短语的作用是？",
+      "choices": [
+        "说明实验使用的硬件型号",
+        "说明 42% 这个提升是相对于哪个对照系统而言的",
+        "说明方法的运行速度",
+        "说明数据集的采集地点"
+      ],
+      "answer": 1,
+      "explain": "relative to 引出比较基准：42% 的漂移降低是相对“松耦合基线”而言，不是绝对精度，也不相对于真值。读结果句时必须先找比较对象，否则数字会被误读。",
+      "concepts": ["c-register", "c-inference"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w12d2-a1",
+      "kind": "infer",
+      "prompt": "推测 subterranean 的含义",
+      "passage": "The handheld platform was carried through a subterranean tunnel where no satellite signal reaches, so the only absolute reference came from a handful of surveyed markers installed along the wall.",
+      "word": "subterranean",
+      "choices": ["地下的", "海底的", "郊区的", "山地的"],
+      "answer": 0,
+      "strategy": "① 切分：sub（在下）+ terr（土地）+ anean（形容词后缀）；② 词性：形容词修饰 tunnel；③ 语境：no satellite signal reaches 说明在遮蔽环境中，与墙上的测量标志对应；④ 验证：terr 同族 territory、terrain、terrestrial 都与“土地”有关。",
+      "explain": "sub- 表“在下”，terr 表“土地”，所以 subterranean = 地下的。语境证据是“卫星信号到不了”，只有地下或室内才符合；terrain、territory 提供了词根验证。",
+      "concepts": ["c-inference", "sub", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 10 章：学术语篇中的名词化与修饰堆叠" },
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "voxel（volume + pixel）、subterranean、translation 的词源" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "名词短语中心词判定" }
+  ]
+}

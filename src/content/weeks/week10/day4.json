@@ -1,0 +1,142 @@
+{
+  "id": "w10d4",
+  "week": 10,
+  "day": 4,
+  "title": "词义扩大与缩小：place、meat、deer、hound",
+  "tagline": "用“所指范围变宽还是变窄”解释一组看似无关的词义变化",
+  "objectives": [
+    "能判断一个词的语义变化方向是扩大还是缩小，并给出所指范围的依据",
+    "能说出 place、meat、deer、hound 的古今义差别",
+    "能解释借词竞争如何导致本土词义缩小（hound 与 dog）"
+  ],
+  "prereqs": ["w10d3"],
+  "concepts": ["c-broadening", "c-narrowing", "c-semantic-shift", "c-cognate"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "方向只有两个，判据只有一条",
+      "body": "语义变化的花样很多，但“范围”这一维只有两个方向：\n\n- **扩大（broadening）**：所指范围变宽。dog 原指某一种犬 → 指所有犬。\n- **缩小（narrowing）**：所指范围变窄。meat 原指一切食物 → 专指肉。\n\n判据只有一条：**把古今两个义项画成两个圈，看谁包含谁。** 新圈包住旧圈是扩大，旧圈包住新圈是缩小。\n\n注意区分“范围变化”与“评价变化”：nice 从“无知”到“令人愉快”不是范围问题，而是褒贬升降，属于另一组机制（第 5 天讲）。",
+      "terms": [
+        { "term": "broadening", "zh": "词义扩大", "en": "broadening" },
+        { "term": "narrowing", "zh": "词义缩小", "en": "narrowing" }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "place：从“宽街”到“任何地方”",
+      "body": "place 的来源是一条典型的“空间泛化”路径：\n\n希腊语 plateia（hodos）“宽阔的（路）” → 拉丁 platea“宽街、广场” → 古法语 place“空地、广场” → 中古英语 place → 现代英语“地方、位置、座位、名次”。\n\n每一步都在丢掉具体特征：先丢掉“路”，再丢掉“宽”，再丢掉“户外”，最后只剩“某个位置”。这就是扩大：外延越来越宽，内涵越来越薄。\n\n同类还有 thing（原指“集会、议事”）和 business（原指“忙碌状态”），都走上了泛化之路。泛化是高频词形成的常见途径。",
+      "steps": [
+        { "period": "希腊", "form": "plateia (hodos)", "note": "“宽阔的路”" },
+        { "period": "拉丁", "form": "platea", "note": "“宽街、广场”" },
+        { "period": "古法语", "form": "place", "note": "“空地、广场”" },
+        { "period": "现代英语", "form": "place", "note": "“地方、位置、名次”，外延最大" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "六个词的古今对比：看清“圈”怎么变",
+      "body": "下表左列是较早的义项，右列是现代义。读的时候不要只记结论，要试着判断“哪个圈更大”，这个动作本身就是在训练语义演变的判断力；考试里换一个没见过的词，你也能照这个动作推。",
+      "head": ["词", "较早的义项", "现代义", "方向"],
+      "rows": [
+        ["place", "广场、宽街（具体空间）", "任何地方、位置、名次", "扩大"],
+        ["meat", "食物（一切可吃之物）", "动物的肉", "缩小"],
+        ["deer", "动物、野兽", "鹿", "缩小"],
+        ["hound", "狗（通称）", "猎犬（特定用途）", "缩小"],
+        ["dog", "某一种犬（docga）", "犬类通称", "扩大"],
+        ["bird", "幼鸟、雏鸟", "鸟类通称", "扩大"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "hound 与 dog：一次“交换位置”",
+      "body": "古英语里狗的通称是 **hund**（与德语 Hund“狗”同源），而 **docga** 只是某一种犬的名字，来源不明。\n\n后来 docga 一路泛化，变成今天的 dog，占住了“狗”这个通称位置；原来的 hund 则被挤到“猎犬”这个较窄的用途上，成为 hound。两个词的扩大与缩小是同一件事的两面。\n\ndeer 的缩小也类似：古英语 dēor 泛指“动物、野兽”（德语 Tier 仍是“动物”），后来法语来源的 beast、animal 接管了通称功能，deer 退守为“鹿”。\n\n结论：**一个词的缩小，往往是另一个词扩大的结果**。孤立地看单个词，会觉得变化莫名其妙；放回词汇系统，就能看到竞争。",
+      "terms": [
+        { "term": "lexical competition", "zh": "词汇竞争", "en": "lexical competition" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "残留证据：旧义还藏在固定搭配里",
+      "body": "词义缩小后，旧义常在被固定住的搭配里留下化石：\n\n- meat 的“食物”义还在 **sweetmeats**（蜜饯）、**meat and drink**、**nutmeat** 里；\n- deer 的“动物”义在德语 Tier 里还活着，英语里只剩词源记录；\n- hound 的“狗”义在 **hound dog**、**greyhound** 里仍可感到；\n- place 的“广场”义在 **marketplace**、**birthplace** 的构词理据里还能看到。\n\n这些残留是检验语义演变假设的好证据：**如果旧义真的存在过，它应该在固定搭配、方言或同源语里留下痕迹**。没有痕迹的“旧义”很可能是想象出来的。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w10d4-p1",
+      "kind": "mcq",
+      "prompt": "place 的较早义项是？",
+      "choices": ["广场、宽街", "名次、席位", "位置坐标", "建筑物"],
+      "answer": 0,
+      "explain": "place 经古法语来自拉丁 platea“宽街、广场”，更早是希腊 plateia (hodos)“宽路”。从具体的“广场”泛化为“任何地方”，是典型的词义扩大。",
+      "concepts": ["c-broadening"]
+    },
+    {
+      "id": "w10d4-p2",
+      "kind": "mcq",
+      "prompt": "meat 在古英语（mete）中的意思是？",
+      "choices": ["食物（一切可吃之物）", "动物的肌肉", "宴会", "狩猎"],
+      "answer": 0,
+      "explain": "古英语 mete 泛指食物，所以今天 sweetmeats（蜜饯）、meat and drink 仍保留旧义。现代“动物的肉”是词义缩小，可能与法语来源的 food、 nourishment 分工有关。",
+      "concepts": ["c-narrowing"]
+    },
+    {
+      "id": "w10d4-p3",
+      "kind": "mcq",
+      "prompt": "deer 与 hound 的共同点是？",
+      "choices": [
+        "都从较宽的义项缩小为较窄的义项",
+        "都从较窄的义项扩大为较宽的义项",
+        "都经历了褒贬升降",
+        "都来自法语借词"
+      ],
+      "answer": 0,
+      "explain": "deer 从“动物”缩小为“鹿”，hound 从“狗（通称）”缩小为“猎犬”，都是词义缩小。两者的缩小都与别的词接管通称功能有关：beast/animal 接管“动物”，dog 接管“狗”。",
+      "concepts": ["c-narrowing"]
+    },
+    {
+      "id": "w10d4-p4",
+      "kind": "cloze",
+      "prompt": "填入术语（中文或英文均可）",
+      "sentence": "词义所指范围变窄，称为 ___ ；范围变宽，称为 broadening。",
+      "answer": "缩小",
+      "accept": ["缩小", "narrowing", "词义缩小"],
+      "explain": "narrowing（词义缩小）指外延收缩，如 meat 从“食物”到“肉”、deer 从“动物”到“鹿”。判断方法是比较古今所指范围的大小，而不是看词的感情色彩。",
+      "concepts": ["c-narrowing"]
+    },
+    {
+      "id": "w10d4-p5",
+      "kind": "mcq",
+      "prompt": "dog 与 hound 的关系，最准确的描述是？",
+      "choices": [
+        "dog 原为某犬种名，泛化为通称；hound 原是通称，被挤到“猎犬”这一窄义",
+        "dog 与 hound 是同一个词的两个拼写",
+        "hound 是 dog 的借词形式，来自法语",
+        "dog 原是通称，hound 原是某犬种名，二者互换"
+      ],
+      "answer": 0,
+      "explain": "古英语 hund 是“狗”的通称（德语 Hund 仍如此），docga 只是某犬种名。后来 docga 泛化为 dog，hund 退守为 hound。一个扩大、一个缩小，是同一场词汇竞争的两面。",
+      "concepts": ["c-broadening", "c-narrowing"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w10d4-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "In the eighteenth century, sugar ceased to be a luxury and became a commodity traded by the ton, its price set by supply and demand rather than by royal favour.",
+      "word": "commodity",
+      "choices": ["可批量交易的商品", "奢侈品", "王室贡品", "计量单位"],
+      "answer": 0,
+      "strategy": "① 对比结构：ceased to be a luxury and became a commodity，说明它与 luxury 相对；② 量化线索：traded by the ton、price set by supply and demand，指向标准化、可交易之物；③ 词源辅助：拉丁 commoditas“便利、合用”→ 有用之物 → 商品。",
+      "explain": "commodity 指可标准化交易的商品或大宗物资（如 commodity prices、oil is a commodity）。它的语义从“便利、合用”缩窄并专业化到经济领域，是“抽象属性 → 具体可交易物”的路径。句中“按吨交易、由供需定价”正是判据。",
+      "concepts": ["c-narrowing", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "词义扩大与缩小的类型与例证" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Semantics：semantic broadening 与 narrowing" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "place / meat / deer / hound / dog 的古今义" }
+  ]
+}

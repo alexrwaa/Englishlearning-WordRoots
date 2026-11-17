@@ -1,0 +1,149 @@
+{
+  "id": "w08d7",
+  "week": 8,
+  "day": 7,
+  "title": "第 8 周复盘：规则、读音、拼写史三条线",
+  "tagline": "遇到不规则拼写，先判断它是规则作用、读音调整，还是历史遗留",
+  "objectives": [
+    "能在同一段材料中同时处理同化、-s/-ed 读音与拼写调整",
+    "能判断一个拼写现象属于规则、读音调整还是拼写史",
+    "能对 unknown 拼写现象给出有依据的解释而不是猜测"
+  ],
+  "prereqs": ["w08d6"],
+  "concepts": ["c-allomorph", "c-spelling-rule", "c-etymology"],
+  "minutes": { "review": 6, "learn": 7, "practice": 8, "apply": 4 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "同化：一张表看全",
+      "body": "四个高频前缀的同化变体都在这里。判断时抓一个规律：变体的末字母总是与后接辅音“同部位”——双唇前用 m，软腭前出现 n 的鼻音变体，/l/、/r/ 前直接变成 l、r。掌握这条规律，比逐个背单词表可靠得多。",
+      "head": ["词素", "变体", "例子"],
+      "rows": [
+        ["in-（否定）", "im- / il- / ir- / in-", "impossible, illegal, irregular, invisible"],
+        ["ad-（朝向）", "ac- / af- / al- / ap- / ar- / as- / at- / a-", "accept, afford, allow, apply, arrive, assist, attempt, ascend"],
+        ["sub-（在下）", "suf- / sug- / sup- / sus-", "suffer, suggest, support, suspect"],
+        ["com-（共同）", "col- / cor- / con-", "collect, correct, connect"]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "读音：-s 与 -ed 的三选一",
+      "body": "两套规则的结构完全相同：清音后跟清音，浊音后跟浊音，同部位的塞音或咝音之后插入一个元音。建议记住这个结构，而不是把三行当成三条独立条目——这样遇到没见过的词（比如 coughed、searched）也能自己推出来，而不是回去查表。",
+      "head": ["词尾", "条件", "读音", "例子"],
+      "rows": [
+        ["-s", "清辅音后", "/s/", "cats, stops, laughs"],
+        ["-s", "浊辅音或元音后", "/z/", "dogs, runs, plays"],
+        ["-s", "咝音后", "/ɪz/", "buses, watches, wishes"],
+        ["-ed", "清辅音后", "/t/", "walked, stopped, laughed"],
+        ["-ed", "浊辅音或元音后", "/d/", "played, cleaned, robbed"],
+        ["-ed", "/t/ 或 /d/ 后", "/ɪd/", "wanted, needed, started"]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "拼写调整：三条规则与它们的条件",
+      "body": "三条规则的共同点是“有条件、可预测”。注意每条的例外都不是随机的：去 e 的例外在保音（noticeable）或历史定形（argument）；y→i 的例外在避免 ii（carrying）与专名；双写的例外在重音（visited）与字母组合（photographer）。",
+      "head": ["规则", "条件", "标准例", "例外例"],
+      "rows": [
+        ["去 e", "词基以不发音 e 结尾 + 元音开头后缀", "create + ive → creative", "argument、truly"],
+        ["y→i", "辅音 + y 结尾 + 后缀不以 i 开头", "happy + ness → happiness", "carrying、shyness、days"],
+        ["辅音双写", "CVC + 末音节重读 + 元音开头后缀", "prefer + ed → preferred", "visited、photographer"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三类字母：先分类，再解释",
+      "body": "本周最后一件事，是给“多出来的字母”分类：\n\n1. **构词字母**：来自词素，如 unhappy 的 un-、hopeful 的 -ful。可切分，有意义。\n2. **读音调整字母**：为标示读音而增删，如 fridge 的 d、hope 去 e、hopping 的双写 p。不表义，但可预测。\n3. **词源装饰字母**：为显示拉丁或希腊出身而插入，如 island 的 s、debt 的 b、receipt 的 p。不发音、不表义、不可预测，只能当记忆线索。\n\n分类之后，处理方式就明确了：第一类做形态分析，第二类讲规则，第三类记词族。把第三类拿去做切分，是本课程最想帮你改掉的习惯。\n\n补充一个实用细节：-able / -ible 结尾的形容词加 -ly 时要去 e（comfortable → comfortably，possible → possibly），因为词尾的 e 与 l 构成 /əl/，-ly 接上后由 l 承担这个音节。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w08d7-p1",
+      "kind": "mcq",
+      "prompt": "illogical 中的 il- 与 illegal 中的 il- 是什么关系？",
+      "choices": [
+        "同一个否定词素的同一个变体，都出现在 /l/ 前",
+        "两个不同的前缀，意义不同",
+        "前者是 il-，后者是 im- 的变体",
+        "前者是拉丁介词，后者是否定前缀"
+      ],
+      "answer": 0,
+      "explain": "两者都是否定前缀 in- 在 /l/ 前的变体 il-，语义都是“不”。拼写上的双 l 只是变体末字母与词基首字母相接的结果，不构成两个不同词素。",
+      "concepts": ["c-allomorph", "c-prefix"]
+    },
+    {
+      "id": "w08d7-p2",
+      "kind": "mcq",
+      "prompt": "started 的 -ed 读作：",
+      "choices": ["/ɪd/", "/t/", "/d/", "/əd/"],
+      "answer": 0,
+      "explain": "start 以 /t/ 结尾，后面再接 /t/ 或 /d/ 无法区分，必须插入 /ɪ/，读 /ˈstɑːtɪd/。同理 wanted、needed、decided。",
+      "concepts": ["c-allomorph", "c-inflection"]
+    },
+    {
+      "id": "w08d7-p3",
+      "kind": "cloze",
+      "prompt": "填入正确的单词",
+      "sentence": "The results were ___ (not consistent) across the three laboratories, so the protocol was revised.",
+      "answer": "inconsistent",
+      "accept": ["inconsistent"],
+      "explain": "否定前缀 in- 在 /k/ 前拼写保持 in-，写作 inconsistent；虽然 /n/ 实际读成 /ŋ/，英语拼写没有 ŋ 字母，同化不体现在字面上。",
+      "concepts": ["c-allomorph", "c-prefix"]
+    },
+    {
+      "id": "w08d7-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成正确的单词（注意拼写调整）",
+      "parts": ["happy", "ly"],
+      "answer": "happily",
+      "explain": "happy 以“辅音 + y”结尾，-ly 不以 i 开头，y 变 i 得 happili-，再加 ly 成 happily。注意这里不双写 p，因为词基结尾是 y 不是单辅音。",
+      "concepts": ["c-spelling-rule"]
+    },
+    {
+      "id": "w08d7-p5",
+      "kind": "mcq",
+      "prompt": "下列哪项拼写现象属于“词源装饰字母”？",
+      "choices": [
+        "receipt 中的 p",
+        "hopping 中双写的 p",
+        "creative 中去掉的 e",
+        "impossible 中的 m"
+      ],
+      "answer": 0,
+      "explain": "receipt 的 p 是按拉丁 recepta 插入的，不发音、不表义，属词源装饰。双写 p 是读音调整，去 e 是拼写规则，im- 是 in- 的语音变体。",
+      "concepts": ["c-etymology", "c-spelling-rule"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w08d7-a1",
+      "kind": "infer",
+      "prompt": "推测划线词 irreproducible 的含义",
+      "passage": "The result proved irreproducible: three independent laboratories ran the same protocol and obtained three different curves.",
+      "word": "irreproducible",
+      "choices": ["无法复现的", "不可反驳的", "不可逆的", "不规则的"],
+      "answer": 0,
+      "strategy": "① 切分：ir-（in- 在 r 前）+ re-（再）+ produce（产生）+ -ible（能够）；② 词性：-ible 形容词作表语；③ 语境：三家实验室用同一流程却得到三条不同曲线，正是“复现不出来”。",
+      "explain": "irreproducible = 不能再次产生的，即“无法复现”。注意 reproduce 在科研语境就是“复现”，不是“繁殖”；词义由语境（same protocol、different curves）锁定。",
+      "concepts": ["c-allomorph", "c-inference"]
+    },
+    {
+      "id": "w08d7-a2",
+      "kind": "infer",
+      "prompt": "推测划线词 noticeably 的含义",
+      "passage": "The second prototype is noticeably lighter than the first, although the two use the same battery and the same frame.",
+      "word": "noticeably",
+      "choices": ["明显地，容易被注意到地", "几乎无法察觉地", "以书面通知的方式", "偶尔地，不时地"],
+      "answer": 0,
+      "strategy": "① 构词：notice + able（保留 e 保 /s/）→ noticeable，再加 -ly 时去 e 得 noticeably；② 词性：-ly 副词修饰比较级 lighter；③ 语境：although 引导让步，强调“同样的电池与框架却更轻”，说明差异明显。",
+      "explain": "noticeably 表示“明显地、显著地”，修饰 lighter。拼写链是 noticeable → noticeably（-able 结尾加 -ly 去 e）。若按字面把 notice 理解为“通知”，就会误选“以通知方式”。",
+      "concepts": ["c-spelling-rule", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 3 & 5：语音同化与词素变体" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 5 章：拼写调整与屈折变体" },
+    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "island、debt、receipt 的拼写史" }
+  ]
+}

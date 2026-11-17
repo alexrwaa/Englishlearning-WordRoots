@@ -1,0 +1,152 @@
+{
+  "id": "w12d6",
+  "week": 12,
+  "day": 6,
+  "title": "结课项目：独立分析一段含九个生词的短文",
+  "tagline": "不看讲解先做一遍，再用自评表给自己的分析打分",
+  "objectives": [
+    "能在没有提示的情况下对九个未学词完成切分与推理",
+    "能利用成对出现的术语（proprioceptive / exteroceptive）互相定义",
+    "能判断哪些词可拆、哪些只能靠语境",
+    "能按自评表指出自己分析中最弱的一步"
+  ],
+  "prereqs": ["w12d5", "c-inference", "c-word-family"],
+  "concepts": ["c-inference", "c-scientific", "c-word-family", "c-register", "c-transparency"],
+  "minutes": { "review": 5, "learn": 7, "practice": 9, "apply": 6 },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "任务说明：先做，再看答案",
+      "body": "下面这段短文约 110 词，包含九个你可能没学过的词。请按顺序完成：\n\n1. **通读一遍**，不查词，只抓大意（这段在讲什么机器人、什么传感器、什么困难）。\n2. **标词**：把不确定的词圈出来，逐个写出你的猜测与置信度（高/中/低）。\n3. **验算**：对每个词执行四步法——切分、定词性、看语境、查搭配。\n4. **对照**：做完再看后面的示范解析与练习。\n\n限时 12 分钟。做不完也没关系，重要的是留下你的推理痕迹——错误痕迹比正确答案更能说明问题在哪一步。"
+    },
+    {
+      "kind": "passage",
+      "title": "短文：足式机器人的感知与驱动",
+      "body": "九个候选生词：underactuated、compliant、propagate、proprioceptive、exteroceptive、attenuate、inherent、redundancy、silently。先自己判断哪些能拆、哪些不能。",
+      "excerpt": "Legged robots are underactuated by construction: with fewer motors than degrees of freedom, they cannot command every joint independently. Designers therefore rely on compliant behaviour, letting the legs absorb impacts that would otherwise propagate to the torso. Proprioceptive sensing — joint encoders and an IMU — reports the robot's own motion, while exteroceptive sensing, usually a lidar or a depth camera, reports the world. Fusing the two attenuates the drift inherent in either modality alone. Redundancy helps as well: a second, independent estimator can catch failures that a single pipeline would silently ignore.",
+      "glossZh": "足式机器人在结构上就是驱动不足的：电机数量少于自由度，无法独立控制每个关节。因此设计者依赖柔顺行为，让腿吸收本会传到躯干的冲击。本体感觉（关节编码器与 IMU）报告机器人自身的运动，而外部感觉（通常是激光雷达或深度相机）报告外部世界。融合两者可以减弱任一模态单独使用时固有的漂移。冗余也有帮助：第二个独立的估计器能捕捉单一流水线会默默忽略的故障。",
+      "questions": [
+        { "q": "这段话的中心论点是什么？", "a": "足式机器人因驱动不足而必须依靠柔顺结构与多模态感知融合来保持稳定。" },
+        { "q": "proprioceptive 与 exteroceptive 的区分依据是什么？", "a": "感知对象：自身（关节编码器、IMU）还是外部世界（lidar、深度相机）。破折号后的列举就是作者给的定义。" },
+        { "q": "为什么作者说 redundancy helps？", "a": "第二个独立估计器能在主流水线无声失败时发现问题，即用重复配置换取容错。" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "示范解析：一对可以互相定义的词",
+      "body": "**proprioceptive** 与 **exteroceptive** 是本段最难的两个词，但它们恰好构成一对，可以互相定义：\n\n- 共同部分：**cept**（拉丁 capere“抓取、接受”）+ -ive（形容词后缀）——“感知……的”。\n- 区别在前半：**proprio-** 来自拉丁 proprius“自己的”，所以是“感知自身的”（本体感觉）。**extero-** 来自拉丁 exterus“外部的”，所以是“感知外部的”。\n\n破折号后面紧跟的列举（joint encoders and an IMU / a lidar or a depth camera）就是作者给的定义，这是最高置信度的证据。\n\n再看 **attenuate**：at-（向）+ tenu（细、薄，拉丁 tenuis）+ -ate →“使变细、减弱”。同族 tenuous（薄弱的）、extenuate（减轻）。\n\n**inherent**：in-（在内）+ her（粘附，拉丁 haerere）+ -ent →“附着于内的”，即“固有的”。它与 inherit（继承）共享 her，但语义路径不同，不要混。",
+      "morphemes": ["cept", "tenu", "her", "in", "ex"]
+    },
+    {
+      "kind": "table",
+      "title": "自评表：四步各打一分",
+      "body": "做完练习后逐行自评。任何一行落在“不足”，就回到对应周的课程复习：切分看第 1、2 周，词性看第 4 周，语境看第 11 周，搭配看第 9–10 周的语域内容。",
+      "head": ["步骤", "达标表现", "常见不足", "复习位置"],
+      "rows": [
+        ["切分", "能说出每个成分的意义，且拼写能对上", "把拼写相似当同源；强行切出假词素", "第 1–2 周"],
+        ["定词性", "由最右后缀与句法位置判断，不靠语感", "看到 -ed 就以为是过去式", "第 4 周"],
+        ["语境", "能引用破折号、冒号、对照结构作证据", "只凭词形猜义，忽略定义性同位语", "第 11 周"],
+        ["搭配", "能说出该词常与哪些词共现", "认识词但不会用，写作时搭配错误", "第 9–10 周"]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w12d6-p1",
+      "kind": "mcq",
+      "prompt": "短文中 underactuated 的意思是？",
+      "choices": [
+        "执行器数量少于自由度，无法独立控制每个关节",
+        "执行器功率过大，容易过载",
+        "尚未安装执行器",
+        "执行器被过度使用而磨损"
+      ],
+      "answer": 0,
+      "explain": "under-（不足）+ actu（驱动）+ ate + ed。冒号后的 fewer motors than degrees of freedom 是作者给出的定义，也是判断的直接依据。",
+      "concepts": ["c-inference", "c-scientific"]
+    },
+    {
+      "id": "w12d6-p2",
+      "kind": "mcq",
+      "prompt": "proprioceptive 与 exteroceptive 的共同成分 cept 表示？",
+      "choices": ["抓取、接受", "关闭", "携带", "站立"],
+      "answer": 0,
+      "explain": "cept 来自拉丁 capere“抓取、接受”，同族 accept、receive（经法语变体）、concept、perception。两个词的差别全在前半：proprio-“自己的”与 extero-“外部的”。",
+      "concepts": ["cept", "c-root", "c-word-family"]
+    },
+    {
+      "id": "w12d6-p3",
+      "kind": "cloze",
+      "prompt": "填入表示“减弱、衰减”的动词",
+      "sentence": "A thin layer of foam ___ the shock transmitted to the electronics, cutting peak acceleration by half.",
+      "answer": "attenuates",
+      "accept": ["attenuates", "attenuate", "dampens"],
+      "explain": "at-（向）+ tenu（细薄）+ -ate → attenuate“使变弱”。后半句 cutting ... by half 是效果证据。注意主谓一致：主语 a thin layer 为单数，故用 attenuates。",
+      "concepts": ["tenu", "c-scientific", "c-inference"]
+    },
+    {
+      "id": "w12d6-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词（“冗余”）",
+      "parts": ["re", "dund", "ancy"],
+      "answer": "redundancy",
+      "explain": "re（再）+ dund（涌、溢，拉丁 unda“浪”）+ ancy（名词后缀）→ redundancy“冗余”。字面“溢出”，引申为“多出来的部分”；工程语境中是褒义（容错备份）。",
+      "concepts": ["re", "c-suffix", "c-semantic-shift"]
+    },
+    {
+      "id": "w12d6-p5",
+      "kind": "mcq",
+      "prompt": "compliant behaviour 在本段语境中指？",
+      "choices": [
+        "遵守规定的行为",
+        "结构柔顺、受力可变形从而吸收冲击",
+        "符合行业标准的控制算法",
+        "与其他设备兼容的接口"
+      ],
+      "answer": 1,
+      "explain": "comply 的日常义是“遵从”，但 compliant 在机械与材料语境指“柔顺的、易变形的”。本段后文 letting the legs absorb impacts 直接给出证据，说明是力学意义而非合规意义。",
+      "concepts": ["c-semantic-shift", "c-register", "c-inference"]
+    },
+    {
+      "id": "w12d6-p6",
+      "kind": "mcq",
+      "prompt": "propagate to the torso 中的 propagate 最接近？",
+      "choices": ["传播、传递到", "阻止、隔离", "放大、增强", "测量、记录"],
+      "answer": 0,
+      "explain": "propagate 来自拉丁 propagare“繁殖、扩展”，在物理语境指“传播、传导”。本句用 otherwise（否则）构成假设：如果不柔顺，冲击就会传到躯干。",
+      "concepts": ["c-inference", "c-scientific"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w12d6-a1",
+      "kind": "infer",
+      "prompt": "推测 inherent 的含义",
+      "passage": "The drift is inherent in any dead-reckoning scheme: because each estimate is derived from the previous one, errors accumulate even when the sensors are calibrated to factory specification.",
+      "word": "inherent",
+      "choices": ["固有的、无法通过校准消除的", "偶然出现的、可以忽略的", "由外部干扰引起的", "由软件缺陷造成的"],
+      "answer": 0,
+      "strategy": "① 切分：in-（在内）+ her（粘附，拉丁 haerere）+ -ent；② 词性：形容词作表语；③ 语境：冒号后解释误差累积机制，even when calibrated 排除了“校准不当”这一原因；④ 验证：与 any scheme 同现，强调普遍性而非个别缺陷。",
+      "explain": "inherent 指“作为固有属性而存在的”。段落用 even when the sensors are calibrated 明确排除外部原因，说明漂移来自方法本身（每一步都基于上一步），因此是固有的。",
+      "concepts": ["c-inference", "her", "c-scientific"]
+    },
+    {
+      "id": "w12d6-a2",
+      "kind": "infer",
+      "prompt": "推测 attenuate 的含义",
+      "passage": "Because the signal attenuates roughly with the square of distance, returns from distant surfaces are weak and easily buried in noise, which limits the effective range of the sensor.",
+      "word": "attenuates",
+      "choices": ["随距离减弱、衰减", "随距离增强", "保持不变", "被反射回来"],
+      "answer": 0,
+      "strategy": "① 切分：at-（向）+ tenu（细薄）+ -ate；② 词性：谓语动词，主语 the signal；③ 语境：with the square of distance 描述随距离的变化，returns are weak 是结果；④ 验证：limits the effective range 说明远距失效。",
+      "explain": "attenuate 指强度减弱。段落给出两条证据：随距离平方下降、远距离回波弱且被噪声淹没；结果句“限制有效量程”进一步确认方向是变弱而不是变强。",
+      "concepts": ["c-inference", "tenu", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 5–6 章：拉丁词根 cept、tenu、her 的词族" },
+    { "id": "S5", "title": "Oxford English Dictionary / Online Etymology Dictionary", "detail": "proprioceptive、exteroceptive、attenuate、redundancy 的构词" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "自评与四步验证流程" }
+  ]
+}

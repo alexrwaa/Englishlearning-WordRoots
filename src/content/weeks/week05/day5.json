@@ -1,0 +1,349 @@
+{
+  "id": "w05d5",
+  "week": 5,
+  "day": 5,
+  "title": "scrib / script 与 fer：写下来，带过去",
+  "tagline": "两组最常用的学术词根，一次拿下 describe、prescription、transfer、translate",
+  "objectives": [
+    "能用“刻写 + 位置”解释 describe、inscribe、prescription 的差别",
+    "能说明 subscribe 如何从“在下面签名”变成“订阅”",
+    "能解释 translate 与 transfer 为何同属 fer 词族却拼写不同"
+  ],
+  "prereqs": [
+    "w05d4",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "scrib",
+    "script",
+    "fer",
+    "c-root",
+    "c-semantic-shift",
+    "c-word-family"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 4
+  },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "scribere 的本义是“刻划”，不是“写字”",
+      "body": "拉丁 **scribere** 原指用尖笔在蜡板或石面上**刻划**，后来才泛指书写。这个“刻”的意象解释了很多词的搭配：inscribe 是“刻在上面”（铭刻、题写），manuscript 是“手写的（稿子）”，而 describe 的 de- 表示“向下、完整地写下”，于是成了“描述”。\n\n同一个词根在英语里有两种拼写：动词多用 **scrib-**（describe、inscribe、subscribe），名词与分词多用 **script-**（description、inscription、prescription）。这与昨天 duct/duce 的分工是同一种现象：**拉丁语的两套词干被英语分别继承**。",
+      "morphemes": [
+        "scrib",
+        "script"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "前缀决定“写在哪”，语义随之分化",
+      "body": "- **de-**（向下、彻底）+ scribere → describere“写下来、描摹”→ describe 描述。名词是 description，注意词干换成 script。\n- **in-**（在上面、向内）+ scribere → inscribere“刻上去”→ inscribe 铭刻、题写。\n- **pre-**（在前）+ scribere → praescribere“事先写下”→ prescription 处方、规定。医生开的处方，本质是“预先写好的指示”，不是“预先的药”。\n- **sub-**（在下）+ scribere → subscribere“在文件下方签名”→ 同意 → 订购、订阅。\n\nsubscribe 的演变值得单独记：**签名表示同意，同意变成长期订购**。今天 subscribe to a channel 仍然保留“我签字同意”的影子。",
+      "morphemes": [
+        "de",
+        "in",
+        "pre",
+        "sub",
+        "scrib",
+        "script"
+      ]
+    },
+    {
+      "kind": "matrix",
+      "title": "script 的构词矩阵",
+      "body": "这一族的词几乎都围绕“写下来的东西”展开。注意 -ion 的作用：它把动作变成“文本或行为的结果”，所以 description 既是“描述”这个行为，也指“一段描述文字”。manu- 来自拉丁 manus“手”，是这一族里唯一保留手工痕迹的成分。",
+      "base": "script",
+      "prefixes": [
+        {
+          "text": "de",
+          "glossZh": "向下、彻底（拼作 descri-）"
+        },
+        {
+          "text": "in",
+          "glossZh": "在上面、向内"
+        },
+        {
+          "text": "pre",
+          "glossZh": "在前、预先"
+        },
+        {
+          "text": "sub",
+          "glossZh": "在下"
+        },
+        {
+          "text": "manu",
+          "glossZh": "手（拉丁 manus）"
+        }
+      ],
+      "suffixes": [
+        {
+          "text": "ion",
+          "glossZh": "名词后缀：行为或结果"
+        },
+        {
+          "text": "ive",
+          "glossZh": "形容词后缀"
+        }
+      ],
+      "words": [
+        {
+          "w": "description",
+          "parts": [
+            "de",
+            "script",
+            "ion"
+          ],
+          "glossZh": "描述、说明"
+        },
+        {
+          "w": "inscription",
+          "parts": [
+            "in",
+            "script",
+            "ion"
+          ],
+          "glossZh": "铭文、题写"
+        },
+        {
+          "w": "prescription",
+          "parts": [
+            "pre",
+            "script",
+            "ion"
+          ],
+          "glossZh": "处方、规定"
+        },
+        {
+          "w": "subscription",
+          "parts": [
+            "sub",
+            "script",
+            "ion"
+          ],
+          "glossZh": "订阅、订购"
+        },
+        {
+          "w": "manuscript",
+          "parts": [
+            "manu",
+            "script"
+          ],
+          "glossZh": "手稿"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "ferre：一个动词，两套词干",
+      "body": "拉丁 **ferre** 意为“携带、承受”，它是一个高度不规则的动词：现在时词干是 **fer-**，完成时是 **tul-**，分词词干是 **lat-**。英语把两套都借来了，于是出现了一个容易误判的现象：\n\n- transfer = trans（越过）+ fer（携带）→ 转移。\n- refer = re（回）+ fer → 把话题带回某处 → 提及、参考。\n- translate = trans（越过）+ **lat**（携带）+ e → 带过去 → 翻译。\n- relate = re + **lat** + e → 带回关联 → 叙述、关联。\n\n所以 translate、relate 与 transfer、refer **是同一个拉丁动词的后代**，只是取了不同词干。语言学术语叫**异根**（suppletion）：用完全不同的词形承担同一个词的变形，而不是靠加词尾。它比词素变体更极端，不能混为一谈。",
+      "terms": [
+        {
+          "term": "suppletion",
+          "zh": "异根",
+          "en": "suppletion",
+          "note": "同一词的变形由不同词根承担，如 go/went"
+        },
+        {
+          "term": "allomorph",
+          "zh": "词素变体",
+          "en": "allomorph",
+          "note": "同一词素在不同环境下的形式变化"
+        }
+      ],
+      "morphemes": [
+        "fer"
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "两族词的构词算式",
+      "body": "把算式写出来，拼写与语义的对应关系就一目了然。特别注意第三行：translate 里没有 fer，但它是 fer 词族的正式成员——**词族靠词源与语义链条判定，不靠字母匹配**。第四行的 of- 则是 ob- 在 f 前的同化形式，与 offer 的“带到面前”完全对得上。",
+      "sums": [
+        {
+          "parts": [
+            "de",
+            "scrib",
+            "e"
+          ],
+          "result": "describe",
+          "glossZh": "描述",
+          "note": "de 向下 + 写 → 写下来"
+        },
+        {
+          "parts": [
+            "pre",
+            "script",
+            "ion"
+          ],
+          "result": "prescription",
+          "glossZh": "处方、规定",
+          "note": "事先写下 → 预先指示"
+        },
+        {
+          "parts": [
+            "trans",
+            "lat",
+            "e"
+          ],
+          "result": "translate",
+          "glossZh": "翻译",
+          "note": "lat- 是 ferre 的分词词干"
+        },
+        {
+          "parts": [
+            "of",
+            "fer"
+          ],
+          "result": "offer",
+          "glossZh": "提供、提议",
+          "note": "ob- 在 f 前同化为 of-，“带到面前”"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w05d5-p1",
+      "kind": "mcq",
+      "prompt": "inscribe 中的 in- 表示什么？",
+      "choices": [
+        "在上面、向内",
+        "否定",
+        "预先",
+        "在下"
+      ],
+      "answer": 0,
+      "explain": "in- 在这里是方向性的“在上面、向内”，inscribere 是“刻上去”，所以 inscribe 是铭刻、题写。否定 in- 与预先 pre- 都不符合“刻”这个动作。",
+      "concepts": [
+        "in",
+        "scrib"
+      ]
+    },
+    {
+      "id": "w05d5-p2",
+      "kind": "mcq",
+      "prompt": "translate 与 transfer 都表示“带过去”，为什么拼写不同？",
+      "choices": [
+        "它们取自拉丁 ferre 的两套不同词干：fer- 与 lat-",
+        "translate 来自希腊语，transfer 来自拉丁语",
+        "translate 是 transfer 的截短形式",
+        "两者其实不同源，只是意思相近"
+      ],
+      "answer": 0,
+      "explain": "ferre 的分词词干是 lat-，英语据此造出 translate、relate；现在时词干 fer- 则造出 transfer、refer。二者同源，差异来自拉丁语内部的异根现象。",
+      "concepts": [
+        "fer",
+        "c-word-family",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w05d5-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词（必要时改变词形）",
+      "sentence": "Please ___ the calibration procedure in the lab notebook in enough detail for someone else to repeat it.",
+      "answer": "describe",
+      "accept": [
+        "describe"
+      ],
+      "explain": "空格后接宾语 the procedure，且与 in enough detail 搭配，需要“描述”这个动词。de（向下、彻底）+ scrib（写）→ describe。",
+      "concepts": [
+        "de",
+        "scrib"
+      ]
+    },
+    {
+      "id": "w05d5-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词，写出结果",
+      "parts": [
+        "pre",
+        "script",
+        "ion"
+      ],
+      "answer": "prescription",
+      "explain": "pre（在前）+ script（写）+ ion（名词后缀）→ prescription“处方、规定”。语义是“事先写下的指示”，所以处方和法规都能用这个词。",
+      "concepts": [
+        "pre",
+        "script",
+        "ion"
+      ]
+    },
+    {
+      "id": "w05d5-p5",
+      "kind": "mcq",
+      "prompt": "subscribe 今天表示“订阅”，它的“签名”义与“订阅”义是什么关系？",
+      "choices": [
+        "先指在文件下方签名表示同意，再由“承诺订购”引申为订阅",
+        "“订阅”是本义，“签名”是后来的引申",
+        "两个义项毫无关系，只是同形巧合",
+        "subscribe 原本指“写下”，与“同意”无关"
+      ],
+      "answer": 0,
+      "explain": "sub（在下）+ scribere（写）= 在文件下方签名，签名即表示同意与承诺，于是发展出“认购、订购、订阅”。这是从具体动作到制度化行为的语义演变。",
+      "concepts": [
+        "sub",
+        "scrib",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w05d5-p6",
+      "kind": "matrix",
+      "prompt": "用矩阵生成单词：词基 script，加前缀 in-，加后缀 -ion，结果是？",
+      "base": "script",
+      "prefix": "in",
+      "suffix": "ion",
+      "answer": "inscription",
+      "explain": "in（在上面）+ script（写）+ ion（名词后缀）→ inscription“铭文、题写”。与其动词 inscribe 对应，注意 scrib 换成 script。",
+      "concepts": [
+        "in",
+        "script",
+        "ion"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w05d5-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的实验分析，推测划线词的含义",
+      "passage": "The residual error was at first ascribed to wheel slip, but later measurements showed that a slowly varying IMU bias was the real cause; the slip hypothesis was then abandoned.",
+      "word": "ascribed",
+      "choices": [
+        "归因于",
+        "描述为",
+        "记录在",
+        "订阅了"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：a-（ad- 的弱化形式，“朝向”）+ scrib（写）+ ed；② 句法：was ascribed to + 名词，是被动结构；③ 语境：but later ... the real cause 说明前面是“把错误算在打滑头上”。",
+      "explain": "ascribe A to B 是“把 A 归于 B”，字面是“把 A 写到 B 的名下”，与 describe（描述）、prescribe（规定）同根不同前缀。后文的 the real cause 与 the slip hypothesis was abandoned 是判定依据。",
+      "concepts": [
+        "scrib",
+        "c-inference",
+        "c-semantic-shift"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "拉丁词根 scrib-/script- 与 ferre 的不规则词干"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford Dictionary of English Etymology",
+      "detail": "describe、prescription、subscribe、translate 词条"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5：异根（suppletion）与词素变体的区别"
+    }
+  ]
+}

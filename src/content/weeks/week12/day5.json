@@ -1,0 +1,162 @@
+{
+  "id": "w12d5",
+  "week": 12,
+  "day": 5,
+  "title": "学术语域的构词偏好：名词化、被动与拉丁词",
+  "tagline": "把“我们试了一下，效果不错”升级成审稿人接受的句子",
+  "objectives": [
+    "能识别名词化结构并把动词句改写为名词短语",
+    "能按语域强度排列同义的本土词、法语借词与拉丁词",
+    "能说明被动语态在方法部分的适用条件与滥用风险",
+    "能把三个口语表达改写为论文表达且不改变原意"
+  ],
+  "prereqs": ["w12d4", "c-register", "c-borrowing"],
+  "concepts": ["c-register", "c-borrowing", "c-greek-latin", "c-suffix", "c-metaphor"],
+  "minutes": { "review": 5, "learn": 9, "practice": 8, "apply": 5 },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "名词化：学术英语的第一语法特征",
+      "body": "**名词化（nominalization）** 是把动词或形容词变成名词：calibrate → calibration、robust → robustness、converge → convergence、judge → judgement。常见后缀 -tion/-ation、-ment、-ance/-ence、-ity、-ness。\n\n效果有三个：\n\n1. 动作可以作主语、宾语，便于组织长句：*Calibration of the extrinsics improved the consistency of the map.*\n2. 信息密度提高，一句话能装下多个关系。\n3. 施事可以省略：不说谁校准，只说“标定被完成”。\n\n代价也很明显：句子变得抽象、动作的负责人消失、可读性下降。**好的学术写作不是名词化越多越好**，而是“该压缩时压缩，该点明施事时点明”。\n\n判断方法：如果一个句子里连续出现三个 -tion，先把它还原成动词，看意思是否还清楚。\n\nEN: nominalization turns a verb or an adjective into a noun, e.g. *calibrate → calibration*, *robust → robustness*.",
+      "morphemes": ["tion", "ment", "ance", "ity", "ness"],
+      "terms": [
+        { "term": "nominalization", "zh": "名词化", "en": "nominalization" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "口语 → 论文：六组真实改写",
+      "body": "升级不是换大词，而是换**结构**与**搭配**。下表每组都保持原意，只调整语域。注意右列并非“更高级所以更好”——日常交流里用左列才自然。",
+      "head": ["口语表达", "论文表达", "改动点"],
+      "rows": [
+        ["We did a test on three datasets.", "The system was evaluated on three datasets.", "do a test → be evaluated on（固定搭配）"],
+        ["The results are pretty good.", "The results are promising / competitive.", "pretty good → 可量化的评价词"],
+        ["We think this is because of noise.", "We attribute this to sensor noise.", "think → attribute A to B（学术归因）"],
+        ["A lot of points were thrown away.", "A substantial fraction of points was discarded.", "a lot of → a substantial fraction；thrown away → discarded"],
+        ["It doesn't work outdoors.", "Performance degrades in outdoor scenes.", "doesn't work → performance degrades（可测量）"],
+        ["We couldn't test this.", "This remains untested and is left for future work.", "couldn't → remains untested（客观化）"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "语域阶梯：同一个意思的三层来源",
+      "body": "英语的同义词常常来自三种语言层，语域正式程度依次上升：\n\n- **古英语本土词**：ask、get、show、buy、help——短、具体、口语。\n- **法语借词**（1066 年后）：question、obtain、display、purchase、assist——中性、书面。\n- **拉丁/希腊借词**：interrogate、acquire、demonstrate、procure、facilitate——正式、学术。\n\n这条阶梯来自第 9 周的借词史，不是风格偏好。写论文时它给你三个选项，选择取决于读者与场合：给同行看的方法部分可以用 acquire、demonstrate；给公众写的科普则应回到 get、show。\n\n一个实用提醒：**堆砌拉丁词不会让内容更学术，只会让句子更难读**。审稿人常批评的正是 unnecessary complexity。",
+      "terms": [
+        { "term": "register", "zh": "语域", "en": "register" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "同一句话的两个版本",
+      "body": "下面两版信息完全相同。左版是实验记录的口吻，右版是论文口吻。逐行对比可以看出：改动集中在主语、动词选择与名词化程度，而不是“把词换难”。这也解释了为什么直接背高级词汇表对写作帮助有限——真正要换的是句子结构。",
+      "a": "实验记录版",
+      "b": "论文版",
+      "rows": [
+        ["主语", "We（作者）", "The system / The evaluation（研究对象）"],
+        ["动词", "did、got、threw away", "was conducted、was obtained、was discarded"],
+        ["名词化程度", "低，动作都是动词", "中，evaluation、reduction 承担信息"],
+        ["评价方式", "good、a lot", "promising、a substantial fraction"],
+        ["不确定性", "maybe、we think", "may、we attribute ... to ..."],
+        ["句长", "短句并列", "主从结构，一句一层关系"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "被动语态：什么时候该用，什么时候别用",
+      "body": "方法部分大量使用被动，有三个正当理由：\n\n1. **施事不重要或显而易见**：*The sensor was calibrated before each run.*（谁校准的不影响复现）\n2. **强调对象**：*The map is rebuilt whenever the velocity exceeds a threshold.*\n3. **保持客观距离**：避免通篇 We。\n\n但滥用会造成两个问题：责任模糊（*Mistakes were made* 的经典问题）与阅读负担（长被动句嵌套）。现代期刊（包括 IEEE 部分刊物）已接受甚至鼓励主动语态：*We calibrate the sensor ...* 更清楚。\n\n判断标准很简单：**如果你需要读者知道“谁做了什么”，就用主动**。如果重点是“什么被做了”，用被动。这与语域高低无关。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w12d5-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一句的名词化程度最高？",
+      "choices": [
+        "We calibrated the camera and the results got better.",
+        "Calibration of the camera led to an improvement in the results.",
+        "The camera was calibrated before the experiment.",
+        "Calibration of the extrinsic parameters resulted in a reduction of the residual error."
+      ],
+      "answer": 3,
+      "explain": "第四句连续使用 calibration、reduction、error 三个名词性成分，动作全被压缩成名词。第一句几乎无名词化；第二、三句各有一处。名词化程度高不等于更好，只是更密集。",
+      "concepts": ["c-register", "tion", "c-suffix"]
+    },
+    {
+      "id": "w12d5-p2",
+      "kind": "cloze",
+      "prompt": "填入论文语域中表示“归因于”的动词（与 to 搭配）",
+      "sentence": "We ___ the remaining error to timing offsets between the two sensors.",
+      "answer": "attribute",
+      "accept": ["attribute"],
+      "explain": "attribute A to B = 把 A 归因于 B，是学术写作的固定搭配（名词 attribution）。它把口语的 we think it is because of 转成可检验的归因陈述。",
+      "concepts": ["c-register", "c-borrowing"]
+    },
+    {
+      "id": "w12d5-p3",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词（“名词化”）",
+      "parts": ["nomin", "al", "ize", "ation"],
+      "answer": "nominalization",
+      "explain": "nomin（名字，拉丁 nomen）+ al + ize + ation → nominalization。层级为 nominal → nominalize → nominalization；同一词根还产生 nominate、nominal。",
+      "concepts": ["c-derivation", "c-suffix", "c-register"]
+    },
+    {
+      "id": "w12d5-p4",
+      "kind": "matrix",
+      "prompt": "用词基 nomin 加后缀 -ation，写出“提名/任命”的名词",
+      "base": "nomin",
+      "suffix": "ation",
+      "answer": "nomination",
+      "explain": "nomin（名字）+ ation → nomination“提名”。nomin 的核心是“叫出名字”，所以 nominal（名义上的）、nominate（提名）、nomination 同族，语义可追溯。",
+      "concepts": ["c-word-family", "c-suffix"]
+    },
+    {
+      "id": "w12d5-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一处被动语态使用得最合理？",
+      "choices": [
+        "Mistakes were made during the evaluation.",
+        "The sensor was calibrated against a factory standard before each run.",
+        "It was thought by us that the method was good.",
+        "The results were got by the experiments."
+      ],
+      "answer": 1,
+      "explain": "第二句施事不重要（谁校准不影响复现），重点是“传感器被校准”这一事实，符合被动的正当用法。第一句责任模糊，第三句冗余（by us 多余），第四句搭配错误（results are obtained，不是 got）。",
+      "concepts": ["c-register", "c-inference"]
+    },
+    {
+      "id": "w12d5-p6",
+      "kind": "mcq",
+      "prompt": "把 It doesn't work outdoors 改写为论文表达，最合适的是？",
+      "choices": [
+        "It is bad outdoors.",
+        "Performance degrades in outdoor scenes.",
+        "Outdoor scenes are not good.",
+        "We failed outdoors."
+      ],
+      "answer": 1,
+      "explain": "论文表达倾向把评价转为可观测的现象：degrade（性能下降）是可测量的描述，且指明条件（in outdoor scenes）。其余选项仍是口语评价或把责任归于作者。",
+      "concepts": ["c-register", "c-semantic-shift"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w12d5-a1",
+      "kind": "infer",
+      "prompt": "推测 substantiate 的含义",
+      "passage": "We do not claim that the method is optimal. The experiments are intended to substantiate a narrower claim: that the estimator remains stable when up to half of the lidar points are dropped.",
+      "word": "substantiate",
+      "choices": ["用证据支持、证实", "推翻、否定", "量化、测量", "简化、省略"],
+      "answer": 0,
+      "strategy": "① 切分：sub（在下）+ stant（站立，拉丁 stare）+ -iate（动词后缀）→“使站稳”；② 词性：不定式作 intended 的补足语；③ 语境：与前句 not claim optimal 对照，说明要支持一个“更窄的主张”；④ 验证：a narrower claim 后给出具体内容，是待证命题。",
+      "explain": "sub- + stant 字面是“在下面撑住”，引申为“给……提供依据、证实”。段落结构是关键：先否认强主张，再说实验只支持一个更窄的主张——这正是 substantiate 的对象。同族 substance、substantial、constant（con + stant）。",
+      "concepts": ["c-inference", "c-register", "c-greek-latin"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 9–10 章：借词层次与语域差异" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 6：语域、名词化与学术写作" },
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "nominal、attribute、substantiate 的词源" }
+  ]
+}

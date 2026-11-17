@@ -1,0 +1,151 @@
+{
+  "id": "w03d1",
+  "week": 3,
+  "day": 1,
+  "title": "否定前缀：四个“不”，各有各的地盘",
+  "tagline": "能根据词基类型与语境，在 un- / in- / non- / dis- 之间做出正确选择",
+  "objectives": [
+    "能说出 un- 与 non- 在“否定状态”和“否定类别”上的差别",
+    "能识别 dis- 的“分离/剥夺”义与纯否定义的用例",
+    "能解释 inflammable 为什么不是“不可燃”，并说明 in- 的两种来源"
+  ],
+  "prereqs": ["w02d7"],
+  "concepts": ["c-prefix", "c-affix", "c-allomorph"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "中文一个“不”，英语分成四块",
+      "body": "中文一个“不”字包打天下，英语却把否定拆给了几个前缀，各自管的范围不同。看四个词：**unhappy**（不快乐）、**non-smoker**（不吸烟的人）、**dishonest**（不诚实）、**impossible**（不可能）。四者都含否定，却不能互换：英语不说 nonhappy，也不说 unsmoker。\n\n原因在于它们否定的对象不同：un- 否定一种状态或性质，non- 否定类别归属，dis- 常否定一种关系或动作，in- 是拉丁语系的“不”，只与拉丁来源的词基搭配。**记前缀不能只记“意思”，要记它跟什么样的词基搭配**。",
+      "terms": [
+        { "term": "negative prefix", "zh": "否定前缀", "en": "negative prefix" },
+        { "term": "base", "zh": "词基", "en": "base", "note": "当前构词操作所作用的形式" }
+      ],
+      "morphemes": ["un", "non", "dis", "in"]
+    },
+    {
+      "kind": "compare",
+      "title": "un- 与 non-：相反状态 vs 类别之外",
+      "body": "这两个前缀最容易被混用，因为中文都译成“不”。差别在否定的方式：un- 指向**相反的状态**，常带程度意味；non- 只是把事物划到类别之外，语气中性，接近“非……的”。\n\n一个可操作的检验：如果否定后仍是一个程度可变的性质（很／不太），多半用 un-；如果是在说“它不属于这一类”，用 non-。",
+      "a": "un-",
+      "b": "non-",
+      "rows": [
+        ["核心语义", "相反状态、性质（unfair 不公平）", "不属于某类别（non-member 非成员）"],
+        ["典型词基", "形容词、分词（unable, unpaid）", "名词、形容词（non-smoker, non-linear）"],
+        ["语域", "古英语来源，日常、口语也能造新词", "拉丁来源，学术与公文常见（non-invasive）"],
+        ["能否接动词", "可以，表反向动作（untie, unlock）", "一般不可以"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "dis-：重点不是“不”，而是“分开”",
+      "body": "**dis-** 来自拉丁语，原义是“分开、朝不同方向”。这个空间义至今还在：**disconnect** 是把连在一起的东西分开，**disperse** 是散开，**dissolve** 是让结合的东西松散开（solve 的本义是“松开”）。\n\n由“分开”引申出两条路：一是**剥夺、取消**（disarm 解除武装、disable 使失效、discourage 使失去勇气）；二是**否定一种性质**（dishonest、disloyal、dissimilar）。所以 dis- 的重心在“原本连着，现在分开了”，而不只是加个“不”。\n\n拼写上注意：dis- 在 f 前常写作 **dif-**（differ、difficult、diffuse），第 5 天解释原因。",
+      "morphemes": ["dis", "dif"]
+    },
+    {
+      "kind": "text",
+      "title": "in- 的两个来源：一个词里的两种“in”",
+      "body": "**in-** 作为否定前缀来自拉丁语，只跟拉丁来源的词基搭配：invisible、incorrect、incomplete。它有 im- / il- / ir- 三个拼写变体，第 5 天专门处理。\n\n但拉丁语里还有另一个 in-，意思是“进入、在内”，构词如 include、inject、import。两者拼写相同、来源相同、意义相反，只能靠词义判断。最著名的受害者是 **inflammable**：它的意思是“易燃的”，不是“不可燃”。这里的 in- 是“进入”（使起火），与 inflame 同源。因为安全标识上屡屡被误读，现代标识多改用 flammable。\n\n结论：**看到 in- 先别急着读成“不”**，要确认词基与语境是否支持否定解读。",
+      "terms": [
+        { "term": "homograph", "zh": "同形异义", "en": "homograph", "note": "拼写相同但来源或意义不同的成分" }
+      ],
+      "morphemes": ["in", "im", "il", "ir"]
+    },
+    {
+      "kind": "table",
+      "title": "四个否定前缀速查",
+      "body": "下表按“否定什么”排列，而不是按字母排列。做题时先判断被否定的成分是状态、类别、关系还是拉丁词基，再选前缀。四行的第四列尽量选了可对照的词：unfair 与 non-linear 都是形容词，但前者否定性质、后者否定类别；disconnect 与 dishonest 都用 dis-，一个表分离、一个表否定性质。读表时不妨把每行的例词换个前缀，看看哪个会立刻变得不成立。",
+      "head": ["前缀", "来源", "核心语义", "典型词"],
+      "rows": [
+        ["un-", "古英语", "相反状态；反向动作", "unfair, unable, untie, unlock"],
+        ["in- (im-/il-/ir-)", "拉丁语", "不（限拉丁词基）", "invisible, impossible, illegal, irregular"],
+        ["non-", "拉丁语", "不属于某类别", "non-smoker, non-fiction, non-linear"],
+        ["dis- (dif-)", "拉丁语", "分开、剥夺、否定性质", "disconnect, disarm, dishonest"]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w03d1-p1",
+      "kind": "mcq",
+      "prompt": "要表达“不吸烟的人”，下面哪个写法成立？",
+      "choices": ["unsmoker", "nonsmoker", "insmoker", "dismoker"],
+      "answer": 1,
+      "explain": "non- 的功能是把人划到某个类别之外，non-smoker 即“不属于吸烟者这一类”，语气中性。un- 主要否定形容词性状态，不能直接构成这类类别名词；in- 只与拉丁词基搭配；dis- 表分离或剥夺。",
+      "concepts": ["non", "un", "c-prefix"],
+      "hint": "先想清楚：这里否定的是“状态”还是“类别归属”。"
+    },
+    {
+      "id": "w03d1-p2",
+      "kind": "mcq",
+      "prompt": "在 He unlocked the door and stepped in. 中，un- 的作用与下面哪个词最接近？",
+      "choices": ["unhappy", "untie", "unfair", "unknown"],
+      "answer": 1,
+      "explain": "unlock 的 un- 表示“反向动作”——把锁上的状态解除，与 untie（解开）同类。unhappy、unfair 是否定性质或状态，unknown 是“未被知晓”，都不涉及动作的逆转。",
+      "concepts": ["un", "c-prefix"]
+    },
+    {
+      "id": "w03d1-p3",
+      "kind": "cloze",
+      "prompt": "根据语境填入一个形容词（提示：这个词常被误读）",
+      "sentence": "The warning label says the gas is highly ___ , so it must be kept away from any spark.",
+      "answer": "inflammable",
+      "accept": ["flammable", "易燃的"],
+      "explain": "inflammable 意为“易燃的”。它的 in- 是拉丁语“进入”，与 inflame（点燃）同源，不是否定前缀；若按“不”理解会得到完全相反的结论，这正是安全标识改用 flammable 的原因。",
+      "concepts": ["in", "c-prefix", "c-etymology"]
+    },
+    {
+      "id": "w03d1-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词：写出构词算式的结果",
+      "parts": ["un", "certain", "ty"],
+      "answer": "uncertainty",
+      "explain": "un（不）+ certain（确定的）+ ty（名词后缀）→ uncertainty“不确定性”。certain 加 -ty 时拼写不变，直接拼作 certainty；否定前缀加在派生结果之前。",
+      "concepts": ["un", "c-affix", "c-spelling-rule"]
+    },
+    {
+      "id": "w03d1-p5",
+      "kind": "mcq",
+      "prompt": "下面哪个词的前缀不表示否定？",
+      "choices": ["dislike", "dishonest", "disconnect", "dissimilar"],
+      "answer": 2,
+      "explain": "disconnect 的 dis- 表“分开”，把原本连接的两部分拆开，是分离义而非否定义。dislike（不喜欢）、dishonest（不诚实）、dissimilar（不相似）都是否定。同一个前缀有多个义项，要靠词基判断。",
+      "concepts": ["dis", "c-prefix"],
+      "hint": "把每个词换成“不 + 词基”读一遍，看哪个说不通。"
+    },
+    {
+      "id": "w03d1-p6",
+      "kind": "mcq",
+      "prompt": "评价一篇论文时，unscientific 与 non-scientific 的差别是：",
+      "choices": [
+        "两者完全同义，可互换",
+        "unscientific 指“不符合科学方法”，带批评；non-scientific 只说明“不属于科学领域”",
+        "non-scientific 带批评，unscientific 是中性的",
+        "unscientific 只能修饰人，non-scientific 只能修饰物"
+      ],
+      "answer": 1,
+      "explain": "un- 否定的是“科学”这一性质应当具备的标准，因此暗示缺陷；non-scientific 只是分类，如 non-scientific audience（非科学界读者），不含贬义。这正是 un- 与 non- 最实用的语用差别。",
+      "concepts": ["un", "non", "c-register"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w03d1-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的技术说明，推测划线词的含义",
+      "passage": "Because the inspection is non-destructive, the same component can be tested repeatedly: the probe never touches the surface, and no section has to be cut out for laboratory analysis.",
+      "word": "non-destructive",
+      "choices": ["不会损坏被测件的", "无法被销毁的", "非传统的", "不需要检测的"],
+      "answer": 0,
+      "strategy": "① 切分：non（不属于／非）+ destruct（破坏）+ ive（形容词后缀）；② 词性：-ive 构成形容词，修饰 inspection；③ 语境：后文说探头不接触表面、不必切下样品，说明检测不造成损伤；④ 校验：若是“无法被销毁”，与“可反复检测同一部件”矛盾。",
+      "explain": "non-destructive 是工业检测的固定术语“无损的”。non- 在这里是否定类别而非否定性质：这类检测不属于“会破坏样品”的那一类。若误读为“不能被销毁”，后文的“可重复检测”就失去依据。",
+      "concepts": ["non", "c-inference", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：前缀的语义分类与本土/拉丁来源差异" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "否定前缀 un- / in- / non- / dis- 的义项划分" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "inflammable 的词源与安全标识用法说明" }
+  ]
+}

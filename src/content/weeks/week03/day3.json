@@ -1,0 +1,147 @@
+{
+  "id": "w03d3",
+  "week": 3,
+  "day": 3,
+  "title": "时间与顺序前缀：把事件排到轴上",
+  "tagline": "分清“之前/之后/向后/再一次”，并看懂 re- 的双重含义与连字符的作用",
+  "objectives": [
+    "能把 pre- / post- / ante- / retro- 放到时间轴的正确位置",
+    "能说出 re- 的“再一次”与“向后”两个义项，并各举两例",
+    "能用连字符解释 resign 与 re-sign、recover 与 re-cover 的意义差别"
+  ],
+  "prereqs": ["w03d2"],
+  "concepts": ["c-prefix", "c-semantic-shift", "c-etymology"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "时间前缀只有四个方向",
+      "body": "时间前缀比空间前缀简单，因为它只有四个方向：**pre-** 在前，**post-** 在后，**ante-** 更早，**retro-** 向后。\n\n具体义很好理解：preoperative 是术前，postoperative 是术后；prewar 是战前，postwar 是战后。**ante-** 与 pre- 都表“之前”，但 ante- 更强调“时间上更早、先发生”，如 antedate（把日期定得比实际更早）；**retro-** 强调“往回看、往回作用”，如 retrospect（回顾）。\n\n这四个前缀都能自由地加在名词或形容词前，构成临时术语，因此在医学、历史、技术文献里出现频率极高。",
+      "morphemes": ["pre", "post", "ante", "retro"]
+    },
+    {
+      "kind": "table",
+      "title": "时间轴对照表",
+      "body": "读表时注意第三列：同一个前缀加在不同词基上，具体义会变，但方向不变。方向才是词素的意义，具体译法只是语境里的落地。以 post- 为例，postpone 是“放到后面”，postwar 是“战后的”，postscript 是“写在后面的话”，三者译法不同，“在后”这条方向却始终一致。判断陌生长词时，先抓住方向，再用上下文补细节，比逐字翻译稳。",
+      "head": ["前缀", "方向", "例词与字面义"],
+      "rows": [
+        ["pre-", "在……之前", "predict 预先说→预测；preheat 预先加热；precaution 预先防备"],
+        ["post-", "在……之后", "postpone 放到后面→推迟；postwar 战后的；postscript 后记"],
+        ["ante-", "更早、先于", "antecedent 先行的→前身；anteroom 前厅；antedate 日期早于"],
+        ["retro-", "向后、往回", "retrospect 往回看→回顾；retroactive 有追溯效力的；retrofit 改装"],
+        ["re-", "再一次／向后", "rebuild 重建；return 返回；recall 召回；recede 后退"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "re- 的两个义项：再一次，还是往回",
+      "body": "**re-** 是英语里最常用的前缀，但它有两个来源相同的义项，读错就会整句读反。\n\n第一是“再一次”：rebuild、reread、restart、reconsider，词基的动作再做一遍。第二是“向后、回到原处”：return、recall、recede、reflect，重点在方向而不是次数。\n\n麻烦的是有些词两解都通。**recover** 是“恢复、找回”，而 **re-cover** 是“重新盖上”。**resign** 是“辞职”，**re-sign** 是“再次签署”。书面语里连字符不是装饰，而是消歧手段。看到 re- 开头的词，先问：这里是“再做一次”，还是“往回”？",
+      "terms": [
+        { "term": "hyphen", "zh": "连字符", "en": "hyphen", "note": "用于区分同形异义的派生词" }
+      ],
+      "morphemes": ["re"]
+    },
+    {
+      "kind": "compare",
+      "title": "ante- 与 anti-：一个字母，两个世界",
+      "body": "这两个前缀拼写只差一个字母，来源却完全不同：ante- 是拉丁语“之前”，anti- 是希腊语“反对”。阅读时看第三个字母就能分：**ante-** 接的是时间，**anti-** 接的是对抗。",
+      "a": "ante-（拉丁“之前”）",
+      "b": "anti-（希腊“反对”）",
+      "rows": [
+        ["核心义", "时间上更早", "对抗、抵消"],
+        ["典型词", "antecedent 前身；anteroom 前厅；antedate 日期早于", "antibiotic 抗生素；antidote 解毒剂；antagonist 对手"],
+        ["常见误读", "把 antedate 读成“反对日期”", "把 antidote 读成“之前的剂量”"],
+        ["判断线索", "后接表时间、顺序的词基", "后接表生物、物质、立场的词基"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "pre- / post- 在技术写作里的高能产性",
+      "body": "在学术与技术文献里，pre- 和 post- 几乎可以自由加在名词前构成临时术语：pre-processing 与 post-processing（前处理／后处理）、pre-training 与 post-training（预训练／后训练）、preoperative 与 postoperative（术前／术后）。这类组合不需要收进词典也能被即时理解，是典型的“高能产”词缀。\n\n能产性高的代价是拼写不统一：新造词多用连字符（pre-processing），老旧词多合写（prewar），这属于正词法惯例而非构词规则。写作时查一下同领域通行写法即可。\n\n一个提醒：**post-** 不是“邮寄”的 post。postpone 的 post 是“在后”，而 post office 的 post 是“驿站”，两者只是同形。",
+      "morphemes": ["pre", "post"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w03d3-p1",
+      "kind": "mcq",
+      "prompt": "In retrospect, the decision was a mistake. 中 retrospect 的构词义是：",
+      "choices": ["向前预测", "往回看", "反复检查", "事后推迟"],
+      "answer": 1,
+      "explain": "retro-（向后）+ spect（看）= “往回看”，即回顾。整句意思是“回头看，那个决定是个错误”。若是“向前预测”，应与 predict、forecast 一类词搭配，而不是用于评价已发生的事。",
+      "concepts": ["retro", "spect", "c-prefix"]
+    },
+    {
+      "id": "w03d3-p2",
+      "kind": "cloze",
+      "prompt": "填入一个以 retro- 开头的动词",
+      "sentence": "Rather than buy a new robot arm, the lab decided to ___ the old one with modern sensors and a new controller.",
+      "answer": "retrofit",
+      "accept": ["改装", "翻新改装"],
+      "explain": "retrofit = retro（向后）+ fit（装配），指给已有的设备加装新部件，是工程领域的固定说法。rather than buy a new one 提供了“在旧设备上动手”的语境，据此排除 replace、upgrade 之外的无关词。",
+      "concepts": ["retro", "c-scientific"]
+    },
+    {
+      "id": "w03d3-p3",
+      "kind": "mcq",
+      "prompt": "下面哪一句表示“他再次签署了合同”？",
+      "choices": [
+        "He resigned the contract.",
+        "He re-signed the contract.",
+        "He resigned from the contract.",
+        "He was resigned to the contract."
+      ],
+      "answer": 1,
+      "explain": "re-sign 带连字符，表示 re（再一次）+ sign（签署）。resign 是“辞职”，resign from 是“从……辞职”，be resigned to 是“听任、无奈接受”，三者都与“再签一次”无关。连字符在这里承担了消歧功能。",
+      "concepts": ["re", "c-prefix", "c-spelling-rule"],
+      "hint": "先判断 sign 是“签署”还是 resign 整体的“辞职”。"
+    },
+    {
+      "id": "w03d3-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词：pre + caution → ?",
+      "parts": ["pre", "caution"],
+      "answer": "precaution",
+      "explain": "pre（预先）+ caution（小心、防备）→ precaution“预防措施”。注意这里 caution 本身已是完整名词，属于“前缀 + 自由词基”的派生，不是词根组合。take precautions 是固定搭配。",
+      "concepts": ["pre", "c-prefix"]
+    },
+    {
+      "id": "w03d3-p5",
+      "kind": "mcq",
+      "prompt": "下面哪个词含有“在……之前”的意思？",
+      "choices": ["antidote", "antibiotic", "antedate", "antonym"],
+      "answer": 2,
+      "explain": "antedate = ante（之前）+ date（日期），意为“日期早于实际发生时间”。antidote（解毒剂）、antibiotic（抗生素）、antonym（反义词）都含希腊语 anti-“反对”，与时间无关。区分靠前缀拼写：ante- 与 anti-。",
+      "concepts": ["ante", "c-prefix"]
+    },
+    {
+      "id": "w03d3-p6",
+      "kind": "mcq",
+      "prompt": "The meeting has been postponed to Friday. 这句话的意思是会议：",
+      "choices": ["提前到周五", "推迟到周五", "改到周五之前", "在周五之后取消"],
+      "answer": 1,
+      "explain": "postpone = post（在后）+ pon（放）→ “放到后面”，即推迟。pon 是拉丁词根 ponere“放置”，同族有 component、opponent。若表示提前，应用 move up 或 bring forward，英语没有“prepone”这个标准词。",
+      "concepts": ["post", "c-root"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w03d3-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的工程报告片段，推测划线词的含义",
+      "passage": "The team then ran a retrospective analysis of six months of logged sensor data, hoping to find the exact moment when the drift first appeared.",
+      "word": "retrospective",
+      "choices": ["回顾已发生数据的", "预测未来趋势的", "追溯法律责任的", "实时处理的"],
+      "answer": 0,
+      "strategy": "① 切分：retro（向后）+ spect（看）+ ive（形容词后缀）；② 词性：-ive 结尾，修饰 analysis，是形容词；③ 语境：分析的是 six months of logged data，即已经记录下来的数据；④ 校验：目标是找到 drift 最初出现的时刻，属于事后回看，而非预测。",
+      "explain": "retrospective 在此指“回顾性的”，与 prospective（前瞻的）相对。retro- 的方向是“往回”，与 spect“看”组合后指“回看”；同一前缀在 retroactive（有追溯效力的）中转为“往回作用”，方向一致只是落点不同。",
+      "concepts": ["retro", "spect", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：时间前缀与 re- 的双义项" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "pre- / post- / ante- / retro- 词表与拉丁来源" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "resign 与 re-sign、recover 与 re-cover 的连字符用法" }
+  ]
+}

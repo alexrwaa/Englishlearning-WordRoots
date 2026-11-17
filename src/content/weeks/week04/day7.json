@@ -1,0 +1,153 @@
+{
+  "id": "w04d7",
+  "week": 4,
+  "day": 7,
+  "title": "第 4 周复盘：后缀、层次与拼写的合流",
+  "tagline": "在一段真实技术文字里同时调用词性判断、派生层次与拼写规则",
+  "objectives": [
+    "能在一段文字中标出所有后缀派生词，并逐一判断词性",
+    "能解释一个长词的派生顺序，指出拼写变化发生在哪一步",
+    "能根据语域在 -ness、-ity、-tion 之间做出合适选择"
+  ],
+  "prereqs": ["w04d6"],
+  "concepts": ["c-suffix", "c-derivation", "c-spelling-rule", "c-register"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "四类后缀的最终速查",
+      "body": "这张表比第 5 天那张更压缩，只保留判断词性最需要的部分。建议把它当作阅读时的默认假设，遇到例外再回看具体卡片。使用时先扫词尾得到候选，再用冠词、介词、be 动词这些位置线索确认；两步都通过，才据此判断句法功能。若两步冲突，以位置为准，因为位置是句子的硬约束，词尾只是概率线索。",
+      "head": ["词性", "看到这些词尾先假设", "高频例词"],
+      "rows": [
+        ["名词", "-tion/-sion, -ment, -ness, -ity, -ism, -ist, -ance/-ence", "construction, measurement, darkness, ability, realism, scientist"],
+        ["形容词", "-able/-ible, -ive, -ous, -al, -ic, -ful, -less", "readable, active, dangerous, national, atomic, hopeful, wireless"],
+        ["动词", "-ize/-ise, -ify, -en, -ate", "standardize, simplify, strengthen, activate"],
+        ["副词", "-ly, -ward(s), -wise", "precisely, backward, lengthwise"]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "三条名词化路径怎么选",
+      "body": "同一个意思常有多种名词化方式，差别在语域与搭配，而不是对错。写作时选错路径，句子不算错，但会显得不地道。判断标准有三条：词基来源（本土词优先 -ness，拉丁词优先 -ity）、固定搭配（implementation of a policy 是常见组合）、句子节奏（连续多个 -tion 会显得沉重）。三条都指向同一选择时，基本不会错。",
+      "a": "-ness / -ment",
+      "b": "-ity / -tion",
+      "rows": [
+        ["语域", "中性偏日常，-ment 偏通用书面", "正式、学术、技术"],
+        ["能产性", "-ness 极高；-ment 中等", "-ity 较低；-tion 较高但受词基限制"],
+        ["典型搭配", "the darkness of the room；the development of a method", "the complexity of the system；the implementation of a policy"],
+        ["常见误用", "在学术句里连用多个 -ness，显得口语", "给本土单音节形容词硬加 -ity，造出不存在的词"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "拼写三条线，回到接缝处",
+      "body": "本周的拼写问题都可以归到三条线：\n\n1. **去 e / 留 e**：元音开头后缀前多去 e（nature → natural），但 ce/ge 结尾保留 e 以保软音（change → changeable）；辅音开头后缀前一般留 e（hope → hopeful），例外是 argue → argument、true → truly。\n2. **y → i**：辅音 + y 变 i（happy → happiness），元音 + y 不变（play → played），单音节常保留（dry → dryness）。\n3. **-tion / -sion / -ssion**：看动词词尾，-mit 走 -ssion（permit → permission），-de 走 -sion（decide → decision）。\n\n三条线的共同点是：**变化只发生在词素接缝处，词素身份不变**。判断词义时仍按原词素处理。",
+      "morphemes": ["tion", "sion", "ness", "ity"]
+    },
+    {
+      "kind": "passage",
+      "title": "在一段技术文字里综合演练",
+      "body": "下面这段文字描述一套定位系统。先标出所有含后缀的词，判断词性，再读问题。段落里有 localization、accurate、imperceptible、robustness、precision 五个派生词，分别对应 -tion、-ate、-ible、-ness、-ion 五条不同的后缀线索。建议先独立标注，再看问答核对，这样最能暴露自己哪一步判断不稳。",
+      "excerpt": "Accurate localization is the real bottleneck. A five-centimetre error in pose is enough to send the robot into the wrong aisle, and the drift is imperceptible frame by frame. The team's answer is robustness rather than precision: when one camera fails, the remaining sensors still constrain the estimate.",
+      "glossZh": "准确定位才是真正的瓶颈。位姿上五厘米的误差就足以让机器人走错通道，而这种漂移在单帧之间几乎无法察觉。团队的应对思路是稳健性而非精度：当一台相机失效时，其余传感器仍能约束估计。",
+      "questions": [
+        { "q": "localization 与 robustness 分别是什么词性？依据是什么？", "a": "都是名词：-tion 与 -ness 是名词后缀，且分别作主语和表语中心词。" },
+        { "q": "imperceptible 为什么不能理解为“无法测量的”？", "a": "percept 是“感知”，-ible 是“能够被……的”，否定后是“无法被感知的”；后文 frame by frame 说明误差小到看不出来，而不是测不出。" },
+        { "q": "如果把这句改成 the system is robust，语义有什么变化？", "a": "形容词 robust 直接描述系统性质，句子更口语；原文用名词 robustness，是学术写作典型的“名词化”风格，便于充当主语并与 precision 对举。" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "本周最容易犯的五个错",
+      "body": "1. 见到 -ly 就当副词：friendly、daily 是形容词。\n2. 见到 -ate 就当动词：accurate 是形容词，candidate 是名词。\n3. 硬套“-less = 没有”：priceless 是“无价的”，不是“无价值的”。\n4. 给本土形容词硬加 -ity：darkness 对，darkity 错。\n5. 忽略拼写规则：reliablity、happyly、permition 都是高频错拼。\n\n这五条的共同根源是**把后缀当成充分条件**。正确做法是本周反复训练的两步法：**词尾给候选，位置给结论，语境给意义**。第 5 周开始，我们会把注意力从词缀转回词根，用 struct、form、port 这些核心成分扩展词族。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w04d7-p1",
+      "kind": "mcq",
+      "prompt": "The robustness of the controller was tested under three noise levels. 中 robustness 的词性是：",
+      "choices": ["名词", "形容词", "动词", "副词"],
+      "answer": 0,
+      "explain": "-ness 是名词后缀，且 robustness 位于 the 与 of 之间，是名词短语的中心词。robust 是形容词，加 -ness 后名词化，表示“稳健性”。这类 -ness 名词在工程文献里极常见，能产性高。",
+      "concepts": ["ness", "c-suffix"]
+    },
+    {
+      "id": "w04d7-p2",
+      "kind": "mcq",
+      "prompt": "下面哪个拼写是正确的？",
+      "choices": ["reliablity", "reliability", "relyability", "reliableity"],
+      "answer": 1,
+      "explain": "reliable = rely + able，名词化时 -able 变 -ability，得到 reliability。reliablity 漏掉 a；relyability 保留了动词原形；reliableity 叠加了两个后缀，均不成立。-able 与 -ability 的对应关系要整体记。",
+      "concepts": ["ity", "able", "c-spelling-rule"]
+    },
+    {
+      "id": "w04d7-p3",
+      "kind": "cloze",
+      "prompt": "把括号中的词 robust 变成名词",
+      "sentence": "The ___ of the pipeline comes from redundancy: three independent sensors vote on every measurement.",
+      "answer": "robustness",
+      "explain": "robust 是形容词，加 -ness 构成名词 robustness“稳健性”，作主语。冒号后的“三个独立传感器对每次测量投票”正是稳健性的来源。这里用 -ity 不合适，因为 robust 不是拉丁词基，robustity 不是英语词。",
+      "concepts": ["ness", "c-suffix", "c-register"]
+    },
+    {
+      "id": "w04d7-p4",
+      "kind": "wordSum",
+      "prompt": "写出构词算式的结果：modern + ize → ?",
+      "parts": ["modern", "ize"],
+      "answer": "modernize",
+      "explain": "modern（现代的）加 -ize 构成动词 modernize“使现代化”。这是形容词加 -ize 的典型路径，与名词加 -ize（standardize）并列。-ize 在技术与管理语域能产性最高，是本周出现的多条派生链的共同终点。",
+      "concepts": ["ize", "c-derivation"]
+    },
+    {
+      "id": "w04d7-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一组词不能按 -ful（有）与 -less（无）的对称关系理解？",
+      "choices": ["hopeful / hopeless", "careful / careless", "useful / useless", "awful / awesome"],
+      "answer": 3,
+      "explain": "awful 与 awesome 都源自 awe（敬畏），但 awesome 的结尾是 -some（表“具有……性质的”），不是 -less；两者现代义也已分化：awful 是“糟糕的”，awesome 是“极好的”。前三组都是同一词基加 -ful / -less，构成规整的“有/无”对立。",
+      "concepts": ["ful", "less", "c-semantic-shift"]
+    },
+    {
+      "id": "w04d7-p6",
+      "kind": "mcq",
+      "prompt": "在一篇正式论文中，“该方法的实施”最合适的表达是：",
+      "choices": ["the doing of the method", "the implementation of the method", "the method's doability", "the method implementationness"],
+      "answer": 1,
+      "explain": "implementation 是 implement + ation 的规范名词化，是技术写作的固定搭配。the doing of 过于口语；doability 虽有“可行性”之义但搭配不当；implementationness 不成立。选名词化路径要看语域与固定搭配，而不只是语法可行。",
+      "concepts": ["tion", "c-register", "c-derivation"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w04d7-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的机器人系统说明，推测划线词的含义",
+      "passage": "Accurate localization is the bottleneck: a five-centimetre error in pose is enough to send the robot into the wrong aisle, and the error grows silently over time.",
+      "word": "localization",
+      "choices": ["确定自身位置", "软件本地化翻译", "局部区域划分", "位置分配调度"],
+      "answer": 0,
+      "strategy": "① 切分：local（位置的、局部的）+ ize（使……化）+ ation（名词后缀）；② 词性：-tion 构成名词，作主语；③ 语境：pose（位姿）误差五厘米就会让机器人走错通道，说明讨论的是“知道自己在哪里”；④ 校验：软件本地化与翻译无关位姿，局部划分不涉及误差累积。",
+      "explain": "localization 在机器人语境指“定位”，在软件语境指“本地化（翻译适配）”。同一个词、同一套构词，意义由领域决定。这是本课程反复强调的一点：**词素给出意义范围，语境选定具体义项**。判断依据是 pose、aisle、error 这些同现词。",
+      "concepts": ["tion", "ize", "c-inference", "c-scientific"]
+    },
+    {
+      "id": "w04d7-a2",
+      "kind": "infer",
+      "prompt": "阅读下面的传感器说明，推测划线词的含义",
+      "passage": "The main selling point is robustness: the system keeps working when a camera fails or the lighting changes abruptly.",
+      "word": "robustness",
+      "choices": ["在异常条件下仍能工作的稳健性", "在理想条件下的最高精度", "硬件的物理强度", "系统的运行速度"],
+      "answer": 0,
+      "strategy": "① 切分：robust（强健的）+ ness（名词后缀）；② 词性：-ness 构成名词，作表语；③ 语境：冒号后说相机失效或光照突变时系统仍能工作；④ 排除：精度、物理强度、速度都无法解释“故障时仍工作”。",
+      "explain": "robustness 意为“稳健性、鲁棒性”，指系统在异常输入或部件失效时维持功能的能力。它是工程文献的高频评价指标，常与 redundancy、degrade gracefully 共现。注意它与 precision 不同：稳健性关注“坏条件下不崩”，精度关注“好条件下多准”。",
+      "concepts": ["ness", "c-inference", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4 章：后缀系统与名词化" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "派生层次与拼写接缝的记录方法" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "localization、robustness 的领域义项" }
+  ]
+}

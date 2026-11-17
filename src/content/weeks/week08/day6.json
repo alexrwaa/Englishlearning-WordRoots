@@ -1,0 +1,140 @@
+{
+  "id": "w08d6",
+  "week": 8,
+  "day": 6,
+  "title": "不透明拼写：island 的 s、debt 的 b、receipt 的 p",
+  "tagline": "能说明这些字母是词源学者人为插入的，并用它记词而不是拆词",
+  "objectives": [
+    "能说出 island 的 s、debt 的 b、receipt 的 p 各自的插入原因",
+    "能区分构词字母、读音调整字母与词源装饰字母",
+    "能拒绝把 island 切成 is + land 这类错误分析"
+  ],
+  "prereqs": ["w08d5"],
+  "concepts": ["c-spelling-rule", "c-etymology", "c-morpheme"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 4 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "island：一个被误加的 s",
+      "body": "**island** 里的 s 不发音，也不是构词成分。古英语写作 īgland（īg“岛” + land“陆地”）。16 世纪英国学者看到拉丁语 insula“岛”，误以为英语这个词与它同源，于是把 s 插进拼写。\n\n事实是：island 与拉丁 insula **没有继承关系**；与它同源的是 isle（经古法语来自拉丁 insula），两者只是后来被拼写拉近。s 是**词源学者人为插入的拼写**，既不发音，也不表示任何词素。\n\n今天 island 是一个不可切分的词。把它切成 is + land，并解释为“在水中的陆地”，是拼写联想，不是词素分析。",
+      "terms": [
+        { "term": "orthographic etymology", "zh": "拼写词源化", "en": "orthographic etymology", "note": "为显示词源关系而改动拼写，但不影响读音" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "debt：为了显示拉丁出身",
+      "body": "**debt** 的中古英语形式是 dette，来自古法语 dette，源头是拉丁 debitum“欠的东西”。文艺复兴时期的学者为了显示这个词的拉丁出身，把 b 加回去，写成 debt——但英语里从来没有读过这个 b。\n\n同类还有 **doubt**（中古英语 douten，来自拉丁 dubitare，b 后加）、**subtle**（中古英语 sotil，来自拉丁 subtilis，b 后加）。\n\n这些插入字母的共同点：**只反映词源，不反映发音，也不构成词素**。它们让拼写与读音的对应关系变差，却是英语拼写史的一部分。",
+      "morphemes": ["debt"]
+    },
+    {
+      "kind": "text",
+      "title": "receipt：同一时期，处理却不一致",
+      "body": "**receipt** 的中古英语形式是 receit，来自古法语 receite，源头是拉丁 recepta。学者同样把 p 插回去，于是有了 receipt，而 p 从不发音。\n\n对比 **deceit**（来自拉丁 decepta）：它没有插入 p，仍写 deceit。同一来源、同一时期，处理却不同——这说明拼写的“拉丁化”是零散的，由个别学者与出版商推动，不是系统规则。\n\n其他例子：**salmon** 的 l（拉丁 salmo）、**indict** 的 c（拉丁 indicare）、**victuals** 的 c（拉丁 victualia）。"
+    },
+    {
+      "kind": "table",
+      "title": "三类字母，三种性质",
+      "body": "这张表是本课最该记住的东西。遇到一个“多出来的字母”，先归到这三类里，再决定怎么处理：第一类要分析，第二类要解释读音，第三类只能当记忆线索。",
+      "head": ["类型", "来源", "例子", "对构词分析的意义"],
+      "rows": [
+        ["构词字母", "来自词素本身", "unhappy 的 un-、hopeful 的 -ful", "可以切分，有意义"],
+        ["读音调整字母", "为标示读音而增删", "fridge 的 d、hope 去 e", "反映音值，不是词素"],
+        ["词源装饰字母", "为显示拉丁/希腊出身而插入", "island 的 s、debt 的 b、receipt 的 p", "不发音、不是词素，只作记忆线索"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "正确用法：拿来记词，不要拿来拆词",
+      "body": "词源装饰字母对构词分析毫无用处，但对**记单词**很有用：debt 的 b 提醒你它与 debit、debtor 同族；receipt 的 p 提醒你它与 reception、recipient 共享拉丁 recept-；indict 的 c 提醒你它与 diction、dictate 同源。\n\n边界要清楚：\n\n- 可以用它建立**词族联想**（记忆策略）。\n- 不可以用它做**词素切分**（结构分析）。\n\n先做替换测试：is- 在英语里不是可替换的词素，land 换成别的也得不出新词，所以 island 不可切。**拼写史 ≠ 构词结构**——这条边界从第 1 周讲到现在，是整门课的方法论底线。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w08d6-p1",
+      "kind": "mcq",
+      "prompt": "island 中 s 的来源是：",
+      "choices": [
+        "16 世纪学者误以为它与拉丁 insula 同源而插入，不发音",
+        "古英语原有的词素，表示“在水中的”",
+        "来自法语冠词，表示“这一个”",
+        "为了标示前一个元音读长音"
+      ],
+      "answer": 0,
+      "explain": "古英语形式是 īgland，本无 s；16 世纪学者受拉丁 insula 影响插入 s。island 与 insula 并无继承关系，s 不发音也不是词素。",
+      "concepts": ["c-etymology", "c-spelling-rule"]
+    },
+    {
+      "id": "w08d6-p2",
+      "kind": "mcq",
+      "prompt": "debt 中的 b 是：",
+      "choices": [
+        "文艺复兴时期为显示拉丁来源 debitum 而插入，不发音",
+        "古英语词根的一部分，读 /b/",
+        "表示过去分词的标记",
+        "来自法语的发音习惯"
+      ],
+      "answer": 0,
+      "explain": "中古英语写作 dette，b 是后来按拉丁 debitum 补上的“词源装饰字母”，从不发音。同类还有 doubt 的 b、subtle 的 b。",
+      "concepts": ["c-etymology", "c-spelling-rule"]
+    },
+    {
+      "id": "w08d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个单词",
+      "sentence": "The word ___ contains a silent p that was added to reflect Latin recepta.",
+      "answer": "receipt",
+      "accept": ["Receipt"],
+      "explain": "receipt 的中古英语形式是 receit，p 是按拉丁 recepta 补上的，从不发音。对照 deceit（来自 decepta）没有补 p，说明这种拼写调整并不系统。",
+      "concepts": ["c-etymology", "c-spelling-rule"]
+    },
+    {
+      "id": "w08d6-p4",
+      "kind": "mcq",
+      "prompt": "关于 island 的切分，哪项正确？",
+      "choices": [
+        "现代英语中不可切分，s 是后加的拼写，不构成词素",
+        "可切成 is + land，意为“在水中”",
+        "可切成 i + sland，sland 表示“陆地”",
+        "可切成 isl + and，两个词素各表一半意义"
+      ],
+      "answer": 0,
+      "explain": "替换测试不通过：is- 不是可替换词素，sland 也不成词，因此 island 只能整体记。它的历史来源（īg + land）不能作为现代切分依据，s 更是后加的。",
+      "concepts": ["c-morpheme", "c-etymology"]
+    },
+    {
+      "id": "w08d6-p5",
+      "kind": "mcq",
+      "prompt": "island 的 s、debt 的 b、receipt 的 p 的共同点是：",
+      "choices": [
+        "都反映词源联系，既不发音也不构成词素",
+        "都读作轻辅音，只是常被弱读",
+        "都是古英语原有的字母",
+        "都是构词时必需的连接字母"
+      ],
+      "answer": 0,
+      "explain": "三者都是词源学者为显示拉丁来源插入的拼写，不发音、不表义。它们能帮助记忆词族，但不能用于词素切分——这正是本课要守住的边界。",
+      "concepts": ["c-etymology", "c-transparency"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w08d6-a1",
+      "kind": "infer",
+      "prompt": "推测划线词 indict 的含义",
+      "passage": "A grand jury voted to indict two executives on charges of fraud and obstruction, and the case will now move to trial.",
+      "word": "indict",
+      "choices": ["正式起诉、提起公诉", "宣判有罪并量刑", "撤销全部指控", "进行调查取证"],
+      "answer": 0,
+      "strategy": "① 语境：grand jury（大陪审团）、charges（指控）、move to trial（进入审判）构成一条司法流程链；② 位置：voted to 之后是动词原形；③ 拼写：c 不发音，拼写指向拉丁 indicare，与 diction 同源，可作记忆线索。",
+      "explain": "indict 指由大陪审团正式起诉，是审判前的环节；宣判有罪是 convict，撤诉是 drop charges，调查是 investigate。注意 c 不发音，读 /ɪnˈdaɪt/，这个字母是词源装饰，不是词素。",
+      "concepts": ["c-etymology", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "island、debt、receipt、indict、salmon 词条" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 1 章：拼写与词源的关系" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "以替换测试否证错误切分" }
+  ]
+}

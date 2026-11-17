@@ -1,0 +1,162 @@
+{
+  "id": "w09d5",
+  "week": 9,
+  "day": 5,
+  "title": "全球借词：algebra、tea、tsunami、robot",
+  "tagline": "借词不只有法语和拉丁语——从阿拉伯语、闽南语、日语、捷克语看英语的全球来源",
+  "objectives": [
+    "能说出 algebra、tea、tsunami、robot 的来源语言与借入路径",
+    "能解释借词路径为何常常绕远（贸易、转手语言），而不是最短路线",
+    "能判断“借词说明语言贫乏”“借词破坏语言纯洁”这类说法的问题"
+  ],
+  "prereqs": ["w09d4"],
+  "concepts": ["c-borrowing", "c-etymology", "c-register"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "英语的“进口清单”比你想的长",
+      "body": "法语和拉丁语占了英语借词的绝大多数，但真正有意思的往往来自更远的地方。这些词的进入时间集中在 16 世纪以后，与航海、贸易、殖民、科技传播同步：\n\n- 阿拉伯语：algebra、algorithm、alcohol、sugar、coffee（经土耳其语）\n- 汉语方言：tea（闽南语）、ketchup（闽南语，经马来语）\n- 日语：tsunami、karate、emoji、sushi\n- 捷克语：robot\n- 印地语：shampoo、bungalow、jungle\n- 挪威语：ski；意大利语：piano；德语：kindergarten\n\n注意一个规律：**越具体的名词越容易借，越抽象的语法词越难借**。这和第 2 天 they 被借走的例外正好形成对照。",
+      "terms": [
+        { "term": "loanword", "zh": "借词", "en": "loanword", "note": "从另一语言整词借入，不归还" }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "algebra：一个阿拉伯语书名留下的词",
+      "body": "algebra 来自阿拉伯语 **al-jabr**，字面是“复原、接合（断骨）”。al- 是阿拉伯语的定冠词，所以这个词本身就带着“the”一起被借走了。\n\n9 世纪数学家 al-Khwārizmī 写了一部讨论方程求解的著作，书名里就用了 al-jabr（指把方程中移项后的项“复原”平衡）。这本书经拉丁语翻译进入欧洲，al-jabr 逐渐专指“解方程的学问”，再由“代数”扩展到今天更抽象的数学分支。\n\n顺带一个同源伙伴：**algorithm** 来自 al-Khwārizmī 这个名字的拉丁化形式 Algoritmi。同一个人，两个词——一个进了数学，一个进了计算机科学。",
+      "steps": [
+        { "period": "阿拉伯语", "form": "al-jabr", "note": "“复原、接合”，al- 为定冠词" },
+        { "period": "中世纪拉丁", "form": "algebra", "note": "9 世纪 al-Khwārizmī 著作经翻译传入欧洲" },
+        { "period": "英语", "form": "algebra", "note": "16–17 世纪进入，先指解方程之术，后泛指代数" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "tea：一条贸易路线，而不是一条最短路径",
+      "body": "tea 的最终来源是**闽南语 tê**（“茶”）。但它没有从福建直接到英国，而是走了荷兰：闽南语 tê → 荷兰语 thee → 英语 tea（17 世纪）。\n\n同一时期，普通话的 chá 走了另一条路线，进入葡萄牙语等语言，所以今天世界上“茶”的词形大致分成两派：tea 派与 cha 派。**词形分布图几乎就是 17 世纪海上贸易路线的地图。**\n\n这正是借词研究最有意思的地方：词的路径记录的是人的路径。借词不是“语言内部的变化”，而是历史事件留下的化石。",
+      "terms": [
+        { "term": "trade route", "zh": "贸易路线", "en": "trade route" }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "robot：从“劳役”到“机器”",
+      "body": "robot 来自捷克语 **robota**，意为“劳役、苦工”（与表示“奴隶、农奴”的词根相关）。\n\n1920 年，捷克作家 Karel Čapek 的剧作 *R.U.R.*（Rossum's Universal Robots）上演，剧中的合成人造劳动者被称为 robot。通行说法是这个词由他的哥哥、画家 Josef Čapek 提议——Čapek 原本想用的是 labori（来自拉丁 labor“劳动”），但觉得太书卷气。\n\n此后不到一个世纪，robot 从舞台走进了工业、科幻与日常英语，并派生出 robotics、robotic、robotize。这是一个**由单部文学作品成功输出到全世界**的借词，非常罕见。",
+      "steps": [
+        { "period": "捷克语", "form": "robota", "note": "“劳役、苦工”" },
+        { "period": "1920", "form": "robot", "note": "Čapek 剧作 R.U.R. 中的合成劳动者" },
+        { "period": "20 世纪中叶", "form": "robot / robotics", "note": "进入英语及世界各语言；robotics 由 Asimov 等推广" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "借词的“转手”记录",
+      "body": "注意“直接来源”与“最终来源”常常不是同一个语言。转手的原因通常是贸易垄断、航海路线或翻译中介。查词源时要把两栏分开写，否则很容易把转手地当成故乡，讲出一条看起来合理却错误的传播史。",
+      "head": ["词", "最终来源", "直接来源", "字面义"],
+      "rows": [
+        ["tea", "闽南语 tê", "荷兰语 thee", "茶"],
+        ["algebra", "阿拉伯语 al-jabr", "中世纪拉丁 algebra", "复原、接合"],
+        ["tsunami", "日语 津波", "日语（19 世纪末直接借入）", "港（津）＋浪（波）"],
+        ["ketchup", "闽南语 kê-tsiap", "马来语 kicap", "腌鱼的汁"],
+        ["coffee", "阿拉伯语 qahwa", "土耳其语 kahve", "咖啡"],
+        ["shampoo", "印地语 chāmpo", "英语（18 世纪经殖民接触）", "按摩、揉搓"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "借词会变形：语音适应是必然的",
+      "body": "借来的词要能说出口，就会被借入语言的音系改造：\n\n- tsunami 的 /ts-/ 在英语词首不合规则，多数人读 /suːˈnɑːmi/ 或 /tsuː-/；\n- 法语 debris 保留了不发音的 s；\n- 日语 emoji 在英语里重音前移，且常被当成单数可数名词（*an emoji / emojis*），而日语原是“绘文字”的复合名词。\n\n这些“变形”不是错误，而是借词的正常代价。判断一个人是否懂借词，看他会不会说“这个词在来源语言里读作……，英语里已经适应为……”，而不是只会说“读错了”。",
+      "terms": [
+        { "term": "phonological adaptation", "zh": "语音适应", "en": "phonological adaptation" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w09d5-p1",
+      "kind": "mcq",
+      "prompt": "algebra 中的 al- 是什么？",
+      "choices": [
+        "阿拉伯语的定冠词，随名词一起被借入",
+        "拉丁语前缀 ad- 在 l 前的变体",
+        "希腊语的否定前缀",
+        "捷克语中表示“劳动”的词根"
+      ],
+      "answer": 0,
+      "explain": "al- 是阿拉伯语定冠词，所以 algebra 字面上相当于“the reunion”。同类还有 alcohol、algorithm、alkali——看到 al- 开头且语义与数学、化学有关的词，可以优先怀疑阿拉伯语来源（但仍是线索，不是定律）。",
+      "concepts": ["c-borrowing", "c-etymology"]
+    },
+    {
+      "id": "w09d5-p2",
+      "kind": "mcq",
+      "prompt": "关于 tea 的来源，下面哪种说法最准确？",
+      "choices": [
+        "最终来自闽南语 tê，17 世纪经荷兰语 thee 进入英语",
+        "直接来自普通话 chá，经葡萄牙语进入英语",
+        "来自日语“茶”的音译",
+        "来自阿拉伯语，经陆路传入欧洲"
+      ],
+      "answer": 0,
+      "explain": "tea 经荷兰贸易路线进入英语（荷兰语 thee < 闽南语 tê）；普通话 chá 走的是另一条路线，形成 cha 派词形。这说明借词的直接来源与最终来源常常不同，需要分开记录。",
+      "concepts": ["c-borrowing"]
+    },
+    {
+      "id": "w09d5-p3",
+      "kind": "cloze",
+      "prompt": "填入捷克语原词",
+      "sentence": "The word robot comes from the Czech ___ , meaning “forced labour”.",
+      "answer": "robota",
+      "accept": ["robota"],
+      "explain": "robota 意为“劳役、苦工”。1920 年 Čapek 的剧作 R.U.R. 用它指称人造劳动者，此后进入世界各语言。注意它不是希腊或拉丁词，也不是“rod”或“work”的变体。",
+      "concepts": ["c-borrowing", "c-etymology"]
+    },
+    {
+      "id": "w09d5-p4",
+      "kind": "mcq",
+      "prompt": "英语大量借词这一事实，最能支持下面哪个结论？",
+      "choices": [
+        "语言接触的强度与方向会留下词汇痕迹，常与贸易、征服、技术传播相关",
+        "借入语言的词汇更贫乏，所以必须借",
+        "借词一定比本土词更精确",
+        "只有英语会大规模借词，其他语言不会"
+      ],
+      "answer": 0,
+      "explain": "借词是接触的证据：谁和谁贸易、谁征服谁、技术从哪来，都会写在词汇表里。世界上几乎没有不借词的语言，日语、韩语、阿拉伯语都有大量借词。“贫乏论”既不符合事实，也混淆了接触与能力。",
+      "concepts": ["c-borrowing"]
+    },
+    {
+      "id": "w09d5-p5",
+      "kind": "mcq",
+      "prompt": "tsunami 的来源与字面义是？",
+      "choices": [
+        "日语 津波：津（港）＋波（浪），19 世纪末进入英语",
+        "汉语“海啸”的意译借词",
+        "希腊语“巨浪”，经拉丁转写",
+        "马来语“潮水”，经荷兰语转手"
+      ],
+      "answer": 0,
+      "explain": "tsunami 是日语 津波 的借词，津 指港口，波 指波浪，字面“港口的浪”，19 世纪末经海啸报道进入英语。英语中词首 /ts-/ 不合本族音系，因此常见读音为 /suːˈnɑːmi/。",
+      "concepts": ["c-borrowing"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w09d5-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "The algorithm converges in fewer than ten iterations on every benchmark we tested, which makes it practical for onboard execution.",
+      "word": "algorithm",
+      "choices": ["一套明确的计算步骤", "一种硬件传感器", "一个数学定理的证明", "一份实验报告"],
+      "answer": 0,
+      "strategy": "① 句法：algorithm 作主语，谓语 converges（收敛）、后接 in ten iterations，说明它是可按步骤重复执行的过程；② 语境：benchmark、onboard execution 指向可运行的计算方法；③ 词源辅助：来自 al-Khwārizmī 的名字，与“按规则计算”有关。",
+      "explain": "algorithm 指一组明确、有限、可执行的计算步骤，强调“过程”而非“公式”或“定理”。在计算机与机器人语境里常与 converge、iteration、complexity 搭配。它与 algebra 同出 al-Khwārizmī 之名，但一个指代数分支，一个指计算步骤。",
+      "concepts": ["c-borrowing", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "英语借词的世界来源与借入路径" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "algebra / tea / tsunami / robot / ketchup 的语源与年代" }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "w10d7",
+  "week": 10,
+  "day": 7,
+  "title": "第 10 周复盘：一套解释词义扩张的框架",
+  "tagline": "把隐喻、转喻、扩大、缩小、升格、降格整合成一张可复用的判据表",
+  "objectives": [
+    "能对任一语义变化实例判断它属于哪一类机制，并说明判据",
+    "能区分“范围变化”与“评价变化”，不把两者混为一谈",
+    "能在科研语料中用语境与搭配确定多义技术词的具体义项"
+  ],
+  "prereqs": ["w10d6"],
+  "concepts": ["c-metaphor", "c-metonymy", "c-broadening", "c-narrowing", "c-amelioration", "c-pejoration"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "五种机制与各自的判据",
+      "body": "这是本周的总表。做题时先问“变的是范围、评价，还是指称方式”，再落到具体机制；不要一看到词义变化就往“扩大”上猜。判据那一列比例子更重要——例子会忘，判据不会。",
+      "head": ["机制", "变的是什么", "判据", "例子"],
+      "rows": [
+        ["隐喻 metaphor", "指称方式（跨域相似）", "能改写为“A 像 B”，源域具体、目标域抽象", "论证崩塌、瓶颈、计算机病毒"],
+        ["转喻 metonymy", "指称方式（同域邻近）", "A 与 B 相邻，不能改写为“像”", "hands 指工人、壶开了、白宫表态"],
+        ["扩大 broadening", "所指范围（变宽）", "新义的外延包含旧义", "place 从“广场”到“地方”"],
+        ["缩小 narrowing", "所指范围（变窄）", "旧义的外延包含新义", "meat 从“食物”到“肉”"],
+        ["升格／降格", "评价（变褒／变贬）", "所指基本不变，褒贬地位变了", "knight 升格、silly 降格"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四条方向性：为什么变化不是乱走",
+      "body": "语义演变有统计上的偏好方向，知道这些能显著提高猜测命中率：\n\n1. **具体 → 抽象**：抓住 → 理解；道路 → 方法（way）。\n2. **空间 → 时间**：*in 2020*、*before noon*、*a long meeting*。\n3. **身体 → 心理**：*the heart of the matter*、*head of the department*。\n4. **中性／褒 → 贬更常见**：贬义化比褒义化频繁，因为贬义表达的需求更稳定。\n\n反方向也存在（knight、marshal 都是升格），但更少见。写题时若两个选项都说得通，优先选符合方向性的那个——但仍要以证据为准，方向性只是先验。",
+      "terms": [
+        { "term": "subjectification", "zh": "主观化", "en": "subjectification", "note": "词义从描述客观世界转向表达说话人态度" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "最后一组对照：隐喻、转喻、范围变化",
+      "body": "这三组最容易混。记住它们回答的是三个不同问题：怎么指、指多宽、评价如何。一个问题只有一个答案，所以同一个变化不会既是扩大又是降格；先定问题，再选术语。",
+      "a": "隐喻／转喻",
+      "b": "扩大／缩小／升降格",
+      "rows": [
+        ["回答的问题", "凭什么用 A 指 B", "所指范围或评价怎么变"],
+        ["作用层面", "单个新义项的生成机制", "义项整体的范围与色彩"],
+        ["能否同时", "能：新义项可先由隐喻生成", "能：新义项可能同时更宽、更贬"],
+        ["典型例", "bottleneck（隐喻）、hands（转喻）", "place（扩大）、silly（降格）"],
+        ["判断顺序", "先看新旧义是否跨域", "再看外延与褒贬是否变化"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "用在论文阅读上：三步定叉",
+      "body": "科研语料里的多义词，靠三步定叉，比查词典更快：\n\n1. **看搭配**：localization 与 drift、pose 同现 → 定位；与 locale、translation 同现 → 本地化。\n2. **看量纲与单位**：以米、度为单位的是几何量；以毫秒、FPS 为单位的是时间量。单位往往直接锁定义项。\n3. **看论证位置**：出现在 limitations 里的 robust 常指“对干扰不敏感”，出现在 introduction 里的 robust 可能只是“结实、耐用”。\n\n三步走完仍不确定，再查该领域的术语表。**不要用通用词典的第一条释义去读专业文献**，这是最常见的误读来源。"
+    },
+    {
+      "kind": "text",
+      "title": "本周错误清单",
+      "body": "1. **把同形异源当多义**。bank 的两个义项没有语义联系，硬编联系会记错。\n2. **把隐喻当字面**。computer virus 不“有毒”，它复制和传播。\n3. **混淆范围与评价**。meat 是缩小，不是降格；silly 是降格，不是缩小。\n4. **用古义否定今义**。nice 来自“无知”，但今天就是“令人愉快”。\n5. **用通用词典读专业文献**。localization、model、robust 都必须按领域取义。\n\n一句总结：**机制解释来源，搭配决定当下**。两者都握住，多义词就不再是负担。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w10d7-p1",
+      "kind": "mcq",
+      "prompt": "awful 从“令人敬畏的”变为“糟糕的”，属于哪一类变化？",
+      "choices": ["降格", "扩大", "缩小", "转喻"],
+      "answer": 0,
+      "explain": "所指对象大体不变，变的是评价色彩：从“可畏、庄严”降到“很糟”，属于 pejoration（降格）。它同时伴随语义淡化，口语中进一步虚化为程度副词。",
+      "concepts": ["c-pejoration"]
+    },
+    {
+      "id": "w10d7-p2",
+      "kind": "mcq",
+      "prompt": "The factory hired fifty hands. 中的 hands 属于？",
+      "choices": ["转喻（部分代整体）", "隐喻（人像手）", "词义扩大", "词义升格"],
+      "answer": 0,
+      "explain": "手是劳动的执行部位，与“工人”处于同一场景、彼此相邻，因此是转喻（具体为提喻）。它不涉及跨域相似，也不是范围或评价的变化。",
+      "concepts": ["c-metonymy"]
+    },
+    {
+      "id": "w10d7-p3",
+      "kind": "cloze",
+      "prompt": "填入术语（中文或英文均可）",
+      "sentence": "语义演变中更常见的评价方向是 ___ ：中性或褒义的词逐渐带上贬义。",
+      "answer": "降格",
+      "accept": ["降格", "pejoration", "贬义化", "词义降格"],
+      "explain": "pejoration（降格）比 amelioration（升格）更常见，因为贬义表达的使用需求更稳定，且委婉机制会不断把中性词拉去承担贬义。silly、awful、villain 都是例证。",
+      "concepts": ["c-pejoration", "c-amelioration"]
+    },
+    {
+      "id": "w10d7-p4",
+      "kind": "mcq",
+      "prompt": "localization 在机器人语境与软件语境中分别指？",
+      "choices": [
+        "定位（确定自身位置）／本地化（适配地区语言与文化）",
+        "本地化／定位",
+        "两者都指定为",
+        "两者都指语言翻译"
+      ],
+      "answer": 0,
+      "explain": "同一拉丁词根 locus“地方”在两个社群独立专业化：机器人领域指“定位”，软件领域指“本地化”（L10n）。判定靠搭配：drift、pose、odometry 指向定位；locale、UI、translation 指向本地化。",
+      "concepts": ["c-scientific", "c-register"]
+    },
+    {
+      "id": "w10d7-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一句对“词源与词义”的关系表述正确？",
+      "choices": [
+        "词源说明词的历史来源，现代义项由当下的用法与搭配决定",
+        "词源决定现代义，古义就是真义",
+        "词源可以预测一个词未来会出现哪些义项",
+        "多义词的各个义项之间必然没有联系"
+      ],
+      "answer": 0,
+      "explain": "词源是历时证据，现代义是共时约定。二者可以背离（nice、budget），也可以一致（analysis）。词源能提供记忆钩子与语义直觉，但不能替代定义，也不能预测新义。",
+      "concepts": ["c-semantic-shift", "c-etymology"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w10d7-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "The estimator remains robust to up to 30% outliers, but its accuracy degrades sharply once those outliers are correlated with one another.",
+      "word": "robust",
+      "choices": ["稳健的、不易受干扰的", "体积强壮的", "粗糙的", "运算快速的"],
+      "answer": 0,
+      "strategy": "① 搭配：robust to + outliers，to 引出干扰源，说明“对……不敏感”；② 转折对照：but … degrades sharply，说明前半句在讲抗干扰能力；③ 词源辅助：拉丁 robur“橡木、力量”→ 结实 → 稳健。",
+      "explain": "robust 在统计与工程语境指“对噪声、异常值、扰动不敏感”，是 robust estimation、robust control 的核心词。它从“橡木般结实”的物理义隐喻到“算法稳健”，保留的是“不易被击倒”这一特征。",
+      "concepts": ["c-metaphor", "c-scientific", "c-inference"]
+    },
+    {
+      "id": "w10d7-a2",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "Without loop closure, the estimated trajectory drifts slowly, and the resulting map becomes inconsistent after a few hundred metres.",
+      "word": "drifts",
+      "choices": ["逐渐偏离真值", "随水流漂浮", "快速振荡", "突然中断"],
+      "answer": 0,
+      "strategy": "① 句法：drifts 作谓语，主语是 estimated trajectory，slowly 说明是渐进过程；② 后果链：map becomes inconsistent after a few hundred metres，说明误差在累积；③ 同现词：loop closure 是消除累积误差的机制。",
+      "explain": "drift 在状态估计中指“估计值随时间缓慢偏离真值”，即漂移。它来自“漂流、被带动”的日常义，保留“缓慢、无外力纠正地偏移”这一特征。与 sudden jump（突变）相对，drift 强调累积性。",
+      "concepts": ["c-metaphor", "c-scientific", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "语义演变的类型与方向性总结" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Semantics：隐喻、转喻与语义变化" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "robust / drift / localization 的义项与专业用法" }
+  ]
+}

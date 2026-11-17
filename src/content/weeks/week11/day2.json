@@ -1,0 +1,178 @@
+{
+  "id": "w11d2",
+  "week": 11,
+  "day": 2,
+  "title": "机器人核心术语：robot、robotics、autonomous、actuator",
+  "tagline": "四个词，四条完全不同的造词路径，同属一个领域",
+  "objectives": [
+    "能说明 robot 来自捷克语 robota，并指出 robot ≠ rob + -ot",
+    "能解释 -ics 在 robotics 中的学科含义及其单数用法",
+    "能拆解 autonomous 并区分它与 anonymous 的词源",
+    "能说明 actuator 的构词层次（act → actuate → actuator）"
+  ],
+  "prereqs": ["w11d1", "c-borrowing", "c-combining"],
+  "concepts": ["c-borrowing", "c-scientific", "c-greek-latin", "c-suffix", "c-etymology"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "etym",
+      "title": "robot：一个 1920 年的舞台词",
+      "body": "**robot** 不是英语本土词，也不是希腊拉丁词根拼出来的。它来自捷克语 **robota**“劳役、苦工”（更早的斯拉夫语形式与“奴隶”有关）。1920 年，捷克作家卡雷尔·恰佩克（Karel Čapek）在剧本《R.U.R.》里用它指人造劳动者；据他回忆，这个词是他的哥哥约瑟夫建议的。\n\n最常见的错误拆分是 robot = rob + -ot，联想英语 rob“抢劫”。这两者毫无关系：英语 rob 来自古法语 rober，与 robota 不同源。**拼写相似不是同源证据**，这是第 9 周就立下的规矩，在这里正好用上。\n\n所以 robot 属于“借词 + 文学造词”这一类：形式整体借入，意义由一个具体文本固定下来。",
+      "steps": [
+        { "period": "原始斯拉夫语", "form": "*orbъ", "note": "奴隶、依附者（同源形式，具体拟构有争议）" },
+        { "period": "捷克语", "form": "robota", "note": "强制劳役、苦工" },
+        { "period": "1920 捷克语剧本", "form": "robot", "note": "Čapek《R.U.R.》中的人造劳动者" },
+        { "period": "英语", "form": "robot", "note": "经翻译与传播进入国际词汇" }
+      ],
+      "terms": [
+        { "term": "robota", "zh": "劳役（捷克语）", "en": "robota", "note": "与“奴隶”义相关，是 robot 的直接来源" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "robotics：-ics 是“学科”，而且作单数",
+      "body": "**robotics** = robot + -ics。这个后缀来自希腊语的中性复数 -ika，在英语里专门构成学科名：physics、economics、linguistics、robotics。\n\n两个使用要点：\n\n1. **作单数**：Robotics is a rapidly growing field. 不说 Robotics are。因为 -ics 已经词汇化为一个学科名称，不再是复数。\n2. **层层派生**：robotics → robotic（形容词）→ roboticist（研究者）。注意 robotic 既是“机器人的”，也可表示“像机器人一样僵硬的”，这时语域从技术转向评价。\n\nrobotics 这个词本身是 20 世纪中叶才普及的（一般追溯到阿西莫夫 1940 年代的小说），比 robot 晚了二十多年——**先有物，再有学科名**，这是术语史的常见顺序。",
+      "morphemes": ["ics", "ist"],
+      "terms": [
+        { "term": "-ics", "zh": "学科后缀", "en": "-ics", "note": "来自希腊语 -ika，构成的学科名通常作单数" }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "autonomous：自己给自己立法",
+      "body": "**autonomous** = auto-（自己）+ nom（法则）+ -ous（形容词后缀）。希腊语 autonomos 指“按自己的法律生活的”，原用于城邦与个人，19 世纪起用于生物体，20 世纪转到机器上。\n\n必须分清形近词：**anonymous** = an-（无）+ onym（名字）+ -ous，“无名的”。两者都以 -onymous 结尾，但 nom（法则）与 onym（名字）是两个不同词根。这是阅读中真实会看错的点：autonomous vehicle 是“自主车辆”，anonymous vehicle 只会是“匿名车辆”。\n\n同族词：autonomy（自治、自主性）、autonomic（自主神经的）、autonomously（自主地）。写论文时说 a robot navigates autonomously，指的是不依赖外部指令完成决策，而不是“自动执行固定程序”。",
+      "steps": [
+        { "period": "希腊语", "form": "autos", "note": "自己" },
+        { "period": "希腊语", "form": "nomos", "note": "法则、习俗" },
+        { "period": "希腊语", "form": "autonomos", "note": "自定法则的、自治的" },
+        { "period": "英语", "form": "autonomous", "note": "自主的；（机器）自主决策的" }
+      ],
+      "terms": [
+        { "term": "autonomy", "zh": "自主性、自治", "en": "autonomy" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "actuator：act 的三层派生",
+      "body": "**actuator** 不是 act + or 一步到位的。它的构词是分层的：\n\nact（做、驱动）→ actuate（驱动、使动作）→ actuator（执行器、驱动器）。\n\n中间的 -u- 来自拉丁分词词干 actu-（agere“驱动、做”的反复形式 actus），不是连接元音，也不承载独立意义。末尾的 -ator 是施事名词后缀，同样出现在 actor、generator、calculator 里：**做这件事的东西**。\n\n所以 actuator 的字面义是“使某物动作起来的装置”——电机、液压缸、舵机都是 actuator。同族：actuation（驱动、 actuation delay 驱动延迟）、actuated（被驱动的）。\n\n请注意它与 sensor 的分工：sensor 感知世界，actuator 改变世界。这一对词是机器人论文里出现频率最高的名词组合之一。",
+      "morphemes": ["act", "ator"],
+      "terms": [
+        { "term": "actuator", "zh": "执行器、驱动器", "en": "actuator" },
+        { "term": "-ator", "zh": "施事名词后缀", "en": "-ator", "note": "表示执行某动作的人或装置" }
+      ]
+    },
+    {
+      "kind": "matrix",
+      "title": "以 act 为词基的机器人常用词族",
+      "body": "act 是少数能独立成词的拉丁词根（“行动”），因此词族特别大。矩阵的价值在于看清哪些槽位常用、哪些几乎不出现：act + -ion 是抽象名词，act + -u + -ate 是动词，再加 -or 才指装置。",
+      "base": "act",
+      "prefixes": [
+        { "text": "re", "glossZh": "回、再" },
+        { "text": "inter", "glossZh": "相互之间" }
+      ],
+      "suffixes": [
+        { "text": "ion", "glossZh": "名词后缀：行为、结果" },
+        { "text": "ive", "glossZh": "形容词后缀：有……性质的" },
+        { "text": "or", "glossZh": "名词后缀：施事者" },
+        { "text": "uate", "glossZh": "动词后缀：使……动作" }
+      ],
+      "words": [
+        { "w": "action", "parts": ["act", "ion"], "glossZh": "动作、行动" },
+        { "w": "active", "parts": ["act", "ive"], "glossZh": "主动的、活跃的" },
+        { "w": "actor", "parts": ["act", "or"], "glossZh": "行动者、演员" },
+        { "w": "actuate", "parts": ["act", "u", "ate"], "glossZh": "驱动、使动作" },
+        { "w": "actuator", "parts": ["act", "u", "ator"], "glossZh": "执行器" },
+        { "w": "reaction", "parts": ["re", "act", "ion"], "glossZh": "反应" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w11d2-p1",
+      "kind": "mcq",
+      "prompt": "关于 robot 的词源，哪一项正确？",
+      "choices": [
+        "来自英语 rob + -ot，意为“被抢走自由的东西”",
+        "来自捷克语 robota“劳役”，由 Čapek 在 1920 年引入",
+        "来自希腊语 ergon“工作”的拉丁转写",
+        "来自德语 Roboter，原意“工人”"
+      ],
+      "answer": 1,
+      "explain": "robot 直接来自捷克语 robota“劳役、苦工”，1920 年经 Čapek 的剧本 R.U.R. 进入国际词汇。英语 rob 来自古法语 rober，与它不同源；德语 Roboter 反而是从英语/捷克语回借的。",
+      "concepts": ["c-borrowing", "c-etymology"],
+      "hint": "想想“拼写相似”和“同源”是不是一回事。"
+    },
+    {
+      "id": "w11d2-p2",
+      "kind": "cloze",
+      "prompt": "填入合适的词（英文）",
+      "sentence": "Because the rover must choose its own path when the communication link is lost, the planner is designed to operate ___ .",
+      "answer": "autonomously",
+      "accept": ["autonomously", "autonomous"],
+      "explain": "auto（自己）+ nom（法则）+ -ous + -ly → autonomously“自主地”。句中“自行选择路径、不依赖通信”正是 autonomous 的核心义，不是“自动重复预设动作”。",
+      "concepts": ["c-greek-latin", "c-suffix"]
+    },
+    {
+      "id": "w11d2-p3",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词",
+      "parts": ["auto", "nom", "ous"],
+      "answer": "autonomous",
+      "explain": "auto（自己）+ nom（法则）+ ous（形容词后缀）→ autonomous“自主的”。注意 nom 是“法则”，与 anonymous 中的 onym“名字”不同根。",
+      "concepts": ["c-greek-latin", "c-suffix"]
+    },
+    {
+      "id": "w11d2-p4",
+      "kind": "matrix",
+      "prompt": "用词基 act 加后缀，写出“使某物动作的装置”这个词",
+      "base": "act",
+      "suffix": "uator",
+      "answer": "actuator",
+      "explain": "act + u + ator → actuator。构词是分层的：act → actuate → actuator；-ator 表示施事装置，与 actor、generator 同一后缀。",
+      "concepts": ["act", "c-suffix"]
+    },
+    {
+      "id": "w11d2-p5",
+      "kind": "mcq",
+      "prompt": "在论文里读到 anonymous dataset，最可能的意思是？",
+      "choices": ["自主采集的数据集", "未标注来源/匿名的数据集", "自动生成的数据集", "异构的数据集"],
+      "answer": 1,
+      "explain": "anonymous = an-（无）+ onym（名字）+ -ous，指“没有名字/来源不明”。它常与 autonomous（auto + nom，自主的）混淆，区别在第二个成分是 onym“名字”还是 nom“法则”。",
+      "concepts": ["c-greek-latin", "c-etymology"]
+    },
+    {
+      "id": "w11d2-p6",
+      "kind": "mcq",
+      "prompt": "Robotics is an interdisciplinary field. 这句话的谓语用 is，原因是？",
+      "choices": [
+        "-ics 结尾的词一律作单数",
+        "robotics 在此指一门学科，-ics 已词汇化为学科名",
+        "robotics 是不可数物质名词",
+        "这是英式英语的特例"
+      ],
+      "answer": 1,
+      "explain": "以 -ics 结尾的学科名（physics、economics、robotics）作单数，是因为它们指一门学问而非多个对象。但并非所有 -ics 结尾词都如此：His politics are complicated 就是复数用法，取决于词义而非词尾。",
+      "concepts": ["c-suffix", "c-register"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w11d2-a1",
+      "kind": "infer",
+      "prompt": "推测 autonomy 在句中的含义",
+      "passage": "Once the rover is beyond radio range, ground controllers can no longer joystick it. The onboard planner must therefore be given a degree of autonomy: it decides which science targets to visit and when to recharge, without waiting for instructions from Earth.",
+      "word": "autonomy",
+      "choices": ["自主决策的能力", "自动充电的功能", "远程操控的精度", "机械臂的负载能力"],
+      "answer": 0,
+      "strategy": "① 切分：auto（自己）+ nom（法则）+ -y（名词后缀）；② 词性：a degree of 后接不可数名词，是抽象能力；③ 语境：前句说“不能再摇杆操控”，冒号后解释“自行决定去哪、何时充电、不等指令”；④ 验证：与 instructions from Earth 形成对照。",
+      "explain": "autonomy 在这里不是“自动”，而是“自行决策”。冒号后的解释句是关键证据：它列举的是决策内容（去哪、何时充电），不是执行动作。这正是 autonomous 与 automatic 的区别。",
+      "concepts": ["c-inference", "c-greek-latin", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S5", "title": "Oxford English Dictionary / Online Etymology Dictionary", "detail": "robot（1920, Čapek）、robotics、autonomous、actuator 的词源与首见年代" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 6 章：希腊词根与 -ics 类学科名" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "分层派生：act → actuate → actuator" }
+  ]
+}

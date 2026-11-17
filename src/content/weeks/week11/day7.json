@@ -1,0 +1,176 @@
+{
+  "id": "w11d7",
+  "week": 11,
+  "day": 7,
+  "title": "第 11 周复盘：一张术语解码表",
+  "tagline": "把十二个术语放回三种出身里，形成可复用的判断流程",
+  "objectives": [
+    "能对本周十二个术语逐个说明构词方式与拆解结果",
+    "能区分历史词源、现代共时构词与助记拆分三种性质",
+    "能在摘要语料中综合运用切分与语境推理",
+    "能独立判断一个新术语该拆、该查还是该靠语境"
+  ],
+  "prereqs": ["w11d6", "c-inference", "c-etymology"],
+  "concepts": ["c-scientific", "c-etymology", "c-inference", "c-register", "c-word-family", "c-combining"],
+  "minutes": { "review": 6, "learn": 8, "practice": 7, "apply": 6 },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "本周术语解码表",
+      "body": "这张表可以当作读论文时的对照卡。注意第三列不总是“词素相加”：laser 与 algorithm 那一行写的是来源，不是构词成分——强行套用加法会得出错误结论。",
+      "head": ["术语", "出身", "拆解或来源", "核心义"],
+      "rows": [
+        ["thermometer", "组合形式拼装", "therm + o + meter", "温度计"],
+        ["hydrogen", "人造术语（1783）", "hydro + gen（生成水的）", "氢"],
+        ["laser", "首字母缩略 → 普通词", "Light Amplification by Stimulated Emission of Radiation", "激光"],
+        ["robot", "借词（捷克语 robota）", "1920 年 Čapek 剧本，非 rob + ot", "机器人"],
+        ["robotics", "派生（-ics 学科）", "robot + ics", "机器人学"],
+        ["autonomous", "希腊组合", "auto + nom + ous", "自主的"],
+        ["actuator", "分层派生", "act + u + ator", "执行器"],
+        ["SLAM", "首字母缩略（按词读）", "Simultaneous Localization And Mapping", "同步定位与建图"],
+        ["localization", "派生（-ization）", "loc + al + ize + ation", "定位；本地化"],
+        ["radar / sonar", "首字母缩略", "radar = radio detection and ranging；sonar = sound navigation and ranging", "雷达 / 声呐"],
+        ["lidar", "混成（light + radar）", "全称是后配的 backronym", "激光雷达"],
+        ["IMU / inertial", "缩略语 + 派生", "inert + ial；inertial measurement unit", "惯性测量单元"],
+        ["algorithm", "人名转术语", "al-Khwārizmī → Algoritmi", "算法"],
+        ["inference", "拉丁派生", "in + fer + ence", "推论；模型前向计算"]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "三种性质：历史词源、共时构词、助记拆分",
+      "body": "本周所有术语都要放回这三类里检验。混用会导致两类错误：把助记当词源（编故事），或把词源当共时结构（硬拆现代词）。判断标准是“这个说法能不能被证据支持、以及它描述的是哪个时代的语言事实”。",
+      "a": "历史词源",
+      "b": "现代共时构词",
+      "rows": [
+        ["回答的问题", "这个词历史上从哪里来", "今天的说话人如何分析这个词"],
+        ["证据类型", "文献首见年代、语音对应、借词路径", "替换测试、词族成员、能产性"],
+        ["robot 的例子", "捷克语 robota，1920 年进入英语", "整体词，现代不再拆分"],
+        ["laser 的例子", "1960 年的首字母缩略词", "可作动词、可派生的普通词"],
+        ["hydrogen 的例子", "1783 年科学拉丁语人造词", "hydro + gen 仍可分析，但属专业构词"],
+        ["常见错误", "据拼写猜来源（robot ≠ rob + ot）", "把已词汇化的词硬拆（understand ≠ 站在下面）"]
+      ]
+    },
+    {
+      "kind": "passage",
+      "title": "复盘阅读：一段典型的方法摘要",
+      "body": "这段融合了本周的 lidar、inertial、odometry、localization、drift。先不看注释，用四步法处理每个技术词，再回答问题。",
+      "excerpt": "Robust localization is a prerequisite for autonomous operation. In this work we fuse lidar scans with inertial measurements in a loosely coupled odometry pipeline. The inertial branch supplies high-rate motion estimates between scans, while the lidar branch bounds the accumulated drift. We evaluate the system in a 1.2 km service tunnel where satellite positioning is unavailable, and report a final translational error of 0.3% of the traversed distance.",
+      "glossZh": "稳健的定位是自主作业的前提。本工作在一个松耦合的里程计流水线中融合激光雷达扫描与惯性测量。惯性分支提供扫描之间的高频运动估计，激光雷达分支则约束累积漂移。我们在一条 1.2 公里的服务隧道中评估系统（该处无卫星定位），报告最终平移误差为行进距离的 0.3%。",
+      "questions": [
+        { "q": "odometry pipeline 中的 pipeline 指什么？", "a": "一串按顺序衔接的处理步骤。原义“管道”，隐喻为数据流经的处理链。" },
+        { "q": "bounds the accumulated drift 的 bounds 是什么意思？", "a": "约束、限制（动词）。bound 作动词指“给……设界”，此处指激光观测把漂移限制在有限范围内。" },
+        { "q": "0.3% of the traversed distance 说明了什么？", "a": "相对误差指标：每走 100 米累计约 0.3 米误差。这是 SLAM 论文报告精度的常见方式。" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "自测清单与下一步",
+      "body": "合上课程，逐条自问。任何一条答不出，回到对应那天：\n\n1. 拿到一个新术语，你的第一个问题是什么？（三类出身）\n2. thermometer 中间的 -o- 是什么？（连接元音）\n3. 为什么 laser 现在不算“缩写”？（已词汇化，能再构词）\n4. localization 的两个义项各举一个搭配。（localization error / software localization）\n5. lidar 与 radar 的构词方式有何不同？（混成 vs 缩略）\n6. algorithm 能不能拆？（不能，人名）\n7. 切分失败时用什么？（语境对比 + 搭配）\n\n下周进入结课阶段：不再由课程告诉你“这个词怎么拆”，而是给你一篇摘要，由你自己完成切分、推理与验证。本周的解码表要带进下周。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w11d7-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一组词全部属于“首字母缩略词（acronym，按词读）”？",
+      "choices": ["SLAM、radar、NASA", "IMU、GPS、CPU", "lidar、smog、motel", "robot、algebra、algorithm"],
+      "answer": 0,
+      "explain": "SLAM、radar、NASA 都能连读成词，是 acronym；IMU/GPS/CPU 逐字母读，是 initialism；lidar/smog/motel 是混成词；robot、algorithm 分别是借词与人名来源。",
+      "concepts": ["c-acronym", "c-blend"]
+    },
+    {
+      "id": "w11d7-p2",
+      "kind": "mcq",
+      "prompt": "有同学记 autonomous 时把它拆成 auto + nomous，并说 nomous 是“名字”。问题在哪？",
+      "choices": [
+        "auto 不是词素",
+        "nom 表“法则”，表“名字”的是 onym，两者不同根",
+        "autonomous 不是形容词",
+        "nomous 确实是“名字”，但 auto 表“外部”"
+      ],
+      "answer": 1,
+      "explain": "autonomous 的 nom 是希腊 nomos“法则”，anonymous 的 onym 才是“名字”。形近词根混淆是阅读中的高频错误，尤其在 autonomous / anonymous 这类同尾词上。",
+      "concepts": ["c-etymology", "c-greek-latin"]
+    },
+    {
+      "id": "w11d7-p3",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词（“执行器”）",
+      "parts": ["act", "u", "ator"],
+      "answer": "actuator",
+      "explain": "act（驱动）+ u（拉丁分词词干残留）+ ator（施事装置）→ actuator。分层看是 act → actuate → actuator，-ator 与 actor、generator 同后缀。",
+      "concepts": ["act", "c-suffix", "c-base"]
+    },
+    {
+      "id": "w11d7-p4",
+      "kind": "cloze",
+      "prompt": "填入“定位/本地化”的英文名词",
+      "sentence": "In robotics the term ___ refers to estimating the robot's pose, whereas in software it refers to adapting a product to a local market.",
+      "answer": "localization",
+      "accept": ["localization", "localisation"],
+      "explain": "同一拼写两个义项：loc（地方）+ al + ize + ation。机器人语境指位姿估计，软件语境指产品本地化；句中用 in robotics / in software 对照，正是判断依据。",
+      "concepts": ["loc", "ize", "ation", "c-register"]
+    },
+    {
+      "id": "w11d7-p5",
+      "kind": "mcq",
+      "prompt": "hydrogen 这一条，最准确的说法是？",
+      "choices": [
+        "英语本土复合词，由 hydro 与 gen 自然组合而成",
+        "18 世纪科学拉丁语的人造术语，hydro 表“水”、gen 表“产生者”",
+        "希腊语 hydrogens 的直接借词",
+        "由 hydrogenium 截短而来，不可分析"
+      ],
+      "answer": 1,
+      "explain": "hydrogen 是 1783 年前后拉瓦锡团队造的科学拉丁语词，按希腊材料构造，并非英语本土复合；它能被现代读者分析，但可分析性来自造词设计，不是语言演变的结果。",
+      "concepts": ["c-scientific", "c-combining", "c-etymology"]
+    },
+    {
+      "id": "w11d7-p6",
+      "kind": "mcq",
+      "prompt": "读到一个没见过的术语时，最不推荐的做法是？",
+      "choices": [
+        "先判断它属于组合、人造还是旧词新义",
+        "用后缀判断词性，再用语境收窄意义",
+        "按拼写相似强行切出“看起来像词根”的部分",
+        "查同族词与固定搭配来验证假设"
+      ],
+      "answer": 2,
+      "explain": "强行切分会造出假词素（如 robot = rob + ot、intrinsic = intr + insic），把错误固化。正确顺序是判断出身→定词性→语境验证→搭配检验；切不动就承认切不动。",
+      "concepts": ["c-inference", "c-morpheme"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w11d7-a1",
+      "kind": "infer",
+      "prompt": "推测 sparse 在句中的含义",
+      "passage": "LiDAR returns are sparse in open outdoor scenes: a 64-beam sensor may produce only a few thousand points per frame, far too few to constrain a dense surface model.",
+      "word": "sparse",
+      "choices": ["稀疏的、分布不密的", "密集的、高分辨的", "经过校准的", "冗余备份的"],
+      "answer": 0,
+      "strategy": "① 切分：sparse 来自拉丁 sparsus“散开的”，现代英语中不可再切；② 词性：形容词作表语；③ 语境：冒号后给出量化证据（每帧只有几千点），并说 far too few；④ 验证：与 dense 形成对照。",
+      "explain": "sparse 与 dense 是遥感与点云文献里的标准反义对：sparse point cloud 指点少、分布稀。这里靠冒号后的解释性数据判定，而不是靠构词——又一次说明语境是主证据。",
+      "concepts": ["c-inference", "c-scientific", "c-register"]
+    },
+    {
+      "id": "w11d7-a2",
+      "kind": "infer",
+      "prompt": "推测 redundant 在句中的含义",
+      "passage": "Running two independent estimators makes the architecture redundant: if one fails, the other still provides a pose estimate, at the cost of extra computation.",
+      "word": "redundant",
+      "choices": ["冗余的（有重复备份）", "精简的（无用部分已删除）", "互相矛盾的", "实时运行的"],
+      "answer": 0,
+      "strategy": "① 切分：re-（再、回）+ und（浪、涌，拉丁 unda）+ -ant，字面“溢出”→ 多余；② 词性：形容词作宾语补足语；③ 语境：冒号后解释“一个坏了另一个还能用”，且以额外计算为代价；④ 验证：与 independent 同现，强调重复配置。",
+      "explain": "redundant 的核心是“多出来的部分”，在工程里是褒义（备份、容错），在日常英语里却常带贬义（多余、啰嗦）。同一形容词的褒贬取决于语域，这是第 10 周语义演变知识的直接应用。",
+      "concepts": ["c-inference", "c-register", "c-semantic-shift"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 9–10 章：学术词汇的三类来源与语域差异" },
+    { "id": "S5", "title": "Oxford English Dictionary / Online Etymology Dictionary", "detail": "本周术语的首见年代与词源" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "词源、共时结构与助记三者的边界" }
+  ]
+}

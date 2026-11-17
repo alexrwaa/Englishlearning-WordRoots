@@ -1,0 +1,129 @@
+{
+  "id": "w08d4",
+  "week": 8,
+  "day": 4,
+  "title": "y→i 规则：happy+ness 为何变成 happiness",
+  "tagline": "能判断什么时候把 y 变 i、什么时候必须保留 y",
+  "objectives": [
+    "能说出 y→i 的触发条件（辅音字母 + y，后缀不以 i 开头）",
+    "能解释 carry+ing 为什么保留 y",
+    "能记住 days、shyness、daily 这三类不适用规则的情况"
+  ],
+  "prereqs": ["w08d3"],
+  "concepts": ["c-spelling-rule", "c-suffix", "c-base"],
+  "minutes": { "review": 5, "learn": 8, "practice": 8, "apply": 4 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "规则：辅音 + y，变 i",
+      "body": "**辅音字母 + y** 结尾的词，接后缀时 y 变 i：\n\n- happy + ness → happiness\n- carry + ed → carried\n- easy + ly → easily\n- happy + er → happier\n\n**元音字母 + y** 结尾则不变：day + s → days、play + ed → played、boy + ish → boyish。\n\n判断第一步永远是看 y 前面那个字母是元音还是辅音：a e i o u 是元音，其余是辅音。这一步做对，绝大多数词就不会写错。",
+      "terms": [
+        { "term": "vowel", "zh": "元音", "en": "vowel", "note": "a e i o u，以及有时作元音的 y" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "例外一：后缀以 i 开头时保留 y",
+      "body": "后缀本身以 **i** 开头时，y 保留：carry + ing → carrying、study + ing → studying、try + ing → trying。\n\n原因是英语拼写排斥连续的 ii：如果写成 carriing，就会出现两个 i；保留 y 既避免 ii，又让词基一眼可辨。同类后缀还有 -ish（baby + ish → babyish）。\n\n注意这条规则优先于“辅音 + y 变 i”：carry 满足变 i 的条件，但因为 -ing 以 i 开头，仍然保留 y。规则之间是有优先级的，不能只背一条。",
+      "morphemes": ["y", "ing"]
+    },
+    {
+      "kind": "text",
+      "title": "例外二：短词与专名",
+      "body": "两类常见例外：\n\n1. **单音节短词**：shy + ness → shyness、sly + ness → slyness、dry + ness → dryness（dryly / drily 两可）。这些词太短，改 y 为 i 会让词基难以辨认。\n2. **专有名词**：the Kellys、two Germanys。人名、地名复数保留 y，避免看起来像改了名字。\n\n还有真正的不规则：day + ly → daily、gay + ly → gaily。这两个不能由规则推出，只能单记。",
+      "morphemes": ["ness", "ly"]
+    },
+    {
+      "kind": "table",
+      "title": "六种组合的结果",
+      "body": "下表把“y 前是元音还是辅音”与“后缀首字母”交叉排列。最后一行提醒你：daily 不是由规则算出来的，它属于必须单独记住的少数不规则形式。",
+      "head": ["词基 + 后缀", "结果", "条件"],
+      "rows": [
+        ["happy + ness", "happiness", "辅音 + y，后缀非 i 开头 → 变 i"],
+        ["carry + ed", "carried", "同上"],
+        ["carry + ing", "carrying", "后缀以 i 开头 → 保留 y"],
+        ["day + s", "days", "元音 + y → 不变"],
+        ["shy + ness", "shyness", "单音节短词 → 保留 y"],
+        ["day + ly", "daily", "不规则，需单记"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么要变：传统，而非发音",
+      "body": "y→i 不是发音要求：happiness 里的 i 仍读 /ɪ/，与 happy 的 y 同音。这是拼写传统的产物——中古英语抄写员习惯在词中用 i、词末用 y，词末 y 加后缀时就被替换成 i。\n\n功能上它有一个好处：**词基边界更清楚**。happiness 一眼能看出 happy + ness；若写成 happyness，虽然也读得懂，却与英语整体拼写习惯不符，也和 happiest、happily 形成不一致。\n\n规则的价值在于一致性，不在于逻辑必然。这也解释了为什么英语拼写里总有一批“说不通但必须遵守”的形式。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w08d4-p1",
+      "kind": "wordSum",
+      "prompt": "把词素拼成正确的单词（注意拼写调整）",
+      "parts": ["happy", "ness"],
+      "answer": "happiness",
+      "explain": "happy 以“辅音字母 p + y”结尾，-ness 不以 i 开头，所以 y 变 i，得 happiness。这是 y→i 规则的标准案例。",
+      "concepts": ["c-spelling-rule", "c-suffix"]
+    },
+    {
+      "id": "w08d4-p2",
+      "kind": "wordSum",
+      "prompt": "把词素拼成正确的单词（注意拼写调整）",
+      "parts": ["carry", "ing"],
+      "answer": "carrying",
+      "explain": "carry 虽以“辅音 + y”结尾，但 -ing 以 i 开头，为避免 ii 连写而保留 y，得 carrying。这条规则优先于 y→i。",
+      "concepts": ["c-spelling-rule"]
+    },
+    {
+      "id": "w08d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个名词",
+      "sentence": "Three ___ of measurements were taken at each site before the units were shipped.",
+      "answer": "days",
+      "accept": ["days"],
+      "explain": "day 以“元音字母 a + y”结尾，加复数时 y 不变，写作 days。若写成 daies，就是把 y→i 规则错误地套用到元音 + y 的情况。",
+      "concepts": ["c-spelling-rule", "c-inflection"]
+    },
+    {
+      "id": "w08d4-p4",
+      "kind": "mcq",
+      "prompt": "carry + ing 保留 y 的原因是：",
+      "choices": [
+        "后缀以 i 开头，保留 y 可避免 ii 连写",
+        "因为 carry 是双音节词",
+        "因为 -ing 是屈折后缀",
+        "因为 y 前面是元音字母"
+      ],
+      "answer": 0,
+      "explain": "carry 的 y 前是辅音 r，本应变 i；但 -ing 以 i 开头，变 i 会出现 carriing 的 ii，故保留 y。这是规则优先级问题，不是词长或词缀类型问题。",
+      "concepts": ["c-spelling-rule"]
+    },
+    {
+      "id": "w08d4-p5",
+      "kind": "mcq",
+      "prompt": "easy + ly 的正确拼写是：",
+      "choices": ["easily", "easyly", "easilly", "easly"],
+      "answer": 0,
+      "explain": "easy 以“辅音 s + y”结尾，-ly 不以 i 开头，故 y 变 i，得 easily。easilly 是同时误用 y→i 与辅音双写两条规则的典型错误。",
+      "concepts": ["c-spelling-rule"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w08d4-a1",
+      "kind": "infer",
+      "prompt": "推测划线词 reliability 的含义",
+      "passage": "Because the same unit ran for two thousand hours without a single failure, its reliability is not in question.",
+      "word": "reliability",
+      "choices": ["可靠性", "可读性", "相关性", "可重复性"],
+      "answer": 0,
+      "strategy": "① 切分：rely → reli + able → reliabl(e) + ity，y 变 i，去 e 后加 -ity；② 词性：-ity 构成抽象名词；③ 语境：ran for two thousand hours without a single failure 是可靠性的定义性证据。",
+      "explain": "reliability 由 reliable + -ity 构成，拼写经历两步调整：y→i（reli-）与去 e（reliabl-）。语义为“可靠性”。干扰项 readable、relevant、repeatable 都是 -able/-ant 家族，形态相近但词基不同。",
+      "concepts": ["c-spelling-rule", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "y→i 与后缀首字母的互动" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 5 章：拼写调整的历史来源" },
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "daily、shyness 的拼写说明" }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "w10d2",
+  "week": 10,
+  "day": 2,
+  "title": "隐喻：从空间到抽象，从生物到技术",
+  "tagline": "把隐喻当成词义扩展的机制，而不是修辞手法，能预测陌生成搭配",
+  "objectives": [
+    "能说出 understand、grasp、comprehend 共有的“抓取／立足”隐喻路径",
+    "能解释 virus、bug、web 从生物或日常域映射到计算机域时保留了哪些特征",
+    "能识别常见概念隐喻（多为上、时间是金钱），并指出映射的边界"
+  ],
+  "prereqs": ["w10d1"],
+  "concepts": ["c-metaphor", "c-semantic-shift", "c-scientific"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "隐喻不是修饰，是思维方式",
+      "body": "传统语法课把隐喻当修辞：*时间是一条河*。但认知语言学（Lakoff 与 Johnson，1980）指出，隐喻是**用一个具体域去组织一个抽象域**的日常机制：\n\n- 源域（source）：身体、空间、动植物、工具——具体、可感知\n- 目标域（target）：思想、时间、组织、计算——抽象、难直接感知\n\n所以我们不说“理解”，而说 *I grasp it*、*I see what you mean*、*it's clear*；不说“理论失败”，而说 *the argument collapsed*。这些话不是文学，是常规表达。\n\n关键推论：**隐喻会留下痕迹**。如果理解被当作“抓住”，那么难懂的东西就可以说 slippery、elusive、hard to pin down。",
+      "terms": [
+        { "term": "conceptual metaphor", "zh": "概念隐喻", "en": "conceptual metaphor" },
+        { "term": "source domain", "zh": "源域", "en": "source domain" }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "understand：一个不能用“站在下面”硬解的词",
+      "body": "understand 由 under ＋ stand 构成，古英语作 understandan，意为“领会、明白”。很多人把它记成“站在下面所以懂”，这只是**记忆钩子**，不是可靠词源：古英语的 under 除了“在下”，也可表“在……之间、处于其中”，所以学界对字面义并无定论。\n\n真正稳定的是**空间经验 → 认知**这条隐喻路径：站得稳、立得住 → 把握得住 → 明白。同一条路径上的词还有：\n\n- **grasp**：抓住 → 理解（*grasp the idea*）\n- **comprehend**：拉丁 com-（一起）＋ prehendere（抓取）→ 一并抓住 → 理解\n- **follow**：跟着走 → 跟得上思路\n\n所以“理解＝抓住／跟上／看清”是英语里成体系的一组映射，不是零散搭配。",
+      "steps": [
+        { "period": "古英语", "form": "understandan", "note": "“领会、明白”；under 亦可表“在……之间”" },
+        { "period": "中古英语", "form": "understanden", "note": "意义稳定为“理解”" },
+        { "period": "现代英语", "form": "understand", "note": "与 grasp、comprehend、follow 共享空间→认知映射" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "从生物到技术：virus、bug、web",
+      "body": "计算机领域的词大量来自生物与日常经验，因为抽象的计算过程需要一个可讲的形象：\n\n- **virus**（拉丁“毒、黏液”）：自我复制、需要宿主、可传播 → 计算机病毒\n- **worm**（蠕虫）：自主爬行、自行扩散 → 蠕虫病毒\n- **bug**（小虫）：藏在系统里的小东西 → 程序缺陷\n- **web**（蛛网）：互相连接的丝线 → 万维网\n- **cookie**（小甜饼）：服务器留下的小东西 → 浏览器cookie\n- **cloud**（云）：看不见、飘在上方 → 云计算\n\n注意映射**只保留部分特征**。计算机病毒不会“有毒”，但它会复制和传播；cloud 不在天上，但它对用户不可见、按需取用。",
+      "terms": [
+        { "term": "mapping", "zh": "映射", "en": "mapping", "note": "源域特征向目标域的对应转移" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "bug 的真相：飞蛾不是词源",
+      "body": "流传最广的技术词故事是：1947 年哈佛 Mark II 计算机里发现一只飞蛾，贴在日志上，于是程序错误被称为 bug。\n\n这个故事是真的发生过，但它**不是 bug 这个词的来源**。把 bug 用于“机械或系统缺陷”，19 世纪末已经通行，爱迪生在 1878 年的信里就用过。飞蛾事件只是把这个既有用法带进了计算机圈子，并留下了一份著名的实物记录。\n\n这个例子值得记住，因为它示范了两件事：\n\n1. **轶事不等于词源**。一个有趣的故事会被反复转述，转述次数不构成证据。\n2. **隐喻的源域可以很日常**。bug 之所以好用，是因为它把“难以察觉、藏在内部、会引发故障”这组特征一次打包。"
+    },
+    {
+      "kind": "table",
+      "title": "五个高频概念隐喻：认识它们就能读懂搭配",
+      "body": "概念隐喻是一整套系统，不只是单个词。掌握一套，就能解释一批看似无关的搭配；也能帮你判断哪些说法“地道”、哪些虽然语法正确却不像英语。下表五套是最常用的，覆盖学术与日常语域。",
+      "head": ["概念隐喻", "源域 → 目标域", "常见表达"],
+      "rows": [
+        ["MORE IS UP", "上 → 数量多", "prices are rising, high temperature, output fell"],
+        ["TIME IS MONEY", "金钱 → 时间", "spend time, waste an hour, budget your week"],
+        ["ARGUMENT IS WAR", "战争 → 论证", "attack a claim, defend a position, shoot down an objection"],
+        ["IDEAS ARE OBJECTS", "物体 → 观点", "grasp an idea, put forward a theory, a solid argument"],
+        ["ORGANIZATIONS ARE CONTAINERS", "容器 → 组织", "in the department, out of the loop, bring in an expert"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "用隐喻，但别被它带走",
+      "body": "隐喻有解释力，也有误导性。两个常见陷阱：\n\n**过度延伸。** 既然“论证是战争”，是不是所有论证都要“打赢”？不是。映射只覆盖部分特征，剩下的部分是空的。说 *we destroyed his argument* 可以，说 *we bombed his argument* 就滑向了戏谑。\n\n**把隐喻当事实。** “神经网络”里的 network 只是结构类比，不代表它真的像电缆网那样布线；“模型学到知识”也只是方便说法。技术写作里，一旦隐喻开始替你下结论，就该切回定义。\n\n判断标准很简单：**能说清映射了哪几条特征，就是有效隐喻；说不清，就只是修辞。**"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w10d2-p1",
+      "kind": "mcq",
+      "prompt": "grasp the idea 中 grasp 的“理解”义，来自哪条隐喻路径？",
+      "choices": [
+        "手部抓取 → 心智把握",
+        "视觉看清 → 认知明白",
+        "站立稳定 → 判断可靠",
+        "行走跟随 → 思路连贯"
+      ],
+      "answer": 0,
+      "explain": "grasp 的核心义是“用手抓住”，映射到认知域就是“把握住一个想法”。同族还有 comprehend（com- 一起 ＋ prehendere 抓）。视觉路径对应的是 see / clear，行走路径对应的是 follow。",
+      "concepts": ["c-metaphor"]
+    },
+    {
+      "id": "w10d2-p2",
+      "kind": "mcq",
+      "prompt": "computer virus 这个说法，主要映射了生物病毒的哪些特征？",
+      "choices": [
+        "自我复制、需要宿主、可在程序间传播",
+        "有毒、会让人发烧、需要吃药",
+        "体积微小、肉眼不可见、生活在水中",
+        "会变异成新物种、需要疫苗"
+      ],
+      "answer": 0,
+      "explain": "映射只保留功能特征：复制、寄生宿主、传播。计算机病毒没有“毒性”，也不需要“吃药”；这类过度延伸是学习者理解隐喻时最常见的偏差。",
+      "concepts": ["c-metaphor", "c-scientific"]
+    },
+    {
+      "id": "w10d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个中文词（表示心理活动）",
+      "sentence": "I see what you mean 这句话，是用视觉域来表达 ___ 域。",
+      "answer": "认知",
+      "accept": ["认知", "理解", "思维", "心理"],
+      "explain": "“看见 → 明白”（KNOWING IS SEEING）是英语最基础的隐喻之一：I see、it's clear、a bright student、shed light on 都属同一系统。汉语“我看明白了”也是同一条路径。",
+      "concepts": ["c-metaphor"]
+    },
+    {
+      "id": "w10d2-p4",
+      "kind": "mcq",
+      "prompt": "关于 bug 的词源，下面哪种说法正确？",
+      "choices": [
+        "bug 用于“缺陷”在 19 世纪已有，1947 年的飞蛾事件只是把这个用法带进计算机圈",
+        "bug 一词由 1947 年哈佛 Mark II 里的飞蛾首次创造",
+        "bug 来自拉丁语 buga“故障”",
+        "bug 是 20 世纪 80 年代个人电脑普及后才出现的词"
+      ],
+      "answer": 0,
+      "explain": "爱迪生 1878 年的信件中已用 bug 指设备缺陷，远早于 1947 年。飞蛾事件是真实轶事，但把它当作词源是典型的“故事替代证据”。判断词源要看更早的文献记录。",
+      "concepts": ["c-etymology", "c-metaphor"]
+    },
+    {
+      "id": "w10d2-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一句体现了 MORE IS UP 这一概念隐喻？",
+      "choices": [
+        "Prices are rising sharply this quarter.",
+        "We spent two hours on the calibration.",
+        "The argument collapsed under scrutiny.",
+        "She grasped the main idea quickly."
+      ],
+      "answer": 0,
+      "explain": "rise 是空间上的“上升”，用来表达数量的“增加”，属于 MORE IS UP。其余三句分别对应 TIME IS MONEY、ARGUMENT IS A STRUCTURE、UNDERSTANDING IS GRASPING。",
+      "concepts": ["c-metaphor"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w10d2-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "Data transfer becomes the bottleneck once the lidar frame rate exceeds 20 Hz, so the team downsamples the point cloud before sending it to the planner.",
+      "word": "bottleneck",
+      "choices": ["制约整体速度的环节", "瓶子的开口", "数据传输协议", "备用传感器"],
+      "answer": 0,
+      "strategy": "① 句法：bottleneck 作表语，once 从句给出触发条件（帧率超过 20 Hz）；② 因果线索：so 引出降采样这一应对措施，说明瓶颈是“传不动”；③ 隐喻路径：瓶口窄 → 流量受限 → 系统中最慢的一环。",
+      "explain": "bottleneck 由“瓶颈”映射到“系统中限制整体吞吐的环节”，是工程与项目管理的高频词。识别它的关键是因果结构：出现瓶颈 → 采取减压措施。不要按字面理解成容器部件。",
+      "concepts": ["c-metaphor", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Semantics：概念隐喻与语义扩展" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "隐喻在词汇扩展中的作用" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "understand / bug / virus 的语源与用法年代" }
+  ]
+}

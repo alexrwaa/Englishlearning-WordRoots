@@ -1,0 +1,170 @@
+{
+  "id": "w09d7",
+  "week": 9,
+  "day": 7,
+  "title": "第 9 周复盘：把词源变成可用的判断力",
+  "tagline": "把三层历史、借词路径与词源读法整合成一套可复述的框架",
+  "objectives": [
+    "能按时间轴复述英语词汇的四次主要扩充，并各举两个例词",
+    "能判断一个词源主张是否有证据，指出常见推理错误",
+    "能在阅读中用语源线索辅助猜测，同时知道它的边界"
+  ],
+  "prereqs": ["w09d6"],
+  "concepts": ["c-etymology", "c-borrowing", "c-cognate", "c-register"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "一条时间轴：四次大扩充",
+      "body": "把这一周压缩成一条线。记住“什么时候、谁来了、哪些词进来了”，比背单词表有用得多。四个阶段不是前后替代，而是层层叠加：早期层的词今天仍在用，只是退到了更日常的语域里。",
+      "head": ["时期", "事件", "词汇后果", "例词"],
+      "rows": [
+        ["古英语 450–1150", "日耳曼部落定居英格兰", "核心本土词层形成", "water, house, heart, be"],
+        ["中古英语 1150–1500", "1066 诺曼征服；9–11 世纪北欧定居", "法语制度词、北欧日常词", "government, justice / sky, egg, law, they"],
+        ["早期现代 1500–1700", "文艺复兴；印刷术；学术拉丁", "拉丁／希腊学术词成批进入，拼写被“学术化”", "datum, species, analysis, debt"],
+        ["现代 1700–今", "贸易、殖民、科技、全球化", "全球借词与新技术词", "algebra, tea, tsunami, robot, software"]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "借词来源速查：看到特征先猜，再去查",
+      "body": "下表是**线索**而非定律。真正的来源判定仍要看文献证据链，但线索能让你在阅读时快速形成假设，再去核对——这比“看到一个生词就查”更接近真正的词源素养。",
+      "head": ["来源", "形态线索", "例词"],
+      "rows": [
+        ["古北欧语", "sk-、-by 地名、日常短词", "sky, egg, law, they, bylaw"],
+        ["诺曼法语", "-ment、-ance、-ity；制度与烹饪", "government, justice, beef, parliament"],
+        ["拉丁（学术）", "-um、-a、-tion；复数 -a / -i", "datum, stratum, radius, appendix"],
+        ["希腊（经拉丁）", "ph、ch、y、rh；-sis、-ma、-logy", "physics, analysis, problem, hypothesis"],
+        ["阿拉伯语", "al- 开头；数学与化学", "algebra, algorithm, alcohol, alkali"],
+        ["其他", "拼写明显不合英语习惯", "tsunami, robot, shampoo, kindergarten"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三段式写作：让词源知识真正派上用场",
+      "body": "学术写作里，词源与语域知识最实际的用途是**选词与定位**：\n\n1. **定语域**：方法段用本土动词（set, run, check）更清晰；讨论段用拉丁层词（constitute, demonstrate, indicate）更凝练。\n2. **防误配**：interrogate 只用于审讯语境；commence 适合仪式与正式文本；用错不是“更学术”，而是语域错位。\n3. **控密度**：连续三个 -tion 名词会让句子失去施动者。改写方法是把其中一个还原成动词。\n\n例：*The implementation of the calibration of the sensor was performed by the team.* → *The team calibrated the sensor.* 意思一样，后者可读性高得多。",
+      "terms": [
+        { "term": "nominalization", "zh": "名词化", "en": "nominalization", "note": "把动词或形容词转为名词，过度使用会使句子沉重" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "同源词与借词：一条纵向，一条横向",
+      "body": "这两个概念在本周反复出现，最后再定一次型。它们可以同时成立——borrowed word 的双方可能本来就是远亲——但陈述时必须分开：借用说的是“怎么传过来”，同源说的是“从哪里分化”。",
+      "a": "同源词 cognate",
+      "b": "借词 loanword",
+      "rows": [
+        ["关系", "从共同祖语各自继承", "从另一语言整词搬入"],
+        ["方向", "纵向（时间上的分化）", "横向（空间上的接触）"],
+        ["证据", "规则语音对应，如 p / f 的对应", "文献中的出现年代与传播路径"],
+        ["例子", "father / pater / Vater", "sky 借自古北欧 ský"],
+        ["典型错误", "凭拼写相似断定同源", "把转手语言当成最终来源"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "本周错误清单：考前只背这五条",
+      "body": "1. **把“核心词＝本土词”当规则**。sky、egg、law、they 都是借词。\n2. **把借词当“更高级”**。语域看使用场合，beef、chair 是借词却极日常。\n3. **凭拼写猜来源**。island 的 s 是错误插入；debris 不是拉丁词。\n4. **把 first attested 当“发明年份”**。它只是现存最早书面记录。\n5. **用词源替代现代义**。nice、budget、silly 都是反例。\n\n再加一条操作原则：**词源给假设，语境给答案，词典给边界**。三者分工明确，混用就会出错。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w09d7-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一组词全部是古北欧语借词？",
+      "choices": [
+        "sky, egg, law, they",
+        "king, water, house, heart",
+        "justice, court, beef, army",
+        "datum, radius, species, appendix"
+      ],
+      "answer": 0,
+      "explain": "sky（ský）、egg、law（lag）、they（þeir）均来自古北欧语，是 Danelaw 时期高强度语言接触的结果。第二组是本土词，第三组是诺曼法语词，第四组是拉丁学术借词。",
+      "concepts": ["c-borrowing"]
+    },
+    {
+      "id": "w09d7-p2",
+      "kind": "mcq",
+      "prompt": "kingly、royal、regal 三个词的来源层次，正确顺序是？",
+      "choices": [
+        "本土（古英语）— 法语 — 拉丁",
+        "拉丁 — 法语 — 本土",
+        "法语 — 本土 — 拉丁",
+        "三者都来自拉丁"
+      ],
+      "answer": 0,
+      "explain": "kingly 由古英语 cyning 加本土后缀 -ly 构成；royal 经古法语 roial 来自拉丁 regalis；regal 直接借自拉丁 regalis。三者意思接近，正式度与搭配不同，是三层语域的经典例证。",
+      "concepts": ["c-register", "c-borrowing"]
+    },
+    {
+      "id": "w09d7-p3",
+      "kind": "cloze",
+      "prompt": "填入一个中文术语",
+      "sentence": "英语中来源不同的同义词常对应不同的 ___，例如 ask / question / interrogate 的正式程度依次上升。",
+      "answer": "语域",
+      "accept": ["语域", "register", "语体"],
+      "explain": "语域（register）指因场合、领域、社会关系形成的语言变体。三层借词史把语域差异固化进了词汇表，所以选词本身就是一种语域声明。",
+      "concepts": ["c-register"]
+    },
+    {
+      "id": "w09d7-p4",
+      "kind": "mcq",
+      "prompt": "词源条目写“from Latin, via Old French”，其中 via 说明什么？",
+      "choices": [
+        "法语是转手语言，最终来源仍是拉丁语",
+        "这个词同时来自拉丁语和法语，是两个词",
+        "拉丁语是转手语言，法语才是最终来源",
+        "这个词在法语和拉丁语中意义相同"
+      ],
+      "answer": 0,
+      "explain": "via 标明传播路径：拉丁语是最终来源，法语是中转站。区分“最终来源”与“直接来源”很重要，否则会把转手地当成故乡（如 tea 经荷兰语，但最终来自闽南语）。",
+      "concepts": ["c-etymology", "c-borrowing"]
+    },
+    {
+      "id": "w09d7-p5",
+      "kind": "mcq",
+      "prompt": "debt 与 island 的拼写变化，最重要的区别是？",
+      "choices": [
+        "debt 的 b 依据真实拉丁语源插入，island 的 s 基于错误类推",
+        "两者都是依据真实词源插入的",
+        "两者都是错误插入的",
+        "debt 的 b 发音，island 的 s 不发音"
+      ],
+      "answer": 0,
+      "explain": "debt 确实源自拉丁 debitum，插入 b 有语源依据（虽然读音没变）；island 源自古英语 īeg，与拉丁 insula 无关，s 是按 insula 错误类推加上的。两者都证明拼写不能作为读音或来源的唯一证据。",
+      "concepts": ["c-etymology"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w09d7-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "The legacy of the Danelaw is still visible in the street names of York and Leicester, where Norse elements outnumber native ones by a wide margin.",
+      "word": "legacy",
+      "choices": ["遗留的影响", "法律条文", "历史文献", "地名列表"],
+      "answer": 0,
+      "strategy": "① 句法：legacy 作主语，后接 is still visible in…，说明它是可以被“看见”的抽象遗留物；② 具体化：街道名中的北欧成分就是它的体现；③ 词源辅助：拉丁 legare“遗赠”→ 遗留之物 → 遗留影响。",
+      "explain": "legacy 本义是“遗赠的财物”，扩展到“前人留下的一切影响”。这里指北欧统治在语言景观中留下的痕迹。它的抽象化路径与 inheritance、heritage 类似：从具体的财产到抽象的影响。",
+      "concepts": ["c-etymology", "c-inference"]
+    },
+    {
+      "id": "w09d7-a2",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "Although the two words look alike, they are not cognates: the resemblance is accidental, and no regular sound correspondence links them.",
+      "word": "cognates",
+      "choices": ["同源词", "同义词", "借词", "同形异义词"],
+      "answer": 0,
+      "strategy": "① 定义线索：冒号后直接给出判据——没有规则语音对应，只是偶然相似；② 反义线索：Although… not… 否定“看起来像就同源”；③ 术语位置：与 sound correspondence 同现，指向历史语言学的同源关系。",
+      "explain": "cognate 指从同一祖语继承而来、并符合规则语音对应的词，如英语 father 与拉丁 pater。拼写相似不构成证据；借词（loanword）是横向搬用，同形异义（homonymy）是形状相同，三者不能混用。",
+      "concepts": ["c-cognate", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "英语词汇史分期与借词层次总结" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "历史语言学：同源词与规则语音对应" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "各例词的来源链与首次记录年代" }
+  ]
+}

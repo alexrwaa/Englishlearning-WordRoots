@@ -1,0 +1,141 @@
+{
+  "id": "w04d2",
+  "week": 4,
+  "day": 2,
+  "title": "形容词后缀：描述性质与能力",
+  "tagline": "用 -able / -ive / -ous / -al / -ic / -ful / -less 判断形容词，并看懂 -ful 与 -less 的对立与不对称",
+  "objectives": [
+    "能说出 -able 与 -ible 的分工，并解释为什么 -able 能产而 -ible 不能",
+    "能区分 economic 与 economical、historic 与 historical 的意义差别",
+    "能说明 -ful 与 -less 的语义对立，并解释 priceless 为何不等于 valueless"
+  ],
+  "prereqs": ["w04d1"],
+  "concepts": ["c-suffix", "c-derivation", "c-semantic-shift", "c-register"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "形容词后缀的两种语义",
+      "body": "形容词后缀大致表达两件事：**能力**与**关联**。\n\n表能力的是 **-able / -ible**：readable 是“能被读的”，washable 是“能洗的”，visible 是“能被看见的”。它们的共同点是“可以被动词所作用”。\n\n表关联或性质的是 **-ive / -ous / -al / -ic**：active（倾向于行动的）、dangerous（充满危险的）、national（与国家相关的）、atomic（与原子相关的）。这组后缀告诉你“它属于哪一类、具有什么特征”。\n\n**-ful / -less** 则是一对相反的标签：有与无。把这几组分清，看到形容词就能大致猜到它在描述什么。",
+      "morphemes": ["able", "ible", "ive", "ous", "al", "ic", "ful", "less"]
+    },
+    {
+      "kind": "table",
+      "title": "七个高频形容词后缀",
+      "body": "读表时注意第二列：后缀接什么词基，决定了它的语义走向。接动词的多表能力或倾向，接名词的多表关联或拥有。这条规律能帮你排除错误搭配：-able 接动词（read → readable），所以不会有“名词 + able”表能力的常规词；-ous 接名词（danger → dangerous），所以 porous、nervous 都从名词性词基来。判断陌生形容词时，先找回它的词基，意义就清楚了一半。",
+      "head": ["后缀", "词基", "语义", "例词"],
+      "rows": [
+        ["-able / -ible", "动词", "能够被……的", "readable, adjustable, visible, flexible"],
+        ["-ive", "动词、词根", "倾向于……的", "active, effective, conductive, adaptive"],
+        ["-ous", "名词、词根", "充满……的、具有……性质", "dangerous, nervous, porous, curious"],
+        ["-al", "名词", "与……相关的", "national, structural, thermal, computational"],
+        ["-ic", "名词、词根", "属于……的、具有……特征", "atomic, economic, robotic, acoustic"],
+        ["-ful", "名词、动词", "充满……的、有……的", "hopeful, careful, powerful, useful"],
+        ["-less", "名词", "没有……的", "hopeless, careless, powerless, wireless"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-able 与 -ible：一个还活着，一个已封存",
+      "body": "两者都表“能够被……的”，但能产性差别很大。**-able** 仍是活的构词成分，可以随时加在动词后造新词：doable、readable、adjustable，甚至可加在短语后（a get-at-able location）。**-ible** 基本是封闭清单，只出现在早期借入的拉丁词里：visible、possible、flexible、sensible、accessible。\n\n因此判断拼写时不能靠“听起来对”，而要靠词源记忆：possible 不是 possable，visible 不是 visable，但 readable、usable 用 -able。\n\n一个实用结论：**遇到陌生的“动词 + 后缀”形容词，优先假设 -able**；遇到 -ible，把它当成需要单独记的词。",
+      "morphemes": ["able", "ible"]
+    },
+    {
+      "kind": "compare",
+      "title": "-ful 与 -less：对立，但不总是对称",
+      "body": "这对后缀在语义上确实相反：hopeful（有希望的）与 hopeless（无希望的），careful（小心的）与 careless（粗心的），powerful（有力的）与 powerless（无力的）。但它们并不总能一一配对，也不能保证意义对称。",
+      "a": "-ful（有）",
+      "b": "-less（无）",
+      "rows": [
+        ["基本语义", "充满、拥有", "没有、缺乏"],
+        ["例词", "useful, hopeful, careful, powerful", "useless, hopeless, careless, powerless"],
+        ["能产性", "中等，新词较少", "较高（wireless, paperless, cashless, homeless）"],
+        ["不对称案例", "awful 原义“充满敬畏”，今义“糟糕的”", "priceless 是“无价的（极珍贵）”，不是“没价值”；valueless 才是“无价值的”"],
+        ["词性提醒", "也可构成名词：handful, mouthful", "只构成形容词"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三个同形陷阱：形容词后缀也能当名词",
+      "body": "**-al** 既构成形容词，也构成名词：arrival、approval、proposal、refusal、survival 都是名词，来自动词加 -al。看到 the arrival of the train，不能因为 -al 就判成形容词。\n\n**-ive** 也有名词：native、captive、detective、relative、representative。判断依据是句法位置，而不是词尾。\n\n**-ic 与 -ical** 则常成对但意义分化：economic 是“与经济有关的”（economic policy），economical 是“省钱的”（an economical car）；historic 是“有历史意义的”（a historic moment），historical 是“与历史研究有关的”（historical records）。这类成对词必须按词记，靠“-ical 就是 -ic 的变体”这类规则去推，反而会错。",
+      "morphemes": ["al", "ive", "ic"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w04d2-p1",
+      "kind": "mcq",
+      "prompt": "The material is ___ enough to bend without breaking. 空白处应填：",
+      "choices": ["flexable", "flexible", "flexibleness", "flexibly"],
+      "answer": 1,
+      "explain": "flexible 是拉丁来源的固定拼写，后缀为 -ible，不能写作 -able。虽然 -able 总体更能产，但 flexible 属于早期借入的封闭词表，必须按词记。flexibleness 是名词，flexibly 是副词，都不能放在 is ___ enough 的位置。",
+      "concepts": ["ible", "able", "c-suffix"],
+      "hint": "先判断需要形容词还是名词，再想 -ible 的固定拼写。"
+    },
+    {
+      "id": "w04d2-p2",
+      "kind": "mcq",
+      "prompt": "They bought a small, ___ car that uses very little fuel. 空白处最合适的是：",
+      "choices": ["economic", "economical", "economy", "economically"],
+      "answer": 1,
+      "explain": "economical 意为“省钱的、节约的”，与 uses very little fuel 呼应。economic 是“与经济有关的”（economic growth）；economy 是名词；economically 是副词，不能修饰 car。这是 -ic 与 -ical 分化的典型例子。",
+      "concepts": ["ic", "al", "c-register"]
+    },
+    {
+      "id": "w04d2-p3",
+      "kind": "cloze",
+      "prompt": "把括号中的词变成合适的形容词",
+      "sentence": "The procedure is completely ___ (pain), so patients can go home the same day.",
+      "answer": "painless",
+      "explain": "pain（疼痛）+ less（没有）→ painless“无痛的”。后半句“当天就能回家”提供了“不造成疼痛”的语境。若用 painful 则意义相反，与“当天回家”的轻松语气冲突。",
+      "concepts": ["less", "c-suffix"]
+    },
+    {
+      "id": "w04d2-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词：power + less → ?",
+      "parts": ["power", "less"],
+      "answer": "powerless",
+      "explain": "power（力量、权力）+ less（没有）→ powerless“无力的、无能为力的”。-less 加在名词后构成形容词，能产性高；同族还有 powerful，两者构成 -ful / -less 的对立。",
+      "concepts": ["less", "ful", "c-derivation"]
+    },
+    {
+      "id": "w04d2-p5",
+      "kind": "mcq",
+      "prompt": "The manuscript is priceless. 这句话的意思是这份手稿：",
+      "choices": ["毫无价值", "极其珍贵、无法定价", "价格尚未确定", "价格被低估"],
+      "answer": 1,
+      "explain": "priceless = price + less，但语义已专门化为“无价的、极珍贵的”，不是“没有价值”。表示“毫无价值”要用 valueless 或 worthless。这是 -less 语义不对称的经典案例：不能把“less = 没有”机械套到每个词上。",
+      "concepts": ["less", "c-semantic-shift", "c-transparency"]
+    },
+    {
+      "id": "w04d2-p6",
+      "kind": "mcq",
+      "prompt": "The committee's ___ of the plan came as a surprise. 空白处应填：",
+      "choices": ["approve", "approval", "approvable", "approvingly"],
+      "answer": 1,
+      "explain": "approval 是 approve + -al 构成的名词“批准”，符合 the committee's ___ of the plan 的名词槽位。approve 是动词；approvable 是形容词；approvingly 是副词。这说明 -al 不只构成形容词，也能构成名词，必须看句法位置。",
+      "concepts": ["al", "c-suffix", "c-derivation"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w04d2-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的测量说明，推测划线词的含义",
+      "passage": "The drift is imperceptible over a single frame but accumulates into a measurable offset after several minutes of operation.",
+      "word": "imperceptible",
+      "choices": ["几乎无法察觉的", "无法测量的", "不稳定的", "可以忽略不计的"],
+      "answer": 0,
+      "strategy": "① 切分：im（否定 in- 在 p 前的变体）+ percept（感知）+ ible（能够被……的）；② 词性：-ible 构成形容词，作表语；③ 语境：but 转折，前项“几乎察觉不到”，后项“几分钟后累积成可测量的偏移”；④ 排除：“无法测量”与后文 measurable 矛盾。",
+      "explain": "imperceptible 意为“难以察觉的”。推理的关键是 but 两侧的对比：单帧内小到察觉不到，累积后才 measurable。若读成“无法测量的”，就与后半句直接冲突。这里同时用上了第 3 周的同化知识与本周的 -ible。",
+      "concepts": ["ible", "im", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4 章：形容词后缀与语义对立" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "-able / -ive / -ous / -al / -ic 词表" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "priceless 与 valueless、economic 与 economical 的释义对比" }
+  ]
+}

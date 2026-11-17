@@ -1,0 +1,153 @@
+{
+  "id": "w03d2",
+  "week": 3,
+  "day": 2,
+  "title": "方向与位置前缀：给词一个空间坐标",
+  "tagline": "用“上/下/之间/穿过/环绕/内部”这套坐标读懂 sub-、super-、inter-、trans- 一类长词",
+  "objectives": [
+    "能把 sub- / super- / inter- / trans- / circum- / intra- 各自的方位义说清楚",
+    "能区分 inter-（之间）与 intra-（内部），并各举两个真实词",
+    "能解释一个空间前缀如何引申出抽象义（如 supervise、subordinate）"
+  ],
+  "prereqs": ["w03d1"],
+  "concepts": ["c-prefix", "c-root", "c-word-matrix"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "空间词是最容易“看懂”的一类长词",
+      "body": "人类用身体和空间来理解抽象概念，语言也跟着这么做。方向前缀就是一套坐标：**sub-** 在下，**super-** 在上，**inter-** 在之间，**trans-** 穿过，**circum-** 绕一圈，**intra-** 在内部。\n\n这套坐标的好处是可直接落到具体名词上：**submarine**（sub + marine 海的）= 在海下的艇；**circumference**（circum + fer 带 + ence）= 绕着带一圈的量，即周长。看到这类词，先把画面想出来，再落到中文对应词，比逐字翻译可靠。\n\n要注意的是，同一个前缀往往同时有具体义和抽象义，后面几张卡片会处理这层扩展。",
+      "morphemes": ["sub", "super", "inter", "trans", "circum", "intra"]
+    },
+    {
+      "kind": "table",
+      "title": "六个方位前缀的坐标表",
+      "body": "下表把每个前缀的拉丁来源、空间义与抽象义并列。抽象义不是另一个词素，而是空间义在认知上的延伸，因此可以顺着推，不必单独背。读的时候注意第四列：sub- 的“次级”义来自“位置在下”，super- 的“监督”义来自“从上面看”，inter- 的“相互”义来自“彼此之间”。这条延伸链能解释大多数词，但遇到 subject、suspect 这类已专门化的词就要停下，改按整词记忆。",
+      "head": ["前缀", "拉丁来源", "空间义", "抽象义与例词"],
+      "rows": [
+        ["sub-", "sub 在下", "在……之下", "次级、从属：subordinate, subcommittee"],
+        ["super-", "super 在上", "在……之上", "超越、监督：supervise, supersonic"],
+        ["inter-", "inter 在……之间", "在两者之间", "相互、共同：interpersonal, interact"],
+        ["trans-", "trans 穿过", "穿过、越过", "转变、转移：transform, transfer"],
+        ["circum-", "circum 环绕", "绕一圈", "周遍：circumference, circumnavigate"],
+        ["intra-", "intra 在内", "在内部", "组织内部：intranet, intravenous"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "inter- 与 intra-：一个字母之差，方向相反",
+      "body": "这是学术阅读里最常见的误读之一。**inter-** 是“之间”，**intra-** 是“内部”：interpersonal 是人与人之间，intrapersonal 是一个人内心；internet 是网络与网络之间互联，intranet 是一个组织内部的网。\n\n大学里还有一对真实存在的词：**intramural**（mural 墙）指“校内的”，如 intramural sports 校内比赛；**intermural** 指“校际的”。中国学生常把 intramural 当成“校际”，恰好反了。\n\n记忆抓手：**intra- 里有“a”，可以联想成“a single one inside”**；**inter- 里有“e”，联想成“enter between”**。这是助记，不是词源，但足够区分这两个前缀。",
+      "terms": [
+        { "term": "spatial metaphor", "zh": "空间隐喻", "en": "spatial metaphor", "note": "用空间关系理解抽象关系" }
+      ],
+      "morphemes": ["inter", "intra"]
+    },
+    {
+      "kind": "matrix",
+      "title": "同一个词基，六个方向",
+      "body": "以 nation 为词基，只换前缀，就能得到一组意义可预测的真实词。矩阵的作用不是让你背六个词，而是让你看见：**词基不变，方向由前缀决定**。注意 supranational 用的是 supra-（在上、超出），与 super- 同源但拼写固定。",
+      "base": "nation",
+      "prefixes": [
+        { "text": "inter", "glossZh": "在……之间" },
+        { "text": "intra", "glossZh": "在内部" },
+        { "text": "trans", "glossZh": "穿过、超越" },
+        { "text": "sub", "glossZh": "在之下、次级" },
+        { "text": "supra", "glossZh": "在上、超出" }
+      ],
+      "suffixes": [{ "text": "al", "glossZh": "形容词后缀" }],
+      "words": [
+        { "w": "international", "parts": ["inter", "nation", "al"], "glossZh": "国际的" },
+        { "w": "intranational", "parts": ["intra", "nation", "al"], "glossZh": "一国之内的" },
+        { "w": "transnational", "parts": ["trans", "nation", "al"], "glossZh": "跨国的" },
+        { "w": "subnational", "parts": ["sub", "nation", "al"], "glossZh": "国家以下的（如省级）" },
+        { "w": "supranational", "parts": ["supra", "nation", "al"], "glossZh": "超国家的" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "从“在下面”到“不重要”：抽象义怎么来的",
+      "body": "空间义之所以好用，是因为它可以顺着隐喻推。**sub-** 从“在物理位置的下方”推到“在等级的下方”，于是有 subordinate（下级）、subcommittee（下属委员会）、subset（子集）。**super-** 从“在上”推到“ overseeing”，于是 supervise 的字面义就是“从上面看”，即监督。\n\n**trans-** 从“穿过”推到“从一种状态到另一种状态”，于是 transform 是改变形状，translate 是把意义从一种语言搬到另一种语言。\n\n这条推理链有边界：不是所有含 sub- 的词都能这样推。**subject**、**suspect** 里的 sub-/sus- 虽然同源，现代义已经专业化，必须整体记。判断标准仍是：**成分义能否合成出词义**。",
+      "morphemes": ["sub", "super", "trans"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w03d2-p1",
+      "kind": "mcq",
+      "prompt": "Job ads often ask for “interpersonal skills”. 这里的 inter- 表示：",
+      "choices": ["个人内心的", "人与人之间的", "超越常人的", "组织内部的"],
+      "answer": 1,
+      "explain": "inter- 表示“在……之间”，person 是“人”，interpersonal 即“人与人之间的”，指沟通、协作这类涉及他人的能力。intrapersonal 才是“个人内心的”，super- 表“超越”，intra- 表“内部”。",
+      "concepts": ["inter", "c-prefix"]
+    },
+    {
+      "id": "w03d2-p2",
+      "kind": "mcq",
+      "prompt": "某高校的“校内篮球联赛”应译为：",
+      "choices": ["intermural basketball league", "intramural basketball league", "transmural basketball league", "circumlateral basketball league"],
+      "answer": 1,
+      "explain": "intramural = intra（内部）+ mural（墙），字面“墙内”，指同一学校内部的比赛。intermural 是“墙与墙之间”，即校际的；transmural 指穿过壁（医学术语）；第四个词不成立。中国学生常把这两个词记反。",
+      "concepts": ["intra", "inter", "c-prefix"],
+      "hint": "先判断比赛发生在“校内”还是“校与校之间”。"
+    },
+    {
+      "id": "w03d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个形容词（以 inter- 开头）",
+      "sentence": "Good ___ skills — listening, turn-taking and reading body language — often matter more than technical knowledge in a support role.",
+      "answer": "interpersonal",
+      "accept": ["人际的", "人际"],
+      "explain": "破折号后列举的都是与他人互动相关的行为，因此需要 inter（之间）+ person（人）+ al（形容词后缀）= interpersonal“人际的”。intrapersonal 指个人内心，与“倾听他人”矛盾。",
+      "concepts": ["inter", "c-suffix"]
+    },
+    {
+      "id": "w03d2-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词：trans + mit → ?",
+      "parts": ["trans", "mit"],
+      "answer": "transmit",
+      "explain": "trans（穿过）+ mit（送、放）→ transmit“传送、发射”。mit 是拉丁词根 mittere“送”，同族还有 permit、submit、transmission。注意动词拼写是 transmit，名词是 transmission，词根在名词中变为 miss。",
+      "concepts": ["trans", "mit", "c-root"]
+    },
+    {
+      "id": "w03d2-p5",
+      "kind": "mcq",
+      "prompt": "In arctic regions, engineers must account for subzero temperatures. 其中 subzero 的意思是：",
+      "choices": ["接近零度的", "零度以下的", "高于零度的", "正好零度的"],
+      "answer": 1,
+      "explain": "sub- 表“在……之下”，zero 是零度，subzero 即“零下的”。这是 sub- 空间义最直接的用法；同一前缀在 subordinate 中转为“等级在下”，在 subset 中转为“集合之内”，都属于同一义项的延伸。",
+      "concepts": ["sub", "c-prefix"]
+    },
+    {
+      "id": "w03d2-p6",
+      "kind": "matrix",
+      "prompt": "用矩阵填空：词基 nation，前缀 inter，后缀 al，组成的形容词是？",
+      "base": "nation",
+      "prefix": "inter",
+      "suffix": "al",
+      "answer": "international",
+      "explain": "inter（之间）+ nation（国家）+ al（形容词后缀）= international“国际的”。注意词基拼写不变，只需按顺序连接；inter- 的双 r 是前缀本身结尾的 r 与词基首字母相接造成的。",
+      "concepts": ["inter", "c-word-matrix"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w03d2-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的医疗设备说明，推测划线词的含义",
+      "passage": "The implant is placed subcutaneously, just beneath the skin of the forearm, so the reader can power and query it without any wire crossing the surface.",
+      "word": "subcutaneously",
+      "choices": ["在皮肤下方地", "在皮肤表面地", "经静脉内地", "在肌肉内部地"],
+      "answer": 0,
+      "strategy": "① 切分：sub（在下）+ cutane（皮肤，拉丁 cutis）+ ous（形容词）+ ly（副词）；② 词性：-ly 结尾且修饰 placed，是副词；③ 语境：后半句 just beneath the skin 直接给出同义解释；④ 排除：静脉内是 intravenous，肌肉内是 intramuscular，都不是“皮肤之下”。",
+      "explain": "subcutaneously 意为“皮下地”。这是医学与可穿戴设备文献的高频词。推理的关键是抓住 sub- 的“在下”和 cutane“皮肤”，再用紧随其后的 beneath the skin 验证；两个干扰项都对应其他真实医学前缀，属于同类混淆。",
+      "concepts": ["sub", "c-inference", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：方位前缀与语义引申" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "拉丁前缀 sub- / super- / inter- / trans- / circum- 词表" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "intramural 与 intermural 的释义与用法对比" }
+  ]
+}

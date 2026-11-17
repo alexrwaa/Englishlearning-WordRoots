@@ -1,0 +1,137 @@
+{
+  "id": "w07d3",
+  "week": 7,
+  "day": 3,
+  "title": "混成词：各取一半，拼出一个新词",
+  "tagline": "能把 smog、brunch、podcast 还原成两个来源，并说清它们与复合词的区别",
+  "objectives": [
+    "能还原常见混成词的两个来源，并指出哪部分被截去",
+    "能从成分完整性上区分混成词与复合词",
+    "能解释 podcast 的 pod 为何不能按“豆荚”理解"
+  ],
+  "prereqs": ["w07d1"],
+  "concepts": ["c-blend", "c-compound", "c-frequency"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "smog 既不是 smoke 也不是 fog",
+      "body": "**smog** 是 sm(oke) + (f)og：两个词各贡献一部分，重叠的 o 只写一次。这种取两个词的**部分**拼合而成的新词叫**混成词**（`blend`），也叫 portmanteau（合成词、混成词）。\n\n常见例子：\n\n- brunch = breakfast + lunch\n- motel = motor + hotel\n- podcast = iPod + broadcast\n- staycation = stay + vacation\n\n关键判据：混成词的两个来源都**不完整**。哪怕只有一个成分被截断，它就不是复合词。",
+      "terms": [
+        { "term": "blend", "zh": "混成词", "en": "blend", "note": "取两个词的部分拼合而成的新词" },
+        { "term": "portmanteau", "zh": "合成词（混成词）", "en": "portmanteau", "note": "blend 的另一个术语，源自法语“可折叠的旅行箱”" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "高频混成词一览",
+      "body": "下表里的词都已经进入通用词典。注意每一行的两个来源都缺了一截：smog 缺了 moke 与 f，brunch 缺了 fast 与 unch 的大部分。",
+      "head": ["混成词", "来源", "中文"],
+      "rows": [
+        ["smog", "smoke + fog", "烟雾"],
+        ["brunch", "breakfast + lunch", "早午餐"],
+        ["motel", "motor + hotel", "汽车旅馆"],
+        ["podcast", "iPod + broadcast", "播客"],
+        ["staycation", "stay + vacation", "就近度假"],
+        ["webinar", "web + seminar", "网络研讨会"]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "混成词与复合词：只看一条就够",
+      "body": "两者都是“两个词合成一个”，区分时只问：成分是否完整？如果两个来源都能原样写出来，是复合词；只要有一个被截去一部分，就是混成词。语义透明度也随之不同。",
+      "a": "混成词 blend",
+      "b": "复合词 compound",
+      "rows": [
+        ["成分完整性", "至少一方被截去一部分", "两个自由词基完整相加"],
+        ["能否直接还原", "必须知道来源才能还原", "看拼写即可切分"],
+        ["典型语域", "新闻、广告、品牌、网络新词", "日常词汇与专业术语都有"],
+        ["例子", "brunch, smog, podcast", "software, greenhouse, keyboard"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "重叠处只写一次，所以拼写不能机械推导",
+      "body": "混成常发生在两个词有**重叠音**的位置，重叠部分只保留一次：smoke + fog → smog（o 重叠）、motor + hotel → motel（o 重叠）。也有整块压缩的：breakfast + lunch → brunch，取 br- 与 -unch。\n\n结论：混成词的拼写无法用“取前半 + 取后半”的公式推出，必须查证。\n\n另一个常见误解：**podcast** 的 pod 来自品牌名 **iPod**，不是“pod（豆荚）”。把它解释成“豆荚 + 播送”是典型的拼写联想错误。",
+      "morphemes": ["pod", "cast"]
+    },
+    {
+      "kind": "text",
+      "title": "能产，但不等于能活",
+      "body": "混成是当代最能产的造词方式之一：webinar、fintech、edtech、spork、labradoodle、chillax 都是近几十年才出现的。但能造不等于能留下来——绝大多数混成词流行一阵就消失，只有少数进入词典。\n\n学习策略：把混成词当**整体词位**记，不要现场拆解着用；只有在需要解释“为什么这么写”或判断它是否新词时，才回溯两个来源。写作中也不要自创混成词，除非你明确处在允许造词的语域（广告、标题、社交媒体）。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w07d3-p1",
+      "kind": "mcq",
+      "prompt": "brunch 由哪两个词混成？",
+      "choices": ["breakfast + lunch", "bread + lunch", "break + munch", "brunch + lunch"],
+      "answer": 0,
+      "explain": "brunch 取 breakfast 的 br- 与 lunch 的 -unch，指把早餐与午餐合并的一餐。break + munch 虽然拼写接近，但语义与来源都不成立，属于典型的拼写联想误区。",
+      "concepts": ["c-blend"]
+    },
+    {
+      "id": "w07d3-p2",
+      "kind": "mcq",
+      "prompt": "下面哪个是混成词？",
+      "choices": ["motel", "motorway", "hotel", "motor"],
+      "answer": 0,
+      "explain": "motel = motor + hotel，两个来源都被截去一部分。motorway 是 motor + way 的完整复合词，hotel 与 motor 都是单纯词。",
+      "concepts": ["c-blend", "c-compound"]
+    },
+    {
+      "id": "w07d3-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词",
+      "sentence": "A ___ is a hotel designed for people travelling by car, with rooms whose doors open onto the parking area.",
+      "answer": "motel",
+      "accept": ["汽车旅馆"],
+      "explain": "motel 由 motor + hotel 混成，语义正是“为驾车者设计的旅馆”。释义中的 car、parking 是这个词的语义核心，也是它区别于 hotel 的地方。",
+      "concepts": ["c-blend"]
+    },
+    {
+      "id": "w07d3-p4",
+      "kind": "mcq",
+      "prompt": "smog 与 greenhouse 在构词上的根本区别是：",
+      "choices": [
+        "smog 只保留两个来源的一部分，greenhouse 的两个词基完整",
+        "smog 是截短词，greenhouse 是混成词",
+        "smog 是缩略词，greenhouse 是复合词",
+        "smog 由三个词构成，greenhouse 由两个词构成"
+      ],
+      "answer": 0,
+      "explain": "smoke 与 fog 都只贡献了片段，所以是混成；green + house 两个自由词基完整出现，所以是复合。两者的差别在成分完整性，不在音节数或词义透明度。",
+      "concepts": ["c-blend", "c-compound"]
+    },
+    {
+      "id": "w07d3-p5",
+      "kind": "mcq",
+      "prompt": "podcast 中的 pod 来自：",
+      "choices": ["品牌名 iPod 的截取部分", "英语单词 pod（豆荚）", "拉丁词根 pod（脚）", "personal 的首音节"],
+      "answer": 0,
+      "explain": "podcast = iPod + broadcast，pod 取自苹果的产品名 iPod。把它解释成“豆荚”或希腊词根“脚”都是拼写联想，缺乏词源依据；这类误释在词汇书里很常见。",
+      "concepts": ["c-blend", "c-etymology"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w07d3-a1",
+      "kind": "infer",
+      "prompt": "推测划线词 staycation 的含义",
+      "passage": "With flights cancelled and budgets tight, many families opted for a staycation this summer, exploring museums and parks within an hour of home instead of booking a hotel abroad.",
+      "word": "staycation",
+      "choices": ["在居住地附近度假", "长期在海外旅居", "出差期间顺带旅游", "在野外露营过夜"],
+      "answer": 0,
+      "strategy": "① 构词：stay + vacation，各取一部分，是混成词；② 语境对比：instead of booking a hotel abroad 与 within an hour of home 形成对立；③ 因果：航班取消、预算紧张，说明没有远行。",
+      "explain": "staycation = stay + vacation，指不外出远行、在居住地附近休闲的假期。passage 用 instead of booking a hotel abroad 明确了它与“出国度假”的对立，构词分析与语境线索互相印证。",
+      "concepts": ["c-blend", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章： blending 与 compound 的区分" },
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "smog、brunch、motel、podcast、staycation 词条与首见年代" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "以词源与形态证据检验“看起来像”的拆分" }
+  ]
+}

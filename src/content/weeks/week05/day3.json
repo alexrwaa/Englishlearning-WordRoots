@@ -1,0 +1,343 @@
+{
+  "id": "w05d3",
+  "week": 5,
+  "day": 3,
+  "title": "duc / duct：从“引导”到“导致”",
+  "tagline": "看清一条抽象化路径：把东西引到某处，就是把结果引出来",
+  "objectives": [
+    "能用“引导 + 方向”解释 produce、introduce、conduct、reduce 的词义",
+    "能说明 deduce、induce 中“引导”如何抽象为“推断、诱发”",
+    "能判断 duke 与 conduct 是否存在历史同源关系"
+  ],
+  "prereqs": [
+    "w05d2",
+    "c-semantic-shift"
+  ],
+  "concepts": [
+    "duc",
+    "duct",
+    "c-root",
+    "c-semantic-shift",
+    "c-prefix"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "ducere 是“引着走”，不是“制造”",
+      "body": "拉丁 **ducere** 的意思是“引导、带领”，过去分词 **ductus**。它的所有英语后代都保留了“有方向地带”这个核心：\n\n- pro-（向前）+ ducere → producere“往前引出”→ produce 生产。\n- intro-（向内）+ ducere → introducere“引进去”→ introduce 引进、介绍。\n- con-（一起）+ ducere → conducere“带到一起”→ conduct 指挥、传导。\n- re-（向后）+ ducere → reducere“引回去”→ reduce 减少。\n\n注意 reduce 的“减少”不是凭空来的：把数量“往回带”，就是压低。**词义的具体动作往往比中文释义更能解释引申**。",
+      "morphemes": [
+        "duc",
+        "duct"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "抽象化：把“结果”引出来，就是“导致”",
+      "body": "“引导”这个动作一旦用在抽象对象上，就会长出“导致、推断”一类意思：\n\n- in-（向内）+ ducere → inducere“引进来”→ induce 诱发、引起（论文里 induce a current 是“感应出电流”）。\n- de-（从……而下）+ ducere → deducere“从前提里引出来”→ deduce 推断、演绎。\n- e-（向外）+ ducere → educere“引出来”→ educate 教育（把人的潜能引出来，这是这个词的本义比喻）。\n\n英语本土的 lead 与拉丁 ducere **不同源**（分属不同的原始印欧词根），但两者走出了同一条语义路径：lead to 就是“导致”。这种跨语言的平行演变说明，**“引导→导致”是人类语言共同的隐喻方向**，不是英语的巧合。",
+      "terms": [
+        {
+          "term": "semantic shift",
+          "zh": "语义演变",
+          "en": "semantic change",
+          "note": "词义随时间发生的系统性变化"
+        }
+      ],
+      "morphemes": [
+        "in",
+        "de",
+        "e",
+        "duc"
+      ]
+    },
+    {
+      "kind": "matrix",
+      "title": "duct 的构词矩阵",
+      "body": "矩阵里所有的词都能用“把某物引到某处”解释。注意词基有两种拼写：动词里写作 **duce**（produce、reduce），名词与分词里写作 **duct**（product、reduction），这是拉丁语两套词干在英语里的分工。另外 conductor 既指“指挥”也指“导体”，一个带人、一个带电；semiconductor 则是在 conduct 之上再加 semi-（一半）。",
+      "base": "duct",
+      "prefixes": [
+        {
+          "text": "pro",
+          "glossZh": "向前"
+        },
+        {
+          "text": "intro",
+          "glossZh": "向内"
+        },
+        {
+          "text": "con",
+          "glossZh": "一起"
+        },
+        {
+          "text": "re",
+          "glossZh": "向后"
+        },
+        {
+          "text": "semi",
+          "glossZh": "一半"
+        }
+      ],
+      "suffixes": [
+        {
+          "text": "ion",
+          "glossZh": "名词后缀：行为、结果"
+        },
+        {
+          "text": "or",
+          "glossZh": "名词后缀：执行者、器具"
+        },
+        {
+          "text": "ive",
+          "glossZh": "形容词后缀：有……作用的"
+        }
+      ],
+      "words": [
+        {
+          "w": "produce",
+          "parts": [
+            "pro",
+            "duce"
+          ],
+          "glossZh": "生产、产生"
+        },
+        {
+          "w": "product",
+          "parts": [
+            "pro",
+            "duct"
+          ],
+          "glossZh": "产品、产物"
+        },
+        {
+          "w": "introduce",
+          "parts": [
+            "intro",
+            "duce"
+          ],
+          "glossZh": "引进、介绍"
+        },
+        {
+          "w": "conduct",
+          "parts": [
+            "con",
+            "duct"
+          ],
+          "glossZh": "指挥、传导、进行"
+        },
+        {
+          "w": "conductor",
+          "parts": [
+            "con",
+            "duct",
+            "or"
+          ],
+          "glossZh": "指挥、导体"
+        },
+        {
+          "w": "reduce",
+          "parts": [
+            "re",
+            "duce"
+          ],
+          "glossZh": "减少、降低"
+        },
+        {
+          "w": "reduction",
+          "parts": [
+            "re",
+            "duct",
+            "ion"
+          ],
+          "glossZh": "减少、缩减"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "duke 与 conduct：历史同源，今天不同族",
+      "body": "拉丁 **dux**（属格 ducis）意思是“领导者”，与 ducere 同根；它经法语进入英语，变成 **duke**（公爵）。所以从历史词源看，duke 和 conduct 确实是一家人。\n\n但在今天的英语里，没有人会把 duke 分析成“duc + e”，也没有任何词族练习会把它和 reduce 放在一个矩阵里。**历史同源不等于共时可分析**。这正是本课程反复强调的三层区分：历史词源、现代构词、辅助记忆。",
+      "a": "历史词源关系",
+      "b": "现代共时分析",
+      "rows": [
+        {
+          "label": "判断依据",
+          "a": "拉丁文献与语音对应规律",
+          "b": "今天的使用者能否切分并替换"
+        },
+        {
+          "label": "duke",
+          "a": "与 ducere 同出拉丁 dux“领导者”",
+          "b": "单音节整体词，切不动"
+        },
+        {
+          "label": "conduct",
+          "a": "con + ducere",
+          "b": "con + duct，可替换成 pro + duct"
+        },
+        {
+          "label": "教学处理",
+          "a": "作为词源趣闻补充",
+          "b": "作为词族与矩阵的正式成员"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "两个高频搭配，值得单独记",
+      "body": "**conduct an experiment / a survey / a test**：这里的 conduct 是“进行”，来自“把事情带领着走完”。这是学术写作中使用频率极高的搭配，比 do an experiment 正式。\n\n**semiconductor**：semi（一半）+ conduct（传导）+ or（物）→ 半导体。这个术语在 19 世纪被造出来时，指的正是“导电性介于导体与绝缘体之间”的材料。词形直白，语义也直白，是科技术语里最理想的一类。\n\n顺带记住 **duct** 的解剖学用法：tear duct（泪管）、air duct（风管）。导管的作用就是把流体“引”到某处，词根义完整保留。",
+      "morphemes": [
+        "semi",
+        "duct",
+        "or"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w05d3-p1",
+      "kind": "mcq",
+      "prompt": "introduce 中的 intro- 表示什么方向？",
+      "choices": [
+        "向外",
+        "向内",
+        "向后",
+        "一起"
+      ],
+      "answer": 1,
+      "explain": "intro- 表示“向内”，introducere 即“引进去”，所以 introduce 是“引进、介绍（把人带进来）”。向外是 e-/ex-，向后是 re-，一起是 con-。",
+      "concepts": [
+        "intro",
+        "duc"
+      ]
+    },
+    {
+      "id": "w05d3-p2",
+      "kind": "mcq",
+      "prompt": "reduce 与 produce 的前缀分别表示什么方向？",
+      "choices": [
+        "向后；向前",
+        "向前；向后",
+        "向下；向上",
+        "向内；向外"
+      ],
+      "answer": 0,
+      "explain": "re- 表示“向后、回”，reducere 是“引回去”，故为减少；pro- 表示“向前”，producere 是“往前引出”，故为生产。",
+      "concepts": [
+        "re",
+        "pro",
+        "duc"
+      ]
+    },
+    {
+      "id": "w05d3-p3",
+      "kind": "cloze",
+      "prompt": "填入合适的单词（必要时改变词形）",
+      "sentence": "The experiment was ___ed under strictly controlled conditions.",
+      "answer": "conduct",
+      "accept": [
+        "conduct"
+      ],
+      "explain": "conduct an experiment 是学术写作的固定搭配，意为“进行实验”。con（一起）+ duct（引导）→“带着走完整个流程”。",
+      "concepts": [
+        "con",
+        "duct"
+      ]
+    },
+    {
+      "id": "w05d3-p4",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词，写出结果",
+      "parts": [
+        "re",
+        "duct",
+        "ion"
+      ],
+      "answer": "reduction",
+      "explain": "re（向后）+ duct（引导）+ ion（名词后缀）→ reduction“减少、缩减”。词根用 duct 而非 duc，因为后面接的是名词后缀。",
+      "concepts": [
+        "re",
+        "duct",
+        "ion"
+      ]
+    },
+    {
+      "id": "w05d3-p5",
+      "kind": "mcq",
+      "prompt": "有学习者说：“英语的 lead 和拉丁 ducere 是同源词，因为意思一样。”这个说法的问题是？",
+      "choices": [
+        "意思相同不能证明同源，二者来自不同的原始印欧词根",
+        "lead 不是英语词",
+        "ducere 不是拉丁词",
+        "lead 是名词，不能比较"
+      ],
+      "answer": 0,
+      "explain": "同源要靠语音对应规律证明。lead 来自古英语 lǣdan（日耳曼语源），ducere 来自拉丁，二者分属不同词根，只是语义路径相似。这是本课程禁止“凭意义猜同源”的典型例子。",
+      "concepts": [
+        "duc",
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w05d3-p6",
+      "kind": "matrix",
+      "prompt": "用矩阵生成单词：词基 duct，加前缀 intro-，加后缀 -ion，结果是？",
+      "base": "duct",
+      "prefix": "intro",
+      "suffix": "ion",
+      "answer": "introduction",
+      "explain": "intro（向内）+ duct（引导）+ ion（名词后缀）→ introduction“引进、介绍、导论”。注意不是 introdution，duct 的 t 保留。",
+      "concepts": [
+        "intro",
+        "duct",
+        "ion"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w05d3-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的实验描述，推测划线词的含义",
+      "passage": "From the drift visible in the IMU trace, we can deduce that the platform rotated about its vertical axis shortly before the scan was taken, even though no such rotation was commanded.",
+      "word": "deduce",
+      "choices": [
+        "推断出",
+        "减少",
+        "引入",
+        "传导"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：de（从……引出）+ duc（引导）+ e；② 句法：can deduce that 后接完整从句，说明是认知动词；③ 语境：从 IMU 漂移“得出”平台发生过转动这一结论。",
+      "explain": "deduce 是“从已知证据推出结论”，与 reduce（减少）、introduce（引入）、conduct（传导）同根不同前缀。此处 even though 从句说明“没有下达过转动指令”，正是推理得出的反差结论。",
+      "concepts": [
+        "de",
+        "duc",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "拉丁词根 duc- 与抽象语义扩展"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford Dictionary of English Etymology",
+      "detail": "duce、duct、duke、semiconductor 词条"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "duct 词基的矩阵构建"
+    }
+  ]
+}

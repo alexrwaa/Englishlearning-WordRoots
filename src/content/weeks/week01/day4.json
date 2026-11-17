@@ -1,0 +1,146 @@
+{
+  "id": "w01d4",
+  "week": 1,
+  "day": 4,
+  "title": "词缀总览：前缀改义，后缀改词性",
+  "tagline": "用“位置 + 功能”两条线索快速判断词缀类型，并分清屈折与派生",
+  "objectives": [
+    "能说出前缀与后缀在位置和功能上的主要差别",
+    "能区分屈折词缀与派生词缀，并各举三个例子",
+    "能识别 -er、-ing 这类“一身两职”的成分在具体词里属于哪种"
+  ],
+  "prereqs": ["w01d3", "c-base"],
+  "concepts": ["c-affix", "c-prefix", "c-suffix", "c-inflection", "c-derivation"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "前缀与后缀：位置决定分工",
+      "body": "词缀只有两大类位置（英语里没有真正的中缀，个别强调用法不算构词）。位置不同，功能倾向也不同：前缀通常在词义上做加法，后缀则常常决定整个词的词性。表格第三行提醒你：不是所有词都必须有词缀，词根本身也可能独立成词。",
+      "head": ["类型", "位置", "主要作用", "例子"],
+      "rows": [
+        ["前缀 prefix", "词基之前", "改变词义，一般不改词性", "unhappy、rewrite、preheat、submarine"],
+        ["后缀 suffix", "词基之后", "常改变词性，也带来抽象意义", "kindness、quickly、modernize、readable"],
+        ["无词缀", "—", "词根或自由词素单独成词", "help、form、act"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "屈折与派生：造新词还是不造新词",
+      "body": "这是词缀最重要的一个区分，也是后面判断词性、理解词族扩展的前提。**屈折**只表达语法信息，改变的是同一个词的形式，不产生新词条：book → books，walk → walked。**派生**则造出一个新词，词义或词性会变：help → helpful，nation → national。\n\n英语的屈折词缀数量很少，可以完整列出：\n\n- -s 复数、-’s 所有格\n- -s 第三人称单数\n- -ed 过去式与过去分词\n- -ing 进行体与现在分词\n- -er / -est 比较级与最高级\n\n除此之外基本都是派生词缀。这个清单很短，值得记牢。",
+      "terms": [
+        { "term": "inflection", "zh": "屈折", "en": "inflection" },
+        { "term": "derivation", "zh": "派生", "en": "derivation" }
+      ],
+      "morphemes": ["s", "ed", "ing", "er", "est"]
+    },
+    {
+      "kind": "compare",
+      "title": "四条判断线",
+      "body": "遇到一个词缀，按下面四行依次问，基本不会判断错。第一条决定它造不造新词，第二条决定它能否被穷举，第三条决定它出现在词的哪一层。注意第三条：屈折永远在派生之外，所以它总是这个词的最外层。",
+      "a": "屈折词缀",
+      "b": "派生词缀",
+      "rows": [
+        ["是否造新词", "不造，只改变词形", "造新词，可能改变词性"],
+        ["是否可列举", "封闭清单，只有几个", "开放清单，数量多且能产"],
+        ["位置", "永远在派生词缀之外（最外层）", "可以在更内层"],
+        ["典型例子", "-s、-ed、-ing、-er（比较级）", "-ness、-tion、-ize、-able、un-"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-er 与 -ing 的一身两职",
+      "body": "同一个拼写可以属于不同词缀，判断依据是**它在这一个词里做了什么**。\n\n- teach + er → teacher：-er 表示“做这件事的人”，造出新名词，是**派生**。\n- fast + er → faster：-er 只表示比较级，仍是形容词 fast 的另一种形式，是**屈折**。\n\n-ing 同理：running 是 run 的进行体（屈折）；building 作“建筑物”时是 run 之外的独立名词（派生）。判断办法很简单：看这个词能不能换成同一词的其他形式而句意不变。",
+      "morphemes": ["er", "ing", "teach", "fast", "build"]
+    },
+    {
+      "kind": "text",
+      "title": "顺序：屈折永远在最外层",
+      "body": "派生先发生，屈折后发生。所以 nationalizations 的结构是：\n\n1. nation（词根层）\n2. nation + al → national（形容词）\n3. national + ize → nationalize（动词）\n4. nationalize + ation → nationalization（名词）\n5. nationalization + s → nationalizations（复数，屈折）\n\n不会出现 *nationalsization 这种顺序。记住这条，长词的最后一两个字母通常就能帮你定位：如果结尾是 -s、-ed、-ing，先剥掉它，再分析剩下的派生结构。",
+      "morphemes": ["nation", "al", "ize", "tion", "s"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w01d4-p1",
+      "kind": "mcq",
+      "prompt": "下面哪个是屈折词缀？",
+      "choices": ["-ness", "-ed", "-able", "un-"],
+      "answer": 1,
+      "explain": "-ed 只表达过去时或过去分词，不造新词，属于屈折。-ness 造名词、-able 造形容词，都是派生；un- 是派生前缀，改变词义。",
+      "concepts": ["c-inflection", "c-affix"]
+    },
+    {
+      "id": "w01d4-p2",
+      "kind": "mcq",
+      "prompt": "teacher 里的 -er 与 taller 里的 -er，性质有什么不同？",
+      "choices": [
+        "两者都是屈折",
+        "两者都是派生",
+        "teacher 的 -er 是派生（构成施事名词），taller 的 -er 是屈折（比较级）",
+        "teacher 的 -er 是屈折，taller 的 -er 是派生"
+      ],
+      "answer": 2,
+      "explain": "判断依据是这个成分在词里起什么作用。teacher 的 -er 造出一个新名词“教师”，是派生；taller 的 -er 只表示 fast 这一形容词的比较级，不造新词，是屈折。",
+      "concepts": ["c-inflection", "c-derivation", "er"]
+    },
+    {
+      "id": "w01d4-p3",
+      "kind": "cloze",
+      "prompt": "填入术语（中文或英文均可）",
+      "sentence": "-ness 把形容词变成名词，因此它属于 ___ 词缀。",
+      "answer": "派生",
+      "accept": ["derivational", "派生词缀", "derivational affix"],
+      "explain": "-ness 造出新的名词（kind → kindness），改变词性，属于派生词缀；屈折词缀只表达语法信息，不改变词性、不造新词。",
+      "concepts": ["c-derivation", "c-suffix", "ness"]
+    },
+    {
+      "id": "w01d4-p4",
+      "kind": "mcq",
+      "prompt": "nationalizations 的正确结构顺序是？",
+      "choices": [
+        "nation + al + ize + ation + s",
+        "nation + s + al + ize + ation",
+        "nation + al + s + ize + ation",
+        "nation + ize + al + ation + s"
+      ],
+      "answer": 0,
+      "explain": "派生由内向外逐层进行：nation → national → nationalize → nationalization，最后才加屈折 -s。屈折词缀永远在最外层，所以不会出现在中间。",
+      "concepts": ["c-inflection", "c-derivation", "nation", "tion"]
+    },
+    {
+      "id": "w01d4-p5",
+      "kind": "mcq",
+      "prompt": "关于前缀，下面哪个说法是正确的？",
+      "choices": [
+        "前缀通常会改变词的词性",
+        "前缀一般只改变词义，不改变词性",
+        "所有前缀都来自古英语",
+        "前缀只能加在名词上"
+      ],
+      "answer": 1,
+      "explain": "happy → unhappy 仍是形容词，certain → uncertain 仍是形容词，可见前缀主要作用于词义。改变词性的任务通常由后缀承担（-ness、-ize、-able）。前缀的来源既有古英语（un-、mis-），也有拉丁和希腊语（sub-、anti-）。",
+      "concepts": ["c-prefix", "c-affix"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w01d4-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "The standardization of measurement protocols across laboratories has made it possible to compare results from different research groups without adjusting for local conventions.",
+      "word": "standardization",
+      "choices": ["标准化、统一化", "站立姿势的规范", "统计分析", "设备的稳定性"],
+      "answer": 0,
+      "strategy": "①切分 standard（标准）+ ize（使……化）+ ation（名词后缀）；②-ation 构成抽象名词，在句中作主语；③语境是“让不同实验室的测量流程一致，从而结果可比”；④排除“站立”，那是 stand 的词族，虽然拼写开头相近。",
+      "explain": "standard“标准”→ standardize“使符合标准”→ standardization“标准化”。-ation 明确提示这是名词。句中说的是测量流程统一，所以取“标准化”义。",
+      "concepts": ["ize", "tion", "c-suffix", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 2 章：前缀、后缀与屈折—派生的分工" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：inflectional vs derivational affixes" },
+    { "id": "S5", "title": "Cambridge Grammar of English", "detail": "英语屈折词缀清单与 -er/-ing 的多重功能" }
+  ]
+}

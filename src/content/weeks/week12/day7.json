@@ -1,0 +1,180 @@
+{
+  "id": "w12d7",
+  "week": 12,
+  "day": 7,
+  "title": "十二周总复盘：把方法带走",
+  "tagline": "构词知识地图 + 一套离开课程后仍能运行的自学流程",
+  "objectives": [
+    "能凭记忆复述十二周的能力链条与关键概念",
+    "能独立执行“先分析、再查证”的读词流程并说明其优势",
+    "能对任意陌生长词给出切分、词性、语境三层证据",
+    "能制定一份可持续的科研词汇自学计划"
+  ],
+  "prereqs": ["w12d6", "c-inference", "c-morpheme"],
+  "concepts": ["c-morpheme", "c-inference", "c-word-family", "c-register", "c-etymology", "c-scientific"],
+  "minutes": { "review": 6, "learn": 8, "practice": 7, "apply": 6 },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "十二周知识地图",
+      "body": "这张表是整门课的骨架。复习时不要按“天”记，按“能力”记：每一周解决一个具体问题，后一周都以前一周为前提。任何一格说不清，就回到那一周的第一天。",
+      "head": ["周", "解决的问题", "留下的能力", "关键概念"],
+      "rows": [
+        ["1", "什么是最小意义单位", "能用替换测试切分", "c-morpheme, c-root, c-affix"],
+        ["2", "怎样把切分写清楚", "会写构词算式与矩阵", "c-word-sum, c-word-matrix"],
+        ["3", "前缀做什么", "判断否定/方向/程度/时间", "un, in, dis, pre, sub, trans"],
+        ["4", "后缀做什么", "由后缀判词性", "tion, ment, ness, ity, able, ize"],
+        ["5", "拉丁词根怎么扩展", "按词族记词", "struct, port, duc, spect, fer"],
+        ["6", "希腊组合形式", "读懂 -o- 连接的术语", "therm, metr, graph, logy, bio"],
+        ["7", "词是怎么造出来的", "分辨复合/转换/混成/截短/缩略", "c-compound, c-blend, c-acronym"],
+        ["8", "拼写为什么变", "解释 allomorph 与拼写规则", "c-allomorph, c-spelling-rule"],
+        ["9", "词从哪里来", "读词源条目、区分词源与共时", "c-etymology, c-borrowing"],
+        ["10", "意义为什么变", "解释多义与语义扩展", "c-metaphor, c-broadening"],
+        ["11", "术语怎么造、怎么拆", "判断三类出身并推理", "c-scientific, c-inference"],
+        ["12", "长词与论文怎么读", "独立完成分析与验证", "综合复现"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "继续自学的四个问题",
+      "body": "离开课程后，用 SWI 的四个问题处理每一个新词：\n\n1. **这个词由哪些词素构成？**（切分）\n2. **每个词素是什么意思？**（释义）\n3. **还有哪些词共享这些词素？**（词族）\n4. **拼写为什么是这样？**（连接规则）\n\n再补一个课程里反复强调的问题：**这个词属于哪一类？** 是组合拼装、人造术语，还是旧词新义？它决定前四问是否适用。\n\n具体做法建议：每周精读一篇本领域摘要（150 词以内），圈出 5–8 个词，写一张卡片：词、切分、词性、语境证据、同族词、你的置信度。三个月后你会有一份**自己的领域词族表**，它比任何通用词表都有效，因为它是从你真正读的材料里长出来的。\n\n最后一条：词表要复习，不要只收藏。用间隔重复，把“认识”变成“能用”。"
+    },
+    {
+      "kind": "compare",
+      "title": "两种读词方式：只查词典 vs 先分析再查",
+      "body": "这不是“要不要查词典”的问题，而是顺序问题。先分析再查证，能让查到的释义挂到已有结构上；只查词典，得到的是孤立的一条记录，下次换个词仍然不会。",
+      "a": "只查词典",
+      "b": "先分析，再查证",
+      "rows": [
+        ["遇到 occluded", "查到“遮挡”，记住", "oc + clud（关）+ ed → 猜“被挡住”，再查确认"],
+        ["记忆方式", "单词—中文一一对应", "结构 + 词族 + 语境三重编码"],
+        ["迁移效果", "换一个 clud 词仍不认识", "遇到 preclude、occlusion 能自行推断"],
+        ["出错风险", "低（直接查）", "中（可能猜错），但可用词典校正"],
+        ["时间成本", "单次低", "单次略高，长期递减"],
+        ["适用场景", "只需快速过读、不求掌握", "精读、写作、长期积累"]
+      ]
+    },
+    {
+      "kind": "passage",
+      "title": "结课阅读：一段关于可复现性的文字",
+      "body": "这是最后一段练习语料，风格接近方法部分的讨论。注意 reproducible 与 robust 的区别，以及 random seed 为什么会被专门提到。",
+      "excerpt": "A result is reproducible only if an independent group, using the same code and data, obtains the same numbers. Our pipeline is deterministic given a fixed random seed, so we release the seed alongside the code. This does not make the method robust: a reproducible result can still be fragile, because repeating an experiment under identical conditions says nothing about behaviour in a new environment.",
+      "glossZh": "只有当独立团队使用相同代码与数据得到相同数字时，结果才是可复现的。我们的流水线在给定固定随机种子的情况下是确定性的，因此我们随代码发布种子。这并不使方法变得鲁棒：可复现的结果仍可能是脆弱的，因为在相同条件下重复实验，并不能说明在新环境中的表现。",
+      "questions": [
+        { "q": "reproducible 与 robust 的分工是什么？", "a": "reproducible 指同条件下他人能得到相同结果；robust 指条件变化时性能不崩塌。前者关于一致性，后者关于稳定性。" },
+        { "q": "为什么要公布 random seed？", "a": "因为流水线在固定种子下才是确定性的；不公布则他人无法得到相同数字，结果不可复现。" },
+        { "q": "作者对“可复现”的评价是什么？", "a": "必要但不充分：它不能保证方法在新环境下仍然可靠。" }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "五个仍然会犯的错，及对应的检查动作",
+      "body": "1. **按拼写猜同源**（robot = rob + ot）。检查：有没有文献支持？两个词在早期形式里是否真的对应？\n2. **把词源当共时结构**（understand = 站在下面）。检查：现代使用者还这样理解吗？\n3. **忽略层级**（un + calibrate + ed 平铺）。检查：un- 作用的是 calibrate 还是 calibrated？\n4. **只看词形不看搭配**（把 significant 读成“很大”）。检查：作者是在说统计判断还是实际影响？\n5. **切不动就硬切**（intrinsic = intr + insic）。检查：切出来的成分在别的词里出现过吗？\n\n这五条覆盖了本课程 80% 的失分点。每次读摘要时挑一条刻意检查，四周就能变成习惯。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w12d7-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一项正确描述了十二周的能力顺序？",
+      "choices": [
+        "先学词源，再学词素，最后学构词方式",
+        "先建立切分意识，再学前缀/后缀/词根，然后构词方式与语义演变，最后用于科研阅读",
+        "先背 5000 词，再学构词",
+        "先学希腊语和拉丁语语法，再学英语词汇"
+      ],
+      "answer": 1,
+      "explain": "课程顺序是：词素与切分（1–2 周）→ 前缀、后缀（3–4 周）→ 拉丁/希腊词根（5–6 周）→ 构词方式与拼写（7–8 周）→ 词源与语义（9–10 周）→ 术语与推理（11 周）→ 长词与论文（12 周）。每一步都以前一步为前提。",
+      "concepts": ["c-morpheme", "c-word-family"]
+    },
+    {
+      "id": "w12d7-p2",
+      "kind": "mcq",
+      "prompt": "遇到 preclude 这个没学过的词，最合理的分析顺序是？",
+      "choices": [
+        "先查词典，再记中文",
+        "pre（在前）+ clud（关闭）+ e → 猜“预先关上/阻止”，再用语境与词典验证",
+        "按字母顺序拆成 p + re + clude",
+        "先判断它是名词还是动词，再猜字母含义"
+      ],
+      "answer": 1,
+      "explain": "pre- 表“在前”，clud 表“关闭”，字面“预先关上”→ 阻止。先形成假设再用语境与词典验证，是课程训练的迁移路径；先查词典则切断了自己推理的机会。",
+      "concepts": ["c-inference", "clud", "pre"]
+    },
+    {
+      "id": "w12d7-p3",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词（“不可复现的/不可重现的”）",
+      "parts": ["ir", "re", "pro", "duc", "ible"],
+      "answer": "irreproducible",
+      "explain": "ir-（否定，r 前的 in- 变体）+ re（再）+ pro（向前）+ duc（引导）+ ible（能够）→ irreproducible。注意 in- 在 r 前变为 ir-，这是第 8 周的词素变体规则。",
+      "concepts": ["c-allomorph", "duc", "c-suffix"]
+    },
+    {
+      "id": "w12d7-p4",
+      "kind": "cloze",
+      "prompt": "填入表示“可复现的”形容词",
+      "sentence": "An experiment is ___ only if another group can obtain the same result from the same code and data.",
+      "answer": "reproducible",
+      "accept": ["reproducible"],
+      "explain": "re（再）+ pro（向前）+ duc（引导）+ ible（能够）→ reproducible“可复现的”。与 repeatable 相比，reproducible 强调他人独立复现，而不只是自己重复一次。",
+      "concepts": ["duc", "c-scientific", "c-register"]
+    },
+    {
+      "id": "w12d7-p5",
+      "kind": "matrix",
+      "prompt": "用词基 duc 加前缀 pro-，写出“产生/生成”的动词",
+      "base": "duc",
+      "prefix": "pro",
+      "answer": "produce",
+      "explain": "pro-（向前）+ duc（引导）+ e → produce“引出→产生”。同族 reduce（往回引→减少）、introduce（引入）、conduct（共同引导→实施）、deduce（向下引→推断）。",
+      "concepts": ["duc", "c-prefix", "c-word-family"]
+    },
+    {
+      "id": "w12d7-p6",
+      "kind": "mcq",
+      "prompt": "下面哪种做法最可能导致“记住了但不会用”？",
+      "choices": [
+        "把新词放进词族笔记并标注搭配",
+        "只记单词与中文释义的一一对应，不记语境",
+        "读完摘要后用自己的话复述结论",
+        "对推测结果标注置信度并回头查证"
+      ],
+      "answer": 1,
+      "explain": "只建立“形式—中文”的单线连接，缺少结构、语境与搭配三重编码，遇到新语境或需要输出时就无法调用。词族 + 搭配 + 复述是更可靠的编码方式。",
+      "concepts": ["c-inference", "c-register"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w12d7-a1",
+      "kind": "infer",
+      "prompt": "推测 counterintuitive 的含义",
+      "passage": "It may seem counterintuitive that adding a second sensor barely improves average accuracy yet greatly increases robustness: the extra sensor mainly helps in the rare cases where the first one fails.",
+      "word": "counterintuitive",
+      "choices": ["与直觉相反的", "符合直觉的", "可以量化的", "相互矛盾的"],
+      "answer": 0,
+      "strategy": "① 切分：counter（相反）+ intuit（直觉，拉丁 intueri“注视”）+ ive；② 词性：形容词作表语；③ 语境：may seem ... that 引出反常识现象——加传感器却不提升平均精度；④ 验证：冒号后解释“只在罕见失效时有用”，正是反直觉之处。",
+      "explain": "counter- 表“相反、对抗”（counterexample、counterpart），intuitive 是“直觉的”，所以 counterintuitive 指“看起来与直觉相反”。段落结构是关键：先给现象，再用冒号解释为什么直觉会出错。",
+      "concepts": ["c-inference", "counter", "c-register"]
+    },
+    {
+      "id": "w12d7-a2",
+      "kind": "infer",
+      "prompt": "推测 indistinguishable 的含义",
+      "passage": "At low resolution the two textures become indistinguishable: even an expert cannot tell which patch came from the real scene and which from the renderer.",
+      "word": "indistinguishable",
+      "choices": ["无法区分的", "明显不同的", "可以忽略的", "未被标注的"],
+      "answer": 0,
+      "strategy": "① 切分：in-（否定）+ dis-（分开）+ tingu（区分，拉丁 distinguere）+ -ish + -able；② 词性：形容词作表语；③ 语境：冒号后说“连专家也分不出哪块来自真实场景”，是定义性证据；④ 验证：与 tell which ... which 结构对应。",
+      "explain": "distinguish 是“区分”，加 -able 表“可被区分的”，再加否定前缀 in- 得“无法区分的”。双重前缀（in- + dis-）并不冲突：dis- 属于动词内部，in- 否定整个形容词。这是层级分析的直接应用。",
+      "concepts": ["c-inference", "dis", "c-affix"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "全书结构：词素—词缀—词根—构词—语域" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "四问流程与词族笔记方法" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5–6：形态学与语域" }
+  ]
+}

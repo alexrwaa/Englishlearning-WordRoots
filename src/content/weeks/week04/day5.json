@@ -1,0 +1,137 @@
+{
+  "id": "w04d5",
+  "week": 4,
+  "day": 5,
+  "title": "由后缀判词性：不认识词也能断句法",
+  "tagline": "用“词尾候选 + 句法位置裁决”两步法，给陌生词定性并猜出大意",
+  "objectives": [
+    "能把常见后缀按名词、形容词、动词、副词归类",
+    "能在没有词典的情况下，用句法位置判定一个陌生词的词性",
+    "能识别 -al、-ant、-ate、-ly、-ing 这些“一词多性”的后缀"
+  ],
+  "prereqs": ["w04d4"],
+  "concepts": ["c-suffix", "c-inference", "c-derivation", "c-base"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两步法：先看词尾，再看位置",
+      "body": "判断陌生词的词性，用两步，不要一步到位。\n\n**第一步看词尾**，得到一个候选集合：-tion、-ment、-ness、-ity、-ism、-ist、-ance、-ship 多半是名词；-able、-ive、-ous、-al、-ic、-ful、-less 多半是形容词；-ize、-ify、-en、-ate 可能是动词；-ly、-ward、-wise 可能是副词。\n\n**第二步看句法位置**，在候选里做最终裁决：冠词、形容词后面是名词；to 后面是动词原形；be 动词后面可能是形容词或名词；修饰动词的是副词。\n\n只做第一步会错在 friendly、arrival 这类词上；只做第二步则浪费了词尾提供的高效线索。两步合用，命中率才高。",
+      "terms": [
+        { "term": "part of speech", "zh": "词性", "en": "part of speech" },
+        { "term": "syntactic position", "zh": "句法位置", "en": "syntactic position" }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "后缀到词性的速查表",
+      "body": "这张表覆盖四六级与学术阅读里的绝大多数情况。使用时按“词尾先归类、位置再裁决”的顺序：例如 -ance 提示名词，但 performance 与 resistance 都要靠句法确认。还要注意：英语里没有专门标名词的“万能后缀”，-tion 虽高频却受词基限制，因此名词的判断比其他三类更依赖句法位置。",
+      "head": ["词性", "高频后缀", "例词"],
+      "rows": [
+        ["名词", "-tion/-sion, -ment, -ness, -ity, -ism, -ist, -ance/-ence, -ship, -hood, -age", "decision, movement, darkness, ability, realism, scientist, performance, friendship"],
+        ["形容词", "-able/-ible, -ive, -ous, -al, -ic, -ful, -less, -ary, -ant/-ent", "readable, active, dangerous, national, atomic, hopeful, hopeless, necessary, distant"],
+        ["动词", "-ize/-ise, -ify, -en, -ate", "standardize, simplify, widen, activate"],
+        ["副词", "-ly, -ward(s), -wise", "quickly, forward, clockwise"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四个“一词多性”的后缀",
+      "body": "有些后缀横跨两类词性，是判断失误的主要来源：\n\n1. **-al**：形容词（national）与名词（arrival、approval）都常见。\n2. **-ant / -ent**：形容词（distant、different）与名词（servant、student、assistant）都常见。\n3. **-ate**：动词（activate）、形容词（accurate、separate）、名词（candidate、graduate）三栖。\n4. **-ly**：副词（quickly）与形容词（friendly、daily）都常见。\n\n还有一个 **-ing**：动名词（Swimming is healthy）是名词，现在分词（a running engine）是形容词，进行体（is running）是动词的一部分。看到这五个形式，**必须靠位置裁决**，不能靠词尾。",
+      "morphemes": ["al", "ant", "ate", "ly", "ing"]
+    },
+    {
+      "kind": "text",
+      "title": "位置线索：五个高频槽位",
+      "body": "把句子想成槽位，词性由槽位决定：\n\n- **限定词 + ___ + 名词**：槽位是形容词（a **pertinacious** researcher）。\n- **限定词 + ___ + of**：槽位是名词（the **desiccation** of the samples）。\n- **to + ___**：槽位是动词原形（to **obfuscate** the issue）。\n- **be + ___**：槽位是形容词或名词（the link is **intermittent**）。\n- **动词 + ___**：若该词修饰动词，槽位是副词（moves **smoothly**）。\n\n这五条覆盖了学术句子里的大部分结构。真正做题时，先标出槽位，再看词尾，最后才想词义——顺序反了就会被“这个词好像见过”带偏。",
+      "morphemes": ["tion", "ous", "ly"]
+    },
+    {
+      "kind": "text",
+      "title": "用陌生词演练一次",
+      "body": "看这句：The committee remained **recalcitrant** despite three rounds of negotiation.\n\n第一步看词尾：-ant 可能是形容词或名词。第二步看位置：remained 是系动词，后面接表语，且没有冠词，因此是形容词。第三步看语境：despite three rounds of negotiation 暗示“不肯让步”，于是得到“顽固的、不服从的”。\n\n再看：The **lassitude** of the team was obvious after the night shift. -itude 是抽象名词后缀，位置在 the 与 of 之间，确定是名词；语境是夜班之后，指向“疲惫、倦怠”。\n\n**词尾给方向，位置给结论，语境给意义**——三步都不省。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w04d5-p1",
+      "kind": "mcq",
+      "prompt": "She was a pertinacious researcher who rarely abandoned a line of inquiry. 中 pertinacious 的词性是：",
+      "choices": ["名词", "形容词", "动词", "副词"],
+      "answer": 1,
+      "explain": "-ous 是典型的形容词后缀，且它位于 a 与 researcher 之间，正是定语槽位，因此是形容词，意为“坚持不懈的、固执的”。若它是名词，就不能直接修饰 researcher；若是副词，则不能出现在冠词与名词之间。",
+      "concepts": ["ous", "c-suffix", "c-inference"]
+    },
+    {
+      "id": "w04d5-p2",
+      "kind": "mcq",
+      "prompt": "The ___ of the samples took two hours in a vacuum oven. 空白处应填：",
+      "choices": ["desiccation", "desiccate", "desiccated", "desiccating"],
+      "answer": 0,
+      "explain": "槽位是 the ___ of the samples，需要名词，-tion 构成名词 desiccation“干燥处理”。desiccate 是动词，不能带 of 短语作主语中心词；desiccated 与 desiccating 是形容词或分词形式，需要另有中心名词。",
+      "concepts": ["tion", "c-suffix", "c-inference"]
+    },
+    {
+      "id": "w04d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个以 ob- 开头、以 -ate 结尾的动词",
+      "sentence": "The report seems designed to ___ the issue rather than clarify it: key assumptions are buried in footnotes.",
+      "answer": "obfuscate",
+      "accept": ["混淆", "使模糊"],
+      "explain": "to 后需要动词原形，-ate 提示拉丁动词；rather than clarify 提供反义对照，冒号后“关键假设被埋在脚注里”进一步说明是“有意使模糊”。obfuscate 意为“使混乱、使费解”，是学术评论里的高频词。",
+      "concepts": ["ate", "c-inference", "c-register"]
+    },
+    {
+      "id": "w04d5-p4",
+      "kind": "mcq",
+      "prompt": "They hold a weekly meeting. 中 weekly 的词性是：",
+      "choices": ["副词，修饰 hold", "形容词，修饰 meeting", "名词，作 hold 的宾语", "动词，与 hold 并列"],
+      "answer": 1,
+      "explain": "weekly 位于 a 与 meeting 之间，是定语槽位，因此是形容词“每周的”。虽然 -ly 常标副词，但 weekly、daily、monthly 由名词加 -ly 构成，是形容词。若要作副词，可说 They meet weekly，此时位置在句末修饰动词。",
+      "concepts": ["ly", "c-suffix", "c-inference"]
+    },
+    {
+      "id": "w04d5-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一组词都是名词？",
+      "choices": ["servant, assistant", "distant, different", "accurate, separate", "national, structural"],
+      "answer": 0,
+      "explain": "servant（仆人）、assistant（助手）虽以 -ant 结尾，但都是指人名词。distant、different 是形容词；accurate、separate 是形容词（separate 也可作动词）；national、structural 是 -al 形容词。这说明 -ant 与 -al 都不能单独定词性。",
+      "concepts": ["ant", "al", "c-suffix"]
+    },
+    {
+      "id": "w04d5-p6",
+      "kind": "mcq",
+      "prompt": "面对一个完全陌生的词，最可靠的词性判断顺序是：",
+      "choices": [
+        "先猜词义，再按词义定词性",
+        "先看词尾得到候选，再用句法位置裁决",
+        "先数音节，长词多为名词",
+        "先看首字母，拉丁字母开头多为形容词"
+      ],
+      "answer": 1,
+      "explain": "词尾提供高概率候选，句法位置提供决定性证据，两者结合最可靠。词义猜测应在词性确定之后进行，否则容易被“好像认识”误导；音节数与首字母与词性没有对应关系。",
+      "concepts": ["c-suffix", "c-inference"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w04d5-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的论文评述，推测划线词的含义",
+      "passage": "Rather than state the assumption directly, the paper resorts to circumlocution: three sentences circle the point without ever naming it.",
+      "word": "circumlocution",
+      "choices": ["绕圈子的表达方式", "精确的数学定义", "对文献的引用", "对结论的否定"],
+      "answer": 0,
+      "strategy": "① 切分：circum（环绕）+ locut（说，拉丁 loqui）+ ion（名词后缀）；② 词性：-tion 构成名词，作 resorts to 的宾语；③ 语境：冒号后说“三句话绕着要点转，却始终不点名”；④ 校验：精确、引用、否定都无法解释 circle the point。",
+      "explain": "circumlocution 意为“迂回的说法”。circum- 的“环绕”义在第 3 周学过，locut 与 loqui“说”相关（同族 elocution、colloquial）。这个词的构词义与语境义高度一致，属于透明度较高的学术词。",
+      "concepts": ["circum", "tion", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4 章：后缀与词性对应" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5：分布测试与词类判断" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "后缀分类总表" }
+  ]
+}

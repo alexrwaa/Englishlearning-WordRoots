@@ -1,0 +1,146 @@
+{
+  "id": "w11d3",
+  "week": 11,
+  "day": 3,
+  "title": "SLAM 与 localization：一个缩写，两个义项",
+  "tagline": "把 SLAM 拆到词素级别，并彻底分清 localization 的“定位”与“本地化”",
+  "objectives": [
+    "能把 SLAM 的四个词逐一拆解并说明各成分含义",
+    "能区分 localization 的“定位”与“本地化”两个义项及各自搭配",
+    "能用 loc 词族说明 locate 与 location 的派生关系",
+    "能在摘要语境中判断 localization 指的是哪一种意义"
+  ],
+  "prereqs": ["w11d2", "c-acronym", "c-suffix"],
+  "concepts": ["c-acronym", "c-scientific", "c-narrowing", "c-register", "c-inference"],
+  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 5 },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "SLAM：四个词，四层构词",
+      "body": "**SLAM** = Simultaneous Localization And Mapping。它是 acronym（按词读 /slæm/），不是逐字母念的 initialism。\n\n四个成分逐个拆：\n\n- **simultaneous**：拉丁 simul“同时”+ -taneous（形容词后缀），“同时发生的”。同族 simulate 表面相近，但那是 similis“相似”，别混。\n- **localization**：loc（地方）+ -al + -ize + -ation，“确定位置”。\n- **and**：连词，被压进缩写只为读得顺。\n- **mapping**：map + -ing，动名词，“建图”。\n\n注意缩写里保留了 and 的首字母，所以 SLAM 是四个字母而不是三个。这类“为可读性牺牲简洁”的缩写在工程界很常见（如 RANSAC 里的 and）。",
+      "morphemes": ["loc", "ize", "ation"],
+      "terms": [
+        { "term": "simultaneous localization and mapping", "zh": "同步定位与建图", "en": "SLAM" }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "loc：地方 → 定位 → 本地化",
+      "body": "**localization** 的词根是拉丁 **locus**“地方”，经 localis“属于某地的”进入英语。派生链是分层的：\n\nlocus → local（形容词）→ localize（动词，“使限于某地 / 确定位置”）→ localization（名词）。\n\n一个有意义的细节：动词 **locate** 其实是 18 世纪从 location 逆推出来的（back-formation，逆构词），历史上先有名词后有动词。这说明派生方向不一定和直觉一致——**不能假设动词总在名词之前**。\n\n-ize 是英语最能产的动词后缀之一（localize、standardize、optimize），-ation 再把动词名词化。这条 -ize → -ization 的链条在科研英语里出现频率极高：minimize → minimization、initialize → initialization。",
+      "steps": [
+        { "period": "拉丁", "form": "locus", "note": "地方、位置" },
+        { "period": "拉丁", "form": "localis", "note": "属于某地的" },
+        { "period": "英语", "form": "local / location", "note": "地方的；位置（名词先出现）" },
+        { "period": "英语 18–19 世纪", "form": "locate / localize", "note": "locate 由 location 逆构；localize 加 -ize" }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "localization 的两个义项：必须分开",
+      "body": "同一个拼写，两个专业义项，靠**对象**和**搭配**区分，不能靠词形。这是本周最重要的一个多义术语：读论文时判断错，整段理解都会跑偏。左边是机器人语境的“定位”，右边是软件语境的“本地化”；两列的判断依据完全不同，不能互相套用。\n\nEnglish gloss: *localization* (robotics) = estimating the pose of an agent relative to a map; *localization* (software) = adapting a product to a specific locale.",
+      "a": "定位（机器人 / 导航）",
+      "b": "本地化（软件 / 产品）",
+      "rows": [
+        ["定义", "在已知或正在构建的地图中确定自身位姿", "把产品改编以适应某地区语言与文化"],
+        ["对象", "机器人、相机、车辆、传感器", "软件界面、文档、网站、游戏"],
+        ["典型搭配", "localization error、global localization、relocalization、lidar localization", "software localization、localization team、translation and localization"],
+        ["学科来源", "估计理论、概率 Robotics", "翻译研究、国际商务"],
+        ["同族词倾向", "localize the robot in the map", "localize the interface into Chinese"],
+        ["误判后果", "把“定位精度”读成“翻译质量”", "把“本地化流程”读成“位置估计”"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "loc 词族：从“放置”到“分配”",
+      "body": "loc 的语义核心是“放置”，词族里的每个成员都能追溯到这一动作，只是专业化程度不同：\n\n- **local**：属于某地的 → 局部的（local feature、local minimum）\n- **locality**：地点、局部性（locality of reference）\n- **location**：位置\n- **locate**：定位、位于\n- **relocate**：重新安置（re- 再）\n- **allocate**：分配（ad- 向 + locare 放置，“把东西放到某人那里”）\n- **dislocate**：使脱位（dis- 离开）\n\nallocate 是个好例子：语义可追溯，但现代义“分配资源”已经专业化，不能简单读成“放过去”。词族提供的是**记忆锚点**，不是翻译公式。",
+      "morphemes": ["loc", "re", "ad", "dis"]
+    },
+    {
+      "kind": "passage",
+      "title": "摘要片段：localization 指哪一个？",
+      "body": "下面这段来自一篇室内导航论文的摘要。注意 localization 与 mapping 同时出现，以及 GPS-denied 这个高频搭配——它提示场景是“无卫星信号”，因此 localization 只能是“定位”。",
+      "excerpt": "Accurate localization in GPS-denied indoor environments remains challenging because LiDAR observations are sparse and repetitive. We propose a localization pipeline that matches scan descriptors against a prior map and recovers the full six-degree-of-freedom pose at 20 Hz. Unlike filter-based approaches, the method does not require an initial pose guess and remains stable when up to 60% of the scan is occluded.",
+      "glossZh": "在无 GPS 的室内环境中，精确定位仍然困难，因为激光雷达观测稀疏且重复。我们提出一条定位流水线：把扫描描述子与先验地图匹配，以 20 Hz 恢复完整的六自由度位姿。与基于滤波的方法不同，本方法不需要初始位姿猜测，并且在多达 60% 的扫描被遮挡时仍然稳定。",
+      "questions": [
+        { "q": "这段里的 localization 指什么？依据是什么？", "a": "指“定位”（确定位姿）。依据：与 GPS-denied、pose、initial pose guess 同现，讨论的是位置估计而不是语言改编。" },
+        { "q": "occluded 在此处的意思？", "a": "被遮挡的。oc-（朝向）+ clud（关闭）→“挡住”，指扫描中有部分区域被物体遮住而缺数据。" },
+        { "q": "为什么不需要 initial pose guess 是个优点？", "a": "全局定位场景（如开机、重定位）中真实初始位姿未知，需要人工给定会限制自动化；方法能自行收敛到正确位姿。" }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w11d3-p1",
+      "kind": "mcq",
+      "prompt": "SLAM 中 simultaneous 的词源成分是？",
+      "choices": ["simul（同时）", "similis（相似）", "simul 与 simulate 同源，均来自“相似”", "semi（一半）"],
+      "answer": 0,
+      "explain": "simultaneous 来自拉丁 simul“同时”+ -taneous。simulate 则来自 similis“相似”，两者拼写相近但不同源，属于典型的“形近不等于同源”。",
+      "concepts": ["c-etymology", "c-acronym"]
+    },
+    {
+      "id": "w11d3-p2",
+      "kind": "mcq",
+      "prompt": "下面哪一句中的 localization 指“软件本地化”？",
+      "choices": [
+        "The robot performs global localization after a kidnap event.",
+        "Localization error grows slowly as the scan rate drops.",
+        "The localization team translated the interface into eleven languages.",
+        "We evaluate localization accuracy against ground truth poses."
+      ],
+      "answer": 2,
+      "explain": "判断依据是对象与搭配：team、translated、interface 指向产品的语言文化改编。其余三句都出现 robot、scan、pose、ground truth，属于位置估计。",
+      "concepts": ["c-narrowing", "c-register", "c-inference"]
+    },
+    {
+      "id": "w11d3-p3",
+      "kind": "wordSum",
+      "prompt": "把词素拼成单词（名词，“定位/本地化”）",
+      "parts": ["loc", "al", "ize", "ation"],
+      "answer": "localization",
+      "explain": "loc（地方）+ al + ize + ation → localization。注意 -ize 前字母 l 已含在 al 中，拼写不重复；英式拼写 localization 与 localisation 都正确，同一产品内需统一。",
+      "concepts": ["loc", "ize", "ation", "c-spelling-rule"]
+    },
+    {
+      "id": "w11d3-p4",
+      "kind": "matrix",
+      "prompt": "用词基 loc 加前缀 re- 和后缀 -ate，写出“重新安置/重定位”",
+      "base": "loc",
+      "prefix": "re",
+      "suffix": "ate",
+      "answer": "relocate",
+      "explain": "re（再、回）+ loc（放置）+ ate（动词后缀）→ relocate。同族还有 relocate + -ion → relocation，指“重定位”或“搬迁”，具体义项仍由语境决定。",
+      "concepts": ["loc", "re", "c-prefix"]
+    },
+    {
+      "id": "w11d3-p5",
+      "kind": "cloze",
+      "prompt": "填入 loc 词族中表示“分配（资源）”的动词",
+      "sentence": "Before planning, the scheduler must ___ the remaining battery budget among the candidate goals.",
+      "answer": "allocate",
+      "accept": ["allocate"],
+      "explain": "allocate = ad-（向）+ locare（放置），“把资源放到某处”，故为“分配”。它与 locate 共享 loc，但前缀与专业化义不同；此处宾语是 budget，搭配 allocate ... among ... 是固定用法。",
+      "concepts": ["loc", "ad", "c-inference"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w11d3-a1",
+      "kind": "infer",
+      "prompt": "推测 disambiguated 在句中的含义",
+      "passage": "The two readings of localization are disambiguated by the object of the verb: when the object is a robot, a camera or a vehicle, the term refers to position estimation; when the object is an interface or a document, it refers to cultural and linguistic adaptation.",
+      "word": "disambiguated",
+      "choices": ["被区分、消除歧义", "被翻译成两种语言", "被错误使用", "被省略不谈"],
+      "answer": 0,
+      "strategy": "① 切分：dis-（去除）+ ambig（双、模糊，拉丁 ambigere）+ -u- + -ate + -ed；② 词性：被动过去分词，主语是两个读法；③ 语境：冒号后并列两种对象与两种解释，正是在“区分”；④ 验证：与 by the object 搭配，说明区分依据。",
+      "explain": "ambiguous 是“歧义的”，dis- 表示“去除”，所以 disambiguate = 消除歧义、加以区分。段落用冒号给出两条判定规则，正是消除歧义的动作。这类词在方法论部分很常见（disambiguate the correspondence）。",
+      "concepts": ["c-inference", "dis", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S5", "title": "Oxford English Dictionary / Online Etymology Dictionary", "detail": "locus、localize、locate（逆构）、simultaneous 的词源" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 8 章：-ize / -ation 派生链与拼写调整" },
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "逆构词与派生方向" }
+  ]
+}

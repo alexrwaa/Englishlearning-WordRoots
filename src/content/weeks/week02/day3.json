@@ -1,0 +1,146 @@
+{
+  "id": "w02d3",
+  "week": 2,
+  "day": 3,
+  "title": "拼写连接规则：接缝处发生了什么",
+  "tagline": "掌握去 e、y 变 i、辅音双写三条规则，从此不再把拼写变化当例外背",
+  "objectives": [
+    "能说出三条拼写规则的触发条件，并各举三个真实例词",
+    "能解释为什么 hope + ful 保留 e 而 make + ing 去掉 e",
+    "能判断一个陌生组合的拼写是否需要双写或改 y"
+  ],
+  "prereqs": ["w02d2", "c-word-sum"],
+  "concepts": ["c-spelling-rule", "c-word-sum", "c-morpheme", "c-allomorph"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "为什么拼写算式常常“算错”",
+      "body": "如果你把 happy + ness 直接连起来，会得到 happyness。但正确拼写是 happiness。这类差异不是记忆负担，而是三条可预测的规则：\n\n1. **去 e**：后缀以元音开头时，词基末尾不发音的 e 通常去掉。\n2. **y 变 i**：辅音 + y 结尾，且后缀不以 i 开头时，y 改为 i。\n3. **辅音双写**：重音落在末音节、且末音节是“辅音—元音—辅音”结构时，加元音开头的后缀要双写末辅音。\n\n共同逻辑只有一句：**英语在避免接缝处出现难读或违反拼读习惯的组合**。理解了这句，三条规则就不用死记。",
+      "terms": [
+        { "term": "orthographic rule", "zh": "拼写规则", "en": "orthographic rule" }
+      ],
+      "morphemes": ["happy", "ness", "make", "ing"]
+    },
+    {
+      "kind": "table",
+      "title": "规则一：去 e",
+      "body": "关键看后缀的第一个字母，而不是后缀长短。元音开头就去 e，辅音开头就保留。这条规则解释了大量看似不规则的拼写：同一个词基 make，加 -ing 去 e，加 -ful 却保留。先判断后缀首字母，再动手写。",
+      "head": ["组合", "结果", "说明"],
+      "rows": [
+        ["make + ing", "making", "后缀以元音 i 开头，去掉不发音的 e"],
+        ["create + ive", "creative", "后缀以元音 i 开头，去 e"],
+        ["write + er", "writer", "后缀以元音 e 开头，去 e"],
+        ["hope + ful", "hopeful", "后缀以辅音 f 开头，保留 e"],
+        ["care + less", "careless", "后缀以辅音 l 开头，保留 e"]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "规则二：y 变 i",
+      "body": "两个条件同时满足才变：词尾是“辅音字母 + y”，且后缀不以 i 开头。所以 -ing、-ish、-ist 前的 y 一律保留；元音 + y（play、enjoy）也一律保留。判断顺序是先看词尾、再看后缀首字母，两条都满足才动手改，否则很容易把 playing 写成 plaiing 这类不存在的形式。",
+      "head": ["组合", "结果", "说明"],
+      "rows": [
+        ["happy + ness", "happiness", "辅音 p + y，-ness 不以 i 开头 → y 变 i"],
+        ["carry + ed", "carried", "辅音 r + y，-ed 不以 i 开头 → y 变 i"],
+        ["easy + ly", "easily", "辅音 s + y，-ly 不以 i 开头 → y 变 i"],
+        ["carry + ing", "carrying", "-ing 以 i 开头 → y 保留"],
+        ["play + ed", "played", "元音 a + y → y 保留"]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "规则三：辅音双写",
+      "body": "这条规则的条件最容易被说漏。必须同时满足：末音节重读、末音节是“单元音 + 单辅音”结尾、后缀以元音开头。三个条件缺一不可，所以 visit 加 -ed 不双写（重音在第一音节），而 admit 要双写。",
+      "head": ["组合", "结果", "说明"],
+      "rows": [
+        ["run + ing", "running", "单音节重读，n 前是单元音 u，双写 n"],
+        ["big + er", "bigger", "单音节重读，g 前是单元音 i，双写 g"],
+        ["occur + ence", "occurrence", "重音在 -cur，双写 r"],
+        ["visit + ed", "visited", "重音在第一音节，不双写"],
+        ["offer + ed", "offered", "重音在第一音节，不双写"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "例外与方言：别把规则用成教条",
+      "body": "三条规则覆盖绝大多数情况，但每一条都有少量例外，值得单独记：\n\n- **去 e 的例外**：true + ly → truly，whole + ly → wholly，argue + ment → argument（后缀以辅音开头却仍去 e）。\n- **双写的方言差异**：英式英语中，即使重音不在末音节，词尾 l 也常双写：travel + ed → travelled、label + ed → labelled；美式则写作 traveled、labeled。两种都正确，同一篇文章内保持一致即可。\n\n处理例外的正确态度是：**规则给出默认值，例外单独登记**。不要因为遇到 truly 就放弃去 e 规则，也不要因为规则就去否定 travelled。",
+      "morphemes": ["true", "ly", "whole", "argue", "ment", "travel"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w02d3-p1",
+      "kind": "cloze",
+      "prompt": "填入 hope + ful 的正确拼写",
+      "sentence": "hope + ful → ___",
+      "answer": "hopeful",
+      "accept": ["hopeful"],
+      "explain": "-ful 以辅音 f 开头，所以词基末尾的 e 保留，写作 hopeful。对比 make + ing → making，那里后缀以元音开头，e 要去掉。",
+      "concepts": ["c-spelling-rule", "ful"]
+    },
+    {
+      "id": "w02d3-p2",
+      "kind": "wordSum",
+      "prompt": "写出 happy + ness 的正确拼写",
+      "parts": ["happy", "ness"],
+      "answer": "happiness",
+      "explain": "happy 以“辅音 p + y”结尾，-ness 不以 i 开头，因此 y 变 i：happiness。这是 y 变 i 规则最典型的例子。",
+      "concepts": ["c-spelling-rule", "ness"]
+    },
+    {
+      "id": "w02d3-p3",
+      "kind": "mcq",
+      "prompt": "下面哪个组合需要双写末尾的辅音字母？",
+      "choices": ["visit + ed", "occur + ence", "offer + ed", "open + ing"],
+      "answer": 1,
+      "explain": "occur 的重音在末音节 -cur，且末音节是“单元音 + 单辅音”，加元音开头的 -ence 时双写 r，得到 occurrence。visit、offer、open 的重音都在第一音节，不双写。",
+      "concepts": ["c-spelling-rule"],
+      "hint": "先标重音，再看末音节结构。"
+    },
+    {
+      "id": "w02d3-p4",
+      "kind": "cloze",
+      "prompt": "填入 make + ing 的正确拼写",
+      "sentence": "make + ing → ___",
+      "answer": "making",
+      "accept": ["making"],
+      "explain": "-ing 以元音 i 开头，词基 make 末尾不发音的 e 去掉，写作 making。若保留 e 会变成 makeing，违反英语的拼读习惯。",
+      "concepts": ["c-spelling-rule", "ing"]
+    },
+    {
+      "id": "w02d3-p5",
+      "kind": "mcq",
+      "prompt": "为什么 carry + ing 写作 carrying，而不是 carriing？",
+      "choices": [
+        "因为 -ing 以 i 开头，y 保留",
+        "因为 carry 是重读末音节",
+        "因为 r 需要双写",
+        "因为 -ing 是屈折后缀"
+      ],
+      "answer": 0,
+      "explain": "y 变 i 的条件之一是后缀不以 i 开头。-ing 以 i 开头，所以 y 保留，写作 carrying。这也解释了 study + ing → studying、try + ing → trying。",
+      "concepts": ["c-spelling-rule", "ing", "c-inflection"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w02d3-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的句子，推测划线词的含义",
+      "passage": "The reliability of the sensor readings depends on regular calibration, since even a small drift can shift the estimated position by several centimetres.",
+      "word": "reliability",
+      "choices": ["可靠性、结果的可信赖程度", "可读性、易读程度", "重复测量的次数", "校准设备的精度"],
+      "answer": 0,
+      "strategy": "①按层切：rely → reliable → reliability（-able 接 -ity 时整体变为 -ability）；②-ity 构成抽象名词，在句中作主语；③语境说读数依赖定期标定、微小漂移就会让位置偏移，指向“可信程度”；④排除“校准精度”，那是 calibration accuracy，虽相关但不是本词。",
+      "explain": "rely“依靠”→ reliable“可靠的”→ reliability“可靠性”。拼写上 y 先变 i，-able 再加 -ity 时形成 -ability。整句讨论的是读数在多大程度上可信。",
+      "concepts": ["able", "ity", "c-spelling-rule", "c-inference"]
+    }
+  ],
+  "sources": [
+    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "拼写连接规则：去 e、y→i、辅音双写" },
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4 章：词素相接处的正字法调整" },
+    { "id": "S5", "title": "Oxford English Dictionary", "detail": "travelled/traveled 的英式与美式拼写差异" }
+  ]
+}

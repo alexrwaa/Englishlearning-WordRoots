@@ -1,0 +1,136 @@
+{
+  "id": "w04d4",
+  "week": 4,
+  "day": 4,
+  "title": "副词后缀：-ly 及其同伙",
+  "tagline": "看穿 -ly 的两种身份，掌握 -ward、-wise，并记住 fast、hard 这类不带 -ly 的副词",
+  "objectives": [
+    "能判断一个 -ly 结尾词是副词还是形容词，并说明依据",
+    "能说出 hard 与 hardly、late 与 lately 的意义差别",
+    "能正确使用 -ward 表方向，并判断 -wise 的语域是否合适"
+  ],
+  "prereqs": ["w04d3"],
+  "concepts": ["c-suffix", "c-register", "c-semantic-shift"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "level": "B1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "-ly 是副词信号，但不是保证",
+      "body": "**-ly** 是最可靠的副词后缀：quick → quickly，careful → carefully，precise → precisely。它加在形容词后，表示“以……的方式”，修饰动词、形容词或整个句子。\n\n但它不是保证。英语里有一批 -ly 结尾的**形容词**：friendly（友好的）、costly（昂贵的）、lonely（孤独的）、lovely（可爱的）、daily（每日的）、scholarly（学术的）。它们来自名词加 -ly，而不是形容词加 -ly。\n\n判断方法很简单：看它修饰谁。修饰名词、能放在 a ___ person 里的，是形容词；修饰动词、能回答 how 的，是副词。He smiled friendly 之所以错，就是因为 friendly 不能修饰动词。",
+      "morphemes": ["ly"]
+    },
+    {
+      "kind": "table",
+      "title": "三个副词后缀",
+      "body": "英语的副词后缀不多，-ly 占绝对多数，-ward 与 -wise 各有专门功能。表中最后一列是判断依据，比死记词表更实用。-ward 几乎只与表移动的动词连用（move forward、look upward），-wise 则分具体方向（clockwise）与抽象视角（budget-wise）两类。三者的分工清楚，真正的难点其实在于 -ly 结尾的形容词。",
+      "head": ["后缀", "功能", "例词", "判断依据"],
+      "rows": [
+        ["-ly", "方式、程度", "quickly, carefully, precisely, smoothly", "修饰动词或形容词，回答 how"],
+        ["-ward(s)", "方向", "forward, backward, homeward, upward", "常与移动动词连用，回答 in which direction"],
+        ["-wise", "方式、视角", "clockwise, lengthwise, likewise, otherwise", "表“以……方式”或“就……而言”"]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "不带 -ly 的副词：flat adverbs",
+      "body": "英语里有些副词与形容词同形，称为**零派生副词**或 flat adverb：fast、hard、high、late、early、long、low、near、straight、wrong。\n\n所以是 drive fast（不是 fastly），work hard（不是 hardly），aim high，arrive late，stay long。这类词不需要加 -ly，加了反而错。\n\n更麻烦的是，**加了 -ly 之后意义会跑偏**：\n\n- hard 努力地 / hardly 几乎不\n- late 晚地 / lately 最近\n- high 高高地 / highly 非常\n- near 接近地 / nearly 几乎\n\n这四组是阅读中最容易读反的地方。看到 hardly 就译成“努力地”，整句意思会彻底相反。",
+      "terms": [
+        { "term": "flat adverb", "zh": "同形副词", "en": "flat adverb", "note": "与形容词同形、不加 -ly 的副词" }
+      ],
+      "morphemes": ["ly"]
+    },
+    {
+      "kind": "text",
+      "title": "-ward 与 -wise：方向与视角",
+      "body": "**-ward(s)** 表方向：forward（向前）、backward（向后）、homeward（向家）、upward（向上）、westward（向西）。英式英语更常用 -wards，美式多用 -ward，两者都可。注意 homeward 是“朝家的方向”，而 home 作副词时直接表示“到家”，如 go home，不加 -ward。\n\n**-wise** 有两个用法。一是具体的“以……方式”：clockwise（顺时针）、lengthwise（纵向地）、crosswise（交叉地）。二是抽象的“就……而言”：budget-wise、performance-wise、weather-wise。\n\n第二个用法在口语和商务英语里很常见，但在正式学术写作中通常被视为随意，建议改成 in terms of budget 或 regarding performance。**能不能用是语法问题，该不该用是语域问题**。",
+      "morphemes": ["ward", "wise"]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w04d4-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一句语法正确？",
+      "choices": [
+        "She greeted us friendly.",
+        "She gave us a friendly greeting.",
+        "She spoke to us friendly.",
+        "She welcomed us very friendly."
+      ],
+      "answer": 1,
+      "explain": "friendly 是形容词（friend + -ly），只能修饰名词，故 a friendly greeting 正确。其余三句都把它当副词修饰动词，属于典型错误。要表达“友好地”，可用 in a friendly way 或 warmly。",
+      "concepts": ["ly", "c-suffix"]
+    },
+    {
+      "id": "w04d4-p2",
+      "kind": "mcq",
+      "prompt": "I hardly recognised him. 这句话的意思是：",
+      "choices": ["我努力辨认他", "我几乎认不出他", "我很快就认出了他", "我勉强认出了他"],
+      "answer": 1,
+      "explain": "hardly 意为“几乎不”，不是 hard（努力地）的副词形式。整句是“我几乎认不出他”。若要表达“努力辨认”，应说 I tried hard to recognise him。hard 与 hardly 意义分道扬镳，是 flat adverb 里最容易读反的一组。",
+      "concepts": ["ly", "c-semantic-shift"],
+      "hint": "先想 hardly 的固定义，而不是从 hard 推。"
+    },
+    {
+      "id": "w04d4-p3",
+      "kind": "cloze",
+      "prompt": "把括号中的词变成合适的副词",
+      "sentence": "The robot moves ___ (smooth) across the uneven floor, keeping the camera level at all times.",
+      "answer": "smoothly",
+      "explain": "smooth 是形容词，加 -ly 构成 smoothly“平稳地”，修饰 moves。后半句“始终保持相机水平”正是“平稳移动”的具体表现。注意以 th 结尾的词直接加 -ly，拼写不变。",
+      "concepts": ["ly", "c-suffix"]
+    },
+    {
+      "id": "w04d4-p4",
+      "kind": "mcq",
+      "prompt": "下面哪个词在句中作副词时不需要加 -ly？",
+      "choices": ["quick", "fast", "careful", "precise"],
+      "answer": 1,
+      "explain": "fast 是典型的 flat adverb，形容词与副词同形：a fast car / drive fast，英语中没有 fastly。quick、careful、precise 都必须加 -ly 才能作副词（quickly、carefully、precisely）；口语里 drive quick 虽能听到，但标准书面语仍用 quickly。",
+      "concepts": ["ly", "c-conversion"]
+    },
+    {
+      "id": "w04d4-p5",
+      "kind": "wordSum",
+      "prompt": "写出构词算式的结果：happy + ly → ?（注意拼写）",
+      "parts": ["happy", "ly"],
+      "answer": "happily",
+      "explain": "happy 以“辅音字母 + y”结尾，加 -ly 时 y 变 i，写作 happily，不是 happyly。同类还有 easy → easily、busy → busily。这条 y→i 规则是第 6 天拼写专题的重点之一。",
+      "concepts": ["ly", "c-spelling-rule"]
+    },
+    {
+      "id": "w04d4-p6",
+      "kind": "mcq",
+      "prompt": "在一篇正式学术论文中，下面哪种表达最合适？",
+      "choices": [
+        "Performance-wise, the new model is better.",
+        "In terms of performance, the new model is better.",
+        "The new model is better performance-wise.",
+        "Weather-wise, the experiment went well."
+      ],
+      "answer": 1,
+      "explain": "performance-wise 属于口语化的“就……而言”，在正式写作中通常被认为随意；in terms of performance 是学术语域的常规表达。其余选项都用了 -wise 的口语用法，第三、第四句还带有搭配不当的问题。",
+      "concepts": ["wise", "c-register"]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w04d4-a1",
+      "kind": "infer",
+      "prompt": "阅读下面的装配说明，推测划线词的含义",
+      "passage": "The bracket must be mounted lengthwise along the rail, not across it, so that the load is distributed over the full span.",
+      "word": "lengthwise",
+      "choices": ["沿长度方向地", "横向地", "垂直地", "按比例地"],
+      "answer": 0,
+      "strategy": "① 切分：length（长度）+ wise（以……方式、方向）；② 词性：-wise 构成副词，修饰 mounted；③ 语境：not across it 提供反义对照，说明是“顺着轨道方向”而非横跨；④ 校验：后半句“载荷分布在整个跨度上”只有纵向安装才成立。",
+      "explain": "lengthwise 意为“沿长度方向地、纵向地”。-wise 在这里是具体的“以……方向”，与 clockwise（顺时针）同类，而不是口语化的“就……而言”。not across it 是最直接的语境线索。",
+      "concepts": ["wise", "c-inference", "c-scientific"]
+    }
+  ],
+  "sources": [
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4 章：副词后缀与零派生" },
+    { "id": "S4", "title": "New Word-Analysis", "detail": "-ly / -ward / -wise 词表" },
+    { "id": "S5", "title": "现代辞书与词源参考", "detail": "hard 与 hardly、late 与 lately 的释义分化" }
+  ]
+}
