@@ -1,12 +1,17 @@
 use rusqlite::params;
-use serde::Serialize;
-use std::sync::Mutex;
+use serde::{Deserialize, Serialize};
+use std::sync::atomic::{AtomicBool, Ordering};
+use std::sync::{Arc, Mutex};
 use tauri::State;
 
 use crate::db::{self, AttemptRow, BookmarkRow, CardRow, DailyStat, KindStat, LessonStateRow, NoteRow, ReviewRow};
 use crate::paths;
 
 pub struct Db(pub Mutex<rusqlite::Connection>);
+
+/// Set once the frontend has mounted and talked to us over IPC. The startup
+/// watchdog in `main.rs` uses it to tell "app is loading" from "app is broken".
+pub struct Ready(pub Arc<AtomicBool>);
 
 #[derive(Serialize)]
 #[serde(rename_all = "camelCase")]
@@ -18,6 +23,10 @@ pub struct AppInfo {
     version: String,
     schema_version: i32,
     portable: bool,
+    /// True when the harness asked the renderer to run its interaction self-test.
+    selftest: bool,
+    /// Browser arguments actually handed to WebView2 (proxy isolation proof).
+    webview_args: String,
 }
 
 fn s(p: std::path::PathBuf) -> String {
@@ -315,12 +324,197 @@ pub fn open_folder(which: String) -> Result<(), String> {
     Ok(())
 }
 
+/// Read a course file that ships next to the executable.
+///
+/// `name` comes from the webview, so it must never be able to escape
+/// `courses/`: reject absolute paths, parent segments and anything that is not a
+/// `.json` file, then compare the canonicalised path against the canonicalised
+/// root. Without this a malicious or buggy renderer could read arbitrary files on
+/// disk through our IPC surface.
 #[tauri::command]
 pub fn read_course_file(name: String) -> Result<String, String> {
-    // Course JSON shipped next to the executable can override the bundled copy.
-    let candidate = paths::courses_dir().join(&name);
-    if candidate.exists() {
-        return std::fs::read_to_string(candidate).map_err(|e| e.to_string());
+    let root = paths::courses_dir();
+    let root = root.canonicalize().map_err(|e| format!("courses dir unavailable: {e}"))?;
+
+    if name.trim().is_empty() || name.contains("..") || name.contains('\\') {
+        return Err("invalid course file name".into());
     }
-    Err("not found".into())
+    if !name.ends_with(".json") {
+        return Err("only .json course files can be read".into());
+    }
+
+    let candidate = root.join(&name);
+    let resolved = candidate
+        .canonicalize()
+        .map_err(|_| format!("course file not found: {name}"))?;
+    if !resolved.starts_with(&root) {
+        return Err("path escapes the courses directory".into());
+    }
+    std::fs::read_to_string(&resolved).map_err(|e| e.to_string())
+}
+
+#[derive(Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct CoursePack {
+    pub source: String,
+    pub content_version: String,
+    pub schema_version: i32,
+    pub week_count: usize,
+    pub day_count: usize,
+    pub weeks: Vec<serde_json::Value>,
+    pub lexicon: serde_json::Value,
+    pub problems: Vec<String>,
+}
+
+#[derive(Deserialize, Default)]
+#[serde(rename_all = "camelCase")]
+struct CourseManifest {
+    #[serde(default)]
+    content_version: String,
+    #[serde(default)]
+    schema_version: i32,
+}
+
+/// Load the course bundle that sits next to the executable.
+///
+/// The frontend keeps using its compiled-in copy unless this pack is complete and
+/// version-compatible, so a partially copied folder can never leave the app with
+/// missing lessons.
+#[tauri::command]
+pub fn load_course_pack() -> Result<CoursePack, String> {
+    let root = paths::courses_dir();
+    let mut problems: Vec<String> = Vec::new();
+
+    let manifest: CourseManifest = match std::fs::read_to_string(root.join("manifest.json")) {
+        Ok(text) => serde_json::from_str(&text).unwrap_or_else(|e| {
+            problems.push(format!("manifest.json 无法解析: {e}"));
+            CourseManifest::default()
+        }),
+        Err(_) => {
+            problems.push("courses/manifest.json 缺失".into());
+            CourseManifest::default()
+        }
+    };
+
+    let mut weeks = Vec::new();
+    let mut day_count = 0usize;
+    let weeks_dir = root.join("weeks");
+    if let Ok(entries) = std::fs::read_dir(&weeks_dir) {
+        let mut dirs: Vec<_> = entries.filter_map(|e| e.ok()).map(|e| e.path()).collect();
+        dirs.sort();
+        for week_dir in dirs {
+            if !week_dir.is_dir() {
+                continue;
+            }
+            let mut days: Vec<_> = match std::fs::read_dir(&week_dir) {
+                Ok(rd) => rd
+                    .filter_map(|e| e.ok())
+                    .map(|e| e.path())
+                    .filter(|p| p.extension().map(|x| x == "json").unwrap_or(false))
+                    .collect(),
+                Err(_) => continue,
+            };
+            days.sort();
+            let mut parsed_days = Vec::new();
+            for day in days {
+                match std::fs::read_to_string(&day).and_then(|t| {
+                    serde_json::from_str::<serde_json::Value>(&t).map_err(std::io::Error::other)
+                }) {
+                    Ok(v) => {
+                        if v.get("cards").and_then(|c| c.as_array()).map(|a| a.is_empty()).unwrap_or(true) {
+                            problems.push(format!(
+                                "{} 没有卡片",
+                                day.strip_prefix(&root).unwrap_or(&day).display()
+                            ));
+                        }
+                        parsed_days.push(v);
+                        day_count += 1;
+                    }
+                    Err(e) => problems.push(format!(
+                        "{} 解析失败: {e}",
+                        day.strip_prefix(&root).unwrap_or(&day).display()
+                    )),
+                }
+            }
+            if !parsed_days.is_empty() {
+                let meta = std::fs::read_to_string(week_dir.join("meta.json"))
+                    .ok()
+                    .and_then(|t| serde_json::from_str::<serde_json::Value>(&t).ok())
+                    .unwrap_or(serde_json::Value::Null);
+                weeks.push(serde_json::json!({ "meta": meta, "days": parsed_days }));
+            }
+        }
+    } else {
+        problems.push("courses/weeks 目录不存在".into());
+    }
+
+    let lex_dir = root.join("lexicon");
+    let read_list = |name: &str| -> serde_json::Value {
+        std::fs::read_to_string(lex_dir.join(name))
+            .ok()
+            .and_then(|t| serde_json::from_str(&t).ok())
+            .unwrap_or_else(|| serde_json::json!([]))
+    };
+    let lexicon = serde_json::json!({
+        "morphemes": read_list("morphemes.json"),
+        "words": read_list("words.json"),
+        "concepts": read_list("concepts.json"),
+    });
+
+    Ok(CoursePack {
+        source: if weeks.is_empty() { "none".into() } else { "external".into() },
+        content_version: manifest.content_version,
+        schema_version: manifest.schema_version,
+        week_count: weeks.len(),
+        day_count,
+        weeks,
+        lexicon,
+        problems,
+    })
+}
+
+#[tauri::command]
+pub fn app_diagnostics() -> serde_json::Value {
+    crate::diagnostics::snapshot()
+}
+
+/// Called once by the renderer after it has mounted. Proves the frontend really
+/// rendered (the JS executed and IPC works), which is what the packaging smoke
+/// test asserts — a database file alone would not prove that.
+#[tauri::command]
+pub fn frontend_ready(
+    state: State<'_, Ready>,
+    app: tauri::AppHandle,
+    payload: serde_json::Value,
+) -> Result<String, String> {
+    state.0.store(true, Ordering::SeqCst);
+    let dir = paths::log_dir();
+    std::fs::create_dir_all(&dir).map_err(|e| e.to_string())?;
+    let path = dir.join("frontend-ready.json");
+    let body = serde_json::json!({
+        "ready_at_ms": paths::now_ms(),
+        "app_version": app.package_info().version.to_string(),
+        "payload": payload,
+    });
+    std::fs::write(&path, serde_json::to_string_pretty(&body).map_err(|e| e.to_string())?)
+        .map_err(|e| e.to_string())?;
+
+    // The renderer also reports the result of its own interaction self-test when
+    // the harness asks for it (WORDROOTS_SELFTEST=1). Written to a separate file
+    // so the packaging check can assert real in-app interaction, not just paint.
+    if payload.get("phase").and_then(|p| p.as_str()) == Some("selftest") {
+        let test_path = dir.join("selftest.json");
+        std::fs::write(
+            &test_path,
+            serde_json::to_string_pretty(&body).map_err(|e| e.to_string())?,
+        )
+        .map_err(|e| e.to_string())?;
+    }
+
+    paths::log_line(&format!(
+        "frontend_ready: phase={} payload={}",
+        payload.get("phase").and_then(|p| p.as_str()).unwrap_or("mounted"),
+        payload
+    ));
+    Ok(path.to_string_lossy().to_string())
 }

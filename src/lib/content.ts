@@ -67,6 +67,165 @@ export const curriculum: Curriculum = { version: '1.0.0', weeks };
 
 export const lessons: Lesson[] = weeks.flatMap((w) => w.lessons).sort((a, b) => lessonIndex(a) - lessonIndex(b));
 
+/* ------------------------------------------------------------------------- *
+ * External course packs
+ *
+ * The build embeds the course JSON, so the app always has a complete, working
+ * curriculum. A folder next to the executable may carry a newer pack
+ * (`courses/`); it is used only when it is complete and schema-compatible, and
+ * the containers above are mutated in place so every existing consumer keeps
+ * working without a reload.
+ * ------------------------------------------------------------------------- */
+
+export interface CoursePackWeek {
+  meta?: { week?: number; theme?: string; intro?: string } | null;
+  days: Lesson[];
+}
+
+export interface CoursePack {
+  source: string;
+  contentVersion: string;
+  schemaVersion: number;
+  weekCount: number;
+  dayCount: number;
+  weeks: CoursePackWeek[];
+  lexicon: {
+    morphemes?: Morpheme[];
+    words?: WordEntry[];
+    concepts?: Concept[];
+  };
+  problems: string[];
+}
+
+export type ContentSource = 'embedded' | 'external';
+
+export interface ContentStatus {
+  source: ContentSource;
+  contentVersion: string;
+  reason?: string;
+  problems: string[];
+}
+
+const EMBEDDED_DAYS = lessons.length;
+const EMBEDDED_WEEKS = weeks.length;
+export const CONTENT_SCHEMA_VERSION = 1;
+
+const status: ContentStatus = { source: 'embedded', contentVersion: 'embedded', problems: [] };
+
+export function contentStatus(): ContentStatus {
+  return status;
+}
+
+function rebuildIndexes() {
+  lessonById.clear();
+  for (const l of lessons) lessonById.set(l.id, l);
+
+  morphemeByForm.clear();
+  for (const m of morphemes) {
+    morphemeByForm.set(stripDashes(m.form), m);
+    for (const alt of m.allomorphs ?? []) morphemeByForm.set(stripDashes(alt), m);
+  }
+
+  wordBySpelling.clear();
+  for (const w of words) wordBySpelling.set(w.w.toLowerCase(), w);
+
+  conceptById.clear();
+  for (const c of concepts) conceptById.set(c.id, c);
+}
+
+function replaceArray<T>(target: T[], next: T[]) {
+  target.length = 0;
+  target.push(...next);
+}
+
+interface PackCheck {
+  ok: boolean;
+  reason?: string;
+}
+
+/** A pack is usable only when it is complete and matches the schema we parse. */
+export function checkCoursePack(pack: CoursePack | null | undefined): PackCheck {
+  if (!pack || pack.source !== 'external') return { ok: false, reason: '没有可用的外部课程包' };
+  if (pack.schemaVersion !== CONTENT_SCHEMA_VERSION) {
+    return { ok: false, reason: `课程包 schema v${pack.schemaVersion}，本程序只支持 v${CONTENT_SCHEMA_VERSION}` };
+  }
+  if (pack.problems?.length) return { ok: false, reason: `课程包存在问题：${pack.problems[0]}` };
+  if (pack.weekCount < EMBEDDED_WEEKS) {
+    return { ok: false, reason: `课程包只有 ${pack.weekCount} 周，少于内置的 ${EMBEDDED_WEEKS} 周` };
+  }
+  if (pack.dayCount < EMBEDDED_DAYS) {
+    return { ok: false, reason: `课程包只有 ${pack.dayCount} 天，少于内置的 ${EMBEDDED_DAYS} 天` };
+  }
+  const ids = new Set<string>();
+  for (const [i, week] of pack.weeks.entries()) {
+    if (!Array.isArray(week.days) || week.days.length === 0) {
+      return { ok: false, reason: `第 ${i + 1} 周没有课程` };
+    }
+    for (const day of week.days) {
+      if (!day?.id || !Array.isArray(day.cards) || day.cards.length === 0) {
+        return { ok: false, reason: `第 ${i + 1} 周存在缺少卡片或 id 的课程` };
+      }
+      if (ids.has(day.id)) return { ok: false, reason: `课程 id 重复：${day.id}` };
+      ids.add(day.id);
+    }
+  }
+  return { ok: true };
+}
+
+/**
+ * Swap the in-memory curriculum for an external pack.
+ * Returns false (and changes nothing) when the pack is not usable.
+ */
+export function applyCoursePack(pack: CoursePack | null | undefined): boolean {
+  const check = checkCoursePack(pack);
+  if (!check.ok || !pack) {
+    status.reason = check.reason;
+    return false;
+  }
+
+  const nextWeeks: Week[] = pack.weeks.map((w, i) => ({
+    week: w.meta?.week ?? i + 1,
+    theme: w.meta?.theme ?? w.days[0]?.title ?? `第 ${i + 1} 周`,
+    intro: w.meta?.intro ?? w.days[0]?.objectives?.[0] ?? '',
+    lessons: [...w.days].sort((a, b) => a.day - b.day),
+  }));
+  const nextLessons = nextWeeks
+    .flatMap((w) => w.lessons)
+    .sort((a, b) => lessonIndex(a) - lessonIndex(b));
+
+  replaceArray(weeks, nextWeeks);
+  replaceArray(lessons, nextLessons);
+  curriculum.weeks = weeks;
+
+  const lex = pack.lexicon ?? {};
+  if (Array.isArray(lex.morphemes) && lex.morphemes.length > 0) replaceArray(morphemes, lex.morphemes);
+  if (Array.isArray(lex.words) && lex.words.length > 0) replaceArray(words, lex.words);
+  if (Array.isArray(lex.concepts) && lex.concepts.length > 0) replaceArray(concepts, lex.concepts);
+
+  rebuildIndexes();
+  status.source = 'external';
+  status.contentVersion = pack.contentVersion || `external-${pack.dayCount}`;
+  status.reason = undefined;
+  status.problems = pack.problems ?? [];
+  return true;
+}
+
+/**
+ * Ask the desktop shell for a course pack next to the executable and apply it.
+ * Always resolves: content problems must never stop the app from opening.
+ */
+export async function initContent(loader?: () => Promise<CoursePack | null>): Promise<ContentStatus> {
+  if (!loader) return status;
+  try {
+    const pack = await loader();
+    if (pack) applyCoursePack(pack);
+    if (!status.reason) status.reason = checkCoursePack(pack).reason;
+  } catch (err) {
+    status.reason = `读取外部课程失败：${(err as Error).message}`;
+  }
+  return status;
+}
+
 export function lessonIndex(l: { week: number; day: number }): number {
   return (l.week - 1) * 7 + (l.day - 1);
 }

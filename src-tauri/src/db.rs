@@ -5,7 +5,7 @@ use std::path::Path;
 
 use crate::paths;
 
-pub const SCHEMA_VERSION: i32 = 1;
+pub const SCHEMA_VERSION: i32 = 2;
 
 const MIGRATION_V1: &str = r#"
 CREATE TABLE IF NOT EXISTS meta (
@@ -84,6 +84,49 @@ CREATE INDEX IF NOT EXISTS idx_card_due ON card(due);
 CREATE INDEX IF NOT EXISTS idx_note_target ON note(target_type, target_id);
 "#;
 
+
+/// v2: add the bits needed for honest timing and for future content updates.
+/// Everything is additive, so a v1 database keeps all of its rows.
+const MIGRATION_V2: &str = r#"
+ALTER TABLE lesson_state ADD COLUMN last_seen_at INTEGER;
+CREATE INDEX IF NOT EXISTS idx_attempt_ts ON attempt(ts);
+CREATE INDEX IF NOT EXISTS idx_review_card_ts ON review(card_id, ts);
+CREATE INDEX IF NOT EXISTS idx_note_target ON note(target_type, target_id);
+"#;
+
+/// Apply every migration the database is missing. Kept separate from `open()` so
+/// it can be tested against an in-memory database at any starting version.
+pub fn migrate(conn: &mut Connection) -> Result<(), String> {
+    let mut version = read_version(conn)?;
+
+    if version < 1 {
+        conn.execute_batch(MIGRATION_V1).map_err(|e| e.to_string())?;
+        conn.execute(
+            "INSERT INTO meta(key, value) VALUES('schema_version', '1')
+             ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+            [],
+        )
+        .map_err(|e| e.to_string())?;
+        version = 1;
+    }
+
+    if version < 2 {
+        conn.execute_batch(MIGRATION_V2).map_err(|e| e.to_string())?;
+        conn.execute(
+            "INSERT INTO meta(key, value) VALUES('schema_version', '2')
+             ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+            [],
+        )
+        .map_err(|e| e.to_string())?;
+        version = 2;
+    }
+
+    paths::log_line(&format!(
+        "schema at v{version} (target v{SCHEMA_VERSION})"
+    ));
+    Ok(())
+}
+
 pub fn open() -> Result<Connection, String> {
     let path = paths::db_path();
     if let Some(parent) = path.parent() {
@@ -101,22 +144,19 @@ pub fn open() -> Result<Connection, String> {
     if version < SCHEMA_VERSION {
         if existed_with_data && version > 0 {
             // Never migrate without a restore point.
-            let _ = backup(&format!("pre-migration-v{version}"));
+            if let Ok(path) = backup(&format!("pre-migration-v{version}")) {
+                paths::log_line(&format!("pre-migration backup: {path}"));
+            }
         }
-        conn.execute_batch(MIGRATION_V1).map_err(|e| e.to_string())?;
-        conn.execute(
-            "INSERT INTO meta(key, value) VALUES('schema_version', ?1)
-             ON CONFLICT(key) DO UPDATE SET value = excluded.value",
-            params![SCHEMA_VERSION.to_string()],
-        )
-        .map_err(|e| e.to_string())?;
+        let mut conn = conn;
+        migrate(&mut conn)?;
         conn.execute(
             "INSERT INTO meta(key, value) VALUES('created_at', ?1)
              ON CONFLICT(key) DO NOTHING",
             params![paths::now_ms().to_string()],
         )
         .map_err(|e| e.to_string())?;
-        paths::log_line(&format!("schema migrated to v{SCHEMA_VERSION}"));
+        return Ok(conn);
     }
     Ok(conn)
 }
@@ -332,7 +372,7 @@ pub fn daily_stats(conn: &Connection) -> Result<Vec<DailyStat>, String> {
         .prepare(
             "WITH days AS (
                SELECT date(ts/1000, 'unixepoch', 'localtime') AS d,
-                      SUM(COALESCE(elapsed_ms,0))/60000.0 AS m
+                      SUM(COALESCE(duration_ms,0))/60000.0 AS m
                FROM attempt GROUP BY d
              ),
              rev AS (
@@ -389,7 +429,7 @@ pub fn totals(conn: &Connection) -> Result<Totals, String> {
         .unwrap_or(0);
     let total_minutes: f64 = conn
         .query_row(
-            "SELECT COALESCE(SUM(elapsed_ms),0)/60000.0 FROM attempt",
+            "SELECT COALESCE(SUM(duration_ms),0)/60000.0 FROM attempt",
             [],
             |r| r.get(0),
         )
@@ -609,4 +649,123 @@ pub fn import_snapshot(conn: &mut Connection, json: &str) -> Result<(), String> 
     }
     tx.commit().map_err(|e| e.to_string())?;
     Ok(())
+}
+
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn v1_only() -> Connection {
+        let conn = Connection::open_in_memory().unwrap();
+        conn.execute_batch(MIGRATION_V1).unwrap();
+        conn.execute(
+            "INSERT INTO meta(key, value) VALUES('schema_version','1')",
+            [],
+        )
+        .unwrap();
+        conn
+    }
+
+    #[test]
+    fn migrates_v1_to_v2_without_losing_rows() {
+        let mut conn = v1_only();
+        conn.execute(
+            "INSERT INTO lesson_state(lesson_id, status, elapsed_ms) VALUES('w01d1','completed',12345)",
+            [],
+        )
+        .unwrap();
+        conn.execute(
+            "INSERT INTO settings(key, value) VALUES('dailyMinutes','30')",
+            [],
+        )
+        .unwrap();
+        conn.execute(
+            "INSERT INTO attempt(lesson_id, exercise_id, kind, correct, ts, duration_ms) VALUES('w01d1','e1','mcq',1,1700000000000,4200)",
+            [],
+        )
+        .unwrap();
+
+        migrate(&mut conn).unwrap();
+
+        assert_eq!(read_version(&conn).unwrap(), 2);
+        let elapsed: i64 = conn
+            .query_row("SELECT elapsed_ms FROM lesson_state WHERE lesson_id='w01d1'", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(elapsed, 12345);
+        let dur: i64 = conn
+            .query_row("SELECT duration_ms FROM attempt WHERE exercise_id='e1'", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(dur, 4200);
+        let setting: String = conn
+            .query_row("SELECT value FROM settings WHERE key='dailyMinutes'", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(setting, "30");
+
+        // The new column must exist and default to NULL.
+        let seen: Option<i64> = conn
+            .query_row("SELECT last_seen_at FROM lesson_state WHERE lesson_id='w01d1'", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(seen, None);
+
+        // Indexes from v2 are present.
+        let idx: i64 = conn
+            .query_row(
+                "SELECT count(*) FROM sqlite_master WHERE type='index' AND name IN ('idx_attempt_ts','idx_review_card_ts','idx_note_target')",
+                [],
+                |r| r.get(0),
+            )
+            .unwrap();
+        assert_eq!(idx, 3);
+    }
+
+    #[test]
+    fn totals_and_daily_stats_use_attempt_duration() {
+        // Regression: the SQL used to read `attempt.elapsed_ms`, a column that
+        // does not exist there (it belongs to lesson_state/review). SQLite failed
+        // silently behind unwrap_or(0), so every build reported 0 minutes.
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        let now = paths::now_ms() as i64;
+        conn.execute(
+            "INSERT INTO attempt(lesson_id, exercise_id, kind, correct, ts, duration_ms) VALUES('w01d1','e1','mcq',1,?1,90000)",
+            params![now],
+        )
+        .unwrap();
+        conn.execute(
+            "INSERT INTO attempt(lesson_id, exercise_id, kind, correct, ts, duration_ms) VALUES('w01d1','e2','cloze',0,?1,30000)",
+            params![now],
+        )
+        .unwrap();
+        conn.execute(
+            "INSERT INTO review(card_id, rating, ts, correct, phase, elapsed_ms) VALUES('c1',3,?1,1,'review',5000)",
+            params![now],
+        )
+        .unwrap();
+
+        let totals = totals(&conn).unwrap();
+        assert!(totals.minutes >= 1.9 && totals.minutes <= 2.1, "minutes={}", totals.minutes);
+        assert_eq!(totals.attempts, 2);
+        assert_eq!(totals.reviews, 1);
+
+        let daily = daily_stats(&conn).unwrap();
+        assert_eq!(daily.len(), 1);
+        assert!(daily[0].minutes >= 1.9 && daily[0].minutes <= 2.1, "daily={}", daily[0].minutes);
+        assert_eq!(daily[0].reviews, 1);
+    }
+
+    #[test]
+    fn migration_is_idempotent() {
+        let mut conn = v1_only();
+        migrate(&mut conn).unwrap();
+        migrate(&mut conn).unwrap();
+        assert_eq!(read_version(&conn).unwrap(), 2);
+    }
+
+    #[test]
+    fn fresh_database_lands_on_latest_version() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        assert_eq!(read_version(&conn).unwrap(), SCHEMA_VERSION);
+    }
 }

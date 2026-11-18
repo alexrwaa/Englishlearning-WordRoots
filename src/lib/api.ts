@@ -203,6 +203,20 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
   }
 }
 
+/**
+ * Course pack shipped next to the executable (desktop only). Returns null in the
+ * browser preview and whenever the desktop shell cannot read the folder — the
+ * app then keeps its built-in curriculum.
+ */
+export async function loadCoursePack(): Promise<import('./content').CoursePack | null> {
+  if (!IS_TAURI) return null;
+  try {
+    return await call<import('./content').CoursePack>('load_course_pack');
+  } catch {
+    return null;
+  }
+}
+
 export async function call<T>(cmd: string, args: Record<string, unknown> = {}): Promise<T> {
   if (!IS_TAURI) return webCall<T>(cmd, args);
   const invoke = await getInvoke();
