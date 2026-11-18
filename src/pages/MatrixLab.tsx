@@ -295,6 +295,16 @@ export default function MatrixLab() {
             </p>
           ) : null}
 
+          {selection ? (
+            <CellSummary
+              word={selection.word}
+              affix={selection.affix}
+              kind={selection.kind}
+              verdict={selection.verdict}
+              glossZh={getWord(selection.verdict.word)?.glossZh}
+            />
+          ) : null}
+
           {rows.length === 0 ? (
             <EmptyState
               title="当前筛选下没有组合"
@@ -308,16 +318,6 @@ export default function MatrixLab() {
               onSelect={pickCell}
             />
           )}
-
-          {selection ? (
-            <CellSummary
-              word={selection.word}
-              affix={selection.affix}
-              kind={selection.kind}
-              verdict={selection.verdict}
-              glossZh={getWord(selection.verdict.word)?.glossZh}
-            />
-          ) : null}
         </Panel>
       </div>
 

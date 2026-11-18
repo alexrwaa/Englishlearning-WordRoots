@@ -3,15 +3,18 @@
 > 像理解汉字的字源一样，理解英语单词为什么这样构成。
 
 WordRoots 是一个**离线优先的 Windows 桌面学习工具**，把英语构词学（morphology）、词源学
-（etymology）、结构化词汇探究（Structured Word Inquiry）和词汇语义学组织成 12 周、每天 25 分钟的
-课程，并用 FSRS 间隔重复分别追踪"记忆"与"迁移推理"两种能力。
+（etymology）、结构化词汇探究（Structured Word Inquiry）和词汇语义学组织成每天 25 分钟的课程，
+并用 FSRS 间隔重复分别追踪"记忆"与"迁移推理"两种能力。
+
+知识库（667 个词素 / 673 个词条）按教材清单构建，课程只是它的教学顺序；两者都有可复核的
+覆盖率报告，见 [`docs/TEXTBOOK_COVERAGE.md`](docs/TEXTBOOK_COVERAGE.md)。
 
 不是背单词软件：它教的是**拆词、猜词、解释词**的方法。
 
 ## 下载
 
 **[下载最新便携版](https://github.com/alexrwaa/Englishlearning-WordRoots/releases/latest)** ·
-`WordRoots-Portable-Windows-x64.zip`（约 2 MB，v0.1.0）
+`WordRoots-Portable-Windows-x64.zip`（约 3 MB，v0.3.0）
 
 解压到任意目录（支持中文与空格路径），双击 `WordRoots.exe` 即可。无需安装、无需联网、无需 Node/Rust 环境。
 同一 Release 附带 `WordRoots-SHA256.txt` 用于校验。
@@ -102,6 +105,10 @@ CI 负责类型检查、ESLint、单元测试、课程内容校验与无占位�
 | 11 | 技术术语、现代新词与词义推断 |
 | 12 | 综合构词分析与科研英语阅读 |
 
+现有 12 周（84 天）在 [`docs/COURSE_PLAN.md`](docs/COURSE_PLAN.md) 中定位为**第一阶段：构词学基础**；
+其余阶段（拼写与形态 / 拉丁 / 希腊 / 词义演变 / 用法与变体 / 历史与借词 / 科技与综合）按教材章节排定，
+尚未全部写成课时，覆盖进度以 `docs/TEXTBOOK_COVERAGE.md` 为准。
+
 课程内容格式见 [`docs/CONTENT_SCHEMA.md`](docs/CONTENT_SCHEMA.md)。
 
 ## 课程来源与许可证
@@ -123,7 +130,9 @@ CI 负责类型检查、ESLint、单元测试、课程内容校验与无占位�
 
 ## 验证状态
 
-- CI：类型检查、ESLint、37 个单元测试、课程 JSON 校验、无占位页检查、生产构建全部通过。
+- CI：类型检查、ESLint、128 个单元测试、课程 JSON 校验、无占位页检查、生产构建全部通过。
+- 教材覆盖率：`npx tsx scripts/coverage.ts` 现算 —— 550 个构词成分 100% 进入词素库，
+  87 个（16%）已有课程讲解；283 个知识点中 71 个（25%）已映射到课时。
 - Windows 构建：GitHub Actions 上 14 步全绿，包含**真实启动冒烟测试**（在含空格与中文的临时目录里
   启动 EXE，确认数据库与日志落在程序目录内、重启后仍在）。
 - 本机实测：从 Release 下载 ZIP，在 `…\便携 测试\` 路径启动成功；复制整个文件夹到新路径后学习记录完整保留，
