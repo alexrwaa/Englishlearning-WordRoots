@@ -489,6 +489,9 @@ function Invoke-DiagnoseCase {
     $proc = Start-Process -FilePath $exe -ArgumentList '--diagnose' -WorkingDirectory $appDir -PassThru `
       -RedirectStandardError $diagErr
     [void]$proc.WaitForExit(30000)
+    # The CLI path writes synchronously, but antivirus and NTFS metadata can add
+    # a beat; give it a moment before concluding the file is absent.
+    Start-Sleep -Milliseconds 800
 
     $snapshotPath = Join-Path $appDir 'app-data/logs/startup-cli.json'
     $verdict = 'FAIL'

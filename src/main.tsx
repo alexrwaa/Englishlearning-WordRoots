@@ -16,10 +16,27 @@ import { maybeRunSelftest } from './lib/selftest';
  *
  * Reporting must never break the UI, so every failure is a single console line.
  */
+/** Resolve once the shell has painted something a human could see (or give up). */
+function whenPainted(maxWaitMs = 5000): Promise<void> {
+  return new Promise((resolve) => {
+    const deadline = Date.now() + maxWaitMs;
+    const check = () => {
+      const hasNav = document.querySelector('a.nav-item') !== null;
+      const hasText = (document.body.innerText || '').trim().length > 50;
+      if ((hasNav && hasText) || Date.now() >= deadline) {
+        resolve();
+        return;
+      }
+      setTimeout(check, 100);
+    };
+    requestAnimationFrame(check);
+  });
+}
+
 function reportMounted() {
   if (!IS_TAURI) return;
   const status = contentStatus();
-  requestAnimationFrame(() => {
+  void whenPainted().then(() => {
     void (async () => {
       try {
         const invoke = await getInvoke();
@@ -33,6 +50,7 @@ function reportMounted() {
             viewport: `${window.innerWidth}x${window.innerHeight}`,
             contentSource: status.source,
             contentVersion: status.contentVersion,
+            contentReason: status.reason ?? null,
             ts: Date.now(),
           },
         });
@@ -66,7 +84,7 @@ function mount() {
 }
 
 /** Never let a content upgrade delay the first paint for more than this. */
-const CONTENT_LOAD_TIMEOUT_MS = 2500;
+const CONTENT_LOAD_TIMEOUT_MS = 8000;
 
 function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T | null> {
   return new Promise((resolve) => {
