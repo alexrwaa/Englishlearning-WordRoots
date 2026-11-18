@@ -23,6 +23,10 @@
     "c-word-family",
     "c-combining"
   ],
+  "knowledgePoints": [
+    "kp-s1c3s21-1",
+    "kp-s1c2s10-4"
+  ],
   "minutes": {
     "review": 6,
     "learn": 8,

@@ -20,6 +20,11 @@
     "c-semantic-shift",
     "c-prefix"
   ],
+  "knowledgePoints": [
+    "kp-s1c4s8-1",
+    "kp-s1c3s7-1",
+    "kp-s1c3s1-4"
+  ],
   "minutes": {
     "review": 5,
     "learn": 8,

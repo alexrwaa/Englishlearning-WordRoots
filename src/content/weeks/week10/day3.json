@@ -9,9 +9,25 @@
     "能用“是否跨域”这一判据区分隐喻与转喻",
     "能解释学术文本中“作品代作者”“机构代人员”的转喻用法"
   ],
-  "prereqs": ["w10d2"],
-  "concepts": ["c-metonymy", "c-metaphor", "c-semantic-shift"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w10d2"
+  ],
+  "concepts": [
+    "c-metonymy",
+    "c-metaphor",
+    "c-semantic-shift"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s11-1",
+    "kp-s1c7s11-2",
+    "kp-s1c7s12-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B2",
   "cards": [
     {
@@ -19,21 +35,53 @@
       "title": "转喻靠的是“挨着”，不是“像”",
       "body": "隐喻靠**相似**：把 A 看成 B（时间是河流）。转喻靠**邻近**：用与 B 挨着的 A 来指 B。\n\n- *The kettle is boiling.* —— 壶（容器）代壶里的水（内容）\n- *The factory hired fifty hands.* —— 手（部分）代工人（整体）\n- *The White House denied the report.* —— 地点（机构所在地）代机构\n- *I'm reading Shakespeare.* —— 作者代作品\n\n转喻不制造新意象，它只是**换一个更突显、更好指认的角度**。壶在炉子上，看得见；水在壶里，看不见——所以用壶指水。突显性是转喻的驱动力。",
       "terms": [
-        { "term": "metonymy", "zh": "转喻", "en": "metonymy" },
-        { "term": "contiguity", "zh": "邻近关系", "en": "contiguity" }
+        {
+          "term": "metonymy",
+          "zh": "转喻",
+          "en": "metonymy"
+        },
+        {
+          "term": "contiguity",
+          "zh": "邻近关系",
+          "en": "contiguity"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "五类邻近关系：认出类型就会解释",
       "body": "转喻的类型有限，记住这五类，大多数用法都能归类。归类之后，你就能说清“为什么用这个指那个”，而不是死记一条搭配；遇到没见过的说法，也能先判断它属于哪一种邻近关系。",
-      "head": ["类型", "用……指……", "例子"],
+      "head": [
+        "类型",
+        "用……指……",
+        "例子"
+      ],
       "rows": [
-        ["部分代整体（提喻）", "部件 → 整体", "hands（工人）、wheels（汽车）、a new face（新人）"],
-        ["容器代内容", "容器 → 内容", "the kettle boiled、the bottle is empty、the room fell silent"],
-        ["地点代机构", "地点 → 机构", "Wall Street、the White House、Beijing（中国政府）"],
-        ["作者代作品", "作者 → 作品", "reading Shakespeare、a Picasso、cited Smith (2020)"],
-        ["机构代人员", "机构 → 决策者", "the university decided、the company announced"]
+        [
+          "部分代整体（提喻）",
+          "部件 → 整体",
+          "hands（工人）、wheels（汽车）、a new face（新人）"
+        ],
+        [
+          "容器代内容",
+          "容器 → 内容",
+          "the kettle boiled、the bottle is empty、the room fell silent"
+        ],
+        [
+          "地点代机构",
+          "地点 → 机构",
+          "Wall Street、the White House、Beijing（中国政府）"
+        ],
+        [
+          "作者代作品",
+          "作者 → 作品",
+          "reading Shakespeare、a Picasso、cited Smith (2020)"
+        ],
+        [
+          "机构代人员",
+          "机构 → 决策者",
+          "the university decided、the company announced"
+        ]
       ]
     },
     {
@@ -43,11 +91,31 @@
       "a": "隐喻 metaphor",
       "b": "转喻 metonymy",
       "rows": [
-        ["第一步：是否跨域", "跨域：用具体域讲抽象域", "同域：两个事物本就相邻"],
-        ["第二步：能否改写为“像”", "能：A 像 B", "不能：A 指 B，A 与 B 挨着"],
-        ["例子", "时间就是金钱", "壶开了（壶指水）"],
-        ["翻译策略", "常需换意象，直译易生硬", "多数可直译，因为邻近关系跨语言常见"],
-        ["典型误判", "把 war 的搭配全当字面", "把 hands 当成真的“手”"]
+        [
+          "第一步：是否跨域",
+          "跨域：用具体域讲抽象域",
+          "同域：两个事物本就相邻"
+        ],
+        [
+          "第二步：能否改写为“像”",
+          "能：A 像 B",
+          "不能：A 指 B，A 与 B 挨着"
+        ],
+        [
+          "例子",
+          "时间就是金钱",
+          "壶开了（壶指水）"
+        ],
+        [
+          "翻译策略",
+          "常需换意象，直译易生硬",
+          "多数可直译，因为邻近关系跨语言常见"
+        ],
+        [
+          "典型误判",
+          "把 war 的搭配全当字面",
+          "把 hands 当成真的“手”"
+        ]
       ]
     },
     {
@@ -55,7 +123,12 @@
       "title": "学术文本里到处都是转喻",
       "body": "论文写作有几个高频转喻，读不懂会直接导致理解偏差：\n\n- *The paper argues…* —— 作品代作者，意思就是“作者在文中主张”\n- *Figure 3 shows…* —— 图形代其内容，不是图自己在展示\n- *The model predicts…* —— 模型代其输出，不是模型有意图\n- *The sensor sees the marker* —— 传感器代人对其功能的描述\n- *Section 4 discusses…* —— 章节代其中的论述\n\n这些说法不是拟人修辞，而是**把复杂的因果链压缩成一个主语**。写作时它们让句子简洁；阅读时要记得还原施动者，否则容易把“方法的效果”误读成“作者的观点”。",
       "terms": [
-        { "term": "agent", "zh": "施动者", "en": "agent", "note": "动作的真正执行者" }
+        {
+          "term": "agent",
+          "zh": "施动者",
+          "en": "agent",
+          "note": "动作的真正执行者"
+        }
       ]
     },
     {
@@ -77,7 +150,9 @@
       ],
       "answer": 0,
       "explain": "真正在沸腾的是水，但水在壶里不可见，壶在炉上最突显，于是用容器指内容。同类还有 the bottle is empty、the room fell silent。判断依据是“被指对象就在容器内部”。",
-      "concepts": ["c-metonymy"]
+      "concepts": [
+        "c-metonymy"
+      ]
     },
     {
       "id": "w10d3-p2",
@@ -91,7 +166,9 @@
       ],
       "answer": 0,
       "explain": "华尔街是金融机构聚集的地点，用地点指代那里的机构与从业者，是“地点代机构”的典型。同类还有 the White House、the Kremlin、Brussels（欧盟机构）。",
-      "concepts": ["c-metonymy"]
+      "concepts": [
+        "c-metonymy"
+      ]
     },
     {
       "id": "w10d3-p3",
@@ -105,7 +182,10 @@
       ],
       "answer": 0,
       "explain": "collapse 把论证当作可倒塌的建筑，是跨域的相似映射，属隐喻。其余三句都是同域的邻近替换：容器代内容、部分代整体、地点代机构。",
-      "concepts": ["c-metaphor", "c-metonymy"]
+      "concepts": [
+        "c-metaphor",
+        "c-metonymy"
+      ]
     },
     {
       "id": "w10d3-p4",
@@ -113,9 +193,15 @@
       "prompt": "填入术语（英文或中文均可）",
       "sentence": "用部分指代整体（如 hands 指工人）这种转喻，专门称为 ___ 。",
       "answer": "提喻",
-      "accept": ["提喻", "synecdoche", "Synecdoche"],
+      "accept": [
+        "提喻",
+        "synecdoche",
+        "Synecdoche"
+      ],
       "explain": "synecdoche（提喻）是转喻的一个子类，用部分代整体（hands）、整体代部分（the law 指某位警察）或材料代成品（steel 指刀剑）。它与一般转喻没有硬边界，但术语上常单列。",
-      "concepts": ["c-metonymy"]
+      "concepts": [
+        "c-metonymy"
+      ]
     },
     {
       "id": "w10d3-p5",
@@ -129,7 +215,9 @@
       ],
       "answer": 0,
       "explain": "the paper argues 是学术写作的固定转喻：真正主张的是作者，作品被当作施动者。同类有 Figure 3 shows、Section 4 discusses、the model predicts。理解这一点，才不会把“论文的主张”与“作者的主张”对立起来。",
-      "concepts": ["c-metonymy"]
+      "concepts": [
+        "c-metonymy"
+      ]
     }
   ],
   "apply": [
@@ -139,15 +227,31 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "The shipyard hired two hundred extra hands for the winter refit, most of them welders brought in from nearby towns.",
       "word": "hands",
-      "choices": ["工人、劳动力", "手掌", "手套", "工具"],
+      "choices": [
+        "工人、劳动力",
+        "手掌",
+        "手套",
+        "工具"
+      ],
       "answer": 0,
       "strategy": "① 句法：hands 是 hired 的宾语，且被数量词修饰（two hundred extra），说明是可被雇佣的实体；② 同位解释：most of them welders 直接说明这些人是谁；③ 转喻路径：手（劳动的执行部位）代劳动者。",
       "explain": "hands 用部分代整体，指体力劳动者或船员（all hands on deck）。判断依据是 hired 与 welders 的搭配——被雇佣、是焊工，只能是“人”。这类转喻在劳动与航海语域特别常见。",
-      "concepts": ["c-metonymy", "c-inference"]
+      "concepts": [
+        "c-metonymy",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Semantics：metonymy 与 metaphor 的区分" },
-    { "id": "S5", "title": "现代辞书与词源参考", "detail": "hands、kettle、Wall Street 等转喻用法" }
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Semantics：metonymy 与 metaphor 的区分"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "hands、kettle、Wall Street 等转喻用法"
+    }
   ]
 }

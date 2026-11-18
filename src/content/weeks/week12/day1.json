@@ -22,6 +22,11 @@
     "c-compound",
     "c-register"
   ],
+  "knowledgePoints": [
+    "kp-s1c3s5-1",
+    "kp-s1c3s12-1",
+    "kp-s1c3s14-1"
+  ],
   "minutes": {
     "review": 5,
     "learn": 9,

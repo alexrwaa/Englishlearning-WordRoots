@@ -9,9 +9,25 @@
     "能解释为什么 *unpossible、*unhelpment 不被现代标准英语接受",
     "能列出至少三种核验一个新词是否真实存在的方法"
   ],
-  "prereqs": ["w02d5", "c-word-matrix"],
-  "concepts": ["c-frequency", "c-word-family", "c-affix", "c-morpheme"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w02d5",
+    "c-word-matrix"
+  ],
+  "concepts": [
+    "c-frequency",
+    "c-word-family",
+    "c-affix",
+    "c-morpheme"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s3-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,29 +35,54 @@
       "title": "三个层次，别混为一谈",
       "body": "判断一个词，至少要分清三件事：\n\n1. **可分析**：能切出词素，每块都有意义。unpossible 在这一层没有问题：un + possible。\n2. **可生成**：词缀的能产性允许它造出新词。un- 很能产，理论上可以加在很多形容词前。\n3. **已被词汇化**：真的有人这么说、词典或语料库能查到。\n\n第三层才是“这个词存在”的证据。前两层只是让它**看起来应该存在**。语言学用星号 * 标记不被接受或没有证据的形式，例如 *unpossible。",
       "terms": [
-        { "term": "attested", "zh": "有使用证据的", "en": "attested" },
-        { "term": "productivity", "zh": "能产性", "en": "productivity" }
+        {
+          "term": "attested",
+          "zh": "有使用证据的",
+          "en": "attested"
+        },
+        {
+          "term": "productivity",
+          "zh": "能产性",
+          "en": "productivity"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "*unpossible：结构没错，位置被占了",
       "body": "un + possible 完全符合 un- 的用法：un- 加形容词构成否定。但现代标准英语用的是 impossible，不是 *unpossible。\n\n这里有两层原因。第一，**impossible 已经承担了这个否定义**，语言不需要第二个同义形式。第二，un- 更常与本土词及已完全同化的词结合（unkind、unable、unclear），而 possible 走的是拉丁否定前缀 in-（在 p 前变 im-）。\n\n需要说明的是：unpossible 在早期现代英语中确有少量用例，今天在部分方言和网络戏谑用法里也能见到。所以说它“不成立”，指的是**现代标准英语的共时判断**，不是逻辑上的不可能。",
-      "morphemes": ["un", "possible", "im"]
+      "morphemes": [
+        "un",
+        "possible",
+        "im"
+      ]
     },
     {
       "kind": "text",
       "title": "能产性有强弱：为什么 *unhelpment 不行",
       "body": "不同词缀的能产性差别很大，这决定了哪些空格可以临时补上、哪些补不上。\n\n- **un- 很能产**：unhackable、unGoogleable 这类新造形式母语者能立刻理解并接受。\n- **-ness 中等**：可以加在很多形容词后（usefulness、readiness），但要求词基是形容词。\n- **-ment 很低**：它只在历史形成的词里出现（government、movement、argument），不能随意加。help 的名词就是 help，没有 *helpment，更没有 *unhelpment。\n\n所以“符合规则”这句话必须补一句：**符合哪条规则、这条规则有多能产**。",
-      "morphemes": ["un", "ness", "ment", "help"]
+      "morphemes": [
+        "un",
+        "ness",
+        "ment",
+        "help"
+      ]
     },
     {
       "kind": "text",
       "title": "怎么核验：四个去处",
       "body": "遇到一个拿不准的形式，按顺序查：\n\n1. **大型词典**：OED、Merriam-Webster、Collins。看它是否独立成条。\n2. **语料库**：COCA、BNC、Sketch Engine。看真实文本里有没有人用，以及用在什么语域。\n3. **Ngram 趋势**：看使用频率是否长期稳定，还是只在某几年冒了一下。\n4. **母语者判断**：问“你会不会这么说”，比问“这符合规则吗”有效。\n\n两个提醒：词典收录有滞后，新词可能还没进词典；专业术语可能只出现在领域文献里，通用语料库查不到，这时要查该领域的论文。",
       "terms": [
-        { "term": "corpus", "zh": "语料库", "en": "corpus" },
-        { "term": "attestation", "zh": "使用例证", "en": "attestation" }
+        {
+          "term": "corpus",
+          "zh": "语料库",
+          "en": "corpus"
+        },
+        {
+          "term": "attestation",
+          "zh": "使用例证",
+          "en": "attestation"
+        }
       ]
     },
     {
@@ -51,10 +92,26 @@
       "a": "拼写变体",
       "b": "词汇不存在",
       "rows": [
-        ["例子", "rewritable / rewriteable", "*unpossible"],
-        ["差别在哪", "同一词的两种写法", "有没有这个词"],
-        ["判断依据", "词频、词典标注、出版规范", "语料库与母语者接受度"],
-        ["处理方式", "选一个并保持一致", "改用 impossible"]
+        [
+          "例子",
+          "rewritable / rewriteable",
+          "*unpossible"
+        ],
+        [
+          "差别在哪",
+          "同一词的两种写法",
+          "有没有这个词"
+        ],
+        [
+          "判断依据",
+          "词频、词典标注、出版规范",
+          "语料库与母语者接受度"
+        ],
+        [
+          "处理方式",
+          "选一个并保持一致",
+          "改用 impossible"
+        ]
       ]
     }
   ],
@@ -63,10 +120,19 @@
       "id": "w02d6-p1",
       "kind": "mcq",
       "prompt": "下面哪个形式最不可能被现代标准英语的母语者接受？",
-      "choices": ["unkind", "unable", "unhelpful", "unpossible"],
+      "choices": [
+        "unkind",
+        "unable",
+        "unhelpful",
+        "unpossible"
+      ],
       "answer": 3,
       "explain": "unpossible 的结构可以描述（un + possible），但这个否定义已由 impossible 承担，现代标准英语不用它。其余三个都是词典收录的常用词。",
-      "concepts": ["c-frequency", "un", "im"]
+      "concepts": [
+        "c-frequency",
+        "un",
+        "im"
+      ]
     },
     {
       "id": "w02d6-p2",
@@ -80,7 +146,11 @@
       ],
       "answer": 1,
       "explain": "-ment 主要出现在历史形成的词里（government、movement），不能随意类推。help 本身可作名词，英语没有 *helpment 这个形式。这不是“规则禁止”，而是词缀能产性与词汇空缺共同作用的结果。",
-      "concepts": ["c-frequency", "ment", "c-affix"]
+      "concepts": [
+        "c-frequency",
+        "ment",
+        "c-affix"
+      ]
     },
     {
       "id": "w02d6-p3",
@@ -94,7 +164,10 @@
       ],
       "answer": 1,
       "explain": "符合规则只能说明结构可描述，不能证明使用。语料库提供真实文本证据，词典提供编纂者的收录判断，两者结合最可靠。母语者直觉可作补充，但要区分“能理解”和“会这么说”。",
-      "concepts": ["c-frequency", "c-word-family"]
+      "concepts": [
+        "c-frequency",
+        "c-word-family"
+      ]
     },
     {
       "id": "w02d6-p4",
@@ -102,9 +175,16 @@
       "prompt": "填入一个表示“未被证实、不被接受”的英文形容词",
       "sentence": "Linguists put an asterisk before a form to show that it is not ___ in the language.",
       "answer": "attested",
-      "accept": ["attested", "acceptable", "used"],
+      "accept": [
+        "attested",
+        "acceptable",
+        "used"
+      ],
       "explain": "星号 * 标记的是没有使用证据或不被接受的形式，attested 指“在真实语料中有例证”。这是描述性语言学的写法，不是“拼错了”的意思。",
-      "concepts": ["c-frequency", "c-morpheme"]
+      "concepts": [
+        "c-frequency",
+        "c-morpheme"
+      ]
     },
     {
       "id": "w02d6-p5",
@@ -118,7 +198,11 @@
       ],
       "answer": 1,
       "explain": "两者都有人使用，属于拼写变体；rewritable 更常见，也更符合去 e 的默认规则。这与 *unpossible 性质完全不同——那里是形式本身不存在。",
-      "concepts": ["c-spelling-rule", "c-frequency", "able"]
+      "concepts": [
+        "c-spelling-rule",
+        "c-frequency",
+        "able"
+      ]
     }
   ],
   "apply": [
@@ -128,16 +212,38 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "Because groundwater in the region is essentially non-renewable, extraction rates must be justified by long-term projections rather than short-term demand.",
       "word": "non-renewable",
-      "choices": ["不可再生的、补给极慢的", "不可回收利用的", "无法升级更新的", "不能续签的"],
+      "choices": [
+        "不可再生的、补给极慢的",
+        "不可回收利用的",
+        "无法升级更新的",
+        "不能续签的"
+      ],
       "answer": 0,
       "strategy": "①切分 non（否定）+ re（再次）+ new（新）+ able（能够……的）；②形容词修饰 groundwater；③语境说抽取速率必须用长期预测来论证，说明补给极慢、用一点少一点；④排除“不能续签”，那是合同语境，与地下水无关。",
       "explain": "non- + renew + able = “不能再生的”。non- 与 un- 都表否定，但 non- 语气更中性、更常用于技术术语（non-renewable、non-linear、non-invasive）。这里说的是地下水补给速度远低于开采速度。",
-      "concepts": ["non", "re", "able", "c-inference"]
+      "concepts": [
+        "non",
+        "re",
+        "able",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "形态可能性与词汇存在性的区分" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：productivity 与 attested forms" },
-    { "id": "S5", "title": "Oxford English Dictionary", "detail": "unpossible 的历史用例与现代标注、rewritable 的拼写变体" }
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "形态可能性与词汇存在性的区分"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5 Morphology：productivity 与 attested forms"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "unpossible 的历史用例与现代标注、rewritable 的拼写变体"
+    }
   ]
 }

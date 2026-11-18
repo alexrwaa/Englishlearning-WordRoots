@@ -207,6 +207,12 @@ export interface Lesson {
   prereqs: string[];
   /** Concept / morpheme ids taught or reinforced here. */
   concepts: string[];
+  /**
+   * Textbook knowledge points this lesson actually teaches
+   * (`src/content/textbook/s1-chapters.json`). Empty means the lesson is not
+   * claimed as coverage of any point — see docs/TEXTBOOK_COVERAGE.md.
+   */
+  knowledgePoints?: string[];
   minutes: { review: number; learn: number; practice: number; apply: number };
   level: CEFR;
   cards: Card[];

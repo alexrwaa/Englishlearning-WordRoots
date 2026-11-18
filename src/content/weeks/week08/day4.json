@@ -17,6 +17,9 @@
     "c-suffix",
     "c-base"
   ],
+  "knowledgePoints": [
+    "kp-s1c3s13-1"
+  ],
   "minutes": {
     "review": 5,
     "learn": 8,

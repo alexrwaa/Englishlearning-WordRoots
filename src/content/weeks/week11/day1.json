@@ -23,6 +23,11 @@
     "c-metaphor",
     "c-semantic-shift"
   ],
+  "knowledgePoints": [
+    "kp-s1c2s10-4",
+    "kp-s1c3s6-2",
+    "kp-s1c7s10-1"
+  ],
   "minutes": {
     "review": 5,
     "learn": 9,

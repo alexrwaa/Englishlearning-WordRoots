@@ -9,9 +9,27 @@
     "能指出 -o- 是连接元音而不是有意义的前缀或后缀",
     "能区分英语复合词与希腊组合形式构成的两类词"
   ],
-  "prereqs": ["w05d7", "c-compound"],
-  "concepts": ["c-combining", "c-greek-latin", "c-scientific", "c-compound", "c-morpheme"],
-  "minutes": { "review": 5, "learn": 9, "practice": 6, "apply": 5 },
+  "prereqs": [
+    "w05d7",
+    "c-compound"
+  ],
+  "concepts": [
+    "c-combining",
+    "c-greek-latin",
+    "c-scientific",
+    "c-compound",
+    "c-morpheme"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s6-2",
+    "kp-s1c3s14-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 6,
+    "apply": 5
+  },
   "level": "B2",
   "cards": [
     {
@@ -19,9 +37,17 @@
       "title": "先承认一件事：这些成分都不是词",
       "body": "把 **biology** 切开，你会得到 bio- 和 -logy。问题来了：这两个东西能单独用吗？\n\n- 你不能说 “I study bio” 来表示“我学生物”（除非是口语截短，那是另一回事）。\n- -logy 更不能单独出现。\n\n它们叫**组合形式**（combining form）：源自希腊语或拉丁语、只能与其他成分结合使用的构词单位。这与上周的拉丁词根很像，但有一个关键差别——**组合形式通常带一个固定的连接元音 -o-**，而且它们的组合能力极强，可以像积木一样拼接。\n\n所以不要再用“前缀 + 词根”这套标签去套 biology：它不是“两个成分相加”，而是两个粘着单位拼合。",
       "terms": [
-        { "term": "combining form", "zh": "组合形式", "en": "combining form", "note": "源自希腊/拉丁、必须与其他成分结合的构词单位" }
+        {
+          "term": "combining form",
+          "zh": "组合形式",
+          "en": "combining form",
+          "note": "源自希腊/拉丁、必须与其他成分结合的构词单位"
+        }
       ],
-      "morphemes": ["bio", "logy"]
+      "morphemes": [
+        "bio",
+        "logy"
+      ]
     },
     {
       "kind": "compare",
@@ -30,25 +56,80 @@
       "a": "英语复合词 greenhouse",
       "b": "希腊组合形式 biology",
       "rows": [
-        { "label": "成分能否独立", "a": "green、house 都能单独成词", "b": "bio-、-logy 都不能单独成词" },
-        { "label": "中间连接", "a": "无，直接相加", "b": "常有连接元音 -o-" },
-        { "label": "重音位置", "a": "第一成分", "b": "常在第二成分（bi-O-logy）" },
-        { "label": "能产性", "a": "受语义限制，数量有限", "b": "极高，可不断造新术语" },
-        { "label": "语域", "a": "日常、具体", "b": "学术、科技" }
+        {
+          "label": "成分能否独立",
+          "a": "green、house 都能单独成词",
+          "b": "bio-、-logy 都不能单独成词"
+        },
+        {
+          "label": "中间连接",
+          "a": "无，直接相加",
+          "b": "常有连接元音 -o-"
+        },
+        {
+          "label": "重音位置",
+          "a": "第一成分",
+          "b": "常在第二成分（bi-O-logy）"
+        },
+        {
+          "label": "能产性",
+          "a": "受语义限制，数量有限",
+          "b": "极高，可不断造新术语"
+        },
+        {
+          "label": "语域",
+          "a": "日常、具体",
+          "b": "学术、科技"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "连接元音 -o-：它有意义吗？",
       "body": "答案是没有。-o- 是希腊语复合词里保留下来的连接元音，作用只是把两个成分接起来，让发音顺口，本身不承载任何词汇意义。把它当成“前缀”或“表示什么”都会导致误读。\n\n但要注意一个陷阱：**并不是所有 -o 都是连接元音**。有些词的词干本身就以 -o 结尾，比如 photo- 来自希腊 phōs（属格 phōtos），zoo- 来自 zōion。判断方法是看这个 -o 是否随着成分一起移动。下表为便于对照，把 -o 保留在前一个成分的拼写里，所以 bio + logy 的 o 仍算连接元音，而 phot + graph 的 o 属于词干。",
-      "head": ["词", "切分", "-o- 的性质", "说明"],
+      "head": [
+        "词",
+        "切分",
+        "-o- 的性质",
+        "说明"
+      ],
       "rows": [
-        ["biology", "bio + logy", "连接元音", "接在两个成分之间"],
-        ["geography", "geo + graphy", "连接元音", "同上"],
-        ["thermometer", "thermo + meter", "连接元音", "同上"],
-        ["photograph", "phot + graph", "-o- 属词干", "希腊 phōs 的属格 phōtos，o 是词干的一部分"],
-        ["zoology", "zoo + logy", "-o- 属词干", "希腊 zōion 的词干 zōo-"] ,
-        ["thermodynamics", "thermo + dynamics", "连接元音", "三个成分以上时每个接缝都可能出现"]
+        [
+          "biology",
+          "bio + logy",
+          "连接元音",
+          "接在两个成分之间"
+        ],
+        [
+          "geography",
+          "geo + graphy",
+          "连接元音",
+          "同上"
+        ],
+        [
+          "thermometer",
+          "thermo + meter",
+          "连接元音",
+          "同上"
+        ],
+        [
+          "photograph",
+          "phot + graph",
+          "-o- 属词干",
+          "希腊 phōs 的属格 phōtos，o 是词干的一部分"
+        ],
+        [
+          "zoology",
+          "zoo + logy",
+          "-o- 属词干",
+          "希腊 zōion 的词干 zōo-"
+        ],
+        [
+          "thermodynamics",
+          "thermo + dynamics",
+          "连接元音",
+          "三个成分以上时每个接缝都可能出现"
+        ]
       ]
     },
     {
@@ -56,14 +137,24 @@
       "title": "为什么科技英语偏爱希腊材料",
       "body": "18 到 19 世纪的欧洲科学家需要给大量新发现命名。用本土英语词会造成两个问题：一是搭配不自由，二是语义联想太具体。希腊语和拉丁语则提供了三样东西：**中立的学术语域、可无限拼接的成分、以及跨语言通用性**——同一份术语在法语、德语、英语里长得几乎一样。\n\n于是出现了一类特殊的词：**新拉丁语术语**（Neo-Latin）。它们的零件是希腊的，但整词是近代人造的。biology 直到 1802 年前后才由拉马克与特雷维拉努斯分别提出；telephone、photograph、hydrogen 都是 19 世纪或 18 世纪末的产物。\n\n这一点必须记住：**这些词不是从古希腊语继承来的**，古希腊人不会说 biology。所以不能用“古希腊语原义”去反推现代术语的准确含义。",
       "terms": [
-        { "term": "Neo-Latin", "zh": "新拉丁语", "en": "Neo-Latin", "note": "文艺复兴以后用拉丁/希腊材料新造的学术术语层" }
+        {
+          "term": "Neo-Latin",
+          "zh": "新拉丁语",
+          "en": "Neo-Latin",
+          "note": "文艺复兴以后用拉丁/希腊材料新造的学术术语层"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "实操：三步切开一个希腊长词",
       "body": "1. **找 -o- 接缝**。thermo|meter、bio|logy、geo|graphy，切口通常在 -o- 之后。\n2. **确认 -o- 归谁**。若换成别的词根时这个 -o 消失（photo- 在任何组合里都保留 o，如 photosphere），它属于词干；若只在接缝处出现，它是连接元音。\n3. **查整词年代**。如果整词是 19 世纪才有的，就按“零件义 + 现代定义”理解，不要试图还原古希腊语义。\n\n举例：**thermodynamics** = thermo（热）+ dynamics（动力学），是 19 世纪为热与功的关系造的词；**photogrammetry** = phot（光）+ gram（记录）+ metry（测量），是“用照片测量”。三步走完，词义基本就出来了。",
-      "morphemes": ["therm", "meter", "graph", "metr"]
+      "morphemes": [
+        "therm",
+        "meter",
+        "graph",
+        "metr"
+      ]
     }
   ],
   "practice": [
@@ -71,19 +162,36 @@
       "id": "w06d1-p1",
       "kind": "mcq",
       "prompt": "biology 中 bio- 与 -logy 之间的 -o- 属于什么？",
-      "choices": ["连接元音，本身不承载词汇意义", "表示“生命”的词根", "表示“学科”的后缀", "表示“圆、整体”的前缀"],
+      "choices": [
+        "连接元音，本身不承载词汇意义",
+        "表示“生命”的词根",
+        "表示“学科”的后缀",
+        "表示“圆、整体”的前缀"
+      ],
       "answer": 0,
       "explain": "-o- 是希腊语复合词保留下来的连接元音，只起连接作用，没有词汇意义。“生命”由 bio- 承担，“学科”由 -logy 承担。",
-      "concepts": ["c-combining", "bio", "logy"]
+      "concepts": [
+        "c-combining",
+        "bio",
+        "logy"
+      ]
     },
     {
       "id": "w06d1-p2",
       "kind": "mcq",
       "prompt": "下面哪个词是英语复合词，而不是希腊组合形式构成的学术词？",
-      "choices": ["greenhouse", "geography", "thermometer", "biology"],
+      "choices": [
+        "greenhouse",
+        "geography",
+        "thermometer",
+        "biology"
+      ],
       "answer": 0,
       "explain": "greenhouse 由 green 与 house 两个自由词基相加，重音在第一成分。其余三词的成分都不能独立成词，属于组合形式。",
-      "concepts": ["c-compound", "c-combining"]
+      "concepts": [
+        "c-compound",
+        "c-combining"
+      ]
     },
     {
       "id": "w06d1-p3",
@@ -91,9 +199,18 @@
       "prompt": "填入术语（中文或英文均可）",
       "sentence": "在 thermometer 中，连接 thermo- 与 -meter 的 -o- 是一个 ___ vowel。",
       "answer": "linking",
-      "accept": ["linking", "连接", "连接元音", "link"],
+      "accept": [
+        "linking",
+        "连接",
+        "连接元音",
+        "link"
+      ],
       "explain": "linking vowel 即“连接元音”，用于连接两个组合形式，本身不表义。它是希腊语复合构词留下的形式特征。",
-      "concepts": ["c-combining", "therm", "meter"]
+      "concepts": [
+        "c-combining",
+        "therm",
+        "meter"
+      ]
     },
     {
       "id": "w06d1-p4",
@@ -107,7 +224,10 @@
       ],
       "answer": 0,
       "explain": "希腊 phōs“光”的属格是 phōtos，词干 phōt- 后带 -o-，所以 photo- 在任何组合中都保留 o（photosphere、photocell）。biology 的 -o- 只在接缝处出现，是连接元音。",
-      "concepts": ["c-combining", "c-morpheme"]
+      "concepts": [
+        "c-combining",
+        "c-morpheme"
+      ]
     },
     {
       "id": "w06d1-p5",
@@ -121,7 +241,10 @@
       ],
       "answer": 0,
       "explain": "英语复合词重音通常落在第一成分（GREENhouse）；希腊来源的长术语重音常在第二成分或更后（bi-O-logy）。重音位置可以作为判断构词类型的线索。",
-      "concepts": ["c-compound", "c-combining"]
+      "concepts": [
+        "c-compound",
+        "c-combining"
+      ]
     },
     {
       "id": "w06d1-p6",
@@ -135,7 +258,11 @@
       ],
       "answer": 0,
       "explain": "前缀依附于一个词基并修饰它（un + happy）；组合形式则是两个成分并列拼合成新术语，且常带连接元音。把 bio- 叫前缀会掩盖它的构词方式。",
-      "concepts": ["c-combining", "c-prefix", "bio"]
+      "concepts": [
+        "c-combining",
+        "c-prefix",
+        "bio"
+      ]
     }
   ],
   "apply": [
@@ -145,16 +272,38 @@
       "prompt": "阅读下面的工程说明，推测划线词的含义",
       "passage": "The enclosure was made from a biodegradable polymer so that the field units could be left in place after deployment, with no long-term contamination of the site.",
       "word": "biodegradable",
-      "choices": ["可被生物分解的", "可被生物吸收的", "由生物材料合成的", "对生物有毒的"],
+      "choices": [
+        "可被生物分解的",
+        "可被生物吸收的",
+        "由生物材料合成的",
+        "对生物有毒的"
+      ],
       "answer": 0,
       "strategy": "① 切分：bio（生命）+ de（向下、去除）+ grad（走、步）+ able（能……的）；② 语境：so that 引导目的，后文说“不留长期污染”，指向“能被微生物分解”；③ 排除：“由生物材料合成”只说材料来源，不解释“留在原地”的理由。",
       "explain": "biodegradable 是“可生物降解的”：bio + de + grad（拉丁 gradus“步”）+ able，字面是“能被生物一步步拆掉的”。注意 grad 在这里不是 graph，二者形近但意义不同。",
-      "concepts": ["bio", "able", "c-inference", "c-combining"]
+      "concepts": [
+        "bio",
+        "able",
+        "c-inference",
+        "c-combining"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "希腊语组合形式与连接元音一章" },
-    { "id": "S5", "title": "Oxford English Dictionary", "detail": "biology、photograph、thermometer 的首次用例与构词说明" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5：combining form 与 compound 的区别" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "希腊语组合形式与连接元音一章"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "biology、photograph、thermometer 的首次用例与构词说明"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5：combining form 与 compound 的区别"
+    }
   ]
 }

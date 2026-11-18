@@ -9,9 +9,24 @@
     "能说明 they / them / their 被借用为何在语言学上很特殊",
     "能用语言接触的强度解释基础词汇被替换，而不是用“文化高低”解释"
   ],
-  "prereqs": ["w09d1"],
-  "concepts": ["c-borrowing", "c-cognate", "c-etymology"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w09d1"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-cognate",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s8-4",
+    "kp-s1c2s10-5"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B2",
   "cards": [
     {
@@ -19,7 +34,12 @@
       "title": "古英语：一门你不认识的“英语”",
       "body": "古英语（约 450–1150）是日耳曼语的一支，和今天的德语、荷兰语是亲戚。它高度屈折：名词有格、有性，形容词要跟着变，动词变化复杂。今天英语里最常用的一百个词，多数仍是它的后代：water、house、heart、eat、go、be、the、of。\n\n但古英语**不是**现代英语的“简化版”。它的词汇里没有我们熟悉的大量抽象词——那些位置后来被法语和拉丁语填满了。理解这一点，才不会把“本土”误解成“全部”。\n\n看一个对比：古英语用 heofon 表示“天、天空”，这个词今天还在，拼作 heaven，但意义已经专门化为“天堂”。那“天空”这个位置后来由谁占了？这就是今天要讲的借词。",
       "terms": [
-        { "term": "inflection", "zh": "屈折", "en": "inflection", "note": "表达语法关系的词形变化" }
+        {
+          "term": "inflection",
+          "zh": "屈折",
+          "en": "inflection",
+          "note": "表达语法关系的词形变化"
+        }
       ]
     },
     {
@@ -27,8 +47,17 @@
       "title": "维京人定居：一次“近亲之间的借用”",
       "body": "8 世纪末起，北欧人（维京人）反复袭击并最终定居英格兰大片地区，这片受北欧法管辖的区域史称 **Danelaw**（丹麦法区）。这不是远距离的文化交流，而是**定居、通婚、双语并存**。\n\n于是古北欧语（Old Norse）的词大量进入日常英语：\n\n- sky、egg、law、take、get、give、knife、window\n- husband、anger、ugly、leg、skin、root、call、die、seem、want\n\n这些词今天读起来毫无“外来感”，因为它们进入的不是学术语域，而是厨房、田地与集市。借词的语域，取决于接触发生在哪里。",
       "terms": [
-        { "term": "Old Norse", "zh": "古北欧语", "en": "Old Norse" },
-        { "term": "Danelaw", "zh": "丹麦法区", "en": "Danelaw", "note": "9–11 世纪北欧人定居并施行自己法律的英格兰区域" }
+        {
+          "term": "Old Norse",
+          "zh": "古北欧语",
+          "en": "Old Norse"
+        },
+        {
+          "term": "Danelaw",
+          "zh": "丹麦法区",
+          "en": "Danelaw",
+          "note": "9–11 世纪北欧人定居并施行自己法律的英格兰区域"
+        }
       ]
     },
     {
@@ -36,19 +65,44 @@
       "title": "they / them / their：最反常的一次借用",
       "body": "英语借走了北欧语的代词：they、them、their 对应古北欧语 þeir、þeim、þeira，取代了古英语的 hīe、him、hira。\n\n这件事在语言学上很特殊。代词属于**封闭类词**（closed-class），数量有限、使用频率极高、系统内部高度关联，一般极难被借用——世界语言里代词被替换的案例很少。\n\n常见解释有两点：一是接触强度极高，双语者数量大；二是两种语言是近亲，形式本就接近，替换的“成本”低；此外古英语的 hīe 与 him 在屈折后容易混淆，也存在功能上的压力。\n\n注意措辞：具体动因仍有讨论，**不要把某一种解释说成定论**。",
       "terms": [
-        { "term": "closed-class word", "zh": "封闭类词", "en": "closed-class word", "note": "代词、介词、连词等，成员几乎不增加" }
+        {
+          "term": "closed-class word",
+          "zh": "封闭类词",
+          "en": "closed-class word",
+          "note": "代词、介词、连词等，成员几乎不增加"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "四组词看“替换”而不是“填补”",
       "body": "借词有两种命运：填补空缺，或与本土词竞争并把它挤走。下面四组都属于后者，但挤走的方式各不相同：有的靠义域扩张，有的靠方言扩散，有的干脆整词替代。看清“怎么被挤走”，比记住“英语借了很多词”这句话有用得多。",
-      "head": ["词", "古英语的说法", "发生了什么"],
+      "head": [
+        "词",
+        "古英语的说法",
+        "发生了什么"
+      ],
       "rows": [
-        ["sky", "heofon（天）", "sky 原义是“云”，借入后义域扩大到“天空”，heofon 退守为 heaven“天堂”"],
-        ["egg", "ǣg（复数 ǣgru，方言作 eyren）", "北欧形式 egg 在北方先通行，随后扩散；eyren 到近代基本消失"],
-        ["law", "æ、dōm（法令、判决）", "北欧 lag（“被放下的东西、既定之事”）取代本土说法，成为通用词"],
-        ["window", "eagþyrel（“眼孔”）", "北欧复合词 vindauga（风＋眼）胜出，本土说法被淘汰"]
+        [
+          "sky",
+          "heofon（天）",
+          "sky 原义是“云”，借入后义域扩大到“天空”，heofon 退守为 heaven“天堂”"
+        ],
+        [
+          "egg",
+          "ǣg（复数 ǣgru，方言作 eyren）",
+          "北欧形式 egg 在北方先通行，随后扩散；eyren 到近代基本消失"
+        ],
+        [
+          "law",
+          "æ、dōm（法令、判决）",
+          "北欧 lag（“被放下的东西、既定之事”）取代本土说法，成为通用词"
+        ],
+        [
+          "window",
+          "eagþyrel（“眼孔”）",
+          "北欧复合词 vindauga（风＋眼）胜出，本土说法被淘汰"
+        ]
       ]
     },
     {
@@ -58,10 +112,26 @@
       "a": "同源（cognate）",
       "b": "借用（borrowing）",
       "rows": [
-        ["关系方向", "纵向：从共同祖语各自继承", "横向：从另一语言整词搬过来"],
-        ["例子", "英语 father 与拉丁 pater、德语 Vater", "英语 sky 借自古北欧 ský"],
-        ["证据", "规则语音对应，而非拼写相似", "文献中可考的出现时间与传播路径"],
-        ["能否同时成立", "能：借词双方可能本是远亲", "能，但要说清哪一层关系是借用"]
+        [
+          "关系方向",
+          "纵向：从共同祖语各自继承",
+          "横向：从另一语言整词搬过来"
+        ],
+        [
+          "例子",
+          "英语 father 与拉丁 pater、德语 Vater",
+          "英语 sky 借自古北欧 ský"
+        ],
+        [
+          "证据",
+          "规则语音对应，而非拼写相似",
+          "文献中可考的出现时间与传播路径"
+        ],
+        [
+          "能否同时成立",
+          "能：借词双方可能本是远亲",
+          "能，但要说清哪一层关系是借用"
+        ]
       ]
     },
     {
@@ -83,7 +153,10 @@
       ],
       "answer": 0,
       "explain": "sky（ský“云”）、egg、law（lag）、they（þeir）都来自古北欧语。第二组是古英语本土词，第三组是诺曼法语借词，第四组是希腊—拉丁学术借词。",
-      "concepts": ["c-borrowing", "c-cognate"]
+      "concepts": [
+        "c-borrowing",
+        "c-cognate"
+      ]
     },
     {
       "id": "w09d2-p2",
@@ -97,7 +170,9 @@
       ],
       "answer": 0,
       "explain": "代词是封闭类词，成员有限、频率极高、系统性强，世界上代词被整体替换的案例很少。英语在古北欧语的高强度接触下发生了这次替换，是借词研究里的经典案例。",
-      "concepts": ["c-borrowing"]
+      "concepts": [
+        "c-borrowing"
+      ]
     },
     {
       "id": "w09d2-p3",
@@ -105,9 +180,15 @@
       "prompt": "填入一个英文单词（古北欧语复合词的字面第二部分）",
       "sentence": "The Old Norse compound behind window is vindauga, literally “wind-___”.",
       "answer": "eye",
-      "accept": ["eye", "眼"],
+      "accept": [
+        "eye",
+        "眼"
+      ],
       "explain": "vindauga = vindr（风）＋ auga（眼），字面是“风眼”，指墙上的开口。古英语原有说法 eagþyrel 也是“眼孔”的思路，但最终胜出的是北欧复合词。",
-      "concepts": ["c-borrowing", "c-etymology"]
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
     },
     {
       "id": "w09d2-p4",
@@ -121,7 +202,9 @@
       ],
       "answer": 0,
       "explain": "古英语有 heofon 表示天空，所以“没有本土词”不成立。sky 原义为“云”，借入后义域扩大到“天空”，heofon 退为 heaven。这说明借词可以进入核心语义场，并挤走本土词。",
-      "concepts": ["c-borrowing"]
+      "concepts": [
+        "c-borrowing"
+      ]
     },
     {
       "id": "w09d2-p5",
@@ -135,7 +218,9 @@
       ],
       "answer": 0,
       "explain": "借词深度取决于接触方式。北欧人是定居者而非仅贸易者，双语环境广，两种语言又同属日耳曼语支、形式接近，因此从日常词到代词都能被替换。用“文化高低”解释这次接触是错的。",
-      "concepts": ["c-borrowing"]
+      "concepts": [
+        "c-borrowing"
+      ]
     }
   ],
   "apply": [
@@ -145,15 +230,31 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "Towns ending in -by, such as Derby and Whitby, preserve the Old Norse word for a farmstead; the same element survives in bylaw, which originally meant a regulation made by a local community rather than by the king.",
       "word": "bylaw",
-      "choices": ["地方法规、内部规章", "国王颁布的法令", "农场的边界", "北欧语的语法书"],
+      "choices": [
+        "地方法规、内部规章",
+        "国王颁布的法令",
+        "农场的边界",
+        "北欧语的语法书"
+      ],
       "answer": 0,
       "strategy": "① 句法：which 从句直接解释 bylaw 的含义；② 对比线索：rather than by the king 明确排除“王室法令”；③ 词源线索：-by 是北欧语“农场、居所”，bylaw 即“本地自定的规矩”。",
       "explain": "bylaw 原指地方社群自己制定的规则，与王室法令相对；现代英语里扩展为任何组织（公司、协会、俱乐部）的内部章程。这个词同时是北欧借词与语义扩展的例子，两条线在同一个词上交叉。",
-      "concepts": ["c-borrowing", "c-inference"]
+      "concepts": [
+        "c-borrowing",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "古英语与古北欧语借词；Danelaw 时期的语言接触" },
-    { "id": "S5", "title": "现代辞书与词源参考", "detail": "sky、egg、law、window、bylaw 的语源与义域变化" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "古英语与古北欧语借词；Danelaw 时期的语言接触"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "sky、egg、law、window、bylaw 的语源与义域变化"
+    }
   ]
 }

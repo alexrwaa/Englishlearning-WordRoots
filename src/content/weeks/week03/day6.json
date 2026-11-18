@@ -9,9 +9,21 @@
     "能解释 en-/em- 如何把名词或形容词变成动词",
     "能判断一个以 en- 开头的词是否真的含该前缀，避免过度切分"
   ],
-  "prereqs": ["w03d5"],
-  "concepts": ["c-prefix", "c-derivation", "c-base"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w03d5"
+  ],
+  "concepts": [
+    "c-prefix",
+    "c-derivation",
+    "c-base"
+  ],
+  "knowledgePoints": [],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,29 +31,73 @@
       "title": "先说规则：前缀通常只改义，不改词性",
       "body": "前五天讲的前缀，几乎都不改变词性：happy 是形容词，unhappy 还是形容词；possible 是形容词，impossible 还是形容词；national 是形容词，international 还是形容词。\n\n原因不难理解：英语的**词性主要由后缀决定**（第 4 周会系统讲），前缀位于词首，离“定词性”的位置远。所以“前缀改义、后缀改性”是一条可靠的默认假设，能帮你在阅读中快速判断一个长词的句法功能。\n\n但默认假设不是定律。英语里有一小批前缀确实能把名词或形容词变成动词，而且它们不是零散例外，而是成系统的。今天就把这批“边界案例”认清楚。",
       "terms": [
-        { "term": "class-changing", "zh": "改变词性", "en": "class-changing" },
-        { "term": "class-maintaining", "zh": "保持词性", "en": "class-maintaining" }
+        {
+          "term": "class-changing",
+          "zh": "改变词性",
+          "en": "class-changing"
+        },
+        {
+          "term": "class-maintaining",
+          "zh": "保持词性",
+          "en": "class-maintaining"
+        }
       ],
-      "morphemes": ["un", "in"]
+      "morphemes": [
+        "un",
+        "in"
+      ]
     },
     {
       "kind": "table",
       "title": "五类真实的反例",
       "body": "下表每一行都是可查证的派生关系：词基独立存在，加前缀后词性改变，且整体意义可由成分推出。判断时只看两列词性是否不同即可。注意第二列：en- 与 de- 的词基多是名词，be- 与 out- 的词基可以是名词、形容词或动词，a- 的结果则是只能作表语的形容词（不能说 an asleep child）。这几种模式的差异，说明“例外”也各有各的规律。",
-      "head": ["前缀", "词基（词性）", "派生词（词性）", "例词"],
+      "head": [
+        "前缀",
+        "词基（词性）",
+        "派生词（词性）",
+        "例词"
+      ],
       "rows": [
-        ["en- / em-", "slave, danger, rich, able（名/形）", "动词", "enslave, endanger, enrich, enable"],
-        ["de-", "bug, frost, forest, code（名）", "动词", "debug, defrost, deforest, decode"],
-        ["be-", "friend, little, calm（名/形）", "动词", "befriend, belittle, becalm"],
-        ["a-", "sleep, blaze, shore（名/动）", "表语形容词", "asleep, ablaze, ashore"],
-        ["out-", "number, smart, perform（名/形/动）", "动词", "outnumber, outsmart, outperform"]
+        [
+          "en- / em-",
+          "slave, danger, rich, able（名/形）",
+          "动词",
+          "enslave, endanger, enrich, enable"
+        ],
+        [
+          "de-",
+          "bug, frost, forest, code（名）",
+          "动词",
+          "debug, defrost, deforest, decode"
+        ],
+        [
+          "be-",
+          "friend, little, calm（名/形）",
+          "动词",
+          "befriend, belittle, becalm"
+        ],
+        [
+          "a-",
+          "sleep, blaze, shore（名/动）",
+          "表语形容词",
+          "asleep, ablaze, ashore"
+        ],
+        [
+          "out-",
+          "number, smart, perform（名/形/动）",
+          "动词",
+          "outnumber, outsmart, outperform"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "en- / em-：最成系统的一类",
       "body": "**en-** 来自法语与拉丁语，核心功能是**使役**：使某物进入某种状态，或使某物具有某种性质。它可以直接加在名词上造动词：slave（奴隶）→ enslave（使沦为奴隶），danger（危险）→ endanger（使陷入危险），power（权力）→ empower（授权）。也可以加在形容词上：rich → enrich（使丰富），large → enlarge（扩大），able → enable（使能够）。\n\n在 p、b 前，en- 同化为 **em-**：empower、embody（使具体化）、embed（嵌入）、embrace。这与第 5 天 in- 的同化是同一类现象，只是发生在另一个前缀上。\n\n注意 enslave 与 endanger 的语义：不是“变成奴隶”“变成危险”，而是“使宾语进入该状态”。**en- 动词几乎都是及物动词**，这一点在写作中很有用。",
-      "morphemes": ["en", "em"]
+      "morphemes": [
+        "en",
+        "em"
+      ]
     },
     {
       "kind": "compare",
@@ -50,17 +106,35 @@
       "a": "默认假设",
       "b": "需要检验的情形",
       "rows": [
-        ["前提", "多数派生前缀只改义", "词基是名词或形容词，且前缀是 en-/em-/be-/a-/de-/out-"],
-        ["第一步", "看到前缀，先假设词性不变", "找出词基，确认它独立成词时的词性"],
-        ["第二步", "用后缀与句法位置确认词性", "比较派生词在句中的功能是否与词基不同"],
-        ["结论", "可直接按“同词性”理解", "若词性改变，说明遇到 class-changing 前缀"]
+        [
+          "前提",
+          "多数派生前缀只改义",
+          "词基是名词或形容词，且前缀是 en-/em-/be-/a-/de-/out-"
+        ],
+        [
+          "第一步",
+          "看到前缀，先假设词性不变",
+          "找出词基，确认它独立成词时的词性"
+        ],
+        [
+          "第二步",
+          "用后缀与句法位置确认词性",
+          "比较派生词在句中的功能是否与词基不同"
+        ],
+        [
+          "结论",
+          "可直接按“同词性”理解",
+          "若词性改变，说明遇到 class-changing 前缀"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "过度切分的陷阱：不是所有 en-/em- 都是前缀",
       "body": "反例讲多了，容易走向另一个极端：见到 en- 就切。下面这些词整体借入，现代英语里切不出“en + 词基”的结构：\n\n- **energy**：来自希腊 energeia，与“工作、活动”有关，没有英语词基 ergy。\n- **enemy**：来自拉丁 inimicus，in-（不）+ amicus（朋友），但那是拉丁语的构词，不是英语的 en-。\n- **entertain**：来自法语 entretenir，与“在之间保持”有关。\n- **enthusiasm**：来自希腊 entheos“神灵在内”，也不是 en- + thusiasm。\n\n判断标准还是第 1 周那条：**词基必须独立存在、意义可追溯、能被替换**。三条不满足，就不要切；把整词记住，反而比错误的拆解更省力。",
-      "morphemes": ["en"]
+      "morphemes": [
+        "en"
+      ]
     }
   ],
   "practice": [
@@ -76,7 +150,11 @@
       ],
       "answer": 1,
       "explain": "danger 是名词，endanger 是动词（使陷入危险），词性由名转动。其余三组都是形容词加前缀后仍为形容词：unhappy、international、impossible。这正是“前缀默认不改词性、但 en- 是系统例外”的具体体现。",
-      "concepts": ["en", "c-derivation", "c-prefix"]
+      "concepts": [
+        "en",
+        "c-derivation",
+        "c-prefix"
+      ]
     },
     {
       "id": "w03d6-p2",
@@ -84,9 +162,15 @@
       "prompt": "填入一个以 en- 开头的动词",
       "sentence": "Reading widely outside your field will ___ your vocabulary far more than memorising word lists.",
       "answer": "enrich",
-      "accept": ["丰富", "使丰富"],
+      "accept": [
+        "丰富",
+        "使丰富"
+      ],
       "explain": "en（使）+ rich（丰富的）→ enrich“使丰富”。这里 en- 加在形容词上构成及物动词，宾语是 your vocabulary。若填 enlarge 则指“扩大规模”，与 vocabulary 的搭配不如 enrich 自然。",
-      "concepts": ["en", "c-derivation"]
+      "concepts": [
+        "en",
+        "c-derivation"
+      ]
     },
     {
       "id": "w03d6-p3",
@@ -100,25 +184,44 @@
       ],
       "answer": 1,
       "explain": "energy 整体来自希腊 energeia，虽然历史上与 en（在内）+ ergon（工作）有关，但现代英语里没有独立的 ergy 词基，也没有“使……”的动词义，因此不属于 en- 派生词。区分历史词源与现代共时构词，是本周反复训练的判断力。",
-      "concepts": ["en", "c-etymology", "c-morpheme"]
+      "concepts": [
+        "en",
+        "c-etymology",
+        "c-morpheme"
+      ]
     },
     {
       "id": "w03d6-p4",
       "kind": "wordSum",
       "prompt": "用 + 连接词素，写出切分（不要写整词）：en + danger",
-      "parts": ["en", "danger"],
+      "parts": [
+        "en",
+        "danger"
+      ],
       "answer": "endanger",
       "explain": "en（使进入）+ danger（危险）→ endanger“使……陷入危险”，是及物动词，如 endanger the species。词基 danger 是名词，派生后为动词，属于前缀改变词性的系统例外。",
-      "concepts": ["en", "c-derivation"]
+      "concepts": [
+        "en",
+        "c-derivation"
+      ]
     },
     {
       "id": "w03d6-p5",
       "kind": "mcq",
       "prompt": "In the last decade, electric vehicles have outnumbered diesel buses in this city. 中 outnumber 的词性变化是：",
-      "choices": ["名词 → 名词", "名词 → 动词", "动词 → 形容词", "形容词 → 副词"],
+      "choices": [
+        "名词 → 名词",
+        "名词 → 动词",
+        "动词 → 形容词",
+        "形容词 → 副词"
+      ],
       "answer": 1,
       "explain": "number 在此是名词（数量），out- 表“超过”，outnumber 是动词“在数量上超过”。out- 是能产的 class-changing 前缀，同族还有 outsmart（比……更聪明）、outperform（表现优于）。句中的 have outnumbered 也提示它是动词。",
-      "concepts": ["out", "c-derivation", "c-prefix"]
+      "concepts": [
+        "out",
+        "c-derivation",
+        "c-prefix"
+      ]
     },
     {
       "id": "w03d6-p6",
@@ -132,7 +235,11 @@
       ],
       "answer": 1,
       "explain": "“前缀保持词性”是高覆盖率的倾向，不是无例外的规律。en-/em-、de-、be-、a-、out- 都能把名词或形容词变成动词（或表语形容词）。正确表述是：多数派生前缀只改义，词性主要由后缀决定，但存在成系统的例外。",
-      "concepts": ["c-prefix", "c-derivation", "c-affix"]
+      "concepts": [
+        "c-prefix",
+        "c-derivation",
+        "c-affix"
+      ]
     }
   ],
   "apply": [
@@ -142,16 +249,37 @@
       "prompt": "阅读下面的系统设计说明，推测划线词的含义",
       "passage": "The fleet uses a decentralized architecture: each robot plans its own route locally and shares only its pose estimate, so no single server can become a bottleneck.",
       "word": "decentralized",
-      "choices": ["去中心化的", "集中控制的", "被分散销毁的", "重新中心的"],
+      "choices": [
+        "去中心化的",
+        "集中控制的",
+        "被分散销毁的",
+        "重新中心的"
+      ],
       "answer": 0,
       "strategy": "① 切分：de（去除）+ central（中心的）+ ize（动词后缀）+ ed（过去分词）；② 词性：-ize + -ed 构成形容词，修饰 architecture；③ 语境：每个机器人各自规划、只共享位姿，没有单一服务器成为瓶颈；④ 校验：与“集中控制”相反，故排除 centralized。",
       "explain": "decentralized 意为“去中心化的”。de- 在此是“去除”，加在动词 centralize 上，与 defrost（除霜）、debug（除错）同一义项；再加 -ed 构成形容词，正好同时复习了本周的“前缀可改词性”这一边界。",
-      "concepts": ["de", "c-derivation", "c-inference"]
+      "concepts": [
+        "de",
+        "c-derivation",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：前缀的 class-maintaining 倾向与例外" },
-    { "id": "S4", "title": "New Word-Analysis", "detail": "en-/em-、be-、a-、de-、out- 的构词功能" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5：派生词缀与词性变化" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章：前缀的 class-maintaining 倾向与例外"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "en-/em-、be-、a-、de-、out- 的构词功能"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5：派生词缀与词性变化"
+    }
   ]
 }

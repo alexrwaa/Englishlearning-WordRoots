@@ -9,9 +9,24 @@
     "能判断一次语义变化属于升格还是降格",
     "能说明“古义如此”为什么不能用来否定现代用法"
   ],
-  "prereqs": ["w10d4"],
-  "concepts": ["c-amelioration", "c-pejoration", "c-semantic-shift", "c-register"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w10d4"
+  ],
+  "concepts": [
+    "c-amelioration",
+    "c-pejoration",
+    "c-semantic-shift",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s13-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B2",
   "cards": [
     {
@@ -19,8 +34,16 @@
       "title": "第三组机制：评价往哪边走",
       "body": "扩大与缩小看的是**范围**，升格与降格看的是**评价**——同一个所指，褒贬地位升高还是降低。\n\n- **升格（amelioration）**：贬 → 中性或褒。knight 从“仆从、少年”升为“骑士、贵族”。\n- **降格（pejoration）**：中性或褒 → 贬。villain 从“农奴、佃户”降为“恶棍”。\n\n注意两者可以同时发生：queen 从“女人、妻子”缩窄为“女王”，同时地位升高。所以做题时要先问“题目问的是范围还是评价”，不要一律往褒贬上套。",
       "terms": [
-        { "term": "amelioration", "zh": "词义升格", "en": "amelioration" },
-        { "term": "pejoration", "zh": "词义降格", "en": "pejoration" }
+        {
+          "term": "amelioration",
+          "zh": "词义升格",
+          "en": "amelioration"
+        },
+        {
+          "term": "pejoration",
+          "zh": "词义降格",
+          "en": "pejoration"
+        }
       ]
     },
     {
@@ -28,10 +51,26 @@
       "title": "nice：从“无知”到“令人愉快”",
       "body": "nice 的起点相当不客气：拉丁 **nescius**“无知的”（ne- 不 ＋ scire 知道）。经古法语 nice 进入中古英语时，意思是“愚蠢的、单纯的”，后来又发展出“挑剔的、讲究的”“精细的、微妙的”，到 18 世纪才稳定为“令人愉快的、友善的”。\n\n这条路径常被概括为“无知 → 愚蠢 → 挑剔 → 精细 → 愉快”，但每一步的具体年代与地域分布并不整齐，词典之间的表述也有差异。**能确定的是方向：从贬到褒，属于升格。**\n\n重要提醒：现代英语的 nice 与拉丁 nescius 没有共时形态关系。今天没有人把 nice 分析成 ne + scius。词源只解释它怎么来的，不解释它现在是什么意思。",
       "steps": [
-        { "period": "拉丁", "form": "nescius", "note": "“无知的”，ne- 不 ＋ scire 知道" },
-        { "period": "古法语", "form": "nice", "note": "“愚蠢的、单纯的”" },
-        { "period": "中古英语", "form": "nice", "note": "“愚蠢的、放荡的、挑剔的”" },
-        { "period": "18 世纪", "form": "nice", "note": "“令人愉快的、友善的”，升格完成" }
+        {
+          "period": "拉丁",
+          "form": "nescius",
+          "note": "“无知的”，ne- 不 ＋ scire 知道"
+        },
+        {
+          "period": "古法语",
+          "form": "nice",
+          "note": "“愚蠢的、单纯的”"
+        },
+        {
+          "period": "中古英语",
+          "form": "nice",
+          "note": "“愚蠢的、放荡的、挑剔的”"
+        },
+        {
+          "period": "18 世纪",
+          "form": "nice",
+          "note": "“令人愉快的、友善的”，升格完成"
+        }
       ]
     },
     {
@@ -39,22 +78,64 @@
       "title": "silly：从“有福的”到“愚蠢的”",
       "body": "silly 的古英语形式是 **sælig**，意为“有福的、幸运的、幸福的”，与德语 selig“有福的”同源。这个义项今天还留在英语的 **blessed** 语义场里，但 silly 本身已经走远：\n\n中古英语时期，它先弱化为“天真的、无害的、值得怜惜的”，再进一步变成“头脑简单的、愚蠢的”。这是一次典型的**降格**：从宗教性的“有福”降到日常的“傻”。\n\n同类路径在英语里不少：blessed → 轻微的委婉用法；simple 从“单纯”到“头脑简单”。共同点是**褒义或中性义在频繁使用中被磨损，逐渐带上“能力不足”的贬义**。",
       "steps": [
-        { "period": "古英语", "form": "sælig", "note": "“有福的、幸福的”，与德语 selig 同源" },
-        { "period": "中古英语", "form": "sely", "note": "“天真的、无害的、可怜的”" },
-        { "period": "近代英语", "form": "silly", "note": "“愚蠢的、傻的”，降格完成" }
+        {
+          "period": "古英语",
+          "form": "sælig",
+          "note": "“有福的、幸福的”，与德语 selig 同源"
+        },
+        {
+          "period": "中古英语",
+          "form": "sely",
+          "note": "“天真的、无害的、可怜的”"
+        },
+        {
+          "period": "近代英语",
+          "form": "silly",
+          "note": "“愚蠢的、傻的”，降格完成"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "awful 与 awesome：同一个源头，两个方向",
       "body": "两个词都来自 awe（敬畏、畏惧）。一个往下走，一个往上走，正好构成对照组。注意 awful 的降格伴随着**语义淡化**：从“令人敬畏”到“很糟”，再到口语里纯粹的程度副词。",
-      "head": ["词", "早期义", "现代义", "机制"],
+      "head": [
+        "词",
+        "早期义",
+        "现代义",
+        "机制"
+      ],
       "rows": [
-        ["awful", "充满敬畏的、令人畏惧的（古英语 egefull）", "糟糕的；口语中作程度副词（awful nice）", "降格＋语义淡化"],
-        ["awesome", "令人敬畏的、可畏的", "极好的（口语）；仍保留“令人惊叹”的正式义", "升格（口语化）"],
-        ["villain", "农奴、佃户（拉丁 villa 庄园）", "恶棍、反派", "降格"],
-        ["knight", "少年、仆从（古英语 cniht）", "骑士、爵士", "升格"],
-        ["marshal", "照看马匹的仆役（古法语 mareschal）", "元帅；司仪", "升格"]
+        [
+          "awful",
+          "充满敬畏的、令人畏惧的（古英语 egefull）",
+          "糟糕的；口语中作程度副词（awful nice）",
+          "降格＋语义淡化"
+        ],
+        [
+          "awesome",
+          "令人敬畏的、可畏的",
+          "极好的（口语）；仍保留“令人惊叹”的正式义",
+          "升格（口语化）"
+        ],
+        [
+          "villain",
+          "农奴、佃户（拉丁 villa 庄园）",
+          "恶棍、反派",
+          "降格"
+        ],
+        [
+          "knight",
+          "少年、仆从（古英语 cniht）",
+          "骑士、爵士",
+          "升格"
+        ],
+        [
+          "marshal",
+          "照看马匹的仆役（古法语 mareschal）",
+          "元帅；司仪",
+          "升格"
+        ]
       ]
     },
     {
@@ -62,7 +143,12 @@
       "title": "为什么会升降：四个推力",
       "body": "评价性变化不是随机的，常见推力有四：\n\n1. **委婉与禁忌**：直接说坏话不礼貌，于是中性词被拉去承担贬义，久而久之自己也变贬。\n2. **社会态度变迁**：职业名称随地位上升而升格（marshal 从马夫到元帅）。\n3. **词频磨损**：高频使用会削薄强度，awful 从“可畏”磨成“很糟”，再磨成“很”。\n4. **阶层与品味标记**：某些词被某一群体偏爱或回避，评价随之漂移。\n\n这四个推力也解释了为什么语义演变常有**方向性**：贬义化比褒义化更常见，因为“说坏话”的需求更稳定。",
       "terms": [
-        { "term": "semantic bleaching", "zh": "语义淡化", "en": "semantic bleaching", "note": "实义被磨成程度或语法功能" }
+        {
+          "term": "semantic bleaching",
+          "zh": "语义淡化",
+          "en": "semantic bleaching",
+          "note": "实义被磨成程度或语法功能"
+        }
       ]
     },
     {
@@ -76,19 +162,34 @@
       "id": "w10d5-p1",
       "kind": "mcq",
       "prompt": "nice 的最初词源义是？",
-      "choices": ["无知的", "令人愉快的", "精细的", "挑剔的"],
+      "choices": [
+        "无知的",
+        "令人愉快的",
+        "精细的",
+        "挑剔的"
+      ],
       "answer": 0,
       "explain": "nice 来自拉丁 nescius“无知的”（ne- 不 ＋ scire 知道），经古法语进入英语后经历“愚蠢 → 挑剔 → 精细 → 愉快”的长期升格。现代义与词源义没有共时关系，不能据此说 nice 含贬义。",
-      "concepts": ["c-amelioration", "c-etymology"]
+      "concepts": [
+        "c-amelioration",
+        "c-etymology"
+      ]
     },
     {
       "id": "w10d5-p2",
       "kind": "mcq",
       "prompt": "silly 在古英语（sælig）中的意思是？",
-      "choices": ["有福的、幸福的", "愚蠢的", "天真的", "弱小的"],
+      "choices": [
+        "有福的、幸福的",
+        "愚蠢的",
+        "天真的",
+        "弱小的"
+      ],
       "answer": 0,
       "explain": "sælig 意为“有福的、幸运的”，与德语 selig 同源。它先弱化为“天真、可怜”，再降为“愚蠢”，是降格的典型案例。现代英语的“傻”义与古义方向相反。",
-      "concepts": ["c-pejoration"]
+      "concepts": [
+        "c-pejoration"
+      ]
     },
     {
       "id": "w10d5-p3",
@@ -102,7 +203,10 @@
       ],
       "answer": 0,
       "explain": "awful 源自古英语 egefull“充满敬畏的、令人畏惧的”，后来降为“糟糕的”，口语中又淡化为程度词（awful nice）。它与 awesome 同出 awe，却朝相反方向漂移，是评价性变化的经典对照。",
-      "concepts": ["c-pejoration", "c-semantic-shift"]
+      "concepts": [
+        "c-pejoration",
+        "c-semantic-shift"
+      ]
     },
     {
       "id": "w10d5-p4",
@@ -110,9 +214,16 @@
       "prompt": "填入术语（中文或英文均可）",
       "sentence": "词义向贬义方向变化，称为 ___ ；向褒义方向变化称为 amelioration。",
       "answer": "降格",
-      "accept": ["降格", "pejoration", "词义降格", "贬义化"],
+      "accept": [
+        "降格",
+        "pejoration",
+        "词义降格",
+        "贬义化"
+      ],
       "explain": "pejoration（词义降格）指评价下降，如 silly 从“有福的”到“愚蠢的”、villain 从“农奴”到“恶棍”。它与 amelioration（升格）相对，二者都属于评价性变化，而不是范围变化。",
-      "concepts": ["c-pejoration"]
+      "concepts": [
+        "c-pejoration"
+      ]
     },
     {
       "id": "w10d5-p5",
@@ -126,7 +237,10 @@
       ],
       "answer": 0,
       "explain": "这是典型的词源谬误：把历史来源当成现代意义的依据。silly 在现代英语里明确是贬义评价，说别人 silly 就是说他傻，不构成祝福。词源只解释来源，不规定用法。",
-      "concepts": ["c-pejoration", "c-etymology"]
+      "concepts": [
+        "c-pejoration",
+        "c-etymology"
+      ]
     }
   ],
   "apply": [
@@ -136,15 +250,31 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "The method is notorious for failing on textureless surfaces, where sparse features vanish and the estimator begins to drift.",
       "word": "notorious",
-      "choices": ["因某种缺点而广为人知（贬义）", "非常著名（褒义）", "尚未被验证的", "已被彻底弃用的"],
+      "choices": [
+        "因某种缺点而广为人知（贬义）",
+        "非常著名（褒义）",
+        "尚未被验证的",
+        "已被彻底弃用的"
+      ],
       "answer": 0,
       "strategy": "① 搭配线索：notorious for failing 中 for 后接负面行为，说明“因……而出名”；② 语境：textureless surfaces、features vanish、estimator drifts 都是失败描述；③ 词源辅助：拉丁 notus“已知的”→ 众所周知的 → 因坏事而众所周知。",
       "explain": "notorious 是“众所周知”的降格版本：noted 中性、famous 偏褒、notorious 几乎只用于负面（notorious for corruption）。这是评价性语义变化的活例证：同一“知名”概念，褒贬分工明确。",
-      "concepts": ["c-pejoration", "c-inference"]
+      "concepts": [
+        "c-pejoration",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "评价性语义变化：升格与降格" },
-    { "id": "S5", "title": "现代辞书与词源参考", "detail": "nice / silly / awful / villain / knight 的义项演变" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "评价性语义变化：升格与降格"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "nice / silly / awful / villain / knight 的义项演变"
+    }
   ]
 }

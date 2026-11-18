@@ -9,16 +9,41 @@
     "能按派生顺序解释 nationalization 的构成",
     "能区分“形态上同族”与“仅词源上同源”两种情况"
   ],
-  "prereqs": ["w02d3", "c-word-matrix"],
-  "concepts": ["c-word-family", "c-word-matrix", "c-derivation", "c-suffix"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w02d3",
+    "c-word-matrix"
+  ],
+  "concepts": [
+    "c-word-family",
+    "c-word-matrix",
+    "c-derivation",
+    "c-suffix"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s12-1",
+    "kp-s1c3s5-1",
+    "kp-s1c3s1-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
       "kind": "text",
       "title": "一个词基，四种词性",
       "body": "词族矩阵最大的用处，是让你看见**同一个概念如何在词性之间移动**。以 nation 为例：\n\n- 名词：nation（国家、民族）、nationality（国籍）、nationalism（民族主义）\n- 形容词：national（国家的）、international（国际的）\n- 动词：nationalize（使国有化）\n- 副词：nationally（在全国范围内）\n\n四类词性不是四组需要分别背的词，而是同一词基加不同后缀的结果。认出这条链，遇到生词时你就能反推它大概属于哪一类、可能是什么意思。",
-      "morphemes": ["nation", "al", "ity", "ism", "ize", "ly"]
+      "morphemes": [
+        "nation",
+        "al",
+        "ity",
+        "ism",
+        "ize",
+        "ly"
+      ]
     },
     {
       "kind": "matrix",
@@ -26,39 +51,163 @@
       "body": "横向看后缀，能看出 -al 是把名词变成形容词的总开关：national、nationality、nationalize 都经过它。纵向看前缀，inter- 把“国家”推到“国家之间”。最右一列最长，说明这个词族的派生可以叠好几层。",
       "base": "nation",
       "prefixes": [
-        { "text": "inter", "glossZh": "在……之间" }
+        {
+          "text": "inter",
+          "glossZh": "在……之间"
+        }
       ],
       "suffixes": [
-        { "text": "al", "glossZh": "形容词后缀：……的" },
-        { "text": "ally", "glossZh": "副词后缀：以……方式" },
-        { "text": "ity", "glossZh": "名词后缀：性质、身份" },
-        { "text": "ize", "glossZh": "动词后缀：使……化" },
-        { "text": "ation", "glossZh": "名词后缀：过程、结果" },
-        { "text": "ist", "glossZh": "名词后缀：……者" },
-        { "text": "ism", "glossZh": "名词后缀：主义、体系" }
+        {
+          "text": "al",
+          "glossZh": "形容词后缀：……的"
+        },
+        {
+          "text": "ally",
+          "glossZh": "副词后缀：以……方式"
+        },
+        {
+          "text": "ity",
+          "glossZh": "名词后缀：性质、身份"
+        },
+        {
+          "text": "ize",
+          "glossZh": "动词后缀：使……化"
+        },
+        {
+          "text": "ation",
+          "glossZh": "名词后缀：过程、结果"
+        },
+        {
+          "text": "ist",
+          "glossZh": "名词后缀：……者"
+        },
+        {
+          "text": "ism",
+          "glossZh": "名词后缀：主义、体系"
+        }
       ],
       "words": [
-        { "w": "national", "parts": ["nation", "al"], "glossZh": "国家的、全国的" },
-        { "w": "nationally", "parts": ["nation", "al", "ly"], "glossZh": "在全国范围内" },
-        { "w": "nationality", "parts": ["nation", "al", "ity"], "glossZh": "国籍、民族" },
-        { "w": "nationalize", "parts": ["nation", "al", "ize"], "glossZh": "使国有化" },
-        { "w": "nationalization", "parts": ["nation", "al", "ize", "ation"], "glossZh": "国有化" },
-        { "w": "nationalist", "parts": ["nation", "al", "ist"], "glossZh": "民族主义者" },
-        { "w": "nationalism", "parts": ["nation", "al", "ism"], "glossZh": "民族主义" },
-        { "w": "international", "parts": ["inter", "nation", "al"], "glossZh": "国际的" }
+        {
+          "w": "national",
+          "parts": [
+            "nation",
+            "al"
+          ],
+          "glossZh": "国家的、全国的"
+        },
+        {
+          "w": "nationally",
+          "parts": [
+            "nation",
+            "al",
+            "ly"
+          ],
+          "glossZh": "在全国范围内"
+        },
+        {
+          "w": "nationality",
+          "parts": [
+            "nation",
+            "al",
+            "ity"
+          ],
+          "glossZh": "国籍、民族"
+        },
+        {
+          "w": "nationalize",
+          "parts": [
+            "nation",
+            "al",
+            "ize"
+          ],
+          "glossZh": "使国有化"
+        },
+        {
+          "w": "nationalization",
+          "parts": [
+            "nation",
+            "al",
+            "ize",
+            "ation"
+          ],
+          "glossZh": "国有化"
+        },
+        {
+          "w": "nationalist",
+          "parts": [
+            "nation",
+            "al",
+            "ist"
+          ],
+          "glossZh": "民族主义者"
+        },
+        {
+          "w": "nationalism",
+          "parts": [
+            "nation",
+            "al",
+            "ism"
+          ],
+          "glossZh": "民族主义"
+        },
+        {
+          "w": "international",
+          "parts": [
+            "inter",
+            "nation",
+            "al"
+          ],
+          "glossZh": "国际的"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "派生链：每一步只动一件事",
       "body": "把矩阵斜着读，就得到一条派生链。注意 nationalization 不是 nation + al + ize + ation 一次拼成，而是四步。词性沿“名 → 形 → 动 → 名”移动，两次转换都由后缀完成，最后一步 -s 只是屈折，不改变词性。每一步的语义变化也都能单独说明，这正是层次分析的价值。",
-      "head": ["步骤", "形式", "加了什么", "词性", "语义变化"],
+      "head": [
+        "步骤",
+        "形式",
+        "加了什么",
+        "词性",
+        "语义变化"
+      ],
       "rows": [
-        ["1", "nation", "—（起点）", "名词", "国家、民族"],
-        ["2", "national", "-al", "形容词", "属于国家的"],
-        ["3", "nationalize", "-ize", "动词", "使归国家所有"],
-        ["4", "nationalization", "-ation", "名词", "国有化的过程或结果"],
-        ["5", "nationalizations", "-s", "名词（复数）", "多次国有化个案"]
+        [
+          "1",
+          "nation",
+          "—（起点）",
+          "名词",
+          "国家、民族"
+        ],
+        [
+          "2",
+          "national",
+          "-al",
+          "形容词",
+          "属于国家的"
+        ],
+        [
+          "3",
+          "nationalize",
+          "-ize",
+          "动词",
+          "使归国家所有"
+        ],
+        [
+          "4",
+          "nationalization",
+          "-ation",
+          "名词",
+          "国有化的过程或结果"
+        ],
+        [
+          "5",
+          "nationalizations",
+          "-s",
+          "名词（复数）",
+          "多次国有化个案"
+        ]
       ]
     },
     {
@@ -66,9 +215,19 @@
       "title": "同一个后缀，语义可能分叉",
       "body": "词族告诉你“这些词相关”，但不保证“意思只是加了一点”。nationalize 至少有两个义项：把企业收归国有；使某事物具有民族特征。前者是政治经济语境，后者是文化语境。\n\n再比如 localization：在机器人、SLAM 语境指“定位”，在软件语境指“本地化”。两个义项共用同一个形态结构（local + ize + ation），但专业含义完全不同。\n\n所以矩阵给的是**可能性地图**，具体义项仍要靠语境确认。第 11 周会专门讲这类术语的双义问题。",
       "terms": [
-        { "term": "localization", "zh": "定位 / 本地化", "en": "localization", "note": "同一形态在两个专业领域的两个义项" }
+        {
+          "term": "localization",
+          "zh": "定位 / 本地化",
+          "en": "localization",
+          "note": "同一形态在两个专业领域的两个义项"
+        }
       ],
-      "morphemes": ["nation", "ize", "local", "tion"]
+      "morphemes": [
+        "nation",
+        "ize",
+        "local",
+        "tion"
+      ]
     },
     {
       "kind": "compare",
@@ -77,10 +236,26 @@
       "a": "形态同族（可进矩阵）",
       "b": "仅词源同源（不进矩阵）",
       "rows": [
-        ["判断依据", "能划出共同词根并逐层切分", "只能在历史文献中追溯共同来源"],
-        ["例子", "nation / national / nationalize", "nation 与 native"],
-        ["能否替换测试", "能，替换后意义可预测", "不能，切出的部分不承载可组合的意义"],
-        ["教学处理", "放进矩阵一起记", "当作独立词记，词源只作背景"]
+        [
+          "判断依据",
+          "能划出共同词根并逐层切分",
+          "只能在历史文献中追溯共同来源"
+        ],
+        [
+          "例子",
+          "nation / national / nationalize",
+          "nation 与 native"
+        ],
+        [
+          "能否替换测试",
+          "能，替换后意义可预测",
+          "不能，切出的部分不承载可组合的意义"
+        ],
+        [
+          "教学处理",
+          "放进矩阵一起记",
+          "当作独立词记，词源只作背景"
+        ]
       ]
     }
   ],
@@ -93,16 +268,29 @@
       "suffix": "ize",
       "answer": "nationalize",
       "explain": "national（国家的）+ ize（使……化）→ nationalize“使国有化”。这里词基本身已经是派生词，说明矩阵的词基不必是词根。",
-      "concepts": ["c-word-matrix", "c-base", "ize"]
+      "concepts": [
+        "c-word-matrix",
+        "c-base",
+        "ize"
+      ]
     },
     {
       "id": "w02d4-p2",
       "kind": "mcq",
       "prompt": "nationalization 这一步的直接词基是什么？",
-      "choices": ["nation", "national", "nationalize", "nationality"],
+      "choices": [
+        "nation",
+        "national",
+        "nationalize",
+        "nationality"
+      ],
       "answer": 2,
       "explain": "最后一步是 nationalize 加 -ation 构成名词，所以直接词基是 nationalize。nation 是词根层，national 是更早一步的词基。",
-      "concepts": ["c-base", "c-derivation", "nation"]
+      "concepts": [
+        "c-base",
+        "c-derivation",
+        "nation"
+      ]
     },
     {
       "id": "w02d4-p3",
@@ -110,9 +298,15 @@
       "prompt": "填入正确的单词",
       "sentence": "A person who strongly supports nationalism is called a ___.",
       "answer": "nationalist",
-      "accept": ["nationalist"],
+      "accept": [
+        "nationalist"
+      ],
       "explain": "nation + al + ist = nationalist“民族主义者”。-ist 表示“信奉或从事……的人”，与 -ism（主义）成对出现。",
-      "concepts": ["c-word-family", "ist", "ism"]
+      "concepts": [
+        "c-word-family",
+        "ist",
+        "ism"
+      ]
     },
     {
       "id": "w02d4-p4",
@@ -126,16 +320,29 @@
       ],
       "answer": 1,
       "explain": "矩阵记录的是现代可分析的形态关系。native 里没有承载“国家”义的成分，替换测试也过不了，所以它属于词源同源而非共时同族。词源背景可以讲，但不能放进矩阵当同族词。",
-      "concepts": ["c-word-family", "c-etymology", "c-morpheme"]
+      "concepts": [
+        "c-word-family",
+        "c-etymology",
+        "c-morpheme"
+      ]
     },
     {
       "id": "w02d4-p5",
       "kind": "wordSum",
       "prompt": "用 + 连接词素，写出切分（不要写整词）：inter + nation + al",
-      "parts": ["inter", "nation", "al"],
+      "parts": [
+        "inter",
+        "nation",
+        "al"
+      ],
       "answer": "international",
       "explain": "inter（在……之间）+ nation（国家）+ al（形容词后缀）→ international“国际的”，字面是“国家之间的”。三块相接，拼写无需调整。",
-      "concepts": ["c-word-family", "inter", "nation", "al"]
+      "concepts": [
+        "c-word-family",
+        "inter",
+        "nation",
+        "al"
+      ]
     }
   ],
   "apply": [
@@ -145,16 +352,39 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "The internationalization of the research network brought new funding but also new constraints, as partner institutions in different countries expected the data to be stored locally.",
       "word": "internationalization",
-      "choices": ["国际化", "国际合作的中断", "内部审查程序", "数据本地化部署"],
+      "choices": [
+        "国际化",
+        "国际合作的中断",
+        "内部审查程序",
+        "数据本地化部署"
+      ],
       "answer": 0,
       "strategy": "①逐层切：inter（在……之间）+ nation（国家）+ al + ize + ation；②-ation 构成抽象名词，作主语；③语境说研究网络吸纳不同国家的伙伴机构，既带来资金也带来限制，指向“国际化”；④排除“本地化”，后半句的 locally 说的是数据存储要求，不是这个词的意思。",
       "explain": "inter + national + ization = 国际化。注意 -ization 前面是 national 而不是 local：localization 才是“本地化/定位”。这里后半句的 locally 是干扰线索，用来检验你是否真的看了词根。",
-      "concepts": ["inter", "nation", "ize", "tion", "c-inference"]
+      "concepts": [
+        "inter",
+        "nation",
+        "ize",
+        "tion",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "词族矩阵与词性转换" },
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 6 章：后缀与词性转换" },
-    { "id": "S5", "title": "Oxford English Dictionary", "detail": "nationalize 的两个义项、localization 的领域分化" }
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "词族矩阵与词性转换"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章：后缀与词性转换"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "nationalize 的两个义项、localization 的领域分化"
+    }
   ]
 }

@@ -21,6 +21,9 @@
     "c-semantic-shift",
     "c-word-family"
   ],
+  "knowledgePoints": [
+    "kp-s1c3s7-1"
+  ],
   "minutes": {
     "review": 5,
     "learn": 9,

@@ -9,9 +9,27 @@
     "能解释同义三层（ask / question / interrogate）在语域上的差别",
     "能用三层历史说明为什么同一段中文在英语里会有三种译法"
   ],
-  "prereqs": ["c-etymology", "c-borrowing"],
-  "concepts": ["c-borrowing", "c-etymology", "c-register"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "c-etymology",
+    "c-borrowing"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-etymology",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s5-2",
+    "kp-s1c1s4-2",
+    "kp-s1c2s9-1",
+    "kp-s1c2s9-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B2",
   "cards": [
     {
@@ -19,18 +37,43 @@
       "title": "1066 年之后，英语换了三任“房东”",
       "body": "公元 1066 年，诺曼底公爵威廉征服英格兰。此后约三百年，宫廷、法庭与账册通行法语，教会与学术通行拉丁语，而普通人说英语。\n\n结果是：现代英语在同一个意思上常常有三套词。\n\n- 本土层（古英语）：water, house, king, ask, be\n- 法语层（诺曼法语）：government, justice, court, question\n- 拉丁／希腊层（学术借词）：datum, analysis, interrogate\n\n这三层不只是“三个同义词”。它们把**语域**（`register`）一起带进了英语：选哪个词，等于同时声明“我在什么场合、对谁说话”。",
       "terms": [
-        { "term": "register", "zh": "语域", "en": "register", "note": "因场合、领域、社会关系形成的语言变体" }
+        {
+          "term": "register",
+          "zh": "语域",
+          "en": "register",
+          "note": "因场合、领域、社会关系形成的语言变体"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "三层对照表：先建立时间感",
       "body": "下表的三行不是三个时期“替换”了彼此，而是层层叠加。古英语词没有消失，它们退到了日常口语与情感表达里；法语词占据了制度与法律；拉丁词占据了学术与抽象论述。",
-      "head": ["层级", "进入时间", "典型语义场", "例词"],
+      "head": [
+        "层级",
+        "进入时间",
+        "典型语义场",
+        "例词"
+      ],
       "rows": [
-        ["古英语本土层", "5–11 世纪", "身体、自然、家庭、基本动作", "water, house, heart, eat, go, be"],
-        ["诺曼法语层", "1066 年后约三百年", "政府、法律、战争、烹饪、时尚", "government, justice, army, beef, dress"],
-        ["拉丁／希腊学术层", "14 世纪起，文艺复兴达到高峰", "科学、哲学、医学、抽象概念", "datum, analysis, hypothesis, species"]
+        [
+          "古英语本土层",
+          "5–11 世纪",
+          "身体、自然、家庭、基本动作",
+          "water, house, heart, eat, go, be"
+        ],
+        [
+          "诺曼法语层",
+          "1066 年后约三百年",
+          "政府、法律、战争、烹饪、时尚",
+          "government, justice, army, beef, dress"
+        ],
+        [
+          "拉丁／希腊学术层",
+          "14 世纪起，文艺复兴达到高峰",
+          "科学、哲学、医学、抽象概念",
+          "datum, analysis, hypothesis, species"
+        ]
       ]
     },
     {
@@ -38,7 +81,12 @@
       "title": "同一件事，三种说法：ask / question / interrogate",
       "body": "三个词都表示“问”，但气质完全不同：\n\n- **ask**（古英语 āscian）：中性、日常，适合任何场合。\n- **question**（古法语，源自拉丁 quaestio）：稍正式，常带“追问、质疑”的意味。\n- **interrogate**（拉丁 interrogare）：强烈正式，且带**审讯**色彩，主语通常是警察、记者或审查者。\n\n所以“更正式”不等于“更好”。写实验报告时写 *We interrogated the participants about their sleep habits* 会让读者以为你审问了受试者——这是伦理审查里很敏感的词。\n\n同样的三层还出现在 kingly（本土）／royal（法语）／regal（拉丁）这组词上：意思都接近“王的”，但搭配与语域各不相同。",
       "terms": [
-        { "term": "Latinate", "zh": "拉丁来源的", "en": "Latinate", "note": "常与更正式的书面语域相关" }
+        {
+          "term": "Latinate",
+          "zh": "拉丁来源的",
+          "en": "Latinate",
+          "note": "常与更正式的书面语域相关"
+        }
       ]
     },
     {
@@ -48,11 +96,31 @@
       "a": "本土层（古英语）",
       "b": "借词层（法语／拉丁）",
       "rows": [
-        ["数量占比", "词汇表里占比小，但口语高频词里占比极大", "词典条目里占多数，长词几乎全是"],
-        ["典型语义", "身体、自然、家庭、基本动作与情感", "制度、抽象概念、专业术语"],
-        ["形态特点", "短、可独立成词、能产性高（work → worker）", "常带 -tion、-ment、-ous、-ate 等后缀"],
-        ["语域倾向", "口语、亲密、直接", "书面、正式、距离感"],
-        ["反例", "child 是本土词，但 child 出现在法律文本里也不显突兀", "beef、pork、chair 是借词，却完全是日常词"]
+        [
+          "数量占比",
+          "词汇表里占比小，但口语高频词里占比极大",
+          "词典条目里占多数，长词几乎全是"
+        ],
+        [
+          "典型语义",
+          "身体、自然、家庭、基本动作与情感",
+          "制度、抽象概念、专业术语"
+        ],
+        [
+          "形态特点",
+          "短、可独立成词、能产性高（work → worker）",
+          "常带 -tion、-ment、-ous、-ate 等后缀"
+        ],
+        [
+          "语域倾向",
+          "口语、亲密、直接",
+          "书面、正式、距离感"
+        ],
+        [
+          "反例",
+          "child 是本土词，但 child 出现在法律文本里也不显突兀",
+          "beef、pork、chair 是借词，却完全是日常词"
+        ]
       ]
     },
     {
@@ -74,7 +142,10 @@
       ],
       "answer": 0,
       "explain": "ask 来自古英语 āscian；question 经古法语进入，源自拉丁 quaestio；interrogate 直接来自拉丁 interrogare。三者的正式程度依次上升，且 interrogate 带有“审讯”的语义色彩。",
-      "concepts": ["c-borrowing", "c-register"]
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
     },
     {
       "id": "w09d1-p2",
@@ -87,7 +158,9 @@
       ],
       "answer": 1,
       "explain": "interrogate 与 cross-examine 都预设“被问者有隐瞒、提问者有权力”，用于受试者会造成伦理语域错位。asked 中性且准确，正式报告里也可以用 interviewed，但不必为了“显得学术”而升级到审讯词。",
-      "concepts": ["c-register"]
+      "concepts": [
+        "c-register"
+      ]
     },
     {
       "id": "w09d1-p3",
@@ -95,9 +168,17 @@
       "prompt": "填入来源语言（中文或英文均可）",
       "sentence": "government、justice、court 这一层词，主要来自 1066 年之后进入英语的 ___ 语。",
       "answer": "法语",
-      "accept": ["诺曼法语", "古法语", "French", "Norman French", "Old French"],
+      "accept": [
+        "诺曼法语",
+        "古法语",
+        "French",
+        "Norman French",
+        "Old French"
+      ],
       "explain": "诺曼征服后，法语成为英格兰宫廷与法庭的语言约三百年，政府、法律、军事、烹饪等语义场大量借入法语词，这是英语词汇史上海量最大的一次借词。",
-      "concepts": ["c-borrowing"]
+      "concepts": [
+        "c-borrowing"
+      ]
     },
     {
       "id": "w09d1-p4",
@@ -111,7 +192,10 @@
       ],
       "answer": 0,
       "explain": "这类成对词的社会史解释是：养动物的英语农民用本土词，吃肉的诺曼主人用法语词。注意不要把这套解释套到每一个词上——它是典型例证，不是普遍规律；而且借词 beef 今天完全是日常词，并没有保留“贵族色彩”。",
-      "concepts": ["c-borrowing", "c-register"]
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
     },
     {
       "id": "w09d1-p5",
@@ -125,7 +209,10 @@
       ],
       "answer": 1,
       "explain": "语域是使用习惯，不是词源属性。借词层整体偏向书面，但单个词可以完全口语化；反过来，本土词在某些搭配里也能很正式。判断语域要看语料与搭配，不能看词源标签。",
-      "concepts": ["c-register", "c-borrowing"]
+      "concepts": [
+        "c-register",
+        "c-borrowing"
+      ]
     }
   ],
   "apply": [
@@ -135,15 +222,31 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "The report commences with a short review of prior work and then turns to the experimental setup; the discussion section does not begin until page nine.",
       "word": "commences",
-      "choices": ["开始", "结束", "评论", "缩减"],
+      "choices": [
+        "开始",
+        "结束",
+        "评论",
+        "缩减"
+      ],
       "answer": 0,
       "strategy": "① 句法：commences 作谓语，主语是 report，后接 with + 名词，符合“以……开头”的搭配；② 平行结构：and then turns to 表明时间推进；③ 后文对照：does not begin until page nine 与前半句形成“开头—后文”的对立，说明 commence ≈ begin。",
       "explain": "commence 源自拉丁 com-（一起）＋ inire（进入），经法语进入英语，属于典型的拉丁层正式词，常用于报告、仪式、法律文本。这里它与 begin 构成同义复现，语义就是“开始”。它的正式度高于 begin，但命题内容相同。",
-      "concepts": ["c-register", "c-inference"]
+      "concepts": [
+        "c-register",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "英语词汇的来源层次：本土词、法语借词与拉丁借词" },
-    { "id": "S5", "title": "现代辞书与词源参考", "detail": "ask / question / interrogate 的语源与首次出现年代" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "英语词汇的来源层次：本土词、法语借词与拉丁借词"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "ask / question / interrogate 的语源与首次出现年代"
+    }
   ]
 }

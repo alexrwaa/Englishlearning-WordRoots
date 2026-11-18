@@ -23,6 +23,10 @@
     "c-etymology",
     "c-scientific"
   ],
+  "knowledgePoints": [
+    "kp-s1c1s2-1",
+    "kp-s1c3s11-1"
+  ],
   "minutes": {
     "review": 6,
     "learn": 8,

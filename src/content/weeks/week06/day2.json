@@ -9,35 +9,92 @@
     "能用“成分义 + 整词年代”解释 antibiotic、geometry、hydrogen 的差异",
     "能从这五个成分出发，各扩展出至少两个真实单词"
   ],
-  "prereqs": ["w06d1"],
-  "concepts": ["bio", "geo", "therm", "hydr", "phon", "c-combining", "c-scientific"],
-  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 4 },
+  "prereqs": [
+    "w06d1"
+  ],
+  "concepts": [
+    "bio",
+    "geo",
+    "therm",
+    "hydr",
+    "phon",
+    "c-combining",
+    "c-scientific"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s10-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 4
+  },
   "level": "B2",
   "cards": [
     {
       "kind": "table",
       "title": "五个零件：先建立索引",
       "body": "这五个组合形式出现的频率极高，先把“意义—例词”的对应关系建立起来。注意右边一列里有几个词并不是简单相加：antibiotic 的 anti- 是“反对”，symbiosis 的 syn- 是“一起”，geothermal 则是 geo 与 therm 两个零件拼合。",
-      "head": ["组合形式", "希腊原词", "核心义", "例词"],
+      "head": [
+        "组合形式",
+        "希腊原词",
+        "核心义",
+        "例词"
+      ],
       "rows": [
-        ["bio-", "bios 生命", "生命、生物", "biology, biography, antibiotic"],
-        ["geo-", "gē 大地", "地球、土地", "geography, geology, geothermal"],
-        ["therm- / thermo-", "thermē 热", "热、温度", "thermal, thermometer, hypothermia"],
-        ["hydr- / hydro-", "hydōr 水", "水、流体", "hydrate, dehydrate, hydroelectric"],
-        ["phon- / phono-", "phōnē 声音", "声音、语音", "telephone, microphone, phoneme"]
+        [
+          "bio-",
+          "bios 生命",
+          "生命、生物",
+          "biology, biography, antibiotic"
+        ],
+        [
+          "geo-",
+          "gē 大地",
+          "地球、土地",
+          "geography, geology, geothermal"
+        ],
+        [
+          "therm- / thermo-",
+          "thermē 热",
+          "热、温度",
+          "thermal, thermometer, hypothermia"
+        ],
+        [
+          "hydr- / hydro-",
+          "hydōr 水",
+          "水、流体",
+          "hydrate, dehydrate, hydroelectric"
+        ],
+        [
+          "phon- / phono-",
+          "phōnē 声音",
+          "声音、语音",
+          "telephone, microphone, phoneme"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "bio：从“生命”到“共同生活”",
       "body": "bios 在希腊语里是“生命、生活方式”。它构成的词有一条清晰的谱系：\n\n- **biology**：研究生命的学科（19 世纪初造词）。\n- **biography**：书写一个人的一生 → 传记。注意 graph 是“写”，不是“图画”。\n- **biosphere**：生命存在的地圈 → 生物圈。\n- **antibiotic**：anti（反对）+ bios（生命）+ ic → 抑制生命（指微生物）的物质 → 抗生素。字面很容易被误解成“支持生命的”，其实是“反生命的”。\n- **symbiosis**：syn（一起）+ bios + osis（状态）→ 共同生活 → 共生。\n\n看出规律了吗？**同一个 bios，前面的成分决定它是“研究生命”“记录一生”还是“对抗生命”**。",
-      "morphemes": ["bio", "graph", "anti"]
+      "morphemes": [
+        "bio",
+        "graph",
+        "anti"
+      ]
     },
     {
       "kind": "text",
       "title": "geo 与 therm：一个词里可以装两三个零件",
       "body": "geo 是“大地”。**geography** 是“描写大地”（graph 写），**geology** 是“研究大地”（logy 学科），**geothermal** 是“大地的热”（geo + therm + al）——地热。\n\n特别提醒 **geometry**：它不是“土地测量学”的现代意义，而是从“测量土地”这项实用技术起家，后来才发展成数学分支。所以 geo + metry 的组合还保留着“量地”的痕迹。\n\ntherm 这一族则几乎覆盖所有温度相关术语：thermal（热的）、thermometer（热 + 测量 → 温度计）、thermodynamics（热 + 动力学）、hypothermia（hypo 在下 + therm + ia → 体温过低）。**一个零件可以撑起一整个学科的词库**。",
-      "morphemes": ["geo", "therm", "metr", "logy"]
+      "morphemes": [
+        "geo",
+        "therm",
+        "metr",
+        "logy"
+      ]
     },
     {
       "kind": "matrix",
@@ -45,29 +102,92 @@
       "body": "矩阵里的词覆盖了物理、医学、地学三个领域，但每个都能用“热”解释。注意 geothermal 与 hypothermia 是三段式：方向或位置成分 + therm + 词性后缀。这种“多层拼装”是希腊组合形式最典型的能力。",
       "base": "therm",
       "prefixes": [
-        { "text": "geo", "glossZh": "大地" },
-        { "text": "hypo", "glossZh": "在下、低于" },
-        { "text": "thermo", "glossZh": "热（带连接元音）" }
+        {
+          "text": "geo",
+          "glossZh": "大地"
+        },
+        {
+          "text": "hypo",
+          "glossZh": "在下、低于"
+        },
+        {
+          "text": "thermo",
+          "glossZh": "热（带连接元音）"
+        }
       ],
       "suffixes": [
-        { "text": "al", "glossZh": "形容词后缀" },
-        { "text": "meter", "glossZh": "测量仪器" },
-        { "text": "ia", "glossZh": "名词后缀：状态、病症" },
-        { "text": "dynamics", "glossZh": "动力学" }
+        {
+          "text": "al",
+          "glossZh": "形容词后缀"
+        },
+        {
+          "text": "meter",
+          "glossZh": "测量仪器"
+        },
+        {
+          "text": "ia",
+          "glossZh": "名词后缀：状态、病症"
+        },
+        {
+          "text": "dynamics",
+          "glossZh": "动力学"
+        }
       ],
       "words": [
-        { "w": "thermal", "parts": ["therm", "al"], "glossZh": "热的、热量的" },
-        { "w": "thermometer", "parts": ["thermo", "meter"], "glossZh": "温度计" },
-        { "w": "geothermal", "parts": ["geo", "therm", "al"], "glossZh": "地热的" },
-        { "w": "hypothermia", "parts": ["hypo", "therm", "ia"], "glossZh": "体温过低" },
-        { "w": "thermodynamics", "parts": ["thermo", "dynamics"], "glossZh": "热力学" }
+        {
+          "w": "thermal",
+          "parts": [
+            "therm",
+            "al"
+          ],
+          "glossZh": "热的、热量的"
+        },
+        {
+          "w": "thermometer",
+          "parts": [
+            "thermo",
+            "meter"
+          ],
+          "glossZh": "温度计"
+        },
+        {
+          "w": "geothermal",
+          "parts": [
+            "geo",
+            "therm",
+            "al"
+          ],
+          "glossZh": "地热的"
+        },
+        {
+          "w": "hypothermia",
+          "parts": [
+            "hypo",
+            "therm",
+            "ia"
+          ],
+          "glossZh": "体温过低"
+        },
+        {
+          "w": "thermodynamics",
+          "parts": [
+            "thermo",
+            "dynamics"
+          ],
+          "glossZh": "热力学"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "hydr 与 phon：水与声",
       "body": "**hydōr**（属格 hydatos）是“水”。hydrate 是“水合物”，dehydrate 是“脱水”，hydroelectric 是“水力发电”。注意 **hydrogen** 也是它构成的：hydro + gen（产生）→“产生水的”——这个名字来自它燃烧后生成水，是 18 世纪末的人造术语，第 6 天会专门讲它的来历。\n\n**phōnē** 是“声音、嗓音”。telephone 是“远处的声音”，microphone 是“放大微弱声音的装置”（micro 小），phoneme 是“音位”——语言学里最小的辨义语音单位，这个词 19 世纪末才造出来。symphony 是“一起发声”（syn 一起）。\n\n一个提醒：**phon 与 phone 不同**。phone 在现代英语里是 telephone 的截短词，指“电话”；而 phon- 作为组合形式指的是“声音”这个抽象概念。",
-      "morphemes": ["hydr", "phon", "tele", "micro"]
+      "morphemes": [
+        "hydr",
+        "phon",
+        "tele",
+        "micro"
+      ]
     }
   ],
   "practice": [
@@ -75,19 +195,36 @@
       "id": "w06d2-p1",
       "kind": "mcq",
       "prompt": "antibiotic 的字面意思最接近下面哪一项？",
-      "choices": ["反对生命的、抑制生命的", "支持生命的", "研究生命的", "记录生命的"],
+      "choices": [
+        "反对生命的、抑制生命的",
+        "支持生命的",
+        "研究生命的",
+        "记录生命的"
+      ],
       "answer": 0,
       "explain": "anti-（反对）+ bios（生命）+ -ic → 抑制生命（指抑制细菌等微生物）的物质，即抗生素。它不表示“支持生命”，这是最常见的误读。",
-      "concepts": ["bio", "anti", "c-combining"]
+      "concepts": [
+        "bio",
+        "anti",
+        "c-combining"
+      ]
     },
     {
       "id": "w06d2-p2",
       "kind": "mcq",
       "prompt": "geometry 的原始字面义是什么？",
-      "choices": ["测量土地", "研究地球", "书写大地", "大地的热"],
+      "choices": [
+        "测量土地",
+        "研究地球",
+        "书写大地",
+        "大地的热"
+      ],
       "answer": 0,
       "explain": "geo（土地）+ metry（测量）→ 测量土地。这是古代实用技术，后来才抽象为数学分支。“研究地球”是 geology，“书写大地”是 geography。",
-      "concepts": ["geo", "metr"]
+      "concepts": [
+        "geo",
+        "metr"
+      ]
     },
     {
       "id": "w06d2-p3",
@@ -95,27 +232,46 @@
       "prompt": "填入合适的单词（必要时改变词形）",
       "sentence": "The sensor housing is designed to resist ___ stress, since the enclosure sits next to the motor driver.",
       "answer": "thermal",
-      "accept": ["thermal"],
+      "accept": [
+        "thermal"
+      ],
       "explain": "therm（热）+ al（形容词后缀）→ thermal“热的、热量的”。thermal stress 是“热应力”，与后文“紧邻电机驱动器”形成因果。",
-      "concepts": ["therm", "al"]
+      "concepts": [
+        "therm",
+        "al"
+      ]
     },
     {
       "id": "w06d2-p4",
       "kind": "wordSum",
       "prompt": "用 + 连接词素，按顺序写出词素切分（不要写整词）。",
-      "parts": ["tele", "phone"],
+      "parts": [
+        "tele",
+        "phone"
+      ],
       "answer": "telephone",
       "explain": "tele（远）+ phone（声音）→ telephone“电话”，字面是“远处传来的声音”。注意词尾是 phone 而非 phon，这是英语化后的拼写。",
-      "concepts": ["tele", "phon"]
+      "concepts": [
+        "tele",
+        "phon"
+      ]
     },
     {
       "id": "w06d2-p5",
       "kind": "mcq",
       "prompt": "hypothermia 中的 hypo- 表示什么？",
-      "choices": ["在下、低于", "过度", "内部", "一半"],
+      "choices": [
+        "在下、低于",
+        "过度",
+        "内部",
+        "一半"
+      ],
       "answer": 0,
       "explain": "hypo- 表示“在下、低于”，hypo + therm（热）+ ia（状态）→ 体温低于正常 → 体温过低。过度是 hyper-，内部是 endo-，一半是 semi-。",
-      "concepts": ["therm", "c-combining"]
+      "concepts": [
+        "therm",
+        "c-combining"
+      ]
     },
     {
       "id": "w06d2-p6",
@@ -126,7 +282,11 @@
       "suffix": "al",
       "answer": "geothermal",
       "explain": "geo（大地）+ therm（热）+ al（形容词后缀）→ geothermal“地热的”。注意 geo 与 therm 之间不需要再加连接元音，因为 geo 本身以 -o 结尾。",
-      "concepts": ["geo", "therm", "al"]
+      "concepts": [
+        "geo",
+        "therm",
+        "al"
+      ]
     }
   ],
   "apply": [
@@ -136,16 +296,37 @@
       "prompt": "阅读下面的测量说明，推测划线词的含义",
       "passage": "Each scan was georeferenced against a surveyed control point, so point clouds captured in different sessions could be compared in a single coordinate frame.",
       "word": "georeferenced",
-      "choices": ["配准到地理坐标系的", "经过几何简化的", "被重新测量的", "由地球观测卫星获取的"],
+      "choices": [
+        "配准到地理坐标系的",
+        "经过几何简化的",
+        "被重新测量的",
+        "由地球观测卫星获取的"
+      ],
       "answer": 0,
       "strategy": "① 切分：geo（大地）+ reference（参照）+ ed；② 语态：被动 was georeferenced against + 控制点；③ 语境：后文说不同时次的点云能在同一坐标系里比较，正是“对齐到统一地理坐标”。",
       "explain": "georeference 是测绘与遥感里的标准动作：把数据对齐到已知的地理坐标系。这里 geo 提供“地理参照”的语义，-ed 说明是已完成的技术处理，不是“由卫星拍摄”。",
-      "concepts": ["geo", "c-inference", "c-scientific"]
+      "concepts": [
+        "geo",
+        "c-inference",
+        "c-scientific"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "希腊组合形式与科技词汇" },
-    { "id": "S5", "title": "Oxford English Dictionary", "detail": "antibiotic、geometry、telephone、phoneme 词条" },
-    { "id": "S4", "title": "New Word-Analysis", "detail": "希腊词根的例词扩展练习" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "希腊组合形式与科技词汇"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "antibiotic、geometry、telephone、phoneme 词条"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "希腊词根的例词扩展练习"
+    }
   ]
 }

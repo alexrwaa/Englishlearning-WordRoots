@@ -9,9 +9,26 @@
     "能指出复合词的中心语，并说明词性与核心意义由它决定",
     "能解释 greenhouse、redhead 这类词的语义为何不能逐字翻译"
   ],
-  "prereqs": ["c-morpheme", "c-base"],
-  "concepts": ["c-compound", "c-base", "c-transparency"],
-  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 4 },
+  "prereqs": [
+    "c-morpheme",
+    "c-base"
+  ],
+  "concepts": [
+    "c-compound",
+    "c-base",
+    "c-transparency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s14-1",
+    "kp-s1c3s14-3",
+    "kp-s1c3s1-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 4
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,20 +36,51 @@
       "title": "两个能独立成词的成分，拼成一个新词",
       "body": "**laptop**、**windmill**、**software**、**greenhouse** 都是**复合词**（`compound`）：由两个或更多**自由词基**相加而成，每个成分单独拿出来都能成词。\n\n英语复合词有一个稳定规律：**中心语在右边**（right-headed）。整个词的词性与核心范畴由最后一个成分决定——windmill 是 mill（磨坊）的一种，software 是 ware（制品）的一类，greenhouse 的中心语是 house（建筑）。\n\n但请注意：中心语只决定“它属于哪一类”，不保证意义能逐字推出来。这正是复合词最容易出错的地方。",
       "terms": [
-        { "term": "compound", "zh": "复合词", "en": "compound", "note": "两个或更多自由词基组合而成的新词" },
-        { "term": "head", "zh": "中心语", "en": "head", "note": "决定复合词词性与核心范畴的成分，通常在右侧" }
+        {
+          "term": "compound",
+          "zh": "复合词",
+          "en": "compound",
+          "note": "两个或更多自由词基组合而成的新词"
+        },
+        {
+          "term": "head",
+          "zh": "中心语",
+          "en": "head",
+          "note": "决定复合词词性与核心范畴的成分，通常在右侧"
+        }
       ],
-      "morphemes": ["lap", "top", "soft", "ware"]
+      "morphemes": [
+        "lap",
+        "top",
+        "soft",
+        "ware"
+      ]
     },
     {
       "kind": "table",
       "title": "拼写三态：分写、连字符、合写",
       "body": "同一个复合词，在不同词典、不同地区、不同年代可能有三种写法。拼写方式不是构词类型的判据，它反映的是**词汇化程度**与出版习惯：越常用、越像“一个词”，越倾向合写。判定复合词要看成分是不是自由词基、意义是否专门化，而不是看中间有没有空格。",
-      "head": ["写法", "特征", "例子"],
+      "head": [
+        "写法",
+        "特征",
+        "例子"
+      ],
       "rows": [
-        ["分写 open", "两个成分各自保留独立拼写与重音", "ice cream, living room, remote control"],
-        ["连字符 hyphenated", "成分较多，或需要避免歧义与误读", "well-being, mother-in-law, state-of-the-art"],
-        ["合写 closed", "高度词汇化、使用频率高", "laptop, software, notebook, keyboard"]
+        [
+          "分写 open",
+          "两个成分各自保留独立拼写与重音",
+          "ice cream, living room, remote control"
+        ],
+        [
+          "连字符 hyphenated",
+          "成分较多，或需要避免歧义与误读",
+          "well-being, mother-in-law, state-of-the-art"
+        ],
+        [
+          "合写 closed",
+          "高度词汇化、使用频率高",
+          "laptop, software, notebook, keyboard"
+        ]
       ]
     },
     {
@@ -42,10 +90,26 @@
       "a": "复合词 compound",
       "b": "自由短语 free phrase",
       "rows": [
-        ["重音", "主重音通常落在第一个成分：ˈgreenhouse", "重音落在名词上：green ˈhouse（绿色的房子）"],
-        ["整体意义", "专门化，常不能逐字推", "成分义直接相加"],
-        ["能否插入修饰语", "不能：*a green very house", "可以：a very green house"],
-        ["屈折位置", "只在词尾变化：laptops, mothers-in-law", "各成分各自变化"]
+        [
+          "重音",
+          "主重音通常落在第一个成分：ˈgreenhouse",
+          "重音落在名词上：green ˈhouse（绿色的房子）"
+        ],
+        [
+          "整体意义",
+          "专门化，常不能逐字推",
+          "成分义直接相加"
+        ],
+        [
+          "能否插入修饰语",
+          "不能：*a green very house",
+          "可以：a very green house"
+        ],
+        [
+          "屈折位置",
+          "只在词尾变化：laptops, mothers-in-law",
+          "各成分各自变化"
+        ]
       ]
     },
     {
@@ -53,15 +117,30 @@
       "title": "语义不可完全预测：greenhouse 与 redhead",
       "body": "**greenhouse** 不指“绿色的房子”，而是玻璃结构、用于控温栽培的**温室**；**blackboard** 今天多是白色或墨绿色，仍叫 blackboard；**laptop** 也不是“膝上的顶部”。成分义只提供线索，整体义靠语言社区的约定。\n\n更进一步：**redhead** 指红头发的人，整体根本不是 head 的一种——中心语没有决定范畴。这类叫**离心复合词**（exocentric compound），与 **blackboard** 这种中心语决定范畴的**向心复合词**（endocentric）相对。\n\n判断时先问一句：这个整体是“右成分”的一种吗？是→向心；不是→离心，只能整体记。",
       "terms": [
-        { "term": "endocentric compound", "zh": "向心复合词", "en": "endocentric compound", "note": "整体是中心语所指范畴的一种，如 blackboard" },
-        { "term": "exocentric compound", "zh": "离心复合词", "en": "exocentric compound", "note": "整体不是中心语所指范畴，如 redhead 指人" }
+        {
+          "term": "endocentric compound",
+          "zh": "向心复合词",
+          "en": "endocentric compound",
+          "note": "整体是中心语所指范畴的一种，如 blackboard"
+        },
+        {
+          "term": "exocentric compound",
+          "zh": "离心复合词",
+          "en": "exocentric compound",
+          "note": "整体不是中心语所指范畴，如 redhead 指人"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "复合词一旦成立，就是新的词基",
       "body": "复合词不是构词的终点。它成为新的**词基**（`base`）后，可以继续被屈折、派生，甚至再复合：\n\n- laptop → laptops（加复数）\n- greenhouse → greenhouses\n- software → software engineer（三成分复合）\n- keyboard → keyboardist（加 -ist）\n\n所以构词是**分层**的：先 lap + top 得到 laptop，再加 -s。写构词算式时要一层一层写，不要把一个四段结构当成一次拼合——否则你会误以为 laptop 里有个 -s 词素。",
-      "morphemes": ["lap", "top", "key", "board"]
+      "morphemes": [
+        "lap",
+        "top",
+        "key",
+        "board"
+      ]
     }
   ],
   "practice": [
@@ -69,20 +148,36 @@
       "id": "w07d1-p1",
       "kind": "mcq",
       "prompt": "下面哪个词是复合词（由两个自由词基相加而成）？",
-      "choices": ["laptop", "return", "understand", "table"],
+      "choices": [
+        "laptop",
+        "return",
+        "understand",
+        "table"
+      ],
       "answer": 0,
       "explain": "lap 与 top 都能独立成词，且整体指一种便携计算机，是典型复合词。return 的 re- 是粘着前缀，不能独立成词；understand 现代义已词汇化，历史来源不等于今天的构词结构；table 不可再切。",
-      "concepts": ["c-compound", "c-morpheme"],
+      "concepts": [
+        "c-compound",
+        "c-morpheme"
+      ],
       "hint": "先看两个成分能否各自单独成词。"
     },
     {
       "id": "w07d1-p2",
       "kind": "mcq",
       "prompt": "greenhouse 的意思是：",
-      "choices": ["外墙涂成绿色的房子", "用于控温栽培植物的玻璃建筑", "带私人花园的住宅", "装有绿色屋顶的办公楼"],
+      "choices": [
+        "外墙涂成绿色的房子",
+        "用于控温栽培植物的玻璃建筑",
+        "带私人花园的住宅",
+        "装有绿色屋顶的办公楼"
+      ],
       "answer": 1,
       "explain": "green 在这里不指颜色，而是与“植物生长环境”相关；整体指温室。复合词的意义常专门化，不能把两个成分的字面义直接相加，这是本课的核心。",
-      "concepts": ["c-compound", "c-transparency"]
+      "concepts": [
+        "c-compound",
+        "c-transparency"
+      ]
     },
     {
       "id": "w07d1-p3",
@@ -90,9 +185,13 @@
       "prompt": "填入合适的单词",
       "sentence": "A ___ is a glass building in which plants are grown at controlled temperatures.",
       "answer": "greenhouse",
-      "accept": ["温室"],
+      "accept": [
+        "温室"
+      ],
       "explain": "greenhouse 指温室。它的拼写是合写形式，说明这个词已经高度词汇化；分写的 green house 才是“绿色的房子”。",
-      "concepts": ["c-compound"]
+      "concepts": [
+        "c-compound"
+      ]
     },
     {
       "id": "w07d1-p4",
@@ -106,7 +205,9 @@
       ],
       "answer": 0,
       "explain": "重音模式与不可插入性是区分复合词和短语的结构证据：ˈgreenhouse 不能扩展成 green very house。音节数、可译性、词尾词性都不是判据——短语也以名词结尾。",
-      "concepts": ["c-compound"]
+      "concepts": [
+        "c-compound"
+      ]
     },
     {
       "id": "w07d1-p5",
@@ -120,7 +221,9 @@
       ],
       "answer": 0,
       "explain": "redhead 指人，不是 head 的一种，中心语未决定整体范畴，因此是离心复合词。它仍是两个完整自由词基相加，所以不是混成，也不是截短。",
-      "concepts": ["c-compound"]
+      "concepts": [
+        "c-compound"
+      ]
     }
   ],
   "apply": [
@@ -130,16 +233,36 @@
       "prompt": "阅读句子，推测 greenhouse 在此处的含义",
       "passage": "The report attributes most of the observed warming to greenhouse gases such as carbon dioxide and methane, which trap outgoing heat in the lower atmosphere.",
       "word": "greenhouse",
-      "choices": ["产生温室效应、能截留热量的", "用玻璃建造的植物栽培房", "外墙涂成绿色的", "依靠风力运转的"],
+      "choices": [
+        "产生温室效应、能截留热量的",
+        "用玻璃建造的植物栽培房",
+        "外墙涂成绿色的",
+        "依靠风力运转的"
+      ],
       "answer": 0,
       "strategy": "① 构词：green + house，但复合词语义已专门化，不能逐字译；② 搭配：greenhouse gas 是固定术语，与“保温”有关；③ 语境：trap outgoing heat 直接支持“截留热量”这一解释。",
       "explain": "这里的 greenhouse 修饰 gases，指造成温室效应、能把热量截留在大气层中的气体。若按字面理解为“玻璃栽培房”，与 trap heat 的语境完全冲突——这正是复合词必须结合语境定值的例子。",
-      "concepts": ["c-compound", "c-inference"]
+      "concepts": [
+        "c-compound",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：复合词与派生词的区别" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：compounds, heads, endocentric/exocentric" },
-    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "greenhouse、laptop、blackboard 词条" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章：复合词与派生词的区别"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5 Morphology：compounds, heads, endocentric/exocentric"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford Dictionary of English Etymology",
+      "detail": "greenhouse、laptop、blackboard 词条"
+    }
   ]
 }

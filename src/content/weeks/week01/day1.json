@@ -10,8 +10,22 @@
     "能把一个熟悉的派生词切成词素并说出每块的意思"
   ],
   "prereqs": [],
-  "concepts": ["c-morpheme", "c-root", "c-affix"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "concepts": [
+    "c-morpheme",
+    "c-root",
+    "c-affix"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s1-1",
+    "kp-s1c3s1-2",
+    "kp-s1c3s2-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,28 +33,62 @@
       "title": "先看一个你已经认识的长词",
       "body": "**teachers** 这个词，你会不会觉得它只是“教师”的一个整体？试着切开：\n\n- teach：教\n- -er：做这件事的人\n- -s：复数\n\n三块各自都有稳定的意义，而且都能被替换：teach → learn，-er → -ing，-s → 单数。能被替换而意义稳定的最小单位，就是**词素**（`morpheme`）。\n\n再看 **unkind**：un（不）+ kind（善良的）。而 **table** 切不动——tab 和 le 在英语里不承载任何可与 table 组合的意义。切不动不是失败，而是结论：table 是一个不可再分的词素。",
       "terms": [
-        { "term": "morpheme", "zh": "词素", "en": "morpheme", "note": "承载意义或语法功能的最小单位" }
+        {
+          "term": "morpheme",
+          "zh": "词素",
+          "en": "morpheme",
+          "note": "承载意义或语法功能的最小单位"
+        }
       ],
-      "morphemes": ["teach", "er", "un", "kind"]
+      "morphemes": [
+        "teach",
+        "er",
+        "un",
+        "kind"
+      ]
     },
     {
       "kind": "text",
       "title": "替换测试：判断切分的唯一可靠办法",
       "body": "不要凭“看起来像”来切词，要做替换测试。三步：\n\n1. 假设某一段是一个词素。\n2. 把它换成另一段，看剩下的部分是否仍然成立、意思是否随之可预测地改变。\n3. 再反过来固定它、替换前面的部分。\n\n以 **unhelpful** 为例：un + help + ful。把 un 换成 re，得到 rehelpful——英语里没有这个词，可见单靠一次替换不足以下结论，要看整个词族：helpful / helpless / helper 都成立，unkind / unfair 也都成立，说明 help、-ful、-less、un- 各自都是能反复使用的单位。**双向都能替换**，切分才可靠。\n\n反例：**understand** 里的 under 与 stand 看起来都能独立成词，但 understand 的意思不是“站在下面”。这说明它的现代意义已经词汇化，不再是可分析的组合。历史上它确实来自 under + stand，但那是词源事实，不是今天的构词结构。",
       "terms": [
-        { "term": "substitution test", "zh": "替换测试", "en": "substitution test" }
+        {
+          "term": "substitution test",
+          "zh": "替换测试",
+          "en": "substitution test"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "四种基本类型：先建立坐标",
       "body": "英语词素可以按两个维度分类：**能否独立成词**（自由 / 粘着），以及**在词中的位置与功能**（词根 / 词缀）。这两组维度会交叉，所以同一个词素可能同时属于两类描述。",
-      "head": ["类型", "说明", "例子"],
+      "head": [
+        "类型",
+        "说明",
+        "例子"
+      ],
       "rows": [
-        ["自由词素 free morpheme", "可以单独成词", "help, kind, book, run"],
-        ["粘着词素 bound morpheme", "必须附着在别的成分上", "un-, -ness, -ed, struct-"],
-        ["词根 root", "词族中承载核心词汇意义的部分", "struct（建造）、fer（携带）"],
-        ["词缀 affix", "附着并改变词义或语法功能", "un-, re-, -ful, -s"]
+        [
+          "自由词素 free morpheme",
+          "可以单独成词",
+          "help, kind, book, run"
+        ],
+        [
+          "粘着词素 bound morpheme",
+          "必须附着在别的成分上",
+          "un-, -ness, -ed, struct-"
+        ],
+        [
+          "词根 root",
+          "词族中承载核心词汇意义的部分",
+          "struct（建造）、fer（携带）"
+        ],
+        [
+          "词缀 affix",
+          "附着并改变词义或语法功能",
+          "un-, re-, -ful, -s"
+        ]
       ]
     },
     {
@@ -50,17 +98,38 @@
       "a": "音节",
       "b": "词素",
       "rows": [
-        ["判断依据", "发音时的响度峰与音节结构", "是否承载稳定意义并可替换"],
-        ["teachers", "tea-chers（2 个音节）", "teach-er-s（3 个词素）"],
-        ["table", "ta-ble（2 个音节）", "table（1 个词素）"],
-        ["strengths", "1 个音节", "strength-s（2 个词素）"]
+        [
+          "判断依据",
+          "发音时的响度峰与音节结构",
+          "是否承载稳定意义并可替换"
+        ],
+        [
+          "teachers",
+          "tea-chers（2 个音节）",
+          "teach-er-s（3 个词素）"
+        ],
+        [
+          "table",
+          "ta-ble（2 个音节）",
+          "table（1 个词素）"
+        ],
+        [
+          "strengths",
+          "1 个音节",
+          "strength-s（2 个词素）"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "词素是抽象的：先记住“单位”，形式后面再谈",
       "body": "词素是抽象单位，它在不同语音环境里会以不同形式出现，这叫**词素变体**（`allomorph`）。否定前缀 in- 在 impossible 里写作 im-，在 illegal 里写作 il-，在 irregular 里写作 ir-——三种拼写，同一个词素。\n\n这也是为什么今天不需要背“in- 的所有变体”：先建立“这是一个词素”的意识，第 8 周会系统处理拼写与读音的对应关系。\n\n一个实用结论：**分析词素时看意义，不要被拼写差异骗到**；但也**不能只凭意义猜测就宣布同源**——这两条边界会贯穿整个课程。",
-      "morphemes": ["in", "im", "il", "ir"]
+      "morphemes": [
+        "in",
+        "im",
+        "il",
+        "ir"
+      ]
     }
   ],
   "practice": [
@@ -68,20 +137,35 @@
       "id": "w01d1-p1",
       "kind": "mcq",
       "prompt": "下面哪个词不能再切分成更小的、有意义且可替换的单位？",
-      "choices": ["unhappy", "table", "helpful", "rebuilt"],
+      "choices": [
+        "unhappy",
+        "table",
+        "helpful",
+        "rebuilt"
+      ],
       "answer": 1,
       "explain": "table 切出的 tab、le 在英语中不承载可与 table 组合的稳定意义，也无法通过替换测试；其余三词都能切出两个以上词素。",
-      "concepts": ["c-morpheme"],
+      "concepts": [
+        "c-morpheme"
+      ],
       "hint": "对每个选项做一次替换测试。"
     },
     {
       "id": "w01d1-p2",
       "kind": "mcq",
       "prompt": "struct-（如 construct、instruct、structure 中）属于哪一类？",
-      "choices": ["自由词素", "粘着词根", "屈折词缀", "派生前缀"],
+      "choices": [
+        "自由词素",
+        "粘着词根",
+        "屈折词缀",
+        "派生前缀"
+      ],
       "answer": 1,
       "explain": "struct- 承载“建造”这一核心词汇意义，但不能单独成词，因此是粘着词根。它不是词缀：词缀改变词义或语法功能，而词根承载词族的核心意义。",
-      "concepts": ["c-root", "c-morpheme"]
+      "concepts": [
+        "c-root",
+        "c-morpheme"
+      ]
     },
     {
       "id": "w01d1-p3",
@@ -89,18 +173,32 @@
       "prompt": "填入正确的术语（中文或英文均可）",
       "sentence": "必须附着在别的成分上、不能单独成词的词素叫 ___ morpheme。",
       "answer": "bound",
-      "accept": ["粘着", "黏着", "粘着词素", "bound morpheme"],
+      "accept": [
+        "粘着",
+        "黏着",
+        "粘着词素",
+        "bound morpheme"
+      ],
       "explain": "bound morpheme（粘着词素）不能独立成词，如 -ness、un-、-ed；与之相对的是 free morpheme。",
-      "concepts": ["c-morpheme"]
+      "concepts": [
+        "c-morpheme"
+      ]
     },
     {
       "id": "w01d1-p4",
       "kind": "wordSum",
       "prompt": "用 + 连接词素，写出切分（不要写整词）：un + kind + ness",
-      "parts": ["un", "kind", "ness"],
+      "parts": [
+        "un",
+        "kind",
+        "ness"
+      ],
       "answer": "unkindness",
       "explain": "un（不）+ kind（善良的）+ ness（名词后缀）→ unkindness“不友善”。三块都是词素，ness 把形容词变成名词。",
-      "concepts": ["c-morpheme", "c-affix"]
+      "concepts": [
+        "c-morpheme",
+        "c-affix"
+      ]
     },
     {
       "id": "w01d1-p5",
@@ -114,7 +212,10 @@
       ],
       "answer": 2,
       "explain": "understand 历史上确实来自 under + stand，但现代义“理解”不能由“站在下面”推出，说明它已词汇化。区分历史词源与现代共时构词，是本周就要建立的习惯。",
-      "concepts": ["c-morpheme", "c-etymology"]
+      "concepts": [
+        "c-morpheme",
+        "c-etymology"
+      ]
     }
   ],
   "apply": [
@@ -124,16 +225,38 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "The new lidar module is surprisingly lightweight, but its mounting bracket is not: the whole assembly is unmanageable for a single technician to install without a lift.",
       "word": "unmanageable",
-      "choices": ["无法搬运或操控的", "无法管理的团队", "不需要维护的", "可以手动校准的"],
+      "choices": [
+        "无法搬运或操控的",
+        "无法管理的团队",
+        "不需要维护的",
+        "可以手动校准的"
+      ],
       "answer": 0,
       "strategy": "① 切分：un（否定）+ manage（操控、管理）+ able（能够……的）；② 词性：-able 构成形容词，作表语；③ 语境：前文说“轻”，but 转折，后文说单人没有升降设备装不上，指向“难以操作/搬运”。",
       "explain": "un + manage + able = “不能被 manage 的”。manage 在工程语境可指“操作、应付”，所以 unmanageable 在这里是“难以搬动/操控”。若脱离语境，也可能指“难以管理”，这正是需要用语境收窄词义的地方。",
-      "concepts": ["un", "manage", "able", "c-inference"]
+      "concepts": [
+        "un",
+        "manage",
+        "able",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 1 章：英语词汇的来源与词素概念" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：morpheme 与 allomorph" },
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "四问探究与替换测试方法" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 1 章：英语词汇的来源与词素概念"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5 Morphology：morpheme 与 allomorph"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "四问探究与替换测试方法"
+    }
   ]
 }

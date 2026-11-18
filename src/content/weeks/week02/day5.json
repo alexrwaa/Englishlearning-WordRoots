@@ -9,9 +9,26 @@
     "能用四问完整分析 structure 并给出每一步的产出",
     "能解释为什么词源问题必须放在最后"
   ],
-  "prereqs": ["w02d4", "c-word-family"],
-  "concepts": ["c-word-family", "c-word-matrix", "c-word-sum", "c-etymology", "c-morpheme"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w02d4",
+    "c-word-family"
+  ],
+  "concepts": [
+    "c-word-family",
+    "c-word-matrix",
+    "c-word-sum",
+    "c-etymology",
+    "c-morpheme"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s21-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,32 +36,68 @@
       "title": "四个问题，一个顺序",
       "body": "结构化词汇探究（Structured Word Inquiry，SWI）用四个问题处理任何一个词：\n\n1. **这个词是什么意思？** 先看它在句中的用法与词性，不要一上来就拆。\n2. **它是怎么构成的？** 写出构词算式，给出每一块的意义。\n3. **它和哪些词同族？** 画出矩阵，检查哪些组合成立。\n4. **它的词源是什么？** 最后查历史来源，用来解释不规则之处。\n\n顺序不是装饰。先问意义，是因为同一个结构可能有多个义项；把词源放最后，是因为词源最容易反过来污染你对现代词义的判断。",
       "terms": [
-        { "term": "Structured Word Inquiry", "zh": "结构化词汇探究", "en": "Structured Word Inquiry", "note": "以四问为核心的词汇教学方法" }
+        {
+          "term": "Structured Word Inquiry",
+          "zh": "结构化词汇探究",
+          "en": "Structured Word Inquiry",
+          "note": "以四问为核心的词汇教学方法"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "用 structure 走一遍",
       "body": "**第一问：什么意思？** 名词，指事物各部分之间的安排方式，也可指建成的物体。\n\n**第二问：怎么构成？** struct（建造）+ ure（结果、状态）→ structure。核心义是“建造出来的东西”，再抽象为“结构”。\n\n**第三问：有哪些同族词？** construct、construction、instruct、instructor、destructive、infrastructure、obstruct、obstruction。它们共享“建造/搭建”这一核心义，但各自的前缀把它推向不同方向：in- 向内（在头脑里搭建 → 指导），de- 向下（拆掉 → 破坏），ob- 对着（挡住 → 阻塞）。\n\n**第四问：词源？** 拉丁 struere“堆叠、建造”，过去分词 structus，名词 structura；英语的 structure 经法语 structure 传入（也可能直接取自拉丁，词源书说法不一）。这条信息解释了为什么 -ure 不是随机的拼写。",
-      "morphemes": ["struct", "ure", "con", "in", "de", "ob", "infra"]
+      "morphemes": [
+        "struct",
+        "ure",
+        "con",
+        "in",
+        "de",
+        "ob",
+        "infra"
+      ]
     },
     {
       "kind": "table",
       "title": "每一问要做什么、容易错在哪",
       "body": "四问不是四个可以随便跳的步骤。每一问都有明确的产出物，也有一个典型错误；产出物决定你这一步是否真的做完了，典型错误决定你下一步会不会带着错误的结论往前走。",
-      "head": ["问题", "产出物", "典型错误"],
+      "head": [
+        "问题",
+        "产出物",
+        "典型错误"
+      ],
       "rows": [
-        ["1 什么意思", "语境中的义项与词性", "跳过语境，直接按词根猜义"],
-        ["2 怎么构成", "一行或多层构词算式", "把词源形式（struere）写进算式"],
-        ["3 哪些同族", "矩阵或同族词清单", "只凭拼写相似就归族"],
-        ["4 词源是什么", "历史来源与演变说明", "用词源替代现代构词分析"]
+        [
+          "1 什么意思",
+          "语境中的义项与词性",
+          "跳过语境，直接按词根猜义"
+        ],
+        [
+          "2 怎么构成",
+          "一行或多层构词算式",
+          "把词源形式（struere）写进算式"
+        ],
+        [
+          "3 哪些同族",
+          "矩阵或同族词清单",
+          "只凭拼写相似就归族"
+        ],
+        [
+          "4 词源是什么",
+          "历史来源与演变说明",
+          "用词源替代现代构词分析"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "为什么词源必须放最后",
       "body": "词源很有说服力，也很容易骗人。它回答的是“这个词从哪来”，不是“这个词现在怎么用”。\n\n如果先查词源，你会不自觉地用历史义去套现代义：知道 nice 来自“无知”，就容易在阅读中误判它的语气；知道 quarantine 来自“四十天”，就可能把“隔离”理解成“四分之一”。\n\n把它放在最后，作用就变成了**校验**：如果词源能解释某个不规则拼写或不透明结构，很好；如果解释不了，也不影响前三问已经得出的结论。这个顺序本质上是在保护你的判断。",
-      "morphemes": ["nice", "quarantine"]
+      "morphemes": [
+        "nice",
+        "quarantine"
+      ]
     },
     {
       "kind": "passage",
@@ -53,8 +106,14 @@
       "excerpt": "The failure of the first prototype was instructive: it showed that the calibration step had been skipped, not that the sensor itself was inadequate.",
       "glossZh": "第一台样机的失败很有启发性：它表明问题出在跳过了标定步骤，而不是传感器本身不够好。",
       "questions": [
-        { "q": "instructive 在这句里更接近哪个意思？", "a": "有启发性的、提供了教训的。" },
-        { "q": "按四问的顺序，第一步应该确认什么？", "a": "它在句中的意思与词性：形容词，作表语，评价“失败”的价值。" }
+        {
+          "q": "instructive 在这句里更接近哪个意思？",
+          "a": "有启发性的、提供了教训的。"
+        },
+        {
+          "q": "按四问的顺序，第一步应该确认什么？",
+          "a": "它在句中的意思与词性：形容词，作表语，评价“失败”的价值。"
+        }
       ]
     }
   ],
@@ -63,19 +122,35 @@
       "id": "w02d5-p1",
       "kind": "mcq",
       "prompt": "“这个词和哪些词属于同一词族？”属于 SWI 的第几问？",
-      "choices": ["第一问：什么意思", "第二问：怎么构成", "第三问：有哪些同族词", "第四问：词源是什么"],
+      "choices": [
+        "第一问：什么意思",
+        "第二问：怎么构成",
+        "第三问：有哪些同族词",
+        "第四问：词源是什么"
+      ],
       "answer": 2,
       "explain": "第三问专门处理词族，产出物是矩阵或同族词清单。它建立在第二问的结构分析之上：先能切分，才谈得上找同族。",
-      "concepts": ["c-word-family", "c-word-matrix"]
+      "concepts": [
+        "c-word-family",
+        "c-word-matrix"
+      ]
     },
     {
       "id": "w02d5-p2",
       "kind": "mcq",
       "prompt": "四问中，哪一问最容易被误用来解释现代词义？",
-      "choices": ["第一问", "第二问", "第三问", "第四问"],
+      "choices": [
+        "第一问",
+        "第二问",
+        "第三问",
+        "第四问"
+      ],
       "answer": 3,
       "explain": "词源回答历史来源，不回答现代用法。用词源解释现代义，就会重犯“nice 含无知义”“quarantine 是四分之一”这类错误。所以它应放在最后作校验。",
-      "concepts": ["c-etymology", "c-morpheme"]
+      "concepts": [
+        "c-etymology",
+        "c-morpheme"
+      ]
     },
     {
       "id": "w02d5-p3",
@@ -83,9 +158,14 @@
       "prompt": "补全 SWI 的英文全称",
       "sentence": "SWI stands for Structured ___ Inquiry.",
       "answer": "Word",
-      "accept": ["Word", "word"],
+      "accept": [
+        "Word",
+        "word"
+      ],
       "explain": "SWI = Structured Word Inquiry，直译“结构化词汇探究”。它的核心不是背词根，而是用四个问题对词做可检验的探究。",
-      "concepts": ["c-word-family"]
+      "concepts": [
+        "c-word-family"
+      ]
     },
     {
       "id": "w02d5-p4",
@@ -99,7 +179,11 @@
       ],
       "answer": 1,
       "explain": "矩阵既展示结构（哪些前缀后缀能组合，对应第二问），又展示同族词（对应第三问）。它不负责确定语境义项，也不提供历史来源。",
-      "concepts": ["c-word-matrix", "c-word-sum", "struct"]
+      "concepts": [
+        "c-word-matrix",
+        "c-word-sum",
+        "struct"
+      ]
     },
     {
       "id": "w02d5-p5",
@@ -113,7 +197,11 @@
       ],
       "answer": 1,
       "explain": "形态规则只能说明“可以这样分析”，不能说明“这个词存在”。第三问查词族会发现 impossible 已经承担了否定义，*unpossible 在现代标准英语中不用。这正是明天要展开的问题。",
-      "concepts": ["c-word-family", "c-word-matrix", "un"]
+      "concepts": [
+        "c-word-family",
+        "c-word-matrix",
+        "un"
+      ]
     }
   ],
   "apply": [
@@ -123,16 +211,38 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "Delays in the review process were obstructive rather than merely slow: they blocked publication entirely for more than a year.",
       "word": "obstructive",
-      "choices": ["阻碍性的、造成阻塞的", "建设性的、有帮助的", "指导性的、提供信息的", "结构上的、与构造有关的"],
+      "choices": [
+        "阻碍性的、造成阻塞的",
+        "建设性的、有帮助的",
+        "指导性的、提供信息的",
+        "结构上的、与构造有关的"
+      ],
       "answer": 0,
       "strategy": "①切分 ob（对着、挡住）+ struct（建造）+ ive（形容词后缀）；②作表语，与 merely slow 形成对比；③冒号后说“完全阻止发表一年多”，指向阻碍；④排除“建设性”（constructive）与“指导性”（instructive），它们共享 struct 但前缀不同。",
       "explain": "ob- 表示“对着、挡住”，所以 ob + struct + ive 是“挡在路上的”。句中用 rather than merely slow 强调不只是慢，而是造成了实质阻塞。同族的 constructive、instructive 靠前缀区分方向。",
-      "concepts": ["ob", "struct", "ive", "c-inference"]
+      "concepts": [
+        "ob",
+        "struct",
+        "ive",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "四问框架与探究顺序" },
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 2 章：struct 词族与前缀的方向义" },
-    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "structure 经法语来自拉丁 structura" }
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "四问框架与探究顺序"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章：struct 词族与前缀的方向义"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford Dictionary of English Etymology",
+      "detail": "structure 经法语来自拉丁 structura"
+    }
   ]
 }

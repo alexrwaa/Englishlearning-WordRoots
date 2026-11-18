@@ -21,6 +21,10 @@
     "c-acronym",
     "c-scientific"
   ],
+  "knowledgePoints": [
+    "kp-s1c2s10-4",
+    "kp-s1c3s18-1"
+  ],
   "minutes": {
     "review": 5,
     "learn": 9,

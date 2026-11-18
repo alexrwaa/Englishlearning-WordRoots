@@ -9,9 +9,26 @@
     "能说明为什么 unhelpful 应切为 un + helpful，而不是 unhelp + ful",
     "能把 nation 系列按派生顺序排列并标出每步的词性变化"
   ],
-  "prereqs": ["w01d2", "c-root"],
-  "concepts": ["c-base", "c-derivation", "c-affix", "c-suffix"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w01d2",
+    "c-root"
+  ],
+  "concepts": [
+    "c-base",
+    "c-derivation",
+    "c-affix",
+    "c-suffix"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s5-1",
+    "kp-s1c3s12-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,39 +36,117 @@
       "title": "从 help 长到 unhelpfulness：四层，不是四块",
       "body": "看到 unhelpfulness，很多人的第一反应是“un + help + ful + ness，四块拼起来”。方向对，但过程错了。真实的派生是一层一层发生的：\n\n1. help（动词/名词）“帮助”\n2. help + ful → helpful（形容词）“有帮助的”\n3. un + helpful → unhelpful（形容词）“无帮助的”\n4. unhelpful + ness → unhelpfulness（名词）“无用、无帮助”\n\n每一步只加一个成分，每一步的产物都是一个真实的英语词。这就是**逐层派生**。",
       "terms": [
-        { "term": "base", "zh": "词基", "en": "base", "note": "当前这一次构词操作所作用的形式" },
-        { "term": "derivation", "zh": "派生", "en": "derivation" }
+        {
+          "term": "base",
+          "zh": "词基",
+          "en": "base",
+          "note": "当前这一次构词操作所作用的形式"
+        },
+        {
+          "term": "derivation",
+          "zh": "派生",
+          "en": "derivation"
+        }
       ],
-      "morphemes": ["help", "ful", "un", "ness"]
+      "morphemes": [
+        "help",
+        "ful",
+        "un",
+        "ness"
+      ]
     },
     {
       "kind": "sum",
       "title": "同一词族的四条算式",
       "body": "写成算式时，加号左边不一定是同一个东西：第一行左边是词根 help，第三行左边已经是带后缀的 helpful。**左侧就是词基**，它随步骤变化。这也是为什么算式本身不足以表达层次，必要时要用括号：un + (help + ful)。",
       "sums": [
-        { "parts": ["help", "ful"], "result": "helpful", "glossZh": "有帮助的" },
-        { "parts": ["helpful", "ness"], "result": "helpfulness", "glossZh": "有帮助、有益" },
-        { "parts": ["un", "helpful"], "result": "unhelpful", "glossZh": "无帮助的" },
-        { "parts": ["unhelpful", "ness"], "result": "unhelpfulness", "glossZh": "无用、无帮助", "note": "屈折后缀若再加，须加在最外层：unhelpfulnesses 极少用，但结构上成立" }
+        {
+          "parts": [
+            "help",
+            "ful"
+          ],
+          "result": "helpful",
+          "glossZh": "有帮助的"
+        },
+        {
+          "parts": [
+            "helpful",
+            "ness"
+          ],
+          "result": "helpfulness",
+          "glossZh": "有帮助、有益"
+        },
+        {
+          "parts": [
+            "un",
+            "helpful"
+          ],
+          "result": "unhelpful",
+          "glossZh": "无帮助的"
+        },
+        {
+          "parts": [
+            "unhelpful",
+            "ness"
+          ],
+          "result": "unhelpfulness",
+          "glossZh": "无用、无帮助",
+          "note": "屈折后缀若再加，须加在最外层：unhelpfulnesses 极少用，但结构上成立"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "每一步都问三个问题",
       "body": "做层次分析时，对每一层问三件事：**这一步的词基是谁？加的是什么？加完之后是什么词性？** 三个问题答不上来，就说明这一步的切分可能不成立。特别注意第二行与第三行：含义在变，词性没变；到第四行才变成名词。词性并不是每层都动。",
-      "head": ["层次", "词基", "新加成分", "结果词性", "整体意义"],
+      "head": [
+        "层次",
+        "词基",
+        "新加成分",
+        "结果词性",
+        "整体意义"
+      ],
       "rows": [
-        ["1", "help", "—（起点）", "动词 / 名词", "帮助"],
-        ["2", "help", "-ful 形容词后缀", "形容词", "有帮助的"],
-        ["3", "helpful", "un- 否定前缀", "形容词（不变）", "无帮助的"],
-        ["4", "unhelpful", "-ness 名词后缀", "名词", "无用、无帮助的状态"]
+        [
+          "1",
+          "help",
+          "—（起点）",
+          "动词 / 名词",
+          "帮助"
+        ],
+        [
+          "2",
+          "help",
+          "-ful 形容词后缀",
+          "形容词",
+          "有帮助的"
+        ],
+        [
+          "3",
+          "helpful",
+          "un- 否定前缀",
+          "形容词（不变）",
+          "无帮助的"
+        ],
+        [
+          "4",
+          "unhelpful",
+          "-ness 名词后缀",
+          "名词",
+          "无用、无帮助的状态"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "为什么不能写成 unhelp + ful",
       "body": "如果按 unhelp + ful 切，你需要先有一个动词 unhelp，意思是“不帮助”。现代标准英语里没有这个动词（unhelpful 的否定是加在形容词上的），所以这一步在词性上就不成立，而不是“意思勉强能猜”。\n\n判断顺序有个实用办法：**从最外层往里剥**。unhelpfulness 最外层是 -ness，剥掉得到 unhelpful；再剥 un-，得到 helpful；再剥 -ful，得到 help。每一层剥下来的都必须是能独立解释的词缀，剩下的必须是真实存在的词。\n\n顺带一个拼写事实：helpful 只有一个 l。后缀 -ful 来自 full，但作为词缀固定拼作一个 l，所以不是 help + full。",
-      "morphemes": ["un", "help", "ful", "ness"]
+      "morphemes": [
+        "un",
+        "help",
+        "ful",
+        "ness"
+      ]
     },
     {
       "kind": "compare",
@@ -60,10 +155,26 @@
       "a": "一次性拼装",
       "b": "逐层派生",
       "rows": [
-        ["操作方式", "把所有成分同时相加", "每次只加一个成分"],
-        ["词性变化", "说不清哪一步变了词性", "每一步都能标出词性"],
-        ["拼写调整", "不知道变化该记在哪", "变化只发生在具体某一步"],
-        ["遇到不存在的形式", "容易造出 *unhelp", "会在该层停下来并修正"]
+        [
+          "操作方式",
+          "把所有成分同时相加",
+          "每次只加一个成分"
+        ],
+        [
+          "词性变化",
+          "说不清哪一步变了词性",
+          "每一步都能标出词性"
+        ],
+        [
+          "拼写调整",
+          "不知道变化该记在哪",
+          "变化只发生在具体某一步"
+        ],
+        [
+          "遇到不存在的形式",
+          "容易造出 *unhelp",
+          "会在该层停下来并修正"
+        ]
       ]
     }
   ],
@@ -80,26 +191,49 @@
       ],
       "answer": 2,
       "explain": "先由 help 加 -ful 得到形容词 helpful，再加否定前缀 un-。若按第三项之外的切法，都需要先有一个动词 unhelp，而它在标准英语中不存在。",
-      "concepts": ["c-base", "c-derivation", "un", "ful"],
+      "concepts": [
+        "c-base",
+        "c-derivation",
+        "un",
+        "ful"
+      ],
       "hint": "从最外层往里剥，看看每层剩下的是不是真词。"
     },
     {
       "id": "w01d3-p2",
       "kind": "wordSum",
       "prompt": "用 + 连接词素，写出切分（不要写整词）：help + ful + ness",
-      "parts": ["help", "ful", "ness"],
+      "parts": [
+        "help",
+        "ful",
+        "ness"
+      ],
       "answer": "helpfulness",
       "explain": "help（帮助）+ ful（充满……的）+ ness（名词后缀）→ helpfulness“有益、有帮助”。层次上是 (help + ful) + ness，拼写不需调整，注意 -ful 只有一个 l。",
-      "concepts": ["c-base", "ful", "ness"]
+      "concepts": [
+        "c-base",
+        "ful",
+        "ness"
+      ]
     },
     {
       "id": "w01d3-p3",
       "kind": "mcq",
       "prompt": "在 nation → national → nationalize → nationalization 这条链上，nationalization 这一步的直接词基是？",
-      "choices": ["nation", "national", "nationalize", "nationalization"],
+      "choices": [
+        "nation",
+        "national",
+        "nationalize",
+        "nationalization"
+      ],
       "answer": 2,
       "explain": "最后一步是 nationalize 加 -ation 构成名词，所以直接词基是 nationalize。nation 是整个词族的词根层，national 是倒数第二步的词基，两者都不是“这一步”的输入。",
-      "concepts": ["c-base", "c-derivation", "nation", "tion"]
+      "concepts": [
+        "c-base",
+        "c-derivation",
+        "nation",
+        "tion"
+      ]
     },
     {
       "id": "w01d3-p4",
@@ -107,18 +241,33 @@
       "prompt": "填入术语（中文或英文均可）",
       "sentence": "In the chain help → helpful → unhelpful, the form helpful is the ___ of the second step.",
       "answer": "base",
-      "accept": ["词基", "base", "stem"],
+      "accept": [
+        "词基",
+        "base",
+        "stem"
+      ],
       "explain": "词基是当前这一步构词操作所作用的形式。第二步是给 helpful 加 un-，所以 helpful 就是这一步的词基。",
-      "concepts": ["c-base"]
+      "concepts": [
+        "c-base"
+      ]
     },
     {
       "id": "w01d3-p5",
       "kind": "mcq",
       "prompt": "下面哪个形式在标准现代英语中不成立？",
-      "choices": ["unhelpful", "unhelpfulness", "helpfulness", "unhelp（作动词）"],
+      "choices": [
+        "unhelpful",
+        "unhelpfulness",
+        "helpfulness",
+        "unhelp（作动词）"
+      ],
       "answer": 3,
       "explain": "un- 在这里否定的是形容词 helpful，而不是动词 help，所以没有 *unhelp 这个动词。unhelpful、unhelpfulness、helpfulness 都是词典收录的真实词。",
-      "concepts": ["c-base", "c-derivation", "un"]
+      "concepts": [
+        "c-base",
+        "c-derivation",
+        "un"
+      ]
     }
   ],
   "apply": [
@@ -128,16 +277,38 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "The unavailability of calibration data from the original vendor forced the team to rebuild the sensor model from scratch, a delay that pushed the field trial back by three weeks.",
       "word": "unavailability",
-      "choices": ["无法获得、不可用", "不可出售的", "尚未校准的", "不稳定的"],
+      "choices": [
+        "无法获得、不可用",
+        "不可出售的",
+        "尚未校准的",
+        "不稳定的"
+      ],
       "answer": 0,
       "strategy": "①按层次切：avail → available → unavailable → unavailability；②-ity 构成抽象名词，在句中作主语；③语境是“被迫从头重建模型、试验推迟三周”，说明数据拿不到；④排除“不稳定”，那是 unstable 的词族，与 avail 无关。",
       "explain": "avail“有用、可获取”→ available“可获得的”→ un- 否定 → unavailability“无法获得”。-ity 决定它是名词。整句说的是原厂标定数据拿不到，团队只能重建模型。",
-      "concepts": ["un", "able", "ity", "c-inference"]
+      "concepts": [
+        "un",
+        "able",
+        "ity",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：派生层次与词基的替换" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：derivational layers 与层级结构" },
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "逐层构词算式与括号表示法" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章：派生层次与词基的替换"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5 Morphology：derivational layers 与层级结构"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "逐层构词算式与括号表示法"
+    }
   ]
 }

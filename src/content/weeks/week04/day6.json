@@ -9,9 +9,26 @@
     "能说出 -ity、-ic、-tion 对重音位置的吸引作用",
     "能正确应用去 e、y→i、-tion/-sion 三条拼写规则，并知道它们的例外"
   ],
-  "prereqs": ["w04d5"],
-  "concepts": ["c-derivation", "c-base", "c-spelling-rule", "c-word-sum"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w04d5"
+  ],
+  "concepts": [
+    "c-derivation",
+    "c-base",
+    "c-spelling-rule",
+    "c-word-sum"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s5-1",
+    "kp-s1c3s12-1",
+    "kp-s1c3s13-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B2",
   "cards": [
     {
@@ -19,20 +36,70 @@
       "title": "派生是分层的，不是一次性拼合",
       "body": "很多人以为 nationalization 是 nation + al + ize + ation 四块一次拼起来。实际不是：构词是一层一层做的，每一步的输入叫**词基**。\n\nnation（名词）\n→ national（形容词，+ al）\n→ nationalize（动词，+ ize）\n→ nationalization（名词，+ ation）\n\n同样从 national 出发，还有另一条支路：national → nationality（+ ity）。两条支路不能混：不存在 nationalizity，也不存在 nationalityize。\n\n分层意识有两个实际好处：一是能解释拼写变化发生在哪一步，二是能解释重音为什么一级一级往后移。",
       "terms": [
-        { "term": "derivational layer", "zh": "派生层次", "en": "derivational layer" },
-        { "term": "base", "zh": "词基", "en": "base" }
+        {
+          "term": "derivational layer",
+          "zh": "派生层次",
+          "en": "derivational layer"
+        },
+        {
+          "term": "base",
+          "zh": "词基",
+          "en": "base"
+        }
       ],
-      "morphemes": ["nation", "al", "ize", "ation", "ity"]
+      "morphemes": [
+        "nation",
+        "al",
+        "ize",
+        "ation",
+        "ity"
+      ]
     },
     {
       "kind": "sum",
       "title": "把 nation 一族写成算式",
       "body": "算式要按派生顺序写，箭头左边是上一步的结果。这样写能看清：每一步只加一个后缀，拼写调整只发生在该步的接缝处。nationality 与 nationalize 都从 national 出发，是两条平行支路，不能互相派生；nationalization 则在 nationalize 之后再加 -ation。把顺序写对，重音与拼写问题就能定位到具体的那一步。",
       "sums": [
-        { "parts": ["nation", "al"], "result": "national", "glossZh": "国家的、全国的", "note": "直接相加，无拼写变化" },
-        { "parts": ["nation", "al", "ity"], "result": "nationality", "glossZh": "国籍、民族", "note": "重音移到 al 上" },
-        { "parts": ["nation", "al", "ize"], "result": "nationalize", "glossZh": "使国有化", "note": "与 nationality 是两条支路" },
-        { "parts": ["nation", "al", "ize", "ation"], "result": "nationalization", "glossZh": "国有化", "note": "重音移到 za 上" }
+        {
+          "parts": [
+            "nation",
+            "al"
+          ],
+          "result": "national",
+          "glossZh": "国家的、全国的",
+          "note": "直接相加，无拼写变化"
+        },
+        {
+          "parts": [
+            "nation",
+            "al",
+            "ity"
+          ],
+          "result": "nationality",
+          "glossZh": "国籍、民族",
+          "note": "重音移到 al 上"
+        },
+        {
+          "parts": [
+            "nation",
+            "al",
+            "ize"
+          ],
+          "result": "nationalize",
+          "glossZh": "使国有化",
+          "note": "与 nationality 是两条支路"
+        },
+        {
+          "parts": [
+            "nation",
+            "al",
+            "ize",
+            "ation"
+          ],
+          "result": "nationalization",
+          "glossZh": "国有化",
+          "note": "重音移到 za 上"
+        }
       ]
     },
     {
@@ -40,19 +107,48 @@
       "title": "重音迁移：后缀把重音往前拉一格",
       "body": "读一遍这条链，注意重音位置：**NA**-tion → **NA**-tion-al → na-tion-**AL**-i-ty → **NA**-tion-al-ize → na-tion-al-i-**ZA**-tion（大写为重读音节，按音节切分）。\n\n规律是：**-ity、-ic、-ion/-tion、-ial 这类后缀会把主重音吸到自己前面那一个音节上**。-ity 前的 al 被重读，所以是 na-tion-**AL**-i-ty；-tion 前的 za 被重读，所以是 na-tion-al-i-**ZA**-tion。\n\n这条规律也解释 photograph → phoTOgraphy → photoGRAPHic 的重音游走。对四六级阅读来说，它的实际价值是：**听到重音位置，就能大致判断后缀边界**，从而切对词。",
       "terms": [
-        { "term": "stress shift", "zh": "重音迁移", "en": "stress shift" }
+        {
+          "term": "stress shift",
+          "zh": "重音迁移",
+          "en": "stress shift"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "四条拼写规则与它们的例外",
       "body": "规则只在“接缝处”起作用，词素本身不变。表中的例外不是随机噪声，而是高频词保留了较早的拼写习惯，因此必须单独记。使用时按顺序自问三句：后缀首字母是元音还是辅音？词基末尾是 e 还是“辅音 + y”？后缀是 -tion 还是 -sion？三问之后，绝大多数拼写都能推出来，剩下的才需查词典。",
-      "head": ["规则", "说明", "例词", "例外"],
+      "head": [
+        "规则",
+        "说明",
+        "例词",
+        "例外"
+      ],
       "rows": [
-        ["去 e", "元音开头的后缀前，去掉词基末尾不发音的 e", "create → creative；define → definition；nature → natural", "以 ce/ge 结尾常保留 e 以保持软音：change → changeable，notice → noticeable"],
-        ["保留 e", "辅音开头的后缀前一般保留 e", "hope → hopeful；care → careful；safe → safety", "argue → argument；true → truly；whole → wholly；due → duly"],
-        ["y → i", "辅音字母 + y 结尾，加后缀时 y 变 i", "happy → happiness；easy → easily；beauty → beautiful", "元音 + y 不变（play → played）；单音节常保留（shy → shyness，dry → dryness）"],
-        ["-tion / -sion", "依动词词尾选择", "decide → decision；permit → permission；conclude → conclusion", "-mit 类多走 -ssion：admit → admission，submit → submission"]
+        [
+          "去 e",
+          "元音开头的后缀前，去掉词基末尾不发音的 e",
+          "create → creative；define → definition；nature → natural",
+          "以 ce/ge 结尾常保留 e 以保持软音：change → changeable，notice → noticeable"
+        ],
+        [
+          "保留 e",
+          "辅音开头的后缀前一般保留 e",
+          "hope → hopeful；care → careful；safe → safety",
+          "argue → argument；true → truly；whole → wholly；due → duly"
+        ],
+        [
+          "y → i",
+          "辅音字母 + y 结尾，加后缀时 y 变 i",
+          "happy → happiness；easy → easily；beauty → beautiful",
+          "元音 + y 不变（play → played）；单音节常保留（shy → shyness，dry → dryness）"
+        ],
+        [
+          "-tion / -sion",
+          "依动词词尾选择",
+          "decide → decision；permit → permission；conclude → conclusion",
+          "-mit 类多走 -ssion：admit → admission，submit → submission"
+        ]
       ]
     },
     {
@@ -66,19 +162,33 @@
       "id": "w04d6-p1",
       "kind": "mcq",
       "prompt": "nationality 的主重音在第几个音节（按 na-tion-al-i-ty 计）？",
-      "choices": ["第一个", "第二个", "第三个", "第五个"],
+      "choices": [
+        "第一个",
+        "第二个",
+        "第三个",
+        "第五个"
+      ],
       "answer": 2,
       "explain": "-ity 会把主重音吸到自己前面一个音节，因此重音落在 al 上，即第三个音节：na-tion-AL-i-ty。nation 的重音在第一音节，national 也在第一音节；只有加了 -ity 之后才后移。这说明重音位置与派生层次直接相关。",
-      "concepts": ["ity", "c-derivation"]
+      "concepts": [
+        "ity",
+        "c-derivation"
+      ]
     },
     {
       "id": "w04d6-p2",
       "kind": "wordSum",
       "prompt": "用 + 连接词素，写出切分（不要写整词，注意拼写）：happy + ness",
-      "parts": ["happy", "ness"],
+      "parts": [
+        "happy",
+        "ness"
+      ],
       "answer": "happiness",
       "explain": "happy 以“辅音 + y”结尾，加 -ness 时 y 变 i：happiness。变化只发生在接缝处，词素 happy 与 ness 本身没有变。同类还有 easy → easiness、busy → business（后者意义已专门化）。",
-      "concepts": ["ness", "c-spelling-rule"]
+      "concepts": [
+        "ness",
+        "c-spelling-rule"
+      ]
     },
     {
       "id": "w04d6-p3",
@@ -87,26 +197,45 @@
       "sentence": "The ___ of the estimate depends on how often the sensor is recalibrated.",
       "answer": "stability",
       "explain": "stable 加 -ity 时去掉不发音的 e，写作 stability（stable → stabil + ity）。这里需要名词作主语，且 -ity 是抽象属性后缀，与 depends on 的“取决于”搭配自然。",
-      "concepts": ["ity", "c-spelling-rule"]
+      "concepts": [
+        "ity",
+        "c-spelling-rule"
+      ]
     },
     {
       "id": "w04d6-p4",
       "kind": "mcq",
       "prompt": "下面哪个词在加后缀时保留了词基末尾的 e？",
-      "choices": ["natural", "creative", "changeable", "definition"],
+      "choices": [
+        "natural",
+        "creative",
+        "changeable",
+        "definition"
+      ],
       "answer": 2,
       "explain": "change 以 ge 结尾，若去掉 e，g 会变硬音，因此保留 e 写作 changeable。natural（nature 去 e）、creative（create 去 e）、definition（define 去 e）都是元音开头后缀前删去不发音 e 的例子。规则要配合“保持原音”的动因理解。",
-      "concepts": ["able", "c-spelling-rule"],
+      "concepts": [
+        "able",
+        "c-spelling-rule"
+      ],
       "hint": "想一想：去掉 e 之后，前面字母的发音会不会变。"
     },
     {
       "id": "w04d6-p5",
       "kind": "mcq",
       "prompt": "permit 的名词形式是：",
-      "choices": ["permition", "permission", "permittion", "permitment"],
+      "choices": [
+        "permition",
+        "permission",
+        "permittion",
+        "permitment"
+      ],
       "answer": 1,
       "explain": "以 -mit 结尾的拉丁动词，名词化时词干变为 -miss，加 -ion 得 permission。同类有 admit → admission、submit → submission、transmit → transmission。permition 与 permittion 都不符合这条拼写对应。",
-      "concepts": ["sion", "c-spelling-rule"]
+      "concepts": [
+        "sion",
+        "c-spelling-rule"
+      ]
     },
     {
       "id": "w04d6-p6",
@@ -120,7 +249,11 @@
       ],
       "answer": 1,
       "explain": "成立的是 nation → national（+al）→ nationalize（+ize）→ nationalization（+ation），每步只加一个后缀。nationality 与 nationalize 是从 national 分出的两条平行支路，不能互相派生；先加 -ation 再加 -al 也违反层次顺序。",
-      "concepts": ["c-derivation", "c-base", "c-word-sum"]
+      "concepts": [
+        "c-derivation",
+        "c-base",
+        "c-word-sum"
+      ]
     }
   ],
   "apply": [
@@ -130,16 +263,38 @@
       "prompt": "阅读下面的数据集说明，推测划线词的含义",
       "passage": "The unavailability of ground-truth data makes it hard to validate the map: without a surveyed reference, the team can only compare successive runs against each other.",
       "word": "unavailability",
-      "choices": ["无法获得、不可用", "不稳定性", "不准确性", "不可逆性"],
+      "choices": [
+        "无法获得、不可用",
+        "不稳定性",
+        "不准确性",
+        "不可逆性"
+      ],
       "answer": 0,
       "strategy": "① 切分：un（否定）+ avail（可用）+ able（能够）+ ity（名词后缀）；② 词性：-ity 构成名词，作主语中心词；③ 语境：冒号后说没有测绘参考，只能把多次运行结果互相比较；④ 校验：不稳定、不准确、不可逆都不能解释“缺少参考数据”这一因果。",
       "explain": "unavailability 意为“不可获得、无法使用”。构词链是 avail → available → availability → unavailability，否定前缀加在已派生的名词上，而不是加在动词上。重音受 -ity 吸引落在 bil 上（a-vail-a-BIL-i-ty），un- 不改变重音位置；这正好印证本课的重音迁移规律。",
-      "concepts": ["ity", "able", "un", "c-inference"]
+      "concepts": [
+        "ity",
+        "able",
+        "un",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4 章：派生层次、重音与拼写调整" },
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "用算式记录拼写变化发生的位置" },
-    { "id": "S5", "title": "现代辞书与词源参考", "detail": "nationality、nationalization 的重音标注" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：派生层次、重音与拼写调整"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "用算式记录拼写变化发生的位置"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "nationality、nationalization 的重音标注"
+    }
   ]
 }

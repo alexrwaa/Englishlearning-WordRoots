@@ -9,9 +9,25 @@
     "能识别 bio、geo、therm、hydro、graph 等成分并说出核心义",
     "能判断一个词能否按组合形式切分，避免把连接元音当作词素"
   ],
-  "prereqs": ["w01d4", "c-root"],
-  "concepts": ["c-combining", "c-greek-latin", "c-scientific", "c-root"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w01d4",
+    "c-root"
+  ],
+  "concepts": [
+    "c-combining",
+    "c-greek-latin",
+    "c-scientific",
+    "c-root"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s6-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,52 +35,136 @@
       "title": "组合形式：科技词汇的积木",
       "body": "**组合形式**是源自希腊语或拉丁语、专门用于构成学术词的粘着成分。它和普通词根很像——都承载核心意义、都不能单独成词——但有两个特点：\n\n1. 能产性极高，可以反复组合出新术语：bio + logy、bio + graphy、bio + metric。\n2. 常带一个连接元音 **-o-**，把两个成分接起来：therm-o-meter、ge-o-logy。\n\n所以你会在词典里看到 `bio-`、`thermo-`、`-graphy` 这样的写法：连字符表示它必须粘在别的成分上，末尾的 o 属于这个组合形式的固定拼写。",
       "terms": [
-        { "term": "combining form", "zh": "组合形式", "en": "combining form" },
-        { "term": "linking vowel", "zh": "连接元音", "en": "linking vowel" }
+        {
+          "term": "combining form",
+          "zh": "组合形式",
+          "en": "combining form"
+        },
+        {
+          "term": "linking vowel",
+          "zh": "连接元音",
+          "en": "linking vowel"
+        }
       ],
-      "morphemes": ["bio", "logy", "graph"]
+      "morphemes": [
+        "bio",
+        "logy",
+        "graph"
+      ]
     },
     {
       "kind": "table",
       "title": "十个高频组合形式",
       "body": "这张表值得当作“解码表”记下来。左边是形态，中间是来源与核心义，右边是能立刻验证的例词。注意例词里的 o 大多属于前一个组合形式，不需要单独分析。建议按“水、地、热、声、写、量”六个主题分组记，比按字母顺序背更牢。",
-      "head": ["形态", "来源与核心义", "例词"],
+      "head": [
+        "形态",
+        "来源与核心义",
+        "例词"
+      ],
       "rows": [
-        ["bio-", "希腊 bios 生命", "biology、biography、biodiversity"],
-        ["geo-", "希腊 gē 地球、土地", "geology、geography、geothermal"],
-        ["therm-", "希腊 thermē 热", "thermometer、thermal、thermodynamics"],
-        ["hydro-", "希腊 hydōr 水", "hydroelectric、hydrothermal、dehydrate"],
-        ["phon-", "希腊 phōnē 声音", "telephone、phonetics、microphone"],
-        ["graph-", "希腊 graphein 写、画", "photograph、biography、graphic"],
-        ["-logy", "希腊 -logia 学科、研究", "biology、geology、psychology"],
-        ["metr-", "希腊 metron 测量", "thermometer、geometry、metric"],
-        ["micro-", "希腊 mikros 小", "microscope、microclimate、microwave"],
-        ["tele-", "希腊 tēle 远", "telephone、telescope、telemetry"]
+        [
+          "bio-",
+          "希腊 bios 生命",
+          "biology、biography、biodiversity"
+        ],
+        [
+          "geo-",
+          "希腊 gē 地球、土地",
+          "geology、geography、geothermal"
+        ],
+        [
+          "therm-",
+          "希腊 thermē 热",
+          "thermometer、thermal、thermodynamics"
+        ],
+        [
+          "hydro-",
+          "希腊 hydōr 水",
+          "hydroelectric、hydrothermal、dehydrate"
+        ],
+        [
+          "phon-",
+          "希腊 phōnē 声音",
+          "telephone、phonetics、microphone"
+        ],
+        [
+          "graph-",
+          "希腊 graphein 写、画",
+          "photograph、biography、graphic"
+        ],
+        [
+          "-logy",
+          "希腊 -logia 学科、研究",
+          "biology、geology、psychology"
+        ],
+        [
+          "metr-",
+          "希腊 metron 测量",
+          "thermometer、geometry、metric"
+        ],
+        [
+          "micro-",
+          "希腊 mikros 小",
+          "microscope、microclimate、microwave"
+        ],
+        [
+          "tele-",
+          "希腊 tēle 远",
+          "telephone、telescope、telemetry"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "那个 o 不是词素",
       "body": "看到 thermometer，很多人会切成 therm + o + meter，然后问“o 是什么意思”。答案是：它没有词汇意义。这个 -o- 是希腊来源复合词的**连接元音**，作用只是把两个辅音结尾的成分接顺。\n\n它也不是独立的词素，所以不要在复习时把 o 单独记成一张卡。正确的处理是把它算进前一个组合形式的拼写里：thermo- + meter（只有在 thermometry 这类词里，才出现 thermo + metr + y 的切法）。\n\n一个反例帮你校准：photograph 里的 o 属于 photo-（光）这个组合形式，而不是“光 + o + 写”。如果你把每个 o 都当成有意义的成分，很快就会在 geology、biology、thermodynamics 里陷入无法解释的循环。",
-      "morphemes": ["therm", "meter", "photo", "graph"]
+      "morphemes": [
+        "therm",
+        "meter",
+        "photo",
+        "graph"
+      ]
     },
     {
       "kind": "etym",
       "title": "hydrogen：一个人造术语，不是“本土复合词”",
       "body": "hydrogen 常被拆成 hydro（水）+ gen（产生）。这个拆法反映的是造词者的设计，不是英语里自然长出来的复合词：1766 年卡文迪什（Cavendish）分离并报告了这种可燃气体，1787 年拉瓦锡（Lavoisier）等人在《化学命名法》中为它拟定法语名 hydrogène（“生成水的”），随后才进入英语。\n\n三个时间点要分清：**首次分离并报告**是 1766 年，**首次命名**是 1787 年，**首次在英语中使用**在 18 世纪末（约 1791 年）。三者不是一回事。\n\n这一点很重要：**能拆解不等于自然生成**。科技词汇大多是“按规则组装”的产物，所以拆解可靠；而 nice、understand 这类老词是历史演变的结果，拆解反而会误导。第 6 天会专门讲这个区别。",
       "steps": [
-        { "period": "希腊语", "form": "hydōr", "note": "水" },
-        { "period": "希腊语", "form": "-genēs", "note": "产生……的" },
-        { "period": "英语 1766", "form": "inflammable air", "note": "卡文迪什分离并报告这种气体，当时按性质命名" },
-        { "period": "法语 1787", "form": "hydrogène", "note": "拉瓦锡团队在《化学命名法》中定名" },
-        { "period": "英语 1791", "form": "hydrogen", "note": "18 世纪末进入英语化学语域" }
+        {
+          "period": "希腊语",
+          "form": "hydōr",
+          "note": "水"
+        },
+        {
+          "period": "希腊语",
+          "form": "-genēs",
+          "note": "产生……的"
+        },
+        {
+          "period": "英语 1766",
+          "form": "inflammable air",
+          "note": "卡文迪什分离并报告这种气体，当时按性质命名"
+        },
+        {
+          "period": "法语 1787",
+          "form": "hydrogène",
+          "note": "拉瓦锡团队在《化学命名法》中定名"
+        },
+        {
+          "period": "英语 1791",
+          "form": "hydrogen",
+          "note": "18 世纪末进入英语化学语域"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "别把词拆过头：helicopter 的例子",
       "body": "组合形式看起来很好用，但拆分必须尊重真实来源，否则会得出错误结构。\n\nhelicopter 经常被切成 heli + copter，仿佛 heli 是“直升”、copter 是“机”。真实来源是希腊 helix（螺旋，属格 helikos）+ pteron（翼），所以结构是 **helico + pter**。英语里后来才从 helicopter 反推出 copter 这个截短形式。\n\n这条边界值得记住：**先查证来源，再决定切分**。能背下来但切错的词，比不认识更危险，因为它会让你在别的词上继续切错。",
-      "morphemes": ["helico", "pter"]
+      "morphemes": [
+        "helico",
+        "pter"
+      ]
     }
   ],
   "practice": [
@@ -72,19 +172,37 @@
       "id": "w01d5-p1",
       "kind": "mcq",
       "prompt": "下面哪个词含有表示“水”的组合形式？",
-      "choices": ["geology", "thermometer", "hydroelectric", "telegraph"],
+      "choices": [
+        "geology",
+        "thermometer",
+        "hydroelectric",
+        "telegraph"
+      ],
       "answer": 2,
       "explain": "hydro- 来自希腊 hydōr“水”，hydroelectric 指“水力发电的”。geology 的 geo 是“地球”，therm 是“热”，tele 是“远”，都不表示水。",
-      "concepts": ["c-combining", "hydro", "c-scientific"]
+      "concepts": [
+        "c-combining",
+        "hydro",
+        "c-scientific"
+      ]
     },
     {
       "id": "w01d5-p2",
       "kind": "mcq",
       "prompt": "helicopter 的正确词源结构是？",
-      "choices": ["heli + copter", "helico + pter", "helic + opter", "heli + co + pter"],
+      "choices": [
+        "heli + copter",
+        "helico + pter",
+        "helic + opter",
+        "heli + co + pter"
+      ],
       "answer": 1,
       "explain": "helicopter 来自希腊 helix（螺旋，属格 helikos）+ pteron（翼），所以是 helico + pter。copter 是英语后来从这个词反推出来的截短形式，不是原始成分。",
-      "concepts": ["c-combining", "c-etymology", "c-greek-latin"]
+      "concepts": [
+        "c-combining",
+        "c-etymology",
+        "c-greek-latin"
+      ]
     },
     {
       "id": "w01d5-p3",
@@ -92,9 +210,14 @@
       "prompt": "填入组合形式（只写字母串）",
       "sentence": "In biology and biography, the combining form ___ means 'life'.",
       "answer": "bio",
-      "accept": ["bio"],
+      "accept": [
+        "bio"
+      ],
       "explain": "bio- 来自希腊语 bios“生命”。biology 是“研究生命的学科”，biography 是“写生平”，两者共享同一个核心义。",
-      "concepts": ["c-combining", "bio"]
+      "concepts": [
+        "c-combining",
+        "bio"
+      ]
     },
     {
       "id": "w01d5-p4",
@@ -108,16 +231,27 @@
       ],
       "answer": 2,
       "explain": "-o- 是希腊来源复合词的连接元音，只起连接作用，不是独立词素，也没有词汇意义。不要把每个 o 都当作需要记忆的意义单位。",
-      "concepts": ["c-combining", "therm", "meter"]
+      "concepts": [
+        "c-combining",
+        "therm",
+        "meter"
+      ]
     },
     {
       "id": "w01d5-p5",
       "kind": "wordSum",
       "prompt": "用 + 连接成分，写出切分（不要写整词）：bio + logy",
-      "parts": ["bio", "logy"],
+      "parts": [
+        "bio",
+        "logy"
+      ],
       "answer": "biology",
       "explain": "bio（生命）+ logy（学科、研究）→ biology“生物学”。-logy 是高频组合形式，还能构成 geology、psychology、thermology 等术语。",
-      "concepts": ["c-combining", "bio", "logy"]
+      "concepts": [
+        "c-combining",
+        "bio",
+        "logy"
+      ]
     }
   ],
   "apply": [
@@ -127,16 +261,38 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "Iceland heats most of its homes with geothermal energy, drawing steam from wells drilled deep into the volcanic bedrock.",
       "word": "geothermal",
-      "choices": ["地热的", "地质年代的", "几何测量的", "太阳能驱动的"],
+      "choices": [
+        "地热的",
+        "地质年代的",
+        "几何测量的",
+        "太阳能驱动的"
+      ],
       "answer": 0,
       "strategy": "①切分 geo（地球）+ therm（热）+ al（形容词后缀）；②-al 构成形容词，修饰 energy；③语境说从火山岩深处钻井取蒸汽供暖，指向来自地球内部的热；④排除“地质年代”，那是 geology 的词族，geo 相同但 therm 不参与。",
       "explain": "geo + therm + al = “与地球的热有关的”。冰岛用火山岩层中的蒸汽供暖，正是地热能。注意 geo- 只提供“地球”这一层意义，具体是“热”还是“年代”由第二个成分决定。",
-      "concepts": ["geo", "therm", "al", "c-inference"]
+      "concepts": [
+        "geo",
+        "therm",
+        "al",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 8 章：希腊语组合形式与科技词汇" },
-    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "hydrogen（1787 年法语定名，1791 年入英语）、helicopter（helico + pter）词条" },
-    { "id": "S4", "title": "New Word-Analysis", "detail": "希腊词根与连接元音的处理" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章：希腊语组合形式与科技词汇"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford Dictionary of English Etymology",
+      "detail": "hydrogen（1787 年法语定名，1791 年入英语）、helicopter（helico + pter）词条"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "希腊词根与连接元音的处理"
+    }
   ]
 }

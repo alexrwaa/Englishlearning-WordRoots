@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Session from './pages/Session';
 import Course from './pages/Course';
 import MatrixLab from './pages/MatrixLab';
+import Family from './pages/Family';
+import Explore from './pages/Explore';
 import WordLab from './pages/WordLab';
 import Library from './pages/Library';
 import Stats from './pages/Stats';
@@ -14,6 +16,7 @@ const nav = [
   { to: '/', label: '今日学习', icon: '◈', end: true },
   { to: '/course', label: '12 周课程', icon: '▤' },
   { to: '/matrix', label: '构词实验室', icon: '⊞' },
+  { to: '/explore', label: '词族探究', icon: '⌗' },
   { to: '/word', label: '词源词典', icon: '⌘' },
   { to: '/library', label: '知识库', icon: '❏' },
   { to: '/stats', label: '学习统计', icon: '◔' },
@@ -107,6 +110,8 @@ function Shell() {
           <Route path="/session/:lessonId" element={<Session />} />
           <Route path="/course" element={<Course />} />
           <Route path="/matrix" element={<MatrixLab />} />
+          <Route path="/family/:id" element={<Family />} />
+          <Route path="/explore" element={<Explore />} />
           <Route path="/word" element={<WordLab />} />
           <Route path="/word/:word" element={<WordLab />} />
           <Route path="/library" element={<Library />} />

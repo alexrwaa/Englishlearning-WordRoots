@@ -28,6 +28,9 @@
     "metr",
     "logy"
   ],
+  "knowledgePoints": [
+    "kp-s1c3s6-2"
+  ],
   "minutes": {
     "review": 6,
     "learn": 7,

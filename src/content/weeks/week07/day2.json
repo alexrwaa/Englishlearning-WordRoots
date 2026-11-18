@@ -9,9 +9,21 @@
     "能根据限定词、不定式、情态动词等句法槽位判断一个形式是名词还是动词",
     "能解释 to ship、to google 在特定语域中意义为何收窄"
   ],
-  "prereqs": ["w07d1"],
-  "concepts": ["c-conversion", "c-derivation", "c-register"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w07d1"
+  ],
+  "concepts": [
+    "c-conversion",
+    "c-derivation",
+    "c-register"
+  ],
+  "knowledgePoints": [],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,20 +31,50 @@
       "title": "拼写一点没变，词性却换了",
       "body": "比较两组句子：\n\n- Please **email** me the file. / I got an **email** from her.\n- We will **ship** the update on Friday. / The **ship** left the port.\n\nemail、ship 的拼写完全没变，词性却从名词变成动词。这种不加任何词缀、只改变句法用法的构词方式叫**转换构词**（`conversion`），也叫**零派生**（zero derivation）——“零”指的就是没有出现任何词缀。\n\n英语特别偏爱这条路：几乎任何名词，只要句法位置合适，都可能被当动词用。所以判断依据不是拼写，而是**句法位置**。",
       "terms": [
-        { "term": "conversion", "zh": "转换构词", "en": "conversion", "note": "不添加词缀而改变词性的构词方式" },
-        { "term": "zero derivation", "zh": "零派生", "en": "zero derivation", "note": "转换构词的另一个名称，强调词缀为零" }
+        {
+          "term": "conversion",
+          "zh": "转换构词",
+          "en": "conversion",
+          "note": "不添加词缀而改变词性的构词方式"
+        },
+        {
+          "term": "zero derivation",
+          "zh": "零派生",
+          "en": "zero derivation",
+          "note": "转换构词的另一个名称，强调词缀为零"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "四个句法槽位，决定它是名词还是动词",
       "body": "同一个拼写放错位置就读不通，这给我们提供了可靠的判断工具。做题时先找这些“锚点”，再决定词性；不要凭语感猜。特别注意：主语之后如果已经出现谓语动词，那么它前面的成分只可能是名词性成分。",
-      "head": ["句法环境", "判断", "例子"],
+      "head": [
+        "句法环境",
+        "判断",
+        "例子"
+      ],
       "rows": [
-        ["限定词（a/the/my/this）之后", "名词", "a download, the build, my bookmark"],
-        ["to、情态动词（will/can）、please 之后", "动词", "to google, will ship, please email"],
-        ["主语之后直接带宾语", "动词", "They ship the update."],
-        ["be 动词之后", "形容词或分词", "The room is clean."]
+        [
+          "限定词（a/the/my/this）之后",
+          "名词",
+          "a download, the build, my bookmark"
+        ],
+        [
+          "to、情态动词（will/can）、please 之后",
+          "动词",
+          "to google, will ship, please email"
+        ],
+        [
+          "主语之后直接带宾语",
+          "动词",
+          "They ship the update."
+        ],
+        [
+          "be 动词之后",
+          "形容词或分词",
+          "The room is clean."
+        ]
       ]
     },
     {
@@ -40,7 +82,12 @@
       "title": "build 的双重身份：一个形式，两个词位",
       "body": "看 **build**：\n\n- The **build** failed again.（the 之后作主语 → 名词：构建、构建版本）\n- We **build** the model first.（主语之后带宾语 → 动词）\n\n再看 **download**：a download（可数名词，复数 downloads）、to download（动词，过去式 downloaded）。拼写共享，词形变化却各走各的——这正好证明它们是两个不同的**词位**（lexeme）共用了一个形式，而不是“一个词随便变来变去”。\n\n这也是为什么词典会把名词义和动词义分列在不同词条下。",
       "terms": [
-        { "term": "lexeme", "zh": "词位", "en": "lexeme", "note": "词典中的抽象词条单位，同一词位可有多个词形" }
+        {
+          "term": "lexeme",
+          "zh": "词位",
+          "en": "lexeme",
+          "note": "词典中的抽象词条单位，同一词位可有多个词形"
+        }
       ]
     },
     {
@@ -55,10 +102,26 @@
       "a": "转换 conversion",
       "b": "派生 derivation",
       "rows": [
-        ["是否加词缀", "不加：email → to email", "加：modern → modernize"],
-        ["词性变化", "改变：名词→动词", "通常改变：形容词→动词"],
-        ["判定依据", "同一拼写出现在不同句法槽位", "词缀是明确的形态标志"],
-        ["词形变化", "各自独立：downloads / downloaded", "随新词性走：modernizes / modernized"]
+        [
+          "是否加词缀",
+          "不加：email → to email",
+          "加：modern → modernize"
+        ],
+        [
+          "词性变化",
+          "改变：名词→动词",
+          "通常改变：形容词→动词"
+        ],
+        [
+          "判定依据",
+          "同一拼写出现在不同句法槽位",
+          "词缀是明确的形态标志"
+        ],
+        [
+          "词形变化",
+          "各自独立：downloads / downloaded",
+          "随新词性走：modernizes / modernized"
+        ]
       ]
     }
   ],
@@ -67,10 +130,17 @@
       "id": "w07d2-p1",
       "kind": "mcq",
       "prompt": "“We will ship the update on Friday.” 中 ship 的构词性质是：",
-      "choices": ["由名词转换而来的动词", "由动词转换而来的名词", "由两个词基构成的复合词", "加后缀派生出的动词"],
+      "choices": [
+        "由名词转换而来的动词",
+        "由动词转换而来的名词",
+        "由两个词基构成的复合词",
+        "加后缀派生出的动词"
+      ],
       "answer": 0,
       "explain": "ship 位于情态动词 will 之后，是动词位置；它没有加任何词缀，与名词 ship 同形，因此是名词→动词的转换。判断依据是句法槽位，不是词义联想。",
-      "concepts": ["c-conversion"]
+      "concepts": [
+        "c-conversion"
+      ]
     },
     {
       "id": "w07d2-p2",
@@ -78,27 +148,47 @@
       "prompt": "填入一个动词",
       "sentence": "Could you ___ the report to the whole team before noon?",
       "answer": "email",
-      "accept": ["e-mail", "send"],
+      "accept": [
+        "e-mail",
+        "send"
+      ],
       "explain": "could you 之后需要动词原形，email 在此由名词转换为动词，意为“用邮件发送”。send 语法也成立，但本课要练的是名词转动词这一路径。",
-      "concepts": ["c-conversion"]
+      "concepts": [
+        "c-conversion"
+      ]
     },
     {
       "id": "w07d2-p3",
       "kind": "mcq",
       "prompt": "下面哪一组是转换构词？",
-      "choices": ["email → to email", "modern → modernize", "happy → unhappy", "nation → national"],
+      "choices": [
+        "email → to email",
+        "modern → modernize",
+        "happy → unhappy",
+        "nation → national"
+      ],
       "answer": 0,
       "explain": "email 与 to email 拼写相同、词性不同、没有词缀，是转换。modernize 加了 -ize，unhappy 加了否定前缀，national 加了 -al，三者都是派生。",
-      "concepts": ["c-conversion", "c-derivation"]
+      "concepts": [
+        "c-conversion",
+        "c-derivation"
+      ]
     },
     {
       "id": "w07d2-p4",
       "kind": "mcq",
       "prompt": "“The build failed again.” 中 build 的词性是：",
-      "choices": ["名词，作主语", "动词，作谓语", "形容词，作定语", "副词，修饰 failed"],
+      "choices": [
+        "名词，作主语",
+        "动词，作谓语",
+        "形容词，作定语",
+        "副词，修饰 failed"
+      ],
       "answer": 0,
       "explain": "the 是限定词，其后必须是名词性成分；failed 已经是谓语动词，所以 build 只能是被 the 限定的名词，意为“构建（版本）”。这正是转换构词要靠句法位置判断的原因。",
-      "concepts": ["c-conversion"]
+      "concepts": [
+        "c-conversion"
+      ]
     },
     {
       "id": "w07d2-p5",
@@ -112,7 +202,10 @@
       ],
       "answer": 0,
       "explain": "名词转动词时意义会收窄到该领域的典型动作。to ship 在物流中指装船发运，在软件与制造业中指“交付、发布”，必须靠语境定值。",
-      "concepts": ["c-conversion", "c-register"]
+      "concepts": [
+        "c-conversion",
+        "c-register"
+      ]
     }
   ],
   "apply": [
@@ -122,16 +215,37 @@
       "prompt": "推测划线词 onboarded 的含义",
       "passage": "Before the fleet could be deployed, each unit had to be onboarded: technicians installed the firmware, paired the sensors with the controller, and logged the unit in the maintenance system.",
       "word": "onboarded",
-      "choices": ["完成设备接入与初始配置", "把货物装上船", "出任公司董事", "办理登机手续"],
+      "choices": [
+        "完成设备接入与初始配置",
+        "把货物装上船",
+        "出任公司董事",
+        "办理登机手续"
+      ],
       "answer": 0,
       "strategy": "① 形式：on + board 原表示“在船/机上”，此处加 -ed 作谓语，是名词性成分转成的动词；② 语境：冒号后列举 firmware、sensors、controller、maintenance system，全是设备启用流程；③ 排除字面义：没有货物、董事会、机场的任何线索。",
       "explain": "onboard 由“在船上/机上”这一空间义转换为动词，在技术语境中指“让新设备或新成员接入系统并完成初始配置”。这是转换构词加语域收窄的典型：字面义完全帮不上忙，必须靠后续列举的步骤定值。",
-      "concepts": ["c-conversion", "c-register", "c-inference"]
+      "concepts": [
+        "c-conversion",
+        "c-register",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：conversion 与 zero derivation" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：word classes and syntactic distribution" },
-    { "id": "S5", "title": "Merriam-Webster Unabridged", "detail": "ship、download、onboard 的词性与义项分列" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章：conversion 与 zero derivation"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5 Morphology：word classes and syntactic distribution"
+    },
+    {
+      "id": "S5",
+      "title": "Merriam-Webster Unabridged",
+      "detail": "ship、download、onboard 的词性与义项分列"
+    }
   ]
 }

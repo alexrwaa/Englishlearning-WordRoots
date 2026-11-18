@@ -1,31 +1,37 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { Badge, Button, EmptyState, Panel } from '../components/ui';
 import { BasePicker } from '../components/matrix/BasePicker';
-import { MatrixGrid, type GridRow } from '../components/matrix/MatrixGrid';
-import { WordDetail, PRACTICE_QUEUE_KEY, type MatrixSelection } from '../components/matrix/WordDetail';
+import { PRACTICE_QUEUE_KEY } from '../components/matrix/WordDetail';
 import { PracticeQueue } from '../components/matrix/PracticeQueue';
+import { buildBaseCandidates, uniqueWords } from '../components/matrix/model';
 import {
-  affixInventory,
-  buildBaseCandidates,
-  coreIndexOf,
-  familyOf,
-  globalAffixes,
-  locateInMatrix,
-  uniqueWords,
-  type PosFilter,
-} from '../components/matrix/model';
-import { allWords } from '../lib/content';
-import { buildWord, type BuildResult } from '../lib/morph';
+  affixColumns,
+  buildLadder,
+  buildRows,
+  filterRows,
+  groupResults,
+  type Cell,
+  type FilterState,
+  type LadderRow,
+} from '../components/lab/model';
+import { LabGrid, CellSummary } from '../components/lab/LabGrid';
+import { LabDetail, type LabSelection } from '../components/lab/LabDetail';
+import { allWords, getWord } from '../lib/content';
+import { familyBaseForm, familyIdOf, rootIndexOf, type Pos } from '../lib/derive';
 import type { WordEntry } from '../lib/types';
 
-const POS_FILTERS: { key: PosFilter; label: string }[] = [
+const POS_FILTERS: { key: Pos | 'all'; label: string }[] = [
   { key: 'all', label: '全部词性' },
   { key: 'n', label: '名词' },
   { key: 'v', label: '动词' },
   { key: 'adj', label: '形容词' },
+  { key: 'adv', label: '副词' },
 ];
 
-function useNarrow(query = '(max-width: 1080px)'): boolean {
+const EMPTY_FILTERS: FilterState = { query: '', pos: 'all', suffix: '', family: '' };
+
+function useNarrow(query = '(max-width: 1180px)'): boolean {
   const [narrow, setNarrow] = useState(() =>
     typeof window === 'undefined' ? false : window.matchMedia(query).matches,
   );
@@ -44,19 +50,33 @@ function activeChipStyle(active: boolean): React.CSSProperties {
     : { border: '1px solid var(--line-strong)' };
 }
 
-function dedupe(list: string[]): string[] {
-  return [...new Set(list.filter(Boolean))];
+function selectionOf(row: LadderRow, cell: Cell): LabSelection {
+  return {
+    word: row.node.word,
+    affix: cell.affix.form,
+    kind: cell.affix.kind,
+    verdict: cell.verdict,
+    chain: [...row.node.steps, ...cell.verdict.steps],
+  };
 }
 
 export default function MatrixLab() {
   const words = useMemo(() => uniqueWords(allWords()), []);
+  const dictionary = useMemo(() => new Set(words.map((w) => w.w)), [words]);
   const candidates = useMemo(() => buildBaseCandidates(words), [words]);
   const narrow = useNarrow();
+  const [params, setParams] = useSearchParams();
 
-  const [baseChoice, setBaseChoice] = useState('');
-  const base = baseChoice || candidates[0]?.form || '';
+  const paramBase = params.get('base') ?? '';
+  const [baseChoice, setBaseChoice] = useState(paramBase);
+  const base = (baseChoice || paramBase || candidates[0]?.form || '').trim().toLowerCase();
 
-  const [selection, setSelection] = useState<MatrixSelection | null>(null);
+  useEffect(() => {
+    setBaseChoice(paramBase);
+  }, [paramBase]);
+
+  const [filter, setFilter] = useState<FilterState>(EMPTY_FILTERS);
+  const [selectedKey, setSelectedKey] = useState<{ word: string; affix: string } | null>(null);
   const [queueOpen, setQueueOpen] = useState(false);
   const [queueCount, setQueueCount] = useState(0);
 
@@ -64,7 +84,7 @@ export default function MatrixLab() {
     const read = () => {
       try {
         const raw = localStorage.getItem(PRACTICE_QUEUE_KEY);
-        const list = raw ? (JSON.parse(raw) as unknown) : [];
+        const list: unknown = raw ? JSON.parse(raw) : [];
         setQueueCount(Array.isArray(list) ? list.length : 0);
       } catch {
         setQueueCount(0);
@@ -74,113 +94,65 @@ export default function MatrixLab() {
     window.addEventListener('focus', read);
     return () => window.removeEventListener('focus', read);
   }, [queueOpen]);
-  const [pos, setPos] = useState<PosFilter>('all');
-  const [onlyAttested, setOnlyAttested] = useState(false);
-  const [suffixFilter, setSuffixFilter] = useState('');
 
-  const familyWords = useMemo(() => words.filter((w) => w.parts.includes(base)), [words, base]);
-  const inventory = useMemo(() => affixInventory(base, words), [base, words]);
-  const fallback = useMemo(() => globalAffixes(words, 5), [words]);
+  const nodes = useMemo(() => buildLadder(base, dictionary), [base, dictionary]);
+  const columns = useMemo(() => affixColumns(nodes, words), [nodes, words]);
+  const baseRows = useMemo(() => buildRows(nodes, columns, dictionary), [nodes, columns, dictionary]);
+  const rows = useMemo(() => filterRows(baseRows, filter), [baseRows, filter]);
 
-  const rowForms = useMemo(() => {
-    const source =
-      inventory.prefixes.length > 0
-        ? inventory.prefixes.map((p) => p.form)
-        : fallback.prefixes.map((p) => p.form);
-    return ['', ...dedupe(source)];
-  }, [inventory, fallback]);
-  const colForms = useMemo(() => {
-    const source =
-      inventory.suffixes.length > 0
-        ? inventory.suffixes.map((s) => s.form)
-        : fallback.suffixes.map((s) => s.form);
-    return ['', ...dedupe(source)];
-  }, [inventory, fallback]);
+  const verifiedTotal = useMemo(
+    () => baseRows.reduce((n, row) => n + row.cells.filter((c) => c.verdict.state === 'verified').length, 0),
+    [baseRows],
+  );
 
-  // Every cell is produced by the engine; nothing is concatenated by hand.
-  const cells = useMemo(() => {
-    const map = new Map<string, BuildResult>();
-    for (const prefix of rowForms) {
-      for (const suffix of colForms) {
-        map.set(`${prefix}|${suffix}`, buildWord(prefix, base, suffix));
+  const familyOptions = useMemo(() => {
+    const map = new Map<string, string>();
+    for (const row of baseRows) {
+      for (const cell of row.cells) {
+        if (cell.verdict.state !== 'verified') continue;
+        const entry: WordEntry | undefined = getWord(cell.verdict.word);
+        if (!entry) continue;
+        const id = familyIdOf(entry.parts[rootIndexOf(entry.parts)]);
+        if (id && !map.has(id)) map.set(id, familyBaseForm(id) ?? id);
       }
     }
-    return map;
-  }, [rowForms, colForms, base]);
+    return [...map.entries()].sort((a, b) => a[1].localeCompare(b[1]));
+  }, [baseRows]);
 
-  const getCell = (prefix: string, suffix: string): BuildResult =>
-    cells.get(`${prefix}|${suffix}`) ?? buildWord(prefix, base, suffix);
-
-  function cellMatches(result: BuildResult): boolean {
-    if (!result.attested) return !onlyAttested && pos === 'all';
-    return pos === 'all' || result.entry?.pos === pos;
-  }
-
-  const visibleCols = useMemo(
-    () => colForms.filter((s) => !suffixFilter || s === suffixFilter),
-    [colForms, suffixFilter],
+  const suffixOptions = useMemo(
+    () => columns.filter((c) => c.kind === 'suffix').map((c) => c.form),
+    [columns],
   );
 
-  const gridRows = useMemo<GridRow[]>(
-    () =>
-      rowForms
-        .filter((prefix) => visibleCols.some((suffix) => cellMatches(getCell(prefix, suffix))))
-        .map((prefix) => ({
-          prefix,
-          cells: visibleCols.map((suffix) => {
-            const result = getCell(prefix, suffix);
-            return { suffix, result, matches: cellMatches(result) };
-          }),
-        })),
-    // getCell/cellMatches are pure lookups over `cells`; listing them adds noise.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [rowForms, visibleCols, cells, pos, onlyAttested],
-  );
+  const selection = useMemo<LabSelection | null>(() => {
+    if (selectedKey) {
+      const row = baseRows.find((r) => r.node.word === selectedKey.word);
+      const cell = row?.cells.find((c) => c.affix.form === selectedKey.affix);
+      if (row && cell) return selectionOf(row, cell);
+    }
+    for (const row of baseRows) {
+      const cell = row.cells.find((c) => c.verdict.state === 'verified');
+      if (cell) return selectionOf(row, cell);
+    }
+    return null;
+  }, [selectedKey, baseRows]);
 
-  const attestedTotal = useMemo(() => [...cells.values()].filter((c) => c.attested).length, [cells]);
-
-  const defaultSelection = useMemo<MatrixSelection | null>(() => {
-    if (!base) return null;
-    const standalone = words.find((w) => w.w === base);
-    const target = standalone ?? familyWords[0];
-    if (!target) return null;
-    return { ...locateInMatrix(target, base), entry: target };
-  }, [base, words, familyWords]);
-
-  const current = selection ?? defaultSelection;
-  const family = useMemo(() => (current ? familyOf(current.entry, words, 12) : []), [current, words]);
-
-  // Highlight only when the cell reproduces the selected spelling exactly.
-  const highlight = useMemo(() => {
-    if (!current) return null;
-    const built = buildWord(current.prefix, base, current.suffix);
-    return built.entry?.w === current.entry.w ? { prefix: current.prefix, suffix: current.suffix } : null;
-  }, [current, base]);
-
-  const knownBase = candidates.some((c) => c.form === base);
+  const results = useMemo(() => groupResults(rows), [rows]);
+  const knownBase = nodes[0]?.known ?? false;
+  const filtersActive =
+    Boolean(filter.query.trim()) || filter.pos !== 'all' || Boolean(filter.suffix) || Boolean(filter.family);
 
   function chooseBase(form: string) {
     setBaseChoice(form);
-    setSelection(null);
-    setSuffixFilter('');
+    setSelectedKey(null);
+    setParams({ base: form }, { replace: true });
   }
 
-  function pickFamilyWord(entry: WordEntry) {
-    const core = entry.parts.includes(base) ? base : entry.parts[coreIndexOf(entry.parts)];
-    if (core !== base) {
-      setBaseChoice(core);
-      setSuffixFilter('');
-    }
-    setSelection({ ...locateInMatrix(entry, core), entry });
-  }
-
-  function selectCell(prefix: string, suffix: string) {
-    const built = buildWord(prefix, base, suffix);
-    if (built.entry) setSelection({ prefix, suffix, entry: built.entry });
+  function pickCell(row: LadderRow, cell: Cell) {
+    setSelectedKey({ word: row.node.word, affix: cell.affix.form });
   }
 
   if (words.length === 0 || candidates.length === 0) {
-    const noWords = words.length === 0;
     return (
       <div className="page">
         <header className="page-head">
@@ -192,18 +164,13 @@ export default function MatrixLab() {
         </header>
         <Panel>
           <EmptyState
-            title={noWords ? '词库尚未导入' : '词库中没有可用作词基的词条'}
+            title={words.length === 0 ? '词库尚未导入' : '词库中没有可用作词基的词条'}
             body={
-              noWords
+              words.length === 0
                 ? '构词实验室需要 lexicon/words.json 中的已验证词条才能生成矩阵。词库为空时不生成任何组合，也不会用拼写猜词。'
                 : '现有词条无法拆出可独立组合的词基。请检查词库中的 parts 是否按词素拆分。'
             }
           />
-        </Panel>
-        <Panel flat style={{ marginTop: 16 }}>
-          <p className="small muted" style={{ margin: 0 }}>
-            词库导入后，这里会自动列出可作词基的词根与单词，并按词族推导前缀行与后缀列。
-          </p>
         </Panel>
       </div>
     );
@@ -216,12 +183,12 @@ export default function MatrixLab() {
           <div className="eyebrow">构词实验室</div>
           <h1>词矩阵</h1>
           <p className="lede">
-            把一个词基放进「前缀 × 后缀」的网格里。每个格子都经过词库验证：命中就给出真实单词与释义，没命中就是一个结论。
+            行是词基和它已验证的派生词，列是可以加的成分。每一格都是三选一：词库已收录、构词规则不允许、或词库未收录。
           </p>
         </div>
         <div className="row" style={{ gap: 8, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
-          <Badge tone="accent">{familyWords.length} 个词族词条</Badge>
-          <Badge>{attestedTotal} 格已收录</Badge>
+          <Badge tone="accent">{nodes.length} 级词基</Badge>
+          <Badge>{verifiedTotal} 格已收录</Badge>
           <Button size="sm" onClick={() => setQueueOpen(true)}>
             练习队列{queueCount > 0 ? ` (${queueCount})` : ''}
           </Button>
@@ -230,16 +197,16 @@ export default function MatrixLab() {
 
       <div className="panel-flat" style={{ borderLeft: '3px solid var(--accent)', marginBottom: 16 }}>
         <p className="small" style={{ margin: 0, lineHeight: 1.7 }}>
-          <strong>矩阵的空格是结论，不是缺陷。</strong>
-          形态合法（前缀 + 词基 + 后缀能拼出来）不等于英语里真的存在这个词；
-          只有词库验证通过的组合才显示为单词，其余用虚线格表示「未收录」。
+          <strong>三种状态都是结论。</strong>
+          已收录 = 词库里有这个词；规则不允许 = 违反构词顺序或搭配（会给出原因）；
+          未收录 = 拼写能成立但词库没有这个词——<strong>未收录不等于不存在</strong>。
         </p>
       </div>
 
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: narrow ? '1fr' : '252px minmax(0, 1fr) 336px',
+          gridTemplateColumns: narrow ? '1fr' : '248px minmax(0, 1fr)',
           gap: 16,
           alignItems: 'start',
         }}
@@ -252,15 +219,11 @@ export default function MatrixLab() {
           <div className="row-between" style={{ marginBottom: 12, flexWrap: 'wrap', gap: 10 }}>
             <div>
               <h3 style={{ marginBottom: 2 }}>词基</h3>
-              <div className="row" style={{ gap: 8 }}>
+              <div className="row" style={{ gap: 8, flexWrap: 'wrap' }}>
                 <span className="word" style={{ fontSize: 18 }}>
                   {base}
                 </span>
-                {knownBase ? (
-                  <Badge tone="green">词库已收录</Badge>
-                ) : (
-                  <Badge tone="amber">词库未收录该词基</Badge>
-                )}
+                {knownBase ? <Badge tone="green">词库已收录</Badge> : <Badge tone="amber">词库未收录该词基</Badge>}
               </div>
             </div>
             <div className="row" style={{ gap: 6, flexWrap: 'wrap' }}>
@@ -269,64 +232,156 @@ export default function MatrixLab() {
                   key={f.key}
                   type="button"
                   className="chip"
-                  style={activeChipStyle(pos === f.key)}
-                  aria-pressed={pos === f.key}
-                  onClick={() => setPos(f.key)}
+                  style={activeChipStyle(filter.pos === f.key)}
+                  aria-pressed={filter.pos === f.key}
+                  onClick={() => setFilter((prev) => ({ ...prev, pos: f.key }))}
                 >
                   {f.label}
                 </button>
               ))}
-              <button
-                type="button"
-                className="chip"
-                style={activeChipStyle(onlyAttested)}
-                aria-pressed={onlyAttested}
-                onClick={() => setOnlyAttested((v) => !v)}
-              >
-                只看已收录
-              </button>
               <select
                 className="select"
                 aria-label="按后缀过滤"
-                value={suffixFilter}
-                onChange={(e) => setSuffixFilter(e.target.value)}
+                value={filter.suffix}
+                onChange={(e) => setFilter((prev) => ({ ...prev, suffix: e.target.value }))}
                 style={{ width: 'auto', minWidth: 104 }}
               >
                 <option value="">全部后缀</option>
-                {colForms.filter(Boolean).map((s) => (
+                {suffixOptions.map((s) => (
                   <option key={s} value={s}>
                     -{s}
                   </option>
                 ))}
               </select>
+              <select
+                className="select"
+                aria-label="按词族过滤"
+                value={filter.family}
+                onChange={(e) => setFilter((prev) => ({ ...prev, family: e.target.value }))}
+                style={{ width: 'auto', minWidth: 116 }}
+              >
+                <option value="">全部词族</option>
+                {familyOptions.map(([id, label]) => (
+                  <option key={id} value={id}>
+                    {label}
+                  </option>
+                ))}
+              </select>
+              {filtersActive ? (
+                <Button size="sm" variant="ghost" onClick={() => setFilter(EMPTY_FILTERS)}>
+                  清除筛选
+                </Button>
+              ) : null}
             </div>
           </div>
 
+          <div className="row" style={{ marginBottom: 12, gap: 8 }}>
+            <input
+              className="input"
+              type="search"
+              value={filter.query}
+              placeholder="搜索这一族的词 / 中文释义"
+              aria-label="搜索词或释义"
+              onChange={(e) => setFilter((prev) => ({ ...prev, query: e.target.value }))}
+            />
+            <span className="tiny faint" style={{ flex: 'none' }}>
+              {rows.length} / {baseRows.length} 行
+            </span>
+          </div>
+
           {!knownBase ? (
-            <p className="tiny" style={{ margin: '0 0 12px', color: 'var(--amber)' }}>
-              「{base}」不在词库中，行列只能沿用词库中最常见的前缀与后缀；这些格子会全部显示为未收录。
-              形态上它们可能成立，但英语里没有对应的词。
+            <p className="tiny" style={{ margin: '0 0 12px', color: 'var(--amber)', lineHeight: 1.6 }}>
+              「{base}」不在词库中，无法验证派生，词基层只有它自己；行列沿用词库中最常见的成分。
             </p>
           ) : null}
 
-          {gridRows.length === 0 ? (
+          {rows.length === 0 ? (
             <EmptyState
               title="当前筛选下没有组合"
-              body="换一种词性、清空后缀筛选，或关闭「只看已收录」再试。"
+              body="换一种词性、清空后缀或词族筛选，或减少搜索关键词再试。"
             />
           ) : (
-            <MatrixGrid
-              base={base}
-              rows={gridRows}
-              suffixes={visibleCols}
-              selected={highlight}
-              onSelect={selectCell}
+            <LabGrid
+              rows={rows}
+              columns={columns}
+              selected={selectedKey}
+              onSelect={pickCell}
             />
           )}
+
+          {selection ? (
+            <CellSummary
+              word={selection.word}
+              affix={selection.affix}
+              kind={selection.kind}
+              verdict={selection.verdict}
+              glossZh={getWord(selection.verdict.word)?.glossZh}
+            />
+          ) : null}
+        </Panel>
+      </div>
+
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: narrow ? '1fr' : 'minmax(0, 1fr) 340px',
+          gap: 16,
+          marginTop: 16,
+          alignItems: 'start',
+        }}
+      >
+        <Panel style={{ marginTop: 0 }}>
+        <div className="row-between" style={{ marginBottom: 10, flexWrap: 'wrap', gap: 10 }}>
+          <div>
+            <h3 style={{ marginBottom: 2 }}>结果</h3>
+            <div className="tiny faint">按词族分组；只列出词库已确认的词。点词跳到对应格子。</div>
+          </div>
+          <span className="tiny faint">
+            {results.reduce((n, g) => n + g.words.length, 0)} 个词 · {results.length} 个词族
+          </span>
+        </div>
+        {results.length === 0 ? (
+          <p className="small faint" style={{ margin: 0 }}>
+            当前筛选下没有已收录的词。清空筛选可以看到这一族的全部结果。
+          </p>
+        ) : (
+          results.map((group) => (
+            <div key={group.family} style={{ marginBottom: 12 }}>
+              <div className="row" style={{ gap: 8, marginBottom: 6 }}>
+                <span className="serif" style={{ fontSize: 15, fontWeight: 640 }}>
+                  {group.label}
+                </span>
+                <span className="tiny faint">{group.words.length}</span>
+                <span style={{ flex: 1, height: 1, background: 'var(--line)' }} />
+              </div>
+              <div className="row" style={{ gap: 6, flexWrap: 'wrap' }}>
+                {group.words.map((w) => (
+                  <button
+                    key={w.word}
+                    type="button"
+                    className="chip"
+                    title={w.glossZh}
+                    onClick={() => {
+                      const row = baseRows.find((r) => r.cells.some((c) => c.verdict.word === w.word));
+                      const cell = row?.cells.find((c) => c.verdict.word === w.word);
+                      if (row && cell) pickCell(row, cell);
+                    }}
+                  >
+                    <span className="word" style={{ fontSize: 13.5 }}>
+                      {w.word}
+                    </span>
+                    <span className="tiny faint">{w.glossZh}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))
+        )}
         </Panel>
 
-        <WordDetail selection={current} base={base} family={family} onPick={pickFamilyWord} />
+        <LabDetail selection={selection} />
       </div>
+
       <PracticeQueue open={queueOpen} onClose={() => setQueueOpen(false)} />
     </div>
   );

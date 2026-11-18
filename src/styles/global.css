@@ -954,3 +954,245 @@ table.table tr:last-child td {
     grid-template-columns: 1fr;
   }
 }
+
+/* --------------------------- derivation lab (v0.3) ------------------------- */
+/* The grid has three honest cell states. Colour + border style carry the
+   meaning, so the distinction survives greyscale printing and colour blindness:
+   solid = verified, dotted = unknown, crossed = rule-blocked. */
+
+a.btn:hover {
+  text-decoration: none;
+}
+
+.lab-grid {
+  display: grid;
+  gap: 6px;
+  align-items: stretch;
+}
+
+.lab-corner {
+  display: grid;
+  place-items: center;
+  border-bottom: 1px solid var(--line-strong);
+  padding: 6px 4px;
+  text-align: center;
+}
+
+.lab-col-head {
+  display: grid;
+  gap: 1px;
+  place-items: center;
+  padding: 6px 4px;
+  border-bottom: 1px solid var(--line-strong);
+  color: var(--ink-soft);
+  font-size: 12.5px;
+  text-align: center;
+}
+
+.lab-row-head {
+  display: grid;
+  align-content: center;
+  gap: 2px;
+  border-right: 1px solid var(--line);
+  padding: 6px 8px 6px 6px;
+  min-height: 52px;
+}
+
+.lab-cell {
+  display: grid;
+  gap: 1px;
+  place-content: center;
+  justify-items: center;
+  min-height: 52px;
+  padding: 5px 6px;
+  border-radius: 9px;
+  font: inherit;
+  cursor: pointer;
+  transition: background 120ms ease, border-color 120ms ease, opacity 120ms ease;
+}
+
+.lab-cell[data-state='verified'] {
+  border: 1px solid var(--line-strong);
+  background: var(--panel);
+}
+
+.lab-cell[data-state='verified']:hover {
+  border-color: var(--accent);
+  background: var(--accent-softer);
+}
+
+.lab-cell[data-state='unknown'] {
+  border: 1px dashed var(--line-strong);
+  background: transparent;
+  color: var(--ink-faint);
+}
+
+.lab-cell[data-state='unknown']:hover {
+  border-color: var(--amber);
+  color: var(--amber);
+}
+
+.lab-cell[data-state='rule-blocked'] {
+  border: 1px dashed var(--red);
+  background: var(--red-soft);
+  color: var(--red);
+}
+
+.lab-cell[data-state='rule-blocked']:hover {
+  border-style: solid;
+}
+
+.lab-cell[data-active='true'] {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  box-shadow: var(--shadow-sm);
+}
+
+.lab-cell[data-dim='true'] {
+  opacity: 0.28;
+}
+
+.lab-cell-word {
+  font-family: var(--serif);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.lab-cell-sub {
+  font-size: 10.5px;
+  opacity: 0.72;
+  letter-spacing: 0.02em;
+}
+
+.lab-cell-mark {
+  font-family: var(--mono);
+  font-size: 17px;
+  line-height: 1;
+}
+
+.lab-legend-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin-right: 5px;
+  border-radius: 3px;
+  vertical-align: middle;
+}
+
+.lab-legend-dot[data-state='verified'] {
+  background: var(--panel);
+  border: 1px solid var(--line-strong);
+}
+
+.lab-legend-dot[data-state='unknown'] {
+  border: 1px dashed var(--line-strong);
+}
+
+.lab-legend-dot[data-state='rule-blocked'] {
+  background: var(--red-soft);
+  border: 1px dashed var(--red);
+}
+
+/* ------------------------------ derivation chain --------------------------- */
+
+.lab-chain {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lab-chain-step {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.lab-chain-step:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.lab-chain-index {
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+  font-size: 10px;
+  flex: none;
+}
+
+.lab-chain-from {
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+.lab-chain-add {
+  font-size: 12.5px;
+  padding: 1px 5px;
+  border-radius: 5px;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}
+
+.lab-chain-to {
+  font-family: var(--serif);
+  font-size: 14.5px;
+  font-weight: 640;
+}
+
+/* -------------------------------- family tree ------------------------------ */
+
+.lab-tree {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lab-tree-node {
+  padding: 5px 0;
+  border-bottom: 1px dotted var(--line);
+}
+
+.lab-tree-node:last-child {
+  border-bottom: none;
+}
+
+.lab-tree-toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--ink-faint);
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.lab-tree-toggle:hover {
+  color: var(--accent-ink);
+}
+
+@media (max-width: 900px) {
+  .family-top {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+.lab-summary {
+  margin-top: 12px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 9px;
+  background: var(--accent-softer);
+}

@@ -22,6 +22,9 @@
     "c-register",
     "c-inference"
   ],
+  "knowledgePoints": [
+    "kp-s1c7s8-3"
+  ],
   "minutes": {
     "review": 5,
     "learn": 9,

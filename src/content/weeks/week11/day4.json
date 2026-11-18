@@ -22,6 +22,10 @@
     "c-etymology",
     "c-compound"
   ],
+  "knowledgePoints": [
+    "kp-s1c3s18-1",
+    "kp-s1c3s20-4"
+  ],
   "minutes": {
     "review": 5,
     "learn": 9,

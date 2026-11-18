@@ -9,9 +9,27 @@
     "能指出一个写错的算式错在哪一块",
     "能说明算式为什么必须给每一块标出意义，而不能只写拼写"
   ],
-  "prereqs": ["w01d7", "c-base"],
-  "concepts": ["c-word-sum", "c-morpheme", "c-base", "c-derivation"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w01d7",
+    "c-base"
+  ],
+  "concepts": [
+    "c-word-sum",
+    "c-morpheme",
+    "c-base",
+    "c-derivation"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s12-1",
+    "kp-s1c3s5-1",
+    "kp-s1c3s13-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,26 +37,69 @@
       "title": "算式长什么样",
       "body": "**构词算式**（Word Sum）用加号串起词素，用箭头指向结果：\n\n    un + help + ful → unhelpful\n\n读作 “un plus help plus ful yields unhelpful”，中文可以说“un 加 help 加 ful 得到 unhelpful”。\n\n三条约定的写法：\n\n1. 加号两边必须是**词素**，不是字母、不是音节。\n2. 箭头右边是**正确拼写的结果**，允许与直接拼接不同。\n3. 词素写作它在该词里的形式（destruction 里写 struct，而不是 struere）。\n\n它看起来只是把切分结果抄了一遍，但正因为写下来了，别人才可以逐块质疑。",
       "terms": [
-        { "term": "word sum", "zh": "构词算式", "en": "word sum", "note": "SWI 中记录构词分析的标准写法" }
+        {
+          "term": "word sum",
+          "zh": "构词算式",
+          "en": "word sum",
+          "note": "SWI 中记录构词分析的标准写法"
+        }
       ],
-      "morphemes": ["un", "help", "ful"]
+      "morphemes": [
+        "un",
+        "help",
+        "ful"
+      ]
     },
     {
       "kind": "sum",
       "title": "四条算式，四种情况",
       "body": "注意第二行：happiness 的结果与 happy + ness 的直接拼接不同，y 变成了 i。算式把这件事暴露出来——变化不在“整词”上，而在词素相接处。第三行演示带前缀的否定，第四行则是一个完全无需调整的例子。读算式时逐行念出“哪块加了什么、得到什么”，比只看结果有效。",
       "sums": [
-        { "parts": ["un", "help", "ful"], "result": "unhelpful", "glossZh": "无帮助的" },
-        { "parts": ["happy", "ness"], "result": "happiness", "glossZh": "幸福", "note": "y 在 -ness 前变为 i" },
-        { "parts": ["un", "kind"], "result": "unkind", "glossZh": "不友善的" },
-        { "parts": ["nation", "al"], "result": "national", "glossZh": "国家的" }
+        {
+          "parts": [
+            "un",
+            "help",
+            "ful"
+          ],
+          "result": "unhelpful",
+          "glossZh": "无帮助的"
+        },
+        {
+          "parts": [
+            "happy",
+            "ness"
+          ],
+          "result": "happiness",
+          "glossZh": "幸福",
+          "note": "y 在 -ness 前变为 i"
+        },
+        {
+          "parts": [
+            "un",
+            "kind"
+          ],
+          "result": "unkind",
+          "glossZh": "不友善的"
+        },
+        {
+          "parts": [
+            "nation",
+            "al"
+          ],
+          "result": "national",
+          "glossZh": "国家的"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "为什么要写成算式",
       "body": "四个理由，一个比一个实际：\n\n- **强制标意义。** 写得出算式，就得说清每一块是什么；说不清的那一块，通常就是理解断掉的地方。\n- **暴露拼写调整。** 直接拼接与真实拼写不一致时，差别一定发生在某一处接缝，算式能定位它。\n- **可被检验。** 别人可以拿掉一块、换一块，看结果是否仍然成立，这比“我觉得是这样”有力得多。\n- **可比较。** 同一词族的算式排在一起，能看出哪一层加了什么，第 4 天的矩阵就是从这个想法长出来的。\n\n代价是会写得更慢。这一周的慢，是为了后面拆长词时不再逐字猜。",
-      "morphemes": ["help", "ful", "ness"]
+      "morphemes": [
+        "help",
+        "ful",
+        "ness"
+      ]
     },
     {
       "kind": "compare",
@@ -47,17 +108,38 @@
       "a": "构词算式",
       "b": "词源演变",
       "rows": [
-        ["左边是什么", "今天的词素", "更早语言中的形式"],
-        ["箭头含义", "这些词素组合成这个词", "这个词从那个形式演变而来"],
-        ["例子", "un + help + ful → unhelpful", "拉丁 struere（建造）→ 英语 construct 中的 struct"],
-        ["判断标准", "替换测试与同族词", "历史文献与同源语言比较"]
+        [
+          "左边是什么",
+          "今天的词素",
+          "更早语言中的形式"
+        ],
+        [
+          "箭头含义",
+          "这些词素组合成这个词",
+          "这个词从那个形式演变而来"
+        ],
+        [
+          "例子",
+          "un + help + ful → unhelpful",
+          "拉丁 struere（建造）→ 英语 construct 中的 struct"
+        ],
+        [
+          "判断标准",
+          "替换测试与同族词",
+          "历史文献与同源语言比较"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "层次怎么放进一行里",
       "body": "算式默认把所有成分平铺，但派生是分层的。遇到需要强调顺序时，用括号：\n\n- 平铺写法：un + help + ful → unhelpful\n- 分层写法：un + (help + ful) → unhelpful\n\n括号表示“先算里面”。unhelpfulness 更明显：un + (help + ful) + ness 并不能说明 -ness 加在哪个词基上，写成 ((help + ful) + ness) 又丢掉了 un- 的位置。比较清楚的记法是分三步写：\n\n    help + ful → helpful\n    un + helpful → unhelpful\n    unhelpful + ness → unhelpfulness\n\n一行算式适合展示结果，三行算式适合展示过程。两种都写，才既不丢信息又好读。",
-      "morphemes": ["un", "help", "ful", "ness"]
+      "morphemes": [
+        "un",
+        "help",
+        "ful",
+        "ness"
+      ]
     }
   ],
   "practice": [
@@ -65,10 +147,18 @@
       "id": "w02d1-p1",
       "kind": "wordSum",
       "prompt": "写出构词算式（用 + 连接词素，不要写整词）：un + help + ful",
-      "parts": ["un", "help", "ful"],
+      "parts": [
+        "un",
+        "help",
+        "ful"
+      ],
       "answer": "unhelpful",
       "explain": "un（否定）+ help（帮助）+ ful（充满……的）→ unhelpful“无帮助的”。层次上先 help + ful 构成形容词，再加 un-，但结果拼写相同。",
-      "concepts": ["c-word-sum", "un", "ful"]
+      "concepts": [
+        "c-word-sum",
+        "un",
+        "ful"
+      ]
     },
     {
       "id": "w02d1-p2",
@@ -82,7 +172,11 @@
       ],
       "answer": 1,
       "explain": "unhelp 不是现代英语中存在的动词，把它当成一个词素（或一个词基）就错了。正确写法是 un + (help + ful)，un- 加在形容词 helpful 上。",
-      "concepts": ["c-word-sum", "c-base", "un"]
+      "concepts": [
+        "c-word-sum",
+        "c-base",
+        "un"
+      ]
     },
     {
       "id": "w02d1-p3",
@@ -90,18 +184,33 @@
       "prompt": "填入算式中箭头在英语里的读法（一个动词）",
       "sentence": "In a word sum, the arrow is read as “___”, as in “un plus help plus ful ___ unhelpful”.",
       "answer": "yields",
-      "accept": ["yields", "gives", "produces", "results in"],
+      "accept": [
+        "yields",
+        "gives",
+        "produces",
+        "results in"
+      ],
       "explain": "箭头表示“组合得到”，常读作 yields（产生、得出），也可读 gives 或 results in。中文直接说“得到”。",
-      "concepts": ["c-word-sum"]
+      "concepts": [
+        "c-word-sum"
+      ]
     },
     {
       "id": "w02d1-p4",
       "kind": "wordSum",
       "prompt": "写出构词算式（用 + 连接词素，不要写整词）：re + construct + ion",
-      "parts": ["re", "construct", "ion"],
+      "parts": [
+        "re",
+        "construct",
+        "ion"
+      ],
       "answer": "reconstruction",
       "explain": "re（再次）+ construct（建造）+ ion（名词后缀）→ reconstruction“重建”。按层次是先 construct → reconstruct，再加 -ion，拼写不冲突。",
-      "concepts": ["c-word-sum", "struct", "tion"]
+      "concepts": [
+        "c-word-sum",
+        "struct",
+        "tion"
+      ]
     },
     {
       "id": "w02d1-p5",
@@ -115,7 +224,11 @@
       ],
       "answer": 1,
       "explain": "-ful 历史上来自形容词 full，但作为后缀已经固定为单 l 的拼写形式，所以算式里写 ful。英语当然允许双 l（really、fully），所以其余选项不成立。",
-      "concepts": ["c-word-sum", "ful", "c-spelling-rule"]
+      "concepts": [
+        "c-word-sum",
+        "ful",
+        "c-spelling-rule"
+      ]
     }
   ],
   "apply": [
@@ -125,16 +238,38 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "Early prototypes proved unreliable in humid conditions, so the team switched to sealed connectors and added a second humidity sensor.",
       "word": "unreliable",
-      "choices": ["不可靠的、结果不稳定的", "无法阅读的", "不可重复使用的", "尚未校准的"],
+      "choices": [
+        "不可靠的、结果不稳定的",
+        "无法阅读的",
+        "不可重复使用的",
+        "尚未校准的"
+      ],
       "answer": 0,
       "strategy": "①切分 un + rely + able，层次是 rely → reliable → unreliable；②-able 构成形容词，作表语；③语境说潮湿环境下出问题，团队改用密封接头并加装传感器，指向“表现不稳”；④排除“无法阅读”，那是 read 的词族，虽然拼写相近。",
       "explain": "rely“依靠”→ reliable“可靠的”→ un- 否定 → unreliable“不可靠的”。在工程语境里常指设备或数据“不稳定、不能信赖”，而不是“不能读”。",
-      "concepts": ["un", "rely", "able", "c-inference"]
+      "concepts": [
+        "un",
+        "rely",
+        "able",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "Word Sum 的书写规范与读法" },
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 3 章：词素组合与拼写调整" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：层级结构与括号表示" }
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "Word Sum 的书写规范与读法"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章：词素组合与拼写调整"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5 Morphology：层级结构与括号表示"
+    }
   ]
 }

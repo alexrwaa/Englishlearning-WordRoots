@@ -9,9 +9,26 @@
     "能从矩阵中读出至少五个真实同族词并给出切分",
     "能解释为什么矩阵中的空格位与填满的格子同样重要"
   ],
-  "prereqs": ["w02d1", "c-word-sum"],
-  "concepts": ["c-word-matrix", "c-word-family", "c-base", "c-affix"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w02d1",
+    "c-word-sum"
+  ],
+  "concepts": [
+    "c-word-matrix",
+    "c-word-family",
+    "c-base",
+    "c-affix"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s3-1",
+    "kp-s1c3s8-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,9 +36,18 @@
       "title": "矩阵的三个部分",
       "body": "**构词矩阵**（Word Matrix）是一张二维表：\n\n- **中心**：一个词基，例如 help。\n- **左侧一列**：能加在这个词基上的前缀，例如 un-。\n- **上方一行**：能加在它后面的后缀，例如 -ful、-less、-er、-ing。\n\n交叉格子里填的是真实存在的词，写法上通常把成分连起来：un + help + ful → unhelpful。\n\n它和算式的关系是：算式记录“这一个词怎么来”，矩阵记录“这一族词能怎么长”。一个是单点，一个是全景。",
       "terms": [
-        { "term": "word matrix", "zh": "构词矩阵", "en": "word matrix" }
+        {
+          "term": "word matrix",
+          "zh": "构词矩阵",
+          "en": "word matrix"
+        }
       ],
-      "morphemes": ["help", "un", "ful", "less"]
+      "morphemes": [
+        "help",
+        "un",
+        "ful",
+        "less"
+      ]
     },
     {
       "kind": "matrix",
@@ -29,34 +55,99 @@
       "body": "先横向看：help + ful、help + less、help + er 都成立，说明这些后缀能直接接在词基上。再纵向看：只有加了 un- 的那一行才出现否定形式。注意最右一列：unhelpfulness 要先构成 unhelpful 才能加 -ness，不是从中心一步到位。",
       "base": "help",
       "prefixes": [
-        { "text": "un", "glossZh": "否定：不" }
+        {
+          "text": "un",
+          "glossZh": "否定：不"
+        }
       ],
       "suffixes": [
-        { "text": "ful", "glossZh": "充满……的（形容词）" },
-        { "text": "less", "glossZh": "没有……的（形容词）" },
-        { "text": "er", "glossZh": "做……的人（名词）" },
-        { "text": "ing", "glossZh": "进行体 / 动名词" },
-        { "text": "ness", "glossZh": "性质、状态（名词）" }
+        {
+          "text": "ful",
+          "glossZh": "充满……的（形容词）"
+        },
+        {
+          "text": "less",
+          "glossZh": "没有……的（形容词）"
+        },
+        {
+          "text": "er",
+          "glossZh": "做……的人（名词）"
+        },
+        {
+          "text": "ing",
+          "glossZh": "进行体 / 动名词"
+        },
+        {
+          "text": "ness",
+          "glossZh": "性质、状态（名词）"
+        }
       ],
       "words": [
-        { "w": "helpful", "parts": ["help", "ful"], "glossZh": "有帮助的" },
-        { "w": "helpless", "parts": ["help", "less"], "glossZh": "无助的" },
-        { "w": "helper", "parts": ["help", "er"], "glossZh": "帮手" },
-        { "w": "unhelpful", "parts": ["un", "help", "ful"], "glossZh": "无帮助的" },
-        { "w": "unhelpfulness", "parts": ["un", "help", "ful", "ness"], "glossZh": "无帮助、无用" }
+        {
+          "w": "helpful",
+          "parts": [
+            "help",
+            "ful"
+          ],
+          "glossZh": "有帮助的"
+        },
+        {
+          "w": "helpless",
+          "parts": [
+            "help",
+            "less"
+          ],
+          "glossZh": "无助的"
+        },
+        {
+          "w": "helper",
+          "parts": [
+            "help",
+            "er"
+          ],
+          "glossZh": "帮手"
+        },
+        {
+          "w": "unhelpful",
+          "parts": [
+            "un",
+            "help",
+            "ful"
+          ],
+          "glossZh": "无帮助的"
+        },
+        {
+          "w": "unhelpfulness",
+          "parts": [
+            "un",
+            "help",
+            "ful",
+            "ness"
+          ],
+          "glossZh": "无帮助、无用"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "怎么读一张矩阵",
       "body": "三种读法，各有用途：\n\n**横读**：固定前缀，沿一行看后缀。能读出“加了 un- 之后还能不能再派生”。\n\n**纵读**：固定后缀，沿一列看前缀。能看出哪些前缀与这个词基相容。\n\n**斜读**：把中心、一个后缀、又一个后缀连起来，读出层次。unhelpfulness 就是 help → helpful → unhelpful → unhelpfulness 的斜线路径。\n\n读的时候要给每一格配一句话：“help 加 -less 得到 helpless，意思是‘没有帮助可依靠的’。”说不出这句话的格子，通常你还没真正掌握它。",
-      "morphemes": ["help", "less", "ness"]
+      "morphemes": [
+        "help",
+        "less",
+        "ness"
+      ]
     },
     {
       "kind": "text",
       "title": "空格位也是信息",
       "body": "矩阵最容易被忽略的部分是空格。help + ness 这一格是空的，因为英语不说 helpness，名词形式是 helpfulness——必须先加 -ful。这不是例外，而是**组合条件**：-ness 要求前面是形容词，而 help 是动词/名词。\n\n同样，re + help + ful 也是空的：rehelpful 不存在。看见空格时，正确的反应不是“矩阵没填完”，而是问一句“为什么这里不行”。\n\n一张只有实心格子的矩阵没有信息量；空格才告诉你这个词基的边界在哪里。这也是矩阵比单词表更有用的原因。",
-      "morphemes": ["help", "ness", "ful", "re"]
+      "morphemes": [
+        "help",
+        "ness",
+        "ful",
+        "re"
+      ]
     },
     {
       "kind": "matrix",
@@ -64,25 +155,103 @@
       "body": "struct 不能单独成词，所以矩阵的每一格都必须带词缀，这正好检验你是否真把词根与单词分开了。注意 -ure 与 -ion 的分工：structure 是“结构（物）”，construction 是“建造（过程）”。同一个词基，不同后缀带来不同的抽象层次；而 -ive 只接在带前缀的形式后，单独 struct + ive 并不成立。",
       "base": "struct",
       "prefixes": [
-        { "text": "con", "glossZh": "共同、一起" },
-        { "text": "in", "glossZh": "向内" },
-        { "text": "de", "glossZh": "向下、反向" },
-        { "text": "ob", "glossZh": "对着、阻挡" },
-        { "text": "infra", "glossZh": "在下面、基础" }
+        {
+          "text": "con",
+          "glossZh": "共同、一起"
+        },
+        {
+          "text": "in",
+          "glossZh": "向内"
+        },
+        {
+          "text": "de",
+          "glossZh": "向下、反向"
+        },
+        {
+          "text": "ob",
+          "glossZh": "对着、阻挡"
+        },
+        {
+          "text": "infra",
+          "glossZh": "在下面、基础"
+        }
       ],
       "suffixes": [
-        { "text": "ion", "glossZh": "过程、结果（名词）" },
-        { "text": "ure", "glossZh": "结果、状态（名词）" },
-        { "text": "ive", "glossZh": "有……性质的（形容词）" }
+        {
+          "text": "ion",
+          "glossZh": "过程、结果（名词）"
+        },
+        {
+          "text": "ure",
+          "glossZh": "结果、状态（名词）"
+        },
+        {
+          "text": "ive",
+          "glossZh": "有……性质的（形容词）"
+        }
       ],
       "words": [
-        { "w": "construct", "parts": ["con", "struct"], "glossZh": "建造、构建" },
-        { "w": "construction", "parts": ["con", "struct", "ion"], "glossZh": "建造、构造" },
-        { "w": "structure", "parts": ["struct", "ure"], "glossZh": "结构、建筑物" },
-        { "w": "instructive", "parts": ["in", "struct", "ive"], "glossZh": "有启发性的" },
-        { "w": "destructive", "parts": ["de", "struct", "ive"], "glossZh": "破坏性的" },
-        { "w": "infrastructure", "parts": ["infra", "struct", "ure"], "glossZh": "基础设施" },
-        { "w": "obstruction", "parts": ["ob", "struct", "ion"], "glossZh": "阻塞、障碍" }
+        {
+          "w": "construct",
+          "parts": [
+            "con",
+            "struct"
+          ],
+          "glossZh": "建造、构建"
+        },
+        {
+          "w": "construction",
+          "parts": [
+            "con",
+            "struct",
+            "ion"
+          ],
+          "glossZh": "建造、构造"
+        },
+        {
+          "w": "structure",
+          "parts": [
+            "struct",
+            "ure"
+          ],
+          "glossZh": "结构、建筑物"
+        },
+        {
+          "w": "instructive",
+          "parts": [
+            "in",
+            "struct",
+            "ive"
+          ],
+          "glossZh": "有启发性的"
+        },
+        {
+          "w": "destructive",
+          "parts": [
+            "de",
+            "struct",
+            "ive"
+          ],
+          "glossZh": "破坏性的"
+        },
+        {
+          "w": "infrastructure",
+          "parts": [
+            "infra",
+            "struct",
+            "ure"
+          ],
+          "glossZh": "基础设施"
+        },
+        {
+          "w": "obstruction",
+          "parts": [
+            "ob",
+            "struct",
+            "ion"
+          ],
+          "glossZh": "阻塞、障碍"
+        }
       ]
     }
   ],
@@ -96,7 +265,11 @@
       "suffix": "ful",
       "answer": "unhelpful",
       "explain": "un（否定）+ help（帮助）+ ful（充满……的）→ unhelpful“无帮助的”。矩阵中这一格成立，因为 un- 可以否定由 help + ful 构成的形容词。",
-      "concepts": ["c-word-matrix", "un", "ful"]
+      "concepts": [
+        "c-word-matrix",
+        "un",
+        "ful"
+      ]
     },
     {
       "id": "w02d2-p2",
@@ -110,7 +283,10 @@
       ],
       "answer": 1,
       "explain": "矩阵的空格表示该前缀/后缀与这个词基不能组合，例如 help + ness 不成立（应为 helpfulness）。空格是信息，说明组合有条件，而不是资料缺失。",
-      "concepts": ["c-word-matrix", "c-word-family"]
+      "concepts": [
+        "c-word-matrix",
+        "c-word-family"
+      ]
     },
     {
       "id": "w02d2-p3",
@@ -121,7 +297,11 @@
       "suffix": "ion",
       "answer": "construction",
       "explain": "con（共同）+ struct（建造）+ ion（名词后缀）→ construction“建造、构造”。三块依次相接，拼写无需调整。",
-      "concepts": ["c-word-matrix", "struct", "tion"]
+      "concepts": [
+        "c-word-matrix",
+        "struct",
+        "tion"
+      ]
     },
     {
       "id": "w02d2-p4",
@@ -135,7 +315,11 @@
       ],
       "answer": 2,
       "explain": "rehelpful 在现代英语中不存在，re- 通常表示“再次”，与“有帮助的”这一状态不搭配。其余三项分别得到 unhelpful、helpless、helping，都是真实词。",
-      "concepts": ["c-word-matrix", "re", "help"]
+      "concepts": [
+        "c-word-matrix",
+        "re",
+        "help"
+      ]
     },
     {
       "id": "w02d2-p5",
@@ -143,9 +327,16 @@
       "prompt": "填入术语（中文或英文均可）",
       "sentence": "在构词矩阵中，位于中心、所有前后缀都围绕它展开的那个形式叫 ___。",
       "answer": "词基",
-      "accept": ["base", "词基", "base word"],
+      "accept": [
+        "base",
+        "词基",
+        "base word"
+      ],
       "explain": "矩阵以词基为中心，行是前缀、列是后缀。这里的词基可以是词根（struct），也可以是已经带词缀的形式（unhelpful）。",
-      "concepts": ["c-word-matrix", "c-base"]
+      "concepts": [
+        "c-word-matrix",
+        "c-base"
+      ]
     }
   ],
   "apply": [
@@ -155,16 +346,38 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "Reviewers praised the paper for its constructive criticism: instead of rejecting the method outright, they suggested specific changes that the authors could implement.",
       "word": "constructive",
-      "choices": ["建设性的、有助于改进的", "与建筑行业有关的", "可以被构造出来的", "保守而谨慎的"],
+      "choices": [
+        "建设性的、有助于改进的",
+        "与建筑行业有关的",
+        "可以被构造出来的",
+        "保守而谨慎的"
+      ],
       "answer": 0,
       "strategy": "①切分 construct（建造）+ ive（形容词后缀）；②修饰 criticism，属学术评价语域；③冒号后给出解释：没有直接否定方法，而是提出可实施的具体修改，指向“有助于改进”；④排除“与建筑有关”，那是 construction 的具体义，此处是抽象引申。",
       "explain": "-ive 把动词 construct 变成形容词。constructive criticism 是学术与职场中的固定搭配，指“有建设性、能指向改进的批评”，而不是字面的“建造”。这是从具体到抽象的常见引申。",
-      "concepts": ["struct", "ive", "c-word-family", "c-inference"]
+      "concepts": [
+        "struct",
+        "ive",
+        "c-word-family",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "Word Matrix 的结构、读法与空槽位的意义" },
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 2 章：前缀与后缀的组合条件" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：能产性与搭配限制" }
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "Word Matrix 的结构、读法与空槽位的意义"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章：前缀与后缀的组合条件"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5 Morphology：能产性与搭配限制"
+    }
   ]
 }

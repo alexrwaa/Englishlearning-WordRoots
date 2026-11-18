@@ -9,9 +9,24 @@
     "能解释 con- 与 de- 如何把“建造”这一动作推向不同方向",
     "能区分 instruct 中表方向的 in- 与 incorrect 中表否定的 in-"
   ],
-  "prereqs": ["c-root", "c-word-family", "c-prefix"],
-  "concepts": ["struct", "c-root", "c-word-family", "c-prefix"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "c-root",
+    "c-word-family",
+    "c-prefix"
+  ],
+  "concepts": [
+    "struct",
+    "c-root",
+    "c-word-family",
+    "c-prefix"
+  ],
+  "knowledgePoints": [],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,28 +34,61 @@
       "title": "struct 的本义：把材料堆叠到一处",
       "body": "拉丁动词 **struere** 的意思是“堆叠、排列、建造”，过去分词是 **structus**。英语从这条词干里继承的不是“建筑物”这个具体东西，而是“把部件按次序垒起来”这个动作。\n\n所以 construct = con（一起）+ struct：把材料垒到一起 → 建造；structure = struct + ure（名词后缀）：垒起来的结果 → 结构。同一个动作，一个指向过程，一个指向结果。\n\n这就是词根的价值：它给你一个可以反复使用的语义核心，而不是一个需要单独记的词。",
       "terms": [
-        { "term": "word family", "zh": "词族", "en": "word family", "note": "共享同一词根、形态与语义均可追溯的一组词" }
+        {
+          "term": "word family",
+          "zh": "词族",
+          "en": "word family",
+          "note": "共享同一词根、形态与语义均可追溯的一组词"
+        }
       ],
-      "morphemes": ["struct"]
+      "morphemes": [
+        "struct"
+      ]
     },
     {
       "kind": "text",
       "title": "con- 的“共同”改变的是动作方式",
       "body": "初学者常把前缀当成“往词上加个意思”，其实前缀改变的是**动作的方向或方式**。\n\n- con- 表示“一起、共同”（它是基本形式，在 p、b、m 前同化为 com-，在 l 前变 col-）。拉丁 construere 就是“把东西堆到一处”，重点不在“造”，而在“把分散的部件凑成一个整体”。\n- 对比 de-（向下、去掉）：destruere 是“把垒起来的东西拆下去”，所以 destruction 是“破坏、毁掉”。\n- ob- 表示“对着、挡在前面”：obstruere 是“堆到路当中”，所以 obstruct 是“阻塞”。\n\n记词时先问一句：**这个前缀把动作推向哪个方向？** 这比背“con=共同”这种对照表管用得多。",
-      "morphemes": ["con", "de", "ob", "struct"]
+      "morphemes": [
+        "con",
+        "de",
+        "ob",
+        "struct"
+      ]
     },
     {
       "kind": "etym",
       "title": "从 struere 到 structure：一条能核对的链条",
       "body": "词源不能靠“听起来像”。下面这条链条每一环都可查证，注意拉丁语内部已经完成了动词到名词的派生，英语是把名词整体借进来的。\n\n这一点能解开一个常见困惑：structure 不是英语里现造的 struct + ure，而是直接借来的拉丁 structura。可今天的学习者仍然能把它拆开，因为成分义还在。**“历史上整体借入”与“今天可共时分析”可以同时成立**，这两件事不冲突。",
       "steps": [
-        { "period": "拉丁", "form": "struere", "note": "堆叠、排列、建造" },
-        { "period": "拉丁", "form": "structus", "note": "struere 的过去分词，“被垒起来的”" },
-        { "period": "拉丁", "form": "structura", "note": "建造、构造（动词派生为名词）" },
-        { "period": "英语", "form": "structure", "note": "15 世纪借入，指结构与建筑物" }
+        {
+          "period": "拉丁",
+          "form": "struere",
+          "note": "堆叠、排列、建造"
+        },
+        {
+          "period": "拉丁",
+          "form": "structus",
+          "note": "struere 的过去分词，“被垒起来的”"
+        },
+        {
+          "period": "拉丁",
+          "form": "structura",
+          "note": "建造、构造（动词派生为名词）"
+        },
+        {
+          "period": "英语",
+          "form": "structure",
+          "note": "15 世纪借入，指结构与建筑物"
+        }
       ],
       "terms": [
-        { "term": "etymology", "zh": "词源", "en": "etymology", "note": "研究词形与词义如何从更早语言演变而来" }
+        {
+          "term": "etymology",
+          "zh": "词源",
+          "en": "etymology",
+          "note": "研究词形与词义如何从更早语言演变而来"
+        }
       ]
     },
     {
@@ -49,25 +97,101 @@
       "body": "把 struct 放进矩阵，你会看到它几乎只接受“方向性前缀 + 名词或形容词后缀”。特别注意 instruct 的 in-：它不是否定，而是“在里面、朝向”。拉丁 instruere 原义是“在里面搭起装备”，引申为“把知识装进头脑”，于是有了“教导”。所以**同一个 in-，在 incorrect 里是否定，在 instruct 里是方向**，只能靠词根和语境分流。",
       "base": "struct",
       "prefixes": [
-        { "text": "con", "glossZh": "一起、共同" },
-        { "text": "in", "glossZh": "向内、在里面" },
-        { "text": "de", "glossZh": "向下、去除" },
-        { "text": "ob", "glossZh": "对着、挡在前面" }
+        {
+          "text": "con",
+          "glossZh": "一起、共同"
+        },
+        {
+          "text": "in",
+          "glossZh": "向内、在里面"
+        },
+        {
+          "text": "de",
+          "glossZh": "向下、去除"
+        },
+        {
+          "text": "ob",
+          "glossZh": "对着、挡在前面"
+        }
       ],
       "suffixes": [
-        { "text": "ion", "glossZh": "名词后缀：行为或结果" },
-        { "text": "ure", "glossZh": "名词后缀：结果、状态" },
-        { "text": "ive", "glossZh": "形容词后缀：有……作用的" },
-        { "text": "al", "glossZh": "形容词后缀：与……有关的" }
+        {
+          "text": "ion",
+          "glossZh": "名词后缀：行为或结果"
+        },
+        {
+          "text": "ure",
+          "glossZh": "名词后缀：结果、状态"
+        },
+        {
+          "text": "ive",
+          "glossZh": "形容词后缀：有……作用的"
+        },
+        {
+          "text": "al",
+          "glossZh": "形容词后缀：与……有关的"
+        }
       ],
       "words": [
-        { "w": "construct", "parts": ["con", "struct"], "glossZh": "建造、构造" },
-        { "w": "construction", "parts": ["con", "struct", "ion"], "glossZh": "建造、施工、构造物" },
-        { "w": "instruct", "parts": ["in", "struct"], "glossZh": "教导、指示" },
-        { "w": "instruction", "parts": ["in", "struct", "ion"], "glossZh": "指令、说明" },
-        { "w": "destruction", "parts": ["de", "struct", "ion"], "glossZh": "破坏、毁坏" },
-        { "w": "structure", "parts": ["struct", "ure"], "glossZh": "结构、构造" },
-        { "w": "obstruct", "parts": ["ob", "struct"], "glossZh": "阻塞、妨碍" }
+        {
+          "w": "construct",
+          "parts": [
+            "con",
+            "struct"
+          ],
+          "glossZh": "建造、构造"
+        },
+        {
+          "w": "construction",
+          "parts": [
+            "con",
+            "struct",
+            "ion"
+          ],
+          "glossZh": "建造、施工、构造物"
+        },
+        {
+          "w": "instruct",
+          "parts": [
+            "in",
+            "struct"
+          ],
+          "glossZh": "教导、指示"
+        },
+        {
+          "w": "instruction",
+          "parts": [
+            "in",
+            "struct",
+            "ion"
+          ],
+          "glossZh": "指令、说明"
+        },
+        {
+          "w": "destruction",
+          "parts": [
+            "de",
+            "struct",
+            "ion"
+          ],
+          "glossZh": "破坏、毁坏"
+        },
+        {
+          "w": "structure",
+          "parts": [
+            "struct",
+            "ure"
+          ],
+          "glossZh": "结构、构造"
+        },
+        {
+          "w": "obstruct",
+          "parts": [
+            "ob",
+            "struct"
+          ],
+          "glossZh": "阻塞、妨碍"
+        }
       ]
     },
     {
@@ -77,10 +201,26 @@
       "a": "destruction（拉丁/法语名词形）",
       "b": "destroy（古法语动词形）",
       "rows": [
-        { "label": "拉丁来源", "a": "destructio，源自 destruere", "b": "destruire，源自古法语对 destruere 的改造" },
-        { "label": "现代词性", "a": "名词", "b": "动词" },
-        { "label": "可见词根", "a": "struct 清晰可见", "b": "拼写作 -stroy，词根已变形" },
-        { "label": "教学提示", "a": "可直接用矩阵扩展", "b": "需要单独指出它与 struct 的历史关系" }
+        {
+          "label": "拉丁来源",
+          "a": "destructio，源自 destruere",
+          "b": "destruire，源自古法语对 destruere 的改造"
+        },
+        {
+          "label": "现代词性",
+          "a": "名词",
+          "b": "动词"
+        },
+        {
+          "label": "可见词根",
+          "a": "struct 清晰可见",
+          "b": "拼写作 -stroy，词根已变形"
+        },
+        {
+          "label": "教学提示",
+          "a": "可直接用矩阵扩展",
+          "b": "需要单独指出它与 struct 的历史关系"
+        }
       ]
     }
   ],
@@ -89,20 +229,36 @@
       "id": "w05d1-p1",
       "kind": "mcq",
       "prompt": "construct 中的 con- 表达的是什么？",
-      "choices": ["否定", "一起、共同", "再次", "向外"],
+      "choices": [
+        "否定",
+        "一起、共同",
+        "再次",
+        "向外"
+      ],
       "answer": 1,
       "explain": "con- 表示“一起、共同”，拉丁 construere 即“把东西堆到一处”。否定义由 in-、un- 承担，再次义由 re- 承担，向外义由 ex- 承担。",
-      "concepts": ["con", "struct"],
+      "concepts": [
+        "con",
+        "struct"
+      ],
       "hint": "想一想“把材料垒到一起”这个画面。"
     },
     {
       "id": "w05d1-p2",
       "kind": "mcq",
       "prompt": "下面哪个词的前缀表示“向下、去除”，使整词意为“破坏”？",
-      "choices": ["destruction", "structure", "instruction", "construction"],
+      "choices": [
+        "destruction",
+        "structure",
+        "instruction",
+        "construction"
+      ],
       "answer": 0,
       "explain": "de- 表示“向下、去掉”，destruere 是“把垒起来的东西拆下去”，因此 destruction 是破坏。structure 没有前缀，另外两词分别是 in- 与 con-。",
-      "concepts": ["de", "struct"]
+      "concepts": [
+        "de",
+        "struct"
+      ]
     },
     {
       "id": "w05d1-p3",
@@ -110,18 +266,33 @@
       "prompt": "填入合适的单词（同一词族，注意词性）",
       "sentence": "Read the ___ manual carefully before you power up the scanner.",
       "answer": "instruction",
-      "accept": ["instruction", "instructional"],
+      "accept": [
+        "instruction",
+        "instructional"
+      ],
       "explain": "空格修饰 manual，需要名词或形容词。in + struct + ion = instruction“说明、指示”，instruction manual 是“使用说明书”的固定搭配。",
-      "concepts": ["in", "struct", "ion"]
+      "concepts": [
+        "in",
+        "struct",
+        "ion"
+      ]
     },
     {
       "id": "w05d1-p4",
       "kind": "wordSum",
       "prompt": "用 + 连接词素，按顺序写出词素切分（不要写整词）。",
-      "parts": ["in", "struct", "ion"],
+      "parts": [
+        "in",
+        "struct",
+        "ion"
+      ],
       "answer": "instruction",
       "explain": "in（向内）+ struct（建造）+ ion（名词后缀）→ instruction。语义链条是“把内容搭进头脑里”→ 教导 → 指示、说明。",
-      "concepts": ["in", "struct", "ion"]
+      "concepts": [
+        "in",
+        "struct",
+        "ion"
+      ]
     },
     {
       "id": "w05d1-p5",
@@ -135,7 +306,11 @@
       ],
       "answer": 0,
       "explain": "同形不等于同义。instruct 的 in- 是方向性前缀（拉丁 in-“向内”），incorrect 的 in- 才是否定前缀。判断依据是词根义与整词语义，而非拼写。读音相同也不能证明是同一词素。",
-      "concepts": ["in", "c-prefix", "c-morpheme"]
+      "concepts": [
+        "in",
+        "c-prefix",
+        "c-morpheme"
+      ]
     },
     {
       "id": "w05d1-p6",
@@ -146,7 +321,11 @@
       "suffix": "ion",
       "answer": "destruction",
       "explain": "de（向下、去除）+ struct（建造）+ ion（名词后缀）→ destruction“破坏”。注意拼写是 destruct + ion，不额外加字母。",
-      "concepts": ["de", "struct", "ion"]
+      "concepts": [
+        "de",
+        "struct",
+        "ion"
+      ]
     }
   ],
   "apply": [
@@ -156,16 +335,37 @@
       "prompt": "阅读下面这段论文式英文，推测划线词的含义",
       "passage": "Most lidar-based SLAM systems assume that the environment is highly structured, with long straight walls and right angles. In an unstructured forest, where branches and foliage break every surface into small fragments, these assumptions no longer hold.",
       "word": "unstructured",
-      "choices": ["缺乏规则几何结构的", "尚未施工完成的", "没有文字记录的", "结构被外力破坏的"],
+      "choices": [
+        "缺乏规则几何结构的",
+        "尚未施工完成的",
+        "没有文字记录的",
+        "结构被外力破坏的"
+      ],
       "answer": 0,
       "strategy": "① 切分：un（否定）+ struct（建造、结构）+ ure + ed；② 词性：形容词，修饰 environment；③ 语境：后一句用 forest 与 branches 说明“每个面都被打碎”，与 straight walls、right angles 形成反义对照。",
       "explain": "unstructured 在这里是“没有规则几何结构的”，指自然场景缺少平面、直角这类可被算法利用的结构。它不表示“未施工”或“被破坏”：前者是“还没建”，后者是“建好又毁掉”，而 forest 本来就是自然形成、从未被建造。这正是构词分析必须由语境收窄的地方。",
-      "concepts": ["un", "struct", "c-inference"]
+      "concepts": [
+        "un",
+        "struct",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "拉丁词根与词族一章：struere 及其派生" },
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "以 struct 为词基的构词矩阵与词族探究" },
-    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "construct、instruct、destruction、structure 词条" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "拉丁词根与词族一章：struere 及其派生"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "以 struct 为词基的构词矩阵与词族探究"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford Dictionary of English Etymology",
+      "detail": "construct、instruct、destruction、structure 词条"
+    }
   ]
 }

@@ -26,6 +26,9 @@
     "fer",
     "miss"
   ],
+  "knowledgePoints": [
+    "kp-s1c3s1-4"
+  ],
   "minutes": {
     "review": 6,
     "learn": 7,

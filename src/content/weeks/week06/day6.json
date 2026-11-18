@@ -20,6 +20,9 @@
     "c-greek-latin",
     "c-borrowing"
   ],
+  "knowledgePoints": [
+    "kp-s1c2s10-4"
+  ],
   "minutes": {
     "review": 5,
     "learn": 9,

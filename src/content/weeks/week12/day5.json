@@ -22,6 +22,10 @@
     "c-suffix",
     "c-metaphor"
   ],
+  "knowledgePoints": [
+    "kp-s1c1s4-2",
+    "kp-s1c8s1-2"
+  ],
   "minutes": {
     "review": 5,
     "learn": 9,

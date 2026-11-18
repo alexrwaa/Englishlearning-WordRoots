@@ -20,6 +20,10 @@
     "c-prefix",
     "c-word-family"
   ],
+  "knowledgePoints": [
+    "kp-s1c4s1-3",
+    "kp-s1c6s8-1"
+  ],
   "minutes": {
     "review": 5,
     "learn": 8,

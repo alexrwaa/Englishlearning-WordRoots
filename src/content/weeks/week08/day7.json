@@ -17,6 +17,11 @@
     "c-spelling-rule",
     "c-etymology"
   ],
+  "knowledgePoints": [
+    "kp-s1c6s3-1",
+    "kp-s1c6s3-2",
+    "kp-s1c4s1-1"
+  ],
   "minutes": {
     "review": 6,
     "learn": 7,

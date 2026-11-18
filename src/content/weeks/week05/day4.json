@@ -19,6 +19,9 @@
     "c-semantic-shift",
     "c-suffix"
   ],
+  "knowledgePoints": [
+    "kp-s1c3s7-1"
+  ],
   "minutes": {
     "review": 5,
     "learn": 8,

@@ -9,33 +9,83 @@
     "能独立完成一次包含拼写调整与合法性核验的分析",
     "能在科研段落中推断同族生词的含义并说明依据"
   ],
-  "prereqs": ["w02d6", "c-word-sum", "c-word-matrix"],
-  "concepts": ["c-word-sum", "c-word-matrix", "c-word-family", "c-spelling-rule", "c-frequency"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w02d6",
+    "c-word-sum",
+    "c-word-matrix"
+  ],
+  "concepts": [
+    "c-word-sum",
+    "c-word-matrix",
+    "c-word-family",
+    "c-spelling-rule",
+    "c-frequency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s12-1",
+    "kp-s1c3s13-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "B1",
   "cards": [
     {
       "kind": "table",
       "title": "三件工具，各管一段",
       "body": "这一周学的东西不是三个并列知识点，而是一条流程上的三个环节：先记录结构，再扩展词族，最后核实存在。用错环节，就会得到“看起来对但没法用”的结论。",
-      "head": ["工具", "解决的问题", "产出", "什么时候用"],
+      "head": [
+        "工具",
+        "解决的问题",
+        "产出",
+        "什么时候用"
+      ],
       "rows": [
-        ["构词算式 Word Sum", "这个词由哪些词素、按什么层次构成", "一行或多行算式", "第一次拆某个词时"],
-        ["构词矩阵 Word Matrix", "同一词基还能长出哪些词、哪些组合不成立", "带空槽的表格", "要扩展词族或判断搭配时"],
-        ["SWI 四问", "意义、结构、词族、词源如何互相校验", "一段可复核的分析", "遇到陌生词或争议说法时"]
+        [
+          "构词算式 Word Sum",
+          "这个词由哪些词素、按什么层次构成",
+          "一行或多行算式",
+          "第一次拆某个词时"
+        ],
+        [
+          "构词矩阵 Word Matrix",
+          "同一词基还能长出哪些词、哪些组合不成立",
+          "带空槽的表格",
+          "要扩展词族或判断搭配时"
+        ],
+        [
+          "SWI 四问",
+          "意义、结构、词族、词源如何互相校验",
+          "一段可复核的分析",
+          "遇到陌生词或争议说法时"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "五条判断动作，覆盖本周全部内容",
       "body": "1. **先标层次再写算式。** 加号左边是词基，不一定相同；必要时分行写。\n2. **拼写变化只发生在接缝处。** 去 e 看后缀首字母，y 变 i 看是否以 i 开头，双写看重音与末音节结构。\n3. **空槽要问为什么。** help + ness 不成立，因为 -ness 要求形容词词基。\n4. **星号先查证据。** *unpossible 不是“违反规则”，而是“没人这么说”，要用 impossible。\n5. **词源放最后。** 它能解释不规则，但不能决定现代词义。\n\n这五条都指向同一个习惯：**把“我觉得”换成“证据显示”**。",
-      "morphemes": ["help", "ness", "un", "possible"]
+      "morphemes": [
+        "help",
+        "ness",
+        "un",
+        "possible"
+      ]
     },
     {
       "kind": "text",
       "title": "走一个完整案例：unhelpfulness",
       "body": "**算式**：分三行写——help + ful → helpful；un + helpful → unhelpful；unhelpful + ness → unhelpfulness。若写一行，用括号标层次：un + (help + ful) + ness。\n\n**矩阵**：以 help 为中心，横读能看到 -ful、-less、-er；纵读只有 un- 一行；空格出现在 help + ness，因为 -ness 不能直接接动词。\n\n**四问**：① 名词，指“没有帮助的性质”；② 结构如上；③ 同族含 helpful、helpless、helper；④ 词源上 help 是本土词，-ful 来自 full，un- 是本土否定前缀。\n\n三步走完，这个词就不再是“一长串字母”，而是一张有边界的关系图。",
-      "morphemes": ["un", "help", "ful", "ness", "less"]
+      "morphemes": [
+        "un",
+        "help",
+        "ful",
+        "ness",
+        "less"
+      ]
     },
     {
       "kind": "compare",
@@ -44,17 +94,38 @@
       "a": "问题",
       "b": "该用的工具",
       "rows": [
-        ["这个词怎么拼出来的？", "构词算式（含层次与拼写调整）"],
-        ["这个词还有哪些亲戚？", "构词矩阵"],
-        ["这个组合为什么不存在？", "矩阵的空槽 + 能产性判断"],
-        ["词典里查不到，能不能用？", "语料库与词典核验，而不是规则推演"]
+        [
+          "这个词怎么拼出来的？",
+          "构词算式（含层次与拼写调整）"
+        ],
+        [
+          "这个词还有哪些亲戚？",
+          "构词矩阵"
+        ],
+        [
+          "这个组合为什么不存在？",
+          "矩阵的空槽 + 能产性判断"
+        ],
+        [
+          "词典里查不到，能不能用？",
+          "语料库与词典核验，而不是规则推演"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "下周：前缀的四类语义",
       "body": "第 3 周开始处理前缀。你会发现前缀并不是“随便加个否定”，而是分成否定、方向、程度、时间四类：un- / in- / dis- / non- 管否定，sub- / super- / trans- / inter- 管空间关系，pre- / post- 管时间。\n\n本周的矩阵会成为主要工具：同一个词基配上不同前缀，语义差异就摊在表里。到时候回看 help 和 struct 这两张矩阵，会比较有感觉。",
-      "morphemes": ["un", "in", "dis", "non", "sub", "trans", "pre", "post"]
+      "morphemes": [
+        "un",
+        "in",
+        "dis",
+        "non",
+        "sub",
+        "trans",
+        "pre",
+        "post"
+      ]
     }
   ],
   "practice": [
@@ -62,10 +133,17 @@
       "id": "w02d7-p1",
       "kind": "wordSum",
       "prompt": "用 + 连接词素，写出切分（不要写整词，注意拼写）：happy + ness",
-      "parts": ["happy", "ness"],
+      "parts": [
+        "happy",
+        "ness"
+      ],
       "answer": "happiness",
       "explain": "happy 以“辅音 p + y”结尾，-ness 不以 i 开头，因此 y 变 i，得到 happiness。这是本周拼写规则的核心例子。",
-      "concepts": ["c-word-sum", "c-spelling-rule", "ness"]
+      "concepts": [
+        "c-word-sum",
+        "c-spelling-rule",
+        "ness"
+      ]
     },
     {
       "id": "w02d7-p2",
@@ -76,25 +154,47 @@
       "suffix": "ive",
       "answer": "destructive",
       "explain": "de（向下、反向）+ struct（建造）+ ive（形容词后缀）→ destructive“破坏性的”，字面是“把建起来的东西拆下去”。",
-      "concepts": ["c-word-matrix", "struct", "ive"]
+      "concepts": [
+        "c-word-matrix",
+        "struct",
+        "ive"
+      ]
     },
     {
       "id": "w02d7-p3",
       "kind": "mcq",
       "prompt": "下面哪个组合在拼接时需要把 y 改成 i？",
-      "choices": ["carry + ed", "carry + ing", "play + ed", "stay + ed"],
+      "choices": [
+        "carry + ed",
+        "carry + ing",
+        "play + ed",
+        "stay + ed"
+      ],
       "answer": 0,
       "explain": "carry 以“辅音 r + y”结尾，-ed 不以 i 开头，所以 y 变 i 得 carried。carry + ing 中 -ing 以 i 开头，y 保留；play、stay 是“元音 + y”，y 也保留。",
-      "concepts": ["c-spelling-rule", "ed", "ing"]
+      "concepts": [
+        "c-spelling-rule",
+        "ed",
+        "ing"
+      ]
     },
     {
       "id": "w02d7-p4",
       "kind": "mcq",
       "prompt": "以 help 为词基的矩阵中，哪一格应当留空？",
-      "choices": ["help + ness", "help + ful", "help + less", "help + ing"],
+      "choices": [
+        "help + ness",
+        "help + ful",
+        "help + less",
+        "help + ing"
+      ],
       "answer": 0,
       "explain": "英语没有 helpness 这个词，名词形式是 helpfulness——-ness 要求形容词词基，而 help 是动词/名词。其余三格分别得到 helpful、helpless、helping。",
-      "concepts": ["c-word-matrix", "ness", "help"]
+      "concepts": [
+        "c-word-matrix",
+        "ness",
+        "help"
+      ]
     },
     {
       "id": "w02d7-p5",
@@ -102,9 +202,16 @@
       "prompt": "填入数字（用汉字或阿拉伯数字均可）",
       "sentence": "在 SWI 四问中，“它的词源是什么”是第 ___ 问，应放在最后作校验。",
       "answer": "四",
-      "accept": ["4", "四", "four"],
+      "accept": [
+        "4",
+        "四",
+        "four"
+      ],
       "explain": "四问的顺序是：意义 → 结构 → 词族 → 词源。词源放最后，因为它只能解释历史来源，不能决定现代词义与结构。",
-      "concepts": ["c-etymology", "c-word-family"]
+      "concepts": [
+        "c-etymology",
+        "c-word-family"
+      ]
     },
     {
       "id": "w02d7-p6",
@@ -118,7 +225,11 @@
       ],
       "answer": 0,
       "explain": "un + possible 符合 un- 的用法，所以“形态上可描述”。但现代标准英语采用 impossible，*unpossible 没有使用证据。合法性判断依据的是语料与词典，而不是规则推演。",
-      "concepts": ["c-frequency", "un", "im"]
+      "concepts": [
+        "c-frequency",
+        "un",
+        "im"
+      ]
     }
   ],
   "apply": [
@@ -128,11 +239,21 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "The incompatibility between the two software versions only became apparent after deployment, when the older client could no longer parse the new data format.",
       "word": "incompatibility",
-      "choices": ["不兼容、无法配合使用", "无法相互比较", "不能被编译", "内容不完整"],
+      "choices": [
+        "不兼容、无法配合使用",
+        "无法相互比较",
+        "不能被编译",
+        "内容不完整"
+      ],
       "answer": 0,
       "strategy": "①切分 in（否定）+ compatible（兼容的）+ ity（名词后缀）；②-ity 构成抽象名词，作主语；③时间从句说部署后旧客户端无法解析新数据格式，指向“不能配合”；④排除“不能编译”，那是 compile 的词族，与 compatible 无关。",
       "explain": "compatible“兼容的”→ incompatibility“不兼容”。句子给出的是具体证据：旧客户端解析不了新格式。注意不要因为 in- 与 com- 都常见，就把它误读成 compile 相关的词。",
-      "concepts": ["in", "compatible", "ity", "c-inference"]
+      "concepts": [
+        "in",
+        "compatible",
+        "ity",
+        "c-inference"
+      ]
     },
     {
       "id": "w02d7-a2",
@@ -140,16 +261,38 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "A slight misalignment of the two lenses produced a blurred image that the calibration routine could not correct, so the housing was redesigned.",
       "word": "misalignment",
-      "choices": ["未对准、位置偏差", "校准过程中的错误", "镜片表面的污损", "图像压缩造成的失真"],
+      "choices": [
+        "未对准、位置偏差",
+        "校准过程中的错误",
+        "镜片表面的污损",
+        "图像压缩造成的失真"
+      ],
       "answer": 0,
       "strategy": "①切分 mis（错误、不当）+ align（对齐）+ ment（名词后缀）；②作主语，被 slight 修饰；③结果说图像模糊、标定程序无法纠正，最后重新设计外壳，指向“位置没对齐”；④排除“校准错误”，那是 miscalibration，词根不同。",
       "explain": "mis- 表示“错误、不当”（mistake、misinterpret、misalign），align 是对齐，-ment 构成名词。整句的因果链是：两片透镜略有偏差 → 图像模糊 → 标定修不好 → 改结构设计。",
-      "concepts": ["mis", "align", "ment", "c-inference"]
+      "concepts": [
+        "mis",
+        "align",
+        "ment",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "算式、矩阵与四问的综合运用" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5 Morphology：能产性与词汇空缺" },
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4 章：拼写连接规则复习" }
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "算式、矩阵与四问的综合运用"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5 Morphology：能产性与词汇空缺"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：拼写连接规则复习"
+    }
   ]
 }

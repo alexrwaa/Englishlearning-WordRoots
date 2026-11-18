@@ -9,9 +9,26 @@
     "能解释 -gate 如何从专名脱落为能产的构词成分",
     "能根据语境区分 localization 的“定位”与“本地化”两个义项"
   ],
-  "prereqs": ["w10d5"],
-  "concepts": ["c-metaphor", "c-semantic-shift", "c-scientific", "c-register"],
-  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w10d5"
+  ],
+  "concepts": [
+    "c-metaphor",
+    "c-semantic-shift",
+    "c-scientific",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s8-1",
+    "kp-s1c3s17-2",
+    "kp-s1c7s8-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "C1",
   "cards": [
     {
@@ -19,7 +36,11 @@
       "title": "token：从“记号”到“计费单位”",
       "body": "token 的迁移路径很长，但每一步都能说清：\n\n- 古英语 **tācn**：“记号、标志”（与德语 Zeichen“符号”同源）\n- 中古英语：凭证、代币（地铁 token、gift token）——“代表某种价值的小物件”\n- 编译原理：词法分析得到的**词法单元**（token）——“文本里可识别的最小记号”\n- 自然语言处理：分词后的**词元**（tokenization）\n- 大模型：计费与上下文长度的**基本单位**\n\n底层意象始终是“一个可数的、代表更大东西的小单位”。所谓“token 是模型的计费单位”，本质上是把“代币”的经济隐喻搬到了算力上。\n\n顺带一提：*a token gesture*（象征性姿态）保留的是“只作表示、不含实质”这一面。",
       "terms": [
-        { "term": "tokenization", "zh": "分词、词元化", "en": "tokenization" }
+        {
+          "term": "tokenization",
+          "zh": "分词、词元化",
+          "en": "tokenization"
+        }
       ]
     },
     {
@@ -27,20 +48,55 @@
       "title": "-gate：一个专名如何变成后缀",
       "body": "1972 年，美国华盛顿水门大厦（**Watergate**）发生窃听丑闻，媒体以 Watergate 称之。此后任何政治丑闻都被套上 -gate：Irangate、Koreagate，直到今天的 Gamergate、Deflategate。\n\n语言学上，这类成分叫 **libfix**（“被解放的固定成分”，由 Arnold Zwicky 提出）：原本只属于一个专名的部分，被剪下来当作能产的后缀使用。\n\n条件是三条同时满足：\n\n1. 原事件足够有名，公众记得住；\n2. 该成分位置固定、语音清晰（-gate 好读好拼）；\n3. 语义空白刚好被它填上（“丑闻”需要一个简短标签）。\n\n有趣的是，-gate 已经完全脱离“门”的实义，变成只能黏附在专名后的粘着成分：可以说 Deflategate、Pizzagate，却不能单说 *a gate* 来表示丑闻。它在新闻标题里极其能产，但正式语域仍嫌随意。",
       "terms": [
-        { "term": "libfix", "zh": "解放的固定成分", "en": "libfix", "note": "从专名中剪出、可自由搭配的构词成分" }
+        {
+          "term": "libfix",
+          "zh": "解放的固定成分",
+          "en": "libfix",
+          "note": "从专名中剪出、可自由搭配的构词成分"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "network、model、train：三条迁移路径",
       "body": "技术词的“新义”几乎都不是凭空造的，而是从日常义沿着某条可解释的路径推过去。下表把常见路径摊开，重点看最后一列：保留了哪些特征、丢掉了哪些特征，这才是判断新义是否用对的关键。",
-      "head": ["词", "日常义", "技术义", "保留的特征"],
+      "head": [
+        "词",
+        "日常义",
+        "技术义",
+        "保留的特征"
+      ],
       "rows": [
-        ["network", "网（net＋weorc 网状的活儿）", "计算机网络、神经网络、社交网络", "节点＋连接＋可通达"],
-        ["model", "小尺度复制品（拉丁 modulus“小尺度”）", "系统的形式化表示、训练好的模型", "对原物的简化替代"],
-        ["train", "训练人／动物", "训练模型（train a model）", "反复练习→参数调整"],
-        ["cloud", "天上的云", "云计算、云存储", "不可见、按需取用"],
-        ["pipeline", "管道", "数据处理流水线", "单向流动、分段处理"]
+        [
+          "network",
+          "网（net＋weorc 网状的活儿）",
+          "计算机网络、神经网络、社交网络",
+          "节点＋连接＋可通达"
+        ],
+        [
+          "model",
+          "小尺度复制品（拉丁 modulus“小尺度”）",
+          "系统的形式化表示、训练好的模型",
+          "对原物的简化替代"
+        ],
+        [
+          "train",
+          "训练人／动物",
+          "训练模型（train a model）",
+          "反复练习→参数调整"
+        ],
+        [
+          "cloud",
+          "天上的云",
+          "云计算、云存储",
+          "不可见、按需取用"
+        ],
+        [
+          "pipeline",
+          "管道",
+          "数据处理流水线",
+          "单向流动、分段处理"
+        ]
       ]
     },
     {
@@ -48,10 +104,26 @@
       "title": "model：从“小尺度”到“可训练的表示”",
       "body": "model 的拉丁词根是 **modus**“尺度、方式”，其指小形式 **modulus** 意为“小尺度”。文艺复兴时期的建筑与艺术把 modello 用作“建筑的缩小模型”——这是今天“模型”义的直接前身。\n\n之后它一路抽象化：\n\n1. 具体的缩小复制品（a model of the bridge）\n2. 值得模仿的典范（a role model）\n3. 对系统的形式化描述（a mathematical model）\n4. 由数据训练得到、可用于预测的参数集合（a trained model）\n\n第 4 步是 20 世纪后期才稳定的用法。注意它保留了“简化替代”这一核心：模型永远不等于原物，只是**在特定目的下够用的替代品**。这句话可以写进论文的方法部分。",
       "steps": [
-        { "period": "拉丁", "form": "modus / modulus", "note": "“尺度”／“小尺度”" },
-        { "period": "意大利语", "form": "modello", "note": "建筑与艺术的缩小样稿" },
-        { "period": "法语／英语", "form": "model", "note": "复制品 → 典范 → 形式化表示" },
-        { "period": "20 世纪后期", "form": "trained model", "note": "由数据拟合、可预测的模型" }
+        {
+          "period": "拉丁",
+          "form": "modus / modulus",
+          "note": "“尺度”／“小尺度”"
+        },
+        {
+          "period": "意大利语",
+          "form": "modello",
+          "note": "建筑与艺术的缩小样稿"
+        },
+        {
+          "period": "法语／英语",
+          "form": "model",
+          "note": "复制品 → 典范 → 形式化表示"
+        },
+        {
+          "period": "20 世纪后期",
+          "form": "trained model",
+          "note": "由数据拟合、可预测的模型"
+        }
       ]
     },
     {
@@ -59,7 +131,12 @@
       "title": "localization：同一个词，两个专业社群",
       "body": "localization 的词根是拉丁 **locus**“地方”。但在两个领域，它朝两个方向专业化：\n\n- **机器人／导航**：定位——确定自己在环境中的位置（localization、position estimation）。这里的问题是“我在哪”。\n- **软件／产品**：本地化——把产品改编到某个地区（语言、货币、法规），常缩写为 L10n。这里的问题是“它属于哪个地方”。\n\n一个指“求出位置”，一个指“使之本地化”，共享 locus 但扩展方向不同。这不是歧义，而是**同一词根在两个社群里的独立专业化**——第 9 周讲的“借词分层”在这里变成了“术语分层”。\n\n读论文时判断方法：看搭配。与 map、pose、odometry、drift 同现的是“定位”；与 locale、translation、UI、compliance 同现的是“本地化”。",
       "terms": [
-        { "term": "localization", "zh": "定位／本地化", "en": "localization", "note": "机器人语境指定位，软件语境指本地化" }
+        {
+          "term": "localization",
+          "zh": "定位／本地化",
+          "en": "localization",
+          "note": "机器人语境指定位，软件语境指本地化"
+        }
       ]
     },
     {
@@ -81,7 +158,10 @@
       ],
       "answer": 0,
       "explain": "token 从“记号、凭证、代币”一路走到“词法单元、词元、计费单位”，保留的始终是“可数的小单位，代表更大的东西”。材质、支付方式都是被丢掉的次要特征。",
-      "concepts": ["c-semantic-shift", "c-metaphor"]
+      "concepts": [
+        "c-semantic-shift",
+        "c-metaphor"
+      ]
     },
     {
       "id": "w10d6-p2",
@@ -95,7 +175,9 @@
       ],
       "answer": 0,
       "explain": "-gate 来自 Watergate 这一专名，后被剪下来当作能产成分（libfix），用于 Irangate、Deflategate 等。它已完全脱离“门”的实义，属于专名脱落为构词成分的典型案例。",
-      "concepts": ["c-semantic-shift"]
+      "concepts": [
+        "c-semantic-shift"
+      ]
     },
     {
       "id": "w10d6-p3",
@@ -103,9 +185,14 @@
       "prompt": "填入一个专名（英文）",
       "sentence": "The scandal suffix -gate derives from ___, the Washington office complex involved in the 1972 break-in.",
       "answer": "Watergate",
-      "accept": ["Watergate", "watergate"],
+      "accept": [
+        "Watergate",
+        "watergate"
+      ],
       "explain": "Watergate 原是华盛顿的水门大厦群，1972 年窃听事件后成为丑闻的代名词。语言使用者把 -gate 剪下来反复使用，使它从专名的一部分变成了独立的构词成分。",
-      "concepts": ["c-semantic-shift"]
+      "concepts": [
+        "c-semantic-shift"
+      ]
     },
     {
       "id": "w10d6-p4",
@@ -119,16 +206,27 @@
       ],
       "answer": 0,
       "explain": "机器人、SLAM、导航语境中的 localization 指“定位”，常与 map、pose、odometry、drift 同现。软件语境中的 localization 指“本地化”（L10n），常与 locale、translation、UI 同现。判断依据是搭配，不是词形。",
-      "concepts": ["c-scientific", "c-register"]
+      "concepts": [
+        "c-scientific",
+        "c-register"
+      ]
     },
     {
       "id": "w10d6-p5",
       "kind": "mcq",
       "prompt": "model 的拉丁词根 modulus 原意是？",
-      "choices": ["小尺度", "模型参数", "范例", "计算"],
+      "choices": [
+        "小尺度",
+        "模型参数",
+        "范例",
+        "计算"
+      ],
       "answer": 0,
       "explain": "modulus 是 modus“尺度”的指小形式，意为“小尺度”，经意大利语 modello（建筑小样）进入英法语言。今天的“模型”义仍保留“按比例缩小的替代物”这一核心。",
-      "concepts": ["c-etymology", "c-scientific"]
+      "concepts": [
+        "c-etymology",
+        "c-scientific"
+      ]
     }
   ],
   "apply": [
@@ -138,15 +236,31 @@
       "prompt": "阅读下面的句子，推测划线词的含义",
       "passage": "The robot's localization error grows to 0.4 m after 200 s, a rate consistent with the drift observed in lidar-only odometry.",
       "word": "localization",
-      "choices": ["对自身位置的估计", "软件的语言本地化", "传感器的安装位置", "地图的压缩比例"],
+      "choices": [
+        "对自身位置的估计",
+        "软件的语言本地化",
+        "传感器的安装位置",
+        "地图的压缩比例"
+      ],
       "answer": 0,
       "strategy": "① 搭配：localization error、0.4 m、after 200 s——误差以米为单位、随时间增长，只能指位置估计；② 同现词：drift、odometry、lidar 都是导航与状态估计术语；③ 对比：若指“本地化”，应出现 locale、translation 等词。",
       "explain": "localization 在机器人语境指“定位”，即估计自身在环境中的位姿；localization error 是定位误差，drift 是随时间累积的漂移。同一个词在软件语境指“本地化”，判定完全依赖搭配与领域。",
-      "concepts": ["c-scientific", "c-inference"]
+      "concepts": [
+        "c-scientific",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "词义扩展与新义项的生成机制" },
-    { "id": "S5", "title": "现代辞书与词源参考", "detail": "token / model / network / -gate / localization 的义项与年代" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "词义扩展与新义项的生成机制"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "token / model / network / -gate / localization 的义项与年代"
+    }
   ]
 }

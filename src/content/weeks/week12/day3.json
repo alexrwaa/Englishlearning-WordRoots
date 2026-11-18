@@ -22,6 +22,9 @@
     "c-inference",
     "c-semantic-shift"
   ],
+  "knowledgePoints": [
+    "kp-s1c7s10-1"
+  ],
   "minutes": {
     "review": 5,
     "learn": 9,
