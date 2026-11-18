@@ -24,7 +24,7 @@ use tauri::Manager;
 /// `--disable-features=...` mirrors the defaults wry sets, because specifying
 /// additional arguments replaces them.
 const BROWSER_ARGS: &str = "--disable-features=msWebOOUI,msPdfOOUI,msSmartScreenProtection \
-     --proxy-server=direct:// --proxy-bypass-list=*";
+     --proxy-server=direct:// --proxy-bypass-list=* --disable-gpu --enable-logging";
 
 fn main() {
     // Support mode: collect environment info without opening a window.
@@ -116,6 +116,29 @@ fn main() {
 /// error page. Make that visible (window title) and diagnosable (log + snapshot)
 /// instead of leaving the user with a silent blank window.
 fn watch_startup(app: tauri::AppHandle, ready: Arc<AtomicBool>) {
+    // Probe what the webview actually holds. Without this a blank window is
+    // indistinguishable from a broken proxy: both only produce "no report".
+    std::thread::sleep(Duration::from_millis(4000));
+    if !ready.load(Ordering::SeqCst) {
+        if let Some(window) = app.get_webview_window("main") {
+            let probe = "document.title = 'WR|' + document.readyState + '|' \
+                 + document.querySelectorAll('*').length + '|' \
+                 + (window.__TAURI_INTERNALS__ ? 'tauri' : 'no-tauri') + '|' \
+                 + (document.getElementById('root') ? document.getElementById('root').innerHTML.length : -1)";
+            match window.eval(probe) {
+                Ok(_) => {
+                    std::thread::sleep(Duration::from_millis(400));
+                    paths::log_line(&format!(
+                        "probe: url={:?} title={:?}",
+                        window.url().map(|u| u.to_string()),
+                        window.title()
+                    ));
+                }
+                Err(err) => paths::log_line(&format!("probe: eval failed: {err}")),
+            }
+        }
+    }
+
     for _ in 0..24 {
         if ready.load(Ordering::SeqCst) {
             paths::log_line("frontend reported ready");
