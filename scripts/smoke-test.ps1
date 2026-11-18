@@ -26,7 +26,11 @@
 [CmdletBinding()]
 param(
   [string]$Zip = '',
-  [int]$ReadyTimeoutSec = 30,
+  # The first case on a cold CI runner measured 30.2 s to first paint once
+  # (WebView2 profile creation + AV scanning the bundle); 30 s was too tight and
+  # reported a working build as broken. A真 blank window still fails: the wait is
+  # bounded and the assertion is on content, not on process liveness.
+  [int]$ReadyTimeoutSec = 75,
   [int]$SelftestTimeoutSec = 240,
   [switch]$KeepTemp
 )
