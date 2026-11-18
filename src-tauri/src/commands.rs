@@ -2,7 +2,7 @@ use rusqlite::params;
 use serde::{Deserialize, Serialize};
 use std::sync::atomic::{AtomicBool, Ordering};
 use std::sync::{Arc, Mutex};
-use tauri::State;
+use tauri::{Manager, State};
 
 use crate::db::{self, AttemptRow, BookmarkRow, CardRow, DailyStat, KindStat, LessonStateRow, NoteRow, ReviewRow};
 use crate::paths;
@@ -43,6 +43,8 @@ pub fn app_info() -> AppInfo {
         version: env!("CARGO_PKG_VERSION").to_string(),
         schema_version: db::SCHEMA_VERSION,
         portable: std::env::var("WORDROOTS_DATA_DIR").is_err(),
+        selftest: std::env::var("WORDROOTS_SELFTEST").map(|v| v == "1").unwrap_or(false),
+        webview_args: std::env::var("WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS").unwrap_or_default(),
     }
 }
 
@@ -424,7 +426,7 @@ pub fn load_course_pack() -> Result<CoursePack, String> {
                         if v.get("cards").and_then(|c| c.as_array()).map(|a| a.is_empty()).unwrap_or(true) {
                             problems.push(format!(
                                 "{} 没有卡片",
-                                day.strip_prefix(&root).unwrap_or(&day).display()
+                                day.strip_prefix(&root).unwrap_or(day.as_path()).display()
                             ));
                         }
                         parsed_days.push(v);
@@ -432,7 +434,7 @@ pub fn load_course_pack() -> Result<CoursePack, String> {
                     }
                     Err(e) => problems.push(format!(
                         "{} 解析失败: {e}",
-                        day.strip_prefix(&root).unwrap_or(&day).display()
+                        day.strip_prefix(&root).unwrap_or(day.as_path()).display()
                     )),
                 }
             }

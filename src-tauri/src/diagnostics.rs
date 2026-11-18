@@ -91,6 +91,8 @@ fn env_or_empty(key: &str) -> String {
 pub fn snapshot() -> serde_json::Value {
     let base = paths::base_dir();
     let exe = std::env::current_exe().unwrap_or_default();
+    let webview_dir = env_or_empty("WEBVIEW2_USER_DATA_FOLDER");
+    let webview_dir_exists = !webview_dir.is_empty() && Path::new(&webview_dir).exists();
 
     let proxy_enabled = reg_value("ProxyEnable").unwrap_or_default();
     let proxy_server = reg_value("ProxyServer").unwrap_or_default();
@@ -104,8 +106,8 @@ pub fn snapshot() -> serde_json::Value {
             "base_dir": base.display().to_string(),
             "exe": exe.display().to_string(),
             "data_dir_overridden": !env_or_empty("WORDROOTS_DATA_DIR").is_empty(),
-            "webview2_user_data": env_or_empty("WEBVIEW2_USER_DATA_FOLDER"),
-            "webview2_user_data_exists": Path::new(&env_or_empty("WEBVIEW2_USER_DATA_FOLDER")).exists(),
+            "webview2_user_data": webview_dir,
+            "webview2_user_data_exists": webview_dir_exists,
         },
         "webview2": {
             "runtime_version": webview2_version(),

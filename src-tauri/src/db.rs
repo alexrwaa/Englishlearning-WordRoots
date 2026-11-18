@@ -140,6 +140,7 @@ pub fn open() -> Result<Connection, String> {
     conn.pragma_update(None, "synchronous", "NORMAL")
         .map_err(|e| e.to_string())?;
 
+    let mut conn = conn;
     let version = read_version(&conn)?;
     if version < SCHEMA_VERSION {
         if existed_with_data && version > 0 {
@@ -148,7 +149,6 @@ pub fn open() -> Result<Connection, String> {
                 paths::log_line(&format!("pre-migration backup: {path}"));
             }
         }
-        let mut conn = conn;
         migrate(&mut conn)?;
         conn.execute(
             "INSERT INTO meta(key, value) VALUES('created_at', ?1)
@@ -156,7 +156,6 @@ pub fn open() -> Result<Connection, String> {
             params![paths::now_ms().to_string()],
         )
         .map_err(|e| e.to_string())?;
-        return Ok(conn);
     }
     Ok(conn)
 }
@@ -744,7 +743,7 @@ mod tests {
         .unwrap();
 
         let totals = totals(&conn).unwrap();
-        assert!(totals.minutes >= 1.9 && totals.minutes <= 2.1, "minutes={}", totals.minutes);
+        assert!(totals.total_minutes >= 1.9 && totals.total_minutes <= 2.1, "minutes={}", totals.total_minutes);
         assert_eq!(totals.attempts, 2);
         assert_eq!(totals.reviews, 1);
 
