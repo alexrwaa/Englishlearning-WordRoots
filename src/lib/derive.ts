@@ -202,7 +202,25 @@ export function affixKind(add: string): 'prefix' | 'suffix' {
   const trimmed = add.trim().toLowerCase();
   if (trimmed.endsWith('-')) return 'prefix';
   if (trimmed.startsWith('-')) return 'suffix';
-  return getMorpheme(trimmed)?.type === 'prefix' ? 'prefix' : 'suffix';
+  return affixRole(trimmed) === 'prefix' ? 'prefix' : 'suffix';
+}
+
+/**
+ * Is this spelling a prefix or a suffix in the lexicon?
+ *
+ * Two entries can share a spelling (the Arabic article `al` and the suffix
+ * `-al`), and the form index keeps only one of them, so a miss or a non-affix
+ * reading falls back to scanning the full morpheme list.
+ */
+export function affixRole(form: string): 'prefix' | 'suffix' | undefined {
+  const f = stripAffixDashes(form);
+  const direct = getMorpheme(f);
+  if (direct?.type === 'prefix') return 'prefix';
+  if (direct?.type === 'suffix') return 'suffix';
+  const alt = allMorphemes().find(
+    (m) => (m.type === 'prefix' || m.type === 'suffix') && stripAffixDashes(m.form) === f,
+  );
+  return alt?.type === 'prefix' || alt?.type === 'suffix' ? alt.type : undefined;
 }
 
 /** The morpheme a spelling belongs to (allomorphs resolve to their canonical entry). */
@@ -375,7 +393,11 @@ export function familyIdOf(base: string): string | undefined {
 /* analyze                                                             */
 /* ------------------------------------------------------------------ */
 
-function buildStepsFromParts(parts: string[], rootIndex: number): DerivationStep[] {
+function buildStepsFromParts(
+  parts: string[],
+  rootIndex: number,
+  allowDoubling = true,
+): DerivationStep[] {
   const steps: DerivationStep[] = [];
   let word = parts[rootIndex] ?? '';
   for (let i = rootIndex - 1; i >= 0; i -= 1) {
@@ -386,7 +408,11 @@ function buildStepsFromParts(parts: string[], rootIndex: number): DerivationStep
   }
   for (let i = rootIndex + 1; i < parts.length; i += 1) {
     const form = stripAffixDashes(parts[i]);
-    const joined = suffixCandidates(word, form)[0];
+    const candidates = suffixCandidates(word, form);
+    // Doubling needs stress data we do not have; the verified spelling decides.
+    const joined = allowDoubling
+      ? candidates[0]
+      : (candidates.find((c) => c.rule !== 'double') ?? candidates[0]);
     steps.push({ from: word, add: notation(form, 'suffix'), to: joined.text, rule: joined.rule });
     word = joined.text;
   }
@@ -480,7 +506,13 @@ export function analyze(word: string): Analysis {
   const entry = getWord(w);
   if (entry) {
     const parts = entry.parts.map(stripAffixDashes);
-    return { parts, steps: buildStepsFromParts(parts, rootIndexOf(parts)), known: true };
+    const rootIndex = rootIndexOf(parts);
+    const doubled = buildStepsFromParts(parts, rootIndex, true);
+    const plain = buildStepsFromParts(parts, rootIndex, false);
+    const last = (steps: DerivationStep[]) => (steps.length > 0 ? steps[steps.length - 1].to : (parts[rootIndex] ?? ''));
+    // Only the listed spelling can pick between the two doubling readings.
+    const steps = last(doubled) === entry.w ? doubled : last(plain) === entry.w ? plain : doubled;
+    return { parts, steps, known: true };
   }
 
   const guess = segmentUnknown(w);

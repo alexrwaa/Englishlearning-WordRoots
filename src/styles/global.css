@@ -1189,10 +1189,40 @@ a.btn:hover {
 }
 
 .lab-summary {
-  margin-top: 12px;
+  margin: 0 0 12px;
   padding: 9px 12px;
   border: 1px solid var(--line);
   border-left: 3px solid var(--accent);
   border-radius: 9px;
   background: var(--accent-softer);
+}
+
+/* Keep the row labels visible while the matrix scrolls sideways. */
+.lab-corner,
+.lab-row-head {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: var(--panel);
+}
+
+.lab-row-head {
+  z-index: 1;
+}
+
+.lab-tree .lab-tree {
+  border-left: 1px dashed var(--line-strong);
+  padding-left: 8px;
+}
+
+.lab-row-head {
+  box-shadow: 6px 0 6px -6px rgba(20, 24, 22, 0.22);
+}
+
+@media (max-width: 1180px) {
+  /* The picker list is a rail, not the main content: keep it short when the
+     layout stacks so the matrix stays near the top. */
+  .lab-picker .grid {
+    max-height: 220px !important;
+  }
 }

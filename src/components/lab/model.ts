@@ -7,6 +7,7 @@
  */
 import { allWords, getWord } from '../../lib/content';
 import {
+  affixRole,
   analyze,
   deriveFrom,
   familyBaseForm,
@@ -85,13 +86,39 @@ function affixesAround(form: string, words: WordEntry[]): { prefixes: string[]; 
 }
 
 /**
- * Column set for the whole ladder: every affix seen around any level of the
- * family, plus the most common affixes as a fallback so a root with few
- * relatives still produces a usable grid.
+ * Every affix used anywhere in the family's words. A ladder needs this wider
+ * view: `nationalize` takes -ation, but -ation never sits directly next to
+ * `nation`, so a strictly local inventory would stop the ladder at `national`.
+ */
+function familyAffixes(form: string, words: WordEntry[]): { prefixes: string[]; suffixes: string[] } {
+  const prefixes = new Map<string, number>();
+  const suffixes = new Map<string, number>();
+  for (const entry of words) {
+    if (!entry.parts.includes(form)) continue;
+    for (const part of entry.parts) {
+      if (part === form) continue;
+      const role = affixRole(part);
+      if (role === 'prefix') bump(prefixes, part);
+      else if (role === 'suffix') bump(suffixes, part);
+    }
+  }
+  return { prefixes: ranked(prefixes, 6), suffixes: ranked(suffixes, 8) };
+}
+
+/**
+ * Column set for the whole ladder: the family inventory plus affixes seen
+ * directly around any level, with the most common affixes as a fallback so a
+ * root with few relatives still produces a usable grid.
  */
 export function affixColumns(nodes: LadderNode[], words: WordEntry[]): AffixColumn[] {
   const prefixes = new Map<string, number>();
   const suffixes = new Map<string, number>();
+  const rootWord = nodes[0]?.word ?? '';
+  if (rootWord) {
+    const family = familyAffixes(rootWord, words);
+    for (const p of family.prefixes) bump(prefixes, p);
+    for (const s of family.suffixes) bump(suffixes, s);
+  }
   for (const node of nodes) {
     const around = affixesAround(node.word, words);
     for (const p of around.prefixes) bump(prefixes, p);
@@ -135,14 +162,17 @@ export function buildLadder(base: string, dictionary: Set<string>, maxDepth = 3,
   const seen = new Set([root]);
   let frontier = [nodes[0]];
 
+  // Grow with the whole family's affixes: multi-layer words like
+  // nationalization need -ation, which never sits next to the base itself.
+  const family = familyAffixes(root, words);
+  const additions = [
+    ...family.prefixes.map((p) => `${p}-`),
+    ...family.suffixes.map((s) => `-${s}`),
+  ];
+
   for (let depth = 1; depth <= maxDepth && nodes.length < maxNodes; depth += 1) {
     const next: LadderNode[] = [];
     for (const node of frontier) {
-      const around = affixesAround(node.word, words);
-      const additions = [
-        ...around.prefixes.map((p) => `${p}-`),
-        ...around.suffixes.map((s) => `-${s}`),
-      ];
       for (const addition of additions) {
         if (nodes.length >= maxNodes) break;
         const derived = deriveFrom(node.word, [addition], dictionary);

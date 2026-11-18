@@ -2,7 +2,14 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Badge, Button, Panel } from '../ui';
 import { getMorpheme, getWord } from '../../lib/content';
-import { familyIdOf, familyBaseForm, rootIndexOf, type CellVerdict, type DerivationStep } from '../../lib/derive';
+import {
+  BLOCK_LABELS,
+  familyBaseForm,
+  familyIdOf,
+  rootIndexOf,
+  type CellVerdict,
+  type DerivationStep,
+} from '../../lib/derive';
 import { useApp } from '../../lib/store';
 import type { WordEntry } from '../../lib/types';
 import { POS_LABEL } from '../matrix/model';
@@ -122,6 +129,9 @@ export function LabDetail({ selection }: { selection: LabSelection | null }) {
           <div className="divider" />
           <div className="tiny faint" style={{ marginBottom: 6 }}>
             为什么这一格不成立
+          </div>
+          <div className="row" style={{ gap: 6, marginBottom: 6, flexWrap: 'wrap' }}>
+            <Badge tone="red">{BLOCK_LABELS[verdict.rule as keyof typeof BLOCK_LABELS] ?? verdict.rule}</Badge>
           </div>
           <p className="small" style={{ margin: 0, lineHeight: 1.7 }}>
             {verdict.reason}

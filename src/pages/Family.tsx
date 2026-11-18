@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { allMorphemes, allWords, getMorpheme, getWord } from '../lib/content';
-import { familyBaseForm, familyMembers, resolveFamilyId } from '../lib/derive';
+import { allMorphemes, allWords, getWord } from '../lib/content';
+import { affixRole, familyBaseForm, familyMembers, resolveFamilyId } from '../lib/derive';
 import { Badge, EmptyState, Panel } from '../components/ui';
 import { FamilyTree } from '../components/lab/FamilyTree';
 import { POS_LABEL } from '../components/matrix/model';
@@ -19,12 +19,11 @@ const GROUPS: { key: GroupKey; label: string; hint: string }[] = [
 
 function groupOf(entry: WordEntry): GroupKey {
   if (entry.parts.length <= 1) return 'base';
-  const roots = entry.parts.filter((p) => {
-    const type = getMorpheme(p)?.type;
-    return type === 'root' || type === 'combining';
-  }).length;
-  if (roots >= 2) return 'compound';
-  return getMorpheme(entry.parts[0])?.type === 'prefix' ? 'prefix' : 'suffix';
+  // Parts that are neither prefix nor suffix are lexical cores: two of them
+  // means a compound, not a derivation.
+  const cores = entry.parts.filter((p) => !affixRole(p)).length;
+  if (cores >= 2) return 'compound';
+  return affixRole(entry.parts[0]) === 'prefix' ? 'prefix' : 'suffix';
 }
 
 export default function Family() {
@@ -41,6 +40,7 @@ export default function Family() {
   }, [familyId]);
 
   const memberWords = useMemo(() => new Set(members.map((m) => m.w)), [members]);
+  const dictionary = useMemo(() => new Set(allWords().map((w) => w.w)), []);
 
   const grouped = useMemo(() => {
     const map = new Map<GroupKey, WordEntry[]>();
@@ -177,14 +177,14 @@ export default function Family() {
         <Panel>
           <div className="row-between" style={{ marginBottom: 8 }}>
             <h3 style={{ marginBottom: 0 }}>派生层次</h3>
-            <span className="tiny faint">由构词规则从词基逐层生成</span>
+            <span className="tiny faint">按词条词素拆解排列，可展开折叠</span>
           </div>
           {members.length === 0 ? (
             <p className="small faint" style={{ margin: 0 }}>
               词库里还没有以 {baseForm} 为词素的词条，所以没有可展示的层次。
             </p>
           ) : (
-            <FamilyTree entries={members} />
+            <FamilyTree entries={members} dictionary={dictionary} />
           )}
         </Panel>
       </div>

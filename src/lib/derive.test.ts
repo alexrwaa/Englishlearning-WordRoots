@@ -164,6 +164,14 @@ describe('analyze', () => {
   it('is empty-safe', () => {
     expect(analyze('   ').parts).toEqual([]);
   });
+
+  it('treats a suffix that shares its spelling with another morpheme as a suffix', () => {
+    // `al` is both the Arabic article and the suffix -al; the analysis must
+    // still spell national as nation + al.
+    const a = analyze('national');
+    expect(a.parts).toEqual(['nation', 'al']);
+    expect(a.steps.at(-1)?.to).toBe('national');
+  });
 });
 
 describe('three-state judgement', () => {

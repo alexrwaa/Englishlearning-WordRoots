@@ -211,7 +211,7 @@ export default function MatrixLab() {
           alignItems: 'start',
         }}
       >
-        <Panel>
+        <Panel className="lab-picker">
           <BasePicker candidates={candidates} active={base} totalWords={words.length} onPick={chooseBase} />
         </Panel>
 
@@ -285,7 +285,7 @@ export default function MatrixLab() {
               onChange={(e) => setFilter((prev) => ({ ...prev, query: e.target.value }))}
             />
             <span className="tiny faint" style={{ flex: 'none' }}>
-              {rows.length} / {baseRows.length} 行
+              {rows.length} / {baseRows.length} 行 · {columns.length} 列
             </span>
           </div>
 

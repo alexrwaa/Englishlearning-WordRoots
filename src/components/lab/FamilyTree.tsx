@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getMorpheme } from '../../lib/content';
+import { affixRole, deriveFrom } from '../../lib/derive';
 import type { WordEntry } from '../../lib/types';
 import { POS_LABEL } from '../matrix/model';
 
@@ -17,13 +18,23 @@ function isSubsequence(small: string[], big: string[]): boolean {
   return i === small.length;
 }
 
+/** The one morpheme `big` has that `small` does not, when the difference is a single affix. */
+function extraPart(small: string[], big: string[]): string | undefined {
+  for (let i = 0; i < big.length; i += 1) {
+    const rest = [...big.slice(0, i), ...big.slice(i + 1)];
+    if (rest.length === small.length && rest.every((part, j) => part === small[j])) return big[i];
+  }
+  return undefined;
+}
+
 /**
- * A real derivation tree, not a list: every word hangs under the longest listed
- * word whose morphemes it contains in order. Several paths can be valid
- * (`unhelpfulness` is both un+helpful+ness and helpful+ness with un-), so the
- * tree shows one attestation and the matrix chain shows the applied path.
+ * A derivation tree, not a list. An edge exists only when the engine can spell
+ * the child from the parent by adding exactly the one morpheme that differs
+ * (checked against the dictionary), so the tree is made of real derivations.
+ * Several paths can be valid (`unhelpfulness` is both un+helpful+ness and
+ * helpful+ness with un-); the tree shows one, the matrix shows the applied one.
  */
-export function buildFamilyTree(entries: WordEntry[]): FamilyNode[] {
+export function buildFamilyTree(entries: WordEntry[], dictionary?: Set<string>): FamilyNode[] {
   const sorted = [...entries].sort(
     (a, b) => a.parts.length - b.parts.length || a.w.localeCompare(b.w),
   );
@@ -35,12 +46,18 @@ export function buildFamilyTree(entries: WordEntry[]): FamilyNode[] {
     const node = nodes.get(entry.w)!;
     let parent: FamilyNode | undefined;
     for (const candidate of sorted) {
-      if (candidate === entry) continue;
-      if (candidate.parts.length >= entry.parts.length) continue;
+      if (candidate.w === entry.w) continue;
+      if (candidate.parts.length !== entry.parts.length - 1) continue;
       if (!isSubsequence(candidate.parts, entry.parts)) continue;
-      const candidateNode = nodes.get(candidate.w);
-      if (!candidateNode) continue;
-      if (!parent || candidate.parts.length > parent.entry.parts.length) parent = candidateNode;
+      const extra = extraPart(candidate.parts, entry.parts);
+      if (!extra) continue;
+      if (dictionary) {
+        const add = affixRole(extra) === 'prefix' ? `${extra}-` : `-${extra}`;
+        const derived = deriveFrom(candidate.w, [add], dictionary);
+        if (!derived.valid || derived.word !== entry.w) continue;
+      }
+      parent = nodes.get(candidate.w);
+      break;
     }
     if (parent) parent.children.push(node);
     else roots.push(node);
@@ -48,8 +65,8 @@ export function buildFamilyTree(entries: WordEntry[]): FamilyNode[] {
   return roots;
 }
 
-export function FamilyTree({ entries }: { entries: WordEntry[] }) {
-  const roots = useMemo(() => buildFamilyTree(entries), [entries]);
+export function FamilyTree({ entries, dictionary }: { entries: WordEntry[]; dictionary?: Set<string> }) {
+  const roots = useMemo(() => buildFamilyTree(entries, dictionary), [entries, dictionary]);
   const [collapsed, setCollapsed] = useState<Set<string>>(() => new Set());
 
   const toggle = (word: string) =>
