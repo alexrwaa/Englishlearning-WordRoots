@@ -416,6 +416,12 @@ pub fn load_course_pack() -> Result<CoursePack, String> {
                     .filter_map(|e| e.ok())
                     .map(|e| e.path())
                     .filter(|p| p.extension().map(|x| x == "json").unwrap_or(false))
+                    // weekNN/meta.json is the week theme, not a lesson day.
+                    .filter(|p| {
+                        p.file_name()
+                            .map(|n| n != std::ffi::OsStr::new("meta.json"))
+                            .unwrap_or(true)
+                    })
                     .collect(),
                 Err(_) => continue,
             };

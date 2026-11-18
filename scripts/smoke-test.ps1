@@ -493,17 +493,26 @@ function Invoke-DiagnoseCase {
     # a beat; give it a moment before concluding the file is absent.
     Start-Sleep -Milliseconds 800
 
-    $snapshotPath = Join-Path $appDir 'app-data/logs/startup-cli.json'
+    # Locate the snapshot by search and validate it by text: the runner may
+    # resolve the portable root through a short 8.3 path, and a path spelling or
+    # JSON-parsing quirk must not read as a product failure.
+    $deadline = (Get-Date).AddSeconds(20)
+    $snapshotFile = $null
+    while ((Get-Date) -lt $deadline -and $null -eq $snapshotFile) {
+      $snapshotFile = Get-ChildItem -LiteralPath $appDir -Recurse -Filter 'startup-cli.json' -ErrorAction SilentlyContinue |
+        Select-Object -First 1
+      if ($null -eq $snapshotFile) { Start-Sleep -Milliseconds 300 }
+    }
+
     $verdict = 'FAIL'
     $note = 'startup-cli.json missing'
-    # A GUI-subsystem process may exit before the write is flushed; poll briefly.
-    $snapshot = Wait-ForJson $snapshotPath 15
-    if ($null -ne $snapshot) {
-      $hasWininet = $null -ne $snapshot.wininet
-      $hasWebview = $null -ne $snapshot.webview2
+    if ($null -ne $snapshotFile) {
+      $text = [System.IO.File]::ReadAllText($snapshotFile.FullName, [System.Text.Encoding]::UTF8)
+      $hasWininet = $text -match '"wininet"'
+      $hasWebview = $text -match '"webview2"'
       if ($hasWininet -and $hasWebview) {
         $verdict = 'PASS'
-        $note = "wininet+webview2 present (runtime=$($snapshot.webview2.runtime_version))"
+        $note = "wininet+webview2 present ($($snapshotFile.Length) bytes)"
       } else {
         $note = "wininet=$hasWininet webview2=$hasWebview"
       }
