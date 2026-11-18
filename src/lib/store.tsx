@@ -1,5 +1,13 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
-import { db, cardId, type AppInfo, type Bookmark, type DailyStat, type KindStat, type Totals } from './api';
+import { db, cardId, IS_TAURI, WEB_DB_KEY, type AppInfo, type Bookmark, type DailyStat, type KindStat, type Totals } from './api';
+import {
+  backupFileName,
+  parseBackup,
+  PREIMPORT_KEY,
+  totalRecords,
+  type BackupCounts,
+  type BackupFile,
+} from './backup';
 import { ratingForOutcome, review as fsrsReview, type Rating } from './fsrs';
 import { buildDailyPlan, computeStreak, todayKey, type DailyPlan } from './plan';
 import {
@@ -36,6 +44,23 @@ interface RecordArgs {
   answer?: string;
 }
 
+export interface ExportResult {
+  /** `file` = the desktop backend wrote a file; `download` = browser download. */
+  kind: 'file' | 'download';
+  path: string;
+  counts: BackupCounts | null;
+  notes: string[];
+}
+
+export interface ImportSummary {
+  counts: BackupCounts;
+  /** Total records written (settings excluded). */
+  total: number;
+  settingsRestored: boolean;
+  preImportBackup: string | null;
+  notes: string[];
+}
+
 interface AppContextValue {
   ready: boolean;
   error: string | null;
@@ -52,17 +77,40 @@ interface AppContextValue {
   refresh: () => Promise<void>;
   saveLessonState: (state: LessonState) => Promise<void>;
   recordAttempt: (args: RecordArgs) => Promise<void>;
-  gradeRef: (refId: string, correct: boolean, opts?: { usedHint?: boolean; fast?: boolean; phase?: Phase }) => Promise<void>;
+  gradeRef: (
+    refId: string,
+    correct: boolean,
+    opts?: { usedHint?: boolean; fast?: boolean; phase?: Phase; elapsedMs?: number },
+  ) => Promise<void>;
   addNote: (targetType: string, targetId: string, body: string) => Promise<void>;
   deleteNote: (id: number) => Promise<void>;
   toggleBookmark: (targetType: string, targetId: string) => Promise<boolean>;
   backupNow: () => Promise<string>;
-  runExport: () => Promise<string>;
+  runExport: () => Promise<ExportResult>;
+  importBackup: (text: string) => Promise<ImportSummary>;
   toast: (message: string, tone?: 'info' | 'success' | 'warn') => void;
   toasts: { id: number; message: string; tone: string }[];
 }
 
 const AppContext = createContext<AppContextValue | null>(null);
+
+function errText(err: unknown): string {
+  return err instanceof Error ? err.message : String(err);
+}
+
+/** Browser preview only: save a string as a file without any backend support. */
+function downloadText(text: string, name: string) {
+  const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = name;
+  link.rel = 'noopener';
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  // Give the webview a tick to start the download before releasing the blob.
+  window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
 
 const emptyTotals: Totals = {
   lessonsCompleted: 0,
@@ -151,7 +199,11 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const gradeRef = useCallback(
-    async (refId: string, correct: boolean, opts?: { usedHint?: boolean; fast?: boolean; phase?: Phase }) => {
+    async (
+      refId: string,
+      correct: boolean,
+      opts?: { usedHint?: boolean; fast?: boolean; phase?: Phase; elapsedMs?: number },
+    ) => {
       const kind = opts?.phase === 'apply' ? 'inference' : 'concept';
       const id = cardId(kind, refId);
       const existing: MemoryCard =
@@ -183,6 +235,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
         ts: Date.now(),
         correct,
         phase: opts?.phase ?? 'practice',
+        elapsedMs: opts?.elapsedMs,
       };
       await db.addReview(log);
     },
@@ -247,11 +300,97 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     return path;
   }, [toast]);
 
-  const runExport = useCallback(async () => {
-    const path = await db.exportData();
+  const runExport = useCallback(async (): Promise<ExportResult> => {
+    if (IS_TAURI) {
+      // The desktop backend owns the file system: `export_data` writes a
+      // snapshot into backups/ and returns its path. Settings live in the same
+      // database but are not part of that snapshot (see `db.rs::Snapshot`), so
+      // the counts below report what the file actually contains.
+      const path = await db.exportData();
+      const [states, cards, notes, bookmarks, totals] = await Promise.all([
+        db.lessonStates(),
+        db.cards(),
+        db.notes(),
+        db.bookmarks(),
+        db.totals(),
+      ]);
+      toast('学习数据已导出', 'success');
+      return {
+        kind: 'file',
+        path,
+        counts: {
+          settings: 0,
+          lessonStates: states.length,
+          cards: cards.length,
+          reviews: totals.reviews,
+          attempts: totals.attempts,
+          notes: notes.length,
+          bookmarks: bookmarks.length,
+        },
+        notes: ['桌面版快照包含全部学习记录；设置项请用「立即备份」生成的 .db 备份保留。'],
+      };
+    }
+
+    const text = await db.exportData();
+    const parsed = parseBackup(text);
+    if (!parsed.ok) throw new Error(`导出内容自检失败：${parsed.error}`);
+    const name = backupFileName(parsed.file.exportedAt);
+    downloadText(text, name);
     toast('学习数据已导出', 'success');
-    return path;
+    return { kind: 'download', path: name, counts: parsed.file.counts, notes: [] };
   }, [toast]);
+
+  /**
+   * Replace all user data with a backup file.
+   *
+   * Order matters: validate → pre-import backup → atomic write → settings →
+   * reload. The write path is all-or-nothing on both backends (SQLite
+   * transaction on desktop, staging-key swap in the browser shim).
+   */
+  const importBackup = useCallback(
+    async (text: string): Promise<ImportSummary> => {
+      const parsed = parseBackup(text);
+      if (!parsed.ok) throw new Error(parsed.error);
+      const file: BackupFile = parsed.file;
+      const notes = [...(file.migrationNotes ?? [])];
+
+      let preImportBackup: string | null = null;
+      if (IS_TAURI) {
+        try {
+          // Second safety net on top of the `pre-import` backup that
+          // `import_data` takes itself (and which aborts the import on failure).
+          preImportBackup = await db.backup();
+        } catch (err) {
+          notes.push(`导入前的额外备份未创建：${errText(err)}`);
+        }
+      } else {
+        try {
+          const current = localStorage.getItem(WEB_DB_KEY);
+          if (current) localStorage.setItem(PREIMPORT_KEY, current);
+          preImportBackup = `localStorage:${PREIMPORT_KEY}`;
+        } catch {
+          notes.push('浏览器预览无法写入导入前快照（localStorage 不可用）。');
+        }
+      }
+
+      await db.importBackup(file);
+
+      if (file.settings) {
+        await db.saveSettings({ ...DEFAULT_SETTINGS, ...file.settings });
+        notes.push('设置已按备份恢复。');
+      }
+
+      await refresh();
+      return {
+        counts: file.counts,
+        total: totalRecords(file),
+        settingsRestored: Boolean(file.settings),
+        preImportBackup,
+        notes,
+      };
+    },
+    [refresh],
+  );
 
   const completedLessons = useMemo(
     () => new Set(Object.values(states).filter((s) => s.status === 'completed').map((s) => s.lessonId)),
@@ -311,6 +450,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
     toggleBookmark,
     backupNow,
     runExport,
+    importBackup,
     toast,
     toasts,
   };

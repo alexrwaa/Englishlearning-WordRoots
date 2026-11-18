@@ -16,6 +16,15 @@ import type {
   Settings,
 } from './types';
 import { DEFAULT_SETTINGS } from './types';
+import {
+  buildExport,
+  parseBackup,
+  PREIMPORT_KEY,
+  toSnapshot,
+  toWebDb,
+  writeAtomic,
+  type BackupFile,
+} from './backup';
 
 export const IS_TAURI =
   typeof window !== 'undefined' && '__TAURI_INTERNALS__' in (window as unknown as Record<string, unknown>);
@@ -44,7 +53,10 @@ interface WebDb {
   bookmarks: { targetType: string; targetId: string; createdAt: number }[];
 }
 
-const WEB_KEY = 'wordroots.dev.db.v1';
+/** localStorage key of the browser-preview database. */
+export const WEB_DB_KEY = 'wordroots.dev.db.v1';
+const WEB_KEY = WEB_DB_KEY;
+const WEB_BACKUP_KEY = 'wordroots.dev.backup.last';
 
 function emptyDb(): WebDb {
   return { settings: {}, lessonStates: [], cards: [], reviews: [], attempts: [], notes: [], bookmarks: [] };
@@ -64,6 +76,21 @@ function writeDb(db: WebDb) {
   localStorage.setItem(WEB_KEY, JSON.stringify(db));
 }
 
+/** Whole shim database as a canonical backup (settings included). */
+function readBackup(): BackupFile {
+  const d = readDb();
+  return buildExport({
+    settings: { ...DEFAULT_SETTINGS, ...d.settings },
+    // The shim keeps the v1 TS shape; lastSeenAt only exists in SQLite.
+    lessonStates: d.lessonStates.map((s) => ({ ...s, lastSeenAt: s.startedAt ?? null })),
+    cards: d.cards,
+    reviews: d.reviews,
+    attempts: d.attempts,
+    notes: d.notes,
+    bookmarks: d.bookmarks,
+  });
+}
+
 function localDay(ts: number): string {
   const d = new Date(ts);
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
@@ -79,8 +106,8 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
         dbPath: WEB_KEY,
         coursesDir: 'bundled',
         backupsDir: '-',
-        version: '0.1.0-dev',
-        schemaVersion: 1,
+        version: '0.2.0',
+        schemaVersion: 2,
         portable: false,
       } as T;
     case 'load_settings':
@@ -189,10 +216,27 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
       }
       return [...map.entries()].map(([kind, v]) => ({ kind, ...v })) as T;
     }
-    case 'backup_now':
-      return '(browser preview: no backup)' as T;
-    case 'export_data':
-      return JSON.stringify(db) as T;
+    case 'backup_now': {
+      // Browser preview: keep one rolling snapshot of the whole shim database.
+      localStorage.setItem(WEB_BACKUP_KEY, JSON.stringify(db));
+      return `localStorage:${WEB_BACKUP_KEY}` as T;
+    }
+    case 'export_data': {
+      // The browser has no file system: hand the canonical backup JSON back to
+      // the caller, which downloads it as a .json file.
+      return JSON.stringify(readBackup()) as T;
+    }
+    case 'import_data': {
+      // Validate first, snapshot the current database second, write third: the
+      // pre-import snapshot is the only way back if the swap misbehaves.
+      const result = parseBackup(String(args.json ?? ''));
+      if (!result.ok) throw new Error(result.error);
+      const current = localStorage.getItem(WEB_KEY);
+      if (current) localStorage.setItem(PREIMPORT_KEY, current);
+      const payload = toWebDb(result.file, { ...DEFAULT_SETTINGS, ...db.settings });
+      writeAtomic(localStorage, WEB_KEY, `${WEB_KEY}.staging`, payload);
+      return undefined as T;
+    }
     case 'db_health':
       return 'ok' as T;
     case 'open_folder':
@@ -290,8 +334,24 @@ export const db = {
   toggleBookmark: (targetType: string, targetId: string) =>
     call<boolean>('toggle_bookmark', { target_type: targetType, target_id: targetId }),
   backup: () => call<string>('backup_now'),
+  /**
+   * Desktop: `export_data` writes a snapshot into `backups/` and returns its
+   * path. Browser preview: returns the canonical backup JSON itself (there is
+   * no file system, the caller downloads it).
+   */
   exportData: () => call<string>('export_data'),
-  importData: (json: string) => call<void>('import_data', { json }),
+  /**
+   * Replace every user record with the contents of `file`.
+   *
+   * Desktop sends the Rust snapshot shape to `import_data`, which wraps the
+   * delete+insert pair in a SQLite transaction and takes its own `pre-import`
+   * `.db` backup first. The browser shim validates, snapshots the current
+   * database under `wordroots.dev.preimport` and swaps a staging key in.
+   */
+  importBackup: (file: BackupFile) =>
+    IS_TAURI
+      ? call<void>('import_data', { json: JSON.stringify(toSnapshot(file)) })
+      : call<void>('import_data', { json: JSON.stringify(file) }),
   openFolder: (which: 'data' | 'backups' | 'logs' | 'base') => call<void>('open_folder', { which }),
 };
 

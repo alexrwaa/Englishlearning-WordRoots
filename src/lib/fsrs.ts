@@ -45,14 +45,30 @@ function initialStability(rating: Rating, w: readonly number[]): number {
   return Math.max(0.1, w[rating - 1]);
 }
 
+/**
+ * FSRS-5 initial difficulty (paper eq. 4):
+ *   D0(G) = w4 - e^(w5 * (G - 1)) + 1
+ * The earlier exponential form replaced the linear FSRS-4.5 formula; using the
+ * linear form with FSRS-5 weights makes the first difficulty far too high and
+ * poisons every later stability update.
+ */
 function initialDifficulty(rating: Rating, w: readonly number[]): number {
-  return clamp(w[4] - (rating - 3) * w[5], 1, 10);
+  return clamp(w[4] - Math.exp((rating - 1) * w[5]) + 1, 1, 10);
 }
 
+/**
+ * FSRS-5 difficulty update (paper eq. 5): linear damping toward 10, then mean
+ * reversion to D0(Easy). `w[6]` is the rating delta and `w[7]` the reversion
+ * weight — not w[5]/w[6] as in FSRS-4.5.
+ */
 function nextDifficulty(d: number, rating: Rating, w: readonly number[]): number {
-  const delta = d - w[6] * (rating - 3);
-  const reverted = w[7] * initialDifficulty(4, w) + (1 - w[7]) * delta;
-  return clamp(reverted, 1, 10);
+  const delta = -w[6] * (rating - 3);
+  const damped = d + (delta * (10 - d)) / 9;
+  return clamp(w[7] * initialDifficulty(4, w) + (1 - w[7]) * damped, 1, 10);
+}
+
+function nextShortTermStability(s: number, rating: Rating, w: readonly number[]): number {
+  return clamp(s * Math.exp(w[17] * (rating - 3 + w[18])), 0.01, 36500);
 }
 
 function stabilityAfterRecall(
@@ -72,7 +88,7 @@ function stabilityAfterRecall(
       (Math.exp((1 - r) * w[10]) - 1) *
       hardPenalty *
       easyBonus;
-  return Math.max(0.1, s * growth);
+  return clamp(s * growth, 0.01, 36500);
 }
 
 function stabilityAfterForget(
@@ -83,7 +99,7 @@ function stabilityAfterForget(
 ): number {
   const sf =
     w[11] * Math.pow(d, -w[12]) * (Math.pow(s + 1, w[13]) - 1) * Math.exp((1 - r) * w[14]);
-  return clamp(sf, 0.1, Math.max(0.1, s));
+  return clamp(sf, 0.01, 36500);
 }
 
 /** Interval in days for a target retention. */
@@ -109,57 +125,79 @@ export function review(args: ReviewArgs): SchedulingState {
   if (state.state === 0 || state.lastReview === null || state.stability <= 0) {
     const s = initialStability(rating, w);
     const d = initialDifficulty(rating, w);
-    return {
+    const base = {
       stability: s,
       difficulty: d,
       reps: state.reps + 1,
-      lapses: rating === 1 ? state.lapses + 1 : state.lapses,
-      state: rating === 1 ? 1 : 2,
-      due: now + (rating === 1 ? 0 : intervalFor(s, retention) * DAY),
+      lapses: state.lapses,
       lastReview: now,
     };
+    // FSRS-5 learning steps for a brand-new card.
+    if (rating === 1) return { ...base, state: 1, due: now + 60_000 };
+    if (rating === 2) return { ...base, state: 1, due: now + 5 * 60_000 };
+    if (rating === 3) return { ...base, state: 1, due: now + 10 * 60_000 };
+    return { ...base, state: 2, due: now + intervalFor(s, retention) * DAY };
   }
 
-  const elapsedDays = Math.max(0, (now - state.lastReview) / DAY);
-  const r = retrievability(elapsedDays, state.stability);
+  const elapsedDays = Math.max(0, Math.floor((now - state.lastReview) / DAY));
   const d = nextDifficulty(state.difficulty, rating, w);
 
-  if (elapsedDays < 1) {
-    // Same-day repeat: short-term stability update, keep the day's due date.
-    const s =
-      state.stability * Math.exp(w[17] * (rating - 3 + w[18]));
-    return {
-      stability: Math.max(0.1, s),
+  // Learning / relearning steps keep the card in the short-term scheduler.
+  if (state.state === 1 || state.state === 3) {
+    const s = nextShortTermStability(state.stability, rating, w);
+    const base = {
+      stability: s,
       difficulty: d,
       reps: state.reps + 1,
-      lapses: rating === 1 ? state.lapses + 1 : state.lapses,
-      state: rating === 1 ? 3 : state.state,
-      due: rating === 1 ? now + 10 * 60_000 : now + intervalFor(s, retention) * DAY,
+      lapses: state.lapses,
+      state: state.state,
       lastReview: now,
     };
+    if (rating === 1) return { ...base, due: now + 5 * 60_000 };
+    if (rating === 2) return { ...base, due: now + 10 * 60_000 };
+    if (rating === 3) {
+      return { ...base, state: 2, due: now + intervalFor(s, retention) * DAY };
+    }
+    const goodStep = nextShortTermStability(state.stability, 3, w);
+    const days = Math.max(intervalFor(s, retention), intervalFor(goodStep, retention) + 1);
+    return { ...base, state: 2, due: now + days * DAY };
   }
 
+  const r = retrievability(elapsedDays, state.stability);
+  // Stability updates use the difficulty the card had *at* this review; the
+  // updated difficulty is only stored for the next review (FSRS-5 eq. 6/7).
+  const sAgain = stabilityAfterForget(state.stability, state.difficulty, r, w);
+
   if (rating === 1) {
-    const s = stabilityAfterForget(state.stability, d, r, w);
     return {
-      stability: s,
+      stability: sAgain,
       difficulty: d,
       reps: state.reps + 1,
       lapses: state.lapses + 1,
       state: 3,
-      due: now + intervalFor(s, retention) * DAY,
+      due: now + 5 * 60_000,
       lastReview: now,
     };
   }
 
-  const s = stabilityAfterRecall(state.stability, d, r, rating, w);
+  const sHard = stabilityAfterRecall(state.stability, state.difficulty, r, 2, w);
+  const sGood = stabilityAfterRecall(state.stability, state.difficulty, r, 3, w);
+  const sEasy = stabilityAfterRecall(state.stability, state.difficulty, r, 4, w);
+
+  // FSRS-5 orders the four candidate intervals so a harder rating can never be
+  // scheduled later than an easier one (again < hard < good < easy).
+  const hardDays = Math.max(intervalFor(sHard, retention), intervalFor(sAgain, retention) + 1);
+  const goodDays = Math.max(intervalFor(sGood, retention), hardDays + 1);
+  const easyDays = Math.max(intervalFor(sEasy, retention), goodDays + 1);
+  const [s, days] = rating === 2 ? [sHard, hardDays] : rating === 3 ? [sGood, goodDays] : [sEasy, easyDays];
+
   return {
     stability: s,
     difficulty: d,
     reps: state.reps + 1,
     lapses: state.lapses,
     state: 2,
-    due: now + intervalFor(s, retention) * DAY,
+    due: now + days * DAY,
     lastReview: now,
   };
 }

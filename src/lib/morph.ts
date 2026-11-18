@@ -42,6 +42,22 @@ function joinPrefix(prefix: string, base: string): { text: string; steps: Spelli
  * Order matters: replace-y, drop-e, then doubling checks.
  */
 export function applySuffix(base: string, suffix: string): { text: string; steps: SpellingStep[] } {
+  return applySuffixWith(base, suffix, true);
+}
+
+/**
+ * Internal variant used by the word-sum checker. `allowDoubling=false` lets the
+ * checker try the undoubled reading too: English only doubles a final CVC in a
+ * stressed syllable, and the morphology engine has no stress data. Trying both
+ * readings and keeping the one that produces the attested answer avoids false
+ * rejections such as `loc + al` -> *loccal* while still accepting `run + er`
+ * -> *runner*.
+ */
+function applySuffixWith(
+  base: string,
+  suffix: string,
+  allowDoubling: boolean,
+): { text: string; steps: SpellingStep[] } {
   const s = suffix.replace(/^-+/, '');
   const steps: SpellingStep[] = [];
   let stem = base;
@@ -65,7 +81,13 @@ export function applySuffix(base: string, suffix: string): { text: string; steps
   }
 
   // 3. consonant doubling for short CVC bases before vowel-initial suffixes
-  if (vowelInitial && endsInCVC(stem) && !/[wxy]$/.test(stem) && s !== 'ing') {
+  if (
+    allowDoubling &&
+    vowelInitial &&
+    endsInCVC(stem) &&
+    !/[wxy]$/.test(stem) &&
+    s !== 'ing'
+  ) {
     const last = stem.slice(-1);
     const before = stem;
     stem = stem + last;
@@ -119,24 +141,137 @@ export function parseWordSum(input: string): string[] {
     .filter(Boolean);
 }
 
+/**
+ * Normalise one morpheme for comparison: trim, lowercase and drop the leading
+ * / trailing hyphens used in dictionary notation ("un-", "-ness"). Spelling
+ * inside the morpheme is left untouched so a misspelt root still counts as a
+ * different morpheme and gets the right feedback.
+ */
+export function normalizeMorpheme(part: string): string {
+  return part
+    .trim()
+    .toLowerCase()
+    .replace(/^[-–—]+/, '')
+    .replace(/[-–—]+$/, '')
+    .replace(/\s+/g, '');
+}
+
+export function normalizeParts(parts: readonly string[]): string[] {
+  return parts.map(normalizeMorpheme).filter(Boolean);
+}
+
+/** Order-sensitive comparison: are these exactly the same morphemes in order? */
+export function partsMatch(actual: readonly string[], expected: readonly string[]): boolean {
+  const a = normalizeParts(actual);
+  const b = normalizeParts(expected);
+  return a.length === b.length && a.every((part, i) => part === b[i]);
+}
+
+/** Order-insensitive comparison: same morphemes, possibly in another order. */
+export function samePartSet(actual: readonly string[], expected: readonly string[]): boolean {
+  const a = normalizeParts(actual).sort();
+  const b = normalizeParts(expected).sort();
+  return a.length === b.length && a.every((part, i) => part === b[i]);
+}
+
 /** Render a word sum in the conventional SWI notation. */
 export function formatWordSum(parts: string[], result?: string): string {
   const left = parts.join(' + ');
   return result ? `${left} → ${result}` : left;
 }
 
-/** Check a word-sum answer: the parts must join to the target spelling. */
-export function checkWordSum(parts: string[], target: string): { ok: boolean; produced: string; steps: SpellingStep[] } {
-  const clean = parts.map((p) => p.trim()).filter(Boolean);
-  if (clean.length === 0) return { ok: false, produced: '', steps: [] };
-  let produced = clean[0].replace(/-+$/, '');
+/**
+ * Prefixes whose final consonant assimilates to the first letter of the base.
+ * Only the two-letter forms that actually change spelling are listed; a prefix
+ * not in this table is joined verbatim (which is the normal case).
+ */
+const ASSIMILATION_VARIANTS: Record<string, readonly string[]> = {
+  in: ['il', 'im', 'ir'],
+  con: ['col', 'com', 'cor'],
+  ad: ['ac', 'af', 'ag', 'al', 'ap', 'ar', 'as', 'at'],
+  sub: ['suc', 'suf', 'sug', 'sup', 'sus'],
+  ob: ['oc', 'of', 'op'],
+  ex: ['ef'],
+  dis: ['dif'],
+  syn: ['sym'],
+};
+
+/** Join a prefix to a base, applying consonant assimilation when it is warranted. */
+export function joinPrefixWithAssimilation(
+  prefix: string,
+  base: string,
+): { text: string; step?: SpellingStep } {
+  const p = prefix.replace(/-+$/, '').toLowerCase();
+  const first = base[0]?.toLowerCase() ?? '';
+  const variant = ASSIMILATION_VARIANTS[p]?.find((v) => v.endsWith(first));
+  if (variant) {
+    return {
+      text: variant + base,
+      step: {
+        rule: 'prefix assimilates to the base’s first letter',
+        before: `${prefix}+${base}`,
+        after: variant + base,
+      },
+    };
+  }
+  return { text: p + base };
+}
+
+function joinSequentially(
+  parts: string[],
+  assimilateFirst = false,
+  allowDoubling = true,
+): { text: string; steps: SpellingStep[] } {
   const steps: SpellingStep[] = [];
-  for (const part of clean.slice(1)) {
-    const r = applySuffix(produced, part.replace(/^-+/, ''));
+  if (parts.length === 0) return { text: '', steps };
+  let produced = parts[0].replace(/-+$/, '');
+  if (assimilateFirst && parts.length > 1) {
+    const joined = joinPrefixWithAssimilation(produced, parts[1].replace(/^-+/, ''));
+    produced = joined.text;
+    if (joined.step) steps.push(joined.step);
+    for (const part of parts.slice(2)) {
+      const r = applySuffixWith(produced, part.replace(/^-+/, ''), allowDoubling);
+      produced = r.text;
+      steps.push(...r.steps);
+    }
+    return { text: produced, steps };
+  }
+  for (const part of parts.slice(1)) {
+    const r = applySuffixWith(produced, part.replace(/^-+/, ''), allowDoubling);
     produced = r.text;
     steps.push(...r.steps);
   }
-  return { ok: produced.toLowerCase() === target.toLowerCase(), produced, steps };
+  return { text: produced, steps };
+}
+
+/**
+ * Check a word-sum answer: the parts must join to the target spelling.
+ *
+ * Two dimensions are tried because English orthography is ambiguous without
+ * stress data: (a) the first morpheme may be an assimilating prefix
+ * (`in + legal -> illegal`) or a base (`happy + ness`), and (b) a final CVC may
+ * or may not double (`run + er -> runner` vs `loc + al -> local`). The target
+ * answer selects the correct reading; a wrong reading can never manufacture a
+ * different word. The plain sequential suffixation is tried first, so the
+ * simple spelling always wins when it works.
+ */
+export function checkWordSum(parts: string[], target: string): { ok: boolean; produced: string; steps: SpellingStep[] } {
+  const clean = normalizeParts(parts);
+  if (clean.length === 0) return { ok: false, produced: '', steps: [] };
+  const wanted = target.trim().toLowerCase();
+
+  const candidates = [
+    joinSequentially(clean, false, true),
+    joinSequentially(clean, false, false),
+  ];
+  if (clean.length > 1) {
+    candidates.push(joinSequentially(clean, true, true), joinSequentially(clean, true, false));
+  }
+
+  const match = candidates.find((candidate) => candidate.text.toLowerCase() === wanted);
+  if (match) return { ok: true, produced: match.text, steps: match.steps };
+
+  return { ok: false, produced: candidates[0].text, steps: candidates[0].steps };
 }
 
 /** Split a spelling into the given morphemes and report the spelling changes. */

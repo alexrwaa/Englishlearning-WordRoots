@@ -1,6 +1,7 @@
 import { Fragment, useCallback, useEffect, useRef, useState } from 'react';
 import { Badge, Button, Panel } from '../ui';
 import { checkExercise, type CheckResult, type Response } from '../../lib/answer';
+import { createPhaseTimer, type PhaseTimer } from '../../lib/timing';
 import type { Exercise } from '../../lib/types';
 import type { KeyEvent } from './ReviewBlock';
 
@@ -33,7 +34,7 @@ function placeholderFor(ex: Exercise): string {
     case 'cloze':
       return '填入缺少的词（中英文均可，视题目要求）';
     case 'wordSum':
-      return ex.parts.join(' + ');
+      return '用 + 连接词素，如 un + kind + ness';
     case 'matrix':
       return '写出完整单词';
     default:
@@ -76,7 +77,8 @@ export function ExerciseView({
   onAnswered: () => void;
   onNext: () => void;
 }) {
-  const startRef = useRef(performance.now());
+  const timerRef = useRef<PhaseTimer | null>(null);
+  if (!timerRef.current) timerRef.current = createPhaseTimer();
   const [selected, setSelected] = useState<number | null>(null);
   const [text, setText] = useState('');
   const [result, setResult] = useState<CheckResult | null>(null);
@@ -89,6 +91,12 @@ export function ExerciseView({
   const lastSig = useRef(keyEvent.n);
 
   const isChoice = exercise.kind === 'mcq' || exercise.kind === 'infer';
+
+  useEffect(() => {
+    const timer = timerRef.current;
+    timer?.start();
+    return () => timer?.dispose();
+  }, []);
 
   const buildResponse = useCallback((): Response | null => {
     if (isChoice) return selected === null ? null : { kind: 'choice', index: selected };
@@ -108,7 +116,8 @@ export function ExerciseView({
     if (attempts === 0) {
       onAttempt({
         correct: checked.correct,
-        durationMs: Math.round(performance.now() - startRef.current),
+        // Only visible, focused time counts; a question left open is capped.
+        durationMs: timerRef.current?.take() ?? 0,
         answer: isChoice ? choiceText(exercise, selected) : text.trim(),
         usedHint: hintShown,
       });
@@ -207,36 +216,47 @@ export function ExerciseView({
       ) : null}
 
       {exercise.kind === 'wordSum' ? (
-        <div className="sum" style={{ marginBottom: 14 }}>
-          {exercise.parts.map((part, i) => (
-            <Fragment key={`${part}-${i}`}>
-              {i > 0 ? <span className="sum-arrow">+</span> : null}
-              <span className="morph">{part}</span>
-            </Fragment>
-          ))}
-          <span className="sum-arrow">→</span>
-          <span className="sum-result">?</span>
-        </div>
+        <>
+          <div className="sum" style={{ marginBottom: 8 }}>
+            {exercise.parts.map((part, i) => (
+              <Fragment key={`${part}-${i}`}>
+                {i > 0 ? <span className="sum-arrow">+</span> : null}
+                <span className="morph">{part}</span>
+              </Fragment>
+            ))}
+            <span className="sum-arrow">→</span>
+            <span className="sum-result">?</span>
+          </div>
+          <div className="tiny faint" style={{ marginBottom: 14 }}>
+            请按顺序写出词素，用 + 连接（前缀 + 词根 + 后缀）；只写整词不算完成构词分析。
+          </div>
+        </>
       ) : null}
 
       {exercise.kind === 'matrix' ? (
-        <div className="sum" style={{ marginBottom: 14 }}>
-          {exercise.prefix ? (
-            <>
-              <span className="morph">{exercise.prefix}</span>
-              <span className="sum-arrow">+</span>
-            </>
-          ) : null}
-          <span className="morph">{exercise.base}</span>
-          {exercise.suffix ? (
-            <>
-              <span className="sum-arrow">+</span>
-              <span className="morph">{exercise.suffix}</span>
-            </>
-          ) : null}
-          <span className="sum-arrow">→</span>
-          <span className="sum-result">?</span>
-        </div>
+        <>
+          <div className="sum" style={{ marginBottom: 8 }}>
+            {exercise.prefix ? (
+              <>
+                <span className="morph">{exercise.prefix}</span>
+                <span className="sum-arrow">+</span>
+              </>
+            ) : null}
+            <span className="morph">{exercise.base}</span>
+            {exercise.suffix ? (
+              <>
+                <span className="sum-arrow">+</span>
+                <span className="morph">{exercise.suffix}</span>
+              </>
+            ) : null}
+            <span className="sum-arrow">→</span>
+            <span className="sum-result">?</span>
+          </div>
+          <div className="tiny faint" style={{ marginBottom: 14 }}>
+            写出拼好的整词；也可以用 + 写成算式（例如{' '}
+            {[exercise.prefix, exercise.base, exercise.suffix].filter(Boolean).join(' + ')}）来核对顺序。
+          </div>
+        </>
       ) : null}
 
       {isChoice ? (

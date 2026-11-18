@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Badge, Button, Panel } from '../ui';
 import { getConcept, getMorpheme, labelFor } from '../../lib/content';
 import { currentRetention } from '../../lib/fsrs';
+import { createPhaseTimer, type PhaseTimer } from '../../lib/timing';
 import type { MemoryCard } from '../../lib/types';
 import { MorphemeModal } from './RefModal';
 
@@ -66,7 +67,7 @@ export function ReviewBlock({
   index: number;
   total: number;
   keyEvent: KeyEvent;
-  onGrade: (refId: string, knew: boolean) => void;
+  onGrade: (refId: string, knew: boolean, elapsedMs: number) => void;
   onAnswered: () => void;
   onNext: () => void;
 }) {
@@ -76,18 +77,26 @@ export function ReviewBlock({
   const [graded, setGraded] = useState<boolean | null>(null);
   const [morphOpen, setMorphOpen] = useState<string | null>(null);
   const gradedRef = useRef(false);
+  const timerRef = useRef<PhaseTimer | null>(null);
+  if (!timerRef.current) timerRef.current = createPhaseTimer();
   // Seed with the current signal so the last key press of the previous card is
   // not replayed when this card mounts.
   const lastSig = useRef(keyEvent.n);
 
   const info = useMemo(() => promptFor(card), [card]);
 
+  useEffect(() => {
+    const timer = timerRef.current;
+    timer?.start();
+    return () => timer?.dispose();
+  }, []);
+
   const grade = useCallback(
     (knew: boolean) => {
       if (gradedRef.current) return;
       gradedRef.current = true;
       setGraded(knew);
-      onGrade(card.refId, knew);
+      onGrade(card.refId, knew, timerRef.current?.take() ?? 0);
       onAnswered();
     },
     [card.refId, onGrade, onAnswered],

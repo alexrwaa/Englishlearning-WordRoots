@@ -16,17 +16,9 @@ import {
 import { errorMessage } from '../components/session/format';
 import { getLesson } from '../lib/content';
 import { currentRetention } from '../lib/fsrs';
+import { createPhaseTimer, type PhaseTimer } from '../lib/timing';
 import { useApp } from '../lib/store';
 import type { Exercise, Lesson, LessonState, MemoryCard } from '../lib/types';
-
-interface Clock {
-  base: number;
-  start: number;
-}
-
-function elapsedOf(clock: Clock): number {
-  return Math.max(0, Math.round(clock.base + (performance.now() - clock.start)));
-}
 
 /**
  * The review stage spends time on cards belonging to today's lesson first.
@@ -100,8 +92,22 @@ function SessionFlow({ lesson }: { lesson: Lesson }) {
 
   const startedAtRef = useRef(initialRef.current?.startedAt ?? Date.now());
   const completedRef = useRef(initialRef.current?.status === 'completed');
-  const clockRef = useRef<Clock>({ base: initialRef.current?.elapsedMs ?? 0, start: performance.now() });
-  const [elapsed, setElapsed] = useState(() => elapsedOf(clockRef.current));
+  /**
+   * Only visible, focused time is study time. A session-level timer is settled
+   * into `spentRef` whenever the learner changes card or exercise, so the
+   * persisted `elapsedMs` is the sum of per-item segments rather than the wall
+   * clock. The 180 s idle cap applies to each segment.
+   */
+  const spentRef = useRef(initialRef.current?.elapsedMs ?? 0);
+  const timerRef = useRef<PhaseTimer | null>(null);
+  if (!timerRef.current) timerRef.current = createPhaseTimer();
+  const [elapsed, setElapsed] = useState(() => spentRef.current + (timerRef.current?.elapsed() ?? 0));
+
+  const settle = useCallback(() => {
+    const timer = timerRef.current;
+    if (timer) spentRef.current += timer.take();
+    setElapsed(spentRef.current);
+  }, []);
 
   const stage: StageInfo = stages[stageIdx] ?? { key: 'learn', label: '学习', count: 0 };
   const needsAnswer = stage.key === 'review' || stage.key === 'practice' || stage.key === 'apply';
@@ -116,9 +122,20 @@ function SessionFlow({ lesson }: { lesson: Lesson }) {
   cursorRef.current = done ? SUMMARY_CURSOR : encodeCursor(stage.key, index);
 
   useEffect(() => {
-    const timer = setInterval(() => setElapsed(elapsedOf(clockRef.current)), 1000);
-    return () => clearInterval(timer);
+    const timer = timerRef.current;
+    timer?.start();
+    const id = setInterval(() => setElapsed(spentRef.current + (timer?.elapsed() ?? 0)), 1000);
+    return () => {
+      clearInterval(id);
+      timer?.dispose();
+    };
   }, []);
+
+  // Bank the current item’s visible time as soon as the learner moves on.
+  useEffect(() => {
+    settle();
+    return () => settle();
+  }, [stageIdx, index, settle]);
 
   useEffect(() => {
     setAnswered(false);
@@ -171,8 +188,8 @@ function SessionFlow({ lesson }: { lesson: Lesson }) {
   const emitKey = useCallback((key: string) => setKeyEvent((prev) => ({ key, n: prev.n + 1 })), []);
 
   const handleGrade = useCallback(
-    (refId: string, knew: boolean) => {
-      gradeRef(refId, knew, { phase: 'review' }).catch((err: unknown) => {
+    (refId: string, knew: boolean, elapsedMs: number) => {
+      gradeRef(refId, knew, { phase: 'review', elapsedMs }).catch((err: unknown) => {
         toast(errorMessage(err, '复习记录保存失败'), 'warn');
       });
     },
@@ -199,12 +216,11 @@ function SessionFlow({ lesson }: { lesson: Lesson }) {
 
   // Persist the position when the learner leaves the session.
   useEffect(() => {
-    const clock = clockRef.current;
     const startedAt = startedAtRef.current;
     return () => {
       if (completedRef.current) return;
       const cursor = cursorRef.current;
-      const spent = elapsedOf(clock);
+      const spent = spentRef.current + (timerRef.current?.elapsed() ?? 0);
       // StrictMode mounts and immediately unmounts once; do not create an
       // empty "in progress" record for a lesson that was never touched.
       if (cursor === 0 && spent < 4000) return;
@@ -233,7 +249,7 @@ function SessionFlow({ lesson }: { lesson: Lesson }) {
       status: 'completed',
       startedAt: startedAtRef.current,
       completedAt: Date.now(),
-      elapsedMs: elapsedOf(clockRef.current),
+      elapsedMs: spentRef.current + (timerRef.current?.elapsed() ?? 0),
       score: scoreRef.current,
       cursor: SUMMARY_CURSOR,
     }).catch((err: unknown) => {

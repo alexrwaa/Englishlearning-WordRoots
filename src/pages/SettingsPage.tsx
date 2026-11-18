@@ -1,8 +1,10 @@
 import { useCallback, useEffect, useRef, useState, type ChangeEvent, type ReactNode } from 'react';
 import { db, IS_TAURI } from '../lib/api';
 import { useApp } from '../lib/store';
+import { parseBackup, type BackupFile } from '../lib/backup';
+import { allMorphemes, allWords, contentStatus, lessons } from '../lib/content';
 import type { Settings } from '../lib/types';
-import { Badge, Button, Modal, Panel, SectionHead, Toggle } from '../components/ui';
+import { Badge, Button, Modal, Panel, SectionHead, Stat, Toggle } from '../components/ui';
 
 const REPO_URL = 'https://github.com/alexrwaa/Englishlearning-WordRoots';
 
@@ -119,17 +121,40 @@ const MODE_OPTIONS: { value: Settings['explanationMode']; label: string }[] = [
   { value: 'en', label: '英文为主' },
 ];
 
+/** Persistent, in-page result of a data action (never a disappearing toast). */
+interface Notice {
+  tone: 'ok' | 'warn';
+  title: string;
+  lines: string[];
+}
+
+function countLine(counts: {
+  lessonStates: number;
+  cards: number;
+  reviews: number;
+  attempts: number;
+  notes: number;
+  bookmarks: number;
+}): string {
+  return `进度 ${counts.lessonStates} · 卡片 ${counts.cards} · 复习 ${counts.reviews} · 作答 ${counts.attempts} · 笔记 ${counts.notes} · 收藏 ${counts.bookmarks}`;
+}
+
 export default function SettingsPage() {
-  const { settings, updateSettings, toast, info, backupNow, runExport } = useApp();
+  const { settings, updateSettings, toast, info, backupNow, runExport, importBackup, stats, notes, bookmarks } =
+    useApp();
 
   const [health, setHealth] = useState<{ state: string; at: number } | null>(null);
   const [healthBusy, setHealthBusy] = useState(false);
   const [busy, setBusy] = useState<'backup' | 'export' | null>(null);
-  const [lastPath, setLastPath] = useState<{ kind: '备份' | '导出'; path: string } | null>(null);
-  const [pending, setPending] = useState<{ name: string; text: string } | null>(null);
+  const [notice, setNotice] = useState<Notice | null>(null);
+  const [pending, setPending] = useState<{ name: string; text: string; file: BackupFile } | null>(null);
   const [importing, setImporting] = useState(false);
   const [importError, setImportError] = useState<string | null>(null);
   const fileRef = useRef<HTMLInputElement | null>(null);
+
+  const status = contentStatus();
+  const embedded = status.source === 'embedded';
+  const sourceLabel = embedded ? '内置（随程序打包）' : `外部课程包 v${status.contentVersion}`;
 
   const checkHealth = useCallback(async () => {
     setHealthBusy(true);
@@ -161,12 +186,19 @@ export default function SettingsPage() {
 
   const onBackup = async () => {
     setBusy('backup');
+    setNotice(null);
     try {
       const path = await backupNow();
-      setLastPath({ kind: '备份', path });
-      toast(`备份已保存：${path}`, 'success');
+      setNotice({
+        tone: 'ok',
+        title: '备份已完成',
+        lines: [
+          `文件：${path}`,
+          '完整数据库快照（含设置、进度、卡片、复习、作答、笔记、收藏），保存在 backups/ 目录。',
+        ],
+      });
     } catch (err) {
-      toast(`备份失败：${errText(err)}`, 'warn');
+      setNotice({ tone: 'warn', title: '备份失败', lines: [errText(err)] });
     } finally {
       setBusy(null);
     }
@@ -174,12 +206,20 @@ export default function SettingsPage() {
 
   const onExport = async () => {
     setBusy('export');
+    setNotice(null);
     try {
-      const path = await runExport();
-      setLastPath({ kind: '导出', path });
-      toast(`学习数据已导出：${path}`, 'success');
+      const result = await runExport();
+      setNotice({
+        tone: 'ok',
+        title: '学习数据已导出',
+        lines: [
+          result.kind === 'file' ? `文件：${result.path}` : `已下载：${result.path}`,
+          result.counts ? `内容：${countLine(result.counts)}` : '',
+          ...result.notes,
+        ].filter(Boolean),
+      });
     } catch (err) {
-      toast(`导出失败：${errText(err)}`, 'warn');
+      setNotice({ tone: 'warn', title: '导出失败', lines: [errText(err)] });
     } finally {
       setBusy(null);
     }
@@ -203,13 +243,17 @@ export default function SettingsPage() {
     event.target.value = '';
     if (!file) return;
     setImportError(null);
+    setNotice(null);
     try {
       const text = await file.text();
-      const parsed: unknown = JSON.parse(text);
-      if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
-        throw new Error('文件内容不是学习数据的 JSON 对象');
+      // Validate before showing the confirmation dialog: the user should see
+      // what is in the file (and what is wrong with it) before any data moves.
+      const parsed = parseBackup(text);
+      if (!parsed.ok) {
+        setImportError(parsed.error);
+        return;
       }
-      setPending({ name: file.name, text });
+      setPending({ name: file.name, text, file: parsed.file });
     } catch (err) {
       setImportError(`无法读取该文件：${errText(err)}`);
     }
@@ -218,15 +262,25 @@ export default function SettingsPage() {
   const confirmImport = async () => {
     if (!pending) return;
     setImporting(true);
+    setImportError(null);
     try {
-      await db.importData(pending.text);
-      toast('导入完成，正在重新载入…', 'success');
+      const summary = await importBackup(pending.text);
       setPending(null);
-      window.setTimeout(() => window.location.reload(), 600);
+      setNotice({
+        tone: 'ok',
+        title: `已恢复 ${summary.total} 条记录`,
+        lines: [
+          countLine(summary.counts),
+          summary.settingsRestored ? '设置已按备份恢复。' : '该备份不含设置项，当前设置保持不变。',
+          summary.preImportBackup ? `导入前的备份：${summary.preImportBackup}` : '导入前未能创建额外备份，请确认已有手动备份。',
+          ...summary.notes,
+        ],
+      });
     } catch (err) {
-      setImportError(`导入失败：${errText(err)}`);
-      setImporting(false);
+      setImportError(`导入失败，现有数据未被修改：${errText(err)}`);
       setPending(null);
+    } finally {
+      setImporting(false);
     }
   };
 
@@ -331,26 +385,62 @@ export default function SettingsPage() {
         <InfoRow label="备份目录" value={info?.backupsDir ?? '正在读取…'} />
         <InfoRow label="版本" value={info ? `${info.version}（schema v${info.schemaVersion}）` : '正在读取…'} />
         <InfoRow label="运行模式" value={portableLabel} />
+        <InfoRow label="课程来源" value={sourceLabel} />
+        {status.reason ? (
+          <div className="tiny faint" style={{ marginTop: 6 }}>
+            外部课程包未启用：{status.reason}
+          </div>
+        ) : null}
+
+        <div className="divider" />
+
+        <div className="grid grid-4" style={{ gap: 14 }}>
+          <Stat label="课程" value={lessons.length} hint="课时" />
+          <Stat label="词条" value={allWords().length} hint="词库" />
+          <Stat label="词素" value={allMorphemes().length} hint="词根/词缀" />
+          <Stat label="笔记" value={notes.length} hint="手写" />
+          <Stat label="收藏" value={bookmarks.length} hint="词条/词素" />
+          <Stat label="作答" value={stats.totals.attempts} hint="练习记录" />
+          <Stat label="复习" value={stats.totals.reviews} hint="卡片评分" />
+          <Stat label="已完成" value={stats.totals.lessonsCompleted} hint="课时" />
+        </div>
+        <p className="tiny faint" style={{ margin: '12px 0 0' }}>
+          每日统计（分钟、正确率、连续天数）由作答与复习记录实时重算，备份里不单独保存，恢复后会自动重建。
+        </p>
 
         <div className="row wrap" style={{ gap: 8, marginTop: 16 }}>
           <Button variant="primary" size="sm" onClick={() => void onBackup()} disabled={busy !== null}>
             {busy === 'backup' ? '正在备份…' : '立即备份'}
           </Button>
           <Button size="sm" onClick={() => void onExport()} disabled={busy !== null}>
-            {busy === 'export' ? '正在导出…' : '导出学习数据'}
+            {busy === 'export' ? '正在导出…' : '导出备份'}
           </Button>
-          <Button size="sm" onClick={() => void onOpenFolder()}>
+          <Button size="sm" onClick={() => fileRef.current?.click()} disabled={importing}>
+            导入备份
+          </Button>
+          <Button size="sm" variant="ghost" onClick={() => void onOpenFolder()}>
             打开数据文件夹
           </Button>
         </div>
-        {lastPath ? (
-          <div className="tiny faint mono" style={{ marginTop: 10, wordBreak: 'break-all' }}>
-            最近{lastPath.kind}：{lastPath.path}
-          </div>
-        ) : null}
         {!IS_TAURI ? (
           <div className="tiny faint" style={{ marginTop: 8 }}>
-            当前是浏览器预览，数据存在 localStorage，备份与文件夹操作只在桌面版有效。
+            当前是浏览器预览：数据存在 localStorage，「导出备份」会下载 JSON 文件，文件夹操作只在桌面版有效。
+          </div>
+        ) : null}
+
+        {notice ? (
+          <div className={`feedback ${notice.tone === 'ok' ? 'ok' : 'no'}`} role="status" style={{ marginTop: 12 }}>
+            <div className="title">{notice.title}</div>
+            {notice.lines.map((line, i) => (
+              <p key={`${i}-${line}`} className="tiny mono" style={{ wordBreak: 'break-all' }}>
+                {line}
+              </p>
+            ))}
+            <div className="row" style={{ justifyContent: 'flex-end', marginTop: 6 }}>
+              <Button size="sm" variant="ghost" onClick={() => setNotice(null)}>
+                知道了
+              </Button>
+            </div>
           </div>
         ) : null}
 
@@ -386,8 +476,10 @@ export default function SettingsPage() {
 
         <div className="row-between wrap" style={{ gap: 10 }}>
           <div style={{ minWidth: 220 }}>
-            <div style={{ fontSize: 14, fontWeight: 600 }}>导入学习数据</div>
-            <div className="tiny faint">选择之前导出的 .json 文件，覆盖当前数据库。</div>
+            <div style={{ fontSize: 14, fontWeight: 600 }}>导入备份（覆盖式恢复）</div>
+            <div className="tiny faint">
+              选择 .json 备份；会先校验完整性，再用文件内容替换当前全部记录（不是合并）。
+            </div>
           </div>
           <input
             ref={fileRef}
@@ -396,7 +488,7 @@ export default function SettingsPage() {
             onChange={(e) => void onPickFile(e)}
             style={{ display: 'none' }}
           />
-          <Button size="sm" onClick={() => fileRef.current?.click()}>
+          <Button size="sm" onClick={() => fileRef.current?.click()} disabled={importing}>
             选择 JSON 文件
           </Button>
         </div>
@@ -404,6 +496,11 @@ export default function SettingsPage() {
           <div className="feedback no" role="alert" style={{ marginTop: 12 }}>
             <div className="title">导入未完成</div>
             <p>{importError}</p>
+            <div className="row" style={{ justifyContent: 'flex-end', marginTop: 6 }}>
+              <Button size="sm" variant="ghost" onClick={() => setImportError(null)}>
+                知道了
+              </Button>
+            </div>
           </div>
         ) : null}
 
@@ -413,7 +510,8 @@ export default function SettingsPage() {
           </div>
           <p className="small muted" style={{ margin: 0 }}>
             data/ 里是你的学习数据库，整个程序文件夹复制到别的磁盘或电脑，记录会一起带走，不写系统用户目录。
-            backups/ 存放自动备份（每天一次、保留最近若干份）与手动备份；导出文件也落在该目录。
+            backups/ 存放自动备份（每天一次、保留最近若干份）与手动备份。「立即备份」生成完整 .db 快照（含设置），
+            「导出备份」生成可移植的 JSON（进度、卡片、复习、作答、笔记、收藏）。
             升级版本时先点“立即备份”，再用新版程序文件覆盖 exe 与 courses/，<strong>不要</strong>覆盖 data/。
             换机或重装前，导出一份 JSON 作为最后的保险。
           </p>
@@ -425,7 +523,7 @@ export default function SettingsPage() {
         <InfoRow label="应用" value="WordRoots · 英语构词学交互学习系统" />
         <InfoRow label="版本" value={info?.version ?? '—'} />
         <InfoRow label="许可证" value="MIT" />
-        <InfoRow label="课程来源" value="原创课程内容，编写时参考公开的语言学与词源学资料" />
+        <InfoRow label="内容来源" value="原创课程内容，编写时参考公开的语言学与词源学资料" />
         <InfoRow label="仓库" value={REPO_URL} />
         <div className="row wrap" style={{ gap: 12, marginTop: 14 }}>
           <a href={REPO_URL} target="_blank" rel="noreferrer" className="small">
@@ -438,23 +536,43 @@ export default function SettingsPage() {
       <Modal
         open={pending !== null}
         onClose={closeImport}
-        title="导入学习数据"
+        title="确认覆盖式恢复"
         footer={
           <div className="row" style={{ justifyContent: 'flex-end', gap: 8 }}>
             <Button onClick={closeImport} disabled={importing}>
               取消
             </Button>
             <Button variant="primary" onClick={() => void confirmImport()} disabled={importing}>
-              {importing ? '正在导入…' : '确认导入'}
+              {importing ? '正在导入…' : '用备份替换当前数据'}
             </Button>
           </div>
         }
       >
         <p className="small">
-          将用 <strong>{pending?.name}</strong> 的内容覆盖当前数据库中的学习记录、卡片与笔记。
+          文件：<strong>{pending?.name}</strong>
+        </p>
+        {pending ? (
+          <div className="panel-flat" style={{ marginBottom: 12 }}>
+            <div className="tiny faint" style={{ letterSpacing: '0.06em', textTransform: 'uppercase' }}>
+              备份内容
+            </div>
+            <p className="small mono" style={{ margin: '4px 0 0' }}>
+              {countLine(pending.file.counts)}
+            </p>
+            <p className="tiny faint" style={{ margin: '4px 0 0' }}>
+              schema v{pending.file.schemaVersion} · 导出于{' '}
+              {pending.file.exportedAt ? new Date(pending.file.exportedAt).toLocaleString('zh-CN') : '未知时间'} ·{' '}
+              {pending.file.settings ? '含设置' : '不含设置（保留当前设置）'}
+            </p>
+          </div>
+        ) : null}
+        <p className="small">
+          <strong>覆盖式恢复</strong>：会用备份内容<strong>替换当前全部记录</strong>（进度、卡片、复习、作答、笔记、收藏），
+          当前数据不会与备份合并。如需保留现状，请先取消并点「立即备份」。
         </p>
         <p className="small muted" style={{ marginBottom: 0 }}>
-          导入前系统会自动创建一份 pre-import 备份，位于 backups/ 目录；导入完成后页面会重新载入。
+          导入前系统会自动创建一份 pre-import 备份（桌面版为 backups/ 下的 .db，浏览器预览为 localStorage 快照），
+          导入完成后本页会显示恢复的条数。
         </p>
       </Modal>
     </div>
