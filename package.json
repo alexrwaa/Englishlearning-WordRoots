@@ -1,7 +1,7 @@
 {
   "name": "wordroots",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "type": "module",
   "description": "WordRoots - interactive English morphology & etymology learning system",
   "license": "MIT",
@@ -15,7 +15,13 @@
     "test:watch": "vitest",
     "validate:content": "tsx scripts/validate-content.ts",
     "tauri": "tauri",
-    "check:stubs": "tsx scripts/check-stubs.ts"
+    "check:stubs": "tsx scripts/check-stubs.ts",
+    "coverage": "tsx scripts/coverage.ts",
+    "coverage:write": "tsx scripts/coverage.ts --write && tsx scripts/coverage.ts --json",
+    "lexicon:stats": "tsx scripts/lexicon-tool.ts stats",
+    "lexicon:check": "tsx scripts/lexicon-tool.ts check",
+    "lexicon:merge": "tsx scripts/lexicon-tool.ts merge",
+    "textbook:build": "tsx scripts/build-elements.ts --morphemes && tsx scripts/build-textbook.ts"
   },
   "dependencies": {
     "@tauri-apps/api": "2.1.1",

@@ -15,3 +15,6 @@ coverage/
 .materials/
 scripts/morpheme-refs.json
 *.tsbuildinfo
+
+# local textbook analysis workspace (derived from a user-provided EPUB; not redistributed)
+analysis/
