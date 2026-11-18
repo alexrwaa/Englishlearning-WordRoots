@@ -58,6 +58,39 @@ fn reg_value(name: &str) -> Option<String> {
         .and_then(|l| l.split_whitespace().last().map(|s| s.to_string()))
 }
 
+/// Fallback when `reg.exe` is unavailable (locked-down machines, some sandboxes):
+/// WebView2 installs each runtime under a version-named folder.
+fn webview2_version_from_disk() -> Option<String> {
+    let mut roots: Vec<std::path::PathBuf> = Vec::new();
+    for key in ["ProgramFiles(x86)", "ProgramFiles", "LOCALAPPDATA"] {
+        if let Ok(base) = std::env::var(key) {
+            roots.push(
+                std::path::Path::new(&base)
+                    .join("Microsoft")
+                    .join("EdgeWebView")
+                    .join("Application"),
+            );
+        }
+    }
+    let mut best: Option<String> = None;
+    for root in roots {
+        let Ok(entries) = std::fs::read_dir(&root) else { continue };
+        for entry in entries.flatten() {
+            let name = entry.file_name().to_string_lossy().to_string();
+            if !name.chars().next().map(|c| c.is_ascii_digit()).unwrap_or(false) {
+                continue;
+            }
+            if !entry.path().join("msedgewebview2.exe").exists() {
+                continue;
+            }
+            if best.as_ref().map(|b| name > *b).unwrap_or(true) {
+                best = Some(name);
+            }
+        }
+    }
+    best
+}
+
 fn webview2_version() -> Option<String> {
     for key in [
         r"HKLM\SOFTWARE\WOW6432Node\Microsoft\EdgeUpdate\Clients\{F3017226-FE2A-4295-8BDF-00C3A9A7E4C5}",
@@ -73,7 +106,7 @@ fn webview2_version() -> Option<String> {
             }
         }
     }
-    None
+    webview2_version_from_disk()
 }
 
 fn now_ms() -> u128 {

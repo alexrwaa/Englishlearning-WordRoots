@@ -106,8 +106,8 @@ def cmd_jobs(run_id):
     for j in d["jobs"]:
         print(f"JOB {j['name']} -> {j['conclusion']}")
         for s in j["steps"]:
-            if s["conclusion"] not in ("success", "skipped", None):
-                print(f"  FAIL {s['name']} ({s['conclusion']})")
+            mark = "FAIL" if s["conclusion"] not in ("success", "skipped", None) else "ok"
+            print(f"  {mark:4} {s['number']:>2} {s['name']} -> {s['status']}/{s['conclusion']}")
 
 
 def cmd_checks(sha):

@@ -84,6 +84,16 @@ jobs:
             dist-portable/WordRoots-SHA256.txt
             dist-portable/smoke-report.md
 
+      # On failure the ZIP itself is uploaded: without it a red run can only be
+      # debugged on a Windows machine, which defeats the point of the gate.
+      - name: Upload build for diagnosis
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: WordRoots-failed-build
+          path: dist-portable/WordRoots-Portable-Windows-x64.zip
+          if-no-files-found: warn
+
       # The report is the release evidence; the per-case logs are what makes a
       # red run diagnosable without re-running Windows.
       - name: Upload smoke evidence

@@ -516,9 +516,15 @@ struct Snapshot {
     attempt: Vec<serde_json::Value>,
     note: Vec<NoteRow>,
     bookmark: Vec<BookmarkRow>,
+    /// Key/value settings. Defaulted so older exports (which omitted them) still
+    /// import cleanly — in that case the current settings are left untouched.
+    #[serde(default)]
+    settings: Vec<serde_json::Value>,
 }
 
-pub fn export_snapshot(conn: &Connection) -> Result<String, String> {
+/// Canonical snapshot body (no file I/O). Separated so it can be tested without
+/// touching the portable data directory.
+pub fn snapshot_json(conn: &Connection) -> Result<String, String> {
     fn rows(conn: &Connection, sql: &str) -> Result<Vec<serde_json::Value>, String> {
         let mut stmt = conn.prepare(sql).map_err(|e| e.to_string())?;
         let cols: Vec<String> = stmt.column_names().iter().map(|c| c.to_string()).collect();
@@ -553,10 +559,15 @@ pub fn export_snapshot(conn: &Connection) -> Result<String, String> {
         attempt: rows(conn, "SELECT * FROM attempt")?,
         note: notes(conn)?,
         bookmark: bookmarks(conn)?,
+        settings: rows(conn, "SELECT key, value FROM settings")?,
     };
+    serde_json::to_string_pretty(&snapshot).map_err(|e| e.to_string())
+}
+
+pub fn export_snapshot(conn: &Connection) -> Result<String, String> {
+    let json = snapshot_json(conn)?;
     fs::create_dir_all(paths::backups_dir()).map_err(|e| e.to_string())?;
     let path = paths::backups_dir().join(format!("wordroots-export-{}.json", paths::now_ms()));
-    let json = serde_json::to_string_pretty(&snapshot).map_err(|e| e.to_string())?;
     write_with_checksum(&path, &json)?;
     Ok(path.to_string_lossy().to_string())
 }
@@ -589,6 +600,26 @@ pub fn import_snapshot(conn: &mut Connection, json: &str) -> Result<(), String> 
          DELETE FROM note; DELETE FROM bookmark;",
     )
     .map_err(|e| e.to_string())?;
+
+    // Settings are restored only when the file carries them; an old export must
+    // not silently reset the learner's theme, pace or explanation language.
+    if !snapshot.settings.is_empty() {
+        tx.execute_batch("DELETE FROM settings")
+            .map_err(|e| e.to_string())?;
+        for row in &snapshot.settings {
+            let key = row.get("key").and_then(|v| v.as_str()).unwrap_or_default();
+            let value = row.get("value").and_then(|v| v.as_str()).unwrap_or_default();
+            if key.is_empty() {
+                continue;
+            }
+            tx.execute(
+                "INSERT INTO settings(key, value) VALUES(?1, ?2)
+                 ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+                params![key, value],
+            )
+            .map_err(|e| e.to_string())?;
+        }
+    }
     for s in &snapshot.lesson_state {
         tx.execute(
             "INSERT INTO lesson_state(lesson_id,status,started_at,completed_at,elapsed_ms,score,cursor)
@@ -751,6 +782,48 @@ mod tests {
         assert_eq!(daily.len(), 1);
         assert!(daily[0].minutes >= 1.9 && daily[0].minutes <= 2.1, "daily={}", daily[0].minutes);
         assert_eq!(daily[0].reviews, 1);
+    }
+
+    #[test]
+    fn export_and_import_preserve_settings() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        conn.execute(
+            "INSERT INTO settings(key, value) VALUES('dailyMinutes','30')",
+            [],
+        )
+        .unwrap();
+
+        let json = snapshot_json(&conn).unwrap();
+        assert!(json.contains("dailyMinutes"));
+
+        let mut fresh = Connection::open_in_memory().unwrap();
+        migrate(&mut fresh).unwrap();
+        import_snapshot(&mut fresh, &json).unwrap();
+        let value: String = fresh
+            .query_row("SELECT value FROM settings WHERE key='dailyMinutes'", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(value, "30");
+    }
+
+    #[test]
+    fn import_without_settings_keeps_current_ones() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        conn.execute("INSERT INTO settings(key, value) VALUES('theme','sepia')", [])
+            .unwrap();
+        let json = serde_json::json!({
+            "format": "wordroots-snapshot",
+            "schema_version": 2,
+            "exported_at": 1,
+            "lesson_state": [], "card": [], "review": [], "attempt": [], "note": [], "bookmark": []
+        })
+        .to_string();
+        import_snapshot(&mut conn, &json).unwrap();
+        let theme: String = conn
+            .query_row("SELECT value FROM settings WHERE key='theme'", [], |r| r.get(0))
+            .unwrap();
+        assert_eq!(theme, "sepia");
     }
 
     #[test]

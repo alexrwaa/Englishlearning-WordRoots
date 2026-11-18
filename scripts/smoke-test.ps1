@@ -307,9 +307,17 @@ function Invoke-Case {
     foreach ($key in $EnvVars.Keys) { $effectiveEnv[$key] = $EnvVars[$key] }
     if ($Selftest) { $effectiveEnv['WORDROOTS_SELFTEST'] = '1' }
 
+    # Chromium/WebView2 diagnostics go to stderr; without capturing them a blank
+    # window is undebuggable. The files travel with the smoke evidence.
+    $stdoutPath = Join-Path $appDir 'app-data/logs/stdout.txt'
+    $stderrPath = Join-Path $appDir 'app-data/logs/stderr.txt'
+    $logDir = Join-Path $appDir 'app-data/logs'
+    if (-not (Test-Path -LiteralPath $logDir)) { New-Item -ItemType Directory -Path $logDir -Force | Out-Null }
+
     Set-ProcessEnv $effectiveEnv
     try {
-      $proc = Start-Process -FilePath $exe -WorkingDirectory $appDir -PassThru
+      $proc = Start-Process -FilePath $exe -WorkingDirectory $appDir -PassThru `
+        -RedirectStandardOutput $stdoutPath -RedirectStandardError $stderrPath
     } finally {
       Restore-ProcessEnv
     }
@@ -464,13 +472,16 @@ function Invoke-DiagnoseCase {
     $appDir = New-AppCopy $caseDir
     Reset-CaseState $appDir
     $exe = Join-Path $appDir 'WordRoots.exe'
-    $proc = Start-Process -FilePath $exe -ArgumentList '--diagnose' -WorkingDirectory $appDir -PassThru
+    $diagErr = Join-Path $appDir 'app-data/logs/stderr.txt'
+    $proc = Start-Process -FilePath $exe -ArgumentList '--diagnose' -WorkingDirectory $appDir -PassThru `
+      -RedirectStandardError $diagErr
     [void]$proc.WaitForExit(30000)
 
     $snapshotPath = Join-Path $appDir 'app-data/logs/startup-cli.json'
     $verdict = 'FAIL'
     $note = 'startup-cli.json missing'
-    $snapshot = Read-JsonFile $snapshotPath
+    # A GUI-subsystem process may exit before the write is flushed; poll briefly.
+    $snapshot = Wait-ForJson $snapshotPath 15
     if ($null -ne $snapshot) {
       $hasWininet = $null -ne $snapshot.wininet
       $hasWebview = $null -ne $snapshot.webview2
