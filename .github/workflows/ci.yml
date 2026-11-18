@@ -1,5 +1,10 @@
 name: CI
 
+# Fast feedback on every push/PR. Packaging (binary + real-launch smoke test)
+# lives in portable-windows.yml and is not duplicated here: the Windows-only
+# PowerShell path assertions cannot run on ubuntu, and building the portable
+# folder twice would only double the cost.
+
 on:
   push:
     branches: [main]
@@ -54,7 +59,15 @@ jobs:
       - name: cargo check
         working-directory: src-tauri
         run: cargo check --all-targets
-      - name: cargo clippy
+      # Blocking: backend tests are cheap and catch DB/command regressions that
+      # the portable build would otherwise ship.
+      - name: cargo test
+        working-directory: src-tauri
+        run: cargo test --all-targets
+      # Advisory on purpose: clippy churn must not block a release, but the
+      # warnings stay visible in the job log for the next cleanup pass. The
+      # blocking gates are cargo check, cargo test and the packaging smoke test.
+      - name: cargo clippy (advisory)
         working-directory: src-tauri
         run: cargo clippy -- -D warnings
         continue-on-error: true

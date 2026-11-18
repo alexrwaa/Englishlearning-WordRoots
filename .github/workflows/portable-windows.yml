@@ -1,5 +1,12 @@
 name: Build portable Windows app
 
+# Two modes, deliberately different:
+#   * push to main / workflow_dispatch -> build, smoke test, upload artifact.
+#     No release is created: a release must correspond to a tag.
+#   * push of a vX.Y.Z tag -> the same checks, then an *immutable* release.
+#     The tag must match package.json and an existing release is a hard failure
+#     (releases are never overwritten, so what was tested is what shipped).
+
 on:
   push:
     branches: [main]
@@ -40,6 +47,11 @@ jobs:
       - name: Build frontend
         run: npm run build
 
+      # Blocking: a broken backend must stop the pipeline before packaging.
+      - name: Rust unit tests
+        working-directory: src-tauri
+        run: cargo test --all-targets
+
       - name: Build desktop binary
         working-directory: src-tauri
         run: cargo build --release
@@ -48,9 +60,11 @@ jobs:
         shell: pwsh
         run: ./scripts/package-portable.ps1
 
+      # Release gate. No continue-on-error: the smoke test proves the packaged
+      # app really renders and really answers a question inside WebView2 under
+      # eight proxy/path conditions. A database file alone is not evidence.
       - name: Smoke test the packaged app
         shell: pwsh
-        continue-on-error: true
         run: ./scripts/smoke-test.ps1
 
       - name: Write checksums
@@ -61,31 +75,63 @@ jobs:
           "$hash  $($zip.Name)" | Out-File -Encoding utf8 dist-portable/WordRoots-SHA256.txt
           Get-Content dist-portable/WordRoots-SHA256.txt
 
-      - name: Upload artifact
+      - name: Upload portable artifact
         uses: actions/upload-artifact@v4
         with:
           name: WordRoots-Portable-Windows-x64
           path: |
             dist-portable/WordRoots-Portable-Windows-x64.zip
             dist-portable/WordRoots-SHA256.txt
+            dist-portable/smoke-report.md
 
-      - name: Publish release
-        if: ${{ github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v') }}
+      # The report is the release evidence; the per-case logs are what makes a
+      # red run diagnosable without re-running Windows.
+      - name: Upload smoke evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: WordRoots-smoke-evidence
+          path: |
+            dist-portable/smoke-report.md
+            dist-portable/smoke-logs/**
+            dist-portable/release-evidence.json
+          if-no-files-found: warn
+
+      - name: Publish immutable release
+        if: startsWith(github.ref, 'refs/tags/v')
         shell: pwsh
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          $ErrorActionPreference = 'Stop'
           $pkg = Get-Content package.json -Raw | ConvertFrom-Json
           $tag = "v$($pkg.version)"
-          $notes = "docs/Release-Notes.md"
-          if (-not (Test-Path $notes)) {
-            "WordRoots $tag" | Out-File -Encoding utf8 $notes
+
+          if ($env:GITHUB_REF_NAME -ne $tag) {
+            throw "tag '$($env:GITHUB_REF_NAME)' does not match package.json version '$tag'"
           }
-          gh release view $tag 2>$null
-          if ($LASTEXITCODE -ne 0) {
-            gh release create $tag --title "WordRoots $tag" --notes-file $notes --target $env:GITHUB_SHA
-          } else {
-            gh release edit $tag --notes-file $notes
+          if (-not (Test-Path 'docs/Release-Notes.md')) {
+            throw 'docs/Release-Notes.md is required for a release'
           }
-          gh release upload $tag dist-portable/WordRoots-Portable-Windows-x64.zip dist-portable/WordRoots-SHA256.txt --clobber
-          gh release view $tag --json url -q .url
+
+          # Immutable: never patch an existing release, always fail instead.
+          $exists = $false
+          try {
+            gh release view $tag --json tagName *> $null
+            $exists = ($LASTEXITCODE -eq 0)
+          } catch {
+            $exists = $false
+          }
+          if ($exists) {
+            throw "release $tag already exists; releases are immutable and are not overwritten"
+          }
+
+          gh release create $tag --target $env:GITHUB_SHA --title "WordRoots $tag" --notes-file docs/Release-Notes.md
+          if ($LASTEXITCODE -ne 0) { throw "gh release create $tag failed" }
+
+          gh release upload $tag dist-portable/WordRoots-Portable-Windows-x64.zip dist-portable/WordRoots-SHA256.txt
+          if ($LASTEXITCODE -ne 0) { throw "gh release upload $tag failed" }
+
+          # Evidence: what the release actually contains, on the record.
+          gh release view $tag --json assets,url | Tee-Object -FilePath dist-portable/release-evidence.json
+          Get-Content dist-portable/release-evidence.json
