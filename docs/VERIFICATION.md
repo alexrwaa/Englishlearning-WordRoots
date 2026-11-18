@@ -1,7 +1,22 @@
-# 验收记录（v0.1.0）
+# 验收记录（v0.2.0）
 
-本文件记录**实际执行过**的验证，以及无法自动验证、需要人工确认的项目。数字均来自命令输出与 CI 日志，
-不做估算。
+本文件记录**实际执行过**的验证，以及无法自动验证、需要人工确认的项目。数字来自命令输出与 CI 日志，不做估算。
+
+## 0. P0 根因与证据
+
+「开启 VPN / 系统代理时 EXE 打不开」的真因不是 VPN，而是**发布构建漏了 `custom-protocol` 特性**：
+
+- Tauri 2 的 `tauri::is_dev()` 实现是 `!cfg!(feature = "custom-protocol")`。
+- 0.1.0 用 `cargo build --release` 构建、未开该特性 → 产物自认开发模式 → `generate_context!` 走 `devUrl`，
+  窗口导航到 `http://localhost:5183`，便携包里没有 Vite 服务器，于是显示「localhost 无法连接」。
+  关掉 VPN 也一样失败，VPN 只是让失败更早被看见。
+
+**修复前探针输出**：`probe: url=Ok("http://localhost:5183/")`
+**修复后**：`frontend_ready: phase=mounted payload={"domNodes":160,"textChars":838,"navItems":7,...}`
+
+修复手段（详见 `docs/Release-Notes.md`）：Cargo 增加 `custom-protocol` 特性、CI 显式 `--features custom-protocol`、
+启动时若仍是 dev 模式则写 FATAL 日志并由冒烟测试直接判失败；另加 WebView2 进程级直连
+（`--proxy-server=direct://`）、`--disable-gpu`、启动诊断文件与 `--diagnose` 模式。
 
 ## 1. 自动化验证
 
@@ -9,79 +24,69 @@
 |---|---|---|
 | TypeScript 类型检查 | `npx tsc -b` | 通过，0 error |
 | ESLint | `npx eslint .` | 通过，0 error 0 warning |
-| 单元测试 | `npx vitest run` | 37 passed |
-| 课程内容校验 | `npx tsx scripts/validate-content.ts` | ✓ content valid；12 周 / 84 课 / 423 卡片 / 559 练习 / 206 词素 / 473 词条 / 35 概念 |
-| 占位页检查 | `npm run check:stubs` | 通过（无 STUB 页面） |
-| 前端生产构建 | `npm run build` | 通过（dist 约 930 KB JS / 13 KB CSS） |
-| Rust 后端检查 | CI `cargo check` + `cargo clippy` | 通过（clippy 非阻塞） |
-| 端到端页面渲染 | `node scripts/ui-smoke.mjs` | 12 条路由全部渲染，无运行时异常 |
-| 端到端学习流程 | `node scripts/e2e-session.mjs` | 完成 3 课、18 次作答、60 次复习评分、24 张卡片；刷新后记录仍在 |
-| Windows 便携构建 | GitHub Actions `portable-windows.yml` | 全 14 步成功，含启动冒烟测试 |
-| 发布 | GitHub Release `v0.1.0` | ZIP 2,052,220 字节 + SHA256 文件 |
+| 单元测试 | `npx vitest run` | 95 passed（6 个文件） |
+| 课程内容校验 | `npx tsx scripts/validate-content.ts` | ✓ content valid；12 周 / 84 课 / 423 卡 / 559 题 / 206 词素 / 473 词条 / 35 概念 |
+| 占位页检查 | `npm run check:stubs` | 通过 |
+| 前端生产构建 | `npm run build` | 通过 |
+| Rust 单元测试 | CI `cargo test --all-targets` | 通过（迁移、统计、快照导出导入） |
+| Rust 检查 | CI `cargo check` | 通过；clippy 为 advisory（非发布门禁，取舍见工作流注释） |
+| 打包冒烟（8 场景） | `scripts/smoke-test.ps1` | 见第 2 节 |
+| Windows 便携构建 | GitHub Actions `portable-windows.yml` | 见第 3 节 |
 
-CI：<https://github.com/alexrwaa/Englishlearning-WordRoots/actions/runs/44109990347>
-构建：<https://github.com/alexrwaa/Englishlearning-WordRoots/actions/runs/44109990342>
-发布：<https://github.com/alexrwaa/Englishlearning-WordRoots/releases/tag/v0.1.0>
+## 2. 代理 / 路径场景矩阵
 
-## 2. 便携式存储实测（本机 Windows 11 x64）
+每个场景用全新解压副本，断言四件事：
+① `frontend-ready.json` 出现且 `domNodes>20 && textChars>200`（真实渲染）；
+② `data/wordroots.db` 非空；
+③ `contentSource=external`（测得是要发布的课程包，不是内置兜底）；
+④ 自检场景 `selftest.json` 的 `ok=true` 且作答数增加（真实交互）。
 
-从 Release 下载 ZIP 解压后：
+| # | 场景 | 构造 | 结果 |
+|---|---|---|---|
+| 1 | 无代理基线 | 清空 HTTP(S)/ALL_PROXY | 通过 |
+| 2 | 死 HTTP 代理 | `HTTP_PROXY=HTTPS_PROXY=http://127.0.0.1:9` | 通过 |
+| 3 | 死 SOCKS5 | `ALL_PROXY=socks5://127.0.0.1:9` | 通过 |
+| 4 | 系统代理（WinINET） | 注册表 `ProxyEnable=1`、`ProxyServer=127.0.0.1:9`，结束恢复原值 | 通过 |
+| 5 | PAC 自动配置 | 追加 `AutoConfigURL=http://127.0.0.1:9/proxy.pac` | 通过 |
+| 6 | 中文 + 空格路径 | `%TEMP%\便携 测试 <rnd>\` | 通过 |
+| 7 | 换路径二次启动 | 复制整目录到另一路径再启动，db 大小变化 ≤ 1 页 | 通过 |
+| 8 | `--diagnose` | `startup-cli.json` 含 `wininet` + `webview2` | 通过 |
 
-1. **含空格与中文的路径** `…\portable-test\便携 测试\WordRoots.exe` 正常启动。
-2. 启动后程序目录内生成：
-   - `data/wordroots.db`（SQLite，WAL 模式）
-   - `app-data/logs/wordroots.log`：`WordRoots starting` / `schema migrated to v1`
-   - `app-data/cache/webview2/EBWebView`（8.9 MB）——WebView2 用户数据目录被重定向到程序目录内
-3. `%LOCALAPPDATA%\com.wordroots.learning` 只出现一个 **0 字节空目录**，没有任何学习数据或缓存写入。
-4. **迁移测试**：把整个 `便携 测试` 文件夹复制为 `移动 测试`，从新路径启动 →
-   日志只出现 `WordRoots starting`（无重复迁移），`data/wordroots.db` 可读，`PRAGMA` 查询得到
-   `schema_version = 1`、10 张表。学习记录随文件夹迁移。
-5. **重启测试**：同一目录二次启动不重新建库、不重复迁移。
+## 3. CI 与发布
 
-## 3. 发布包内容核对
+- CI（typecheck / lint / test / content / build）与便携构建 + 8 场景冒烟：见 GitHub Actions 最新成功运行。
+- 冒烟为**发布门禁**：失败时 `Publish immutable release` 被跳过（可在运行记录中核对 step 状态）。
+- 发布只在 tag 上创建，`tag == v + package.json.version`，同名 release 已存在即失败，不再覆盖。
 
-`WordRoots-Portable-Windows-x64.zip` 解压后：
+## 4. 本地实测（真实 Windows 11 桌面，非 CI）
 
-```
-WordRoots/
-├── WordRoots.exe          4,561,920 bytes
-├── README.txt
-├── data/                  空（首次启动建库）
-├── courses/weeks/*.json   84 个课程文件
-├── courses/lexicon/*.json 词库
-├── app-data/{cache,config,logs}
-└── backups/
-```
-
-`scripts/package-portable.ps1` 在打包时校验：ZIP 中必须含 `WordRoots/WordRoots.exe`，且不得含
-`.epub` / `.pdf`（防止版权教材被打包）。
-
-本机下载该 ZIP 后的 SHA-256：`1c53dd2fe1b101a52db0bec0c2ee252c4a8fe9db8b113cd42ea4e3ac59edf210`
-（与 Release 页 `WordRoots-SHA256.txt` 同源生成，后者由构建作业计算）。
-
-## 4. 未能自动验证的项目（如实标注）
-
-| 项目 | 原因 | 现状 |
+| 测试 | 方法 | 结果 |
 |---|---|---|
-| 真实点击/拖拽等 GUI 交互 | GitHub Actions Windows Runner 无交互桌面，本机自动化也无法稳定驱动 Tauri 窗口 | 在浏览器中以同一份前端代码完成端到端点击流程（`scripts/e2e-session.mjs`），Tauri 侧仅验证启动与落盘 |
-| 高 DPI / 多显示器缩放 | 需要人工在不同缩放比下目视 | 未验证 |
-| WebView2 渲染差异 | CI 与本机版本可能不同 | 已在本机 WebView2 上启动成功；细节像素未比对 |
-| 数据库损坏恢复路径 | 需要人为破坏 DB 文件 | 代码中实现了“打开失败→改名为 `.corrupt-<ts>.db` →重建”的分支，但未在真实二进制上演练 |
-| 升级覆盖安装 | 需要两个版本二进制 | 已实现 `schema_version` 迁移与迁移前自动备份；跨版本升级未实测 |
-| 断网使用 | 需要断网环境 | 前端资源全部内置于 EXE，无运行时网络请求；未做真实断网演练 |
+| 死代理启动 | `HTTP_PROXY/HTTPS_PROXY=http://127.0.0.1:9`、`ALL_PROXY=socks5://127.0.0.1:9` | 进入界面；自检 15 步、6 次作答、完成 1 课 |
+| 渲染证据 | `app-data/logs/frontend-ready.json` | `domNodes=160, textChars=838, navItems=7` |
+| 交互证据 | `app-data/logs/selftest.json` | `ok=true, attempts 0→6, completed 0→1, sawFeedback=true` |
+| `--diagnose` | 命令行运行 | 生成 `startup-cli.json`（含 WebView2 运行时版本） |
+| 便携目录 | 含中文与空格的路径 | 数据写在程序目录内，重启后仍在 |
+| 课程包 | 打包 ZIP | 84 个 `day*.json`、12 周目录、`courses/manifest.json`（dayCount=84） |
 
-## 5. 课程内容质量抽查
+## 5. 判题、计时、FSRS、数据
 
-自动校验覆盖：答案下标范围、选项去重、目标词必须出现在 infer 段落中、卡片正文最小长度、
-占位文本检测、概念/词素引用完整性、矩阵词是否存在于词库、时长预算 15–35 分钟。
+- Word Sum：必须 ≥2 个词素；集合、顺序、边界、拼写规则（去 e / y→i / 双写 / 同化）逐项校验。
+  整词、词素错、顺序错、规则错给出不同反馈；照抄卡片里的 `a + b → word` 写法也能正确解析。
+- 计时：只累计「可见且聚焦」的时间，单段上限 180 秒；阅读/练习/复习分别计时并写入 `attempts.duration_ms`。
+- 统计曾恒为 0 分钟，真因是 SQL 查了 `attempt.elapsed_ms`（该表列名是 `duration_ms`）且异常被
+  `unwrap_or(0)` 吞掉；已修并加 Rust 回归测试。
+- FSRS：与 `ts-fsrs` 逐次比对 250 次复习，S 最大相对误差 < 1e-6、state 全部一致；期间修正 D0 公式、
+  难度阻尼与稳定性更新所用的 D。
+- 备份：导出含设置/进度/卡片/复习/作答/笔记/收藏 + `counts` 校验；导入先校验、再自动 pre-import 备份、
+  后事务写入；v1 备份导入 v2 结构自动补默认值。
 
-人工抽查（本次交付中执行的抽样）：
+## 6. 未真实验证的项目（明确保留）
 
-- 第 6 周 `hydrogen`：确认写作“1787 年拉瓦锡团队造的科学拉丁语”，未与古英语词根混为同源。
-- 第 8 周 `island` / `debt` / `receipt`：确认为“拼写史人为插入的字母”，并明确“非词素、不发音”。
-- 第 9 周 `robot`（捷克语 robota）、`tea`（闽南语经荷兰语）、`nice`（拉丁 nescius）：来源与语义路径一致。
-- 第 11 周 `localization`：定位（机器人）与本地化（软件）两个义项分列，未合并。
-- 词库 `token` / `gate` / `network` / `model`：`ety.note` 均说明现代义与历史来源的关系，未反向推导。
-
-仍存在的风险：词源细节（尤其是年代、首见文献）依赖现代辞书的通行说法；个别传统词根分类（S4 来源）
-仅作历史对照，已避免作为结论使用。
+1. **真实 Clash Verge（系统代理 + TUN 同时开启）**：CI 只能模拟代理配置与死端口，TUN 的包级拦截无法在
+   托管 runner 上复现，需用户本机双击实测。
+2. 真实 SOCKS5 服务端（非死端口）行为。
+3. 高 DPI 缩放（125%/150%）与多显示器布局。
+4. v0.1.0 → v0.2.0 **真实二进制覆盖升级**（迁移逻辑与备份有测试，未在旧版真实数据上跑）。
+5. 企业 PAC 脚本的真实求值（只验证了死 PAC 不影响启动）。
+6. 数小时连续使用的计时精度与内存占用。
