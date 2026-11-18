@@ -79,7 +79,7 @@
       "sentence": "Rather than buy a new robot arm, the lab decided to ___ the old one with modern sensors and a new controller.",
       "answer": "retrofit",
       "accept": ["改装", "翻新改装"],
-      "explain": "retrofit = retro（向后）+ fit（装配），指给已有的设备加装新部件，是工程领域的固定说法。rather than buy a new one 提供了“在旧设备上动手”的语境，据此排除 replace、upgrade 之外的无关词。",
+      "explain": "retrofit = retro（向后）+ fit（装配），指给已有的设备加装新部件，是工程领域的固定说法。rather than buy a new one 提供了“在旧设备上动手”的语境，指向加装而不是整机替换（replace）或单纯升级（upgrade）。",
       "concepts": ["retro", "c-scientific"]
     },
     {
@@ -100,7 +100,7 @@
     {
       "id": "w03d3-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：pre + caution → ?",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：pre + caution",
       "parts": ["pre", "caution"],
       "answer": "precaution",
       "explain": "pre（预先）+ caution（小心、防备）→ precaution“预防措施”。注意这里 caution 本身已是完整名词，属于“前缀 + 自由词基”的派生，不是词根组合。take precautions 是固定搭配。",

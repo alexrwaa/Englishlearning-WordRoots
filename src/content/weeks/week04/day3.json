@@ -82,7 +82,7 @@
     {
       "id": "w04d3-p3",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：strength + en → ?",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：strength + en",
       "parts": ["strength", "en"],
       "answer": "strengthen",
       "explain": "strength（力量）是名词，加 -en 构成 strengthen“加强”。这里 -en 加在名词而非形容词后，表示“使具备该名词所示的性质”。注意拼写保留 strength 的全部字母，不省略中间的 g。",

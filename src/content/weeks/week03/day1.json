@@ -46,7 +46,7 @@
     {
       "kind": "text",
       "title": "in- 的两个来源：一个词里的两种“in”",
-      "body": "**in-** 作为否定前缀来自拉丁语，只跟拉丁来源的词基搭配：invisible、incorrect、incomplete。它有 im- / il- / ir- 三个拼写变体，第 5 天专门处理。\n\n但拉丁语里还有另一个 in-，意思是“进入、在内”，构词如 include、inject、import。两者拼写相同、来源相同、意义相反，只能靠词义判断。最著名的受害者是 **inflammable**：它的意思是“易燃的”，不是“不可燃”。这里的 in- 是“进入”（使起火），与 inflame 同源。因为安全标识上屡屡被误读，现代标识多改用 flammable。\n\n结论：**看到 in- 先别急着读成“不”**，要确认词基与语境是否支持否定解读。",
+      "body": "**in-** 作为否定前缀来自拉丁语，只跟拉丁来源的词基搭配：invisible、incorrect、incomplete。它有 im- / il- / ir- 三个拼写变体，第 5 天专门处理。\n\n但拉丁语里还有另一个 in-，意思是“进入、在内”，构词如 include、inject、import。两者**拼写相同、来源不同、意义相反**（否定 in- 与英语 un- 同源，进入义的 in- 来自拉丁介词 in），只能靠词义判断。最著名的受害者是 **inflammable**：它的意思是“易燃的”，不是“不可燃”。这里的 in- 是“进入”（使起火），与 inflame 同源。因为安全标识上屡屡被误读，现代标识多改用 flammable。\n\n结论：**看到 in- 先别急着读成“不”**，要确认词基与语境是否支持否定解读。",
       "terms": [
         { "term": "homograph", "zh": "同形异义", "en": "homograph", "note": "拼写相同但来源或意义不同的成分" }
       ],
@@ -98,7 +98,7 @@
     {
       "id": "w03d1-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：写出构词算式的结果",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：un + certain + ty",
       "parts": ["un", "certain", "ty"],
       "answer": "uncertainty",
       "explain": "un（不）+ certain（确定的）+ ty（名词后缀）→ uncertainty“不确定性”。certain 加 -ty 时拼写不变，直接拼作 certainty；否定前缀加在派生结果之前。",

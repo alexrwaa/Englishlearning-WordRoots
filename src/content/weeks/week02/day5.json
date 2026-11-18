@@ -25,7 +25,7 @@
     {
       "kind": "text",
       "title": "用 structure 走一遍",
-      "body": "**第一问：什么意思？** 名词，指事物各部分之间的安排方式，也可指建成的物体。\n\n**第二问：怎么构成？** struct（建造）+ ure（结果、状态）→ structure。核心义是“建造出来的东西”，再抽象为“结构”。\n\n**第三问：有哪些同族词？** construct、construction、instruct、instructor、destructive、infrastructure、obstruct、obstruction。它们共享“建造/搭建”这一核心义，但各自的前缀把它推向不同方向：in- 向内（在头脑里搭建 → 指导），de- 向下（拆掉 → 破坏），ob- 对着（挡住 → 阻塞）。\n\n**第四问：词源？** 拉丁 struere“堆叠、建造”，过去分词 structus，经法语 structure 进入英语。这条信息解释了为什么 -ure 不是随机的拼写。",
+      "body": "**第一问：什么意思？** 名词，指事物各部分之间的安排方式，也可指建成的物体。\n\n**第二问：怎么构成？** struct（建造）+ ure（结果、状态）→ structure。核心义是“建造出来的东西”，再抽象为“结构”。\n\n**第三问：有哪些同族词？** construct、construction、instruct、instructor、destructive、infrastructure、obstruct、obstruction。它们共享“建造/搭建”这一核心义，但各自的前缀把它推向不同方向：in- 向内（在头脑里搭建 → 指导），de- 向下（拆掉 → 破坏），ob- 对着（挡住 → 阻塞）。\n\n**第四问：词源？** 拉丁 struere“堆叠、建造”，过去分词 structus，名词 structura；英语的 structure 经法语 structure 传入（也可能直接取自拉丁，词源书说法不一）。这条信息解释了为什么 -ure 不是随机的拼写。",
       "morphemes": ["struct", "ure", "con", "in", "de", "ob", "infra"]
     },
     {

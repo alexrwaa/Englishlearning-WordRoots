@@ -61,7 +61,7 @@
     {
       "id": "w02d7-p1",
       "kind": "wordSum",
-      "prompt": "写出 happy + ness 的正确拼写",
+      "prompt": "用 + 连接词素，写出切分（不要写整词，注意拼写）：happy + ness",
       "parts": ["happy", "ness"],
       "answer": "happiness",
       "explain": "happy 以“辅音 p + y”结尾，-ness 不以 i 开头，因此 y 变 i，得到 happiness。这是本周拼写规则的核心例子。",

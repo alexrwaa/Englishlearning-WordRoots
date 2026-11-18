@@ -9,9 +9,21 @@
     "能解释同化是发音部位调整、拼写随之变化的结果",
     "能区分否定前缀 in- 与来自拉丁 in-“进入”的同形成分"
   ],
-  "prereqs": ["w07d7", "c-allomorph"],
-  "concepts": ["c-allomorph", "c-prefix", "c-spelling-rule"],
-  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 4 },
+  "prereqs": [
+    "w07d7",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-prefix",
+    "c-spelling-rule"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 4
+  },
   "level": "B1",
   "cards": [
     {
@@ -19,40 +31,99 @@
       "title": "四种写法，一个词素",
       "body": "**in-** 在 impossible 里写作 im-，在 illegal 里写作 il-，在 irregular 里写作 ir-。这不是四个前缀，而是**同一个否定词素**的四个**词素变体**（`allomorph`）。\n\n原因在发音：/n/ 是鼻音，发音时舌尖抵住齿龈。当后面紧跟双唇音 /p b m/ 时，舌尖动作来不及完成，/n/ 被“拉”到双唇部位变成 /m/；在 /l/ 前被 /l/ 完全取代；在 /r/ 前变成 /r/。拼写跟着发音走，于是有了 im-/il-/ir-。这个现象叫**同化**（assimilation）。\n\n一句话：词素没变，只是它的“外壳”适应了下一个音。",
       "terms": [
-        { "term": "assimilation", "zh": "同化", "en": "assimilation", "note": "一个音受相邻音影响，发音部位或方式变得与它相同或相近" },
-        { "term": "allomorph", "zh": "词素变体", "en": "allomorph", "note": "同一词素在不同语音环境下的不同形式" }
+        {
+          "term": "assimilation",
+          "zh": "同化",
+          "en": "assimilation",
+          "note": "一个音受相邻音影响，发音部位或方式变得与它相同或相近"
+        },
+        {
+          "term": "allomorph",
+          "zh": "词素变体",
+          "en": "allomorph",
+          "note": "同一词素在不同语音环境下的不同形式"
+        }
       ],
-      "morphemes": ["in", "im", "il", "ir"]
+      "morphemes": [
+        "in",
+        "im",
+        "il",
+        "ir"
+      ]
     },
     {
       "kind": "table",
       "title": "in- 的四个变体与条件",
       "body": "看这张表时请注意第三列：双写并不是规则要求，而是词基首字母恰好与变体末字母相同造成的。impossible = im + possible，只有一个 m；immortal = im + mortal，两个 m 相接才写成 mm。判断时先看音，再看拼写。",
-      "head": ["语音环境", "变体", "例子"],
+      "head": [
+        "语音环境",
+        "变体",
+        "例子"
+      ],
       "rows": [
-        ["/p b m/ 之前", "im-", "impossible, imbalance, immoral, immature"],
-        ["/l/ 之前", "il-", "illegal, illiterate, illogical"],
-        ["/r/ 之前", "ir-", "irregular, irrelevant, irreversible"],
-        ["其他辅音或元音之前", "in-", "invisible, inactive, indirect, inability"]
+        [
+          "/p b m/ 之前",
+          "im-",
+          "impossible, imbalance, immoral, immature"
+        ],
+        [
+          "/l/ 之前",
+          "il-",
+          "illegal, illiterate, illogical"
+        ],
+        [
+          "/r/ 之前",
+          "ir-",
+          "irregular, irrelevant, irreversible"
+        ],
+        [
+          "其他辅音或元音之前",
+          "in-",
+          "invisible, inactive, indirect, inability"
+        ]
       ]
     },
     {
       "kind": "table",
       "title": "不止 in-：ad-、sub-、ob-、com- 也在同化",
       "body": "同化是拉丁前缀进入英语后的普遍现象。看下表最后一列：有些变体连原前缀的最后一个字母都消失了（ascend 里没有 d），因为 /d/ 被后面的 /s/ 完全同化。掌握这些对应关系，遇到生词就不会把一个词拆错。",
-      "head": ["词素", "同化变体", "例子"],
+      "head": [
+        "词素",
+        "同化变体",
+        "例子"
+      ],
       "rows": [
-        ["ad-（朝向）", "ac-/af-/ag-/al-/ap-/ar-/as-/at-/a-", "accept, afford, aggressive, allow, apply, arrive, assist, attempt, ascend"],
-        ["sub-（在下）", "suf-/sug-/sup-/sus-", "suffer, suggest, support, suspect"],
-        ["ob-（对着）", "oc-/of-/op-", "occur, offer, oppose"],
-        ["com-（共同）", "col-/cor-/con-", "collect, correct, connect"]
+        [
+          "ad-（朝向）",
+          "ac-/af-/ag-/al-/ap-/ar-/as-/at-/a-",
+          "accept, afford, aggressive, allow, apply, arrive, assist, attempt, ascend"
+        ],
+        [
+          "sub-（在下）",
+          "suf-/sug-/sup-/sus-",
+          "suffer, suggest, support, suspect"
+        ],
+        [
+          "ob-（对着）",
+          "oc-/of-/op-",
+          "occur, offer, oppose"
+        ],
+        [
+          "com-（共同）",
+          "col-/cor-/con-",
+          "collect, correct, connect"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "同化有三种程度",
       "body": "同化不是“全有或全无”，程度不同，拼写表现也不同：\n\n- **完全同化**：ad- 的 /d/ 在 /k/ 前变成 /k/（accept 读 /əkˈsept/），原拼写里的 d 完全消失。\n- **部分同化**：in- 的 /n/ 在 /p/ 前变 /m/，仍是鼻音，只是发音部位从齿龈移到了双唇。\n- **不反映在拼写上**：in- 在 /k/ 前仍写 in-（incorrect），因为 /n/ 在 /k/ 前常读成 /ŋ/，而英语拼写没有专门的 ŋ 字母。\n\n教学结论：判断词素看**意义**，拼写变体只是表层。这一点从第 1 周讲到第 8 周，是整门课最重要的一条纪律。",
-      "morphemes": ["ad", "in", "com"]
+      "morphemes": [
+        "ad",
+        "in",
+        "com"
+      ]
     },
     {
       "kind": "text",
@@ -65,10 +136,18 @@
       "id": "w08d1-p1",
       "kind": "mcq",
       "prompt": "impossible 中的 im- 是哪个词素的变体？",
-      "choices": ["否定前缀 in-", "介词 in", "表示“进入”的拉丁 in-", "形容词后缀 -ive"],
+      "choices": [
+        "否定前缀 in-",
+        "介词 in",
+        "表示“进入”的拉丁 in-",
+        "形容词后缀 -ive"
+      ],
       "answer": 0,
       "explain": "im- 是否定前缀 in- 在双唇音 /p/ 前的变体，语义为“不能……的”。它与拉丁 in-“进入”同形但不同源，也与介词 in 无关。",
-      "concepts": ["c-allomorph", "c-prefix"]
+      "concepts": [
+        "c-allomorph",
+        "c-prefix"
+      ]
     },
     {
       "id": "w08d1-p2",
@@ -76,9 +155,14 @@
       "prompt": "填入一个以 in- 开头的形容词",
       "sentence": "The two measurements are ___ with each other, so the calibration must be wrong.",
       "answer": "inconsistent",
-      "accept": ["inconsistent with"],
+      "accept": [
+        "inconsistent with"
+      ],
       "explain": "in- 在 /k/ 前保持 in- 的拼写（incorrect、inconsistent），尽管 /n/ 实际读成 /ŋ/。英语拼写没有 ŋ 字母，所以同化不体现在字面上。",
-      "concepts": ["c-allomorph", "c-prefix"]
+      "concepts": [
+        "c-allomorph",
+        "c-prefix"
+      ]
     },
     {
       "id": "w08d1-p3",
@@ -92,16 +176,25 @@
       ],
       "answer": 0,
       "explain": "鼻音 /n/ 在 /l/ 前完全同化，读音变成 /l/，拼写写作 il-；又因 legal 以 l 开头，两个 l 相接，形成 illegal 的双写。这不是“另一个前缀”。",
-      "concepts": ["c-allomorph", "c-spelling-rule"]
+      "concepts": [
+        "c-allomorph",
+        "c-spelling-rule"
+      ]
     },
     {
       "id": "w08d1-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成正确的单词（注意拼写调整）",
-      "parts": ["in", "regular"],
+      "prompt": "用 + 连接词素，写出切分（不要写整词；注意拼写调整）",
+      "parts": [
+        "in",
+        "regular"
+      ],
       "answer": "irregular",
       "explain": "in + regular 在 /r/ 前同化为 ir-，写作 irregular。r 的双写来自变体末字母 r 与词基首字母 r 相接，不是额外加的字母。",
-      "concepts": ["c-allomorph", "c-spelling-rule"]
+      "concepts": [
+        "c-allomorph",
+        "c-spelling-rule"
+      ]
     },
     {
       "id": "w08d1-p5",
@@ -115,7 +208,10 @@
       ],
       "answer": 0,
       "explain": "inflammable 来自拉丁 inflammare（in- + flamma 火焰），与 flammable 同义。正因为 in- 常被误读为否定，现代安全标识改用 flammable，这是一次由形态歧义推动的用词调整。",
-      "concepts": ["c-prefix", "c-etymology"]
+      "concepts": [
+        "c-prefix",
+        "c-etymology"
+      ]
     }
   ],
   "apply": [
@@ -125,16 +221,36 @@
       "prompt": "推测划线词 irreversible 的含义",
       "passage": "Once the two-part epoxy has cured, the joint is irreversible: no solvent in the workshop will soften it enough to separate the parts.",
       "word": "irreversible",
-      "choices": ["无法恢复原状的、不可逆的", "看不见的、不可见的", "不规则的、无规律的", "不负责任的、不可靠的"],
+      "choices": [
+        "无法恢复原状的、不可逆的",
+        "看不见的、不可见的",
+        "不规则的、无规律的",
+        "不负责任的、不可靠的"
+      ],
       "answer": 0,
       "strategy": "① 切分：ir-（in- 在 r 前的变体，否定）+ reverse（反转）+ -ible（能够……的）；② 词性：-ible 构成形容词，作表语；③ 语境：冒号后说没有任何溶剂能软化它，直接支持“不可逆”。",
       "explain": "irreversible 意为“不可逆的、无法恢复的”。干扰项都是 ir- 家族的常见词（invisible、irregular、irresponsible），形态相近但词基不同——这正是需要用词基义而非前缀义定值的地方。",
-      "concepts": ["c-allomorph", "c-inference"]
+      "concepts": [
+        "c-allomorph",
+        "c-inference"
+      ]
     }
   ],
   "sources": [
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5：allomorphy 与 phonological assimilation" },
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4 章：拉丁前缀的同化变体" },
-    { "id": "S5", "title": "Oxford English Dictionary", "detail": "inflammable 与 flammable 的用法说明" }
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 5：allomorphy 与 phonological assimilation"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：拉丁前缀的同化变体"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "inflammable 与 flammable 的用法说明"
+    }
   ]
 }

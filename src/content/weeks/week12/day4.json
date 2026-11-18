@@ -10,9 +10,24 @@
     "能识别 limitation 段落并说明其对结论范围的影响",
     "能解释 generalization 与 overfitting 的对立关系"
   ],
-  "prereqs": ["w12d3", "c-register", "c-semantic-shift"],
-  "concepts": ["c-register", "c-semantic-shift", "c-inference", "c-scientific", "c-etymology"],
-  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w12d3",
+    "c-register",
+    "c-semantic-shift"
+  ],
+  "concepts": [
+    "c-register",
+    "c-semantic-shift",
+    "c-inference",
+    "c-scientific",
+    "c-etymology"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "C1",
   "cards": [
     {
@@ -20,41 +35,93 @@
       "title": "significant：先“作记号”，再“有统计意义”",
       "body": "**significant** = sign（记号）+ fic（做，拉丁 facere）+ -ant（形容词后缀）。拉丁 significare 意为“作记号、表示”，所以本义是“有意义的、能表意的”。\n\n三个义项要分清，读论文时按语境选择：\n\n1. **统计显著**：结果在零假设下不太可能偶然出现（p < 0.05）。这只说明“不太可能是偶然”，**不说明差异大**。\n2. **日常“重要”**：a significant improvement 常被读成“很大的改进”，但作者可能只是指统计上可靠。\n3. **“值得注意的”**：a significant portion（相当大的比例）。\n\n这正是第 10 周讲的语义演变：词从“有表意功能”扩展到“统计学上可区分”，再在日常语域里被读成“重要”。读结果句时要问：作者说的是**统计判断**还是**实际影响**？两者常被混为一谈。\n\n同族：signify、significance、significantly（常修饰形容词，表程度）。",
       "steps": [
-        { "period": "拉丁", "form": "signum", "note": "记号、标志" },
-        { "period": "拉丁", "form": "significare", "note": "作记号、表示" },
-        { "period": "英语", "form": "significant", "note": "有意义的；值得注意的" },
-        { "period": "20 世纪统计学", "form": "statistically significant", "note": "在零假设下不太可能由偶然产生" }
+        {
+          "period": "拉丁",
+          "form": "signum",
+          "note": "记号、标志"
+        },
+        {
+          "period": "拉丁",
+          "form": "significare",
+          "note": "作记号、表示"
+        },
+        {
+          "period": "英语",
+          "form": "significant",
+          "note": "有意义的；值得注意的"
+        },
+        {
+          "period": "20 世纪统计学",
+          "form": "statistically significant",
+          "note": "在零假设下不太可能由偶然产生"
+        }
       ],
       "terms": [
-        { "term": "statistical significance", "zh": "统计显著性", "en": "statistical significance" }
+        {
+          "term": "statistical significance",
+          "zh": "统计显著性",
+          "en": "statistical significance"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "consistent：站得住、对得上",
       "body": "**consistent** = con-（共同）+ sist（站立，拉丁 sistere）+ -ent。拉丁 consistere 意为“站稳、站定”，引申为“前后一致、与……相符”。\n\n三种搭配，三种结构，不能混：\n\n- **be consistent with X**：与 X 一致（本课最常用）。*The trend is consistent with earlier reports.*\n- **consist of X**：由 X 组成（注意是 of，不是 with）。*The dataset consists of 40 sequences.*\n- **consistent performance**：稳定的表现（不忽好忽坏）。\n\n同族：consistency（一致性）、inconsistent（不一致的）、consistently（一贯地）。\n\n在读讨论部分时，**consistent with** 是一个信号：作者在说“我们的结果与已有文献不矛盾”。这是比“证明”弱得多的主张，属于学术写作里的**谨慎表述（hedging）**。看到它不要读成“证实了”。",
-      "morphemes": ["con", "sist", "ent"],
+      "morphemes": [
+        "con",
+        "sist",
+        "ent"
+      ],
       "terms": [
-        { "term": "hedging", "zh": "谨慎表述", "en": "hedging", "note": "用 may、suggest、be consistent with 等弱化主张" }
+        {
+          "term": "hedging",
+          "zh": "谨慎表述",
+          "en": "hedging",
+          "note": "用 may、suggest、be consistent with 等弱化主张"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "limitation：作者自己划的边界",
       "body": "**limitation** = limit（边界）+ -ation。limit 来自拉丁 **limes / limit-**“田界、国界”，所以这个词的核心始终是“界线”。\n\n在论文里，limitation 段落的功能不是“认错”，而是**界定结论的适用范围**。常见句式：\n\n- A limitation of this study is that ...\n- Our approach assumes ..., which may not hold when ...\n- We did not evaluate ...; this is left for future work.\n\n读法建议：先找 limitation，再回看 abstract 的主张有多强。如果摘要说 robust in all conditions，而 limitation 说 only tested indoors，那结论范围就被大幅收窄。\n\n同族：limit（限制）、limited（有限的）、unlimited、delimit（划定边界）。注意 **limited** 在论文里常是中性描述（limited to two sensors），不是贬义。",
-      "morphemes": ["limit", "ation", "un"],
+      "morphemes": [
+        "limit",
+        "ation",
+        "un"
+      ],
       "terms": [
-        { "term": "limitation", "zh": "局限性、限制", "en": "limitation" }
+        {
+          "term": "limitation",
+          "zh": "局限性、限制",
+          "en": "limitation"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "generalization：从“种类”到“泛化”",
       "body": "**generalization** 的词根是拉丁 **genus / gener-**“种类、族类”，经 generalis“属于整个种类的”到 general，再加 -ize、-ation。\n\n所以“泛化”的字面义就是“把属于某一类的判断推广到整类”。机器学习里的用法完全对应：\n\n- **generalize to unseen data**：在未见过的数据上仍然有效。\n- **generalization error / gap**：训练集表现与测试集表现的差距。\n- **poor generalization**：换场景就失效。\n\n它的对立面是 **overfitting**（over- 过度 + fit 拟合 + -ing）：模型把训练集的噪声也记住了，训练误差极低但泛化很差。\n\n注意不要把它与“普遍化、笼统化”的日常贬义混淆。在论文里 generalization 是**中性技术评价**：能不能迁移到新条件，是方法好坏的核心指标之一。",
-      "morphemes": ["gener", "al", "ize", "ation", "over", "fit"],
+      "morphemes": [
+        "gener",
+        "al",
+        "ize",
+        "ation",
+        "over",
+        "fit"
+      ],
       "terms": [
-        { "term": "generalization", "zh": "泛化", "en": "generalization" },
-        { "term": "overfitting", "zh": "过拟合", "en": "overfitting" }
+        {
+          "term": "generalization",
+          "zh": "泛化",
+          "en": "generalization"
+        },
+        {
+          "term": "overfitting",
+          "zh": "过拟合",
+          "en": "overfitting"
+        }
       ]
     },
     {
@@ -64,9 +131,18 @@
       "excerpt": "Two observations deserve comment. First, the improvement is consistent across all three datasets, which suggests that it does not depend on a particular sensor configuration. Second, the gain is statistically significant but modest in absolute terms: a 4 cm reduction in lateral error is unlikely to matter for corridor navigation, although it may matter for manipulation. A limitation of our study is that all sequences were collected in a single building, so generalization to outdoor scenes remains untested.",
       "glossZh": "有两点值得说明。第一，改进在三个数据集上一致，这表明它不依赖某种特定的传感器配置。第二，增益在统计上显著，但绝对值有限：横向误差减少 4 厘米对走廊导航大概无关紧要，但对操作任务可能有用。本研究的一个局限是，所有序列都在同一栋建筑中采集，因此向室外场景的泛化尚未验证。",
       "questions": [
-        { "q": "statistically significant but modest 是什么意思？", "a": "统计上可靠（不太可能由偶然造成），但实际幅度不大。作者在明确区分统计判断与实际影响。" },
-        { "q": "为什么作者要提 single building？", "a": "限定结论范围：只在单一建筑内验证，不能声称适用于室外。这是 limitation 段的典型功能。" },
-        { "q": "consistent across all three datasets 支持了什么结论？", "a": "改进不依赖特定传感器配置。注意 suggests 而非 proves，属于谨慎表述。" }
+        {
+          "q": "statistically significant but modest 是什么意思？",
+          "a": "统计上可靠（不太可能由偶然造成），但实际幅度不大。作者在明确区分统计判断与实际影响。"
+        },
+        {
+          "q": "为什么作者要提 single building？",
+          "a": "限定结论范围：只在单一建筑内验证，不能声称适用于室外。这是 limitation 段的典型功能。"
+        },
+        {
+          "q": "consistent across all three datasets 支持了什么结论？",
+          "a": "改进不依赖特定传感器配置。注意 suggests 而非 proves，属于谨慎表述。"
+        }
       ]
     }
   ],
@@ -83,7 +159,10 @@
       ],
       "answer": 1,
       "explain": "统计显著只回答“是否可能由偶然产生”，不回答“差异有多大”。样本量很大时，极小的差异也能显著。因此论文常补一句 but modest in absolute terms 来区分二者。",
-      "concepts": ["c-semantic-shift", "c-register"],
+      "concepts": [
+        "c-semantic-shift",
+        "c-register"
+      ],
       "hint": "sign + fic 的本义是“作记号”，与“大”无关。"
     },
     {
@@ -92,18 +171,32 @@
       "prompt": "填入与 with 搭配、表示“一致”的形容词",
       "sentence": "Our observation is ___ with the trend reported by Chen et al., although the absolute error is lower.",
       "answer": "consistent",
-      "accept": ["consistent"],
+      "accept": [
+        "consistent"
+      ],
       "explain": "be consistent with 是固定搭配，表示“与……一致”。注意区分 consist of（由……组成）：前者是形容词 + with，后者是动词 + of，结构完全不同。",
-      "concepts": ["con", "sist", "c-register"]
+      "concepts": [
+        "con",
+        "sist",
+        "c-register"
+      ]
     },
     {
       "id": "w12d4-p3",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词（“显著性/意义”）",
-      "parts": ["sign", "ific", "ance"],
+      "prompt": "用 + 连接词素，写出切分（不要写整词）；目标是“显著性/意义”",
+      "parts": [
+        "sign",
+        "ific",
+        "ance"
+      ],
       "answer": "significance",
       "explain": "sign（记号）+ ific（做，facere 的变体）+ ance（名词后缀）→ significance。同族 signify、significant、significantly；-ific- 是 facere 在复合词中的常见形式。",
-      "concepts": ["sign", "c-suffix", "c-word-family"]
+      "concepts": [
+        "sign",
+        "c-suffix",
+        "c-word-family"
+      ]
     },
     {
       "id": "w12d4-p4",
@@ -113,7 +206,11 @@
       "prefix": "per",
       "answer": "persist",
       "explain": "per-（贯穿到底）+ sist（站立）→ persist“坚持、持续存在”。同族 consist（共同站立→组成）、resist（反着站→抵抗）、insist（站在上面→坚持主张）。",
-      "concepts": ["sist", "c-prefix", "c-word-family"]
+      "concepts": [
+        "sist",
+        "c-prefix",
+        "c-word-family"
+      ]
     },
     {
       "id": "w12d4-p5",
@@ -127,7 +224,10 @@
       ],
       "answer": 1,
       "explain": "limitation 段界定结论边界，不是自我否定。正确反应是把“在室内有效”作为结论范围，不把摘要里的强主张推广到室外。忽略它会高估论文贡献。",
-      "concepts": ["c-register", "c-inference"]
+      "concepts": [
+        "c-register",
+        "c-inference"
+      ]
     },
     {
       "id": "w12d4-p6",
@@ -141,7 +241,11 @@
       ],
       "answer": 1,
       "explain": "over-（过度）+ fit（拟合）指模型把训练集噪声也学进去，训练误差很低但在新数据上表现差，也就是泛化（generalization）能力弱。二者是同一问题的两个侧面。",
-      "concepts": ["c-scientific", "c-etymology", "c-word-family"]
+      "concepts": [
+        "c-scientific",
+        "c-etymology",
+        "c-word-family"
+      ]
     }
   ],
   "apply": [
@@ -151,16 +255,38 @@
       "prompt": "推测 overfitting 的含义",
       "passage": "A model that memorizes the training set may report near-zero error there while failing on new sequences. This gap between training and test performance is the classic signature of overfitting, and it is the reason we hold out an entire building for evaluation.",
       "word": "overfitting",
-      "choices": ["过度贴合训练数据、导致新数据上失效", "训练数据不足", "模型参数过少", "测试集与训练集重叠"],
+      "choices": [
+        "过度贴合训练数据、导致新数据上失效",
+        "训练数据不足",
+        "模型参数过少",
+        "测试集与训练集重叠"
+      ],
       "answer": 0,
       "strategy": "① 切分：over（过度）+ fit（拟合）+ t + ing；② 词性：名词，作 of 的宾语；③ 语境：memorizes the training set + near-zero error + failing on new sequences；④ 验证：与 gap between training and test 同现，并解释了留出整栋楼做测试的原因。",
       "explain": "over- 表“过度”，fit 表“拟合”，所以 overfitting 是“过度贴合训练集”。段落给出了完整的行为描述：训练误差近零、新序列失败，两者之差就是过拟合的典型标志。",
-      "concepts": ["c-inference", "over", "fit", "c-scientific"]
+      "concepts": [
+        "c-inference",
+        "over",
+        "fit",
+        "c-scientific"
+      ]
     }
   ],
   "sources": [
-    { "id": "S5", "title": "Oxford English Dictionary / Online Etymology Dictionary", "detail": "significant（significare）、consistent（consistere）、limit（limes）、general（genus）" },
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 10 章：语义演变与学术语域的收窄" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 6：hedging 与学术语域" }
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary / Online Etymology Dictionary",
+      "detail": "significant（significare）、consistent（consistere）、limit（limes）、general（genus）"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章：语义演变与学术语域的收窄"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 6：hedging 与学术语域"
+    }
   ]
 }

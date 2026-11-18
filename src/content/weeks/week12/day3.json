@@ -10,9 +10,24 @@
     "能用 robust、converge、residual 描述实验现象",
     "能区分 calibration 与 accuracy 在实验语境中的不同角色"
   ],
-  "prereqs": ["w12d2", "c-metaphor", "c-scientific"],
-  "concepts": ["c-scientific", "c-metaphor", "c-register", "c-inference", "c-semantic-shift"],
-  "minutes": { "review": 5, "learn": 9, "practice": 8, "apply": 5 },
+  "prereqs": [
+    "w12d2",
+    "c-metaphor",
+    "c-scientific"
+  ],
+  "concepts": [
+    "c-scientific",
+    "c-metaphor",
+    "c-register",
+    "c-inference",
+    "c-semantic-shift"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 8,
+    "apply": 5
+  },
   "level": "C1",
   "cards": [
     {
@@ -20,14 +35,38 @@
       "title": "calibration：从“量口径”到“标定”",
       "body": "**calibration** = calibr（口径、刻度）+ -ation。calibr 来自 **caliber**“口径、直径”，而 caliber 经意大利语 calibro、法语 calibre 上溯到阿拉伯语 **qālib**“模具、鞋楦”。\n\n原义很具体：用模具量出炮管或管子的内径。工业革命后，calibrate 泛指“用已知标准测定仪器的偏差”，于是有了 **sensor calibration**（传感器标定）、**extrinsic calibration**（外参标定）、**miscalibration**（标定错误）。\n\n一个必须分清的区别：calibration 不是 accuracy。标定是“对齐标准”，精度是“接近真值的程度”。论文里常见 *after calibration, the residual bias drops below 0.2°*——标定降低了系统偏差，但精度的最终水平还取决于噪声。\n\n搭配：calibrate against、calibration procedure、well-calibrated uncertainty。",
       "steps": [
-        { "period": "阿拉伯语", "form": "qālib", "note": "模具、楦头" },
-        { "period": "意大利语/法语", "form": "calibro / calibre", "note": "口径、直径" },
-        { "period": "英语", "form": "caliber", "note": "口径；（引申）水准、才干" },
-        { "period": "英语 19 世纪", "form": "calibrate / calibration", "note": "按标准测定仪器偏差" }
+        {
+          "period": "阿拉伯语",
+          "form": "qālib",
+          "note": "模具、楦头"
+        },
+        {
+          "period": "意大利语/法语",
+          "form": "calibro / calibre",
+          "note": "口径、直径"
+        },
+        {
+          "period": "英语",
+          "form": "caliber",
+          "note": "口径；（引申）水准、才干"
+        },
+        {
+          "period": "英语 19 世纪",
+          "form": "calibrate / calibration",
+          "note": "按标准测定仪器偏差"
+        }
       ],
       "terms": [
-        { "term": "calibration", "zh": "标定", "en": "calibration" },
-        { "term": "bias", "zh": "偏差（系统性误差）", "en": "bias" }
+        {
+          "term": "calibration",
+          "zh": "标定",
+          "en": "calibration"
+        },
+        {
+          "term": "bias",
+          "zh": "偏差（系统性误差）",
+          "en": "bias"
+        }
       ]
     },
     {
@@ -35,40 +74,99 @@
       "title": "threshold：一个词源存争议的词",
       "body": "**threshold** 的古英语形式是 þerscold / þrescold，现代拼写里的 thresh- 与“打谷”（thresh）形似，但**词源有争议**：有学者认为与“踩踏的木板”有关，也有学者认为与 thresh 无关。诚实的说法是“来源不确定”，不要为了好记编一个确定的故事。\n\n词义演变倒很清楚：从“门槛（门口那块横木）”到“临界点”，再到技术语域的“阈值”。这条路径是典型的**隐喻扩展**——跨过一个门槛，就是越过一个界限。\n\n技术语境中的用法：\n\n- **threshold value / thresholding**：阈值、阈值化（图像二值化）。\n- **above / below the threshold**：高于/低于阈值。\n- **exceed a threshold**：超过阈值（论文高频）。\n\n注意不要与 **limit** 混用：threshold 是“触发状态改变的临界值”，limit 是“允许范围的边界”。*velocity exceeds a threshold* 指触发重建；*speed limit* 指不允许超过。\n\nEN: a threshold is the value at which a system changes state — not the size of the value itself.",
       "terms": [
-        { "term": "threshold", "zh": "阈值、门槛", "en": "threshold", "note": "词源存争议，勿编造" }
+        {
+          "term": "threshold",
+          "zh": "阈值、门槛",
+          "en": "threshold",
+          "note": "词源存争议，勿编造"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "robustness：像橡木一样结实",
       "body": "**robust** 来自拉丁 **robur**“橡木、力量”，robustus 意为“像橡木一样结实的”。所以 robustness 的本义是“强健”，在工程与统计里专指**对异常条件不敏感**。\n\n三种常见用法，含义各不同：\n\n1. **robust to noise / outliers**：对噪声、离群点不敏感（统计与估计）。\n2. **robustness test**：鲁棒性测试，故意加扰动看性能是否崩塌。\n3. **robust optimization**：鲁棒优化，在最坏情况下仍保证可行。\n\n对比记忆：robust 的反义不是 weak，而是 **fragile / brittle**（脆弱、易碎）——在技术语境里，脆弱指“输入稍有变化就失效”。\n\n常见误区：把 robust 理解成“准确”。一个方法可以很准但很脆弱（换数据集就崩），也可以略粗糙但很稳健。论文里这两件事通常分开报告。",
-      "morphemes": ["robust", "ness"],
+      "morphemes": [
+        "robust",
+        "ness"
+      ],
       "terms": [
-        { "term": "robustness", "zh": "鲁棒性、稳健性", "en": "robustness" },
-        { "term": "brittle", "zh": "脆弱的（一扰动就失效）", "en": "brittle" }
+        {
+          "term": "robustness",
+          "zh": "鲁棒性、稳健性",
+          "en": "robustness"
+        },
+        {
+          "term": "brittle",
+          "zh": "脆弱的（一扰动就失效）",
+          "en": "brittle"
+        }
       ]
     },
     {
       "kind": "text",
       "title": "convergence 与 residual：优化器的两个关键词",
       "body": "**converge** = con-（共同）+ vergere（倾斜、转向）→“倾向同一点”。同族 **diverge**（dis- 分开）是它的反义。名词 convergence 在论文里几乎总与优化、迭代、估计同现：\n\n- **convergence rate**：收敛速度（线性、二次）。\n- **fail to converge**：不收敛（最常见的实验失败描述）。\n- **converge to a local minimum**：收敛到局部极小值。\n\n**residual** = re-（回）+ sedere（坐）→ 拉丁 residuum“剩下的东西”。在估计与优化中指**残差**：观测值与模型预测值之差。\n\n两者的关系正是优化论文的主线：迭代使残差下降，残差足够小则判定收敛。读方法部分时，看到 residual 就想“还差多少”，看到 convergence 就想“是否停下来、停在哪儿”。\n\n搭配：residual error、residuals grow sharply、the optimizer converges within five iterations。",
-      "morphemes": ["con", "verg", "re", "sid"],
+      "morphemes": [
+        "con",
+        "verg",
+        "re",
+        "sid"
+      ],
       "terms": [
-        { "term": "convergence", "zh": "收敛", "en": "convergence" },
-        { "term": "residual", "zh": "残差", "en": "residual" }
+        {
+          "term": "convergence",
+          "zh": "收敛",
+          "en": "convergence"
+        },
+        {
+          "term": "residual",
+          "zh": "残差",
+          "en": "residual"
+        }
       ]
     },
     {
       "kind": "table",
       "title": "五个词在实验部分的典型句位",
       "body": "同一个词在“设置—过程—结果”三个位置的功能不同。这张表可以当作写实验部分的句式模板，也可以反过来用于快速定位信息：找实验设置就读左列，找现象解释就读中列，找结论强度就读右列。",
-      "head": ["词", "实验设置中", "过程描述中", "结果分析中"],
+      "head": [
+        "词",
+        "实验设置中",
+        "过程描述中",
+        "结果分析中"
+      ],
       "rows": [
-        ["calibration", "All sensors were calibrated against a factory standard.", "The extrinsic calibration was refined for 30 minutes.", "After calibration, the residual bias fell below 0.2°."],
-        ["threshold", "We set the inlier threshold to 0.1 m.", "Points beyond the threshold are discarded.", "Raising the threshold increased recall but reduced precision."],
-        ["robustness", "Robustness was tested under three lighting conditions.", "The estimator remains robust to wheel slip.", "Performance degrades gracefully rather than failing abruptly."],
-        ["convergence", "The solver is initialized with the previous pose.", "The optimizer converges within five iterations.", "Convergence slows when the scene is textureless."],
-        ["residual", "Residuals are computed in the local frame.", "Correspondences with large residuals are rejected.", "The residual distribution is close to Gaussian."]
+        [
+          "calibration",
+          "All sensors were calibrated against a factory standard.",
+          "The extrinsic calibration was refined for 30 minutes.",
+          "After calibration, the residual bias fell below 0.2°."
+        ],
+        [
+          "threshold",
+          "We set the inlier threshold to 0.1 m.",
+          "Points beyond the threshold are discarded.",
+          "Raising the threshold increased recall but reduced precision."
+        ],
+        [
+          "robustness",
+          "Robustness was tested under three lighting conditions.",
+          "The estimator remains robust to wheel slip.",
+          "Performance degrades gracefully rather than failing abruptly."
+        ],
+        [
+          "convergence",
+          "The solver is initialized with the previous pose.",
+          "The optimizer converges within five iterations.",
+          "Convergence slows when the scene is textureless."
+        ],
+        [
+          "residual",
+          "Residuals are computed in the local frame.",
+          "Correspondences with large residuals are rejected.",
+          "The residual distribution is close to Gaussian."
+        ]
       ]
     }
   ],
@@ -85,7 +183,10 @@
       ],
       "answer": 1,
       "explain": "calibration 是“按已知标准测定并修正仪器偏差”的过程，accuracy 是“测量值接近真值”的程度。标定能减小系统偏差，但精度还受噪声、分辨率等限制。",
-      "concepts": ["c-scientific", "c-register"]
+      "concepts": [
+        "c-scientific",
+        "c-register"
+      ]
     },
     {
       "id": "w12d3-p2",
@@ -93,9 +194,15 @@
       "prompt": "填入表示“鲁棒性”的名词",
       "sentence": "The main claim of the paper is not speed but ___ : the system keeps working when half of the lidar points are missing.",
       "answer": "robustness",
-      "accept": ["robustness"],
+      "accept": [
+        "robustness"
+      ],
       "explain": "robust（拉丁 robur“橡木、力量”）+ -ness → robustness。冒号后的解释“丢一半点仍能工作”正是鲁棒性的定义：对异常条件不敏感，而不是“更准确”。",
-      "concepts": ["robust", "ness", "c-scientific"]
+      "concepts": [
+        "robust",
+        "ness",
+        "c-scientific"
+      ]
     },
     {
       "id": "w12d3-p3",
@@ -109,16 +216,27 @@
       ],
       "answer": 0,
       "explain": "velocity exceeds a threshold 表示“超过就触发某个动作”（如重建地图）；speed limit 表示“不允许超过的边界”。前者是触发器，后者是约束。",
-      "concepts": ["c-semantic-shift", "c-register"]
+      "concepts": [
+        "c-semantic-shift",
+        "c-register"
+      ]
     },
     {
       "id": "w12d3-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词（“收敛”，名词）",
-      "parts": ["con", "verg", "ence"],
+      "prompt": "用 + 连接词素，写出切分（不要写整词）；目标是“收敛”，名词",
+      "parts": [
+        "con",
+        "verg",
+        "ence"
+      ],
       "answer": "convergence",
       "explain": "con（共同）+ verg（转向）+ ence → convergence“收敛、汇聚”。同族 diverge（dis- 分开）是反义；-ence 与 -ance 都是名词后缀，但 converge 固定用 -ence。",
-      "concepts": ["con", "c-suffix", "c-word-family"]
+      "concepts": [
+        "con",
+        "c-suffix",
+        "c-word-family"
+      ]
     },
     {
       "id": "w12d3-p5",
@@ -132,7 +250,10 @@
       ],
       "answer": 0,
       "explain": "fail to converge 指迭代过程没有达到收敛判据（残差不够小、步长不衰减或震荡），在实验部分常用来描述失败案例。它与“找到最优解”相反。",
-      "concepts": ["c-register", "c-inference"]
+      "concepts": [
+        "c-register",
+        "c-inference"
+      ]
     },
     {
       "id": "w12d3-p6",
@@ -146,7 +267,10 @@
       ],
       "answer": 0,
       "explain": "residual 是观测值与模型预测值之差。残差大说明这对匹配不可信，故被剔除（这也解释了 RANSAC 与稳健估计里 inlier/outlier 的划分依据）。",
-      "concepts": ["c-scientific", "c-inference"]
+      "concepts": [
+        "c-scientific",
+        "c-inference"
+      ]
     }
   ],
   "apply": [
@@ -156,16 +280,37 @@
       "prompt": "推测 miscalibration 的含义",
       "passage": "Even a small miscalibration of the camera–lidar extrinsics can project a wall onto the floor, which then corrupts every scan match that relies on those projections.",
       "word": "miscalibration",
-      "choices": ["标定错误、标定不准确", "校准过程耗时过长", "多次重复标定", "标定设备损坏"],
+      "choices": [
+        "标定错误、标定不准确",
+        "校准过程耗时过长",
+        "多次重复标定",
+        "标定设备损坏"
+      ],
       "answer": 0,
       "strategy": "① 切分：mis-（错误）+ calibr（口径）+ -ation；② 词性：名词，受 small 修饰；③ 语境：结果是把墙投影到地板上，说明参数不对；④ 验证：与 extrinsics（外参）同现，属于标定语域的固定搭配。",
       "explain": "mis- 表“错误、不当”（misalign、misclassify、misinterpret），所以 miscalibration 是“标定不正确”。段落的证据是后果描述：投影错位导致所有依赖该投影的匹配失效——只有参数错误才会造成这种系统性偏移。",
-      "concepts": ["c-inference", "mis", "c-scientific"]
+      "concepts": [
+        "c-inference",
+        "mis",
+        "c-scientific"
+      ]
     }
   ],
   "sources": [
-    { "id": "S5", "title": "Oxford English Dictionary / Online Etymology Dictionary", "detail": "caliber（阿拉伯语 qālib）、robust（robur）、residual、converge 的词源；threshold 词源存争议" },
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 10 章：隐喻扩展与技术语域的语义收窄" },
-    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 6：语域与专业词汇" }
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary / Online Etymology Dictionary",
+      "detail": "caliber（阿拉伯语 qālib）、robust（robur）、residual、converge 的词源；threshold 词源存争议"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章：隐喻扩展与技术语域的语义收窄"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "Chapter 6：语域与专业词汇"
+    }
   ]
 }

@@ -17,7 +17,7 @@
     {
       "kind": "text",
       "title": "-ly 是副词信号，但不是保证",
-      "body": "**-ly** 是最可靠的副词后缀：quick → quickly，careful → carefully，precise → precisely。它加在形容词后，表示“以……的方式”，修饰动词、形容词或整个句子。\n\n但它不是保证。英语里有一批 -ly 结尾的**形容词**：friendly（友好的）、costly（昂贵的）、lonely（孤独的）、lovely（可爱的）、daily（每日的）、scholarly（学术的）。它们来自名词加 -ly，而不是形容词加 -ly。\n\n判断方法很简单：看它修饰谁。修饰名词、能放在 a ___ person 里的，是形容词；修饰动词、能回答 how 的，是副词。He smiled friendly 之所以错，就是因为 friendly 不能修饰动词。",
+      "body": "**-ly** 是最可靠的副词后缀：quick → quickly，careful → carefully，precise → precisely。它加在形容词后，表示“以……的方式”，修饰动词、形容词或整个句子。\n\n但它不是保证。英语里有一批 -ly 结尾的**形容词**：friendly（友好的）、costly（昂贵的）、lonely（孤独的）、lovely（可爱的）、daily（每日的）、scholarly（学术的）。它们大多来自名词加 -ly（lonely 来自形容词 lone），而不是形容词加 -ly。\n\n判断方法很简单：看它修饰谁。修饰名词、能放在 a ___ person 里的，是形容词；修饰动词、能回答 how 的，是副词。He smiled friendly 之所以错，就是因为 friendly 不能修饰动词。",
       "morphemes": ["ly"]
     },
     {
@@ -93,7 +93,7 @@
     {
       "id": "w04d4-p5",
       "kind": "wordSum",
-      "prompt": "写出构词算式的结果：happy + ly → ?（注意拼写）",
+      "prompt": "用 + 连接词素，写出切分（不要写整词，注意拼写）：happy + ly",
       "parts": ["happy", "ly"],
       "answer": "happily",
       "explain": "happy 以“辅音字母 + y”结尾，加 -ly 时 y 变 i，写作 happily，不是 happyly。同类还有 easy → easily、busy → busily。这条 y→i 规则是第 6 天拼写专题的重点之一。",

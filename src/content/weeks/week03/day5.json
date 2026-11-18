@@ -33,7 +33,7 @@
         ["in-（否定）", "im- / il- / ir-", "p, b, m 前 / l 前 / r 前", "impossible, illegal, irregular"],
         ["ad-（朝向）", "ac- af- ag- al- an- ap- ar- as- at-", "随词基首辅音变化", "accept, affect, aggressive, allocate, announce, appear, arrange, assist, attract"],
         ["con-（共同）", "col- cor- co-", "l 前 / r 前 / 元音及部分辅音前", "collect, correct, cooperate"],
-        ["sub-（在下）", "suc- suf- sug- sup- sus-", "c / f / g / p / s 前", "succeed, suffer, suggest, support, suspend"],
+        ["sub-（在下）", "suc- suf- sug- sup- sus-", "c / f / g / p 前；sus- 另见于 suspend、sustain", "succeed, suffer, suggest, support, suspend"],
         ["dis-（分开）", "dif- di-", "f 前 / 部分词基前", "differ, difficult, divide"],
         ["ex-（向外）", "ef- e-", "f 前 / 多数辅音前", "effect, eject, emerge"],
         ["ob-（对着）", "oc- of- op-", "c / f / p 前", "occur, offer, oppose"],
@@ -43,7 +43,7 @@
     {
       "kind": "text",
       "title": "为什么会变：发音器官偷懒的结果",
-      "body": "同化的动因是发音经济性。in- 的 n 是鼻音，发音时舌尖抵住齿龈；如果后面的音是 p、b、m（双唇音），舌尖还没到位，双唇已经闭合，n 就自然被同化成同部位的 m。il- 与 ir- 同理：n 直接变成与 l、r 相同的音，省去一次舌位调整。\n\nad- 的变化更彻底：d 是塞音，遇到 c、f、p、t 这类清辅音时常被完全同化，只剩一个与后面相同的辅音，于是 accept、affect、appear 里的 ac-、af-、ap- 其实都是 ad-。\n\n**本课只要求你认出这个现象**：拼写差异有语音理据，不是例外，也不必死记。完整的机制（部位同化、清浊同化、以及 -s 的三种读音）放在第 8 周。",
+      "body": "同化的动因是发音经济性。in- 的 n 是鼻音，发音时舌尖抵住齿龈；如果后面的音是 p、b、m（双唇音），舌尖还没到位，双唇已经闭合，n 就自然被同化成同部位的 m。il- 与 ir- 同理：n 直接变成与 l、r 相同的音，省去一次舌位调整。\n\nad- 的变化更彻底：d 是塞音，遇到后面的辅音时常常被完全同化，只剩一个与后面相同的辅音，于是 accept、affect、aggressive、appear 里的 ac-、af-、ag-、ap- 其实都是 ad-。\n\n**本课只要求你认出这个现象**：拼写差异有语音理据，不是例外，也不必死记。完整的机制（部位同化、清浊同化、以及 -s 的三种读音）放在第 8 周。",
       "morphemes": ["ad", "con", "sub", "ex"]
     },
     {
@@ -62,7 +62,7 @@
     {
       "kind": "text",
       "title": "三个陷阱：并不是所有 im-/ir- 都是那个前缀",
-      "body": "同化规律有边界，不能见形就切。\n\n第一，**irrigate**（灌溉）的 ir- 不是否定 in-，而是“进入”义的 in-（与 irritate 无关），所以它是“把水引入”，不是“不灌溉”。同理 **illuminate**（照亮）的 il- 也是“进入”。\n\n第二，**imitate**（模仿）、**image**（图像）、**immediate**（立即的）里的 im- 根本不是前缀，这些词整体借入，切不出否定义。\n\n第三，in- 在 k、g 前拼写不变，仍是 in-（incorrect、ingredient），但读音里的 n 会变成 /ŋ/。也就是说，**拼写同化与语音同化不总是同步**。第 8 周会把这层讲透。",
+      "body": "同化规律有边界，不能见形就切。\n\n第一，**irrigate**（灌溉）的 ir- 不是否定 in-，而是“进入”义的 in-（与 irritate 无关），所以它是“把水引入”，不是“不灌溉”。同理 **illuminate**（照亮）的 il- 也是“进入”。\n\n第二，**imitate**（模仿）、**image**（图像）里的 im- 根本不是前缀，这些词整体借入，切不出否定义。\n\n第三，in- 在 k、g 前拼写不变，仍是 in-（incorrect、ingredient），但读音里的 n 会变成 /ŋ/。也就是说，**拼写同化与语音同化不总是同步**。第 8 周会把这层讲透。",
       "morphemes": ["ir", "il", "in"]
     }
   ],
@@ -113,7 +113,7 @@
     {
       "id": "w03d5-p5",
       "kind": "wordSum",
-      "prompt": "写出构词算式的结果：in + legal → ?（注意拼写）",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：in + legal（注意同化后的拼写）",
       "parts": ["in", "legal"],
       "answer": "illegal",
       "explain": "否定前缀 in- 在 l 前同化为 il-，因此写作 illegal 而不是 inlegal。词素没变，只是拼写层做了调整；这也解释了为什么英语里没有 inlegal 这个词。",

@@ -97,7 +97,7 @@
     {
       "id": "w03d4-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：semi + conduct + or → ?（提示：一种材料）",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：semi + conduct + or（提示：一种材料）",
       "parts": ["semi", "conduct", "or"],
       "answer": "semiconductor",
       "explain": "semi（部分、一半）+ conduct（传导）+ or（表物名词后缀）→ semiconductor“半导体”。语义上它指导电性介于导体与绝缘体之间的材料，不是“半个导体”，这是术语化后意义收窄的典型例子。",

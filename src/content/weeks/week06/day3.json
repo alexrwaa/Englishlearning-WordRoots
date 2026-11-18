@@ -273,7 +273,7 @@
     {
       "id": "w06d3-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词，写出结果",
+      "prompt": "用 + 连接词素，按顺序写出词素切分（不要写整词）。",
       "parts": [
         "thermo",
         "meter"

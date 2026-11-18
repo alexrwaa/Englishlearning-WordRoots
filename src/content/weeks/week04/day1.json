@@ -97,7 +97,7 @@
     {
       "id": "w04d1-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：govern + ment → ?",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：govern + ment",
       "parts": ["govern", "ment"],
       "answer": "government",
       "explain": "govern（治理）+ ment（名词后缀）→ government“政府、治理”。注意拼写中 n 后直接接 m，不省略也不双写；发音上第二个音节常被弱化，但拼写必须保留 govern 的 n。",

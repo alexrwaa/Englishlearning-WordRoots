@@ -131,7 +131,7 @@
     {
       "id": "w02d4-p5",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：inter + nation + al",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：inter + nation + al",
       "parts": ["inter", "nation", "al"],
       "answer": "international",
       "explain": "inter（在……之间）+ nation（国家）+ al（形容词后缀）→ international“国际的”，字面是“国家之间的”。三块相接，拼写无需调整。",

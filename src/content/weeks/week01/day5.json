@@ -45,18 +45,19 @@
     {
       "kind": "text",
       "title": "那个 o 不是词素",
-      "body": "看到 thermometer，很多人会切成 therm + o + meter，然后问“o 是什么意思”。答案是：它没有词汇意义。这个 -o- 是希腊来源复合词的**连接元音**，作用只是把两个辅音结尾的成分接顺。\n\n它也不是独立的词素，所以不要在复习时把 o 单独记成一张卡。正确的处理是把它算进前一个组合形式的拼写里：thermo- + meter，或 thermo + metr + y。\n\n一个反例帮你校准：photograph 里的 o 属于 photo-（光）这个组合形式，而不是“光 + o + 写”。如果你把每个 o 都当成有意义的成分，很快就会在 geology、biology、thermodynamics 里陷入无法解释的循环。",
+      "body": "看到 thermometer，很多人会切成 therm + o + meter，然后问“o 是什么意思”。答案是：它没有词汇意义。这个 -o- 是希腊来源复合词的**连接元音**，作用只是把两个辅音结尾的成分接顺。\n\n它也不是独立的词素，所以不要在复习时把 o 单独记成一张卡。正确的处理是把它算进前一个组合形式的拼写里：thermo- + meter（只有在 thermometry 这类词里，才出现 thermo + metr + y 的切法）。\n\n一个反例帮你校准：photograph 里的 o 属于 photo-（光）这个组合形式，而不是“光 + o + 写”。如果你把每个 o 都当成有意义的成分，很快就会在 geology、biology、thermodynamics 里陷入无法解释的循环。",
       "morphemes": ["therm", "meter", "photo", "graph"]
     },
     {
       "kind": "etym",
       "title": "hydrogen：一个人造术语，不是“本土复合词”",
-      "body": "hydrogen 常被拆成 hydro（水）+ gen（产生），这个拆法在记忆上有效，历史上也确实是造词者的本意。但它不是英语里自然长出来的复合词，而是 18 世纪末法国化学家拉瓦锡等人为这种气体新造的科学术语，随后进入英语。\n\n这一点很重要：**能拆解不等于自然生成**。科技词汇大多是“按规则组装”的产物，所以拆解可靠；而 nice、understand 这类老词是历史演变的结果，拆解反而会误导。第 6 天会专门讲这个区别。",
+      "body": "hydrogen 常被拆成 hydro（水）+ gen（产生）。这个拆法反映的是造词者的设计，不是英语里自然长出来的复合词：1766 年卡文迪什（Cavendish）分离并报告了这种可燃气体，1787 年拉瓦锡（Lavoisier）等人在《化学命名法》中为它拟定法语名 hydrogène（“生成水的”），随后才进入英语。\n\n三个时间点要分清：**首次分离并报告**是 1766 年，**首次命名**是 1787 年，**首次在英语中使用**在 18 世纪末（约 1791 年）。三者不是一回事。\n\n这一点很重要：**能拆解不等于自然生成**。科技词汇大多是“按规则组装”的产物，所以拆解可靠；而 nice、understand 这类老词是历史演变的结果，拆解反而会误导。第 6 天会专门讲这个区别。",
       "steps": [
         { "period": "希腊语", "form": "hydōr", "note": "水" },
         { "period": "希腊语", "form": "-genēs", "note": "产生……的" },
-        { "period": "法语 1783", "form": "hydrogène", "note": "拉瓦锡团队造的新术语" },
-        { "period": "英语 19 世纪", "form": "hydrogen", "note": "进入英语化学语域" }
+        { "period": "英语 1766", "form": "inflammable air", "note": "卡文迪什分离并报告这种气体，当时按性质命名" },
+        { "period": "法语 1787", "form": "hydrogène", "note": "拉瓦锡团队在《化学命名法》中定名" },
+        { "period": "英语 1791", "form": "hydrogen", "note": "18 世纪末进入英语化学语域" }
       ]
     },
     {
@@ -112,7 +113,7 @@
     {
       "id": "w01d5-p5",
       "kind": "wordSum",
-      "prompt": "把成分拼成单词：bio + logy",
+      "prompt": "用 + 连接成分，写出切分（不要写整词）：bio + logy",
       "parts": ["bio", "logy"],
       "answer": "biology",
       "explain": "bio（生命）+ logy（学科、研究）→ biology“生物学”。-logy 是高频组合形式，还能构成 geology、psychology、thermology 等术语。",
@@ -135,7 +136,7 @@
   ],
   "sources": [
     { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 8 章：希腊语组合形式与科技词汇" },
-    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "hydrogen（1783 年法语新造词）、helicopter（helico + pter）词条" },
+    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "hydrogen（1787 年法语定名，1791 年入英语）、helicopter（helico + pter）词条" },
     { "id": "S4", "title": "New Word-Analysis", "detail": "希腊词根与连接元音的处理" }
   ]
 }

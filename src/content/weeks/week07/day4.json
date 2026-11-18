@@ -44,7 +44,7 @@
       "head": ["类型", "操作", "例子", "判据"],
       "rows": [
         ["复合 compound", "两个完整自由词基相加", "software, keyboard", "两个成分都能独立成词"],
-        ["混成 blend", "各取一部分拼合", "smog, brunch", "两个来源都被截断"],
+        ["混成 blend", "各取一部分拼合", "smog, brunch", "至少一方被截断"],
         ["截短 clipping", "截去原词一部分", "gym, flu, phone", "只剩一个来源，意义不变"],
         ["缩略 acronym/initialism", "取词组首字母", "NASA（按词读）、CPU（逐字母）", "来源是一个词组"]
       ]

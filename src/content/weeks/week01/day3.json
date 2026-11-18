@@ -79,14 +79,14 @@
         "unhelp + ful"
       ],
       "answer": 2,
-      "explain": "先由 help 加 -ful 得到形容词 helpful，再加否定前缀 un-。若按第三项之外的切法，都需要先有一个动词 unhelp 或 unhelp，而它在标准英语中不存在。",
+      "explain": "先由 help 加 -ful 得到形容词 helpful，再加否定前缀 un-。若按第三项之外的切法，都需要先有一个动词 unhelp，而它在标准英语中不存在。",
       "concepts": ["c-base", "c-derivation", "un", "ful"],
       "hint": "从最外层往里剥，看看每层剩下的是不是真词。"
     },
     {
       "id": "w01d3-p2",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：help + ful + ness",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：help + ful + ness",
       "parts": ["help", "ful", "ness"],
       "answer": "helpfulness",
       "explain": "help（帮助）+ ful（充满……的）+ ness（名词后缀）→ helpfulness“有益、有帮助”。层次上是 (help + ful) + ness，拼写不需调整，注意 -ful 只有一个 l。",

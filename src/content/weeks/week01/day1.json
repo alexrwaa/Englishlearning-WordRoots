@@ -26,7 +26,7 @@
     {
       "kind": "text",
       "title": "替换测试：判断切分的唯一可靠办法",
-      "body": "不要凭“看起来像”来切词，要做替换测试。三步：\n\n1. 假设某一段是一个词素。\n2. 把它换成另一段，看剩下的部分是否仍然成立、意思是否随之可预测地改变。\n3. 再反过来固定它、替换前面的部分。\n\n以 **unhelpful** 为例：un + help + ful。把 un 换成 re，得到 rehelpful——英语里没有这个词，但 un 换成 help+less 之外的组合方式时你会发现：helpful / helpless / helper 都成立，说明 help 与 -ful、-less 各自独立。**双向都能替换**，切分才可靠。\n\n反例：**understand** 里的 under 与 stand 看起来都能独立成词，但 understand 的意思不是“站在下面”。这说明它的现代意义已经词汇化，不再是可分析的组合。历史上它确实来自 under + stand，但那是词源事实，不是今天的构词结构。",
+      "body": "不要凭“看起来像”来切词，要做替换测试。三步：\n\n1. 假设某一段是一个词素。\n2. 把它换成另一段，看剩下的部分是否仍然成立、意思是否随之可预测地改变。\n3. 再反过来固定它、替换前面的部分。\n\n以 **unhelpful** 为例：un + help + ful。把 un 换成 re，得到 rehelpful——英语里没有这个词，可见单靠一次替换不足以下结论，要看整个词族：helpful / helpless / helper 都成立，unkind / unfair 也都成立，说明 help、-ful、-less、un- 各自都是能反复使用的单位。**双向都能替换**，切分才可靠。\n\n反例：**understand** 里的 under 与 stand 看起来都能独立成词，但 understand 的意思不是“站在下面”。这说明它的现代意义已经词汇化，不再是可分析的组合。历史上它确实来自 under + stand，但那是词源事实，不是今天的构词结构。",
       "terms": [
         { "term": "substitution test", "zh": "替换测试", "en": "substitution test" }
       ]
@@ -96,7 +96,7 @@
     {
       "id": "w01d1-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：写出构词算式的结果（只写单词本身也可以）",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：un + kind + ness",
       "parts": ["un", "kind", "ness"],
       "answer": "unkindness",
       "explain": "un（不）+ kind（善良的）+ ness（名词后缀）→ unkindness“不友善”。三块都是词素，ness 把形容词变成名词。",

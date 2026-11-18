@@ -111,7 +111,7 @@
         "它的 gen 是屈折后缀"
       ],
       "answer": 1,
-      "explain": "hydrogen 可拆为 hydro + gen，这个结构反映造词者的设计；但它是 1783 年前后拉瓦锡团队在法语中造出的科学术语，不是英语本土自然复合。可拆解与自然生成是两件事。",
+      "explain": "hydrogen 可拆为 hydro + gen，这个结构反映造词者的设计；但它是 1787 年拉瓦锡团队在《化学命名法》中定名的科学术语（1766 年由卡文迪什首先分离报告），不是英语本土自然复合。可拆解与自然生成是两件事。",
       "concepts": ["c-etymology", "c-scientific", "c-combining", "hydro"]
     },
     {

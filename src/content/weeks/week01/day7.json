@@ -82,7 +82,7 @@
     {
       "id": "w01d7-p3",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：un + help + ful",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：un + help + ful",
       "parts": ["un", "help", "ful"],
       "answer": "unhelpful",
       "explain": "un（否定）+ help（帮助）+ ful（充满……的）→ unhelpful“无帮助的”。层次上是 un + (help + ful)，先构成形容词再加否定前缀。",
@@ -128,7 +128,7 @@
       "word": "irreplaceable",
       "choices": ["无法替代的", "无法修复的", "不可再充电的", "不可重复使用的"],
       "answer": 0,
-      "strategy": "①切分 ir（否定，in- 在 r 前的变体）+ replace（替换）+ able（能够……的）；②形容词作表语；③冒号后解释：原始夹具毁于火灾、此后没有造出等效品，指向“换不了”；④排除“无法修复”，那是 irreparable 的词族，词根是 repair 而非 replace。",
+      "strategy": "①切分 ir（否定，in- 在 r 前的变体）+ replace（替换）+ able（能够……的）；②形容词作表语；③冒号后解释：原始夹具毁于火灾、此后没有造出等效品，指向“换不了”；④排除“无法修复”，那是 irreparable（拉丁 reparare）的词族，与 replace 无关。",
       "explain": "ir- 是 in- 在 r 前的拼写变体，不是另一个前缀。replace + able 是“可替换的”，加否定即“不可替代的”。语境给出的证据是“没有等效品”，正对应“替代”。",
       "concepts": ["ir", "replace", "able", "c-inference"]
     },

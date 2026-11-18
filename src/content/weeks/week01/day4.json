@@ -51,7 +51,7 @@
     {
       "kind": "text",
       "title": "-er 与 -ing 的一身两职",
-      "body": "同一个拼写可以属于不同词缀，判断依据是**它在这一个词里做了什么**。\n\n- teach + er → teacher：-er 表示“做这件事的人”，造出新名词，是**派生**。\n- fast + er → faster：-er 只表示比较级，仍是形容词 fast 的另一种形式，是**屈折**。\n\n-ing 同理：running 是 run 的进行体（屈折）；building 作“建筑物”时是 run 之外的独立名词（派生）。判断办法很简单：看这个词能不能换成同一词的其他形式而句意不变。",
+      "body": "同一个拼写可以属于不同词缀，判断依据是**它在这一个词里做了什么**。\n\n- teach + er → teacher：-er 表示“做这件事的人”，造出新名词，是**派生**。\n- fast + er → faster：-er 只表示比较级，仍是形容词 fast 的另一种形式，是**屈折**。\n\n-ing 同理：running 是 run 的进行体（屈折）；building 作“建筑物”时已不是 build 的进行体，而是独立名词（派生）。判断办法很简单：看这个词能不能换成同一词的其他形式而句意不变。",
       "morphemes": ["er", "ing", "teach", "fast", "build"]
     },
     {
@@ -82,7 +82,7 @@
         "teacher 的 -er 是屈折，taller 的 -er 是派生"
       ],
       "answer": 2,
-      "explain": "判断依据是这个成分在词里起什么作用。teacher 的 -er 造出一个新名词“教师”，是派生；taller 的 -er 只表示 fast 这一形容词的比较级，不造新词，是屈折。",
+      "explain": "判断依据是这个成分在词里起什么作用。teacher 的 -er 造出一个新名词“教师”，是派生；taller 的 -er 只表示 tall 这一形容词的比较级，不造新词，是屈折。",
       "concepts": ["c-inflection", "c-derivation", "er"]
     },
     {

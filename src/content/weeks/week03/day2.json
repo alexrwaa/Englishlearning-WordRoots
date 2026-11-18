@@ -37,7 +37,7 @@
     {
       "kind": "text",
       "title": "inter- 与 intra-：一个字母之差，方向相反",
-      "body": "这是学术阅读里最常见的误读之一。**inter-** 是“之间”，**intra-** 是“内部”：interpersonal 是人与人之间，intrapersonal 是一个人内心；internet 是网络与网络之间互联，intranet 是一个组织内部的网。\n\n大学里还有一对真实存在的词：**intramural**（mural 墙）指“校内的”，如 intramural sports 校内比赛；**intermural** 指“校际的”。中国学生常把 intramural 当成“校际”，恰好反了。\n\n记忆抓手：**intra- 里有“a”，可以联想成“a single one inside”**；**inter- 里有“e”，联想成“enter between”**。这是助记，不是词源，但足够区分这两个前缀。",
+      "body": "这是学术阅读里最常见的误读之一。**inter-** 是“之间”，**intra-** 是“内部”：interpersonal 是人与人之间，intrapersonal 是一个人内心；internet 是网络与网络之间互联，intranet 是一个组织内部的网。\n\n大学里还有一个常被误读的词：**intramural**（mural 墙）指“校内的”，如 intramural sports 校内比赛，字面就是“墙内”。表示“校际的”英语通常用 **intercollegiate**，不要用 intermural 代替。中国学生常把 intramural 当成“校际”，恰好反了。\n\n记忆抓手：**intra- 里有“a”，可以联想成“a single one inside”**；**inter- 里有“e”，联想成“enter between”**。这是助记，不是词源，但足够区分这两个前缀。",
       "terms": [
         { "term": "spatial metaphor", "zh": "空间隐喻", "en": "spatial metaphor", "note": "用空间关系理解抽象关系" }
       ],
@@ -45,7 +45,7 @@
     },
     {
       "kind": "matrix",
-      "title": "同一个词基，六个方向",
+      "title": "同一个词基，五个方向",
       "body": "以 nation 为词基，只换前缀，就能得到一组意义可预测的真实词。矩阵的作用不是让你背六个词，而是让你看见：**词基不变，方向由前缀决定**。注意 supranational 用的是 supra-（在上、超出），与 super- 同源但拼写固定。",
       "base": "nation",
       "prefixes": [
@@ -67,7 +67,7 @@
     {
       "kind": "text",
       "title": "从“在下面”到“不重要”：抽象义怎么来的",
-      "body": "空间义之所以好用，是因为它可以顺着隐喻推。**sub-** 从“在物理位置的下方”推到“在等级的下方”，于是有 subordinate（下级）、subcommittee（下属委员会）、subset（子集）。**super-** 从“在上”推到“ overseeing”，于是 supervise 的字面义就是“从上面看”，即监督。\n\n**trans-** 从“穿过”推到“从一种状态到另一种状态”，于是 transform 是改变形状，translate 是把意义从一种语言搬到另一种语言。\n\n这条推理链有边界：不是所有含 sub- 的词都能这样推。**subject**、**suspect** 里的 sub-/sus- 虽然同源，现代义已经专业化，必须整体记。判断标准仍是：**成分义能否合成出词义**。",
+      "body": "空间义之所以好用，是因为它可以顺着隐喻推。**sub-** 从“在物理位置的下方”推到“在等级的下方”，于是有 subordinate（下级）、subcommittee（下属委员会）、subset（子集）。**super-** 从“在上”推到“从上面看”，于是 supervise 的字面义就是“从上面看”，即监督（oversee）。\n\n**trans-** 从“穿过”推到“从一种状态到另一种状态”，于是 transform 是改变形状，translate 是把意义从一种语言搬到另一种语言。\n\n这条推理链有边界：不是所有含 sub- 的词都能这样推。**subject**、**suspect** 里的 sub-/sus- 虽然同源，现代义已经专业化，必须整体记。判断标准仍是：**成分义能否合成出词义**。",
       "morphemes": ["sub", "super", "trans"]
     }
   ],
@@ -87,7 +87,7 @@
       "prompt": "某高校的“校内篮球联赛”应译为：",
       "choices": ["intermural basketball league", "intramural basketball league", "transmural basketball league", "circumlateral basketball league"],
       "answer": 1,
-      "explain": "intramural = intra（内部）+ mural（墙），字面“墙内”，指同一学校内部的比赛。intermural 是“墙与墙之间”，即校际的；transmural 指穿过壁（医学术语）；第四个词不成立。中国学生常把这两个词记反。",
+      "explain": "intramural = intra（内部）+ mural（墙），字面“墙内”，指同一学校内部的比赛。inter- 换成“之间”只能得到字面的“墙与墙之间”，英语表示“校际”通常说 intercollegiate；transmural 指穿过壁（医学术语）；第四个词不成立。中国学生常把 intramural 的意思记反。",
       "concepts": ["intra", "inter", "c-prefix"],
       "hint": "先判断比赛发生在“校内”还是“校与校之间”。"
     },
@@ -104,7 +104,7 @@
     {
       "id": "w03d2-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：trans + mit → ?",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：trans + mit",
       "parts": ["trans", "mit"],
       "answer": "transmit",
       "explain": "trans（穿过）+ mit（送、放）→ transmit“传送、发射”。mit 是拉丁词根 mittere“送”，同族还有 permit、submit、transmission。注意动词拼写是 transmit，名词是 transmission，词根在名词中变为 miss。",
@@ -127,7 +127,7 @@
       "prefix": "inter",
       "suffix": "al",
       "answer": "international",
-      "explain": "inter（之间）+ nation（国家）+ al（形容词后缀）= international“国际的”。注意词基拼写不变，只需按顺序连接；inter- 的双 r 是前缀本身结尾的 r 与词基首字母相接造成的。",
+      "explain": "inter（之间）+ nation（国家）+ al（形容词后缀）= international“国际的”。注意词基拼写不变，只需按顺序连接；inter- 以 r 结尾、nation 以 n 开头，直接相接即可，不需要双写。",
       "concepts": ["inter", "c-word-matrix"]
     }
   ],

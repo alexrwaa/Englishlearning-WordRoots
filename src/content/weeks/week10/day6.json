@@ -25,7 +25,7 @@
     {
       "kind": "text",
       "title": "-gate：一个专名如何变成后缀",
-      "body": "1972 年，美国华盛顿水门大厦（**Watergate**）发生窃听丑闻，媒体以 Watergate 称之。此后任何政治丑闻都被套上 -gate：Irangate、Cointelpro-gate，直到今天的 Gamergate、Deflategate。\n\n语言学上，这类成分叫 **libfix**（“被解放的固定成分”，由 Arnold Zwicky 提出）：原本只属于一个专名的部分，被剪下来当作能产的后缀使用。\n\n条件是三条同时满足：\n\n1. 原事件足够有名，公众记得住；\n2. 该成分位置固定、语音清晰（-gate 好读好拼）；\n3. 语义空白刚好被它填上（“丑闻”需要一个简短标签）。\n\n有趣的是，-gate 已经完全脱离“门”的实义。今天说 *a gate* 指丑闻，在正式语域仍嫌口语化，但在新闻标题里极其能产。",
+      "body": "1972 年，美国华盛顿水门大厦（**Watergate**）发生窃听丑闻，媒体以 Watergate 称之。此后任何政治丑闻都被套上 -gate：Irangate、Koreagate，直到今天的 Gamergate、Deflategate。\n\n语言学上，这类成分叫 **libfix**（“被解放的固定成分”，由 Arnold Zwicky 提出）：原本只属于一个专名的部分，被剪下来当作能产的后缀使用。\n\n条件是三条同时满足：\n\n1. 原事件足够有名，公众记得住；\n2. 该成分位置固定、语音清晰（-gate 好读好拼）；\n3. 语义空白刚好被它填上（“丑闻”需要一个简短标签）。\n\n有趣的是，-gate 已经完全脱离“门”的实义，变成只能黏附在专名后的粘着成分：可以说 Deflategate、Pizzagate，却不能单说 *a gate* 来表示丑闻。它在新闻标题里极其能产，但正式语域仍嫌随意。",
       "terms": [
         { "term": "libfix", "zh": "解放的固定成分", "en": "libfix", "note": "从专名中剪出、可自由搭配的构词成分" }
       ]
@@ -101,7 +101,7 @@
       "id": "w10d6-p3",
       "kind": "cloze",
       "prompt": "填入一个专名（英文）",
-      "sentence": "The scandal suffix -gate derives from ___, the Washington hotel involved in the 1972 break-in.",
+      "sentence": "The scandal suffix -gate derives from ___, the Washington office complex involved in the 1972 break-in.",
       "answer": "Watergate",
       "accept": ["Watergate", "watergate"],
       "explain": "Watergate 原是华盛顿的水门大厦群，1972 年窃听事件后成为丑闻的代名词。语言使用者把 -gate 剪下来反复使用，使它从专名的一部分变成了独立的构词成分。",

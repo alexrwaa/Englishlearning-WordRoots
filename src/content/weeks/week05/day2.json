@@ -9,22 +9,9 @@
     "能说明 support 中 sup- 是 sub- 的哪种变体",
     "能区分 port“携带”与 port“港口”这两个不同来源的同形词"
   ],
-  "prereqs": [
-    "w05d1",
-    "c-prefix"
-  ],
-  "concepts": [
-    "port",
-    "c-prefix",
-    "c-allomorph",
-    "c-word-family"
-  ],
-  "minutes": {
-    "review": 5,
-    "learn": 8,
-    "practice": 7,
-    "apply": 5
-  },
+  "prereqs": ["w05d1", "c-prefix"],
+  "concepts": ["port", "c-prefix", "c-allomorph", "c-word-family"],
+  "minutes": { "review": 5, "learn": 8, "practice": 7, "apply": 5 },
   "level": "B1",
   "cards": [
     {
@@ -32,16 +19,9 @@
       "title": "先排掉一个雷：port 有两个来源",
       "body": "看到 port 就想到“携带”，会遇到一个反例：**airport、seaport、port city** 里的 port 是“港口”，来自拉丁 **portus**（港湾、入口），和表示“携带”的 **portare** 毫无关系。两个词在英语里拼成同一个样子，属于**同形异源**。\n\n为什么必须分清？因为词族要靠语义链条判断。把 airport 归进 transport 的词族，等于承认“港口”和“搬运”是同一个意义核心，这条链是断的。\n\n判断口诀：**看它有没有方向前缀，再看整词是否真的在说“搬运”**。transport、export、support 都符合；airport 不符合。",
       "terms": [
-        {
-          "term": "homograph",
-          "zh": "同形词",
-          "en": "homograph",
-          "note": "拼写相同但来源或意义不同的词"
-        }
+        { "term": "homograph", "zh": "同形词", "en": "homograph", "note": "拼写相同但来源或意义不同的词" }
       ],
-      "morphemes": [
-        "port"
-      ]
+      "morphemes": ["port"]
     },
     {
       "kind": "table",
@@ -54,42 +34,12 @@
         "语义推导"
       ],
       "rows": [
-        [
-          "trans-",
-          "越过、穿过",
-          "transport",
-          "带过一段距离 → 运输"
-        ],
-        [
-          "in- / im-",
-          "向内",
-          "import",
-          "带进本国 → 进口"
-        ],
-        [
-          "ex- / e-",
-          "向外",
-          "export",
-          "带出国境 → 出口"
-        ],
-        [
-          "sub- / sup-",
-          "在下、从下往上",
-          "support",
-          "从下面托住 → 支撑、支持"
-        ],
-        [
-          "de-",
-          "向下、离开",
-          "deport",
-          "把人带走 → 驱逐出境"
-        ],
-        [
-          "re-",
-          "回、向后",
-          "report",
-          "把消息带回来 → 报告"
-        ]
+        ["trans-", "越过、穿过", "transport", "带过一段距离 → 运输"],
+        ["in- / im-", "向内", "import", "带进本国 → 进口"],
+        ["ex- / e-", "向外", "export", "带出国境 → 出口"],
+        ["sub- / sup-", "在下、从下往上", "support", "从下面托住 → 支撑、支持"],
+        ["de-", "向下、离开", "deport", "把人带走 → 驱逐出境"],
+        ["re-", "回、向后", "report", "把消息带回来 → 报告"]
       ]
     },
     {
@@ -98,94 +48,25 @@
       "body": "矩阵里的每一行都能用“方向 + 携带”解释通，这正是词族该有的样子。注意 -able 与 -er 改变的是词性与指称对象：portable 是“可以被携带的”，porter 是“携带的人”，词根义没变。另外要留意 import 与 important 的分工——一个指“进口”，一个指“有分量”，后者是语义演变的结果，不能按字面直译。",
       "base": "port",
       "prefixes": [
-        {
-          "text": "trans",
-          "glossZh": "越过、穿过"
-        },
-        {
-          "text": "im",
-          "glossZh": "向内（in- 在 p 前的变体）"
-        },
-        {
-          "text": "ex",
-          "glossZh": "向外"
-        },
-        {
-          "text": "sup",
-          "glossZh": "在下（sub- 在 p 前的变体）"
-        },
-        {
-          "text": "re",
-          "glossZh": "回、向后"
-        }
+        { "text": "trans", "glossZh": "越过、穿过" },
+        { "text": "im", "glossZh": "向内（in- 在 p 前的变体）" },
+        { "text": "ex", "glossZh": "向外" },
+        { "text": "sup", "glossZh": "在下（sub- 在 p 前的变体）" },
+        { "text": "re", "glossZh": "回、向后" }
       ],
       "suffixes": [
-        {
-          "text": "able",
-          "glossZh": "形容词后缀：能……的"
-        },
-        {
-          "text": "er",
-          "glossZh": "名词后缀：做某事的人或物"
-        },
-        {
-          "text": "ation",
-          "glossZh": "名词后缀：行为、过程"
-        },
-        {
-          "text": "ive",
-          "glossZh": "形容词后缀：有……性质的"
-        }
+        { "text": "able", "glossZh": "形容词后缀：能……的" },
+        { "text": "er", "glossZh": "名词后缀：做某事的人或物" },
+        { "text": "ation", "glossZh": "名词后缀：行为、过程" },
+        { "text": "ive", "glossZh": "形容词后缀：有……性质的" }
       ],
       "words": [
-        {
-          "w": "transport",
-          "parts": [
-            "trans",
-            "port"
-          ],
-          "glossZh": "运输、运送"
-        },
-        {
-          "w": "import",
-          "parts": [
-            "im",
-            "port"
-          ],
-          "glossZh": "进口、输入"
-        },
-        {
-          "w": "export",
-          "parts": [
-            "ex",
-            "port"
-          ],
-          "glossZh": "出口、输出"
-        },
-        {
-          "w": "support",
-          "parts": [
-            "sup",
-            "port"
-          ],
-          "glossZh": "支撑、支持"
-        },
-        {
-          "w": "portable",
-          "parts": [
-            "port",
-            "able"
-          ],
-          "glossZh": "便携的、可携带的"
-        },
-        {
-          "w": "report",
-          "parts": [
-            "re",
-            "port"
-          ],
-          "glossZh": "报告、报道"
-        }
+        { "w": "transport", "parts": ["trans", "port"], "glossZh": "运输、运送" },
+        { "w": "import", "parts": ["im", "port"], "glossZh": "进口、输入" },
+        { "w": "export", "parts": ["ex", "port"], "glossZh": "出口、输出" },
+        { "w": "support", "parts": ["sup", "port"], "glossZh": "支撑、支持" },
+        { "w": "portable", "parts": ["port", "able"], "glossZh": "便携的、可携带的" },
+        { "w": "report", "parts": ["re", "port"], "glossZh": "报告、报道" }
       ]
     },
     {
@@ -193,30 +74,15 @@
       "title": "sup- 是 sub- 的变体：一次同化，不是新前缀",
       "body": "support 里的 sup 不是独立前缀，而是 **sub- 在 p 前发生的同化**（assimilation）：s 后的 b 被后面的 p 带着变成了同部位的 p，于是 sub + port → support。同类现象还有 impose（in + pose）、illuminate（in + luminate）、corrupt（con + rupt）。\n\n这类变化叫**词素变体**（`allomorph`）：词素没变，只是拼写适应了后面的音。第 8 周会系统处理这些规则，今天只需建立一个判断——**看到 sup-、im-、il-、cor- 时，先想它可能是哪个基本前缀**。\n\n语义上，support 的“从下面托住”至今仍然可见：support beam（支撑梁）、support vector（支持向量）都是几何意义上的“托住”。",
       "terms": [
-        {
-          "term": "assimilation",
-          "zh": "同化",
-          "en": "assimilation",
-          "note": "相邻音素趋同，导致前缀拼写变化"
-        }
+        { "term": "assimilation", "zh": "同化", "en": "assimilation", "note": "相邻音素趋同，导致前缀拼写变化" }
       ],
-      "morphemes": [
-        "sub",
-        "sup",
-        "in",
-        "im",
-        "con"
-      ]
+      "morphemes": ["sub", "sup", "in", "im", "con"]
     },
     {
       "kind": "text",
       "title": "import 为什么既“进口”又“重要”",
       "body": "important 来自 import，这一点常让人意外。中古拉丁语里 importare 除了“带进来”，还发展出“带来后果、具有分量”的意思，于是 important 成了“有分量的”，名词 importance 是“重要性”。\n\n这是典型的**语义演变**：从空间动作（把东西搬进来）转到抽象评价（这件事“带进来”的分量）。同类路径还有 carry weight（有分量）、matter（要紧，来自拉丁 materia“材料”）。\n\n读论文时值得注意：**同一词根的两个义项可能都还活着**。import data 是“导入数据”，an important finding 是“重要发现”，两者不是谁引申谁错，而是同一词根在不同语境里的分化。",
-      "morphemes": [
-        "im",
-        "port",
-        "ant"
-      ]
+      "morphemes": ["im", "port", "ant"]
     }
   ],
   "practice": [
@@ -224,36 +90,19 @@
       "id": "w05d2-p1",
       "kind": "mcq",
       "prompt": "export 中的 ex- 表示什么方向？",
-      "choices": [
-        "向内",
-        "向外",
-        "越过",
-        "在下"
-      ],
+      "choices": ["向内", "向外", "越过", "在下"],
       "answer": 1,
       "explain": "ex- 表示“向外、出去”，export 即“带出去”→ 出口。向内是 in-，越过是 trans-，在下是 sub-。",
-      "concepts": [
-        "ex",
-        "port"
-      ]
+      "concepts": ["ex", "port"]
     },
     {
       "id": "w05d2-p2",
       "kind": "mcq",
       "prompt": "support 中的 sup- 与下面哪个前缀是同一个词素的不同形式？",
-      "choices": [
-        "sub-",
-        "super-",
-        "sur-",
-        "sus-"
-      ],
+      "choices": ["sub-", "super-", "sur-", "sus-"],
       "answer": 0,
       "explain": "sup- 是 sub- 在 p 前的同化形式（sub + port → support）。super-“在上”与 sur-“在上方”都是另外的前缀，语义方向也不同。",
-      "concepts": [
-        "sub",
-        "sup",
-        "c-allomorph"
-      ]
+      "concepts": ["sub", "sup", "c-allomorph"]
     },
     {
       "id": "w05d2-p3",
@@ -261,19 +110,14 @@
       "prompt": "填入合适的单词（必要时改变词形）",
       "sentence": "Raw logs are ___ from the rover to the base station over a wireless link.",
       "answer": "transported",
-      "accept": [
-        "transported"
-      ],
+      "accept": ["transported"],
       "explain": "trans（越过）+ port（携带）→ transport“运输”。句子是被动语态 are ___，需要过去分词 transported。",
-      "concepts": [
-        "trans",
-        "port"
-      ]
+      "concepts": ["trans", "port"]
     },
     {
       "id": "w05d2-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词，写出结果",
+      "prompt": "用 + 连接词素，按顺序写出词素切分（不要写整词）。",
       "parts": [
         "trans",
         "port",
@@ -281,29 +125,16 @@
       ],
       "answer": "transportable",
       "explain": "trans（越过）+ port（携带）+ able（能……的）→ transportable“可运输的”。四个字母的 able 直接相接，不需要额外调整。",
-      "concepts": [
-        "trans",
-        "port",
-        "able"
-      ]
+      "concepts": ["trans", "port", "able"]
     },
     {
       "id": "w05d2-p5",
       "kind": "mcq",
       "prompt": "有学习者把 airport 归入 transport、export 的词族，理由是“都含 port”。这个归类的问题是什么？",
-      "choices": [
-        "airport 的 port 来自拉丁 portus“港口”，与 portare“携带”不同源",
-        "airport 是复合词，不能算词族",
-        "transport 里的 port 不是词根",
-        "airport 的 port 是后缀"
-      ],
+      "choices": ["airport 的 port 来自拉丁 portus“港口”，与 portare“携带”不同源", "airport 是复合词，不能算词族", "transport 里的 port 不是词根", "airport 的 port 是后缀"],
       "answer": 0,
       "explain": "词族要求语义链条可追溯。airport 的 port 指“港口、航空站”，源自拉丁 portus；transport 的 port 源自 portare“携带”。拼写相同只是巧合，属于同形异源。",
-      "concepts": [
-        "port",
-        "c-word-family",
-        "c-etymology"
-      ]
+      "concepts": ["port", "c-word-family", "c-etymology"]
     },
     {
       "id": "w05d2-p6",
@@ -313,10 +144,7 @@
       "prefix": "ex",
       "answer": "export",
       "explain": "ex（向外）+ port（携带）→ export“出口、输出”。若要名词“出口额”，仍是 export，词性由句法位置决定。",
-      "concepts": [
-        "ex",
-        "port"
-      ]
+      "concepts": ["ex", "port"]
     }
   ],
   "apply": [
@@ -326,38 +154,16 @@
       "prompt": "阅读下面的技术说明，推测划线词的含义",
       "passage": "Because the pipeline was written in plain C with no external dependencies, its portability across platforms was never in question; the same source tree builds on the desktop workstation and on the embedded board.",
       "word": "portability",
-      "choices": [
-        "可移植性（能换平台运行）",
-        "便携性（体积小、易携带）",
-        "可报告性",
-        "可进口性"
-      ],
+      "choices": ["可移植性（能换平台运行）", "便携性（体积小、易携带）", "可报告性", "可进口性"],
       "answer": 0,
       "strategy": "① 切分：port（携带）+ able（能……的）+ ity（名词后缀）；② 语境：后文说同一份源码能在工作站和嵌入式板卡上编译，指向“搬到另一个平台仍能用”；③ 排除：便携性是物理体积，文中谈的是源码与平台。",
       "explain": "portability 在软件语境是“可移植性”，即把系统搬到另一个平台仍能工作。它与 portable（便携的）同根，但语境把“搬”的对象从实物换成了代码。这类同根异域的词，必须靠上下文定译。",
-      "concepts": [
-        "port",
-        "able",
-        "ity",
-        "c-inference"
-      ]
+      "concepts": ["port", "able", "ity", "c-inference"]
     }
   ],
   "sources": [
-    {
-      "id": "S1",
-      "title": "English Vocabulary Elements",
-      "detail": "拉丁借词与方向前缀一章"
-    },
-    {
-      "id": "S5",
-      "title": "Oxford Dictionary of English Etymology",
-      "detail": "port（携带）、port（港口）、support、important 词条"
-    },
-    {
-      "id": "S2",
-      "title": "Essentials of Linguistics",
-      "detail": "Chapter 5：同化与词素变体"
-    }
+    { "id": "S1", "title": "English Vocabulary Elements", "detail": "拉丁借词与方向前缀一章" },
+    { "id": "S5", "title": "Oxford Dictionary of English Etymology", "detail": "port（携带）、port（港口）、support、important 词条" },
+    { "id": "S2", "title": "Essentials of Linguistics", "detail": "Chapter 5：同化与词素变体" }
   ]
 }

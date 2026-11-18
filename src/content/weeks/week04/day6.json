@@ -38,7 +38,7 @@
     {
       "kind": "text",
       "title": "重音迁移：后缀把重音往前拉一格",
-      "body": "读一遍这条链，注意重音位置：**NA**tion → **NA**tional → nati**ON**ality → **NA**tionalize → nationali**ZA**tion（大写为重读音节）。\n\n规律是：**-ity、-ic、-ion/-tion、-ial 这类后缀会把主重音吸到自己前面那一个音节上**。-ity 前的 al 被重读，所以是 natiONality；-tion 前的 za 被重读，所以是 nationaliZAtion。\n\n这条规律也解释 photograph → phoTOgraphy → photoGRAPHic 的重音游走。对四六级阅读来说，它的实际价值是：**听到重音位置，就能大致判断后缀边界**，从而切对词。",
+      "body": "读一遍这条链，注意重音位置：**NA**-tion → **NA**-tion-al → na-tion-**AL**-i-ty → **NA**-tion-al-ize → na-tion-al-i-**ZA**-tion（大写为重读音节，按音节切分）。\n\n规律是：**-ity、-ic、-ion/-tion、-ial 这类后缀会把主重音吸到自己前面那一个音节上**。-ity 前的 al 被重读，所以是 na-tion-**AL**-i-ty；-tion 前的 za 被重读，所以是 na-tion-al-i-**ZA**-tion。\n\n这条规律也解释 photograph → phoTOgraphy → photoGRAPHic 的重音游走。对四六级阅读来说，它的实际价值是：**听到重音位置，就能大致判断后缀边界**，从而切对词。",
       "terms": [
         { "term": "stress shift", "zh": "重音迁移", "en": "stress shift" }
       ]
@@ -68,13 +68,13 @@
       "prompt": "nationality 的主重音在第几个音节（按 na-tion-al-i-ty 计）？",
       "choices": ["第一个", "第二个", "第三个", "第五个"],
       "answer": 2,
-      "explain": "-ity 会把主重音吸到自己前面一个音节，因此重音落在 al 上，即第三个音节：natiONality。nation 的重音在第一音节，national 也在第一音节；只有加了 -ity 之后才后移。这说明重音位置与派生层次直接相关。",
+      "explain": "-ity 会把主重音吸到自己前面一个音节，因此重音落在 al 上，即第三个音节：na-tion-AL-i-ty。nation 的重音在第一音节，national 也在第一音节；只有加了 -ity 之后才后移。这说明重音位置与派生层次直接相关。",
       "concepts": ["ity", "c-derivation"]
     },
     {
       "id": "w04d6-p2",
       "kind": "wordSum",
-      "prompt": "写出构词算式的结果：happy + ness → ?（注意拼写）",
+      "prompt": "用 + 连接词素，写出切分（不要写整词，注意拼写）：happy + ness",
       "parts": ["happy", "ness"],
       "answer": "happiness",
       "explain": "happy 以“辅音 + y”结尾，加 -ness 时 y 变 i：happiness。变化只发生在接缝处，词素 happy 与 ness 本身没有变。同类还有 easy → easiness、busy → business（后者意义已专门化）。",
@@ -133,7 +133,7 @@
       "choices": ["无法获得、不可用", "不稳定性", "不准确性", "不可逆性"],
       "answer": 0,
       "strategy": "① 切分：un（否定）+ avail（可用）+ able（能够）+ ity（名词后缀）；② 词性：-ity 构成名词，作主语中心词；③ 语境：冒号后说没有测绘参考，只能把多次运行结果互相比较；④ 校验：不稳定、不准确、不可逆都不能解释“缺少参考数据”这一因果。",
-      "explain": "unavailability 意为“不可获得、无法使用”。构词链是 avail → available → availability → unavailability，否定前缀加在已派生的名词上，而不是加在动词上。这条层次关系决定了重音与拼写：重音落在 aVAIL，后缀链不再改变它。",
+      "explain": "unavailability 意为“不可获得、无法使用”。构词链是 avail → available → availability → unavailability，否定前缀加在已派生的名词上，而不是加在动词上。重音受 -ity 吸引落在 bil 上（a-vail-a-BIL-i-ty），un- 不改变重音位置；这正好印证本课的重音迁移规律。",
       "concepts": ["ity", "able", "un", "c-inference"]
     }
   ],

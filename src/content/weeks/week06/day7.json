@@ -137,7 +137,7 @@
         },
         {
           "label": "例词",
-          "a": "thermometer, telemeter, parameter",
+          "a": "thermometer, telemeter, barometer",
           "b": "telemetry, odometry, geometry"
         },
         {
@@ -233,7 +233,7 @@
     {
       "id": "w06d7-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词，写出结果",
+      "prompt": "用 + 连接词素，按顺序写出词素切分（不要写整词）。",
       "parts": [
         "photo",
         "graph"

@@ -94,7 +94,7 @@
     {
       "id": "w04d2-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：power + less → ?",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：power + less",
       "parts": ["power", "less"],
       "answer": "powerless",
       "explain": "power（力量、权力）+ less（没有）→ powerless“无力的、无能为力的”。-less 加在名词后构成形容词，能产性高；同族还有 powerful，两者构成 -ful / -less 的对立。",

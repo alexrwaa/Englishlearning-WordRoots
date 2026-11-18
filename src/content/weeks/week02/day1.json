@@ -49,7 +49,7 @@
       "rows": [
         ["左边是什么", "今天的词素", "更早语言中的形式"],
         ["箭头含义", "这些词素组合成这个词", "这个词从那个形式演变而来"],
-        ["例子", "un + help + ful → unhelpful", "拉丁 struere → 英语 struct"],
+        ["例子", "un + help + ful → unhelpful", "拉丁 struere（建造）→ 英语 construct 中的 struct"],
         ["判断标准", "替换测试与同族词", "历史文献与同源语言比较"]
       ]
     },
@@ -64,7 +64,7 @@
     {
       "id": "w02d1-p1",
       "kind": "wordSum",
-      "prompt": "写出构词算式的结果：un + help + ful",
+      "prompt": "写出构词算式（用 + 连接词素，不要写整词）：un + help + ful",
       "parts": ["un", "help", "ful"],
       "answer": "unhelpful",
       "explain": "un（否定）+ help（帮助）+ ful（充满……的）→ unhelpful“无帮助的”。层次上先 help + ful 构成形容词，再加 un-，但结果拼写相同。",
@@ -97,7 +97,7 @@
     {
       "id": "w02d1-p4",
       "kind": "wordSum",
-      "prompt": "写出构词算式的结果：re + construct + ion",
+      "prompt": "写出构词算式（用 + 连接词素，不要写整词）：re + construct + ion",
       "parts": ["re", "construct", "ion"],
       "answer": "reconstruction",
       "explain": "re（再次）+ construct（建造）+ ion（名词后缀）→ reconstruction“重建”。按层次是先 construct → reconstruct，再加 -ion，拼写不冲突。",

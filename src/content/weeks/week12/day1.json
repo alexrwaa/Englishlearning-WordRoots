@@ -10,9 +10,24 @@
     "能区分派生词与复合词的中心词位置规则",
     "能用该流程独立分析 uncalibrated、nondeterministic 等论文高频长词"
   ],
-  "prereqs": ["w11d7", "c-base", "c-derivation"],
-  "concepts": ["c-base", "c-affix", "c-derivation", "c-compound", "c-register"],
-  "minutes": { "review": 5, "learn": 9, "practice": 7, "apply": 5 },
+  "prereqs": [
+    "w11d7",
+    "c-base",
+    "c-derivation"
+  ],
+  "concepts": [
+    "c-base",
+    "c-affix",
+    "c-derivation",
+    "c-compound",
+    "c-register"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
   "level": "C1",
   "cards": [
     {
@@ -20,16 +35,31 @@
       "title": "三步：定位 head → 剥层 → 读前缀",
       "body": "英语长词的分析方向是**从右往左**，因为英语派生词的中心在右侧：最后加上的那个后缀决定词性与核心语法类别。\n\n以 *uncalibrated* 为例：\n\n1. **定位 head**：最右边的派生后缀是 -ed，说明整体是形容词（“处于某种状态的”）。un- 在最左边，只改变极性，不决定词性。\n2. **剥层**：去掉 -ed 得 calibrate（动词）；再去 -ate 得 calibr（词根，“口径、刻度”）。\n3. **读前缀**：un-（否定）作用在整个 calibrate + -ed 之上，所以是“未校准的”，而不是“校准了但不好”。\n\n常见错误是从左往右读：先看到 un 就以为“不”，再随便扫后面，结果把词性和层级都读错。**先定词性，再定意义**，顺序不能反。",
       "terms": [
-        { "term": "head", "zh": "中心词", "en": "head", "note": "决定整体词性与核心意义的成分" }
+        {
+          "term": "head",
+          "zh": "中心词",
+          "en": "head",
+          "note": "决定整体词性与核心意义的成分"
+        }
       ],
-      "morphemes": ["un", "calibr", "ate", "ed"]
+      "morphemes": [
+        "un",
+        "calibr",
+        "ate",
+        "ed"
+      ]
     },
     {
       "kind": "text",
       "title": "层级派生：不要平铺成一串加号",
       "body": "长词不是一次性把所有词素拼起来，而是**一层一层**派生的。nationalization 的分析不是 nation + al + ize + ation 同时相加，而是：\n\nnation → national → nationalize → nationalization\n\n每一步的输入叫**词基（base）**，每一步只加一个词缀。层级很重要，因为：\n\n- **拼写调整发生在具体某一步**：happy → happiness（y→i）发生在加 -ness 时。\n- **重音位置**跟着层级走：photograph → photography 重音移动。\n- **语义作用域**由层级决定：un + (calibrate + ed) 是“未校准”，而 (un + calibrate) + ed 在逻辑上不同。\n\n写构词算式时，建议用括号或分行表示层级。给同学讲词时，能说清“第几步加了什么”，才算真的会分析。",
       "terms": [
-        { "term": "base", "zh": "词基", "en": "base", "note": "当前这一步构词操作所作用的形式" }
+        {
+          "term": "base",
+          "zh": "词基",
+          "en": "base",
+          "note": "当前这一步构词操作所作用的形式"
+        }
       ]
     },
     {
@@ -38,25 +68,44 @@
       "body": "下面两个词在机器人论文里出现频率很高。注意 -ed 与 -istic 都是“最后一步”，它们决定词性；前缀只负责修饰。写算式时把层级写出来，比平铺更不容易出错。",
       "sums": [
         {
-          "parts": ["un", "calibr", "ate", "ed"],
+          "parts": [
+            "un",
+            "calibr",
+            "ate",
+            "ed"
+          ],
           "result": "uncalibrated",
           "glossZh": "未校准的",
           "note": "层级：calibr → calibrate → calibrated → uncalibrated；-ed 定词性"
         },
         {
-          "parts": ["non", "de", "termin", "istic"],
+          "parts": [
+            "non",
+            "de",
+            "termin",
+            "istic"
+          ],
           "result": "nondeterministic",
           "glossZh": "非确定性的",
           "note": "层级：determine → deterministic → nondeterministic；non- 加在整体上"
         },
         {
-          "parts": ["re", "initial", "ize", "ation"],
+          "parts": [
+            "re",
+            "initial",
+            "ize",
+            "ation"
+          ],
           "result": "reinitialization",
           "glossZh": "重新初始化",
           "note": "层级：initial → initialize → reinitialize → reinitialization"
         },
         {
-          "parts": ["de", "coupl", "ed"],
+          "parts": [
+            "de",
+            "coupl",
+            "ed"
+          ],
           "result": "decoupled",
           "glossZh": "解耦的",
           "note": "couple → decouple → decoupled；de- 表“去除”"
@@ -67,23 +116,72 @@
       "kind": "table",
       "title": "论文高频长词：head 在哪里",
       "body": "这张表训练的是“一眼定位 head”。看到长词先看最后一个派生后缀，它能立刻告诉你这个词是名词、动词还是形容词，从而决定它在句子里能担任什么成分。",
-      "head": ["长词", "head（决定词性）", "层级拆解", "词性"],
+      "head": [
+        "长词",
+        "head（决定词性）",
+        "层级拆解",
+        "词性"
+      ],
       "rows": [
-        ["uncalibrated", "-ed", "un + calibr + ate + ed", "形容词"],
-        ["reinitialization", "-ation", "re + initial + ize + ation", "名词"],
-        ["overparameterized", "-ed", "over + parameter + ize + ed", "形容词"],
-        ["nondeterministic", "-istic", "non + de + termin + istic", "形容词"],
-        ["underactuated", "-ed", "under + actu + ate + ed", "形容词"],
-        ["decoupling", "-ing", "de + coupl + ing", "名词/动名词"],
-        ["generalizability", "-ity", "general + iz + able + ity", "名词"],
-        ["misclassification", "-ation", "mis + class + ification", "名词"]
+        [
+          "uncalibrated",
+          "-ed",
+          "un + calibr + ate + ed",
+          "形容词"
+        ],
+        [
+          "reinitialization",
+          "-ation",
+          "re + initial + ize + ation",
+          "名词"
+        ],
+        [
+          "overparameterized",
+          "-ed",
+          "over + parameter + ize + ed",
+          "形容词"
+        ],
+        [
+          "nondeterministic",
+          "-istic",
+          "non + de + termin + istic",
+          "形容词"
+        ],
+        [
+          "underactuated",
+          "-ed",
+          "under + actu + ate + ed",
+          "形容词"
+        ],
+        [
+          "decoupling",
+          "-ing",
+          "de + coupl + ing",
+          "名词/动名词"
+        ],
+        [
+          "generalizability",
+          "-ity",
+          "general + ize + able + ity（去 e）",
+          "名词"
+        ],
+        [
+          "misclassification",
+          "-ation（-cation）",
+          "mis + class + ify + cation（y→i）",
+          "名词"
+        ]
       ]
     },
     {
       "kind": "text",
       "title": "复合词的中心词在右边，规则不一样",
       "body": "派生词看后缀，复合词看**最右边的成员**——英语复合词是“右中心”的：\n\n- lidar-inertial odometry：中心是 odometry（一种里程计），前面两个只是修饰，说明它属于“里程计”这一类。\n- calibration-free：中心是 free（免于……的），整体是形容词。\n- state-of-the-art：中心是 art，整体是名词性短语，常作定语。\n\n判断技巧：**问“它是哪一种 X”**。lidar-inertial odometry 是“一种 odometry”，所以 odometry 是中心；而 odometry-based 是“基于里程计的”，中心变成了 -based（形容词性）。\n\n这条规则在读长名词短语时极其有用。标题里的 “A Tightly Coupled Lidar-Inertial Odometry System” 中心是 system，前面全是修饰——先抓住 system，再往左看它是什么系统。",
-      "morphemes": ["od", "metr", "y"]
+      "morphemes": [
+        "od",
+        "metr",
+        "y"
+      ]
     }
   ],
   "practice": [
@@ -91,29 +189,54 @@
       "id": "w12d1-p1",
       "kind": "mcq",
       "prompt": "uncalibrated 的 head（决定词性的成分）是？",
-      "choices": ["un-", "calibr", "-ate", "-ed"],
+      "choices": [
+        "un-",
+        "calibr",
+        "-ate",
+        "-ed"
+      ],
       "answer": 3,
       "explain": "-ed 是最后一步派生，把动词 calibrate 变成形容词“处于被校准状态的”。un- 在最外层只改变极性，不决定词性；calibr 是词根，-ate 是动词后缀。",
-      "concepts": ["c-base", "c-affix"],
+      "concepts": [
+        "c-base",
+        "c-affix"
+      ],
       "hint": "先问：这个词在句中是形容词还是动词？"
     },
     {
       "id": "w12d1-p2",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词（“非确定性的”）",
-      "parts": ["non", "de", "termin", "istic"],
+      "prompt": "用 + 连接词素，写出切分（不要写整词）；目标是“非确定性的”",
+      "parts": [
+        "non",
+        "de",
+        "termin",
+        "istic"
+      ],
       "answer": "nondeterministic",
       "explain": "non（非）+ de（完全）+ termin（界限）+ istic（形容词后缀）→ nondeterministic。层级是 determine → deterministic → nondeterministic，non- 加在整体上。",
-      "concepts": ["c-derivation", "c-base", "non"]
+      "concepts": [
+        "c-derivation",
+        "c-base",
+        "non"
+      ]
     },
     {
       "id": "w12d1-p3",
       "kind": "mcq",
       "prompt": "在短语 lidar-inertial odometry system 中，中心词是？",
-      "choices": ["lidar", "inertial", "odometry", "system"],
+      "choices": [
+        "lidar",
+        "inertial",
+        "odometry",
+        "system"
+      ],
       "answer": 3,
       "explain": "整个短语是“一种系统”，所以 head 是 system；odometry 是 system 的修饰成分（哪种系统：里程计系统）。英语名词短语与复合词都遵循右中心规则。",
-      "concepts": ["c-compound", "c-base"]
+      "concepts": [
+        "c-compound",
+        "c-base"
+      ]
     },
     {
       "id": "w12d1-p4",
@@ -121,9 +244,17 @@
       "prompt": "填入表示“重新初始化”的名词",
       "sentence": "If tracking is lost for more than two seconds, the pipeline triggers a full ___ of the map.",
       "answer": "reinitialization",
-      "accept": ["reinitialization", "re-initialization", "reinitialisation"],
+      "accept": [
+        "reinitialization",
+        "re-initialization",
+        "reinitialisation"
+      ],
       "explain": "re（再）+ initial + ize + ation → reinitialization。层级为 initial → initialize → reinitialize → reinitialization；a full 后需要名词，-ation 正是名词标记。",
-      "concepts": ["c-derivation", "c-suffix", "re"]
+      "concepts": [
+        "c-derivation",
+        "c-suffix",
+        "re"
+      ]
     },
     {
       "id": "w12d1-p5",
@@ -137,7 +268,10 @@
       ],
       "answer": 2,
       "explain": "un- 否定的是整个“已校准的（calibrated）”状态，所以最外层是 un-，内层是 calibrated。层级错会导致语义作用域错：这里不是“执行不校准这个动作”，而是“处于未校准状态”。",
-      "concepts": ["c-base", "c-derivation"]
+      "concepts": [
+        "c-base",
+        "c-derivation"
+      ]
     },
     {
       "id": "w12d1-p6",
@@ -147,7 +281,10 @@
       "suffix": "ation",
       "answer": "termination",
       "explain": "termin（界限，拉丁 terminus）+ ation → termination“终止”。同族 terminal、terminate、determine 都保留“界限”这一核心义；-ation 把动词名词化。",
-      "concepts": ["c-suffix", "c-word-family"]
+      "concepts": [
+        "c-suffix",
+        "c-word-family"
+      ]
     }
   ],
   "apply": [
@@ -157,16 +294,37 @@
       "prompt": "推测 underactuated 在句中的含义",
       "passage": "A fully actuated arm can command every joint independently, but a legged robot is underactuated: it has fewer motors than degrees of freedom, so some motions can only be produced by exploiting contact with the ground.",
       "word": "underactuated",
-      "choices": ["驱动不足的（执行器少于自由度）", "驱动力过强的", "未被激活的", "欠校准的"],
+      "choices": [
+        "驱动不足的（执行器少于自由度）",
+        "驱动力过强的",
+        "未被激活的",
+        "欠校准的"
+      ],
       "answer": 0,
       "strategy": "① 切分：under（不足）+ actu（驱动）+ ate + ed；② 词性：形容词作表语，与 fully actuated 对照；③ 语境：冒号后给出定义“fewer motors than degrees of freedom”；④ 验证：与 exploiting contact 同现，说明必须借外力补足。",
       "explain": "under- 表“不足”，actuate 表“驱动”，所以 underactuated = 执行器数量少于自由度、无法独立控制每个方向。段落用 fewer motors than degrees of freedom 直接给出了定义，这是最高置信度的证据。",
-      "concepts": ["c-inference", "c-scientific", "c-register"]
+      "concepts": [
+        "c-inference",
+        "c-scientific",
+        "c-register"
+      ]
     }
   ],
   "sources": [
-    { "id": "S1", "title": "English Vocabulary Elements", "detail": "第 4、8 章：派生层级与词基" },
-    { "id": "S3", "title": "WordWorks Structured Word Inquiry", "detail": "从右往左定位中心词、分层写构词算式" },
-    { "id": "S5", "title": "Oxford English Dictionary", "detail": "calibrate、terminate、initial 的词源与构词" }
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4、8 章：派生层级与词基"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry",
+      "detail": "从右往左定位中心词、分层写构词算式"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "calibrate、terminate、initial 的词源与构词"
+    }
   ]
 }

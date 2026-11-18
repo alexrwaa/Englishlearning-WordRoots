@@ -95,7 +95,7 @@
     {
       "id": "w03d7-p4",
       "kind": "wordSum",
-      "prompt": "写出构词算式的结果：trans + port → ?",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：trans + port",
       "parts": ["trans", "port"],
       "answer": "transport",
       "explain": "trans（穿过、越过）+ port（搬运）→ transport“运输”，字面是“把东西搬过去”。port 是拉丁词根 portare“搬运”，同族有 portable、import、export，可与第 5 周的词根学习衔接。",
@@ -132,7 +132,7 @@
       "word": "subterranean",
       "choices": ["地下的", "水下的", "高空的", "室内的"],
       "answer": 0,
-      "strategy": "① 切分：sub（在下）+ terr（土地，拉丁 terra）+ ane + ous（形容词后缀）；② 词性：形容词，修饰 tunnels；③ 语境：GPS 不可用、需要 LiDAR、环境黑暗，指向地下空间；④ 排除：水下对应 subsea/submarine，高空对应 aerial，室内对应 indoor。",
+      "strategy": "① 切分：sub（在下）+ terr（土地，拉丁 terra）+ aneous（形容词后缀，源自拉丁 -aneus）；② 词性：形容词，修饰 tunnels；③ 语境：GPS 不可用、需要 LiDAR、环境黑暗，指向地下空间；④ 排除：水下对应 subsea/submarine，高空对应 aerial，室内对应 indoor。",
       "explain": "subterranean 意为“地下的”，sub- 表“在下”，terr 是“土地”（同族 territory、terrain）。干扰项都对应真实存在的其他前缀词，属于同类混淆；判断的关键是把 sub- 与 terr 两块意义都落实，再用“GPS 不可用 + 黑暗”验证。",
       "concepts": ["sub", "c-inference", "c-scientific"]
     }

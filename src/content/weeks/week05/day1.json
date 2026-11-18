@@ -117,7 +117,7 @@
     {
       "id": "w05d1-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词，写出结果",
+      "prompt": "用 + 连接词素，按顺序写出词素切分（不要写整词）。",
       "parts": ["in", "struct", "ion"],
       "answer": "instruction",
       "explain": "in（向内）+ struct（建造）+ ion（名词后缀）→ instruction。语义链条是“把内容搭进头脑里”→ 教导 → 指示、说明。",

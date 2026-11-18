@@ -94,7 +94,7 @@
     {
       "id": "w01d2-p4",
       "kind": "wordSum",
-      "prompt": "把词素拼成单词：in + struct + ion",
+      "prompt": "用 + 连接词素，写出切分（不要写整词）：in + struct + ion",
       "parts": ["in", "struct", "ion"],
       "answer": "instruction",
       "explain": "in（向内）+ struct（建造）+ ion（名词后缀）→ instruction“指导、指令”，字面是“在头脑里搭建起来的东西”。三块依次相接，拼写无需调整。",
@@ -124,7 +124,7 @@
       "word": "transportable",
       "choices": ["可运输的、便于搬运的", "可翻译成多种语言的", "可无线传输数据的", "需要专门许可才能使用的"],
       "answer": 0,
-      "strategy": "①切分 trans（跨越）+ port（携带）+ able（能够……的）；②-able 构成形容词，在句中作表语；③语境说“能在不同实验室重复同一套流程”，指向设备可以被搬动；④排除“翻译”：translate 虽也含 trans-，但 core 是 lat“携带”的另一条线，不能类推。",
+      "strategy": "①切分 trans（跨越）+ port（携带）+ able（能够……的）；②-able 构成形容词，在句中作表语；③语境说“能在不同实验室重复同一套流程”，指向设备可以被搬动；④排除“翻译”：translate 也来自 trans + lat-（拉丁 ferre“携带”的过去分词 latus），历史上同样含“带过去”，但现代义已专指“翻译”，不能据此推出 transportable 的意思。",
       "explain": "trans + port + able 字面是“能够被带过去的”。trans- 表“跨越”，port 表“携带”，合起来就是“可运输的”。这里说的是整套标定设备，所以选择“便于搬运”这一义项。",
       "concepts": ["trans", "port", "able", "c-inference"]
     }
