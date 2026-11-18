@@ -27,6 +27,8 @@ pub struct AppInfo {
     selftest: bool,
     /// Browser arguments actually handed to WebView2 (proxy isolation proof).
     webview_args: String,
+    /// True when the binary still loads the dev server instead of bundled assets.
+    dev_mode: bool,
 }
 
 fn s(p: std::path::PathBuf) -> String {
@@ -45,6 +47,7 @@ pub fn app_info() -> AppInfo {
         portable: std::env::var("WORDROOTS_DATA_DIR").is_err(),
         selftest: std::env::var("WORDROOTS_SELFTEST").map(|v| v == "1").unwrap_or(false),
         webview_args: std::env::var("WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS").unwrap_or_default(),
+        dev_mode: tauri::is_dev(),
     }
 }
 

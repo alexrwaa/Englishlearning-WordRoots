@@ -135,6 +135,7 @@ pub fn snapshot() -> serde_json::Value {
     serde_json::json!({
         "generated_at_ms": now_ms(),
         "app_version": env!("CARGO_PKG_VERSION"),
+        "dev_mode": tauri::is_dev(),
         "portable": {
             "base_dir": base.display().to_string(),
             "exe": exe.display().to_string(),

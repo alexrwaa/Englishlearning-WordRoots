@@ -416,7 +416,18 @@ function Invoke-Case {
       Write-Host "migration: $extraVerdict ($extraNote)"
     }
 
+    # A release binary must serve the bundled assets. `dev_mode=true` means the
+    # `custom-protocol` feature was missing at build time and the window is
+    # pointing at the Vite dev server — the exact 0.1.0 defect.
+    $boot = Read-JsonFile (Join-Path $appDir 'app-data/logs/startup-boot.json')
+    $devMode = $null
+    if ($null -ne $boot) { $devMode = $boot.dev_mode }
+    if ($devMode -eq $true) {
+      Write-Host 'RELEASE GUARD: binary is in dev mode (dev_mode=true)' -ForegroundColor Red
+    }
+
     $failed = @()
+    if ($devMode -eq $true) { $failed += 'dev_mode' }
     if ($readyVerdict -ne 'PASS') { $failed += 'frontend_ready' }
     if ($dbVerdict -ne 'PASS') { $failed += 'db' }
     if ($contentVerdict -ne 'PASS') { $failed += 'courses' }
@@ -426,7 +437,9 @@ function Invoke-Case {
     $verdict = 'PASS'
     if ($failed.Count -gt 0) { $verdict = 'FAIL' }
 
-    $detail = (@($readyNote, $dbNote, $contentNote, $selftestNote, $extraNote) | Where-Object { $_ }) -join ' | '
+    $bootNote = ''
+    if ($devMode -eq $true) { $bootNote = 'dev_mode=true：二进制加载的是开发服务器（缺少 custom-protocol）' }
+    $detail = (@($bootNote, $readyNote, $dbNote, $contentNote, $selftestNote, $extraNote) | Where-Object { $_ }) -join ' | '
     $row = New-ResultRow -Id $Id -Title $Title -Expect $Expect -Ready $readyVerdict `
       -Db $dbVerdict -Selftest $selftestVerdict -Content $contentVerdict -Verdict $verdict -Detail $detail
     $script:Results += $row

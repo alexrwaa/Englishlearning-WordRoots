@@ -52,9 +52,12 @@ jobs:
         working-directory: src-tauri
         run: cargo test --all-targets
 
+      # `custom-protocol` is what makes the binary serve the bundled frontend
+      # instead of the dev server. Missing it produced the 0.1.0 "localhost
+      # refused to connect" window, so it is explicit here rather than implicit.
       - name: Build desktop binary
         working-directory: src-tauri
-        run: cargo build --release
+        run: cargo build --release --features custom-protocol
 
       - name: Assemble portable folder
         shell: pwsh

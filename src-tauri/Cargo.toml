@@ -10,6 +10,15 @@ rust-version = "1.77"
 [build-dependencies]
 tauri-build = { version = "2", features = [] }
 
+[features]
+# Tauri serves the bundled frontend from the `tauri.localhost` custom protocol
+# only when this feature is on. Without it `tauri::is_dev()` stays true and the
+# binary navigates to `devUrl` (the Vite server) — which is exactly the
+# "localhost refused to connect" window users saw in 0.1.0. `tauri build` adds
+# this automatically; plain `cargo build --release` does not, so CI passes it
+# explicitly.
+custom-protocol = ["tauri/custom-protocol"]
+
 [dependencies]
 tauri = { version = "2", features = [] }
 serde = { version = "1", features = ["derive"] }

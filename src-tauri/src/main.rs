@@ -54,6 +54,16 @@ fn main() {
     }
     paths::log_line(&format!("WordRoots {} starting", env!("CARGO_PKG_VERSION")));
     paths::log_line(&format!("startup: {}", diagnostics::summary()));
+
+    // A release binary that still points at the dev server is the exact bug that
+    // shipped in 0.1.0. Say it in one unmistakable line instead of letting the
+    // window show a browser error page.
+    if tauri::is_dev() {
+        paths::log_line(
+            "FATAL: this build runs in dev mode (missing `custom-protocol` feature); \
+             the window will try to load the Vite dev server instead of bundled assets",
+        );
+    }
     diagnostics::write_snapshot("boot");
 
     let connection = match db::open() {
