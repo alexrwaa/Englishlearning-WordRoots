@@ -1,0 +1,6904 @@
+{
+ "sourceId": "S1",
+ "generatedAt": "2026-11-18T15:29:39.885Z",
+ "count": 550,
+ "elements": [
+  {
+   "id": "el-a-an",
+   "element": "a-~an-",
+   "forms": [
+    "a",
+    "an"
+   ],
+   "type": "prefix",
+   "gloss": "not, without",
+   "chapter": "3, 4",
+   "source": "G",
+   "page": 266
+  },
+  {
+   "id": "el-a",
+   "element": "-a",
+   "forms": [
+    "a"
+   ],
+   "type": "suffix",
+   "gloss": "[plural]",
+   "chapter": "9",
+   "source": "L, G",
+   "page": 266
+  },
+  {
+   "id": "el-ab-abs",
+   "element": "ab-~abs-",
+   "forms": [
+    "ab",
+    "abs"
+   ],
+   "type": "prefix",
+   "gloss": "from, away",
+   "chapter": "3, 6",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-able-ible-ble",
+   "element": "-able~-ible~-ble",
+   "forms": [
+    "able",
+    "ible",
+    "ble"
+   ],
+   "type": "suffix",
+   "gloss": "A",
+   "chapter": "3, 11",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-abs-ab",
+   "element": "abs-~ab-",
+   "forms": [
+    "abs",
+    "ab"
+   ],
+   "type": "prefix",
+   "gloss": "from, away",
+   "chapter": "3, 6",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-ac",
+   "element": "ac",
+   "forms": [
+    "ac"
+   ],
+   "type": "root",
+   "gloss": "sharp",
+   "chapter": "9",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-ac",
+   "element": "-ac",
+   "forms": [
+    "ac"
+   ],
+   "type": "suffix",
+   "gloss": "A",
+   "chapter": "9",
+   "source": "G",
+   "page": 266
+  },
+  {
+   "id": "el-acl-acul",
+   "element": "-acl~-acul (< -l diminutive)",
+   "forms": [
+    "acl",
+    "acul"
+   ],
+   "type": "suffix",
+   "gloss": "little",
+   "chapter": "9",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-acle-acule",
+   "element": "-acle~-acule (< -l diminutive)",
+   "forms": [
+    "acle",
+    "acule"
+   ],
+   "type": "suffix",
+   "gloss": "little",
+   "chapter": "9",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-acr",
+   "element": "acr",
+   "forms": [
+    "acr"
+   ],
+   "type": "root",
+   "gloss": "height, tip",
+   "chapter": "9",
+   "source": "G",
+   "page": 266
+  },
+  {
+   "id": "el-ad",
+   "element": "ad-",
+   "forms": [
+    "ad"
+   ],
+   "type": "prefix",
+   "gloss": "to, toward",
+   "chapter": "3, 6",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-aden",
+   "element": "-aden",
+   "forms": [
+    "aden"
+   ],
+   "type": "suffix",
+   "gloss": "gland",
+   "chapter": "8",
+   "source": "G",
+   "page": 266
+  },
+  {
+   "id": "el-ae",
+   "element": "-ae",
+   "forms": [
+    "ae"
+   ],
+   "type": "suffix",
+   "gloss": "[plural]",
+   "chapter": "9",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-aesth-esth",
+   "element": "aesth~esth",
+   "forms": [
+    "aesth",
+    "esth"
+   ],
+   "type": "root",
+   "gloss": "feel",
+   "chapter": "5",
+   "source": "G",
+   "page": 266
+  },
+  {
+   "id": "el-ag-ig",
+   "element": "ag~ig",
+   "forms": [
+    "ag",
+    "ig"
+   ],
+   "type": "root",
+   "gloss": "act, do, drive",
+   "chapter": "5",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-agr",
+   "element": "agr",
+   "forms": [
+    "agr"
+   ],
+   "type": "root",
+   "gloss": "field",
+   "chapter": "9",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-al-ial",
+   "element": "-al~-ial",
+   "forms": [
+    "al",
+    "ial"
+   ],
+   "type": "suffix",
+   "gloss": "A",
+   "chapter": "9",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-al",
+   "element": "al",
+   "forms": [
+    "al"
+   ],
+   "type": "root",
+   "gloss": "other",
+   "chapter": "10",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-al",
+   "element": "al",
+   "forms": [
+    "al"
+   ],
+   "type": "root",
+   "gloss": "wing",
+   "chapter": "11",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-al-ol-ul",
+   "element": "al~ol~ul",
+   "forms": [
+    "al",
+    "ol",
+    "ul"
+   ],
+   "type": "root",
+   "gloss": "nurture, grow",
+   "chapter": "4",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-alb",
+   "element": "alb",
+   "forms": [
+    "alb"
+   ],
+   "type": "root",
+   "gloss": "white",
+   "chapter": "9",
+   "source": "L",
+   "page": 266
+  },
+  {
+   "id": "el-alg",
+   "element": "alg",
+   "forms": [
+    "alg"
+   ],
+   "type": "root",
+   "gloss": "pain",
+   "chapter": "8",
+   "source": "G",
+   "page": 266
+  },
+  {
+   "id": "el-all-allel",
+   "element": "all~allel",
+   "forms": [
+    "all",
+    "allel"
+   ],
+   "type": "root",
+   "gloss": "other",
+   "chapter": "10",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-alt",
+   "element": "alt (< al 'grow')",
+   "forms": [
+    "alt"
+   ],
+   "type": "root",
+   "gloss": "high",
+   "chapter": "5",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-am-im",
+   "element": "am~im",
+   "forms": [
+    "am",
+    "im"
+   ],
+   "type": "root",
+   "gloss": "love",
+   "chapter": "4",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-ambul",
+   "element": "ambul",
+   "forms": [
+    "ambul"
+   ],
+   "type": "root",
+   "gloss": "walk, go",
+   "chapter": "5",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-an-a",
+   "element": "an-~a-",
+   "forms": [
+    "an",
+    "a"
+   ],
+   "type": "prefix",
+   "gloss": "not, without",
+   "chapter": "3, 4",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-ana",
+   "element": "ana-",
+   "forms": [
+    "ana"
+   ],
+   "type": "prefix",
+   "gloss": "up, again, back",
+   "chapter": "3, 6",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-ance",
+   "element": "-ance",
+   "forms": [
+    "ance"
+   ],
+   "type": "suffix",
+   "gloss": "N",
+   "chapter": "3, 4",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-and-end",
+   "element": "-and~-end",
+   "forms": [
+    "and",
+    "end"
+   ],
+   "type": "suffix",
+   "gloss": "N [gerundive]",
+   "chapter": "9",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-andr",
+   "element": "andr",
+   "forms": [
+    "andr"
+   ],
+   "type": "root",
+   "gloss": "male, man",
+   "chapter": "5",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-anim",
+   "element": "anim",
+   "forms": [
+    "anim"
+   ],
+   "type": "root",
+   "gloss": "soul, mind, spirit, (nonplant) life",
+   "chapter": "2",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-ann-enn",
+   "element": "ann~enn",
+   "forms": [
+    "ann",
+    "enn"
+   ],
+   "type": "root",
+   "gloss": "year",
+   "chapter": "4",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-ant",
+   "element": "-ant",
+   "forms": [
+    "ant"
+   ],
+   "type": "suffix",
+   "gloss": "A, N [present participle]",
+   "chapter": "3, 9",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-ante-anti",
+   "element": "ante-~anti-",
+   "forms": [
+    "ante",
+    "anti"
+   ],
+   "type": "prefix",
+   "gloss": "before",
+   "chapter": "3",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-anthrop",
+   "element": "anthrop",
+   "forms": [
+    "anthrop"
+   ],
+   "type": "root",
+   "gloss": "human",
+   "chapter": "1",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-anti-ante",
+   "element": "anti-~ante-",
+   "forms": [
+    "anti",
+    "ante"
+   ],
+   "type": "prefix",
+   "gloss": "before",
+   "chapter": "3",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-api",
+   "element": "api",
+   "forms": [
+    "api"
+   ],
+   "type": "root",
+   "gloss": "bee",
+   "chapter": "11",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-apo",
+   "element": "apo-",
+   "forms": [
+    "apo"
+   ],
+   "type": "prefix",
+   "gloss": "away from, off",
+   "chapter": "3",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-apt-ept",
+   "element": "-apt~-ept",
+   "forms": [
+    "apt",
+    "ept"
+   ],
+   "type": "suffix",
+   "gloss": "fit, capable",
+   "chapter": "4",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-arachn",
+   "element": "arachn",
+   "forms": [
+    "arachn"
+   ],
+   "type": "root",
+   "gloss": "spider",
+   "chapter": "11",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-arch",
+   "element": "arch",
+   "forms": [
+    "arch"
+   ],
+   "type": "root",
+   "gloss": "first, govern",
+   "chapter": "5",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-arium",
+   "element": "-arium",
+   "forms": [
+    "arium"
+   ],
+   "type": "suffix",
+   "gloss": "place",
+   "chapter": "9",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-ary",
+   "element": "-ary",
+   "forms": [
+    "ary"
+   ],
+   "type": "suffix",
+   "gloss": "A, N",
+   "chapter": "3",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-aster-astr",
+   "element": "aster~astr",
+   "forms": [
+    "aster",
+    "astr"
+   ],
+   "type": "root",
+   "gloss": "star",
+   "chapter": "9",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-ate",
+   "element": "-ate",
+   "forms": [
+    "ate"
+   ],
+   "type": "suffix",
+   "gloss": "N, A, V",
+   "chapter": "3, 7",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-aud",
+   "element": "aud",
+   "forms": [
+    "aud"
+   ],
+   "type": "root",
+   "gloss": "hear",
+   "chapter": "9",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-aur",
+   "element": "aur",
+   "forms": [
+    "aur"
+   ],
+   "type": "root",
+   "gloss": "ear",
+   "chapter": "8",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-auto-tauto",
+   "element": "auto~tauto",
+   "forms": [
+    "auto",
+    "tauto"
+   ],
+   "type": "root",
+   "gloss": "self",
+   "chapter": "9",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-av",
+   "element": "av",
+   "forms": [
+    "av"
+   ],
+   "type": "root",
+   "gloss": "bird",
+   "chapter": "5",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-axill",
+   "element": "axill",
+   "forms": [
+    "axill"
+   ],
+   "type": "root",
+   "gloss": "armpit",
+   "chapter": "8",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-bath-bathy",
+   "element": "bath~bathy",
+   "forms": [
+    "bath",
+    "bathy"
+   ],
+   "type": "root",
+   "gloss": "depth",
+   "chapter": "9",
+   "source": "G",
+   "page": 267
+  },
+  {
+   "id": "el-bell",
+   "element": "bell",
+   "forms": [
+    "bell"
+   ],
+   "type": "root",
+   "gloss": "war",
+   "chapter": "6",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-bene-bon",
+   "element": "bene~bon",
+   "forms": [
+    "bene",
+    "bon"
+   ],
+   "type": "root",
+   "gloss": "good, well",
+   "chapter": "9",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-bi",
+   "element": "bi",
+   "forms": [
+    "bi"
+   ],
+   "type": "root",
+   "gloss": "two",
+   "chapter": "6",
+   "source": "L",
+   "page": 267
+  },
+  {
+   "id": "el-bi",
+   "element": "bi",
+   "forms": [
+    "bi"
+   ],
+   "type": "root",
+   "gloss": "life",
+   "chapter": "1",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-bin",
+   "element": "bin",
+   "forms": [
+    "bin"
+   ],
+   "type": "root",
+   "gloss": "two (each)",
+   "chapter": "6",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-bl-bol",
+   "element": "bl~bol",
+   "forms": [
+    "bl",
+    "bol"
+   ],
+   "type": "root",
+   "gloss": "throw, extend",
+   "chapter": "4",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-ble-able-ible",
+   "element": "-ble~-able~-ible",
+   "forms": [
+    "ble",
+    "able",
+    "ible"
+   ],
+   "type": "suffix",
+   "gloss": "A",
+   "chapter": "3, 11",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-bol-bl",
+   "element": "bol~bl",
+   "forms": [
+    "bol",
+    "bl"
+   ],
+   "type": "root",
+   "gloss": "throw, extend",
+   "chapter": "4",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-bon-bene",
+   "element": "bon~bene",
+   "forms": [
+    "bon",
+    "bene"
+   ],
+   "type": "root",
+   "gloss": "good",
+   "chapter": "9",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-bou-bu",
+   "element": "bou~bu",
+   "forms": [
+    "bou",
+    "bu"
+   ],
+   "type": "root",
+   "gloss": "cow",
+   "chapter": "11",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-bov",
+   "element": "bov",
+   "forms": [
+    "bov"
+   ],
+   "type": "root",
+   "gloss": "cow",
+   "chapter": "11",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-brach-brachy",
+   "element": "brach~brachy",
+   "forms": [
+    "brach",
+    "brachy"
+   ],
+   "type": "root",
+   "gloss": "short",
+   "chapter": "9",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-bu-bou",
+   "element": "bu~bou",
+   "forms": [
+    "bu",
+    "bou"
+   ],
+   "type": "root",
+   "gloss": "cow",
+   "chapter": "11",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-cac",
+   "element": "cac",
+   "forms": [
+    "cac"
+   ],
+   "type": "root",
+   "gloss": "bad",
+   "chapter": "1",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-cad-cas-cid",
+   "element": "cad~cas~cid",
+   "forms": [
+    "cad",
+    "cas",
+    "cid"
+   ],
+   "type": "root",
+   "gloss": "fall",
+   "chapter": "5",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cap-cep-cip-cup",
+   "element": "cap~cep~cip~cup",
+   "forms": [
+    "cap",
+    "cep",
+    "cip",
+    "cup"
+   ],
+   "type": "root",
+   "gloss": "take, contain",
+   "chapter": "4",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-car-carn",
+   "element": "car~carn",
+   "forms": [
+    "car",
+    "carn"
+   ],
+   "type": "root",
+   "gloss": "flesh",
+   "chapter": "9",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-card",
+   "element": "card",
+   "forms": [
+    "card"
+   ],
+   "type": "root",
+   "gloss": "heart",
+   "chapter": "10",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-carn-car",
+   "element": "carn~car",
+   "forms": [
+    "carn",
+    "car"
+   ],
+   "type": "root",
+   "gloss": "flesh",
+   "chapter": "9",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cas-cad-cid",
+   "element": "cas~cad~cid",
+   "forms": [
+    "cas",
+    "cad",
+    "cid"
+   ],
+   "type": "root",
+   "gloss": "fall",
+   "chapter": "5",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cata",
+   "element": "cata-",
+   "forms": [
+    "cata"
+   ],
+   "type": "prefix",
+   "gloss": "down, backward",
+   "chapter": "3",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-caud-cod",
+   "element": "caud~cod",
+   "forms": [
+    "caud",
+    "cod"
+   ],
+   "type": "root",
+   "gloss": "tail",
+   "chapter": "8",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-ced-cess",
+   "element": "ced~cess",
+   "forms": [
+    "ced",
+    "cess"
+   ],
+   "type": "root",
+   "gloss": "go, let go",
+   "chapter": "5",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cens",
+   "element": "cens",
+   "forms": [
+    "cens"
+   ],
+   "type": "root",
+   "gloss": "judge, assess",
+   "chapter": "6",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cent",
+   "element": "cent",
+   "forms": [
+    "cent"
+   ],
+   "type": "root",
+   "gloss": "hundred",
+   "chapter": "6",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cep-cap-cip-cup",
+   "element": "cep~cap~cip~cup",
+   "forms": [
+    "cep",
+    "cap",
+    "cip",
+    "cup"
+   ],
+   "type": "root",
+   "gloss": "take, contain",
+   "chapter": "4",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cephal",
+   "element": "cephal",
+   "forms": [
+    "cephal"
+   ],
+   "type": "root",
+   "gloss": "head",
+   "chapter": "6",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-cer-cri-cre",
+   "element": "cer~cri~cre",
+   "forms": [
+    "cer",
+    "cri",
+    "cre"
+   ],
+   "type": "root",
+   "gloss": "separate",
+   "chapter": "4",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cervic",
+   "element": "cervic",
+   "forms": [
+    "cervic"
+   ],
+   "type": "root",
+   "gloss": "neck",
+   "chapter": "8",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-chili",
+   "element": "chili",
+   "forms": [
+    "chili"
+   ],
+   "type": "root",
+   "gloss": "thousand",
+   "chapter": "6",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-chir",
+   "element": "chir",
+   "forms": [
+    "chir"
+   ],
+   "type": "root",
+   "gloss": "hand",
+   "chapter": "11",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-chrom",
+   "element": "chrom",
+   "forms": [
+    "chrom"
+   ],
+   "type": "root",
+   "gloss": "color",
+   "chapter": "1",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-chron",
+   "element": "chron",
+   "forms": [
+    "chron"
+   ],
+   "type": "root",
+   "gloss": "time",
+   "chapter": "1",
+   "source": "G",
+   "page": 268
+  },
+  {
+   "id": "el-cid-cad-cas",
+   "element": "cid~cad~cas",
+   "forms": [
+    "cid",
+    "cad",
+    "cas"
+   ],
+   "type": "root",
+   "gloss": "fall",
+   "chapter": "5",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cid-cis",
+   "element": "cid~cis",
+   "forms": [
+    "cid",
+    "cis"
+   ],
+   "type": "root",
+   "gloss": "cut, kill",
+   "chapter": "4",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cip-cap-cep-cup",
+   "element": "cip~cap~cep~cup",
+   "forms": [
+    "cip",
+    "cap",
+    "cep",
+    "cup"
+   ],
+   "type": "root",
+   "gloss": "take, contain",
+   "chapter": "4",
+   "source": "L",
+   "page": 268
+  },
+  {
+   "id": "el-cis-cid",
+   "element": "cis~cid",
+   "forms": [
+    "cis",
+    "cid"
+   ],
+   "type": "root",
+   "gloss": "cut, kill",
+   "chapter": "4",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-clam",
+   "element": "clam",
+   "forms": [
+    "clam"
+   ],
+   "type": "root",
+   "gloss": "call out",
+   "chapter": "11",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-clav",
+   "element": "clav",
+   "forms": [
+    "clav"
+   ],
+   "type": "root",
+   "gloss": "key, locked",
+   "chapter": "11",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cl-cul",
+   "element": "-cl~-cul (< -l diminutive)",
+   "forms": [
+    "cl",
+    "cul"
+   ],
+   "type": "suffix",
+   "gloss": "little",
+   "chapter": "9",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cli",
+   "element": "cli",
+   "forms": [
+    "cli"
+   ],
+   "type": "root",
+   "gloss": "lean, lie, bed",
+   "chapter": "9",
+   "source": "L, G",
+   "page": 269
+  },
+  {
+   "id": "el-clud-clus",
+   "element": "clud~clus",
+   "forms": [
+    "clud",
+    "clus"
+   ],
+   "type": "root",
+   "gloss": "close (v)",
+   "chapter": "5",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-co-con-com",
+   "element": "co-~con-~com-",
+   "forms": [
+    "co",
+    "con",
+    "com"
+   ],
+   "type": "prefix",
+   "gloss": "with, together",
+   "chapter": "3",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-col",
+   "element": "col",
+   "forms": [
+    "col"
+   ],
+   "type": "root",
+   "gloss": "inhabit, grow",
+   "chapter": "11",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-con-com-co",
+   "element": "con-~com-~co-",
+   "forms": [
+    "con",
+    "com",
+    "co"
+   ],
+   "type": "prefix",
+   "gloss": "with, together",
+   "chapter": "3",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-contra-counter",
+   "element": "contra~counter-",
+   "forms": [
+    "contra",
+    "counter"
+   ],
+   "type": "root",
+   "gloss": "against, facing",
+   "chapter": "3",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cord",
+   "element": "cord",
+   "forms": [
+    "cord"
+   ],
+   "type": "root",
+   "gloss": "heart",
+   "chapter": "10",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-corp-corpor",
+   "element": "corp~corpor",
+   "forms": [
+    "corp",
+    "corpor"
+   ],
+   "type": "root",
+   "gloss": "body, flesh",
+   "chapter": "2, 3",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cosm",
+   "element": "cosm",
+   "forms": [
+    "cosm"
+   ],
+   "type": "root",
+   "gloss": "universe, adorn, order",
+   "chapter": "1",
+   "source": "G",
+   "page": 269
+  },
+  {
+   "id": "el-counter-contra",
+   "element": "counter~contra-",
+   "forms": [
+    "counter",
+    "contra"
+   ],
+   "type": "root",
+   "gloss": "against, facing",
+   "chapter": "3",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-crac-crat",
+   "element": "crac~crat",
+   "forms": [
+    "crac",
+    "crat"
+   ],
+   "type": "root",
+   "gloss": "govern",
+   "chapter": "6",
+   "source": "G",
+   "page": 269
+  },
+  {
+   "id": "el-crat-crac",
+   "element": "crat~crac",
+   "forms": [
+    "crat",
+    "crac"
+   ],
+   "type": "root",
+   "gloss": "govern",
+   "chapter": "6",
+   "source": "G",
+   "page": 269
+  },
+  {
+   "id": "el-cre-cri-cer",
+   "element": "cre~cri~cer",
+   "forms": [
+    "cre",
+    "cri",
+    "cer"
+   ],
+   "type": "root",
+   "gloss": "separate",
+   "chapter": "4",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cred",
+   "element": "cred",
+   "forms": [
+    "cred"
+   ],
+   "type": "root",
+   "gloss": "believe",
+   "chapter": "9",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cri",
+   "element": "cri",
+   "forms": [
+    "cri"
+   ],
+   "type": "root",
+   "gloss": "judge, separate",
+   "chapter": "4",
+   "source": "G",
+   "page": 269
+  },
+  {
+   "id": "el-cri-cre-cer",
+   "element": "cri~cre~cer",
+   "forms": [
+    "cri",
+    "cre",
+    "cer"
+   ],
+   "type": "root",
+   "gloss": "separate",
+   "chapter": "4",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cruc",
+   "element": "cruc",
+   "forms": [
+    "cruc"
+   ],
+   "type": "root",
+   "gloss": "cross, important point",
+   "chapter": "10",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cryph-cryp",
+   "element": "cryph~cryp",
+   "forms": [
+    "cryph",
+    "cryp"
+   ],
+   "type": "root",
+   "gloss": "secret, hidden",
+   "chapter": "9",
+   "source": "G",
+   "page": 269
+  },
+  {
+   "id": "el-cub-cumb",
+   "element": "cub~cumb",
+   "forms": [
+    "cub",
+    "cumb"
+   ],
+   "type": "root",
+   "gloss": "lie down, remain",
+   "chapter": "4",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cule-cle",
+   "element": "-cule~-cle (< -l diminutive)",
+   "forms": [
+    "cule",
+    "cle"
+   ],
+   "type": "suffix",
+   "gloss": "little",
+   "chapter": "9",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-culp",
+   "element": "culp",
+   "forms": [
+    "culp"
+   ],
+   "type": "root",
+   "gloss": "fault",
+   "chapter": "2",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cumb-cub",
+   "element": "cumb~cub",
+   "forms": [
+    "cumb",
+    "cub"
+   ],
+   "type": "root",
+   "gloss": "lie down, remain",
+   "chapter": "4",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cup-cap-cep-cip",
+   "element": "cup~cap~cep~cip",
+   "forms": [
+    "cup",
+    "cap",
+    "cep",
+    "cip"
+   ],
+   "type": "root",
+   "gloss": "take, contain",
+   "chapter": "4",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cur",
+   "element": "cur",
+   "forms": [
+    "cur"
+   ],
+   "type": "root",
+   "gloss": "care",
+   "chapter": "6",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-curs-curr",
+   "element": "curs~curr",
+   "forms": [
+    "curs",
+    "curr"
+   ],
+   "type": "root",
+   "gloss": "run",
+   "chapter": "11",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-cut",
+   "element": "cut",
+   "forms": [
+    "cut"
+   ],
+   "type": "root",
+   "gloss": "skin",
+   "chapter": "8",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-da-do-di",
+   "element": "da~do~di",
+   "forms": [
+    "da",
+    "do",
+    "di"
+   ],
+   "type": "root",
+   "gloss": "give",
+   "chapter": "9",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-damn-demn",
+   "element": "damn~demn",
+   "forms": [
+    "damn",
+    "demn"
+   ],
+   "type": "root",
+   "gloss": "loss, harm",
+   "chapter": "9",
+   "source": "L",
+   "page": 269
+  },
+  {
+   "id": "el-iso",
+   "element": "iso-",
+   "forms": [
+    "iso"
+   ],
+   "type": "prefix",
+   "gloss": "equal",
+   "chapter": "3",
+   "source": "G",
+   "page": 274
+  },
+  {
+   "id": "el-itis",
+   "element": "-itis",
+   "forms": [
+    "itis"
+   ],
+   "type": "suffix",
+   "gloss": "inflammation",
+   "chapter": "8",
+   "source": "G",
+   "page": 274
+  },
+  {
+   "id": "el-ity",
+   "element": "-ity",
+   "forms": [
+    "ity"
+   ],
+   "type": "suffix",
+   "gloss": "N",
+   "chapter": "3",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-ium-um",
+   "element": "-ium~-um",
+   "forms": [
+    "ium",
+    "um"
+   ],
+   "type": "suffix",
+   "gloss": "thing [singular]",
+   "chapter": "9",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-ive-tive",
+   "element": "-ive~-tive",
+   "forms": [
+    "ive",
+    "tive"
+   ],
+   "type": "suffix",
+   "gloss": "A, N",
+   "chapter": "3,4,6",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-ize",
+   "element": "-ize",
+   "forms": [
+    "ize"
+   ],
+   "type": "suffix",
+   "gloss": "V",
+   "chapter": "3",
+   "source": "G",
+   "page": 274
+  },
+  {
+   "id": "el-jun-juven",
+   "element": "jun~juven",
+   "forms": [
+    "jun",
+    "juven"
+   ],
+   "type": "root",
+   "gloss": "young",
+   "chapter": "10",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-jus-jur",
+   "element": "jus~jur",
+   "forms": [
+    "jus",
+    "jur"
+   ],
+   "type": "root",
+   "gloss": "law, judge",
+   "chapter": "9",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-juven-jun",
+   "element": "juven~jun",
+   "forms": [
+    "juven",
+    "jun"
+   ],
+   "type": "root",
+   "gloss": "young",
+   "chapter": "10",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-kilo",
+   "element": "kilo-",
+   "forms": [
+    "kilo"
+   ],
+   "type": "prefix",
+   "gloss": "thousand",
+   "chapter": "6",
+   "source": "G",
+   "page": 274
+  },
+  {
+   "id": "el-l",
+   "element": "-l",
+   "forms": [
+    "l"
+   ],
+   "type": "suffix",
+   "gloss": "[diminutive] little",
+   "chapter": "9",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lab",
+   "element": "lab",
+   "forms": [
+    "lab"
+   ],
+   "type": "root",
+   "gloss": "lip",
+   "chapter": "8",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lachrym-lacrim",
+   "element": "lachrym~lacrim",
+   "forms": [
+    "lachrym",
+    "lacrim"
+   ],
+   "type": "root",
+   "gloss": "tear [tir]",
+   "chapter": "8",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lacrim-lachrym",
+   "element": "lacrim~lachrym",
+   "forms": [
+    "lacrim",
+    "lachrym"
+   ],
+   "type": "root",
+   "gloss": "tear [tir]",
+   "chapter": "8",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lact",
+   "element": "lact",
+   "forms": [
+    "lact"
+   ],
+   "type": "root",
+   "gloss": "milk",
+   "chapter": "8",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-laryng",
+   "element": "laryng",
+   "forms": [
+    "laryng"
+   ],
+   "type": "root",
+   "gloss": "voice box",
+   "chapter": "8",
+   "source": "G",
+   "page": 274
+  },
+  {
+   "id": "el-lat",
+   "element": "lat",
+   "forms": [
+    "lat"
+   ],
+   "type": "root",
+   "gloss": "carry",
+   "chapter": "10",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-leg",
+   "element": "leg",
+   "forms": [
+    "leg"
+   ],
+   "type": "root",
+   "gloss": "law, deputize",
+   "chapter": "2",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-leg-lex-log",
+   "element": "leg~lex~log",
+   "forms": [
+    "leg",
+    "lex",
+    "log"
+   ],
+   "type": "root",
+   "gloss": "speak, study",
+   "chapter": "1",
+   "source": "G",
+   "page": 274
+  },
+  {
+   "id": "el-leg-lig",
+   "element": "leg~lig",
+   "forms": [
+    "leg",
+    "lig"
+   ],
+   "type": "root",
+   "gloss": "gather, read",
+   "chapter": "5",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lex-leg-log",
+   "element": "lex~leg~log",
+   "forms": [
+    "lex",
+    "leg",
+    "log"
+   ],
+   "type": "root",
+   "gloss": "word, speak",
+   "chapter": "1",
+   "source": "G",
+   "page": 274
+  },
+  {
+   "id": "el-libr",
+   "element": "libr",
+   "forms": [
+    "libr"
+   ],
+   "type": "root",
+   "gloss": "balance, weigh",
+   "chapter": "2",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lic",
+   "element": "lic",
+   "forms": [
+    "lic"
+   ],
+   "type": "root",
+   "gloss": "permit, unrestrained",
+   "chapter": "5",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lig",
+   "element": "lig",
+   "forms": [
+    "lig"
+   ],
+   "type": "root",
+   "gloss": "tie, bind",
+   "chapter": "10",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lig-leg",
+   "element": "lig~leg",
+   "forms": [
+    "lig",
+    "leg"
+   ],
+   "type": "root",
+   "gloss": "gather, read",
+   "chapter": "5",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lign",
+   "element": "lign",
+   "forms": [
+    "lign"
+   ],
+   "type": "root",
+   "gloss": "wood",
+   "chapter": "10",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lit-lith",
+   "element": "lit~lith",
+   "forms": [
+    "lit",
+    "lith"
+   ],
+   "type": "root",
+   "gloss": "stone",
+   "chapter": "9",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-liter",
+   "element": "liter",
+   "forms": [
+    "liter"
+   ],
+   "type": "root",
+   "gloss": "letter",
+   "chapter": "2",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-lith-lit",
+   "element": "lith~lit",
+   "forms": [
+    "lith",
+    "lit"
+   ],
+   "type": "root",
+   "gloss": "stone",
+   "chapter": "9",
+   "source": "G",
+   "page": 274
+  },
+  {
+   "id": "el-loc",
+   "element": "loc",
+   "forms": [
+    "loc"
+   ],
+   "type": "root",
+   "gloss": "place",
+   "chapter": "6",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-locu-loqu",
+   "element": "locu~loqu",
+   "forms": [
+    "locu",
+    "loqu"
+   ],
+   "type": "root",
+   "gloss": "speak",
+   "chapter": "10",
+   "source": "L",
+   "page": 274
+  },
+  {
+   "id": "el-log-leg-lex",
+   "element": "log~leg~lex",
+   "forms": [
+    "log",
+    "leg",
+    "lex"
+   ],
+   "type": "root",
+   "gloss": "speak, study",
+   "chapter": "1",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-loqu-locu",
+   "element": "loqu~locu",
+   "forms": [
+    "loqu",
+    "locu"
+   ],
+   "type": "root",
+   "gloss": "speak",
+   "chapter": "10",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-lu-lv",
+   "element": "lu~lv",
+   "forms": [
+    "lu",
+    "lv"
+   ],
+   "type": "root",
+   "gloss": "dissolve",
+   "chapter": "11",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-lumen-lumin-luc",
+   "element": "lumen~lumin~luc",
+   "forms": [
+    "lumen",
+    "lumin",
+    "luc"
+   ],
+   "type": "root",
+   "gloss": "light",
+   "chapter": "6",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-ly",
+   "element": "ly",
+   "forms": [
+    "ly"
+   ],
+   "type": "root",
+   "gloss": "loosen",
+   "chapter": "11",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-ma",
+   "element": "-ma",
+   "forms": [
+    "ma"
+   ],
+   "type": "suffix",
+   "gloss": "thing [singular]",
+   "chapter": "9",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-macr",
+   "element": "macr",
+   "forms": [
+    "macr"
+   ],
+   "type": "root",
+   "gloss": "large",
+   "chapter": "1",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-magn",
+   "element": "magn",
+   "forms": [
+    "magn"
+   ],
+   "type": "root",
+   "gloss": "great, large",
+   "chapter": "10",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mal-male",
+   "element": "mal~male",
+   "forms": [
+    "mal",
+    "male"
+   ],
+   "type": "root",
+   "gloss": "bad",
+   "chapter": "11",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mamm",
+   "element": "mamm",
+   "forms": [
+    "mamm"
+   ],
+   "type": "root",
+   "gloss": "breast",
+   "chapter": "8",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-man",
+   "element": "man",
+   "forms": [
+    "man"
+   ],
+   "type": "root",
+   "gloss": "hand, handle",
+   "chapter": "6",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mant-manc",
+   "element": "mant~manc",
+   "forms": [
+    "mant",
+    "manc"
+   ],
+   "type": "root",
+   "gloss": "prophesy",
+   "chapter": "11",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-matr",
+   "element": "matr",
+   "forms": [
+    "matr"
+   ],
+   "type": "root",
+   "gloss": "mother",
+   "chapter": "10",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mega-megal",
+   "element": "mega~megal",
+   "forms": [
+    "mega",
+    "megal"
+   ],
+   "type": "root",
+   "gloss": "great, million",
+   "chapter": "9",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-men-mon",
+   "element": "men~mon",
+   "forms": [
+    "men",
+    "mon"
+   ],
+   "type": "root",
+   "gloss": "think, mind",
+   "chapter": "4",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-ment",
+   "element": "-ment",
+   "forms": [
+    "ment"
+   ],
+   "type": "suffix",
+   "gloss": "N",
+   "chapter": "9",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-meso",
+   "element": "meso-",
+   "forms": [
+    "meso"
+   ],
+   "type": "prefix",
+   "gloss": "middle",
+   "chapter": "3",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-meta",
+   "element": "meta-",
+   "forms": [
+    "meta"
+   ],
+   "type": "prefix",
+   "gloss": "beyond",
+   "chapter": "3",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-metr",
+   "element": "metr",
+   "forms": [
+    "metr"
+   ],
+   "type": "root",
+   "gloss": "mother, uterus",
+   "chapter": "10",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-micr",
+   "element": "micr",
+   "forms": [
+    "micr"
+   ],
+   "type": "root",
+   "gloss": "small",
+   "chapter": "1",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-mille",
+   "element": "mille",
+   "forms": [
+    "mille"
+   ],
+   "type": "root",
+   "gloss": "thousand",
+   "chapter": "6",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-milli",
+   "element": "milli-",
+   "forms": [
+    "milli"
+   ],
+   "type": "prefix",
+   "gloss": "thousandth",
+   "chapter": "6",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mis",
+   "element": "mis",
+   "forms": [
+    "mis"
+   ],
+   "type": "root",
+   "gloss": "hate",
+   "chapter": "1",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-misc-mix",
+   "element": "misc~mix",
+   "forms": [
+    "misc",
+    "mix"
+   ],
+   "type": "root",
+   "gloss": "mix",
+   "chapter": "9",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mitt-miss",
+   "element": "mitt~miss",
+   "forms": [
+    "mitt",
+    "miss"
+   ],
+   "type": "root",
+   "gloss": "send",
+   "chapter": "3,4",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mne",
+   "element": "mne",
+   "forms": [
+    "mne"
+   ],
+   "type": "root",
+   "gloss": "remember",
+   "chapter": "4",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-mo",
+   "element": "mo",
+   "forms": [
+    "mo"
+   ],
+   "type": "root",
+   "gloss": "move",
+   "chapter": "4",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mon",
+   "element": "mon",
+   "forms": [
+    "mon"
+   ],
+   "type": "root",
+   "gloss": "one",
+   "chapter": "6",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-mon-men",
+   "element": "mon~men",
+   "forms": [
+    "mon",
+    "men"
+   ],
+   "type": "root",
+   "gloss": "remind, think",
+   "chapter": "4",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mony",
+   "element": "-mony",
+   "forms": [
+    "mony"
+   ],
+   "type": "suffix",
+   "gloss": "N",
+   "chapter": "9",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-morph",
+   "element": "morph",
+   "forms": [
+    "morph"
+   ],
+   "type": "root",
+   "gloss": "shape, form",
+   "chapter": "1",
+   "source": "G",
+   "page": 275
+  },
+  {
+   "id": "el-mov-mo",
+   "element": "mov~mo",
+   "forms": [
+    "mov",
+    "mo"
+   ],
+   "type": "root",
+   "gloss": "move",
+   "chapter": "4",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mult",
+   "element": "mult",
+   "forms": [
+    "mult"
+   ],
+   "type": "root",
+   "gloss": "many",
+   "chapter": "6",
+   "source": "L",
+   "page": 275
+  },
+  {
+   "id": "el-mun",
+   "element": "mun",
+   "forms": [
+    "mun"
+   ],
+   "type": "root",
+   "gloss": "public service, gift",
+   "chapter": "11",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-myc",
+   "element": "myc",
+   "forms": [
+    "myc"
+   ],
+   "type": "root",
+   "gloss": "fungus",
+   "chapter": "10",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-myri",
+   "element": "myri",
+   "forms": [
+    "myri"
+   ],
+   "type": "root",
+   "gloss": "countless, ten thousand",
+   "chapter": "6",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-na-gen-gn",
+   "element": "na~gen~gn",
+   "forms": [
+    "na",
+    "gen",
+    "gn"
+   ],
+   "type": "root",
+   "gloss": "birth, source, tribe",
+   "chapter": "4",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nano",
+   "element": "nano-",
+   "forms": [
+    "nano"
+   ],
+   "type": "prefix",
+   "gloss": "billionth",
+   "chapter": "6",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-nar-nas",
+   "element": "nar~nas",
+   "forms": [
+    "nar",
+    "nas"
+   ],
+   "type": "root",
+   "gloss": "nose",
+   "chapter": "8",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nas-nar",
+   "element": "nas~nar",
+   "forms": [
+    "nas",
+    "nar"
+   ],
+   "type": "root",
+   "gloss": "nose",
+   "chapter": "8",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nau",
+   "element": "nau",
+   "forms": [
+    "nau"
+   ],
+   "type": "root",
+   "gloss": "boat",
+   "chapter": "11",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-nav",
+   "element": "nav",
+   "forms": [
+    "nav"
+   ],
+   "type": "root",
+   "gloss": "boat",
+   "chapter": "11",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nd-and-end",
+   "element": "-nd~-and~-end",
+   "forms": [
+    "nd",
+    "and",
+    "end"
+   ],
+   "type": "suffix",
+   "gloss": "N [gerundive]",
+   "chapter": "9",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-ne",
+   "element": "ne",
+   "forms": [
+    "ne"
+   ],
+   "type": "root",
+   "gloss": "new, recent",
+   "chapter": "5",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-nec-noc-nic-nox",
+   "element": "nec~noc~nic~nox",
+   "forms": [
+    "nec",
+    "noc",
+    "nic",
+    "nox"
+   ],
+   "type": "root",
+   "gloss": "harm",
+   "chapter": "4",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nec-necr",
+   "element": "nec~necr",
+   "forms": [
+    "nec",
+    "necr"
+   ],
+   "type": "root",
+   "gloss": "die",
+   "chapter": "4",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-nephr",
+   "element": "nephr",
+   "forms": [
+    "nephr"
+   ],
+   "type": "root",
+   "gloss": "kidney",
+   "chapter": "8",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-nic-nec-noc-nox",
+   "element": "nic~nec~noc~nox",
+   "forms": [
+    "nic",
+    "nec",
+    "noc",
+    "nox"
+   ],
+   "type": "root",
+   "gloss": "harm",
+   "chapter": "4",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nihil-nil",
+   "element": "nihil~nil",
+   "forms": [
+    "nihil",
+    "nil"
+   ],
+   "type": "root",
+   "gloss": "nothing",
+   "chapter": "9",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-no-gno-gni",
+   "element": "no~gno~gni",
+   "forms": [
+    "no",
+    "gno",
+    "gni"
+   ],
+   "type": "root",
+   "gloss": "know",
+   "chapter": "9",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-noc-nec-nic-nox",
+   "element": "noc~nec~nic~nox",
+   "forms": [
+    "noc",
+    "nec",
+    "nic",
+    "nox"
+   ],
+   "type": "root",
+   "gloss": "harm",
+   "chapter": "4",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-noct",
+   "element": "noct",
+   "forms": [
+    "noct"
+   ],
+   "type": "root",
+   "gloss": "night",
+   "chapter": "10",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nom",
+   "element": "nom",
+   "forms": [
+    "nom"
+   ],
+   "type": "root",
+   "gloss": "law, system",
+   "chapter": "1",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-nomen-nomin",
+   "element": "nomen~nomin",
+   "forms": [
+    "nomen",
+    "nomin"
+   ],
+   "type": "root",
+   "gloss": "name",
+   "chapter": "10",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-non",
+   "element": "non",
+   "forms": [
+    "non"
+   ],
+   "type": "root",
+   "gloss": "ninth",
+   "chapter": "6",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nov",
+   "element": "nov",
+   "forms": [
+    "nov"
+   ],
+   "type": "root",
+   "gloss": "new",
+   "chapter": "2",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-novem",
+   "element": "novem",
+   "forms": [
+    "novem"
+   ],
+   "type": "root",
+   "gloss": "nine",
+   "chapter": "6",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-noven",
+   "element": "noven",
+   "forms": [
+    "noven"
+   ],
+   "type": "root",
+   "gloss": "nine (each)",
+   "chapter": "6",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nox-noc-nec-nic",
+   "element": "nox~noc~nec~nic",
+   "forms": [
+    "nox",
+    "noc",
+    "nec",
+    "nic"
+   ],
+   "type": "root",
+   "gloss": "harm",
+   "chapter": "4",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nt",
+   "element": "-nt",
+   "forms": [
+    "nt"
+   ],
+   "type": "suffix",
+   "gloss": "A, N [present participle]",
+   "chapter": "3,9",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-null",
+   "element": "null",
+   "forms": [
+    "null"
+   ],
+   "type": "root",
+   "gloss": "nothing",
+   "chapter": "11",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-nyct",
+   "element": "nyct",
+   "forms": [
+    "nyct"
+   ],
+   "type": "root",
+   "gloss": "night",
+   "chapter": "10",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-o",
+   "element": "-o-",
+   "forms": [
+    "o"
+   ],
+   "type": "suffix",
+   "gloss": "[empty interfix]",
+   "chapter": "3",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-ob",
+   "element": "-ob-",
+   "forms": [
+    "ob"
+   ],
+   "type": "suffix",
+   "gloss": "toward, against",
+   "chapter": "3",
+   "source": "L",
+   "page": 276
+  },
+  {
+   "id": "el-octa",
+   "element": "octa-",
+   "forms": [
+    "octa"
+   ],
+   "type": "prefix",
+   "gloss": "eight",
+   "chapter": "6",
+   "source": "G",
+   "page": 276
+  },
+  {
+   "id": "el-octav",
+   "element": "octav",
+   "forms": [
+    "octav"
+   ],
+   "type": "root",
+   "gloss": "eighth",
+   "chapter": "6",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-octo",
+   "element": "octo",
+   "forms": [
+    "octo"
+   ],
+   "type": "root",
+   "gloss": "eight",
+   "chapter": "6",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-octon",
+   "element": "octon",
+   "forms": [
+    "octon"
+   ],
+   "type": "root",
+   "gloss": "eight (each)",
+   "chapter": "6",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-ocul",
+   "element": "ocul",
+   "forms": [
+    "ocul"
+   ],
+   "type": "root",
+   "gloss": "eye",
+   "chapter": "9",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-odont",
+   "element": "odont",
+   "forms": [
+    "odont"
+   ],
+   "type": "root",
+   "gloss": "tooth",
+   "chapter": "11",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-oen-en",
+   "element": "oen~en",
+   "forms": [
+    "oen",
+    "en"
+   ],
+   "type": "root",
+   "gloss": "wine",
+   "chapter": "11",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-oid",
+   "element": "-oid (A, N)",
+   "forms": [
+    "oid"
+   ],
+   "type": "suffix",
+   "gloss": "resembling",
+   "chapter": "3",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-ol-al",
+   "element": "ol~al",
+   "forms": [
+    "ol",
+    "al"
+   ],
+   "type": "root",
+   "gloss": "nurture, grow",
+   "chapter": "4",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-ol",
+   "element": "-ol (< -l diminutive)",
+   "forms": [
+    "ol"
+   ],
+   "type": "suffix",
+   "gloss": "little",
+   "chapter": "9",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-olig",
+   "element": "olig",
+   "forms": [
+    "olig"
+   ],
+   "type": "root",
+   "gloss": "few",
+   "chapter": "6",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-oma",
+   "element": "-oma",
+   "forms": [
+    "oma"
+   ],
+   "type": "suffix",
+   "gloss": "tumor, growth",
+   "chapter": "8",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-omn",
+   "element": "omn",
+   "forms": [
+    "omn"
+   ],
+   "type": "root",
+   "gloss": "all",
+   "chapter": "2,6",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-on",
+   "element": "-on",
+   "forms": [
+    "on"
+   ],
+   "type": "suffix",
+   "gloss": "N [singular] thing",
+   "chapter": "9",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-onom-ononat-onym",
+   "element": "onom~ononat~onym",
+   "forms": [
+    "onom",
+    "ononat",
+    "onym"
+   ],
+   "type": "root",
+   "gloss": "name",
+   "chapter": "10",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-oo",
+   "element": "oo",
+   "forms": [
+    "oo"
+   ],
+   "type": "root",
+   "gloss": "egg",
+   "chapter": "11",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-op",
+   "element": "op",
+   "forms": [
+    "op"
+   ],
+   "type": "root",
+   "gloss": "see",
+   "chapter": "8",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-ophthalm",
+   "element": "ophthalm",
+   "forms": [
+    "ophthalm"
+   ],
+   "type": "root",
+   "gloss": "eye",
+   "chapter": "8",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-org-erg-urg",
+   "element": "org~erg~urg",
+   "forms": [
+    "org",
+    "erg",
+    "urg"
+   ],
+   "type": "root",
+   "gloss": "work",
+   "chapter": "4",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-orn-ornith",
+   "element": "orn~ornith",
+   "forms": [
+    "orn",
+    "ornith"
+   ],
+   "type": "root",
+   "gloss": "bird",
+   "chapter": "11",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-orth",
+   "element": "orth",
+   "forms": [
+    "orth"
+   ],
+   "type": "root",
+   "gloss": "straight, correct",
+   "chapter": "10",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-ory",
+   "element": "-ory",
+   "forms": [
+    "ory"
+   ],
+   "type": "suffix",
+   "gloss": "A, N",
+   "chapter": "3",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-os-or",
+   "element": "os~or",
+   "forms": [
+    "os",
+    "or"
+   ],
+   "type": "root",
+   "gloss": "mouth, opening",
+   "chapter": "8",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-oss",
+   "element": "oss",
+   "forms": [
+    "oss"
+   ],
+   "type": "root",
+   "gloss": "bone",
+   "chapter": "8",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-oste",
+   "element": "oste",
+   "forms": [
+    "oste"
+   ],
+   "type": "root",
+   "gloss": "bone",
+   "chapter": "8",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-ous-ose",
+   "element": "-ous~-ose",
+   "forms": [
+    "ous",
+    "ose"
+   ],
+   "type": "suffix",
+   "gloss": "A",
+   "chapter": "3",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-ov",
+   "element": "ov",
+   "forms": [
+    "ov"
+   ],
+   "type": "root",
+   "gloss": "egg",
+   "chapter": "11",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-ox-oxy",
+   "element": "ox~oxy",
+   "forms": [
+    "ox",
+    "oxy"
+   ],
+   "type": "root",
+   "gloss": "sharp",
+   "chapter": "11",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-paed-ped",
+   "element": "paed~ped",
+   "forms": [
+    "paed",
+    "ped"
+   ],
+   "type": "root",
+   "gloss": "child, teach",
+   "chapter": "10",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-pale-palae",
+   "element": "pale~palae",
+   "forms": [
+    "pale",
+    "palae"
+   ],
+   "type": "root",
+   "gloss": "old",
+   "chapter": "10",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-pan-pant-par",
+   "element": "pan~pant~par",
+   "forms": [
+    "pan",
+    "pant",
+    "par"
+   ],
+   "type": "root",
+   "gloss": "all",
+   "chapter": "6",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-par",
+   "element": "par",
+   "forms": [
+    "par"
+   ],
+   "type": "root",
+   "gloss": "give birth to",
+   "chapter": "2",
+   "source": "L",
+   "page": 277
+  },
+  {
+   "id": "el-para",
+   "element": "para-",
+   "forms": [
+    "para"
+   ],
+   "type": "prefix",
+   "gloss": "beside, nearly",
+   "chapter": "3",
+   "source": "G",
+   "page": 277
+  },
+  {
+   "id": "el-reg-rig",
+   "element": "reg-rig",
+   "forms": [
+    "reg-rig"
+   ],
+   "type": "root",
+   "gloss": "rule, straight",
+   "chapter": "5",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-rhin",
+   "element": "rhin",
+   "forms": [
+    "rhin"
+   ],
+   "type": "root",
+   "gloss": "nose",
+   "chapter": "8",
+   "source": "G",
+   "page": 280
+  },
+  {
+   "id": "el-rhiz",
+   "element": "rhiz",
+   "forms": [
+    "rhiz"
+   ],
+   "type": "root",
+   "gloss": "root",
+   "chapter": "10",
+   "source": "G",
+   "page": 280
+  },
+  {
+   "id": "el-rig-reg",
+   "element": "rig~reg",
+   "forms": [
+    "rig",
+    "reg"
+   ],
+   "type": "root",
+   "gloss": "rule, straight",
+   "chapter": "5",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-rog",
+   "element": "rog",
+   "forms": [
+    "rog"
+   ],
+   "type": "root",
+   "gloss": "ask",
+   "chapter": "11",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sacr-sanc-secr",
+   "element": "sacr~sanc~secr",
+   "forms": [
+    "sacr",
+    "sanc",
+    "secr"
+   ],
+   "type": "root",
+   "gloss": "holy",
+   "chapter": "4",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sal-sil",
+   "element": "sal~sil",
+   "forms": [
+    "sal",
+    "sil"
+   ],
+   "type": "root",
+   "gloss": "jump",
+   "chapter": "10",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-salv-salu",
+   "element": "salv~salu",
+   "forms": [
+    "salv",
+    "salu"
+   ],
+   "type": "root",
+   "gloss": "safe, greet, healthy",
+   "chapter": "10",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sarc",
+   "element": "sarc",
+   "forms": [
+    "sarc"
+   ],
+   "type": "root",
+   "gloss": "flesh",
+   "chapter": "8",
+   "source": "G",
+   "page": 280
+  },
+  {
+   "id": "el-sc-esc",
+   "element": "-sc~-esc",
+   "forms": [
+    "sc",
+    "esc"
+   ],
+   "type": "suffix",
+   "gloss": "begin",
+   "chapter": "9",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sci",
+   "element": "sci",
+   "forms": [
+    "sci"
+   ],
+   "type": "root",
+   "gloss": "know, discern",
+   "chapter": "2",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-scind-sciss",
+   "element": "scind~sciss",
+   "forms": [
+    "scind",
+    "sciss"
+   ],
+   "type": "root",
+   "gloss": "split",
+   "chapter": "2, 11",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-scler",
+   "element": "scler",
+   "forms": [
+    "scler"
+   ],
+   "type": "root",
+   "gloss": "hard",
+   "chapter": "8",
+   "source": "G",
+   "page": 280
+  },
+  {
+   "id": "el-se-sed",
+   "element": "se-~sed-",
+   "forms": [
+    "se",
+    "sed"
+   ],
+   "type": "prefix",
+   "gloss": "apart",
+   "chapter": "3, 6",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sec",
+   "element": "sec",
+   "forms": [
+    "sec"
+   ],
+   "type": "root",
+   "gloss": "cut, split",
+   "chapter": "2",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-semen-semin",
+   "element": "semen~semin",
+   "forms": [
+    "semen",
+    "semin"
+   ],
+   "type": "root",
+   "gloss": "seed",
+   "chapter": "4",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-semi",
+   "element": "semi-",
+   "forms": [
+    "semi"
+   ],
+   "type": "prefix",
+   "gloss": "half",
+   "chapter": "6",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sen",
+   "element": "sen",
+   "forms": [
+    "sen"
+   ],
+   "type": "root",
+   "gloss": "old (person)",
+   "chapter": "11",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sen",
+   "element": "sen",
+   "forms": [
+    "sen"
+   ],
+   "type": "root",
+   "gloss": "six (each)",
+   "chapter": "6",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sent-sens",
+   "element": "sent~sens",
+   "forms": [
+    "sent",
+    "sens"
+   ],
+   "type": "root",
+   "gloss": "feel",
+   "chapter": "5",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sep",
+   "element": "sep",
+   "forms": [
+    "sep"
+   ],
+   "type": "root",
+   "gloss": "putrid, infected",
+   "chapter": "8",
+   "source": "G",
+   "page": 280
+  },
+  {
+   "id": "el-septem",
+   "element": "septem",
+   "forms": [
+    "septem"
+   ],
+   "type": "root",
+   "gloss": "seven",
+   "chapter": "6",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-septen",
+   "element": "septen",
+   "forms": [
+    "septen"
+   ],
+   "type": "root",
+   "gloss": "seven (each)",
+   "chapter": "6",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-septim",
+   "element": "septim",
+   "forms": [
+    "septim"
+   ],
+   "type": "root",
+   "gloss": "seventh",
+   "chapter": "6",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-serp",
+   "element": "serp",
+   "forms": [
+    "serp"
+   ],
+   "type": "root",
+   "gloss": "to creep, snake",
+   "chapter": "11",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sesqui",
+   "element": "sesqui-",
+   "forms": [
+    "sesqui"
+   ],
+   "type": "prefix",
+   "gloss": "one and a half",
+   "chapter": "6",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sex",
+   "element": "sex",
+   "forms": [
+    "sex"
+   ],
+   "type": "root",
+   "gloss": "six",
+   "chapter": "6",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sext",
+   "element": "sext",
+   "forms": [
+    "sext"
+   ],
+   "type": "root",
+   "gloss": "sixth",
+   "chapter": "6",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sil-sal",
+   "element": "sil~sal",
+   "forms": [
+    "sil",
+    "sal"
+   ],
+   "type": "root",
+   "gloss": "jump",
+   "chapter": "10",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-sis",
+   "element": "-sis",
+   "forms": [
+    "sis"
+   ],
+   "type": "suffix",
+   "gloss": "N",
+   "chapter": "3",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-som-somat",
+   "element": "som~somat",
+   "forms": [
+    "som",
+    "somat"
+   ],
+   "type": "root",
+   "gloss": "body",
+   "chapter": "11",
+   "source": "G",
+   "page": 280
+  },
+  {
+   "id": "el-somn",
+   "element": "somn",
+   "forms": [
+    "somn"
+   ],
+   "type": "root",
+   "gloss": "sleep",
+   "chapter": "2",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-son",
+   "element": "son",
+   "forms": [
+    "son"
+   ],
+   "type": "root",
+   "gloss": "sound",
+   "chapter": "6",
+   "source": "L",
+   "page": 280
+  },
+  {
+   "id": "el-soph",
+   "element": "soph",
+   "forms": [
+    "soph"
+   ],
+   "type": "root",
+   "gloss": "wise",
+   "chapter": "11",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-soror",
+   "element": "soror",
+   "forms": [
+    "soror"
+   ],
+   "type": "root",
+   "gloss": "sister",
+   "chapter": "10",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-spec-spic",
+   "element": "spec~spic",
+   "forms": [
+    "spec",
+    "spic"
+   ],
+   "type": "root",
+   "gloss": "look, see",
+   "chapter": "4",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-spor",
+   "element": "spor",
+   "forms": [
+    "spor"
+   ],
+   "type": "root",
+   "gloss": "scatter, seed",
+   "chapter": "10",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-sta-ste",
+   "element": "sta~ste",
+   "forms": [
+    "sta",
+    "ste"
+   ],
+   "type": "root",
+   "gloss": "stand, state",
+   "chapter": "4",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-sti-sta-ste-st",
+   "element": "sti~sta~ste~st",
+   "forms": [
+    "sti",
+    "sta",
+    "ste",
+    "st"
+   ],
+   "type": "root",
+   "gloss": "stand, state",
+   "chapter": "4",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-stom-stomat",
+   "element": "stom~stomat",
+   "forms": [
+    "stom",
+    "stomat"
+   ],
+   "type": "root",
+   "gloss": "mouth, opening",
+   "chapter": "8",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-strat",
+   "element": "strat",
+   "forms": [
+    "strat"
+   ],
+   "type": "root",
+   "gloss": "stretch, level, layer",
+   "chapter": "11",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-sub",
+   "element": "sub-",
+   "forms": [
+    "sub"
+   ],
+   "type": "prefix",
+   "gloss": "under, inferior",
+   "chapter": "3, 6, 7",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-super",
+   "element": "super-",
+   "forms": [
+    "super"
+   ],
+   "type": "prefix",
+   "gloss": "above, excessive",
+   "chapter": "3",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-syn",
+   "element": "syn-",
+   "forms": [
+    "syn"
+   ],
+   "type": "prefix",
+   "gloss": "with, together",
+   "chapter": "3, 6",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-t",
+   "element": "-t",
+   "forms": [
+    "t"
+   ],
+   "type": "suffix",
+   "gloss": "[perfect participle]",
+   "chapter": "9",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-tac",
+   "element": "tac",
+   "forms": [
+    "tac"
+   ],
+   "type": "root",
+   "gloss": "arrange, order",
+   "chapter": "9",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-tach-tachy",
+   "element": "tach~tachy",
+   "forms": [
+    "tach",
+    "tachy"
+   ],
+   "type": "root",
+   "gloss": "fast",
+   "chapter": "9",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-tag-teg-tig-tang-ting",
+   "element": "tag~teg~tig~tang~ting",
+   "forms": [
+    "tag",
+    "teg",
+    "tig",
+    "tang",
+    "ting"
+   ],
+   "type": "root",
+   "gloss": "touch",
+   "chapter": "4",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-tauto-auto",
+   "element": "tauto~auto",
+   "forms": [
+    "tauto",
+    "auto"
+   ],
+   "type": "root",
+   "gloss": "self",
+   "chapter": "9",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-teg-tag-tig-tang-ting",
+   "element": "teg~tag~tig~tang~ting",
+   "forms": [
+    "teg",
+    "tag",
+    "tig",
+    "tang",
+    "ting"
+   ],
+   "type": "root",
+   "gloss": "touch",
+   "chapter": "4",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-tel-tele",
+   "element": "tel~tele",
+   "forms": [
+    "tel",
+    "tele"
+   ],
+   "type": "root",
+   "gloss": "end, complete",
+   "chapter": "11",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-tele",
+   "element": "tele",
+   "forms": [
+    "tele"
+   ],
+   "type": "root",
+   "gloss": "far",
+   "chapter": "5",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-tempor",
+   "element": "tempor",
+   "forms": [
+    "tempor"
+   ],
+   "type": "root",
+   "gloss": "time",
+   "chapter": "3",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-ten-tend-tens",
+   "element": "ten~tend~tens",
+   "forms": [
+    "ten",
+    "tend",
+    "tens"
+   ],
+   "type": "root",
+   "gloss": "stretch, thin",
+   "chapter": "5",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-ten-tin",
+   "element": "ten~tin",
+   "forms": [
+    "ten",
+    "tin"
+   ],
+   "type": "root",
+   "gloss": "hold, maintain",
+   "chapter": "4",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-tend-tens-ten",
+   "element": "tend~tens~ten",
+   "forms": [
+    "tend",
+    "tens",
+    "ten"
+   ],
+   "type": "root",
+   "gloss": "stretch, thin",
+   "chapter": "5",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-tern",
+   "element": "tern",
+   "forms": [
+    "tern"
+   ],
+   "type": "root",
+   "gloss": "three (each)",
+   "chapter": "6",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-terr",
+   "element": "terr",
+   "forms": [
+    "terr"
+   ],
+   "type": "root",
+   "gloss": "earth",
+   "chapter": "9",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-terti",
+   "element": "terti",
+   "forms": [
+    "terti"
+   ],
+   "type": "root",
+   "gloss": "third",
+   "chapter": "6",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-tetta-tessara",
+   "element": "tetta~tessara",
+   "forms": [
+    "tetta",
+    "tessara"
+   ],
+   "type": "root",
+   "gloss": "four",
+   "chapter": "6",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-the",
+   "element": "the",
+   "forms": [
+    "the"
+   ],
+   "type": "root",
+   "gloss": "put, place",
+   "chapter": "10",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-the",
+   "element": "the",
+   "forms": [
+    "the"
+   ],
+   "type": "root",
+   "gloss": "god",
+   "chapter": "1",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-thromb",
+   "element": "thromb",
+   "forms": [
+    "thromb"
+   ],
+   "type": "root",
+   "gloss": "clot",
+   "chapter": "8",
+   "source": "G",
+   "page": 281
+  },
+  {
+   "id": "el-tig-ting-tag-teg-tang",
+   "element": "tig~ting~tag~teg~tang",
+   "forms": [
+    "tig",
+    "ting",
+    "tag",
+    "teg",
+    "tang"
+   ],
+   "type": "root",
+   "gloss": "touch",
+   "chapter": "4",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-tion-ion",
+   "element": "-tion~-ion",
+   "forms": [
+    "tion",
+    "ion"
+   ],
+   "type": "suffix",
+   "gloss": "N",
+   "chapter": "3",
+   "source": "L",
+   "page": 281
+  },
+  {
+   "id": "el-de",
+   "element": "de-",
+   "forms": [
+    "de"
+   ],
+   "type": "prefix",
+   "gloss": "reverse, from",
+   "chapter": "3,7",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-de-div",
+   "element": "de~div",
+   "forms": [
+    "de",
+    "div"
+   ],
+   "type": "root",
+   "gloss": "god, augury",
+   "chapter": "4",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-dec",
+   "element": "dec",
+   "forms": [
+    "dec"
+   ],
+   "type": "root",
+   "gloss": "acceptable",
+   "chapter": "10",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-deca",
+   "element": "deca",
+   "forms": [
+    "deca"
+   ],
+   "type": "root",
+   "gloss": "ten",
+   "chapter": "6",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-decem",
+   "element": "decem",
+   "forms": [
+    "decem"
+   ],
+   "type": "root",
+   "gloss": "ten",
+   "chapter": "6",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-decim-deci",
+   "element": "decim~deci",
+   "forms": [
+    "decim",
+    "deci"
+   ],
+   "type": "root",
+   "gloss": "tenth",
+   "chapter": "6",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-dem",
+   "element": "dem",
+   "forms": [
+    "dem"
+   ],
+   "type": "root",
+   "gloss": "people",
+   "chapter": "6",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-demn-damn",
+   "element": "demn~damn",
+   "forms": [
+    "demn",
+    "damn"
+   ],
+   "type": "root",
+   "gloss": "loss, harm",
+   "chapter": "9",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-den",
+   "element": "den",
+   "forms": [
+    "den"
+   ],
+   "type": "root",
+   "gloss": "ten (each)",
+   "chapter": "6",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-dendr-dry",
+   "element": "dendr~dry",
+   "forms": [
+    "dendr",
+    "dry"
+   ],
+   "type": "root",
+   "gloss": "tree",
+   "chapter": "11",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-dent",
+   "element": "dent",
+   "forms": [
+    "dent"
+   ],
+   "type": "root",
+   "gloss": "tooth",
+   "chapter": "11",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-dermat-derm",
+   "element": "dermat~derm",
+   "forms": [
+    "dermat",
+    "derm"
+   ],
+   "type": "root",
+   "gloss": "skin",
+   "chapter": "8",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-deuter",
+   "element": "deuter",
+   "forms": [
+    "deuter"
+   ],
+   "type": "root",
+   "gloss": "second",
+   "chapter": "6",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-di-da-do",
+   "element": "di~da~do",
+   "forms": [
+    "di",
+    "da",
+    "do"
+   ],
+   "type": "root",
+   "gloss": "give",
+   "chapter": "9",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-di-dy",
+   "element": "di~dy",
+   "forms": [
+    "di",
+    "dy"
+   ],
+   "type": "root",
+   "gloss": "two",
+   "chapter": "6",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-dia",
+   "element": "dia-",
+   "forms": [
+    "dia"
+   ],
+   "type": "prefix",
+   "gloss": "through",
+   "chapter": "3",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-dic",
+   "element": "dic",
+   "forms": [
+    "dic"
+   ],
+   "type": "root",
+   "gloss": "say, point",
+   "chapter": "9",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-dich",
+   "element": "dich",
+   "forms": [
+    "dich"
+   ],
+   "type": "root",
+   "gloss": "(split in) two",
+   "chapter": "6",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-dipl",
+   "element": "dipl",
+   "forms": [
+    "dipl"
+   ],
+   "type": "root",
+   "gloss": "double",
+   "chapter": "6",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-div-de",
+   "element": "div~de",
+   "forms": [
+    "div",
+    "de"
+   ],
+   "type": "root",
+   "gloss": "god, augury",
+   "chapter": "4",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-do",
+   "element": "do",
+   "forms": [
+    "do"
+   ],
+   "type": "root",
+   "gloss": "give",
+   "chapter": "9",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-doc",
+   "element": "doc",
+   "forms": [
+    "doc"
+   ],
+   "type": "root",
+   "gloss": "teach",
+   "chapter": "5",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-doc-dog",
+   "element": "doc~dog",
+   "forms": [
+    "doc",
+    "dog"
+   ],
+   "type": "root",
+   "gloss": "opinion",
+   "chapter": "5",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-dol",
+   "element": "dol",
+   "forms": [
+    "dol"
+   ],
+   "type": "root",
+   "gloss": "suffer",
+   "chapter": "9",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-duc",
+   "element": "duc",
+   "forms": [
+    "duc"
+   ],
+   "type": "root",
+   "gloss": "to lead",
+   "chapter": "2",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-dy-di",
+   "element": "dy~di",
+   "forms": [
+    "dy",
+    "di"
+   ],
+   "type": "root",
+   "gloss": "two",
+   "chapter": "6",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-dyn",
+   "element": "dyn",
+   "forms": [
+    "dyn"
+   ],
+   "type": "root",
+   "gloss": "power",
+   "chapter": "11",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-e-ex",
+   "element": "e-~ex-",
+   "forms": [
+    "e",
+    "ex"
+   ],
+   "type": "prefix",
+   "gloss": "out",
+   "chapter": "3,6,7",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-ec",
+   "element": "ec-",
+   "forms": [
+    "ec"
+   ],
+   "type": "prefix",
+   "gloss": "out",
+   "chapter": "3",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-ecto",
+   "element": "ecto-",
+   "forms": [
+    "ecto"
+   ],
+   "type": "prefix",
+   "gloss": "outside",
+   "chapter": "3",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-ed-es",
+   "element": "ed~es",
+   "forms": [
+    "ed",
+    "es"
+   ],
+   "type": "root",
+   "gloss": "eat",
+   "chapter": "10",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-el1",
+   "element": "-el1 (< -l diminutive)",
+   "forms": [
+    "el1"
+   ],
+   "type": "suffix",
+   "gloss": "little",
+   "chapter": "9",
+   "source": "L",
+   "page": 270
+  },
+  {
+   "id": "el-em-hem-haem",
+   "element": "em~hem~haem",
+   "forms": [
+    "em",
+    "hem",
+    "haem"
+   ],
+   "type": "root",
+   "gloss": "blood",
+   "chapter": "8",
+   "source": "G",
+   "page": 270
+  },
+  {
+   "id": "el-eme",
+   "element": "-eme",
+   "forms": [
+    "eme"
+   ],
+   "type": "suffix",
+   "gloss": "[abstract unit]",
+   "chapter": "4",
+   "source": "G",
+   "page": 271
+  },
+  {
+   "id": "el-en",
+   "element": "en-",
+   "forms": [
+    "en"
+   ],
+   "type": "prefix",
+   "gloss": "in",
+   "chapter": "3",
+   "source": "G",
+   "page": 271
+  },
+  {
+   "id": "el-ence",
+   "element": "-ence",
+   "forms": [
+    "ence"
+   ],
+   "type": "suffix",
+   "gloss": "N",
+   "chapter": "3,4",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-end-and",
+   "element": "-end~-and",
+   "forms": [
+    "end",
+    "and"
+   ],
+   "type": "suffix",
+   "gloss": "N [gerundive]",
+   "chapter": "9",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-endo",
+   "element": "endo-",
+   "forms": [
+    "endo"
+   ],
+   "type": "prefix",
+   "gloss": "inside",
+   "chapter": "3",
+   "source": "G",
+   "page": 271
+  },
+  {
+   "id": "el-enn-ann",
+   "element": "enn~ann",
+   "forms": [
+    "enn",
+    "ann"
+   ],
+   "type": "root",
+   "gloss": "year",
+   "chapter": "4",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-ennea",
+   "element": "ennea",
+   "forms": [
+    "ennea"
+   ],
+   "type": "root",
+   "gloss": "nine",
+   "chapter": "6",
+   "source": "G",
+   "page": 271
+  },
+  {
+   "id": "el-ent",
+   "element": "-ent",
+   "forms": [
+    "ent"
+   ],
+   "type": "suffix",
+   "gloss": "A, N [present participle]",
+   "chapter": "3,9",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-epi",
+   "element": "epi-",
+   "forms": [
+    "epi"
+   ],
+   "type": "prefix",
+   "gloss": "on, over",
+   "chapter": "3",
+   "source": "G",
+   "page": 271
+  },
+  {
+   "id": "el-ept-apt",
+   "element": "ept~apt",
+   "forms": [
+    "ept",
+    "apt"
+   ],
+   "type": "root",
+   "gloss": "fit, capable",
+   "chapter": "4",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-equ-iqu",
+   "element": "equ~iqu",
+   "forms": [
+    "equ",
+    "iqu"
+   ],
+   "type": "root",
+   "gloss": "even, level",
+   "chapter": "4",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-erg-urg-org",
+   "element": "erg~urg~org",
+   "forms": [
+    "erg",
+    "urg",
+    "org"
+   ],
+   "type": "root",
+   "gloss": "work",
+   "chapter": "4",
+   "source": "G",
+   "page": 271
+  },
+  {
+   "id": "el-ero",
+   "element": "ero",
+   "forms": [
+    "ero"
+   ],
+   "type": "root",
+   "gloss": "physical love",
+   "chapter": "5",
+   "source": "G",
+   "page": 271
+  },
+  {
+   "id": "el-err",
+   "element": "err",
+   "forms": [
+    "err"
+   ],
+   "type": "root",
+   "gloss": "wander, do wrong",
+   "chapter": "9",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-esc-sc",
+   "element": "-esc~-sc",
+   "forms": [
+    "esc",
+    "sc"
+   ],
+   "type": "suffix",
+   "gloss": "begin",
+   "chapter": "9",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-esim",
+   "element": "-esim",
+   "forms": [
+    "esim"
+   ],
+   "type": "suffix",
+   "gloss": "-th (ordinal number)",
+   "chapter": "6",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-esth-aesth",
+   "element": "esth~aesth",
+   "forms": [
+    "esth",
+    "aesth"
+   ],
+   "type": "root",
+   "gloss": "feel",
+   "chapter": "5",
+   "source": "G",
+   "page": 271
+  },
+  {
+   "id": "el-eu",
+   "element": "eu-",
+   "forms": [
+    "eu"
+   ],
+   "type": "prefix",
+   "gloss": "good",
+   "chapter": "5",
+   "source": "G",
+   "page": 271
+  },
+  {
+   "id": "el-ev",
+   "element": "ev",
+   "forms": [
+    "ev"
+   ],
+   "type": "root",
+   "gloss": "age",
+   "chapter": "11",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-ex-e",
+   "element": "ex-~e-",
+   "forms": [
+    "ex",
+    "e"
+   ],
+   "type": "prefix",
+   "gloss": "out",
+   "chapter": "3,6,7",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-extra",
+   "element": "extra-",
+   "forms": [
+    "extra"
+   ],
+   "type": "prefix",
+   "gloss": "outside",
+   "chapter": "3,7",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-fa",
+   "element": "fa",
+   "forms": [
+    "fa"
+   ],
+   "type": "root",
+   "gloss": "speak",
+   "chapter": "10",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-fac-fec-fic",
+   "element": "fac~fec~fic",
+   "forms": [
+    "fac",
+    "fec",
+    "fic"
+   ],
+   "type": "root",
+   "gloss": "do, make",
+   "chapter": "4",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-fec-fac-fic",
+   "element": "fec~fac~fic",
+   "forms": [
+    "fec",
+    "fac",
+    "fic"
+   ],
+   "type": "root",
+   "gloss": "do, make",
+   "chapter": "4",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-fer",
+   "element": "fer",
+   "forms": [
+    "fer"
+   ],
+   "type": "root",
+   "gloss": "carry",
+   "chapter": "10",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-fic-fec-fac",
+   "element": "fic~fec~fac",
+   "forms": [
+    "fic",
+    "fec",
+    "fac"
+   ],
+   "type": "root",
+   "gloss": "do, make",
+   "chapter": "4",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-fla",
+   "element": "fla",
+   "forms": [
+    "fla"
+   ],
+   "type": "root",
+   "gloss": "blow",
+   "chapter": "6",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-flu-fluc-fluv",
+   "element": "flu~fluc~fluv",
+   "forms": [
+    "flu",
+    "fluc",
+    "fluv"
+   ],
+   "type": "root",
+   "gloss": "flow, river",
+   "chapter": "9",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-formic",
+   "element": "formic",
+   "forms": [
+    "formic"
+   ],
+   "type": "root",
+   "gloss": "ant",
+   "chapter": "11",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-frag-frang-fring",
+   "element": "frag~frang~fring",
+   "forms": [
+    "frag",
+    "frang",
+    "fring"
+   ],
+   "type": "root",
+   "gloss": "break",
+   "chapter": "4",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-frang-frag-fring",
+   "element": "frang~frag~fring",
+   "forms": [
+    "frang",
+    "frag",
+    "fring"
+   ],
+   "type": "root",
+   "gloss": "break",
+   "chapter": "4",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-fratr",
+   "element": "fratr",
+   "forms": [
+    "fratr"
+   ],
+   "type": "root",
+   "gloss": "brother",
+   "chapter": "10",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-fring-frag-frang",
+   "element": "fring~frag~frang",
+   "forms": [
+    "fring",
+    "frag",
+    "frang"
+   ],
+   "type": "root",
+   "gloss": "break",
+   "chapter": "4",
+   "source": "L",
+   "page": 271
+  },
+  {
+   "id": "el-fug",
+   "element": "fug",
+   "forms": [
+    "fug"
+   ],
+   "type": "root",
+   "gloss": "flee",
+   "chapter": "2",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-fund-fus",
+   "element": "fund~fus",
+   "forms": [
+    "fund",
+    "fus"
+   ],
+   "type": "root",
+   "gloss": "pour, melt, blend",
+   "chapter": "4",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-fus-fund",
+   "element": "fus~fund",
+   "forms": [
+    "fus",
+    "fund"
+   ],
+   "type": "root",
+   "gloss": "pour, melt, blend",
+   "chapter": "4",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-galact",
+   "element": "galact",
+   "forms": [
+    "galact"
+   ],
+   "type": "root",
+   "gloss": "milk",
+   "chapter": "8",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-gam",
+   "element": "gam",
+   "forms": [
+    "gam"
+   ],
+   "type": "root",
+   "gloss": "marry, unite",
+   "chapter": "1",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-gastr",
+   "element": "gastr",
+   "forms": [
+    "gastr"
+   ],
+   "type": "root",
+   "gloss": "stomach",
+   "chapter": "8",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-ge",
+   "element": "ge",
+   "forms": [
+    "ge"
+   ],
+   "type": "root",
+   "gloss": "earth",
+   "chapter": "10",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-gemin",
+   "element": "gemin",
+   "forms": [
+    "gemin"
+   ],
+   "type": "root",
+   "gloss": "twin",
+   "chapter": "10",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-gen-gn-na",
+   "element": "gen~gn~na",
+   "forms": [
+    "gen",
+    "gn",
+    "na"
+   ],
+   "type": "root",
+   "gloss": "birth, type, origin",
+   "chapter": "4",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-gen-gon",
+   "element": "gen~gon",
+   "forms": [
+    "gen",
+    "gon"
+   ],
+   "type": "root",
+   "gloss": "birth",
+   "chapter": "4",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-ger",
+   "element": "ger",
+   "forms": [
+    "ger"
+   ],
+   "type": "root",
+   "gloss": "old person",
+   "chapter": "10",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-giga",
+   "element": "giga",
+   "forms": [
+    "giga"
+   ],
+   "type": "root",
+   "gloss": "giant, billion",
+   "chapter": "6",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-gloss-glott",
+   "element": "gloss~glott",
+   "forms": [
+    "gloss",
+    "glott"
+   ],
+   "type": "root",
+   "gloss": "tongue, speech",
+   "chapter": "9",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-gn-gen-na",
+   "element": "gn~gen~na",
+   "forms": [
+    "gn",
+    "gen",
+    "na"
+   ],
+   "type": "root",
+   "gloss": "birth, type, origin",
+   "chapter": "4",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-gno",
+   "element": "gno",
+   "forms": [
+    "gno"
+   ],
+   "type": "root",
+   "gloss": "know",
+   "chapter": "9",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-gon-gen",
+   "element": "gon~gen",
+   "forms": [
+    "gon",
+    "gen"
+   ],
+   "type": "root",
+   "gloss": "birth",
+   "chapter": "4",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-grad-gred-gress",
+   "element": "grad~gred~gress",
+   "forms": [
+    "grad",
+    "gred",
+    "gress"
+   ],
+   "type": "root",
+   "gloss": "step, go",
+   "chapter": "5",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-graph-gramm",
+   "element": "graph~gramm",
+   "forms": [
+    "graph",
+    "gramm"
+   ],
+   "type": "root",
+   "gloss": "write",
+   "chapter": "10",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-grat",
+   "element": "grat",
+   "forms": [
+    "grat"
+   ],
+   "type": "root",
+   "gloss": "goodwill, thankful, pleased, kind",
+   "chapter": "2",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-gravid",
+   "element": "gravid",
+   "forms": [
+    "gravid"
+   ],
+   "type": "root",
+   "gloss": "pregnant",
+   "chapter": "8",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-gred-grad-gress",
+   "element": "gred~grad~gress",
+   "forms": [
+    "gred",
+    "grad",
+    "gress"
+   ],
+   "type": "root",
+   "gloss": "step, go",
+   "chapter": "5",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-greg",
+   "element": "greg",
+   "forms": [
+    "greg"
+   ],
+   "type": "root",
+   "gloss": "social group, gather",
+   "chapter": "2",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-gress-grad-gred",
+   "element": "gress~grad~gred",
+   "forms": [
+    "gress",
+    "grad",
+    "gred"
+   ],
+   "type": "root",
+   "gloss": "step, go",
+   "chapter": "5",
+   "source": "L",
+   "page": 272
+  },
+  {
+   "id": "el-gyn-gynec",
+   "element": "gyn~gynec",
+   "forms": [
+    "gyn",
+    "gynec"
+   ],
+   "type": "root",
+   "gloss": "woman, female",
+   "chapter": "9",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-haem-hem-em",
+   "element": "haem~hem~em",
+   "forms": [
+    "haem",
+    "hem",
+    "em"
+   ],
+   "type": "root",
+   "gloss": "blood",
+   "chapter": "8",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-hecaton",
+   "element": "hecaton",
+   "forms": [
+    "hecaton"
+   ],
+   "type": "root",
+   "gloss": "hundred",
+   "chapter": "6",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-heli",
+   "element": "heli",
+   "forms": [
+    "heli"
+   ],
+   "type": "root",
+   "gloss": "sun",
+   "chapter": "5",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-hem-haem-em",
+   "element": "hem~haem~em",
+   "forms": [
+    "hem",
+    "haem",
+    "em"
+   ],
+   "type": "root",
+   "gloss": "blood",
+   "chapter": "8",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-hemi",
+   "element": "hemi-",
+   "forms": [
+    "hemi"
+   ],
+   "type": "prefix",
+   "gloss": "half",
+   "chapter": "6",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-hepat",
+   "element": "hepat",
+   "forms": [
+    "hepat"
+   ],
+   "type": "root",
+   "gloss": "liver",
+   "chapter": "8",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-hepta",
+   "element": "hepta",
+   "forms": [
+    "hepta"
+   ],
+   "type": "root",
+   "gloss": "seven",
+   "chapter": "6",
+   "source": "G",
+   "page": 272
+  },
+  {
+   "id": "el-her-hes",
+   "element": "her~hes",
+   "forms": [
+    "her",
+    "hes"
+   ],
+   "type": "root",
+   "gloss": "to stick, hold back",
+   "chapter": "9",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-herp-herpet",
+   "element": "herp~herpet",
+   "forms": [
+    "herp",
+    "herpet"
+   ],
+   "type": "root",
+   "gloss": "to creep, reptile",
+   "chapter": "11",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-hes-her",
+   "element": "hes~her",
+   "forms": [
+    "hes",
+    "her"
+   ],
+   "type": "root",
+   "gloss": "to stick, hold back",
+   "chapter": "9",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-hetero",
+   "element": "hetero-",
+   "forms": [
+    "hetero"
+   ],
+   "type": "prefix",
+   "gloss": "other, different",
+   "chapter": "3",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-hexa",
+   "element": "hexa",
+   "forms": [
+    "hexa"
+   ],
+   "type": "root",
+   "gloss": "six",
+   "chapter": "6",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-hist",
+   "element": "hist",
+   "forms": [
+    "hist"
+   ],
+   "type": "root",
+   "gloss": "body tissue",
+   "chapter": "8",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-hom",
+   "element": "hom",
+   "forms": [
+    "hom"
+   ],
+   "type": "root",
+   "gloss": "human",
+   "chapter": "2",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-homo",
+   "element": "homo-",
+   "forms": [
+    "homo"
+   ],
+   "type": "prefix",
+   "gloss": "same",
+   "chapter": "3",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-hor",
+   "element": "hor",
+   "forms": [
+    "hor"
+   ],
+   "type": "root",
+   "gloss": "hour",
+   "chapter": "11",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-hydr-hydat",
+   "element": "hydr~hydat",
+   "forms": [
+    "hydr",
+    "hydat"
+   ],
+   "type": "root",
+   "gloss": "water",
+   "chapter": "9",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-hypo",
+   "element": "hypo-",
+   "forms": [
+    "hypo"
+   ],
+   "type": "prefix",
+   "gloss": "under, below, partial",
+   "chapter": "3",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-hyster",
+   "element": "hyster",
+   "forms": [
+    "hyster"
+   ],
+   "type": "root",
+   "gloss": "womb, neurotic disorder",
+   "chapter": "8",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-i",
+   "element": "-i-",
+   "forms": [
+    "i"
+   ],
+   "type": "suffix",
+   "gloss": "[empty interfix]",
+   "chapter": "3",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-ia",
+   "element": "-ia",
+   "forms": [
+    "ia"
+   ],
+   "type": "suffix",
+   "gloss": "land, state, medical condition",
+   "chapter": "8",
+   "source": "G,L",
+   "page": 273
+  },
+  {
+   "id": "el-ial-al",
+   "element": "-ial~-al",
+   "forms": [
+    "ial",
+    "al"
+   ],
+   "type": "suffix",
+   "gloss": "A",
+   "chapter": "9",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-iatr",
+   "element": "iatr",
+   "forms": [
+    "iatr"
+   ],
+   "type": "root",
+   "gloss": "heal",
+   "chapter": "1",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-ible-able-ble",
+   "element": "-ible~-able~-ble",
+   "forms": [
+    "ible",
+    "able",
+    "ble"
+   ],
+   "type": "suffix",
+   "gloss": "A",
+   "chapter": "3,11",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-ic",
+   "element": "-ic",
+   "forms": [
+    "ic"
+   ],
+   "type": "suffix",
+   "gloss": "A, N",
+   "chapter": "3",
+   "source": "G,L",
+   "page": 273
+  },
+  {
+   "id": "el-ichthy",
+   "element": "ichthy",
+   "forms": [
+    "ichthy"
+   ],
+   "type": "root",
+   "gloss": "fish",
+   "chapter": "11",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-icl-icul",
+   "element": "-icl~-icul (< -l diminutive)",
+   "forms": [
+    "icl",
+    "icul"
+   ],
+   "type": "suffix",
+   "gloss": "little",
+   "chapter": "9",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-icosa",
+   "element": "icosa",
+   "forms": [
+    "icosa"
+   ],
+   "type": "root",
+   "gloss": "twenty",
+   "chapter": "6",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-idi",
+   "element": "idi",
+   "forms": [
+    "idi"
+   ],
+   "type": "root",
+   "gloss": "personal",
+   "chapter": "1",
+   "source": "G",
+   "page": 273
+  },
+  {
+   "id": "el-ig-ag",
+   "element": "ig~ag",
+   "forms": [
+    "ig",
+    "ag"
+   ],
+   "type": "root",
+   "gloss": "act, do, drive",
+   "chapter": "5",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-il",
+   "element": "-il",
+   "forms": [
+    "il"
+   ],
+   "type": "suffix",
+   "gloss": "A",
+   "chapter": "4,9",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-ill",
+   "element": "-ill (< -l diminutive)",
+   "forms": [
+    "ill"
+   ],
+   "type": "suffix",
+   "gloss": "little",
+   "chapter": "9",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-im-am",
+   "element": "im~am",
+   "forms": [
+    "im",
+    "am"
+   ],
+   "type": "root",
+   "gloss": "love",
+   "chapter": "4",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-in",
+   "element": "in-",
+   "forms": [
+    "in"
+   ],
+   "type": "prefix",
+   "gloss": "not",
+   "chapter": "3",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-in",
+   "element": "in-",
+   "forms": [
+    "in"
+   ],
+   "type": "prefix",
+   "gloss": "in, into",
+   "chapter": "3",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-infra",
+   "element": "infra-",
+   "forms": [
+    "infra"
+   ],
+   "type": "prefix",
+   "gloss": "below, after",
+   "chapter": "3",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-inter",
+   "element": "inter-",
+   "forms": [
+    "inter"
+   ],
+   "type": "prefix",
+   "gloss": "between, among",
+   "chapter": "3",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-intra",
+   "element": "intra-",
+   "forms": [
+    "intra"
+   ],
+   "type": "prefix",
+   "gloss": "within",
+   "chapter": "3",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-iqu-equ",
+   "element": "iqu~equ",
+   "forms": [
+    "iqu",
+    "equ"
+   ],
+   "type": "root",
+   "gloss": "even, level",
+   "chapter": "4",
+   "source": "L",
+   "page": 273
+  },
+  {
+   "id": "el-tive-ive",
+   "element": "-tive~-ive",
+   "forms": [
+    "tive",
+    "ive"
+   ],
+   "type": "suffix",
+   "gloss": "A, N",
+   "chapter": "2, 3, 6",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-tom-tm",
+   "element": "tom~tm",
+   "forms": [
+    "tom",
+    "tm"
+   ],
+   "type": "root",
+   "gloss": "cut",
+   "chapter": "4",
+   "source": "G",
+   "page": 282
+  },
+  {
+   "id": "el-top",
+   "element": "top",
+   "forms": [
+    "top"
+   ],
+   "type": "root",
+   "gloss": "place",
+   "chapter": "1",
+   "source": "G",
+   "page": 282
+  },
+  {
+   "id": "el-tot",
+   "element": "tot",
+   "forms": [
+    "tot"
+   ],
+   "type": "root",
+   "gloss": "whole, all",
+   "chapter": "6",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-tra-trans",
+   "element": "tra~trans-",
+   "forms": [
+    "tra",
+    "trans"
+   ],
+   "type": "root",
+   "gloss": "across, through",
+   "chapter": "3, 6",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-trans-tra",
+   "element": "trans~tra-",
+   "forms": [
+    "trans",
+    "tra"
+   ],
+   "type": "root",
+   "gloss": "across, through",
+   "chapter": "3, 6",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-tri",
+   "element": "tri",
+   "forms": [
+    "tri"
+   ],
+   "type": "root",
+   "gloss": "three",
+   "chapter": "6",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-trich",
+   "element": "trich (< tri)",
+   "forms": [
+    "trich"
+   ],
+   "type": "root",
+   "gloss": "three (parts)",
+   "chapter": "6",
+   "source": "G",
+   "page": 282
+  },
+  {
+   "id": "el-trit",
+   "element": "trit",
+   "forms": [
+    "trit"
+   ],
+   "type": "root",
+   "gloss": "third",
+   "chapter": "6",
+   "source": "G",
+   "page": 282
+  },
+  {
+   "id": "el-trop",
+   "element": "trop",
+   "forms": [
+    "trop"
+   ],
+   "type": "root",
+   "gloss": "to turn",
+   "chapter": "11",
+   "source": "G",
+   "page": 282
+  },
+  {
+   "id": "el-trud-trus",
+   "element": "trud~trus",
+   "forms": [
+    "trud",
+    "trus"
+   ],
+   "type": "root",
+   "gloss": "thrust",
+   "chapter": "5",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-ture-ure",
+   "element": "-ture~-ure",
+   "forms": [
+    "ture",
+    "ure"
+   ],
+   "type": "suffix",
+   "gloss": "N",
+   "chapter": "9",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-ty",
+   "element": "-ty",
+   "forms": [
+    "ty"
+   ],
+   "type": "suffix",
+   "gloss": "N",
+   "chapter": "4, 9",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-ule",
+   "element": "-ule (< -l diminutive)",
+   "forms": [
+    "ule"
+   ],
+   "type": "suffix",
+   "gloss": "little",
+   "chapter": "9",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-um-ium",
+   "element": "-um~-ium",
+   "forms": [
+    "um",
+    "ium"
+   ],
+   "type": "suffix",
+   "gloss": "thing [singular]",
+   "chapter": "9",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-un",
+   "element": "un",
+   "forms": [
+    "un"
+   ],
+   "type": "root",
+   "gloss": "one",
+   "chapter": "6",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-urg-erg-org",
+   "element": "urg~erg~org",
+   "forms": [
+    "urg",
+    "erg",
+    "org"
+   ],
+   "type": "root",
+   "gloss": "work",
+   "chapter": "4",
+   "source": "G",
+   "page": 282
+  },
+  {
+   "id": "el-us",
+   "element": "-us",
+   "forms": [
+    "us"
+   ],
+   "type": "suffix",
+   "gloss": "N, A [masculine singular]",
+   "chapter": "9",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-uxor",
+   "element": "uxor",
+   "forms": [
+    "uxor"
+   ],
+   "type": "root",
+   "gloss": "wife",
+   "chapter": "10",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-vac-van",
+   "element": "vac~van",
+   "forms": [
+    "vac",
+    "van"
+   ],
+   "type": "root",
+   "gloss": "empty",
+   "chapter": "9",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-val",
+   "element": "val",
+   "forms": [
+    "val"
+   ],
+   "type": "root",
+   "gloss": "strong, useful",
+   "chapter": "10",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-van-vac",
+   "element": "van~vac",
+   "forms": [
+    "van",
+    "vac"
+   ],
+   "type": "root",
+   "gloss": "empty",
+   "chapter": "9",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-vas",
+   "element": "vas",
+   "forms": [
+    "vas"
+   ],
+   "type": "root",
+   "gloss": "vessel, blood vessel, duct",
+   "chapter": "8",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-ven",
+   "element": "ven",
+   "forms": [
+    "ven"
+   ],
+   "type": "root",
+   "gloss": "come",
+   "chapter": "2",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-ven",
+   "element": "ven",
+   "forms": [
+    "ven"
+   ],
+   "type": "root",
+   "gloss": "vein",
+   "chapter": "8",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-ver",
+   "element": "ver",
+   "forms": [
+    "ver"
+   ],
+   "type": "root",
+   "gloss": "true",
+   "chapter": "2",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-ver",
+   "element": "ver",
+   "forms": [
+    "ver"
+   ],
+   "type": "root",
+   "gloss": "turn",
+   "chapter": "9",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-verg",
+   "element": "verg (< ver)",
+   "forms": [
+    "verg"
+   ],
+   "type": "root",
+   "gloss": "turn",
+   "chapter": "9",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-verm",
+   "element": "verm (< ver 'turn')",
+   "forms": [
+    "verm"
+   ],
+   "type": "root",
+   "gloss": "worm",
+   "chapter": "11",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-viginti",
+   "element": "viginti",
+   "forms": [
+    "viginti"
+   ],
+   "type": "root",
+   "gloss": "twenty",
+   "chapter": "6",
+   "source": "L",
+   "page": 282
+  },
+  {
+   "id": "el-vin",
+   "element": "vin",
+   "forms": [
+    "vin"
+   ],
+   "type": "root",
+   "gloss": "wine",
+   "chapter": "11",
+   "source": "L",
+   "page": 283
+  },
+  {
+   "id": "el-vinc-vic",
+   "element": "vinc~vic",
+   "forms": [
+    "vinc",
+    "vic"
+   ],
+   "type": "root",
+   "gloss": "conquer",
+   "chapter": "4",
+   "source": "L",
+   "page": 283
+  },
+  {
+   "id": "el-vit-viv",
+   "element": "vit~viv",
+   "forms": [
+    "vit",
+    "viv"
+   ],
+   "type": "root",
+   "gloss": "live",
+   "chapter": "9",
+   "source": "L",
+   "page": 283
+  },
+  {
+   "id": "el-viv-vit",
+   "element": "viv~vit",
+   "forms": [
+    "viv",
+    "vit"
+   ],
+   "type": "root",
+   "gloss": "live",
+   "chapter": "9",
+   "source": "L",
+   "page": 283
+  },
+  {
+   "id": "el-voc",
+   "element": "voc",
+   "forms": [
+    "voc"
+   ],
+   "type": "root",
+   "gloss": "call, voice",
+   "chapter": "10",
+   "source": "L",
+   "page": 283
+  },
+  {
+   "id": "el-vom",
+   "element": "vom",
+   "forms": [
+    "vom"
+   ],
+   "type": "root",
+   "gloss": "regurgitate",
+   "chapter": "3",
+   "source": "L",
+   "page": 283
+  },
+  {
+   "id": "el-vor",
+   "element": "vor",
+   "forms": [
+    "vor"
+   ],
+   "type": "root",
+   "gloss": "eat",
+   "chapter": "4",
+   "source": "L",
+   "page": 283
+  },
+  {
+   "id": "el-xen",
+   "element": "xen",
+   "forms": [
+    "xen"
+   ],
+   "type": "root",
+   "gloss": "foreign",
+   "chapter": "1",
+   "source": "G",
+   "page": 283
+  },
+  {
+   "id": "el-xyl",
+   "element": "xyl",
+   "forms": [
+    "xyl"
+   ],
+   "type": "root",
+   "gloss": "wood",
+   "chapter": "11",
+   "source": "G",
+   "page": 283
+  },
+  {
+   "id": "el-y",
+   "element": "-y",
+   "forms": [
+    "y"
+   ],
+   "type": "suffix",
+   "gloss": "N",
+   "chapter": "3",
+   "source": "G, L",
+   "page": 283
+  },
+  {
+   "id": "el-zo",
+   "element": "zo",
+   "forms": [
+    "zo"
+   ],
+   "type": "root",
+   "gloss": "animal",
+   "chapter": "4",
+   "source": "G",
+   "page": 283
+  },
+  {
+   "id": "el-path",
+   "element": "path",
+   "forms": [
+    "path"
+   ],
+   "type": "root",
+   "gloss": "feel, illness",
+   "chapter": "1",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-patr",
+   "element": "patr",
+   "forms": [
+    "patr"
+   ],
+   "type": "root",
+   "gloss": "father, country",
+   "chapter": "10",
+   "source": "G, L",
+   "page": 278
+  },
+  {
+   "id": "el-pauc",
+   "element": "pauc",
+   "forms": [
+    "pauc"
+   ],
+   "type": "root",
+   "gloss": "few",
+   "chapter": "6",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-ped",
+   "element": "ped",
+   "forms": [
+    "ped"
+   ],
+   "type": "root",
+   "gloss": "foot",
+   "chapter": "10",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-ped-paed",
+   "element": "ped~paed",
+   "forms": [
+    "ped",
+    "paed"
+   ],
+   "type": "root",
+   "gloss": "child, teach",
+   "chapter": "10",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-pen-pun",
+   "element": "pen~pun",
+   "forms": [
+    "pen",
+    "pun"
+   ],
+   "type": "root",
+   "gloss": "punish",
+   "chapter": "9",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-pend-pond",
+   "element": "pend~pond",
+   "forms": [
+    "pend",
+    "pond"
+   ],
+   "type": "root",
+   "gloss": "hang, weigh",
+   "chapter": "4",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-penta",
+   "element": "penta",
+   "forms": [
+    "penta"
+   ],
+   "type": "root",
+   "gloss": "five",
+   "chapter": "6",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-per",
+   "element": "per-",
+   "forms": [
+    "per"
+   ],
+   "type": "prefix",
+   "gloss": "through, thorough",
+   "chapter": "3",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-peri",
+   "element": "peri-",
+   "forms": [
+    "peri"
+   ],
+   "type": "prefix",
+   "gloss": "around, near",
+   "chapter": "3",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-pet",
+   "element": "pet",
+   "forms": [
+    "pet"
+   ],
+   "type": "root",
+   "gloss": "seek, go to",
+   "chapter": "2",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-petr",
+   "element": "petr",
+   "forms": [
+    "petr"
+   ],
+   "type": "root",
+   "gloss": "rock",
+   "chapter": "1",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-pha-phe",
+   "element": "pha~phe",
+   "forms": [
+    "pha",
+    "phe"
+   ],
+   "type": "root",
+   "gloss": "speak",
+   "chapter": "10",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phag",
+   "element": "phag",
+   "forms": [
+    "phag"
+   ],
+   "type": "root",
+   "gloss": "eat",
+   "chapter": "11",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phe-pha",
+   "element": "phe~pha",
+   "forms": [
+    "phe",
+    "pha"
+   ],
+   "type": "root",
+   "gloss": "speak",
+   "chapter": "10",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-pher-phor",
+   "element": "pher~phor",
+   "forms": [
+    "pher",
+    "phor"
+   ],
+   "type": "root",
+   "gloss": "carry",
+   "chapter": "10",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phil",
+   "element": "phil",
+   "forms": [
+    "phil"
+   ],
+   "type": "root",
+   "gloss": "liking, tendency",
+   "chapter": "1",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phleb",
+   "element": "phleb",
+   "forms": [
+    "phleb"
+   ],
+   "type": "root",
+   "gloss": "vein",
+   "chapter": "8",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phob",
+   "element": "phob",
+   "forms": [
+    "phob"
+   ],
+   "type": "root",
+   "gloss": "fear",
+   "chapter": "8",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phon",
+   "element": "phon",
+   "forms": [
+    "phon"
+   ],
+   "type": "root",
+   "gloss": "sound",
+   "chapter": "1",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phor-pher",
+   "element": "phor~pher",
+   "forms": [
+    "phor",
+    "pher"
+   ],
+   "type": "root",
+   "gloss": "carry",
+   "chapter": "10",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phot-phos",
+   "element": "phot~phos",
+   "forms": [
+    "phot",
+    "phos"
+   ],
+   "type": "root",
+   "gloss": "light",
+   "chapter": "5",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phylac",
+   "element": "phylac",
+   "forms": [
+    "phylac"
+   ],
+   "type": "root",
+   "gloss": "guard",
+   "chapter": "8",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phyll",
+   "element": "phyll",
+   "forms": [
+    "phyll"
+   ],
+   "type": "root",
+   "gloss": "leaf",
+   "chapter": "10",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-phyt",
+   "element": "phyt",
+   "forms": [
+    "phyt"
+   ],
+   "type": "root",
+   "gloss": "plant",
+   "chapter": "10",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-pithec",
+   "element": "pithec",
+   "forms": [
+    "pithec"
+   ],
+   "type": "root",
+   "gloss": "ape",
+   "chapter": "11",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-pl-plec-plic",
+   "element": "pl~plec~plic",
+   "forms": [
+    "pl",
+    "plec",
+    "plic"
+   ],
+   "type": "root",
+   "gloss": "fold, entwine, times",
+   "chapter": "6",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-plac",
+   "element": "plac",
+   "forms": [
+    "plac"
+   ],
+   "type": "root",
+   "gloss": "please",
+   "chapter": "11",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-plac",
+   "element": "plac",
+   "forms": [
+    "plac"
+   ],
+   "type": "root",
+   "gloss": "flat",
+   "chapter": "11",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-ple",
+   "element": "ple",
+   "forms": [
+    "ple"
+   ],
+   "type": "root",
+   "gloss": "full, many",
+   "chapter": "9",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-plec-pl-plic",
+   "element": "plec~pl~plic",
+   "forms": [
+    "plec",
+    "pl",
+    "plic"
+   ],
+   "type": "root",
+   "gloss": "times, fold, entwine",
+   "chapter": "6",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-plic-pl-plec",
+   "element": "plic~pl~plec",
+   "forms": [
+    "plic",
+    "pl",
+    "plec"
+   ],
+   "type": "root",
+   "gloss": "times, fold, entwine",
+   "chapter": "6",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-plur",
+   "element": "plur",
+   "forms": [
+    "plur"
+   ],
+   "type": "root",
+   "gloss": "many, more",
+   "chapter": "6",
+   "source": "L",
+   "page": 278
+  },
+  {
+   "id": "el-pne-pneum",
+   "element": "pne~pneum",
+   "forms": [
+    "pne",
+    "pneum"
+   ],
+   "type": "root",
+   "gloss": "breathe, lung",
+   "chapter": "8",
+   "source": "G",
+   "page": 278
+  },
+  {
+   "id": "el-pod-pus",
+   "element": "pod~pus",
+   "forms": [
+    "pod",
+    "pus"
+   ],
+   "type": "root",
+   "gloss": "foot",
+   "chapter": "10",
+   "source": "G",
+   "page": 279
+  },
+  {
+   "id": "el-pol",
+   "element": "pol",
+   "forms": [
+    "pol"
+   ],
+   "type": "root",
+   "gloss": "community",
+   "chapter": "1",
+   "source": "G",
+   "page": 279
+  },
+  {
+   "id": "el-poly",
+   "element": "poly",
+   "forms": [
+    "poly"
+   ],
+   "type": "root",
+   "gloss": "many",
+   "chapter": "6",
+   "source": "G",
+   "page": 279
+  },
+  {
+   "id": "el-pom",
+   "element": "pom",
+   "forms": [
+    "pom"
+   ],
+   "type": "root",
+   "gloss": "fruit, apple",
+   "chapter": "10",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-pon-pos",
+   "element": "pon~pos",
+   "forms": [
+    "pon",
+    "pos"
+   ],
+   "type": "root",
+   "gloss": "place, put",
+   "chapter": "9",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-pond-pend",
+   "element": "pond~pend",
+   "forms": [
+    "pond",
+    "pend"
+   ],
+   "type": "root",
+   "gloss": "hang, weigh",
+   "chapter": "4",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-pos-pon",
+   "element": "pos~pon",
+   "forms": [
+    "pos",
+    "pon"
+   ],
+   "type": "root",
+   "gloss": "place, put",
+   "chapter": "9",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-poss-pot",
+   "element": "poss~pot",
+   "forms": [
+    "poss",
+    "pot"
+   ],
+   "type": "root",
+   "gloss": "able, powerful",
+   "chapter": "2",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-post",
+   "element": "post-",
+   "forms": [
+    "post"
+   ],
+   "type": "prefix",
+   "gloss": "after, behind",
+   "chapter": "3",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-pot",
+   "element": "pot",
+   "forms": [
+    "pot"
+   ],
+   "type": "root",
+   "gloss": "able, powerful",
+   "chapter": "2",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-prac",
+   "element": "prac",
+   "forms": [
+    "prac"
+   ],
+   "type": "root",
+   "gloss": "act, do",
+   "chapter": "5",
+   "source": "G",
+   "page": 279
+  },
+  {
+   "id": "el-pre",
+   "element": "pre-",
+   "forms": [
+    "pre"
+   ],
+   "type": "prefix",
+   "gloss": "before",
+   "chapter": "3",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-pred",
+   "element": "pred",
+   "forms": [
+    "pred"
+   ],
+   "type": "root",
+   "gloss": "preying",
+   "chapter": "10",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-prim",
+   "element": "prim",
+   "forms": [
+    "prim"
+   ],
+   "type": "root",
+   "gloss": "first",
+   "chapter": "6",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-pro",
+   "element": "pro-",
+   "forms": [
+    "pro"
+   ],
+   "type": "prefix",
+   "gloss": "forward, for",
+   "chapter": "3",
+   "source": "L, G",
+   "page": 279
+  },
+  {
+   "id": "el-prob",
+   "element": "prob",
+   "forms": [
+    "prob"
+   ],
+   "type": "root",
+   "gloss": "good, test",
+   "chapter": "2",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-prot",
+   "element": "prot",
+   "forms": [
+    "prot"
+   ],
+   "type": "root",
+   "gloss": "first",
+   "chapter": "6",
+   "source": "G",
+   "page": 279
+  },
+  {
+   "id": "el-pseud",
+   "element": "pseud",
+   "forms": [
+    "pseud"
+   ],
+   "type": "root",
+   "gloss": "false",
+   "chapter": "1",
+   "source": "G",
+   "page": 279
+  },
+  {
+   "id": "el-psych",
+   "element": "psych",
+   "forms": [
+    "psych"
+   ],
+   "type": "root",
+   "gloss": "mind",
+   "chapter": "1",
+   "source": "G",
+   "page": 279
+  },
+  {
+   "id": "el-pter",
+   "element": "pter",
+   "forms": [
+    "pter"
+   ],
+   "type": "root",
+   "gloss": "wing, feather",
+   "chapter": "11",
+   "source": "G",
+   "page": 279
+  },
+  {
+   "id": "el-pugn",
+   "element": "pugn (< pug)",
+   "forms": [
+    "pugn"
+   ],
+   "type": "root",
+   "gloss": "fist, fight",
+   "chapter": "9",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-pulm-pulmon",
+   "element": "pulm~pulmon",
+   "forms": [
+    "pulm",
+    "pulmon"
+   ],
+   "type": "root",
+   "gloss": "lung",
+   "chapter": "8",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-pun-pen",
+   "element": "pun~pen",
+   "forms": [
+    "pun",
+    "pen"
+   ],
+   "type": "root",
+   "gloss": "punish",
+   "chapter": "9",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-pus-pod",
+   "element": "pus~pod",
+   "forms": [
+    "pus",
+    "pod"
+   ],
+   "type": "root",
+   "gloss": "foot",
+   "chapter": "10",
+   "source": "G",
+   "page": 279
+  },
+  {
+   "id": "el-pyr",
+   "element": "pyr",
+   "forms": [
+    "pyr"
+   ],
+   "type": "root",
+   "gloss": "fire",
+   "chapter": "1",
+   "source": "G",
+   "page": 279
+  },
+  {
+   "id": "el-quadr",
+   "element": "quadr",
+   "forms": [
+    "quadr"
+   ],
+   "type": "root",
+   "gloss": "four",
+   "chapter": "6",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-quart",
+   "element": "quart",
+   "forms": [
+    "quart"
+   ],
+   "type": "root",
+   "gloss": "fourth",
+   "chapter": "6",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-quatern",
+   "element": "quatern",
+   "forms": [
+    "quatern"
+   ],
+   "type": "root",
+   "gloss": "four (each)",
+   "chapter": "6",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-quin",
+   "element": "quin",
+   "forms": [
+    "quin"
+   ],
+   "type": "root",
+   "gloss": "five (each)",
+   "chapter": "6",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-quinque",
+   "element": "quinque",
+   "forms": [
+    "quinque"
+   ],
+   "type": "root",
+   "gloss": "five",
+   "chapter": "6",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-quint",
+   "element": "quint",
+   "forms": [
+    "quint"
+   ],
+   "type": "root",
+   "gloss": "fifth",
+   "chapter": "6",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-re-red",
+   "element": "re-~red-",
+   "forms": [
+    "re",
+    "red"
+   ],
+   "type": "prefix",
+   "gloss": "again, back",
+   "chapter": "3, 4, 6",
+   "source": "L",
+   "page": 279
+  },
+  {
+   "id": "el-somn-somat",
+   "element": "somn~somat",
+   "forms": [
+    "somn",
+    "somat"
+   ],
+   "type": "root",
+   "gloss": "body",
+   "chapter": "11",
+   "source": "G",
+   "page": 280
+  }
+ ]
+}

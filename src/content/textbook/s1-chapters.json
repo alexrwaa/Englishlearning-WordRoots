@@ -1,0 +1,7578 @@
+{
+ "sourceId": "S1",
+ "generatedAt": "2026-11-18T15:31:27.056Z",
+ "chapters": [
+  {
+   "id": "S1-C1",
+   "chapter": 1,
+   "title": "The Wealth of English",
+   "sections": [
+    {
+     "id": "S1-C1-S1",
+     "title": "Word Power and a World Power",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c1s1-1",
+       "title": "英语词汇的规模与分布",
+       "type": "concept",
+       "summary": "英语词条约47.6万，母语者仅占世界人口约5%，但六成以上网站使用英语。",
+       "terms": [
+        "vocabulary size",
+        "native speaker",
+        "second language"
+       ],
+       "examples": [
+        "vocabulary",
+        "dictionary"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c1s1-2",
+       "title": "词汇丰富的两面性",
+       "type": "concept",
+       "summary": "词汇量大既让表达更精确简洁，也让初学者背词负担更重、查词典更频繁。",
+       "terms": [
+        "word stock",
+        "expressiveness"
+       ],
+       "examples": [
+        "vocabulary",
+        "dictionary"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C1-S2",
+     "title": "On the Attack",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c1s2-1",
+       "title": "以形态规则替代逐词记忆",
+       "type": "method",
+       "summary": "多数复杂词结构相似且透明，掌握构词规则可免去逐词硬记，是扩大词汇的组织化策略。",
+       "terms": [
+        "morphology",
+        "word structure",
+        "productivity"
+       ],
+       "examples": [
+        "morphology"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C1-S3",
+     "title": "Precision and Adaptability",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c1s3-1",
+       "title": "外延与内涵决定近义词的分工",
+       "type": "concept",
+       "summary": "paternal 与 fatherly 外延相同，但正式度与情感色彩不同，故适用语境不同。",
+       "terms": [
+        "denotation",
+        "connotation",
+        "style"
+       ],
+       "examples": [
+        "paternal",
+        "fatherly"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c1s3-2",
+       "title": "能产性使词典必然滞后",
+       "type": "concept",
+       "summary": "pre-、-like 等成分可与无限多的词组合，词典只能收高频且稳定的词，故永远落后于实际用法。",
+       "terms": [
+        "productivity",
+        "neologism",
+        "combining form"
+       ],
+       "examples": [
+        "pre-falsify",
+        "pteroscope",
+        "syzygy-like"
+       ],
+       "lessonHint": "新词"
+      }
+     ]
+    },
+    {
+     "id": "S1-C1-S4",
+     "title": "The Constantly Evolving Nature of English Vocabulary",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c1s4-1",
+       "title": "词汇变化是常态而非衰败",
+       "type": "concept",
+       "summary": "-ize 类新动词常被指为“腐化”，但它们已是当代英语的一部分，评价随世代而变。",
+       "terms": [
+        "productivity",
+        "usage",
+        "prescriptivism"
+       ],
+       "examples": [
+        "conceptualize",
+        "operationalize",
+        "collateralize"
+       ],
+       "lessonHint": "新词"
+      },
+      {
+       "id": "kp-s1c1s4-2",
+       "title": "掌握词汇包括掌握语域",
+       "type": "concept",
+       "summary": "会用词不只是知义，还要判断该词适合口语、正式还是技术语域，才能在各类场合自由切换。",
+       "terms": [
+        "register",
+        "style",
+        "domain"
+       ],
+       "examples": [
+        "conceptualize"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C1-S5",
+     "title": "Why English Is So Rich",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c1s5-1",
+       "title": "借词加本土化改造是词汇扩张主因",
+       "type": "history",
+       "summary": "英语大量借入外语词并按本族规则再派生，如 clique 衍生出 cliquish、cliquey、cliqueless。",
+       "terms": [
+        "borrowing",
+        "derivation",
+        "loanword"
+       ],
+       "examples": [
+        "clique",
+        "cliquish",
+        "cliquey"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c1s5-2",
+       "title": "本族词与借词的同义分工",
+       "type": "rule",
+       "summary": "同义配对中本族词短、口语、常用，借词长、正式或技术化，如 fatherly 与 paternal。",
+       "terms": [
+        "native word",
+        "loanword",
+        "synonym pair"
+       ],
+       "examples": [
+        "fatherly",
+        "paternal",
+        "chew",
+        "masticate"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C1-S6",
+     "title": "Pneumonoultramicroscopicsilicovolcanoconiosis",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c1s6-1",
+       "title": "超长技术词可按词素逐段赋义",
+       "type": "method",
+       "summary": "该45字母词可切为 pneumon-o-ultra-microscopic-silic-o-volcan-o-coni-osis，每段都有可考的义项。",
+       "terms": [
+        "parsing",
+        "combining form",
+        "technical term"
+       ],
+       "examples": [
+        "pneumonoultramicroscopicsilicovolcanoconiosis",
+        "electrophotomicrographically"
+       ],
+       "lessonHint": "科技"
+      },
+      {
+       "id": "kp-s1c1s6-2",
+       "title": "解析与造词共用一套程序",
+       "type": "method",
+       "summary": "把词拆成成分并赋义，与用成分组合新词是同一能力的两面；词越长反而越容易拆解。",
+       "terms": [
+        "parse",
+        "coinage",
+        "compositionality"
+       ],
+       "examples": [
+        "pteroscope",
+        "microscope",
+        "pneumonia"
+       ],
+       "lessonHint": "科技"
+      }
+     ]
+    },
+    {
+     "id": "S1-C1-S7",
+     "title": "The History Hidden in Words",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c1s7-1",
+       "title": "一词三形：cap 经法语音变留下三组借词",
+       "type": "history",
+       "summary": "拉丁 cap 'head' 经古法语 [k]→[tʃ]→[ʃ] 的演变，分别以 captain、chief、chef 三形进入英语。",
+       "terms": [
+        "sound change",
+        "borrowing",
+        "triplet"
+       ],
+       "examples": [
+        "captain",
+        "chief",
+        "chef",
+        "candle",
+        "chandler",
+        "chandelier"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c1s7-2",
+       "title": "语音对应可揭示语言亲缘",
+       "type": "history",
+       "summary": "拉丁 semi- 与希腊 hemi- 同义且 [s] 与 [h] 对应，说明二者源自同一祖语的 sēm- 'half'。",
+       "terms": [
+        "cognate",
+        "sound correspondence"
+       ],
+       "examples": [
+        "semicircle",
+        "hemisphere"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C1-S8",
+     "title": "Additional Goals",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c1s8-1",
+       "title": "词素结构可作拼写线索",
+       "type": "rule",
+       "summary": "知道 pyr 'fire'、sens 'feel' 等成分，就能确定 pyromaniac、consensus 等词中易错的字母。",
+       "terms": [
+        "spelling",
+        "morpheme",
+        "root"
+       ],
+       "examples": [
+        "pyromaniac",
+        "antipyretic",
+        "consensus",
+        "definitely"
+       ],
+       "lessonHint": "拼写"
+      },
+      {
+       "id": "kp-s1c1s8-2",
+       "title": "语言变化的评价：腐化还是丰富",
+       "type": "concept",
+       "summary": "对新用法（如 hopefully 作句子副词）的接受度随时代与群体而变，没有客观的裁决者。",
+       "terms": [
+        "usage",
+        "prescriptivism",
+        "variation"
+       ],
+       "examples": [
+        "hopefully"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c1s8-3",
+       "title": "本书涉及的语言学分支",
+       "type": "concept",
+       "summary": "词分析牵涉语音学、形态学、历史语言学、词汇语义学与社会语言学五个领域。",
+       "terms": [
+        "phonetics",
+        "morphology",
+        "historical linguistics",
+        "lexical semantics",
+        "sociolinguistics"
+       ],
+       "examples": [
+        "morphology",
+        "phonetics"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "cosm~cosmet",
+     "gloss": "world, universe；cosmet 专表 adorn",
+     "source": "G",
+     "note": "cosmet 仅见于 cosmetic、cosmetology"
+    },
+    {
+     "form": "idi",
+     "gloss": "own, peculiar",
+     "source": "G",
+     "note": "多用于词首，指不合常规或不受外来影响者"
+    },
+    {
+     "form": "ide",
+     "gloss": "idea",
+     "source": "G",
+     "note": "与 idi 形近，须区分"
+    },
+    {
+     "form": "log",
+     "gloss": "speak, study",
+     "source": "G",
+     "note": "义域宽，logic 与 catalog 中的义项不同"
+    },
+    {
+     "form": "nom",
+     "gloss": "law",
+     "source": "G",
+     "note": "可指规则，也可指科学定律；与 nomen 'name' 无关"
+    },
+    {
+     "form": "nomen~nomin",
+     "gloss": "name",
+     "source": "L",
+     "note": "nomin 为元音弱化形"
+    },
+    {
+     "form": "path",
+     "gloss": "feeling；disease",
+     "source": "G",
+     "note": "-pathy 可表感觉、疾病或疗法"
+    },
+    {
+     "form": "phil~phile",
+     "gloss": "liking, love",
+     "source": "G",
+     "note": "词首 phil 与词末 -phile 的分布与义域不同"
+    },
+    {
+     "form": "pseud",
+     "gloss": "false",
+     "source": "G"
+    },
+    {
+     "form": "morph",
+     "gloss": "shape",
+     "source": "G"
+    },
+    {
+     "form": "pyr",
+     "gloss": "fire",
+     "source": "G"
+    },
+    {
+     "form": "pter",
+     "gloss": "wing",
+     "source": "G"
+    },
+    {
+     "form": "scop",
+     "gloss": "view; viewing device",
+     "source": "G"
+    },
+    {
+     "form": "micr",
+     "gloss": "small",
+     "source": "G"
+    },
+    {
+     "form": "coni",
+     "gloss": "dust",
+     "source": "G",
+     "note": "与 cin 'ashes' 同源"
+    },
+    {
+     "form": "cin",
+     "gloss": "ashes",
+     "source": "G"
+    },
+    {
+     "form": "cap",
+     "gloss": "head",
+     "source": "L",
+     "note": "captain、chief、chef 三形同源"
+    },
+    {
+     "form": "semi-",
+     "gloss": "half",
+     "source": "L"
+    },
+    {
+     "form": "hemi-",
+     "gloss": "half",
+     "source": "G",
+     "note": "与 semi- 为同源双式词"
+    },
+    {
+     "form": "pre-",
+     "gloss": "before",
+     "source": "L"
+    },
+    {
+     "form": "ultra",
+     "gloss": "beyond, extremely",
+     "source": "L"
+    },
+    {
+     "form": "-osis",
+     "gloss": "disease, condition",
+     "source": "G"
+    },
+    {
+     "form": "sens",
+     "gloss": "feel",
+     "source": "L"
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "Element Study：判定词素在具体词中的义项并说明统一概念",
+     "shape": "gloss-discrimination",
+     "example": [
+      "cosm",
+      "nom",
+      "path"
+     ]
+    },
+    {
+     "name": "Element Study：按 gloss 反填元素并拼出整词",
+     "shape": "element-fill-in",
+     "example": [
+      "pseudomorph"
+     ]
+    },
+    {
+     "name": "Element Study：同形异源词根辨别",
+     "shape": "false-friends",
+     "example": [
+      "log",
+      "nom",
+      "nomen"
+     ]
+    },
+    {
+     "name": "Exercises：为借词找单音节本族同义词",
+     "shape": "native-borrowed-pairing",
+     "example": [
+      "inter",
+      "velocity",
+      "terminate"
+     ]
+    },
+    {
+     "name": "Exercises：判断本族词与借词并说明形音线索",
+     "shape": "native-borrowed-identification",
+     "example": [
+      "wordy",
+      "verbose",
+      "chew",
+      "masticate"
+     ]
+    },
+    {
+     "name": "Exercises：用已知元素推测词典未收的新词义",
+     "shape": "coinage-prediction",
+     "example": [
+      "philophony"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-C2",
+   "chapter": 2,
+   "title": "The History of English and Sources of English Vocabulary",
+   "sections": [
+    {
+     "id": "S1-C2-S1",
+     "title": "Background to the History of English",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c2s1-1",
+       "title": "英语的同一性来自共同历史",
+       "type": "history",
+       "summary": "美、澳、加、英格兰等地的英语同属一语，因近千年主要在不列颠演化；其全球扩散是晚近现象。",
+       "terms": [
+        "English language",
+        "globalization",
+        "native tongue"
+       ],
+       "examples": [
+        "English"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C2-S2",
+     "title": "Origins of Language",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c2s2-1",
+       "title": "语言起源不可考但分化可以比较",
+       "type": "history",
+       "summary": "语言至少五万年，无文字即无痕迹，且世代替换使原始词汇荡然无存，只能靠比较现存语言回溯。",
+       "terms": [
+        "attested language",
+        "proto-language",
+        "language change"
+       ],
+       "examples": [
+        "Proto-Indo-European"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s2-2",
+       "title": "语言分化与谱系隐喻",
+       "type": "concept",
+       "summary": "人群分离使创新不再扩散，久而久之分化出七千余种语言；语言学家用 family、ancestor 等生物隐喻描述关系。",
+       "terms": [
+        "language family",
+        "genetic relation",
+        "comparative method"
+       ],
+       "examples": [
+        "Latin",
+        "French",
+        "Spanish"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C2-S3",
+     "title": "Indo-European",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c2s3-1",
+       "title": "印欧语系的范围与高度屈折的祖语",
+       "type": "history",
+       "summary": "原始印欧语分布自印度至大西洋，无文字可考但可重构；名词可达两打形式，动词形式数以百计。",
+       "terms": [
+        "Proto-Indo-European",
+        "inflection",
+        "reconstruction"
+       ],
+       "examples": [
+        "horse",
+        "love"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s3-2",
+       "title": "语言扩张源于权势而非优劣",
+       "type": "history",
+       "summary": "印欧语的传播来自使用者的军事或社会经济优势，战车可能是关键；语言本身并无客观优劣。",
+       "terms": [
+        "language spread",
+        "prestige"
+       ],
+       "examples": [
+        "Indo-European"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s3-3",
+       "title": "语系中 branch 与 family 的区别",
+       "type": "classification",
+       "summary": "印欧语分十余支，每支有可确认的祖语（如 Proto-Italic）；支与系的唯一差别是前者祖语有已知上位祖先。",
+       "terms": [
+        "branch",
+        "family",
+        "Proto-Italic",
+        "Italic",
+        "Romance"
+       ],
+       "examples": [
+        "Latin",
+        "Welsh",
+        "Greek"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C2-S4",
+     "title": "Germanic",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c2s4-1",
+       "title": "英语属日耳曼支且屈折持续简化",
+       "type": "history",
+       "summary": "原始日耳曼语的格与时可屈折已比印欧祖语简单，屈折系统简化是贯穿英语史的总线索。",
+       "terms": [
+        "Proto-Germanic",
+        "inflection",
+        "case ending"
+       ],
+       "examples": [
+        "English"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s4-2",
+       "title": "格里姆定律：日耳曼辅音的系统对应",
+       "type": "rule",
+       "summary": "印欧语的 p 在日耳曼语变 f（foot 对 ped/pod），对应关系系统透明，即格里姆定律，详见第10章。",
+       "terms": [
+        "Grimm's law",
+        "consonant shift",
+        "correspondence"
+       ],
+       "examples": [
+        "foot",
+        "pedal",
+        "podiatry"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s4-3",
+       "title": "东日耳曼与最早的拉丁借词",
+       "type": "history",
+       "summary": "哥特语是东日耳曼唯一有大量文献的语言，该支已灭绝；日耳曼人早期从拉丁借入 wine、street、mile 等日常物名。",
+       "terms": [
+        "Gothic",
+        "East Germanic",
+        "loanword"
+       ],
+       "examples": [
+        "wine",
+        "street",
+        "mile",
+        "cheese",
+        "kitchen"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s4-4",
+       "title": "早期拉丁影响来自欧陆接触而非罗马治英",
+       "type": "history",
+       "summary": "罗马在不列颠的统治只能解释对威尔士语的影响；英语祖先的拉丁借词源于欧陆日耳曼人与罗马人的接触。",
+       "terms": [
+        "Britannia",
+        "chronology",
+        "language contact"
+       ],
+       "examples": [
+        "Welsh",
+        "Latin"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C2-S5",
+     "title": "West Germanic",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c2s5-1",
+       "title": "五世纪西日耳曼扩张与法兰克人的语言选择",
+       "type": "history",
+       "summary": "西日耳曼人占据高卢与不列颠；法兰克人征服高卢却采用拉丁语，Gallia 因此改名 Francia。",
+       "terms": [
+        "Frankish",
+        "Gaul",
+        "prestige"
+       ],
+       "examples": [
+        "France",
+        "Gallia"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s5-2",
+       "title": "英语最近的亲属是弗里西亚语",
+       "type": "classification",
+       "summary": "入侵者多来自今德国西北部；弗里西亚语与英语最近，荷兰语、南非荷兰语同群，标准德语关系稍远。",
+       "terms": [
+        "West Germanic",
+        "Frisian",
+        "Afrikaans",
+        "Low German"
+       ],
+       "examples": [
+        "Frisian",
+        "Dutch",
+        "German"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C2-S6",
+     "title": "Major Stages in the History of English",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c2s6-1",
+       "title": "以三阶段为纲叙述借词史",
+       "type": "classification",
+       "summary": "700年起有文献可考，此后按古英语（700–1100）、中古英语（1100–1500）、现代英语（1500– ）三段叙述各期借词来源。",
+       "terms": [
+        "Old English",
+        "Middle English",
+        "Modern English"
+       ],
+       "examples": [
+        "Old English",
+        "Middle English"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C2-S7",
+     "title": "Prehistoric English",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c2s7-1",
+       "title": "凯尔特语被取代与威尔士语的存留",
+       "type": "history",
+       "summary": "五世纪西日耳曼方言取代不列颠东南部的凯尔特语，西部与北部未臣服，故威尔士语、苏格兰盖尔语留存。",
+       "terms": [
+        "Celtic",
+        "Welsh",
+        "Scots Gaelic"
+       ],
+       "examples": [
+        "Welsh",
+        "Scots Gaelic"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s7-2",
+       "title": "为何不列颠未像高卢那样改说拉丁语",
+       "type": "history",
+       "summary": "拉丁语在帝国边陲的不列颠未在本土居民中扎根，且罗马军政人员五世纪初已撤离，故入侵者保留自己的语言。",
+       "terms": [
+        "Roman Britain",
+        "language shift"
+       ],
+       "examples": [
+        "Latin",
+        "Celtic"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s7-3",
+       "title": "Angles、Saxons、Kents 与 England 之名",
+       "type": "history",
+       "summary": "三支定居者中 Angles 与 Saxons 占地最广，故称 Anglo-Saxon；English 与 England 均由 Angles 得名。",
+       "terms": [
+        "Anglo-Saxon",
+        "Angles",
+        "Saxons"
+       ],
+       "examples": [
+        "English",
+        "England"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s7-4",
+       "title": "文献稀少的前古英语期与基督教化借词",
+       "type": "history",
+       "summary": "400–700 年仅存十余条可读卢恩铭文；基督教化带来 abbot、mass、pope 等教会词及 candle、school 等日常词。",
+       "terms": [
+        "runic",
+        "Christianization",
+        "ecclesiastical vocabulary"
+       ],
+       "examples": [
+        "abbot",
+        "mass",
+        "pope",
+        "candle",
+        "school"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C2-S8",
+     "title": "Old English",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c2s8-1",
+       "title": "历史英语的起点与三分期惯例",
+       "type": "history",
+       "summary": "约700年出现大量英语文本，故以此为历史英语起点；1900年前后确立 Old/Middle/Modern 各约四百年的等分惯例。",
+       "terms": [
+        "Old English",
+        "periodization"
+       ],
+       "examples": [
+        "Old English"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s8-2",
+       "title": "古英语屈折词尾承担句法功能",
+       "type": "concept",
+       "summary": "he hafaþ hƿite tungan 中 -aþ、-e、-an 分别标记动词人称与宾语格，这些词尾在现代英语中已消失。",
+       "terms": [
+        "inflection",
+        "case ending",
+        "runic letter"
+       ],
+       "examples": [
+        "hafaþ",
+        "tungan",
+        "holdeth"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s8-3",
+       "title": "阿尔弗雷德大帝与西撒克逊文学标准",
+       "type": "history",
+       "summary": "阿尔弗雷德组织翻译拉丁著作，促成以温切斯特宫廷的西撒克逊方言为基础的文学标准。",
+       "terms": [
+        "Alfred the Great",
+        "West Saxon",
+        "literary standard"
+       ],
+       "examples": [
+        "Old English"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s8-4",
+       "title": "诺斯借词与同源双式词",
+       "type": "history",
+       "summary": "维京人带来数百诺斯词（they、skin、egg、ill、till），与英语固有词形近义近者构成 doublets。",
+       "terms": [
+        "Old Norse",
+        "doublet",
+        "cognate"
+       ],
+       "examples": [
+        "they",
+        "skin",
+        "egg",
+        "ill",
+        "till"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C2-S9",
+     "title": "Middle English",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c2s9-1",
+       "title": "诺曼征服改变英语的社会地位",
+       "type": "history",
+       "summary": "1066年后诺曼法语成为上层语言，英语退居农民使用，文学与学术词汇大量流失。",
+       "terms": [
+        "Norman Conquest",
+        "language contact"
+       ],
+       "examples": [
+        "Norman",
+        "French"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s9-2",
+       "title": "13世纪法语借词的三个语义领域",
+       "type": "history",
+       "summary": "英语主要从法语借入政府（court、duke、crown）、战争（battle、peace）与奢侈生活（feast、sugar）三类词。",
+       "terms": [
+        "Old French",
+        "borrowing",
+        "semantic field"
+       ],
+       "examples": [
+        "court",
+        "duke",
+        "crown",
+        "battle",
+        "feast",
+        "sugar"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s9-3",
+       "title": "Latinate：不必区分直接与间接借自拉丁",
+       "type": "concept",
+       "summary": "animal 形似拉丁原形是因法语又从拉丁借入；对词分析而言，只要形似拉丁即可称 Latinate。",
+       "terms": [
+        "Latinate",
+        "loanword",
+        "transmission"
+       ],
+       "examples": [
+        "animal"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s9-4",
+       "title": "词尾元音弱化导致屈折合并",
+       "type": "rule",
+       "summary": "中古英语非重读词尾元音多变为 [ə] 并写作 e，许多词尾区别随之消失，乔叟文本即反映此变化。",
+       "terms": [
+        "schwa",
+        "inflection",
+        "Middle English"
+       ],
+       "examples": [
+        "Chaucer"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s9-5",
+       "title": "伦敦标准语转向中部方言",
+       "type": "history",
+       "summary": "中古英语文学语言以伦敦宫廷的中部（Anglian）方言为基础，与古英语西撒克逊文学传统断裂。",
+       "terms": [
+        "London dialect",
+        "Anglian",
+        "literary standard"
+       ],
+       "examples": [
+        "Chaucer"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C2-S10",
+     "title": "Modern English",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c2s10-1",
+       "title": "印刷术与文艺复兴推动标准化和古典借词",
+       "type": "history",
+       "summary": "1500年起活字印刷促成拼写标准化；文艺复兴大量引入拉丁、希腊词，如 exterior、catastrophe。",
+       "terms": [
+        "printing",
+        "Renaissance",
+        "standardization"
+       ],
+       "examples": [
+        "exterior",
+        "appendix",
+        "catastrophe",
+        "lexicon"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s10-2",
+       "title": "元音大推移的标志性对应",
+       "type": "rule",
+       "summary": "中古长元音系统性上移或双元音化，如 [iː]→[aɪ]（fine）、[uː]→[aʊ]（house），是 ME 与 ModE 的分界。",
+       "terms": [
+        "Great Vowel Shift",
+        "diphthongization"
+       ],
+       "examples": [
+        "fine",
+        "house",
+        "name",
+        "moon"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s10-3",
+       "title": "殖民扩张带来世界性借词",
+       "type": "history",
+       "summary": "英语从美洲原住民、非洲、澳洲、汉语等借入 moose、banana、kangaroo、typhoon 等词。",
+       "terms": [
+        "borrowing",
+        "colonialism"
+       ],
+       "examples": [
+        "moose",
+        "kangaroo",
+        "typhoon",
+        "banana"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c2s10-4",
+       "title": "古典词素可造出古人未有的词",
+       "type": "rule",
+       "summary": "英语不仅借词，还借来构词规则，用 phren、latry 等成分造出 phrenolatry 这类拉丁希腊从未存在的词。",
+       "terms": [
+        "neologism",
+        "combining form",
+        "interfix"
+       ],
+       "examples": [
+        "phrenolatry",
+        "somnivorous",
+        "steatocephalic"
+       ],
+       "lessonHint": "新词"
+      },
+      {
+       "id": "kp-s1c2s10-5",
+       "title": "英语的核心仍是日耳曼的",
+       "type": "classification",
+       "summary": "最基础高频的词（sun、mother）、un-/be- 前缀、-ness/-hood 后缀及复合构词均承自日耳曼语。",
+       "terms": [
+        "native vocabulary",
+        "compounding",
+        "affix"
+       ],
+       "examples": [
+        "sun",
+        "mother",
+        "-ness",
+        "-hood"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "anim",
+     "gloss": "life；soul, mind",
+     "source": "L",
+     "note": "另引申出 hostility（animosity）与 courage"
+    },
+    {
+     "form": "leg",
+     "gloss": "law, deputize",
+     "source": "L"
+    },
+    {
+     "form": "leg~lig",
+     "gloss": "gather, read",
+     "source": "L"
+    },
+    {
+     "form": "par",
+     "gloss": "produce, give birth",
+     "source": "L"
+    },
+    {
+     "form": "par",
+     "gloss": "equal",
+     "source": "L",
+     "note": "同形异源，见 parity、pair"
+    },
+    {
+     "form": "par~pear",
+     "gloss": "show, appear",
+     "source": "L",
+     "note": "apparent、appear、peer 同源"
+    },
+    {
+     "form": "libr",
+     "gloss": "weigh, balance",
+     "source": "L",
+     "note": "缩写 lb. 的来源"
+    },
+    {
+     "form": "libr",
+     "gloss": "book",
+     "source": "L",
+     "note": "与 'weigh' 同形异源"
+    },
+    {
+     "form": "liber",
+     "gloss": "free",
+     "source": "L"
+    },
+    {
+     "form": "sci",
+     "gloss": "know",
+     "source": "L",
+     "note": "与 sec 'cut' 同源"
+    },
+    {
+     "form": "sec~scind~sciss",
+     "gloss": "cut",
+     "source": "L",
+     "note": "scind、sciss 保留 'cut' 义"
+    },
+    {
+     "form": "verm~vermi",
+     "gloss": "worm",
+     "source": "L"
+    },
+    {
+     "form": "fug",
+     "gloss": "flee",
+     "source": "L"
+    },
+    {
+     "form": "omn",
+     "gloss": "all",
+     "source": "L"
+    },
+    {
+     "form": "liter",
+     "gloss": "letter",
+     "source": "L"
+    },
+    {
+     "form": "phil",
+     "gloss": "liking",
+     "source": "G"
+    },
+    {
+     "form": "soph",
+     "gloss": "wisdom",
+     "source": "G"
+    },
+    {
+     "form": "phren",
+     "gloss": "mind",
+     "source": "G"
+    },
+    {
+     "form": "latry",
+     "gloss": "worship",
+     "source": "G"
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "Element Study：指出词根并简述字面义与本词义的关系",
+     "shape": "root-identification",
+     "example": [
+      "aggregate",
+      "literacy",
+      "conscience",
+      "vermifuge"
+     ]
+    },
+    {
+     "name": "Element Study：把一个词素的多个义项分配到具体词上",
+     "shape": "sense-classification",
+     "example": [
+      "animosity",
+      "magnanimous",
+      "pusillanimous"
+     ]
+    },
+    {
+     "name": "Element Study：同形异源词根辨别",
+     "shape": "false-friends",
+     "example": [
+      "legislate",
+      "college",
+      "apparition",
+      "equilibrate"
+     ]
+    },
+    {
+     "name": "Exercises：判断词是本族词还是借词，并定借入年代",
+     "shape": "etymology-dating",
+     "example": [
+      "time",
+      "canoe",
+      "theology",
+      "bazaar"
+     ]
+    },
+    {
+     "name": "Exercises：为中古英语与早期现代英语词标音",
+     "shape": "phonetic-transcription",
+     "example": [
+      "take",
+      "hous",
+      "shoo",
+      "town"
+     ]
+    },
+    {
+     "name": "Element Study：按 gloss 反填元素并拼出整词",
+     "shape": "element-fill-in",
+     "example": [
+      "misarchy",
+      "cacophonic",
+      "biomorph"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-C3",
+   "chapter": 3,
+   "title": "Morphology",
+   "sections": [
+    {
+     "id": "S1-C3-S1",
+     "title": "The Basics of Morphology",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s1-1",
+       "title": "词素是最小的形义单位",
+       "type": "concept",
+       "summary": "morpheme 是不可再分的形义结合体；把词切成成分并用连字符标出前后缀，就是 parsing。",
+       "terms": [
+        "morpheme",
+        "parsing",
+        "constituent"
+       ],
+       "examples": [
+        "bookishness",
+        "book",
+        "-ish",
+        "-ness"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c3s1-2",
+       "title": "词素不等于音节",
+       "type": "concept",
+       "summary": "词素与音节无对应关系：-th、-t 不成音节，而 elephantine 的词根 elephant 有三个音节。",
+       "terms": [
+        "morpheme",
+        "syllable"
+       ],
+       "examples": [
+        "-th",
+        "-t",
+        "elephantine"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c3s1-3",
+       "title": "组合性：部件给线索但不等于全义",
+       "type": "concept",
+       "summary": "blackbird、warmth 的意义可由部件推出，但并非所有黑鸟都是 blackbird，部件义只是线索。",
+       "terms": [
+        "compositionality",
+        "complex word",
+        "simplex word"
+       ],
+       "examples": [
+        "blackbird",
+        "warmth",
+        "bookishness"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c3s1-4",
+       "title": "形态分析不等于词源追溯",
+       "type": "rule",
+       "summary": "captain、chief、chef 虽同源却按不同词根处理；agr 与 ag 也分列，因规则无法推广到其他词。",
+       "terms": [
+        "etymology",
+        "morpheme identity",
+        "generality"
+       ],
+       "examples": [
+        "captain",
+        "chief",
+        "chef",
+        "agr",
+        "ag"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S2",
+     "title": "Functions of Morphological Elements",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s2-1",
+       "title": "词素可按功能分为词根与词缀",
+       "type": "classification",
+       "summary": "分析词除找成分还要判功能：root 承载主要意义，affix 附着于词根起语义或语法作用。",
+       "terms": [
+        "root",
+        "affix",
+        "function"
+       ],
+       "examples": [
+        "bookish",
+        "photograph"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S3",
+     "title": "Roots and Affixes",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s3-1",
+       "title": "自由词根与粘着词根",
+       "type": "classification",
+       "summary": "能独立成词的词根为 free（book），不能独立者为 bound（transgress 中的 gress），后者是学习重点。",
+       "terms": [
+        "free root",
+        "bound root",
+        "morpheme"
+       ],
+       "examples": [
+        "book",
+        "gress",
+        "progress",
+        "regress"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S4",
+     "title": "Affixes",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s4-1",
+       "title": "词缀按位置分为五类",
+       "type": "classification",
+       "summary": "前缀、后缀、中缀、间缀、超缀合称 affix；其依附的 base 可以是词根，也可以是已带缀的形式。",
+       "terms": [
+        "prefix",
+        "suffix",
+        "infix",
+        "interfix",
+        "superfix",
+        "base"
+       ],
+       "examples": [
+        "exoplanets",
+        "photograph"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c3s4-2",
+       "title": "屈折与派生：改语法还是造新词",
+       "type": "classification",
+       "summary": "屈折只改同一词的语法形式（walk/walked/walking），不改变词性与核心义；派生造出新词（kind→unkind→kindness），常改变词性或显著改变意义。",
+       "terms": [
+        "inflection",
+        "derivation",
+        "lexeme",
+        "paradigm"
+       ],
+       "examples": [
+        "walked",
+        "unkindness",
+        "tables"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S5",
+     "title": "Structure",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s5-1",
+       "title": "词结构是层级的而非线性的",
+       "type": "rule",
+       "summary": "undoable 有两解，取决于 un- 加在 doable 上还是 -able 加在 undo 上；括号标记可显式区分。",
+       "terms": [
+        "hierarchical structure",
+        "labeled bracketing",
+        "ambiguity"
+       ],
+       "examples": [
+        "undoable",
+        "unreadable",
+        "atomic"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S6",
+     "title": "Affix Meanings",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s6-1",
+       "title": "词缀的语义密度差异很大",
+       "type": "concept",
+       "summary": "-less、un-、non- 意义稳定；-ish、-ee 有多个义项；-ous 往往只剩“构成形容词”的功能。",
+       "terms": [
+        "affix meaning",
+        "negating affix",
+        "part of speech"
+       ],
+       "examples": [
+        "-less",
+        "-ish",
+        "-ee",
+        "-ous",
+        "-er",
+        "-able"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c3s6-2",
+       "title": "无义的间缀仍有构词作用",
+       "type": "concept",
+       "summary": "philosophy 的 -o-、omnipotent 的 -i- 不表义，却按既有模式被类推填入新造词。",
+       "terms": [
+        "interfix",
+        "analogy"
+       ],
+       "examples": [
+        "philosophy",
+        "omnipotent",
+        "smellorama",
+        "foodaholic"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S7",
+     "title": "Root Meanings",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s7-1",
+       "title": "词根义也只是提示，靠比喻延伸",
+       "type": "concept",
+       "summary": "curr 标为 'run'，但在 concurrent、recurrent 中只留“同时/再发生”的比喻痕迹；astr、punct 同理。",
+       "terms": [
+        "root meaning",
+        "metaphor",
+        "gloss"
+       ],
+       "examples": [
+        "concurrent",
+        "recurrent",
+        "astronomy",
+        "punctuation",
+        "punctual"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S8",
+     "title": "Affix Meanings Again",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s8-1",
+       "title": "后缀既定词性也附加意义",
+       "type": "rule",
+       "summary": "-ity 造名词并表“性质、状态”；-like、-ish、-esque、-y 都表相似，但语感与适用范围不同。",
+       "terms": [
+        "-ity",
+        "-like",
+        "-ish",
+        "-esque",
+        "connotation"
+       ],
+       "examples": [
+        "sincerity",
+        "childlike",
+        "childish",
+        "spongy",
+        "spongelike"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c3s8-2",
+       "title": "同形异缀须分开处理",
+       "type": "classification",
+       "summary": "-y 至少有三种：形容词后缀、名词后缀（monogamy）、指小后缀（kitty），属偶然同形。",
+       "terms": [
+        "homographic suffix",
+        "diminutive"
+       ],
+       "examples": [
+        "yellowy",
+        "monogamy",
+        "kitty"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S9",
+     "title": "Other Variations in the Meanings of Word Elements",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s9-1",
+       "title": "词素义随搭配环境漂移",
+       "type": "concept",
+       "summary": "ship 原指“远洋船”，在 spaceship 中只剩“载具”义，词素义随所构词而变。",
+       "terms": [
+        "semantic variation",
+        "compound"
+       ],
+       "examples": [
+        "ship",
+        "spaceship"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c3s9-2",
+       "title": "义变常循可描述的规律",
+       "type": "rule",
+       "summary": "pyr 由 'fire' 引申为 'fever'，是“灼热”隐喻的固定化，此类模式在第7章系统讨论。",
+       "terms": [
+        "metaphor",
+        "semantic change"
+       ],
+       "examples": [
+        "pyrotechnics",
+        "antipyretic"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S10",
+     "title": "Words as Symbols",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s10-1",
+       "title": "词义不等于部件义之和",
+       "type": "concept",
+       "summary": "apteryx 字面为“无翼之物”却指几维鸟；bibliophile 与 pedophile 同构，却因社会知识而义异。",
+       "terms": [
+        "symbol",
+        "encyclopedic knowledge",
+        "context"
+       ],
+       "examples": [
+        "apteryx",
+        "bibliophile",
+        "pedophile"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S11",
+     "title": "Why Analyze Words?",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s11-1",
+       "title": "解析的四重实用收益",
+       "type": "method",
+       "summary": "解析可猜生词义、显影词中比喻（reject 'throw back'）、提供拼写线索（nov）、并助记忆提取。",
+       "terms": [
+        "parsing",
+        "spelling cue",
+        "recall"
+       ],
+       "examples": [
+        "reject",
+        "salient",
+        "renovate",
+        "apteryx"
+       ],
+       "lessonHint": "拼写"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S12",
+     "title": "How We Make Words",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s12-1",
+       "title": "构词可理想化为逐层加缀",
+       "type": "method",
+       "summary": "构词方式虽杂，但可模型化为“词根→加缀→再派生”，每一步产物都可充当下一轮的基式。",
+       "terms": [
+        "word formation",
+        "derivation",
+        "base"
+       ],
+       "examples": [
+        "windy",
+        "windiness"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S13",
+     "title": "New Components from Old",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s13-1",
+       "title": "两级派生的括号表示与拼写调整",
+       "type": "method",
+       "summary": "[[wind][-y]] 再加 -ness 得 windiness，y 变 i 只是正字法调整，不改变词素身份。",
+       "terms": [
+        "bracketing",
+        "spelling rule",
+        "derivation"
+       ],
+       "examples": [
+        "windy",
+        "windiness"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S14",
+     "title": "Compounding",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s14-1",
+       "title": "复合词内部关系多种多样",
+       "type": "classification",
+       "summary": "doorstep 与 footstep 结构相似但关系不同；killjoy 与 kill zone 中第二成分的角色也不同。",
+       "terms": [
+        "compound",
+        "internal relation"
+       ],
+       "examples": [
+        "doorstep",
+        "footstep",
+        "killjoy",
+        "kill zone"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c3s14-2",
+       "title": "复合可用词素，希腊用 -o-、拉丁用 -i-",
+       "type": "rule",
+       "summary": "microscope、pedicure、aquifer、agriculture 由词素而非整词复合，间缀依语源分别为 -o- 与 -i-。",
+       "terms": [
+        "combining form",
+        "interfix",
+        "compound"
+       ],
+       "examples": [
+        "microscope",
+        "pedicure",
+        "aquifer",
+        "agriculture"
+       ],
+       "lessonHint": "希腊"
+      },
+      {
+       "id": "kp-s1c3s14-3",
+       "title": "复合词书写形式的演化",
+       "type": "history",
+       "summary": "新概念常先分写、再连字符、最后合并，如 web site→web-site→website，goodbye 亦历经此过程。",
+       "terms": [
+        "orthography",
+        "compound",
+        "hyphen"
+       ],
+       "examples": [
+        "website",
+        "goodbye",
+        "Microsoft"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S15",
+     "title": "Conversion",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s15-1",
+       "title": "转换以重音作超缀",
+       "type": "rule",
+       "summary": "record 名动同形，名词重音在前、动词在后；这种重音差异相当于 superfix，标记词性转换。",
+       "terms": [
+        "conversion",
+        "superfix",
+        "stress"
+       ],
+       "examples": [
+        "record",
+        "present",
+        "trial"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S16",
+     "title": "Clipping",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s16-1",
+       "title": "截短不尊重词素边界",
+       "type": "rule",
+       "summary": "info 切在 information 第二成分中间，blog 切在 web-log 第一成分中间，van 更是整词截短。",
+       "terms": [
+        "clipping",
+        "morphological boundary"
+       ],
+       "examples": [
+        "info",
+        "blog",
+        "van",
+        "fan",
+        "soccer"
+       ],
+       "lessonHint": "新词"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S17",
+     "title": "Blending",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s17-1",
+       "title": "混成保留可辨识片段",
+       "type": "rule",
+       "summary": "smog 取 smoke 与 fog，netiquette 共用两词的 et 以便还原来源；但 blend 不考虑词素结构。",
+       "terms": [
+        "blend",
+        "source word",
+        "clipping"
+       ],
+       "examples": [
+        "smog",
+        "netiquette",
+        "pixel",
+        "chortle"
+       ],
+       "lessonHint": "新词"
+      },
+      {
+       "id": "kp-s1c3s17-2",
+       "title": "混成可产出新词缀",
+       "type": "rule",
+       "summary": "wiki-、-pedia、-gate、-ponics 均由截短或混成成分固化为能产后缀，用于批量造词。",
+       "terms": [
+        "suffix formation",
+        "productivity",
+        "blend"
+       ],
+       "examples": [
+        "Wikipedia",
+        "-gate",
+        "-ponics",
+        "wiki"
+       ],
+       "lessonHint": "新词"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S18",
+     "title": "Initialisms and Acronyms",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s18-1",
+       "title": "缩略词、首字母词与首字母缩拼词",
+       "type": "classification",
+       "summary": "abbreviation 读全称（Dr.），initialism 读字母名（LOL），acronym 拼读成词（NASA），三者性质不同。",
+       "terms": [
+        "abbreviation",
+        "initialism",
+        "acronym"
+       ],
+       "examples": [
+        "LOL",
+        "BFF",
+        "NASA",
+        "Dr."
+       ],
+       "lessonHint": "新词"
+      },
+      {
+       "id": "kp-s1c3s18-2",
+       "title": "首字母缩拼词可再截短并衍生",
+       "type": "rule",
+       "summary": "Soho、Tribeca、Nolita 由短语各词首段截短拼成；USINDOPACOM 则是首字母词与缩拼词的混合。",
+       "terms": [
+        "acronym",
+        "clipping",
+        "hybrid"
+       ],
+       "examples": [
+        "Soho",
+        "Tribeca",
+        "Nolita",
+        "USINDOPACOM"
+       ],
+       "lessonHint": "新词"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S19",
+     "title": "Onomatopoeia and Sound Symbolism",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s19-1",
+       "title": "拟声词的古音更贴切",
+       "type": "concept",
+       "summary": "拟声词模仿所指声音，cough、bleat 按中古或古英语音值读更逼真，说明音变会磨损拟声性。",
+       "terms": [
+        "onomatopoeia",
+        "sound change"
+       ],
+       "examples": [
+        "cough",
+        "bleat",
+        "barbarian",
+        "borborygmus"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c3s19-2",
+       "title": "声音象征比拟声更间接",
+       "type": "concept",
+       "summary": "pu、cac 模拟厌恶的生理声，[i] 在 teeny 中象征小；takete/maluma 实验显示跨语言联想一致。",
+       "terms": [
+        "sound symbolism",
+        "synesthesia",
+        "arbitrariness"
+       ],
+       "examples": [
+        "putrid",
+        "cacophony",
+        "teeny",
+        "humongous"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S20",
+     "title": "Analogy",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s20-1",
+       "title": "类推按既有模式造新词",
+       "type": "rule",
+       "summary": "tweetophobia 依 agoraphobia 造出，prepone 依 postpone 造出；结构仿制可以完全脱离词源。",
+       "terms": [
+        "analogy",
+        "productivity"
+       ],
+       "examples": [
+        "tweetophobia",
+        "prepone",
+        "shambolic"
+       ],
+       "lessonHint": "新词"
+      },
+      {
+       "id": "kp-s1c3s20-2",
+       "title": "逆构词由复杂词反推简单词",
+       "type": "rule",
+       "summary": "edit 由 editor 反推，televise 由 television 反推，这种从复杂词反推简单词的过程即逆构词。",
+       "terms": [
+        "back-formation",
+        "affixation"
+       ],
+       "examples": [
+        "edit",
+        "televise",
+        "metamorphose",
+        "self-destruct",
+        "carjack"
+       ],
+       "lessonHint": "新词"
+      },
+      {
+       "id": "kp-s1c3s20-3",
+       "title": "重新分析与民间词源",
+       "type": "history",
+       "summary": "pea 由 pease 反推单数，chaise lounge 改写 longue，cockroach、shamefaced 均因重新分析而变形。",
+       "terms": [
+        "reanalysis",
+        "folk etymology"
+       ],
+       "examples": [
+        "pea",
+        "chaise lounge",
+        "cockroach",
+        "shamefaced"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c3s20-4",
+       "title": "逆向首字母词多为事后附会",
+       "type": "concept",
+       "summary": "phat、posh、news 的“首字母解释”通常是先有词后编短语，判据是短语明显不如词本身自然。",
+       "terms": [
+        "backronym",
+        "acronym"
+       ],
+       "examples": [
+        "phat",
+        "posh",
+        "news",
+        "USA PATRIOT Act"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C3-S21",
+     "title": "Morphology or Etymology?",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c3s21-1",
+       "title": "形态学看功能部件，词源学看历史",
+       "type": "concept",
+       "summary": "两者常重合：词典的简短词源往往可直接当形态分析；但借入时间、同源语比较属词源而非形态。",
+       "terms": [
+        "morphology",
+        "etymology"
+       ],
+       "examples": [
+        "pantheon",
+        "oak"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c3s21-2",
+       "title": "冲突时以可概括的现代规则为准",
+       "type": "rule",
+       "summary": "cockroach 现代可分析为 cock+roach，scissors 现代归入 sciss 'split'，尽管词源并非如此。",
+       "terms": [
+        "reanalysis",
+        "generality"
+       ],
+       "examples": [
+        "cockroach",
+        "scissors",
+        "decide",
+        "incisor"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c3s21-3",
+       "title": "标源语言是为预测词素行为",
+       "type": "method",
+       "summary": "标注 Latin 或 Greek 不是追溯历史，而是预判该词素接缀时的音变行为（详见第4、6章）。",
+       "terms": [
+        "source language",
+        "allomorphy"
+       ],
+       "examples": [
+        "anemometer"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "a-",
+     "gloss": "not, without",
+     "source": "G",
+     "note": "元音与 h 前作 an-"
+    },
+    {
+     "form": "-itis",
+     "gloss": "inflammation",
+     "source": "G"
+    },
+    {
+     "form": "card",
+     "gloss": "heart",
+     "source": "G"
+    },
+    {
+     "form": "pan",
+     "gloss": "all, everywhere",
+     "source": "G"
+    },
+    {
+     "form": "trans-",
+     "gloss": "across",
+     "source": "L"
+    },
+    {
+     "form": "pter",
+     "gloss": "wing",
+     "source": "G"
+    },
+    {
+     "form": "bibli",
+     "gloss": "book",
+     "source": "G"
+    },
+    {
+     "form": "phil",
+     "gloss": "liking",
+     "source": "G"
+    },
+    {
+     "form": "ped",
+     "gloss": "child",
+     "source": "G"
+    },
+    {
+     "form": "-yx",
+     "gloss": "名词后缀（罕用）",
+     "source": "G",
+     "note": "如 calyx、apteryx"
+    },
+    {
+     "form": "acr",
+     "gloss": "height, tip",
+     "source": "G",
+     "note": "acronym 的第一个成分"
+    },
+    {
+     "form": "onym",
+     "gloss": "name",
+     "source": "G"
+    },
+    {
+     "form": "aqu",
+     "gloss": "water",
+     "source": "L"
+    },
+    {
+     "form": "fer",
+     "gloss": "carry",
+     "source": "L"
+    },
+    {
+     "form": "agr",
+     "gloss": "field",
+     "source": "L"
+    },
+    {
+     "form": "nov",
+     "gloss": "new",
+     "source": "L"
+    },
+    {
+     "form": "sal",
+     "gloss": "jump",
+     "source": "L",
+     "note": "salient、sally、salacious"
+    },
+    {
+     "form": "curr~curs",
+     "gloss": "run",
+     "source": "L"
+    },
+    {
+     "form": "astr",
+     "gloss": "star",
+     "source": "G"
+    },
+    {
+     "form": "pung~punct",
+     "gloss": "point, poke",
+     "source": "L"
+    },
+    {
+     "form": "pyr",
+     "gloss": "fire；fever",
+     "source": "G"
+    },
+    {
+     "form": "ship",
+     "gloss": "vessel",
+     "source": "OE",
+     "note": "原专指远洋船，在 spaceship 中泛化为载具"
+    },
+    {
+     "form": "-ish",
+     "gloss": "倾向；构成形容词",
+     "source": "OE"
+    },
+    {
+     "form": "-ee",
+     "gloss": "动作的接受者",
+     "source": "F"
+    },
+    {
+     "form": "-ous",
+     "gloss": "characterized by；构成形容词",
+     "source": "L"
+    },
+    {
+     "form": "-er",
+     "gloss": "施事者；构成名词",
+     "source": "OE"
+    },
+    {
+     "form": "-able",
+     "gloss": "被动可能性；构成形容词",
+     "source": "L"
+    },
+    {
+     "form": "-ity",
+     "gloss": "quality, state",
+     "source": "L"
+    },
+    {
+     "form": "-like",
+     "gloss": "resembling",
+     "source": "OE"
+    },
+    {
+     "form": "-esque",
+     "gloss": "resembling",
+     "source": "F"
+    },
+    {
+     "form": "-y",
+     "gloss": "构成形容词/名词/指小词",
+     "source": "OE"
+    },
+    {
+     "form": "-o-",
+     "gloss": "interfix，无义",
+     "source": "G"
+    },
+    {
+     "form": "-i-",
+     "gloss": "interfix，无义",
+     "source": "L"
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "Exercises：完整解析并逐元素注释长词",
+     "shape": "parse-and-gloss",
+     "example": [
+      "antidisestablishmentarianism",
+      "anaerobic",
+      "helicopter"
+     ]
+    },
+    {
+     "name": "Exercises：用树形图或括号比较同形异构词",
+     "shape": "bracketing",
+     "example": [
+      "compensatory",
+      "unambiguous",
+      "disproportionate"
+     ]
+    },
+    {
+     "name": "Exercises：判定成分是词根、词缀还是 morph，并找出 stem",
+     "shape": "morpheme-classification",
+     "example": [
+      "parapsychologist",
+      "apathy",
+      "philosophizing"
+     ]
+    },
+    {
+     "name": "Exercises：归纳后缀的功能与同形异缀",
+     "shape": "suffix-function-classification",
+     "example": [
+      "-ate",
+      "-ic",
+      "-y",
+      "-er",
+      "-ly"
+     ]
+    },
+    {
+     "name": "Exercises：用词语说明复合词两成分的关系",
+     "shape": "compound-relation",
+     "example": [
+      "doorstep",
+      "footstep",
+      "killjoy"
+     ]
+    },
+    {
+     "name": "Exercises：还原混成词的来源词",
+     "shape": "blend-recovery",
+     "example": [
+      "flexitarian",
+      "Brexit",
+      "flawsome"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-C4",
+   "chapter": 4,
+   "title": "Allomorphy",
+   "sections": [
+    {
+     "id": "S1-C4-S1",
+     "title": "Allomorphs",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s1-1",
+       "title": "词素、形素与变体的三层关系",
+       "type": "concept",
+       "summary": "morpheme 是抽象功能单位，morph 是其具体形式，同一词素的不同 morph 即 allomorph（[s]/[z]/[əz]）。",
+       "terms": [
+        "morpheme",
+        "morph",
+        "allomorph"
+       ],
+       "examples": [
+        "cats",
+        "dogs",
+        "finches"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c4s1-2",
+       "title": "判定同词素变体的三条标准",
+       "type": "rule",
+       "summary": "功能相同、选择受邻接成分制约、同源且音近；vend 与 sell 义同却非变体，因无制约条件。",
+       "terms": [
+        "allomorph",
+        "conditioning",
+        "function"
+       ],
+       "examples": [
+        "inviolable",
+        "impossible",
+        "vend",
+        "sell"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c4s1-3",
+       "title": "变体的引用方式与误切分风险",
+       "type": "method",
+       "summary": "记法有 mit~miss、re(d)-、任选一式三种；不知 red- 变体会把 redolent 误切为 re-dol-ent。",
+       "terms": [
+        "allomorph notation",
+        "misparsing"
+       ],
+       "examples": [
+        "mit~miss",
+        "redolent",
+        "sedition"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S2",
+     "title": "Phonology-Based Allomorphy",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s2-1",
+       "title": "异形的两大来源：分化与合并",
+       "type": "classification",
+       "summary": "原本单一的形式因音变分化出多个（morph split），或原相邻词素被重新理解为单一形式（merger）。",
+       "terms": [
+        "morph split",
+        "morphemic merger"
+       ],
+       "examples": [
+        "allomorphy"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S3",
+     "title": "Phonological Repairs",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s3-1",
+       "title": "变体是为修补非法读音",
+       "type": "rule",
+       "summary": "若 con- 不变就会出现 *conplete、*conbine 这类违反音系限制的形式，同化即是修补手段。",
+       "terms": [
+        "phonological repair",
+        "assimilation",
+        "ill-formed"
+       ],
+       "examples": [
+        "complete",
+        "combine"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S4",
+     "title": "Yesterday’s Phonology Is Today’s Allomorphy",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s4-1",
+       "title": "规则消失后交替残留为形态规则",
+       "type": "rule",
+       "summary": "古英语复数受 umlaut 影响，[i] 词尾消失后元音交替仍在（man/men），此时已是形态而非音系规则。",
+       "terms": [
+        "umlaut",
+        "morphologization"
+       ],
+       "examples": [
+        "man",
+        "men",
+        "foot",
+        "feet"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S5",
+     "title": "Borrowed Phonology",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s5-1",
+       "title": "借入的音系规则只作用于借词层",
+       "type": "rule",
+       "summary": "in- 有 im-/il-/ir- 变体而本土 un- 不变（*umprovable），说明该规则只在拉丁借词内有效。",
+       "terms": [
+        "assimilation",
+        "borrowed rule",
+        "native prefix"
+       ],
+       "examples": [
+        "ineligible",
+        "imprecise",
+        "illegal",
+        "irregular",
+        "unprovable"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c4s5-2",
+       "title": "希腊否定前缀 an- 与 a- 的分布",
+       "type": "rule",
+       "summary": "an- 用于元音与 [h] 前（apnea、anesthetic），a- 用于其他辅音前（atheist、asymmetry）。",
+       "terms": [
+        "alpha privative",
+        "conditioning"
+       ],
+       "examples": [
+        "apnea",
+        "atheist",
+        "asymmetry",
+        "anhydrous"
+       ],
+       "lessonHint": "希腊"
+      },
+      {
+       "id": "kp-s1c4s5-3",
+       "title": "拉丁元音弱化的基本机制",
+       "type": "rule",
+       "summary": "词根移到非首音节时，短 a 变 e（双辅音前）、e 变 i（单辅音前），源于古拉丁首音节重音。",
+       "terms": [
+        "Latin Vowel Weakening",
+        "stress",
+        "noninitial syllable"
+       ],
+       "examples": [
+        "species",
+        "specific"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S6",
+     "title": "Suppletion",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s6-1",
+       "title": "异干互补：屈折表里混入别的词",
+       "type": "concept",
+       "summary": "go 的过去式 went 原属 wend，被并入 go 的屈折系统，形成音形迥异的变体。",
+       "terms": [
+        "suppletion",
+        "lexeme",
+        "paradigm"
+       ],
+       "examples": [
+        "go",
+        "went",
+        "wend",
+        "Jupiter",
+        "Jovian"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S7",
+     "title": "Morpheme Merger",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s7-1",
+       "title": "相邻词素可融合为一个",
+       "type": "rule",
+       "summary": "corporal、corporate 中的 or 已无义，于是 corpor 被当作 corp 的变体，词的结构与词源脱节。",
+       "terms": [
+        "fusion",
+        "opaque morpheme"
+       ],
+       "examples": [
+        "corporal",
+        "corporate",
+        "corp"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S8",
+     "title": "Allomorphy by Fusion",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s8-1",
+       "title": "词根加 t 形成常见变体",
+       "type": "rule",
+       "summary": "拉丁词根常借 t 产生新变体：duc~duct、ten~tend~tens、nec~necr，t 原为后缀，今已不可分。",
+       "terms": [
+        "extension",
+        "allomorph",
+        "participial suffix"
+       ],
+       "examples": [
+        "induce",
+        "induct",
+        "extend",
+        "tensile",
+        "necrology"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c4s8-2",
+       "title": "加音变体多不可预测，须随表记",
+       "type": "concept",
+       "summary": "变体可加元音（bath~bathy）、辅音（nec~necr）或音节（corp~corpor），无统一规则，只能逐个记。",
+       "terms": [
+        "extension",
+        "memorization"
+       ],
+       "examples": [
+        "bathyscope",
+        "landscape"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S9",
+     "title": "Nasal Infixation",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s9-1",
+       "title": "鼻音中缀插在词根元音之后",
+       "type": "rule",
+       "summary": "n 或 m 插入词根元音后（fund 与 cumb 的 n/m），原为印欧语现在时标记，英语中已无功能。",
+       "terms": [
+        "infix",
+        "nasal infixation"
+       ],
+       "examples": [
+        "fund",
+        "cumb"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S10",
+     "title": "Ablaut",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s10-1",
+       "title": "元音交替 e/o/零",
+       "type": "rule",
+       "summary": "印欧语以元音变换构成形态，英语残留于 sing/sang/sung；希腊借词保留最完整，如 ped 与 pod。",
+       "terms": [
+        "ablaut",
+        "grade"
+       ],
+       "examples": [
+        "sing",
+        "sang",
+        "sung",
+        "ped",
+        "pod"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S11",
+     "title": "Doublets or Allomorphs?",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s11-1",
+       "title": "拉丁与法语形式宜作双式词",
+       "type": "concept",
+       "summary": "词末法语形 tain 与拉丁形 ten 可视为变体（contain/abstention），但 cave 与 jail 只能算双式词。",
+       "terms": [
+        "doublet",
+        "Latinate",
+        "alternation"
+       ],
+       "examples": [
+        "contain",
+        "abstention",
+        "cave",
+        "jail",
+        "faith",
+        "fidelity"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c4s11-2",
+       "title": "希腊与拉丁同源双式词",
+       "type": "classification",
+       "summary": "hemi~semi、hexa~sex、hepta~septem、herp~serp 各为希腊与拉丁形式，英语两套都借入。",
+       "terms": [
+        "doublet",
+        "cognate"
+       ],
+       "examples": [
+        "hemisphere",
+        "semicircle",
+        "hexagon",
+        "sextet"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c4s11-3",
+       "title": "个别变体只能逐个记",
+       "type": "concept",
+       "summary": "de~div（god）、aut~taut（same）、lith~lit（stone）等变体不循通则，须随元素表单独记忆。",
+       "terms": [
+        "idiosyncratic allomorph"
+       ],
+       "examples": [
+        "deity",
+        "divine",
+        "authentic",
+        "tautology",
+        "lithograph"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C4-S12",
+     "title": "Word elements",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c4s12-1",
+       "title": "元素表须连变体一起记",
+       "type": "method",
+       "summary": "本章元素表以 ten~tend~tens 之类形式列出，记元素时必须同时记变体，否则无法解析生词。",
+       "terms": [
+        "allomorph",
+        "word element list"
+       ],
+       "examples": [
+        "ten~tend~tens",
+        "duc~duct"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "mit~miss",
+     "gloss": "send",
+     "source": "L",
+     "note": "本章仅作变体记法示例出现"
+    },
+    {
+     "form": "re(d)-",
+     "gloss": "again",
+     "source": "L",
+     "note": "red- 用于元音开头的词根前"
+    },
+    {
+     "form": "se-~sed-",
+     "gloss": "apart",
+     "source": "L"
+    },
+    {
+     "form": "nec~necr",
+     "gloss": "die",
+     "source": "G"
+    },
+    {
+     "form": "noc~nox",
+     "gloss": "harm",
+     "source": "L",
+     "note": "与 nec 'die' 为同源借入"
+    },
+    {
+     "form": "ten~tend~tens",
+     "gloss": "stretch, thin",
+     "source": "L"
+    },
+    {
+     "form": "ten~tain",
+     "gloss": "hold",
+     "source": "L",
+     "note": "词末 tain 为法语形"
+    },
+    {
+     "form": "duc~duct",
+     "gloss": "lead",
+     "source": "L"
+    },
+    {
+     "form": "it",
+     "gloss": "go",
+     "source": "L"
+    },
+    {
+     "form": "ol",
+     "gloss": "smell",
+     "source": "L"
+    },
+    {
+     "form": "corp~corpor",
+     "gloss": "body",
+     "source": "L"
+    },
+    {
+     "form": "fac",
+     "gloss": "do, make",
+     "source": "L"
+    },
+    {
+     "form": "fid",
+     "gloss": "trust",
+     "source": "L"
+    },
+    {
+     "form": "cav",
+     "gloss": "hollow",
+     "source": "L"
+    },
+    {
+     "form": "nomen~nomin",
+     "gloss": "name",
+     "source": "L"
+    },
+    {
+     "form": "onom~onym~onomat",
+     "gloss": "name",
+     "source": "G"
+    },
+    {
+     "form": "dent",
+     "gloss": "tooth",
+     "source": "L"
+    },
+    {
+     "form": "odont",
+     "gloss": "tooth",
+     "source": "G",
+     "note": "与 dent 为同源双式词"
+    },
+    {
+     "form": "fa",
+     "gloss": "speak",
+     "source": "L"
+    },
+    {
+     "form": "pha",
+     "gloss": "speak",
+     "source": "G"
+    },
+    {
+     "form": "de~div",
+     "gloss": "god",
+     "source": "L"
+    },
+    {
+     "form": "aut~taut",
+     "gloss": "same",
+     "source": "G"
+    },
+    {
+     "form": "lith~lit",
+     "gloss": "stone",
+     "source": "G"
+    },
+    {
+     "form": "hemi~semi",
+     "gloss": "half",
+     "source": "?",
+     "note": "G hemi 与 L semi 同源，属双式词"
+    },
+    {
+     "form": "hexa~sex",
+     "gloss": "six",
+     "source": "?",
+     "note": "希腊 hexa 与拉丁 sex"
+    },
+    {
+     "form": "hepta~septem",
+     "gloss": "seven",
+     "source": "?",
+     "note": "希腊 hepta 与拉丁 septem"
+    },
+    {
+     "form": "herp~serp",
+     "gloss": "creep",
+     "source": "?",
+     "note": "希腊 herp 与拉丁 serp"
+    },
+    {
+     "form": "am",
+     "gloss": "love",
+     "source": "L"
+    },
+    {
+     "form": "ann",
+     "gloss": "year",
+     "source": "L"
+    },
+    {
+     "form": "gen~gon",
+     "gloss": "birth, race",
+     "source": "?",
+     "note": "拉丁 gen 与希腊 gon 同源"
+    },
+    {
+     "form": "gon",
+     "gloss": "angle",
+     "source": "G",
+     "note": "与 gen~gon 同形异源"
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "Practice：判定词对属元音弱化、异干互补、鼻音中缀还是元音交替",
+     "shape": "allomorph-classification",
+     "example": [
+      "sing",
+      "sang",
+      "go",
+      "went"
+     ]
+    },
+    {
+     "name": "Element Study：指定词根并写出其全部变体",
+     "shape": "root-variant-listing",
+     "example": [
+      "iniquity",
+      "precise",
+      "pendant"
+     ]
+    },
+    {
+     "name": "Element Study：同形异源词根辨别",
+     "shape": "false-friends",
+     "example": [
+      "capital",
+      "reception",
+      "genuine",
+      "orthogonal"
+     ]
+    },
+    {
+     "name": "Exercises：为同根词配对并说明变化过程",
+     "shape": "root-matching",
+     "example": [
+      "contiguous",
+      "pertinacious",
+      "cognate"
+     ]
+    },
+    {
+     "name": "Element Study：按 prefix-root-suffix 格式解析并给出变体",
+     "shape": "parse-and-gloss",
+     "example": [
+      "conspicuous",
+      "equanimous",
+      "incipient"
+     ]
+    },
+    {
+     "name": "Element Study：判定词根属拉丁还是希腊来源",
+     "shape": "source-language-identification",
+     "example": [
+      "cognate",
+      "benign",
+      "genesis",
+      "indigenous"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-C5",
+   "chapter": 5,
+   "title": "Phonetics",
+   "sections": [
+    {
+     "id": "S1-C5-S1",
+     "title": "Basics of Sound Production",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c5s1-1",
+       "title": "语音由气流受阻方式与位置决定",
+       "type": "concept",
+       "summary": "语音差异来自气流被阻塞、减速或改向的方式与位置；拼写不可靠，cats 与 dogs 词尾实为 [s] 与 [z]。",
+       "terms": [
+        "articulator",
+        "vocal tract",
+        "spelling"
+       ],
+       "examples": [
+        "cats",
+        "dogs",
+        "hiss",
+        "buzz"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c5s1-2",
+       "title": "把音分解为区别特征可解释同化",
+       "type": "concept",
+       "summary": "[p][b][m] 同为唇部阻塞，故 in- 在其前变 im-；特征分析也让陌生音更易掌握。",
+       "terms": [
+        "distinctive feature",
+        "assimilation",
+        "place of articulation"
+       ],
+       "examples": [
+        "impossible",
+        "imbalance",
+        "immodest"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C5-S2",
+     "title": "The Airstream",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c5s2-1",
+       "title": "肺部气流是所有英语音的来源",
+       "type": "concept",
+       "summary": "英语音均由肺部气流经喉与声道自口或鼻呼出，气流被阻滞的方式决定音的种类。",
+       "terms": [
+        "airstream",
+        "larynx",
+        "vocal tract"
+       ],
+       "examples": [
+        "English"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C5-S3",
+     "title": "Manner of Articulation",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c5s3-1",
+       "title": "按阻塞方式分为五类辅音",
+       "type": "classification",
+       "summary": "塞音、擦音、塞擦音合称阻音；近音与鼻音另立一类，英语辅音按此五类划分。",
+       "terms": [
+        "stop [p b t d k g]",
+        "fricative [f v θ ð s z ʃ ʒ h]",
+        "affricate [tʃ dʒ]",
+        "approximant [l r w j]",
+        "nasal [m n ŋ]"
+       ],
+       "examples": [
+        "judge",
+        "chore",
+        "shore",
+        "love"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C5-S4",
+     "title": "Place of Articulation",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c5s4-1",
+       "title": "按发音部位分类辅音",
+       "type": "classification",
+       "summary": "部位包括双唇、唇齿、齿、齿龈、齿龈后、硬腭、软腭、喉；[w] 兼唇与软腭双重部位。",
+       "terms": [
+        "labial",
+        "alveolar",
+        "velar",
+        "palatal",
+        "glottal",
+        "labiovelar"
+       ],
+       "examples": [
+        "pie",
+        "tore",
+        "key",
+        "wet"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C5-S5",
+     "title": "Phonation",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c5s5-1",
+       "title": "清浊取决于声带是否振动",
+       "type": "concept",
+       "summary": "声带振动为浊音，否则为清音；英语浊辅音常部分清化，但仍归为浊音。",
+       "terms": [
+        "voicing",
+        "vocal cords",
+        "glottis"
+       ],
+       "examples": [
+        "safe",
+        "save",
+        "ahead"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c5s5-2",
+       "title": "送气与气声在英语不区别词义",
+       "type": "concept",
+       "summary": "[pʰ] 等送气音在英语只是语音细节，希腊语与印地语则用送气或气声区分词。",
+       "terms": [
+        "aspiration",
+        "breathy voice",
+        "phonation"
+       ],
+       "examples": [
+        "pie",
+        "toe",
+        "key"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c5s5-3",
+       "title": "三元特征可唯一确定辅音",
+       "type": "method",
+       "summary": "同时给出发声态、部位、方式，即可唯一确定任一英语辅音；反之也能由音标写出描述。",
+       "terms": [
+        "phonation",
+        "place",
+        "manner"
+       ],
+       "examples": [
+        "[ʒ]",
+        "[dʒ]",
+        "[ŋ]"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C5-S6",
+     "title": "Vowels",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c5s6-1",
+       "title": "元音按舌位高低前后与松紧描写",
+       "type": "classification",
+       "summary": "元音以舌体高低、前后、圆唇与否、松紧四参数描写；只有紧元音可在词末重读。",
+       "terms": [
+        "vowel height",
+        "backness",
+        "tenseness",
+        "rounding"
+       ],
+       "examples": [
+        "heat",
+        "hat",
+        "who",
+        "coat"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c5s6-2",
+       "title": "双元音与方言差异",
+       "type": "concept",
+       "summary": "[aɪ][aʊ][ɔɪ] 为双元音；低后元音在方言间差异最大，美式常合并 spa 与 spot 的元音。",
+       "terms": [
+        "diphthong",
+        "dialect",
+        "low back vowel"
+       ],
+       "examples": [
+        "might",
+        "how",
+        "boy",
+        "spa",
+        "caught"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c5s6-3",
+       "title": "schwa 是唯一的中央元音",
+       "type": "concept",
+       "summary": "[ə] 为中央中元音，既作非重读元音，在当代美式英语中也承担 fun 的重读元音。",
+       "terms": [
+        "schwa",
+        "central vowel"
+       ],
+       "examples": [
+        "sofa",
+        "fun"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "fric",
+     "gloss": "rub",
+     "source": "L",
+     "note": "fricative、friction 的词根"
+    },
+    {
+     "form": "cad~cas~cid",
+     "gloss": "fall",
+     "source": "L"
+    },
+    {
+     "form": "cid~cis",
+     "gloss": "cut, kill",
+     "source": "L",
+     "note": "与 'fall' 的 cid 同形异源"
+    },
+    {
+     "form": "ced~ceed~cess",
+     "gloss": "go, let go",
+     "source": "L"
+    },
+    {
+     "form": "anthrop",
+     "gloss": "human",
+     "source": "G"
+    },
+    {
+     "form": "andr",
+     "gloss": "man",
+     "source": "G",
+     "note": "与 anthrop 同 gloss，但强调男性"
+    },
+    {
+     "form": "leg",
+     "gloss": "law, deputize",
+     "source": "L"
+    },
+    {
+     "form": "leg~lig",
+     "gloss": "gather, read",
+     "source": "L"
+    },
+    {
+     "form": "lex",
+     "gloss": "speak, word",
+     "source": "L"
+    },
+    {
+     "form": "log",
+     "gloss": "speak, study",
+     "source": "G",
+     "note": "与 leg~lig 同源但意义分化"
+    },
+    {
+     "form": "ten~tin",
+     "gloss": "hold, maintain",
+     "source": "L"
+    },
+    {
+     "form": "ten~tend~tens",
+     "gloss": "stretch, thin",
+     "source": "L",
+     "note": "与 'hold' 的 ten 同形异源"
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "Exercises：用 IPA 转写词或短语",
+     "shape": "phonetic-transcription",
+     "example": [
+      "wounds",
+      "photograph",
+      "drained",
+      "thought"
+     ]
+    },
+    {
+     "name": "Exercises：按发声态、部位、方式完整描述一个音",
+     "shape": "articulatory-description",
+     "example": [
+      "[ʒ]",
+      "[dʒ]",
+      "[ŋ]"
+     ]
+    },
+    {
+     "name": "Exercises：由发音描述反写音标",
+     "shape": "symbol-identification",
+     "example": [
+      "[s]",
+      "[ð]",
+      "[ə]"
+     ]
+    },
+    {
+     "name": "Element Study：同形异源词根辨别",
+     "shape": "false-friends",
+     "example": [
+      "allege",
+      "tenure",
+      "accident",
+      "decide"
+     ]
+    },
+    {
+     "name": "Element Study：解析并标注每个成分的类别",
+     "shape": "parse-and-gloss",
+     "example": [
+      "amorphous",
+      "omniscient",
+      "conducive"
+     ]
+    },
+    {
+     "name": "Element Study：归纳同一词根的义域变化",
+     "shape": "meaning-range",
+     "example": [
+      "accede",
+      "concede",
+      "exceed",
+      "recede"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-C6",
+   "chapter": 6,
+   "title": "Regular Allomorphy; Numeric Elements",
+   "sections": [
+    {
+     "id": "S1-C6-S1",
+     "title": "Regular Allomorphy in General",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c6s1-1",
+       "title": "规则异形与需硬记的异形之分",
+       "type": "concept",
+       "summary": "复数 [s]/[z]/[əz] 之类规则异形母语者不自觉即会用；拉丁词层的规则须专门学习才能应用。",
+       "terms": [
+        "regular allomorphy",
+        "Latinate",
+        "plural"
+       ],
+       "examples": [
+        "cats",
+        "dogs",
+        "finches"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C6-S2",
+     "title": "Latin Letters and Sounds",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c6s2-1",
+       "title": "按拉丁音值而非英语音值应用规则",
+       "type": "rule",
+       "summary": "拉丁 c、g 永为 [k]、[g]，j、v 为近音；规则须在古典音值上运作，如 regent 的 g 在拉丁仍是 [g]。",
+       "terms": [
+        "Latin pronunciation",
+        "velar",
+        "letter-sound correspondence"
+       ],
+       "examples": [
+        "clinic",
+        "cite",
+        "regent",
+        "via"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c6s2-2",
+       "title": "希腊词素经罗马化转写",
+       "type": "concept",
+       "summary": "希腊成分先以拉丁字母转写再入英语，唯一特殊音是 [y]（前圆唇元音），英语读同 i。",
+       "terms": [
+        "romanization",
+        "front rounded vowel"
+       ],
+       "examples": [
+        "hypocrite",
+        "hypothesis"
+       ],
+       "lessonHint": "希腊"
+      }
+     ]
+    },
+    {
+     "id": "S1-C6-S3",
+     "title": "Assimilation",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c6s3-1",
+       "title": "部位同化是右向的",
+       "type": "rule",
+       "summary": "辅音向后接音的部位靠拢：[n] 在双唇音前变 [m]，在软腭音前变 [ŋ]；symphony 因希腊 ph 为双唇音也适用。",
+       "terms": [
+        "place assimilation",
+        "anticipatory",
+        "nasal"
+       ],
+       "examples": [
+        "impossible",
+        "symphony",
+        "congregate",
+        "incur"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c6s3-2",
+       "title": "完全同化与部分同化",
+       "type": "classification",
+       "summary": "[n]→[m] 后与前音合并写作 mm，属完全同化；[n]→[ŋ] 只改部位、鼻性仍在，属部分同化且不留拼写痕迹。",
+       "terms": [
+        "total assimilation",
+        "partial assimilation"
+       ],
+       "examples": [
+        "immemorial",
+        "congregate"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c6s3-3",
+       "title": "清浊同化及前缀例外",
+       "type": "rule",
+       "summary": "浊音在清音前清化：scrib 变 scrip（prescription）、g 变 c；但前缀与词根间一般不发生，故有 subtract。",
+       "terms": [
+        "phonation assimilation",
+        "devoicing"
+       ],
+       "examples": [
+        "prescription",
+        "subtract",
+        "obtain"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c6s3-4",
+       "title": "流音同化与 d 的全同化",
+       "type": "rule",
+       "summary": "[n][r] 在 [l] 前完全同化，[d] 则同化于多数辅音；英语大量双写字母即源于此类完全同化。",
+       "terms": [
+        "liquid assimilation",
+        "total assimilation",
+        "double letter"
+       ],
+       "examples": [
+        "alleviate",
+        "accept",
+        "affect",
+        "suggest"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C6-S4",
+     "title": "Deletion",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c6s4-1",
+       "title": "元音删除及其与拼写规则之别",
+       "type": "rule",
+       "summary": "词素末元音在另一元音或 [h] 前删除（analyze 的 ana-），这与去掉不发音 e 的正字法规则不同。",
+       "terms": [
+        "vowel deletion",
+        "zero"
+       ],
+       "examples": [
+        "analyze",
+        "cello"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c6s4-2",
+       "title": "s 删除与辅音丛简化",
+       "type": "rule",
+       "summary": "[s] 在浊辅音前删除；三辅音相连时常删一二；ex- 为特例，故 ex-spec 变 expect 而一般前缀不简化。",
+       "terms": [
+        "s-deletion",
+        "cluster simplification"
+       ],
+       "examples": [
+        "evade",
+        "expect",
+        "exceed"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c6s4-3",
+       "title": "希腊词末塞音失落",
+       "type": "rule",
+       "summary": "希腊语不允许词末塞音，故 -mat 等结尾在英语中脱落，如 stoma 与 stomatic 的交替。",
+       "terms": [
+        "final stop loss",
+        "Greek phonology"
+       ],
+       "examples": [
+        "stoma",
+        "stomatic"
+       ],
+       "lessonHint": "希腊"
+      }
+     ]
+    },
+    {
+     "id": "S1-C6-S5",
+     "title": "Insertion",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c6s5-1",
+       "title": "前缀在元音前插入 d",
+       "type": "rule",
+       "summary": "单音节元音结尾前缀加 [d]，以免元音删除后过短：se-it-ion 经 sed- 成为 sedition。",
+       "terms": [
+        "insertion",
+        "epenthesis"
+       ],
+       "examples": [
+        "sedition"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c6s5-2",
+       "title": "无音理动机的插入",
+       "type": "rule",
+       "summary": "另一类插入只制造辅音丛（如 [s] 插在 [b] 与清塞音之间），部分词随后又被丛简化规则削减。",
+       "terms": [
+        "insertion",
+        "consonant cluster"
+       ],
+       "examples": [
+        "insertion"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C6-S6",
+     "title": "Rhotacism",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c6s6-1",
+       "title": "元音间 s 变 r",
+       "type": "rule",
+       "summary": "拉丁词素末 [s] 处于两元音之间时变 [r]，故同一词素在不同词中呈 s 与 r 的交替。",
+       "terms": [
+        "rhotacism",
+        "intervocalic"
+       ],
+       "examples": [
+        "justice",
+        "jury"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C6-S7",
+     "title": "Vowel Changes",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c6s7-1",
+       "title": "拉丁元音弱化的细则",
+       "type": "rule",
+       "summary": "非首音节短 a 变 e，短 e 在“单辅音加元音”前变 i；由 a 弱化来的 e 还可继续变 i。",
+       "terms": [
+        "Latin Vowel Weakening",
+        "open syllable"
+       ],
+       "examples": [
+        "experiment",
+        "infringe",
+        "receptive",
+        "recipient"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c6s7-2",
+       "title": "元音着色：辅音改变元音音质",
+       "type": "rule",
+       "summary": "元音在 [r] 前倾向变 e、在 [l] 前倾向变 u 或 o，可独立于弱化发生；insult 的 [e] 即来自 a 弱化。",
+       "terms": [
+        "vowel coloring"
+       ],
+       "examples": [
+        "experiment",
+        "insult",
+        "cultivate"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C6-S8",
+     "title": "Other Consonant Changes",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c6s8-1",
+       "title": "词根末 s/ss 常是拉丁分词词干（mit→miss、ced→cess）",
+       "type": "history",
+       "summary": "不要在共时层面把 t+t 写成 ss：miss-、cess-、sess- 是拉丁过去分词词干，不是英语拼写规则。判断时把它当作「词干变体」处理，并回溯拉丁原形。",
+       "terms": [
+        "past participle stem",
+        "allomorph",
+        "Latin"
+       ],
+       "examples": [
+        "permit / permission",
+        "proceed / process",
+        "sit / session"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C6-S9",
+     "title": "Numeral Morphemes: Distinguishing between Latin and Greek Morphemes",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c6s9-1",
+       "title": "数词素倾向同语源搭配",
+       "type": "rule",
+       "summary": "pentagon 全用希腊成分，quadrilateral 用拉丁数字配拉丁 later；但 monolingual 等混用亦常见。",
+       "terms": [
+        "numeral morpheme",
+        "source language"
+       ],
+       "examples": [
+        "pentagon",
+        "quadrilateral",
+        "monolingual",
+        "neonate"
+       ],
+       "lessonHint": "希腊"
+      },
+      {
+       "id": "kp-s1c6s9-2",
+       "title": "从拼写判断希腊或拉丁来源",
+       "type": "method",
+       "summary": "希腊线索：y、z、词首 k、rh/ph/th/ch、ps/pt/pn/mn/x；拉丁线索：f、j、v、qu。",
+       "terms": [
+        "spelling clue",
+        "Greek",
+        "Latinate"
+       ],
+       "examples": [
+        "psychology",
+        "pterodactyl",
+        "rhythm",
+        "fer",
+        "voc",
+        "quart"
+       ],
+       "lessonHint": "希腊"
+      },
+      {
+       "id": "kp-s1c6s9-3",
+       "title": "数词素可独立作词根，故非纯粹前缀",
+       "type": "classification",
+       "summary": "unicycle 中 uni- 修饰词根，但 dual、monad 中数词素本身即词根，只有 -al、-ad 是后缀。",
+       "terms": [
+        "prefix",
+        "root",
+        "suffix"
+       ],
+       "examples": [
+        "unicycle",
+        "dual",
+        "monad"
+       ],
+       "lessonHint": "希腊"
+      },
+      {
+       "id": "kp-s1c6s9-4",
+       "title": "拉丁与希腊数词对照",
+       "type": "classification",
+       "summary": "1 到 10 及百、千各有拉丁与希腊两套形式，如 un/mon、bi/di、quadr/tetra。",
+       "terms": [
+        "cardinal number",
+        "Latin",
+        "Greek"
+       ],
+       "examples": [
+        "uniform",
+        "monologue",
+        "quadrangle",
+        "tetrahedron",
+        "decade"
+       ],
+       "lessonHint": "希腊"
+      },
+      {
+       "id": "kp-s1c6s9-5",
+       "title": "序数词与分配数词",
+       "type": "classification",
+       "summary": "拉丁序数 prim、terti、quart、quint 等须硬记；分配数词 bin、tern、quatern 由 -n 后缀构成但音变掩盖来源。",
+       "terms": [
+        "ordinal",
+        "distributive"
+       ],
+       "examples": [
+        "primary",
+        "tertiary",
+        "binary",
+        "ternary"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c6s9-6",
+       "title": "大数命名：-illion 与 SI 前缀",
+       "type": "history",
+       "summary": "million 以上用古典词素构成，-illion 截自 million；两套 scale 的混乱促使科学界改用 SI 前缀。",
+       "terms": [
+        "-illion",
+        "short scale",
+        "SI prefix"
+       ],
+       "examples": [
+        "billion",
+        "trillion",
+        "gigawatt",
+        "nanometer"
+       ],
+       "lessonHint": "科技"
+      }
+     ]
+    },
+    {
+     "id": "S1-C6-S10",
+     "title": "Rules from This Chapter",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c6s10-1",
+       "title": "本章规则需整体掌握并用于解析",
+       "type": "method",
+       "summary": "部位、清浊、流音三类同化，各类删除与插入，rhotacism、元音弱化与着色、tt 变 ss 构成一套解析工具。",
+       "terms": [
+        "rule set",
+        "parsing"
+       ],
+       "examples": [
+        "expect",
+        "prescription",
+        "sedition",
+        "justice"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "un",
+     "gloss": "one",
+     "source": "L"
+    },
+    {
+     "form": "mon",
+     "gloss": "one",
+     "source": "G"
+    },
+    {
+     "form": "bi",
+     "gloss": "two",
+     "source": "L",
+     "note": "与 bi 'life' 同形异源"
+    },
+    {
+     "form": "di",
+     "gloss": "two",
+     "source": "G"
+    },
+    {
+     "form": "tri",
+     "gloss": "three",
+     "source": "?",
+     "note": "拉丁与希腊同形"
+    },
+    {
+     "form": "quadr",
+     "gloss": "four",
+     "source": "L"
+    },
+    {
+     "form": "tetra",
+     "gloss": "four",
+     "source": "G"
+    },
+    {
+     "form": "quinque",
+     "gloss": "five",
+     "source": "L"
+    },
+    {
+     "form": "penta",
+     "gloss": "five",
+     "source": "G"
+    },
+    {
+     "form": "sex",
+     "gloss": "six",
+     "source": "L",
+     "note": "此处仅指数词素，与拉丁 sexus 无关"
+    },
+    {
+     "form": "hexa",
+     "gloss": "six",
+     "source": "G"
+    },
+    {
+     "form": "septem",
+     "gloss": "seven",
+     "source": "L"
+    },
+    {
+     "form": "hepta",
+     "gloss": "seven",
+     "source": "G"
+    },
+    {
+     "form": "octo",
+     "gloss": "eight",
+     "source": "L"
+    },
+    {
+     "form": "octa",
+     "gloss": "eight",
+     "source": "G"
+    },
+    {
+     "form": "novem",
+     "gloss": "nine",
+     "source": "L"
+    },
+    {
+     "form": "ennea",
+     "gloss": "nine",
+     "source": "G"
+    },
+    {
+     "form": "decem",
+     "gloss": "ten",
+     "source": "L"
+    },
+    {
+     "form": "deca",
+     "gloss": "ten",
+     "source": "G"
+    },
+    {
+     "form": "cent",
+     "gloss": "hundred",
+     "source": "L"
+    },
+    {
+     "form": "hecaton",
+     "gloss": "hundred",
+     "source": "G"
+    },
+    {
+     "form": "mille",
+     "gloss": "thousand",
+     "source": "L"
+    },
+    {
+     "form": "chili",
+     "gloss": "thousand",
+     "source": "G"
+    },
+    {
+     "form": "myri",
+     "gloss": "ten thousand",
+     "source": "G"
+    },
+    {
+     "form": "semi-",
+     "gloss": "half",
+     "source": "L"
+    },
+    {
+     "form": "hemi-",
+     "gloss": "half",
+     "source": "G"
+    },
+    {
+     "form": "sesqui-",
+     "gloss": "one and a half",
+     "source": "L"
+    },
+    {
+     "form": "ambi-",
+     "gloss": "both",
+     "source": "L"
+    },
+    {
+     "form": "amphi-",
+     "gloss": "both",
+     "source": "G"
+    },
+    {
+     "form": "pauc",
+     "gloss": "few",
+     "source": "L"
+    },
+    {
+     "form": "olig",
+     "gloss": "few",
+     "source": "G"
+    },
+    {
+     "form": "mult~plur",
+     "gloss": "many",
+     "source": "L"
+    },
+    {
+     "form": "poly",
+     "gloss": "many",
+     "source": "G"
+    },
+    {
+     "form": "omn~tot",
+     "gloss": "all",
+     "source": "L"
+    },
+    {
+     "form": "pan~pant",
+     "gloss": "all",
+     "source": "G"
+    },
+    {
+     "form": "scrib~scrip",
+     "gloss": "write",
+     "source": "L",
+     "note": "scrip 为清化形"
+    },
+    {
+     "form": "spec",
+     "gloss": "look, see",
+     "source": "L"
+    },
+    {
+     "form": "secr",
+     "gloss": "holy",
+     "source": "L"
+    },
+    {
+     "form": "cess",
+     "gloss": "go, let go",
+     "source": "L"
+    },
+    {
+     "form": "lud",
+     "gloss": "play",
+     "source": "L"
+    },
+    {
+     "form": "fund",
+     "gloss": "pour",
+     "source": "L",
+     "note": "鼻音中缀的 n 形"
+    },
+    {
+     "form": "cumb",
+     "gloss": "lie",
+     "source": "L",
+     "note": "鼻音中缀的 m 形"
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "Exercises：还原被同化的前缀并区分完全同化与部分同化",
+     "shape": "assimilation-analysis",
+     "example": [
+      "impossible",
+      "corrupt",
+      "effect",
+      "illegible"
+     ]
+    },
+    {
+     "name": "Exercises：指出并注释词中的数量词素",
+     "shape": "numeral-identification",
+     "example": [
+      "pauciloquy",
+      "hectogram",
+      "myriameter",
+      "octet"
+     ]
+    },
+    {
+     "name": "Element Study：解析后逐一列出变体，或换用另一变体造相关词",
+     "shape": "allomorph-listing",
+     "example": [
+      "tetralogy",
+      "inflationary",
+      "perambulate",
+      "direct",
+      "process"
+     ]
+    },
+    {
+     "name": "Exercises：综合运用本章规则解析生词",
+     "shape": "parse-and-gloss",
+     "example": [
+      "erect",
+      "expect",
+      "deceptive",
+      "abscond"
+     ]
+    },
+    {
+     "name": "Exercises：分析 Velar Softening 与其他音变的叠加",
+     "shape": "velar-softening-analysis",
+     "example": [
+      "legend",
+      "fragment",
+      "factor",
+      "gonad"
+     ]
+    },
+    {
+     "name": "Exercises：破解被严重遮蔽的变体（如 semester）",
+     "shape": "disguised-allomorph",
+     "example": [
+      "semester"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-C7",
+   "chapter": 7,
+   "title": "Meaning Change",
+   "sections": [
+    {
+     "id": "S1-C7-S1",
+     "title": "Meaning Shifts",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s1-1",
+       "title": "多义性与形式变化同等重要",
+       "type": "concept",
+       "summary": "前几章处理形式变化（语素变体），本章转向意义变化。若要通过构词成分理解词义，就必须掌握同一语素的多重意义；多义（polysemy）与变体（allomorphy）是词素知识的两条腿。",
+       "terms": [
+        "polysemy",
+        "allomorphy",
+        "morpheme"
+       ],
+       "examples": [
+        "path 'feel' / 'illness'"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s1-2",
+       "title": "专门化与泛化可以双向发生",
+       "type": "concept",
+       "summary": "词义可以从宽变窄，也可以从窄变宽。deer 早期泛指一切动物（德语同源词 Tier 仍如此），后专指鹿；bird 原指幼鸟，通称原为 fowl，后来 bird 才扩为泛指鸟类。",
+       "terms": [
+        "narrowing",
+        "widening"
+       ],
+       "examples": [
+        "deer",
+        "bird",
+        "fowl",
+        "morpheme"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s1-3",
+       "title": "后缀也有初级多义",
+       "type": "rule",
+       "summary": "有些后缀基本只决定词性，但更多后缀本身带意义且不止一义。-oid 表「类似（往往并不完全）」，如 spheroid 像球体、humanoid 像人；-ous 与 -ic 的意义随词根浮动，须依靠词义与语境确定。",
+       "terms": [
+        "suffix",
+        "polysemy"
+       ],
+       "examples": [
+        "spheroid",
+        "humanoid",
+        "aqueous",
+        "envious",
+        "alphabetic",
+        "angelic"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s1-4",
+       "title": "前缀与词根的多义更普遍",
+       "type": "concept",
+       "summary": "前缀与词根的多义程度不亚于后缀。同一形式可能承载相距很远的意义，如 cosm 兼有「宇宙」（cosmos）与「装饰」（cosmetic）；fa 由「说」衍生出 infant（不会说话者）、fable、fame、preface。",
+       "terms": [
+        "prefix",
+        "root",
+        "polysemy"
+       ],
+       "examples": [
+        "cosm",
+        "fa",
+        "infant",
+        "infantry",
+        "fable"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s1-5",
+       "title": "后缀 -ate 的词性与读音对应",
+       "type": "rule",
+       "summary": "同形的 -ate 在形容词与名词中一般读 [ət]/[ɪt]，在动词中读 [et]。判断词性即可推出读音，反之读音也提示词性。",
+       "terms": [
+        "suffix",
+        "conversion"
+       ],
+       "examples": [
+        "advocate (n.) / advocate (v.)",
+        "delegate (n./v.)",
+        "desolate (adj./v.)"
+       ],
+       "lessonHint": "拼写"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S2",
+     "title": "Polysemy versus homonymy",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s2-1",
+       "title": "多义与同形异义的分界",
+       "type": "classification",
+       "summary": "两者都是同一拼写或读音对应多个意义；区别在于意义之间有无历史联系。homonymy 只是形式巧合（ring 环 / ring 响），polysemy 的意义由历史演变相连。",
+       "terms": [
+        "polysemy",
+        "homonymy"
+       ],
+       "examples": [
+        "ring 'circular band' / 'bell sound'",
+        "in- 'in' / in- 'not'",
+        "bat 三义"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c7s2-2",
+       "title": "判定靠可追溯的语义链",
+       "type": "method",
+       "summary": "判断同一形式应算一个多义语素还是两个同形异义语素，要看能否重建意义之间的联想链：cosmos 由「秩序」到「宇宙」再到「装饰」，链条清楚，故归为一个多义词；in- 的否定义与方向义毫无关联，故分列。",
+       "terms": [
+        "polysemy",
+        "homonymy",
+        "root"
+       ],
+       "examples": [
+        "cosm",
+        "troch 'run' (trochee / trochoid)",
+        "fac 'do, make' > face"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c7s2-3",
+       "title": "书中的编排约定",
+       "type": "rule",
+       "summary": "词素表与附录把同形异义语素分成不同条目，而把多义语素列为一个形式并列多个释义。这条约定直接影响学生查表与记忆的方式。",
+       "terms": [
+        "morpheme",
+        "homonymy",
+        "polysemy"
+       ],
+       "examples": [
+        "in- 分两条",
+        "cosm 一条两义"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c7s2-4",
+       "title": "用熟悉的词验证语素义",
+       "type": "method",
+       "summary": "把语素放回熟悉的词里可检验释义：re- 'back' + vel 'curtain' 得 revealing「拉开帷幕」；de- 'from' + pend 'hang' 得 depend「悬于其下」。词越熟，越能校准语素义。",
+       "terms": [
+        "prefix",
+        "root"
+       ],
+       "examples": [
+        "revealing",
+        "velum",
+        "depend"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S3",
+     "title": "Reasons for Semantic Change",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s3-1",
+       "title": "语义变化的四类动因",
+       "type": "classification",
+       "summary": "教材把词义变化的动因归为四类：交际失误与误解、追求新颖的创造、省略（用短形式承载长短语）、以及词汇总量有限。四者常共同作用，而最后一类是根本原因。",
+       "terms": [
+        "semantics",
+        "ellipsis"
+       ],
+       "examples": [
+        "bead",
+        "cool",
+        "church",
+        "microwave"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S4",
+     "title": "Errors and Misinterpretation",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s4-1",
+       "title": "误解与重新解释造成转义",
+       "type": "concept",
+       "summary": "表达不精确时，听者会按更凸显的关联重新理解。bead 由「祈祷」转到「念珠」再转到「珠子」，因为数念珠即数祈祷；since 由「在…之后」扩展出「因为」，因为结果常紧随原因。",
+       "terms": [
+        "metonymy",
+        "reanalysis"
+       ],
+       "examples": [
+        "bead",
+        "since"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S5",
+     "title": "Creative Variation",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s5-1",
+       "title": "求新求异驱动词义扩展",
+       "type": "concept",
+       "summary": "文学、民俗语与俚语以语言创新维持表达活力，避免陈词滥调。cool、slick、tight 由物理属性扩展到性格、情绪与审美评价，正是这种创造性的结果。",
+       "terms": [
+        "metaphor",
+        "connotation"
+       ],
+       "examples": [
+        "cool",
+        "slick",
+        "tight"
+       ],
+       "lessonHint": "新词"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S6",
+     "title": "Abbreviation",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s6-1",
+       "title": "省略使词义转移到截短形式",
+       "type": "rule",
+       "summary": "为求快捷，长短语被截短，剩余部分承担整体意义。希腊语 cyriacon doma「主的房子」省略 doma 后经演变成 church；microwave (oven)、cell (phone)、email (address) 同理。",
+       "terms": [
+        "ellipsis",
+        "clipping"
+       ],
+       "examples": [
+        "church",
+        "microwave",
+        "cell",
+        "email"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S7",
+     "title": "The Finite Word Stock",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s7-1",
+       "title": "词汇量有限是意义增殖的根源",
+       "type": "concept",
+       "summary": "要表达的事物无穷而词项有限，只有三条路：造新词、拉长短语、扩展旧词的意义。造词成本高、长短语累赘，因此扩展旧词义最常用，这解释了多义的普遍性。",
+       "terms": [
+        "polysemy",
+        "neologism"
+       ],
+       "examples": [
+        "horse 的多义累积"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S8",
+     "title": "Paths in the Development of Meaning",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s8-1",
+       "title": "新义沿路径从旧义长出且旧义常保留",
+       "type": "concept",
+       "summary": "horse 由「马」派生出「锯架」「骑兵」「马力」，每一新义都从基本义延伸，并且旧义同时存在；箭头图表示的正是这种累积式路径。",
+       "terms": [
+        "polysemy",
+        "metaphor"
+       ],
+       "examples": [
+        "horse",
+        "sawhorse",
+        "three hundred horses"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s8-2",
+       "title": "原义可能彻底消失",
+       "type": "concept",
+       "summary": "有些词只剩派生义，追溯不到本义。hysterical 源自希腊语「子宫的」，经医学假设与日常用法漂移到「情绪激烈」再到「很好笑」，原义已被现代医学词典删除。",
+       "terms": [
+        "narrowing",
+        "pejoration"
+       ],
+       "examples": [
+        "hysterical",
+        "hyster 'womb'"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s8-3",
+       "title": "语境用于消解多义",
+       "type": "method",
+       "summary": "义项累积会提高混淆风险，语境与更精确的复合形式可消歧：在五金店单说 horse 会引起困惑，说 sawhorse 则明确；一旦对象可见，仍可简称为 horse。",
+       "terms": [
+        "polysemy",
+        "compound word"
+       ],
+       "examples": [
+        "horse / sawhorse"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S9",
+     "title": "Categories of Semantic Change",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s9-1",
+       "title": "联想的两大类：相似与相关",
+       "type": "classification",
+       "summary": "任何语义变化都依赖某种联想。若依据形或功能的相似而扩展，属隐喻；若依据空间、时间、因果等邻接关系而转移，属转喻。bright 由「亮」到「聪明」是隐喻，Shakespeare 指其作品是转喻。",
+       "terms": [
+        "metaphor",
+        "metonymy",
+        "association"
+       ],
+       "examples": [
+        "bright",
+        "bead",
+        "Shakespeare"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S10",
+     "title": "Metaphor",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s10-1",
+       "title": "隐喻基于相似",
+       "type": "concept",
+       "summary": "隐喻把词用于与原有指称相似的对象。leaf 由树叶转到书页，horse 转到锯架；判断方向可依据哪一方更基本、更古老（书晚于树叶）。",
+       "terms": [
+        "metaphor"
+       ],
+       "examples": [
+        "leaf",
+        "horse",
+        "range",
+        "refer",
+        "extend"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s10-2",
+       "title": "由具体到抽象的迁移",
+       "type": "concept",
+       "summary": "人习惯用可感知的事物理解抽象概念，故隐喻常把物理经验投射到心智领域：understand 字面「站在下面」，comprehend、apprehend、grasp 都由「抓住」引申为「理解」，shelve an idea 由「把书搁上架」引申为「搁置」。",
+       "terms": [
+        "metaphor",
+        "root"
+       ],
+       "examples": [
+        "understand",
+        "comprehend",
+        "grasp",
+        "shelve"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s10-3",
+       "title": "空间前缀的隐喻扩展",
+       "type": "rule",
+       "summary": "本书多数前缀本义表空间，后经隐喻扩展出否定、强度、反转、成员、优劣等抽象义：de- 'away' > desperate「无望」；ex- 'out' > expose、except；sub- 'under' > subsume、subject、subhuman；per- 'through' > pertinacious。",
+       "terms": [
+        "prefix",
+        "metaphor"
+       ],
+       "examples": [
+        "desperate",
+        "expose",
+        "extraordinary",
+        "obloquy",
+        "pertinacious",
+        "precocious",
+        "subsume"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c7s10-4",
+       "title": "literally 的语义磨损",
+       "type": "history",
+       "summary": "隐喻过于常用，需要 literally 来声明「并非比喻」；但 literally 自身又被用作强调，以致 I literally rolled on the floor 究竟是实写还是夸张已无法确定，词义因此被掏空。",
+       "terms": [
+        "metaphor",
+        "widening"
+       ],
+       "examples": [
+        "literally"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S11",
+     "title": "Metonymy",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s11-1",
+       "title": "转喻基于邻接而非相似",
+       "type": "concept",
+       "summary": "转喻把词用于与所指事物有实际关联的对象，关联可以是来源与产品、事物与特征、人与所有物等。wallet 指父亲、pulp 指低俗小说、wheat 因颜色白而得名于 white。",
+       "terms": [
+        "metonymy"
+       ],
+       "examples": [
+        "wallet",
+        "pulp fiction",
+        "wheat / white"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s11-2",
+       "title": "提喻并入转喻",
+       "type": "classification",
+       "summary": "部分代整体或整体代部分（传统称 synecdoche）在本书归入转喻：hands 指工人、longhorns 指牛、plastic 指信用卡、a bite 指一口食物。这类用法常难以判断是实指还是比喻。",
+       "terms": [
+        "metonymy"
+       ],
+       "examples": [
+        "hands",
+        "longhorns",
+        "plastic",
+        "bite",
+        "butt"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S12",
+     "title": "Metaphor versus metonymy",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s12-1",
+       "title": "判别标准：相似还是相关",
+       "type": "method",
+       "summary": "同一词的不同引申可属不同机制。head 指钉子/锤子的头、床头是隐喻（形似）；ten dollars a head 是转喻（部分代整体）；heads 指硬币正面则因该面常铸头像而属转喻。table 指高原、星座是隐喻，指「一桌饭菜」「一桌客人」是转喻。",
+       "terms": [
+        "metaphor",
+        "metonymy"
+       ],
+       "examples": [
+        "head",
+        "table",
+        "table wine",
+        "table 3"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c7s12-2",
+       "title": "两种机制常叠加成链",
+       "type": "concept",
+       "summary": "一个词的当前义可能由多步隐喻与转喻叠成。press 由「压印机」的隐喻到「新闻界」的转喻；船上厕所称 head，先由「船头」转喻，再由「船头」隐喻自动物头部。",
+       "terms": [
+        "metaphor",
+        "metonymy"
+       ],
+       "examples": [
+        "press",
+        "head (toilet)"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C7-S13",
+     "title": "Outcomes of Semantic Shift",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c7s13-1",
+       "title": "缩小（专门化）与扩大（泛化）",
+       "type": "classification",
+       "summary": "缩小是把词义限制在原指范围的一部分：deer 由「四足动物」到「鹿」，adder 由「蛇」到少数蛇类。扩大是扩展到原范围之外：arrive 由「靠岸」到「抵达」，decimate 由「处死十分之一」到「大规模毁灭」，Xerox、Google 成为通用动词。",
+       "terms": [
+        "narrowing",
+        "widening",
+        "specialization",
+        "generalization"
+       ],
+       "examples": [
+        "deer",
+        "adder",
+        "arrive",
+        "decimate",
+        "xerox",
+        "google"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s13-2",
+       "title": "义项替代",
+       "type": "concept",
+       "summary": "并非所有变化都是扩大或缩小；有时一个义项把另一个挤出。car 原指「货车、战车」，今只指汽车，用 car 称马车会显得怪异。",
+       "terms": [
+        "narrowing"
+       ],
+       "examples": [
+        "car"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s13-3",
+       "title": "褒化与贬化",
+       "type": "classification",
+       "summary": "词义可向正面或负面漂移。nice 由拉丁 nescius「无知」经 'foolish > fussy > proper > pleasant' 褒化；smart 原义「使人疼痛」也属褒化。贬化更常见，silly 原义「有福的」，notorious 由「广为人知」变为「因丑事闻名」。",
+       "terms": [
+        "melioration",
+        "pejoration"
+       ],
+       "examples": [
+        "nice",
+        "smart",
+        "silly",
+        "notorious"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c7s13-4",
+       "title": "委婉语与贬化的循环",
+       "type": "concept",
+       "summary": "为避开不快联想而换用新说法（euphemism），如以 encore presentation 代 rerun；新说法一旦通行，又沾上原词的负面色彩而被贬化，于是继续替换：cripple > handicapped > disabled > person with a disability。",
+       "terms": [
+        "euphemism",
+        "pejoration"
+       ],
+       "examples": [
+        "cripple",
+        "disabled",
+        "differently abled",
+        "encore presentation"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c7s13-5",
+       "title": "变化作用于整词而非语素",
+       "type": "rule",
+       "summary": "发生语义漂移的是词，不是语素本身。reticent 被许多人用作「不情愿」，但语素 tac~tec~tic 仍是「沉默」（tacit）；ostentatious 带贬义而 ostensible 不带，尽管二者共享 ob- 与 ten~tens。",
+       "terms": [
+        "morpheme",
+        "pejoration"
+       ],
+       "examples": [
+        "reticent",
+        "tacit",
+        "ostensible",
+        "ostentatious"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "path",
+     "gloss": "feel, suffering, illness",
+     "source": "G",
+     "note": "多义示例：pathos 类词"
+    },
+    {
+     "form": "-oid",
+     "gloss": "resembling",
+     "source": "G",
+     "note": "表「类似而不完全相同」"
+    },
+    {
+     "form": "-ous",
+     "gloss": "having the quality of",
+     "source": "L",
+     "note": "意义随词根浮动，属多义后缀"
+    },
+    {
+     "form": "-ic",
+     "gloss": "of, pertaining to, like",
+     "source": "L/G",
+     "note": "可表「属于/类似/构成」等多种关系"
+    },
+    {
+     "form": "fa",
+     "gloss": "speak",
+     "source": "L",
+     "note": "infant「不会说话者」、fable、fame、preface"
+    },
+    {
+     "form": "cosm",
+     "gloss": "order; universe; adorn",
+     "source": "G",
+     "note": "cosmos / microcosm 对 cosmetic"
+    },
+    {
+     "form": "troch",
+     "gloss": "run",
+     "source": "G",
+     "note": "trochee 短促诗步、trochoid 轮状"
+    },
+    {
+     "form": "fac",
+     "gloss": "do, make",
+     "source": "L",
+     "note": "factor、effect；引申出 face「容貌」"
+    },
+    {
+     "form": "vel",
+     "gloss": "curtain",
+     "source": "L",
+     "note": "revealing 拉开帷幕、velum"
+    },
+    {
+     "form": "pend",
+     "gloss": "hang",
+     "source": "L",
+     "note": "depend「悬于其下」"
+    },
+    {
+     "form": "re-",
+     "gloss": "back",
+     "source": "L",
+     "note": "revealing「拉回」"
+    },
+    {
+     "form": "de-",
+     "gloss": "from, away",
+     "source": "L",
+     "note": "depend、desperate、declare"
+    },
+    {
+     "form": "sper",
+     "gloss": "hope",
+     "source": "L",
+     "note": "desperate 字面「失去希望」"
+    },
+    {
+     "form": "loqu",
+     "gloss": "speak",
+     "source": "L",
+     "note": "obloquy「恶语」"
+    },
+    {
+     "form": "tin~ten",
+     "gloss": "hold",
+     "source": "L",
+     "note": "pertinacious、contain"
+    },
+    {
+     "form": "coc",
+     "gloss": "ripen",
+     "source": "L",
+     "note": "precocious「早熟」"
+    },
+    {
+     "form": "jec~jac",
+     "gloss": "throw, lay",
+     "source": "L",
+     "note": "subject、project"
+    },
+    {
+     "form": "sist (st~sta)",
+     "gloss": "stand",
+     "source": "L/G",
+     "note": "insist、persist、resist"
+    },
+    {
+     "form": "hyster",
+     "gloss": "womb",
+     "source": "G",
+     "note": "hysterical 原义「子宫的」"
+    },
+    {
+     "form": "ne-",
+     "gloss": "not",
+     "source": "L",
+     "note": "nescius「无知」、nice 的源头"
+    },
+    {
+     "form": "sci",
+     "gloss": "know",
+     "source": "L",
+     "note": "nescius、science"
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "语义变化术语标注",
+     "shape": "给出词义演变链或词对，用 narrowing/widening/melioration/pejoration/metaphor/metonymy 等术语归类并说明理由",
+     "example": "vermicelli '小虫' > '细面条'"
+    },
+    {
+     "name": "同根词义分歧解释",
+     "shape": "给出共享词根的词对，说明各自意义差别的具体逻辑（不能只答术语）",
+     "example": "exposure vs exposition；censor > censure"
+    },
+    {
+     "name": "前缀×词根构词并解释偏移",
+     "shape": "在拉丁/希腊空间前缀与词根的组合表中选词，指出字面义与实际义的差距及变化类型",
+     "example": "abduct、adduce、anaphoric、analogy"
+    },
+    {
+     "name": "古今义先后判断",
+     "shape": "给出一个词的两个义项，判断孰早并依据语义变化规律或词源证据论证",
+     "example": "text '编织' vs '文本'；divine '神的' vs '极好的'"
+    },
+    {
+     "name": "整词语义演变链复原",
+     "shape": "仿 insist 的示例，逐步写出某词的隐喻/转喻路径与缩小/扩大结果",
+     "example": "inaugurate 由「占卜鸟飞」到「就职」"
+    },
+    {
+     "name": "语义变化术语标注",
+     "shape": "给出词义演变链或词对，用 narrowing/widening/melioration/pejoration/metaphor/metonymy 等术语归类并说明理由",
+     "example": "vermicelli '小虫' > '细面条'"
+    },
+    {
+     "name": "同根词义分歧解释",
+     "shape": "给出共享词根的词对，说明各自意义差别的具体逻辑（不能只答术语）",
+     "example": "exposure vs exposition；censor > censure"
+    },
+    {
+     "name": "前缀×词根构词并解释偏移",
+     "shape": "在拉丁/希腊空间前缀与词根的组合表中选词，指出字面义与实际义的差距及变化类型",
+     "example": "abduct、adduce、anaphoric、analogy"
+    },
+    {
+     "name": "古今义先后判断",
+     "shape": "给出一个词的两个义项，判断孰早并依据语义变化规律或词源证据论证",
+     "example": "text '编织' vs '文本'；divine '神的' vs '极好的'"
+    },
+    {
+     "name": "整词语义演变链复原",
+     "shape": "仿 insist 的示例，逐步写出某词的隐喻/转喻路径与缩小/扩大结果",
+     "example": "inaugurate 由「占卜鸟飞」到「就职」"
+    }
+   ]
+  },
+  {
+   "id": "S1-C8",
+   "chapter": 8,
+   "title": "Usage and Variation",
+   "sections": [
+    {
+     "id": "S1-C8-S1",
+     "title": "Many Englishes",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c8s1-1",
+       "title": "英语是变体的集合而非单一语言",
+       "type": "concept",
+       "summary": "名为英语的东西其实是全球各地、各种社交场合使用的一大组变体，其内部差异不亚于若干门语言。",
+       "terms": [
+        "variety",
+        "standard English",
+        "register"
+       ],
+       "examples": [
+        "world Englishes"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c8s1-2",
+       "title": "语域与专业词汇的分工",
+       "type": "concept",
+       "summary": "医生、农民、律师等各有术语，通用词在专业圈内也常被赋予特殊含义；正式与学术语体是本书的取词重点。",
+       "terms": [
+        "register",
+        "specialized vocabulary",
+        "formal style"
+       ],
+       "examples": [
+        "otitis externa"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c8s1-3",
+       "title": "新词来源分散于各社会阶层",
+       "type": "concept",
+       "summary": "latte、locavore、captcha、nimby 等新词分别出自餐饮、环保、技术与政治，说明创新不专属于受教育阶层。",
+       "terms": [
+        "coinage",
+        "innovation",
+        "acronym"
+       ],
+       "examples": [
+        "latte",
+        "locavore",
+        "captcha",
+        "nimby",
+        "humint",
+        "incent"
+       ],
+       "lessonHint": "新词"
+      },
+      {
+       "id": "kp-s1c8s1-4",
+       "title": "变异不止于词汇层面",
+       "type": "concept",
+       "summary": "除用词外，发音、拼写与语法同样存在变体，讨论用法时必须同时考虑这几个层面。",
+       "terms": [
+        "variation",
+        "pronunciation",
+        "spelling"
+       ],
+       "examples": [
+        "cot~caught"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C8-S2",
+     "title": "Roots of Variation and Change",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c8s2-1",
+       "title": "内外动因共同制造分歧",
+       "type": "history",
+       "summary": "战争、迁徙、商贸与技术属外部动因，语音与语义演变属内部动因；两者多数时候制造新变体而非统一语言。",
+       "terms": [
+        "internal change",
+        "external change",
+        "language contact"
+       ],
+       "examples": [
+        "Good be with ye"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s2-2",
+       "title": "统一是罕见的例外",
+       "type": "history",
+       "summary": "阿尔弗雷德大帝以宫廷方言充当全英文学标准是少见反例；更常见的是多个变体长期并存、彼此竞争。",
+       "terms": [
+        "literary standard",
+        "dialect"
+       ],
+       "examples": [
+        "Alfred the Great"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s2-3",
+       "title": "变体的竞争与淘汰",
+       "type": "history",
+       "summary": "问候语由 God be with ye 缩为 Godbwye、godbwye，十八世纪定型为 good bye，只剩两词、连字符或单词三种拼法之争。",
+       "terms": [
+        "variant",
+        "obsolescence"
+       ],
+       "examples": [
+        "God be with ye",
+        "goodbye"
+       ],
+       "lessonHint": "拼写"
+      },
+      {
+       "id": "kp-s1c8s2-4",
+       "title": "并存的变体可以分工",
+       "type": "concept",
+       "summary": "oblige 与 obligate 分别经法语和拉丁借入，共享名词 obligation，但前者偏道谢、后者保留法律义务义。",
+       "terms": [
+        "doublet",
+        "semantic divergence"
+       ],
+       "examples": [
+        "oblige",
+        "obligate",
+        "obligation"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s2-5",
+       "title": "变体积淀即成新语言",
+       "type": "history",
+       "summary": "现代德语与英语同出西日耳曼语；当差异累积到双方无法通话，原本的变体就被视为不同语言。",
+       "terms": [
+        "West Germanic",
+        "language split"
+       ],
+       "examples": [
+        "German",
+        "English"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C8-S3",
+     "title": "Seeds of Dialectal Division",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c8s3-1",
+       "title": "英语从未真正统一",
+       "type": "history",
+       "summary": "英格兰北部与西南乡村土语连本土人都难懂，苏格兰、爱尔兰、威尔士也各有长期存续的英语变体。",
+       "terms": [
+        "dialect",
+        "regional variety"
+       ],
+       "examples": [
+        "Scots",
+        "Hiberno-English"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s3-2",
+       "title": "海外变体各自演变",
+       "type": "history",
+       "summary": "澳、新、美、南非英语在相对隔离中独立发展，形成各自的词汇、拼写与口音特征。",
+       "terms": [
+        "settler English",
+        "variety"
+       ],
+       "examples": [
+        "Australian English",
+        "South African English"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s3-3",
+       "title": "新英语与通用语",
+       "type": "classification",
+       "summary": "印度、斯里兰卡、尼日利亚、新加坡英语具官方地位、用于教学与商务，并在多语社会中充当 lingua franca。",
+       "terms": [
+        "new Englishes",
+        "lingua franca",
+        "official language"
+       ],
+       "examples": [
+        "Indian English",
+        "Nigerian English",
+        "Singapore English"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s3-4",
+       "title": "世界语言身份埋下分裂种子",
+       "type": "concept",
+       "summary": "模仿对象由宗主国转为本地之后，各变体离历史根源越来越远，理论上可能分化到荷兰语与德语那样的程度。",
+       "terms": [
+        "diversification",
+        "norm"
+       ],
+       "examples": [
+        "Dutch",
+        "German"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C8-S4",
+     "title": "Where Do Standards Come From?",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c8s4-1",
+       "title": "标准语是权威确立的规范",
+       "type": "concept",
+       "summary": "标准语由某种被普遍接受的政治或社会权威设定，并不意味着一套规范适用所有人、所有场合。",
+       "terms": [
+        "standard language",
+        "norm",
+        "authority"
+       ],
+       "examples": [
+        "standard English"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c8s4-2",
+       "title": "人人都掌握多种标准",
+       "type": "concept",
+       "summary": "写作与口语、对象与场合不同，标准随之调整；美国词典也承认所谓标准因地区而异。",
+       "terms": [
+        "style shifting",
+        "regional standard"
+       ],
+       "examples": [
+        "American Heritage Dictionary"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c8s4-3",
+       "title": "标准的三种来源",
+       "type": "history",
+       "summary": "伦敦及其周边自中世纪晚期定调；约翰逊词典记录受过教育者的用法，韦伯斯特则有意确立美国变体以助国家独立。",
+       "terms": [
+        "lexicographer",
+        "prescription"
+       ],
+       "examples": [
+        "Samuel Johnson",
+        "Noah Webster"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s4-4",
+       "title": "政府与语言学院介入规范",
+       "type": "history",
+       "summary": "数十国设语言委员会或学院规定正字与用法，最著名为法兰西学院；一些国家还立法限制给儿童取名的用字。",
+       "terms": [
+        "language academy",
+        "language policy"
+       ],
+       "examples": [
+        "Académie Française"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s4-5",
+       "title": "印刷术与互联网两次定形",
+       "type": "history",
+       "summary": "十五世纪末印刷使拼写跨地域趋同，代价是拼写与读音脱节；网络通讯又以简省为前提重订拼写与标点规则。",
+       "terms": [
+        "printing press",
+        "standardization"
+       ],
+       "examples": [
+        "knight",
+        "text-speak"
+       ],
+       "lessonHint": "拼写"
+      }
+     ]
+    },
+    {
+     "id": "S1-C8-S5",
+     "title": "Speaking versus Writing",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c8s5-1",
+       "title": "口语先习得，书面标准后学",
+       "type": "concept",
+       "summary": "社区口语在入学前已习得，学校引入的是文学标准；书面语因此比口语保守，knight 中不发音的字母即是化石。",
+       "terms": [
+        "literary standard",
+        "conservatism"
+       ],
+       "examples": [
+        "knight"
+       ],
+       "lessonHint": "拼写"
+      },
+      {
+       "id": "kp-s1c8s5-2",
+       "title": "韦伯斯特式拼写改革的成败",
+       "type": "history",
+       "summary": "韦伯斯特推动的拼写改革成败参半：color、center、defense 等美式拼法站稳，soop、tung、iland 等则未被接受。",
+       "terms": [
+        "spelling reform",
+        "American spelling"
+       ],
+       "examples": [
+        "color",
+        "center",
+        "defense",
+        "jail"
+       ],
+       "lessonHint": "拼写"
+      },
+      {
+       "id": "kp-s1c8s5-3",
+       "title": "英语拼写的不规则性",
+       "type": "rule",
+       "summary": "英语拼写与读音严重脱节：同一个 ough 在 bough、rough、through、trough 中读音全不同，[ʃ] 也有五种拼法。",
+       "terms": [
+        "digraph",
+        "spelling-pronunciation mismatch"
+       ],
+       "examples": [
+        "bough",
+        "through",
+        "trough",
+        "motion",
+        "sugar",
+        "facial"
+       ],
+       "lessonHint": "拼写"
+      }
+     ]
+    },
+    {
+     "id": "S1-C8-S6",
+     "title": "Changing Standards",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c8s6-1",
+       "title": "标准本身也在变",
+       "type": "concept",
+       "summary": "莎士比亚时代的文学用法与今天已明显不同；标准必须有活力并被广泛使用，才能团结国民、便利沟通。",
+       "terms": [
+        "standard",
+        "language change"
+       ],
+       "examples": [
+        "Shakespeare"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c8s6-2",
+       "title": "非标准不等于无效",
+       "type": "concept",
+       "summary": "标准的价值在于通用而非排他；把标准当作唯一正确，会遮蔽其他变体在其场合中的适用性。",
+       "terms": [
+        "nonstandard",
+        "appropriateness"
+       ],
+       "examples": [
+        "regional dialect"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C8-S7",
+     "title": "Where the Standard Fails",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c8s7-1",
+       "title": "拉丁曾长期充当超地域标准",
+       "type": "history",
+       "summary": "罗曼语分化之后，拉丁仍是欧洲僧侣与学界的书面兼口头标准，日常场合则使用各地古法语、古西班牙语、古意大利语。",
+       "terms": [
+        "Romance languages",
+        "learned language"
+       ],
+       "examples": [
+        "Old French",
+        "Old Spanish",
+        "Old Italian"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s7-2",
+       "title": "方言在特定场合更适用",
+       "type": "concept",
+       "summary": "法、意、德的区域方言在亲属交谈、民俗活动中仍受偏爱，即使标准语识字率很高、学校普遍教授标准。",
+       "terms": [
+        "regional dialect",
+        "domain"
+       ],
+       "examples": [
+        "regional variety"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C8-S8",
+     "title": "Can Our Tung Be Cleane and Pure?",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c8s8-1",
+       "title": "纯洁主义的自相矛盾",
+       "type": "history",
+       "summary": "十六世纪 Cheke 主张英语应 cleane and pure、不混外来语，却恰恰用了 opinion、mix、mangle、pure 等借词。",
+       "terms": [
+        "purism",
+        "borrowing"
+       ],
+       "examples": [
+        "opinion",
+        "mix",
+        "mangle",
+        "pure"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s8-2",
+       "title": "名家与政府的语言规训",
+       "type": "history",
+       "summary": "Swift 反对 rep，1872 年有人斥 belittle 为粗俗，Fowler 视美国语为外语，法国更立法对使用外来词罚款。",
+       "terms": [
+        "prescriptivism",
+        "Americanism"
+       ],
+       "examples": [
+        "rep",
+        "belittle",
+        "Fowler"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c8s8-3",
+       "title": "语言管控为何屡屡失败",
+       "type": "rule",
+       "summary": "禁 split 不定式、禁虚拟式 was、禁 hopefully 作句副词的告诫都未奏效，说明规定挡不住实际用法的演变。",
+       "terms": [
+        "prescription",
+        "usage"
+       ],
+       "examples": [
+        "to never split",
+        "hopefully"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c8s8-4",
+       "title": "清晰与逻辑不构成反对理由",
+       "type": "rule",
+       "summary": "It is I 只是拉丁的格规则，法语正说 C'est moi；语言取便利而非逻辑，故以逻辑为名反对变化站不住。",
+       "terms": [
+        "logic",
+        "case"
+       ],
+       "examples": [
+        "It is I",
+        "C'est moi"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C8-S9",
+     "title": "Correctness Is Relative",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c8s9-1",
+       "title": "规定主义的问题在绝对化",
+       "type": "concept",
+       "summary": "把某一种标准当作唯一正确，等于否认区域方言、族群方言在其语境中的同等效力，如同只许用一个人的一个名字。",
+       "terms": [
+        "prescriptivism",
+        "appropriateness"
+       ],
+       "examples": [
+        "ethnic dialect"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c8s9-2",
+       "title": "以交际效果评判用法",
+       "type": "method",
+       "summary": "lite 与 light、irregardless 与 regardless、[æsk] 与 [æks] 无先天优劣，应问哪一种在该场合沟通得更好。",
+       "terms": [
+        "communicative effect",
+        "variation"
+       ],
+       "examples": [
+        "lite",
+        "irregardless",
+        "ask"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c8s9-3",
+       "title": "掌握标准不必贬低方言",
+       "type": "concept",
+       "summary": "可以学会标准正式英语而不强加于人；强行同质化会削弱语言的表达资源，也伤害说话人对自身话语的自尊。",
+       "terms": [
+        "homogeneity",
+        "expressive resource"
+       ],
+       "examples": [
+        "standard English"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    },
+    {
+     "id": "S1-C8-S10",
+     "title": "Word Choice and Clarity",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c8s10-1",
+       "title": "术语是群体的通行证",
+       "type": "concept",
+       "summary": "掌握某群体的专门词汇即分享其权力，也是进入该群体的一步；法律英语长期令普通公民困惑。",
+       "terms": [
+        "specialized vocabulary",
+        "membership"
+       ],
+       "examples": [
+        "legal English"
+       ],
+       "lessonHint": "基础"
+      },
+      {
+       "id": "kp-s1c8s10-2",
+       "title": "术语既可澄清也可遮蔽",
+       "type": "classification",
+       "summary": "otitis externa 就是外耳发炎，longitudinal extent 就是长度；bureaucratese 与委婉迂回语则常掩盖而非澄清。",
+       "terms": [
+        "bureaucratese",
+        "euphemism",
+        "circumlocution"
+       ],
+       "examples": [
+        "otitis externa",
+        "vertically challenged"
+       ],
+       "lessonHint": "科技"
+      },
+      {
+       "id": "kp-s1c8s10-3",
+       "title": "简明语言运动与立法",
+       "type": "history",
+       "summary": "1970 年代美国地方立法要求法律文书用 plain English，2010 年联邦《简明写作法》延续这一思路。",
+       "terms": [
+        "plain English",
+        "plain language"
+       ],
+       "examples": [
+        "Plain Writing Act of 2010"
+       ],
+       "lessonHint": "新词"
+      },
+      {
+       "id": "kp-s1c8s10-4",
+       "title": "书面语更依赖选词",
+       "type": "concept",
+       "summary": "书面缺少语调、停顿与表情，也缺少听者的即时反馈，误写难以当场纠正，因此选词比口语更关键。",
+       "terms": [
+        "intonation",
+        "feedback"
+       ],
+       "examples": [
+        "written English"
+       ],
+       "lessonHint": "基础"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "trache",
+     "gloss": "windpipe",
+     "source": "G",
+     "note": "气管，tracheostomy 即气管造口",
+     "chapter": 8
+    },
+    {
+     "form": "cervic",
+     "gloss": "neck",
+     "source": "L",
+     "note": "颈，cervicitis 指子宫颈炎",
+     "chapter": 8
+    },
+    {
+     "form": "scler",
+     "gloss": "hard",
+     "source": "G",
+     "note": "硬，scleroderma 即硬皮病",
+     "chapter": 8
+    },
+    {
+     "form": "derm~dermat",
+     "gloss": "skin",
+     "source": "G",
+     "note": "皮肤，dermat 用于元音前",
+     "chapter": 8
+    },
+    {
+     "form": "thromb",
+     "gloss": "clot",
+     "source": "G",
+     "note": "血栓，thrombophlebitis 指血栓性静脉炎",
+     "chapter": 8
+    },
+    {
+     "form": "phleb",
+     "gloss": "vein",
+     "source": "G",
+     "note": "静脉，phlebitis 即静脉炎",
+     "chapter": 8
+    },
+    {
+     "form": "tom",
+     "gloss": "cut",
+     "source": "G",
+     "note": "切，sclerotomy 即巩膜切开术",
+     "chapter": 8
+    },
+    {
+     "form": "hyper-",
+     "gloss": "over, above, excessive",
+     "source": "G",
+     "note": "过度，hyperemia 指充血",
+     "chapter": 8
+    },
+    {
+     "form": "hem~em~haem",
+     "gloss": "blood",
+     "source": "G",
+     "note": "em 为前接成分时的无首辅音变体，如 dysemia",
+     "chapter": 8
+    },
+    {
+     "form": "cut",
+     "gloss": "skin",
+     "source": "L",
+     "note": "皮肤，cutisection 指皮肤切开",
+     "chapter": 8
+    },
+    {
+     "form": "aur",
+     "gloss": "ear",
+     "source": "L",
+     "note": "耳，binaural 指双耳的",
+     "chapter": 8
+    },
+    {
+     "form": "nephr",
+     "gloss": "kidney",
+     "source": "G",
+     "note": "肾，nephrotomy、nephrectomy、nephrostomy 分别指切开、切除、造口",
+     "chapter": 8
+    },
+    {
+     "form": "-stomy",
+     "gloss": "opening, mouth",
+     "source": "G",
+     "note": "造口术，与 -tomy「切开」、-ectomy「切除」相对",
+     "chapter": 8
+    },
+    {
+     "form": "-ectomy",
+     "gloss": "excision",
+     "source": "G",
+     "note": "切除术，nephrectomy 即肾切除",
+     "chapter": 8
+    },
+    {
+     "form": "sarc",
+     "gloss": "flesh",
+     "source": "G",
+     "note": "肉，sarcasm 由「撕肉」引申为讥讽",
+     "chapter": 8
+    },
+    {
+     "form": "dys-",
+     "gloss": "bad, improper, difficult",
+     "source": "G",
+     "note": "不良、困难，dyspnea 即呼吸困难",
+     "chapter": 8
+    },
+    {
+     "form": "pnea",
+     "gloss": "breathing",
+     "source": "G",
+     "note": "呼吸，dyspnea、apnea 均由此构成",
+     "chapter": 8
+    },
+    {
+     "form": "phem",
+     "gloss": "speech",
+     "source": "G",
+     "note": "言语，dysphemia 指言语障碍",
+     "chapter": 8
+    },
+    {
+     "form": "hyster",
+     "gloss": "womb",
+     "source": "G",
+     "note": "子宫，hysteria 旧以为与子宫游走有关",
+     "chapter": 8
+    },
+    {
+     "form": "chrom",
+     "gloss": "color",
+     "source": "G",
+     "note": "色，hematochrome 指血色素",
+     "chapter": 8
+    },
+    {
+     "form": "top",
+     "gloss": "place",
+     "source": "G",
+     "note": "地方，dystopia 字面为「坏地方」",
+     "chapter": 8
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "Element Study：找出词中词根并说明字面义与今义的关联",
+     "shape": "root-identification",
+     "example": [
+      "tracheostomy",
+      "scleroderma",
+      "thrombophlebitis",
+      "hysteria"
+     ]
+    },
+    {
+     "name": "Element Study：按 prefix-root-suffix 解析近义医学术语并比较差别",
+     "shape": "parse-and-compare",
+     "example": [
+      "nephrotomy",
+      "nephrectomy",
+      "nephrostomy"
+     ]
+    },
+    {
+     "name": "Element Study：由「某器官发炎」的定义反推疾病名称",
+     "shape": "definition-to-term",
+     "example": [
+      "hepatitis",
+      "gastritis",
+      "laryngitis",
+      "rhinitis"
+     ]
+    },
+    {
+     "name": "Element Study：借助医学词典解析未学过的长术语",
+     "shape": "medical-term-parse",
+     "example": [
+      "leukocytotaxis",
+      "achromotrichia",
+      "paraplegia",
+      "hemostasis"
+     ]
+    },
+    {
+     "name": "Exercises：调查 [a] 与 [ɒ] 的方言对立并归纳社会因素",
+     "shape": "dialect-survey",
+     "example": [
+      "cot~caught",
+      "Don~Dawn",
+      "knotty~naughty"
+     ]
+    },
+    {
+     "name": "Exercises：查证用法争议词的拼写、读音与词典标注",
+     "shape": "usage-dispute-research",
+     "example": [
+      "hopefully",
+      "irregardless",
+      "ain't",
+      "disinterested"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-C9",
+   "chapter": 9,
+   "title": "Latin and Greek Affixes in English",
+   "sections": [
+    {
+     "id": "S1-C9-S1",
+     "title": "Noun Inflection",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c9s1-1",
+       "title": "屈折、词干与拉丁名词的格",
+       "type": "rule",
+       "summary": "屈折靠加词尾表达数、格；词干是词根加派生词缀。拉丁名词单数最多五形、复数四形，英语整词借入只取主格。",
+       "terms": [
+        "inflection",
+        "stem",
+        "nominative",
+        "case"
+       ],
+       "examples": [
+        "book",
+        "books",
+        "taurus",
+        "taurum"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s1-2",
+       "title": "复数配对规则与例外",
+       "type": "classification",
+       "summary": "复数词尾按单数结尾配对：-a 变 -ae、-us 变 -i、-um 与 -on 变 -a、-is 变 -es；少数 -us 词复数同形，如 apparatus。",
+       "terms": [
+        "nominative plural",
+        "declension"
+       ],
+       "examples": [
+        "alumna",
+        "alumnus",
+        "memorandum",
+        "criterion",
+        "crisis",
+        "apparatus"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s1-3",
+       "title": "双复数与意义分化",
+       "type": "concept",
+       "summary": "memorandum 有 memorandums 与 memoranda；media 指媒体与介质、mediums 指折中或灵媒，agenda 已被当作单数。",
+       "terms": [
+        "double plural",
+        "semantic split"
+       ],
+       "examples": [
+        "memoranda",
+        "media",
+        "mediums",
+        "agenda"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s1-4",
+       "title": "s 与 es 型的拼写、音变复原",
+       "type": "rule",
+       "summary": "拼写与音变使单复数形似而实异：appendix 成 appendices，larynx 成 larynges，glans 出自 glandes，须由音变倒推词干。",
+       "terms": [
+        "phonation assimilation",
+        "velar softening",
+        "cluster simplification"
+       ],
+       "examples": [
+        "appendix",
+        "larynx",
+        "index",
+        "glans"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s1-5",
+       "title": "复数形式提供构词词干",
+       "type": "method",
+       "summary": "复数形式常给出更好用的词干：由 appendices、larynges 去掉词尾，即得 appendicitis 与 laryngitis。",
+       "terms": [
+        "stem",
+        "derivation"
+       ],
+       "examples": [
+        "appendicitis",
+        "laryngitis",
+        "genera",
+        "generic"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s1-6",
+       "title": "过度类推与假拉丁词",
+       "type": "rule",
+       "summary": "octopus 不应作 octopi，pentagon 不生出 pentaga；caucus 并非拉丁来源，ignoramus 出自动词，复数都只加 -es。",
+       "terms": [
+        "overgeneralization",
+        "false Latin"
+       ],
+       "examples": [
+        "octopus",
+        "pentagon",
+        "caucus",
+        "ignoramus"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C9-S2",
+     "title": "Derivation",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c9s2-1",
+       "title": "派生即词根加后缀构干",
+       "type": "concept",
+       "summary": "拉丁希腊词由词根加派生后缀构成名词、形容词、动词词干，再带上屈折词尾进入句子。",
+       "terms": [
+        "derivation",
+        "stem",
+        "suffix"
+       ],
+       "examples": [
+        "cauda"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s2-2",
+       "title": "单音节词根可直接成词",
+       "type": "concept",
+       "summary": "oss、caud、hom、ped 等词根多为单音节；caud 直接加屈折即成 cauda，加后缀则另造新词。",
+       "terms": [
+        "root",
+        "inflection"
+       ],
+       "examples": [
+        "oss",
+        "caud",
+        "hom",
+        "ped",
+        "cauda"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C9-S3",
+     "title": "Nouns",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c9s3-1",
+       "title": "拉丁名词后缀（一）",
+       "type": "classification",
+       "summary": "-arium 表场所、-ia 表性质、-la/-lum/-lus 指小、-mentum 表手段与结果、-monia/-monium 表状态与职责。",
+       "terms": [
+        "noun suffix",
+        "diminutive"
+       ],
+       "examples": [
+        "librarium",
+        "scientia",
+        "molecula",
+        "momentum",
+        "matrimonium"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s3-2",
+       "title": "拉丁名词后缀（二）",
+       "type": "rule",
+       "summary": "-tas（词干 -tat-）、-tio（-tion-）、-tor、-tura、-tus 分别表抽象性质、动作、施事与结果，词干常随格变化。",
+       "terms": [
+        "noun suffix",
+        "stem alternation"
+       ],
+       "examples": [
+        "gravitas",
+        "electio",
+        "actor",
+        "pictura",
+        "adventus"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s3-3",
+       "title": "希腊名词后缀",
+       "type": "classification",
+       "summary": "希腊名词后缀同样分工：-ma（词干 -mat-）表结果，-sis 表过程或状态，-tor 表施事，如 pragma、analysis、rhetor。",
+       "terms": [
+        "noun suffix"
+       ],
+       "examples": [
+        "pragma",
+        "schema",
+        "analysis",
+        "stasis",
+        "rhetor"
+       ],
+       "lessonHint": "希腊"
+      },
+      {
+       "id": "kp-s1c9s3-4",
+       "title": "后缀的语义值",
+       "type": "rule",
+       "summary": "-arium 专表场所，-or/-tor 表施事者或工具，以 [l] 开头的后缀多指小；其余多数后缀只标词性。",
+       "terms": [
+        "agentive",
+        "locative",
+        "diminutive"
+       ],
+       "examples": [
+        "aquarium",
+        "doctor",
+        "alveolus"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C9-S4",
+     "title": "Adjectives",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c9s4-1",
+       "title": "形容词后缀表",
+       "type": "classification",
+       "summary": "形容词后缀成组记忆：-alis、-bilis、-ilis、-osus、-tivus 与希腊 -icos、-acos，加在词根后即构成形容词词干。",
+       "terms": [
+        "adjective suffix"
+       ],
+       "examples": [
+        "regalis",
+        "capabilis",
+        "facilis",
+        "verbosus",
+        "captivus",
+        "anarchicos"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s4-2",
+       "title": "借入时丢弃屈折词尾",
+       "type": "rule",
+       "summary": "形容词很少连屈折词尾整体借入，通常去掉词尾或改写为不发音的 e，故英语只见词干部分。",
+       "terms": [
+        "inflection",
+        "borrowing"
+       ],
+       "examples": [
+        "fragile",
+        "captive"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s4-3",
+       "title": "比较级与「易被…」",
+       "type": "rule",
+       "summary": "-(i)or 构成比较级，如 inferior、junior；-ilis/-bilis 加动词词根表易被…，fragilis 即容易破碎的。",
+       "terms": [
+        "comparative",
+        "passive potential"
+       ],
+       "examples": [
+        "inferior",
+        "superior",
+        "junior",
+        "fragilis",
+        "capabilis"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C9-S5",
+     "title": "Verbs",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c9s5-1",
+       "title": "动词词干与连接元音",
+       "type": "concept",
+       "summary": "动词由词根加后缀构成；最简单的后缀是单元音 -a-，英语 err 丢弃了它，但 erratic、inerrant 仍保留痕迹。",
+       "terms": [
+        "verb stem",
+        "thematic vowel"
+       ],
+       "examples": [
+        "err",
+        "erratic",
+        "inerrant"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s5-2",
+       "title": "-sc-、-ta- 与鼻音中缀",
+       "type": "rule",
+       "summary": "-sc- 表「开始」（candesce- 开始发光），-ta-/-ita- 加强词义（agitator），鼻音中缀原本标记现在时。",
+       "terms": [
+        "inchoative",
+        "intensive",
+        "nasal infix"
+       ],
+       "examples": [
+        "incandescent",
+        "agitator",
+        "frangere"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s5-3",
+       "title": "现在分词与抽象名词",
+       "type": "rule",
+       "summary": "现在分词词干以 -ent- 结尾（docent-、agent-、sapient-、sentient-），加 -ia 成抽象名词，借入英语作 -ce 或 -cy。",
+       "terms": [
+        "present participle",
+        "abstract noun"
+       ],
+       "examples": [
+        "agent",
+        "agency",
+        "sapience",
+        "sentience"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s5-4",
+       "title": "完成分词及其音变",
+       "type": "rule",
+       "summary": "拉丁完成分词加 -t-，词干必以 t 或 s 收尾：doct- 直接加，act- 经清化，sens- 由 sent+t 历时变为 ss 再简化，属历史音变而非英语的共时拼写规则。",
+       "terms": [
+        "perfect participle",
+        "assimilation"
+       ],
+       "examples": [
+        "doct-",
+        "fact-",
+        "act-",
+        "sens-",
+        "dissolut-"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c9s5-5",
+       "title": "动形词与 -um/-a 名词化",
+       "type": "rule",
+       "summary": "动形词以 -nd- 结尾表「应当做」，如 agenda、memorandum；带 -um/-a 时多指物，errata、data 原为复数完成分词。",
+       "terms": [
+        "gerundive",
+        "perfect participle"
+       ],
+       "examples": [
+        "agenda",
+        "memorandum",
+        "errata",
+        "data"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "-ae",
+     "gloss": "复数主格词尾（-a 名词）",
+     "source": "L",
+     "note": "第一变格法，alumna 变 alumnae",
+     "chapter": 9,
+     "group": "名词屈折"
+    },
+    {
+     "form": "-i",
+     "gloss": "复数主格词尾（-us 名词）",
+     "source": "L",
+     "note": "第二变格法，alumnus 变 alumni；apparatus 等同形者为例外",
+     "chapter": 9,
+     "group": "名词屈折"
+    },
+    {
+     "form": "-a",
+     "gloss": "复数主格词尾（-um、-on 名词）",
+     "source": "L",
+     "note": "memorandum 变 memoranda；希腊 -on 名词同用，criterion 变 criteria",
+     "chapter": 9,
+     "group": "名词屈折"
+    },
+    {
+     "form": "-es",
+     "gloss": "复数主格词尾（-is、-es 名词）",
+     "source": "L",
+     "note": "crisis 变 crises；species 单复数同形",
+     "chapter": 9,
+     "group": "名词屈折"
+    },
+    {
+     "form": "-us",
+     "gloss": "复数与单数同形的词尾",
+     "source": "L",
+     "note": "仅少数 -us 名词如此，hiatus、apparatus 不取 -i",
+     "chapter": 9,
+     "group": "名词屈折"
+    },
+    {
+     "form": "-arium",
+     "gloss": "表场所",
+     "source": "L",
+     "note": "librarium、sanctuarium、aquarium，指存放或饲养之处",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-ia",
+     "gloss": "表性质、状态（抽象名词）",
+     "source": "L",
+     "note": "miseria、constantia、scientia，英语多作 -y 或 -ce",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-la~-lum~-lus",
+     "gloss": "指小",
+     "source": "L",
+     "note": "molecula 小团、granulum 小粒、alveolus 小槽",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-mentum",
+     "gloss": "表手段、结果",
+     "source": "L",
+     "note": "tormentum、momentum、complementum，英语作 -ment",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-monia~-monium",
+     "gloss": "表状态、职责",
+     "source": "L",
+     "note": "acrimonia 尖刻、matrimonium 婚姻之责",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-tas~-tat-",
+     "gloss": "表抽象性质",
+     "source": "L",
+     "note": "gravitas、fidelitas，词干为 -tat-，英语作 -ty",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-tio~-tion-",
+     "gloss": "表动作或其结果",
+     "source": "L",
+     "note": "electio、fissio、captio，英语作 -tion",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-tor",
+     "gloss": "表施事者或工具",
+     "source": "L",
+     "note": "actor、doctor、successor；希腊同形 -tor 见 rhetor",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-tura",
+     "gloss": "表动作或动作结果",
+     "source": "L",
+     "note": "lectura、pictura、natura，英语作 -ture",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-tus",
+     "gloss": "表动作、状态（复数同形）",
+     "source": "L",
+     "note": "adventus、rictus、coitus，英语多作 -t",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-ma~-mat-",
+     "gloss": "希腊名词后缀，表结果",
+     "source": "G",
+     "note": "pragma、schema、epigramma，词干带 -mat-",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-sis",
+     "gloss": "希腊名词后缀，表过程或状态",
+     "source": "G",
+     "note": "praxis、analysis、stasis，复数 -ses",
+     "chapter": 9,
+     "group": "名词派生"
+    },
+    {
+     "form": "-alis",
+     "gloss": "形容词后缀，表「属于…的」",
+     "source": "L",
+     "note": "regalis，英语多作 -al",
+     "chapter": 9,
+     "group": "形容词派生"
+    },
+    {
+     "form": "-bilis~-able",
+     "gloss": "易被…的，能够…的",
+     "source": "L",
+     "note": "capabilis、tangibilis，经法语作 -able",
+     "chapter": 9,
+     "group": "形容词派生"
+    },
+    {
+     "form": "-ilis",
+     "gloss": "易被…的，与…有关的",
+     "source": "L",
+     "note": "facilis 易做、fragilis 易碎、puerilis 孩子气的",
+     "chapter": 9,
+     "group": "形容词派生"
+    },
+    {
+     "form": "-osus~-ous",
+     "gloss": "充满…的",
+     "source": "L",
+     "note": "verbosus、bellicosus，通俗法语作 -ous",
+     "chapter": 9,
+     "group": "形容词派生"
+    },
+    {
+     "form": "-tivus",
+     "gloss": "形容词后缀，表倾向或功能",
+     "source": "L",
+     "note": "captivus、fugitivus，英语作 -tive",
+     "chapter": 9,
+     "group": "形容词派生"
+    },
+    {
+     "form": "-icos~-acos",
+     "gloss": "希腊形容词后缀",
+     "source": "G",
+     "note": "polemicos、anarchicos、cardiacos，英语作 -ic 或 -ac",
+     "chapter": 9,
+     "group": "形容词派生"
+    },
+    {
+     "form": "-(i)or",
+     "gloss": "比较级后缀",
+     "source": "L",
+     "note": "inferior、superior、junior，语义最清楚的一类后缀",
+     "chapter": 9,
+     "group": "形容词派生"
+    },
+    {
+     "form": "-a-",
+     "gloss": "动词词干连接元音",
+     "source": "L",
+     "note": "erra- 构成动词，英语 err 丢失该元音，erratic 保留",
+     "chapter": 9,
+     "group": "动词派生"
+    },
+    {
+     "form": "-sc-",
+     "gloss": "开始…",
+     "source": "L",
+     "note": "candesce- 开始发光，英语 incandescent",
+     "chapter": 9,
+     "group": "动词派生"
+    },
+    {
+     "form": "-ta~-ita-",
+     "gloss": "加强动词义",
+     "source": "L",
+     "note": "agitator 与 actor 同根 ag，-ita- 使动作反复加强",
+     "chapter": 9,
+     "group": "动词派生"
+    },
+    {
+     "form": "-ent-",
+     "gloss": "现在分词词干",
+     "source": "L",
+     "note": "docent-、agent-、sapient-、sentient-，多表主动",
+     "chapter": 9,
+     "group": "动词派生"
+    },
+    {
+     "form": "-t-~-s-",
+     "gloss": "完成分词词干",
+     "source": "L",
+     "note": "doct-、act-、sens-，词干必以 t 或 s 收尾，多表被动",
+     "chapter": 9,
+     "group": "动词派生"
+    },
+    {
+     "form": "-nd-",
+     "gloss": "动形词词干，表应当…",
+     "source": "L",
+     "note": "agenda 应办之事、memorandum 应记之事",
+     "chapter": 9,
+     "group": "动词派生"
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "按表 9.1 写出拉丁希腊名词的复数形式",
+     "shape": "plural-formation",
+     "example": [
+      "scapula",
+      "apparatus",
+      "phenomenon",
+      "symposium"
+     ]
+    },
+    {
+     "name": "Element Study：找出词根并说明字面义与今义的关联",
+     "shape": "root-identification",
+     "example": [
+      "note",
+      "fluent",
+      "pardon",
+      "adherent",
+      "expletive"
+     ]
+    },
+    {
+     "name": "Element Study：同形异源词根辨别",
+     "shape": "false-friends",
+     "example": [
+      "pen~pun",
+      "pug~pugn",
+      "ver 'turn'",
+      "ver 'true'"
+     ]
+    },
+    {
+     "name": "Element Study：按 prefix-root-suffix 解析生物医学术语",
+     "shape": "parse-and-gloss",
+     "example": [
+      "tectospondylic",
+      "endolymphangial",
+      "viviparous",
+      "dolorific"
+     ]
+    },
+    {
+     "name": "Element Study：由词典定义在含干扰项的列表中回填单词",
+     "shape": "definition-matching",
+     "example": [
+      "heteronomous",
+      "polity",
+      "homeostasis",
+      "malocclusion"
+     ]
+    },
+    {
+     "name": "Exercises：解析拉丁现在分词、完成分词与动形词",
+     "shape": "participle-parse",
+     "example": [
+      "desideratum",
+      "errata",
+      "parent",
+      "addendum",
+      "referendum"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-C10",
+   "chapter": 10,
+   "title": "The Prehistory of English and the Other Indo-European Languages",
+   "sections": [
+    {
+     "id": "S1-C10-S1",
+     "title": "The discovery of the Deeper Linguistic Past of English and Related Languages",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s1-1",
+       "title": "分化是语言变化的常态结果",
+       "type": "concept",
+       "summary": "变化不可避免，人群一旦失去密切接触，语言必然各自演变；历史语言学专门研究这种分化的规律与细节。",
+       "terms": [
+        "historical linguistics",
+        "divergence"
+       ],
+       "examples": [
+        "Tower of Babel"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s1-2",
+       "title": "十八世纪的两项谱系发现",
+       "type": "history",
+       "summary": "先有学者提出匈牙利语与芬兰语同出 Proto-Finno-Ugric，后有 William Jones 在 1786 年提出梵语、拉丁语、希腊语同源。",
+       "terms": [
+        "Proto-Finno-Ugric",
+        "Sanskrit",
+        "language family"
+       ],
+       "examples": [
+        "Hungarian",
+        "Finnish",
+        "Sanskrit"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s1-3",
+       "title": "同源词的三语对应",
+       "type": "classification",
+       "summary": "拉丁 serpit、希腊 herpei、梵语 sarpati 等成组对应，说明三者并非偶然相似，而是同出一个已消亡的祖语。",
+       "terms": [
+        "cognate",
+        "correspondence"
+       ],
+       "examples": [
+        "serpit",
+        "herpei",
+        "sarpati",
+        "genus",
+        "genos",
+        "janas"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s1-4",
+       "title": "印欧语系的命名与范围",
+       "type": "history",
+       "summary": "十九世纪的比较研究确认了这一语系；因其使用者在有史之初占据自印度次大陆至西欧的广大地区，故名印欧。",
+       "terms": [
+        "Indo-European",
+        "comparative method"
+       ],
+       "examples": [
+        "Indo-European"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S2",
+     "title": "The Indo-European Languages",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s2-1",
+       "title": "十三个分支，八个仍有活语言",
+       "type": "classification",
+       "summary": "印欧语系约有十三支，其中八支仍有使用者；其余或仅存文献，或已彻底消亡。",
+       "terms": [
+        "branch",
+        "language family"
+       ],
+       "examples": [
+        "Germanic",
+        "Italic",
+        "Indo-Iranian"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s2-2",
+       "title": "只有文献没有后裔的分支",
+       "type": "history",
+       "summary": "吐火罗语曾行于中国西部，安纳托利亚语（含赫梯语）行于土耳其；哥特语则属日耳曼支而后来消亡。",
+       "terms": [
+        "extinct language",
+        "attested"
+       ],
+       "examples": [
+        "Tocharian",
+        "Hittite",
+        "Gothic"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S3",
+     "title": "From Proto-Indo-European to Germanic",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s3-1",
+       "title": "格里姆定律与拉斯克",
+       "type": "rule",
+       "summary": "日耳曼语与其它印欧语之间塞音有规律对应：英语 [f] 对拉丁 [p]，[θ] 对 [t]，[h] 对 [k]。",
+       "terms": [
+        "Grimm's law",
+        "sound correspondence",
+        "obstruent"
+       ],
+       "examples": [
+        "father",
+        "pater",
+        "three",
+        "tres",
+        "hundred",
+        "centum"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s3-2",
+       "title": "规律对应比表面相似更可靠",
+       "type": "method",
+       "summary": "零星相似可能是巧合，成批词出现同一套对应则几乎不可能是偶然，因此系统对应成为判定同源关系的证据。",
+       "terms": [
+        "sound correspondence",
+        "cognate"
+       ],
+       "examples": [
+        "father~pater"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s3-3",
+       "title": "重构与星号约定",
+       "type": "method",
+       "summary": "由对应关系倒推祖语原音叫重构，形式前加星号表示无文献依据；原始印欧语无文字，所说的一切都是重构。",
+       "terms": [
+        "reconstruction",
+        "asterisk",
+        "Proto-Indo-European"
+       ],
+       "examples": [
+        "*p",
+        "*t",
+        "*kʷ"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c10s3-4",
+       "title": "链移解释三组齿音的去向",
+       "type": "rule",
+       "summary": "送气浊音变浊、浊变清、清变擦音，三步须按序发生且前一步停止后才轮到下一步，否则会全部合成一音。",
+       "terms": [
+        "chain shift",
+        "phonation"
+       ],
+       "examples": [
+        "*dʰ > d",
+        "*d > t",
+        "*t > θ"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S4",
+     "title": "The Nature of Proto-Indo-European",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s4-1",
+       "title": "祖语研究的三个层面",
+       "type": "method",
+       "summary": "原始印欧语的研究分语音、语法、词汇与文化三层，越往后推测成分越多，但彼此可以互相校验。",
+       "terms": [
+        "reconstruction",
+        "proto-language"
+       ],
+       "examples": [
+        "Proto-Indo-European"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S5",
+     "title": "Sounds",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s5-1",
+       "title": "辅音系统的三系列塞音",
+       "type": "classification",
+       "summary": "重构出的辅音分清、浊、送气三系列，按唇、齿、腭、软腭、圆唇软腭五个部位排列，另有 s、鼻音、流音与滑音。",
+       "terms": [
+        "oral stop",
+        "labiovelar",
+        "approximant"
+       ],
+       "examples": [
+        "*p",
+        "*b",
+        "*bʰ",
+        "*kʷ",
+        "*gʷʰ"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c10s5-2",
+       "title": "三个喉音及其不确定读音",
+       "type": "concept",
+       "summary": "三个摩擦音读音争议太大，通常只编号为 *h1、*h2、*h3，证据不足时统作 *H；喉音之名与喉并无实据。",
+       "terms": [
+        "laryngeal",
+        "*H"
+       ],
+       "examples": [
+        "*h1",
+        "*h2",
+        "*h3"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c10s5-3",
+       "title": "五元音与成音节辅音",
+       "type": "concept",
+       "summary": "元音有 a、e、i、o、u 且分长短；鼻音与流音可充当音节核心，如「七」作 *septḿ̥，圆圈符号标成音节。",
+       "terms": [
+        "syllabic consonant",
+        "macron"
+       ],
+       "examples": [
+        "*septḿ̥",
+        "*ā",
+        "*ē"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c10s5-4",
+       "title": "喉音着色与喉音加长",
+       "type": "rule",
+       "summary": "*h2 旁的 e 变 a，*h3 旁的 e 变 o；喉音在音节末消失却使前音加长，如 *pléh1dʰuh1 变拉丁 plēb-。",
+       "terms": [
+        "laryngeal coloring",
+        "lengthening"
+       ],
+       "examples": [
+        "*h2eǵr-",
+        "agr-",
+        "*h3ekʷ-",
+        "oc-",
+        "plēb-"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S6",
+     "title": "Grammar",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s6-1",
+       "title": "高度屈折：八格与单双复",
+       "type": "concept",
+       "summary": "原始印欧语名词至少八个格，数分单数、双数与复数；不同词表达同一格数可用不同词尾。",
+       "terms": [
+        "case",
+        "dual",
+        "inflection"
+       ],
+       "examples": [
+        "*h1éḱwos",
+        "h1éḱwoh1",
+        "h1éḱwoes"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c10s6-2",
+       "title": "形容词的格数性一致",
+       "type": "rule",
+       "summary": "形容词须与被修饰名词的格、数一致，还须与阴阳中三性一致，而三性多为语法约定，与生理性别关系不大。",
+       "terms": [
+        "agreement",
+        "gender"
+       ],
+       "examples": [
+        "masculine",
+        "feminine",
+        "neuter"
+       ],
+       "lessonHint": "advanced"
+      },
+      {
+       "id": "kp-s1c10s6-3",
+       "title": "第 4 章不规则变体的祖语来源",
+       "type": "concept",
+       "summary": "鼻音中缀原本标记现在时（如 frang 一族），元音交替则来自祖语成体系的元音变换，今看似例外实为旧规则。",
+       "terms": [
+        "nasal infix",
+        "ablaut"
+       ],
+       "examples": [
+        "frang",
+        "sing~sang"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S7",
+     "title": "The Indo-European World",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s7-1",
+       "title": "以共享词汇做语言考古",
+       "type": "method",
+       "summary": "比较各支后裔语言的同源词并据对应规律外推，可以推断五六千年前使用者的生活环境与文化制度。",
+       "terms": [
+        "linguistic archaeology",
+        "palaeolinguistics"
+       ],
+       "examples": [
+        "*snóygʷʰos",
+        "*wĺ̥kʷos"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s7-2",
+       "title": "由动植物词推定温带林地",
+       "type": "history",
+       "summary": "有雪、冬、山毛榉、桦树，也有熊、狼、鹿、马、牛、羊、猪、狗、鹰、鹅，说明故乡是冷热适中的温带林带。",
+       "terms": [
+        "cognate set",
+        "homeland"
+       ],
+       "examples": [
+        "*h2ŕ̥tḱos",
+        "arctic",
+        "*gʷṓws",
+        "bovine"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s7-3",
+       "title": "金属、船、农业与轮轴",
+       "type": "history",
+       "summary": "有金、银、青铜而无铁；有船与划桨而无帆；有犁、磨、纺织；有轮与轴，而后几项约公元前四千年才出现。",
+       "terms": [
+        "material culture",
+        "dating"
+       ],
+       "examples": [
+        "*kʷékʷlos",
+        "wheel",
+        "*h₂erh₃-",
+        "arable"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s7-4",
+       "title": "父权家宅与神名",
+       "type": "history",
+       "summary": "社会以父系父权为常：家主即 despot，居所即 domicile，聚居成 vicinity 所指的村落，三者均出自印欧语。",
+       "terms": [
+        "patriarchal",
+        "patrilocal"
+       ],
+       "examples": [
+        "*déms pótis",
+        "*dṓm",
+        "*weyḱós",
+        "despot",
+        "domicile",
+        "vicinity"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s7-5",
+       "title": "库尔干假说与战车优势",
+       "type": "history",
+       "summary": "语言考古的结论与乌克兰东部约公元前四千年的库尔干文化最相容；马与轮带来的战车可能是其扩张的军事优势。",
+       "terms": [
+        "Kurgan hypothesis",
+        "chariot"
+       ],
+       "examples": [
+        "Kurgan culture"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S8",
+     "title": "Changes Leading to Latin and Greek",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s8-1",
+       "title": "各支独立变化，拉丁希腊最关键",
+       "type": "concept",
+       "summary": "印欧人四散后各支独立演变，日耳曼有格里姆定律；对英语词汇学习最重要的是拉丁与希腊两支的变化。",
+       "terms": [
+        "sound change",
+        "branch"
+       ],
+       "examples": [
+        "Grimm's law"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S9",
+     "title": "Greek",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s9-1",
+       "title": "希腊的元音变化",
+       "type": "rule",
+       "summary": "希腊元音变化不多但很整齐：长短 *u 前化为 y，「鼠」作 mȳs；长 *ā 变 ē，mātēr 成 mētēr，即 metropolis 之源。",
+       "terms": [
+        "vowel shift",
+        "fronting"
+       ],
+       "examples": [
+        "*múh₂s",
+        "mȳs",
+        "mātēr",
+        "mētēr",
+        "metropolis"
+       ],
+       "lessonHint": "希腊"
+      },
+      {
+       "id": "kp-s1c10s9-2",
+       "title": "塞音：送气与唇化",
+       "type": "rule",
+       "summary": "送气浊音变清送气音；圆唇软腭音一般变唇音 p、b、ph，在前元音前则变齿音 t、d、th。",
+       "terms": [
+        "aspirate",
+        "labiovelar",
+        "conditioned change"
+       ],
+       "examples": [
+        "*kʷetwóres",
+        "tessares"
+       ],
+       "lessonHint": "希腊"
+      },
+      {
+       "id": "kp-s1c10s9-3",
+       "title": "s、w 与喉音的去向",
+       "type": "rule",
+       "summary": "词首 *s 变 [h]，故 *septḿ̥ 成 hepta；滑音 [w] 通常消失；三个喉音或消失，或分别变成 e、a、o。",
+       "terms": [
+        "debuccalization",
+        "laryngeal"
+       ],
+       "examples": [
+        "hepta",
+        "*widéseh₂",
+        "ideā",
+        "*deh₃-",
+        "dō-"
+       ],
+       "lessonHint": "希腊"
+      },
+      {
+       "id": "kp-s1c10s9-4",
+       "title": "成音节辅音加 a",
+       "type": "rule",
+       "summary": "希腊不让 *r̥、*m̥ 自成音节，而在其旁补 a；*ḱr̥d- 因此成 card-，鼻音则常直接变 a。",
+       "terms": [
+        "syllabic consonant",
+        "epenthesis"
+       ],
+       "examples": [
+        "*ḱr̥d-",
+        "card-",
+        "hepta"
+       ],
+       "lessonHint": "希腊"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S10",
+     "title": "Latin",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s10-1",
+       "title": "拉丁的招牌音变",
+       "type": "rule",
+       "summary": "Rhotacism 是拉丁特有（*swésōr 变 soror），t+t 变 ss 亦然；第 6 章大量规则变体即由此而来。",
+       "terms": [
+        "rhotacism",
+        "assimilation"
+       ],
+       "examples": [
+        "*swésōr",
+        "soror"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c10s10-2",
+       "title": "首音节保守，后音节弱化",
+       "type": "rule",
+       "summary": "拉丁基本保留祖语首音节元音，后续音节却常弱化，使原元音难以还原，这也是词根变体多的原因之一。",
+       "terms": [
+        "vowel weakening",
+        "initial syllable"
+       ],
+       "examples": [
+        "facere",
+        "perficere"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c10s10-3",
+       "title": "送气音变 f，*gʷ 变 w",
+       "type": "rule",
+       "summary": "拉丁最有用的一条是送气浊音通常变 f；其余塞音与祖语相近，唯圆唇软腭音 *gʷ 变成滑音 [w]。",
+       "terms": [
+        "fricative",
+        "labiovelar"
+       ],
+       "examples": [
+        "*bʰ",
+        "f",
+        "*gʷ",
+        "v"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c10s10-4",
+       "title": "喉音只变 a，成音节辅音加元音",
+       "type": "rule",
+       "summary": "拉丁不区分三个喉音，一律变 a 或消失；成音节辅音则补元音，*ḱr̥d- 成 cord-，与希腊 card- 相对。",
+       "terms": [
+        "laryngeal",
+        "epenthesis"
+       ],
+       "examples": [
+        "*dʰh₁k-",
+        "fac",
+        "*ḱr̥d-",
+        "cord-"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S11",
+     "title": "Application to Word Study",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s11-1",
+       "title": "六千年间稳定多于变化",
+       "type": "method",
+       "summary": "许多祖语音在英、希、拉三语中至少一处原封不动，已变的也多有规律对应，故可用对应关系系联同源语素。",
+       "terms": [
+        "sound correspondence",
+        "cognate"
+       ],
+       "examples": [
+        "father",
+        "paternal"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c10s11-2",
+       "title": "由对应推测英语同源词",
+       "type": "method",
+       "summary": "遇到新的拉丁希腊语素，可按对应表反推可能的英语同源词；更稳妥的做法是查印欧词根表。",
+       "terms": [
+        "Indo-European root",
+        "correspondence"
+       ],
+       "examples": [
+        "fill",
+        "full",
+        "plere"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    },
+    {
+     "id": "S1-C10-S12",
+     "title": "Further Reading",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c10s12-1",
+       "title": "延伸阅读与工具书",
+       "type": "method",
+       "summary": "Watkins 的印欧语导论、Fortson 与 Mallory 的专著可作进阶；转写规范依 Wiktionary 的说明，词根表见《美国传统词典》网站。",
+       "terms": [
+        "reference",
+        "transcription"
+       ],
+       "examples": [
+        "Watkins",
+        "Fortson",
+        "Mallory"
+       ],
+       "lessonHint": "advanced"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "val",
+     "gloss": "be strong, be worth",
+     "source": "L",
+     "note": "强健、有价值，value、valid、prevail 同根",
+     "chapter": 10
+    },
+    {
+     "form": "the~thes",
+     "gloss": "put, place",
+     "source": "G",
+     "note": "放置，thesis 所置之论、synthetic 合成",
+     "chapter": 10
+    },
+    {
+     "form": "sal~sult~sil",
+     "gloss": "leap",
+     "source": "L",
+     "note": "跳，insult 原为「跳向」，salient 跃出显眼",
+     "chapter": 10
+    },
+    {
+     "form": "fa",
+     "gloss": "speak",
+     "source": "L",
+     "note": "说，infant 字面为「不会说话者」，fable 同根",
+     "chapter": 10
+    },
+    {
+     "form": "lat",
+     "gloss": "wide",
+     "source": "L",
+     "note": "宽，latitude、lateral、dilate 同根",
+     "chapter": 10
+    },
+    {
+     "form": "phratr",
+     "gloss": "brother",
+     "source": "G",
+     "note": "兄弟，phratry 指氏族分支；与拉丁 fratr 为同源异形",
+     "chapter": 10
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "用格里姆定律判定词对是否同源",
+     "shape": "cognate-judgment",
+     "example": [
+      "father~paternal",
+      "three~três",
+      "hundred~centum"
+     ]
+    },
+    {
+     "name": "依辅音对应判定借词与本族词",
+     "shape": "loanword-vs-native",
+     "example": [
+      "sediment~sitter",
+      "float~pluvial",
+      "spume~foam",
+      "edible~eaten"
+     ]
+    },
+    {
+     "name": "按格里姆定律补全对应表空格",
+     "shape": "correspondence-fill",
+     "example": [
+      "*p",
+      "*t",
+      "*ḱ",
+      "*bʰ"
+     ]
+    },
+    {
+     "name": "Element Study：同形异源词根辨别",
+     "shape": "false-friends",
+     "example": [
+      "pl~plec~plic",
+      "ple",
+      "ped 'foot'",
+      "paed~ped",
+      "metr 'mother'",
+      "meter"
+     ]
+    },
+    {
+     "name": "Element Study：解析并注释专业术语",
+     "shape": "parse-and-gloss",
+     "example": [
+      "effluent",
+      "quincentennial",
+      "interlocutor",
+      "rheostat",
+      "impedance"
+     ]
+    },
+    {
+     "name": "由定义在含干扰项的列表中回填单词",
+     "shape": "definition-matching",
+     "example": [
+      "cruciferous",
+      "salve"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-C11",
+   "chapter": 11,
+   "title": "Later Changes",
+   "sections": [
+    {
+     "id": "S1-C11-S1",
+     "title": "Learned Borrowings",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c11s1-1",
+       "title": "学术借词的定义",
+       "type": "concept",
+       "summary": "直接从书面拉丁借入的词或语素称 learned borrowing，变化最少，但与西塞罗时代的拉丁绝非原封不动。",
+       "terms": [
+        "learned borrowing",
+        "scholarly borrowing"
+       ],
+       "examples": [
+        "nation",
+        "omnipotent"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c11s1-2",
+       "title": "借词变化的四个方面",
+       "type": "classification",
+       "summary": "拉丁成分进入英语后在语义、拼写、读音与词尾四方面都可能改变，其中拼写最保守、读音最易走样。",
+       "terms": [
+        "semantics",
+        "spelling",
+        "pronunciation",
+        "ending"
+       ],
+       "examples": [
+        "continent-",
+        "junior",
+        "circus"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C11-S2",
+     "title": "Semantics",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c11s2-1",
+       "title": "借词语义常被收窄或重造",
+       "type": "concept",
+       "summary": "拉丁 continent- 本指「连续不断」，用于陆地才成「大陆」；专指七大洲之一是十七世纪的新用法。",
+       "terms": [
+        "semantic narrowing",
+        "technical sense"
+       ],
+       "examples": [
+        "continent",
+        "mainland"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C11-S3",
+     "title": "Spelling",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c11s3-1",
+       "title": "拼写是最保守的一环",
+       "type": "concept",
+       "summary": "古文献为后人提供范本，而拉丁学者又以守旧自许，故十六世纪以后许多拉丁词仍按拉丁原样拼写。",
+       "terms": [
+        "orthography",
+        "conservatism"
+       ],
+       "examples": [
+        "nation"
+       ],
+       "lessonHint": "拼写"
+      },
+      {
+       "id": "kp-s1c11s3-2",
+       "title": "现代新增的字形区分",
+       "type": "history",
+       "summary": "罗马人不分大小写，也不分元音 i 与辅音 j、元音 u 与辅音 v；这些区分都是后世所加。",
+       "terms": [
+        "uppercase",
+        "i/j",
+        "u/v"
+       ],
+       "examples": [
+        "junior",
+        "IVNIOR"
+       ],
+       "lessonHint": "拼写"
+      },
+      {
+       "id": "kp-s1c11s3-3",
+       "title": "ae、oe 与 e 的合并",
+       "type": "rule",
+       "summary": "两个二合元音后来都读同 e，遂多写作 e：haesitatio 成 hesitation、poenal- 成 penal；专名与术语仍留旧拼。",
+       "terms": [
+        "digraph",
+        "diphthong"
+       ],
+       "examples": [
+        "hesitation",
+        "penal",
+        "Caesar",
+        "Oedipus",
+        "alumnae",
+        "fetus"
+       ],
+       "lessonHint": "拼写"
+      }
+     ]
+    },
+    {
+     "id": "S1-C11-S4",
+     "title": "Pronunciation",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c11s4-1",
+       "title": "拉丁读音传统远离古罗马",
+       "type": "history",
+       "summary": "百年前学者读拉丁也用一套与古音无关的规则；j、v 在古典拉丁为滑音，在英语与罗曼语中却是塞擦音或擦音。",
+       "terms": [
+        "approximant",
+        "obstruent"
+       ],
+       "examples": [
+        "[j]",
+        "[w]",
+        "[dʒ]",
+        "[v]"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c11s4-2",
+       "title": "软腭软化：c、g 的前化",
+       "type": "rule",
+       "summary": "古典拉丁 c、g 一律读 [k]、[g]，在晚期拉丁前元音前常读 [s]、[dʒ]；英语对应拼写为 ce、ci、cy、ge、gi、gy 与 ae、oe。",
+       "terms": [
+        "velar softening",
+        "front vowel"
+       ],
+       "examples": [
+        "cell",
+        "civics",
+        "cycle",
+        "gel",
+        "gingival",
+        "Caesar",
+        "coelacanth"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c11s4-3",
+       "title": "英语经由法国学者习得拉丁音",
+       "type": "history",
+       "summary": "civ- 读 [siv] 而非古典 [kiːw]，因为 [w]>[v]、[k]>[s] 是法语规则；英语本土词 wind、kiss 并未如此变。",
+       "terms": [
+        "loan pronunciation",
+        "French mediation"
+       ],
+       "examples": [
+        "civ-",
+        "wind",
+        "kiss"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c11s4-4",
+       "title": "大元音推移改写拉丁元音",
+       "type": "rule",
+       "summary": "英语长元音高化或二合化，使拉丁 a、e、i 常读 [e]、[i]、[aɪ]，这一层变化完全发生在英语内部。",
+       "terms": [
+        "Great Vowel Shift",
+        "diphthongization"
+       ],
+       "examples": [
+        "[e]",
+        "[i]",
+        "[aɪ]"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c11s4-5",
+       "title": "近年反向的「复原」读音",
+       "type": "concept",
+       "summary": "有人把 re 读 [re]、per diem 读 [diəm]、stimuli 读 [i]，等于局部撤销大元音推移，以显其外来身份。",
+       "terms": [
+        "hyperforeignism",
+        "restored pronunciation"
+       ],
+       "examples": [
+        "re",
+        "per diem",
+        "stimuli",
+        "fungi"
+       ],
+       "lessonHint": "新词"
+      }
+     ]
+    },
+    {
+     "id": "S1-C11-S5",
+     "title": "Endings",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c11s5-1",
+       "title": "整词借入者保留原词尾",
+       "type": "concept",
+       "summary": "部分拉丁希腊词以原引用形整体进入英语，如 camera、bonus、senator，以及第 9 章取拉丁复数的那些名词。",
+       "terms": [
+        "citation form",
+        "borrowing"
+       ],
+       "examples": [
+        "camera",
+        "bonus",
+        "senator"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c11s5-2",
+       "title": "更常见的做法是削去词尾",
+       "type": "rule",
+       "summary": "拉丁词尾在英语多无对应功能，citabar 含词根、动词标记、未完成后缀与被动后缀，借入时通常只留 cit-。",
+       "terms": [
+        "stem",
+        "inflectional ending"
+       ],
+       "examples": [
+        "citabar",
+        "cit-"
+       ],
+       "lessonHint": "拉丁"
+      },
+      {
+       "id": "kp-s1c11s5-3",
+       "title": "法语的重音后音节脱落",
+       "type": "rule",
+       "summary": "法语通常只保留词首与重读元音，其余音节丢失或弱化为 e，词尾屈折因此大量消失，这一先例影响了英语借词。",
+       "terms": [
+        "stress",
+        "syllable loss"
+       ],
+       "examples": [
+        "table",
+        "circle"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c11s5-4",
+       "title": "词干加静音 e 的常态",
+       "type": "rule",
+       "summary": "借词多以词干形式落脚，加不发音的 e 即可像本族词一样使用；legislature、contradict、nation 在拉丁中并无此形。",
+       "terms": [
+        "silent e",
+        "stem"
+       ],
+       "examples": [
+        "legislature",
+        "contradict",
+        "natal",
+        "procure"
+       ],
+       "lessonHint": "拼写"
+      },
+      {
+       "id": "kp-s1c11s5-5",
+       "title": "法语化的词尾调整",
+       "type": "rule",
+       "summary": "词尾多按法语习惯调整：-abilis 变 -able、-osus 变 -ous、fic 在词末变 -fy；tabula 成 table，tabular 保留全词干。",
+       "terms": [
+        "suffix adaptation",
+        "Old French"
+       ],
+       "examples": [
+        "-able",
+        "laborious",
+        "beautify",
+        "table",
+        "tabular"
+       ],
+       "lessonHint": "拼写"
+      },
+      {
+       "id": "kp-s1c11s5-6",
+       "title": "复原过头：scissors 的误判",
+       "type": "history",
+       "summary": "scissors 经法语 cisoires 来自 cis「切」，学者误以为根是 scind「裂」，遂改成 sciss，本应作 cisors。",
+       "terms": [
+        "hypercorrection",
+        "etymology"
+       ],
+       "examples": [
+        "scissors",
+        "incision",
+        "rescind",
+        "rescission"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C11-S6",
+     "title": "Borrowings from Popular French",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c11s6-1",
+       "title": "民间法语词形已面目全非",
+       "type": "concept",
+       "summary": "chief 出自 cap、friar 出自 frater、voyage 出自 viaticum，因不再像拉丁词，借入时也不会被重拼。",
+       "terms": [
+        "popular French",
+        "doublet"
+       ],
+       "examples": [
+        "chief",
+        "capital",
+        "friar",
+        "frater",
+        "voyage",
+        "viaticum"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c11s6-2",
+       "title": "通俗拉丁语与未入文学传统的词",
+       "type": "concept",
+       "summary": "未见于古典文献的口语拉丁称 Vulgar Latin；river 来自 *riparia，而古典拉丁说 amnis 或 flumen。",
+       "terms": [
+        "Vulgar Latin",
+        "unattested"
+       ],
+       "examples": [
+        "river",
+        "*riparia",
+        "amnis",
+        "flumen"
+       ],
+       "lessonHint": "词源"
+      },
+      {
+       "id": "kp-s1c11s6-3",
+       "title": "不重拼的另一个原因",
+       "type": "rule",
+       "summary": "这些词经千年演变，原拉丁词根已不可辨，学者无从据拉丁正字，故保持法语拼法。",
+       "terms": [
+        "opacity",
+        "respiration"
+       ],
+       "examples": [
+        "voyage",
+        "chief",
+        "friar"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C11-S7",
+     "title": "Deletions",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c11s7-1",
+       "title": "法语只保词首与重读元音",
+       "type": "rule",
+       "summary": "拉丁到法语，词首与重读元音一般保留，其余元音多被删除，词形因此大幅缩短。",
+       "terms": [
+        "deletion",
+        "stressed vowel"
+       ],
+       "examples": [
+        "tabula",
+        "table"
+       ],
+       "lessonHint": "词源"
+      }
+     ]
+    },
+    {
+     "id": "S1-C11-S8",
+     "title": "Coronalizations",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c11s8-1",
+       "title": "软腭音前移为舌冠音",
+       "type": "rule",
+       "summary": "法语同样有软腭软化，c 在非低元音前变 ch [tʃ]；此外还有多种变化产出腭音与龈后音。",
+       "terms": [
+        "coronalization",
+        "palatalization"
+       ],
+       "examples": [
+        "c",
+        "ch",
+        "[tʃ]"
+       ],
+       "lessonHint": "拉丁"
+      }
+     ]
+    },
+    {
+     "id": "S1-C11-S9",
+     "title": "Diphthongizations",
+     "knowledgePoints": [
+      {
+       "id": "kp-s1c11s9-1",
+       "title": "单元音变二合元音",
+       "type": "rule",
+       "summary": "古法语最典型的音变是拉丁单元音二合化，后来多又回落为单元音，只在拼写的双字母上留下证据。",
+       "terms": [
+        "diphthongization",
+        "spelling evidence"
+       ],
+       "examples": [
+        "chief",
+        "voyage"
+       ],
+       "lessonHint": "拼写"
+      }
+     ]
+    }
+   ],
+   "wordElements": [
+    {
+     "form": "curr~curs",
+     "gloss": "run",
+     "source": "L",
+     "note": "跑，curriculum 原指跑道、课程进程",
+     "chapter": 11
+    },
+    {
+     "form": "dent~dont",
+     "gloss": "tooth",
+     "source": "L",
+     "note": "牙，indent 原为「打成齿状缺口」",
+     "chapter": 11
+    },
+    {
+     "form": "lys~lyt",
+     "gloss": "loosen, dissolve",
+     "source": "G",
+     "note": "松开、分解，lysis 与 analysis、dialysis 同族",
+     "chapter": 11
+    },
+    {
+     "form": "nav~nau",
+     "gloss": "ship",
+     "source": "L",
+     "note": "船，nave 指教堂中殿（形似船身），navigate 即驾船",
+     "chapter": 11
+    },
+    {
+     "form": "trop",
+     "gloss": "turn",
+     "source": "G",
+     "note": "转，tropical 指回归线（太阳折返处），entropy 亦含此根",
+     "chapter": 11
+    },
+    {
+     "form": "plac",
+     "gloss": "please, be agreeable",
+     "source": "L",
+     "note": "取悦，placate、placid、placebo、implacable",
+     "chapter": 11
+    },
+    {
+     "form": "plac",
+     "gloss": "flat, plate",
+     "source": "G",
+     "note": "平，placoid 鳞、placenta、placoderm；与拉丁 plac 同形异源",
+     "chapter": 11
+    }
+   ],
+   "exerciseTypes": [
+    {
+     "name": "Element Study：找出词根并说明字面义与今义的关联",
+     "shape": "root-identification",
+     "example": [
+      "curriculum",
+      "indent",
+      "lysis",
+      "nave",
+      "tropical"
+     ]
+    },
+    {
+     "name": "Element Study：同形异源词根辨别",
+     "shape": "false-friends",
+     "example": [
+      "plac 'please'",
+      "plac 'flat'",
+      "pl~plec~plic",
+      "ple"
+     ]
+    },
+    {
+     "name": "Exercises：由拉丁词按音变推英语借词形",
+     "shape": "sound-change-application",
+     "example": [
+      "tabula",
+      "circle",
+      "laborious"
+     ]
+    },
+    {
+     "name": "Exercises：为学术借词与民间法语词配对成双胞胎词",
+     "shape": "doublet-pairing",
+     "example": [
+      "chief",
+      "capital",
+      "friar",
+      "frater"
+     ]
+    },
+    {
+     "name": "Element Study：由词素义猜测术语或恐惧症名称",
+     "shape": "definition-to-term",
+     "example": [
+      "aerophobia",
+      "nyctophobia",
+      "orthodontist",
+      "periodontist"
+     ]
+    },
+    {
+     "name": "Element Study：解析并注释哲学与医学术语",
+     "shape": "parse-and-gloss",
+     "example": [
+      "monothelitism",
+      "theophany",
+      "metempsychosis",
+      "ichthyosis"
+     ]
+    }
+   ]
+  }
+ ]
+}
