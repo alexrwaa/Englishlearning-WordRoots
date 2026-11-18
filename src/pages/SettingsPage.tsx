@@ -394,6 +394,10 @@ export default function SettingsPage() {
 
         <div className="divider" />
 
+        <div style={{ marginBottom: 12 }}>
+          <div style={{ fontSize: 14, fontWeight: 600 }}>数据规模</div>
+          <div className="tiny faint">课程与词库来自当前课程包；笔记、收藏、作答、复习是你的学习记录。</div>
+        </div>
         <div className="grid grid-4" style={{ gap: 14 }}>
           <Stat label="课程" value={lessons.length} hint="课时" />
           <Stat label="词条" value={allWords().length} hint="词库" />

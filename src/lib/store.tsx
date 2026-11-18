@@ -377,7 +377,6 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
 
       if (file.settings) {
         await db.saveSettings({ ...DEFAULT_SETTINGS, ...file.settings });
-        notes.push('设置已按备份恢复。');
       }
 
       await refresh();

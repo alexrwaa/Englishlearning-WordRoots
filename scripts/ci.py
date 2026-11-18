@@ -98,6 +98,27 @@ def _download(url):
         return resp.read()
 
 
+def cmd_jobs(run_id):
+    d = get(f"/repos/{REPO}/actions/runs/{run_id}/jobs")
+    if "jobs" not in d:
+        print(json.dumps(d)[:400])
+        return
+    for j in d["jobs"]:
+        print(f"JOB {j['name']} -> {j['conclusion']}")
+        for s in j["steps"]:
+            if s["conclusion"] not in ("success", "skipped", None):
+                print(f"  FAIL {s['name']} ({s['conclusion']})")
+
+
+def cmd_checks(sha):
+    d = get(f"/repos/{REPO}/commits/{sha}/check-runs?per_page=20")
+    for c in d.get("check_runs", []):
+        print(f"{c['name']} -> {c['conclusion']}")
+        ann = get(f"/repos/{REPO}/check-runs/{c['id']}/annotations")
+        for a in ann if isinstance(ann, list) else []:
+            print(f"  [{a.get('annotation_level')}] {a.get('path')}:{a.get('start_line')} {a.get('message')}")
+
+
 def cmd_artifact(art_id, dest):
     raw = _download(f"https://api.github.com/repos/{REPO}/actions/artifacts/{art_id}/zip")
     os.makedirs(dest, exist_ok=True)
@@ -113,6 +134,10 @@ if __name__ == "__main__":
         cmd_runs(int(sys.argv[2]) if len(sys.argv) > 2 else 5)
     elif cmd == "logs":
         cmd_logs(int(sys.argv[2]) if len(sys.argv) > 2 else None)
+    elif cmd == "jobs":
+        cmd_jobs(sys.argv[2])
+    elif cmd == "checks":
+        cmd_checks(sys.argv[2])
     elif cmd == "artifact":
         cmd_artifact(sys.argv[2], sys.argv[3])
     else:

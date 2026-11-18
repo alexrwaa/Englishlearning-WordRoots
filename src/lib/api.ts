@@ -55,7 +55,6 @@ interface WebDb {
 
 /** localStorage key of the browser-preview database. */
 export const WEB_DB_KEY = 'wordroots.dev.db.v1';
-const WEB_KEY = WEB_DB_KEY;
 const WEB_BACKUP_KEY = 'wordroots.dev.backup.last';
 
 function emptyDb(): WebDb {
@@ -64,7 +63,7 @@ function emptyDb(): WebDb {
 
 function readDb(): WebDb {
   try {
-    const raw = localStorage.getItem(WEB_KEY);
+    const raw = localStorage.getItem(WEB_DB_KEY);
     if (!raw) return emptyDb();
     return { ...emptyDb(), ...(JSON.parse(raw) as WebDb) };
   } catch {
@@ -73,7 +72,7 @@ function readDb(): WebDb {
 }
 
 function writeDb(db: WebDb) {
-  localStorage.setItem(WEB_KEY, JSON.stringify(db));
+  localStorage.setItem(WEB_DB_KEY, JSON.stringify(db));
 }
 
 /** Whole shim database as a canonical backup (settings included). */
@@ -103,7 +102,7 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
     case 'app_info':
       return {
         dataDir: '(browser preview) localStorage',
-        dbPath: WEB_KEY,
+        dbPath: WEB_DB_KEY,
         coursesDir: 'bundled',
         backupsDir: '-',
         version: '0.2.0',
@@ -231,10 +230,10 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
       // pre-import snapshot is the only way back if the swap misbehaves.
       const result = parseBackup(String(args.json ?? ''));
       if (!result.ok) throw new Error(result.error);
-      const current = localStorage.getItem(WEB_KEY);
+      const current = localStorage.getItem(WEB_DB_KEY);
       if (current) localStorage.setItem(PREIMPORT_KEY, current);
       const payload = toWebDb(result.file, { ...DEFAULT_SETTINGS, ...db.settings });
-      writeAtomic(localStorage, WEB_KEY, `${WEB_KEY}.staging`, payload);
+      writeAtomic(localStorage, WEB_DB_KEY, `${WEB_DB_KEY}.staging`, payload);
       return undefined as T;
     }
     case 'db_health':

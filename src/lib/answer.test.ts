@@ -78,6 +78,22 @@ describe('word sum judging', () => {
     expect(checkExercise(sum, text('  HAPPY  +  -ness ')).correct).toBe(true);
   });
 
+  it('ignores a result word copied from the card’s arrow notation', () => {
+    const construction: Exercise = {
+      id: 'w-sum-arrow',
+      kind: 'wordSum',
+      prompt: 'p',
+      parts: ['con', 'struct', 'ion'],
+      answer: 'construction',
+      explain: 'e',
+    };
+    expect(checkExercise(construction, text('con + struct + ion → construction')).correct).toBe(true);
+    expect(checkExercise(construction, text('con + struct + ion -> construction')).correct).toBe(true);
+    expect(checkExercise(construction, text('con + struct + ion = construction')).correct).toBe(true);
+    expect(checkExercise(construction, text('construction = con + struct + ion')).correct).toBe(true);
+    expect(checkExercise(construction, text('con + struct + ion → ?')).correct).toBe(true);
+  });
+
   it('rejects the whole word typed without a split', () => {
     const r = checkExercise(sum, text('happiness'));
     expect(r.correct).toBe(false);

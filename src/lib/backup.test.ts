@@ -261,8 +261,9 @@ describe('browser shim', () => {
     });
     expect(live.settings.theme).toBe('sepia');
 
-    // The shim keeps a pre-import snapshot of whatever was there before.
-    expect(store.data.has('wordroots.dev.preimport')).toBe(true);
+    // Importing into an empty database has nothing to protect, so no
+    // pre-import snapshot is written.
+    expect(store.data.has('wordroots.dev.preimport')).toBe(false);
 
     // Export again: the canonical file round-trips through the shim.
     const text = await db.exportData();
@@ -281,6 +282,11 @@ describe('browser shim', () => {
     const restored = JSON.parse(store.data.get(WEB_DB_KEY) ?? '{}') as WebDbPayload;
     expect(countWebDb(restored)).toEqual(countWebDb(live));
     expect(store.data.has(`${WEB_DB_KEY}.staging`)).toBe(false);
+
+    // A second import with data already present must snapshot it first.
+    const liveBefore = store.data.get(WEB_DB_KEY);
+    await db.importBackup(again.file);
+    expect(store.data.get('wordroots.dev.preimport')).toBe(liveBefore);
   });
 
   it('rejects a corrupt file without touching the current data', async () => {

@@ -124,6 +124,30 @@ function orderFeedback(userParts: string[], expected: string[]): string {
   )}，正确顺序是 ${expected.join(' + ')}。`;
 }
 
+const RESULT_ARROW = /\s*(?:→|⟶|➜|⇒|->|=>)\s*/u;
+const EQUALS = /\s*(?:=|＝)\s*/u;
+
+function plusCount(s: string): number {
+  return (s.match(/[+＋]/g) ?? []).length;
+}
+
+/**
+ * Course cards render sums as `un + help + ful → unhelpful`, so learners often
+ * copy the whole line into the answer box. Take the side of the arrow/equals
+ * that actually contains a sum; otherwise the trailing result word would be
+ * glued to the last morpheme and produce misleading "missing morpheme" advice.
+ */
+function sumSideOf(input: string): string {
+  for (const separator of [RESULT_ARROW, EQUALS]) {
+    const sides = input.split(separator);
+    if (sides.length > 1) {
+      const best = sides.reduce((a, b) => (plusCount(b) > plusCount(a) ? b : a), sides[0]);
+      if (plusCount(best) > 0) return best.trim();
+    }
+  }
+  return input;
+}
+
 /**
  * Judge a word-building answer.
  *
@@ -137,7 +161,7 @@ function checkWordBuilding(ex: Exercise, value: string): CheckResult {
   const expected = normalizeParts(expectedParts(ex));
   const answer = String(ex.answer).trim();
   const target = normalizeWord(answer);
-  const typed = value.trim();
+  const typed = sumSideOf(value.trim());
   const hasSum = /[+＋]/.test(typed);
 
   if (!hasSum) {
