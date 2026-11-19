@@ -140,7 +140,7 @@ Windows 自行安装与维护）。
 ----------
 本软件为开源项目（MIT）。课程内容为基于公开语言学资料的原创中文讲解，
 不包含任何受版权保护的教材原文。
-'@
+"@
 Write-Utf8NoBom -Path (Join-Path $app 'README.txt') -Text $readme
 
 # Fail loudly if anything the app needs at runtime is missing.

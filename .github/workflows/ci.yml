@@ -41,6 +41,11 @@ jobs:
         run: npm run validate:course-index
       - name: No placeholder pages
         run: npm run check:stubs
+      # A single unbalanced here-string in package-portable.ps1 broke the 0.5.0
+      # portable build without any readable error. Parsing costs a second.
+      - name: Script syntax check
+        shell: pwsh
+        run: ./scripts/check-ps1.ps1
       - name: Frontend production build
         run: npm run build
 
