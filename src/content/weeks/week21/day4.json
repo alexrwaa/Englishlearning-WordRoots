@@ -1,0 +1,264 @@
+{
+  "id": "w21d4",
+  "week": 21,
+  "day": 4,
+  "title": "四类动因：词义为什么会变",
+  "tagline": "误解、求新、省略、词汇量有限——前三类是触发，最后一类是根因",
+  "objectives": [
+    "能列出教材的四类语义变化动因，并为每一类配一个词例",
+    "能说明为什么“词汇总量有限”被视为根本原因",
+    "能区分“动因（为什么变）”与“机制（怎么变）”，并在答题时分开表述"
+  ],
+  "prereqs": [
+    "w21d1",
+    "w10d1"
+  ],
+  "concepts": [
+    "c-semantic-shift",
+    "c-metaphor",
+    "c-metonymy",
+    "c-semantic-shift"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s3-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "教材的四类动因",
+      "body": "教材把词义变化的原因归成四类，这个框架值得完整记住，因为它能覆盖绝大多数个案：\n\n1. **交际失误与误解**：听者按更凸显的联想重新理解，新理解被沿用。例：**bead** 由“祈祷”到“念珠”再到“珠子”。\n2. **追求新颖的创造**：文学、民俗语、俚语为了表达活力而旧词新用。例：**cool** 由“凉”到“很棒”。\n3. **省略**：长短语被截短，剩下的部分承担整体义。例：**church**、**microwave**。\n4. **词汇总量有限**：要表达的东西无穷，词项有限，只好扩展旧词。例：**horse** 从“马”生出“锯架、骑兵、马力”。\n\n注意最后一类的地位不同：教材明确说它是**根本原因**，前三类更像是具体触发方式。",
+      "terms": [
+        {
+          "term": "ellipsis",
+          "zh": "省略",
+          "en": "ellipsis",
+          "note": "短语中被省去的部分，其意义转移到留存形式"
+        },
+        {
+          "term": "neologism",
+          "zh": "新词",
+          "en": "neologism",
+          "note": "新造的形式，包括借词、复合、旧词新义"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四类动因的对照表",
+      "body": "表的最后一列是判断时的抓手：不同动因留下的“痕迹”不同——误解留下断裂的链条，求新留下评价色彩的变化，省略留下“短形式专指整体”的证据，词汇量有限留下成堆的相关义项。",
+      "head": [
+        "动因",
+        "发生了什么",
+        "典型词例",
+        "判断痕迹"
+      ],
+      "rows": [
+        [
+          "交际失误与误解",
+          "听者按邻接或凸显关系重新解释，误读固化为新义",
+          "bead、since",
+          "新旧义之间的链条“跳了一步”"
+        ],
+        [
+          "追求新颖的创造",
+          "为免陈词滥调，用旧词表达新评价，强度来自反差",
+          "cool、slick、tight",
+          "评价色彩变化，常起于口语层"
+        ],
+        [
+          "省略",
+          "长短语的中心词被省，修饰语继承整体义",
+          "church、microwave",
+          "短形式专指整体，语境可还原全称"
+        ],
+        [
+          "词汇总量有限",
+          "用同一形式承载多个相关义项，靠语境消歧",
+          "horse、set、run",
+          "同一词积累大量相关义项"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么第四类是根因",
+      "body": "前三类解释“这一次为什么变”，第四类解释“为什么总要变”。\n\n论证很短：需要表达的对象（新事物、新关系、新评价）在数量上没有上限，而词项的数量受记忆与学习成本约束，增长缓慢。面对缺口，语言只有三条路：\n\n- **造新词**：成本最高，要让整个言语社区接受一个新形式。\n- **拉长短语**：表达准确，但每次说话都要多花时间。\n- **扩展旧词义**：成本最低——形式已经在那儿，只需约定一个新用法。\n\n理性选择显然是第三条，所以**多义是常态，不是例外**。这也解释了为什么最高频的词义项最多：它们被用得最多，缺口最先落在它们身上。",
+      "terms": [
+        {
+          "term": "word stock",
+          "zh": "词汇总量",
+          "en": "word stock",
+          "note": "一种语言现有词项的总和"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "动因不是机制：答题时最容易混的一对",
+      "body": "**动因（cause）**回答“为什么会变”：误解、求新、省略、词项有限。\n**机制（mechanism）**回答“怎么变”：隐喻（相似）、转喻（邻接）、扩大、缩小、升格、降格。\n\n两者可以任意组合：cool 的动因是求新，机制是隐喻（温度→评价）；bead 的动因是误解，机制是转喻（数念珠＝数祈祷）。\n\n所以一个完整的解释有两句话：**“因为……（动因），所以通过……（机制），A 义变成 B 义。”** 只说机制，等于只描述了变化的样子；只说动因，等于只说了一句“人们想省事”。\n\n操作顺序建议固定为：先建链条（有哪几步）→ 再看缺口（每一步缺了什么）→ 最后归类（动因＋机制）。顺序反了，就容易拿术语去套材料。",
+      "terms": [
+        {
+          "term": "mechanism",
+          "zh": "机制",
+          "en": "mechanism",
+          "note": "隐喻、转喻、扩大、缩小等变化方式"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "单一动因与叠加动因",
+      "body": "真实案例很少只由一类动因推动。做题时如果一个词能用两类动因解释，不要急着选“最像的那个”，先看哪一类能解释**链条上的关键一步**。落笔时把两层写全：动因说明压力从哪来，机制说明意义沿什么关系移动。只写一层，答案看起来对，但经不起追问。",
+      "a": "单一动因",
+      "b": "叠加动因",
+      "rows": [
+        {
+          "label": "例子",
+          "a": "microwave 由 microwave oven 省略而来",
+          "b": "church 既有省略（cyriacon doma 省 doma），也有借词路径（希腊→日耳曼→古英语）"
+        },
+        {
+          "label": "解释力",
+          "a": "强，一步到位",
+          "b": "更强，但要说清各管哪一步"
+        },
+        {
+          "label": "常见错误",
+          "a": "把复杂案例硬压成单一动因",
+          "b": "罗列动因却不说各自动了哪一步"
+        },
+        {
+          "label": "写法",
+          "a": "“因省略而……”",
+          "b": "“先因省略截短，后因转喻由工具指机构……”"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w21d4-p1",
+      "kind": "mcq",
+      "prompt": "教材把四类动因中的哪一类称为“根本原因”？",
+      "choices": [
+        "词汇总量有限",
+        "交际失误与误解",
+        "追求新颖的创造",
+        "省略"
+      ],
+      "answer": 0,
+      "explain": "前三类解释某一次变化为何发生，词汇总量有限解释的是“为什么语言总要靠旧词生新义”：需求无穷而词项有限，扩展旧义是成本最低的出路，因此多义成为常态。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w21d4-p2",
+      "kind": "mcq",
+      "prompt": "bead 从“祈祷”到“念珠”再到“珠子”，最贴合的动因是？",
+      "choices": [
+        "交际失误与误解：数念珠即数祈祷，邻接关系被凸显为指称关系",
+        "省略：prayer bead 省掉了 prayer",
+        "追求新颖：诗人先用 bead 指珠子",
+        "词汇量有限：英语没有“珠子”一词"
+      ],
+      "answer": 0,
+      "explain": "古英语 gebed 是“祈祷”，念珠因用来计数祈祷而被称为 bead，随后 bead 直接指“珠子”。关键在于听者把“与祈祷相关的物”重新理解为“物本身”，这是误解／重新解释类动因，机制是转喻。英语本有指小球的词，所以第四项不成立。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-metonymy"
+      ]
+    },
+    {
+      "id": "w21d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "The Greek phrase kyriakon doma, “the Lord’s house”, lost its second word on the way into Old English, which is why we now say ___ rather than a two-word phrase.",
+      "answer": "church",
+      "accept": [
+        "church"
+      ],
+      "explain": "kyriakon（属于主的）＋doma（房屋），省略 doma 后，kyriakon 单独承担“教堂”之义，经日耳曼语与古英语演变为 church。这是省略类动因的经典案例：修饰语继承了整个短语的指称。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w21d4-p4",
+      "kind": "mcq",
+      "prompt": "下面哪一句正确地分开了“动因”与“机制”？",
+      "choices": [
+        "cool 因求新而被使用（动因），通过温度到评价的隐喻扩展（机制）",
+        "cool 因隐喻而被使用（动因），通过求新扩展（机制）",
+        "cool 的动因与机制都是隐喻",
+        "cool 的动因是省略，机制是转喻"
+      ],
+      "answer": 0,
+      "explain": "动因是“为什么有人这么说”，机制是“意义按什么关系移动”。求新是动因，隐喻是机制；反过来表述就把两层混成一团。cool 与省略无关，也没有转喻的邻接关系。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-metaphor"
+      ]
+    },
+    {
+      "id": "w21d4-p5",
+      "kind": "mcq",
+      "prompt": "读到 “She put her mobile on the table and switched it off.” 句中 mobile 作名词指手机。用本课的框架解释，最准确的是？",
+      "choices": [
+        "省略类动因：mobile phone 省去中心词 phone，修饰语 mobile 承担整体义",
+        "误解类动因：听者误以为 mobile 是“电话”的另一种说法",
+        "求新类动因：年轻人故意用形容词代替名词以示时髦",
+        "词汇量有限：英语没有 phone 这个词"
+      ],
+      "answer": 0,
+      "explain": "mobile 作名词是 mobile phone 的省略，属于“长短语截短、留存部分继承整体义”。判断痕迹也对得上：语境一还原（put ... on the table, switched it off），全称立刻回来。这不是误解，也不是因为缺少 phone 这个词。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w21d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "He pulled out his cell and tapped the number twice before realizing the screen was cracked. The prison had taken his phone at the gate, but nobody had thought to search for a second one.",
+      "word": "cell",
+      "choices": [
+        "手机（cell phone 的省略形式）",
+        "牢房",
+        "生物细胞",
+        "电池"
+      ],
+      "answer": 0,
+      "strategy": "① 搭配：pulled out、tapped the number、screen was cracked 都是手机的动作与部件；② 对照句：The prison had taken his phone 直接给出同指对象；③ 省略还原：cell phone → cell；④ 排除：牢房与 battery 都解释不了 screen 与 tapped the number。",
+      "explain": "cell 在此是 cell phone 的省略，属省略类动因：中心词 phone 被省，cell 承担整体义。要注意同一个 cell 在生物学语境仍是“细胞”、在监狱语境仍是“牢房”——省略不会消灭旧义，只会增加一个义项，歧义靠语境消解。",
+      "concepts": [
+        "c-inference",
+        "c-semantic-shift"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 3 节：语义变化的四类动因，及“词汇总量有限”为根因"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "bead、church、cool、cell 的语源与义项"
+    }
+  ]
+}

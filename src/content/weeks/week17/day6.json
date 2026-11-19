@@ -1,0 +1,307 @@
+{
+  "id": "w17d6",
+  "week": 17,
+  "day": 6,
+  "title": "or 是从哪里来的：两个词素粘成一个",
+  "tagline": "corp + or + eal：结构跟着说话人的分析走，不跟着拉丁语法走",
+  "objectives": [
+    "能指出 corporeal 中哪一段因融合而失去意义",
+    "能用“去掉它还能独立成词”这条检验判断融合",
+    "能说明词源切分与共时切分为何都成立、又各自用在哪里"
+  ],
+  "prereqs": [
+    "w17d1",
+    "c-transparency"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-transparency",
+    "c-word-sum",
+    "corp"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s7-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "粘住之后，边界就消失了",
+      "body": "拉丁 corpus“身体”的属格是 corporis，词干 corpor-。-or- 属于词干，不是后缀。英语照搬后得到 corpor-al、corpor-ate、corpor-eal。\n\n问题在于：-or- 说不出意思。说话人于是把 corp- 当成词基，把 -or- 划进词基内部，得到 corp + or + eal。分段还在，意义没了——这就是**融合**（fusion）留下的**不透明**（opaque）成分：它占着位置，却不承担语义。",
+      "terms": [
+        {
+          "term": "fusion",
+          "zh": "融合",
+          "en": "fusion",
+          "note": "相邻词素的边界消失，被重新分析为一个单位"
+        },
+        {
+          "term": "opaque",
+          "zh": "不透明的",
+          "en": "opaque",
+          "note": "形式还在，但说不出独立意义"
+        }
+      ],
+      "morphemes": [
+        "corp"
+      ],
+      "morphemeIds": [
+        "cx-corp-corpor"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "corp 家族：哪一段不透明",
+      "body": "同一族里，-or-（或 -or- 的变体）反复出现在 corp 后面，却从不单独表义。它既不能像 -al 那样标词性，也不能像 con- 那样标方向。这样的片段就是融合的产物，读词时应当整段跳过，不要硬译。",
+      "head": [
+        "词",
+        "切分",
+        "不透明段",
+        "说明"
+      ],
+      "rows": [
+        [
+          "corporeal",
+          "corp + or + eal",
+          "or",
+          "只在 corp 后出现，无义"
+        ],
+        [
+          "corporation",
+          "corpor + ation",
+          "or",
+          "同上；-ation 才是名词后缀"
+        ],
+        [
+          "corporal",
+          "corpor + al",
+          "or",
+          "“身体的”；与“下士”义同形异义"
+        ],
+        [
+          "corpulent",
+          "corp + ulent",
+          "—",
+          "“多肉的、肥胖的”；-ulent 表“多”"
+        ],
+        [
+          "corp",
+          "corp",
+          "—",
+          "corporation 的缩略，独立成词"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "同一种融合，还有两例",
+      "body": "**gener-**：拉丁 genus“种类、出身”的属格是 generis，词干 gener-。-er- 无义，于是英语把 gen- 当词根：generic、generate、generous。\n\n**nomin-**：拉丁 nomen“名”的属格是 nominis，词干 nomin-。-in- 无义，于是英语把 nomin- 整段当词根：nominal、nominate、denominator（de- + nomin + -ator）。\n\n**homin-**：拉丁 homo“人”的属格是 hominis，词干 homin-。-in- 无义，hominid 保留了整段，而经法语进来的 human 被削成 hum-。同一词根，两条通道，两种残形。",
+      "terms": [
+        {
+          "term": "stem",
+          "zh": "词干",
+          "en": "stem",
+          "note": "拉丁名词去掉格词尾后剩下的部分，可能含不透明段"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "词源切分 vs 共时切分",
+      "body": "两种切分不是对错关系，而是用途不同。词源切分解释“这个词从哪来”，共时切分解释“今天的人怎么理解它”。写构词算式、做词族练习时用共时切分；讲词源故事时用词源切分。混用就会打架。",
+      "a": "词源切分（历时）",
+      "b": "共时切分（今天）",
+      "rows": [
+        {
+          "label": "依据",
+          "a": "拉丁语法的词干边界",
+          "b": "今天说话人能否感到意义"
+        },
+        {
+          "label": "corporeal",
+          "a": "corpor + al",
+          "b": "corp + or + eal"
+        },
+        {
+          "label": "or 的地位",
+          "a": "属于词干的一部分",
+          "b": "不透明段，不表义"
+        },
+        {
+          "label": "用在哪里",
+          "a": "讲来源、解释拼写",
+          "b": "写算式、组词族、辅助记忆"
+        },
+        {
+          "label": "各自的风险",
+          "a": "拿拉丁切分去要求英语",
+          "b": "以为每一段都必须有意义"
+        }
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "三条算式，同一现象",
+      "body": "三行的共同点是：中间都夹着一段说不出意思的音，而它左边的部分才是真正的词根。读算式时不要逐段翻译，只把不透明段当作连接材料，语义由词根加真正的后缀决定。",
+      "sums": [
+        {
+          "parts": [
+            "corp",
+            "or",
+            "eal"
+          ],
+          "result": "corporeal",
+          "glossZh": "身体的、有形体的",
+          "note": "or 为不透明段"
+        },
+        {
+          "parts": [
+            "gener",
+            "ic"
+          ],
+          "result": "generic",
+          "glossZh": "通用的、属的",
+          "note": "gener 是 genus 的融合词干"
+        },
+        {
+          "parts": [
+            "nomin",
+            "al"
+          ],
+          "result": "nominal",
+          "glossZh": "名义上的",
+          "note": "nomin 是 nomen 的融合词干"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w17d6-p1",
+      "kind": "mcq",
+      "prompt": "corporeal 中的 or 是什么？",
+      "choices": [
+        "原本属于拉丁词干 corpor- 的一段，在英语里已无意义",
+        "表示“人”的后缀",
+        "形容词后缀 -or 的变体",
+        "前缀 co- 与词根 r 的融合"
+      ],
+      "answer": 0,
+      "explain": "拉丁属格 corporis 的词干是 corpor-，-or- 是词干的一部分，不是后缀。英语说不出它的意义，于是把它当作 corp 与 -eal 之间的过渡段。词典因此切作 corp + or + eal，而不是 corpor + eal。",
+      "concepts": [
+        "c-transparency",
+        "c-morpheme",
+        "corp"
+      ]
+    },
+    {
+      "id": "w17d6-p2",
+      "kind": "mcq",
+      "prompt": "判断某个成分是否“已融合”，最有效的检验是：",
+      "choices": [
+        "去掉它，剩下的部分能否在同族词里独立出现并带义",
+        "它是否来自拉丁语",
+        "它的长度是否超过两个字母",
+        "它是否带重音"
+      ],
+      "answer": 0,
+      "explain": "融合的判据是“意义是否还在”，不是“来源是否拉丁”。去掉 -or-，corp 仍能在 corpse、corpulent 里带“身体”义；去掉 -al，剩下部分也仍成立。而 -or- 本身既不能独立成词，也不标词性或方向，因此是不透明段。",
+      "concepts": [
+        "c-transparency",
+        "c-word-sum"
+      ]
+    },
+    {
+      "id": "w17d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个形容词（英文）",
+      "sentence": "In corporeal, the segment -or- is ___: it carries no meaning of its own.",
+      "answer": "opaque",
+      "accept": [
+        "opaque",
+        "不透明"
+      ],
+      "explain": "opaque 与 transparent 相对：透明的成分能说出意义（-al 表形容词），不透明的成分只剩形式。融合的结果就是不透明段，它不影响整词的理解，但不能拿来构词。",
+      "concepts": [
+        "c-transparency"
+      ]
+    },
+    {
+      "id": "w17d6-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）corpulent 最可能的意思是：",
+      "choices": [
+        "肥胖的",
+        "有尸体的",
+        "公司的",
+        "有触感的"
+      ],
+      "answer": 0,
+      "explain": "corp“身体” + -ulent（多……的）→“身上肉多”→ 肥胖。不要把 corp 只记成“公司”：corporation 的缩略义是后起的，词根义始终是“身体”。同族 corporeal（身体的）、corpus（全集、语料库）都从这条义出发。",
+      "concepts": [
+        "c-inference",
+        "c-morpheme",
+        "corp"
+      ],
+      "hint": "先定 corp 的义，再看 -ulent 表什么。"
+    },
+    {
+      "id": "w17d6-p5",
+      "kind": "wordSum",
+      "prompt": "按共时切分，写出 corporeal 的算式",
+      "parts": [
+        "corp",
+        "or",
+        "eal"
+      ],
+      "answer": "corporeal",
+      "explain": "corp（身体）+ or（不透明段）+ -eal（形容词后缀）。注意与第 1 天的答案一致：一旦采用共时切分，全课程应当保持一致，否则学生会以为有两种正确答案。词源切分只在讲来源时使用。",
+      "concepts": [
+        "c-word-sum",
+        "c-transparency",
+        "corp"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w17d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 generic 的含义",
+      "passage": "The label is generic: it tells you the category, not the brand, so the same box can be sold under a dozen names.",
+      "word": "generic",
+      "choices": [
+        "通用的、不标品牌的",
+        "遗传的",
+        "慷慨的",
+        "世代相传的"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后的 it tells you the category, not the brand 是释义；② 构词：gener（genus“种类”的融合词干）+ -ic；③ 结果句 the same box can be sold under a dozen names 说明它只标类别、不标来源。",
+      "explain": "generic 字面是“属于某一类的”，所以是“通用的、不注册品牌的”。-er- 是不透明段，真正带义的是 gen“种类／出生”。同族 generate、generous、generation 都从这条义出发；把它误连到“基因”的 gene 虽同源，但现代义的落点不同。",
+      "concepts": [
+        "c-inference",
+        "c-transparency",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：词素合并（corporal、corporate 中无义的 or）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "corpus/corporis、genus/generis、nomen/nominis 的属格词干"
+    }
+  ]
+}

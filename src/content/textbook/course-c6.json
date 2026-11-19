@@ -1,0 +1,250 @@
+{
+  "id": "course-c6",
+  "title": "Regular Allomorphy; Numeric Elements",
+  "titleZh": "规则音变与数词素：拉丁音值、同化、删除、插入与大数命名",
+  "sourceChapter": "S1-C6",
+  "level": "B2",
+  "referenceForms": [
+    "abstract",
+    "accept",
+    "access",
+    "antecedent",
+    "aquiculture",
+    "aspect",
+    "attract",
+    "bicycle",
+    "bilingual",
+    "binary",
+    "cent",
+    "centipede",
+    "century",
+    "cite",
+    "concept",
+    "consist",
+    "contract",
+    "corporeal",
+    "corps",
+    "deduce",
+    "describe",
+    "description",
+    "different",
+    "difficult",
+    "dismiss",
+    "dramatic",
+    "effect",
+    "emission",
+    "expect",
+    "florescent",
+    "generate",
+    "generation",
+    "generic",
+    "illegal",
+    "immature",
+    "impossible",
+    "inscribe",
+    "inscription",
+    "inspect",
+    "manuscript",
+    "microprocessor",
+    "microscope",
+    "microsecond",
+    "monolingual",
+    "monologue",
+    "monopoly",
+    "multiform",
+    "multilingual",
+    "multimedia",
+    "octopus",
+    "pentagon",
+    "percent",
+    "permission",
+    "permit",
+    "persist",
+    "prescription",
+    "produce",
+    "reception",
+    "resist",
+    "schema",
+    "schematic",
+    "science",
+    "scientific",
+    "semicircle",
+    "semiconductor",
+    "submit",
+    "subscription",
+    "subtract",
+    "superscript",
+    "support",
+    "transmit",
+    "tripod",
+    "uniform",
+    "uniformity",
+    "unify",
+    "unilateral",
+    "union",
+    "universal",
+    "universe"
+  ],
+  "weeks": [
+    {
+      "week": 19,
+      "theme": "规则音变（一）：拉丁音值、同化与删除",
+      "days": 6
+    },
+    {
+      "week": 20,
+      "theme": "规则音变（二）：插入、s 变 r、元音变化与数词素",
+      "days": 7
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "w19d1",
+      "title": "先还原拉丁音值：c 是 [k]，g 是 [g]",
+      "knowledgePoints": [
+        "kp-s1c6s2-1"
+      ]
+    },
+    {
+      "lessonId": "w19d2",
+      "title": "清浊同化：prescription 里为什么没有 b",
+      "knowledgePoints": [
+        "kp-s1c6s3-3"
+      ]
+    },
+    {
+      "lessonId": "w19d3",
+      "title": "流音同化：l 吞掉 n 和 r，d 谁都能变",
+      "knowledgePoints": [
+        "kp-s1c6s3-4"
+      ]
+    },
+    {
+      "lessonId": "w19d4",
+      "title": "元音删除：period 里少了一个 i",
+      "knowledgePoints": [
+        "kp-s1c6s4-1"
+      ]
+    },
+    {
+      "lessonId": "w19d5",
+      "title": "s 的消失：expect 里本来有个 s",
+      "knowledgePoints": [
+        "kp-s1c6s4-2"
+      ]
+    },
+    {
+      "lessonId": "w19d6",
+      "title": "希腊词末没有塞音：stoma 与 stomatic",
+      "knowledgePoints": [
+        "kp-s1c6s4-3"
+      ]
+    },
+    {
+      "lessonId": "w20d1",
+      "title": "插入：sedition 的 d 与 assumption 的 p",
+      "knowledgePoints": [
+        "kp-s1c6s5-1",
+        "kp-s1c6s5-2"
+      ]
+    },
+    {
+      "lessonId": "w20d2",
+      "title": "s 变 r：justice 与 jury 是同一个词根",
+      "knowledgePoints": [
+        "kp-s1c6s6-1"
+      ]
+    },
+    {
+      "lessonId": "w20d3",
+      "title": "元音弱化：cap / cep / cip 三副面孔",
+      "knowledgePoints": [
+        "kp-s1c6s7-1"
+      ]
+    },
+    {
+      "lessonId": "w20d4",
+      "title": "元音着色：l 把 a 拉成 u",
+      "knowledgePoints": [
+        "kp-s1c6s7-2"
+      ]
+    },
+    {
+      "lessonId": "w20d5",
+      "title": "数词素：拉丁一套，希腊一套",
+      "knowledgePoints": [
+        "kp-s1c6s9-1",
+        "kp-s1c6s9-4"
+      ]
+    },
+    {
+      "lessonId": "w20d6",
+      "title": "数词素不总是前缀：dual、binary、monad",
+      "knowledgePoints": [
+        "kp-s1c6s9-3",
+        "kp-s1c6s9-5"
+      ]
+    },
+    {
+      "lessonId": "w20d7",
+      "title": "从 million 到 giga：大数命名与全章检查表",
+      "knowledgePoints": [
+        "kp-s1c6s9-6",
+        "kp-s1c6s10-1"
+      ]
+    }
+  ],
+  "knowledgePointIndex": {
+    "kp-s1c6s2-1": [
+      "w19d1"
+    ],
+    "kp-s1c6s3-3": [
+      "w19d2"
+    ],
+    "kp-s1c6s3-4": [
+      "w19d3"
+    ],
+    "kp-s1c6s4-1": [
+      "w19d4"
+    ],
+    "kp-s1c6s4-2": [
+      "w19d5"
+    ],
+    "kp-s1c6s4-3": [
+      "w19d6"
+    ],
+    "kp-s1c6s5-1": [
+      "w20d1"
+    ],
+    "kp-s1c6s5-2": [
+      "w20d1"
+    ],
+    "kp-s1c6s6-1": [
+      "w20d2"
+    ],
+    "kp-s1c6s7-1": [
+      "w20d3"
+    ],
+    "kp-s1c6s7-2": [
+      "w20d4"
+    ],
+    "kp-s1c6s9-1": [
+      "w20d5"
+    ],
+    "kp-s1c6s9-4": [
+      "w20d5"
+    ],
+    "kp-s1c6s9-3": [
+      "w20d6"
+    ],
+    "kp-s1c6s9-5": [
+      "w20d6"
+    ],
+    "kp-s1c6s9-6": [
+      "w20d7"
+    ],
+    "kp-s1c6s10-1": [
+      "w20d7"
+    ]
+  }
+}

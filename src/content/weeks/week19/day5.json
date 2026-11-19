@@ -1,0 +1,250 @@
+{
+  "id": "w19d5",
+  "week": 19,
+  "day": 5,
+  "title": "s 的消失：expect 里本来有个 s",
+  "tagline": "ex- 后面紧跟 s 开头的词根时，那个 s 常常留不住",
+  "objectives": [
+    "能说出 s 删除的两个环境：s 在浊辅音前、ex- 与 s 开头词根的接缝",
+    "能解释 expect 的 pect 是 spec- 的异形，与 pectoral 的 pect 无关",
+    "能说明为什么 subtract、obtain 的辅音丛没有被简化"
+  ],
+  "prereqs": [
+    "w19d4",
+    "w19d2"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-prefix",
+    "c-etymology",
+    "spec",
+    "pect"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s4-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两个 s 相撞，删掉一个",
+      "body": "拉丁的 [s] 有两个容易脱落的环境。\n\n**一、s 在浊辅音前**：*ex-* + *vadere*（走）→ *evadere* → **evade**。s 后面是浊音 [w]/[v]，s 被删。\n\n**二、ex- 与 s 开头词根的接缝**：ex- 本身读 [eks]，已经收在 [s] 上；词根又以 s 开头，两串 s 相撞，拉丁直接删掉词根的那个。*ex-* + *spectare* → *exspectare* → **expect**；*ex-* + *sistere* → *exsistere* → **exist**；*ex-* + *spirare* → *exspirare* → **expire**；*ex-* + *serere* → *exserere* → **exert**。\n\n删除之后，词根留下的部分看上去像个新东西，其实还是原词根。"
+    },
+    {
+      "kind": "table",
+      "title": "ex- + s 开头词根的结果",
+      "body": "第三列是删掉 s 之后剩下的词根部分。请特别看前两行：pect 与 sistere 的 sist 都还能在同族词里见到，所以删掉的只是 s，不是整个词根。",
+      "head": [
+        "拉丁组合",
+        "英语结果",
+        "剩下的词根"
+      ],
+      "rows": [
+        [
+          "ex- + spectare 看",
+          "expect 期待",
+          "pect（spec- 的异形）"
+        ],
+        [
+          "ex- + sistere 站立",
+          "exist 存在",
+          "ist（sistere 删去首 s 后的残余）"
+        ],
+        [
+          "ex- + spirare 呼吸",
+          "expire 到期、呼出最后一口气",
+          "pire"
+        ],
+        [
+          "ex- + serere 连接、编",
+          "exert 施加",
+          "ert"
+        ],
+        [
+          "ex- + vadere 走",
+          "evade 躲避",
+          "vade（s 在浊音前被删）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "pect 是 spec 的异形，不是“胸”",
+      "body": "英语里以 pect 开头的词有两个来源，必须分开：\n\n- **expect、expectant、expectation**：pect 来自 spec-（看），s 被 ex- 吃掉。\n- **pectoral、pectus**：pect 来自拉丁 pectus（胸），与“看”无关。\n\n所以 spec 这个词素在英语里有三副形状：**spec**（specify、specimen）、**spect**（inspect、respect、aspect）、**pect**（expect、expectant）。三者的意义都是“看”，区别只在前后接了什么音。\n\n判断方法：看有没有一个能独立成词的同族词带完整形式。expectation 与 inspect 同义域（都在“看/等”），pectoral 属于解剖——语义场不同，来源就不同。"
+    },
+    {
+      "kind": "text",
+      "title": "边界上的辅音丛通常不简化",
+      "body": "英语允许词素接缝上出现“难听”的辅音丛，而且不简化：**subtract** 的 bst、**obtain** 的 bt、**abstract** 的 bstr 都原样保留。这说明辅音丛简化不是一个可以随处套用的英语规则。\n\n那为什么 expect 会简化？因为简化发生在**拉丁内部**：*exspectare* 是拉丁人自己读不顺、自己删的，英语借到的已经是删好的形式。同理，*exstinguere* → **extinguish** 保留了 s，因为拉丁这一支没有删。\n\n稳妥的结论：\n1. ex- 后接 s 开头词根时，多数删 s，但不是全部；\n2. 一般前缀（sub-、ob-、ad-）与词根的接缝不简化；\n3. 拿不准时查词典，不要自己推。"
+    },
+    {
+      "kind": "sum",
+      "title": "四条算式：谁被删了",
+      "body": "第一、二条删的是词根的 s；第三条是 s 在浊音前脱落；第四条干脆没有删除。把“删了哪一个”说清楚，比记住结果更重要——后者只需查词典，前者才能迁移到没见过的词上。",
+      "sums": [
+        {
+          "parts": [
+            "ex",
+            "pect"
+          ],
+          "result": "expect",
+          "glossZh": "期待",
+          "note": "拉丁 exspectare，词根的 s 被 ex- 吃掉"
+        },
+        {
+          "parts": [
+            "ex",
+            "ist"
+          ],
+          "result": "exist",
+          "glossZh": "存在",
+          "note": "拉丁 exsistere，同上"
+        },
+        {
+          "parts": [
+            "e",
+            "vade"
+          ],
+          "result": "evade",
+          "glossZh": "躲避",
+          "note": "拉丁 evadere，s 在浊辅音前脱落"
+        },
+        {
+          "parts": [
+            "sub",
+            "tract"
+          ],
+          "result": "subtract",
+          "glossZh": "减去",
+          "note": "跨边界，bst 丛保留，不简化"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w19d5-p1",
+      "kind": "mcq",
+      "prompt": "expect 中的 pect 属于哪个词素？",
+      "choices": [
+        "spec-（看），s 在 ex- 后被删",
+        "pectus（胸）",
+        "peccare（犯罪）",
+        "petere（追求）"
+      ],
+      "answer": 0,
+      "explain": "expect 来自 exspectare = ex- + spectare（看），“向外看”即期待。pect 是 spec- 删去 s 后的形状。pectoral 的 pect 才来自 pectus（胸），两者只是拼写偶合。",
+      "concepts": [
+        "spec",
+        "pect",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w19d5-p2",
+      "kind": "mcq",
+      "prompt": "下面哪个词的辅音丛在英语里被简化过？",
+      "choices": [
+        "expect",
+        "subtract",
+        "obtain",
+        "abstract"
+      ],
+      "answer": 0,
+      "explain": "expect 的拉丁原形是 exspectare，s 在拉丁内部被删；subtract、obtain、abstract 的 bst、bt、bstr 丛都原样保留，因为它们跨词素边界，而简化的禁令只在特定环境（如 ex- 与 s 词根接缝）里起作用。",
+      "concepts": [
+        "c-allomorph",
+        "c-prefix"
+      ]
+    },
+    {
+      "id": "w19d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "The battery is expected to ___ after about five hundred charging cycles, long before the warranty ends.",
+      "answer": "expire",
+      "accept": [
+        "expire"
+      ],
+      "explain": "expire 来自拉丁 exspirare = ex- + spirare（呼吸），“呼出最后一口气”引申为到期、失效。这里词根的 s 同样被 ex- 吞掉，所以是 expire 而不是 exspire。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w19d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 spirare 意为“呼吸”，conspiracy 与 expire 都含 spir-，那么 expire 的字面义最接近：",
+      "choices": [
+        "呼出（最后一口气）→ 到期、终止",
+        "吸入空气 → 恢复",
+        "一起呼吸 → 合谋",
+        "停止呼吸 → 死亡（仅指人）"
+      ],
+      "answer": 0,
+      "explain": "ex-（向外）+ spirare（呼吸）= “呼出”。拉丁人用它表示“断气”，英语再引申为合同、票据、电池寿命的“到期”。conspiracy 是 con-（共同）+ spirare，“同呼吸”即合谋，正好作为对照。",
+      "concepts": [
+        "c-inference",
+        "c-prefix"
+      ],
+      "hint": "先定前缀方向，再用词根义组合。"
+    },
+    {
+      "id": "w19d5-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“期待”的切分",
+      "parts": [
+        "ex",
+        "pect"
+      ],
+      "answer": "expect",
+      "explain": "ex-（向外）+ pect（spec- 的异形，看）→ “向外看”，即期待、预料。若写成 ex+spect，拼写就多了一个 s——那个 s 早在拉丁 exspectare 里就被删掉了。",
+      "concepts": [
+        "pect",
+        "c-word-sum"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w19d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 exert 的含义",
+      "passage": "The tendon does not exert force directly on the joint; it pulls on the bone, and the bone transmits that pull to everything attached to it, which is why a small muscle can move a heavy limb.",
+      "word": "exert",
+      "choices": [
+        "施加（力、影响）",
+        "承受（力）",
+        "测量（力）",
+        "抵消（力）"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：ex-（向外）+ ert（拉丁 exserere 删 s 后的残余，原义“编、连接”，引申“使出”）；② 句法：主语 tendon 是施力者，宾语 force；③ 后续句：pulls on the bone、transmits that pull 说明是主动施力；④ 排除：承受、测量、抵消都与“主动拉”矛盾。",
+      "explain": "exert 是“施加（力量、影响）”。它的拉丁原形 exserere 里本来有 s，被 ex- 删去，所以今天看到的是 exert 而不是 exsert——与 expect、exist、expire 是同一条删除规则。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "c-prefix"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 4 节：s 删除与辅音丛简化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "exspectare / exsistere / exspirare / exserere / evadere 的拉丁原形"
+    }
+  ]
+}

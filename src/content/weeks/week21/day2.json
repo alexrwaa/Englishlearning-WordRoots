@@ -1,0 +1,265 @@
+{
+  "id": "w21d2",
+  "week": 21,
+  "day": 2,
+  "title": "-ate 的两个读音，词素表的两种条目",
+  "tagline": "同一个 -ate，读 [ət] 还是 [eɪt]，由词性决定；同一个形式，列一条还是两条，由链条决定",
+  "objectives": [
+    "能根据词性判断 -ate 的读音，也能由读音反推词性",
+    "能说明技术性形容词（caudate、dentate）为何保留 [eɪt]，知道这是趋势而非铁律",
+    "能区分词素表的两种编排：多义列一条并列释义，同形异义分列条目"
+  ],
+  "prereqs": [
+    "w21d1",
+    "w04d2"
+  ],
+  "concepts": [
+    "c-suffix",
+    "c-conversion",
+    "c-morpheme"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s1-5",
+    "kp-s1c7s2-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一个后缀，三种身份",
+      "body": "**-ate** 是英语里最“一形多用”的后缀之一。它至少承担三种身份：\n\n- **动词**：activate、decapitate、dehydrate、deviate、terminate。\n- **形容词**：accurate、caudate、desolate。\n- **名词**：postgraduate、delegate、advocate。\n\n关键在于读音跟着词性走：形容词与名词一般读弱化的 **[ət]**（教材记作 [ət]，部分词典记 [ɪt]），动词读带完整元音的 **[eɪt]**（教材记作 [et]）。\n\n于是有两条互为逆向的技能：**看到词性，能读出音**；**听到读音，能断出词性**。后者在听力与口语里更实用——听到 /ˈækjərət/ 就知道后面不会跟宾语，听到 /ˈæktɪveɪt/ 就知道它在句子里是谓语。",
+      "terms": [
+        {
+          "term": "-ate",
+          "zh": "多词性后缀",
+          "en": "-ate",
+          "note": "形容词/名词 [ət]，动词 [eɪt]"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "五个词，一条读音规则",
+      "body": "下面五个词都能在词库里查到拆解。前四个遵守规则，最后一个是必须记住的例外——它提醒你：这条规则是**统计趋势**，不是语音定律。读表时先看第二列：词性一确定，第三列的读音基本就没有悬念；反过来听到读音，也要能把它翻回词性。",
+      "head": [
+        "词",
+        "词性",
+        "读音",
+        "拆解"
+      ],
+      "rows": [
+        [
+          "accurate",
+          "形容词",
+          "[ˈækjərət]",
+          "ac-（ad-“向”）＋cur（care）＋-ate"
+        ],
+        [
+          "postgraduate",
+          "名词",
+          "[ˌpəʊstˈɡrædʒuət]",
+          "post-（后）＋grad（步、级）＋-uate"
+        ],
+        [
+          "activate",
+          "动词",
+          "[ˈæktɪveɪt]",
+          "act（做）＋-ive＋-ate"
+        ],
+        [
+          "decapitate",
+          "动词",
+          "[dɪˈkæpɪteɪt]",
+          "de-（去除）＋capit（头）＋-ate"
+        ],
+        [
+          "caudate",
+          "形容词（例外）",
+          "[ˈkɔːdeɪt]",
+          "caud（尾）＋-ate"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "例外为什么存在：借词的层次不同",
+      "body": "caudate“有尾的”、dentate“齿状的”这类词，是生物学与解剖学的**学术直借**：它们直接从拉丁形容词进入英语书面语，没有经过“名词→动词→再形容词化”的英语内部路径，所以没有发生动词式的弱化，仍读 [eɪt]。\n\n反过来，accurate、desolate 这类常用形容词在英语里用了几百年，重音前移、词尾弱化，读 [ət]。\n\n所以规则的完整说法是：**英语内部高频使用的 -ate 形容词/名词趋向 [ət]，学术层直借的技术形容词常保留 [eɪt]。** 教材给的是前者这条主线，例外要靠词库与词典补。\n\n顺带说一个高频陷阱：同一个词形可以两读两性。separate 作动词读 [ˈsepəreɪt]，作形容词读 [ˈsepərət]；articulate 作动词 [ɑːˈtɪkjuleɪt]，作形容词 [ɑːˈtɪkjələt]。拼写不变，词性与读音同时切换——这是 **conversion**（转换构词）在语音层留下的痕迹。",
+      "terms": [
+        {
+          "term": "conversion",
+          "zh": "转换构词",
+          "en": "conversion",
+          "note": "不添词缀，只换词性与句法位置"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "词素表的编排约定：一条还是两条",
+      "body": "词素表（以及教材附录）遵循一条容易被忽略的约定：\n\n- **多义语素**：列**一个条目**，后面并列几个释义。例如 **cosm** 一条，写“秩序；宇宙；装饰”。\n- **同形异义语素**：**分列条目**。例如 **in-** 有两条：一条“不”（inaccurate、invisible），一条“进入”（include、inhale）。\n\n这条约定不是排版偏好，它把第 10 周讲过的判定结果**固化**下来了：能重建意义链条的，算一个语素；重建不了的，算两个。\n\n所以查表时先看形态：如果这个词素在表里出现两次，说明编者认为两个意义之间没有历史联系；如果只有一条却带两个释义，说明编者认为链条成立。你不同意，可以争论，但要知道自己在争论什么。\n\n**de-** 属于前者：表里一条，释义“去除／离开／向下”并列，因为三个义项都能从拉丁的“away, from”引申出来。",
+      "terms": [
+        {
+          "term": "homonymy",
+          "zh": "同形异义",
+          "en": "homonymy",
+          "note": "形式相同但意义无历史关联，分列条目"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "一条多义 vs 两条同形：查表时的两种动作",
+      "body": "这两种编排对应两种完全不同的学习动作。多义条目要“记住一个核心义，再记它怎么长出去”；同形条目要“分开记，别硬找联系”。混了这两种动作，就会把 in- 的否定义硬扯成“向内否定”，越记越乱。",
+      "a": "多义：一条目多释义",
+      "b": "同形异义：两条目各一义",
+      "rows": [
+        {
+          "label": "例子",
+          "a": "cosm（宇宙／装饰）；de-（去除／离开／向下）",
+          "b": "in-（不）／in-（进入）"
+        },
+        {
+          "label": "判据",
+          "a": "义项间可重建联想链",
+          "b": "义项间无历史联系，只是形式巧合"
+        },
+        {
+          "label": "学习动作",
+          "a": "记核心义＋扩展路径",
+          "b": "分开记，靠词例区分"
+        },
+        {
+          "label": "常见错误",
+          "a": "只记一个义，遇到别的义就说“例外”",
+          "b": "硬编一个统一义，把两件事混成一件"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w21d2-p1",
+      "kind": "mcq",
+      "prompt": "postgraduate 中的 -ate 读 [ət] 而不是 [eɪt]，主要原因是什么？",
+      "choices": [
+        "它是名词，名词与形容词的 -ate 一般读弱化的 [ət]",
+        "它来自希腊语，希腊来源的词一律读 [ət]",
+        "它含有 post- 前缀，前缀会抑制词尾重音",
+        "它是动词，动词的 -ate 读 [ət]"
+      ],
+      "answer": 0,
+      "explain": "postgraduate 是名词（研究生；研究生的），-ate 读 [ət]。规则的主线是：形容词与名词读弱化元音，动词读 [eɪt]。含前缀与否不影响这条规则。",
+      "concepts": [
+        "c-suffix",
+        "c-conversion"
+      ]
+    },
+    {
+      "id": "w21d2-p2",
+      "kind": "mcq",
+      "prompt": "听到句子里的 /dɪˈkæpɪteɪt/，可以立刻判断这个词在句中作什么？",
+      "choices": [
+        "动词，通常作谓语",
+        "名词，通常作主语",
+        "形容词，通常作定语",
+        "副词，通常修饰整个句子"
+      ],
+      "answer": 0,
+      "explain": "读 [eɪt] 说明是动词形式，所以在句中作谓语。这条“读音→词性”的反向推理在听力里很实用：你可以先确定句法角色，再猜意义。",
+      "concepts": [
+        "c-suffix",
+        "c-conversion"
+      ]
+    },
+    {
+      "id": "w21d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词（动词，含 -ate）",
+      "sentence": "The lab tech will ___ the sample by heating it until the water is driven off.",
+      "answer": "dehydrate",
+      "accept": [
+        "dehydrate"
+      ],
+      "explain": "dehydrate = de-（去除）＋hydr（水）＋-ate，动词读 [diːˈhaɪdreɪt]。句中 by heating it until the water is driven off 直接给出“去水”的过程，与拆解一致。",
+      "concepts": [
+        "c-prefix",
+        "c-suffix"
+      ]
+    },
+    {
+      "id": "w21d2-p4",
+      "kind": "mcq",
+      "prompt": "词素表把 in- 分成两条（“不”与“进入”），却把 cosm 写成一条两义。这体现了什么约定？",
+      "choices": [
+        "同形异义分列条目，多义列一条并列释义，依据是义项间有无历史联系",
+        "凡是拉丁来源都分列，希腊来源都合并",
+        "条目数量取决于使用频率，与意义无关",
+        "编者随机处理，没有统一约定"
+      ],
+      "answer": 0,
+      "explain": "编排约定服务于“多义／同形异义”的判定：能重建链条的算多义（cosm：秩序→宇宙；安排→装饰），列一条；无历史联系的算同形异义（in- 的否定与进入），分两条。查表时形态本身就在告诉你编者的判断。",
+      "concepts": [
+        "c-morpheme",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w21d2-p5",
+      "kind": "mcq",
+      "prompt": "初次见到 “She is remarkably articulate for a seven-year-old.” 句中 articulate 的读音与词性，最合理的判断是？",
+      "choices": [
+        "形容词，读 [ɑːˈtɪkjələt]，意为“表达清晰”",
+        "动词，读 [ɑːˈtɪkjuleɪt]，意为“清楚地说出”",
+        "名词，读 [ɑːˈtɪkjələt]，意为“关节”",
+        "副词，读 [ɑːˈtɪkjuleɪt]，意为“清晰地”"
+      ],
+      "answer": 0,
+      "explain": "is 后面接形容词作表语，for a seven-year-old 是比较对象，所以 articulate 是形容词，读 [ət]，义为“（表达）清晰”。它的词根 articul 是“关节、分节”，字面“分节清楚的”，由“发音分节清楚”引申为“表达清楚”。动词读 [eɪt] 是同形转换的另一半。",
+      "concepts": [
+        "c-suffix",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w21d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "The committee will delegate the actual surveying to a local firm, but it retains the right to approve every map before publication. A delegate from each district sits on the committee and reports back monthly.",
+      "word": "delegate",
+      "choices": [
+        "第一处是动词“把……委托给”，第二处是名词“代表”",
+        "两处都是动词“委托”",
+        "两处都是名词“代表”",
+        "第一处是名词“代表”，第二处是动词“委派”"
+      ],
+      "answer": 0,
+      "strategy": "① 句法：第一处 will delegate 后接宾语 the actual surveying，是谓语位置，必然是动词；② 第二处 A delegate ... sits 中 delegate 带冠词、作主语，必然是名词；③ 读音验证：动词 [ˈdelɪɡeɪt]，名词 [ˈdelɪɡət]；④ 意义：de-（离开）＋leg（派、选）＋-ate，“把人或事派出去”。",
+      "explain": "同一个拼写的两处是“同形＋转换构词”的叠加：delegate 作动词是“委托、委派”，作名词是“代表”，读音随词性变化。判断顺序永远是先句法、后读音、最后意义——这与 -ate 的规则完全一致。",
+      "concepts": [
+        "c-inference",
+        "c-conversion",
+        "c-suffix"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 1 节 -ate 的词性与读音；第 2 节词素表的编排约定"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "accurate／postgraduate／activate／caudate／delegate 的读音与语源"
+    }
+  ]
+}

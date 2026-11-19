@@ -1,0 +1,274 @@
+{
+  "id": "w21d3",
+  "week": 21,
+  "day": 3,
+  "title": "拿最熟的词当试金石",
+  "tagline": "语素义对不对，不靠背，靠放回熟词里试：revealing 是“拉开帷幕”，depend 是“悬于其下”",
+  "objectives": [
+    "能说出“用熟词验证语素义”的三条操作规则",
+    "能用 revealing、depend、obvious 三个词校准 re-、de-、ob- 的释义",
+    "能解释为什么字面义与现代义之间的缺口，正是语义变化留下的痕迹"
+  ],
+  "prereqs": [
+    "w21d1",
+    "w09d6"
+  ],
+  "concepts": [
+    "c-prefix",
+    "c-root",
+    "c-morpheme",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s2-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "方法：把语素放回熟词里试",
+      "body": "给一个语素配释义很容易出错，因为释义可以从别的语言、别的时代借来。教材给的办法很朴素：**把它放回你最熟的词里，看这个释义能不能让那个词讲得通。**\n\n以 **re-** 为例。很多教材写“再次”（again），于是你会把 reveal 解成“再次揭开”，把 return 解成“再次转”。但 return 其实是“转回去”，re- 在这里是 **back**，不是 again。\n\n用熟词一试就分出来：\n\n- return＝转**回**去 → re- 是 back\n- recall＝叫**回**来 → re- 是 back\n- redo＝**再**做一遍 → re- 才是 again\n\n熟词越熟，校准越准。这就是为什么这个方法有效：**你对整词义的把握，比对话素义的把握可靠得多。**",
+      "terms": [
+        {
+          "term": "re-",
+          "zh": "前缀",
+          "en": "re-",
+          "note": "核心义为 back“回”，again 是衍生用法"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "depend：把 de- 从“去除”里救出来",
+      "body": "如果坚持 de- 只有“去除”一义，**depend** 就完全讲不通——依赖和“去掉悬挂”没有关系。\n\n正确的是：de-“向下、自”＋pend“悬挂”，字面“悬于其下”，引申为“依附于、取决于”。这条链在罗曼语里就走完了，英语是整词借入的。\n\n同样的 pend 还在 several 个词里：**pendant**（悬挂的饰物）、**pending**（悬而未决的）、**suspend**（sus-“在下”＋pend，悬起→暂停）。三个词都用“悬挂”，说明 pend 的释义站得住；而 de- 必须取“向下”，否则 depend 无法解释。\n\n这就是交叉验证：**一个语素的释义，要在多个熟词里同时成立。**",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "dependere",
+          "note": "de-“向下”＋pendere“悬挂”：悬于其下"
+        },
+        {
+          "period": "古法语",
+          "form": "dependre",
+          "note": "义为“依附、依靠”"
+        },
+        {
+          "period": "中古英语",
+          "form": "dependen",
+          "note": "“依赖于”，后扩展出“取决于”"
+        },
+        {
+          "period": "现代英语",
+          "form": "depend",
+          "note": "depend on／It depends；核心仍是“依附”"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "revealing：re- 加“帷幕”",
+      "body": "**reveal** 来自拉丁 revelare：re-“向后”＋velum“帷幕、帘子”，字面就是“把帘子往后拉开”。\n\n英语里还有 velum 的直系后代：**velum**（软腭，解剖学）、**veil**（面纱，经古法语）。三个词共享“帘、遮盖物”这一义，所以 vel 的释义是可靠的。\n\n由此看 **revealing**：不是“再次显示”，而是“把遮盖拉开给人看”。所以它可以指“揭露性的”，也可以指“（衣服）暴露的”——后一个义项正是字面义直接延伸，不需要额外解释。\n\n对比 **conceal**（con-“完全”＋ceal“藏”）：一个拉开幕，一个盖起来。同一语义场里的一对反义，都靠字面义支撑。这就是熟词验证的收益：**你不只记住了释义，还记住了释义为什么长这样。**",
+      "terms": [
+        {
+          "term": "vel",
+          "zh": "词根",
+          "en": "vel",
+          "note": "帷幕、遮盖物：reveal、veil、velum"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四组校验：字面义与今义的缺口",
+      "body": "缺口越大，越说明这个词经历过语义变化；缺口为零，说明它还是“字面词”。做题时先算缺口，再判断变化类型，比凭感觉猜类型稳得多。还要注意第四列的分寸：缺口小不等于没有变化，只是变化只走了一步隐喻，比如 revealing 从“拉开幕”到“揭露”，中间没有别的拐弯。",
+      "head": [
+        "词",
+        "拆解与字面义",
+        "今义",
+        "缺口说明什么"
+      ],
+      "rows": [
+        [
+          "revealing",
+          "re-“向后”＋vel“帷幕”＋-ing：拉开帷幕",
+          "揭示性的；暴露的",
+          "缺口小，隐喻一步到位"
+        ],
+        [
+          "depend",
+          "de-“向下”＋pend“悬挂”：悬于其下",
+          "依靠；取决于",
+          "由空间关系转抽象关系"
+        ],
+        [
+          "obvious",
+          "ob-“对着、挡在”＋vi“路”＋-ous：挡在路上",
+          "明显的",
+          "由“挡路”转“一眼看见”"
+        ],
+        [
+          "accurate",
+          "ac-（ad-“向”）＋cur“care”＋-ate：用心做到",
+          "精确的",
+          "由“用心”转“结果准”"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "两种方向：正向校验与反向推导",
+      "body": "熟词验证是**正向**的：已知整词义，检验语素释义。它还有一种**反向**用法：遇到陌生词，用已校准过的语素义去推整词义。方向不同，可靠性也不同——正向几乎不会错，反向只是给出候选义，必须用语境确认。",
+      "a": "正向：熟词 → 语素",
+      "b": "反向：语素 → 生词",
+      "rows": [
+        {
+          "label": "起点",
+          "a": "你确信的整词义（depend＝依靠）",
+          "b": "你确信的语素义（pend＝悬挂）"
+        },
+        {
+          "label": "动作",
+          "a": "检验释义能否让整词讲通",
+          "b": "把释义拼起来，得到候选义"
+        },
+        {
+          "label": "可靠性",
+          "a": "高：整词义是硬约束",
+          "b": "中：只给方向，不给定论"
+        },
+        {
+          "label": "失败时的处理",
+          "a": "改语素释义",
+          "b": "回到语境与词典核实"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w21d3-p1",
+      "kind": "mcq",
+      "prompt": "用 depend 校验 de- 的释义，可以得出什么结论？",
+      "choices": [
+        "de- 至少还有“向下”一义，不能只记“去除”",
+        "de- 在 depend 中表示“去除”，所以 depend 是“去掉悬挂”",
+        "de- 在 depend 中是强调前缀，没有实义",
+        "depend 是本土日耳曼词，不能用于校验拉丁前缀"
+      ],
+      "answer": 0,
+      "explain": "depend 的字面是“悬于其下”（de-“向下”＋pend“悬挂”），由此引申为“依附、取决于”。如果 de- 只有“去除”，这个词无法解释。所以熟词校验的功能是**修正释义**，而不是给释义找例子。",
+      "concepts": [
+        "c-prefix",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w21d3-p2",
+      "kind": "mcq",
+      "prompt": "obvious 的字面义最接近下面哪一项？",
+      "choices": [
+        "挡在路上，因而一眼就撞见",
+        "被反对的，因而有争议",
+        "看得见的路，因而笔直",
+        "没有路的，因而模糊"
+      ],
+      "answer": 0,
+      "explain": "obvious＝ob-（对着、挡在）＋vi（路）＋-ous，拉丁 obvius 指“迎面而来的、挡在路上的”，因此引申为“显眼的、明显的”。注意 ob- 在这里不是“反对”，这也是前缀多义的一个例子。",
+      "concepts": [
+        "c-prefix",
+        "c-root"
+      ]
+    },
+    {
+      "id": "w21d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词（形容词，含 vel）",
+      "sentence": "The report is ___ about the company’s finances: it prints the emails that the board had tried to keep hidden.",
+      "answer": "revealing",
+      "accept": [
+        "revealing"
+      ],
+      "explain": "revealing＝re-（向后）＋vel（帷幕）＋-ing，“把帘子拉开的”，所以是“揭露内情的”。冒号后的 prints the emails ... keep hidden 正是“拉开帷幕”的具体化。",
+      "concepts": [
+        "c-prefix",
+        "c-root"
+      ]
+    },
+    {
+      "id": "w21d3-p4",
+      "kind": "mcq",
+      "prompt": "按本课的方法，检验一个语素释义是否可靠，最该做的是？",
+      "choices": [
+        "把它放进多个你确信其整词义的高频词里，看是否都能讲通",
+        "查一个最生僻的同根词，看拼写是否一致",
+        "看这个语素在词典里排第几条",
+        "统计这个词素在语料库中出现的总次数"
+      ],
+      "answer": 0,
+      "explain": "熟词是硬约束：整词义你几乎不会搞错，所以它能反过来检验语素释义。要多个词同时成立，才能排除“一个词碰巧讲得通”的假阳性。生僻词和词频都不能提供这种约束。",
+      "concepts": [
+        "c-morpheme",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w21d3-p5",
+      "kind": "mcq",
+      "prompt": "第一次见到 “a sense of impending doom”，用已校准的语素义推断 impending，最合理的是？",
+      "choices": [
+        "im-（in-“在上”）＋pend（悬挂）＋-ing：悬在头顶的，即将降临的",
+        "im-（“不”）＋pend（悬挂）：不悬挂的，已经落地的",
+        "im-（“进入”）＋pend（花费）：正在花费的",
+        "pend 在这里是“笔”（pen），指正在写的"
+      ],
+      "answer": 0,
+      "explain": "pend 的“悬挂”义已在 depend、pending、suspend 中反复校准，可以放心迁移到生词。im- 是 in- 的同化形式，在此表“在上、向里”。合起来“悬在上方”，正是“逼近的、即将发生的”。注意第二步仍要用 doom“厄运”确认语义方向。",
+      "concepts": [
+        "c-prefix",
+        "c-root",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w21d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "The federation suspended the club for two matches, pending an inquiry into the tunnel incident. Players may train, but they cannot play until the panel reports.",
+      "word": "suspended",
+      "choices": [
+        "暂时停止（资格），使其悬而未决",
+        "永久开除，不得申诉",
+        "降低级别，降入低一级联赛",
+        "给予经济处罚，但保留资格"
+      ],
+      "answer": 0,
+      "strategy": "① 语素：sus-（sub-“在下”）＋pend（悬挂），“悬起来”→ 悬置、暂停；② 后置的 pending an inquiry 与 until the panel reports 都指向“等待调查结果”；③ 对比线索：may train, but cannot play 说明是部分、临时中止；④ 排除“永久开除”：与 for two matches、until 冲突。",
+      "explain": "suspend 的核心义一直是“悬挂→悬置”，depend（悬于其下）、pending（悬而未决）、pendant（悬挂物）都共用这条线。由“悬置”到“暂停职务／资格”是转喻式的延伸：被悬起来的东西，就是暂时不能落地的东西。",
+      "concepts": [
+        "c-inference",
+        "c-root",
+        "c-prefix"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 2 节：用熟悉的词反验语素义（revealing、depend）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "revelare／dependere／obvius／suspendere 的语源与义项"
+    }
+  ]
+}

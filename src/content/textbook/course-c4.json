@@ -1,0 +1,237 @@
+{
+  "id": "course-c4",
+  "title": "Allomorphy",
+  "titleZh": "异形与交替：同一个词素的多种形状",
+  "sourceChapter": "S1-C4",
+  "level": "B2",
+  "weeks": [
+    {
+      "week": 17,
+      "theme": "异形从哪来：分化、残留与融合",
+      "days": 7
+    },
+    {
+      "week": 18,
+      "theme": "交替的化石：中缀、元音变换与双式词",
+      "days": 6
+    }
+  ],
+  "lessonCount": 13,
+  "knowledgePointCount": 13,
+  "lessons": {
+    "w17d1": [
+      "kp-s1c4s2-1"
+    ],
+    "w17d2": [
+      "kp-s1c4s4-1"
+    ],
+    "w17d3": [
+      "kp-s1c4s5-2"
+    ],
+    "w17d4": [
+      "kp-s1c4s5-3"
+    ],
+    "w17d5": [
+      "kp-s1c4s6-1"
+    ],
+    "w17d6": [
+      "kp-s1c4s7-1"
+    ],
+    "w17d7": [
+      "kp-s1c4s8-2"
+    ],
+    "w18d1": [
+      "kp-s1c4s9-1"
+    ],
+    "w18d2": [
+      "kp-s1c4s10-1"
+    ],
+    "w18d3": [
+      "kp-s1c4s11-1"
+    ],
+    "w18d4": [
+      "kp-s1c4s11-2"
+    ],
+    "w18d5": [
+      "kp-s1c4s11-3"
+    ],
+    "w18d6": [
+      "kp-s1c4s12-1"
+    ]
+  },
+  "knowledgePointIndex": {
+    "kp-s1c4s2-1": [
+      "w17d1"
+    ],
+    "kp-s1c4s4-1": [
+      "w17d2"
+    ],
+    "kp-s1c4s5-2": [
+      "w17d3"
+    ],
+    "kp-s1c4s5-3": [
+      "w17d4"
+    ],
+    "kp-s1c4s6-1": [
+      "w17d5"
+    ],
+    "kp-s1c4s7-1": [
+      "w17d6"
+    ],
+    "kp-s1c4s8-2": [
+      "w17d7"
+    ],
+    "kp-s1c4s9-1": [
+      "w18d1"
+    ],
+    "kp-s1c4s10-1": [
+      "w18d2"
+    ],
+    "kp-s1c4s11-1": [
+      "w18d3"
+    ],
+    "kp-s1c4s11-2": [
+      "w18d4"
+    ],
+    "kp-s1c4s11-3": [
+      "w18d5"
+    ],
+    "kp-s1c4s12-1": [
+      "w18d6"
+    ]
+  },
+  "referenceForms": [
+    "abed",
+    "abstention",
+    "admission",
+    "aerolite",
+    "amorphous",
+    "anarchy",
+    "anatomy",
+    "anemia",
+    "anesthetic",
+    "anhydrous",
+    "anode",
+    "anomaly",
+    "anonymous",
+    "antipathy",
+    "anxiety",
+    "apathy",
+    "apnea",
+    "apps",
+    "ashore",
+    "asymmetry",
+    "authentic",
+    "autograph",
+    "began",
+    "begun",
+    "best",
+    "better",
+    "biennial",
+    "blogs",
+    "buses",
+    "cats",
+    "cattle",
+    "cave",
+    "centennial",
+    "chattel",
+    "children",
+    "corp",
+    "corporal",
+    "corporation",
+    "corpse",
+    "corpulent",
+    "cryolite",
+    "december",
+    "deify",
+    "deity",
+    "divine",
+    "divinity",
+    "dogs",
+    "dormice",
+    "dormouse",
+    "drank",
+    "drink",
+    "drunk",
+    "efficient",
+    "exhibit",
+    "extend",
+    "fact",
+    "faith",
+    "feat",
+    "feet",
+    "fidelity",
+    "first",
+    "frangible",
+    "geese",
+    "generous",
+    "genesis",
+    "genetic",
+    "gonad",
+    "habit",
+    "hemisphere",
+    "heptagon",
+    "herpes",
+    "hexagon",
+    "horses",
+    "imbalance",
+    "immortal",
+    "impalpable",
+    "incipient",
+    "incubate",
+    "incumbent",
+    "infect",
+    "infringe",
+    "inhibit",
+    "intense",
+    "jail",
+    "judges",
+    "lice",
+    "lithograph",
+    "men",
+    "mice",
+    "monolith",
+    "mouses",
+    "november",
+    "october",
+    "orthogonal",
+    "oxen",
+    "pedagogy",
+    "pediatric",
+    "pedometer",
+    "perfect",
+    "prohibit",
+    "quartet",
+    "quintet",
+    "rang",
+    "receptive",
+    "recipient",
+    "ring",
+    "rung",
+    "sang",
+    "september",
+    "septet",
+    "serpent",
+    "serpentine",
+    "sexennial",
+    "sextet",
+    "sheep",
+    "sing",
+    "sufficient",
+    "sung",
+    "susceptible",
+    "swam",
+    "swim",
+    "swum",
+    "tangent",
+    "tangible",
+    "tautology",
+    "teeth",
+    "tensile",
+    "tension",
+    "unprovable",
+    "went",
+    "wishes"
+  ],
+  "referenceFormsNote": "本课讲解与练习引用、但 words.json 尚无完整词条的英语形式；已去重小写。不含拉丁或法语中间形式（factum、Iovis、frangere 等）与仅出现在阅读段落里的普通词。"
+}

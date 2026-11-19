@@ -1,0 +1,322 @@
+{
+  "id": "w18d6",
+  "week": 18,
+  "day": 6,
+  "title": "把变体写进元素表：本周收束",
+  "tagline": "查表查的是一整行，不是一个拼写",
+  "objectives": [
+    "能说明元素表为什么以“变体行”为单位",
+    "能用“先试长形”的策略解析 permission、tensile、incipient",
+    "能标出同形异源（ten、gon、ped）并分义记"
+  ],
+  "prereqs": [
+    "w17d7",
+    "w18d5"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-word-sum",
+    "c-morpheme"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s12-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "单位不是拼写，是一整行",
+      "body": "教材的元素表这样写：ten~tend~tens、duc~duct、frag~fract~frang、mit~miss。为什么不用一个拼写了事？\n\n因为解析生词时，你要试的是**整行**。只记 duc，遇到 product 就断线；只记 ten，遇到 tensile 就断线；只记 frag，遇到 frangible 就断线。变体不是附注，是入口。\n\n更进一步：元素表还要标明同形异源。同一个拼写对应两条释义，必须分两行——这是精确性问题，不是排版问题。",
+      "terms": [
+        {
+          "term": "word element",
+          "zh": "构词元素",
+          "en": "word element",
+          "note": "词根、前缀、后缀的统称，按变体行登记"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "本周变体总表",
+      "body": "注意第 2、3 行：ten 出现两次，因为“握持”（tenere）与“伸展”（tendere）是两个不同的拉丁动词，只是拼写撞在一起。这种同形异源必须分义记，否则你会把 tenant 与 tensile 当成一族，越记越乱。",
+      "head": [
+        "元素",
+        "变体",
+        "释义",
+        "例词"
+      ],
+      "rows": [
+        [
+          "a",
+          "a ~ an",
+          "无、缺乏",
+          "atypical / anonymous"
+        ],
+        [
+          "ten（握持）",
+          "ten ~ tain",
+          "握、持",
+          "tenant / contain"
+        ],
+        [
+          "ten（伸展）",
+          "ten ~ tend ~ tens",
+          "伸、拉紧",
+          "tendency / tensile"
+        ],
+        [
+          "duc",
+          "duc ~ duct",
+          "引导",
+          "produce / product"
+        ],
+        [
+          "frag",
+          "frag ~ fract ~ frang",
+          "破",
+          "fragile / fracture / frangible"
+        ],
+        [
+          "spec",
+          "spec ~ spect",
+          "看",
+          "special / inspect"
+        ],
+        [
+          "mit",
+          "mit ~ miss",
+          "送",
+          "admit / permission"
+        ],
+        [
+          "corp",
+          "corp ~ corpor",
+          "身体",
+          "corp / corporeal"
+        ],
+        [
+          "nomen",
+          "nomen ~ nomin",
+          "名",
+          "nominal / nominate"
+        ],
+        [
+          "ped／pod",
+          "ped ~ pod",
+          "脚",
+          "pedal / tripod"
+        ],
+        [
+          "hemi／semi",
+          "hemi ~ semi",
+          "半",
+          "hemisphere / semicircle"
+        ]
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "三个示范：变体怎么选",
+      "body": "三条算式分别演示三种情况：选最长形（miss）、选加音形（duct）、选弱化形（nomin）。写算式时把“为什么选这一形”写在备注里，比只写结果有用得多——下次遇到同族生词，你靠的就是这条理由。",
+      "sums": [
+        {
+          "parts": [
+            "per",
+            "miss",
+            "ion"
+          ],
+          "result": "permission",
+          "glossZh": "许可",
+          "note": "选最长形 miss；mit 在这里被同化"
+        },
+        {
+          "parts": [
+            "pro",
+            "duct"
+          ],
+          "result": "product",
+          "glossZh": "产品",
+          "note": "选加音形 duct"
+        },
+        {
+          "parts": [
+            "nomin",
+            "al"
+          ],
+          "result": "nominal",
+          "glossZh": "名义上的",
+          "note": "选弱化形 nomin（nomen 在词中）"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "单形表 vs 变体表",
+      "body": "差距不在“记得多”，而在“查得到”。单形表在遇到变体时给出错误答案或干脆查不到，这才是学术阅读真正的瓶颈。它也不是一无是处：初学阶段能降低负担，但读到 permission、tensile 这类词就会露出短板。",
+      "a": "单形表",
+      "b": "变体表",
+      "rows": [
+        {
+          "label": "查得",
+          "a": "一个形状",
+          "b": "整族形状"
+        },
+        {
+          "label": "遇到 permission",
+          "a": "失败（mit 对不上）",
+          "b": "成功（miss）"
+        },
+        {
+          "label": "遇到 tensile",
+          "a": "失败（ten 对不上）",
+          "b": "成功（tens）"
+        },
+        {
+          "label": "遇到 incipient",
+          "a": "失败",
+          "b": "成功（cip，属 cap 族）"
+        },
+        {
+          "label": "适用场景",
+          "a": "只够读最简单的派生词",
+          "b": "支撑学术阅读与术语猜义"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三步流程，一条纪律",
+      "body": "流程：\n1. 先看词义能否落在某个元素的核心义上（“破”“看”“持”）。\n2. 在该元素的整行变体里找最长的匹配，再退回短形。\n3. 用后缀定词性与大致语义，最后用语境校验。\n\n纪律：**同形异源分两行记**。gon“角”与 gon“生”、ped“脚”与 ped“儿童”、ten“握持”与 ten“伸展”，都不能合并成一行。元素表的价值在于精确，不在于短——把两义硬塞进一行，省下的是纸面，赔掉的是判断力。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w18d6-p1",
+      "kind": "mcq",
+      "prompt": "按变体表，incipient 中的 cip- 属于哪一族？",
+      "choices": [
+        "cap~cip~cept“抓、取”",
+        "duc~duct“引导”",
+        "fac~fec~fic“做”",
+        "ten~tend~tens“持”"
+      ],
+      "answer": 0,
+      "explain": "incipio = in- + capio，a 在非首音节弱化为 i，得 cip-，意为“开始进入某事”。同族 accept、recipient、reception、concept。判断依据是核心义“抓、取”，而不是拼写的相似度。",
+      "concepts": [
+        "c-allomorph",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w18d6-p2",
+      "kind": "mcq",
+      "prompt": "tensile 的 tens- 与 tenant 的 ten- 拼写相同。它们的关系是：",
+      "choices": [
+        "两个不同词根：tens 属 tendere“伸展”，ten 属 tenere“握持”，同形异源",
+        "同一词根的两个变体，靠位置区分",
+        "tens 是加音变体，ten 是原形，二者同源",
+        "tenant 是 tensile 的名词形式"
+      ],
+      "answer": 0,
+      "explain": "拉丁有两个不同的动词都以 ten- 起头：tendere“伸展”（tend、tens、tension）与 tenere“握持”（ten、tain、tenant）。它们拼写相同、意义不同，属于同形异源，元素表必须分两行。这正是本课要防的那种“看起来同族”的误判。",
+      "concepts": [
+        "c-morpheme",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w18d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个单词（复数）",
+      "sentence": "A good word element list gives every element together with its ___ , so that a new word can still be parsed.",
+      "answer": "allomorphs",
+      "accept": [
+        "allomorphs",
+        "allomorph"
+      ],
+      "explain": "元素表以变体行为单位，因为解析靠的是“在整行里找最长匹配”。只给一个拼写，遇到 permission、tensile、incipient 这类词就会失败。这是本章最后一条方法，也是前面所有具体变体的落点。",
+      "concepts": [
+        "c-allomorph",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w18d6-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）receptive 中的 cept 与 accept 的 cept 同族。receptive 最可能的意思是：",
+      "choices": [
+        "善于接受的、能接纳的",
+        "反复做的",
+        "被拒绝的",
+        "能看见的"
+      ],
+      "answer": 0,
+      "explain": "re-（回）+ cept（cap“抓、取”的完成分词形）+ -ive →“能接回来的”→ 善于接受的。cap 族有 cap／cip／cept 三个形状，见到 cept 先想“抓、取”，再按前后缀落地。别按 accept 的“接受”硬套成被动义：-ive 表主动倾向。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "c-word-sum"
+      ],
+      "hint": "先定词根义，再由 -ive 判“倾向于……的”。"
+    },
+    {
+      "id": "w18d6-p5",
+      "kind": "wordSum",
+      "prompt": "写出 transmission 的构词算式",
+      "parts": [
+        "trans",
+        "miss",
+        "ion"
+      ],
+      "answer": "transmission",
+      "explain": "trans-（穿过）+ miss（mit 的同化形，“送”）+ -ion（名词后缀）→ 传输、传播。这里必须用 miss：trans + mit + ion 拼不出 transmission。同族 transmit（动词，用 mit）、transmitter、emission。",
+      "concepts": [
+        "c-word-sum",
+        "c-prefix",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w18d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 susceptible 的含义",
+      "passage": "Young trees are more susceptible to frost than old ones: a single cold night can kill the new shoots.",
+      "word": "susceptible",
+      "choices": [
+        "易受……影响的",
+        "对……免疫的",
+        "能抵抗……的",
+        "被……遮挡的"
+      ],
+      "answer": 0,
+      "strategy": "① 比较结构 more ... than 说明程度差异；② 冒号后 a single cold night can kill 说明“容易受害”；③ 构词：sus-（sub- 的变体）+ cept（“取”）+ -ible（“能……的”），字面“能被从下面接住的”→ 易受影响。",
+      "explain": "susceptible 字面“能被接受的”，引申为“易受影响的”，常与 to 连用。cept 是 cap“抓、取”的完成分词形，与 accept、reception、recipient 同族。注意不要按 suspect 去猜：suspect 的 spect 是“看”，与 cept 只差一个字母，来源完全不同。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "c-morpheme"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：元素表须连变体一起记（ten~tend~tens、duc~duct）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "tendere 与 tenere 两个词根的区分；susceptible 的切分"
+    }
+  ]
+}

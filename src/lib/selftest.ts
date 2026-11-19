@@ -17,7 +17,14 @@
 import { call, db, getInvoke, IS_TAURI, type AppInfo } from './api';
 import { contentStatus } from './content';
 
-const LESSON_ROUTE = '#/session/w01d1';
+// The gate asks for a specific lesson via WORDROOTS_SELFTEST_LESSON, so the same
+// self-test proves that a C9 or C11 lesson can be entered and finished in the
+// packaged app, not only the first day of the course.
+const DEFAULT_LESSON = 'w01d1';
+function lessonRoute(id: string | undefined): string {
+  const lesson = id && /^w\d{2}d\d$/.test(id) ? id : DEFAULT_LESSON;
+  return `#/session/${lesson}`;
+}
 const MAX_STEPS = 160;
 const STEP_MIN_MS = 120;
 const STEP_MAX_MS = 200;
@@ -50,7 +57,11 @@ export interface SelftestResult {
   ts?: number;
 }
 
-type AppInfoWithSelftest = AppInfo & { selftest?: boolean; webviewArgs?: string };
+type AppInfoWithSelftest = AppInfo & {
+  selftest?: boolean;
+  selftestLesson?: string;
+  webviewArgs?: string;
+};
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => window.setTimeout(resolve, ms));
@@ -136,7 +147,7 @@ function contentEvidence() {
  * Drive one lesson to completion. Returns the raw measurements; the caller
  * decides `ok` so a crash can still be reported with partial data.
  */
-async function driveLesson(): Promise<{
+async function driveLesson(lessonId?: string): Promise<{
   steps: number;
   sawFeedback: boolean;
   attemptsBefore: number;
@@ -156,7 +167,7 @@ async function driveLesson(): Promise<{
   const shellReady = await waitFor(() => document.querySelector('a.nav-item'), 20_000);
   if (!shellReady) throw new Error('app shell did not render (no a.nav-item)');
 
-  location.hash = LESSON_ROUTE;
+  location.hash = lessonRoute(lessonId);
 
   const firstControl = await waitFor(
     () => document.querySelector('.choice') ?? document.querySelector('.btn-primary:not([disabled])'),
@@ -228,7 +239,7 @@ async function report(payload: Record<string, unknown>) {
   await invoke('frontend_ready', { payload });
 }
 
-async function run(): Promise<SelftestResult> {
+async function run(lessonId?: string): Promise<SelftestResult> {
   const startedAt = performance.now();
   const errors: string[] = [];
   // Unhandled rejections are recorded but do not fail the run: a background
@@ -261,7 +272,7 @@ async function run(): Promise<SelftestResult> {
   let fatal: string | undefined;
 
   try {
-    const measured = await driveLesson();
+    const measured = await driveLesson(lessonId);
     ({ steps, sawFeedback, attemptsBefore, attemptsAfter, completedBefore, completedAfter } = measured);
   } catch (err) {
     fatal = err instanceof Error ? err.message : String(err);
@@ -308,9 +319,11 @@ async function run(): Promise<SelftestResult> {
 export async function maybeRunSelftest(): Promise<void> {
   if (!IS_TAURI) return;
   let enabled = false;
+  let selftestLesson: string | undefined;
   try {
     const info = await call<AppInfoWithSelftest>('app_info');
     enabled = info?.selftest === true;
+    selftestLesson = info?.selftestLesson;
   } catch (err) {
     console.warn('[wordroots] selftest: app_info unavailable:', err);
     return;
@@ -319,7 +332,7 @@ export async function maybeRunSelftest(): Promise<void> {
 
   let result: SelftestResult;
   try {
-    result = await run();
+    result = await run(selftestLesson);
   } catch (err) {
     result = {
       ok: false,

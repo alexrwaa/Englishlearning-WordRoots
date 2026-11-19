@@ -1,0 +1,279 @@
+{
+  "id": "w22d3",
+  "week": 22,
+  "day": 3,
+  "title": "原义死了：hysterical 的子宫",
+  "tagline": "希腊语“子宫的”→情绪失控→很好笑：有些词走得太远，回头已找不到出发点",
+  "objectives": [
+    "能复原 hysterical 从“子宫的”到“很好笑的”的语义链",
+    "能说明原义消失的三种典型条件，并指出它为何是“例外而真实”的结局",
+    "能用词典标注与同源语证据判断一个义项是消失、边缘化还是被替代"
+  ],
+  "prereqs": [
+    "w22d2",
+    "w10d5"
+  ],
+  "concepts": [
+    "c-semantic-shift",
+    "c-narrowing",
+    "c-pejoration",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s8-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "etym",
+      "title": "从“子宫”到“笑到打滚”",
+      "body": "希腊语 **hystera** 是“子宫”。古代医学认为一类症状——情绪剧烈波动、抽搐、失声——源于子宫在体内游走，于是把这组症状叫 **hysteria**，字面就是“子宫病”。\n\n19 世纪这套理论在医学界仍有影响，hysteria 成了一个正式诊断名。20 世纪以后，随着内分泌学与精神病学的发展，“游走的子宫”被彻底放弃，hysteria 也逐渐从诊断系统中退出。\n\n但形容词 **hysterical** 留了下来，而且跑得更远：先指“情绪完全失控的”（hysterical laughter、hysterical crying），20 世纪又在口语里表示“极其好笑”（The show was hysterical）。今天你说 hysterical，几乎不会想到子宫——**原义已经死了**。",
+      "steps": [
+        {
+          "period": "希腊语",
+          "form": "hystera",
+          "note": "子宫；hysterikos“与子宫有关的”"
+        },
+        {
+          "period": "拉丁／近代医学",
+          "form": "hystericus / hysteria",
+          "note": "一组被认为源于子宫的症状，成为诊断名"
+        },
+        {
+          "period": "19 世纪英语",
+          "form": "hysterical",
+          "note": "“患癔症的”；引申为“情绪失控的”"
+        },
+        {
+          "period": "20 世纪至今",
+          "form": "hysterical",
+          "note": "情绪失控；口语“极好笑的”；原义退场"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "原义为什么会被挤出",
+      "body": "第 10 周我们说过，语义变化的常态是**旧义保留、新义叠加**（horse 就是标本）。但有一种结局确实存在：旧义被挤出，彻底不再使用。它通常需要三个条件之一：\n\n1. **指称对象消失**：词所指的东西不再存在，义项自然悬空。\n2. **背后的理论被推翻**：hysteria 的“游走子宫”被否证，医学界改用更精确的术语（如 conversion disorder、somatic symptom disorder），旧名连同旧义一起退场。\n3. **新义占满使用频率**：一个词几乎只在某个新义上出现，旧义就失去了激活机会。\n\n第三点最关键，因为它可以单独起作用。hysterical 的“子宫的”并不是被谁禁止了，而是**没人再需要用它**——需要说“与子宫有关”时，医学英语有 uterine。",
+      "terms": [
+        {
+          "term": "obsolete",
+          "zh": "已废弃",
+          "en": "obsolete",
+          "note": "词典标注：该义项在现代语言中不再使用"
+        },
+        {
+          "term": "archaic",
+          "zh": "古旧",
+          "en": "archaic",
+          "note": "仍见于旧文献，但现代标准语不用"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个词，四种“原义的下场”",
+      "body": "四个词都出现在前面的单元里，这里换一个角度看它们：不是看“义怎么变”，而是看“原义还在不在”。最后一行是判断依据——不要凭感觉说“这个意思已经没有了”，要能指出证据。",
+      "head": [
+        "词",
+        "原义",
+        "今常用义",
+        "原义现状与证据"
+      ],
+      "rows": [
+        [
+          "hysterical",
+          "与子宫有关的",
+          "情绪失控的；极好笑的",
+          "已消失：现代医学用 uterine；词典标注该义古旧"
+        ],
+        [
+          "deer",
+          "野兽、动物",
+          "鹿",
+          "已消失于英语，但同源语保留：德语 Tier 仍指动物"
+        ],
+        [
+          "silly",
+          "有福的、蒙福的",
+          "愚蠢的",
+          "已消失，但同源语保留：德语 selig 仍指“有福的”"
+        ],
+        [
+          "nice",
+          "无知的",
+          "令人愉快的",
+          "已消失，拉丁 nescius 只在词源描述里出现"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "怎么证明一个义项真的死了",
+      "body": "说“原义消失”是一个强主张，需要证据。三条可用：\n\n- **词典标注**：obsolete（已废弃）、archaic（古旧）、rare（罕用）分级不同，不能混说。hysterical 的“子宫的”属古旧层，而不是“罕用”。\n- **同源语化石**：英语里死了，亲戚语言里还活着，说明它曾经活过。deer 对德语 Tier、silly 对德语 selig、nice 对拉丁 nescius，都是这种化石。\n- **术语替换**：同一概念是否已由新词承担。子宫相关用 uterine，那 hyster- 就不必再干这份活。\n\n反过来，**只有“我觉得现在没人这么说了”是不够的**。个人语感会被年龄、地域、行业限制；一个义项可能在某个专业社群里活得好好的（法律、医学、宗教尤其如此）。",
+      "terms": [
+        {
+          "term": "fossil",
+          "zh": "化石（同源语残留）",
+          "en": "fossil",
+          "note": "英语中已消失、亲属语言仍保留的形式或义项"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "消失、边缘化、被替代：三种不同结局",
+      "body": "这三者常被混说成“原来的意思没了”，但对阅读的影响完全不同：消失可以不管；边缘化要在特定文本里警惕；被替代则必须知道新旧义指的是同一个东西。判断时先问“这个概念还需要这个词来表达吗”，再问“谁接了这个活”。",
+      "a": "边缘化（休眠）",
+      "b": "被替代",
+      "rows": [
+        {
+          "label": "状态",
+          "a": "义项仍在，但只在特定语域出现",
+          "b": "旧义退出，新义占位，指称对象换了"
+        },
+        {
+          "label": "例子",
+          "a": "ghost 的“灵魂”义仍在宗教文本；bead 的“祈祷”义仅在词源说明中",
+          "b": "car 由“马车车厢”到“汽车”（第 6 天详讲）"
+        },
+        {
+          "label": "阅读影响",
+          "a": "遇到宗教、法律、方言文本要留意",
+          "b": "读旧文本时会把新义套进去，产生时代错置"
+        },
+        {
+          "label": "判断依据",
+          "a": "词典标注＋语域限制",
+          "b": "同一形式在两个时代的所指不同"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w22d3-p1",
+      "kind": "mcq",
+      "prompt": "hysterical 的语义链，正确顺序是？",
+      "choices": [
+        "“与子宫有关的”→“患癔症的、情绪失控的”→“极好笑的”",
+        "“极好笑的”→“情绪失控的”→“与子宫有关的”",
+        "“与子宫有关的”→“极好笑的”→“情绪失控的”",
+        "“情绪失控的”→“与子宫有关的”→“极好笑的”"
+      ],
+      "answer": 0,
+      "explain": "hystera“子宫”→hysterikos“与子宫有关的”→hysteria 作为诊断名→hysterical“患癔症的”，再泛化为“情绪失控的”，最后在 20 世纪口语里表示“极好笑的”。方向由医学史与文献年代共同确定，可以核对。",
+      "concepts": [
+        "c-etymology",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w22d3-p2",
+      "kind": "mcq",
+      "prompt": "hysterical 的“与子宫有关的”这一义项消失，最直接的原因是？",
+      "choices": [
+        "背后的医学理论被放弃，且表达该概念已有 uterine 等更精确的术语",
+        "英语禁止使用与身体部位有关的形容词",
+        "这个词太长，说话人自动省略了它",
+        "子宫这个词在英语中不存在"
+      ],
+      "answer": 0,
+      "explain": "指称概念还在（子宫），但表达它的任务转给了 uterine，加上“游走子宫”理论被否证，hysteria 作为诊断名退出。于是 hyster- 不再承担“子宫”义，只保留情绪义。这类消失是“被替代＋理论失效”的合力。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w22d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "The audience was ___: people were wiping their eyes and holding their ribs by the end of the third sketch.",
+      "answer": "hysterical",
+      "accept": [
+        "hysterical"
+      ],
+      "explain": "wiping their eyes、holding their ribs 是笑到失控的具体描写，所以 hysterical 取口语“极好笑的”一义。这里既没有“子宫”，也不真的是病理性失控——两个旧义都已经退到背景里。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w22d3-p4",
+      "kind": "mcq",
+      "prompt": "要证明 deer 的“野兽、动物”义在英语中已消失，最有力的证据是？",
+      "choices": [
+        "现代英语中 deer 只指鹿，而同源的德语 Tier 仍指“动物”，说明该义曾存在后被英语放弃",
+        "deer 拼写很短，短词容易失去旧义",
+        "鹿比其它野兽更常见，所以词义自然缩小",
+        "古英语诗歌里出现过 deer，所以它一定还活着"
+      ],
+      "answer": 0,
+      "explain": "同源语是最好的化石：德语 Tier 保留“动物”义，证明日耳曼祖语中该词泛指动物，英语这一支把它缩小到鹿。第四项恰好相反——古英语出现过，只能证明它曾存在，不能证明它今天还活。",
+      "concepts": [
+        "c-cognate",
+        "c-narrowing"
+      ]
+    },
+    {
+      "id": "w22d3-p5",
+      "kind": "mcq",
+      "prompt": "读到 “In ancient Greece a paidagogos was a slave who walked a boy to school.” 对 pedagogue 今日义“教师（常含刻板、迂腐色彩）”的解释，最合理的是？",
+      "choices": [
+        "原义“领孩子上学的人”已消失，词义经转喻与贬化落到“教师”，并带上刻板色彩",
+        "pedagogue 仍严格指“带路的奴隶”，今义是误用",
+        "它与“儿童”和“引导”都无词源关系",
+        "它由 page＋gogue 构成，原指书页"
+      ],
+      "answer": 0,
+      "explain": "paidagogos＝pais“孩子”＋agein“引导”，原指负责接送孩子的奴隶，属转喻式延伸（陪同者→教育者）。原义消失后，词义落在“教师”，并在长期使用中带上“教条、迂腐”的贬化色彩。这与 hysterical 的结构相同：具体身份消失，功能义留下。",
+      "concepts": [
+        "c-etymology",
+        "c-pejoration",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w22d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "Her account of the failed expedition is hysterical in places: she describes the mule, the mud and the missing maps with such wild exaggeration that you laugh before you notice how grim the story actually is.",
+      "word": "hysterical",
+      "choices": [
+        "极其好笑的、令人大笑的",
+        "与子宫疾病有关的",
+        "歇斯底里地愤怒的",
+        "医学上无法诊断的"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后的解释：wild exaggeration、you laugh 直接指向“好笑”；② 让步结构：before you notice how grim 说明幽默与沉重并存，符合“笑到失控”的口语义；③ 词源提醒：hyster- 的“子宫”义已退出日常，不能按字面理解；④ 排除“愤怒”：与 laugh 冲突。",
+      "explain": "这里的 hysterical 是口语“极好笑的”。注意句子的微妙之处：grim 的事实与 hysterical 的叙述并置，说明这个词描述的是**讲述方式**（夸张到令人失笑），而不是事实本身的性质。语义变化走到这一步，离“子宫”已经很远了。",
+      "concepts": [
+        "c-inference",
+        "c-semantic-shift"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 8 节：原义可能彻底消失（hysterical、hyster“womb”）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "hystera／hysteria 的医学史；deer、silly、nice 的同源语对照"
+    }
+  ]
+}

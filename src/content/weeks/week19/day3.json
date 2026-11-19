@@ -1,0 +1,247 @@
+{
+  "id": "w19d3",
+  "week": 19,
+  "day": 3,
+  "title": "流音同化：l 吞掉 n 和 r，d 谁都能变",
+  "tagline": "illegal 的两个 l、attract 的两个 t，都是 ad-/in- 被后接辅音吃掉后留下的化石",
+  "objectives": [
+    "能说出 [n][r] 在 [l] 前的完全同化，以及 [d] 在多数辅音前的完全同化",
+    "能用拉丁前缀表把 al-、ac-、af-、at-、as- 还原成 ad-",
+    "能说明双写字母是同化的结果，不是一条拼写规则"
+  ],
+  "prereqs": [
+    "w08d1",
+    "w19d2"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-prefix",
+    "c-etymology",
+    "c-spelling-rule"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s3-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "完全同化：前一个音被彻底取代",
+      "body": "第 8 周讲过**部分同化**：in- 的 [n] 在 [p] 前变成 [m]，鼻音还在，只是换了个部位。这一课讲**完全同化**（total assimilation）：前一个音不只是改变部位，而是被后一个音整个吞掉，两个音合成一个。\n\n- **[n] 在 [l] 前 → [l]**：in + legalis → illegalis → **illegal**；in + luminare → **illuminate**。\n- **[r] 在 [l] 前 → [l]**：这条在英语借词里不常见，但在拉丁形容词后缀的异形 -alis / -aris 上还能看到 r、l 的互相拉扯。\n- **[d] 在多数辅音前 → 后接音**：ad + capere → **accept**；ad + facere → **affect**；ad + trahere → **attract**；ad + similare → **assimilate**。\n\n同化的方向永远是**向右看**：前一个音适应后一个音，反过来不成立。"
+    },
+    {
+      "kind": "table",
+      "title": "ad- 的六张脸",
+      "body": "这张表是这一课最该记住的：英语里以 ac-、af-、at-、as-、al- 开头的学术词，十有八九背后是 ad-。第四列标出双写：只有当同化后的音恰好与词根首字母相同，才会写成两个字母。",
+      "head": [
+        "拼写",
+        "还原",
+        "后接音",
+        "例词"
+      ],
+      "rows": [
+        [
+          "ac-",
+          "ad-",
+          "[k]",
+          "accept、access、accumulate（双写 cc）"
+        ],
+        [
+          "af-",
+          "ad-",
+          "[f]",
+          "affect、affirm、affiliate（双写 ff）"
+        ],
+        [
+          "at-",
+          "ad-",
+          "[t]",
+          "attract、attend、attempt（双写 tt）"
+        ],
+        [
+          "as-",
+          "ad-",
+          "[s]",
+          "assimilate、assist、assume（双写 ss）"
+        ],
+        [
+          "al-",
+          "ad-",
+          "[l]",
+          "alleviate、allege、allocate（双写 ll）"
+        ],
+        [
+          "a-",
+          "ad-",
+          "其余辅音",
+          "ascend、aspect、arrive（不双写）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "双写是结果，不是规则",
+      "body": "英语没有“前缀末字母要双写”这条规则。双写只是同化之后**两个相同的字母碰在一起**：ad + tract 的 d 变成 t，于是 t + tract 写成 ttract。\n\n这个顺序很重要，因为反过来做会切错词：\n\n- **apparent**：ap- 是 ad-，词根是 par-（出现）→ “显现出来的”。若按拼写切成 ap + parent，就会误以为与“父母”有关。\n- **attend**：at- 是 ad-，词根是 tend-（伸展）→ “把注意力伸向”。\n- **a- 型不双写**：ad 的 d 消失后没有第二个字母可与词根首字母重叠，所以 ascend、aspect 只有一个字母。\n\n判断顺序固定为三步：**还原前缀 → 看后接音的部位 → 最后才看拼写有几个字母**。"
+    },
+    {
+      "kind": "compare",
+      "title": "留下痕迹的同化 vs 不留痕迹的同化",
+      "body": "同化是否写进拼写，取决于它是否造成了**字母重叠**或**字母替换**。右列这种只改发音部位的同化，英语没有专门字母可用，所以完全看不见——这也是第 8 周那条纪律的由来：判断词素看意义，拼写只是表层。",
+      "a": "拼写留下痕迹",
+      "b": "拼写不留痕迹",
+      "rows": [
+        {
+          "label": "完全同化",
+          "a": "ad + cept → accept（cc）",
+          "b": "—"
+        },
+        {
+          "label": "鼻音部位同化",
+          "a": "in + legalis → illegal（ll）",
+          "b": "in + credibilis → incredible（n 仍写 n，读 [ŋ]）"
+        },
+        {
+          "label": "d 的全同化",
+          "a": "ad + similare → assimilate（ss）",
+          "b": "ad + scendere → ascend（d 消失，无重叠）"
+        },
+        {
+          "label": "判据",
+          "a": "数一数字母是否重叠",
+          "b": "看音标：/ŋ/ 在拼写上仍是 n"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "反向陷阱：al- 不都是 ad-",
+      "body": "同一副拼写可以来自完全不同的语源。**alleviate** 的 al- 是 ad-（词根 levare“举起、减轻”）；但 **alcohol** 的 al- 是阿拉伯语的定冠词 al-，**almond**、**algebra**、**alkali** 同理。\n\n判据只有一条：**去掉前缀后，剩下的是不是一个可识别的拉丁词根**。levare 有“轻”义的同族词（relief、elevate），所以 alleviate 的 al- 是前缀；cohol 不是一个词根，所以 alcohol 的 al- 是借词的一部分。\n\n这就是第 1 周“先看整词能否成立”的原则在音变层面的应用。不要因为拼写像就断言同源。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w19d3-p1",
+      "kind": "mcq",
+      "prompt": "alleviate 中的 al- 来自：",
+      "choices": [
+        "拉丁前缀 ad-，d 在 [l] 前完全同化为 l",
+        "拉丁前缀 in-，n 在 [l] 前同化为 l",
+        "阿拉伯语定冠词 al-",
+        "形容词后缀 -al 的变体"
+      ],
+      "answer": 0,
+      "explain": "ad + levare（举起、减轻）→ allevare → alleviate“减轻”。d 在 [l] 前被完全同化，写成 ll。要排除阿拉伯语冠词这一项，只需看词根 levare 是否成立——elevate、relief 都与它同族。",
+      "concepts": [
+        "c-allomorph",
+        "c-prefix"
+      ]
+    },
+    {
+      "id": "w19d3-p2",
+      "kind": "mcq",
+      "prompt": "下面哪一项属于“拼写不留痕迹”的同化？",
+      "choices": [
+        "incredible 中 n 在 [k] 前读 [ŋ]，仍写作 n",
+        "illegal 写成 ll",
+        "attract 写成 tt",
+        "assimilate 写成 ss"
+      ],
+      "answer": 0,
+      "explain": "鼻音在软腭音前变成 [ŋ]，但英语没有 ŋ 字母，拼写仍是 n，所以同化只发生在发音层。其余三项都因同化造成字母重叠，痕迹留在拼写上。",
+      "concepts": [
+        "c-allomorph",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w19d3-p3",
+      "kind": "cloze",
+      "prompt": "填入拉丁前缀的原形",
+      "sentence": "In assimilate, the prefix spelled as- is a form of Latin ___, whose final consonant was totally assimilated to the following [s].",
+      "answer": "ad",
+      "accept": [
+        "ad",
+        "ad-"
+      ],
+      "explain": "as- 是 ad- 在 [s] 前的完全同化形式：ad + similare → assimilare。还原后词根 simil-（相似）才显出来，“使相似”也就是“同化、吸收”。",
+      "concepts": [
+        "c-prefix",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w19d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 lumen（光）的斜格词干是 lumin-，illuminate 的结构最合理的解释是：",
+      "choices": [
+        "in- 在 [l] 前完全同化为 il-，加词根 lumin-（光）→ “使有光、照亮”",
+        "il- 是否定前缀，意为“无光”",
+        "il- 是形容词后缀 -al 的变体",
+        "illuminate 来自阿拉伯语，与拉丁无关"
+      ],
+      "answer": 0,
+      "explain": "in + luminare → illuminare，n 在 l 前被同化为 l。若把 il- 当否定，会得到“无光”，与 illuminate“照亮、阐明”的实际意义相反——这正是第 8 周提醒过的“假否定”陷阱。",
+      "concepts": [
+        "c-allomorph",
+        "c-inference"
+      ],
+      "hint": "先还原前缀，再验证词根是否成词。"
+    },
+    {
+      "id": "w19d3-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“吸引”的切分",
+      "parts": [
+        "at",
+        "tract"
+      ],
+      "answer": "attract",
+      "explain": "at-（ad- 在 [t] 前的同化形）+ tract-（拉、拖）→ “拉向自己”，即吸引。双写的 tt 不是拼写规则，而是 d→t 之后两个 t 相遇的结果。",
+      "concepts": [
+        "tract",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w19d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 alleviate 的含义",
+      "passage": "The new timetable does not remove the congestion; it only alleviates it by shifting a third of the freight traffic to the hours after midnight, so that the morning peak is less severe.",
+      "word": "alleviates",
+      "choices": [
+        "减轻、缓解",
+        "彻底消除",
+        "加剧、恶化",
+        "测量、评估"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：al-（ad- 的完全同化形）+ levi-（轻）+ -ate（动词后缀）→ “使变轻”；② 对比结构：does not remove… only… 明确排除“消除”；③ 结果从句：less severe 说明程度下降；④ 排除：加剧与 less severe 矛盾。",
+      "explain": "alleviate 是“减轻、缓解”，字面“使变轻”。词形上能看到今天的两件事：ad- 的 d 在 [l] 前完全同化成 l（所以是 al- 而不是 ad-），以及双写 ll 只是同化后字母相遇的结果。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "c-prefix"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 3 节：流音同化与 d 的全同化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "ad- 的同化变体表与 alleviate / alcohol 的语源区分"
+    }
+  ]
+}

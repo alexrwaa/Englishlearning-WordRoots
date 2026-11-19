@@ -1,0 +1,283 @@
+{
+  "id": "w20d5",
+  "week": 20,
+  "day": 5,
+  "title": "数词素：拉丁一套，希腊一套",
+  "tagline": "pentagon 全用希腊料，quadrilateral 全用拉丁料——但也常见混搭",
+  "objectives": [
+    "能默写 1–10、百、千的拉丁与希腊数词素",
+    "能用词根语源判断一个数词复合词属于哪套搭配",
+    "能举出三个以上拉丁—希腊混用的真实词例"
+  ],
+  "prereqs": [
+    "w20d4",
+    "c-greek-latin"
+  ],
+  "concepts": [
+    "c-greek-latin",
+    "c-combining",
+    "c-scientific"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s9-1",
+    "kp-s1c6s9-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "数目只有一套，说法有两套",
+      "body": "拉丁和希腊各有一套数词，英语把两套都借来了，而且分工有规律：\n\n- **拉丁数词**多用于法律、度量、日常学术词：uniform、bicycle、decimal、century。\n- **希腊数词**多用于数学、几何、科学术语：pentagon、tetrahedron、monologue、decathlon。\n\n于是英语里“一”有两个前缀：uni-（拉丁）与 mono-（希腊）；“四”有两个：quadr-（拉丁）与 tetra-（希腊）。它们不是同义词的两种写法，而是**两套构词系统**，出现在不同的术语群里。\n\n本课先记表，再学搭配倾向，最后处理混搭。"
+    },
+    {
+      "kind": "table",
+      "title": "1–10、百、千：两套对照",
+      "body": "第三、四列是构词时实际出现的形式，不是词典里的数词原形。请特别注意 3：tri- 在两套里同形，所以它**不能**用来判断语源——这也是下面搭配问题最容易出错的地方。",
+      "head": [
+        "数",
+        "拉丁",
+        "希腊",
+        "英语例词"
+      ],
+      "rows": [
+        [
+          "1",
+          "un- / uni-（unus）",
+          "mono- / mon-（monos）",
+          "uniform；monologue"
+        ],
+        [
+          "2",
+          "bi- / du-（bis, duo）",
+          "di- / dy-（dyo）",
+          "bicycle；dichotomy"
+        ],
+        [
+          "3",
+          "tri-（tres）",
+          "tri-（treis）",
+          "triangle（拉丁）；triad（希腊）"
+        ],
+        [
+          "4",
+          "quadr- / quart-（quattuor）",
+          "tetra-（tettares）",
+          "quadrilateral；tetrahedron"
+        ],
+        [
+          "5",
+          "quint-（quinque）",
+          "penta-（pente）",
+          "quintet；pentagon"
+        ],
+        [
+          "6",
+          "sex- / sext-（sex）",
+          "hexa-（hex）",
+          "sextant；hexagon"
+        ],
+        [
+          "7",
+          "sept- / septem（septem）",
+          "hepta-（hepta）",
+          "September；heptagon"
+        ],
+        [
+          "8",
+          "octo- / octav-（octo）",
+          "octa-（okto）",
+          "October；octagon"
+        ],
+        [
+          "9",
+          "novem- / non-（novem）",
+          "ennea-（ennea）",
+          "November；enneagon"
+        ],
+        [
+          "10",
+          "decem- / decim-（decem）",
+          "deca-（deka）",
+          "decimal；decathlon"
+        ],
+        [
+          "100",
+          "cent-（centum）",
+          "hecto-（hekaton）",
+          "century；hectare"
+        ],
+        [
+          "1000",
+          "mill- / milli-（mille）",
+          "kilo-（khilioi）",
+          "mile；kilogram"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "同语源搭配是倾向，不是规则",
+      "body": "造词者通常会保持语源一致：\n\n- **pentagon**：penta-（希腊）+ gon（希腊“角”）——全希腊\n- **quadrilateral**：quadr-（拉丁）+ later（拉丁“边”）+ -al——全拉丁\n- **uniform**：uni-（拉丁）+ form（拉丁“形”）——全拉丁\n- **monologue**：mono-（希腊）+ logue（希腊“话”）——全希腊\n\n判据不在数词本身，而在**词根**：gon、hedron、log、meter 是希腊的；later、form、lingu、ped、man 是拉丁的。先认词根，再回头判断数词该用哪套。\n\n但请记住：这是**统计倾向**。19 世纪的科学家造词时并不查语源，只要意义合用就拼在一起。"
+    },
+    {
+      "kind": "text",
+      "title": "混搭很常见，而且是真实语料",
+      "body": "下面这些词都是**故意混用**，而且已经固定在英语里：\n\n- **monolingual**：mono-（希腊）+ lingua（拉丁“舌、语言”）+ -al → 单语的\n- **bicycle**：bi-（拉丁）+ cycle（希腊 kyklos“轮”）→ 自行车，19 世纪人造词\n- **television**：tele-（希腊“远”）+ visio（拉丁“看”）→ 电视\n- **automobile**：auto-（希腊“自己”）+ mobilis（拉丁“可动的”）→ 汽车\n- **sociology**：socius（拉丁“同伴”）+ logia（希腊“学问”）→ 社会学\n\n这些词的存在说明：数词素（和其他词素一样）在英语里是**可自由组合的材料**，语源一致性只是习惯。遇到混搭词不要判为“错词”，也不要说它“不符合构词法”。"
+    },
+    {
+      "kind": "compare",
+      "title": "两套数词的分工倾向",
+      "body": "左右两列不是硬性规定，但能覆盖绝大多数情况。第三、四行给出反例与判据：tri- 两套同形，不能用它判语源；真正的判据是后面的词根属于哪套语言。把倾向当规则用，就会在 bicycle、monolingual 这类混搭词上翻车。",
+      "a": "拉丁数词更常见于",
+      "b": "希腊数词更常见于",
+      "rows": [
+        {
+          "label": "领域",
+          "a": "法律、度量、日常学术",
+          "b": "数学、几何、医学、科学"
+        },
+        {
+          "label": "典型词",
+          "a": "uniform、bicycle、decimal、century",
+          "b": "pentagon、tetrahedron、monologue、decathlon"
+        },
+        {
+          "label": "同形陷阱",
+          "a": "tri- 与希腊 tri- 同形，不能判语源",
+          "b": "octo-/octa- 只差一个元音，要看词根"
+        },
+        {
+          "label": "判据",
+          "a": "看词根是否为 later、form、lingu、ped",
+          "b": "看词根是否为 gon、hedron、log、meter"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w20d5-p1",
+      "kind": "mcq",
+      "prompt": "下面哪个词的成分全部来自希腊语？",
+      "choices": [
+        "pentagon",
+        "quadrilateral",
+        "uniform",
+        "triangle"
+      ],
+      "answer": 0,
+      "explain": "pentagon = penta-（希腊“五”）+ gon（希腊“角”），全希腊。quadrilateral 与 uniform 全用拉丁成分。triangle 看似希腊，实际来自拉丁 triangulum（tri- + angulus“角”），是拉丁词——这正是“tri- 同形不能判语源”的例子。",
+      "concepts": [
+        "c-greek-latin",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w20d5-p2",
+      "kind": "mcq",
+      "prompt": "monolingual 的构词特点是：",
+      "choices": [
+        "混用：mono- 是希腊，lingua 是拉丁",
+        "全希腊：mono- 与 lingua 都来自希腊",
+        "全拉丁：mono- 与 lingua 都来自拉丁",
+        "无法分析，属不可切分的借词"
+      ],
+      "answer": 0,
+      "explain": "mono- 来自希腊 monos，lingua 是拉丁“舌、语言”。bilingual、multilingual 则全用拉丁成分（bi-/multi- + lingua）。三词并排，正好说明同一词根可以配不同语源的数词素。",
+      "concepts": [
+        "c-greek-latin",
+        "c-combining"
+      ]
+    },
+    {
+      "id": "w20d5-p3",
+      "kind": "cloze",
+      "prompt": "填入希腊数词素",
+      "sentence": "A ___hedron has four faces, as the name says; the regular one is the simplest of the Platonic solids.",
+      "answer": "tetra",
+      "accept": [
+        "tetra",
+        "tetra-"
+      ],
+      "explain": "tetra-（希腊“四”）+ hedron（希腊“面”）= tetrahedron 四面体。同族的还有 tetrapod（四足动物）、tetrarch。拉丁的“四”是 quadr-，出现在 quadrilateral、quadruped 里。",
+      "concepts": [
+        "c-greek-latin",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w20d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知希腊 athlon 意为“竞赛、奖项”，decathlon 指：",
+      "choices": [
+        "十项全能",
+        "十公里赛跑",
+        "十人接力",
+        "第十届比赛"
+      ],
+      "answer": 0,
+      "explain": "deca-（希腊“十”）+ athlon（竞赛）→ 由十个项目组成的比赛，即十项全能。biathlon（两项）、triathlon（三项）同型。注意 deca- 是希腊的，拉丁的“十”是 decim-（decimal）。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin"
+      ],
+      "hint": "先定数词，再定被数的东西。"
+    },
+    {
+      "id": "w20d5-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“五边形”的切分",
+      "parts": [
+        "penta",
+        "gon"
+      ],
+      "answer": "pentagon",
+      "explain": "penta-（希腊“五”）+ gon（希腊“角”）→ 五边形。美国国防部所在地因建筑呈五边形而得名，于是 Pentagon 又转指国防部——这是转喻，不是新词素。",
+      "concepts": [
+        "c-word-sum",
+        "c-greek-latin"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w20d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 unilateral 的含义",
+      "passage": "The decision was unilateral: the board acted alone, without consulting the partners or the regulators, and the other parties learned of it only after it had been announced.",
+      "word": "unilateral",
+      "choices": [
+        "单方面的、未经协商的",
+        "双边的、双方共同的",
+        "多边的、涉及多方的",
+        "暂定的、可撤回的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：uni-（拉丁“一”）+ later（拉丁“边、侧”）+ -al → “只有一边的”；② 冒号后解释：acted alone；③ 对照：without consulting the partners、the other parties learned of it only after，全是被排除的一方；④ 排除：双边、多边与 acted alone 直接矛盾。",
+      "explain": "unilateral 是“单方面的”。它是全拉丁成分（uni- + later- + -al），与 bilateral、multilateral 构成一组。看到 later 就知道该用拉丁数词，不会写成 *monolateral。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin",
+        "c-combining"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 9 节：数词素的语源搭配与拉丁希腊对照"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "拉丁与希腊数词的构词形式"
+    }
+  ]
+}

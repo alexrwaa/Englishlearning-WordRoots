@@ -1,0 +1,268 @@
+{
+  "id": "w17d7",
+  "week": 17,
+  "day": 7,
+  "title": "多出来的 t、r、y：加音变体",
+  "tagline": "词根在派生时会长出一个音，长哪个没有规则",
+  "objectives": [
+    "能列出 duc/duct、frag/fract/frang、spec/spect 三组加音变体",
+    "能区分加音与同化，不把 miss 说成“mit 加 s”",
+    "能按“先试最长形”的策略解析 permission、tensile 这类生词"
+  ],
+  "prereqs": [
+    "w17d6",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-word-sum",
+    "c-scientific",
+    "duc"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s8-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "长出来的那个音是什么",
+      "body": "同一个词根，在有些派生词里会多出一个音：duc- 与 duc-t-、frag- 与 frac-t-、spec- 与 spec-t-、corp- 与 corp-or-。\n\n最常见的多出来的音是 **t**，它原本是拉丁完成分词的后缀（-tus），今天已经与词根粘死，不能再切出来——那套机制第 14 周已经讲过，这里只用结论。此外还会多出 r（corpor-）、y（bathy-），甚至一整个音节。\n\n关键：**长不长、长哪个，没有规则**。同样是“送”，mit 在名词里变 miss；同样是“引导”，duc 在名词里变 duct。",
+      "terms": [
+        {
+          "term": "extension",
+          "zh": "加音（词根扩展）",
+          "en": "extension",
+          "note": "词根在特定派生形式中多出一个音"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "变体表：把一行当一个单位",
+      "body": "注意两件事：第一，t 这一列最多，但并非唯一；第二，mit~miss 是多出来的 ss 吗？不是——是 t 被后面的 s 同化掉了。它列在这里只作对照，机制与加音不同。而 ten 有两行，因为“伸展”与“握持”是两个不同的拉丁动词，只是拼写撞在一起。",
+      "head": [
+        "词根",
+        "变体",
+        "多出的音",
+        "例"
+      ],
+      "rows": [
+        [
+          "duc 引导",
+          "duc ~ duct",
+          "t",
+          "produce / product"
+        ],
+        [
+          "frag 破",
+          "frag ~ fract ~ frang",
+          "t / n",
+          "fragile / fracture / frangible"
+        ],
+        [
+          "spec 看",
+          "spec ~ spect",
+          "t",
+          "special / inspect"
+        ],
+        [
+          "corp 身体",
+          "corp ~ corpor",
+          "or（一个音节）",
+          "corp / corporeal"
+        ],
+        [
+          "bath 深",
+          "bath ~ bathy",
+          "y",
+          "bathysphere"
+        ],
+        [
+          "ten 伸展",
+          "ten ~ tend ~ tens",
+          "d / s",
+          "tendency / tensile"
+        ],
+        [
+          "mit 送",
+          "mit ~ miss",
+          "ss（同化，非加音）",
+          "admit / permission"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "先试最长的那一形",
+      "body": "解析生词的顺序应当是：**先在元素表里找最长的变体，再退回短形**。\n\n- permission：先试 miss（长），得 per + miss + ion，通；若先试 mit，会卡住。\n- tensile：先试 tens，得 tens + ile，通；“ten + sil”讲不通。\n- reception：先试 cept，得 re + cept + ion，通（cept 属 cap 族，第 4 天）。\n\n反过来，只记短形（mit、ten、duc）的话，上面三个词全部解析失败。这就是“元素表要连变体一起记”的实际理由，第 18 周最后一天还会回到这一点。"
+    },
+    {
+      "kind": "compare",
+      "title": "加音 vs 同化：多一个音，还是换一个音",
+      "body": "两者都会让同一成分出现两个形状，但一个是“增”，一个是“改”。判据很简单：数一数音段的数量。duct 比 duc 多一个 t（增）；miss 与 mit 的音段数一样，只是 t 变成了同部位的 s（改）。",
+      "a": "加音变体",
+      "b": "同化变体",
+      "rows": [
+        {
+          "label": "变化",
+          "a": "多一个音（t / r / y）",
+          "b": "换一个音的部位（t → s；n → m / l / r）"
+        },
+        {
+          "label": "例",
+          "a": "duc → duct；frag → fract",
+          "b": "mit → miss；in- → im-"
+        },
+        {
+          "label": "触发",
+          "a": "词形所属的派生类型（名词、分词）",
+          "b": "后接音的部位"
+        },
+        {
+          "label": "能否预测",
+          "a": "不能",
+          "b": "能：同化条件明确"
+        },
+        {
+          "label": "学习策略",
+          "a": "整行记",
+          "b": "记条件即可"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "两个常见误判",
+      "body": "1. **把同化当加音**：admission 的 ss 不是“多出来的 s”，而是 t 在后接 s 时被同化掉。写成 mit + sion 只是拼写想象，拉丁里从来没有这个组合。\n2. **把加音当中缀**：fract 的 t 在词尾，不是插在词中间；真正插在词中间的是 frang 的 n（下一课讲）。\n\n分清这两点，你才不会把 miss 说成“mit 加 s”，也不会把 frang 说成“frag 加 n 后缀”。术语用错，后面所有推理都会跟着错。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w17d7-p1",
+      "kind": "mcq",
+      "prompt": "permission 中词根的形状是：",
+      "choices": [
+        "miss（mit 被后接的 s 同化后的形状）",
+        "mit",
+        "mis",
+        "mit 加后缀 s"
+      ],
+      "answer": 0,
+      "explain": "拉丁 permittere 的名词是 permissio：词根的 t 在后接 s 时被同化为 ss，于是 mit 变 miss。这是同化，不是加音；音段数量没变，只是部位改了。同族 admit/admission、submit/submission 完全一致。",
+      "concepts": [
+        "c-allomorph",
+        "c-word-sum"
+      ]
+    },
+    {
+      "id": "w17d7-p2",
+      "kind": "mcq",
+      "prompt": "duct 里的 t 从哪来？",
+      "choices": [
+        "拉丁完成分词后缀 -t-，今天已与词根粘死",
+        "英语过去式 -ed 的缩略",
+        "为了发音方便插入的过渡音",
+        "来自希腊语的冠词"
+      ],
+      "answer": 0,
+      "explain": "ducere 的完成分词是 ductus，-t- 就是分词后缀。英语借的是 duct- 这个词干，于是 product、conduct、deduction 都用长形。第 14 周讲过这套 -t- 的三种来源，这里只需要记住：它已经不能单独切出来。",
+      "concepts": [
+        "c-etymology",
+        "duc"
+      ]
+    },
+    {
+      "id": "w17d7-p3",
+      "kind": "cloze",
+      "prompt": "填入一个单词（复数）",
+      "sentence": "A word element should be learned together with all its ___ , not as a single spelling.",
+      "answer": "allomorphs",
+      "accept": [
+        "allomorphs",
+        "allomorph"
+      ],
+      "explain": "元素表的单位是“一行变体”，不是一个拼写。只记 duc 的人读不懂 product，只记 ten 的人读不懂 tensile。这也是本课标题的意思：加音变体不可预测，所以必须随表一起记。",
+      "concepts": [
+        "c-allomorph",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w17d7-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）seduce 中的 -duce 与 product 中的 -duct 同族。seduce 最可能的意思是：",
+      "choices": [
+        "把（人）引开、引诱",
+        "减少",
+        "生产",
+        "运输"
+      ],
+      "answer": 0,
+      "explain": "se-（离开）+ duc（引导）→“引到一边去”→ 引诱、诱使。同族 reduce（往回引→减少）、produce（向前引→产出）、introduce（引进去→介绍）。看到 -duce/-duct 先定“引导”，再由前缀定方向，这是本课最实用的迁移路径。",
+      "concepts": [
+        "c-inference",
+        "c-prefix",
+        "duc"
+      ],
+      "hint": "先定词根义，再看前缀的方向。"
+    },
+    {
+      "id": "w17d7-p5",
+      "kind": "wordSum",
+      "prompt": "写出 product 的构词算式",
+      "parts": [
+        "pro",
+        "duct"
+      ],
+      "answer": "product",
+      "explain": "pro-（向前）+ duct（duc 的加音变体，“引导”）→“被引出来的东西”→ 产品、产物。这里必须用长形 duct：pro + duc 拼不出 product。数学里的“乘积”是同一义的引申：由两个数“引出”的结果。",
+      "concepts": [
+        "c-word-sum",
+        "c-prefix",
+        "duc"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w17d7-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 tensile 的含义",
+      "passage": "The fibre is strong in tension but weak in compression: its tensile strength is what keeps the cable from snapping.",
+      "word": "tensile",
+      "choices": [
+        "抗拉的、可拉伸的",
+        "抗压的",
+        "耐高温的",
+        "导电的"
+      ],
+      "answer": 0,
+      "strategy": "① 对照：strong in tension / weak in compression，tensile 与 tension 同族，落在“拉”这一侧；② 构词：tens（ten“伸展”的加音变体）+ -ile“能……的”；③ 结果：keeps the cable from snapping 说明是抗断的拉力。",
+      "explain": "tensile 字面“能伸展的”，工程上指抗拉。tens- 是 ten“伸展”的变体（同族 tend、tension、extend）。注意别把它连到“十”（deci-/dec-）：拼写像，来源不同——这正是需要按元素表查、而不是按拼写猜的地方。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "c-scientific"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：加音变体（duc~duct、ten~tend~tens、bath~bathy）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "ducere/ductus、tendere/tensus、permittere/permissio 的屈折形式"
+    }
+  ]
+}

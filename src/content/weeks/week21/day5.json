@@ -1,0 +1,249 @@
+{
+  "id": "w21d5",
+  "week": 21,
+  "day": 5,
+  "title": "听错一次，词义就拐了弯",
+  "tagline": "bead 从“祈祷”变成“珠子”，since 从“在那之后”变成“因为”： misinterpretation 是第一类动因",
+  "objectives": [
+    "能复原 bead 与 since 的语义链，指出“误读”发生在哪一步",
+    "能说明重新分析（reanalysis）与民间词源（folk etymology）的区别与证据形式",
+    "能判断一个说法属于“误解致变”还是“形式误改而意义未变”"
+  ],
+  "prereqs": [
+    "w21d4",
+    "w10d3"
+  ],
+  "concepts": [
+    "c-semantic-shift",
+    "c-metonymy",
+    "c-etymology",
+    "c-transparency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s4-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "误解为什么能改变语言",
+      "body": "说话总是不精确的：一个词的实际所指比它“应该”指的范围更宽或更窄，听者只能按**当时最凸显的联想**去补全。如果这个补全被反复采用，它就固化成新义。\n\n教材把这类动因放在第一位，理由很实在：它不是偶发的口误，而是**理解过程的常态**。听者不是被动接收，而是在建一个“说话人大概想说什么”的模型；模型一旦偏移，词义就跟着偏移。\n\n要留一个分寸：不是所有误解都会进入语言。能固化下来的，通常满足两个条件——**听者的理解有现成的联想依据**（邻接、因果、形状），并且**新用法有实际用处**（更省事、更生动、能指新事物）。",
+      "terms": [
+        {
+          "term": "reanalysis",
+          "zh": "重新分析",
+          "en": "reanalysis",
+          "note": "使用者对词的结构或指称做出新的切分与理解"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "bead：数念珠，就是数祈祷",
+      "body": "古英语 **gebed** 的意思是“祈祷”，和 **bid**（吩咐、祈求）、德语 Gebet（祈祷）同源。中世纪天主教用一串小球来记念诵的遍数，那串东西叫 **prayer beads**——“祈祷之珠”。\n\n关键一步在这里：因为珠子与祈祷在动作上紧紧相邻，说 bead 时听者越来越直接想到“那颗珠子”，而不是“那次祈祷”。于是 14 世纪以后，**bead** 的常用义变成“有孔的小珠”，并且长出了 beadwork、beaded 这些新形式。\n\n今天 bare bead 只剩“珠子”义，“祈祷”义要靠 bid、Gebet 这些同源词才看得出来。这正是“误解导致转义”的标本：**邻接关系被听者提升为指称关系**。",
+      "steps": [
+        {
+          "period": "古英语",
+          "form": "gebed",
+          "note": "祈祷；与 bid“祈求”同源"
+        },
+        {
+          "period": "中古英语",
+          "form": "bede",
+          "note": "祈祷；prayer beads 指计数用的珠串"
+        },
+        {
+          "period": "14–15 世纪",
+          "form": "bede / bead",
+          "note": "由“祈祷”转指“念珠”，再泛指小珠"
+        },
+        {
+          "period": "现代英语",
+          "form": "bead",
+          "note": "珠子、水珠；beadwork、beaded"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "since：结果紧随原因，于是“之后”变成“因为”",
+      "body": "**since** 来自中古英语 sithens，更早是古英语 **siþþan**，本义“在那之后”，只表时间。今天它仍是时间连词：since 2020、since we moved here。\n\n因果义是怎么长出来的？因为在叙事里，**原因总是紧挨着结果出现**：“既然你已经知道了（在那之后的状态成立），我就不必解释”。听者把“时间上的先行”重新理解为“逻辑上的前提”，于是 since 有了“因为、既然”一义。\n\n这条路径值得记住，因为它是**推理型转喻**：不是形状相似，也不是部分代整体，而是“先后关系”被读成“因果关系”。同类还有 **as**（当……时→因为）、**while**（当……时→虽然，转折也是从时间对比来的）。",
+      "terms": [
+        {
+          "term": "siþþan",
+          "zh": "古英语“在那之后”",
+          "en": "siþþan",
+          "note": "since 的祖先，只有时间义"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "民间词源：把陌生形式改成熟悉形式",
+      "body": "另一类“误解”发生在**形式**上：遇到看不懂的词，使用者会按熟悉的词去改写它。这叫 **folk etymology**（民间词源）。\n\n- **nickname**：中古英语是 an ekename（eke“额外的”＋name），重新切分为 a nekename，n 被挪到后面。\n- **adder**：古英语 nædre，a nadder 被切成 an adder，词首的 n 归给了冠词。\n- **female**：来自古法语 femelle，与 male 无词源关系，却因联想被改拼成 fe-male。\n- **shamefaced**：原是 shamefast（fast 在此义为“受约束的”），被改写成 face＋-ed，于是字面义从“受羞耻约束”变成“面带羞色”。\n\n前三例只改形式、不改意义；**shamefaced 连意义也轻微改了**。所以民间词源既可以只是拼写事件，也可以顺带推动语义。",
+      "terms": [
+        {
+          "term": "folk etymology",
+          "zh": "民间词源",
+          "en": "folk etymology",
+          "note": "按熟悉的词改写陌生形式"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "重新分析与民间词源：一个无声，一个有痕",
+      "body": "两者都是“误解被制度化”，但证据不同。重新分析常在语义层悄悄完成，你要靠义项的历史才能发现；民间词源会留下拼写或词界的疤痕，翻早期文献就能看到。判题时先问“变的是意义还是形式”，答案通常立刻分明。",
+      "a": "重新分析（意义层）",
+      "b": "民间词源（形式层）",
+      "rows": [
+        {
+          "label": "典型例",
+          "a": "bead“祈祷→珠子”；since“之后→因为”",
+          "b": "nickname、adder、female、shamefaced"
+        },
+        {
+          "label": "改变的对象",
+          "a": "词的指称或结构理解",
+          "b": "词的拼写、词界、内部划分"
+        },
+        {
+          "label": "证据",
+          "a": "义项出现年代的先后、同源语的旁证",
+          "b": "早期拼写异体、冠词与名词的重新分界"
+        },
+        {
+          "label": "是否改变词义",
+          "a": "必然改变",
+          "b": "多数不改；涉及内部形式被重解时会轻微改变"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w21d5-p1",
+      "kind": "mcq",
+      "prompt": "bead 的语义链条，正确顺序是？",
+      "choices": [
+        "“祈祷”→“（计数用的）念珠”→“珠子”",
+        "“珠子”→“念珠”→“祈祷”",
+        "“祈祷”→“珠子”→“念珠”",
+        "“珠子”→“祈祷”→“念珠”"
+      ],
+      "answer": 0,
+      "explain": "古英语 gebed 是“祈祷”，prayer beads 是数念珠以计祈祷次数的串珠；因为动作相邻，bead 被听者直接理解为“珠子”，随后泛指一切小珠。方向不能倒：先有“祈祷”，才有念珠。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-metonymy"
+      ]
+    },
+    {
+      "id": "w21d5-p2",
+      "kind": "mcq",
+      "prompt": "since 从时间义扩展出因果义，依据的联想关系是？",
+      "choices": [
+        "先后关系被读成因果关系：原因总紧随结果之前",
+        "形状相似：时间与原因在图上都是线",
+        "部分代整体：时间是因果的一部分",
+        "声音相似：since 与 because 押韵"
+      ],
+      "answer": 0,
+      "explain": "这是推理型转喻：在叙述中，前提（原因）先出现，结论随后出现，于是“在先”被重新理解为“因为”。同类的 as、while 也走过类似的路。这不是隐喻（无相似性），也不是部分代整体。",
+      "concepts": [
+        "c-metonymy",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w21d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "A single ___ of sweat ran down his temple and dropped onto the map.",
+      "answer": "bead",
+      "accept": [
+        "bead"
+      ],
+      "explain": "bead 在这里是“（水、汗的）小珠”，由“珠子”义隐喻扩展到任何小圆滴。这条用法能成立，正因为 bead 的常用义已经是“小珠”，而“祈祷”义早已退场。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-metaphor"
+      ]
+    },
+    {
+      "id": "w21d5-p4",
+      "kind": "mcq",
+      "prompt": "shamefaced 常被认为由 shame＋face＋-ed 构成。事实与影响是？",
+      "choices": [
+        "原形是 shamefast（fast 义为“受约束”），被改写后字面义也从“受羞耻约束”偏向“面带羞色”",
+        "它确实由 shame＋face 构成，词源与 shamefast 无关",
+        "它来自古法语，改写发生在诺曼征服时期",
+        "它只是拼写现代化，语义丝毫未变"
+      ],
+      "answer": 0,
+      "explain": "shamefast 中的 -fast 是“牢固、受约束”（与 steadfast 同），整体是“受羞耻约束的、羞怯的”。被重新分析成 face＋-ed 之后，字面义向“脸上带羞色”偏移，所以这是民间词源中少见的“形式与意义同时微调”的例子。",
+      "concepts": [
+        "c-etymology",
+        "c-transparency"
+      ]
+    },
+    {
+      "id": "w21d5-p5",
+      "kind": "mcq",
+      "prompt": "初次见到 “The plan was denounced as an outrage against common sense.” 有人解释 outrage 是 out＋rage“怒气外溢”。更可靠的判断是？",
+      "choices": [
+        "这是民间词源：outrage 来自古法语 outrage，源头是拉丁 ultra“超出”，与 out＋rage 无词源关系",
+        "解释正确，outrage 就是“怒气冲出来”",
+        "outrage 来自古英语 ūt＋hregg，属本土复合词",
+        "outrage 是 20 世纪的新造词，尚无定论"
+      ],
+      "answer": 0,
+      "explain": "outrage 经古法语进入英语，追溯至拉丁 ultra“超出”（同族有 outrageous 的法语形态），本义是“越界、暴行”。因为它形式上太像 out＋rage，英语使用者不断按这个内部形式去理解，这正是民间词源在起作用——但词源事实不因联想而改变。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w21d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "Since the archive has already been digitised, there is no reason to keep the paper copies in the reading room. The librarian moved them to the basement the same week the scanners arrived.",
+      "word": "Since",
+      "choices": [
+        "因为、既然（引导原因）",
+        "自从（引导时间起点）",
+        "自从那以后（作副词）",
+        "虽然（引导让步）"
+      ],
+      "answer": 0,
+      "strategy": "① 结构：Since 引导的从句与主句构成“前提—结论”关系，there is no reason 是结论；② 时态：has already been digitised 是完成态，若表时间起点，主句通常用完成或持续体，此处用的是 there is；③ 替换测试：换成 Because 句义不变，换成 From the time 则不通；④ 排除“虽然”：语义方向相反。",
+      "explain": "这里的 since 是因果连词。它的因果义正是从“在那之后”长出来的：前提先成立，结论随后成立，听者把时间上的先行读成逻辑上的前提。注意同一个词在同一句法位置上仍可能是时间义——判定必须依靠主从句的语义关系，而不是词形。",
+      "concepts": [
+        "c-inference",
+        "c-metonymy",
+        "c-semantic-shift"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 4 节：错误与误解导致的转义（bead、since）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "gebed／siþþan／ekename／nædre／shamefast／outrage 的语源"
+    }
+  ]
+}

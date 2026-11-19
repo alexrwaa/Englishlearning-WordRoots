@@ -1,0 +1,235 @@
+{
+  "id": "w20d3",
+  "week": 20,
+  "day": 3,
+  "title": "元音弱化：cap / cep / cip 三副面孔",
+  "tagline": "非重读音节的短元音会降一级、再降一级",
+  "objectives": [
+    "能说出拉丁元音弱化的三个条件：非重读音节、短 a 变 e、开音节中 e 变 i",
+    "能用 cap-/cept-/cip- 与 fac-/fect-/fic- 两组演示弱化的两级",
+    "能说明弱化只发生在非重读音节，首音节不弱化"
+  ],
+  "prereqs": [
+    "w20d2",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-etymology",
+    "cept",
+    "cap"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s7-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "重音在首音节，后面的元音就松了",
+      "body": "早期拉丁的重音固定在**首音节**，后面的音节读得轻、短。发音器官在轻读位置上不愿做大幅度动作，短元音于是向中央位置靠拢，这叫**元音弱化**（vowel weakening）。规则有三步：\n\n1. **只发生在非重读音节**。首音节是重音所在，元音保持原样。\n2. **非重读的短 a 变 e**。\n3. **非重读的短 e 在“单辅音 + 元音”前变 i**（即开音节）；后面是辅音丛（闭音节）时停在 e。\n\n第 3 条还有个附带效果：**由 a 弱化来的 e 还能继续变 i**。于是一个词根在英语里可以有三副元音：a、e、i。"
+    },
+    {
+      "kind": "table",
+      "title": "两组三副面孔",
+      "body": "第二列是词根本来的样子（a），第三列弱化一级（e），第四列再弱化一级（i）。最右列说明触发条件：闭音节停在 e，开音节继续到 i；而前两行的 a 之所以没被弱化，是因为它们处在重读的首音节。",
+      "head": [
+        "原形",
+        "一级（e）",
+        "二级（i）",
+        "条件"
+      ],
+      "rows": [
+        [
+          "cap-（capere 拿）",
+          "cept-：accept、concept、reception",
+          "cip-：recipient、recipe、incipient",
+          "cept 后接辅音或词末；cip 处开音节"
+        ],
+        [
+          "fac-（facere 做）",
+          "fect-：effect、perfect、infect",
+          "fic-：efficient、sufficient、proficient",
+          "同上"
+        ],
+        [
+          "cap-（首音节，重读）",
+          "—",
+          "—",
+          "capable、capture、caption 保持 a"
+        ],
+        [
+          "fac-（首音节，重读）",
+          "—",
+          "—",
+          "facile、fact、factory 保持 a"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "判据：音节形状 + 重音位置",
+      "body": "看到同一词根的元音不同，先做两步检查：\n\n**第一步，看这个元音在不在重读音节。** 英语重音与拉丁不完全一致，但通常首音节重读的词保留原元音：capable、capture、factory、facile 都是 a。所以“为什么 capable 是 a、accept 是 e”不是例外，而是重音位置不同。\n\n**第二步，看后面的音节是开是闭。** 开音节（单辅音 + 元音）里 e 会升到 i：re-ci-pi-ent、ef-fi-ci-ent、dif-fi-ci-lis。闭音节（后面还有辅音）停在 e：con-cept、ef-fect；开音节继续升到 i：dif-fi-cult 的 -fi-、ef-fi-cient 的 -fi-。\n\n两条一起用，就能解释绝大多数派生词的元音。"
+    },
+    {
+      "kind": "text",
+      "title": "recipe：一个词把三副面孔串起来",
+      "body": "拉丁 *recipere*（收回、接受）的祈使式是 **recipe**“拿！”，古时医生在处方开头写这个词，意思是“取下列药物”。英语把这个祈使式整个借来，成了名词 **recipe**——今天还读 [ˈresəpi]，保留着拉丁式拼读。\n\n于是同一个词根 capere 在英语里三副面孔都能独立成词：\n\n- **cap-**：capable、capture（首音节，保持 a）\n- **cept-**：accept、concept、reception（非重读闭音节）\n- **cip-**：recipe、recipient（非重读开音节）\n\n这不是三个词根，是一个词根在不同语音环境下的三个结果。"
+    },
+    {
+      "kind": "compare",
+      "title": "弱化与着色：条件不同，别混用",
+      "body": "明天要讲的着色也会改变元音，但两者的触发条件完全不同。看到元音变了，先判断是哪一类：位置在非重读音节、且元音是 a/e/i 三级的，是弱化；位置紧邻 r 或 l 的，是着色。",
+      "a": "元音弱化",
+      "b": "元音着色（明天讲）",
+      "rows": [
+        {
+          "label": "触发条件",
+          "a": "非重读音节 + 音节形状",
+          "b": "紧邻 r 或 l"
+        },
+        {
+          "label": "变化方向",
+          "a": "a → e → i（逐级升高）",
+          "b": "a/o → u（l 前），a → e（r 前）"
+        },
+        {
+          "label": "与重音的关系",
+          "a": "必须是非重读音节",
+          "b": "与重音无关，重读也可能发生"
+        },
+        {
+          "label": "例证",
+          "a": "accept / recipient",
+          "b": "insult / cultivate"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w20d3-p1",
+      "kind": "mcq",
+      "prompt": "effect 中的 fect 来自 facere 的弱化，触发条件是：",
+      "choices": [
+        "a 在非重读音节，弱化为 e",
+        "a 在重读音节，强化为 e",
+        "fac 后接 -t 时固定变 fect",
+        "受法语拼写影响"
+      ],
+      "answer": 0,
+      "explain": "ef- 是 ex- 的同化形，重音落在 fect 之前的音节上，词根处于非重读位置，短 a 弱化为 e，再加分词 -t- 得 fect-。这是弱化，不是“后接 -t 就变 e”的拼写规则：fact、factory 同样接 t 却保留 a，因为重音位置不同。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w20d3-p2",
+      "kind": "mcq",
+      "prompt": "recipient 中词根写作 cip 而不是 cep，原因是：",
+      "choices": [
+        "ci 是开音节（单辅音 + 元音），e 继续弱化为 i",
+        "recipient 来自另一个词根",
+        "受法语 i 化影响",
+        "-ient 后缀要求词根用 i"
+      ],
+      "answer": 0,
+      "explain": "recipere 的现在时词干是 re-cip-，c 与 p 之间只有一个元音，属开音节，e 升为 i。reception 取的是分词词干 recept-，后面还有辅音，属闭音节，就停在 e。同一动词，两套词干。",
+      "concepts": [
+        "c-allomorph",
+        "cept"
+      ]
+    },
+    {
+      "id": "w20d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个拉丁词（英语中也用作名词）",
+      "sentence": "The Latin imperative ___, meaning 'take!', was once written at the head of a doctor's list of ingredients.",
+      "answer": "recipe",
+      "accept": [
+        "recipe"
+      ],
+      "explain": "recipe 是 recipere 的祈使式“拿！”。医生写它表示“取以下各物”，后来整张单子就叫 recipe，再引申为烹饪法、诀窍。它的 cip 正是开音节弱化的结果。",
+      "concepts": [
+        "cept",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w20d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 sub- 表“在下”，capere 表“拿”，susceptible 最可能的意思是：",
+      "choices": [
+        "易受影响的、易感的",
+        "可疑的、令人怀疑的",
+        "能接受的、受欢迎的",
+        "被替代的、备用的"
+      ],
+      "answer": 0,
+      "explain": "sus-（sub- 在 s 前的同化形）+ cept-（拿，弱化形）+ -ible（能……的）→ “能被从下面拿住的”，即易受影响的、易感的。suspect（怀疑）同根但取的是另一条语义路径。",
+      "concepts": [
+        "c-inference",
+        "cept"
+      ],
+      "hint": "先把前缀与词根的字面义拼起来，再选最贴近的引申义。"
+    },
+    {
+      "id": "w20d3-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“接待、接收”的切分",
+      "parts": [
+        "re",
+        "cept",
+        "ion"
+      ],
+      "answer": "reception",
+      "explain": "re-（回）+ cept-（拿，分词词干弱化形）+ -ion → “拿回来、接过来”，即接待、接收。对比 recipient：同一个动词，一个取分词词干 cept，一个取现在时词干 cip。",
+      "concepts": [
+        "cept",
+        "c-word-sum"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w20d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 imperceptible 的含义",
+      "passage": "The change was imperceptible at first: the frame drifted by less than a pixel per hour, far below what the eye could notice, and only the logged coordinates revealed that anything had moved at all.",
+      "word": "imperceptible",
+      "choices": [
+        "觉察不到的、极微小的",
+        "不可接受的、被拒绝的",
+        "无法测量的、缺数据的",
+        "无法逆转的、永久的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：im-（否定）+ per-（穿过）+ cept-（拿）+ -ible（能……的）→ “拿不住、抓不到的”；② 冒号后给出量级：less than a pixel per hour；③ 对照：far below what the eye could notice；④ 排除：不可接受是语义误推，无法测量与 logged coordinates 矛盾。",
+      "explain": "imperceptible 是“觉察不到的”，字面“无法被抓取”。cept 是 capere 的非重读弱化形；同族 perceive、perception 保留了 cept 前后的不同词干形状，正好复习今天的规则。",
+      "concepts": [
+        "c-inference",
+        "cept",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 7 节：拉丁元音弱化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "capere / facere 的现在时与分词词干，recipe 的祈使式来源"
+    }
+  ]
+}

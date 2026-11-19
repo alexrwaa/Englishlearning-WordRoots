@@ -1,0 +1,233 @@
+{
+  "id": "w20d4",
+  "week": 20,
+  "day": 4,
+  "title": "元音着色：l 把 a 拉成 u",
+  "tagline": "为什么是 insult 而不是 inselt——旁边的 l 改了元音的音色",
+  "objectives": [
+    "能说出元音着色的条件：元音紧邻 r 或 l 时音质被拉偏",
+    "能解释 saltare → sult-、facilis → facul- 两组 u 的来历",
+    "能说明着色与弱化可能叠加，但判据不同"
+  ],
+  "prereqs": [
+    "w20d3",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-etymology",
+    "cult"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s7-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "邻接辅音会改动元音的音色",
+      "body": "发 [l] 时舌背抬高、口腔后部收紧；发 [r] 时舌尖卷起、舌体后缩。这两种发音姿势都会影响相邻元音的共振峰，使它在听感上偏移。拉丁的结果是：\n\n- **在 [l] 前**，元音倾向变成 **u**（或 o）。\n- **在 [r] 前**，元音倾向变成 **e**；短 a 在 r 前站不住，最终不是 e 就是 o。\n\n这叫**元音着色**（vowel coloring）。它与重音无关，重读音节里的元音也会被染色，所以不能拿“非重读”去解释它。\n\n着色的实用价值是**预期**：看到 -sult-、-cult- 就想到“跳、耕”，看到 -fer-、-sert- 就想到“带、连”。"
+    },
+    {
+      "kind": "table",
+      "title": "l 前的 a 与 o 都变成 u",
+      "body": "第二列是词根原形，第三列是着色后的形状，第四列是英语结果。请注意第三列的 u 在拉丁里已经定型，英语只是继承——今天读到的 u 不是英语改的。",
+      "head": [
+        "拉丁原形",
+        "着色后",
+        "英语例词",
+        "意义"
+      ],
+      "rows": [
+        [
+          "saltare 跳（salire 的反复形）",
+          "sult-",
+          "insult、result、assault、exult",
+          "跳向、跳起 → 攻击、结果、欢腾"
+        ],
+        [
+          "colere 耕、培",
+          "cult-",
+          "cultivate、culture、aquiculture",
+          "耕作、培养"
+        ],
+        [
+          "facilis 容易的",
+          "facul-（facultas 能力）",
+          "faculty、difficult",
+          "能力；困难的"
+        ],
+        [
+          "vulgus 大众",
+          "vulg-（未变）",
+          "vulgar、divulge",
+          "对照：u 本来就存在"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "r 前看不到 a",
+      "body": "在 [r] 前，拉丁的短 a 几乎从不定型为 a。它要么变 e，要么变 o：\n\n- **-fer-**（ferre 带来）：confer、differ、transfer、refer\n- **-sert-**（serere 连接）：insert、desert、assert\n- **-per-**（experiri 试验）：experiment、experience、expert\n- **-port-**（与 pars“部分”同源）：portion、proportion、apportion\n\n最后一行值得注意：同一个“部分”的词根，在 pars 里是 a，在 portio 里是 o。这就是 r 把 a 拉走的证据。至于为什么有的变 e、有的变 o，取决于后面的音节与重音，不必强求一条公式。\n\n使用原则：**看到 r 旁边的 a，先怀疑自己读错了词根**；但不要反过来用“应该是 e”去改拼写。"
+    },
+    {
+      "kind": "text",
+      "title": "着色与弱化会叠加",
+      "body": "insult 是最好的例子。按弱化规则，in- 后面非重读的短 a 应该变 e，得到 *inselt；但实际的英语形式是 insul-，因为后面的 l 把元音拉向 u。两条规则同时起作用，着色赢了。\n\n同理：\n- **difficult**：dis- + facul-（facilis 的着色形）→ 非重读的 a 变 u，而不是 e。\n- **cultivate**：colere 的 o 在 l 前变 u，与重音无关（col- 本来就是首音节）。\n\n所以判断顺序应当是：**先看邻接辅音（着色），再看重音与音节形状（弱化）**。反过来的话，你会不断遇到“规则不灵”的错觉。"
+    },
+    {
+      "kind": "compare",
+      "title": "着色只是倾向，不是定律",
+      "body": "着色能解释很多词形，但它不是可逆公式。下面三列把“能用”和“不能用”分开，避免过度推广——这也是本课程反复强调的：音变规则是解释工具，不是生成器。",
+      "a": "可以说",
+      "b": "不能说",
+      "rows": [
+        {
+          "label": "方向",
+          "a": "-sult- 里的 u 与 l 有关，同类还有 -cult-、-cul-",
+          "b": "所有 u 都是 l 造成的"
+        },
+        {
+          "label": "推理",
+          "a": "看到 -fer-、-sert- 的 e，可以预期词根是“带、连”",
+          "b": "把 e 改成别的元音来“复原”拉丁原形"
+        },
+        {
+          "label": "范围",
+          "a": "拉丁内部已定型，英语只继承",
+          "b": "英语现在还在按 l、r 改元音"
+        },
+        {
+          "label": "反例",
+          "a": "vulgar 的 u 本来就有",
+          "b": "凡 u 必来自着色"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w20d4-p1",
+      "kind": "mcq",
+      "prompt": "insult 中词根写作 -sult- 而不是按弱化规则预期的 -selt-，原因是：",
+      "choices": [
+        "后面的 l 把元音着色为 u，着色优先于弱化",
+        "insult 不是拉丁词，弱化规则不适用",
+        "s 使前面的元音变 u",
+        "重音落在词根上，元音不弱化"
+      ],
+      "answer": 0,
+      "explain": "拉丁 insultare 来自 in- + saltare（跳），非重读的 a 本该弱化为 e；但 [l] 的发音姿势把元音拉向 u，于是定形为 sult-。result、assault、exult 同型。这说明着色可以与弱化竞争，并且常常胜出。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w20d4-p2",
+      "kind": "mcq",
+      "prompt": "cultivate 中的 u 来自：",
+      "choices": [
+        "拉丁 colere 的 o 在 [l] 前被着色为 u",
+        "拉丁 culpa（罪）的词根",
+        "英语把 col 改成 cul 的拼写规则",
+        "-ivate 后缀要求词根用 u"
+      ],
+      "answer": 0,
+      "explain": "colere（耕、培）的分词是 cultus，词干 cult-，o 在 [l] 前变 u。英语 cultivate、culture、aquiculture 都取这副形状。culpa 虽然也写作 cul-，但义为“罪责”，与耕作无关。",
+      "concepts": [
+        "cult",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w20d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语名词",
+      "sentence": "Latin facultas, from facilis 'easy', gives English ___, which can mean either an ability or a division of a university.",
+      "answer": "faculty",
+      "accept": [
+        "faculty"
+      ],
+      "explain": "facultas 的词干 facul- 里，a 在 [l] 前被着色为 u；英语 faculty 直接继承。difficult 也来自同一族（dis- + facultas），所以两者的 -cul- 是同一个着色的结果。",
+      "concepts": [
+        "c-etymology",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w20d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 ex- 表“向外”，拉丁 saltare 表“跳”，exult 最可能的意思是：",
+      "choices": [
+        "欢腾、雀跃",
+        "跳出、逃离",
+        "驱逐、赶出",
+        "向下跳、下降"
+      ],
+      "answer": 0,
+      "explain": "exsultare 字面是“跳起来”，拉丁已用来表示“雀跃、得意”。sult 是 salt- 的着色形，与 insult、result、assault 同根。注意不要按“ex- 向外 + 跳”硬译成“跳出”——词义在拉丁内部已经引申。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ],
+      "hint": "先认词根，再看拉丁里的固定引申义。"
+    },
+    {
+      "id": "w20d4-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“侮辱、冒犯”的切分",
+      "parts": [
+        "in",
+        "sult"
+      ],
+      "answer": "insult",
+      "explain": "in-（朝向、在上）+ sult-（saltare“跳”的着色形）→ “跳到别人身上”，即攻击、侮辱。这里的 u 不是弱化来的 e，而是 [l] 着色的结果，所以你不能用弱化规则去解释它。",
+      "concepts": [
+        "c-word-sum",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w20d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 aquiculture 的含义",
+      "passage": "Unlike coastal fishing, aquiculture is carried out in tanks and ponds, where the stock, the feed and the water quality can all be controlled; the fish are bred rather than caught.",
+      "word": "aquiculture",
+      "choices": [
+        "水产养殖",
+        "远洋捕捞",
+        "水质检测",
+        "鱼类加工"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：aqui-（拉丁 aqua“水”）+ cult-（colere“耕、培”的着色形）+ -ure（名词后缀）→ “在水里耕作”；② 对比结构：Unlike coastal fishing 明确与捕捞对立；③ 关键句：bred rather than caught 直接给出“养殖”；④ 排除：捕捞是被否定项，检测与加工都无 tank、feed、breed 的对应。",
+      "explain": "aquiculture 是“水产养殖”，与 agriculture（耕种田地）同型。cult 的 u 是 [l] 着色的结果，同一词根还有 culture、cultivate。认出 cult = 培养，这个词就不必查。",
+      "concepts": [
+        "c-inference",
+        "cult",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 7 节：元音着色"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "saltare / colere / facilis / pars 的词形与英语对应"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "id": "w18d1",
+  "week": 18,
+  "day": 1,
+  "title": "插进词根里的 n：鼻音中缀",
+  "tagline": "frang 与 fract：一个中缀，一个分词后缀",
+  "objectives": [
+    "能指出 tang、frang、cumb 里中缀的位置",
+    "能说明中缀只出现在现在时词干，完成分词词干没有它",
+    "能把 intact 里的 in- 与 tang 里的 n 分开"
+  ],
+  "prereqs": [
+    "w17d7",
+    "w14d6"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-inflection",
+    "c-etymology",
+    "frag",
+    "tact"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s9-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "插在词根元音后面的 n",
+      "body": "拉丁有几个动词的现在时词干里，词根元音后面插着一个 n 或 m：\n\n- tag-（触）→ **tang**-o, tangere\n- frag-（破）→ **frang**-o, frangere\n- cub-（躺）→ -**cumb**-ere（recumbere、incumbere）\n\n位置是固定的：**词根元音之后、词根收尾辅音之前**。这个 n/m 是印欧语的现在时标记，叫**鼻音中缀**（nasal infix）。在英语里它没有任何功能，只是词形的一部分。",
+      "terms": [
+        {
+          "term": "infix",
+          "zh": "中缀",
+          "en": "infix",
+          "note": "插在词根内部的中缀成分"
+        },
+        {
+          "term": "nasal infixation",
+          "zh": "鼻音中缀",
+          "en": "nasal infixation",
+          "note": "在词根元音后插入 n 或 m 的形态手段"
+        }
+      ],
+      "morphemes": [
+        "tact",
+        "frag"
+      ],
+      "morphemeIds": [
+        "rx-tact",
+        "cx-frag-frang"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三组：带中缀的现在词干与不带中缀的分词",
+      "body": "每一行都是同一件事：现在时词干里多一个鼻音，完成分词词干里没有。英语两边都借：形容词多取现在词干（tangible、frangible），名词与形容词也常取分词词干（tactile、fracture）。所以同一词根在英语里留下两副面孔。",
+      "head": [
+        "词根",
+        "现在词干（带中缀）",
+        "完成分词词干",
+        "英语词"
+      ],
+      "rows": [
+        [
+          "tag 触",
+          "tang-",
+          "tact-",
+          "tangible / tactile / contact"
+        ],
+        [
+          "frag 破",
+          "frang-",
+          "fract-",
+          "frangible / fracture / fragile"
+        ],
+        [
+          "cub 躺",
+          "cumb-",
+          "cub-",
+          "incumbent / incubate"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "和完成分词后缀怎么配合",
+      "body": "第 14 周讲过：-t- 是拉丁完成分词后缀，于是 ag- → act-、sent- → sens-。那套机制解释的是 fract、tact 里为什么有 t。\n\n今天补上另一半：frang、tang 里的 n 不在完成分词里，只在**现在时**词干里。两个机制叠在一起，才造成 frang / fract 这对差异极大的形状：\n\n- 现在时：frag + n + 词尾 → frang-\n- 完成时：frag + t + 词尾 → fract-\n\n所以说“frang 是 fract 加了 n”并不准确：它们是同一词根的两套词干，各有各的标记。",
+      "terms": [
+        {
+          "term": "present stem",
+          "zh": "现在时词干",
+          "en": "present stem",
+          "note": "构成现在时系统的词干，可能带中缀"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三个陷阱",
+      "body": "1. **别把 n 当前缀**：intact = in-（不）+ tact（碰过的）→“没被碰过的”。它不是 in + tang，中间没有中缀。\n2. **别把中缀当后缀**：tangent 的 -ent 才是后缀，n 在词根内部；切作 tang + ent，不能切作 ta + ng + ent。\n3. **别指望类推**：不是所有词根都有中缀（duc 就没有“dunc”）。见到 -ang-、-umb- 这类形状，去元素表查，而不是现场造规则。"
+    },
+    {
+      "kind": "compare",
+      "title": "中缀 vs 前缀／后缀",
+      "body": "英语里真正的构词中缀几乎不存在，中缀只以化石形式留在借词里。所以看到“词根中间多一个音”，不要急着给它派功能：它多半是拉丁或印欧语留下的形态标记，今天只用来区分词干。",
+      "a": "中缀（infix）",
+      "b": "前缀／后缀",
+      "rows": [
+        {
+          "label": "位置",
+          "a": "词根内部，元音之后",
+          "b": "词首或词尾"
+        },
+        {
+          "label": "英语里能否独立使用",
+          "a": "不能，只以化石形式出现",
+          "b": "能（un-、re-、-tion、-al）"
+        },
+        {
+          "label": "今天的功能",
+          "a": "无；只区分词干",
+          "b": "否定、方向、词性、语法"
+        },
+        {
+          "label": "例",
+          "a": "tang、frang、cumb",
+          "b": "in-、con-、-ent、-ile、-ure"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w18d1-p1",
+      "kind": "mcq",
+      "prompt": "tangible 与 tactile 的差别主要在于：",
+      "choices": [
+        "前者用现在时词干 tang（带中缀），后者用完成分词词干 tact",
+        "前者是形容词，后者是名词",
+        "前者来自希腊语，后者来自拉丁语",
+        "两者没有共同词根"
+      ],
+      "answer": 0,
+      "explain": "两词都从 tangere“触”来：tangible 取现在词干 tang + -ible（能被触到的），tactile 取分词词干 tact + -ile（触觉的）。差别不在词性或语源，而在拉丁动词的两套词干。",
+      "concepts": [
+        "c-allomorph",
+        "tact"
+      ]
+    },
+    {
+      "id": "w18d1-p2",
+      "kind": "mcq",
+      "prompt": "intact 的正确切分是：",
+      "choices": [
+        "in + tact（tact 为 tag 的完成分词词干）",
+        "in + tang + t",
+        "int + act",
+        "i + ntact"
+      ],
+      "answer": 0,
+      "explain": "intactus = in-（不）+ tactus（被碰过的），意为“未被触碰的、完好的”。这里没有中缀，因为 tact 是分词词干。若切成 in + tang + t，就把两套词干混在一起了。",
+      "concepts": [
+        "c-morpheme",
+        "tact"
+      ]
+    },
+    {
+      "id": "w18d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个术语（英文）",
+      "sentence": "The n in frangere is a nasal ___, inserted after the root vowel.",
+      "answer": "infix",
+      "accept": [
+        "infix"
+      ],
+      "explain": "插在词根内部的成分叫中缀。它与前缀、后缀的区别是位置：前缀在词首，后缀在词尾，中缀在词根之内。英语没有能产的中缀，这个 n 只是拉丁动词的化石标记。",
+      "concepts": [
+        "c-allomorph",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w18d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）frangible 最可能的意思是：",
+      "choices": [
+        "易碎的",
+        "可食用的",
+        "易燃的",
+        "可弯曲的"
+      ],
+      "answer": 0,
+      "explain": "frang（frag“破”的现在词干）+ -ible（能……的）→“能被打碎的”。同族 fragile、fracture、fragment、infringe。若只记 frag，会切不出 frang；若把 n 当否定前缀，就会误以为意思是“不可破的”——正好相反。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "frag"
+      ],
+      "hint": "先确认 n 属于词根，不是否定前缀。"
+    },
+    {
+      "id": "w18d1-p5",
+      "kind": "wordSum",
+      "prompt": "写出 contact 的构词算式",
+      "parts": [
+        "con",
+        "tact"
+      ],
+      "answer": "contact",
+      "explain": "con-（共同、相互）+ tact（触碰，tag 的完成分词词干）→“相互触碰”→ 接触、联系。这里用 tact 而不是 tang，因为拉丁名词 contactus 取的是分词词干。算式写对了，词源也就记住了。",
+      "concepts": [
+        "c-word-sum",
+        "c-prefix",
+        "tact"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w18d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 intangible 的含义",
+      "passage": "The asset is intangible: you cannot touch it, weigh it, or lock it in a vault, yet it can be worth more than the factory.",
+      "word": "intangible",
+      "choices": [
+        "无形的、不可触摸的",
+        "无价的",
+        "无法计算的",
+        "不可转让的"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后 cannot touch it 是直接释义；② 构词：in-（不）+ tang（触，带中缀的现在词干）+ -ible（能……的）；③ 对比：yet it can be worth more than the factory，用有形的工厂反衬“无形”。",
+      "explain": "intangible 用现在词干 tang，与 intact 用分词词干 tact 形成对照：同一词根、两套词干、两个词。会计与法律里“无形资产”固定说 intangible assets，与 tangible assets 相对，这是最值得整块记住的搭配。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "tact"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：鼻音中缀（tang/frang/cumb）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "tangere/tactus、frangere/fractus、cumbere/cubare 的屈折形式"
+    }
+  ]
+}

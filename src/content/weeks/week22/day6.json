@@ -1,0 +1,261 @@
+{
+  "id": "w22d6",
+  "week": 22,
+  "day": 6,
+  "title": "三种收场：被顶替、被替换、被误用",
+  "tagline": "car 的“马车”义不是变小了，是被挤走了；cripple 的替身换了一轮又一轮；reticent 的语素没变，整词却跑了",
+  "objectives": [
+    "能说明“义项替代”与“扩大／缩小”的区别，并用 car 的链条演示",
+    "能描述委婉语—贬化的循环，解释为什么替换不会终止",
+    "能说明语义变化作用于整词而非语素，并举 reticent、ostentatious 为例"
+  ],
+  "prereqs": [
+    "w22d5",
+    "w22d3"
+  ],
+  "concepts": [
+    "c-semantic-shift",
+    "c-pejoration",
+    "c-register",
+    "c-morpheme"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s13-2",
+    "kp-s1c7s13-4",
+    "kp-s1c7s13-5"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "义项替代：不是范围变了，是位置被占了",
+      "body": "第 10 周讲的是**扩大**与**缩小**：指称范围变宽或变窄。但还有一种变化不在这个坐标系里——**义项替代**：一个义项把另一个挤出常用位置，范围本身没伸缩。\n\n**car** 是最好的例子。它经北方法语 carre 来自拉丁 **carrus**“有轮的车”。中古英语里 car 泛指各种车、车厢：铁路出现后有 railroad car，电梯有 elevator car。1896 年前后，car 开始指“汽车”，随后迅速占满这个词的日常用法。\n\n今天在美式英语里单说 car，默认就是汽车；要说“马车”得用 carriage、cart，要说“车厢”得说 railcar、streetcar。**旧义不是消失了，而是退到复合形式里去了**——这正是义项替代的典型形态：新义占住无标记位置，旧义被降级为有标记用法。",
+      "terms": [
+        {
+          "term": "sense replacement",
+          "zh": "义项替代",
+          "en": "sense replacement",
+          "note": "新义占据常用位置，旧义退居复合形式或废弃"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "委婉语的跑步机",
+      "body": "有些词指称的对象本身让人不适：疾病、残疾、死亡、贫困、解雇。直接说会带来尴尬，于是人们换一个更中性的说法，这叫 **euphemism**（委婉语）。\n\n问题是：新说法指向的**还是同一个对象**，而负面联想不在词里，在对象上。所以新词一通行，就继承了旧词的色彩，随后被贬化（pejoration）。于是必须再换一个。\n\n英语里残疾的说法换了至少三轮：\n\n- **cripple**（原指身体伤残者）→ 20 世纪被视为冒犯\n- **handicapped** → 也被认为暗含“受限”\n- **disabled** → 有人指出它仍以“无能力”为核心\n- **person with a disability** → 把人放在前面，残疾只作属性\n\n教材另一个例子是 **encore presentation** 代替 **rerun**：同一个“重播”，换个说法就显得体面些。这条循环没有终点，因为它解决的是**联想**，不是**事实**。",
+      "terms": [
+        {
+          "term": "euphemism",
+          "zh": "委婉语",
+          "en": "euphemism",
+          "note": "为避免不快联想而换用的中性说法"
+        },
+        {
+          "term": "euphemism treadmill",
+          "zh": "委婉语跑步机",
+          "en": "euphemism treadmill",
+          "note": "新说法通行后再次沾上负面色彩，需继续替换"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "变的是词，不是语素",
+      "body": "这是本单元最实用的一条规则：**语义漂移发生在整词层，语素义基本稳定。**\n\n- **reticent** 来自拉丁 reticere（re-“回”＋tac“沉默”），本义“沉默寡言的”。今天许多人用它表示“不情愿”（reticent to agree），这个用法常被规范派批评，但已相当普遍。注意：tac 仍是“沉默”——**tacit** 就是“默示的、不言明的”。语素没动，整词跑了。\n- **ostentatious**（炫耀的）与 **ostensible**（表面上的）共享拉丁 ostendere“展示”，前缀与词根相同，但前者带强烈贬义，后者中性。贬义是整个词在使用中沾上的，不属于 os- 或 ten-。\n- **insist** 的 sist 仍是“站”（同 persist、resist），但 insist 的“坚持主张”无法从 in＋sist 直接加出来——它是拉丁语里已经词汇化的整体义。\n\n推论很直接：**拆词只能给你一个候选义，语境才能定音。** 把语素义当公式硬算，遇到这类词必错。",
+      "terms": [
+        {
+          "term": "lexicalized",
+          "zh": "词汇化的",
+          "en": "lexicalized",
+          "note": "整体义已固定，不能由成分简单相加得出"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三种收场的对照",
+      "body": "三种结果经常同时出现在一个词上（car 就既有替代又有链条），所以要能分开表述。判断时问两个问题：范围变了吗？变化发生在词的哪一层？如果两条都答不上来，说明你手里只有一个术语，还没有证据。",
+      "head": [
+        "结果",
+        "机制",
+        "典型例",
+        "判断依据"
+      ],
+      "rows": [
+        [
+          "义项替代",
+          "新义占常用位置，旧义退到复合形式",
+          "car：车／车厢→汽车",
+          "旧义仍见于 railcar、streetcar，但不用于无标记单用"
+        ],
+        [
+          "委婉—贬化循环",
+          "新说法继承对象的负面联想，再次被替换",
+          "cripple→handicapped→disabled→person with a disability",
+          "同一指称对象、连续换词、每次都伴随语域上升"
+        ],
+        [
+          "整词漂移",
+          "整词义改变，语素义不变",
+          "reticent（沉默→不情愿）；ostentatious（展示→炫耀）",
+          "同语素的其它词仍保持原义（tacit、ostensible）"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "语素层稳定，词层漂移：这对阅读意味着什么",
+      "body": "这意味着两件事。好消息：词素知识能给你稳定的锚点，看见 tac 就知道跟“沉默”有关。坏消息：锚点不等于答案，整词义可能已经离锚很远。所以正确的用法是“用语素定位语义场，用语法定具体义”。",
+      "a": "语素层（稳定）",
+      "b": "整词层（漂移）",
+      "rows": [
+        {
+          "label": "例子",
+          "a": "tac“沉默”、sist“站”、ten“握持”",
+          "b": "reticent“不情愿”、insist“坚持”、ostentatious“炫耀”"
+        },
+        {
+          "label": "变化速度",
+          "a": "极慢，数百年基本不动",
+          "b": "快，一两代人就可能转向"
+        },
+        {
+          "label": "可靠程度",
+          "a": "高：可用于猜词方向",
+          "b": "中：必须由语境确认"
+        },
+        {
+          "label": "误用后果",
+          "a": "几乎不会错",
+          "b": "容易把“沉默”硬套到“不情愿”上，读错态度"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w22d6-p1",
+      "kind": "mcq",
+      "prompt": "car 从“车、车厢”到“汽车”，按本课的分类属于？",
+      "choices": [
+        "义项替代：新义占据无标记位置，旧义退到 railcar、streetcar 等复合形式",
+        "词义扩大：car 的指称范围变宽了",
+        "词义缩小：car 的指称范围变窄了",
+        "同形异义：两个 car 来源不同"
+      ],
+      "answer": 0,
+      "explain": "关键看旧义是否还在无标记位置。今天单说 car 默认是汽车，“马车／车厢”义只在复合形式里存活，所以是新义顶替旧义的位置，而不是范围伸缩。两个 car 同源（都来自拉丁 carrus），不是同形异义。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-narrowing"
+      ]
+    },
+    {
+      "id": "w22d6-p2",
+      "kind": "mcq",
+      "prompt": "cripple→handicapped→disabled→person with a disability 这一串替换，说明的核心机制是？",
+      "choices": [
+        "委婉语指向同一对象，因而继承其负面联想，通行后再次被贬化，只好继续替换",
+        "每一代人都比上一代更善良",
+        "这些词的词根意义在逐渐消失",
+        "英语缺少表示残疾的词，所以不断新造"
+      ],
+      "answer": 0,
+      "explain": "负面联想附着在指称对象上，不在词形上；换个词指同一个对象，联想随之转移。所以替换是循环而非终点。这不是道德进步或词汇缺失的问题，而是委婉语的固有结构。",
+      "concepts": [
+        "c-pejoration",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w22d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "He was ___ to sign the letter: he said nothing, but he also did not refuse.",
+      "answer": "reticent",
+      "accept": [
+        "reticent"
+      ],
+      "explain": "冒号后的 said nothing, but he also did not refuse 正是“不愿表态、有所保留”，所以用 reticent。这里取的是它在现代英语中扩展出的“不情愿说”义，而语素 tac 仍是“沉默”——整词义走了，语素义没走。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w22d6-p4",
+      "kind": "mcq",
+      "prompt": "ostentatious 带贬义而 ostensible 不带，最合理的解释是？",
+      "choices": [
+        "贬义是整个词在使用中获得的，不属于共享的 os-／ten- 语素",
+        "因为 ostentatious 的 -ous 本身表示贬义",
+        "因为 ostensible 是较晚借入的，尚未沾染贬义",
+        "因为两个词其实没有共同词源"
+      ],
+      "answer": 0,
+      "explain": "两词都来自 ostendere“展示”，语素相同。贬义来自“炫耀式展示”这一用法长期积累的评价色彩，是整词层的沉淀。-ous 只是形容词后缀，本身不表贬义；两词确实同源。",
+      "concepts": [
+        "c-pejoration",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w22d6-p5",
+      "kind": "mcq",
+      "prompt": "读到 “She insisted that the meeting be moved.” 若只按 in-＋sist“站在上面”硬推，会得到什么错误结论？",
+      "choices": [
+        "会推出“她站在会议上方”这类空间义，而实际义是“坚持主张”，属词汇化的整体义",
+        "会推出“她反对搬会议”，与实际义相反",
+        "会推出“她主持了会议”，与实际义一致",
+        "不会出错，因为 insist 就是“站”的意思"
+      ],
+      "answer": 0,
+      "explain": "sist“站”只能给出方向，不能给出“坚持主张”这个词汇化结果。insist 的义在拉丁语里就已固定，英语整词借入。这正是“变化作用于整词”的实践含义：拆解给语义场，句法给具体义（insisted that＋虚拟式＝坚持要求）。",
+      "concepts": [
+        "c-morpheme",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w22d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "The 1978 sign still says handicapped parking, though the space has been repainted and the new sign reads accessible. The university changed the wording after a committee argued that the older term described the person rather than the space.",
+      "word": "handicapped",
+      "choices": [
+        "供残障人士使用的（旧说法，现已多被 accessible 取代）",
+        "供手工劳动者使用的",
+        "有障碍物的、无法通行的",
+        "被禁止停车的"
+      ],
+      "answer": 0,
+      "strategy": "① 同现：parking、the space、repainted 说明是停车位标识；② 对照：新标识作 accessible，二者指同一批车位；③ 解释句：the older term described the person rather than the space 说明旧词指人而非场地；④ 时代线索：1978 与 still says 表明这是被替换的旧说法。",
+      "explain": "handicapped 在这里是 20 世纪后期指残障人士的委婉语，曾广泛用于标识；因被认为暗含“受限”，逐渐被 accessible、person with a disability 等说法取代。这段文字正好展示了委婉语循环的一个现场：不是词不好，而是联想随对象转移。",
+      "concepts": [
+        "c-inference",
+        "c-register",
+        "c-pejoration"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 13 节：义项替代、委婉语与贬化的循环、变化作用于整词"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "carrus／reticere／ostendere 的语源；残疾称谓的语域变迁"
+    }
+  ]
+}

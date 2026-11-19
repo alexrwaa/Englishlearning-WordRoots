@@ -1,0 +1,258 @@
+{
+  "id": "w19d2",
+  "week": 19,
+  "day": 2,
+  "title": "清浊同化：prescription 里为什么没有 b",
+  "tagline": "浊音在清音前面站不住，于是在拉丁里提前清化——英语只是分别借走了两个词干",
+  "objectives": [
+    "能说出清浊同化的条件：浊辅音紧接清辅音时清化",
+    "能解释 scrib/script、reg/rect 两组交替，并指出触发音都是 -t-",
+    "能说明为什么 subtract、obtain 里同样的组合却不清化"
+  ],
+  "prereqs": [
+    "w19d1",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-etymology",
+    "c-spelling-rule",
+    "script",
+    "tract"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s3-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "声带先停了",
+      "body": "发浊音（b、d、g、z）时声带要振动；紧接着的**清音**（p、t、k、s）要求声带停止振动。提前停比临时切换省力，于是浊音在清音前**清化**（devoicing），这是同化的一种——不是向后接音的部位靠拢，而是向它的**清浊状态**靠拢。\n\n拉丁里最稳定的两个触发音是分词后缀的 **-t-** 和 **-s-**。凡是一个以 b、g 结尾的动词词干要接 -t-，清化就会发生，写成 p、c：**scrib- → script-**，**reg- → rect-**。\n\n于是同一个动词在拉丁里有两套词干：现在时词干（保留浊音）和分词词干（已经清化）。英语把两套都借来了。"
+    },
+    {
+      "kind": "table",
+      "title": "一条规则，五组交替",
+      "body": "第二、三列是同一个词根的两种词干，第四列是英语各取一套的结果。请注意右边这一列里常常**两个都活着**：describe 与 description 并排存在，正是两套词干分别被借走的证据。",
+      "head": [
+        "词根",
+        "现在时词干",
+        "分词词干（-t- 前）",
+        "英语例词"
+      ],
+      "rows": [
+        [
+          "scribere 写",
+          "scrib-",
+          "script-（b→p）",
+          "describe / description；prescribe / prescription；manuscript"
+        ],
+        [
+          "regere 引导",
+          "reg-",
+          "rect-（g→c）",
+          "regent / correct、direct、rectangle"
+        ],
+        [
+          "agere 做、驱动",
+          "ag-",
+          "act-（g→c）",
+          "agent / action、active、exact"
+        ],
+        [
+          "legere 读、选",
+          "leg-",
+          "lect-（g→c）",
+          "legend / collect、select、elect"
+        ],
+        [
+          "nubere 结婚",
+          "nub-",
+          "nupt-（b→p）",
+          "nubile / nuptial"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "这不是英语的拼写规则",
+      "body": "最容易犯的错，是把这件事写成一条共时规则：“英语里 b 在 t 前变 p”。**没有这条规则**——英语的拼写不会因为后面接 t 就改字母，subtract 的 b 就好端端地留着。\n\n正确的说法是历史的：清化发生在**拉丁内部造分词的时候**，英语只是先后借走了两个已经定型的词干。所以你能看到 describe 与 description 并存，却看不到英语在某个时刻把 b 改写成 p。\n\n这和第 5 周讲 mit/miss 是同一个处理方式：把 miss-、script-、rect- 当作**词干变体**（allomorph），回溯拉丁原形解释，而不是在英语层面编一条拼写规则。"
+    },
+    {
+      "kind": "text",
+      "title": "边界例外：subtract 与 obtain",
+      "body": "音变有**形态条件**：它在词素内部发生，不在两个词素的接缝上强制发生。\n\n- **sub + tract → subtract**：b 后面确实是 t，但 b 属于前缀、t 属于词根，两个音不在同一个词素内部，所以 b 保持浊音。\n- **ob + tinere → obtain**：同理，bt 丛照写不误。\n- 对比 **pre + script + ion**：这里的 b 与 t 原本同属词干 scrib- / script-，是词素内部的组合，所以清化。\n\n判据很简单：**看到“浊音 + 清音”的拼写，先问这两个音是不是同一个词素内部的**。是，就查拉丁分词词干；不是，就按原样读。"
+    },
+    {
+      "kind": "sum",
+      "title": "四条算式：清化与不清化",
+      "body": "前两条在词干内部，已经清化；后两条跨词素边界，浊音保留。把算式念出来，比只看结果更容易发现区别在哪一层：是同一个词素里两个音相邻，还是前缀与词根各据一方。",
+      "sums": [
+        {
+          "parts": [
+            "pre",
+            "script",
+            "ion"
+          ],
+          "result": "prescription",
+          "glossZh": "处方；规定",
+          "note": "词干取 script-，b 已在拉丁清化为 p"
+        },
+        {
+          "parts": [
+            "de",
+            "script",
+            "ion"
+          ],
+          "result": "description",
+          "glossZh": "描述",
+          "note": "同一词干的另一支"
+        },
+        {
+          "parts": [
+            "sub",
+            "tract"
+          ],
+          "result": "subtract",
+          "glossZh": "减去",
+          "note": "跨边界：b 在 t 前不清化"
+        },
+        {
+          "parts": [
+            "ob",
+            "tain"
+          ],
+          "result": "obtain",
+          "glossZh": "获得",
+          "note": "跨边界：b 保留，拼写作 ob-"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w19d2-p1",
+      "kind": "mcq",
+      "prompt": "prescription 里是 -script- 而不是 -scrib-，原因是：",
+      "choices": [
+        "拉丁分词词干 script- 中，b 在 t 前已清化为 p",
+        "英语拼写规则要求 c 后的 b 改写为 p",
+        "前缀 pre- 使词根清化",
+        "scribe 的名词形式另有词源"
+      ],
+      "answer": 0,
+      "explain": "scribere 的分词是 scriptus，词干 script-。清化发生在拉丁内部，与英语拼写规则、与 pre- 都无关；反证是 prescribe 里的 b 依然保留，因为那取的是现在时词干。",
+      "concepts": [
+        "script",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w19d2-p2",
+      "kind": "mcq",
+      "prompt": "下面哪一组的关系与 scrib / script 属于同一类？",
+      "choices": [
+        "ag / act",
+        "sub / subtract",
+        "pre / prescription",
+        "describe / description"
+      ],
+      "answer": 0,
+      "explain": "ag / act 是同一词根的两个词干，g 在 t 前清化为 c，与 scrib / script 完全平行。sub / subtract 是前缀与整词的关系；describe / description 是同一条规则的**结果实例**，不是交替本身；pre / prescription 是前缀与派生词的关系。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w19d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "The manual gives a detailed ___ of the calibration procedure, step by step.",
+      "answer": "description",
+      "accept": [
+        "description"
+      ],
+      "explain": "空格要名词，且与 describe 同族：describe 取现在时词干 scrib-，description 取分词词干 script-。两句的区别正是两套词干的分工，而不是两个不同词根。",
+      "concepts": [
+        "script",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w19d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 legere（读、选）的分词是 lectus，那么 lectern（读经台）里的 lect- 与 legend（传说）里的 leg- 是什么关系？",
+      "choices": [
+        "同一个词素的两个词干变体：leg- 是现在时词干，lect- 是分词词干",
+        "两个完全不同的词根，只是拼写相近",
+        "legend 来自希腊语，lectern 来自拉丁语",
+        "lect- 是 leg- 加后缀 -t 造出的新词素"
+      ],
+      "answer": 0,
+      "explain": "legere 的分词 lectus 给出 lect-，现在时给出 leg-。英语分别取用：collect、select、lecture 走分词词干，legend、legible 走现在时词干。两者语义都围绕“读、选”，不是两个词根。-t 不是英语后缀，而是拉丁分词后缀早已并入词干。",
+      "concepts": [
+        "c-allomorph",
+        "c-inference"
+      ],
+      "hint": "先找分词形，再看英语取了哪一套。"
+    },
+    {
+      "id": "w19d2-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“处方”的切分",
+      "parts": [
+        "pre",
+        "script",
+        "ion"
+      ],
+      "answer": "prescription",
+      "explain": "pre-（在前）+ script-（写，分词词干）+ -ion（名词后缀）→ “事先写下的东西”，即处方、规定。若写成 pre+scrib+tion 就错了：-tion 只能接在分词词干后，而 scrib 后面从来不加 -tion。",
+      "concepts": [
+        "script",
+        "c-word-sum"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w19d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 prescriptive 的含义",
+      "passage": "The style guide is prescriptive rather than descriptive: it does not report how engineers actually write, it lays down rules for how they ought to write, and it grades every deviation as an error.",
+      "word": "prescriptive",
+      "choices": [
+        "规定性的、订立规则的",
+        "描述性的、记录实况的",
+        "开处方的、医学的",
+        "禁止性的、违法的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：pre-（在前）+ script-（写）+ -ive（形容词后缀）→ “事先写定的”；② 对比结构：rather than descriptive 直接给出反义；③ 冒号后 lays down rules、ought to write、grades every deviation as an error 全是“规定”的证据；④ 排除：描述性正是被否定的那一项，医学义与语境无关。",
+      "explain": "prescriptive 在这里是“规定性的”，与 descriptive（描述性的）相对。词形上它取的是分词词干 script-，这也解释了为什么它不写成 prescribtive：-ive 接在词干后，而词干早已是 script-。",
+      "concepts": [
+        "c-inference",
+        "script",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 3 节：清浊同化与前缀例外"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "scribere / regere / agere / legere / vehere 的分词词干"
+    }
+  ]
+}

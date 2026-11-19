@@ -1,0 +1,274 @@
+{
+  "id": "w22d1",
+  "week": 22,
+  "day": 1,
+  "title": "省略：短形式为什么能继承整段意义",
+  "tagline": "microwave 原本只是修饰语，church 原本只是“属于主的”——中心词一走，它们就独占了指称",
+  "objectives": [
+    "能说明省略的触发条件：信息重心落在修饰语，中心词可预测因而被省",
+    "能复原 church 与 microwave 的省略过程，并指出残留部分如何获得独立指称",
+    "能区分省略（ellipsis）、截短（clipping）与缩合（blend）三种“变短”的方式"
+  ],
+  "prereqs": [
+    "w21d4",
+    "w07d4"
+  ],
+  "concepts": [
+    "c-clipping",
+    "c-compound",
+    "c-semantic-shift",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s6-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "省掉的为什么总是中心词",
+      "body": "省略（ellipsis）不是随便砍掉一段，它有固定偏好：**省中心词，留修饰语。**\n\n原因在信息结构。说 microwave oven 时，oven 是可预测的类别（还能是什么？），microwave 才是区分点。日常交际里，可预测的成分最容易被省——省掉它，听者仍能还原。\n\n省完会发生一件关键的事：**残留部分从“修饰语”升格为“指称整体的名词”**。microwave 原本是形容词性的成分，现在能带冠词、能加复数、还能动词化（microwave the soup）。这不是简单的缩短，而是词类与句法能力的重新分配。\n\n所以判断一个词是不是省略来的，看三条：能否还原全称、残留部分是否专指整体、它是否获得了独立的名词性用法。",
+      "terms": [
+        {
+          "term": "ellipsis",
+          "zh": "省略",
+          "en": "ellipsis",
+          "note": "短语中的可预测成分被省，留存部分继承整体义"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "church：一个形容词吃掉了整座房子",
+      "body": "希腊语 **kyriakon doma** 意为“属于主的房子”：kyriakon（kyrios“主”的形容词）＋doma（房屋）。基督教词汇经哥特语、日耳曼语一路西传，doma 在半路上掉了，只剩“属于主的”这个形容词，古英语作 **cirice**，今天作 **church**。\n\n这条链有意思的地方在于：留下来的成分本身并不表示“房子”，它表示“属于主的”。是**语境**补上了“房子”这一义——信徒聚会的地方只能是那种房子。\n\n这不是英语的怪癖。汉语的“微机”“彩电”同样是省中心词（微型计算机、彩色电视机），留下的都是修饰语。省略是跨语言的普遍策略：哪一部分可预测，哪一部分就先被省掉。",
+      "steps": [
+        {
+          "period": "希腊语",
+          "form": "kyriakon doma",
+          "note": "“属于主的房屋”；kyrios“主”"
+        },
+        {
+          "period": "日耳曼语",
+          "form": "*kirika",
+          "note": "doma 脱落，只剩形容词性成分"
+        },
+        {
+          "period": "古英语",
+          "form": "cirice",
+          "note": "已独立指“教堂”，词形本土化"
+        },
+        {
+          "period": "现代英语",
+          "form": "church",
+          "note": "教堂；教会；礼拜"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个省略案例：省了什么，留下什么",
+      "body": "注意第三列的“残留部分原义”与第四列的“今义”——两者差距就是省略造成的那一跳。差距越大，越说明残留部分已经完全接管了指称。四行里 brandy 最极端：留下的“烧过的”本来只是个分词，如今却单独指一种酒，连“酒”这个类别都得靠它自己承担。",
+      "head": [
+        "今形式",
+        "原短语",
+        "残留部分原义",
+        "今义"
+      ],
+      "rows": [
+        [
+          "microwave",
+          "microwave oven",
+          "微波（一种电磁波）",
+          "微波炉；用微波炉加热"
+        ],
+        [
+          "brandy",
+          "brandewijn（荷兰语“烧过的酒”）",
+          "烧过的",
+          "白兰地"
+        ],
+        [
+          "email",
+          "electronic mail",
+          "电子的",
+          "电子邮件；发邮件"
+        ],
+        [
+          "cell",
+          "cell phone（cellular phone）",
+          "单元、小室",
+          "手机（口语）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "省略、截短、缩合：三种“变短”别混",
+      "body": "三者都让词变短，但操作对象完全不同：\n\n- **省略（ellipsis）**：省的是**短语里的词**。microwave oven → microwave；electronic mail → email。\n- **截短（clipping）**：砍的是**单个词本身**。gymnasium → gym；telephone → phone；influenza → flu。\n- **缩合（blend）**：两个词各取一部分拼起来。smoke＋fog → smog；breakfast＋lunch → brunch。\n\n判别的关键是看“被省掉的部分是不是一个独立的词”。如果省掉的是短语里的另一个词，属省略；如果只是把一个词的后半截砍掉，属截短。\n\n这两类的结果有时很像（都得到一个短名词），但证据不同：省略能找到“全称”的早期文献，截短能找到“同义的长形式”并用至今。",
+      "terms": [
+        {
+          "term": "clipping",
+          "zh": "截短",
+          "en": "clipping",
+          "note": "砍掉单词的一部分：gym、phone、flu"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "省略的代价：歧义增加，靠语境回收",
+      "body": "省略不是免费的。残留部分一旦独立，就会与原有的同形词撞车。语言的处理办法是分化语域、固定搭配、必要时加回限定成分——所以你既可以说 cell，也可以在正式场合说 cell phone。",
+      "a": "省略后的短形式",
+      "b": "未被省略的全称",
+      "rows": [
+        {
+          "label": "例子",
+          "a": "cell、microwave、email",
+          "b": "cell phone、microwave oven、electronic mail"
+        },
+        {
+          "label": "语域",
+          "a": "口语、日常、内部行话",
+          "b": "正式、技术、首次提及"
+        },
+        {
+          "label": "歧义风险",
+          "a": "高：cell 还可指细胞、牢房",
+          "b": "低：限定成分排除歧义"
+        },
+        {
+          "label": "使用策略",
+          "a": "语境足够明确时才省",
+          "b": "跨语域或易混时补全"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w22d1-p1",
+      "kind": "mcq",
+      "prompt": "microwave 能同时表示“微波炉”和“用微波炉加热”，最直接的原因是？",
+      "choices": [
+        "它由 microwave oven 省略而来，残留的修饰语已升格为独立名词，因而可以再转换为动词",
+        "microwave 本来就是动词，名词义是后来加的",
+        "英语允许任何名词随意作动词，与省略无关",
+        "微波炉的发明者把这个词同时用作名词和动词"
+      ],
+      "answer": 0,
+      "explain": "省略让 microwave 从修饰语变成能独立指称的名词（a microwave、two microwaves），有了名词地位才谈得上转换构词。名词转动词在英语里很常见，但前提是它先得是个名词。",
+      "concepts": [
+        "c-clipping",
+        "c-conversion"
+      ]
+    },
+    {
+      "id": "w22d1-p2",
+      "kind": "mcq",
+      "prompt": "church 的词源链中，被省掉的是哪一部分？",
+      "choices": [
+        "doma“房屋”，留下的是 kyriakon“属于主的”",
+        "kyriakon“属于主的”，留下的是 doma“房屋”",
+        "kyrios“主”，留下的是 doma",
+        "整个希腊短语都被替换成日耳曼词"
+      ],
+      "answer": 0,
+      "explain": "kyriakon doma 中 doma“房屋”被省，留下的 kyriakon（属于主的）经日耳曼语、古英语演变为 church。留下的是形容词性成分，它的“房子”义完全靠语境补足——这正是省略的典型形态。",
+      "concepts": [
+        "c-borrowing",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w22d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "The Dutch called it brandewijn, “burnt wine”; English kept only the first element and dropped the wine, giving us ___.",
+      "answer": "brandy",
+      "accept": [
+        "brandy"
+      ],
+      "explain": "brandewijn＝branden（烧）＋wijn（酒），英语省略 wijn，只留“烧过的”，于是 brandy 独占“蒸馏葡萄酒”这一指称。省掉中心词、留下修饰语，与 microwave 的路径完全一致。",
+      "concepts": [
+        "c-borrowing",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w22d1-p4",
+      "kind": "mcq",
+      "prompt": "下面哪一组配对正确？",
+      "choices": [
+        "microwave ← microwave oven（省略）；gym ← gymnasium（截短）",
+        "microwave ← microwave oven（截短）；gym ← gymnasium（省略）",
+        "两者都是缩合",
+        "两者都是省略"
+      ],
+      "answer": 0,
+      "explain": "省略省的是短语里的另一个词（oven），截短砍的是单词自身的后半（gymnasium→gym）。判别关键：被去掉的部分是不是一个独立的词。gym 的全称是一个单词，microwave 的全称是两个词。",
+      "concepts": [
+        "c-clipping",
+        "c-compound"
+      ]
+    },
+    {
+      "id": "w22d1-p5",
+      "kind": "mcq",
+      "prompt": "读到 “The menu lists a burger, a fishburger and a veggie burger.” 对 burger 最合理的分析是？",
+      "choices": [
+        "它从 hamburger 中被重新切分出来，成为可自由组合的成分，因而能派生出 fishburger、veggie burger",
+        "burger 是德语借词，与 hamburger 无关",
+        "burger 是截短形式，来自 hamburger 的前半截",
+        "burger 是缩合词，由 bun＋urger 构成"
+      ],
+      "answer": 0,
+      "explain": "hamburger 原指“汉堡（Hamburg）式的”，与 ham“火腿”无关。英语使用者把它重新切分为 ham＋burger，于是 burger 获得“汉堡类食物”的独立义，可以自由搭配出新词。这是“重新划分＋省略”的复合案例，也是民间词源推动构词的典型。",
+      "concepts": [
+        "c-clipping",
+        "c-etymology",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w22d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "Don’t microwave the whole bowl at once. Heat it in two rounds, stirring between them, or the middle will stay cold while the rim burns your tongue.",
+      "word": "microwave",
+      "choices": [
+        "用微波炉加热",
+        "用微波探测",
+        "把食物切成小块",
+        "把碗放进冰箱"
+      ],
+      "answer": 0,
+      "strategy": "① 句法：Don’t 后面直接跟 microwave，是祈使句的谓语，必然是动词；② 宾语与状语：the whole bowl、in two rounds、stirring 都是烹饪动作；③ 省略线索：microwave 的动词义来自名词“微波炉”，而名词义又来自 microwave oven 的省略；④ 排除“探测”：与 bowl、heat、stir 的语境不合。",
+      "explain": "microwave 的动词义是省略链的终点：microwave oven → microwave（名词）→ to microwave（动词）。三步都靠“省掉可预测成分、残留部分接管功能”这一条机制支撑。看到 -ate 之外的“零派生”，先确认它是否已经是个独立名词。",
+      "concepts": [
+        "c-inference",
+        "c-conversion",
+        "c-semantic-shift"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 6 节：省略使意义转移到截短形式（church、microwave、cell、email）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "kyriakon doma／brandewijn／hamburger 的语源与省略过程"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "w20d2",
+  "week": 20,
+  "day": 2,
+  "title": "s 变 r：justice 与 jury 是同一个词根",
+  "tagline": "拉丁的 s 站在两个元音之间就变成了 r，于是同一词素有了两副面孔",
+  "objectives": [
+    "能说出 rhotacism 的条件：词素末 s 处于两元音之间",
+    "能解释 genus/gener-、corpus/corpor-、jus/jur- 三组交替",
+    "能判断一组 s/r 交替是否真是 rhotacism"
+  ],
+  "prereqs": [
+    "w20d1",
+    "c-cognate"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-etymology",
+    "c-cognate",
+    "gener",
+    "corp",
+    "flor"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s6-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两元音之间的 s 保不住",
+      "body": "拉丁史上有一条影响很广的音变：**词素末尾的 [s] 如果正好落在两个元音之间，就变成 [r]**。这条变化叫 **rhotacism**（r 音化），发生在公元前几个世纪的拉丁语内部，早于英语借词。\n\n结果是同一个词素留下两副形状：\n\n- s 形：s 后面紧跟辅音或在词末时（**genus**、**corpus**、**flos**）\n- r 形：s 后面接元音时（**gener-is**、**corpor-is**、**flor-is**）\n\n英语把两副形状都借来了：**genus** 与 **generic** 并存，**corps** 与 **corporeal** 并存。看起来像两个词根，其实是一个。"
+    },
+    {
+      "kind": "table",
+      "title": "五组 s / r 交替",
+      "body": "第二列是主格（s 在词末，保持 s），第三列是属格（s 落在两元音之间，变成 r）。第四列是英语各取一副形状的结果——注意有些词取 s 形，有些取 r 形，取决于借的是哪个拉丁形式。",
+      "head": [
+        "拉丁主格",
+        "属格词干",
+        "英语 r 形",
+        "英语 s 形"
+      ],
+      "rows": [
+        [
+          "genus 种类",
+          "gener-",
+          "generic、generate、generation",
+          "genus"
+        ],
+        [
+          "corpus 身体",
+          "corpor-",
+          "corporeal、corporation",
+          "corps、corpus"
+        ],
+        [
+          "flos 花",
+          "flor-",
+          "florescent、floral、flower",
+          "—"
+        ],
+        [
+          "jus 法、权利",
+          "jur-",
+          "jury、jurist、juridical",
+          "justice、just"
+        ],
+        [
+          "honos 荣誉",
+          "honor-",
+          "honor、honorary",
+          "honest"
+        ],
+        [
+          "rus 乡村",
+          "rur-",
+          "rural",
+          "—"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "justice 与 jury 为什么同源",
+      "body": "justice 来自拉丁 *justitia*，词根是 **jus**（法、权利）；jury 来自 *jurare*（宣誓），词根是 **jur-**——而 jur- 正是 jus 的 r 形。两者意义都在“法、誓”这个语义场里，语音上又只差一个 s / r，这就是同源的证据。\n\n判断一组 s / r 交替是否属于 rhotacism，要同时满足三条：\n1. **意义**在同一语义场，能追到同一个拉丁原形；\n2. **位置**：s 形出现在 s 后接辅音或词末，r 形出现在 s 后接元音；\n3. **其余音**基本一致（辅音骨架相同，只差 s / r）。\n\n只满足第一条（意义相近）是不够的——近义词未必同源。"
+    },
+    {
+      "kind": "text",
+      "title": "陷阱：不是所有 s / r 交替都是 r 音化",
+      "body": "英语里还有别的来源会造成 s / r 的对立，必须排除：\n\n- **was / were**：这是日耳曼语的补充形式（suppletion），两个形式来自不同词根，不是音变。\n- **is / are**：同样不同源。\n- **德语 war / waren**：德语也有过一次 r 音化，但那是**德语内部**的变化，不能拿来解释英语词形。\n- **raise / rise**：同源但属于元音交替（ablaut），与 s / r 无关。\n\n判据回到词源：只有当两个形式能追到**同一个拉丁词素**、且 s / r 的出现位置符合上述条件，才叫 rhotacism。不确定时查词典，不要凭语感推断。"
+    },
+    {
+      "kind": "compare",
+      "title": "两副形状怎么选",
+      "body": "英语借词时并不统一：有的取主格（s 形），有的取斜格词干（r 形），还有的两者都借、意义分化。下面三列给出三种情况，做词族分析时按列归类，不要硬凑成一个词根。",
+      "a": "取 s 形（主格）",
+      "b": "取 r 形（斜格词干）",
+      "rows": [
+        {
+          "label": "例证",
+          "a": "genus、corpus、corps",
+          "b": "generic、corporeal、florescent"
+        },
+        {
+          "label": "语义倾向",
+          "a": "多用于具体名词、学科分类",
+          "b": "多用于派生形容词与抽象名词"
+        },
+        {
+          "label": "同根并存",
+          "a": "genus 与 generic 同族不同形",
+          "b": "corps（团体）与 corporeal（有形体的）意义已分化"
+        },
+        {
+          "label": "判断方法",
+          "a": "看词尾是否为 -us / -os",
+          "b": "看词干是否为 -er- / -or- / -ur-"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w20d2-p1",
+      "kind": "mcq",
+      "prompt": "generic 的词干 gener- 对应哪个拉丁形式？",
+      "choices": [
+        "genus 的属格词干 gener-",
+        "拉丁形容词 generosus 的词根 gen-",
+        "希腊词根 gen-（出生）",
+        "英语动词 generate 的名词化"
+      ],
+      "answer": 0,
+      "explain": "genus（种类）的属格是 generis，词干 gener-，s 在两元音之间变 r。generic 取的就是这副 r 形，所以它和 genus 同源而拼写不同。generate、generation 同理。",
+      "concepts": [
+        "gener",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w20d2-p2",
+      "kind": "mcq",
+      "prompt": "justice 与 jury 被认为同源，最关键的证据是：",
+      "choices": [
+        "拉丁 jus 的斜格词干是 jur-，s 在两元音之间变成 r",
+        "两个词都以 j 开头，且都与法律有关",
+        "两词都经法语进入英语",
+        "两词的词尾 -ice 与 -y 是同源后缀"
+      ],
+      "answer": 0,
+      "explain": "同源要靠语音对应加语义对应。jus 的属格 juris 给出 jur-，justice 取 jus-、jury 取 jur-，两者意义都在“法、权利、宣誓”这一场域，其余音一致。仅凭首字母或借入路径不足以断定同源。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w20d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个拉丁词形",
+      "sentence": "The Latin noun corpus has the genitive ___, and its stem corpor- gives English corporeal.",
+      "answer": "corporis",
+      "accept": [
+        "corporis"
+      ],
+      "explain": "corpus 的属格是 corporis，s 落在 o 与 i 两个元音之间，变成 r。英语 corporeal、corporation 都取 corpor-；而 corps 取的是主格形的压缩结果。",
+      "concepts": [
+        "corp",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w20d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 juris 是 jus（法）的属格，prudentia 意为“知识、判断”，jurisprudence 最可能指：",
+      "choices": [
+        "法学、法律体系",
+        "陪审团制度",
+        "司法管辖范围",
+        "誓言的效力"
+      ],
+      "answer": 0,
+      "explain": "juris-（法的，jus 的 r 形）+ prudentia（判断、知识）→ “关于法的知识”，即法学。jury（陪审团）、jurisdiction（管辖）虽同根，但分别加了 -y 与 dictio（说），词义重心不同。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ],
+      "hint": "把两部分字面义先合起来，再看哪个选项最接近。"
+    },
+    {
+      "id": "w20d2-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“有形体的”的切分",
+      "parts": [
+        "corp",
+        "or",
+        "eal"
+      ],
+      "answer": "corporeal",
+      "explain": "corp-（corpus 的 r 形词干 corpor-，词库拆作 corp + or）+ -eal（形容词后缀，来自拉丁 -alis）→ corporeal“有形体的、肉体的”。若按主格切成 corpus+eal 就错了：英语的派生词取斜格词干。",
+      "concepts": [
+        "corp",
+        "c-word-sum"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w20d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 jurisdiction 的含义",
+      "passage": "The local court refused to hear the case, ruling that the incident had occurred in international waters and therefore lay outside its jurisdiction; the matter was passed to a federal tribunal instead.",
+      "word": "jurisdiction",
+      "choices": [
+        "司法管辖权、管辖范围",
+        "法律条文的具体措辞",
+        "陪审团的裁决意见",
+        "案件的证据清单"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：juris-（法的）+ dictio（说、宣告）→ “依法宣告的权力范围”；② 句法：outside its jurisdiction 说明是权限边界问题；③ 结果：the matter was passed to a federal tribunal 说明换了有权的机构；④ 排除：条文措辞、裁决意见、证据清单都不解释“拒绝审理并移交”。",
+      "explain": "jurisdiction 是“管辖权”。juris- 是 jus 的 r 形（s 在两元音间变 r），与 jury、justice、jurisprudence 同根；-dictio 来自 dicere（说），所以字面是“宣示法律的权力”。",
+      "concepts": [
+        "c-inference",
+        "c-cognate",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 6 节：r 音化（rhotacism）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "genus/generis、corpus/corporis、jus/juris、flos/floris 的变格与英语对应"
+    }
+  ]
+}

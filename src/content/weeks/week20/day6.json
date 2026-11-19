@@ -1,0 +1,249 @@
+{
+  "id": "w20d6",
+  "week": 20,
+  "day": 6,
+  "title": "数词素不总是前缀：dual、binary、monad",
+  "tagline": "uni- 修饰别人，du- 和 bin- 自己就是主角",
+  "objectives": [
+    "能判断一个数词素在具体词里是前缀还是词根",
+    "能说出拉丁序数词必须硬记，以及 primary/tertiary 的来历",
+    "能解释分配数词 -n 后缀为何在英语里看不出来"
+  ],
+  "prereqs": [
+    "w20d5",
+    "c-prefix",
+    "c-root"
+  ],
+  "concepts": [
+    "c-prefix",
+    "c-root",
+    "c-greek-latin",
+    "c-word-sum"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s9-3",
+    "kp-s1c6s9-5"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "同一个数词素，两种身份",
+      "body": "数词素在词里的地位并不固定，判断标准只有一条：**去掉它之后，剩下的是不是一个能独立成立的词根**。\n\n- **unicycle**：uni- 修饰 cycle（轮）→ uni- 是**前缀**。\n- **dual**：du-（二）+ -al（形容词后缀）→ 去掉 du，只剩后缀，所以 du- 是**词根**。\n- **binary**：bin-（两个各）+ -ary（形容词后缀）→ bin- 是**词根**。\n- **monad**：mon-（一）+ -ad（名词后缀）→ mon- 是**词根**，指“单子、单元”。\n- **century**：cent-（百）+ -ury → cent- 是**词根**。\n\n所以不能笼统地说“数词素是前缀”。它更像一个**可以兼任两种角色的成分**。"
+    },
+    {
+      "kind": "table",
+      "title": "三种用法对照",
+      "body": "第二列给出切分，第三列说明数词素的身份，第四列给出判据。做 word sum 时如果切错，通常就是把“词根型”误判成了“前缀型”：只要看去掉数词素后还剩不剩一个独立词根，就能定下来。",
+      "head": [
+        "词",
+        "切分",
+        "数词素身份",
+        "判据"
+      ],
+      "rows": [
+        [
+          "unicycle",
+          "uni + cycle",
+          "前缀（修饰 cycle）",
+          "去掉后 cycle 独立成词"
+        ],
+        [
+          "uniform",
+          "uni + form",
+          "前缀（修饰 form）",
+          "去掉后 form 独立成词"
+        ],
+        [
+          "dual",
+          "du + al",
+          "词根",
+          "去掉后只剩后缀 -al"
+        ],
+        [
+          "binary",
+          "bin + ary",
+          "词根（分配数词 bini）",
+          "去掉后只剩后缀 -ary"
+        ],
+        [
+          "monad",
+          "mon + ad",
+          "词根（希腊 monas）",
+          "去掉后只剩后缀 -ad"
+        ],
+        [
+          "century",
+          "cent + ury",
+          "词根",
+          "去掉后只剩后缀 -ury"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "序数词：一套必须硬记的形式",
+      "body": "基数词（一、二、三）与序数词（第一、第二、第三）在拉丁里常常来自**不同词干**，所以不能从基数推序数：\n\n- unus（一）→ **primus**（第一）→ primary\n- duo（二）→ **secundus**（第二）→ secondary\n- tres（三）→ **tertius**（第三）→ tertiary\n- quattuor（四）→ **quartus**（第四）→ quart、quaternary\n- quinque（五）→ **quintus**（第五）→ quintet、quintile\n\n英语里 primary、secondary、tertiary 三词最常见（教育阶段、产业分类、医疗分级）。它们的共同点是：**都以 -ary 结尾**，但词干各不相同，只能逐词记。\n\n记住 terti- 这个词干很有用：它出现在 tertiary、tertian 等词里，与基数 tri- 无关。"
+    },
+    {
+      "kind": "text",
+      "title": "分配数词：-n 后缀被音变吃掉了",
+      "body": "拉丁还有第三套数词：**分配数词**（distributive），表示“各几个”：bini（各两个）、terni（各三个）、quaterni（各四个）、quini（各五个）。构成方式是在基数词干后加 **-n-**。\n\n英语把这套形式用于“分成几份”的概念：\n\n- bini → **bin-** + -ary → binary（二元的、二进制的）\n- terni → **tern-** + -ary → ternary（三元的）\n- quaterni → **quatern-** + -ary → quaternary（四元的、第四纪的）\n\n问题在于：**-n 后缀在英语里已经看不出来了**。binary 里的 -n- 属于 bin-，不再是一个能单独指认的后缀；如果硬把它切出来当后缀，就会与 -ary 重叠。所以处理办法是：把 bin-、tern-、quatern- 整体当作词干记。\n\n这是本书反复出现的一条经验：**音变会抹掉词素的边界**，此时应记整体形式，不要强行再切。"
+    },
+    {
+      "kind": "compare",
+      "title": "三套数词，三个用途",
+      "body": "基数回答“几个”，序数回答“第几”，分配回答“各几个”。英语借入时各取了不同的后缀，所以三套形式在英语里长得完全不一样。下表用“二”做样板，把三套并排看清。",
+      "a": "基数（几个）",
+      "b": "序数 / 分配（第几 / 各几）",
+      "rows": [
+        {
+          "label": "拉丁",
+          "a": "duo、tres、quattuor",
+          "b": "secundus、tertius；bini、terni"
+        },
+        {
+          "label": "英语词干",
+          "a": "du-、tri-、quadr-",
+          "b": "secund-、terti-；bin-、tern-"
+        },
+        {
+          "label": "英语例词",
+          "a": "dual、triangle、quadrilateral",
+          "b": "secondary、tertiary；binary、ternary"
+        },
+        {
+          "label": "后缀",
+          "a": "-al、-angle 等",
+          "b": "-ary（形容词后缀）"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w20d6-p1",
+      "kind": "mcq",
+      "prompt": "dual 的正确切分与身份判断是：",
+      "choices": [
+        "du + al；du 是词根，-al 是形容词后缀",
+        "du + al；du 是前缀，修饰 al",
+        "d + ual；u 是连接元音",
+        "不可切分，dual 是整体借词"
+      ],
+      "answer": 0,
+      "explain": "dual 来自拉丁 dualis = duo（二）+ -alis。去掉 du 只剩后缀 -al，没有独立词根，所以 du 自己就是词根。对比 unicycle：去掉 uni 后 cycle 仍独立，uni 才算前缀。",
+      "concepts": [
+        "c-root",
+        "c-prefix"
+      ]
+    },
+    {
+      "id": "w20d6-p2",
+      "kind": "mcq",
+      "prompt": "binary 中的 bin- 来自：",
+      "choices": [
+        "拉丁分配数词 bini（各两个）的词干",
+        "拉丁基数词 duo 的直接弱化",
+        "英语 bind（捆绑）的截短",
+        "希腊数词 dy-（二）"
+      ],
+      "answer": 0,
+      "explain": "bini 是“各两个”，词干 bin- 加 -ary 得 binary。希腊的“二”是 dy-（dichotomy、dyad），拉丁基数是 du-（dual、duet）。三条来源在英语里都表示“二”，但词形与搭配不同。",
+      "concepts": [
+        "c-greek-latin",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w20d6-p3",
+      "kind": "cloze",
+      "prompt": "填入拉丁序数词干",
+      "sentence": "The ordinal stem ___-, from Latin tertius, appears in tertiary and is not related to the cardinal tri-.",
+      "answer": "terti",
+      "accept": [
+        "terti",
+        "terti-"
+      ],
+      "explain": "tertius（第三）的词干是 terti-，加 -ary 得 tertiary。它与基数 tri-（三）意义相关但词干不同——这正是序数词必须硬记的原因：不能从“三”推出“第三”的拉丁形式。",
+      "concepts": [
+        "c-greek-latin",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w20d6-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 quaterni 是拉丁分配数词“各四个”，quaternary 在 geology（地质学）里指：",
+      "choices": [
+        "第四纪（最年轻的地质时期）",
+        "由四种岩石组成的地层",
+        "第四层矿脉",
+        "四倍浓度的溶液"
+      ],
+      "answer": 0,
+      "explain": "quaternary 是“第四的”，地质学用它命名继第三纪之后的最年轻时期（第四纪）。干扰项都抓住了“四”，但忽略了 -ary 的序数含义。判断依据是词干 quatern- 属序数/分配系统，不表示“四种成分”。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin"
+      ],
+      "hint": "先分清“第四”与“四个”。"
+    },
+    {
+      "id": "w20d6-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“二进制的、二元的”的切分",
+      "parts": [
+        "bin",
+        "ary"
+      ],
+      "answer": "binary",
+      "explain": "bin-（拉丁分配数词 bini 的词干“各两个”）+ -ary（形容词后缀）→ binary。注意 bin- 是词根而不是前缀：去掉它只剩后缀，没有独立词根可修饰。",
+      "concepts": [
+        "c-word-sum",
+        "c-root"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w20d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 tertiary 的含义",
+      "passage": "In the 1970s most of the workforce in the region was employed in mining and manufacturing; today the tertiary sector — banking, education, health care and tourism — accounts for over two thirds of all jobs.",
+      "word": "tertiary",
+      "choices": [
+        "第三级的（指服务业）",
+        "第三世界的",
+        "每三年一次的",
+        "由三方共同经营的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：terti-（拉丁 tertius“第三”）+ -ary → “第三的”；② 破折号列举：banking、education、health care、tourism 都是服务业；③ 对比：前句 mining and manufacturing 是第二产业，正好构成一、二、三的分级；④ 排除：三年一次、三方经营都与 -ary 的序数义无关。",
+      "explain": "tertiary 是“第三级的”，tertiary sector 即第三产业（服务业）。词干 terti- 来自序数词 tertius，与基数 tri- 不同形——今天讲的“序数必须硬记”在这里正好用上。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 9 节：数词素作词根、序数与分配数词"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "拉丁序数词与分配数词表"
+    }
+  ]
+}

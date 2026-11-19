@@ -1,0 +1,119 @@
+{
+  "id": "course-c7",
+  "chapterId": "S1-C7",
+  "chapter": 7,
+  "title": "Meaning Change",
+  "titleZh": "词义变化：词素多义、四类动因与变化结果",
+  "level": "B2",
+  "weeks": [
+    21,
+    22
+  ],
+  "lessonCount": 12,
+  "knowledgePointCount": 16,
+  "lessons": {
+    "w21d1": [
+      "kp-s1c7s1-3",
+      "kp-s1c7s1-4"
+    ],
+    "w21d2": [
+      "kp-s1c7s1-5",
+      "kp-s1c7s2-3"
+    ],
+    "w21d3": [
+      "kp-s1c7s2-4"
+    ],
+    "w21d4": [
+      "kp-s1c7s3-1"
+    ],
+    "w21d5": [
+      "kp-s1c7s4-1"
+    ],
+    "w21d6": [
+      "kp-s1c7s5-1"
+    ],
+    "w22d1": [
+      "kp-s1c7s6-1"
+    ],
+    "w22d2": [
+      "kp-s1c7s7-1"
+    ],
+    "w22d3": [
+      "kp-s1c7s8-2"
+    ],
+    "w22d4": [
+      "kp-s1c7s10-4"
+    ],
+    "w22d5": [
+      "kp-s1c7s12-2"
+    ],
+    "w22d6": [
+      "kp-s1c7s13-2",
+      "kp-s1c7s13-4",
+      "kp-s1c7s13-5"
+    ]
+  },
+  "knowledgePoints": {
+    "kp-s1c7s1-3": "w21d1",
+    "kp-s1c7s1-4": "w21d1",
+    "kp-s1c7s1-5": "w21d2",
+    "kp-s1c7s2-3": "w21d2",
+    "kp-s1c7s2-4": "w21d3",
+    "kp-s1c7s3-1": "w21d4",
+    "kp-s1c7s4-1": "w21d5",
+    "kp-s1c7s5-1": "w21d6",
+    "kp-s1c7s6-1": "w22d1",
+    "kp-s1c7s7-1": "w22d2",
+    "kp-s1c7s8-2": "w22d3",
+    "kp-s1c7s10-4": "w22d4",
+    "kp-s1c7s12-2": "w22d5",
+    "kp-s1c7s13-2": "w22d6",
+    "kp-s1c7s13-4": "w22d6",
+    "kp-s1c7s13-5": "w22d6"
+  },
+  "referenceForms": [
+    "adder",
+    "articulate",
+    "advocate",
+    "bank",
+    "bead",
+    "brandy",
+    "burger",
+    "car",
+    "church",
+    "cool",
+    "cosmetic",
+    "cripple",
+    "delegate",
+    "depend",
+    "disabled",
+    "economical",
+    "female",
+    "gymnasium",
+    "handicapped",
+    "head",
+    "historic",
+    "horse",
+    "hysterical",
+    "influenza",
+    "literally",
+    "microwave",
+    "nickname",
+    "ostensible",
+    "ostentatious",
+    "outrage",
+    "pedagogue",
+    "press",
+    "reticent",
+    "reveal",
+    "sawhorse",
+    "separate",
+    "shamefaced",
+    "since",
+    "slick",
+    "tacit",
+    "tight",
+    "very"
+  ],
+  "referenceFormsNote": "本课讲解与练习引用、但 words.json 尚无完整词条的英语形式；已去重小写。不含希腊／拉丁／法语中间形式（hystera、nescius、kyriakon doma、carrus 等）与仅出现在阅读段落里的普通词。"
+}

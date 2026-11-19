@@ -1,0 +1,270 @@
+{
+  "id": "w17d4",
+  "week": 17,
+  "day": 4,
+  "title": "词中间的元音为什么会变脸",
+  "tagline": "重音固定在首音节，后面的短 a 就被压成 e 或 i",
+  "objectives": [
+    "能说出拉丁元音弱化的两个方向（a→e、a→i）及其音节条件",
+    "能在同族词里认出 fac/fec/fic 与 cap/cip/cept 各属一个词根",
+    "能区分元音弱化与辅音同化，不把两者混为一谈"
+  ],
+  "prereqs": [
+    "w17d1",
+    "c-root"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-borrowing",
+    "c-etymology",
+    "fac"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s5-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一条已经死掉的重音规则",
+      "body": "古拉丁的重音固定在**第一个音节**。重音一固定，后面的音节就失去力气：非首音节里的短元音被削弱，a 尤其不稳。\n\n- 后面跟**两个辅音**（闭音节）时，a 变成 e：fac- → per-fect-（-ct- 两个辅音）\n- 后面跟**一个辅音**（开音节）时，a 变成 i：fac- → con-fic-（-ere）\n\n这条规则在拉丁语内部就完成了，英语只是照搬结果。所以你不能用英语语音去推：英语里没有“重音在首音节就变元音”这条规则。它属于**历时**（历史）层面，不是今天的拼写规则。",
+      "terms": [
+        {
+          "term": "vowel weakening",
+          "zh": "元音弱化",
+          "en": "Latin vowel weakening",
+          "note": "非首音节的短元音在历史音变中变窄或变央"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "fac：一个词根，三个形状",
+      "body": "fac 是“做、造”。三个形状不是三个词根，而是同一个词根在三种位置上的结果。注意 fec 与 fic 的区别不是“词义不同”，而是后面的音节结构不同：闭音节取 e，开音节取 i。",
+      "head": [
+        "形状",
+        "位置与条件",
+        "英语词",
+        "含义"
+      ],
+      "rows": [
+        [
+          "fac-",
+          "词根重读或处于首音节",
+          "facile、factory",
+          "容易的；工厂"
+        ],
+        [
+          "fec-",
+          "非首音节，后接两个辅音",
+          "perfect、effect、infect",
+          "完美的；效果；感染"
+        ],
+        [
+          "fic-",
+          "非首音节，后接单个辅音",
+          "efficient、proficient、sufficient",
+          "高效的；熟练的；足够的"
+        ]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "cap：完全平行的第二组",
+      "body": "cap 是“抓、取”。它复制了 fac 的模式，这也是最有力的证据：如果只是零散的拼写变化，不会有两个词根走出完全一样的三个形状。你在生词里看到 -cip-，可以直接回到 cap，而不必另立一个词根。",
+      "head": [
+        "形状",
+        "位置与条件",
+        "英语词",
+        "含义"
+      ],
+      "rows": [
+        [
+          "cap-",
+          "首音节",
+          "captive、capture",
+          "被俘的；捕获"
+        ],
+        [
+          "cip-",
+          "非首音节，后接单个辅音",
+          "recipient、incipient",
+          "接受者；刚开始的"
+        ],
+        [
+          "cept-",
+          "非首音节，后接两个辅音",
+          "accept、reception、concept",
+          "接受；接待；概念"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "弱化 vs 同化：一个动元音，一个动辅音",
+      "body": "两者都是拉丁借词层里的历史音变，都会造成“同一成分多个形状”，所以常被混着讲。但改的东西完全不同：弱化改元音的音质，同化改辅音的发音部位。看变化落在哪个字母上，就能分开。",
+      "a": "元音弱化",
+      "b": "辅音同化",
+      "rows": [
+        {
+          "label": "改变什么",
+          "a": "元音的音质（a → e → i）",
+          "b": "辅音的发音部位（n → m / l / r）"
+        },
+        {
+          "label": "触发条件",
+          "a": "重音位置 + 音节结构",
+          "b": "后接辅音的部位"
+        },
+        {
+          "label": "例子",
+          "a": "fac → fec / fic；cap → cip / cept",
+          "b": "in- → im- / il- / ir-"
+        },
+        {
+          "label": "影响范围",
+          "a": "词根内部",
+          "b": "前缀与词根的交界"
+        },
+        {
+          "label": "共同点",
+          "a": "都是历史音变，不适用于英语新词",
+          "b": "都是历史音变，不适用于英语新词"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "怎么用，以及怎么别用",
+      "body": "用法：看到 -fic-、-fec-，先想 fac“做”；看到 -cip-、-cept-，先想 cap“抓”。这能救回一批学术词：efficient、sufficient、proficient 全在 fac 族；recipient、incipient、reception 全在 cap 族。\n\n别用：不要反向生成。你不能从 efficient 造出“efficate”，也不能声称英语有一条“a 在非重读音节变 i”的规则。英语只继承了结果，没继承规则。同族关系要靠元素表记，不靠拼写直觉——这正是第 7 天“先试长形”那条策略的由来。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w17d4-p1",
+      "kind": "mcq",
+      "prompt": "efficient 里的 fic- 与 factory 里的 fac- 是什么关系？",
+      "choices": [
+        "同一词根的两个变体：a 在非首音节弱化为 i",
+        "两个不同的词根，意思分别是“做”和“流出”",
+        "fic- 是后缀，fac- 是词根",
+        "fic- 来自希腊语，fac- 来自拉丁语"
+      ],
+      "answer": 0,
+      "explain": "efficient = ex- + fic- + -ient，词根仍是 fac“做”。a 在非首音节、后接单辅音时弱化为 i，于是 fac 变 fic。若把 fic 当后缀，就无法解释 proficient、sufficient 与 factory 为什么同族。",
+      "concepts": [
+        "c-allomorph",
+        "c-root",
+        "fac"
+      ]
+    },
+    {
+      "id": "w17d4-p2",
+      "kind": "mcq",
+      "prompt": "perfect 中写作 fec- 而不是 fic-，最合理的解释是：",
+      "choices": [
+        "它后面接的是 -ct- 两个辅音，a 弱化为 e；只有在单辅音后才进一步变 i",
+        "perfect 是法语词，拼写被法语改过",
+        "fec- 表示“欺骗”，与 fac- 不同源",
+        "这是不规则拼写，没有原因"
+      ],
+      "answer": 0,
+      "explain": "perfectus 来自 per-ficere 的完成分词，词根处于闭音节 -ct- 前，a 弱化为 e；而 fic 出现在开音节。闭音节取 e、开音节取 i，这条条件在 fac 与 cap 两族里完全一致，所以不是偶然拼写。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology",
+        "fac"
+      ]
+    },
+    {
+      "id": "w17d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个形容词",
+      "sentence": "She is ___ in three languages but has never studied the grammar of any of them.",
+      "answer": "proficient",
+      "accept": [
+        "proficient"
+      ],
+      "explain": "pro-（向前）+ fic（fac“做”的弱化形）+ -ient → “做到前面去了”，即熟练。but 后的转折说明“会而不精”，正好落在 proficient 而非 expert 的语义位置。",
+      "concepts": [
+        "c-allomorph",
+        "fac"
+      ]
+    },
+    {
+      "id": "w17d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）insufficient 里的 suf- 与 fic- 分别说明什么？",
+      "choices": [
+        "suf- 是 sub- 在同化后的形状，fic- 是 fac 弱化后的形状",
+        "suf- 表示“上面”，fic- 表示“假”",
+        "两者都是后缀",
+        "insufficient 没有词根，是整体借入的"
+      ],
+      "answer": 0,
+      "explain": "sub- 在 f 前同化为 suf-（如 suffer、suffix），fic- 是 fac 在非首音节、单辅音前的弱化形。整词是“不够做某事”→“不足的”。这一题同时用上第 1 天的同化与今天的弱化：两种机制可以在一个词里叠加。",
+      "concepts": [
+        "c-allomorph",
+        "c-prefix",
+        "c-inference"
+      ],
+      "hint": "先看 suf- 后面的音，再判断 fic- 属于哪一族。"
+    },
+    {
+      "id": "w17d4-p5",
+      "kind": "wordSum",
+      "prompt": "写出 factory 的构词算式",
+      "parts": [
+        "fact",
+        "ory"
+      ],
+      "answer": "factory",
+      "explain": "fact（做，fac 的完成分词词干）+ -ory（场所后缀）→“做东西的地方”→ 工厂。词根在词首保持 fac，在 -t- 词干里变 fact，在词中还可变 fec/fic——差异来自位置与历史词干，不是词义。",
+      "concepts": [
+        "c-word-sum",
+        "c-suffix",
+        "fact"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w17d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 inhibit 的含义",
+      "passage": "Nothing in the protocol should inhibit the immune response; the goal is to let it proceed, not to hold it back.",
+      "word": "inhibit",
+      "choices": [
+        "抑制、阻碍",
+        "促进、加快",
+        "模仿、复制",
+        "记录、标记"
+      ],
+      "answer": 0,
+      "strategy": "① 对比线索：not to hold it back 是 inhibit 的释义性反说；② 构词：in- + hib-（hab“持、握”的弱化形）+ -it；③ 语境：the goal is to let it proceed，说明要的是相反动作，所以 inhibit 是“压住不让动”。",
+      "explain": "inhibit 来自 in- + habere“持、握”，a 在非首音节弱化为 i，得 hib-；字面“把持住不放”，即抑制。同族还有 exhibit（ex- + hib-，“拿出来”→ 展出）、prohibit（pro- + hib-，“放在前面挡住”→ 禁止）。这是本课弱化规则在 hab 族上的应用。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：拉丁元音弱化（fac/fec/fic、cap/cip/cept）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "perficere、recipere、inhibere 的屈折形式与英语后代"
+    }
+  ]
+}

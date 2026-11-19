@@ -1,0 +1,265 @@
+{
+  "id": "w21d6",
+  "week": 21,
+  "day": 6,
+  "title": "求新求异：俚语为什么总在改词义",
+  "tagline": "cool、slick、tight 都从物理属性出发，最后落在评价上——因为评价最容易被说旧",
+  "objectives": [
+    "能说明“表达力磨损”为何迫使说话人不断给旧词加新义",
+    "能画出 cool、slick、tight 从物理义到评价义的路径，并指出方向为何总是“具体→抽象”",
+    "能解释为什么贬义词常被反用来表示赞赏"
+  ],
+  "prereqs": [
+    "w21d4",
+    "w10d2"
+  ],
+  "concepts": [
+    "c-semantic-shift",
+    "c-metaphor",
+    "c-register",
+    "c-pejoration"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s5-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "好话会被说旧",
+      "body": "任何表示赞赏的词都会**磨损**。第一次听 “that’s great” 有力度，第十万次听就只剩礼节。语言学家把这种现象叫表达的**去强化**（deintensification）：形式还在，力度没了。\n\n于是说话人面临一个持续的压力：要表达同样的强度，必须换更“新”的说法。可选的手段只有几种：\n\n- 给旧词加新义（cool 从温度到评价）\n- 夸张（literally, absolutely）\n- 反用贬义词（sick、wicked 表示“很棒”）\n- 借专业或方言词（tight 从“紧”到“铁”到“好”）\n\n教材把这类动因叫**追求新颖的创造**。它的标志是：变化几乎总从口语、俚语、文学修辞里开始，然后才慢慢进入标准语。",
+      "terms": [
+        {
+          "term": "connotation",
+          "zh": "内涵义、评价色彩",
+          "en": "connotation",
+          "note": "词附带的褒贬与情感色彩"
+        },
+        {
+          "term": "register",
+          "zh": "语域",
+          "en": "register",
+          "note": "口语、俚语、学术等使用场合的层级"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三个词，同一条路：从物理到评价",
+      "body": "三词的起点都是可触摸的物理属性，终点都是评价。路径不是任意的：物理属性先隐喻成**性格或状态**，再从性格义转成**总体评价**。中间那一步最容易被忽略，却是链条成立的关键。",
+      "head": [
+        "词",
+        "物理义",
+        "中间义（性格／状态）",
+        "评价义"
+      ],
+      "rows": [
+        [
+          "cool",
+          "凉的、温度低",
+          "冷静的、不动声色的（19 世纪）",
+          "很棒的、时髦的（20 世纪爵士俚语起）"
+        ],
+        [
+          "slick",
+          "光滑的、滑溜的",
+          "圆滑的、油嘴滑舌的（贬）",
+          "娴熟的、漂亮的（20 世纪转为褒）"
+        ],
+        [
+          "tight",
+          "紧的、密实的",
+          "关系紧密的；手头紧的；喝醉的",
+          "很不错的、够朋友的（俚语）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么贬义词反而更有力",
+      "body": "sick、wicked、mad、insane 在当代口语里都能表示“很棒”。这不是偶然，而是**强度经济学**：褒义词长期被滥用，力度耗尽；贬义词平时不能随便用在人身上，反而保留了冲击力。反用一次，强度立刻回来。\n\nslick 的路径更典型：它先经历了**贬化**（光滑→圆滑，17 世纪），再在 20 世纪经**褒化**回到正面（娴熟、漂亮）。同一个词在两个世纪里走了相反的方向。\n\n这提醒我们：**褒贬不是词的固有属性，而是用法的沉淀。** 词典标注的“非正式”“贬义”都是某一时段的快照，不是永久标签。\n\n顺带一个反面例子：**notorious** 从“广为人知”贬化为“因坏事出名”，而 **famous** 保持中性偏褒。同样的“被很多人知道”，评价色彩可以完全不同——这正是内涵义独立于概念义的证据。",
+      "terms": [
+        {
+          "term": "pejoration",
+          "zh": "贬化",
+          "en": "pejoration",
+          "note": "词义向负面评价漂移"
+        },
+        {
+          "term": "amelioration",
+          "zh": "褒化",
+          "en": "amelioration",
+          "note": "词义向正面评价漂移"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "新颖会过期：循环没有终点",
+      "body": "求新有一个内在的悖论：**一旦新说法流行，它就不再新**。所以每一代人都要重做一遍。\n\n看英语强化词的历史层积：\n\n- very（< 古法语 verai“真的”）——原义“真实地”\n- really、truly——同样从“真实”来\n- awfully、terribly——从“可怕地”来\n- totally、absolutely——从“完全地”来\n- literally——从“字面上”来\n\n每一层刚出现时都被视为夸张或不规范，随后被接受，再后来力度耗尽，需要下一层。这条序列不是巧合，而是**同一个空位被反复填补**。第 22 周我们会专门解剖 literally 这一层。",
+      "terms": [
+        {
+          "term": "deintensification",
+          "zh": "去强化",
+          "en": "deintensification",
+          "note": "强调词的力度随使用而衰减"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "俚语创新与术语创新：两种“求新”",
+      "body": "两者都用旧形式造新义，但目标相反：俚语要的是**情感强度**，术语要的是**区分精度**。判断一个旧词新义属于哪一类，看它进入的语域和它换掉的东西——换掉的是“没劲的说法”还是“不够精确的说法”。",
+      "a": "俚语创新",
+      "b": "术语创新",
+      "rows": [
+        {
+          "label": "目标",
+          "a": "恢复表达强度、标示群体身份",
+          "b": "区分细类、避免歧义"
+        },
+        {
+          "label": "典型例",
+          "a": "cool“很棒”；tight“够朋友”",
+          "b": "token 从“记号”到“语言单位”；gate 从“门”到“丑闻”"
+        },
+        {
+          "label": "语义方向",
+          "a": "物理→评价，色彩变化大",
+          "b": "日常→专业，概念边界变清晰"
+        },
+        {
+          "label": "生命周期",
+          "a": "易过期，常被下一代替换",
+          "b": "较稳定，一旦约定就长期沿用"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w21d6-p1",
+      "kind": "mcq",
+      "prompt": "cool 从“凉的”到“很棒的”，中间必经的一步是？",
+      "choices": [
+        "“冷静的、不动声色的”——由温度隐喻到性格，再由性格转到评价",
+        "“冰冷的”——由温度直接跳到评价",
+        "“凉爽的天气”——由天气转指心情",
+        "“冷却”——由动词转名词"
+      ],
+      "answer": 0,
+      "explain": "温度词要先隐喻到人的性格／状态（cool＝冷静、沉着），才可能进一步表示“棒”。跳过中间步就无法解释为什么“凉”会变成褒义：沉着在评价体系里是正面品质。这是“具体→抽象→评价”的标准路径。",
+      "concepts": [
+        "c-metaphor",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w21d6-p2",
+      "kind": "mcq",
+      "prompt": "为什么 sick、wicked 这类贬义词会被用来表示“很棒”？",
+      "choices": [
+        "褒义词力度已磨损，贬义词因平时受限而保留了冲击力，反用即可恢复强度",
+        "因为年轻人不知道这些词的贬义",
+        "因为英语缺少表示“好”的词",
+        "因为贬义词在语音上更响亮"
+      ],
+      "answer": 0,
+      "explain": "这是强度驱动的结果：赞赏词被高频使用后力度衰减，而贬义词在正常语境中受限制，反用一次就带来反差与冲击。它不是“不知道贬义”，也不是词汇缺失——英语表示“好”的词极多，问题在于都不够有力。",
+      "concepts": [
+        "c-pejoration",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w21d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词（表示“紧密的、亲密的”）",
+      "sentence": "The two families have been ___ for three generations: they share every holiday and every funeral.",
+      "answer": "tight",
+      "accept": [
+        "tight"
+      ],
+      "explain": "tight 由“紧、密实”隐喻到“关系紧密”，常见于 tight-knit。后面 share every holiday and every funeral 是“关系紧密”的具体证据。这条义项是物理义到社会关系的隐喻延伸，与“tight＝很棒”的俚语义是两条不同的支线。",
+      "concepts": [
+        "c-metaphor",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w21d6-p4",
+      "kind": "mcq",
+      "prompt": "very、really、awfully、totally、literally 的层积说明什么？",
+      "choices": [
+        "强调词会不断磨损，同一个“强化”空位被一代代新形式反复填补",
+        "英语的强调词数量在减少",
+        "这些词的意义从未改变，只是拼写不同",
+        "强调词都来自拉丁语，所以更正式"
+      ],
+      "answer": 0,
+      "explain": "这些词原本都有实义（真实地、可怕地、完全地、字面上），被借作强调后力度逐渐耗尽，于是需要下一层。它们来源不同（法语、本土、拉丁），共同点是都填补同一个功能空位。这说明去强化是机制性的，不是个别词事故。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w21d6-p5",
+      "kind": "mcq",
+      "prompt": "读到 “He gave a slick answer that satisfied nobody.” 句中 slick 最可能是？",
+      "choices": [
+        "圆滑的、油嘴滑舌的（贬义）",
+        "光滑的、手感好的",
+        "娴熟的、令人佩服的（褒义）",
+        "湿滑的、危险的"
+      ],
+      "answer": 0,
+      "explain": "satisfied nobody 给出负面评价，所以 slick 取“圆滑”这一贬义支线——它从“光滑”经“滑不留手”隐喻到“说话不留把柄”。这正是 slick 在 17 世纪经历的贬化；20 世纪的褒义（娴熟）是另一条支线，需由语境支持。",
+      "concepts": [
+        "c-pejoration",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w21d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "The critic called the film “wicked good”, meaning that its cruelty was part of its charm. Readers who took wicked at face value wrote in to complain about the endorsement of evil.",
+      "word": "wicked",
+      "choices": [
+        "表示强烈赞赏的强化词，相当于“非常棒”",
+        "邪恶的，指影片宣扬恶行",
+        "淘气的，指影片适合儿童观看",
+        "拙劣的，指影片技术粗糙"
+      ],
+      "answer": 0,
+      "strategy": "① 引号与 good 并置：wicked good 是口语强化结构，wicked 修饰 good 而非独立表评价；② 解释性从句 meaning that its cruelty was part of its charm 明确指向赞赏；③ 对照：Readers who took wicked at face value 说明字面理解是误读；④ 语域：影评口语层，正适合贬词反用。",
+      "explain": "wicked 在这里是贬词反用的强化词。机制是：贬义词因日常受限而保留冲击力，反用后强度高于普通褒义词。这类用法常引起“字面派”读者抗议，但语言事实是用法先行——词典会滞后收录。",
+      "concepts": [
+        "c-inference",
+        "c-pejoration",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 5 节：创造性变异与求新动因（cool、slick、tight）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "cool／slick／tight／notorious 的义项年代与色彩变化"
+    }
+  ]
+}

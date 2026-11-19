@@ -1,0 +1,298 @@
+{
+  "id": "w17d5",
+  "week": 17,
+  "day": 5,
+  "title": "go 的过去式为什么是 went",
+  "tagline": "屈折表里的空格，被另一个词的形填上了",
+  "objectives": [
+    "能定义异干互补（suppletion）并说明它与元音交替的区别",
+    "能举出动词、形容词、代词、名词四类异干的例子",
+    "能解释 Jupiter/Jovian 这类同源异干在借词里的表现"
+  ],
+  "prereqs": [
+    "w17d2",
+    "c-inflection"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-etymology",
+    "c-allomorph"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s6-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一个空格，借一个形",
+      "body": "古英语的 go 是 gān，过去式是 ēode——今天完全看不出关系。中古英语时期，动词 wenden（转、走）的过去式 wende 被借进了 go 的屈折表，拼写演变为 went，而 ēode 消失。\n\n这就是**异干互补**（suppletion）：一个词位的屈折表里，某个格子由另一个词的形来填。两形之间没有音变关系，所以任何音系规则都推不出来。注意关键词是“借形”，不是“变形”。",
+      "terms": [
+        {
+          "term": "suppletion",
+          "zh": "异干互补",
+          "en": "suppletion",
+          "note": "同一词位的不同形式来自不同词根"
+        },
+        {
+          "term": "paradigm",
+          "zh": "屈折表",
+          "en": "paradigm",
+          "note": "一个词位在各语法位置上的形式总表"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "英语里的四类异干",
+      "body": "异干不是动词的专利。凡是有屈折表的地方都可能出现空格被别的词填上：系动词、形容词的比较级、代词的格、序数词，甚至拉丁名词的格。看到“同一词位、形状毫无关系”，先想到这一条。",
+      "head": [
+        "词位",
+        "形式一",
+        "形式二",
+        "来源"
+      ],
+      "rows": [
+        [
+          "go",
+          "go",
+          "went",
+          "went 原属 wend“转、走”"
+        ],
+        [
+          "be",
+          "be / am / is / are",
+          "was / were",
+          "两个词根（bēon 与 wesan）合并成一张表"
+        ],
+        [
+          "good",
+          "good",
+          "better / best",
+          "bet- 来自另一个词根，与 good 无音变关系"
+        ],
+        [
+          "I",
+          "I",
+          "me / my",
+          "代词各格用不同词干"
+        ],
+        [
+          "one",
+          "one",
+          "first",
+          "first 原为“最前面的”，另一词根"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三条判据，把它和别的异形分开",
+      "body": "1. **能音变解释吗？** foot/feet 能（i-umlaut）；go/went 不能。\n2. **两形有共同的部分吗？** 加音变体（duc/duct）共享词根；异干连词根都不同。\n3. **两个形各自能独立成词吗？** 能。went 在成为 go 的过去式之前，是 wend 的过去式；better 的 bet- 也曾独立表“好”。\n\n所以异干不是“变化大”，而是“来源不同”。这一点常被误解成“不规则动词很难背”，其实难在来源，不在长度：你背的不是变形规则，而是一段借形史。",
+      "terms": [
+        {
+          "term": "lexeme",
+          "zh": "词位",
+          "en": "lexeme",
+          "note": "一个词在词典里的抽象单位，统辖它所有屈折形式"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "Jupiter 与 Jovian：名词范式里的异干",
+      "body": "异干不只发生在动词里。拉丁的 Jupiter 在各格上换词干：主格 Iuppiter，属格 Iovis。英语把两个词干都借了进来——Jupiter 是行星，Jovian 是“木星的”。\n\n这不是英语的怪癖，而是拉丁名词本来就有的异干。借词把范式的两个格子分别搬进英语，于是同一个神在英语里留下两个形状完全不同的词。理解这一点，你才不会把 Jovian 当成“Jupiter 的不规则形容词”。",
+      "steps": [
+        {
+          "period": "拉丁主格",
+          "form": "Iuppiter",
+          "note": "“父 Jū-”，用于主格与呼格"
+        },
+        {
+          "period": "拉丁属格",
+          "form": "Iovis",
+          "note": "其余各格都从 Iov- 这个词干出发"
+        },
+        {
+          "period": "英语",
+          "form": "Jupiter",
+          "note": "取主格，指行星与神"
+        },
+        {
+          "period": "英语",
+          "form": "Jovian",
+          "note": "取斜格词干 Iov-，指“木星的、威严的”"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四种“不规则”的来源对照",
+      "body": "把本周出现的四种机制并排放，你会发现它们造成的“不规则”程度不同：umlaut 还能解释，加音变体只能随表记，异干则完全无法从词形推出。做题时先问“能不能解释”，再问“要不要背”。",
+      "head": [
+        "类型",
+        "机制",
+        "例",
+        "能否推出"
+      ],
+      "rows": [
+        [
+          "元音变音（umlaut）",
+          "已死的音变",
+          "foot / feet",
+          "不能推，但能解释"
+        ],
+        [
+          "元音变换（ablaut）",
+          "印欧语元音分级",
+          "sing / sang / sung",
+          "不能推，但能解释（第 18 周）"
+        ],
+        [
+          "加音变体",
+          "词根在派生时多一个音",
+          "duc / duct",
+          "不能推，须随表记"
+        ],
+        [
+          "异干互补",
+          "借另一个词的形",
+          "go / went",
+          "完全不能推，只能记"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w17d5-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一组是异干互补？",
+      "choices": [
+        "go / went",
+        "foot / feet",
+        "duc / duct",
+        "in- / im-"
+      ],
+      "answer": 0,
+      "explain": "go 与 went 没有共同词根，went 原本属于 wend。foot/feet 是 umlaut 的产物，duc/duct 是加音变体，in-/im- 是同化。四组的机制完全不同，判断依据是“两形能否追溯到同一个词根”。",
+      "concepts": [
+        "c-inflection",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w17d5-p2",
+      "kind": "mcq",
+      "prompt": "儿童说 *goed，最能说明什么？",
+      "choices": [
+        "规则过去式 -ed 仍然能产，儿童先掌握规则，之后才学会异干形",
+        "儿童把 go 误当成了名词",
+        "英语正在恢复 *goed 这个形式",
+        "go 不是动词，所以没有过去式"
+      ],
+      "answer": 0,
+      "explain": "儿童过度概括（overgeneralization）证明 -ed 规则是活的、默认的；went 必须作为词条单独学。这也解释了异干为什么总在“高频词”里存活：用得越多，越容易被完整记住，越不容易被规则抹平。",
+      "concepts": [
+        "c-inflection",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w17d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个单词",
+      "sentence": "The past tense of go, ___, was originally the past tense of another verb, wend.",
+      "answer": "went",
+      "accept": [
+        "went"
+      ],
+      "explain": "went 借自 wend 的过去式 wende，而 go 原来的过去式 ēode 被挤掉。这是英语最著名的异干例，也是“借形填空格”这个定义的来源。",
+      "concepts": [
+        "c-inflection",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w17d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 Iuppiter 的属格是 Iovis，英语形容词 Jovian 最可能的意思是：",
+      "choices": [
+        "木星的；与朱庇特有关的",
+        "与旅行有关的",
+        "与法律有关的",
+        "与年轻人有关的"
+      ],
+      "answer": 0,
+      "explain": "Jovian 取的是斜格词干 Iov-，与主格 Iuppiter 异干，但指同一位神，所以是“木星的”。同类还有 Jovian planet（类木行星）。判断依据不是拼写相似，而是“名词范式换词干”这条拉丁语事实。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ],
+      "hint": "先确认 Iovis 是 Iuppiter 的哪个格。"
+    },
+    {
+      "id": "w17d5-p5",
+      "kind": "mcq",
+      "prompt": "把 good/better/best 与 foot/feet 比较，下面哪项正确？",
+      "choices": [
+        "前者是异干，后者是元音交替：better 的词根与 good 没有音变关系",
+        "两者都是异干",
+        "两者都是 umlaut",
+        "前者是加音变体，后者是异干"
+      ],
+      "answer": 0,
+      "explain": "good 与 bet- 来自两个不同词根，比较级和最高级只有 bet- 一套；foot/feet 则是同一词根经 umlaut 前化。两者都“不规则”，但一个无解可讲，一个有音变可讲——这正是本课要你分清的地方。",
+      "concepts": [
+        "c-inflection",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w17d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 bettered 的含义",
+      "passage": "Critics doubted that new funding would help, but the extra tutors bettered the results within a single term.",
+      "word": "bettered",
+      "choices": [
+        "改善了",
+        "打赌了",
+        "在数量上超过了",
+        "使变坏了"
+      ],
+      "answer": 0,
+      "strategy": "① 句法：bettered 后面带宾语 the results，是及物动词；② 转折：Critics doubted ... but 说明结果与怀疑相反，即好转；③ 语境：within a single term 给出见效的时间范围。",
+      "explain": "better 除比较级外还能作动词“改善”，这是从“更好”直接转类（conversion）来的用法。它的词根仍是异干的 bet-，与 good 无关。这提醒你：异干形一旦独立成词，还能再生新用法，词典里要另立义项。",
+      "concepts": [
+        "c-inference",
+        "c-conversion",
+        "c-inflection"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：异干互补（go/went、Jupiter/Jovian）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "gān/ēode、wendan、Iuppiter/Iovis 的历史形式"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "词位与屈折表：过度概括与不规则形式"
+    }
+  ]
+}

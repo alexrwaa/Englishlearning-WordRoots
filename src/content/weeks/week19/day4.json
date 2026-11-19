@@ -1,0 +1,246 @@
+{
+  "id": "w19d4",
+  "week": 19,
+  "day": 4,
+  "title": "元音删除：period 里少了一个 i",
+  "tagline": "peri- 在元音前丢掉了 i，但这不是“去 e 规则”",
+  "objectives": [
+    "能说出元音删除的条件：词素末短元音在另一个元音或 h 前脱落",
+    "能把音变型删除与去 e 的正字法规则分开",
+    "能用 per-/peri- 这类异形对解释派生词的拼写"
+  ],
+  "prereqs": [
+    "w19d3",
+    "c-spelling-rule"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-spelling-rule",
+    "c-etymology",
+    "c-prefix"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s4-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两个元音相遇，短的那个让位",
+      "body": "拉丁和希腊都不喜欢两个元音直接相接。当**词素末尾的短元音**（尤其是 a、i、o）后面紧跟另一个元音或 h 时，这个短元音直接脱落，一个字母都不留。\n\n- 希腊 peri-（周围）+ odos（路）→ periodos → 英语 **period**\n- 希腊 anti-（反对）+ onyma（名）→ ant-onyma → **antonym**\n- 希腊 an-（无）+ haima（血）→ an-aimia → **anemia**\n- 希腊 mono-（单一）+ arkhein（统治）→ mon-arkhes → **monarch**\n\n注意：脱落的是元音，**词素本身还在**。period 里仍看得出 peri 的痕迹（写作 per-），只是短了一截。这与“前缀被删掉”是两回事。"
+    },
+    {
+      "kind": "table",
+      "title": "四组原形与结果",
+      "body": "第三列是脱落发生的环境：后接元音，或后接 h。第四列给出英语里最终定型的形状。做拆词时，看到这一列的短形，要能反推出第二列的长形；反过来，看到长形也要能预料它在元音前会缩成哪一副样子。",
+      "head": [
+        "词素",
+        "后接成分",
+        "环境",
+        "英语结果"
+      ],
+      "rows": [
+        [
+          "peri- 周围",
+          "odos 路",
+          "i 在 o 前",
+          "period、periodic（peri- 变 per-）"
+        ],
+        [
+          "anti- 反对",
+          "onyma 名",
+          "i 在 o 前",
+          "antonym（ant- 来自 anti-）"
+        ],
+        [
+          "an- 无",
+          "haima 血",
+          "a 在 h 前",
+          "anemia（希腊 anaimia）"
+        ],
+        [
+          "mono- 单一",
+          "arkhein 统治",
+          "o 在 a 前",
+          "monarch（mon- 来自 mono-）"
+        ],
+        [
+          "peri- 周围",
+          "meter 测量",
+          "后接辅音，不删除",
+          "perimeter 保留 peri-"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "和“去 e 规则”不是一回事",
+      "body": "第 8 周学的去 e 规则是**书写约定**：make → making 去掉不发音的 e；加辅音开头的后缀时保留（hopeful、lovely）。它改变的是字母，读音不变，词素也不变。\n\n元音删除是**音变**：词素的形状真的变了，同一个词素在英语里留下两副形状（peri- / per-、anti- / ant-、mono- / mon-），而且两副形状**不可互换**——你只能写 period，不能写 perieod。\n\n两条判据：\n1. 被删的元音**原本是发音的**（peri 的 i 读得出），去 e 的 e 从不发音。\n2. 删除发生在**两个词素的接缝**上，去 e 发生在单词与后缀之间、且只针对不发音的 e。"
+    },
+    {
+      "kind": "compare",
+      "title": "音变型删除 vs 正字法去 e",
+      "body": "两件事在课堂上常被混为一谈，因为它们都表现为“少了一个字母”。区别在于：左列改变的是**词素的身份形状**，右列只改变**书写**。做词素分析时，左列的结果要写进 word sum，右列不需要。",
+      "a": "元音删除（音变）",
+      "b": "去 e（正字法）",
+      "rows": [
+        {
+          "label": "例子",
+          "a": "peri + odos → period",
+          "b": "make + ing → making"
+        },
+        {
+          "label": "变化的层面",
+          "a": "词素的形状（出现异形 per-/peri-）",
+          "b": "字母（e 本来就不发音）"
+        },
+        {
+          "label": "触发条件",
+          "a": "后接元音或 h",
+          "b": "后接以元音开头的后缀"
+        },
+        {
+          "label": "反例检验",
+          "a": "后接辅音则保留：perimeter",
+          "b": "后接辅音则保留：hopeful"
+        },
+        {
+          "label": "是否影响读音",
+          "a": "影响：少一个音节",
+          "b": "不影响"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三个使用场景",
+      "body": "**拆词**：遇到 ant- 开头的词（antonym、antagonist、antarctic），先试 anti-，再看词根；遇到 per- 开头的词（period、perigee 除外），先试 peri-。\n\n**造词**：给 -onym（名）、-od-（路）这类元音开头的词根加前缀时，前缀末元音会消失。这也是为什么英语里同一前缀常有长短两形。\n\n**反推**：period 与 perimeter 共用 peri-，一个少 i 一个保留 i，原因只在后接成分是元音还是辅音。能用这一条解释，就不必分别背两个前缀。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w19d4-p1",
+      "kind": "mcq",
+      "prompt": "period 中的 per- 来自：",
+      "choices": [
+        "希腊前缀 peri-（周围），i 在后接元音前脱落",
+        "拉丁前缀 per-（穿过）",
+        "拉丁词根 pater（父亲）",
+        "英语介词 per（每）"
+      ],
+      "answer": 0,
+      "explain": "period 来自希腊 periodos = peri-（周围）+ odos（路），“绕一圈的路”引申为周期。peri- 的 i 在 o 前脱落，才留下 per-。拉丁 per-（穿过）虽然拼写相同，但义为“贯穿”，与“绕行”不同源。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w19d4-p2",
+      "kind": "mcq",
+      "prompt": "下面哪一项属于正字法去 e，而不是音变型元音删除？",
+      "choices": [
+        "make + ing → making",
+        "peri + odos → period",
+        "anti + onyma → antonym",
+        "mono + arkhein → monarch"
+      ],
+      "answer": 0,
+      "explain": "making 去掉的是不发音的 e，纯属书写约定，加辅音开头的后缀时又会保留（hopeful 不是 hopful）。其余三项都是两个词素接缝上发音元音的脱落，属于音变，并留下长短两副词素形状。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w19d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个希腊前缀（原形）",
+      "sentence": "The Greek prefix in antonym is ___, whose final vowel was lost before the initial o- of the root.",
+      "answer": "anti",
+      "accept": [
+        "anti",
+        "anti-"
+      ],
+      "explain": "antonym = anti-（反对）+ onyma（名）→ “相反的名字”。还原出 anti- 之后，-onym（名）这一词根才显出来，同族词有 synonym、anonymous、pseudonym。",
+      "concepts": [
+        "c-prefix",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w19d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 perimeter = peri-（周围）+ meter（测量），那么 periodic 中的 per- 与 perimeter 中的 peri- 是什么关系？",
+      "choices": [
+        "同一前缀的两个形状：后接元音时 i 脱落，后接辅音时保留",
+        "两个不同前缀，只是拼写相近",
+        "periodic 的 per- 来自拉丁 per-“穿过”",
+        "perimeter 的 peri- 是英语新造的前缀"
+      ],
+      "answer": 0,
+      "explain": "period 的后接成分 odos 以元音开头，i 被删除；perimeter 的 meter 以辅音开头，i 保留。同一前缀、同一意义，差别只在语音环境。这条对应关系能同时解释两个词的拼写。",
+      "concepts": [
+        "c-allomorph",
+        "c-inference"
+      ],
+      "hint": "看后接成分的第一个音是元音还是辅音。"
+    },
+    {
+      "id": "w19d4-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“反义词”的切分（用删除后的形式）",
+      "parts": [
+        "ant",
+        "onym"
+      ],
+      "answer": "antonym",
+      "explain": "ant-（anti- 的短形，i 在 o 前脱落）+ onym（名）→ “相反的名字”。如果写成 anti+onym 就违反了元音删除的规则；这也是判断你是否真的理解这条音变的标志。",
+      "concepts": [
+        "c-word-sum",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w19d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 periodic 的含义",
+      "passage": "The drift in the gyroscope is not random: it is periodic, repeating every 43 minutes, which is exactly the period of the thermal cycle inside the housing.",
+      "word": "periodic",
+      "choices": [
+        "周期性的、按固定间隔重复的",
+        "随机的、无规律的",
+        "逐渐累积的",
+        "与温度无关的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：per-（peri- 的短形，周围）+ od（路）+ -ic（形容词后缀）→ “绕一圈的”；② 否定线索：not random 之后必然给出“有规律”的正面说明；③ 复现：repeating every 43 minutes、the period of the thermal cycle 直接给出定义；④ 排除：随机、累积、与温度无关三项都与后文矛盾。",
+      "explain": "periodic 是“周期性的”。它和 perimeter 共用 peri-，只是这里的 i 因为后接 o 而脱落。认出这一点，就不必把 per- 与 peri- 当成两个不同前缀来背。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 4 节：元音删除与拼写规则之别"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "periodos / ant-onyma / anaimia / monarkhes 的希腊原形"
+    }
+  ]
+}

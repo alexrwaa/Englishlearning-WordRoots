@@ -1,0 +1,267 @@
+{
+  "id": "w17d2",
+  "week": 17,
+  "day": 2,
+  "title": "规则死了，交替活着：man 与 men",
+  "tagline": "词尾消失了，元音差别接过了复数的活",
+  "objectives": [
+    "能说明 i-umlaut 如何把 man 变成 men 并解释词尾为何消失",
+    "能用三条检验判断一个不规则复数是否属于这条路",
+    "能解释为什么儿童会说 foots，而标准语仍用 feet"
+  ],
+  "prereqs": [
+    "w17d1",
+    "c-inflection"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-inflection",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s4-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "先有规则，后有例外",
+      "body": "古英语的复数有一条规律：在词尾加 -iz。这个 -iz 里的前元音会把词根的主元音往前拉——这条音变叫 **i-umlaut**（i 音变）。于是“脚”的复数说成 fēt，“人”的复数说成 menn。\n\n后来词尾 -iz 一路弱化、最终消失。词尾没了，可元音的差别留了下来。今天 foot 与 feet 之间没有任何词尾，复数信息全靠那个元音。这就是“昨天的音系规则，今天的形态规则”：规则本身死了，产物还在工作。",
+      "terms": [
+        {
+          "term": "umlaut",
+          "zh": "元音变音（i 音变）",
+          "en": "umlaut",
+          "note": "后一音节的前元音使词根元音前化"
+        },
+        {
+          "term": "morphologization",
+          "zh": "形态化",
+          "en": "morphologization",
+          "note": "音系规则消失后，其产物被重新分析为形态标记"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "同一条件留下的五组",
+      "body": "这五组走的是同一条路：复数词尾含前元音，词根元音前化，词尾后来脱落。注意 mouse/mice 的特殊之处——元音变了，词尾的 /s/ 还留着痕迹；man/men 则只剩元音，一个词尾字母都不剩。这说明同一个音变在不同词上留下的残留可以不一样多。",
+      "head": [
+        "单数",
+        "复数",
+        "词根元音",
+        "残留"
+      ],
+      "rows": [
+        [
+          "man",
+          "men",
+          "a → e",
+          "只剩元音差别"
+        ],
+        [
+          "foot",
+          "feet",
+          "oː → eː",
+          "只剩元音差别"
+        ],
+        [
+          "tooth",
+          "teeth",
+          "oː → eː",
+          "只剩元音差别"
+        ],
+        [
+          "goose",
+          "geese",
+          "oː → eː",
+          "只剩元音差别"
+        ],
+        [
+          "mouse",
+          "mice",
+          "uː → iː",
+          "元音变了，词尾的 /s/ 也留下"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "怎么判断它已经变成形态规则",
+      "body": "三条检验，缺一不可：\n\n1. **同步层面推不出来**：没有一条现代英语规则能从 [ʊ] 得出 [iː]，你只能整对记。\n2. **不再能产**：新词一律走 -s——app 的复数是 apps，不是“epps”；mouse 指电脑鼠标时，mouses 完全合法。\n3. **交替本身承载意义**：听到 feet 就知道是复数，不需要额外词尾。\n\n所以它不是“发音习惯”，而是复数词素的一个特殊变体，也可以说词根有了一对变体。教材把这一步叫**形态化**：音系规则退场，产物被重新分析成语法标记。"
+    },
+    {
+      "kind": "compare",
+      "title": "音系规则 vs 形态规则",
+      "body": "两者都可能表现为“同一个词在不同场合换形”，区别在于今天还有没有条件在推动它。判断方法是造一个新词：新词跟着变，规则还活着；新词不跟，它已经是形态规则。",
+      "a": "音系规则（还活着）",
+      "b": "形态规则（已形态化）",
+      "rows": [
+        {
+          "label": "触发条件",
+          "a": "邻接的音",
+          "b": "词形本身携带的语法信息"
+        },
+        {
+          "label": "今天是否运行",
+          "a": "在：-s 三读仍按音分配",
+          "b": "不在：没有新词走 umlaut"
+        },
+        {
+          "label": "新词是否适用",
+          "a": "适用（apps、blogs）",
+          "b": "不适用（*foots 不行，但 *epps 也不会出现）"
+        },
+        {
+          "label": "例子",
+          "a": "cats [s] / dogs [z] / horses [ɪz]",
+          "b": "feet、teeth、mice"
+        },
+        {
+          "label": "出错时的表现",
+          "a": "读音别扭",
+          "b": "语法错：*foots 在标准语里不成立"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "同一笔遗产的另一半：使役对",
+      "body": "umlaut 不只造复数，也造使役动词：让某物“变满”的是 fill（full 的 umlaut 形），让某物“出血”的是 bleed（blood），让家畜“进食”的是 feed（food），让树“倒下”的是 fell（fall）。\n\n这些对子今天也没有规则可循，只能整对记。区别在于：复数那一路是**屈折**，改的是语法；使役这一路是**派生**，造的是新词。两条路都保留着同一个已死的音变，所以把它们放在一起看，反而更容易记住。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w17d2-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一组是 i-umlaut 留下的复数？",
+      "choices": [
+        "mouse / mice",
+        "book / books",
+        "child / children",
+        "sheep / sheep"
+      ],
+      "answer": 0,
+      "explain": "mouse/mice 靠词根元音前化加词尾残留，是 umlaut 的产物。children 用的是另一套 -en 复数（还叠加了 double plural 的历史），sheep 是零复数，books 是规则 -s。四组的机制各不相同，不能都叫“不规则”。",
+      "concepts": [
+        "c-inflection",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w17d2-p2",
+      "kind": "mcq",
+      "prompt": "为什么 *foots 在标准英语里不成立？",
+      "choices": [
+        "feet 已经单独承载复数，规则复数在这里没有位置；但儿童会说 foots，说明 -s 规则在别处仍然活着",
+        "因为 foot 是不可数名词",
+        "因为 f 开头的词不能加 -s",
+        "因为 foot 是法语借词，不适用英语复数"
+      ],
+      "answer": 0,
+      "explain": "两个机制并存：-s 规则对所有新词有效，而 feet 作为词汇化的例外占据了这个格子。儿童说 foots 正是把规则推广到例外的结果，后来才学会 feet。这说明“不规则”不是没有规则，而是规则与词条记忆在竞争。",
+      "concepts": [
+        "c-inflection",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w17d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个术语（英文）",
+      "sentence": "The plural feet exists because an old vowel-fronting rule, known as ___, outlived the ending that once triggered it.",
+      "answer": "umlaut",
+      "accept": [
+        "umlaut",
+        "i-umlaut"
+      ],
+      "explain": "i-umlaut 是“后一音节的前元音使词根元音前化”的音变。触发它的词尾后来脱落，交替却留下来标记复数，于是音系规则变成了形态规则。",
+      "concepts": [
+        "c-etymology",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w17d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 dormouse 的复数是 dormice，且 louse 与 mouse 属于同一类词。louse 的复数最可能是：",
+      "choices": [
+        "lice",
+        "louses",
+        "louse",
+        "leese"
+      ],
+      "answer": 0,
+      "explain": "mouse/mice 与 louse/lice 走同一条 umlaut 路线：词根元音前化，词尾留 /s/。dormouse 变 dormice 时只改后半截，正说明这条交替是绑在 -mouse 这个词上的，不是整个复合词一起变。louses 只在比喻义（“寄生虫般的人”）里偶见。",
+      "concepts": [
+        "c-allomorph",
+        "c-inference",
+        "c-inflection"
+      ],
+      "hint": "先找与 mouse 同型的词，再看元音怎么动。"
+    },
+    {
+      "id": "w17d2-p5",
+      "kind": "mcq",
+      "prompt": "关于 children 与 feet，下面哪项判断正确？",
+      "choices": [
+        "两者都不规则，但 children 靠 -en 词尾，feet 靠元音交替",
+        "两者都靠元音交替",
+        "children 是规则复数，feet 是不规则复数",
+        "feet 是规则复数，children 是不规则复数"
+      ],
+      "answer": 0,
+      "explain": "children 的标记是 -en（古英语 -an 的残留，后来又叠加了 -er-，所以历史上是“双重复数”）；feet 的标记是元音交替。把“不规则”当成一个盒子会把两种不同机制混为一谈，而本课要的正是机制。",
+      "concepts": [
+        "c-inflection",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w17d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 fell 在这里的含义",
+      "passage": "The crew was hired to fell the dead pines along the ridge; by autumn the slope would be bare enough for new growth to take hold.",
+      "word": "fell",
+      "choices": [
+        "砍倒（树木）",
+        "跌倒",
+        "落下（fall 的过去式）",
+        "使腐烂"
+      ],
+      "answer": 0,
+      "strategy": "① 句法：to fell 后面直接带宾语 the dead pines，必须是及物动词；fall 的过去式 fell 不能带宾语。② 语义：by autumn the slope would be bare 说明树被清掉了。③ 词形：fall 与 fell 构成 umlaut 使役对，意为“使倒下”。",
+      "explain": "这里的 fell 不是 fall 的过去式，而是“砍倒”这个动词，历史上是 fall 的使役形（“使……倒下”）。同型还有 full/fill、food/feed、blood/bleed。判断的关键是句法：后面能带宾语，就不可能是那个不及物的过去式。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：昨日音系即今日形态（umlaut 与 man/men、foot/feet）"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态化：音系规则如何转为形态标记"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "mouse/mice、louse/lice、fall/fell 的历史形式"
+    }
+  ]
+}

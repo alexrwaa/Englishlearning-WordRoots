@@ -1,0 +1,254 @@
+{
+  "id": "w22d2",
+  "week": 22,
+  "day": 2,
+  "title": "词不够用，所以一个词要干几份活",
+  "tagline": "造词贵、说长短语累，扩展旧词义最省——这就是多义普遍存在的经济学理由",
+  "objectives": [
+    "能列出语言应对“词不够用”的三条路，并说明各条路的成本",
+    "能用 horse 的义项累积说明“新义从基本义长出、旧义常保留”",
+    "能解释为什么最高频的词义项最多，以及语境如何消解由此产生的歧义"
+  ],
+  "prereqs": [
+    "w22d1",
+    "w21d4"
+  ],
+  "concepts": [
+    "c-semantic-shift",
+    "c-metaphor",
+    "c-metonymy",
+    "c-frequency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s7-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三条路，只有一条便宜",
+      "body": "要表达的东西没有上限：新事物、新关系、新评价每天都在出现。词项却有上限——没人能记住无限多的形式。面对这个缺口，语言只有三条路：\n\n1. **造新形式**：借词、复合、混成、缩略，都算。成本最高：一个新形式要整个言语社区接受，通常需要几十年。\n2. **拉长短语**：说得准确，但每次都要多花时间，而且短语本身也会被省略压短。\n3. **扩展旧词义**：形式上不花一分钱，只需约定“这个词还可以这么用”。成本最低。\n\n所以第三条路被用得最多。**多义不是语言的缺陷，而是它的节能设计。** 教材把“词汇总量有限”列为语义变化的根本动因，理由就在这里：前三类动因（误解、求新、省略）都只是触发，这一条才是长期的推力。",
+      "terms": [
+        {
+          "term": "word stock",
+          "zh": "词汇总量",
+          "en": "word stock",
+          "note": "一种语言现有词项的总和，增长受学习成本约束"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "horse：一匹马怎么变成锯架和马力",
+      "body": "**horse** 的基本义是“马”，围绕它长出了一串义项，每一个都能找到理据：\n\n- **sawhorse**（锯架）：四条腿撑起横木，形状像马——隐喻。\n- **骑兵**：three hundred horses 指三百名骑手——转喻（坐骑代人）。\n- **horsepower**（马力）：瓦特用马的做功能力折算蒸汽机功率——转喻（以典型个体作计量单位）。\n- **vaulting horse**（鞍马）、**clothes horse**（晾衣架）：都是“形似马”的隐喻。\n\n注意两件事。第一，**新义都从基本义出发**，不是从别的义项乱跳。第二，**旧义没有消失**：说 horse 仍首先是马，其他义项要靠复合形式或语境激活。这就是教材说的“累积式路径”——义项往上叠，不是替换。\n\n对照第 22 周末要讲的另一种结果：有时新义会把旧义顶掉（car），那是另一种命运。",
+      "terms": [
+        {
+          "term": "sawhorse",
+          "zh": "锯架",
+          "en": "sawhorse",
+          "note": "horse 的隐喻派生义，形状像马的四腿支架"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三条路的成本对照",
+      "body": "这张表可以用来回答一个常见问题：“为什么英语不干脆造个新词？”答案在第三列：新形式的成本不是造出来，而是让所有人用起来。所以真实语言里三条路常常混用——先用旧词顶着，等某个说法足够常用，再缩略或另造新词。",
+      "head": [
+        "路径",
+        "做法",
+        "成本",
+        "例子"
+      ],
+      "rows": [
+        [
+          "造新形式",
+          "借词、复合、混成、缩略",
+          "高：需社区接受，常需数十年",
+          "smog（smoke＋fog）、robot（借捷克语）"
+        ],
+        [
+          "拉长短语",
+          "用词组精确限定",
+          "中：每次使用都多花时间，且易被省略",
+          "microwave oven → microwave"
+        ],
+        [
+          "扩展旧词义",
+          "给现有词加一个相关义项",
+          "低：形式已存在，只需约定用法",
+          "horse → sawhorse、horsepower"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么高频词的义项最多",
+      "body": "如果把词典翻开，义项最多的一批词都是极高频的“小词”：**set、run、take、go、get、make**。set 常被引为英语义项最多的词之一，词典记录数以百计的用法。\n\n原因不是它们“重要”，而是它们**被用得最多**。每一次表达缺口出现，最先被拉来救场的总是已经在嘴边的词。用得越多，加义的机会越多，义项就越厚。这就是**频率与多义的正相关**。\n\n代价是歧义风险上升。语言的对策有三条：\n\n- **语境消歧**：在五金店说 horse 会让人困惑，说 sawhorse 就清楚。\n- **固定搭配**：run a company 与 run a mile 靠宾语分开。\n- **复合形式**：需要精确时加限定成分（cell phone 而非 cell）。\n\n一旦对象就在眼前，仍可以简称为 horse——**精确与省力之间，语言一直在动态调平衡**。",
+      "terms": [
+        {
+          "term": "frequency effect",
+          "zh": "频率效应",
+          "en": "frequency effect",
+          "note": "越高频的形式，越容易积累新义项"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "多义不等于歧义",
+      "body": "多义是**潜在**的多个读法，歧义是**实际**出现了两个以上都讲得通的读法。前者是资源，后者是故障。区分两者的能力，就是阅读能力的一部分：你要能判断语境是否已经把其他读法排除干净。",
+      "a": "多义（polysemy）",
+      "b": "歧义（ambiguity）",
+      "rows": [
+        {
+          "label": "性质",
+          "a": "一个形式有多个有历史关联的义项",
+          "b": "特定句子里两个读法同时成立"
+        },
+        {
+          "label": "例子",
+          "a": "horse＝马／锯架／骑兵／马力",
+          "b": "“He sat on the horse.” 缺语境时可能指马或锯架"
+        },
+        {
+          "label": "处理方式",
+          "a": "记核心义与派生路径",
+          "b": "补语境、换精确形式（sawhorse）"
+        },
+        {
+          "label": "与词库的关系",
+          "a": "常态，越多越经济",
+          "b": "偶发，是交际的临时故障"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w22d2-p1",
+      "kind": "mcq",
+      "prompt": "按教材的论证，“扩展旧词义”为什么成为最常走的一条路？",
+      "choices": [
+        "造新形式要整个社区接受、长短语每次使用都费时，而旧词加义几乎不增加形式成本",
+        "因为新造的词一律不合语法",
+        "因为借词会破坏语言的纯洁性",
+        "因为短语无法表达精确的意义"
+      ],
+      "answer": 0,
+      "explain": "三条路的差别在成本：新形式的成本是社区接受的时间，短语的成本是每次使用的时间，旧词加义只需要约定一个新用法。语言在长期使用中自然偏向低成本方案，所以多义普遍。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w22d2-p2",
+      "kind": "mcq",
+      "prompt": "sawhorse 中 horse 的义项是怎么来的？",
+      "choices": [
+        "由“马”的形似隐喻而来：四条腿撑横木，形状像马",
+        "由“马”的转喻而来：以马代替木工工具",
+        "与 horse 无关，是 saw＋horse 的偶然拼合",
+        "由“马力”这一计量单位引申而来"
+      ],
+      "answer": 0,
+      "explain": "锯架四腿一横木，轮廓像马，属形似隐喻。它不是转喻（没有邻接关系），也不是从 horsepower 反推的——horsepower 反而是另一条独立支线。",
+      "concepts": [
+        "c-metaphor",
+        "c-compound"
+      ]
+    },
+    {
+      "id": "w22d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词（复合词的后半）",
+      "sentence": "A carpenter rests the plank on a ___, a four-legged frame that holds the wood steady while it is being cut.",
+      "answer": "sawhorse",
+      "accept": [
+        "sawhorse",
+        "horse"
+      ],
+      "explain": "sawhorse＝saw＋horse，指锯木时承托木料的四腿支架。后半 horse 取“形似马”的隐喻义。若只填 horse，在木工语境中也成立，这正是多义靠语境消歧的实例。",
+      "concepts": [
+        "c-compound",
+        "c-metaphor"
+      ]
+    },
+    {
+      "id": "w22d2-p4",
+      "kind": "mcq",
+      "prompt": "set、run、take 这类词义项特别多，最合理的解释是？",
+      "choices": [
+        "它们使用频率极高，每次表达缺口都最先被调用，因而不断积累新义",
+        "它们都是拉丁借词，拉丁词天生多义",
+        "它们拼写短，短词必然多义",
+        "它们没有词根，所以意义不受约束"
+      ],
+      "answer": 0,
+      "explain": "频率是关键变量：高频词总在说话人嘴边，遇到新表达需求时最容易被扩展。拼写短是相关现象（高频形式倾向变短），但不是原因；这些词多来自古英语本土层，也不是拉丁借词。",
+      "concepts": [
+        "c-frequency",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w22d2-p5",
+      "kind": "mcq",
+      "prompt": "下面两句里的 run，义项关系最准确的描述是？",
+      "choices": [
+        "“The engine runs smoothly.”与“She runs a small company.”分别取“运转”与“经营”，都由“跑”这一基本义经隐喻扩展而来",
+        "两句的 run 是同形异义，来源不同，互不相关",
+        "两句的 run 都是“跑”的字面义",
+        "第二句的 run 是名词，第一句是形容词"
+      ],
+      "answer": 0,
+      "explain": "“跑”→“（机器）持续运转”→“（组织）持续运作、经营”，是一条连续的隐喻链，义项之间有可重建的联系，所以属多义而非同形异义。判断依据仍是链条，而不是形式。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-metaphor"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w22d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "The workshop was empty except for two horses in the corner, their tops scarred by decades of saw cuts, and a pile of planks waiting to be trimmed.",
+      "word": "horses",
+      "choices": [
+        "锯木用的支架（sawhorse 的省略说法）",
+        "两匹真正的马",
+        "两把大型锯子",
+        "两匹用来运送木料的马"
+      ],
+      "answer": 0,
+      "strategy": "① 同现：workshop、saw cuts、planks、trimmed 全是木工语域；② 修饰语：their tops scarred by saw cuts 说明是承托物而非动物；③ 数量与位置：in the corner 指器物摆放；④ 词义路径：horse 有“形似马的支架”这一义项，语境一到就激活。",
+      "explain": "这里的 horses 是 sawhorse 的省略／简称，取 horse 的隐喻派生义。这个例子同时演示了两条机制：多义（horse 的义项累积）与省略（sawhorse → horses）。语境（workshop、saw cuts）把“马”这一读法排除干净，所以不构成歧义。",
+      "concepts": [
+        "c-inference",
+        "c-semantic-shift",
+        "c-metaphor"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 7 节：词汇总量有限是意义增殖的根源（horse、sawhorse、horsepower）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "horse 各义项的年代与 horsepower 的计量来源"
+    }
+  ]
+}

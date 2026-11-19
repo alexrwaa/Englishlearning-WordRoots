@@ -1,0 +1,258 @@
+{
+  "id": "w22d4",
+  "week": 22,
+  "day": 4,
+  "title": "literally 被磨空的那一层",
+  "tagline": "一个专门用来声明“这不是比喻”的词，最后自己变成了夸张",
+  "objectives": [
+    "能区分 literally 的字面用法、强化用法与习语化用法，并说明判定线索",
+    "能解释“语义磨损”（semantic bleaching）的机制，并举出 very、awfully 等同构案例",
+    "能说明这场争议为何是描述性与规定性之争，而不是对错之争"
+  ],
+  "prereqs": [
+    "w21d6",
+    "w10d2"
+  ],
+  "concepts": [
+    "c-semantic-shift",
+    "c-metaphor",
+    "c-register",
+    "c-frequency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s10-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一个自我拆台的词",
+      "body": "**literally** 的构词很直白：literal（字面的）＋-ly，本义“按字面地”。它的工作是在比喻泛滥的语言里划一条线：\n\n- He literally exploded. （他真的炸了——不是比喻）\n- He figuratively exploded. （他是比喻地说“炸了”）\n\n问题出在这条线太有用，于是它被借去干另一件事：**加强语气**。\n\n- I literally died when I saw the price. （我“真的”死了？显然没有）\n\n这时 literally 不再声明字面性，而是充当一个强度标记，等于“完全、简直”。一个专门否认比喻的词，最后成了最典型的夸张——这就是教材说的“词义被掏空”。",
+      "terms": [
+        {
+          "term": "literally",
+          "zh": "字面地；[口语]简直、完全",
+          "en": "literally",
+          "note": "强化用法常被规范派批评，但已被多数词典收录"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "磨损：内容义退，功能义进",
+      "body": "语言学家把这种现象叫 **semantic bleaching**（语义漂白／磨损）：一个词的具体内容义逐渐变淡，语法或语用功能变强。\n\n**very** 是最好的对照。它来自古法语 verai“真的”，源头是拉丁 verus“真”。中古英语里 very 还是“真正的”（the very truth＝真正的真相），后来“真”的内容义褪去，只剩下“程度高”这一功能：very good 里的 very 已经不能问“真不真”。\n\n同一条路上还有：\n\n- **awfully**、**terribly**：从“可怕地”到“非常”（awfully nice）。\n- **really**、**truly**：从“真实地”到“确实、非常”。\n- **absolutely**、**totally**：从“完全地”到纯粹的强化标记。\n\n规律很清楚：**表示“真实／极度”的词，最容易被拉去当强化词；一旦当上强化词，它的字面内容就开始漏气。**",
+      "terms": [
+        {
+          "term": "semantic bleaching",
+          "zh": "语义磨损／漂白",
+          "en": "semantic bleaching",
+          "note": "内容义变淡，功能义增强"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "literally 的三层用法与判定",
+      "body": "同一个词，三种工作。判定不能靠“听起来顺不顺”，要靠三条硬线索：所述事件是否可能、是否有对比项（figuratively）、以及能否换成“简直”而句义不变。",
+      "head": [
+        "层次",
+        "作用",
+        "例句",
+        "判定线索"
+      ],
+      "rows": [
+        [
+          "字面用法",
+          "声明所述为实",
+          "The bridge literally collapsed at noon.",
+          "事件物理上可能，且有可核实的指称"
+        ],
+        [
+          "强化用法",
+          "加强语气，等于“简直”",
+          "I literally died laughing.",
+          "事件不可能为真；换成“简直”句义不变"
+        ],
+        [
+          "习语化用法",
+          "固定搭配，几乎不带字面义",
+          "He was literally on fire last season.",
+          "体育、娱乐语域中已成套话，字面读法荒谬"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么吵不完：两种立场，不是两个答案",
+      "body": "规范派（prescriptive）说：literally 就该表字面，滥用使它失去唯一功能——如果它也能表夸张，那它还能干什么？\n\n描述派（descriptive）说：语言事实是大量母语者这么用，且多数大型词典已收录强化义并加注“常被批评”。词典的任务是记录用法，不是发许可证。\n\n两边其实都承认同一个事实：**磨损已经发生**。分歧在于要不要抵制。\n\n写作上的实用结论有两条：\n\n1. **正式文体**里避免用 literally 表强调，改用 completely、utterly，或干脆去掉。\n2. **读到强化用法的 literally 时，别按字面理解**，否则会把夸张当事实——这在读新闻与评论时尤其容易出错。",
+      "terms": [
+        {
+          "term": "prescriptive",
+          "zh": "规定性的",
+          "en": "prescriptive",
+          "note": "规定“应该怎么用”"
+        },
+        {
+          "term": "descriptive",
+          "zh": "描述性的",
+          "en": "descriptive",
+          "note": "记录“实际怎么用”"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "磨损、贬化、扩大：三种结果别混",
+      "body": "三者都会让词“不像原来那个意思”，但方向完全不同。判断方法：问“少掉的是什么”。少掉内容、只剩功能，是磨损；多了负面评价，是贬化；范围变大，是扩大。",
+      "a": "磨损（bleaching）",
+      "b": "贬化（pejoration）",
+      "rows": [
+        {
+          "label": "变化的是",
+          "a": "内容义的浓度，功能义上升",
+          "b": "评价色彩，向负面漂移"
+        },
+        {
+          "label": "例",
+          "a": "literally、very、awfully",
+          "b": "notorious、slick（17 世纪）、cripple"
+        },
+        {
+          "label": "句法后果",
+          "a": "常被重新分析为副词性强化标记，可修饰不可比性质",
+          "b": "搭配范围收窄，多用于人时带贬义"
+        },
+        {
+          "label": "能否还原",
+          "a": "词源清楚，但字面读法已不自然",
+          "b": "中性义仍可能出现在旧文本中"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w22d4-p1",
+      "kind": "mcq",
+      "prompt": "“The meeting literally lasted four hours.” 中 literally 的作用最可能是？",
+      "choices": [
+        "字面用法：强调四小时是实数，不是夸张",
+        "强化用法：等于“简直”，四小时并非实数",
+        "习语化用法：已成固定套话，没有字面义",
+        "误用，因为 literally 不能与时间段连用"
+      ],
+      "answer": 0,
+      "explain": "会议持续四小时在物理上完全可能，句子也没有“不可能为真”的迹象，所以取字面用法：说话人在声明这不是夸张。判定关键是“事件是否可能为真”，而不是个人语感。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w22d4-p2",
+      "kind": "mcq",
+      "prompt": "semantic bleaching 指的是什么？",
+      "choices": [
+        "词的具体内容义逐渐变淡，语法或语用功能变强",
+        "词的拼写被简化，字母脱落",
+        "词的褒贬色彩由正转负",
+        "词的指称范围由窄变宽"
+      ],
+      "answer": 0,
+      "explain": "漂白（磨损）说的是“内容漏气、功能上位”。very 从“真正的”变成程度标记，awfully 从“可怕地”变成“非常”，都是内容义退场、功能义接管。拼写简化、贬化、扩大分别是另外三种变化。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w22d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "The sauce was ___ inedible: not merely bad, but impossible to swallow.",
+      "answer": "literally",
+      "accept": [
+        "literally"
+      ],
+      "explain": "冒号后的 not merely bad, but impossible to swallow 是在“把话说到字面上”，所以 literally 取字面用法，声明“不是修辞”。这个句子同时说明：字面用法仍然活着，磨损并没有把旧义消灭。",
+      "concepts": [
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w22d4-p4",
+      "kind": "mcq",
+      "prompt": "为什么 literally 会被用作强化词？",
+      "choices": [
+        "因为“真实／极度”类词最容易被拉去加强语气，而强化位置一旦被占用，字面内容就开始磨损",
+        "因为说话人普遍不懂它的意思",
+        "因为词典先收录了强化义，人们才跟着用",
+        "因为它的拉丁词根表示“夸张”"
+      ],
+      "answer": 0,
+      "explain": "这是功能驱动的：语言需要一个“非常”的位置，而表示“真实、完全”的词最有资格坐上去（very、really、truly 都走过这条路）。坐上去之后，字面内容逐渐失效。词典是记录者，不是起因。",
+      "concepts": [
+        "c-frequency",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w22d4-p5",
+      "kind": "mcq",
+      "prompt": "读到 “She was awfully pleased with the result.” 对 awfully 的判断，最准确的是？",
+      "choices": [
+        "它已从“可怕地”磨损为强化词，此处等于“非常”，不带“可怕”义",
+        "它仍表“可怕地”，说明她很害怕这个结果",
+        "它是形容词，修饰 pleased 的方式状语",
+        "它是贬化用法，表示结果很糟"
+      ],
+      "answer": 0,
+      "explain": "awfully＋褒义形容词（pleased）时，只能取强化义“非常”，否则语义冲突（既可怕又满意）。这正是磨损的判定线索：当字面义与搭配冲突时，功能义胜出。同类还有 terribly nice、dreadfully good。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w22d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "The reviewer writes that the novel is “literally unputdownable”, then admits she read it in three sittings over a week. Taken at face value, the phrase would require a book that physically cannot be set down.",
+      "word": "literally",
+      "choices": [
+        "用作强化词，等于“简直”，并不声明字面为真",
+        "用作字面声明，表示这本书在物理上无法放下",
+        "用作否定词，表示“并非不可放下”",
+        "用作技术术语，指装订方式特殊"
+      ],
+      "answer": 0,
+      "strategy": "① 反证：后一句 she read it in three sittings over a week 直接否掉“无法放下”；② 提示句：Taken at face value ... physically cannot be set down 是把字面读法当作荒谬来调侃；③ 搭配：unputdownable 本身已是夸张的评价词；④ 结论：literally 在此只提供强度。",
+      "explain": "这是典型的强化用法：literally 与一个本身已夸张的形容词连用，语义上不可能取字面。评论者自己也知道，所以用 Taken at face value 开玩笑。读这类文本时按字面理解，就会把修辞当成事实陈述——这正是磨损给阅读带来的实际风险。",
+      "concepts": [
+        "c-inference",
+        "c-semantic-shift",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 10 节：隐喻的过度使用与 literally 的语义磨损"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "literally、very（verai／verus）、awfully 的义项史与词典标注"
+    }
+  ]
+}

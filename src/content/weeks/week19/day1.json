@@ -1,0 +1,282 @@
+{
+  "id": "w19d1",
+  "week": 19,
+  "day": 1,
+  "title": "先还原拉丁音值：c 是 [k]，g 是 [g]",
+  "tagline": "音变规则只在拉丁音值上运算，不在今天的英语读音上运算",
+  "objectives": [
+    "能说出拉丁 c、g、v、j、qu 的古典音值，并指出英语读音是后来的事",
+    "能说明为什么按英语读音判断词素形状会出错",
+    "能用 reg-/rect- 一组词演示拉丁内部清化与法语软化是两层变化"
+  ],
+  "prereqs": [
+    "w08d1",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-etymology",
+    "c-greek-latin",
+    "c-spelling-rule"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s2-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "字母是固定的，读音是流动的",
+      "body": "古典拉丁的拼写与读音几乎是**一一对应**的：c 永远读 [k]，g 永远读 [g]，v 是 [w] 一类的近音，j 是 [j]（近似英语 yes 的首音），qu 读 [kw]。没有例外，也没有“软音”“硬音”之分。\n\n英语的读法是**后来**才变成现在这样的：cite 的 c 读 [s]，regent 的 g 读 [dʒ]，via 的 v 读 [v]。变的是接收者，不是拉丁。法语先把软腭音在前元音前磨成擦音，英语再借过来按自己的拼读习惯读。\n\n于是有一条纪律：**要用拉丁音变规则，必须先把拼写读回拉丁音值**。若把 regent 的 g 当成 [dʒ]，你就看不出它与 rect- 是同一个词根。",
+      "terms": [
+        {
+          "term": "letter-sound correspondence",
+          "zh": "字母—音值对应",
+          "en": "letter-sound correspondence",
+          "note": "同一字母在不同语言、不同时代可能对应不同音值"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "五个字母的拉丁音值",
+      "body": "看第四列：英语读音往往已经离拉丁很远，但**词素的形状**由拉丁音值决定。所以判断“这个词为什么这样拼”，要回到中间那列，而不是第一列的英语发音。",
+      "head": [
+        "字母",
+        "拉丁音值",
+        "英语常见读法",
+        "代表词"
+      ],
+      "rows": [
+        [
+          "c",
+          "[k]（任何位置）",
+          "[k] 或 [s]",
+          "clinic 读 [k]；cite 读 [s]；拉丁都读 [k]"
+        ],
+        [
+          "g",
+          "[g]（任何位置）",
+          "[g] 或 [dʒ]",
+          "give 读 [g]；regent 读 [dʒ]；拉丁都读 [g]"
+        ],
+        [
+          "v",
+          "[w]（近音）",
+          "[v]",
+          "via、villa 的 v 在拉丁近于英语 w"
+        ],
+        [
+          "j",
+          "[j]（近音）",
+          "[dʒ]",
+          "拉丁 jam 近于英语 yam 的首音"
+        ],
+        [
+          "qu",
+          "[kw]",
+          "[kw]",
+          "question、quart 的 qu 一直没变"
+        ],
+        [
+          "x",
+          "[ks]",
+          "[ks] 或 [gz]",
+          "拉丁 dux 读 [duks]"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "读错音，规则就会用错",
+      "body": "英语有一条拼写—读音规则：c 在 e、i 前读 [s]（city、cent）。这条规则**不属于拉丁**。拉丁的 centum（百）读 [kentum]，c 在 e 前仍然是 [k]。\n\n如果拿英语规则去套拉丁，你会得出一个错误的结论：“拉丁的 c 也有软硬两读”，接着就无法解释为什么 century（读 [ˈsentʃəri]）与 centipede（读 [ˈsentɪpiːd]）的 c 都读 [s]，词素却始终写作 cent-——因为词素形状从拉丁继承下来，读音则在英语层各自演变。\n\n正确的顺序是：**先定拉丁音值 → 在拉丁音值上应用音变规则 → 再看英语层又改了什么**。第 15、16 周讲的法语软化，只有放在这个顺序里才说得通。"
+    },
+    {
+      "kind": "etym",
+      "title": "regere：一个词根的两条命运",
+      "body": "同一个拉丁动词，在英语里留下了两组面貌。第一组保留 g，因为 g 后面接的是元音；第二组把 g 变成 c，因为 g 后面接的是清音 t。两组都真实，只是处在不同的层次上：一组是拉丁内部的清浊同化，一组是法语的软腭软化。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "regere",
+          "note": "统治、引导；g 读 [g]"
+        },
+        {
+          "period": "拉丁（现在分词）",
+          "form": "regent-",
+          "note": "统治的；g 仍在元音前，保持 [g]"
+        },
+        {
+          "period": "拉丁（分词词干）",
+          "form": "rect-",
+          "note": "g 在 t 前清化为 [k]，写作 c"
+        },
+        {
+          "period": "法语 → 英语",
+          "form": "regent",
+          "note": "[g] 在 e 前软化为 [dʒ]"
+        },
+        {
+          "period": "英语（学术借词）",
+          "form": "correct、direct、rectangle、rectify",
+          "note": "直接取分词词干 rect-，保留清化结果"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "两层变化，别混着讲",
+      "body": "同一个词根在英语里出现两种辅音，最常见的解释错误是把两层变化说成一条规则。下面两列各管一段：左列是拉丁内部按音值运行的同化，右列是借词进入法语、英语后按新音系重新发音。",
+      "a": "拉丁内部（按音值运行）",
+      "b": "法语/英语层（重新发音）",
+      "rows": [
+        {
+          "label": "reg- / rect-",
+          "a": "g 在 t 前清化为 c：rect- 是分词词干",
+          "b": "regent 的 g 在 e 前读 [dʒ]"
+        },
+        {
+          "label": "cent-",
+          "a": "c 始终是 [k]，拼写始终是 c",
+          "b": "century 的 c 读 [s]、t 读 [tʃ]"
+        },
+        {
+          "label": "v-",
+          "a": "v 是 [w] 近音：via、villa",
+          "b": "英语读 [v]，与拉丁不同"
+        },
+        {
+          "label": "判据",
+          "a": "看词素形状与同族词的对应",
+          "b": "看音标与借入年代"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w19d1-p1",
+      "kind": "mcq",
+      "prompt": "拉丁动词 citare（召唤、引用）中的 c，古典音值是：",
+      "choices": [
+        "[k]",
+        "[s]",
+        "[tʃ]",
+        "[ts]"
+      ],
+      "answer": 0,
+      "explain": "拉丁 c 在任何位置都是 [k]，所以 citare 读 [kɪˈtaːre]。英语 cite 读 [saɪt]，是法语层软化后的结果。判断词素时要用 [k]，否则会把 cite 与 site 当成同一个词素——它们同音但不同源。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w19d1-p2",
+      "kind": "mcq",
+      "prompt": "下面哪一组最能说明“不能凭英语读音判断拉丁词素的形状”？",
+      "choices": [
+        "clinic 的 c 读 [k]、cite 的 c 读 [s]，拉丁里都写作 c 读 [k]",
+        "clinic 与 clinical 是同族词",
+        "cite 与 site 英语同音",
+        "regent 与 correct 都含 re-"
+      ],
+      "answer": 0,
+      "explain": "同一个字母在英语里读出两个音，说明英语读音已经与拉丁音值脱钩；而词素形状仍按拉丁写作 c。若用英语读音反推，就会以为拉丁有两套 c。cite 与 site 同音只是巧合，不涉及拉丁音值。",
+      "concepts": [
+        "c-allomorph",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w19d1-p3",
+      "kind": "cloze",
+      "prompt": "填入拉丁 qu 的音值（用音标符号）",
+      "sentence": "In classical Latin the letter group qu- was pronounced ___, so Latin qui sounded much like English 'kwee'.",
+      "answer": "[kw]",
+      "accept": [
+        "[kw]",
+        "kw",
+        "[k w]"
+      ],
+      "explain": "拉丁 qu 是 [k] 加 [w] 两个音，不像法语和部分英语词那样读 [k]。quart、question 的 qu 保留了这条音值，所以从拼写就能直接对应到音。",
+      "concepts": [
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w19d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）拉丁 centum 意为“一百”，centurion 指罗马军团的“百人队队长”。有人说“centurion 的 c 读 [s]，可见拉丁的 c 在 e 前也读 [s]”。这个推论错在哪里？",
+      "choices": [
+        "把英语层的读音当成了拉丁音值，拉丁的 c 始终是 [k]",
+        "centurion 不是拉丁词，所以不能用来推论",
+        "拉丁的 c 只在 i 前读 [s]，e 前不读",
+        "centum 的 c 其实读 [tʃ]"
+      ],
+      "answer": 0,
+      "explain": "centurion 是英语词，它的 [s] 是英语（经法语）的软化结果。拉丁 centum 读 [kentum]，centuria 同样读 [k]。推论的方向反了：应该从拉丁音值出发解释英语读音，而不是用英语读音反推拉丁。",
+      "concepts": [
+        "c-allomorph",
+        "c-inference"
+      ],
+      "hint": "先问：这个读音是哪个时代的？"
+    },
+    {
+      "id": "w19d1-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“世纪”的切分",
+      "parts": [
+        "cent",
+        "ury"
+      ],
+      "answer": "century",
+      "explain": "cent-（拉丁 centum“百”，古典读 [k]）+ -ury（名词后缀）。century 原指“百人队”，后指“一百年”。今天读 [ˈsentʃəri]，c 软化、t 颚化都是拉丁之后的事，与词素切分无关。",
+      "concepts": [
+        "cent",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w19d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 rectify 的含义",
+      "passage": "Before the next run, the engineer had to rectify the calibration table: every offset had been entered with the wrong sign, so each value had to be corrected before the robot could localize itself again.",
+      "word": "rectify",
+      "choices": [
+        "纠正、改正",
+        "放大、增强",
+        "记录、存档",
+        "复制、备份"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：rect-（拉丁 regere 的分词词干“引导、弄直”，g 在 t 前清化为 c）+ -ify（使……）；② 句法：had to rectify the table 后面用冒号给出具体做法；③ 语境：wrong sign、had to be corrected 是同义复现；④ 排除：放大、存档、备份都无法解释“符号错了要改”。",
+      "explain": "rectify 是“纠正、矫正”，字面是“使变直”。这个词正好演示今天的两层变化：rect- 里的 c 来自 g 在 t 前的清化（拉丁内部），而 regent 里的 g 读 [dʒ] 是法语软化。同一个词根，两条路。",
+      "concepts": [
+        "c-inference",
+        "c-etymology",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 2 节：拉丁字母与音值"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "regere / regent- / rect- 与 centum / centuria 的词形史"
+    }
+  ]
+}

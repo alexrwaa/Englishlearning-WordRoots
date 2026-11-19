@@ -1,0 +1,258 @@
+{
+  "id": "w19d6",
+  "week": 19,
+  "day": 6,
+  "title": "希腊词末没有塞音：stoma 与 stomatic",
+  "tagline": "主格丢掉的那个 t，在加后缀时又回来了",
+  "objectives": [
+    "能说出希腊词只允许元音、n、r、s 收尾的规则",
+    "能解释 stoma/stomatic、schema/schematic 中 t 的来历",
+    "能用 -atic、-matic 结尾反推主格形"
+  ],
+  "prereqs": [
+    "w19d5",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-etymology",
+    "c-greek-latin",
+    "c-scientific"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s4-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "希腊词的收尾限制",
+      "body": "希腊语不允许词以**塞音**（p、t、k、b、d、g）结尾，能收尾的只有元音，以及 n、r、s 三个辅音。\n\n于是出现一个固定模式：一个以 -mat-、-at- 结尾的词干，在**主格**必须丢掉末尾那个塞音，只留元音收尾；一旦加上以元音开头的后缀，塞音又落回两个元音之间，于是重新出现。\n\n- stomat-（口）→ 主格 **stoma**；+ -ic → **stomatic**\n- schemat-（形）→ 主格 **schema**；+ -ic → **schematic**\n- dramat-（剧）→ 主格 **drama**；+ -ic → **dramatic**\n\n注意：塞音不是被“加”上去的，它一直在词干里；是主格把它丢了。"
+    },
+    {
+      "kind": "table",
+      "title": "八组主格形与派生形",
+      "body": "第二列是词干，第三列是去掉塞音后的主格，第四列是塞音重新出现的派生形。凡是希腊来源、以 -ma 结尾的名词，几乎都能在这张表里找到位置；反过来，看到 -matic 也应当能想回它的主格形。",
+      "head": [
+        "主格（丢塞音）",
+        "词干",
+        "派生形",
+        "领域"
+      ],
+      "rows": [
+        [
+          "stoma 口",
+          "stomat-",
+          "stomatic、stomatitis",
+          "医学"
+        ],
+        [
+          "schema 图式",
+          "schemat-",
+          "schematic",
+          "认知、工程"
+        ],
+        [
+          "drama 戏剧",
+          "dramat-",
+          "dramatic、dramatist",
+          "文学"
+        ],
+        [
+          "problema 问题",
+          "problemat-",
+          "problematic",
+          "通用"
+        ],
+        [
+          "systema 系统",
+          "systemat-",
+          "systematic",
+          "通用、科研"
+        ],
+        [
+          "stigma 标记、污名",
+          "stigmat-",
+          "stigmatic",
+          "社会学、植物学"
+        ],
+        [
+          "enigma 谜",
+          "enigmat-",
+          "enigmatic",
+          "通用"
+        ],
+        [
+          "aroma 香气",
+          "aromat-",
+          "aromatic",
+          "化学、食品"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "用这条规则读生词",
+      "body": "**正向**：见到 -atic、-matic、-etic 结尾的形容词，先减去 t 找名词。problematic → problem；systematic → system；cinematic → cinema；axiomatic → axiom；symptomatic → symptom。这样做比查词源快得多，而且几乎不会错。\n\n**反向**：见到以 -ma 结尾的希腊名词，可以预期它有一个 -matic 形容词，即使那个形容词不常用（stoma → stomatic；magma → magmatic）。\n\n注意细分：-atic 里的 a 有时属于后缀（-atic 来自希腊 -atikos），有时属于词干（stomat- 的 a）。判断靠对照同族词，而不是靠数元音。"
+    },
+    {
+      "kind": "text",
+      "title": "不是英语在加 t",
+      "body": "常见误解：以为英语给 stoma 加了一个 t 造出 stomatic。实际顺序相反——**词干本来就有 t，是主格把它丢了**。\n\n判断依据有两条：\n1. t 出现在**所有**派生词里，却不在最短的形式里；\n2. t 的位置正好在词干末尾、后缀之前，而不是随便插在中间。\n\n这与第 13 周讲的“英语借名词取主格、造派生词取斜格词干”是同一个模式：**词典形和构词材料可以是两副形状**。拉丁靠格变化，希腊靠词末音限制，结果一样。"
+    },
+    {
+      "kind": "compare",
+      "title": "两种“看起来像加了个音”",
+      "body": "左列是塞音在派生形里“复现”，右列才是真正的插入（下一周的主题）。区分方法：复现的音在词干里本来就有，位置固定；插入的音是临时填缝，去掉也不影响词素身份。",
+      "a": "词末塞音的复现",
+      "b": "真正的音素插入",
+      "rows": [
+        {
+          "label": "例子",
+          "a": "stoma / stomatic",
+          "b": "se- + itio → seditio（下周讲）"
+        },
+        {
+          "label": "音从哪来",
+          "a": "词干本来就以 t 结尾",
+          "b": "词干里没有这个音"
+        },
+        {
+          "label": "位置",
+          "a": "总在词干末、后缀前",
+          "b": "总在两词素接缝处"
+        },
+        {
+          "label": "判据",
+          "a": "看最短形式与派生形的对应",
+          "b": "看前后两个音是否难以直接相接"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w19d6-p1",
+      "kind": "mcq",
+      "prompt": "stomatic 中的 t 来自：",
+      "choices": [
+        "希腊词干 stomat- 本有的塞音，主格 stoma 把它丢了",
+        "英语为了发音顺畅插入的过渡音",
+        "拉丁分词后缀 -t-",
+        "形容词后缀 -atic 自带的 t"
+      ],
+      "answer": 0,
+      "explain": "希腊词干是 stomat-，主格受“不许塞音收尾”的限制变成 stoma；加 -ic 时 t 回到两元音之间，所以是 stomatic。它不是英语插入的，也不是后缀的一部分——stomatitis（口腔炎）同样保留 t。",
+      "concepts": [
+        "c-allomorph",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w19d6-p2",
+      "kind": "mcq",
+      "prompt": "与 schema / schematic 的关系属于同一类型的是：",
+      "choices": [
+        "drama / dramatic",
+        "describe / description",
+        "expect / spectator",
+        "legal / illegal"
+      ],
+      "answer": 0,
+      "explain": "drama 与 dramatic 同样是主格丢塞音、派生形复现（dramat-→dramatic）。describe/description 是清浊同化造成的两套词干；expect/spectator 是 s 删除；legal/illegal 是同化加双写。四组都涉及词形变化，但机制不同。",
+      "concepts": [
+        "c-allomorph",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w19d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语形容词",
+      "sentence": "The error was not random: it appeared every time the same input was repeated, which made it ___ rather than accidental.",
+      "answer": "systematic",
+      "accept": [
+        "systematic"
+      ],
+      "explain": "systematic = systema（系统）的派生形 systemat- + -ic，“有系统的、成规律的”。句子里 every time the same input was repeated 与 rather than accidental 一起给出“非偶然、有规律”的语义。",
+      "concepts": [
+        "c-greek-latin",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w19d6-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知希腊 axioma（公理、自明之理）的词干是 axiomat-，那么 axiomatic 最可能的意思是：",
+      "choices": [
+        "公理式的、不言自明的",
+        "有症状的",
+        "与轴线有关的",
+        "最大的、极值的"
+      ],
+      "answer": 0,
+      "explain": "axioma 的词干 axiomat- 加 -ic 得 axiomatic。干扰项分别来自 symptom（症状）、axis（轴）、maximum（最大）——三个词都与 axioma 拼写相近但不同源。判断依据是先还原主格形 axiom，再看语义场。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin"
+      ],
+      "hint": "先减 t 找主格形，再判断语义场。"
+    },
+    {
+      "id": "w19d6-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“示意的、图解的”的切分",
+      "parts": [
+        "schem",
+        "atic"
+      ],
+      "answer": "schematic",
+      "explain": "词库按拼写把 -atic 整体算作后缀，所以切成 schem + atic，同类还有 problematic、systematic。但从希腊词源看，t 原本属于词干 schemat-，是主格 schema 把它丢了。两种切法指向同一个事实：t 在主格形里缺席，在派生形里出现。",
+      "concepts": [
+        "c-word-sum",
+        "c-greek-latin"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w19d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 enigmatic 的含义",
+      "passage": "Her reply was enigmatic: it answered the question without committing her to anything, and the more the committee pressed for details, the more carefully she chose words that could be read in two ways.",
+      "word": "enigmatic",
+      "choices": [
+        "难以捉摸的、像谜一样的",
+        "明确无误的",
+        "粗鲁失礼的",
+        "冗长啰嗦的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：enigmat-（希腊 enigma“谜”的词干）+ -ic → “谜一般的”；② 冒号后给出解释：answered…without committing her；③ 递进句：the more…the more carefully she chose words that could be read in two ways 是“故意含糊”的证据；④ 排除：明确无误与之相反，粗鲁、冗长都无对应线索。",
+      "explain": "enigmatic 是“像谜一样的、难以捉摸的”，来自希腊 enigma（谜），词干 enigmat-，主格丢 t、派生形复现 t。它与今天讲的 stoma/stomatic 完全同型。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 4 节：希腊词末塞音失落"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "stoma / schema / drama / systema / enigma 的词干形式"
+    }
+  ]
+}

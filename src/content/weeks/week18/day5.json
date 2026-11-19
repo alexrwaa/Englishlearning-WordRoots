@@ -1,0 +1,273 @@
+{
+  "id": "w18d5",
+  "week": 18,
+  "day": 5,
+  "title": "deity 与 divine：三种没有道理的变体",
+  "tagline": "不是同化、不是弱化、不是加音——只能整行记",
+  "objectives": [
+    "能列出 de~div、aut~taut、lith~lit 三组变体并各举两例",
+    "能说明这三组为什么无法用音变条件解释",
+    "能排除 de-、taut、-ite 三个假朋友"
+  ],
+  "prereqs": [
+    "w18d4",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-etymology",
+    "c-morpheme",
+    "lith"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s11-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "剩下的那些，没有机制可讲",
+      "body": "前面几天讲的变体都有原因：同化、弱化、加音、融合。但元素表里还有一批变体，找不到任何条件——\n\n- **de~div**“神”：deity、deify／divine、divinity\n- **aut~taut**“自己／同一”：autograph、authentic／tautology\n- **lith~lit**“石”：lithograph、monolith／cryolite、aerolite\n\n它们不是音变规则能推出的，只能作为元素表的一行整体记住。教材的态度很明确：这类东西不要强行解释；说“没有通则，逐个记”比编一条假规则更诚实。",
+      "terms": [
+        {
+          "term": "idiosyncratic allomorph",
+          "zh": "个别变体",
+          "en": "idiosyncratic allomorph",
+          "note": "不受普遍条件制约、只能随词素单独记的变体"
+        }
+      ],
+      "morphemes": [
+        "lith"
+      ],
+      "morphemeIds": [
+        "cx-lith-lit"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三组与它们的例词",
+      "body": "注意第三列“注意”栏：每一组都有一个形状相近、意义不同的成分在旁边等着骗你。记变体的时候把假朋友一起记，才算记牢。另外留意第三行：短形 lit 并不只出现在词尾，cryolite 里它就在词中，所以长短不是位置条件，只能随词记。",
+      "head": [
+        "变体",
+        "释义",
+        "例词",
+        "注意"
+      ],
+      "rows": [
+        [
+          "de ~ div",
+          "神",
+          "deity 神性、deify 奉为神；divine 神的、divinity 神学",
+          "deity 的 de- 不是 de-“向下、去除”"
+        ],
+        [
+          "aut ~ taut",
+          "自己／同一",
+          "autograph 亲笔签名、automatic 自动的；tautology 同义反复",
+          "taut- 不是形容词 taut“紧的”"
+        ],
+        [
+          "lith ~ lit",
+          "石",
+          "lithograph 石版画、monolith 独石；cryolite 冰晶石、aerolite 石陨石",
+          "-lite 不是矿物后缀 -ite 的普通形式"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么要专门防“假朋友”",
+      "body": "这些变体最容易和别的成分撞形：\n\n1. **de-** 有个常用前缀“向下、去除”（decrease、dehydrate）。deity 的 de- 与它无关，整词来自 deus“神”。\n2. **taut** 在英语里是形容词“紧的”（a taut rope）。tautology 的 taut- 是希腊“同一”，与绳子无关。\n3. **-lite** 看起来像矿物后缀 -ite（granite、graphite），其实它是 lith“石”的短形，cryo-lite 是“冰＋石”。\n\n判定方法：先看整词的语义能否由另一条路讲通；讲不通，就回到元素表。别用“看起来像”当证据。"
+    },
+    {
+      "kind": "compare",
+      "title": "可解释的变体 vs 不可解释的变体",
+      "body": "两类变体在学习上的待遇完全不同：一类记条件就行，另一类必须整行背。分不清就会浪费时间去找不存在的规则，或者在明明有规则的地方硬背。记错类别的代价也不一样：把可解释的当不可解释，只是多背几条；把不可解释的当可解释，就会推出不存在的词形。",
+      "a": "可解释的变体",
+      "b": "不可解释的变体",
+      "rows": [
+        {
+          "label": "机制",
+          "a": "同化／弱化／加音／融合",
+          "b": "无（历史遗留或借词偶然）"
+        },
+        {
+          "label": "能否预测",
+          "a": "能说出条件",
+          "b": "不能，只能查表"
+        },
+        {
+          "label": "学习方式",
+          "a": "记条件，可推及生词",
+          "b": "记整行，随词素记"
+        },
+        {
+          "label": "例",
+          "a": "in→im；fac→fic",
+          "b": "de~div；aut~taut；lith~lit"
+        },
+        {
+          "label": "出错后果",
+          "a": "拼错一个字母",
+          "b": "认错词根，整词误解"
+        }
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "三条算式，两种变体",
+      "body": "第一行用 lith 的长形，第二行用短形 lit，第三行用 aut 的另一条义“自己”。同一个书写系统里，长形与短形并存，靠词源而不是靠位置决定，这正是“只能整行记”的具体含义。",
+      "sums": [
+        {
+          "parts": [
+            "mono",
+            "lith"
+          ],
+          "result": "monolith",
+          "glossZh": "独石、巨型石碑"
+        },
+        {
+          "parts": [
+            "litho",
+            "graph"
+          ],
+          "result": "lithograph",
+          "glossZh": "石版画"
+        },
+        {
+          "parts": [
+            "auto",
+            "graph"
+          ],
+          "result": "autograph",
+          "glossZh": "亲笔签名"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w18d5-p1",
+      "kind": "mcq",
+      "prompt": "deity 与 divine 的关系是：",
+      "choices": [
+        "同一词根 de~div“神”的两个形状，须整对记",
+        "deity 的 de- 是“向下”，与 divine 无关",
+        "divine 是 deity 按规则派生出的形容词",
+        "两者只是拼写巧合"
+      ],
+      "answer": 0,
+      "explain": "两词都从“神”这条义出发：deity 来自 deus，divine 来自 divus，二者是同一词根的两种形式。这里没有音变条件可讲，所以只能整对记。若把 de- 解作“向下”，deity 就无法解释。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w18d5-p2",
+      "kind": "mcq",
+      "prompt": "tautology 中 taut- 的意思是：",
+      "choices": [
+        "同一",
+        "紧",
+        "全部",
+        "声音"
+      ],
+      "answer": 0,
+      "explain": "希腊 tautos“同一”（to auto 的缩合），tautology 字面“说同一件事”，指用不同措辞重复同一断言。它与形容词 taut“紧的”同形异源，两者没有任何词源关系。",
+      "concepts": [
+        "c-etymology",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w18d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个名词",
+      "sentence": "The two sentences say exactly the same thing; the second is a ___ .",
+      "answer": "tautology",
+      "accept": [
+        "tautology"
+      ],
+      "explain": "“说同一件事”就是 tautology。它与“矛盾”（contradiction）正好相反：矛盾是两句不能同真，同义反复是两句只能同真。这一区别在逻辑与写作课里都常用。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w18d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）cryolite 中的 -lite 最可能表示：",
+      "choices": [
+        "石",
+        "普通矿物后缀 -ite 的弱化形式",
+        "光",
+        "冰"
+      ],
+      "answer": 0,
+      "explain": "cryo-（冰）+ lit（lith“石”的短形）→ 冰晶石，一种外观像冰的矿物。若按普通 -ite 理解，就丢掉了“石”这个核心义，也无法解释为什么同一矿物族里 lith 与 lit 会并存。",
+      "concepts": [
+        "c-inference",
+        "c-morpheme",
+        "lith"
+      ],
+      "hint": "先定前半段的义，再看后半段能否回到 lith。"
+    },
+    {
+      "id": "w18d5-p5",
+      "kind": "wordSum",
+      "prompt": "写出 monolith 的构词算式",
+      "parts": [
+        "mono",
+        "lith"
+      ],
+      "answer": "monolith",
+      "explain": "mono-（单一）+ lith（石）→ 独石、巨型石碑。这里用长形 lith，与 cryolite 的短形 lit 形成对照：长短不由位置决定，只能随词记。这也是本课“整行记”的意思。",
+      "concepts": [
+        "c-word-sum",
+        "c-prefix",
+        "lith"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w18d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 tautology 的含义",
+      "passage": "His defence was a tautology: the policy is right because it is correct. Saying it twice does not make it an argument.",
+      "word": "tautology",
+      "choices": [
+        "同义反复：用不同说法重复同一意思",
+        "自相矛盾的断言",
+        "引用权威的论证",
+        "简洁的定义"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后 the policy is right because it is correct 是“同一意思换词说”；② 末句 Saying it twice 直接点明；③ 构词：taut-（同一）+ -logy（说）。",
+      "explain": "tautology 字面“说同一”，指用不同措辞重复同一断言，因而没有增加信息。它与 contradiction 相反：矛盾是两句不能同真，同义反复是两句只能同真。写作中它是最常见的逻辑空转。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：个别变体（de~div、aut~taut、lith~lit）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "deus/divus、autos/tautos、lithos 及 -lite 矿物名的来源"
+    }
+  ]
+}

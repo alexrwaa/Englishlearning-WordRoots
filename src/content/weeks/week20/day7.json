@@ -1,0 +1,267 @@
+{
+  "id": "w20d7",
+  "week": 20,
+  "day": 7,
+  "title": "从 million 到 giga：大数命名与全章检查表",
+  "tagline": "-illion 是从 million 上截下来的，SI 前缀则是一套 19 世纪的人造度量词头",
+  "objectives": [
+    "能说明 -illion 的来源，以及 short scale 与 long scale 的差异",
+    "能说明 SI 前缀与拉丁数词的关系：同义不同源，表数量级而非序数",
+    "能把本章全部音变规则组织成一张解析生词的检查表"
+  ],
+  "prereqs": [
+    "w20d6",
+    "c-scientific"
+  ],
+  "concepts": [
+    "c-scientific",
+    "c-greek-latin",
+    "c-etymology",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s9-6",
+    "kp-s1c6s10-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "-illion 是从 million 上截下来的",
+      "body": "**million** 来自意大利语 milione，字面是“大千”（mille 千 + 增义后缀 -one）。17 世纪的人要造更大的数，没有现成词素可用，就把 million 的后半截 **-illion** 当作一个“大数标记”，前面接上拉丁数词：\n\n- bi-（二）+ -illion → **billion**\n- tri-（三）+ -illion → **trillion**\n- quadr-（四）+ -illion → **quadrillion**\n\n所以 -illion **不是一个真正的词素**：它不能独立成词，也不能自由组合出意义（不存在 *fiveillion）。它是一个“词形碎片”（splinter）——从已有词里截出来、又被反复使用的部件。\n\n按同一逻辑继续造：quintillion（10^18）、sextillion（10^21）、septillion（10^24）、octillion、nonillion、decillion。数字越大，这些词在真实语料里越少见。"
+    },
+    {
+      "kind": "table",
+      "title": "两套 scale：同一个词，两个数值",
+      "body": "这是英语里著名的国际误会来源。**short scale** 每升一级乘 1000（美国、英国现代用法）；**long scale** 每升一级乘 10^6（历史上英国、多数欧洲语言）。同一个 billion，一边是十亿，一边是万亿。科学写作因此避免用这些词，改用 10 的幂或 SI 前缀。",
+      "head": [
+        "词",
+        "构成",
+        "short scale",
+        "long scale"
+      ],
+      "rows": [
+        [
+          "million",
+          "mille + -one",
+          "10^6",
+          "10^6"
+        ],
+        [
+          "billion",
+          "bi- + -illion",
+          "10^9（十亿）",
+          "10^12（万亿）"
+        ],
+        [
+          "trillion",
+          "tri- + -illion",
+          "10^12",
+          "10^18"
+        ],
+        [
+          "quadrillion",
+          "quadr- + -illion",
+          "10^15",
+          "10^24"
+        ],
+        [
+          "quintillion",
+          "quint- + -illion",
+          "10^18",
+          "10^30"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "SI 前缀不是拉丁数词的直系后代",
+      "body": "kilometer 里的 kilo- 与拉丁 mille（千）意思相同，但**不是同一个词素**：kilo- 来自希腊 khilioi（千），是 1795 年法国米制确立时选用的词头。mega-（megas 大）、giga-（gigas 巨人）、tera-（teras 怪物）、nano-（nanos 矮人）同样是希腊词，1960 年国际计量大会把它们定为 10 的整数次幂的名称。\n\n三点必须分清：\n1. **SI 前缀表数量级，不表序数**：gigawatt 是“十亿瓦”，不是“第几十亿瓦”，也不是“巨人瓦”。\n2. **它们是近代人造术语的一部分**，不是拉丁数词自然演变的结果。\n3. **SI 系统内部还混着拉丁词素**：milli-、centi-、deci- 是拉丁的，kilo-、mega-、micro- 是希腊的。混用在这里是标准，不是错误。"
+    },
+    {
+      "kind": "table",
+      "title": "常见 SI 前缀与幂次",
+      "body": "第五列把语源标出来，请注意它是混的：前缀系统按幂次排列整齐，语源却不统一。这正是“术语体系”与“自然语言”的区别——前者是人为设计的，只要求内部一致。",
+      "head": [
+        "前缀",
+        "幂次",
+        "语源",
+        "英语例词"
+      ],
+      "rows": [
+        [
+          "kilo-",
+          "10^3",
+          "希腊 khilioi 千",
+          "kilogram、kilometer、kilowatt"
+        ],
+        [
+          "mega-",
+          "10^6",
+          "希腊 megas 大",
+          "megabyte、megawatt、megahertz"
+        ],
+        [
+          "giga-",
+          "10^9",
+          "希腊 gigas 巨人",
+          "gigabyte、gigawatt"
+        ],
+        [
+          "tera-",
+          "10^12",
+          "希腊 teras 怪物",
+          "terabyte、terahertz"
+        ],
+        [
+          "milli-",
+          "10^-3",
+          "拉丁 mille 千",
+          "millimeter、millisecond"
+        ],
+        [
+          "micro-",
+          "10^-6",
+          "希腊 mikros 小",
+          "microsecond、micrometer"
+        ],
+        [
+          "nano-",
+          "10^-9",
+          "希腊 nanos 矮人",
+          "nanometer、nanosecond"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "全章检查表：六步解析一个生词",
+      "body": "本章的规则不是六个孤立知识点，而是一套**按顺序使用**的工具。拿到一个不认识的学术词，依次做六件事：\n\n1. **还原拉丁音值**：c = [k]、g = [g]、v 近 [w]、qu = [kw]（第 19 周第 1 天）。\n2. **查同化**：前缀末辅音是否被后接音同化？ac-/af-/at-/as-/al- 多半是 ad-（第 19 周第 3 天）。\n3. **查清浊**：词根末是 b 还是 p、g 还是 c？可能是分词词干（第 19 周第 2 天）。\n4. **查删除与插入**：s 是否被 ex- 吃掉？元音是否在元音前脱落？有没有插入的 d 或 p？（第 19 周第 4、5 天；本周第 1 天）\n5. **查 s / r 交替与元音层级**：-er-/-or- 是否对应 -es-/-os-？元音是 a、e 还是 i？是弱化还是着色？（本周第 2、3、4 天）\n6. **定语义**：用词根义 + 前缀方向 + 语境，最后才查词典。\n\n**示范**：expect → ② ex- 后接 s 词根，s 被删；④ 剩 pect = spec（看）；⑥ “向外看”→ 期待。prescription → ③ 词干取分词 script（b→p）；⑥ “事先写下的”→ 处方。sedition → ④ se- 与元音间插入 d；⑥ “分开带走”→ 叛乱。justice → ⑤ jus 的 r 形 jur- 出现在 jury。\n\n这六步走熟之后，生词就不再是“背过的/没背过的”两类，而是“能解释的/待查的”两类。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w20d7-p1",
+      "kind": "mcq",
+      "prompt": "关于 -illion，下面哪项说法正确？",
+      "choices": [
+        "它是从 million 截取出来的词形碎片，不能独立成词，也不是拉丁数词后缀",
+        "它是拉丁语中表示“大数”的独立后缀",
+        "它是希腊数词与拉丁后缀的组合",
+        "它可以自由加到任何数词后构成新词"
+      ],
+      "answer": 0,
+      "explain": "-illion 是从 million（意大利语 milione）后半截取出来的，被反复用于 billion、trillion 等，但它不能独立成词，也没有固定的词汇意义，所以不是真正的词素。这类成分在构词学里叫 splinter（词形碎片）。",
+      "concepts": [
+        "c-etymology",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w20d7-p2",
+      "kind": "mcq",
+      "prompt": "giga- 的语源与含义是：",
+      "choices": [
+        "希腊 gigas“巨人”，1960 年被定为 10^9 的词头",
+        "拉丁 gigas“巨大”，由拉丁数词演变而来",
+        "拉丁 mille 的变体，意为“千”",
+        "英语 giant 的截短形式"
+      ],
+      "answer": 0,
+      "explain": "giga- 来自希腊 gigas（巨人），是 1960 年国际计量大会确定的 10^9 词头，与拉丁数词无直接演变关系。它的意义是数量级，不是“巨人”的字面义——gigawatt 就是十亿瓦。",
+      "concepts": [
+        "c-greek-latin",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w20d7-p3",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“微秒”的切分",
+      "parts": [
+        "micro",
+        "second"
+      ],
+      "answer": "microsecond",
+      "explain": "micro-（希腊 mikros“小”，SI 词头 10^-6）+ second（秒）→ 微秒。这里 micro- 是标准前缀而非词根；同样结构的还有 millisecond、nanosecond，三个词头的幂次各差 1000 倍。",
+      "concepts": [
+        "c-word-sum",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w20d7-p4",
+      "kind": "cloze",
+      "prompt": "填入一个英语数词",
+      "sentence": "In the short scale used in the United States, one ___ is a thousand million, that is, 10^9.",
+      "answer": "billion",
+      "accept": [
+        "billion"
+      ],
+      "explain": "short scale 的 billion = 10^9（十亿），long scale 则是 10^12（万亿）。词形上它是 bi-（二）+ -illion，即“第二个大数”，与数值没有直接的字面对应关系——这也是科学写作改用 10 的幂的原因。",
+      "concepts": [
+        "c-scientific",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w20d7-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）按 short scale 的构成方式，quadrillion 的数值是：",
+      "choices": [
+        "10^15",
+        "10^12",
+        "10^18",
+        "10^9"
+      ],
+      "answer": 0,
+      "explain": "short scale 每加一级乘 1000：million 10^6、billion 10^9、trillion 10^12、quadrillion 10^15。词形是 quadr-（四）+ -illion，即“第四个”。10^12 是 trillion、10^18 是 quintillion，都是相邻项的错位。",
+      "concepts": [
+        "c-inference",
+        "c-scientific"
+      ],
+      "hint": "先排顺序，再按每级乘 1000 数下去。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w20d7-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 nanometer 的含义",
+      "passage": "At the 10 nanometer node, the width of a single wire is only a few dozen atoms across, so the manufacturing tolerances are measured in fractions of a nanometer rather than in micrometers.",
+      "word": "nanometer",
+      "choices": [
+        "纳米（十亿分之一米）",
+        "微米（百万分之一米）",
+        "毫米（千分之一米）",
+        "千米"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：nano-（希腊 nanos“矮人”，SI 词头 10^-9）+ meter（米）；② 数量线索：a few dozen atoms across 说明极小的尺度；③ 对照句：rather than in micrometers 把纳米与微米对举，纳米更小；④ 排除：微米是 10^-6、毫米 10^-3、千米 10^3，量级全不对。",
+      "explain": "nanometer 是“纳米”，10^-9 米。这个词同时用到两套知识：nano- 是 1960 年定的 SI 词头（不是拉丁数词），meter 是希腊 metron。把“数量级”读出来，技术文本里的尺度就不容易搞错。",
+      "concepts": [
+        "c-inference",
+        "c-scientific",
+        "c-greek-latin"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 9、10 节：大数命名与本章规则总览"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "million / billion 的 scale 差异与 SI 前缀的制定年代"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "id": "w20d1",
+  "week": 20,
+  "day": 1,
+  "title": "插入：sedition 的 d 与 assumption 的 p",
+  "tagline": "两个都是插进去的音，动机却完全不同",
+  "objectives": [
+    "能说出元音结尾前缀在元音前插入 d 的条件与目的",
+    "能解释 -mpt- 中 p 的来历，并说明它不表义",
+    "能区分“为撑住词形而插入”与“为发音顺畅而插入”"
+  ],
+  "prereqs": [
+    "w19d4",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-etymology",
+    "c-morpheme",
+    "c-word-sum"
+  ],
+  "knowledgePoints": [
+    "kp-s1c6s5-1",
+    "kp-s1c6s5-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两种插入，两种动机",
+      "body": "上一周的音变都在“删”，这一周开始“加”。拉丁的插入（insertion / epenthesis）有两类，动机不同，处理方式也不同。\n\n**一、为撑住词形而插入 d。** 有些前缀只有一个音节、且以元音结尾（se-、re-、pro-）。当它们后面接一个元音开头的词根时，两个元音直接相接，词形太单薄，拉丁就插入一个 **d**：se- + itio → **sed-itio** → sedition。\n\n**二、为发音顺畅而插入 p。** 当 m 后面紧跟 t 时，双唇闭合后要立刻放开去发 t，中间会自然冒出一个 p：*emere* → 分词 *emptus*。这个 p 不表任何意义。\n\n一类补形态，一类补发音。判断时先问：这个音是不是在**词素接缝**上？"
+    },
+    {
+      "kind": "etym",
+      "title": "sedition：一个 d 撑住整个词",
+      "body": "se- 是“分开”，itio 是“走”（来自 ire）。两者直接相接会变成 se-itio，两个元音顶在一起。拉丁插入 d 得到 seditio，英语借入后成为 sedition“煽动叛乱”——字面是“把人群分开带走”。同一个 d 也出现在 redeem、redemption 里：re- + emere → redimere。",
+      "steps": [
+        {
+          "period": "拉丁词素",
+          "form": "se- + itio",
+          "note": "分开 + 走；两元音相接"
+        },
+        {
+          "period": "拉丁（插入 d）",
+          "form": "sed-itio",
+          "note": "d 撑开两个元音，词形变稳"
+        },
+        {
+          "period": "拉丁名词",
+          "form": "seditio, sedition-",
+          "note": "分裂、叛乱"
+        },
+        {
+          "period": "英语",
+          "form": "sedition",
+          "note": "煽动叛乱；同族 seditious"
+        },
+        {
+          "period": "同型例",
+          "form": "red-empt-io → redemption",
+          "note": "re- + emere“买” → 买回、赎回"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "-mpt-：m 与 t 之间挤出来的 p",
+      "body": "第二列是拉丁原形，第三列是分词。请注意 p 出现的位置固定得惊人：永远在 m 与 t 之间。这种固定位置正是“纯语音插入”的标志——它不携带意义，也不改变词素的边界。",
+      "head": [
+        "拉丁动词",
+        "分词",
+        "英语例词",
+        "p 的位置"
+      ],
+      "rows": [
+        [
+          "emere 买",
+          "emptus",
+          "exempt、redemption、pre-empt",
+          "m–p–t"
+        ],
+        [
+          "sumere 拿取",
+          "sumptus",
+          "assumption、consumption、sumptuous",
+          "m–p–t"
+        ],
+        [
+          "promere 取出",
+          "promptus",
+          "prompt、promptly",
+          "m–p–t"
+        ],
+        [
+          "contemnere 轻视",
+          "contemptus",
+          "contempt、contemptuous",
+          "m–p–t"
+        ],
+        [
+          "perimere 毁灭",
+          "peremptus",
+          "peremptory",
+          "m–p–t"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "d 与 p：怎么分",
+      "body": "两个音都是“本来没有的”，但判断线索完全不同。左列的 d 是形态性的：它出现的位置由词素结构决定，去掉就违反构词规则。右列的 p 是纯语音的：它出现的位置由发音动作决定，去掉不影响词素身份。",
+      "a": "插入的 d（形态动机）",
+      "b": "插入的 p（发音动机）",
+      "rows": [
+        {
+          "label": "位置",
+          "a": "前缀与元音开头词根的接缝",
+          "b": "m 与 t 之间（词干内部）"
+        },
+        {
+          "label": "触发条件",
+          "a": "前缀为单音节且以元音结尾",
+          "b": "m 后紧接 t"
+        },
+        {
+          "label": "例词",
+          "a": "sedition（se-→sed-）、redeem / redemption（re-→red-）",
+          "b": "exempt、assumption、prompt、contempt"
+        },
+        {
+          "label": "能否当词素切",
+          "a": "不能，但要在 word sum 里用 d 拼出的形式",
+          "b": "绝对不能，p 不属于任何词素"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "所以 assumption 不能切成 assump+tion",
+      "body": "既然 p 不是词素，word sum 就不能把它单独切出来。正确写法是：**as-（ad- 的同化形）+ sumpt-（分词词干）+ -ion**。这里有两层叠加：前缀 ad- 的 d 在同化中变成 s（第 19 周），词干 sumpt- 里又有一个插进来的 p。\n\n同理：\n- **exempt** = ex- + empt-（不是 exemp + t）\n- **prompt** = pro- + mpt-（拉丁 promptus，p 在 m 与 t 之间）\n- **contempt** = con- + tempt-（来自 contemnere 的分词 contemptus）\n\n现代英语口语里同类插入还在发生：prince 常读 [prɪnts]，warmth 常读 [wɔːrmpθ]。这说明它是发音器官的过渡动作，不是构词过程。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w20d1-p1",
+      "kind": "mcq",
+      "prompt": "下面哪个词里的 d 是插入音（词干原本没有）？",
+      "choices": [
+        "sedition",
+        "deduction",
+        "addition",
+        "condition"
+      ],
+      "answer": 0,
+      "explain": "sedition 的 d 是 se- 与元音开头词根之间的插入音。deduction = de + duct + ion，d 属于词根 duc-；addition 的 d 来自前缀 ad-；condition 的 d 属于词根 dit-（dicere“说”）。判断依据：去掉这个音后，词素是否还成立。",
+      "concepts": [
+        "c-allomorph",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w20d1-p2",
+      "kind": "mcq",
+      "prompt": "assumption 中的 p 最准确的解释是：",
+      "choices": [
+        "m 与 t 之间插入的过渡音，不表义、不属于任何词素",
+        "拉丁前缀 ad- 的残余",
+        "后缀 -tion 的一部分",
+        "词根 sumpt 中的一个独立词素"
+      ],
+      "answer": 0,
+      "explain": "拉丁分词 sumptus 在 m 与 t 之间插入 p，这个 p 是发音过渡，没有意义。它在所有同族词里位置固定（sumptuous、consumption），正说明它是语音现象。切分时写 sumpt- 作为分词词干，但不能把 p 单列为一个词素。",
+      "concepts": [
+        "c-allomorph",
+        "c-word-sum"
+      ]
+    },
+    {
+      "id": "w20d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语形容词",
+      "sentence": "Students who have already passed the placement test are ___ from the introductory course, so they may enrol directly in the advanced one.",
+      "answer": "exempt",
+      "accept": [
+        "exempt"
+      ],
+      "explain": "exempt = ex-（出）+ empt-（emere 的分词词干“买”）→ “被买出来的”，即被免除。这个 p 同样是 m 与 t 之间的过渡音，去掉就不是拉丁原形了。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w20d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 sumere（拿取）的分词是 sumptus，presumptuous 最可能的意思是：",
+      "choices": [
+        "擅自的、过分自信的",
+        "推定的、假定的",
+        "消耗性的、耗费的",
+        "临时的、权宜的"
+      ],
+      "answer": 0,
+      "explain": "pre-（在前）+ sumpt-（拿取）+ -uous（形容词后缀）→ “事先就拿”，即越界、擅自。assumption（假定）与 consumption（消耗）同根但前缀不同：ad- 是“加在身上”，con- 是“完全”。同根三词，靠前缀分辨。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph"
+      ],
+      "hint": "先看前缀方向，再想“拿”的结果。"
+    },
+    {
+      "id": "w20d1-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“假定、承担”的切分（用分词词干）",
+      "parts": [
+        "as",
+        "sumpt",
+        "ion"
+      ],
+      "answer": "assumption",
+      "explain": "as-（ad- 在 [s] 前的完全同化形）+ sumpt-（sumere 的分词词干，含插入的 p）+ -ion → assumption。这里同时用上了第 19 周的同化和本周的插入，两个规则各自作用在不同位置。",
+      "concepts": [
+        "c-word-sum",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w20d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 sumptuous 的含义",
+      "passage": "The hotel was sumptuous: marble in the lobby, silk on the walls, and a dining room where a single dinner cost more than the guides earned in a month.",
+      "word": "sumptuous",
+      "choices": [
+        "奢华昂贵的",
+        "简朴节约的",
+        "拥挤嘈杂的",
+        "陈旧破损的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：sumpt-（sumere“拿取、花费”的分词词干）+ -uous（形容词后缀）→ “花钱多的”；② 冒号后列举：marble、silk、一顿饭抵一个月工资，全是高成本证据；③ 排除：简朴与之相反，拥挤、陈旧都无对应描写。",
+      "explain": "sumptuous 是“奢华昂贵的”，字面与“花费”有关（同族 sumptuary 指限制奢侈的法律）。词形上可以看到两个老问题叠在一起：插入的 p（sumptus）和 -uous 这个形容词后缀。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章第 5 节：两类插入"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "seditio / redimere / emptus / sumptus / promptus / contemptus 的拉丁原形"
+    }
+  ]
+}

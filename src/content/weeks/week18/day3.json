@@ -1,0 +1,282 @@
+{
+  "id": "w18d3",
+  "week": 18,
+  "day": 3,
+  "title": "fact 与 feat：变体还是双式词",
+  "tagline": "一条拉丁直借，一条法语转手：两套形要不要算一个词素",
+  "objectives": [
+    "能用三条判据区分变体与双式词",
+    "能举出三组拉丁形／法语形并存的双式词并说明语义分工",
+    "能解释 contain 的 tain 与 abstention 的 ten 为什么可以算变体"
+  ],
+  "prereqs": [
+    "w18d2",
+    "c-borrowing"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-cognate",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s11-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两条通道，两套形",
+      "body": "同一个拉丁词可以有两条路进英语：\n\n1. **学术直借**：文艺复兴后直接从拉丁（或经学术拉丁）取形，拼写接近原形——fact、fragile、capital、secure。\n2. **法语转手**：诺曼征服后经古法语进来，法语把词削短、改了音——feat、frail、chief、sure。\n\n两条路的产物有时并存，意义还分了工。这种“同源而异形、各自成词”的对子叫**双式词**（doublet）。它与“同一词素的两个变体”只差一步，但那一步很关键。",
+      "terms": [
+        {
+          "term": "doublet",
+          "zh": "双式词",
+          "en": "doublet",
+          "note": "同一语源经不同通道借入、已成为两个词的形式"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "六组双式词",
+      "body": "每一组都能看出语义已经分家：不是同一个词在不同场合换形，而是两个词各管一块意义。这种分工一旦稳定，词典就必须分立词条，双式词的身份也就定了。",
+      "head": [
+        "拉丁形",
+        "法语形",
+        "拉丁原词",
+        "语义分工"
+      ],
+      "rows": [
+        [
+          "fact 事实",
+          "feat 功绩",
+          "factum“做过的事”",
+          "已发生的事／了不起的行为"
+        ],
+        [
+          "fragile 易碎的",
+          "frail 虚弱的",
+          "fragilis",
+          "物易碎／人虚弱"
+        ],
+        [
+          "capital 首都、资本",
+          "chief 首领、主要的",
+          "capitalis“头的”",
+          "政治中心／领头人"
+        ],
+        [
+          "secure 安全的",
+          "sure 确定的",
+          "securus",
+          "客观安全／主观确信"
+        ],
+        [
+          "fidelity 忠诚",
+          "faith 信仰",
+          "fides“信”",
+          "契约式忠诚／宗教信仰"
+        ],
+        [
+          "cave 洞穴",
+          "jail 监狱",
+          "cavus“空的”／cavea“围栏”",
+          "自然空腔／关人的地方"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三条判据：什么时候算变体",
+      "body": "教材的界线是这样划的：\n\n1. **分布是否互补**：tain 只出现在词末（contain、retain、detain），ten- 出现在词中（abstention、detention、retention）。位置互补、意义一致，可以当作同一词素的变体。\n2. **是否仍属同一词族**：fact 与 feat 已经各自成词，feat 不再参与 fact 的派生（没有“featual”这类形式），所以只能是双式词。\n3. **能否用一条规则连接**：拉丁 ct 在法语变 it，是法语的历史规则，不是英语规则。能用历史规则解释的是双式；在同一共时系统里互补的是变体。\n\n一句话：**变体是同一个词素的两个形状，双式词是两个词。**"
+    },
+    {
+      "kind": "etym",
+      "title": "feat 的链条：ct 怎么变成 it",
+      "body": "fact 与 feat 的差别不是元音，而是词尾辅音群：拉丁 ct 在古法语里变成了 it，词尾又弱化，于是 factum 走成 fait、再走成 feat。同一时期，学术直借把 factum 原样搬进来，成了 fact。\n\n两条链条在英语里会合，却带着不同的意义：fact 是“已发生的事”，feat 是“做成的了不起的事”。这就是双式词的典型样貌——同源、同义核心、不同分工。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "factum",
+          "note": "facere“做”的完成分词，“做过的事”"
+        },
+        {
+          "period": "古法语",
+          "form": "fait",
+          "note": "ct → it，词尾弱化"
+        },
+        {
+          "period": "中古英语",
+          "form": "feat",
+          "note": "经法语借入，义为“功绩、事迹”"
+        },
+        {
+          "period": "文艺复兴",
+          "form": "fact",
+          "note": "学术直借，义为“事实”"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "变体 vs 双式词",
+      "body": "两者的分界不在拼写差异大小，而在“是否还是同一个词”。一个实用的检验：能不能把它们放进同一个词族的算式里互换？能，是变体；不能，是双式词。拿 fact 去替换 feat，会得到不存在的“featual”；而把 contain 的 tain 换成 ten-，在 abstention 里完全成立。",
+      "a": "变体（allomorph）",
+      "b": "双式词（doublet）",
+      "rows": [
+        {
+          "label": "定义",
+          "a": "同一词素的两个形状",
+          "b": "两个独立词，同源"
+        },
+        {
+          "label": "分布",
+          "a": "互补：词末 tain／词中 ten-",
+          "b": "各自独立使用，互不替代"
+        },
+        {
+          "label": "词典地位",
+          "a": "一个词条的不同形式",
+          "b": "两个词条"
+        },
+        {
+          "label": "例",
+          "a": "contain / abstention",
+          "b": "fact / feat"
+        },
+        {
+          "label": "判断依据",
+          "a": "能否在同一词族里互换",
+          "b": "意义是否已经分工"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w18d3-p1",
+      "kind": "mcq",
+      "prompt": "fact 与 feat 的关系是：",
+      "choices": [
+        "双式词：同一拉丁词经直借与法语转手，已各自成词",
+        "同一个词的两个变体",
+        "两个毫不相干的词",
+        "feat 是 fact 的复数形式"
+      ],
+      "answer": 0,
+      "explain": "两词都来自 factum，但 feat 经古法语（ct → it）进来后意义专门化为“功绩”，不再参与 fact 的派生，也不再与 fact 互换。按本课判据，它们是双式词，不是变体。",
+      "concepts": [
+        "c-borrowing",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w18d3-p2",
+      "kind": "mcq",
+      "prompt": "contain 与 abstention 里的 tain／ten 可以算变体的理由是：",
+      "choices": [
+        "位置互补（词末／词中）、意义一致，仍属同一词族",
+        "拼写只差一个字母",
+        "两者都来自法语",
+        "读音相同"
+      ],
+      "answer": 0,
+      "explain": "tain 是法语形，只出现在词末；ten- 是拉丁形，出现在词中，二者意义都是“握持”，并且同属 tenere 一族。互补分布加语义一致，正是变体的定义。注意这与 fact/feat 不同：后者已经意义分工、各自成词。",
+      "concepts": [
+        "c-borrowing",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w18d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个名词",
+      "sentence": "Landing a probe on a comet was a remarkable ___ , achieved after a decade of preparation.",
+      "answer": "feat",
+      "accept": [
+        "feat"
+      ],
+      "explain": "这里要的是“了不起的功绩”，所以用 feat；fact 只表“事实”，填进去句子就不通了。这正是双式词分工的实例：同源的两个词，在同一个句法位置上只有一个合适。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w18d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）cattle 与 chattel 都来自拉丁 capitale“财产”。由此可以判断：",
+      "choices": [
+        "它们与 capital 同源，是同一拉丁词的三条借词路径",
+        "cattle 与 chattel 毫无关系",
+        "capital 是从 cattle 派生出来的",
+        "三者只是拼写巧合"
+      ],
+      "answer": 0,
+      "explain": "诺曼法语 catel 给了 cattle（牛群，即“家产”里会动的那部分），巴黎法语 chatel 给了 chattel（动产），学术直借给了 capital（资本）。三形三义，是双式词的极端例子：同一词根可以被三条通道切成三个词。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing",
+        "c-cognate"
+      ],
+      "hint": "先确认 capitale 的义，再看三条通道各留下什么。"
+    },
+    {
+      "id": "w18d3-p5",
+      "kind": "wordSum",
+      "prompt": "写出 contain 的构词算式",
+      "parts": [
+        "con",
+        "tain"
+      ],
+      "answer": "contain",
+      "explain": "con-（共同、完全）+ tain（ten“握持”的法语形）→“握在一起”→ 包含、容纳。这里用 tain 而不是 ten，是因为这个词经古法语进入英语，词末取法语形。同族 content、detain、retain 都保留 tain。",
+      "concepts": [
+        "c-word-sum",
+        "c-prefix",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w18d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 frail 的含义",
+      "passage": "She was ninety and rather frail, but her handwriting was still steady enough to sign the deed.",
+      "word": "frail",
+      "choices": [
+        "身体虚弱的",
+        "法律上无效的",
+        "声音洪亮的",
+        "行动迅速的"
+      ],
+      "answer": 0,
+      "strategy": "① 转折：but her handwriting was still steady，说明身体弱而手不抖；② 年龄线索 ninety；③ 词源：frail 是 fragile 的法语形，语义专门用于人。",
+      "explain": "frail 与 fragile 同源（拉丁 fragilis），但英语里 frail 多用于人（身体虚弱、意志薄弱），fragile 多用于物（易碎）或抽象事物（脆弱的和平）。双式词的分工正在这里：同源不同用，选词时要看对象。",
+      "concepts": [
+        "c-inference",
+        "c-cognate",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：双式词与变体的界线（tain/ten、cave/jail、fact/feat）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "factum/fait、capitalis/chief、capitale/cattle/chattel 的借词路径"
+    }
+  ]
+}

@@ -266,6 +266,7 @@ function Invoke-Case {
     [string]$Workspace,
     [hashtable]$EnvVars = @{},
     [switch]$Selftest,
+    [string]$SelftestLesson = '',
     [string]$ReuseDir = '',
     [switch]$KeepCase,
     [switch]$KeepData
@@ -310,6 +311,9 @@ function Invoke-Case {
     $effectiveEnv = @{}
     foreach ($key in $EnvVars.Keys) { $effectiveEnv[$key] = $EnvVars[$key] }
     if ($Selftest) { $effectiveEnv['WORDROOTS_SELFTEST'] = '1' }
+    # Drives a specific lesson so the gate can prove a C9/C11 day is answerable,
+    # not only the first day of week 1.
+    if ($SelftestLesson) { $effectiveEnv['WORDROOTS_SELFTEST_LESSON'] = $SelftestLesson }
 
     # Chromium/WebView2 diagnostics go to stderr; without capturing them a blank
     # window is undebuggable. The files travel with the smoke evidence.
@@ -681,6 +685,17 @@ try {
   # 8 — support mode writes a startup snapshot without opening a window.
   Invoke-DiagnoseCase -Id '8' -Title '8 --diagnose' `
     -Expect 'startup-cli.json 存在且含 wininet/webview2' | Out-Null
+
+  # 9/10 — the textbook units added in 0.4.0/0.5.0 must be enterable and
+  # answerable inside the packaged app, not merely present as JSON. These cases
+  # drive a real C9 (Latin nouns) and C11 (sound change) lesson end to end.
+  Invoke-Case -Id '9' -Title '9 C9 拉丁单元答题' `
+    -Expect 'w13d1 可进入、可作答、尝试数增长' `
+    -Workspace $asciiRoot -Selftest -SelftestLesson 'w13d1' -EnvVars $cleanEnv | Out-Null
+
+  Invoke-Case -Id '10' -Title '10 C11 音变单元答题' `
+    -Expect 'w15d1 可进入、可作答、尝试数增长' `
+    -Workspace $asciiRoot -Selftest -SelftestLesson 'w15d1' -EnvVars $cleanEnv | Out-Null
 } finally {
   if ($null -ne $registryBackup) { Restore-ProxyRegistry $registryBackup }
   Restore-ProcessEnv

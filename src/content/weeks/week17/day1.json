@@ -1,0 +1,306 @@
+{
+  "id": "w17d1",
+  "week": 17,
+  "day": 1,
+  "title": "一个词素，两副面孔：分化与合并",
+  "tagline": "变体不是随意换形：要么是音变把它拆开，要么是粘久后被听成一个",
+  "objectives": [
+    "能用 -s 的三种读音说明“同一词素、不同条件”的变体关系",
+    "能区分分化（morph split）与合并（merger）两种来源",
+    "能在 corporeal 里指出哪一段是因合并而失去意义的部分"
+  ],
+  "prereqs": [
+    "w16d6",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-morpheme",
+    "c-prefix",
+    "corp"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s2-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一个词素，三种读音",
+      "body": "cat 的复数是 cats，读 [kæts]；dog 的复数是 dogs，读 [dɒgz]；horse 的复数是 horses，读 [ˈhɔːsɪz]。三个词尾意思完全相同——都只表示“多于一个”——但形状不同。同一词素在不同环境里出现的具体形式，叫**变体**（allomorph）；而环境不是任意的，是由相邻的音决定的。\n\n变体有两个来源。**分化**（morph split）是“原来一个形，因音变变成几个”；**合并**（merger）是“原来两个词素，粘久之后被听成一个”。今天先把这两笔账分开，后面几天再分别展开。",
+      "terms": [
+        {
+          "term": "allomorph",
+          "zh": "词素变体",
+          "en": "allomorph",
+          "note": "同一词素在不同语音或形态环境里的具体形式"
+        },
+        {
+          "term": "morph split",
+          "zh": "分化",
+          "en": "morph split",
+          "note": "原本单一的形式因音变分裂成多个"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "-s 的三个形状，条件是前一个音",
+      "body": "三个词尾拼写相同、意义相同，读音却分三种。条件完全由紧邻的前一个音决定：清辅音后读 [s]，浊辅音和元音后读 [z]，咝音后先插一个 [ɪ] 再读 [z]。这条规则今天还活着，所以新词也照办：app 的复数是 apps [æps]，blog 的复数是 blogs [blɒgz]。",
+      "head": [
+        "复数形式",
+        "读音",
+        "前一个音",
+        "条件"
+      ],
+      "rows": [
+        [
+          "cats",
+          "[s]",
+          "t（清辅音）",
+          "清辅音后不加元音，直接读清音 [s]"
+        ],
+        [
+          "dogs",
+          "[z]",
+          "g（浊辅音）",
+          "浊音后同化为浊音 [z]"
+        ],
+        [
+          "horses",
+          "[ɪz]",
+          "s（咝音）",
+          "咝音与 [z] 相接听不出边界，插入 [ɪ] 隔开"
+        ],
+        [
+          "apps",
+          "[s]",
+          "p（清辅音）",
+          "新词同样服从，说明规则仍在运行"
+        ],
+        [
+          "blogs",
+          "[z]",
+          "g（浊辅音）",
+          "同上，规则不区分新旧词"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "合并：or 变成了一段没有意义的过渡",
+      "body": "拉丁 corpus（身体）的属格是 corporis，词干是 corpor-，所以“身体的”是 corpor-al-is。英语把这个词接过来时，-or- 既不是前缀也不是后缀，说不出任何意思。说话人于是重新分析：把 corp 当成词基，把 -or- 划进词基内部，得到 corp + or + eal。\n\n这不是错误，而是**共时**（今天说话人）的分析；它和**历时**（拉丁语源）的切分不一致。合并的定义正是这一句：相邻词素粘在一起，后来的人把它们当成一个单位，边界还在，意义没了。",
+      "morphemes": [
+        "corp"
+      ],
+      "morphemeIds": [
+        "cx-corp-corpor"
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "分化 vs 合并",
+      "body": "两者都产生“一个词素多个形状”的表象，但方向相反：分化是一变多，合并是多变一。判断时问两个问题就够了——换个环境形状会不会变？去掉可疑的那一段，剩下的还能不能独立成词？",
+      "a": "分化（morph split）",
+      "b": "合并（merger）",
+      "rows": [
+        {
+          "label": "起点",
+          "a": "一个词素、一个形",
+          "b": "两个词素、各有其形"
+        },
+        {
+          "label": "结果",
+          "a": "同一词素出现多个有条件的形式",
+          "b": "一个形式里藏着两段，其中一段失去意义"
+        },
+        {
+          "label": "判据",
+          "a": "换环境就换形，意义不变",
+          "b": "去掉那一段，剩下的部分仍能独立成词并带义"
+        },
+        {
+          "label": "例子",
+          "a": "-s 读 [s]／[z]／[ɪz]；in- 变 im-／il-／ir-",
+          "b": "corp + or + eal；gener + ic"
+        },
+        {
+          "label": "对解析的影响",
+          "a": "要按环境选形，不能死记一个",
+          "b": "要容忍“多出来的一段”，别硬给它安意义"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "遇到一个陌生形状，先归到哪一类",
+      "body": "这张表是本周的诊断入口。看到“同义不同形”先按邻接条件归到分化；看到“词根后面拖着一小段无义的音”就归到合并；看到“形状差得远、意义却同一”则要考虑异干互补——那是把另一个词的形借进屈折表，本周第 5 天讲。",
+      "head": [
+        "现象",
+        "来源",
+        "为什么",
+        "例"
+      ],
+      "rows": [
+        [
+          "同一后缀在不同词里形状不同，意义不变",
+          "分化（音变）",
+          "邻接的音不同",
+          "-s 三读；-al 与 -ar"
+        ],
+        [
+          "前缀随词根首音改形",
+          "分化（同化）",
+          "省力：发音部位向后者靠拢",
+          "in- → im-／il-／ir-"
+        ],
+        [
+          "词根后面跟一段说不出意思的音",
+          "合并",
+          "说话人重新划分词基",
+          "corp~corpor；gener~gen"
+        ],
+        [
+          "两形差得远，意义却同一",
+          "异干互补",
+          "借了另一个词的形",
+          "go／went（第 5 天）"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w17d1-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一组属于“合并”造成的异形？",
+      "choices": [
+        "corp~corpor（corporeal / corporation）",
+        "cats 的 [s] 与 dogs 的 [z]",
+        "in- 在 legal 前变成 il-",
+        "mit~miss（admit / admission）"
+      ],
+      "answer": 0,
+      "explain": "合并是两段粘成一段、其中一段失去意义：-or- 原本属于拉丁词干 corpor-，在英语里说不出意思，于是被并入词基。其余三项都是分化：-s 随前一个音换读，il- 是 in- 的同化，miss 是 mit 在同化后的形状。",
+      "concepts": [
+        "c-allomorph",
+        "c-morpheme",
+        "corp"
+      ]
+    },
+    {
+      "id": "w17d1-p2",
+      "kind": "mcq",
+      "prompt": "horses 的词尾读 [ɪz]，最合理的解释是：",
+      "choices": [
+        "前一个音是咝音，直接接 [z] 会听不出边界，于是插入元音隔开",
+        "horse 是例外词，必须单独记",
+        "复数在这里用了另一个词素",
+        "[ɪz] 专门用来表示“马”这一类动物"
+      ],
+      "answer": 0,
+      "explain": "条件由紧邻的音决定：s 是咝音，与 [z] 相连时两个摩擦段分不开，插入 [ɪ] 才能听出复数词尾。同类还有 buses、wishes、judges。例外说不成立，因为所有咝音结尾的词都这样读。",
+      "concepts": [
+        "c-allomorph",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w17d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个术语（英文）",
+      "sentence": "Cats, dogs and horses all carry the same plural morpheme, but its three pronunciations are ___ of one another.",
+      "answer": "allomorphs",
+      "accept": [
+        "allomorphs",
+        "allomorph"
+      ],
+      "explain": "同一个复数词素在不同语音环境里的具体形式，互为变体（allomorphs）。注意区分三个层次：morpheme 是抽象的功能单位，morph 是具体形式，allomorph 是“同一词素的不同 morph”这个关系。",
+      "concepts": [
+        "c-allomorph",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w17d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）impalpable 中的 im- 与 in- 是同一个词素。它为什么写成 im- 而不是 in-？",
+      "choices": [
+        "后接的 p 是唇音，in- 在唇音前同化为 im-",
+        "im- 表示“进入”，in- 表示“不”，两者意义不同",
+        "impalpable 来自法语，法语没有 in- 这个前缀",
+        "p 前面必须双写 m，这是英语拼写规则"
+      ],
+      "answer": 0,
+      "explain": "impalpable 意为“摸不出来的、难以理解的”，是 in-（不）+ palpabilis（能摸到的）。n 在唇音 p、b、m 前变成同部位的 m，于是有 impossible、imbalance、immortal。这不是拼写习惯，而是同化：发音部位向后面的音靠拢。",
+      "concepts": [
+        "c-allomorph",
+        "c-prefix"
+      ],
+      "hint": "先看 im- 后面那个音是什么部位。"
+    },
+    {
+      "id": "w17d1-p5",
+      "kind": "wordSum",
+      "prompt": "按共时切分，写出 corporeal 的构词算式（用 + 连接）",
+      "parts": [
+        "corp",
+        "or",
+        "eal"
+      ],
+      "answer": "corporeal",
+      "explain": "corp（身体）+ or（不透明段，原属拉丁词干 corpor-）+ -eal（形容词后缀）→ corporeal“身体的、有形体的”。若按拉丁词源切，应是 corpor + -al；两种切分都对，只是层面不同。词典收的是共时切分，因为它对应今天说话人的语感。",
+      "concepts": [
+        "c-word-sum",
+        "c-transparency",
+        "corp"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w17d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 incorporate 的含义",
+      "passage": "Rather than adding a separate chapter, the authors chose to incorporate the new evidence into the existing argument, so that readers meet it in the place where it matters.",
+      "word": "incorporate",
+      "choices": [
+        "把……纳入、并入",
+        "把……删除",
+        "把……翻译成另一种语言",
+        "把……拆成几部分"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：in-（进入）+ corpor-（身体，corpus 的融合词干）+ -ate；② 对比线索：Rather than adding a separate chapter 说明不是另起一章，而是并进原有结构；③ 语境：in the place where it matters 说明材料被放进了论证内部。",
+      "explain": "incorporate 的 corpor- 正是 corpus 的融合形式（corp + or），字面是“放进一个身体里”，引申为“纳入、并入”。同族还有 corporation、corporeal。注意 incorporated 在商业语境里指“组成法人团体”，仍是“结成一个 body”这条义。",
+      "concepts": [
+        "c-inference",
+        "c-morpheme",
+        "corp"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章 Allomorphy：变体的两个来源（morph split / morphemic merger）"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态学：语素、形素与条件变体"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "corpus / corporis 与 impalpable 的词源与切分"
+    }
+  ]
+}

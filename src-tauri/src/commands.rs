@@ -25,6 +25,9 @@ pub struct AppInfo {
     portable: bool,
     /// True when the harness asked the renderer to run its interaction self-test.
     selftest: bool,
+    /// Which lesson the self-test drives (WORDROOTS_SELFTEST_LESSON). Lets the
+    /// release gate prove that a C9/C11 lesson can be answered, not just day 1.
+    selftest_lesson: String,
     /// Browser arguments actually handed to WebView2 (proxy isolation proof).
     webview_args: String,
     /// True when the binary still loads the dev server instead of bundled assets.
@@ -46,6 +49,7 @@ pub fn app_info() -> AppInfo {
         schema_version: db::SCHEMA_VERSION,
         portable: std::env::var("WORDROOTS_DATA_DIR").is_err(),
         selftest: std::env::var("WORDROOTS_SELFTEST").map(|v| v == "1").unwrap_or(false),
+        selftest_lesson: std::env::var("WORDROOTS_SELFTEST_LESSON").unwrap_or_else(|_| "w01d1".to_string()),
         webview_args: std::env::var("WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS").unwrap_or_default(),
         dev_mode: tauri::is_dev(),
     }

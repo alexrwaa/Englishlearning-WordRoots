@@ -1,0 +1,249 @@
+{
+  "id": "w21d1",
+  "week": 21,
+  "day": 1,
+  "title": "词素的另一条腿：多义",
+  "tagline": "前几周看的是形式变体，这一周看意义变体：同一形式为什么能带好几个意思",
+  "objectives": [
+    "能说明 allomorphy（形式变体）与 polysemy（多义）是词素知识的两条腿，各自解决什么问题",
+    "能举出 -ous、-ic、de-、cosm、fa 的多义实例，并指出哪一类多义最普遍",
+    "能用“义项随语境浮动”解释为什么同根词的意义不能简单相加"
+  ],
+  "prereqs": [
+    "w04d5",
+    "w10d1"
+  ],
+  "concepts": [
+    "c-morpheme",
+    "c-suffix",
+    "c-prefix",
+    "c-root"
+  ],
+  "knowledgePoints": [
+    "kp-s1c7s1-3",
+    "kp-s1c7s1-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两条腿：形式会变，意义也会变",
+      "body": "第 8 周讲的是 **allomorphy**：同一个语素可以有不同形式，in- 在 impossible 里变成 im-，在 illegal 里变成 il-。形式变了，意义没变。\n\n本章讲的是另一件事：形式**没变**，意义却不止一个。这就是 **polysemy**（多义）。\n\n两者合起来才是完整的词素知识。只懂形式变体，你会把 biological 拆成 bio＋log＋ical 却说不清 -ical 在这里到底加了什么；只懂多义，你会误以为所有同形都是同一个语素，把 in- “不”和 in- “进入”混成一条。\n\n先记住一句判断标准：**形式变体看拼写差异，多义看意义差异，两者不能互相代替。**",
+      "terms": [
+        {
+          "term": "polysemy",
+          "zh": "多义（现象）",
+          "en": "polysemy",
+          "note": "同一形式承载多个有历史关联的意义"
+        },
+        {
+          "term": "allomorphy",
+          "zh": "语素变体",
+          "en": "allomorphy",
+          "note": "同一语素的不同形式，意义不变"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "后缀：先定词性，再带一点意义",
+      "body": "有些后缀几乎只做一件事——告诉你这是名词还是形容词。但更多后缀本身**带意义**，而且不止一义。\n\n以 **-ous** 为例，教材给的两个义是“具有……性质”和“充满……”，实际使用中它会随词根浮动：\n\n- **copious**（cop“充足”＋-ous）：充满的、大量的——典型的“full of”。\n- **famous**（fame＋-ous）：有名的——不是“充满名声”，而是“被名声标记的”。\n- **nervous**（nerve＋-ous）：原义“与神经有关的”，现代常用义“紧张不安的”。\n\n注意 nervous 这一条的层次：**后缀的义没变**（仍是“与……有关的”），变的是**整词**从医学术语漂到情绪描述。这两件事要分开说，第 22 周末我们会专门处理它。",
+      "terms": [
+        {
+          "term": "-ous",
+          "zh": "形容词后缀",
+          "en": "-ous",
+          "note": "having the quality of；意义随词根浮动"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-ic 与 -ical：多义被分工固定下来",
+      "body": "**-ic** 的基本义是“属于……的、与……有关的”，但它和 -ical 并存时，两个形式会分工，各拿一个义项：\n\n- **economic**：与经济有关的（economic policy 经济政策）。\n- **economical**：节省的（an economical car 省油的车）。\n- **historic**：有历史意义的（a historic moment）。\n- **historical**：与历史研究有关的（historical records 史料）。\n\n这不是“加个 al 就变了意思”这么简单。分工的过程是：同一后缀先带多个义，后来两个形式各占一个，避免歧义。所以看到 -ic/-ical 成对出现，先问“它们各自固定了哪一个义项”，而不是问“哪个更正确”。\n\n顺带一个提醒：historical、logical、technical、practical 都是 -ical 家族，而 magic、economic、specific 是 -ic 家族，词库里的拆解就按这个形式记录。",
+      "terms": [
+        {
+          "term": "-ical",
+          "zh": "形容词后缀变体",
+          "en": "-ical",
+          "note": "与 -ic 分工，常固定其中一个义项"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "前缀与词根：多义更普遍，也更危险",
+      "body": "教材的判断很明确：前缀与词根的多义**不亚于**后缀，甚至更普遍。原因是它们的意义更抽象、使用面更宽。\n\n**de-** 至少有三种走向：\n\n- 去除：**dehydrate**（de＋hydr“水”＋-ate）去水、脱水；**decapitate**（de＋capit“头”）斩首。\n- 离开：**deviate**（de＋vi“路”）偏离道路。\n- 向下：**depend**（de＋pend“悬挂”）悬于其下，因而“依靠”。\n\n**cosm** 更极端。希腊 kosmos 本义是“秩序、安排”，由“秩序”生出“宇宙”（**macrocosm** 大宇宙），由“安排、修饰”生出“装饰”（**cosmetic** 化妆品）。一条链分叉出两个方向，今天的英语使用者完全感觉不到它们同源。\n\n**fa**“说”也一样：**famous**（被谈论的）、**fable**（说出来的故事）、**infant**（in-“不”＋fa“说”——不会说话的人）、**preface**（先说的一段）。",
+      "terms": [
+        {
+          "term": "de-",
+          "zh": "前缀",
+          "en": "de-",
+          "note": "去除／离开／向下，三义并存"
+        },
+        {
+          "term": "cosm",
+          "zh": "词根",
+          "en": "cosm",
+          "note": "秩序→宇宙；安排→装饰"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "三级多义：来源不同，风险不同",
+      "body": "后缀的多义多半停在“性质、关系”这一层，误差有限；前缀和词根的多义可以跨到完全无关的领域，误判代价高。做题时的策略也不同：后缀靠词性兜底，前缀靠搭配兜底，词根只能靠词义和语境兜底。",
+      "a": "后缀／前缀：意义较虚",
+      "b": "词根：意义较实但不稳定",
+      "rows": [
+        {
+          "label": "典型例子",
+          "a": "-ous（具有／充满）；de-（去除／离开／向下）",
+          "b": "cosm（宇宙／装饰）；fa（说→故事、名声、婴儿）"
+        },
+        {
+          "label": "多义程度",
+          "a": "低到中，义项之间距离近",
+          "b": "高，义项可能分叉到不同领域"
+        },
+        {
+          "label": "判定手段",
+          "a": "先定词性，再看词根语义",
+          "b": "必须回到整词义与历史链条"
+        },
+        {
+          "label": "误判后果",
+          "a": "译得生硬，但不至于全错",
+          "b": "把同源词当无关词，或把无关词当同源"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w21d1-p1",
+      "kind": "mcq",
+      "prompt": "-ous 在 copious 与 nervous 中的意义，下面哪项描述最准确？",
+      "choices": [
+        "copious 中偏“充满……的”，nervous 中偏“与……有关的”，同一后缀的义项随词根浮动",
+        "两处的 -ous 意义完全相同，都表示“充满”",
+        "copious 的 -ous 是名词后缀，nervous 的 -ous 是动词后缀",
+        "nervous 的 -ous 表示否定，相当于 in-"
+      ],
+      "answer": 0,
+      "explain": "copious（cop“充足”）是“大量的、充满的”，nervous（nerve“神经”）字面是“与神经有关的”。同一后缀在这两个词里取了不同义项，这正是“后缀也有初级多义”。另外要注意：nervous 从“神经的”到“紧张的”，变的是整词义，不是后缀义。",
+      "concepts": [
+        "c-suffix",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w21d1-p2",
+      "kind": "mcq",
+      "prompt": "按教材的判断，多义现象在哪一类语素上最普遍？",
+      "choices": [
+        "前缀与词根",
+        "只有后缀",
+        "只有屈折词尾",
+        "只有自由词基"
+      ],
+      "answer": 0,
+      "explain": "教材明确指出，前缀与词根的多义程度不亚于后缀，甚至更普遍。原因是它们的意义更抽象、出现环境更宽：de- 可表去除、离开、向下；cosm 可表宇宙与装饰；fa 可表说、故事、名声。",
+      "concepts": [
+        "c-prefix",
+        "c-root"
+      ]
+    },
+    {
+      "id": "w21d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词（含 cosm 词根）",
+      "sentence": "In ___, cosm carries the sense “universe”; in cosmetic the same element carries the sense “adornment”.",
+      "answer": "macrocosm",
+      "accept": [
+        "macrocosm",
+        "microcosm",
+        "cosmos"
+      ],
+      "explain": "macrocosm（macro“大”＋cosm）是“大宇宙”，cosm 取“宇宙”义；cosmetic 走的是 kosmos 的另一条义——“安排、修饰”，所以是“化妆品”。义项之间还有链条：由“秩序、安排”到“修饰”，逻辑上是通的。",
+      "concepts": [
+        "c-root",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w21d1-p4",
+      "kind": "mcq",
+      "prompt": "dehydrate 与 deviate 中的 de- 分别是哪个义项？",
+      "choices": [
+        "dehydrate 是“去除”，deviate 是“离开”",
+        "两者都是“向下”",
+        "两者都是“完全”",
+        "dehydrate 是“离开”，deviate 是“去除”"
+      ],
+      "answer": 0,
+      "explain": "dehydrate = de（去除）＋hydr（水）＋-ate，把水去掉；deviate = de（离开）＋vi（路）＋-ate，离开正路。同形前缀的两个义项在这里分得很清楚，说明前缀多义必须靠整词义判定，不能靠形式。",
+      "concepts": [
+        "c-prefix"
+      ]
+    },
+    {
+      "id": "w21d1-p5",
+      "kind": "mcq",
+      "prompt": "你在论文里遇到没学过的 vinous，句子是 “a vinous aroma, like cherries left too long in the sun”。最合理的判断是？",
+      "choices": [
+        "vin（酒）＋-ous“与……有关的”，指“酒味的”，与句中气味描写一致",
+        "-ous 在这里表否定，所以是“无味的”",
+        "vin 是“葡萄”，-ous 表“充满”，所以是“长满葡萄的”",
+        "vinous 是动词，表示“发酵”"
+      ],
+      "answer": 0,
+      "explain": "陌生词先用熟悉的语素定位：vin 与 wine、vineyard 同源，意为“酒”；-ous 在此取“与……有关的”。再看语境：aroma、cherries、sun 都指向气味与发酵，字面义与句中义吻合。这就是“后缀义随词根浮动”时的正确用法——用整词语境锁定义项。",
+      "concepts": [
+        "c-suffix",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w21d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在句中的含义",
+      "passage": "The board rejected the plan outright. The changes the consultant proposed were cosmetic: a new logo, a friendlier font, and a rewritten mission statement, while the budget and the staffing model stayed exactly as they were.",
+      "word": "cosmetic",
+      "choices": [
+        "表面的、装点性的，不触及实质",
+        "与化妆品销售有关的",
+        "与宇宙结构有关的",
+        "经过精确计算的"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后的清单（logo、font、mission statement）都是外观项；② 对比从句 while the budget and the staffing model stayed exactly as they were 明确指向“实质未动”；③ 词源辅助：cosm 有“安排、修饰”一义，cosmetic 由“修饰”而来；④ 排除“化妆品”：虽有此义，但与句中主语 the changes 不搭。",
+      "explain": "cosmetic 在这里是“装点门面的”。它的两条词源线——kosmos“秩序／宇宙”与“修饰”——在英语里分成 macrocosm 与 cosmetic 两支，而 cosmetic 又从“化妆品”隐喻扩展到“表面修饰”，这是同一形式多义的典型叠加。",
+      "concepts": [
+        "c-inference",
+        "c-metaphor",
+        "c-root"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章第 1 节：意义变化与形式变化并重；后缀、前缀、词根的多义"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "-ous／-ic／-ical、de-、cosm、fa 的义项与语源"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "id": "w17d3",
+  "week": 17,
+  "day": 3,
+  "title": "a- 还是 an-：希腊否定前缀的分布",
+  "tagline": "条件只有一条：后接的是辅音还是元音",
+  "objectives": [
+    "能按后接音素选择 a- 或 an-，并解释 h 为什么按元音处理",
+    "能区分希腊否定 a-/an-、拉丁 in- 与本土 un-",
+    "能识破 anxiety 这类“看起来像前缀”的假朋友"
+  ],
+  "prereqs": [
+    "w17d1",
+    "c-prefix"
+  ],
+  "concepts": [
+    "c-prefix",
+    "c-greek-latin",
+    "c-allomorph",
+    "a"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s5-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "希腊语的一条硬条件",
+      "body": "希腊语的否定前缀叫**剥夺性 α**（alpha privative）：α- 用在辅音前，ἀν-（an-）用在元音前。条件只有一条，没有语义差别，也不容例外。\n\n- 辅音前：a-typical、a-symmetry、a-sexual、a-moral、a-pathy、a-pnea（p 是辅音）\n- 元音前：an-emia、an-onymous、an-archy、an-esthetic、an-hydrous\n\n为什么 anesthetic、anhydrous 算“元音前”？因为希腊语里 haima（血）、hydōr（水）开头的 h 不是辅音，而是元音上的**送气符号**（rough breathing）。希腊人听的是元音起头，所以加 n。",
+      "terms": [
+        {
+          "term": "alpha privative",
+          "zh": "剥夺性 α（希腊否定前缀）",
+          "en": "alpha privative",
+          "note": "表“没有、缺乏”，有 a- 与 an- 两个形状"
+        }
+      ],
+      "morphemes": [
+        "a"
+      ],
+      "morphemeIds": [
+        "px-a"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "两列对照：看后接音，不看词义",
+      "body": "同一列里的词意义五花八门，唯一统一的是后接音的性质。注意 apnea 常被误当成 an- 的例子：它后面是 p，所以只能是 a-。这条分布不表达“程度”或“语气”，只表达“能不能直接接”。",
+      "head": [
+        "前缀",
+        "后接",
+        "例词",
+        "含义"
+      ],
+      "rows": [
+        [
+          "a-",
+          "辅音 t",
+          "atypical",
+          "非典型的"
+        ],
+        [
+          "a-",
+          "辅音 s",
+          "asymmetry",
+          "不对称"
+        ],
+        [
+          "a-",
+          "辅音 p",
+          "apnea",
+          "呼吸暂停（a- + pnoia“呼吸”）"
+        ],
+        [
+          "an-",
+          "元音 e",
+          "anemia",
+          "贫血（“无血”）"
+        ],
+        [
+          "an-",
+          "元音 o",
+          "anonymous",
+          "匿名的（“无名”）"
+        ],
+        [
+          "an-",
+          "送气元音 h",
+          "anhydrous",
+          "无水的"
+        ],
+        [
+          "an-",
+          "送气元音 h",
+          "anesthetic",
+          "麻醉的（“无感觉”）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四个必须排除的假朋友",
+      "body": "1. **anxiety** 的 an- 不是前缀。它来自拉丁 angere“使窒息”，整词是 anxietas，没有“无”的意思。切成 an- + xiety 会造出一段不存在的词根。\n2. **ana-** 是另一个前缀，表“向上、再、回”：anatomy、anode、analysis。它与否定的 an- 同形不同源。\n3. **anti-** 表“反对”（antibiotic、antipathy），不是“没有”。\n4. **a-** 还有一个来自古英语的用法，表“在……上”（abed、ashore），同样与希腊语无关。\n\n遇到开头 a-/an- 的词，先问“它是不是这四个之一”，再谈否定。",
+      "terms": [
+        {
+          "term": "false friend",
+          "zh": "假朋友",
+          "en": "false friend",
+          "note": "拼写相似但来源或意义无关的成分"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "希腊否定 vs 拉丁否定 vs 本土否定",
+      "body": "三套否定前缀在英语里并存，语义并不完全等同。a- 更接近“没有这东西”，in-/un- 更接近“不是这样”。amoral（没有道德意识）与 immoral（违背道德）的分工，就是这条差别的化石。",
+      "a": "希腊 a- / an-",
+      "b": "拉丁 in- / 本土 un-",
+      "rows": [
+        {
+          "label": "条件",
+          "a": "元音前加 n，辅音前不加",
+          "b": "in- 随词根首音同化为 im-/il-/ir-；un- 不变"
+        },
+        {
+          "label": "例",
+          "a": "atypical、anonymous、anhydrous",
+          "b": "impossible、illegal、irregular；unprovable"
+        },
+        {
+          "label": "语义色彩",
+          "a": "“没有、缺乏”",
+          "b": "“不、非”"
+        },
+        {
+          "label": "能产性",
+          "a": "在希腊词根的科技词里仍能产",
+          "b": "在拉丁词根与本土词上都能产"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三步解析：敢不敢切",
+      "body": "遇到开头是 a-/an- 的生词，按顺序问三个问题：\n\n1. **后接是元音还是辅音？** 决定拼写，不决定意义。\n2. **后面那段是希腊词根吗？** a-morph-ous（morph“形”）、an-onym-ous（onym“名”）、a-path-y（path“感受”）都是希腊货。\n3. **语义是“没有”还是“不”？** a- 常说“缺乏某物”，比 in-/un- 更接近“没有这回事”。\n\n三步都过，才敢切；任何一步不过，先怀疑它是假朋友。这条流程比背词表可靠，因为它能处理没见过的词。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w17d3-p1",
+      "kind": "mcq",
+      "prompt": "为什么是 atypical 而不是 antypical？",
+      "choices": [
+        "后接的 t 是辅音，希腊否定前缀在辅音前用 a-",
+        "a- 在这里表示“朝向”",
+        "an- 只能用在名词前",
+        "atypical 来自拉丁语，所以不用希腊前缀"
+      ],
+      "answer": 0,
+      "explain": "alpha privative 的分布只看后接音：辅音前 a-，元音前 an-。typical 以 t 起头，所以是 a-。这条规则没有语义条件，也没有词性条件，因此 an- 只用于名词的说法不成立。",
+      "concepts": [
+        "c-prefix",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w17d3-p2",
+      "kind": "mcq",
+      "prompt": "anhydrous 用 an- 的理由是：",
+      "choices": [
+        "hydōr 开头的 h 是元音上的送气符号，希腊人按元音处理",
+        "h 是浊辅音，需要 n 过渡才好发音",
+        "an- 是“水”的词根",
+        "为了与 hydra 区分"
+      ],
+      "answer": 0,
+      "explain": "希腊语的“粗送气”标记在元音上，不是独立的辅音音位，所以 hydōr 算元音起头，否定形取 an-。同类还有 anesthetic（aisthēsis“感觉”）、anemia（haima“血”）。若按英语的 h 去判断，就会误写成 ahydrous。",
+      "concepts": [
+        "c-prefix",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w17d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个形容词",
+      "sentence": "The compound is stored in a sealed container because it is highly ___ : any trace of water makes it react violently.",
+      "answer": "anhydrous",
+      "accept": [
+        "anhydrous"
+      ],
+      "explain": "any trace of water 是释义线索：an-（无）+ hydr（水）+ -ous → 无水的。这里 h 按元音处理，所以用 an- 而不是 a-。同一词根的 hydrate、dehydrate 都指“与水结合／脱水”。",
+      "concepts": [
+        "c-prefix",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w17d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）amorphous 中的 a- 是什么？",
+      "choices": [
+        "希腊否定前缀，后接 morph（形），整个词意为“无定形的”",
+        "表示“向上”的 ana- 的缩略",
+        "拉丁 in- 的变体",
+        "英语本土的 a-，意为“在……上”"
+      ],
+      "answer": 0,
+      "explain": "morph 以辅音 m 起头，所以用 a-；morph 是希腊词根“形”，所以整体是“没有固定形状的”。物理学里 amorphous solid 指玻璃、橡胶这类非晶体。三步检验全部通过：辅音前、希腊词根、语义为“没有”。",
+      "concepts": [
+        "c-prefix",
+        "c-inference",
+        "c-greek-latin"
+      ],
+      "hint": "先看 m 是辅音还是元音，再确认 morph 的义。"
+    },
+    {
+      "id": "w17d3-p5",
+      "kind": "wordSum",
+      "prompt": "写出 atypical 的构词算式",
+      "parts": [
+        "a",
+        "typ",
+        "ical"
+      ],
+      "answer": "atypical",
+      "explain": "a-（无、非）+ typ（类型）+ -ical（形容词后缀）→ atypical“非典型的”。注意 a- 在这里不是“朝向”，也不是英语本土的“在……上”；判断依据是后接辅音与希腊词根 typ。",
+      "concepts": [
+        "c-word-sum",
+        "c-prefix",
+        "a"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w17d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 anomalies 的含义",
+      "passage": "The probe returned a set of readings that did not fit the model: three of the anomalies clustered near the pole, where the instrument had never been calibrated.",
+      "word": "anomalies",
+      "choices": [
+        "异常、偏离常规的现象",
+        "测量单位",
+        "极点坐标",
+        "校准记录"
+      ],
+      "answer": 0,
+      "strategy": "① 构词：an-（否定）+ homalos（平坦、均匀）→“不平”，引申为偏离常规；② 定义性线索：did not fit the model 直接说明这些读数不合模型；③ 语境：three of them clustered near the pole，说明是一批具体的反常读数。",
+      "explain": "anomaly 的 an- 是元音前的否定前缀（homalos 以送气元音起头），字面“不平整”，引申为“反常的事物”。科学写作里 anomaly 常指“与预期不符的数据点”，与 error 不同：它未必是错，只是尚未解释。",
+      "concepts": [
+        "c-inference",
+        "c-prefix",
+        "c-greek-latin"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：借入的音系规则与希腊否定前缀 an-/a- 的分布"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "anxiety（angere）、anhydrous（hydōr）、anomaly（homalos）的词源"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "id": "w18d2",
+  "week": 18,
+  "day": 2,
+  "title": "sing / sang / sung：e、o、零三级",
+  "tagline": "印欧语的元音变换，在强动词和希腊借词里各留了一半",
+  "objectives": [
+    "能说出元音变换的三级（e／o／零）在英语强动词里的对应",
+    "能解释 ped 与 pod、gen 与 gon 为什么算同一词根的两级",
+    "能把元音变换与异干互补区分开"
+  ],
+  "prereqs": [
+    "w18d1",
+    "c-cognate"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-etymology",
+    "c-cognate",
+    "pod"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s10-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "不是“不规则”，是三级",
+      "body": "印欧语用改变词根元音来标语法，这套机制叫**元音变换**（ablaut）。基本的三级是 **e／o／零**：零级就是元音整个消失。\n\n日耳曼语把这三级的读音变成 i／a／u，于是英语强动词出现三式：\n\n- sing / sang / sung\n- drink / drank / drunk\n- begin / began / begun\n\n三式不是三次随机变化，而是同一套三级在不同语法位置上的分配：现在、过去单数、过去分词。",
+      "terms": [
+        {
+          "term": "ablaut",
+          "zh": "元音变换",
+          "en": "ablaut",
+          "note": "印欧语用词根元音交替标记语法的手段"
+        },
+        {
+          "term": "grade",
+          "zh": "元音级",
+          "en": "grade",
+          "note": "e 级、o 级与零级三种形态"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三式与三级",
+      "body": "第三列（过去分词）的 u 不是“第三个元音”，而是零级在日耳曼语里的读音：元音整个消失后，语言用一个 u 把这个位置填上。所以 sung 与 sing 的差别不是“再加一个元音”，而是“元音没了之后重新填的音”。",
+      "head": [
+        "动词",
+        "现在（e 级）",
+        "过去单数（o 级）",
+        "过去分词（零级）"
+      ],
+      "rows": [
+        [
+          "sing",
+          "sing",
+          "sang",
+          "sung"
+        ],
+        [
+          "drink",
+          "drink",
+          "drank",
+          "drunk"
+        ],
+        [
+          "begin",
+          "begin",
+          "began",
+          "begun"
+        ],
+        [
+          "swim",
+          "swim",
+          "swam",
+          "swum"
+        ],
+        [
+          "ring",
+          "ring",
+          "rang",
+          "rung"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "希腊借词把两级保留得更清楚",
+      "body": "希腊语的 e／o 交替直接进了英语的构词：\n\n- **ped**（拉丁 pēs, pedis“脚”）／**pod**（希腊 poús, podós“脚”）：pedal、pedestrian、pedestal 对 podium、tripod、podiatry。\n- **gen**（生、族）／**gon**（生）：genesis、genetic 对 gonad。\n\n关键限定：ped 是拉丁形、pod 是希腊形，英语借的是两套（属双式词，明天讲）。它们能对上，靠的不是英语规则，而是共同祖先留下的同一套交替。",
+      "morphemes": [
+        "ped",
+        "pod"
+      ],
+      "morphemeIds": [
+        "rx-ped",
+        "rx-pod"
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "元音变换 vs 异干互补",
+      "body": "两者都会让“不规则形式”出现，但一个能解释、一个不能。判断方法：把两形摆在一起，看能不能找到同一个词根。找得到就是交替，找不到就是借形。另一个常见混淆是 umlaut 与 ablaut：前者由后一音节的元音触发，后者是词根本身的形态交替，删掉词尾再检验，两者就分开了。",
+      "a": "元音变换（ablaut）",
+      "b": "异干互补（suppletion）",
+      "rows": [
+        {
+          "label": "是否有共同来源",
+          "a": "有，同一个词根",
+          "b": "没有，来自两个词"
+        },
+        {
+          "label": "能否解释",
+          "a": "能：三级分配",
+          "b": "不能：只能记"
+        },
+        {
+          "label": "例",
+          "a": "sing/sang/sung；ped/pod",
+          "b": "go/went；good/better"
+        },
+        {
+          "label": "用错时的表现",
+          "a": "用错级（*sanged 表过去）",
+          "b": "用规则形（*goed）"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "两个必须防的同形陷阱",
+      "body": "1. **pentagon 的 gon 是“角”**，不是“生”。希腊 gōnia“角”与 gen-“生”同形异源，所以 pentagon、hexagon、orthogonal 都与“出生”无关。\n2. **ped 还有“儿童”一义**：pediatric、pedagogy 的 ped 来自希腊 pais, paidos“孩子”，与“脚”无关。\n\n同形异源必须靠“所属义”区分，不能只看拼写。元素表里一个拼写对应两条释义，就要分两行记——这是第 6 天的方法，今天先埋下伏笔。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w18d2-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一组属于元音变换（ablaut）？",
+      "choices": [
+        "sing / sang / sung",
+        "go / went",
+        "good / better",
+        "duc / duct"
+      ],
+      "answer": 0,
+      "explain": "sing/sang/sung 是同一词根的三级分配（e／o／零）。go/went 与 good/better 是异干，duc/duct 是加音变体。四组都“不规则”，但只有第一组能用一个贯穿三式的元音系统解释。",
+      "concepts": [
+        "c-allomorph",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w18d2-p2",
+      "kind": "mcq",
+      "prompt": "pedal 与 podium 的词根关系是：",
+      "choices": [
+        "同一印欧词根的 e 级与 o 级，分别经拉丁与希腊进入英语",
+        "podium 来自“平台”，与脚无关",
+        "pedal 是法语词，podium 是拉丁词",
+        "两者只是拼写相似，没有词源关系"
+      ],
+      "answer": 0,
+      "explain": "拉丁 pēs/pedis 与希腊 poús/podós 同源，分别是 e 级与 o 级。英语从两条通道借入，于是 pedal（踏板）与 podium（站脚的台子）并存。它们不是同一词素的变体，而是双式词——明天讲这条界线。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology",
+        "pod"
+      ]
+    },
+    {
+      "id": "w18d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个术语（英文）",
+      "sentence": "The vowel alternation seen in sing, sang and sung is called ___.",
+      "answer": "ablaut",
+      "accept": [
+        "ablaut",
+        "元音变换"
+      ],
+      "explain": "ablaut 是印欧语用词根元音交替标记语法的手段，三级为 e／o／零。它与 umlaut 不同：umlaut 由后一音节的元音触发（音变），ablaut 是词根本身的形态交替。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w18d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）pedometer 最可能的意思是：",
+      "choices": [
+        "计步器",
+        "儿童体重秤",
+        "脚踏板",
+        "测距仪"
+      ],
+      "answer": 0,
+      "explain": "ped（脚，拉丁）+ meter（测量）→ 计步器。注意别急着按“儿童”义切：ped 有两个来源，判断依据是第二个成分与整体语义——meter 表测量，与“脚”搭配才讲得通。同族 pedal、pedestrian、pedestal 都用“脚”这条义。",
+      "concepts": [
+        "c-inference",
+        "c-morpheme",
+        "pod"
+      ],
+      "hint": "先看 -meter 的义，再定 ped 取哪一条。"
+    },
+    {
+      "id": "w18d2-p5",
+      "kind": "wordSum",
+      "prompt": "写出 tripod 的构词算式",
+      "parts": [
+        "tri",
+        "pod"
+      ],
+      "answer": "tripod",
+      "explain": "tri-（三）+ pod（脚，希腊形）→ 三脚架。摄影器材的三脚架、化学的三角瓶架都用这个词。这里必须用 pod 而不是 ped：希腊来源的复合词取 o 级形。",
+      "concepts": [
+        "c-word-sum",
+        "c-prefix",
+        "pod"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w18d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 genesis 的含义",
+      "passage": "The genesis of the project is easy to trace: a single email in 2019, forwarded to the wrong list, started everything.",
+      "word": "genesis",
+      "choices": [
+        "起源、开端",
+        "基因序列",
+        "世代相传的习俗",
+        "终结"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后的 a single email ... started everything 是释义；② 构词：gen（生，e 级）+ -esis（名词后缀）；③ easy to trace 说明讲的是来龙去脉。",
+      "explain": "genesis 的 gen- 是 e 级，与 gon-（o 级）同源，字面“生出”，引申为“起源”。同族 genetic、generate、generation 都从“生”出发。它与“基因”的 gene 同源，但 genesis 强调的是“开端”这一事件，不是遗传单位。",
+      "concepts": [
+        "c-inference",
+        "c-etymology",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：元音变换（sing/sang/sung、ped/pod）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "pēs/pedis、poús/podós、genos/gonē 的形式对照"
+    }
+  ]
+}

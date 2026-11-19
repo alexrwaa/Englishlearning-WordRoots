@@ -1,0 +1,254 @@
+{
+  "id": "w18d4",
+  "week": 18,
+  "day": 4,
+  "title": "hemi 与 semi：希腊一套、拉丁一套",
+  "tagline": "同一个祖先，两条分支，英语两套都借了",
+  "objectives": [
+    "能列出四组希腊／拉丁同源双式词及其例词",
+    "能说明它们为什么不是同一词素的变体",
+    "能解释 September 与 herp- 的字面义"
+  ],
+  "prereqs": [
+    "w18d3",
+    "c-greek-latin"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-greek-latin",
+    "c-borrowing",
+    "hemi",
+    "semi"
+  ],
+  "knowledgePoints": [
+    "kp-s1c4s11-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两套数词，一个祖先",
+      "body": "希腊语和拉丁语从同一个祖语分化，各自保留了一份“半、六、七、爬”的词。英语先借拉丁（部分经法语），后来又大量直借希腊，于是两套形并存：\n\n- **hemi-**（希）／**semi-**（拉）“半”\n- **hexa-**（希）／**sex-**（拉）“六”\n- **hepta-**（希）／**sept-**（拉）“七”\n- **herp-**（希）／**serp-**（拉）“爬”\n\n它们在祖语里是同一个词，在英语里却是两个词素——因为英语从两条通道分别借入。",
+      "terms": [
+        {
+          "term": "cognate",
+          "zh": "同源词",
+          "en": "cognate",
+          "note": "从同一祖语形式分化出来的词"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四组对照",
+      "body": "每组的两个形都绑定各自的构词系统：希腊形接希腊词根，拉丁形接拉丁或英语词。用错形会造出不存在的词（hemicircle、semiisphere 都不成立）。这就是为什么“同源”不能直接推成“可互换”，也是为什么两套形能长期并存而不合并。",
+      "head": [
+        "希腊形",
+        "拉丁形",
+        "希腊例",
+        "拉丁例"
+      ],
+      "rows": [
+        [
+          "hemi- 半",
+          "semi- 半",
+          "hemisphere 半球",
+          "semicircle 半圆"
+        ],
+        [
+          "hexa- 六",
+          "sex- 六",
+          "hexagon 六边形",
+          "sextet 六重奏"
+        ],
+        [
+          "hepta- 七",
+          "sept- 七",
+          "heptagon 七边形",
+          "September（罗马历第七月）、septet 七重奏"
+        ],
+        [
+          "herp- 爬",
+          "serp- 爬",
+          "herpes（“爬行”> 疱疹）",
+          "serpent 蛇、serpentine 蜿蜒的"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么不能说它们是“变体”",
+      "body": "变体的定义要求两形在**同一个系统里互补分布**：同一个词族，换个位置就换个形。hemi- 与 semi- 从不这样：\n\n- 没有 hemicircle，也没有 semiisphere；\n- hemi- 只与希腊词根组合（hemisphere、hemiplegia），semi- 只与拉丁或英语词组合（semicircle、semiconductor、semifinal）。\n\n它们属于两套构词系统。所以正确说法是“同源双式词”，不是“一个词素的两个变体”。这条界线与昨天 fact/feat 的判据是同一条：能不能在同一词族里互换。",
+      "morphemes": [
+        "hemi",
+        "semi"
+      ],
+      "morphemeIds": [
+        "cx-hemi",
+        "px-semi"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "顺手记住两条史实",
+      "body": "1. **September 不是“九月＝七”的错乱**。罗马历早期以三月为岁首，September 是第七个月；后来一月、二月加到岁首，名字没改。同批还有 October（八）、November（九）、December（十）。\n2. **herpes 的字面义是“爬行”**：希腊 herpein“爬”，指皮疹蔓延的样子。它与 serpent（拉丁 serpere“爬”）同源，但一个指疹，一个指蛇，语义早已分道。\n\n这两条说明同源双式词的价值：它不只是“多一个同义词”，还把两种文化看世界的方式并排留在词汇里。"
+    },
+    {
+      "kind": "compare",
+      "title": "希腊形 vs 拉丁形：各管一片",
+      "body": "两套形不能互换，但可以预测：看到希腊词根（-sphere、-gon、-logy）就用希腊形，看到拉丁或英语词（-circle、-final、-conductor）就用拉丁形。预测依据是“同族的其他成分”，不是词义。",
+      "a": "希腊形",
+      "b": "拉丁形",
+      "rows": [
+        {
+          "label": "组合对象",
+          "a": "希腊词根",
+          "b": "拉丁词根或英语词"
+        },
+        {
+          "label": "典型语域",
+          "a": "医学、数学、科学术语",
+          "b": "日常词、法律与宗教词"
+        },
+        {
+          "label": "能否互换",
+          "a": "不能",
+          "b": "不能"
+        },
+        {
+          "label": "例",
+          "a": "hemisphere、hexagon、heptagon",
+          "b": "semicircle、sextet、September"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w18d4-p1",
+      "kind": "mcq",
+      "prompt": "下面哪个词用的是希腊的“半”？",
+      "choices": [
+        "hemisphere",
+        "semicircle",
+        "semiconductor",
+        "semifinal"
+      ],
+      "answer": 0,
+      "explain": "hemisphere = hemi-（希腊“半”）+ sphere（希腊“球”）。其余三个都用拉丁 semi-：semi- 接拉丁或英语成分，hemi- 接希腊成分。判断依据是另一个成分的来源，不是“半”这个意思本身。",
+      "concepts": [
+        "c-greek-latin",
+        "c-cognate",
+        "hemi"
+      ]
+    },
+    {
+      "id": "w18d4-p2",
+      "kind": "mcq",
+      "prompt": "sextet 的 sex- 意思是：",
+      "choices": [
+        "六",
+        "性",
+        "切割",
+        "跟随"
+      ],
+      "answer": 0,
+      "explain": "sextet 是“六重奏”，sex- 是拉丁“六”，与希腊 hexa- 同源。-et 是集合名词后缀，quartet、quintet、septet 同理。与“性别”的 sex 同形异源，不能混。",
+      "concepts": [
+        "c-greek-latin",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w18d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个名词",
+      "sentence": "A ___ is half of the earth's surface, divided from the other half by the equator.",
+      "answer": "hemisphere",
+      "accept": [
+        "hemisphere"
+      ],
+      "explain": "hemi-（希腊“半”）+ sphere（球）→ 半球。这里必须用希腊形，因为 sphere 是希腊词根；若写 semicircle，指的是平面上的半圆，不是地球的一半。",
+      "concepts": [
+        "c-greek-latin",
+        "hemi"
+      ]
+    },
+    {
+      "id": "w18d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）sexennial 最可能的意思是：",
+      "choices": [
+        "每六年一次的",
+        "每六年两次的",
+        "持续六天的",
+        "十六年的"
+      ],
+      "answer": 0,
+      "explain": "sex-（拉丁“六”）+ -ennial（ann“年”，如 biennial、centennial）→ 每六年一次的。若换成希腊形，就该是 hexa- 加希腊成分。这一题考的是“先定形，再定数，再看后缀”。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin",
+        "c-cognate"
+      ],
+      "hint": "先确认 sex- 在这里是“六”，再看 -ennial 表时间。"
+    },
+    {
+      "id": "w18d4-p5",
+      "kind": "wordSum",
+      "prompt": "写出 hemisphere 的构词算式",
+      "parts": [
+        "hemi",
+        "sphere"
+      ],
+      "answer": "hemisphere",
+      "explain": "hemi-（半）+ sphere（球）→ 半球。两个成分都来自希腊语，所以用 hemi- 而不是 semi-。这条“同源匹配”规则能帮你判断该用哪套形，比逐个背例词可靠。",
+      "concepts": [
+        "c-word-sum",
+        "c-greek-latin",
+        "hemi"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w18d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 septet 的含义",
+      "passage": "The quartet became a septet when three more players joined, and the arranged parts had to be rewritten for seven.",
+      "word": "septet",
+      "choices": [
+        "七重奏（七人演奏组）",
+        "四重奏",
+        "三重奏",
+        "七边形"
+      ],
+      "answer": 0,
+      "strategy": "① 对比：quartet（四）→ septet，说明它指人数或乐器数；② 算术：three more players joined，4 + 3 = 7；③ 构词：sept-（拉丁“七”）+ -et（集合名词后缀）。",
+      "explain": "sept- 是拉丁“七”（septem），与希腊 hepta- 同源；-et 与 quartet、quintet、sextet 同一套。注意 -gon 才是“角”：heptagon 是七边形，不是七重奏。后缀不同，词义就不同。",
+      "concepts": [
+        "c-inference",
+        "c-cognate",
+        "c-greek-latin"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：希腊与拉丁同源双式词（hemi/semi、hexa/sex、hepta/septem、herp/serp）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "September 的罗马历来历；herpes 与 serpent 的词源"
+    }
+  ]
+}
