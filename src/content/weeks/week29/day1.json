@@ -1,0 +1,291 @@
+{
+  "id": "w29d1",
+  "week": 29,
+  "day": 1,
+  "title": "用共享词汇做考古：方法与三个陷阱",
+  "tagline": "祖语里有“牛”这个词，说明他们养牛；但英语 fee 和拉丁 pecus 同源这件事，还顺带说明了钱是怎么来的",
+  "objectives": [
+    "能说明“共享词汇→文化推断”这一方法的三条前提与三个陷阱",
+    "能用 *peḱu 的例子解释词义漂移如何让考古结论失真",
+    "能指出哪些词（家畜、亲属、基本器物）最适合做年代与文化推断"
+  ],
+  "prereqs": [
+    "w28d2",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-cognate",
+    "c-semantic-shift"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s7-1",
+    "kp-s1c10s7-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一条词的清单，就是一份家当清单",
+      "body": "如果几个分支都从祖语继承了同一个词，那么祖语使用者**大概率**认识这个词所指的东西——这就是“语言考古”的全部逻辑。它简单，但要成立需要三条前提：\n\n1. 这个词确实是从祖语继承的，不是后来借的；\n2. 它在各支的意义没有大改；\n3. 它没有被某一支独立丢失后又重新造出来。\n\n三条都容易破。所以正确的措辞是“祖语里有表示 X 的词”，而不是“祖语使用者有 X 这种制度”。前者是语言事实，后者是推断，两者的证据强度差一档。写的时候把这一档差距保留下来，是学术写作的基本诚实。",
+      "terms": [
+        {
+          "term": "linguistic palaeontology",
+          "zh": "语言古生物学",
+          "en": "linguistic palaeontology",
+          "note": "用共享词汇推断祖语使用者的文化与生活环境"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "最可靠的一批：家畜与基本经济词",
+      "body": "这几行可靠度高，因为它们是**成套**的：不仅词同源，连“牲畜＝财富”这套语义结构也同源——拉丁 pecūnia（钱）来自 pecus（牲畜），英语 fee 也来自同一个根。成套的语义结构比单个词更难造假。",
+      "head": [
+        "祖语",
+        "意义",
+        "拉丁",
+        "英语（本土或借入）",
+        "梵语"
+      ],
+      "rows": [
+        [
+          "*peḱu",
+          "牲畜、家产",
+          "pecus（畜群）→ pecūnia（钱）",
+          "fee（古英语 feoh“牲畜、财产”）",
+          "paśu"
+        ],
+        [
+          "*gʷōus",
+          "牛",
+          "bōs（牛）",
+          "cow",
+          "gauḥ"
+        ],
+        [
+          "*h₂ówis",
+          "羊",
+          "ovis",
+          "ewe",
+          "avi-"
+        ],
+        [
+          "*sūs",
+          "猪",
+          "sūs",
+          "sow（母猪）、swine",
+          "sūkara-"
+        ],
+        [
+          "*h₁eḱwos",
+          "马",
+          "equus",
+          "（本土词 eoh 已亡；今用 horse）",
+          "aśva-"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "从“牛”到“钱”：词义漂移如何毁掉证据",
+      "body": "拉丁 **pecus** 是“牲畜”，派生 **pecūnia** 是“钱”，再派生 **pecūliāris** 是“属于自己的（财产）的”——英语借来成了 **peculiar**（独特的、奇怪的）与 **pecuniary**（金钱的）。英语本土的 **fee** 也来自同一个根：古英语 feoh 既指“牲畜”也指“财产”，后来专指“酬金”。\n\n三个词今天看起来毫不相干：peculiar 是“奇怪”，fee 是“费用”，cow 是“母牛”。如果只看现代义，绝不可能推出“牲畜＝财富”这个古老等式；正是词源把这条线接回去，才让“牛是通货”成为可信的推断。\n\n反面教训同样重要：**词义会漂得面目全非**。所以用词做考古时，必须用最早的文献义，而不是现代义——这也解释了为什么赫梯语、梵语、希腊语的早期文本如此值钱。",
+      "terms": [
+        {
+          "term": "semantic drift",
+          "zh": "词义漂移",
+          "en": "semantic drift",
+          "note": "词义随时间缓慢偏移，可使同源词在现代完全对不上"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "第二批判据：动物与树木指向温带林地",
+      "body": "这一批词的指向很一致：狼、熊、桦、山毛榉、栎、蜂——都是温带落叶林带的成员。单看一个词不算什么，成批出现才构成“生活环境”的推断。注意第五行的熊会在下一张卡里变成反例。",
+      "head": [
+        "祖语",
+        "意义",
+        "拉丁／希腊",
+        "英语",
+        "环境指向"
+      ],
+      "rows": [
+        [
+          "*wĺ̥kʷos",
+          "狼",
+          "lupus／lykos",
+          "wolf",
+          "全北半球，指示弱"
+        ],
+        [
+          "*bʰerHǵ-",
+          "桦",
+          "（拉丁 fraxinus 是另一种树）",
+          "birch",
+          "北方温带"
+        ],
+        [
+          "*bʰeh₂ǵos",
+          "山毛榉",
+          "fāgus／phēgos",
+          "beech",
+          "西欧温带（东界关键）"
+        ],
+        [
+          "*perkʷus",
+          "栎",
+          "quercus（橡树）",
+          "fir（一般认为同根，义已转为冷杉；oak 另有来源）",
+          "温带林地"
+        ],
+        [
+          "*bʰey-",
+          "蜂",
+          "fūcus（雄蜂）",
+          "bee",
+          "有蜂即有蜜与授粉植物"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "反例：英语的 bear 不是“熊”的祖语词",
+      "body": "这一条最能说明方法的边界。希腊 **arktos**、拉丁 **ursus**、梵语 **ṛkṣa-** 都来自祖语的 ***h₂ŕ̥tḱos**“熊”。可英语的 **bear** 与它们毫无关系：它来自 *bʰer-“棕色的”，字面是“棕色的那个”。\n\n这是典型的**禁忌替换**：北方狩猎文化里不愿直呼猛兽之名，用绰号代替，久而久之原词消失。日耳曼语整片都换了，斯拉夫语也换了（medved“吃蜜的”）。\n\n后果很实在：如果你只用日耳曼语料做考古，会得出“祖语使用者不认识熊”的荒谬结论。**一个词在某支消失，不等于祖语里没有这个词**。所以语言考古必须多支交叉，且要预设“词会被替换”这条机制——这是第 3 条陷阱的具体样子。",
+      "terms": [
+        {
+          "term": "taboo replacement",
+          "zh": "禁忌替换",
+          "en": "taboo replacement",
+          "note": "因忌讳而用委婉语替换原词，原词随之消失"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w29d1-p1",
+      "kind": "mcq",
+      "prompt": "用共享词汇推断祖语文化，最需要防的三个陷阱是：",
+      "choices": [
+        "借词混入、词义漂移、某一支独立丢失或替换",
+        "拼写差异、发音差异、方言差异",
+        "文献太少、年代太早、材料太碎",
+        "语系太多、分支太杂、术语不统一"
+      ],
+      "answer": 0,
+      "explain": "三条都针对“这个词能证明什么”这一环：借词让非继承的词冒充继承，词义漂移让现代义误导推断，独立丢失让真实存在的词消失于证据。拼写与发音差异是表层的，恰恰是音对应要处理的对象，不是陷阱。",
+      "concepts": [
+        "c-etymology",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w29d1-p2",
+      "kind": "mcq",
+      "prompt": "拉丁 pecūnia“钱”与英语 fee 都追溯到 *peḱu“牲畜”。这件事最能说明：",
+      "choices": [
+        "以牲畜计财的语义结构在祖语时代已存在，且被多个分支继承",
+        "拉丁语从日耳曼语借入了“钱”这个词",
+        "英语的 fee 与牛没有关系，纯属巧合",
+        "凡与财产有关的词都来自牲畜词"
+      ],
+      "answer": 0,
+      "explain": "价值在于“成套”：不仅词根同源，连“牲畜→财产→货币”这条语义链也在两支各自独立走通了，这种双重对应很难用借词解释。最后一项是过度推广：许多财产词另有来源，一个例证撑不起全称结论。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w29d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语树名",
+      "sentence": "Latin fāgus and English ___ descend from the same root, and the tree's modern eastern limit has been used—controversially—to locate the homeland.",
+      "answer": "beech",
+      "accept": [
+        "beech"
+      ],
+      "explain": "beech 与拉丁 fāgus、希腊 phēgos 同源，这是“山毛榉界线”论证的基础：山毛榉不耐严寒与干旱，其分布东界被用来排除东部草原。这条论证很有名，也被批得很厉害——因为树名可以随语义迁移，且古代气候与今天不同。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w29d1-p4",
+      "kind": "mcq",
+      "prompt": "英语 bear 与希腊 arktos、拉丁 ursus 不同源。对这一现象的合理解释是：",
+      "choices": [
+        "日耳曼语用“棕色的那个”这一委婉语替换了原词，原词在该支消失",
+        "英语的熊是从别处引入的物种，所以没有本名",
+        "希腊语与拉丁语的“熊”是互相借用的",
+        "祖语里没有“熊”这个词"
+      ],
+      "answer": 0,
+      "explain": "这正是禁忌替换：*h₂ŕ̥tḱos 在日耳曼与斯拉夫都被绰号取代。它提醒我们“某支没有某个词”不能直接推成“祖语没有”。物种引入说不通——熊在欧洲处处都有；而希拉两语同源形式一致，也不可能是互相借用。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w29d1-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）某研究想用“祖语有 *médʰu‘蜂蜜酒’一词”证明祖语使用者已掌握酿酒。最该先检查的是：",
+      "choices": [
+        "这个词在各支是否真是继承关系，以及它是否可能泛指“甜的东西”而非酒",
+        "这个词的拼写在各支是否一致",
+        "这个词在现代英语里是否还在使用",
+        "酿酒技术是否在别的语系也存在"
+      ],
+      "answer": 0,
+      "explain": "两条都要查：来源（是不是借词、是不是同源）与语义（是不是真的指酒）。*médʰu 在印度—伊朗指一种蜜酒、在斯拉夫指蜜，语义宽度足以让“已掌握酿酒”这一结论变成过度推断。拼写一致与否无关；现代英语是否使用更无关（词可以消失）。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ],
+      "hint": "先问来源，再问语义宽度。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w29d1-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 diagnostic 在句中的含义",
+      "passage": "Not every shared word is diagnostic. A term for “wolf” tells us little, because wolves ranged across the whole continent; a term for “beech” tells us much more, because that tree has a sharp ecological limit. The value of a word for prehistory depends on how narrowly its referent is distributed.",
+      "word": "diagnostic",
+      "choices": [
+        "能有效区分、因而可用于推断的",
+        "用于医学诊断的",
+        "在语法上标示格与数的",
+        "只在少数方言中出现的"
+      ],
+      "answer": 0,
+      "strategy": "① 首句否定式：Not every shared word is diagnostic，暗示它是“有区分力”的褒义评价；② 对比：wolf 提供信息少、beech 提供信息多，差别在生态分布窄不窄；③ 结论句 narrowly distributed 直接给出判据；④ 排除“医学”：虽同形，但本段谈词与分布。",
+      "explain": "diagnostic 在这里是“有鉴别力的、可用于判定的”。它的核心义是“能区分”，医学用法（诊断的）只是其中一个场景。学术英语里这个词常这样用：diagnostic feature（区别性特征）、diagnostic test（判定性检验）。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 7 节：共享词汇与文化推断的方法及其局限"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "*peḱu／pecūnia／fee、*bʰeh₂ǵos／fāgus／beech、*h₂ŕ̥tḱos 与日耳曼禁忌替换"
+    }
+  ]
+}

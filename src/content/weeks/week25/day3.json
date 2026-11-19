@@ -1,0 +1,275 @@
+{
+  "id": "w25d3",
+  "week": 25,
+  "day": 3,
+  "title": "学院、印刷机与互联网",
+  "tagline": "规范可以自上而下颁布，也可以自下而上长出来",
+  "objectives": [
+    "能说明法兰西学院与语言立法的功能及其限度",
+    "能解释印刷术如何让拼写跨地域统一，同时造成拼写与读音脱节",
+    "能说明网络书写为何形成与正式标准并行的第二套规约"
+  ],
+  "prereqs": [
+    "w25d2",
+    "c-spelling-rule",
+    "c-register"
+  ],
+  "concepts": [
+    "c-spelling-rule",
+    "c-register",
+    "c-clipping",
+    "c-frequency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s4-4",
+    "kp-s1c8s4-5"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "学院与立法",
+      "body": "有些国家把规范交给机构：法兰西学院（Académie française，1635）负责编纂词典、对用法表态；法国 1994 年的 Toubon 法要求官方场合使用法语，违规可罚款；还有国家对儿童取名允许使用哪些字作出规定。\n\n效果有限。法语日常仍大量借入英语词（le weekend、le mail），学院的决议常被忽略。语言政策能管住公文，管不住厨房。\n\n原因不难理解：机构能规定“官方文件怎么写”，却无法规定“人们聊天时怎么说”。而语言变化主要发生在后者。",
+      "terms": [
+        {
+          "term": "language academy",
+          "zh": "语言学院",
+          "en": "language academy",
+          "note": "由国家级机构对正字与用法作出规范"
+        },
+        {
+          "term": "language policy",
+          "zh": "语言政策",
+          "en": "language policy",
+          "note": "政府通过立法或行政手段影响语言使用"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "印刷：第一次冻结",
+      "body": "卡克斯顿 1476 年在威斯敏斯特设印刷所。在此之前，同一个词在不同地区可以写成不同样子（yogh、thorn 等字母并存）；印刷要求同一版面用同一拼写，排字工按伦敦习惯统一，于是拼写第一次跨地域固定。\n\n代价是拼写与读音脱节：knight 里的 k 与 gh 在印刷普及前就已经不发音或正在消失，拼写却把它们冻住了。\n\n“冻结”这个词很准确：不是拼写变准了，而是它停止跟随读音。",
+      "terms": [
+        {
+          "term": "printing press",
+          "zh": "印刷机",
+          "en": "printing press",
+          "note": "15 世纪后期在欧洲普及，推动拼写标准化"
+        },
+        {
+          "term": "standardization",
+          "zh": "标准化",
+          "en": "standardization",
+          "note": "在众多变体中选定一套并使其稳定"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "互联网：第二次重订",
+      "body": "网络通讯以简省为前提：u、tho、b4、lol、tmrw。这不是“拼写退步”，而是一套新的、受媒介约束的规约：字符成本高、回复要快、读者在同一语境里。\n\n结果是双轨制：即时通讯用简写，正式邮件与论文仍按旧标准。两套并行，同一个人在不同窗口里切换。\n\n值得注意：这轮变化的方向与印刷相反。印刷让拼写远离读音，网络让拼写重新贴近读音（u 对应 you、tho 对应 though）。技术条件变了，规范的方向也变了。",
+      "terms": [
+        {
+          "term": "text-speak",
+          "zh": "短信体",
+          "en": "text-speak",
+          "note": "为省字符而形成的非正式书写规约"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "两次技术定形的对比",
+      "body": "两次都由技术驱动，但决策结构相反：印刷有中心（印刷所、排字工），网络没有中心（用户社群各自约定）。有中心就会趋同，没中心就会分化出多套并行规约。",
+      "head": [
+        "维度",
+        "印刷术（15 世纪）",
+        "互联网（20 世纪末至今）"
+      ],
+      "rows": [
+        [
+          "驱动力",
+          "版面统一、跨地域销售",
+          "输入速度、字符成本"
+        ],
+        [
+          "决策者",
+          "排字工、印刷商",
+          "用户社群，无中心"
+        ],
+        [
+          "结果",
+          "拼写趋同并冻结",
+          "拼写分化出非正式变体"
+        ],
+        [
+          "与读音的关系",
+          "距离拉大",
+          "按读音重拼（u、tho、b4）"
+        ],
+        [
+          "稳定性",
+          "数百年",
+          "代际内即变"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "自上而下与自下而上",
+      "body": "两条路各有盲区。自上而下的规范容易变成纸面规定，因为没人会在家里查法令；自下而上的习惯容易碎片化，因为每个平台、每代人各有一套。真正稳定的标准，往往是两者在某个历史时刻对上了。",
+      "a": "学院与立法",
+      "b": "使用者习惯",
+      "rows": [
+        {
+          "label": "机制",
+          "a": "颁布、教育、罚款",
+          "b": "模仿、传播、平台默认"
+        },
+        {
+          "label": "速度",
+          "a": "慢，需要立法与执行",
+          "b": "快，几年即成惯例"
+        },
+        {
+          "label": "覆盖面",
+          "a": "公文、学校、官方场合",
+          "b": "日常书写与即时通讯"
+        },
+        {
+          "label": "失败方式",
+          "a": "阳奉阴违，私下照旧",
+          "b": "迅速被下一个习惯取代"
+        },
+        {
+          "label": "例证",
+          "a": "Toubon 法、正字改革",
+          "b": "短信缩写、表情符号"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w25d3-p1",
+      "kind": "mcq",
+      "prompt": "法兰西学院的角色最准确的描述是：",
+      "choices": [
+        "对法语正字与用法表态的权威机构，但约束力主要限于正式与官方场合",
+        "有权禁止任何法语使用者说英语词",
+        "负责为每个新词发明法语对应词，且必须被执行",
+        "只是文学奖项的评审机构"
+      ],
+      "answer": 0,
+      "explain": "法兰西学院编纂词典、对用法表态，影响教育与美国式官方文体，但它无法管住日常口语；日常仍大量借入英语词。把它的效力说成“全面禁止”或“必须执行”，都高估了机构的力量。",
+      "concepts": [
+        "c-register",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w25d3-p2",
+      "kind": "mcq",
+      "prompt": "印刷术对英语拼写的主要影响是：",
+      "choices": [
+        "使拼写跨地域统一，同时让拼写与读音的差距固定下来",
+        "让拼写完全跟随读音变化",
+        "消灭了所有地区拼写差异，也消灭了口音差异",
+        "使英语改用拉丁字母"
+      ],
+      "answer": 0,
+      "explain": "印刷要求同一版面同一拼写，排字工按伦敦习惯统一，拼写因此跨地域固定；但固定发生在读音仍在变化的时候，于是 knight 这类“拼写化石”留了下来。印刷统一的是拼写，不是发音。",
+      "concepts": [
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w25d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文名词",
+      "sentence": "Printing fixed spelling while sounds were still changing, which is why English spelling and ___ no longer match.",
+      "answer": "pronunciation",
+      "accept": [
+        "pronunciation"
+      ],
+      "explain": "印刷在 15 世纪末普及，而元音大推移等音变还在继续，拼写被冻结、读音继续走，两者从此脱节。这就是英语拼写不规则的根源之一，也是 knight、through 这类词难读的原因。",
+      "concepts": [
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w25d3-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 standardize 的切分",
+      "parts": [
+        "standard",
+        "ize"
+      ],
+      "answer": "standardize",
+      "explain": "standard（标准）+ -ize（动词后缀，“使成为”）→ standardize“使标准化”。-ize 在这里是派生后缀，改变词性；它与 -ise 是同一后缀的两种拼写传统，选择看刊物惯例。",
+      "concepts": [
+        "c-suffix",
+        "c-word-sum",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w25d3-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）有人在正式论文里用“u”代替 you。最合理的评价是：",
+      "choices": [
+        "这是即时通讯语域的规约，用在正式论文属语域错配",
+        "说明英语正在衰败",
+        "说明作者没受过教育",
+        "这是美式拼写"
+      ],
+      "answer": 0,
+      "explain": "“u”在短信与即时通讯里完全可懂，是那套媒介规约的一部分；论文的读者、媒介与容错空间都不同，所以不合适。问题在语域错配，不在说话人的水平，更不是拼写体系崩坏。",
+      "concepts": [
+        "c-register",
+        "c-frequency"
+      ],
+      "hint": "先问“这段文字发在哪儿、给谁读”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w25d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，判断 text-speak 的含义",
+      "passage": "Her supervisor returned the draft with one comment: “Please spell out ‘tho’ and ‘u’.” In the group chat the abbreviations had been perfectly clear, but the journal's readership was international, older, and reading in a second language; text-speak that saved keystrokes cost them comprehension.",
+      "word": "text-speak",
+      "choices": [
+        "为省字符而形成的非正式书写习惯，适合即时通讯而不适合正式出版",
+        "一种新的官方拼写标准",
+        "印刷术造成的拼写变体",
+        "一种地区方言"
+      ],
+      "answer": 0,
+      "strategy": "① 例证：tho、u 是省字符写法；② 语境对比：group chat 清楚，journal 的读者却看不懂；③ 因果：saved keystrokes cost them comprehension，说明省字符与可读性的交换；④ 排除“官方”：supervisor 要求改回完整拼写。",
+      "explain": "text-speak 是受媒介约束的书写规约：省字符、按读音拼、语法简化。它在即时通讯里高效，在跨语言、正式出版的读者群里则增加理解成本。这正是“同一形式在不同语域效果不同”的实例。",
+      "concepts": [
+        "c-inference",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 4 节：语言学院、印刷术与网络书写"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "Académie française、Toubon 法、Plain Writing 相关背景"
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "id": "w25d1",
+  "week": 25,
+  "day": 1,
+  "title": "标准是权威立的，不是天上掉的",
+  "tagline": "标准回答的是“正式场合大家期待你怎么写”，不是“语言本来该怎样”",
+  "objectives": [
+    "能说明标准语由具体的政治或社会权威确立，并指出它只覆盖部分场合",
+    "能举例说明同一个人在同一天里切换多套标准",
+    "能读懂词典的用法标签（chiefly British、informal、archaic、regional）"
+  ],
+  "prereqs": [
+    "w24d7",
+    "c-register",
+    "c-frequency"
+  ],
+  "concepts": [
+    "c-register",
+    "c-frequency",
+    "c-spelling-rule"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s4-1",
+    "kp-s1c8s4-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "标准是权威立的",
+      "body": "标准语不是从语言本性里长出来的，而是被某种被普遍接受的**政治或社会权威**设立的：宫廷、印刷中心、词典、学校、广播。英格兰的标准长期以伦敦及周边（王室、法庭、Chancery 文书）的用法为底本。\n\n所以“标准”回答的是“在正式场合，大家期待你怎么写”，不是“人类语言本来应该怎样”。它覆盖面广、稳定性高，但不覆盖厨房、球场与家庭群聊。\n\n这句话要记牢：标准是一种社会事实，不是一种自然事实。它的效力来自共识与机构，不来自逻辑。",
+      "terms": [
+        {
+          "term": "standard language",
+          "zh": "标准语",
+          "en": "standard language",
+          "note": "由权威确立、用于正式场合的规范变体"
+        },
+        {
+          "term": "authority",
+          "zh": "权威",
+          "en": "authority",
+          "note": "宫廷、词典、学校、出版机构等确立规范的力量"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "一个人一天里的四套标准",
+      "body": "同一个人在同一天里切换四套标准，而且切换得很自然——没有人需要先查手册。这说明“掌握标准”从来不是一套，而是一组；真正的能力是知道此刻该用哪一套。",
+      "head": [
+        "场合",
+        "用词",
+        "句法",
+        "拼写与标点"
+      ],
+      "rows": [
+        [
+          "学术论文",
+          "拉丁希腊术语",
+          "长句、被动、名词化",
+          "严格按风格表"
+        ],
+        [
+          "工作邮件",
+          "中性词",
+          "中等长度，少从句",
+          "常规，少缩写"
+        ],
+        [
+          "家庭群聊",
+          "口语、方言词",
+          "短句、省略主语",
+          "表情、语音条"
+        ],
+        [
+          "社交媒体",
+          "网络新词",
+          "碎片化",
+          "小写、无标点"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "词典也承认地区标准",
+      "body": "《美国传统英语词典》设有用法委员会，对争议用法投票；它的词条会标注 regional、chiefly British、informal。这些标签本身就是承认：标准不止一套。\n\n查词典时不要只看释义，要看**标签**与**词源**。标签告诉你这个词在哪个语域通行，词源告诉你它从哪儿来。只看释义，你会以为所有词都能在任何场合用；只看词源，你会以为古老的就更正确——两者都不对。",
+      "terms": [
+        {
+          "term": "usage label",
+          "zh": "用法标签",
+          "en": "usage label",
+          "note": "词典标注的语域、地区、时代信息"
+        },
+        {
+          "term": "regional standard",
+          "zh": "地区标准",
+          "en": "regional standard",
+          "note": "在特定地区通行的正式规范，与国家标准并存"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "标签怎么读",
+      "body": "标签不是判决书，是使用说明：它告诉你“这个词在哪里、对谁、以什么身份出现”。读懂标签，就不会把词典当法庭，也不会把口语词硬塞进论文；同样，看到 informal 也不必以为它低级，它只是标明场合。，是使用说明。它告诉你“这个词在哪里、对谁、以什么身份出现”。读懂标签，就不会把词典当法庭，也不会把口语词硬塞进论文。",
+      "head": [
+        "标签",
+        "含义",
+        "例子"
+      ],
+      "rows": [
+        [
+          "chiefly British",
+          "主要用于英国",
+          "petrol、lorry、flat"
+        ],
+        [
+          "informal",
+          "口语，正式文本慎用",
+          "kids、guys、okay"
+        ],
+        [
+          "archaic",
+          "古旧，仅见于旧文本或仿古文体",
+          "thou、ere"
+        ],
+        [
+          "regional / dialectal",
+          "限于特定地区或方言",
+          "youse（澳洲、爱尔兰部分口语）"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "规定与描述，两种词典任务",
+      "body": "两种任务都需要，服务对象不同。写正式文件时查规定性资源（风格手册、用法指南）；判断“是否真有人这么说”时查描述性资源（词典、语料库、方言调查）。把两者当同一件事，才会出现“词典没写就等于错”的误会。",
+      "a": "规定性（prescriptive）",
+      "b": "描述性（descriptive）",
+      "rows": [
+        {
+          "label": "回答的问题",
+          "a": "应该怎么说",
+          "b": "实际怎么说"
+        },
+        {
+          "label": "代表资源",
+          "a": "用法指南、出版社风格手册",
+          "b": "词典、语料库、方言调查"
+        },
+        {
+          "label": "价值",
+          "a": "统一正式文本，减少读者摩擦",
+          "b": "记录真实分布，纠正偏见"
+        },
+        {
+          "label": "局限",
+          "a": "容易把某地标准当成唯一",
+          "b": "不直接告诉你正式场合该怎么写"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w25d1-p1",
+      "kind": "mcq",
+      "prompt": "按本课的说法，标准语的性质是：",
+      "choices": [
+        "由权威设定、覆盖正式场合的规范变体，不是唯一正确的英语",
+        "从语言本性中自然生成的唯一正确形式",
+        "由语法逻辑推导出来的一套规则",
+        "只在学校里使用、出了校门就无效的人为约定"
+      ],
+      "answer": 0,
+      "explain": "标准语由宫廷、印刷、词典、学校等权威确立，效力来自共识与机构。它覆盖正式书面场合，覆盖面广，但不是唯一正确；它也不是逻辑推导的产物，更不是出了校门就作废的临时约定。",
+      "concepts": [
+        "c-register",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w25d1-p2",
+      "kind": "mcq",
+      "prompt": "词典标注 chiefly British 的作用是：",
+      "choices": [
+        "说明该词主要在英国的语域通行，提示读者注意地区差异",
+        "说明该词是错误的，不应使用",
+        "说明该词只出现在古英语文本里",
+        "说明该词是美式英语的标准形式"
+      ],
+      "answer": 0,
+      "explain": "chiefly British 是地区标签，告诉你这个词在英国更常见；它不评判对错，也不表示古旧（那是 archaic），更不是美式标准。标签的功能是使用说明，不是判决。",
+      "concepts": [
+        "c-register",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w25d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文形容词",
+      "sentence": "A dictionary that records how people actually speak is ___ rather than prescriptive.",
+      "answer": "descriptive",
+      "accept": [
+        "descriptive"
+      ],
+      "explain": "描述性词典记录实际用法与分布，规定性资源告诉你正式场合该怎样。两者不是对立的好坏，而是不同任务。判断一本词典在做什么，看它是给建议还是给记录。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w25d1-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 descriptive 的切分",
+      "parts": [
+        "de",
+        "script",
+        "ive"
+      ],
+      "answer": "descriptive",
+      "explain": "de-（向下）+ script（拉丁 scribere“写”）+ -ive（形容词后缀）→ descriptive“描述性的”，字面是“写下来的”。同族还有 describe、description、script、manuscript。注意 -ive 是派生后缀，改变词性。",
+      "concepts": [
+        "c-prefix",
+        "c-root",
+        "c-word-sum"
+      ]
+    },
+    {
+      "id": "w25d1-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）同一份简历在英国与美国的顾问手里被改成不同拼写。最合理的解释是：",
+      "choices": [
+        "两地各有自己的正式书面标准，应按投递地选择",
+        "其中一位顾问改错了",
+        "英语拼写没有规则，随便写",
+        "应该统一用美式，因为更现代"
+      ],
+      "answer": 0,
+      "explain": "英式与美式各有稳定的正式书面规范（colour/color、centre/center），两边都不算错。简历是给特定读者看的，按投递地或雇主所在地选择，才是“看场合”的做法。",
+      "concepts": [
+        "c-register",
+        "c-spelling-rule"
+      ],
+      "hint": "先问“这份文件给谁看”，再问“他们按哪套规范”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w25d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，判断 descriptive 在句中的含义",
+      "passage": "Asked whether “youse” was wrong, the lexicographer opened the entry: it was marked regional and informal, not incorrect. A descriptive dictionary, she explained, reports where a form is used and by whom; it does not grade the people who use it.",
+      "word": "descriptive",
+      "choices": [
+        "记录实际用法与分布，不评判使用者",
+        "规定唯一正确用法的",
+        "只收录古语的",
+        "按逻辑推导语法的"
+      ],
+      "answer": 0,
+      "strategy": "① 定义句：reports where a form is used and by whom 就是描述性词典的任务；② 对比：does not grade the people 排除了“评判”；③ 标签证据：regional and informal, not incorrect 说明它给的是使用信息；④ 排除“古语”：archaic 才是古语标签。",
+      "explain": "descriptive 指“描述性的”：记录谁在什么地方怎么说，不给人打分。这与本课的标签系统是一致的——标签是使用说明，不是道德评级。判断一个形式，先看它在哪个语域稳定出现。",
+      "concepts": [
+        "c-inference",
+        "c-register",
+        "c-frequency"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 4 节：标准的来源与多重标准"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "American Heritage Dictionary 的用法标签与用法委员会"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "id": "course-c5",
+  "title": "Phonetics",
+  "titleZh": "语音学：气流、部位与发声态如何决定词形",
+  "sourceChapter": "S1-C5",
+  "level": "B2",
+  "weeks": [
+    {
+      "week": 23,
+      "theme": "语音学：把音拆开，看词形为什么变",
+      "days": 7
+    }
+  ],
+  "lessonCount": 7,
+  "knowledgePointCount": 11,
+  "lessons": {
+    "w23d1": [
+      "kp-s1c5s1-1",
+      "kp-s1c5s1-2"
+    ],
+    "w23d2": [
+      "kp-s1c5s2-1"
+    ],
+    "w23d3": [
+      "kp-s1c5s3-1"
+    ],
+    "w23d4": [
+      "kp-s1c5s4-1"
+    ],
+    "w23d5": [
+      "kp-s1c5s5-1",
+      "kp-s1c5s5-3"
+    ],
+    "w23d6": [
+      "kp-s1c5s5-2",
+      "kp-s1c5s6-1"
+    ],
+    "w23d7": [
+      "kp-s1c5s6-2",
+      "kp-s1c5s6-3"
+    ]
+  },
+  "knowledgePointIndex": {
+    "kp-s1c5s1-1": [
+      "w23d1"
+    ],
+    "kp-s1c5s1-2": [
+      "w23d1"
+    ],
+    "kp-s1c5s2-1": [
+      "w23d2"
+    ],
+    "kp-s1c5s3-1": [
+      "w23d3"
+    ],
+    "kp-s1c5s4-1": [
+      "w23d4"
+    ],
+    "kp-s1c5s5-1": [
+      "w23d5"
+    ],
+    "kp-s1c5s5-2": [
+      "w23d6"
+    ],
+    "kp-s1c5s5-3": [
+      "w23d5"
+    ],
+    "kp-s1c5s6-1": [
+      "w23d6"
+    ],
+    "kp-s1c5s6-2": [
+      "w23d7"
+    ],
+    "kp-s1c5s6-3": [
+      "w23d7"
+    ]
+  },
+  "referenceForms": [
+    "accede",
+    "acquire",
+    "adopt",
+    "affect",
+    "afferent",
+    "aggressive",
+    "allude",
+    "announce",
+    "approve",
+    "arrive",
+    "artifact",
+    "artifice",
+    "artificial",
+    "ascend",
+    "attend",
+    "banquet",
+    "beehive",
+    "bilateral",
+    "buddha",
+    "business",
+    "buzz",
+    "cats",
+    "cavalry",
+    "chocolate",
+    "chorus",
+    "church",
+    "civic",
+    "cohere",
+    "coincide",
+    "collapse",
+    "collateral",
+    "collect",
+    "colloquial",
+    "commotion",
+    "compare",
+    "compression",
+    "concede",
+    "congenial",
+    "congenital",
+    "consult",
+    "contend",
+    "continue",
+    "convection",
+    "cooperate",
+    "correct",
+    "correspond",
+    "corrupt",
+    "deficiency",
+    "deficient",
+    "dharma",
+    "dogs",
+    "efferent",
+    "efficient",
+    "effusive",
+    "eloquent",
+    "exhaust",
+    "fact",
+    "hiss",
+    "honest",
+    "hoping",
+    "hour",
+    "ignoble",
+    "ignore",
+    "illegible",
+    "illiterate",
+    "illuminate",
+    "imbalance",
+    "immaterial",
+    "immodest",
+    "immutable",
+    "impervious",
+    "inactive",
+    "incipient",
+    "infinite",
+    "infirm",
+    "ingratitude",
+    "inhabit",
+    "innate",
+    "innocent",
+    "insane",
+    "intense",
+    "invective",
+    "inveigh",
+    "invest",
+    "involve",
+    "irreverent",
+    "irrigate",
+    "irrigation",
+    "judge",
+    "judges",
+    "khaki",
+    "lips",
+    "literacy",
+    "literate",
+    "literature",
+    "loquacious",
+    "machine",
+    "needed",
+    "opened",
+    "parliament",
+    "perfect",
+    "pervious",
+    "played",
+    "pot",
+    "proceed",
+    "recede",
+    "recipient",
+    "respond",
+    "rooms",
+    "safe",
+    "save",
+    "separate",
+    "soliloquy",
+    "spot",
+    "stopped",
+    "suffered",
+    "suffice",
+    "sufficient",
+    "suggest",
+    "summon",
+    "suppress",
+    "surrender",
+    "theory",
+    "think",
+    "this",
+    "vector",
+    "vehicle",
+    "wanted",
+    "wednesday",
+    "wishes"
+  ],
+  "referenceFormsNote": "本课讲解与练习引用、但 words.json 尚无完整词条的英语形式；已去重小写。不含拉丁/意大利语/法语中间形式（caballus、cavalleria、chevalerie、vehere、facere 等）；保留 cats、dogs、pot、spot 这类作为语音例证的常用词，因为它们的词形本身就是论点。"
+}

@@ -1,0 +1,269 @@
+{
+  "id": "w25d2",
+  "week": 25,
+  "day": 2,
+  "title": "三种来源：伦敦、约翰逊、韦伯斯特",
+  "tagline": "词典不是记分牌，它把某一群人的用法固定成可复制的标准",
+  "objectives": [
+    "能按时间顺序说明伦敦用法、约翰逊词典、韦伯斯特词典各自确立了哪一部分标准",
+    "能解释 debt、doubt 中不发音字母的来源，区分“有依据的回补”与“误加”",
+    "能比较约翰逊与韦伯斯特的目标、方法与成败"
+  ],
+  "prereqs": [
+    "w25d1",
+    "c-etymology",
+    "c-spelling-rule",
+    "c-borrowing"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-spelling-rule",
+    "c-borrowing",
+    "c-word-family"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s4-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "伦敦定调",
+      "body": "中世纪晚期，英格兰的政治与商业重心在伦敦。王室法庭、议会、伦敦商会、乔叟这样的作家都用伦敦英语；15 世纪的外交与行政文书（**Chancery English**）又把它写成固定格式。1476 年卡克斯顿在威斯敏斯特设印刷所，排字工按伦敦拼写排版，这套拼写随书本扩散到全国。\n\n标准不是开会定的，是权力与印刷一起磨出来的。这也解释了为什么英式拼写里 -our、-re 这类法式痕迹特别重：伦敦的文书传统本来就深受法语影响。",
+      "terms": [
+        {
+          "term": "Chancery English",
+          "zh": "衡平法院英语",
+          "en": "Chancery English",
+          "note": "15 世纪英国行政文书使用的伦敦英语，影响了标准拼写"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "约翰逊 1755：以作家为证",
+      "body": "约翰逊的《英语词典》收约四万词条，释义之外大量引用 16 至 18 世纪作家的例句，用“受过教育者的用法”作依据。它没有凭空创造拼写，但把当时通行的拼写固定下来，-our（honour、colour）这一系因此站稳。\n\n约翰逊的原则是**记录 + 挑选**。他在前言里承认：词典只能延缓变化，不能阻止变化。这句话比任何一条具体拼写都重要——它说明标准是过程，不是终局。",
+      "terms": [
+        {
+          "term": "Samuel Johnson",
+          "zh": "塞缪尔·约翰逊",
+          "en": "Samuel Johnson",
+          "note": "1755 年《英语词典》编者，以文学引文记录用法"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "韦伯斯特 1828：有意造一个美国标准",
+      "body": "韦伯斯特的《美国英语词典》带着明确的国家意图：独立的国家该有自己的语言标准。他选的拼写今天成了美式标志：-or（color、honor）、-er（center、theater）、-ense（defense、offense），以及用 jail 取代 gaol。\n\n这套选择有词源依据：-or 更接近拉丁 -or，-er 更接近希腊 -ter/-tron 的转写。但他也有大量提议失败：soop（soup）、tung（tongue）、iland（island）都没被接受。\n\n成功与失败的差别不在“是否合理”，而在“是否被词典、学校、印刷网络同时接住”。",
+      "terms": [
+        {
+          "term": "Noah Webster",
+          "zh": "诺亚·韦伯斯特",
+          "en": "Noah Webster",
+          "note": "1828 年《美国英语词典》编者，推动美式拼写"
+        },
+        {
+          "term": "American spelling",
+          "zh": "美式拼写",
+          "en": "American spelling",
+          "note": "-or、-er、-ense 等与英式分道的形式"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "debt 的 b 是谁加回去的",
+      "body": "debt 今天读 /det/，b 不发音。它来自古法语 dette，而法语形式来自拉丁 debitum，音变之后 b 早已脱落。16 世纪的学者觉得拼写该“看得出词源”，于是把 b 补了回去——读音没变，只改了字母。\n\ndoubt 同理：古法语 doute 本无 b，学者按拉丁 dubitare 补上。indict、victual 也是这一批。\n\n也有补错的：island 的 s 是按拉丁 insula 误加的，古英语 igland 本来没有 s；aisle 的 s 来自拉丁 ala，同样是后加的。词典的词源标注正是这套操作的产物与证据：它告诉你拼写里哪个字母是“考古层”。",
+      "steps": [
+        {
+          "period": "拉丁语",
+          "form": "debitum",
+          "note": "“欠下的东西”，动词 debere“欠”"
+        },
+        {
+          "period": "古法语",
+          "form": "dette",
+          "note": "音变后 b 脱落，只剩 dette"
+        },
+        {
+          "period": "中古英语",
+          "form": "dette",
+          "note": "从法语借入，拼写无 b"
+        },
+        {
+          "period": "16 世纪",
+          "form": "debt",
+          "note": "学者按拉丁 debitum 补回 b，读音不变"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "约翰逊与韦伯斯特",
+      "body": "两人都在“定标准”，但目标不同：约翰逊要让英语配得上一个文学民族，韦伯斯特要让美国摆脱英国的书本。目标不同，方法就不同——一个以引文为证，一个以改革为旗。",
+      "a": "约翰逊（1755）",
+      "b": "韦伯斯特（1828）",
+      "rows": [
+        {
+          "label": "目标",
+          "a": "记录并固定受过教育者的用法",
+          "b": "确立独立的美国标准"
+        },
+        {
+          "label": "方法",
+          "a": "大量文学引文，谨慎挑选",
+          "b": "有选择地改拼写，收美国词"
+        },
+        {
+          "label": "对法式拼写",
+          "a": "保留 -our、-re",
+          "b": "改为 -or、-er"
+        },
+        {
+          "label": "成败",
+          "a": "奠定英式拼写传统",
+          "b": "部分成功（color/center/defense），部分失败（soop/tung/iland）"
+        },
+        {
+          "label": "影响范围",
+          "a": "英国及其殖民地",
+          "b": "美国及受美式出版影响地区"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w25d2-p1",
+      "kind": "mcq",
+      "prompt": "判断韦伯斯特拼写改革“成功”的最可靠标准是：",
+      "choices": [
+        "是否被词典、学校与印刷长期采用",
+        "是否比原拼写更短",
+        "是否更符合拉丁词源",
+        "是否得到英国学者赞同"
+      ],
+      "answer": 0,
+      "explain": "color、center、defense 成功，soop、tung、iland 失败，差别不在长短或词源，而在是否被出版与教育系统接住。语言改革是网络效应：只有足够多的印刷品与学校同时采用，新形式才站得住。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w25d2-p2",
+      "kind": "mcq",
+      "prompt": "debt 中的 b 是怎么来的？",
+      "choices": [
+        "16 世纪学者按拉丁 debitum 补回拼写，读音未变",
+        "古英语原本就发音，后来脱落",
+        "诺曼法语带入时就带着 b",
+        "韦伯斯特改革时加上的"
+      ],
+      "answer": 0,
+      "explain": "debt 经古法语 dette 进入英语，本无 b；16 世纪学者为显示拉丁词源 debitum 把 b 补进拼写，但读音仍是 /det/。doubt 的 b 同理（拉丁 dubitare）。这类字母是“考古层”，不是读音记录。",
+      "concepts": [
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w25d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文形容词",
+      "sentence": "Webster's 1828 dictionary helped establish ___ spellings such as color and center.",
+      "answer": "American",
+      "accept": [
+        "American"
+      ],
+      "explain": "韦伯斯特的词典把 -or、-er 这套拼写固定为美式标准，与英式的 -our、-re 分道。这些形式今天仍是美式拼写的识别标志，也说明词典能塑造标准，但只能塑造一部分。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w25d2-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 etymology 的切分",
+      "parts": [
+        "etym",
+        "ology"
+      ],
+      "answer": "etymology",
+      "explain": "etym（希腊 etymon“真义、原义”）+ -ology（希腊 logia“论述、学科”）→ etymology“词源学”。词典里的词源标注（etymology）就是这门学问的成果；它也是判断 debt 的 b、island 的 s 该不该信的根据。",
+      "concepts": [
+        "c-root",
+        "c-suffix",
+        "c-word-sum",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w25d2-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）island 的 s 与 debt 的 b，两者的关系是：",
+      "choices": [
+        "都是后加的拼写字母，但 debt 的 b 有拉丁依据，island 的 s 是误加",
+        "都是拉丁词源的真实反映",
+        "都是诺曼法语带来的",
+        "都是韦伯斯特改的"
+      ],
+      "answer": 0,
+      "explain": "debt 的 b 对应拉丁 debitum，属有依据的回补；island 的古英语形式是 igland，与拉丁 insula 无关，s 是文艺复兴学者误加的。两者都是“拼写考古层”，但一个补对、一个补错——这正是要看词源标注的原因。",
+      "concepts": [
+        "c-etymology",
+        "c-inference",
+        "c-spelling-rule"
+      ],
+      "hint": "先查这个词在古英语或法语里有没有那个字母。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w25d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，判断 debt 的拼写特征",
+      "passage": "The sixteenth-century printer kept the b in debt although no one had pronounced it for centuries. It was a scholar's gesture toward the Latin debitum, a reminder of where the word had come from — etymology worn on the sleeve, at the cost of the spelling's honesty.",
+      "word": "debt",
+      "choices": [
+        "拼写里有一个不发音、按拉丁词源补回的字母",
+        "这个词是 16 世纪从拉丁直接借来的",
+        "这个词的读音在 16 世纪改变了",
+        "这个词是韦伯斯特改革的产物"
+      ],
+      "answer": 0,
+      "strategy": "① 明说：kept the b although no one had pronounced it，说明 b 不发音；② 来源：a scholar's gesture toward the Latin debitum，说明是按拉丁补的；③ 时间：sixteenth-century printer，不是韦伯斯特；④ 路径：词经法语进来，不是直接借拉丁。",
+      "explain": "debt 的 b 是 16 世纪学者按拉丁 debitum 补回的“词源字母”，读音一直是 /det/。这类拼写让我们看到标准的另一面：它不只由发音决定，也由学者对“词该长什么样”的想象决定。",
+      "concepts": [
+        "c-inference",
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 4 节：伦敦用法、约翰逊与韦伯斯特"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "debt、doubt、island、aisle 的词源与拼写史"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "拉丁词源与英语拼写的对应关系"
+    }
+  ]
+}

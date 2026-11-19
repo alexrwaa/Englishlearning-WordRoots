@@ -1,0 +1,313 @@
+{
+  "id": "w27d4",
+  "week": 27,
+  "day": 4,
+  "title": "拉斯克与格里姆：把“像”换成“对应”",
+  "tagline": "pater 与 father 差得不算近，可 p 对 f、t 对 th、k 对 h 这条条都不落空——这才是证据",
+  "objectives": [
+    "能复述格里姆定律的三组对应，并用 pater／father、trēs／three、cornu／horn 各举一例",
+    "能说明为什么“成批的、可预测的对应”比“个别词长得像”更可靠",
+    "能识别两对典型的假朋友（much／mucho、haben／habere）"
+  ],
+  "prereqs": [
+    "w27d2",
+    "c-cognate"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-etymology",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s3-1",
+    "kp-s1c10s3-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两个人，一条定律",
+      "body": "丹麦人 **Rasmus Rask** 1818 年出版《古北欧语或冰岛语起源研究》，指出日耳曼语与希腊、拉丁之间存在着**固定的辅音对应**，并且给出了判定亲缘的程序：先比语法，再比基本词，音对应要成系统。\n\n德国人 **Jacob Grimm** 在《德语语法》（1822 年第二版）里把这套对应整理成完整的推移表，后世称 **格里姆定律**（Grimm's Law），也叫**第一次日耳曼辅音推移**。\n\n为什么叫“推移”而不叫“替换”？因为三组塞音是**整体挪了一格**：清塞音变擦音，浊塞音变清塞音，浊送气变浊塞音。三个系列互相错开，像三列火车同时进站，各自的轨道被下一列占住。",
+      "terms": [
+        {
+          "term": "Grimm's Law",
+          "zh": "格里姆定律",
+          "en": "Grimm's Law",
+          "note": "原始印欧语到原始日耳曼语的三组塞音推移"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三组对应，九个例词",
+      "body": "这张表是本课最该背下来的东西。左边三行是清塞音（p、t、k），中间三行是浊塞音（b、d、g），右边三行是浊送气（bʰ、dʰ、gʰ）。**注意英语列的拼写**：þ 后来写成 th，h 在 r 前保留（horn），而 knee 的 k 现在不发音，但拼写记着它曾经发过。\n\n第六行故意留空：原始印欧语的 *b 本身就极罕见，能举的例词很少。一个系统里的空格不是缺陷，反而是有用的线索——它说明这套音位并不等距分布，也提醒我们不要把九个格子想得一样满。",
+      "head": [
+        "印欧语",
+        "日耳曼语",
+        "拉丁／希腊例",
+        "英语例"
+      ],
+      "rows": [
+        [
+          "*p → f",
+          "f",
+          "pater（父）",
+          "father"
+        ],
+        [
+          "*t → þ（th）",
+          "þ",
+          "trēs（三）",
+          "three"
+        ],
+        [
+          "*k → h",
+          "h",
+          "cornu（角）",
+          "horn"
+        ],
+        [
+          "*d → t",
+          "t",
+          "duo（二）",
+          "two"
+        ],
+        [
+          "*g → k",
+          "k",
+          "genu（膝）",
+          "knee"
+        ],
+        [
+          "*b → p",
+          "p",
+          "（*b 本身在祖语里极罕见，例证稀少）",
+          "——"
+        ],
+        [
+          "*bʰ → b",
+          "b",
+          "frāter（兄弟）",
+          "brother"
+        ],
+        [
+          "*dʰ → d",
+          "d",
+          "forēs（门，复数）",
+          "door"
+        ],
+        [
+          "*gʰ → g",
+          "g",
+          "（希腊 khēn 鹅）",
+          "goose"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么“规律”比“像”可靠",
+      "body": "外行看同源，看的是词长得像不像；比较法看的是**对应是否成批且可预测**。差别在哪？\n\n看两个假朋友。英语 **much** 与西班牙语 **mucho** 意思一样、形状几乎一样，可是毫无亲缘：mucho 来自拉丁 multus（多），much 来自日耳曼的 *mek-（大、多）。反过来，德语 **haben**（有）与拉丁 **habēre**（有）意思一样、形状接近，也不是一对：haben 出自 *kap-“抓取”，真正的亲戚是拉丁 **capere**（抓）；habēre 出自另一条根。\n\n结论很清楚：**意义相同＋形状相似** 是最弱的证据，因为偶合与借词都能造出来；**音对应成套＋语法范畴成套** 才是强证据，因为它要求整批词同时成立，撞巧的概率极低。",
+      "terms": [
+        {
+          "term": "false friend",
+          "zh": "假朋友",
+          "en": "false friend",
+          "note": "形义相近但无亲缘关系的词"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个词的“像”与“对应”",
+      "body": "把四组材料按证据强度排一下：第一行最强（成批对应＋语法支持），第四行最弱（只是形义相近）。中间两行最容易让人犹豫——形状都不算像，却都是真的。做词源判断时，先在心里给证据定级，再下结论，别让“像不像”先入为主。",
+      "head": [
+        "材料",
+        "表面相似度",
+        "实际关系",
+        "证据类型"
+      ],
+      "rows": [
+        [
+          "pater／father／patēr／pitar",
+          "中",
+          "同源",
+          "p→f 成批出现，且变格、数词同步对应"
+        ],
+        [
+          "frāter／brother／bhrātā",
+          "中",
+          "同源",
+          "bʰ→b／f 两路都有例，亲属称谓成套"
+        ],
+        [
+          "much／mucho",
+          "高",
+          "无关",
+          "只有一对词，无对应体系"
+        ],
+        [
+          "haben／habēre",
+          "高",
+          "无关（haben 的亲戚是 capere）",
+          "意义相同但音对应不成立"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "“看起来像” vs “对应得上”",
+      "body": "两条判据可以并存，但不能互相替代。日常学习里最实用的做法是：看到一对疑似同源的词，先去找**同一对语言之间已经成立的对应**，再看这对词是否服从。服从，加一分；不服从，就要怀疑。",
+      "a": "表面相似",
+      "b": "系统对应",
+      "rows": [
+        {
+          "label": "判据",
+          "a": "拼写、读音、意义接近",
+          "b": "同一对语言间反复出现的音位映射"
+        },
+        {
+          "label": "能否被借用伪造",
+          "a": "能，借词到处都是",
+          "b": "很难，借词不改变整套对应"
+        },
+        {
+          "label": "能否被偶合伪造",
+          "a": "能，概率不低",
+          "b": "很难，要整批词同时撞巧"
+        },
+        {
+          "label": "失败案例",
+          "a": "much／mucho、haben／habēre",
+          "b": "pater／father 若只看形状会误判为不同源"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w27d4-p1",
+      "kind": "mcq",
+      "prompt": "按格里姆定律，拉丁 pater 与英语 father 的对应关系是：",
+      "choices": [
+        "印欧语的 *p 在日耳曼语里变成 f，所以 pater 对 father",
+        "印欧语的 *f 在拉丁语里变成 p，所以 father 更古老",
+        "两者只是意义相同，音上没有任何对应",
+        "拉丁语从日耳曼语借入了 pater"
+      ],
+      "answer": 0,
+      "explain": "推移的方向是印欧 *p → 日耳曼 f，拉丁语保留 p。所以拉丁 p- 与英语 f- 是同一来源的两副面孔。方向不能反：拉丁语有更早的文献，但“谁更早”与“谁变成谁”是两件事。pater／father 的中间 -t- 对 -th- 还涉及另一条规则（第 5 天的维尔纳定律）。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w27d4-p2",
+      "kind": "mcq",
+      "prompt": "“规律对应比表面相似更可靠”，最根本的原因是：",
+      "choices": [
+        "对应要求整批词同时成立，偶合与借词都无法伪造这种系统性",
+        "规律对应总是比表面相似更容易记住",
+        "表面相似的词一定是借词",
+        "规律对应只出现在有文献的语言里"
+      ],
+      "answer": 0,
+      "explain": "单看一对词，撞巧的概率不可忽略；一旦要求同一对语言间几十上百个词都服从同一条映射，撞巧的概率就趋近于零。借词也过不了这一关：借词只搬词形，不会连带搬整套音位映射。记忆便利、文献有无都与证据强度无关。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w27d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个人名",
+      "sentence": "The three-series consonant shift from Proto-Indo-European to Proto-Germanic is named after Jacob ___, who set it out in his German Grammar.",
+      "answer": "Grimm",
+      "accept": [
+        "Grimm",
+        "grimm"
+      ],
+      "explain": "格里姆定律得名于 Jacob Grimm（《德语语法》1822 年第二版）。拉斯克更早提出对应关系与判定程序，所以严格说这是“拉斯克—格里姆”的成果；命名的惯例常把功劳记在后一位系统化者身上，这也是学术史上的常态。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w27d4-p4",
+      "kind": "mcq",
+      "prompt": "英语 much 与西班牙语 mucho 的关系是：",
+      "choices": [
+        "无关：mucho 来自拉丁 multus，much 来自日耳曼的 *mek-，形义相近纯属偶合",
+        "同源：两者都来自拉丁 multus",
+        "同源：西班牙语从日耳曼语借入了 mucho",
+        "无关：因为两种语言不属于同一语系"
+      ],
+      "answer": 0,
+      "explain": "这是“形义双像却不同源”的标准案例：判据仍然是成套对应，而 much／mucho 无法纳入西语—英语之间任何一套对应。注意最后一项的推理错误：英语与西班牙语同属印欧语系，只是不同分支，所以“不同语系”这个理由本身就不成立。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w27d4-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）已知拉丁 piscis“鱼”与英语 fish 同源，那么按格里姆定律，你应该预期：",
+      "choices": [
+        "词首的 p 对 f，且这条对应在英语与拉丁语之间反复出现（pēs／foot、pater／father）",
+        "拉丁语的 i 一定对应英语的 i",
+        "fish 是从拉丁语借入的，因为拉丁语更早",
+        "piscis 与 fish 只是意义相同，音上无对应"
+      ],
+      "answer": 0,
+      "explain": "迁移的关键是“用已成立的对应去检验新词”，而不是逐个比较元音。p→f 这条在词首反复出现，piscis／fish 正好服从，于是同源判定成立。元音对应要单独建表，不能顺手假设 i 对 i；借词判定更不能只看年代先后。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ],
+      "hint": "先把已知的对应列出来，再拿新词去套。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w27d4-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 correspondence 在句中的含义",
+      "passage": "The argument does not rest on any single pair of words. What convinces linguists is the correspondence: wherever Latin has p in the same position, English has f, and this holds across dozens of unrelated meanings. A single resemblance proves nothing; a repeated, predictable mapping is another matter.",
+      "word": "correspondence",
+      "choices": [
+        "两套语言之间反复出现、可预测的音位对应关系",
+        "两个词在意义上完全相等",
+        "两封古代书信的往来记录",
+        "两种语言在语法上的完全一致"
+      ],
+      "answer": 0,
+      "strategy": "① 定义句：wherever Latin has p ... English has f，把 correspondence 直接展开成“音位映射”；② 对立句：A single resemblance proves nothing，说明它是一批而非一对；③ 修饰语 repeated, predictable 进一步坐实；④ 排除“书信”：那是 correspondence 的日常义，此处有 wherever／position 的句法线索。",
+      "explain": "correspondence 在日常英语里是“通信、往来”，在历史语言学里是“对应关系”。两义共享同一个核心：两边对得上。判断靠上下文——出现 wherever、position、mapping 这类词时，几乎一定是术语义。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 3 节：拉斯克与格里姆、三组辅音对应、规律对应优于表面相似"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "much／mucho、haben／habēre（haben 与 capere 同源）的语源核对"
+    }
+  ]
+}

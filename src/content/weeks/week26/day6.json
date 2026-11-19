@@ -1,0 +1,282 @@
+{
+  "id": "w26d6",
+  "week": 26,
+  "day": 6,
+  "title": "术语、简明语言与书面选词",
+  "tagline": "拆得开的术语是工具，拆不开的迂回是墙",
+  "objectives": [
+    "能拆解 otitis externa，并说明 -itis 的能产性",
+    "能区分术语的澄清功能与行话的遮蔽功能，并说明简明语言运动的立法目标",
+    "能说明书面语因缺少语调与即时反馈而更依赖选词"
+  ],
+  "prereqs": [
+    "w26d5",
+    "c-greek-latin",
+    "c-scientific",
+    "c-register"
+  ],
+  "concepts": [
+    "c-greek-latin",
+    "c-scientific",
+    "c-suffix",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s10-2",
+    "kp-s1c8s10-3",
+    "kp-s1c8s10-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "otitis externa 就是外耳发炎",
+      "body": "拆开看：**ot-**（希腊 ous, ōtos“耳朵”）+ **-itis**（炎症）+ **externa**（拉丁“外面的”）。三个词素，指一件事：外耳道发炎。\n\n术语可以澄清，也可以遮蔽。同一个 -itis 还能造出 arthritis、bronchitis、dermatitis、hepatitis、appendicitis——一条能产的后缀，让医生不必为每种炎症另起名字。但对病人，这一串字母什么也没说。\n\n所以判断术语好不好，要分两头：它在专业系统里是否精确，对当前读者是否可解。两者常常冲突，解决方式不是删术语，而是首次出现时给定义。",
+      "terms": [
+        {
+          "term": "otitis",
+          "zh": "耳炎",
+          "en": "otitis",
+          "note": "ot-“耳” + -itis“炎症”"
+        },
+        {
+          "term": "-itis",
+          "zh": "炎症后缀",
+          "en": "-itis",
+          "note": "希腊后缀，能产，用于各类炎症命名"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "希腊拉丁词素的组装线",
+      "body": "现代术语靠一批能产的词素批量生产：-ology（学科）、hyper-（过度）、hypo-（不足）、-ectomy（切除）、-graphy（记录）、-metry（测量）。\n\n它们的能产性来自**可组合性**：ot-o-laryng-ology、hyper-thyroid-ism、append-ect-omy。只要知道词素义与连接规则，陌生术语也能拆开。\n\n这是本书全部构词训练在真实文本里的回报：你不是在背单词，而是在获得一套现场拆解的能力。遇到没见过的术语，先切词素，再定核心义，最后用语境校验。",
+      "terms": [
+        {
+          "term": "combining form",
+          "zh": "组合形式",
+          "en": "combining form",
+          "note": "能与其他词素自由组合的希腊拉丁成分，如 ot-、dermat-"
+        },
+        {
+          "term": "productivity",
+          "zh": "能产性",
+          "en": "productivity",
+          "note": "一个词素能造出多少新词的性质"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三个术语的拆解",
+      "body": "拆开之后，“看不懂的词”变成“可计算的短语”。这张表值得遮住右列自测：看到 otitis externa，能不能自己算出“外耳发炎”；看到 hyperthyroidism，能不能算出“甲状腺功能过强”。算得出，说明词素知识已经能迁移到陌生术语。，“看不懂的词”变成“可计算的短语”。这张表值得遮住右列自测：看到 otitis externa，能不能自己算出“外耳发炎”。",
+      "head": [
+        "术语",
+        "拆解",
+        "直译"
+      ],
+      "rows": [
+        [
+          "otitis externa",
+          "ot + itis + externa",
+          "耳 + 炎 + 外"
+        ],
+        [
+          "appendicitis",
+          "appendic + itis",
+          "阑尾 + 炎"
+        ],
+        [
+          "hyperthyroidism",
+          "hyper + thyroid + ism",
+          "过度 + 甲状腺 + 状态"
+        ],
+        [
+          "dermatology",
+          "dermat + ology",
+          "皮肤 + 学科"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "简明语言运动",
+      "body": "1970 年代，美国一些州与城市通过立法，要求消费合同、保险单用简明英语；2010 年联邦《简明写作法》（Plain Writing Act）要求政府文件对公众清晰。\n\n运动的目标不是删掉术语，而是删掉不必要的迂回：**bureaucratese**（官腔）与 **euphemism**（委婉语）常把可直说的事包起来——at this point in time 就是 now，vertically challenged 就是 short，sanitation engineer 就是 cleaner。\n\n判断标准很实用：删掉这个词，意思是否受损？不受损就是迂回；受损就是必要信息。",
+      "terms": [
+        {
+          "term": "plain English",
+          "zh": "简明英语",
+          "en": "plain English",
+          "note": "以读者能一次读懂为目标的写作规范"
+        },
+        {
+          "term": "circumlocution",
+          "zh": "迂回表达",
+          "en": "circumlocution",
+          "note": "用更多词说本可直说的事"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "书面与口语：为什么书面更依赖选词",
+      "body": "口语可以用语调补救含糊，书面不能。写下的每个词都要独自承担区分与限定，所以选词、语序、标点在书面里权重更高。这不是书面语“更高级”，而是媒介条件不同。",
+      "a": "口语",
+      "b": "书面",
+      "rows": [
+        {
+          "label": "语调",
+          "a": "有，可补足语气与疑问",
+          "b": "无，只能靠标点与词序"
+        },
+        {
+          "label": "停顿与重音",
+          "a": "有，可强调与分段",
+          "b": "无，靠句法与分段"
+        },
+        {
+          "label": "即时反馈",
+          "a": "有，听者当场反应",
+          "b": "无，误写难以当场纠正"
+        },
+        {
+          "label": "修正成本",
+          "a": "低，说错可重说",
+          "b": "高，发出即留存"
+        },
+        {
+          "label": "结果",
+          "a": "容错高，可依赖语境",
+          "b": "选词与结构必须承担更多"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w26d6-p1",
+      "kind": "mcq",
+      "prompt": "otitis 中 -itis 的意思是：",
+      "choices": [
+        "炎症",
+        "耳朵",
+        "外部",
+        "疼痛"
+      ],
+      "answer": 0,
+      "explain": "-itis 是希腊来源的“炎症”后缀： arthritis 关节炎、bronchitis 支气管炎、dermatitis 皮炎、hepatitis 肝炎。ot- 才是“耳朵”，externa 是“外面的”。三个词素分工明确。",
+      "concepts": [
+        "c-suffix",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w26d6-p2",
+      "kind": "mcq",
+      "prompt": "术语的双面性，最准确的描述是：",
+      "choices": [
+        "既可精确指称、便于编码，也可抬高门槛、遮蔽事实",
+        "术语总是让表达更清楚",
+        "术语总是故意骗人",
+        "术语只用于书面语"
+      ],
+      "answer": 0,
+      "explain": "同一个术语系统，对内行是精确工具（可编码、可区分），对外行是门槛（不可解、易被唬住）。判断要看使用者与读者，不能一概而论。这也是简明语言运动只反对“不必要的迂回”而非反对术语的原因。",
+      "concepts": [
+        "c-register",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w26d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文名词",
+      "sentence": "The suffix -itis, as in appendicitis and dermatitis, means ___.",
+      "answer": "inflammation",
+      "accept": [
+        "inflammation"
+      ],
+      "explain": "-itis 表示“炎症”。appendicitis = 阑尾 + 炎，dermatitis = 皮肤 + 炎。这条后缀的能产性极高，几乎任何器官名都能接上它，构成一个可预测的术语系列。",
+      "concepts": [
+        "c-suffix",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w26d6-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 otitis 的切分",
+      "parts": [
+        "ot",
+        "itis"
+      ],
+      "answer": "otitis",
+      "explain": "ot（希腊 ous, ōtos“耳朵”）+ -itis（炎症）→ otitis“耳炎”。加上 externa（拉丁“外面的”）就是外耳炎。同族的 ot- 还见于 otolaryngology（耳鼻喉科学）、otoscope（耳镜）。",
+      "concepts": [
+        "c-root",
+        "c-suffix",
+        "c-word-sum",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w26d6-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）合同里写 “in the event that the aforementioned party fails to comply”。改成简明英语最合适的是：",
+      "choices": [
+        "if the party does not comply",
+        "保留原文，因为更正式",
+        "改成拉丁文，以确保精确",
+        "再加上更多术语，避免歧义"
+      ],
+      "answer": 0,
+      "explain": "in the event that = if，the aforementioned party = the party，fail to comply = does not comply。删掉这些迂回，法律效力不受影响，读者却能一次读懂。简明语言运动针对的正是这类可替换的冗词，不是术语本身。",
+      "concepts": [
+        "c-register",
+        "c-inference"
+      ],
+      "hint": "逐段问：这个词删掉后，法律意思有没有变？"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w26d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 otitis 的含义",
+      "passage": "The chart said otitis externa. She did not know the word, but she knew -itis from arthritis and dermatitis, and she knew ot- from otolaryngology on a sign down the corridor. Outer ear, inflamed: the diagnosis assembled itself before the doctor explained it.",
+      "word": "otitis",
+      "choices": [
+        "外耳发炎",
+        "中耳积水",
+        "听力下降",
+        "耳部手术"
+      ],
+      "answer": 0,
+      "strategy": "① 词素：-itis 已知为“炎症”（arthritis、dermatitis），ot- 来自 otolaryngology（耳鼻喉科），故为“耳炎”；② 语境：Outer ear, inflamed 就是原文给出的直译；③ 排除“积水/下降/手术”：这些都不含“炎症”；④ 结构：externa 进一步限定为“外”。",
+      "explain": "otitis externa = ot（耳）+ -itis（炎）+ externa（外）＝外耳炎。这段文字演示的正是本书的方法：不必认识整词，靠熟悉的词素就能在医生开口前把术语拆开。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin",
+        "c-scientific"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 10 节：术语的澄清与遮蔽；简明语言；书面选词"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "otitis、-itis、-ology、hyper- 的词素义"
+    }
+  ]
+}

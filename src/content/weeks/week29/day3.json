@@ -1,0 +1,278 @@
+{
+  "id": "w29d3",
+  "week": 29,
+  "day": 3,
+  "title": "故乡之争：库尔干假说，与散开之后各走各的",
+  "tagline": "马、车、草原——这套组合让“战车优势”成了最流行的解释；但它至今仍是一个有对手的假说",
+  "objectives": [
+    "能说出库尔干假说的三个要素（地点、时间、扩散机制）及其主要困难",
+    "能说明安纳托利亚假说与草原假说的分歧点，以及古 DNA 证据支持了什么、没支持什么",
+    "能解释“分支＝共享创新”，并举出各支的招牌音变"
+  ],
+  "prereqs": [
+    "w29d2"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-cognate",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s7-5",
+    "kp-s1c10s8-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "库尔干假说：草原、马与车",
+      "body": "**Marija Gimbutas** 在 1950—70 年代提出：印欧语的故乡在黑海—里海以北的**草原**（今乌克兰与南俄），时间约公元前 4500—2500 年，扩散靠的是**三波迁移**。她把这些草原墓葬形制称作“库尔干”（kurgan，坟丘），假说因此得名。\n\n这套解释的吸引力在“优势”二字：草原人群有**马**、有**轮车**，机动性与投送能力远超定居农人；再加上畜牧经济对草场的需求，向外扩张有持续动力。这与“轮、轴、轭”那组词给出的年代上限刚好吻合——词与物互相印证。\n\n但也要看清它的代价：这个版本强调**入侵与取代**，而考古记录里“整体取代”的证据并不处处成立，很多地区看到的是渐变与混合。",
+      "terms": [
+        {
+          "term": "Kurgan hypothesis",
+          "zh": "库尔干假说",
+          "en": "Kurgan hypothesis",
+          "note": "以草原为故乡、以马与轮车为扩散优势的假说"
+        },
+        {
+          "term": "kurgan",
+          "zh": "坟丘",
+          "en": "kurgan",
+          "note": "草原地区的土墩墓葬形制"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "对手：从安纳托利亚出发的农人",
+      "body": "**Colin Renfrew** 1987 年提出另一种解释：印欧语的扩散不是骑马的征服，而是**农业的扩散**——从安纳托利亚出发，随农人一批批向西、向北推进，时间早在公元前 7000 年左右。农业带来人口增长，人口增长带来语言替换，不需要战争。\n\n这个版本的好处是“机制温和且可观察”：农业扩张在欧洲考古上有清楚的物质痕迹。难处也很硬：如果祖语在公元前 7000 年就已散开，那么各支共享的“轮、轴、轭”词汇就无法解释——那时还没有轮车。支持者只能退一步，说这些词是后来在分支间扩散的，但这恰好削弱了“共同祖语”的证据。\n\n2015 年起，**古 DNA** 大规模进入这场争论。草原成分在公元前三千纪确实大规模进入欧洲，这支持“有大规模人口移动”；但人口移动不等于语言替换的方向与时间，也不等于伴随暴力征服，细节至今仍在争。近年还有把故乡放在高加索以南的“南弧”方案。**结论：草原假说是主流，但不是定论。**",
+      "terms": [
+        {
+          "term": "Anatolian hypothesis",
+          "zh": "安纳托利亚假说",
+          "en": "Anatolian hypothesis",
+          "note": "以农业扩散解释印欧语传播，故乡在安纳托利亚"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三种方案：时间、地点、机制、难处",
+      "body": "读这一行行的“主要困难”最能看出学术争论的样子：每个假说都不是被事实直接推翻，而是被**另一批事实**逼到要加补丁。判断一个理论，不看它解释了什么，而看它要额外假设多少。",
+      "head": [
+        "假说",
+        "时间",
+        "故乡",
+        "扩散机制",
+        "主要困难"
+      ],
+      "rows": [
+        [
+          "库尔干（Gimbutas）",
+          "前 4500—2500",
+          "黑海—里海草原",
+          "骑马与轮车带来的迁移优势，多波次",
+          "“入侵取代”在部分地区缺乏考古支持；时间偏晚"
+        ],
+        [
+          "安纳托利亚（Renfrew）",
+          "前 7000 左右",
+          "安纳托利亚",
+          "农业扩散带动人口与语言替换",
+          "无法解释共享的轮车词汇；与赫梯语年代关系紧张"
+        ],
+        [
+          "南弧（近年）",
+          "前 4000 前后",
+          "高加索以南",
+          "多方向、非单中心扩散",
+          "与草原词汇证据的衔接尚在讨论"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "散开之后：分支的定义就是“共享创新”",
+      "body": "不管故乡在哪，有一点是所有方案共有的：**祖语一旦散开，各支就各走各的路**。祖语之后的音变没有“全语系共同”的份——那正是分支存在的意义。\n\n判定一个分支的依据，是它有一批**只属于自己**的创新（shared innovations）：日耳曼有格里姆定律，希腊有 *s → h，拉丁有 s → r，凯尔特丢了 *p，亚美尼亚有整套辅音推移。这些变化互不隶属，各走各的。\n\n这条原则有个直接的学习后果：英语里同一个祖语词根往往有**两副面孔**——本土继承的一副，拉丁希腊借词的另一副。three 与 tri-（triangle、triple）同源，foot 与 ped-（pedal、pedestrian）同源。**它们不是两个词根，是同一条根的两条路**。认不出这一点，就会把词汇量算重，也会错过记忆的捷径。",
+      "terms": [
+        {
+          "term": "shared innovation",
+          "zh": "共享创新",
+          "en": "shared innovation",
+          "note": "某一分支独有的、可用来判定分支归属的变化"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "各支的招牌音变，与英语的两副面孔",
+      "body": "第四列是这一课真正的落点：这些音变决定了你看到的英语词长什么样。本土词走日耳曼那一列（father、seven、three），学术词走拉丁希腊那一列（paternal、hepta-、tri-），两边一对，词根就通了。更实用的一点是：**看到一个不像的英语词，先问它是本土的还是借来的**，答案往往立刻解释形状差异。",
+      "head": [
+        "分支",
+        "招牌变化",
+        "例",
+        "英语里的对应词"
+      ],
+      "rows": [
+        [
+          "日耳曼",
+          "格里姆定律：*p→f、*t→þ、*k→h",
+          "pater → father",
+          "father（本土）／paternal（借词）"
+        ],
+        [
+          "希腊",
+          "*s → h（词首）；*kʷ → p／t",
+          "septm → hepta；kʷetwores → tessares",
+          "heptagon（借词）／seven（本土）"
+        ],
+        [
+          "拉丁",
+          "s → r（元音间）；t+t → ss",
+          "*genos → generis；*mit-tos → missus",
+          "genus／generic；mission"
+        ],
+        [
+          "凯尔特",
+          "*p → 消失（词首）",
+          "pater → athair（爱尔兰语）",
+          "无本土词；地名与借词为主"
+        ],
+        [
+          "亚美尼亚",
+          "整套辅音推移（与格里姆相似但独立）",
+          "*p → h，*t → tʰ",
+          "无直接影响"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w29d3-p1",
+      "kind": "mcq",
+      "prompt": "库尔干假说解释扩散优势时，最核心的两项技术是：",
+      "choices": [
+        "马与轮车，带来机动性与投送能力",
+        "铁器与犁，带来农业剩余",
+        "船与帆，带来沿海扩张",
+        "文字与青铜，带来行政优势"
+      ],
+      "answer": 0,
+      "explain": "时间上铁器尚未普及（祖语缺“铁”的共同词正是证据），所以不可能是铁器；船与帆无法解释草原向欧洲腹地的推进；文字在祖语时代没有证据。马与轮车既是考古可见的实物，又与“轮、轴、轭”的词汇证据吻合，因此成为该假说的支柱。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w29d3-p2",
+      "kind": "mcq",
+      "prompt": "安纳托利亚假说（前 7000 年）面临的最大语言学困难是：",
+      "choices": [
+        "各支共享“轮、轴、轭”等词，而轮车在公元前四千纪才出现，时间对不上",
+        "安纳托利亚没有考古遗址",
+        "赫梯语不属于印欧语系",
+        "农业词汇在各支完全不对应"
+      ],
+      "answer": 0,
+      "explain": "这正是“词与物”互证的地方：如果祖语在 7000 年前散开，就不该有共享的轮车词。支持者的补丁是“这些词后来扩散”，但补丁越多，理论的解释成本越高。另三项都是事实错误：安纳托利亚遗址极丰富，赫梯语是印欧语，农业词汇恰恰对应得不错。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w29d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文名词（复数）",
+      "sentence": "A branch is defined not by geography but by shared ___ : changes that its members underwent together after the family split.",
+      "answer": "innovations",
+      "accept": [
+        "innovations",
+        "innovation"
+      ],
+      "explain": "共享创新（shared innovations）是分支判定的黄金标准：两个语言共享一个**后起**的变化，才说明它们曾共同经历一段历史。共享**保留**（都留着古老特征）则不能作为证据——那只是“都没变”。这条区分是比较法的基本功。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w29d3-p4",
+      "kind": "mcq",
+      "prompt": "爱尔兰语 athair 与拉丁 pater、英语 father 同源，但词首没有 p／f。原因是：",
+      "choices": [
+        "凯尔特分支丢了词首的 *p，这是该分支的招牌音变",
+        "爱尔兰语从别的语系借入了这个词",
+        "*p 在凯尔特变成了零，属格里姆定律的一部分",
+        "pater 与 athair 其实不同源"
+      ],
+      "answer": 0,
+      "explain": "凯尔特语的 *p 在词首脱落，是它最著名的分支特征（同型还有 *ph₂tēr → athair、*piskos → íasc“鱼”）。这不是格里姆定律——格里姆是日耳曼的推移，凯尔特的 *p 丢失是另一支的独立变化，正好说明“各支各走各的”。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w29d3-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）英语里 three 与 triangle 的 tri- 同源，foot 与 pedal 的 ped- 同源。对这一现象最准确的表述是：",
+      "choices": [
+        "同一个祖语词根的两条路：本土继承走日耳曼音变，借词走拉丁希腊原形",
+        "英语有两套互不相干的数词系统",
+        "tri- 与 ped- 是文艺复兴时期新造的词根",
+        "本土词与借词同源只是巧合"
+      ],
+      "answer": 0,
+      "explain": "这条“双轨”是英语词汇量大的结构性原因：本土层（three、foot）与借词层（tri-、ped-）来自同一条祖语根，只是进入英语的时代与路线不同。认出双轨，就能把看似无关的词并进一个词族，也解释了为什么英语既有 -th 又有 -tion 两套构词习惯。",
+      "concepts": [
+        "c-cognate",
+        "c-borrowing",
+        "c-inference"
+      ],
+      "hint": "先问：这个词是继承来的，还是借来的？"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w29d3-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 dispersal 在句中的含义",
+      "passage": "After the dispersal, no change is shared by the whole family. Each branch accumulates its own sound laws, its own analogies, its own borrowings. This is why the branches look so unlike one another today, and why any feature found in all of them must be old.",
+      "word": "dispersal",
+      "choices": [
+        "（人群与语言的）分散、四散开来",
+        "语言学上的音位合并",
+        "词汇向其他语言的外借",
+        "书写系统的传播"
+      ],
+      "answer": 0,
+      "strategy": "① 时间状语 After the dispersal 把事件定位在“分支形成之初”；② 后句 Each branch accumulates its own… 说明此前的整体已不再整体；③ 结论句 any feature found in all of them must be old 反推：分散之后就没有共同变化了；④ 排除“外借”：borrowings 是分散之后各支各自的行为之一，不是 dispersal 本身。",
+      "explain": "dispersal 指人群与语言从共同家园散开的过程，是历史语言学与生物地理学共用的词（disperse“驱散、散布”）。它与 diffusion（扩散、传播）不同：dispersal 强调“离开一点、各奔东西”，diffusion 强调“从一点向外渗”。本段讲的是前者。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 7—8 节：故乡假说与各分支的独立变化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "库尔干假说、安纳托利亚假说与古 DNA 研究的基本脉络；凯尔特 *p 脱落、希腊 *s→h"
+    }
+  ]
+}

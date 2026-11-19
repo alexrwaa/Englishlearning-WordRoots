@@ -1,0 +1,288 @@
+{
+  "id": "w23d7",
+  "week": 23,
+  "day": 7,
+  "title": "弱化与双式：schwa 怎么改写了拼写",
+  "tagline": "重音一走，元音就塌成 [ə]；拼写只好把塌掉的字母留在那儿——cavalry 与 chivalry 就是这样分家的",
+  "objectives": [
+    "能说明双元音的性质，并举出方言差异造成的读音分歧",
+    "能说明 schwa 是非重读元音的归宿，并解释 -able/-ible、-ance/-ence 的不确定性",
+    "能用“同化 + 弱化”两步解释 immaterial、irreducible 这类陌生词的词形"
+  ],
+  "prereqs": [
+    "w23d6"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-borrowing",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c5s6-2",
+    "kp-s1c5s6-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "双元音：一个音节，两个目标",
+      "body": "**双元音**（diphthong）是在一个音节里从一个元音位置滑到另一个：might [aɪ]、how [aʊ]、boy [ɔɪ]，还有 face [eɪ]、goat [oʊ]。写法上它们常常只占一个字母或两个字母（i、y、ow、oy），所以在这一块，拼写与音的距离最大。\n\n方言差异也集中在这里。美式英语里 cot 与 caught 的元音在许多地区已经合并；car 是否带 r、Mary/marry/merry 是否三音分立，都因地区而异。\n\n对构词的影响是间接但真实的：**同一个拉丁词根在不同时代、不同地区被借入两次，就会留下两个英语词**——这就是双式词（doublet）。第 11 周讲过法语支与拉丁支的分岔，今天给它补上语音的解释。"
+    },
+    {
+      "kind": "etym",
+      "title": "cavalry 与 chivalry：一匹马，两条路",
+      "body": "两个词都来自晚期拉丁 caballus“马”，但走了不同的路：重音位置不同，元音形状不同，最后拼写、读音、意义全部不同。这条链解释了三件事——为什么 chivalry 的 ch 读 [ʃ]；为什么两个词的元音对不上；为什么一个指兵种、一个指风度。",
+      "steps": [
+        {
+          "period": "晚期拉丁",
+          "form": "caballus",
+          "note": "马（口语里指劣马）；派生 caballarius“骑马者”"
+        },
+        {
+          "period": "意大利语",
+          "form": "cavalleria",
+          "note": "ca- 的 a 保持清晰饱满（读 [kav-]）→ 英语 cavalry“骑兵队”"
+        },
+        {
+          "period": "古法语",
+          "form": "chevalerie",
+          "note": "ca- 颚化为 che-（读 [ʃ]），非重读元音弱化、音节压缩 → 英语 chivalry“骑士精神”"
+        },
+        {
+          "period": "英语",
+          "form": "cavalry / chivalry",
+          "note": "同一词根，两种拼写，两套意义"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "schwa：所有非重读元音的最后归宿",
+      "body": "英语只有一个中央元音：[ə]，叫 **schwa**。舌位不高不低、不前不后、不圆唇，是最省力的元音。它的分布规律极强：**只在非重读音节出现**。重音一走，元音就向它塌陷，这叫**弱化**（vowel reduction）。\n\n后果直接写在拼写上：a、e、o、i、u 在非重读音节里都可能读 [ə]，所以你无法从读音反推字母。\n\n- photograph 的第一音节重读，o 读 [oʊ]；photography 的重音移到第二音节（-tog-），同一个 o 读 [ə]。同一个字母，两种元音，中间只隔了一次派生。\n- -able/-ible、-ance/-ence、-ant/-ent 的差别全落在弱化元音上，读音一样，只能按词记。\n- parliament、Wednesday、chocolate、separate（形容词）里的字母，被 schwa 吞掉了一半。\n\n所以第 22 周那条结论在这里有了语音依据：**语素义稳定，拼写保守，读音流失**。"
+    },
+    {
+      "kind": "table",
+      "title": "弱化写下的五个陷阱",
+      "body": "这些词是构词分析的边界案例：拼写保留了拉丁／法语的骨架，读音却被弱化磨平。做题时用拼写拆，用读音验证；两者冲突时以拼写为准，因为词源信息在拼写里。",
+      "head": [
+        "词",
+        "实际读音",
+        "被吞掉的字母",
+        "构词提示"
+      ],
+      "rows": [
+        [
+          "parliament",
+          "[ˈpɑːrləmənt]",
+          "第二个 i",
+          "拼写四个音节，读音三个；按拼写拆，按音读会切错"
+        ],
+        [
+          "Wednesday",
+          "[ˈwɛnzdeɪ]",
+          "第二个 e，以及 d 的一部分",
+          "专名，按拼写记，不按音推"
+        ],
+        [
+          "chocolate",
+          "[ˈtʃɑːklət]",
+          "第二个 o",
+          "四个音节在口语里压成三个"
+        ],
+        [
+          "separate（形容词）",
+          "[ˈsɛpərət]",
+          "第二个 a",
+          "与动词 [ˈsɛpəreɪt] 靠词尾的弱化与否区分词性"
+        ],
+        [
+          "business",
+          "[ˈbɪznəs]",
+          "i",
+          "busi- 与 -ness 的接缝被压缩，但拆词仍按 busy + ness"
+        ]
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "四个算式：同化 + 弱化，两步到位",
+      "body": "四个词的做法都一样：先把接缝处的音调到能连读（同化），再把非重读的元音压到最省力（弱化）。词根 mater-、duc-、oper-、press- 一动不动——变的永远是接缝与轻读音节。",
+      "sums": [
+        {
+          "parts": [
+            "im",
+            "mater",
+            "ial"
+          ],
+          "result": "immaterial",
+          "glossZh": "无关紧要的；非物质的",
+          "note": "in- 在 m 前变 im-；-ial 的 i 是非重读弱化元音"
+        },
+        {
+          "parts": [
+            "ir",
+            "re",
+            "duc",
+            "ible"
+          ],
+          "result": "irreducible",
+          "glossZh": "不可约简的",
+          "note": "in- 在 r 前变 ir-；-ible 的连接元音是弱化后的 i"
+        },
+        {
+          "parts": [
+            "co",
+            "oper",
+            "ate"
+          ],
+          "result": "cooperate",
+          "glossZh": "合作",
+          "note": "con- 在元音前脱落 n，只剩 co-"
+        },
+        {
+          "parts": [
+            "com",
+            "press",
+            "ion"
+          ],
+          "result": "compression",
+          "glossZh": "压缩",
+          "note": "con- 在 p 前变 com-；-ion 接在分词词干 press- 后"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w23d7-p1",
+      "kind": "mcq",
+      "prompt": "photograph 与 photography 第一音节的 o 读音不同，原因是：",
+      "choices": [
+        "派生把重音移走，非重读的 o 弱化为 [ə]",
+        "o 在 y 前面会变音",
+        "photography 用了另一个词根",
+        "这只是美式与英式的差别"
+      ],
+      "answer": 0,
+      "explain": "重音位置决定元音能否保持饱满：photograph 重音在第一音节，o 读 [oʊ]；photography 重音在 -to-，第一音节降为 [ə]。这条规律对判断同族词极有用——**重音移动而拼写不动，说明是派生而不是新词根**。反过来，如果一个词的重音与同族词完全对不上，就要怀疑它是不是借自另一条路径。",
+      "concepts": [
+        "c-allomorph",
+        "c-derivation"
+      ]
+    },
+    {
+      "id": "w23d7-p2",
+      "kind": "mcq",
+      "prompt": "-able 与 -ible 的选择无法从读音判断，最根本的原因是：",
+      "choices": [
+        "两者都含弱化元音 [ə]，读音相同，差别只在拉丁词干的变位类",
+        "-ible 只用于希腊来源的词",
+        "-able 是英语本土后缀，-ible 是借来的",
+        "拼写规则本来就是随意的"
+      ],
+      "answer": 0,
+      "explain": "visible 与 comfortable 的结尾都读 [əbl]，听不出差别。选 -able 还是 -ible 取决于拉丁动词属于哪一变位类（-abilis 还是 -ibilis），这属于词干自带的信息，只能按词记。凡是“读音相同、拼写不同”的后缀，都是弱化留下的坑。",
+      "concepts": [
+        "c-allomorph",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w23d7-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词（过去分词）",
+      "sentence": "In many accents of English the vowels in “cot” and “caught” have ___ , so the two words sound alike.",
+      "answer": "merged",
+      "accept": [
+        "merged",
+        "merged together"
+      ],
+      "explain": "这是低后元音的合并（cot–caught merger），属于方言差异：它不改变拼写，但会让同音词增多。语音上它提醒你，元音的“前后、高低”在不同方言里占的格子不一样；构词上它提醒你，别用某一种口音去判断词源关系。",
+      "concepts": [
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w23d7-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）irreducible 可以拆成 ir- + re- + duc- + -ible。ir- 的出现说明：",
+      "choices": [
+        "in- 在 r 前发生了同化",
+        "这是一个独立的否定前缀 ir-",
+        "reduc- 以元音开头，所以加 ir-",
+        "英语在这里拼错了"
+      ],
+      "answer": 0,
+      "explain": "ir- 只是 in- 在 r 前的形状：n 丢掉鼻音，滑进 r。reduc- = re-（回）+ duc（引导），-ible 是“能……的”。三步合起来：“不能被引回去的”，即不可约简的。判断方法很机械：看到 im-/il-/ir-，先还原成 in-，再决定它的意思是“不”还是“向内”。",
+      "concepts": [
+        "c-inference",
+        "ir",
+        "duc"
+      ],
+      "hint": "先把 ir- 还原成词典形。"
+    },
+    {
+      "id": "w23d7-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“难以置信的”的切分",
+      "parts": [
+        "in",
+        "cred",
+        "ible"
+      ],
+      "answer": "incredible",
+      "explain": "in- + cred（相信）+ -ible（能……的）→ 不能相信的。注意这里的前缀**没有变**：后接音 [k] 是软腭塞音，n 在它前面只改读音（[ɪŋ]），不改拼写。所以这个词是检验你是否真懂部位表的试金石——同样的 n，在 p 前写成 m，在 k 前仍写 n。",
+      "concepts": [
+        "c-word-sum",
+        "in",
+        "cred"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w23d7-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 immaterial 的含义",
+      "passage": "Whether the report is printed on paper or read on a screen is immaterial; what matters is whether its argument holds.",
+      "word": "immaterial",
+      "choices": [
+        "无关紧要的",
+        "非物质性的、精神层面的",
+        "无法测量的",
+        "不成熟的、未定型的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：im-（in- 在 m 前）+ mater（物质）+ -ial → 字面“非物质的”；② 句法：分号后 what matters 给出真正重要的东西，前面的内容被降为不重要；③ 语境：printed 与 screen 是载体之争，与“物质／精神”无关，所以取引申义“无关紧要”；④ 校验：若取“非物质性的”，后半句的对比就落空了。",
+      "explain": "immaterial 是“一个词形、两条语义路径”的典型：字面义（非物质的）与引申义（不相干的）都活着，靠语境定音。词形上它叠了两条规则：in- 在 m 前变 im-（部位同化），-ial 的 i 是非重读弱化元音。这两步也是本周的总复习——**同化管接缝，弱化管轻读**，剩下的部分归词根。",
+      "concepts": [
+        "c-inference",
+        "im",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 5 章第 6 节：元音、双元音与 schwa"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "元音弱化、方言差异与双式词"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "caballus 的意大利语与法语两条借入路径"
+    }
+  ]
+}

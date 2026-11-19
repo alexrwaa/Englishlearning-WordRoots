@@ -1,0 +1,393 @@
+{
+  "id": "course-c10",
+  "title": "The Prehistory of English and Indo-European",
+  "titleZh": "英语的史前史与印欧语系：谱系、构拟与英语同源词",
+  "sourceChapter": "S1-C10",
+  "level": "C1",
+  "weeks": [
+    {
+      "week": 27,
+      "theme": "印欧语系的发现：从三语对应到格里姆定律",
+      "days": 5
+    },
+    {
+      "week": 28,
+      "theme": "重建出来的祖语：音系、屈折与喉音假说",
+      "days": 5
+    },
+    {
+      "week": 29,
+      "theme": "语言考古：故乡、家宅、战车与神名",
+      "days": 4
+    },
+    {
+      "week": 30,
+      "theme": "两条关键后代：希腊与拉丁，以及怎么自己查同源",
+      "days": 4
+    }
+  ],
+  "lessonCount": 18,
+  "knowledgePointCount": 35,
+  "lessons": [
+    {
+      "lessonId": "w27d1",
+      "title": "分化：语言变化的常态结果",
+      "knowledgePoints": [
+        "kp-s1c10s1-1",
+        "kp-s1c10s1-2"
+      ]
+    },
+    {
+      "lessonId": "w27d2",
+      "title": "三语对应与“印欧”这个名字",
+      "knowledgePoints": [
+        "kp-s1c10s1-3",
+        "kp-s1c10s1-4"
+      ]
+    },
+    {
+      "lessonId": "w27d3",
+      "title": "十三个分支：谁的香火断了",
+      "knowledgePoints": [
+        "kp-s1c10s2-1",
+        "kp-s1c10s2-2"
+      ]
+    },
+    {
+      "lessonId": "w27d4",
+      "title": "拉斯克与格里姆：把“像”换成“对应”",
+      "knowledgePoints": [
+        "kp-s1c10s3-1",
+        "kp-s1c10s3-2"
+      ]
+    },
+    {
+      "lessonId": "w27d5",
+      "title": "星号与链移：构拟是怎么写出来的",
+      "knowledgePoints": [
+        "kp-s1c10s3-3",
+        "kp-s1c10s3-4"
+      ]
+    },
+    {
+      "lessonId": "w28d1",
+      "title": "祖语研究的三个层面，与三系列塞音",
+      "knowledgePoints": [
+        "kp-s1c10s4-1",
+        "kp-s1c10s5-1"
+      ]
+    },
+    {
+      "lessonId": "w28d2",
+      "title": "三个喉音，五个元音，四个能当元音的辅音",
+      "knowledgePoints": [
+        "kp-s1c10s5-2",
+        "kp-s1c10s5-3"
+      ]
+    },
+    {
+      "lessonId": "w28d3",
+      "title": "喉音着色与加长：一个消失的音留下的指纹",
+      "knowledgePoints": [
+        "kp-s1c10s5-4"
+      ]
+    },
+    {
+      "lessonId": "w28d4",
+      "title": "八个格、三个数，与形容词的三重一致",
+      "knowledgePoints": [
+        "kp-s1c10s6-1",
+        "kp-s1c10s6-2"
+      ]
+    },
+    {
+      "lessonId": "w28d5",
+      "title": "那些“不规则”，在祖语里全是规矩",
+      "knowledgePoints": [
+        "kp-s1c10s6-3"
+      ]
+    },
+    {
+      "lessonId": "w29d1",
+      "title": "用共享词汇做考古：方法与三个陷阱",
+      "knowledgePoints": [
+        "kp-s1c10s7-1",
+        "kp-s1c10s7-2"
+      ]
+    },
+    {
+      "lessonId": "w29d2",
+      "title": "金属、船、犁与轮：用“缺词”定年代",
+      "knowledgePoints": [
+        "kp-s1c10s7-3",
+        "kp-s1c10s7-4"
+      ]
+    },
+    {
+      "lessonId": "w29d3",
+      "title": "故乡之争：库尔干假说，与散开之后各走各的",
+      "knowledgePoints": [
+        "kp-s1c10s7-5",
+        "kp-s1c10s8-1"
+      ]
+    },
+    {
+      "lessonId": "w29d4",
+      "title": "希腊的音变：ā 变 ē，送气音留下来",
+      "knowledgePoints": [
+        "kp-s1c10s9-1",
+        "kp-s1c10s9-2"
+      ]
+    },
+    {
+      "lessonId": "w30d1",
+      "title": "希腊的 s、w 与喉音：三个音怎么消失的",
+      "knowledgePoints": [
+        "kp-s1c10s9-3",
+        "kp-s1c10s9-4"
+      ]
+    },
+    {
+      "lessonId": "w30d2",
+      "title": "拉丁的招牌音变：s 变 r，t+t 变 ss",
+      "knowledgePoints": [
+        "kp-s1c10s10-1",
+        "kp-s1c10s10-2"
+      ]
+    },
+    {
+      "lessonId": "w30d3",
+      "title": "送气音变 f，*gʷ 变 w，与前缀 in- 的真规则",
+      "knowledgePoints": [
+        "kp-s1c10s10-3",
+        "kp-s1c10s10-4"
+      ]
+    },
+    {
+      "lessonId": "w30d4",
+      "title": "六千年后还在的词，与你自己查同源的四步法",
+      "knowledgePoints": [
+        "kp-s1c10s11-1",
+        "kp-s1c10s11-2",
+        "kp-s1c10s12-1"
+      ]
+    }
+  ],
+  "knowledgePointIndex": {
+    "kp-s1c10s1-1": [
+      "w27d1"
+    ],
+    "kp-s1c10s1-2": [
+      "w27d1"
+    ],
+    "kp-s1c10s1-3": [
+      "w27d2"
+    ],
+    "kp-s1c10s1-4": [
+      "w27d2"
+    ],
+    "kp-s1c10s10-1": [
+      "w30d2"
+    ],
+    "kp-s1c10s10-2": [
+      "w30d2"
+    ],
+    "kp-s1c10s10-3": [
+      "w30d3"
+    ],
+    "kp-s1c10s10-4": [
+      "w30d3"
+    ],
+    "kp-s1c10s11-1": [
+      "w30d4"
+    ],
+    "kp-s1c10s11-2": [
+      "w30d4"
+    ],
+    "kp-s1c10s12-1": [
+      "w30d4"
+    ],
+    "kp-s1c10s2-1": [
+      "w27d3"
+    ],
+    "kp-s1c10s2-2": [
+      "w27d3"
+    ],
+    "kp-s1c10s3-1": [
+      "w27d4"
+    ],
+    "kp-s1c10s3-2": [
+      "w27d4"
+    ],
+    "kp-s1c10s3-3": [
+      "w27d5"
+    ],
+    "kp-s1c10s3-4": [
+      "w27d5"
+    ],
+    "kp-s1c10s4-1": [
+      "w28d1"
+    ],
+    "kp-s1c10s5-1": [
+      "w28d1"
+    ],
+    "kp-s1c10s5-2": [
+      "w28d2"
+    ],
+    "kp-s1c10s5-3": [
+      "w28d2"
+    ],
+    "kp-s1c10s5-4": [
+      "w28d3"
+    ],
+    "kp-s1c10s6-1": [
+      "w28d4"
+    ],
+    "kp-s1c10s6-2": [
+      "w28d4"
+    ],
+    "kp-s1c10s6-3": [
+      "w28d5"
+    ],
+    "kp-s1c10s7-1": [
+      "w29d1"
+    ],
+    "kp-s1c10s7-2": [
+      "w29d1"
+    ],
+    "kp-s1c10s7-3": [
+      "w29d2"
+    ],
+    "kp-s1c10s7-4": [
+      "w29d2"
+    ],
+    "kp-s1c10s7-5": [
+      "w29d3"
+    ],
+    "kp-s1c10s8-1": [
+      "w29d3"
+    ],
+    "kp-s1c10s9-1": [
+      "w29d4"
+    ],
+    "kp-s1c10s9-2": [
+      "w29d4"
+    ],
+    "kp-s1c10s9-3": [
+      "w30d1"
+    ],
+    "kp-s1c10s9-4": [
+      "w30d1"
+    ]
+  },
+  "referenceForms": [
+    "accord",
+    "arable",
+    "argent",
+    "axle",
+    "bear",
+    "bee",
+    "beech",
+    "birch",
+    "brother",
+    "canine",
+    "cardiac",
+    "convention",
+    "cow",
+    "daughter",
+    "deity",
+    "despot",
+    "discord",
+    "divine",
+    "domestic",
+    "domicile",
+    "dominate",
+    "door",
+    "dual",
+    "duet",
+    "ear",
+    "event",
+    "ewe",
+    "eye",
+    "fact",
+    "father",
+    "fee",
+    "fir",
+    "fish",
+    "foot",
+    "four",
+    "fraternity",
+    "genuflect",
+    "gold",
+    "guest",
+    "heart",
+    "heptagon",
+    "hexagon",
+    "horn",
+    "hospice",
+    "hospital",
+    "hostel",
+    "hostess",
+    "hostile",
+    "hotel",
+    "hundred",
+    "infect",
+    "inoculate",
+    "invent",
+    "iron",
+    "jupiter",
+    "knee",
+    "maternal",
+    "metropolis",
+    "mother",
+    "mouse",
+    "nausea",
+    "naval",
+    "night",
+    "nocturnal",
+    "nose",
+    "oak",
+    "ocular",
+    "opera",
+    "operate",
+    "ore",
+    "patriot",
+    "patron",
+    "peculiar",
+    "pecuniary",
+    "perfect",
+    "prevent",
+    "principal",
+    "quick",
+    "receive",
+    "recipient",
+    "revive",
+    "seven",
+    "silver",
+    "sister",
+    "snow",
+    "son",
+    "sow",
+    "sufficient",
+    "survive",
+    "swine",
+    "ten",
+    "three",
+    "tongue",
+    "tooth",
+    "triangle",
+    "trilogy",
+    "tuesday",
+    "two",
+    "vicinity",
+    "vital",
+    "vivid",
+    "wagon",
+    "way",
+    "weigh",
+    "wheel",
+    "wolf",
+    "yoke"
+  ],
+  "referenceFormsNote": "本课讲解与练习引用、但 words.json 尚无完整词条的英语形式；已去重小写。不含拉丁／希腊／梵语等中间形式，也不含加星号的构拟形式（*pətēr 等）。"
+}

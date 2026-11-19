@@ -1,0 +1,292 @@
+{
+  "id": "w25d5",
+  "week": 25,
+  "day": 5,
+  "title": "拼写为什么这么乱，标准为什么会变",
+  "tagline": "拼写是层积岩，标准是流动的共识",
+  "objectives": [
+    "能解释 ough 在 bough、rough、through、trough 中读音不同的历史原因",
+    "能举出 [ʃ] 的五种以上拼法，并说明每种对应的借入层",
+    "能说明标准随时间移动，并区分“拼写不规则”与“用法失当”"
+  ],
+  "prereqs": [
+    "w25d4",
+    "c-spelling-rule",
+    "c-semantic-shift",
+    "c-register"
+  ],
+  "concepts": [
+    "c-spelling-rule",
+    "c-semantic-shift",
+    "c-register",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s5-3",
+    "kp-s1c8s6-1",
+    "kp-s1c8s6-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "ough 的六种读法",
+      "body": "同一个字母组合 ough，在 bough /aʊ/、rough /ʌf/、through /uː/、trough /ɒf/、cough /ɒf/、though /oʊ/、thought /ɔː/ 里承载了六种不同的音（trough 与 cough 同韵，其余各不相同）。\n\n原因不是“英语没规则”，而是规则在历史上被多次覆盖：中古英语的 /x/ 在不同方言与语音环境里分别变成 /f/、/w/ 或消失，元音又经历了**元音大推移**（Great Vowel Shift），而拼写在印刷时代被冻结。三层叠加，就得到今天这张读音表。\n\n所以 ough 不是“一个字母组合乱读”，而是“多条历史路径共用一个拼写”。",
+      "terms": [
+        {
+          "term": "digraph",
+          "zh": "二合字母",
+          "en": "digraph",
+          "note": "两个字母合起来表示一个音，如 sh、th、ough"
+        },
+        {
+          "term": "spelling-pronunciation mismatch",
+          "zh": "拼写与读音脱节",
+          "en": "spelling-pronunciation mismatch",
+          "note": "拼写不再反映当代读音"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "[ʃ] 的六种拼法",
+      "body": "一个音六种拼法，说明英语正字法是层积岩：每一层对应一次借入或一次音变。记住这张表的用处不是背，而是遇到生词时知道“ti 也可能读 /ʃ/”，不至于把 nation 读成 /ˈneɪtiən/。",
+      "head": [
+        "拼写",
+        "例子",
+        "来源"
+      ],
+      "rows": [
+        [
+          "sh",
+          "ship、shoe",
+          "古英语 sc- 腭化"
+        ],
+        [
+          "ti",
+          "motion、nation",
+          "拉丁 -tio"
+        ],
+        [
+          "ci",
+          "facial、special",
+          "拉丁 -cia"
+        ],
+        [
+          "s",
+          "sugar、sure",
+          "法语 /s/ 在借入后腭化"
+        ],
+        [
+          "ch",
+          "chef、machine",
+          "法语借词"
+        ],
+        [
+          "ss",
+          "mission、passion",
+          "拉丁 -ssio"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "标准也会移动",
+      "body": "莎士比亚时代的英语与今天不同：you 与 thou 的分工还在，its 尚未普遍（常用 his），双重否定常见。这些不是“错误”，是当时的用法。\n\n更近的例子：split infinitive（to boldly go）被 19 世纪规范主义者禁止，理由是拉丁不定式不可分——但英语不是拉丁，这条禁令从未真正生效；hopefully 作句副词在 20 世纪被猛烈批评，如今在编辑散文中已属标准。\n\n教材的结论是：标准必须有活力、被广泛使用，才能团结国民、便利沟通；僵死的规则做不到这件事。",
+      "terms": [
+        {
+          "term": "standard",
+          "zh": "标准",
+          "en": "standard",
+          "note": "被广泛接受的规范，随时间移动"
+        },
+        {
+          "term": "language change",
+          "zh": "语言变化",
+          "en": "language change",
+          "note": "语音、语法、词汇在使用中持续演变"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "非标准不等于无效",
+      "body": "把标准当作唯一正确，会遮蔽其他变体在其场合中的适用性。区域方言在家庭、地方社群、民俗活动中往往比标准语更合适；族群方言承载身份与团结，换掉它等于换掉说话人的位置。\n\n真正需要判断的是**语域是否匹配**，不是“是否符合某本标准”。一份求职信与一句玩笑，用的不是同一套标准。\n\n这条判断有一个直接好处：它让你既能写正式文本，也不至于在朋友面前像个文件。",
+      "terms": [
+        {
+          "term": "nonstandard",
+          "zh": "非标准",
+          "en": "nonstandard",
+          "note": "不属于标准变体，但在其语域中有效"
+        },
+        {
+          "term": "appropriateness",
+          "zh": "得体性",
+          "en": "appropriateness",
+          "note": "用法与场合、对象、媒介的匹配程度"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "拼写不规则与用法失当",
+      "body": "两者常被混说成“英语不严谨”，其实一个是历史层积，一个是场合错配。前者不能靠“改正”解决，除非重做整套正字法；后者换个语域就解决。分开看，才不会把历史问题当道德问题。",
+      "a": "拼写不规则",
+      "b": "用法失当",
+      "rows": [
+        {
+          "label": "性质",
+          "a": "历史层积的产物",
+          "b": "语域与场合的错配"
+        },
+        {
+          "label": "例证",
+          "a": "ough、silent k、-tion 的 /ʃ/",
+          "b": "在葬礼上讲段子；在论文里写 u"
+        },
+        {
+          "label": "能否“改正”",
+          "a": "不能，除非重做整个正字法",
+          "b": "能，换一套语域即可"
+        },
+        {
+          "label": "判断依据",
+          "a": "词源层与音变史",
+          "b": "受众、媒介、目的"
+        },
+        {
+          "label": "常见误解",
+          "a": "以为拼写应该反映读音",
+          "b": "以为只有一套正确用法"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w25d5-p1",
+      "kind": "mcq",
+      "prompt": "bough 与 rough 的 ough 读音不同，主要原因是：",
+      "choices": [
+        "中古英语的 /x/ 在不同语音环境里分化为不同音，拼写未随之调整",
+        "两个词来自不同语言，拼写被强行统一",
+        "英语没有正字法",
+        "印刷工故意制造差异"
+      ],
+      "answer": 0,
+      "explain": "中古英语的 /x/ 在词尾、辅音前等环境分别变为 /f/、/w/ 或消失，元音又经历大推移，而拼写在印刷时代固定。所以同一串字母在不同词里承载了不同历史路径。这不是“没有规则”，是规则被多层覆盖。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w25d5-p2",
+      "kind": "mcq",
+      "prompt": "下面哪一项不是英语拼写不规则的成因？",
+      "choices": [
+        "拉丁字母表与英语音系不完全匹配",
+        "借词保留了原语言的拼写",
+        "印刷冻结了正在变化的读音",
+        "政府每年修订正字法"
+      ],
+      "answer": 3,
+      "explain": "英语没有哪届政府每年修订正字法——正字法恰恰因为长期无人统一改革才层积成今天的样子。前三项都是真实成因：字母不够用、借词带拼写、印刷冻结读音。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w25d5-p3",
+      "kind": "cloze",
+      "prompt": "填入两个英文字母",
+      "sentence": "In motion, the letters ti spell the sound usually written ___ in ship.",
+      "answer": "sh",
+      "accept": [
+        "sh"
+      ],
+      "explain": "motion 的 ti 读 /ʃ/，与 ship 的 sh 同音。这是拉丁 -tio 借入后的腭化结果，同类的还有 nation、action、station。知道这条，陌生词里的 ti 就不会读错。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w25d5-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 irregular 的切分",
+      "parts": [
+        "ir",
+        "regul",
+        "ar"
+      ],
+      "answer": "irregular",
+      "explain": "ir-（in- 在 r 前的同化形式，“不”）+ regul（拉丁 regula“尺子、规则”）+ -ar（形容词后缀）→ irregular“不规则的”。注意 ir- 是 in- 的语素变体，与 impossible 的 im-、illegal 的 il- 同一条规则。",
+      "concepts": [
+        "c-prefix",
+        "c-allomorph",
+        "c-word-sum"
+      ]
+    },
+    {
+      "id": "w25d5-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）hopefully 作句副词在 1960 年代被许多风格指南禁止，今天多数编辑散文接受。这说明：",
+      "choices": [
+        "标准会随广泛使用而移动，禁令本身不是最终依据",
+        "1960 年代的编辑不懂语法",
+        "今天的编辑不严谨",
+        "hopefully 的词义彻底变了"
+      ],
+      "answer": 0,
+      "explain": "hopefully 的“但愿”义在 20 世纪扩散，最终被词典与编辑接受，说明标准是流动的共识。禁令反映的是当时的偏好，不是语言的永久法则。注意：这不是说所有新用法都会赢，而是说胜负由使用决定。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-register",
+        "c-inference"
+      ],
+      "hint": "问“谁在用、用了多久、被哪些机构接受”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w25d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 trough 的含义与读音线索",
+      "passage": "The farmer filled the trough and the cattle drank. “Troff,” said the visitor, reading the label on the bag. “No — trawf,” the farmer said, “like off, not like cough.” Neither was guessing: ough has carried a different sound in each word since the Middle Ages, and the spelling never caught up.",
+      "word": "trough",
+      "choices": [
+        "指喂牲口的水槽，其中 ough 的读音与 cough 不同",
+        "指一种咳嗽",
+        "指山谷",
+        "指印刷用的字盘"
+      ],
+      "answer": 0,
+      "strategy": "① 语境：filled the trough and the cattle drank，指向盛水喂牲口的容器；② 读音讨论：like off, not like cough 说明 ough 在此读 /ɔː/ 或 /ɒf/；③ 词义排除：cough 只是用来对比读音的词，不是 trough 的意思；④ 原文点题：the spelling never caught up。",
+      "explain": "trough 是“槽、饮水槽”，也可指“低谷”。它的 ough 读 /ɔː/（英式）或 /ɔf/，与 cough 的 /ɒf/ 不同。这个词同时是 ough 混乱的例证与“拼写未跟上读音”的注脚。",
+      "concepts": [
+        "c-inference",
+        "c-spelling-rule"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 5–6 节：拼写不规则、标准的变化与非标准用法"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "ough 各词的读音史与 [ʃ] 的拼写分布"
+    }
+  ]
+}

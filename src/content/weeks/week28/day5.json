@@ -1,0 +1,271 @@
+{
+  "id": "w28d5",
+  "week": 28,
+  "day": 5,
+  "title": "那些“不规则”，在祖语里全是规矩",
+  "tagline": "went、sung、vīcī、tulī——四个看似无理的形，四条祖语里极其规则的构形法",
+  "objectives": [
+    "能说出四种祖语构形手段：元音变换、鼻音中缀、重叠、异干互补",
+    "能用 vincō／vīcī 说明鼻音中缀在现在时与完成时之间的分工",
+    "能把第 4 章的异形现象（cap／cep／cip、go／went）追溯到祖语来源"
+  ],
+  "prereqs": [
+    "w18d1",
+    "w18d2",
+    "w17d5"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-inflection",
+    "c-cognate"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s6-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "四种手段，一套逻辑",
+      "body": "第 17、18 周讲过的那些“不规则”，来源只有四种，全部是祖语的常规构形法：\n\n1. **元音变换**（ablaut）：同一个词根在不同形式里换元音，e／o／零三级最典型；\n2. **鼻音中缀**：在词根里插进 -n-，表示“正在进行的动作”，完成时把它拿掉；\n3. **重叠**：重复词根的首音节，表示完成或持续；\n4. **异干互补**（suppletion）：两个完全不同的词根被并进同一个范式。\n\n关键认知是：**“不规则”是后代视角**。在祖语里，这四种手段各自整齐地服务于某个语法范畴；后来范畴消失、音变磨平，手段就变成了记忆负担。英语的 strong verbs 就是这套机器的残骸。",
+      "terms": [
+        {
+          "term": "suppletion",
+          "zh": "异干互补",
+          "en": "suppletion",
+          "note": "用不同词根填补同一范式的不同形式，如 go／went"
+        },
+        {
+          "term": "reduplication",
+          "zh": "重叠",
+          "en": "reduplication",
+          "note": "重复词根首部以标记语法范畴"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四种手段的四面镜子",
+      "body": "这张表是第 4 章与本章的接缝：左两列是祖语机制，右三列是它在各支留下的化石。英语那一列最值得看——它已经不再能产，但残骸还在，而且残骸的形状能反推原来的机制。",
+      "head": [
+        "手段",
+        "祖语功能",
+        "拉丁",
+        "希腊",
+        "英语"
+      ],
+      "rows": [
+        [
+          "元音变换 e／o／零",
+          "标 tense 与词类",
+          "fodiō／fōdī（挖）；legō／lēgī（读）",
+          "leipō／leloipa（留）",
+          "sing／sang／sung；drive／drove／driven"
+        ],
+        [
+          "鼻音中缀 -ne-",
+          "现在时（未完成体）",
+          "vincō／vīcī（征服）；fundō／fūdī（倒）",
+          "lambanō／elabon（取）；gignōskō／egnōn（知）",
+          "无：日耳曼语未保留中缀（stand 的 n 属词根）"
+        ],
+        [
+          "重叠",
+          "完成时、使役",
+          "didicī（discō 的完成时）",
+          "didōmi（给）；gignomai（生）",
+          "无（日耳曼改用语助与齿音后缀）"
+        ],
+        [
+          "异干互补",
+          "补足缺失的形式",
+          "ferō／tulī（带）；sum／fuī（是）",
+          "pherō／ēnenka（带）",
+          "go／went；be／was"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "vincō／vīcī：一个 n 的来去",
+      "body": "拉丁“征服”的现在时是 **vincō**，完成时是 **vīcī**。差别不止元音：现在时词干里有个 **n**，完成时没有。\n\n这个 n 就是**鼻音中缀**。它的功能是标“未完成、正在进行”，加在词根 *wik- 里；完成时表示动作已结束，中缀就不需要了，于是词根回到光杆状态，元音同时被拉长（vīc-）。同型还有 fundō／fūdī（倒）、rumpō／rūpī（破）、findō／fidī（裂）。\n\n希腊语的证据更清楚，因为它两套形式都留着：**lambanō**（现在时“取”）对 **elabon**（不定过去时“取了”），**gignōskō**（认识）对 **egnōn**（认识了）。有中缀的是“正在”，没中缀的是“一下完成”。\n\n英语没有能产的中缀，但这套“现在时带鼻音、完成时不带”的对立在拉丁、希腊两条线上各自独立保留，是重构祖语形态最硬的证据之一。",
+      "terms": [
+        {
+          "term": "nasal infix",
+          "zh": "鼻音中缀",
+          "en": "nasal infix",
+          "note": "插入词根的 -n-，标记未完成体"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "异干互补：为什么 be 最不讲道理",
+      "body": "**be／am／is／are／was／were** 一个词用了三个不同的根：*bʰuH-（成为）、*h₁es-（存在）、*wes-（停留）。这不是英语坏掉了，而是三个意义相近的动词在历史里被“合并成一个范式”：谁的形式更常用，就取谁的那一格。\n\n拉丁同样：**sum**（我是）／**fuī**（我曾是）／**est**（他是），两个根拼一个范式；**ferō**（我带）／**tulī**（我带过）／**lātum**（被带），三个根。希腊 **pherō／ēnenka／ēnechthēn** 也是三根。\n\n判断办法很简单：如果一个范式里出现了**词根都换掉**的形式，而不是词尾或元音变化，那就是异干互补。英语里只有极少数词这样：go／went、be、good／better／best（better 来自另一个词根 *bʰed-）。",
+      "terms": [
+        {
+          "term": "paradigm",
+          "zh": "范式",
+          "en": "paradigm",
+          "note": "一个词的全部屈折形式构成的表格"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "同一个现象，两种叙述",
+      "body": "学英语时被告知“这些是不规则动词，要背”；学词源后看到的是“这些是祖语构形法的残骸，可以按机制分组”。同一批材料，两种叙述，记忆负担差很多。",
+      "a": "不规则清单式",
+      "b": "机制分组式",
+      "rows": [
+        {
+          "label": "组织方式",
+          "a": "按字母或频率排列，逐条记",
+          "b": "按 ablaut 型、中缀残留、异干互补分组"
+        },
+        {
+          "label": "遇到新词",
+          "a": "只能查表",
+          "b": "能预测可能的交替型（sing／sang／sung 型 vs drive／drove 型）"
+        },
+        {
+          "label": "对拉丁希腊词的价值",
+          "a": "几乎没有",
+          "b": "能解释 vincō／vīcī、cap／cep／cip 这类同源异形"
+        },
+        {
+          "label": "局限",
+          "a": "不解释原因",
+          "b": "能解释来源，但不能保证每个词都服从（类推会破坏规律）"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w28d5-p1",
+      "kind": "mcq",
+      "prompt": "拉丁 vincō（现在时）与 vīcī（完成时）的差别，主要来自：",
+      "choices": [
+        "现在时词干带鼻音中缀 -n-，完成时无中缀且元音拉长",
+        "两个词来自完全不同的词根，属异干互补",
+        "完成时是后来从希腊语借入的",
+        "vīcī 的重音位置不同导致拼写不同"
+      ],
+      "answer": 0,
+      "explain": "中缀的分工是“未完成 vs 已完成”，所以现在时带 n、完成时不带。若判成异干互补就错了：异干互补要求词根整体换掉，而这里词根 *wik- 一直在，只是多一个 n、元音长短不同。这条区分是本章最实用的判据。",
+      "concepts": [
+        "c-allomorph",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w28d5-p2",
+      "kind": "mcq",
+      "prompt": "英语 go／went 属于哪一类？",
+      "choices": [
+        "异干互补：went 原是 wendan“转、去”的过去式，被并入 go 的范式",
+        "元音变换：go 的 o 变成 went 的 e",
+        "鼻音中缀：went 里插入了 n",
+        "重叠：went 是 go 首音节的重复"
+      ],
+      "answer": 0,
+      "explain": "went 与 go 没有任何共同的词根成分，是两套范式合并的结果——所以属异干互补，也解释了为什么它“毫无规律”。若判成元音变换，就该能找出 go／*gan／*gun 这类三级形式，而英语里没有。",
+      "concepts": [
+        "c-allomorph",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w28d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文术语",
+      "sentence": "When a paradigm is filled by two or three unrelated roots, as in go／went or ferō／tulī, the pattern is called ___ .",
+      "answer": "suppletion",
+      "accept": [
+        "suppletion",
+        "suppletivism"
+      ],
+      "explain": "suppletion（异干互补）的判据是“词根整体更换”。它与元音变换、中缀的区别在于：后两者词根骨架都在，只有元音或插入成分变化。英语里最典型的三个例子是 go／went、be／was、good／better。",
+      "concepts": [
+        "c-allomorph",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w28d5-p4",
+      "kind": "mcq",
+      "prompt": "第 4 章讲的 cap／cep／cip（capio／accipio／recipio）三种词根形态，在祖语层面的解释是：",
+      "choices": [
+        "元音变换（a／e／零级）在拉丁非重读音节里进一步弱化，形成三副面孔",
+        "三个词根各自独立，只是意义相近",
+        "都是鼻音中缀造成的",
+        "都是从希腊语借入的不同变体"
+      ],
+      "answer": 0,
+      "explain": "cap／cep／cip 是“元音变换＋拉丁 medial 弱化”的叠加结果：祖语的 e／o／零三级到拉丁后，非重读音节里的短元音进一步弱化成 i，于是出现三形。这也解释了为什么它们意义相同、句法分工不同，而不是三个不同的词。",
+      "concepts": [
+        "c-allomorph",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w28d5-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）希腊语 lambanō（现在时“取”）与 elabon（不定过去时“取了”）的关系，最合理的分析是：",
+      "choices": [
+        "同一个词根的两种体：现在时带鼻音中缀 -n-，过去时无中缀",
+        "两个不同的动词，意义偶然相近",
+        "一个是主动、一个是被动",
+        "elabon 是 lambanō 的复数形式"
+      ],
+      "answer": 0,
+      "explain": "词根 lab- 在两式中都在，差别只在 -m-b-n- 这串鼻音与增音 e-：中缀标未完成体，去掉即表完成。这条与拉丁 vincō／vīcī 是同一种机制的两处独立证据，正是重构祖语形态的依据。若说“不同动词”，就无法解释词根骨架完全一致这一事实。",
+      "concepts": [
+        "c-allomorph",
+        "c-inference"
+      ],
+      "hint": "先剥掉词尾，看词根骨架是否同一副。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w28d5-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 paradigm 在句中的含义",
+      "passage": "A paradigm is the full set of forms a single word can take: for a Latin verb, every tense, person and number. When the cells of that table are filled by unrelated roots, the result looks chaotic to a learner but is simply the residue of an older system.",
+      "word": "paradigm",
+      "choices": [
+        "一个词的全部屈折形式构成的完整表格",
+        "一种理论的总体框架",
+        "一组同义词的集合",
+        "一个句子的语法结构"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后定义：the full set of forms a single word can take；② 例证：every tense, person and number 指向屈折表；③ 后句 the cells of that table 用“表格的格子”进一步坐实；④ 排除“理论框架”：那是 paradigm 在科学哲学里的另一义（范式转移）。",
+      "explain": "paradigm 在语言学里指“范式／词形变化表”，在科学哲学里指“范式”（库恩的 paradigm shift）。两义都是“一套成型的框架”，靠上下文区分：出现 forms、tense、person 就是前者。这类一词两域的词，在学术阅读里要专门记。",
+      "concepts": [
+        "c-inference",
+        "c-inflection"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 6 节：祖语形态与第 4 章异形现象的来源（元音变换、鼻音中缀、异干互补）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "vincō／vīcī、fundō／fūdī、lambanō／elabon、ferō／tulī 的形式核对"
+    }
+  ]
+}

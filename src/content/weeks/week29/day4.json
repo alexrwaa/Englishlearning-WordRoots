@@ -1,0 +1,295 @@
+{
+  "id": "w29d4",
+  "week": 29,
+  "day": 4,
+  "title": "希腊的音变：ā 变 ē，送气音留下来",
+  "tagline": "为什么英语拼作 philosophy、theatre、chorus——那三个 ph、th、ch 是希腊语送气音的收据",
+  "objectives": [
+    "能说出希腊语两项元音变化（*ā→ē、*u→y）及其方言差异",
+    "能说明希腊语把浊送气变成清送气，并解释英语 ph／th／ch 拼写的来源",
+    "能说出 *kʷ 在希腊语里的双重去向（p／t）"
+  ],
+  "prereqs": [
+    "w29d3",
+    "w28d1"
+  ],
+  "concepts": [
+    "c-greek-latin",
+    "c-cognate",
+    "c-scientific"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s9-1",
+    "kp-s1c10s9-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "*ā 变 ē：爱奥尼亚—阿提卡的选择",
+      "body": "祖语的 ***ā** 在爱奥尼亚—阿提卡方言（雅典所在，也是绝大多数英语借词的来源）里变成 **ē**：*māter → **mētēr**，*phā-“说” → phēmi。**多利亚方言保留 ā**，于是同一个词在两地不同形——这对方言研究极有价值：它证明变化是**局部**的、有边界的。\n\n对英语最直接的好处是认词：**metropolis** ＝ mētēr“母”＋polis“城”，字面“母城”；**metropolitan** 同理。若不知道 mētēr 就是“母”，这个词只能死记；知道了，它和 mother、maternal、matriculate 一起进同一个词族。\n\n顺带一句：英语拼写里的 e／a 之争有时正是这条音变留下的——同一个希腊词根，走阿提卡路线是 ē，走多利亚路线是 ā。",
+      "terms": [
+        {
+          "term": "dialect",
+          "zh": "方言",
+          "en": "dialect",
+          "note": "同一语言的地域变体；方言差异常用于验证音变边界"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "*u 变 y：一个字母的来历",
+      "body": "祖语的 ***u** 在阿提卡希腊语里前化成 **y**（读 ü，像汉语“鱼”的韵母）：*mūs“鼠” → **mys**，*bʰuH-“生长” → **phyein**（→ physics 的 physis“自然”）。\n\n这个音后来被拉丁人借走，拉丁字母里专门加了一个 **Y** 来写希腊词里的这个音——所以英语字母 Y 的名字叫 “why”，而它在希腊语里的名字是 **upsilon**（“单纯的 u”）。\n\n这条变化对英语词汇的影响是间接但实在的：凡是英语里用 y 拼写、且来自希腊学术词的词，多半经过这一步。physics、physiology 这一族、以及 hymn（hymnos）都在这条线上。看到 y 在希腊借词里，先想“它原来是 u”。",
+      "terms": [
+        {
+          "term": "fronting",
+          "zh": "前化",
+          "en": "fronting",
+          "note": "元音发音位置向口腔前部移动，如 u → y"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三系列塞音在希腊语的去向",
+      "body": "最好记的一列是“希腊”那一列：清塞音不动，浊塞音不动，**浊送气全部变成清送气**。所以希腊语没有 bʰ、dʰ、gʰ，只有 ph、th、kh。英语拼写里的 ph／th／ch 就是这三个音的转写。",
+      "head": [
+        "祖语",
+        "希腊",
+        "例词",
+        "英语里的痕迹"
+      ],
+      "rows": [
+        [
+          "*p *t *k",
+          "p t k（不变）",
+          "pater、treis、kardia",
+          "paternal、tri-、cardiac"
+        ],
+        [
+          "*b *d *g",
+          "b d g（不变）",
+          "bainein（走）、dysis（落日）、genos（族）",
+          "basic、dys-、genus"
+        ],
+        [
+          "*bʰ",
+          "ph",
+          "*bʰréh₂tēr → phrātēr（同族兄弟）",
+          "philosophy 的 ph"
+        ],
+        [
+          "*dʰ",
+          "th",
+          "*dʰugh₂tḗr → thygatēr（女儿）",
+          "theatre、theory 的 th"
+        ],
+        [
+          "*gʰ",
+          "kh",
+          "*gʰans- → khēn（鹅）",
+          "chorus、character 的 ch"
+        ]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "*kʷ 的双重去向：p 还是 t",
+      "body": "圆唇软腭音在希腊语里分两路：在 **a、o 前变 p**，在 **e、i 前变 t**。这条“看后头元音”的规则并不百分之百整齐（bios 在 i 前仍是 b），但趋势清楚。第四行的 hippos 更特别：*ḱw 整组同化成了 pp。",
+      "head": [
+        "祖语",
+        "希腊",
+        "对照（拉丁）",
+        "英语落点"
+      ],
+      "rows": [
+        [
+          "*kʷetwóres“四”",
+          "tessares（e 前 → t）",
+          "quattuor",
+          "tetra-（借词）／four（本土）"
+        ],
+        [
+          "*kʷo-“哪里”",
+          "pou（o 前 → p）",
+          "quod",
+          "——"
+        ],
+        [
+          "*gʷīwos“活的”",
+          "bios（b）",
+          "vīvus",
+          "bio-（借词）／quick（本土，原义“活的”）"
+        ],
+        [
+          "*h₁eḱwos“马”",
+          "hippos（*ḱw → pp）",
+          "equus",
+          "hippo-（借词）／eoh（本土，已亡）"
+        ],
+        [
+          "*gʷem-“来”",
+          "bainein（走）",
+          "venīre",
+          "come（本土）"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "元音：希腊改，拉丁守",
+      "body": "同一个祖语词，希腊把 ā 提成 ē、把 u 前化成 y，拉丁基本守着 ā 与 u。这一对照是认学术词的实用工具：看到 -meter／-metr- 与 māter 一族，就知道它们是同一个“母”的两种走法。",
+      "a": "希腊",
+      "b": "拉丁",
+      "rows": [
+        {
+          "label": "*ā",
+          "a": "ē：mētēr",
+          "b": "ā：māter"
+        },
+        {
+          "label": "*u",
+          "a": "y：mys、physis",
+          "b": "u：mūs"
+        },
+        {
+          "label": "浊送气",
+          "a": "ph／th／kh（清送气）",
+          "b": "f（词首）／b（词中）"
+        },
+        {
+          "label": "英语里的结果",
+          "a": "metropolis、physics、theatre",
+          "b": "maternal、music、fume"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w29d4-p1",
+      "kind": "mcq",
+      "prompt": "希腊语 metropolis 中的 metro- 来自 mētēr，与拉丁 māter 同源。元音从 ā 变 ē 的原因是：",
+      "choices": [
+        "爱奥尼亚—阿提卡方言把祖语 *ā 前化成 ē，多利亚方言则保留 ā",
+        "希腊语把所有长元音都提高了",
+        "mētēr 是从拉丁语借入的",
+        "这是拼写习惯，读音没变"
+      ],
+      "answer": 0,
+      "explain": "这条变化有方言对照作证：多利亚方言保留 ā（如 mātēr 型形式），说明变化发生在阿提卡—爱奥尼亚这一支。方言差异是验证音变的最好材料——如果只是“所有长元音都提高”，就该有大批反例。",
+      "concepts": [
+        "c-greek-latin",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w29d4-p2",
+      "kind": "mcq",
+      "prompt": "英语 philosophy、theatre、chorus 里的 ph、th、ch，来源是：",
+      "choices": [
+        "希腊语把祖语的浊送气变成了清送气（pʰ、tʰ、kʰ），拉丁转写为 ph、th、ch",
+        "英语为了显得学术而人为加的字母",
+        "这三个词都从法语借入，拼写是法语习惯",
+        "希腊语的三个清塞音在元音间变成了送气音"
+      ],
+      "answer": 0,
+      "explain": "关键在“浊送气 → 清送气”：*bʰ → pʰ 等。拉丁语没有送气塞音，转写希腊词时用 ph、th、ch 表示，英语照抄。所以这三个拼写不是装饰，是音值的收据——这也是判断一个词是否来自希腊语的快捷线索。",
+      "concepts": [
+        "c-greek-latin",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w29d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "Greek ___ combines mētēr “mother” with polis “city”, literally the mother city of a colony.",
+      "answer": "metropolis",
+      "accept": [
+        "metropolis"
+      ],
+      "explain": "mētēr＋polis＝“母城”，原指殖民者出发的那座城邦，今指大都市。认出 mētēr 就把 metropolis 与 mother、maternal、matriculate、matrix 连成一族；认出 polis 就接上 politics、policy、acropolis。",
+      "concepts": [
+        "c-greek-latin",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w29d4-p4",
+      "kind": "mcq",
+      "prompt": "希腊 tessares“四”与拉丁 quattuor 同源，词首分别是 t 与 qu。最合理的解释是：",
+      "choices": [
+        "*kʷ 在 e 前变成 t（希腊），在拉丁保留为 qu",
+        "希腊语丢了圆唇成分，拉丁加了圆唇成分",
+        "两个词不同源，只是意义相同",
+        "t 是后来为了好读插进去的"
+      ],
+      "answer": 0,
+      "explain": "希腊的 *kʷ 在 e、i 前变 t，在 a、o 前变 p（pou、hippos 的 pp 属另一型）；拉丁把 *kʷ 稳定写成 qu。所以 tetra-／quadr-／four 是同一个数词的三种命运，这也解释了为什么英语里“四”有三套词根。",
+      "concepts": [
+        "c-greek-latin",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w29d4-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）希腊 hippos 与拉丁 equus 同源（祖语 *h₁eḱwos）。据此判断希腊语里发生了什么？",
+      "choices": [
+        "*ḱw 整组同化成了 pp，所以词形面目全非",
+        "希腊语把 *h₁ 变成了 h，其余不变",
+        "hippos 是拉丁 equus 的借词",
+        "两者只是意义上的巧合"
+      ],
+      "answer": 0,
+      "explain": "首字 h 确实来自 *h₁，但真正的难点在 *-ḱw- → -pp-：这是希腊语特有的同化。判据是其他分支的对应（equus、aśva-、eoh），三条线都指向同一个词根，只有希腊这一支走了 pp。这也是为什么“看着不像”从来不构成反证。",
+      "concepts": [
+        "c-greek-latin",
+        "c-inference"
+      ],
+      "hint": "先对齐三个分支的词根骨架，再看希腊改了什么。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w29d4-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 aspirates 在句中的含义",
+      "passage": "Greek has no voiced aspirates. Where the parent language had a breathy b, d or g, Greek shows a voiceless stop followed by a puff of air, written ph, th, kh. Latin, lacking such sounds, simply spelled them with h after the stop, and English inherited that spelling.",
+      "word": "aspirates",
+      "choices": [
+        "送气的（发音时带一股气流）",
+        "带声的（声带振动）",
+        "鼻化的（气流经鼻腔）",
+        "卷舌的（舌尖后卷）"
+      ],
+      "answer": 0,
+      "strategy": "① 定义线索：a stop followed by a puff of air；② 对立项：voiced（带声）与 voiceless（不带声）在此句中另有交代，说明 aspirated 说的是“气流”；③ 转写线索：written ph, th, kh 中 h 正是那股气；④ 排除“鼻化／卷舌”：段落没有鼻腔或舌位的信息。",
+      "explain": "aspirated 指送气。注意本段区分了两个维度：**带声／不带声**（声带是否振动）与**送气／不送气**（是否有气流）。汉语母语者对“送气”很敏感（b／p 的差别主要是送气），但英语的 b／p 主要靠带声区分，所以这个词在英语音系里指的现象与汉语不完全对应。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 9 节：希腊语的元音变化与塞音（送气、唇化）"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "*māter／mētēr、*kʷetwóres／tessares／quattuor、*h₁eḱwos／hippos 的形式核对"
+    }
+  ]
+}

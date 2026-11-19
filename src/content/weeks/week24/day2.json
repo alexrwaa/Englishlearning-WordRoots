@@ -1,0 +1,284 @@
+{
+  "id": "w24d2",
+  "week": 24,
+  "day": 2,
+  "title": "变异不止在词上：音、形、法三层",
+  "tagline": "发音、拼写、语法各自有变体，而且三层并不同步",
+  "objectives": [
+    "能举出语音、拼写、语法三层各一组变体，并说明三层的性质不同",
+    "能说明 -ize 与 -ise 的分歧有词源依据，选择取决于刊物惯例而非“哪个更正确”",
+    "能用 gotten 与 -en 分词说明英式与美式在屈折形式上的分流"
+  ],
+  "prereqs": [
+    "w24d1",
+    "c-allomorph",
+    "c-spelling-rule"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-spelling-rule",
+    "c-inflection",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s1-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三层各自走",
+      "body": "说起英式与美式的差别，多数人想到词：lorry/truck、flat/apartment。但变异同时在三个层上发生，而且三层并不同步。\n\n- **语音**：cot 与 caught 在多数美国方言里合并，在英国多数方言里不合并；either 读 /ˈaɪðə/ 或 /ˈiːðə/ 都被词典并列收录。\n- **拼写**：colour/color、centre/center、analyse/analyze。\n- **语法**：英式 have got 与美式 have gotten；英式 at the weekend、美式 on the weekend。\n\n关键在“不同步”：拼写被正字法统一了，发音却仍旧一人一个样；语法差异是整套系统的，不是口误。拿一层的情况去推断另一层，几乎一定会错。",
+      "terms": [
+        {
+          "term": "variation",
+          "zh": "变异",
+          "en": "variation",
+          "note": "同一语言在不同层面上的系统差异"
+        },
+        {
+          "term": "spelling variant",
+          "zh": "拼写变体",
+          "en": "spelling variant",
+          "note": "同一词的两种合法拼法，如 colour/color"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "一表看三层",
+      "body": "“性质”一列最要紧：拼写有权威可查，发音常常两读并存，语法差异是整套系统的。三者都会暴露说话人的来源与场合，但纠正成本完全不同——拼写可以查表改，发音改了会像在演戏，语法改了可能改变语气。",
+      "head": [
+        "层面",
+        "英式",
+        "美式",
+        "性质"
+      ],
+      "rows": [
+        [
+          "拼写",
+          "colour, centre, analyse",
+          "color, center, analyze",
+          "有正字法传统，可查风格表"
+        ],
+        [
+          "发音",
+          "either /ˈaɪðə/",
+          "either /ˈiːðə/",
+          "个人与地区差异，词典并列"
+        ],
+        [
+          "语法",
+          "have got; at the weekend",
+          "have gotten; on the weekend",
+          "系统性差异，非口误"
+        ],
+        [
+          "词汇",
+          "lorry, flat, petrol",
+          "truck, apartment, gas",
+          "最容易被注意，也最容易互借"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-ize 不是“懒写法”",
+      "body": "常有人说 -ize 是美式的偷懒拼法。词源给出的证据相反：-ize 来自希腊语动词后缀 **-izein**，经拉丁 **-izare**、法语 **-iser** 进入英语，16 世纪起英语就写作 -ize；-ise 是后来受法语拼写影响的形式。牛津系列词典至今优先 -ize。\n\nanalyse/analyze 这一对同理：分歧来自希腊 **lysis**（“松开、分解”）在转写时的习惯，-yse 跟着法语，-yze 跟着拉丁化的学术传统。两边都有来路。\n\n所以结论不是“谁更正统”，而是：拼写变体也有词源依据，选择看刊物风格表与读者预期。同一篇文章里混用，才是真正的问题。",
+      "terms": [
+        {
+          "term": "-ize",
+          "zh": "动词后缀",
+          "en": "-ize",
+          "note": "源自希腊 -izein，经拉丁 -izare、法语 -iser"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "gotten 比 got 更老",
+      "body": "英式说 have got，美式说 have gotten。听起来像美式多加了一个音节，其实相反：**gotten 才是保留了古老词尾的那一个**。\n\n-en 是日耳曼语固有的过去分词标记，古英语里 singing 的分词是 sungen、break 的是 brocen。get 的分词曾是 gotten；17 至 18 世纪英国用法逐渐统一到 got，gotten 退出口语；渡海到北美的移民把它带过去，一直用到今天，还发展出“获得”的独立义（I've gotten a new job）。\n\n同一条 -en 还活在 broken、spoken、written、forgotten 里。看见它，就知道这是屈折层，不是派生层。",
+      "steps": [
+        {
+          "period": "古英语",
+          "form": "-en",
+          "note": "强变化动词的过去分词词尾：sungen、brocen"
+        },
+        {
+          "period": "中古英语",
+          "form": "gotten",
+          "note": "get 的过去分词，与 got 并存"
+        },
+        {
+          "period": "17–18 世纪英国",
+          "form": "got",
+          "note": "英国用法逐渐统一到 got，gotten 退出标准口语"
+        },
+        {
+          "period": "17 世纪至今北美",
+          "form": "gotten",
+          "note": "移民带去并保留，另发展出“获得”义"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "发音变体与拼写变体，两套规矩",
+      "body": "两者都不影响理解，但处理方式完全不同。发音变体不宜“纠正”，纠正发音常被听成身份评判；拼写变体可以按风格表统一，因为它是编辑流程的一部分。把这两件事混为一谈，就会出现“你口音不对”这类不该说的话。",
+      "a": "发音变体",
+      "b": "拼写变体",
+      "rows": [
+        {
+          "label": "权威来源",
+          "a": "词典标音与社群习惯，常并列两读",
+          "b": "正字法传统与出版社风格表"
+        },
+        {
+          "label": "变异粒度",
+          "a": "音位、重音，往往一个人一个样",
+          "b": "整词，通常二选一"
+        },
+        {
+          "label": "是否影响理解",
+          "a": "很少，语境会自动补齐",
+          "b": "很少，但会暴露来源与发表渠道"
+        },
+        {
+          "label": "处理方式",
+          "a": "以能否听懂为准，不轻易评判",
+          "b": "按目标刊物的风格表统一"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w24d2-p1",
+      "kind": "mcq",
+      "prompt": "cot 与 caught 在很多美国方言中读法相同，这属于哪一层变异？",
+      "choices": [
+        "语音层",
+        "拼写层",
+        "语法层",
+        "词汇层"
+      ],
+      "answer": 0,
+      "explain": "这是两个元音音位的合并（cot–caught merger），发生在发音层，与拼写、语法、用词都无关。判断层面只看“变的是什么”：声音、字母、句子结构，还是词本身。",
+      "concepts": [
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w24d2-p2",
+      "kind": "mcq",
+      "prompt": "-ise 与 -ize 的关系，下面哪项最准确？",
+      "choices": [
+        "两者都有词源依据，-ize 更贴近希腊拉丁来源，实际选择看刊物惯例",
+        "-ize 是美式的懒写，-ise 才是正确形式",
+        "-ise 是古英语拼法，-ize 是近代发明",
+        "只有 -ise 能用于正式写作"
+      ],
+      "answer": 0,
+      "explain": "-ize 可追溯到希腊 -izein、拉丁 -izare，16 世纪已在英语中使用；-ise 受法语拼写影响而流行。牛津词典优先 -ize，许多英国报刊用 -ise。两边都有来路，所以这是拼写惯例问题，不是对错问题。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w24d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "British English uses analyse where American English writes ___.",
+      "answer": "analyze",
+      "accept": [
+        "analyze"
+      ],
+      "explain": "英式 analyse 对应美式 analyze。差别在希腊 lysis 的转写传统：-yse 跟法语，-yze 跟拉丁化学术传统。这类成对拼写要整词记，不要试图从规则推导。",
+      "concepts": [
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w24d2-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 forgotten 的切分",
+      "parts": [
+        "for",
+        "got",
+        "ten"
+      ],
+      "answer": "forgotten",
+      "explain": "for-（前缀）+ got（词基）+ -ten（过去分词词尾，-en 在 t 后写作 -ten）→ forgotten。这里的 -ten 是屈折词尾，不是派生后缀：它不造新词，只标语法形式。同族还有 got/gotten、write/written。",
+      "concepts": [
+        "c-inflection",
+        "c-word-sum",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w24d2-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）一位作者向英国医学期刊投稿，写到 defense/defence 时拿不准。最合理的做法是：",
+      "choices": [
+        "查该刊风格表，按它的规定统一",
+        "一律改用美式，因为更简洁",
+        "一律改用英式，因为更古老",
+        "在同一篇文章里混用，读者能懂就行"
+      ],
+      "answer": 0,
+      "explain": "这是拼写层的变体，两种拼法都有历史依据，不存在绝对正确。正式出版的惯例是服从目标刊物的风格表；混用会让读者以为校对失职。判断依据是场合与读者，不是“哪个更先进”。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-register"
+      ],
+      "hint": "先问“发给谁”，再问“他们用哪套”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w24d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，判断 gotten 的语法身份与地区分布",
+      "passage": "The British edition reads “he has got into trouble again”, while the American edition of the same novel reads “he has gotten into trouble again”. Neither sentence is a misprint: the two publishing houses follow different house styles, and the participle has simply gone different ways since the seventeenth century.",
+      "word": "gotten",
+      "choices": [
+        "它是 get 的过去分词，北美保留了这个古老形式，英国改用 got",
+        "它是 get 的过去式，只用于口语",
+        "它是错误拼写，应为 got",
+        "它是苏格兰方言专有形式"
+      ],
+      "answer": 0,
+      "strategy": "① 句法：has gotten 位于 has 之后，是完成体的过去分词位置；② 对照：同一部小说的英国版用 has got，说明两者功能相同；③ 时间线：since the seventeenth century 指向屈折形式的分流；④ 排除“错误”：原文明确说 Neither sentence is a misprint。",
+      "explain": "gotten 保留了日耳曼语的 -en 分词词尾，与 broken、spoken、written 同一条规则；英国在 17–18 世纪把 get 的分词统一成 got，北美保留了旧形式。这不是拼写差异，而是屈折形式在两地走了不同的路。",
+      "concepts": [
+        "c-inflection",
+        "c-allomorph",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 1 节：发音、拼写、语法三个层面的变异"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态学：屈折词尾与地区变体"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "-ize/-ise、gotten/got 的词源与地区分布"
+    }
+  ]
+}

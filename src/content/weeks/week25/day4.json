@@ -1,0 +1,290 @@
+{
+  "id": "w25d4",
+  "week": 25,
+  "day": 4,
+  "title": "说的先学会，写的后学会",
+  "tagline": "口语在入学前已到手，学校教的是一套更保守的书面标准",
+  "objectives": [
+    "能说明儿童先习得社区口语、后学习文学标准的顺序，以及这一顺序造成的保守性",
+    "能解释 knight 中不发音字母的来源：拼写冻结了早期读音",
+    "能区分韦伯斯特“成功的标准化”与“失败的改革”，并说明判断依据"
+  ],
+  "prereqs": [
+    "w25d3",
+    "c-spelling-rule",
+    "c-etymology",
+    "c-clipping"
+  ],
+  "concepts": [
+    "c-spelling-rule",
+    "c-etymology",
+    "c-frequency",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s5-1",
+    "kp-s1c8s5-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "顺序不可倒",
+      "body": "一个孩子到上学年龄，已经在社区里习得了口语：音系、语法、常用词，全套都会。学校要教的不是“英语”，而是**文学标准**（literary standard）——一套用于读写的、经过挑选的变体。\n\n顺序决定了结果：口语一直在变，书面标准变得慢得多。书面语因此比口语保守，保存了许多口语已经丢掉的成分。\n\n这也解释了为什么“写得好”常被等同于“写得旧”：书面标准更新慢，今天的正式文体里还留着 19 世纪的句式与拼写。",
+      "terms": [
+        {
+          "term": "literary standard",
+          "zh": "文学标准",
+          "en": "literary standard",
+          "note": "学校教授的、用于读写的规范变体"
+        },
+        {
+          "term": "conservatism",
+          "zh": "保守性",
+          "en": "conservatism",
+          "note": "书面语变化慢，保留旧形式"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "knight 的 k 为什么不发音",
+      "body": "knight 今天读 /naɪt/，k 与 gh 都不发音。但在古英语里，cniht 读 /knixt/，两个音都在。中古英语阶段 gh 变软，15 至 16 世纪 k 脱落、gh 消失；与此同时，印刷已经把拼写固定成 knight。\n\n所以这是一个**拼写化石**：拼写记录的是 15 世纪的读音，读音已经走到 21 世纪。同样的化石还有 write 的 w、gnome 的 g、psalm 的 p，以及昨天讲的 debt 的 b（那是学者回补的，性质不同）。",
+      "steps": [
+        {
+          "period": "古英语",
+          "form": "cniht",
+          "note": "读 /knixt/，k 与 gh 都发音"
+        },
+        {
+          "period": "中古英语",
+          "form": "knight",
+          "note": "/kniçt/，gh 变为软腭擦音"
+        },
+        {
+          "period": "15–16 世纪",
+          "form": "knight",
+          "note": "k 脱落、gh 消失，读 /naɪt/"
+        },
+        {
+          "period": "印刷时代至今",
+          "form": "knight",
+          "note": "拼写冻结，读音继续演变"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "韦伯斯特改了什么、没改成什么",
+      "body": "成功的：color、honor（去掉 u）、center、theater（-re → -er）、defense、offense（-ce → -se）、jail（取代 gaol）、plow（取代 plough）。\n\n失败的：soop（soup）、tung（tongue）、iland（island）。\n\n判据不是“是否更合理”，而是：有没有被词典、学校、印刷网络同时接住。语言改革是网络效应，不是逻辑问题。一个人的拼写方案再自洽，没有出版系统跟进就只是个人笔记。",
+      "terms": [
+        {
+          "term": "spelling reform",
+          "zh": "拼写改革",
+          "en": "spelling reform",
+          "note": "改变拼写规则本身的尝试，多数失败"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "成败对照",
+      "body": "注意表格里“原因”一列：没有一条是审美判断。成功项都满足“与既有传统不冲突 + 有机构采用”，失败项都至少缺一项。这比“哪个更好看”有用得多。",
+      "head": [
+        "提议",
+        "结局",
+        "原因"
+      ],
+      "rows": [
+        [
+          "color / honor",
+          "成",
+          "与拉丁 -or 一致，且被词典与学校采用"
+        ],
+        [
+          "center / theater",
+          "成",
+          "简约，印刷成本低，易于推广"
+        ],
+        [
+          "defense / offense",
+          "成",
+          "与拉丁 -ns- 系一致，法律文本沿用"
+        ],
+        [
+          "jail",
+          "成",
+          "收入词典，后来英式也部分接受"
+        ],
+        [
+          "soop / tung / iland",
+          "败",
+          "与既有拼写差异过大，读者不认"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "拼写改革与拼写标准化",
+      "body": "这条区分能解释为什么拼写改革几乎总是失败：韦伯斯特真正成功的是“在已有变体里选一个”，失败的是“造一个没人写过的新形式”。前者只需要出版系统统一，后者需要全社会重新学习读写。",
+      "a": "改革（reform）",
+      "b": "标准化（standardization）",
+      "rows": [
+        {
+          "label": "动作",
+          "a": "改变拼写规则本身",
+          "b": "在已有变体中选定一个"
+        },
+        {
+          "label": "例子",
+          "a": "soop、tung、iland",
+          "b": "colour/color 二选一"
+        },
+        {
+          "label": "推动者",
+          "a": "个人改革者、团体",
+          "b": "印刷商、词典、学校"
+        },
+        {
+          "label": "成功条件",
+          "a": "需全社会读写习惯同时改变",
+          "b": "只需出版与教育系统统一"
+        },
+        {
+          "label": "结果",
+          "a": "多半失败",
+          "b": "多半成功，分歧留在语言之间"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w25d4-p1",
+      "kind": "mcq",
+      "prompt": "书面语比口语保守，最主要的原因是：",
+      "choices": [
+        "口语在入学前自然习得并持续变化，书面标准由学校与出版维护，更新慢",
+        "书面语的语法比口语复杂",
+        "写作者比说话者更聪明",
+        "书面语没有方言差异"
+      ],
+      "answer": 0,
+      "explain": "口语是自然习得的，随社群日常使用不断变化；书面标准要通过学校、词典、出版来更新，流程长、速度慢。复杂度与智力都不是原因，书面语同样有变体（只是被正字法压平了一部分）。",
+      "concepts": [
+        "c-register",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w25d4-p2",
+      "kind": "mcq",
+      "prompt": "knight 中 k 不发音，这说明：",
+      "choices": [
+        "拼写冻结了早期读音，而读音在此后继续演变",
+        "英语的拼写规则毫无规律",
+        "这个词是从法语借来的",
+        "韦伯斯特删掉了这个音"
+      ],
+      "answer": 0,
+      "explain": "古英语 cniht 的 k 是发音的，15 至 16 世纪脱落，但印刷已把拼写固定为 knight。拼写保留旧读音的痕迹，读音继续走——这正是“拼写化石”。它与借词、与韦伯斯特都无关。",
+      "concepts": [
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w25d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文拼写（韦伯斯特的失败提议）",
+      "sentence": "Webster's proposal to spell soup as ___ was never accepted.",
+      "answer": "soop",
+      "accept": [
+        "soop"
+      ],
+      "explain": "soop 是韦伯斯特提出但未被接受的拼写。与 color、center 相比，它改动过大、缺乏出版系统支持，读者不认。这个失败例子说明：改革的成败取决于网络接受度，不取决于方案是否更“按读音”。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w25d4-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 pronunciation 的切分",
+      "parts": [
+        "pro",
+        "nunci",
+        "ation"
+      ],
+      "answer": "pronunciation",
+      "explain": "pro-（向前）+ nunci（拉丁 nuntiare“宣告”）+ -ation（名词后缀）→ pronunciation“发音”。注意拼写里是 nunci 不是 nounc：动词 pronounce 的元音在名词里变了，这是拉丁词干在派生时的常见交替，也正是“拼写与读音不齐”的一个小例子。",
+      "concepts": [
+        "c-prefix",
+        "c-root",
+        "c-word-sum",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w25d4-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）有人提议把 through 统一改成 thru。判断这个提议最合理的依据是：",
+      "choices": [
+        "看它在哪些语域已被接受（如 drive-thru），以及正式文本是否跟进",
+        "看它是否更符合逻辑",
+        "看它是否比原拼写短",
+        "看它是否来自拉丁语"
+      ],
+      "answer": 0,
+      "explain": "thru 已在美式非正式用法与 drive-thru 这类固定搭配中站住，但正式文本仍多用 through。判断一个拼写提议，要看它被哪些语域接住、有没有机构跟进，而不是逻辑、长度或词源。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-register",
+        "c-inference"
+      ],
+      "hint": "先查它出现在哪些场合，再看正式出版是否采用。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w25d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，判断 knight 的拼写特征",
+      "passage": "The child read the word knight aloud as “k-nig-hit”, and the teacher did not laugh. “The k was pronounced once,” she said, “and so was the gh. Then the sounds dropped out, but the spelling had already been printed a million times. We are reading a photograph of a word that has since walked away.”",
+      "word": "knight",
+      "choices": [
+        "拼写保留了早期读音的痕迹，尽管这些音今天已不发音",
+        "这个词来自法语，所以读音特殊",
+        "这个词的读音在 21 世纪才改变",
+        "这个词是韦伯斯特改革的产物"
+      ],
+      "answer": 0,
+      "strategy": "① 明说：The k was pronounced once, and so was the gh；② 机制：sounds dropped out but the spelling had already been printed；③ 比喻：a photograph of a word that has since walked away 就是“拼写冻结、读音走远”；④ 排除借词与改革：原文没提法语或韦伯斯特。",
+      "explain": "knight 的拼写是 15 世纪的读音照片。印刷在音变完成前把拼写固定，于是今天读 /naɪt/ 却写六个字母。这类词是“书面语保守”的物证，也是拼写与读音脱节的最直观例子。",
+      "concepts": [
+        "c-inference",
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 5 节：口语与书面标准；韦伯斯特拼写改革"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "knight、write、gnome、psalm 的读音史"
+    }
+  ]
+}

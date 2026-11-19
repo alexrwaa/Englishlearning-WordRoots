@@ -1,0 +1,342 @@
+{
+  "id": "w23d4",
+  "week": 23,
+  "day": 4,
+  "title": "挡在哪儿：一张部位表解释了 com-、col-、cor-",
+  "tagline": "鼻音 n 是最爱搬家的音：舌尖前后挪一点，拼写就从 n 变成 m、l、r",
+  "objectives": [
+    "能由前到后排出英语辅音的发音部位",
+    "能解释 con-、ad-、sub- 的形状阶梯，并指出每个形状对应哪个部位",
+    "能说明为什么 in- 在 k、g 前拼写不变而读音变了"
+  ],
+  "prereqs": [
+    "w23d3"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-prefix",
+    "c-word-matrix"
+  ],
+  "knowledgePoints": [
+    "kp-s1c5s4-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "从嘴唇到声门：一条八站的通道",
+      "body": "双唇（p、b、m）→ 唇齿（f、v）→ 齿（θ、ð）→ 齿龈（t、d、s、z、n、l、r）→ 齿龈后（ʃ、ʒ、tʃ、dʒ）→ 硬腭（j）→ 软腭（k、g、ŋ）→ 声门（h）。\n\n发音器官里最灵活的是舌：舌尖、舌叶、舌体各管一段。部位同化之所以容易发生，就因为**舌头只要挪一点点，就能换部位而不动其他特征**。\n\n鼻音 n 是最爱搬家的一个：它的部位只是舌尖轻抵齿龈，往前挪到上唇就是 m，往后挪到软腭就是 [ŋ]。所以拉丁前缀里，凡以鼻音结尾的（in-、con-）都是形状最多的。\n\n记住这条因果：**部位越靠前（唇），同化越容易在拼写上留下痕迹；部位越靠后（软腭），同化越只留在读音里**。"
+    },
+    {
+      "kind": "table",
+      "title": "in- 的六格：部位决定形状，拼写只记一半",
+      "body": "中间两行最值得注意：英语拼写只记录了双唇与流音两种同化。软腭前的 n 实际读 [ŋ]，拼写仍是 n；唇齿音前干脆不同化。所以“拼写照规律”只是一半真理——规律在音里，拼写有时跟得上，有时跟不上。",
+      "head": [
+        "后接音的部位",
+        "后接音",
+        "前缀形状",
+        "例词"
+      ],
+      "rows": [
+        [
+          "双唇",
+          "p、b、m",
+          "im-",
+          "impossible, imbalance, immodest"
+        ],
+        [
+          "唇齿",
+          "f、v",
+          "in-（不变）",
+          "infinite, infirm, involve"
+        ],
+        [
+          "齿／齿龈",
+          "t、d、s、n",
+          "in-（不变；n 前双写）",
+          "intense, insane, innate"
+        ],
+        [
+          "齿龈流音",
+          "l、r",
+          "il- / ir-",
+          "illegal, irregular"
+        ],
+        [
+          "软腭",
+          "k、g",
+          "in-（拼写不变，读音是 [ŋ]）",
+          "incredible, ingratitude"
+        ],
+        [
+          "元音／声门",
+          "任何元音、h",
+          "in-",
+          "inactive, inhabit"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "con- 的五级阶梯与 ad- 的十级阶梯",
+      "body": "con-（共同）的形状完全按部位排：双唇前 com-（compare、combine、commotion）、l 前 col-（collect、collapse、collateral）、r 前 cor-（correct、corrupt、correspond）、元音与 h 前 co-（cooperate、cohere、coincide）、其余 con-（connect、contend、consult）。\n\nad-（朝向）的形状最多，因为它后面的词根几乎什么音都能开头：ac-（accept、acquire）、af-（affect）、ag-（aggressive）、al-（allude）、an-（announce）、ap-（approve）、ar-（arrive）、as-（assist、ascend）、at-（attend），元音前则保持 ad-（adapt、adopt）。\n\n读法建议：不要背这十个形状，背**一条规则 + 一个原形**——把前缀还原成 ad-，看后接音的部位，拼写就是同化的结果。sub- 同理：sup-（support）、suf-（suffer）、sug-（suggest）、sum-（summon）、sur-（surrender）、sus-（sustain）。"
+    },
+    {
+      "kind": "matrix",
+      "title": "port 的矩阵：左边按部位变，右边不动",
+      "body": "纵向看：六个前缀里有两个是“变过形”的——im- 是 in- 在 p 前的形状，sup- 是 sub- 在 p 前的形状；ex-、re-、trans-、de- 都不以鼻音结尾，不必迁就。横向看：-port 在每一格里一字未改，因为词根右边没有邻音来改造它。这就是“能变的才变”。",
+      "base": "port",
+      "prefixes": [
+        {
+          "text": "im",
+          "glossZh": "向内（in- 在 p 前）"
+        },
+        {
+          "text": "ex",
+          "glossZh": "向外"
+        },
+        {
+          "text": "sup",
+          "glossZh": "在下（sub- 在 p 前）"
+        },
+        {
+          "text": "re",
+          "glossZh": "回、再"
+        },
+        {
+          "text": "trans",
+          "glossZh": "穿过"
+        },
+        {
+          "text": "de",
+          "glossZh": "离开、向下"
+        }
+      ],
+      "suffixes": [],
+      "words": [
+        {
+          "w": "import",
+          "parts": [
+            "im",
+            "port"
+          ],
+          "glossZh": "进口；输入"
+        },
+        {
+          "w": "export",
+          "parts": [
+            "ex",
+            "port"
+          ],
+          "glossZh": "出口；输出"
+        },
+        {
+          "w": "support",
+          "parts": [
+            "sup",
+            "port"
+          ],
+          "glossZh": "支撑；支持"
+        },
+        {
+          "w": "report",
+          "parts": [
+            "re",
+            "port"
+          ],
+          "glossZh": "报告；把消息带回来"
+        },
+        {
+          "w": "transport",
+          "parts": [
+            "trans",
+            "port"
+          ],
+          "glossZh": "运输"
+        },
+        {
+          "w": "deport",
+          "parts": [
+            "de",
+            "port"
+          ],
+          "glossZh": "驱逐出境；带走"
+        }
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "四个算式：con- 的部位阶梯",
+      "body": "四个词的共同点是右边都是 con-，形状却依次是 com-、col-、cor-、co-。把最后一个 co- 也记住：n 在元音前站不住，干脆整个脱落，这是部位同化的极端形式。",      "sums": [
+        {
+          "parts": [
+            "com",
+            "mit"
+          ],
+          "result": "commit",
+          "glossZh": "交付；承诺；犯（错）",
+          "note": "con- 在 m 前变 com-；com 与 mit 的两个 m 双写"
+        },
+        {
+          "parts": [
+            "col",
+            "lapse"
+          ],
+          "result": "collapse",
+          "glossZh": "倒塌；崩溃",
+          "note": "con- 在 l 前变 col-"
+        },
+        {
+          "parts": [
+            "cor",
+            "rupt"
+          ],
+          "result": "corrupt",
+          "glossZh": "腐蚀；腐化",
+          "note": "con- 在 r 前变 cor-"
+        },
+        {
+          "parts": [
+            "co",
+            "here"
+          ],
+          "result": "cohere",
+          "glossZh": "黏合；连贯",
+          "note": "con- 在元音前脱落 n，只剩 co-"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w23d4-p1",
+      "kind": "mcq",
+      "prompt": "按部位阶梯，con- 在 m 前应写作：",
+      "choices": [
+        "com-",
+        "col-",
+        "cor-",
+        "con-"
+      ],
+      "answer": 0,
+      "explain": "m 是双唇鼻音，与 p、b 同部位，所以 con- 走 com- 这一格：commotion、commit、combine、compare。注意拼写上会出现两个 m，这正是“同化 + 双写”的叠加：n 变成了 m，原来的 m 还在，于是写成 mm。",
+      "concepts": [
+        "com",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w23d4-p2",
+      "kind": "mcq",
+      "prompt": "incredible 的拼写是 in-，读音却接近 [ɪŋ-]，原因是：",
+      "choices": [
+        "n 在软腭音 k 前发生部位同化，但英语拼写不记录这种变化",
+        "k 使 n 清化，所以听上去不同",
+        "这个前缀本来是 ing-",
+        "这是发音上的例外，没有规律"
+      ],
+      "answer": 0,
+      "explain": "[n] 在 [k] 前变成 [ŋ]，是标准的部位同化（齿龈 → 软腭）。英语正字法只对双唇（im-）与流音（il-、ir-）作出反应，软腭同化留在读音里，拼写不动。这条落差的实用价值：听到 [ɪŋ-] 不要以为词根以 g 开头，写的时候仍是 in-。",
+      "concepts": [
+        "c-allomorph",
+        "in"
+      ]
+    },
+    {
+      "id": "w23d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "Please ___ the two samples before drawing a conclusion.",
+      "answer": "compare",
+      "accept": [
+        "compare"
+      ],
+      "explain": "com-（con- 在 p 前）+ par（相等）+ -e → 放在一起看是否相等。par- 表“平等”，同族有 par、parity、disparate（不相等 → 迥异）。若写成 conpare，就把同化的结果又还原回去了，英语里没有这个形式。",
+      "concepts": [
+        "com",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w23d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 gen- 意为“出生、族类”，congenial 最可能是：",
+      "choices": [
+        "意气相投的、令人愉快的",
+        "先天遗传的",
+        "同族的、有血缘关系的",
+        "世代相传的"
+      ],
+      "answer": 0,
+      "explain": "con-（共同）+ gen（族类）+ -ial →“同一种类的”，引申为气味相投、令人愉快。三个干扰项都踩在 gen- 上，区别全在后缀与搭配：congenital 是 con- + genit（生）+ -al，“与生俱来的”。同一个词根，两个词靠后缀分家——这类词必须按词记，不能只靠词根推。",
+      "concepts": [
+        "c-inference",
+        "con",
+        "gen"
+      ],
+      "hint": "先把 con- 与 gen- 分开，再看 -ial 造的是什么词性。"
+    },
+    {
+      "id": "w23d4-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“接受”的切分",
+      "parts": [
+        "ac",
+        "cept"
+      ],
+      "answer": "accept",
+      "explain": "ac-（ad- 在 c 前）+ cept（拿、取）→ 接受。ad- 的 d 在 c 前变成 c，两个 c 只写一个。同族：except（ex- + cept，拿出去 → 除外）、intercept（inter- + cept，中途拿 → 拦截）、concept（con- + cept，一起拿住 → 概念）。一个词根，四个前缀形状，全部按部位同化。",
+      "concepts": [
+        "c-word-sum",
+        "ac",
+        "cept"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w23d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 accede 的含义",
+      "passage": "After two weeks of talks, the board finally acceded to the union's demands, though it had rejected every one of them in public.",
+      "word": "acceded",
+      "choices": [
+        "同意了、应允了",
+        "拒绝了、驳回了",
+        "加速推进了",
+        "接手、继承了"
+      ],
+      "answer": 0,
+      "strategy": "① 词形：acceded 去掉屈折词尾 -ed，剩下 accede = ac-（ad- 在 c 前）+ cede（走）；② 句法：though 引导让步，后半句 rejected 是“先前”的行为，与 finally 后的动作相反；③ 语境：talks 之后对 demands 的动作，只能是“让步／同意”；④ 排除：拒绝与 finally 冲突，加速与继承都无对应线索。",
+      "explain": "accede 是“同意、应允”，字面是“走到一起、让一步”。cede 表“走、让”，同族有 proceed（向前走）、recede（往后退）、concede（完全让出 → 承认）、secede（分开走 → 脱离）。前缀的形状（ac- 来自 ad-）在这里只是拼写证据，真正定意的是 cede 的“走”与语境里的让步关系。",
+      "concepts": [
+        "c-inference",
+        "ac",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 5 章第 4 节：发音部位与部位同化"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "发音部位表与英语辅音的分类"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "con-/ad-/sub- 各同化形式的拉丁原形"
+    }
+  ]
+}

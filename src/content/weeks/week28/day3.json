@@ -1,0 +1,253 @@
+{
+  "id": "w28d3",
+  "week": 28,
+  "day": 3,
+  "title": "喉音着色与加长：一个消失的音留下的指纹",
+  "tagline": "*h₂ 走过的地方，e 变成 a；*h₃ 走过的地方，e 变成 o——音没了，痕迹还在",
+  "objectives": [
+    "能说出 *h₁ *h₂ *h₃ 各自对邻接元音的作用（不着色／变 a／变 o）",
+    "能解释“加长”：喉音脱落时长元音是怎么来的",
+    "能判断一条 a／o 交替是否真的需要设喉音，避免过度使用"
+  ],
+  "prereqs": [
+    "w28d2"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s5-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "着色：三个喉音，三种染料",
+      "body": "三个喉音在消失之前，会改变紧邻的元音。规律很整齐：\n\n- ***h₁**：不改变元音，*e 还是 *e；\n- ***h₂**：把 *e 拉成 **a**（a-着色）；\n- ***h₃**：把 *e 拉成 **o**（o-着色）。\n\n于是祖语里本来罕见的 *a 与相当常见的 *o，有一大批并不是“原本就有”，而是被喉音染出来的。这条规则一次解决了第 2 天提到的分布怪现象：为什么 *a 那么少？因为真正的 *a 本来就少，见到的多半是 *h₂ 的产物。\n\n这也解释了为什么同一个词根在不同分支里元音不同：喉音在各支脱落的时间与方式不一样，染色结果就被带进了各自的形态里。",
+      "terms": [
+        {
+          "term": "colouring",
+          "zh": "着色",
+          "en": "colouring",
+          "note": "喉音使邻接的 *e 变成 a 或 o"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四组对照：着色与加长各看一次",
+      "body": "前两行看**着色**（元音变色，长度不变），后两行看**加长**（喉音在辅音前脱落，前面的元音被拉长）。注意英语列常常“什么都没留”：不是没关系，而是痕迹被后来的音变又磨掉了——这正是同源判断不能只看表面的原因。",
+      "head": [
+        "祖语",
+        "机制",
+        "拉丁",
+        "希腊",
+        "英语"
+      ],
+      "rows": [
+        [
+          "*h₂er-“犁”",
+          "a-着色",
+          "arāre（耕作）",
+          "aroō",
+          "ear（古义“耕地”）"
+        ],
+        [
+          "*h₃ekʷ-“眼”",
+          "o-着色",
+          "oculus",
+          "osse（诗体）",
+          "eye"
+        ],
+        [
+          "*steh₂-“站”",
+          "加长：eh₂ → ā",
+          "stāre（站立）",
+          "histēmi",
+          "stand"
+        ],
+        [
+          "*deh₃-“给”",
+          "加长：eh₃ → ō",
+          "dō／dare、dōnum（礼物）",
+          "didōmi",
+          "donate（借词）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "加长：音丢了，长度留下",
+      "body": "**加长**（lengthening）的机制是“补偿”：喉音在元音后面、又在辅音前面时守不住，脱落了；它原来占的那一点时间没有凭空消失，而是并进了前面的元音，于是短元音变长元音。\n\n所以 *eh₁ → **ē**，*eh₂ → **ā**，*eh₃ → **ō**。三种颜色配三种长度，正好是六个不同的结果。\n\n这条机制的价值在于：它让“长元音”不再是原始材料，而是**可推导的结果**。在此之前，祖语里一堆来历不明的 ē ā ō 只能硬记；有了喉音，它们全都有了出处。判断一个理论好不好，这是很实际的标准——不是“听起来合理”，而是“能少记多少例外”。",
+      "terms": [
+        {
+          "term": "compensatory lengthening",
+          "zh": "补偿性延长",
+          "en": "compensatory lengthening",
+          "note": "一个音脱落，其时长并入邻接元音使之变长"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "什么时候该请出喉音，什么时候不该",
+      "body": "喉音理论很有解释力，也因此容易被滥用：见到 a／o 就说“喉音着色”，这是循环论证。合理的做法是先看有没有**独立证据**，再决定要不要设。下表给一个粗判据。",
+      "a": "该设喉音",
+      "b": "不必设喉音",
+      "rows": [
+        {
+          "label": "证据",
+          "a": "同一词根在各支出现 a／o 与长元音的系统对应，且赫梯语有 ḫ",
+          "b": "只有一个分支出现 a，其他分支都是 e"
+        },
+        {
+          "label": "收益",
+          "a": "能解释多条对应，减少例外",
+          "b": "设了也不减少例外，只是多一个符号"
+        },
+        {
+          "label": "风险",
+          "a": "过度构拟，把体系撑得过大",
+          "b": "漏掉真实的音变条件"
+        },
+        {
+          "label": "写法",
+          "a": "*ph₂tḗr",
+          "b": "*pətēr（简写，够用就不标）"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "这套东西的边界",
+      "body": "必须把话说清楚：喉音是**重构假说**，不是出土的实物。它的存在有强证据（赫梯语 ḫ、四种语言的长元音对应、希腊增音），它的**音值**没有证据——写 [χ]、[x]、[ʁ] 都只是示意。\n\n数量也没有定论：传统三个，有人构拟一个，有人构拟到八个以上；还有人主张某些“着色”只是普通的元音同化。\n\n所以正确的态度是：**用它来解释，不用它来断言**。写“*h₂ 解释了这里的 a”，可以；写“祖语的这个音读作 [χ]”，就超出了材料允许的范围。这条界线在整门课里都适用——凡加星号者，皆同此理。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w28d3-p1",
+      "kind": "mcq",
+      "prompt": "*h₂ 对邻接元音的作用是：",
+      "choices": [
+        "把 *e 变成 a（a-着色），元音长度不变",
+        "把 *e 变成 o（o-着色）",
+        "不改变元音，只让它变长",
+        "使前面的辅音变成擦音"
+      ],
+      "answer": 0,
+      "explain": "三个喉音的分工要背准：*h₁ 不着色，*h₂ 出 a，*h₃ 出 o。若把 *h₂ 记成 o-着色，*h₃ekʷ- 这类词的元音来源就全乱了。记忆法：编号越大，元音越“圆”——h₂→a，h₃→o。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w28d3-p2",
+      "kind": "mcq",
+      "prompt": "拉丁 stāre 的长 ā 是怎么来的？",
+      "choices": [
+        "祖语 *steh₂- 中的喉音在辅音前脱落，时长并入前面的元音，*eh₂ → ā",
+        "拉丁语把所有短 a 都拉长了",
+        "ā 是从希腊语借来的音值",
+        "长 ā 是书写习惯，实际读音是短 a"
+      ],
+      "answer": 0,
+      "explain": "补偿性延长的标准案例：*steh₂- → *stā-。希腊 histēmi、英语 stand 同出这个词根，可以交叉验证。若说“拉丁把所有短 a 拉长”，立刻会被大量反例推翻；长 ā 也不是拼写习惯，拉丁诗律里长短对立是硬性的。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w28d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个语言学英文术语",
+      "sentence": "When a laryngeal is lost before a consonant, its timing is transferred to the preceding vowel; the result is called compensatory ___ .",
+      "answer": "lengthening",
+      "accept": [
+        "lengthening",
+        "lengthen"
+      ],
+      "explain": "补偿性延长（compensatory lengthening）不是印欧语独有的：法语丢了词尾的 s，前面的元音就变长（faire 的 è）；日语、英语史上也有同类现象。认准机制——**丢一个，长一点**——就能跨语言识别。",
+      "concepts": [
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w28d3-p4",
+      "kind": "mcq",
+      "prompt": "下面哪种情形最**不**值得为它构拟一个喉音？",
+      "choices": [
+        "只有一个分支出现 a，其余分支都是 e，且没有长元音或 ḫ 的旁证",
+        "同一词根在拉丁有 ā、在希腊有 ē、在梵语有 ā，且赫梯语对应位置有 ḫ",
+        "某词根在各支都出现 a／o 交替，无法用已知元音解释",
+        "希腊语词首多出一个 a，而同源的其他分支没有"
+      ],
+      "answer": 0,
+      "explain": "判据是“设了能不能减少例外”。孤立的一次 a 完全可以用该分支自己的音变解释，设喉音只会增加符号而不增加解释力。其余三项都涉及跨分支的系统性证据，正是喉音假说的经典依据。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w28d3-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）*h₃ekʷ-“眼”在拉丁作 oculus，英语作 eye。词首元音是 o 而不是 e，最合理的解释是：",
+      "choices": [
+        "*h₃ 把 *e 着成 o，随后喉音脱落，o 被后续音变吞掉",
+        "拉丁语把所有的 e 都变成了 o",
+        "英语 eye 借自拉丁 oculus",
+        "o 是后来为了好读加进去的元音"
+      ],
+      "answer": 0,
+      "explain": "这是 o-着色的教科书案例：祖语 *e → *o（受 *h₃ 影响），此后拉丁保留 o（oculus），日耳曼把词形磨成 *augōn 再变 eye。同根还有希腊 osse、梵语 akṣi，元音分布正好对得上着色模型。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ],
+      "hint": "先问：这个 o 是原本的，还是被染出来的？"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w28d3-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 conditioned 在句中的含义",
+      "passage": "The vowel in this root is not free to vary: it is conditioned by the consonant that follows. Where a laryngeal once stood, we find a; where it stood and then vanished before another consonant, we find a long vowel instead. The distribution is therefore predictable rather than arbitrary.",
+      "word": "conditioned",
+      "choices": [
+        "受相邻音的影响而被决定的",
+        "以…为前提条件的（此处指语法条件句）",
+        "经过人为调整以符合标准的",
+        "在特定方言中才有区别的"
+      ],
+      "answer": 0,
+      "strategy": "① 对照结构：not free to vary ... conditioned by the consonant that follows，把“不自由”与“受邻音决定”绑在一起；② 两个 where 句给出条件与结果；③ 结论 predictable rather than arbitrary 排除“随意”；④ 排除“条件句”：那是 conditioned 在逻辑句法里的用法。",
+      "explain": "音系学里 conditioned 指“受环境制约的”，与 free（自由变体）相对。这个词的日常义（有条件的、受限制的）与术语义同源，推起来不难，但要注意它在不同学科里的落点不同：逻辑学指条件命题，心理学指条件反射。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 5 节：喉音着色与加长、长元音的来源"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "*steh₂-、*deh₃-、*h₃ekʷ- 的构拟与各支元音对应"
+    }
+  ]
+}

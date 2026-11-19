@@ -1,0 +1,282 @@
+{
+  "id": "w26d4",
+  "week": 26,
+  "day": 4,
+  "title": "正确性是相对的",
+  "tagline": "规定主义的问题不在提出规范，而在把规范绝对化",
+  "objectives": [
+    "能说明“只有一套正确用法”为何相当于“只许一个人用一个名字”",
+    "能用 lite、irregardless、ask/aks 三例说明评判标准是交际效果而非先天优劣",
+    "能说明 aks 有古英语来源，不是现代口误，并据此判断相关评价"
+  ],
+  "prereqs": [
+    "w26d3",
+    "c-clipping",
+    "c-prefix",
+    "c-register"
+  ],
+  "concepts": [
+    "c-clipping",
+    "c-prefix",
+    "c-allomorph",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s9-1",
+    "kp-s1c8s9-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "只有一个名字的世界",
+      "body": "教材的类比很直接：如果规定一个人只能有一个名字、一种称呼，在任何场合都不许变，那显然荒谬——对父母、对同事、对医生，我们本来就用不同的称呼。语言也一样。\n\n把某一种标准当作唯一正确，等于否认区域方言、族群方言在其语境中的同等效力。\n\n注意这里的偷换：**“正确”被换成了“唯一”**。规定主义的问题不在提出规范（规范有用），而在把规范绝对化，进而把不符合规范的人判成不会说话。",
+      "terms": [
+        {
+          "term": "prescriptivism",
+          "zh": "规定主义",
+          "en": "prescriptivism",
+          "note": "把某套规范当作唯一正确标准的立场"
+        },
+        {
+          "term": "ethnic dialect",
+          "zh": "族群方言",
+          "en": "ethnic dialect",
+          "note": "与特定族群身份相连的变体，有其内部规范"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三组争议，三种判断",
+      "body": "- **lite 与 light**：lite 起于 1960 年代商业广告（lite beer），今天在“低负担、不严肃”的语境里站住了（lite version、lite reading）。正式文件仍写 light。\n- **irregardless 与 regardless**：irregardless 是 ir- + regardless 的重复否定，19 世纪末以来见于美国用法，长期被视作错误，但在口语中存在。正式写作仍以 regardless 为准。\n- **ask 与 aks**：见下一条，它根本不是“新错误”。\n\n三组的共同点：没有一组能靠“哪个更合乎逻辑”判出胜负。判断要问：在什么场合、对谁、效果如何。",
+      "terms": [
+        {
+          "term": "communicative effect",
+          "zh": "交际效果",
+          "en": "communicative effect",
+          "note": "用法在特定场合达成交际目的的程度"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "aks 比 ask 更老",
+      "body": "把 aks 当成“把 ask 说反了”，是把历史当成了道德问题。古英语里 **acsian** 与 **ascian** 两种形式并存，acs- 是较早的形式；中古英语继续并存，北方多用 ask；17 世纪以后标准书面语固定为 ask。\n\n**音位置换**（metathesis）在语言史里极常见：brid 变成 bird、þurh 变成 through、acsian 变成 ascian。今天 aks 在部分方言与非洲裔美国人英语（AAVE）中系统存在，有它自己的音系规则，不是随机口误。\n\n所以正确的说法是：aks 是一条古老的变体线，在标准书面语里退出了，在别的语域里活了下来。",
+      "steps": [
+        {
+          "period": "古英语",
+          "form": "acsian / ascian",
+          "note": "两种形式并存，acs- 较早"
+        },
+        {
+          "period": "中古英语",
+          "form": "axe / ask",
+          "note": "两种继续并存，北方多用 ask"
+        },
+        {
+          "period": "17 世纪后",
+          "form": "ask",
+          "note": "标准书面语固定为 ask"
+        },
+        {
+          "period": "今日",
+          "form": "aks / æks",
+          "note": "部分方言与 AAVE 中系统存在，非随机口误"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个评判维度",
+      "body": "四个维度都指向同一句话：看场合与交际效果。它们也解释了为什么同一句话在两个房间里评价相反——不是语言变了，是维度变了。判断者若只盯着“合不合规则”，就会漏掉另外三个变量。同一句话：看场合与交际效果。它们也解释了为什么同一句话在两个房间里评价相反——不是语言变了，是维度变了。",
+      "head": [
+        "维度",
+        "问题",
+        "影响"
+      ],
+      "rows": [
+        [
+          "场合",
+          "正式还是随意",
+          "决定可接受度"
+        ],
+        [
+          "受众",
+          "对方能否顺畅理解",
+          "决定交际效果"
+        ],
+        [
+          "媒介",
+          "书面还是口头",
+          "决定容错空间"
+        ],
+        [
+          "后果",
+          "误解的代价多大",
+          "决定是否需要更保守"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "标准与正确，不是同一个词",
+      "body": "标准是社会学概念，正确是交际概念。两者常常重合，但不总是。把两者等同，就会出现两种错误：拿标准去否定别人的母语，或拿“能懂”当借口无视场合。",
+      "a": "标准",
+      "b": "正确",
+      "rows": [
+        {
+          "label": "定义",
+          "a": "权威确立、覆盖面广的规范",
+          "b": "在该场合达成交际目的"
+        },
+        {
+          "label": "来源",
+          "a": "词典、学校、出版",
+          "b": "听者与读者的理解与反应"
+        },
+        {
+          "label": "可变性",
+          "a": "随时间移动",
+          "b": "随场合移动"
+        },
+        {
+          "label": "例证",
+          "a": "正式论文用 regardless",
+          "b": "朋友间说 irregardless 也能通"
+        },
+        {
+          "label": "误用",
+          "a": "把标准当唯一正确",
+          "b": "以“能懂”为借口无视场合"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w26d4-p1",
+      "kind": "mcq",
+      "prompt": "按本课的说法，规定主义的真正问题是：",
+      "choices": [
+        "把一种标准绝对化，否认其他变体在其语境中的效力",
+        "提出了任何规范",
+        "记录了实际用法",
+        "承认标准会变化"
+      ],
+      "answer": 0,
+      "explain": "规定本身有用：正式文本需要统一规范。问题在“绝对化”——把某套规范当成唯一正确，进而否定区域方言、族群方言在其场合的有效性。教材用“只许一个人用一个名字”来类比这种荒谬。",
+      "concepts": [
+        "c-register"
+      ]
+    },
+    {
+      "id": "w26d4-p2",
+      "kind": "mcq",
+      "prompt": "irregardless 用在正式论文里，最准确的判断是：",
+      "choices": [
+        "正式写作以 regardless 为准，irregardless 属非正式口语，语域不合但不是“绝对错误”",
+        "任何场合都是语法错误，应彻底禁用",
+        "它是 regardless 的正确拼写",
+        "它是 18 世纪的标准形式，应恢复使用"
+      ],
+      "answer": 0,
+      "explain": "irregardless 是 ir- + regardless 的重复否定，19 世纪末以来见于美国用法，口语中存在，但正式出版普遍不用。判断的关键是语域：论文该用 regardless；说它“绝对错误”则把语域问题说成了对错问题。",
+      "concepts": [
+        "c-prefix",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w26d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文名词",
+      "sentence": "Judging a usage by its communicative ___ asks whether it works for this audience in this situation.",
+      "answer": "effect",
+      "accept": [
+        "effect"
+      ],
+      "explain": "communicative effect（交际效果）是本课的核心判据：同一形式在不同场合效果不同，评价就该随之变化。这不是相对主义，而是把“场合、受众、媒介、后果”四个变量纳入判断。",
+      "concepts": [
+        "c-register"
+      ]
+    },
+    {
+      "id": "w26d4-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 irregardless 的切分",
+      "parts": [
+        "ir",
+        "regard",
+        "less"
+      ],
+      "answer": "irregardless",
+      "explain": "ir-（in- 在 r 前的同化，“不”）+ regard（“顾及”）+ -less（“没有”）→ irregardless，字面是“不顾及”，与 regardless 同义。ir- 与 -less 都表否定，所以它被讥为“重复否定”；但从构词看，它完全合乎英语规则，问题只在语域与冗余。",
+      "concepts": [
+        "c-prefix",
+        "c-suffix",
+        "c-word-sum",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w26d4-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）一位面试官因为应聘者说 aks 而判定其英语差。最合理的评价是：",
+      "choices": [
+        "这是把一种有历史的方言变体当成缺陷，判断应回到岗位实际需要的交际场合",
+        "判断正确，aks 是错误发音",
+        "判断正确，aks 是懒惰所致",
+        "应当禁止所有方言进入职场"
+      ],
+      "answer": 0,
+      "explain": "aks 源于古英语 acsian，在部分方言与 AAVE 中系统存在，不是口误。招聘该看岗位需要的能力与语域（如是否需要面向客户的标准语），而不是把口音当能力指标。这是“以交际效果评判”，不是“什么都行”。",
+      "concepts": [
+        "c-allomorph",
+        "c-register",
+        "c-inference"
+      ],
+      "hint": "把“这个岗位需要什么语域”与“这个变体有没有历史”分开问。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w26d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，判断 irregardless 在句中的语域",
+      "passage": "Her editor circled irregardless twice and wrote in the margin: “Not in this journal.” In the pub nobody blinked when she used it. The word had not changed; the room had. What counted as a mistake in one place was simply marked, in the other, as talk.",
+      "word": "irregardless",
+      "choices": [
+        "属非正式口语，正式出版物按风格不用，但并非在所有场合都算错",
+        "在任何场合都是语法错误",
+        "是 regardless 的正确拼写",
+        "是 18 世纪的标准形式"
+      ],
+      "answer": 0,
+      "strategy": "① 对比场景：editor/journal 与 pub 的评价相反；② 明说：The word had not changed; the room had；③ 措辞：marked, in the other, as talk 说明口语里只是“说话”；④ 排除绝对错误：同一词在酒吧无人侧目。",
+      "explain": "这段文字把“语域”讲得比定义更清楚：同一个词，在期刊里是错误标记，在酒吧里只是说话。判断用法要看房间，而不是给词本身贴永久标签。",
+      "concepts": [
+        "c-inference",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 9 节：正确性的相对性；lite、irregardless、ask/aks"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "irregardless 的用法标注；ask/aks 的历史"
+    }
+  ]
+}

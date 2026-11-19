@@ -1,0 +1,303 @@
+{
+  "id": "w24d6",
+  "week": 24,
+  "day": 6,
+  "title": "差异攒够了，就是另一门语言",
+  "tagline": "英语与德语同出西日耳曼语，分开的证据写在辅音里",
+  "objectives": [
+    "能说明英语与德语同属西日耳曼语支，并指出“语言／方言”的分界依赖互通度与政治",
+    "能举出三组英德辅音对应，并区分格林定律与高地德语辅音推移",
+    "能用 pater/father、tres/three 说明系统音对应如何证明同源"
+  ],
+  "prereqs": [
+    "w24d5",
+    "c-cognate",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-etymology",
+    "c-transparency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s2-5"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "同源不等于相同",
+      "body": "英语与德语同出**西日耳曼语**（West Germanic），荷兰语、弗里斯兰语也在这一支。分开一千多年，两边各自音变，今天已经不能互通。\n\n“语言”与“方言”的分界不在结构，而在互通度与政治：瑞典语、挪威语、丹麦语之间大体能通，却各自称语言；汉语各方言之间常常不通，却共用一个名称。Scots 是语言还是方言，取决于你问谁。\n\n所以“变体沉淀成新语言”不是某一天发生的事件，而是一个连续过程被某个政治时刻截断、命名。",
+      "terms": [
+        {
+          "term": "West Germanic",
+          "zh": "西日耳曼语",
+          "en": "West Germanic",
+          "note": "英语、德语、荷兰语、弗里斯兰语的共同祖先分支"
+        },
+        {
+          "term": "mutual intelligibility",
+          "zh": "互通度",
+          "en": "mutual intelligibility",
+          "note": "双方能否不经过学习就互相听懂"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "英德对应：两套音变",
+      "body": "表格分两类，别混。前三行与最后一行是**高地德语辅音推移**（High German consonant shift），只有德语这一支参加，英语没参加；father、three 两行属更早的**格林定律**，影响整个日耳曼语支，所以英语和德语都变了，只是变得一样。",
+      "head": [
+        "英语",
+        "德语",
+        "对应",
+        "所属音变"
+      ],
+      "rows": [
+        [
+          "water",
+          "Wasser",
+          "t → s",
+          "高地德语辅音推移"
+        ],
+        [
+          "book",
+          "Buch",
+          "k → ch",
+          "高地德语辅音推移"
+        ],
+        [
+          "make",
+          "machen",
+          "k → ch",
+          "高地德语辅音推移"
+        ],
+        [
+          "father（拉丁 pater）",
+          "Vater",
+          "p → f",
+          "格林定律"
+        ],
+        [
+          "three（拉丁 tres）",
+          "drei",
+          "t → th",
+          "格林定律"
+        ],
+        [
+          "tooth",
+          "Zahn",
+          "t → ts",
+          "高地德语辅音推移"
+        ]
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "pater 与 father",
+      "body": "一条 p→f 的规则，把拉丁 pater、希腊 patēr 与英语 father 连在一起。这不是个别巧合，而是整批词的系统对应：piscis/fish、pes/foot、cornu/horn 都按同一方向变。\n\n看到系统对应，就不必再怀疑同源。反过来，如果只有一两个词对得上，其余全不合规律，那更可能是借词或巧合。",
+      "steps": [
+        {
+          "period": "原始印欧语",
+          "form": "*ph₂tḗr",
+          "note": "“父亲”，p 音开头"
+        },
+        {
+          "period": "拉丁语／希腊语",
+          "form": "pater / patēr",
+          "note": "保留 p"
+        },
+        {
+          "period": "原始日耳曼语",
+          "form": "*fadēr",
+          "note": "p → f，格林定律的第一步"
+        },
+        {
+          "period": "古英语至现代",
+          "form": "fæder → father",
+          "note": "d 保留，词尾弱化"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "方言与语言：定义之争",
+      "body": "语言学常用互通度作标准：能互相听懂就是同一语言的不同方言。但这个标准一遇到连续体就失效——甲能懂乙，乙能懂丙，甲却听不懂丙，边界画在哪里都是任意的。\n\n另一条标准是政治：军队与词典。国家用教育、媒体、标准语把一个变体扶正，它就成了“语言”。\n\n所以问“Scots 是语言吗”没有纯语言学的答案。能回答的是事实：它有独立的文学传统、自己的词典、与英语互通度有限。定义之争留在定义层，事实层要清楚。",
+      "terms": [
+        {
+          "term": "dialect",
+          "zh": "方言",
+          "en": "dialect",
+          "note": "有系统差异的一支变体，边界常由政治而非结构决定"
+        },
+        {
+          "term": "language split",
+          "zh": "语言分化",
+          "en": "language split",
+          "note": "变体差异累积到无法通话，被视为不同语言"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "分化模型与接触模型",
+      "body": "两个模型各解释一半事实。只用树模型，你会以为英语是“纯种”日耳曼语，解释不了成层的法语与拉丁词；只用波浪模型，你会看不见 pater/father 这种规则对应的规律性。真实历史是两者叠加。",
+      "a": "树模型（分化）",
+      "b": "波浪模型（接触）",
+      "rows": [
+        {
+          "label": "隐喻",
+          "a": "家族树，一枝分两枝",
+          "b": "涟漪，越近越像"
+        },
+        {
+          "label": "解释什么",
+          "a": "同源语言的规则音对应（pater/father）",
+          "b": "借词、双式词、方言过渡带"
+        },
+        {
+          "label": "解释不了",
+          "a": "英语里成层的法语、拉丁词",
+          "b": "系统音变的规律性"
+        },
+        {
+          "label": "英语的位置",
+          "a": "日耳曼语一支",
+          "b": "诺曼法语、拉丁、诺斯语的接触产物"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w24d6-p1",
+      "kind": "mcq",
+      "prompt": "英语 three 与德语 drei、拉丁 tres 的对应说明：",
+      "choices": [
+        "三者同出印欧语，t 在日耳曼语中变为 th",
+        "英语从德语借了 three",
+        "这只是巧合，没有规律",
+        "德语从拉丁借了 drei"
+      ],
+      "answer": 0,
+      "explain": "tres/drei/three 是格林定律的标准例证：原始印欧语的 t 在日耳曼语支变为 þ（今写作 th）。三个词不是互相借的，而是同一祖先的分头演变；借词不会呈现这种成系统的音对应。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w24d6-p2",
+      "kind": "mcq",
+      "prompt": "water/Wasser 与 father/Vater 的差异属于：",
+      "choices": [
+        "前者是高地德语辅音推移，后者是格林定律，两套不同的音变",
+        "同一套音变的两个例子",
+        "都是借词造成的",
+        "都是拼写改革的结果"
+      ],
+      "answer": 0,
+      "explain": "water/Wasser 的 t→s 只发生在德语这一支，是高地德语辅音推移；father/Vater 的 p→f 发生在整个日耳曼语支（英语也变了），是更早的格林定律。两套音变时代与范围都不同，混在一起会把历史顺序搞乱。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w24d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文字母",
+      "sentence": "Under Grimm's law, Latin p- corresponds to English ___.",
+      "answer": "f",
+      "accept": [
+        "f",
+        "f-"
+      ],
+      "explain": "格林定律中 p→f、t→þ、k→h。所以 pater 对 father、pes 对 foot、piscis 对 fish。记方向：拉丁保留古音，日耳曼语支发生了这套擦化。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w24d6-p4",
+      "kind": "mcq",
+      "prompt": "“语言”与“方言”的分界，最准确的描述是：",
+      "choices": [
+        "取决于互通度与政治共同体的认定，不是纯结构问题",
+        "由词汇量决定",
+        "由是否有文字决定",
+        "由语法复杂度决定"
+      ],
+      "answer": 0,
+      "explain": "结构上，方言与语言没有本质差别，差别在互通度与政治认定。北欧语言互通却各称语言，汉语方言不通却共用一个名称，都说明这一点。词汇量、文字、语法复杂度都不是判据。",
+      "concepts": [
+        "c-etymology",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w24d6-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）荷兰语 tand 与英语 tooth 对应。按音变规律，这说明：",
+      "choices": [
+        "英语在这一组词里把早期的 t 变成了 th",
+        "荷兰语从英语借了 tand",
+        "英语从荷兰语借了 tooth",
+        "两者只是意义相同，没有词源关系"
+      ],
+      "answer": 0,
+      "explain": "tand/tooth 的 t : th 对应是日耳曼语支内部的规则变化，与 three/drei、foot/Fuß 同型。判断同源看的是成系统的对应，而不是词形是否相似；借词不会遵守整套音变规律。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ],
+      "hint": "先找“同一组里还有哪些词按同样方向变”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w24d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 Zahn 的含义",
+      "passage": "Her German colleague pointed at the x-ray and said “Zahn”. It took her a moment: the same sound shift that turned Latin dent- into English tooth had turned the old t into a German z, so the word she heard was the same everyday word she used at the dentist's.",
+      "word": "Zahn",
+      "choices": [
+        "德语中与英语 tooth 同源的“牙齿”",
+        "德语中表示“疼痛”的词",
+        "德语中表示“X 光”的词",
+        "一个拉丁语医学借词"
+      ],
+      "answer": 0,
+      "strategy": "① 语境：x-ray 与 dentist 把范围锁在牙齿；② 音变线索：原文说 old t 在德语变成 z；③ 同源提示：与英语 tooth 对应；④ 排除借词：句中明确说 it was the same everyday word，不是拉丁术语。",
+      "explain": "Zahn 是德语“牙齿”，与英语 tooth 同源。t→ts（写作 z）是高地德语辅音推移的一部分，与 water/Wasser 的 t→s 同属一套。这条音变把两个看起来毫无相似处的词连在一起，正好说明“同源”要靠规律判断，不能靠长相。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 2 节：西日耳曼语与语言分化"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "历史语言学：格林定律与语言接触"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "father、three、tooth、water 的语源与音变"
+    }
+  ]
+}

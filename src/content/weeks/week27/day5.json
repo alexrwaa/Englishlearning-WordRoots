@@ -1,0 +1,263 @@
+{
+  "id": "w27d5",
+  "week": 27,
+  "day": 5,
+  "title": "星号与链移：构拟是怎么写出来的",
+  "tagline": "*pətēr 前面的那颗星不是装饰：它在说“这个词没有任何人说过，是我们推出来的”",
+  "objectives": [
+    "能说明星号的约定含义，并把它与“文献实证”区分开",
+    "能列出三组齿音在日耳曼、拉丁、希腊、梵语里的各自去向",
+    "能解释链移为什么必须三组一起动，以及维尔纳定律补上了哪一块"
+  ],
+  "prereqs": [
+    "w27d4"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-etymology",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s3-3",
+    "kp-s1c10s3-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 9,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "星号是一句声明",
+      "body": "语言学写作里，形式前加星号是**构拟**（reconstruction）的标记：***pətēr** 意为“我们根据各分支的对应，反推祖语里应当有这样一个词，但它没有被任何文献记录”。没有星号的形式是**有实证的**：拉丁 pater、希腊 patēr、梵语 pitar、哥特语 fadar，都能在写本或铭文里指给你看。\n\n星号不等于“不确定”，它等于“非实证”。有些构拟的把握非常高（*pətēr 几乎无争议），有些则争议很大（喉音的具体音值，见下周）。**同一个星号，背后的确信度可以差很远**——读论文时要看作者给的证据，而不是看有没有星号。\n\n另外注意：星号在句法学里另有含义（标不合语法的句子），看到星号先看语境。",
+      "terms": [
+        {
+          "term": "reconstruction",
+          "zh": "构拟",
+          "en": "reconstruction",
+          "note": "依据后代语言的对应反推祖语形式，非文献实证"
+        },
+        {
+          "term": "attested",
+          "zh": "有实证的",
+          "en": "attested",
+          "note": "在文献、铭文或录音中实际出现过的形式"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三组齿音，四条去向",
+      "body": "三组齿音在四个分支里各走各的路，这就是“链移”的具体内容。横着读一行，看同一个音在四家变成了什么；竖着读一列，看每一家自己的习惯。**英语在第二列**（经日耳曼），拉丁在第三列——这也是英语学术词与本土词“同源却不像”的根源。",
+      "head": [
+        "祖语",
+        "日耳曼（英语）",
+        "拉丁",
+        "希腊",
+        "梵语"
+      ],
+      "rows": [
+        [
+          "*t（清）",
+          "þ → th：three、brother 的 th",
+          "t：trēs、pater 的 t",
+          "t：treis、patēr 的 t",
+          "t：trayas、pitar 的 t"
+        ],
+        [
+          "*d（浊）",
+          "t：two、eat 的 t",
+          "d：duo、edere 的 d",
+          "d：dyo、edein 的 d",
+          "d：dva、ad- 的 d"
+        ],
+        [
+          "*dʰ（浊送气）",
+          "d：door、daughter 的 d",
+          "f（词首）：forēs“门”、fūmus“烟”；b（词中）：ruber“红”",
+          "th：thyra“门”、thygatēr“女儿”",
+          "dh：dhav-、duhitr-"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么必须三组一起动",
+      "body": "关键的一步在 *dʰ。假如只让 *dʰ 变成 *d，而原来的 *d 站着不动，两个音就撞在一起，**d 与 dʰ 的区分消失**，那些靠它区别的词形就全乱了。语言对这种“碰撞”很敏感，通常的出路是：让位置被占住的那一组先挪走。\n\n于是形成一条链：*dʰ → d（占住 d 的位置）→ 原来的 *d 只能 → t（占住 t 的位置）→ 原来的 *t 只能 → þ（擦音，空位）。三组各走一格，谁也没和谁合并。这就是“**推链**”（push chain）的解释。\n\n必须说清楚：链移是**一种解释模型**，它把“为什么是这三步、为什么是这个顺序”讲圆了，但语言史不能做实验，无法证明当时真是“被推”的。教材采用它，是因为它同时解释了方向与动机，且没有反例。",
+      "terms": [
+        {
+          "term": "chain shift",
+          "zh": "链移",
+          "en": "chain shift",
+          "note": "一组音位依次挪位，彼此不合并的推移"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "维尔纳定律：father 里的那个 d",
+      "body": "按格里姆定律，*t 该变 þ。那么 *pətēr 应当变成 *faþēr，可英语是 **father**，中间是 d；哥特语作 fadar，也是 d。这一批“例外”让十九世纪的学者很头疼。\n\n**Karl Verner** 1875 年给出解释：擦音是否浊化，取决于**祖语的重音位置**。重音落在紧邻音节**之前**时，擦音保持清（*broþar → brother 的 th）；重音落在**之后**时，擦音浊化（*faþēr → fadar → father 的 d）。这条规则叫**维尔纳定律**。\n\n它的意义超出这一个词：所谓“例外”往往不是规律失效，而是**还有一条规律没被发现**。这条信念是整个比较法的地基。",
+      "terms": [
+        {
+          "term": "Verner's Law",
+          "zh": "维尔纳定律",
+          "en": "Verner's Law",
+          "note": "格里姆定律的补充：重音位置决定擦音是否浊化"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "四种材料的证据等级",
+      "body": "写词源说明时，最忌讳把四类材料混着用。它们的可靠度差着量级，而读者从你的措辞里就能看出你有没有分清：说“英语 door 来自拉丁 forēs”是错的（两者是姐妹，不是母女），说“英语 door 与拉丁 forēs 同源”才对。",
+      "a": "实证材料",
+      "b": "推得出／借来的材料",
+      "rows": [
+        {
+          "label": "形式",
+          "a": "pater、patēr、pitar（无星号）",
+          "b": "*pətēr（有星号）"
+        },
+        {
+          "label": "可靠度",
+          "a": "最高：有写本、铭文可查",
+          "b": "取决于对应数量与反例多少"
+        },
+        {
+          "label": "常见错误",
+          "a": "把晚期抄本当成祖语形态",
+          "b": "把构拟当“出土的词”，或反过来当成瞎猜"
+        },
+        {
+          "label": "和英语的关系",
+          "a": "英语 borrowings 的直接来源（拉丁、希腊、法语）",
+          "b": "英语本土词的**祖语**形态，只能通过对应反推，不能直接引用"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w27d5-p1",
+      "kind": "mcq",
+      "prompt": "形式前加星号（如 *pətēr）表示：",
+      "choices": [
+        "该形式是构拟出来的，没有任何文献或铭文实证",
+        "该形式错误，不应使用",
+        "该形式只见于诗歌",
+        "该形式是借词"
+      ],
+      "answer": 0,
+      "explain": "星号标“非实证”，不标“错误”。*pətēr 与实证的 pater、patēr、pitar 是同一件事的两个层面：后者是记录，前者是反推。句法学里星号另标不合语法的句子，所以看到星号先看语境。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w27d5-p2",
+      "kind": "mcq",
+      "prompt": "拉丁 forēs“门”的词首是 f，英语 door 的词首是 d。最合理的解释是：",
+      "choices": [
+        "同一个 *dʰ 在拉丁变成 f、在日耳曼变成 d，两条路各自一贯",
+        "拉丁语从日耳曼语借入了这个词，然后改了音",
+        "英语 door 来自拉丁语，只是丢了首辅音",
+        "两者只是意义巧合，没有同源关系"
+      ],
+      "answer": 0,
+      "explain": "正是 *dʰ 的两条不同去向：拉丁词首 *dʰ → f，日耳曼 *dʰ → d。这不是孤例，fūmus／dust（烟、尘）、frāter／brother 都在同一批对应里。借词说不通，因为借词不会连带改变整批词的音；而“丢首辅音”也无法解释 f 与 d 的对应关系。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w27d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文术语",
+      "sentence": "A form printed with an asterisk has been ___ from the correspondences of the daughter languages; it is not attested in any text.",
+      "answer": "reconstructed",
+      "accept": [
+        "reconstructed",
+        "reconstruct"
+      ],
+      "explain": "reconstructed“构拟的”与 attested“有实证的”是一对术语。构拟的做法是：把各分支的形式排开，找出每个音位的对应，再取“最省事”的源头解释全部对应。写得规范时，构拟形式必须加星号。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w27d5-p4",
+      "kind": "mcq",
+      "prompt": "father 中间是 d 而不是 th，维尔纳定律给出的解释是：",
+      "choices": [
+        "祖语重音落在该音节之后，擦音因此浊化（þ → d）",
+        "英语从拉丁语借入了 pater 并改写成 father",
+        "格里姆定律在英语里不适用",
+        "d 是十六世纪拼写改革加进去的字母"
+      ],
+      "answer": 0,
+      "explain": "维尔纳定律把“重音位置”引进来：重音在后则擦音浊化，于是 *faþēr → fadar → father。与 brother 对照最清楚：brother 的重音在前，th 保持清。这条规则不推翻格里姆定律，而是给它补了一个条件——这正是“例外背后还有规律”的范例。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w27d5-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）拉丁 hostis 的词首是 h，英语 guest 的词首是 g，两者同出 *gʰos-“陌生人”。据此可以推出：",
+      "choices": [
+        "祖语 *gʰ 在拉丁变 h、在日耳曼变 g，这条对应在别的词里也应成立",
+        "拉丁语把 g 拼成了 h，是拼写习惯问题",
+        "guest 是近代从拉丁语借入的",
+        "凡是以 h 开头的拉丁词都与以 g 开头的英语词同源"
+      ],
+      "answer": 0,
+      "explain": "这正是 *gʰ 的两条路：拉丁 h，日耳曼 g（另见 *gʰans- 鹅：拉丁 anser 丢 h、英语 goose）。要注意最后一项的过度推广：对应是“方向性的、逐词验证的”，不能反过来当成万能公式——h 开头的拉丁词也可能来自别的来源。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ],
+      "hint": "先确认这条对应有没有第二个例词支撑。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w27d5-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 hypothetical 在句中的含义",
+      "passage": "No one ever wrote the word down. The form is hypothetical: it exists only as the most economical source that can account for all the recorded descendants at once. Marking it with an asterisk keeps that status visible to every reader.",
+      "word": "hypothetical",
+      "choices": [
+        "只是推想出来、并无实际记录的",
+        "有争议、多数人反对的",
+        "由两个词合并而成的",
+        "在口语中常见但书面不用的"
+      ],
+      "answer": 0,
+      "strategy": "① 首句 No one ever wrote the word down 直接点明没有记录；② 冒号后 only as the most economical source 说明它靠推理存在；③ 末句 asterisk keeps that status visible 把星号与这一状态绑定；④ 排除“有争议”：段落没提争议，只说无记录。",
+      "explain": "hypothetical 在这里是“假设性存在的”，与 attested 相对。注意它并不暗示“可疑”——构拟可以有极高的确信度，只是缺少实物证据。这个词在学术英语里常用来区分“观察到的事实”与“为解释事实而设的构念”。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 3 节：构拟与星号约定、三组齿音的去向、链移与维尔纳定律"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "*pətēr／*dʰwer-／*gʰos- 的构拟形式与各分支对应"
+    }
+  ]
+}

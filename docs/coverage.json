@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T16:30:02.134Z",
+  "generatedAt": "2026-11-19T16:52:57.077Z",
   "identity": {
     "morphemes": 787,
     "forms": 782,
@@ -45,8 +45,8 @@
     "families": 417
   },
   "curriculum": {
-    "lessons": 148,
-    "weeks": 22
+    "lessons": 191,
+    "weeks": 30
   },
   "levels": [
     {
@@ -392,9 +392,9 @@
       "level": "L5",
       "name": "有讲解",
       "rule": "有课时在 concepts / 卡片 / 关联知识点里讲到该 ID",
-      "count": 172,
+      "count": 184,
       "total": 559,
-      "pct": 31,
+      "pct": 33,
       "gaps": [
         {
           "element": "crypt",
@@ -722,7 +722,7 @@
   "s1": {
     "elements": 559,
     "knowledgePoints": 283,
-    "knowledgePointsTaught": 159,
+    "knowledgePointsTaught": 239,
     "chapters": 11,
     "sections": 116,
     "exerciseTypes": 46,
@@ -733,7 +733,7 @@
       },
       {
         "at": "L6",
-        "count": 19
+        "count": 20
       },
       {
         "at": "L7",
@@ -741,7 +741,7 @@
       },
       {
         "at": "L5",
-        "count": 58
+        "count": 57
       },
       {
         "at": "L2",
@@ -2158,14 +2158,22 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
       "gap": "L4",
       "reason": "verified 词条只有 0 个（需要 2 个）",
       "verifiedWords": [],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w23d1",
+        "w23d2",
+        "w23d3",
+        "w23d4",
+        "w23d5",
+        "w23d6",
+        "w23d7"
+      ],
       "exerciseLessons": []
     },
     {
@@ -2727,7 +2735,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -3266,7 +3292,7 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
@@ -3275,7 +3301,15 @@
       "verifiedWords": [
         "case"
       ],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w23d1",
+        "w23d2",
+        "w23d3",
+        "w23d4",
+        "w23d5",
+        "w23d6",
+        "w23d7"
+      ],
       "exerciseLessons": []
     },
     {
@@ -3407,7 +3441,7 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
@@ -3416,7 +3450,15 @@
       "verifiedWords": [
         "case"
       ],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w23d1",
+        "w23d2",
+        "w23d3",
+        "w23d4",
+        "w23d5",
+        "w23d6",
+        "w23d7"
+      ],
       "exerciseLessons": []
     },
     {
@@ -3492,17 +3534,25 @@
         "L2": true,
         "L3": true,
         "L4": true,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
-      "gap": "L5",
-      "reason": "没有任何课时讲到它",
+      "gap": "L6",
+      "reason": "讲到它的课时没有练习用到它",
       "verifiedWords": [
         "antecedent",
         "secede"
       ],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w23d1",
+        "w23d2",
+        "w23d3",
+        "w23d4",
+        "w23d5",
+        "w23d6",
+        "w23d7"
+      ],
       "exerciseLessons": []
     },
     {
@@ -3697,7 +3747,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -3846,7 +3914,7 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
@@ -3855,7 +3923,15 @@
       "verifiedWords": [
         "case"
       ],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w23d1",
+        "w23d2",
+        "w23d3",
+        "w23d4",
+        "w23d5",
+        "w23d6",
+        "w23d7"
+      ],
       "exerciseLessons": []
     },
     {
@@ -4806,7 +4882,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -5425,7 +5519,25 @@
         "relate"
       ],
       "teachingLessons": [
-        "w12d2"
+        "w12d2",
+        "w27d1",
+        "w27d2",
+        "w27d3",
+        "w27d4",
+        "w27d5",
+        "w28d1",
+        "w28d2",
+        "w28d3",
+        "w28d4",
+        "w28d5",
+        "w29d1",
+        "w29d2",
+        "w29d3",
+        "w29d4",
+        "w30d1",
+        "w30d2",
+        "w30d3",
+        "w30d4"
       ],
       "exerciseLessons": [
         "w12d2"
@@ -7338,7 +7450,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -9186,14 +9316,33 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
       "gap": "L4",
       "reason": "verified 词条只有 0 个（需要 2 个）",
       "verifiedWords": [],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w27d1",
+        "w27d2",
+        "w27d3",
+        "w27d4",
+        "w27d5",
+        "w28d1",
+        "w28d2",
+        "w28d3",
+        "w28d4",
+        "w28d5",
+        "w29d1",
+        "w29d2",
+        "w29d3",
+        "w29d4",
+        "w30d1",
+        "w30d2",
+        "w30d3",
+        "w30d4"
+      ],
       "exerciseLessons": []
     },
     {
@@ -9248,7 +9397,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -9398,7 +9565,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -9937,14 +10122,33 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
       "gap": "L4",
       "reason": "verified 词条只有 0 个（需要 2 个）",
       "verifiedWords": [],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w27d1",
+        "w27d2",
+        "w27d3",
+        "w27d4",
+        "w27d5",
+        "w28d1",
+        "w28d2",
+        "w28d3",
+        "w28d4",
+        "w28d5",
+        "w29d1",
+        "w29d2",
+        "w29d3",
+        "w29d4",
+        "w30d1",
+        "w30d2",
+        "w30d3",
+        "w30d4"
+      ],
       "exerciseLessons": []
     },
     {
@@ -10709,7 +10913,7 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
@@ -10718,7 +10922,15 @@
       "verifiedWords": [
         "tendency"
       ],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w23d1",
+        "w23d2",
+        "w23d3",
+        "w23d4",
+        "w23d5",
+        "w23d6",
+        "w23d7"
+      ],
       "exerciseLessons": []
     },
     {
@@ -10793,7 +11005,7 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
@@ -10802,7 +11014,15 @@
       "verifiedWords": [
         "tendency"
       ],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w23d1",
+        "w23d2",
+        "w23d3",
+        "w23d4",
+        "w23d5",
+        "w23d6",
+        "w23d7"
+      ],
       "exerciseLessons": []
     },
     {
@@ -10926,14 +11146,33 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
       "gap": "L4",
       "reason": "verified 词条只有 0 个（需要 2 个）",
       "verifiedWords": [],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w27d1",
+        "w27d2",
+        "w27d3",
+        "w27d4",
+        "w27d5",
+        "w28d1",
+        "w28d2",
+        "w28d3",
+        "w28d4",
+        "w28d5",
+        "w29d1",
+        "w29d2",
+        "w29d3",
+        "w29d4",
+        "w30d1",
+        "w30d2",
+        "w30d3",
+        "w30d4"
+      ],
       "exerciseLessons": []
     },
     {
@@ -10987,7 +11226,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -11484,7 +11741,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -12142,7 +12417,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -12864,14 +13157,33 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
       "gap": "L4",
       "reason": "verified 词条只有 0 个（需要 2 个）",
       "verifiedWords": [],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w27d1",
+        "w27d2",
+        "w27d3",
+        "w27d4",
+        "w27d5",
+        "w28d1",
+        "w28d2",
+        "w28d3",
+        "w28d4",
+        "w28d5",
+        "w29d1",
+        "w29d2",
+        "w29d3",
+        "w29d4",
+        "w30d1",
+        "w30d2",
+        "w30d3",
+        "w30d4"
+      ],
       "exerciseLessons": []
     },
     {
@@ -14097,7 +14409,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -14201,7 +14531,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -14701,7 +15049,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -16133,7 +16499,7 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
@@ -16142,7 +16508,26 @@
       "verifiedWords": [
         "evaluate"
       ],
-      "teachingLessons": [],
+      "teachingLessons": [
+        "w27d1",
+        "w27d2",
+        "w27d3",
+        "w27d4",
+        "w27d5",
+        "w28d1",
+        "w28d2",
+        "w28d3",
+        "w28d4",
+        "w28d5",
+        "w29d1",
+        "w29d2",
+        "w29d3",
+        "w29d4",
+        "w30d1",
+        "w30d2",
+        "w30d3",
+        "w30d4"
+      ],
       "exerciseLessons": []
     },
     {
@@ -17246,7 +17631,25 @@
       "verifiedWords": [],
       "teachingLessons": [
         "w07d5",
-        "w12d5"
+        "w12d5",
+        "w24d1",
+        "w24d2",
+        "w24d3",
+        "w24d4",
+        "w24d5",
+        "w24d6",
+        "w24d7",
+        "w25d1",
+        "w25d2",
+        "w25d3",
+        "w25d4",
+        "w25d5",
+        "w26d1",
+        "w26d2",
+        "w26d3",
+        "w26d4",
+        "w26d5",
+        "w26d6"
       ],
       "exerciseLessons": []
     },
@@ -19824,8 +20227,10 @@
       "section": "Basics of Sound Production",
       "title": "语音由气流受阻方式与位置决定",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c5s1-2",
@@ -19833,8 +20238,10 @@
       "section": "Basics of Sound Production",
       "title": "把音分解为区别特征可解释同化",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c5s2-1",
@@ -19842,8 +20249,10 @@
       "section": "The Airstream",
       "title": "肺部气流是所有英语音的来源",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c5s3-1",
@@ -19851,8 +20260,10 @@
       "section": "Manner of Articulation",
       "title": "按阻塞方式分为五类辅音",
       "type": "classification",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c5s4-1",
@@ -19860,8 +20271,10 @@
       "section": "Place of Articulation",
       "title": "按发音部位分类辅音",
       "type": "classification",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c5s5-1",
@@ -19869,8 +20282,10 @@
       "section": "Phonation",
       "title": "清浊取决于声带是否振动",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c5s5-2",
@@ -19878,8 +20293,10 @@
       "section": "Phonation",
       "title": "送气与气声在英语不区别词义",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d6"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c5s5-3",
@@ -19887,8 +20304,10 @@
       "section": "Phonation",
       "title": "三元特征可唯一确定辅音",
       "type": "method",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c5s6-1",
@@ -19896,8 +20315,10 @@
       "section": "Vowels",
       "title": "元音按舌位高低前后与松紧描写",
       "type": "classification",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d6"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c5s6-2",
@@ -19905,8 +20326,10 @@
       "section": "Vowels",
       "title": "双元音与方言差异",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d7"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c5s6-3",
@@ -19914,8 +20337,10 @@
       "section": "Vowels",
       "title": "schwa 是唯一的中央元音",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w23d7"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c6s1-1",
@@ -20531,8 +20956,10 @@
       "section": "Many Englishes",
       "title": "英语是变体的集合而非单一语言",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s1-2",
@@ -20551,8 +20978,10 @@
       "section": "Many Englishes",
       "title": "新词来源分散于各社会阶层",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s1-4",
@@ -20560,8 +20989,10 @@
       "section": "Many Englishes",
       "title": "变异不止于词汇层面",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s2-1",
@@ -20569,8 +21000,10 @@
       "section": "Roots of Variation and Change",
       "title": "内外动因共同制造分歧",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s2-2",
@@ -20578,8 +21011,10 @@
       "section": "Roots of Variation and Change",
       "title": "统一是罕见的例外",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s2-3",
@@ -20587,8 +21022,10 @@
       "section": "Roots of Variation and Change",
       "title": "变体的竞争与淘汰",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s2-4",
@@ -20596,8 +21033,10 @@
       "section": "Roots of Variation and Change",
       "title": "并存的变体可以分工",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s2-5",
@@ -20605,8 +21044,10 @@
       "section": "Roots of Variation and Change",
       "title": "变体积淀即成新语言",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d6"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s3-1",
@@ -20614,8 +21055,10 @@
       "section": "Seeds of Dialectal Division",
       "title": "英语从未真正统一",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d7"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s3-2",
@@ -20623,8 +21066,10 @@
       "section": "Seeds of Dialectal Division",
       "title": "海外变体各自演变",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d7"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s3-3",
@@ -20632,8 +21077,10 @@
       "section": "Seeds of Dialectal Division",
       "title": "新英语与通用语",
       "type": "classification",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d7"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s3-4",
@@ -20641,8 +21088,10 @@
       "section": "Seeds of Dialectal Division",
       "title": "世界语言身份埋下分裂种子",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w24d7"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s4-1",
@@ -20650,8 +21099,10 @@
       "section": "Where Do Standards Come From?",
       "title": "标准语是权威确立的规范",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w25d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s4-2",
@@ -20659,8 +21110,10 @@
       "section": "Where Do Standards Come From?",
       "title": "人人都掌握多种标准",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w25d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s4-3",
@@ -20668,8 +21121,10 @@
       "section": "Where Do Standards Come From?",
       "title": "标准的三种来源",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w25d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s4-4",
@@ -20677,8 +21132,10 @@
       "section": "Where Do Standards Come From?",
       "title": "政府与语言学院介入规范",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w25d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s4-5",
@@ -20686,8 +21143,10 @@
       "section": "Where Do Standards Come From?",
       "title": "印刷术与互联网两次定形",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w25d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s5-1",
@@ -20695,8 +21154,10 @@
       "section": "Speaking versus Writing",
       "title": "口语先习得，书面标准后学",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w25d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s5-2",
@@ -20704,8 +21165,10 @@
       "section": "Speaking versus Writing",
       "title": "韦伯斯特式拼写改革的成败",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w25d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s5-3",
@@ -20713,8 +21176,10 @@
       "section": "Speaking versus Writing",
       "title": "英语拼写的不规则性",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w25d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s6-1",
@@ -20722,8 +21187,10 @@
       "section": "Changing Standards",
       "title": "标准本身也在变",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w25d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s6-2",
@@ -20731,8 +21198,10 @@
       "section": "Changing Standards",
       "title": "非标准不等于无效",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w25d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s7-1",
@@ -20740,8 +21209,10 @@
       "section": "Where the Standard Fails",
       "title": "拉丁曾长期充当超地域标准",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s7-2",
@@ -20749,8 +21220,10 @@
       "section": "Where the Standard Fails",
       "title": "方言在特定场合更适用",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s8-1",
@@ -20758,8 +21231,10 @@
       "section": "Can Our Tung Be Cleane and Pure?",
       "title": "纯洁主义的自相矛盾",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s8-2",
@@ -20767,8 +21242,10 @@
       "section": "Can Our Tung Be Cleane and Pure?",
       "title": "名家与政府的语言规训",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s8-3",
@@ -20787,8 +21264,10 @@
       "section": "Can Our Tung Be Cleane and Pure?",
       "title": "清晰与逻辑不构成反对理由",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s9-1",
@@ -20796,8 +21275,10 @@
       "section": "Correctness Is Relative",
       "title": "规定主义的问题在绝对化",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s9-2",
@@ -20805,8 +21286,10 @@
       "section": "Correctness Is Relative",
       "title": "以交际效果评判用法",
       "type": "method",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s9-3",
@@ -20814,8 +21297,10 @@
       "section": "Correctness Is Relative",
       "title": "掌握标准不必贬低方言",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s10-1",
@@ -20823,8 +21308,10 @@
       "section": "Word Choice and Clarity",
       "title": "术语是群体的通行证",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s10-2",
@@ -20832,8 +21319,10 @@
       "section": "Word Choice and Clarity",
       "title": "术语既可澄清也可遮蔽",
       "type": "classification",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d6"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s10-3",
@@ -20841,8 +21330,10 @@
       "section": "Word Choice and Clarity",
       "title": "简明语言运动与立法",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d6"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c8s10-4",
@@ -20850,8 +21341,10 @@
       "section": "Word Choice and Clarity",
       "title": "书面语更依赖选词",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w26d6"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c9s1-1",
@@ -21080,8 +21573,10 @@
       "section": "The discovery of the Deeper Linguistic Past of English and Related Languages",
       "title": "分化是语言变化的常态结果",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w27d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s1-2",
@@ -21089,8 +21584,10 @@
       "section": "The discovery of the Deeper Linguistic Past of English and Related Languages",
       "title": "十八世纪的两项谱系发现",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w27d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s1-3",
@@ -21098,8 +21595,10 @@
       "section": "The discovery of the Deeper Linguistic Past of English and Related Languages",
       "title": "同源词的三语对应",
       "type": "classification",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w27d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s1-4",
@@ -21107,8 +21606,10 @@
       "section": "The discovery of the Deeper Linguistic Past of English and Related Languages",
       "title": "印欧语系的命名与范围",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w27d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s2-1",
@@ -21116,8 +21617,10 @@
       "section": "The Indo-European Languages",
       "title": "十三个分支，八个仍有活语言",
       "type": "classification",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w27d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s2-2",
@@ -21125,8 +21628,10 @@
       "section": "The Indo-European Languages",
       "title": "只有文献没有后裔的分支",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w27d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s3-1",
@@ -21134,8 +21639,10 @@
       "section": "From Proto-Indo-European to Germanic",
       "title": "格里姆定律与拉斯克",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w27d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s3-2",
@@ -21143,8 +21650,10 @@
       "section": "From Proto-Indo-European to Germanic",
       "title": "规律对应比表面相似更可靠",
       "type": "method",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w27d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s3-3",
@@ -21152,8 +21661,10 @@
       "section": "From Proto-Indo-European to Germanic",
       "title": "重构与星号约定",
       "type": "method",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w27d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s3-4",
@@ -21161,8 +21672,10 @@
       "section": "From Proto-Indo-European to Germanic",
       "title": "链移解释三组齿音的去向",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w27d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s4-1",
@@ -21170,8 +21683,10 @@
       "section": "The Nature of Proto-Indo-European",
       "title": "祖语研究的三个层面",
       "type": "method",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w28d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s5-1",
@@ -21179,8 +21694,10 @@
       "section": "Sounds",
       "title": "辅音系统的三系列塞音",
       "type": "classification",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w28d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s5-2",
@@ -21188,8 +21705,10 @@
       "section": "Sounds",
       "title": "三个喉音及其不确定读音",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w28d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s5-3",
@@ -21197,8 +21716,10 @@
       "section": "Sounds",
       "title": "五元音与成音节辅音",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w28d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s5-4",
@@ -21206,8 +21727,10 @@
       "section": "Sounds",
       "title": "喉音着色与喉音加长",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w28d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s6-1",
@@ -21215,8 +21738,10 @@
       "section": "Grammar",
       "title": "高度屈折：八格与单双复",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w28d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s6-2",
@@ -21224,8 +21749,10 @@
       "section": "Grammar",
       "title": "形容词的格数性一致",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w28d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s6-3",
@@ -21233,8 +21760,10 @@
       "section": "Grammar",
       "title": "第 4 章不规则变体的祖语来源",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w28d5"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s7-1",
@@ -21242,8 +21771,10 @@
       "section": "The Indo-European World",
       "title": "以共享词汇做语言考古",
       "type": "method",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w29d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s7-2",
@@ -21251,8 +21782,10 @@
       "section": "The Indo-European World",
       "title": "由动植物词推定温带林地",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w29d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s7-3",
@@ -21260,8 +21793,10 @@
       "section": "The Indo-European World",
       "title": "金属、船、农业与轮轴",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w29d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s7-4",
@@ -21269,8 +21804,10 @@
       "section": "The Indo-European World",
       "title": "父权家宅与神名",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w29d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s7-5",
@@ -21278,8 +21815,10 @@
       "section": "The Indo-European World",
       "title": "库尔干假说与战车优势",
       "type": "history",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w29d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s8-1",
@@ -21287,8 +21826,10 @@
       "section": "Changes Leading to Latin and Greek",
       "title": "各支独立变化，拉丁希腊最关键",
       "type": "concept",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w29d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s9-1",
@@ -21296,8 +21837,10 @@
       "section": "Greek",
       "title": "希腊的元音变化",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w29d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s9-2",
@@ -21305,8 +21848,10 @@
       "section": "Greek",
       "title": "塞音：送气与唇化",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w29d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s9-3",
@@ -21314,8 +21859,10 @@
       "section": "Greek",
       "title": "s、w 与喉音的去向",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w30d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s9-4",
@@ -21323,8 +21870,10 @@
       "section": "Greek",
       "title": "成音节辅音加 a",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w30d1"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s10-1",
@@ -21332,8 +21881,10 @@
       "section": "Latin",
       "title": "拉丁的招牌音变",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w30d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s10-2",
@@ -21341,8 +21892,10 @@
       "section": "Latin",
       "title": "首音节保守，后音节弱化",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w30d2"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s10-3",
@@ -21350,8 +21903,10 @@
       "section": "Latin",
       "title": "送气音变 f，*gʷ 变 w",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w30d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s10-4",
@@ -21359,8 +21914,10 @@
       "section": "Latin",
       "title": "喉音只变 a，成音节辅音加元音",
       "type": "rule",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w30d3"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s11-1",
@@ -21368,8 +21925,10 @@
       "section": "Application to Word Study",
       "title": "六千年间稳定多于变化",
       "type": "method",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w30d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s11-2",
@@ -21377,8 +21936,10 @@
       "section": "Application to Word Study",
       "title": "由对应推测英语同源词",
       "type": "method",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w30d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c10s12-1",
@@ -21386,8 +21947,10 @@
       "section": "Further Reading",
       "title": "延伸阅读与工具书",
       "type": "method",
-      "lessons": [],
-      "taught": false
+      "lessons": [
+        "w30d4"
+      ],
+      "taught": true
     },
     {
       "id": "kp-s1c11s1-1",

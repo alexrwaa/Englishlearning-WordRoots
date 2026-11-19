@@ -1,0 +1,292 @@
+{
+  "id": "w23d5",
+  "week": 23,
+  "day": 5,
+  "title": "声带开着还是关着：清浊，以及三轴定位法",
+  "tagline": "-s 的 [s]/[z] 与 -ed 的 [t]/[d] 不是三个后缀，是一个词素在三种声带状态下",
+  "objectives": [
+    "能说明清浊的生理依据，并说出英语里哪八对辅音靠它对立",
+    "能用清浊解释 -s 与 -ed 的三个形状，并指出它与 in-/im- 的同构关系",
+    "能用发声态、部位、方式三个值唯一确定一个辅音，并把各类同化归到轴上"
+  ],
+  "prereqs": [
+    "w23d4"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-inflection",
+    "c-morpheme"
+  ],
+  "knowledgePoints": [
+    "kp-s1c5s5-1",
+    "kp-s1c5s5-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "声门：一扇会振动的小门",
+      "body": "声带在喉里，两片肌肉之间的开口叫**声门**。声门打开、气流自由通过，是**清音**（voiceless）；声带闭合、气流把它吹得振动，是**浊音**（voiced）。把手放在喉结上，先发 sssss 再发 zzzzz，后者会发麻——那就是清浊的差别。\n\n英语有八对靠清浊对立的辅音：p/b、t/d、k/g、f/v、θ/ð、s/z、ʃ/ʒ、tʃ/dʒ。它们能区别词义：safe 与 save、名词 house [s] 与动词 house [z]。\n\n但要注意一个细节：英语词尾的浊塞音常常“没振完”（bad 的 d 只轻轻一带），母语者仍听成浊音，因为前面元音的长度也在给线索。所以“浊”在英语里是一种**倾向**，不是每次都必须完整振动——这一点直接影响你对 -s、-ed 的判断。"
+    },
+    {
+      "kind": "table",
+      "title": "-s 与 -ed 的三个形状：清浊在词尾留下的印记",
+      "body": "三行的判据只有一条：前一个音结束时，声带是否还在振动。第三行是两个同类相撞，中间必须插一个元音把它们隔开，否则词尾听不出来。请注意表格里 -s 与 -ed 是并排的：同一个清浊条件同时决定两个后缀的形状，说明这不是两条规则，而是一条规则在两个位置上各出现一次。",
+      "head": [
+        "前一个音",
+        "-s 读",
+        "-ed 读",
+        "例词"
+      ],
+      "rows": [
+        [
+          "清音（p、t、k、f、θ）",
+          "[s]",
+          "[t]",
+          "cats, lips；walked, stopped"
+        ],
+        [
+          "浊音（b、d、g、v、z、m、n、l、r）与所有元音",
+          "[z]",
+          "[d]",
+          "dogs, rooms；played, opened"
+        ],
+        [
+          "齿龈擦音／塞擦音（s、z、ʃ、tʃ、dʒ）",
+          "[ɪz]",
+          "[ɪd]",
+          "wishes, judges；wanted, needed"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "一个词素，三个形状：与 im- 完全同构",
+      "body": "把上面三个形状并排，会看到一件熟悉的事：**词素只有一个，形状按接缝处的音来定**。这与 in-/im-/il-/ir- 是同一条机制，区别只在方向——in- 是右边的音改造左边（逆行），-s、-ed 是左边的音改造右边（顺行）。\n\n所以判据也统一了：**看接缝，别看词**。遇到 wished，不要问“-ed 什么时候读 [t]”，而要问“-ed 前面那个音是不是清的”——ʃ 是清音，所以 [t]。\n\n顺带说明一件常见误解：-s、-ed 的三个形状**不是三个后缀**，词典里也只收一个 -s、一个 -ed。把它们当三个词素，等于把 in-、im-、il- 当成四个前缀。"
+    },
+    {
+      "kind": "table",
+      "title": "三轴定位：五个音的坐标",
+      "body": "给出发声态、部位、方式三个值，一个辅音就被唯一确定，不会有两个音同时符合。这张表可以反用：题目说“清、软腭、塞音”，答案只能是 [k]。练这个不是为了背音标，而是为了能精确说出“哪一个值被抄走了”。",
+      "head": [
+        "音",
+        "发声态",
+        "部位",
+        "方式",
+        "拼写示例"
+      ],
+      "rows": [
+        [
+          "[m]",
+          "浊",
+          "双唇",
+          "鼻音",
+          "sum 结尾的 m"
+        ],
+        [
+          "[dʒ]",
+          "浊",
+          "齿龈后",
+          "塞擦音",
+          "judge 的首尾"
+        ],
+        [
+          "[ŋ]",
+          "浊",
+          "软腭",
+          "鼻音",
+          "think 的 n（写 n 读 [ŋ]）"
+        ],
+        [
+          "[θ]",
+          "清",
+          "齿",
+          "擦音",
+          "theory 的 th"
+        ],
+        [
+          "[ʒ]",
+          "浊",
+          "齿龈后",
+          "擦音",
+          "measure 的 s"
+        ]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "同化三轴总表：把这一周的例子归位",
+      "body": "这张表是整章的收口。以后遇到任何一条看似孤立的拼写特例，先问它动的是哪根轴：动部位的是 in-/im-、con-/com-、ad-/ac-；动方式的是 in-/il-、con-/col-；动发声态的是拉丁的 reg-/rect-、veh-/vect-，以及英语的 -s、-ed。",
+      "head": [
+        "轴",
+        "变化",
+        "例证",
+        "表面形"
+      ],
+      "rows": [
+        [
+          "部位",
+          "齿龈 → 双唇",
+          "in- + possibilis；con- + pellere",
+          "im-、com-"
+        ],
+        [
+          "部位",
+          "齿龈 → 软腭（拼写不记）",
+          "in- + credibilis",
+          "in-（读 [ɪŋ-]）"
+        ],
+        [
+          "方式",
+          "鼻音 → 边音／近音",
+          "in- + legalis；con- + legere",
+          "il-、col-"
+        ],
+        [
+          "发声态",
+          "浊 → 清（拉丁分词）",
+          "vehere → vect-；trahere → tract-",
+          "vect-、tract-"
+        ],
+        [
+          "发声态＋方式",
+          "浊塞音 → 同部位的清擦音",
+          "sub- + ferre；ad- + facere",
+          "suf-、af-"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w23d5-p1",
+      "kind": "mcq",
+      "prompt": "safe 与 save 的区别在于：",
+      "choices": [
+        "发声态：词尾一个是清音，一个是浊音",
+        "部位：一个是唇齿，一个是双唇",
+        "方式：一个是塞音，一个是擦音",
+        "送气：一个送气，一个不送气"
+      ],
+      "answer": 0,
+      "explain": "两者都是唇齿擦音，部位与方式完全相同，只有声带是否振动不同：safe [seɪf] 与 save [seɪv]。英语靠这个差别区别词义，所以清浊在英语是“音位性”的；而在 -s、-ed 上，同一个清浊差别只决定形状，不区别意义——同一根轴，两种用途。",
+      "concepts": [
+        "c-morpheme",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w23d5-p2",
+      "kind": "mcq",
+      "prompt": "wanted 的 -ed 读 [ɪd]，原因是：",
+      "choices": [
+        "前一个音是齿龈塞音 [t]，与 [d] 同类相撞，必须插一个元音隔开",
+        "t 是清音，所以 -ed 读 [t] 的变体",
+        "-ed 在重读音节后总是读 [ɪd]",
+        "wanted 是不规则动词，属于例外"
+      ],
+      "answer": 0,
+      "explain": "规则是：前音为 [t] 或 [d] 时，[t]/[d] 与它们相接会听不出词尾，于是插入 [ɪ] 形成 [ɪd]。清音后才是 [t]（walked），浊音后是 [d]（played）。判断顺序是：先看是不是 [t]/[d]，再看清浊——顺序反了就会把 wanted 判成 [t]。",
+      "concepts": [
+        "c-allomorph",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w23d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个语音学术语（英文）",
+      "sentence": "safe and save differ only in one feature: the final sound of “save” is voiced, while the final sound of “safe” is a voiceless ___ .",
+      "answer": "fricative",
+      "accept": [
+        "fricative",
+        "擦音"
+      ],
+      "explain": "两者都是唇齿擦音（labiodental fricative），唯一的差别是发声态。用三轴描述一遍：[f] 是清、唇齿、擦音；[v] 是浊、唇齿、擦音。三轴法在这里的用处是：你能说清“哪一轴不同”，而不是笼统地说“读音不一样”。",
+      "concepts": [
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w23d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 vehere（运送）的现在时词干是 veh-，分词词干是 vect-（h 在 t 前清化为 c）。vector 与 vehicle 分别取自：",
+      "choices": [
+        "vect- 与 veh-，即分词词干与现在时词干",
+        "两个完全不同的词根，只是拼写相近",
+        "vect- 是英语新造的形式",
+        "vehicle 来自希腊语，与 vehere 无关"
+      ],
+      "answer": 0,
+      "explain": "vector“携带者、向量”取分词词干 vect-；vehicle“运载工具”取现在时词干 veh-。同一词根的两套词干，英语各取所需——这正是第 19 周 scrib/script 那条规则的 h→ct 版本。识别方法：两套词干的意义核心相同（运送），辅音骨架相同（v-h / v-ct），只有发声态与拼写在接缝处变了。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph"
+      ],
+      "hint": "比较两套词干的辅音骨架，再看谁保留了浊音。"
+    },
+    {
+      "id": "w23d5-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“对流”的切分",
+      "parts": [
+        "con",
+        "vect",
+        "ion"
+      ],
+      "answer": "convection",
+      "explain": "con-（一起）+ vect（运，分词词干）+ -ion →“一起被带走”，即（热的）对流。写成 convehion 就错了：-ion 只接在分词词干后，而 veh- 从不出现在 -ion 前。这条限制与第 19 周“-tion 只接 script-”是同一条。",
+      "concepts": [
+        "c-word-sum",
+        "con",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w23d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 invective 的含义",
+      "passage": "The review was not criticism but invective: page after page of abuse aimed at the author, with no argument offered at all.",
+      "word": "invective",
+      "choices": [
+        "谩骂、人身攻击",
+        "中肯的批评",
+        "冗长的论证",
+        "措辞华丽的赞美"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：in-（对着）+ vect（运，分词词干）+ -ive →“冲上去的东西”；② 对比结构：not criticism but ... 把 invective 放在批评的对立面；③ 冒号后 abuse 与 no argument 是定义式证据；④ 排除：中肯批评、论证、赞美都与 abuse 相反。",
+      "explain": "invective 是“谩骂、攻击性言辞”。词形上它取的是分词词干 vect-（vehere 的 h 在 t 前清化），这也解释了为什么它不写作 invehive。语义上要抓住 in- 的“对着”——不是“进入”，而是“冲上去”，与 invest（把衣服穿上 → 投入）、inveigh（痛骂）同一条线。",
+      "concepts": [
+        "c-inference",
+        "in",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 5 章第 5 节：发声态与三元特征"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "清浊对立、英语屈折后缀的音位变体"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "vehere / trahere 的分词词干与英语借入形式"
+    }
+  ]
+}

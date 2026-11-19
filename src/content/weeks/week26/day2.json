@@ -1,0 +1,298 @@
+{
+  "id": "w26d2",
+  "week": 26,
+  "day": 2,
+  "title": "纯洁主义者的自相矛盾",
+  "tagline": "想讨论“纯洁”，先得借来“纯洁”这个词",
+  "objectives": [
+    "能复述 Cheke 主张英语 cleane and pure 却使用 opinion、mix、mangle、pure 四个借词的矛盾",
+    "能说明英语抽象词汇几乎全为借入，因此“清除借词”在操作上不可行",
+    "能解释 inkhorn terms 的含义，并说明本土替代词为何多半失败"
+  ],
+  "prereqs": [
+    "w26d1",
+    "c-borrowing",
+    "c-etymology",
+    "c-register"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-etymology",
+    "c-register",
+    "c-greek-latin"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s8-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "Cheke 的尴尬",
+      "body": "16 世纪的 John Cheke 反对英语混杂外来词，提倡用本土词替代借词。可他那句话本身就露了底：他主张英语应当写得 cleane and pure、unmixt and unmangeled，不混杂其他语言的借词——而 opinion、mix、mangle、pure 这四个关键词，全是借词。\n\n这不是他虚伪，而是英语的处境：**抽象词汇几乎全靠借入**。想讨论“纯洁”，先得借来“纯洁”这个词；想反对“混杂”，先得借来“混杂”这个词。\n\n纯洁主义的结构性矛盾就在这里：它的口号语言本身就是它反对的对象。",
+      "terms": [
+        {
+          "term": "purism",
+          "zh": "纯洁主义",
+          "en": "purism",
+          "note": "主张清除外来成分、保持语言“纯净”的立场"
+        },
+        {
+          "term": "borrowing",
+          "zh": "借词",
+          "en": "borrowing",
+          "note": "从其他语言吸收词或词素"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "pure 也是借来的",
+      "body": "同一段话里的四个关键词，走了四条不同的借入路径：opinion 来自拉丁 opinio，mix 来自拉丁 mixtus（经法语），mangle 经古法语进来，pure 来自拉丁 purus（经古法语 pur）。四个词，四条路，共同支撑了一句反借词的口号。\n\n这不是孤例。英语里表达抽象概念的词——justice、reason、idea、nature、system——几乎全是拉丁或法语来源。本土词擅长具体事物：bread、house、hand、walk。要谈抽象，就得借。",
+      "steps": [
+        {
+          "period": "拉丁语",
+          "form": "purus",
+          "note": "“干净的、纯粹的”"
+        },
+        {
+          "period": "古法语",
+          "form": "pur",
+          "note": "音变简化后进入英语"
+        },
+        {
+          "period": "中古英语",
+          "form": "pure",
+          "note": "13 世纪借入，先用于物质，后用于道德"
+        },
+        {
+          "period": "16 世纪",
+          "form": "pure",
+          "note": "被纯洁主义者用作口号词，词源已无人追究"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "英语词汇的层",
+      "body": "层不是“纯不纯”的等级，而是历史顺序。任何一层都不可或缺：本土层撑起基本语法与日常指称，法语层撑起法律与行政，拉丁希腊层撑起学术与科学。想删掉任何一层，都会让某一领域失语。",
+      "head": [
+        "层",
+        "时间",
+        "代表词",
+        "领域"
+      ],
+      "rows": [
+        [
+          "本土日耳曼",
+          "古英语",
+          "house、heart、be、go",
+          "基本词汇、身体、家庭"
+        ],
+        [
+          "诺斯语",
+          "9–11 世纪",
+          "sky、skin、they、egg",
+          "日常、代词"
+        ],
+        [
+          "法语",
+          "1066 年后",
+          "judge、court、beef、royal",
+          "法律、行政、烹饪"
+        ],
+        [
+          "拉丁",
+          "文艺复兴",
+          "evidence、legal、-tion 系",
+          "学术、科学"
+        ],
+        [
+          "希腊",
+          "文艺复兴后",
+          "-ology、hyper-、-itis",
+          "科学术语"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "inkhorn terms 与本土替代",
+      "body": "16 世纪学者从拉丁造新词，被反对者讥为 **inkhorn terms**（“墨水瓶词”，指只在书桌上造出来、嘴上不说的词）。本土派主张用现有词素造词：toothdrawer 代替 dentist、endsay 代替 conclusion、foresayer 代替 prophet。\n\n结果：大多数 inkhorn 词活了下来（education、capacity、celebrate），大多数本土替代死掉了。原因不是拉丁更“高级”，而是这些词已经随学术网络扩散——大学、法庭、印刷所都在用，替代词没有网络。\n\n这条经验对今天的术语讨论仍然有效：能不能站住，看使用网络，不看是否符合某种纯粹性。",
+      "terms": [
+        {
+          "term": "inkhorn term",
+          "zh": "墨水瓶词",
+          "en": "inkhorn term",
+          "note": "16 世纪从拉丁造出、只用于书面生造词，含贬义"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "纯洁主义与借词现实",
+      "body": "纯洁主义不是没有价值：它提醒人们注意借词带来的透明度问题（见第 6 天）。但它作为一项“清除计划”从未成功，因为语言的核心抽象词汇已经借完了。可行的目标不是清除，而是让术语可学、可译、可解释。",
+      "a": "纯洁主义",
+      "b": "借词现实",
+      "rows": [
+        {
+          "label": "主张",
+          "a": "清除外来词，回到本土材料",
+          "b": "借词是常态，层积即资源"
+        },
+        {
+          "label": "论据",
+          "a": "语言纯洁等于民族尊严",
+          "b": "抽象词几乎全为借词"
+        },
+        {
+          "label": "例证",
+          "a": "Cheke 的口号",
+          "b": "口号本身用了四个借词"
+        },
+        {
+          "label": "结果",
+          "a": "无一成功",
+          "b": "借词继续进入"
+        },
+        {
+          "label": "更可行的目标",
+          "a": "不现实",
+          "b": "让术语透明、可学（见第 6 天）"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w26d2-p1",
+      "kind": "mcq",
+      "prompt": "Cheke 主张的矛盾在于：",
+      "choices": [
+        "他用借词来表达反借词的立场",
+        "他既支持借词又反对借词",
+        "他不懂拉丁语",
+        "他主张废除英语"
+      ],
+      "answer": 0,
+      "explain": "opinion、mix、mangle、pure 都是借词，却出现在“英语应当 cleane and pure、不混杂外来词”这句话里。这不是个人虚伪，而是英语抽象词汇的处境：讨论纯洁所需的词本身也是借来的。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w26d2-p2",
+      "kind": "mcq",
+      "prompt": "inkhorn terms 指的是：",
+      "choices": [
+        "学者从拉丁造出、只用于书面而少见于口语的新词",
+        "墨水瓶一类的文具术语",
+        "古英语诗歌中的头韵词",
+        "法律法语中的固定短语"
+      ],
+      "answer": 0,
+      "explain": "inkhorn 是“墨水瓶”，讥讽这些词只在书桌上造出来、没经过口语检验。它们是 16 世纪学者借拉丁扩充英语词汇的产物，多数后来进入标准语（如 education），少数被本土替代词挑战但胜出。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w26d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个拉丁词",
+      "sentence": "The word pure itself comes from Latin ___.",
+      "answer": "purus",
+      "accept": [
+        "purus"
+      ],
+      "explain": "pure < 古法语 pur < 拉丁 purus“干净的、纯粹的”。这条链说明：连“纯洁”这个口号词都是借来的。同族还有 purify、purity、impure。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w26d2-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 opinion 的切分",
+      "parts": [
+        "opin",
+        "ion"
+      ],
+      "answer": "opinion",
+      "explain": "opin（拉丁 opinari“认为、以为”的词干）+ -ion（名词后缀）→ opinion“意见”。同族有 opine、opinionated。注意它是借词，但进入英语后仍可按英语后缀规则再派生，这说明借词与本土构词并不互斥。",
+      "concepts": [
+        "c-root",
+        "c-suffix",
+        "c-word-sum"
+      ]
+    },
+    {
+      "id": "w26d2-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）有人主张把 telephone 换成 far-speaker。最合理的评价是：",
+      "choices": [
+        "造词本身可行，但能否通行取决于使用网络，不取决于是否“纯”",
+        "这种词更正确，因为不含希腊词素",
+        "这种词违反英语语法",
+        "telephone 不是英语词"
+      ],
+      "answer": 0,
+      "explain": "用本土词素造词在形态上完全可行（toothdrawer 就是这种思路），但 telephone 已经随电信、出版、教育网络扩散到全世界，替代词没有网络支撑。判断标准是接受度，不是纯粹性。",
+      "concepts": [
+        "c-borrowing",
+        "c-compound",
+        "c-inference"
+      ],
+      "hint": "问“谁在用、用了多久”，而不是“它由什么词素组成”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w26d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 inkhorn 在句中的含义",
+      "passage": "His rivals called his prose inkhorn: every third word had been lifted from a Latin page and never heard in a market. The charge was not that the words were bad, but that they had been made at a desk and passed straight to paper, skipping the mouths that usually test a word before it survives.",
+      "word": "inkhorn",
+      "choices": [
+        "指只从书本拉丁造出、未经口语检验的词",
+        "指墨水瓶本身",
+        "指古英语诗歌用语",
+        "指法律法语术语"
+      ],
+      "answer": 0,
+      "strategy": "① 定义线索：lifted from a Latin page and never heard in a market；② 对比：made at a desk / skipping the mouths；③ 排除字面义：冒号后的解释不是“墨水瓶”；④ 语气：rivals called 说明是贬称。",
+      "explain": "inkhorn 是 16 世纪对“书斋造词”的贬称：材料取自拉丁书本，没有经过口语流通。这段文字把它的判定标准说得很清楚——不是词本身坏，而是它跳过了“嘴上试一试”这道关。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 8 节：Cheke 的纯洁主义与借词矛盾"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "拉丁词源与英语抽象词汇的借入"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "pure、opinion、mix、mangle 的语源"
+    }
+  ]
+}

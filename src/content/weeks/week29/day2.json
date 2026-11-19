@@ -1,0 +1,299 @@
+{
+  "id": "w29d2",
+  "week": 29,
+  "day": 2,
+  "title": "金属、船、犁与轮：用“缺词”定年代",
+  "tagline": "祖语有一个“车轮”，却没有一个“铁”字——这一有一无，比任何实物都更能说明他们活在什么年代",
+  "objectives": [
+    "能用“铁没有共同词”说明共享词汇的缺失如何给出年代下限",
+    "能用轮、轴、轭、驾这组词说明共享词汇如何给出年代上限",
+    "能把 despot、domestic、vicinity、economy 追溯到祖语的家宅与聚落词"
+  ],
+  "prereqs": [
+    "w29d1",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-cognate",
+    "c-greek-latin"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s7-3",
+    "kp-s1c10s7-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "有“金”“银”，没有“铁”",
+      "body": "金属词是最好用的年代尺，因为技术出现的年代有考古学独立定年。\n\n祖语里有表示**铜／青铜**的词（*h₂eyos，拉丁 aes“铜”，英语 ore“矿石”同源），有表示**金**的词（*ǵʰelh₃-“黄”，英语 gold、俄语 zoloto 同源），有表示**银**的词（*h₂erǵ-“白亮”，拉丁 argentum，英语借作 argent）。\n\n可是**铁**没有共同词。拉丁叫 ferrum，日耳曼叫 *īsarną（英语 iron、德语 Eisen），希腊叫 sídēros——三套毫不相干。\n\n结论很清楚：铁器进欧洲时，印欧语已经散开了，各支各自给这种新金属起了名。这就是“**缺词**”的用法：一个词的缺席，和它的在场一样有信息量。",
+      "terms": [
+        {
+          "term": "isogloss",
+          "zh": "同语线",
+          "en": "isogloss",
+          "note": "某语言特征分布的地理边界"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "金属与船：在场与缺席",
+      "body": "第二列是祖语形式（有星号即构拟），第四列是英语里的落点。注意 iron 那一行：英语有词，但那个词**不是**从祖语来的——这一点要靠“其他分支对不上”来判断，单看英语看不出来。",
+      "head": [
+        "所指",
+        "祖语",
+        "其他分支",
+        "英语落点"
+      ],
+      "rows": [
+        [
+          "铜／青铜",
+          "*h₂eyos",
+          "拉丁 aes（属格 aeris）",
+          "ore（矿石，本土词）"
+        ],
+        [
+          "金",
+          "*ǵʰelh₃-“黄”",
+          "俄语 zoloto；拉丁 aurum 出自另一根（“黎明”）",
+          "gold"
+        ],
+        [
+          "银",
+          "*h₂erǵ-“白亮”",
+          "拉丁 argentum；希腊 argyros",
+          "argent（借自法语，纹章学术语）"
+        ],
+        [
+          "铁",
+          "（无共同词）",
+          "拉丁 ferrum；希腊 sídēros；日耳曼 *īsarną",
+          "iron（本土词，来源不明，非印欧共同继承）"
+        ],
+        [
+          "船",
+          "*nāus",
+          "拉丁 nāvis；希腊 naus；梵语 nau-",
+          "naval、nausea（借词；本土 nave 已废）"
+        ]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "农业与轮轴：把上限压到公元前三千五",
+      "body": "轮与车的整组词汇都在祖语里：轮、轴、轭、驾各有专词，而且成套。考古学上轮车出现于公元前四千纪末至前三千纪，因此**祖语不可能早于这个时间就散开**——这就是“上限”。配上“铁”给的“下限”，祖语的年代被夹在一个不宽的区间里。",
+      "head": [
+        "所指",
+        "祖语",
+        "拉丁",
+        "英语",
+        "希腊"
+      ],
+      "rows": [
+        [
+          "犁",
+          "*h₂erh₃-",
+          "arāre（耕）",
+          "ear（古义“耕地”）；arable（借词）",
+          "aroō"
+        ],
+        [
+          "播种",
+          "*seh₁-",
+          "serere（播种）",
+          "sow",
+          "（另根 sper-“撒”）"
+        ],
+        [
+          "收割／切",
+          "*sek-“切”",
+          "secāre（切）",
+          "saw（锯）；section（借词）",
+          "（无直接对应）"
+        ],
+        [
+          "轮",
+          "*kʷekʷlos",
+          "colere（耕、转，同根的另一构式）",
+          "wheel",
+          "kyklos（圆、轮）"
+        ],
+        [
+          "轴",
+          "*h₂eḱs-",
+          "axis",
+          "axle",
+          "axōn"
+        ],
+        [
+          "轭",
+          "*yugóm",
+          "iugum",
+          "yoke",
+          "zygon"
+        ],
+        [
+          "驾、运",
+          "*weǵʰ-",
+          "vehere（运）",
+          "way、weigh、wagon",
+          "（同根 ochos“车”）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "家宅、主人与聚落：despot 是怎么造出来的",
+      "body": "祖语有两个表示“住”的词根，分工清楚：\n\n- ***dems-**“房屋、家”：拉丁 **domus**，希腊 **domos**。英语通过拉丁借词拿到 **domestic、domicile、dominate**（后者走“家主”义）。\n- ***weyḱ-**“氏族聚落”：拉丁 **vīcus**“村”，希腊 **oikos**“家”（→ **economy**“管家之法”、**ecology**）、梵语 veśa-。英语的 **vicinity** 来自 vīcus；更有意思的是地名后缀 **-wick／-wich**（Norwich、Ipswich、Warwick、Greenwich），那是日耳曼人自己带过来的同源词，意思是“定居点”。\n\n最能说明社会结构的是复合词 ***dem-pot-**“家宅之主”（*dems- ＋ *pot-“有权者”）。它在希腊语里变成 **despotēs**，英语借作 **despot**（暴君）；*pot- 这一支在拉丁语里长成 **potis**，再长成 **potent、possible、power** 的词根。\n\n所以要小心一处常见误推：**有“家主”这个词，不等于社会一定是父权制**。语言能证明的是“存在这个范畴与这个称谓”，社会制度的性质要靠考古与文献另证。",
+      "terms": [
+        {
+          "term": "compound",
+          "zh": "复合词",
+          "en": "compound",
+          "note": "两个词根合成一个新词，如 *dems- ＋ *pot-"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "神名：天父与星期二",
+      "body": "祖语有一个极清楚的宗教词组：***dyēus ph₂tēr**“天父”。dyēus 来自 *dyew-“光天、白昼”，本义是“天空”，也被当作神名。\n\n三个分支各自保留：梵语 **Dyauṣ pitā**、希腊 **Zeu pater**（呼格）、拉丁 **Iūpiter**（更早作 Diēspiter，前一半正是 dyēus）。英语的 **Tuesday** 来自 **Tiw**，古英语 Tīw，出自 *Tīwaz，再上溯 *deywós“神”——同根还给出拉丁 **dīvus／deus**（→ **divine、deity**）与梵语 **deva**。\n\n这说明祖语使用者有一套以“天”为最高层的宗教词汇。同样要留一分：**能重建神名，不等于能重建神话**。词汇给出的是范畴与称谓，故事细节在各支独立发展，不能靠一个词根倒推出整套叙事。",
+      "terms": [
+        {
+          "term": "theonym",
+          "zh": "神名",
+          "en": "theonym",
+          "note": "神祇的专名，如 *dyēus"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w29d2-p1",
+      "kind": "mcq",
+      "prompt": "“祖语没有表示铁的共有词”这一事实，最合理的推论是：",
+      "choices": [
+        "铁器普及发生在各支分散之后，因此各支各自命名，没有共同继承的词",
+        "祖语使用者不知道铁的存在，因此他们处于旧石器时代",
+        "铁这个词在运输途中丢失了",
+        "印欧语系各支从不同语系借入了铁的词"
+      ],
+      "answer": 0,
+      "explain": "关键在“时间差”：铁器进入欧洲晚于印欧语的分散，所以没有共同词是**预期之内**的。说“不知道铁”过度了——不知道某种金属与没有它的词是两件事，且旧石器时代的判断与铜、金、银词的存在直接冲突。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w29d2-p2",
+      "kind": "mcq",
+      "prompt": "轮、轴、轭、驾这组词成套存在于祖语，其年代学意义是：",
+      "choices": [
+        "祖语的分散不可能早于轮车出现，因为不可能先有词后有其物",
+        "祖语使用者发明了轮子",
+        "轮子是各支独立发明的，词是后来才统一的",
+        "这组词是从闪米特语借入的"
+      ],
+      "answer": 0,
+      "explain": "逻辑是“物先于词”：有稳定的专名，说明所指之物已存在并被日常使用，因此祖语年代不能早于轮车的考古年代（约公元前四千纪末）。这只能给上限，不能证明谁发明了轮子——发明地是另一回事。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w29d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词（三个字母）",
+      "sentence": "Latin iugum and English ___ descend from *yugóm, the piece of wood that joins two draft animals; Greek kept it as zygon.",
+      "answer": "yoke",
+      "accept": [
+        "yoke"
+      ],
+      "explain": "yoke 是本土词，与拉丁 iugum、希腊 zygon 同源；希腊的 zygon 还给出英语 zygote（“结合之物”）、zygomatic。注意拉丁 i- 对英语 y- 这条对应：iugum／yoke、iungere／join，都是同一组。",
+      "concepts": [
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w29d2-p4",
+      "kind": "mcq",
+      "prompt": "英语 despot 的构词来源是：",
+      "choices": [
+        "希腊 despotēs，来自 *dem-pot-“家宅之主”（*dems-“家”＋*pot-“有权者”）",
+        "拉丁 dominus 的直接借词",
+        "日耳曼 *þeudanaz“民众之王”",
+        "*deywós“神”的派生词"
+      ],
+      "answer": 0,
+      "explain": "despot 是希腊词经法语进入英语的，字面就是“一家之主”；*pot- 这一支还给出 potent、possible、power。dominus 是拉丁的“主人”，属另一支（domestic 那一族）；把它当直接来源会漏掉 -pot- 这个关键成分。",
+      "concepts": [
+        "c-greek-latin",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w29d2-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）英语 wheel、希腊 kyklos、梵语 cakra- 三者同源。若要在英语里找一个与 kyklos 更“像”的同源借词，最可能是：",
+      "choices": [
+        "cycle（借自希腊 kyklos 的这一支）",
+        "circle（本土词，与 wheel 同根）",
+        "axle（与 axis 同源）",
+        "yoke（与 iugum 同源）"
+      ],
+      "answer": 0,
+      "explain": "cycle 是希腊 kyklos 经拉丁 cyclus 进入英语的借词，所以形状最接近；wheel 是同源的**本土**形式，circle 来自拉丁 circulus（同根但路线不同），axle 与 yoke 属另一组词。这道题练的是：同一个祖语词根，会以“本土词”和“借词”两种身份同时存在于英语里。",
+      "concepts": [
+        "c-cognate",
+        "c-borrowing",
+        "c-inference"
+      ],
+      "hint": "先分清哪条是本土继承、哪条是借词路线。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w29d2-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 innovation 在句中的含义",
+      "passage": "Iron-working reached Europe too late to be named once and inherited. Each branch coined or borrowed its own term, which is why Latin ferrum, Greek sídēros and Germanic īsarn share nothing. The word for iron is therefore a post-dispersal innovation, not an inherited item.",
+      "word": "innovation",
+      "choices": [
+        "分散之后才出现的新事物（此处指新技术及其命名）",
+        "从祖语继承下来的古老词",
+        "某一分支的方言变体",
+        "语言学上的 borrowing（借词）"
+      ],
+      "answer": 0,
+      "strategy": "① 首句给出时间关系：too late to be named once and inherited；② 结果句：each branch coined or borrowed its own term；③ 结论句直接下定义：post-dispersal innovation, not an inherited item；④ 排除“借词”：借词只是各支获取新词的两种方式之一，innovations 是上位概念。",
+      "explain": "innovation 在这里指“分散之后新出现的事物（及其命名）”，与 inherited“继承的”相对。这对概念是本课的主轴：一个词是继承还是创新，决定它能证明什么。注意 innovation 在商业语境里是“创新举措”，此处是更中性的“新出现之物”。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 7 节：金属、船、农业与轮轴的词汇证据；家宅词与神名"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "*h₂eyos／aes／ore、*ǵʰelh₃-／gold、*yugóm／iugum／yoke、*dem-pot- 的核对"
+    }
+  ]
+}

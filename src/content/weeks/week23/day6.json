@@ -1,0 +1,287 @@
+{
+  "id": "w23d6",
+  "week": 23,
+  "day": 6,
+  "title": "送气不承载意义，元音才是词根换零件的地方",
+  "tagline": "英语把 [pʰ] 当成口音，却把希腊的 ph 写进词典；拉丁词根的元音在 a/e/i 之间滑动，滑出了三个词族",
+  "objectives": [
+    "能说明英语不靠送气区别词义，并解释 ph、th、bh 这类拼写的来历",
+    "能判断辅音后的 h 在拆词时不是词素",
+    "能用舌位高低、前后解释 fac-/fec-/fic-、cap-/cep-/cip- 这类元音交替"
+  ],
+  "prereqs": [
+    "w23d5"
+  ],
+  "concepts": [
+    "c-morpheme",
+    "c-borrowing",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c5s5-2",
+    "kp-s1c5s6-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "同一口气，多给一点",
+      "body": "发 pot 的 p 时，双唇放开后会有一股明显的气流跟着冲出来，这叫**送气**（aspiration），记作 [pʰ]；发 spot 的 p 时几乎没有这股气。英语母语者听不出这是“两个音”，只会觉得口音轻重不同——因为英语**不用送气区别词义**。\n\n对照一下：汉语的“爸／怕”、印地语的送气与不送气成对区分词。所以那些语言的词进入英语时，拼写会把送气标出来。\n\n这条对构词的用处是“负面的”，但极重要：**送气不承载意义，所以它从不区分词素**。反过来，凡是拼写里拿 h 去标送气的地方，那个 h 都是历史标记，不是构词成分。拆词时把它摘掉，剩下的才是词根。"
+    },
+    {
+      "kind": "table",
+      "title": "h 的四种身份：拆词时怎么处理",
+      "body": "四行里只有第三行是“真音”，但它仍然不是词素。判断方法：先问 h 读不读，再问它标的是送气还是独立音，最后才决定要不要在拆词时保留它。第二行的例子值得多看一眼：Buddha 与 dharma 里的 dh 读的是送气的浊 [d]，英语没有这个音，只能借拼写；khaki 的 kh 同理。它们都说明“拼写可以记录一个英语自己没有的对立”。",
+      "head": [
+        "h 的角色",
+        "例词",
+        "读音",
+        "拆词结论"
+      ],
+      "rows": [
+        [
+          "送气标记（希腊）",
+          "phone, theory, chorus",
+          "[f]、[θ]、[k]",
+          "ph／th／ch 各是一个音的拼写单位，h 不是词素"
+        ],
+        [
+          "送气标记（印度）",
+          "Buddha, dharma, khaki",
+          "[d]、[d]、[k]",
+          "bh／dh／kh 标的是送气浊音，不是 b+h"
+        ],
+        [
+          "独立音位 /h/",
+          "house, ahead, beehive",
+          "[h]",
+          "h 是真实音，但仍不承载词汇意义"
+        ],
+        [
+          "不发音的残留",
+          "hour, honest, exhaust",
+          "h 不读",
+          "法语／拉丁拼写残留，拆词时直接跳过"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "元音：舌头的三根标尺",
+      "body": "元音没有阻塞，靠**舌位**区分：高低（舌面离上腭多远）、前后（舌体在前还是在后）、圆唇与否、松紧。英语的紧元音可以出现在词末重读（bee、bay、boo），松元音不行——bit 里的 [ɪ] 不能单独收尾。\n\n构词上真正有用的是另一件事：**元音也会换零件**。拉丁词根的元音在历史里从 a 滑到 e 再滑到 i，同一个词根就留下三套形状：\n\n- fac- / fec- / fic-（做）：fact、perfect、efficient\n- cap- / cep- / cip-（拿）：capture、accept、recipient\n- ten- / tain- / tin-（握持）：tenant、contain、continue\n\n这不是三个词根，是一个词根的元音在高低、前后之间移动。认出这一点，一个词族会立刻大三倍。"
+    },
+    {
+      "kind": "table",
+      "title": "元音交替：一个词根的三张脸",
+      "body": "哪张脸出现在哪个词里，没有可靠规则，只能按词记；但“它们同源”这条判断是可以推的：意义核心相同（做、拿、握），辅音骨架相同（f-c、c-p、t-n），只有元音在动。看到陌生词里有同一副辅音骨架加不同元音，先假设同族，再用语境验证。",
+      "head": [
+        "词根义",
+        "a 形",
+        "e 形",
+        "i 形",
+        "例词"
+      ],
+      "rows": [
+        [
+          "做（facere）",
+          "fac-",
+          "fec-",
+          "fic-",
+          "fact / perfect / efficient"
+        ],
+        [
+          "拿（capere）",
+          "cap-",
+          "cep-",
+          "cip-",
+          "capture / accept / recipient"
+        ],
+        [
+          "握持（tenere）",
+          "ten-",
+          "tain-",
+          "tin-",
+          "tenant / contain / continue"
+        ]
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "四个算式：元音换了，辅音骨架没换",
+      "body": "第二条同时踩了两条规则——ex- 在 f 前变 ef-（逆行同化），词根取 fic-（元音交替）。一条词形可以叠好几层规则，这正是构词要逐层拆、不能一步到位的原因。",
+      "sums": [
+        {
+          "parts": [
+            "de",
+            "fic",
+            "ient"
+          ],
+          "result": "deficient",
+          "glossZh": "缺乏的；不足的",
+          "note": "de-（离开）+ fic（做）+ -ient →“没做到”"
+        },
+        {
+          "parts": [
+            "ef",
+            "fic",
+            "ient"
+          ],
+          "result": "efficient",
+          "glossZh": "高效的",
+          "note": "ex- 在 f 前变 ef-，词根取 fic-"
+        },
+        {
+          "parts": [
+            "re",
+            "cip",
+            "ient"
+          ],
+          "result": "recipient",
+          "glossZh": "接受者",
+          "note": "re-（回）+ cip（拿）+ -ient"
+        },
+        {
+          "parts": [
+            "con",
+            "tain"
+          ],
+          "result": "contain",
+          "glossZh": "包含；容纳",
+          "note": "con- + tain（ten- 的 e 形弱化为 ai）"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w23d6-p1",
+      "kind": "mcq",
+      "prompt": "英语里 pot 的 p 与 spot 的 p 读音不同。这件事说明：",
+      "choices": [
+        "送气在英语只是语音细节，不区别词义",
+        "英语有两个独立的 p 音位",
+        "spot 的 p 是浊音",
+        "pot 的 p 其实是擦音"
+      ],
+      "answer": 0,
+      "explain": "英语的清塞音在重读音节首送气，在 s 后不送气，这是同一音位的两种读法。母语者听不出差别，也不会因此区分词。对比汉语“爸／怕”、印地语送气对：那里送气能区别词义，所以借词拼写会标出 h。这就是“语音细节”与“音位对立”的分界。",
+      "concepts": [
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w23d6-p2",
+      "kind": "mcq",
+      "prompt": "phone 里的 ph 应该怎样处理？",
+      "choices": [
+        "看作一个音 [f]，h 不是词素",
+        "拆成 p + h 两个词素",
+        "h 是否定后缀",
+        "ph 表示送气，读 [pʰ]"
+      ],
+      "answer": 0,
+      "explain": "希腊字母 φ 本读送气的 [pʰ]，拉丁转写作 ph；后来希腊语把它擦化成 [f]，英语按 [f] 借入。所以 ph 是一个音的拼写单位，phon-（声音）才是词根。若把 ph 拆成 p+h，就会在 phonology、symphony、telephone 里凭空多出一个不存在的词素。",
+      "concepts": [
+        "c-morpheme",
+        "phon"
+      ]
+    },
+    {
+      "id": "w23d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "The soil here is ___ in nitrogen, so the crops grow poorly.",
+      "answer": "deficient",
+      "accept": [
+        "deficient"
+      ],
+      "explain": "de-（离开）+ fic（做）+ -ient →“没做到、缺了”。同族：deficiency（缺乏）、efficient（做出来 → 高效）、sufficient（做到下面 → 足够）、proficient（做到前面 → 熟练）。四个词只差前缀，词根都是 fac- 的 i 形。",
+      "concepts": [
+        "de",
+        "fic"
+      ]
+    },
+    {
+      "id": "w23d6-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 capere 意为“拿”，其分词是 captus。captive 的 cap- 与 recipient 的 cip- 是什么关系？",
+      "choices": [
+        "同一词根的两个元音形状",
+        "两个完全不同的词根",
+        "cip- 来自希腊语，cap- 来自拉丁语",
+        "recipient 与 capere 没有词源关系"
+      ],
+      "answer": 0,
+      "explain": "辅音骨架 c-p 相同，意义核心都是“拿”：cap- 是 a 形（capture、captive），cip- 是 i 形（recipient、incipient）。中间的 cep- 出现在 accept、except、intercept 里。三张脸，一个词根。判据是“辅音骨架 + 意义核心”，不是拼写相似。",
+      "concepts": [
+        "c-inference",
+        "cap",
+        "cip"
+      ],
+      "hint": "先比辅音骨架，再比意义核心。"
+    },
+    {
+      "id": "w23d6-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“熟练的、精通的”的切分",
+      "parts": [
+        "pro",
+        "fic",
+        "ient"
+      ],
+      "answer": "proficient",
+      "explain": "pro-（向前）+ fic（做）+ -ient →“做到前面去的”，即熟练的。它与 deficient、efficient、sufficient 同一族，词根都是 fac-；四个词的差别全在前缀的方向上：向前、离开、出来、在下。把方向想清楚，这四个形容词就不用背了。",
+      "concepts": [
+        "c-word-sum",
+        "pro",
+        "fic"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w23d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 artificial 的含义",
+      "passage": "The distinction is artificial: it was invented by the researchers for convenience, and nothing in the data itself marks the boundary.",
+      "word": "artificial",
+      "choices": [
+        "人为的、非自然的",
+        "艺术的、审美的",
+        "精巧的、巧妙的",
+        "表面的、肤浅的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：art（技艺）+ i + fic（做）+ -ial →“用技艺做出来的”；② 冒号后 invented by the researchers、nothing in the data 是定义式证据；③ 对照 artificial 与 natural 的常规对立；④ 排除“艺术的”：art 在这里指技艺、人工，不是美术。",
+      "explain": "artificial 是“人工的、人为的”，与 natural 相对。词根 fic- 是 fac-（做）的 i 形，所以本义就是“做出来的”；同族 artifice（做出来的东西 → 诡计）、artifact（做出来的物件 → 人工制品）。这也解释了为什么“artificial light”不是“艺术的光”，而是“人造的光”。",
+      "concepts": [
+        "c-inference",
+        "fic",
+        "c-morpheme"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 5 章第 5 至 6 节：送气、发声态与元音描写"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "送气的语言差异、元音的四参数"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "希腊 φ/θ/χ 的转写与 facere、capere 的元音交替"
+    }
+  ]
+}

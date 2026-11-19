@@ -1,0 +1,284 @@
+{
+  "id": "w24d4",
+  "week": 24,
+  "day": 4,
+  "title": "变体竞争：goodbye 是怎么赢的",
+  "tagline": "一条高频短语如何被磨成一个词，其他候选如何退场",
+  "objectives": [
+    "能复原 God be with ye → Godbwye → goodbye 的缩略链，并说明频率在其中的作用",
+    "能用 lord、lady 说明“并入单词 + 语音磨损”如何让词源变得不可见",
+    "能说明 farewell、so long 没有消失而是退到特定语域"
+  ],
+  "prereqs": [
+    "w24d3",
+    "c-clipping",
+    "c-compound"
+  ],
+  "concepts": [
+    "c-clipping",
+    "c-compound",
+    "c-etymology",
+    "c-frequency",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s2-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "高频短语会被磨短",
+      "body": "一条常说的话，说得越多，越容易被压缩。这条规律叫**并入单词**（univerbation）：短语内部的词界消失，几个词合成一个词。配合**语音磨损**（erosion），五个词能压成两个音节。\n\ngoodbye 的来源是 **God be with ye**（愿上帝与你同在）。16 世纪出现书面形式 **Godbwye**：中间的 be 与 with 被压成 b’w’，整串只剩几个辅音骨架。18 世纪定型为 good bye，说话人按 good 去理解它，原来的 God 已经听不出来。\n\n同样的磨法造出了 lord、lady、holiday（holy day）、Christmas（Christ's mass）。规律很稳：用得越频繁，磨得越狠。",
+      "terms": [
+        {
+          "term": "univerbation",
+          "zh": "并入单词",
+          "en": "univerbation",
+          "note": "短语内部的词界消失，合成一个词"
+        },
+        {
+          "term": "erosion",
+          "zh": "语音磨损",
+          "en": "erosion",
+          "note": "高频语流中音节与音段脱落"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "拼写三选一",
+      "body": "一个词的胜负常常不取决于“更合理”，而取决于词典、教科书、报纸是否同时采用它。三种拼写并存了一个多世纪，最后是 goodbye 通吃；这不是语言学判决，是出版网络的收敛。",
+      "head": [
+        "形式",
+        "流行期",
+        "今天的语域"
+      ],
+      "rows": [
+        [
+          "good-bye",
+          "19 世纪至 20 世纪上半叶",
+          "旧式，仍见于部分印刷品"
+        ],
+        [
+          "good-by",
+          "19 世纪美式",
+          "已基本退场，只在旧文本中"
+        ],
+        [
+          "goodbye",
+          "18 世纪起，20 世纪后占优",
+          "中性、通用，词典首选"
+        ]
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "lord 与 lady：同一台磨",
+      "body": "把 lord 拆回 hlafweard，会看到一幅非常具体的家务图景：管面包的人。lady 则是揉面包的人。两个词的词源都比今天的词义“土”得多，也都磨掉了中间的音节。\n\nhlaf 就是今天的 **loaf**。这条线索能反推：古英语的复合词用日常食物作构词材料，说明当时的权力关系就建立在谁管粮食上。",
+      "steps": [
+        {
+          "period": "古英语",
+          "form": "hlafweard",
+          "note": "hlaf“面包” + weard“看守人” → 管面包的人"
+        },
+        {
+          "period": "古英语",
+          "form": "hlafdige",
+          "note": "hlaf + dige“揉面的人” → 揉面包的人"
+        },
+        {
+          "period": "中古英语",
+          "form": "hlaford / lavedi",
+          "note": "词中音节脱落，拼写简化"
+        },
+        {
+          "period": "现代英语",
+          "form": "lord / lady",
+          "note": "词源不可见，只剩身份义"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么是 goodbye 赢",
+      "body": "竞争不是法庭判决。三个因素决定胜负：**使用频率**（问候语每天说无数次）、**权威文本**（词典与教科书收哪一个）、**学校**（孩子被教写哪一个）。三者合力，才把一个变体推成标准。\n\nfarewell 没有消失，它退到了正式与文学语域（a farewell speech、a farewell tour）；so long 留在口语，地域色彩明显；good day 退成地方性或戏谑用法。\n\n所以判断一个旧形式是否“死了”，要问：它还在哪些场合出现？如果还在某个语域稳定使用，它就是分工，不是淘汰。",
+      "terms": [
+        {
+          "term": "variant",
+          "zh": "变体",
+          "en": "variant",
+          "note": "同一功能的不同形式，彼此竞争或分工"
+        },
+        {
+          "term": "obsolescence",
+          "zh": "废弃",
+          "en": "obsolescence",
+          "note": "形式退出全部语域，不再被使用"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "三种“变短”的方式",
+      "body": "三者的结果都是词变短，但操作完全不同：并入单词是词界消失，截短是砍掉整块音节，拼合是把两个词各砍一半再接。判断时看“原来的成分还能不能认出来”。",
+      "a": "并入单词 + 磨损",
+      "b": "截短与拼合",
+      "rows": [
+        {
+          "label": "输入",
+          "a": "一个短语：God be with ye",
+          "b": "一个或两个整词：gymnasium、breakfast + lunch"
+        },
+        {
+          "label": "操作",
+          "a": "词界消失、中间音节脱落",
+          "b": "砍掉词首或词尾，或两词各取一半"
+        },
+        {
+          "label": "输出",
+          "a": "goodbye、lord、holiday、Christmas",
+          "b": "gym、flu、brunch、smog"
+        },
+        {
+          "label": "词义",
+          "a": "保留原短语的整体功能（问候、身份）",
+          "b": "保留原词的指称，语域更随意"
+        },
+        {
+          "label": "辨认",
+          "a": "拼写已看不出原词，需要词源",
+          "b": "还能看出残余部分"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w24d4-p1",
+      "kind": "mcq",
+      "prompt": "goodbye 的直接来源是：",
+      "choices": [
+        "God be with ye",
+        "Good day to you",
+        "God bless you",
+        "Good bye-bye"
+      ],
+      "answer": 0,
+      "explain": "goodbye 由 God be with ye 缩略而来：16 世纪写作 Godbwye，18 世纪定型为 good bye。good day 是另一条独立的问候语，goodbye 与它没有直接派生关系。",
+      "concepts": [
+        "c-etymology",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w24d4-p2",
+      "kind": "cloze",
+      "prompt": "填入一个英文拼写形式",
+      "sentence": "By the eighteenth century Godbwye had become ___.",
+      "answer": "goodbye",
+      "accept": [
+        "goodbye",
+        "good bye",
+        "good-bye"
+      ],
+      "explain": "16 世纪的 Godbwye 在 18 世纪被重新分析为 good + bye，拼写随之改成 good bye，20 世纪后统一为 goodbye。重新分析（reanalysis）是这条链的关键：说话人不再认得原来的 God，就按听起来最像的词去拼。",
+      "concepts": [
+        "c-etymology",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w24d4-p3",
+      "kind": "mcq",
+      "prompt": "lord 中的 hlaf- 对应现代英语的哪个词？",
+      "choices": [
+        "loaf",
+        "leaf",
+        "love",
+        "half"
+      ],
+      "answer": 0,
+      "explain": "hlaf 是“面包”，现代形式是 loaf。lord < hlafweard“管面包的人”，lady < hlafdige“揉面包的人”。知道 hlaf = loaf，这两个词的词源就一下子通了。",
+      "concepts": [
+        "c-etymology",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w24d4-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 farewell 的切分",
+      "parts": [
+        "fare",
+        "well"
+      ],
+      "answer": "farewell",
+      "explain": "fare（“行走、旅程”，与 ferry、fare 同源）+ well（“好”）→ farewell，原义是“一路走好”。它是复合词，不是缩略词；与 goodbye 同属问候语，但语域更正式，今天多用于演说与送别场合。",
+      "concepts": [
+        "c-compound",
+        "c-word-sum",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w24d4-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）关于 farewell 今天的地位，下面哪项最准确？",
+      "choices": [
+        "它没有消失，而是退到正式与文学语域，与 goodbye 形成分工",
+        "它已经被 goodbye 完全淘汰，不再使用",
+        "它比 goodbye 更口语，只用于朋友之间",
+        "它是 goodbye 的错误拼写"
+      ],
+      "answer": 0,
+      "explain": "farewell 仍稳定出现在 farewell speech、farewell tour 这类正式或仪式性场合，说明它没有退出语言，只是语域收窄。变体竞争的常见结局不是一方灭绝，而是各自占住一块场合。",
+      "concepts": [
+        "c-register",
+        "c-frequency"
+      ],
+      "hint": "问“它今天还在哪些场合出现”，而不是“它还流不流行”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w24d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 lord 的词源义",
+      "passage": "The estate records call him the hlaford, the keeper of the loaf: in a household where bread was the staple, the man who controlled the storehouse controlled everyone who ate from it. By the time the word reached its modern spelling as lord, the bakery had vanished from it.",
+      "word": "lord",
+      "choices": [
+        "原义是“管面包的人”，后来泛指领主",
+        "原义是“烤面包的人”",
+        "原义是“面包”本身",
+        "原义是“土地丈量者”"
+      ],
+      "answer": 0,
+      "strategy": "① 同位语：the keeper of the loaf 直接给出释义；② 语境：controlled the storehouse 对应“管”；③ 词形：hlaford 与 modern lord 同指，说明是同一词的早期形式；④ 排除“烤”：揉面的是 lady 的词源 dige，不是 weard。",
+      "explain": "lord < 古英语 hlafweard（hlaf“面包” + weard“看守人”）。词源义是“管面包的人”，因为控制粮食就控制人；后来词义抽象为“领主、勋爵”。这条链与 goodbye 同属并入单词加语音磨损，只是 lord 磨得更彻底。",
+      "concepts": [
+        "c-etymology",
+        "c-inference",
+        "c-compound"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 2 节：变体的竞争与淘汰；goodbye 的缩略链"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "goodbye、lord、lady、farewell 的语源与首见年代"
+    }
+  ]
+}

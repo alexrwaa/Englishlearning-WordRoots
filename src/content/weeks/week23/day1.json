@@ -1,0 +1,317 @@
+{
+  "id": "w23d1",
+  "week": 23,
+  "day": 1,
+  "title": "拼写骗了你：cats 的 -s 与 dogs 的 -s 是两个音",
+  "tagline": "辅音是气流被挡住的结果——挡住的位置和方式一变，词素在接缝处就换一副样子",
+  "objectives": [
+    "能说明一个辅音由“气流在哪里被挡、挡到什么程度”决定，并举出拼写与音错位的例子",
+    "能把一个音分解成若干区别特征，并说明同化就是“抄走邻音的一个特征”",
+    "能用 in- 的四种形状说明“词素不变、形状随邻音变”"
+  ],
+  "prereqs": [
+    "w22d6",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-morpheme",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c5s1-1",
+    "kp-s1c5s1-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "先承认一件事：字母不是音",
+      "body": "说 cats 结尾的音，再说 dogs 结尾的音。字母都写 s，可嘴唇、牙齿、声带做的事完全不同：前者是 [s]，一股细细的漏气声，像放气；后者是 [z]，声带在振动，像蜜蜂。同一个字母，两个音——所以**拼写不是语音的记录**，它是一套独立的历史约定。\n\n构词的第一课就落在这里：词素的形状由**音**决定，不由字母决定。你看到的 -s 是拼写；你听到的 [s] 与 [z] 才是同一个复数词素的两种形状。\n\n这个区分不是学究气。看 cavalry 里的 c 读 [k]，civic 里的 c 读 [s]；except 的 x 读 [ks]，exact 的 x 读 [gz]。凡是想靠字母推音的，都会被这些例子绊住；凡是想靠音判断词素边界的，也必须先承认字母只是线索。",
+      "terms": [
+        {
+          "term": "articulator",
+          "zh": "发音器官",
+          "en": "articulator",
+          "note": "下唇、舌尖、舌体、软腭等用来改变气流通道的部位"
+        },
+        {
+          "term": "vocal tract",
+          "zh": "声道",
+          "en": "vocal tract",
+          "note": "从喉到嘴唇、鼻腔的整条通道；辅音就是在这条通道里被“挡”出来的"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "同一字母，不同音：五个常见错位",
+      "body": "这五行的用处不是记读音，而是提醒你：判断词素要同时看拼写和音。右列写的是它对构词的具体影响，读的时候请把注意力放在右列。特别注意 th 那一行：同一个拼写对应两个音，而这恰好是把 this 与 theory 分成两组借词的证据——一组是英语本土的常用词，一组是希腊借来的学术词。",
+      "head": [
+        "拼写",
+        "常见音值",
+        "例词",
+        "对构词的提示"
+      ],
+      "rows": [
+        [
+          "s",
+          "[s] / [z]",
+          "cats [s]；dogs [z]",
+          "复数 -s 有两个形状，取哪个由前一个音的清浊决定"
+        ],
+        [
+          "c",
+          "[k] / [s]",
+          "cavalry [k]；civic [s]",
+          "同一个字母两种音，不能凭字母判断词根的读法"
+        ],
+        [
+          "x",
+          "[ks] / [gz]",
+          "except [ks]；exact [gz]",
+          "ex- 的读音随重音变，拼写却始终是 ex-"
+        ],
+        [
+          "th",
+          "[θ] / [ð]",
+          "theory [θ]；this [ð]",
+          "希腊借词的 th 是一个音的拼写单位，不是 t+h 两个成分"
+        ],
+        [
+          "ph",
+          "[f]",
+          "phone, photograph",
+          "ph 记的是希腊字母 φ 的历史，与 p 无关"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "区别特征：把音拆成几个开关",
+      "body": "与其记二十几个辅音，不如给每个音记四个开关：**发声态**（声带振不振：清／浊）、**部位**（在哪挡：双唇、齿龈、软腭……）、**方式**（挡到什么程度：全堵、留缝、走鼻）、**鼻音性**。这几个开关就叫**区别特征**（distinctive feature）。\n\n**同化**（assimilation）就是：一个音把邻音的某个开关值抄了过来。拉丁 in- + possibilis → impossibilis——n 本来是“齿龈、鼻音”，遇到 p 的“双唇”就把部位开关改成双唇，读成 [m]，拼写跟着写成 im-。\n\n关键推论只有一句：**同化改的是开关值，不是词素**。所以 in- 与 im- 是同一个词素的两个形状（allomorph），意义一分不差。这也顺手解释了为什么前缀是变体最多的地方——它左边贴着词干，每一次都站在接缝上。"
+    },
+    {
+      "kind": "table",
+      "title": "in- 的五格：变的是哪一个开关",
+      "body": "五个形状，一个词素。第三列写的是“哪一个特征值被抄走了”，这一列才是要记的东西：形状可以查，机制必须懂。读表时可以做一件事——把每一行念出来，感受舌尖的位置：发 im- 时嘴唇先合上，发 il- 时舌尖抵住齿龈，发 ir- 时舌尖卷起。三个动作不同，否定意义完全一样。",
+      "head": [
+        "形状",
+        "后接音",
+        "改了什么",
+        "例词"
+      ],
+      "rows": [
+        [
+          "im-",
+          "p、b、m（双唇）",
+          "部位：齿龈 → 双唇",
+          "impossible, imbalance, immodest"
+        ],
+        [
+          "il-",
+          "l（齿龈边音）",
+          "方式：鼻音 → 边音",
+          "illegal, illuminate, illiterate"
+        ],
+        [
+          "ir-",
+          "r（齿龈近音）",
+          "方式：鼻音 → 近音",
+          "irregular, irrigate, irreverent"
+        ],
+        [
+          "ig-",
+          "gn（鼻音 + 鼻音）",
+          "部位 + 省音：in + gn → ign",
+          "ignoble, ignore"
+        ],
+        [
+          "in-",
+          "其余（t、d、s、k、g、f、v、元音）",
+          "不变",
+          "intense, insane, incredible, infinite"
+        ]
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "四个算式：形状换了，意义没换",
+      "body": "念算式时把重音放在最后的结果词上：四个词的意思都建立在同一个“不”上，变的只是接缝处的音。这就是 allomorph 的实操含义。反过来说，如果一道题的答案是 inpossible、inlegal 或 inregular，那不是“拼写变体”，而是没有发生同化——这三种形式在英语里都不存在。",
+      "sums": [
+        {
+          "parts": [
+            "im",
+            "poss",
+            "ible"
+          ],
+          "result": "impossible",
+          "glossZh": "不可能的",
+          "note": "in- 在双唇音 p 前变 im-"
+        },
+        {
+          "parts": [
+            "il",
+            "leg",
+            "ible"
+          ],
+          "result": "illegible",
+          "glossZh": "难以辨认的",
+          "note": "in- 在 l 前丢掉鼻音，变 il-"
+        },
+        {
+          "parts": [
+            "ir",
+            "regular"
+          ],
+          "result": "irregular",
+          "glossZh": "不规则的",
+          "note": "in- 在 r 前变 ir-"
+        },
+        {
+          "parts": [
+            "ig",
+            "noble"
+          ],
+          "result": "ignoble",
+          "glossZh": "不光彩的；出身低微的",
+          "note": "in- + gnobilis → ignobilis，gn 前只剩 i"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w23d1-p1",
+      "kind": "mcq",
+      "prompt": "cats 的 -s 读 [s]，dogs 的 -s 读 [z]。最准确的解释是：",
+      "choices": [
+        "同一个复数词素因前一个音的清浊而取不同形状",
+        "拼写规则要求 s 在 g 后面读 [z]",
+        "cats 与 dogs 用的是两个不同的复数词素",
+        "[s] 与 [z] 只是同一个音的两个字母写法"
+      ],
+      "answer": 0,
+      "explain": "复数词素只有一个，形状由前一个音的清浊定：清音后 [s]，浊音后 [z]。这不是拼写规则，而是声带状态必须与邻音一致的顺带结果。同一机制在 -ed 上给出 [t]、[d]、[ɪd] 三个形状，第 5 天会把它们并到一张表里。",
+      "concepts": [
+        "c-allomorph",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w23d1-p2",
+      "kind": "mcq",
+      "prompt": "in- 在 impossible 里写成 im-，被改变的特征是：",
+      "choices": [
+        "部位：齿龈 → 双唇",
+        "清浊：浊音 → 清音",
+        "鼻音性：鼻音 → 口音",
+        "元音长短"
+      ],
+      "answer": 0,
+      "explain": "n 是齿龈鼻音，p 是双唇塞音。n 为了与 p 同部位变成 [m]，清浊与鼻音性都没动。所以 im- 与 in- 的唯一差别在部位轴上；这条判断是第 4 天那张部位表的基础。",
+      "concepts": [
+        "c-allomorph",
+        "im"
+      ]
+    },
+    {
+      "id": "w23d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "The trade ___ between imports and exports has widened for a decade.",
+      "answer": "imbalance",
+      "accept": [
+        "imbalance"
+      ],
+      "explain": "in- + balance，b 是双唇音，n 变 m → imbalance。写成 inbalance 就违反了同化，英语里也没有这个形式。注意这里的 in- 表示“不”，与表示“向内”的 in-（import）同形不同义，靠词干定。",
+      "concepts": [
+        "c-allomorph",
+        "im"
+      ]
+    },
+    {
+      "id": "w23d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 mutare 意为“改变”，immutable 最可能是：",
+      "choices": [
+        "不可改变的",
+        "可以互换的",
+        "互相模仿的",
+        "无声的"
+      ],
+      "answer": 0,
+      "explain": "im-（in- 在 m 前）+ mut（改变）+ -able（可……的）→ 不可改变的。这里 n 与 m 同为鼻音，改的仍是部位（齿龈 → 双唇），所以拼写落在 im- 这一格。构词推理的顺序是：先定否定前缀，再看词根义，最后用后缀定词性。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "im"
+      ],
+      "hint": "先把 im- 还原成 in-，再找词根与后缀。"
+    },
+    {
+      "id": "w23d1-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“不识字的、文盲的”的切分",
+      "parts": [
+        "il",
+        "liter",
+        "ate"
+      ],
+      "answer": "illiterate",
+      "explain": "il-（in- 在 l 前）+ liter（字母）+ -ate → 不识字的。liter- 也出现在 literate、literature、literacy 里，词根一字未动；被改造的只有接缝处的 n。对比：同族的 illiterate 与 literacy 一个带否定前缀、一个不带，意义的差别全在第一个成分上。",
+      "concepts": [
+        "c-word-sum",
+        "c-allomorph",
+        "liter"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w23d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 impervious 的含义",
+      "passage": "The new coating is impervious to water: the surface stays dry even after hours of rain, because nothing can pass into it.",
+      "word": "impervious",
+      "choices": [
+        "无法透过的、不受影响的",
+        "对水有腐蚀性的",
+        "吸水性很强的",
+        "容易清洗的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：im-（in- 在 p 前）+ per（穿过）+ vious（走）→“穿不过去的”；② 冒号后 stays dry 与 nothing can pass into it 是定义式证据；③ 排除：吸水性强、容易清洗都与“进不去”相反；④ 校验：p 是双唇音，im- 的形状正好符合部位同化，切分自洽。",
+      "explain": "impervious 是“无法透过的”，引申为“不受……影响的”。词形上有两处值得记住：一是 im- 是 in- 在双唇音前的形状；二是 -vious 与 via（路）、deviate（偏离道路）同源，所以“pervious”本义是“有路可通”。把“路”这个意象放回去，这个词就不再需要背了。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph",
+        "im",
+        "per"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 5 章第 1 节：语音产生的基础与区别特征"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "语音学：发音器官、同化与音位变体"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "in- 的各同化形式与拉丁原形"
+    }
+  ]
+}

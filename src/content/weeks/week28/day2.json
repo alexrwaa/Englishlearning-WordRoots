@@ -1,0 +1,269 @@
+{
+  "id": "w28d2",
+  "week": 28,
+  "day": 2,
+  "title": "三个喉音，五个元音，四个能当元音的辅音",
+  "tagline": "祖语里最玄的三个音，编号 *h₁ *h₂ *h₃——没人知道它们怎么读，但都知道它们干了什么",
+  "objectives": [
+    "能说明喉音的编号是功能标签而非音值记录",
+    "能说出五元音系统的分布特点（*e 最常见、*a 罕见）",
+    "能列出成音节响音 *ṃ *ṇ *ḷ *ṛ 在拉丁、希腊、日耳曼、梵语里的典型出路"
+  ],
+  "prereqs": [
+    "w28d1"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s5-2",
+    "kp-s1c10s5-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 9,
+    "apply": 4
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "喉音：编号不是读音",
+      "body": "原始印欧语里被构拟出三个“喉音”，写作 ***h₁ *h₂ *h₃**。这三个符号**不记录音值**，只记录功能：凡是行为相同的一类，就编同一个号。所以 *h₂ 既可能读 [χ]，也可能读 [x] 或 [ʁ]，学界至今没有共识。\n\n这套东西的来历很有意思。1879 年，年轻的 **Saussure** 研究元音交替，发现有一批“长元音”和 a／o 的出现位置无法用已知的音解释。他大胆假设：祖语里另有一类音，后来在各分支都消失了，只在消失前改变了旁边的元音。当时没人信。\n\n三十多年后赫梯语出土，其中写作 **ḫ** 的音正好出现在索绪尔预测的位置上。假说从此被接受，但**音值仍然不明**——这正是“构拟”与“实证”的差别：我们知道它存在、知道它起什么作用，不知道它怎么发音。",
+      "terms": [
+        {
+          "term": "laryngeal",
+          "zh": "喉音",
+          "en": "laryngeal",
+          "note": "祖语中三个构拟音 *h₁ *h₂ *h₃，音值不明、功能明确"
+        },
+        {
+          "term": "cover symbol",
+          "zh": "代用符号",
+          "en": "cover symbol",
+          "note": "只标类别不标音值的写法"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "五个元音，但分布很不均",
+      "body": "祖语通常构拟五个元音：***i *e *a *o *u**。数量上看和西班牙语、日语一样整齐，分布上却极不均：\n\n- ***e** 最常见，多数词根的核心元音是它；\n- ***o** 次之，且大量出现在交替形式里（*e／*o 互换）；\n- ***i *u** 多半来自更早的双 diphthong 或受邻音影响；\n- ***a** 最罕见。有些学者认为真正的 *a 几乎不存在，见到的 a 大多是 *h₂ 把 *e 拉过去的结果（明天讲）。\n\n这种“元音在词形里换班”的现象叫 **ablaut**（元音变换），英语里最强的化石是 sing／sang／sung 与 drive／drove／driven。第 4 天会把它和祖语形态接上。",
+      "terms": [
+        {
+          "term": "ablaut",
+          "zh": "元音变换",
+          "en": "ablaut",
+          "note": "同一词根在不同语法形式里换用 e／o／零等元音"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "成音节响音：一个辅音自己当元音",
+      "body": "响音 *m *n *l *r 在词里可以不带元音，自己撑起一个音节——写作 *ṃ *ṇ *ḷ *ṛ，下面加小圈。各分支不能保留这种结构，必须补一个元音进去，补什么音**各家不同**，于是同一个词在四支里长得完全不一样。这张表是本周最实用的一张。",
+      "head": [
+        "祖语",
+        "拉丁",
+        "希腊",
+        "日耳曼（英语）",
+        "梵语"
+      ],
+      "rows": [
+        [
+          "*ṃ",
+          "en（唇音前 em）：*ḱṃtóm → centum（百）",
+          "a：he-katon（百）",
+          "un：hundred 的前身 *hundą",
+          "a：śatam"
+        ],
+        [
+          "*ṇ",
+          "en：*n̥-（否定）→ in-",
+          "a／an：a-、an-",
+          "un：un-",
+          "a：a-"
+        ],
+        [
+          "*ḷ",
+          "u／ol：*wḷkʷos → lupus（狼）",
+          "ly：lykos（狼）",
+          "ul：wolf",
+          "ṛ：vṛka-"
+        ],
+        [
+          "*ṛ",
+          "or：*ḱr̥d- → cor（属格 cordis，心）",
+          "ar／ra：kardia（心）",
+          "er／eor：heart",
+          "ṛ：hṛd-"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么非要设一个“看不见的音”",
+      "body": "有人会问：既然喉音在任何后代里都不单独存在，为什么要假设它？因为它能一次解释四件事，而别的方案只能各解释一件：\n\n1. **长元音从哪来**：*eh₁ 之类丢掉喉音后，元音被拉长；\n2. **a／o 的分布**：某些词根总是 a，某些总是 o，用着色（明天讲）一解释就齐了；\n3. **赫梯语的 ḫ**：别处消失的音在这里留下了字母；\n4. **希腊语的“增音”**：以元音开头的词前多出一个 e／a／o，正好对应三个喉音。\n\n这就是构拟的常规逻辑：**不是因为有直接证据才设，而是因为设了之后能解释的东西更多、更省事**。反过来说，如果一个音设了不省事，就该被删掉——喉音的**数量**至今仍有争论（有人构拟一个，有人构拟八个以上）。",
+      "terms": [
+        {
+          "term": "prothetic vowel",
+          "zh": "增音",
+          "en": "prothetic vowel",
+          "note": "词首多出的元音，希腊语常见，常对应祖语的喉音"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "同一个词，两种写法",
+      "body": "教材里“父”这个词，你会看到 *pətēr 与 *ph₂tḗr 两种写法。它们指同一个词，只是分析的深度不同——右边把“那个把 e 拉成 a 又拉长的东西”写出来了。读文献时看到不同写法别慌，先看作者用的体系。",
+      "a": "简化写法",
+      "b": "带喉音的写法",
+      "rows": [
+        {
+          "label": "形式",
+          "a": "*pətēr",
+          "b": "*ph₂tḗr"
+        },
+        {
+          "label": "元音",
+          "a": "直接写 a 与 ē",
+          "b": "把 a、ē 的来源标出（*h₂ 着色 + 加长）"
+        },
+        {
+          "label": "优点",
+          "a": "干净，够用于讲对应",
+          "b": "能解释为什么是 a 不是 e，以及与希腊、梵语元音的关系"
+        },
+        {
+          "label": "代价",
+          "a": "看不出元音为何如此",
+          "b": "符号多，且音值本身不确定"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w28d2-p1",
+      "kind": "mcq",
+      "prompt": "关于 *h₁ *h₂ *h₃ 的编号，正确的理解是：",
+      "choices": [
+        "编号按功能分类（对邻接元音的作用），不记录具体音值",
+        "编号对应三个已知的发音部位：喉、咽、声门",
+        "编号表示它们在不同分支里的消失顺序",
+        "编号是三个实际音值的国际音标缩写"
+      ],
+      "answer": 0,
+      "explain": "三个号码是“第几类”的标签，不是音值。正因为音值不明，学者才用代用符号而不是具体音标。若按发音部位编号，就等于宣称知道了音值，而这恰恰是没有定论的部分。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w28d2-p2",
+      "kind": "mcq",
+      "prompt": "五元音系统里，分布最受限的是：",
+      "choices": [
+        "*a：真正的 *a 罕见，多数 a 可由 *h₂ 着色解释",
+        "*e：只出现在少数词根里",
+        "*u：几乎不出现",
+        "*o：只在词尾出现"
+      ],
+      "answer": 0,
+      "explain": "实情与直觉相反：*e 才是最常见的元音，*a 最罕见。这条事实很关键——它让“a 从哪来”成为一个真问题，也促成了喉音着色理论。若以为 *a 很普通，就看不到需要解释的现象。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w28d2-p3",
+      "kind": "cloze",
+      "prompt": "填入英语中表示否定的前缀",
+      "sentence": "The negative prefix *n̥- survives in English as ___, as in unkind and unknown, while Latin keeps it as in- (incredible).",
+      "answer": "un-",
+      "accept": [
+        "un-",
+        "un"
+      ],
+      "explain": "成音节 *ṇ／*n̥ 在日耳曼补 u，成了 un-；在拉丁补 e，成了 in-。同一条“补元音”的机制，补出两个不同的前缀。这也解释了为什么英语既有 un- 又有 in-（后者多来自拉丁借词），两者其实是同一个祖语成分的两条路。",
+      "concepts": [
+        "c-cognate",
+        "c-prefix"
+      ]
+    },
+    {
+      "id": "w28d2-p4",
+      "kind": "mcq",
+      "prompt": "*wḷkʷos“狼”在拉丁作 lupus、希腊作 lykos、英语作 wolf、梵语作 vṛka-。这组形式最能说明：",
+      "choices": [
+        "成音节 *ḷ 在各支补进的元音不同，所以同一个词面目全非",
+        "四个词其实是四次独立发明的巧合",
+        "狼这个词是各支互相借用的文化词",
+        "祖语没有 l 这个音"
+      ],
+      "answer": 0,
+      "explain": "四个形式的首辅音都是 l／w／v 系，中段分别是 ul／ly／ol／ṛ——正是成音节 *ḷ 的四种补元音方式。这条对应不可能由借用造成：四支互不接壤，而补元音的方式各自一贯，贯穿许多词。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w28d2-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）*déḱm̥“十”在拉丁作 decem、希腊作 deka、英语作 ten、梵语作 daśa。据此判断词尾的 *-ṃ 发生了什么？",
+      "choices": [
+        "各支都补了元音：拉丁 em、希腊 a、英语（经日耳曼）失落并缩短，梵语 a",
+        "四支都保留了 *-ṃ 原样",
+        "拉丁保留了 m，其他三支把它丢了",
+        "这个词在四支里都借自同一来源"
+      ],
+      "answer": 0,
+      "explain": "这是上一张表的直接应用：*ṃ 在拉丁补成 em，在希腊与梵语补成 a，在日耳曼先变 un 再在英语里弱化消失（ten 的词尾已无痕迹）。注意英语 ten 看起来“什么都没留”，实际是丢了整段——这类“消失”最容易被误判为“无关”。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ],
+      "hint": "先去查成音节 *ṃ 的四种出路，再看哪个词对得上。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w28d2-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 syllabic 在句中的含义",
+      "passage": "In these roots the nasal is syllabic: it carries the beat of the syllable by itself, with no vowel beside it. Daughter languages cannot keep such a structure, so each inserts a vowel — different vowels in different branches — which is why the same root looks so unlike across the family.",
+      "word": "syllabic",
+      "choices": [
+        "自身构成一个音节的（不需要旁边的元音）",
+        "只出现在音节开头的",
+        "按音节逐字拼读的",
+        "由两个音节合并而成的"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后是定义：carries the beat of the syllable by itself, with no vowel beside it；② 因果句：各支必须 insert a vowel，正说明原本没有元音；③ 结论句 so unlike across the family 与上一课的表对得上；④ 排除“拼读”：那是 syllabic 用于教学语境时的另一义。",
+      "explain": "syllabic 在这里是音系术语“成音节的”。同一个词在教学语境里指“按音节分读的”（如 syllabic writing 音节文字），所以要靠上下文定。判断依据就是那句 with no vowel beside it——这是术语义的硬指标。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 5 节：三个喉音、五元音系统、成音节响音"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "*wḷkʷos、*ḱr̥d-、*déḱm̥ 在各分支的形式核对"
+    }
+  ]
+}

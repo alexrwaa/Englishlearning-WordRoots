@@ -1,0 +1,264 @@
+{
+  "id": "w28d1",
+  "week": 28,
+  "day": 1,
+  "title": "祖语研究的三个层面，与三系列塞音",
+  "tagline": "音系能算得最准，语法次之，词汇最玄——因为词汇最容易被借走",
+  "objectives": [
+    "能说明祖语研究在音系、形态、词汇三个层面上的可靠度差别及其原因",
+    "能列出原始印欧语的三系列塞音，并指出腭化音与圆唇软腭音的对立",
+    "能用 centum／satem 的差异说明“一条音变不足以划分谱系”"
+  ],
+  "prereqs": [
+    "w27d5",
+    "c-cognate"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-etymology",
+    "c-greek-latin"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s4-1",
+    "kp-s1c10s5-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三个层面，三种把握",
+      "body": "重建祖语不是写小说，它有明确的分工：\n\n**音系**最可靠。因为音变是**规则**的，几十个词共享同一条对应，构拟出来的音位只要能让所有对应自洽就行，可验证性高。\n\n**形态**次之。格词尾、人称词尾也能成套对应（拉丁 -ī、希腊 -oi、梵语 -ai 都是与格单数），但材料少、类推干扰大，细节容易分歧。\n\n**词汇**最不稳。词是最容易被借的：文化词、器物词、宗教词会在语系内部横向流动，一个词在几个分支都出现，可能只是传了一圈。所以“共享词汇”能提示接触与年代，却不能单独定谱系。\n\n这一周的顺序也照这个可靠度排：先音系，再形态，词汇留到第 29 周做考古。",
+      "terms": [
+        {
+          "term": "phonology",
+          "zh": "音系",
+          "en": "phonology",
+          "note": "一个语言的音位清单及其组合规则"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三系列塞音：五个发音部位 × 三种发声",
+      "body": "横着读是一个部位的三系列，竖着读是一个系列在五个部位上的分布。注意第二列的空格：传统构拟里 *b 极罕见，这一格几乎是空的，这一点后来成了质疑传统体系的把柄（见第 4 张卡）。",
+      "head": [
+        "部位",
+        "清",
+        "浊",
+        "浊送气"
+      ],
+      "rows": [
+        [
+          "唇音 labial",
+          "*p：*pətēr“父”",
+          "（*b，极罕见）",
+          "*bʰ：*bʰer-“携带”"
+        ],
+        [
+          "齿音 dental",
+          "*t：*tréyes“三”",
+          "*d：*déḱm̥“十”",
+          "*dʰ：*dʰwer-“门”"
+        ],
+        [
+          "腭化软腭 palatal",
+          "*ḱ：*ḱṃtóm“百”",
+          "*ǵ：*ǵénu“膝”",
+          "*ǵʰ：*ǵʰans-“鹅”"
+        ],
+        [
+          "纯软腭 velar",
+          "*k：*krewh₂-“生肉”",
+          "*g（例证少，多与圆唇软腭互补分布）",
+          "*gʰ（例证少，同上）"
+        ],
+        [
+          "圆唇软腭 labiovelar",
+          "*kʷ：*kʷetwóres“四”",
+          "*gʷ：*gʷem-“来”",
+          "*gʷʰ：*gʷʰen-“打、杀”"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么要有腭化音、纯软腭、圆唇软腭三套",
+      "body": "印欧语的软腭音不是一套，而是**三套**：腭化的 *ḱ（舌面抬起）、纯软腭的 *k、圆唇的 *kʷ（嘴唇同时收圆）。三套在多数分支里各自合并，但**合并的方式不同**，于是留下两种典型结局：\n\n- **satem 型**（梵语、阿维斯陀语、波罗的、斯拉夫、亚美尼亚、阿尔巴尼亚、印度—伊朗）：*ḱ 变成擦音 s／ś。梵语“百”作 śata，阿维斯陀语作 satəm。\n- **centum 型**（拉丁、希腊、日耳曼、凯尔特、赫梯、吐火罗）：*ḱ 与 *k 合并成 k。拉丁“百”作 centum，希腊作 hekaton。\n\n这两组名字就来自“百”这个词本身。**但注意**：第 27 天说过，吐火罗语地处极东却属 centum 型，说明这条界线是**地域扩散**，不是最早的一次谱系分裂。",
+      "terms": [
+        {
+          "term": "centum / satem",
+          "zh": "百词分界",
+          "en": "centum-satem",
+          "note": "按“百”一词的辅音处理给印欧语分类，今视为地域特征"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "这套体系被质疑的地方",
+      "body": "传统三系列有一个统计上的尴尬：*b 极少，而 *bʰ 很多。一套音位系统里，浊不送气几乎空缺、浊送气却很常见，这在世界语言中不典型。\n\n1970 年代起，**声门音理论**（glottalic theory）提出换一套排法：把“浊送气”改读成“紧／声门化音”，把“浊”改读成“送气浊”，这样空格就落到了别处，系统更自然。\n\n必须说清楚的是：这是**假说层面的争论**，主流教材（包括本课所依据的教材）仍用传统三系列，写法也仍是 *bʰ、*dʰ、*gʰ。声门音理论能解决“空格”问题，但在别的方面要付代价，至今没有定论。学的时候按传统体系记，知道它被质疑即可。"
+    },
+    {
+      "kind": "table",
+      "title": "清单：祖语音系大致长这样",
+      "body": "把塞音放在一边，剩下的是响音、擦音与元音。这张表是下周讨论喉音与成音节辅音的地基——先记住“响音可以自成音节”这一条，很多看似奇怪的对应就顺了。",
+      "head": [
+        "类别",
+        "成员",
+        "说明"
+      ],
+      "rows": [
+        [
+          "塞音",
+          "*p *t *ḱ *k *kʷ；*b *d *ǵ *g *gʷ；*bʰ *dʰ *ǵʰ *gʰ *gʷʰ",
+          "三系列，五个部位（见上表）"
+        ],
+        [
+          "擦音",
+          "*s",
+          "只有一个，但分布广、变化多"
+        ],
+        [
+          "响音",
+          "*m *n *l *r *w *y",
+          "可作辅音，也可自成音节（写成 *ṃ *ṇ *ḷ *ṛ）"
+        ],
+        [
+          "元音",
+          "*i *e *a *o *u",
+          "五个，但 *a 罕见、*e 最常见（下周详谈）"
+        ],
+        [
+          "喉音",
+          "*h₁ *h₂ *h₃",
+          "音值不明，功能明确（下周详谈）"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w28d1-p1",
+      "kind": "mcq",
+      "prompt": "祖语研究三个层面中，音系结论通常最可靠，原因是：",
+      "choices": [
+        "音变有规则，几十个词共享同一条对应，构拟必须让全部对应自洽，可检验性强",
+        "语音比语法更重要，所以研究得多",
+        "发音器官的构造古今相同，所以音值一定没变",
+        "音系材料最少，争议空间也最小"
+      ],
+      "answer": 0,
+      "explain": "可靠度高来自“可检验”，而不是“更重要”。规则性让构拟受强约束：改一个音位，几十条对应就要重新解释，很容易被反例推翻。发音器官相同并不保证音值不变（否则就不会有格里姆定律）；材料少反而增加分歧。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w28d1-p2",
+      "kind": "mcq",
+      "prompt": "下面哪一组是“浊送气”系列？",
+      "choices": [
+        "*bʰ *dʰ *ǵʰ *gʰ *gʷʰ",
+        "*p *t *ḱ *k *kʷ",
+        "*b *d *ǵ *g *gʷ",
+        "*s *m *n *l *r"
+      ],
+      "answer": 0,
+      "explain": "上标 ʰ 是送气的标记，所以带 ʰ 的一组就是浊送气。三系列的分工是：清（*p *t *ḱ）、浊（*b *d *ǵ）、浊送气（*bʰ *dʰ *ǵʰ）。最后一组是响音与擦音，不属于塞音系统。",
+      "concepts": [
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w28d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个拉丁词",
+      "sentence": "Latin ___ means “one hundred”, and it gives the centum group its name, in contrast with Sanskrit śata.",
+      "answer": "centum",
+      "accept": [
+        "centum"
+      ],
+      "explain": "centum 是拉丁语的“百”，读音本来以 k 开头，所以这一组叫 centum 型；梵语作 śata，这一组叫 satem 型。英语的 hundred 不走这条路（hundred 是日耳曼语的复合词，前半与“百”的祖语形式有关，后一半另有来源）。",
+      "concepts": [
+        "c-greek-latin",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w28d1-p4",
+      "kind": "mcq",
+      "prompt": "吐火罗语在地理上位于最东，却表现出 centum 型特征。这件事说明：",
+      "choices": [
+        "centum／satem 反映的是地域扩散，不能当作最早一次谱系分裂的证据",
+        "吐火罗语是从欧洲迁回亚洲的，所以算欧洲语言",
+        "centum／satem 的分类完全错误，应当废除",
+        "梵语不是印欧语"
+      ],
+      "answer": 0,
+      "explain": "分类本身没错，错的是把它当谱系断层。音变会在地理相邻的语言间扩散，因此同一特征可以跨分支出现。地说“迁移”是另一种解释，但缺乏独立证据；说分类“完全废除”则过度——它仍是有用的地域标签。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w28d1-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）假设新发现一个分支，其中“百”作 kantom，“十”作 dekm，“膝”作 gonu。最合理的初步判断是：",
+      "choices": [
+        "centum 型，因为 *ḱ 与 *k 合并为 k，未擦化成 s",
+        "satem 型，因为出现了 k",
+        "无法判断，因为没有元音材料",
+        "该分支不属于印欧语系"
+      ],
+      "answer": 0,
+      "explain": "判据是“*ḱ 有没有变成擦音”。kantom、dekm、gonu 都保留塞音，说明走的是 centum 路线。这个判断不涉及谱系归属，只说明它在这一条音变上的表现——这正是上周反复强调的：一条音变只能给一个特征，给不出整棵谱系树。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ],
+      "hint": "只看一件事：原本的腭化音有没有擦化。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w28d1-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 inventory 在句中的含义",
+      "passage": "Reconstructing a sound system means proposing an inventory: a fixed list of consonants and vowels, each defined by how and where it is articulated. Everything else follows from that list, because every correspondence in the daughter languages must be derivable from it by rule.",
+      "word": "inventory",
+      "choices": [
+        "一份固定清单：某个语言里全部音位的集合",
+        "一批出土文物的登记册",
+        "一份按字母顺序排列的词典词条",
+        "一套关于发音器官的解剖图"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后是定义：a fixed list of consonants and vowels；② 修饰语 each defined by how and where it is articulated 指向音位；③ 后句 every correspondence ... must be derivable from it 说明它是推导的起点；④ 排除“文物”“词典”：inventory 的日常义在这里被术语化了。",
+      "explain": "inventory 在音系学里指“音位清单”。日常义（库存清单、盘货）与术语义共享“一份列全的清单”这个核心，所以并不难推——关键是抓住冒号后的定义句。学术英语里大量术语都是这样由日常词精确化而来。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 4、5 节：祖语研究的三个层面；三系列塞音与 centum／satem"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "*ḱṃtóm、*kʷetwóres、*gʷem- 等构拟形式；声门音理论的争议概况"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "id": "w23d3",
+  "week": 23,
+  "day": 3,
+  "title": "五种挡法：塞、擦、塞擦、鼻、近",
+  "tagline": "挡住的方式决定一个音能不能“接管”邻音——n 在 l、r 前干脆把鼻音丢了",
+  "objectives": [
+    "能按阻塞方式把英语辅音分为五类，并说明阻音与响音的界线",
+    "能解释 il-、ir-、col-、cor- 是方式同化而不是部位同化的结果",
+    "能分清部位同化与方式同化各管哪些例子"
+  ],
+  "prereqs": [
+    "w23d1",
+    "w23d2"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-morpheme",
+    "c-prefix"
+  ],
+  "knowledgePoints": [
+    "kp-s1c5s3-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "先问挡到什么程度",
+      "body": "同一个口腔，挡法不同就是不同的音。全堵住再放开，是**塞音**（stop）；留一条窄缝让气摩擦，是**擦音**（fricative）；先堵后擦、算作一个音，是**塞擦音**（affricate）；口腔堵住但软腭放下、气从鼻子出来，是**鼻音**（nasal）；只是接近、还不足以摩擦，是**近音**（approximant，l、r、w、j）。\n\n塞音、擦音、塞擦音三类合称**阻音**（obstruent）：气流在口腔里被明显妨碍；鼻音与近音合称**响音**（sonorant）：气流基本通畅，能像元音一样拖长。\n\n这条界线在构词上很好用：响音之间可以互相替换，只留下小小的痕迹；阻音相撞则必须“同归于尽”——要么双写（affect、arrive），要么清化（reg- → rect-）。"
+    },
+    {
+      "kind": "table",
+      "title": "五类辅音：例词与拼写陷阱",
+      "body": "左列是要记的分类，右列才是实用价值：英语的拼写与分类从来不是一一对应，同一个音可以有好几种写法，同一个写法也可以读好几个音。读这张表时请顺便确认一件事——每一类里都有“清浊成对”的音（p/b、f/v、tʃ/dʒ），而鼻音与近音几乎全是浊音，这为第 5 天的清浊讨论埋下伏笔。",
+      "head": [
+        "类别",
+        "英语音",
+        "例词",
+        "拼写陷阱"
+      ],
+      "rows": [
+        [
+          "塞音 stop",
+          "p b t d k g",
+          "pie, toe, key",
+          "c 可读 [k]；gh 可读 [g]（ghost）"
+        ],
+        [
+          "擦音 fricative",
+          "f v θ ð s z ʃ ʒ h",
+          "safe, save, this, ship",
+          "ph = [f]；th 有两个音；ch 也可读 [ʃ]（machine）"
+        ],
+        [
+          "塞擦音 affricate",
+          "tʃ dʒ",
+          "church, judge",
+          "j、g 都可读 [dʒ]；t + ure 也读出 [tʃ]（nature）"
+        ],
+        [
+          "鼻音 nasal",
+          "m n ŋ",
+          "sum, sun, sung",
+          "[ŋ] 几乎总写 n（think、banquet）"
+        ],
+        [
+          "近音 approximant",
+          "l r w j",
+          "love, red, wet, yes",
+          "u 在 quick 里是 [w]；j 在德语借词里是 [j]"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "响音换响音：il- 与 ir- 的来历",
+      "body": "in- 的 n 是鼻音（响音），l、r 也是响音。要让 n 在 l 前保持鼻音，软腭得在几十毫秒内抬起又放下，几乎做不到；拉丁干脆让 n 放弃鼻音性，直接滑进 l：**in- + legalis → illegalis**。r 同理：in- + rigare → irrigare。\n\n所以 il-/ir- 变的是**方式**（鼻音 → 边音／近音），不是部位——n、l、r 的舌尖都在齿龈一带。而 im- 变的是**部位**（齿龈 → 双唇）。两类同化必须分开记：\n\n- 部位同化看“挡在哪儿”：in- 在 p、b、m 前 → im-\n- 方式同化看“怎么挡”：in- 在 l、r 前 → il-、ir-\n\n同样的机制让 con- 在 l、r 前写成 col-、cor-：collect、corrupt。再加一条容易漏的：n 在同部位的 n 前不变，只双写——innate、innocent、announce（ad- + nuntiare）。"
+    },
+    {
+      "kind": "compare",
+      "title": "部位同化 vs 方式同化",
+      "body": "两者都是“抄邻音的特征”，抄的却是不同的开关。做题时先看后接音是什么，再决定去查哪一栏：后接音是 p、b、m，走左栏；是 l、r，走右栏。最后一行给了一个不用看音标的判别办法：捏住鼻子发音，如果声音被堵住、变成 [d] 或 [b]，那个音就是鼻音；能顺畅发出的就是流音。",
+      "a": "部位同化",
+      "b": "方式同化",
+      "rows": [
+        {
+          "label": "改什么",
+          "a": "阻塞的位置（齿龈 → 双唇）",
+          "b": "阻塞的程度（鼻音 → 边音／近音）"
+        },
+        {
+          "label": "触发音",
+          "a": "p、b、m（双唇音）",
+          "b": "l、r（流音）"
+        },
+        {
+          "label": "前缀形状",
+          "a": "in- → im-；con- → com-",
+          "b": "in- → il-／ir-；con- → col-／cor-"
+        },
+        {
+          "label": "例词",
+          "a": "impossible、imbalance、combine、compare",
+          "b": "illegal、illuminate、irregular、collect、correct"
+        },
+        {
+          "label": "辨音办法",
+          "a": "看嘴唇有没有闭合",
+          "b": "捏住鼻子发音：n 会堵住，l 不会"
+        }
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "四个算式：方式同化专场",
+      "body": "四个词的前缀原形都是 in- 或 con-，落地形状全是 l 或 r。念的时候注意：词根合法、照亮、读、引导，一个字母都没被改动。第三个词 correct 还叠了另一条规则——reg- 在 -t- 前清化为 rect-，所以同一个词里同时有方式同化与发声态同化，这正是第 5 天要收口的地方。",
+      "sums": [
+        {
+          "parts": [
+            "il",
+            "legal"
+          ],
+          "result": "illegal",
+          "glossZh": "非法的",
+          "note": "in- + legalis：n 在 l 前丢掉鼻音"
+        },
+        {
+          "parts": [
+            "col",
+            "lect"
+          ],
+          "result": "collect",
+          "glossZh": "收集",
+          "note": "con- + legere：n 在 l 前变 l"
+        },
+        {
+          "parts": [
+            "cor",
+            "rect"
+          ],
+          "result": "correct",
+          "glossZh": "改正；正确的",
+          "note": "con- + regere：n 在 r 前变 r，词根同时清化为 rect-"
+        },
+        {
+          "parts": [
+            "il",
+            "lumin",
+            "ate"
+          ],
+          "result": "illuminate",
+          "glossZh": "照亮；阐明",
+          "note": "in- + luminare：三个 l 连写"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w23d3-p1",
+      "kind": "mcq",
+      "prompt": "judge 开头和结尾的音属于哪一类？",
+      "choices": [
+        "塞擦音",
+        "塞音",
+        "擦音",
+        "近音"
+      ],
+      "answer": 0,
+      "explain": "judge 的首尾都是 [dʒ]：先完全阻塞，再摩擦放出，两步合成一个音，所以是塞擦音。英语只有 [tʃ] 与 [dʒ] 两个塞擦音，拼写来源却有 ch、j、g、t+u 四种。分类的意义在于：塞擦音兼有塞与擦的性质，所以它既能触发清化，也能与擦音连读。",
+      "concepts": [
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w23d3-p2",
+      "kind": "mcq",
+      "prompt": "拉丁 in- + legalis 写成 illegalis，n 的变化属于：",
+      "choices": [
+        "方式同化：鼻音在流音前失去鼻音性",
+        "部位同化：齿龈变双唇",
+        "清浊同化：浊音变清音",
+        "增音：插入一个 l"
+      ],
+      "answer": 0,
+      "explain": "n 与 l 的部位都在齿龈，变的是方式：鼻音变成边音。拼写上表现为 n 被 l 取代，读起来是两个 l 合成一个长 [l]。把它误认为部位同化，就会在解释 im- 与 il- 时用同一条理由，两天后遇到 col-、cor- 就无从判断了。",
+      "concepts": [
+        "c-allomorph",
+        "il"
+      ]
+    },
+    {
+      "id": "w23d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "Farmers ___ the fields through a network of ditches.",
+      "answer": "irrigate",
+      "accept": [
+        "irrigate"
+      ],
+      "explain": "ir-（in- 在 r 前）+ rig（浇水）+ -ate → 灌溉。rig- 也出现在 irrigate 的名词 irrigation 里。这里的前缀不是“不”，而是“向内”——同形的 in- 有两个来源，靠词干义区分：irrigate 是“把水送进去”，irregular 是“不合规则”。",
+      "concepts": [
+        "ir",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w23d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 lateralis 意为“侧面的”，collateral 最可能指：",
+      "choices": [
+        "并行的、附带的（如附带担保、附带损伤）",
+        "中央的、主要的",
+        "延迟的、滞后的",
+        "共线的、同一直线上的"
+      ],
+      "answer": 0,
+      "explain": "col-（con- 在 l 前）+ later（侧）+ -al →“同在侧边的”，引申为并行、附带。collateral damage 是“附带损伤”，collateral 作名词是“抵押品”，都是“在主要事物旁边”的引申。同族：lateral、bilateral、unilateral——认出 later-，这一组词就不用分别记。",
+      "concepts": [
+        "c-inference",
+        "col",
+        "later"
+      ],
+      "hint": "先还原前缀，再把“侧”这个意象放到语境里。"
+    },
+    {
+      "id": "w23d3-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“通信；相符”的切分",
+      "parts": [
+        "cor",
+        "respond"
+      ],
+      "answer": "correspond",
+      "explain": "cor-（con- 在 r 前）+ respond（回应）→ 相互回应，即通信、相符。注意：同化只动接缝，respond 一字未改。这也是判断“哪一侧被改造”的实用技巧——找那个看起来“不该这么拼”的部分，它就是被同化的一端。",
+      "concepts": [
+        "c-word-sum",
+        "cor"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w23d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 colloquial 的含义",
+      "passage": "The essay avoids colloquial turns of phrase: no slang, no contractions, nothing that would sound out of place in a formal lecture.",
+      "word": "colloquial",
+      "choices": [
+        "口语的、会话体的",
+        "正式的、书面的",
+        "粗俗的、辱骂的",
+        "方言的、只限一地的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：col-（con- 在 l 前）+ loqu（说）+ -ial →“一起说话时用的”；② 冒号后 slang、contractions 是同位证据，说明被避免的正是口语特征；③ 对照 formal lecture 反证；④ 排除“粗俗”：口语不等于粗俗，文章只是要求正式。",
+      "explain": "colloquial 是“口语体的”，与 formal、literary 相对。词根 loqu- 表“说”，同族有 loquacious（健谈的）、eloquent（e- + loqu，说得出来 → 雄辩的）、soliloquy（solo + loqu，独自说话 → 独白）。认出 loqu- 之后，这一族的意义都能从“说”推出来；而 col- 的形状则告诉你它源自 con-，不是另一个前缀。",
+      "concepts": [
+        "c-inference",
+        "col",
+        "loqu"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 5 章第 3 节：辅音的阻塞方式分类"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "响音与阻音、方式同化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "col-/cor-/il-/ir- 的拉丁原形"
+    }
+  ]
+}

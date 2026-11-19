@@ -1,0 +1,323 @@
+{
+  "id": "w30d4",
+  "week": 30,
+  "day": 4,
+  "title": "六千年后还在的词，与你自己查同源的四步法",
+  "tagline": "father、three、heart 这些词熬过了六千年；最后这一课给你一套能自己验的方法，而不是一堆结论",
+  "objectives": [
+    "能说明核心词汇为什么在六千年里相对稳定，以及稳定性集中在哪些语义场",
+    "能由一条已成立的对应（如拉丁 p : 英语 f）反推英语同源词并自我检验",
+    "能按四步法（词典→词源→对应规则→反例检验）独立核查一条同源关系"
+  ],
+  "prereqs": [
+    "w30d3",
+    "w29d2"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-etymology",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s11-1",
+    "kp-s1c10s11-2",
+    "kp-s1c10s12-1"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "六千年，稳的比变的多",
+      "body": "从祖语到今天的英语，中间隔了约六千年。听上去该面目全非，可是列一张核心词表，会发现大半还对得上：father、mother、brother、sister、daughter、three、two、seven、ten、night、snow、mouse、heart、knee、tooth、sit、stand、eat、drink、sleep。\n\n稳定有清楚的原因：这些词**高频、早学、意义具体、不易被借用**。父母兄弟姐妹、数词、身体部位、基本动作，是每个社群每天都要用的，孩子在两三岁就学会；而它们所指的事物在任何文化里都存在，所以外来词没有“填空”的机会。\n\n反过来，变化最快的正是**低频、文化依赖、指称新事物**的词：器物、制度、技术、时尚。英语里 iron、window、army 这些词的复杂性，就是这条规律的注脚。所以“六千年”不等于“面目全非”，而是**分层**：核心稳，边缘翻新。",
+      "terms": [
+        {
+          "term": "core vocabulary",
+          "zh": "核心词汇",
+          "en": "core vocabulary",
+          "note": "高频、早学、意义具体、不易借用的基本词"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "十二组核心词：六千年的对账单",
+      "body": "这张表把前面四周用过的例子收在一处。第三列是拉丁（或希腊），第四列是英语本土形式——注意它们并不同源“长得像”，而是**服从同一套对应**。这张表值得抄下来，它同时是词族清单和音变清单。",
+      "head": [
+        "英语",
+        "祖语",
+        "拉丁／希腊",
+        "英语的借词同族"
+      ],
+      "rows": [
+        [
+          "father",
+          "*ph₂tḗr",
+          "pater／patēr",
+          "paternal、patron、patriot"
+        ],
+        [
+          "mother",
+          "*méh₂tēr",
+          "māter／mētēr",
+          "maternal、matrimony、metropolis"
+        ],
+        [
+          "brother",
+          "*bʰréh₂tēr",
+          "frāter／phrātēr",
+          "fraternal、fraternity"
+        ],
+        [
+          "daughter",
+          "*dʰugh₂tḗr",
+          "（拉丁无对应）／thygatēr",
+          "——"
+        ],
+        [
+          "three",
+          "*tréyes",
+          "trēs／treis",
+          "tri-、triangle、trilogy"
+        ],
+        [
+          "two",
+          "*dwóh₁",
+          "duo／dyo",
+          "du-、dual、duet"
+        ],
+        [
+          "seven",
+          "*septṃ",
+          "septem／hepta",
+          "September、heptagon"
+        ],
+        [
+          "hundred",
+          "*ḱṃtóm",
+          "centum／hekaton",
+          "century、percent"
+        ],
+        [
+          "night",
+          "*nókʷts",
+          "nox／nyx",
+          "nocturnal、nyctalopia"
+        ],
+        [
+          "mouse",
+          "*mūs",
+          "mūs／mys",
+          "——（muscle 出自“小老鼠”义）"
+        ],
+        [
+          "heart",
+          "*ḱr̥d-",
+          "cor／kardia",
+          "cordial、cardiac、accord"
+        ],
+        [
+          "knee",
+          "*ǵénu",
+          "genu／gony",
+          "genuflect、knee 的 k 曾发音"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "反推：给一个拉丁词，猜英语哪个词同源",
+      "body": "这一步可以练成手艺。做法是拿已成立的对应当筛子：\n\n1. **定位置**：这条对应适不适用于词首？比如 p : f 只在词首成立（pater／father、pēs／foot、piscis／fish）。\n2. **套规则**：拉丁 p → 英语 f，拉丁 t → th，拉丁 k → h。所以拉丁 cornu“角”该对应一个以 h 开头的英语词——**horn**。\n3. **查条件**：有些对应要看重音（维尔纳定律），所以 *pətēr 中间是 d 不是 th。条件不满足时，别急着否定。\n4. **找反例**：如果推出来的英语词不存在，或明显属于另一语义场，就要怀疑前提（可能这个拉丁词本身是借词，如 prīnceps？不，这一条要逐词查）。\n\n一个现成的练习：拉丁 **piscis**“鱼” → 英语 **fish**；拉丁 **pēs**（属格 pedis）→ 英语 **foot**；拉丁 **canis**“狗” → 英语 **hound**（k : h）。三条都服从同一套对应，所以可信度高。",
+      "terms": [
+        {
+          "term": "correspondence set",
+          "zh": "对应集",
+          "en": "correspondence set",
+          "note": "一对语言之间已成立的一组音位映射，用于检验新词"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四步法：自己查一条同源关系",
+      "body": "到这里，课程能给你的最有用的东西不是词表，而是这套流程。遇到任何一对疑似同源的词，按顺序走：\n\n**第一步：查词典，定现代义与词性。** 先确认两个词今天各自是什么意思、属于什么语域。很多“疑似同源”在这一步就死了——意义相差太远，又没有可解释的演变路径。\n\n**第二步：查词源，看最早形式与来源语言。** 用 OED 或 Etymonline 看它第一次出现的年代与借入路径。**关键是看有没有“借自法语／拉丁”这类标注**：借词不算本土对应，只能证明接触。\n\n**第三步：套对应规则，看是否服从。** 拿同一对语言间已成立的对应（如拉丁 p : 英语 f）去检验，注意条件（位置、重音）。服从的对应越多，结论越稳。\n\n**第四步：找反例。** 主动去搜“这个词族里有没有不服从的成员”，以及“有没有更省事的解释”（比如偶然相似、民间词源）。**能不能找到反例，比找到多少支持证据更能决定结论。**\n\n四步都过，才能说“同源”。只过前两步，通常只能说到“词源上有关联”这一层。",
+      "terms": [
+        {
+          "term": "false etymology",
+          "zh": "民间词源",
+          "en": "false etymology",
+          "note": "凭形义联想编出的、无历史依据的词源解释"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "工具书：三层，各有各的用处",
+      "body": "不要用一个工具解决所有问题。入门查“有没有关系”，标准查“什么时候从哪儿来”，专门查“祖语形式与对应规则”。第三层才是本课那套方法的正式出处，也是你要写论文时该引的东西——在线词源站可以帮你起步，但不该是你引用的终点。",
+      "head": [
+        "层级",
+        "工具",
+        "能回答什么",
+        "注意"
+      ],
+      "rows": [
+        [
+          "入门",
+          "Etymonline（在线，免费）",
+          "词的大致来源、首次出现年代、同族词",
+          "汇总性资料，学术引用应回到一手辞书"
+        ],
+        [
+          "标准",
+          "OED（牛津英语词典）",
+          "每个义项的最早书证、借入路径、拼写演变",
+          "按义项编排，要读完整条目而不是首句"
+        ],
+        [
+          "标准",
+          "《American Heritage Dictionary》附录：印欧词根表",
+          "祖语词根形式、各支派生词一览",
+          "按词根查，是连接英语与拉丁希腊最方便的一本"
+        ],
+        [
+          "专门",
+          "Fortson《Indo-European Language and Culture》；Beekes《Comparative Indo-European Linguistics》",
+          "音变规则、构拟方法与争议",
+          "教材级，适合系统学而非查单词"
+        ],
+        [
+          "专门",
+          "Lewis & Short（拉丁）、Liddell-Scott（希腊）",
+          "原文词典形、属格、变格变位",
+          "用古典词典才能拿到词干，英语词典只给主格"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w30d4-p1",
+      "kind": "mcq",
+      "prompt": "核心词汇在六千年里相对稳定，最根本的原因是：",
+      "choices": [
+        "它们高频、早学、所指事物在任何文化中都存在，外来词没有填空的机会",
+        "它们拼写短，所以不容易变",
+        "它们只出现在书面语里，口语变化影响不到",
+        "它们都是借词，只是借得早"
+      ],
+      "answer": 0,
+      "explain": "稳定性来自“使用条件”，不是词形长短：高频＋早学让它们牢牢固定在语言习得早期；所指普遍存在，则使借词无由进入。拼写短不构成保护（“eye”拼写变了三次）；书面语说法更相反——核心词恰恰是口语词。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w30d4-p2",
+      "kind": "mcq",
+      "prompt": "已知拉丁 piscis“鱼”，按已成立的对应推英语同源词，最可能是：",
+      "choices": [
+        "fish（词首 p : f，且 pēs／foot、pater／father 同型）",
+        "pike（同为鱼类，形状相近）",
+        "piscator（直接借入的拉丁词）",
+        "scale（鱼鳞，意义相关）"
+      ],
+      "answer": 0,
+      "explain": "推断的依据是音对应，不是语义联想。piscis／fish 服从 p : f 这条在词首反复出现的对应，所以成立。piscator 是拉丁借词（同形），不能当“英语同源词”的证据；pike、scale 只是意义相关，音上无对应。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w30d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文名词",
+      "sentence": "The third step of the method is to test the pair against the established sound ___ between the two languages, paying attention to position and stress.",
+      "answer": "correspondences",
+      "accept": [
+        "correspondences",
+        "correspondence"
+      ],
+      "explain": "第三步用的是“对应集”，而不是零散的相似。这也是整门课的主线：从第 27 周的格里姆定律到第 30 周的拉丁规则，能拿来检验的永远是**成批的、可预测的映射**。第四步（找反例）则是对第三步的自我审查。",
+      "concepts": [
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w30d4-p4",
+      "kind": "mcq",
+      "prompt": "要查“某个英语词根在祖语里的形式，以及它在拉丁、希腊、梵语里的派生词”，最直接的工具是：",
+      "choices": [
+        "《American Heritage Dictionary》附录的印欧词根表",
+        "OED 的按字母编排的条目",
+        "Lewis & Short 拉丁词典",
+        "任何一本英汉双解词典"
+      ],
+      "answer": 0,
+      "explain": "按**词根**编排的印欧词根表，正好对应这个需求：一个词根下列出各支的派生形式。OED 按词条字母序编排，查单个词最好，但不会把同根的跨语材料并在一处；Lewis & Short 只覆盖拉丁；普通词典通常只给一两个同族词。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w30d4-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）拉丁 canis“狗”与英语 hound 同源。按拉丁 k : 英语 h 的对应，下面判断最合理的是：",
+      "choices": [
+        "hound 是本土继承词（古英语 hund），与 canis 同源；canine 则是拉丁借词",
+        "hound 借自拉丁 canis，所以拼写被改过",
+        "canine 才是本土词，hound 是借词",
+        "两者同源，所以英语的狗一律该叫 canis"
+      ],
+      "answer": 0,
+      "explain": "这是“本土层与借词层”双轨的又一例：hound 走日耳曼音变（k → h），canine 是文艺复兴时期从拉丁直接搬来的。判断依据是词形与借用年代，不是意义。最后一项混淆了“同源”与“同词”——同源词在两种语言里可以各自演化成不同的常用词。",
+      "concepts": [
+        "c-cognate",
+        "c-borrowing",
+        "c-inference"
+      ],
+      "hint": "先分本土层与借词层，再谈对应。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w30d4-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 reflex 在句中的含义",
+      "passage": "English fish is the regular reflex of the reconstructed root: every sound in it can be derived by the same correspondences that turn pater into father. Calling it a reflex does not mean the word reflects something visible; it means it is the predictable descendant of a reconstructed form.",
+      "word": "reflex",
+      "choices": [
+        "由某个更早形式按规则演变而来的后代形式",
+        "自动产生的条件反射",
+        "从另一种语言借入的词",
+        "书写时留下的镜像拼写"
+      ],
+      "answer": 0,
+      "strategy": "① 定义句：the predictable descendant of a reconstructed form，直接给出术语义；② 前半句：every sound ... derived by the same correspondences，强调“按规则推导”；③ 否定句：does not mean the word reflects something visible，排除直观联想；④ 排除“借词”：段落讲的是继承与推导，不是借用。",
+      "explain": "reflex（反映形式）是历史语言学的术语：某个后代形式是某个祖语形式的规则性延续。它与 borrowing（借词）相对，与“条件反射”只是同一个词的另一义。这句话也是整门课的收束——**同源不是“像”，而是“能按规则推出来”**。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 11—12 节：六千年间的稳定性、由对应反推同源词、延伸阅读"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "OED、Etymonline、《American Heritage Dictionary》印欧词根表、Lewis & Short、Liddell-Scott 的用法"
+    }
+  ]
+}

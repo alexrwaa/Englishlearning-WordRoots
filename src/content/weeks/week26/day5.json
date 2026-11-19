@@ -1,0 +1,292 @@
+{
+  "id": "w26d5",
+  "week": 26,
+  "day": 5,
+  "title": "会标准语，不必贬低方言；术语是通行证",
+  "tagline": "标准语是加法，术语是门禁",
+  "objectives": [
+    "能说明掌握标准正式英语与保留母语方言是加法关系，不是替代关系",
+    "能解释术语为何既是精确工具又是群体准入机制",
+    "能用 lex/leg- 与 -ee/-or 两组词素说明法律英语的构词逻辑"
+  ],
+  "prereqs": [
+    "w26d4",
+    "c-affix",
+    "c-borrowing",
+    "c-register"
+  ],
+  "concepts": [
+    "c-affix",
+    "c-borrowing",
+    "c-register",
+    "c-word-family"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s9-3",
+    "kp-s1c8s10-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "加法，不是减法",
+      "body": "学会标准正式英语，是多了一套工具，不是删掉母语方言。双言者在两套系统间切换，两套都在，互不抵消——就像一个人会对父母说家乡话、对客户说普通话，两种能力同时存在。\n\n强行同质化有两个代价。第一，削弱表达资源：方言里的亲疏、地域、身份信息，标准语往往无法表达。第二，伤害说话人对自身话语的自尊：被告知“你这样的话不算话”，代价远超过语法本身。\n\n教材的判断是：可以掌握标准而不强加于人。这句话既是对学习者的建议，也是对评价者的约束。",
+      "terms": [
+        {
+          "term": "homogeneity",
+          "zh": "同质化",
+          "en": "homogeneity",
+          "note": "把语言压成单一变体，消除内部差异"
+        },
+        {
+          "term": "expressive resource",
+          "zh": "表达资源",
+          "en": "expressive resource",
+          "note": "一种变体提供的、难以被替代的表达手段"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "术语是通行证",
+      "body": "掌握一个群体的专门词汇，就分享了这个群体的权力，也迈进了它的门槛。法律英语是最典型的例子：拉丁与法律法语层叠（null and void、cease and desist、without prejudice），普通公民读合同像读外语。\n\n构词上还有一组极好用的配对：**-ee** 表受事、**-or** 表施事。employee/employer、payee/payer、lessee/lessor、assignee/assignor——知道这条规则，合同里的当事人关系就能一眼分清。\n\n所以术语有两面：它让内行精确，也让外行被挡在门外。两面是同一件事的两侧。",
+      "terms": [
+        {
+          "term": "specialized vocabulary",
+          "zh": "专门词汇",
+          "en": "specialized vocabulary",
+          "note": "某一行业或群体内部通行的术语系统"
+        },
+        {
+          "term": "membership",
+          "zh": "群体成员资格",
+          "en": "membership",
+          "note": "掌握术语即获得进入某群体的资格"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "同一事实的两种说法",
+      "body": "术语不必然更精确：“外耳发炎”与 otitis externa 同样精确。术语精确在别处——它能进入编码系统，能与同类术语区分，能在病历、保险单、法条之间对接。",
+      "head": [
+        "领域",
+        "术语",
+        "日常说法"
+      ],
+      "rows": [
+        [
+          "法律",
+          "the lessee shall indemnify the lessor",
+          "房客要赔房东"
+        ],
+        [
+          "医学",
+          "otitis externa",
+          "外耳发炎"
+        ],
+        [
+          "保险",
+          "pre-existing condition",
+          "投保前就有的病"
+        ],
+        [
+          "学术",
+          "longitudinal extent",
+          "长度"
+        ]
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "lex：法律这一族",
+      "body": "一个词根撑起整个法律词汇系统。注意最后一步：legislate、legitimate 不是从法语借的整词，而是近代用拉丁词素现造的——这说明拉丁词素至今仍是能产材料。\n\n另一条路是 law：它来自古诺斯语 lagu，与 legal 无关。于是英语里有 lawful（本土+诺斯）与 legal（拉丁）两套说法，正好对应第 1 天讲的层积。",
+      "steps": [
+        {
+          "period": "拉丁语",
+          "form": "lex, legis",
+          "note": "“法律”，属格 legis"
+        },
+        {
+          "period": "拉丁语",
+          "form": "legalis / legitimus",
+          "note": "“法律的”／“合乎法的”"
+        },
+        {
+          "period": "拉丁语",
+          "form": "legislator",
+          "note": "legis + lator“提出者” → 立法者"
+        },
+        {
+          "period": "近代英语",
+          "form": "legislate / legitimate",
+          "note": "以拉丁词素现造，非整词借入"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "术语与行话",
+      "body": "两者都让外人听不懂，但功能相反：术语减少歧义，行话增加距离。判断方法很简单——把词换成日常说法，意思是否更清楚？更清楚是术语，更模糊是行话。",
+      "a": "术语（terminology）",
+      "b": "行话（jargon / bureaucratese）",
+      "rows": [
+        {
+          "label": "功能",
+          "a": "精确指称、可编码",
+          "b": "标识身份、回避责任"
+        },
+        {
+          "label": "例子",
+          "a": "otitis externa、lessee",
+          "b": "vertically challenged、at this point in time"
+        },
+        {
+          "label": "对读者",
+          "a": "学会后可复用",
+          "b": "往往需要再翻译一次"
+        },
+        {
+          "label": "判断标准",
+          "a": "是否减少歧义",
+          "b": "是否增加距离"
+        },
+        {
+          "label": "处理方式",
+          "a": "首次出现给定义",
+          "b": "改成直说"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w26d5-p1",
+      "kind": "mcq",
+      "prompt": "学标准语与保留方言的关系，最准确的描述是：",
+      "choices": [
+        "加法：两套并存，按场合切换",
+        "减法：学会标准语就该放弃方言",
+        "替代：方言会被标准语自然淘汰",
+        "无关：两者互不影响"
+      ],
+      "answer": 0,
+      "explain": "双言者同时拥有两套系统，按场合切换，两套都在。强行同质化会削弱表达资源、伤害说话人的自尊，而不会提高交际能力。标准语的价值在通用，不在排他。",
+      "concepts": [
+        "c-register"
+      ]
+    },
+    {
+      "id": "w26d5-p2",
+      "kind": "mcq",
+      "prompt": "法律英语难懂的主要历史原因是：",
+      "choices": [
+        "拉丁与法律法语层叠，且长期由少数专业人士维护",
+        "法律概念本身无法用日常语言表达",
+        "英语没有法律词汇",
+        "法律文本故意不用标点"
+      ],
+      "answer": 0,
+      "explain": "诺曼征服后法律与行政用法语，学术与教会用拉丁，两层词汇叠在英语上，形成 null and void、cease and desist 这类成对结构，并由法律行业长期维护。概念并非不可用日常语表达，简明语言运动已经证明可以。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w26d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "The Latin root leg- (lex, legis) means “___”.",
+      "answer": "law",
+      "accept": [
+        "law"
+      ],
+      "explain": "lex、legis 是“法律”，所以 legal、legislate、legitimate、privilege 都带这个核心义。注意区分另一条 leg-：legere“读”（legend、legible），同形不同源，判断要看同族词。",
+      "concepts": [
+        "c-root",
+        "c-word-family"
+      ]
+    },
+    {
+      "id": "w26d5-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 legislate 的切分",
+      "parts": [
+        "legis",
+        "late"
+      ],
+      "answer": "legislate",
+      "explain": "legis（lex 的属格词干，“法律的”）+ late（拉丁 latus“提出、带来”）→ legislate“立法”，字面是“提出法律”。同族还有 legislator、legislation、legislature。这是用拉丁词素在英语里现造的近代词，不是整词借入。",
+      "concepts": [
+        "c-root",
+        "c-word-sum",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w26d5-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）一位医生向病人解释病情时全用拉丁术语。最合理的评价是：",
+      "choices": [
+        "术语本身没错，但该场合需要用病人能懂的说法，属语域错配",
+        "术语更精确，应该坚持",
+        "病人应该先学拉丁语",
+        "应禁止医生使用任何术语"
+      ],
+      "answer": 0,
+      "explain": "术语在病历与同行交流中高效，在诊室里却增加理解成本。问题不在术语，而在没有按受众调整。正确做法是保留术语的精确性，同时用日常语解释——这也是简明语言运动的主张。",
+      "concepts": [
+        "c-register",
+        "c-inference"
+      ],
+      "hint": "先问“这句话是说给谁听的”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w26d5-a1",
+      "kind": "infer",
+      "prompt": "阅读租约片段，推测 lessee 的含义",
+      "passage": "She read the lease three times and still could not tell whether the lessee or the lessor had to pay for the boiler. The words were English, but the sentence belonged to a guild she had never joined: each term precise, each term locked to a statute, and none of them hers.",
+      "word": "lessee",
+      "choices": [
+        "承租人，即租房子的一方",
+        "出租人，即房东",
+        "房屋中介",
+        "担保人"
+      ],
+      "answer": 0,
+      "strategy": "① 构词：lessee = lease + -ee（受事），与 employee、payee 同型；lessor = lease + -or（施事），与 employer、payer 同型；② 语境：租约里两方对举，付锅炉钱的责任在谁；③ 排除中介与担保人：句中只有两方；④ 词素规则给出方向：-ee 是“被……的人”。",
+      "explain": "lessee 是“承租人”（被出租的一方），lessor 是“出租人”（房东）。-ee/-or 这组配对是法律英语里最可靠的解码工具：employee/employer、payee/payer、assignee/assignor 都按同一规则。掌握它，合同里的当事人关系就不必死记。",
+      "concepts": [
+        "c-inference",
+        "c-affix",
+        "c-word-family"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 9–10 节：标准与方言；专门词汇的群体功能"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "lex/leg- 词族与拉丁构词"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "lessee/lessor、legislate 的释义与语源"
+    }
+  ]
+}

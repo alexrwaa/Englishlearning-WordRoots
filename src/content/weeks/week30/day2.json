@@ -1,0 +1,284 @@
+{
+  "id": "w30d2",
+  "week": 30,
+  "day": 2,
+  "title": "拉丁的招牌音变：s 变 r，t+t 变 ss",
+  "tagline": "honos 为什么后来写成 honor，mission 为什么是两个 s——两条规则管着大半个拉丁词表",
+  "objectives": [
+    "能说明拉丁的 rhotacism（元音间 s → r）及其条件",
+    "能解释 t+t → ss、d+t → s、k+t → x 这三条拼合规则，并在英语词里认出来",
+    "能说明“首音节保守、后音节弱化”如何造成 fact／perfect、cap／cep／cip 的分裂"
+  ],
+  "prereqs": [
+    "w20d2",
+    "w20d3",
+    "w30d1"
+  ],
+  "concepts": [
+    "c-greek-latin",
+    "c-allomorph",
+    "c-cognate"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s10-1",
+    "kp-s1c10s10-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "s 变 r：一条有条件的规则",
+      "body": "拉丁语最出名的音变是 **rhotacism**（rhōta 是希腊字母 r 的名字）：**元音之间的 s 变成 r**。\n\n- *genos → 属格 **generis**（主格仍是 genus）\n- *flōs → 属格 **flōris**（花）\n- *honos → 后来干脆写成 **honor**\n- *iūs → 属格 **iūris**（法）\n- *es-“是” → 将来时 **erō**、未完成 **eram**\n\n条件很重要：**只在元音之间**。词首的 s 不动（sūs“猪”）、s 后跟辅音时也不动（stella“星”）。所以这条规则可检验：见到元音间的 r，就该怀疑它原来是 s；见到词首的 s，就不该指望它变。\n\n英语借词把两种形态都搬了进来：**genus** 与 **generic**、**floral**、**florid**、**honor** 与 **honest**（后者来自 honos 的另一种派生）。第 20 周讲的 justice／jury 也是这条规则：iūs 的斜格词干 iūr- 给了 jury、juridical。",
+      "terms": [
+        {
+          "term": "rhotacism",
+          "zh": "s 变 r",
+          "en": "rhotacism",
+          "note": "元音间的 s 变成 r，拉丁语的招牌音变"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四条拼合规则：两个辅音撞上会怎样",
+      "body": "拉丁语遇到“词根末辅音＋词尾 t／s”时，不做“加个元音”这种省事处理，而是让两个辅音**合并**成一个。合并的结果只有四种，认得这四种，英语里成片的 -ss-、-ct-、-s- 就都有了解释。",
+      "head": [
+        "拼合",
+        "结果",
+        "拉丁例",
+        "英语落点"
+      ],
+      "rows": [
+        [
+          "t + t",
+          "ss",
+          "*mit-tos → missus（送）",
+          "mission、admission、permission"
+        ],
+        [
+          "d + t",
+          "ss／s",
+          "*sed-tos → sessus（坐）；*vid-tos → vīsus（见）",
+          "session、vision、visible"
+        ],
+        [
+          "k + t",
+          "x",
+          "*dik-tos → dictus（说）；*reg-tos → rēctus（直）",
+          "diction、predict；direct、correct"
+        ],
+        [
+          "s（元音间）",
+          "r",
+          "*genos → generis；*iūs → iūris",
+          "generic；jury、juridical"
+        ],
+        [
+          "b + s",
+          "ps／s",
+          "*scrīb-sī → scrīpsī（写）",
+          "script、description"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "首音节保守，后音节弱化",
+      "body": "拉丁的重音有规则：一般在倒数第二音节（若它重）或倒数第三音节。这条规则带来一个后果：**首音节几乎总是重读，因此元音保得住；后面的音节不重读，元音就被削弱**——短 a 常变 i，短 e 也常变 i，必要时整个音节被吞掉。\n\n于是同一个词根出现两副面孔：\n\n- **facere**“做” → **perficere**、**cōnficere**（a → i）：英语 **fact** 对 **perfect**、**sufficient**、**infect**\n- **capere**“抓” → **accipere**、**recipere**（a → i）：**capture** 对 **accept**、**receipt**\n- **tenēre**“握” → **continēre**（e → i）：**tenant** 对 **continue**、**contents**\n- **cadere**“落” → **incidere**（a → i）：**cadence** 对 **incident**\n\n这条规律是第 20 周 cap／cep／cip 的理论根据：不是三个词根，是**一个词根在三种重音环境下的三种形态**。",
+      "terms": [
+        {
+          "term": "vowel reduction",
+          "zh": "元音弱化",
+          "en": "vowel reduction",
+          "note": "非重读音节的元音向 i／u 等弱化，甚至脱落"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "cap／cep／cip：一个词根的三张脸",
+      "body": "三列的差别不在词根，在**位置与重音**。第一列是简单动词（首音节重读），第二列是完成分词型（元音变 e），第三列是加了前缀之后的弱化形（变 i）。第三列产生的英语词最多，也最不容易认。",
+      "head": [
+        "形态",
+        "出现环境",
+        "拉丁例",
+        "英语词"
+      ],
+      "rows": [
+        [
+          "cap-",
+          "简单动词、首音节重读",
+          "capere、captus",
+          "capture、captive、capable"
+        ],
+        [
+          "cep-",
+          "完成时、部分派生",
+          "recēpī、acceptus",
+          "receive、reception、accept"
+        ],
+        [
+          "cip-",
+          "加前缀后的非重读位置",
+          "accipere、recipere、incipere",
+          "recipient、incipient、principal"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "首音节与后音节：两种命运",
+      "body": "把这条规律当成“读拉丁借词的解码器”来用：看到英语里同一个词根有两种元音，先判断哪个位置重读，再决定哪个是原形、哪个是弱化形。经验值是——短词、重音在前的是原形；带前缀、重音在后的是弱化形。",
+      "a": "首音节（重读）",
+      "b": "后音节（非重读）",
+      "rows": [
+        {
+          "label": "元音",
+          "a": "保住：a、e、o 清楚可辨",
+          "b": "弱化为 i／u，或整个脱落"
+        },
+        {
+          "label": "例",
+          "a": "fact、cap、ten、cad",
+          "b": "perfect、recipient、continue、incident"
+        },
+        {
+          "label": "英语里的对应层",
+          "a": "多为较早借入或直接借入的名词",
+          "b": "多为经法语中转的动词与抽象名词"
+        },
+        {
+          "label": "识别提示",
+          "a": "词形短、重音在前",
+          "b": "常带前缀，重音在后"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w30d2-p1",
+      "kind": "mcq",
+      "prompt": "拉丁 honos 后来写作 honor，属格是 honōris。这条变化的名称与条件是：",
+      "choices": [
+        "rhotacism：元音之间的 s 变成 r",
+        "rhotacism：所有位置的 s 都变成 r",
+        "assimilation：s 被后面的元音同化",
+        "syncope：s 被整个删掉"
+      ],
+      "answer": 0,
+      "explain": "条件是“元音之间”，这一点决定了规则的可检验性：sūs、stella 里的 s 都没变。如果说是“所有位置”，立刻被大量反例推翻。同型还有 genus／generis、flōs／flōris、iūs／iūris，成批出现才是规律。",
+      "concepts": [
+        "c-greek-latin",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w30d2-p2",
+      "kind": "mcq",
+      "prompt": "英语 mission 里的 -ss- 来自：",
+      "choices": [
+        "拉丁 *mit-tos → missus，t+t 合并为 ss",
+        "英语为了强调而把 s 写成两个",
+        "法语拼写习惯的保留",
+        "希腊语词尾的转写"
+      ],
+      "answer": 0,
+      "explain": "mittere“送”的完成分词是 missus，来自 *mit-tos。同型有 passus（*pat-tos）、quassus、sessus。这条规则解释了一大批 -ss- 词（mission、passion、session），而“强调拼写”说无法解释为什么它们都出现在分词词干上。",
+      "concepts": [
+        "c-greek-latin",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w30d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文术语",
+      "sentence": "The change of intervocalic s to r, as in honos → honor and genus → generis, is called ___ .",
+      "answer": "rhotacism",
+      "accept": [
+        "rhotacism",
+        "rhotacization"
+      ],
+      "explain": "rhotacism 的名字来自希腊字母 r（rhō）。这个术语不只用于拉丁语：英语史上也有（was／were 的 r 有争议），西班牙语、德语也有同类变化。认术语的同时要记住条件——元音之间，这是它区别于其他弱化的关键。",
+      "concepts": [
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w30d2-p4",
+      "kind": "mcq",
+      "prompt": "capture 是 cap-，receive 是 cep-，recipient 是 cip-。三种形态的成因是：",
+      "choices": [
+        "同一个词根在不同重音与派生环境下的元音变化：首音节保 a，完成时变 e，加前缀后弱化为 i",
+        "三个不同的拉丁词根，意义相近",
+        "英语从三种不同的语言分别借入",
+        "拼写在不同世纪被改革过三次"
+      ],
+      "answer": 0,
+      "explain": "关键是“位置决定形态”：重读保元音、非重读弱化。这条解释了为什么 recipient 与 capture 意义相通却看不出关系。若说是三个词根，就无法解释为什么它们的意义与句法行为完全重叠、且分布严格按位置排列。",
+      "concepts": [
+        "c-allomorph",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w30d2-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）拉丁 vidēre“见”的完成分词是 vīsus（英语 vision、visible）。据此判断 d + t 的拼合结果是：",
+      "choices": [
+        "d + t 先合并为 ss，vid-tos 再简化为单 s 并使元音拉长（vīsus）",
+        "d + t → ss（vid-tos → vissus）",
+        "d + t → x（vid-tos → vixus）",
+        "d + t 保持不变（vidtus）"
+      ],
+      "answer": 0,
+      "explain": "这里给的实证形式是 vīsus，所以结论只能是 d+t → s，且 ī 变长（补偿性延长）。若按 sed-tos → sessus 类推成 vissus 就错了——说明这条规则要按词根分别核，不能一律套。这也提醒：规则给的是默认预期，实证形式永远优先。",
+      "concepts": [
+        "c-allomorph",
+        "c-inference"
+      ],
+      "hint": "以给出的实证形式为准，别拿别的词根硬套。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w30d2-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 reduction 在句中的含义",
+      "passage": "Latin stress falls near the end of the word, so the first syllable is usually the strong one. Everything after it is unstressed, and unstressed vowels tend to lose their distinct quality: short a and short e both drift towards i. This reduction, not a change of root, is what separates fact from perfect.",
+      "word": "reduction",
+      "choices": [
+        "非重读元音向弱化音靠拢的变化",
+        "词根被替换成另一个词根",
+        "单词长度被缩短（如截短）",
+        "词义范围的缩小"
+      ],
+      "answer": 0,
+      "strategy": "① 因果链：unstressed → lose their distinct quality → drift towards i，这就是定义；② 对比句：not a change of root 排除“换词根”；③ 例证：fact 对 perfect 是同一词根的两种元音；④ 排除“词义缩小”：本段讲的是音，不是义。",
+      "explain": "reduction 在音系学里指“弱化”，与“缩短词形”（clipping）、“缩小词义”（narrowing）都不是一回事。注意它的日常义（减少、降价）与本义共享“变少”——元音的对立特征变少了。看到 reduction 先问：少的是什么？",
+      "concepts": [
+        "c-inference",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 10 节：拉丁的招牌音变与首音节保守、后音节弱化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "honos／honor、genus／generis、mittere／missus、capere／accipere 的形式核对"
+    }
+  ]
+}

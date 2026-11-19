@@ -1,0 +1,297 @@
+{
+  "id": "w30d1",
+  "week": 30,
+  "day": 1,
+  "title": "希腊的 s、w 与喉音：三个音怎么消失的",
+  "tagline": "wine 的前身在希腊语里是 oinos——开头的 w 掉了，连字母都从字母表里被删了",
+  "objectives": [
+    "能说明希腊语词首 *s → h、元音间 *s 消失这两条规则",
+    "能解释 digamma（ϝ）为什么消失，以及 oinos／wine 的关系",
+    "能说出成音节辅音在希腊语里补 a 的三种结果（a／ar／ra）"
+  ],
+  "prereqs": [
+    "w29d4",
+    "w28d2"
+  ],
+  "concepts": [
+    "c-greek-latin",
+    "c-cognate",
+    "c-scientific"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s9-3",
+    "kp-s1c10s9-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "*s 的两条路：词首变 h，中间消失",
+      "body": "祖语的 ***s** 在希腊语里很不安分，按位置分两条路：\n\n**词首 → h**：*septm“七” → **hepta**，*seks“六” → **hex**，*seǵʰ-“持” → **ekhein**（持有）。这个 h 后来在部分方言（爱奥尼亚）连读时也丢了，只剩“粗气符号”。\n\n**元音之间 → 消失**，两侧元音随即合并：*genes-os“族的” → *geneos → **genous**（阿提卡属格）。这一步对认词很有用：希腊第三变格那些看似古怪的 -ous、-eos 词尾，多半是 s 掉了之后元音撞在一起的结果。\n\n汉语母语者会觉得“s 变 h”很怪，但这类弱化在世界语言里很常见：擦音在词首松弛下来，就趋近于 h。判断一条音变是否可信，不看它“听起来自不自然”，而看它在本语言里是否成规律、有没有反例。",
+      "terms": [
+        {
+          "term": "intervocalic",
+          "zh": "元音间的",
+          "en": "intervocalic",
+          "note": "处在两个元音之间，是许多弱化与脱落的条件"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "digamma：一个被删掉的字母",
+      "body": "祖语的 ***w** 在希腊语里早早消失。它原本有一个字母 **ϝ**，因为形状像两个 gamma 叠起来，被称为 **digamma**（双伽马）。这个字母后来不再使用，从古典希腊语的字母表里被删掉了——所以今天的希腊字母表里没有 w。\n\n但它的痕迹还在荷马史诗里：某些地方格律“缺一个音节”，补上 w 正好合律。学者正是靠这种“格律漏洞”确认 digamma 曾经存在。\n\n对英语词汇最实用的例子是 **oinos**“酒”——*woinos 丢了 w。拉丁借去作 **vīnum**，英语的 **wine** 则是日耳曼本土词，同样来自 *woinos。三个形式摆在一起看：w（英语）／w→v（拉丁）／w→∅（希腊），一个音三种命运。",
+      "terms": [
+        {
+          "term": "digamma",
+          "zh": "双伽马",
+          "en": "digamma",
+          "note": "希腊语原表示 w 的字母 ϝ，后废弃"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "喉音在希腊：三个增音",
+      "body": "祖语的喉音在希腊语里脱落了，但如果它出现在词首、后面又跟辅音，希腊语就会在词首**补一个元音**把音节撑起来——补什么元音，取决于原来哪个喉音。这就是所谓“增音”，它反过来成了判定喉音类别的证据。",
+      "head": [
+        "祖语",
+        "希腊处理",
+        "希腊形式",
+        "英语／拉丁对照"
+      ],
+      "rows": [
+        [
+          "*h₁es-“是”",
+          "h₁ → e-",
+          "esti（他是）",
+          "is（英语）／est（拉丁）"
+        ],
+        [
+          "*h₂er-“犁”",
+          "h₂ → a-",
+          "arotron（犁）、aroō（耕）",
+          "ear（古义耕地）／arāre"
+        ],
+        [
+          "*h₃ekʷ-“眼”",
+          "h₃ → o-",
+          "osse（诗体“眼”）、ops“脸、眼”",
+          "eye／oculus"
+        ],
+        [
+          "*h₁eḱwos“马”",
+          "h₁ → e-，*ḱw → pp",
+          "hippos",
+          "eoh（已亡）／equus"
+        ],
+        [
+          "*h₂ster-“星”",
+          "h₂ → a-",
+          "astēr",
+          "star／stella"
+        ]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "成音节辅音：希腊语一律补 a",
+      "body": "上一周看过四支的对照，这一张专看希腊：补进的都是 **a**，位置分两种——补在辅音前（a + 响音）或后（响音 + a）。所以同一个祖语词根在希腊语里可能长出 ar、ra、al、la 四种形状，看着像四个词根，其实是一个。",
+      "head": [
+        "祖语",
+        "希腊结局",
+        "希腊形式",
+        "同源对照"
+      ],
+      "rows": [
+        [
+          "*ṃ",
+          "a",
+          "*ḱṃtóm → he-katon（百）",
+          "centum／hundred"
+        ],
+        [
+          "*ṇ",
+          "a",
+          "*n̥-（否定）→ a-：atheos“无神的”",
+          "in-／un-"
+        ],
+        [
+          "*ḷ",
+          "al／la",
+          "*wḷkʷos → lykos（狼；ly 为后起）",
+          "lupus／wolf"
+        ],
+        [
+          "*ṛ",
+          "ar／ra",
+          "*ḱr̥d- → kardia（心）",
+          "cor／heart"
+        ],
+        [
+          "*ṛ（带前缀时）",
+          "ar",
+          "*str̥- 型 → stronnymi（铺开）",
+          "sternere（铺）"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "同一个词，三种减法",
+      "body": "希腊、拉丁、日耳曼对同一个祖语词做了三种不同的“减法”：希腊丢 w、h 化 s、补增音；拉丁把 w 变 v、s 变 r；日耳曼则推移辅音。看清这三列，认词就不再靠猜——英语本土词走日耳曼那一列，学术借词走前两列。",
+      "a": "希腊",
+      "b": "拉丁／日耳曼",
+      "rows": [
+        {
+          "label": "*s（词首）",
+          "a": "→ h：hepta、hex",
+          "b": "拉丁 s（septem）／日耳曼 s（seven）"
+        },
+        {
+          "label": "*w",
+          "a": "→ ∅：oinos",
+          "b": "拉丁 v（vīnum）／日耳曼 w（wine）"
+        },
+        {
+          "label": "喉音",
+          "a": "脱落，词首补 e／a／o",
+          "b": "拉丁变 a／o；日耳曼消失"
+        },
+        {
+          "label": "成音节辅音",
+          "a": "补 a（kardia、hekaton）",
+          "b": "拉丁 em／en／or；日耳曼 um／un／ul"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w30d1-p1",
+      "kind": "mcq",
+      "prompt": "希腊 hepta“七”与英语 seven 同源，词首 h 与 s 的对应说明：",
+      "choices": [
+        "希腊语把词首的 *s 变成了 h，日耳曼语保留 s",
+        "希腊语把 h 变成了 s，日耳曼语保留 h",
+        "两个词不同源，只是数词碰巧相近",
+        "*s 在两种语言里都变成了 h"
+      ],
+      "answer": 0,
+      "explain": "方向是 *s → h，证据是同族的 hex“六”（*seks）与 heks- 型形式，以及拉丁 septem、梵语 sapta 都保留 s。三个分支里两个保留、一个变 h，方向自然确定。数词是最难借的词类，同源判定几乎无争议。",
+      "concepts": [
+        "c-greek-latin",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w30d1-p2",
+      "kind": "mcq",
+      "prompt": "希腊 oinos、拉丁 vīnum、英语 wine 三者的关系是：",
+      "choices": [
+        "都来自 *woinos，*w 在希腊脱落、在拉丁变 v、在日耳曼保留为 w",
+        "英语 wine 借自拉丁 vīnum，与希腊语无关",
+        "希腊语从拉丁语借入 oinos 并丢了 w",
+        "三者只是都表示酒，没有同源关系"
+      ],
+      "answer": 0,
+      "explain": "这是 *w 三种命运的教科书例子。要注意英语 wine 是本土词（古英语 wīn），不是从拉丁借的——借词说无法解释为什么日耳曼语普遍有同形词（德语 Wein、冰岛语 vín）。同源关系先于借词关系，这一点要分清。",
+      "concepts": [
+        "c-cognate",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w30d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "The Greek negative prefix ___, seen in atheos and atypical, continues the syllabic nasal *ṇ- that appears in English as un- and in Latin as in-.",
+      "answer": "a-",
+      "accept": [
+        "a-",
+        "a",
+        "an-"
+      ],
+      "explain": "希腊否定前缀 a-（元音前 an-）来自成音节 *ṇ，与英语 un-、拉丁 in- 是同一个成分的三条路。所以 atheist、anonymous、atypical 里的 a- 与 unable 的 un-、incredible 的 in- 是一家人——这条联系能一次记住三批词。",
+      "concepts": [
+        "c-greek-latin",
+        "c-prefix"
+      ]
+    },
+    {
+      "id": "w30d1-p4",
+      "kind": "mcq",
+      "prompt": "希腊 kardia“心”与拉丁 cor（属格 cordis）、英语 heart 同源。希腊词里的 -ar- 来自：",
+      "choices": [
+        "成音节 *ṛ 在希腊语里补 a 的结果（*ḱr̥d- → kard-）",
+        "希腊语把所有 r 前都加了 a",
+        "kardia 是从拉丁 cordis 借来的",
+        "a 是后来为了发音方便插进去的"
+      ],
+      "answer": 0,
+      "explain": "标准解释是成音节 *ṛ 的“响音＋a”型结局；拉丁走“o＋响音”型（cor／cordis），日耳曼走“响音＋元音”型（heart）。三支各补各的元音，正是成音节辅音最典型的证据。若说“r 前都加 a”，无法解释为何补的是 a 而非 e／o。",
+      "concepts": [
+        "c-cognate",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w30d1-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）希腊 hekaton“百”可以拆出三步音变，下面哪一组最完整？",
+      "choices": [
+        "词首增音 e（来自 *h₁ 型喉音）＋ *ḱ → k ＋ 成音节 *ṃ → a",
+        "*s → h ＋ *p → f ＋ *ṃ → o",
+        "重音前移 ＋ 元音和谐 ＋ 辅音脱落",
+        "借词替换 ＋ 类推 ＋ 拼写改革"
+      ],
+      "answer": 0,
+      "explain": "he-katon 的三段各有来源：he- 是词首增音（*ḱṃtóm 起首即是辅音丛，希腊必须补元音），k 是 *ḱ 在 centum 型语言里并入 k，-aton 里的 a 是成音节 *ṃ。拉丁 centum 只做了第二步、第三步（en），所以两词形状差得远却完全对得上。",
+      "concepts": [
+        "c-greek-latin",
+        "c-inference"
+      ],
+      "hint": "把词切成三段，逐段找来源。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w30d1-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 prothetic 在句中的含义",
+      "passage": "Greek could not begin a word with a consonant cluster of that shape, so it added a vowel in front of it. This prothetic vowel is not part of the root: it varies with the laryngeal that preceded it, appearing as e, a or o, and it is absent in Latin and Germanic.",
+      "word": "prothetic",
+      "choices": [
+        "加在词首的（为凑足音节而增补的）",
+        "插在词根中间的",
+        "加在词尾的",
+        "由两个元音合并而成的"
+      ],
+      "answer": 0,
+      "strategy": "① 前句给出动因：could not begin a word with a consonant cluster，所以在前面加元音；② 定义句：added a vowel in front of it；③ 后句 is not part of the root 与 absent in Latin 对比，说明它是外加成分；④ 排除“中间／词尾”：位置已经写明 in front。",
+      "explain": "prothetic 意为“词首增音的”（希腊 pro-tithenai“放在前面”）。识别办法是看位置词：in front of、initially、word-initially。同族词 thesis、hypothesis、synthesis 都含“放置”义，-thet- 这一支可以一起记。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 9 节：希腊语 s、w、喉音的去向与成音节辅音的处理"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "*woinos／oinos／vīnum／wine、*ḱṃtóm／hekaton、*ḱr̥d-／kardia 的核对"
+    }
+  ]
+}

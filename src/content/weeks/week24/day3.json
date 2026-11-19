@@ -1,0 +1,292 @@
+{
+  "id": "w24d3",
+  "week": 24,
+  "day": 3,
+  "title": "内外两股力，为什么多半越分越远",
+  "tagline": "接触与内部演变都在制造新变体，统一才是例外",
+  "objectives": [
+    "能区分外部动因（战争、迁徙、商贸、技术）与内部动因（音变、语义漂移）",
+    "能用 shirt/skirt、church/kirk 说明同一词源在两个方言中走完不同音变后的结果",
+    "能说明阿尔弗雷德大帝的 West Saxon 标准为何是罕见的统一反例"
+  ],
+  "prereqs": [
+    "w24d2",
+    "c-borrowing",
+    "c-cognate"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-cognate",
+    "c-etymology",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s2-1",
+    "kp-s1c8s2-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "外部动因：人来，词也来",
+      "body": "战争、迁徙、商贸、技术都属于**外部动因**——语言之外的事件把新的说话人、新的词带进来。1066 年诺曼征服之后，英语从法语借入 beef、mutton、pork 一整套“餐桌上的词”，而养这些牲畜的本土词 cow、sheep、swine 一直没被替换。结果是一张桌子上的双重词汇：动物在田里叫英语名，端上桌叫法语名。\n\n斯堪的纳维亚定居者带来的 sky、skin、egg、knife 属于同一类。外部动因的特点是可与事件对表：哪一年打进来、哪一批人定居，都能在文献里查到。",
+      "terms": [
+        {
+          "term": "external change",
+          "zh": "外部动因",
+          "en": "external change",
+          "note": "语言接触、战争、迁徙、贸易、技术带来的变化"
+        },
+        {
+          "term": "language contact",
+          "zh": "语言接触",
+          "en": "language contact",
+          "note": "两个语言社群长期共存，互相借入成分"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "内部动因：系统自己会漂",
+      "body": "另一类变化不需要外人参与。古英语 scip 读 /skip/，后来 /sk/ 在 front vowel 前**腭化**为 /ʃ/，成了 ship；同一个音变让 scoh 变成 shoe、scyrte 变成 shirt。触发条件是语音环境，不是谁征服了谁。\n\n语义也会内部漂移：nice 从“愚蠢的”一路走到“令人愉快的”，没有人下过命令。\n\n辨认时先问一句：这个差异能不能在语言系统内部解释？能，就是内部动因；不能，才去找外部事件。两者常常同时发生，所以更准确的说法是“共同制造分歧”，而不是“二选一”。",
+      "terms": [
+        {
+          "term": "internal change",
+          "zh": "内部动因",
+          "en": "internal change",
+          "note": "音变、类推、语义漂移等系统内部的变化"
+        },
+        {
+          "term": "palatalization",
+          "zh": "腭化",
+          "en": "palatalization",
+          "note": "/k/、/sk/ 在 front vowel 前变为 /tʃ/、/ʃ/"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "shirt 与 skirt：一对双式词",
+      "body": "shirt 与 skirt 是同一个日耳曼词根的两次落地。古英语形式走了腭化，/sk/ 变成 /ʃ/；古诺斯语形式没有走这一步，保留 /sk/。维京定居者把后者带进英语，两个形式相遇，一个指衬衫，一个指裙子。\n\n这不是“英语内部音变”，而是两个方言各自走完音变之后再碰头。church/kirk、ditch/dike 是同一模式：/tʃ/ 对 /k/、/dʒ/ 对 /g/ 的配对，几乎总是“古英语对古诺斯语”的信号。",
+      "steps": [
+        {
+          "period": "原始日耳曼语",
+          "form": "*skurt-",
+          "note": "短衣；同一词根分头进入两个方言"
+        },
+        {
+          "period": "古英语",
+          "form": "scyrte",
+          "note": "/sk/ 在 front vowel 前腭化为 /ʃ/，今 shirt"
+        },
+        {
+          "period": "古诺斯语",
+          "form": "skyrta",
+          "note": "未腭化，保留 /sk/，随维京定居者入英语"
+        },
+        {
+          "period": "现代英语",
+          "form": "shirt / skirt",
+          "note": "同源双式词，一个“衬衫”，一个“裙子”"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "两种动因的辨认",
+      "body": "这张表的用法是排除法：先看差异能否用音变规则解释，能就归内部；再看有没有对应的外语形式，有就归外部。两条都成立时，说明两种力量叠在同一批词上，英语的诺斯语借词层就是典型。",
+      "head": [
+        "线索",
+        "外部动因",
+        "内部动因"
+      ],
+      "rows": [
+        [
+          "触发",
+          "战争、迁徙、贸易、技术",
+          "语音环境、类推、语义联想"
+        ],
+        [
+          "结果形态",
+          "借词、双式词、混合",
+          "规则音变、词形简化"
+        ],
+        [
+          "典型例子",
+          "beef/cow、sky、shirt/skirt",
+          "scip→ship、hlaford→lord"
+        ],
+        [
+          "时间",
+          "与事件同步，可考",
+          "缓慢连续，难定起点"
+        ],
+        [
+          "辨认问题",
+          "这个词在别的语言里有对应吗",
+          "这个差异能否用音变规则解释"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "统一与分化：哪一个是常态",
+      "body": "教材的判断很直接：统一是罕见的例外。阿尔弗雷德大帝（9 世纪）以宫廷所在的 West Saxon 方言作为全英文学标准，组织翻译计划、扶植教会学校，是少见的成功案例；但诺曼征服后拉丁与法语上位，这条线就断了。分化不需要任何人推动，只要交流网络断裂就会发生。",
+      "a": "统一（罕见）",
+      "b": "分化（常态）",
+      "rows": [
+        {
+          "label": "例子",
+          "a": "阿尔弗雷德以 West Saxon 方言作文学标准",
+          "b": "北部与西南部土语长期互不通晓；Scots、Hiberno-English 各自成体系"
+        },
+        {
+          "label": "机制",
+          "a": "王权 + 翻译计划 + 教会学校",
+          "b": "地理隔离、语言接触、内部音变"
+        },
+        {
+          "label": "持续时间",
+          "a": "有限，诺曼征服后中断",
+          "b": "数百年，持续至今"
+        },
+        {
+          "label": "条件",
+          "a": "需要政治力量持续投入",
+          "b": "不需要，只要交流网络断裂"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w24d3-p1",
+      "kind": "mcq",
+      "prompt": "beef 与 cow 并存，最直接的原因是：",
+      "choices": [
+        "诺曼征服后法语词进入英语，与本土词按场合分工",
+        "英语内部发生了 p→f 音变",
+        "英国人后来觉得 cow 不礼貌",
+        "两个词来自同一方言的不同音变"
+      ],
+      "answer": 0,
+      "explain": "beef 来自诺曼法语 boeuf，cow 是本土词。法语词进入后占了“餐桌上的肉”这个语域，本土词继续指活着的动物。这是外部动因（征服与接触）造成的分工，与音变无关。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w24d3-p2",
+      "kind": "mcq",
+      "prompt": "shirt 与 skirt 的 /ʃ/ 与 /sk/ 差异说明：",
+      "choices": [
+        "两个形式分别来自古英语与古诺斯语，一个完成腭化、一个没有",
+        "skirt 是 shirt 的错误拼写",
+        "英语在 18 世纪发生过 /sk/→/ʃ/ 音变",
+        "两者没有词源关系"
+      ],
+      "answer": 0,
+      "explain": "古英语 scyrte 的 /sk/ 在 front vowel 前腭化为 /ʃ/，成为 shirt；古诺斯语 skyrta 没有经历这一步，随维京定居者进入英语成为 skirt。church/kirk、ditch/dike 是同一模式，这类配对是辨认诺斯语借词的路标。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w24d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个方言名（英文）",
+      "sentence": "Alfred the Great used the ___ dialect as the basis of a literary standard.",
+      "answer": "West Saxon",
+      "accept": [
+        "West Saxon",
+        "Wessex"
+      ],
+      "explain": "阿尔弗雷德大帝以宫廷所在的 West Saxon 方言为底本，推动翻译与教育，形成古英语的文学标准。这是教材所说的“统一是罕见例外”：它靠王权与教会维持，诺曼征服后即中断。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w24d3-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 loanword 的切分",
+      "parts": [
+        "loan",
+        "word"
+      ],
+      "answer": "loanword",
+      "explain": "loan + word 是典型的复合词（compound），两个自由词基直接组合，指“从别的语言借来的词”。注意它是英语用自己的材料造的“元语言术语”，而它描述的对象（如 latte）往往不可拆——这正是本课两条造词路径的对照。",
+      "concepts": [
+        "c-compound",
+        "c-word-sum",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w24d3-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）某方言把 kettle 说成 /ˈtʃetl/，标准英语是 /ˈketl/。最合理的解释是：",
+      "choices": [
+        "该方言经历过 /k/ 在 front vowel 前腭化，属内部音变",
+        "说话人发音器官有缺陷",
+        "这个词是法语借词，所以读法不同",
+        "该方言把重音放错了位置"
+      ],
+      "answer": 0,
+      "explain": "kettle 的 /k/ 后面是 front vowel /e/，正是腭化的典型环境；同一方言里 ship、church 也走过同样的路。这是规则音变，不是缺陷，也不是借词或重音问题。判断时先找语音环境，再看是否成系统。",
+      "concepts": [
+        "c-inference",
+        "c-allomorph"
+      ],
+      "hint": "看 /k/ 后面的元音是不是前元音。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w24d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 kirk 的含义与来源",
+      "passage": "She had not been inside the old building for years. “It's the kirk,” her grandmother said, using the word the village had always used, “not the church. Same place, same God, different word.” The minister smiled and unlocked the door.",
+      "word": "kirk",
+      "choices": [
+        "苏格兰等地指教堂的词，与 church 同源",
+        "一种只在新教中使用的小礼拜堂",
+        "教堂旁的墓地",
+        "教堂的钟楼"
+      ],
+      "answer": 0,
+      "strategy": "① 同义复现：not the church. Same place 直接把 kirk 与 church 对齐；② 语用：祖母说“村里一直这么叫”，指向地方变体；③ 词源：kirk < 古诺斯语 kirkja，church < 古英语 cirice，/k/ 与 /tʃ/ 的配对正是诺斯语借入的标志；④ 排除建筑细分：句中只说同一座建筑。",
+      "explain": "kirk 是苏格兰与爱尔兰部分地区的“教堂”，与 church 同源而异途：古诺斯语 kirkja 保留 /k/，古英语 cirice 腭化为 /tʃ/。这正是本课“外部动因 + 内部音变叠加”的实例——接触带来新形式，音变让两个形式分道。",
+      "concepts": [
+        "c-inference",
+        "c-cognate",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 2 节：内部与外部动因；阿尔弗雷德的标准"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "日耳曼语借词层与音变对应的历史说明"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "shirt/skirt、church/kirk、ditch/dike 的语源"
+    }
+  ]
+}

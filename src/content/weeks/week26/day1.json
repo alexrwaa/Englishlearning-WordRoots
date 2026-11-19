@@ -1,0 +1,287 @@
+{
+  "id": "w26d1",
+  "week": 26,
+  "day": 1,
+  "title": "拉丁当了一千年超地域标准",
+  "tagline": "高层用拉丁、日常用俗语，两套变体可以长期分工",
+  "objectives": [
+    "能说明罗曼语分化后拉丁仍充当欧洲僧侣与学界的标准，并解释 diglossia 的格局",
+    "能指出英语里本土层、法语层、拉丁层按语域分布的对应关系",
+    "能用 legal 与 lawful 说明两条来源路径如何造成同义词的文体分工"
+  ],
+  "prereqs": [
+    "w25d5",
+    "c-borrowing",
+    "c-register",
+    "c-greek-latin"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-register",
+    "c-greek-latin",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s7-1",
+    "kp-s1c8s7-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "拉丁的一千年",
+      "body": "罗曼语分化之后（法语、西班牙语、意大利语各自成形），拉丁并没有退场。它继续充当欧洲僧侣与学界的**超地域标准**：教堂礼仪、大学讲演、外交文书、学术著作都用拉丁。日常场合则用各地古法语、古西班牙语、古意大利语。\n\n这种“高层用 A、日常用 B”的格局叫 **diglossia**（双层语言）。两种变体不是竞争关系，是分工关系：一个管跨地域的正式事务，一个管本地的日常事务。\n\n这一点很重要：它证明“标准”与“方言”可以长期共存，而不必一方消灭另一方。",
+      "terms": [
+        {
+          "term": "diglossia",
+          "zh": "双层语言",
+          "en": "diglossia",
+          "note": "同一社会里两种变体按功能分工并存"
+        },
+        {
+          "term": "learned language",
+          "zh": "学术语言",
+          "en": "learned language",
+          "note": "用于学术与正式文本的语言，常非母语"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "同一功能的两套说法",
+      "body": "表格里没有“更正确”的一栏，因为两栏都对：一个管跨地域的正式场合，一个管本地日常。中世纪的人在两套之间切换，就像今天的人在公司写邮件、回家说方言。",
+      "head": [
+        "场合",
+        "拉丁",
+        "地方语言"
+      ],
+      "rows": [
+        [
+          "大学讲演",
+          "lingua Latina",
+          "古法语、古意大利语"
+        ],
+        [
+          "教会文书",
+          "拉丁",
+          "本地罗曼语"
+        ],
+        [
+          "法律记录",
+          "拉丁",
+          "古法语（英国则是法律法语）"
+        ],
+        [
+          "编年史",
+          "拉丁",
+          "各地俗语"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "英语里的同一幕",
+      "body": "英语也经历过类似的叠层：诺曼征服后，法律与行政用法语，学术与教会用拉丁，日常用英语。三层留下的词今天还按功能分布：\n\n- **本土层**：ask、help、begin、kingly\n- **法语层**：question、aid、commence、royal\n- **拉丁层**：interrogate、assist、initiate、regal\n\n同一件事有三种说法，语域从日常到正式递增。这不是同义词冗余，是历史层的功能分工。写作者的工具箱里，这三层各有用处。",
+      "terms": [
+        {
+          "term": "layer",
+          "zh": "词汇层",
+          "en": "layer",
+          "note": "按借入时代与来源划分的词汇层次"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "legal 与 lawful",
+      "body": "一对同义词，一条拉丁路、一条日耳曼路。legal 更技术（legal advice、legal system），lawful 更道德、更古旧（lawful owner、unlawful killing）。选择看文体，不看谁更“正确”。\n\n值得注意的是 law 本身：它来自古诺斯语 lagu，而不是古英语。维京定居者不仅带来了 sky、skin，也带来了“法”这个词——这说明英语的法律词汇从一开始就是多层拼起来的。",
+      "steps": [
+        {
+          "period": "拉丁语",
+          "form": "lex, legis",
+          "note": "“法律”，属格 legis"
+        },
+        {
+          "period": "拉丁语",
+          "form": "legalis",
+          "note": "“法律的”，进入法语与英语"
+        },
+        {
+          "period": "古诺斯语",
+          "form": "lagu",
+          "note": "“法”，进入古英语作 lagu，今 law"
+        },
+        {
+          "period": "中古英语",
+          "form": "lawful / legal",
+          "note": "law + -ful 为本土构词；legal 为拉丁借词"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "超地域标准与地方变体",
+      "body": "两者的关系不是取代，而是分工。一旦跨地域的交流网络存在（教会、大学、贸易），就需要一套“走到哪儿都能用”的变体；而本地生活越具体，越需要地方变体。今天学术英语与地方英语的关系，与此同构。",
+      "a": "超地域标准",
+      "b": "地方变体",
+      "rows": [
+        {
+          "label": "使用范围",
+          "a": "跨地区、跨国家",
+          "b": "一地、一社群"
+        },
+        {
+          "label": "使用者",
+          "a": "僧侣、学者、外交官",
+          "b": "普通人日常"
+        },
+        {
+          "label": "语域",
+          "a": "正式、书面、礼仪",
+          "b": "口语、亲密"
+        },
+        {
+          "label": "稳定性",
+          "a": "高，靠教育维持",
+          "b": "低，随社群变"
+        },
+        {
+          "label": "例证",
+          "a": "中世纪拉丁；今日学术英语",
+          "b": "各地罗曼语；地方方言"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w26d1-p1",
+      "kind": "mcq",
+      "prompt": "diglossia（双层语言）指的是：",
+      "choices": [
+        "同一社会里两种变体按功能分工并存，一种用于正式场合，一种用于日常",
+        "一个人会说两种外语",
+        "两种语言互相借词",
+        "一个国家有两种官方语言"
+      ],
+      "answer": 0,
+      "explain": "diglossia 的关键是“功能分工 + 同一社会”：高层变体管正式书面与礼仪，低层变体管日常口语。它与“双语制”（两种官方语言）、“多语能力”都不同，重点在场合分工而非语言数量。",
+      "concepts": [
+        "c-register",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w26d1-p2",
+      "kind": "mcq",
+      "prompt": "中世纪拉丁能长期充当欧洲标准，最重要的条件是：",
+      "choices": [
+        "教会与大学构成了跨地域的教育网络，使拉丁成为进入学术与教职的通行证",
+        "拉丁语法比各地俗语简单",
+        "各地俗语没有文字",
+        "拉丁是所有人的母语"
+      ],
+      "answer": 0,
+      "explain": "拉丁的地位靠制度维持：教会礼仪、大学授课、外交文书都用它，会拉丁才能进入这些场域。它不是靠语法简单或母语地位——多数人母语是各地俗语，拉丁是后天学的学术语言。",
+      "concepts": [
+        "c-register",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w26d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文术语",
+      "sentence": "The coexistence of Latin for formal functions and local Romance varieties for daily use is an example of ___.",
+      "answer": "diglossia",
+      "accept": [
+        "diglossia"
+      ],
+      "explain": "diglossia 描述的正是这种“高层正式、低层日常”的稳定分工。它与“变体竞争到一方胜出”不同：两层长期各管一块，谁也不消灭谁。",
+      "concepts": [
+        "c-register"
+      ]
+    },
+    {
+      "id": "w26d1-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 diglossia 的切分",
+      "parts": [
+        "di",
+        "gloss",
+        "ia"
+      ],
+      "answer": "diglossia",
+      "explain": "di-（希腊“二、双”）+ gloss（希腊 glōssa“舌头、语言”）+ -ia（名词后缀，表状态）→ diglossia“双层语言状态”。gloss 这条词根还给出 glossary（词表）、gloss（注释）、polyglot（多语者）。",
+      "concepts": [
+        "c-prefix",
+        "c-root",
+        "c-word-sum",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w26d1-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）某地婚礼使用古老的礼仪语言，家里日常说地方话。最合理的描述是：",
+      "choices": [
+        "两种变体按场合分工，属双层语言",
+        "礼仪语言更正确，地方话是退化形式",
+        "他们其实不会说礼仪语言",
+        "地方话正在取代礼仪语言"
+      ],
+      "answer": 0,
+      "explain": "婚礼与家庭是两个不同场合，各自需要不同变体：一个要仪式性与跨地域可识别，一个要亲密与本地可懂。这是功能分工，不是优劣。把它读成“谁取代谁”，是把并存误认成竞争。",
+      "concepts": [
+        "c-register",
+        "c-inference"
+      ],
+      "hint": "先列场合，再看每个场合用哪套。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w26d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 diglossia 在句中的含义",
+      "passage": "In the parish the Mass was still said in Latin, while the same villagers argued over prices in the local dialect. Nobody found this strange: the two varieties were not rivals but neighbours, each with its own doorway — one into the church, one into the kitchen. Nobody in the village used the learned term diglossia, but they lived it every day.",
+      "word": "diglossia",
+      "choices": [
+        "两种变体按场合分工并存",
+        "两种语言正在互相取代",
+        "村民只会说拉丁语",
+        "地方话是拉丁语的错误形式"
+      ],
+      "answer": 0,
+      "strategy": "① 并列结构：Mass in Latin / argued in the local dialect，两套各有场合；② 明说：not rivals but neighbours，直接否定“竞争取代”；③ 比喻：one into the church, one into the kitchen，正是功能分工；④ 排除“只会拉丁”：同一批村民在集市说地方话。",
+      "explain": "diglossia 的核心是“同一社群、两种变体、按功能分工”。这段文字用教堂与厨房两个门把分工讲得很清楚：谁也不是谁的错误版本，各有自己的门口。",
+      "concepts": [
+        "c-inference",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 7 节：拉丁作为超地域标准；方言的适用场合"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "lex/leg- 词族与 law 的诺斯语来源"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "diglossia、legal、lawful 的释义与语源"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "w24d1",
+  "week": 24,
+  "day": 1,
+  "title": "一个名字，一大组变体",
+  "tagline": "先把“英语”拆成一组变体，再看新词从哪些行业冒出来",
+  "objectives": [
+    "能说明 variety（变体）与 register（语域）的区别，并举出同一件事在不同场合的四种说法",
+    "能列举新词的四条社会来源，并指出借词、首字母缩合、拼合三条造词路径的差别",
+    "能用 akros 与 onyma 拆解 acronym，说明术语本身也是希腊词素的产物"
+  ],
+  "prereqs": [
+    "w22d6",
+    "c-borrowing",
+    "c-acronym"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-acronym",
+    "c-morpheme",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s1-1",
+    "kp-s1c8s1-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "“英语”不是一个东西",
+      "body": "我们习惯说“英语”，好像它是一件可以拿在手里的东西。实际上这个名字底下是一大组**变体**（variety）：英国、美国、澳大利亚、印度、尼日利亚各有自己的英语；同一个国家里，伦敦金融城与白金汉郡的农场又不一样；同一座城市里，法庭、医院、球场也各说各的。因场合而变的用法叫**语域**（register）。\n\n标准英语只是其中一支：它由教育、出版、政府长期维护，覆盖面最广，被写进词典与教科书。覆盖面广不等于唯一。判断一句话“对不对”，第一个问题永远不是“符合规则吗”，而是“哪一种英语、什么场合”。",
+      "terms": [
+        {
+          "term": "variety",
+          "zh": "变体",
+          "en": "variety",
+          "note": "同一语言内部有系统差异的一支，可按地区或社会群体划分"
+        },
+        {
+          "term": "register",
+          "zh": "语域",
+          "en": "register",
+          "note": "因场合、对象、媒介而调整的用法层次"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "同一件事，四种场合的说法",
+      "body": "四句话指的都是“耳朵疼”，没有一句是错的，差别在语域。表格最后一列才是关键：术语并不天生更精确，它精确在能进入编码系统；口语并不天生更粗糙，它粗糙在需要共享语境。",
+      "head": [
+        "场合",
+        "说法",
+        "特点"
+      ],
+      "rows": [
+        [
+          "医生写病历",
+          "otitis externa",
+          "希腊拉丁词素，可与同类诊断编码，外人不懂"
+        ],
+        [
+          "律师写合同",
+          "the lessee shall indemnify the lessor",
+          "法律法语与拉丁层叠，责任边界清楚"
+        ],
+        [
+          "农民说牛",
+          "heifer / steer / bullock",
+          "按年龄与性别分工，标准语没有对应单词"
+        ],
+        [
+          "朋友发消息",
+          "my ear's killing me lol",
+          "缩略、夸张、表情化，依赖共同语境"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "新词不看出身",
+      "body": "教材列了一串新词：**latte** 来自意大利咖啡馆文化，**locavore** 来自环保运动，**captcha** 来自技术圈，**nimby** 来自社区政治，**humint** 来自情报系统。出身完全不同——餐饮、环保、编程、抗议、间谍——说明造词权不专属于受过高等教育的人。任何群体只要需要反复指称一件新事物，就会造词。\n\n从构词看，它们走了三条不同的路：\n\n- **整体借入**：latte（意大利语“牛奶”）原封不动搬进来，不能按英语词素拆。\n- **首字母缩合**：captcha、nimby 都是 acronym，取短语首字母拼成一个可读的词。\n- **拼合与派生**：locavore = local + -vore（拉丁 vorare“吞食”）；humint 由 human intelligence 压缩而来。",
+      "terms": [
+        {
+          "term": "coinage",
+          "zh": "新造词",
+          "en": "coinage",
+          "note": "为一个新事物新造的词，来源可以是任何社会群体"
+        },
+        {
+          "term": "acronym",
+          "zh": "首字母缩合词",
+          "en": "acronym",
+          "note": "取短语各词首字母，拼成一个可发音的词"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "acronym：取“名字的末端”",
+      "body": "acronym 这个词本身就是希腊词素拼出来的：**akros**“末端、尖端” + **onyma**“名字”，字面是“取名字的末端”，也就是取每个词的开头字母。它 20 世纪中叶才被造出来，因为二战前后缩写词大量涌现，需要一个统称。\n\n造出来之后，它自己成了一条生产线：NATO、AIDS、nimby、captcha 都按这条规则生产。一个描述造词法的词，最后变成了造词法本身的名字。",
+      "steps": [
+        {
+          "period": "希腊语",
+          "form": "akros",
+          "note": "末端、尖端；acrobat、acropolis 同此"
+        },
+        {
+          "period": "希腊语",
+          "form": "onyma / onoma",
+          "note": "名字；synonym、anonymous、antonym 同此"
+        },
+        {
+          "period": "希腊语",
+          "form": "akronymos",
+          "note": "取名字末端而成的名称"
+        },
+        {
+          "period": "20 世纪英语",
+          "form": "acronym",
+          "note": "1940 年代起用来统称 NATO、AIDS 这类词"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "三条造词路径的辨认",
+      "body": "遇到一个陌生新词，先判断它走的是哪条路，再决定能不能拆。拆错路径，比不认识这个词更麻烦：把 latte 拆成 lat + te，比承认“这是个借词”要糟得多。",
+      "a": "整体借入",
+      "b": "缩合与拼合",
+      "rows": [
+        {
+          "label": "代表词",
+          "a": "latte、sushi、piano、karaoke",
+          "b": "captcha、nimby、locavore、humint"
+        },
+        {
+          "label": "材料来源",
+          "a": "另一种语言的现成词",
+          "b": "本语言的片段，或希腊拉丁词素"
+        },
+        {
+          "label": "可拆性",
+          "a": "不能按英语词素拆",
+          "b": "能拆到字母或词素"
+        },
+        {
+          "label": "能产性",
+          "a": "低，逐个借入",
+          "b": "高，可批量生产"
+        },
+        {
+          "label": "识别线索",
+          "a": "拼写或读音不合英语常规",
+          "b": "全大写、首字母串、词素边界清楚"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w24d1-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一项最符合本课对“英语”的描述？",
+      "choices": [
+        "英语是各地、各场合使用的一大组变体，标准英语是其中覆盖面最广的一支",
+        "英语是一套统一规则，地区差异都属于使用错误",
+        "英语只有英式和美式两种变体",
+        "只要掌握标准英语，就能应对所有场合"
+      ],
+      "answer": 0,
+      "explain": "教材的出发点就是把“英语”看作变体的集合：地区、社会群体、场合都制造系统差异，其内部差异不亚于若干门语言。标准英语覆盖面最广、被词典与学校维护，但它只是其中一支，不覆盖厨房、球场与家庭群聊。",
+      "concepts": [
+        "c-register",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w24d1-p2",
+      "kind": "mcq",
+      "prompt": "nimby 的构词方式属于：",
+      "choices": [
+        "首字母缩合（acronym）",
+        "整体借词",
+        "加缀派生",
+        "截短（clipping）"
+      ],
+      "answer": 0,
+      "explain": "nimby 是 Not In My Back Yard 的首字母串，属于 acronym：取每个词的首字母拼成一个可读的词。它不是从别的语言整体搬来的，也不是在词根上加前后缀，更不是把一个长词砍掉一截。",
+      "concepts": [
+        "c-acronym"
+      ]
+    },
+    {
+      "id": "w24d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文动词",
+      "sentence": "The -vore of locavore goes back to Latin vorare, “to ___”.",
+      "answer": "devour",
+      "accept": [
+        "devour",
+        "swallow",
+        "eat"
+      ],
+      "explain": "拉丁 vorare 是“吞食”，所以 -vore 指“以……为食者”：carnivore 食肉、herbivore 食草、omnivore 杂食。locavore 字面是“吃本地的人”，正好对上环保运动主张的“只吃附近出产的食物”。",
+      "concepts": [
+        "c-root",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w24d1-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 acronym 的切分",
+      "parts": [
+        "acro",
+        "nym"
+      ],
+      "answer": "acronym",
+      "explain": "acro-（希腊 akros“末端、尖端”）+ -nym（希腊 onyma“名字”）→ acronym。注意 -nym 是一个能产的构词成分：synonym、antonym、pseudonym、toponym 都用它。切分时保留 nym 的 y，不要写成 nim。",
+      "concepts": [
+        "c-morpheme",
+        "c-word-sum",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w24d1-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）已知拉丁 caro、carn- 意为“肉”，vorare 意为“吞食”。下面哪个词指“以肉为食的动物”？",
+      "choices": [
+        "carnivore",
+        "herbivore",
+        "omnivore",
+        "voracious"
+      ],
+      "answer": 0,
+      "explain": "carn-（肉）+ -vore（食者）→ carnivore 食肉动物。herbivore 是草食（herba“草”），omnivore 是杂食（omnis“全部”），voracious 是形容词“贪吃的”，虽同源但不指动物类别。三个词共享 -vore，说明这个词素已经高度能产。",
+      "concepts": [
+        "c-root",
+        "c-inference",
+        "c-morpheme"
+      ],
+      "hint": "先定 -vore 是“食者”，再看前面的词根提供什么食物。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w24d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 locavore 在句中的含义",
+      "passage": "The restaurant's menu changes every week, and the chef is proud of it: every vegetable, every egg and every cut of meat comes from within a hundred miles. Diners who call themselves locavores have made the place famous, and the county's small farms now sell directly to its kitchen.",
+      "word": "locavore",
+      "choices": [
+        "只吃本地出产食物的人",
+        "只吃素食的人",
+        "追求低价食材的餐馆老板",
+        "反对农业工业化的人"
+      ],
+      "answer": 0,
+      "strategy": "① 拆词：local（本地）+ -vore（食者）；② 句中证据：every vegetable, every egg, every cut of meat comes from within a hundred miles，把“本地”与“吃”同时说清；③ 排除素食：句中有 meat 与 egg；④ 排除老板：locavores 是 Diners，不是厨师。",
+      "explain": "locavore 是“本地食物主义者”。它的构词方式与 carnivore、herbivore 完全一致，只是第一个成分换成了 local。这个词 21 世纪初才被造出，属于环保运动带来的新词，正好印证新词来源分散于各社会阶层。",
+      "concepts": [
+        "c-inference",
+        "c-morpheme",
+        "c-acronym"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 1 节：变体、语域与新词的社会来源"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "latte、locavore、captcha、nimby、acronym 的语源与首见年代"
+    }
+  ]
+}

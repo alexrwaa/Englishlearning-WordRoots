@@ -1,0 +1,288 @@
+{
+  "id": "w26d3",
+  "week": 26,
+  "day": 3,
+  "title": "名家、政府与“逻辑”的三道禁令",
+  "tagline": "名字很响，规则很硬，用法照旧",
+  "objectives": [
+    "能举出 Swift、19 世纪评论者、Fowler 与法国语言立法各自反对什么、结果如何",
+    "能用 rep 与 belittle 说明被攻击的往往是“新”，不是“错”",
+    "能说明 It is I 的格规则来自拉丁，因而“不合逻辑”不构成反对变化的理由"
+  ],
+  "prereqs": [
+    "w26d2",
+    "c-clipping",
+    "c-prefix",
+    "c-register"
+  ],
+  "concepts": [
+    "c-clipping",
+    "c-prefix",
+    "c-etymology",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s8-2",
+    "kp-s1c8s8-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "名字很响，效果很差",
+      "body": "三个例子。Swift 在 1712 年提议规范英语，反对 rep、mob、banter 这类新词；19 世纪的评论者斥 belittle 为粗俗的美国货；Fowler 在 1926 年的用法词典里把美式英语当作应提防的外来影响。法国更直接：1994 年的 Toubon 法对官方场合使用外来词设罚则。\n\n结局相同：被禁的形式照旧通行。rep 今天还在，belittle 进了所有词典，美式拼写没有退回英式。\n\n原因不神秘：这些规训管得住公文，管不住市场、酒吧与聊天窗口。而语言主要在这些地方变化。",
+      "terms": [
+        {
+          "term": "prescriptivism",
+          "zh": "规定主义",
+          "en": "prescriptivism",
+          "note": "以权威规定“应该怎么说”的立场"
+        },
+        {
+          "term": "Americanism",
+          "zh": "美式说法",
+          "en": "Americanism",
+          "note": "源自美国的词或用法，常被英国评论者视为外来影响"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "rep 与 belittle",
+      "body": "两个被名家攻击的词，一个来自截短，一个来自本土词素加前缀。它们的构词方式都完全合乎英语规则——被反对的是“新”，不是“错”。\n\nrep 是 reputation 的截短（clipping），17 世纪后期出现在口语里，属于剧场与咖啡馆的语言；belittle 是 be- + little，18 世纪后期在美国造出，意思是“使显得小”。两者都活得比批评者久。\n\n这条规律值得记住：攻击新词的文章会过期，新词不会。",
+      "steps": [
+        {
+          "period": "拉丁语",
+          "form": "reputare",
+          "note": "“反复思量”，衍生 reputatio“名声”"
+        },
+        {
+          "period": "17 世纪英语",
+          "form": "reputation",
+          "note": "经法语借入，指“名声”"
+        },
+        {
+          "period": "17 世纪后期",
+          "form": "rep",
+          "note": "口语截短，见于剧场与咖啡馆"
+        },
+        {
+          "period": "18 世纪后期美国",
+          "form": "belittle",
+          "note": "be- + little，“使变小”；19 世纪被英国评论者斥为粗俗"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "以逻辑为名的论证",
+      "body": "规范主义者常借“逻辑”立规，但论证往往只证明了一件事：这条规则来自拉丁，不来自普遍理性。\n\n最典型的例子是 **It is I**。规定主义者说，系动词后要用主格，所以只能说 It is I，不能说 It's me。这条规则确实合乎拉丁的格系统；可法语同样出自拉丁，却堂堂正正说 **C'est moi**（用宾格重读代词）。如果格规则是普遍逻辑，法语不会走另一条路。\n\n它只是拉丁的规则，被 18 世纪的英语语法学家搬了过来。英语口语一直说 It's me，因为那更省力，也更清楚。",
+      "terms": [
+        {
+          "term": "case",
+          "zh": "格",
+          "en": "case",
+          "note": "代词与名词的句法身份标记，如主格、宾格"
+        },
+        {
+          "term": "logic",
+          "zh": "逻辑",
+          "en": "logic",
+          "note": "形式一致性；常被误当作评判用法的依据"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四条“逻辑规则”与它们的反例",
+      "body": "四条规则的共同点是：论证形式很整齐，历史依据却很薄。表格最后一列不是“应该废除规则”，而是提醒——正式写作可以遵守风格指南，但别把指南当成语言的物理定律。",
+      "head": [
+        "规则",
+        "论证依据",
+        "反例或事实"
+      ],
+      "rows": [
+        [
+          "不许拆分不定式",
+          "拉丁不定式是一个词，不可分",
+          "英语不定式是 to + 动词，本来就是两个词"
+        ],
+        [
+          "hopefully 不许作句副词",
+          "副词应修饰动词",
+          "fortunately、frankly 早已这样用"
+        ],
+        [
+          "只能说 It is I",
+          "系动词后接主格",
+          "法语说 C'est moi；英语口语说 It's me"
+        ],
+        [
+          "双重否定等于肯定",
+          "数学式否定相乘",
+          "许多语言与方言用双重否定加强否定"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "规定与逻辑，两种不同的权威",
+      "body": "规定靠权威，逻辑靠形式一致性。两者都能提出有用的约束，但都不能充当用法的最终裁判。真正的裁判是使用：谁在什么场合说、听者是否理解、代价多大。",
+      "a": "规定（prescription）",
+      "b": "逻辑（logic）",
+      "rows": [
+        {
+          "label": "依据",
+          "a": "权威、传统、“好作者”的用法",
+          "b": "形式一致性、可推导"
+        },
+        {
+          "label": "能回答",
+          "a": "正式场合该怎么写",
+          "b": "某条规则内部是否自洽"
+        },
+        {
+          "label": "不能回答",
+          "a": "为什么另一种说法也通行",
+          "b": "为什么语言不按逻辑走"
+        },
+        {
+          "label": "例证",
+          "a": "风格手册、用法词典",
+          "b": "It is I 的格论证"
+        },
+        {
+          "label": "风险",
+          "a": "把某地标准当成唯一",
+          "b": "把拉丁语法当成普遍语法"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w26d3-p1",
+      "kind": "mcq",
+      "prompt": "Swift 反对 rep、Fowler 反对美语、法国立法罚款，三者的共同点是：",
+      "choices": [
+        "都以权威压制正在通行的用法，且都未成功",
+        "都成功阻止了新词进入英语",
+        "都主张废除标准语",
+        "都支持借词"
+      ],
+      "answer": 0,
+      "explain": "三例都是“有权威、有渠道、有决心”的规训，结果都被日常使用绕过。rep、belittle 存活，美式拼写没有回退。这不是说规训毫无作用（它影响正式文本），而是说它挡不住语言变化。",
+      "concepts": [
+        "c-register",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w26d3-p2",
+      "kind": "mcq",
+      "prompt": "“It is I”与法语“C'est moi”的对比说明：",
+      "choices": [
+        "格规则是拉丁的，不是普遍逻辑",
+        "法语比英语更不严谨",
+        "英语的格系统已经消失",
+        "所有语言都必须用主格表语"
+      ],
+      "answer": 0,
+      "explain": "两种语言都从拉丁来，却走了不同路：英语规定主义借用拉丁格规则，法语用宾格重读代词。如果这条规则来自普遍逻辑，法语不会例外。它只是某一种语言的语法习惯被当成了通则。",
+      "concepts": [
+        "c-etymology",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w26d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文语法术语",
+      "sentence": "The rule that English must say “It is I” rests on Latin ___ rules.",
+      "answer": "case",
+      "accept": [
+        "case"
+      ],
+      "explain": "case（格）指主格、宾格这类句法身份标记。18 世纪语法学家把拉丁的格规则套到英语上，才有“系动词后必须用主格”的说法。英语口语用 It's me，是因为英语的格系统早已简化。",
+      "concepts": [
+        "c-etymology",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w26d3-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 belittle 的切分",
+      "parts": [
+        "be",
+        "little"
+      ],
+      "answer": "belittle",
+      "explain": "be-（使……）+ little（小）→ belittle“使显得小、贬低”。be- 是英语本土能产前缀，同类的还有 becalm、befriend、bedazzle。这个完全合乎规则的造词，当年却被英国评论者斥为粗俗，可见被反对的是“美国新词”这个身份。",
+      "concepts": [
+        "c-prefix",
+        "c-word-sum",
+        "c-compound"
+      ]
+    },
+    {
+      "id": "w26d3-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）一份风格指南禁止拆分不定式。作者最合理的处理是：",
+      "choices": [
+        "按该指南改写，同时知道这条规则没有语言学必然性",
+        "认为不拆分才合乎逻辑，拆分就是错误",
+        "认为拆分是语法错误，应全面禁止",
+        "拒绝遵守任何风格指南"
+      ],
+      "answer": 0,
+      "explain": "风格指南是特定刊物的约定，遵守它能减少编辑摩擦；但这条规则源自拉丁类比，不是英语的结构要求，所以不必把它推广成普遍法则。两件事可以同时成立：照做，但不误认为它天经地义。",
+      "concepts": [
+        "c-register",
+        "c-inference"
+      ],
+      "hint": "区分“这份刊物要求”与“语言本身的规律”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w26d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，判断 belittle 的构词与遭遇",
+      "passage": "When the American verb belittle reached London, reviewers called it a coarse coinage and predicted it would not last. Two centuries later it sits in every dictionary, unmarked, while the reviewers' own prose is read only by historians.",
+      "word": "belittle",
+      "choices": [
+        "由 be- + little 构成的动词，曾被斥为粗俗新词，现为标准用法",
+        "一个拉丁借词，曾被英国人抵制",
+        "一个已废弃的词，只在历史文本中出现",
+        "一个法律术语，专用于法庭"
+      ],
+      "answer": 0,
+      "strategy": "① 构词：be- + little 可从词形直接判断，且符合英语前缀规则；② 遭遇：called it a coarse coinage... predicted it would not last；③ 结局：sits in every dictionary, unmarked；④ 排除“废弃”：词典无标记说明是标准词。",
+      "explain": "belittle 是本土词素的规则造词，被反对的理由是“美国新词”，不是形态问题。它的结局说明：对用法的道德评判会过期，构词规则不会。",
+      "concepts": [
+        "c-inference",
+        "c-prefix",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 8 节：名家与政府的语言规训；逻辑论证的局限"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "rep、belittle 的首见年代与词典标注"
+    }
+  ]
+}

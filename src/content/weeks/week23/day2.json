@@ -1,0 +1,303 @@
+{
+  "id": "w23d2",
+  "week": 23,
+  "day": 2,
+  "title": "一口气只能往外走：变体为什么长在接缝上",
+  "tagline": "所有英语音共用同一股肺气流，发音只能连续过渡——于是左边的前缀被右边的音改造，右边的后缀安然无恙",
+  "objectives": [
+    "能说明英语全部音都由肺部外流气流产生，并由此解释发音的连续性",
+    "能区分逆行同化与顺行同化，各自举出拉丁前缀与英语屈折后缀的例子",
+    "能解释为什么前缀变体多、后缀变体少"
+  ],
+  "prereqs": [
+    "w23d1",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-prefix",
+    "c-suffix"
+  ],
+  "knowledgePoints": [
+    "kp-s1c5s2-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一股气流，一条通道",
+      "body": "肺 → 气管 → 喉（声带）→ 咽 → 口腔或鼻腔。英语所有音都在这股**外流**气流上做出来：没有吸气音，也没有靠口腔自己储气再放开的音（非洲语言的搭嘴音就不在这套系统里）。\n\n这不是冷知识，它决定了三件事。\n\n一是**连续**：气流不会为了下一个音先停下，所以发音器官必须提前摆好下一个位置。\n\n二是**顺序**：气先经过前面的音，再到后面的音，但准备动作是提前做的——于是后面的音会改造前面的音。\n\n三是**出口**：软腭一放下，气流改走鼻腔，同一个口腔阻塞就变成鼻音。\n\n把这三条合起来，就得到构词上最有用的一句：**变体长在接缝上**。"
+    },
+    {
+      "kind": "compare",
+      "title": "逆行同化 vs 顺行同化",
+      "body": "两个方向都由“器官提前摆位”这一个事实推出，但受影响的一侧相反。判断时只问一句：是右边的音改造了左边，还是左边改造了右边。最下面两行是这张表的用途：看到一个奇怪的前缀形状，先还原，再按表里对应的方向去解释；看到一个奇怪的后缀读音，直接按前一个音推，不必查词典。",
+      "a": "逆行同化（后面的音改造前面的音）",
+      "b": "顺行同化（前面的音改造后面的音）",
+      "rows": [
+        {
+          "label": "谁影响谁",
+          "a": "右边的音 → 左边的音",
+          "b": "左边的音 → 右边的音"
+        },
+        {
+          "label": "为什么",
+          "a": "器官已经为后一个音摆好位，前一个音还没发完",
+          "b": "器官还没从前一个音复位，后一个音已经开始"
+        },
+        {
+          "label": "典型位置",
+          "a": "拉丁前缀的接缝：in-、ad-、con-、sub-、ex-",
+          "b": "英语屈折后缀：-s、-ed"
+        },
+        {
+          "label": "例子",
+          "a": "in- + possibilis → impossibilis；sub- + portare → supportare",
+          "b": "cats [s] / dogs [z]；walked [t] / played [d]"
+        },
+        {
+          "label": "结果",
+          "a": "一个前缀有两到十个形状",
+          "b": "一个后缀有两到三个形状"
+        },
+        {
+          "label": "构词提示",
+          "a": "先把前缀还原成词典形，再用同化解释拼写",
+          "b": "-s、-ed 不必单独记，按前一个音推"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "为什么后缀不会变成十个形状",
+      "body": "右侧最后一列是这张表的重点：形状数从十掉到一，不是因为后缀“更规则”，而是因为它右边没有音。同化需要邻居，词尾没有邻居。顺带说明最后一行：-able 与 -ible 看起来像两个形状，其实它们的分工来自拉丁动词的变位类，属于词干自带的信息，与同化无关——把两类机制混在一起，是最常见的误判。",
+      "head": [
+        "词素",
+        "形状数",
+        "形状",
+        "原因"
+      ],
+      "rows": [
+        [
+          "in- 否定",
+          "5",
+          "in-, im-, il-, ir-, ig-",
+          "左边贴词干，每次都在接缝上"
+        ],
+        [
+          "ad- 朝向",
+          "10",
+          "ad-, ac-, af-, ag-, al-, an-, ap-, ar-, as-, at-",
+          "同上，且后接音的种类最多"
+        ],
+        [
+          "con- 共同",
+          "5",
+          "con-, com-, col-, cor-, co-",
+          "除元音前脱落 n 的 co- 外，其余都在接缝上"
+        ],
+        [
+          "-tion 名词",
+          "1",
+          "-tion",
+          "后面就是词尾，没有邻音可以抄特征"
+        ],
+        [
+          "-ment 名词",
+          "1",
+          "-ment",
+          "同上"
+        ],
+        [
+          "-able 形容词",
+          "1（拼写）",
+          "-able / -ible 的差别不来自同化",
+          "元音来自拉丁动词的变位类，是词干自带的"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "一条词里同时看到“左边乱、右边稳”",
+      "body": "拿 support 拆开看：sub-（在下）+ port（运）→ support。b 后接 p，两个都是双唇塞音，拉丁干脆把 b 改成 p，写成 sup-。同一族里：suppose、suppress、suffice（f 前变 suf-）、suggest（g 前变 sug-）、summon（m 前变 sum-）。\n\n而右边：import、export、transport、report 里的 -port 一动不动。\n\n这就是气流方向留下的签名：**前缀站在接缝左边，天天被右边的音改造；词根与后缀站在右边，改造别人而不被改造**。\n\n反过来也有“右边被左边改造”的例子：cats/dogs、walked/played、wishes/judges。这些是英语本土的屈折后缀，它们是**后加**的——加的时候前一个音已经在那儿了，所以只能自己迁就。两类同化的分工，正好对应“前缀接在后面”与“后缀接在前面”这个位置差别。"
+    },
+    {
+      "kind": "sum",
+      "title": "四个算式：左边被改，右边不动",
+      "body": "前两条改的是前缀的末音，第三条改的是前缀的鼻音部位；第四条一点也不改——因为 trans- 不以鼻音结尾，没有可同化的部位。能变才变，是这四条算式共同的判据。",
+      "sums": [
+        {
+          "parts": [
+            "sup",
+            "port"
+          ],
+          "result": "support",
+          "glossZh": "支撑；支持",
+          "note": "sub- 的 b 在 p 前被同化成 p"
+        },
+        {
+          "parts": [
+            "suf",
+            "fic",
+            "ient"
+          ],
+          "result": "sufficient",
+          "glossZh": "足够的",
+          "note": "sub- 在 f 前变 suf-"
+        },
+        {
+          "parts": [
+            "im",
+            "port"
+          ],
+          "result": "import",
+          "glossZh": "进口",
+          "note": "in- 在 p 前变 im-：部位同化"
+        },
+        {
+          "parts": [
+            "trans",
+            "port"
+          ],
+          "result": "transport",
+          "glossZh": "运输",
+          "note": "trans- 末音是 s，不必迁就 p"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w23d2-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一项属于逆行同化（后面的音改造前面的音）？",
+      "choices": [
+        "in- + legalis → illegalis",
+        "cat + s → cats，读 [s]",
+        "walk + ed → walked，读 [t]",
+        "hope + ing → hoping"
+      ],
+      "answer": 0,
+      "explain": "illegal 是右边的 l 改造了左边的 n。cats 与 walked 是左边的清音改造了右边的后缀（顺行）。hoping 只是去掉词尾的 e，属于拼写调整，不是同化。判断方向时只看“哪一侧的形状变了”。",
+      "concepts": [
+        "c-allomorph",
+        "c-prefix"
+      ]
+    },
+    {
+      "id": "w23d2-p2",
+      "kind": "mcq",
+      "prompt": "为什么 -tion 在英语里只有一个形状，而 in- 有五个？",
+      "choices": [
+        "-tion 位于词尾，右边没有音可以同化它",
+        "-tion 是拉丁后缀，拉丁语不发生音变",
+        "in- 的意义更抽象，所以形式更不稳定",
+        "-tion 出现得比 in- 晚"
+      ],
+      "answer": 0,
+      "explain": "同化需要一个邻音。后缀后面就是词尾或屈折词尾，没有可抄的特征；前缀每次紧贴词干，所以每次都要迁就。这条判据可以推广：凡是位于词尾的词素，形状都稳定；凡是位于接缝、且以鼻音或塞音结尾的词素，形状都会分家。",
+      "concepts": [
+        "c-allomorph",
+        "c-suffix"
+      ]
+    },
+    {
+      "id": "w23d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词（注意拼写）",
+      "sentence": "The refugees ___ severe hardship during the winter.",
+      "answer": "suffered",
+      "accept": [
+        "suffered",
+        "suffer"
+      ],
+      "explain": "sub- + ferre → sufferre：b 在 f 前被同化成 f，写成 suf-。-fer 表示“带、承受”，同族有 transfer、refer、offer（ob- 在 f 前变 of-）。若写成 subfered 就保留了未同化的形式，英语里不存在。",
+      "concepts": [
+        "suf",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w23d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 ferre 意为“带、运”，且 ex- 在 f 前写作 ef-。effusive 最可能是：",
+      "choices": [
+        "感情外溢的、滔滔不绝的",
+        "用力搬运的",
+        "难以忍受的",
+        "向外逃跑的"
+      ],
+      "answer": 0,
+      "explain": "ef-（ex- 在 f 前）+ fus（倒）+ -ive →“往外倒的”，形容情感、称赞止不住地涌出。注意这里叠了两条规则：前缀末音 s 在 f 前变 f（逆行同化），词根取 fus-（倒，同 fundere）。推理时先还原前缀，再用词根义去试。",
+      "concepts": [
+        "c-inference",
+        "ef",
+        "fus"
+      ],
+      "hint": "先把 ef- 还原成 ex-。"
+    },
+    {
+      "id": "w23d2-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“传出的（神经）”的切分",
+      "parts": [
+        "ef",
+        "fer",
+        "ent"
+      ],
+      "answer": "efferent",
+      "explain": "ef-（ex- 在 f 前）+ fer（带）+ -ent（形容词后缀）→“把冲动带出去的”，生理学里指传出神经。与 afferent（af- = ad-，带入）成对：两个词只差一个前缀的形状，方向却相反。同化在这里不只是拼写现象，它把“方向”编码进了前缀的形状。",
+      "concepts": [
+        "c-word-sum",
+        "ef",
+        "fer"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w23d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 effervescent 的含义",
+      "passage": "She has an effervescent manner: ideas bubble out of her in conversation, and her laughter is hard to stop once it starts.",
+      "word": "effervescent",
+      "choices": [
+        "活泼外溢的、兴致勃勃的",
+        "苦涩压抑的",
+        "沉默寡言的",
+        "刻意克制的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：ef-（ex- 在 f 前）+ ferv（沸）+ -escent（开始……的）→“开始冒泡的”；② 冒号后 bubble out、laughter 是比喻性证据，把“冒泡”映射到性格；③ 排除：三个干扰项都与“往外涌”相反；④ 校验：ef- 的形状由后面的 f 决定，切分与拼写自洽。",
+      "explain": "effervescent 字面是“开始起泡的”（汽水就是 effervescent），用来形容人则是“活泼、兴致高涨”。词根 ferv- 表“沸、热”，同族有 fervent（热切的）、fervor（热情）。这一族全部围绕“热与冒泡”，认出词根后，形容词的褒义色彩就不用背了。",
+      "concepts": [
+        "c-inference",
+        "ef",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 5 章第 2 节：气流与发音的连续性"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "同化的方向：逆行与顺行"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "sub-、ex-、in- 的同化形式与拉丁原形"
+    }
+  ]
+}

@@ -111,8 +111,10 @@ function scan(base) {
     const dayFiles = readdirSync(join(weeksDir, dir))
       .filter((f) => /^day\d\.json$/.test(f))
       .sort((a, b) => Number(a.slice(3, 4)) - Number(b.slice(3, 4)));
-    if (dayFiles.length < 5 || dayFiles.length > 7) {
-      fail(`${dir}: ${dayFiles.length} lessons, expected 5-7`);
+    // A unit may split a chapter over two uneven weeks (5+4), so 4 is allowed.
+    // Contiguity and the index cross-check still catch a truncated copy.
+    if (dayFiles.length < 4 || dayFiles.length > 7) {
+      fail(`${dir}: ${dayFiles.length} lessons, expected 4-7`);
     }
     const expectedDays = dayFiles.map((_, i) => i + 1);
     const actualDays = dayFiles.map((f) => Number(f.slice(3, 4)));

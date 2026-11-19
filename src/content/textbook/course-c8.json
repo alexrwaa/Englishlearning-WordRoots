@@ -1,0 +1,233 @@
+{
+  "$comment": "C8（Usage and Variation）教学单元索引：18 课覆盖 34 个知识点。",
+  "id": "course-c8",
+  "chapterId": "S1-C8",
+  "chapter": 8,
+  "title": "Usage and Variation",
+  "titleZh": "用法与变异：变体、标准与正确性",
+  "level": "B2–C1",
+  "weeks": [
+    24,
+    25,
+    26
+  ],
+  "lessonCount": 18,
+  "knowledgePointCount": 34,
+  "lessons": {
+    "w24d1": [
+      "kp-s1c8s1-1",
+      "kp-s1c8s1-3"
+    ],
+    "w24d2": [
+      "kp-s1c8s1-4"
+    ],
+    "w24d3": [
+      "kp-s1c8s2-1",
+      "kp-s1c8s2-2"
+    ],
+    "w24d4": [
+      "kp-s1c8s2-3"
+    ],
+    "w24d5": [
+      "kp-s1c8s2-4"
+    ],
+    "w24d6": [
+      "kp-s1c8s2-5"
+    ],
+    "w24d7": [
+      "kp-s1c8s3-1",
+      "kp-s1c8s3-2",
+      "kp-s1c8s3-3",
+      "kp-s1c8s3-4"
+    ],
+    "w25d1": [
+      "kp-s1c8s4-1",
+      "kp-s1c8s4-2"
+    ],
+    "w25d2": [
+      "kp-s1c8s4-3"
+    ],
+    "w25d3": [
+      "kp-s1c8s4-4",
+      "kp-s1c8s4-5"
+    ],
+    "w25d4": [
+      "kp-s1c8s5-1",
+      "kp-s1c8s5-2"
+    ],
+    "w25d5": [
+      "kp-s1c8s5-3",
+      "kp-s1c8s6-1",
+      "kp-s1c8s6-2"
+    ],
+    "w26d1": [
+      "kp-s1c8s7-1",
+      "kp-s1c8s7-2"
+    ],
+    "w26d2": [
+      "kp-s1c8s8-1"
+    ],
+    "w26d3": [
+      "kp-s1c8s8-2",
+      "kp-s1c8s8-4"
+    ],
+    "w26d4": [
+      "kp-s1c8s9-1",
+      "kp-s1c8s9-2"
+    ],
+    "w26d5": [
+      "kp-s1c8s9-3",
+      "kp-s1c8s10-1"
+    ],
+    "w26d6": [
+      "kp-s1c8s10-2",
+      "kp-s1c8s10-3",
+      "kp-s1c8s10-4"
+    ]
+  },
+  "knowledgePoints": {
+    "kp-s1c8s1-1": "w24d1",
+    "kp-s1c8s1-3": "w24d1",
+    "kp-s1c8s1-4": "w24d2",
+    "kp-s1c8s2-1": "w24d3",
+    "kp-s1c8s2-2": "w24d3",
+    "kp-s1c8s2-3": "w24d4",
+    "kp-s1c8s2-4": "w24d5",
+    "kp-s1c8s2-5": "w24d6",
+    "kp-s1c8s3-1": "w24d7",
+    "kp-s1c8s3-2": "w24d7",
+    "kp-s1c8s3-3": "w24d7",
+    "kp-s1c8s3-4": "w24d7",
+    "kp-s1c8s4-1": "w25d1",
+    "kp-s1c8s4-2": "w25d1",
+    "kp-s1c8s4-3": "w25d2",
+    "kp-s1c8s4-4": "w25d3",
+    "kp-s1c8s4-5": "w25d3",
+    "kp-s1c8s5-1": "w25d4",
+    "kp-s1c8s5-2": "w25d4",
+    "kp-s1c8s5-3": "w25d5",
+    "kp-s1c8s6-1": "w25d5",
+    "kp-s1c8s6-2": "w25d5",
+    "kp-s1c8s7-1": "w26d1",
+    "kp-s1c8s7-2": "w26d1",
+    "kp-s1c8s8-1": "w26d2",
+    "kp-s1c8s8-2": "w26d3",
+    "kp-s1c8s8-4": "w26d3",
+    "kp-s1c8s9-1": "w26d4",
+    "kp-s1c8s9-2": "w26d4",
+    "kp-s1c8s9-3": "w26d5",
+    "kp-s1c8s10-1": "w26d5",
+    "kp-s1c8s10-2": "w26d6",
+    "kp-s1c8s10-3": "w26d6",
+    "kp-s1c8s10-4": "w26d6"
+  },
+  "referenceForms": [
+    "acronym",
+    "aisle",
+    "analyse",
+    "analyze",
+    "apartment",
+    "arthritis",
+    "beef",
+    "belittle",
+    "bronchitis",
+    "bureaucratese",
+    "captcha",
+    "celebrate",
+    "center",
+    "centre",
+    "chef",
+    "christmas",
+    "church",
+    "color",
+    "colour",
+    "cow",
+    "defense",
+    "dermatitis",
+    "dermatology",
+    "diglossia",
+    "dike",
+    "ditch",
+    "egg",
+    "employer",
+    "euphemism",
+    "facial",
+    "farewell",
+    "feather",
+    "flat",
+    "gaol",
+    "gnome",
+    "goodbye",
+    "gotten",
+    "hepatitis",
+    "honor",
+    "honour",
+    "humint",
+    "hyperthyroidism",
+    "idea",
+    "irregardless",
+    "jail",
+    "justice",
+    "karaoke",
+    "kirk",
+    "knife",
+    "lady",
+    "latte",
+    "law",
+    "lawful",
+    "legislate",
+    "lessee",
+    "lessor",
+    "ligament",
+    "locavore",
+    "lord",
+    "lorry",
+    "machine",
+    "motion",
+    "mutton",
+    "nature",
+    "nimby",
+    "obligate",
+    "obligation",
+    "oblige",
+    "offense",
+    "opinion",
+    "otitis",
+    "otolaryngology",
+    "passion",
+    "payee",
+    "payer",
+    "petrol",
+    "piano",
+    "pork",
+    "prepone",
+    "pronunciation",
+    "prophet",
+    "psalm",
+    "pure",
+    "reason",
+    "regardless",
+    "rep",
+    "scots",
+    "sheep",
+    "shirt",
+    "shoe",
+    "skin",
+    "skirt",
+    "sky",
+    "soup",
+    "sugar",
+    "sushi",
+    "swine",
+    "system",
+    "theater",
+    "thou",
+    "thought",
+    "tongue",
+    "trough",
+    "truck",
+    "women",
+    "youse"
+  ],
+  "referenceFormsNote": "本单元讲解与练习引用、但 words.json 尚无完整词条的英语形式；已去重小写。不含希腊／拉丁／古英语／古诺斯语中间形式（akros、onyma、hlafweard、skyrta、debitum、dubitare、purus、ligare 等）与仅出现在阅读段落里的普通词。"
+}

@@ -1,0 +1,300 @@
+{
+  "id": "w24d5",
+  "week": 24,
+  "day": 5,
+  "title": "并存的变体可以分工：一对双式词",
+  "tagline": "同一个拉丁词，走法语和走拉丁，落地后各管一块",
+  "objectives": [
+    "能定义 doublet（同源双式词），并说明它与同源词、词族的区别",
+    "能解释 oblige 与 obligate 的语域分工，以及它们共享 obligation 的原因",
+    "能用拉丁 ligare“捆绑”串起 ligament、ligature、ally、liable 一族"
+  ],
+  "prereqs": [
+    "w24d4",
+    "c-borrowing",
+    "c-cognate",
+    "c-word-family"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-cognate",
+    "c-word-family",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s2-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两条路进英语",
+      "body": "同一个拉丁词可以两次进入英语：一次经诺曼法语，一次在文艺复兴时直接从拉丁抄回来。两条路的音形不同、语域不同，于是形成**同源双式词**（doublet）。\n\n- legal（直接借拉丁 legalis）与 loyal（经古法语 loial）：前者“法律的”，后者“忠诚的”。\n- secure（拉丁 securus）与 sure（经古法语 seur）：前者“安全的、牢固的”，后者“确信的”。\n- fragile 与 frail、hospital 与 hostel、major 与 mayor 都是同一机制。\n\n双式词不是“重复借词”的失误，而是两次借入留下的两个位置，后来各自固定了义项与语域。",
+      "terms": [
+        {
+          "term": "doublet",
+          "zh": "同源双式词",
+          "en": "doublet",
+          "note": "同一语言内，同一词源经不同路径借入的两个词"
+        },
+        {
+          "term": "semantic divergence",
+          "zh": "语义分化",
+          "en": "semantic divergence",
+          "note": "同源形式在后来的使用中各占一部分意义"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "五对双式词",
+      "body": "读这张表的方法：先看左列确认同源，再看中间两列的语音差别（法语路线通常磨得更狠），最后看右列的分工。分工一旦固定，两个词就不再互相替代，也不再是“一个对一个错”。",
+      "head": [
+        "拉丁来源",
+        "法语路线",
+        "拉丁路线",
+        "今天的分工"
+      ],
+      "rows": [
+        [
+          "legalis",
+          "loyal 忠诚的",
+          "legal 法律的",
+          "情感／制度"
+        ],
+        [
+          "securus",
+          "sure 确信的",
+          "secure 安全的",
+          "主观判断／客观状态"
+        ],
+        [
+          "fragilis",
+          "frail 虚弱的",
+          "fragile 易碎的",
+          "人的体质／物的属性"
+        ],
+        [
+          "hospitalis",
+          "hostel 旅舍",
+          "hospital 医院",
+          "住宿／医疗"
+        ],
+        [
+          "maior",
+          "mayor 市长",
+          "major 主要的",
+          "职位／程度"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "oblige 与 obligate 怎么分工",
+      "body": "oblige 经古法语 obliger 进来，义项偏“施恩、使感激”（much obliged）和“使不得不”（circumstances obliged me to leave）。obligate 是文艺复兴后直接借拉丁，保留“法律或道德上的义务”（be obligated to report）。\n\n两者共享名词 **obligation**，因为名词也是从拉丁 obligatio 直接来的。这就是双式词的典型格局：两个动词分工，一个名词居中，三者的关系只能靠词源看清，光看今天的词义看不出它们同源。\n\n选词看场合：合同里用 obligate，道谢时说 much obliged 才自然。没有谁更“正宗”，只有谁更贴合当下的语域与对象。",
+      "terms": [
+        {
+          "term": "oblige",
+          "zh": "使不得不；施恩",
+          "en": "oblige",
+          "note": "经古法语，语域偏日常与人情"
+        },
+        {
+          "term": "obligate",
+          "zh": "使负有义务",
+          "en": "obligate",
+          "note": "直借拉丁，语域偏法律与正式"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "ligare：把两样东西绑在一起",
+      "body": "一个“绑”字，撑起一整族词。这条链值得记住，因为 -lig- 在现代英语里几乎不单独出现，却反复出现在法律、医学、解剖术语里：你在词典里查不到 lig 这个词，但它决定了 ligament 与 obligation 的核心意义。\n\n记词族时要顺着“意义”而不是“拼写”走：obligation 的“义务”就是“被绑住”，ligature 的“结扎”就是“绑起来”，ally 的“结盟”就是“绑到一起”。同一个动作，三种场景。",
+      "steps": [
+        {
+          "period": "拉丁语",
+          "form": "ligare",
+          "note": "捆绑；ligamentum“绷带、韧带”"
+        },
+        {
+          "period": "拉丁语",
+          "form": "obligare",
+          "note": "ob-“朝向” + ligare → 绑到……上，因而“使承担义务”"
+        },
+        {
+          "period": "古法语",
+          "form": "obliger",
+          "note": "义项转向“施恩、帮忙”，进入英语为 oblige"
+        },
+        {
+          "period": "15–16 世纪拉丁直借",
+          "form": "obligate",
+          "note": "保留法律义务义，与 oblige 分工"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "双式词、同源词、词族",
+      "body": "三个概念常被混用。判据只有一条：看“同”发生在哪一层——同一语言内两次借入是双式词，跨语言同祖先是同源词，同一词基加不同词缀是词族。分清之后，你才知道该去查借入史、查音变对应，还是查同族词表；查错方向，结论一定错。",
+      "a": "双式词（doublet）",
+      "b": "同源词（cognate）／词族（word family）",
+      "rows": [
+        {
+          "label": "定义",
+          "a": "同一语言内，同一词源经不同路径借入的两个词",
+          "b": "cognate：跨语言同祖先；word family：同词基加不同词缀"
+        },
+        {
+          "label": "判据",
+          "a": "词形相近、义项分工、来源路径不同",
+          "b": "cognate 看系统音对应；word family 看词基是否相同"
+        },
+        {
+          "label": "例子",
+          "a": "legal/loyal、secure/sure、major/mayor",
+          "b": "father/Vater（cognate）；legal/illegal/legality（word family）"
+        },
+        {
+          "label": "误判",
+          "a": "以为是两个无关词，或以为是同义词可互换",
+          "b": "把同源当借词，或把词族当双式词"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w24d5-p1",
+      "kind": "mcq",
+      "prompt": "doublet（同源双式词）的定义是：",
+      "choices": [
+        "同一语言里，同一词源经不同路径借入的两个词",
+        "拼写相同、意义不同的两个词",
+        "两个不同语言中同源的词",
+        "一个词的两个屈折形式"
+      ],
+      "answer": 0,
+      "explain": "doublet 的关键是“同一语言内 + 两次借入 + 路径不同”。拼写相同意义不同的是 homograph；跨语言同源是 cognate；屈折形式是同一个词的语法变体，都不叫 doublet。",
+      "concepts": [
+        "c-cognate",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w24d5-p2",
+      "kind": "mcq",
+      "prompt": "合同条款：The buyer is ___ to pay within thirty days. 最合适的是：",
+      "choices": [
+        "obligated",
+        "obliged",
+        "obligation",
+        "obliging"
+      ],
+      "answer": 0,
+      "explain": "合同规定法律义务，用直借拉丁的 obligate（be obligated to do）。obliged 偏“使不得不／感激”，语域更人情；obligation 是名词，不能填在 is ___ to pay 的位置；obliging 是形容词“乐于助人的”。这正是双式词语域分工的实用价值。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w24d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文动词",
+      "sentence": "The Latin root lig- means “to ___”.",
+      "answer": "bind",
+      "accept": [
+        "bind",
+        "tie"
+      ],
+      "explain": "ligare 是“捆绑”。同根词包括 ligament（韧带，绑住骨头）、ligature（结扎线、连字）、obligation（被绑住的义务）、ally（< alligare“绑到一起”）。记一个“绑”字，比逐个背五个词省力。",
+      "concepts": [
+        "c-root",
+        "c-word-family"
+      ]
+    },
+    {
+      "id": "w24d5-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出 ligament 的切分",
+      "parts": [
+        "lig",
+        "ament"
+      ],
+      "answer": "ligament",
+      "explain": "lig（拉丁 ligare“捆绑”）+ -ament（名词后缀，表工具或结果）→ ligament“韧带”，字面是“用来绑的东西”。同一后缀还见于 ornament、document。这里 -ament 是派生后缀，与屈折词尾要分清。",
+      "concepts": [
+        "c-root",
+        "c-suffix",
+        "c-word-sum"
+      ]
+    },
+    {
+      "id": "w24d5-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）下面哪一句最自然地用 sure 而不是 secure？",
+      "choices": [
+        "Are you sure the door is locked?",
+        "The building has a sure entrance.",
+        "Please keep your passport sure.",
+        "The sure system blocks intruders."
+      ],
+      "answer": 0,
+      "explain": "sure 走法语路线，义项偏“确信的”，用于人的判断：Are you sure...。secure 走拉丁路线，义项偏“安全的、牢固的”，用于状态与设施：a secure entrance、a secure system。这一对不能互换，正是双式词语义分化的结果。",
+      "concepts": [
+        "c-borrowing",
+        "c-inference",
+        "c-cognate"
+      ],
+      "hint": "先问：说的是人的判断，还是物与系统的状态？"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w24d5-a1",
+      "kind": "infer",
+      "prompt": "阅读合同条款，推测 obligated 的含义",
+      "passage": "Clause 7.2: The tenant is obligated to give sixty days' written notice before vacating the premises. Nothing in this agreement obliges the landlord to renew the tenancy, and the tenant's obligation to pay rent continues until the keys are returned.",
+      "word": "obligated",
+      "choices": [
+        "负有法律上的义务，必须做",
+        "出于感激而愿意做",
+        "被允许但不要求做",
+        "被明确禁止做"
+      ],
+      "answer": 0,
+      "strategy": "① 语境：Clause 7.2、agreement、continues until 构成合同义务链；② 同族复现：obliges、obligation 三次出现，指向同一“义务”义；③ 句法：is obligated to give 与 must give 同义；④ 排除“感激”：much obliged 的义项在这里与条款语气不合。",
+      "explain": "obligated 是“负有义务的”，来自拉丁 obligare（ob- + ligare“绑”）。合同文本选拉丁直借的 obligate 而非法语的 oblige，正是双式词语域分工：前者管法律义务，后者管人情与不得已。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 2 节：并存变体的分工；oblige/obligate"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "ligare 词族与拉丁借词的双重路径"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "legal/loyal、secure/sure、major/mayor 的语源"
+    }
+  ]
+}

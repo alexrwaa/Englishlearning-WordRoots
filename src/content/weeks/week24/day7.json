@@ -1,0 +1,275 @@
+{
+  "id": "w24d7",
+  "week": 24,
+  "day": 7,
+  "title": "从本土方言到世界英语",
+  "tagline": "本土从未统一，海外各自演变，规范来源正在换手",
+  "objectives": [
+    "能说明英伦三岛内部的区域变体（Scots、Hiberno-English、北部与西南土语）并非“标准英语的错误版本”",
+    "能区分本土区域变体、移民定居变体、新英语三类，并指出各自的规范来源",
+    "能解释 lingua franca 的功能，以及“规范本地化”为何埋下进一步分化的种子"
+  ],
+  "prereqs": [
+    "w24d6",
+    "c-borrowing",
+    "c-register"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-register",
+    "c-etymology",
+    "c-cognate"
+  ],
+  "knowledgePoints": [
+    "kp-s1c8s3-1",
+    "kp-s1c8s3-2",
+    "kp-s1c8s3-3",
+    "kp-s1c8s3-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "本土从未真正统一",
+      "body": "在英语向外扩散之前，英伦三岛内部就没有统一过。英格兰北部与西南乡村的传统土语，连本土人都难懂；苏格兰有独立的文学传统（**Scots**），爱尔兰英语（**Hiberno-English**）有自己的语法与词汇，威尔士英语受威尔士语影响。\n\n这些不是“标准英语的错误版本”，而是有自己历史的区域变体。判断它们，要看它们在自己的社群里承担什么功能，而不是拿伦敦书面语逐条对照。",
+      "terms": [
+        {
+          "term": "dialect",
+          "zh": "方言",
+          "en": "dialect",
+          "note": "有系统差异的区域变体，不等同于“错误”"
+        },
+        {
+          "term": "regional variety",
+          "zh": "区域变体",
+          "en": "regional variety",
+          "note": "以地理范围划分的变体，可与标准语并存"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "海外：各自隔离，各自演变",
+      "body": "17 世纪以后，移民把英语带到北美、澳洲、新西兰、南非。地理隔离、新的环境、新的邻居语言，让每个落脚点独立发展：澳洲从本地语言借了 kangaroo、boomerang；新西兰借了 kiwi；南非英语与南非荷兰语长期接触。\n\n拼写上也分道：澳洲、新西兰、南非大体跟随英式（colour、centre），但 -ize 一系在学术出版中很常见。这说明“跟随某一国”从来不是整体打包，而是逐项选择的结果。",
+      "terms": [
+        {
+          "term": "settler English",
+          "zh": "移民英语",
+          "en": "settler English",
+          "note": "殖民定居者带去的英语，在隔离中独立发展"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三类变体",
+      "body": "三类的差别不在“纯不纯”，而在“谁定规范”。第一类的规范在本地社群，第二类在国家机构，第三类的规范正在本地化——这一列才是理解世界英语的钥匙。",
+      "head": [
+        "类型",
+        "例子",
+        "地位",
+        "规范来源"
+      ],
+      "rows": [
+        [
+          "本土区域变体",
+          "英格兰北部土语、Scots、Hiberno-English",
+          "多为地方通用语",
+          "本地社群，部分有文学传统"
+        ],
+        [
+          "移民定居变体",
+          "美、澳、新、南非英语",
+          "国家标准",
+          "本地词典、学校、媒体"
+        ],
+        [
+          "新英语（institutionalized）",
+          "印度、斯里兰卡、尼日利亚、新加坡英语",
+          "常为官方语言或教学语言",
+          "本地规范 + 多语社会"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "新英语与通用语",
+      "body": "印度、尼日利亚、新加坡这些地方，英语不是殖民者留下的外语，而是制度的一部分：法院、大学、议会用它，不同母语的人之间也用它——这就是 **lingua franca**（通用语）。\n\n一旦本地人用它处理自己的事务，规范就本地化了：印度英语有自己的词汇（prepone“提前”、cousin-brother）、自己的语篇习惯。用英式或美式标准去判它“错”，是把规范来源搞错了。\n\n要判的是：在这个国家的法庭、课堂、报纸里，它是否稳定、是否被接受。",
+      "terms": [
+        {
+          "term": "new Englishes",
+          "zh": "新英语",
+          "en": "new Englishes",
+          "note": "在原殖民地形成、具官方地位与本地规范的英语变体"
+        },
+        {
+          "term": "lingua franca",
+          "zh": "通用语",
+          "en": "lingua franca",
+          "note": "母语不同的人之间共用的交际语言"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "规范在宗主国，还是规范在本地",
+      "body": "教材把这一步称为“世界语言身份埋下的分裂种子”：模仿对象一旦从宗主国转向本地，各变体离历史根源就越来越远。理论上，如果分化持续几百年，可能走到荷兰语与德语那样的程度。现在还没到那一步，但方向已经清楚。",
+      "a": "以宗主国为规范",
+      "b": "以本地为规范",
+      "rows": [
+        {
+          "label": "时期",
+          "a": "殖民期与独立初期",
+          "b": "20 世纪后半叶至今"
+        },
+        {
+          "label": "权威",
+          "a": "牛津词典、BBC、英国学校",
+          "b": "本地词典、本地教师、本地作家"
+        },
+        {
+          "label": "结果",
+          "a": "本地变体被看作“偏离”",
+          "b": "本地变体被看作“另一套标准”"
+        },
+        {
+          "label": "风险",
+          "a": "说话人对自己的用法失去信心",
+          "b": "变体之间互通度下降"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w24d7-p1",
+      "kind": "mcq",
+      "prompt": "Scots 的定位，下面哪项最准确？",
+      "choices": [
+        "有独立文学传统与词典的英语变体，是否称“语言”取决于定义",
+        "标准英语的一种错误方言",
+        "盖尔语的一支",
+        "已消亡的中古英语"
+      ],
+      "answer": 0,
+      "explain": "Scots 源自早期的北部英语，有独立的文学传统（彭斯等）与词典，与英语互通度有限。它是否被称为“语言”取决于用互通度还是政治标准，但把它说成“标准英语的错误方言”肯定不准确，它与盖尔语也没有谱系关系。",
+      "concepts": [
+        "c-etymology",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w24d7-p2",
+      "kind": "mcq",
+      "prompt": "lingua franca 指的是：",
+      "choices": [
+        "母语不同的人之间用来沟通的共同语言",
+        "一个国家的唯一官方语言",
+        "只有母语者能使用的标准语",
+        "一种人工设计的语言"
+      ],
+      "answer": 0,
+      "explain": "lingua franca 是“通用语”，功能是让母语不同的人互相沟通。它可以是某国的官方语言（如尼日利亚英语），也可以是历史上通行的地中海混合语。关键在功能，不在是否有母语者或是否人工设计。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w24d7-p3",
+      "kind": "cloze",
+      "prompt": "填入两个英文单词",
+      "sentence": "English serves as a ___ ___ in many multilingual societies, from courts to university seminars.",
+      "answer": "lingua franca",
+      "accept": [
+        "lingua franca"
+      ],
+      "explain": "lingua franca 字面是“法兰克人的语言”，历史上指地中海贸易用的混合语，现在泛指任何跨社群通用语。印度、尼日利亚、新加坡的英语都承担这个功能，因此它们的规范会向本地用法倾斜。",
+      "concepts": [
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w24d7-p4",
+      "kind": "mcq",
+      "prompt": "印度英语里的 prepone（提前）最合理的评价是：",
+      "choices": [
+        "按英语构词规则（pre- 类比 postpone）在本地造出的词，在印度英语内部通行",
+        "拼写错误，应删去",
+        "不是英语，不能使用",
+        "必须改成 advance，否则不合法"
+      ],
+      "answer": 0,
+      "explain": "prepone 是 pre- + postpone 的类比造词（back-formation 式的替换），在印度英语的公文与口语里稳定使用，属于本地规范的一部分。它合英语构词规则，只是还没进入英式或美式词典——这是规范来源不同，不是对错问题。",
+      "concepts": [
+        "c-borrowing",
+        "c-prefix",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w24d7-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）一位新加坡作者在本地报纸使用新加坡英语语法。编辑最合理的判断是：",
+      "choices": [
+        "看该报读者与风格：本地语域可用本地规范，投国际期刊则另择",
+        "一律改成英式，因为英式更正确",
+        "一律改成美式，因为更流行",
+        "拒绝发表，直到作者改用标准英语"
+      ],
+      "answer": 0,
+      "explain": "新加坡英语在本地报纸、课堂、广播里有稳定规范，用它是语域匹配；同一篇文章投国际期刊，读者与惯例变了，就要按那边的要求调整。判断依据始终是“场合与交际效果”，不是某个变体天生更正确。",
+      "concepts": [
+        "c-register",
+        "c-inference"
+      ],
+      "hint": "先问“写给谁看”，再问“这份刊物按谁的规范”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w24d7-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 lingua franca 在句中的含义",
+      "passage": "In the Lagos market the traders came from four different language groups. None of them had learned the others' mother tongues, yet the bargaining went on all morning in English — not the English of the London Times, but a working lingua franca that everyone in the stalls could use.",
+      "word": "lingua franca",
+      "choices": [
+        "母语不同的人之间共用的交际语言",
+        "伦敦出版的正式英语",
+        "一种只有商人懂的密码",
+        "尼日利亚的官方语言名称"
+      ],
+      "answer": 0,
+      "strategy": "① 对比：four different language groups 与 None had learned the others' mother tongues 说明需要第三种共同语；② 转折：not the English of the London Times 排除了“标准书面英语”；③ 功能：bargaining went on 说明它管用；④ 排除“密码”：交易是公开的，不需要暗号。",
+      "explain": "lingua franca 的功能定义就是“跨母语社群的共同交际语”。这句话还额外说明一件事：通用语的规范不必等于宗主国的标准，市场里管用的英语就是好英语——这正是新英语规范本地化的日常版本。",
+      "concepts": [
+        "c-inference",
+        "c-register",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 8 章第 3 节：本土方言、海外变体与新英语"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "社会语言学：变体、通用语与规范"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "Scots、Hiberno-English、lingua franca 的释义"
+    }
+  ]
+}

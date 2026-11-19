@@ -1,0 +1,300 @@
+{
+  "id": "w30d3",
+  "week": 30,
+  "day": 3,
+  "title": "送气音变 f，*gʷ 变 w，与前缀 in- 的真规则",
+  "tagline": "ferō 与 bear、facere 与 do、hostis 与 guest——三个送气音在拉丁留下的三种痕迹",
+  "objectives": [
+    "能说出三个浊送气在拉丁语里的去向（bʰ→f、dʰ→f／b、gʰ→h）",
+    "能说明 *gʷ → w／v 的规律及其例外（bōs）",
+    "能解释 hostis 与 hospes 为什么同源，以及 in- 在 f 前为什么不变成 im-"
+  ],
+  "prereqs": [
+    "w30d2",
+    "w28d3"
+  ],
+  "concepts": [
+    "c-greek-latin",
+    "c-cognate",
+    "c-prefix"
+  ],
+  "knowledgePoints": [
+    "kp-s1c10s10-3",
+    "kp-s1c10s10-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三个送气音，三条出路",
+      "body": "拉丁语没有保留浊送气，三个音各走一条路：\n\n- ***bʰ → f**（词首）：*bʰer-“携带” → **ferō**（英语 transfer、refer、fertile）；*bʰeh₂-“说” → **fārī**（fate、fame、infant）\n- ***dʰ → f**（词首）／**b**（词中）：*dʰeh₁-“放、做” → **facere**（fact、effect、perfect）；*dʰwer-“门” → **forēs**；*dʰuH-“烟” → **fūmus**（fume）。词中则作 b：*h₁rudʰ-“红” → **ruber**（red 的同源词）\n- ***gʰ → h**（词首）：*gʰos-ti-“陌生人” → **hostis**；*gʰans-“鹅” → **anser**（h 在 a 前脱落）\n\n对照英语那一侧，能看到典型的日耳曼结局：ferō 对 **bear**、facere 对 **do**、forēs 对 **door**、ruber 对 **red**、hostis 对 **guest**。同一批词，两个分支，五种面貌。",
+      "terms": [
+        {
+          "term": "aspirate",
+          "zh": "送气音",
+          "en": "aspirate",
+          "note": "发音时带气流；浊送气即同时带声与带气"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "五组对照：拉丁与英语的两副面孔",
+      "body": "第三列是拉丁的形态，第四列是英语本土形态。这张表可以直接当“词族连接器”用：看到 fer-／bear、fac-／do、for-／door，就知道是同一根的两条路——一条走学术借词，一条走本土继承。",
+      "head": [
+        "祖语",
+        "拉丁去向",
+        "拉丁形式",
+        "英语本土／借词"
+      ],
+      "rows": [
+        [
+          "*bʰer-“携带”",
+          "bʰ → f",
+          "ferō、ferre、lātum（异干）",
+          "bear（本土）／transfer、refer、fertile（借词）"
+        ],
+        [
+          "*dʰeh₁-“放、做”",
+          "dʰ → f",
+          "facere、factum",
+          "do、deed（本土）／fact、effect、perfect（借词）"
+        ],
+        [
+          "*dʰwer-“门”",
+          "dʰ → f",
+          "forēs（复数“双扇门”）",
+          "door（本土）／forum（同根，借词，义为“门外场院”）"
+        ],
+        [
+          "*h₁rudʰ-“红”",
+          "dʰ → b（词中）",
+          "ruber、rubēre",
+          "red（本土）／ruby、rubric、rubella（借词）"
+        ],
+        [
+          "*gʰos-ti-“陌生人”",
+          "gʰ → h",
+          "hostis",
+          "guest（本土）／hostile、host（借词）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "*gʷ 变 w：为什么 vīvus 与 quick 是一家",
+      "body": "圆唇软腭音在拉丁语里基本变成 **w**（写作 v）：\n\n- *gʷīwos“活的” → **vīvus**（revive、survive、vivid、vital）\n- *gʷem-“来” → **venīre**（advent、invent、prevent、event、convention）\n英语那一侧则是 **kw**：*gʷīwos → 古英语 cwic → **quick**，原义正是“活的”（the quick and the dead 里的 quick 就是此义）；*gʷem- → **come**。所以 quick 与 vivid 是同源词，这一点几乎没人能凭直觉猜到。\n\n有一个著名例外：*gʷōus“牛” → **bōs**（英语 bovine 的 b-）。这条不合 *gʷ → w 的通则，通常解释为受后面 ō 的影响而变 b。**凡规则都有例外，例外本身也要有解释**——这是本课反复出现的态度。"
+    },
+    {
+      "kind": "table",
+      "title": "喉音与成音节辅音：拉丁的两种“补”法",
+      "body": "喉音在拉丁语里也消失了，只留下元音：*h₁ 与 *h₂ 都变 a，*h₃ 变 o——三个音在拉丁合并成两类，所以拉丁的 a 特别多。成音节辅音则靠“补元音＋响音”解决，补什么看响音是什么。这张表解释了一大批拉丁词干里“多出来的”短元音。",
+      "head": [
+        "祖语",
+        "拉丁结局",
+        "拉丁形式",
+        "英语落点"
+      ],
+      "rows": [
+        [
+          "*h₂er-“犁”",
+          "h₂ → a",
+          "arāre（耕）",
+          "arable（借词）；ear（本土，古义“耕地”）"
+        ],
+        [
+          "*h₃ep-“劳作”",
+          "h₃ → o",
+          "opus（属格 operis）",
+          "operate、opera、cooperate"
+        ],
+        [
+          "*h₃ekʷ-“眼”",
+          "h₃ → o",
+          "oculus",
+          "ocular、monocle、inoculate"
+        ],
+        [
+          "*ḱṃtóm“百”",
+          "*ṃ → en",
+          "centum",
+          "century、percent、cent"
+        ],
+        [
+          "*n̥-（否定）",
+          "*ṇ → en",
+          "in-（incredibilis）",
+          "incredible、insane；本土 un-"
+        ],
+        [
+          "*ḱr̥d-“心”",
+          "*ṛ → or",
+          "cor、cordis",
+          "cordial、accord、discord"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "hostis 与 hospes：一个词根的语义反转",
+      "body": "两个拉丁词看起来无关，其实同源：\n\n- ***hostis*** 最初是“陌生人、外来者”，后来专指“敌人”（敌对关系常态化之后， stranger 与 enemy 合成一义）。\n- ***hospes***（属格 hospitis）来自 ***gʰos-pot-**“陌生人的主人”，即“待客者、主人”，也指“客人”。\n\n同一个 *gʰos- 根，分出“敌人”和“主人／客人”两条义。英语把两边的后代都收了：**hostile、hostility**（← hostis）与 **host、hospital、hostel、hotel、hospice**（← hospes）；再加上本土的 **guest**（← *gʰos-ti-，与 hostis 同一形式）。\n\n这条链条最值得记的不是词形，而是方法：**意义可以从一个极点滑到相反一极**（陌生人→敌人；陌生人→受招待的客人）。判断同源，看形式对应；解释意义，要另讲历史。"
+    },
+    {
+      "kind": "compare",
+      "title": "in- 什么时候变 im-：一条常被说错的规则",
+      "body": "常见说法是“in- 在 f 前变 im-”。这条**不对**。拉丁的 in- 只在**双唇音**前同化为 im-：p、b、m。f 是唇齿音，部位不同，所以照写 in-。\n\n为什么容易记错？因为日耳曼语里 *p 变成了 f（father／pater），学习者见惯 f 与 p 的对应，就以为 f 也该触发同化。这是“把音变对应误当成音系条件”的典型错误。",
+      "a": "确实变 im-（后接双唇音）",
+      "b": "仍写 in-（后接唇齿音／其他）",
+      "rows": [
+        {
+          "label": "例",
+          "a": "impossible（p）、imbibe（b）、immense（m）",
+          "b": "infer、infant、infirm、invent、invisible"
+        },
+        {
+          "label": "机制",
+          "a": "n 的发音部位被后音同化：齿龈 → 双唇",
+          "b": "f、v 是唇齿音，部位不同，不发生同化"
+        },
+        {
+          "label": "常见误判",
+          "a": "以为 immaterial 的 im- 是因为 m 前“好读”",
+          "b": "以为 *im-fer- 存在，其实英语里没有 imf- 开头的拉丁词"
+        },
+        {
+          "label": "检验办法",
+          "a": "去掉前缀，看词根首音是什么",
+          "b": "若词根首音是 f／v，前缀必是 in-"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w30d3-p1",
+      "kind": "mcq",
+      "prompt": "拉丁 ferō 与英语 bear 同源，词首分别是 f 与 b。原因是：",
+      "choices": [
+        "祖语 *bʰ 在拉丁变 f、在日耳曼变 b",
+        "拉丁语把 b 变成了 f，日耳曼语不变",
+        "英语 bear 是从拉丁 ferō 借来的",
+        "两者只是意义相同，音上无对应"
+      ],
+      "answer": 0,
+      "explain": "这是 *bʰ 的两条路：拉丁 f、日耳曼 b。同型有 frāter／brother、ferō／bear。方向不能反：如果说是“拉丁把 b 变 f”，就无法解释为什么拉丁另有一大批 b 并不变成 f——条件应是“只对来自 *bʰ 的 b 生效”。",
+      "concepts": [
+        "c-greek-latin",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w30d3-p2",
+      "kind": "mcq",
+      "prompt": "拉丁 vīvus“活的”与英语 quick 同源。这一对的对应关系是：",
+      "choices": [
+        "*gʷ 在拉丁变 v／w，在日耳曼变 kw",
+        "*w 在拉丁变 v，在日耳曼变 k",
+        "两者是借词关系，不存在音对应",
+        "*gʷ 在两支都变 w，quick 是后起的新词"
+      ],
+      "answer": 0,
+      "explain": "*gʷ → 拉丁 v、日耳曼 kw。所以 vīvus 与 cwic（→ quick）是一对，且 quick 的古义“活的”还留在 the quick and the dead 里。这条对应也能解释 venīre／come、vīvus／quick 两组——都是同一机制的产物。",
+      "concepts": [
+        "c-greek-latin",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w30d3-p3",
+      "kind": "mcq",
+      "prompt": "hostis“敌人”与 hospes“主人／客人”的关系是：",
+      "choices": [
+        "同源：都出自 *gʰos-“陌生人”，hospes 是 *gʰos-pot-“陌生人的主人”",
+        "同源：hospes 是 hostis 的指小形式",
+        "不同源：一个来自希腊语，一个来自伊特鲁里亚语",
+        "不同源：意义相反，所以词根必然不同"
+      ],
+      "answer": 0,
+      "explain": "同源而义反，是语义演变的常态：stranger 既可滑向“敌人”，也可滑向“受招待的客人”。英语同时收了 host、hostile、hospital、hotel、hospice、guest 六个后代，正好覆盖这两条义路。用“意义相反”来否定同源，是最常见的方法错误。",
+      "concepts": [
+        "c-cognate",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w30d3-p4",
+      "kind": "mcq",
+      "prompt": "下面哪一组拼写符合拉丁 in- 前缀的同化规则？",
+      "choices": [
+        "impossible、imbibe、immense（p、b、m 前变 im-）／infer、infant、invent（f、v 前仍是 in-）",
+        "impossible、infer（都在 p、f 前变 im-，但拼写不同）",
+        "infer 应写作 imfer，因为 f 是唇音",
+        "所有 in- 开头的词都应写作 im-"
+      ],
+      "answer": 0,
+      "explain": "同化只发生在发音部位相同时：n 是齿龈音，遇到双唇的 p、b、m 就变成双唇的 m；遇到唇齿的 f、v 则不变。英语里没有 imf- 开头的拉丁借词，这本身就是一条可检验的证据。记住这条，就不会把 infer 写错。",
+      "concepts": [
+        "c-prefix",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w30d3-p5",
+      "kind": "mcq",
+      "prompt": "（迁移）已知拉丁 facere“做”与英语 do 同源，且 *dʰ 在拉丁词首变 f。若要判断英语哪个词与 facere 同源，最该找的是：",
+      "choices": [
+        "词首为 d- 的日耳曼本土词（do、deed），而非任何 f- 开头的英语词",
+        "词首为 f- 的英语词，因为拉丁 f 对应英语 f",
+        "词首为 p- 的英语词，因为格里姆定律 p→f",
+        "任何含 -fact- 的英语词"
+      ],
+      "answer": 0,
+      "explain": "拉丁的 f 来自 *dʰ，而 *dʰ 在日耳曼变 d，所以英语对应词以 d- 开头（do、deed）。含 -fact- 的词都是**借词**，不是本土对应形式——它们与 facere 是同一形式的两份拷贝，不能当独立证据。这条区分正是“借词不算对应”的实操版。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ],
+      "hint": "先问这个英语词是本土继承还是拉丁借词。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w30d3-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 assimilation 在句中的含义",
+      "passage": "The prefix does not change at random. Its final consonant takes on the place of articulation of the sound that follows: before a bilabial stop it becomes m, before a velar it becomes ng. Where the following sound is made elsewhere — a labiodental f, for instance — no assimilation occurs and the n remains.",
+      "word": "assimilation",
+      "choices": [
+        "一个音受邻音影响，向邻音的发音部位靠拢",
+        "两个词合并成一个词",
+        "外来词被吸收入本语言",
+        "一个音完全脱落"
+      ],
+      "answer": 0,
+      "strategy": "① 定义句：takes on the place of articulation of the sound that follows，直接给出机制；② 例证：bilabial → m、velar → ng；③ 反证：where the following sound is made elsewhere ... no assimilation，说明边界；④ 排除“词合并／借词吸收”：本段讲的是单个音的发音部位。",
+      "explain": "assimilation 在音系学里是“同化”，即一个音向邻音靠拢。它也是社会语言学的常用词（同化政策），两义共享“变得相像”的核心。本段的关键句是 place of articulation——部位相同才同化，这条判据能解释 in-／im-／ing- 三种形态。",
+      "concepts": [
+        "c-inference",
+        "c-prefix"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章第 10 节：拉丁的送气音去向、*gʷ→w、喉音与成音节辅音"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "*bʰer-／ferō／bear、*dʰeh₁-／facere／do、*gʰos-／hostis／hospes／guest 的核对"
+    }
+  ]
+}
