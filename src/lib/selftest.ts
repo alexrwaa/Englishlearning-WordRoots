@@ -180,7 +180,14 @@ async function driveLesson(lessonId?: string): Promise<{
   // Capture the paint here: the session ends on a summary page with little text,
   // and measuring there made a working C11 lesson look blank (domNodes=172,
   // textChars=110) while it had already answered six questions.
-  await sleep(300); // let the first screen settle before measuring it
+  // Wait for real copy, not just an interactive control: the shell's placeholder
+  // also has a primary button, and measuring it produced domNodes=172
+  // textChars=110 — a working lesson failed a rendering assertion over timing.
+  await waitFor(
+    () => ((document.body.innerText || '').trim().length > 200 ? true : null),
+    5_000,
+  );
+  await sleep(200);
   const paint = paintEvidence();
 
   let steps = 0;
