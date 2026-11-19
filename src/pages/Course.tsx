@@ -5,7 +5,11 @@ import { getLesson, labelFor, lessons, weekOf } from '../lib/content';
 import { useApp } from '../lib/store';
 import type { Lesson } from '../lib/types';
 
-const WEEK_SLOTS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] as const;
+// Weeks are content-driven: the curriculum now spans past the original 12.
+function weekSlots(all: readonly Lesson[]): number[] {
+  const max = all.reduce((m, l) => Math.max(m, l.week), 1);
+  return Array.from({ length: max }, (_, i) => i + 1);
+}
 
 function lessonMinutes(l: Lesson): number {
   return l.minutes.review + l.minutes.learn + l.minutes.practice + l.minutes.apply;
@@ -19,9 +23,11 @@ function excerpt(text: string, limit: number): string {
 export default function Course() {
   const { states, completedLessons, cards, stats } = useApp();
   const [params, setParams] = useSearchParams();
+  const slots = useMemo(() => weekSlots(lessons), []);
+  const weekLimit = slots.length;
   const [openWeek, setOpenWeek] = useState<number | null>(() => {
     const raw = Number(params.get('week'));
-    return Number.isInteger(raw) && raw >= 1 && raw <= 12 ? raw : null;
+    return Number.isInteger(raw) && raw >= 1 && raw <= weekLimit ? raw : null;
   });
   const weekRefs = useRef<Record<number, HTMLDivElement | null>>({});
   const toggledByUser = useRef(false);
@@ -40,7 +46,7 @@ export default function Course() {
 
   // Keep the URL (?week=3) in sync with the open card, and scroll to it once.
   useEffect(() => {
-    if (!Number.isInteger(weekParam) || weekParam < 1 || weekParam > 12) {
+    if (!Number.isInteger(weekParam) || weekParam < 1 || weekParam > weekLimit) {
       toggledByUser.current = false;
       return;
     }
@@ -51,7 +57,7 @@ export default function Course() {
     }
     const el = weekRefs.current[weekParam];
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }, [weekParam]);
+  }, [weekParam, weekLimit]);
 
   function toggleWeek(no: number) {
     const next = openWeek === no ? null : no;
@@ -136,7 +142,7 @@ export default function Course() {
       </Panel>
 
       <div className="grid grid-2" style={{ marginTop: 18 }}>
-        {WEEK_SLOTS.map((no) => {
+        {slots.map((no) => {
           const week = weekOf(no);
           const open = openWeek === no;
           const setRef = (el: HTMLDivElement | null) => {

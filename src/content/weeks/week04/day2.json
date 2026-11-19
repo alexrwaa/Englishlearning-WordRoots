@@ -43,6 +43,16 @@
         "ic",
         "ful",
         "less"
+      ],
+      "morphemeIds": [
+        "sx-able",
+        "sx-ible",
+        "sx-ive",
+        "sx-ous",
+        "sx-al",
+        "sx-ic",
+        "sx-ful",
+        "sx-less"
       ]
     },
     {
@@ -107,6 +117,10 @@
       "morphemes": [
         "able",
         "ible"
+      ],
+      "morphemeIds": [
+        "sx-able",
+        "sx-ible"
       ]
     },
     {
@@ -151,6 +165,11 @@
         "al",
         "ive",
         "ic"
+      ],
+      "morphemeIds": [
+        "sx-al",
+        "sx-ive",
+        "sx-ic"
       ]
     }
   ],

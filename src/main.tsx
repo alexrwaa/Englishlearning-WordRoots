@@ -4,7 +4,32 @@ import App from './App';
 import './styles/global.css';
 import { IS_TAURI, getInvoke, loadCoursePack } from './lib/api';
 import { contentStatus, initContent } from './lib/content';
+import { mark, measure } from './lib/perf';
 import { maybeRunSelftest } from './lib/selftest';
+
+// First point of the trace (idempotent: `perf.ts` already marked it).
+mark('boot');
+
+/**
+ * Cold-start trace: `boot → content-ready → first-route-render`.
+ *
+ * `content-ready` is marked by `lib/content.ts` once the embedded curriculum is
+ * registered; `first-route-render` means a nav item is actually in the DOM and
+ * painted, i.e. the frame a user would call "it opened". The measurement is a
+ * cheap rAF poll during boot and stops as soon as the shell is there.
+ */
+function trackFirstRouteRender(maxWaitMs = 5000): void {
+  const started = performance.now();
+  const tick = () => {
+    if (document.querySelector('a.nav-item') !== null || performance.now() - started >= maxWaitMs) {
+      mark('first-route-render');
+      measure('boot→first-route-render', 'boot', 'first-route-render');
+      return;
+    }
+    requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+}
 
 /**
  * Tell the Rust side that the frontend really mounted.
@@ -75,6 +100,8 @@ function mount() {
     </React.StrictMode>,
   );
 
+  mark('mounted');
+  trackFirstRouteRender();
   reportMounted();
 
   // The harness may ask for a full interaction pass inside the real webview

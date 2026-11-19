@@ -1,0 +1,279 @@
+{
+  "id": "w15d4",
+  "week": 15,
+  "day": 4,
+  "title": "c 和 g 的两副面孔",
+  "tagline": "centum 读 [k]、cent 读 [s]、centipede 的 c 也读 [s]：同一条软化规则，跨越三层语言",
+  "objectives": [
+    "能说明古典拉丁的 c、g 一律读 [k]、[g]，以及软化发生在什么条件下",
+    "能列出 ce/ci/cy、ge/gi/gy 与 ae/oe 的对应拼写，并各举一例",
+    "能解释为什么英语本族词 get、give 不受这条规则影响"
+  ],
+  "prereqs": [
+    "w15d3",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-borrowing",
+    "c-spelling-rule",
+    "cent"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s4-1",
+    "kp-s1c11s4-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "西塞罗的 c 是 [k]，不是 [s]",
+      "body": "古典拉丁里，**c 一律读 [k]，g 一律读 [g]**，不管后面跟什么元音。*centum* 读 [ˈkentʊm]，*civis* 读 [ˈkiːwɪs]，*gelu* 读 [ˈgeluː]。\n\n但今天英语课堂上的“拉丁读音”并不是西塞罗的音。它是一套后世形成的传统读法，已经掺进了意大利语、法语和英语自己的习惯。这就是教材说的：拉丁读音传统远离古罗马。\n\n软化（velar softening）发生在晚期拉丁到罗曼语的阶段：c、g 在前元音前被“拉”向硬腭，再变成 [s]/[ts] 与 [dʒ]。英语借的不是古典音，而是软化之后的法语音。",
+      "terms": [
+        {
+          "term": "velar softening",
+          "zh": "软腭软化",
+          "en": "velar softening",
+          "note": "软腭音 [k]、[g] 在前元音前前移，变成 [s]、[ts]、[dʒ] 等"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "软化的拼写信号",
+      "body": "英语里能触发软化的拼写很有限，记住这几组就够用。注意它们都是**借词层**的规则：本族词 get、give、girl 不遵守。判断一个 c 或 g 该怎么读，先看这个词属于哪一层，再看后面跟的是哪个字母；顺序反了，就会把 give 读成 [dʒɪv]。",
+      "head": [
+        "拼写",
+        "c 的读音",
+        "例词",
+        "g 的读音",
+        "例词"
+      ],
+      "rows": [
+        [
+          "ce",
+          "[s]",
+          "cell, cent, percent",
+          "[dʒ]",
+          "gel"
+        ],
+        [
+          "ci",
+          "[s]",
+          "civics, civil, decide",
+          "[dʒ]",
+          "gingival, magic"
+        ],
+        [
+          "cy",
+          "[s]",
+          "cycle, cyclone",
+          "[dʒ]",
+          "gym, strategy"
+        ],
+        [
+          "ae / oe",
+          "[s]",
+          "Caesar, coelacanth",
+          "—",
+          "（g 少见此组合）"
+        ]
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "centum：一个词根，三种命",
+      "body": "拉丁 **centum**“一百”是观察软化的最佳标本，因为它在三条路上留下了三个可核对的形状：\n\n- 意大利语 **cento** 读 [ˈtʃɛnto]，c 变成 [tʃ]。\n- 法语 **cent** 读 [sɑ̃]，c 变成 [s]，词尾音也丢了。\n- 英语经法语借入 **cent-**，读 [s]：century、centipede、percent。\n\n有趣的是，语言学家讨论印欧语“K 类语言”时又直接借了拉丁 **centum**，读 [ˈkentʊm]，保留了 [k]。同一个词根，因为借入时间和通道不同，英语里同时存在 [s] 和 [k] 两个版本。",
+      "steps": [
+        {
+          "period": "古典拉丁",
+          "form": "centum",
+          "note": "读 [ˈkentʊm]，c 为 [k]"
+        },
+        {
+          "period": "晚期拉丁 / 古法语",
+          "form": "cent",
+          "note": "c 在前元音前软化为 [ts]，后变 [s]"
+        },
+        {
+          "period": "中古英语",
+          "form": "cent-",
+          "note": "经法语借入，读 [s]：century、centipede"
+        },
+        {
+          "period": "19 世纪学术英语",
+          "form": "centum",
+          "note": "语言学重新借入，保留 [k]"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "同一条规则，不同的落点",
+      "body": "把四个语言并排放，软化的方向和程度一目了然。这也解释了为什么“英语读音像法语”这句话只对了一半：英语借的是法语的**结果**，但拼写往往是拉丁的。",
+      "a": "拉丁（古典）",
+      "b": "法语（经英语借入）",
+      "rows": [
+        {
+          "label": "centum / cent",
+          "a": "[ˈkentʊm]，c=[k]",
+          "b": "[sɑ̃]，c=[s]"
+        },
+        {
+          "label": "civis / civil",
+          "a": "[ˈkiːwɪs]，c=[k]，v=[w]",
+          "b": "[sivil]，c=[s]，v=[v]"
+        },
+        {
+          "label": "gelu / gel",
+          "a": "[ˈgeluː]，g=[g]",
+          "b": "[dʒel]，g=[dʒ]"
+        },
+        {
+          "label": "拼写由谁定",
+          "a": "拉丁原形",
+          "b": "英语多按拉丁改回，读音却留在法语层"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三个容易踩的坑",
+      "body": "**坑一：把规则推广到本族词。** get、give、girl、begin 都是本族词，g 仍读 [g]；kill、king、kiss 的 k 也还是 [k]。软化是借词层的现象，不是英语的普遍拼读律。\n\n**坑二：以为 c 在 a 前一定读 [k]。** 本族词如此（cat、can），但法语借词里 c 在 a 前也可能软化，例如 **chief** 来自 caput，ch 就是软化的结果。\n\n**坑三：拿拼写反推拉丁音。** 看到 **Celtic** 有两个读法（[ˈkeltɪk] / [ˈseltɪk]）就知道：拼写不决定读音，社团惯例才决定。学术词、专名、地名各有自己的传统。",
+      "terms": [
+        {
+          "term": "spelling pronunciation",
+          "zh": "拼读式读音",
+          "en": "spelling pronunciation",
+          "note": "按拼写而非历史读音来读一个词，常造成新读法"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w15d4-p1",
+      "kind": "mcq",
+      "prompt": "cell 的 c 读 [s]，最直接的原因是？",
+      "choices": [
+        "它经法语借入，c 在 e 前已软化为 [s]",
+        "英语有一条规则：所有 c 在 e 前都读 [s]",
+        "拉丁语里 cell 的 c 本来就读 [s]",
+        "c 在词首一律读 [s]"
+      ],
+      "answer": 0,
+      "explain": "古典拉丁的 c 一律读 [k]。cell 经法语进入英语，法语已经把 c 在 e 前软化为 [s]。英语本族词没有这条规则，所以 keep、ken 仍是 [k]；规则属于借词层。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w15d4-p2",
+      "kind": "mcq",
+      "prompt": "Caesar 的 ae 为什么也会触发 c 的软化？",
+      "choices": [
+        "ae 在后世读作前元音 [e]/[iː]，与 e 同类，能触发软化",
+        "因为 Caesar 是希腊词，希腊语有这条规则",
+        "因为 ae 是双元音，双元音一律触发软化",
+        "因为 C 在词首永远软化"
+      ],
+      "answer": 0,
+      "explain": "软化的条件是“前元音前”。ae、oe 在后来的读音里并入 [e]/[iː]，所以在法语和英语里与 e 同类，能触发软化：Caesar [ˈsiːzər]、coelacanth [ˈsiːləkænθ]。",
+      "concepts": [
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w15d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一种动物名（英文）",
+      "sentence": "A ___ has a hundred legs, or so its name claims: cent- “hundred” plus ped- “foot”.",
+      "answer": "centipede",
+      "accept": [
+        "centipede"
+      ],
+      "explain": "centipede＝cent（百）＋ ped（足）＋ e。c 在 e 前读 [s]，是法语软化留下的读音；拼写却保留了拉丁 cent-。名字是“百足”，实际腿数因种类而异，不必按字面较真。",
+      "concepts": [
+        "c-etymology",
+        "cent"
+      ]
+    },
+    {
+      "id": "w15d4-p4",
+      "kind": "mcq",
+      "prompt": "coelacanth 的 c 读 [s]，下面哪项解释正确？",
+      "choices": [
+        "oe 读作前元音 [iː]，c 在其前软化；拼写保留 oe 是学术传统",
+        "因为 coelacanth 是英语本族词，遵守本族拼读律",
+        "因为 c 在 o 前一律读 [s]",
+        "因为这个词的重音在第二个音节"
+      ],
+      "answer": 0,
+      "explain": "coelacanth 读 [ˈsiːləkænθ]：oe 读 [iː]，等于前元音，c 软化读 [s]；拼写保留 oe 是学术语域的旧拼。这与 Caesar 同理，说明触发条件看读音类别，不看字母是不是 e。",
+      "concepts": [
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w15d4-p5",
+      "kind": "mcq",
+      "prompt": "没学过的 gingival（“牙龈的”）中第一个 g 读什么？依据是什么？",
+      "choices": [
+        "[dʒ]，因为 g 在 i 前软化，且这是拉丁/法语借词层",
+        "[g]，因为 g 在词首一律读 [g]",
+        "[ʒ]，因为它是法语借词，g 一律读 [ʒ]",
+        "[j]，因为 gi 在拉丁语里读 [j]"
+      ],
+      "answer": 0,
+      "explain": "gingival 来自拉丁 gingiva“牙龈”，属借词层；g 在 i 前软化为 [dʒ]，读 [dʒɪnˈdʒaɪvəl]。本族词 give、girl 的 g 仍是 [g]，所以判断时先看词层，再看拼写。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w15d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词的含义",
+      "passage": "Only a small percent of the samples survived the procedure: the rest were contaminated during transfer, and the team had to repeat the whole batch.",
+      "word": "percent",
+      "choices": [
+        "百分比",
+        "一小部分样本",
+        "实验步骤",
+        "污染物"
+      ],
+      "answer": 0,
+      "strategy": "① 量词结构：a small percent of the samples 是“样本中的一小部分比例”；② 对比：the rest were contaminated 说明剩下的部分，percent 是分割依据；③ 构词：per（每）＋ cent（百），字面“每一百”；④ 排除：它不指样本本身，也不指步骤。",
+      "explain": "percent 字面是“每一百”，即百分比。c 读 [s] 是因为经法语借入后软化；同族的 century、centipede 都保留 cent- 的拼写与 [s] 读音。",
+      "concepts": [
+        "c-inference",
+        "cent",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：拉丁读音传统、c/g 的软腭软化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "centum / cent / centipede / coelacanth / gingival 的读音与语源"
+    }
+  ]
+}

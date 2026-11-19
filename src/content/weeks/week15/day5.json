@@ -1,0 +1,277 @@
+{
+  "id": "w15d5",
+  "week": 15,
+  "day": 5,
+  "title": "法语的口音，英语的元音",
+  "tagline": "civ- 读 [sɪv] 不是 [kiːw]，virus 读 [ˈvaɪrəs] 不是 [ˈwiːrʊs]：两次音变叠在一起",
+  "objectives": [
+    "能说明英语借词的拉丁读音为什么带法语特征，并各举一例",
+    "能复述大元音推移对拉丁长元音 a、e、i 的三条结果",
+    "能区分“借词层读音”与“本族词读音”，不用一条规则解释全部英语词"
+  ],
+  "prereqs": [
+    "w15d4",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-borrowing",
+    "c-allomorph"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s4-3",
+    "kp-s1c11s4-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "借词的读音要过两道手",
+      "body": "一个拉丁词进入英语，读音通常不是“拉丁 → 英语”一步，而是“拉丁 → 法语 → 英语”两步。每过一道手，都会留下痕迹：\n\n- 拉丁 **civis** 读 [ˈkiːwɪs]；法语把它变成 [sivil] 一类的音；英语再按自己的习惯读成 [ˈsɪvɪl]。\n- 也就是说，[k]→[s] 和 [w]→[v] 是**法语**的规则，不是英语的规则。\n- 同样的机制也解释了 **-tion**：拉丁 -tio 的 t 在前高元音前被法语腭化，经 [sj] 变成 [ʃ]，英语借到的就是 [ʃən]（nation [ˈneɪʃən]）。\n\n证据在本族词里：英语自己的 **wind** 仍读 [w]，**kiss** 仍读 [k]。如果 [w]→[v]、[k]→[s] 是英语的普遍音变，这两个词不可能躲过去。它们没躲，因为规则只发生在借词层。",
+      "terms": [
+        {
+          "term": "loan pronunciation",
+          "zh": "借词读音",
+          "en": "loan pronunciation",
+          "note": "借词按来源语言的音值进入，而非按本族音变规律发展"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "civis：从“公民”到 civilization",
+      "body": "拉丁 **civis**“公民”派生 **civitas**“城邦、公民共同体”，再派生 **civilis**“公民的”。这条词族在英语里非常能产：\n\n- **civil**：公民的、民事的\n- **civic**：市政的、公民的\n- **civilization**：文明、文明化\n- **civilian**：平民（与军人相对）\n\n四个词都保留 c 的 [s] 读音，因为整族都是经法语进来的。注意 **civic** 是从拉丁 civicus 直接借入的学术词，但读音仍按英语的软化习惯走 [ˈsɪvɪk]，不是 [ˈkiːwɪk]。这说明：借入通道决定读音层，拼写只提供线索。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "civis",
+          "note": "公民，读 [ˈkiːwɪs]"
+        },
+        {
+          "period": "拉丁派生",
+          "form": "civilis",
+          "note": "公民的；c 在 i 前开始软化"
+        },
+        {
+          "period": "古法语",
+          "form": "civil",
+          "note": "c=[s]，v=[v]，词尾弱化"
+        },
+        {
+          "period": "英语",
+          "form": "civil / civic / civilization",
+          "note": "整族按法语层读音进入，c 一律 [s]"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "大元音推移：长元音整体上移",
+      "body": "大元音推移（Great Vowel Shift）发生在 15–18 世纪的英语内部，跟法语无关。它的效果是：长元音“往上爬”一格，最高的两个被挤成双元音。拉丁借词里的长元音因此和拉丁原音对不上。",
+      "head": [
+        "拉丁长元音",
+        "英语结果",
+        "例词",
+        "读音",
+        "说明"
+      ],
+      "rows": [
+        [
+          "a",
+          "[eɪ]",
+          "nation",
+          "[ˈneɪʃən]",
+          "法语先把它拉长，英语再推高"
+        ],
+        [
+          "e",
+          "[iː]",
+          "legal",
+          "[ˈliːɡəl]",
+          "长 e 上移到 [iː]"
+        ],
+        [
+          "i",
+          "[aɪ]",
+          "virus",
+          "[ˈvaɪrəs]",
+          "长 i 二合化为 [aɪ]"
+        ],
+        [
+          "u",
+          "[aʊ]",
+          "（本族）house",
+          "[haʊs]",
+          "借词里少见，但方向相同"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "同一个字母，两个读音层",
+      "body": "英语拼写不标读音层，所以同一个字母在不同词里可以有完全不同的音值。判断依据不是字母，而是这个词属于哪一层：本族词走本族音变，借词走“法语＋英语”的叠加音变。",
+      "a": "本族词层",
+      "b": "拉丁/法语借词层",
+      "rows": [
+        {
+          "label": "w 的读音",
+          "a": "wind [w]、water [w]",
+          "b": "civil 的 v 来自拉丁 [w]"
+        },
+        {
+          "label": "c 的读音",
+          "a": "kiss [k]、king [k]",
+          "b": "civil [s]、cent [s]"
+        },
+        {
+          "label": "a 的读音",
+          "a": "cat [æ]、hat [æ]",
+          "b": "nation [eɪ]、case [eɪ]"
+        },
+        {
+          "label": "判断方法",
+          "a": "看是否古英语词、是否有本族同源词",
+          "b": "看词源链是否经过法语或学术拉丁"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么不能“一一对应”",
+      "body": "很多人想背一张“拉丁 a 等于英语 [eɪ]”的对照表。这张表只能当倾向，不能当规则，原因有三：\n\n1. **法语先改了一轮**：同一个拉丁元音在法语的不同方言、不同时代可以有不同结果。\n2. **借入时间不同**：GVS 之前借入的词，会跟着 GVS 走；GVS 之后借入的词，往往保留更接近拉丁的音。\n3. **拼写被改过**：拼写可能被改回拉丁形，读音却留在法语层，两者从此分家。\n\n所以正确的用法是：**用音变解释“为什么是这样”，不要用它预测“一定是这样”**。遇到具体词，查词典音标；音变规则只负责提供解释框架。",
+      "terms": [
+        {
+          "term": "Great Vowel Shift",
+          "zh": "大元音推移",
+          "en": "Great Vowel Shift",
+          "note": "15–18 世纪英语长元音整体上移、最高两个二合化的音变"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w15d5-p1",
+      "kind": "mcq",
+      "prompt": "civil 的 c 读 [s]，v 读 [v]，最准确的解释是？",
+      "choices": [
+        "经法语借入，[k]→[s]、[w]→[v] 都是法语规则",
+        "英语有一条规则：c 在 i 前读 [s]，v 在词中读 [v]",
+        "拉丁语里 civil 本来就这么读",
+        "因为 civil 是希腊词"
+      ],
+      "answer": 0,
+      "explain": "古典拉丁 civis 读 [ˈkiːwɪs]。[k]→[s] 与 [w]→[v] 都是法语的变化，英语借的是法语的结果。本族词 kiss [k]、wind [w] 没变，正好反证这不是英语的普遍规则。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w15d5-p2",
+      "kind": "mcq",
+      "prompt": "大元音推移对长元音 i 的结果是？",
+      "choices": [
+        "二合化为 [aɪ]，如 virus [ˈvaɪrəs]",
+        "上移为 [iː]，如 legal [ˈliːɡəl]",
+        "保持 [iː] 不变",
+        "下移为 [e]，如 nation [ˈneɪʃən]"
+      ],
+      "answer": 0,
+      "explain": "GVS 的链条是：长 i [iː] 二合化为 [aɪ]，长 e [eː] 上移为 [iː]，长 a [aː] 上移为 [eɪ]。所以 virus 读 [ˈvaɪrəs]、legal 读 [ˈliːɡəl]、nation 读 [ˈneɪʃən]。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w15d5-p3",
+      "kind": "cloze",
+      "prompt": "填入正确的英语单词",
+      "sentence": "A ___ is not a living cell: it can only replicate inside a host, which is why antibiotics do not work against it.",
+      "answer": "virus",
+      "accept": [
+        "virus"
+      ],
+      "explain": "virus 来自拉丁 vīrus，长 i 经 GVS 二合化为 [aɪ]，读 [ˈvaɪrəs]；v 也从拉丁的 [w] 变成 [v]。这两个音变正好对应今天的两条规则：GVS 管元音，法语层管辅音。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w15d5-p4",
+      "kind": "mcq",
+      "prompt": "nation 中的 -tion 读 [ʃən]，最直接的原因是？",
+      "choices": [
+        "拉丁 -tio 的 t 在前高元音前被法语腭化，经 [sj] 变成 [ʃ]",
+        "英语有一条规则：t 在 i 前一律读 [ʃ]",
+        "法语把所有的 t 都读成 [s]",
+        "拼写里的 ti 是后来插入的字母，本来不发音"
+      ],
+      "answer": 0,
+      "explain": "拉丁 -tio 的 t 在前高元音前腭化，法语把它读成 [sj]，再变成 [ʃ]；英语借的是法语的结果，所以 -tion 读 [ʃən]。对比 question [ˈkwestʃən]：那里是 [stj] 的组合，结果保留塞音读 [tʃ]。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w15d5-p5",
+      "kind": "mcq",
+      "prompt": "没学过的 item 来自拉丁 item，今天读 [ˈaɪtəm]。按本课规则，最合理的解释是？",
+      "choices": [
+        "长 i 经大元音推移二合化为 [aɪ]",
+        "i 在重读音节一律读 [aɪ]",
+        "它经法语借入，法语把 i 读成 [aɪ]",
+        "它是本族词，按本族规则读"
+      ],
+      "answer": 0,
+      "explain": "item 是直接借入的拉丁词，长 i 在 GVS 中二合化为 [aɪ]，所以读 [ˈaɪtəm]。注意不能说“重读 i 一律读 [aɪ]”：machine、police 等法语后借词就不是。规则解释倾向，不预测全部。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w15d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词的含义",
+      "passage": "The excavation suggests that the settlement had a written law, public baths and a drainage system long before the surrounding tribes. In other words, civilization here did not arrive with the Romans; it predated them.",
+      "word": "civilization",
+      "choices": [
+        "文明、文明社会",
+        "公民身份",
+        "城市建设技术",
+        "罗马法律"
+      ],
+      "answer": 0,
+      "strategy": "① 同位列举：written law、public baths、drainage system 是文明的具体标志；② 转折：did not arrive with the Romans 说明它早于罗马人；③ 构词：civil（公民的）＋ -ize ＋ -ation，指“公民化、文明化的状态”；④ 排除：公民身份太窄，城市建设只是证据之一。",
+      "explain": "civilization 指文明或文明社会，来自 civilis“公民的”。c 读 [s] 是法语层的读音，拼写却保留了拉丁 civil-。句中的法律、浴场、排水系统正是“文明”的操作性定义。",
+      "concepts": [
+        "c-inference",
+        "c-etymology",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：英语经法国学者习得拉丁音、大元音推移"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "civis / civilis / virus / item 的读音史与借入年代"
+    }
+  ]
+}

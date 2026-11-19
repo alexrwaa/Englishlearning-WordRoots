@@ -51,6 +51,13 @@
           "zh": "名词化",
           "en": "nominalization"
         }
+      ],
+      "morphemeIds": [
+        "sx-tion",
+        "sx-ment",
+        "sx-ance",
+        "sx-ity",
+        "sx-ness"
       ]
     },
     {

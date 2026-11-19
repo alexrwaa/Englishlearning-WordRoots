@@ -55,7 +55,8 @@
         "un",
         "possible",
         "im"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "text",
@@ -66,6 +67,12 @@
         "ness",
         "ment",
         "help"
+      ],
+      "morphemeIds": [
+        "px-un",
+        "sx-ness",
+        "sx-ment",
+        "rx-help"
       ]
     },
     {

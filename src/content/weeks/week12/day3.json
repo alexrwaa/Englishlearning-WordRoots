@@ -104,6 +104,10 @@
           "zh": "脆弱的（一扰动就失效）",
           "en": "brittle"
         }
+      ],
+      "morphemeIds": [
+        "rx-robust",
+        "sx-ness"
       ]
     },
     {
@@ -127,7 +131,8 @@
           "zh": "残差",
           "en": "residual"
         }
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "table",

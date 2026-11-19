@@ -1,7 +1,7 @@
 {
   "$comment": "WordRoots textbook registry. One entry per source the curriculum is derived from. `status` is deliberately blunt: a source is never marked complete unless its full text was actually parsed in this workspace.",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18",
+  "updatedAt": "2026-11-19",
   "sources": [
     {
       "id": "S1",
@@ -13,7 +13,10 @@
       "evidence": "EPUB parsed locally: 11 chapters + 2 appendices + glossary; appendix element table transcribed page by page (analysis/s1/appendix).",
       "rights": "User-provided copy. Not redistributed: no EPUB, no scanned pages, no verbatim prose in this repository. Only derived facts (element forms, glosses, chapter references) and original Chinese explanations are stored.",
       "chapters": 11,
-      "appendices": ["Elements to Glosses", "Glosses to Elements"]
+      "appendices": [
+        "Elements to Glosses",
+        "Glosses to Elements"
+      ]
     },
     {
       "id": "S2",
@@ -21,10 +24,10 @@
       "edition": "2nd",
       "publisher": "eCampusOntario Pressbooks",
       "license": "CC BY-NC-SA 4.0",
-      "status": "not-acquired",
+      "status": "full-text",
       "role": "supplement",
-      "evidence": "Only the source notice and official URLs were available locally; no EPUB/WXR was parsed in this workspace.",
-      "note": "Coverage entries for S2 are marked planned/unsourced until the text is actually parsed. Theoretical content is written from standard linguistics usage, not attributed to S2.",
+      "evidence": "Pressbooks WXR export parsed locally (5.1 MB); EPUB/PDF kept for page-level checks. Morphology, Semantics and Historical Linguistics extracted into s2-topics.json (141 knowledge points) and glossary-s2.json.",
+      "note": "Licensed CC BY-NC-SA 4.0: attribution and share-alike apply to adapted teaching text. The repository stores only original Chinese explanations and facts, never the book text.",
       "plannedTopics": [
         "Morphology",
         "Roots, bases, stems and affixes",
@@ -34,15 +37,21 @@
         "Morphological trees",
         "Lexical semantics",
         "Historical linguistics"
-      ]
+      ],
+      "acquiredFormats": [
+        "wxr",
+        "epub",
+        "pdf"
+      ],
+      "parsedAt": "2026-11-19"
     },
     {
       "id": "S3",
       "title": "WordWorks Structured Word Inquiry resources",
-      "status": "not-acquired",
+      "status": "full-text",
       "role": "method",
-      "evidence": "Only the resource index was available locally; no handouts parsed.",
-      "note": "The SWI workflow implemented in the app (observe → hypothesise → test → revise) follows the publicly described method; no handout text is reproduced.",
+      "evidence": "5 PDFs parsed locally (Bowers & Kirby 2010, two handouts, workshop booklet, spelling-out paper). Extracted 14 practices with page-level provenance into s3-method.json.",
+      "note": "Author-copyrighted handouts, publicly downloadable but not redistributable. Only the method (four questions, word sum, matrix) is re-expressed in original Chinese; no handout text or scan is committed.",
       "plannedTopics": [
         "Word sums",
         "Word matrices",
@@ -50,17 +59,26 @@
         "Spelling structure",
         "Morphemic variation",
         "Etymological evidence"
-      ]
+      ],
+      "acquiredFormats": [
+        "pdf"
+      ],
+      "parsedAt": "2026-11-19"
     },
     {
       "id": "S4",
       "title": "New Word-Analysis",
       "author": "William Swinton",
       "year": 1879,
-      "status": "not-acquired",
+      "status": "full-text",
       "role": "historical",
-      "evidence": "Public-domain text not downloaded in this workspace; classical roots it lists are covered by S1 where they overlap and are verified against modern references.",
-      "note": "Any 19th-century etymology claim is re-checked against current dictionaries before being taught."
+      "evidence": "Project Gutenberg #19346 text parsed locally: 608 element entries extracted into s4-elements.json; 197 overlap S1, 18 conflict, 7 marked obsolete after modern-etymology checks.",
+      "note": "Public domain in the US. 1879 etymologies are re-checked against modern references; entries that no longer hold are flagged obsolete rather than silently taught.",
+      "acquiredFormats": [
+        "txt",
+        "epub"
+      ],
+      "parsedAt": "2026-11-19"
     }
   ]
 }

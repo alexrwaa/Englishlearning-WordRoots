@@ -78,7 +78,9 @@ for (const dirName of weekDirs) {
   }
   const week = readJson<Json>(metaPath);
   const weekNo = Number(week.week);
-  if (!Number.isInteger(weekNo) || weekNo < 1 || weekNo > 12) fail(`${dirName}: invalid week number`);
+  // The curriculum grows with the textbook audit, so the cap is only a sanity
+  // bound against typos; folder/name agreement below is the real check.
+  if (!Number.isInteger(weekNo) || weekNo < 1 || weekNo > 52) fail(`${dirName}: invalid week number`);
   if (String(weekNo).padStart(2, '0') !== dirName.slice(4)) fail(`${dirName}: week number does not match folder name`);
   if (!week.theme || String(week.theme).length < 4) fail(`${dirName}: missing theme`);
   if (!week.intro || String(week.intro).length < 20) fail(`${dirName}: intro too short`);

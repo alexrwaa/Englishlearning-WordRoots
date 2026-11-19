@@ -45,6 +45,9 @@
       ],
       "morphemes": [
         "port"
+      ],
+      "morphemeIds": [
+        "rx-port"
       ]
     },
     {
@@ -210,7 +213,8 @@
         "in",
         "im",
         "con"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "text",
@@ -220,7 +224,8 @@
         "im",
         "port",
         "ant"
-      ]
+      ],
+      "morphemeIds": []
     }
   ],
   "practice": [

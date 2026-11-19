@@ -1,0 +1,281 @@
+{
+  "id": "w16d4",
+  "week": 16,
+  "day": 4,
+  "title": "民间法语：面目全非的词",
+  "tagline": "river 来自 *riparia，nice 来自 nescius：词形磨到看不出祖先，反而因此躲过了“学术化重拼”",
+  "objectives": [
+    "能说明 Vulgar Latin 的含义，并解释星号形式代表什么",
+    "能给出 river、voyage、nice 的词源链，指出它们的词形为何不透明",
+    "能解释“不透明”与“不被重拼”之间的因果关系"
+  ],
+  "prereqs": [
+    "w16d3",
+    "c-transparency"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-transparency",
+    "c-etymology",
+    "c-semantic-shift"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s6-2",
+    "kp-s1c11s6-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "Vulgar Latin：没有进文学传统的拉丁",
+      "body": "古典拉丁是西塞罗、维吉尔的语言，有大量文献。但士兵、商人、农夫说的是另一套拉丁，后世叫 **Vulgar Latin**（通俗拉丁）。它很少被写下来，很多形式是语言学家**拟构**的，所以前面加星号：\n\n- **\\*riparia**“河岸地带”，来自 ripa“岸”，是 **river** 的祖先。\n- 古典拉丁说 **flumen**（河流）或 **amnis**（水流），这两个词反而没有进入日常英语。\n\n星号不是“不确定所以随便写”，而是学界约定：这个形式没有直接文献，是根据罗曼语后代反推出来的。看到星号，就知道证据类型不同。",
+      "terms": [
+        {
+          "term": "Vulgar Latin",
+          "zh": "通俗拉丁语",
+          "en": "Vulgar Latin",
+          "note": "古典时期的口语拉丁，文献极少，多为拟构"
+        },
+        {
+          "term": "unattested",
+          "zh": "未见于文献的",
+          "en": "unattested",
+          "note": "没有直接书面证据，只能由后代语言反推"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "voyage：从“路上的干粮”到“远行”",
+      "body": "拉丁 **viaticum** 指“旅途所需的口粮、盘缠”，来自 via“路”。它经古法语 **veiage** 进入英语，成为 **voyage**，先泛指“旅程”，后来专指“海上航行”。\n\n这条链有一个很有意思的语义转移：从“路上带的东西”转指“路本身”。转喻的路径是“旅途所需 → 旅途”。同族还有 **via**（经由）、**viaduct**（高架桥，via＋duct“引导”）。\n\n注意 voyage 的拼写已经完全法语化：oi 是古法语二合化的痕迹，g 前的元音也已不是拉丁的 ia。今天的英语使用者不会把它和 viaticum 联系起来——这正是下一张卡片要讲的“不透明”。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "viaticum",
+          "note": "旅途口粮、盘缠；via“路”"
+        },
+        {
+          "period": "古法语",
+          "form": "veiage",
+          "note": "二合化与词尾弱化，词形大变"
+        },
+        {
+          "period": "中古英语",
+          "form": "viage / voyage",
+          "note": "泛指旅程"
+        },
+        {
+          "period": "近代英语",
+          "form": "voyage",
+          "note": "多指海上航行"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "不透明，所以不被重拼",
+      "body": "文艺复兴的书写者喜欢把词改回拉丁形，但前提是：他们**认得出**这个拉丁词。认不出，就无从改起。\n\n**nice** 是极端的例子。它来自拉丁 **nescius**“无知的”（ne- 不 ＋ scire 知道），经古法语 nice 进入英语，中古英语义为“愚蠢的、轻浮的”，18 世纪才转为“令人愉快的”。今天的 nice 与 nescius 在拼写上几乎没有共同点，书写者根本不会想到去“恢复”一个 s。\n\n对比 **nation**：nacioun 与 natio 一眼可对应，所以 t 被补回。**chief**、**friar**、**voyage** 都属于“认不出”的一类，因此保持法语拼法。透明度（transparency）决定了重拼的可能性。",
+      "terms": [
+        {
+          "term": "opacity",
+          "zh": "不透明性",
+          "en": "opacity",
+          "note": "词的内部结构或词源对使用者不可辨"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "通俗形与学术形：四组对照",
+      "body": "同一批拉丁词，走口语路径的往往短、难辨；走学术路径的长、可分析。把两组放在一起，你能直观看到“通道”对词形的塑造力。注意最后一行：**\\*riparia** 带星号，说明它本身是拟构形式，不是文献里抄下来的原文；而 river 的拼写已经完全看不出 ripa 的痕迹，所以也没人想去“恢复”它。",
+      "head": [
+        "通俗形",
+        "学术形",
+        "拉丁源",
+        "通俗形的变化"
+      ],
+      "rows": [
+        [
+          "chief",
+          "capital",
+          "caput“头”",
+          "词形磨短，c 软化，p 脱落"
+        ],
+        [
+          "friar",
+          "fraternal",
+          "frater“兄弟”",
+          "词尾消失，元音重组"
+        ],
+        [
+          "voyage",
+          "viaticum",
+          "viaticum“旅途口粮”",
+          "二合化，音节合并"
+        ],
+        [
+          "river",
+          "*riparia“河岸地带”",
+          "*riparia",
+          "词尾脱落，p→v，意义专指河流"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "透明与不透明，决定拼写的命运",
+      "body": "同样是拉丁借词，有的被改回拉丁形，有的原封不动。分界线不是“重要不重要”，而是“看不看得出来”。看出来的，书写者有把手可下；看不出来的，想改也无从改起。这条因果把“拼写保守”与“词形磨损”两件事连了起来：磨损越厉害，越不会被重拼。",
+      "a": "透明（可被重拼）",
+      "b": "不透明（保持法语形）",
+      "rows": [
+        {
+          "label": "例子",
+          "a": "nation, debt, doubt",
+          "b": "nice, chief, voyage, river"
+        },
+        {
+          "label": "词形与拉丁的关系",
+          "a": "一眼可对应",
+          "b": "已无对应"
+        },
+        {
+          "label": "书写者的动作",
+          "a": "补回不发音的字母",
+          "b": "无从下手，保持原样"
+        },
+        {
+          "label": "今天的后果",
+          "a": "拼写像拉丁，读音像法语/英语",
+          "b": "拼写与读音都停在法语层"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w16d4-p1",
+      "kind": "mcq",
+      "prompt": "语言学家写作 *riparia 时，星号表示？",
+      "choices": [
+        "该形式未见于文献，是根据后代语言拟构的",
+        "该形式拼写有争议，尚未确定",
+        "该形式来自希腊语",
+        "该形式在现代英语中仍在使用"
+      ],
+      "answer": 0,
+      "explain": "星号是历史语言学的约定：标注意义或形式为拟构，没有直接文献证据。*riparia 是根据法语 riviere、英语 river 等后代反推出来的通俗拉丁形式。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w16d4-p2",
+      "kind": "mcq",
+      "prompt": "river 的词源链，下面哪项正确？",
+      "choices": [
+        "拉丁 *riparia（河岸地带）→ 古法语 riviere → 英语 river",
+        "拉丁 flumen → 古法语 riviere → 英语 river",
+        "拉丁 amnis → 古法语 riviere → 英语 river",
+        "古英语 ēa → 中古英语 river"
+      ],
+      "answer": 0,
+      "explain": "river 来自通俗拉丁 *riparia（ripa“岸”），经古法语 riviere 进入英语。古典拉丁的 flumen、amnis 反而没有留下日常英语后代，这说明英语借的是口语层，不是文学层。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w16d4-p3",
+      "kind": "cloze",
+      "prompt": "填入名词（英文）",
+      "sentence": "The ___ from Lisbon to Bombay took six months and cost more than the cargo was worth.",
+      "answer": "voyage",
+      "accept": [
+        "voyage"
+      ],
+      "explain": "voyage 来自拉丁 viaticum“旅途口粮”，经古法语 veiage 进入英语。句中 from Lisbon to Bombay、took six months 都指向海上远行，正是 voyage 的现代专指义。",
+      "concepts": [
+        "c-borrowing",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w16d4-p4",
+      "kind": "mcq",
+      "prompt": "nice 的词源与语义变化，下面哪项正确？",
+      "choices": [
+        "来自拉丁 nescius“无知的”，经法语进入英语，义从“愚蠢”转为“令人愉快”",
+        "来自古英语 nīc“精致”，与拉丁无关",
+        "来自拉丁 nitidus“光亮的”，一直表示“好看”",
+        "来自法语 niais“笨拙”，现代义未变"
+      ],
+      "answer": 0,
+      "explain": "nice 来自拉丁 nescius（ne- 不 ＋ scire 知道）“无知的”，经古法语进入英语，中古义为“愚蠢的、轻浮的”，18 世纪转为“令人愉快的”。词形已完全不透明，所以没人按 nescius 重拼。",
+      "concepts": [
+        "c-etymology",
+        "c-transparency",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w16d4-p5",
+      "kind": "mcq",
+      "prompt": "没学过的 noise 来自古法语 noise，最终可追溯到拉丁 nausea“晕船”。最合理的说明是？",
+      "choices": [
+        "词形已不透明，英语没有按 nausea 重拼；意义从“不适”转为“噪声”",
+        "英语按拉丁 nausea 重拼成了 noise",
+        "noise 是 nausea 的学术借词，保留拉丁词尾",
+        "二者只是拼写相近，没有词源关系"
+      ],
+      "answer": 0,
+      "explain": "noise 经古法语进入英语，词源一般追溯到拉丁 nausea“晕船、恶心”，但这条联系本身仍有争议。可以确定的是：词形早已不透明，所以没有被改回 nausea；意义则从“身体不适/骚动”转为“声响”。",
+      "concepts": [
+        "c-etymology",
+        "c-transparency"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w16d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词的含义",
+      "passage": "The river no longer reaches the sea in a single channel: silt has split it into a dozen branches, and each branch shifts its course after every flood.",
+      "word": "river",
+      "choices": [
+        "河流",
+        "河岸",
+        "洪水",
+        "河道工程"
+      ],
+      "answer": 0,
+      "strategy": "① 谓语线索：reaches the sea、split it into branches 说明主干是水道；② 同现：silt、flood、course 都是河流语域的搭配；③ 词源辅助：river < *riparia“河岸地带”，由岸转指水道；④ 排除：它不是岸、洪水或工程。",
+      "explain": "river 指河流，来自通俗拉丁 *riparia“河岸地带”，由“岸”转指“水道”。它的词形已经完全不透明，所以文艺复兴的书写者没有把它改回 riparia——这正是“不透明所以不重拼”的实例。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing",
+        "c-semantic-shift"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：通俗拉丁语、民间法语借词、不透明与不重拼"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "*riparia / viaticum / nescius / nausea 的语源与语义史"
+    }
+  ]
+}

@@ -1,6 +1,15 @@
 import { describe, expect, it } from 'vitest';
 import { allWords } from '../../lib/content';
-import { affixColumns, buildLadder, buildRows, filterRows, groupResults } from './model';
+import {
+  affixColumns,
+  buildLadder,
+  buildRows,
+  filterRows,
+  groupResults,
+  ladderLevels,
+  maxDepthOf,
+  nodesAtDepth,
+} from './model';
 
 const DICTIONARY = new Set(allWords().map((w) => w.w));
 
@@ -34,8 +43,7 @@ describe('ladder', () => {
   });
 });
 
-describe('grid rows', () => {
-  it('judges every cell into one of the three states', () => {
+describe('grid rows', () => {  it('judges every cell into one of the three states', () => {
     const nodes = buildLadder('help', DICTIONARY);
     const columns = affixColumns(nodes, allWords());
     const rows = buildRows(nodes, columns, DICTIONARY);
@@ -61,5 +69,57 @@ describe('grid rows', () => {
     expect(groups.length).toBeGreaterThan(0);
     const help = groups.find((g) => g.family === 'rx-help');
     expect(help?.words.some((w) => w.word === 'unhelpfulness')).toBe(true);
+  });
+});
+
+describe('expansion', () => {
+  it('no longer stops at 20 nodes for a large family', () => {
+    const nodes = buildLadder('form', DICTIONARY);
+    expect(nodes.length).toBeGreaterThan(20);
+    expect(nodes.map((n) => n.depth)).toContain(3);
+  });
+
+  it('still honours an explicit ceiling when one is asked for', () => {
+    const capped = buildLadder('form', DICTIONARY, 4, 12);
+    expect(capped).toHaveLength(12);
+  });
+
+  it('reports one level per derivation depth and keeps depth 0 alone', () => {
+    const nodes = buildLadder('nation', DICTIONARY);
+    const levels = ladderLevels(nodes);
+    expect(levels[0]).toEqual({ depth: 0, count: 1 });
+    expect(levels.map((l) => l.depth)).toEqual([...levels.map((l) => l.depth)].sort((a, b) => a - b));
+    expect(maxDepthOf(nodes)).toBe(levels.at(-1)?.depth);
+  });
+
+  it('reveals every node up to the requested depth', () => {
+    const nodes = buildLadder('nation', DICTIONARY);
+    const level1 = nodesAtDepth(nodes, 1);
+    expect(level1.every((n) => n.depth <= 1)).toBe(true);
+    expect(nodesAtDepth(nodes, 0)).toHaveLength(1);
+    expect(level1.length).toBeLessThan(nodes.length);
+  });
+});
+
+describe('filtering keeps cells', () => {
+  const rows = () => {
+    const nodes = buildLadder('help', DICTIONARY);
+    const columns = affixColumns(nodes, allWords());
+    return { rows: buildRows(nodes, columns, DICTIONARY), columns };
+  };
+
+  it('dims a non-matching search row instead of deleting it', () => {
+    const { rows: all } = rows();
+    const filtered = filterRows(all, { query: 'unhelpful', pos: 'all', suffix: '', family: '' });
+    expect(filtered).toHaveLength(all.length);
+    expect(filtered.filter((r) => r.matches).length).toBeLessThan(all.length);
+    expect(filtered[0].cells).toHaveLength(all[0].cells.length);
+  });
+
+  it('drops rows only when onlyMatches is asked for', () => {
+    const { rows: all } = rows();
+    const filtered = filterRows(all, { query: 'unhelpful', pos: 'all', suffix: '', family: '', onlyMatches: true });
+    expect(filtered.length).toBeLessThan(all.length);
+    expect(filtered.every((r) => r.matches)).toBe(true);
   });
 });

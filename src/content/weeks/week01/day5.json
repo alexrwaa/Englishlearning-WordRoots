@@ -50,6 +50,11 @@
         "bio",
         "logy",
         "graph"
+      ],
+      "morphemeIds": [
+        "cx-bio",
+        "cx-logy",
+        "cx-graph"
       ]
     },
     {
@@ -123,6 +128,12 @@
         "meter",
         "photo",
         "graph"
+      ],
+      "morphemeIds": [
+        "cx-therm",
+        "cx-meter",
+        "cx-photo",
+        "cx-graph"
       ]
     },
     {
@@ -164,6 +175,10 @@
       "morphemes": [
         "helico",
         "pter"
+      ],
+      "morphemeIds": [
+        "cx-helico",
+        "rx-pter"
       ]
     }
   ],

@@ -1,0 +1,282 @@
+{
+  "id": "w14d7",
+  "week": 14,
+  "day": 7,
+  "title": "动形词 -nd- 与两周综合",
+  "tagline": "agenda 不是“议程”本义，而是“应当被做的事”",
+  "objectives": [
+    "能说出动形词 -nd- 的语义（应当被……的），并认出 agenda、memorandum、referendum",
+    "能区分 -nd- 动形词名词化与 -t-／-s- 完成分词名词化两条来源",
+    "能对一段学术文字完成定位、切分、释义与校验的完整流程"
+  ],
+  "prereqs": [
+    "w14d6"
+  ],
+  "concepts": [
+    "c-suffix",
+    "c-derivation",
+    "c-base",
+    "c-inference",
+    "c-word-family",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s5-5"
+  ],
+  "minutes": {
+    "review": 6,
+    "learn": 7,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "-nd-：应当被做的事",
+      "body": "拉丁的**动形词**（gerundive）以 **-nd-** 结尾（-ndus / -nda / -ndum），意思是“应当被……的、值得被……的”。它把“义务、必要”直接编码进词形，这是拉丁特有的语法范畴，英语没有对应的形态。\n\n- agere（做）→ agenda（应做之事，中性复数）→ 英语 **agenda**\n- memorare（记住）→ memorandum（应被记住之事）→ **memorandum**\n- referre（提交）→ referendum（应被提交（表决）之事）→ **referendum**\n- revereri（敬畏）→ reverendus（应受敬畏的）→ **reverend**（对牧师的尊称）\n- propagare（传播）→ propaganda（应被传播之事）→ **propaganda**\n- legere（读）→ legenda（应被读的东西，圣徒传记）→ **legend**\n\n看到 -nd- 结尾的学术词，先加“应当被”三个字试一试，通常能立刻通顺。",
+      "terms": [
+        {
+          "term": "gerundive",
+          "zh": "动形词",
+          "en": "gerundive",
+          "note": "拉丁中表“应当被……”的形容词性动词形式"
+        }
+      ],
+      "morphemes": [
+        "nd"
+      ],
+      "morphemeIds": [
+        "sx-nd"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-um / -a：两条名词化路径不要混",
+      "body": "拉丁把中性形式的动形词或完成分词直接当名词用，英语借来后就成了一批“看起来像复数”的词。要分清两条来源：\n\n**动形词（-nd-）**：语义是“应当被……的事”。\n- agendum / agenda（应做之事）\n- memorandum / memoranda（应记之事）\n- referendum / referenda（应交付表决之事）\n\n**完成分词（-t-／-s-）**：语义是“已经被……的东西”。\n- datum / data（已被给出的东西）\n- erratum / errata（已被弄错的东西）\n- stratum / strata（被铺开的东西→地层）\n\n两条路径在英语里都表现为“单数 -um、复数 -a”，所以单看形式分不出来。判断依据是**语义**：带“应当”的是动形词，带“已经／被”的是完成分词。这一点在阅读法律、学术文本时很有用。",
+      "morphemes": [
+        "nd",
+        "um"
+      ],
+      "morphemeIds": [
+        "sx-nd",
+        "cx-ium-um"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "六个 -nd- 词的语义与用法",
+      "body": "第三列是现代英语的常用义，第四列是字面义。把两列并排看，会发现现代义几乎都是字面义的“制度化”结果：应做之事变成会议日程，应记之事变成公文，应交付表决之事变成公投。",
+      "head": [
+        "拉丁形式",
+        "字面义",
+        "现代英语义",
+        "语域"
+      ],
+      "rows": [
+        [
+          "agenda",
+          "应当被做的事（复数）",
+          "议程；待办事项",
+          "通用"
+        ],
+        [
+          "memorandum",
+          "应当被记住的事",
+          "备忘录、公文",
+          "商务、外交、学术"
+        ],
+        [
+          "referendum",
+          "应当被交付（表决）的事",
+          "全民公投",
+          "政治、法律"
+        ],
+        [
+          "reverend",
+          "应当受敬畏的",
+          "可敬的；牧师尊称",
+          "宗教"
+        ],
+        [
+          "propaganda",
+          "应当被传播的事",
+          "宣传（多含贬义）",
+          "政治、媒体"
+        ],
+        [
+          "legend",
+          "应当被阅读的东西",
+          "传说；图例",
+          "通用、出版"
+        ]
+      ]
+    },
+    {
+      "kind": "passage",
+      "title": "综合阅读：一份委员会备忘录",
+      "body": "这是两周内容的综合检验。先扫一遍找拉丁痕迹（-nd-、-tio、-a 复数、-ent-），再判断每个词的词性与句法位置，最后才读细节。第二遍再回答下面的三个问题，答不出来就回到前六天对应的课程。",
+      "excerpt": "The committee's agenda lists three items, but the memorandum circulated beforehand makes the sequence clear. First, the data from the pilot study are to be reviewed; second, the criteria for inclusion must be restated; third, a referendum on the proposed merger will be scheduled. Members should note that the errata attached to the appendix correct two figures in the original report.",
+      "glossZh": "委员会议程列出三项，但事先传阅的备忘录把顺序说明了。第一，先审阅试点研究的数据；第二，必须重新表述纳入标准；第三，将安排就拟议合并举行公投。委员们应注意，附录所附的勘误表更正了原报告中的两个数字。",
+      "questions": [
+        {
+          "q": "这段文字里哪些词来自动形词（-nd-）？",
+          "a": "agenda（应做之事）、memorandum（应记之事）、referendum（应交付表决之事）。三者都含 -nd-，语义都带“应当被”。"
+        },
+        {
+          "q": "data、criteria、errata 各是什么形式，为什么动词分别用 are、must、correct？",
+          "a": "三者都是拉丁复数：data（datum 的复数）、criteria（criterion 的复数）、errata（erratum 的复数）。data 与 are 一致，criteria 作 must be restated 的主语，errata 作 correct 的主语，都是复数一致。"
+        },
+        {
+          "q": "这份备忘录的语域特征是什么？",
+          "a": "高度正式：拉丁复数、被动结构（are to be reviewed、must be restated、will be scheduled）、公文名词（memorandum、errata、appendix）。换成日常英语会写 we will check the numbers first。"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "长词拆解：indestructible",
+      "body": "用两周的工具走一遍四步法。\n\n**切分**：in + de + struct + ible。\n**释义**：in-（否定）+ de-（向下、反）+ struct（建造）+ -ible（能够被……的）。\n**层级**：destruct（摧毁）→ destructible（可摧毁的）→ indestructible（不可摧毁的）。否定前缀 in- 作用在整个形容词上，不是直接接 struct。\n**校验**：同族有 construct、instruct、structure、destruction；-ible 只接在拉丁动词词干后（此处 destruct-），不能换成 -able（*destructable 不是标准形式）。\n\n注意两点：① 拼写里 in- 在 d 前不变（不是 *imdestructible），因为同化只发生在 p、b、m 前；② 这个长词的信息量几乎全在层级里——把 in- 挂错层，就会解释成“不建造”，与原义相反。",
+      "morphemes": [
+        "ible",
+        "struct"
+      ],
+      "morphemeIds": [
+        "sx-ible",
+        "rx-stru"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w14d7-p1",
+      "kind": "mcq",
+      "prompt": "agenda 的原始语义是：",
+      "choices": [
+        "应当被做的事（动形词中性复数）",
+        "已经做完的事（完成分词）",
+        "做事的人（施事后缀）",
+        "做事的地方（场所后缀）"
+      ],
+      "answer": 0,
+      "explain": "agenda 是 agere 的动形词 agendum 的中性复数，字面“应当被做的事”。它不是完成分词（那会是 acta“已做之事”），也不是施事（agent）或场所（agenda 没有场所义）。英语把它重新分析为单数可数名词，所以现在说 the agenda is。",
+      "concepts": [
+        "c-suffix",
+        "nd",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w14d7-p2",
+      "kind": "cloze",
+      "prompt": "填入 memorandum 的拉丁复数（正式文本用）",
+      "sentence": "The two ___ were drafted by different offices, and their wording differs on the key point.",
+      "answer": "memoranda",
+      "accept": [
+        "memoranda",
+        "备忘录"
+      ],
+      "explain": "memorandum 是动形词，中性复数收 -a：memoranda。Two 要求复数。英语化的 memorandums 也成立，但正式公文与学术文本更常用 memoranda。注意这里 -a 不是“阴性单数”，而是中性复数词尾——判断依据是它来自 -um 的单数。",
+      "concepts": [
+        "c-inflection",
+        "nd",
+        "um"
+      ]
+    },
+    {
+      "id": "w14d7-p3",
+      "kind": "mcq",
+      "prompt": "关于 data 的用法，最准确的描述是：",
+      "choices": [
+        "学术传统作复数（data are），日常与新闻常作集合单数（data is），两种都有依据",
+        "data 只能是复数，data is 是语法错误",
+        "data 只能是单数，data are 是过时用法",
+        "data 是不可数名词，没有单复数区别"
+      ],
+      "answer": 0,
+      "explain": "data 是 datum 的复数（完成分词中性复数），学术写作传统上配复数动词；但作为“材料、证据”的集合义，日常英语普遍配单数动词。两种用法都有大量语料支持，选择取决于语域与读者期待。绝对化的说法（只能复数／只能单数）都不符合实际。",
+      "concepts": [
+        "c-inflection",
+        "c-register",
+        "um"
+      ]
+    },
+    {
+      "id": "w14d7-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）propaganda 的字面义与现代义分别是：",
+      "choices": [
+        "应当被传播的事；宣传（常含操纵意味）",
+        "已经传播的事；广告预算",
+        "传播的人；宣传员",
+        "传播的地方；媒体机构"
+      ],
+      "answer": 0,
+      "explain": "propagare（繁殖、传播）的动形词 propaganda 字面是“应当被传播的事”，原用于天主教会传信部（de propaganda fide）。现代义“宣传”带贬义，是因为它暗示“被有组织地传播、不问真假”。施事是 propagandist，场所要用 -arium 一类，都不是这个词。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "nd"
+      ],
+      "hint": "先按“应当被……”解字面，再看现代义为何贬义化。"
+    },
+    {
+      "id": "w14d7-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“不可预测的”的切分",
+      "parts": [
+        "un",
+        "pre",
+        "dict",
+        "able"
+      ],
+      "answer": "unpredictable",
+      "explain": "un-（否定）+ pre-（预先）+ dict（说）+ -able（能够被……的）→ unpredictable“不可预测的”。层级：predict → predictable → unpredictable，un- 作用于整个形容词。注意 -able 接在动词词干 dict- 后，符合拉丁 -bilis 的能产模式；-ible 则多用于固定的拉丁词（visible、possible）。",
+      "concepts": [
+        "c-word-sum",
+        "c-derivation",
+        "able"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w14d7-a1",
+      "kind": "infer",
+      "prompt": "推测 referendum 的含义",
+      "passage": "The council has called a referendum: the question will be put directly to the voters, and the result will bind the council even if it disagrees with the outcome.",
+      "word": "referendum",
+      "choices": [
+        "全民公投",
+        "议会内部表决",
+        "司法复审",
+        "公众咨询（无约束力）"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：re-（回）+ fer（带）+ -nd-（应当被……）+ -um → “应当被提交（表决）之事”；② 句法：called a referendum，冒号后给出定义；③ 语境：put directly to the voters、result will bind the council——直接交由选民且结果有约束力；④ 校验：内部表决与 voters 矛盾，司法复审是法院程序，无约束力咨询与 bind 矛盾。",
+      "explain": "referendum 是“全民公投”。动形词 -nd- 的“应当被”在这里正好对应制度设计：某些问题“应当被交回”选民决定。这个词把两周的三条线索串在一起——-nd- 的动形词语义、-um 的中性名词化、以及借词在英语里被重新分析为可数名词（复数是 referendums 或 referenda）。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "nd"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：动形词与 -um／-a 名词化"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "动形词词表与英语借词"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "agenda、referendum、propaganda 的语源与语义演变"
+    }
+  ]
+}

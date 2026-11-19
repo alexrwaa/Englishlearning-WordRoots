@@ -40,6 +40,10 @@
       "morphemes": [
         "duc",
         "duct"
+      ],
+      "morphemeIds": [
+        "rx-duc",
+        "rx-duc"
       ]
     },
     {
@@ -59,7 +63,8 @@
         "de",
         "e",
         "duc"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "matrix",
@@ -200,6 +205,11 @@
         "semi",
         "duct",
         "or"
+      ],
+      "morphemeIds": [
+        "px-semi",
+        "rx-duc",
+        "sx-or"
       ]
     }
   ],

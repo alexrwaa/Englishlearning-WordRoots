@@ -51,6 +51,20 @@ export interface Morpheme {
   /** Free-form teaching note, in Chinese, aimed at CET-4/6 readers. */
   note?: string;
   sources: SourceRef[];
+  /** Word family bucket (`fam-struct`); generic buckets like `fam-prefix` exist. */
+  familyId?: string;
+  /** Normalised spelling used for joins. Not an identity (see DATA_IDENTITY.md). */
+  formKey?: string;
+  /** Shortest distinguishing label, shown when a spelling has homographs. */
+  senseKey?: string;
+  /** Same spelling, different linguistic entity — IDs, reciprocal. */
+  homographs?: string[];
+  /** `verified` = origin and sense are both checkable; `provisional` = tentative. */
+  identityStatus?: 'verified' | 'provisional';
+  /** Linguistic review record. Absent means unreviewed, never "approved". */
+  review?: { by: string; at: string; note?: string };
+  /** IDs this record used to carry, for migrating stored learner data. */
+  legacyIds?: string[];
 }
 
 /** A non-morpheme concept: a rule, a distinction, or a method. */
@@ -82,6 +96,12 @@ export interface WordEntry {
   };
   /** Concepts / morphemes this word demonstrates. */
   tags?: string[];
+  /** Morpheme IDs parallel to `parts`; `null` where the part is ambiguous. */
+  partIds?: (string | null)[];
+  /** `exact` only when every part resolved to one morpheme ID. */
+  partResolution?: 'exact' | 'ambiguous' | 'unresolved';
+  /** True when the morphemic split has been checked against a dictionary. */
+  verified?: boolean;
   /** Domain tag for scientific-English lessons. */
   domain?: 'robotics' | 'slam' | 'sensor' | 'cs' | 'ai' | 'science' | 'general';
 }
@@ -104,6 +124,8 @@ export type Card =
       body: string;
       terms?: TermGloss[];
       morphemes?: string[];
+      /** Morpheme IDs parallel to `morphemes`; empty when any form is ambiguous. */
+      morphemeIds?: string[];
     }
   | {
       kind: 'etym';

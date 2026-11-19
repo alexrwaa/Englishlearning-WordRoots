@@ -1,0 +1,260 @@
+{
+  "id": "w14d4",
+  "week": 14,
+  "day": 4,
+  "title": "动词词干：连接元音、-sc- 起始体与鼻音中缀",
+  "tagline": "同一个“破”有两副词干：frang-（正在破）与 fract-（已经破）",
+  "objectives": [
+    "能说明拉丁动词词干的基本构成，以及 -a- 连接元音在英语里的残留",
+    "能解释 -sc- 表“开始进入某状态”，并认出 incandescent、evanescent 一类词",
+    "能解释鼻音中缀为什么让英语借到 fract- 而不是 frang-"
+  ],
+  "prereqs": [
+    "w14d3"
+  ],
+  "concepts": [
+    "c-root",
+    "c-derivation",
+    "c-allomorph",
+    "c-suffix",
+    "c-word-family"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s5-1",
+    "kp-s1c9s5-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "动词词干与那条 -a-",
+      "body": "拉丁动词也遵循“词根 + 后缀 → 词干”的路线。最简单的后缀是一个单元音 **-a-**，它把词根变成第一变格法动词的词干：\n\n- err-（漫游、偏离）+ -a- → errāre“漫游、犯错”\n- laud-（赞扬）+ -a- → laudāre“赞扬”\n- am-（爱）+ -a- → amāre“爱”\n\n英语借 err 时把 -āre 整个丢掉，只剩 err；但派生词把这条 -a- 的痕迹留了下来：\n\n- **erratic** ← erraticus（err- + -aticus），指“游移不定的”\n- **inerrant** ← in- + errant-（errāre 的现在分词词干），指“不会出错的”\n\n所以不要以为 err 是“光秃秃的词根”。它是词根加连接元音后再被削掉词尾的结果；一旦进入派生，被削掉的部分就以另一种形式回来了。",
+      "terms": [
+        {
+          "term": "thematic vowel",
+          "zh": "连接元音",
+          "en": "thematic vowel",
+          "note": "接在词根与词尾之间、构成动词词干的元音"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-sc-：不是“做”，而是“开始做”",
+      "body": "拉丁的 **-sc-**（更完整是 -ēsc-）是**起始体**（inchoative）标记：它把“处于某状态”改成“开始进入某状态”。这条出现在大量学术形容词里：\n\n- candēre（发光）→ candescere（开始发光）→ **incandescent**（白炽的）\n- florēre（开花）→ florescere（开始开花）→ **florescent**（开花的）\n- evanescere（开始消失）→ **evanescent**（转瞬即逝的）\n- obsolescere（开始废弃）→ **obsolescent**（逐渐过时的）\n- tumēre（肿）→ tumescere（开始肿）→ **tumescent**\n\n英语里这些词几乎都是 -escent／-sc- 结尾的形容词，语义都带“正在进入某种状态”的过程感。这一点在翻译里很重要：incandescent 不是“发光的”，而是“被加热到开始发光的”。\n\n顺带一提：英语本土的 -ish（reddish、childish）也常带“趋向”义，但那是另一个来源，不要混为一谈。",
+      "terms": [
+        {
+          "term": "inchoative",
+          "zh": "起始体",
+          "en": "inchoative",
+          "note": "表示动作或状态开始"
+        }
+      ],
+      "morphemes": [
+        "sc"
+      ],
+      "morphemeIds": [
+        "cx-esc-sc"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-ta- / -ita-：反复做，所以更强",
+      "body": "拉丁有一类**反复／加强**动词，后缀是 **-ta-**（或 **-ita-**）：在动词词干后加 -t- 再加 -a-，表示“反复做、使劲做”。英语借来的 -ate 动词与 -ator 名词里常能看到这层：\n\n- agere（做、驱动）→ agitare（反复驱动、搅动）→ **agitate**（搅动、使焦虑）、**agitator**（搅拌器、鼓动者）\n- dicere（说）→ dictare（反复说、口授）→ **dictate**（口述、命令）、dictation\n- haerēre（粘住）→ haesitare（反复犹豫）→ **hesitate**（犹豫）\n- clamare（喊）→ clamitare（反复喊）→ 英语不常用，但同型可见于拉丁文本\n\n注意语义后果：agitator 不只是“做的人”，而是“反复搅动的人／装置”。这层“反复”不是英语加的，是拉丁 -ta- 带来的。\n\n辨异：-t- 在这里是反复标记，不是完成分词标记（明天讲）。两者拼写相近，但一个表“反复做”，一个表“已经做完”，要看它接的是动词词干还是分词词干。",
+      "morphemes": [
+        "ate",
+        "ator"
+      ],
+      "morphemeIds": [
+        "sx-ate",
+        "sx-ator"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "鼻音中缀：为什么英语是 fracture 而不是 frangture",
+      "body": "拉丁现在时会在词根里插入一个鼻音（m／n），这叫**鼻音中缀**。它只出现在现在时系统里，完成分词仍用不带鼻音的词根：\n\n- 词根 frag-（破）→ 现在时 **frangere**（正在破）→ 完成分词 **fractus**（已经破）\n- 词根 tag-（触）→ 现在时 **tangere**（正在触）→ 完成分词 **tactus**（已经触）\n- 词根 pag-（固定）→ 现在时 **pangere** → 完成分词 **pactus**（约定）\n- 词根 vic-（征服）→ 现在时 **vincere** → 完成分词 **victus**\n\n英语借词几乎都取**完成分词词干**，因为名词与形容词多由它派生：\n\n- fract- → fracture、fraction、fragile（frag- 另一支）\n- tact- → tactile、contact、intact\n- pact- → pact、compact\n- vict- → victory、conviction\n\n所以英语里看不到 frangture，只有 fracture；也看不到 tangtile，只有 tactile。这条规律可以解释一大批“词根对不上现在时”的现象。",
+      "terms": [
+        {
+          "term": "nasal infix",
+          "zh": "鼻音中缀",
+          "en": "nasal infix",
+          "note": "插入词根内部的鼻音，标记现在时词干"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四组词根的三副面孔",
+      "body": "这张表的核心是第二列与第三列的差异：现在时带鼻音，完成分词不带。英语借的是第三列，所以你在英语里看到的是 fract-、tact-、pact-、vict-。做题时先问“这个词来自现在时还是完成分词”，答案通常决定拼写。",
+      "head": [
+        "词根",
+        "现在时（带鼻音）",
+        "完成分词",
+        "英语派生词"
+      ],
+      "rows": [
+        [
+          "frag-（破）",
+          "frangere",
+          "fractus",
+          "fracture、fraction、fragment"
+        ],
+        [
+          "tag-（触）",
+          "tangere",
+          "tactus",
+          "tactile、contact、intact"
+        ],
+        [
+          "pag-（固定）",
+          "pangere",
+          "pactus",
+          "pact、compact、impact（经 impactus）"
+        ],
+        [
+          "vic-（征服）",
+          "vincere",
+          "victus",
+          "victory、convict、conviction"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w14d4-p1",
+      "kind": "mcq",
+      "prompt": "incandescent 中的 -sc- 表示：",
+      "choices": [
+        "开始进入某状态：开始发光",
+        "否定：不发光",
+        "反复：反复发光",
+        "完成：已经发光"
+      ],
+      "answer": 0,
+      "explain": "cand-（发光）+ -esc-（起始体）+ -ent（现在分词）→ 正在开始发光的状态，即“白炽的”。否定要用 in- 之外的否定成分（这里 in- 是“进入”而不是否定），反复用 -ta-，完成用 -t- 分词。四类标记各有分工，不能互换。",
+      "concepts": [
+        "c-suffix",
+        "sc",
+        "c-derivation"
+      ]
+    },
+    {
+      "id": "w14d4-p2",
+      "kind": "cloze",
+      "prompt": "填入表示“不稳定的、古怪的”形容词",
+      "sentence": "His ___ behaviour puzzled the team: one day he checked every number twice, the next he submitted a draft without reading it.",
+      "answer": "erratic",
+      "accept": [
+        "erratic",
+        "不规律的"
+      ],
+      "explain": "err-（漫游、偏离）+ -atic（形容词后缀）→ erratic“游移不定的、不规律的”。词根 err 在英语里单独作动词是“犯错”，但 erratic 的核心义是“偏离常规、没有固定路线”，句中的两种极端行为正是“游移”的表现。inerrant 则是否定形式：不会出错的。",
+      "concepts": [
+        "c-root",
+        "c-word-family",
+        "c-suffix"
+      ]
+    },
+    {
+      "id": "w14d4-p3",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）evanescent 最可能的意思是：",
+      "choices": [
+        "很快就会消失的",
+        "正在发光的",
+        "逐渐肿胀的",
+        "刚刚开始的"
+      ],
+      "answer": 0,
+      "explain": "e-（向外）+ van-（空）+ -esc-（起始）+ -ent（分词）→ 开始变空、开始消失，即“转瞬即逝的”。判据是 -esc-：它标“开始进入某状态”，所以这类词都带过程感。正在发光是 -cand-，肿胀是 -tum-，刚开始是 -incho- 一类，词根都不同。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "sc"
+      ],
+      "hint": "-esc- 给的是“开始”，先把这条定下来。"
+    },
+    {
+      "id": "w14d4-p4",
+      "kind": "mcq",
+      "prompt": "agitator 比 actor 多出的那层“反复”来自：",
+      "choices": [
+        "拉丁反复动词 agitare 的 -ta- 后缀",
+        "-tor 本身表反复",
+        "英语加 -or 时的重读规则",
+        "ag- 词根本身表示“反复”"
+      ],
+      "answer": 0,
+      "explain": "agere 是“做、驱动”，agitare 是它的反复形式（反复驱动、搅动），所以 agitator 是“反复搅动的人或装置”。-tor 只表施事，不表反复；ag- 词根也不含反复义。要区分“反复”来自动词词干（-ta-）还是来自名词后缀（-tor），这是两层。",
+      "concepts": [
+        "c-derivation",
+        "ate",
+        "ator"
+      ]
+    },
+    {
+      "id": "w14d4-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“口述、命令”的动词切分",
+      "parts": [
+        "dict",
+        "ate"
+      ],
+      "answer": "dictate",
+      "explain": "dict-（说，见 dictation、dictionary）+ -ate（拉丁 -ta- 反复动词的英语形式）→ dictate“反复说→口授、命令”。同族 dictation、dictator。注意 -ate 在这里不是“形容词后缀”，而是动词词干标记，判断依据是它能带宾语、能有时态变化。",
+      "concepts": [
+        "c-derivation",
+        "c-word-sum",
+        "ate"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w14d4-a1",
+      "kind": "infer",
+      "prompt": "推测 obsolescent 的含义",
+      "passage": "The standard is obsolescent rather than obsolete: it still works, but manufacturers have begun to drop support, and few new devices are certified against it.",
+      "word": "obsolescent",
+      "choices": [
+        "正在逐渐过时的",
+        "已经完全废弃的",
+        "刚刚发布的",
+        "被广泛采用的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：ob-（朝向、对着）+ sol-（习惯、使用）+ -esc-（开始进入）+ -ent（分词）；② 句法：obsolescent rather than obsolete，与“已废弃”形成程度对比；③ 语境：still works, but ... have begun to drop support，正是“正在走向过时”；④ 校验：完全废弃与 rather than obsolete 矛盾，刚发布、广泛采用与 drop support 矛盾。",
+      "explain": "obsolescent 是“正在过时的、逐渐被淘汰的”，obsolete 是“已经废弃的”。-esc- 的过程感在这里是关键：它不是状态，而是进入状态的过程。这一对词几乎是为 -sc- 起始体量身定做的例子，考试里也常拿它们做程度辨析。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "sc"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：动词词干、-sc- 起始体、鼻音中缀"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "拉丁动词变位与分词词干"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "incandescent、obsolescent、fracture 的语源"
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "id": "w15d3",
+  "week": 15,
+  "day": 3,
+  "title": "拼写为什么比读音更保守",
+  "tagline": "nation 里的 t、IVNIOR 里的 V、hesitation 里的 e：三个字母各自讲一段书写史",
+  "objectives": [
+    "能解释文艺复兴后拉丁借词为何倾向保留拉丁拼写",
+    "能说出罗马铭文不分大小写、不分 i/j 与 u/v 的证据与后果",
+    "能判断 ae、oe 何时合并为 e、何时保留，并说明保留的社会原因"
+  ],
+  "prereqs": [
+    "w15d2",
+    "c-spelling-rule"
+  ],
+  "concepts": [
+    "c-spelling-rule",
+    "c-etymology",
+    "c-borrowing",
+    "nation"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s3-1",
+    "kp-s1c11s3-2",
+    "kp-s1c11s3-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "拼写为什么会被“冻住”",
+      "body": "读音一直在变，拼写却常常停在某一代人的习惯上。文艺复兴之后，英语拼写被四种力量同时按住：\n\n1. **印刷术**：一旦排成铅字，改一个字母的成本就很高，异体字迅速减少。\n2. **词典**：18 世纪以后，词典给“正确拼写”提供了权威。\n3. **学者的自尊**：拉丁学者以守旧自许，认为拼写应当体现语源。\n4. **词源风尚**：把法语形的词改回拉丁形，被视为“有学问”。\n\n结果是：拼写记录的是**书写史**，不是**读音史**。nation 里的 t 就是这条规则的标本。",
+      "terms": [
+        {
+          "term": "orthography",
+          "zh": "正字法",
+          "en": "orthography",
+          "note": "一个语言社团公认的拼写规范"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三组区分，罗马人自己并不做",
+      "body": "我们今天看到的拉丁文，很多是后世编辑“现代化”过的。罗马人的铭文只有一种大写字母，I 和 V 各自兼两个音。把这三组区分记住，读铭文和判断词源时就不会被字形骗到。",
+      "head": [
+        "区分",
+        "罗马铭文",
+        "今天",
+        "为什么会加"
+      ],
+      "rows": [
+        [
+          "大小写",
+          "只有大写，词首词中不分",
+          "大写句首、专名；小写其余",
+          "中世纪抄本的书写习惯，后经印刷固定"
+        ],
+        [
+          "i / j",
+          "I 既写元音 [i]，也写辅音 [j]",
+          "i 表元音，j 表辅音",
+          "中世纪为区分读音而分化，17 世纪才稳定"
+        ],
+        [
+          "u / v",
+          "V 既写元音 [u]，也写辅音 [w]",
+          "u 表元音，v 表辅音",
+          "同上；古典拉丁没有 [v] 这个音"
+        ]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "ae 与 oe：合并是常态，保留是标记",
+      "body": "拉丁的二合元音 ae、oe 在后来的读音里都并入了 e，拼写也随之简化。但专名、术语和学名往往保留旧拼——不是因为读音特殊，而是因为“看起来更像拉丁/希腊”。这是一条社会学规则，不是语音规则。",
+      "head": [
+        "词",
+        "拉丁原形",
+        "英语拼写",
+        "读音",
+        "说明"
+      ],
+      "rows": [
+        [
+          "hesitation",
+          "haesitatio",
+          "hesitation",
+          "[ˌhezɪˈteɪʃən]",
+          "ae 并入 e，拼写随读音简化"
+        ],
+        [
+          "penal",
+          "poenal-（poena）",
+          "penal",
+          "[ˈpiːnəl]",
+          "oe 并入 e"
+        ],
+        [
+          "premium",
+          "praemium",
+          "premium",
+          "[ˈpriːmiəm]",
+          "prae- 缩为 pre-"
+        ],
+        [
+          "Caesar",
+          "Caesar",
+          "Caesar",
+          "[ˈsiːzər]",
+          "专名保留 ae，读 [iː]"
+        ],
+        [
+          "Oedipus",
+          "Oedipus（希腊 Oidipous）",
+          "Oedipus",
+          "[ˈiːdɪpəs]",
+          "专名保留 oe，读 [iː]"
+        ],
+        [
+          "alumnae",
+          "alumnae",
+          "alumnae",
+          "[əˈlʌmniː]",
+          "拉丁阴性复数，学术语域保留"
+        ]
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "nation：一个被“改回去”的 t",
+      "body": "nation 的 t 不是从法语带来的，而是后来被补回去的。中古英语写作 nacioun，读作 [naˈsjuːn]，完全没有 [t]。文艺复兴的书写者知道它出自拉丁 natio，就把 t 加了回来。读音没有跟着变，于是留下一个“看得见、听不见”的字母。\n\n这条链条说明一件重要的事：**拼写可以追溯词源，也可以制造错觉**。同一个 t，在 nation 里是真实语源的痕迹；在 island 里则是错误联想的产物。判断标准只有一个：有没有文献证据。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "natio",
+          "note": "“出生、族群”，属格 nationis"
+        },
+        {
+          "period": "古法语",
+          "form": "nacion",
+          "note": "词尾弱化，t 已不发音"
+        },
+        {
+          "period": "中古英语",
+          "form": "nacioun",
+          "note": "约 13 世纪借入，读 [naˈsjuːn]"
+        },
+        {
+          "period": "15–16 世纪",
+          "form": "nation",
+          "note": "书写者按拉丁 natio 补回 t，读音不变"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "看到“多余字母”，先分三类",
+      "body": "英语里不发音的字母不是一类东西。先分类，再解释，才不会把“有语源依据”和“纯属误认”混为一谈：\n\n1. **本族词的音簇**：knight、write、know 里的字母古英语是发音的，中古英语后音簇简化，拼写没跟上。\n2. **法语脱落**：corps、debris 的词尾字母在法语里就不发音，英语连拼写一起借入。\n3. **文艺复兴插入**：debt、doubt、receipt 的 b、p 是按拉丁补的；island 的 s 则是错误类推。\n\n第三类最容易被误讲成“英语拼写很乱”。其实它不乱：它有一条清楚的动机——让拼写看起来更像拉丁。问题只在于，这条动机有时建立在错误的词源判断上。",
+      "terms": [
+        {
+          "term": "learned spelling",
+          "zh": "学术化拼写",
+          "en": "learned spelling",
+          "note": "按古典语源改动拼写，但读音不随之改变"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w15d3-p1",
+      "kind": "mcq",
+      "prompt": "nation 中的 t 是怎么来的？",
+      "choices": [
+        "中古英语本无此音，书写者按拉丁 natio 把 t 补回拼写",
+        "古法语 nacion 本来就读 [t]",
+        "古英语本族词原有的字母",
+        "表示“国家”的语法标记"
+      ],
+      "answer": 0,
+      "explain": "中古英语写作 nacioun，读 [naˈsjuːn]，没有 [t]。文艺复兴时期的书写者依据拉丁 natio 补回 t，但读音没有恢复。这是“拼写保存词源、读音不跟随”的标准案例。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-etymology",
+        "nation"
+      ]
+    },
+    {
+      "id": "w15d3-p2",
+      "kind": "mcq",
+      "prompt": "铭文 IVNIOR 对应今天的哪个词？判断依据是什么？",
+      "choices": [
+        "junior；罗马人用 I 兼写元音 [i] 与辅音 [j]",
+        "ivnior；罗马人没有 j 这个字母，所以应保留 i",
+        "unior；V 在这里读 [u]",
+        "jinior；I 在词首一律读 [dʒ]"
+      ],
+      "answer": 0,
+      "explain": "罗马铭文不分 i/j：I 既写元音 [i]，也写辅音 [j]。IVNIOR 就是 junior。i/j、u/v 的分化是中世纪以后的事，不是拉丁本身的对立。",
+      "concepts": [
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w15d3-p3",
+      "kind": "cloze",
+      "prompt": "填入正确的英语单词",
+      "sentence": "After a long ___ , she finally admitted that she had not read the report.",
+      "answer": "hesitation",
+      "accept": [
+        "hesitation"
+      ],
+      "explain": "hesitation 来自拉丁 haesitatio，ae 后来并入 e，拼写也随之简化成 e。同类还有 penal（poena）、premium（praemium）。这条规则只对普通词有效，专名与术语常保留旧拼。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w15d3-p4",
+      "kind": "mcq",
+      "prompt": "alumnae 为什么保留 ae 而不写成 alumne？",
+      "choices": [
+        "它是拉丁阴性复数，学术语域有意保留旧拼以标示身份",
+        "因为它的读音里真的有 [ae] 两个元音",
+        "因为英语的拼写规则禁止词尾出现 e",
+        "因为它是从希腊语借来的"
+      ],
+      "answer": 0,
+      "explain": "alumnae 读 [əˈlʌmniː]，ae 只读 [iː]，并没有两个元音。保留 ae 是社会选择：学术语域用它标示拉丁复数身份，与 alumnus/alumni 构成一套。同类保留还有 Caesar、Oedipus。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w15d3-p5",
+      "kind": "mcq",
+      "prompt": "没学过的两种拼写 medieval 与 mediaeval，下面哪项解释最合理？",
+      "choices": [
+        "二者是同词异拼：mediaeval 保留了拉丁 medium aevum 的 ae，medieval 是简化形",
+        "mediaeval 是错误拼写，英语中从未出现",
+        "二者读音不同，medieval 多一个音节",
+        "medieval 来自法语，mediaeval 来自拉丁，属于双式词"
+      ],
+      "answer": 0,
+      "explain": "medieval 出自现代拉丁 medium aevum“中间的时代”。mediaeval 保留 ae，medieval 把 ae 简化为 e，二者读音相同，属于同一词的拼写变体，不是双式词。这正是 ae→e 规则在学术词上的表现。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-etymology"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w15d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词的含义",
+      "passage": "The manuscript is a medieval copy, not the original: its handwriting dates from the twelfth century, and the scribe has silently corrected several passages that he thought were errors.",
+      "word": "medieval",
+      "choices": [
+        "中世纪的",
+        "手工抄写的",
+        "残缺不全的",
+        "用拉丁语写的"
+      ],
+      "answer": 0,
+      "strategy": "① 同位线索：a medieval copy 后接 its handwriting dates from the twelfth century，直接给出时间范围；② 构词：medi（中间）＋ ev（时代）＋ -al；③ 排除：手工、残缺、拉丁语都不是“十二世纪”能直接推出的义。",
+      "explain": "medieval 指“中世纪的”，来自 medium aevum“中间的时代”，即古典与文艺复兴之间的那段。句中 twelfth century 是最硬的证据；拼写里的 ae/e 变体不影响词义。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：拼写的保守性、i/j 与 u/v、ae/oe 的合并"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "natio / haesitatio / alumnae / medieval 的拼写史"
+    }
+  ]
+}

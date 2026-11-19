@@ -43,6 +43,9 @@
       ],
       "morphemes": [
         "struct"
+      ],
+      "morphemeIds": [
+        "rx-stru"
       ]
     },
     {
@@ -54,6 +57,12 @@
         "de",
         "ob",
         "struct"
+      ],
+      "morphemeIds": [
+        "px-con",
+        "px-de",
+        "px-ob",
+        "rx-stru"
       ]
     },
     {

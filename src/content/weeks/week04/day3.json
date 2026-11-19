@@ -40,6 +40,13 @@
         "ify",
         "en",
         "ate"
+      ],
+      "morphemeIds": [
+        "sx-ize",
+        "sx-ise",
+        "sx-ify",
+        "cx-oen-en",
+        "sx-ate"
       ]
     },
     {
@@ -86,6 +93,10 @@
       "morphemes": [
         "ize",
         "ise"
+      ],
+      "morphemeIds": [
+        "sx-ize",
+        "sx-ise"
       ]
     },
     {
@@ -94,6 +105,9 @@
       "body": "**-en** 在英语里有三种完全不同的用法，混起来会判错词性：\n\n1. **动词后缀**，加在形容词或名词后表“使变得”：wide → widen，strength → strengthen，dark → darken。\n2. **过去分词词尾**，属于屈折变化：break → broken，take → taken，speak → spoken。这里的 -en 不创造新词，只改变语法形式。\n3. **形容词后缀**，加在名词后表“由……制成的”：gold → golden，wood → wooden，silk → silken。\n\n判断方法还是句法位置：The glass was broken 里是分词；a wooden box 里是形容词；to widen the road 里是动词。词尾只提供候选，位置做最终裁决。",
       "morphemes": [
         "en"
+      ],
+      "morphemeIds": [
+        "cx-oen-en"
       ]
     },
     {

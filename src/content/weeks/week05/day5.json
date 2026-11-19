@@ -39,6 +39,10 @@
       "morphemes": [
         "scrib",
         "script"
+      ],
+      "morphemeIds": [
+        "rx-scrib",
+        "rx-script"
       ]
     },
     {
@@ -52,7 +56,8 @@
         "sub",
         "scrib",
         "script"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "matrix",
@@ -158,6 +163,9 @@
       ],
       "morphemes": [
         "fer"
+      ],
+      "morphemeIds": [
+        "rx-fer"
       ]
     },
     {

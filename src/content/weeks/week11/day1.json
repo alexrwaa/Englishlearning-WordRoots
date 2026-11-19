@@ -59,7 +59,8 @@
         "meter",
         "hydro",
         "gen"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "etym",
@@ -111,7 +112,8 @@
           "en": "Neo-Latin",
           "note": "文艺复兴以后用拉丁语材料新造术语的国际学术语言"
         }
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "text",

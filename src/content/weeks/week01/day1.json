@@ -45,6 +45,12 @@
         "er",
         "un",
         "kind"
+      ],
+      "morphemeIds": [
+        "rx-teach",
+        "sx-er",
+        "px-un",
+        "rx-kind"
       ]
     },
     {
@@ -129,7 +135,8 @@
         "im",
         "il",
         "ir"
-      ]
+      ],
+      "morphemeIds": []
     }
   ],
   "practice": [

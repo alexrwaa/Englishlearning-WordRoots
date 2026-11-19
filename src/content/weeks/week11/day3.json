@@ -48,6 +48,11 @@
           "zh": "同步定位与建图",
           "en": "SLAM"
         }
+      ],
+      "morphemeIds": [
+        "rx-loc",
+        "sx-ize",
+        "sx-ation"
       ]
     },
     {
@@ -125,6 +130,12 @@
         "re",
         "ad",
         "dis"
+      ],
+      "morphemeIds": [
+        "rx-loc",
+        "px-re",
+        "px-ad",
+        "px-dis"
       ]
     },
     {

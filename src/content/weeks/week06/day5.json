@@ -75,6 +75,12 @@
         "macro",
         "tele",
         "scope"
+      ],
+      "morphemeIds": [
+        "px-micro",
+        "px-macro",
+        "px-tele",
+        "cx-scope"
       ]
     },
     {
@@ -85,6 +91,11 @@
         "tele",
         "scope",
         "phon"
+      ],
+      "morphemeIds": [
+        "px-tele",
+        "cx-scope",
+        "cx-phon"
       ]
     },
     {
@@ -102,6 +113,10 @@
       "morphemes": [
         "auto",
         "nom"
+      ],
+      "morphemeIds": [
+        "px-auto",
+        "cx-nom"
       ]
     },
     {

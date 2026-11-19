@@ -36,7 +36,8 @@
       "body": "拉丁 **specere** 意为“看、看见”，它的反复形式 **spectare** 意为“注视、观察”。英语主要从 spect- 这条词干取词，所以几乎每个词都能读成“往某个方向看”：\n\n- in-（向内）+ spect → inspect 看进去 → 检查。\n- ex-（向外）+ spect → expect 向外张望 → 期待。\n- pro-（向前）+ spect → prospect 向前看 → 前景。\n- circum-（环绕）+ spect → circumspect 四面看 → 谨慎的。\n\n把这四个词的“看的方向”说清楚，比分别背四个中文释义更稳，因为方向是可推导的。",
       "morphemes": [
         "spect"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "text",
@@ -52,7 +53,8 @@
       "morphemes": [
         "re",
         "spect"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "matrix",
@@ -208,7 +210,8 @@
       "body": "拉丁 **spectrum** 的本义是“显现出来的影像、幻象”，同样来自 specere。17 世纪牛顿研究棱镜分光时，需要一个词来指“光被展开后呈现的那一列颜色”，于是用了 spectrum——**展开后显现出来的东西**。\n\n这个词义转移很典型：从“看见的影像”到“按波长排列的可见现象”，再到今天的“频谱、光谱、谱”。所以 spectral analysis 是“频谱分析”，不是“幽灵分析”，虽然 specter（幽灵）确实与它同源。\n\n读论文时遇到 spectrum 的抽象用法（a spectrum of opinions），抓住“展开成一列、连续分布”这个意象，就不会译错。",
       "morphemes": [
         "spect"
-      ]
+      ],
+      "morphemeIds": []
     }
   ],
   "practice": [

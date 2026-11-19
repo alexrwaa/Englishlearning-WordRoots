@@ -55,7 +55,8 @@
         "im",
         "il",
         "ir"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "table",
@@ -129,7 +130,8 @@
         "ad",
         "in",
         "com"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "text",

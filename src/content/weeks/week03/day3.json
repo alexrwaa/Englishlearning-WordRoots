@@ -37,6 +37,12 @@
         "post",
         "ante",
         "retro"
+      ],
+      "morphemeIds": [
+        "px-pre",
+        "px-post",
+        "px-ante",
+        "px-retro"
       ]
     },
     {
@@ -90,6 +96,9 @@
       ],
       "morphemes": [
         "re"
+      ],
+      "morphemeIds": [
+        "px-re"
       ]
     },
     {
@@ -128,6 +137,10 @@
       "morphemes": [
         "pre",
         "post"
+      ],
+      "morphemeIds": [
+        "px-pre",
+        "px-post"
       ]
     }
   ],

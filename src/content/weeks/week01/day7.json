@@ -85,6 +85,12 @@
         "help",
         "ful",
         "ness"
+      ],
+      "morphemeIds": [
+        "px-un",
+        "rx-help",
+        "sx-ful",
+        "sx-ness"
       ]
     },
     {
@@ -97,7 +103,8 @@
         "understand",
         "port",
         "therm"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "compare",
@@ -136,6 +143,11 @@
         "un",
         "help",
         "ful"
+      ],
+      "morphemeIds": [
+        "px-un",
+        "rx-help",
+        "sx-ful"
       ]
     }
   ],

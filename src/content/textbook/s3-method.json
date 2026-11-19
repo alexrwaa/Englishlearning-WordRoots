@@ -1,0 +1,390 @@
+{
+ "$comment": "SWI method notes derived from the WordWorks handout set. Paraphrased for this project; no handout prose is reproduced. Page numbers refer to the PDF page (footer numbering in the handouts).",
+ "sourceId": "S3",
+ "title": "WordWorks SWI resources",
+ "files": [
+  "Bowers-Kirby-2010-morphological-instruction-study.pdf",
+  "Handout-Gina-Baltimore.pdf",
+  "Handout-IDA-Fall-2012.pdf",
+  "Spelling-out-and-writing-out-word-structure-2018.pdf",
+  "Workshop-Booklet-IBIDA-Nov-2012.pdf"
+ ],
+ "rights": "作者版权，仅本地分析，不再分发",
+ "generatedAt": "2026-11-19",
+ "practices": [
+  {
+   "id": "swi-inquiry-cycle",
+   "name": "结构化探究五步（Structured Word Inquiry cycle）",
+   "questions": [
+    "这个词里有什么值得追问的拼写现象？",
+    "哪些词能把这个现象暴露出来？",
+    "可以提出什么假设？",
+    "怎样用证据检验假设？",
+    "这个模式还能在哪些词上练习？"
+   ],
+   "steps": [
+    "用一个真实的拼写疑问抓住学生（讲义示例：为什么 <sign> 里有一个 <g>？）",
+    "有目的地呈现一组词，让目标模式变得显著",
+    "让学生根据这组证据提出假设",
+    "引导学生检验假设，并说出精确的模式",
+    "用合适工具（word sum、流程图）练习这个模式，并留下一个新问题"
+   ],
+   "source": "Handout-IDA-Fall-2012.pdf p.6；同一页块见 Handout-Gina-Baltimore.pdf p.4、Workshop-Booklet-IBIDA-Nov-2012.pdf p.4",
+   "appUsedIn": "lesson"
+  },
+  {
+   "id": "swi-four-questions",
+   "name": "四问探究（意义—结构—同族—读音）",
+   "questions": [
+    "这个词（以及它的词基）是什么意思？",
+    "它由哪些词素构成？",
+    "这些词素还出现在哪些词里（同族词）？",
+    "拼写与读音是什么关系，为什么读音变了拼写却不变？"
+   ],
+   "steps": [
+    "先问意义：说出词基的核心义，并把它与现代词义对照（p.7 要求用词源参考核对词基的外延义）",
+    "再问结构：写出 word sum，标出词基、前缀、后缀（p.6-7）",
+    "再问同族：把同族词放进矩阵，检验它们是否共享词基的拼写与意义（p.7）",
+    "最后问读音：比较同族词中词基的读音变化，说明拼写为何保持不变（p.3、p.5）",
+    "四问中任何一问缺少证据，就回到假设而不是直接给结论"
+   ],
+   "note": "讲义没有把四问写成编号列表；本条的四个维度分别来自上述页码，编号形式是本项目为软件流程做的整合。",
+   "source": "Handout-IDA-Fall-2012.pdf p.2, p.6-7；Handout-Gina-Baltimore.pdf p.3, p.5",
+   "appUsedIn": "lesson"
+  },
+  {
+   "id": "swi-word-sum",
+   "name": "构词算式（word sum）",
+   "questions": [
+    "哪些部分是不可再分的词素？",
+    "加上后缀时拼写发生了什么变化？"
+   ],
+   "steps": [
+    "把词基写在算式里（讲义用尖括号标记词基，如 <sign>）",
+    "用 + 连接前缀、词基、后缀，左侧是词素层，右侧是实际拼写",
+    "用重写箭头 → 表示合成，箭头上/旁标出后缀引起的变化（去 e、双写、y→i）",
+    "整词必须是真实存在、能造句的词；不确定就查词典",
+    "出声拼读整个算式：词素边界处停顿，digraph/trigraph 作为一个单位读出"
+   ],
+   "source": "Handout-IDA-Fall-2012.pdf p.7, p.9；Workshop-Booklet-IBIDA-Nov-2012.pdf p.10, p.12；Spelling-out-and-writing-out-word-structure-2018.pdf p.1, p.4",
+   "appUsedIn": "wordSum"
+  },
+  {
+   "id": "swi-word-sum-directions",
+   "name": "合成与分析双向练习",
+   "questions": [
+    "给出一组词素，能否合成真词？",
+    "给出一个词，能否拆到词基？"
+   ],
+   "steps": [
+    "合成（synthetic）：从词素出发写出整词，如 care + ful + ly → carefully",
+    "分析（analytic）：从整词出发拆出词素，先判断它是单纯词基还是复杂词",
+    "两种方向都要出声拼读并显示变化，不能只写答案"
+   ],
+   "source": "Handout-Gina-Baltimore.pdf p.9；Workshop-Booklet-IBIDA-Nov-2012.pdf p.12",
+   "appUsedIn": "wordSum"
+  },
+  {
+   "id": "swi-matrix",
+   "name": "词族矩阵（word matrix）",
+   "questions": [
+    "这个词基能组成哪些真实单词？",
+    "哪些词素位置能共同出现？"
+   ],
+   "steps": [
+    "先确定词基的拼写（不是发音），把它放在矩阵的基列",
+    "用同族词收集候选成员，每个候选都要通过 word sum 检验",
+    "前缀放左侧列，后缀放右侧/上方列，同一词素可以在不同列重复出现",
+    "只保留能构成真实单词的组合；矩阵通常只显示部分可能词",
+    "用最少的词素覆盖尽量多的词族成员（讲义的“优雅解”原则）"
+   ],
+   "source": "Handout-IDA-Fall-2012.pdf p.7；Workshop-Booklet-IBIDA-Nov-2012.pdf p.6, p.14-15",
+   "appUsedIn": "matrix"
+  },
+  {
+   "id": "swi-matrix-reading",
+   "name": "矩阵阅读规则",
+   "questions": [
+    "从左到右读出的组合是不是一个完整单词？",
+    "有没有跳过某一列？",
+    "连接处发生了什么变化？"
+   ],
+   "steps": [
+    "从左到右读矩阵",
+    "只构成单个、完整的单词",
+    "不确定是否为真词时查词典；只构造能放进句子的词",
+    "可以不取每一列的元素，但不能“跳列”（leapfrog）",
+    "注意连接处（watch the joins）：加后缀时可能发生拼写变化"
+   ],
+   "source": "Handout-IDA-Fall-2012.pdf p.8；Workshop-Booklet-IBIDA-Nov-2012.pdf p.7, p.13",
+   "appUsedIn": "matrix"
+  },
+  {
+   "id": "swi-suffix-joins",
+   "name": "后缀连接的三类变化",
+   "questions": [
+    "加这个后缀时词基末尾发生了什么？",
+    "哪些后缀是元音后缀？"
+   ],
+   "steps": [
+    "先观察一个词基的完整矩阵（讲义用 <move>），列出所有 word sum",
+    "比较有变化与无变化的连接，提出“哪些后缀会引起变化”的假设",
+    "归纳三类变化：去掉不发音的 e、双写末尾单辅音、y 变 i",
+    "用流程图把判断顺序固定下来，再用新词族检验假设"
+   ],
+   "source": "Workshop-Booklet-IBIDA-Nov-2012.pdf p.8-9；Bowers-Kirby-2010-morphological-instruction-study.pdf p.10（三类后缀变化的课程内容）",
+   "appUsedIn": "wordSum"
+  },
+  {
+   "id": "swi-spelling-out",
+   "name": "出声拼读与书写拼读（spelling-out / writing-out-loud）",
+   "questions": [
+    "词素边界在哪里？",
+    "哪些字母是一个 grapheme？",
+    "哪里是真正的双写，哪里只是相邻同字母？"
+   ],
+   "steps": [
+    "在词素边界处停顿；单纯词基内部不停顿",
+    "把 digraph/trigraph 和拼写标记作为一个单位读出，不拆成单个字母",
+    "算式中有 + 号隔开的同字母只能逐个读，不能读作 double；没有 + 号隔开的连续同字母才读 double",
+    "书写与出声同时进行（writing-out-loud），用多通道降低认知负荷",
+    "把出声拼读当作评估工具：停顿和犹豫暴露学生的假设"
+   ],
+   "source": "Spelling-out-and-writing-out-word-structure-2018.pdf p.4-5；Bowers-Kirby-2010-morphological-instruction-study.pdf p.12",
+   "appUsedIn": "wordSum"
+  },
+  {
+   "id": "swi-spelling-meaning-evidence",
+   "name": "用同族词证明“拼写标记意义”",
+   "questions": [
+    "为什么这个词的拼写看起来“不按读音”？",
+    "同族词能否解释这个字母？"
+   ],
+   "steps": [
+    "选一个表面不规则的字母（如 <sign> 的 <g>）",
+    "列出同族词（signal、signature、design），比较词基读音",
+    "指出读音改变而词基拼写不变，说明拼写标记的是意义联系",
+    "把结论写进 word sum 与矩阵，而不是补一条发音规则"
+   ],
+   "source": "Handout-IDA-Fall-2012.pdf p.2, p.5, p.7",
+   "appUsedIn": "lesson"
+  },
+  {
+   "id": "swi-etymology-check",
+   "name": "词源核证与“意义回声”",
+   "questions": [
+    "词基的历史核心义是什么？",
+    "现代词义里还能不能听到这个核心义的回声？"
+   ],
+   "steps": [
+    "用词源参考（讲义示例：etymonline、OED）核对词基的指称义",
+    "比较核心义与当代词义：能对应则支持词族假设，不能对应则记录语义漂移甚至否证",
+    "把词源证据与拼写结构证据分开记录，避免用词源替代结构分析"
+   ],
+   "source": "Handout-IDA-Fall-2012.pdf p.7, p.10；Workshop-Booklet-IBIDA-Nov-2012.pdf p.14-15（<image>/<imagine> 的意义检验）",
+   "appUsedIn": "lesson"
+  },
+  {
+   "id": "swi-family-search",
+   "name": "词族检索：拼写序列 ≠ 词素",
+   "questions": [
+    "搜索到的词是否真的共享这个词基？",
+    "它是否与词基有意义联系？"
+   ],
+   "steps": [
+    "先判断目标词是单纯词基还是复杂词；对复杂词先提出词基假设",
+    "用词族检索工具按字母序列搜索（讲义示例：查 <imag> 而不是 <image>，才能找到 <imagine>）",
+    "用“意义检验 + 拼写结构检验”双重筛选候选词",
+    "把通过检验的词写成 word sum，再放进矩阵"
+   ],
+   "source": "Workshop-Booklet-IBIDA-Nov-2012.pdf p.14-15",
+   "appUsedIn": "lesson"
+  },
+  {
+   "id": "swi-hypothesis-chart",
+   "name": "词缀假设墙（Affix Hypothesis Chart）",
+   "questions": [
+    "这个语段真的是后缀吗？",
+    "有没有多个词能证明它？"
+   ],
+   "steps": [
+    "学生把怀疑是词缀的语段写在便利贴上，必须附一个 word sum",
+    "贴在“假设区”，未经验证前不进入正式词素表",
+    "教师定期用 word sum 和词典检验，证实后才进入已证词素表",
+    "无法解决的假设放进“Wonder Wall”，留给后续探究"
+   ],
+   "source": "Workshop-Booklet-IBIDA-Nov-2012.pdf p.16-17",
+   "appUsedIn": "lesson"
+  },
+  {
+   "id": "swi-morphological-foil",
+   "name": "识别假词素（morphological foil）",
+   "questions": [
+    "这段字母是词素，还是只是碰巧相同？",
+    "去掉它以后，剩下的部分能独立表义吗？"
+   ],
+   "steps": [
+    "看到 <ing>、<er> 等熟悉语段时，先假设它可能是后缀",
+    "检验剩余部分是否是可分析的词基（<spring> 的 <sp>、<wonderfully> 的 <wond> 都通不过）",
+    "用 word sum 与词典否证错误切分，并说明理由"
+   ],
+   "source": "Spelling-out-and-writing-out-word-structure-2018.pdf p.3；Workshop-Booklet-IBIDA-Nov-2012.pdf p.18",
+   "appUsedIn": "wordSum"
+  },
+  {
+   "id": "swi-classroom-transfer",
+   "name": "迁移到学科词汇",
+   "questions": [
+    "这个学科术语的词基是什么？",
+    "它和哪些日常词同族？"
+   ],
+   "steps": [
+    "在阅读句子中顺手做结构分析（讲义示例：从 spring 里区分出真正的 <-ing>）",
+    "把词结构知识用于科学、人文等学科术语，先拆词基再结合上下文",
+    "把“拼写教学”转化为“词义分析教学”，让学生独立处理未教过的词"
+   ],
+   "source": "Workshop-Booklet-IBIDA-Nov-2012.pdf p.18",
+   "appUsedIn": "lesson"
+  }
+ ],
+ "matrixRules": [
+  {
+   "rule": "从左到右读矩阵",
+   "source": "Handout-IDA-Fall-2012.pdf p.8"
+  },
+  {
+   "rule": "只构成单个、完整的单词（single, complete words）",
+   "source": "Handout-IDA-Fall-2012.pdf p.8"
+  },
+  {
+   "rule": "不确定是否为真词时查词典",
+   "source": "Handout-IDA-Fall-2012.pdf p.8"
+  },
+  {
+   "rule": "可以跳过整列，但不能“跳列”取元素（no leapfrogging）",
+   "source": "Handout-IDA-Fall-2012.pdf p.8"
+  },
+  {
+   "rule": "注意连接处：加后缀可能引起拼写变化",
+   "source": "Handout-IDA-Fall-2012.pdf p.8"
+  },
+  {
+   "rule": "只构造能放进句子的词（进阶班级规则）",
+   "source": "Workshop-Booklet-IBIDA-Nov-2012.pdf p.7"
+  },
+  {
+   "rule": "矩阵记录的是词素的底层词汇拼写（lexical spelling），不记录读音",
+   "source": "Handout-IDA-Fall-2012.pdf p.7"
+  },
+  {
+   "rule": "前缀在词基左侧列，后缀在右侧/上方列；同一词素可在不同列重复",
+   "source": "Workshop-Booklet-IBIDA-Nov-2012.pdf p.14-15"
+  },
+  {
+   "rule": "用最少的词素覆盖最多的词族成员（最优雅解）",
+   "source": "Handout-IDA-Fall-2012.pdf p.6；Workshop-Booklet-IBIDA-Nov-2012.pdf p.15"
+  },
+  {
+   "rule": "一个词能否进入矩阵，要用 word sum 检验",
+   "source": "Handout-IDA-Fall-2012.pdf p.7"
+  },
+  {
+   "rule": "矩阵通常只显示部分可能词，学生可以继续找更多",
+   "source": "Handout-IDA-Fall-2012.pdf p.8"
+  }
+ ],
+ "wordSumRules": [
+  {
+   "rule": "词素之间用 + 连接，左侧是词素层，右侧是实际拼写",
+   "source": "Handout-IDA-Fall-2012.pdf p.7"
+  },
+  {
+   "rule": "用重写箭头 → 表示“重写为”，箭头上标出后缀变化",
+   "source": "Handout-IDA-Fall-2012.pdf p.7"
+  },
+  {
+   "rule": "词基用尖括号标记，如 <sign>、<please>",
+   "source": "Handout-IDA-Fall-2012.pdf p.7"
+  },
+  {
+   "rule": "去掉不发音的 e：在算式里划掉该 e 再写下结果",
+   "source": "Workshop-Booklet-IBIDA-Nov-2012.pdf p.8-9"
+  },
+  {
+   "rule": "双写末尾辅音：在词基后加括号或双写标记（如 hop(p) + ing）",
+   "source": "Spelling-out-and-writing-out-word-structure-2018.pdf p.4"
+  },
+  {
+   "rule": "y 变 i：在算式里显示 y→i 的替换",
+   "source": "Bowers-Kirby-2010-morphological-instruction-study.pdf p.10"
+  },
+  {
+   "rule": "整词必须真实存在且能造句；不确定就查词典",
+   "source": "Handout-IDA-Fall-2012.pdf p.8"
+  },
+  {
+   "rule": "出声拼读：词素边界停顿，grapheme 成组读出",
+   "source": "Spelling-out-and-writing-out-word-structure-2018.pdf p.4"
+  },
+  {
+   "rule": "有 + 号隔开的相同字母不能读作 double；没有隔开的连续同字母才读 double",
+   "source": "Spelling-out-and-writing-out-word-structure-2018.pdf p.4"
+  },
+  {
+   "rule": "合成算式与分析算式都要练，分析时先判断是否为单纯词基",
+   "source": "Handout-Gina-Baltimore.pdf p.9"
+  },
+  {
+   "rule": "word sum 是科学分析工具，不是可随意改写的教学花样",
+   "source": "Spelling-out-and-writing-out-word-structure-2018.pdf p.1-2"
+  },
+  {
+   "rule": "在矩阵中卡住时，回到 word sum 重新检查结构",
+   "source": "Workshop-Booklet-IBIDA-Nov-2012.pdf p.15"
+  }
+ ],
+ "principles": [
+  {
+   "principle": "英语拼写是一个为表义而组织的高度有序系统，可以用科学探究的方式研究",
+   "source": "Handout-IDA-Fall-2012.pdf p.6"
+  },
+  {
+   "principle": "同一词族的词基拼写保持稳定，读音可以变化；拼写标记意义联系",
+   "source": "Handout-IDA-Fall-2012.pdf p.2, p.7"
+  },
+  {
+   "principle": "不能用读音规则解释拼写；读音与拼写的关系要在形态框架内解释",
+   "source": "Handout-IDA-Fall-2012.pdf p.4-5"
+  },
+  {
+   "principle": "科学探究追求最优雅的解：能解释最多案例的最深结构",
+   "source": "Handout-IDA-Fall-2012.pdf p.6"
+  },
+  {
+   "principle": "区分“教师主导的探究”（teacher-led inquiry）与“由探究驱动的教学”（inquiry-led teaching）",
+   "source": "Handout-IDA-Fall-2012.pdf p.6"
+  },
+  {
+   "principle": "教学目标不是记住词根表，而是培养能独立提出并检验词结构假设的学习者",
+   "source": "Handout-IDA-Fall-2012.pdf p.1, p.6"
+  },
+  {
+   "principle": "发音、构词、词源三类证据要分开记录；拼写相似或历史同源都不等于现代构词关系",
+   "source": "Handout-IDA-Fall-2012.pdf p.7；Workshop-Booklet-IBIDA-Nov-2012.pdf p.14-15"
+  }
+ ],
+ "researchBasis": [
+  {
+   "claim": "20 次课的结构化词结构教学显著提高了词素分析与词汇成绩，并迁移到“教过的词基 + 未教过的派生词”，但没有迁移到词基未教过的词",
+   "source": "Bowers-Kirby-2010-morphological-instruction-study.pdf p.1（摘要）、p.13-17"
+  },
+  {
+   "claim": "教学使用矩阵、word sum、出声拼读与流程图；课堂流程为“提出问题—呈现词集—提出假设—检验—练习”",
+   "source": "Bowers-Kirby-2010-morphological-instruction-study.pdf p.11-12"
+  },
+  {
+   "claim": "课程明确教授三类后缀变化（去 e、双写、y→i）与 free/bound base、twin bases 概念",
+   "source": "Bowers-Kirby-2010-morphological-instruction-study.pdf p.10"
+  }
+ ]
+}

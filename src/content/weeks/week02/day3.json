@@ -46,7 +46,8 @@
         "ness",
         "make",
         "ing"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "table",
@@ -170,7 +171,8 @@
         "argue",
         "ment",
         "travel"
-      ]
+      ],
+      "morphemeIds": []
     }
   ],
   "practice": [

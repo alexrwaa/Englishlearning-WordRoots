@@ -52,6 +52,12 @@
         "calibr",
         "ate",
         "ed"
+      ],
+      "morphemeIds": [
+        "px-un",
+        "rx-calibr",
+        "sx-ate",
+        "sx-ed"
       ]
     },
     {
@@ -186,6 +192,11 @@
         "od",
         "metr",
         "y"
+      ],
+      "morphemeIds": [
+        "rx-od",
+        "cx-metr",
+        "cx-y"
       ]
     }
   ],

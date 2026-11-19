@@ -1,0 +1,602 @@
+[
+  {
+    "term": "morpheme",
+    "zh": "语素",
+    "definition": "最小的形义（或形—语法功能）配对单位。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "morphology",
+    "zh": "形态学",
+    "definition": "研究词如何由更小单位构成的语言学分支。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "affix",
+    "zh": "词缀",
+    "definition": "必须依附词基才能出现的语素。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "base",
+    "zh": "词基",
+    "definition": "词缀所依附的成分，可简单可复杂。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "root",
+    "zh": "词根",
+    "definition": "不可再分的最小词基。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "prefix",
+    "zh": "前缀",
+    "definition": "位于词基之前的词缀。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "suffix",
+    "zh": "后缀",
+    "definition": "位于词基之后的词缀。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "infix",
+    "zh": "中缀",
+    "definition": "插入词基内部的词缀。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "free morpheme",
+    "zh": "自由语素",
+    "definition": "能独立成词出现的语素。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "bound morpheme",
+    "zh": "黏着语素",
+    "definition": "只能与别的语素共现的语素。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "internal change",
+    "zh": "内部屈折",
+    "definition": "以词根内部音变表达语法信息的形态手段。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "suppletion",
+    "zh": "增补",
+    "definition": "以完全不同的形式替换整个语素的形态手段。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "reduplication",
+    "zh": "重叠",
+    "definition": "重复词或词的一部分以表达特定意义的形态手段。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "synthetic",
+    "zh": "综合型",
+    "definition": "词内形态丰富、自由词根少的语言类型。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "agglutinative",
+    "zh": "黏着型",
+    "definition": "词缀可逐一分离且各带单一语法义的类型。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "fusional",
+    "zh": "融合型",
+    "definition": "一个词缀同时承载多项语法义的类型。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "allomorphy",
+    "zh": "语素变体现象",
+    "definition": "同一语素依环境呈现不同形式的现象。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "phonologically conditioned allomorphy",
+    "zh": "语音条件变体",
+    "definition": "由相邻音决定、可预测的语素变体。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "lexically conditioned allomorphy",
+    "zh": "词汇条件变体",
+    "definition": "须按词逐一记忆的语素变体。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "lexical category",
+    "zh": "词类",
+    "definition": "名词、动词、形容词、副词等按分布划分的类别。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "derivational morphology",
+    "zh": "派生形态",
+    "definition": "改变词基类别或意义的构词形态。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "inflectional morphology",
+    "zh": "屈折形态",
+    "definition": "表达与词基类别相配的语法信息而不改类别的形态。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "selection",
+    "zh": "选择限制",
+    "definition": "词缀对词基类别或具体词根的要求。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "productivity",
+    "zh": "能产性",
+    "definition": "词缀可自由用于新词基的能力。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "case",
+    "zh": "格",
+    "definition": "标示名词在句中语法角色的屈折范畴。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "nominative",
+    "zh": "主格",
+    "definition": "标示句子主语（施事位置）的格。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "accusative",
+    "zh": "宾格",
+    "definition": "标示直接宾语等位置的格。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "agreement",
+    "zh": "一致",
+    "definition": "屈折形式反映另一成分属性的现象。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "tense",
+    "zh": "时",
+    "definition": "定位事件发生时间的语法范畴。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "aspect",
+    "zh": "体",
+    "definition": "表达观察事件完成或进行状态的语法范畴。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "perfective",
+    "zh": "完成体",
+    "definition": "把事件视为有界的整体。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "evidentiality",
+    "zh": "示证",
+    "definition": "标示说话人证据来源或确信程度的语法范畴。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "causative",
+    "zh": "使役",
+    "definition": "表达某事件由外部施力者促成的形态或结构。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "compound",
+    "zh": "复合词",
+    "definition": "由两个或更多词根构成的词。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "endocentric",
+    "zh": "内向复合词",
+    "definition": "中心成分在词内、并决定整体所指的复合词。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "exocentric",
+    "zh": "外向复合词",
+    "definition": "中心不在词内或所指不等于任一成分的复合词。",
+    "chapter": "S2-C5"
+  },
+  {
+    "term": "semantics",
+    "zh": "语义学",
+    "definition": "研究语言意义及其组合的学科。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "sense",
+    "zh": "涵义",
+    "definition": "说话人储存在头脑中的词义内容。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "denotation",
+    "zh": "指称",
+    "definition": "语言表达式在现实或认知表征中所指向的对象。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "compositionality",
+    "zh": "组合性",
+    "definition": "复杂表达式的意义由其成分意义与组合方式决定。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "entailment",
+    "zh": "蕴涵",
+    "definition": "前者为真则后者必为真的意义关系。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "implicature",
+    "zh": "会话隐涵",
+    "definition": "语境下可得但可取消的推测意义。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "presupposition",
+    "zh": "预设",
+    "definition": "句子视为理所当然、不被否定或疑问取消的蕴涵。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "lexicon",
+    "zh": "词库",
+    "definition": "储存不可由规则预测的语言信息的心理库。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "listeme",
+    "zh": "词项",
+    "definition": "词库中占有条目的单位，包括语素、习语与部分复合词。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "idiom",
+    "zh": "习语",
+    "definition": "意义不能由字面成分推出的固定短语。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "world knowledge",
+    "zh": "世界知识",
+    "definition": "关于世界的经验知识，区别于纯语言知识。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "prototype",
+    "zh": "原型",
+    "definition": "范畴中最典型、最具代表性的成员。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "thematic role",
+    "zh": "题元角色",
+    "definition": "论元在事件中承担的角色，如施事、受事。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "event",
+    "zh": "事件",
+    "definition": "动态发生的实体，可用「发生了什么」提问。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "state",
+    "zh": "状态",
+    "definition": "静态持续、不涉及发生的实体。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "count noun",
+    "zh": "可数名词",
+    "definition": "可复数化、可接数词与 many 的名词。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "mass noun",
+    "zh": "不可数名词",
+    "definition": "不可复数化、接 much 而指同质物质的名词。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "bounded",
+    "zh": "有界",
+    "definition": "所指具有可感知边界的性质。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "individual-level predicate",
+    "zh": "个体层谓语",
+    "definition": "描述个体恒久属性的谓语。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "stage-level predicate",
+    "zh": "阶段层谓语",
+    "definition": "只在某段时间成立的谓语。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "gradable adjective",
+    "zh": "程度形容词",
+    "definition": "可受 very 修饰、可比较的形容词。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "truth value",
+    "zh": "真值",
+    "definition": "句子为真或为假的取值。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "truth condition",
+    "zh": "真值条件",
+    "definition": "使句子为真的情形。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "set",
+    "zh": "集合",
+    "definition": "由若干成员构成的整体。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "subset",
+    "zh": "子集",
+    "definition": "所有成员都属另一集合的集合。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "cardinality",
+    "zh": "基数",
+    "definition": "集合中成员的数目。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "negative polarity item",
+    "zh": "负极性词",
+    "definition": "只能在否定性等特定语境出现的词项。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "downward-entailing",
+    "zh": "向下蕴涵",
+    "definition": "由超集句可推出真子集句的语境性质。",
+    "chapter": "S2-C7"
+  },
+  {
+    "term": "diachronic",
+    "zh": "历时",
+    "definition": "跨时间点考察语言变化的研究视角。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "synchronic",
+    "zh": "共时",
+    "definition": "考察某一时点语言系统的研究视角。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "etymology",
+    "zh": "词源",
+    "definition": "词或表达式的历史来源与发展。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "etymological fallacy",
+    "zh": "词源谬误",
+    "definition": "以历史义取代当代通行义作论证的错误。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "neologism",
+    "zh": "新词",
+    "definition": "语言内部新创的词或表达。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "clipping",
+    "zh": "截短",
+    "definition": "截取较长词的一部分构成新词。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "blend",
+    "zh": "混成",
+    "definition": "拼接两个以上词的片段构成新词。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "acronym",
+    "zh": "首字母缩略词",
+    "definition": "由词组首字母构成并可整体读出的词。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "metathesis",
+    "zh": "换位",
+    "definition": "两个音或发音部位互换位置的变化。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "spelling pronunciation",
+    "zh": "拼写读音",
+    "definition": "读音因拼写改变而改变的现象。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "analogy",
+    "zh": "类推",
+    "definition": "依既有模式改造形式的变化机制。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "regularity principle",
+    "zh": "规则性原理",
+    "definition": "新语法学派主张音变一律规则、例外另有来源。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "lexical diffusion",
+    "zh": "词汇扩散",
+    "definition": "音变逐词蔓延、先及高频词的过程。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "merger",
+    "zh": "音位合并",
+    "definition": "两个音位归并为一个、音位数目减少的变化。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "chain shift",
+    "zh": "链移",
+    "definition": "若干不合并的音变相互衔接成串的系列变化。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "Great Vowel Shift",
+    "zh": "元音大推移",
+    "definition": "中古英语到近代英语长元音的系统上移与复元化。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "paradigm",
+    "zh": "词形表",
+    "definition": "同一词根全部屈折形式的集合。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "analogical levelling",
+    "zh": "类推拉平",
+    "definition": "以多数模式消除词根变体、减少语素变体。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "reanalysis",
+    "zh": "重新分析",
+    "definition": "语素边界发生移动而语素本身不变的变化。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "folk etymology",
+    "zh": "民间词源",
+    "definition": "把词误解为具备它本无的理据结构。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "back formation",
+    "zh": "逆构词",
+    "definition": "依错误结构分析造出新语素的构词方式。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "grammaticalization",
+    "zh": "语法化",
+    "definition": "词汇词演变为语法成分并伴随范畴转移。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "semantic shift",
+    "zh": "语义漂移",
+    "definition": "词义随时间发生的变化。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "widening",
+    "zh": "词义扩大",
+    "definition": "所指范围由具体扩至更广类别。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "narrowing",
+    "zh": "词义缩小",
+    "definition": "所指范围收窄至更具体的类别。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "metonymy",
+    "zh": "转喻",
+    "definition": "基于相邻联想的跨义转用。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "synecdoche",
+    "zh": "提喻",
+    "definition": "以部分代整体或以整体代部分的转喻。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "metaphor",
+    "zh": "隐喻",
+    "definition": "基于形似或功能相似的跨域转用。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "elevation",
+    "zh": "升格",
+    "definition": "词义向褒义方向的变化。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "degeneration",
+    "zh": "降格",
+    "definition": "词义向贬义方向的变化。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "comparative method",
+    "zh": "比较法",
+    "definition": "比较亲属语言同源成分并推溯共同祖形的方法。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "reconstruction",
+    "zh": "重构",
+    "definition": "依比较法推拟未存世形式的过程与结果。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "cognate",
+    "zh": "同源词",
+    "definition": "由同一祖形直接继承而来的词。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "etymon",
+    "zh": "祖形",
+    "definition": "同源词所由继承的共同来源形式。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "false cognate",
+    "zh": "假同源词",
+    "definition": "音义相近但来源不同的词。",
+    "chapter": "S2-C14"
+  },
+  {
+    "term": "proto-language",
+    "zh": "原始语",
+    "definition": "重构出的假想祖语，并非实际使用过的语言。",
+    "chapter": "S2-C14"
+  }
+]

@@ -85,6 +85,13 @@
         "ing",
         "er",
         "est"
+      ],
+      "morphemeIds": [
+        "sx-s",
+        "sx-ed",
+        "sx-ing",
+        "sx-er",
+        "sx-est"
       ]
     },
     {
@@ -126,7 +133,8 @@
         "teach",
         "fast",
         "build"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "text",
@@ -138,6 +146,13 @@
         "ize",
         "tion",
         "s"
+      ],
+      "morphemeIds": [
+        "rx-nation",
+        "sx-al",
+        "sx-ize",
+        "sx-tion",
+        "sx-s"
       ]
     }
   ],

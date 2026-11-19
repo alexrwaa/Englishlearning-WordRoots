@@ -1,0 +1,298 @@
+{
+  "id": "w14d2",
+  "week": 14,
+  "day": 2,
+  "title": "拉丁形容词后缀：成组记，不单个背",
+  "tagline": "-alis 与 -aris 是同一个后缀的两个形状，分工由词干里的 l 决定",
+  "objectives": [
+    "能说出 -alis / -aris / -ilis / -idus / -osus / -ulentus / -tivus 各自的语义",
+    "能解释 -alis 在什么条件下变成 -aris（异化），并举例",
+    "能区分 -osus（充满）与 -ulentus（多……的）在语域上的差异"
+  ],
+  "prereqs": [
+    "w14d1",
+    "c-suffix"
+  ],
+  "concepts": [
+    "c-suffix",
+    "c-derivation",
+    "c-allomorph",
+    "c-word-family",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s4-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "七个形容词后缀与它们的英语形式",
+      "body": "第三列是最值得注意的：拉丁形容词几乎都带屈折词尾 -us / -is / -a，英语借入时把它丢掉。所以拉丁 -alis 在英语里常作 -al，-osus 作 -ous，-tivus 作 -ive。看到英语词尾，要能反推拉丁后缀，而不是把 -al 当成一个独立的英语后缀。",
+      "head": [
+        "后缀",
+        "语义",
+        "拉丁例",
+        "英语结果"
+      ],
+      "rows": [
+        [
+          "-alis",
+          "属于……的、与……有关的",
+          "regalis、formalis、naturalis",
+          "regal、formal、natural"
+        ],
+        [
+          "-aris",
+          "同上，用在含 l 的词干后",
+          "militaris、lunaris、solaris",
+          "military、lunar、solar"
+        ],
+        [
+          "-ilis",
+          "易于……的、能被……的",
+          "facilis、fragilis、ductilis",
+          "facile、fragile、ductile"
+        ],
+        [
+          "-idus",
+          "具有某种状态的",
+          "fluidus、aridus、timidus",
+          "fluid、arid、timid"
+        ],
+        [
+          "-osus",
+          "充满……的",
+          "verbosus、nervosus、copiosus",
+          "verbose、nervous、copious"
+        ],
+        [
+          "-ulentus",
+          "多……的、富于……的",
+          "turbulentus、fraudulentus、opulentus",
+          "turbulent、fraudulent、opulent"
+        ],
+        [
+          "-tivus / -ivus",
+          "有……倾向或功能的",
+          "captivus、activus、nativus",
+          "captive、active、native"
+        ],
+        [
+          "-ikos（希腊）",
+          "与……有关的",
+          "graphikos、dynamikos",
+          "graphic、dynamic"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-alis 与 -aris：不是两个后缀，是一个后缀的两个形状",
+      "body": "拉丁的 -alis 有一个规律性的变体 -aris：**当词干里已经含有 l 时，后缀改用 -aris**。\n\n- forma（形状）→ formalis：词干 form- 没有 l，用 -alis\n- natura（自然）→ naturalis：natur- 没有 l，用 -alis\n- miles, milit-（士兵）→ militaris：milit- 有 l，改用 -aris\n- luna（月亮）→ lunaris：lun- 有 l，改用 -aris\n- sol（太阳）→ solaris：sol 有 l，改用 -aris\n\n原因不必神秘：这是**异化**（dissimilation）——两个 l 相隔一两个音节时读起来含混，说话人自然把一个换成 r。英语里也有同类的异化（如 February 常被读成 Febuary），只是没有写成规则。\n\n这条规则的价值在于**反推**：看到 solar，就知道它不是 sol + -al，而是 solaris 的 -aris；看到 formal，就知道它是 -alis。拼写差一个字母，词源层不同。",
+      "terms": [
+        {
+          "term": "dissimilation",
+          "zh": "异化",
+          "en": "dissimilation",
+          "note": "两个相同或相近的音相邻时，其中一个变成别的音"
+        }
+      ],
+      "morphemes": [
+        "ary"
+      ],
+      "morphemeIds": [
+        "cx-ary"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-osus 与 -ulentus：都表“多”，语域不同",
+      "body": "两个后缀都表示“充满、富于”，但分布不同。\n\n**-osus** 最常用，能产性高，英语作 -ous：\n- verbosus（话多）→ verbose\n- nervosus（多筋、有神经的）→ nervous\n- copiosus（丰富）→ copious\n- periculosus（危险）→ 经法语作 dangerous（本土词 danger + -ous，属于混合构词）\n\n**-ulentus** 更书面、更技术，常指“大量含有某种不好的东西”：\n- turbulentus（搅动多）→ turbulent\n- fraudulentus（欺诈）→ fraudulent\n- opulentus（财富多）→ opulent\n- pulverulentus（多尘）→ pulverulent（极书面）\n\n判断建议：-ous 结尾先按“充满”解，注意它常已语义弱化（nervous 不等于“多神经”）；-ulent 结尾多半是正式或学术词，语义仍偏向“大量含有”。",
+      "morphemes": [
+        "ous"
+      ],
+      "morphemeIds": [
+        "sx-ous"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-tivus / -ivus：英语 -ive 的两个来源",
+      "body": "英语的 -ive 有两个拉丁来源，语义上有细微分工：\n\n- **-ivus**：直接加在动词分词词干后，表“有……性质或功能”。activus（做事的）→ active，nativus（出生的）→ native，negativus → negative。\n- **-tivus**：在 -t- 分词词干后再加 -ivus，多见于“与某动作有关”的形容词。captivus（被抓住的）→ captive，motivus（推动的）→ motive，effectivus → effective。\n\n对学习者来说，两者在英语里都写作 -ive，不必强行区分；但要能回答一个问题：**为什么是 captive 而不是 captivous？** 因为拉丁用的是 -ivus，不是 -osus —— 后缀选择在拉丁阶段就定了，英语只是照搬。\n\n这也解释了为什么不能凭语义随便换后缀：-ive 与 -ous 的分工不是英语的临时选择，而是拉丁词库的历史事实。",
+      "morphemes": [
+        "ive"
+      ],
+      "morphemeIds": [
+        "sx-ive"
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "-ilis 与 -bilis：都表“能……”，能产性不同",
+      "body": "两个后缀都能译成“可……的／易……的”，但一个是拉丁固定词，一个是拉丁的能产后缀。区分它们有助于判断一个陌生形容词是“老词”还是“新造词”。",
+      "a": "-ilis",
+      "b": "-bilis",
+      "rows": [
+        [
+          "语义",
+          "易于……的（常含被动可能）",
+          "能够被……的"
+        ],
+        [
+          "例词",
+          "facilis（易做）、fragilis（易碎）、ductilis（可延展）",
+          "capabilis（能拿住）、visibilis（可见）、flexibilis（可弯）"
+        ],
+        [
+          "能产性",
+          "低，基本是固定词",
+          "高，拉丁与英语都大量新造"
+        ],
+        [
+          "英语形式",
+          "-ile：facile、fragile、ductile",
+          "-able／-ible：capable、visible、flexible"
+        ],
+        [
+          "词基类型",
+          "多为简单动词词根",
+          "多为带前缀的动词词干"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w14d2-p1",
+      "kind": "mcq",
+      "prompt": "military 中的 -ary 来自：",
+      "choices": [
+        "拉丁 -aris（militaris），因词干含 l 而不用 -alis",
+        "拉丁 -arium（场所后缀）",
+        "英语本土后缀 -ary，表“集合”",
+        "希腊 -arios，表“士兵”"
+      ],
+      "answer": 0,
+      "explain": "miles 的斜格词干是 milit-，含 l，所以用 -aris 而不是 -alis，得 militaris；经法语 -aire 进入英语作 -ary，于是 military。它和“场所”毫无关系——-arium 表场所（aquarium、library），出现在名词里，不构成这个形容词。这条题正是 -alis／-aris 异化规则的应用。",
+      "concepts": [
+        "c-allomorph",
+        "c-suffix",
+        "ary"
+      ]
+    },
+    {
+      "id": "w14d2-p2",
+      "kind": "cloze",
+      "prompt": "填入表示“冗长啰嗦的”形容词",
+      "sentence": "The report was so ___ that the key finding appeared only on page forty, buried in three paragraphs of background.",
+      "answer": "verbose",
+      "accept": [
+        "verbose",
+        "冗长的"
+      ],
+      "explain": "verbum（词）+ -osus（充满）→ verbosus“话多、冗长”→ verbose。句中 so ... that 引出后果：关键发现被埋在四十页之后，正是“词太多”的表现。若填 wordy 也通，但那是本土词，不是拉丁后缀；本题考的是 -osus 这条线。",
+      "concepts": [
+        "c-suffix",
+        "ous",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w14d2-p3",
+      "kind": "mcq",
+      "prompt": "solar 为什么用 -ar 而不是 -al？",
+      "choices": [
+        "因为词干 sol 含 l，-alis 异化为 -aris，英语作 -ar",
+        "因为 solar 是英语本土词，不适用拉丁规则",
+        "因为 -al 只能接在动词后",
+        "因为 solar 来自希腊语 -aros"
+      ],
+      "answer": 0,
+      "explain": "sol（太阳）+ -alis 时，两个 l 相隔太近，发生异化，后缀变 -aris，得 solaris，英语作 solar。同类：lunar（luna）、military（milit-）、popular（popul-）。而 formal（form-）、natural（natur-）词干无 l，仍用 -alis → -al。判断只看词干里有没有 l，不看词义。",
+      "concepts": [
+        "c-allomorph",
+        "c-suffix"
+      ]
+    },
+    {
+      "id": "w14d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）fraudulent 中的 -ulentus 表达了什么？",
+      "choices": [
+        "富于、多……的（此处指充满欺诈）",
+        "指小：小的欺诈",
+        "场所：进行欺诈的地方",
+        "施事：行骗的人"
+      ],
+      "answer": 0,
+      "explain": "fraus, fraud-（欺诈）+ -ulentus（多……的）→ fraudulentus → fraudulent“欺诈的”。-ulentus 与 -osus 同属“充满”类，但更书面。指小要用 [l] 开头的 -lus／-culus，场所要用 -arium，施事要用 -tor，三者都与 -ulentus 不同。",
+      "concepts": [
+        "c-suffix",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w14d2-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“被俘的、囚徒”的切分",
+      "parts": [
+        "capt",
+        "ive"
+      ],
+      "answer": "captive",
+      "explain": "capt-（抓，见 capture、captivate 同族）+ -ive（拉丁 -ivus，表“处于某种状态或功能”）→ captive“被抓住的、囚徒”。注意不是 capt + ous：拉丁选的是 -ivus，英语照搬作 -ive；后缀在拉丁阶段就定了，不能按语义临时替换。",
+      "concepts": [
+        "c-derivation",
+        "c-word-sum",
+        "ive"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w14d2-a1",
+      "kind": "infer",
+      "prompt": "推测 opulent 的含义",
+      "passage": "The lobby was opulent rather than merely comfortable: marble columns, gilded ceilings, and a chandelier that must have cost more than the building next door.",
+      "word": "opulent",
+      "choices": [
+        "奢华富丽的",
+        "宽敞明亮的",
+        "年代久远的",
+        "安静舒适的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：op-（财富，ops／opulentia）+ -ulentus（多……的）；② 句法：opulent rather than merely comfortable，与“仅仅舒适”形成程度对比；③ 语境：大理石柱、镀金天花板、比隔壁整栋楼还贵的水晶灯；④ 校验：宽敞、古老、安静都无法解释“镀金”与“比楼还贵”。",
+      "explain": "opulent 是“奢华富丽的”，也可形容人“富裕的”。-ulentus 在这里仍是“富于……”，只是词根 ops 指财富而不是尘土或欺诈。这个词和 turbulent、fraudulent 共用一个后缀，但语义完全由词根决定——这正是“后缀给框架、词根给内容”的又一例。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：拉丁形容词后缀表"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "-alis／-aris／-osus／-ulentus 词表"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "military、solar、verbose、opulent 的语源"
+    }
+  ]
+}

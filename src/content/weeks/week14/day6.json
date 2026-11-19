@@ -1,0 +1,266 @@
+{
+  "id": "w14d6",
+  "week": 14,
+  "day": 6,
+  "title": "完成分词 -t-：英语学术词的真正来源",
+  "tagline": "sense 不是 sent 加 s，而是 sentire 的完成分词 sensus",
+  "objectives": [
+    "能说明拉丁完成分词 -t- 的语义（被动、已完成）与词干特征",
+    "能解释 act、sense 这类拼写变化来自历史音变，而不是英语的共时规则",
+    "能由完成分词词干推断英语派生词的词性与语义"
+  ],
+  "prereqs": [
+    "w14d4",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-allomorph",
+    "c-suffix",
+    "c-etymology",
+    "c-base",
+    "c-word-family"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s5-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 6,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "-t- 标记“已经做完、被做过”",
+      "body": "拉丁的**完成分词被动**（perfect participle passive）在动词词干后加 **-t-**，再加屈折词尾 -us / -a / -um。语义是“已经被……的”：\n\n- docere（教）→ doctus“被教过的、博学的”\n- agere（做）→ actus“被做成的、已完成的行为”\n- facere（做、造）→ factus“被造成的”\n- sentire（感觉）→ sensus“被感觉到的”\n- solvere（解开）→ solutus“被解开的”\n- videre（看）→ visus“被看到的”\n\n这套分词是英语学术词的主力来源：英语借的不是动词的现在词干，而是这个“被动、已完成”的词干。理解这层语义，就能解释为什么很多英语词带“结果、状态”的意味，而不是“动作进行中”。",
+      "terms": [
+        {
+          "term": "perfect participle",
+          "zh": "完成分词",
+          "en": "perfect participle",
+          "note": "表示动作已完成、常含被动义的分词"
+        }
+      ],
+      "morphemes": [
+        "ate"
+      ],
+      "morphemeIds": [
+        "sx-ate"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "词干必以 t 或 s 收尾：三种来源",
+      "body": "完成分词词干在英语里几乎总以 **-t-** 或 **-s-** 结尾。原因有三类：\n\n1. **词干本身以 t 结尾，直接加 -t-**：doct-（docere 的词干 doc- 加 -t- → doct-）。\n2. **塞音清化后写成 t**：ag- + -t- → act-（/g/ 在 /t/ 前清化为 /k/，拼作 c）；同样 reg- → rect-（correct、direct）。\n3. **齿音丛同化后写成 s**：sent- + -t- → sens-（两个齿音先同化为 /ss/，再简化为一个 s）；同样 vid- + -t- → vis-（visible、vision）。\n\n所以看到英语里 “词根 + t/s + 后缀” 的结构，先怀疑它是完成分词词干，而不是“词根加了个奇怪的字母”。这批词包括：act、fact、dict、script、sens、vis、solut、struct、tract。",
+      "morphemes": [
+        "tion"
+      ],
+      "morphemeIds": [
+        "sx-tion"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "音变是历史的，不是英语的拼写规则",
+      "body": "教材特别提醒：act- 与 sens- 里的变化属于**拉丁语的历史音变**，不是英语的共时拼写规则。这个区分很重要。\n\n- 你不能用一条英语规则从 *agt 推出 act——英语里没有这条规则；这是拉丁语在 /t/ 前把 /g/ 清化的结果，英语只是照搬了拉丁的拼写。\n- 你也不能说 “sense 是 sent + s”——共时层面没有这条变化；只能说 sense 借自拉丁 sensus，而 sensus 是 sentire 的完成分词。\n\n后果是：**不能用英语的拼写直觉去反推这些词**。正确路径是词源：先确认它来自哪个拉丁动词的完成分词，再解释拼写。\n\n这也解释了为什么同族词看起来差很多：sentire 给出 sense（完成分词）与 sentient（现在分词），videre 给出 vision（完成分词）与 visible、video（现在词干）。同一个动词，两套词干，两条英语路线。",
+      "terms": [
+        {
+          "term": "assimilation",
+          "zh": "同化",
+          "en": "assimilation",
+          "note": "一个音变得与相邻音更相似"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四组完成分词与英语后代",
+      "body": "第二列是完成分词，第三列是英语借入的词干，第四列是派生词。注意第三列与第二列的关系：去掉 -us，就是英语用的词干。做题时能写出第三列，第四列基本可推。",
+      "head": [
+        "动词",
+        "完成分词",
+        "英语词干",
+        "派生词"
+      ],
+      "rows": [
+        [
+          "docere（教）",
+          "doctus",
+          "doct-",
+          "doctor、doctrine、document"
+        ],
+        [
+          "agere（做）",
+          "actus",
+          "act-",
+          "act、action、active、agent（另一支）"
+        ],
+        [
+          "facere（造）",
+          "factus",
+          "fact-",
+          "fact、factory、effect（经 efficere）"
+        ],
+        [
+          "sentire（感觉）",
+          "sensus",
+          "sens-",
+          "sense、sensory、sensation、consensus"
+        ],
+        [
+          "videre（看）",
+          "visus",
+          "vis-",
+          "vision、visible、visual"
+        ],
+        [
+          "solvere（解开）",
+          "solutus",
+          "solut-",
+          "solution、dissolute、absolute"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "英语里的分工：-t- 词干管“结果”，现在词干管“过程”",
+      "body": "同一个拉丁动词的两套词干在英语里分工明确，这是本章最实用的观察之一：\n\n- agere：**act-**（完成）→ act、action、actual（已做成的事）；**ag-**（现在）→ agent、agenda（正在做／应做之事）、agile。\n- sentire：**sens-**（完成）→ sense、sensory、sensation（被感觉到的）；**sent-**（现在）→ sentient、sentiment、consent（正在感觉／同感）。\n- videre：**vis-**（完成）→ vision、visible、visual（被看到的）；**vid-**（现在）→ video、evident（正在看→明显）。\n\n所以看到 -t-／-s- 词干，语义上先往“结果、状态、被……”靠；看到 -ent-／-a- 词干，往“过程、施事、正在……”靠。这条判断在阅读陌生学术词时命中率相当高，但要注意例外（如 doctor 由“教师”转为“医生”属于词义演变，不是构词问题）。",
+      "morphemes": [
+        "ent",
+        "tion"
+      ],
+      "morphemeIds": [
+        "sx-ent",
+        "sx-tion"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w14d6-p1",
+      "kind": "mcq",
+      "prompt": "sense 中的 -s- 来自：",
+      "choices": [
+        "sentire 的完成分词 sensus，/t/ 被后面的 /s/ 同化",
+        "英语在 sent 后加了 -s 表示名词",
+        "希腊词根 sens-，与 sent 无关",
+        "sed 的变体，表示“坐”"
+      ],
+      "answer": 0,
+      "explain": "sense 借自拉丁 sensus，它是 sentire 的完成分词；/t/ 在 /s/ 前被同化为 /s/，双写后简化为一个 s。这不是英语的构词规则，不能共时地写成 sent + s。同族 sentient、sentiment 保留了现在词干 sent-，正好形成对照。",
+      "concepts": [
+        "c-allomorph",
+        "c-etymology",
+        "c-base"
+      ]
+    },
+    {
+      "id": "w14d6-p2",
+      "kind": "cloze",
+      "prompt": "填入表示“感觉的、感官的”形容词",
+      "sentence": "The ___ nerves carry signals from the skin to the spinal cord, where they are relayed to the brain.",
+      "answer": "sensory",
+      "explain": "sens-（完成分词词干，被感觉到的）+ -ory（形容词后缀，表“与……有关的”）→ sensory“感觉的、感官的”。sensory nerves 是解剖学固定搭配。若填 sensible，意思是“明智的、可感知的”；sensitive 是“敏感的”，语义与搭配都不同。",
+      "concepts": [
+        "c-suffix",
+        "c-word-family",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w14d6-p3",
+      "kind": "mcq",
+      "prompt": "act 与 agent 的关系是：",
+      "choices": [
+        "同一拉丁动词的两套词干：act- 是完成分词，ag- 是现在词干",
+        "act 是动词，agent 是它的规则名词形式",
+        "两者词源不同，只是意义相近",
+        "agent 由 act 加 -ent 构成"
+      ],
+      "answer": 0,
+      "explain": "agere 的完成分词是 actus（词干 act-），现在分词是 agens（词干 agent-）。英语分别借入，形成 act／action 与 agent／agency 两组。agent 不是 act + -ent，因为 act 已是完成分词词干，不能直接接现在分词后缀；这条层级关系必须分清。",
+      "concepts": [
+        "c-base",
+        "c-allomorph",
+        "c-word-family"
+      ]
+    },
+    {
+      "id": "w14d6-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）tactile 最可能的意思是：",
+      "choices": [
+        "触觉的、与触摸有关的",
+        "策略性的、圆滑的",
+        "有条理的、整齐的",
+        "临时的、权宜的"
+      ],
+      "answer": 0,
+      "explain": "tact- 是 tangere（触）的完成分词 tactus 的词干，+ -ile（易于……的／与……有关的）→ tactile“触觉的”。策略性的是 tactical，虽然同形 tact-，但走的是“处理事务”的引申义；有条理是 tidy，临时是 tentative。同词根不同义项，要靠语境分辨。",
+      "concepts": [
+        "c-base",
+        "c-inference",
+        "ile"
+      ],
+      "hint": "tact- 来自“触”，先定核心义，再看 -ile 的功能。"
+    },
+    {
+      "id": "w14d6-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“感觉的、感官的”的切分",
+      "parts": [
+        "sens",
+        "ory"
+      ],
+      "answer": "sensory",
+      "explain": "sens-（sentire 的完成分词词干，被感觉到的）+ -ory（与……有关的）→ sensory。注意不能写 sent + ory：完成分词是 sens-，现在词干才是 sent-（sentient）。同族：sensation、sensible、sensor、consensus。",
+      "concepts": [
+        "c-word-sum",
+        "c-base",
+        "c-suffix"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w14d6-a1",
+      "kind": "infer",
+      "prompt": "推测 dissolution 的含义",
+      "passage": "The prime minister announced the dissolution of parliament: the chamber would be closed, its members would cease to sit, and a general election would follow within six weeks.",
+      "word": "dissolution",
+      "choices": [
+        "解散、终止",
+        "溶解、稀释",
+        "选举、投票",
+        "延期、休会"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：dis-（分开）+ solut-（solvere 的完成分词“被解开”）+ -ion（动作名词）；② 句法：the dissolution of parliament，of 引出被解散的对象；③ 语境：冒号后说 chamber closed、members cease to sit、六周内大选——正是解散议会；④ 校验：溶解是化学义，选举是后续事件而非本词义，休会（prorogation）不会导致议员停止任职。",
+      "explain": "dissolution 是“解散、终止”，字面“被解开、分散”。化学里的“溶解”是同一词的另一义项：物质被“解开”到溶剂中。判断靠语境搭配——of parliament 指向制度解散。solut- 是 solvere 的完成分词词干，同族 solution、absolute、dissolute。",
+      "concepts": [
+        "c-base",
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：完成分词与历史音变"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "完成分词词干与英语派生词表"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "sense、act、dissolution 的语源与词义演变"
+    }
+  ]
+}

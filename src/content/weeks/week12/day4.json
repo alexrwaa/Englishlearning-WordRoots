@@ -81,6 +81,11 @@
           "en": "hedging",
           "note": "用 may、suggest、be consistent with 等弱化主张"
         }
+      ],
+      "morphemeIds": [
+        "px-con",
+        "rx-sist",
+        "sx-ent"
       ]
     },
     {
@@ -98,6 +103,11 @@
           "zh": "局限性、限制",
           "en": "limitation"
         }
+      ],
+      "morphemeIds": [
+        "rx-limit",
+        "sx-ation",
+        "px-un"
       ]
     },
     {
@@ -123,7 +133,8 @@
           "zh": "过拟合",
           "en": "overfitting"
         }
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "passage",

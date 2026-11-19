@@ -1,0 +1,252 @@
+{
+  "id": "w15d6",
+  "week": 15,
+  "day": 6,
+  "title": "装出来的外来腔：复原读音与整词借入",
+  "tagline": "camera 为什么保留 -a，stimuli 为什么有人读 [iː]：一边是整词搬入，一边是刻意“撤销”英语音变",
+  "objectives": [
+    "能说明整词借入（camera、bonus、senator）为什么保留拉丁词尾",
+    "能识别复原读音与拼读式读音，并说明它们的社会含义",
+    "能区分“词干借入”与“整词借入”对英语词形的影响"
+  ],
+  "prereqs": [
+    "w15d5",
+    "c-borrowing"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-register",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s4-5",
+    "kp-s1c11s5-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "有些词是整件搬进来的",
+      "body": "借词不一定都要削词尾。有些拉丁、希腊词以**引用形**（citation form，词典里的那个形式）整体进入英语，词尾就跟着来了：\n\n- **camera**（拉丁“拱顶房间”）、**area**（空地）、**circus**（圆圈）\n- **bonus**（拉丁阳性“好的”）、**senator**（元老）\n- **campus**、**focus**、**radius**\n\n为什么它们能保留 -a、-us、-or？因为借入时它们被当作**不可分析的整词**：英语使用者不觉得 -a 是语法词尾，只把它当成词的一部分。相反，table、circle 的词尾在法语里就被磨掉了，进来时已经是短形。",
+      "terms": [
+        {
+          "term": "citation form",
+          "zh": "引用形",
+          "en": "citation form",
+          "note": "词典收录词条时使用的形式，如拉丁名词的主格单数"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "复原读音：把音变“退回去”",
+      "body": "英语有一套“外来词要读得像外来词”的社会期待。于是有人把拉丁、意大利语的元音按原样读，等于在小范围内**撤销**大元音推移：\n\n- **per diem** 读 [ˌper ˈdiːem]，最后的 -em 读出完整元音。\n- **stimuli** 有两种读法：[ˈstɪmjʊlaɪ]（英语化）与 [ˈstɪmjʊliː]（复原）。\n- **data** 有 [ˈdeɪtə] 与 [ˈdɑːtə] 两读，后者更“拉丁”。\n- **alumni** 有 [əˈlʌmnaɪ] 与 [əˈlʌmniː] 的分歧。\n\n这类读法叫**复原读音**（restored pronunciation）。它常常过头，变成 **hyperforeignism**（过度外来化）：为了显得地道，反而加上了来源语里并不存在的特征。",
+      "terms": [
+        {
+          "term": "hyperforeignism",
+          "zh": "过度外来化",
+          "en": "hyperforeignism",
+          "note": "刻意模仿外来音，结果超出或偏离来源语的实际读音"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三种读音策略，三种社会信号",
+      "body": "同一个拉丁词，英语可以给出三种读音。它们没有对错，只有语域与场合的差别。写作时选哪一种，取决于你想让读者感到这个词“有多外来”。三栏的差别不在音标本身，而在说话人对场合的判断：同一场讲座里，讲者可能先说 data [ˈdeɪtə]，引用拉丁文献时又改口 [ˈdɑːtə]。",
+      "head": [
+        "策略",
+        "做法",
+        "例子",
+        "社会信号"
+      ],
+      "rows": [
+        [
+          "英语化",
+          "完全按英语音变读",
+          "nation [ˈneɪʃən]、legal [ˈliːɡəl]",
+          "自然、日常，不像外来词"
+        ],
+        [
+          "复原",
+          "按拉丁/意大利语元音读",
+          "per diem [ˌper ˈdiːem]、stimuli [ˈstɪmjʊliː]",
+          "正式、学术、标示外来身份"
+        ],
+        [
+          "拼读式",
+          "按拼写字母读",
+          "often 的 [t]、herb 的 [h]（美式）",
+          "常被视为“过度纠正”或地区变体"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "整词借入与词干借入",
+      "body": "两条路的分岔点在“词尾有没有被当成语法”。当成语法，就削掉；当成词的一部分，就留下。留下之后，英语还会用它再派生新词，于是同一个词根出现“整词”与“词干”两套形状。",
+      "a": "整词借入",
+      "b": "词干借入",
+      "rows": [
+        {
+          "label": "典型词",
+          "a": "camera, bonus, senator",
+          "b": "table, circle, nation"
+        },
+        {
+          "label": "词尾",
+          "a": "保留 -a / -us / -or",
+          "b": "削去，或换成静音 e"
+        },
+        {
+          "label": "派生时的词干",
+          "a": "常以整词为基：camera → cameraman",
+          "b": "回到拉丁词干：table → tabular"
+        },
+        {
+          "label": "判断依据",
+          "a": "词尾在英语里不承担语法功能",
+          "b": "词尾在拉丁里是格/数标记，英语用不上"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "没有“更正确”，只有“更合适”",
+      "body": "复原读音常被误解为“更接近拉丁，所以更正确”。这说法站不住：\n\n1. 拉丁本身也有时代与地域差异，西塞罗音不等于中世纪拉丁音。\n2. 英语的借词已经过了法语这道手，复原读音复原的不是“原来的音”，而是想象中的音。\n3. 读音的合法性来自社团惯例，不来自词源。\n\n实用结论：在学术写作与正式演讲里，用词典标注的第一读音；在专业圈子里，跟随该领域的惯例（例如古典学里 centum 读 [ˈkentʊm]）。不要为了“显得地道”自创读法。",
+      "terms": [
+        {
+          "term": "register",
+          "zh": "语域",
+          "en": "register",
+          "note": "由场合、对象、目的决定的语言变体"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w15d6-p1",
+      "kind": "mcq",
+      "prompt": "camera 为什么保留了词尾 -a？",
+      "choices": [
+        "它作为不可分析的整词借入，-a 被当成词的一部分",
+        "因为英语名词必须以元音结尾",
+        "因为 -a 是英语的阴性后缀",
+        "因为它是从法语 table 一类词派生的"
+      ],
+      "answer": 0,
+      "explain": "camera 以拉丁引用形整体进入英语，使用者不把 -a 分析为语法词尾，所以它留了下来。table 相反：词尾在法语里已被磨掉，进来时就是短形。区别在借入时词尾是否被当作语法。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w15d6-p2",
+      "kind": "mcq",
+      "prompt": "stimuli 读 [ˈstɪmjʊliː] 而不是 [ˈstɪmjʊlaɪ]，这属于？",
+      "choices": [
+        "复原读音：按拉丁元音读，局部撤销了大元音推移",
+        "拼读式读音：按字母 i 读 [iː]",
+        "英语化读音：完全按本族音变",
+        "法语借词读音：i 在法语里读 [iː]"
+      ],
+      "answer": 0,
+      "explain": "英语化读法把拉丁长 i 推进成 [aɪ]，复原读法则把它退回 [iː]。这不是拼读式（拼读式是按字母名读），而是有意识地回到来源语的元音，属于复原读音。",
+      "concepts": [
+        "c-register",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w15d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个拉丁短语（两个词，英文拼写）",
+      "sentence": "Consultants are paid a fixed ___ , plus travel costs, rather than an annual salary.",
+      "answer": "per diem",
+      "accept": [
+        "per diem"
+      ],
+      "explain": "per diem 字面是“每天”，在英语里指按日计酬的补贴。正式场合常读 [ˌper ˈdiːem]，-em 读出完整元音，属于复原读音；口语里也可能被英语化成 [pər ˈdaɪəm]。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w15d6-p4",
+      "kind": "mcq",
+      "prompt": "alumni 的两种读法 [əˈlʌmnaɪ] 与 [əˈlʌmniː]，下面哪项说法正确？",
+      "choices": [
+        "前者英语化，后者复原；两种都被使用，语域不同",
+        "前者错误，后者是唯一正确读音",
+        "前者是英式，后者是美式",
+        "两者分别对应“男校友”和“女校友”"
+      ],
+      "answer": 0,
+      "explain": "英语化读法把词尾 -i 读成 [aɪ]，复原读法读 [iː]。两者都在使用，差别在语域而非对错；性别区分在拼写上（alumni 阳性复数，alumnae 阴性复数），不在读音上。",
+      "concepts": [
+        "c-register",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w15d6-p5",
+      "kind": "mcq",
+      "prompt": "没学过的 curriculum 的拉丁复数 curricula，最合理的说明是？",
+      "choices": [
+        "整词借入保留了拉丁词尾，复数按拉丁规则变为 -a",
+        "英语化复数应为 curriculums，curricula 是错误形式",
+        "curricula 是法语复数，不是拉丁复数",
+        "curriculum 没有复数形式"
+      ],
+      "answer": 0,
+      "explain": "curriculum 以引用形整体借入，学术语域保留拉丁复数 curricula。口语里 curriculums 也有人用，属于英语化处理。两种并存，正是“整词借入 + 语域选择”的结果。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w15d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线短语在语境中的含义",
+      "passage": "The contract pays a modest per diem for each day spent on site, but it does not cover hotels. Inspectors therefore tend to choose accommodation well below the daily allowance and keep the difference.",
+      "word": "per diem",
+      "choices": [
+        "按日发放的补贴",
+        "按项目结算的奖金",
+        "每日的住宿标准",
+        "每月的固定工资"
+      ],
+      "answer": 0,
+      "strategy": "① 构词：per（每）＋ diem（日）＝“每天”；② 同位解释：for each day spent on site；③ 对比：与 hotels 对举、daily allowance 复现，说明是每日给的钱；④ 排除：它不是住宿标准，也不是月薪。",
+      "explain": "per diem 指按日计酬或按日报销的补贴。它在英语里是完整的拉丁短语借入，因此保留介词 per 与宾格 diem；正式场合常读复原音 [ˌper ˈdiːem]。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：整词借入、复原读音"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "camera / bonus / senator / per diem / stimuli 的借入形与读音变体"
+    }
+  ]
+}

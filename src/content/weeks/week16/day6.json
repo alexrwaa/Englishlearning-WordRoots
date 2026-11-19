@@ -1,0 +1,285 @@
+{
+  "id": "w16d6",
+  "week": 16,
+  "day": 6,
+  "title": "拼写与读音为什么会分家",
+  "tagline": "ough 的六种读法、三类不发音字母、四步检查法：把两周的线索合成一套可用的判断流程",
+  "objectives": [
+    "能列出拼写与读音分家的五条原因，并各配一个例子",
+    "能按证据强弱把不发音字母分成三类，指出 island 与 debt 的区别",
+    "能用四步检查法处理一个陌生的“拼写—读音不一致”词"
+  ],
+  "prereqs": [
+    "w16d5",
+    "c-spelling-rule"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-spelling-rule",
+    "c-inference",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "五条原因，一条一条对号入座",
+      "body": "英语的拼写与读音之所以对不上，不是“英语很乱”，而是五件事叠在一起：\n\n1. **法语中介**：借词的读音停在法语层，拼写却可能按拉丁改回（nation、civ-）。\n2. **词尾脱落**：法语吃掉非重读音节，英语拼写却保留了拉丁的尾巴（table、circle）。\n3. **大元音推移**：英语自己的长元音整体上移，拼写没跟着改（virus、legal）。\n4. **语源拼写**：文艺复兴的书写者按拉丁补字母，读音不变（debt、doubt、receipt）。\n5. **借入后音变**：词进来以后，英语又发生了新的音变（ough 的各读、静音字母）。\n\n遇到一个“不讲道理”的拼写，先问它属于哪一条。绝大多数情况都能归到其中一类，而不是随机例外。",
+      "terms": [
+        {
+          "term": "orthographic depth",
+          "zh": "正字法深度",
+          "en": "orthographic depth",
+          "note": "拼写与读音对应关系的复杂程度；英语属于“深”正字法"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "ough：一个拼写，六种读法",
+      "body": "ough 是英语拼写史的浓缩样本。它在古英语里表示一个带摩擦的音，后来摩擦音消失，前面的元音各自走上不同的路；拼写却停在旧状态，于是同一组字母对应了六种读音。",
+      "head": [
+        "词",
+        "读音",
+        "韵母",
+        "说明"
+      ],
+      "rows": [
+        [
+          "though",
+          "[ðəʊ]",
+          "[əʊ]",
+          "摩擦音消失，元音二合化"
+        ],
+        [
+          "through",
+          "[θruː]",
+          "[uː]",
+          "保留长 u"
+        ],
+        [
+          "rough",
+          "[rʌf]",
+          "[ʌf]",
+          "词尾变成 [f]"
+        ],
+        [
+          "cough",
+          "[kɒf]",
+          "[ɒf]",
+          "同上，元音不同"
+        ],
+        [
+          "bough",
+          "[baʊ]",
+          "[aʊ]",
+          "元音二合化为 [aʊ]"
+        ],
+        [
+          "bought",
+          "[bɔːt]",
+          "[ɔː]",
+          "gh 不发音，元音拉长"
+        ]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "不发音字母的三类证据",
+      "body": "同样是“不发音”，来源可以完全不同。分类的价值在于：第一类是本族音变，第二类是法语借入，第三类才是“后人动手改拼写”。只有第三类需要问“改得对不对”。以 debt 为例，完整链条是：拉丁 debitum → 古法语 dette → 中古英语 dette → 15–16 世纪被改写成 debt，而 b 从未发音。island 缺少的正是这条可核对的拉丁链。",
+      "head": [
+        "类别",
+        "例词",
+        "字母为何不发音",
+        "证据强度"
+      ],
+      "rows": [
+        [
+          "本族音簇简化",
+          "knight, write, know",
+          "古英语的 [kn]、[wr] 在中古英语后简化",
+          "强：有连续文献"
+        ],
+        [
+          "法语词尾",
+          "corps, debris, rendezvous",
+          "法语词尾辅音本就不发音",
+          "强：借入时即如此"
+        ],
+        [
+          "语源拼写（真）",
+          "debt, doubt, receipt",
+          "按拉丁补字母，读音未变",
+          "强：拉丁源可核"
+        ],
+        [
+          "语源拼写（误）",
+          "island, scissors",
+          "按错误的拉丁联想改拼",
+          "弱：词源判断错误"
+        ]
+      ]
+    },
+    {
+      "kind": "passage",
+      "title": "读一段学术文字，看这些词如何共存",
+      "body": "下面这段文字同时包含本族词、法语借词与学术借词。读的时候注意：它们的拼写规则并不统一，但每一个都能被追溯到某一条路径。试着在读完之前先自己标出 debt、doubt、island、national、medieval 五个词，判断它们各自属于哪一类，再看卡片下面的三个问题。",
+      "excerpt": "The debt was never repaid, and the doubt surrounding the accounts deepened. What began as a local dispute over an island tax soon reached the national press, where editors with a medieval sense of honour refused to print the names of the families involved.",
+      "glossZh": "这笔债务从未偿还，围绕账目的疑云越来越重。起初只是关于一项岛屿税的局部纠纷，很快上了全国性报纸；那些带着中世纪荣誉感的编辑拒绝刊登相关家族的姓名。",
+      "questions": [
+        {
+          "q": "debt 与 doubt 的 b 属于哪一类不发音字母？",
+          "a": "语源拼写（真）：分别按拉丁 debitum、dubitare 补入，读音未变。"
+        },
+        {
+          "q": "island 的 s 为什么是“误”？",
+          "a": "它来自古英语 īeg，与拉丁 insula 无关，s 是按错误联想插入的。"
+        },
+        {
+          "q": "national 与 medieval 的拼写为什么一个像拉丁、一个像法语？",
+          "a": "national 经法语但拼写被改回拉丁 natio；medieval 是现代拉丁学术词，保留 ae/e 的学术拼法。"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四步检查法：遇到怪拼写先别猜",
+      "body": "把两周的内容压成一套流程，遇到陌生词就按顺序问：\n\n1. **它是本族词还是借词？** 看是否有古英语同源词、是否属于日常基本词汇。\n2. **借词走哪条路？** 学术借词词形接近拉丁；法语借词常被磨短、词尾不发音。\n3. **拼写被改过吗？** 找“拼写比读音更古老”的信号：不发音的 b、p、s、h。\n4. **读音停在哪一层？** 是法语音、英语化音，还是复原音？\n\n四步走完，再查词典确认。**规则用来提出假设，词典用来验证假设**——这个顺序不能反。",
+      "terms": [
+        {
+          "term": "etymology",
+          "zh": "词源学",
+          "en": "etymology",
+          "note": "研究词的形式与意义历史的学科，依赖文献证据而非拼写相似"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w16d6-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一组词最能说明“同一拼写可以有多种读音”？",
+      "choices": [
+        "though / through / rough",
+        "nation / national / nationality",
+        "debt / doubt / receipt",
+        "table / tabular / tabulate"
+      ],
+      "answer": 0,
+      "explain": "though、through、rough 的 ough 分别读 [əʊ]、[uː]、[ʌf]，是同一拼写多读的典型。其余三组分别是同族派生或同类拼写插入，不涉及同一字母组合的多种音值。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w16d6-p2",
+      "kind": "mcq",
+      "prompt": "debt 与 island 的“多余字母”，本质区别是？",
+      "choices": [
+        "debt 的 b 有拉丁语源依据，island 的 s 是错误类推",
+        "debt 的 b 发音，island 的 s 不发音",
+        "二者都来自法语，只是插入时间不同",
+        "debt 的 b 是复数标记，island 的 s 是所有格标记"
+      ],
+      "answer": 0,
+      "explain": "debt 经古法语 dette 来自拉丁 debitum，b 有真实语源；island 来自古英语 īeg，与拉丁 insula 无关，s 是误认。两者的差别不在“发不发音”，而在词源判断对不对。",
+      "concepts": [
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w16d6-p3",
+      "kind": "cloze",
+      "prompt": "填入正确的英语单词",
+      "sentence": "The ___ was too small to support an airport, so the government built a bridge to the mainland instead.",
+      "answer": "island",
+      "accept": [
+        "island"
+      ],
+      "explain": "island 来自古英语 īeg“岛”，s 是 16 世纪按拉丁 insula 错误插入的，不发音。句中 too small to support an airport、bridge to the mainland 都指向“岛屿”。",
+      "concepts": [
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w16d6-p4",
+      "kind": "mcq",
+      "prompt": "下面哪一项把“原因”和“例子”配错了？",
+      "choices": [
+        "大元音推移 → debt 的 b 不发音",
+        "法语中介 → civ- 读 [s]",
+        "语源拼写 → doubt 的 b",
+        "法语词尾脱落 → table 少了 -a"
+      ],
+      "answer": 0,
+      "explain": "debt 的 b 不发音是语源拼写造成的（按拉丁补字母、读音不变），与大元音推移无关。大元音推移管的是长元音上移，如 virus 的 [aɪ]、legal 的 [iː]。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w16d6-p5",
+      "kind": "mcq",
+      "prompt": "没学过的 plough（英式）与 plow（美式）指同一件农具。最合理的解释是？",
+      "choices": [
+        "同一词的两种拼写：ough 是旧拼，ow 是按读音改写的简化形",
+        "两个不同的词，词源无关",
+        "plough 来自法语，plow 来自古英语",
+        "plow 是 plough 的复数形式"
+      ],
+      "answer": 0,
+      "explain": "plough 与 plow 是同一词的拼写变体。ough 保留了中古英语的旧拼，plow 则按实际读音改写。美式英语整体上更倾向这种“拼写跟着读音走”的改革，但两套都合法。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-etymology"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w16d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词的含义",
+      "passage": "Before signing, give the contract a thorough reading: check every clause, follow each cross-reference, and write down anything that seems vague. A quick scan will miss exactly the details that later cause disputes.",
+      "word": "thorough",
+      "choices": [
+        "彻底的、细致全面的",
+        "快速的、粗略的",
+        "法律上有效的",
+        "由第三方执行的"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号列举：check every clause、follow each cross-reference、write down anything vague 都是“细致”的具体动作；② 反面对照：A quick scan will miss… 从反面强调不能快；③ 搭配：a thorough reading 是固定搭配；④ 排除：它与“快速、粗略”正好相反。",
+      "explain": "thorough 指彻底、细致全面。它与 through 同源（古英语 thurh），但拼写分化成 ough 与 ou，读音也分开：[ˈθʌrə] 与 [θruː]。这个词本身就是“同一来源、不同拼写、不同读音”的活标本。",
+      "concepts": [
+        "c-inference",
+        "c-spelling-rule",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章综合：拼写与读音的脱节、语源拼写与错误类推"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "ough 各词的读音史、debt / island / plough 的拼写变体"
+    }
+  ]
+}

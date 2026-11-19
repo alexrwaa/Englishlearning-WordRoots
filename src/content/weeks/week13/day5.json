@@ -1,0 +1,274 @@
+{
+  "id": "w13d5",
+  "week": 13,
+  "day": 5,
+  "title": "过度类推与派生总原则",
+  "tagline": "规则学得越好，越容易把它用过头：octopi 就是这么来的",
+  "objectives": [
+    "能说出 octopus、pentagon、caucus、ignoramus 各自真正的复数与理由",
+    "能区分“规则允许”与“语言里实际存在”两件事",
+    "能用“词根 + 派生后缀 → 词干 → 屈折词尾”这条链解释一个词的层级"
+  ],
+  "prereqs": [
+    "w13d4"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-derivation",
+    "c-etymology",
+    "c-frequency",
+    "c-root",
+    "c-suffix"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s1-6",
+    "kp-s1c9s2-1"
+  ],
+  "minutes": {
+    "review": 6,
+    "learn": 8,
+    "practice": 6,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "类推：语言最有效的引擎，也是最常见的错误来源",
+      "body": "人学语言靠**类推**（analogy）：看到 alumnus → alumni、nucleus → nuclei，就把“-us 变 -i”当成通则，于是遇到 octopus 也写成 octopi。这个推理在内部完全一致，唯一的问题是——**octopus 不是拉丁第二变格法名词**。\n\n它来自希腊语 okṓpous（八只脚），词干是 octopod-，希腊复数应是 octopodes。英语里通行的复数是 **octopuses**，octopi 属于“按拉丁规则过度类推”的产物：错不在逻辑，错在前提（把希腊词当成拉丁词）。\n\n这类错误的学名叫**过度类推**（overgeneralization）。它有三个特征，可以用来识别自己是否正在犯：\n\n1. 规则本身没错，但用在了不属于该类的词上；\n2. 造出的形式“听起来很学术”，因此传播得快；\n3. 词典通常收录它并标注“非标准／有争议”，而不是直接判错。",
+      "terms": [
+        {
+          "term": "overgeneralization",
+          "zh": "过度类推",
+          "en": "overgeneralization",
+          "note": "把一条规则扩展到它本不适用的成员上"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个陷阱词：错误类推 vs 实际复数",
+      "body": "这四行覆盖了三类陷阱：希腊词被当拉丁词（octopus、pentagon）、词源根本不是拉丁（caucus）、以及“整个句子被当成名词”（ignoramus）。判断顺序永远是：先词源，再词尾，最后查用法。",
+      "head": [
+        "词",
+        "常见错误类推",
+        "实际复数",
+        "理由"
+      ],
+      "rows": [
+        [
+          "octopus",
+          "octopi",
+          "octopuses（octopodes 为希腊式）",
+          "希腊词，词干 octopod-，不属拉丁第二变格法"
+        ],
+        [
+          "pentagon",
+          "pentaga",
+          "pentagons（希腊式为 pentagona）",
+          "-on 是希腊中性词尾，但不能一律套 -a 造英语词"
+        ],
+        [
+          "caucus",
+          "cauci",
+          "caucuses",
+          "词源不确定（一般认为与阿尔冈昆语有关），不是拉丁词"
+        ],
+        [
+          "ignoramus",
+          "ignorami",
+          "ignoramuses",
+          "原是拉丁动词第一人称复数“我们不知道”，被借作名词"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "ignoramus：一句拉丁话变成了可数名词",
+      "body": "ignoramus 在拉丁语里是 ignorare（不知道）的第一人称复数现在时，意思是“我们不知道”。它在英语里的名词用法有具体来历：17 世纪英国大陪审团在驳回起诉书时会写上这个词，表示“我们不予追究”。于是这个词被当作“驳回”的标记，再进一步指“无知的人”。\n\n一旦它变成英语的可数名词，就归英语规则管：复数 **ignoramuses**，不是 ignorami。因为 -us 在这里不是名词词尾，而是动词人称词尾——把动词词尾当名词词尾去变格，就是典型的层级误判。\n\n这个例子值得记住的不只是复数，而是方法：**先确认这个词尾在原语言里做什么用**，再决定能否套用某条英语化的规则。",
+      "terms": [
+        {
+          "term": "false Latin",
+          "zh": "假拉丁",
+          "en": "false Latin",
+          "note": "看起来像拉丁词、实际另有来源或另有词性的词"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "派生总原则：先造词干，再加屈折",
+      "body": "把前面四天收拢成一条链：\n\n**词根（root）→ 加派生后缀 → 词干（stem）→ 加屈折词尾 → 进入句子的词形**\n\n以 caud-（尾）为例：\n\n- caud- 是词根，单音节，在拉丁里不能独立成词；\n- caud- + 屈折词尾 -a → **cauda**“尾巴”（名词，第一变格法）；\n- caud- + 派生后缀 -alis → **caudalis**“尾的” → 英语 **caudal**；\n- caudalis 再带屈折词尾（caudalis / caudale / caudalia）才能进拉丁句子，但英语只借词干部分。\n\n关键区别：加 -a 只是让词根能当名词用（屈折），加 -alis 则造出了一个形容词（派生）。**派生改变词性与意义，屈折只让词符合语法**。判断一个词尾属于哪层，问这一句就够了。",
+      "morphemes": [
+        "ae"
+      ],
+      "morphemeIds": [
+        "cx-ae"
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "两层都能类推，但代价不同",
+      "body": "屈折层与派生层都会发生过度类推，表现却不一样：屈折层的错误通常是“多一个错误形式”，派生层的错误通常是“造出一个没人用的词”。后者更隐蔽，因为新词听起来完全合理。",
+      "a": "屈折层过度类推",
+      "b": "派生层过度类推",
+      "rows": [
+        [
+          "典型错误",
+          "octopi、ignorami、*criterias",
+          "*criticist、*reliableness、*darkity"
+        ],
+        [
+          "错在哪",
+          "把词归错了变格法或词类",
+          "把后缀接在了不接受它的词基上"
+        ],
+        [
+          "后果",
+          "形式错，但意思仍清楚",
+          "形式“合法”，但英语里不存在"
+        ],
+        [
+          "检验方式",
+          "查词典的复数条目",
+          "查同后缀的真实词表，看词基类型是否匹配"
+        ],
+        [
+          "正确做法",
+          "以用法为准，不以规则美感为准",
+          "先找同族词，再判断该后缀能否接这个词基"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w13d5-p1",
+      "kind": "mcq",
+      "prompt": "octopus 在标准英语里的复数最恰当的是：",
+      "choices": [
+        "octopuses",
+        "octopi",
+        "octopodes",
+        "octopus"
+      ],
+      "answer": 0,
+      "explain": "octopus 来自希腊语，不是拉丁第二变格法名词，所以 -us → -i 的前提不成立。标准英语复数是 octopuses；octopodes 是希腊式复数，在动物学文本里可见；octopi 属于过度类推，虽被广泛使用，但常被词典标注为有争议。octopus 本身不是复数形式。",
+      "concepts": [
+        "c-inflection",
+        "c-etymology",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w13d5-p2",
+      "kind": "mcq",
+      "prompt": "ignoramus 的复数为什么是 ignoramuses，而不是 ignorami？",
+      "choices": [
+        "因为 -us 在这里是拉丁动词第一人称复数词尾，不是名词词尾",
+        "因为它来自希腊语，希腊词不复数变 -i",
+        "因为它是不可数名词",
+        "因为英语里所有以 -s 结尾的词复数都加 -es"
+      ],
+      "answer": 0,
+      "explain": "ignoramus 原本是拉丁动词 ignorare 的第一人称复数“我们不知道”，-us 是动词人称词尾。它被英语借作可数名词后，就按英语规则加 -es。把它当拉丁名词去变格，是层级误判——这比记一个复数形式更重要，因为同类误判会反复出现。",
+      "concepts": [
+        "c-etymology",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w13d5-p3",
+      "kind": "cloze",
+      "prompt": "填入 caucus 的复数",
+      "sentence": "Three separate ___ were held in the same evening, and none of them reached a quorum.",
+      "answer": "caucuses",
+      "accept": [
+        "caucuses",
+        "党团会议"
+      ],
+      "explain": "caucus 的词源一般认为与阿尔冈昆语有关，不是拉丁词，因此不适用 -us → -i。按英语规则复数加 -es：caucuses。写成 cauci 是把所有 -us 一律当拉丁的做法，正是今天讲的过度类推。",
+      "concepts": [
+        "c-etymology",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w13d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）platypus（鸭嘴兽）与 octopus 同型，按本课方法，最稳妥的英语复数是：",
+      "choices": [
+        "platypuses",
+        "platypi",
+        "platypodes",
+        "platypus"
+      ],
+      "answer": 0,
+      "explain": "platypus 也来自希腊语（platús“扁平”+ poús“脚”），词干 platypod-，不属拉丁第二变格法。英语通行复数是 platypuses；platypodes 是希腊式，可见于动物学；platypi 是过度类推。与 octopus 完全平行——会一个就该会另一个。",
+      "concepts": [
+        "c-etymology",
+        "c-inference",
+        "c-inflection"
+      ],
+      "hint": "先问：-pus 在希腊语里是什么？"
+    },
+    {
+      "id": "w13d5-p5",
+      "kind": "mcq",
+      "prompt": "caudal（尾的）的构成层级是：",
+      "choices": [
+        "caud（词根，尾）+ -al（派生后缀）→ 形容词词干",
+        "caud（词根）+ -a（屈折词尾）+ -l",
+        "cauda（名词）+ -l（屈折词尾）",
+        "caud + -al，其中 -al 是复数词尾"
+      ],
+      "answer": 0,
+      "explain": "caud- 是词根“尾”，-al 来自拉丁 -alis，是派生后缀，作用是把名词词干变成形容词。若先加 -a 得到 cauda（名词“尾”），再加 -alis 才是 caudalis。层级不能混：-a 是屈折，-alis 是派生，二者位置与功能都不同。",
+      "concepts": [
+        "c-derivation",
+        "c-root",
+        "c-suffix"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w13d5-a1",
+      "kind": "infer",
+      "prompt": "推测 ignoramus 在句中的含义",
+      "passage": "He is not merely uninformed; he is an ignoramus who quotes half-remembered facts as if they were settled findings, and grows angry when anyone checks them.",
+      "word": "ignoramus",
+      "choices": [
+        "无知却自以为是的人",
+        "故意撒谎的骗子",
+        "博学但健忘的学者",
+        "拒绝表态的中立者"
+      ],
+      "answer": 0,
+      "strategy": "① 构词：ignor-（不知道，与 ignorant、ignore 同族）+ -amus（拉丁第一人称复数词尾），整体被借作名词；② 句法：an ignoramus 作表语，是可数名词；③ 语境：not merely uninformed 先降一级，再用 who 从句补充“把半记半忘的东西当定论、被查证就发怒”；④ 校验：骗子、学者、中立者都无法解释“引用半记的事实并恼怒”。",
+      "explain": "ignoramus 指“无知却自以为懂的人”，比 ignorant 多了贬义与人格评价。词源线索值得记住：它不是拉丁名词，而是一句拉丁话（“我们不知道”），所以复数加 -es。这类“整句借入”的词在英语里很少，遇到时按英语名词处理即可。",
+      "concepts": [
+        "c-etymology",
+        "c-inference",
+        "c-inflection"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：过度类推与假拉丁词；派生的层级"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "octopus、platypus、caucus、ignoramus 的词源与复数"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "类推与过度类推在形态学中的角色"
+    }
+  ]
+}

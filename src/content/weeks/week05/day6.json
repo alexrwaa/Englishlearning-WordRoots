@@ -39,6 +39,10 @@
       "morphemes": [
         "mit",
         "miss"
+      ],
+      "morphemeIds": [
+        "rx-mit",
+        "rx-miss"
       ]
     },
     {
@@ -53,7 +57,8 @@
         "pro",
         "inter",
         "mit"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "table",
@@ -215,6 +220,11 @@
         "trans",
         "mit",
         "fer"
+      ],
+      "morphemeIds": [
+        "cx-tra-trans",
+        "rx-mit",
+        "rx-fer"
       ]
     }
   ],

@@ -1,0 +1,360 @@
+{
+  "id": "course-c9",
+  "title": "Latin and Greek Affixes in English",
+  "titleZh": "拉丁与希腊词缀：名词、形容词与动词系统",
+  "sourceChapter": "S1-C9",
+  "level": "B2–C1",
+  "referenceForms": [
+    "absolute",
+    "advent",
+    "adventitious",
+    "adventure",
+    "agency",
+    "agenda",
+    "agitate",
+    "alumna",
+    "alumnae",
+    "alumni",
+    "alumnus",
+    "alveolar",
+    "alveolus",
+    "analyses",
+    "analytic",
+    "apiary",
+    "apparatus",
+    "apparatuses",
+    "appendices",
+    "appendicitis",
+    "appendix",
+    "appendixes",
+    "aquarium",
+    "arid",
+    "capsule",
+    "caucus",
+    "caucuses",
+    "caudal",
+    "caudate",
+    "compact",
+    "consensus",
+    "contact",
+    "conviction",
+    "copious",
+    "cordial",
+    "corporeal",
+    "crises",
+    "crisis",
+    "criteria",
+    "criterion",
+    "data",
+    "datum",
+    "dental",
+    "dentist",
+    "diagnosis",
+    "dissolute",
+    "dissolution",
+    "doctor",
+    "doctrine",
+    "document",
+    "drama",
+    "dramatic",
+    "ductile",
+    "dynamic",
+    "effect",
+    "efficiency",
+    "election",
+    "eloquence",
+    "err",
+    "errata",
+    "erratic",
+    "erratum",
+    "evanescent",
+    "facile",
+    "factory",
+    "florescent",
+    "fluid",
+    "fraction",
+    "fracture",
+    "fragile",
+    "fragment",
+    "fraudulent",
+    "genera",
+    "generic",
+    "genus",
+    "glandes",
+    "glandular",
+    "glans",
+    "gravitation",
+    "gravity",
+    "herbarium",
+    "hesitate",
+    "homicide",
+    "hominid",
+    "hypotheses",
+    "ignoramus",
+    "ignoramuses",
+    "impact",
+    "incandescent",
+    "index",
+    "indices",
+    "inerrant",
+    "inferior",
+    "innocence",
+    "intact",
+    "junior",
+    "laryngeal",
+    "larynges",
+    "laryngitis",
+    "larynx",
+    "legend",
+    "library",
+    "loquacity",
+    "lunar",
+    "major",
+    "matrimony",
+    "memoranda",
+    "memorandum",
+    "memorandums",
+    "military",
+    "minor",
+    "molecule",
+    "momentum",
+    "monument",
+    "mortuary",
+    "native",
+    "natural",
+    "negative",
+    "obsolescent",
+    "octopi",
+    "octopodes",
+    "octopus",
+    "octopuses",
+    "opulent",
+    "ossify",
+    "ossuary",
+    "pact",
+    "patience",
+    "pedestrian",
+    "pentagon",
+    "pentagons",
+    "picture",
+    "platypus",
+    "platypuses",
+    "pragmatic",
+    "prior",
+    "propaganda",
+    "prudence",
+    "referendum",
+    "regal",
+    "reverend",
+    "rhetoric",
+    "sapience",
+    "schema",
+    "schematic",
+    "science",
+    "senior",
+    "sensation",
+    "sense",
+    "sensory",
+    "sentience",
+    "solar",
+    "solution",
+    "stasis",
+    "static",
+    "strata",
+    "stratum",
+    "superior",
+    "tactile",
+    "temporal",
+    "tendency",
+    "testimony",
+    "timid",
+    "tumescent",
+    "turbulent",
+    "ulterior",
+    "verbose",
+    "victory",
+    "vision",
+    "visual",
+    "volatile"
+  ],
+  "weeks": [
+    {
+      "week": 13,
+      "theme": "拉丁名词体系：屈折、复数与名词化后缀",
+      "days": 7
+    },
+    {
+      "week": 14,
+      "theme": "拉丁形容词与动词：后缀、分词与动形词",
+      "days": 7
+    }
+  ],
+  "lessons": [
+    {
+      "lessonId": "w13d1",
+      "title": "屈折、词干与拉丁名词的格",
+      "knowledgePoints": [
+        "kp-s1c9s1-1"
+      ]
+    },
+    {
+      "lessonId": "w13d2",
+      "title": "复数配对：词尾决定复数，不是字母决定",
+      "knowledgePoints": [
+        "kp-s1c9s1-2"
+      ]
+    },
+    {
+      "lessonId": "w13d3",
+      "title": "双复数与意义分化：一个词两套复数",
+      "knowledgePoints": [
+        "kp-s1c9s1-3"
+      ]
+    },
+    {
+      "lessonId": "w13d4",
+      "title": "拼写复原与“复数给词干”",
+      "knowledgePoints": [
+        "kp-s1c9s1-4",
+        "kp-s1c9s1-5"
+      ]
+    },
+    {
+      "lessonId": "w13d5",
+      "title": "过度类推与派生总原则",
+      "knowledgePoints": [
+        "kp-s1c9s1-6",
+        "kp-s1c9s2-1"
+      ]
+    },
+    {
+      "lessonId": "w13d6",
+      "title": "单音节词根与拉丁名词后缀（一）",
+      "knowledgePoints": [
+        "kp-s1c9s2-2",
+        "kp-s1c9s3-1"
+      ]
+    },
+    {
+      "lessonId": "w13d7",
+      "title": "拉丁名词后缀（二）与本周综合",
+      "knowledgePoints": [
+        "kp-s1c9s3-2"
+      ]
+    },
+    {
+      "lessonId": "w14d1",
+      "title": "希腊名词后缀与“后缀的语义值”",
+      "knowledgePoints": [
+        "kp-s1c9s3-3",
+        "kp-s1c9s3-4"
+      ]
+    },
+    {
+      "lessonId": "w14d2",
+      "title": "拉丁形容词后缀：成组记，不单个背",
+      "knowledgePoints": [
+        "kp-s1c9s4-1"
+      ]
+    },
+    {
+      "lessonId": "w14d3",
+      "title": "丢掉屈折词尾，与“易被……”的形容词",
+      "knowledgePoints": [
+        "kp-s1c9s4-2",
+        "kp-s1c9s4-3"
+      ]
+    },
+    {
+      "lessonId": "w14d4",
+      "title": "动词词干：连接元音、-sc- 起始体与鼻音中缀",
+      "knowledgePoints": [
+        "kp-s1c9s5-1",
+        "kp-s1c9s5-2"
+      ]
+    },
+    {
+      "lessonId": "w14d5",
+      "title": "现在分词 -ent-：从“正在做”到抽象名词",
+      "knowledgePoints": [
+        "kp-s1c9s5-3"
+      ]
+    },
+    {
+      "lessonId": "w14d6",
+      "title": "完成分词 -t-：英语学术词的真正来源",
+      "knowledgePoints": [
+        "kp-s1c9s5-4"
+      ]
+    },
+    {
+      "lessonId": "w14d7",
+      "title": "动形词 -nd- 与两周综合",
+      "knowledgePoints": [
+        "kp-s1c9s5-5"
+      ]
+    }
+  ],
+  "knowledgePointIndex": {
+    "kp-s1c9s1-1": [
+      "w13d1"
+    ],
+    "kp-s1c9s1-2": [
+      "w13d2"
+    ],
+    "kp-s1c9s1-3": [
+      "w13d3"
+    ],
+    "kp-s1c9s1-4": [
+      "w13d4"
+    ],
+    "kp-s1c9s1-5": [
+      "w13d4"
+    ],
+    "kp-s1c9s1-6": [
+      "w13d5"
+    ],
+    "kp-s1c9s2-1": [
+      "w13d5"
+    ],
+    "kp-s1c9s2-2": [
+      "w13d6"
+    ],
+    "kp-s1c9s3-1": [
+      "w13d6"
+    ],
+    "kp-s1c9s3-2": [
+      "w13d7"
+    ],
+    "kp-s1c9s3-3": [
+      "w14d1"
+    ],
+    "kp-s1c9s3-4": [
+      "w14d1"
+    ],
+    "kp-s1c9s4-1": [
+      "w14d2"
+    ],
+    "kp-s1c9s4-2": [
+      "w14d3"
+    ],
+    "kp-s1c9s4-3": [
+      "w14d3"
+    ],
+    "kp-s1c9s5-1": [
+      "w14d4"
+    ],
+    "kp-s1c9s5-2": [
+      "w14d4"
+    ],
+    "kp-s1c9s5-3": [
+      "w14d5"
+    ],
+    "kp-s1c9s5-4": [
+      "w14d6"
+    ],
+    "kp-s1c9s5-5": [
+      "w14d7"
+    ]
+  }
+}

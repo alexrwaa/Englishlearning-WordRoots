@@ -1,0 +1,284 @@
+{
+  "id": "w13d6",
+  "week": 13,
+  "day": 6,
+  "title": "单音节词根与拉丁名词后缀（一）",
+  "tagline": "caud、oss、ped 这类词根不能单独成词，得靠屈折或派生才能用",
+  "objectives": [
+    "能说明单音节词根在拉丁里的两种出场方式：加屈折成词、加派生造新词",
+    "能说出 -arium、-ia、-mentum、-monium 各自的语义分工",
+    "能认出以 [l] 开头的指小后缀，并解释其语义引申"
+  ],
+  "prereqs": [
+    "w13d5"
+  ],
+  "concepts": [
+    "c-root",
+    "c-base",
+    "c-suffix",
+    "c-derivation",
+    "c-word-family"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s2-2",
+    "kp-s1c9s3-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "单音节词根：拉丁的“零件”，不是“整机”",
+      "body": "拉丁的词根往往只有一个音节：**caud-**（尾）、**oss-**（骨）、**ped-**（脚）、**hom-**（人）、**dent-**（牙）、**cord-**（心）。它们在拉丁里通常不能直接当词用——要加东西。\n\n加什么，决定了你得到的是同一头牛的另一个形式，还是一头新牛：\n\n- caud- + 屈折词尾 **-a** → cauda“尾巴”，这是名词 cauda 的主格单数。\n- caud- + 派生后缀 **-alis** → caudalis“尾的”，这是一个新的形容词。\n\n所以看到英语里的 caudal，它不是“cauda 的变形”，而是从形容词词干 caudalis 借来的。理解这一点，才不会把屈折词尾当成构词成分去写 word sum。",
+      "terms": [
+        {
+          "term": "root",
+          "zh": "词根",
+          "en": "root",
+          "note": "承载核心词汇意义的不可再分部分"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "六个单音节词根的三种命运",
+      "body": "第三列是拉丁里的成词形式，第四列是英语里的派生词。注意英语很少借第三列，直接借的是第四列——这解释了为什么你在英语里认识 pedal，却不认识 pes。",
+      "head": [
+        "词根",
+        "含义",
+        "拉丁成词形式",
+        "英语派生词"
+      ],
+      "rows": [
+        [
+          "caud-",
+          "尾",
+          "cauda（尾，第一变格法）",
+          "caudal（尾的）、caudate（有尾的）"
+        ],
+        [
+          "oss-",
+          "骨",
+          "os, ossis（骨，第三变格法）",
+          "ossify（骨化）、ossuary（藏骨堂）"
+        ],
+        [
+          "ped-",
+          "脚",
+          "pes, pedis（脚，第三变格法）",
+          "pedal（踏板）、pedestrian（行人）"
+        ],
+        [
+          "hom-",
+          "人",
+          "homo, hominis（人）",
+          "homicide（杀人）、hominid（人科动物）"
+        ],
+        [
+          "dent-",
+          "牙",
+          "dens, dentis（牙）",
+          "dental（牙的）、dentist（牙医）"
+        ],
+        [
+          "cord-",
+          "心",
+          "cor, cordis（心）",
+          "cordial（热诚的）、accord（一致）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-arium：把“东西”变成“放东西的地方”",
+      "body": "**-arium** 是场所后缀：它把一个名词词干变成“存放／饲养／进行该事物的地方”。这是本组里语义最单一、最好用的一个。\n\n- liber（书）→ librarium（书架、藏书处）→ 英语 **library**。注意语义漂移：先是“放书的地方”，再是“藏书”，最后才是“图书馆”这座建筑。\n- aqua（水）→ aquarium“养水生物的地方”→ 水族馆。\n- os, oss-（骨）→ ossuarium → **ossuary**“藏骨堂”。\n- apis（蜂）→ apiarium → **apiary**“养蜂场”。\n- mortuus（死的）→ mortuarium → **mortuary**“停尸房”。\n\n规律很稳：看到 -ary／-arium 结尾、且词干是“物”或“生物”，先猜“场所”。但要注意 -ary 还可能是形容词后缀（military、necessary），需要看词基是名词还是动词。",
+      "morphemes": [
+        "ary",
+        "arium"
+      ],
+      "morphemeIds": [
+        "cx-ary",
+        "cx-arium"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个“只标词性”的名词后缀",
+      "body": "并非所有后缀都带具体语义。-ia、-ium、-mentum、-monium 多数时候只告诉你“这是名词”，具体意思由词根决定。记它们的作用是：看到词尾就知道该往名词方向理解，而不是去追问一个并不存在的固定含义。",
+      "head": [
+        "后缀",
+        "拉丁例",
+        "英语结果",
+        "语义说明"
+      ],
+      "rows": [
+        [
+          "-ia",
+          "scientia（知道＋性质）",
+          "science",
+          "抽象性质或状态；常对应英语 -y / -ce"
+        ],
+        [
+          "-ium",
+          "studium（热心、钻研）",
+          "study",
+          "抽象活动或状态；也用于金属元素名（sodium）"
+        ],
+        [
+          "-mentum",
+          "momentum（推动）、monumentum",
+          "momentum、monument",
+          "手段、结果；常对应英语 -ment"
+        ],
+        [
+          "-monium",
+          "matrimonium、testimonium",
+          "matrimony、testimony",
+          "状态、职责、法律关系"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "以 [l] 开头的指小后缀",
+      "body": "拉丁的指小后缀有一个显著的形式特征：**多以 [l] 开头**——-lus、-la、-lum、-culus、-olus。它们表示“小”，但语义不止于小：\n\n- **molecula**（小 mass）→ molecule“分子”：小到成为技术单位。\n- **alveolus**（小槽）→ alveolar“牙槽的、肺泡的”：解剖学里指小腔。\n- **formula**（小形式）→ formula“公式”：从“小形状”变成“固定格式”。\n- **capsula**（小盒）→ capsule“胶囊、太空舱”。\n\n三种引申要分清：① 真的小（molecula）；② 技术上的标准小单位（alveolus）；③ 由“小”转为“精致／固定”的抽象义（formula）。指小后缀也常带感情色彩（亲昵或轻蔑），这一点在意大利语、西班牙语的 -ito／-illo 里更明显。\n\n实用提醒：不要看到 -ula 就一律译“小”，要先看它在学科里的固定译法。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w13d6-p1",
+      "kind": "mcq",
+      "prompt": "ossuary（藏骨堂）中 -arium 的作用是：",
+      "choices": [
+        "表场所：存放骨殖的地方",
+        "表施事：处理骨殖的人",
+        "表指小：小块骨头",
+        "表抽象性质：骨的性质"
+      ],
+      "answer": 0,
+      "explain": "oss-（骨）+ -arium（场所后缀）→ 存放骨殖的地方。表施事要用 -tor／-or，表指小要用 -lus／-culus 一类以 [l] 开头的后缀，表抽象性质多用 -ia／-tas。三个后缀的分工是今天后半段的核心，不要混用。",
+      "concepts": [
+        "c-suffix",
+        "c-derivation",
+        "arium"
+      ]
+    },
+    {
+      "id": "w13d6-p2",
+      "kind": "cloze",
+      "prompt": "填入表示“水族馆”的名词",
+      "sentence": "The new ___ houses more than four hundred species, mostly fish from tropical rivers.",
+      "answer": "aquarium",
+      "accept": [
+        "aquarium",
+        "水族馆"
+      ],
+      "explain": "aqua（水）+ -arium（场所）→ aquarium“养水生物的地方”。这个词的构词逻辑和 library、ossuary、apiary 完全一致：词干是“里面装的东西”，后缀说明“这是装它的地方”。",
+      "concepts": [
+        "c-suffix",
+        "arium",
+        "c-word-family"
+      ]
+    },
+    {
+      "id": "w13d6-p3",
+      "kind": "mcq",
+      "prompt": "caudal 的正确层级切分是：",
+      "choices": [
+        "caud（词根，尾）+ -al（形容词后缀）",
+        "cauda（名词）+ -l（屈折词尾）",
+        "caud + -a + -l（两层屈折）",
+        "ca（前缀）+ udal（词根）"
+      ],
+      "answer": 0,
+      "explain": "caud- 是“尾”的词根，-al 来自 -alis，是派生后缀，合起来构成形容词“尾的”。拉丁里完整形式是 caudalis（caud- + -alis），英语只取词干部分。cauda 是加了屈折词尾 -a 的名词，不是 caudal 的构成成分。",
+      "concepts": [
+        "c-root",
+        "c-suffix",
+        "c-derivation"
+      ]
+    },
+    {
+      "id": "w13d6-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）herbarium 最可能的意思是：",
+      "choices": [
+        "干燥植物标本的收藏处",
+        "研究植物的学者",
+        "一种小型植物",
+        "植物的药用性质"
+      ],
+      "answer": 0,
+      "explain": "herba（草、植物）+ -arium（场所）→ 存放植物标本的地方，即“植物标本馆”。按今天的规则：词干是“物”，后缀是 -arium，先猜场所。表“研究者”要用 -ist／-tor，表“小植物”要用指小后缀，表“性质”要用 -ia／-tas——三个干扰项各自对应一个错误的后缀。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "arium"
+      ],
+      "hint": "先判断词干指“东西”还是“人”，再看后缀的语义类。"
+    },
+    {
+      "id": "w13d6-p5",
+      "kind": "mcq",
+      "prompt": "molecula → molecule 中的 -ula 表达了什么，并如何引申？",
+      "choices": [
+        "指小：小的东西；引申为技术上的基本单位",
+        "施事：做某事的东西",
+        "场所：放某物的地方",
+        "否定：不是某物"
+      ],
+      "answer": 0,
+      "explain": "-ula 是指小后缀（以 [l] 开头的一组），molecula 字面是“小 mass”，英语 molecule 指“分子”，即物质的最小基本单位。指小义在这里不是“可爱”，而是“小到可以作为一个单位”——这是科技语域里最常见的引申方式。",
+      "concepts": [
+        "c-suffix",
+        "c-scientific",
+        "c-derivation"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w13d6-a1",
+      "kind": "infer",
+      "prompt": "推测 apiary 的含义",
+      "passage": "The farm keeps forty hives in a single apiary; the bees forage within a radius of about three kilometres, so the surrounding orchards benefit as much as the honey business does.",
+      "word": "apiary",
+      "choices": [
+        "养蜂场",
+        "蜂巢的内部结构",
+        "蜂蜜加工车间",
+        "果树的授粉季节"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：api-（apis“蜂”）+ -arium（场所）；② 句法：in a single apiary 是地点状语，说明它是一处场地；③ 语境：forty hives（四十个蜂箱）集中在一处，蜜蜂在半径三公里内采蜜；④ 校验：蜂巢结构、加工车间、授粉季节都无法用“集中放置四十个蜂箱的地点”来解释。",
+      "explain": "apiary 是“养蜂场”。这条题的推理链完全建立在今天的后缀语义上：-arium 表场所，词干是生物（蜂）。同一后缀的四个词——library（书）、aquarium（水族）、ossuary（骨）、apiary（蜂）——词干各不相同，后缀含义不变，这就是“后缀的语义值”。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "arium"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：单音节词根与拉丁名词后缀（一）"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "-arium、-ia、-mentum、-monium 词表"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "library、aquarium、ossuary、apiary 的语义演变"
+    }
+  ]
+}

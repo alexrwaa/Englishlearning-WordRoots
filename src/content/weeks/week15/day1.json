@@ -1,0 +1,295 @@
+{
+  "id": "w15d1",
+  "week": 15,
+  "day": 1,
+  "title": "同一个拉丁词，两条进入英语的路",
+  "tagline": "看懂 capital 与 chief 为什么同源却不同形，并据此判断一个词是“读书读来的”还是“过日子过出来的”",
+  "objectives": [
+    "能给出 learned borrowing 的判据，并说明它与通俗借词的区别",
+    "能用语义、拼写、读音、词尾四个维度描述拉丁成分进入英语后的变化",
+    "能判断一组双式词中哪个走学术路径、哪个走法语路径，并说出判断依据"
+  ],
+  "prereqs": [
+    "w12d7",
+    "c-borrowing",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-etymology",
+    "c-cognate",
+    "cap"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s1-1",
+    "kp-s1c11s1-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两条路都通向拉丁，但落地方式不同",
+      "body": "1066 年之后，英语先从法语借词；文艺复兴之后，又从书本借拉丁词。两条路都通向拉丁，但结果很不一样。\n\n- 走法语口语的词，被法国人念了几百年，词形磨得面目全非：**chief**、**sure**、**friar**。\n- 走书本的词，是学者照着拉丁原文抄下来的：**capital**、**secure**、**frater**。\n\n教材把后者叫 **learned borrowing**（学术借词）：直接从书面拉丁借入的词或语素。它变化最少，但“最少”不等于“没有”。关键在于：学术借词借的是拉丁的**词典形**，不是罗马人的口语音。",
+      "terms": [
+        {
+          "term": "learned borrowing",
+          "zh": "学术借词",
+          "en": "learned borrowing",
+          "note": "通过书面文本直接借入的词或语素，与口语接触借入相对"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "secure 与 sure：一个拉丁词，两次入境",
+      "body": "拉丁 **securus** 由 se-（无）＋ cura（忧虑）构成，字面是“无忧的”。它进入英语两次，走了两条路：\n\n- 经古法语 **seur** 进来，成了 **sure**，13 世纪就有，属于日常口语层。\n- 文艺复兴时又被学者直接搬进来，成了 **secure**，属于书面层。\n\n两条路留下了意义分工：**sure** 偏“确信的”（*I'm sure*），**secure** 偏“安全的、牢固的”，也能当动词表示“获得”（*secure a loan*）。同源不等于同义——这正是双式词最实用的地方：拼写差异本身就是语义分工的化石。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "securus",
+          "note": "se-（无）＋ cura（忧虑），“无忧的”"
+        },
+        {
+          "period": "古法语",
+          "form": "seur",
+          "note": "口语演变，词形缩短"
+        },
+        {
+          "period": "中古英语",
+          "form": "sure",
+          "note": "约 13 世纪经法语进入，日常层"
+        },
+        {
+          "period": "16 世纪英语",
+          "form": "secure",
+          "note": "学者按拉丁原形重新借入，书面层"
+        }
+      ],
+      "terms": [
+        {
+          "term": "doublet",
+          "zh": "双式词",
+          "en": "doublet",
+          "note": "同一词源经不同路径进入同一语言而形成的两个词"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个维度：拉丁成分进来后被改了什么",
+      "body": "教材把借词的变化拆成四个方面。分开看，才能解释为什么一个词的“出身”和“现状”常常对不上：拼写可以往回改，读音却只能往前走。四个维度不是并列的清单，而是四种性质不同的证据：语义看使用场景，拼写看书写的传统，读音看借入的通道，词尾看语法的需求。",
+      "head": [
+        "维度",
+        "例子",
+        "发生了什么",
+        "为什么会这样"
+      ],
+      "rows": [
+        [
+          "语义",
+          "continent-：连续不断 → 大陆 → 七大洲之一",
+          "词义被压进英语已有的语义槽，只能占更窄的位置",
+          "英语本有 land、earth，借词必须“让路”"
+        ],
+        [
+          "拼写",
+          "nacio → nation",
+          "书写者按拉丁 natio 把 t 补回",
+          "书写传统保守，且以“体现语源”为荣"
+        ],
+        [
+          "读音",
+          "civ-：[kiːw] → [sɪv]",
+          "读音走法语，再走英语自己的音变",
+          "借的是法语的音，不是西塞罗的音"
+        ],
+        [
+          "词尾",
+          "citabar → cit-",
+          "拉丁屈折词尾被削去，只留词干",
+          "英语没有对应的语法范畴，词尾无功能"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "学术借词与通俗法语借词",
+      "body": "这两类词经常被混为一谈，因为它们的祖先相同。真正的差别不在“来源”，而在“通道”：一个从纸上进来，一个从嘴里进来。通道决定了词形被磨损的程度，也决定了后来有没有人替它“恢复原貌”。",
+      "a": "学术借词 learned",
+      "b": "通俗借词 popular",
+      "rows": [
+        {
+          "label": "进入时间",
+          "a": "14–17 世纪为主",
+          "b": "11–14 世纪为主"
+        },
+        {
+          "label": "通道",
+          "a": "书本、学校、学术写作",
+          "b": "口语接触、日常使用"
+        },
+        {
+          "label": "词形",
+          "a": "接近拉丁原形",
+          "b": "被法语磨短、磨变"
+        },
+        {
+          "label": "可辨识度",
+          "a": "一眼能看出拉丁词根",
+          "b": "常已不透明，看不出祖先"
+        },
+        {
+          "label": "是否被重拼",
+          "a": "常被改得更像拉丁",
+          "b": "基本不重拼"
+        },
+        {
+          "label": "例子",
+          "a": "capital, secure, legal",
+          "b": "chief, sure, loyal"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "双式词：同一祖先的两个后代",
+      "body": "同一词源、两条路径、两个词形，这一组关系叫 **doublet**（双式词）。英语里成对出现的不止一两组：\n\n- **capital / chief**：都出自拉丁 caput“头”。\n- **secure / sure**：都出自 securus“无忧的”。\n- **legal / loyal**：都出自 legalis“合法的”。\n\n双式词是“路径”的化石证据：只要两个词同源而词形、意义都分了工，就说明它们不是同一次借入。反过来也要小心：并非所有双式词都是“学术 vs 通俗”，也可能是两条法语方言路，例如 **catch / chase** 都出自拉丁 captare。判断时要看证据，不要只看形状。",
+      "terms": [
+        {
+          "term": "doublet",
+          "zh": "双式词",
+          "en": "doublet"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w15d1-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一项是 learned borrowing 的判据？",
+      "choices": [
+        "通过书面文本直接借入，词形接近拉丁的词典形",
+        "通过口语接触慢慢渗入，词形被磨短",
+        "一定保留拉丁的复数词尾",
+        "一定来自希腊语而不是拉丁语"
+      ],
+      "answer": 0,
+      "explain": "学术借词的核心是通道：从书面拉丁直接搬入，因此词形接近词典形（citation form）。它不保证保留复数词尾，也不限语源；经口语渗入、词形被磨短的是通俗借词。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w15d1-p2",
+      "kind": "mcq",
+      "prompt": "capital 与 chief 的关系，下面哪项正确？",
+      "choices": [
+        "双式词：同出拉丁 caput，chief 经古法语，capital 为学术借入",
+        "同形异源：拼写相近但毫无词源关系",
+        "chief 是 capital 的缩写形式",
+        "capital 来自希腊语，chief 来自拉丁语"
+      ],
+      "answer": 0,
+      "explain": "二者都追溯到拉丁 caput“头”。chief 走古法语口语路线，词形被磨短；capital 按拉丁 capitalis 的形状进入书面英语，词形接近原形。今天 chief 偏“首领的”，capital 偏“首都、资本、大写的”，意义已经分工。",
+      "concepts": [
+        "c-cognate",
+        "c-borrowing",
+        "cap"
+      ]
+    },
+    {
+      "id": "w15d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个名词（英文，复数）",
+      "sentence": "Capital and chief are ___ : they go back to the same Latin word by different routes.",
+      "answer": "doublets",
+      "accept": [
+        "doublets",
+        "a doublet"
+      ],
+      "explain": "doublet 指同一词源经不同路径进入同一语言而形成的一对词。这里两条路径是：经古法语的口语路径（chief）与直接借拉丁的书面路径（capital）。",
+      "concepts": [
+        "c-cognate",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w15d1-p4",
+      "kind": "mcq",
+      "prompt": "借词变化的四个方面里，哪一项最容易与拉丁原样脱节？",
+      "choices": [
+        "语义",
+        "拼写",
+        "读音",
+        "词尾"
+      ],
+      "answer": 2,
+      "explain": "拼写被学者有意维持甚至“改回”拉丁形，所以最保守；语义会窄化但可追溯；词尾会被削去但规则清楚。读音最不稳定：它要先经过法语，再经过英语自己的音变，两次叠加后往往无法从拼写反推。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w15d1-p5",
+      "kind": "mcq",
+      "prompt": "没学过的这对词 frail / fragile，最合理的判断是？",
+      "choices": [
+        "双式词：frail 经古法语，fragile 为学术借入，二者同出拉丁 fragilis",
+        "frail 是 fragile 的拼写错误",
+        "fragile 来自法语，frail 来自拉丁语",
+        "二者只是拼写相近，没有词源关系"
+      ],
+      "answer": 0,
+      "explain": "拉丁 fragilis“易碎的”经古法语 fraile 进入英语成为 frail，词形被磨短；fragile 则是后来按拉丁原形借入的学术词。同源、两条路径、意义相近但语域不同，正是双式词的标准形态。",
+      "concepts": [
+        "c-cognate",
+        "c-borrowing",
+        "c-etymology"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w15d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在此处的含义",
+      "passage": "After the merger, the firm needed fresh capital to retool two ageing plants. The board refused to sell the land it had owned for decades, so it raised the money by issuing new shares instead.",
+      "word": "capital",
+      "choices": [
+        "资金、本金",
+        "首都",
+        "大写字母",
+        "首领"
+      ],
+      "answer": 0,
+      "strategy": "① 搭配：fresh capital 与 raise the money 前后呼应，说明它是可筹集的资源；② 句法：needed 的宾语，被用来 retool plants；③ 复现：后半句 raised the money by issuing new shares 直接给出同义解释；④ 排除：首都、大写字母都无法与“发股票筹集”搭配。",
+      "explain": "capital 的字面义是“头”（caput），由“头”引申为“首要的、本金的”，再专指经营所需的资金。这是借词语义专业化的典型：拉丁的“头”在英语金融语境里只剩下“本金”这一窄义。",
+      "concepts": [
+        "c-inference",
+        "c-narrowing",
+        "cap"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：学术借词、借词变化的四个方面、双式词"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "securus / caput / fragilis 的语源与 secure-sure、capital-chief、fragile-frail 的借入史"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "w13d1",
+  "week": 13,
+  "day": 1,
+  "title": "屈折、词干与拉丁名词的格",
+  "tagline": "分清两套词尾：一套标语法关系（屈折），一套造新词（派生）",
+  "objectives": [
+    "能说明屈折词尾与派生后缀各自改变什么、不改变什么",
+    "能说出词干（stem）的构成：词根 + 派生后缀，屈折词尾接在词干之后",
+    "能解释为什么英语借入拉丁名词时通常只取主格形式"
+  ],
+  "prereqs": [
+    "w12d7",
+    "c-morpheme",
+    "c-inflection"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-derivation",
+    "c-root",
+    "c-base",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s1-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两种词尾，两个任务",
+      "body": "英语里 book → books 只多了一个 -s，词性和词义都没变，只是从“一个”变成“多个”。这种只为标语法关系而加的记号叫**屈折**（inflection）。而 teach → teacher 是另一回事：多出来的 -er 造出了一个新词，词性从动词变成名词，这种加派生后缀的过程叫**派生**（derivation）。\n\n拉丁语把这两件事分得比英语更清楚。一个拉丁名词先有**词干**，再在词干上挂屈折词尾：词干告诉你“这是什么东西”，词尾告诉你“它在句子里做什么成分、是单数还是复数”。taurus 与 taurum 指的是同一头公牛，只是前者做主语、后者做宾语。\n\n记住这条层级：**词根 → 加派生后缀 → 词干 → 加屈折词尾 → 可以进句子的词形**。后面两周所有看似零散的词尾，都要放回这条链上看。",
+      "terms": [
+        {
+          "term": "inflection",
+          "zh": "屈折",
+          "en": "inflection",
+          "note": "只标语法关系（数、格、时、人称）的词形变化"
+        },
+        {
+          "term": "stem",
+          "zh": "词干",
+          "en": "stem",
+          "note": "词根加派生后缀之后、尚未接屈折词尾的形式"
+        }
+      ],
+      "morphemes": [
+        "tion",
+        "ment"
+      ],
+      "morphemeIds": [
+        "sx-tion",
+        "sx-ment"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "taurus 的单数五形",
+      "body": "拉丁第二变格法阳性名词 taurus（公牛）在单数里有五种不同的词形，因为格不同（与格与夺格同形，都是 tauro）。把这五个形式排在一起，你会发现词干 taur- 一动不动，变的只有词尾。这正说明：语法信息不在词干里，而在屈折词尾里。英语借入时把这套词尾全部丢掉，只留下主格 taurus。",
+      "head": [
+        "格",
+        "词形",
+        "词尾",
+        "句法功能"
+      ],
+      "rows": [
+        [
+          "主格 nominative",
+          "taurus",
+          "-us",
+          "做主语或表语：这头公牛"
+        ],
+        [
+          "属格 genitive",
+          "tauri",
+          "-i",
+          "表所属：公牛的"
+        ],
+        [
+          "与格 dative",
+          "tauro",
+          "-o",
+          "表给予对象：给公牛"
+        ],
+        [
+          "宾格 accusative",
+          "taurum",
+          "-um",
+          "做宾语：把公牛"
+        ],
+        [
+          "夺格 ablative",
+          "tauro",
+          "-o",
+          "表工具、来源、伴随"
+        ],
+        [
+          "呼格 vocative",
+          "taure",
+          "-e",
+          "直接称呼：噢，公牛"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "英语只借主格，派生词却常取斜格词干",
+      "body": "拉丁名词进入英语时，几乎总是以**主格单数**的形态被整体搬进来：campus、focus、radius、status、corpus。所以英语里的拉丁借词看起来“没有格”，你看到的就是词典形。\n\n但派生词是另一条路。英语从拉丁取派生词时，用的往往是**斜格词干**（属格去掉词尾后的部分），因为拉丁的构词多发生在斜格词干上。于是同一个拉丁名词在英语里留下两副面孔：\n\n- corpus（主格，语料库）／corpor-is（属格）→ corporal、incorporate、corporeal\n- tempus（主格，时间）／tempor-is（属格）→ temporary、contemporary\n- genus（主格，种类）／gener-is（属格）→ generic、generate、genera\n\n这解释了第 4 天要讲的“复数提供词干”：复数和属格常常暴露出同一个斜格词干。"
+    },
+    {
+      "kind": "compare",
+      "title": "屈折词尾 vs 派生后缀",
+      "body": "判断某个词尾属于哪一类，不要看它长什么样，要看它做了什么。两列里有些后缀拼写很像（-a 既可能是屈折词尾，也可能是名词后缀），唯一可靠的判据是功能。",
+      "a": "屈折词尾",
+      "b": "派生后缀",
+      "rows": [
+        [
+          "改变什么",
+          "只改语法关系：数、格、时、人称",
+          "改词性、改词汇意义，造出新词"
+        ],
+        [
+          "是否产生新词条",
+          "不产生，同一个词的另一个形式",
+          "产生，词典里要另立条目"
+        ],
+        [
+          "成员是否封闭",
+          "封闭，可以穷举（-s、-ed、-ing、拉丁 -ae/-i/-a 等）",
+          "半开放，可扩充，能产性各不相同"
+        ],
+        [
+          "位置",
+          "永远在最外层，紧跟词干之后",
+          "在词根与屈折词尾之间"
+        ],
+        [
+          "拉丁例子",
+          "taur-us / taur-um / taur-i",
+          "caud-a（尾）→ caud-al-is → 英语 caudal"
+        ],
+        [
+          "英语例子",
+          "book / books；walk / walked",
+          "teach / teacher；nation / national"
+        ]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "两套词尾速查表",
+      "body": "做构词分析时，最容易犯的错是把屈折词尾当成派生后缀：看到 criteria 就以为 -a 是“复数后缀”并拿它去造新词。下面的分工表用来快速定位：先问“这个词尾是在标语法，还是在造新词”，再决定它能不能进入 word sum。",
+      "head": [
+        "类型",
+        "拉丁形式",
+        "出现位置",
+        "能否用来造新词"
+      ],
+      "rows": [
+        [
+          "名词屈折（第一变格）",
+          "-a / -ae / -am / -a",
+          "词干最外层",
+          "不能：alumna / alumnae 是同一个词"
+        ],
+        [
+          "名词屈折（第二变格）",
+          "-us / -i / -o / -um",
+          "词干最外层",
+          "不能：alumnus / alumni 是同一个词"
+        ],
+        [
+          "名词屈折（中性）",
+          "-um / -i / -o / -a",
+          "词干最外层",
+          "不能：datum / data 是同一个词"
+        ],
+        [
+          "名词派生",
+          "-ia / -tas / -tio / -tura / -arium",
+          "词根之后、屈折之前",
+          "能：scient- + -ia → scientia"
+        ],
+        [
+          "形容词派生",
+          "-alis / -aris / -osus / -bilis",
+          "词根之后、屈折之前",
+          "能：caud- + -alis → caudalis"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w13d1-p1",
+      "kind": "mcq",
+      "prompt": "下面哪一项属于屈折变化，而不是派生？",
+      "choices": [
+        "book → books",
+        "teach → teacher",
+        "nation → national",
+        "care → careful"
+      ],
+      "answer": 0,
+      "explain": "books 与 book 是同一个词的两种语法形式（单数／复数），词性和词汇意义都没变，所以是屈折。teacher、national、careful 都造出了新词、改变了词性或意义，属于派生。判断依据是功能，不是词尾的长短。",
+      "concepts": [
+        "c-inflection",
+        "c-derivation"
+      ]
+    },
+    {
+      "id": "w13d1-p2",
+      "kind": "mcq",
+      "prompt": "taurus 与 taurum 的关系是：",
+      "choices": [
+        "同一个名词的两个格形式，词干相同",
+        "两个不同的名词，分别指公牛和牛角",
+        "一个是单数、一个是复数",
+        "一个是拉丁词、一个是英语借词"
+      ],
+      "answer": 0,
+      "explain": "taur- 是词干，-us 是主格词尾，-um 是宾格词尾。两者格不同、数相同，指的是同一个事物。这说明拉丁名词的语法信息由最外层词尾承担，而词干保持稳定——这正是“屈折”的定义。",
+      "concepts": [
+        "c-inflection",
+        "c-base"
+      ]
+    },
+    {
+      "id": "w13d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个语法术语（英文）",
+      "sentence": "When English borrows a Latin noun as a whole word, it normally takes the ___ singular, which is why the English form looks like a dictionary entry.",
+      "answer": "nominative",
+      "accept": [
+        "nominative",
+        "主格"
+      ],
+      "explain": "英语借入拉丁名词时取主格单数（nominative singular），所以 campus、focus、corpus 这些词在英语里就是词典形。其他格的形式不会整体进入英语，但它们的词干会通过派生词留下痕迹（corpor-、tempor-、gener-）。",
+      "concepts": [
+        "c-borrowing",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w13d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 corpus 的属格是 corporis，corporeal 最可能的意思是：",
+      "choices": [
+        "身体的、有形体的",
+        "社团的、法人的",
+        "共同的、公共的",
+        "公司的、企业的"
+      ],
+      "answer": 0,
+      "explain": "corpor- 是 corpus（身体、形体）的斜格词干，-eal 来自形容词后缀 -alis。所以 corporeal 是“与身体有关的、有形体的”。corporation 虽然也来自 corpus，但走的是“结成一个团体（一个 body）”的引申义，指法人团体——同一个词干，两条语义路径，这正是要按词记的地方。",
+      "concepts": [
+        "c-base",
+        "c-derivation",
+        "c-inference"
+      ],
+      "hint": "先找词干，再看后缀，最后用“身体”这个核心义去试。"
+    },
+    {
+      "id": "w13d1-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“观看者”的切分",
+      "parts": [
+        "spect",
+        "ator"
+      ],
+      "answer": "spectator",
+      "explain": "spect（看）+ -ator（施事后缀，来自拉丁 -ator）→ spectator“观看者”。这里 -ator 是派生后缀，它造出了新词并改变了词性；如果换成 -s（spectators），那才是屈折。做题时先判断后缀有没有造出新词，再决定怎么切。",
+      "concepts": [
+        "c-derivation",
+        "c-word-sum",
+        "c-suffix"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w13d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 temporal 的含义",
+      "passage": "The two instruments were mounted on the same frame, so any difference between their readings must be temporal rather than spatial: they disagree about when the event happened, not about where it happened.",
+      "word": "temporal",
+      "choices": [
+        "与时间有关的",
+        "与空间有关的",
+        "与温度有关的",
+        "与仪器精度有关的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：tempor-（tempus“时间”的斜格词干 tempor-）+ -al（形容词后缀）；② 句法：rather than spatial 构成对比，spatial 是“空间的”，与之相对的只能是“时间的”；③ 语境：冒号后 when ... not where 直接把时间与地点对立；④ 校验：温度、精度都无法与 spatial 形成这套对立。",
+      "explain": "temporal 是“时间的”。关键在于认出 tempor- 是 tempus 的斜格词干——拉丁主格 tempus 在英语里几乎不单独出现，但 tempor- 出现在 temporary、contemporary、temporal 里。今天学的“英语取主格、派生取斜格”在这里正好用上：主格给你词典形，斜格给你构词材料。",
+      "concepts": [
+        "c-base",
+        "c-inference",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：拉丁名词的屈折、格与词干"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "拉丁名词变格与英语借入形式"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态学：屈折与派生的分工"
+    }
+  ]
+}

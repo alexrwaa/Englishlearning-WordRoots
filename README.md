@@ -6,7 +6,7 @@ WordRoots 是一个**离线优先的 Windows 桌面学习工具**，把英语构
 （etymology）、结构化词汇探究（Structured Word Inquiry）和词汇语义学组织成每天 25 分钟的课程，
 并用 FSRS 间隔重复分别追踪"记忆"与"迁移推理"两种能力。
 
-知识库（667 个词素 / 673 个词条）按教材清单构建，课程只是它的教学顺序；两者都有可复核的
+知识库（787 个词素 / 1315 个词条）按教材清单构建，课程只是它的教学顺序；两者都有可复核的
 覆盖率报告，见 [`docs/TEXTBOOK_COVERAGE.md`](docs/TEXTBOOK_COVERAGE.md)。
 
 不是背单词软件：它教的是**拆词、猜词、解释词**的方法。
@@ -45,7 +45,7 @@ WordRoots/
 |---|---|
 | ![课程](docs/screenshots/06-session.png) | ![统计](docs/screenshots/07-stats.png) |
 
-| 12 周课程 | 深色阅读主题 |
+| 16 周课程 | 深色阅读主题 |
 |---|---|
 | ![课程地图](docs/screenshots/02-course.png) | ![深色主题](docs/screenshots/09-dark-theme.png) |
 
@@ -105,7 +105,7 @@ CI 负责类型检查、ESLint、单元测试、课程内容校验与无占位�
 | 11 | 技术术语、现代新词与词义推断 |
 | 12 | 综合构词分析与科研英语阅读 |
 
-现有 12 周（84 天）在 [`docs/COURSE_PLAN.md`](docs/COURSE_PLAN.md) 中定位为**第一阶段：构词学基础**；
+现有 16 周（110 天）在 [`docs/COURSE_PLAN.md`](docs/COURSE_PLAN.md) 中定位为**第一阶段：构词学基础**；
 其余阶段（拼写与形态 / 拉丁 / 希腊 / 词义演变 / 用法与变体 / 历史与借词 / 科技与综合）按教材章节排定，
 尚未全部写成课时，覆盖进度以 `docs/TEXTBOOK_COVERAGE.md` 为准。
 

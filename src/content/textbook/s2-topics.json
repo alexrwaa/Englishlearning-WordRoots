@@ -1,0 +1,3567 @@
+{
+  "sourceId": "S2",
+  "title": "Essentials of Linguistics",
+  "edition": "2nd",
+  "license": "CC BY-NC-SA 4.0",
+  "publisher": "eCampusOntario Pressbooks",
+  "url": "https://ecampusontario.pressbooks.pub/essentialsoflinguistics2/",
+  "note": "本文件只含中文概括与术语对应，不含教材原文；逐条锚点见 analysis/s2/anchors.json（本地保留，不入库）。",
+  "chapters": [
+    {
+      "id": "S2-C5",
+      "title": "Morphology",
+      "sections": [
+        {
+          "id": "S2-C5-S1",
+          "title": "5.1 What is morphology?",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s1-1",
+              "title": "形态学研究词的内部构造",
+              "type": "concept",
+              "summary": "形态学考察词由哪些更小单位组装；英语多数词只含一两个成分，专业术语可含五个以上。",
+              "terms": [
+                {
+                  "en": "morphology",
+                  "zh": "形态学"
+                },
+                {
+                  "en": "morphologically complex",
+                  "zh": "形态复杂"
+                }
+              ],
+              "examples": [
+                "cats",
+                "non-renewability",
+                "iglujjualiulauqtuq"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S1"
+              ]
+            },
+            {
+              "id": "kp-c5s1-2",
+              "title": "词定义不能依赖空格",
+              "type": "concept",
+              "summary": "以书写空格界定词只适用于有正字法的语言，语言学改用「能独立出现的最小单位」这一标准。",
+              "terms": [
+                {
+                  "en": "orthographic definition",
+                  "zh": "正字法定义"
+                },
+                {
+                  "en": "word",
+                  "zh": "词"
+                }
+              ],
+              "examples": [
+                "cake",
+                "slowly"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S1"
+              ]
+            },
+            {
+              "id": "kp-c5s1-3",
+              "title": "语素是最小的形义配对",
+              "type": "concept",
+              "summary": "语素是形式与意义（或语法功能）的最小系统配对；只含一个语素的词形态简单，否则形态复杂。",
+              "terms": [
+                {
+                  "en": "morpheme",
+                  "zh": "语素"
+                },
+                {
+                  "en": "morphologically simple",
+                  "zh": "形态简单"
+                }
+              ],
+              "examples": [
+                "cat",
+                "cat-s"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S1"
+              ]
+            },
+            {
+              "id": "kp-c5s1-4",
+              "title": "形态复杂度是共时判断",
+              "type": "rule",
+              "summary": "一个词是否形态复杂取决于当代使用者是否切分它，与其希腊语或拉丁语来源无关；不同人的判断可以不同。",
+              "terms": [
+                {
+                  "en": "etymology",
+                  "zh": "词源"
+                },
+                {
+                  "en": "grammar",
+                  "zh": "语法"
+                }
+              ],
+              "examples": [
+                "morphology",
+                "morph-",
+                "-ology"
+              ],
+              "lessonHint": "词源",
+              "crossRef": [
+                "S1-C3-S21"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S2",
+          "title": "5.2 Roots, bases, and affixes",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s2-1",
+              "title": "词缀、词基与词根",
+              "type": "concept",
+              "summary": "词缀必须依附他物；被依附的成分叫词基，词基可简单可复杂；不能再分的简单词基就是词根。",
+              "terms": [
+                {
+                  "en": "affix",
+                  "zh": "词缀"
+                },
+                {
+                  "en": "base",
+                  "zh": "词基"
+                },
+                {
+                  "en": "root",
+                  "zh": "词根"
+                }
+              ],
+              "examples": [
+                "librarian",
+                "librarianship",
+                "library"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S3"
+              ]
+            },
+            {
+              "id": "kp-c5s2-2",
+              "title": "历史词根与共时词根可能不一致",
+              "type": "concept",
+              "summary": "library、nation 源自拉丁 libr-、nat-，但当代母语者多把整词当作单纯词根处理。",
+              "terms": [
+                {
+                  "en": "root",
+                  "zh": "词根"
+                },
+                {
+                  "en": "morphologically complex",
+                  "zh": "形态复杂"
+                }
+              ],
+              "examples": [
+                "library",
+                "nation",
+                "libr-",
+                "nat-"
+              ],
+              "lessonHint": "词源",
+              "crossRef": [
+                "S1-C3-S21"
+              ]
+            },
+            {
+              "id": "kp-c5s2-3",
+              "title": "词缀按位置分五类",
+              "type": "classification",
+              "summary": "前缀在前、后缀在后、环缀环绕词基、中缀插入词基内部、同时词缀与词基同时发生（多见于手语与声调语）。",
+              "terms": [
+                {
+                  "en": "prefix",
+                  "zh": "前缀"
+                },
+                {
+                  "en": "suffix",
+                  "zh": "后缀"
+                },
+                {
+                  "en": "circumfix",
+                  "zh": "环缀"
+                },
+                {
+                  "en": "infix",
+                  "zh": "中缀"
+                },
+                {
+                  "en": "simultaneous affix",
+                  "zh": "同时词缀"
+                }
+              ],
+              "examples": [
+                "international",
+                "cats",
+                "ne-ta·nes-ena·n-aki"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S4"
+              ]
+            },
+            {
+              "id": "kp-c5s2-4",
+              "title": "中缀必须插入语素内部",
+              "type": "rule",
+              "summary": "仅在词的中间出现不算中缀；unluckiness 的 -y 仍是后缀，因为它接在词基 luck 之后。",
+              "terms": [
+                {
+                  "en": "infix",
+                  "zh": "中缀"
+                },
+                {
+                  "en": "suffix",
+                  "zh": "后缀"
+                }
+              ],
+              "examples": [
+                "unluckiness",
+                "Tagalog -um-"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S4"
+              ]
+            },
+            {
+              "id": "kp-c5s2-5",
+              "title": "间行标注读法",
+              "type": "method",
+              "summary": "规范例句分三行：原文、逐语素释义、整句翻译；1/PL/AN 等缩略语分别表示第一人称、复数、有生。",
+              "terms": [
+                {
+                  "en": "interlinear gloss",
+                  "zh": "间行标注"
+                },
+                {
+                  "en": "gloss",
+                  "zh": "释义"
+                }
+              ],
+              "examples": [
+                "ne-ta·nes-aki"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S4"
+              ]
+            },
+            {
+              "id": "kp-c5s2-6",
+              "title": "自由语素与黏着语素",
+              "type": "concept",
+              "summary": "能独立成词的是自由语素，只能与其他语素共现的是黏着语素；黏着成分按依附方向加连字符。",
+              "terms": [
+                {
+                  "en": "free morpheme",
+                  "zh": "自由语素"
+                },
+                {
+                  "en": "bound morpheme",
+                  "zh": "黏着语素"
+                }
+              ],
+              "examples": [
+                "cat",
+                "-whelmed",
+                "overwhelmed"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S3",
+          "title": "5.3 Morphology beyond affixes",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s3-1",
+              "title": "内部屈折",
+              "type": "concept",
+              "summary": "通过词根内部元音或辅音改变表达语法信息；英语 mouse/mice、sing/sang 是旧规则系统的残余，今须记忆。",
+              "terms": [
+                {
+                  "en": "internal change",
+                  "zh": "内部屈折"
+                },
+                {
+                  "en": "irregular",
+                  "zh": "不规则"
+                }
+              ],
+              "examples": [
+                "mouse ~ mice",
+                "sing ~ sang",
+                "write ~ wrote"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C4-S10"
+              ]
+            },
+            {
+              "id": "kp-c5s3-2",
+              "title": "增补",
+              "type": "concept",
+              "summary": "整个语素形式被替换，完全不可预测且必然不规则，如 go/went、good/better/best；多见于高频词。",
+              "terms": [
+                {
+                  "en": "suppletion",
+                  "zh": "增补"
+                },
+                {
+                  "en": "allomorphy",
+                  "zh": "语素变体"
+                }
+              ],
+              "examples": [
+                "go ~ went",
+                "good ~ better ~ best"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C4-S6"
+              ]
+            },
+            {
+              "id": "kp-c5s3-3",
+              "title": "重叠",
+              "type": "concept",
+              "summary": "重复词或词的一部分构成形态模式；英语 salad-salad 表示「典型的、名副其实的」这一构式义。",
+              "terms": [
+                {
+                  "en": "reduplication",
+                  "zh": "重叠"
+                }
+              ],
+              "examples": [
+                "salad-salad",
+                "kw'élh"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S12"
+              ]
+            },
+            {
+              "id": "kp-c5s3-4",
+              "title": "形态类型学四分",
+              "type": "classification",
+              "summary": "孤立语少用词缀、多用语助词；综合语词内形态丰富；黏着语词缀可逐一分离，融合语一个词缀承载多项语法义。",
+              "terms": [
+                {
+                  "en": "isolating",
+                  "zh": "孤立语"
+                },
+                {
+                  "en": "analytic",
+                  "zh": "分析型"
+                },
+                {
+                  "en": "synthetic",
+                  "zh": "综合型"
+                },
+                {
+                  "en": "agglutinative",
+                  "zh": "黏着型"
+                },
+                {
+                  "en": "fusional",
+                  "zh": "融合型"
+                }
+              ],
+              "examples": [
+                "Mandarin",
+                "Japanese",
+                "Spanish estudiáramos"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S4",
+          "title": "5.4 Allomorphy",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s4-1",
+              "title": "语素变体",
+              "type": "concept",
+              "summary": "同一语素在不同环境出现不同形式即语素变体；英语不定冠词 a/an、复数 -s/-z/-ɪz 都是例子。",
+              "terms": [
+                {
+                  "en": "allomorphy",
+                  "zh": "语素变体"
+                },
+                {
+                  "en": "allomorph",
+                  "zh": "变体形式"
+                }
+              ],
+              "examples": [
+                "a book",
+                "an apple",
+                "cats",
+                "dogs",
+                "horses"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C4-S1"
+              ]
+            },
+            {
+              "id": "kp-c5s4-2",
+              "title": "语音条件与词汇条件变体",
+              "type": "classification",
+              "summary": "由相邻音决定的变体可预测（语音条件）；必须按词记忆的变体是词汇条件，如 children、mice、sheep。",
+              "terms": [
+                {
+                  "en": "phonologically conditioned allomorphy",
+                  "zh": "语音条件变体"
+                },
+                {
+                  "en": "lexically conditioned allomorphy",
+                  "zh": "词汇条件变体"
+                }
+              ],
+              "examples": [
+                "-s/-z/-ɪz",
+                "-(r)en",
+                "mice",
+                "sheep"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C4-S2"
+              ]
+            },
+            {
+              "id": "kp-c5s4-3",
+              "title": "零形式",
+              "type": "concept",
+              "summary": "语素可以有语音上不实现的形式，写作 ∅；把 fish 的复数分析为 -∅ 可保持「复数必有标记」的一致性。",
+              "terms": [
+                {
+                  "en": "zero affix",
+                  "zh": "零词缀"
+                },
+                {
+                  "en": "empty affix",
+                  "zh": "空词缀"
+                }
+              ],
+              "examples": [
+                "fish",
+                "sheep",
+                "deer"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C4-S1"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S5",
+          "title": "5.5 Lexical categories",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s5-1",
+              "title": "词类按分布界定",
+              "type": "rule",
+              "summary": "传统「名词是人地物」的意义标准会失手（action、event 是名词）；语言学改看词出现的句法环境。",
+              "terms": [
+                {
+                  "en": "lexical category",
+                  "zh": "词类"
+                },
+                {
+                  "en": "distribution",
+                  "zh": "分布"
+                },
+                {
+                  "en": "part of speech",
+                  "zh": "词性"
+                }
+              ],
+              "examples": [
+                "action",
+                "event",
+                "proposal"
+              ],
+              "lessonHint": "基础",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c5s5-2",
+              "title": "名词与动词的判别测试",
+              "type": "method",
+              "summary": "名词可带限定词、被形容词修饰、作主宾语、可代词化；动词可带助动词、接 to、带宾语并有 -s/-ed/-ing 形式。",
+              "terms": [
+                {
+                  "en": "noun",
+                  "zh": "名词"
+                },
+                {
+                  "en": "verb",
+                  "zh": "动词"
+                },
+                {
+                  "en": "auxiliary",
+                  "zh": "助动词"
+                }
+              ],
+              "examples": [
+                "an event",
+                "to kick",
+                "she goes"
+              ],
+              "lessonHint": "基础",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c5s5-3",
+              "title": "形容词与副词的判别测试",
+              "type": "method",
+              "summary": "形容词夹在限定词与名词间、可被 very 修饰并有 -er/-est；副词修饰动词形容词副词，多带 -ly。",
+              "terms": [
+                {
+                  "en": "adjective",
+                  "zh": "形容词"
+                },
+                {
+                  "en": "adverb",
+                  "zh": "副词"
+                }
+              ],
+              "examples": [
+                "a happy event",
+                "happier",
+                "slowly"
+              ],
+              "lessonHint": "基础",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c5s5-4",
+              "title": "派生词缀可反推词类",
+              "type": "concept",
+              "summary": "后缀决定所造词的类别并挑选用作词基的类别：-ment/-ness 造名词，-ify/-ize 造动词，此性质称选择。",
+              "terms": [
+                {
+                  "en": "selection",
+                  "zh": "选择限制"
+                },
+                {
+                  "en": "derivational affix",
+                  "zh": "派生词缀"
+                }
+              ],
+              "examples": [
+                "-ment",
+                "-ness",
+                "-ify",
+                "-ize"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C9-S2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S6",
+          "title": "5.6 Derivational morphology",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s6-1",
+              "title": "派生改变词类或意义",
+              "type": "concept",
+              "summary": "派生形态改变词基的意义或类别，屈折只表达与词基类别相配的语法信息，复合则由多个词根组成。",
+              "terms": [
+                {
+                  "en": "derivational morphology",
+                  "zh": "派生形态"
+                },
+                {
+                  "en": "inflectional morphology",
+                  "zh": "屈折形态"
+                }
+              ],
+              "examples": [
+                "-able",
+                "-s"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C9-S2"
+              ]
+            },
+            {
+              "id": "kp-c5s6-2",
+              "title": "选择限制决定能否组合",
+              "type": "rule",
+              "summary": "派生词缀对词基类别有要求：-able 只接动词并造形容词，un- 只接动词或形容词而不接名词。",
+              "terms": [
+                {
+                  "en": "selection",
+                  "zh": "选择限制"
+                },
+                {
+                  "en": "base",
+                  "zh": "词基"
+                }
+              ],
+              "examples": [
+                "readable",
+                "unkind",
+                "undo"
+              ],
+              "lessonHint": "基础",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c5s6-3",
+              "title": "英语前缀不改变词类",
+              "type": "rule",
+              "summary": "前缀多表否定、重复、次序等意义而保持词基类别不变，如 non-、un-、re-。",
+              "terms": [
+                {
+                  "en": "prefix",
+                  "zh": "前缀"
+                },
+                {
+                  "en": "negation",
+                  "zh": "否定"
+                }
+              ],
+              "examples": [
+                "non-issue",
+                "unhappy",
+                "redo"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S4"
+              ]
+            },
+            {
+              "id": "kp-c5s6-4",
+              "title": "能产性差异与拉丁词缀",
+              "type": "concept",
+              "summary": "能产词缀可自由接新词基（-ing 几乎可接所有动词），拉丁来源词缀常只与拉丁词根搭配，能产性低。",
+              "terms": [
+                {
+                  "en": "productivity",
+                  "zh": "能产性"
+                },
+                {
+                  "en": "latinate",
+                  "zh": "拉丁来源"
+                }
+              ],
+              "examples": [
+                "googleable",
+                "-ing",
+                "-ish"
+              ],
+              "lessonHint": "拉丁",
+              "crossRef": [
+                "S1-C6-S2"
+              ]
+            },
+            {
+              "id": "kp-c5s6-5",
+              "title": "词缀顺序由选择决定",
+              "type": "rule",
+              "summary": "前后缀并存时顺序不任意：unkindness 须先加 un- 后加 -ness，否则 un- 的词基已非形容词。",
+              "terms": [
+                {
+                  "en": "order of affixation",
+                  "zh": "词缀顺序"
+                },
+                {
+                  "en": "selection",
+                  "zh": "选择限制"
+                }
+              ],
+              "examples": [
+                "unkindness",
+                "foolishly"
+              ],
+              "lessonHint": "拼写",
+              "crossRef": [
+                "S1-C3-S5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S7",
+          "title": "5.7 Inflectional morphology",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s7-1",
+              "title": "屈折不改变词类",
+              "type": "concept",
+              "summary": "屈折形态只提供该词类所需的语法信息，不改变类别，如动词随时、名词随数变化。",
+              "terms": [
+                {
+                  "en": "inflectional morphology",
+                  "zh": "屈折形态"
+                }
+              ],
+              "examples": [
+                "walks",
+                "books"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C9-S1"
+              ]
+            },
+            {
+              "id": "kp-c5s7-2",
+              "title": "英语屈折系统很小",
+              "type": "classification",
+              "summary": "名词有数与（代词）格，动词有一致、时、体，形容词有比较级最高级（有人视为派生）；其余多由句法表达。",
+              "terms": [
+                {
+                  "en": "number",
+                  "zh": "数"
+                },
+                {
+                  "en": "case",
+                  "zh": "格"
+                },
+                {
+                  "en": "tense",
+                  "zh": "时"
+                },
+                {
+                  "en": "aspect",
+                  "zh": "体"
+                }
+              ],
+              "examples": [
+                "-s",
+                "-ed",
+                "-ing",
+                "-er"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C9-S1"
+              ]
+            },
+            {
+              "id": "kp-c5s7-3",
+              "title": "数的类型不止单复数",
+              "type": "classification",
+              "summary": "不少语言另有双数、三数与小量数；因纽特语名词与动词一致都区分单、双、复三系。",
+              "terms": [
+                {
+                  "en": "dual",
+                  "zh": "双数"
+                },
+                {
+                  "en": "trial",
+                  "zh": "三数"
+                },
+                {
+                  "en": "paucal",
+                  "zh": "小量数"
+                }
+              ],
+              "examples": [
+                "titiraut",
+                "titirautiik",
+                "titirautit"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c5s7-4",
+              "title": "人称与包含/排除",
+              "type": "concept",
+              "summary": "第一人称复数可区分是否含听者，奥吉布瓦语 niinawind/giinawind 即此对立，术语称 clusivity。",
+              "terms": [
+                {
+                  "en": "person",
+                  "zh": "人称"
+                },
+                {
+                  "en": "clusivity",
+                  "zh": "包含排除对立"
+                }
+              ],
+              "examples": [
+                "niinawind",
+                "giinawind"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c5s7-5",
+              "title": "格标记语法角色",
+              "type": "concept",
+              "summary": "格标示名词在句中的角色：主格、宾格、属格、与格；英语只剩代词有格，芬兰语等可有十余种。",
+              "terms": [
+                {
+                  "en": "case",
+                  "zh": "格"
+                },
+                {
+                  "en": "nominative",
+                  "zh": "主格"
+                },
+                {
+                  "en": "accusative",
+                  "zh": "宾格"
+                },
+                {
+                  "en": "genitive",
+                  "zh": "属格"
+                },
+                {
+                  "en": "dative",
+                  "zh": "与格"
+                }
+              ],
+              "examples": [
+                "I ~ me ~ my",
+                "le ~ leur"
+              ],
+              "lessonHint": "拉丁",
+              "crossRef": [
+                "S1-C9-S1"
+              ]
+            },
+            {
+              "id": "kp-c5s7-6",
+              "title": "一致反映他词属性",
+              "type": "concept",
+              "summary": "一致是屈折形式反映句中另一成分（通常是名词）的属性，最常见是动词与主语在数、人称上一致。",
+              "terms": [
+                {
+                  "en": "agreement",
+                  "zh": "一致"
+                }
+              ],
+              "examples": [
+                "she walks"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c5s7-7",
+              "title": "时与体是两回事",
+              "type": "concept",
+              "summary": "时定位事件时间，体表达观察事件的角度（完成/进行）；英语的 perfect 与他语的 perfective 并不等同。",
+              "terms": [
+                {
+                  "en": "tense",
+                  "zh": "时"
+                },
+                {
+                  "en": "aspect",
+                  "zh": "体"
+                },
+                {
+                  "en": "perfect",
+                  "zh": "完成"
+                },
+                {
+                  "en": "perfective",
+                  "zh": "完成体"
+                },
+                {
+                  "en": "progressive",
+                  "zh": "进行体"
+                }
+              ],
+              "examples": [
+                "have walked",
+                "is walking",
+                "了",
+                "在"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c5s7-8",
+              "title": "其他常见屈折范畴",
+              "type": "classification",
+              "summary": "世界语言还用屈折表达近指/远指、使役、示证、情态、性/名词类别等；这些在英语多靠词汇手段。",
+              "terms": [
+                {
+                  "en": "obviation",
+                  "zh": "近指远指对立"
+                },
+                {
+                  "en": "causative",
+                  "zh": "使役"
+                },
+                {
+                  "en": "evidentiality",
+                  "zh": "示证"
+                },
+                {
+                  "en": "modality",
+                  "zh": "情态"
+                },
+                {
+                  "en": "noun class",
+                  "zh": "名词类别"
+                }
+              ],
+              "examples": [
+                "-di / -miş",
+                "erisómesya",
+                "le chat / la abeille"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S8",
+          "title": "5.8 Compounding",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s8-1",
+              "title": "复合词由多个词根构成",
+              "type": "concept",
+              "summary": "含一个以上词根的词必是复合词；复合是词根与词根的组合，区别于词根加词缀的派生与屈折。",
+              "terms": [
+                {
+                  "en": "compound",
+                  "zh": "复合词"
+                },
+                {
+                  "en": "root",
+                  "zh": "词根"
+                }
+              ],
+              "examples": [
+                "doghouse",
+                "website",
+                "spaceship"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S14"
+              ]
+            },
+            {
+              "id": "kp-c5s8-2",
+              "title": "重音位置可辨复合词与短语",
+              "type": "rule",
+              "summary": "复合词重音落在前部，形容词加名词的短语重音落在后部；拼写是否连写或加连字符并不可靠。",
+              "terms": [
+                {
+                  "en": "compound",
+                  "zh": "复合词"
+                },
+                {
+                  "en": "stress",
+                  "zh": "重音"
+                }
+              ],
+              "examples": [
+                "bláckboard / black bóard",
+                "gréenhouse / green hóuse"
+              ],
+              "lessonHint": "拼写",
+              "crossRef": [
+                "S1-C3-S14"
+              ]
+            },
+            {
+              "id": "kp-c5s8-3",
+              "title": "英语复合词中心在右",
+              "type": "rule",
+              "summary": "中心成分决定整词的类别与所指：sunflower 是花、bluebird 是鸟，故英语属右向中心语言。",
+              "terms": [
+                {
+                  "en": "head",
+                  "zh": "中心成分"
+                },
+                {
+                  "en": "right-headed",
+                  "zh": "中心右置"
+                }
+              ],
+              "examples": [
+                "sunflower",
+                "bluebird"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C3-S14"
+              ]
+            },
+            {
+              "id": "kp-c5s8-4",
+              "title": "内向与外向复合词",
+              "type": "classification",
+              "summary": "中心在词内为内向复合词；redhead、outcome、tell-all 中心不在词内或类别与右项不符，属外向复合词。",
+              "terms": [
+                {
+                  "en": "endocentric",
+                  "zh": "内向复合词"
+                },
+                {
+                  "en": "exocentric",
+                  "zh": "外向复合词"
+                }
+              ],
+              "examples": [
+                "sunflower",
+                "redhead",
+                "outcome",
+                "tell-all"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S14"
+              ]
+            },
+            {
+              "id": "kp-c5s8-5",
+              "title": "并列复合词",
+              "type": "concept",
+              "summary": "两成分并列、可用 and 改写的是并列复合词；英语中不少成对押韵的叠词属此类。",
+              "terms": [
+                {
+                  "en": "dvandva",
+                  "zh": "并列复合词"
+                },
+                {
+                  "en": "reduplicative",
+                  "zh": "叠韵词"
+                }
+              ],
+              "examples": [
+                "bittersweet",
+                "zigzag",
+                "flip flop"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S14"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S9",
+          "title": "5.9 Structural ambiguity in morphology",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s9-1",
+              "title": "结构歧义源于组合顺序",
+              "type": "concept",
+              "summary": "同一词串可对应多种合法结构，untieable 分别由 un- 先加或 -able 先加得到两种意义。",
+              "terms": [
+                {
+                  "en": "structural ambiguity",
+                  "zh": "结构歧义"
+                },
+                {
+                  "en": "paraphrase",
+                  "zh": "改写"
+                }
+              ],
+              "examples": [
+                "untieable",
+                "tieable"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S5"
+              ]
+            },
+            {
+              "id": "kp-c5s9-2",
+              "title": "复合词更易产生结构歧义",
+              "type": "concept",
+              "summary": "任意名词串都可能以不同层次成词，river boat race 可指河船的竞赛或河上的船赛。",
+              "terms": [
+                {
+                  "en": "structural ambiguity",
+                  "zh": "结构歧义"
+                },
+                {
+                  "en": "compound",
+                  "zh": "复合词"
+                }
+              ],
+              "examples": [
+                "river boat race"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S14"
+              ]
+            },
+            {
+              "id": "kp-c5s9-3",
+              "title": "结构歧义不同于同音歧义",
+              "type": "rule",
+              "summary": "bank 的两解来自两个同音词根，没有结构差异；结构歧义则靠层次不同来解释。",
+              "terms": [
+                {
+                  "en": "homophone",
+                  "zh": "同音词"
+                },
+                {
+                  "en": "structural ambiguity",
+                  "zh": "结构歧义"
+                }
+              ],
+              "examples": [
+                "bank"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C7-S2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S10",
+          "title": "5.10 How to draw morphological trees",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s10-1",
+              "title": "树形图表示层次结构",
+              "type": "method",
+              "summary": "树形图记录成分的层层组合：govern+-ment 先结合，再与 -al 结合；底行应能读出语素顺序。",
+              "terms": [
+                {
+                  "en": "tree diagram",
+                  "zh": "树形图"
+                },
+                {
+                  "en": "constituency",
+                  "zh": "成分结构"
+                }
+              ],
+              "examples": [
+                "governmental"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S5"
+              ]
+            },
+            {
+              "id": "kp-c5s10-2",
+              "title": "画形态树的步骤",
+              "type": "method",
+              "summary": "先定词根与词缀数目，再判词根类别，接着定加缀顺序，最后标出各中间词基与整词类别。",
+              "terms": [
+                {
+                  "en": "tree diagram",
+                  "zh": "树形图"
+                },
+                {
+                  "en": "base",
+                  "zh": "词基"
+                }
+              ],
+              "examples": [
+                "foolishly",
+                "unkindness"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S5"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S11",
+          "title": "5.11 How to solve morphology problems",
+          "knowledgePoints": [
+            {
+              "id": "kp-c5s11-1",
+              "title": "切分陌生语言语素的方法",
+              "type": "method",
+              "summary": "比较只在一个语义维度上不同的词：形式共享部分即语素候选，再用更多词检验其边界与变体条件。",
+              "terms": [
+                {
+                  "en": "morpheme",
+                  "zh": "语素"
+                },
+                {
+                  "en": "allomorph",
+                  "zh": "变体形式"
+                }
+              ],
+              "examples": [
+                "matuit",
+                "nuvujait",
+                "matuuk"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C5-S12",
+          "title": "5.12 Exercise your linguistics skills",
+          "knowledgePoints": []
+        }
+      ]
+    },
+    {
+      "id": "S2-C7",
+      "title": "Semantics",
+      "sections": [
+        {
+          "id": "S2-C7-S1",
+          "title": "7.1 Linguistic meaning",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s1-1",
+              "title": "语义学研究语言意义",
+              "type": "concept",
+              "summary": "语义学考察词义如何组合成句义；吉兆象征、行为目的、说话诚意等「意义」都不算语言意义。",
+              "terms": [
+                {
+                  "en": "semantics",
+                  "zh": "语义学"
+                },
+                {
+                  "en": "linguistic meaning",
+                  "zh": "语言意义"
+                }
+              ],
+              "examples": [
+                "ode'imin",
+                "strawberry"
+              ],
+              "lessonHint": "基础",
+              "crossRef": [
+                "S1-C11-S2"
+              ]
+            },
+            {
+              "id": "kp-c7s1-2",
+              "title": "区分提及与使用",
+              "type": "concept",
+              "summary": "斜体指语言表达式本身，正体指现实事物；「strawberry 有四个音节」只在提及词语时成立。",
+              "terms": [
+                {
+                  "en": "linguistic expression",
+                  "zh": "语言表达式"
+                },
+                {
+                  "en": "use–mention distinction",
+                  "zh": "使用与提及之别"
+                }
+              ],
+              "examples": [
+                "strawberry"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s1-3",
+              "title": "意义有 sense 与 denotation 两途",
+              "type": "concept",
+              "summary": "sense 是储存在头脑中的词义内容，denotation 是表达式在现实（或认知表征）中所指，源自弗雷格。",
+              "terms": [
+                {
+                  "en": "sense",
+                  "zh": "涵义"
+                },
+                {
+                  "en": "denotation",
+                  "zh": "指称"
+                },
+                {
+                  "en": "reference",
+                  "zh": "所指"
+                }
+              ],
+              "examples": [
+                "ode'imin",
+                "strawberry"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C11-S2"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S2",
+          "title": "7.2 Compositionality: why not just syntax?",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s2-1",
+              "title": "组合性原则",
+              "type": "concept",
+              "summary": "复杂表达式的意义由其各部分意义及组合方式决定，故未见过的句子仍可理解，多语素词亦然。",
+              "terms": [
+                {
+                  "en": "compositionality",
+                  "zh": "组合性"
+                },
+                {
+                  "en": "constituency",
+                  "zh": "成分结构"
+                }
+              ],
+              "examples": [
+                "unhelpfulness",
+                "un-help-ful-ness"
+              ],
+              "lessonHint": "基础",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s2-2",
+              "title": "句法相同不等于语义相同",
+              "type": "rule",
+              "summary": "同为 DP 的 a scientist 可指称某人，也可表属性；属性解读不能被动化，说明意义独立起作用。",
+              "terms": [
+                {
+                  "en": "referential",
+                  "zh": "指称性"
+                },
+                {
+                  "en": "predicative",
+                  "zh": "述谓性"
+                }
+              ],
+              "examples": [
+                "Vera greeted a scientist.",
+                "Vera became a scientist."
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s2-3",
+              "title": "语义相同不等于句法相同",
+              "type": "rule",
+              "summary": "before 可接从句而 during 不可，尽管两者都可指事件；句法限制不能只由语义推出。",
+              "terms": [
+                {
+                  "en": "syntax",
+                  "zh": "句法"
+                },
+                {
+                  "en": "semantics",
+                  "zh": "语义"
+                }
+              ],
+              "examples": [
+                "before he met his student",
+                "during the meeting"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S3",
+          "title": "7.3 Entailments vs. implicatures",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s3-1",
+              "title": "蕴涵及其矛盾测试",
+              "type": "method",
+              "summary": "p 蕴涵 q 指 p 真则 q 必真；把 q 否定后与 p 并列会得到永假的矛盾（⊥），即证明蕴涵成立。",
+              "terms": [
+                {
+                  "en": "entailment",
+                  "zh": "蕴涵"
+                },
+                {
+                  "en": "contradiction",
+                  "zh": "矛盾"
+                }
+              ],
+              "examples": [
+                "sighed / emitted a breath"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s3-2",
+              "title": "会话隐涵可取消",
+              "type": "concept",
+              "summary": "隐涵只是语境下的合理推测而非必然结论；否定后不产生矛盾即可证明其可取消。",
+              "terms": [
+                {
+                  "en": "implicature",
+                  "zh": "会话隐涵"
+                },
+                {
+                  "en": "cancellable",
+                  "zh": "可取消"
+                }
+              ],
+              "examples": [
+                "sighed → is angry"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s3-3",
+              "title": "预设是理所当然的蕴涵",
+              "type": "method",
+              "summary": "预设不被否定或疑问取消，故可用「否定测试」「疑问测试」与一般蕴涵区分。",
+              "terms": [
+                {
+                  "en": "presupposition",
+                  "zh": "预设"
+                }
+              ],
+              "examples": [
+                "stopped charging extra"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S4",
+          "title": "7.4 The mental lexicon",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s4-1",
+              "title": "词库储存不可预测的信息",
+              "type": "concept",
+              "summary": "可预测的由规则生成，不可预测的（音义联结、不规则形式）存入词库；词库是语法的一部分。",
+              "terms": [
+                {
+                  "en": "lexicon",
+                  "zh": "词库"
+                },
+                {
+                  "en": "mental lexicon",
+                  "zh": "心理词库"
+                },
+                {
+                  "en": "mental grammar",
+                  "zh": "心理语法"
+                }
+              ],
+              "examples": [
+                "goose",
+                "went",
+                "geese"
+              ],
+              "lessonHint": "基础",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s4-2",
+              "title": "组合义与非组合义",
+              "type": "concept",
+              "summary": "能由部件推出的意义是组合义，不必单列词条；不能推出的是非组合义，须整体储存。",
+              "terms": [
+                {
+                  "en": "compositional meaning",
+                  "zh": "组合意义"
+                },
+                {
+                  "en": "non-compositional meaning",
+                  "zh": "非组合意义"
+                }
+              ],
+              "examples": [
+                "skater",
+                "unluckily",
+                "hotdog"
+              ],
+              "lessonHint": "基础",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s4-3",
+              "title": "词项条目含音、句、义",
+              "type": "concept",
+              "summary": "词库中的项目称 listeme，其条目记录读音、句法类别与意义；拼写与词源不属于必备的语言知识。",
+              "terms": [
+                {
+                  "en": "listeme",
+                  "zh": "词项"
+                },
+                {
+                  "en": "lexical entry",
+                  "zh": "词条"
+                }
+              ],
+              "examples": [
+                "goose",
+                "hotdog"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s4-4",
+              "title": "习语整体入词库",
+              "type": "concept",
+              "summary": "习语与部分非组合复合词的意义无法由部件推出，须整体储存；不同语言社群的习语各不相同。",
+              "terms": [
+                {
+                  "en": "idiom",
+                  "zh": "习语"
+                },
+                {
+                  "en": "non-compositional",
+                  "zh": "非组合"
+                }
+              ],
+              "examples": [
+                "over the moon",
+                "piece of cake",
+                "hotdog"
+              ],
+              "lessonHint": "新词",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S5",
+          "title": "7.5 The nature of lexical meaning",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s5-1",
+              "title": "词汇知识不同于世界知识",
+              "type": "concept",
+              "summary": "关于椅子的一切经验属世界知识；词义只与其中一部分概念相联，两者边界难划清。",
+              "terms": [
+                {
+                  "en": "world knowledge",
+                  "zh": "世界知识"
+                },
+                {
+                  "en": "concept",
+                  "zh": "概念"
+                },
+                {
+                  "en": "sense",
+                  "zh": "涵义"
+                }
+              ],
+              "examples": [
+                "chair"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s5-2",
+              "title": "必要充分条件说及其局限",
+              "type": "concept",
+              "summary": "把词义化为一组区别性条件是经典做法，但杯碗实验显示范畴边界模糊，判断依赖语境与世界知识。",
+              "terms": [
+                {
+                  "en": "necessary and sufficient conditions",
+                  "zh": "必要充分条件"
+                }
+              ],
+              "examples": [
+                "doe",
+                "cup / bowl"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s5-3",
+              "title": "「意义即概念」的极繁主义",
+              "type": "concept",
+              "summary": "另一派主张词义就是与之相联的整个概念，包含全部经验内容；概念语义学即此类主张。",
+              "terms": [
+                {
+                  "en": "Conceptual Semantics",
+                  "zh": "概念语义学"
+                },
+                {
+                  "en": "maximalist",
+                  "zh": "极繁主义"
+                }
+              ],
+              "examples": [
+                "chair"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s5-4",
+              "title": "原型效应",
+              "type": "concept",
+              "summary": "概念内部按典型性组织，核心成员更易被想起与判定；这是条件清单说难以解释的现象。",
+              "terms": [
+                {
+                  "en": "prototype",
+                  "zh": "原型"
+                },
+                {
+                  "en": "prototypicality",
+                  "zh": "典型性"
+                }
+              ],
+              "examples": [
+                "robin",
+                "penguin",
+                "cup"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S6",
+          "title": "7.6 Events and thematic roles",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s6-1",
+              "title": "事件与状态",
+              "type": "classification",
+              "summary": "动态发生的是事件，静态持续的是状态，两者合称 eventuality；可用「发生了什么」测试区分。",
+              "terms": [
+                {
+                  "en": "event",
+                  "zh": "事件"
+                },
+                {
+                  "en": "state",
+                  "zh": "状态"
+                },
+                {
+                  "en": "eventuality",
+                  "zh": "事件性实体"
+                }
+              ],
+              "examples": [
+                "Kat built a table.",
+                "Leila knew the student."
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s6-2",
+              "title": "题元角色",
+              "type": "classification",
+              "summary": "动词不仅规定论元数目，还规定论元承担的角色：施事、致事、受事、工具、处所、经验者、终点。",
+              "terms": [
+                {
+                  "en": "thematic role",
+                  "zh": "题元角色"
+                },
+                {
+                  "en": "agent",
+                  "zh": "施事"
+                },
+                {
+                  "en": "theme",
+                  "zh": "受事"
+                },
+                {
+                  "en": "instrument",
+                  "zh": "工具"
+                },
+                {
+                  "en": "experiencer",
+                  "zh": "经验者"
+                }
+              ],
+              "examples": [
+                "Ava cracked the nut with a hammer."
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s6-3",
+              "title": "动词词义可写作合取式",
+              "type": "rule",
+              "summary": "把动词意义拆成「存在事件 e」加各论元角色的合取，可解释句子蕴涵出的多条结论。",
+              "terms": [
+                {
+                  "en": "event semantics",
+                  "zh": "事件语义学"
+                },
+                {
+                  "en": "conjunction",
+                  "zh": "合取"
+                },
+                {
+                  "en": "saturate",
+                  "zh": "饱和"
+                }
+              ],
+              "examples": [
+                "lift",
+                "&"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s6-4",
+              "title": "井号标记语义失当",
+              "type": "method",
+              "summary": "句法合格但语境中说不通时用 #，与标示句法不合格的 * 相对；可据此检验词义假设。",
+              "terms": [
+                {
+                  "en": "infelicitous",
+                  "zh": "语境失当"
+                },
+                {
+                  "en": "acceptability judgment",
+                  "zh": "可接受性判断"
+                }
+              ],
+              "examples": [
+                "#Mako recited a tango.",
+                "#Tamara clapped."
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S7",
+          "title": "7.7 Countability",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s7-1",
+              "title": "可数与不可数名词",
+              "type": "classification",
+              "summary": "可数名词能加复数、接数词与 many；不可数名词不能复数化、接 much，如 dirt、rice。",
+              "terms": [
+                {
+                  "en": "count noun",
+                  "zh": "可数名词"
+                },
+                {
+                  "en": "mass noun",
+                  "zh": "不可数名词"
+                }
+              ],
+              "examples": [
+                "three chairs",
+                "much rice"
+              ],
+              "lessonHint": "基础",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s7-2",
+              "title": "有界性解释可数性",
+              "type": "concept",
+              "summary": "可数名词所指有可感知边界，物质名词所指同质无界；这条概念线索在多个词类中反复出现。",
+              "terms": [
+                {
+                  "en": "bounded",
+                  "zh": "有界"
+                },
+                {
+                  "en": "unbounded",
+                  "zh": "无界"
+                }
+              ],
+              "examples": [
+                "cup / dirt"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s7-3",
+              "title": "可数与不可数可以转用",
+              "type": "rule",
+              "summary": "物质名词可表种类或容器而临时可数（two waters），可数名词也可作物质解（much pumpkin）。",
+              "terms": [
+                {
+                  "en": "coercion",
+                  "zh": "强制转换"
+                }
+              ],
+              "examples": [
+                "two waters",
+                "much pumpkin"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s7-4",
+              "title": "量词系统替代复数",
+              "type": "concept",
+              "summary": "日语等语言无强制复数标记，靠量词按名词类别计数；量词选择反映语义分类。",
+              "terms": [
+                {
+                  "en": "classifier",
+                  "zh": "量词"
+                },
+                {
+                  "en": "noun class",
+                  "zh": "名词类别"
+                }
+              ],
+              "examples": [
+                "3-mai",
+                "2-hon",
+                "1-dai"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S8",
+          "title": "7.8 Individual- vs. stage-level predicates",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s8-1",
+              "title": "个体层与阶段层谓语",
+              "type": "classification",
+              "summary": "恒久属性的形容词是个体层谓语，只在一段时间成立的阶段层谓语；后者可与 when 从句搭配。",
+              "terms": [
+                {
+                  "en": "individual-level predicate",
+                  "zh": "个体层谓语"
+                },
+                {
+                  "en": "stage-level predicate",
+                  "zh": "阶段层谓语"
+                }
+              ],
+              "examples": [
+                "tall / Canadian",
+                "bored / sick"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s8-2",
+              "title": "系词选择反映谓语类型",
+              "type": "concept",
+              "summary": "西班牙语 ser 多配个体层、estar 多配阶段层，说明该语义区分可被语法编码。",
+              "terms": [
+                {
+                  "en": "copula",
+                  "zh": "系词"
+                }
+              ],
+              "examples": [
+                "es leal",
+                "está contenta"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s8-3",
+              "title": "有界性跨范畴呼应",
+              "type": "concept",
+              "summary": "阶段层谓语有起止界、个体层谓语无界，与名词的可数/物质之分共享同一概念维度。",
+              "terms": [
+                {
+                  "en": "bounded",
+                  "zh": "有界"
+                }
+              ],
+              "examples": [
+                "tall",
+                "sick",
+                "dirt"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S9",
+          "title": "7.9 Degrees",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s9-1",
+              "title": "程度形容词带 degree 论元",
+              "type": "concept",
+              "summary": "可受 very 修饰、可比较的形容词在词义中含程度论元与量表，如 tall「高到某程度 d」。",
+              "terms": [
+                {
+                  "en": "gradable adjective",
+                  "zh": "程度形容词"
+                },
+                {
+                  "en": "degree",
+                  "zh": "程度"
+                },
+                {
+                  "en": "scale",
+                  "zh": "量表"
+                }
+              ],
+              "examples": [
+                "very tall",
+                "6ft tall",
+                "taller"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s9-2",
+              "title": "非程度形容词可被强制",
+              "type": "rule",
+              "summary": "ceramic、alive 等本无程度，但在特定语境可临时赋予量表而获得程度解读。",
+              "terms": [
+                {
+                  "en": "non-gradable adjective",
+                  "zh": "非程度形容词"
+                },
+                {
+                  "en": "coercion",
+                  "zh": "强制转换"
+                }
+              ],
+              "examples": [
+                "very ceramic",
+                "very alive"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s9-3",
+              "title": "显性比较与隐性比较",
+              "type": "classification",
+              "summary": "英语用 -er 直接比较两个程度；Washo、Motu 只把一方置入形容词范畴而隐含比较结果。",
+              "terms": [
+                {
+                  "en": "explicit comparison",
+                  "zh": "显性比较"
+                },
+                {
+                  "en": "implicit comparison",
+                  "zh": "隐性比较"
+                }
+              ],
+              "examples": [
+                "taller than",
+                "delkáykayiʔ ... delkáykayiʔé:s"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s9-4",
+              "title": "手语可让程度显形",
+              "type": "concept",
+              "summary": "意大利手语中程度论元占据 loci，可用指代词回指，说明抽象语义成分也能有语音实现。",
+              "terms": [
+                {
+                  "en": "locus",
+                  "zh": "位置点"
+                },
+                {
+                  "en": "deictic",
+                  "zh": "指示"
+                }
+              ],
+              "examples": [
+                "PIETRO TALLs-degd IXd"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S10",
+          "title": "7.10 Why not the dictionary?",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s10-1",
+              "title": "词典不是语言权威",
+              "type": "concept",
+              "summary": "词典由人编写会出错，dord 与 mountweazel 说明词条存在不等于该词真被使用。",
+              "terms": [
+                {
+                  "en": "lexicographer",
+                  "zh": "词典编纂者"
+                },
+                {
+                  "en": "mountweazel",
+                  "zh": "防抄假词条"
+                }
+              ],
+              "examples": [
+                "dord",
+                "mountweazel"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s10-2",
+              "title": "词典不收录全部派生词",
+              "type": "concept",
+              "summary": "能产词缀可造出大量未收录的词；未收录常因篇幅取舍，而非判定其不是词。",
+              "terms": [
+                {
+                  "en": "productivity",
+                  "zh": "能产性"
+                },
+                {
+                  "en": "derived form",
+                  "zh": "派生形式"
+                }
+              ],
+              "examples": [
+                "tubist",
+                "beigeness"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S12"
+              ]
+            },
+            {
+              "id": "kp-c7s10-3",
+              "title": "意义由使用者创造",
+              "type": "concept",
+              "summary": "museum 可转指馆方人员，词典未列但交际通行；词典只是用法的部分记录。",
+              "terms": [
+                {
+                  "en": "usage",
+                  "zh": "用法"
+                },
+                {
+                  "en": "metonymy",
+                  "zh": "转喻"
+                }
+              ],
+              "examples": [
+                "The museum emailed me back."
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C7-S11"
+              ]
+            },
+            {
+              "id": "kp-c7s10-4",
+              "title": "最小对子可探测词义",
+              "type": "method",
+              "summary": "只换一个成分造成可接受性差异，即可推断该词的语义条件，如日语 otta 对宾语形状敏感。",
+              "terms": [
+                {
+                  "en": "minimal pair",
+                  "zh": "最小对子"
+                }
+              ],
+              "examples": [
+                "eda-o otta",
+                "#sara-o otta"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S11",
+          "title": "7.11 Denotation",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s11-1",
+              "title": "涵义与指称之别",
+              "type": "concept",
+              "summary": "两段描述可涵义不同而指称同一对象（同一邮局）；my house 涵义固定而指称随说话人变。",
+              "terms": [
+                {
+                  "en": "sense",
+                  "zh": "涵义"
+                },
+                {
+                  "en": "denotation",
+                  "zh": "指称"
+                }
+              ],
+              "examples": [
+                "the building north of the bank",
+                "my house"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s11-2",
+              "title": "一元谓语指称集合",
+              "type": "concept",
+              "summary": "形容词、名词与不及物动词的指称可看作个体集合；双括号 ⟦x⟧ 读作「x 的指称」。",
+              "terms": [
+                {
+                  "en": "one-place predicate",
+                  "zh": "一元谓语"
+                },
+                {
+                  "en": "set",
+                  "zh": "集合"
+                }
+              ],
+              "examples": [
+                "⟦sour⟧",
+                "⟦snore⟧"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s11-3",
+              "title": "专名指称个体",
+              "type": "concept",
+              "summary": "专名的指称是特定个体，用常元符号表示；常元取值固定，变元只是占位符。",
+              "terms": [
+                {
+                  "en": "proper name",
+                  "zh": "专名"
+                },
+                {
+                  "en": "constant",
+                  "zh": "常元"
+                },
+                {
+                  "en": "variable",
+                  "zh": "变元"
+                }
+              ],
+              "examples": [
+                "⟦Nathan Sanders⟧ = n"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s11-4",
+              "title": "句子指称真值",
+              "type": "concept",
+              "summary": "只有句子有真值，故句子指称真或假；知识不足时写作真值条件，即何种情形为真。",
+              "terms": [
+                {
+                  "en": "truth value",
+                  "zh": "真值"
+                },
+                {
+                  "en": "truth condition",
+                  "zh": "真值条件"
+                }
+              ],
+              "examples": [
+                "⟦Nathan Sanders is bald⟧ = T"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S12",
+          "title": "7.12 Introduction to set theory",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s12-1",
+              "title": "集合与成员关系",
+              "type": "concept",
+              "summary": "集合由成员构成，用 ∈ 表示属于、∉ 表示不属于；集合常用于刻画谓语的指称。",
+              "terms": [
+                {
+                  "en": "set",
+                  "zh": "集合"
+                },
+                {
+                  "en": "member",
+                  "zh": "成员"
+                }
+              ],
+              "examples": [
+                "⟦cat⟧",
+                "b ∈ A"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s12-2",
+              "title": "子集、真子集与基数",
+              "type": "concept",
+              "summary": "A 的成员全在 B 中则 A 是 B 的子集；B 另有成员时是真子集；基数表示成员个数。",
+              "terms": [
+                {
+                  "en": "subset",
+                  "zh": "子集"
+                },
+                {
+                  "en": "proper subset",
+                  "zh": "真子集"
+                },
+                {
+                  "en": "cardinality",
+                  "zh": "基数"
+                }
+              ],
+              "examples": [
+                "S⊂C",
+                "|A| = 3"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s12-3",
+              "title": "量词与集合交",
+              "type": "concept",
+              "summary": "限定词表达数量：two 要求交集基数至少为二，every 要求一个集合包含于另一集合。",
+              "terms": [
+                {
+                  "en": "quantificational determiner",
+                  "zh": "量化限定词"
+                },
+                {
+                  "en": "intersection",
+                  "zh": "交集"
+                }
+              ],
+              "examples": [
+                "Two cats are grey.",
+                "C∩G"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S13",
+          "title": "7.13 Negative polarity items",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s13-1",
+              "title": "负极性词及其允准语境",
+              "type": "concept",
+              "summary": "any、ever、at all 等只在否定性语境出现，且否定成分须在结构上高于它们。",
+              "terms": [
+                {
+                  "en": "negative polarity item",
+                  "zh": "负极性词"
+                },
+                {
+                  "en": "licensing context",
+                  "zh": "允准语境"
+                }
+              ],
+              "examples": [
+                "did not pet anything",
+                "*Any cats, I did not pet."
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c7s13-2",
+              "title": "向下蕴涵判定三步骤",
+              "type": "method",
+              "summary": "把含集合的短语放入语境，换成其真子集，看超集句是否蕴涵子集句；是则语境向下蕴涵。",
+              "terms": [
+                {
+                  "en": "downward-entailing",
+                  "zh": "向下蕴涵"
+                },
+                {
+                  "en": "upward-entailing",
+                  "zh": "向上蕴涵"
+                }
+              ],
+              "examples": [
+                "did not pet cats / Siberian Forest Cats"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S14",
+          "title": "7.14 Summary",
+          "knowledgePoints": [
+            {
+              "id": "kp-c7s14-1",
+              "title": "意义区分的层次总览",
+              "type": "concept",
+              "summary": "本章把意义分为蕴涵与隐涵、涵义与指称、词汇与句子、组合与非组合四组对立，须逐层分辨。",
+              "terms": [
+                {
+                  "en": "entailment",
+                  "zh": "蕴涵"
+                },
+                {
+                  "en": "sense",
+                  "zh": "涵义"
+                },
+                {
+                  "en": "compositionality",
+                  "zh": "组合性"
+                }
+              ],
+              "examples": [
+                "entailment / implicature",
+                "sense / denotation"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C7-S15",
+          "title": "7.15 Exercise your linguistics skills",
+          "knowledgePoints": []
+        }
+      ]
+    },
+    {
+      "id": "S2-C14",
+      "title": "Historical Linguistics",
+      "sections": [
+        {
+          "id": "S2-C14-S1",
+          "title": "14.1 Why do languages change?",
+          "knowledgePoints": [
+            {
+              "id": "kp-c14s1-1",
+              "title": "世界变化推动词汇更新",
+              "type": "concept",
+              "summary": "新技术与新概念需要名称，常用概念更易获得专用词，故 app、blog、life hack 等词相继出现。",
+              "terms": [
+                {
+                  "en": "external change",
+                  "zh": "外部变化"
+                }
+              ],
+              "examples": [
+                "app",
+                "blog",
+                "life hack"
+              ],
+              "lessonHint": "科技",
+              "crossRef": [
+                "S1-C11-S1"
+              ]
+            },
+            {
+              "id": "kp-c14s1-2",
+              "title": "共时与历时",
+              "type": "concept",
+              "summary": "共时研究某一时点的语言模式，历时研究跨时段的变化；本章属历时语言学。",
+              "terms": [
+                {
+                  "en": "synchronic",
+                  "zh": "共时"
+                },
+                {
+                  "en": "diachronic",
+                  "zh": "历时"
+                }
+              ],
+              "examples": [
+                "the house is building > is being built"
+              ],
+              "lessonHint": "基础",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s1-3",
+              "title": "历史分期只用于有据可考形式",
+              "type": "history",
+              "summary": "Old/Middle/Modern 加在语言名前表示有文献证据的时期；分期无跨语言统一年代，也无截然分界。",
+              "terms": [
+                {
+                  "en": "attested",
+                  "zh": "有据可考"
+                },
+                {
+                  "en": "Old English",
+                  "zh": "古英语"
+                },
+                {
+                  "en": "Middle English",
+                  "zh": "中古英语"
+                }
+              ],
+              "examples": [
+                "Old English 450–1150",
+                "Middle English 1150–1500"
+              ],
+              "lessonHint": "词源",
+              "crossRef": [
+                "S1-C2-S6"
+              ]
+            },
+            {
+              "id": "kp-c14s1-4",
+              "title": "变化记号的用法",
+              "type": "method",
+              "summary": "大于号表示由旧到新，小于号表示回溯；同一变化可正写也可倒写，方向由阅读顺序决定。",
+              "terms": [
+                {
+                  "en": "notation of change",
+                  "zh": "变化记号"
+                }
+              ],
+              "examples": [
+                "nice 'silly' > 'delicate' > 'careful' > 'pleasant'"
+              ],
+              "lessonHint": "词源",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s1-5",
+              "title": "词源谬误",
+              "type": "rule",
+              "summary": "以词的历史义取代当代通行义来论证是词源谬误；词义由当下用法决定，-phobic 已不限于「恐惧」。",
+              "terms": [
+                {
+                  "en": "etymology",
+                  "zh": "词源"
+                },
+                {
+                  "en": "etymological fallacy",
+                  "zh": "词源谬误"
+                }
+              ],
+              "examples": [
+                "transphobic",
+                "hydrophobic"
+              ],
+              "lessonHint": "希腊",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s1-6",
+              "title": "外部与内部动因",
+              "type": "classification",
+              "summary": "外部动因来自文化接触、技术等语言之外的因素；内部动因源于语言结构本身，如相邻音同化。",
+              "terms": [
+                {
+                  "en": "language contact",
+                  "zh": "语言接触"
+                },
+                {
+                  "en": "internal change",
+                  "zh": "内部变化"
+                }
+              ],
+              "examples": [
+                "assimilation"
+              ],
+              "lessonHint": "基础",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s1-7",
+              "title": "复杂性与变化无必然关系",
+              "type": "concept",
+              "summary": "语言复杂性不是单一指标，各层面可此消彼长；变化可能增繁也可能简化，甚至来回摆动。",
+              "terms": [
+                {
+                  "en": "complexity",
+                  "zh": "复杂性"
+                }
+              ],
+              "examples": [
+                "English verb morphology / Georgian"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C14-S2",
+          "title": "14.2 Lexical change",
+          "knowledgePoints": [
+            {
+              "id": "kp-c14s2-1",
+              "title": "零星变化",
+              "type": "concept",
+              "summary": "只影响个别词的变化是零星变化：application 缩为 app，complication 却不缩。",
+              "terms": [
+                {
+                  "en": "sporadic change",
+                  "zh": "零星变化"
+                }
+              ],
+              "examples": [
+                "app",
+                "*comp"
+              ],
+              "lessonHint": "新词",
+              "crossRef": [
+                "S1-C3-S16"
+              ]
+            },
+            {
+              "id": "kp-c14s2-2",
+              "title": "根造词",
+              "type": "concept",
+              "summary": "不借自任何既有词的造词称根造词，或模仿声音，或无中生有（ex nihilo），整体较少见。",
+              "terms": [
+                {
+                  "en": "neologism",
+                  "zh": "新词"
+                },
+                {
+                  "en": "root creation",
+                  "zh": "根造词"
+                },
+                {
+                  "en": "onomatopoeia",
+                  "zh": "拟声"
+                }
+              ],
+              "examples": [
+                "zap",
+                "googol",
+                "grok"
+              ],
+              "lessonHint": "新词",
+              "crossRef": [
+                "S1-C3-S19"
+              ]
+            },
+            {
+              "id": "kp-c14s2-3",
+              "title": "专名与商标进入词汇",
+              "type": "concept",
+              "summary": "地名、人名、品牌名常成新词来源；品牌名泛化为同类产品通称的過程称通用化。",
+              "terms": [
+                {
+                  "en": "genericization",
+                  "zh": "通用化"
+                },
+                {
+                  "en": "eponym",
+                  "zh": "专名来源词"
+                }
+              ],
+              "examples": [
+                "canary",
+                "dumpster",
+                "zipper"
+              ],
+              "lessonHint": "新词",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s2-4",
+              "title": "缩略、混成与首字母缩略",
+              "type": "classification",
+              "summary": "截短造词取词的一部分，混成拼接两词片段，首字母缩略按拼写取字母并可整读或逐字母读。",
+              "terms": [
+                {
+                  "en": "clipping",
+                  "zh": "截短"
+                },
+                {
+                  "en": "blend",
+                  "zh": "混成"
+                },
+                {
+                  "en": "acronym",
+                  "zh": "首字母缩略"
+                },
+                {
+                  "en": "initialism",
+                  "zh": "字母缩略"
+                }
+              ],
+              "examples": [
+                "exam",
+                "brunch",
+                "scuba",
+                "SO"
+              ],
+              "lessonHint": "拼写",
+              "crossRef": [
+                "S1-C3-S16",
+                "S1-C3-S17",
+                "S1-C3-S18"
+              ]
+            },
+            {
+              "id": "kp-c14s2-5",
+              "title": "避讳也会造新词",
+              "type": "concept",
+              "summary": "为回避禁忌词，可换用既有词（带来语义变化），也可另造新词，如 dang、gosh。",
+              "terms": [
+                {
+                  "en": "taboo avoidance",
+                  "zh": "避讳"
+                },
+                {
+                  "en": "euphemism",
+                  "zh": "委婉语"
+                }
+              ],
+              "examples": [
+                "dang",
+                "gosh"
+              ],
+              "lessonHint": "新词",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C14-S3",
+          "title": "14.3 Phonological change",
+          "knowledgePoints": [
+            {
+              "id": "kp-c14s3-1",
+              "title": "换位",
+              "type": "concept",
+              "summary": "两个音或两个发音部位互换位置即换位；英语 ask 史上有 axian 变体，手语也有换位变体。",
+              "terms": [
+                {
+                  "en": "metathesis",
+                  "zh": "换位"
+                }
+              ],
+              "examples": [
+                "ascian > axian",
+                "wæpse > wasp",
+                "bridd > bird"
+              ],
+              "lessonHint": "词源",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s3-2",
+              "title": "拼写读音",
+              "type": "concept",
+              "summary": "拼写被改动后读音随字母改变，称拼写读音；这类新读音未必低劣，也可能更受推崇。",
+              "terms": [
+                {
+                  "en": "spelling pronunciation",
+                  "zh": "拼写读音"
+                }
+              ],
+              "examples": [
+                "Arctic",
+                "falcon",
+                "perfect"
+              ],
+              "lessonHint": "拼写",
+              "crossRef": [
+                "S1-C11-S3"
+              ]
+            },
+            {
+              "id": "kp-c14s3-3",
+              "title": "超外来词",
+              "type": "concept",
+              "summary": "按对来源语的刻板印象改造借词读音，反而偏离原音，称超外来词。",
+              "terms": [
+                {
+                  "en": "hyperforeignism",
+                  "zh": "超外来词"
+                }
+              ],
+              "examples": [
+                "Beijing",
+                "lingerie",
+                "coup de grâce"
+              ],
+              "lessonHint": "拼写",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s3-4",
+              "title": "异化、类推与近邻类推",
+              "type": "concept",
+              "summary": "异化是避开相邻相似音；类推是向更常见模式靠拢；近邻类推是向常连用的词靠拢。",
+              "terms": [
+                {
+                  "en": "dissimilation",
+                  "zh": "异化"
+                },
+                {
+                  "en": "analogy",
+                  "zh": "类推"
+                },
+                {
+                  "en": "immediate model",
+                  "zh": "近邻类推"
+                }
+              ],
+              "examples": [
+                "governor",
+                "nuclear",
+                "February"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S20"
+              ]
+            },
+            {
+              "id": "kp-c14s3-5",
+              "title": "规则音变假说",
+              "type": "history",
+              "summary": "新语法学派主张音变一律规则、例外另有来源；今知并非全然成立，但该假说是历史语言学的基石。",
+              "terms": [
+                {
+                  "en": "regularity principle",
+                  "zh": "规则性原理"
+                },
+                {
+                  "en": "Neogrammarian",
+                  "zh": "新语法学派"
+                }
+              ],
+              "examples": [
+                "sound law"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C10-S1"
+              ]
+            },
+            {
+              "id": "kp-c14s3-6",
+              "title": "词汇扩散",
+              "type": "concept",
+              "summary": "规则音变可逐词蔓延，先及高频词，故同一时刻只见部分词已变，如费城 bad/dad 的元音差异。",
+              "terms": [
+                {
+                  "en": "lexical diffusion",
+                  "zh": "词汇扩散"
+                }
+              ],
+              "examples": [
+                "bad / dad"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s3-7",
+              "title": "条件音变与无条件音变",
+              "type": "rule",
+              "summary": "音变可只在特定环境发生（如元音之间、词末），也可无条件遍及所有位置；记法与共时规则同形，惟用大于号。",
+              "terms": [
+                {
+                  "en": "conditioned change",
+                  "zh": "条件音变"
+                },
+                {
+                  "en": "unconditioned change",
+                  "zh": "无条件音变"
+                }
+              ],
+              "examples": [
+                "sword / sweet"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s3-8",
+              "title": "音位合并、分裂与移位",
+              "type": "classification",
+              "summary": "音变可减少音位（合并）、增加音位（分裂，如 /v/ 因借词对立而独立）或只改音值不改数目（移位）。",
+              "terms": [
+                {
+                  "en": "merger",
+                  "zh": "合并"
+                },
+                {
+                  "en": "split",
+                  "zh": "分裂"
+                },
+                {
+                  "en": "shift",
+                  "zh": "移位"
+                }
+              ],
+              "examples": [
+                "/y/ > /i/",
+                "fine / vine",
+                "cyssen > kiss"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C4-S1"
+              ]
+            },
+            {
+              "id": "kp-c14s3-9",
+              "title": "元音大推移与链移",
+              "type": "history",
+              "summary": "中古英语长元音成系列上移或复元化而不合并，形成链移；可用拉链或推链解释，也可能两者兼有。",
+              "terms": [
+                {
+                  "en": "Great Vowel Shift",
+                  "zh": "元音大推移"
+                },
+                {
+                  "en": "chain shift",
+                  "zh": "链移"
+                },
+                {
+                  "en": "pull chain",
+                  "zh": "拉链"
+                },
+                {
+                  "en": "push chain",
+                  "zh": "推链"
+                }
+              ],
+              "examples": [
+                "divine / divinity",
+                "sane / sanity"
+              ],
+              "lessonHint": "词源",
+              "crossRef": [
+                "S1-C11-S9"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C14-S4",
+          "title": "14.4 Morphological change",
+          "knowledgePoints": [
+            {
+              "id": "kp-c14s4-1",
+              "title": "屈折词形表与同形合并",
+              "type": "concept",
+              "summary": "同一词根的全部屈折形式构成词形表；不同格位发音相同即同形合并，如英语过去式与过去分词同形。",
+              "terms": [
+                {
+                  "en": "paradigm",
+                  "zh": "词形表"
+                },
+                {
+                  "en": "syncretism",
+                  "zh": "同形合并"
+                }
+              ],
+              "examples": [
+                "move / moves / moved / moving",
+                "show / showed / shown"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C9-S1"
+              ]
+            },
+            {
+              "id": "kp-c14s4-2",
+              "title": "类推拉平",
+              "type": "concept",
+              "summary": "以多数模式消除词根变体，使词形表更整齐，如 help/halp/holp 归并为 help/helped。",
+              "terms": [
+                {
+                  "en": "analogical levelling",
+                  "zh": "类推拉平"
+                }
+              ],
+              "examples": [
+                "help",
+                "halp",
+                "holp"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S20"
+              ]
+            },
+            {
+              "id": "kp-c14s4-3",
+              "title": "类推扩展",
+              "type": "concept",
+              "summary": "较少见，指仿照他类模式增加词根变体，如 ring 由单一词根变为 ring/rang/rung 三式。",
+              "terms": [
+                {
+                  "en": "analogical extension",
+                  "zh": "类推扩展"
+                }
+              ],
+              "examples": [
+                "hring > ring",
+                "begin / began / begun"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C3-S20"
+              ]
+            },
+            {
+              "id": "kp-c14s4-4",
+              "title": "重新分析（改划边界）",
+              "type": "concept",
+              "summary": "语素边界跨越音段移动而语素本身不变；a napron 被重析为 an apron，反向则得 newt。",
+              "terms": [
+                {
+                  "en": "reanalysis",
+                  "zh": "重新分析"
+                },
+                {
+                  "en": "rebracketing",
+                  "zh": "改划边界"
+                }
+              ],
+              "examples": [
+                "apron",
+                "newt",
+                "napkin"
+              ],
+              "lessonHint": "拼写",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s4-5",
+              "title": "民间词源与 eggcorn",
+              "type": "concept",
+              "summary": "把词误解为具备它本无的理据结构即民间词源；个人层面的误听误写称 eggcorn，二者是同一过程。",
+              "terms": [
+                {
+                  "en": "folk etymology",
+                  "zh": "民间词源"
+                },
+                {
+                  "en": "eggcorn",
+                  "zh": "形近误改词"
+                }
+              ],
+              "examples": [
+                "woodchuck",
+                "hangnail",
+                "cold slaw"
+              ],
+              "lessonHint": "词源",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s4-6",
+              "title": "mondegreen",
+              "type": "concept",
+              "summary": "听错歌词或诗句并连带改变意义，与 eggcorn 的区别在于意义也变了。",
+              "terms": [
+                {
+                  "en": "mondegreen",
+                  "zh": "听误成词"
+                }
+              ],
+              "examples": [
+                "Lady Mondegreen",
+                "four calling birds"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s4-7",
+              "title": "逆构词",
+              "type": "concept",
+              "summary": "依错误的结构分析造出新语素，新语素还可继续造词，如 emote、-holic。",
+              "terms": [
+                {
+                  "en": "back formation",
+                  "zh": "逆构词"
+                }
+              ],
+              "examples": [
+                "emote",
+                "edit",
+                "-holic"
+              ],
+              "lessonHint": "词源",
+              "crossRef": [
+                "S1-C3-S12"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S2-C14-S5",
+          "title": "14.5 Syntactic change",
+          "knowledgePoints": [
+            {
+              "id": "kp-c14s5-1",
+              "title": "分析与综合可以互转",
+              "type": "concept",
+              "summary": "独立词经语音弱化并入前词即成综合式（have not > haven't）；词尾磨损后信息改由独立词承担则回向分析式。",
+              "terms": [
+                {
+                  "en": "analytic",
+                  "zh": "分析式"
+                },
+                {
+                  "en": "synthetic",
+                  "zh": "综合式"
+                }
+              ],
+              "examples": [
+                "haven't",
+                "to play < plegian"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s5-2",
+              "title": "语法化",
+              "type": "concept",
+              "summary": "词汇词演变为语法成分并伴随范畴与意义转移，如 willan「想要」变为将来时标记。",
+              "terms": [
+                {
+                  "en": "grammaticalization",
+                  "zh": "语法化"
+                }
+              ],
+              "examples": [
+                "will",
+                "while",
+                "very"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s5-3",
+              "title": "基本语序的历史变化",
+              "type": "concept",
+              "summary": "语言可在 SVO、SOV 等六种基本语序间转移，通常经过两种语序并存的变异阶段。",
+              "terms": [
+                {
+                  "en": "basic word order",
+                  "zh": "基本语序"
+                }
+              ],
+              "examples": [
+                "He hit hæfde > He had it"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s5-4",
+              "title": "语序细节变化反映句法原则",
+              "type": "concept",
+              "summary": "副词与动词相对位置的变化可由移位参数解释，历时材料因而能检验共时句法理论。",
+              "terms": [
+                {
+                  "en": "V-to-T movement",
+                  "zh": "动词到时的移位"
+                }
+              ],
+              "examples": [
+                "he loued neuer",
+                "he never loved"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C14-S6",
+          "title": "14.6 Semantic change",
+          "knowledgePoints": [
+            {
+              "id": "kp-c14s6-1",
+              "title": "语义漂移经多义阶段",
+              "type": "concept",
+              "summary": "词义变化常先出现新旧义并用的多义阶段，旧义随后废弃；这一过程称语义漂移。",
+              "terms": [
+                {
+                  "en": "semantic shift",
+                  "zh": "语义漂移"
+                },
+                {
+                  "en": "polysemy",
+                  "zh": "多义"
+                }
+              ],
+              "examples": [
+                "arrive"
+              ],
+              "lessonHint": "词源",
+              "crossRef": [
+                "S1-C7-S1"
+              ]
+            },
+            {
+              "id": "kp-c14s6-2",
+              "title": "词义扩大",
+              "type": "concept",
+              "summary": "所指范围由具体扩至更广类别，如 arrive 由「航海抵岸」扩至任何抵达。",
+              "terms": [
+                {
+                  "en": "widening",
+                  "zh": "词义扩大"
+                },
+                {
+                  "en": "generalization",
+                  "zh": "泛化"
+                }
+              ],
+              "examples": [
+                "arrive",
+                "holiday",
+                "build"
+              ],
+              "lessonHint": "词源",
+              "crossRef": [
+                "S1-C7-S9"
+              ]
+            },
+            {
+              "id": "kp-c14s6-3",
+              "title": "词义缩小",
+              "type": "concept",
+              "summary": "所指范围收窄，如 deer 由「动物」缩为鹿科，meat 由「食物」缩为肉。",
+              "terms": [
+                {
+                  "en": "narrowing",
+                  "zh": "词义缩小"
+                },
+                {
+                  "en": "specialization",
+                  "zh": "专门化"
+                }
+              ],
+              "examples": [
+                "deer",
+                "meat",
+                "starve"
+              ],
+              "lessonHint": "词源",
+              "crossRef": [
+                "S1-C7-S9"
+              ]
+            },
+            {
+              "id": "kp-c14s6-4",
+              "title": "转喻与提喻",
+              "type": "classification",
+              "summary": "基于相邻联想的转用是转喻；以部分代整体或以整体代部分是提喻，属转喻的特例。",
+              "terms": [
+                {
+                  "en": "metonymy",
+                  "zh": "转喻"
+                },
+                {
+                  "en": "synecdoche",
+                  "zh": "提喻"
+                },
+                {
+                  "en": "pars pro toto",
+                  "zh": "以部分代整体"
+                },
+                {
+                  "en": "totum pro parte",
+                  "zh": "以整体代部分"
+                }
+              ],
+              "examples": [
+                "the Crown",
+                "glasses",
+                "Canada"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C7-S11"
+              ]
+            },
+            {
+              "id": "kp-c14s6-5",
+              "title": "隐喻",
+              "type": "concept",
+              "summary": "基于形似或功能相似的跨域转用是隐喻，与转喻的区别在于两概念并无日常共现关系。",
+              "terms": [
+                {
+                  "en": "metaphor",
+                  "zh": "隐喻"
+                }
+              ],
+              "examples": [
+                "grasp",
+                "crane",
+                "sierra"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C7-S10"
+              ]
+            },
+            {
+              "id": "kp-c14s6-6",
+              "title": "升格与降格",
+              "type": "classification",
+              "summary": "词义向褒义发展为升格，向贬义发展为降格；两种方向都可跨越中性、褒、贬三类。",
+              "terms": [
+                {
+                  "en": "elevation",
+                  "zh": "升格"
+                },
+                {
+                  "en": "degeneration",
+                  "zh": "降格"
+                },
+                {
+                  "en": "pejoration",
+                  "zh": "贬化"
+                }
+              ],
+              "examples": [
+                "eager",
+                "silly",
+                "knave"
+              ],
+              "lessonHint": "词源",
+              "crossRef": [
+                "S1-C7-S9"
+              ]
+            },
+            {
+              "id": "kp-c14s6-7",
+              "title": "委婉语循环",
+              "type": "concept",
+              "summary": "为回避不快概念而换用委婉语，委婉语本身沾染贬义后又被替换，形成循环。",
+              "terms": [
+                {
+                  "en": "euphemism",
+                  "zh": "委婉语"
+                },
+                {
+                  "en": "euphemism cycle",
+                  "zh": "委婉语循环"
+                }
+              ],
+              "examples": [
+                "toilet",
+                "restroom"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s6-8",
+              "title": "夸张、曲言与语义漂白",
+              "type": "classification",
+              "summary": "夸张使新义弱于原义，曲言使新义强于原义；语义内容磨蚀至只剩强调功能即语义漂白。",
+              "terms": [
+                {
+                  "en": "hyperbole",
+                  "zh": "夸张"
+                },
+                {
+                  "en": "litotes",
+                  "zh": "曲言"
+                },
+                {
+                  "en": "semantic bleaching",
+                  "zh": "语义漂白"
+                }
+              ],
+              "examples": [
+                "bane",
+                "grudge",
+                "very",
+                "literally"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s6-9",
+              "title": "语义变化通常不规则",
+              "type": "concept",
+              "summary": "语义变化多逐词发生，难以像音变那样成系统；成组同变者需有共同的结构条件，如查莫罗语方位词整体旋转。",
+              "terms": [
+                {
+                  "en": "regular semantic change",
+                  "zh": "规则语义变化"
+                }
+              ],
+              "examples": [
+                "lågu 'seaward' > 'north'"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C14-S7",
+          "title": "14.8 Reconstructing the past",
+          "knowledgePoints": [
+            {
+              "id": "kp-c14s7-1",
+              "title": "比较法与重构",
+              "type": "concept",
+              "summary": "比较亲属语言的同源成分并向上推溯出共同祖形，这一方法称比较法，其推溯过程即重构。",
+              "terms": [
+                {
+                  "en": "comparative method",
+                  "zh": "比较法"
+                },
+                {
+                  "en": "reconstruction",
+                  "zh": "重构"
+                }
+              ],
+              "examples": [
+                "house / Haus"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C10-S1"
+              ]
+            },
+            {
+              "id": "kp-c14s7-2",
+              "title": "同源词与祖形",
+              "type": "concept",
+              "summary": "由同一祖形直接继承而来的词是同源词，该祖形即其 etymon；音义相近只是线索，不是判据。",
+              "terms": [
+                {
+                  "en": "cognate",
+                  "zh": "同源词"
+                },
+                {
+                  "en": "etymon",
+                  "zh": "祖形"
+                }
+              ],
+              "examples": [
+                "house",
+                "Haus"
+              ],
+              "lessonHint": "词源",
+              "crossRef": [
+                "S1-C10-S1"
+              ]
+            },
+            {
+              "id": "kp-c14s7-3",
+              "title": "借词与游词的干扰",
+              "type": "concept",
+              "summary": "借词未经历受借语言的完整演变，会被误当作同源词；在多语间辗转传播的词称游词。",
+              "terms": [
+                {
+                  "en": "borrowing",
+                  "zh": "借词"
+                },
+                {
+                  "en": "Wanderwort",
+                  "zh": "游词"
+                }
+              ],
+              "examples": [
+                "giraffe / Giraffe",
+                "tea",
+                "sugar"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": [
+                "S1-C11-S1"
+              ]
+            },
+            {
+              "id": "kp-c14s7-4",
+              "title": "假同源词与假朋友",
+              "type": "classification",
+              "summary": "音义相近而来源不同是假同源词，须排除；确为同源但意义已分歧的是假朋友，仍应纳入比较。",
+              "terms": [
+                {
+                  "en": "false cognate",
+                  "zh": "假同源词"
+                },
+                {
+                  "en": "false friends",
+                  "zh": "假朋友"
+                }
+              ],
+              "examples": [
+                "murder / Marter",
+                "gift / Gift"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        },
+        {
+          "id": "S2-C14-S8",
+          "title": "14.9 Case study: reconstructing Proto-Chinese",
+          "knowledgePoints": [
+            {
+              "id": "kp-c14s8-1",
+              "title": "星号标记重构形式",
+              "type": "method",
+              "summary": "重构形式前置星号表示其为假设而非实证；该记法原用于历时重构，后借用于共时不合格标记。",
+              "terms": [
+                {
+                  "en": "asterisk",
+                  "zh": "星号"
+                },
+                {
+                  "en": "reconstructed form",
+                  "zh": "重构形式"
+                }
+              ],
+              "examples": [
+                "*pi"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s8-2",
+              "title": "原始语言与原始形式",
+              "type": "concept",
+              "summary": "以 proto- 命名重构的语言、词与音；原始语言是理论构拟，并非任何人真正使用过的语言。",
+              "terms": [
+                {
+                  "en": "proto-language",
+                  "zh": "原始语"
+                },
+                {
+                  "en": "proto-word",
+                  "zh": "原始词"
+                },
+                {
+                  "en": "proto-sound",
+                  "zh": "原始音"
+                }
+              ],
+              "examples": [
+                "Proto-Chinese",
+                "*bi"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s8-3",
+              "title": "对应集",
+              "type": "concept",
+              "summary": "把同源词逐音对齐后得到的音类对应序列称对应集，是重构单个音位的基本单位。",
+              "terms": [
+                {
+                  "en": "correspondence set",
+                  "zh": "对应集"
+                }
+              ],
+              "examples": [
+                "p : pʰ : b"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s8-4",
+              "title": "优先假设规则音变",
+              "type": "rule",
+              "summary": "若某对应集由大量词支持，应假设曾发生规则音变，而非为每个词各设一次零星变化。",
+              "terms": [
+                {
+                  "en": "regular sound change",
+                  "zh": "规则音变"
+                }
+              ],
+              "examples": [
+                "p : pʰ : b"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            },
+            {
+              "id": "kp-c14s8-5",
+              "title": "保守与创新",
+              "type": "concept",
+              "summary": "在某项特征上未见变化的语言称保守，已变的称创新；同一语言可在此处保守、在彼处创新。",
+              "terms": [
+                {
+                  "en": "conservative",
+                  "zh": "保守"
+                },
+                {
+                  "en": "innovative",
+                  "zh": "创新"
+                }
+              ],
+              "examples": [
+                "Suzhou",
+                "Changsha"
+              ],
+              "lessonHint": "advanced",
+              "crossRef": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

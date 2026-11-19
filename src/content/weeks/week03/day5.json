@@ -52,7 +52,8 @@
         "im",
         "il",
         "ir"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "table",
@@ -124,6 +125,12 @@
         "con",
         "sub",
         "ex"
+      ],
+      "morphemeIds": [
+        "px-ad",
+        "px-con",
+        "px-sub",
+        "px-e"
       ]
     },
     {
@@ -163,7 +170,8 @@
         "ir",
         "il",
         "in"
-      ]
+      ],
+      "morphemeIds": []
     }
   ],
   "practice": [

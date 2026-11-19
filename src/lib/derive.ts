@@ -10,7 +10,7 @@
  * dictionary does not contain is reported as `unknown` — "not in the lexicon",
  * never "does not exist".
  */
-import { allMorphemes, allWords, getMorpheme, getWord } from './content';
+import { allMorphemes, allWords, getMorpheme, getWord, identity } from './content';
 import type { Morpheme, WordEntry } from './types';
 
 export type Pos = NonNullable<WordEntry['pos']>;
@@ -40,6 +40,8 @@ export interface Derivation {
   word: string;
   steps: DerivationStep[];
   familyId?: string;
+  /** Morpheme ID of the base and of each addition, `null` when ambiguous. */
+  ids?: (string | null)[];
 }
 
 export interface Analysis {
@@ -47,6 +49,8 @@ export interface Analysis {
   steps: DerivationStep[];
   known: boolean;
   note?: string;
+  /** Morpheme ID for each part, `null` where the spelling is ambiguous. */
+  ids: (string | null)[];
 }
 
 /** A cell in the derivation grid: the three honest states. */
@@ -210,28 +214,41 @@ export function affixKind(add: string): 'prefix' | 'suffix' {
  *
  * Two entries can share a spelling (the Arabic article `al` and the suffix
  * `-al`), and the form index keeps only one of them, so a miss or a non-affix
- * reading falls back to scanning the full morpheme list.
+ * reading falls back to the identity index: a spelling whose candidates all
+ * agree on one affix type has that type; a genuine conflict has none.
  */
 export function affixRole(form: string): 'prefix' | 'suffix' | undefined {
   const f = stripAffixDashes(form);
+  const type = morphemeType(f);
+  if (type === 'prefix' || type === 'suffix') return type;
   const direct = getMorpheme(f);
-  if (direct?.type === 'prefix') return 'prefix';
-  if (direct?.type === 'suffix') return 'suffix';
-  const alt = allMorphemes().find(
-    (m) => (m.type === 'prefix' || m.type === 'suffix') && stripAffixDashes(m.form) === f,
+  if (direct?.type === 'prefix') return direct.type;
+  if (direct?.type === 'suffix') return direct.type;
+  return undefined;
+}
+
+/** Type shared by every record this spelling can stand for, else undefined. */
+function morphemeType(form: string): Morpheme['type'] | undefined {
+  const types = new Set(
+    identity
+      .idsForForm(form)
+      .map((id) => identity.byId(id)?.type)
+      .filter((type): type is Morpheme['type'] => Boolean(type)),
   );
-  return alt?.type === 'prefix' || alt?.type === 'suffix' ? alt.type : undefined;
+  return types.size === 1 ? [...types][0] : undefined;
 }
 
 /** The morpheme a spelling belongs to (allomorphs resolve to their canonical entry). */
 export function morphemeOf(part: string): Morpheme | undefined {
-  return getMorpheme(part);
+  const { id } = identity.resolve(part);
+  if (id) return identity.byId(id);
+  return undefined;
 }
 
 /** Index of the lexical core: the first root / combining form, else the first part. */
 export function rootIndexOf(parts: readonly string[]): number {
   const idx = parts.findIndex((p) => {
-    const type = getMorpheme(p)?.type;
+    const type = morphemeType(stripAffixDashes(p));
     return type === 'root' || type === 'combining';
   });
   return idx >= 0 ? idx : 0;
@@ -357,9 +374,11 @@ export function deriveFrom(
   const start = stripAffixDashes(base);
   const prefixes: string[] = [];
   const suffixes: string[] = [];
+  const ids: (string | null)[] = [identity.resolve(start).id ?? null];
   for (const raw of additions) {
     const add = raw.trim().toLowerCase();
     if (!add) continue;
+    ids.push(identity.resolve(add).id ?? null);
     if (affixKind(add) === 'prefix') prefixes.push(add);
     else suffixes.push(add);
   }
@@ -381,12 +400,19 @@ export function deriveFrom(
     word = joined.text;
   }
 
-  return { word, steps, familyId: familyIdOf(start), valid: dictionary.has(word) };
+  return { word, steps, familyId: familyIdOf(start), valid: dictionary.has(word), ids };
 }
 
 /** Canonical family id for a base spelling, e.g. `help` -> `rx-help`. */
 export function familyIdOf(base: string): string | undefined {
-  return getMorpheme(base)?.id ?? getWord(base)?.parts.map((p) => getMorpheme(p)?.id).find(Boolean);
+  const resolved = identity.resolve(base).id;
+  if (resolved) return resolved;
+  // A spelling the lexicon does not list may still be a listed word whose
+  // verified analysis names the morphemes.
+  const entry = getWord(base);
+  const coreId = entry?.partIds?.[rootIndexOf(entry.parts)];
+  if (coreId) return coreId;
+  return entry?.parts.map((p) => identity.resolve(p).id).find(Boolean) ?? undefined;
 }
 
 /* ------------------------------------------------------------------ */
@@ -423,7 +449,7 @@ function knownMorpheme(stem: string): string | undefined {
   const tries = [stem, `${stem}e`, `${stem}y`, `${stem}${stem.slice(-1)}`];
   // Undo a y -> i change: `happi` must be recognised as `happy`.
   if (stem.endsWith('i')) tries.splice(1, 0, `${stem.slice(0, -1)}y`);
-  return tries.find((candidate) => Boolean(getMorpheme(candidate)));
+  return tries.find((candidate) => identity.idsForForm(candidate).length > 0);
 }
 
 function peeledForms(type: Morpheme['type']): string[] {
@@ -501,7 +527,7 @@ function segmentUnknown(word: string): { parts: string[]; steps: DerivationStep[
  */
 export function analyze(word: string): Analysis {
   const w = word.trim().toLowerCase();
-  if (!w) return { parts: [], steps: [], known: false, note: '请输入一个英文单词。' };
+  if (!w) return { parts: [], steps: [], known: false, note: '请输入一个英文单词。', ids: [] };
 
   const entry = getWord(w);
   if (entry) {
@@ -512,11 +538,13 @@ export function analyze(word: string): Analysis {
     const last = (steps: DerivationStep[]) => (steps.length > 0 ? steps[steps.length - 1].to : (parts[rootIndex] ?? ''));
     // Only the listed spelling can pick between the two doubling readings.
     const steps = last(doubled) === entry.w ? doubled : last(plain) === entry.w ? plain : doubled;
-    return { parts, steps, known: true };
+    const ids = entry.partIds ?? parts.map((part) => identity.resolve(part).id ?? null);
+    return { parts, steps, known: true, ids };
   }
 
   const guess = segmentUnknown(w);
-  return { parts: guess.parts, steps: guess.steps, known: false, note: guess.note };
+  const ids = guess.parts.map((part) => identity.resolve(part).id ?? null);
+  return { parts: guess.parts, steps: guess.steps, known: false, note: guess.note, ids };
 }
 
 /* ------------------------------------------------------------------ */
@@ -524,8 +552,12 @@ export function analyze(word: string): Analysis {
 /* ------------------------------------------------------------------ */
 
 function requiredInput(form: string): readonly Pos[] | undefined {
-  const canonical = getMorpheme(form)?.form.replace(/^-+|-+$/g, '').toLowerCase() ?? form;
-  return SUFFIX_INPUT[form] ?? SUFFIX_INPUT[canonical];
+  const ids = identity.idsForForm(form);
+  const canonical =
+    ids.length === 1
+      ? identity.byId(ids[0])?.form.replace(/^-+|-+$/g, '').toLowerCase()
+      : undefined;
+  return SUFFIX_INPUT[form] ?? (canonical ? SUFFIX_INPUT[canonical] : undefined);
 }
 
 /**
@@ -656,14 +688,14 @@ export function judgeAdd(context: WordContext, affix: string, dictionary: Set<st
 export function resolveFamilyId(idOrForm: string): string | undefined {
   const raw = idOrForm.trim();
   if (!raw) return undefined;
-  const byId = allMorphemes().find((m) => m.id === raw);
-  if (byId) return byId.id;
-  const direct = getMorpheme(raw);
-  if (direct) return direct.id;
+  if (identity.byId(raw)) return raw;
+  const resolved = identity.resolve(raw).id;
+  if (resolved) return resolved;
   const entry = getWord(raw);
   if (entry) {
-    const core = entry.parts[rootIndexOf(entry.parts)];
-    return getMorpheme(core)?.id;
+    const coreId = entry.partIds?.[rootIndexOf(entry.parts)];
+    if (coreId) return coreId;
+    return entry.parts.map((p) => identity.resolve(p).id).find(Boolean);
   }
   return undefined;
 }
@@ -671,7 +703,7 @@ export function resolveFamilyId(idOrForm: string): string | undefined {
 export function familyBaseForm(familyId: string): string | undefined {
   const id = resolveFamilyId(familyId);
   if (!id) return undefined;
-  return allMorphemes().find((m) => m.id === id)?.form.replace(/^-+|-+$/g, '');
+  return identity.byId(id)?.form.replace(/^-+|-+$/g, '');
 }
 
 /** Every listed word built on one morpheme, with its derivation depth. */
@@ -680,7 +712,8 @@ export function familyMembers(familyId: string): { word: string; depth: number }
   if (!id) return [];
   const members: { word: string; depth: number }[] = [];
   for (const entry of allWords()) {
-    if (!entry.parts.some((p) => getMorpheme(p)?.id === id)) continue;
+    const ids = entry.partIds ?? entry.parts.map((p) => identity.resolve(p).id ?? null);
+    if (!ids.includes(id)) continue;
     members.push({ word: entry.w, depth: Math.max(0, entry.parts.length - 1) });
   }
   return members.sort((a, b) => a.depth - b.depth || a.word.localeCompare(b.word));

@@ -47,6 +47,10 @@
       "morphemes": [
         "bio",
         "logy"
+      ],
+      "morphemeIds": [
+        "cx-bio",
+        "cx-logy"
       ]
     },
     {
@@ -154,6 +158,12 @@
         "meter",
         "graph",
         "metr"
+      ],
+      "morphemeIds": [
+        "cx-therm",
+        "cx-meter",
+        "cx-graph",
+        "cx-metr"
       ]
     }
   ],

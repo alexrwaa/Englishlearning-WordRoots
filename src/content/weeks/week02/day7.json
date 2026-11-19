@@ -73,6 +73,12 @@
         "ness",
         "un",
         "possible"
+      ],
+      "morphemeIds": [
+        "rx-help",
+        "sx-ness",
+        "px-un",
+        "rx-possible"
       ]
     },
     {
@@ -85,6 +91,13 @@
         "ful",
         "ness",
         "less"
+      ],
+      "morphemeIds": [
+        "px-un",
+        "rx-help",
+        "sx-ful",
+        "sx-ness",
+        "sx-less"
       ]
     },
     {
@@ -125,7 +138,8 @@
         "trans",
         "pre",
         "post"
-      ]
+      ],
+      "morphemeIds": []
     }
   ],
   "practice": [

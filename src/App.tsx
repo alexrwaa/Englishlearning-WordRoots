@@ -1,16 +1,40 @@
-import { useEffect } from 'react';
+import { Suspense, lazy, useEffect } from 'react';
 import { HashRouter, NavLink, Route, Routes, useLocation } from 'react-router-dom';
 import { AppProvider, useApp } from './lib/store';
 import Home from './pages/Home';
-import Session from './pages/Session';
 import Course from './pages/Course';
-import MatrixLab from './pages/MatrixLab';
-import Family from './pages/Family';
-import Explore from './pages/Explore';
-import WordLab from './pages/WordLab';
-import Library from './pages/Library';
-import Stats from './pages/Stats';
-import SettingsPage from './pages/SettingsPage';
+import { loadLexicon } from './lib/content';
+
+/**
+ * Lexicon routes are code-split *and* gated on the lexicon.
+ *
+ * `MatrixLab`, `Family`, `Explore`, `WordLab`, `Library`, `Stats`, `Settings`
+ * and `Session` all read `allWords()` / `allMorphemes()` synchronously (the
+ * public API stayed synchronous on purpose, see `lib/content.ts`). The lazy
+ * factory below hydrates the lexicon *before* the route module is evaluated,
+ * so those call sites keep working while the ~1 MB of JSON stays out of the
+ * entry chunk and out of the home page's first paint.
+ *
+ * A lexicon load failure rejects the import; that is a broken build, not a
+ * state the UI can meaningfully recover from.
+ */
+function lazyWithLexicon<P extends object>(
+  loader: () => Promise<{ default: React.ComponentType<P> }>,
+) {
+  return lazy(async () => {
+    await loadLexicon();
+    return loader();
+  });
+}
+
+const Session = lazyWithLexicon(() => import('./pages/Session'));
+const MatrixLab = lazyWithLexicon(() => import('./pages/MatrixLab'));
+const Family = lazyWithLexicon(() => import('./pages/Family'));
+const Explore = lazyWithLexicon(() => import('./pages/Explore'));
+const WordLab = lazyWithLexicon(() => import('./pages/WordLab'));
+const Library = lazyWithLexicon(() => import('./pages/Library'));
+const Stats = lazyWithLexicon(() => import('./pages/Stats'));
+const SettingsPage = lazyWithLexicon(() => import('./pages/SettingsPage'));
 
 const nav = [
   { to: '/', label: '今日学习', icon: '◈', end: true },
@@ -80,6 +104,16 @@ function ScrollReset() {
   return null;
 }
 
+function RouteFallback() {
+  return (
+    <div className="page">
+      <p className="small muted" style={{ marginTop: 24 }}>
+        正在载入词库…
+      </p>
+    </div>
+  );
+}
+
 function Shell() {
   const { ready, error } = useApp();
   if (!ready) {
@@ -105,20 +139,22 @@ function Shell() {
           </div>
         ) : null}
         <ScrollReset />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/session/:lessonId" element={<Session />} />
-          <Route path="/course" element={<Course />} />
-          <Route path="/matrix" element={<MatrixLab />} />
-          <Route path="/family/:id" element={<Family />} />
-          <Route path="/explore" element={<Explore />} />
-          <Route path="/word" element={<WordLab />} />
-          <Route path="/word/:word" element={<WordLab />} />
-          <Route path="/library" element={<Library />} />
-          <Route path="/stats" element={<Stats />} />
-          <Route path="/settings" element={<SettingsPage />} />
-          <Route path="*" element={<Home />} />
-        </Routes>
+        <Suspense fallback={<RouteFallback />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/session/:lessonId" element={<Session />} />
+            <Route path="/course" element={<Course />} />
+            <Route path="/matrix" element={<MatrixLab />} />
+            <Route path="/family/:id" element={<Family />} />
+            <Route path="/explore" element={<Explore />} />
+            <Route path="/word" element={<WordLab />} />
+            <Route path="/word/:word" element={<WordLab />} />
+            <Route path="/library" element={<Library />} />
+            <Route path="/stats" element={<Stats />} />
+            <Route path="/settings" element={<SettingsPage />} />
+            <Route path="*" element={<Home />} />
+          </Routes>
+        </Suspense>
       </main>
       <ThemeBridge />
     </div>

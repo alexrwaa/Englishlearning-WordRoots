@@ -1,159 +1,387 @@
 /**
- * Textbook coverage audit.
+ * Textbook coverage audit — seven levels (docs/DATA_IDENTITY.md §5).
  *
  * The point of this script is to stop us from claiming "the curriculum covers
- * the textbook" without evidence. It joins three things that are edited
+ * the textbook" without evidence. It joins four things that are edited
  * independently:
  *
  *   1. the textbook inventory  (src/content/textbook/s1-elements.json,
  *      s1-chapters.json) — what the book actually teaches;
- *   2. the knowledge base      (src/content/lexicon/*.json) — what the app knows;
- *   3. the curriculum          (src/content/weeks/**) — what the app teaches.
+ *   2. the knowledge base      (src/content/lexicon/*.json + forms.json) —
+ *      which morpheme each element *is*;
+ *   3. the curriculum          (src/content/weeks/**) — what the app teaches;
+ *   4. the word database       (words.json partIds, review records).
  *
- * and prints every element/knowledge point with the stage it reached:
- * registered → in-knowledge-base → taught → practised → verified.
+ * Levels (§5):
+ *   L1 registered   in s1-elements.json
+ *   L2 linked       element → morpheme ID, with form *and* origin agreeing
+ *   L3 glossed      glossZh and glossEn both real (no placeholders)
+ *   L4 exemplified  ≥2 verified words whose partIds contain the ID
+ *   L5 explained    taught by a lesson (concept / card / linked knowledge point)
+ *   L6 practised    that lesson has a practice/apply item using the ID
+ *   L7 reviewed     the morpheme has a review record (`review.by`)
  *
  *   npx tsx scripts/coverage.ts            # human report
- *   npx tsx scripts/coverage.ts --json    # machine data (docs/coverage.json)
- *   npx tsx scripts/coverage.ts --write   # regenerate docs/TEXTBOOK_COVERAGE.md
+ *   npx tsx scripts/coverage.ts --json    # docs/coverage.json
+ *   npx tsx scripts/coverage.ts --write   # docs/TEXTBOOK_COVERAGE.md
  */
-import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
-import { join, resolve, dirname } from 'node:path';
+import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+import {
+  glossContains,
+  glossVariants,
+  loadIdentity,
+  normalizeForm,
+  normalizeOrigin,
+  type FormIndex,
+} from '../src/lib/identity';
+import type { Card, Exercise, Lesson, Morpheme, WordEntry } from '../src/lib/types';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const TX = join(root, 'src/content/textbook');
 const LEX = join(root, 'src/content/lexicon');
 const WEEKS = join(root, 'src/content/weeks');
 
-const read = <T>(p: string, fallback: T): T =>
-  existsSync(p) ? (JSON.parse(readFileSync(p, 'utf-8')) as T) : fallback;
+const read = <T>(path: string, fallback: T): T =>
+  existsSync(path) ? (JSON.parse(readFileSync(path, 'utf-8')) as T) : fallback;
 
-type Element = { element: string; gloss: string; chapter: string; source: string; page?: number };
-type Morpheme = { id: string; form: string; allomorphs?: string[]; glossEn: string; origin: string; familyId?: string; examples?: string[] };
-type Word = { w: string; parts: string[]; glossZh: string; verified?: boolean };
-type Lesson = { id: string; week: number; day: number; title: string; concepts: string[]; knowledgePoints?: string[]; cards: { refs?: string[]; title?: string }[]; practice: { parts?: string[]; concepts?: string[] }[]; apply: { parts?: string[]; concepts?: string[] }[] };
-type Kp = { id: string; title: string; type: string; summary: string; terms?: string[]; lessonHint?: string };
-type Chapter = { id: string; chapter: number; title: string; sections: { id: string; title: string; knowledgePoints: Kp[] }[]; wordElements?: { form: string }[]; exerciseTypes?: { name: string; shape: string }[] };
-type KpMap = Record<string, { lessons?: string[]; elements?: string[] }>;
+type Element = {
+  id: string;
+  element: string;
+  forms: string[];
+  type: string;
+  gloss: string;
+  chapter: string;
+  source: string;
+  page?: number;
+};
+type Word = Pick<WordEntry, 'w' | 'parts' | 'glossZh' | 'verified' | 'partIds'>;
+type Kp = { id: string; title: string; type: string; summary: string; terms?: string[]; examples?: string[] };
+type Chapter = {
+  id: string;
+  chapter: number;
+  title: string;
+  sections: { id: string; title: string; knowledgePoints: Kp[] }[];
+  wordElements?: { form: string; gloss: string; source: string; note?: string }[];
+  exerciseTypes?: { name: string; shape: string }[];
+};
+type KpMap = {
+  kpToLessons?: Record<string, string[]>;
+  lessonToKps?: Record<string, string[]>;
+};
+type SourceRow = { id: string; title: string; status: string; role?: string; edition?: string };
 
-const sources = read<{ sources: { id: string; title: string; status: string; role?: string; edition?: string; note?: string }[] }>(join(TX, 'sources.json'), { sources: [] });
+type LevelId = 'L1' | 'L2' | 'L3' | 'L4' | 'L5' | 'L6' | 'L7';
+const LEVELS: LevelId[] = ['L1', 'L2', 'L3', 'L4', 'L5', 'L6', 'L7'];
+const LEVEL_NAMES: Record<LevelId, string> = {
+  L1: '已登记',
+  L2: '已关联',
+  L3: '释义已核',
+  L4: '例词充分',
+  L5: '有讲解',
+  L6: '有练习',
+  L7: '已审校',
+};
+const LEVEL_RULES: Record<LevelId, string> = {
+  L1: '出现在 s1-elements.json',
+  L2: '元素 → 词素 ID，form 与 origin 同时一致',
+  L3: 'glossZh 与 glossEn 均非空且无占位符',
+  L4: '≥2 个 verified:true 且 partIds 含该 ID 的词条',
+  L5: '有课时在 concepts / 卡片 / 关联知识点里讲到该 ID',
+  L6: '讲到它的课时，practice/apply 至少一题用到该 ID',
+  L7: '该词素在 reviews.json 有审校记录（或记录自带 review.by）',
+};
+
+const sources = read<{ sources: SourceRow[] }>(join(TX, 'sources.json'), { sources: [] }).sources;
 const elements = read<{ elements: Element[] }>(join(TX, 's1-elements.json'), { elements: [] }).elements;
 const chapters = read<{ chapters: Chapter[] }>(join(TX, 's1-chapters.json'), { chapters: [] }).chapters;
 const kpMap = read<KpMap>(join(TX, 'kp-map.json'), {});
+// Sample linguistic review lives in its own file so regenerating the textbook
+// model never wipes it, and so the report can say exactly what was reviewed.
+const reviews = read<{ reviewedBy?: string; scope?: string; caveat?: string; entries?: { id: string }[] }>(
+  join(TX, 'reviews.json'),
+  {},
+);
+const reviewedIds = new Set((reviews.entries ?? []).map((e) => e.id));
 const morphemes = read<Morpheme[]>(join(LEX, 'morphemes.json'), []);
 const words = read<Word[]>(join(LEX, 'words.json'), []);
 const concepts = read<{ id: string; zh: string }[]>(join(LEX, 'concepts.json'), []);
+const formsIndex = read<FormIndex>(join(LEX, 'forms.json'), {});
+const identity = loadIdentity(morphemes, formsIndex);
 
 // ---------------------------------------------------------------- lessons ---
 const lessons: Lesson[] = [];
 for (const weekDir of existsSync(WEEKS) ? readdirSync(WEEKS).sort() : []) {
   const dir = join(WEEKS, weekDir);
-  if (!existsSync(dir) || !readdirSync(dir).length) continue;
-  for (const f of readdirSync(dir).filter((x) => /^day\d+\.json$/.test(x)).sort()) {
-    lessons.push(JSON.parse(readFileSync(join(dir, f), 'utf-8')) as Lesson);
+  if (!existsSync(dir)) continue;
+  for (const file of readdirSync(dir).filter((f) => /^day\d+\.json$/.test(f)).sort()) {
+    try {
+      lessons.push(JSON.parse(readFileSync(join(dir, file), 'utf-8')) as Lesson);
+    } catch {
+      // A lesson being written by another author must not break the audit.
+    }
   }
 }
 
-/** Every morpheme form a lesson touches, from concepts + exercise parts. */
-const lessonForms = new Map<string, Set<string>>();
-for (const l of lessons) {
+function cardIds(card: Card): string[] {
+  const ids = new Set<string>();
+  if ('morphemeIds' in card && Array.isArray(card.morphemeIds)) {
+    for (const id of card.morphemeIds) ids.add(id);
+  }
+  if ('morphemes' in card && Array.isArray(card.morphemes)) {
+    for (const form of card.morphemes) {
+      const resolved = identity.resolve(form).id;
+      if (resolved) ids.add(resolved);
+    }
+  }
+  return [...ids];
+}
+
+function exerciseIds(ex: Exercise): string[] {
+  const ids = new Set<string>();
+  const parts = 'parts' in ex && Array.isArray(ex.parts) ? ex.parts : [];
+  for (const part of parts) {
+    const resolved = identity.resolve(part).id;
+    if (resolved) ids.add(resolved);
+  }
+  for (const concept of ex.concepts ?? []) {
+    if (identity.byId(concept)) ids.add(concept);
+    else {
+      const resolved = identity.resolve(concept).id;
+      if (resolved) ids.add(resolved);
+    }
+  }
+  if (ex.kind === 'matrix') {
+    const resolved = identity.resolve(ex.base).id;
+    if (resolved) ids.add(resolved);
+  }
+  return [...ids];
+}
+
+/** Everything each lesson demonstrably touches. */
+interface LessonEvidence {
+  id: string;
+  concepts: Set<string>;
+  knowledgePoints: Set<string>;
+  cardIds: Set<string>;
+  exerciseIds: Set<string>;
+}
+const lessonEvidence: LessonEvidence[] = lessons.map((lesson) => ({
+  id: lesson.id,
+  concepts: new Set(lesson.concepts ?? []),
+  knowledgePoints: new Set(lesson.knowledgePoints ?? []),
+  cardIds: new Set((lesson.cards ?? []).flatMap(cardIds)),
+  exerciseIds: new Set([...(lesson.practice ?? []), ...(lesson.apply ?? [])].flatMap(exerciseIds)),
+}));
+
+/** kp → lessons that claim it (lesson file first, generated map second). */
+const kpLessons = new Map<string, Set<string>>();
+for (const [kp, ids] of Object.entries(kpMap.kpToLessons ?? {})) kpLessons.set(kp, new Set(ids));
+for (const lesson of lessonEvidence) {
+  for (const kp of lesson.knowledgePoints) {
+    const set = kpLessons.get(kp) ?? new Set<string>();
+    set.add(lesson.id);
+    kpLessons.set(kp, set);
+  }
+}
+
+// ------------------------------------------------------------- chapter map --
+/** chapter number → forms the book teaches in that chapter */
+const chapterForms = new Map<number, Set<string>>();
+const chapterKps = new Map<number, Set<string>>();
+for (const chapter of chapters) {
   const forms = new Set<string>();
-  const add = (s: string) => {
-    const norm = s.replace(/^-+|-+$/g, '').toLowerCase();
-    if (norm) forms.add(norm);
-  };
-  (l.concepts ?? []).forEach(add);
-  for (const ex of [...(l.practice ?? []), ...(l.apply ?? [])]) {
-    for (const p of ex.parts ?? []) add(p);
-    for (const c of ex.concepts ?? []) add(c);
+  for (const element of chapter.wordElements ?? []) {
+    const first = element.form.split('~')[0] ?? '';
+    const normalised = normalizeForm(first);
+    if (normalised) forms.add(normalised);
   }
-  lessonForms.set(l.id, forms);
+  chapterForms.set(chapter.chapter, forms);
+  const kps = new Set<string>();
+  for (const section of chapter.sections ?? []) for (const kp of section.knowledgePoints ?? []) kps.add(kp.id);
+  chapterKps.set(chapter.chapter, kps);
 }
 
-const taughtForms = new Set<string>();
-const practisedForms = new Set<string>();
-for (const l of lessons) {
-  for (const f of lessonForms.get(l.id) ?? []) {
-    taughtForms.add(f);
-    const practised = [...(l.practice ?? []), ...(l.apply ?? [])].some((ex) =>
-      [...(ex.parts ?? []), ...(ex.concepts ?? [])].some((p) => p.replace(/^-+|-+$/g, '').toLowerCase() === f),
-    );
-    if (practised) practisedForms.add(f);
+function elementChapters(raw: string): number[] {
+  return (raw.match(/\d+/g) ?? []).map(Number);
+}
+
+function elementOrigins(raw: string): Set<string> {
+  const origins = new Set<string>();
+  for (const token of raw.split(/[,/、 ]+/).filter(Boolean)) {
+    const normalised = normalizeOrigin(token);
+    if (normalised) origins.add(normalised);
+  }
+  return origins;
+}
+
+/** L3's definition of a real gloss. */
+const PLACEHOLDER = /(\?|TODO|FIXME|待补|占位|xxx|^unknown$|^$)/i;
+function glossOk(value: string | undefined): boolean {
+  return Boolean(value && value.trim() && !PLACEHOLDER.test(value.trim()));
+}
+
+function glossMatchesMorpheme(elementGloss: string, morpheme: Morpheme): boolean {
+  const variants = [
+    ...glossVariants(morpheme.glossEn),
+    ...glossVariants(morpheme.glossZh),
+    ...glossVariants(morpheme.senseKey),
+  ];
+  const wanted = (elementGloss ?? '').trim().toLowerCase();
+  if (!wanted) return false;
+  for (const variant of variants) {
+    if (!variant) continue;
+    if (wanted === variant) return true;
+    if (variant.length >= 3 && glossContains(wanted, variant)) return true;
+    if (wanted.length >= 3 && glossContains(variant, wanted)) return true;
+  }
+  return false;
+}
+
+// --------------------------------------------------------------- L2 lookup ---
+interface Link {
+  id?: string;
+  reason?: string;
+}
+
+/**
+ * Element → morpheme ID. Form and origin must both agree; when several records
+ * share both (a same-origin homograph), only an agreeing gloss may choose one.
+ * "Spelling matches" is never enough.
+ */
+function linkElement(element: Element): Link {
+  const origins = elementOrigins(element.source);
+  if (origins.size === 0) return { reason: `源头标注缺失或无法识别（"${element.source}"）` };
+
+  let candidates: string[] = [];
+  for (const form of element.forms) {
+    for (const id of identity.idsForForm(form)) {
+      const morpheme = identity.byId(id);
+      if (morpheme && origins.has(morpheme.origin)) candidates.push(id);
+    }
+  }
+  candidates = [...new Set(candidates)];
+  if (candidates.length === 0) return { reason: `词库中没有 form+origin 一致的记录（${element.forms.join('/')} · ${element.source}）` };
+  if (candidates.length === 1) return { id: candidates[0] };
+
+  const byGloss = candidates.filter((id) => {
+    const morpheme = identity.byId(id);
+    return Boolean(morpheme && glossMatchesMorpheme(element.gloss, morpheme));
+  });
+  if (byGloss.length === 1) return { id: byGloss[0] };
+  if (byGloss.length > 1) return { reason: `同形同源多条记录，释义仍无法区分（${byGloss.join(' / ')}）` };
+  return { reason: `同形同源多条记录且释义不匹配（${candidates.join(' / ')}）` };
+}
+
+// --------------------------------------------------------------- L4 / L6 -----
+const verifiedWordsByMorpheme = new Map<string, string[]>();
+for (const word of words) {
+  if (!word.verified) continue;
+  for (const id of word.partIds ?? []) {
+    if (!id) continue;
+    const list = verifiedWordsByMorpheme.get(id) ?? [];
+    list.push(word.w);
+    verifiedWordsByMorpheme.set(id, list);
   }
 }
 
-// ------------------------------------------------------------- elements -----
-const morphByForm = new Map<string, Morpheme>();
-for (const m of morphemes) {
-  morphByForm.set(m.form.toLowerCase(), m);
-  for (const a of m.allomorphs ?? []) morphByForm.set(a.toLowerCase(), m);
-}
-const wordSet = new Set(words.map((w) => w.w.toLowerCase()));
-
-function elementForms(raw: string): string[] {
-  return raw
-    .split('~')
-    .map((s) => s.replace(/\([^)]*\)/g, '').trim())
-    .filter(Boolean);
-}
-
-type ElementRow = {
+interface ElementRow {
+  id: string;
   element: string;
+  forms: string[];
   gloss: string;
   chapter: string;
   source: string;
-  forms: string[];
-  registered: boolean;
-  inKb: boolean;
-  taught: boolean;
-  practised: boolean;
-  verified: boolean;
-  examples: number;
-  examplesInKb: number;
-  family?: string;
-};
+  page?: number;
+  morphemeId?: string;
+  levels: Record<LevelId, boolean>;
+  gap: LevelId | 'done';
+  reason: string;
+  verifiedWords: string[];
+  teachingLessons: string[];
+  exerciseLessons: string[];
+}
 
-const elementRows: ElementRow[] = elements.map((e) => {
-  const forms = elementForms(e.element).map((f) => f.replace(/^-+|-+$/g, '').toLowerCase());
-  const morph = forms.map((f) => morphByForm.get(f)).find(Boolean);
-  const taught = forms.some((f) => taughtForms.has(f));
-  const practised = forms.some((f) => practisedForms.has(f));
-  const examples = morph?.examples ?? [];
+function teachingLessonsFor(morphemeId: string, element: Element): string[] {
+  const direct = lessonEvidence.filter(
+    (lesson) => lesson.concepts.has(morphemeId) || lesson.cardIds.has(morphemeId),
+  );
+  const taught = new Set(direct.map((lesson) => lesson.id));
+
+  // Knowledge-point route: the element's chapter has a kp that some lesson
+  // claims, and the chapter's own element list really contains this form.
+  for (const chapterNo of elementChapters(element.chapter)) {
+    const forms = chapterForms.get(chapterNo);
+    if (!forms || !element.forms.some((form) => forms.has(normalizeForm(form)))) continue;
+    for (const kp of chapterKps.get(chapterNo) ?? []) {
+      for (const lessonId of kpLessons.get(kp) ?? []) taught.add(lessonId);
+    }
+  }
+  return [...taught].sort();
+}
+
+const elementRows: ElementRow[] = elements.map((element) => {
+  const link = linkElement(element);
+  const morpheme = link.id ? identity.byId(link.id) : undefined;
+  const verifiedWords = link.id ? (verifiedWordsByMorpheme.get(link.id) ?? []).slice(0, 6) : [];
+  const teachingLessons = link.id ? teachingLessonsFor(link.id, element) : [];
+  const exerciseLessons = link.id
+    ? lessonEvidence.filter((lesson) => teachingLessons.includes(lesson.id) && lesson.exerciseIds.has(link.id as string)).map((lesson) => lesson.id)
+    : [];
+
+  const levels: Record<LevelId, boolean> = {
+    L1: Boolean(element.element),
+    L2: Boolean(link.id),
+    L3: Boolean(morpheme && glossOk(morpheme.glossZh) && glossOk(morpheme.glossEn)),
+    L4: verifiedWords.length >= 2,
+    L5: teachingLessons.length > 0,
+    L6: exerciseLessons.length > 0,
+    L7: Boolean(morpheme?.review?.by) || reviewedIds.has(morpheme?.id ?? ''),
+  };
+
+  const gap = LEVELS.find((level) => !levels[level]) ?? 'done';
+  const reasons: Record<LevelId, string> = {
+    L1: '教材清单里没有这一行',
+    L2: link.reason ?? '',
+    L3: morpheme ? '释义为空或含占位符' : '还没有词素记录',
+    L4: `verified 词条只有 ${verifiedWords.length} 个（需要 2 个）`,
+    L5: '没有任何课时讲到它',
+    L6: '讲到它的课时没有练习用到它',
+    L7: '没有语言学审校记录（reviews.json 抽样未覆盖到它）',
+  };
+
   return {
-    element: e.element,
-    gloss: e.gloss,
-    chapter: e.chapter,
-    source: e.source,
-    forms,
-    registered: Boolean(e.element),
-    inKb: Boolean(morph),
-    taught,
-    practised,
-    // "verified" = the element has a real dictionary gloss and at least one
-    // example word that also exists as a full entry. Anything weaker is not
-    // allowed to count as taught.
-    verified: Boolean(morph) && examples.length > 0 && examples.filter((w) => wordSet.has(w.toLowerCase())).length > 0,
-    examples: examples.length,
-    examplesInKb: examples.filter((w) => wordSet.has(w.toLowerCase())).length,
-    family: morph?.familyId,
+    id: element.id,
+    element: element.element,
+    forms: element.forms,
+    gloss: element.gloss,
+    chapter: element.chapter,
+    source: element.source,
+    page: element.page,
+    morphemeId: link.id,
+    levels,
+    gap,
+    reason: gap === 'done' ? '' : reasons[gap],
+    verifiedWords,
+    teachingLessons,
+    exerciseLessons,
   };
 });
 
 // ------------------------------------------------------------ knowledge -----
 type KpRow = { id: string; chapter: string; section: string; title: string; type: string; lessons: string[]; taught: boolean };
 const kpRows: KpRow[] = [];
-for (const c of chapters) {
-  for (const s of c.sections ?? []) {
-    for (const kp of s.knowledgePoints ?? []) {
-      // The lesson file itself is the primary evidence: a kp counts as taught
-      // only when a lesson explicitly lists it.
-      const fromLessons = lessons.filter((l) => (l.knowledgePoints ?? []).includes(kp.id)).map((l) => l.id);
-      const mapped = fromLessons.length ? fromLessons : (kpMap[kp.id]?.lessons ?? []);
+for (const chapter of chapters) {
+  for (const section of chapter.sections ?? []) {
+    for (const kp of section.knowledgePoints ?? []) {
+      const fromLessons = lessons.filter((lesson) => (lesson.knowledgePoints ?? []).includes(kp.id)).map((lesson) => lesson.id);
+      const mapped = fromLessons.length ? fromLessons : [...(kpLessons.get(kp.id) ?? [])].sort();
       kpRows.push({
         id: kp.id,
-        chapter: c.id,
-        section: s.title,
+        chapter: chapter.id,
+        section: section.title,
         title: kp.title,
         type: kp.type,
         lessons: mapped,
@@ -165,95 +393,128 @@ for (const c of chapters) {
 
 // --------------------------------------------------------------- summary ----
 const pct = (n: number, d: number) => (d === 0 ? '—' : `${Math.round((n / d) * 100)}%`);
-const count = (fn: (r: ElementRow) => boolean) => elementRows.filter(fn).length;
+const count = (level: LevelId) => elementRows.filter((row) => row.levels[level]).length;
+const stuckAt = new Map<LevelId | 'done', number>();
+for (const row of elementRows) stuckAt.set(row.gap, (stuckAt.get(row.gap) ?? 0) + 1);
+
+const levelSummary = LEVELS.map((level) => ({
+  level,
+  name: LEVEL_NAMES[level],
+  rule: LEVEL_RULES[level],
+  count: count(level),
+  total: elementRows.length,
+  pct: elementRows.length === 0 ? 0 : Math.round((count(level) / elementRows.length) * 100),
+  gaps: elementRows
+    .filter((row) => !row.levels[level])
+    .slice(0, 20)
+    .map((row) => ({ element: row.element, chapter: row.chapter, reason: row.levels[level] ? '' : row.reason || LEVEL_RULES[level] })),
+}));
 
 const summary = {
   generatedAt: new Date().toISOString(),
-  sources: sources.sources.map((s) => ({ id: s.id, title: s.title, status: s.status, role: s.role })),
-  knowledgeBase: { morphemes: morphemes.length, words: words.length, concepts: concepts.length, families: new Set(morphemes.map((m) => m.familyId).filter(Boolean)).size },
-  curriculum: { lessons: lessons.length, weeks: new Set(lessons.map((l) => l.week)).size },
+  identity: identity.stats(),
+  sources: sources.map((source) => ({ id: source.id, title: source.title, status: source.status, role: source.role })),
+  knowledgeBase: {
+    morphemes: morphemes.length,
+    words: words.length,
+    verifiedWords: words.filter((word) => word.verified).length,
+    concepts: concepts.length,
+    families: new Set(morphemes.map((morpheme) => morpheme.familyId).filter(Boolean)).size,
+  },
+  curriculum: { lessons: lessons.length, weeks: new Set(lessons.map((lesson) => lesson.week)).size },
+  levels: levelSummary,
   s1: {
     elements: elementRows.length,
-    inKb: count((r) => r.inKb),
-    taught: count((r) => r.taught),
-    practised: count((r) => r.practised),
-    verified: count((r) => r.verified),
-    examplesTotal: elementRows.reduce((a, r) => a + r.examples, 0),
-    examplesInKb: elementRows.reduce((a, r) => a + r.examplesInKb, 0),
     knowledgePoints: kpRows.length,
-    knowledgePointsTaught: kpRows.filter((k) => k.taught).length,
+    knowledgePointsTaught: kpRows.filter((row) => row.taught).length,
     chapters: chapters.length,
-    sections: chapters.reduce((a, c) => a + (c.sections?.length ?? 0), 0),
-    exerciseTypes: [...new Set(chapters.flatMap((c) => (c.exerciseTypes ?? []).map((e) => e.shape)))].length,
+    sections: chapters.reduce((total, chapter) => total + (chapter.sections?.length ?? 0), 0),
+    exerciseTypes: [...new Set(chapters.flatMap((chapter) => (chapter.exerciseTypes ?? []).map((type) => type.shape)))].length,
+    stuck: [...stuckAt.entries()].map(([level, n]) => ({ at: level, count: n })),
   },
   rows: elementRows,
   knowledge: kpRows,
 };
 
 if (process.argv.includes('--json')) {
-  writeFileSync(join(root, 'docs/coverage.json'), JSON.stringify(summary, null, 2) + '\n', 'utf-8');
+  writeFileSync(join(root, 'docs/coverage.json'), `${JSON.stringify(summary, null, 2)}\n`, 'utf-8');
   console.log(`docs/coverage.json written: ${elementRows.length} elements, ${kpRows.length} knowledge points`);
   process.exit(0);
 }
 
-const s1 = summary.s1;
-console.log(`texbook elements: ${s1.elements}`);
-console.log(`  in knowledge base: ${s1.inKb} (${pct(s1.inKb, s1.elements)})`);
-console.log(`  taught in a lesson: ${s1.taught} (${pct(s1.taught, s1.elements)})`);
-console.log(`  practised:          ${s1.practised} (${pct(s1.practised, s1.elements)})`);
-console.log(`  verified (gloss + example in word DB): ${s1.verified} (${pct(s1.verified, s1.elements)})`);
-console.log(`knowledge points: ${s1.knowledgePoints}, taught: ${s1.knowledgePointsTaught} (${pct(s1.knowledgePointsTaught, s1.knowledgePoints)})`);
-console.log(`example words referenced by elements: ${s1.examplesTotal}, present as entries: ${s1.examplesInKb} (${pct(s1.examplesInKb, s1.examplesTotal)})`);
-
-const missing = elementRows.filter((r) => !r.inKb).slice(0, 15);
-if (missing.length) console.log('missing from KB (first 15):', missing.map((m) => m.element).join(', '));
+console.log(`textbook elements: ${elementRows.length}`);
+for (const level of levelSummary) {
+  console.log(`  ${level.level} ${level.name}: ${level.count} (${pct(level.count, level.total)})  — ${level.rule}`);
+}
+const worst = [...levelSummary].sort((a, b) => a.pct - b.pct)[0];
+console.log(`biggest gap: ${worst.level} ${worst.name} at ${worst.pct}% (${worst.count}/${worst.total})`);
+const biggestStuck = [...stuckAt.entries()].filter(([level]) => level !== 'done').sort((a, b) => b[1] - a[1])[0];
+if (biggestStuck) console.log(`most elements stop after ${biggestStuck[0]}: ${biggestStuck[1]}`);
+console.log(`knowledge points: ${summary.s1.knowledgePoints}, taught: ${summary.s1.knowledgePointsTaught} (${pct(summary.s1.knowledgePointsTaught, summary.s1.knowledgePoints)})`);
 
 if (process.argv.includes('--write')) {
   const lines: string[] = [];
   lines.push('# 教材覆盖率审计（自动生成）', '');
   lines.push(`生成时间：${summary.generatedAt}`, '');
   lines.push('> 本文件由 `npx tsx scripts/coverage.ts --write` 生成，请勿手工编辑。');
-  lines.push('> 每次运行都从教材清单、词库与课程三处独立数据重新计算，不允许手工填数。', '');
-  lines.push('## 一、来源状态', '');
-  lines.push('| 编号 | 教材 | 版本 | 状态 | 角色 |', '| --- | --- | --- | --- | --- |');
-  for (const s of sources.sources) {
-    const status = s.status === 'full-text' ? '全文已解析' : '来源未获取';
-    lines.push(`| ${s.id} | ${s.title} | ${(s as { edition?: string }).edition ?? '—'} | ${status} | ${s.role ?? '—'} |`);
+  lines.push('> 数据来自教材清单、词库（含 `forms.json` 身份索引）、课程与审校记录四处独立来源。');
+  lines.push('> 判据见 `docs/DATA_IDENTITY.md` 第 5 节：L2 只认 `form + origin` 都一致的 ID，拼写相同不算。', '');
+
+  lines.push('## 一、七级覆盖', '');
+  lines.push('| 级别 | 判据 | 数量 | 占比 |');
+  lines.push('| --- | --- | --- | --- |');
+  for (const level of levelSummary) {
+    lines.push(`| ${level.level} ${level.name} | ${level.rule} | ${level.count} | ${pct(level.count, level.total)} |`);
   }
   lines.push('');
-  lines.push('## 二、词素覆盖（S1 主教材）', '');
-  lines.push('| 指标 | 数量 | 占比 |', '| --- | --- | --- |');
-  lines.push(`| 教材构词成分总数 | ${s1.elements} | 100% |`);
-  lines.push(`| 已进入词素库 | ${s1.inKb} | ${pct(s1.inKb, s1.elements)} |`);
-  lines.push(`| 已有课程讲解 | ${s1.taught} | ${pct(s1.taught, s1.elements)} |`);
-  lines.push(`| 已有对应练习 | ${s1.practised} | ${pct(s1.practised, s1.elements)} |`);
-  lines.push(`| 已核验（释义 + 例词均在库） | ${s1.verified} | ${pct(s1.verified, s1.elements)} |`);
+
+  lines.push('## 二、卡点分布（每个成分停在第一处未达标）', '');
+  lines.push('| 停在 | 数量 | 含义 |');
+  lines.push('| --- | --- | --- |');
+  for (const level of LEVELS) {
+    const n = stuckAt.get(level) ?? 0;
+    lines.push(`| ${level} ${LEVEL_NAMES[level]} 未过 | ${n} | ${LEVEL_RULES[level]} 尚未满足 |`);
+  }
+  lines.push(`| — 七级全过 | ${stuckAt.get('done') ?? 0} | 已登记、已关联、释义已核、例词充分、有讲解、有练习、已审校 |`);
   lines.push('');
-  lines.push('## 三、知识点覆盖', '');
-  lines.push(`- 已识别知识点：${s1.knowledgePoints}`);
-  lines.push(`- 已映射到课程：${s1.knowledgePointsTaught}（${pct(s1.knowledgePointsTaught, s1.knowledgePoints)}）`);
-  lines.push(`- 章节数：${s1.chapters}，小节数：${s1.sections}，题型种类：${s1.exerciseTypes}`);
-  lines.push('');
-  lines.push('## 四、例词覆盖', '');
-  lines.push(`- 词素库引用的例词：${s1.examplesTotal}`);
-  lines.push(`- 其中已建成完整词条：${s1.examplesInKb}（${pct(s1.examplesInKb, s1.examplesTotal)}）`);
-  lines.push('');
-  lines.push('## 五、词素明细（按章节）', '');
-  lines.push('| 成分 | 释义 | 章 | 语源 | 词素库 | 讲解 | 练习 | 已核验 | 例词入词库 |');
-  lines.push('| --- | --- | --- | --- | --- | --- | --- | --- | --- |');
-  for (const r of elementRows) {
+
+  lines.push('## 三、各级差异清单（前 20 条）', '');
+  for (const level of levelSummary) {
+    lines.push(`### ${level.level} ${level.name}（缺 ${level.total - level.count} 条）`, '');
+    if (level.gaps.length === 0) {
+      lines.push('- 无', '');
+      continue;
+    }
+    for (const gap of level.gaps) {
+      lines.push(`- \`${gap.element}\`（第 ${gap.chapter || '?'} 章）：${gap.reason}`);
+    }
+    lines.push('');
+  }
+
+  lines.push('## 四、词素明细', '');
+  lines.push('| 成分 | 释义 | 章 | 语源 | 词素 ID | L1 | L2 | L3 | L4 | L5 | L6 | L7 | 卡在 |');
+  lines.push('| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |');
+  for (const row of elementRows) {
     lines.push(
-      `| ${r.element} | ${r.gloss} | ${r.chapter} | ${r.source} | ${r.inKb ? '✓' : '—'} | ${r.taught ? '✓' : '—'} | ${r.practised ? '✓' : '—'} | ${r.verified ? '✓' : '—'} | ${r.examplesInKb}/${r.examples} |`,
+      `| ${row.element} | ${row.gloss} | ${row.chapter} | ${row.source} | ${row.morphemeId ?? '—'} | ${LEVELS.map((level) => (row.levels[level] ? '✓' : '—')).join(' | ')} | ${row.gap === 'done' ? '全过' : row.gap} |`,
     );
   }
   lines.push('');
+
+  lines.push('## 五、知识点覆盖', '');
+  lines.push(`- 已识别知识点：${summary.s1.knowledgePoints}`);
+  lines.push(`- 已映射到课程：${summary.s1.knowledgePointsTaught}（${pct(summary.s1.knowledgePointsTaught, summary.s1.knowledgePoints)}）`);
+  lines.push(`- 章节数：${summary.s1.chapters}，小节数：${summary.s1.sections}，题型种类：${summary.s1.exerciseTypes}`);
+  lines.push('');
+
   lines.push('## 六、知识点明细', '');
   lines.push('| 知识点 | 章 | 小节 | 类型 | 课程 |');
   lines.push('| --- | --- | --- | --- | --- |');
-  for (const k of kpRows) {
-    lines.push(`| ${k.title} | ${k.chapter} | ${k.section} | ${k.type} | ${k.lessons.join(', ') || '—'} |`);
+  for (const kp of kpRows) {
+    lines.push(`| ${kp.title} | ${kp.chapter} | ${kp.section} | ${kp.type} | ${kp.lessons.join(', ') || '—'} |`);
   }
   lines.push('');
+
   writeFileSync(join(root, 'docs/TEXTBOOK_COVERAGE.md'), lines.join('\n'), 'utf-8');
   console.log('docs/TEXTBOOK_COVERAGE.md written');
 }

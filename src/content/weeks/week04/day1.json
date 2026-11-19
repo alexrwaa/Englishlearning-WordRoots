@@ -48,6 +48,14 @@
         "ity",
         "ism",
         "ist"
+      ],
+      "morphemeIds": [
+        "sx-tion",
+        "sx-ment",
+        "sx-ness",
+        "sx-ity",
+        "sx-ism",
+        "sx-ist"
       ]
     },
     {
@@ -107,6 +115,11 @@
         "tion",
         "sion",
         "ation"
+      ],
+      "morphemeIds": [
+        "sx-tion",
+        "sx-sion",
+        "sx-ation"
       ]
     },
     {
@@ -152,6 +165,12 @@
         "ist",
         "er",
         "or"
+      ],
+      "morphemeIds": [
+        "sx-ism",
+        "sx-ist",
+        "sx-er",
+        "sx-or"
       ]
     }
   ],

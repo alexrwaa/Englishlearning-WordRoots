@@ -1,0 +1,322 @@
+{
+  "id": "w16d2",
+  "week": 16,
+  "day": 2,
+  "title": "词尾怎么变成英语的样子",
+  "tagline": "-abilis 变 -able、-osus 变 -ous、-fic 变 -fy：不是简化，是按法语的音系重塑",
+  "objectives": [
+    "能说明静音 e 在借词中的拼写功能，并区分需要 e 与不需要 e 的词干",
+    "能把四个拉丁后缀与其英语形式对应起来，并各举一个真实词",
+    "能用 nation 词族演示“词干＋派生后缀”的构词链"
+  ],
+  "prereqs": [
+    "w16d1",
+    "c-suffix"
+  ],
+  "concepts": [
+    "c-suffix",
+    "c-borrowing",
+    "c-spelling-rule",
+    "nation"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s5-4",
+    "kp-s1c11s5-5"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "静音 e 不是装饰，是接口",
+      "body": "借词多以**词干**形式落脚。词干如果以辅音结尾、看起来“不像一个英语词”，书写者就加一个不发音的 **e**，让它能像本族词一样使用：\n\n- **table**、**circle**、**procure**、**legislature**\n- **nation** 的 -ion 本身已是名词词尾，不需要再加 e\n- **contradict** 以 t 结尾，英语允许这样的动词，也不需要 e\n\n所以 e 的功能是拼写层的：它让词干获得一个合法的词尾形状，有时还顺带标示前面元音的长音。它不是语法标记，也不发音。教材特别提醒：legislature、contradict、nation 这些形状在拉丁里并不存在，它们是英语自己长出来的。",
+      "terms": [
+        {
+          "term": "silent e",
+          "zh": "静音 e",
+          "en": "silent e",
+          "note": "不发音、只承担拼写功能的词尾 e"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个后缀的法语化",
+      "body": "这些对应不是零散的例外，而是同一件事的四个样本：拉丁后缀经过法语时，词尾辅音与元音都被重塑，英语照法语形接收。记住拉丁原形，是为了在学术词里认出它们。",
+      "head": [
+        "拉丁",
+        "法语",
+        "英语",
+        "例词",
+        "说明"
+      ],
+      "rows": [
+        [
+          "-abilis",
+          "-able",
+          "-able",
+          "capable, acceptable",
+          "“能……的”，能产度极高"
+        ],
+        [
+          "-osus",
+          "-ous",
+          "-ous",
+          "famous, dangerous, nervous",
+          "“充满……的”"
+        ],
+        [
+          "-ficare / -fic-",
+          "-fier",
+          "-fy",
+          "clarify, simplify, specify",
+          "“使……化”，动词后缀"
+        ],
+        [
+          "-tas / -tat-",
+          "-té",
+          "-ty",
+          "nationality, possibility",
+          "抽象名词后缀"
+        ]
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "tabula：一条词根，两个英语出口",
+      "body": "拉丁 **tabula**“板、牌”有两个出口：\n\n- 经法语磨短，成为日常词 **table**（桌子、表格）。\n- 保留完整词干 **tabul-**，加学术后缀，成为 **tabular**（表格式的、板状的）。\n\n两个词今天分工清楚：table 是日常名词，tabular 是技术形容词。它们不是“一个正确一个错误”，而是两条借入路径各自的结果。同类还有 **circle / circular**、**nation / national**。\n\n这条规律很有用：看到一对“短词＋长词干”的同族词，先怀疑它们是双路径，而不是派生关系。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "tabula",
+          "note": "板、牌、书写板"
+        },
+        {
+          "period": "古法语",
+          "form": "table",
+          "note": "词尾弱化，-u- 脱落"
+        },
+        {
+          "period": "英语（日常）",
+          "form": "table",
+          "note": "桌子、表格"
+        },
+        {
+          "period": "英语（学术）",
+          "form": "tabular",
+          "note": "tabul- ＋ -ar，“表格式的”"
+        }
+      ]
+    },
+    {
+      "kind": "matrix",
+      "title": "以 nation 为词基的派生矩阵",
+      "body": "nation 是“词干＋后缀”最干净的样本：同一个词基，换后缀就换词性与语义，而词基拼写不变。注意 -al 是形容词化，-ity 再把形容词名词化，-ize 再动词化——派生是分层的，不是一次加完。",
+      "base": "nation",
+      "prefixes": [],
+      "suffixes": [
+        {
+          "text": "al",
+          "glossZh": "形容词后缀：……的"
+        },
+        {
+          "text": "ity",
+          "glossZh": "名词后缀：性质、状态"
+        },
+        {
+          "text": "ism",
+          "glossZh": "名词后缀：主义、体系"
+        },
+        {
+          "text": "ize",
+          "glossZh": "动词后缀：使……化"
+        },
+        {
+          "text": "ation",
+          "glossZh": "名词后缀：行为、过程"
+        }
+      ],
+      "words": [
+        {
+          "w": "national",
+          "parts": [
+            "nation",
+            "al"
+          ],
+          "glossZh": "国家的、民族的"
+        },
+        {
+          "w": "nationality",
+          "parts": [
+            "nation",
+            "al",
+            "ity"
+          ],
+          "glossZh": "国籍、民族"
+        },
+        {
+          "w": "nationalism",
+          "parts": [
+            "nation",
+            "al",
+            "ism"
+          ],
+          "glossZh": "民族主义"
+        },
+        {
+          "w": "nationalize",
+          "parts": [
+            "nation",
+            "al",
+            "ize"
+          ],
+          "glossZh": "国有化"
+        },
+        {
+          "w": "nationalization",
+          "parts": [
+            "nation",
+            "al",
+            "ize",
+            "ation"
+          ],
+          "glossZh": "国有化（过程）"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么英语接受这套词尾",
+      "body": "法语化的词尾能被英语接受，不是因为它们“更简单”，而是因为它们在英语里**能产**：-able、-ous、-fy、-ty 都能自由加在借词词干上，构成新词。一个后缀只要够能产，就会被母语者当成规则，而不是例外。\n\n反面例子也有：拉丁的 -tas 没有原样进来，但它的法语形 -té 变成了英语的 -ty，于是 nationality、possibility、responsibility 一整批词都按这条规则走。规则一旦形成，后来的新词也会跟着走——这就是为什么借词词尾最终会“英语化”，而不是永远停在拉丁形。",
+      "terms": [
+        {
+          "term": "productivity",
+          "zh": "能产性",
+          "en": "productivity",
+          "note": "一个词缀还能造出新词的能力"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w16d2-p1",
+      "kind": "mcq",
+      "prompt": "table 与 tabular 的关系是？",
+      "choices": [
+        "同一拉丁词根的两条借入路径：table 经法语磨短，tabular 取完整词干",
+        "tabular 是 table 加 -ar 的规则派生，词干不变",
+        "table 来自法语，tabular 来自希腊语",
+        "二者只是拼写相近，没有词源关系"
+      ],
+      "answer": 0,
+      "explain": "table 是经法语磨短的整词，tabular 直接取拉丁词干 tabul- 加 -ar。虽然今天看起来像派生关系，历史上是两条独立的借入路径，所以词干形状不同。",
+      "concepts": [
+        "c-borrowing",
+        "c-suffix"
+      ]
+    },
+    {
+      "id": "w16d2-p2",
+      "kind": "cloze",
+      "prompt": "填入形容词（英文）",
+      "sentence": "The results are presented in ___ form: rows for samples, columns for measurements, with no prose at all.",
+      "answer": "tabular",
+      "accept": [
+        "tabular"
+      ],
+      "explain": "tabular 是 tabul- ＋ -ar，指“表格式的”。它与 table 同源但取完整词干，正好说明“短词”与“长词干”两套形状并存。句中 rows/columns 是最直接的语义线索。",
+      "concepts": [
+        "c-suffix",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w16d2-p3",
+      "kind": "mcq",
+      "prompt": "下面哪个词的后缀直接对应拉丁 -osus？",
+      "choices": [
+        "dangerous",
+        "dangerously",
+        "endanger",
+        "danger"
+      ],
+      "answer": 0,
+      "explain": "dangerous 的 -ous 对应拉丁 -osus“充满……的”。-ly 是副词后缀，en- 是前缀，danger 是词基。同类还有 famous、nervous、vociferous，都是 -osus 经法语 -ous 进入英语。",
+      "concepts": [
+        "c-suffix",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w16d2-p4",
+      "kind": "matrix",
+      "prompt": "用词基 nation 加后缀，写出“国籍、民族”这个名词",
+      "base": "nation",
+      "suffix": "ality",
+      "answer": "nationality",
+      "explain": "nation ＋ -al（形容词）＋ -ity（名词）→ nationality。派生是分层的：先形容词化，再名词化，不能一步加 -ality 了事。同类还有 nationalize、nationalization。",
+      "concepts": [
+        "nation",
+        "c-suffix"
+      ]
+    },
+    {
+      "id": "w16d2-p5",
+      "kind": "mcq",
+      "prompt": "没学过的 vociferous（“喧闹的、大声疾呼的”）中 -ous 的来源与功能是？",
+      "choices": [
+        "拉丁 -osus“充满……的”，经法语 -ous 进入英语",
+        "英语本族后缀，表示“没有……的”",
+        "希腊 -os，表示“学科”",
+        "法语 -eux 的阴性形式"
+      ],
+      "answer": 0,
+      "explain": "vociferous＝voci（声音）＋ fer（带来）＋ -ous，字面“带来声音的”，即喧闹的。-ous 来自拉丁 -osus，经法语进入英语，是形容词化后缀中能产度最高的一类。",
+      "concepts": [
+        "c-suffix",
+        "c-etymology"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w16d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词的含义",
+      "passage": "The appendix is deliberately tabular: each row records one trial, each column one measurement, so that readers can compare conditions without reading the methods twice.",
+      "word": "tabular",
+      "choices": [
+        "表格式的、以表格呈现的",
+        "冗长难读的",
+        "附带说明的",
+        "可以复现的"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号解释：each row… each column… 直接说明“行列结构”；② 目的：so that readers can compare 说明表格便于比较；③ 构词：tabul-（板、表）＋ -ar；④ 排除：它不是“冗长”或“可复现”。",
+      "explain": "tabular 指以表格形式呈现的，来自拉丁 tabula“板、表”。它与 table 同源但保留了完整词干 tabul-，是学术形容词；table 则是经法语磨短的日常词。",
+      "concepts": [
+        "c-inference",
+        "c-suffix",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：静音 e、法语化的词尾调整"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "-abilis / -osus / -ficare / -tas 的英语对应，table 与 tabular 的词形史"
+    }
+  ]
+}

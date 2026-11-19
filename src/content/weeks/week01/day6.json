@@ -68,6 +68,9 @@
       "body": "nice 的词源链条很清楚：拉丁 nescius“无知的”（ne- 不 + scire 知道）→ 古法语 nice“愚蠢的、软弱的”→ 中古英语“羞怯的、挑剔的”→ 18 世纪以后“令人愉快的”。\n\n但今天没有人会把 nice 切成 ne + scius，也没有人能从“不 + 知道”推出“令人愉快”。**历史上有结构，不等于今天还有结构**。\n\n这正是词源故事的危险之处：它听起来很有说服力，却常常解释不了现代用法。词源可以用来理解语义演变（第 9、10 周会讲），但不能用来做今天的构词分析。",
       "morphemes": [
         "nice"
+      ],
+      "morphemeIds": [
+        "rx-nice"
       ]
     },
     {
@@ -88,6 +91,9 @@
       ],
       "morphemes": [
         "understand"
+      ],
+      "morphemeIds": [
+        "rx-understand"
       ]
     },
     {
@@ -97,7 +103,8 @@
       "morphemes": [
         "island",
         "hydrogen"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "compare",

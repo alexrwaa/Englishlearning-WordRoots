@@ -1,0 +1,295 @@
+{
+  "id": "w16d5",
+  "week": 16,
+  "day": 5,
+  "title": "音变三件套：删、前移、二合化",
+  "tagline": "table 少了两个音节，chief 的 c 变成了 ch，voyage 的 oi 是二合化的化石",
+  "objectives": [
+    "能分别举出删除、软腭前移、二合化各两个例子，并说明它们作用于哪个位置",
+    "能解释 schola → escole → school 中 prothetic e 的添加与脱落",
+    "能说明为什么不能从今天的英语读音反推拉丁原音"
+  ],
+  "prereqs": [
+    "w16d4",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-borrowing",
+    "c-spelling-rule",
+    "c-cognate"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s7-1",
+    "kp-s1c11s8-1",
+    "kp-s1c11s9-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三件事，各管一段",
+      "body": "拉丁到法语的变化很多，但影响英语借词词形的主要是三件，分工很清楚：\n\n1. **删除**（deletion）：非重读元音消失，词变短。管的是**音节数**。\n2. **软腭前移**（coronalization / palatalization）：k、g 在前元音或 a 前前移，变成 ch、j。管的是**辅音的音色**。\n3. **二合化**（diphthongization）：重读单元音变成双元音。管的是**元音的形状**。\n\n三件事可以同时发生在一个词上。以 **chief** 为例：caput 先经历辅音软化（c→ch），再经历词尾脱落（-ut 没了），最后拼写留下 ie。要解释一个词形，得先问“这是哪一件造成的”。",
+      "terms": [
+        {
+          "term": "coronalization",
+          "zh": "舌冠化 / 软腭前移",
+          "en": "coronalization",
+          "note": "软腭音前移为舌冠音，如 [k]→[tʃ]"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三类变化的对照表",
+      "body": "注意最右列：法语拼写往往保留了变化的痕迹，英语读音则又往前走了一步。所以“拼写像法语、读音像英语”是常态。更要紧的是顺序：删除先发生，软化与二合化再叠加，最后英语还会按自己的规则重读一遍。解释一个词形时，得先判断哪一步留下了它今天的特征。",
+      "head": [
+        "变化",
+        "拉丁",
+        "法语",
+        "英语",
+        "留下的痕迹"
+      ],
+      "rows": [
+        [
+          "删除",
+          "tabula",
+          "table",
+          "table",
+          "少了 -u- 与 -a"
+        ],
+        [
+          "删除",
+          "civitatem",
+          "cité",
+          "city",
+          "civ- 压成 c-，-itatem 全失"
+        ],
+        [
+          "软腭前移",
+          "cantare",
+          "chanter",
+          "chant（借词）",
+          "c→ch [tʃ]"
+        ],
+        [
+          "软腭前移",
+          "caput",
+          "chief",
+          "chief",
+          "c→ch，词尾脱落"
+        ],
+        [
+          "二合化",
+          "pedem",
+          "pied",
+          "—（英语取 pedal 等学术形）",
+          "e→ie"
+        ],
+        [
+          "二合化",
+          "novum",
+          "neuf",
+          "—（英语无直接后代）",
+          "o→eu"
+        ]
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "school：一个“多加出来的 e”",
+      "body": "拉丁 **schola** 进入高卢拉丁后，词首的 s＋辅音簇让本地人读不惯，于是在前面加了一个 **e**，变成 **escola / escole**。这是 **prothetic e**（词首增音），法语至今保留：**école**。\n\n英语借入时又把它去掉了，写成 **scole**，后来按拉丁、希腊词源把 **h** 补回，成了 **school**。所以今天的 school 有三个层次的痕迹：\n\n- 词首的 s＋ch 簇：拉丁 schola 的遗留。\n- 丢掉的 e：英语借入后的简化。\n- 补回的 h：文艺复兴的语源拼写。\n\n同样的故事还有 **stable**（拉丁 stabulum → 古法语 estable → 英语 stable）和 **spirit**（拉丁 spiritus → 古法语 espirit → 英语 spirit）。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "schola",
+          "note": "学校；借自希腊 skholē"
+        },
+        {
+          "period": "高卢拉丁 / 古法语",
+          "form": "escole",
+          "note": "s＋辅音前加 prothetic e"
+        },
+        {
+          "period": "中古英语",
+          "form": "scole",
+          "note": "借入后去掉词首 e"
+        },
+        {
+          "period": "15–16 世纪",
+          "form": "school",
+          "note": "按拉丁/希腊词源补回 h"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "拼写证据与读音结果，不是一回事",
+      "body": "法语的拼写记录了它自己的音变，英语的读音又记录了英语的音变。两层叠在一起，才出现今天这种“看得出、读不出”的局面。最右边一行尤其值得记住：拼写不是读音的记录，而是书写选择的结果。同一时代的不同抄写者，可能做出不同选择；后来被印刷固定下来的那一种，就成了“正确拼写”。",
+      "a": "法语拼写留下的证据",
+      "b": "英语读音的结果",
+      "rows": [
+        {
+          "label": "chief",
+          "a": "ch 表示 c 的软化，ie 表示元音变化",
+          "b": "[tʃiːf]，ie 只读 [iː]"
+        },
+        {
+          "label": "voyage",
+          "a": "oi 是古法语二合化的化石",
+          "b": "[ˈvɔɪɪdʒ]，oi 读 [ɔɪ]"
+        },
+        {
+          "label": "school",
+          "a": "ch 来自希腊/拉丁的 ch",
+          "b": "[skuːl]，ch 读 [k]"
+        },
+        {
+          "label": "结论",
+          "a": "拼写记录的是书写史",
+          "b": "读音记录的是口耳相传史"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么不能从今音反推拉丁音",
+      "body": "因为中间至少隔了三层，每一层都不是一一对应：\n\n1. **拉丁内部**就有时代与地域差异，古典音不等于通俗音。\n2. **法语**把重音、音节数、辅音音色都改了一遍，且各方言结果不同。\n3. **英语**又经历大元音推移，还按自己的拼读习惯重新分配音值。\n\n所以正确的说法是“这条链可以解释这个形状”，而不是“根据这条规则一定能算出这个读音”。音变规则是**解释工具**，不是**预测公式**。写论文时遇到不认识的词，查音标；做词源分析时，用规则说明“为什么会这样”。",
+      "terms": [
+        {
+          "term": "sound change",
+          "zh": "音变",
+          "en": "sound change",
+          "note": "语言在时间中发生的系统性语音变化，通常有条件、有方向"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w16d5-p1",
+      "kind": "mcq",
+      "prompt": "chief 中的 ch 来自哪一类变化？",
+      "choices": [
+        "软腭前移：拉丁 c 在法语中变成 [tʃ]",
+        "二合化：c 与 h 合并成双元音",
+        "删除：c 后面的元音消失，c 变成 ch",
+        "拼写插入：文艺复兴学者补上的 h"
+      ],
+      "answer": 0,
+      "explain": "chief 来自拉丁 caput，c 在法语中腭化为 [tʃ]，拼写作 ch。这不是拼写插入，也不是二合化；ch 是两个字母表示一个辅音。同类还有 cantare→chanter、caballus→cheval。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w16d5-p2",
+      "kind": "mcq",
+      "prompt": "voyage 中的 oi 最能说明什么？",
+      "choices": [
+        "古法语曾把单元音二合化，拼写留下了痕迹",
+        "英语的大元音推移把 o 变成 oi",
+        "这个词是从希腊语直接借来的",
+        "oi 是英语复数后缀的变体"
+      ],
+      "answer": 0,
+      "explain": "voyage 来自 viaticum，经古法语 veiage。oi 是古法语二合化的拼写痕迹，后来法语又单元音化，英语借入后按自己的读音读成 [ɔɪ]。拼写保留了中间阶段的证据。",
+      "concepts": [
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w16d5-p3",
+      "kind": "cloze",
+      "prompt": "填入正确的英语单词",
+      "sentence": "The village ___ was built in 1870 and still serves about forty children.",
+      "answer": "school",
+      "accept": [
+        "school"
+      ],
+      "explain": "school 来自拉丁 schola，经古法语 escole 进入中古英语 scole，后来按语源补回 h。词首的 s＋ch 簇是拉丁遗留，词首的 e 曾被法语加上、又被英语去掉。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w16d5-p4",
+      "kind": "mcq",
+      "prompt": "没学过的 chivalry 来自古法语 chevalerie，最终出自拉丁 caballus“马”。下面哪项解释最合理？",
+      "choices": [
+        "c 在法语中软化为 ch，b 在元音间变 v，英语保留了法语层的 ch-",
+        "英语把 caballus 的 c 直接读成 [tʃ]",
+        "chivalry 是从希腊语借来的",
+        "chivalry 的 ch 是文艺复兴插入的字母"
+      ],
+      "answer": 0,
+      "explain": "caballus→cheval→chevalerie→chivalry：c 在 a 前软化为 ch，b 在元音间变 v，词尾不断缩短。英语借的是法语形，所以看到 ch- 与 -v-，看不到拉丁的 c- 与 -b-。同族 cavalier 走另一条借入路线，保留了 c-。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w16d5-p5",
+      "kind": "mcq",
+      "prompt": "city 来自拉丁 civitatem，经古法语 cité。它的词形变化主要属于哪一类？",
+      "choices": [
+        "删除：非重读音节大量脱落，civ- 压成 c-",
+        "二合化：i 变成双元音",
+        "软腭前移：c 变成 ch",
+        "拼写插入：补回了 t"
+      ],
+      "answer": 0,
+      "explain": "civitatem → cité → city 的关键是非重读音节的连续脱落：-itatem 整段消失，civ- 也压缩成 c-。这是法语的删除机制，不是二合化或软化。city 与 civilization 同源，但一个被磨短、一个保留了词干。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w16d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词的含义",
+      "passage": "The code of chivalry did not require a knight to be gentle in battle; it required him to keep his word to enemies as well as to friends, and to protect those who could not defend themselves.",
+      "word": "chivalry",
+      "choices": [
+        "骑士精神、骑士行为准则",
+        "骑兵战术",
+        "封建土地制度",
+        "宫廷礼仪"
+      ],
+      "answer": 0,
+      "strategy": "① 定义结构：did not require… it required… 直接给出准则内容；② 主体：a knight 说明是骑士阶层；③ 内容：keep his word、protect those who cannot defend themselves 是荣誉与保护义务；④ 排除：它不是战术、土地制度或单纯礼仪。",
+      "explain": "chivalry 指骑士精神与行为准则，来自古法语 chevalerie“骑术、骑士身份”，最终出自拉丁 caballus“马”。词形上能看到 c→ch、b→v 两条法语变化，意义上则从“骑马作战的阶层”转为“该阶层的荣誉规范”。",
+      "concepts": [
+        "c-inference",
+        "c-etymology",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：删除、舌冠化、二合化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "schola / caballus / civitatem / pedem / novum 的法语与英语词形史"
+    }
+  ]
+}

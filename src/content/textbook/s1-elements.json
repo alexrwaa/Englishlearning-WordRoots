@@ -1,10 +1,153 @@
 {
  "sourceId": "S1",
- "generatedAt": "2026-11-18T15:29:39.885Z",
- "count": 550,
+ "generatedAt": "2026-11-19T04:48:39.668Z",
+ "count": 559,
  "elements": [
   {
-   "id": "el-a-an",
+   "id": "el-crypt-g-9",
+   "element": "crypt",
+   "forms": [
+    "crypt"
+   ],
+   "type": "root",
+   "gloss": "secret, hidden",
+   "chapter": "9",
+   "source": "G",
+   "page": 296,
+   "recoveredFrom": "appendix 2, p.296"
+  },
+  {
+   "id": "el-du-l-6",
+   "element": "du",
+   "forms": [
+    "du"
+   ],
+   "type": "root",
+   "gloss": "two",
+   "chapter": "6",
+   "source": "L",
+   "page": 299,
+   "recoveredFrom": "appendix 2, p.299"
+  },
+  {
+   "id": "el-ise-g-3",
+   "element": "-ise",
+   "forms": [
+    "ise"
+   ],
+   "type": "suffix",
+   "gloss": "V",
+   "chapter": "3",
+   "source": "G",
+   "page": 299,
+   "recoveredFrom": "appendix 2, p.299"
+  },
+  {
+   "id": "el-mono-g-6",
+   "element": "mono",
+   "forms": [
+    "mono"
+   ],
+   "type": "root",
+   "gloss": "one",
+   "chapter": "6",
+   "source": "G",
+   "page": 294,
+   "recoveredFrom": "appendix 2, p.294"
+  },
+  {
+   "id": "el-nat-l-2",
+   "element": "nat",
+   "forms": [
+    "nat"
+   ],
+   "type": "root",
+   "gloss": "source, birth, tribe",
+   "chapter": "2",
+   "source": "L",
+   "page": 296,
+   "recoveredFrom": "appendix 2, p.296"
+  },
+  {
+   "id": "el-oid-g-3",
+   "element": "-oid",
+   "forms": [
+    "oid"
+   ],
+   "type": "suffix",
+   "gloss": "resembling",
+   "chapter": "3",
+   "source": "G",
+   "page": 295,
+   "recoveredFrom": "appendix 2, p.295"
+  },
+  {
+   "id": "el-onomat-g-10",
+   "element": "onomat",
+   "forms": [
+    "onomat"
+   ],
+   "type": "root",
+   "gloss": "name",
+   "chapter": "10",
+   "source": "G",
+   "page": 293,
+   "recoveredFrom": "appendix 2, p.293"
+  },
+  {
+   "id": "el-pug-l-9",
+   "element": "pug",
+   "forms": [
+    "pug"
+   ],
+   "type": "root",
+   "gloss": "fight",
+   "chapter": "9",
+   "source": "L",
+   "page": 288,
+   "recoveredFrom": "appendix 2, p.288"
+  },
+  {
+   "id": "el-pung-l-9",
+   "element": "pung",
+   "forms": [
+    "pung"
+   ],
+   "type": "root",
+   "gloss": "fight",
+   "chapter": "9",
+   "source": "L",
+   "page": 288,
+   "recoveredFrom": "appendix 2, p.288"
+  },
+  {
+   "id": "el-sist-l-4",
+   "element": "sist",
+   "forms": [
+    "sist"
+   ],
+   "type": "root",
+   "gloss": "stand, state",
+   "chapter": "4",
+   "source": "L",
+   "page": 297,
+   "recoveredFrom": "appendix 2, p.297"
+  },
+  {
+   "id": "el-tetra-g-6",
+   "element": "tetra",
+   "forms": [
+    "tetra"
+   ],
+   "type": "root",
+   "gloss": "four",
+   "chapter": "6",
+   "source": "G",
+   "page": 289,
+   "recoveredFrom": "appendix 2, p.289"
+  },
+  {
+   "id": "el-a-g-3-4",
    "element": "a-~an-",
    "forms": [
     "a",
@@ -17,7 +160,7 @@
    "page": 266
   },
   {
-   "id": "el-a",
+   "id": "el-a-l-g-9",
    "element": "-a",
    "forms": [
     "a"
@@ -29,7 +172,7 @@
    "page": 266
   },
   {
-   "id": "el-ab-abs",
+   "id": "el-ab-l-3-6",
    "element": "ab-~abs-",
    "forms": [
     "ab",
@@ -42,7 +185,7 @@
    "page": 266
   },
   {
-   "id": "el-able-ible-ble",
+   "id": "el-able-l-3-11",
    "element": "-able~-ible~-ble",
    "forms": [
     "able",
@@ -56,7 +199,7 @@
    "page": 266
   },
   {
-   "id": "el-abs-ab",
+   "id": "el-abs-l-3-6",
    "element": "abs-~ab-",
    "forms": [
     "abs",
@@ -69,7 +212,7 @@
    "page": 266
   },
   {
-   "id": "el-ac",
+   "id": "el-ac-l-9",
    "element": "ac",
    "forms": [
     "ac"
@@ -81,7 +224,7 @@
    "page": 266
   },
   {
-   "id": "el-ac",
+   "id": "el-ac-g-9",
    "element": "-ac",
    "forms": [
     "ac"
@@ -93,7 +236,7 @@
    "page": 266
   },
   {
-   "id": "el-acl-acul",
+   "id": "el-acl-l-9",
    "element": "-acl~-acul (< -l diminutive)",
    "forms": [
     "acl",
@@ -106,7 +249,7 @@
    "page": 266
   },
   {
-   "id": "el-acle-acule",
+   "id": "el-acle-l-9",
    "element": "-acle~-acule (< -l diminutive)",
    "forms": [
     "acle",
@@ -119,7 +262,7 @@
    "page": 266
   },
   {
-   "id": "el-acr",
+   "id": "el-acr-g-9",
    "element": "acr",
    "forms": [
     "acr"
@@ -131,7 +274,7 @@
    "page": 266
   },
   {
-   "id": "el-ad",
+   "id": "el-ad-l-3-6",
    "element": "ad-",
    "forms": [
     "ad"
@@ -143,7 +286,7 @@
    "page": 266
   },
   {
-   "id": "el-aden",
+   "id": "el-aden-g-8",
    "element": "-aden",
    "forms": [
     "aden"
@@ -155,7 +298,7 @@
    "page": 266
   },
   {
-   "id": "el-ae",
+   "id": "el-ae-l-9",
    "element": "-ae",
    "forms": [
     "ae"
@@ -167,7 +310,7 @@
    "page": 266
   },
   {
-   "id": "el-aesth-esth",
+   "id": "el-aesth-g-5",
    "element": "aesth~esth",
    "forms": [
     "aesth",
@@ -180,7 +323,7 @@
    "page": 266
   },
   {
-   "id": "el-ag-ig",
+   "id": "el-ag-l-5",
    "element": "ag~ig",
    "forms": [
     "ag",
@@ -193,7 +336,7 @@
    "page": 266
   },
   {
-   "id": "el-agr",
+   "id": "el-agr-l-9",
    "element": "agr",
    "forms": [
     "agr"
@@ -205,7 +348,7 @@
    "page": 266
   },
   {
-   "id": "el-al-ial",
+   "id": "el-al-l-9",
    "element": "-al~-ial",
    "forms": [
     "al",
@@ -218,7 +361,7 @@
    "page": 266
   },
   {
-   "id": "el-al",
+   "id": "el-al-l-10",
    "element": "al",
    "forms": [
     "al"
@@ -230,7 +373,7 @@
    "page": 266
   },
   {
-   "id": "el-al",
+   "id": "el-al-l-11",
    "element": "al",
    "forms": [
     "al"
@@ -242,7 +385,7 @@
    "page": 266
   },
   {
-   "id": "el-al-ol-ul",
+   "id": "el-al-l-4",
    "element": "al~ol~ul",
    "forms": [
     "al",
@@ -256,7 +399,7 @@
    "page": 266
   },
   {
-   "id": "el-alb",
+   "id": "el-alb-l-9",
    "element": "alb",
    "forms": [
     "alb"
@@ -268,7 +411,7 @@
    "page": 266
   },
   {
-   "id": "el-alg",
+   "id": "el-alg-g-8",
    "element": "alg",
    "forms": [
     "alg"
@@ -280,7 +423,7 @@
    "page": 266
   },
   {
-   "id": "el-all-allel",
+   "id": "el-all-g-10",
    "element": "all~allel",
    "forms": [
     "all",
@@ -293,7 +436,7 @@
    "page": 267
   },
   {
-   "id": "el-alt",
+   "id": "el-alt-l-5",
    "element": "alt (< al 'grow')",
    "forms": [
     "alt"
@@ -305,7 +448,7 @@
    "page": 267
   },
   {
-   "id": "el-am-im",
+   "id": "el-am-l-4",
    "element": "am~im",
    "forms": [
     "am",
@@ -318,7 +461,7 @@
    "page": 267
   },
   {
-   "id": "el-ambul",
+   "id": "el-ambul-l-5",
    "element": "ambul",
    "forms": [
     "ambul"
@@ -330,7 +473,7 @@
    "page": 267
   },
   {
-   "id": "el-an-a",
+   "id": "el-an-g-3-4",
    "element": "an-~a-",
    "forms": [
     "an",
@@ -343,7 +486,7 @@
    "page": 267
   },
   {
-   "id": "el-ana",
+   "id": "el-ana-g-3-6",
    "element": "ana-",
    "forms": [
     "ana"
@@ -355,7 +498,7 @@
    "page": 267
   },
   {
-   "id": "el-ance",
+   "id": "el-ance-l-3-4",
    "element": "-ance",
    "forms": [
     "ance"
@@ -367,7 +510,7 @@
    "page": 267
   },
   {
-   "id": "el-and-end",
+   "id": "el-and-l-9",
    "element": "-and~-end",
    "forms": [
     "and",
@@ -380,7 +523,7 @@
    "page": 267
   },
   {
-   "id": "el-andr",
+   "id": "el-andr-g-5",
    "element": "andr",
    "forms": [
     "andr"
@@ -392,7 +535,7 @@
    "page": 267
   },
   {
-   "id": "el-anim",
+   "id": "el-anim-l-2",
    "element": "anim",
    "forms": [
     "anim"
@@ -404,7 +547,7 @@
    "page": 267
   },
   {
-   "id": "el-ann-enn",
+   "id": "el-ann-l-4",
    "element": "ann~enn",
    "forms": [
     "ann",
@@ -417,7 +560,7 @@
    "page": 267
   },
   {
-   "id": "el-ant",
+   "id": "el-ant-l-3-9",
    "element": "-ant",
    "forms": [
     "ant"
@@ -429,7 +572,7 @@
    "page": 267
   },
   {
-   "id": "el-ante-anti",
+   "id": "el-ante-l-3",
    "element": "ante-~anti-",
    "forms": [
     "ante",
@@ -442,7 +585,7 @@
    "page": 267
   },
   {
-   "id": "el-anthrop",
+   "id": "el-anthrop-g-1",
    "element": "anthrop",
    "forms": [
     "anthrop"
@@ -454,7 +597,7 @@
    "page": 267
   },
   {
-   "id": "el-anti-ante",
+   "id": "el-anti-l-3",
    "element": "anti-~ante-",
    "forms": [
     "anti",
@@ -467,7 +610,7 @@
    "page": 267
   },
   {
-   "id": "el-api",
+   "id": "el-api-l-11",
    "element": "api",
    "forms": [
     "api"
@@ -479,7 +622,7 @@
    "page": 267
   },
   {
-   "id": "el-apo",
+   "id": "el-apo-g-3",
    "element": "apo-",
    "forms": [
     "apo"
@@ -491,7 +634,7 @@
    "page": 267
   },
   {
-   "id": "el-apt-ept",
+   "id": "el-apt-l-4",
    "element": "-apt~-ept",
    "forms": [
     "apt",
@@ -504,7 +647,7 @@
    "page": 267
   },
   {
-   "id": "el-arachn",
+   "id": "el-arachn-g-11",
    "element": "arachn",
    "forms": [
     "arachn"
@@ -516,7 +659,7 @@
    "page": 267
   },
   {
-   "id": "el-arch",
+   "id": "el-arch-g-5",
    "element": "arch",
    "forms": [
     "arch"
@@ -528,7 +671,7 @@
    "page": 267
   },
   {
-   "id": "el-arium",
+   "id": "el-arium-l-9",
    "element": "-arium",
    "forms": [
     "arium"
@@ -540,7 +683,7 @@
    "page": 267
   },
   {
-   "id": "el-ary",
+   "id": "el-ary-l-3",
    "element": "-ary",
    "forms": [
     "ary"
@@ -552,7 +695,7 @@
    "page": 267
   },
   {
-   "id": "el-aster-astr",
+   "id": "el-aster-g-9",
    "element": "aster~astr",
    "forms": [
     "aster",
@@ -565,7 +708,7 @@
    "page": 267
   },
   {
-   "id": "el-ate",
+   "id": "el-ate-l-3-7",
    "element": "-ate",
    "forms": [
     "ate"
@@ -577,7 +720,7 @@
    "page": 267
   },
   {
-   "id": "el-aud",
+   "id": "el-aud-l-9",
    "element": "aud",
    "forms": [
     "aud"
@@ -589,7 +732,7 @@
    "page": 267
   },
   {
-   "id": "el-aur",
+   "id": "el-aur-l-8",
    "element": "aur",
    "forms": [
     "aur"
@@ -601,7 +744,7 @@
    "page": 267
   },
   {
-   "id": "el-auto-tauto",
+   "id": "el-auto-g-9",
    "element": "auto~tauto",
    "forms": [
     "auto",
@@ -614,7 +757,7 @@
    "page": 267
   },
   {
-   "id": "el-av",
+   "id": "el-av-l-5",
    "element": "av",
    "forms": [
     "av"
@@ -626,7 +769,7 @@
    "page": 267
   },
   {
-   "id": "el-axill",
+   "id": "el-axill-l-8",
    "element": "axill",
    "forms": [
     "axill"
@@ -638,7 +781,7 @@
    "page": 267
   },
   {
-   "id": "el-bath-bathy",
+   "id": "el-bath-g-9",
    "element": "bath~bathy",
    "forms": [
     "bath",
@@ -651,7 +794,7 @@
    "page": 267
   },
   {
-   "id": "el-bell",
+   "id": "el-bell-l-6",
    "element": "bell",
    "forms": [
     "bell"
@@ -663,7 +806,7 @@
    "page": 267
   },
   {
-   "id": "el-bene-bon",
+   "id": "el-bene-l-9",
    "element": "bene~bon",
    "forms": [
     "bene",
@@ -676,7 +819,7 @@
    "page": 267
   },
   {
-   "id": "el-bi",
+   "id": "el-bi-l-6",
    "element": "bi",
    "forms": [
     "bi"
@@ -688,7 +831,7 @@
    "page": 267
   },
   {
-   "id": "el-bi",
+   "id": "el-bi-g-1",
    "element": "bi",
    "forms": [
     "bi"
@@ -700,7 +843,7 @@
    "page": 268
   },
   {
-   "id": "el-bin",
+   "id": "el-bin-l-6",
    "element": "bin",
    "forms": [
     "bin"
@@ -712,7 +855,7 @@
    "page": 268
   },
   {
-   "id": "el-bl-bol",
+   "id": "el-bl-g-4",
    "element": "bl~bol",
    "forms": [
     "bl",
@@ -725,7 +868,7 @@
    "page": 268
   },
   {
-   "id": "el-ble-able-ible",
+   "id": "el-ble-l-3-11",
    "element": "-ble~-able~-ible",
    "forms": [
     "ble",
@@ -739,7 +882,7 @@
    "page": 268
   },
   {
-   "id": "el-bol-bl",
+   "id": "el-bol-g-4",
    "element": "bol~bl",
    "forms": [
     "bol",
@@ -752,7 +895,7 @@
    "page": 268
   },
   {
-   "id": "el-bon-bene",
+   "id": "el-bon-l-9",
    "element": "bon~bene",
    "forms": [
     "bon",
@@ -765,7 +908,7 @@
    "page": 268
   },
   {
-   "id": "el-bou-bu",
+   "id": "el-bou-g-11",
    "element": "bou~bu",
    "forms": [
     "bou",
@@ -778,7 +921,7 @@
    "page": 268
   },
   {
-   "id": "el-bov",
+   "id": "el-bov-l-11",
    "element": "bov",
    "forms": [
     "bov"
@@ -790,7 +933,7 @@
    "page": 268
   },
   {
-   "id": "el-brach-brachy",
+   "id": "el-brach-g-9",
    "element": "brach~brachy",
    "forms": [
     "brach",
@@ -803,7 +946,7 @@
    "page": 268
   },
   {
-   "id": "el-bu-bou",
+   "id": "el-bu-g-11",
    "element": "bu~bou",
    "forms": [
     "bu",
@@ -816,7 +959,7 @@
    "page": 268
   },
   {
-   "id": "el-cac",
+   "id": "el-cac-g-1",
    "element": "cac",
    "forms": [
     "cac"
@@ -828,7 +971,7 @@
    "page": 268
   },
   {
-   "id": "el-cad-cas-cid",
+   "id": "el-cad-l-5",
    "element": "cad~cas~cid",
    "forms": [
     "cad",
@@ -842,7 +985,7 @@
    "page": 268
   },
   {
-   "id": "el-cap-cep-cip-cup",
+   "id": "el-cap-l-4",
    "element": "cap~cep~cip~cup",
    "forms": [
     "cap",
@@ -857,7 +1000,7 @@
    "page": 268
   },
   {
-   "id": "el-car-carn",
+   "id": "el-car-l-9",
    "element": "car~carn",
    "forms": [
     "car",
@@ -870,7 +1013,7 @@
    "page": 268
   },
   {
-   "id": "el-card",
+   "id": "el-card-g-10",
    "element": "card",
    "forms": [
     "card"
@@ -882,7 +1025,7 @@
    "page": 268
   },
   {
-   "id": "el-carn-car",
+   "id": "el-carn-l-9",
    "element": "carn~car",
    "forms": [
     "carn",
@@ -895,7 +1038,7 @@
    "page": 268
   },
   {
-   "id": "el-cas-cad-cid",
+   "id": "el-cas-l-5",
    "element": "cas~cad~cid",
    "forms": [
     "cas",
@@ -909,7 +1052,7 @@
    "page": 268
   },
   {
-   "id": "el-cata",
+   "id": "el-cata-g-3",
    "element": "cata-",
    "forms": [
     "cata"
@@ -921,7 +1064,7 @@
    "page": 268
   },
   {
-   "id": "el-caud-cod",
+   "id": "el-caud-l-8",
    "element": "caud~cod",
    "forms": [
     "caud",
@@ -934,7 +1077,7 @@
    "page": 268
   },
   {
-   "id": "el-ced-cess",
+   "id": "el-ced-l-5",
    "element": "ced~cess",
    "forms": [
     "ced",
@@ -947,7 +1090,7 @@
    "page": 268
   },
   {
-   "id": "el-cens",
+   "id": "el-cens-l-6",
    "element": "cens",
    "forms": [
     "cens"
@@ -959,7 +1102,7 @@
    "page": 268
   },
   {
-   "id": "el-cent",
+   "id": "el-cent-l-6",
    "element": "cent",
    "forms": [
     "cent"
@@ -971,7 +1114,7 @@
    "page": 268
   },
   {
-   "id": "el-cep-cap-cip-cup",
+   "id": "el-cep-l-4",
    "element": "cep~cap~cip~cup",
    "forms": [
     "cep",
@@ -986,7 +1129,7 @@
    "page": 268
   },
   {
-   "id": "el-cephal",
+   "id": "el-cephal-g-6",
    "element": "cephal",
    "forms": [
     "cephal"
@@ -998,7 +1141,7 @@
    "page": 268
   },
   {
-   "id": "el-cer-cri-cre",
+   "id": "el-cer-l-4",
    "element": "cer~cri~cre",
    "forms": [
     "cer",
@@ -1012,7 +1155,7 @@
    "page": 268
   },
   {
-   "id": "el-cervic",
+   "id": "el-cervic-l-8",
    "element": "cervic",
    "forms": [
     "cervic"
@@ -1024,7 +1167,7 @@
    "page": 268
   },
   {
-   "id": "el-chili",
+   "id": "el-chili-g-6",
    "element": "chili",
    "forms": [
     "chili"
@@ -1036,7 +1179,7 @@
    "page": 268
   },
   {
-   "id": "el-chir",
+   "id": "el-chir-g-11",
    "element": "chir",
    "forms": [
     "chir"
@@ -1048,7 +1191,7 @@
    "page": 268
   },
   {
-   "id": "el-chrom",
+   "id": "el-chrom-g-1",
    "element": "chrom",
    "forms": [
     "chrom"
@@ -1060,7 +1203,7 @@
    "page": 268
   },
   {
-   "id": "el-chron",
+   "id": "el-chron-g-1",
    "element": "chron",
    "forms": [
     "chron"
@@ -1072,7 +1215,7 @@
    "page": 268
   },
   {
-   "id": "el-cid-cad-cas",
+   "id": "el-cid-l-5",
    "element": "cid~cad~cas",
    "forms": [
     "cid",
@@ -1086,7 +1229,7 @@
    "page": 268
   },
   {
-   "id": "el-cid-cis",
+   "id": "el-cid-l-4",
    "element": "cid~cis",
    "forms": [
     "cid",
@@ -1099,7 +1242,7 @@
    "page": 268
   },
   {
-   "id": "el-cip-cap-cep-cup",
+   "id": "el-cip-l-4",
    "element": "cip~cap~cep~cup",
    "forms": [
     "cip",
@@ -1114,7 +1257,7 @@
    "page": 268
   },
   {
-   "id": "el-cis-cid",
+   "id": "el-cis-l-4",
    "element": "cis~cid",
    "forms": [
     "cis",
@@ -1127,7 +1270,7 @@
    "page": 269
   },
   {
-   "id": "el-clam",
+   "id": "el-clam-l-11",
    "element": "clam",
    "forms": [
     "clam"
@@ -1139,7 +1282,7 @@
    "page": 269
   },
   {
-   "id": "el-clav",
+   "id": "el-clav-l-11",
    "element": "clav",
    "forms": [
     "clav"
@@ -1151,7 +1294,7 @@
    "page": 269
   },
   {
-   "id": "el-cl-cul",
+   "id": "el-cl-l-9",
    "element": "-cl~-cul (< -l diminutive)",
    "forms": [
     "cl",
@@ -1164,7 +1307,7 @@
    "page": 269
   },
   {
-   "id": "el-cli",
+   "id": "el-cli-l-g-9",
    "element": "cli",
    "forms": [
     "cli"
@@ -1176,7 +1319,7 @@
    "page": 269
   },
   {
-   "id": "el-clud-clus",
+   "id": "el-clud-l-5",
    "element": "clud~clus",
    "forms": [
     "clud",
@@ -1189,7 +1332,7 @@
    "page": 269
   },
   {
-   "id": "el-co-con-com",
+   "id": "el-co-l-3",
    "element": "co-~con-~com-",
    "forms": [
     "co",
@@ -1203,7 +1346,7 @@
    "page": 269
   },
   {
-   "id": "el-col",
+   "id": "el-col-l-11",
    "element": "col",
    "forms": [
     "col"
@@ -1215,7 +1358,7 @@
    "page": 269
   },
   {
-   "id": "el-con-com-co",
+   "id": "el-con-l-3",
    "element": "con-~com-~co-",
    "forms": [
     "con",
@@ -1229,7 +1372,7 @@
    "page": 269
   },
   {
-   "id": "el-contra-counter",
+   "id": "el-contra-l-3",
    "element": "contra~counter-",
    "forms": [
     "contra",
@@ -1242,7 +1385,7 @@
    "page": 269
   },
   {
-   "id": "el-cord",
+   "id": "el-cord-l-10",
    "element": "cord",
    "forms": [
     "cord"
@@ -1254,7 +1397,7 @@
    "page": 269
   },
   {
-   "id": "el-corp-corpor",
+   "id": "el-corp-l-2-3",
    "element": "corp~corpor",
    "forms": [
     "corp",
@@ -1267,7 +1410,7 @@
    "page": 269
   },
   {
-   "id": "el-cosm",
+   "id": "el-cosm-g-1",
    "element": "cosm",
    "forms": [
     "cosm"
@@ -1279,7 +1422,7 @@
    "page": 269
   },
   {
-   "id": "el-counter-contra",
+   "id": "el-counter-l-3",
    "element": "counter~contra-",
    "forms": [
     "counter",
@@ -1292,7 +1435,7 @@
    "page": 269
   },
   {
-   "id": "el-crac-crat",
+   "id": "el-crac-g-6",
    "element": "crac~crat",
    "forms": [
     "crac",
@@ -1305,7 +1448,7 @@
    "page": 269
   },
   {
-   "id": "el-crat-crac",
+   "id": "el-crat-g-6",
    "element": "crat~crac",
    "forms": [
     "crat",
@@ -1318,7 +1461,7 @@
    "page": 269
   },
   {
-   "id": "el-cre-cri-cer",
+   "id": "el-cre-l-4",
    "element": "cre~cri~cer",
    "forms": [
     "cre",
@@ -1332,7 +1475,7 @@
    "page": 269
   },
   {
-   "id": "el-cred",
+   "id": "el-cred-l-9",
    "element": "cred",
    "forms": [
     "cred"
@@ -1344,7 +1487,7 @@
    "page": 269
   },
   {
-   "id": "el-cri",
+   "id": "el-cri-g-4",
    "element": "cri",
    "forms": [
     "cri"
@@ -1356,7 +1499,7 @@
    "page": 269
   },
   {
-   "id": "el-cri-cre-cer",
+   "id": "el-cri-l-4",
    "element": "cri~cre~cer",
    "forms": [
     "cri",
@@ -1370,7 +1513,7 @@
    "page": 269
   },
   {
-   "id": "el-cruc",
+   "id": "el-cruc-l-10",
    "element": "cruc",
    "forms": [
     "cruc"
@@ -1382,7 +1525,7 @@
    "page": 269
   },
   {
-   "id": "el-cryph-cryp",
+   "id": "el-cryph-g-9",
    "element": "cryph~cryp",
    "forms": [
     "cryph",
@@ -1395,7 +1538,7 @@
    "page": 269
   },
   {
-   "id": "el-cub-cumb",
+   "id": "el-cub-l-4",
    "element": "cub~cumb",
    "forms": [
     "cub",
@@ -1408,7 +1551,7 @@
    "page": 269
   },
   {
-   "id": "el-cule-cle",
+   "id": "el-cule-l-9",
    "element": "-cule~-cle (< -l diminutive)",
    "forms": [
     "cule",
@@ -1421,7 +1564,7 @@
    "page": 269
   },
   {
-   "id": "el-culp",
+   "id": "el-culp-l-2",
    "element": "culp",
    "forms": [
     "culp"
@@ -1433,7 +1576,7 @@
    "page": 269
   },
   {
-   "id": "el-cumb-cub",
+   "id": "el-cumb-l-4",
    "element": "cumb~cub",
    "forms": [
     "cumb",
@@ -1446,7 +1589,7 @@
    "page": 269
   },
   {
-   "id": "el-cup-cap-cep-cip",
+   "id": "el-cup-l-4",
    "element": "cup~cap~cep~cip",
    "forms": [
     "cup",
@@ -1461,7 +1604,7 @@
    "page": 269
   },
   {
-   "id": "el-cur",
+   "id": "el-cur-l-6",
    "element": "cur",
    "forms": [
     "cur"
@@ -1473,7 +1616,7 @@
    "page": 269
   },
   {
-   "id": "el-curs-curr",
+   "id": "el-curs-l-11",
    "element": "curs~curr",
    "forms": [
     "curs",
@@ -1486,7 +1629,7 @@
    "page": 269
   },
   {
-   "id": "el-cut",
+   "id": "el-cut-l-8",
    "element": "cut",
    "forms": [
     "cut"
@@ -1498,7 +1641,7 @@
    "page": 269
   },
   {
-   "id": "el-da-do-di",
+   "id": "el-da-l-9",
    "element": "da~do~di",
    "forms": [
     "da",
@@ -1512,7 +1655,7 @@
    "page": 269
   },
   {
-   "id": "el-damn-demn",
+   "id": "el-damn-l-9",
    "element": "damn~demn",
    "forms": [
     "damn",
@@ -1525,7 +1668,7 @@
    "page": 269
   },
   {
-   "id": "el-iso",
+   "id": "el-iso-g-3",
    "element": "iso-",
    "forms": [
     "iso"
@@ -1537,7 +1680,7 @@
    "page": 274
   },
   {
-   "id": "el-itis",
+   "id": "el-itis-g-8",
    "element": "-itis",
    "forms": [
     "itis"
@@ -1549,7 +1692,7 @@
    "page": 274
   },
   {
-   "id": "el-ity",
+   "id": "el-ity-l-3",
    "element": "-ity",
    "forms": [
     "ity"
@@ -1561,7 +1704,7 @@
    "page": 274
   },
   {
-   "id": "el-ium-um",
+   "id": "el-ium-l-9",
    "element": "-ium~-um",
    "forms": [
     "ium",
@@ -1574,7 +1717,7 @@
    "page": 274
   },
   {
-   "id": "el-ive-tive",
+   "id": "el-ive-l-3-4-6",
    "element": "-ive~-tive",
    "forms": [
     "ive",
@@ -1587,7 +1730,7 @@
    "page": 274
   },
   {
-   "id": "el-ize",
+   "id": "el-ize-g-3",
    "element": "-ize",
    "forms": [
     "ize"
@@ -1599,7 +1742,7 @@
    "page": 274
   },
   {
-   "id": "el-jun-juven",
+   "id": "el-jun-l-10",
    "element": "jun~juven",
    "forms": [
     "jun",
@@ -1612,7 +1755,7 @@
    "page": 274
   },
   {
-   "id": "el-jus-jur",
+   "id": "el-jus-l-9",
    "element": "jus~jur",
    "forms": [
     "jus",
@@ -1625,7 +1768,7 @@
    "page": 274
   },
   {
-   "id": "el-juven-jun",
+   "id": "el-juven-l-10",
    "element": "juven~jun",
    "forms": [
     "juven",
@@ -1638,7 +1781,7 @@
    "page": 274
   },
   {
-   "id": "el-kilo",
+   "id": "el-kilo-g-6",
    "element": "kilo-",
    "forms": [
     "kilo"
@@ -1650,7 +1793,7 @@
    "page": 274
   },
   {
-   "id": "el-l",
+   "id": "el-l-l-9",
    "element": "-l",
    "forms": [
     "l"
@@ -1662,7 +1805,7 @@
    "page": 274
   },
   {
-   "id": "el-lab",
+   "id": "el-lab-l-8",
    "element": "lab",
    "forms": [
     "lab"
@@ -1674,7 +1817,7 @@
    "page": 274
   },
   {
-   "id": "el-lachrym-lacrim",
+   "id": "el-lachrym-l-8",
    "element": "lachrym~lacrim",
    "forms": [
     "lachrym",
@@ -1687,7 +1830,7 @@
    "page": 274
   },
   {
-   "id": "el-lacrim-lachrym",
+   "id": "el-lacrim-l-8",
    "element": "lacrim~lachrym",
    "forms": [
     "lacrim",
@@ -1700,7 +1843,7 @@
    "page": 274
   },
   {
-   "id": "el-lact",
+   "id": "el-lact-l-8",
    "element": "lact",
    "forms": [
     "lact"
@@ -1712,7 +1855,7 @@
    "page": 274
   },
   {
-   "id": "el-laryng",
+   "id": "el-laryng-g-8",
    "element": "laryng",
    "forms": [
     "laryng"
@@ -1724,7 +1867,7 @@
    "page": 274
   },
   {
-   "id": "el-lat",
+   "id": "el-lat-l-10",
    "element": "lat",
    "forms": [
     "lat"
@@ -1736,7 +1879,7 @@
    "page": 274
   },
   {
-   "id": "el-leg",
+   "id": "el-leg-l-2",
    "element": "leg",
    "forms": [
     "leg"
@@ -1748,7 +1891,7 @@
    "page": 274
   },
   {
-   "id": "el-leg-lex-log",
+   "id": "el-leg-g-1",
    "element": "leg~lex~log",
    "forms": [
     "leg",
@@ -1762,7 +1905,7 @@
    "page": 274
   },
   {
-   "id": "el-leg-lig",
+   "id": "el-leg-l-5",
    "element": "leg~lig",
    "forms": [
     "leg",
@@ -1775,7 +1918,7 @@
    "page": 274
   },
   {
-   "id": "el-lex-leg-log",
+   "id": "el-lex-g-1",
    "element": "lex~leg~log",
    "forms": [
     "lex",
@@ -1789,7 +1932,7 @@
    "page": 274
   },
   {
-   "id": "el-libr",
+   "id": "el-libr-l-2",
    "element": "libr",
    "forms": [
     "libr"
@@ -1801,7 +1944,7 @@
    "page": 274
   },
   {
-   "id": "el-lic",
+   "id": "el-lic-l-5",
    "element": "lic",
    "forms": [
     "lic"
@@ -1813,7 +1956,7 @@
    "page": 274
   },
   {
-   "id": "el-lig",
+   "id": "el-lig-l-10",
    "element": "lig",
    "forms": [
     "lig"
@@ -1825,7 +1968,7 @@
    "page": 274
   },
   {
-   "id": "el-lig-leg",
+   "id": "el-lig-l-5",
    "element": "lig~leg",
    "forms": [
     "lig",
@@ -1838,7 +1981,7 @@
    "page": 274
   },
   {
-   "id": "el-lign",
+   "id": "el-lign-l-10",
    "element": "lign",
    "forms": [
     "lign"
@@ -1850,7 +1993,7 @@
    "page": 274
   },
   {
-   "id": "el-lit-lith",
+   "id": "el-lit-l-9",
    "element": "lit~lith",
    "forms": [
     "lit",
@@ -1863,7 +2006,7 @@
    "page": 274
   },
   {
-   "id": "el-liter",
+   "id": "el-liter-l-2",
    "element": "liter",
    "forms": [
     "liter"
@@ -1875,7 +2018,7 @@
    "page": 274
   },
   {
-   "id": "el-lith-lit",
+   "id": "el-lith-g-9",
    "element": "lith~lit",
    "forms": [
     "lith",
@@ -1888,7 +2031,7 @@
    "page": 274
   },
   {
-   "id": "el-loc",
+   "id": "el-loc-l-6",
    "element": "loc",
    "forms": [
     "loc"
@@ -1900,7 +2043,7 @@
    "page": 274
   },
   {
-   "id": "el-locu-loqu",
+   "id": "el-locu-l-10",
    "element": "locu~loqu",
    "forms": [
     "locu",
@@ -1913,7 +2056,7 @@
    "page": 274
   },
   {
-   "id": "el-log-leg-lex",
+   "id": "el-log-g-1",
    "element": "log~leg~lex",
    "forms": [
     "log",
@@ -1927,7 +2070,7 @@
    "page": 275
   },
   {
-   "id": "el-loqu-locu",
+   "id": "el-loqu-l-10",
    "element": "loqu~locu",
    "forms": [
     "loqu",
@@ -1940,7 +2083,7 @@
    "page": 275
   },
   {
-   "id": "el-lu-lv",
+   "id": "el-lu-l-11",
    "element": "lu~lv",
    "forms": [
     "lu",
@@ -1953,7 +2096,7 @@
    "page": 275
   },
   {
-   "id": "el-lumen-lumin-luc",
+   "id": "el-lumen-l-6",
    "element": "lumen~lumin~luc",
    "forms": [
     "lumen",
@@ -1967,7 +2110,7 @@
    "page": 275
   },
   {
-   "id": "el-ly",
+   "id": "el-ly-g-11",
    "element": "ly",
    "forms": [
     "ly"
@@ -1979,7 +2122,7 @@
    "page": 275
   },
   {
-   "id": "el-ma",
+   "id": "el-ma-g-9",
    "element": "-ma",
    "forms": [
     "ma"
@@ -1991,7 +2134,7 @@
    "page": 275
   },
   {
-   "id": "el-macr",
+   "id": "el-macr-g-1",
    "element": "macr",
    "forms": [
     "macr"
@@ -2003,7 +2146,7 @@
    "page": 275
   },
   {
-   "id": "el-magn",
+   "id": "el-magn-l-10",
    "element": "magn",
    "forms": [
     "magn"
@@ -2015,7 +2158,7 @@
    "page": 275
   },
   {
-   "id": "el-mal-male",
+   "id": "el-mal-l-11",
    "element": "mal~male",
    "forms": [
     "mal",
@@ -2028,7 +2171,7 @@
    "page": 275
   },
   {
-   "id": "el-mamm",
+   "id": "el-mamm-l-8",
    "element": "mamm",
    "forms": [
     "mamm"
@@ -2040,7 +2183,7 @@
    "page": 275
   },
   {
-   "id": "el-man",
+   "id": "el-man-l-6",
    "element": "man",
    "forms": [
     "man"
@@ -2052,7 +2195,7 @@
    "page": 275
   },
   {
-   "id": "el-mant-manc",
+   "id": "el-mant-g-11",
    "element": "mant~manc",
    "forms": [
     "mant",
@@ -2065,7 +2208,7 @@
    "page": 275
   },
   {
-   "id": "el-matr",
+   "id": "el-matr-l-10",
    "element": "matr",
    "forms": [
     "matr"
@@ -2077,7 +2220,7 @@
    "page": 275
   },
   {
-   "id": "el-mega-megal",
+   "id": "el-mega-g-9",
    "element": "mega~megal",
    "forms": [
     "mega",
@@ -2090,7 +2233,7 @@
    "page": 275
   },
   {
-   "id": "el-men-mon",
+   "id": "el-men-l-4",
    "element": "men~mon",
    "forms": [
     "men",
@@ -2103,7 +2246,7 @@
    "page": 275
   },
   {
-   "id": "el-ment",
+   "id": "el-ment-l-9",
    "element": "-ment",
    "forms": [
     "ment"
@@ -2115,7 +2258,7 @@
    "page": 275
   },
   {
-   "id": "el-meso",
+   "id": "el-meso-g-3",
    "element": "meso-",
    "forms": [
     "meso"
@@ -2127,7 +2270,7 @@
    "page": 275
   },
   {
-   "id": "el-meta",
+   "id": "el-meta-g-3",
    "element": "meta-",
    "forms": [
     "meta"
@@ -2139,7 +2282,7 @@
    "page": 275
   },
   {
-   "id": "el-metr",
+   "id": "el-metr-g-10",
    "element": "metr",
    "forms": [
     "metr"
@@ -2151,7 +2294,7 @@
    "page": 275
   },
   {
-   "id": "el-micr",
+   "id": "el-micr-g-1",
    "element": "micr",
    "forms": [
     "micr"
@@ -2163,7 +2306,7 @@
    "page": 275
   },
   {
-   "id": "el-mille",
+   "id": "el-mille-l-6",
    "element": "mille",
    "forms": [
     "mille"
@@ -2175,7 +2318,7 @@
    "page": 275
   },
   {
-   "id": "el-milli",
+   "id": "el-milli-l-6",
    "element": "milli-",
    "forms": [
     "milli"
@@ -2187,7 +2330,7 @@
    "page": 275
   },
   {
-   "id": "el-mis",
+   "id": "el-mis-g-1",
    "element": "mis",
    "forms": [
     "mis"
@@ -2199,7 +2342,7 @@
    "page": 275
   },
   {
-   "id": "el-misc-mix",
+   "id": "el-misc-l-9",
    "element": "misc~mix",
    "forms": [
     "misc",
@@ -2212,7 +2355,7 @@
    "page": 275
   },
   {
-   "id": "el-mitt-miss",
+   "id": "el-mitt-l-3-4",
    "element": "mitt~miss",
    "forms": [
     "mitt",
@@ -2225,7 +2368,7 @@
    "page": 275
   },
   {
-   "id": "el-mne",
+   "id": "el-mne-g-4",
    "element": "mne",
    "forms": [
     "mne"
@@ -2237,7 +2380,7 @@
    "page": 275
   },
   {
-   "id": "el-mo",
+   "id": "el-mo-l-4",
    "element": "mo",
    "forms": [
     "mo"
@@ -2249,7 +2392,7 @@
    "page": 275
   },
   {
-   "id": "el-mon",
+   "id": "el-mon-g-6",
    "element": "mon",
    "forms": [
     "mon"
@@ -2261,7 +2404,7 @@
    "page": 275
   },
   {
-   "id": "el-mon-men",
+   "id": "el-mon-l-4",
    "element": "mon~men",
    "forms": [
     "mon",
@@ -2274,7 +2417,7 @@
    "page": 275
   },
   {
-   "id": "el-mony",
+   "id": "el-mony-l-9",
    "element": "-mony",
    "forms": [
     "mony"
@@ -2286,7 +2429,7 @@
    "page": 275
   },
   {
-   "id": "el-morph",
+   "id": "el-morph-g-1",
    "element": "morph",
    "forms": [
     "morph"
@@ -2298,7 +2441,7 @@
    "page": 275
   },
   {
-   "id": "el-mov-mo",
+   "id": "el-mov-l-4",
    "element": "mov~mo",
    "forms": [
     "mov",
@@ -2311,7 +2454,7 @@
    "page": 275
   },
   {
-   "id": "el-mult",
+   "id": "el-mult-l-6",
    "element": "mult",
    "forms": [
     "mult"
@@ -2323,7 +2466,7 @@
    "page": 275
   },
   {
-   "id": "el-mun",
+   "id": "el-mun-l-11",
    "element": "mun",
    "forms": [
     "mun"
@@ -2335,7 +2478,7 @@
    "page": 276
   },
   {
-   "id": "el-myc",
+   "id": "el-myc-g-10",
    "element": "myc",
    "forms": [
     "myc"
@@ -2347,7 +2490,7 @@
    "page": 276
   },
   {
-   "id": "el-myri",
+   "id": "el-myri-g-6",
    "element": "myri",
    "forms": [
     "myri"
@@ -2359,7 +2502,7 @@
    "page": 276
   },
   {
-   "id": "el-na-gen-gn",
+   "id": "el-na-l-4",
    "element": "na~gen~gn",
    "forms": [
     "na",
@@ -2373,7 +2516,7 @@
    "page": 276
   },
   {
-   "id": "el-nano",
+   "id": "el-nano-g-6",
    "element": "nano-",
    "forms": [
     "nano"
@@ -2385,7 +2528,7 @@
    "page": 276
   },
   {
-   "id": "el-nar-nas",
+   "id": "el-nar-l-8",
    "element": "nar~nas",
    "forms": [
     "nar",
@@ -2398,7 +2541,7 @@
    "page": 276
   },
   {
-   "id": "el-nas-nar",
+   "id": "el-nas-l-8",
    "element": "nas~nar",
    "forms": [
     "nas",
@@ -2411,7 +2554,7 @@
    "page": 276
   },
   {
-   "id": "el-nau",
+   "id": "el-nau-g-11",
    "element": "nau",
    "forms": [
     "nau"
@@ -2423,7 +2566,7 @@
    "page": 276
   },
   {
-   "id": "el-nav",
+   "id": "el-nav-l-11",
    "element": "nav",
    "forms": [
     "nav"
@@ -2435,7 +2578,7 @@
    "page": 276
   },
   {
-   "id": "el-nd-and-end",
+   "id": "el-nd-l-9",
    "element": "-nd~-and~-end",
    "forms": [
     "nd",
@@ -2449,7 +2592,7 @@
    "page": 276
   },
   {
-   "id": "el-ne",
+   "id": "el-ne-g-5",
    "element": "ne",
    "forms": [
     "ne"
@@ -2461,7 +2604,7 @@
    "page": 276
   },
   {
-   "id": "el-nec-noc-nic-nox",
+   "id": "el-nec-l-4",
    "element": "nec~noc~nic~nox",
    "forms": [
     "nec",
@@ -2476,7 +2619,7 @@
    "page": 276
   },
   {
-   "id": "el-nec-necr",
+   "id": "el-nec-g-4",
    "element": "nec~necr",
    "forms": [
     "nec",
@@ -2489,7 +2632,7 @@
    "page": 276
   },
   {
-   "id": "el-nephr",
+   "id": "el-nephr-g-8",
    "element": "nephr",
    "forms": [
     "nephr"
@@ -2501,7 +2644,7 @@
    "page": 276
   },
   {
-   "id": "el-nic-nec-noc-nox",
+   "id": "el-nic-l-4",
    "element": "nic~nec~noc~nox",
    "forms": [
     "nic",
@@ -2516,7 +2659,7 @@
    "page": 276
   },
   {
-   "id": "el-nihil-nil",
+   "id": "el-nihil-l-9",
    "element": "nihil~nil",
    "forms": [
     "nihil",
@@ -2529,7 +2672,7 @@
    "page": 276
   },
   {
-   "id": "el-no-gno-gni",
+   "id": "el-no-l-9",
    "element": "no~gno~gni",
    "forms": [
     "no",
@@ -2543,7 +2686,7 @@
    "page": 276
   },
   {
-   "id": "el-noc-nec-nic-nox",
+   "id": "el-noc-l-4",
    "element": "noc~nec~nic~nox",
    "forms": [
     "noc",
@@ -2558,7 +2701,7 @@
    "page": 276
   },
   {
-   "id": "el-noct",
+   "id": "el-noct-l-10",
    "element": "noct",
    "forms": [
     "noct"
@@ -2570,7 +2713,7 @@
    "page": 276
   },
   {
-   "id": "el-nom",
+   "id": "el-nom-g-1",
    "element": "nom",
    "forms": [
     "nom"
@@ -2582,7 +2725,7 @@
    "page": 276
   },
   {
-   "id": "el-nomen-nomin",
+   "id": "el-nomen-l-10",
    "element": "nomen~nomin",
    "forms": [
     "nomen",
@@ -2595,7 +2738,7 @@
    "page": 276
   },
   {
-   "id": "el-non",
+   "id": "el-non-l-6",
    "element": "non",
    "forms": [
     "non"
@@ -2607,7 +2750,7 @@
    "page": 276
   },
   {
-   "id": "el-nov",
+   "id": "el-nov-l-2",
    "element": "nov",
    "forms": [
     "nov"
@@ -2619,7 +2762,7 @@
    "page": 276
   },
   {
-   "id": "el-novem",
+   "id": "el-novem-l-6",
    "element": "novem",
    "forms": [
     "novem"
@@ -2631,7 +2774,7 @@
    "page": 276
   },
   {
-   "id": "el-noven",
+   "id": "el-noven-l-6",
    "element": "noven",
    "forms": [
     "noven"
@@ -2643,7 +2786,7 @@
    "page": 276
   },
   {
-   "id": "el-nox-noc-nec-nic",
+   "id": "el-nox-l-4",
    "element": "nox~noc~nec~nic",
    "forms": [
     "nox",
@@ -2658,7 +2801,7 @@
    "page": 276
   },
   {
-   "id": "el-nt",
+   "id": "el-nt-l-3-9",
    "element": "-nt",
    "forms": [
     "nt"
@@ -2670,7 +2813,7 @@
    "page": 276
   },
   {
-   "id": "el-null",
+   "id": "el-null-l-11",
    "element": "null",
    "forms": [
     "null"
@@ -2682,7 +2825,7 @@
    "page": 276
   },
   {
-   "id": "el-nyct",
+   "id": "el-nyct-g-10",
    "element": "nyct",
    "forms": [
     "nyct"
@@ -2694,7 +2837,7 @@
    "page": 276
   },
   {
-   "id": "el-o",
+   "id": "el-o-g-3",
    "element": "-o-",
    "forms": [
     "o"
@@ -2706,7 +2849,7 @@
    "page": 276
   },
   {
-   "id": "el-ob",
+   "id": "el-ob-l-3",
    "element": "-ob-",
    "forms": [
     "ob"
@@ -2718,7 +2861,7 @@
    "page": 276
   },
   {
-   "id": "el-octa",
+   "id": "el-octa-g-6",
    "element": "octa-",
    "forms": [
     "octa"
@@ -2730,7 +2873,7 @@
    "page": 276
   },
   {
-   "id": "el-octav",
+   "id": "el-octav-l-6",
    "element": "octav",
    "forms": [
     "octav"
@@ -2742,7 +2885,7 @@
    "page": 277
   },
   {
-   "id": "el-octo",
+   "id": "el-octo-l-6",
    "element": "octo",
    "forms": [
     "octo"
@@ -2754,7 +2897,7 @@
    "page": 277
   },
   {
-   "id": "el-octon",
+   "id": "el-octon-l-6",
    "element": "octon",
    "forms": [
     "octon"
@@ -2766,7 +2909,7 @@
    "page": 277
   },
   {
-   "id": "el-ocul",
+   "id": "el-ocul-l-9",
    "element": "ocul",
    "forms": [
     "ocul"
@@ -2778,7 +2921,7 @@
    "page": 277
   },
   {
-   "id": "el-odont",
+   "id": "el-odont-g-11",
    "element": "odont",
    "forms": [
     "odont"
@@ -2790,7 +2933,7 @@
    "page": 277
   },
   {
-   "id": "el-oen-en",
+   "id": "el-oen-g-11",
    "element": "oen~en",
    "forms": [
     "oen",
@@ -2803,19 +2946,7 @@
    "page": 277
   },
   {
-   "id": "el-oid",
-   "element": "-oid (A, N)",
-   "forms": [
-    "oid"
-   ],
-   "type": "suffix",
-   "gloss": "resembling",
-   "chapter": "3",
-   "source": "G",
-   "page": 277
-  },
-  {
-   "id": "el-ol-al",
+   "id": "el-ol-l-4",
    "element": "ol~al",
    "forms": [
     "ol",
@@ -2828,7 +2959,7 @@
    "page": 277
   },
   {
-   "id": "el-ol",
+   "id": "el-ol-l-9",
    "element": "-ol (< -l diminutive)",
    "forms": [
     "ol"
@@ -2840,7 +2971,7 @@
    "page": 277
   },
   {
-   "id": "el-olig",
+   "id": "el-olig-g-6",
    "element": "olig",
    "forms": [
     "olig"
@@ -2852,7 +2983,7 @@
    "page": 277
   },
   {
-   "id": "el-oma",
+   "id": "el-oma-g-8",
    "element": "-oma",
    "forms": [
     "oma"
@@ -2864,7 +2995,7 @@
    "page": 277
   },
   {
-   "id": "el-omn",
+   "id": "el-omn-l-2-6",
    "element": "omn",
    "forms": [
     "omn"
@@ -2876,7 +3007,7 @@
    "page": 277
   },
   {
-   "id": "el-on",
+   "id": "el-on-g-9",
    "element": "-on",
    "forms": [
     "on"
@@ -2888,7 +3019,7 @@
    "page": 277
   },
   {
-   "id": "el-onom-ononat-onym",
+   "id": "el-onom-g-10",
    "element": "onom~ononat~onym",
    "forms": [
     "onom",
@@ -2902,7 +3033,7 @@
    "page": 277
   },
   {
-   "id": "el-oo",
+   "id": "el-oo-g-11",
    "element": "oo",
    "forms": [
     "oo"
@@ -2914,7 +3045,7 @@
    "page": 277
   },
   {
-   "id": "el-op",
+   "id": "el-op-g-8",
    "element": "op",
    "forms": [
     "op"
@@ -2926,7 +3057,7 @@
    "page": 277
   },
   {
-   "id": "el-ophthalm",
+   "id": "el-ophthalm-g-8",
    "element": "ophthalm",
    "forms": [
     "ophthalm"
@@ -2938,7 +3069,7 @@
    "page": 277
   },
   {
-   "id": "el-org-erg-urg",
+   "id": "el-org-g-4",
    "element": "org~erg~urg",
    "forms": [
     "org",
@@ -2952,7 +3083,7 @@
    "page": 277
   },
   {
-   "id": "el-orn-ornith",
+   "id": "el-orn-g-11",
    "element": "orn~ornith",
    "forms": [
     "orn",
@@ -2965,7 +3096,7 @@
    "page": 277
   },
   {
-   "id": "el-orth",
+   "id": "el-orth-g-10",
    "element": "orth",
    "forms": [
     "orth"
@@ -2977,7 +3108,7 @@
    "page": 277
   },
   {
-   "id": "el-ory",
+   "id": "el-ory-l-3",
    "element": "-ory",
    "forms": [
     "ory"
@@ -2989,7 +3120,7 @@
    "page": 277
   },
   {
-   "id": "el-os-or",
+   "id": "el-os-l-8",
    "element": "os~or",
    "forms": [
     "os",
@@ -3002,7 +3133,7 @@
    "page": 277
   },
   {
-   "id": "el-oss",
+   "id": "el-oss-l-8",
    "element": "oss",
    "forms": [
     "oss"
@@ -3014,7 +3145,7 @@
    "page": 277
   },
   {
-   "id": "el-oste",
+   "id": "el-oste-g-8",
    "element": "oste",
    "forms": [
     "oste"
@@ -3026,7 +3157,7 @@
    "page": 277
   },
   {
-   "id": "el-ous-ose",
+   "id": "el-ous-l-3",
    "element": "-ous~-ose",
    "forms": [
     "ous",
@@ -3039,7 +3170,7 @@
    "page": 277
   },
   {
-   "id": "el-ov",
+   "id": "el-ov-l-11",
    "element": "ov",
    "forms": [
     "ov"
@@ -3051,7 +3182,7 @@
    "page": 277
   },
   {
-   "id": "el-ox-oxy",
+   "id": "el-ox-g-11",
    "element": "ox~oxy",
    "forms": [
     "ox",
@@ -3064,7 +3195,7 @@
    "page": 277
   },
   {
-   "id": "el-paed-ped",
+   "id": "el-paed-g-10",
    "element": "paed~ped",
    "forms": [
     "paed",
@@ -3077,7 +3208,7 @@
    "page": 277
   },
   {
-   "id": "el-pale-palae",
+   "id": "el-pale-g-10",
    "element": "pale~palae",
    "forms": [
     "pale",
@@ -3090,7 +3221,7 @@
    "page": 277
   },
   {
-   "id": "el-pan-pant-par",
+   "id": "el-pan-g-6",
    "element": "pan~pant~par",
    "forms": [
     "pan",
@@ -3104,7 +3235,7 @@
    "page": 277
   },
   {
-   "id": "el-par",
+   "id": "el-par-l-2",
    "element": "par",
    "forms": [
     "par"
@@ -3116,7 +3247,7 @@
    "page": 277
   },
   {
-   "id": "el-para",
+   "id": "el-para-g-3",
    "element": "para-",
    "forms": [
     "para"
@@ -3128,7 +3259,7 @@
    "page": 277
   },
   {
-   "id": "el-reg-rig",
+   "id": "el-reg-rig-l-5",
    "element": "reg-rig",
    "forms": [
     "reg-rig"
@@ -3140,7 +3271,7 @@
    "page": 280
   },
   {
-   "id": "el-rhin",
+   "id": "el-rhin-g-8",
    "element": "rhin",
    "forms": [
     "rhin"
@@ -3152,7 +3283,7 @@
    "page": 280
   },
   {
-   "id": "el-rhiz",
+   "id": "el-rhiz-g-10",
    "element": "rhiz",
    "forms": [
     "rhiz"
@@ -3164,7 +3295,7 @@
    "page": 280
   },
   {
-   "id": "el-rig-reg",
+   "id": "el-rig-l-5",
    "element": "rig~reg",
    "forms": [
     "rig",
@@ -3177,7 +3308,7 @@
    "page": 280
   },
   {
-   "id": "el-rog",
+   "id": "el-rog-l-11",
    "element": "rog",
    "forms": [
     "rog"
@@ -3189,7 +3320,7 @@
    "page": 280
   },
   {
-   "id": "el-sacr-sanc-secr",
+   "id": "el-sacr-l-4",
    "element": "sacr~sanc~secr",
    "forms": [
     "sacr",
@@ -3203,7 +3334,7 @@
    "page": 280
   },
   {
-   "id": "el-sal-sil",
+   "id": "el-sal-l-10",
    "element": "sal~sil",
    "forms": [
     "sal",
@@ -3216,7 +3347,7 @@
    "page": 280
   },
   {
-   "id": "el-salv-salu",
+   "id": "el-salv-l-10",
    "element": "salv~salu",
    "forms": [
     "salv",
@@ -3229,7 +3360,7 @@
    "page": 280
   },
   {
-   "id": "el-sarc",
+   "id": "el-sarc-g-8",
    "element": "sarc",
    "forms": [
     "sarc"
@@ -3241,7 +3372,7 @@
    "page": 280
   },
   {
-   "id": "el-sc-esc",
+   "id": "el-sc-l-9",
    "element": "-sc~-esc",
    "forms": [
     "sc",
@@ -3254,7 +3385,7 @@
    "page": 280
   },
   {
-   "id": "el-sci",
+   "id": "el-sci-l-2",
    "element": "sci",
    "forms": [
     "sci"
@@ -3266,7 +3397,7 @@
    "page": 280
   },
   {
-   "id": "el-scind-sciss",
+   "id": "el-scind-l-2-11",
    "element": "scind~sciss",
    "forms": [
     "scind",
@@ -3279,7 +3410,7 @@
    "page": 280
   },
   {
-   "id": "el-scler",
+   "id": "el-scler-g-8",
    "element": "scler",
    "forms": [
     "scler"
@@ -3291,7 +3422,7 @@
    "page": 280
   },
   {
-   "id": "el-se-sed",
+   "id": "el-se-l-3-6",
    "element": "se-~sed-",
    "forms": [
     "se",
@@ -3304,7 +3435,7 @@
    "page": 280
   },
   {
-   "id": "el-sec",
+   "id": "el-sec-l-2",
    "element": "sec",
    "forms": [
     "sec"
@@ -3316,7 +3447,7 @@
    "page": 280
   },
   {
-   "id": "el-semen-semin",
+   "id": "el-semen-l-4",
    "element": "semen~semin",
    "forms": [
     "semen",
@@ -3329,7 +3460,7 @@
    "page": 280
   },
   {
-   "id": "el-semi",
+   "id": "el-semi-l-6",
    "element": "semi-",
    "forms": [
     "semi"
@@ -3341,7 +3472,7 @@
    "page": 280
   },
   {
-   "id": "el-sen",
+   "id": "el-sen-l-11",
    "element": "sen",
    "forms": [
     "sen"
@@ -3353,7 +3484,7 @@
    "page": 280
   },
   {
-   "id": "el-sen",
+   "id": "el-sen-l-6",
    "element": "sen",
    "forms": [
     "sen"
@@ -3365,7 +3496,7 @@
    "page": 280
   },
   {
-   "id": "el-sent-sens",
+   "id": "el-sent-l-5",
    "element": "sent~sens",
    "forms": [
     "sent",
@@ -3378,7 +3509,7 @@
    "page": 280
   },
   {
-   "id": "el-sep",
+   "id": "el-sep-g-8",
    "element": "sep",
    "forms": [
     "sep"
@@ -3390,7 +3521,7 @@
    "page": 280
   },
   {
-   "id": "el-septem",
+   "id": "el-septem-l-6",
    "element": "septem",
    "forms": [
     "septem"
@@ -3402,7 +3533,7 @@
    "page": 280
   },
   {
-   "id": "el-septen",
+   "id": "el-septen-l-6",
    "element": "septen",
    "forms": [
     "septen"
@@ -3414,7 +3545,7 @@
    "page": 280
   },
   {
-   "id": "el-septim",
+   "id": "el-septim-l-6",
    "element": "septim",
    "forms": [
     "septim"
@@ -3426,7 +3557,7 @@
    "page": 280
   },
   {
-   "id": "el-serp",
+   "id": "el-serp-l-11",
    "element": "serp",
    "forms": [
     "serp"
@@ -3438,7 +3569,7 @@
    "page": 280
   },
   {
-   "id": "el-sesqui",
+   "id": "el-sesqui-l-6",
    "element": "sesqui-",
    "forms": [
     "sesqui"
@@ -3450,7 +3581,7 @@
    "page": 280
   },
   {
-   "id": "el-sex",
+   "id": "el-sex-l-6",
    "element": "sex",
    "forms": [
     "sex"
@@ -3462,7 +3593,7 @@
    "page": 280
   },
   {
-   "id": "el-sext",
+   "id": "el-sext-l-6",
    "element": "sext",
    "forms": [
     "sext"
@@ -3474,7 +3605,7 @@
    "page": 280
   },
   {
-   "id": "el-sil-sal",
+   "id": "el-sil-l-10",
    "element": "sil~sal",
    "forms": [
     "sil",
@@ -3487,7 +3618,7 @@
    "page": 280
   },
   {
-   "id": "el-sis",
+   "id": "el-sis-l-3",
    "element": "-sis",
    "forms": [
     "sis"
@@ -3499,7 +3630,7 @@
    "page": 280
   },
   {
-   "id": "el-som-somat",
+   "id": "el-som-g-11",
    "element": "som~somat",
    "forms": [
     "som",
@@ -3512,7 +3643,7 @@
    "page": 280
   },
   {
-   "id": "el-somn",
+   "id": "el-somn-l-2",
    "element": "somn",
    "forms": [
     "somn"
@@ -3524,7 +3655,7 @@
    "page": 280
   },
   {
-   "id": "el-son",
+   "id": "el-son-l-6",
    "element": "son",
    "forms": [
     "son"
@@ -3536,7 +3667,7 @@
    "page": 280
   },
   {
-   "id": "el-soph",
+   "id": "el-soph-g-11",
    "element": "soph",
    "forms": [
     "soph"
@@ -3548,7 +3679,7 @@
    "page": 281
   },
   {
-   "id": "el-soror",
+   "id": "el-soror-l-10",
    "element": "soror",
    "forms": [
     "soror"
@@ -3560,7 +3691,7 @@
    "page": 281
   },
   {
-   "id": "el-spec-spic",
+   "id": "el-spec-l-4",
    "element": "spec~spic",
    "forms": [
     "spec",
@@ -3573,7 +3704,7 @@
    "page": 281
   },
   {
-   "id": "el-spor",
+   "id": "el-spor-g-10",
    "element": "spor",
    "forms": [
     "spor"
@@ -3585,7 +3716,7 @@
    "page": 281
   },
   {
-   "id": "el-sta-ste",
+   "id": "el-sta-g-4",
    "element": "sta~ste",
    "forms": [
     "sta",
@@ -3598,7 +3729,7 @@
    "page": 281
   },
   {
-   "id": "el-sti-sta-ste-st",
+   "id": "el-sti-l-4",
    "element": "sti~sta~ste~st",
    "forms": [
     "sti",
@@ -3613,7 +3744,7 @@
    "page": 281
   },
   {
-   "id": "el-stom-stomat",
+   "id": "el-stom-g-8",
    "element": "stom~stomat",
    "forms": [
     "stom",
@@ -3626,7 +3757,7 @@
    "page": 281
   },
   {
-   "id": "el-strat",
+   "id": "el-strat-l-11",
    "element": "strat",
    "forms": [
     "strat"
@@ -3638,7 +3769,7 @@
    "page": 281
   },
   {
-   "id": "el-sub",
+   "id": "el-sub-l-3-6-7",
    "element": "sub-",
    "forms": [
     "sub"
@@ -3650,7 +3781,7 @@
    "page": 281
   },
   {
-   "id": "el-super",
+   "id": "el-super-l-3",
    "element": "super-",
    "forms": [
     "super"
@@ -3662,7 +3793,7 @@
    "page": 281
   },
   {
-   "id": "el-syn",
+   "id": "el-syn-g-3-6",
    "element": "syn-",
    "forms": [
     "syn"
@@ -3674,7 +3805,7 @@
    "page": 281
   },
   {
-   "id": "el-t",
+   "id": "el-t-l-9",
    "element": "-t",
    "forms": [
     "t"
@@ -3686,7 +3817,7 @@
    "page": 281
   },
   {
-   "id": "el-tac",
+   "id": "el-tac-g-9",
    "element": "tac",
    "forms": [
     "tac"
@@ -3698,7 +3829,7 @@
    "page": 281
   },
   {
-   "id": "el-tach-tachy",
+   "id": "el-tach-g-9",
    "element": "tach~tachy",
    "forms": [
     "tach",
@@ -3711,7 +3842,7 @@
    "page": 281
   },
   {
-   "id": "el-tag-teg-tig-tang-ting",
+   "id": "el-tag-l-4",
    "element": "tag~teg~tig~tang~ting",
    "forms": [
     "tag",
@@ -3727,7 +3858,7 @@
    "page": 281
   },
   {
-   "id": "el-tauto-auto",
+   "id": "el-tauto-g-9",
    "element": "tauto~auto",
    "forms": [
     "tauto",
@@ -3740,7 +3871,7 @@
    "page": 281
   },
   {
-   "id": "el-teg-tag-tig-tang-ting",
+   "id": "el-teg-l-4",
    "element": "teg~tag~tig~tang~ting",
    "forms": [
     "teg",
@@ -3756,7 +3887,7 @@
    "page": 281
   },
   {
-   "id": "el-tel-tele",
+   "id": "el-tel-g-11",
    "element": "tel~tele",
    "forms": [
     "tel",
@@ -3769,7 +3900,7 @@
    "page": 281
   },
   {
-   "id": "el-tele",
+   "id": "el-tele-g-5",
    "element": "tele",
    "forms": [
     "tele"
@@ -3781,7 +3912,7 @@
    "page": 281
   },
   {
-   "id": "el-tempor",
+   "id": "el-tempor-l-3",
    "element": "tempor",
    "forms": [
     "tempor"
@@ -3793,7 +3924,7 @@
    "page": 281
   },
   {
-   "id": "el-ten-tend-tens",
+   "id": "el-ten-l-5",
    "element": "ten~tend~tens",
    "forms": [
     "ten",
@@ -3807,7 +3938,7 @@
    "page": 281
   },
   {
-   "id": "el-ten-tin",
+   "id": "el-ten-l-4",
    "element": "ten~tin",
    "forms": [
     "ten",
@@ -3820,7 +3951,7 @@
    "page": 281
   },
   {
-   "id": "el-tend-tens-ten",
+   "id": "el-tend-l-5",
    "element": "tend~tens~ten",
    "forms": [
     "tend",
@@ -3834,7 +3965,7 @@
    "page": 281
   },
   {
-   "id": "el-tern",
+   "id": "el-tern-l-6",
    "element": "tern",
    "forms": [
     "tern"
@@ -3846,7 +3977,7 @@
    "page": 281
   },
   {
-   "id": "el-terr",
+   "id": "el-terr-l-9",
    "element": "terr",
    "forms": [
     "terr"
@@ -3858,7 +3989,7 @@
    "page": 281
   },
   {
-   "id": "el-terti",
+   "id": "el-terti-l-6",
    "element": "terti",
    "forms": [
     "terti"
@@ -3870,7 +4001,7 @@
    "page": 281
   },
   {
-   "id": "el-tetta-tessara",
+   "id": "el-tetta-g-6",
    "element": "tetta~tessara",
    "forms": [
     "tetta",
@@ -3883,7 +4014,7 @@
    "page": 281
   },
   {
-   "id": "el-the",
+   "id": "el-the-g-10",
    "element": "the",
    "forms": [
     "the"
@@ -3895,7 +4026,7 @@
    "page": 281
   },
   {
-   "id": "el-the",
+   "id": "el-the-g-1",
    "element": "the",
    "forms": [
     "the"
@@ -3907,7 +4038,7 @@
    "page": 281
   },
   {
-   "id": "el-thromb",
+   "id": "el-thromb-g-8",
    "element": "thromb",
    "forms": [
     "thromb"
@@ -3919,7 +4050,7 @@
    "page": 281
   },
   {
-   "id": "el-tig-ting-tag-teg-tang",
+   "id": "el-tig-l-4",
    "element": "tig~ting~tag~teg~tang",
    "forms": [
     "tig",
@@ -3935,7 +4066,7 @@
    "page": 281
   },
   {
-   "id": "el-tion-ion",
+   "id": "el-tion-l-3",
    "element": "-tion~-ion",
    "forms": [
     "tion",
@@ -3948,7 +4079,7 @@
    "page": 281
   },
   {
-   "id": "el-de",
+   "id": "el-de-l-3-7",
    "element": "de-",
    "forms": [
     "de"
@@ -3960,7 +4091,7 @@
    "page": 270
   },
   {
-   "id": "el-de-div",
+   "id": "el-de-l-4",
    "element": "de~div",
    "forms": [
     "de",
@@ -3973,7 +4104,7 @@
    "page": 270
   },
   {
-   "id": "el-dec",
+   "id": "el-dec-l-10",
    "element": "dec",
    "forms": [
     "dec"
@@ -3985,7 +4116,7 @@
    "page": 270
   },
   {
-   "id": "el-deca",
+   "id": "el-deca-g-6",
    "element": "deca",
    "forms": [
     "deca"
@@ -3997,7 +4128,7 @@
    "page": 270
   },
   {
-   "id": "el-decem",
+   "id": "el-decem-l-6",
    "element": "decem",
    "forms": [
     "decem"
@@ -4009,7 +4140,7 @@
    "page": 270
   },
   {
-   "id": "el-decim-deci",
+   "id": "el-decim-l-6",
    "element": "decim~deci",
    "forms": [
     "decim",
@@ -4022,7 +4153,7 @@
    "page": 270
   },
   {
-   "id": "el-dem",
+   "id": "el-dem-g-6",
    "element": "dem",
    "forms": [
     "dem"
@@ -4034,7 +4165,7 @@
    "page": 270
   },
   {
-   "id": "el-demn-damn",
+   "id": "el-demn-l-9",
    "element": "demn~damn",
    "forms": [
     "demn",
@@ -4047,7 +4178,7 @@
    "page": 270
   },
   {
-   "id": "el-den",
+   "id": "el-den-l-6",
    "element": "den",
    "forms": [
     "den"
@@ -4059,7 +4190,7 @@
    "page": 270
   },
   {
-   "id": "el-dendr-dry",
+   "id": "el-dendr-g-11",
    "element": "dendr~dry",
    "forms": [
     "dendr",
@@ -4072,7 +4203,7 @@
    "page": 270
   },
   {
-   "id": "el-dent",
+   "id": "el-dent-l-11",
    "element": "dent",
    "forms": [
     "dent"
@@ -4084,7 +4215,7 @@
    "page": 270
   },
   {
-   "id": "el-dermat-derm",
+   "id": "el-dermat-g-8",
    "element": "dermat~derm",
    "forms": [
     "dermat",
@@ -4097,7 +4228,7 @@
    "page": 270
   },
   {
-   "id": "el-deuter",
+   "id": "el-deuter-g-6",
    "element": "deuter",
    "forms": [
     "deuter"
@@ -4109,7 +4240,7 @@
    "page": 270
   },
   {
-   "id": "el-di-da-do",
+   "id": "el-di-l-9",
    "element": "di~da~do",
    "forms": [
     "di",
@@ -4123,7 +4254,7 @@
    "page": 270
   },
   {
-   "id": "el-di-dy",
+   "id": "el-di-g-6",
    "element": "di~dy",
    "forms": [
     "di",
@@ -4136,7 +4267,7 @@
    "page": 270
   },
   {
-   "id": "el-dia",
+   "id": "el-dia-g-3",
    "element": "dia-",
    "forms": [
     "dia"
@@ -4148,7 +4279,7 @@
    "page": 270
   },
   {
-   "id": "el-dic",
+   "id": "el-dic-l-9",
    "element": "dic",
    "forms": [
     "dic"
@@ -4160,7 +4291,7 @@
    "page": 270
   },
   {
-   "id": "el-dich",
+   "id": "el-dich-g-6",
    "element": "dich",
    "forms": [
     "dich"
@@ -4172,7 +4303,7 @@
    "page": 270
   },
   {
-   "id": "el-dipl",
+   "id": "el-dipl-g-6",
    "element": "dipl",
    "forms": [
     "dipl"
@@ -4184,7 +4315,7 @@
    "page": 270
   },
   {
-   "id": "el-div-de",
+   "id": "el-div-l-4",
    "element": "div~de",
    "forms": [
     "div",
@@ -4197,7 +4328,7 @@
    "page": 270
   },
   {
-   "id": "el-do",
+   "id": "el-do-g-9",
    "element": "do",
    "forms": [
     "do"
@@ -4209,7 +4340,7 @@
    "page": 270
   },
   {
-   "id": "el-doc",
+   "id": "el-doc-l-5",
    "element": "doc",
    "forms": [
     "doc"
@@ -4221,7 +4352,7 @@
    "page": 270
   },
   {
-   "id": "el-doc-dog",
+   "id": "el-doc-g-5",
    "element": "doc~dog",
    "forms": [
     "doc",
@@ -4234,7 +4365,7 @@
    "page": 270
   },
   {
-   "id": "el-dol",
+   "id": "el-dol-l-9",
    "element": "dol",
    "forms": [
     "dol"
@@ -4246,7 +4377,7 @@
    "page": 270
   },
   {
-   "id": "el-duc",
+   "id": "el-duc-l-2",
    "element": "duc",
    "forms": [
     "duc"
@@ -4258,7 +4389,7 @@
    "page": 270
   },
   {
-   "id": "el-dy-di",
+   "id": "el-dy-g-6",
    "element": "dy~di",
    "forms": [
     "dy",
@@ -4271,7 +4402,7 @@
    "page": 270
   },
   {
-   "id": "el-dyn",
+   "id": "el-dyn-g-11",
    "element": "dyn",
    "forms": [
     "dyn"
@@ -4283,7 +4414,7 @@
    "page": 270
   },
   {
-   "id": "el-e-ex",
+   "id": "el-e-l-3-6-7",
    "element": "e-~ex-",
    "forms": [
     "e",
@@ -4296,7 +4427,7 @@
    "page": 270
   },
   {
-   "id": "el-ec",
+   "id": "el-ec-g-3",
    "element": "ec-",
    "forms": [
     "ec"
@@ -4308,7 +4439,7 @@
    "page": 270
   },
   {
-   "id": "el-ecto",
+   "id": "el-ecto-g-3",
    "element": "ecto-",
    "forms": [
     "ecto"
@@ -4320,7 +4451,7 @@
    "page": 270
   },
   {
-   "id": "el-ed-es",
+   "id": "el-ed-l-10",
    "element": "ed~es",
    "forms": [
     "ed",
@@ -4333,7 +4464,7 @@
    "page": 270
   },
   {
-   "id": "el-el1",
+   "id": "el-el1-l-9",
    "element": "-el1 (< -l diminutive)",
    "forms": [
     "el1"
@@ -4345,7 +4476,7 @@
    "page": 270
   },
   {
-   "id": "el-em-hem-haem",
+   "id": "el-em-g-8",
    "element": "em~hem~haem",
    "forms": [
     "em",
@@ -4359,7 +4490,7 @@
    "page": 270
   },
   {
-   "id": "el-eme",
+   "id": "el-eme-g-4",
    "element": "-eme",
    "forms": [
     "eme"
@@ -4371,7 +4502,7 @@
    "page": 271
   },
   {
-   "id": "el-en",
+   "id": "el-en-g-3",
    "element": "en-",
    "forms": [
     "en"
@@ -4383,7 +4514,7 @@
    "page": 271
   },
   {
-   "id": "el-ence",
+   "id": "el-ence-l-3-4",
    "element": "-ence",
    "forms": [
     "ence"
@@ -4395,7 +4526,7 @@
    "page": 271
   },
   {
-   "id": "el-end-and",
+   "id": "el-end-l-9",
    "element": "-end~-and",
    "forms": [
     "end",
@@ -4408,7 +4539,7 @@
    "page": 271
   },
   {
-   "id": "el-endo",
+   "id": "el-endo-g-3",
    "element": "endo-",
    "forms": [
     "endo"
@@ -4420,7 +4551,7 @@
    "page": 271
   },
   {
-   "id": "el-enn-ann",
+   "id": "el-enn-l-4",
    "element": "enn~ann",
    "forms": [
     "enn",
@@ -4433,7 +4564,7 @@
    "page": 271
   },
   {
-   "id": "el-ennea",
+   "id": "el-ennea-g-6",
    "element": "ennea",
    "forms": [
     "ennea"
@@ -4445,7 +4576,7 @@
    "page": 271
   },
   {
-   "id": "el-ent",
+   "id": "el-ent-l-3-9",
    "element": "-ent",
    "forms": [
     "ent"
@@ -4457,7 +4588,7 @@
    "page": 271
   },
   {
-   "id": "el-epi",
+   "id": "el-epi-g-3",
    "element": "epi-",
    "forms": [
     "epi"
@@ -4469,7 +4600,7 @@
    "page": 271
   },
   {
-   "id": "el-ept-apt",
+   "id": "el-ept-l-4",
    "element": "ept~apt",
    "forms": [
     "ept",
@@ -4482,7 +4613,7 @@
    "page": 271
   },
   {
-   "id": "el-equ-iqu",
+   "id": "el-equ-l-4",
    "element": "equ~iqu",
    "forms": [
     "equ",
@@ -4495,7 +4626,7 @@
    "page": 271
   },
   {
-   "id": "el-erg-urg-org",
+   "id": "el-erg-g-4",
    "element": "erg~urg~org",
    "forms": [
     "erg",
@@ -4509,7 +4640,7 @@
    "page": 271
   },
   {
-   "id": "el-ero",
+   "id": "el-ero-g-5",
    "element": "ero",
    "forms": [
     "ero"
@@ -4521,7 +4652,7 @@
    "page": 271
   },
   {
-   "id": "el-err",
+   "id": "el-err-l-9",
    "element": "err",
    "forms": [
     "err"
@@ -4533,7 +4664,7 @@
    "page": 271
   },
   {
-   "id": "el-esc-sc",
+   "id": "el-esc-l-9",
    "element": "-esc~-sc",
    "forms": [
     "esc",
@@ -4546,7 +4677,7 @@
    "page": 271
   },
   {
-   "id": "el-esim",
+   "id": "el-esim-l-6",
    "element": "-esim",
    "forms": [
     "esim"
@@ -4558,7 +4689,7 @@
    "page": 271
   },
   {
-   "id": "el-esth-aesth",
+   "id": "el-esth-g-5",
    "element": "esth~aesth",
    "forms": [
     "esth",
@@ -4571,7 +4702,7 @@
    "page": 271
   },
   {
-   "id": "el-eu",
+   "id": "el-eu-g-5",
    "element": "eu-",
    "forms": [
     "eu"
@@ -4583,7 +4714,7 @@
    "page": 271
   },
   {
-   "id": "el-ev",
+   "id": "el-ev-l-11",
    "element": "ev",
    "forms": [
     "ev"
@@ -4595,7 +4726,7 @@
    "page": 271
   },
   {
-   "id": "el-ex-e",
+   "id": "el-ex-l-3-6-7",
    "element": "ex-~e-",
    "forms": [
     "ex",
@@ -4608,7 +4739,7 @@
    "page": 271
   },
   {
-   "id": "el-extra",
+   "id": "el-extra-l-3-7",
    "element": "extra-",
    "forms": [
     "extra"
@@ -4620,7 +4751,7 @@
    "page": 271
   },
   {
-   "id": "el-fa",
+   "id": "el-fa-l-10",
    "element": "fa",
    "forms": [
     "fa"
@@ -4632,7 +4763,7 @@
    "page": 271
   },
   {
-   "id": "el-fac-fec-fic",
+   "id": "el-fac-l-4",
    "element": "fac~fec~fic",
    "forms": [
     "fac",
@@ -4646,7 +4777,7 @@
    "page": 271
   },
   {
-   "id": "el-fec-fac-fic",
+   "id": "el-fec-l-4",
    "element": "fec~fac~fic",
    "forms": [
     "fec",
@@ -4660,7 +4791,7 @@
    "page": 271
   },
   {
-   "id": "el-fer",
+   "id": "el-fer-l-10",
    "element": "fer",
    "forms": [
     "fer"
@@ -4672,7 +4803,7 @@
    "page": 271
   },
   {
-   "id": "el-fic-fec-fac",
+   "id": "el-fic-l-4",
    "element": "fic~fec~fac",
    "forms": [
     "fic",
@@ -4686,7 +4817,7 @@
    "page": 271
   },
   {
-   "id": "el-fla",
+   "id": "el-fla-l-6",
    "element": "fla",
    "forms": [
     "fla"
@@ -4698,7 +4829,7 @@
    "page": 271
   },
   {
-   "id": "el-flu-fluc-fluv",
+   "id": "el-flu-l-9",
    "element": "flu~fluc~fluv",
    "forms": [
     "flu",
@@ -4712,7 +4843,7 @@
    "page": 271
   },
   {
-   "id": "el-formic",
+   "id": "el-formic-l-11",
    "element": "formic",
    "forms": [
     "formic"
@@ -4724,7 +4855,7 @@
    "page": 271
   },
   {
-   "id": "el-frag-frang-fring",
+   "id": "el-frag-l-4",
    "element": "frag~frang~fring",
    "forms": [
     "frag",
@@ -4738,7 +4869,7 @@
    "page": 271
   },
   {
-   "id": "el-frang-frag-fring",
+   "id": "el-frang-l-4",
    "element": "frang~frag~fring",
    "forms": [
     "frang",
@@ -4752,7 +4883,7 @@
    "page": 271
   },
   {
-   "id": "el-fratr",
+   "id": "el-fratr-l-10",
    "element": "fratr",
    "forms": [
     "fratr"
@@ -4764,7 +4895,7 @@
    "page": 271
   },
   {
-   "id": "el-fring-frag-frang",
+   "id": "el-fring-l-4",
    "element": "fring~frag~frang",
    "forms": [
     "fring",
@@ -4778,7 +4909,7 @@
    "page": 271
   },
   {
-   "id": "el-fug",
+   "id": "el-fug-l-2",
    "element": "fug",
    "forms": [
     "fug"
@@ -4790,7 +4921,7 @@
    "page": 272
   },
   {
-   "id": "el-fund-fus",
+   "id": "el-fund-l-4",
    "element": "fund~fus",
    "forms": [
     "fund",
@@ -4803,7 +4934,7 @@
    "page": 272
   },
   {
-   "id": "el-fus-fund",
+   "id": "el-fus-l-4",
    "element": "fus~fund",
    "forms": [
     "fus",
@@ -4816,7 +4947,7 @@
    "page": 272
   },
   {
-   "id": "el-galact",
+   "id": "el-galact-g-8",
    "element": "galact",
    "forms": [
     "galact"
@@ -4828,7 +4959,7 @@
    "page": 272
   },
   {
-   "id": "el-gam",
+   "id": "el-gam-g-1",
    "element": "gam",
    "forms": [
     "gam"
@@ -4840,7 +4971,7 @@
    "page": 272
   },
   {
-   "id": "el-gastr",
+   "id": "el-gastr-g-8",
    "element": "gastr",
    "forms": [
     "gastr"
@@ -4852,7 +4983,7 @@
    "page": 272
   },
   {
-   "id": "el-ge",
+   "id": "el-ge-g-10",
    "element": "ge",
    "forms": [
     "ge"
@@ -4864,7 +4995,7 @@
    "page": 272
   },
   {
-   "id": "el-gemin",
+   "id": "el-gemin-l-10",
    "element": "gemin",
    "forms": [
     "gemin"
@@ -4876,7 +5007,7 @@
    "page": 272
   },
   {
-   "id": "el-gen-gn-na",
+   "id": "el-gen-l-4",
    "element": "gen~gn~na",
    "forms": [
     "gen",
@@ -4890,7 +5021,7 @@
    "page": 272
   },
   {
-   "id": "el-gen-gon",
+   "id": "el-gen-g-4",
    "element": "gen~gon",
    "forms": [
     "gen",
@@ -4903,7 +5034,7 @@
    "page": 272
   },
   {
-   "id": "el-ger",
+   "id": "el-ger-g-10",
    "element": "ger",
    "forms": [
     "ger"
@@ -4915,7 +5046,7 @@
    "page": 272
   },
   {
-   "id": "el-giga",
+   "id": "el-giga-g-6",
    "element": "giga",
    "forms": [
     "giga"
@@ -4927,7 +5058,7 @@
    "page": 272
   },
   {
-   "id": "el-gloss-glott",
+   "id": "el-gloss-g-9",
    "element": "gloss~glott",
    "forms": [
     "gloss",
@@ -4940,7 +5071,7 @@
    "page": 272
   },
   {
-   "id": "el-gn-gen-na",
+   "id": "el-gn-l-4",
    "element": "gn~gen~na",
    "forms": [
     "gn",
@@ -4954,7 +5085,7 @@
    "page": 272
   },
   {
-   "id": "el-gno",
+   "id": "el-gno-g-9",
    "element": "gno",
    "forms": [
     "gno"
@@ -4966,7 +5097,7 @@
    "page": 272
   },
   {
-   "id": "el-gon-gen",
+   "id": "el-gon-g-4",
    "element": "gon~gen",
    "forms": [
     "gon",
@@ -4979,7 +5110,7 @@
    "page": 272
   },
   {
-   "id": "el-grad-gred-gress",
+   "id": "el-grad-l-5",
    "element": "grad~gred~gress",
    "forms": [
     "grad",
@@ -4993,7 +5124,7 @@
    "page": 272
   },
   {
-   "id": "el-graph-gramm",
+   "id": "el-graph-g-10",
    "element": "graph~gramm",
    "forms": [
     "graph",
@@ -5006,7 +5137,7 @@
    "page": 272
   },
   {
-   "id": "el-grat",
+   "id": "el-grat-l-2",
    "element": "grat",
    "forms": [
     "grat"
@@ -5018,7 +5149,7 @@
    "page": 272
   },
   {
-   "id": "el-gravid",
+   "id": "el-gravid-g-8",
    "element": "gravid",
    "forms": [
     "gravid"
@@ -5030,7 +5161,7 @@
    "page": 272
   },
   {
-   "id": "el-gred-grad-gress",
+   "id": "el-gred-l-5",
    "element": "gred~grad~gress",
    "forms": [
     "gred",
@@ -5044,7 +5175,7 @@
    "page": 272
   },
   {
-   "id": "el-greg",
+   "id": "el-greg-l-2",
    "element": "greg",
    "forms": [
     "greg"
@@ -5056,7 +5187,7 @@
    "page": 272
   },
   {
-   "id": "el-gress-grad-gred",
+   "id": "el-gress-l-5",
    "element": "gress~grad~gred",
    "forms": [
     "gress",
@@ -5070,7 +5201,7 @@
    "page": 272
   },
   {
-   "id": "el-gyn-gynec",
+   "id": "el-gyn-g-9",
    "element": "gyn~gynec",
    "forms": [
     "gyn",
@@ -5083,7 +5214,7 @@
    "page": 272
   },
   {
-   "id": "el-haem-hem-em",
+   "id": "el-haem-g-8",
    "element": "haem~hem~em",
    "forms": [
     "haem",
@@ -5097,7 +5228,7 @@
    "page": 272
   },
   {
-   "id": "el-hecaton",
+   "id": "el-hecaton-g-6",
    "element": "hecaton",
    "forms": [
     "hecaton"
@@ -5109,7 +5240,7 @@
    "page": 272
   },
   {
-   "id": "el-heli",
+   "id": "el-heli-g-5",
    "element": "heli",
    "forms": [
     "heli"
@@ -5121,7 +5252,7 @@
    "page": 272
   },
   {
-   "id": "el-hem-haem-em",
+   "id": "el-hem-g-8",
    "element": "hem~haem~em",
    "forms": [
     "hem",
@@ -5135,7 +5266,7 @@
    "page": 272
   },
   {
-   "id": "el-hemi",
+   "id": "el-hemi-g-6",
    "element": "hemi-",
    "forms": [
     "hemi"
@@ -5147,7 +5278,7 @@
    "page": 272
   },
   {
-   "id": "el-hepat",
+   "id": "el-hepat-g-8",
    "element": "hepat",
    "forms": [
     "hepat"
@@ -5159,7 +5290,7 @@
    "page": 272
   },
   {
-   "id": "el-hepta",
+   "id": "el-hepta-g-6",
    "element": "hepta",
    "forms": [
     "hepta"
@@ -5171,7 +5302,7 @@
    "page": 272
   },
   {
-   "id": "el-her-hes",
+   "id": "el-her-l-9",
    "element": "her~hes",
    "forms": [
     "her",
@@ -5184,7 +5315,7 @@
    "page": 273
   },
   {
-   "id": "el-herp-herpet",
+   "id": "el-herp-g-11",
    "element": "herp~herpet",
    "forms": [
     "herp",
@@ -5197,7 +5328,7 @@
    "page": 273
   },
   {
-   "id": "el-hes-her",
+   "id": "el-hes-l-9",
    "element": "hes~her",
    "forms": [
     "hes",
@@ -5210,7 +5341,7 @@
    "page": 273
   },
   {
-   "id": "el-hetero",
+   "id": "el-hetero-g-3",
    "element": "hetero-",
    "forms": [
     "hetero"
@@ -5222,7 +5353,7 @@
    "page": 273
   },
   {
-   "id": "el-hexa",
+   "id": "el-hexa-g-6",
    "element": "hexa",
    "forms": [
     "hexa"
@@ -5234,7 +5365,7 @@
    "page": 273
   },
   {
-   "id": "el-hist",
+   "id": "el-hist-g-8",
    "element": "hist",
    "forms": [
     "hist"
@@ -5246,7 +5377,7 @@
    "page": 273
   },
   {
-   "id": "el-hom",
+   "id": "el-hom-l-2",
    "element": "hom",
    "forms": [
     "hom"
@@ -5258,7 +5389,7 @@
    "page": 273
   },
   {
-   "id": "el-homo",
+   "id": "el-homo-g-3",
    "element": "homo-",
    "forms": [
     "homo"
@@ -5270,7 +5401,7 @@
    "page": 273
   },
   {
-   "id": "el-hor",
+   "id": "el-hor-g-11",
    "element": "hor",
    "forms": [
     "hor"
@@ -5282,7 +5413,7 @@
    "page": 273
   },
   {
-   "id": "el-hydr-hydat",
+   "id": "el-hydr-g-9",
    "element": "hydr~hydat",
    "forms": [
     "hydr",
@@ -5295,7 +5426,7 @@
    "page": 273
   },
   {
-   "id": "el-hypo",
+   "id": "el-hypo-g-3",
    "element": "hypo-",
    "forms": [
     "hypo"
@@ -5307,7 +5438,7 @@
    "page": 273
   },
   {
-   "id": "el-hyster",
+   "id": "el-hyster-g-8",
    "element": "hyster",
    "forms": [
     "hyster"
@@ -5319,7 +5450,7 @@
    "page": 273
   },
   {
-   "id": "el-i",
+   "id": "el-i-l-3",
    "element": "-i-",
    "forms": [
     "i"
@@ -5331,7 +5462,7 @@
    "page": 273
   },
   {
-   "id": "el-ia",
+   "id": "el-ia-g-l-8",
    "element": "-ia",
    "forms": [
     "ia"
@@ -5343,7 +5474,7 @@
    "page": 273
   },
   {
-   "id": "el-ial-al",
+   "id": "el-ial-l-9",
    "element": "-ial~-al",
    "forms": [
     "ial",
@@ -5356,7 +5487,7 @@
    "page": 273
   },
   {
-   "id": "el-iatr",
+   "id": "el-iatr-g-1",
    "element": "iatr",
    "forms": [
     "iatr"
@@ -5368,7 +5499,7 @@
    "page": 273
   },
   {
-   "id": "el-ible-able-ble",
+   "id": "el-ible-l-3-11",
    "element": "-ible~-able~-ble",
    "forms": [
     "ible",
@@ -5382,7 +5513,7 @@
    "page": 273
   },
   {
-   "id": "el-ic",
+   "id": "el-ic-g-l-3",
    "element": "-ic",
    "forms": [
     "ic"
@@ -5394,7 +5525,7 @@
    "page": 273
   },
   {
-   "id": "el-ichthy",
+   "id": "el-ichthy-g-11",
    "element": "ichthy",
    "forms": [
     "ichthy"
@@ -5406,7 +5537,7 @@
    "page": 273
   },
   {
-   "id": "el-icl-icul",
+   "id": "el-icl-l-9",
    "element": "-icl~-icul (< -l diminutive)",
    "forms": [
     "icl",
@@ -5419,7 +5550,7 @@
    "page": 273
   },
   {
-   "id": "el-icosa",
+   "id": "el-icosa-g-6",
    "element": "icosa",
    "forms": [
     "icosa"
@@ -5431,7 +5562,7 @@
    "page": 273
   },
   {
-   "id": "el-idi",
+   "id": "el-idi-g-1",
    "element": "idi",
    "forms": [
     "idi"
@@ -5443,7 +5574,7 @@
    "page": 273
   },
   {
-   "id": "el-ig-ag",
+   "id": "el-ig-l-5",
    "element": "ig~ag",
    "forms": [
     "ig",
@@ -5456,7 +5587,7 @@
    "page": 273
   },
   {
-   "id": "el-il",
+   "id": "el-il-l-4-9",
    "element": "-il",
    "forms": [
     "il"
@@ -5468,7 +5599,7 @@
    "page": 273
   },
   {
-   "id": "el-ill",
+   "id": "el-ill-l-9",
    "element": "-ill (< -l diminutive)",
    "forms": [
     "ill"
@@ -5480,7 +5611,7 @@
    "page": 273
   },
   {
-   "id": "el-im-am",
+   "id": "el-im-l-4",
    "element": "im~am",
    "forms": [
     "im",
@@ -5493,7 +5624,7 @@
    "page": 273
   },
   {
-   "id": "el-in",
+   "id": "el-in-l-3",
    "element": "in-",
    "forms": [
     "in"
@@ -5505,7 +5636,7 @@
    "page": 273
   },
   {
-   "id": "el-in",
+   "id": "el-in-l-3-2",
    "element": "in-",
    "forms": [
     "in"
@@ -5517,7 +5648,7 @@
    "page": 273
   },
   {
-   "id": "el-infra",
+   "id": "el-infra-l-3",
    "element": "infra-",
    "forms": [
     "infra"
@@ -5529,7 +5660,7 @@
    "page": 273
   },
   {
-   "id": "el-inter",
+   "id": "el-inter-l-3",
    "element": "inter-",
    "forms": [
     "inter"
@@ -5541,7 +5672,7 @@
    "page": 273
   },
   {
-   "id": "el-intra",
+   "id": "el-intra-l-3",
    "element": "intra-",
    "forms": [
     "intra"
@@ -5553,7 +5684,7 @@
    "page": 273
   },
   {
-   "id": "el-iqu-equ",
+   "id": "el-iqu-l-4",
    "element": "iqu~equ",
    "forms": [
     "iqu",
@@ -5566,7 +5697,7 @@
    "page": 273
   },
   {
-   "id": "el-tive-ive",
+   "id": "el-tive-l-2-3-6",
    "element": "-tive~-ive",
    "forms": [
     "tive",
@@ -5579,7 +5710,7 @@
    "page": 282
   },
   {
-   "id": "el-tom-tm",
+   "id": "el-tom-g-4",
    "element": "tom~tm",
    "forms": [
     "tom",
@@ -5592,7 +5723,7 @@
    "page": 282
   },
   {
-   "id": "el-top",
+   "id": "el-top-g-1",
    "element": "top",
    "forms": [
     "top"
@@ -5604,7 +5735,7 @@
    "page": 282
   },
   {
-   "id": "el-tot",
+   "id": "el-tot-l-6",
    "element": "tot",
    "forms": [
     "tot"
@@ -5616,7 +5747,7 @@
    "page": 282
   },
   {
-   "id": "el-tra-trans",
+   "id": "el-tra-l-3-6",
    "element": "tra~trans-",
    "forms": [
     "tra",
@@ -5629,7 +5760,7 @@
    "page": 282
   },
   {
-   "id": "el-trans-tra",
+   "id": "el-trans-l-3-6",
    "element": "trans~tra-",
    "forms": [
     "trans",
@@ -5642,7 +5773,7 @@
    "page": 282
   },
   {
-   "id": "el-tri",
+   "id": "el-tri-l-6",
    "element": "tri",
    "forms": [
     "tri"
@@ -5654,7 +5785,7 @@
    "page": 282
   },
   {
-   "id": "el-trich",
+   "id": "el-trich-g-6",
    "element": "trich (< tri)",
    "forms": [
     "trich"
@@ -5666,7 +5797,7 @@
    "page": 282
   },
   {
-   "id": "el-trit",
+   "id": "el-trit-g-6",
    "element": "trit",
    "forms": [
     "trit"
@@ -5678,7 +5809,7 @@
    "page": 282
   },
   {
-   "id": "el-trop",
+   "id": "el-trop-g-11",
    "element": "trop",
    "forms": [
     "trop"
@@ -5690,7 +5821,7 @@
    "page": 282
   },
   {
-   "id": "el-trud-trus",
+   "id": "el-trud-l-5",
    "element": "trud~trus",
    "forms": [
     "trud",
@@ -5703,7 +5834,7 @@
    "page": 282
   },
   {
-   "id": "el-ture-ure",
+   "id": "el-ture-l-9",
    "element": "-ture~-ure",
    "forms": [
     "ture",
@@ -5716,7 +5847,7 @@
    "page": 282
   },
   {
-   "id": "el-ty",
+   "id": "el-ty-l-4-9",
    "element": "-ty",
    "forms": [
     "ty"
@@ -5728,7 +5859,7 @@
    "page": 282
   },
   {
-   "id": "el-ule",
+   "id": "el-ule-l-9",
    "element": "-ule (< -l diminutive)",
    "forms": [
     "ule"
@@ -5740,7 +5871,7 @@
    "page": 282
   },
   {
-   "id": "el-um-ium",
+   "id": "el-um-l-9",
    "element": "-um~-ium",
    "forms": [
     "um",
@@ -5753,7 +5884,7 @@
    "page": 282
   },
   {
-   "id": "el-un",
+   "id": "el-un-l-6",
    "element": "un",
    "forms": [
     "un"
@@ -5765,7 +5896,7 @@
    "page": 282
   },
   {
-   "id": "el-urg-erg-org",
+   "id": "el-urg-g-4",
    "element": "urg~erg~org",
    "forms": [
     "urg",
@@ -5779,7 +5910,7 @@
    "page": 282
   },
   {
-   "id": "el-us",
+   "id": "el-us-l-9",
    "element": "-us",
    "forms": [
     "us"
@@ -5791,7 +5922,7 @@
    "page": 282
   },
   {
-   "id": "el-uxor",
+   "id": "el-uxor-l-10",
    "element": "uxor",
    "forms": [
     "uxor"
@@ -5803,7 +5934,7 @@
    "page": 282
   },
   {
-   "id": "el-vac-van",
+   "id": "el-vac-l-9",
    "element": "vac~van",
    "forms": [
     "vac",
@@ -5816,7 +5947,7 @@
    "page": 282
   },
   {
-   "id": "el-val",
+   "id": "el-val-l-10",
    "element": "val",
    "forms": [
     "val"
@@ -5828,7 +5959,7 @@
    "page": 282
   },
   {
-   "id": "el-van-vac",
+   "id": "el-van-l-9",
    "element": "van~vac",
    "forms": [
     "van",
@@ -5841,7 +5972,7 @@
    "page": 282
   },
   {
-   "id": "el-vas",
+   "id": "el-vas-l-8",
    "element": "vas",
    "forms": [
     "vas"
@@ -5853,7 +5984,7 @@
    "page": 282
   },
   {
-   "id": "el-ven",
+   "id": "el-ven-l-2",
    "element": "ven",
    "forms": [
     "ven"
@@ -5865,7 +5996,7 @@
    "page": 282
   },
   {
-   "id": "el-ven",
+   "id": "el-ven-l-8",
    "element": "ven",
    "forms": [
     "ven"
@@ -5877,7 +6008,7 @@
    "page": 282
   },
   {
-   "id": "el-ver",
+   "id": "el-ver-l-2",
    "element": "ver",
    "forms": [
     "ver"
@@ -5889,7 +6020,7 @@
    "page": 282
   },
   {
-   "id": "el-ver",
+   "id": "el-ver-l-9",
    "element": "ver",
    "forms": [
     "ver"
@@ -5901,7 +6032,7 @@
    "page": 282
   },
   {
-   "id": "el-verg",
+   "id": "el-verg-l-9",
    "element": "verg (< ver)",
    "forms": [
     "verg"
@@ -5913,7 +6044,7 @@
    "page": 282
   },
   {
-   "id": "el-verm",
+   "id": "el-verm-l-11",
    "element": "verm (< ver 'turn')",
    "forms": [
     "verm"
@@ -5925,7 +6056,7 @@
    "page": 282
   },
   {
-   "id": "el-viginti",
+   "id": "el-viginti-l-6",
    "element": "viginti",
    "forms": [
     "viginti"
@@ -5937,7 +6068,7 @@
    "page": 282
   },
   {
-   "id": "el-vin",
+   "id": "el-vin-l-11",
    "element": "vin",
    "forms": [
     "vin"
@@ -5949,7 +6080,7 @@
    "page": 283
   },
   {
-   "id": "el-vinc-vic",
+   "id": "el-vinc-l-4",
    "element": "vinc~vic",
    "forms": [
     "vinc",
@@ -5962,7 +6093,7 @@
    "page": 283
   },
   {
-   "id": "el-vit-viv",
+   "id": "el-vit-l-9",
    "element": "vit~viv",
    "forms": [
     "vit",
@@ -5975,7 +6106,7 @@
    "page": 283
   },
   {
-   "id": "el-viv-vit",
+   "id": "el-viv-l-9",
    "element": "viv~vit",
    "forms": [
     "viv",
@@ -5988,7 +6119,7 @@
    "page": 283
   },
   {
-   "id": "el-voc",
+   "id": "el-voc-l-10",
    "element": "voc",
    "forms": [
     "voc"
@@ -6000,7 +6131,7 @@
    "page": 283
   },
   {
-   "id": "el-vom",
+   "id": "el-vom-l-3",
    "element": "vom",
    "forms": [
     "vom"
@@ -6012,7 +6143,7 @@
    "page": 283
   },
   {
-   "id": "el-vor",
+   "id": "el-vor-l-4",
    "element": "vor",
    "forms": [
     "vor"
@@ -6024,7 +6155,7 @@
    "page": 283
   },
   {
-   "id": "el-xen",
+   "id": "el-xen-g-1",
    "element": "xen",
    "forms": [
     "xen"
@@ -6036,7 +6167,7 @@
    "page": 283
   },
   {
-   "id": "el-xyl",
+   "id": "el-xyl-g-11",
    "element": "xyl",
    "forms": [
     "xyl"
@@ -6048,7 +6179,7 @@
    "page": 283
   },
   {
-   "id": "el-y",
+   "id": "el-y-g-l-3",
    "element": "-y",
    "forms": [
     "y"
@@ -6060,7 +6191,7 @@
    "page": 283
   },
   {
-   "id": "el-zo",
+   "id": "el-zo-g-4",
    "element": "zo",
    "forms": [
     "zo"
@@ -6072,7 +6203,7 @@
    "page": 283
   },
   {
-   "id": "el-path",
+   "id": "el-path-g-1",
    "element": "path",
    "forms": [
     "path"
@@ -6084,7 +6215,7 @@
    "page": 278
   },
   {
-   "id": "el-patr",
+   "id": "el-patr-g-l-10",
    "element": "patr",
    "forms": [
     "patr"
@@ -6096,7 +6227,7 @@
    "page": 278
   },
   {
-   "id": "el-pauc",
+   "id": "el-pauc-l-6",
    "element": "pauc",
    "forms": [
     "pauc"
@@ -6108,7 +6239,7 @@
    "page": 278
   },
   {
-   "id": "el-ped",
+   "id": "el-ped-l-10",
    "element": "ped",
    "forms": [
     "ped"
@@ -6120,7 +6251,7 @@
    "page": 278
   },
   {
-   "id": "el-ped-paed",
+   "id": "el-ped-g-10",
    "element": "ped~paed",
    "forms": [
     "ped",
@@ -6133,7 +6264,7 @@
    "page": 278
   },
   {
-   "id": "el-pen-pun",
+   "id": "el-pen-l-9",
    "element": "pen~pun",
    "forms": [
     "pen",
@@ -6146,7 +6277,7 @@
    "page": 278
   },
   {
-   "id": "el-pend-pond",
+   "id": "el-pend-l-4",
    "element": "pend~pond",
    "forms": [
     "pend",
@@ -6159,7 +6290,7 @@
    "page": 278
   },
   {
-   "id": "el-penta",
+   "id": "el-penta-g-6",
    "element": "penta",
    "forms": [
     "penta"
@@ -6171,7 +6302,7 @@
    "page": 278
   },
   {
-   "id": "el-per",
+   "id": "el-per-l-3",
    "element": "per-",
    "forms": [
     "per"
@@ -6183,7 +6314,7 @@
    "page": 278
   },
   {
-   "id": "el-peri",
+   "id": "el-peri-g-3",
    "element": "peri-",
    "forms": [
     "peri"
@@ -6195,7 +6326,7 @@
    "page": 278
   },
   {
-   "id": "el-pet",
+   "id": "el-pet-l-2",
    "element": "pet",
    "forms": [
     "pet"
@@ -6207,7 +6338,7 @@
    "page": 278
   },
   {
-   "id": "el-petr",
+   "id": "el-petr-g-1",
    "element": "petr",
    "forms": [
     "petr"
@@ -6219,7 +6350,7 @@
    "page": 278
   },
   {
-   "id": "el-pha-phe",
+   "id": "el-pha-g-10",
    "element": "pha~phe",
    "forms": [
     "pha",
@@ -6232,7 +6363,7 @@
    "page": 278
   },
   {
-   "id": "el-phag",
+   "id": "el-phag-g-11",
    "element": "phag",
    "forms": [
     "phag"
@@ -6244,7 +6375,7 @@
    "page": 278
   },
   {
-   "id": "el-phe-pha",
+   "id": "el-phe-g-10",
    "element": "phe~pha",
    "forms": [
     "phe",
@@ -6257,7 +6388,7 @@
    "page": 278
   },
   {
-   "id": "el-pher-phor",
+   "id": "el-pher-g-10",
    "element": "pher~phor",
    "forms": [
     "pher",
@@ -6270,7 +6401,7 @@
    "page": 278
   },
   {
-   "id": "el-phil",
+   "id": "el-phil-g-1",
    "element": "phil",
    "forms": [
     "phil"
@@ -6282,7 +6413,7 @@
    "page": 278
   },
   {
-   "id": "el-phleb",
+   "id": "el-phleb-g-8",
    "element": "phleb",
    "forms": [
     "phleb"
@@ -6294,7 +6425,7 @@
    "page": 278
   },
   {
-   "id": "el-phob",
+   "id": "el-phob-g-8",
    "element": "phob",
    "forms": [
     "phob"
@@ -6306,7 +6437,7 @@
    "page": 278
   },
   {
-   "id": "el-phon",
+   "id": "el-phon-g-1",
    "element": "phon",
    "forms": [
     "phon"
@@ -6318,7 +6449,7 @@
    "page": 278
   },
   {
-   "id": "el-phor-pher",
+   "id": "el-phor-g-10",
    "element": "phor~pher",
    "forms": [
     "phor",
@@ -6331,7 +6462,7 @@
    "page": 278
   },
   {
-   "id": "el-phot-phos",
+   "id": "el-phot-g-5",
    "element": "phot~phos",
    "forms": [
     "phot",
@@ -6344,7 +6475,7 @@
    "page": 278
   },
   {
-   "id": "el-phylac",
+   "id": "el-phylac-g-8",
    "element": "phylac",
    "forms": [
     "phylac"
@@ -6356,7 +6487,7 @@
    "page": 278
   },
   {
-   "id": "el-phyll",
+   "id": "el-phyll-g-10",
    "element": "phyll",
    "forms": [
     "phyll"
@@ -6368,7 +6499,7 @@
    "page": 278
   },
   {
-   "id": "el-phyt",
+   "id": "el-phyt-g-10",
    "element": "phyt",
    "forms": [
     "phyt"
@@ -6380,7 +6511,7 @@
    "page": 278
   },
   {
-   "id": "el-pithec",
+   "id": "el-pithec-g-11",
    "element": "pithec",
    "forms": [
     "pithec"
@@ -6392,7 +6523,7 @@
    "page": 278
   },
   {
-   "id": "el-pl-plec-plic",
+   "id": "el-pl-l-6",
    "element": "pl~plec~plic",
    "forms": [
     "pl",
@@ -6406,7 +6537,7 @@
    "page": 278
   },
   {
-   "id": "el-plac",
+   "id": "el-plac-l-11",
    "element": "plac",
    "forms": [
     "plac"
@@ -6418,7 +6549,7 @@
    "page": 278
   },
   {
-   "id": "el-plac",
+   "id": "el-plac-g-11",
    "element": "plac",
    "forms": [
     "plac"
@@ -6430,7 +6561,7 @@
    "page": 278
   },
   {
-   "id": "el-ple",
+   "id": "el-ple-l-9",
    "element": "ple",
    "forms": [
     "ple"
@@ -6442,7 +6573,7 @@
    "page": 278
   },
   {
-   "id": "el-plec-pl-plic",
+   "id": "el-plec-l-6",
    "element": "plec~pl~plic",
    "forms": [
     "plec",
@@ -6456,7 +6587,7 @@
    "page": 278
   },
   {
-   "id": "el-plic-pl-plec",
+   "id": "el-plic-l-6",
    "element": "plic~pl~plec",
    "forms": [
     "plic",
@@ -6470,7 +6601,7 @@
    "page": 278
   },
   {
-   "id": "el-plur",
+   "id": "el-plur-l-6",
    "element": "plur",
    "forms": [
     "plur"
@@ -6482,7 +6613,7 @@
    "page": 278
   },
   {
-   "id": "el-pne-pneum",
+   "id": "el-pne-g-8",
    "element": "pne~pneum",
    "forms": [
     "pne",
@@ -6495,7 +6626,7 @@
    "page": 278
   },
   {
-   "id": "el-pod-pus",
+   "id": "el-pod-g-10",
    "element": "pod~pus",
    "forms": [
     "pod",
@@ -6508,7 +6639,7 @@
    "page": 279
   },
   {
-   "id": "el-pol",
+   "id": "el-pol-g-1",
    "element": "pol",
    "forms": [
     "pol"
@@ -6520,7 +6651,7 @@
    "page": 279
   },
   {
-   "id": "el-poly",
+   "id": "el-poly-g-6",
    "element": "poly",
    "forms": [
     "poly"
@@ -6532,7 +6663,7 @@
    "page": 279
   },
   {
-   "id": "el-pom",
+   "id": "el-pom-l-10",
    "element": "pom",
    "forms": [
     "pom"
@@ -6544,7 +6675,7 @@
    "page": 279
   },
   {
-   "id": "el-pon-pos",
+   "id": "el-pon-l-9",
    "element": "pon~pos",
    "forms": [
     "pon",
@@ -6557,7 +6688,7 @@
    "page": 279
   },
   {
-   "id": "el-pond-pend",
+   "id": "el-pond-l-4",
    "element": "pond~pend",
    "forms": [
     "pond",
@@ -6570,7 +6701,7 @@
    "page": 279
   },
   {
-   "id": "el-pos-pon",
+   "id": "el-pos-l-9",
    "element": "pos~pon",
    "forms": [
     "pos",
@@ -6583,7 +6714,7 @@
    "page": 279
   },
   {
-   "id": "el-poss-pot",
+   "id": "el-poss-l-2",
    "element": "poss~pot",
    "forms": [
     "poss",
@@ -6596,7 +6727,7 @@
    "page": 279
   },
   {
-   "id": "el-post",
+   "id": "el-post-l-3",
    "element": "post-",
    "forms": [
     "post"
@@ -6608,7 +6739,7 @@
    "page": 279
   },
   {
-   "id": "el-pot",
+   "id": "el-pot-l-2",
    "element": "pot",
    "forms": [
     "pot"
@@ -6620,7 +6751,7 @@
    "page": 279
   },
   {
-   "id": "el-prac",
+   "id": "el-prac-g-5",
    "element": "prac",
    "forms": [
     "prac"
@@ -6632,7 +6763,7 @@
    "page": 279
   },
   {
-   "id": "el-pre",
+   "id": "el-pre-l-3",
    "element": "pre-",
    "forms": [
     "pre"
@@ -6644,7 +6775,7 @@
    "page": 279
   },
   {
-   "id": "el-pred",
+   "id": "el-pred-l-10",
    "element": "pred",
    "forms": [
     "pred"
@@ -6656,7 +6787,7 @@
    "page": 279
   },
   {
-   "id": "el-prim",
+   "id": "el-prim-l-6",
    "element": "prim",
    "forms": [
     "prim"
@@ -6668,7 +6799,7 @@
    "page": 279
   },
   {
-   "id": "el-pro",
+   "id": "el-pro-l-g-3",
    "element": "pro-",
    "forms": [
     "pro"
@@ -6680,7 +6811,7 @@
    "page": 279
   },
   {
-   "id": "el-prob",
+   "id": "el-prob-l-2",
    "element": "prob",
    "forms": [
     "prob"
@@ -6692,7 +6823,7 @@
    "page": 279
   },
   {
-   "id": "el-prot",
+   "id": "el-prot-g-6",
    "element": "prot",
    "forms": [
     "prot"
@@ -6704,7 +6835,7 @@
    "page": 279
   },
   {
-   "id": "el-pseud",
+   "id": "el-pseud-g-1",
    "element": "pseud",
    "forms": [
     "pseud"
@@ -6716,7 +6847,7 @@
    "page": 279
   },
   {
-   "id": "el-psych",
+   "id": "el-psych-g-1",
    "element": "psych",
    "forms": [
     "psych"
@@ -6728,7 +6859,7 @@
    "page": 279
   },
   {
-   "id": "el-pter",
+   "id": "el-pter-g-11",
    "element": "pter",
    "forms": [
     "pter"
@@ -6740,7 +6871,7 @@
    "page": 279
   },
   {
-   "id": "el-pugn",
+   "id": "el-pugn-l-9",
    "element": "pugn (< pug)",
    "forms": [
     "pugn"
@@ -6752,7 +6883,7 @@
    "page": 279
   },
   {
-   "id": "el-pulm-pulmon",
+   "id": "el-pulm-l-8",
    "element": "pulm~pulmon",
    "forms": [
     "pulm",
@@ -6765,7 +6896,7 @@
    "page": 279
   },
   {
-   "id": "el-pun-pen",
+   "id": "el-pun-l-9",
    "element": "pun~pen",
    "forms": [
     "pun",
@@ -6778,7 +6909,7 @@
    "page": 279
   },
   {
-   "id": "el-pus-pod",
+   "id": "el-pus-g-10",
    "element": "pus~pod",
    "forms": [
     "pus",
@@ -6791,7 +6922,7 @@
    "page": 279
   },
   {
-   "id": "el-pyr",
+   "id": "el-pyr-g-1",
    "element": "pyr",
    "forms": [
     "pyr"
@@ -6803,7 +6934,7 @@
    "page": 279
   },
   {
-   "id": "el-quadr",
+   "id": "el-quadr-l-6",
    "element": "quadr",
    "forms": [
     "quadr"
@@ -6815,7 +6946,7 @@
    "page": 279
   },
   {
-   "id": "el-quart",
+   "id": "el-quart-l-6",
    "element": "quart",
    "forms": [
     "quart"
@@ -6827,7 +6958,7 @@
    "page": 279
   },
   {
-   "id": "el-quatern",
+   "id": "el-quatern-l-6",
    "element": "quatern",
    "forms": [
     "quatern"
@@ -6839,7 +6970,7 @@
    "page": 279
   },
   {
-   "id": "el-quin",
+   "id": "el-quin-l-6",
    "element": "quin",
    "forms": [
     "quin"
@@ -6851,7 +6982,7 @@
    "page": 279
   },
   {
-   "id": "el-quinque",
+   "id": "el-quinque-l-6",
    "element": "quinque",
    "forms": [
     "quinque"
@@ -6863,7 +6994,7 @@
    "page": 279
   },
   {
-   "id": "el-quint",
+   "id": "el-quint-l-6",
    "element": "quint",
    "forms": [
     "quint"
@@ -6875,7 +7006,7 @@
    "page": 279
   },
   {
-   "id": "el-re-red",
+   "id": "el-re-l-3-4-6",
    "element": "re-~red-",
    "forms": [
     "re",
@@ -6886,19 +7017,6 @@
    "chapter": "3, 4, 6",
    "source": "L",
    "page": 279
-  },
-  {
-   "id": "el-somn-somat",
-   "element": "somn~somat",
-   "forms": [
-    "somn",
-    "somat"
-   ],
-   "type": "root",
-   "gloss": "body",
-   "chapter": "11",
-   "source": "G",
-   "page": 280
   }
  ]
 }

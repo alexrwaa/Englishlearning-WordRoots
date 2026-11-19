@@ -1,0 +1,166 @@
+{
+  "$comment": "语言学抽样审校记录。未列出的条目一律视为未审校；覆盖率 L7 只统计本文件。",
+  "reviewedBy": "lead-review",
+  "reviewedAt": "2026-11-19",
+  "scope": "sample",
+  "method": "逐条核对「形式—语源—释义」三者一致性，并用该词素在词库中的派生词互证；同形异源条目另与教材附录章节号核对。",
+  "caveat": "这是抽样，不是全量审校：559 个教材成分中仅覆盖本文件列出的条目；其余仍需逐条审校后才能计入 L7。",
+  "entries": [
+    {
+      "id": "cx-plac",
+      "note": "拉丁 placere「使高兴」；placate/placid 属此。与希腊 πλάξ「平板」无关。"
+    },
+    {
+      "id": "cx-plac-gk",
+      "note": "希腊 πλάξ「平板」；placoid/placenta/placoderm 属此。与拉丁 placere 同形异源。"
+    },
+    {
+      "id": "px-in",
+      "note": "否定前缀（PIE *ne）；invisible/incomplete 属此。"
+    },
+    {
+      "id": "px-im",
+      "note": "方位 in- 的同化形（in+p/b/m→im-）；import/impose 属此。"
+    },
+    {
+      "id": "cx-bi",
+      "note": "拉丁 bi-「二」；binary/biped 属此。"
+    },
+    {
+      "id": "cx-bi-gk",
+      "note": "希腊 βίος「生命」，英语作 bio-；biology/biography 属此。"
+    },
+    {
+      "id": "cx-bio",
+      "note": "希腊 βίος「生命」；与拉丁 bi-「二」无关。"
+    },
+    {
+      "id": "cx-ver",
+      "note": "拉丁 vērus「真」；verify/veracity/verdict 属此。"
+    },
+    {
+      "id": "cx-ver-lat-2",
+      "note": "拉丁 vereri「敬畏」；revere/reverence 属此。与 vērus 同形异源。"
+    },
+    {
+      "id": "cx-crypt",
+      "note": "希腊 kryptos「隐藏」；cryptic/cryptography 属此。"
+    },
+    {
+      "id": "cx-du",
+      "note": "拉丁 duo「二」；dual/duet/duplicate 属此。"
+    },
+    {
+      "id": "cx-nat",
+      "note": "拉丁 nasci 的过去分词词干 nat-「出生」；native/nation/innate 属此。"
+    },
+    {
+      "id": "cx-onomat",
+      "note": "希腊 onoma「名字」；onomatopoeia/onomastic 属此。"
+    },
+    {
+      "id": "cx-pug",
+      "note": "拉丁 pugnus「拳」；pugilist 属此。"
+    },
+    {
+      "id": "cx-pung",
+      "note": "拉丁 pungere「刺」；pungent/puncture/expunge 属此。"
+    },
+    {
+      "id": "cx-tetra",
+      "note": "希腊 tetra-「四」；tetrahedron/tetrapod 属此。"
+    },
+    {
+      "id": "rx-stru",
+      "note": "拉丁 struere「建造」；structure/instruct/obstruct 属此。"
+    },
+    {
+      "id": "rx-norm",
+      "note": "拉丁 norma「规矩」；normal/enormous（e- 出格）属此。"
+    },
+    {
+      "id": "rx-legal",
+      "note": "拉丁 lex/legis「法」；legal/legislation 属此。"
+    },
+    {
+      "id": "rx-spec",
+      "note": "拉丁 specere「看」；inspect/respect/perspective 属此。"
+    },
+    {
+      "id": "rx-form",
+      "note": "拉丁 forma「形状」；reform/conform/formative 属此。"
+    },
+    {
+      "id": "rx-port",
+      "note": "拉丁 portare「携带」；transport/import/portable 属此。"
+    },
+    {
+      "id": "rx-fer",
+      "note": "拉丁 ferre「带、载」；transfer/refer/conifer 属此。"
+    },
+    {
+      "id": "rx-duc",
+      "note": "拉丁 ducere「引导」；conduct/produce/induce 属此。"
+    },
+    {
+      "id": "rx-ject",
+      "note": "拉丁 iacere「投」；reject/inject/project 属此。"
+    },
+    {
+      "id": "rx-scrib",
+      "note": "拉丁 scribere「写」；describe/inscribe/prescribe 属此。"
+    },
+    {
+      "id": "rx-script",
+      "note": "scribere 的过去分词词干 script-；script/manuscript/description 属此。"
+    },
+    {
+      "id": "rx-mit",
+      "note": "拉丁 mittere「送」；submit/permit/transmit 属此。"
+    },
+    {
+      "id": "rx-miss",
+      "note": "mittere 的过去分词词干 miss-；mission/permission/missile 属此。"
+    },
+    {
+      "id": "rx-cap",
+      "note": "拉丁 capere「拿、抓」；capture/capacity/accept 属此。"
+    },
+    {
+      "id": "rx-cept",
+      "note": "capere 的过去分词词干 cept-；concept/intercept/reception 属此。"
+    },
+    {
+      "id": "cx-graph",
+      "note": "希腊 graphein「写」；photograph/biography/graphite 属此。"
+    },
+    {
+      "id": "cx-phon",
+      "note": "希腊 phone「声音」；telephone/phonetics/symphony 属此。"
+    },
+    {
+      "id": "cx-geo",
+      "note": "希腊 ge「大地」；geography/geology/geothermal 属此。"
+    },
+    {
+      "id": "cx-therm",
+      "note": "希腊 therme「热」；thermometer/hypothermia 属此。"
+    },
+    {
+      "id": "cx-chron",
+      "note": "希腊 chronos「时间」；chronic/synchronize/anachronism 属此。"
+    },
+    {
+      "id": "cx-aud",
+      "note": "拉丁 audire「听」；audio/audience/inaudible 属此。"
+    },
+    {
+      "id": "rx-vid",
+      "note": "拉丁 videre「看见」；video/evidence/provide（pro+videre）属此。"
+    },
+    {
+      "id": "rx-vis",
+      "note": "videre 的变体 vis-；vision/visible/revise 属此。"
+    }
+  ]
+}

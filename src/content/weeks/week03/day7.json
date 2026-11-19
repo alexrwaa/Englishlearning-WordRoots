@@ -101,6 +101,12 @@
         "intra",
         "ante",
         "retro"
+      ],
+      "morphemeIds": [
+        "px-hypo",
+        "px-intra",
+        "px-ante",
+        "px-retro"
       ]
     },
     {

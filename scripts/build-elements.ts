@@ -22,7 +22,7 @@ const TX = join(root, 'src/content/textbook');
 const LEX = join(root, 'src/content/lexicon');
 const BATCH = join(root, 'analysis/lexicon-batches');
 
-type Raw = { element: string; gloss: string; chapter: string; source: string; page?: number };
+type Raw = { element: string; gloss: string; chapter: string; source: string; page?: number; recoveredFrom?: string };
 type Element = {
   id: string;
   element: string;
@@ -32,6 +32,7 @@ type Element = {
   chapter: string;
   source: string;
   page?: number;
+  recoveredFrom?: string;
 };
 
 const raw: Raw[] = [];
@@ -46,17 +47,52 @@ for (const f of existsSync(APPENDIX) ? readdirSync(APPENDIX).sort() : []) {
       if (!line.trim() || line.startsWith('#')) continue;
       const [page, element, gloss, chapter, source] = line.split('\t');
       if (!element) continue;
-      const pageNo = Number(page) || undefined;
+      // Pages may be numeric (appendix 1) or "A2:<page>" for entries recovered
+      // from the reverse index after the A1/A2 cross-check (docs/APPENDIX_AUDIT.md).
+      const recovered = page.startsWith('A2:');
+      const pageNo = recovered ? Number(page.slice(3)) : Number(page);
       // Appendix 1 ("Elements to Glosses") ends on page 283; everything after is
       // the reverse index and would double-count the same elements.
-      if (pageNo && pageNo > 283) continue;
-      raw.push({ page: pageNo, element, gloss: gloss ?? '', chapter: chapter ?? '', source: source ?? '' });
+      if (!recovered && pageNo && pageNo > 283) continue;
+      raw.push({
+        page: Number(pageNo) || undefined,
+        element,
+        gloss: gloss ?? '',
+        chapter: chapter ?? '',
+        source: source ?? '',
+        ...(recovered ? { recoveredFrom: `appendix 2, p.${pageNo}` } : {}),
+      } as Raw);
     }
   }
 }
 
 const seen = new Set<string>();
+const usedIds = new Set<string>();
 const elements: Element[] = [];
+
+/** `L, G` -> `l-g`; `3, 4` -> `3-4`. Keeps IDs readable and filesystem-safe. */
+function slug(value: string): string {
+  return (value ?? '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+/**
+ * Stable element ID: `el-{form}-{origin}-{chapter}`, plus `-2`, `-3` when the
+ * same three values occur twice (homographs inside one chapter). The counter
+ * follows input order, so re-running on the same transcription reproduces the
+ * same IDs — the old `el-{form}-{rest}` scheme collided silently instead.
+ */
+function elementId(forms: string[], source: string, chapter: string): string {
+  const base = `el-${forms[0]}-${slug(source) || 'na'}-${slug(chapter) || 'na'}`;
+  let id = base;
+  let n = 2;
+  while (usedIds.has(id)) id = `${base}-${n++}`;
+  usedIds.add(id);
+  return id;
+}
+
 for (const r of raw) {
   const variants = r.element
     .split('~')
@@ -74,7 +110,7 @@ for (const r of raw) {
   const first = variants[0];
   const type: Element['type'] = first.startsWith('-') ? 'suffix' : first.endsWith('-') ? 'prefix' : forms.length > 1 ? 'root' : 'root';
   elements.push({
-    id: `el-${forms[0]}${forms.length > 1 ? '-' + forms.slice(1).join('-') : ''}`.slice(0, 60),
+    id: elementId(forms, r.source ?? '', r.chapter ?? ''),
     element: r.element,
     forms,
     type,
@@ -82,6 +118,7 @@ for (const r of raw) {
     chapter: (r.chapter ?? '').trim(),
     source: (r.source ?? '').trim(),
     page: r.page,
+    ...(r.recoveredFrom ? { recoveredFrom: r.recoveredFrom } : {}),
   });
 }
 

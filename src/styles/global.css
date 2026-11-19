@@ -1226,3 +1226,153 @@ a.btn:hover {
     max-height: 220px !important;
   }
 }
+
+/* ------------------------- lab: windowed lists (0.3.2) --------------------- */
+/* Big families used to mount every row and every cell at once. Rows are now
+   windowed on a fixed stride, so these heights are part of the contract: if a
+   row grows, ROW_HEIGHT in LabGrid.tsx must grow with it. */
+
+.lab-scroll {
+  overflow: auto;
+  max-width: 100%;
+}
+
+.lab-scroll[data-virtual='true'] {
+  max-height: min(62vh, 560px);
+  overscroll-behavior: contain;
+}
+
+.lab-scroll[data-virtual='true'] .lab-head {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: var(--panel);
+}
+
+.lab-scroll[data-virtual='true'] .lab-corner.lab-head {
+  z-index: 4;
+}
+
+.lab-grid[data-virtual='true'] .lab-row-head,
+.lab-grid[data-virtual='true'] .lab-cell {
+  height: 56px;
+  overflow: hidden;
+}
+
+.lab-row-head[data-dim='true'] {
+  opacity: 0.35;
+}
+
+.lab-window-note {
+  color: var(--accent-ink);
+}
+
+.lab-state-legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 10px 18px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--panel);
+}
+
+.lab-state-legend > div {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 2px 6px;
+  align-items: baseline;
+}
+
+.lab-state-legend > div > .tiny {
+  grid-column: 1 / -1;
+  padding-left: 14px;
+}
+
+/* Windowed vertical list (family members). */
+.vstack-wrap {
+  min-width: 0;
+}
+
+.vstack {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.vstack-count {
+  margin-top: 4px;
+}
+
+.vstack-row {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  padding: 3px 2px;
+  line-height: 1.45;
+}
+
+.vstack-row:hover {
+  background: var(--accent-softer);
+}
+
+/* Collapsible group header shared by the matrix results and the family page. */
+.lab-group-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  width: 100%;
+  padding: 5px 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.lab-group-head:hover .lab-group-caret {
+  color: var(--accent-ink);
+}
+
+.lab-group-caret {
+  width: 14px;
+  color: var(--ink-faint);
+  font-family: var(--mono);
+  font-size: 11px;
+  flex: none;
+}
+
+.lab-group-rule {
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+.lab-banner {
+  border-left: 3px solid var(--amber);
+  padding: 9px 12px;
+  margin-bottom: 16px;
+  border-radius: 0 9px 9px 0;
+  background: var(--amber-soft, var(--accent-softer));
+}
+
+.lab-sense-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  padding: 2px 7px;
+  border-radius: 6px;
+  border: 1px dashed var(--line-strong);
+  background: transparent;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.lab-sense-chip[data-active='true'] {
+  border-style: solid;
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
+}

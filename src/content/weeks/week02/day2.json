@@ -47,6 +47,12 @@
         "un",
         "ful",
         "less"
+      ],
+      "morphemeIds": [
+        "rx-help",
+        "px-un",
+        "sx-ful",
+        "sx-less"
       ]
     },
     {
@@ -136,6 +142,11 @@
         "help",
         "less",
         "ness"
+      ],
+      "morphemeIds": [
+        "rx-help",
+        "sx-less",
+        "sx-ness"
       ]
     },
     {
@@ -147,6 +158,12 @@
         "ness",
         "ful",
         "re"
+      ],
+      "morphemeIds": [
+        "rx-help",
+        "sx-ness",
+        "sx-ful",
+        "px-re"
       ]
     },
     {

@@ -40,6 +40,10 @@
       "morphemes": [
         "graph",
         "gram"
+      ],
+      "morphemeIds": [
+        "cx-graph",
+        "cx-gram"
       ]
     },
     {
@@ -78,6 +82,12 @@
         "meter",
         "tele",
         "syn"
+      ],
+      "morphemeIds": [
+        "cx-metr",
+        "cx-meter",
+        "px-tele",
+        "px-syn"
       ]
     },
     {
@@ -220,6 +230,10 @@
       "morphemes": [
         "metr",
         "tele"
+      ],
+      "morphemeIds": [
+        "cx-metr",
+        "px-tele"
       ]
     }
   ],

@@ -56,7 +56,8 @@
         "de",
         "ob",
         "infra"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "table",
@@ -97,6 +98,10 @@
       "morphemes": [
         "nice",
         "quarantine"
+      ],
+      "morphemeIds": [
+        "rx-nice",
+        "rx-quarantine"
       ]
     },
     {

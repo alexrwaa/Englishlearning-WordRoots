@@ -1,0 +1,272 @@
+{
+  "id": "w16d1",
+  "week": 16,
+  "day": 1,
+  "title": "词尾是怎么没的",
+  "tagline": "citabar 的四层语法只剩 cit-：拉丁词尾对英语没有用，法语重音又把它吃掉",
+  "objectives": [
+    "能拆开 citabar 并说明每个成分的功能，指出为什么只有词根留下",
+    "能解释法语重音落在词末如何导致非重读元音脱落、词形缩短",
+    "能把 tabula → table、circulus → circle 的每一步损失说清楚"
+  ],
+  "prereqs": [
+    "w15d6",
+    "c-inflection"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-morpheme",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s5-2",
+    "kp-s1c11s5-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "词尾在拉丁里是语法，在英语里是累赘",
+      "body": "拉丁是高度屈折的语言：动词要标人称、数、时态、语态，名词要标格与数。这些信息全靠词尾承担。英语没有这套范畴，借进来的词尾就成了“没有岗位的零件”。\n\n以 **citabar** 为例，它是动词 citare“召唤”的一个形式，身上有四层信息：\n\n- **cit-**：词根，“召唤、使动”\n- **-a-**：词干元音\n- **-ba-**：未完成过去时\n- **-r**：第一人称单数被动\n\n英语要的只是“召唤”这个概念，于是只留 **cit-**。词尾不是“丢错了”，而是英语根本没有位置安放它们。",
+      "terms": [
+        {
+          "term": "inflectional ending",
+          "zh": "屈折词尾",
+          "en": "inflectional ending",
+          "note": "表示格、数、时态、人称等语法信息的词尾，不改变词的基本意义"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "cit- 的三种活法",
+      "body": "词根 cit- 在英语里并不孤立，它靠前缀组成了一整族词：\n\n- **cite**：引用、传唤（把话“召”出来）\n- **incite**：煽动（in- 向内，把情绪“召”起来）\n- **excite**：激起（ex- 向外，把反应“召”出来）\n- **recite**：背诵（re- 回，把记下的“召”回来）\n\n四个词共享“召唤、使动”的核心，差别全在方向前缀。注意它们都不带 citabar 的任何词尾——英语留下的是词根，不是那个具体的动词形式。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "citare",
+          "note": "召唤、使动；词根 cit-"
+        },
+        {
+          "period": "拉丁",
+          "form": "citabar",
+          "note": "cit-a-ba-r：词根＋词干元音＋未完成＋第一人称被动"
+        },
+        {
+          "period": "英语",
+          "form": "cit-",
+          "note": "只保留词根，进入 cite、incite、excite、recite"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "法语的重音，把词腰咬掉了",
+      "body": "拉丁的重音通常在倒数第二或第三个音节，法语则把重音推到**词末可发音的音节**。重音一挪，前后就失衡：重读音节读得清楚，非重读音节被弱化，甚至整个消失。\n\n这条规则对借词的影响极深。拉丁 **tabula** 重音在 ta-，法语保留 ta- 与词尾的弱读，中间的 u 被吃掉，词尾 a 弱化成 e，最后成了 **table**。**circulus** 同理：重音在前，中间的 -cul- 被压缩，词尾 -us 脱落，成了 **cercle**，再进英语作 **circle**。\n\n所以“词形变短”不是随机的磨损，而是重音位置改变后的必然结果。",
+      "terms": [
+        {
+          "term": "syllable loss",
+          "zh": "音节脱落",
+          "en": "syllable loss",
+          "note": "非重读音节在语流中弱化直至消失"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三步缩水：从拉丁到英语",
+      "body": "把“丢了什么”逐项写出来，比笼统说“词形变短”有用。你会发现丢掉的都是非重读部分，留下的都是重读核心。第三行还提醒一件事：并非所有词都走“磨短”这条路，camera 因为整词借入，反而完好无损。所以判断词形时，先确认它走的是词干路径还是整词路径。",
+      "head": [
+        "拉丁",
+        "法语",
+        "英语",
+        "丢了什么",
+        "为什么能丢"
+      ],
+      "rows": [
+        [
+          "tabula",
+          "table",
+          "table",
+          "中间的 -u-、词尾 -a",
+          "重音在 ta-，其余部分弱化"
+        ],
+        [
+          "circulus",
+          "cercle",
+          "circle",
+          "词尾 -us、中缀 -cul- 压缩",
+          "重音在前，尾部不承载意义"
+        ],
+        [
+          "*riparia",
+          "riviere",
+          "river",
+          "词尾 -a、词中 -p- 变 -v-",
+          "重音与音变共同作用"
+        ],
+        [
+          "camera",
+          "chambre（另一条路）",
+          "camera（学术形）",
+          "无（走的是另一条路）",
+          "作为整词借入，词尾被当成词的一部分"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "拉丁的“词干＋词尾”与英语的“词干＋e”",
+      "body": "拉丁词尾承载语法，英语词尾几乎只剩拼写功能。于是同一批词在两种语言里长成两种骨架：拉丁是“词干＋有意义的词尾”，英语是“词干（＋不发音的 e）”。理解这一点，才不会把英语的 -e 当成语法标记。",
+      "a": "拉丁",
+      "b": "英语",
+      "rows": [
+        {
+          "label": "结构",
+          "a": "词干＋格/数/时态词尾",
+          "b": "词干（＋静音 e）"
+        },
+        {
+          "label": "词尾功能",
+          "a": "标语法关系",
+          "b": "多半只为拼写合法或标示读音"
+        },
+        {
+          "label": "例子",
+          "a": "tabula, circulus, citabar",
+          "b": "table, circle, cit-"
+        },
+        {
+          "label": "派生时",
+          "a": "换词尾即可改功能",
+          "b": "加派生后缀，如 table → tabular"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w16d1-p1",
+      "kind": "mcq",
+      "prompt": "citabar 中被英语保留下来的部分是？",
+      "choices": [
+        "cit-，词根",
+        "-ba-，未完成时标记",
+        "-r，被动标记",
+        "整个 citabar"
+      ],
+      "answer": 0,
+      "explain": "citabar 的四层中，只有 cit- 承载词汇意义；-a-、-ba-、-r 分别标词干元音、时态与人称语态。英语没有对应语法范畴，借入时只取词根，进入 cite、incite、excite 等词。",
+      "concepts": [
+        "c-inflection",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w16d1-p2",
+      "kind": "mcq",
+      "prompt": "法语里词形大幅缩短的直接原因是？",
+      "choices": [
+        "重音移到词末可发音音节，非重读元音弱化或脱落",
+        "法语禁止词尾出现元音",
+        "法语借词时故意删掉拉丁词尾",
+        "法语只有单音节词"
+      ],
+      "answer": 0,
+      "explain": "法语把重音固定在词末可发音音节，重音前的非重读元音容易弱化乃至消失，词尾屈折也随之丢失。tabula→table、circulus→cercle 都是这条机制的结果，不是有意的“删除词尾”。",
+      "concepts": [
+        "c-inflection",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w16d1-p3",
+      "kind": "cloze",
+      "prompt": "填入正确的英语单词",
+      "sentence": "The children sat in a ___ around the storyteller, with their backs to the fire.",
+      "answer": "circle",
+      "accept": [
+        "circle"
+      ],
+      "explain": "circle 来自拉丁 circulus，经古法语 cercle 进入英语：词尾 -us 脱落，中缀 -cul- 被压缩，重音仍在第一个音节。拼写里的 -le 是法语词尾弱化的结果，不发音的 e 只是让词形合法。",
+      "concepts": [
+        "c-borrowing",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w16d1-p4",
+      "kind": "mcq",
+      "prompt": "没学过的 caballus（拉丁“马”）经法语 cheval 进入英语，下面哪项最可能？",
+      "choices": [
+        "英语借入的是法语形，可能留下 ch- 与 -v-，而不是完整的 caballus",
+        "英语一定保留 caballus 的全部词尾",
+        "英语会把 cheval 改回 caballus",
+        "英语只会保留词尾 -us"
+      ],
+      "answer": 0,
+      "explain": "经法语借入的词带的是法语形：c 在 a 前软化为 ch，b 在元音间变 v，词尾 -us 早已脱落。英语里同族有 chivalry、cavalier，都保留了法语层的 ch-/cav-，看不到完整的 caballus。",
+      "concepts": [
+        "c-borrowing",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w16d1-p5",
+      "kind": "mcq",
+      "prompt": "table 与 tabular 的关系说明什么？",
+      "choices": [
+        "英语同时保留了缩短的整词与完整的拉丁词干，派生时回到词干",
+        "tabular 是 table 的拼写错误",
+        "table 来自法语，tabular 来自希腊语",
+        "二者没有词源关系"
+      ],
+      "answer": 0,
+      "explain": "table 是经法语磨短后的整词；tabular“表格的、板状的”则直接取了拉丁词干 tabul- 加 -ar。同一个词根，两条借入路径留下两种形状，这是英语学术词汇的常态。",
+      "concepts": [
+        "c-borrowing",
+        "c-morpheme"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w16d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词的含义",
+      "passage": "Before printing, manuscripts circulated slowly and in small numbers: a copy made in one monastery might take years to reach another, and many texts simply disappeared from circulation altogether.",
+      "word": "circulation",
+      "choices": [
+        "流传、流通",
+        "印刷数量",
+        "抄写错误",
+        "图书馆收藏"
+      ],
+      "answer": 0,
+      "strategy": "① 语境：manuscripts circulated slowly and in small numbers 说的是抄本流动的速度与数量；② 复现：reach another、disappeared from circulation 都指向“流通”；③ 构词：circul-（圈）＋ -ation，字面“绕圈走”；④ 排除：它不是印刷数量，也不是收藏。",
+      "explain": "circulation 指流传、流通，来自 circulus“小圈”。词根 circul- 与 circle 同源，但走的是词干借入路线，保留了 -cul-；circle 则经法语被磨短。同源不同形，正好对应本课两条词形路径。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：词尾的削去、法语重音与音节脱落"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "citare / citabar、tabula / table / tabular、circulus / circle 的词形史"
+    }
+  ]
+}

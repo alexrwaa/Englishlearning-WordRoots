@@ -48,6 +48,9 @@
       "body": "**debt** 的中古英语形式是 dette，来自古法语 dette，源头是拉丁 debitum“欠的东西”。文艺复兴时期的学者为了显示这个词的拉丁出身，把 b 加回去，写成 debt——但英语里从来没有读过这个 b。\n\n同类还有 **doubt**（中古英语 douten，来自拉丁 dubitare，b 后加）、**subtle**（中古英语 sotil，来自拉丁 subtilis，b 后加）。\n\n这些插入字母的共同点：**只反映词源，不反映发音，也不构成词素**。它们让拼写与读音的对应关系变差，却是英语拼写史的一部分。",
       "morphemes": [
         "debt"
+      ],
+      "morphemeIds": [
+        "rx-debt"
       ]
     },
     {

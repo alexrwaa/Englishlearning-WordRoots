@@ -54,7 +54,8 @@
         "top",
         "soft",
         "ware"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "table",
@@ -140,7 +141,8 @@
         "top",
         "key",
         "board"
-      ]
+      ],
+      "morphemeIds": []
     }
   ],
   "practice": [

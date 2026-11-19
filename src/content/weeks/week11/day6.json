@@ -61,7 +61,8 @@
           "zh": "遮挡",
           "en": "occlusion"
         }
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "text",
@@ -83,6 +84,11 @@
           "zh": "视觉里程计",
           "en": "visual odometry"
         }
+      ],
+      "morphemeIds": [
+        "rx-od",
+        "cx-metr",
+        "cx-y"
       ]
     },
     {

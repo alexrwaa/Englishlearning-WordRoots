@@ -48,6 +48,9 @@
       ],
       "morphemes": [
         "struct"
+      ],
+      "morphemeIds": [
+        "rx-stru"
       ]
     },
     {
@@ -85,6 +88,11 @@
         "form",
         "act",
         "port"
+      ],
+      "morphemeIds": [
+        "rx-form",
+        "rx-act",
+        "rx-port"
       ]
     },
     {
@@ -94,6 +102,10 @@
       "morphemes": [
         "port",
         "ped"
+      ],
+      "morphemeIds": [
+        "rx-port",
+        "rx-ped"
       ]
     },
     {

@@ -34,6 +34,9 @@
       "body": "希腊 **logos** 的含义很宽：言词、叙述、道理、理性。作为组合形式 **-logy**，它表示“对某对象的系统论述”，现代汉语通常译成“……学”。\n\n它有一个硬性限制：**永远出现在词的第二个位置**。你可以说 biology、geology、psychology，但不能把 -logy 放前面。这与上周的拉丁后缀位置相同，却与自由词基不同——**位置本身就是一条构词信息**。\n\n顺便记住三个同族形式：\n\n- **-logy**：学科、研究领域。\n- **-logist**：从事该学科的人。\n- **-logic / -logical**：与该学科相关的（形容词）。",
       "morphemes": [
         "logy"
+      ],
+      "morphemeIds": [
+        "cx-logy"
       ]
     },
     {
@@ -93,6 +96,10 @@
       "morphemes": [
         "logy",
         "ist"
+      ],
+      "morphemeIds": [
+        "cx-logy",
+        "sx-ist"
       ]
     },
     {
@@ -136,6 +143,10 @@
       "morphemes": [
         "logy",
         "techn"
+      ],
+      "morphemeIds": [
+        "cx-logy",
+        "rx-techn"
       ]
     }
   ],

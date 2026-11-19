@@ -1,6 +1,8 @@
+import { useEffect, useRef, useState } from 'react';
 import { Badge } from '../ui';
 import { POS_LABEL } from '../matrix/model';
 import { RULE_LABELS } from '../../lib/derive';
+import { VIRTUAL_THRESHOLD, windowFor } from './VirtualStack';
 import type { AffixColumn, Cell, LadderRow } from './model';
 
 const STATE_LABEL = {
@@ -12,13 +14,25 @@ const STATE_LABEL = {
 const STATE_HINT = {
   verified: '词库中存在这个词，点开可看完整派生链',
   'rule-blocked': '违反构词规则，点开查看原因',
-  unknown: '拼写可成立，但词库未收录（不等于不存在）',
+  unknown: '拼写可成立，但词库未收录（未收录 ≠ 不存在）',
 } as const;
+
+/** Row geometry. Fixed, because a windowed list cannot measure every row. */
+const ROW_HEIGHT = 56;
+const ROW_GAP = 6;
+const ROW_STRIDE = ROW_HEIGHT + ROW_GAP;
+const OVERSCAN = 3;
+const MAX_VIEWPORT = 560;
 
 /**
  * The ladder grid: rows are the base and its verified derivatives, columns are
  * the affixes that occur in this family. Every cell is one of three states, and
  * all three stay visible — an empty-looking cell is a conclusion, not a bug.
+ *
+ * Rows are windowed once the ladder is longer than a screenful: a big family
+ * would otherwise mount one button per cell (29 rows x 12 affixes = 348 nodes)
+ * for content the reader has to scroll to anyway. The header stays pinned, and
+ * the grid reports how many rows it actually rendered.
  */
 export function LabGrid({
   rows,
@@ -31,6 +45,29 @@ export function LabGrid({
   selected: { word: string; affix: string } | null;
   onSelect: (row: LadderRow, cell: Cell) => void;
 }) {
+  const ref = useRef<HTMLDivElement | null>(null);
+  const frame = useRef(0);
+  const [scrollTop, setScrollTop] = useState(0);
+  const [viewport, setViewport] = useState(MAX_VIEWPORT);
+
+  const virtual = rows.length > VIRTUAL_THRESHOLD;
+  const { start, end } = virtual
+    ? windowFor(rows.length, scrollTop, viewport, ROW_STRIDE, OVERSCAN)
+    : { start: 0, end: rows.length };
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || !virtual) return;
+    const measure = () => setViewport(Math.min(el.clientHeight || MAX_VIEWPORT, MAX_VIEWPORT));
+    measure();
+    if (typeof ResizeObserver === 'undefined') return;
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [virtual]);
+
+  useEffect(() => () => cancelAnimationFrame(frame.current), []);
+
   if (columns.length === 0) {
     return (
       <p className="small faint" style={{ margin: 0 }}>
@@ -39,33 +76,56 @@ export function LabGrid({
     );
   }
 
+  const template = `minmax(120px, auto) repeat(${columns.length}, minmax(88px, 1fr))`;
+  const topPad = start > 0 ? start * ROW_STRIDE - ROW_GAP : 0;
+  const bottomPad = end < rows.length ? (rows.length - end) * ROW_STRIDE : 0;
+
   return (
-    <div className="scroll-x">
-      <div
-        className="lab-grid"
-        style={{ gridTemplateColumns: `minmax(112px, auto) repeat(${columns.length}, minmax(88px, 1fr))` }}
-      >
-        <div className="lab-corner tiny faint">
+    <div
+      className="lab-scroll"
+      ref={ref}
+      data-virtual={virtual}
+      data-rendered-rows={end - start}
+      data-total-rows={rows.length}
+      onScroll={
+        virtual
+          ? (e) => {
+              const next = e.currentTarget.scrollTop;
+              if (frame.current) return;
+              frame.current = requestAnimationFrame(() => {
+                frame.current = 0;
+                setScrollTop(next);
+              });
+            }
+          : undefined
+      }
+    >
+      <div className="lab-grid" data-virtual={virtual} style={{ gridTemplateColumns: template }}>
+        <div className="lab-corner tiny faint lab-head">
           词基 ╲ 加成分
         </div>
         {columns.map((col) => (
-          <div key={`${col.kind}-${col.form}`} className="lab-col-head">
+          <div key={`${col.kind}-${col.form}`} className="lab-col-head lab-head">
             <span className="mono">{col.kind === 'prefix' ? `${col.form}-` : `-${col.form}`}</span>
             <span className="tiny faint">{col.kind === 'prefix' ? '前缀' : '后缀'}</span>
           </div>
         ))}
 
-        {rows.map((row) => (
+        {topPad > 0 ? <div aria-hidden style={{ gridColumn: '1 / -1', height: topPad }} /> : null}
+
+        {rows.slice(start, end).map((row) => (
           <Row key={row.node.word} row={row} selected={selected} onSelect={onSelect} />
         ))}
+
+        {bottomPad > 0 ? <div aria-hidden style={{ gridColumn: '1 / -1', height: bottomPad }} /> : null}
       </div>
 
-      <div className="row tiny faint" style={{ marginTop: 10, gap: 14, flexWrap: 'wrap' }}>
+      <div className="row tiny faint lab-legend" style={{ marginTop: 10, gap: 14, flexWrap: 'wrap' }}>
         <span>
           <span className="lab-legend-dot" data-state="verified" /> 已收录：词库中有这个词
         </span>
         <span>
-          <span className="lab-legend-dot" data-state="unknown" /> 未收录：拼写成立，词库没有
+          <span className="lab-legend-dot" data-state="unknown" /> 未收录：拼写成立，词库没有（未收录 ≠ 不存在）
         </span>
         <span>
           <span className="lab-legend-dot" data-state="rule-blocked" /> 规则不允许：给出原因
@@ -73,6 +133,11 @@ export function LabGrid({
         <span>
           {rows.length} 个词基层 · {columns.length} 个加成分列
         </span>
+        {virtual ? (
+          <span className="lab-window-note">
+            窗口化：只渲染 {end - start} / {rows.length} 行（滚动时按需挂载）
+          </span>
+        ) : null}
         {columns.length > 8 ? <span>← 表格可左右滚动查看全部列 →</span> : null}
       </div>
     </div>
@@ -91,7 +156,7 @@ function Row({
   const { node } = row;
   return (
     <>
-      <div className="lab-row-head" style={{ paddingLeft: 6 + node.depth * 10 }}>
+      <div className="lab-row-head" data-dim={!row.matches} style={{ paddingLeft: 6 + node.depth * 10 }}>
         <div className="row" style={{ gap: 6, flexWrap: 'wrap' }}>
           <span className="mono tiny faint">L{node.depth}</span>
           <span className="word" style={{ fontSize: 15 }}>
@@ -108,6 +173,7 @@ function Row({
       {row.cells.map((cell) => {
         const active = selected?.word === node.word && selected.affix === cell.affix.form;
         const entry = cell.verdict.state === 'verified' ? cell.verdict.word : '';
+        const dim = !cell.matches || !row.matches;
         return (
           <button
             key={`${node.word}-${cell.affix.kind}-${cell.affix.form}`}
@@ -115,9 +181,9 @@ function Row({
             className="lab-cell"
             data-state={cell.verdict.state}
             data-active={active}
-            data-dim={!cell.matches}
+            data-dim={dim}
             onClick={() => onSelect(row, cell)}
-            title={`${node.word} ${cell.affix.kind === 'prefix' ? `+ ${cell.affix.form}-` : `+ -${cell.affix.form}`} → ${cell.verdict.word}\n${STATE_HINT[cell.verdict.state]}`}
+            title={`${node.word} ${cell.affix.kind === 'prefix' ? `+ ${cell.affix.form}-` : `+ -${cell.affix.form}`} → ${cell.verdict.word}\n${STATE_LABEL[cell.verdict.state]}｜${STATE_HINT[cell.verdict.state]}`}
             aria-label={`${node.word} 加 ${cell.affix.form}：${STATE_LABEL[cell.verdict.state]}`}
           >
             {cell.verdict.state === 'verified' ? (
@@ -151,6 +217,33 @@ function Row({
 export function StateBadge({ state }: { state: Cell['verdict']['state'] }) {
   const tone = state === 'verified' ? 'green' : state === 'rule-blocked' ? 'red' : 'amber';
   return <Badge tone={tone}>{STATE_LABEL[state]}</Badge>;
+}
+
+/**
+ * Persistent three-state key. The grid footer carries a compact version; this
+ * block is the one shown above the matrix, where a reader meets the states for
+ * the first time.
+ */
+export function StateLegend() {
+  return (
+    <div className="lab-state-legend">
+      <div>
+        <span className="lab-legend-dot" data-state="verified" />
+        <strong>已收录</strong>
+        <span className="tiny faint">词库里有这个词，判定来自词条本身</span>
+      </div>
+      <div>
+        <span className="lab-legend-dot" data-state="unknown" />
+        <strong>未收录</strong>
+        <span className="tiny faint">拼写符合规则，但词库没有（未收录 ≠ 不存在）</span>
+      </div>
+      <div>
+        <span className="lab-legend-dot" data-state="rule-blocked" />
+        <strong>规则不允许</strong>
+        <span className="tiny faint">违反构词顺序或搭配，会给出具体原因</span>
+      </div>
+    </div>
+  );
 }
 
 /**

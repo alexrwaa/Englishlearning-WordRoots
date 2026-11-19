@@ -1,0 +1,284 @@
+{
+  "id": "w14d5",
+  "week": 14,
+  "day": 5,
+  "title": "现在分词 -ent-：从“正在做”到抽象名词",
+  "tagline": "agent 是做事的人，agency 是做事的能力或机构：一对词，两套词尾",
+  "objectives": [
+    "能说出拉丁现在分词词干 -ent- 的来源（-ens / -entis）",
+    "能解释 -ent- + -ia 如何产生英语的 -ce 与 -cy 两类抽象名词",
+    "能区分 agent / agency、patient / patience 这类同词根不同词尾的配对"
+  ],
+  "prereqs": [
+    "w14d4"
+  ],
+  "concepts": [
+    "c-suffix",
+    "c-derivation",
+    "c-base",
+    "c-word-family",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s5-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "-ent- 是“正在做”的词干",
+      "body": "拉丁现在分词的主格以 **-ens** 结尾，属格是 **-entis**，所以构词词干是 **-ent-**：\n\n- docens / docentis（正在教）→ 词干 docent-\n- agens / agentis（正在做）→ 词干 agent-\n- sapiens / sapientis（正在知）→ 词干 sapient-\n- sentiens / sentientis（正在感觉）→ 词干 sentient-\n- sciens / scientis（正在知道）→ 词干 scient-\n\n英语直接借了一批这样的分词作名词或形容词：agent（做事的人）、patient（正在忍受的人→病人）、president（坐在前面的人）、student（正在用力的人）、docent（博物馆讲解员，原义“教书者”）。\n\n关键点：**-ent- 自带“正在”的过程义**，所以这些词最初都指“处于某动作中的人”，而不是“职业”。语义后来才专门化。",
+      "terms": [
+        {
+          "term": "present participle",
+          "zh": "现在分词",
+          "en": "present participle",
+          "note": "表示同时进行的动作的分词形式"
+        }
+      ],
+      "morphemes": [
+        "ent"
+      ],
+      "morphemeIds": [
+        "sx-ent"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "加 -ia：把“正在做”变成“这种性质”",
+      "body": "在 -ent- 词干后加 **-ia**（抽象名词后缀），得到表示性质或状态的名词。这是本章最稳定的一条派生链：\n\n- prudens / prudent-（谨慎的）+ -ia → **prudentia** → 英语 **prudence**\n- sapiens / sapient-（有智慧的）+ -ia → **sapientia** → **sapience**\n- eloquens / eloquent-（能说会道的）+ -ia → **eloquentia** → **eloquence**\n- innocens / innocent-（无害的）+ -ia → **innocentia** → **innocence**\n- sciens / scient-（知道的）+ -ia → **scientia** → **science**\n\n注意科学（science）的历史：scientia 本义是“知识、知道的状态”，19 世纪才收窄为“自然科学”。这不是构词变化，而是词义专门化——形态没变，义域变了。\n\n这条链也解释了为什么英语里 -ence 结尾的词多是抽象名词：它们几乎都是 -entia 的直接后代。",
+      "morphemes": [
+        "ia",
+        "ence"
+      ],
+      "morphemeIds": [
+        "sx-ia",
+        "sx-ence"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-ce 还是 -cy：一条有倾向但不确定的规律",
+      "body": "同样是 -entia，英语有时作 **-ence／-ance**，有时作 **-ency／-ancy**。这不是随机的，但也不是硬规则。可用的倾向有三条：\n\n1. **经古法语借入的，多作 -nce**：prudence、eloquence、innocence、patience、science。\n2. **表“职务、机构、系统性的抽象”的，多作 -ncy**：agency、presidency、efficiency、tendency、urgency。\n3. **成对出现时，-nce 偏性质，-ncy 偏职能或具体化**：innocence（天真）／innocency（罕用）、efficiency（效率）／efficience（罕用）。\n\n必须说清楚：这条规律只能用来做“先猜”，不能用来“断定”。英语里存在大量反例与罕用变体，正确的做法是——**写作时查词典，阅读时按语境判断**。\n\n本课要建立的是识别能力：看到 -ence／-ency／-ance／-ancy，知道它来自 -entia／-antia，是“性质名词”，而不是动词或形容词。",
+      "morphemes": [
+        "ence",
+        "ance",
+        "ancy"
+      ],
+      "morphemeIds": [
+        "sx-ence",
+        "sx-ance",
+        "sx-ancy"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "八组 -entia 的后代",
+      "body": "第三列是拉丁原形，第四列是英语结果。看第四列的拼写差异，就能体会“同一个后缀、不同的借入路径”。这八组覆盖了 -ence、-ance、-ency、-cy 四种结局。",
+      "head": [
+        "分词词干",
+        "拉丁名词",
+        "英语",
+        "结局"
+      ],
+      "rows": [
+        [
+          "sapient-",
+          "sapientia",
+          "sapience",
+          "-ence"
+        ],
+        [
+          "prudent-",
+          "prudentia",
+          "prudence",
+          "-ence"
+        ],
+        [
+          "eloquent-",
+          "eloquentia",
+          "eloquence",
+          "-ence"
+        ],
+        [
+          "innocent-",
+          "innocentia",
+          "innocence",
+          "-ence"
+        ],
+        [
+          "scient-",
+          "scientia",
+          "science",
+          "-ence"
+        ],
+        [
+          "patient-",
+          "patientia",
+          "patience",
+          "-ence"
+        ],
+        [
+          "agent-",
+          "agentia（晚期拉丁）",
+          "agency",
+          "-ency／-cy"
+        ],
+        [
+          "efficient-",
+          "efficientia",
+          "efficiency",
+          "-ency"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "agent 与 agency：同一个词干，两种具体化",
+      "body": "这一对最能说明“后缀决定抽象层级”：\n\n- **agent** 是分词直接作名词：正在做事的那个人。在语法里是“施事”，在商业里是“代理人”，在化学里是“试剂”——三个义项都保留“起作用的东西”这一核心。\n- **agency** 是抽象名词：做事的能力、中介的作用，进一步具体化为“机构”。所以“旅行社”是 travel agency，“能动性”是 human agency。\n\n同样的配对还有：\n\n- patient（病人／受事）／patience（忍耐）\n- president（主席）／presidency（任期、职位）\n- resident（居民）／residence（住所）\n- dependent（依赖者）／dependence（依赖）\n\n规律：**-ent 指“承担该动作的人或物”，-ence／-ency 指“该动作形成的性质、状态或制度”**。做题时先判断需要“人”还是“性质”，再选词尾。",
+      "morphemes": [
+        "ent",
+        "c-suffix"
+      ],
+      "morphemeIds": []
+    }
+  ],
+  "practice": [
+    {
+      "id": "w14d5-p1",
+      "kind": "mcq",
+      "prompt": "sapience 的构成是：",
+      "choices": [
+        "sapient-（现在分词词干，正在知）+ -ia（抽象名词）",
+        "sapi-（知道）+ -ence（形容词后缀）",
+        "sap-（味道）+ -ience（学科后缀）",
+        "sapiens 直接加 -ce，无词干变化"
+      ],
+      "answer": 0,
+      "explain": "sapiens 的属格是 sapientis，词干 sapient-，加 -ia 得 sapientia，英语作 sapience“智慧”。-ence 是 -ia 在英语里的结局之一，不是独立的形容词后缀。把 sapiens 直接加 -ce 会得到 sapiensce 这样的形式，说明必须经词干。",
+      "concepts": [
+        "c-base",
+        "c-suffix",
+        "ia"
+      ]
+    },
+    {
+      "id": "w14d5-p2",
+      "kind": "cloze",
+      "prompt": "填入表示“谨慎”的名词",
+      "sentence": "Out of ___, she copied the original figures into a separate file before running any of the scripts.",
+      "answer": "prudence",
+      "accept": [
+        "prudence",
+        "谨慎"
+      ],
+      "explain": "prudens / prudent-（谨慎的）+ -ia → prudentia → prudence。out of prudence 是固定搭配“出于谨慎”。这里需要名词，且与 out of 搭配；prudent 是形容词，out of prudent 不成立。注意 -ent- 词干 + -ia 这条链在英语里几乎总作 -ence。",
+      "concepts": [
+        "c-suffix",
+        "ence",
+        "c-word-family"
+      ]
+    },
+    {
+      "id": "w14d5-p3",
+      "kind": "mcq",
+      "prompt": "在句子 “The question is whether the algorithm has any agency.” 中，agency 的意思是：",
+      "choices": [
+        "能动性、自主起作用的能力",
+        "代理机构",
+        "施事者本人",
+        "工作效率"
+      ],
+      "answer": 0,
+      "explain": "agency 的抽象义是“起作用的能力”，在哲学、社会学与人工智能讨论里常指“是否能自主行动”。代理机构是同一词的具体化义项（travel agency），施事者是 agent，效率是 efficiency。判断依据是搭配：has any agency 说的是能力，不是机构。",
+      "concepts": [
+        "c-suffix",
+        "c-register",
+        "c-suffix"
+      ]
+    },
+    {
+      "id": "w14d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）sentient 最可能的意思是：",
+      "choices": [
+        "有感知能力的",
+        "多愁善感的",
+        "正在发送的",
+        "能够被感知的"
+      ],
+      "answer": 0,
+      "explain": "senti-（感觉，见 sense、sensation）+ -ent-（现在分词，“正在感觉”）→ sentient“有感知的”。注意与 sent 的“发送”无关，那是另一个词源（mittere）。能够被感知的是 sensible／perceptible，多愁善感是 sentimental，都在别的词根上。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "ent"
+      ],
+      "hint": "先判断 -ent- 是“正在……”，再看 senti- 与哪个英语词同族。"
+    },
+    {
+      "id": "w14d5-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一组符合“-nce 偏性质、-ncy 偏职能或系统”的倾向？",
+      "choices": [
+        "innocence（天真）／agency（机构、能动性）",
+        "science（科学）／patience（耐心）",
+        "eloquence（雄辩）／prudence（谨慎）",
+        "prudence（谨慎）／patience（耐心）"
+      ],
+      "answer": 0,
+      "explain": "innocence 表性质（天真无害），agency 表职能／机构（代理、能动性），符合倾向。其余三组都落在 -nce／-ence 一侧，没有形成对照。再强调一次：这条规律只能用来先猜，遇到具体词仍要查证，因为英语里存在大量并存与罕用变体。",
+      "concepts": [
+        "c-suffix",
+        "c-register",
+        "c-suffix"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w14d5-a1",
+      "kind": "infer",
+      "prompt": "推测 sentience 的含义",
+      "passage": "The committee drew a line between intelligence and sentience: a system may solve problems without ever feeling anything, whereas sentience is precisely the capacity to feel, to suffer, and to have experience at all.",
+      "word": "sentience",
+      "choices": [
+        "感知与感受的能力",
+        "解决复杂问题的能力",
+        "与人交流的能力",
+        "自我复制的能力"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：senti-（感觉）+ -ent-（现在分词）+ -ia → 抽象名词；② 句法：intelligence and sentience 并列，但后文把两者对立；③ 语境：whereas sentience is precisely the capacity to feel, to suffer, and to have experience——定义句；④ 校验：解题、交流、自我复制都归 intelligence 一侧，与“感受、受苦、有经验”不对应。",
+      "explain": "sentience 是“感知力、感受能力”，与“智能”常被区分：能算不等于能感受。词形线索是 -ent- + -ia：现在分词加抽象名词后缀，表示“正在感觉”这一性质本身。同族 sentient、sensation、sensory、consensus（共同感觉）都把词根指向“感觉”，与“发送”无关。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "ia"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：现在分词与抽象名词"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "-ent-／-entia 与 -ence／-ency 词表"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "agent、agency、science、sentience 的语源"
+    }
+  ]
+}

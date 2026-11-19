@@ -1,0 +1,290 @@
+{
+  "id": "w14d1",
+  "week": 14,
+  "day": 1,
+  "title": "希腊名词后缀与“后缀的语义值”",
+  "tagline": "-ma 给结果，-sis 给过程，-tor 给做事的人：后缀也能分类",
+  "objectives": [
+    "能说出 -ma（-mat-）、-sis（-se-）、-tor 三个希腊后缀各自固定了什么",
+    "能解释为什么 analysis 的复数是 analyses、派生词是 analytic",
+    "能按“场所／施事／指小／结果／过程／性质”给一批后缀归类"
+  ],
+  "prereqs": [
+    "w13d7",
+    "c-greek-latin"
+  ],
+  "concepts": [
+    "c-suffix",
+    "c-derivation",
+    "c-base",
+    "c-greek-latin",
+    "c-word-family"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s3-3",
+    "kp-s1c9s3-4"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "-ma / -mat-：把动作的结果固定下来",
+      "body": "希腊的 **-ma** 加在动词词根后，指“做出来的东西、结果、产物”，它的斜格词干是 **-mat-**。这与拉丁的 -tio（过程）不同：-ma 更强调**结果本身**。\n\n- pragma（πρᾶγμα，属格 pragmatos）“做成的事、事情”→ 英语 **pragmatic**（讲实际的）\n- schema（σχῆμα，属格 schematos）“形状、图式”→ **schematic**（示意的）、scheme\n- drama（δρᾶμα，属格 dramatos）“做成的东西 → 剧”→ **dramatic**\n- problema（πρόβλημα，属格 problematos）“摆在面前的东西”→ **problem**、problematic\n\n注意词干：英语派生词一律用 -mat-，所以是 pragmatic 而不是 pragmic，是 schematic 而不是 schemic。**主格给你借词，斜格给你构词**——拉丁如此，希腊也如此。",
+      "terms": [
+        {
+          "term": "stem",
+          "zh": "词干",
+          "en": "stem",
+          "note": "这里指 -mat- 这种用于构词的斜格形式"
+        }
+      ],
+      "morphemes": [
+        "ma"
+      ],
+      "morphemeIds": [
+        "cx-ma"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-sis / -se-：把过程或状态固定下来",
+      "body": "**-sis** 指过程、状态或动作本身，词干是 **-se-**（更准确说，希腊属格 -seōs）。它在英语里的两个后果很实用：\n\n1. **复数收 -ses**：analysis → analyses，hypothesis → hypotheses，diagnosis → diagnoses，crisis → crises。因为 -sis 的词干带 -se-，复数加 -es 后拼作 -ses。\n2. **派生形容词收 -tic**：analysis → analytic，hypothesis → hypothetical（走的是另一条希腊形容词后缀），diagnosis → diagnostic，stasis → static。\n\n所以看到 -sis 结尾的学术词，可以同时预测两件事：复数是 -ses，形容词多半是 -tic。这条预测在医学与自然科学文本里命中率很高：emphasis → emphases／emphatic，synthesis → syntheses／synthetic。",
+      "morphemes": [
+        "sis"
+      ],
+      "morphemeIds": [
+        "cx-sis"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "希腊的 -tor：说话的人",
+      "body": "希腊也有施事后缀 **-tor**（属格 -toros），与拉丁的 -tor 同形但来源不同，二者在英语里合并成同一个拼写。\n\n- rhetor（ῥήτωρ）“演说者、修辞教师”→ **rhetoric**（修辞学）、rhetorical\n- Mentor（Μέντωρ）本是《奥德赛》里的人名，被用作“导师”的普通名词 → **mentor**\n- praetor（拉丁，非希腊）“领导者”→ 英语 praetor（古罗马官职）\n\n这里要提醒：**同形不等于同源**。英语里 -tor 的词多数来自拉丁（actor、doctor、monitor），少数来自希腊（rhetor）。判断来源要看词根与文献，不能只看词尾。\n\n实用价值：遇到以 -tor 结尾的陌生词，先猜“做某事的人或工具”，再按语境调整——rhetor 不是“修辞工具”，而是“讲修辞的人”。",
+      "morphemes": [
+        "ator"
+      ],
+      "morphemeIds": [
+        "sx-ator"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "后缀的语义值：一张分类表",
+      "body": "教材把后缀按语义值分成几类，这张表是全章最该背的一张。注意最后一行：多数后缀只标词性，不携带具体语义——对这类后缀追问“它到底什么意思”会走偏，正确做法是看词根。",
+      "head": [
+        "语义值",
+        "后缀",
+        "例词",
+        "判断提示"
+      ],
+      "rows": [
+        [
+          "场所",
+          "-arium / -ary",
+          "aquarium、library、ossuary",
+          "词干是“物”，后缀说“放它的地方”"
+        ],
+        [
+          "施事或工具",
+          "-tor / -or",
+          "actor、tractor、rhetor",
+          "能回答“谁在做／用什么做”"
+        ],
+        [
+          "指小",
+          "-lus / -la / -lum / -culus",
+          "alveolus、molecula、capsula",
+          "多以 [l] 开头，表“小”及其引申"
+        ],
+        [
+          "结果、产物",
+          "-ma（-mat-）",
+          "pragma、schema、drama",
+          "词干以 -mat- 出现在派生词里"
+        ],
+        [
+          "过程、状态",
+          "-sis（-se-）",
+          "analysis、stasis、diagnosis",
+          "复数 -ses，形容词多 -tic"
+        ],
+        [
+          "只标词性",
+          "-ia / -ium / -tio / -tas",
+          "scientia、studium、electio、gravitas",
+          "语义由词根决定，后缀只说明“是名词”"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "-sis 与 -tio：过程 vs 动作事件",
+      "body": "两者都能译成“××”，但语义侧重不同：希腊 -sis 更像“处于某种过程中的状态”，拉丁 -tio 更像“一次被完成的动作”。这解释了为什么 -sis 的词常出现在描述机制、病理、系统状态的文本里，而 -tion 的词常出现在描述程序、步骤、决策的文本里。",
+      "a": "-sis（希腊）",
+      "b": "-tio（拉丁）",
+      "rows": [
+        [
+          "语义侧重",
+          "过程、状态、机制",
+          "动作、事件、结果"
+        ],
+        [
+          "复数",
+          "-ses：analyses、crises",
+          "-tions：elections、actions"
+        ],
+        [
+          "派生形容词",
+          "多作 -tic：analytic、static",
+          "多作 -al／-ive：electoral、active"
+        ],
+        [
+          "典型语域",
+          "医学、生物、系统描述",
+          "法律、行政、实验步骤"
+        ],
+        [
+          "例词对照",
+          "diagnosis（诊断过程）",
+          "detection（检出的动作）"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w14d1-p1",
+      "kind": "mcq",
+      "prompt": "pragmatic 的词干来自：",
+      "choices": [
+        "pragma 的斜格词干 pragmat-",
+        "pragma 的主格原样",
+        "拉丁词根 prag-",
+        "英语动词 prag 加 -atic"
+      ],
+      "answer": 0,
+      "explain": "pragma 的属格是 pragmatos，词干 pragmat-，加希腊形容词后缀 -ikos（英语 -ic）得 pragmatikos → pragmatic。英语里没有 prag 这个动词，所以后两项可以直接排除；主格 pragma 也不能直接接 -ic。这与拉丁的“斜格给词干”是同一条规律。",
+      "concepts": [
+        "c-base",
+        "c-suffix",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w14d1-p2",
+      "kind": "cloze",
+      "prompt": "填入 analysis 的复数",
+      "sentence": "Two independent ___ of the same sample gave different estimates, which suggests the assay itself is unstable.",
+      "answer": "analyses",
+      "accept": [
+        "analyses",
+        "分析"
+      ],
+      "explain": "analysis 以 -sis 结尾，词干带 -se-，复数收 -ses：analyses。Two 要求复数。最常见的错误是写 analysis 或 analysies——前者是单数，后者是把 -sis 当普通名词乱加 -ies。记住 -sis / -ses 这一对，crisis、hypothesis、diagnosis 全部适用。",
+      "concepts": [
+        "c-inflection",
+        "sis"
+      ]
+    },
+    {
+      "id": "w14d1-p3",
+      "kind": "mcq",
+      "prompt": "下面哪个词含有指小后缀？",
+      "choices": [
+        "alveolus",
+        "aquarium",
+        "actor",
+        "analysis"
+      ],
+      "answer": 0,
+      "explain": "alveolus = alve-（槽）+ -olus（指小），字面“小槽”，解剖学里指小腔。aquarium 是场所后缀 -arium，actor 是施事后缀 -tor，analysis 是过程后缀 -sis。指小后缀的形式特征是多以 [l] 开头，这是快速识别的线索，但最终仍要看词义是否真的是“小”。",
+      "concepts": [
+        "c-suffix",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w14d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）schematic 在学术文本里最可能的意思是：",
+      "choices": [
+        "示意的、纲要式的",
+        "机械的、自动的",
+        "系统的、全面的",
+        "怀疑的、批判的"
+      ],
+      "answer": 0,
+      "explain": "schema（图式、纲要）的词干 schemat- + -ic → schematic“示意的、以简图表示的”。学术写作里 a schematic diagram 就是示意图。机械的是 mechanical，系统的是 systemic／systematic，怀疑的是 skeptical——三个干扰项都与 schema 的词根无关。按 -mat- 词干识别，再按词根义“形状、纲要”定夺。",
+      "concepts": [
+        "c-base",
+        "c-inference",
+        "c-greek-latin"
+      ],
+      "hint": "先找词干 schemat-，再想 schema 是什么意思。"
+    },
+    {
+      "id": "w14d1-p5",
+      "kind": "mcq",
+      "prompt": "关于 actor 与 tractor 的 -tor，正确的说法是：",
+      "choices": [
+        "两者都是施事后缀的产物，actor 指人，tractor 指工具，语义由词根决定",
+        "actor 的 -tor 表人，tractor 的 -tor 表“拉”，两者后缀不同源",
+        "-tor 只表人，tractor 是例外",
+        "-tor 只表工具，actor 是例外"
+      ],
+      "answer": 0,
+      "explain": "-tor 的语义是“施事者或工具”，具体指人还是指物由词根决定：ag-（做）→ actor 做事的人；trac-（拉）→ tractor 拉的工具。把 -tor 限定为“只表人”或“只表工具”都会立刻遇到反例。这也说明后缀给的是语义框架，不是固定译法。",
+      "concepts": [
+        "c-suffix",
+        "c-derivation",
+        "ator"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w14d1-a1",
+      "kind": "infer",
+      "prompt": "推测 static 在句中的含义",
+      "passage": "For three hours the readings were static: every sensor reported the same value to four decimal places, and no amount of tapping the housing produced a change.",
+      "word": "static",
+      "choices": [
+        "静止不变的",
+        "由静电引起的",
+        "统计显著的",
+        "间歇波动的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：sta-（站立）+ -tic（希腊形容词后缀，与 stasis 同族）；② 句法：作表语，描述 readings；③ 语境：冒号后说“每个传感器报到小数点后四位都相同，敲击外壳也不变”；④ 校验：静电是物理义，统计显著是 significant，间歇波动与“三小时不变”相反。",
+      "explain": "static 在这里是“静止的、不变的”。它来自希腊 stasis（站立、停滞）+ -ikos；同族还有 homeostasis（稳态）、stabilise。英语里 static 的“静电”义是 19 世纪物理学专门化的结果，不要让它遮住核心义“站着不动”。这个词同时示范了 -sis 一族的两条出路：名词 stasis、形容词 static。",
+      "concepts": [
+        "c-greek-latin",
+        "c-inference",
+        "c-suffix"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：希腊名词后缀与后缀的语义值"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "-ma／-sis／-tor 词表与语义分类"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "pragmatic、analysis、rhetoric 的希腊语源"
+    }
+  ]
+}

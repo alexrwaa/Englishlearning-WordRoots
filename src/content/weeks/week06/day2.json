@@ -83,6 +83,11 @@
         "bio",
         "graph",
         "anti"
+      ],
+      "morphemeIds": [
+        "cx-bio",
+        "cx-graph",
+        "px-anti"
       ]
     },
     {
@@ -94,6 +99,12 @@
         "therm",
         "metr",
         "logy"
+      ],
+      "morphemeIds": [
+        "cx-geo",
+        "cx-therm",
+        "cx-metr",
+        "cx-logy"
       ]
     },
     {
@@ -187,6 +198,12 @@
         "phon",
         "tele",
         "micro"
+      ],
+      "morphemeIds": [
+        "cx-hydro",
+        "cx-phon",
+        "px-tele",
+        "px-micro"
       ]
     }
   ],

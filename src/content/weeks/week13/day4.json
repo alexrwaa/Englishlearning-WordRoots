@@ -1,0 +1,255 @@
+{
+  "id": "w13d4",
+  "week": 13,
+  "day": 4,
+  "title": "拼写复原与“复数给词干”",
+  "tagline": "appendix → appendices 不是变形，而是把被拼写藏起来的词干还给你",
+  "objectives": [
+    "能解释 appendices、larynges、glandes 中“多出来的”辅音从哪来",
+    "能由复数形式还原词干，并说明它为什么比单数更好用",
+    "能用复数词干解释 appendicitis、laryngitis、generic 的构成"
+  ],
+  "prereqs": [
+    "w13d2",
+    "c-allomorph",
+    "c-spelling-rule"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-allomorph",
+    "c-spelling-rule",
+    "c-base",
+    "c-derivation"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s1-4",
+    "kp-s1c9s1-5"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 6,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "x 是两个音：appendi-x 里藏着 -c-",
+      "body": "appendix 的复数是 appendices。看起来像“x 变成 ces”，其实更准确的描述是：**单数拼写把词干末尾的 /k/ 和词尾的 /s/ 合并写成了一个字母 x**，复数恢复了词干本来的 -c-。\n\n拉丁原形是 appendix，属格 appendicis，词干 **appendic-**。单数主格 appendix 由 appendic- + -s 构成，/k+s/ 用 x 表示；复数主格 appendices 是 appendic- + -es，词干完整露出。\n\n所以正确的思路不是“记住 x → ces”，而是：**x 常常是 /ks/ 的缩写，拆开就能看到词干**。同类还有 index（indic-）、vortex（vortic-）、cortex（cortic-）。\n\n这条思路的价值在派生词上：appendic- 加上 -itis（炎症）就是 appendicitis（阑尾炎）。",
+      "morphemes": [
+        "es"
+      ],
+      "morphemeIds": [
+        "sx-s"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "larynx：拼写里的 -ynx 盖住了 /ŋg/",
+      "body": "larynx 的复数是 larynges，词干是 **laryng-**。单数拼写用字母 x 收尾，掩盖了词干末尾的 /ŋ/ 与 /g/；复数一展开，g 就出现了。\n\nlarynx 来自希腊语（lárunx），经拉丁进入英语。它在解剖学里是“喉”，所以派生词都与喉有关：laryngitis（喉炎）、laryngeal（喉的）、laryngoscope（喉镜）。\n\n注意这里不要套用“-us → -i”那套规则——larynx 不是 -us 名词，它是第三变格法的词（词干以辅音结尾）。第三变格法的复数主格收 **-es**，这一条同时解释了 index → indices、vortex → vortices。\n\n一句话总结：**单数看词尾猜变格法，复数把词干还给你**。",
+      "morphemes": [
+        "es"
+      ],
+      "morphemeIds": [
+        "sx-s"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "glans → glandes：辅音簇被简化",
+      "body": "glans（龟头、橡实）的复数是 glandes，词干 **gland-**。单数 glans 来自更早的 gland-s：/nds/ 这样三个辅音的簇在词尾被简化成 /ns/，拼写随之写成 -ns。复数加了元音，簇被拆开，d 就重新出现。\n\n这条音变叫**簇简化**（cluster simplification）：发音上难念的组合在词尾被削平。英语里也有类似现象：handsome 的 d 常不发音、months 的 ths 常被压缩成一个音。\n\n实践意义有两点：\n\n1. 看到单数拼写比词干“少一个辅音”，先怀疑簇简化，不要以为词干就是这样。\n2. 派生词用的是完整词干：gland- + -ular → glandular（腺的）；gland 单独成词时又是“腺体”的意思，与 glans 同源但义项已经分化。\n\n注意：不要在写作里把 glans 的复数写成 glanses，医学文本用 glandes。",
+      "terms": [
+        {
+          "term": "cluster simplification",
+          "zh": "辅音簇简化",
+          "en": "cluster simplification",
+          "note": "词尾难发的辅音组合被削掉一个音"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么复数形式更适合当构词词干",
+      "body": "把三组形式摆在一起，规律就出来了：\n\n- appendix（单数）／appendices（复数）→ 词干 appendic- → appendicitis\n- larynx（单数）／larynges（复数）→ 词干 laryng- → laryngitis、laryngeal\n- glans（单数）／glandes（复数）→ 词干 gland- → glandular\n- genus（单数）／genera（复数）→ 词干 gener- → generic、generate\n\n原因是：单数主格往往经过音变与拼写压缩，词干被遮住；复数（以及属格）把词干完整暴露。拉丁的派生本来就多发生在斜格词干上，英语继承了这个习惯。\n\n所以遇到“单数和派生词长得不像”的词，第一反应应该是：**去找它的复数或属格**，而不是怀疑自己切错了。这是本课最可迁移的一条方法。",
+      "morphemes": [
+        "es"
+      ],
+      "morphemeIds": [
+        "sx-s"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "单数、复数、词干、派生词",
+      "body": "表格最后一列才是重点：同一个词干能长出一整族词，而这些词在英语里看起来毫不相干——只有回到词干才能看出它们同源。做题时如果能写出第三列，第四列基本可以推断。",
+      "head": [
+        "单数",
+        "复数",
+        "词干",
+        "派生词"
+      ],
+      "rows": [
+        [
+          "appendix",
+          "appendices",
+          "appendic-",
+          "appendicitis（阑尾炎）、appendicular"
+        ],
+        [
+          "index",
+          "indices",
+          "indic-",
+          "indicate（指出）、indicative"
+        ],
+        [
+          "larynx",
+          "larynges",
+          "laryng-",
+          "laryngitis（喉炎）、laryngeal"
+        ],
+        [
+          "glans",
+          "glandes",
+          "gland-",
+          "glandular（腺的）、gland"
+        ],
+        [
+          "genus",
+          "genera",
+          "gener-",
+          "generic（属的、通用的）、generate"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w13d4-p1",
+      "kind": "mcq",
+      "prompt": "appendicitis 中的 appendic- 直接来自：",
+      "choices": [
+        "appendix 的复数 appendices（或属格 appendicis）所显示的词干",
+        "appendix 的单数拼写原样",
+        "希腊词根 append-",
+        "-itis 之前的连接元音"
+      ],
+      "answer": 0,
+      "explain": "appendic- 是 appendix 的斜格词干（属格 appendicis、复数 appendices 都显示它）。单数 appendix 把 /k/ 和 /s/ 合并写成 x，反而遮住了词干。-itis 是“炎症”后缀，所以 appendicitis 字面是“阑尾的炎症”。这正是“复数给词干”的直接应用。",
+      "concepts": [
+        "c-base",
+        "c-derivation",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w13d4-p2",
+      "kind": "cloze",
+      "prompt": "填入 larynx 的复数（医学语域）",
+      "sentence": "Repeated infections had scarred both ___, and his voice had not recovered a year later.",
+      "answer": "larynges",
+      "accept": [
+        "larynges",
+        "喉"
+      ],
+      "explain": "larynx 属第三变格法，复数主格收 -es，且词干 laryng- 完整出现，所以是 larynges。写成 larynxes 在口语里能听懂，但医学文本用 larynges。关键是要意识到单数的 x 掩盖了 /ŋg/，复数才把它露出来。",
+      "concepts": [
+        "c-inflection",
+        "c-allomorph",
+        "es"
+      ]
+    },
+    {
+      "id": "w13d4-p3",
+      "kind": "mcq",
+      "prompt": "glans 的复数 glandes 中，d 的来源是：",
+      "choices": [
+        "词干 gland- 本就有 d，单数 glans 是 gland-s 的簇简化结果",
+        "复数规则额外插入了一个 d",
+        "来自希腊语的增音",
+        "拼写错误，正确形式是 glanses"
+      ],
+      "answer": 0,
+      "explain": "词干是 gland-；单数由 gland- + -s 构成，/nds/ 在词尾被简化，拼写写成 glans。复数 glandes 加了元音，簇被拆开，d 自然出现。所以不是“复数多了一个 d”，而是“单数少了一个 d”。这个方向判断错了，后面所有派生词都会切错。",
+      "concepts": [
+        "c-allomorph",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w13d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 phalanges 是复数，其单数与词干分别是：",
+      "choices": [
+        "phalanx；词干 phalang-",
+        "phalange；词干 phalang-",
+        "phalanx；词干 phalanx-",
+        "phalangis；词干 phalang-"
+      ],
+      "answer": 0,
+      "explain": "phalanx（指骨、方阵）与 larynx 同型：单数用 x 收尾并掩盖 /ŋg/，复数为 phalanges，词干 phalang-。所以派生词是 phalangeal（指骨的）。这条题检验的是“由复数反推单数与词干”的双向能力，而不只是记住 larynx 一个词。",
+      "concepts": [
+        "c-allomorph",
+        "c-inference",
+        "es"
+      ],
+      "hint": "和 larynx / larynges 对比，注意 x 背后是什么音。"
+    },
+    {
+      "id": "w13d4-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“喉炎”的切分（-itis 表示炎症）",
+      "parts": [
+        "laryng",
+        "itis"
+      ],
+      "answer": "laryngitis",
+      "explain": "laryng-（喉的词干，来自 larynges）+ -itis（炎症）→ laryngitis“喉炎”。注意词干取自复数，不是单数 larynx；如果按单数切，会写成 larynxitis，这在英语里不存在。同型：appendicitis、bronchitis、arthritis。",
+      "concepts": [
+        "c-derivation",
+        "c-base",
+        "c-word-sum"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w13d4-a1",
+      "kind": "infer",
+      "prompt": "推测 laryngitis 的含义",
+      "passage": "After two weeks of hoarseness, the singer was diagnosed with laryngitis: the lining of her larynx was inflamed, and her doctor ordered complete vocal rest for ten days.",
+      "word": "laryngitis",
+      "choices": [
+        "喉炎",
+        "扁桃体炎",
+        "声带结节",
+        "气管感染"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：laryng-（喉的词干）+ -itis（炎症）；② 构词证据：同段出现 larynx，且说明“喉的内壁发炎”；③ 语境：hoarseness（声音嘶哑）、vocal rest（禁声）都指向喉部；④ 校验：扁桃体是 tonsil、声带结节是 nodule、气管是 trachea，词干都对不上。",
+      "explain": "laryngitis 是“喉炎”。识别它的关键不是背词，而是掌握两条：-itis 表炎症（appendicitis、bronchitis、dermatitis 都成立），喉的词干取自复数 larynges 的 laryng-。把这两条合起来，即使第一次见到这个病名也能推断。",
+      "concepts": [
+        "c-derivation",
+        "c-inference",
+        "c-base"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：拼写与音变复原、复数提供词干"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "appendix、index、larynx 的变格与派生"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "appendicitis、laryngitis、glandular 的构词"
+    }
+  ]
+}

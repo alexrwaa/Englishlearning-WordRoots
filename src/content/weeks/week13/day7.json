@@ -1,0 +1,269 @@
+{
+  "id": "w13d7",
+  "week": 13,
+  "day": 7,
+  "title": "拉丁名词后缀（二）与本周综合",
+  "tagline": "-tas、-tio、-tor、-tura、-tus：五个后缀，五种“把动作变成东西”的方式",
+  "objectives": [
+    "能说出 -tas / -tio / -tor / -tura / -tus 各自的语义与英语对应形式",
+    "能解释“词干随格变化”为什么会让英语后缀看起来对不上拉丁主格",
+    "能在真实段落中定位拉丁后缀词，并完成一次长词四层拆解"
+  ],
+  "prereqs": [
+    "w13d6"
+  ],
+  "concepts": [
+    "c-suffix",
+    "c-derivation",
+    "c-base",
+    "c-etymology",
+    "c-word-family",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s3-2"
+  ],
+  "minutes": {
+    "review": 6,
+    "learn": 7,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "table",
+      "title": "五个后缀的分工",
+      "body": "这五个后缀都在做同一件事：把一个动作或性质固定成一个名词。区别在于固定的是哪一面——性质本身、动作过程、做动作的人、动作的结果、还是动作作为事件。第三列最容易被忽略：英语借的往往不是主格，而是斜格词干。",
+      "head": [
+        "后缀",
+        "语义",
+        "拉丁例（主格／词干）",
+        "英语对应"
+      ],
+      "rows": [
+        [
+          "-tas（-tat-）",
+          "抽象性质",
+          "gravitas / gravitat-",
+          "-ity：gravity、gravitation"
+        ],
+        [
+          "-tio（-tion-）",
+          "动作、过程",
+          "electio / election-",
+          "-ion：election、selection"
+        ],
+        [
+          "-tor（-tor-）",
+          "施事者、工具",
+          "actor / actor-",
+          "-or：actor、tractor"
+        ],
+        [
+          "-tura（-tura-）",
+          "动作的结果、产物",
+          "pictura / pictura-",
+          "-ure：picture、sculpture"
+        ],
+        [
+          "-tus（-tus-）",
+          "动作作为事件（第四变格法）",
+          "adventus / adventus",
+          "-t／-ure：advent、adventure"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "词干随格变化：为什么英语的 -ity 对不上 -tas",
+      "body": "gravitas 在英语里是 gravity，不是 gravitity，也不是 gravitias。原因在拉丁的变格：gravitas 的属格是 **gravitatis**，词干是 **gravitat-**。英语借的是这个斜格词干，加上 -ity（来自 -itas 的另一种形态），于是得到 grav-ity（经法语 gravité），而 gravitat- 加 -ion 得到 gravitation。\n\n同一个机制解释了另外三组：\n\n- electio / electionis → 词干 election- → election（不是 electio）\n- pictura / picturae → 词干 pictura- → picture\n- adventus / adventus → 词干 advent- → advent、adventure\n\n所以看到英语词尾和拉丁主格“对不上”，先别怀疑语源，去查属格。**属格才是构词词干的正规入口**——这是第 1 天“英语借主格、派生用斜格”的第二次应用。",
+      "morphemes": [
+        "tion",
+        "ity"
+      ],
+      "morphemeIds": [
+        "sx-tion",
+        "sx-ity"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-tor 与 -tura：做事的人 vs 做出来的东西",
+      "body": "这两个后缀常成对出现，语义却正好相反：\n\n- **-tor** 指施事者或工具：actor（做的人）、doctor（原义“教师”，来自 docere“教”）、tractor（拉的工具）、monitor（提醒者／监视器）。\n- **-tura** 指动作的结果或产物：pictura（画出来的东西）、sculptura（雕刻品）、fractura（断裂处 → fracture）。\n\n一个有用的判断：如果英语词能回答“谁／什么在做”，多半是 -tor；如果能回答“做出来的是什么”，多半是 -tura。\n\n注意 -or 在英语里被大量沿用，但并非所有 -or 都是施事后缀：error、horror、color 里的 -or 属于词干本身，不表施事。判断时看能否还原出一个动词（act → actor，err → error 不是“犯错者”）。",
+      "morphemes": [
+        "ure",
+        "ator"
+      ],
+      "morphemeIds": [
+        "sx-ure",
+        "sx-ator"
+      ]
+    },
+    {
+      "kind": "passage",
+      "title": "综合阅读：一段带拉丁后缀的学术文字",
+      "body": "先通读一遍，不要停下查词，只抓大意。第二遍再逐句找出带 -tas／-tio／-tor／-tura／-tus 痕迹的词，先靠后缀判断词性与大致语义，写下你的猜测，最后才核对下面的问题。顺序反了，练的就只是查词典。",
+      "excerpt": "Academic prose still carries the imprint of Latin noun suffixes. A claim acquires gravitas when evidence supports it; a pictura of the results, however elegant, is not a substitute for the numbers. An election is legitimate only if the procedure is public, and the advent of a new instrument rarely settles a dispute on its own.",
+      "glossZh": "学术文体至今仍带着拉丁名词后缀的印记。一个主张在有证据支持时才获得分量；结果的图景无论多优雅，都不能替代数字。选举只有在程序公开时才正当，而新仪器的到来本身很少能解决争议。",
+      "questions": [
+        {
+          "q": "gravitas 在这里是什么意思？它为什么不是“重力”？",
+          "a": "这里指“分量、庄重感”，是抽象性质义。gravity 的“重力”义是后来在物理学中专门化的；同一词根的两条义项在英语里并存。"
+        },
+        {
+          "q": "pictura 与 picture 的关系是什么？",
+          "a": "pictura 是“画出来的东西”，英语借词干 pictura- 得 picture。作者用 pictura 而不是 picture，是为了强调“被描绘出来的图景”这一层，属于修辞性的拉丁化用法。"
+        },
+        {
+          "q": "这段文字的作者对“新仪器”持什么态度？",
+          "a": "保留态度：advent（到来）本身不解决争议，暗示工具的更新不能替代论证。rarely settles 是明确的限定。"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "长词拆解示范：respectability",
+      "body": "拿一个词库里真实收录的长词走完四步。\n\n**第一步，切分**：re + spect + abil + ity。\n**第二步，逐段释义**：re-（回、再）+ spect（看）+ -abil-（能够被……的，来自 -bilis）+ -ity（抽象性质）。\n**第三步，判断层级**：respect（看回去→尊重）→ respectable（值得尊重的）→ respectability（值得尊重的性质）。所以 -ity 作用在 respectable 上，不是直接接 spect。\n**第四步，校验**：同族有 respect、respectful、respectable、respectively；-ity 只接形容词，接动词会造出不存在的形式。\n\n注意第四步的“层级”：正确写法是 re + spect + able + ity，但拼写上 able 变 abil-，这是 -able → -ability 的固定交替（第 4 周讲过）。切分时写 abil 是为了对齐表面形式，解释时要说明它对应 -able。",
+      "morphemes": [
+        "able",
+        "ity"
+      ],
+      "morphemeIds": [
+        "sx-able",
+        "sx-ity"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w13d7-p1",
+      "kind": "mcq",
+      "prompt": "gravitas 在英语里对应 gravity，关键原因是：",
+      "choices": [
+        "英语取的是斜格词干 gravitat-，-tas 在英语里常作 -ity",
+        "gravitas 直接去掉了 -as 换成 -y",
+        "gravity 来自另一个拉丁词 gravis",
+        "-tas 在英语里一律变成 -ness"
+      ],
+      "answer": 0,
+      "explain": "gravitas 的属格是 gravitatis，词干 gravitat-；英语经法语借入后变为 gravité／gravity，后缀对应 -ity。gravitation 则是同一词干加 -ion。说“去掉 -as 换 -y”只是表面描述，无法解释 gravitat- 为什么在 gravitation 里出现。",
+      "concepts": [
+        "c-suffix",
+        "c-base",
+        "ity"
+      ]
+    },
+    {
+      "id": "w13d7-p2",
+      "kind": "mcq",
+      "prompt": "electio 的斜格词干是 election-，下列哪一组正确对应？",
+      "choices": [
+        "electio → election（-tio 对应 -tion／-ion）",
+        "electio → electory（-tio 对应 -ory）",
+        "electio → electus（-tio 对应 -us）",
+        "electio → electness（-tio 对应 -ness）"
+      ],
+      "answer": 0,
+      "explain": "-tio 的词干是 -tion-，英语对应 -tion／-ion：electio → election，selectio → selection。这是最稳定的一组对应，因为英语大量借入了以 -tion 结尾的拉丁动作名词。-ory 是形容词后缀，-us 是第四变格法名词词尾，-ness 是本土后缀，都不能对应 -tio。",
+      "concepts": [
+        "c-suffix",
+        "tion"
+      ]
+    },
+    {
+      "id": "w13d7-p3",
+      "kind": "cloze",
+      "prompt": "填入表示“选举”的名词",
+      "sentence": "The ___ of officers takes place every second year, and any member may stand for a single term.",
+      "answer": "election",
+      "accept": [
+        "election",
+        "选举"
+      ],
+      "explain": "electio（动作、过程）+ 英语 -ion → election。这里需要名词作主语，且与 of officers 搭配，正是“动作名词”的典型位置。若填 elective，则是形容词“选修的／选举产生的”，词性不符。",
+      "concepts": [
+        "c-suffix",
+        "tion",
+        "c-word-family"
+      ]
+    },
+    {
+      "id": "w13d7-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）loquacitas 在英语里作 loquacity，它的意思最可能是：",
+      "choices": [
+        "健谈、多话的性质",
+        "说话清楚的程度",
+        "沉默寡言的性格",
+        "语言的起源"
+      ],
+      "answer": 0,
+      "explain": "loqu-（说话，见 loquacious、eloquent）+ -itas（抽象性质）→ loquacitas → loquacity“健谈”。-itas／-ity 只表“性质”，不表“程度”或“起源”。这条题的推理完全靠后缀：即使不认识 loqu-，也能确定它是一个表性质的抽象名词，再结合“说话”这一词根义锁定答案。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "ity"
+      ],
+      "hint": "先确定 -itas 的语义类，再看词根可能指什么。"
+    },
+    {
+      "id": "w13d7-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“可敬性、体面”的切分（-able 在 -ity 前写作 abil）",
+      "parts": [
+        "re",
+        "spect",
+        "abil",
+        "ity"
+      ],
+      "answer": "respectability",
+      "explain": "re-（回）+ spect（看）+ -abil-（能够被……的）+ -ity（性质）→ respectability“可敬、体面”。层级是 respect → respectable → respectability，-ity 接在形容词上。注意拼写交替：-able + -ity → -ability，不能写成 respectableity。",
+      "concepts": [
+        "c-word-sum",
+        "c-derivation",
+        "ity"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w13d7-a1",
+      "kind": "infer",
+      "prompt": "推测 adventitious 的含义",
+      "passage": "Most of the plants in the plot were sown deliberately, but a few were adventitious: their seeds arrived with the soil, or on the boots of visitors, rather than by design.",
+      "word": "adventitious",
+      "choices": [
+        "偶然到来的、非有意引入的",
+        "人工栽培的",
+        "生长迅速的",
+        "来自远方的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：advent-（adventus“到来”的词干）+ -itious（形容词后缀）；② 句法：冒号前用 but 与 sown deliberately 对比；③ 语境：rather than by design 直接给出“非有意”的定义；④ 校验：人工栽培与 deliberately 同义，生长迅速、来自远方都无法解释“随土壤或靴子带来”。",
+      "explain": "adventitious 指“偶然到来的、外来的、非计划内的”。adventus 是“到来”（ad- 向 + ven 来），英语 advent 保留了“到来”，adventitious 则把“偶然随某物到来”这层意思固定成形容词。这是 -tus 这一组里最值得记的一个词，因为它把“动作名词”与“形容词派生”连在一起。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：拉丁名词后缀（二）与词干交替"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "-tas／-tio／-tor／-tura／-tus 词表"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "gravity、election、picture、advent 的语源链"
+    }
+  ]
+}

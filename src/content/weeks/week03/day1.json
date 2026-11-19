@@ -51,7 +51,8 @@
         "non",
         "dis",
         "in"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "compare",
@@ -89,6 +90,10 @@
       "morphemes": [
         "dis",
         "dif"
+      ],
+      "morphemeIds": [
+        "px-dis",
+        "px-dis"
       ]
     },
     {
@@ -108,7 +113,8 @@
         "im",
         "il",
         "ir"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "table",

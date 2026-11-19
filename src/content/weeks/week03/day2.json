@@ -39,6 +39,14 @@
         "trans",
         "circum",
         "intra"
+      ],
+      "morphemeIds": [
+        "px-sub",
+        "px-super",
+        "px-inter",
+        "cx-tra-trans",
+        "px-circum",
+        "px-intra"
       ]
     },
     {
@@ -105,6 +113,10 @@
       "morphemes": [
         "inter",
         "intra"
+      ],
+      "morphemeIds": [
+        "px-inter",
+        "px-intra"
       ]
     },
     {
@@ -196,6 +208,11 @@
         "sub",
         "super",
         "trans"
+      ],
+      "morphemeIds": [
+        "px-sub",
+        "px-super",
+        "cx-tra-trans"
       ]
     }
   ],

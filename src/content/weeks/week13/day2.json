@@ -1,0 +1,304 @@
+{
+  "id": "w13d2",
+  "week": 13,
+  "day": 2,
+  "title": "复数配对：词尾决定复数，不是字母决定",
+  "tagline": "看到 -a、-us、-um、-on、-is 时，先配对再写复数",
+  "objectives": [
+    "能按单数主格词尾说出 -a / -us / -um / -on / -is 各自的复数形式",
+    "能解释 apparatus 复数同形的原因（第四变格法），而不是把它当随意例外",
+    "能在学术语域里为给定名词选出恰当的复数形式"
+  ],
+  "prereqs": [
+    "w13d1"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-borrowing",
+    "c-register",
+    "c-word-family"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s1-2"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 9,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "配对表：五组词尾，五条路线",
+      "body": "拉丁名词的复数不是“加 s”，而是按**变格法**换词尾。对英语学习者来说，实用的做法只有一条：看单数主格的结尾，直接配对。\n\n- 以 **-a** 结尾（第一变格法，多阴性）→ **-ae**：alumna → alumnae，formula → formulae\n- 以 **-us** 结尾（第二变格法，多阳性）→ **-i**：alumnus → alumni，nucleus → nuclei\n- 以 **-um** 结尾（第二变格法，中性）→ **-a**：memorandum → memoranda，datum → data\n- 以 **-on** 结尾（希腊中性）→ **-a**：criterion → criteria，phenomenon → phenomena\n- 以 **-is** 结尾（希腊／i-词干）→ **-es**：crisis → crises，analysis → analyses\n\n注意：**配对依据是词尾，不是词义**。criterion 与 memorandum 一个希腊一个拉丁，复数都收 -a，因为它们都是中性名词。",
+      "terms": [
+        {
+          "term": "declension",
+          "zh": "变格法",
+          "en": "declension",
+          "note": "拉丁名词按词尾分组的屈折类型"
+        },
+        {
+          "term": "nominative plural",
+          "zh": "主格复数",
+          "en": "nominative plural",
+          "note": "词典里列出的复数形式，也是英语借入的形式"
+        }
+      ],
+      "morphemes": [
+        "ae",
+        "us",
+        "um",
+        "on"
+      ],
+      "morphemeIds": [
+        "cx-ae",
+        "cx-us",
+        "cx-ium-um",
+        "cx-on"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "六个高频词的配对结果",
+      "body": "这张表要背的不是六个孤立形式，而是“单数词尾 → 复数词尾”的映射。考试里真正有用的是第五列：知道 -ae 是阴性第一变格法的复数，就能推断任何同型新词。",
+      "head": [
+        "单数",
+        "单数词尾",
+        "复数",
+        "复数词尾",
+        "词义"
+      ],
+      "rows": [
+        [
+          "alumna",
+          "-a",
+          "alumnae",
+          "-ae",
+          "女校友"
+        ],
+        [
+          "alumnus",
+          "-us",
+          "alumni",
+          "-i",
+          "男校友"
+        ],
+        [
+          "memorandum",
+          "-um",
+          "memoranda",
+          "-a",
+          "备忘录"
+        ],
+        [
+          "criterion",
+          "-on",
+          "criteria",
+          "-a",
+          "标准（单数）"
+        ],
+        [
+          "crisis",
+          "-is",
+          "crises",
+          "-es",
+          "危机"
+        ],
+        [
+          "apparatus",
+          "-us",
+          "apparatus",
+          "-us",
+          "器械、装置"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "apparatus 为什么不变：另一套变格法",
+      "body": "apparatus 看起来违反了“-us → -i”，其实它根本不属第二变格法。它属于**第四变格法**，这一类的特点是主格单数与主格复数同形：单数 apparatus，复数也是 apparatus（靠上下文、数词或动词来判断）。同类的还有 status、senatus（元老院）、exercitus（军队）。\n\n所以不要把 apparatus 记成“例外”，要记成“另一条规则”：先判断变格法，再套复数。第四变格法的 -us 是长音，第二变格法的 -us 是短音——拉丁语靠元音长短区分，英语拼写看不出来，只能按词记。\n\n实用建议：英语里 apparatus 的复数常直接沿用 apparatus（学术写作），口语里也说 apparatuses。两种都成立，语域不同。",
+      "morphemes": [
+        "us"
+      ],
+      "morphemeIds": [
+        "cx-us"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么英语有时又加 -s",
+      "body": "拉丁复数进入英语后，会与英语的规则复数 -s 竞争，形成并存形式：formulae / formulas、indexes / indices、appendixes / appendices、curriculums / curricula。\n\n竞争的结果不是随机的，大致有三条倾向：\n\n1. **学术与科技语域更保守**，倾向保留拉丁复数：indices、appendices、matrices。\n2. **日常与商业语域更倾向英语化**：formulas、curriculums、agendas。\n3. **已经专门化的义项常固定一种形式**：antennae 指昆虫触角，antennas 指天线。\n\n这条倾向能帮你做选择，但不能替代查证。写论文时，先看同领域文献用的是哪一种。",
+      "morphemes": [
+        "ae"
+      ],
+      "morphemeIds": [
+        "cx-ae"
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "两种 -us：短音与长音",
+      "body": "同一个拼写 -us，背后是两类不同的名词。区分它们不是学术炫技：它决定了你该写 alumni 还是 apparatus。判断办法只有两个——查词源，或者记住高频词表。",
+      "a": "第二变格法（短 -us）",
+      "b": "第四变格法（长 -us）",
+      "rows": [
+        [
+          "复数",
+          "-i",
+          "同形 -us"
+        ],
+        [
+          "例词",
+          "alumnus、nucleus、stimulus、radius",
+          "apparatus、status、senatus、exercitus"
+        ],
+        [
+          "复数形式",
+          "alumni、nuclei、stimuli、radii",
+          "apparatus、status（不变）"
+        ],
+        [
+          "英语变体",
+          "常保留 -i（学术）",
+          "常保留同形，或加 -es"
+        ],
+        [
+          "词性倾向",
+          "多为具体人或物",
+          "多为集合、状态、制度"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w13d2-p1",
+      "kind": "mcq",
+      "prompt": "memorandum 的拉丁复数形式是：",
+      "choices": [
+        "memoranda",
+        "memorandi",
+        "memorandae",
+        "memorandum"
+      ],
+      "answer": 0,
+      "explain": "memorandum 以 -um 结尾，属第二变格法中性名词，复数主格收 -a：memoranda。-i 是阳性 -us 的复数，-ae 是阴性 -a 的复数，都不适用于 -um。注意英语里 memorandums 也成立，那是英语规则复数，与拉丁复数并存（明天讲这种双复数）。",
+      "concepts": [
+        "c-inflection",
+        "um"
+      ]
+    },
+    {
+      "id": "w13d2-p2",
+      "kind": "cloze",
+      "prompt": "填入 criterion 的正确形式",
+      "sentence": "Only one ___ was used to judge the entries: whether the model could run on a single machine.",
+      "answer": "criterion",
+      "accept": [
+        "criterion",
+        "标准"
+      ],
+      "explain": "one 后面必须是单数，所以用 criterion；复数是 criteria。这里最常见的错误是写 “only one criteria”，把拉丁复数当成单数用——汉语里“标准”不分单复数，所以这个错误特别容易发生。记住：criteria 是复数，作主语时动词用复数。",
+      "concepts": [
+        "c-inflection",
+        "on"
+      ]
+    },
+    {
+      "id": "w13d2-p3",
+      "kind": "mcq",
+      "prompt": "apparatus 的复数在同形与加 -es 之间，正确的判断是：",
+      "choices": [
+        "拉丁复数与单数同形（第四变格法），apparatuses 是英语化形式，两者都有使用",
+        "apparatus 没有复数，只能用量词",
+        "apparatus 的复数是 apparati，因为 -us 变 -i",
+        "apparatus 的复数是 apparatus，因为它是不可数名词"
+      ],
+      "answer": 0,
+      "explain": "apparatus 属第四变格法，主格单复数同形，所以拉丁复数就是 apparatus；英语使用者又按规则加了 -es，得到 apparatuses。它既不是不可数名词，也不走 -us → -i（那是第二变格法）。判断的关键是先定变格法，再套词尾。",
+      "concepts": [
+        "c-inflection",
+        "us"
+      ]
+    },
+    {
+      "id": "w13d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 strata 是复数，它的单数是：",
+      "choices": [
+        "stratum",
+        "strata",
+        "stratis",
+        "strate"
+      ],
+      "answer": 0,
+      "explain": "strata 收 -a，按今天的配对表反推：-a 的复数对应单数 -um，所以单数是 stratum（地层）。这是第二变格法中性名词，同型还有 datum / data、curriculum / curricula。反推方向同样重要：看到 -a 结尾的学术复数，先想 -um。",
+      "concepts": [
+        "c-inflection",
+        "um",
+        "c-inference"
+      ],
+      "hint": "复数 -a 是从哪种单数词尾变来的？"
+    },
+    {
+      "id": "w13d2-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一组的单复数配对是错误的？",
+      "choices": [
+        "criterion → criterions（按拉丁规则）",
+        "crisis → crises",
+        "alumna → alumnae",
+        "nucleus → nuclei"
+      ],
+      "answer": 0,
+      "explain": "criterion 是希腊中性名词，拉丁／希腊复数收 -a：criteria。criterions 虽然在极少数语境出现，但不是按规则推导出的形式，考试与学术写作都应使用 criteria。其余三组都符合配对表：-is → -es、-a → -ae、-us → -i。",
+      "concepts": [
+        "c-inflection",
+        "on"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w13d2-a1",
+      "kind": "infer",
+      "prompt": "推测 curricula 在句中的含义",
+      "passage": "Over the past decade the faculty has revised its curricula: every department now shares a common first year, and students choose a specialisation only in the second year.",
+      "word": "curricula",
+      "choices": [
+        "课程体系（复数）",
+        "教学楼（复数）",
+        "教学人员（复数）",
+        "考试安排（单数）"
+      ],
+      "answer": 0,
+      "strategy": "① 形态：curricula 收 -a，按配对表反推单数 curriculum（-um 中性）；② 句法：its curricula 作 revised 的宾语，是复数名词；③ 语境：冒号后说“各系共享第一年、第二年才选专业”，讲的正是课程设置；④ 校验：教学楼、教师、考试都无法用“共享第一年课程”来解释。",
+      "explain": "curricula 是 curriculum 的拉丁复数，指一套课程体系。这个句子还示范了双复数的用法：正式文本用 curricula，教育行政的口语里也能听到 curriculums。看到 -a 结尾的学术复数，先反推 -um，再用语境确认义域——这是本条配对规则最实用的方向。",
+      "concepts": [
+        "c-inflection",
+        "c-inference",
+        "um"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：拉丁名词复数配对与变格法"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "拉丁名词变格表与英语借词复数"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "apparatus、curricula、criteria 的用法与语域"
+    }
+  ]
+}

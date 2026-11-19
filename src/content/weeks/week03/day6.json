@@ -45,7 +45,8 @@
       "morphemes": [
         "un",
         "in"
-      ]
+      ],
+      "morphemeIds": []
     },
     {
       "kind": "table",
@@ -97,6 +98,10 @@
       "morphemes": [
         "en",
         "em"
+      ],
+      "morphemeIds": [
+        "cx-oen-en",
+        "px-em"
       ]
     },
     {
@@ -134,6 +139,9 @@
       "body": "反例讲多了，容易走向另一个极端：见到 en- 就切。下面这些词整体借入，现代英语里切不出“en + 词基”的结构：\n\n- **energy**：来自希腊 energeia，与“工作、活动”有关，没有英语词基 ergy。\n- **enemy**：来自拉丁 inimicus，in-（不）+ amicus（朋友），但那是拉丁语的构词，不是英语的 en-。\n- **entertain**：来自法语 entretenir，与“在之间保持”有关。\n- **enthusiasm**：来自希腊 entheos“神灵在内”，也不是 en- + thusiasm。\n\n判断标准还是第 1 周那条：**词基必须独立存在、意义可追溯、能被替换**。三条不满足，就不要切；把整词记住，反而比错误的拆解更省力。",
       "morphemes": [
         "en"
+      ],
+      "morphemeIds": [
+        "cx-oen-en"
       ]
     }
   ],

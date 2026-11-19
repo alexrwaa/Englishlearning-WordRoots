@@ -50,6 +50,8 @@ export interface Cell {
 export interface LadderRow {
   node: LadderNode;
   cells: Cell[];
+  /** False when the search query excludes this row (the row is dimmed, not dropped). */
+  matches: boolean;
 }
 
 export interface FilterState {
@@ -57,7 +59,21 @@ export interface FilterState {
   pos: Pos | 'all';
   suffix: string;
   family: string;
+  /**
+   * Hide rows whose cells all fail the cell filters. Off by default: filtering
+   * is meant to dim cells, not to delete them (a dimmed cell is still a
+   * conclusion; a removed one is not).
+   */
+  onlyMatches?: boolean;
 }
+
+/**
+ * Hard ceilings for the ladder. They exist to stop a pathological base from
+ * freezing the tab, not to cap ordinary families: `spect` needs 4 levels and
+ * still fits well inside them.
+ */
+export const LADDER_MAX_DEPTH = 4;
+export const LADDER_MAX_NODES = 400;
 
 function bump(map: Map<string, number>, form: string) {
   map.set(form, (map.get(form) ?? 0) + 1);
@@ -140,8 +156,18 @@ export function affixColumns(nodes: LadderNode[], words: WordEntry[]): AffixColu
  * Breadth-first ladder: base -> one affix -> two affixes -> three affixes.
  * Only forms present in the dictionary become nodes, so the ladder is a set of
  * verified derivations rather than a spelling exercise.
+ *
+ * Nothing is truncated at a "nice" size any more: the caller decides how deep
+ * to *show* (see `ladderLevels`), while these ceilings only guard against a
+ * runaway family. They are deliberately generous, and the UI states when they
+ * were hit.
  */
-export function buildLadder(base: string, dictionary: Set<string>, maxDepth = 3, maxNodes = 20): LadderNode[] {
+export function buildLadder(
+  base: string,
+  dictionary: Set<string>,
+  maxDepth = LADDER_MAX_DEPTH,
+  maxNodes = LADDER_MAX_NODES,
+): LadderNode[] {
   const words = allWords();
   const root = base.trim().toLowerCase();
   if (!root) return [];
@@ -200,6 +226,25 @@ export function buildLadder(base: string, dictionary: Set<string>, maxDepth = 3,
   return nodes;
 }
 
+/** Nodes grouped by derivation depth, ascending. The UI reveals one key at a time. */
+export function ladderLevels(nodes: LadderNode[]): { depth: number; count: number }[] {
+  const counts = new Map<number, number>();
+  for (const node of nodes) counts.set(node.depth, (counts.get(node.depth) ?? 0) + 1);
+  return [...counts.entries()]
+    .sort((a, b) => a[0] - b[0])
+    .map(([depth, count]) => ({ depth, count }));
+}
+
+/** Nodes up to and including `depth`. Depth 0 is always the base itself. */
+export function nodesAtDepth(nodes: LadderNode[], depth: number): LadderNode[] {
+  return nodes.filter((node) => node.depth <= depth);
+}
+
+/** Highest depth actually present in a ladder. */
+export function maxDepthOf(nodes: LadderNode[]): number {
+  return nodes.reduce((max, node) => Math.max(max, node.depth), 0);
+}
+
 function matchesFilters(
   verdict: CellVerdict,
   affix: AffixColumn,
@@ -225,6 +270,7 @@ export function buildRows(nodes: LadderNode[], columns: AffixColumn[], dictionar
     const context: WordContext = { word: node.word, parts: node.parts, pos: node.pos ?? null };
     return {
       node,
+      matches: true,
       cells: columns.map((affix) => ({
         affix,
         verdict: judgeAdd(context, affix.kind === 'prefix' ? `${affix.form}-` : `-${affix.form}`, dictionary),
@@ -234,27 +280,37 @@ export function buildRows(nodes: LadderNode[], columns: AffixColumn[], dictionar
   });
 }
 
-/** Apply search / word-class / suffix / family filters without recomputing verdicts. */
+/**
+ * Apply search / word-class / suffix / family filters without recomputing
+ * verdicts. Filtering never deletes a cell: a cell that fails keeps its full
+ * verdict and only loses opacity. Rows behave the same way — a row that does
+ * not match the search is dimmed, and only `onlyMatches` removes it.
+ */
 export function filterRows(rows: LadderRow[], filters: FilterState): LadderRow[] {
   const query = filters.query.trim().toLowerCase();
-  const active = query || filters.pos !== 'all' || filters.suffix || filters.family;
+  const cellFilterActive = filters.pos !== 'all' || Boolean(filters.suffix) || Boolean(filters.family);
   const out: LadderRow[] = [];
   for (const row of rows) {
     const entry = getWord(row.node.word);
-    if (query) {
-      const haystack = [row.node.word, entry?.glossZh ?? '', row.node.glossZh ?? '', row.node.parts.join(' ')]
-        .join(' ')
-        .toLowerCase();
-      if (!haystack.includes(query)) continue;
-    }
+    const matches = query
+      ? [row.node.word, entry?.glossZh ?? '', row.node.glossZh ?? '', row.node.parts.join(' ')]
+          .join(' ')
+          .toLowerCase()
+          .includes(query)
+      : true;
     const cells = row.cells.map((cell) => ({
       ...cell,
       matches: matchesFilters(cell.verdict, cell.affix, getWord(cell.verdict.word), filters),
     }));
-    if (active && !cells.some((cell) => cell.matches)) continue;
-    out.push({ node: row.node, cells });
+    if (filters.onlyMatches && (!matches || (cellFilterActive && !cells.some((cell) => cell.matches)))) continue;
+    out.push({ node: row.node, matches, cells });
   }
   return out;
+}
+
+/** How many rows the current filters highlight (search match + at least one cell). */
+export function matchingRowCount(rows: LadderRow[]): number {
+  return rows.filter((row) => row.matches && row.cells.some((cell) => cell.matches)).length;
 }
 
 export interface FamilyGroup {
@@ -267,6 +323,7 @@ export interface FamilyGroup {
 export function groupResults(rows: LadderRow[]): FamilyGroup[] {
   const groups = new Map<string, Map<string, string>>();
   for (const row of rows) {
+    if (!row.matches) continue;
     for (const cell of row.cells) {
       if (cell.verdict.state !== 'verified' || !cell.matches) continue;
       const entry = getWord(cell.verdict.word);

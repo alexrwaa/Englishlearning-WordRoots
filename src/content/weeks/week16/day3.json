@@ -1,0 +1,282 @@
+{
+  "id": "w16d3",
+  "week": 16,
+  "day": 3,
+  "title": "两条路撞在一起：双式词与一次误判",
+  "tagline": "capital/chief、secure/sure、legal/loyal 是路径的化石；scissors 的 sc- 则是一次改错词根的修复",
+  "objectives": [
+    "能列出三组双式词并说明每组的意义分工",
+    "能说明 scissors 的词源与 sc- 的来历，指出它本应是什么形状",
+    "能把 debt、island、scissors 的“多余字母”按证据强弱分成三类"
+  ],
+  "prereqs": [
+    "w16d2",
+    "c-cognate"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-etymology",
+    "c-borrowing",
+    "cap",
+    "scind",
+    "cis"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s5-6",
+    "kp-s1c11s6-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "双式词：同一祖先，两个后代",
+      "body": "同一词源经两条路径进入英语，形成两个词形，叫 **doublet**（双式词）。英语里最典型的三组是：\n\n- **capital / chief**：都出自拉丁 caput“头”。\n- **secure / sure**：都出自拉丁 securus“无忧的”。\n- **legal / loyal**：都出自拉丁 legalis“合法的”。\n\n每组的分工都很清楚：学术形偏“制度、技术、书面”，法语形偏“日常、情感、具体”。这不是巧合——通道决定了词进入哪个语域，语域又决定了它后来往哪个方向引申。",
+      "terms": [
+        {
+          "term": "doublet",
+          "zh": "双式词",
+          "en": "doublet"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三组双式词的路径与分工",
+      "body": "注意第三列与第四列的关系：法语形先到，学术形后到；先到的词占据日常义，后到的词只能往制度、技术方向走。词义分工是借入顺序的结果，不是事先设计好的。",
+      "head": [
+        "双式词",
+        "拉丁源",
+        "法语路径",
+        "学术路径",
+        "今天的分工"
+      ],
+      "rows": [
+        [
+          "chief / capital",
+          "caput“头”",
+          "chief：首领的、主要的",
+          "capital：首都、资本、大写",
+          "人 vs 制度与钱"
+        ],
+        [
+          "sure / secure",
+          "securus“无忧的”",
+          "sure：确信的",
+          "secure：安全的、获得",
+          "主观把握 vs 客观保障"
+        ],
+        [
+          "loyal / legal",
+          "legalis“合法的”",
+          "loyal：忠诚的",
+          "legal：法律的、合法的",
+          "情感义务 vs 法律义务"
+        ],
+        [
+          "friar / frater",
+          "frater“兄弟”（学术形少见，常用 fraternal）",
+          "friar：托钵修士",
+          "frater：兄弟（教会/学术语域）",
+          "具体身份 vs 关系形容词"
+        ]
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "caput：从头到首都",
+      "body": "拉丁 **caput**“头”是英语里最忙的词根之一。它分出两条主线：\n\n- 经古法语，caput 磨成 **chief**，指“头领、主要的”。\n- 按拉丁 capitalis 的形状进入书面英语，成为 **capital**，从“与头有关的”引申为“首要的”，再专指“首都”“本金”“大写字母”。\n\n同族还有 **captain**（首领）、**decapitate**（斩首）、**capitalism**（资本主义）。它们共享“头”的核心，但各自被不同的语域固定住。看到 cap- 开头又和“头、首、主要”有关的词，先想 caput。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "caput",
+          "note": "头；属格 capitis"
+        },
+        {
+          "period": "古法语",
+          "form": "chief",
+          "note": "词形磨短，指“首领、头”"
+        },
+        {
+          "period": "中古英语",
+          "form": "chief",
+          "note": "首领的、主要的"
+        },
+        {
+          "period": "16 世纪英语",
+          "form": "capital",
+          "note": "按 capitalis 的形状进入书面英语：首要的 → 首都、资本"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "scissors：一次改错词根的“修复”",
+      "body": "**scissors** 的 sc- 是后人加的，而且加错了根。它的真实来源是拉丁 **cisoria**“切割工具”，来自 **cis-**“切”（同族 **incision**“切口”、**incise**“切开”）。经古法语 **cisoires** 进入中古英语，本应长成 **cisors** 一类形状。\n\n问题出在学者身上：他们看到“切割”就想到另一个拉丁词根 **scindere**“裂开”（同族 **rescind**“废除”、**rescission**“撤销”），于是把 cisors 改写成 **scissors**。读音没变，拼写却指错了祖先。\n\n这是 **hypercorrection**（过度纠正）：为了显得有学问，反而改错了。它和 debt 的 b 不同——debt 的 b 有真实语源依据，scissors 的 sc- 没有。",
+      "terms": [
+        {
+          "term": "hypercorrection",
+          "zh": "过度纠正",
+          "en": "hypercorrection",
+          "note": "为追求“更正确”而改过头，结果反而偏离事实"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "三种“多余字母”，三种证据强度",
+      "body": "同样是拼写里多出一个字母，证据强弱可以差很远。判断时不要问“像不像拉丁”，要问“有没有文献链”：这个词在中间语言里长什么样、同族词是否支持这个字母、改写者依据的词根是否真是它的祖先。三条都能对上，才算有依据；只对得上“看起来像”，就只是类推。",
+      "a": "有真实语源依据",
+      "b": "错误类推",
+      "rows": [
+        {
+          "label": "debt 的 b",
+          "a": "拉丁 debitum，经法语 dette；b 有依据",
+          "b": "—"
+        },
+        {
+          "label": "island 的 s",
+          "a": "—",
+          "b": "古英语 īeg 与拉丁 insula 无关，s 是误认"
+        },
+        {
+          "label": "scissors 的 sc-",
+          "a": "—",
+          "b": "真实词根是 cis“切”，却被改成 scind“裂”"
+        },
+        {
+          "label": "判断方法",
+          "a": "查该词的中间形式与同族词",
+          "b": "看改写者依据的词根是否真是祖先"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w16d3-p1",
+      "kind": "mcq",
+      "prompt": "legal 与 loyal 的关系，下面哪项正确？",
+      "choices": [
+        "双式词：同出拉丁 legalis，loyal 经古法语，legal 为学术借入",
+        "loyal 是 legal 的副词形式",
+        "legal 来自希腊语，loyal 来自拉丁语",
+        "二者只是拼写不同，意义完全相同"
+      ],
+      "answer": 0,
+      "explain": "二者都出自 legalis。loyal 经古法语 loial 进入英语，义为“忠诚的”；legal 按拉丁形借入，义为“法律的”。同源但语域不同，意义因此分工，是双式词的典型。",
+      "concepts": [
+        "c-cognate",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w16d3-p2",
+      "kind": "mcq",
+      "prompt": "scissors 的 sc- 是怎么来的？",
+      "choices": [
+        "学者误把它与 scindere“裂开”联系，改写了本于 cis“切”的词形",
+        "古英语原有的音簇，一直读 [sk]",
+        "来自希腊语 skhizein“切开”的正常转写",
+        "来自法语的 sc- 前缀，表示“分开”"
+      ],
+      "answer": 0,
+      "explain": "scissors 的真实词源是 cisoria < cis“切”，本应作 cisors 一类形状。学者把它错误地联系到 scindere“裂开”，加上 sc-。读音仍是 [ˈsɪzəz]，拼写却指错了祖先。这是过度纠正，不是真实语源。",
+      "concepts": [
+        "c-etymology",
+        "c-cognate",
+        "scind",
+        "cis"
+      ]
+    },
+    {
+      "id": "w16d3-p3",
+      "kind": "cloze",
+      "prompt": "填入形容词（英文）",
+      "sentence": "Despite the merger, most of the staff remained ___ to the founder rather than to the new board.",
+      "answer": "loyal",
+      "accept": [
+        "loyal"
+      ],
+      "explain": "loyal 经古法语 loial 来自拉丁 legalis，但意义转向“忠诚的”，与 legal“法律的”分工。句中 remained loyal to the founder 与 rather than the new board 对照，正是情感义务而非法律义务。",
+      "concepts": [
+        "c-cognate",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w16d3-p4",
+      "kind": "mcq",
+      "prompt": "secure 与 sure 的语域差别，最准确的描述是？",
+      "choices": [
+        "sure 偏主观确信，secure 偏客观安全或“获得”，后者更正式",
+        "sure 更正式，secure 只用于口语",
+        "二者完全同义，可以任意互换",
+        "sure 是形容词，secure 只能作名词"
+      ],
+      "answer": 0,
+      "explain": "sure 走法语日常层，偏“我确信”；secure 走学术层，偏“客观上是安全的、牢固的”，也可作动词表示“获得”（secure a loan）。同源双式词的意义分工，通常就是这种“主观/客观、日常/正式”的分布。",
+      "concepts": [
+        "c-cognate",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w16d3-p5",
+      "kind": "mcq",
+      "prompt": "没学过的 catch 与 chase 都来自拉丁 captare“抓”。最合理的判断是？",
+      "choices": [
+        "双式词，但两条都是法语路径（不同方言），不是“学术 vs 通俗”",
+        "catch 是学术借词，chase 是通俗借词",
+        "二者没有词源关系，只是意义相近",
+        "chase 来自希腊语，catch 来自拉丁语"
+      ],
+      "answer": 0,
+      "explain": "catch 与 chase 都经古法语进入英语，但来自不同方言区，因此词形不同：北方法语保留 /k/，中央法语把 /k/ 变成 /ʃ/。这说明双式词不一定由“学术 vs 通俗”造成，也可能是同一层内的方言分化。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology",
+        "cap"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w16d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词的含义",
+      "passage": "The old servants stayed loyal to the family long after the estate was sold. They had no legal claim on the property, and they asked for nothing; they simply refused to leave the village.",
+      "word": "loyal",
+      "choices": [
+        "忠诚的",
+        "合法的",
+        "有报酬的",
+        "临时的"
+      ],
+      "answer": 0,
+      "strategy": "① 对照：loyal to the family 与 no legal claim 形成“情感 vs 法律”的对立；② 行为证据：asked for nothing、refused to leave 说明是忠诚而非契约；③ 构词：loyal 与 legal 同源，但走法语路径后专指“忠诚”。",
+      "explain": "loyal 指忠诚的，与 legal 同出拉丁 legalis，但经古法语后意义转向情感义务。句子里“没有法律上的权利，却不肯离开”正是 loyalty 而非 legality。这组双式词的分工，在上下文里一眼可辨。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：民间法语借词与双式词、scissors 的过度纠正"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "caput / legalis / securus / cisoria / scindere 的语源与拼写史"
+    }
+  ]
+}

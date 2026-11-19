@@ -37,6 +37,12 @@
         "hypo",
         "over",
         "under"
+      ],
+      "morphemeIds": [
+        "px-hyper",
+        "px-hypo",
+        "px-over",
+        "px-under"
       ]
     },
     {
@@ -109,6 +115,10 @@
       "morphemes": [
         "hyper",
         "hypo"
+      ],
+      "morphemeIds": [
+        "px-hyper",
+        "px-hypo"
       ]
     },
     {
@@ -148,6 +158,11 @@
         "semi",
         "mono",
         "multi"
+      ],
+      "morphemeIds": [
+        "px-semi",
+        "px-mono",
+        "px-multi"
       ]
     }
   ],

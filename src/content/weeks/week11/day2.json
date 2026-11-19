@@ -83,6 +83,10 @@
           "en": "-ics",
           "note": "来自希腊语 -ika，构成的学科名通常作单数"
         }
+      ],
+      "morphemeIds": [
+        "sx-ics",
+        "sx-ist"
       ]
     },
     {
@@ -139,6 +143,10 @@
           "en": "-ator",
           "note": "表示执行某动作的人或装置"
         }
+      ],
+      "morphemeIds": [
+        "rx-act",
+        "sx-ator"
       ]
     },
     {

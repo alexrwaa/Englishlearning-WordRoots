@@ -34,6 +34,9 @@
       "body": "**-ly** 是最可靠的副词后缀：quick → quickly，careful → carefully，precise → precisely。它加在形容词后，表示“以……的方式”，修饰动词、形容词或整个句子。\n\n但它不是保证。英语里有一批 -ly 结尾的**形容词**：friendly（友好的）、costly（昂贵的）、lonely（孤独的）、lovely（可爱的）、daily（每日的）、scholarly（学术的）。它们大多来自名词加 -ly（lonely 来自形容词 lone），而不是形容词加 -ly。\n\n判断方法很简单：看它修饰谁。修饰名词、能放在 a ___ person 里的，是形容词；修饰动词、能回答 how 的，是副词。He smiled friendly 之所以错，就是因为 friendly 不能修饰动词。",
       "morphemes": [
         "ly"
+      ],
+      "morphemeIds": [
+        "sx-ly"
       ]
     },
     {
@@ -81,6 +84,9 @@
       ],
       "morphemes": [
         "ly"
+      ],
+      "morphemeIds": [
+        "sx-ly"
       ]
     },
     {
@@ -90,6 +96,10 @@
       "morphemes": [
         "ward",
         "wise"
+      ],
+      "morphemeIds": [
+        "sx-ward",
+        "sx-wise"
       ]
     }
   ],

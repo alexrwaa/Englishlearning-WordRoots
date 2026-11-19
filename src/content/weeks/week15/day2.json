@@ -1,0 +1,270 @@
+{
+  "id": "w15d2",
+  "week": 15,
+  "day": 2,
+  "title": "借词一进门，意义就变窄了",
+  "tagline": "用 continent 看清“词义窄化”的机制：不是词变了，是它被塞进了英语早已备好的语义槽",
+  "objectives": [
+    "能说出 continent 从“连续不断的”到“大陆”再到“七大洲之一”的三步",
+    "能解释借词语义为什么会窄化，而不是原样保留拉丁义",
+    "能区分“词源字面义”与“现代词典义”，并在阅读中只用后者做判断"
+  ],
+  "prereqs": [
+    "w15d1",
+    "c-narrowing"
+  ],
+  "concepts": [
+    "c-narrowing",
+    "c-semantic-shift",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c11s2-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "借词不是搬运，是填空",
+      "body": "一个词借进来，不是把拉丁的整套意义原封不动搬进英语，而是被放进英语**已有的语义槽**里。英语本来就有 land、earth、ground 这些词占着“土地”的位置，拉丁 **continent-** 进来时只能占一个更窄的格子：连成一片的大块陆地。\n\n拉丁 **continens** 的字面义是“连着、抱在一起的东西”，来自动词 continere（con- 一起 ＋ tenere 握持）。它跟“洲”没有关系。“七大洲之一”是 17 世纪才固定下来的技术义。\n\n所以词义窄化（semantic narrowing）的因果链是：英语已有上位词 → 借词只能占下位槽 → 使用场景越用越固定 → 新义反过来覆盖旧义。",
+      "terms": [
+        {
+          "term": "semantic narrowing",
+          "zh": "词义窄化",
+          "en": "semantic narrowing",
+          "note": "词的意义范围从宽变窄，通常伴随使用场景的固定"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "continent：从“抱在一起”到“一块大陆”",
+      "body": "这条链条的每一段都能核对，注意它没有一步是“洲”：\n\n- 拉丁 continere＝“握在一起、连成一片”，本用于描述土地连成一体。\n- 分词 continens 作形容词：“连续的、不间断的”。\n- 进入英语后作名词，指“连成一片的陆地”，与岛屿相对。\n- 17 世纪地理学把它技术化，指“七大洲之一”。\n\n同族词还在：**contain**（容纳）、**container**（容器）、**containment**（遏制）。它们的共同义是“握在一起”，而不是“大陆”。这正是词源的价值：它给你一个记忆钩子，但不能拿来当词典定义。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "continere",
+          "note": "con- 一起 ＋ tenere 握持，“握在一起”"
+        },
+        {
+          "period": "拉丁",
+          "form": "continens",
+          "note": "分词作形容词：“连续的、连成一片的”"
+        },
+        {
+          "period": "中古英语",
+          "form": "continent",
+          "note": "作名词：“连成一片的陆地”"
+        },
+        {
+          "period": "17 世纪",
+          "form": "continent",
+          "note": "地理学技术义：“七大洲之一”"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三种常见的意义收缩",
+      "body": "窄化不是唯一结局，但它是借词最常见的一种。把三种放在一起看，你会发现它们的共同点：新义都比旧义“用途更明确”。范围窄化靠“上位词已被占”推动，专业窄化靠“特定行业固定用法”推动，本族词的收缩则靠借词挤压。三条路径不同，机制却是同一个：语义槽有限，先占者定格局。",
+      "head": [
+        "类型",
+        "词",
+        "旧义",
+        "新义",
+        "收缩的机制"
+      ],
+      "rows": [
+        [
+          "范围窄化",
+          "continent",
+          "连续不断的、连成一片的",
+          "大陆；七大洲之一",
+          "英语已有 land，借词只能占“大块陆地”"
+        ],
+        [
+          "专业窄化",
+          "capital",
+          "头；首要的",
+          "本金、资本",
+          "金融语境固定了“首要的那笔钱”"
+        ],
+        [
+          "本族词对照",
+          "deer",
+          "古英语：野兽、动物",
+          "鹿",
+          "法语借入 beast、animal 后，本族词退回下位"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "字面义与词典义：两套不能混用的东西",
+      "body": "词源字面义是“它祖先说过什么”，词典义是“它今天能这么用”。写作时只能以词典义为准；词源义只在解释理据、帮助记忆时出场。把两者混在一起，就会出现“continent 因为 con+ten 所以是大陆”这类循环论证。",
+      "a": "词源字面义",
+      "b": "现代词典义",
+      "rows": [
+        {
+          "label": "continent",
+          "a": "握在一起、连成一片",
+          "b": "大陆；七大洲之一"
+        },
+        {
+          "label": "nation",
+          "a": "出生、同族人群",
+          "b": "国家；民族"
+        },
+        {
+          "label": "capital",
+          "a": "与头有关的、首要的",
+          "b": "首都；资本；大写字母"
+        },
+        {
+          "label": "判断依据",
+          "a": "历史文献与同族词",
+          "b": "当代语料中的搭配与定义"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "怎么判断一个词“窄”了",
+      "body": "不要凭感觉，看搭配。一个词的意义范围，体现在它允许和谁搭配：\n\n- **continental breakfast** 是“欧陆式早餐”，这里的 continent 指欧洲大陆，不是任意一块大陆。\n- **on the continent** 在英式英语里常指“在欧洲大陆”，把英国排除在外。\n- **the African continent** 才是地理学意义上的“非洲大陆”。\n\n三种用法共享一个核心（大块连片陆地），但指称范围逐层收窄。能说出“它在什么语境下指什么”，比背一条“词义窄化”的定义有用得多。",
+      "terms": [
+        {
+          "term": "collocation",
+          "zh": "搭配",
+          "en": "collocation",
+          "note": "词与词之间稳定的共现关系，是判断词义范围的直接证据"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w15d2-p1",
+      "kind": "mcq",
+      "prompt": "拉丁 continens 的字面义最接近下面哪一项？",
+      "choices": [
+        "连成一片的、握在一起的",
+        "被海洋包围的陆地",
+        "七大洲之一",
+        "有人居住的地方"
+      ],
+      "answer": 0,
+      "explain": "continens 来自 continere（con- 一起 ＋ tenere 握持），字面是“连成一片的”。“大陆”“七大洲之一”都是进入英语后才固定下来的窄义，不能倒推成拉丁义。",
+      "concepts": [
+        "c-narrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w15d2-p2",
+      "kind": "mcq",
+      "prompt": "下面哪一项最能说明“借词进入英语后语义窄化”？",
+      "choices": [
+        "continent 从“连续的”变成“大陆、七大洲之一”",
+        "continent 的拼写从 continens 变成 continent",
+        "continent 的重音落在第一个音节",
+        "continent 可以派生出 continental"
+      ],
+      "answer": 0,
+      "explain": "窄化说的是意义范围变小，不是拼写、重音或派生能力的变化。continent 从宽泛的“连续的”收缩到地理学的“大陆”，是典型的范围窄化。",
+      "concepts": [
+        "c-narrowing",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w15d2-p3",
+      "kind": "cloze",
+      "prompt": "填入形容词（英文）",
+      "sentence": "In British usage, a ___ breakfast is a light meal of bread and coffee, named after mainland Europe rather than any continent in general.",
+      "answer": "continental",
+      "accept": [
+        "continental"
+      ],
+      "explain": "continental 是 continent ＋ -al。这里的 continent 特指欧洲大陆，所以 continental breakfast 是“欧陆式早餐”。这个词组恰好证明 continent 的指称范围已经被语境收窄。",
+      "concepts": [
+        "c-narrowing",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w15d2-p4",
+      "kind": "mcq",
+      "prompt": "古英语 deer 原本泛指“野兽、动物”，今天只指“鹿”。这与 continent 的变化属于？",
+      "choices": [
+        "同类：都是词义范围变小，只是 deer 是被借词挤窄的本族词",
+        "相反：deer 是词义扩大，continent 是缩小",
+        "无关：deer 的变化是拼写变化，不是语义变化",
+        "同类：二者都是词义升格"
+      ],
+      "answer": 0,
+      "explain": "deer 的旧义是“动物”，法语借入 beast、animal 占据上位义后，本族词退回下位，只指鹿。机制与 continent 相同：上位槽被别的词占住，原来的词只能缩小范围。区别只在 deer 是本族词、continent 是借词。",
+      "concepts": [
+        "c-narrowing",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w15d2-p5",
+      "kind": "mcq",
+      "prompt": "没学过的 journal 来自拉丁 diurnalis“每日的”。它今天指“期刊、日报”。最合理的解释是？",
+      "choices": [
+        "从“每日的”窄化为“按日/定期出版的刊物”，再由载体转指内容",
+        "从“每日的”扩大为“任何出版物”",
+        "与“每日”无关，是另一个词源",
+        "是 journal 的拼写被改成了拉丁形"
+      ],
+      "answer": 0,
+      "explain": "diurnalis“每日的”经古法语 journal 进入英语，先指“日报”，再指“定期刊物”，最后可指“日志、学术期刊”。范围从“每日”收窄到“定期出版物”，再由载体（报纸）转指内容（期刊），两步都可核对。",
+      "concepts": [
+        "c-narrowing",
+        "c-semantic-shift",
+        "c-etymology"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w15d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测划线词在此处的具体所指",
+      "passage": "She spent the summer on the continent, moving between Paris, Florence and Vienna, and came back complaining that everything in London closed too early.",
+      "word": "continent",
+      "choices": [
+        "欧洲大陆（不含英国）",
+        "非洲大陆",
+        "七大洲的总称",
+        "英伦三岛"
+      ],
+      "answer": 0,
+      "strategy": "① 列举：Paris、Florence、Vienna 都在欧洲大陆；② 对照：回伦敦后抱怨关门太早，说明“大陆”与伦敦相对；③ 搭配：英式英语 on the continent 固定指欧洲大陆；④ 排除：非洲、七大洲都无法解释这三个城市。",
+      "explain": "continent 的核心义仍是“连成一片的陆地”，但在英式用法里，与 London 对举时特指欧洲大陆。指称范围由语境决定，不由词源决定——这也解释了为什么同一个词在不同搭配里“窄”的程度不同。",
+      "concepts": [
+        "c-inference",
+        "c-narrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 11 章：借词的语义变化，continent 的窄化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "continere / continens 的语源，continental breakfast 与 on the continent 的用法"
+    }
+  ]
+}

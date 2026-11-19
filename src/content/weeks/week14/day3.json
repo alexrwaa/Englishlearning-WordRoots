@@ -1,0 +1,261 @@
+{
+  "id": "w14d3",
+  "week": 14,
+  "day": 3,
+  "title": "丢掉屈折词尾，与“易被……”的形容词",
+  "tagline": "fragilis 进英语只剩 fragile：为什么 -is 不见了，还多了一个 e",
+  "objectives": [
+    "能说明英语借入拉丁形容词时如何处理屈折词尾（丢、改 e、经法语改写）",
+    "能解释 -(i)or 比较级为什么在英语里没有对应的原级",
+    "能区分 -ilis 的“易被……”与 -bilis 的“能够被……”"
+  ],
+  "prereqs": [
+    "w14d2"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-borrowing",
+    "c-suffix",
+    "c-allomorph",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c9s4-2",
+    "kp-s1c9s4-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 6,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "形容词的屈折词尾几乎总被丢掉",
+      "body": "拉丁形容词要和名词在性、数、格上一致，所以一个形容词有大量屈折形式：fragilis（阳性／阴性主格单数）、fragile（中性主格单数）、fragilem（宾格）、fragilibus（与格／夺格复数）……英语一个都没借全套，只取**词干部分**。\n\n三种处理方式：\n\n1. **直接丢掉 -us / -is / -a**：regalis → regal（经法语）、formalis → formal、captivus → captive。\n2. **把词尾改成不发音的 e**：fragilis → fragile、facilis → facile、ductilis → ductile。\n3. **经法语改写后再进入**：militaris → militaire → military；-alis 在法语里常作 -el／-al。\n\n结果是：英语形容词看起来“没有词尾”，但词干完整保留。所以 fragile 的构词分析是 frag（破）+ ile，而不是 frag + il + e 三个成分。",
+      "morphemes": [
+        "ile"
+      ],
+      "morphemeIds": [
+        "sx-ile"
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "那个不发音的 e 在做什么",
+      "body": "fragile 读 /ˈfrædʒaɪl/，词尾的 e 不发音。它至少有三个作用：\n\n1. **标音**：g 在 e 前读软音 /dʒ/（对比 fragile 与 frugal 的 g）。没有 e，读者可能把 g 读成 /g/。\n2. **保持词形可识别**：保留 e 让 fragile 与拉丁 fragilis 的对应关系一目了然，也把 fragile 与英语本土的 frail 区分开（两者其实同源，frail 经法语走了另一条路）。\n3. **维持重音与音节结构**：英语不允许某些辅音结尾的形容词直接收尾而不改变读音习惯。\n\n对比：captive 的 e 也来自拉丁 -ivus → 法语 -if／-ive，同样不发音但作用不同（它标记的是 -ive 这个后缀整体）。\n\n结论：**不要看到词尾 e 就当成“加了个后缀”**。它常常只是借入时对屈折词尾的处理痕迹。",
+      "terms": [
+        {
+          "term": "silent e",
+          "zh": "不发音的 e",
+          "en": "silent e",
+          "note": "不发音但影响读音或词形识别的词尾 e"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-(i)or：拉丁比较级，英语里没有原级",
+      "body": "拉丁的比较级后缀是 **-ior**（阳／阴性）、**-ius**（中性）。英语借了一批这样的比较级，但**没有把对应的原级一起借来**，于是出现“只有比较级、没有原级”的形容词：\n\n- inferior（更低的）／superior（更高的）：原级（低／高）在英语里没有对应词，要说 lower／higher。\n- junior（较年轻的）／senior（较年长的）：原级要用 younger／older。\n- major（较大的）／minor（较小的）：来自 magnus／parvus 的比较级，原级同样空缺。\n- prior（在先的）、ulterior（更远的、别有用心的）、interior／exterior（内／外）。\n\n语法后果有三个：① 不能说 more inferior（双重比较）；② 它们后面接 **to** 而不是 than：superior to、junior to；③ 它们本身不能当原级用，说 “He is inferior” 需要语境补出比较对象。\n\n记忆提示：这一组是“封闭清单”，数量有限，直接背完即可，不必类推。",
+      "terms": [
+        {
+          "term": "comparative",
+          "zh": "比较级",
+          "en": "comparative",
+          "note": "表示程度更高的形容词形式"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-ilis：不是“能”，而是“容易被”",
+      "body": "教材特别强调：-ilis／-bilis 加在动词词根后，表**被动可能**——“容易被……的”，而不是“有能力做……的”。这个区别在翻译时经常丢失。\n\n- fragilis：容易**被**打碎的 → fragile\n- ductilis：容易**被**拉长的 → ductile（可延展的）\n- facilis：容易**被**做的 → facile（容易的、浅薄的）\n- visibilis：能够**被**看见的 → visible\n- capabilis：能够**被**容纳／抓住的 → capable（有能力的，语义已引申）\n\n对照：主动能力用 -ax／-ens 一类（如 tenax“抓紧的”），英语里对应 -acious：tenacious、pugnacious、audacious。\n\n所以看到 -ile／-able／-ible，先试“可以被……的”。capable 是这条规则的一个语义漂移案例：从“能被容纳”变成“有本事”，但底层仍是被动可能。",
+      "morphemes": [
+        "ile",
+        "able",
+        "ible"
+      ],
+      "morphemeIds": [
+        "sx-ile",
+        "sx-able",
+        "sx-ible"
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四种处置方式对照",
+      "body": "这张表用来做反向工程：给你一个英语形容词，判断它对应哪一种拉丁词尾处置。第三列错了，词源解释就会自相矛盾——比如把 fragile 说成 frag + il + e，会多出一个并不存在的后缀。",
+      "head": [
+        "拉丁形式",
+        "英语形式",
+        "处置方式",
+        "切分"
+      ],
+      "rows": [
+        [
+          "fragilis",
+          "fragile",
+          "丢 -is，补不发音 e",
+          "frag + ile"
+        ],
+        [
+          "facilis",
+          "facile",
+          "丢 -is，补不发音 e",
+          "fac + ile"
+        ],
+        [
+          "captivus",
+          "captive",
+          "丢 -us，-ivus → -ive",
+          "capt + ive"
+        ],
+        [
+          "regalis",
+          "regal",
+          "经法语，-alis → -al",
+          "reg + al"
+        ],
+        [
+          "militaris",
+          "military",
+          "经法语 -aire → -ary",
+          "milit + ary"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w14d3-p1",
+      "kind": "mcq",
+      "prompt": "fragile 词尾的 e 最主要的作用是：",
+      "choices": [
+        "让 g 读软音 /dʒ/，并保留与拉丁 fragilis 的词形对应",
+        "表示它是一个副词",
+        "表示阴性，与拉丁 -a 对应",
+        "构成一个新的派生后缀 -ile，表示“能够”"
+      ],
+      "answer": 0,
+      "explain": "-ile 本身来自 -ilis，e 不是独立后缀，而是借入时对屈折词尾的处理：丢掉 -is 后补一个不发音的 e，既标出软音 g，又保持与 fragilis 的可识别关系。把它当独立后缀会切出 frag + il + e，多出一个不存在的成分。",
+      "concepts": [
+        "c-inflection",
+        "c-borrowing",
+        "ile"
+      ]
+    },
+    {
+      "id": "w14d3-p2",
+      "kind": "cloze",
+      "prompt": "填入表示“可弯曲的、灵活的”形容词",
+      "sentence": "The arm is ___ enough to reach around the obstacle without touching it, which is why the design survived the test.",
+      "answer": "flexible",
+      "accept": [
+        "flexible",
+        "灵活的"
+      ],
+      "explain": "flex-（弯，见 flex、reflex）+ -ibilis（能够被……的）→ flexibilis → flexible“可弯曲的”。句中 enough to reach around 说明它能弯着绕过障碍，正是“可被弯曲”的具体化。名词是 flexibility，-ible → -ibility。",
+      "concepts": [
+        "c-suffix",
+        "ible",
+        "c-word-family"
+      ]
+    },
+    {
+      "id": "w14d3-p3",
+      "kind": "mcq",
+      "prompt": "关于 inferior，正确的说法是：",
+      "choices": [
+        "它是拉丁比较级，英语没有对应的原级，比较对象用 to 引出",
+        "它是原级，比较时用 than",
+        "它可以加 more 构成双重比较",
+        "它的原级是 infer"
+      ],
+      "answer": 0,
+      "explain": "inferior 是拉丁比较级（原级 inferus 未进入英语），所以说“更低的”而没有对应的“低的”形式；比较对象用 to：inferior to。不能说 more inferior（双重比较），也不能说 inferior than。同类还有 superior、junior、senior、prior、major、minor。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w14d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）ductile 最可能的意思是：",
+      "choices": [
+        "可拉成丝的、易延展的",
+        "能引导方向的",
+        "容易被说服的",
+        "导电性强的"
+      ],
+      "answer": 0,
+      "explain": "duc-（引导、拉）+ -ilis（容易被……的）→ ductilis → ductile“可延展的”，材料学里指能拉成丝而不断。同族 duct、ductility、aqueduct。容易被说服的是 persuadable，导电的是 conductive——都由 duc- 派生，但后缀不同，义项就分开了。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "ile"
+      ],
+      "hint": "先确定 -ilis 是“容易被……”，再看 duc- 的核心动作。"
+    },
+    {
+      "id": "w14d3-p5",
+      "kind": "mcq",
+      "prompt": "下面哪个词不属于“容易被……／能够被……”这一被动可能结构？",
+      "choices": [
+        "active",
+        "visible",
+        "fragile",
+        "portable"
+      ],
+      "answer": 0,
+      "explain": "active 来自 activus（ag-“做”+ -ivus），表“有做某事倾向的”，是主动义。visible（能被看见）、fragile（易被打碎）、portable（能被携带）都含被动可能。判断办法：试着加“被”字，通的是被动可能结构，不通的就是别的语义类。",
+      "concepts": [
+        "c-suffix",
+        "ible",
+        "able"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w14d3-a1",
+      "kind": "infer",
+      "prompt": "推测 volatile 的含义",
+      "passage": "The solvent is volatile: left uncapped for an hour, it had almost completely evaporated, and the room smelled strongly of it.",
+      "word": "volatile",
+      "choices": [
+        "易挥发的",
+        "易爆炸的",
+        "易溶解的",
+        "易凝固的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：vol-（飞，拉丁 volare）+ -atilis（-ilis 的变体，表“易于……”）；② 句法：作表语，描述 solvent；③ 语境：冒号后说“敞口一小时几乎蒸发完，房间气味很重”；④ 校验：爆炸、溶解、凝固都无法解释“蒸发”与“气味”。",
+      "explain": "volatile 是“易挥发的”，引申为“易变的、不稳定的”（volatile market）。volare（飞）这条词根还给出 volant、volley；-atilis 是 -ilis 的扩展形式。注意：这个词的“飞”不是隐喻——挥发就是物质“飞走”。",
+      "concepts": [
+        "c-suffix",
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：形容词借入与比较级、-ilis／-bilis"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "-ilis／-bilis 与拉丁比较级词表"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "fragile、ductile、volatile 的语源与读音"
+    }
+  ]
+}
