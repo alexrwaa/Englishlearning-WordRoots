@@ -31,17 +31,24 @@ Copy-Item (Join-Path $weeks '*') (Join-Path $app 'courses/weeks') -Recurse -Forc
 
 $dayFiles = Get-ChildItem (Join-Path $app 'courses/weeks') -Recurse -Filter 'day*.json'
 $weekDirs = Get-ChildItem (Join-Path $app 'courses/weeks') -Directory
-if ($weekDirs.Count -lt 12) { throw "portable build has $($weekDirs.Count) week folders, expected 12" }
-if ($dayFiles.Count -lt 84) { throw "portable build has $($dayFiles.Count) day files, expected 84" }
+if ($weekDirs.Count -lt 12) { throw "portable build has $($weekDirs.Count) week folders, expected at least 12" }
+if ($dayFiles.Count -lt 84) { throw "portable build has $($dayFiles.Count) day files, expected at least 84" }
+# A week is 5-7 lessons: the original 12 weeks use 7, and the textbook units added
+# in 0.4.0 (C9/C11) split a chapter over two 6-day weeks. Anything shorter than 5
+# means a copy or authoring mistake, not a curriculum choice.
 foreach ($w in $weekDirs) {
   $days = Get-ChildItem $w.FullName -Filter 'day*.json'
-  if ($days.Count -ne 7) { throw "week $($w.Name) has $($days.Count) day files, expected 7" }
+  if ($days.Count -lt 5 -or $days.Count -gt 7) {
+    throw "week $($w.Name) has $($days.Count) day files, expected 5-7"
+  }
 }
 
 $lex = Join-Path $root 'src/content/lexicon'
 if (-not (Test-Path $lex)) { throw "lexicon source missing: $lex" }
 Copy-Item (Join-Path $lex '*.json') (Join-Path $app 'courses/lexicon') -Force
-foreach ($f in @('concepts.json', 'morphemes.json', 'words.json')) {
+# forms.json is the spelling -> identity index; without it the app cannot tell
+# two homographs apart, so shipping it is not optional.
+foreach ($f in @('concepts.json', 'forms.json', 'morphemes.json', 'words.json')) {
   $p = Join-Path $app "courses/lexicon/$f"
   if (-not (Test-Path $p)) { throw "lexicon file missing from package: $f" }
   $null = Get-Content $p -Raw | ConvertFrom-Json   # must parse

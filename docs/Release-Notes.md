@@ -72,7 +72,8 @@
 
 - `tsc` / `eslint` / `vite build` 全绿；单元测试 **9 文件 / 163 通过**（含幂等性、四组同形异源、迁移兼容）。
 - 课程内容校验通过、12 条路由渲染通过。
-- Windows 便携包仍走 8 场景冒烟门禁（见 `scripts/smoke-test.ps1`）。
+- Windows 便携包仍走 8 场景冒烟门禁（见 `scripts/smoke-test.ps1`）；
+  打包断言顺带修正：一周允许 5–7 天（C9/C11 是 6+6 天），并把 `forms.json` 列为必需文件。
 
 ## 已知缺口
 
