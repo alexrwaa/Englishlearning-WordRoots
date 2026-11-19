@@ -576,6 +576,14 @@ function Write-Report {
   foreach ($r in $script:Results) {
     $lines.Add("| $($r.Title) | $($r.Expect) | $($r.Ready) | $($r.Db) | $($r.Content) | $($r.Selftest) | $($r.Verdict) |")
   }
+  # Surface every failure as a check annotation. The markdown report lives in an
+  # artifact, which needs a login to read; an annotation is visible from the API
+  # and the run page, so a red build explains itself.
+  foreach ($r in $script:Failures) {
+    $why = ($r.Detail -replace '[\r\n]+', ' ')
+    if ($why.Length -gt 800) { $why = $why.Substring(0, 800) }
+    Write-Host "::error title=smoke case $($r.Id) - $($r.Title)::$why"
+  }
   $lines.Add('')
   $lines.Add('## 明细')
   $lines.Add('')
