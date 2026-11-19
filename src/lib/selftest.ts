@@ -154,6 +154,8 @@ async function driveLesson(lessonId?: string): Promise<{
   attemptsAfter: number;
   completedBefore: number;
   completedAfter: number;
+  /** Measured on the lesson screen itself, not on whatever page we end on. */
+  paint: ReturnType<typeof paintEvidence>;
 }> {
   const totalsBefore = await db.totals();
   const statesBefore = await db.lessonStates();
@@ -174,6 +176,12 @@ async function driveLesson(lessonId?: string): Promise<{
     RENDER_TIMEOUT_MS,
   );
   if (!firstControl) throw new Error(`lesson did not render within ${RENDER_TIMEOUT_MS}ms`);
+
+  // Capture the paint here: the session ends on a summary page with little text,
+  // and measuring there made a working C11 lesson look blank (domNodes=172,
+  // textChars=110) while it had already answered six questions.
+  await sleep(300); // let the first screen settle before measuring it
+  const paint = paintEvidence();
 
   let steps = 0;
   let sawFeedback = false;
@@ -231,6 +239,7 @@ async function driveLesson(lessonId?: string): Promise<{
     attemptsAfter: totalsAfter.attempts ?? 0,
     completedBefore,
     completedAfter,
+    paint,
   };
 }
 
@@ -269,11 +278,12 @@ async function run(lessonId?: string): Promise<SelftestResult> {
   let attemptsAfter = 0;
   let completedBefore = 0;
   let completedAfter = 0;
+  let paint: ReturnType<typeof paintEvidence> | null = null;
   let fatal: string | undefined;
 
   try {
     const measured = await driveLesson(lessonId);
-    ({ steps, sawFeedback, attemptsBefore, attemptsAfter, completedBefore, completedAfter } = measured);
+    ({ steps, sawFeedback, attemptsBefore, attemptsAfter, completedBefore, completedAfter, paint } = measured);
   } catch (err) {
     fatal = err instanceof Error ? err.message : String(err);
     // Even on a crash, try to read the counters so the report is diagnosable.
@@ -307,7 +317,9 @@ async function run(lessonId?: string): Promise<SelftestResult> {
     finalRoute: location.hash || '#/',
     ...contentEvidence(),
     ...(fatal ? { fatal } : {}),
-    ...paintEvidence(),
+    // The lesson screen was captured inside driveLesson; fall back to the current
+    // page only when the lesson never rendered (a fatal run).
+    ...(paint ?? paintEvidence()),
   };
   return result;
 }
