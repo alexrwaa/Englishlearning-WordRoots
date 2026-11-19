@@ -11,7 +11,9 @@ $root = Split-Path -Parent $PSScriptRoot
 $exe = Join-Path $root 'src-tauri/target/release/wordroots.exe'
 if (-not (Test-Path $exe)) { throw "release binary not found: $exe" }
 
-$pkg = Get-Content (Join-Path $root 'package.json') -Raw | ConvertFrom-Json
+# -Encoding UTF8 matters on Windows PowerShell 5.1: without it the Chinese theme
+# text inside course-index.json is read as ANSI and ConvertFrom-Json throws.
+$pkg = Get-Content (Join-Path $root 'package.json') -Raw -Encoding UTF8 | ConvertFrom-Json
 $outRoot = Join-Path $root 'dist-portable'
 $app = Join-Path $outRoot 'WordRoots'
 
@@ -25,36 +27,34 @@ foreach ($dir in @('data', 'app-data/cache', 'app-data/config', 'app-data/logs',
 }
 
 # --- course content: weeks live in weekNN/ subdirectories, so recurse ---------
+# The committed index is the contract: it is generated from src/content/weeks and
+# lists every week and every lesson id. Packaging refuses to run when the index is
+# stale, which catches "added a lesson, forgot to regenerate" before it ships.
+Push-Location $root
+try {
+  & node scripts/build-course-index.mjs --check
+  if ($LASTEXITCODE -ne 0) { throw 'course index is stale or the course content is inconsistent' }
+} finally { Pop-Location }
+
 $weeks = Join-Path $root 'src/content/weeks'
 if (-not (Test-Path $weeks)) { throw "course source missing: $weeks" }
 Copy-Item (Join-Path $weeks '*') (Join-Path $app 'courses/weeks') -Recurse -Force
 
-$dayFiles = Get-ChildItem (Join-Path $app 'courses/weeks') -Recurse -Filter 'day*.json'
-$weekDirs = Get-ChildItem (Join-Path $app 'courses/weeks') -Directory
-if ($weekDirs.Count -lt 12) { throw "portable build has $($weekDirs.Count) week folders, expected at least 12" }
-if ($dayFiles.Count -lt 84) { throw "portable build has $($dayFiles.Count) day files, expected at least 84" }
-# A week is 5-7 lessons: the original 12 weeks use 7, and the textbook units added
-# in 0.4.0 (C9/C11) split a chapter over two 6-day weeks. Anything shorter than 5
-# means a copy or authoring mistake, not a curriculum choice.
-foreach ($w in $weekDirs) {
-  $days = Get-ChildItem $w.FullName -Filter 'day*.json'
-  if ($days.Count -lt 5 -or $days.Count -gt 7) {
-    throw "week $($w.Name) has $($days.Count) day files, expected 5-7"
-  }
-}
-
 $lex = Join-Path $root 'src/content/lexicon'
 if (-not (Test-Path $lex)) { throw "lexicon source missing: $lex" }
 Copy-Item (Join-Path $lex '*.json') (Join-Path $app 'courses/lexicon') -Force
-# forms.json is the spelling -> identity index; without it the app cannot tell
-# two homographs apart, so shipping it is not optional.
-foreach ($f in @('concepts.json', 'forms.json', 'morphemes.json', 'words.json')) {
-  $p = Join-Path $app "courses/lexicon/$f"
-  if (-not (Test-Path $p)) { throw "lexicon file missing from package: $f" }
-  $null = Get-Content $p -Raw | ConvertFrom-Json   # must parse
-}
 
 # --- manifest: lets the app decide whether this folder's content is usable ----
+$dayFiles = Get-ChildItem (Join-Path $app 'courses/weeks') -Recurse -Filter 'day*.json'
+$weekDirs = Get-ChildItem (Join-Path $app 'courses/weeks') -Directory
+$index = Get-Content (Join-Path $root 'src/content/course-index.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+if ($weekDirs.Count -ne $index.weekCount) {
+  throw "packaged $($weekDirs.Count) week folders, index says $($index.weekCount)"
+}
+if ($dayFiles.Count -ne $index.lessonCount) {
+  throw "packaged $($dayFiles.Count) lessons, index says $($index.lessonCount)"
+}
+
 $hash = Get-ChildItem (Join-Path $app 'courses') -Recurse -File |
   Sort-Object FullName |
   Get-FileHash -Algorithm SHA256
@@ -74,7 +74,15 @@ $manifest = [ordered]@{
   generatedAt    = (Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ')
   gitCommit      = $env:GITHUB_SHA
 }
-$manifest | ConvertTo-Json -Depth 5 | Out-File -Encoding utf8 (Join-Path $app 'courses/manifest.json')
+# Out-File -Encoding utf8 emits a BOM on Windows PowerShell 5.1, and JSON.parse
+# (and most JSON readers) reject a BOM. Write UTF-8 without one.
+function Write-Utf8NoBom {
+  param([Parameter(Mandatory = $true)][string]$Path, [Parameter(Mandatory = $true)][string]$Text)
+  $encoding = New-Object System.Text.UTF8Encoding($false)
+  [System.IO.File]::WriteAllText($Path, $Text, $encoding)
+}
+
+$manifest | ConvertTo-Json -Depth 5 | ForEach-Object { Write-Utf8NoBom -Path (Join-Path $app 'courses/manifest.json') -Text $_ }
 
 $buildInfo = [ordered]@{
   app            = 'WordRoots'
@@ -84,7 +92,7 @@ $buildInfo = [ordered]@{
   builtAt        = $manifest.generatedAt
   days           = $dayFiles.Count
 }
-$buildInfo | ConvertTo-Json -Depth 5 | Out-File -Encoding utf8 (Join-Path $app 'BUILD-INFO.json')
+$buildInfo | ConvertTo-Json -Depth 5 | ForEach-Object { Write-Utf8NoBom -Path (Join-Path $app 'BUILD-INFO.json') -Text $_ }
 
 $readme = @'
 WordRoots - 英语构词学交互学习系统
@@ -133,13 +141,23 @@ Windows 自行安装与维护）。
 本软件为开源项目（MIT）。课程内容为基于公开语言学资料的原创中文讲解，
 不包含任何受版权保护的教材原文。
 '@
-$readme | Out-File -Encoding utf8 (Join-Path $app 'README.txt')
+Write-Utf8NoBom -Path (Join-Path $app 'README.txt') -Text $readme
 
 # Fail loudly if anything the app needs at runtime is missing.
-$required = @('WordRoots.exe', 'README.txt', 'BUILD-INFO.json', 'data', 'courses', 'courses/manifest.json', 'app-data', 'backups')
+$required = @('WordRoots.exe', 'README.txt', 'BUILD-INFO.json', 'data', 'courses', 'courses/manifest.json',
+  'courses/lexicon/forms.json', 'courses/lexicon/morphemes.json', 'courses/lexicon/words.json',
+  'courses/lexicon/concepts.json', 'app-data', 'backups')
 foreach ($item in $required) {
   if (-not (Test-Path (Join-Path $app $item))) { throw "portable layout missing: $item" }
 }
+
+# Exact structural check against the index: week folders, lesson ids, lexicon
+# integrity (every morpheme reachable from forms.json and vice versa).
+Push-Location $root
+try {
+  & node scripts/build-course-index.mjs --root $app
+  if ($LASTEXITCODE -ne 0) { throw 'packaged course tree does not match the index' }
+} finally { Pop-Location }
 
 $zip = Join-Path $outRoot 'WordRoots-Portable-Windows-x64.zip'
 if (Test-Path $zip) { Remove-Item $zip -Force }
@@ -152,12 +170,38 @@ Write-Host "packaged: $zip ($sizeMb MB, version $($pkg.version), $($dayFiles.Cou
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 $archive = [System.IO.Compression.ZipFile]::OpenRead($zip)
 try {
-  $names = $archive.Entries | ForEach-Object { $_.FullName }
+  # Compress-Archive on Windows records backslashes; normalise so the entry list
+  # can be compared against the forward-slash paths the index uses.
+  $names = $archive.Entries | ForEach-Object { $_.FullName -replace '\\', '/' }
   if (-not ($names -contains 'WordRoots/WordRoots.exe')) {
     throw 'ZIP does not contain WordRoots/WordRoots.exe'
   }
   $zipDays = @($names | Where-Object { $_ -match 'WordRoots/courses/weeks/week\d+/day\d+\.json$' })
-  if ($zipDays.Count -lt 84) { throw "ZIP contains $($zipDays.Count) lesson files, expected 84" }
+  if ($zipDays.Count -ne $index.lessonCount) {
+    throw "ZIP contains $($zipDays.Count) lesson files, index says $($index.lessonCount)"
+  }
+  # Every lesson id from the index must exist by name, and no stray week may ride along.
+  foreach ($week in $index.weeks) {
+    foreach ($id in $week.days) {
+      $weekNo = $week.week.ToString('00')
+      $dayNo = $id.Substring($id.Length - 1)
+      $entry = "WordRoots/courses/weeks/week$weekNo/day$dayNo.json"
+      if (-not ($names -contains $entry)) { throw "ZIP missing lesson $entry" }
+    }
+  }
+  $zipWeeks = @($names | ForEach-Object {
+    if ($_ -match 'WordRoots/courses/weeks/(week\d+)/') { $Matches[1] }
+  } | Sort-Object -Unique)
+  if ($zipWeeks.Count -ne $index.weekCount) {
+    throw "ZIP contains $($zipWeeks.Count) week folders, index says $($index.weekCount)"
+  }
+  foreach ($f in @('forms.json', 'morphemes.json', 'words.json', 'concepts.json')) {
+    $entry = "WordRoots/courses/lexicon/$f"
+    if (-not ($names -contains $entry)) { throw "ZIP missing $entry" }
+  }
+  if (-not ($names -contains 'WordRoots/courses/manifest.json')) {
+    throw 'ZIP missing WordRoots/courses/manifest.json'
+  }
   if ($names | Where-Object { $_ -match '\.(epub|pdf)$' }) {
     throw 'ZIP contains copyrighted source material'
   }

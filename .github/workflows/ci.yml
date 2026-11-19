@@ -37,6 +37,8 @@ jobs:
         run: npm test
       - name: Course content validation
         run: npm run validate:content
+      - name: Course index is current
+        run: npm run validate:course-index
       - name: No placeholder pages
         run: npm run check:stubs
       - name: Frontend production build
