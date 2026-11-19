@@ -94,7 +94,7 @@ $buildInfo = [ordered]@{
 }
 $buildInfo | ConvertTo-Json -Depth 5 | ForEach-Object { Write-Utf8NoBom -Path (Join-Path $app 'BUILD-INFO.json') -Text $_ }
 
-$readme = @'
+$readme = @"
 WordRoots - 英语构词学交互学习系统
 ==================================
 
@@ -108,7 +108,7 @@ WordRoots - 英语构词学交互学习系统
 --------
 WordRoots.exe      主程序（前端资源已内置，无需联网）
 data\              学习数据库 wordroots.db（请备份此文件）
-courses\           本版本内置课程内容（84 天，JSON，仅供查看/比对）
+courses\           本版本内置课程内容（$($dayFiles.Count) 天，JSON，仅供查看/比对）
   manifest.json    内容版本；程序只在版本匹配时使用外部课程
 app-data\logs\     运行日志（启动异常时请提供此目录）
 app-data\cache\    缓存（含 WebView2 配置，可安全删除）
