@@ -36,7 +36,9 @@ for (const dir of weekDirs) {
   const lessons = [];
   for (const file of files) {
     const raw = readFileSync(join(path, file), 'utf8');
-    hash.update(raw);
+    // Git checks the tree out with CRLF on Windows runners and LF elsewhere.
+    // Hash the logical content so the same commit verifies on both.
+    hash.update(raw.replace(/\r\n/g, '\n'));
     const parsed = JSON.parse(raw);
     if (file === 'meta.json') meta = parsed;
     else lessons.push(parsed);
