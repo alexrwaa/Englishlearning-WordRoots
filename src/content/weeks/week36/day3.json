@@ -1,0 +1,299 @@
+{
+  "id": "w36d3",
+  "week": 36,
+  "day": 3,
+  "title": "义变有规律：从“火”到“发烧”",
+  "tagline": "词义漂移不是随机乱走，多数落点能归入几种可描述的路径",
+  "objectives": [
+    "能解释 pyr 如何从“火”经“灼热”引申为“发烧”，并说明这是隐喻的固定化",
+    "能区分隐喻（基于相似）与转喻（基于邻接）两类义变",
+    "能说明“规律可描述”与“落点可预测”是两件事，避免过度推断"
+  ],
+  "prereqs": [
+    "w10d1",
+    "w09d2",
+    "c-semantic-shift",
+    "c-metaphor",
+    "c-metonymy"
+  ],
+  "concepts": [
+    "c-semantic-shift",
+    "c-metaphor",
+    "c-metonymy",
+    "c-broadening",
+    "c-narrowing",
+    "c-root"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s9-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "pyr：一条走得通的义变链",
+      "body": "希腊词根 **pyr** 的意思是“火”。在 **pyrotechnics**（pyro“火”+ techn“技艺”+ -ics）里，它还是字面的火：烟火制造术、烟火表演。\n\n但在 **antipyretic**（anti“抗”+ pyr + -etic）里，它指的不是火，而是**发烧**。这条链是这样走的：火 → 灼热 → 体内异常的灼热 → 发烧。中间那一步是隐喻：把体温升高比作体内着了火。这个比喻在医学语境里反复使用，慢慢固定下来，pyr 就多了一个“烧”的义项。\n\n要点在于：**这不是任意的跳跃，而是一条可以说出每一步的路径**。教材说“义变常循可描述的规律”，指的就是这种可复原的引申链，而不是“词义随便变”。",
+      "terms": [
+        {
+          "term": "pyr",
+          "zh": "词根：火→发烧",
+          "en": "pyr",
+          "note": "本义“火”，经“灼热”隐喻固定出“发烧”义"
+        },
+        {
+          "term": "antipyretic",
+          "zh": "退烧药",
+          "en": "antipyretic",
+          "note": "anti（抗）+ pyr（烧）+ -etic（形容词／名词后缀）"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "五条常见路径，各配一个真词",
+      "body": "这五条不是全部，但覆盖了英语里最常见的义变。读表时注意最后一列：每条路径都要能说出“从什么到什么、凭什么”，说不出来就只是记住了结果，没有掌握规律。",
+      "head": [
+        "路径",
+        "机制",
+        "例词",
+        "从什么到什么"
+      ],
+      "rows": [
+        [
+          "隐喻 metaphor",
+          "基于相似",
+          "pyr：火 → 发烧；mouse：老鼠 → 鼠标",
+          "外形或感受相似，跨域投射"
+        ],
+        [
+          "转喻 metonymy",
+          "基于邻接",
+          "board：桌子 → 董事会；bank：长凳 → 银行",
+          "以器物或场所代指使用它的人与机构"
+        ],
+        [
+          "特化 narrowing",
+          "义域收窄",
+          "deer：野兽 → 鹿；meat：食物 → 肉",
+          "上位义缩小为下位义"
+        ],
+        [
+          "泛化 broadening",
+          "义域扩大",
+          "bird：幼鸟 → 鸟；holiday：圣日 → 假日",
+          "下位义扩展为上位义"
+        ],
+        [
+          "贬降／升格",
+          "评价色彩变化",
+          "silly：幸福的 → 愚蠢的；nice：无知的 → 令人愉快的",
+          "褒贬色彩整体移动"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "隐喻与转喻：最容易混的一对",
+      "body": "两者都会造成一词多义，但机制相反。判断时问一句：新义和旧义是“像”还是“挨着”？像，是隐喻；挨着（同处一个场景、互为部分与整体、器物与使用者），是转喻。这一问比背定义有效。",
+      "a": "隐喻（相似）",
+      "b": "转喻（邻接）",
+      "rows": [
+        {
+          "label": "关系基础",
+          "a": "两个域之间有相似的形状、功能或感受",
+          "b": "两个事物在同一个场景里相邻、互为部分与整体"
+        },
+        {
+          "label": "例词",
+          "a": "mouse 老鼠→鼠标；pyr 火→发烧",
+          "b": "board 桌子→董事会；bank 长凳→银行"
+        },
+        {
+          "label": "可否改写",
+          "a": "常可改写成比喻：像老鼠一样的装置",
+          "b": "常可改写成“用……代指……”"
+        },
+        {
+          "label": "典型后果",
+          "a": "跨领域扩展，词义距离较远",
+          "b": "同一场景内转指，词义距离较近"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "规律可描述，落点不可硬推",
+      "body": "学到这里容易滑向两个极端。一个是“词义变化毫无规律”，这被 pyr、board、deer 这些例子否定了；另一个是“有了规律就能预测新义”，这同样不成立。\n\n原因有三。第一，**起点可能分叉**：同一个 pyr，在 pyrotechnics 里停在“火”，在 antipyretic 里走到“烧”，走不走、走多远由具体社群的使用史决定。第二，**同类机制可以给出相反结果**：特化和泛化都可能发生在动物名上，deer 收窄了，bird 扩大了。第三，**外部知识会介入**：bibliophile（爱书者）与 pedophile 结构相同，但后者因社会知识而带上严重贬义，这不是词素本身能推出来的。\n\n所以正确的说法是：**规律给你的是候选路径和排除依据，不是唯一答案**。做题时用它缩小范围，再用语境敲定。",
+      "terms": [
+        {
+          "term": "固定化",
+          "zh": "隐喻的固化",
+          "en": "lexicalization of metaphor",
+          "note": "临时比喻被反复使用后进入词义，说话人不再感到它是比喻"
+        }
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "同一个 pyr，两条算式，两个义项",
+      "body": "把两个词并排写，能看清“同根不同义”不是矛盾，而是义变的结果。pyrotechnics 的 pyr 仍是本义“火”；antipyretic 的 pyr 已经走到“烧”。做题时若只按“火”去套 antipyretic，会得出“抗火的药”这种讲不通的答案——这正是需要用语境检验词根义项的场合。",
+      "sums": [
+        {
+          "parts": [
+            "pyr",
+            "o",
+            "techn",
+            "ics"
+          ],
+          "result": "pyrotechnics",
+          "glossZh": "烟火制造术；烟火表演",
+          "note": "pyr 取本义“火”，o 是连接元音，techn“技艺”，-ics 表学科或活动"
+        },
+        {
+          "parts": [
+            "anti",
+            "pyr",
+            "etic"
+          ],
+          "result": "antipyretic",
+          "glossZh": "退烧的；退烧药",
+          "note": "pyr 取引申义“发烧”，anti“抗”，-etic 构成形容词"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w36d3-p1",
+      "kind": "mcq",
+      "prompt": "antipyretic 中的 pyr 应理解为：",
+      "choices": [
+        "发烧（由“火”经“灼热”隐喻引申）",
+        "火（本义，指物理燃烧）",
+        "热情（由“火”引申的情感义）",
+        "光（由“火”引申的明亮义）"
+      ],
+      "answer": 0,
+      "explain": "antipyretic 是退烧药：anti“抗”+ pyr“烧”+ -etic。若取本义“火”，整词会变成“抗火的”，在医学语境里讲不通。这条引申链是火→灼热→体内灼热→发烧，属于隐喻固定化，教材举的正是这个例子。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-metaphor",
+        "c-root"
+      ]
+    },
+    {
+      "id": "w36d3-p2",
+      "kind": "mcq",
+      "prompt": "board 从“桌子”到“董事会”，属于哪一类义变？",
+      "choices": [
+        "转喻：以议事所用的桌子代指围桌议事的人",
+        "隐喻：董事会像桌子一样平",
+        "特化：桌子缩小为一种特殊桌子",
+        "泛化：桌子扩大到所有家具"
+      ],
+      "answer": 0,
+      "explain": "桌子与围桌议事的人处在同一场景中，属于邻接关系，用器物代指使用者，是典型的转喻。隐喻要求两个域之间有相似性；board 的义变不是“像桌子”，而是“用桌子指代在那张桌子旁的人”。",
+      "concepts": [
+        "c-metonymy",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w36d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "A drug that brings down a fever is called an ___.",
+      "answer": "antipyretic",
+      "accept": [
+        "antipyretic",
+        "退烧药"
+      ],
+      "explain": "anti（抗）+ pyr（烧）+ -etic → antipyretic“退烧的、退烧药”。注意这里的 pyr 已经是引申义“发烧”，不是“火”；同根的 pyrotechnics 才保留本义。同一个词根的两个义项，要靠整词语境区分。",
+      "concepts": [
+        "c-root",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w36d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）pyromaniac 最可能的意思是：",
+      "choices": [
+        "有纵火冲动的人",
+        "研究火山的科学家",
+        "害怕火的人",
+        "以火为职业的厨师"
+      ],
+      "answer": 0,
+      "explain": "pyro（火）+ mania（狂热）+ -ac（……的人）→“纵火狂”。这里 pyr 走的是本义“火”，不是“发烧”——因为 mania 表示对某物的病态冲动，搭配的是具体对象。这正说明词根义项要由整词和语境锁定，不能一律取引申义。",
+      "concepts": [
+        "c-root",
+        "c-inference"
+      ],
+      "hint": "先看 mania 需要什么类型的对象，再决定 pyr 取哪一义。"
+    },
+    {
+      "id": "w36d3-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一组义变属于隐喻，而不是转喻？",
+      "choices": [
+        "mouse：老鼠 → 鼠标",
+        "board：桌子 → 董事会",
+        "bank：长凳 → 银行",
+        "holiday：圣日 → 假日"
+      ],
+      "answer": 0,
+      "explain": "鼠标因外形与老鼠相似而得名，是相似性驱动的隐喻。board 和 bank 都是邻接转指（器物／场所代机构），holiday 是义域扩大（特化→泛化的反向），都不是隐喻。判断口诀仍是那一句：像，还是挨着。",
+      "concepts": [
+        "c-metaphor",
+        "c-metonymy"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w36d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 pyrotechnics 在句中的含义",
+      "passage": "The minister's speech was pure pyrotechnics: rockets of rhetoric, flashes of wit, and a deafening finale of promises. When the smoke cleared, no policy had actually changed.",
+      "word": "pyrotechnics",
+      "choices": [
+        "炫目的表演性言辞，缺乏实质",
+        "关于烟火制造技术的专业讲座",
+        "一场真实燃放烟火的庆典",
+        "激烈的政治辩论"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：pyro（火）+ techn（技艺）+ -ics，本义是烟火技术；② 喻体线索：rockets of rhetoric、flashes、deafening finale 把演讲比作烟火表演；③ 转折句：When the smoke cleared, no policy had actually changed 明确指向“只有声势、没有实质”；④ 排除：字面的烟火庆典与 speech 不搭。",
+      "explain": "pyrotechnics 在这里是“炫技式的表演”。注意它和 antipyretic 的对比：同一个 pyr，一个停在“火”，一个走到“烧”。这说明词根的义项不是固定值，而是随词与语境取用；阅读时先用本义搭出字面框架，再让语境决定停在哪个义项上。",
+      "concepts": [
+        "c-semantic-shift",
+        "c-metaphor",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 9 节：词素意义的其他变化；pyr 由“火”到“fever”的隐喻固定化"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "语义学：隐喻、转喻、特化与泛化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "antipyretic、pyrotechnics、board、bank 的义项与语源核对"
+    }
+  ]
+}

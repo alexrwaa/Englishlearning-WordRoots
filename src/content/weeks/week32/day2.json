@@ -1,0 +1,284 @@
+{
+  "id": "w32d2",
+  "week": 32,
+  "day": 2,
+  "title": "拆词与造词是同一套程序，方向相反",
+  "tagline": "会拆的人一定会造：四步流程正向读词，反向造词",
+  "objectives": [
+    "能背出四步读词流程，并用它处理一个完全陌生的词",
+    "能反向使用同一流程，说明一个科技新词是按哪几步造出来的",
+    "能说明“接缝检查”（同化、连接元音、去 e）为什么被放在流程最后一步"
+  ],
+  "prereqs": [
+    "w32d1",
+    "c-word-sum",
+    "c-scientific"
+  ],
+  "concepts": [
+    "c-word-sum",
+    "c-scientific",
+    "c-combining",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s6-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 10,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "四步程序：从“看见一个词”到“说出一句义”",
+      "body": "把这套流程背下来，以后遇到任何长词都按它走，不要凭感觉从第一个字母读起。\n\n**① 定词尾**：最后一个成分定范畴与词性。-itis 是炎症，-ology 是学科，-able 是“能被……的”。先知道“这是哪一类东西”，后面才不会跑偏。\n\n**② 剥前缀**：前缀给方向、否定、数量（re- 回、de- 去掉、anti- 抗、semi- 半）。前缀最容易认，也最容易误认，所以放在第二步，先粗定方向。\n\n**③ 锁词根**：中间那段是核心意象。duct 是“引导”，fer 是“带”，graph 是“写”。整词的意义由它承担。\n\n**④ 回读校验**：把义串成一句人话，放回句子里看是否通顺、是否符合常识。不通就回到第①步重来——多数错误不是词根认错，而是第④步没做。"
+    },
+    {
+      "kind": "table",
+      "title": "同一套程序，两端使用",
+      "body": "左列是读词，右列是造词。你会发现两列的“步”完全对应，只是顺序相反、动作互换：读词是把形式还原成意义，造词是把意义落实成形式。这就是“解析与造词共用一套程序”的具体含义——它不是比喻。",
+      "head": [
+        "步骤",
+        "读词（解析）",
+        "造词（合成）",
+        "例"
+      ],
+      "rows": [
+        [
+          "① 词尾",
+          "先看词尾定范畴",
+          "先定范畴，选词尾",
+          "要造“仪器”，选 -scope"
+        ],
+        [
+          "② 修饰",
+          "剥前缀，定方向／否定／数量",
+          "加前缀，指定方向或程度",
+          "加 micro- 表示“微小”"
+        ],
+        [
+          "③ 核心",
+          "锁定词根的核心意象",
+          "选一个词根承担核心义",
+          "选 scope 的搭档：什么被看"
+        ],
+        [
+          "④ 接缝与校验",
+          "回读整词，用语境验证",
+          "检查接缝：同化、连接元音、去 e",
+          "micro + scope → microscope"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "跑一遍：stethoscope 是怎么被造出来的",
+      "body": "1816 年，医生拉埃内克不愿把耳朵直接贴到病人胸口，于是卷了一张纸筒听心音，随后把这个装置命名为 stethoscope：stetho（胸）+ -scope（观察用的仪器）。\n\n注意造词的顺序：他先有“我要一个能看（听）胸部的仪器”这个范畴（①），才去找表示“胸”的词根（③），最后接上 -scope（①的词尾）。这与我们读词的顺序正好相反——读词从词尾开始，造词从范畴开始，但用的是同一张表。\n\n这也是科技词可靠的原因：造词者留下了一条可逆的设计说明。你拆它，就是在读他的设计图。"
+    },
+    {
+      "kind": "table",
+      "title": "-scope 家族：一个模板造出一整排仪器",
+      "body": "一个词尾 + 不同词根 = 一整族仪器。这张表最好玩的地方是第三列：词根告诉你“看什么”，词尾告诉你“这是器械”。把两列合起来，词义几乎不需要背。学到这里，“造词”就不再是诗人的特权，而是可以按图施工的工序。",
+      "head": [
+        "词",
+        "词根义（看什么）",
+        "词尾",
+        "整词义"
+      ],
+      "rows": [
+        [
+          "stethoscope",
+          "stetho 胸",
+          "-scope 仪器",
+          "听诊器"
+        ],
+        [
+          "otoscope",
+          "oto 耳",
+          "-scope 仪器",
+          "耳镜"
+        ],
+        [
+          "ophthalmoscope",
+          "ophthalm 眼",
+          "-scope 仪器",
+          "检眼镜"
+        ],
+        [
+          "laryngoscope",
+          "laryng 喉",
+          "-scope 仪器",
+          "喉镜"
+        ],
+        [
+          "endoscope",
+          "endo 内部",
+          "-scope 仪器",
+          "内窥镜"
+        ],
+        [
+          "gastroscope",
+          "gastr 胃",
+          "-scope 仪器",
+          "胃镜"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "什么时候不该拆",
+      "body": "程序有适用边界。判断标准只有两条，但必须两条同时满足：**成分在现代英语里仍带同一个义**，且**词源支持这个切法**。只满足一条的叫“看起来能拆”，它比不拆更危险，因为它给你一个自信的错误答案。",
+      "a": "该拆",
+      "b": "不该拆",
+      "rows": [
+        [
+          "成分是否仍带义",
+          "是：micro 仍是“微小”，scope 仍是“看”",
+          "否：understand 的 stand 不带“理解”"
+        ],
+        [
+          "词源是否支持",
+          "是：microscope 是 17 世纪按希腊成分造的",
+          "否：nice 来自拉丁 nescius“无知”，与“好”无关"
+        ],
+        [
+          "拆了会怎样",
+          "得到可复用的义项，能迁移到同族词",
+          "得到一个顺口但错误的故事（“站在下面就是理解”）"
+        ],
+        [
+          "该怎么办",
+          "按四步走，记成分",
+          "整体记，用语境与搭配做钩子"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w32d2-p1",
+      "kind": "mcq",
+      "prompt": "按四步流程，遇到一个陌生技术词，第一步应该做的是：",
+      "choices": [
+        "看词尾，判断它属于哪一类（炎症、学科、仪器、性质……）",
+        "从第一个字母开始逐段翻译",
+        "先查词典确认读音",
+        "先猜它是不是借词"
+      ],
+      "answer": 0,
+      "explain": "先定范畴，是为了给后续的猜测设一个“不许跑偏”的框。看到 -itis 就不该往“研究”上猜，看到 -scope 就不该猜成“手术”。逐段翻译（B）容易在中段迷路；读音（C）与来源（D）都要在第①步之后才有用。",
+      "concepts": [
+        "c-scientific",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w32d2-p2",
+      "kind": "mcq",
+      "prompt": "造词流程里，“检查接缝”为什么放在最后一步？",
+      "choices": [
+        "因为成分拼接处会发生同化、加连接元音或去 e，只有拼好了才看得见",
+        "因为接缝检查最容易，所以放最后",
+        "因为接缝只影响读音，不影响拼写",
+        "因为造词不需要检查接缝"
+      ],
+      "answer": 0,
+      "explain": "接缝问题是“拼起来之后才出现”的：in + possible 拼出 impossibile 的 n→m，micro + scope 之间要判断要不要加 -o-，create + ion 要去 e。所以它必然是最后一道工序。这与读词时“回读校验”放在第④步是同构的——两端都以“整体是否成立”收尾。",
+      "concepts": [
+        "c-word-sum",
+        "c-spelling-rule",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w32d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个词根（英语）",
+      "sentence": "In telephone, tele- contributes “far” and ___ contributes “sound”.",
+      "answer": "phone",
+      "accept": [
+        "phone",
+        "phon"
+      ],
+      "explain": "tele（远）+ phone（声音）→“远处传来的声音”，即电话。这个词是 19 世纪按希腊成分造的，属于“先有范畴、再选词根”的典型：要造一个“远距离传声的装置”，于是取 tele + phon，再接 -e 收尾。同族还有 phonograph、phonetics、symphony。",
+      "concepts": [
+        "c-word-sum",
+        "phon",
+        "c-scientific"
+      ]
+    },
+    {
+      "id": "w32d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 phon 意为“声音”，graph 意为“写、记录”，phonograph 最可能是：",
+      "choices": [
+        "把声音记录下来的装置（留声机）",
+        "记录笔迹的仪器",
+        "测量音量的仪器",
+        "把文字转成语音的软件"
+      ],
+      "answer": 0,
+      "explain": "phon（声音）+ -o-（连接元音）+ graph（记录）→“记录声音的东西”，即留声机（爱迪生 1877 年的装置）。B 把两段弄反了（那是 graph + phone 的思路）；C 需要 -meter；D 是现代的 text-to-speech，词形会是别的组合。造词方向决定意义方向：词根在前是“被处理的对象”，词尾在后是“做什么”。",
+      "concepts": [
+        "c-inference",
+        "phon",
+        "graph"
+      ],
+      "hint": "先看词尾 graph 表达“记录”，再看 phon 提供记录的对象。"
+    },
+    {
+      "id": "w32d2-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“显微镜”的切分",
+      "parts": [
+        "micro",
+        "scope"
+      ],
+      "answer": "microscope",
+      "explain": "micro（微小）+ -scope（观看的仪器）→ 显微镜。这个词是 -scope 家族的模板原型：先定“仪器”，再定“看什么”。把它与 telescope（看远处）、endoscope（看内部）排在一起，你会发现整族词只需要记两个位置——词根位与词尾位。这就是“一套程序”的红利。",
+      "concepts": [
+        "c-word-sum",
+        "micro",
+        "c-scientific"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w32d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，按四步程序推测 philanthropist 的含义",
+      "passage": "The hospital was built by a philanthropist: a wealthy donor who paid for it not to make a profit but because he wanted to help people who could not pay.",
+      "word": "philanthropist",
+      "choices": [
+        "慈善家：出资帮助他人的人",
+        "企业家：投资建院获利的人",
+        "建筑师：设计医院的人",
+        "政客：为选票推动项目的人"
+      ],
+      "answer": 0,
+      "strategy": "① 定词尾：-ist 指“人”，先锁死“某类人”；② 剥前缀：这里没有前缀，但有两个词根并列；③ 锁词根：phil（爱）+ anthrop（人）→“爱人的”；④ 回读：a wealthy donor、not to make a profit、wanted to help people 三处印证“为帮助而给钱”。",
+      "explain": "philanthropist 是“慈善家”。这道题完整走了一遍四步，其中第④步是决定性的：phil + anthrop 只给“爱人类”这个方向，是否“出资”必须由语境补。反过来说，若语境改成 “a philanthropist who gave advice rather than money”，词义仍是慈善家，只是形式变为出力——这说明成分给方向，语境给落点。",
+      "concepts": [
+        "c-inference",
+        "c-scientific",
+        "c-morpheme"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 1 章第 6 节：解析与造词共用同一套程序"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "希腊成分的组合与 -scope 类仪器的命名"
+    }
+  ]
+}

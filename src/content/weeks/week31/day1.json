@@ -1,0 +1,303 @@
+{
+  "id": "w31d1",
+  "week": 31,
+  "day": 1,
+  "title": "四十七万条与一千三百词：先给“词汇量”这个说法拆台",
+  "tagline": "同一个问题有五个数字答案，先说清每个数字量的是什么，再谈大小",
+  "objectives": [
+    "能区分词典词条、母语者人口、使用领域占比三类数字的口径，说明它们为什么不能互换",
+    "能用本站词库的真实统计说明“成分少、词条多”：1315 个词条由 787 个词素构成，平均每词 2.31 个成分",
+    "能说明词汇分布不均：787 个词素里拉丁与希腊来源占近九成，而撑起词族最多的词根只有几十个"
+  ],
+  "prereqs": [
+    "w30d4",
+    "c-morpheme"
+  ],
+  "concepts": [
+    "c-morpheme",
+    "c-word-family",
+    "c-frequency",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s1-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "同一句问话，五个答案",
+      "body": "“英语有多少词？”这句话至少能问出五个答案。问词典，一部大型足本收约 47.6 万条（S1 引用的常见估计，不是精确普查）；问人口，全球约四亿人把英语当第一语言，占世界人口约 5%，而把英语当第二语言使用的人比这更多；问场景，六成以上的网站用英语；问词位（lemma），walk、walked、walking 要算成一个；问词族（word family），还要把 walker、walkable 并进去。\n\n这些数字差了几十倍，不是因为谁算错了，而是因为**量的是不同的东西**。所以“英语有 X 万词”这句话本身不成立，必须先补上“按什么口径数”。这也是本课的第一个习惯：看到数字先问口径。",
+      "terms": [
+        {
+          "term": "vocabulary size",
+          "zh": "词汇量",
+          "en": "vocabulary size",
+          "note": "必须带口径：词典条目数、词位数、词族数，或某个人的心理词库"
+        },
+        {
+          "term": "lemma",
+          "zh": "词位",
+          "en": "lemma",
+          "note": "词典里的headword；walk/walked/walking 属同一个词位"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "五种口径对照",
+      "body": "下表把常见的几个数字并排放，重点看第三列：口径一换，数字就不可比。最后两行是本课程使用的教学词库，它的数字小得多，但每一行都能在仓库里复核——这也是本书引用数据的原则：能核对的用能核对的，不能核对的标出来源。",
+      "head": [
+        "数字",
+        "量的是什么",
+        "为什么不能与别的数字互换",
+        "来源"
+      ],
+      "rows": [
+        [
+          "约 47.6 万",
+          "大型足本词典的词条",
+          "含派生词、专名与短语，比词位多得多",
+          "S1 引用的常见估计"
+        ],
+        [
+          "约 5%",
+          "母语者占世界人口的比例",
+          "人口占比不等于使用场景占比",
+          "S1 引用的常见估计"
+        ],
+        [
+          "六成以上",
+          "网站使用英语的比例",
+          "场景占比不等于人数占比",
+          "S1 引用的常见估计"
+        ],
+        [
+          "1315",
+          "本站词库的词条数",
+          "这是教学抽样，不是英语全集",
+          "本站 lexicon/words.json"
+        ],
+        [
+          "787",
+          "本站词库的词素数",
+          "成分数少于词条数，二者比值才是复用率",
+          "本站 lexicon/morphemes.json"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "把规模量到具体：1315 与 787",
+      "body": "本站教学词库收 1315 个词条，只用了 787 个词素，平均每个词条 2.31 个成分。把 1315 个词按成分个数排开，得到一条很陡的分布：单成分 152 个（11.6%）、双成分 670 个（50.9%）、三成分 433 个（32.9%）、四成分 59 个（4.5%）、五成分 1 个。\n\n这条分布说明一件要紧的事：**英语的词不是越长越乱，绝大多数是 2–3 个成分拼起来的**。五成分那个词是 irreproducible，拆开是 ir- + re- + pro- + duc + -ible，每一段都还在工作。所以构词法要处理的对象不是 1315 个孤立的词，而是 787 个反复出现的零件——这是本课程全部效率的来源。",
+      "terms": [
+        {
+          "term": "reuse rate",
+          "zh": "复用率",
+          "en": "reuse rate",
+          "note": "1315 ÷ 787 ≈ 1.67，即平均每个词素出现在 1.67 个词条里"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "词族规模极不均：前四名撑起一百多个词",
+      "body": "分布的第二层意思在这里：词素不是平均分摊的。下表是本站词库里出现次数最多的四个词根，前两名各自撑起四十多个词条。注意最后一列——同一个词根配不同前缀，意义差别很大，但核心意象没变（fer 始终是“带”）。这正是“一个成分换四十六个词”的具体含义。",
+      "head": [
+        "词根",
+        "义",
+        "词条数",
+        "代表词"
+      ],
+      "rows": [
+        [
+          "fer",
+          "携带、带来",
+          "46",
+          "transfer、conference、prefer、fertile、translate"
+        ],
+        [
+          "form",
+          "形状、形式",
+          "44",
+          "inform、reform、informational、formality"
+        ],
+        [
+          "port",
+          "搬运、港口",
+          "38",
+          "transport、import、support、portable"
+        ],
+        [
+          "act",
+          "做、驱动",
+          "18",
+          "action、react、activate、interact"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "两个“词汇量”：词典的与你的",
+      "body": "把这两个概念分开，后面所有的学习计划才不会算错账。词典的词条数是一个静态清单；你的心理词库是一张会遗忘、会重组、按使用频率加权的网络。前者靠统计，后者靠接触。",
+      "a": "词典的词条数",
+      "b": "一个人的心理词库",
+      "rows": [
+        [
+          "计数对象",
+          "印刷或数据库里被收录的条目",
+          "这个人能主动调用、被动认出的词位"
+        ],
+        [
+          "能否精确",
+          "可以精确到条，但随收词标准变",
+          "只能抽样估计，且随任务变化"
+        ],
+        [
+          "受什么影响",
+          "编纂方针、篇幅、是否收专名",
+          "阅读量、语域暴露、提取练习"
+        ],
+        [
+          "对学习的意义",
+          "告诉你上限有多大",
+          "告诉你现在该补哪一块"
+        ],
+        [
+          "常见误用",
+          "把 47.6 万当成“要背的单词表”",
+          "把“认识”当成“会用”"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w31d1-p1",
+      "kind": "mcq",
+      "prompt": "“英语约有 47.6 万词”这个说法，最准确的理解是：",
+      "choices": [
+        "英语母语者平均掌握的单词数",
+        "英语里所有可能组合出来的词的数量",
+        "一部大型足本词典收录的词条数，不等于英语的单词总数",
+        "全球把英语当第二语言使用的人数"
+      ],
+      "answer": 2,
+      "explain": "47.6 万是词典条目数（S1 引用的常见估计），条目里既有派生词，也有专名与短语，跟“词位”不是一回事；它更不是任何人的词汇量。做题时先问口径：数的是条目、词位、词族，还是人。",
+      "concepts": [
+        "c-frequency",
+        "c-word-family"
+      ]
+    },
+    {
+      "id": "w31d1-p2",
+      "kind": "mcq",
+      "prompt": "本站词库有 1315 个词条、787 个词素。这个比值最能说明：",
+      "choices": [
+        "同一个词素被反复用来构造多个词条",
+        "英语里每个词平均有 1.67 个音节",
+        "有 528 个词素是多余的、可以删掉",
+        "词素数一定少于词条数是语言普遍规律"
+      ],
+      "answer": 0,
+      "explain": "1315 ÷ 787 ≈ 1.67，意思是平均每个词素出现在 1.67 个词条里（fer 一个词根就撑起 46 个）。词素少于词条是复用造成的，不是“多余”：单成分词有 152 个，它们本来就不需要拆。另外注意别把“每词素 1.67 个词条”和“每词条 2.31 个成分”混成一句话。",
+      "concepts": [
+        "c-morpheme",
+        "c-word-family",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w31d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "Only one entry in the whole lexicon is built from five parts: ___, which stacks ir-, re-, pro-, duc- and -ible.",
+      "answer": "irreproducible",
+      "accept": [
+        "irreproducible"
+      ],
+      "explain": "irreproducible（不可复现的）是词库里唯一的五成分词条：ir-（in- 在 r 前）+ re-（再次）+ pro-（向前）+ duc（引导）+ -ible（能被……的）。四成分的还有 59 个，例如 differentiation、superconductivity。数一数成分个数，是判断一个词“该拆还是该整体记”的第一道筛子。",
+      "concepts": [
+        "c-morpheme",
+        "c-word-sum"
+      ]
+    },
+    {
+      "id": "w31d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 fer 意为“携带”，coni 意为“圆锥”，coniferous 最可能是：",
+      "choices": [
+        "结球果的、针叶的",
+        "运载圆锥形货物的",
+        "用来测量锥度的",
+        "能在高温下熔化的"
+      ],
+      "answer": 0,
+      "explain": "coni（圆锥）+ fer（携带）+ -ous（充满……的）→“带着球果的”，即针叶树那一类（conifer 球果植物）。这里 fer 的“带”不是搬运货物，而是“长着、结着”，属于同一意象的引申。迁移的关键不是逐字对译，而是先定词根意象，再用后缀定词性，最后让语境收口。",
+      "concepts": [
+        "c-inference",
+        "fer",
+        "c-derivation"
+      ],
+      "hint": "先看后缀 -ous 定词性（形容词），再让 coni + fer 的意象去匹配选项。"
+    },
+    {
+      "id": "w31d1-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“翻译；转化”的切分（注意 fer 在这里换了形态）",
+      "parts": [
+        "trans",
+        "lat",
+        "e"
+      ],
+      "answer": "translate",
+      "explain": "trans（横过）+ lat（携带，fer 的分词词干）+ e → translate“搬运过去”，即翻译。这条题的价值在于形态：同一个词根 fer 在 translate 里写成 lat，在 fertile 里写成 fert。所以看到“不像”的段先别否定，去查它是不是同一个词素的变体——这正是词库把 fer 的变体记成 lat、fert 的原因。",
+      "concepts": [
+        "c-word-sum",
+        "fer",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w31d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 circumference 的含义",
+      "passage": "The wheel was measured around its circumference: a string was wrapped once around the rim, then straightened and laid against a ruler.",
+      "word": "circumference",
+      "choices": [
+        "圆周；周长",
+        "轮子的重量",
+        "轮辐的数量",
+        "轮胎的厚度"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：circum（环绕）+ fer（携带）+ -ence（名词）→“绕着带一圈的那个量”；② 语境：wrapped once around the rim、straightened and laid against a ruler，全在描述“绕一圈的长度”；③ 排除：重量、辐数、厚度都不需要“绕一圈再量”；④ 校验：circum 也出现在 circumnavigate（环球航行），环绕义自洽。",
+      "explain": "circumference 是“圆周、周长”。这道题真正考的是分布意识：circum- 与 -fer- 都不是稀有零件，一个词根配不同前缀就形成一族（transfer、conference、refer、prefer、circumference）。词库统计里 fer 撑起 46 个词条，你记住的是“带”，不是 46 次。",
+      "concepts": [
+        "c-inference",
+        "fer",
+        "c-word-family"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 1 章第 1 节：英语词汇的规模、母语人口与使用分布"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "足本词典的收词口径与词位概念"
+    }
+  ]
+}

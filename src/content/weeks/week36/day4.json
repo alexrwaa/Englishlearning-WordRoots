@@ -1,0 +1,282 @@
+{
+  "id": "w36d4",
+  "week": 36,
+  "day": 4,
+  "title": "词义不是部件义之和",
+  "tagline": "understand 不是“站在下面”，blackbird 也不是“任何黑色的鸟”",
+  "objectives": [
+    "能用 understand、blackbird、ladybug、honeymoon 说明整词义不能由部件直接相加",
+    "能用 unhelpful、unkindness 说明哪些词确实可以按部件推",
+    "能给出四条判断顺序：是否种类关系、是否专指、是否有语音磨损、是否有历史漂移"
+  ],
+  "prereqs": [
+    "w01d1",
+    "w07d1",
+    "c-compound",
+    "c-transparency"
+  ],
+  "concepts": [
+    "c-compound",
+    "c-transparency",
+    "c-word-sum",
+    "c-semantic-shift",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s10-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "组合性是一条程度问题",
+      "body": "第 1 周讲过一条原则：部件给线索，但不等于全义。这一课把它讲透。\n\n**understand** 拆开是 under（在下）+ stand（站），字面“站在下面”，可它的意思是“理解”。这条字面义最多只能算历史起点（一般解释为“站在事情中间、身处其中”，因而看得清楚），现代说话人完全不经过它。\n\n**blackbird** 更微妙：它确实是“黑色的鸟”，但不是“任何黑色的鸟”。在英语里它专指一类鸣禽（常见的是乌鸫），而一只黑色的乌鸦不叫 blackbird。也就是说，部件义给了你一个**必要线索**，但指称范围由语言共同体约定。\n\n所以正确的说法不是“复合词都能推”或“都不能推”，而是：**组合性有高低，高的可以推，低的只能记**。",
+      "terms": [
+        {
+          "term": "compositionality",
+          "zh": "组合性",
+          "en": "compositionality",
+          "note": "整词义可由部件义与组合方式算出的程度"
+        },
+        {
+          "term": "transparency",
+          "zh": "透明度",
+          "en": "transparency",
+          "note": "学习者能否从形式直接看出意义的难易程度"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "五个词：字面说得通，实义对不上",
+      "body": "注意右列：这些词的实义都不是字面义的简单相加，而是“字面义 + 约定”的结果。有的差在指称范围（blackbird），有的差在文化专指（honeymoon），有的差在语音磨损（cupboard 的 p 不发音）。",
+      "head": [
+        "词",
+        "部件切分",
+        "字面义",
+        "实际义与偏差来源"
+      ],
+      "rows": [
+        [
+          "understand",
+          "under + stand",
+          "站在下面",
+          "理解——历史起点已不可见，属语义漂移"
+        ],
+        [
+          "blackbird",
+          "black + bird",
+          "黑色的鸟",
+          "专指一类鸣禽，不是任何黑色的鸟——指称由约定收窄"
+        ],
+        [
+          "ladybug",
+          "lady + bug",
+          "圣母的虫",
+          "瓢虫，且它不是真正的“bug”（半翅目），而是甲虫"
+        ],
+        [
+          "honeymoon",
+          "honey + moon",
+          "蜂蜜的月亮",
+          "蜜月——文化典故固化，字面不再参与理解"
+        ],
+        [
+          "cupboard",
+          "cup + board",
+          "放杯子的板",
+          "橱柜；拼写保留 p，读音 /ˈkʌbəd/ 已把它磨掉"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "能推的与不能推的，差在哪",
+      "body": "左列不是“字面义恰好等于实义”，而是“字面义能稳定预测实义”。右列的共同点是：字面义只能解释来源，不能解释用法。判断时不要问“能不能拆”，几乎什么都能拆；要问“拆完能不能算出意思”。",
+      "a": "可按部件推",
+      "b": "不能按部件推",
+      "rows": [
+        {
+          "label": "例词",
+          "a": "unhelpful、unkindness、photograph、walked",
+          "b": "understand、honeymoon、cupboard、blackbird"
+        },
+        {
+          "label": "为什么",
+          "a": "词缀义稳定，组合方式透明，词义就是部件义的函数",
+          "b": "经历语义漂移、文化专指或语音磨损，字面义退出使用"
+        },
+        {
+          "label": "词龄与来源",
+          "a": "多为规则派生，或近代按规则造的学术词",
+          "b": "多为古老的本族词或早期借词"
+        },
+        {
+          "label": "误推的后果",
+          "a": "几乎不会错",
+          "b": "会把“理解”读成“站在下面”，把瓢虫读成“圣母的虫”"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四条判据，按顺序用",
+      "body": "**第一，是否种类关系？** blackbird 是鸟的一种，honeymoon 不是月亮的一种。前者至少方向对，后者方向就错了。\n\n**第二，是否专指？** ladybug 只指瓢虫科的一类，不指任何“lady 的 bug”；词一旦专指，范围就由约定决定，不能凭部件放大或缩小。\n\n**第三，是否有语音或拼写磨损？** cupboard 的 p 不发音、breakfast 的 ea 读 /e/，说明这个词被当作一个整体使用很久了，整体性越强越不能拆着推。\n\n**第四，是否有历史漂移的痕迹？** understand、nice、silly 这类词，字面义与今义之间隔着几百年；能查到漂移链，就说明字面义只是来源，不是当前义。\n\n四问里只要有一问答“是”，就应当**先把它当一个整词记住**，再用词源作记忆辅助；不要反过来用字面义去改今义。",
+      "terms": [
+        {
+          "term": "encyclopedic knowledge",
+          "zh": "百科知识",
+          "en": "encyclopedic knowledge",
+          "note": "理解词义所需的世界知识，超出纯语言知识"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "结构相同，意义可以完全不同",
+      "body": "教材举了一组很锋利的例子：**bibliophile** 与 **pedophile** 结构完全一样，都是“词根 + -phile（爱好者）”，但前者是“爱书者”，后者因社会知识而指恋童者，带有严重贬义。这不是词素决定的，是**百科知识与社会评价**进入词义的结果。\n\n再看 **apteryx**：a（无）+ pteryx（翼），字面“无翼之物”。几维鸟确实无翼，所以字面义没算错；但要知道 apteryx 指哪一种鸟，仍得靠百科知识。字面义正确，不等于指称明确。\n\n这两个例子合起来说明：词义 = 部件义 + 组合方式 + **约定与知识**。第三项不能省，也不能从部件推出来。",
+      "terms": [
+        {
+          "term": "-phile",
+          "zh": "后缀：爱好者",
+          "en": "-phile",
+          "note": "结构相同，评价色彩仍取决于所爱对象与社会知识"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w36d4-p1",
+      "kind": "mcq",
+      "prompt": "blackbird 的意义与“黑色的鸟”是什么关系？",
+      "choices": [
+        "部件义提供线索，但指称被约定收窄为特定的一类鸣禽",
+        "完全等于“任何黑色的鸟”，没有偏差",
+        "与颜色无关，只是巧合",
+        "它是屈折变化，不涉及词义"
+      ],
+      "answer": 0,
+      "explain": "blackbird 确实由 black + bird 构成，颜色和类别都是线索，但它专指一类鸣禽（如乌鸫），不是任何黑色的鸟。这就是“部件给线索但不等于全义”：字面义是必要条件，不是充分条件。",
+      "concepts": [
+        "c-compound",
+        "c-transparency"
+      ]
+    },
+    {
+      "id": "w36d4-p2",
+      "kind": "mcq",
+      "prompt": "下面哪个词最接近“可以按部件稳定推出词义”？",
+      "choices": [
+        "unhelpful",
+        "honeymoon",
+        "understand",
+        "cupboard"
+      ],
+      "answer": 0,
+      "explain": "unhelpful = un（不）+ help（帮助）+ ful（充满……的），三个成分的义都稳定，组合方式透明，词义就是部件义的函数。honeymoon、understand 有语义漂移与文化专指，cupboard 还有语音磨损，都不能这样推。",
+      "concepts": [
+        "c-word-sum",
+        "c-transparency",
+        "c-derivation"
+      ]
+    },
+    {
+      "id": "w36d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "A ___ is not a moon made of honey; the word names the holiday a couple takes right after their wedding.",
+      "answer": "honeymoon",
+      "accept": [
+        "honeymoon",
+        "蜜月"
+      ],
+      "explain": "honeymoon 是“蜜月”。字面“蜂蜜的月亮”只是历史典故的残留（通常解释为婚礼后饮蜂蜜酒一个月，细节有争议），现代说话人理解这个词时并不经过月亮。这就是字面义退出使用、整词被当作一个单位记住的典型。",
+      "concepts": [
+        "c-compound",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w36d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）butterfly 的意义，下面哪项判断最合理？",
+      "choices": [
+        "指一类昆虫，不能按“黄油做的飞虫”理解，字面只是命名理据",
+        "指任何能在黄油上飞的昆虫",
+        "指一种黄油制品",
+        "指喜欢黄油的鸟"
+      ],
+      "answer": 0,
+      "explain": "butterfly 是蝴蝶，指鳞翅目的一类昆虫。字面“黄油 + 飞虫”只是命名时的联想（具体理据有多种说法），不能用来推断指称范围。判断依据仍是那四问：它不是“飞虫的一种泛称”，而是专指一类；字面义也不是现代理解的一部分。",
+      "concepts": [
+        "c-compound",
+        "c-inference"
+      ],
+      "hint": "先问“它是不是某一类事物的专名”，再决定能不能按字面推。"
+    },
+    {
+      "id": "w36d4-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“没有帮助的”",
+      "parts": [
+        "un",
+        "help",
+        "ful"
+      ],
+      "answer": "unhelpful",
+      "explain": "un（否定）+ help（帮助）+ ful（充满……的）→ unhelpful“无帮助的”。这是可组合的典型：三个成分义稳定、组合透明，按部件推不会错。把它和 honeymoon、understand 放在一起记，正好形成对照——同样是多成分词，可推性差别很大。",
+      "concepts": [
+        "c-word-sum",
+        "c-derivation",
+        "c-transparency"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w36d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，判断 blackbird 在句中的所指",
+      "passage": "In early spring the male blackbird sings from the chimney pot before dawn. The guide notes that the species is not to be confused with the crow, which is larger, all black, and lacks the yellow bill.",
+      "word": "blackbird",
+      "choices": [
+        "乌鸫一类鸣禽，有黄色喙，与全身黑色的乌鸦不同",
+        "任何黑色的鸟，包括乌鸦",
+        "一种黑色的家禽",
+        "烟囱顶上的装饰物"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：black + bird，颜色与类别是线索；② 句法：the male blackbird 是 sing 的主语，属鸟类；③ 对比：not to be confused with the crow ... larger, all black, lacks the yellow bill，反推 blackbird 有黄喙、体型较小；④ 排除：若理解为“任何黑鸟”，就与“不要和乌鸦混淆”矛盾。",
+      "explain": "blackbird 在这里指乌鸫一类鸣禽。这道题的关键是：字面义“黑色的鸟”会让你把乌鸦也算进来，而句子偏偏说“别和乌鸦混淆”——这正是部件义给线索、约定定范围的现场演示。判断此类词，永远先看它是否与邻近词构成“种类对比”。",
+      "concepts": [
+        "c-compound",
+        "c-inference",
+        "c-transparency"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 10 节：词作为符号；apteryx、bibliophile、pedophile"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "语义学：组合性、透明度与百科知识"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "blackbird、ladybug、honeymoon、cupboard 的指称与语源核对"
+    }
+  ]
+}

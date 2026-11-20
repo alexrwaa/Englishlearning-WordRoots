@@ -12,6 +12,11 @@
  */
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
+// The cut positions implied by a split are the same everywhere, so the
+// validator asks the judging engine instead of re-deriving them by hand.
+// `boundary` is the pure geometry module: importing `answer` would drag in the
+// content registry (and its Vite-only glob) and crash under plain Node.
+import { boundaryCuts } from '../src/lib/boundary';
 
 const ROOT = join(process.cwd(), 'src', 'content');
 const WEEKS_DIR = join(ROOT, 'weeks');
@@ -123,7 +128,11 @@ for (const dirName of weekDirs) {
       if (!card.kind) fail(`${where} card ${ci}: missing kind`);
       if (!card.title) fail(`${where} card ${ci}: missing title`);
       const body = String(card.body ?? '');
-      if (body.length < 70) fail(`${where} card ${ci}: body too thin (${body.length} chars)`);
+      // Structured kinds keep their content in rows/columns/cells, so a short
+      // caption is legitimate; prose kinds have nowhere else to hide.
+      const structured = ['compare', 'table', 'matrix'].includes(String(card.kind));
+      const bodyFloor = structured ? 40 : 70;
+      if (body.length < bodyFloor) fail(`${where} card ${ci}: body too thin (${body.length} chars)`);
       if (PLACEHOLDER.test(body)) fail(`${where} card ${ci}: contains placeholder text`);
       if (card.kind === 'matrix') {
         const cells = (card.words ?? []) as Json[];
@@ -215,6 +224,86 @@ for (const dirName of weekDirs) {
           if (!ex.base) fail(`${at}: matrix exercise missing base`);
           if (!ex.answer) fail(`${at}: matrix exercise missing answer`);
           if (!ex.prefix && !ex.suffix) fail(`${at}: matrix exercise needs a prefix or suffix`);
+          break;
+        }
+        // `explain` is already required for every exercise above (>= 12 chars).
+        case 'boundary': {
+          const word = String(ex.word ?? '');
+          const segments = Array.isArray(ex.segments) ? (ex.segments as string[]) : [];
+          if (!word) fail(`${at}: boundary missing word`);
+          if (word && word !== word.toLowerCase()) warn(`${at}: boundary word should be lowercase`);
+          if (segments.length < 2) fail(`${at}: boundary needs >= 2 segments`);
+          segments.forEach((segment, si) => {
+            if (typeof segment !== 'string' || segment.length === 0) fail(`${at}: boundary segment ${si} is empty`);
+            else if (/\s/.test(segment)) fail(`${at}: boundary segment "${segment}" contains whitespace`);
+          });
+          if (segments.join('') !== word) {
+            fail(`${at}: boundary segments join to "${segments.join('')}" but word is "${word}"`);
+          }
+          if (!Array.isArray(ex.segments)) fail(`${at}: boundary missing segments`);
+          // Only derive from a well-formed split; a broken one is already
+          // reported above and must not crash the validator.
+          const wellFormed = segments.length >= 2 && segments.every((s) => typeof s === 'string' && s.length > 0);
+          const derived = wellFormed ? boundaryCuts(segments) : [];
+          if (ex.answer !== undefined) {
+            const raw = ex.answer;
+            if (!Array.isArray(raw) || raw.length === 0) {
+              fail(`${at}: boundary answer must be a non-empty array of cut indices (or omitted)`);
+            } else {
+              const indices = raw as number[];
+              const outOfRange = indices.filter(
+                (i) => !Number.isInteger(i) || i < 0 || i > segments.length - 1,
+              );
+              if (outOfRange.length > 0) {
+                fail(
+                  `${at}: boundary answer has invalid cut index ${JSON.stringify(outOfRange)} (valid 0..${
+                    segments.length - 1
+                  })`,
+                );
+              } else {
+                // A cut after the last segment is a no-op (the word ends
+                // there), so it is tolerated rather than rejected.
+                const normalized = [...new Set(indices)]
+                  .filter((i) => i !== segments.length - 1)
+                  .sort((a, b) => a - b);
+                if (normalized.join(',') !== derived.join(',')) {
+                  fail(
+                    `${at}: boundary answer ${JSON.stringify(indices)} does not match segments (expected ${JSON.stringify(
+                      derived,
+                    )})`,
+                  );
+                }
+              }
+            }
+          }
+          break;
+        }
+        case 'judge': {
+          const choices = Array.isArray(ex.choices) ? (ex.choices as string[]) : [];
+          const answer = Number(ex.answer);
+          const whyNot = Array.isArray(ex.whyNot) ? (ex.whyNot as string[]) : [];
+          if (choices.length < 3) fail(`${at}: judge needs >= 3 choices`);
+          if (!Number.isInteger(answer) || answer < 0 || answer >= choices.length) {
+            fail(`${at}: judge answer index out of range`);
+          }
+          if (new Set(choices.map((c) => c.trim().toLowerCase())).size !== choices.length) {
+            fail(`${at}: duplicate choices`);
+          }
+          choices.forEach((choice, ci) => {
+            if (!String(choice ?? '').trim()) fail(`${at}: judge choice ${ci} is empty`);
+            else if (/\s/.test(String(choice))) warn(`${at}: judge choice "${choice}" is not a single word`);
+          });
+          if (whyNot.length !== Math.max(0, choices.length - 1)) {
+            fail(
+              `${at}: judge needs ${Math.max(
+                0,
+                choices.length - 1,
+              )} whyNot entries (one per distractor), found ${whyNot.length}`,
+            );
+          }
+          whyNot.forEach((reason, ri) => {
+            if (!String(reason ?? '').trim()) fail(`${at}: judge whyNot[${ri}] is empty`);
+          });
           break;
         }
         default:

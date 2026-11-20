@@ -1,0 +1,252 @@
+{
+  "id": "w33d3",
+  "week": 33,
+  "day": 3,
+  "title": "family、branch、ancestor：一套借来的隐喻",
+  "tagline": "七千种语言装进一棵树；树装不下的地方，正好是英语词汇史最热闹的地方",
+  "objectives": [
+    "能说明人群分离如何导致语言分化：创新不扩散，变化各自累积",
+    "能用 family／tree／branch／ancestor／daughter 这套隐喻描述语言关系",
+    "能指出这套隐喻失效的三种情形：借用、语言联盟、混合语"
+  ],
+  "prereqs": [
+    "w33d2",
+    "c-metaphor"
+  ],
+  "concepts": [
+    "c-metaphor",
+    "c-cognate",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s2-2"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "七千种语言是怎么来的",
+      "body": "世界上现存的自然语言有七千种上下。这个数字不是“发明”出来的，是**分离**出来的：一群人迁走，带走一套说话习惯，此后两边的新说法不再互相传染——语言学叫“创新不扩散”。\n\n分开之后，各自的变音、变调、借词分别累积。几百年后，两边的人已经听不懂对方。整个过程只需要两个条件：**社群分离**、**变化各自累积**。\n\n不需要第三个条件，也不需要谁“说得更好”。分化的方向是随机的：一边丢了词尾，一边把词尾变成声调，两边都“正常”。这也解释了为什么语系总是树状的：一次分离之后，两支各自再分离，层层叠叠。",
+      "terms": [
+        {
+          "term": "language family",
+          "zh": "语系",
+          "en": "language family",
+          "note": "同出一个祖语的一组语言"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "一套隐喻，五个词",
+      "body": "这五个词全是生物隐喻：家族、分支、祖先、女儿。借得顺手，是因为树状结构与“一次分裂、此后不再合并”的假设吻合。术语本身不承诺任何生物学内容，它只是一个方便的坐标系。",
+      "head": [
+        "隐喻词",
+        "语言学的用法",
+        "英语的事实"
+      ],
+      "rows": [
+        [
+          "family 语系",
+          "同出一个祖语的一组语言",
+          "英语属印欧语系"
+        ],
+        [
+          "branch 支",
+          "语系下的一级分支",
+          "英语属日耳曼支"
+        ],
+        [
+          "ancestor 祖语",
+          "已消失、靠构拟或文献推知的上位语言",
+          "原始日耳曼语"
+        ],
+        [
+          "daughter 女儿语言",
+          "从某祖语分出的后代语言",
+          "英语是原始日耳曼语的后代"
+        ],
+        [
+          "cognate 同源词",
+          "从同一祖语词形分别继承下来的词",
+          "father／pater"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "树装不下的三件事",
+      "body": "隐喻有边界。三种情形会让树画不出来：\n\n1) **借用**：英语从法语借了 beef。这不是“继承”，在树上是一条跨枝的横线。树只画纵向，画不了横向。\n2) **语言联盟**：长期共处的语言会互相染上同一批特征（巴尔干诸语共享的语法特征），分歧度反而下降。树要求分歧只增不减，这里却在减。\n3) **混合与克里奥尔**：孩子同时继承两边的材料，没有单一祖先。树上找不到这样的节点。\n\n所以真实的历史是“树＋网”：主干是树，词汇层是网。这正好解释了英语为什么**既是日耳曼语，又有一半词汇来自拉丁法语**——两句话都对，因为它们说的是不同的层。",
+      "terms": [
+        {
+          "term": "language contact",
+          "zh": "语言接触",
+          "en": "language contact",
+          "note": "两种语言长期共存、互相影响的情形"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "树 vs 网",
+      "body": "两个模型不是竞争关系，管的是不同的层。学词汇时最实用的判断是：这个词属于树的哪一枝（继承），还是网上的一条边（借用）。前者服从音对应，后者不服从。",
+      "a": "树（谱系模型）",
+      "b": "网（接触模型）",
+      "rows": [
+        {
+          "label": "变化方式",
+          "a": "分裂后各自累积，不再合并",
+          "b": "接触中互相借用、互相影响"
+        },
+        {
+          "label": "最能解释",
+          "a": "语法核心、代词、数词、核心词",
+          "b": "词汇层、语域词、文化词"
+        },
+        {
+          "label": "英语的例子",
+          "a": "father、three、foot、he",
+          "b": "beef、government、algebra、shampoo"
+        },
+        {
+          "label": "失效处",
+          "a": "借词、语言联盟、混合语都画不出来",
+          "b": "无法说明为什么语法骨架仍是日耳曼的"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "一个词的两条路",
+      "body": "fragile 与 frail 是同一个拉丁词 fragile 的两次旅行：一次经巴黎法语的日常口语，词形被磨短成 frail；一次是后来学者按拉丁原形重新借入，成了 fragile。同一祖语、两条路径、两个词形——这就是 **doublet**（双式词）。\n\n它说明“谱系”与“借用”可以在同一个词上叠印：树给出血缘，网给出路径。也说明为什么“这个词从哪来”有时没有唯一答案：两条路都真的存在，而且都留下了词。\n\n做构词分析时不必纠结路径，只要认出它可按拉丁词素拆（frag- + -ile），就够用了。需要精确路径时，那是词源学靠文献与音形去做的活。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w33d3-p1",
+      "kind": "mcq",
+      "prompt": "语言分化只需要两个条件，它们是：",
+      "choices": [
+        "社群分离，以及各社群的变化分别累积",
+        "人口增长，以及书写系统的发明",
+        "地理相邻，以及频繁的战争",
+        "语言接触，以及借词的增加"
+      ],
+      "answer": 0,
+      "explain": "分化的机制是“隔离＋变化累积”：分离让创新不再扩散，时间让各自的变音与借词拉开距离。人口、文字、战争、接触都可能促成分离或加速变化，但都不是必要条件；尤其是“接触”，它倾向于让两种语言靠近，而不是分开。",
+      "concepts": [
+        "c-etymology",
+        "c-metaphor"
+      ]
+    },
+    {
+      "id": "w33d3-p2",
+      "kind": "mcq",
+      "prompt": "用 family、tree、ancestor 描述语言关系，这套隐喻来自：",
+      "choices": [
+        "生物学：家族、分支、祖先、后代",
+        "地理学：河流与山脉",
+        "建筑学：地基与梁柱",
+        "法律：继承与遗嘱"
+      ],
+      "answer": 0,
+      "explain": "整套术语（family、branch、ancestor、daughter language、cognate）都从生物学的家族谱系借来。借用的后果是：它天然带“只分不合”的假设，因此解释不了借用与语言联盟——这正是下一张卡片要处理的问题。",
+      "concepts": [
+        "c-metaphor"
+      ]
+    },
+    {
+      "id": "w33d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文名词",
+      "sentence": "The family tree explains English pronouns and core vocabulary, while ___ explains why half of its lexicon comes from Latin and French.",
+      "answer": "borrowing",
+      "accept": [
+        "borrowing",
+        "contact",
+        "language contact"
+      ],
+      "explain": "填 borrowing（或 contact）。树解释继承，网解释借用。两句话都对，因为它们说的是不同的层：语法骨架是继承的，词汇层有大半是借来的。这也是本单元反复要用的一对工具。",
+      "concepts": [
+        "c-borrowing",
+        "c-metaphor"
+      ]
+    },
+    {
+      "id": "w33d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“The two dialects are related not by descent but by long contact: they have converged, not diverged.” 句中 converged 最可能指：",
+      "choices": [
+        "越走越近、彼此靠拢",
+        "各自朝不同方向发展",
+        "合并成一种新语言",
+        "互相无法听懂"
+      ],
+      "answer": 0,
+      "explain": "converged 与 diverged 是反义对：后者是分岔，前者是趋同。句子里 not by descent but by long contact 已经把机制说清楚——不是同源，而是长期接触导致靠近。“合并成新语言”过头了：趋同是特征靠近，不等于语言合一。",
+      "concepts": [
+        "c-inference",
+        "c-metaphor"
+      ],
+      "hint": "先看 not ... but ... 的对比，再看 diverged 的反义。"
+    },
+    {
+      "id": "w33d3-p5",
+      "kind": "mcq",
+      "prompt": "下列哪一项是“树”模型解释不了的？",
+      "choices": [
+        "英语从法语借入 beef，而本族词 cow 仍在并用",
+        "英语与德语共享 father／Vater 的音对应",
+        "英语属于日耳曼支",
+        "英语的 three 与拉丁 trēs 同源"
+      ],
+      "answer": 0,
+      "explain": "树只画纵向继承，画不出横向借用。beef 与 cow 并存，是两条不同路径的词落进同一语义场，只能用“网”来解释。其余三项都是纵向继承关系：音对应、分支归属、同源词，正是树的强项。",
+      "concepts": [
+        "c-borrowing",
+        "c-cognate"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w33d3-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 lineage 在句中的含义",
+      "passage": "A language has two kinds of history at once. One is its lineage: the unbroken chain of inheritance from an earlier stage, visible in pronouns and numbers. The other is its contacts: the words it took from neighbours, which follow no lineage at all and can be dated only by the company they keep.",
+      "word": "lineage",
+      "choices": [
+        "一脉相承的继承链条",
+        "一条古老的交通路线",
+        "一种书写传统",
+        "一组借来的词"
+      ],
+      "answer": 0,
+      "strategy": "① 定义句：one is its lineage 后面用冒号给出解释——unbroken chain of inheritance；② 对照项：the other is its contacts，说的是借用，与继承相对；③ 证据：visible in pronouns and numbers，正是核心层；④ 排除“路线”“书写”“借词”：借词恰恰是 follow no lineage 的那一边。",
+      "explain": "lineage 指“血统、一脉相承的链条”，在这里专指语言从早期阶段继承下来的那条线。它与 line（线）、linear 同源，核心义是“一条连续的线”。读这类文本时，冒号后面往往就是作者给的定义——先看冒号。",
+      "concepts": [
+        "c-inference",
+        "c-etymology",
+        "c-metaphor"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 2 节：语言分化、语系与谱系隐喻"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "谱系模型、语言接触与语言联盟对树状模型的修正"
+    }
+  ]
+}

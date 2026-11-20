@@ -1,0 +1,263 @@
+{
+  "id": "w31d5",
+  "week": 31,
+  "day": 5,
+  "title": "s 与 h 是一对：怎么用语音对应判断亲缘",
+  "tagline": "semi- 与 hemi- 长得不像，却都是“一半”——对应要成系统才算证据",
+  "objectives": [
+    "能列出 s~h、p~f 两组对应，并各举三个真实词对",
+    "能说明“单个相似不算证据，成系统的对应才算”，并说出判断的四步",
+    "能用对应关系判断一个陌生成分更可能来自拉丁还是希腊"
+  ],
+  "prereqs": [
+    "w31d4",
+    "c-cognate"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-etymology",
+    "c-greek-latin",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s7-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两个“半”",
+      "body": "semicircle 是半圆，hemisphere 是半球。两个前缀意思完全一样——都是“一半”，位置也一样（都贴在最前面），可拼写一个 s、一个 h，来源一个拉丁、一个希腊。\n\n它们同源：都来自原始印欧语的 *sēmi-。希腊语把词首的 s 丢掉了，只剩下 h（这个过程叫 psilosis，“脱 s”）；拉丁语把 s 保住了。于是同一个词在两条支线上留下两种开头。\n\n英语把两者都借了进来，还形成了一个使用习惯：**semi- 多与拉丁或英语词根搭配**（semicircle、semifinal），**hemi- 多与希腊词根搭配**（hemisphere、hemicycle）。成分与词根讲究同语源，这是科技构词的默认规则。"
+    },
+    {
+      "kind": "table",
+      "title": "两组成系统的对应",
+      "body": "不要只看一行就下结论——这张表要竖着读。s~h 那一组有四个词对全朝同一方向对应，p~f 那一组有三个；这种“整组同向”才是证据。如果只有 semi/hemi 一对，我们只能说“有意思”，不能说“同源”。",
+      "head": [
+        "对应",
+        "拉丁（或英语）",
+        "希腊（或日耳曼）",
+        "词对"
+      ],
+      "rows": [
+        [
+          "s ~ h",
+          "semi-“一半”",
+          "hemi-“一半”",
+          "semicircle / hemisphere"
+        ],
+        [
+          "s ~ h",
+          "sex“六”",
+          "hexa“六”",
+          "sexennial / hexagon"
+        ],
+        [
+          "s ~ h",
+          "septem“七”",
+          "hepta“七”",
+          "September / heptagon"
+        ],
+        [
+          "s ~ h",
+          "super“在上”",
+          "hyper“超过”",
+          "supernatural / hyperactive"
+        ],
+        [
+          "p ~ f",
+          "pater“父”",
+          "father",
+          "paternal / fatherly"
+        ],
+        [
+          "p ~ f",
+          "piscis“鱼”",
+          "fish",
+          "piscine / fish"
+        ],
+        [
+          "p ~ f",
+          "ped“脚”",
+          "foot",
+          "pedal / foot"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "对应为什么会存在",
+      "body": "两条都是**规律性音变**，不是零星的例外。\n\n一条发生在希腊语内部：词首的 s 弱化成 h（psilosis），所以凡是希腊语词，s 开头常常对应别的支线的 h 开头。另一条发生在日耳曼语内部：p、t、k 变成 f、th、h（格里姆定律的第一音变），所以拉丁 pater 对应英语 father、拉丁 ped 对应英语 foot。\n\n规律性的意思是**可预测**：知道一条对应，就能拿它去检验新词对，而不是一个个记。这也解释了为什么“看起来像”不算证据——“像”可以来自巧合，也可以来自借词（英语借了太多拉丁词，到处都像）。"
+    },
+    {
+      "kind": "table",
+      "title": "四步判断亲缘",
+      "body": "这四步是有顺序的：前两步不过，后面不用做。第三步是最容易被跳过的一步，也是最关键的一步——单点相似几乎总能找到，系统对应才稀缺。第四步是学术底线：没有文献支持的“同源”，只能算猜想。",
+      "head": [
+        "步骤",
+        "问什么",
+        "反例（这一步会淘汰什么）",
+        "本例"
+      ],
+      "rows": [
+        [
+          "① 语义",
+          "两边意思对得上吗",
+          "semi- 与 hemi- 若一个“半”一个“七”，直接停",
+          "都是“一半”"
+        ],
+        [
+          "② 位置与功能",
+          "在词里承担同样的角色吗",
+          "一个当前缀、一个是词根，就不能直接比",
+          "都是前缀"
+        ],
+        [
+          "③ 系统对应",
+          "同样两条支线上，还有别的词对同向对应吗",
+          "只有一对 = 可能是巧合或借词",
+          "sex/hex、septem/hepta、super/hyper"
+        ],
+        [
+          "④ 文献",
+          "词源词典与比较语法支持吗",
+          "民间词源（把 woman 说成 womb+man）在这里被拦下",
+          "原始印欧 *sēmi-"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "这条线索的用法与边界",
+      "body": "用法有三条：判断陌生成分的来源（看到 hemi- 先想希腊）、预判同族词（知道 hyper 就能猜 hypertension 的方向）、以及解释为什么同一意思有两个前缀（semi-/hemi- 不是冗余，是两条支线各借了一次）。\n\n边界也要说清：**对应只能提示，不能单独证明**。原因有二。其一，借词会造成假同源——英语里的拉丁、希腊成分太多，随便两个词都能找到相似点；其二，音变有例外，还有类推拉平。所以第三步永远要配第四步：查词源，别只看形。\n\n这条线索会在 C10（印欧语源）里成为主线，在 C6（音变规则）里成为工具。今天只要求你会用，不要求你会重建。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w31d5-p1",
+      "kind": "mcq",
+      "prompt": "semi- 与 hemi- 之间的语音对应是：",
+      "choices": [
+        "s ~ f",
+        "m ~ n",
+        "s ~ h",
+        "e ~ i"
+      ],
+      "answer": 2,
+      "explain": "拉丁 semi- 保住了原始印欧语的 s，希腊 hemi- 把词首 s 弱化成 h，所以是 s~h。这条对应在 sex/hex、septem/hepta、super/hyper 上重复出现，正是“成系统”的表现。判断对应时看的是同一位置上反复出现的音，不是元音的高低。",
+      "concepts": [
+        "c-cognate",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w31d5-p2",
+      "kind": "mcq",
+      "prompt": "下面哪一组最能支持“英语与拉丁有亲缘关系”？",
+      "choices": [
+        "pater/father、piscis/fish、ped/foot 三对同向对应",
+        "英语的 wine 与拉丁的 vinum 意思相同",
+        "英语的 video 与拉丁的 videre 拼写接近",
+        "英语的 mother 与拉丁的 mater 都以 m 开头"
+      ],
+      "answer": 0,
+      "explain": "A 是系统对应：p 在日耳曼语里规律地变成 f，三对词同向，符合第③步。B 与 C 都是借词（wine 是早期借入，video 是现代借入），同形来自借用而非继承，不能作亲缘证据；D 只给了首字母相同，单点相似，任何语言里都能凑出来。这条题的判据就是“系统 vs 单点”。",
+      "concepts": [
+        "c-cognate",
+        "c-borrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w31d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个前缀（英语，不带连字符）",
+      "sentence": "The Greek prefix ___- means “half”, as in hemisphere, and corresponds regularly to Latin semi-.",
+      "answer": "hemi",
+      "accept": [
+        "hemi"
+      ],
+      "explain": "答案是 hemi。这句话把三条信息压在一起：希腊来源、义为“一半”、与拉丁 semi- 规律对应。注意 hemisphere 是 hemi + sphere，不是“半圆”——sphere 是球，所以是半球；半圆是 semicircle，用拉丁前缀配拉丁/英语词根，正好演示“同语源相配”。",
+      "concepts": [
+        "c-greek-latin",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w31d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 hepta 意为“七”，gon 意为“角”，heptagon 是：",
+      "choices": [
+        "七边形",
+        "六边形",
+        "七十",
+        "第七个角"
+      ],
+      "answer": 0,
+      "explain": "hepta（七）+ gon（角）→ 七边形。这道题还有一个隐藏收获：heptagon 的 h 与拉丁 septem（七）的 s 正是本周那条 s~h 对应——September 原本是罗马历的七月（后来历法改动才变九月），与 heptagon 同源。同理 hexagon 是六边形，对应拉丁 sex“六”。",
+      "concepts": [
+        "c-inference",
+        "c-greek-latin",
+        "c-cognate"
+      ],
+      "hint": "先定 hepta 的数，再看 gon 提供“角”还是“边”。"
+    },
+    {
+      "id": "w31d5-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“半圆”的切分",
+      "parts": [
+        "semi",
+        "circle"
+      ],
+      "answer": "semicircle",
+      "explain": "semi（一半）+ circle（圆）→ 半圆。选 semi- 而不是 hemi-，是因为 circle 走拉丁—法语这条路（拉丁 circulus），同语源相配。这条“配源”习惯在科技词里很硬：hemisphere 用希腊 sphere，semicircle 用拉丁 circle，混搭会显得外行——虽然意义上完全说得通。",
+      "concepts": [
+        "c-word-sum",
+        "semi",
+        "c-greek-latin"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w31d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 hemisphere 的含义",
+      "passage": "The two hemispheres of the brain are not identical in function: in most people the left half handles language, while the right half handles spatial attention.",
+      "word": "hemisphere",
+      "choices": [
+        "（大脑的）半球",
+        "大脑的神经中枢",
+        "大脑的左半边",
+        "大脑皮层的褶皱"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：hemi（一半）+ sphere（球）→“半球”；② 语境：the left half ... the right half 明确把两个 hemisphere 说成两半；③ 排除：C 只指左半，而句子说“两个”；B、D 都不含“一半”的成分；④ 校验：hemi- 与 semi- 对应，semicircle 是半圆，同构。",
+      "explain": "hemisphere 是“半球”，这里是大脑半球。这个词把本周两条线索合在一起：hemi- 的“半”来自希腊，sphere 的“球”也来自希腊，同语源相配；而 hemi- 能与拉丁 semi- 对照，靠的是 s~h 这条系统对应。词义靠语境落定，来源靠对应确认——两条腿都要有。",
+      "concepts": [
+        "c-inference",
+        "hemi",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 1 章第 7 节：semi- 与 hemi- 的语音对应"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "历史语言学：比较法与系统对应"
+    }
+  ]
+}

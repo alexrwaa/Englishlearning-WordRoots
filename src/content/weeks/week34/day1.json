@@ -1,0 +1,272 @@
+{
+  "id": "w34d1",
+  "week": 34,
+  "day": 1,
+  "title": "pater/father、trēs/three：一条能预测的对应",
+  "tagline": "同源不是“像”，是“对得上”；而这条对应还能帮你认出哪些词是借来的",
+  "objectives": [
+    "能列出格里姆定律的三组对应，并各举一个英语例词",
+    "能说明“对应”不等于“音值相等”，并区分辅音对应与元音对应",
+    "能用这条对应判断一个形似拉丁的词是借词还是同源词"
+  ],
+  "prereqs": [
+    "w27d4",
+    "w33d6",
+    "c-cognate"
+  ],
+  "concepts": [
+    "c-cognate",
+    "c-etymology",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s4-2"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三个字母挪了位置",
+      "body": "原始印欧语的清塞音 p、t、k 在日耳曼语里变成了擦音 f、þ（后来写作 th）、h；浊塞音 b、d、g 变成清塞音 p、t、k；浊送气音变成不送气的浊塞音。三组同时挪一格，像三列车同时进站，各自的轨道被下一列占住。\n\n第 27 周讲的是这条规则的机制与例外。今天只做一件事：**用它来读英语词表**。因为这条对应不只是历史结论，它还是英语里最好用的一把“辨词刀”——能分出哪些词是继承来的，哪些是后来借的。",
+      "terms": [
+        {
+          "term": "Grimm's Law",
+          "zh": "格里姆定律",
+          "en": "Grimm's Law",
+          "note": "原始印欧语到原始日耳曼语的三组塞音推移"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三组对应，英语例词",
+      "body": "表里每一行都要能“再举一个”。举不出来，说明你记的是零散例子而不是规则。注意英语列里有些字母已经不发音（knee 的 k、night 的 gh），但拼写记着它曾经发过——拼写是化石，读音是现状。",
+      "head": [
+        "对应",
+        "拉丁／希腊例",
+        "英语例",
+        "说明"
+      ],
+      "rows": [
+        [
+          "p → f",
+          "pater（父）",
+          "father",
+          "同类：pēs／foot、piscis／fish"
+        ],
+        [
+          "t → th",
+          "trēs（三）",
+          "three",
+          "同类：tū／thou、dent-／tooth（d→t 另计）"
+        ],
+        [
+          "k → h",
+          "cornu（角）",
+          "horn",
+          "同类：centum／hundred"
+        ],
+        [
+          "d → t",
+          "duo（二）",
+          "two",
+          "同类：edere（吃）／eat"
+        ],
+        [
+          "g → k",
+          "genu（膝）",
+          "knee",
+          "拼写的 k 保留，读音已丢"
+        ],
+        [
+          "bʰ → b",
+          "frāter（兄弟）",
+          "brother",
+          "送气浊音变不送气浊音"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "对应不等于音值相等",
+      "body": "最容易走偏的一步：以为“p 对应 f”意味着两个音“相等”。不相等。对应说的是**同一位置上，两套语言各自演变的结果有固定映射**：印欧的 *p 在拉丁语里仍是 p，在日耳曼语里擦化成了 f。所以 father 的 f 与 pater 的 p 是同一个来源的两种命运，不是“发音相近”。\n\n同理，英语 time 的 /aɪ/ 与古英语 tīma 的 /iː/ 也不是同一个音——那是元音大推移的结果（第 35 周第 6 天）。把“对应”读成“相等”，接下来就会把任何两个有点像的音硬凑成一条规则。\n\n检验办法很简单：对应必须**成批**出现，而且方向一致。单个词对得上不算。",
+      "terms": [
+        {
+          "term": "correspondence",
+          "zh": "对应",
+          "en": "correspondence",
+          "note": "两套语言之间反复出现、方向固定的音位映射"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "辅音对应 vs 元音对应",
+      "body": "把两类对应分开，是避免“什么都往上套”的关键。mūs/mouse 里辅音没变，变的是长元音；若硬拿格里姆定律去解释，就解释错了对象。做题时先问：这一对词的差别在辅音还是在元音？",
+      "head": [
+        "类型",
+        "规则",
+        "例",
+        "出现在哪一课"
+      ],
+      "rows": [
+        [
+          "辅音",
+          "格里姆定律（p→f、t→th、k→h 等）",
+          "pater／father；trēs／three；cornu／horn",
+          "今天"
+        ],
+        [
+          "辅音",
+          "浊塞音清化（d→t、g→k）",
+          "duo／two；genu／knee",
+          "今天"
+        ],
+        [
+          "元音",
+          "长元音高化与二合化（元音大推移）",
+          "tīma／time；mūs／mouse",
+          "第 35 周第 6 天"
+        ],
+        [
+          "元音",
+          "拼写冻结在旧读音上",
+          "name、moon、five",
+          "第 35 周第 6 天"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "用对应来认借词",
+      "body": "这条规则在词汇上的用处，比在历史上大得多：**同一个拉丁词根，若英语形式保留了 p、t、k，多半是后来借入的；若变成 f、th、h，多半是同源继承的。**\n\n- 拉丁 pēs／pedis：pedal、pedestrian、podiatry 保留 p（借词）；foot 变成 f（继承）。\n- 拉丁 trēs：triple、triangle、trilogy 保留 t（借词）；three 变成 th（继承）。\n- 拉丁 canis：canine、canicular 保留 k（借词）；hound 变成 h（继承）。\n\n一组意义、两套词形——英语里到处都是这种“双份”。判断哪份是哪份，就靠这条对应。它也是后面几周辨别拉丁借词层的底层工具。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w34d1-p1",
+      "kind": "mcq",
+      "prompt": "按格里姆定律，拉丁 cornu 与英语 horn 的对应是：",
+      "choices": [
+        "印欧语的 *k 在日耳曼语里变成 h，拉丁语保留 k",
+        "印欧语的 *h 在拉丁语里变成 k，所以 horn 更古老",
+        "两者只是意义相同，音上无对应",
+        "英语从拉丁语借入了 horn"
+      ],
+      "answer": 0,
+      "explain": "方向是印欧 *k → 日耳曼 h，拉丁保留 k。同一行还有 centum／hundred，说明这不是孤例。方向不能反：拉丁语文献更早，但“文献早”与“谁变成谁”是两件事。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w34d1-p2",
+      "kind": "mcq",
+      "prompt": "“p 对应 f”这句话的正确理解是：",
+      "choices": [
+        "同一来源在两套语言里各自演变成固定的映射，并不要求两个音听起来相同",
+        "这两个音在任何语言里都可以互换",
+        "p 和 f 的发音非常接近，所以算同源",
+        "凡是含 p 的词都能找到含 f 的同源词"
+      ],
+      "answer": 0,
+      "explain": "对应是“映射”，不是“相等”，也不是“可互换”。互换会造成意义混乱；发音接近不是判据（much／mucho 就是反例）；含 p 也不保证能找到对应词，要看这个词是否在日耳曼语里留下了继承形式。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w34d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文字母",
+      "sentence": "Latin pater and English father are cognates because Indo-European *p regularly became ___ in Germanic.",
+      "answer": "f",
+      "accept": [
+        "f",
+        "F"
+      ],
+      "explain": "填 f。这条对应在词首反复出现：pater／father、pēs／foot、piscis／fish。要求“反复出现”正是为了排除偶合——一次巧合说明不了规则，几十次同向才说明。",
+      "concepts": [
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w34d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知拉丁 canis“狗”与英语 hound 同源，而 canine 是后来借入的。据此判断：canine 与 hound 分别属于：",
+      "choices": [
+        "借词／继承词",
+        "继承词／借词",
+        "两者都是借词",
+        "两者都是继承词"
+      ],
+      "answer": 0,
+      "explain": "canine 保留了拉丁的 k（c 拼写），说明它是按拉丁原形借入的；hound 的词首变成了 h，正是 *k → h 的日耳曼推移结果，所以是继承词。这条判据可以推广到大量词：pedal/foot、triple/three、corn／horn（不同义）都是同一模式。",
+      "concepts": [
+        "c-borrowing",
+        "c-cognate",
+        "c-inference"
+      ],
+      "hint": "先看词首辅音有没有“推移过”。"
+    },
+    {
+      "id": "w34d1-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一组不能作为格里姆定律的例子？",
+      "choices": [
+        "pater／father",
+        "trēs／three",
+        "cornu／horn",
+        "tīma／time"
+      ],
+      "answer": 3,
+      "explain": "tīma／time 的辅音完全没变（t 对 t、m 对 m），变的是长元音 ī → /aɪ/，属于元音大推移，不是格里姆定律。把两类对应混为一谈，是这一课最想防的错误。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w34d1-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 systematic 在句中的含义",
+      "passage": "The change was not a scattering of accidents. It was systematic: every p in the right position became f, every t became th, every k became h, and the pattern holds across hundreds of words that have nothing to do with one another in meaning.",
+      "word": "systematic",
+      "choices": [
+        "成体系、有规律地发生的",
+        "偶然发生的",
+        "由某位学者人为规定的",
+        "只出现在借词里的"
+      ],
+      "answer": 0,
+      "strategy": "① 否定句先立靶：not a scattering of accidents；② 冒号后三个 every 句就是定义——无条件、成批、可预测；③ 补充证据 across hundreds of words，排除偶合；④ 排除“人为规定”“只出现在借词”：音变发生在说话人无意识的使用中，且借词恰恰不服从这套对应。",
+      "explain": "systematic 在这里是“系统的、成规律的”。这个词的日常义（有条理的、按计划的）与学术义共享“成套”的核心：不是一个点，而是一张网。判断音变是否成立，看的就是这张网有没有漏。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 4 节：格里姆定律与英语词形；辅音对应用于辨别借词"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "pater／father、trēs／three、cornu／horn、canis／hound 的语源核对"
+    }
+  ]
+}

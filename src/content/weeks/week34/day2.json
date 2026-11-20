@@ -1,0 +1,290 @@
+{
+  "id": "w34d2",
+  "week": 34,
+  "day": 2,
+  "title": "哥特语与最早的拉丁借词",
+  "tagline": "日耳曼三支里，东支已经灭绝，却留下了最早的日耳曼语长篇文献",
+  "objectives": [
+    "能说出日耳曼三支的分布，并说明东支（哥特语）为何重要",
+    "能列举最早一批拉丁借词的语义场，并给出拉丁原形",
+    "能解释为什么这批借词都是“能摸到的东西”"
+  ],
+  "prereqs": [
+    "w34d1",
+    "c-borrowing"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-etymology",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s4-3"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三支，一支已经没了",
+      "body": "日耳曼分三支。**东支**：哥特语等，已灭绝，四世纪乌尔菲拉的圣经译本是最重要的文献。**北支**：古诺斯语及其后代（冰岛语、挪威语、丹麦语、瑞典语）。**西支**：英语、德语、荷兰语、弗里西亚语。\n\n哥特语的价值在于“早”。它保存了日耳曼语较早的形态，是构拟原始日耳曼语时的重要旁证——一个已经死掉的分支，反而给整棵树定了坐标。这在语文学里是常态：**死语言常常比活语言更有用**，因为它停在了某个时间点上，不再变化。",
+      "terms": [
+        {
+          "term": "Gothic",
+          "zh": "哥特语",
+          "en": "Gothic",
+          "note": "东日耳曼支唯一有大量文献的语言，已灭绝"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "最早的拉丁借词：跟着东西进来",
+      "body": "七个词有共同点：全是**能摸到的东西**。酒、路、里程、磅、奶酪、厨房、墙——这是边境贸易与军营生活的清单，不是哲学或文学的清单。语义场本身就是证据。",
+      "head": [
+        "英语词",
+        "拉丁原形",
+        "语义场",
+        "说明"
+      ],
+      "rows": [
+        [
+          "wine",
+          "vīnum",
+          "酒",
+          "罗马人的酒与葡萄种植"
+        ],
+        [
+          "street",
+          "(via) strāta",
+          "道路",
+          "“铺过的（路）”，strata 被当作单数借入"
+        ],
+        [
+          "mile",
+          "mīlia (passuum)",
+          "度量",
+          "“千（步）”，复数被当成单数"
+        ],
+        [
+          "pound",
+          "(libra) pondō",
+          "度量",
+          "“按重量”，指重量单位"
+        ],
+        [
+          "cheese",
+          "cāseus",
+          "食物",
+          "制作法随词一起进来"
+        ],
+        [
+          "kitchen",
+          "coquīna",
+          "厨房",
+          "“做饭的地方”"
+        ],
+        [
+          "wall",
+          "vallum",
+          "防御工事",
+          "营垒的墙"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么都是“物名”",
+      "body": "借词的语义场会告诉你接触的性质。若接触发生在市场与军营，借的就是货物与器物的名字；若发生在教堂与学校，借的就是信仰与学问的词（第 35 周第 1 天的 abbot、school）；若发生在法庭与城堡，借的就是制度词（第 9 周的 court、justice）。\n\n所以看到 wine 和 street，可以推断：**这次接触是日常的、物质的、非官方的**。没有人因为读懂了维吉尔的诗而借词，是有人想买酒、想修路、想称重。\n\n这条推理很有用，因为它可以从词反推历史：给你一批借词，你能大致说出接触的场合、双方的地位、甚至时间先后。",
+      "terms": [
+        {
+          "term": "semantic field",
+          "zh": "语义场",
+          "en": "semantic field",
+          "note": "一组意义相关的词，常用来判断借词来源的场合"
+        }
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "street：一条被“单数化”的拉丁词",
+      "body": "street 的故事值得单独看，因为它暴露了借词的一个常见机制：**听错数**。拉丁的 (via) strāta 本义是“铺过的（路）”，strāta 是阴性单数分词形式；但在通俗拉丁语里，复数的 stratae 常被用于“铺石路”。日耳曼人借入时，把词尾当成整体，得到 *strāt-，进入古英语成为 strǣt（“路、大道”）。\n\n同类还有 mile：拉丁 mīlia（“千”，复数）被当作单数借入，于是英语的 mile 是单数。这类“数被重新分析”的现象，是借词层里最容易留下指纹的地方——它说明借入者并不懂源语言的语法，只按声音切词。",
+      "steps": [
+        {
+          "period": "拉丁语",
+          "form": "strāta (via)",
+          "note": "“铺过的路”，阴性单数分词"
+        },
+        {
+          "period": "通俗拉丁／边境接触",
+          "form": "*strāta",
+          "note": "日耳曼人按声音整体借入"
+        },
+        {
+          "period": "古英语",
+          "form": "strǣt",
+          "note": "“路、大道”，成为本族常用词"
+        },
+        {
+          "period": "现代英语",
+          "form": "street",
+          "note": "长元音 ā 经元音大推移变 /iː/，拼写双 e"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "三支的文献状况",
+      "body": "把三支并排，能看出一件事：文献的有无与语言的“重要性”无关，只与有没有人把它写下来有关。哥特语灭绝了，却因为一部圣经译本而留下长篇文本；北支留下大量诗歌与法律；西支的英语要到很晚才有大量文本。",
+      "a": "东支（哥特）",
+      "b": "西支（英语所在）",
+      "rows": [
+        {
+          "label": "文献",
+          "a": "四世纪圣经译本，篇幅长但主题单一",
+          "b": "七世纪起渐多，主题广泛"
+        },
+        {
+          "label": "现状",
+          "a": "已灭绝",
+          "b": "全球使用"
+        },
+        {
+          "label": "对研究的价值",
+          "a": "保存早期形态，为构拟提供旁证",
+          "b": "连续文献，可追踪变化"
+        },
+        {
+          "label": "早期拉丁借词",
+          "a": "有：wine 一类物名（哥特语形式与古英语同源）",
+          "b": "有：wine、street、mile、cheese"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w34d2-p1",
+      "kind": "mcq",
+      "prompt": "东日耳曼支的代表语言与其主要文献是：",
+      "choices": [
+        "哥特语，乌尔菲拉的圣经译本",
+        "古诺斯语，冰岛萨迦",
+        "古英语，《贝奥武甫》",
+        "古高地德语，弥撒书"
+      ],
+      "answer": 0,
+      "explain": "东支的代表是哥特语，主要文献是四世纪乌尔菲拉的圣经译本。古诺斯语属北支，古英语与古高地德语属西支。哥特语的意义在于“早且长”：它是一份停在四世纪的日耳曼语样本。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w34d2-p2",
+      "kind": "mcq",
+      "prompt": "wine、street、mile 这批早期拉丁借词的共同点是：",
+      "choices": [
+        "都是具体的物名，来自欧陆边境的日常接触",
+        "都是抽象的学术词，来自教会文献",
+        "都是法律术语，来自罗马法庭",
+        "都是诗歌用语，来自文学翻译"
+      ],
+      "answer": 0,
+      "explain": "语义场全是“能摸到的东西”：酒、路、里程、磅、奶酪、厨房、墙。这指向市场与军营，而不是教堂、法庭或书房。语义场是判断接触性质的第一手证据，比任何编年史都直接。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w34d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "English ___ comes from Latin (via) strāta, “a paved road”, borrowed on the continent long before the Anglo-Saxons reached Britain.",
+      "answer": "street",
+      "accept": [
+        "street",
+        "Street"
+      ],
+      "explain": "填 street。它的拉丁原形是 strāta（铺过的），古英语作 strǣt。注意这个词的“日常性”：它不是学者借来的，是修路的人天天要用的词。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w34d2-p4",
+      "kind": "mcq",
+      "prompt": "mile 的拉丁原形 mīlia 是复数，英语却把它当单数用。这说明：",
+      "choices": [
+        "借入者按声音切词，不懂源语言的语法，数被重新分析",
+        "拉丁语的复数就是单数",
+        "英语的 mile 是从法语借来的",
+        "这个词的拼写在近代被改动过"
+      ],
+      "answer": 0,
+      "explain": "借词常常“整块搬”，借入者不分析内部结构，于是词尾被当成词干的一部分，数的信息丢失或被重新分配。同类还有 cheese（拉丁 cāseus 单数，没问题）、以及大量以复数形借入却当单数用的词（data、agenda 是后来学术层的例子）。",
+      "concepts": [
+        "c-borrowing",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w34d2-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“The loanwords cluster in one semantic field, which tells us more about the contact than any chronicle could: these were traders and soldiers, not monks.” 句中 semantic field 最可能指：",
+      "choices": [
+        "一组意义相关的词",
+        "一块耕种的田地",
+        "一种语法范畴",
+        "一段历史文献"
+      ],
+      "answer": 0,
+      "explain": "semantic（意义的）＋ field（范围）：一组意义相关的词聚在一起。句子用 traders and soldiers, not monks 解释这种聚集说明了什么。field 在这里是“范围、领域”的抽象义，不是农田。",
+      "concepts": [
+        "c-inference",
+        "c-register"
+      ],
+      "hint": "semantic 是“意义的”，field 在这里是“范围”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w34d2-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 channel 在句中的含义",
+      "passage": "Words do not cross borders by themselves. They travel along a channel: a market, a garrison, a monastery, a court. Identify the channel and you can predict what kind of words will arrive, and roughly when, long before you open a dictionary.",
+      "word": "channel",
+      "choices": [
+        "借词传播所经过的渠道（市场、军营、修道院等）",
+        "一条人工开凿的水道",
+        "一个电视频道",
+        "一种语法结构"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后列举：market、garrison、monastery、court——都是社会场所；② 结果句：identify the channel and you can predict what kind of words，说明它是“通路”；③ 排除水利、电视：段落谈的是词怎么过边境；④ 排除语法结构：语法不是传播通路。",
+      "explain": "channel 的核心义是“通道”，从水道引申到信息与货物的通路。这里指借词赖以进入的**社会渠道**：市场带进物名，修道院带进教会词，法庭带进制度词。这个隐喻很好用，因为它把“借词”变成了可预测的事。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 4 节：日耳曼三支、哥特语文献与最早的拉丁借词"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "street、mile、cheese、kitchen、wall 的拉丁原形与借入路径"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "course-c1",
+  "title": "The Wealth of English",
+  "titleZh": "英语词汇的规模、来源与结构",
+  "sourceChapter": "S1-C1",
+  "level": "B2",
+  "weeks": [
+    {
+      "week": 31,
+      "theme": "英语的词为什么这么多：规模、代价与三条历史线索",
+      "days": 5
+    },
+    {
+      "week": 32,
+      "theme": "把词拆开：长词、造词程序、拼写与学科地图",
+      "days": 4
+    }
+  ],
+  "lessonCount": 9,
+  "knowledgePointCount": 9,
+  "lessons": {
+    "w31d1": [
+      "kp-s1c1s1-1"
+    ],
+    "w31d2": [
+      "kp-s1c1s1-2"
+    ],
+    "w31d3": [
+      "kp-s1c1s3-1"
+    ],
+    "w31d4": [
+      "kp-s1c1s7-1"
+    ],
+    "w31d5": [
+      "kp-s1c1s7-2"
+    ],
+    "w32d1": [
+      "kp-s1c1s6-1"
+    ],
+    "w32d2": [
+      "kp-s1c1s6-2"
+    ],
+    "w32d3": [
+      "kp-s1c1s8-1"
+    ],
+    "w32d4": [
+      "kp-s1c1s8-3"
+    ]
+  },
+  "knowledgePointIndex": {
+    "kp-s1c1s1-1": [
+      "w31d1"
+    ],
+    "kp-s1c1s1-2": [
+      "w31d2"
+    ],
+    "kp-s1c1s3-1": [
+      "w31d3"
+    ],
+    "kp-s1c1s7-1": [
+      "w31d4"
+    ],
+    "kp-s1c1s7-2": [
+      "w31d5"
+    ],
+    "kp-s1c1s6-1": [
+      "w32d1"
+    ],
+    "kp-s1c1s6-2": [
+      "w32d2"
+    ],
+    "kp-s1c1s8-1": [
+      "w32d3"
+    ],
+    "kp-s1c1s8-3": [
+      "w32d4"
+    ]
+  },
+  "referenceForms": [
+    "antipyretic",
+    "appendectomy",
+    "attendance",
+    "audible",
+    "brotherly",
+    "candelabrum",
+    "candle",
+    "cattle",
+    "census",
+    "chandelier",
+    "changeable",
+    "chattel",
+    "cheap",
+    "chef",
+    "childish",
+    "childlike",
+    "electroencephalographically",
+    "father",
+    "fatherly",
+    "fish",
+    "foot",
+    "gastrectomy",
+    "gastroscope",
+    "gastroscopy",
+    "guardian",
+    "hemicycle",
+    "hemisphere",
+    "heptagon",
+    "hexagon",
+    "home",
+    "hypertension",
+    "inexpensive",
+    "laparoscopy",
+    "laryngoscope",
+    "linguistics",
+    "maternal",
+    "morphology",
+    "motherly",
+    "musician",
+    "neurosis",
+    "ophthalmoscope",
+    "otitis",
+    "otorhinolaryngology",
+    "otoscope",
+    "paternal",
+    "philanthropist",
+    "phonograph",
+    "phonology",
+    "piscine",
+    "pneumoconiosis",
+    "pneumonoultramicroscopicsilicovolcanoconiosis",
+    "pyre",
+    "pyromaniac",
+    "rhinitis",
+    "rhinoplasty",
+    "september",
+    "sexennial",
+    "silicosis",
+    "sociolinguistics",
+    "stethoscope",
+    "symphony",
+    "understand",
+    "usable",
+    "warrantee",
+    "warranty",
+    "woman",
+    "womb"
+  ],
+  "referenceFormsNote": "本单元讲解与练习引用、但 words.json 尚无完整词条的英语形式；已去重小写。不含拉丁或希腊中间形式（caput、sēmi-、oto-、stetho- 等）与仅出现在阅读段落里的普通词。"
+}

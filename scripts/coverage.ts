@@ -17,8 +17,11 @@
  *   L2 linked       element → morpheme ID, with form *and* origin agreeing
  *   L3 glossed      glossZh and glossEn both real (no placeholders)
  *   L4 exemplified  ≥2 verified words whose partIds contain the ID
- *   L5 explained    taught by a lesson (concept / card / linked knowledge point)
- *   L6 practised    that lesson has a practice/apply item using the ID
+ *   L5 explained    a lesson's concepts or a card names the ID, or the card's
+ *                   prose glosses it (snippet stored, chapter proximity is NOT
+ *                   evidence and is reported separately)
+ *   L6 practised    a practice/apply item really uses the ID: declared parts,
+ *                   concepts, matrix base, or the answer word's partIds
  *   L7 reviewed     the morpheme has a review record (`review.by`)
  *
  *   npx tsx scripts/coverage.ts            # human report
@@ -89,8 +92,8 @@ const LEVEL_RULES: Record<LevelId, string> = {
   L2: '元素 → 词素 ID，form 与 origin 同时一致',
   L3: 'glossZh 与 glossEn 均非空且无占位符',
   L4: '≥2 个 verified:true 且 partIds 含该 ID 的词条',
-  L5: '有课时在 concepts / 卡片 / 关联知识点里讲到该 ID',
-  L6: '讲到它的课时，practice/apply 至少一题用到该 ID',
+  L5: '某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段）',
+  L6: 'practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds）',
   L7: '该词素在 reviews.json 有审校记录（或记录自带 review.by）',
 };
 
@@ -104,7 +107,17 @@ const reviews = read<{ reviewedBy?: string; scope?: string; caveat?: string; ent
   join(TX, 'reviews.json'),
   {},
 );
-const reviewedIds = new Set((reviews.entries ?? []).map((e) => e.id));
+// L7 counts a review only when it names a source. "Has a Chinese gloss" or
+// "has an English definition" is not linguistic review; a traceable reference is.
+type ReviewEntry = { id: string; kinds?: string[]; sources?: { id: string; detail?: string }[]; reviewer?: string };
+const reviewEntries = (reviews.entries ?? []) as ReviewEntry[];
+const reviewed = new Map<string, ReviewEntry>();
+for (const entry of reviewEntries) {
+  if (!entry.id) continue;
+  if (!entry.sources || entry.sources.length === 0) continue;
+  reviewed.set(entry.id, entry);
+}
+const reviewedIds = new Set(reviewed.keys());
 const morphemes = read<Morpheme[]>(join(LEX, 'morphemes.json'), []);
 const words = read<Word[]>(join(LEX, 'words.json'), []);
 const concepts = read<{ id: string; zh: string }[]>(join(LEX, 'concepts.json'), []);
@@ -113,68 +126,175 @@ const identity = loadIdentity(morphemes, formsIndex);
 
 // ---------------------------------------------------------------- lessons ---
 const lessons: Lesson[] = [];
+const parseErrors: string[] = [];
 for (const weekDir of existsSync(WEEKS) ? readdirSync(WEEKS).sort() : []) {
   const dir = join(WEEKS, weekDir);
   if (!existsSync(dir)) continue;
   for (const file of readdirSync(dir).filter((f) => /^day\d+\.json$/.test(f)).sort()) {
+    const path = `${weekDir}/${file}`;
     try {
       lessons.push(JSON.parse(readFileSync(join(dir, file), 'utf-8')) as Lesson);
-    } catch {
-      // A lesson being written by another author must not break the audit.
+    } catch (error) {
+      // A half-written lesson is a real finding, not background noise: the file
+      // is skipped for counting, but the audit says so and --strict fails.
+      parseErrors.push(`${path}: ${error instanceof Error ? error.message : String(error)}`);
     }
   }
 }
 
-function cardIds(card: Card): string[] {
-  const ids = new Set<string>();
+/**
+ * Card → morpheme IDs with the evidence that produced them.
+ *
+ * A card explains a morpheme in three legitimate ways, and the audit records
+ * which one it saw so a human can sample the claim instead of trusting a count:
+ *   `id`    the card declares the ID (`morphemeIds`)
+ *   `form`  the card declares the spelling (`morphemes`) and it resolves
+ *   `text`  the card's own prose names the form — recorded with a snippet
+ * Anything else (a neighbouring lesson, a chapter that merely contains the
+ * form) is *not* evidence and no longer counts.
+ */
+interface EvidenceHit {
+  kind: 'id' | 'form' | 'text';
+  lesson: string;
+  card?: string;
+  snippet?: string;
+}
+
+function escapeRe(text: string): string {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * Does the prose name this morpheme?
+ *
+ * Precision matters more than recall here: a false hit inflates the headline
+ * number and makes sampling useless. So:
+ *   - 1-2 letter forms never count (`a-` matched every English article);
+ *   - 3-4 letter forms count only in the conventional dash notation (`in-`, `-al`);
+ *   - 5+ letters count on a word boundary (`struct` matches `structure`).
+ */
+function mentions(blob: string, form: string): string | null {
+  const bare = normalizeForm(form);
+  if (!bare || bare.length <= 2) return null;
+  const esc = escapeRe(bare);
+  const pattern =
+    bare.length <= 4
+      ? new RegExp(`(?:[-–—]${esc}\\b|\\b${esc}[-–—])`, 'i')
+      : new RegExp(`(^|[^a-z])${esc}`, 'i');
+  // A bare occurrence inside an unrelated word ("the practice of...") is not an
+  // explanation. Require a gloss cue next to the hit: a dash, a colon, a bracket
+  // or an equals sign — the notations cards actually use to define a morpheme.
+  const CUE = /[-–—（(：:→→=＝「]|即|意思是|表示|意为/;
+  const global = new RegExp(pattern.source, 'gi');
+  let match: RegExpExecArray | null;
+  while ((match = global.exec(blob)) !== null) {
+    const at = match.index;
+    const window = blob.slice(Math.max(0, at - 30), Math.min(blob.length, at + 40));
+    if (!CUE.test(window)) continue;
+    return window.replace(/\s+/g, ' ').trim();
+  }
+  return null;
+}
+
+/** Only prose: string values long enough to be a sentence, never object keys. */
+function cardText(card: Card): string {
+  const parts: string[] = [];
+  const walk = (value: unknown, depth: number) => {
+    if (depth > 4 || value === null || value === undefined) return;
+    if (typeof value === 'string') {
+      if (value.length >= 6) parts.push(value);
+      return;
+    }
+    if (Array.isArray(value)) {
+      for (const item of value) walk(item, depth + 1);
+      return;
+    }
+    if (typeof value === 'object') {
+      const record = value as Record<string, unknown>;
+      for (const [key, inner] of Object.entries(record)) {
+        // Declarations are evidence of their own kind, not prose.
+        if (key === 'morphemeIds' || key === 'morphemes' || key === 'id' || key === 'kind') continue;
+        walk(inner, depth + 1);
+      }
+    }
+  };
+  walk(card, 0);
+  return parts.join(' \n ');
+}
+
+function cardHits(card: Card, lessonId: string): Map<string, EvidenceHit> {
+  const hits = new Map<string, EvidenceHit>();
+  const title = 'title' in card ? String((card as { title?: string }).title ?? '') : '';
   if ('morphemeIds' in card && Array.isArray(card.morphemeIds)) {
-    for (const id of card.morphemeIds) ids.add(id);
+    for (const id of card.morphemeIds) hits.set(id, { kind: 'id', lesson: lessonId, card: title });
   }
   if ('morphemes' in card && Array.isArray(card.morphemes)) {
     for (const form of card.morphemes) {
       const resolved = identity.resolve(form).id;
-      if (resolved) ids.add(resolved);
+      if (resolved && !hits.has(resolved)) hits.set(resolved, { kind: 'form', lesson: lessonId, card: title });
     }
   }
-  return [...ids];
+  const blob = cardText(card);
+  for (const morpheme of morphemes) {
+    if (hits.has(morpheme.id)) continue;
+    const forms = [morpheme.form, ...(morpheme.allomorphs ?? [])];
+    for (const form of forms) {
+      const snippet = mentions(blob, form);
+      if (snippet) {
+        hits.set(morpheme.id, { kind: 'text', lesson: lessonId, card: title, snippet });
+        break;
+      }
+    }
+  }
+  return hits;
 }
 
-function exerciseIds(ex: Exercise): string[] {
-  const ids = new Set<string>();
+/** Exercises: declared parts, concepts, matrix base, and the answer word's parts. */
+function exerciseHits(ex: Exercise, lessonId: string): Map<string, EvidenceHit> {
+  const hits = new Map<string, EvidenceHit>();
+  const add = (id: string | undefined, kind: EvidenceHit['kind'], snippet?: string) => {
+    if (id && !hits.has(id)) hits.set(id, { kind, lesson: lessonId, snippet });
+  };
   const parts = 'parts' in ex && Array.isArray(ex.parts) ? ex.parts : [];
-  for (const part of parts) {
-    const resolved = identity.resolve(part).id;
-    if (resolved) ids.add(resolved);
-  }
+  for (const part of parts) add(identity.resolve(part).id, 'form', `parts: ${parts.join(' + ')}`);
   for (const concept of ex.concepts ?? []) {
-    if (identity.byId(concept)) ids.add(concept);
-    else {
-      const resolved = identity.resolve(concept).id;
-      if (resolved) ids.add(resolved);
-    }
+    if (identity.byId(concept)) add(concept, 'id');
+    else add(identity.resolve(concept).id, 'form');
   }
-  if (ex.kind === 'matrix') {
-    const resolved = identity.resolve(ex.base).id;
-    if (resolved) ids.add(resolved);
+  if (ex.kind === 'matrix') add(identity.resolve(ex.base).id, 'form', `matrix: ${ex.base}`);
+  // A wordSum/cloze whose answer is a known word still exercises that word's
+  // morphemes even when the item never lists them as parts.
+  const answer = 'answer' in ex && typeof ex.answer === 'string' ? ex.answer : '';
+  if (answer) {
+    const word = words.find((candidate) => candidate.w.toLowerCase() === answer.toLowerCase());
+    for (const id of word?.partIds ?? []) add(id ?? undefined, 'text', `answer: ${answer}`);
   }
-  return [...ids];
+  return hits;
 }
 
-/** Everything each lesson demonstrably touches. */
+/** Everything each lesson demonstrably touches, with the evidence kept. */
 interface LessonEvidence {
   id: string;
   concepts: Set<string>;
   knowledgePoints: Set<string>;
-  cardIds: Set<string>;
-  exerciseIds: Set<string>;
+  cardHits: Map<string, EvidenceHit>;
+  exerciseHits: Map<string, EvidenceHit>;
 }
-const lessonEvidence: LessonEvidence[] = lessons.map((lesson) => ({
-  id: lesson.id,
-  concepts: new Set(lesson.concepts ?? []),
-  knowledgePoints: new Set(lesson.knowledgePoints ?? []),
-  cardIds: new Set((lesson.cards ?? []).flatMap(cardIds)),
-  exerciseIds: new Set([...(lesson.practice ?? []), ...(lesson.apply ?? [])].flatMap(exerciseIds)),
-}));
+const lessonEvidence: LessonEvidence[] = lessons.map((lesson) => {
+  const cards = new Map<string, EvidenceHit>();
+  for (const card of lesson.cards ?? []) for (const [id, hit] of cardHits(card, lesson.id)) if (!cards.has(id)) cards.set(id, hit);
+  const exercises = new Map<string, EvidenceHit>();
+  for (const ex of [...(lesson.practice ?? []), ...(lesson.apply ?? [])]) {
+    for (const [id, hit] of exerciseHits(ex, lesson.id)) if (!exercises.has(id)) exercises.set(id, hit);
+  }
+  return {
+    id: lesson.id,
+    concepts: new Set(lesson.concepts ?? []),
+    knowledgePoints: new Set(lesson.knowledgePoints ?? []),
+    cardHits: cards,
+    exerciseHits: exercises,
+  };
+});
 
 /** kp → lessons that claim it (lesson file first, generated map second). */
 const kpLessons = new Map<string, Set<string>>();
@@ -300,44 +420,68 @@ interface ElementRow {
   gap: LevelId | 'done';
   reason: string;
   verifiedWords: string[];
-  teachingLessons: string[];
-  exerciseLessons: string[];
+  /** Lessons that show this morpheme on a card, with the kind of proof. */
+  teaching: EvidenceHit[];
+  /** Exercises that actually use the ID, with the kind of proof. */
+  practice: EvidenceHit[];
+  /** Diagnostics: the form appears in a chapter whose kp is taught, but no card
+   *  or exercise names it. Real teaching, but not evidence for *this* morpheme. */
+  chapterTopicOnly: boolean;
 }
 
-function teachingLessonsFor(morphemeId: string, element: Element): string[] {
-  const direct = lessonEvidence.filter(
-    (lesson) => lesson.concepts.has(morphemeId) || lesson.cardIds.has(morphemeId),
-  );
-  const taught = new Set(direct.map((lesson) => lesson.id));
+function teachingFor(morphemeId: string, element: Element): EvidenceHit[] {
+  const hits: EvidenceHit[] = [];
+  for (const lesson of lessonEvidence) {
+    if (lesson.concepts.has(morphemeId)) {
+      hits.push({ kind: 'id', lesson: lesson.id, snippet: 'lesson.concepts' });
+      continue;
+    }
+    const card = lesson.cardHits.get(morphemeId);
+    if (card) hits.push(card);
+  }
+  if (hits.length > 0) return hits;
+  // No card names it. Kept only as a diagnostic, never as L5 evidence.
+  void element;
+  return [];
+}
 
-  // Knowledge-point route: the element's chapter has a kp that some lesson
-  // claims, and the chapter's own element list really contains this form.
+/** The form sits in a chapter whose knowledge point is taught, but no card or
+ *  exercise names it: useful signal, not proof. */
+function chapterTopicOnly(morphemeId: string, element: Element): boolean {
   for (const chapterNo of elementChapters(element.chapter)) {
     const forms = chapterForms.get(chapterNo);
     if (!forms || !element.forms.some((form) => forms.has(normalizeForm(form)))) continue;
     for (const kp of chapterKps.get(chapterNo) ?? []) {
-      for (const lessonId of kpLessons.get(kp) ?? []) taught.add(lessonId);
+      for (const lessonId of kpLessons.get(kp) ?? []) {
+        const lesson = lessonEvidence.find((candidate) => candidate.id === lessonId);
+        if (!lesson) continue;
+        if (lesson.concepts.has(morphemeId) || lesson.cardHits.has(morphemeId) || lesson.exerciseHits.has(morphemeId)) return false;
+      }
     }
   }
-  return [...taught].sort();
+  return true;
 }
 
 const elementRows: ElementRow[] = elements.map((element) => {
   const link = linkElement(element);
   const morpheme = link.id ? identity.byId(link.id) : undefined;
   const verifiedWords = link.id ? (verifiedWordsByMorpheme.get(link.id) ?? []).slice(0, 6) : [];
-  const teachingLessons = link.id ? teachingLessonsFor(link.id, element) : [];
-  const exerciseLessons = link.id
-    ? lessonEvidence.filter((lesson) => teachingLessons.includes(lesson.id) && lesson.exerciseIds.has(link.id as string)).map((lesson) => lesson.id)
+  const teaching = link.id ? teachingFor(link.id, element) : [];
+  const practice = link.id
+    ? lessonEvidence.flatMap((lesson) => {
+        const hit = lesson.exerciseHits.get(link.id as string);
+        return hit ? [hit] : [];
+      })
     : [];
+  const topicOnly = Boolean(link.id) && teaching.length === 0 && chapterTopicOnly(link.id as string, element);
 
   const levels: Record<LevelId, boolean> = {
     L1: Boolean(element.element),
     L2: Boolean(link.id),
     L3: Boolean(morpheme && glossOk(morpheme.glossZh) && glossOk(morpheme.glossEn)),
     L4: verifiedWords.length >= 2,
-    L5: teachingLessons.length > 0,
-    L6: exerciseLessons.length > 0,
+    L5: teaching.length > 0,
+    L6: practice.length > 0,
     L7: Boolean(morpheme?.review?.by) || reviewedIds.has(morpheme?.id ?? ''),
   };
 
@@ -365,33 +509,60 @@ const elementRows: ElementRow[] = elements.map((element) => {
     gap,
     reason: gap === 'done' ? '' : reasons[gap],
     verifiedWords,
-    teachingLessons,
-    exerciseLessons,
+    teaching,
+    practice,
+    chapterTopicOnly: topicOnly,
   };
 });
 
 // ------------------------------------------------------------ knowledge -----
-type KpRow = { id: string; chapter: string; section: string; title: string; type: string; lessons: string[]; taught: boolean };
+type KpRow = {
+  id: string;
+  chapter: string;
+  section: string;
+  title: string;
+  type: string;
+  /** Lessons whose own `knowledgePoints` array names this id. */
+  claimedBy: string[];
+  /** Lessons only reachable through the generated kp-map: mapping, not evidence. */
+  mappedOnly: string[];
+  taught: boolean;
+};
 const kpRows: KpRow[] = [];
 for (const chapter of chapters) {
   for (const section of chapter.sections ?? []) {
     for (const kp of section.knowledgePoints ?? []) {
-      const fromLessons = lessons.filter((lesson) => (lesson.knowledgePoints ?? []).includes(kp.id)).map((lesson) => lesson.id);
-      const mapped = fromLessons.length ? fromLessons : [...(kpLessons.get(kp.id) ?? [])].sort();
+      const claimedBy = lessons.filter((lesson) => (lesson.knowledgePoints ?? []).includes(kp.id)).map((lesson) => lesson.id);
+      const mappedOnly = [...(kpLessons.get(kp.id) ?? [])]
+        .filter((id) => !claimedBy.includes(id))
+        .sort();
       kpRows.push({
         id: kp.id,
         chapter: chapter.id,
         section: section.title,
         title: kp.title,
         type: kp.type,
-        lessons: mapped,
-        taught: mapped.length > 0,
+        claimedBy,
+        mappedOnly,
+        // Only a lesson that names the id in its own file is evidence. A
+        // generated substring map is a hint for authors, never a claim.
+        taught: claimedBy.length > 0,
       });
     }
   }
 }
 
 // --------------------------------------------------------------- summary ----
+const levelRows = (level: LevelId) => elementRows.filter((row) => row.levels[level]);
+function countBy<T extends string>(rows: ElementRow[], key: (row: ElementRow) => T | undefined): Record<string, number> {
+  const out: Record<string, number> = {};
+  for (const row of rows) {
+    const k = key(row) ?? 'unknown';
+    out[k] = (out[k] ?? 0) + 1;
+  }
+  return out;
+}
+
 const pct = (n: number, d: number) => (d === 0 ? '—' : `${Math.round((n / d) * 100)}%`);
 const count = (level: LevelId) => elementRows.filter((row) => row.levels[level]).length;
 const stuckAt = new Map<LevelId | 'done', number>();
@@ -427,14 +598,28 @@ const summary = {
     elements: elementRows.length,
     knowledgePoints: kpRows.length,
     knowledgePointsTaught: kpRows.filter((row) => row.taught).length,
+    knowledgePointsMappedOnly: kpRows.filter((row) => !row.taught && row.mappedOnly.length > 0).length,
     chapters: chapters.length,
     sections: chapters.reduce((total, chapter) => total + (chapter.sections?.length ?? 0), 0),
     exerciseTypes: [...new Set(chapters.flatMap((chapter) => (chapter.exerciseTypes ?? []).map((type) => type.shape)))].length,
     stuck: [...stuckAt.entries()].map(([level, n]) => ({ at: level, count: n })),
   },
+  evidence: {
+    l5: countBy(levelRows('L5'), (row) => row.teaching[0]?.kind),
+    l6: countBy(levelRows('L6'), (row) => row.practice[0]?.kind),
+    chapterTopicOnly: elementRows.filter((row) => row.chapterTopicOnly).length,
+    l7: countBy(levelRows('L7'), (row) => (reviewed.get(row.morphemeId ?? '')?.kinds ?? []).join('+') || undefined),
+  },
+  parseErrors,
   rows: elementRows,
   knowledge: kpRows,
 };
+
+if (process.argv.includes('--strict') && parseErrors.length > 0) {
+  console.error(`strict: ${parseErrors.length} lesson file(s) could not be parsed`);
+  for (const err of parseErrors.slice(0, 10)) console.error(`  - ${err}`);
+  process.exit(1);
+}
 
 if (process.argv.includes('--json')) {
   writeFileSync(join(root, 'docs/coverage.json'), `${JSON.stringify(summary, null, 2)}\n`, 'utf-8');
@@ -446,6 +631,10 @@ console.log(`textbook elements: ${elementRows.length}`);
 for (const level of levelSummary) {
   console.log(`  ${level.level} ${level.name}: ${level.count} (${pct(level.count, level.total)})  — ${level.rule}`);
 }
+const evidence = summary.evidence;
+console.log(`  L5 evidence: ${JSON.stringify(evidence.l5)}  (chapter-topic only, not counted: ${evidence.chapterTopicOnly})`);
+console.log(`  L6 evidence: ${JSON.stringify(evidence.l6)}`);
+if (parseErrors.length > 0) console.log(`  parse errors: ${parseErrors.length} (${parseErrors[0]})`);
 const worst = [...levelSummary].sort((a, b) => a.pct - b.pct)[0];
 console.log(`biggest gap: ${worst.level} ${worst.name} at ${worst.pct}% (${worst.count}/${worst.total})`);
 const biggestStuck = [...stuckAt.entries()].filter(([level]) => level !== 'done').sort((a, b) => b[1] - a[1])[0];
@@ -466,6 +655,20 @@ if (process.argv.includes('--write')) {
   for (const level of levelSummary) {
     lines.push(`| ${level.level} ${level.name} | ${level.rule} | ${level.count} | ${pct(level.count, level.total)} |`);
   }
+  lines.push('');
+
+  lines.push('## 一之二、证据构成（可抽样复核）', '');
+  lines.push('| 级别 | 证据类型 | 数量 | 说明 |');
+  lines.push('| --- | --- | --- | --- |');
+  lines.push(`| L5 | 卡片/课时声明 ID | ${evidence.l5.id ?? 0} | 最强：作者显式声明 |`);
+  lines.push(`| L5 | 卡片声明拼写 | ${evidence.l5.form ?? 0} | 拼写经身份索引解析到唯一 ID |`);
+  lines.push(`| L5 | 卡片正文释义 | ${evidence.l5.text ?? 0} | 命中处附近有释义线索，报告存片段 |`);
+  lines.push(`| L6 | 题目声明成分 | ${evidence.l6.form ?? 0} | parts / concepts / matrix base |`);
+  lines.push(`| L6 | 答案为已知词 | ${evidence.l6.text ?? 0} | wordSum/cloze 答案词的 partIds 含该 ID |`);
+  lines.push(`| L7 | 有来源的审校 | ${count('L7')} | 必须带 sources，否则不计 |`);
+  lines.push('');
+  lines.push(`> 另有 **${evidence.chapterTopicOnly}** 个成分：所在章有知识点被讲到，但没有任何卡片或题目点名它。`);
+  lines.push('> 这部分**不计入 L5**——章节相近不等于讲解证据，仅作为排课线索。');
   lines.push('');
 
   lines.push('## 二、卡点分布（每个成分停在第一处未达标）', '');
@@ -508,10 +711,12 @@ if (process.argv.includes('--write')) {
   lines.push('');
 
   lines.push('## 六、知识点明细', '');
-  lines.push('| 知识点 | 章 | 小节 | 类型 | 课程 |');
-  lines.push('| --- | --- | --- | --- | --- |');
+  lines.push('| 知识点 | 章 | 小节 | 类型 | 课时声明 | 仅生成映射 |');
+  lines.push('| --- | --- | --- | --- | --- | --- |');
   for (const kp of kpRows) {
-    lines.push(`| ${kp.title} | ${kp.chapter} | ${kp.section} | ${kp.type} | ${kp.lessons.join(', ') || '—'} |`);
+    lines.push(
+      `| ${kp.title} | ${kp.chapter} | ${kp.section} | ${kp.type} | ${kp.claimedBy.join(', ') || '—'} | ${kp.mappedOnly.join(', ') || '—'} |`,
+    );
   }
   lines.push('');
 

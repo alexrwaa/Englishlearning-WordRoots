@@ -1,0 +1,281 @@
+{
+  "id": "w37d2",
+  "week": 37,
+  "day": 2,
+  "title": "声音象征：比拟声更间接，也只是倾向",
+  "tagline": "gl- 常与光有关、sl- 常与滑有关，但 glass 和 glove 提醒你：这是统计倾向，不是规则",
+  "objectives": [
+    "能说明声音象征与拟声的区别：前者靠音与义的联想，不直接模仿声音",
+    "能举出 gl-、sl-、-ump 三组例词，并各举一个反例",
+    "能用“统计倾向”的措辞描述这类现象，不用“规则”“必然”"
+  ],
+  "prereqs": [
+    "w37d1",
+    "c-morpheme",
+    "c-transparency"
+  ],
+  "concepts": [
+    "c-morpheme",
+    "c-semantic-shift",
+    "c-transparency",
+    "c-frequency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s19-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "不是模仿声音，而是音与义的联想",
+      "body": "**sound symbolism**（声音象征）指某些音或音丛与某类意义之间存在稳定的联想。它比拟声间接：拟声模仿的是**声音本身**（buzz 像蜂鸣），声音象征关联的是**意义或感受**（gl- 常与光有关，但光本身没有声音可模仿）。\n\n这类反复出现的音义配对叫 **phonestheme**（音义联觉单位）。英语里比较稳定的有几组：gl-（光）、sl-（滑）、sn-（鼻）、fl-（空中移动）、-ump（圆钝的一团）。\n\n为什么会有这种联想？一个常见解释是**通感**（synesthesia）：视觉的“亮”与听觉的“尖、前”在感知上相关，于是前元音和高频音容易与“小、亮、快”联系起来。这个解释有实验支持，但不能解释全部现象。",
+      "terms": [
+        {
+          "term": "sound symbolism",
+          "zh": "声音象征",
+          "en": "sound symbolism",
+          "note": "音或音丛与某类意义之间的稳定联想"
+        },
+        {
+          "term": "phonestheme",
+          "zh": "音义联觉单位",
+          "en": "phonestheme",
+          "note": "反复与某类意义共现的音丛，如 gl-、sl-"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "五组常见联想，每组的支持与反例",
+      "body": "这张表最重要的不是例词，而是最后一列。**只有能说出反例，才算真正理解“倾向”这个词。**如果一组音丛覆盖了所有词，那它就是规则；实际每组都有明显例外，所以它只能是倾向。",
+      "head": [
+        "音丛",
+        "联想义",
+        "支持例词",
+        "反例"
+      ],
+      "rows": [
+        [
+          "gl-",
+          "光、视觉的闪动",
+          "glow、gleam、glitter、glare、glint、glisten",
+          "glass、glove、glue、globe、gland"
+        ],
+        [
+          "sl-",
+          "滑、黏、下滑",
+          "slide、slip、slime、slope、sleek、slither",
+          "slow、sleep、slim、slot、slave"
+        ],
+        [
+          "-ump",
+          "圆钝的一团、笨重落下",
+          "bump、lump、hump、stump、plump、thump",
+          "jump、pump、dump（倾倒义与圆钝无关）"
+        ],
+        [
+          "sn-",
+          "鼻、鼻音动作",
+          "sniff、snort、snore、sneeze、snout",
+          "snow、snake、snap、snack"
+        ],
+        [
+          "fl-",
+          "空中轻快移动",
+          "fly、flutter、flap、flicker、flit、float",
+          "floor、flower、flat、flannel"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "实验证据：效应真实，但幅度有限",
+      "body": "最著名的实验来自 Köhler（1929）：给受试者看一个圆润的图形和一个带尖角的图形，问哪个叫 **takete**、哪个叫 **maluma**。多数人把 takete 配给尖角图形，把 maluma 配给圆润图形。Ramachandran 与 Hubbard（2001）用 **bouba／kiki** 重复出类似结果，并把它与脑内的跨模态映射联系起来。\n\n另一个常被引用的效应是**前高元音 [i] 与“小”的关联**：teeny、wee、mini 都含前高元音，而表示“巨大”的词常带后部元音或鼻音（如 humongous）。\n\n但要说清三点：效应是**统计性的**（多数人、多数时候）；不同语言的强度不一样；实验多用手工图形与无意义词，生态效度有限。所以它足以支持“联想存在”，不足以支持“看到 gl- 就能确定是光”。",
+      "terms": [
+        {
+          "term": "bouba/kiki effect",
+          "zh": "bouba/kiki 效应",
+          "en": "bouba/kiki effect",
+          "note": "圆润音与圆润图形的跨模态匹配倾向"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "拟声与声音象征：两层间接性",
+      "body": "两者都会让人觉得“音义有联系”，但联系的性质不同。拟声是**模仿**，声音象征是**联想**。判断方法：问“这个词模仿了什么声音”。能答出来，是拟声；答不出具体声音、只能说“感觉像……”，是声音象征。",
+      "a": "拟声",
+      "b": "声音象征",
+      "rows": [
+        {
+          "label": "联系性质",
+          "a": "模仿所指的声音",
+          "b": "音与义／感受之间的联想"
+        },
+        {
+          "label": "例词",
+          "a": "buzz、hiss、crash、murmur",
+          "b": "glow（gl- 光）、slide（sl- 滑）、bump（-ump 圆钝）"
+        },
+        {
+          "label": "能否说出模仿对象",
+          "a": "能：蜂鸣、漏气、撞击、低语",
+          "b": "不能：光、滑、圆钝都不是声音"
+        },
+        {
+          "label": "跨语言一致性",
+          "a": "中等，受各自音系限制",
+          "b": "较低到中等，实验效应可复现但强度不一"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "正确的用法：当记忆钩子，不当判据",
+      "body": "声音象征最容易滑向过度断言。两句对比：\n\n**过度断言**：gl- 表示光，所以 gl- 开头的词都与光有关。\n**可辩护的表述**：gl- 开头的词里，有一批与光或视觉闪动有关（glow、gleam、glitter），这构成一个可用的记忆线索；但 glass、glove、glue 说明它不预测词义。\n\n差别在哪？前者把倾向说成规则，后者把倾向说成倾向，并明确它能做什么（辅助记忆、缩小猜测范围）、不能做什么（决定词义）。\n\n实用的做法是：**遇到陌生词时，把音丛联想当作一个候选方向，再用词根和语境验证。**验证通过就用它加固记忆；验证不通过就放弃，不要反过来改语境去迁就联想。",
+      "terms": [
+        {
+          "term": "statistical tendency",
+          "zh": "统计倾向",
+          "en": "statistical tendency",
+          "note": "多数成员符合、但有稳定例外的分布规律，不能当作判定规则"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w37d2-p1",
+      "kind": "mcq",
+      "prompt": "gl- 这组音丛常与什么意义相关联？",
+      "choices": [
+        "光、视觉的闪动",
+        "滑、黏",
+        "鼻音动作",
+        "圆钝的一团"
+      ],
+      "answer": 0,
+      "explain": "gl- 常与光或视觉闪动相关：glow、gleam、glitter、glare、glint、glisten。但 glass、glove、glue 是明显反例，所以这是统计倾向，不是规则。滑／黏是 sl-，鼻音是 sn-，圆钝是 -ump。",
+      "concepts": [
+        "c-morpheme",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w37d2-p2",
+      "kind": "mcq",
+      "prompt": "下面哪个词最不支持“-ump 表示圆钝的一团”这一联想？",
+      "choices": [
+        "jump",
+        "lump",
+        "hump",
+        "stump"
+      ],
+      "answer": 0,
+      "explain": "lump（肿块）、hump（驼峰）、stump（树桩）都指向圆钝、厚重的实体；jump 是“跳”，与圆钝无关。这个反例正是把 -ump 的联想限定为“倾向”的证据：它覆盖一批词，但不覆盖全部。",
+      "concepts": [
+        "c-morpheme",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w37d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个实验用词（英文，小写）",
+      "sentence": "In the ___ effect, most people match a rounded shape with a word containing rounded vowels, and a spiky shape with a word containing sharp consonants.",
+      "answer": "bouba",
+      "accept": [
+        "bouba",
+        "kiki",
+        "bouba/kiki",
+        "bouba-kiki"
+      ],
+      "explain": "bouba/kiki 效应指人们倾向把圆润音（bouba）配给圆润图形、把尖锐音（kiki）配给尖角图形。Köhler 1929 年的 takete/maluma 实验是更早的版本。这类实验支持声音象征的存在，但效应是统计性的。",
+      "concepts": [
+        "c-morpheme",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w37d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）glint 最可能的意思是：",
+      "choices": [
+        "闪光、闪烁",
+        "滑行",
+        "皱眉",
+        "吞咽"
+      ],
+      "answer": 0,
+      "explain": "glint 是“闪光、闪烁”，与 gl- 的光／视觉闪动倾向一致，同族有 glow、gleam、glitter。注意这只是一种倾向：glass、glove 说明 gl- 不决定词义。遇到陌生词时，音丛联想只能提供候选方向，还要用语境确认。",
+      "concepts": [
+        "c-morpheme",
+        "c-inference"
+      ],
+      "hint": "先用音丛缩小方向，再问这个词最可能描述什么动作。"
+    },
+    {
+      "id": "w37d2-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一句对声音象征的表述最准确？",
+      "choices": [
+        "它是统计倾向：一批词符合，但有稳定反例，可作记忆线索，不能作判定规则",
+        "它是严格规则：gl- 开头的词一定与光有关",
+        "它完全不存在，只是学习者的错觉",
+        "它与拟声是同一现象，只是术语不同"
+      ],
+      "answer": 0,
+      "explain": "声音象征有实验支持（bouba/kiki、[i] 与“小”的关联），但每组都有反例（glass、jump、slow），所以是统计倾向。它和拟声不同：拟声模仿声音，声音象征是音与义的联想。把它当规则会误判，当错觉会丢掉有效的记忆线索。",
+      "concepts": [
+        "c-morpheme",
+        "c-frequency"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w37d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 glistening 在句中的含义",
+      "passage": "By six the leaves were still glistening with dew, each surface catching the low sun and throwing it back in small, shifting points of light. The path looked wet even where the ground was dry.",
+      "word": "glistening",
+      "choices": [
+        "闪着湿润的光",
+        "结着薄冰",
+        "蒙着灰尘",
+        "在风中摇动"
+      ],
+      "answer": 0,
+      "strategy": "① 构词：glisten 属 gl- 组（glow、gleam、glitter），倾向与光／视觉闪动有关；② 语境：with dew、catching the low sun、points of light 直接给出“湿＋反光”；③ 反证：even where the ground was dry 说明视觉上像湿，不是真湿；④ 排除：薄冰、灰尘、摇动都没有“反光”这一核心。",
+      "explain": "glistening 是“闪着湿润的光”。这道题让声音象征与语境互相校验：gl- 先给一个方向（光），语境再把它精确到“湿表面的反光”。如果只凭 gl- 就断定是“光”，还不够；如果完全不用 gl-，也能做出来，但会慢一些。**倾向的正确用法就是这样：加速，不替代。**",
+      "concepts": [
+        "c-morpheme",
+        "c-inference",
+        "c-transparency"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 19 节：声音象征比拟声更间接；teeny、humongous、takete/maluma"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "语音与语义：任意性、象似性与跨模态联想"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "gl-、sl-、-ump 各组例词与反例核对"
+    }
+  ]
+}

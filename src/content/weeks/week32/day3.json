@@ -1,0 +1,247 @@
+{
+  "id": "w32d3",
+  "week": 32,
+  "day": 3,
+  "title": "听不出来的字母，靠结构定：consensus 的 s 从哪来",
+  "tagline": "弱读音节把元音吃掉了，唯一还站得住的线索是词素",
+  "objectives": [
+    "能用词素确定 consensus、antipyretic、pyromaniac、phonetics 里最容易写错的字母",
+    "能解释为什么弱读音节不能作为拼写依据（元音被中和成 schwa）",
+    "能把“结构检查”作为写作流程里的固定一步，并按“结构→同族→词典”的顺序查"
+  ],
+  "prereqs": [
+    "w32d2",
+    "c-spelling-rule"
+  ],
+  "concepts": [
+    "c-spelling-rule",
+    "c-morpheme",
+    "c-scientific",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s8-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "先承认：耳朵救不了你",
+      "body": "consensus 的重音在第二个音节，第一个音节弱化成 [kən]，中间的 se 更轻，几乎只剩一个 [s]。于是“con-census 还是 con-sensus”这个问题，靠听是听不出来的：两个写法读起来一样。\n\n英语里有一大批这样的位置。非重读音节里的元音会中和成 schwa（[ə]），-ance 与 -ence、-able 与 -ible、-ant 与 -ent 在口语里几乎没有区别。**只要靠听，你就只能猜**；而拼写错误在写作里是最刺眼的那一类错误，因为它与你的实际水平无关，却直接影响读者判断。\n\n出路只有一条：拼写由**词素**决定，不由声音决定。consensus 是 con + sens + us，sens 是“感觉”——共识就是“共同的感觉”。知道这一段，就不会写成 concensus。"
+    },
+    {
+      "kind": "table",
+      "title": "四个易错词，四条结构理由",
+      "body": "这张表不要背词，要背“理由的类型”：第一行靠词根义，第二行靠词根的固定拼法（y 不是 i），第三行靠希腊字母的转写（ph = φ），第四行靠词尾分层。四种理由覆盖了绝大多数拼写疑难——遇到新词，先问它属于哪一类。",
+      "head": [
+        "词",
+        "常见错写",
+        "正确结构",
+        "理由"
+      ],
+      "rows": [
+        [
+          "consensus",
+          "concensus",
+          "con + sens + us",
+          "sens 是“感觉”（sensation、sensitive），与 census“人口普查”无关"
+        ],
+        [
+          "antipyretic",
+          "antipiretic",
+          "anti + pyr + etic",
+          "pyr 是“火”，这个词根一律写 y（pyromaniac、pyre）"
+        ],
+        [
+          "phonetics",
+          "fonetics",
+          "phon + etic + s",
+          "ph 是希腊字母 φ 的转写，同一转写见于 phone、graph、philosophy"
+        ],
+        [
+          "dictionary",
+          "dictionery",
+          "dict + ion + ary",
+          "dict 是“说”，-ary 是“与……有关的（场所/物）”，不是 -ery"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "结构检查的三问",
+      "body": "写完一个没把握的词，按顺序问三句，通常十秒内能定：\n\n**① 每段有义吗？** 把词切到你认识的成分，看拼写是否与成分吻合。antipyretic 切成 anti + pyr + etic 之后，y 就有了归属。\n\n**② 这个成分在别的词里怎么拼？** 同族词是最快的词典：pyr 在 pyromaniac、pyre 里都是 y；sens 在 sensation、sensitive、consensus 里都是 s。\n\n**③ 有没有例外？** 有些词受法语拼写影响，不符合拉丁规则（例如 -able 与 -ible 的分布就有大量例外）。这时以词典为准，不要硬套规则。\n\n三问的顺序不能倒：先结构，再同族，最后才查词典。反过来做，你只是在抄答案，下次还得抄。"
+    },
+    {
+      "kind": "table",
+      "title": "-able/-ible 与 -ance/-ence：倾向而非铁律",
+      "body": "这两组是拼写错误的第二大来源。-able 多接能独立使用的动词（read → readable），-ible 多接拉丁词根（vis → visible）；-ance 多来自法语，-ence 多来自拉丁。但例外不少（comfortable 是拉丁来源却用 -able），所以第二列只能当“先验”，不能当“判决”。真正可靠的是第三列的同族词。",
+      "head": [
+        "后缀",
+        "倾向",
+        "例（符合）",
+        "例（例外或需查证）"
+      ],
+      "rows": [
+        [
+          "-able",
+          "接能独立成词的动词",
+          "readable、changeable、usable",
+          "comfortable（拉丁来源）"
+        ],
+        [
+          "-ible",
+          "接拉丁词根，多不能独立成词",
+          "visible、possible、audible",
+          "—"
+        ],
+        [
+          "-ance",
+          "多经法语进入",
+          "attendance、resistance",
+          "—"
+        ],
+        [
+          "-ence",
+          "多直接来自拉丁",
+          "existence、difference、consensus 同族的 -ent 系",
+          "—"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "把这一步放进写作流程",
+      "body": "拼写检查不该放在最后“扫一眼”，而应放在**用词决定的那一刻**：你决定用 consensus 的时候，就已经知道它是 con + sens + us，写下去就不会错。事后检查只能抓漏，抓不了“一直错”。\n\n具体做法：写作时给不确定的词做个轻标记（下划线、星号），初稿不停留；改稿时只处理这些标记，按三问走一遍。这样既不打断思路，也不把错误留到提交。\n\n最后一个理由：拼写错误的代价不对称。读者不会因为你拼对一个难词而加分，却会因为拼错一个常用词而降低对你全部内容的信任。用结构换这份保险，很划算。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w32d3-p1",
+      "kind": "mcq",
+      "prompt": "consensus 第二个音节写 s 而不写 c，理由是：",
+      "choices": [
+        "它来自 sens“感觉”，与 census“人口普查”无关",
+        "s 在元音之间总是浊化，所以必须写 s",
+        "英语里 c 从不出现在两个元音之间",
+        "这个词来自法语，法语没有 c 这个字母"
+      ],
+      "answer": 0,
+      "explain": "consensus = con（共同）+ sens（感觉）+ -us，字面是“共同的感觉”。census 来自 censere“评估”，是另一个词根。B、C 都是伪规则（英语里 c 在元音间很常见，如 medicine）；D 更不成立。判断这类题的唯一稳靠办法是回到成分义。",
+      "concepts": [
+        "c-spelling-rule",
+        "sens",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w32d3-p2",
+      "kind": "mcq",
+      "prompt": "为什么弱读音节不能作为拼写的依据？",
+      "choices": [
+        "非重读元音会中和成 schwa，不同的字母读起来几乎一样",
+        "弱读音节在英语里不发音",
+        "弱读音节总是拼写更短",
+        "因为英语拼写本来就完全无规律"
+      ],
+      "answer": 0,
+      "explain": "schwa 是元音的中和状态，-ance/-ence、-able/-ible 在弱读位置上无法区分。这不是“无规律”，而是“规律不在音这一层”——它在词素层。所以正确做法是：听到的只用来定位，写下来的靠结构。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w32d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个学科名（英语）",
+      "sentence": "In ___, the letters ph stand for [f] because they transcribe the Greek letter phi.",
+      "answer": "phonetics",
+      "accept": [
+        "phonetics"
+      ],
+      "explain": "phonetics（语音学）= phon（声音）+ -etic（学科/形容词后缀）+ -s。ph 不是 p + h 两个音，而是希腊 φ 的拉丁转写，所以一律写 ph：phone、phonograph、phonetics、symphony。这条理由能一次解决一整族词的拼写。",
+      "concepts": [
+        "c-spelling-rule",
+        "phon",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w32d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 pyr 意为“火”，-maniac 指“对……着迷发狂的人”，pyromaniac 最可能是：",
+      "choices": [
+        "纵火狂",
+        "消防员",
+        "火山学家",
+        "怕火的人"
+      ],
+      "answer": 0,
+      "explain": "pyr（火）+ -maniac（着迷发狂的人）→ 纵火狂。这道题的拼写点在 y：只要认住 pyr 这个词根，就不会写成 piromaniac。B 会是 firefighter 一类；C 需要 -logist；D 需要 phob-（恐）。词根 + 词尾各管一段，拼写与意义同时落定。",
+      "concepts": [
+        "c-inference",
+        "pyr",
+        "c-spelling-rule"
+      ],
+      "hint": "先定 -maniac 的“人”，再看 pyr 提供的是火还是别的。"
+    },
+    {
+      "id": "w32d3-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“共识”的切分",
+      "parts": [
+        "con",
+        "sens",
+        "us"
+      ],
+      "answer": "consensus",
+      "explain": "con（共同）+ sens（感觉）+ -us（名词词尾）→ 共识。三段都对得上：con- 在 conference、connect 里同义，sens 在 sensation、sensitive 里同义，-us 是拉丁阳性名词词尾（像 campus、status）。能把三段各自在同族词里找到，就不会在中间写成 c。",
+      "concepts": [
+        "c-word-sum",
+        "sens",
+        "c-spelling-rule"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w32d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 antipyretic 是什么",
+      "passage": "The nurse gave an antipyretic: within an hour the fever had dropped, though the infection itself was untouched.",
+      "word": "antipyretic",
+      "choices": [
+        "退烧药",
+        "抗生素",
+        "止痛药",
+        "消炎药"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：anti（抗）+ pyr（火）+ -etic（形容词/名词）→“抗火的”；② 语境：the fever had dropped 直接给定义，though the infection itself was untouched 排除“杀菌”；③ 排除：抗生素对付感染，止痛药针对疼痛，消炎药针对炎症（-itis 那一类）；④ 校验：pyr 在 pyromaniac、pyre 里都是“火”，拼写与意义一致。",
+      "explain": "antipyretic 是“退烧药”。这道题同时练两件事：pyr 的 y 是拼写线索，the fever had dropped 是语义线索。请注意 though the infection itself was untouched 的作用——它明确划清了“退烧”与“治感染”的界线，正是这个分句让“抗生素”出局。有经验的读者会把转折句当成排除法的证据。",
+      "concepts": [
+        "c-inference",
+        "pyr",
+        "c-scientific"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 1 章第 8 节：词素结构作为拼写线索"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry resources",
+      "detail": "以词族与词素结构解释拼写"
+    }
+  ]
+}

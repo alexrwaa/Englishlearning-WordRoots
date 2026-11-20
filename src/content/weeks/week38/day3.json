@@ -1,0 +1,313 @@
+{
+  "id": "w38d3",
+  "week": 38,
+  "day": 3,
+  "title": "真词还是伪构词：判定要说得出依据",
+  "tagline": "看着像词的拼法不一定存在；判定要落在宿主词性、接缀顺序与词典证据三处",
+  "objectives": [
+    "能说明为什么“由真实词素拼成”不等于“是真实的词”",
+    "能用宿主词性解释 docment、ossness 之类拼法为何不成立",
+    "能给每个干扰项写出一条可检验的判定依据，而不是只说“没听过”"
+  ],
+  "prereqs": [
+    "w38d2",
+    "c-derivation",
+    "c-suffix"
+  ],
+  "concepts": [
+    "c-derivation",
+    "c-suffix",
+    "c-morpheme",
+    "c-compound"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "判定三问",
+      "body": "一个拼法要成为英语的词，至少要过三关：\n\n**第一关，词素是否真实。**doc 是“教”的词根，-ment 是名词后缀，两个都是真的。但真实 + 真实不保证结果真实：*docment 并不存在。\n\n**第二关，接缀是否合法。**每个后缀都有宿主限制：-ness 只接形容词（kind → kindness），-ment 只接动词（govern → government），-ist 接名词表“从事者”（dent → dentist）。宿主词性不对，接上去就是伪构词。\n\n**第三关，是否有词典或语料证据。**前两关都通过、但仍然不存在的拼法很多，例如 *docful（doc 是黏着词根，不能像 help 那样自由接 -ful）。这时唯一的依据就是：英语里没有这个词，规范表达是 docile 或 teachable。\n\n三关的顺序不能颠倒：先查词素，再查规则，最后查证据。只做第三关的人会退化成“没听过就是错的”，做不了迁移。",
+      "terms": [
+        {
+          "term": "host",
+          "zh": "宿主",
+          "en": "host",
+          "note": "被接缀的那个词基；后缀对宿主的词性有要求"
+        },
+        {
+          "term": "bound root",
+          "zh": "黏着词根",
+          "en": "bound root",
+          "note": "不能独立成词、只能与词缀共现的词根，如 doc、oss"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个伪构词，四处违规",
+      "body": "下表把每个伪构词的违规点写成一句话。这句话必须能被检验：说出宿主词性、接缀顺序或缺失的连接成分，而不是笼统的“不常见”。",
+      "head": [
+        "伪构词",
+        "违规类型",
+        "判定依据"
+      ],
+      "rows": [
+        [
+          "docment",
+          "缺连接成分",
+          "doc 接 -ument 时要带 -u-（document）；-ment 直接接 doc 的拼法不存在"
+        ],
+        [
+          "ossness",
+          "宿主词性错误",
+          "-ness 只接形容词或分词；oss 是名词性黏着词根，不能作宿主"
+        ],
+        [
+          "fratrnal",
+          "漏掉派生后缀",
+          "拉丁 fraternus 进入英语走 fratr + ern + al（fraternal），不能跳过 -ern-"
+        ],
+        [
+          "localiseable",
+          "拼写连接规则错误",
+          "-ise 接 -able 时要先去掉 e：localis + able → localisable"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "黏着词根为什么不能随便接本土后缀",
+      "body": "help 是自由词素，可以独立成词，所以 helpful、helpless、helper 都成立。doc 不同：它不能单独说，只能与词缀共现（docile、doctor、document）。这类黏着词根（bound root）来自拉丁语，英语借入时只借了词根，没有借它的独立用法。\n\n后果是：本土后缀 -ful、-ness、-ly 通常要求自由词基，所以 *docful、*docness、*docly 都不成立；能接 doc 的是拉丁来源的 -ile、-or、-ument。这不是“英语排斥拉丁词根”，而是**词缀的来源层级要匹配**：本土后缀配本土词基，拉丁后缀配拉丁词根。helpful 与 docile 的分工，正是这条层级规则的产物。",
+      "morphemes": [
+        "help",
+        "doc",
+        "ile"
+      ],
+      "morphemeIds": [
+        "rx-help",
+        "cx-doc",
+        "sx-ile"
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "真词与伪词并排看",
+      "body": "两列的差别不在“像不像英语”，而在能否通过三关。左列每个词都能说出宿主与接缀路径，右列总有一关过不去。",
+      "a": "真词（可查证）",
+      "b": "伪构词（违规）",
+      "rows": [
+        [
+          "doc 族",
+          "docile（可教的→温顺的）、doctor、document",
+          "docment、docness、docful"
+        ],
+        [
+          "oss 族",
+          "ossify（骨化）",
+          "ossness、ossment、ossful"
+        ],
+        [
+          "fratr 族",
+          "fraternal（兄弟的）",
+          "fratrnal、fratrly、fratrness"
+        ],
+        [
+          "共同判据",
+          "宿主词性与接缀层级都匹配，且词典有条目",
+          "总有一处宿主或拼写规则不成立"
+        ]
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "四个真词的算式",
+      "body": "把真词写成算式，是为了给判定提供正例：知道合法路径长什么样，才认得出违规路径。注意 doc 与 oss 都只与拉丁后缀搭配，dent 兼用 -al（形容词）与 -ist（人）。",
+      "sums": [
+        {
+          "parts": [
+            "doc",
+            "ument"
+          ],
+          "result": "document",
+          "glossZh": "文件；记录",
+          "note": "-ument 表“手段、结果”，不是 -ment 的直接附着"
+        },
+        {
+          "parts": [
+            "dent",
+            "ist"
+          ],
+          "result": "dentist",
+          "glossZh": "牙医",
+          "note": "-ist 接名词表从事者"
+        },
+        {
+          "parts": [
+            "oss",
+            "ify"
+          ],
+          "result": "ossify",
+          "glossZh": "骨化；僵化",
+          "note": "-ify 使成为（动词路径）"
+        },
+        {
+          "parts": [
+            "fratr",
+            "ern",
+            "al"
+          ],
+          "result": "fraternal",
+          "glossZh": "兄弟的",
+          "note": "-ern- 是拉丁形容词的固定中缀，不能省略"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w38d3-p1",
+      "kind": "judge",
+      "prompt": "下面四个拼法中，哪一个是真实存在的英语词？",
+      "choices": [
+        "docile",
+        "docment",
+        "docness",
+        "undoc"
+      ],
+      "answer": 0,
+      "whyNot": [
+        "doc 接名词后缀时要带连接成分 -u-（document），-ment 直接接 doc 的拼法在英语中不存在。",
+        "-ness 只接形容词或分词（kind → kindness），doc 是动词性黏着词根，不能作 -ness 的宿主。",
+        "un- 表“反向动作”时要求宿主是可独立使用的动词（untie、unlock），doc 不能独立成词，因此不能作 un- 的宿主。"
+      ],
+      "explain": "docile 是真实词：doc（教）+ -ile（易于……的）→“易教的、温顺的”。其余三个都过不了第二关：docment 缺连接成分，docness 与 undoc 的宿主词性不对。判定时不要凭“眼熟”，要说出宿主是谁、后缀要求什么词性。",
+      "concepts": [
+        "doc",
+        "ile"
+      ]
+    },
+    {
+      "id": "w38d3-p2",
+      "kind": "wordSum",
+      "prompt": "用 + 连接两段，写出“文件、记录”这个词",
+      "parts": [
+        "doc",
+        "ument"
+      ],
+      "answer": "document",
+      "explain": "doc（教）+ -ument（手段、结果）→ document。字面义是“用来教的东西”，拉丁 documentum 指“教训、例证”，后来转指“书面凭证”。这也解释了为什么 document 既能作名词“文件”，又能作动词“记录、证明”：它的核心一直是“可作依据的材料”。",
+      "concepts": [
+        "doc",
+        "ument"
+      ]
+    },
+    {
+      "id": "w38d3-p3",
+      "kind": "judge",
+      "prompt": "下面四个拼法中，哪一个是真实存在的英语词？",
+      "choices": [
+        "ossness",
+        "ossuary",
+        "ossment",
+        "ossful"
+      ],
+      "answer": 1,
+      "whyNot": [
+        "-ness 只接形容词或分词作宿主；oss 是名词性黏着词根（骨），不能直接接 -ness。",
+        "-ment 只接动词词干（govern → government）；oss 没有动词用法，无法作宿主。",
+        "-ful 要求宿主可独立成词（help → helpful）；oss 不能独立使用，英语中也没有这个组合。"
+      ],
+      "explain": "ossuary 是真实词：oss（骨）+ -uary（场所）→“存放骨骸的地方”。三个干扰项犯的是同一个错误——把黏着词根当自由词基用。记住这条：oss 只能配拉丁来源后缀，-ify（ossify）、-uary 都可以，本土的 -ness/-ful/-ment 都不行。",
+      "concepts": [
+        "oss",
+        "uary"
+      ]
+    },
+    {
+      "id": "w38d3-p4",
+      "kind": "mcq",
+      "prompt": "下面哪一条最能解释 *ossness 与 *dentness 为什么都不是英语词？",
+      "choices": [
+        "-ness 的宿主必须是形容词或分词，oss 与 dent 都是名词性词根",
+        "-ness 只能接单音节词，oss 与 dent 都是两个音节",
+        "-ness 只能接本土词根，oss 与 dent 都来自拉丁语",
+        "-ness 只能接动词，oss 与 dent 都是名词"
+      ],
+      "answer": 0,
+      "explain": "-ness 的宿主限制是词性，不是音节也不是语源：happy → happiness、kind → kindness，宿主都是形容词；tired → tiredness，宿主是分词。oss（骨）与 dent（牙）都是名词性黏着词根，所以都不成立——英语里表“骨的状态”用 ossification，表“牙的状况”用 dentition。选项 C 看似有理，但 -ness 也能接法语来源的形容词（plainness、strangeness），可见语源不是判据。",
+      "concepts": [
+        "oss",
+        "dent",
+        "ness"
+      ]
+    },
+    {
+      "id": "w38d3-p5",
+      "kind": "judge",
+      "prompt": "下面四个拼法中，哪一个是真实存在的英语词？",
+      "choices": [
+        "fratrnal",
+        "fratrly",
+        "fraternal",
+        "fratrness"
+      ],
+      "answer": 2,
+      "whyNot": [
+        "拉丁 fraternus 进入英语时走 fratr + ern + al 三步，跳过 -ern- 的拼法不存在。",
+        "-ly 的宿主必须是形容词；fratr 是名词性黏着词根，且英语的副词形式是 fraternally。",
+        "-ness 的宿主必须是形容词或分词；fratr 不能作宿主，英语用 fraternity 表达“兄弟关系”。"
+      ],
+      "explain": "fraternal 是真实词：fratr（兄弟）+ -ern-（拉丁形容词中缀）+ -al（与……有关的）。这类“中缀不能省”的派生在拉丁借词里很常见：maternal、paternal、fraternal 都是 -ern- 家族。干扰项的错法各不相同，但都能用宿主或拼写路径说清。",
+      "concepts": [
+        "fratr",
+        "ern",
+        "al"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w38d3-a1",
+      "kind": "infer",
+      "prompt": "（迁移）读句子，推测 docile 在这个技术语境中的含义",
+      "passage": "The old parser was surprisingly docile: it accepted whatever format the upstream service sent, quietly dropping fields it did not recognise instead of raising an error.",
+      "word": "docile",
+      "choices": [
+        "顺从的、好驾驭的",
+        "严格的、爱报错的",
+        "过时的、被弃用的",
+        "分布式的、并行的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：doc（教）+ -ile（易于……的）→“易教的”；② 句法：surprisingly docile 后接冒号，冒号内容是解释；③ 语境：接受任何格式、悄悄丢掉不认识的字段、不报错，这是“听话、好驾驭”；④ 校验：严格爱报错与 quiet dropping 相反，过时与 distributed 都无法由句内证据支持。",
+      "explain": "docile 的核心义是“可教的”，引申为“顺从的、易控制的”。这条引申链很自然：能被教会的人，就是愿意接受指导的人。技术语境把它用在软件上，指“不挑输入、不出错”。注意 docile 与 document 同根不同路：document 走“教的内容→凭证”，docile 走“可教→听话”。",
+      "concepts": [
+        "doc",
+        "ile",
+        "ument"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态学：能产性与合法性、黏着词根"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 4 章：拉丁后缀与本土后缀的层级"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "docile、ossuary、fraternal 的词条与首见年代"
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "id": "w33d6",
+  "week": 33,
+  "day": 6,
+  "title": "支与系：英语站在哪一根枝上",
+  "tagline": "family 与 branch 只差一个“已知的上位祖先”；而站上日耳曼这根枝，就意味着接受一条两千年的简化线",
+  "objectives": [
+    "能区分 family 与 branch，并说明“支的祖语有已知上位祖先”这一判据",
+    "能说出英语所属的支（日耳曼）与其下的子群（西日耳曼）",
+    "能举例说明日耳曼支的屈折从祖语起就在简化，并指出现代英语的残留形式"
+  ],
+  "prereqs": [
+    "w33d4",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-cognate",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s3-3",
+    "kp-s1c2s4-1"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一个术语，两种用法",
+      "body": "印欧语系下有十余支：日耳曼、意大利、凯尔特、希腊、印度—伊朗、斯拉夫、波罗的、阿尔巴尼亚、亚美尼亚、安纳托利亚、吐火罗。每一支都有自己的祖语：原始日耳曼语、原始意大利语、原始斯拉夫语……\n\n**支与系的唯一差别**是：系的祖语没有已知的上位祖先；支的祖语有，就是原始印欧语。所以同一个群体，从下往上看叫“语族”，从上往下看叫“支”——术语随视角换，实体不变。\n\n这就解释了一个常见困惑：为什么书上既说“日耳曼语族”，又说“日耳曼支”？说的是同一个东西，只是站位不同。",
+      "terms": [
+        {
+          "term": "branch",
+          "zh": "支",
+          "en": "branch",
+          "note": "语系下的一级分支，其祖语有已知的上位祖先"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "从系到词：四层",
+      "body": "这张表是本周的坐标。以后遇到任何“某语属于某语族”的说法，先把它放回这四层里，看它说的是哪一层——很多争论其实只是层级不同，而不是事实分歧。英语同时是印欧语系成员、日耳曼支成员、西日耳曼子群成员，三句话都对。",
+      "head": [
+        "层级",
+        "名称",
+        "状态",
+        "英语的位置"
+      ],
+      "rows": [
+        [
+          "语系 family",
+          "印欧语系",
+          "祖语无已知上位祖先",
+          "成员"
+        ],
+        [
+          "支 branch",
+          "日耳曼支",
+          "祖语＝原始日耳曼语，上位是原始印欧语",
+          "成员"
+        ],
+        [
+          "子群 subgroup",
+          "西日耳曼",
+          "祖语构拟，上位是原始日耳曼语",
+          "成员"
+        ],
+        [
+          "语言",
+          "英语",
+          "有连续文献",
+          "本文主角"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "意大利支给的教训",
+      "body": "拉丁语属意大利支，法语、西班牙语、意大利语、葡萄牙语、罗马尼亚语是它的后代，合称罗曼语族。所以英语借法语词时，借的是**姐妹枝上的后代**，不是“祖先的语言”。\n\n这条认识能解决一个常见误判：有人看到 fragile 与 frail，以为一个是拉丁语、一个是法语，其实两者都来自同一个拉丁词，只是路径不同（第 35 周第 4 天细讲）。认枝，是为了判断“这个词走的是哪条路”。\n\n更实用的一点：同属意大利支的语言共享一批词根形态，所以英语里凡是 -tion、-ment、-able 这套后缀，多半是经法语或拉丁进来的，而不是本族词。"
+    },
+    {
+      "kind": "text",
+      "title": "日耳曼支的简化线",
+      "body": "原始日耳曼语在分化出去的时候，屈折已经比印欧祖语简单：格少了、动词的式少了，但形容词反而多出一套强／弱变化。此后这条简化线一直没停：古英语还有四五个格，中古英语词尾塌陷，现代英语只剩代词三格。\n\n所以“英语屈折少”不是近代的偶然，而是**从祖语起就有的方向**。这条线是理解英语史的纲：所有看似零碎的变化（-aþ 消失、-e 弱化、-s 一统），都挂在这条线上。\n\n注意分寸：简化不等于“退化”。信息没有丢，只是从词尾搬到了语序与虚词上（本周第 4 天）。",
+      "terms": [
+        {
+          "term": "Proto-Germanic",
+          "zh": "原始日耳曼语",
+          "en": "Proto-Germanic",
+          "note": "日耳曼支的构拟祖语，上位是原始印欧语"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "简化的四个路标",
+      "body": "最后一列是重点：**残留不是例外，是化石**。foot/feet 的元音交替本来是复数词尾引起的，词尾掉了，元音的变化留下来；ox/oxen 的 -en 是古英语弱变化复数的幸存者，同类还有 children、brethren。",
+      "head": [
+        "阶段",
+        "名词格数",
+        "残留形式",
+        "今天的证据"
+      ],
+      "rows": [
+        [
+          "原始印欧语",
+          "约 8",
+          "—",
+          "构拟"
+        ],
+        [
+          "原始日耳曼语",
+          "约 4–5",
+          "—",
+          "构拟＋哥特语旁证"
+        ],
+        [
+          "古英语",
+          "4–5",
+          "stān / stānes / stāne / stānas",
+          "文献"
+        ],
+        [
+          "现代英语",
+          "名词 1–2，代词 3",
+          "he/him/his、ox/oxen、foot/feet",
+          "当代用法"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w33d6-p1",
+      "kind": "mcq",
+      "prompt": "family 与 branch 的差别在于：",
+      "choices": [
+        "支的祖语有已知的上位祖先，系的祖语没有",
+        "系比支古老，支比系年轻",
+        "系只能包含两种语言，支可以包含很多",
+        "系是书面的说法，支是口语的说法"
+      ],
+      "answer": 0,
+      "explain": "唯一差别是上位祖先是否已知：印欧语系的祖语没有已知的更早祖先，所以叫“系”；日耳曼支的祖语是原始日耳曼语，其上位祖先是原始印欧语，所以叫“支”。同一个群体可以两称并用，取决于你站在哪一层看。",
+      "concepts": [
+        "c-etymology",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w33d6-p2",
+      "kind": "mcq",
+      "prompt": "“日耳曼支”与“日耳曼语族”的关系是：",
+      "choices": [
+        "同一个实体，术语随观察视角不同",
+        "两个不同的群体，前者包含后者",
+        "前者指古代语言，后者指现代语言",
+        "前者指语言，后者指民族"
+      ],
+      "answer": 0,
+      "explain": "从印欧语系往下看，它是“支”；从它的后代往上看，它是“语族”。实体相同，标签不同。这类术语重叠在语言学里很常见，判断时要问“相对谁而言”。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w33d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文形容词",
+      "sentence": "English belongs to the ___ branch of Indo-European, whose reconstructed ancestor is Proto-Germanic.",
+      "answer": "Germanic",
+      "accept": [
+        "Germanic",
+        "germanic"
+      ],
+      "explain": "填 Germanic。这条归属决定了三件事：英语的语法骨架来自日耳曼、核心词是日耳曼的、屈折简化是日耳曼支的共同方向。它与“英语有大量拉丁法语借词”并不矛盾——那是词汇层的事。",
+      "concepts": [
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w33d6-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“Within Germanic, English and Frisian form a close subgroup; Dutch is a little further out, and High German further still.” 句中 subgroup 最可能指：",
+      "choices": [
+        "语系或语族内部再分出来的小群",
+        "一种地方口音",
+        "一组借词",
+        "一套书写系统"
+      ],
+      "answer": 0,
+      "explain": "sub-（在下）＋ group（群）：在日耳曼这个层级之下再分的小群。句子用 close、further out、further still 排出亲疏，正是分组的意思。口音、借词、文字都不是分组单位。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ],
+      "hint": "sub- 表示“在下一层”。"
+    },
+    {
+      "id": "w33d6-p5",
+      "kind": "mcq",
+      "prompt": "foot/feet 的元音交替说明：",
+      "choices": [
+        "复数词尾虽已消失，但它当初引起的元音变化留了下来",
+        "英语的复数没有规律",
+        "这个词是从拉丁语借来的",
+        "古英语有八个格"
+      ],
+      "answer": 0,
+      "explain": "这是 i-变音（i-umlaut）：古英语复数词尾里的 i 把词干元音往前带，词尾后来掉了，元音的变化却留着。同类还有 mouse/mice、tooth/teeth、man/men。它不是“无规律”，而是“规律的结果被保留、原因被删除”。",
+      "concepts": [
+        "c-inflection",
+        "c-allomorph"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w33d6-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 residue 在句中的含义",
+      "passage": "Old English case endings left almost nothing behind. What survives is residue: a handful of plural forms, the -'s of the possessive, and the three shapes of the personal pronoun. Everything else was replaced by word order and prepositions.",
+      "word": "residue",
+      "choices": [
+        "变化过后残留下来的少量形式",
+        "需要清除的废料",
+        "重新构拟出来的形式",
+        "从别的语言借来的词尾"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后列举：a handful of plural forms、-'s、three shapes，都是少量残留；② 对照句：Everything else was replaced，说明前者是“没被替换掉的部分”；③ 语境：讨论的是屈折系统的退潮，不是垃圾；④ 排除“废料”“构拟”“借来”：段落没提清理、重构或借用。",
+      "explain": "residue 是“残余、剩余物”，来自 re-（在后）＋ sedēre（坐）——“留在后面的东西”。这个词在科学语境里指残渣，在语言史里指变化之后留下的少量形式。两者共享“剩下”的核心义，靠上下文区分具体所指。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 3 节（branch 与 family）与第 4 节（日耳曼支、屈折简化）"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "语系层级、i-变音与屈折残留"
+    }
+  ]
+}

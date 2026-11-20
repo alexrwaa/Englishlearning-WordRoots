@@ -1,0 +1,292 @@
+{
+  "id": "w31d4",
+  "week": 31,
+  "day": 4,
+  "title": "一个“头”，四张面孔：caput 的三条借词路",
+  "tagline": "拉丁 caput 经法语两次音变、加上本土的 head，在英语里留下四组互不相认的词",
+  "objectives": [
+    "能说出 captain、chief、chef、head 都追溯到“头”，但分属三条借词路径",
+    "能说明 [k] → [tʃ] → [ʃ] 的法语音变如何把同一个来源切成三种拼写",
+    "能区分同形异源：capit（头）与 cap（抓）是两条独立记录，不能按拼写合并"
+  ],
+  "prereqs": [
+    "w31d3",
+    "c-etymology",
+    "c-cognate"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-borrowing",
+    "c-cognate",
+    "c-allomorph"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s7-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "先把四张脸摆出来",
+      "body": "captain、chief、chef、head。四个词今天的意义分别是“船长／队长”“首领／主要的”“厨师长”“头”。除了 head 显而易见，另外三个看起来毫无关系：一个像拉丁，一个像英语，一个像法语。\n\n它们确实都来自同一个词：拉丁 **caput**（头，属格 capitis）。这不是巧合，而是三条不同的路把它送进英语：一条是拉丁学术直借（capit-），一条是古法语（ch- 读 [tʃ]），一条是近代法语（ch- 读 [ʃ]）；再加上本土日耳曼的 head，一共四张面孔。\n\n今天要练的不是背这四个词，而是学会看“同一来源的多种形状”——这是全书反复用到的历史证据类型。"
+    },
+    {
+      "kind": "etym",
+      "title": "caput 进英语的七步",
+      "body": "看这条时间线时注意两件事：一是每个阶段都保留了自己的形态，没有谁“变成”谁；二是每次借入都带着当时的读音，所以英语里能同时存着 [k]、[tʃ]、[ʃ] 三个阶段。这就是“层次”这个词的具体含义。",
+      "steps": [
+        {
+          "period": "拉丁",
+          "form": "caput / capitis",
+          "note": "头；属格 capitis 提供构词词干 capit-"
+        },
+        {
+          "period": "拉丁晚期",
+          "form": "capitaneus",
+          "note": "由 caput 派生，“为首的”"
+        },
+        {
+          "period": "古法语 约 11 世纪",
+          "form": "chief",
+          "note": "词首 [k] 在法语里腭化为 [tʃ]，拼写固定为 ch-"
+        },
+        {
+          "period": "英语 12–14 世纪",
+          "form": "chief",
+          "note": "借入时保留 [tʃ]，义为“首领、首要的”"
+        },
+        {
+          "period": "英语 14 世纪",
+          "form": "captain",
+          "note": "经古法语 capitaine < 晚期拉丁 capitaneus；这一支的 [k] 保住了"
+        },
+        {
+          "period": "法语 16–19 世纪",
+          "form": "chef",
+          "note": "[tʃ] 进一步变为 [ʃ]，拼写仍是 ch-"
+        },
+        {
+          "period": "英语 19 世纪",
+          "form": "chef",
+          "note": "再从法语借入，专指厨师长；与 chief 分工"
+        },
+        {
+          "period": "古英语",
+          "form": "hēafod → head",
+          "note": "日耳曼本土形式，与 caput 同源（PIE *kaput-），走的是完全另一条路"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三条借词路加一条本土路",
+      "body": "这张表的第三列是本课的核心：同一来源，四种拼写，各自冻结在一个时代。第四列提醒你，意义也随路径分化——chief 走的是“地位”，chef 走的是“职业”，captain 走的是“带队的人”。一个词根分出几条语义支线，靠的是借入的场合，不是词根本身。",
+      "head": [
+        "路径",
+        "音变",
+        "英语形式",
+        "今天的意义"
+      ],
+      "rows": [
+        [
+          "拉丁学术直借",
+          "capit- 保持 [k]",
+          "capital、decapitate、capitalism",
+          "头 → 首要 → 资本"
+        ],
+        [
+          "古法语（诺曼）",
+          "[k] → [tʃ]",
+          "chief",
+          "首领、主要的"
+        ],
+        [
+          "古法语（同一条路的另一支）",
+          "capit- 保留 [k]",
+          "captain",
+          "船长、队长、上尉"
+        ],
+        [
+          "近代法语",
+          "[tʃ] → [ʃ]",
+          "chef",
+          "厨师长"
+        ],
+        [
+          "本土日耳曼",
+          "PIE *k → 日耳曼 *h",
+          "head、heading、ahead",
+          "头、朝向"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "同形异源：cap 与 capit 是两条记录",
+      "body": "英语里以 cap 开头的词，其实来自两个毫无关系的拉丁词根：\n\n- **capit-** 来自 caput“头”：capital、captain、decapitate、capitalism\n- **cap-** 来自 capere“抓、取”：capable、capacity、accept（cept）、intercept（cept）、reception（cept）\n\n两条记录在词库里分开存：一条记“头、首要”，一条记“拿、抓”。**不要因为拼写都是 cap 就合并**——合并之后，capital 会莫名其妙地带上“抓”，capable 会莫名其妙地带上“头”，两族词同时被污染。\n\n这也是本课最实用的一条纪律：**拼写只是线索，来源才是身份**。判断同源要看词源与义项，不看字母。"
+    },
+    {
+      "kind": "compare",
+      "title": "chief 与 chef：同一来源，两个时代",
+      "body": "这一对最能说明“借词层次”。两个词都来自 caput，都指“为首的”，但在英语里活成了两个词：一个管地位，一个管厨房。原因不是语义漂移，而是**借入时间不同**——中间隔了六七百年，法语自己已经从 [tʃ] 走到 [ʃ]，英语又各借了一次。",
+      "a": "chief",
+      "b": "chef",
+      "rows": [
+        [
+          "借入时间",
+          "约 12–14 世纪（中古英语）",
+          "19 世纪（近代法语）"
+        ],
+        [
+          "词首读音",
+          "[tʃ]",
+          "[ʃ]"
+        ],
+        [
+          "今天的义",
+          "首领；主要的（chief executive、chief reason）",
+          "厨师长（head cook）"
+        ],
+        [
+          "同族关系",
+          "与 captain、capital 同源",
+          "与 chief 同源，但已是独立词条"
+        ],
+        [
+          "教学意义",
+          "同一来源可以分成两个词条，不必合并",
+          "借词的“意义”由借入场合决定，不由词源决定"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w31d4-p1",
+      "kind": "mcq",
+      "prompt": "captain 与 chief 的关系是：",
+      "choices": [
+        "同源：都来自拉丁 caput“头”，经不同路径进入英语",
+        "同义：两者在任何语境下都可互换",
+        "同形：拼写相近所以是同一个词的两个变体",
+        "无关：一个来自拉丁，一个来自古英语"
+      ],
+      "answer": 0,
+      "explain": "captain 经古法语 capitaine 来自晚期拉丁 capitaneus，chief 经古法语 chief 来自拉丁 caput，两者同源但路径不同、读音不同、今天的意义也分工（带队的人／首领）。它们不是同一个词的变体，而是同一来源的两个独立借词——这一点与 head 的关系更远一层：head 是同源的本土词，不是借词。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w31d4-p2",
+      "kind": "mcq",
+      "prompt": "chief 里的 ch 读 [tʃ]，captain 里的 cap 读 [k]，最合理的解释是：",
+      "choices": [
+        "chief 走古法语，词首 [k] 在那里腭化成 [tʃ]；captain 这一支保住了 [k]",
+        "英语拼写没有规律，读法只能逐词记",
+        "chief 是本土词，captain 是外来词",
+        "ch 在英语里永远读 [tʃ]"
+      ],
+      "answer": 0,
+      "explain": "同一个拉丁 [k] 在古法语里腭化为 [tʃ]，所以走法语这条路进来的 chief 拼成 ch-；captain 虽然也经过法语，但它所依的 capitaine 保留了 [k]。这说明读音差异不是“没规律”，而是“走了不同的路”。顺带记住：ch 还有第三种读法 [ʃ]（chef），那是法语更晚的阶段。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w31d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "Latin [k] became [tʃ] in Old French, which is why ___ and captain look so different today even though both go back to caput.",
+      "answer": "chief",
+      "accept": [
+        "chief"
+      ],
+      "explain": "空处要填与 captain 同源却带 [tʃ] 的那个词：chief。这句话本身就是一条判据——凡是一对“同源而形似不相似”的词，先查它是不是在不同时代分批借入的。warranty/warrantee、cattle/chattel 都是同一类型的双式词。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w31d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 de- 表示“去掉”，capit 意为“头”，decapitate 最可能是：",
+      "choices": [
+        "斩首",
+        "使资本化",
+        "摘掉帽子",
+        "解除队长职务"
+      ],
+      "answer": 0,
+      "explain": "de（去掉）+ capit（头）+ -ate（动词）→“去掉头”，即斩首。这条题的关键是认清 capit 属于“头”这一支，而不是“抓”那一支：如果误判成 cap（抓），会猜成“抓住、俘获”一类，方向就错了。所以同形异源的辨识不是学术趣味，它直接决定你猜词的方向。",
+      "concepts": [
+        "c-inference",
+        "capit",
+        "c-etymology"
+      ],
+      "hint": "先定 capit 的义（头），再让 de- 的“去掉”去作用它。"
+    },
+    {
+      "id": "w31d4-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“船长；队长”的切分",
+      "parts": [
+        "capt",
+        "ain"
+      ],
+      "answer": "captain",
+      "explain": "capt（头，capit 的变体）+ -ain（“……的人”）→“为首的人”，即队长、船长。这里 -ain 与 -an、-ian 同族（guardian、musician），都指人。注意 captain 的 capt 属于“头”这条记录，与 accept 里的 cept（抓）不是一回事——拼写接近，来源不同，这正是今天要守的那条线。",
+      "concepts": [
+        "c-word-sum",
+        "capit",
+        "c-suffix"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w31d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 chandelier 是什么，并说明它和 candle 的关系",
+      "passage": "The hall was lit by a chandelier: a branched fixture hung from the ceiling, holding a dozen candles above the long table.",
+      "word": "chandelier",
+      "choices": [
+        "枝形吊灯（挂在天花板上、装多支蜡烛的灯具）",
+        "落地烛台",
+        "壁炉上方的镜子",
+        "用来存放蜡烛的木箱"
+      ],
+      "answer": 0,
+      "strategy": "① 语境定义：a branched fixture hung from the ceiling, holding a dozen candles —— 三处特征（分叉、吊挂、多支蜡烛）已构成定义；② 词源：chandelier 来自法语，与 candle 同出拉丁 candela“蜡烛”，ch- 读 [ʃ] 正是法语那条路的标记；③ 排除：落地烛台不吊挂，镜子与木箱都不装蜡烛；④ 校验：同族还有 candelabrum（大烛台），-ier 是法语的名物后缀。",
+      "explain": "chandelier 是“枝形吊灯”。它和 candle 同源，但不是同一个词：candle 是早期从拉丁 candela 借入英语（保住 [k]），chandelier 是后来从法语借入（[ʃ]），两者拼写因此分家。这与 chief/chef 是同一套机制，只是换了词根——所以昨天学的“看路径不看字母”，今天就能用在完全陌生的词上。",
+      "concepts": [
+        "c-inference",
+        "c-etymology",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 1 章第 7 节：藏在词里的历史；caput 与法语借词层次"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "拉丁词根 capit- 与法语借词的双式形态"
+    }
+  ]
+}

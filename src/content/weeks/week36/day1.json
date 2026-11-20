@@ -1,0 +1,313 @@
+{
+  "id": "w36d1",
+  "week": 36,
+  "day": 1,
+  "title": "词缀的五个位置：从贴在哪到做什么",
+  "tagline": "同样叫“词缀”，贴在词首、词尾、词中间、两截之间，还是只落在重音上，性质完全不同",
+  "objectives": [
+    "能说出前缀、后缀、中缀、间缀、超缀各自的位置，并各举一个真实例词",
+    "能区分屈折后缀与派生后缀：-s/-ed/-ing 只改语法，-ness/-ment 造新词",
+    "能在 word sum 里标出前缀、词根、后缀、屈折后缀、组合形式五个槽位"
+  ],
+  "prereqs": [
+    "w01d1",
+    "w04d1",
+    "c-affix",
+    "c-prefix",
+    "c-suffix"
+  ],
+  "concepts": [
+    "c-affix",
+    "c-prefix",
+    "c-suffix",
+    "c-inflection",
+    "c-derivation",
+    "c-combining"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s4-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "先按位置分，再按功能分",
+      "body": "教材给词缀分类的第一刀切在**位置**上：贴在词首是**前缀**（prefix），贴在词尾是**后缀**（suffix），插进词中间是**中缀**（infix），夹在两个成分之间起连接作用的是**间缀**（interfix），不占任何音段、只用重音或声调落在整个词上的是**超缀**（superfix）。这五类合起来才叫 affix。\n\n要紧的是：**位置不等于功能**。同样在后缀的位置上，-s 只标复数，-ness 却造出一个新名词；同样不占音段，超缀改的是词性，而语调改的是句子语气。所以第一步先问“它贴在哪”，第二步必须再问“它做了什么”，两步都走完才算分析完。\n\n还有一个常被忽略的点：词缀依附的那个东西叫 **base（词基）**，它可以是词根（kind），也可以是已经带缀的形式（unkind）。这就解释了为什么 unkindness 不是 un+kind+ness 三块平铺，而是 (un+kind)+ness 两层。\n\n做 word sum 时，实际标注的是五个**槽**：前缀、词根、派生后缀、屈折后缀、组合形式。注意“词根”不是词缀，它占的是中心槽；这个五槽表是位置与功能的合并版，用来标算式方便，不替代上面的位置分类。",
+      "terms": [
+        {
+          "term": "infix",
+          "zh": "中缀",
+          "en": "infix",
+          "note": "插入词干内部，英语里只出现在口语强调等边缘场合"
+        },
+        {
+          "term": "superfix",
+          "zh": "超缀",
+          "en": "superfix",
+          "note": "不占音段，用重音或声调标记语法或词类差别"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "五类位置，五个真实例子",
+      "body": "这张表的每一行都要能脱口而出一两个词，否则位置分类只是空名。注意中缀一行：英语没有真正的构词中缀，只有口语里的强调性插入，所以它是五类里最边缘的一类；而间缀在希腊、拉丁来源的科技词里非常常见，那个连接元音 -o- 就是它。",
+      "head": [
+        "位置类型",
+        "贴在哪",
+        "例词与切分",
+        "作用"
+      ],
+      "rows": [
+        [
+          "前缀 prefix",
+          "词首",
+          "unkind = un + kind；exoplanet = exo + planet",
+          "加否定、方位、程度等词汇义"
+        ],
+        [
+          "后缀 suffix",
+          "词尾",
+          "kindness = kind + ness；walked = walk + ed",
+          "派生造新词，或标语法形式"
+        ],
+        [
+          "中缀 infix",
+          "词干内部",
+          "abso-blooming-lutely（口语强调插入）",
+          "加强语气，不改变词义与词性"
+        ],
+        [
+          "间缀 interfix",
+          "两个成分之间",
+          "thermometer = therm + o + meter；cuneiform = cune + i + form",
+          "连接两个粘着成分，本身不带来实义"
+        ],
+        [
+          "超缀 superfix",
+          "整个词的重音型",
+          "REcord（名词）／reCORD（动词）",
+          "用重音位置区分词类，见第 5 天"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "屈折后缀 vs 派生后缀：同在后缀位，任务相反",
+      "body": "这两列最容易混，因为它们在词尾、都短、都不重读。唯一可靠的判据是功能：加完之后，这个词还是不是原来那个词。books 还是 book，只是变复数；kindness 已经不是 kind 了，它成了一个名词。做题时先问这一句，再考虑拼写。",
+      "a": "屈折后缀",
+      "b": "派生后缀",
+      "rows": [
+        {
+          "label": "典型成员",
+          "a": "-s（复数／三单）、-ed（过去）、-ing（进行）、-er/-est（比较级）",
+          "b": "-ness、-ment、-tion、-able、-less、-er（施事）"
+        },
+        {
+          "label": "改变什么",
+          "a": "只改语法关系：数、时、人称、级",
+          "b": "改词性，或显著改词汇意义"
+        },
+        {
+          "label": "是否产生新词",
+          "a": "不产生，同一词条的另一个形式",
+          "b": "产生，词典另立条目"
+        },
+        {
+          "label": "位置顺序",
+          "a": "永远最外层，接在派生后缀之后",
+          "b": "在词根与屈折后缀之间"
+        },
+        {
+          "label": "例词",
+          "a": "book → books；walk → walked；kind → kinder",
+          "b": "kind → kindness；govern → government；help → helpful"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "组合形式：不是前缀，也不是普通词根",
+      "body": "**photo-**、**-graph**、**-meter**、**anemo-** 这类成分叫**组合形式**（combining form）。它们有三个特征：第一，不能独立成词（photo 作为“照片”是截短词，另算）；第二，词汇义很实，接近词根而不是语法标记；第三，通常与另一个粘着成分搭配，中间常由 -o- 连接。\n\n所以 photograph 的切分不是“前缀 + 词根”，而是“组合形式 + 组合形式”：photo（光）+ graph（写、记录）。同理 thermometer = therm（热）+ o + meter（测量）。\n\n这里有一个真实的分析分歧要交代：有人把 -o- 算作间缀，有人把它算作前一个组合形式自带的连接元音。两种处理在 word sum 里写成 therm+o+meter 或 thermo+meter 都有人用；本书统一按“间缀单列”处理，因为这样在 speedometer、anemometer 里更容易看出规律。",
+      "terms": [
+        {
+          "term": "combining form",
+          "zh": "组合形式",
+          "en": "combining form",
+          "note": "希腊／拉丁来源的粘着成分，词汇义实，常与另一粘着成分组合"
+        }
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "把五个槽位落进三条算式",
+      "body": "看算式时不要只数块数，要标出每块占的是哪个槽。第一条 unkindness 里，un 是前缀、kind 是自由词根、ness 是派生后缀；第二条 walked 的 ed 是屈折后缀，它没有造新词；第三条 photograph 两块都是组合形式，中间的 o 归到间缀。**同一个位置上可以坐不同功能的东西，这才是位置分类之后必须补功能分析的原因。**",
+      "sums": [
+        {
+          "parts": [
+            "un",
+            "kind",
+            "ness"
+          ],
+          "result": "unkindness",
+          "glossZh": "不友善、刻薄",
+          "note": "前缀 + 自由词根 + 派生后缀；层次是 (un+kind)+ness"
+        },
+        {
+          "parts": [
+            "walk",
+            "ed"
+          ],
+          "result": "walked",
+          "glossZh": "走了（过去式）",
+          "note": "自由词根 + 屈折后缀；词性、词义均未变"
+        },
+        {
+          "parts": [
+            "photo",
+            "graph"
+          ],
+          "result": "photograph",
+          "glossZh": "照片；拍照",
+          "note": "组合形式 + 组合形式，不是“前缀 + 词根”"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w36d1-p1",
+      "kind": "mcq",
+      "prompt": "在 walked、kindness、books、government 四个词里，哪个词尾属于屈折后缀？",
+      "choices": [
+        "walked 的 -ed",
+        "kindness 的 -ness",
+        "books 的 -s 与 walked 的 -ed 都是屈折",
+        "government 的 -ment"
+      ],
+      "answer": 2,
+      "explain": "books 的 -s 标复数、walked 的 -ed 标过去时，两者都只改语法关系，词性和词汇义没变，所以都是屈折。-ness 和 -ment 都造出了新名词（kind→kindness、govern→government），属于派生。注意选项二只说了 -s 而漏了 -ed，所以不完整。",
+      "concepts": [
+        "c-inflection",
+        "c-suffix",
+        "c-derivation"
+      ]
+    },
+    {
+      "id": "w36d1-p2",
+      "kind": "mcq",
+      "prompt": "五类位置中，哪一类在英语的标准构词里几乎没有真正的成员？",
+      "choices": [
+        "中缀 infix",
+        "前缀 prefix",
+        "间缀 interfix",
+        "超缀 superfix"
+      ],
+      "answer": 0,
+      "explain": "英语没有用来造词的真正中缀。abso-blooming-lutely 这类插入属于口语强调（expletive infixation），不产生新词条，也不能类推到一般词上。间缀在 thermometer 这类科技词里很常见，超缀则见于 REcord／reCORD 这样的名动配对。",
+      "concepts": [
+        "c-affix"
+      ]
+    },
+    {
+      "id": "w36d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个术语（英文）",
+      "sentence": "In thermometer and speedometer, the linking vowel -o- is best analyzed as an ___.",
+      "answer": "interfix",
+      "accept": [
+        "interfix",
+        "间缀",
+        "linking element"
+      ],
+      "explain": "间缀夹在两个成分之间起连接作用，本身不带来实义。-o- 在 therm+o+meter、speed+o+meter 里就是这种角色。它和前缀、后缀的区别是位置，和词根的区别是它没有词汇义。",
+      "concepts": [
+        "c-affix",
+        "c-combining"
+      ]
+    },
+    {
+      "id": "w36d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）exoplanets 的三段切分与各段性质，哪一项正确？",
+      "choices": [
+        "exo（前缀，外）+ planet（自由词根）+ s（屈折后缀，复数）",
+        "exo（词根，外）+ planets（派生后缀）",
+        "exo（组合形式）+ planet（前缀）+ s（派生后缀）",
+        "exoplanet（词根）+ s（间缀）"
+      ],
+      "answer": 0,
+      "explain": "exo- 是希腊来源的前缀，义为“外部”，同族还有 exoskeleton、exothermic；planet 可独立成词，是自由词根；-s 只标复数，是屈折后缀。整词指太阳系外围绕其他恒星运行的行星。若把 -s 说成派生后缀就错了，因为它没有造出新词。",
+      "concepts": [
+        "c-prefix",
+        "c-suffix",
+        "c-inflection"
+      ],
+      "hint": "先按位置切三段，再逐段问“它造新词了吗”。"
+    },
+    {
+      "id": "w36d1-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“不友善”的名词形式（含前缀、自由词根、派生后缀各一）",
+      "parts": [
+        "un",
+        "kind",
+        "ness"
+      ],
+      "answer": "unkindness",
+      "explain": "un（否定前缀）+ kind（自由词根）+ ness（名词后缀）→ unkindness。层次是 (un+kind)+ness：先由 un+kind 得到形容词 unkind，再加 -ness 名词化。三个槽位分别占前缀、词根、派生后缀，没有屈折后缀参与。",
+      "concepts": [
+        "c-prefix",
+        "c-suffix",
+        "c-word-sum",
+        "c-derivation"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w36d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 exoplanets 的含义",
+      "passage": "Since the first confirmed detection in the 1990s, the catalogue of exoplanets has grown to several thousand. Most orbit stars other than the sun, and a few sit close enough to their host star that their atmospheres can be sampled as they pass in front of it.",
+      "word": "exoplanets",
+      "choices": [
+        "太阳系外围绕其他恒星运行的行星",
+        "太阳系内尚未命名的小行星",
+        "绕地球运行的人造卫星",
+        "恒星内部的行星状结构"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：exo（外）+ planet（行星）+ s（复数）；② 句法：主语是 the catalogue of exoplanets，中心词是行星类对象；③ 语境：Most orbit stars other than the sun 直接给出“绕太阳以外的恒星”；④ 排除：人造卫星绕地球，小行星不叫 planet，恒星内部结构不成“行星”。",
+      "explain": "exoplanets 是“系外行星”。exo- 作为前缀表示“外部”，在 exoskeleton（外骨骼）、exothermic（放热的）里是同一个成分。这道题的关键不是 exo- 这个前缀有多难，而是要把“前缀 + 自由词根 + 屈折后缀”三段都认对，尤其是不要把复数 -s 当成派生后缀。",
+      "concepts": [
+        "c-prefix",
+        "c-inflection",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 4 节：affix 的位置分类（prefix/suffix/infix/interfix/superfix）与 base"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态学：屈折与派生的功能分工"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry resources",
+      "detail": "word sum 的槽位标注与层次括号"
+    }
+  ]
+}

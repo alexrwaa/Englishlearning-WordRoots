@@ -1,0 +1,323 @@
+{
+  "id": "w39d5",
+  "week": 39,
+  "day": 5,
+  "title": "亲属、年龄与胜负：三组词根的后缀分工",
+  "tagline": "fratr、matr、vinc、nat、octo——同一个词根，后缀决定它指人、指状态还是指动作",
+  "objectives": [
+    "能用 -ern-/-al、-ion、-ory 三组后缀区分同一词根的不同派生物",
+    "能解释 octopus 的两种复数（octopuses / octopodes）各自的理据",
+    "能在陌生词里判断一个成分是词根、是后缀，还是连接元音"
+  ],
+  "prereqs": [
+    "w39d4",
+    "c-suffix",
+    "c-word-family"
+  ],
+  "concepts": [
+    "c-suffix",
+    "c-word-family",
+    "c-borrowing",
+    "c-inflection"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 7,
+    "practice": 9,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "同一词根，后缀分流",
+      "body": "三个词根放在一起看，规律很清楚：\n\n**fratr（兄弟）**：frater 是拉丁原形；fraternal 加 -ern- + -al 成形容词（兄弟的）。-ern- 是拉丁形容词的固定中缀，不能省。\n\n**matr（母亲）**：matrimony 走 -mony（状态），指“成为母亲的状态”→ 婚姻；maternal 走与 fraternal 相同的 -ern- + -al 路径。\n\n**vinc / vict（征服）**：conviction 是 con + vict + ion（彻底征服 → 定罪、确信）；victory 是 vict + ory（征服的结果 → 胜利）。同一个词根，-ion 落在“被征服的状态”，-ory 落在“征服这件事”。\n\n**nat（出生）**：nation 是 nat + ion（同源人群 → 民族）；native 是 nat + ive（出生地的 → 本地的）。\n\n后缀不是装饰：它决定这个词在句子里指人、指状态、还是指动作。",
+      "terms": [
+        {
+          "term": "suffix selection",
+          "zh": "后缀选择",
+          "en": "suffix selection",
+          "note": "同一词根配不同后缀，得到不同词性与语义角色"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "九个词的成分表",
+      "body": "第四列写清“这个后缀给了什么”：指人、指状态、指结果、还是只改词性。做题时先定这一列，词义范围就定了。",
+      "head": [
+        "词",
+        "切分",
+        "后缀功能",
+        "词义落点"
+      ],
+      "rows": [
+        [
+          "frater",
+          "frater",
+          "拉丁原形，无后缀",
+          "兄弟（借词原形）"
+        ],
+        [
+          "fraternal",
+          "fratr + ern + al",
+          "-ern- 中缀 + -al 形容词",
+          "兄弟的"
+        ],
+        [
+          "matrimony",
+          "matr + i + mony",
+          "-mony 状态",
+          "婚姻"
+        ],
+        [
+          "conviction",
+          "con + vict + ion",
+          "-ion 状态／结果",
+          "定罪；确信"
+        ],
+        [
+          "victory",
+          "vict + ory",
+          "-ory 结果",
+          "胜利"
+        ],
+        [
+          "nation",
+          "nat + ion",
+          "-ion 状态／集合",
+          "民族；国家"
+        ],
+        [
+          "native",
+          "nat + ive",
+          "-ive 形容词",
+          "本地的；天生的"
+        ],
+        [
+          "octopus",
+          "octo + pus",
+          "复合：八 + 脚",
+          "章鱼"
+        ],
+        [
+          "octopodes",
+          "octo + pod + es",
+          "希腊复数 -es",
+          "章鱼（复数，希腊式）"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "octopus 的两种复数",
+      "body": "同一个词有两套复数，两套都有理据，区别在于你把 octopus 当希腊词还是当英语词。学术写作里两种都见得到，但同一篇文章要统一。",
+      "a": "octopuses（英语化）",
+      "b": "octopodes（希腊式）",
+      "rows": [
+        [
+          "理据",
+          "按英语规则加 -es",
+          "按希腊词干 octopod- 加 -es"
+        ],
+        [
+          "使用场景",
+          "通用英语、科普写作",
+          "动物学专业文献"
+        ],
+        [
+          "常见错误",
+          "*octopi：把希腊词当拉丁第二变格",
+          "在通俗文本里显得生硬"
+        ],
+        [
+          "判据",
+          "词已完全英语化",
+          "词仍被当作希腊借词处理"
+        ]
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "四条算式，四种后缀",
+      "body": "算式写完后对比第三列：-ern- + -al 是形容词路径，-ion 是状态路径，-ory 是结果路径。同一个词根走不同路径，得到的词在句子里扮演完全不同的角色。",
+      "sums": [
+        {
+          "parts": [
+            "fratr",
+            "ern",
+            "al"
+          ],
+          "result": "fraternal",
+          "glossZh": "兄弟的",
+          "note": "拉丁形容词中缀 -ern- 不可省"
+        },
+        {
+          "parts": [
+            "con",
+            "vict",
+            "ion"
+          ],
+          "result": "conviction",
+          "glossZh": "定罪；确信",
+          "note": "con- 彻底 + vict 征服 + -ion 状态"
+        },
+        {
+          "parts": [
+            "vict",
+            "ory"
+          ],
+          "result": "victory",
+          "glossZh": "胜利",
+          "note": "-ory 表结果"
+        },
+        {
+          "parts": [
+            "octo",
+            "pus"
+          ],
+          "result": "octopus",
+          "glossZh": "章鱼",
+          "note": "八 + 脚，希腊复合词"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "conviction 为什么既是“定罪”又是“确信”",
+      "body": "同一个词有两个看似不相干的义项，原因在 con- 的强度。con- 表“彻底、完全”，vict 表“征服”：被彻底征服，可以指向外部（法庭上被征服 → 定罪），也可以指向内部（被某个想法征服 → 确信）。\n\n英语里这种“外部／内部”双路径很常见：convince 是“使信服”，convict 是“判罪”，两者同源而分流。判断句中取哪一义，看主语和介词：conviction for theft 是定罪，speak with conviction 是确信。词根只给范围，搭配给精确值。",
+      "morphemes": [
+        "con",
+        "vinc"
+      ],
+      "morphemeIds": [
+        "px-con",
+        "cx-vinc-vic"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w39d5-p1",
+      "kind": "boundary",
+      "prompt": "切开 fraternal：中间有一段不能省的拉丁中缀",
+      "word": "fraternal",
+      "segments": [
+        "frat",
+        "ern",
+        "al"
+      ],
+      "explain": "frat + ern + al。词根在这里拼作 frat-（拉丁 frater 的词干），-ern- 是拉丁形容词的固定中缀（fraternus），-al 是形容词后缀。注意不要写成 fratr|ern|al：那样拼接出来是 fratrernal，多了一个 r。同族的 maternal、paternal 走同一条路径。",
+      "concepts": [
+        "fratr",
+        "ern",
+        "al"
+      ]
+    },
+    {
+      "id": "w39d5-p2",
+      "kind": "wordSum",
+      "prompt": "用 + 连接三段，写出“定罪；确信”这个词",
+      "parts": [
+        "con",
+        "vict",
+        "ion"
+      ],
+      "answer": "conviction",
+      "explain": "con（彻底）+ vict（征服）+ -ion（状态）→ conviction。字面义“被彻底征服的状态”，向外是“定罪”，向内是“确信”。注意 vict 是 vinc 的分词词干形态（ conquered ），与 victory 同形；两个词共享这个词干，但 -ion 与 -ory 把落点分开了。",
+      "concepts": [
+        "con",
+        "vict",
+        "ion"
+      ]
+    },
+    {
+      "id": "w39d5-p3",
+      "kind": "mcq",
+      "prompt": "nation 与 native 共享词根 nat，两词的意义分别是：",
+      "choices": [
+        "同出生来源的人群 → 民族；出生地的 → 本地的",
+        "国家的管理者；国籍的",
+        "天生的人才；天生的能力",
+        "出生的地点；出生的时间"
+      ],
+      "answer": 0,
+      "explain": "nat 表“出生、来源”。nation = nat + ion，指“同出生来源的人群”，后来扩为“民族、国家”；native = nat + ive，指“与出生有关的”→ 本地的、天生的。同一个词根，-ion 把它变成集合名词，-ive 把它变成形容词——这就是后缀分流。",
+      "concepts": [
+        "nat",
+        "ion",
+        "ive"
+      ]
+    },
+    {
+      "id": "w39d5-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接两段，写出“章鱼”这个词",
+      "parts": [
+        "octo",
+        "pus"
+      ],
+      "answer": "octopus",
+      "explain": "octo（八）+ pus（脚）→ octopus，字面义“八只脚”。pus 是希腊 pous 的拉丁化形式，同族的还有 platypus（鸭嘴兽，扁平脚）。注意复数的三条路线：octopuses（英语化，通用）、octopodes（希腊式，专业）、*octopi（错误，把希腊词按拉丁第二变格处理）。",
+      "concepts": [
+        "octo",
+        "pus"
+      ]
+    },
+    {
+      "id": "w39d5-p5",
+      "kind": "cloze",
+      "prompt": "填入一个英语名词",
+      "sentence": "The ___ was decided in the final minutes, when a single counter-attack turned a one-goal deficit into a two-goal lead.",
+      "answer": "victory",
+      "accept": [
+        "victory",
+        "胜利"
+      ],
+      "explain": "victory = vict（征服）+ -ory（结果）→“征服的结果”。句中 final minutes、counter-attack、turn a deficit into a lead 都在描述比赛结果的翻转。对比 conviction：同用 vict，但 -ion 表状态，所以一个是“胜利”，一个是“被征服的状态”。",
+      "concepts": [
+        "vinc",
+        "ory"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w39d5-a1",
+      "kind": "infer",
+      "prompt": "（迁移）读句子，推测 conviction 在学术表达中的含义",
+      "passage": "She argued her case with conviction, but the committee was not persuaded: the data were suggestive rather than conclusive.",
+      "word": "conviction",
+      "choices": [
+        "确信、坚定的信念",
+        "刑事定罪",
+        "说服力、口才",
+        "委员会的决议"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：con（彻底）+ vict（征服）+ -ion（状态）→“被彻底说服的状态”；② 句法：with conviction 是方式状语，修饰 argued；③ 语境：but the committee was not persuaded 构成对比——说话人有信念，听者未被说服；④ 校验：刑事定罪需要法庭语境，此处是学术讨论；口才与 not persuaded 不构成对比。",
+      "explain": "conviction 在这里是“确信”。判断依据是搭配：with conviction 修饰说话方式，指“带着信念说”；而 conviction for fraud 才是“定罪”。同根同形不同义，靠介词与语境分流——这正是本单元反复训练的动作：先切分给范围，再用搭配定值。",
+      "concepts": [
+        "vinc",
+        "ion"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 10 章：亲属词与拉丁形容词中缀"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "octopus 的复数形式与用法说明"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "vincere、nasci 的派生词"
+    }
+  ]
+}

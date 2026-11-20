@@ -1,0 +1,260 @@
+{
+  "id": "w35d5",
+  "week": 35,
+  "day": 5,
+  "title": "词尾塌了，语序顶上",
+  "tagline": "非重读元音都变成 [ə]，连 [ə] 后来也掉了——英语的屈折就是这样没的",
+  "objectives": [
+    "能说明中古英语非重读词尾元音弱化为 [ə]、写作 e 的过程与后果",
+    "能解释“屈折合并”如何迫使英语依赖语序与介词",
+    "能说明中古英语标准语为何转向伦敦的中部方言，与西撒克逊传统断裂"
+  ],
+  "prereqs": [
+    "w35d4",
+    "w35d2"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-allomorph",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s9-4",
+    "kp-s1c2s9-5"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一个元音吃掉一套语法",
+      "body": "古英语的词尾靠**元音区别**工作：stān（单数主格）、stānes（属格）、stāne（与格）、stānas（复数主格）——区别就在最后一个元音。\n\n中古英语里，非重读音节的元音**一律弱化成 [ə]**，拼写统一写作 **e**：四个形式变成 ston、stones、stone，听起来几乎一样。区别一旦听不出来，词尾就不再能标记格——这就是“屈折合并”的物理原因。\n\n注意机制的顺序：先是**语音弱化**，然后是**功能塌陷**，最后是**句法补偿**（语序与介词接手）。三步不能颠倒。",
+      "terms": [
+        {
+          "term": "schwa",
+          "zh": "中央元音",
+          "en": "schwa",
+          "note": "非重读音节里最弱、最省力的元音，国际音标写作 [ə]"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个形式塌成两个",
+      "body": "四个形式塌成两个（stone／stones），属格靠 -'s 撑住。注意 -es 反而**扩张**了：它从一类名词的复数词尾变成全体的默认复数。**当一个区别消失，剩下的那个形式往往被推广到全体**——这条规律解释了现代英语为什么复数几乎只有 -s。",
+      "head": [
+        "语法功能",
+        "古英语",
+        "中古英语",
+        "现代英语"
+      ],
+      "rows": [
+        [
+          "单数主格",
+          "stān",
+          "ston",
+          "stone"
+        ],
+        [
+          "单数属格",
+          "stānes",
+          "stones",
+          "stone's"
+        ],
+        [
+          "单数与格",
+          "stāne",
+          "stone",
+          "stone"
+        ],
+        [
+          "复数主格",
+          "stānas",
+          "stones",
+          "stones"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "拼写记住了旧读音",
+      "body": "词尾的 e 后来连 [ə] 也丢了（大致在十四、十五世纪），但**拼写没改**：name、wine、stone 末尾的 e 今天不发音。它原本是发音的，是“词尾元音”的墓碑。\n\n同理，knight、night 里的 gh 曾经读 [x]（像苏格兰语 loch 的 ch），现在不读了，拼写留着。英语拼写的“不合理”，大部分是**拼写冻结在音变之前**。\n\n这条认识有两个用处：一是记拼写时能解释“为什么多一个字母”；二是读诗时能理解为什么某些押韵在古代成立、今天不成立。",
+      "terms": [
+        {
+          "term": "silent e",
+          "zh": "不发音的 e",
+          "en": "silent e",
+          "note": "曾发音、后脱落但拼写保留的词尾 e"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "西撒克逊标准 vs 伦敦标准",
+      "body": "两栏摆在一起，核心差别是“接不接得上”。西撒克逊标准在诺曼征服后中断；伦敦标准另起于中部方言，却成了现代英语的直接前身。判断标准语的传承，看形态特征，不看地理远近。",
+      "a": "西撒克逊标准（古英语晚期）",
+      "b": "伦敦标准（中古英语）",
+      "rows": [
+        {
+          "label": "基础方言",
+          "a": "西撒克逊",
+          "b": "东中部（Anglian）方言"
+        },
+        {
+          "label": "动词复数词尾",
+          "a": "-aþ 一类",
+          "b": "-eþ／-eth 一类"
+        },
+        {
+          "label": "名词复数",
+          "a": "-as 与其他词尾并存",
+          "b": "-es 扩张为默认"
+        },
+        {
+          "label": "与前一期的关系",
+          "a": "承自古英语早期传统",
+          "b": "与西撒克逊传统断裂，另起一段"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "伦敦为什么赢",
+      "body": "中古英语的文学标准以**伦敦**的英语为基础，而伦敦属**中部（东中部／Anglian）方言区**，不是西撒克逊。所以它与古英语晚期的西撒克逊标准**不是直系继承**：诺曼征服打断了旧抄写传统，新的中心在伦敦——人口最多、商业最盛、王廷与法庭所在。\n\n乔叟写的正是这种伦敦英语。他的文本能同时看到两件事：词尾 -e 还在拼写上，但很多已经不发音（有时只为格律需要）；复数 -es 已经一统。这两条正是“词尾塌陷”进行中的现场记录。\n\n标准语再一次跟着权力中心走（本周第 3 天）。这条规律从古英语到现代英语没有变过。",
+      "terms": [
+        {
+          "term": "Chancery Standard",
+          "zh": "衡平法院文书标准",
+          "en": "Chancery Standard",
+          "note": "十四、十五世纪英国王室文书机构使用的伦敦书面英语，影响后来的印刷标准"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w35d5-p1",
+      "kind": "mcq",
+      "prompt": "中古英语词尾元音弱化的直接后果是：",
+      "choices": [
+        "格词尾之间的语音区别消失，屈折系统随之瓦解",
+        "英语的词汇量大幅增加",
+        "英语开始借用大量法语词",
+        "英语的语序变得完全自由"
+      ],
+      "answer": 0,
+      "explain": "机制是：非重读元音都变 [ə] → 词尾听起来一样 → 格的区别无法维持 → 屈折合并 → 语序与介词接手。词汇量增加与法语借词是另一条线（社会史），语序反而变得更固定，不是更自由。",
+      "concepts": [
+        "c-inflection",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w35d5-p2",
+      "kind": "mcq",
+      "prompt": "复数 -es 在中古英语扩张为默认形式，说明：",
+      "choices": [
+        "当一个区别消失，剩下的那个形式常被推广到全体",
+        "法语借词带来了新的复数规则",
+        "英语的复数从此没有例外",
+        "古英语本来就只有一种复数"
+      ],
+      "answer": 0,
+      "explain": "这是“范式拉平”（levelling）的典型：多种复数词尾在语音上无法区分后，最常用的一种被推广。注意“默认”不等于“唯一”——oxen、children、feet、mice 仍是例外，它们正是旧系统的化石。",
+      "concepts": [
+        "c-inflection",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w35d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个语音学术语",
+      "sentence": "In Middle English, unstressed final vowels fell together as ___, written e, so that forms which had once been distinct became homophones.",
+      "answer": "schwa",
+      "accept": [
+        "schwa",
+        "ə"
+      ],
+      "explain": "填 schwa（[ə]）。这个词来自希伯来语的元音标记名称，语言学家用它指“最弱的中性元音”。它是英语屈折塌陷的物理原因：区别需要听得出来，听不出来就维持不住。",
+      "concepts": [
+        "c-allomorph",
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w35d5-p4",
+      "kind": "mcq",
+      "prompt": "name、wine 词尾不发音的 e 说明：",
+      "choices": [
+        "拼写保留了曾经发音的词尾，读音后来丢了",
+        "这些词是从法语借来的",
+        "英语的拼写从来没有规律",
+        "这些 e 表示复数"
+      ],
+      "answer": 0,
+      "explain": "词尾 e 原本读 [ə]，十四、十五世纪后脱落，拼写没跟着改。同理还有 knight 的 gh、debt 的 b（后者是后人按拉丁加的，从未发音）。拼写是地层，不是当下读音的转写。",
+      "concepts": [
+        "c-etymology",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w35d5-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“Once the endings collapsed, the language had to compensate: prepositions took over the work that case markers had done.” 句中 compensate 最可能指：",
+      "choices": [
+        "用别的语法手段补上失去的功能",
+        "赔偿经济损失",
+        "加快说话的速度",
+        "减少词汇的数量"
+      ],
+      "answer": 0,
+      "explain": "冒号后就是解释：介词接手了格标记的工作。所以 compensate 是“补偿、补足”，不是“赔偿”（那是它的商业义）。判断依据是冒号后的具体机制，而不是词本身。",
+      "concepts": [
+        "c-inference",
+        "c-inflection"
+      ],
+      "hint": "看冒号后面：谁接手了谁的工作。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w35d5-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 syncretism 在句中的含义",
+      "passage": "The process is called syncretism: two or more distinct grammatical forms fall together into one. It is not that speakers forgot the difference; it is that the sounds which carried the difference stopped being audible, and a distinction no one can hear is a distinction no one can keep.",
+      "word": "syncretism",
+      "choices": [
+        "几个不同的语法形式合并成一个",
+        "两种宗教信仰的融合",
+        "一种新起的书写规范",
+        "一种跨语言的借词现象"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后定义：two or more distinct grammatical forms fall together into one；② 澄清句：not that speakers forgot——不是遗忘，而是听不出；③ 因果链：sounds stopped being audible → distinction cannot be kept；④ 排除宗教义：段落限定在 grammatical forms，属于术语用法。",
+      "explain": "syncretism 来自希腊 syn-（一起）＋ krasis（混合），本义“合并”。语言学用它指“几个语法形式合并为一”，宗教学用它指“信仰融合”——同一个核心义（原本分开的东西合成一个），靠语境取义。",
+      "concepts": [
+        "c-inference",
+        "c-inflection"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 9 节：词尾元音弱化、屈折合并与伦敦标准语"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "中古英语 -e 的脱落与拼写保留；乔叟文本的形态特征"
+    }
+  ]
+}

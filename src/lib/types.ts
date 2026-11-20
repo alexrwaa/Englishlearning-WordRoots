@@ -215,6 +215,38 @@ export type Exercise =
       choices: string[];
       answer: number;
       strategy: string;
+    })
+  /** Split a word into its morphemes by hand: tap the gaps between letters. */
+  | (BaseExercise & {
+      kind: 'boundary';
+      /** Whole word to split, in spelling order. */
+      word: string;
+      /**
+       * The canonical split, e.g. ["un","help","ful","ness"]. Joining the
+       * segments must reproduce `word` exactly — the validator enforces this,
+       * because a stale split is the one bug this exercise cannot survive.
+       */
+      segments: string[];
+      /**
+       * Cut points as indices into `segments`: index `i` means "cut after
+       * `segments[i]`". The last segment carries no cut, so
+       * `segments.length - 1` is the canonical length; a trailing
+       * `segments.length - 1` entry is tolerated as a no-op. Optional —
+       * omit it and the cuts are derived from `segments`.
+       */
+      answer?: number[];
+    })
+  /** Real word vs. plausible non-word: the distractors must be justified. */
+  | (BaseExercise & {
+      kind: 'judge';
+      choices: string[];
+      answer: number;
+      /**
+       * One sentence per distractor explaining why it is not an English word,
+       * in the order the distractors appear in `choices`. Length must be
+       * `choices.length - 1`; the validator enforces it.
+       */
+      whyNot: string[];
     });
 
 export interface Lesson {

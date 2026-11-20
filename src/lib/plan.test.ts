@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest';
-import { lessons } from './content';
+import { beforeAll, describe, expect, it } from 'vitest';
+import { lessons, loadLessons } from './content';
 import { buildDailyPlan, computeStreak, redistribute } from './plan';
 import { DEFAULT_SETTINGS, type MemoryCard } from './types';
 
@@ -20,6 +20,11 @@ function card(id: string, due: number, lapses = 0): MemoryCard {
     lastReview: now - 3 * DAY,
   };
 }
+
+// Lessons are a lazily imported bundle now; hydrate them once for the suite.
+beforeAll(async () => {
+  await loadLessons();
+});
 
 describe('daily plan', () => {
   it('caps the review block and defers the rest', () => {

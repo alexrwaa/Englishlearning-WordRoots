@@ -1,9 +1,12 @@
 import { Fragment, useCallback, useEffect, useRef, useState } from 'react';
 import { Badge, Button, Panel } from '../ui';
+import { BoundaryPicker } from '../swi/BoundaryPicker';
+import { JudgeReasons } from '../swi/JudgeReasons';
 import { checkExercise, type CheckResult, type Response } from '../../lib/answer';
 import { createPhaseTimer, type PhaseTimer } from '../../lib/timing';
 import type { Exercise } from '../../lib/types';
 import type { KeyEvent } from './ReviewBlock';
+import '../../styles/swi.css';
 
 const KIND_LABEL: Record<Exercise['kind'], string> = {
   mcq: '选择',
@@ -11,6 +14,8 @@ const KIND_LABEL: Record<Exercise['kind'], string> = {
   wordSum: '构词算式',
   matrix: '词族填空',
   infer: '语境推断',
+  boundary: '切分边界',
+  judge: '真词判断',
 };
 
 export interface AttemptArgs {
@@ -20,13 +25,24 @@ export interface AttemptArgs {
   usedHint: boolean;
 }
 
-function choiceCount(ex: Exercise): number {
-  return ex.kind === 'mcq' || ex.kind === 'infer' ? ex.choices.length : 0;
+function isChoiceKind(ex: Exercise): ex is Extract<Exercise, { kind: 'mcq' | 'infer' | 'judge' }> {
+  return ex.kind === 'mcq' || ex.kind === 'infer' || ex.kind === 'judge';
 }
 
-function choiceText(ex: Exercise, index: number | null): string {
-  if (index === null) return '';
-  return ex.kind === 'mcq' || ex.kind === 'infer' ? (ex.choices[index] ?? '') : '';
+function choiceCount(ex: Exercise): number {
+  return isChoiceKind(ex) ? ex.choices.length : 0;
+}
+
+/** What gets stored on the attempt row: a readable trace, not the widget state. */
+function attemptText(ex: Exercise, selected: number | null, text: string, cuts: number[]): string {
+  if (ex.kind === 'boundary') {
+    return [...cuts]
+      .sort((a, b) => a - b)
+      .map((cut) => ex.word.slice(0, cut + 1))
+      .join('|');
+  }
+  if (isChoiceKind(ex)) return selected === null ? '' : ex.choices[selected] ?? '';
+  return text.trim();
 }
 
 function placeholderFor(ex: Exercise): string {
@@ -81,6 +97,7 @@ export function ExerciseView({
   if (!timerRef.current) timerRef.current = createPhaseTimer();
   const [selected, setSelected] = useState<number | null>(null);
   const [text, setText] = useState('');
+  const [cuts, setCuts] = useState<number[]>([]);
   const [result, setResult] = useState<CheckResult | null>(null);
   const [attempts, setAttempts] = useState(0);
   const [hintShown, setHintShown] = useState(false);
@@ -90,7 +107,7 @@ export function ExerciseView({
   // replayed when this component mounts.
   const lastSig = useRef(keyEvent.n);
 
-  const isChoice = exercise.kind === 'mcq' || exercise.kind === 'infer';
+  const isChoice = isChoiceKind(exercise);
 
   useEffect(() => {
     const timer = timerRef.current;
@@ -99,9 +116,19 @@ export function ExerciseView({
   }, []);
 
   const buildResponse = useCallback((): Response | null => {
+    if (exercise.kind === 'boundary') {
+      // An empty split is still a submission: it is judged as "nothing was cut"
+      // rather than blocked, so the flow never dead-ends on a silent widget.
+      return { kind: 'cuts', value: cuts };
+    }
     if (isChoice) return selected === null ? null : { kind: 'choice', index: selected };
     return text.trim() ? { kind: 'text', value: text } : null;
-  }, [isChoice, selected, text]);
+  }, [exercise.kind, cuts, isChoice, selected, text]);
+
+  const toggleCut = useCallback((cut: number) => {
+    setCuts((prev) => (prev.includes(cut) ? prev.filter((c) => c !== cut) : [...prev, cut]));
+    setBlocked(false);
+  }, []);
 
   const submit = useCallback(() => {
     if (result) return;
@@ -118,18 +145,19 @@ export function ExerciseView({
         correct: checked.correct,
         // Only visible, focused time counts; a question left open is capped.
         durationMs: timerRef.current?.take() ?? 0,
-        answer: isChoice ? choiceText(exercise, selected) : text.trim(),
+        answer: attemptText(exercise, selected, text, cuts),
         usedHint: hintShown,
       });
     }
     setAttempts((n) => n + 1);
     onAnswered();
-  }, [result, buildResponse, exercise, attempts, onAttempt, onAnswered, isChoice, selected, text, hintShown]);
+  }, [result, buildResponse, exercise, attempts, onAttempt, onAnswered, selected, text, cuts, hintShown]);
 
   const retry = useCallback(() => {
     setResult(null);
     setSelected(null);
     setText('');
+    setCuts([]);
     setBlocked(false);
   }, []);
 
@@ -153,12 +181,12 @@ export function ExerciseView({
 
   const choiceState = (i: number): string | undefined => {
     if (!result) return selected === i ? 'selected' : undefined;
-    if (exercise.kind === 'mcq' || exercise.kind === 'infer') {
-      if (i === exercise.answer) return 'correct';
-    }
+    if (isChoice && i === exercise.answer) return 'correct';
     if (selected === i) return 'wrong';
     return undefined;
   };
+
+  const choiceList = isChoice ? exercise.choices : [];
 
   return (
     <Panel className="fade-in">
@@ -261,25 +289,54 @@ export function ExerciseView({
 
       {isChoice ? (
         <div className="col" style={{ gap: 8 }}>
-          {exercise.kind === 'mcq' || exercise.kind === 'infer'
-            ? exercise.choices.map((choice, i) => (
-                <button
-                  key={`${choice}-${i}`}
-                  type="button"
-                  className="choice"
-                  data-state={choiceState(i)}
-                  disabled={Boolean(result)}
-                  onClick={(e) => {
-                    e.currentTarget.blur();
-                    setSelected(i);
-                    setBlocked(false);
-                  }}
-                >
-                  <span className="choice-key">{String.fromCharCode(65 + i)}</span>
-                  <span>{choice}</span>
-                </button>
-              ))
-            : null}
+          {choiceList.map((choice, i) => (
+            <button
+              key={`${choice}-${i}`}
+              type="button"
+              className="choice"
+              data-state={choiceState(i)}
+              disabled={Boolean(result)}
+              onClick={(e) => {
+                e.currentTarget.blur();
+                setSelected(i);
+                setBlocked(false);
+              }}
+            >
+              <span className="choice-key">{String.fromCharCode(65 + i)}</span>
+              <span>{choice}</span>
+            </button>
+          ))}
+        </div>
+      ) : exercise.kind === 'boundary' ? (
+        <div className="boundary-block">
+          <BoundaryPicker
+            word={exercise.word}
+            segments={exercise.segments}
+            cuts={cuts}
+            judged={Boolean(result)}
+            onToggle={toggleCut}
+          />
+          <div className="tiny faint" style={{ marginTop: 8 }}>
+            点字母之间的空隙切分词素；Tab 移到空隙，Enter 切换。
+          </div>
+          {result ? (
+            <div className="cut-standard">
+              标准切分：
+              {exercise.segments.map((segment, i) => (
+                <Fragment key={`${segment}-${i}`}>
+                  {i > 0 ? <span className="faint">|</span> : null}
+                  <span className="morph">{segment}</span>
+                </Fragment>
+              ))}
+            </div>
+          ) : (
+            <div className="row" style={{ marginTop: 12, gap: 10 }}>
+              <Button variant="primary" size="sm" onClick={submit}>
+                提交切分
+              </Button>
+              <span className="tiny faint">按 Enter 提交</span>
+            </div>
+          )}
         </div>
       ) : (
         <form
@@ -329,7 +386,13 @@ export function ExerciseView({
         <div className={`feedback ${result.correct ? 'ok' : 'no'}`} style={{ marginTop: 14 }}>
           <div className="title">{result.correct ? '答对了' : '这次不对'}</div>
           {result.feedback ? <p>{result.feedback}</p> : null}
+          {exercise.kind === 'boundary' ? (
+            <p className="small faint">切点上的竖线就是判定：绿色是切对的，红色是多切的，琥珀色是漏切的。</p>
+          ) : null}
           <p>{exercise.explain}</p>
+          {exercise.kind === 'judge' ? (
+            <JudgeReasons choices={exercise.choices} answer={exercise.answer} whyNot={exercise.whyNot} />
+          ) : null}
           {exercise.kind === 'infer' ? (
             <p>
               <strong>推理路径：</strong>

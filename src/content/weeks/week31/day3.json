@@ -1,0 +1,263 @@
+{
+  "id": "w31d3",
+  "week": 31,
+  "day": 3,
+  "title": "同义不等于可换：外延与内涵的分工",
+  "tagline": "house 与 home 指的是同一栋房子，说出来的却是两件事",
+  "objectives": [
+    "能区分外延（指哪些对象）与内涵（附带什么态度、语域、情感）",
+    "能用 house/home、childish/childlike、cheap/inexpensive、paternal/fatherly 说明分工",
+    "能说明本族词与拉丁借词在语域上的系统性差别，并把这条规律用到新的词对上"
+  ],
+  "prereqs": [
+    "w31d2",
+    "c-register",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-register",
+    "c-etymology",
+    "c-borrowing",
+    "c-transparency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s3-1"
+  ],
+  "minutes": {
+    "review": 6,
+    "learn": 9,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两把尺子：指什么，带什么",
+      "body": "**外延**（denotation）回答“这个词指哪些对象”，是一个集合；**内涵**（connotation）回答“用这个词时我顺带表明了什么立场”，是态度、情感、正式度、时代感的混合。两把尺子量的不是一回事，所以外延相同的词可以完全不通用。\n\n最干净的例子是 house 与 home。指对象时几乎重合：同一栋楼既是 house 也是 home。但说 “I’m going home” 时你在说归属，说 “a house on Elm Street” 时你在说房产。中介带你看房只会说 house，不会说 home——因为 home 承诺了一种 house 不能承诺的东西。\n\n这条区分是构词课的“第一道语法”：**先问外延，再问内涵**。外延不同，是两个词；外延相同而内涵不同，是两个选项。"
+    },
+    {
+      "kind": "table",
+      "title": "四对真词：外延相同，内涵分工",
+      "body": "四对词的外延都高度重合，区别全在第四列。请特别注意 cheap/inexpensive：中文里“便宜”同时覆盖两者，所以中国学习者最容易在这里出错——用 cheap 形容别人的东西，等于顺带评价了质量甚至人品。最后一列的“误用后果”比定义更值得记。",
+      "head": [
+        "词对",
+        "共同的外延",
+        "内涵差异",
+        "误用后果"
+      ],
+      "rows": [
+        [
+          "house / home",
+          "供人居住的建筑",
+          "house 中性、财产视角；home 带归属与情感",
+          "对刚搬家的人说 “your house” 会显得生分"
+        ],
+        [
+          "childish / childlike",
+          "像孩子一样",
+          "childish 贬：幼稚、不成熟；childlike 褒：纯真、直接",
+          "夸人 childlike 是赞美，说 childish 是批评"
+        ],
+        [
+          "cheap / inexpensive",
+          "价格低",
+          "cheap 常暗示劣质或吝啬；inexpensive 中性、体面",
+          "说礼物 cheap 等于当面贬低"
+        ],
+        [
+          "paternal / fatherly",
+          "与父亲有关",
+          "paternal 正式、制度性与亲属关系；fatherly 情感与日常",
+          "paternal grandmother 是父系祖母，不是“慈祥的祖母”"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么偏偏是这两类词对立",
+      "body": "上面四对里有三对是同一个格局：短的本族词对长的拉丁借词。fatherly 是 father + -ly，本土、口语、带感情；paternal 是拉丁 patr- 加 -al，正式、书面、可进法律与医学文本。这不是巧合，而是英语历史的结果：1066 年之后，法语与拉丁语进入官方、法律、学术语域，本土词留在家庭与日常里。\n\n于是同一条规律可以预测新词对：brotherly 亲切，fraternal 正式（fraternal twins 是术语）；motherly 温暖，maternal 医学化（maternal mortality 是统计口径）。**记住格局，就不必逐对背**——这也是本周反复出现的那个论点：结构比清单省力。\n\n一个提醒：这条规律是**倾向**，不是铁律。paternal 也能带感情（paternal pride），brotherly 也能进正式文本。内涵是概率分布，不是硬边界。"
+    },
+    {
+      "kind": "table",
+      "title": "亲属词根的三行对齐",
+      "body": "把六个词排成两列三行，规律一眼可见：左列是拉丁词根（patr、fratr、matr）加 -ernal/-al，右列是本土亲属词加 -ly。这不是三个孤立的词对，而是一套能生成的结构——你知道 fraternal 的位置，就能推出 maternal 的语域。",
+      "head": [
+        "拉丁（正式、制度）",
+        "本土（日常、情感）",
+        "共同外延",
+        "典型搭配"
+      ],
+      "rows": [
+        [
+          "paternal",
+          "fatherly",
+          "与父亲有关",
+          "paternal grandmother（父系）／fatherly advice（父亲般的忠告）"
+        ],
+        [
+          "maternal",
+          "motherly",
+          "与母亲有关",
+          "maternal mortality（孕产妇死亡）／motherly care（母亲般的照料）"
+        ],
+        [
+          "fraternal",
+          "brotherly",
+          "与兄弟有关",
+          "fraternal twins（异卵双生）／brotherly love（兄弟之爱）"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "换词测试：三个问题决定能不能换",
+      "body": "写作用词时不要问“这个词对不对”，要问“换了会多说什么”。下面三问按顺序过一遍，通常十秒内能定。第三问最容易被忽略：同一句话，说话人身份一变，合适的词就变了。",
+      "a": "可以互换",
+      "b": "不能互换",
+      "rows": [
+        [
+          "第一问：情感方向",
+          "两词的情感色彩同向或都中性",
+          "一个褒一个贬（childlike / childish）"
+        ],
+        [
+          "第二问：正式度",
+          "同处一个语域（口语对口语）",
+          "一个进合同、一个进家常话（paternal / fatherly）"
+        ],
+        [
+          "第三问：谁在说",
+          "说话人对该场景有资格（医生说 maternal）",
+          "越位使用会显得滑稽或冒犯（店员说 cheap）"
+        ],
+        [
+          "结论",
+          "可换，选更短更自然的那个",
+          "不可换，按语域与立场选，别按中文对译选"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w31d3-p1",
+      "kind": "mcq",
+      "prompt": "house 与 home 的差别属于：",
+      "choices": [
+        "内涵差别：一个中性，一个带归属与情感",
+        "外延差别：一个指建筑，一个指家具",
+        "语法差别：一个是可数名词，一个是不可数名词",
+        "词源差别：一个来自拉丁，一个来自希腊"
+      ],
+      "answer": 0,
+      "explain": "两者外延几乎重合，都能指那栋建筑；差别在内涵——home 附带归属感与情感承诺。所以 “I’m going home” 不能换成 “I’m going to my house” 而不损失意义。判断这类题，先问“指的对象变了吗”，没变就是内涵问题。",
+      "concepts": [
+        "c-register",
+        "c-transparency"
+      ]
+    },
+    {
+      "id": "w31d3-p2",
+      "kind": "mcq",
+      "prompt": "childish 与 childlike 外延相同，前者却带贬义。这个贬义来自：",
+      "choices": [
+        "外延：childish 只指小孩，childlike 只指成人",
+        "后缀：-ish 表示“劣质”，-like 表示“相似”",
+        "内涵：它暗示该成熟时不成熟",
+        "词性：一个是形容词，一个是副词"
+      ],
+      "answer": 2,
+      "explain": "两个词都是形容词，外延都是“像孩子一样”，差别在内涵：childish 把“像孩子”用到该成熟的场合，于是成为批评；childlike 把它用在值得保留的品质上，于是成为赞美。注意别把原因归给后缀——-ish 本身没有贬义（greenish 只是“略带绿色”），贬义是用法积累出来的。",
+      "concepts": [
+        "c-register",
+        "c-suffix"
+      ]
+    },
+    {
+      "id": "w31d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个形容词（英语）",
+      "sentence": "Calling a colleague's joke ___ suggests immaturity, while childlike suggests a refreshing directness.",
+      "answer": "childish",
+      "accept": [
+        "childish"
+      ],
+      "explain": "两个词外延相同，句子用 while 把两者对照，前半必须填带贬义的那个：childish。这类题不需要读懂全句，只需要定位“对照结构 + 褒贬方向”。写作用词时同理：先定你要褒还是贬，再选词形，而不是先想中文再对译。",
+      "concepts": [
+        "c-register"
+      ]
+    },
+    {
+      "id": "w31d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 fratr 意为“兄弟”，fraternal twins 最可能是：",
+      "choices": [
+        "异卵双胞胎（两个卵子分别受精）",
+        "同卵双胞胎（一个受精卵分裂）",
+        "被不同家庭收养的兄弟",
+        "堂兄弟或表兄弟"
+      ],
+      "answer": 0,
+      "explain": "fraternal（兄弟的）+ twins →“兄弟式的双生”，医学上指两个卵子分别受精的异卵双生；同卵双生叫 identical twins。这里的 -ernal 不是“兄弟”的一部分，而是形容词后缀（与 paternal、maternal 同构），所以三词能整排列：paternal／maternal／fraternal。",
+      "concepts": [
+        "c-inference",
+        "c-derivation",
+        "c-etymology"
+      ],
+      "hint": "先剥离 -al 这层形容词后缀，再看 fratr 提供哪个亲属义。"
+    },
+    {
+      "id": "w31d3-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“兄弟的；异卵的”的切分",
+      "parts": [
+        "frat",
+        "ern",
+        "al"
+      ],
+      "answer": "fraternal",
+      "explain": "frat（兄弟，fratr 的变体）+ -ern（形容词后缀）+ -al（形容词后缀）→ fraternal。两层后缀叠用不是冗余：-ern 先把它做成“属于兄弟一侧的”，-al 再让它能修饰名词。同样的双层结构出现在 paternal、maternal 上，三词整排。但 -ern 并不是随手能加的后缀，它只在这几个亲属词里成组出现——能产也有边界，这正是要按词族记而不是按规则硬套的原因。",
+      "concepts": [
+        "c-word-sum",
+        "c-suffix",
+        "c-etymology"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w31d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 paternalistic 的含义与态度",
+      "passage": "The review called the policy paternalistic: managers decided what staff needed and announced it, instead of letting them choose, much as a parent decides for a child.",
+      "word": "paternalistic",
+      "choices": [
+        "家长式的：以“为你好”为名替别人做主，带批评意味",
+        "慈父般的：充满关爱，带赞美意味",
+        "世袭的：按父系血统继承职位",
+        "守旧的：坚持上一代的做法"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：paternal（父亲的）+ -istic（有……作风的）→“父亲式作风的”；② 语境：decided ... instead of letting them choose、much as a parent decides for a child，明确点出“替人做主”；③ 态度：The review called it... 是评价句，且与 letting them choose 对立，所以是批评；④ 排除：世袭、守旧都不涉及“替别人决定”。",
+      "explain": "paternalistic 是“家长式的（贬）”。这道题的关键在第③步：同一词根可以造出褒贬相反的词——paternal 中性、fatherly 偏褒、paternalistic 偏贬。所以“看清态度”不能只靠词根，还要看句式（called it...）与对比结构（instead of）。外延给范围，内涵给立场，两者要分开读。",
+      "concepts": [
+        "c-inference",
+        "c-register",
+        "patr"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 1 章第 3 节：精确性与适应性；外延与内涵"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "词汇语义学：denotation 与 connotation"
+    }
+  ]
+}

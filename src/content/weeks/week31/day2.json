@@ -1,0 +1,281 @@
+{
+  "id": "w31d2",
+  "week": 31,
+  "day": 2,
+  "title": "富有的代价：词多既是资本也是负债",
+  "tagline": "同一个事实落在谁身上，决定它是资产还是负担",
+  "objectives": [
+    "能列出词汇量大的三项收益与三项代价，并各用真实词例说明",
+    "能用“透明度”判断一个词该拆解还是该整体记",
+    "能说明收益与代价随水平与场景变化，不存在“词多一定更好”这种结论"
+  ],
+  "prereqs": [
+    "w31d1",
+    "c-transparency"
+  ],
+  "concepts": [
+    "c-transparency",
+    "c-word-family",
+    "c-borrowing",
+    "c-frequency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s1-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "收益：一个成分，四十六个词",
+      "body": "昨天说 fer 撑起 46 个词条，今天先把它兑现成能力。你认识 fer 的“带”，transfer 是“带过去”，conference 是“带到一起”（开会），prefer 是“带到前面”（更中意），fertile 是“能带来出产的”。四个词、一个意象、零次死记。\n\n收益的第二项是**精确**：词多意味着近义词之间有分工，cheap 与 inexpensive、childish 与 childlike 的差别不是冗余，而是可选的立场（第 3 天专讲）。第三项是**可迁移**：见到没背过的 coniferous、auriferous，只要认出 coni、auri 与 -ferous，就能猜个八九不离十。\n\n一句话：词多给的是“用少量零件组装大量表达”的能力。这是资本。"
+    },
+    {
+      "kind": "text",
+      "title": "代价一：11.6% 的词没有内部结构",
+      "body": "1315 个词条里有 152 个是单成分词，占 11.6%：chief、chant、house、nice、doubt 都在其中。它们不是“还没拆开的词”，而是**已经拆不开的词**——现代英语里找不到两个各自带义的零件。chief 整条来自古法语，chant 整条来自拉丁 cantare，你能做的只有整体记。\n\n代价的第二项是**同形异源**：同一个拼写可能来自两条毫无关系的词根。词库里 cap 记“拿、抓”（capture 那一支），capit 记“头、首要”（capital 那一支），两条独立记录，不能因为都写 cap 就并成一条。第三项是**拼写不表音**：ch 在 chief 里读 [tʃ]，在 chemist 里读 [k]，在 chef 里读 [ʃ]。\n\n这三项都不是“英语不规律”，而是历史留下的分层。分层可以学，但不能靠猜。"
+    },
+    {
+      "kind": "table",
+      "title": "两面清单：同一件事的收益与代价",
+      "body": "读这张表时请注意第三列：代价几乎都出现在“初学者 + 无语境”的条件下，收益则出现在“有一定基础 + 有语境”的条件下。同一个人在不同阶段，这笔账会翻面。所以正确的说法不是“词汇丰富好”或“不好”，而是“在什么阶段、为什么目的、值不值”。",
+      "head": [
+        "维度",
+        "收益",
+        "代价",
+        "证据"
+      ],
+      "rows": [
+        [
+          "构造",
+          "一个词根复用几十次",
+          "152 个词条整体借入，拆不开",
+          "fer 46 条；单成分词占 11.6%"
+        ],
+        [
+          "表达",
+          "近义词分工，能选立场与语域",
+          "选错词就露馅（cheap 当 inexpensive 用）",
+          "第 3 天的四对词"
+        ],
+        [
+          "迁移",
+          "见生词可拆可猜",
+          "猜错时错得很自信（同形异源）",
+          "cap（抓）／capit（头）"
+        ],
+        [
+          "拼写",
+          "词素能当拼写线索",
+          "拼写与读音脱钩，听写靠猜",
+          "ch 的三种读法 [tʃ]/[k]/[ʃ]"
+        ],
+        [
+          "词典",
+          "收词多，查得到冷僻义",
+          "永远滞后于实际用法",
+          "能产成分可以随时造新词"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "透明词与不透明词：一条判断流程",
+      "body": "透明度不是一个“是／否”，而是从“一眼看穿”到“完全看不出”的一段连续。判断流程只有两步，但第二步最容易漏：切出来的每一段，**必须在别的词里也带同样的义**。只满足第一步的叫“假切分”，它比不切更危险。",
+      "a": "透明：可以拆",
+      "b": "不透明：整体记",
+      "rows": [
+        [
+          "判据一",
+          "能切出两个以上成分，各自有义",
+          "切出来的段在现代英语里不再带义"
+        ],
+        [
+          "判据二",
+          "这些成分在别的词里重复出现，义相同",
+          "同族词里也找不到对应义（或根本没有同族词）"
+        ],
+        [
+          "例",
+          "transfer = trans + fer；coniferous = coni + fer + ous",
+          "chief、chant、house、nice"
+        ],
+        [
+          "学习动作",
+          "记住成分，遇新词就复用",
+          "建立整体记忆钩子（语境、搭配、发音）"
+        ],
+        [
+          "典型错误",
+          "把 understand 切成 under + stand 并直译",
+          "把可拆词也当整体背，浪费复用机会"
+        ]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四张账单：代价具体花在哪里",
+      "body": "把代价写成账单，是为了让它可管理。前三张账单都能用构词法打折：记住成分、标注来源、用词素定拼写。第四张账单打不了折——词典永远追不上用法，这一点第 2 周已经讲过，这里只需要承认它是“丰富”的必然附产品。",
+      "head": [
+        "账单",
+        "具体表现",
+        "能否用构词法减轻",
+        "对策"
+      ],
+      "rows": [
+        [
+          "记忆负担",
+          "152 个单成分词只能整体记",
+          "不能，但可以先学高频的",
+          "按词族与频率排优先级"
+        ],
+        [
+          "同形异源",
+          "cap 与 capit 同形不同源",
+          "能，靠标注来源",
+          "给每个成分记“来源 + 义”两栏"
+        ],
+        [
+          "拼写脱钩",
+          "ch 有三种读法；弱读音节听不出字母",
+          "能，靠词素与同族词",
+          "写前先做结构检查"
+        ],
+        [
+          "词典滞后",
+          "新组合天天出现，词典只收稳定的",
+          "不能，也不需要",
+          "承认边界，靠语境判断可接受度"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w31d2-p1",
+      "kind": "mcq",
+      "prompt": "“词汇量大让表达更精确”，这里的“精确”最准确指的是：",
+      "choices": [
+        "近义词之间有分工，可以按语域与态度选词",
+        "每个词只有一个固定意思，不会歧义",
+        "长词比短词表达得更准确",
+        "词汇量越大，语法错误越少"
+      ],
+      "answer": 0,
+      "explain": "精确来自分工，不来自数量本身。cheap 与 inexpensive 外延相同，但一个带“劣质”的暗示，一个中性；选哪个取决于你要站在什么位置。所以“精确”是可选性，而不是“词更长更准”——长词反而常常更含糊（第 2 周讲过 -ous 只标词性）。",
+      "concepts": [
+        "c-register",
+        "c-transparency"
+      ]
+    },
+    {
+      "id": "w31d2-p2",
+      "kind": "mcq",
+      "prompt": "词库里 152 个单成分词（占 11.6%）说明：",
+      "choices": [
+        "这些词都是英语本土词",
+        "约一成的词没有可拆的内部结构，只能整体记",
+        "剩下的 88.4% 都可以准确直译",
+        "单成分词比多成分词更常用"
+      ],
+      "answer": 1,
+      "explain": "单成分词是“拆不开”，不是“简单”。chief、chant、house 都是高频词，但内部没有两个带义的零件。反过来说，多成分也不等于可直译（understand 就是反例）。这条数据的作用是给期望值：构词法能覆盖大头，但不是全部。",
+      "concepts": [
+        "c-transparency",
+        "c-borrowing",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w31d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个形容词（英语）",
+      "sentence": "A word whose parts still carry recognizable meanings — like transfer or coniferous — is said to be ___.",
+      "answer": "transparent",
+      "accept": [
+        "transparent",
+        "透明的"
+      ],
+      "explain": "transparent 在这里指“结构透明”：各段仍带义，且能在别的词里重复。判断透明度的关键是第二条判据——成分必须在别处也带同样的义。chief 之所以不透明，不是因为它短，而是因为找不到两个各自带义的段。",
+      "concepts": [
+        "c-transparency",
+        "c-morpheme"
+      ]
+    },
+    {
+      "id": "w31d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 -ferous 意为“带有……的”，auri 与 aurum（金）有关，auriferous 最可能是：",
+      "choices": [
+        "含金的、产金的",
+        "会发光的",
+        "听不见的",
+        "含氧的"
+      ],
+      "answer": 0,
+      "explain": "auri（金）+ fer（携带）+ -ous →“带着金的”，即含金的（auriferous ore 含金矿石）。这道题检验的是收益那一面：-ferous 一旦认出来，就是一把万能钥匙，pestiferous（带疫的）、odoriferous（带气味的）同构。注意它和“发光”无关——那是同一词根 aurora（黎明）的联想陷阱。",
+      "concepts": [
+        "c-inference",
+        "fer",
+        "c-derivation"
+      ],
+      "hint": "-ferous 是“带着……的”，先定这一层，再看 auri 提供什么。"
+    },
+    {
+      "id": "w31d2-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“提到；参考”的切分",
+      "parts": [
+        "re",
+        "fer"
+      ],
+      "answer": "refer",
+      "explain": "re（向后）+ fer（带）→ refer“把话带回去”，即提到、指向、参考。这个词正好站在透明与不透明的中间：结构只有两段，切法毫无争议，但“带回”到“提到”的引申要靠语境补。所以构词给出方向，语境给出落点——两者缺一，猜词就会偏。",
+      "concepts": [
+        "c-word-sum",
+        "fer",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w31d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 aquifer 的含义",
+      "passage": "The village well does not reach a river. It taps an aquifer: a layer of porous rock that carries water underground and releases it slowly into the borehole.",
+      "word": "aquifer",
+      "choices": [
+        "含水层",
+        "引水渠",
+        "蓄水池",
+        "地下暗河"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：aqu（水）+ fer（携带）→“带水的（地层）”；② 语境：a layer of porous rock、carries water underground、releases it slowly 三处都在定义“岩层”；③ 排除：引水渠是人造的渠，蓄水池是容器，暗河是水流本身，都不是“layer of rock”；④ 校验：-fer 在 aquifer 里就是“携带”，与 coniferous、auriferous 同构。",
+      "explain": "aquifer 是“含水层”。aqu- 在 aquarium（水族箱）里已经出现过，fer 是本周的老朋友。这道题的重点不是记住 aquifer，而是认清“术语=成分+成分”的复利：你已有的两个零件，加上语境里的一句定义，就够读懂了。反过来说，如果语段没有给“layer of rock”这类定义，光靠 aqu + fer 只能猜到“与水有关、会带水”，猜不到“地层”。",
+      "concepts": [
+        "c-inference",
+        "fer",
+        "c-scientific"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 1 章第 1 节：词汇丰富的两面性"
+    },
+    {
+      "id": "S3",
+      "title": "Structured Word Inquiry 实践",
+      "detail": "透明度与假切分的判别"
+    }
+  ]
+}

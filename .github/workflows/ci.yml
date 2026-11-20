@@ -41,6 +41,12 @@ jobs:
         run: npm run validate:course-index
       - name: No placeholder pages
         run: npm run check:stubs
+      # The app imports one bundled lesson file (230+ sources). A stale bundle
+      # ships old lessons silently, so CI checks it before the build rewrites it.
+      - name: Lesson bundle is current
+        run: node scripts/bundle-lessons.mjs --check
+      - name: Lesson time audit
+        run: npm run audit:time
       # A single unbalanced here-string in package-portable.ps1 broke the 0.5.0
       # portable build without any readable error. Parsing costs a second.
       - name: Script syntax check

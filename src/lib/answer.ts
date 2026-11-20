@@ -6,9 +6,18 @@ import {
   samePartSet,
   type SpellingStep,
 } from './morph';
+import { boundaryCuts, cutDiff, drawCuts } from './boundary';
 import type { Exercise } from './types';
 
-export type Response = { kind: 'choice'; index: number } | { kind: 'text'; value: string };
+/**
+ * What the learner produced. `cuts` is the boundary exercise's answer: the
+ * letter-gap indices they tapped, in any order (gap `i` sits between letter `i`
+ * and letter `i + 1`, so a word of length `n` has `n - 1` gaps).
+ */
+export type Response =
+  | { kind: 'choice'; index: number }
+  | { kind: 'text'; value: string }
+  | { kind: 'cuts'; value: number[] };
 
 export function normalize(s: string): string {
   return s
@@ -29,7 +38,7 @@ export function normalizeWord(s: string): string {
  * purpose: picking the wrong morphemes, ordering the right morphemes wrongly,
  * and misspelling the assembled word need different remedial action.
  */
-export type MistakeKind = 'morpheme' | 'order' | 'spelling' | 'not-a-sum';
+export type MistakeKind = 'morpheme' | 'order' | 'spelling' | 'not-a-sum' | 'boundary';
 
 export interface CheckResult {
   correct: boolean;
@@ -44,12 +53,31 @@ export function expectedAnswer(ex: Exercise): string {
   switch (ex.kind) {
     case 'mcq':
     case 'infer':
+    case 'judge':
       return ex.choices[ex.answer] ?? '';
     case 'cloze':
     case 'wordSum':
     case 'matrix':
       return ex.answer;
+    case 'boundary':
+      return ex.segments.join(' + ');
   }
+}
+
+export { boundaryCuts, cutDiff, drawCuts } from './boundary';
+
+/** A short window around one cut, so long words stay readable in feedback. */
+function cutWindow(word: string, cut: number, pad = 3): string {
+  const start = Math.max(0, cut + 1 - pad);
+  const end = Math.min(word.length, cut + 1 + pad);
+  const left = word.slice(start, cut + 1);
+  const right = word.slice(cut + 1, end);
+  return `${start > 0 ? '…' : ''}${left}|${right}${end < word.length ? '…' : ''}`;
+}
+
+function quoteCuts(word: string, cuts: number[]): string {
+  const shown = cuts.slice(0, 2).map((cut) => `“${cutWindow(word, cut)}”`).join('、');
+  return cuts.length > 2 ? `${shown} 等 ${cuts.length} 处` : shown;
 }
 
 /**
@@ -59,6 +87,7 @@ export function expectedAnswer(ex: Exercise): string {
  */
 export function expectedParts(ex: Exercise): string[] {
   if (ex.kind === 'wordSum') return ex.parts;
+  if (ex.kind === 'boundary') return ex.segments;
   if (ex.kind === 'matrix') {
     return [ex.prefix, ex.base, ex.suffix].filter((part): part is string => Boolean(part));
   }
@@ -283,10 +312,80 @@ function checkWordBuilding(ex: Exercise, value: string): CheckResult {
   return { correct: true, expected: answer };
 }
 
+/**
+ * Judge a hand-drawn morpheme boundary.
+ *
+ * The comparison happens on letter positions, not on the author's `answer`
+ * indices: the learner taps gaps, so the only thing worth checking is where the
+ * cuts actually landed. That also keeps the exercise honest when a lesson omits
+ * `answer` — `segments` alone defines the truth.
+ */
+function checkBoundary(ex: Extract<Exercise, { kind: 'boundary' }>, cuts: number[]): CheckResult {
+  const word = ex.word.toLowerCase();
+  const expected = ex.segments.join(' + ');
+
+  // A stale split would make the exercise unanswerable, so say so plainly
+  // instead of blaming the learner.
+  if (ex.segments.join('').toLowerCase() !== word) {
+    return {
+      correct: false,
+      expected,
+      mistake: 'boundary',
+      feedback: `题目数据有误：segments 拼接得到 “${ex.segments.join('')}”，与 word “${ex.word}” 不一致。请把这条反馈给课程作者。`,
+    };
+  }
+
+  const expectedCuts = boundaryCuts(ex.segments);
+  const limit = word.length - 1;
+  const got = [...new Set(cuts.filter((cut) => Number.isInteger(cut) && cut >= 0 && cut < limit))].sort(
+    (a, b) => a - b,
+  );
+  const { missing, extra } = cutDiff(expectedCuts, got);
+  if (missing.length === 0 && extra.length === 0) return { correct: true, expected };
+
+  if (got.length === 0) {
+    return {
+      correct: false,
+      expected,
+      mistake: 'boundary',
+      feedback: `还没有切任何一刀。这个词要切成 ${ex.segments.length} 段，先在字母之间点出 ${expectedCuts.length} 个切分位置，再提交。`,
+    };
+  }
+
+  const diagnosis = [
+    extra.length > 0 ? `多切了 ${extra.length} 刀：${quoteCuts(word, extra)}` : '',
+    missing.length > 0 ? `少切了 ${missing.length} 刀：${quoteCuts(word, missing)}` : '',
+  ]
+    .filter(Boolean)
+    .join('；');
+
+  return {
+    correct: false,
+    expected,
+    mistake: 'boundary',
+    feedback: `${diagnosis}。你切的是 “${drawCuts(word, got)}”，标准切分是 “${drawCuts(
+      word,
+      expectedCuts,
+    )}”（${ex.segments.join(' | ')}）。`,
+  };
+}
+
 export function checkExercise(ex: Exercise, response: Response): CheckResult {
   const expected = expectedAnswer(ex);
 
-  if (ex.kind === 'mcq' || ex.kind === 'infer') {
+  if (ex.kind === 'boundary') {
+    if (response.kind !== 'cuts') {
+      return {
+        correct: false,
+        expected,
+        mistake: 'boundary',
+        feedback: '这道题要在字母之间点出切分位置再提交，不需要打字。',
+      };
+    }
+    return checkBoundary(ex, response.value);
+  }
+
+  if (ex.kind === 'mcq' || ex.kind === 'infer' || ex.kind === 'judge') {
     if (response.kind !== 'choice') return { correct: false, expected };
     return { correct: response.index === ex.answer, expected };
   }

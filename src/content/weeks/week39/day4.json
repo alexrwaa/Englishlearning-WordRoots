@@ -1,0 +1,300 @@
+{
+  "id": "w39d4",
+  "week": 39,
+  "day": 4,
+  "title": "字面义的第二组：四个拉丁借词的裸形式",
+  "tagline": "matrimony、testimony、datum、medieval——把词尾的拉丁语法剥掉，核心义就露出来了",
+  "objectives": [
+    "能拆解以 -mony、-t、-um 结尾的拉丁借词，并说明这些词尾各自标记什么",
+    "能区分 -mony（状态）与 -ment（结果）的功能差异",
+    "能用 sen / jun + 比较级后缀解释 senator、senior、junior 的分工"
+  ],
+  "prereqs": [
+    "w38d4",
+    "c-borrowing",
+    "c-inflection"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-inflection",
+    "c-semantic-shift",
+    "c-root"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 7,
+    "practice": 9,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "拉丁借词的三层外壳",
+      "body": "英语借入拉丁词时，往往把整块形式搬过来，包括那些在拉丁语里标语法、在英语里已经没有功能的词尾。常见三层：\n\n**-um / -a**：拉丁中性名词的单复数。datum / data、stratum / strata、curriculum / curricula。英语里 data 常作不可数，但学术写作仍要求 datum 指单个数据点。\n\n**-t-**：拉丁动词的过去分词标记。datum 的核心是 da（给）+ t（已给出的）→“被给出的东西”。同类的还有 fact（做过的）、script（写过的）。\n\n**-mony**：来自拉丁 -monium，表“状态、职务”。matrimony 是“母亲的状态”→ 婚姻；testimony 是“证人的状态/行为”→ 证词。这一层是名词化，不表动作结果。\n\n剥外壳的顺序要固定：先剥最外层（-um、-a），再看派生后缀（-mony、-ator），最后看词根与连接元音。",
+      "terms": [
+        {
+          "term": "bare form",
+          "zh": "裸形式",
+          "en": "bare form",
+          "note": "去掉英语已不再使用的屈折词尾后剩下的形式"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "六个词的拆解",
+      "body": "注意第三列：每个词尾都在拉丁语里承担过语法功能，在英语里只剩构词痕迹。知道它原来做什么，才不会把它误当英语后缀去造新词。",
+      "head": [
+        "词",
+        "切分",
+        "词尾的拉丁功能",
+        "核心义"
+      ],
+      "rows": [
+        [
+          "matrimony",
+          "matr + i + mony",
+          "-monium：状态、职务",
+          "成为母亲的状态 → 婚姻"
+        ],
+        [
+          "testimony",
+          "test + i + mony",
+          "-monium：状态、行为",
+          "作证人的行为 → 证词"
+        ],
+        [
+          "datum",
+          "da + t + um",
+          "-t- 过去分词 + -um 中性单数",
+          "被给出的东西 → 数据点"
+        ],
+        [
+          "medieval",
+          "medi + ev + al",
+          "-al 形容词",
+          "中间的时代 → 中世纪的"
+        ],
+        [
+          "senator",
+          "sen + ator",
+          "-ator 施动者",
+          "年长者（组成的议事者）→ 参议员"
+        ],
+        [
+          "senior",
+          "sen + ior",
+          "-ior 比较级",
+          "更年长的 → 资深的"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "sen 与 jun：一对反义词根",
+      "body": "两个词根都只表年龄，靠同一个比较级后缀 -ior 构成一对反义词。理解这一点，senator 的“元老”义也就不奇怪了：罗马的元老院本来就是长者的议事会。",
+      "a": "sen（老）",
+      "b": "jun（年轻）",
+      "rows": [
+        [
+          "比较级",
+          "senior 更年长的 → 资深的",
+          "junior 更年轻的 → 初级的"
+        ],
+        [
+          "施动者名词",
+          "senator 年长者 → 参议员",
+          "（英语无同构词，junior 直接作名词用）"
+        ],
+        [
+          "其他同族",
+          "senile、senate",
+          "juvenile、rejuvenate"
+        ],
+        [
+          "常见误读",
+          "把 senator 只当职位名，看不出“老”",
+          "把 junior 只当“三年级”，看不出比较级"
+        ]
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "三条算式，三种词尾",
+      "body": "写完对照：三条算式的词根都是实义成分，词尾都在标语法或状态。-i- 只出现在复合词里（matr + i + mony），-t- 是动词的过去分词标记（da + t + um），-mony 是名词化的状态后缀——三套机制各走各的路径，互不替代，也不能互换位置。",
+      "sums": [
+        {
+          "parts": [
+            "matr",
+            "i",
+            "mony"
+          ],
+          "result": "matrimony",
+          "glossZh": "婚姻",
+          "note": "matr 母 + 连接元音 + 状态后缀"
+        },
+        {
+          "parts": [
+            "test",
+            "i",
+            "mony"
+          ],
+          "result": "testimony",
+          "glossZh": "证词",
+          "note": "test 证人 + 同一状态后缀"
+        },
+        {
+          "parts": [
+            "da",
+            "t",
+            "um"
+          ],
+          "result": "datum",
+          "glossZh": "数据点",
+          "note": "da 给 + 过去分词 -t- + 中性单数 -um"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "medieval 的两个坑",
+      "body": "第一个坑是拼写：英式还有 mediaeval 这种写法，多一个 a，因为拉丁 aevum（时代）在借入时有两种转写。两种拼写都合法，但同一篇文章里要保持一致。\n\n第二个坑是切分：medieval 不是 medi + eval，而是 medi（中间）+ ev（时代）+ al（形容词）。把 ev 当成 eval（评估）会得出“中间评估”这种荒谬读法。判断依据是同族词：primeval（最初的）、coeval（同时代的）都用 ev 表“时代”。\n\n字面义“中间时代的”为什么专指欧洲 5–15 世纪？因为这个词是文艺复兴时期的人造出来的，他们把自己所处的时代视为“中间”——夹在古典与复兴之间。词义里带着造词者的立场，这一点靠切分推不出来，只能靠历史。",
+      "morphemes": [
+        "medi",
+        "ev"
+      ],
+      "morphemeIds": [
+        "rx-medi",
+        "cx-ev"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w39d4-p1",
+      "kind": "wordSum",
+      "prompt": "用 + 连接三段，写出“婚姻”这个词",
+      "parts": [
+        "matr",
+        "i",
+        "mony"
+      ],
+      "answer": "matrimony",
+      "explain": "matr（母）+ i（连接元音）+ -mony（状态）→ matrimony，字面义“成为母亲的状态”。古罗马的婚姻核心是合法生育，所以这个词落在了母亲一侧。同结构的 testimony 用 test（证人）替换词根，得到“证人的行为 → 证词”。-i- 必须单独切：它只是两个词根之间的接缝标记。",
+      "concepts": [
+        "matr",
+        "i",
+        "mony"
+      ]
+    },
+    {
+      "id": "w39d4-p2",
+      "kind": "wordSum",
+      "prompt": "用 + 连接三段，写出“证词”这个词",
+      "parts": [
+        "test",
+        "i",
+        "mony"
+      ],
+      "answer": "testimony",
+      "explain": "test（证人）+ i + -mony（状态、行为）→ testimony。同族的 testify 走动词路径（-ify 使成为 → 作证），testament 走“立约”路径。注意 -mony 与 -ment 的分工：-ment 多表动作的结果（government、document），-mony 多表状态或制度（matrimony、testimony、ceremony）。",
+      "concepts": [
+        "test",
+        "i",
+        "mony"
+      ]
+    },
+    {
+      "id": "w39d4-p3",
+      "kind": "boundary",
+      "prompt": "切开 datum：中间那一段是拉丁过去分词标记",
+      "word": "datum",
+      "segments": [
+        "da",
+        "t",
+        "um"
+      ],
+      "explain": "da + t + um。da 是“给”，-t- 是拉丁过去分词标记（“已被给的”），-um 是中性单数词尾。字面义“被给出的东西”→ 数据点。三个切分点都不在音节边界上：da|t 与 t|um 都不是换气处，但都能释义。这正是词素切分与音节切分的区别——只切一段（da|tum）就无法解释 data 的复数关系。",
+      "concepts": [
+        "da",
+        "t",
+        "ium"
+      ]
+    },
+    {
+      "id": "w39d4-p4",
+      "kind": "mcq",
+      "prompt": "medieval 的正确切分与字面义是：",
+      "choices": [
+        "medi（中间）+ ev（时代）+ al → 中间时代的",
+        "medi（医疗）+ eval（评估）→ 医疗评估的",
+        "med（思考）+ ieval（邪恶）→ 深思邪恶的",
+        "medieval 不可切分，是整体借词"
+      ],
+      "answer": 0,
+      "explain": "medi 是“中间”（medius），ev 是“时代”（aevum），-al 是形容词后缀，字面义“中间时代的”。同族词能验证：primeval（最初的）、coeval（同时代的）都用 ev 表时代。选项 B 是把 eval 当成独立词，属于典型的“看见熟词就切”——判定时要用同族词反查，而不是凭眼熟。",
+      "concepts": [
+        "medi",
+        "ev",
+        "al"
+      ]
+    },
+    {
+      "id": "w39d4-p5",
+      "kind": "mcq",
+      "prompt": "senator、senior、junior 三词的构词关系是：",
+      "choices": [
+        "sen（老）与 jun（年轻）各接后缀：-ator 表人，-ior 表比较",
+        "三者同根，senator 是 senior 的职位形式",
+        "senator 来自 senate，与 sen 无关",
+        "junior 是 senior 的反义词，二者词根不同源"
+      ],
+      "answer": 0,
+      "explain": "senator = sen + -ator（年长者 → 元老 → 参议员）；senior = sen + -ior（更年长的）；junior = jun + -ior（更年轻的）。sen 与 jun 是一对反义词根，共用比较级后缀 -ior，所以 senior / junior 严格对称。选项 C 错在把派生方向弄反：senate 也是从 sen 来的，不是 senator 的来源。",
+      "concepts": [
+        "sen",
+        "jun"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w39d4-a1",
+      "kind": "infer",
+      "prompt": "（迁移）读句子，推测 junior 在学术语境中的含义",
+      "passage": "As a junior member of the lab, she was given the least risky project, but she was also the only one who noticed the calibration drift.",
+      "word": "junior",
+      "choices": [
+        "资历较浅的",
+        "年纪最小的",
+        "职位最高的",
+        "临时聘用的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：jun（年轻）+ -ior（比较级）→“更年轻的”；② 句法：As a junior member 是身份状语，后接 but 转折；③ 语境：分到风险最低的项目，说明资历浅；但她发现了漂移，形成对比；④ 校验：“年纪最小”无法由句内证据支持，且学术语境里 junior 主要指资历。",
+      "explain": "junior 在这里是“资历较浅的”。它的字面义是“更年轻的”（jun + 比较级 -ior），在学术与职场语境里转指“级别较低的”。这个引申很自然：年龄常被用作资历的代理指标。对比 senior：同一条路径，方向相反。注意 junior 没有“临时”的意思，那是 temporary。",
+      "concepts": [
+        "jun",
+        "ior"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 9 章：拉丁名词与形容词的借入形式"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "matr-、test-、sen- 的派生与词尾"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "medieval / mediaeval 的拼写变体"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "name": "wordroots",
   "private": true,
-  "version": "0.6.0",
+  "version": "0.7.0",
   "type": "module",
   "description": "WordRoots - interactive English morphology & etymology learning system",
   "license": "MIT",
@@ -23,7 +23,11 @@
     "lexicon:merge": "tsx scripts/lexicon-tool.ts merge",
     "textbook:build": "tsx scripts/build-elements.ts --morphemes && tsx scripts/build-textbook.ts",
     "validate:course-index": "node scripts/build-course-index.mjs --check",
-    "build:course-index": "node scripts/build-course-index.mjs"
+    "build:course-index": "node scripts/build-course-index.mjs",
+    "audit:time": "node scripts/check-lesson-time.mjs",
+    "prebuild": "node scripts/bundle-lessons.mjs",
+    "bundle:lessons": "node scripts/bundle-lessons.mjs",
+    "audit:coverage": "tsx scripts/coverage.ts"
   },
   "dependencies": {
     "@tauri-apps/api": "2.1.1",

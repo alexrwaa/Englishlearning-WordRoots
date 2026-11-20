@@ -261,7 +261,10 @@ function merge(dry: boolean) {
         (m.id ? byId.get(m.id) : undefined) ??
         byNaturalKey.get(naturalKey(m)) ??
         byNaturalKey.get(`${normalizeForm(m.form)}|${m.origin}|${normalizeForm(m.glossEn ?? '')}`) ??
-        uniqueByFormOrigin(m, morphemes);
+        // An explicit senseKey is a claim about *which* etymon this is. Falling
+        // back to "the only record with this form+origin" would merge terr(ere)
+        // "frighten" into terr(a) "earth" and silently lose a homograph.
+        ((m as { senseKey?: string }).senseKey ? undefined : uniqueByFormOrigin(m, morphemes));
       if (!existing) {
         const id = assignId(m, takenIds);
         const record = { ...m, id };

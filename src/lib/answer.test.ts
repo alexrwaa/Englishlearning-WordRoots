@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { checkExercise, expectedParts, normalizeWord } from './answer';
+import { boundaryCuts, checkExercise, drawCuts, expectedAnswer, expectedParts, normalizeWord } from './answer';
 import { lessons } from './content';
 import type { Exercise } from './types';
 
@@ -248,9 +248,121 @@ describe('matrix judging', () => {
 });
 
 /* ------------------------------------------------------------------ */
-/* Whole-curriculum invariants                                         */
+/* Boundary: the learner draws the cuts, so judging is positional      */
 /* ------------------------------------------------------------------ */
 
+const boundary: Exercise = {
+  id: 'b1',
+  kind: 'boundary',
+  prompt: '把 unhelpfulness 切成词素',
+  word: 'unhelpfulness',
+  segments: ['un', 'help', 'ful', 'ness'],
+  explain: 'un + help + ful + ness → unhelpfulness。',
+};
+
+const cutsOf = (value: number[]) => ({ kind: 'cuts' as const, value });
+
+describe('boundary judging', () => {
+  it('derives cut positions from the split itself', () => {
+    expect(boundaryCuts(['un', 'help', 'ful', 'ness'])).toEqual([1, 5, 8]);
+    expect(drawCuts('unhelpfulness', boundaryCuts(['un', 'help', 'ful', 'ness']))).toBe('un|help|ful|ness');
+    expect(expectedParts(boundary)).toEqual(['un', 'help', 'ful', 'ness']);
+  });
+
+  it('accepts the right cuts regardless of tap order or repetition', () => {
+    expect(checkExercise(boundary, cutsOf([1, 5, 8])).correct).toBe(true);
+    expect(checkExercise(boundary, cutsOf([8, 1, 5])).correct).toBe(true);
+    expect(checkExercise(boundary, cutsOf([1, 1, 5, 8])).correct).toBe(true);
+  });
+
+  it('judges on segments alone when the author omits answer', () => {
+    const { answer: _omitted, ...withoutAnswer } = boundary as Extract<Exercise, { kind: 'boundary' }>;
+    expect(_omitted).toBeUndefined();
+    expect(checkExercise(withoutAnswer as Exercise, cutsOf([1, 5, 8])).correct).toBe(true);
+    expect(checkExercise(withoutAnswer as Exercise, cutsOf([1, 5])).correct).toBe(false);
+  });
+
+  it('rejects an empty submission without blocking the flow', () => {
+    const r = checkExercise(boundary, cutsOf([]));
+    expect(r.correct).toBe(false);
+    expect(r.feedback).toContain('还没有切任何一刀');
+    expect(r.feedback).toContain('4 段');
+  });
+
+  it('names an extra cut and shows what the learner actually drew', () => {
+    const r = checkExercise(boundary, cutsOf([1, 3, 5, 8]));
+    expect(r.correct).toBe(false);
+    expect(r.mistake).toBe('boundary');
+    expect(r.feedback).toContain('多切了 1 刀');
+    // The learner's drawing and the standard one are both spelled out.
+    expect(r.feedback).toContain('un|he|lp|ful|ness');
+    expect(r.feedback).toContain('un|help|ful|ness');
+  });
+
+  it('names a missing cut', () => {
+    const r = checkExercise(boundary, cutsOf([1, 5]));
+    expect(r.correct).toBe(false);
+    expect(r.feedback).toContain('少切了 1 刀');
+    expect(r.feedback).toContain('un|help|fulness');
+  });
+
+  it('rejects a typed answer instead of silently failing', () => {
+    const r = checkExercise(boundary, text('un|help|ful|ness'));
+    expect(r.correct).toBe(false);
+    expect(r.feedback).toContain('点出切分位置');
+  });
+
+  it('refuses to mark a split whose segments do not build the word', () => {
+    const broken = {
+      ...(boundary as Extract<Exercise, { kind: 'boundary' }>),
+      segments: ['un', 'help', 'full', 'ness'],
+    };
+    const r = checkExercise(broken, cutsOf([1, 5, 9]));
+    expect(r.correct).toBe(false);
+    expect(r.feedback).toContain('题目数据有误');
+  });
+});
+
+/* ------------------------------------------------------------------ */
+/* Judge: single choice, but every distractor must be justified        */
+/* ------------------------------------------------------------------ */
+
+const judge: Exercise = {
+  id: 'j1',
+  kind: 'judge',
+  prompt: '下面哪个是真实英语词？',
+  choices: ['unhelpfulness', 'unhelpness', 'helpfulnessless'],
+  answer: 0,
+  whyNot: ['-ness 只能接在形容词后，unhelp 不是形容词。', 'helpfulness 不能再接 -less 构成新词。'],
+  explain: 'un + help + ful + ness 四层都能在词典里查到。',
+};
+
+describe('judge judging', () => {
+  it('uses the correct choice as the expected answer', () => {
+    expect(expectedAnswer(judge)).toBe('unhelpfulness');
+    expect(checkExercise(judge, { kind: 'choice', index: 0 }).correct).toBe(true);
+  });
+
+  it('rejects a distractor', () => {
+    const r = checkExercise(judge, { kind: 'choice', index: 1 });
+    expect(r.correct).toBe(false);
+    expect(r.expected).toBe('unhelpfulness');
+  });
+
+  it('does not throw on an out-of-range index', () => {
+    const r = checkExercise(judge, { kind: 'choice', index: 7 });
+    expect(r.correct).toBe(false);
+    expect(r.expected).toBe('unhelpfulness');
+  });
+
+  it('rejects a text response', () => {
+    expect(checkExercise(judge, text('unhelpfulness')).correct).toBe(false);
+  });
+});
+
+/* ------------------------------------------------------------------ */
+/* Whole-curriculum invariants                                         */
+/* ------------------------------------------------------------------ */
 describe('content invariants', () => {
   const allExercises = lessons.flatMap((lesson) => [...lesson.practice, ...lesson.apply]);
 
@@ -274,6 +386,33 @@ describe('content invariants', () => {
     for (const ex of allExercises.filter((e) => e.kind === 'matrix')) {
       const r = checkExercise(ex, text(String(ex.answer)));
       expect(r.correct, `${ex.id} rejected "${ex.answer}"`).toBe(true);
+    }
+  });
+
+  it('every boundary split rebuilds its word and accepts its own cuts', () => {
+    const boundaries = allExercises.filter(
+      (e): e is Extract<Exercise, { kind: 'boundary' }> => e.kind === 'boundary',
+    );
+    for (const ex of boundaries) {
+      expect(ex.segments.join(''), `${ex.id} segments`).toBe(ex.word.toLowerCase());
+      expect(ex.segments.length, `${ex.id} needs >= 2 segments`).toBeGreaterThanOrEqual(2);
+      const r = checkExercise(ex, cutsOf(boundaryCuts(ex.segments)));
+      expect(r.correct, `${ex.id} rejected its own split`).toBe(true);
+      if (ex.answer) {
+        const trailingNoOp = ex.segments.length - 1;
+        expect(ex.answer.filter((i) => i !== trailingNoOp), `${ex.id} answer`).toEqual(
+          boundaryCuts(ex.segments),
+        );
+      }
+    }
+  });
+
+  it('every judge justifies each of its distractors', () => {
+    const judges = allExercises.filter((e): e is Extract<Exercise, { kind: 'judge' }> => e.kind === 'judge');
+    for (const ex of judges) {
+      expect(ex.whyNot.length, `${ex.id} whyNot`).toBe(ex.choices.length - 1);
+      expect(ex.answer, `${ex.id} answer`).toBeGreaterThanOrEqual(0);
+      expect(ex.answer, `${ex.id} answer`).toBeLessThan(ex.choices.length);
     }
   });
 });

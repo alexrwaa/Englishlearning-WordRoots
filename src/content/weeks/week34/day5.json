@@ -1,0 +1,257 @@
+{
+  "id": "w34d5",
+  "week": 34,
+  "day": 5,
+  "title": "凯尔特语退到西部，地名留下来",
+  "tagline": "一种语言被取代，往往只在地名与河名里留下指纹——而人并没有消失",
+  "objectives": [
+    "能叙述五世纪后凯尔特语在英格兰被取代、在西部与北部存留的格局",
+    "能说明英语中凯尔特借词为何稀少，并给出确凿的地名例证",
+    "能区分“语言取代”与“人口替换”，说明前者不要求后者"
+  ],
+  "prereqs": [
+    "w34d4",
+    "c-borrowing"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-etymology",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s7-1"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "退到山与海的那一边",
+      "body": "五世纪起，日耳曼定居者占据不列颠东南部（今英格兰），凯尔特语在这一带被取代；西部与北部未被征服，凯尔特语存留至今：**威尔士语**（Wales）、**苏格兰盖尔语**、**爱尔兰语**、**康沃尔语**（近代一度消亡，后有复兴）、**布列塔尼语**（由渡海移民带到今法国西北）。\n\n所以“英语取代凯尔特语”只发生在英格兰，不是整个不列颠。今天英国仍有凯尔特语：威尔士语有数十万使用者，路牌、广播、学校都在用。这是欧洲少见的、仍在日常使用的凯尔特语。\n\n地理是第一条线索：**山与海保存语言，平原交出语言**。",
+      "terms": [
+        {
+          "term": "Celtic",
+          "zh": "凯尔特语族",
+          "en": "Celtic",
+          "note": "印欧语系一支，包括威尔士语、爱尔兰语、苏格兰盖尔语等"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "借词为什么这么少",
+      "body": "英语里的凯尔特借词少得反常。通常被征服者的语言会留下大量底层词（地名之外还有动植物的名字、地形词），英语却几乎没有。\n\n主流解释有三条，都还在讨论中：1) 定居者人数与社会优势明显，本地社群被边缘化；2) 语言转用经历数代双语，双语阶段的词汇不一定进入主导语言；3) 凯尔特社群的政治与文化中心被摧毁，语言失去了“值得学”的场景。\n\n真正留下来的，是**地名与水名**。这类词绑在土地上，换语言的人也会沿用——因为改名比换语言更麻烦。",
+      "terms": [
+        {
+          "term": "borrowing",
+          "zh": "借用",
+          "en": "borrowing",
+          "note": "一种语言从另一种语言吸收词或语素"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "凯尔特留下的地名",
+      "body": "这张表要读出两件事：第一，借词几乎只在地名层（土地不会搬走）；第二，Avon River 这类“重复命名”是语言替换的典型化石——新来的人不懂旧词的意思，又加了一个通名。",
+      "head": [
+        "英语地名",
+        "凯尔特来源",
+        "含义"
+      ],
+      "rows": [
+        [
+          "Thames",
+          "Tamesis",
+          "河名，含义有争议（“深色的水”是常见推测）"
+        ],
+        [
+          "Dover",
+          "*Dubras",
+          "“水、渡口”"
+        ],
+        [
+          "Avon",
+          "abonā",
+          "“河”，所以 Avon River 字面是“河河”"
+        ],
+        [
+          "Kent",
+          "*Cantos",
+          "“边缘、沿海地带”"
+        ],
+        [
+          "York",
+          "Eborācum（不列颠拉丁转写）",
+          "与“紫杉”有关（推测），经拉丁与古英语改写"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "取代不是灭绝",
+      "body": "“凯尔特语被取代”常被误读成“凯尔特人被消灭”。遗传学与考古都不支持大规模人口替换：本地人口的大量基因仍留在英格兰人身上。\n\n语言取代的常见路径是：**双语几代之后，儿童只学主导语言**。语言死了，人还在。这也是今天世界上多数语言消亡的方式——不是屠杀，而是代际传递中断：祖辈还会说，父母半会，孩子不会。\n\n分清这两件事，才能同时解释两个看似矛盾的事实：英语几乎没有凯尔特借词，而英格兰人仍有大量本地祖先。",
+      "terms": [
+        {
+          "term": "language death",
+          "zh": "语言消亡",
+          "en": "language death",
+          "note": "最后一个使用者去世、代际传递中断，语言不再被习得"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "语言取代 vs 人口替换",
+      "body": "把两者分开，是本课最重要的概念动作。混淆会直接导致错误的历史想象：以为语言换了，人就被换掉了。四行对照之后再看英格兰的证据，会发现两个事实可以同时成立：借词极少，人口未换。",
+      "a": "语言取代",
+      "b": "人口替换",
+      "rows": [
+        {
+          "label": "机制",
+          "a": "双语数代后，儿童转向主导语言",
+          "b": "原住民人口被外来人口取代"
+        },
+        {
+          "label": "需要的条件",
+          "a": "主导语言有社会价值（工作、教育、婚姻）",
+          "b": "大规模移民，或灾难性人口损失"
+        },
+        {
+          "label": "证据类型",
+          "a": "地名层、底层词、双语文献",
+          "b": "古 DNA、墓地、聚落断层"
+        },
+        {
+          "label": "英格兰的情形",
+          "a": "有：凯尔特地名层＋极少借词",
+          "b": "证据不足，学界普遍不采"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w34d5-p1",
+      "kind": "mcq",
+      "prompt": "凯尔特语在下列哪个地区存留至今、且仍有大量日常使用者？",
+      "choices": [
+        "威尔士",
+        "英格兰东南部",
+        "伦敦周边",
+        "东盎格利亚"
+      ],
+      "answer": 0,
+      "explain": "威尔士语在威尔士仍有数十万使用者，路牌与广播双语并用。英格兰东南部、伦敦、东盎格利亚正是日耳曼定居最早、凯尔特语被取代最彻底的地方。地理格局很清楚：西部与北部存留，东部与南部被取代。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w34d5-p2",
+      "kind": "mcq",
+      "prompt": "英语中凯尔特借词稀少，最合理的解释是：",
+      "choices": [
+        "语言转用经双语阶段完成，原住民语言社会地位低，词汇未大量进入主导语",
+        "凯尔特语没有词汇可以借",
+        "凯尔特人与日耳曼人从未接触",
+        "英语的语音系统无法容纳凯尔特词"
+      ],
+      "answer": 0,
+      "explain": "借词量取决于接触的深度与权力关系，而不是“有没有词可借”。凯尔特语词汇丰富（地名层就是证据），两族必然长期接触，语音也完全可以容纳。真正的原因是转用的方式：双语阶段为主导语让路，词没有跟过来。",
+      "concepts": [
+        "c-borrowing",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w34d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语河名",
+      "sentence": "Celtic survives in English mainly in place- and river-names such as the ___ , Dover and Avon.",
+      "answer": "Thames",
+      "accept": [
+        "Thames",
+        "thames"
+      ],
+      "explain": "填 Thames。这类词是“地名层”的核心证据：它们比英语本身更古老，来源是凯尔特语（Tamesis）。注意 Dover、Avon 也属同一层——都指地形与水，不是制度或器物。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w34d5-p4",
+      "kind": "mcq",
+      "prompt": "“Avon River”这种说法说明：",
+      "choices": [
+        "新来的使用者不懂旧词的含义，又加了一个通名，是语言替换的化石",
+        "凯尔特语里 river 就写作 avon",
+        "英语从拉丁语借入了 avon",
+        "这条河有两个源头"
+      ],
+      "answer": 0,
+      "explain": "Avon 本身在凯尔特语里就是“河”，后来的使用者不懂，又加上英语的 River，形成同义重复。同类还有 Sahara Desert、Lake Chad。这类“重复命名”是语言层叠的可靠证据：说明命名者换过，而地名留下了。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w34d5-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“The Brittonic speech of the lowlands did not die out in battle; it retreated, generation by generation, up the valleys and into the hills.” 句中 retreated 最可能指：",
+      "choices": [
+        "使用范围逐步缩小，退往边远地区",
+        "在一场战役中被消灭",
+        "被官方明令禁止",
+        "演变成了另一个语系"
+      ],
+      "answer": 0,
+      "explain": "not ... in battle 明确否定了“一战而亡”，generation by generation 与 up the valleys and into the hills 都指向渐进的地理收缩。retreat 的军事义（撤退）在这里被用作隐喻：语言的地盘一步步让出去。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ],
+      "hint": "看否定句 not ... in battle 与 gradual 的时间状语。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w34d5-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 transmission 在句中的含义",
+      "passage": "A language does not survive because it is official, or because it is written on stone. It survives through transmission: a generation of children who learn it at home. Where that chain breaks, the language can vanish within three generations, however many monuments it left behind.",
+      "word": "transmission",
+      "choices": [
+        "代际之间的传递（孩子在家学会这门语言）",
+        "一种交通运输方式",
+        "一份官方颁布的文件",
+        "一种文字翻译的方法"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后直接定义：a generation of children who learn it at home；② 对照：not because it is official, or written on stone——否定制度与石碑；③ 后果句：chain breaks → vanish within three generations，说明是链条式的传递；④ 排除交通、公文、翻译：都与“在家学会”无关。",
+      "explain": "transmission 的核心义是“传递”，在语言学里特指语言在代际之间的自然习得。它与“官方地位”“文字记录”构成对照：语言不是靠制度活着的，是靠家庭活着的。这个词与 transmit、mission 同根（mittere“送”）。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 7 节：凯尔特语的取代与威尔士语、苏格兰盖尔语的存留"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "Thames、Dover、Avon、Kent 的凯尔特语源"
+    }
+  ]
+}

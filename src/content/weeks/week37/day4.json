@@ -1,0 +1,275 @@
+{
+  "id": "w37d4",
+  "week": 37,
+  "day": 4,
+  "title": "形态与词源冲突时，以可概括的现代规则为准",
+  "tagline": "cockroach 来自西班牙语，可现代说话人确实把它切成 cock + roach",
+  "objectives": [
+    "能说明形态分析与词源追溯给出不同答案时，判据是可概括性与拼写预测力",
+    "能对 cockroach、scissors、decide、incisor 四个词给出可辩护的现代切分",
+    "能解释再分析如何造出新词素（roach、scissor）"
+  ],
+  "prereqs": [
+    "w01d6",
+    "w37d3",
+    "c-etymology",
+    "c-morpheme"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-morpheme",
+    "c-word-sum",
+    "c-borrowing",
+    "c-spelling-rule"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s21-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两套答案，一个判据",
+      "body": "同一个词，词源学和形态学会给出不同答案。**cockroach** 的词源是西班牙语 cucaracha，与 cock（公鸡）和 roach（一种鱼）毫无关系；可今天的英语说话人确实把它切成 cock + roach，拼写也按这两个词来记。\n\n教材给的判据很明确：**冲突时以可概括的现代规则为准**。什么叫可概括？就是这个切法能推广到一族词、能预测拼写与读音、能让学习者算出生词。做不到这三点，就只是历史趣闻。\n\n所以问题不是“哪个更真实”，而是“哪个更有用、更能推广”。词源回答“它从哪来”，形态回答“它现在怎么用”。两者都要，但不能互相冒充。",
+      "terms": [
+        {
+          "term": "reanalysis",
+          "zh": "再分析",
+          "en": "reanalysis",
+          "note": "说话人按现代形式重新切分一个词，切法与历史来源不同"
+        },
+        {
+          "term": "generality",
+          "zh": "可概括性",
+          "en": "generality",
+          "note": "一条分析能否推广到一族词并预测形式"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个词：词源说一套，形态说另一套",
+      "body": "第三列是现代教学采用的切分。注意 scissors 一行：词源上它是“切割工具”的复数，现代切分 sciss+or+s 仍能保住“切”这个核心义，所以两种说法不冲突，只是层次不同。真正的冲突在 cockroach：词源完全对不上，现代切分却稳定。",
+      "head": [
+        "词",
+        "词源事实",
+        "现代形态分析",
+        "为什么这样处理"
+      ],
+      "rows": [
+        [
+          "cockroach",
+          "西班牙语 cucaracha，与 cock、roach 无关",
+          "cock + roach",
+          "拼写与读音都按两个词处理，说话人普遍这样切；且 roach 已独立成词"
+        ],
+        [
+          "scissors",
+          "拉丁 cisoria“切割工具”，源自 caedere“切”",
+          "sciss + or + s",
+          "sciss 保存“切”义，同族有 scission、scissile，可概括"
+        ],
+        [
+          "decide",
+          "de + caedere“切掉”，原义“切断开、了结”",
+          "de + cid + e",
+          "cid“切”在同族（incisive、precise）中可复用，能预测拼写"
+        ],
+        [
+          "incisor",
+          "in + cis“切” + -or，义为“切进去的东西”",
+          "in + cis + or",
+          "cis 是 cid 的同源变体，同族一致，可直接推义"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "再分析会造出新词素",
+      "body": "再分析不是“分析错了”这么简单，它有真实的构词后果，甚至会造出新的词素。\n\n**roach**：说话人把 cockroach 切成 cock + roach 之后，roach 就被单独拿出来当作“蟑螂”的词，于是有了“a roach crawled across the floor”这样的说法。一个新词素就这样从误切中诞生了。\n\n**scissor**：scissors 本来是复数形式，说话人把它当成单数，逆构出动词 to scissor（用剪刀剪、交叉夹住），于是有了 scissor kick、scissoring。\n\n这两个例子说明：**共时的切分本身就在塑造语言**。所以形态分析不能只说“历史上不是这样”，还要看“现在的人是不是这样用”。后者才决定这个词接下来怎么变。",
+      "terms": [
+        {
+          "term": "back-formation",
+          "zh": "逆构",
+          "en": "back-formation",
+          "note": "把一个词去掉看似词缀的部分，造出更短的新词"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "什么时候用现代分析，什么时候只讲词源",
+      "body": "不是所有词都该硬套现代切分。左列的条件是“能推广”：切出来的成分在别的词里还表示同一个意思，你能用它预测拼写或读音。右列的共同点是“推广不出去”——你没法拿它去解释第二个词，硬拆只会增加记忆负担，还会把学习者引向错误的类推。",
+      "a": "用现代形态分析",
+      "b": "只记词源或整体记",
+      "rows": [
+        {
+          "label": "条件",
+          "a": "切分能推广到一族词，能预测拼写或读音",
+          "b": "切分只用在一个词上，推广不出去"
+        },
+        {
+          "label": "例词",
+          "a": "scissors（sciss 同族）、decide（cid 同族）、incisor（cis 同族）",
+          "b": "cockroach 的 cock 部分、nice、understand"
+        },
+        {
+          "label": "处理方式",
+          "a": "写进 word sum，作为构词规则教",
+          "b": "作为词源故事讲，不要求用来推生词"
+        },
+        {
+          "label": "风险",
+          "a": "过度推广会造出错词",
+          "b": "硬拆会把学习者引向错误类推"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "边界案例：同源不等于同一词素",
+      "body": "**captain、chief、chef** 都来自拉丁 **caput**（头），但分别经不同路线进入英语，形式差别很大。现代英语把它们当作三个独立的词，不合并成一个 cap- 词族；因为一旦合并，你无法预测任何一个的拼写或读音。\n\n这条边界很重要：**同源是历史关系，同一词素是共时关系。** 判断标准仍是可概括性——能不能用一条规则同时管住几个词的形式。管不住，就分开记。\n\n所以完整的立场是三句话：词源解释“为什么是这个形式”，形态解释“现在怎么切、怎么用”，两者冲突时以能推广的现代规则为准；但现代规则也不能反过来抹掉词源事实，它只是选择了更有用的那一层。",
+      "terms": [
+        {
+          "term": "cognate",
+          "zh": "同源词",
+          "en": "cognate",
+          "note": "有共同历史来源，但在现代语言中未必属于同一词素"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w37d4-p1",
+      "kind": "mcq",
+      "prompt": "按现代形态分析，cockroach 应切分为：",
+      "choices": [
+        "cock + roach",
+        "cucar + acha",
+        "cockro + ach",
+        "co + ckroach"
+      ],
+      "answer": 0,
+      "explain": "cockroach 的词源是西班牙语 cucaracha，与 cock、roach 无关；但现代说话人普遍按 cock + roach 切分，roach 也已独立成词。按“以可概括的现代规则为准”的原则，教学采用 cock + roach，同时注明词源事实。",
+      "concepts": [
+        "c-morpheme",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w37d4-p2",
+      "kind": "mcq",
+      "prompt": "scissors 中 sciss 的核心义是：",
+      "choices": [
+        "切",
+        "剪子的两片刃",
+        "锋利",
+        "夹住"
+      ],
+      "answer": 0,
+      "explain": "sciss 来自拉丁 caedere“切”，同族有 scission（切开）、scissile（可切开的）。整词是“切割工具”，现代切分 sciss + or + s 仍保住“切”这个核心义，所以这种分析与词源并不冲突，只是把词源义落实到了词素层。",
+      "concepts": [
+        "c-morpheme",
+        "c-word-sum"
+      ]
+    },
+    {
+      "id": "w37d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词（表示“切”）",
+      "sentence": "The Latin root ___ , meaning “to cut”, survives in scissors, scission and scissile.",
+      "answer": "sciss",
+      "accept": [
+        "sciss",
+        "cis",
+        "cid"
+      ],
+      "explain": "sciss 表示“切”，来自拉丁 caedere。它在 scissors、scission、scissile 里形式稳定；同源的 cis／cid 出现在 incisor、decide 里。掌握这个词根，就能把“剪刀”“切开”“切口”这些义串起来。",
+      "concepts": [
+        "c-morpheme",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w37d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）incisor 的合理切分与含义是：",
+      "choices": [
+        "in（进入）+ cis（切）+ or（施事）→ 切进去的牙，门齿",
+        "in（不）+ cis（切）+ or（人）→ 不切的人",
+        "incise（切）+ -or（比较级）→ 更锋利的",
+        "in（内）+ cisor（词根：牙齿）→ 内牙"
+      ],
+      "answer": 0,
+      "explain": "incisor = in + cis（切）+ or（施事），字面“切进去的东西”，指门齿。cis 是 cid（切）的同源变体，同族有 incise、incision。这条切分能推广到一族词，所以按现代规则采用；而“cisor 是牙齿词根”这种说法只用一个词，推广不出去，应排除。",
+      "concepts": [
+        "c-morpheme",
+        "c-inference"
+      ],
+      "hint": "先看 cis 在别的词里是否还表示“切”，再决定这个切分是否可概括。"
+    },
+    {
+      "id": "w37d4-p5",
+      "kind": "mcq",
+      "prompt": "当词源分析与现代形态分析冲突时，教材主张：",
+      "choices": [
+        "以可概括的现代规则为准，同时注明词源事实",
+        "一律以词源为准，因为词源更真实",
+        "一律以拼写为准，不考虑历史",
+        "两种说法都不可靠，应避免分析这类词"
+      ],
+      "answer": 0,
+      "explain": "教材的判据是可概括性：能推广到一族词、能预测拼写与读音的分析优先，同时把词源事实作为补充说明。cockroach 按 cock+roach 处理并注明来自 cucaracha，就是这种做法的典型。",
+      "concepts": [
+        "c-etymology",
+        "c-morpheme"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w37d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 incisors 在句中的所指",
+      "passage": "The skull was that of a young carnivore: the incisors at the front of the jaw were still unworn, while the canines behind them were long and slightly curved. Wear patterns suggested it had been eating soft tissue rather than bone.",
+      "word": "incisors",
+      "choices": [
+        "门齿，位于颌骨前部用于咬切的牙",
+        "犬齿，位于门齿后方用于撕裂的牙",
+        "臼齿，位于口腔后部用于研磨的牙",
+        "颌骨本身"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：in（进入）+ cis（切）+ or（施事）+ s（复数），义为“切进去的牙”；② 句法：the incisors at the front of the jaw 直接给出位置；③ 对比：while the canines behind them 说明 incisors 在 canines 之前；④ 排除：臼齿在更后方，颌骨不是牙。",
+      "explain": "incisors 是门齿，位于颌骨前部，用于咬切。这道题的词素线索（cis“切”）与句法线索（at the front of the jaw）完全一致：前者告诉你功能，后者告诉你位置。两者吻合时，判断就很稳；若只有词素线索，还应再看语境确认。",
+      "concepts": [
+        "c-morpheme",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 21 节：形态学与词源学的冲突；cockroach、scissors、decide、incisor"
+    },
+    {
+      "id": "S3",
+      "title": "WordWorks Structured Word Inquiry resources",
+      "detail": "词族证据与可概括性判据"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "cockroach、scissors、incisor 的语源与同族词核对"
+    }
+  ]
+}

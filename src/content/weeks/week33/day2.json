@@ -1,0 +1,257 @@
+{
+  "id": "w33d2",
+  "week": 33,
+  "day": 2,
+  "title": "五万年没有录音，只有比较",
+  "tagline": "语言的年龄比文字大十倍；起点看不到，但分化留下的对应可以被反推",
+  "objectives": [
+    "能说明语言的起源为什么无法直接考察：无文字即无痕迹，词汇又会被代际替换",
+    "能区分“有文献证实的形式”与“带星号的构拟形式”",
+    "能说明比较法能回答什么、不能回答什么"
+  ],
+  "prereqs": [
+    "w33d1",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-cognate",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s2-1"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "五万年与五千年",
+      "body": "主流估计语言至少有数万年历史（具体数字仍有讨论），而文字只有五千年上下，并且只在少数地区独立发明。没有文字就没有录音、没有词典、没有抄本：语言的早期阶段**没有直接证据**。\n\n更麻烦的是词汇本身也留不住。三代人换掉一批词是常态：俚语、禁忌语、行业词不断翻新，旧词悄悄退场。几千年下来，原始词表几乎不可能原样保存。\n\n所以“语言的起源”不是史料问题，而是方法问题：既然前面没有记录，就只能**从现存语言往回推**。这就是比较法存在的理由。",
+      "terms": [
+        {
+          "term": "attested",
+          "zh": "有文献证实的",
+          "en": "attested",
+          "note": "在实物或文献中确实出现过、可核对的形式"
+        },
+        {
+          "term": "proto-language",
+          "zh": "祖语",
+          "en": "proto-language",
+          "note": "由后代语言反推出来的上位语言，通常无文献"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "两种形式，两种身份",
+      "body": "同一列里，“有文献”与“构拟”混着出现，必须一眼分清。星号不是装饰，是**免责声明**：这个形式从来没人在纸上写过，它是为了解释后代对应而搭出来的中间站。",
+      "head": [
+        "形式",
+        "身份",
+        "标记方式",
+        "能否说“文献里出现过”"
+      ],
+      "rows": [
+        [
+          "拉丁 pater",
+          "有文献证实",
+          "直接写",
+          "能"
+        ],
+        [
+          "古英语 fæder",
+          "有文献证实",
+          "直接写",
+          "能"
+        ],
+        [
+          "原始印欧语 *pətēr",
+          "构拟",
+          "加星号",
+          "不能"
+        ],
+        [
+          "原始日耳曼语 *fadēr",
+          "构拟",
+          "加星号",
+          "不能"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "比较法做三件事，不做三件事",
+      "body": "它做的是：找出成批的音对应、据此重建祖语形式、按对应的数量与方向排出分支的先后。这三件事都能被检验，也能被别人用同样的材料复核。\n\n它不做的是：给出绝对年代（只能给相对先后）、复原词汇的全部（只能复原留下痕迹的那部分）、证明语言“起源于何时何地”。所以教材里凡是出现具体年份的，背后一定另有证据——文献、考古、外来词的记录——而不是比较法本身。\n\n记住这条边界，读语言史时才不会被“某年某语分化”这类说法唬住：那多半是别人的推论，而且常常带着“主流观点，仍有讨论”的标签。"
+    },
+    {
+      "kind": "text",
+      "title": "一个词的三代寿命",
+      "body": "为什么词汇留不住？因为词会换。今天的“很”在一代人里替换掉旧说法；网络词三年就过时；行业术语随技术换代。语言不是仓库，是不断被重新学会的东西。\n\n但换的速度不均匀。**核心词**（数词、代词、亲属称谓、身体部位）最稳，因为它们出现在每一种日常互动里，替换成本高；**文化词**（工具、制度、服饰）换得最快，因为指涉的物件本身在变。\n\n这条不均匀，正是比较法的抓手：它专挑核心词比对，避开文化词。所以同源判定总要回到“手、脚、二、三、我、你”这些词上——不是因为它们重要，而是因为它们**慢**。",
+      "terms": [
+        {
+          "term": "core vocabulary",
+          "zh": "核心词",
+          "en": "core vocabulary",
+          "note": "替换速度最慢的一批基本词，用于判定亲缘"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "起点不可考 vs 分化可比较",
+      "body": "把两件事分开，是本单元的方法前提。承认第一条，才不会把“印欧故乡在哪儿”“语言何时开始”这类争论当成已定论；抓住第二条，才有可操作、可复核的判据。下面四行说明两者的证据、问题与用处各自不同。",
+      "a": "语言的起源",
+      "b": "语言的分化",
+      "rows": [
+        {
+          "label": "证据",
+          "a": "无：文字之前的阶段没有任何直接记录",
+          "b": "有：现存语言之间成批的音对应"
+        },
+        {
+          "label": "能问的问题",
+          "a": "何时、何地、如何开始（多属推测）",
+          "b": "谁与谁更近、先后如何（可检验）"
+        },
+        {
+          "label": "结论强度",
+          "a": "假说，随新证据调整",
+          "b": "可重复的推论，别人用同样材料能复核"
+        },
+        {
+          "label": "对学词的用处",
+          "a": "几乎没有",
+          "b": "判断同源词、识别借词层、解释不规则形式"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w33d2-p1",
+      "kind": "mcq",
+      "prompt": "语言的起源无法直接考察，最根本的原因是：",
+      "choices": [
+        "语言远早于文字，早期阶段没有留下任何直接记录，而词汇本身又会被代际替换",
+        "古人没有语言能力，语言是近代才出现的",
+        "语言变化太快，一百年就完全变样",
+        "所有早期语言都被战争毁灭了"
+      ],
+      "answer": 0,
+      "explain": "两条原因叠加：时间上语言比文字早得多，媒介上语言没有留下实物。词汇还会被替换，所以连“从现代词反推原始词表”都只能做一部分。第二项与事实相反；第三项夸大——变化速度不足以让一百年就完全变样；第四项把方法问题误当成历史灾难。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w33d2-p2",
+      "kind": "mcq",
+      "prompt": "带星号的形式（如 *pətēr）表示：",
+      "choices": [
+        "构拟出来的形式，没有任何文献直接证实",
+        "该形式在古代文献中出现过，但拼写不确定",
+        "该形式是借词",
+        "该形式已经废弃不用"
+      ],
+      "answer": 0,
+      "explain": "星号是构拟标记：这个形式是为了解释后代之间的对应而重建出来的，从来没有人写下它。它与“文献中出现过但拼写存疑”完全不同——后者仍然是 attested。星号也不表示借词或废弃，它只说“这是推出来的”。",
+      "concepts": [
+        "c-etymology",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w33d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文词（过去分词形式）",
+      "sentence": "Forms marked with an asterisk are ___: no one ever wrote them down, and they are inferred from systematic correspondences among the daughter languages.",
+      "answer": "reconstructed",
+      "accept": [
+        "reconstructed",
+        "reconstruction",
+        "reconstructions"
+      ],
+      "explain": "填 reconstructed（构拟的）。与 attested（有文献证实的）相对。这对术语在语言史里天天出现，混用会导致严重误读：把构拟形式当成史料引用，是初学者最常犯的错。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w33d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“Old English is well attested from about the eighth century, but the speech of the invaders four centuries earlier is attested only in a handful of runic inscriptions.” 句中 attested 最可能指：",
+      "choices": [
+        "有文献或实物证据留存下来，可供核对",
+        "被学者普遍认可为正确",
+        "已经被完整地重构出来",
+        "已经不再被人使用"
+      ],
+      "answer": 0,
+      "explain": "attested 说的是“有证据留存”，与“被认可”“被重构”“已废弃”都不是一回事。句子里“well attested from about the eighth century”对“only in a handful of runic inscriptions”，正是证据多寡的对比。注意：attested 与 reconstructed 是一对反义术语。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ],
+      "hint": "看对比：well attested 对 only a handful of inscriptions。"
+    },
+    {
+      "id": "w33d2-p5",
+      "kind": "mcq",
+      "prompt": "下列哪一项是比较法做不到的？",
+      "choices": [
+        "给出语言起源的绝对年代",
+        "找出两套语言之间成批的音对应",
+        "重建一个没有文献的祖语形式",
+        "排出若干分支分化的相对先后"
+      ],
+      "answer": 0,
+      "explain": "比较法只能给相对先后，绝对年代要靠文献、考古或外来词记录这些外部证据。其余三项都是它的常规产出：成批对应是它的输入，重构形式与相对次序是它的输出。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w33d2-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 trace 在句中的含义",
+      "passage": "We cannot hear the language of fifty thousand years ago, and no dictionary of it survives. What we can do is trace: when dozens of languages show the same set of correspondences, the only economical explanation is a shared earlier stage, and that stage can be rebuilt in outline even though no one ever wrote it down.",
+      "word": "trace",
+      "choices": [
+        "顺着成批的对应关系，一步步往回推",
+        "把古代文字一笔一画描下来",
+        "给每个词标注国际音标",
+        "把古代文献翻译成现代语言"
+      ],
+      "answer": 0,
+      "strategy": "① 句法：What we can do is trace，冒号后立刻给出解释——依据是“几十种语言呈现同一套对应”；② 逻辑：由现存对应推出“更早的共同阶段”，这是反推，不是描摹；③ 限定语 even though no one ever wrote it down 排除了“抄写文献”“翻译文献”；④ 音标标注与对应无关。",
+      "explain": "trace 在这里是“追溯”，靠的是对应关系而不是实物。这个词的日常义（追踪、描摹）与学术义共享同一个核心：沿着痕迹往回走。读语言学文本时，见到 trace、track、reconstruct 这一族词，多半都在说“从结果推原因”。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 2 节：语言的起源、文献与比较法的作用范围"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "历史语言学：构拟形式与星号惯例、核心词与借用词的区分"
+    }
+  ]
+}

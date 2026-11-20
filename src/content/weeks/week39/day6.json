@@ -1,0 +1,315 @@
+{
+  "id": "w39d6",
+  "week": 39,
+  "day": 6,
+  "title": "矩阵 III：以 ag 为核心的三层派生",
+  "tagline": "同一个“做、驱动”的词根，为什么既能变成“机构”，又能变成“议程”和“煽动”",
+  "objectives": [
+    "能画出 ag 的词矩阵，并说明四个格子各自的词性与语义角色",
+    "能解释 -enda 这类拉丁动形词后缀为什么表“应当被……的”",
+    "能用矩阵排除不合法格子，并说明排除依据"
+  ],
+  "prereqs": [
+    "w38d6",
+    "c-word-matrix",
+    "c-base"
+  ],
+  "concepts": [
+    "c-word-matrix",
+    "c-base",
+    "c-derivation",
+    "c-suffix"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 7,
+    "practice": 9,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "matrix",
+      "title": "ag 的矩阵：四个真实格子",
+      "body": "ag 的核心义是“做、驱动”。四个后缀把它推向四个方向：-ency 给出“做事的能力/机构”，-enda 给出“应被做的事”，-ility 给出“做事的敏捷度”，-ate 给出“反复驱动的动作”。矩阵里每一格都必须有词典依据，空格不代表不可能，只代表尚未词汇化。",
+      "base": "ag",
+      "prefixes": [
+        {
+          "text": "—",
+          "glossZh": "该族以零前缀为主"
+        }
+      ],
+      "suffixes": [
+        {
+          "text": "-ency",
+          "glossZh": "名词：性质、机构"
+        },
+        {
+          "text": "-enda",
+          "glossZh": "名词：应被做的事（拉丁动形词）"
+        },
+        {
+          "text": "-ility",
+          "glossZh": "名词：能力、性质"
+        },
+        {
+          "text": "-ate",
+          "glossZh": "动词：使……、反复做"
+        }
+      ],
+      "words": [
+        {
+          "w": "agency",
+          "parts": [
+            "ag",
+            "ency"
+          ],
+          "glossZh": "机构；能动性"
+        },
+        {
+          "w": "agenda",
+          "parts": [
+            "ag",
+            "enda"
+          ],
+          "glossZh": "议程"
+        },
+        {
+          "w": "agility",
+          "parts": [
+            "ag",
+            "il",
+            "ity"
+          ],
+          "glossZh": "敏捷"
+        },
+        {
+          "w": "agitate",
+          "parts": [
+            "ag",
+            "it",
+            "ate"
+          ],
+          "glossZh": "搅动；煽动"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四格为什么分得开",
+      "body": "**agency** = ag + -ency：-ency 表性质或机构。同一个词因此在两个义项上并存：“能动性”（做事的能力）与“机构”（做事的组织）。抽象与具体共用一词，是 -ency 的常态。\n\n**agenda** = ag + -enda：-enda 是拉丁动形词（gerundive）的复数，字面“应被做的事”。原义是“待办事项”，现代政治语境里转指“议程”，并常带“隐藏意图”的意味（hidden agenda）。\n\n**agility** = ag + -il- + -ity：-il- 是形容词词干扩展，-ity 把它名词化，指“动作的轻快”。\n\n**agitate** = ag + -it- + -ate：-ate 使成动词，-it- 是反复态标记，字面“反复驱动”→ 搅动、煽动。\n\n四个词的共同点是词根义稳定（做、驱动），差别全在后缀给的语义角色。",
+      "terms": [
+        {
+          "term": "gerundive",
+          "zh": "动形词",
+          "en": "gerundive",
+          "note": "拉丁中表“应当被……”的形容词形式，如 agenda"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "ag 家族的用法对照",
+      "body": "最后一列是写作时真正要选的：说“能力”用 agency，说“待办清单”用 agenda，说“身手敏捷”用 agility，说“搅动/煽动”用 agitate。四者不能互换，因为词性不同。",
+      "head": [
+        "词",
+        "词性",
+        "核心义",
+        "典型搭配"
+      ],
+      "rows": [
+        [
+          "agency",
+          "名词",
+          "能动性；机构",
+          "human agency；a federal agency"
+        ],
+        [
+          "agenda",
+          "名词",
+          "议程；待办事项",
+          "set the agenda；a hidden agenda"
+        ],
+        [
+          "agility",
+          "名词",
+          "敏捷",
+          "mental agility；agility training"
+        ],
+        [
+          "agitate",
+          "动词",
+          "搅动；煽动",
+          "agitate the liquid；agitate for reform"
+        ]
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "三条算式延伸到别的词根",
+      "body": "同一套矩阵方法换词根照样用。注意第三条：appendix 的 ap- 是 ad- 在 p 前的同化形式，-ix 是名词后缀；切分时三段都要能释义，缺一段就说明切错了。",
+      "sums": [
+        {
+          "parts": [
+            "ad",
+            "vent",
+            "ure"
+          ],
+          "result": "adventure",
+          "glossZh": "冒险",
+          "note": "ad- 朝向 + vent 来 + -ure 名词：迎面而来的事"
+        },
+        {
+          "parts": [
+            "ad",
+            "pend",
+            "ix"
+          ],
+          "result": "appendix",
+          "glossZh": "附录；阑尾",
+          "note": "ad- + pend 悬挂 + -ix：挂上去的东西"
+        },
+        {
+          "parts": [
+            "mono",
+            "poly"
+          ],
+          "result": "monopoly",
+          "glossZh": "垄断",
+          "note": "mono 单一 + poly 多：一家卖、多方买"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "一个值得单独记住的后缀：-enda",
+      "body": "-enda 来自拉丁动形词的复数，意思是“应当被……的东西”。它不只出现在 agenda：legend 的 -end（应被读的东西 → 传说）、corrigenda（应被改正的错误）、addenda（应被补充的内容）都是同一家族。\n\n这类后缀的价值在于：它把“义务”写进了名词。agenda 不是“事情的清单”，而是“应当被处理的事情”；corrigenda 不是“错误”，而是“必须改正的错误”。读学术文本时看到 -enda，就该预期作者在谈“待办”或“待修订”，而不是单纯罗列。",
+      "morphemes": [
+        "ag",
+        "end"
+      ],
+      "morphemeIds": [
+        "cx-ag-ig",
+        "cx-and-end"
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w39d6-p1",
+      "kind": "matrix",
+      "prompt": "以 ven（来）为词根，加上名词后缀 -ure，构成“冒险”",
+      "base": "ven",
+      "suffix": "ure",
+      "answer": "adventure",
+      "explain": "ad（朝向）+ ven（来）+ -ure（名词）→ adventure，字面义“将要来到面前的事”。ven 家族的词都带“来”的方向：advent（到来）、intervene（来到中间 → 干预）、circumvent（绕到来处 → 规避）。矩阵题的关键是先定词根方向，再看后缀给什么词性。",
+      "concepts": [
+        "ven",
+        "ure"
+      ]
+    },
+    {
+      "id": "w39d6-p2",
+      "kind": "wordSum",
+      "prompt": "用 + 连接两段，写出“到来、出现”这个词",
+      "parts": [
+        "ad",
+        "vent"
+      ],
+      "answer": "advent",
+      "explain": "ad（朝向）+ vent（来）→ advent，字面义“来到”。这个词现在多用于“（重要事物的）到来”，如 the advent of the internet。注意 vent 是 ven 的分词词干形态，与 adventure 的 vent 同形；英语里 -vent 组合几乎都表“来”，可以当作一个稳定的信号。",
+      "concepts": [
+        "ad",
+        "ven"
+      ]
+    },
+    {
+      "id": "w39d6-p3",
+      "kind": "wordSum",
+      "prompt": "用 + 连接三段，写出“附录；阑尾”这个词",
+      "parts": [
+        "ad",
+        "pend",
+        "ix"
+      ],
+      "answer": "appendix",
+      "explain": "ad（朝向）+ pend（悬挂）+ -ix（名词后缀）→ appendix，字面义“挂上去的东西”。书的附录挂在正文之后，阑尾挂在盲肠末端——两条义项共享同一个空间意象。注意拼写：ad- 在 p 前同化为 ap-，所以写作 appendix 而不是 *adpendix。",
+      "concepts": [
+        "ad",
+        "pend",
+        "ix"
+      ]
+    },
+    {
+      "id": "w39d6-p4",
+      "kind": "wordSum",
+      "prompt": "用 + 连接两段，写出“垄断”这个词",
+      "parts": [
+        "mono",
+        "poly"
+      ],
+      "answer": "monopoly",
+      "explain": "mono（单一）+ poly（多）→ monopoly。字面结构是“一方卖、多方买”，poly 指买方众多，mono 指卖方唯一。这个词的构词逻辑正好与“垄断”的经济学定义对应：单一供给者面对众多需求者。poly 还出现在 polyglot（多语言）、polymer（多聚体）里。",
+      "concepts": [
+        "mono",
+        "poly"
+      ]
+    },
+    {
+      "id": "w39d6-p5",
+      "kind": "mcq",
+      "prompt": "fluid 的切分与字面义是：",
+      "choices": [
+        "flu（流）+ -id（形容词）→ 能流动的",
+        "flu（流感）+ -id → 得流感的",
+        "fl（折）+ -uid → 可折叠的",
+        "fluid 不可切分，是整体借词"
+      ],
+      "answer": 0,
+      "explain": "flu（流、河）+ -id（形容词后缀）→ fluid，字面义“能流动的”。同族的 flu 出现在 fluent（流利的）、influence（流入 → 影响）、flush（冲水）里。注意 flu 与 influenza（流感）是两回事：后者的 flu 是截短词，不是这个词根——同形不同源，别把“流动”套到“流感”上。",
+      "concepts": [
+        "flu",
+        "id"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w39d6-a1",
+      "kind": "infer",
+      "prompt": "（迁移）读句子，推测 agenda 在政策语境中的含义",
+      "passage": "The report is careful to separate the minister's public agenda from her private one: the stated goals are fiscal, while the proposed reforms quietly centralise control over the budget office.",
+      "word": "agenda",
+      "choices": [
+        "（公开的）议程与意图",
+        "会议的时间表",
+        "待办事项清单",
+        "法律草案的附件"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：ag（做、驱动）+ -enda（应被做的事）→“待办之事”；② 句法：public agenda 与 private one 形成对照；③ 语境：公开目标是财政，实际改革在集中预算权——这是“意图”而非“时间表”；④ 校验：句中没有会议时间信息，附件与私下一词不搭。",
+      "explain": "agenda 在这里是“议程／意图”。它的字面义是“应被处理的事情”（-enda 表义务），所以天然带有“计划要做什么”的意味；现代用法进一步引申为“（未必公开的）意图”，因此才有 hidden agenda、public agenda 这类搭配。从“待办”到“意图”，靠的正是 -enda 的义务含义。",
+      "concepts": [
+        "ag",
+        "end"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S3",
+      "title": "WordWorks SWI",
+      "detail": "词矩阵与拉丁动形词后缀"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 7 章：agere 的派生家族"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "agenda、corrigenda、addenda 的构词"
+    }
+  ]
+}

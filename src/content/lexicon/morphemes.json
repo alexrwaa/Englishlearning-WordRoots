@@ -4332,12 +4332,17 @@
     "glossZh": "关心",
     "glossEn": "care",
     "allomorphs": [],
-    "examples": [],
+    "examples": [
+      "occur",
+      "current",
+      "cursor",
+      "excursion"
+    ],
     "familyId": "fam-cur",
     "textbookRefs": [
       "S1 C6"
     ],
-    "note": "",
+    "note": "拉丁 currere「跑」；与 cura「关心」（cx-cur）同形异源。",
     "sources": [
       {
         "id": "S1",
@@ -4348,8 +4353,36 @@
     "needsChineseGloss": true,
     "formKey": "cur",
     "identityStatus": "provisional",
-    "homographs": [],
+    "homographs": [
+      "cx-cur-2"
+    ],
     "senseKey": "care"
+  },
+  {
+    "id": "cx-cur-2",
+    "form": "cur",
+    "type": "combining",
+    "origin": "Lat",
+    "glossZh": "跑",
+    "glossEn": "run",
+    "root": "currere",
+    "examples": [
+      "occur",
+      "current",
+      "cursor",
+      "excursion"
+    ],
+    "familyId": "fam-cur",
+    "note": "拉丁 currere「跑」；与 cura「关心」（cx-cur）同形异源。",
+    "sources": [
+      "S1"
+    ],
+    "senseKey": "currere",
+    "formKey": "cur",
+    "identityStatus": "verified",
+    "homographs": [
+      "cx-cur"
+    ]
   },
   {
     "id": "cx-curs-curr",
@@ -10562,12 +10595,16 @@
     "glossZh": "平衡、称",
     "glossEn": "balance, weigh",
     "allomorphs": [],
-    "examples": [],
+    "examples": [
+      "library",
+      "librarian",
+      "libretto"
+    ],
     "familyId": "fam-libr",
     "textbookRefs": [
       "S1 C2"
     ],
-    "note": "",
+    "note": "拉丁 liber/libri「书（的内皮）」；与 libra「天平」（cx-libr）同形异源。",
     "sources": [
       {
         "id": "S1",
@@ -10578,8 +10615,35 @@
     "needsChineseGloss": true,
     "formKey": "libr",
     "identityStatus": "provisional",
-    "homographs": [],
+    "homographs": [
+      "cx-libr-2"
+    ],
     "senseKey": "balance"
+  },
+  {
+    "id": "cx-libr-2",
+    "form": "libr",
+    "type": "combining",
+    "origin": "Lat",
+    "glossZh": "书",
+    "glossEn": "book",
+    "root": "liber, libri",
+    "examples": [
+      "library",
+      "librarian",
+      "libretto"
+    ],
+    "familyId": "fam-libr",
+    "note": "拉丁 liber/libri「书（的内皮）」；与 libra「天平」（cx-libr）同形异源。",
+    "sources": [
+      "S1"
+    ],
+    "senseKey": "liber",
+    "formKey": "libr",
+    "identityStatus": "verified",
+    "homographs": [
+      "cx-libr"
+    ]
   },
   {
     "id": "cx-lic",
@@ -11336,7 +11400,11 @@
     "examples": [
       "manual",
       "manufacture",
-      "manipulate"
+      "manipulate",
+      "permanent",
+      "remain",
+      "mansion",
+      "manor"
     ],
     "note": "拉丁 manus“手”。manufacture 字面是“用手做”。注意与 man“人”同形异源。",
     "sources": [
@@ -11348,8 +11416,37 @@
     ],
     "formKey": "man",
     "identityStatus": "verified",
-    "homographs": [],
-    "senseKey": "hand"
+    "homographs": [
+      "rx-man-2"
+    ],
+    "senseKey": "hand",
+    "familyId": "fam-man"
+  },
+  {
+    "id": "rx-man-2",
+    "form": "man",
+    "type": "root",
+    "origin": "Lat",
+    "glossZh": "停留",
+    "glossEn": "stay, remain",
+    "root": "manere",
+    "examples": [
+      "permanent",
+      "remain",
+      "mansion",
+      "manor"
+    ],
+    "familyId": "fam-man",
+    "note": "拉丁 manere「停留」；与 manus「手」（rx-man）同形异源。",
+    "sources": [
+      "S1"
+    ],
+    "senseKey": "manere",
+    "formKey": "man",
+    "identityStatus": "verified",
+    "homographs": [
+      "rx-man"
+    ]
   },
   {
     "id": "rx-manage",
@@ -14497,12 +14594,17 @@
     "glossZh": "生育",
     "glossEn": "give birth to",
     "allomorphs": [],
-    "examples": [],
+    "examples": [
+      "apparatus",
+      "prepare",
+      "repair",
+      "parade"
+    ],
     "familyId": "fam-par",
     "textbookRefs": [
       "S1 C2"
     ],
-    "note": "",
+    "note": "拉丁 parare「备好」；与 parere「生育」（cx-par）同形异源。",
     "sources": [
       {
         "id": "S1",
@@ -14513,8 +14615,36 @@
     "needsChineseGloss": true,
     "formKey": "par",
     "identityStatus": "provisional",
-    "homographs": [],
+    "homographs": [
+      "cx-par-2"
+    ],
     "senseKey": "give birth to"
+  },
+  {
+    "id": "cx-par-2",
+    "form": "par",
+    "type": "combining",
+    "origin": "Lat",
+    "glossZh": "准备",
+    "glossEn": "prepare, make ready",
+    "root": "parare",
+    "examples": [
+      "apparatus",
+      "prepare",
+      "repair",
+      "parade"
+    ],
+    "familyId": "fam-par",
+    "note": "拉丁 parare「备好」；与 parere「生育」（cx-par）同形异源。",
+    "sources": [
+      "S1"
+    ],
+    "senseKey": "parare",
+    "formKey": "par",
+    "identityStatus": "verified",
+    "homographs": [
+      "cx-par"
+    ]
   },
   {
     "id": "cx-para",
@@ -17390,6 +17520,32 @@
     "senseKey": "safe"
   },
   {
+    "id": "cx-sal-2",
+    "form": "sal",
+    "type": "combining",
+    "origin": "Lat",
+    "glossZh": "盐",
+    "glossEn": "salt",
+    "root": "sal",
+    "examples": [
+      "salary",
+      "saline",
+      "salad",
+      "salami"
+    ],
+    "familyId": "fam-sal",
+    "note": "拉丁 sal「盐」；salary 本为「发给士兵买盐的钱」。与 salire「跳」（cx-sal-sil）无关。",
+    "sources": [
+      "S1"
+    ],
+    "senseKey": "sal",
+    "formKey": "sal",
+    "identityStatus": "verified",
+    "homographs": [
+      "cx-sal-sil"
+    ]
+  },
+  {
     "id": "cx-sal-sil",
     "form": "sal",
     "type": "root",
@@ -17400,12 +17556,17 @@
       "sil",
       "sal"
     ],
-    "examples": [],
+    "examples": [
+      "salary",
+      "saline",
+      "salad",
+      "salami"
+    ],
     "familyId": "fam-sal",
     "textbookRefs": [
       "S1 C10"
     ],
-    "note": "",
+    "note": "拉丁 sal「盐」；salary 本为「发给士兵买盐的钱」。与 salire「跳」（cx-sal-sil）无关。",
     "sources": [
       {
         "id": "S1",
@@ -17416,7 +17577,9 @@
     "needsChineseGloss": true,
     "formKey": "sal",
     "identityStatus": "provisional",
-    "homographs": [],
+    "homographs": [
+      "cx-sal-2"
+    ],
     "senseKey": "jump",
     "legacyIds": [
       "cx-sil-sal"
@@ -18210,12 +18373,17 @@
     "glossZh": "六",
     "glossEn": "six",
     "allomorphs": [],
-    "examples": [],
+    "examples": [
+      "asexual",
+      "sexual",
+      "bisexual",
+      "sexism"
+    ],
     "familyId": "fam-sex",
     "textbookRefs": [
       "S1 C6"
     ],
-    "note": "",
+    "note": "拉丁 sexus「性别」；与 sex「六」（cx-sex）同形异源。",
     "sources": [
       {
         "id": "S1",
@@ -18226,8 +18394,36 @@
     "needsChineseGloss": true,
     "formKey": "sex",
     "identityStatus": "provisional",
-    "homographs": [],
+    "homographs": [
+      "cx-sex-2"
+    ],
     "senseKey": "six"
+  },
+  {
+    "id": "cx-sex-2",
+    "form": "sex",
+    "type": "combining",
+    "origin": "Lat",
+    "glossZh": "性/性别",
+    "glossEn": "sex, gender",
+    "root": "sexus",
+    "examples": [
+      "asexual",
+      "sexual",
+      "bisexual",
+      "sexism"
+    ],
+    "familyId": "fam-sex",
+    "note": "拉丁 sexus「性别」；与 sex「六」（cx-sex）同形异源。",
+    "sources": [
+      "S1"
+    ],
+    "senseKey": "sexus",
+    "formKey": "sex",
+    "identityStatus": "verified",
+    "homographs": [
+      "cx-sex"
+    ]
   },
   {
     "id": "cx-sext",
@@ -18504,7 +18700,37 @@
     "id": "rx-sol",
     "formKey": "sol",
     "identityStatus": "verified",
-    "homographs": []
+    "homographs": [
+      "rx-sol-lat"
+    ]
+  },
+  {
+    "form": "sol",
+    "type": "root",
+    "origin": "Lat",
+    "glossZh": "习惯；惯常",
+    "glossEn": "be accustomed",
+    "senseKey": "accustomed",
+    "examples": [
+      "obsolescent"
+    ],
+    "note": "拉丁 solere（习惯于）；obsolescent 的来源，与 sol（太阳）同形异源。",
+    "textbookRefs": [
+      "S1 C9"
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "title": "English Vocabulary Elements",
+        "detail": "C9 reference forms"
+      }
+    ],
+    "id": "rx-sol-lat",
+    "formKey": "sol",
+    "identityStatus": "verified",
+    "homographs": [
+      "rx-sol"
+    ]
   },
   {
     "form": "solut",
@@ -19800,12 +20026,17 @@
     "glossZh": "土地",
     "glossEn": "earth",
     "allomorphs": [],
-    "examples": [],
+    "examples": [
+      "terrible",
+      "terrify",
+      "terror",
+      "deter"
+    ],
     "familyId": "fam-terr",
     "textbookRefs": [
       "S1 C9"
     ],
-    "note": "",
+    "note": "拉丁 terrere「使害怕」的完成分词词干 territ-；与 terra「土地」（cx-terr）同形异源。",
     "sources": [
       {
         "id": "S1",
@@ -19816,8 +20047,36 @@
     "needsChineseGloss": true,
     "formKey": "terr",
     "identityStatus": "provisional",
-    "homographs": [],
+    "homographs": [
+      "cx-terr-2"
+    ],
     "senseKey": "earth"
+  },
+  {
+    "id": "cx-terr-2",
+    "form": "terr",
+    "type": "combining",
+    "origin": "Lat",
+    "glossZh": "恐吓",
+    "glossEn": "frighten",
+    "root": "terrere",
+    "examples": [
+      "terrible",
+      "terrify",
+      "terror",
+      "deter"
+    ],
+    "familyId": "fam-terr",
+    "note": "拉丁 terrere「使害怕」的完成分词词干 territ-；与 terra「土地」（cx-terr）同形异源。",
+    "sources": [
+      "S1"
+    ],
+    "senseKey": "terrere",
+    "formKey": "terr",
+    "identityStatus": "verified",
+    "homographs": [
+      "cx-terr"
+    ]
   },
   {
     "id": "cx-terti",
@@ -21180,13 +21439,17 @@
     "allomorphs": [
       "vent"
     ],
-    "examples": [],
+    "examples": [
+      "intravenous",
+      "vein",
+      "venesection"
+    ],
     "familyId": "fam-ven",
     "textbookRefs": [
       "S1 C2",
       "S1 C8"
     ],
-    "note": "",
+    "note": "拉丁 vena「血管」；与 venire「来」（cx-ven）同形异源。",
     "sources": [
       {
         "id": "S1",
@@ -21197,8 +21460,35 @@
     "needsChineseGloss": true,
     "formKey": "ven",
     "identityStatus": "provisional",
-    "homographs": [],
+    "homographs": [
+      "cx-ven-2"
+    ],
     "senseKey": "come"
+  },
+  {
+    "id": "cx-ven-2",
+    "form": "ven",
+    "type": "combining",
+    "origin": "Lat",
+    "glossZh": "静脉",
+    "glossEn": "vein",
+    "root": "vena",
+    "examples": [
+      "intravenous",
+      "vein",
+      "venesection"
+    ],
+    "familyId": "fam-ven",
+    "note": "拉丁 vena「血管」；与 venire「来」（cx-ven）同形异源。",
+    "sources": [
+      "S1"
+    ],
+    "senseKey": "vena",
+    "formKey": "ven",
+    "identityStatus": "verified",
+    "homographs": [
+      "cx-ven"
+    ]
   },
   {
     "id": "cx-ver",

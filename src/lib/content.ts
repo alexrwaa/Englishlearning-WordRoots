@@ -26,9 +26,26 @@ import type { Concept, Curriculum, Lesson, Morpheme, Week, WordEntry } from './t
 import { loadIdentity, type FormIndex, type IdentityIndex } from './identity';
 import { mark, measure } from './perf';
 
-const weekModules = import.meta.glob<{ default: unknown }>('../content/weeks/**/*.json', {
-  eager: true,
-});
+/** A loader count, so the perf regression test can prove the home path is free. */
+const loadStats = { lexiconLoads: 0, lessonLoads: 0 };
+
+/*
+ * Lessons are ~1.2 MB of JSON. They are loaded as their own chunk before the
+ * first route renders (`loadLessons`), not inlined into the entry bundle: the
+ * shell then parses in ~200 ms instead of ~400, and the JSON arrives as a
+ * separate cacheable file. Tests get the eager form so a unit test can read
+ * `lessons` without awaiting anything.
+ */
+/**
+ * One bundle, one chunk. A lazy glob over the 230 lesson files emitted 230
+ * chunks — a request each — which cost more than the bytes it saved.
+ * `scripts/bundle-lessons.mjs` writes the file and CI verifies it is current.
+ */
+type LessonBundle = {
+  contentHash: string;
+  weeks: { week: number; theme: string; intro: string; lessons: Lesson[] }[];
+};
+const lessonBundle = () => import('../content/lessons-bundle.json') as Promise<{ default: LessonBundle }>;
 
 /**
  * Lazy lexicon. `import.meta.glob` without `eager` emits one small chunk per
@@ -52,29 +69,39 @@ interface WeekMeta {
 const weekMetas = new Map<number, WeekMeta>();
 const weekLessons = new Map<number, Lesson[]>();
 
-for (const [path, mod] of Object.entries(weekModules)) {
-  const match = /weeks\/week(\d{2})\/(.+)\.json$/.exec(path);
-  if (!match) continue;
-  const weekNo = Number(match[1]);
-  const file = match[2];
-  if (file === 'meta') {
-    weekMetas.set(weekNo, mod.default as WeekMeta);
-  } else {
-    const lesson = mod.default as Lesson;
-    const list = weekLessons.get(weekNo) ?? [];
-    list.push(lesson);
-    weekLessons.set(weekNo, list);
+const weeks: Week[] = [];
+
+function rebuildWeeks(): void {
+  weeks.length = 0;
+  for (const [weekNo, meta] of [...weekMetas.entries()].sort((a, b) => a[0] - b[0])) {
+    weeks.push({
+      week: weekNo,
+      theme: meta.theme,
+      intro: meta.intro,
+      lessons: (weekLessons.get(weekNo) ?? []).sort((a, b) => a.day - b.day),
+    });
   }
+  lessons.length = 0;
+  lessons.push(...weeks.flatMap((w) => w.lessons).sort((a, b) => lessonIndex(a) - lessonIndex(b)));
 }
 
-const weeks: Week[] = [...weekMetas.entries()]
-  .sort((a, b) => a[0] - b[0])
-  .map(([weekNo, meta]) => ({
-    week: weekNo,
-    theme: meta.theme,
-    intro: meta.intro,
-    lessons: (weekLessons.get(weekNo) ?? []).sort((a, b) => a.day - b.day),
-  }));
+let lessonsLoaded = false;
+
+/**
+ * Load every lesson file. Called once during boot, before the first route
+ * renders, so `lessons` / `getLesson` stay synchronous for all consumers.
+ */
+export async function loadLessons(): Promise<void> {
+  if (lessonsLoaded) return;
+  const { default: bundle } = await lessonBundle();
+  for (const week of bundle.weeks) {
+    weekMetas.set(week.week, { week: week.week, theme: week.theme, intro: week.intro });
+    weekLessons.set(week.week, week.lessons);
+  }
+  rebuildWeeks();
+  lessonsLoaded = true;
+  loadStats.lessonLoads += 1;
+}
 
 /* ------------------------------ lexicon slots ----------------------------- *
  * These arrays are the public, synchronous view of the lexicon. They are
@@ -103,8 +130,7 @@ const externalLexicon = { morphemes: false, words: false, concepts: false };
 let lexiconLoaded = false;
 let lexiconPromise: Promise<void> | null = null;
 
-/** A loader count, so the perf regression test can prove the home path is free. */
-const loadStats = { lexiconLoads: 0, lessonLoads: 0 };
+
 
 /**
  * Test seam: lets a unit test install a tiny lexicon without touching the
@@ -196,7 +222,12 @@ export let identity: IdentityIndex = loadIdentity(morphemes, formIndex);
 
 export const curriculum: Curriculum = { version: '1.0.0', weeks };
 
-export const lessons: Lesson[] = weeks.flatMap((w) => w.lessons).sort((a, b) => lessonIndex(a) - lessonIndex(b));
+/**
+ * Flat lesson list, kept mutable on purpose: `loadLessons()` fills it in place
+ * so modules that captured the array at import time (plan.ts) still see the
+ * loaded lessons.
+ */
+export const lessons: Lesson[] = [];
 
 /* ------------------------------------------------------------------------- *
  * Lightweight lesson index

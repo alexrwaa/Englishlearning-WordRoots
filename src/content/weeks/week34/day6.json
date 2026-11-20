@@ -1,0 +1,250 @@
+{
+  "id": "w34d6",
+  "week": 34,
+  "day": 6,
+  "title": "拉丁语到过不列颠，但没留下来",
+  "tagline": "石碑证明有人在这里写拉丁语；它不证明有人在厨房里说拉丁语",
+  "objectives": [
+    "能列举罗马不列颠留下的拉丁痕迹（城镇名、铭文、-chester 地名）",
+    "能说明拉丁语未在低地不列颠扎根的三条原因",
+    "能指出“不列颠拉丁语是否影响早期英语”仍是讨论中的问题"
+  ],
+  "prereqs": [
+    "w34d5",
+    "w34d3"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-etymology",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s7-2"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "石头上的拉丁",
+      "body": "罗马在不列颠留下了看得见的东西：城镇（Londinium、Eboracum、Aquae Sulis）、道路、浴场、要塞、墓碑与祭坛上的铭文。语言上却留下得很少。\n\n原因不在“罗马人没来”，而在**谁在说、说给谁、有没有人接着学**。拉丁语主要属于驻军、行政与城镇上层，没有形成“在家里也说拉丁语”的广大本地社群。\n\n一句话概括本课：**语言的存续靠家庭传递，不靠石碑**。这条判断对今天同样有效：一门语言可以有很多字典与纪念碑，同时没有孩子在学习它。",
+      "terms": [
+        {
+          "term": "Roman Britain",
+          "zh": "罗马不列颠",
+          "en": "Roman Britain",
+          "note": "约公元一世纪至五世纪初受罗马统治的不列颠地区"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "拉丁在不列颠的三类痕迹",
+      "body": "第三行是关键：铭文是“写下来的拉丁语”，不等于“有人日常说的拉丁语”。一个行省可以有大量拉丁铭文，却没有拉丁语的代际传递——这正是判断“语言是否扎根”的分水岭。",
+      "head": [
+        "痕迹",
+        "例子",
+        "属于谁",
+        "是否进入英语"
+      ],
+      "rows": [
+        [
+          "城镇名",
+          "Londinium → London；Eboracum → York",
+          "罗马行政命名",
+          "部分保留，经日耳曼语音改写"
+        ],
+        [
+          "军营名",
+          "castra → -chester／-caster／-cester",
+          "拉丁借入不列颠的拉丁语或凯尔特语",
+          "是，但只在地名层"
+        ],
+        [
+          "铭文与器物",
+          "墓碑、祭坛、陶器戳记",
+          "驻军与城镇居民",
+          "基本没有"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三条原因",
+      "body": "1) **驻军为主**：不列颠的拉丁语使用者多是轮换的军人、官员与随军商人，服役结束就离开，不在这里建立家庭与母语社群。\n2) **城市化浅**：罗马式城镇数量少、规模小，乡村仍是凯尔特语的世界。语言的根在乡村，不在要塞。\n3) **撤离与社会崩解**：五世纪初罗马军政撤离后，城镇经济与税收体系瓦解，拉丁语失去了制度支撑，也没有本地精英接续。\n\n对照高卢：城镇密集、villa 经济发达、教会组织延续——拉丁语有地方可活、有人肯教。语言能不能留下来，取决于**社会结构是否把它交给下一代**。",
+      "terms": [
+        {
+          "term": "language maintenance",
+          "zh": "语言维持",
+          "en": "language maintenance",
+          "note": "一门语言在代际之间持续被习得与使用"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "一个仍在讨论的问题",
+      "body": "有学者提出，低地不列颠可能存在一种“不列颠拉丁语”，并在早期英语里留下了少量痕迹（某些地名、少数日常词、个别音变）。这一假说在证据上仍有争议：支持者看重地名与少数词形，怀疑者认为这些痕迹也能用“经凯尔特语中转”解释。\n\n教材把它标为**主流框架内的讨论**，不是定论。稳妥的表述是：罗马治英的拉丁语对英语词汇的直接影响很小；能否说“几乎没有”，取决于你如何评估这批零散证据。\n\n重要的是另一件事：无论结论如何，英语拉丁借词的**主体**来自欧陆接触与基督教化，不是罗马治英。这条不受争论影响。",
+      "terms": [
+        {
+          "term": "hypothesis",
+          "zh": "假说",
+          "en": "hypothesis",
+          "note": "尚待证据检验的解释，不等于已确立的结论"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "写下来的拉丁 vs 传下去的拉丁",
+      "body": "这是本课最该带走的一对区分。它不只适用于罗马不列颠，也适用于任何“有文献却断了传承”的情形——包括今天许多有字典、有广播、却没有孩子在学习它的语言。四行对照的是证据与结论之间的对应关系。",
+      "a": "写下来的拉丁（attested）",
+      "b": "传下去的拉丁（transmitted）",
+      "rows": [
+        {
+          "label": "证据",
+          "a": "铭文、钱币、官方文书",
+          "b": "家庭中的母语习得、地名接力"
+        },
+        {
+          "label": "能证明什么",
+          "a": "有人会用拉丁语书写",
+          "b": "有社群把它交给下一代"
+        },
+        {
+          "label": "在不列颠的情况",
+          "a": "大量存在",
+          "b": "证据薄弱"
+        },
+        {
+          "label": "对英语的影响",
+          "a": "几乎为零（除少量地名）",
+          "b": "几近中断，拉丁词靠后来的教会与欧陆接触补入"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w34d6-p1",
+      "kind": "mcq",
+      "prompt": "罗马不列颠在英语里留下的最清楚的拉丁痕迹是：",
+      "choices": [
+        "-chester／-caster 类地名",
+        "大量日常动词",
+        "整套宗教术语",
+        "语法中的格系统"
+      ],
+      "answer": 0,
+      "explain": "地名层是唯一成系统留下来的痕迹（来自 castra）。日常动词几乎全无；宗教术语是后来基督教化带来的（abbot、mass）；格系统是日耳曼语固有的，与拉丁语无关。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w34d6-p2",
+      "kind": "mcq",
+      "prompt": "拉丁语未在不列颠扎根，最关键的原因是：",
+      "choices": [
+        "使用者以轮换的驻军与官员为主，缺少家庭层面的代际传递",
+        "不列颠人拒绝学习任何外语",
+        "拉丁语的语法太难",
+        "罗马人禁止本地人使用拉丁语"
+      ],
+      "answer": 0,
+      "explain": "语言要靠家庭传递。驻军与官员轮换，不建立母语社群；城镇规模小，乡村仍是凯尔特语；撤离后制度断裂，没有本地精英接续。难度与禁令都不是原因——高卢的本地精英就学会了拉丁语。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w34d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个拉丁词",
+      "sentence": "Latin survives in British place-names rather than in the vocabulary: the element -chester goes back to Latin ___ , “camp”.",
+      "answer": "castra",
+      "accept": [
+        "castra",
+        "castrum"
+      ],
+      "explain": "填 castra。这个词的重现说明一件事：地名层的寿命比词汇层长得多。地名绑在土地上，换语言的人也会沿用；词汇绑在说话人的日常需要上，换语言就一起换了。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w34d6-p4",
+      "kind": "mcq",
+      "prompt": "“不列颠拉丁语影响早期英语”这一说法目前应如何看待？",
+      "choices": [
+        "属于主流框架内的讨论：有零星证据，但未定论",
+        "已经是公认结论",
+        "已被彻底否定",
+        "与语言接触研究无关"
+      ],
+      "answer": 0,
+      "explain": "这是活跃的争论：支持者看重地名与少数词形，怀疑者认为可用凯尔特语中转解释。稳妥的表述是“影响很小，是否为零仍有讨论”。把它说成定论（无论肯定还是否定）都超出了证据。这类地方正是本单元要求降级表述的典型。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w34d6-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“An inscription proves that Latin was written here; it does not prove that Latin was spoken in these kitchens.” 这句对比强调的是：",
+      "choices": [
+        "书面证据不等于日常口语的存续",
+        "铭文都是后人伪造的",
+        "拉丁语从不用于书写",
+        "厨房里不可能有文字"
+      ],
+      "answer": 0,
+      "explain": "前半句承认铭文有效（proves that Latin was written），后半句限定它的证明力（does not prove ... spoken in these kitchens）。这是“证据类型与结论范围要匹配”的典型示范：书面证据只能证明书写，不能证明代际传承。",
+      "concepts": [
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w34d6-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 durable 在句中的含义",
+      "passage": "Official languages come and go with empires. What proves durable is less impressive and more domestic: a mother tongue passed on at table, a name on a river that no one bothers to change. Empires leave inscriptions; families leave languages.",
+      "word": "durable",
+      "choices": [
+        "持久的、能延续下去的",
+        "昂贵而耐用的（指商品）",
+        "官方的、正式的",
+        "难以理解的"
+      ],
+      "answer": 0,
+      "strategy": "① 对照：Official languages come and go（官方语言随帝国来去）对 What proves durable；② 解释：a mother tongue passed on at table——家庭里的传递；③ 收束句：Empires leave inscriptions; families leave languages，把“持久”归给家庭；④ 排除“商品耐用”“官方”“难懂”：都与句中的时间维度无关。",
+      "explain": "durable 是“持久的、经得起时间的”，来自拉丁 dūrāre（持续）。日常最常修饰商品（durable goods），但在历史论述里常修饰制度、记忆、语言。判断词义时，看它跟什么名词搭配、与什么构成对照。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 7 节：不列颠未被拉丁化、罗马统治的语言后果"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "castra 与 -chester／-caster 地名；不列颠拉丁语假说的争论概况"
+    }
+  ]
+}

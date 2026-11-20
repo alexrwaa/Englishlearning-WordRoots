@@ -1,0 +1,252 @@
+{
+  "id": "w34d3",
+  "week": 34,
+  "day": 3,
+  "title": "罗马治英四百年，拉丁词却来自欧陆",
+  "tagline": "借词的时间层要按“接触的类型”判，不能按“地理的远近”判",
+  "objectives": [
+    "能说明英语祖先在罗马统治不列颠期间并不住在不列颠",
+    "能用 -chester 类地名说明罗马治英留下的痕迹为何如此之少",
+    "能按“接触类型＋语义场”给一批借词排出时间层"
+  ],
+  "prereqs": [
+    "w34d2",
+    "c-borrowing"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-etymology",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s4-4"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一个时间错位",
+      "body": "罗马在不列颠驻军约四百年：修路、建城、设省、征税。若“地理相邻就会借词”，英语应该留下大量罗马不列颠的拉丁词。事实相反：wine、street、mile、cheese 这批最早的拉丁借词，**在英语祖先进入不列颠之前就已经在用了**。\n\n原因很简单：那时英语的祖先（盎格鲁人、撒克逊人、朱特人）还住在莱茵河口与日德兰一带，与罗马帝国隔着边境接触。他们借的是边境市场上能换到的东西，而不是帝国的语言。\n\n这就是本课的核心：**借词的时间层由接触的类型决定，不由地理的远近决定**。同一片海的两岸，可以一边说拉丁语一边借拉丁词，彼此并不相干。",
+      "terms": [
+        {
+          "term": "chronology",
+          "zh": "年代顺序",
+          "en": "chronology",
+          "note": "借词层先后关系的判定，靠接触类型与音形证据"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三条路径，三种痕迹",
+      "body": "三条路径的时间、地点、参与者都不同，所以词的样子也不同。学历史词汇最实用的动作，就是**先给借词归路径，再看词形**：路径决定语义场，语义场反过来验证路径。",
+      "head": [
+        "路径",
+        "时间",
+        "谁与谁接触",
+        "留下的词"
+      ],
+      "rows": [
+        [
+          "欧陆边境",
+          "公元前后数百年",
+          "日耳曼人 ↔ 罗马商人、军营",
+          "wine、street、mile、cheese、kitchen、wall"
+        ],
+        [
+          "罗马不列颠",
+          "约四百年统治期",
+          "不列吞人 ↔ 罗马驻军与行政",
+          "威尔士语 ffenestr、eglwys；英语仅 -chester 类地名"
+        ],
+        [
+          "基督教化",
+          "约 600 年前后起",
+          "盎格鲁-撒克逊人 ↔ 教会",
+          "abbot、mass、pope、school、candle"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "-chester：唯一进英语的那一层",
+      "body": "罗马治英在英语里留下的最清楚的痕迹是地名：拉丁 **castra**（营地、要塞）在古英语里变成 -ceaster，今天写作 -chester、-caster、-cester：Chester、Winchester、Lancaster、Gloucester、Worcester。\n\n注意这些词的路径：它们多半先进入不列吞人的拉丁语或凯尔特语，再被后来的英语使用者接手——**是地名的接力，不是词汇的直传**。地名有个特点：绑在土地上，换语言的人也会沿用。所以地名层常常比词汇层更古老、来源更杂。\n\n这也解释了为什么英语里“罗马不列颠的拉丁词”如此稀少：除了地名，几乎什么都没留下。",
+      "terms": [
+        {
+          "term": "place-name stratum",
+          "zh": "地名层",
+          "en": "place-name stratum",
+          "note": "地名保留下来的更早语言成分，往往比词汇层古老"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "怎么给借词排队",
+      "body": "三个可操作的判据：\n\n1) **语义场**：物名与贸易词（wine、pound）→ 早期边境接触；教会词（abbot、mass）→ 基督教化；制度词（court、justice）→ 诺曼时期。\n2) **音形**：早期借词被日耳曼语音改造过（street 的 str-、wine 的 w-）；晚期书面借词保留拉丁/法语拼写（exterior、catastrophe）。\n3) **同源词的存在**：如果英语里已有一个本族同源词（foot 对 pedal），说明借词是后来补进来的，不是最早那层。\n\n三条一起用，比任何单条都可靠。它们也解释了为什么“罗马治英”这个显眼的事实，在词汇表上几乎没有对应物。",
+      "terms": [
+        {
+          "term": "loanword layer",
+          "zh": "借词层",
+          "en": "loanword layer",
+          "note": "按时间与来源分出的借词批次，各有自己的语义场与音形特征"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "接触类型 vs 地理距离",
+      "body": "两条直觉常互相冲突：一条说“离得近就会借”，一条说“有接触才会借”。词汇史站在后者这边。判断任何一批借词，先问接触是什么类型（市场、教堂、法庭），再问地理——顺序颠倒，结论就会错。下面四行把这个冲突摊开。",
+      "a": "按接触类型判",
+      "b": "按地理距离判",
+      "rows": [
+        {
+          "label": "预测",
+          "a": "市场带物名，教堂带教会词，法庭带制度词",
+          "b": "离得越近，借词越多"
+        },
+        {
+          "label": "对罗马治英的解释",
+          "a": "驻军与行政的拉丁语没有进入英语祖先的家庭",
+          "b": "应当有大量拉丁借词（与事实不符）"
+        },
+        {
+          "label": "反例",
+          "a": "无：语义场与接触类型高度吻合",
+          "b": "英语与荷兰语地理接近，借词却不多；英语与法语隔海，借词极多"
+        },
+        {
+          "label": "可检验性",
+          "a": "可用语义场、音形、文献三重验证",
+          "b": "只能给出粗略相关"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w34d3-p1",
+      "kind": "mcq",
+      "prompt": "英语最早的拉丁借词（wine、street、mile）为什么不是罗马治英的产物？",
+      "choices": [
+        "英语祖先当时住在欧陆，与罗马帝国隔着边境接触，尚未进入不列颠",
+        "罗马人禁止不列颠人借词",
+        "这些词其实来自希腊语",
+        "罗马治英期间没有拉丁语使用者"
+      ],
+      "answer": 0,
+      "explain": "时间错位：借词发生在英语祖先渡海之前。罗马在不列颠确实有大量拉丁语使用者（驻军、官员、城镇），但他们说的拉丁语没有传给英语祖先。第二、四项与事实不符；第三项混淆了来源链（部分教会词经希腊语，但这批物名是拉丁语）。",
+      "concepts": [
+        "c-borrowing",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w34d3-p2",
+      "kind": "mcq",
+      "prompt": "Chester、Winchester、Lancaster 中的 -chester／-caster 来自：",
+      "choices": [
+        "拉丁 castra“营地、要塞”，经不列颠的拉丁语或凯尔特语进入地名",
+        "古英语的“教堂”一词",
+        "诺曼法语的“城堡”一词",
+        "古诺斯语的“渡口”一词"
+      ],
+      "answer": 0,
+      "explain": "castra 是罗马军营的标准说法，复数 castra 常指一个要塞。它先进入不列颠的拉丁语/凯尔特语，再被英语使用者接手续用，所以是“地名接力”。注意它不是诺曼法语（castle 才是），也不是“教堂”（church）。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w34d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个拉丁词",
+      "sentence": "The element -chester in English place-names goes back to Latin ___ , meaning “camp” or “fort”. ",
+      "answer": "castra",
+      "accept": [
+        "castra",
+        "castrum"
+      ],
+      "explain": "填 castra。这条地名线索很有价值：它证明罗马的军事存在留下了地理名称，却几乎没有留下普通词汇。地名与词汇的分工，正是“语言替换”与“词汇借用”两种不同过程的结果。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w34d3-p4",
+      "kind": "mcq",
+      "prompt": "给一批借词排时间层，最不可靠的单条判据是：",
+      "choices": [
+        "两种语言的地理距离",
+        "借词的语义场（物名／教会词／制度词）",
+        "词形是否被本族语音改造过",
+        "英语里是否已存在本族同源词"
+      ],
+      "answer": 0,
+      "explain": "地理距离只能给出粗略相关，反例很多：英法隔海而借词极多，英荷相邻而借词有限。其余三条都能提供可核对的证据：语义场指向接触场合，音形指向借入的时代层次，同源词的有无指向“补借”还是“首借”。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w34d3-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“The Latin of Roman Britain left almost no lexical trace in English: what survives is onomastic, not lexical.” 句中 onomastic 最可能指：",
+      "choices": [
+        "与地名、人名等专名有关的",
+        "与语音系统有关的",
+        "与语法结构有关的",
+        "与书写字体有关的"
+      ],
+      "answer": 0,
+      "explain": "句子用 not lexical（不是普通词汇）来对照，前面又提到 left almost no lexical trace，说明剩下的是“专名”一类——地名、人名。onomastic 来自希腊 onoma“名字”，与 anonymous（无名）、synonym（同义词）同根。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ],
+      "hint": "对照 not lexical，再看 onoma 是“名字”。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w34d3-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 substrate 在句中的含义",
+      "passage": "Conquest does not always leave words behind. Where the conquered keep their land but lose their language, the most durable trace is often a substrate of names: rivers, hills and old fortified sites that the newcomers simply took over, because a name is attached to a place and not to a speaker.",
+      "word": "substrate",
+      "choices": [
+        "被取代的语言在后来语言中留下的底层成分",
+        "一层可供耕种的土地",
+        "一种基础的语法规则",
+        "一份官方的人口档案"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后举例：rivers、hills、old fortified sites——都是名称；② 因果句 because a name is attached to a place，解释了为什么留下的是地名；③ 限定语 the conquered keep their land but lose their language，正是“底层”的定义；④ 排除土壤、语法、档案：它们在句中没有对应物。",
+      "explain": "substrate（底层）来自 sub-（在下）＋ stratum（层）：被覆盖的那一层。语言接触研究里指“被取代语言留在胜利语言中的成分”，最典型的就是地名层。它与 superstrate（上层，如诺曼法语对英语的影响）是一对术语。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 4 节：早期拉丁影响来自欧陆接触而非罗马治英"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "-chester／-caster 与拉丁 castra 的地名证据"
+    }
+  ]
+}

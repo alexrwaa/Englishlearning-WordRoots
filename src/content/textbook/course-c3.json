@@ -1,0 +1,324 @@
+{
+  "id": "course-c3",
+  "title": "Morphology: Affixes, Word Formation, and Meaning",
+  "titleZh": "词缀、构词法与语义：位置、密度、义变与词源边界",
+  "sourceChapter": "S1-C3",
+  "level": "B2",
+  "weeks": [
+    {
+      "week": 36,
+      "theme": "词缀系统与语义：位置、密度、义变与组合性",
+      "days": [
+        "w36d1",
+        "w36d2",
+        "w36d3",
+        "w36d4",
+        "w36d5",
+        "w36d6"
+      ]
+    },
+    {
+      "week": 37,
+      "theme": "声音、类推与词源边界：词形之外的造词力量",
+      "days": [
+        "w37d1",
+        "w37d2",
+        "w37d3",
+        "w37d4",
+        "w37d5"
+      ]
+    }
+  ],
+  "lessonCount": 11,
+  "knowledgePointCount": 11,
+  "lessons": [
+    {
+      "lessonId": "w36d1",
+      "title": "词缀的五个位置：从贴在哪到做什么",
+      "knowledgePoints": [
+        "kp-s1c3s4-1"
+      ]
+    },
+    {
+      "lessonId": "w36d2",
+      "title": "语义密度：从“几乎无义”到“近乎词根”",
+      "knowledgePoints": [
+        "kp-s1c3s6-1"
+      ]
+    },
+    {
+      "lessonId": "w36d3",
+      "title": "义变有规律：从“火”到“发烧”",
+      "knowledgePoints": [
+        "kp-s1c3s9-2"
+      ]
+    },
+    {
+      "lessonId": "w36d4",
+      "title": "词义不是部件义之和",
+      "knowledgePoints": [
+        "kp-s1c3s10-1"
+      ]
+    },
+    {
+      "lessonId": "w36d5",
+      "title": "重音作超缀：不占一个音，却区分两个词",
+      "knowledgePoints": [
+        "kp-s1c3s15-1"
+      ]
+    },
+    {
+      "lessonId": "w36d6",
+      "title": "缩拼词一旦成词，就按普通词活",
+      "knowledgePoints": [
+        "kp-s1c3s18-2"
+      ]
+    },
+    {
+      "lessonId": "w37d1",
+      "title": "拟声词：古音比今音更贴切",
+      "knowledgePoints": [
+        "kp-s1c3s19-1"
+      ]
+    },
+    {
+      "lessonId": "w37d2",
+      "title": "声音象征：比拟声更间接，也只是倾向",
+      "knowledgePoints": [
+        "kp-s1c3s19-2"
+      ]
+    },
+    {
+      "lessonId": "w37d3",
+      "title": "类推：照着现成模式造新词",
+      "knowledgePoints": [
+        "kp-s1c3s20-1"
+      ]
+    },
+    {
+      "lessonId": "w37d4",
+      "title": "形态与词源冲突时，以可概括的现代规则为准",
+      "knowledgePoints": [
+        "kp-s1c3s21-2"
+      ]
+    },
+    {
+      "lessonId": "w37d5",
+      "title": "标源语言不是为了考古，是为了预测",
+      "knowledgePoints": [
+        "kp-s1c3s21-3"
+      ]
+    }
+  ],
+  "knowledgePointIndex": {
+    "kp-s1c3s4-1": [
+      "w36d1"
+    ],
+    "kp-s1c3s6-1": [
+      "w36d2"
+    ],
+    "kp-s1c3s9-2": [
+      "w36d3"
+    ],
+    "kp-s1c3s10-1": [
+      "w36d4"
+    ],
+    "kp-s1c3s15-1": [
+      "w36d5"
+    ],
+    "kp-s1c3s18-2": [
+      "w36d6"
+    ],
+    "kp-s1c3s19-1": [
+      "w37d1"
+    ],
+    "kp-s1c3s19-2": [
+      "w37d2"
+    ],
+    "kp-s1c3s20-1": [
+      "w37d3"
+    ],
+    "kp-s1c3s21-2": [
+      "w37d4"
+    ],
+    "kp-s1c3s21-3": [
+      "w37d5"
+    ]
+  },
+  "referenceForms": [
+    "affect",
+    "agoraphobia",
+    "alcoholic",
+    "anemograph",
+    "anemometer",
+    "anemone",
+    "anonymous",
+    "antipyretic",
+    "apteryx",
+    "aqueous",
+    "aristocrat",
+    "arrive",
+    "atm",
+    "bank",
+    "barbarian",
+    "bibliophile",
+    "bird",
+    "blackbird",
+    "bleat",
+    "board",
+    "borborygmus",
+    "breakfast",
+    "british",
+    "bump",
+    "bureaucrat",
+    "butterfly",
+    "buzz",
+    "cheeseburger",
+    "chef",
+    "childish",
+    "chorus",
+    "chrome",
+    "civic",
+    "cockroach",
+    "crash",
+    "cuneiform",
+    "cupboard",
+    "democracy",
+    "democrat",
+    "display",
+    "dive",
+    "diver",
+    "dome",
+    "dump",
+    "escapee",
+    "exoplanet",
+    "exoplanets",
+    "exoskeleton",
+    "exothermic",
+    "flannel",
+    "flap",
+    "flat",
+    "flicker",
+    "flit",
+    "float",
+    "floor",
+    "flower",
+    "flutter",
+    "fly",
+    "gear",
+    "gland",
+    "glare",
+    "glass",
+    "gleam",
+    "glint",
+    "glisten",
+    "glitter",
+    "globe",
+    "glove",
+    "glow",
+    "glue",
+    "google",
+    "gun",
+    "hamburger",
+    "hiccup",
+    "hiss",
+    "historic",
+    "hiv",
+    "honeymoon",
+    "humongous",
+    "hump",
+    "hydraulic",
+    "hydrometer",
+    "hydrophobia",
+    "incisive",
+    "incisor",
+    "irangate",
+    "jump",
+    "ladybird",
+    "ladybug",
+    "lase",
+    "lasing",
+    "lcd",
+    "live",
+    "lump",
+    "machine",
+    "marathon",
+    "meritocrat",
+    "mini",
+    "mouse",
+    "murmur",
+    "nato",
+    "nolita",
+    "number",
+    "operator",
+    "pedophile",
+    "phenomena",
+    "phenomenon",
+    "philosophy",
+    "pin",
+    "ping",
+    "plump",
+    "plutocracy",
+    "plutocrat",
+    "precise",
+    "prepone",
+    "present",
+    "printer",
+    "pump",
+    "pyromaniac",
+    "pyrotechnics",
+    "radii",
+    "record",
+    "reddish",
+    "roach",
+    "ruler",
+    "scissile",
+    "scission",
+    "scissor",
+    "shambles",
+    "shambolic",
+    "sleek",
+    "sleep",
+    "slide",
+    "slim",
+    "slime",
+    "slip",
+    "slither",
+    "slope",
+    "slot",
+    "slow",
+    "snack",
+    "snake",
+    "snap",
+    "sneeze",
+    "sniff",
+    "snore",
+    "snort",
+    "snout",
+    "snow",
+    "soho",
+    "speedometer",
+    "splash",
+    "stump",
+    "symbolic",
+    "technocracy",
+    "technocrat",
+    "teeny",
+    "telethon",
+    "thump",
+    "trap",
+    "trial",
+    "tribeca",
+    "tweetophobia",
+    "understand",
+    "use",
+    "usindopacom",
+    "veggie",
+    "walk",
+    "walkathon",
+    "watergate",
+    "wee",
+    "workaholic"
+  ],
+  "referenceFormsNote": "本课讲解与练习引用、但 words.json 尚无完整词条的英语形式；已去重小写。不含拉丁／希腊／西班牙语等中间形式（cucaracha、anemos、caedere 等），也不含构拟音值。"
+}

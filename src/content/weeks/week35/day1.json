@@ -1,0 +1,291 @@
+{
+  "id": "w35d1",
+  "week": 35,
+  "day": 1,
+  "title": "England 的名字，与四百年的沉默",
+  "tagline": "Angles 给了这块土地名字；而从他们登陆到第一本书，中间隔了差不多四百年",
+  "objectives": [
+    "能说明 Angles、Saxons、Jutes 的分布与 English／England 的得名",
+    "能解释 400–700 年间英语为何几乎没有文献，并说出卢恩铭文的意义",
+    "能区分两批早期借词：欧陆物名与基督教化教会词"
+  ],
+  "prereqs": [
+    "w34d6",
+    "c-borrowing"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-borrowing",
+    "c-register"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s7-3",
+    "kp-s1c2s7-4"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三个名字，一个国名",
+      "body": "传统叙述里，五世纪渡海的是三支：**Angles**（今德国北部与丹麦南部）、**Saxons**（今德国西北）、**Jutes**（日德兰）。Angles 与 Saxons 占地最广，所以早期文献说 **Anglo-Saxon**。\n\n但给这块土地与这门语言命名的，是 Angles：古英语 **Engla land**（Angles 的土地）→ England，**Englisc**（Angles 的语言）→ English。Saxons 的名字则留在地区名里：Essex、Sussex、Wessex（East／South／West Seaxe）。\n\n一个族群的名字变成了国家与语言的名字，另两个只留下地区名——**命名权跟着政治重心走**。顺便说一句：传统叙述给的登陆年份（449 年）出自后世编年史的追记，考古只支持“五世纪中后期逐步移入”，不宜当成精确日期。",
+      "terms": [
+        {
+          "term": "Anglo-Saxon",
+          "zh": "盎格鲁—撒克逊",
+          "en": "Anglo-Saxon",
+          "note": "对五世纪后定居不列颠的日耳曼族群及其语言的通称"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "名字的地图",
+      "body": "这张表也是“语言与国家名不必对应”的最早例子：Britain 是凯尔特／拉丁的名字，England 是日耳曼的名字，两者叠在同一座岛上。今天说 British 与 English 不是一回事，根子在这里。",
+      "head": [
+        "现代形式",
+        "来源",
+        "说明"
+      ],
+      "rows": [
+        [
+          "England",
+          "Engla land",
+          "“Angles 的土地”"
+        ],
+        [
+          "English",
+          "Englisc",
+          "“Angles 的语言”"
+        ],
+        [
+          "East Anglia",
+          "Ēastengle",
+          "东盎格利亚，Angles 的一支"
+        ],
+        [
+          "Essex／Sussex／Wessex",
+          "Ēast／Sūþ／Westseaxe",
+          "东／南／西撒克逊"
+        ],
+        [
+          "Kent",
+          "Cantware／Cantium",
+          "与朱特人相关（具体来源仍有讨论）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四百年的沉默",
+      "body": "从五世纪登陆到约 700 年出现大量英语文本，中间有差不多四百年。这段“前古英语期”几乎没有文献：留下的只有**十余条可读的卢恩铭文**，刻在器物与墓碑上，多是名字与短句。\n\n没有文献不等于没有语言。它只说明这套社会还没有把语言写下来的制度——书写属于教会与拉丁语，而教会当时还没有在这片土地上站稳。\n\n所以历史的“沉默期”往往是**书写制度的空白**，不是语言的空白。这条判断在全世界都适用：很多有丰富口头文学的语言，文献记录是零。",
+      "terms": [
+        {
+          "term": "runic",
+          "zh": "卢恩的",
+          "en": "runic",
+          "note": "用日耳曼卢恩字母刻写的，多见于器物与纪念碑"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "基督教化带来的词",
+      "body": "这批词与上周的 wine、street 明显不同：那些是市场上的东西，这些是**教堂里的东西**。语义场换了，说明接触的机构换了。注意 school 与 bishop 其实来自希腊语，经拉丁语中转——借词的“来源”常常是一条多级链。",
+      "head": [
+        "英语词",
+        "来源",
+        "语义场"
+      ],
+      "rows": [
+        [
+          "abbot",
+          "晚期拉丁 abbas ← 希腊",
+          "教会职位"
+        ],
+        [
+          "mass",
+          "俗拉丁 messa ← 拉丁 missa",
+          "礼仪"
+        ],
+        [
+          "pope",
+          "拉丁 papa",
+          "教会职位"
+        ],
+        [
+          "bishop",
+          "晚期拉丁 episcopus ← 希腊 episkopos",
+          "教会职位"
+        ],
+        [
+          "candle",
+          "拉丁 candēla",
+          "器物"
+        ],
+        [
+          "school",
+          "拉丁 schola ← 希腊 skholē",
+          "教育"
+        ],
+        [
+          "altar",
+          "拉丁 altāre",
+          "场所与器物"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "两批早期借词",
+      "body": "两批词都来自拉丁，但来源语域不同：一批是士兵与商人的口语拉丁，一批是教会的书面拉丁。这就是为什么同样“来自拉丁”，两批词的“味道”不一样——一个像集市，一个像教堂。",
+      "a": "欧陆物名（公元前后）",
+      "b": "教会词（约 600 年起）",
+      "rows": [
+        {
+          "label": "接触场景",
+          "a": "边境市场、军营",
+          "b": "传教、修道院、教堂"
+        },
+        {
+          "label": "语义场",
+          "a": "酒、路、度量、食物、器物",
+          "b": "职位、礼仪、器物、教育"
+        },
+        {
+          "label": "例",
+          "a": "wine、street、mile、cheese",
+          "b": "abbot、mass、pope、school"
+        },
+        {
+          "label": "语言中介",
+          "a": "口语拉丁",
+          "b": "书面／教会拉丁，部分经希腊语"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w35d1-p1",
+      "kind": "mcq",
+      "prompt": "English 与 England 的得名是：",
+      "choices": [
+        "都来自 Angles 这一族群的名字",
+        "都来自 Saxons 这一族群的名字",
+        "都来自拉丁语 Anglia",
+        "都来自凯尔特语"
+      ],
+      "answer": 0,
+      "explain": "Englisc（Angles 的语言）→ English，Engla land（Angles 的土地）→ England。Saxons 留下的是 Essex、Sussex、Wessex 这类地区名。拉丁 Anglia 是后来的转写，不是来源。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w35d1-p2",
+      "kind": "mcq",
+      "prompt": "Essex、Sussex、Wessex 中的 -sex 来自：",
+      "choices": [
+        "古英语 Seaxe（Saxons）",
+        "拉丁 sexus（性别）",
+        "古诺斯语“海”",
+        "凯尔特语“定居点”"
+      ],
+      "answer": 0,
+      "explain": "-sex 是 Seaxe（撒克逊人）在复合地名里的形式：Ēastseaxe、Sūþseaxe、Westseaxe。它与拉丁 sexus 只是拼写偶合——这正是“形似不等于同源”的一个小例子，判断要看成分与历史。",
+      "concepts": [
+        "c-etymology",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w35d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文形容词",
+      "sentence": "Between the landing and the first substantial English texts there are some four centuries with almost no records; all that survives is a handful of ___ inscriptions.",
+      "answer": "runic",
+      "accept": [
+        "runic",
+        "rune",
+        "runes"
+      ],
+      "explain": "填 runic（卢恩的）。这四百年的证据极少：器物与墓碑上的短刻文，多为名字。要点不是“找不到”，而是“没有书写制度”——语言在说，只是没被写下来。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w35d1-p4",
+      "kind": "mcq",
+      "prompt": "基督教化借词的共同特点是：",
+      "choices": [
+        "多与教会职位、礼仪、教育与器物相关，来自书面／教会拉丁",
+        "多为市场与军营里的器物名",
+        "多为法律与战争术语",
+        "多为动植物名称"
+      ],
+      "answer": 0,
+      "explain": "abbot、mass、pope、bishop、candle、school、altar 全属教会与教育语域，来源是书面或教会拉丁（部分经希腊语）。市场器物名是更早那一批（wine、cheese）；法律与战争术语主要来自诺曼法语。",
+      "concepts": [
+        "c-borrowing",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w35d1-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“The silence of the period is a silence of parchment, not of speech: people talked constantly, but almost nothing they said was written down.” 这句说明：",
+      "choices": [
+        "没有文献不等于没有语言",
+        "那四百年里没有人说话",
+        "羊皮纸是唯一的书写材料",
+        "语言在那段时期消失了"
+      ],
+      "answer": 0,
+      "explain": "a silence of parchment（羊皮纸的沉默）与 not of speech（不是说话的沉默）构成区分：缺的是记录媒介，不是语言活动。这是读史料时要养成的第一反应——先问“证据为什么缺”，再问“事实是否存在”。",
+      "concepts": [
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w35d1-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 archive 在句中的含义",
+      "passage": "English is not attested before the runic inscriptions, and even those give us little more than names. The language certainly existed; it simply had no archive. Historians therefore read the absence of texts as an absence of institutions, not as an absence of speakers.",
+      "word": "archive",
+      "choices": [
+        "系统保存下来的文献记录",
+        "一座图书馆的建筑",
+        "一种字母系统",
+        "一份法律条文"
+      ],
+      "answer": 0,
+      "strategy": "① 对照：not attested before ... it simply had no archive，说明 archive 是“记录”这一侧的东西；② 收束句：absence of texts = absence of institutions，把“没有档案”解释成“没有制度”；③ 排除建筑、字母、法条：段落谈的是记录的有无，不是载体或文体。",
+      "explain": "archive 指“档案、文献总集”，也可指存放它们的机构。这里用的是抽象义：一套被系统保存下来的记录。它与“有没有人说话”无关，只与“有没有机构在记录”有关。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 7 节：Angles／Saxons／Jutes 与 England 之名；前古英语期的文献状况与基督教化借词"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "abbot、mass、bishop、school 的拉丁／希腊来源链"
+    }
+  ]
+}

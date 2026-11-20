@@ -1,0 +1,324 @@
+{
+  "id": "w34d4",
+  "week": 34,
+  "day": 4,
+  "title": "法兰克人赢了高卢，最近的亲戚却在北海边",
+  "tagline": "同一个世纪、同一批人，两种结局；而留在原地没走的那一支，成了英语最近的活亲戚",
+  "objectives": [
+    "能叙述五世纪西日耳曼扩张的两个方向与两种语言结局",
+    "能给出“为何结局不同”的三条主流解释（人口、罗马化深度、教会与书写）",
+    "能说出西日耳曼内部的亲疏次序，并用 water/Wasser、make/machen 说明德语为何更远"
+  ],
+  "prereqs": [
+    "w34d3",
+    "c-borrowing"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-cognate",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s5-1",
+    "kp-s1c2s5-2"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两条路，两个结果",
+      "body": "五世纪，西日耳曼人向两个方向扩张：一支（法兰克人）南下进入高卢，一支（盎格鲁人、撒克逊人、朱特人）渡海进入不列颠。结局截然相反。\n\n法兰克人征服了高卢，却改说当地的拉丁口语，地名从 Gallia 变成 Francia——**换了名字，没换语言**。不列颠则相反，入侵者的日耳曼语取代了凯尔特语，**换了语言，名字也换了**：Britain 变成 England（第 35 周第 1 天）。\n\n同一批人、同一个世纪，两种命运。这不是运气，而是社会结构在起作用。",
+      "terms": [
+        {
+          "term": "language shift",
+          "zh": "语言转用",
+          "en": "language shift",
+          "note": "一个社群集体改用另一种语言，通常经历数代双语"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "两种结局的解释（主流，仍有讨论）",
+      "body": "这张表要当“解释清单”用，不要当定论背。学界对入侵者人数、定居规模仍有争论，但“罗马化深度＋人口结构”这两条是被普遍接受的框架。注意它们解释的都是同一件事：**谁的语言能带来好处**。",
+      "head": [
+        "因素",
+        "高卢",
+        "不列颠"
+      ],
+      "rows": [
+        [
+          "罗马化深度",
+          "深：城镇、villa 经济、拉丁教育数百年",
+          "浅：以驻军为主，拉丁语未深入乡村"
+        ],
+        [
+          "入侵者人数与定居方式",
+          "相对少，作为军事精英散居",
+          "相对多，成批定居并取代本地社会"
+        ],
+        [
+          "本地人口与社会",
+          "稠密，农业与城镇网络完整",
+          "五世纪后城镇与组织崩解"
+        ],
+        [
+          "教会与书写",
+          "教会保留拉丁，书写传统连续",
+          "东部教会溃散，文献中断"
+        ],
+        [
+          "结果",
+          "法兰克人改说拉丁语 → 法语的前身",
+          "不列吞人改说日耳曼语 → 英语"
+        ]
+      ]
+    },
+    {
+      "kind": "etym",
+      "title": "guarantee 与 warranty：一个日耳曼词的两条归途",
+      "body": "这是“绕了一圈回来”的词，也是本课最好的词汇证据：法兰克人虽然改说了拉丁语，却把自己的词留在了那门语言里。\n\n日耳曼的 *war-（守护、留意）进入高卢的通俗拉丁语，形成 *warantire（保证）。这个词在古法语里分成两副样子：中央方言作 guarantir，诺曼方言作 warantir。英语从两条路各借一次：guarantee 来自中央法语，warranty／warrant 来自诺曼法语。\n\n今天两者分工明确：guarantee 偏商业承诺，warranty 偏法律与产品保证。同源、双式、各走一路——这正是第 33 周讲的“树＋网”在一个词上的合影。",
+      "steps": [
+        {
+          "period": "日耳曼语",
+          "form": "*war-",
+          "note": "“守护、留意”，法兰克人带入高卢"
+        },
+        {
+          "period": "通俗拉丁",
+          "form": "*warantire",
+          "note": "“作保、担保”"
+        },
+        {
+          "period": "古法语（中央方言）",
+          "form": "guarantir",
+          "note": "w- 变 gu-，英语借作 guarantee"
+        },
+        {
+          "period": "古法语（诺曼方言）",
+          "form": "warantir",
+          "note": "保留 w-，英语借作 warranty／warrant"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个亲戚，一排例词",
+      "body": "留在原地没渡海的那一支——北海沿岸的弗里西亚人——成了英语最近的活亲属。注意德语的三个“离群”现象：water→Wasser（t→ss）、make→machen（k→ch）、pound→Pfund（p→pf）。这不是德语更古老，而是它多走了一步自己的音变：**高地德语辅音推移**。",
+      "head": [
+        "意义",
+        "英语",
+        "弗里西亚语",
+        "荷兰语",
+        "德语"
+      ],
+      "rows": [
+        [
+          "水",
+          "water",
+          "wetter",
+          "water",
+          "Wasser"
+        ],
+        [
+          "牛",
+          "cow",
+          "kou",
+          "koe",
+          "Kuh"
+        ],
+        [
+          "夜",
+          "night",
+          "nacht",
+          "nacht",
+          "Nacht"
+        ],
+        [
+          "做",
+          "make",
+          "meitsje",
+          "maken",
+          "machen"
+        ],
+        [
+          "船",
+          "ship",
+          "skip",
+          "schip",
+          "Schiff"
+        ],
+        [
+          "苹果",
+          "apple",
+          "apel",
+          "appel",
+          "Apfel"
+        ],
+        [
+          "磅",
+          "pound",
+          "pûn",
+          "pond",
+          "Pfund"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "分支时间 vs 表面相似",
+      "body": "两条判据常给出不同答案，因为“像”可以被借词伪造（英语的 beef、government 让它看起来像罗曼语），而“亲”不能。判断亲疏，看共享的晚期音变；猜词义，才用相似度。",
+      "a": "分支时间（谱系）",
+      "b": "表面相似（今天的样貌）",
+      "rows": [
+        {
+          "label": "判据",
+          "a": "共享的、只属于两者的晚期音变",
+          "b": "词汇与句子的接近程度"
+        },
+        {
+          "label": "英语的最近亲属",
+          "a": "弗里西亚语",
+          "b": "可能觉得荷兰语或德语更“眼熟”（借词与拼写习惯相近）"
+        },
+        {
+          "label": "反例",
+          "a": "冰岛语与挪威语分开早，仍同源",
+          "b": "英语与法语借词极多，却不同源"
+        },
+        {
+          "label": "可否互通",
+          "a": "与亲疏无关：英语与弗里西亚语不能通话",
+          "b": "相似度高时较可能互通，但不保证"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w34d4-p1",
+      "kind": "mcq",
+      "prompt": "法兰克人进入高卢后的语言结局是：",
+      "choices": [
+        "放弃日耳曼语，改说当地拉丁口语，形成法语的前身",
+        "把自己的日耳曼语强加给高卢全境",
+        "与本地语言混合，形成一种克里奥尔语",
+        "保留日耳曼语至今，即现代法语"
+      ],
+      "answer": 0,
+      "explain": "法兰克人建立了统治，却采用了当地的拉丁口语（通俗拉丁），Gallia 因此改名 Francia——名字换了，语言没换。法语里确实留下了少量日耳曼底层词（guerre、guarantir 一类），但语法与词汇主体是拉丁的。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w34d4-p2",
+      "kind": "mcq",
+      "prompt": "高卢与不列颠结局不同，最被普遍接受的解释框架是：",
+      "choices": [
+        "罗马化深度与人口／定居结构的差异",
+        "两种语言的语法复杂度不同",
+        "不列颠的气候不适合拉丁语",
+        "高卢人天生更愿意学外语"
+      ],
+      "answer": 0,
+      "explain": "高卢罗马化深、城镇密集、教会延续，拉丁语有社会价值；不列颠以驻军为主，罗马化浅，五世纪后城镇崩解。语言转用的方向由“学哪种语言有好处”决定。语法复杂度与气候都不构成解释。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w34d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "The Franks gave Gaul a new name, Francia, but not a new language: they adopted the local ___ , which later became French.",
+      "answer": "Latin",
+      "accept": [
+        "Latin",
+        "latin"
+      ],
+      "explain": "填 Latin。这里的“拉丁语”指通俗拉丁（口语层），不是西塞罗的书面拉丁。这条区别很重要：法语、西班牙语、意大利语都从口语拉丁来，而不是从文学拉丁来。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w34d4-p4",
+      "kind": "mcq",
+      "prompt": "德语 water→Wasser、make→machen 说明：",
+      "choices": [
+        "德语发生了自己的辅音推移（p→pf、t→ss、k→ch），英语与低地语言停在推移之前",
+        "德语比英语古老，所以保留了更多原音",
+        "英语从德语借入了这些词",
+        "这两种语言没有亲缘关系"
+      ],
+      "answer": 0,
+      "explain": "这是高地德语辅音推移：南部的德语把 p、t、k 推成 pf/ff、ts/ss、ch，而英语、弗里西亚语、荷兰语（低地）没有参与。它与格里姆定律是两层：格里姆是印欧→日耳曼的第一次推移，高地德语推移是日耳曼内部的第二次。推移不表示“更古老”。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w34d4-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“Dutch and Afrikaans are largely mutually intelligible, yet they are counted as separate languages for political and historical reasons.” 句中 mutually intelligible 最可能指：",
+      "choices": [
+        "双方说话能互相听懂",
+        "双方互相借用了大量词汇",
+        "两者的语法结构完全相同",
+        "两者使用同一套正字法"
+      ],
+      "answer": 0,
+      "explain": "mutually（相互地）＋ intelligible（可理解的）：互相能听懂。这是判断“语言还是方言”的常用实用标准，但它与社会认同常常不一致——所以句子才说 counted as separate languages for political and historical reasons。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ],
+      "hint": "mutually 是“相互”，intelligible 与 intelligent 同根。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w34d4-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 conservative 在句中的含义",
+      "passage": "Icelandic is often called conservative: settled early and isolated for centuries, it kept grammatical features that its mainland cousins lost. Being conservative is not the same as being older, and it does not make Icelandic the ancestor of Norwegian.",
+      "word": "conservative",
+      "choices": [
+        "变化较少、保留早期特征的",
+        "政治立场上反对改革的",
+        "使用人口较少的",
+        "只用于书面表达的"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后解释：kept grammatical features that its mainland cousins lost；② 因果：settled early and isolated，隔离使变化少；③ 澄清句：not the same as being older，排除“更古老”；④ 排除政治义：段落谈语法特征，与政治立场无关。",
+      "explain": "在历史语言学里，conservative 指“保守的、变化少的”，与 innovative（创新多、变化快）相对。这是描述性的说法，不含褒贬，也不表示“更纯”或“更古老”。冰岛语保守，但它不是挪威语的祖先——同源不等于父子。",
+      "concepts": [
+        "c-inference",
+        "c-cognate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 5 节：五世纪西日耳曼扩张、法兰克人的语言选择与弗里西亚语"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "guarantee／warranty 的法语双式路径；高地德语辅音推移例词"
+    }
+  ]
+}

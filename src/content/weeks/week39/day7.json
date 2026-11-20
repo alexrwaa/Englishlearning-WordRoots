@@ -1,0 +1,282 @@
+{
+  "id": "w39d7",
+  "week": 39,
+  "day": 7,
+  "title": "科研句进阶：抽象名词也能现场拆",
+  "tagline": "evanescent、applicant、innocence、logical——四步法在 C1 文本里的完整走法",
+  "objectives": [
+    "能在含抽象名词与评价性形容词的科研句里完成四步拆读",
+    "能用后缀判定词性，从而决定该找定义、找对比还是找例举",
+    "能识别 logical / practical / innocence 三个高频词的常见误读"
+  ],
+  "prereqs": [
+    "w38d7",
+    "c-inference",
+    "c-scientific"
+  ],
+  "concepts": [
+    "c-inference",
+    "c-scientific",
+    "c-semantic-shift",
+    "c-register"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 7,
+    "practice": 9,
+    "apply": 5
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "passage",
+      "title": "一段方法学文字",
+      "body": "这段句子的难点不在生词，而在抽象名词的指代：signal、artefact、evidence 三个词互相定义。第一遍读只抓“作者在排除什么”，第二遍再处理术语。",
+      "excerpt": "The response we observed was evanescent, lasting less than two seconds, and we therefore treated it as an artefact of the recording setup rather than as evidence of a genuine physiological event. A second run, with the amplifier replaced, produced no such signal at all.",
+      "glossZh": "我们观察到的响应转瞬即逝，持续不到两秒，因此我们把它当作记录设备的伪迹，而不是真实生理事件的证据。更换放大器后的第二次运行完全没有产生这种信号。",
+      "questions": [
+        {
+          "q": "作者为什么把该响应判为 artefact？",
+          "a": "因为它持续时间极短（evanescent），且在更换放大器后消失——两条都指向设备而非生理来源。"
+        },
+        {
+          "q": "evanescent 与 transient 在语气上有何差别？",
+          "a": "两者都表短暂，但 evanescent 更书面、更强调“像雾气一样消散”，常见于物理论文与文学批评；transient 更中性、更常用。"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "六个词的拆读",
+      "body": "注意第二列的后缀如何直接给出词性：-ent 与 -al 是形容词，-ance 是名词，-ant 是名词（人）。词性一确定，你在句子里要找的东西就确定了。",
+      "head": [
+        "词",
+        "切分",
+        "词性",
+        "句中可能的角色"
+      ],
+      "rows": [
+        [
+          "evanescent",
+          "e + van + esc + ent",
+          "形容词",
+          "修饰可观察量：短暂的、易消散的"
+        ],
+        [
+          "applicant",
+          "ap + plic + ant",
+          "名词（人）",
+          "申请者；-ant 表施动者"
+        ],
+        [
+          "practical",
+          "pract + ical",
+          "形容词",
+          "实用的；可操作的"
+        ],
+        [
+          "logical",
+          "log + ical",
+          "形容词",
+          "合乎逻辑的；log 表言说、推理"
+        ],
+        [
+          "innocence",
+          "in + noc + ence",
+          "名词",
+          "无害、无罪；noc 表伤害"
+        ],
+        [
+          "evaluate",
+          "e + valu + ate",
+          "动词",
+          "评估；valu 表价值"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四步法在抽象名词上的调整",
+      "body": "具体名词可以靠“它是什么东西”来猜，抽象名词不行。调整两点：\n\n**第一，先定后缀词性。**-ance、-ence、-ity、-ment 多半是名词，-ent、-al、-ive、-ous 多半是形容词。词性定错，后面全错：把 innocence 当形容词，就会去找它修饰谁，而它其实是被修饰的中心词。\n\n**第二，找评价性谓语。**抽象名词常与评价动词搭配：treat as、regard as、be attributed to。这些动词后面往往直接给出作者的态度或归类，比形容词更可靠。evanescent 在句中就靠 treated it as an artefact 得到定性。\n\n剩下两步不变：语境找对比，校验回读。四步里最容易省掉的是校验，而它恰恰是防止“读起来顺就通过”的唯一关卡。",
+      "terms": [
+        {
+          "term": "evaluative predicate",
+          "zh": "评价性谓语",
+          "en": "evaluative predicate",
+          "note": "treat as、regard as 这类给出归类的动词结构"
+        }
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "三条算式",
+      "body": "三条算式都涉及“词根 + 形容词/动词后缀”。注意第一条：pract 与 practical 之间没有连接元音；第二条 log 表“言说”，与 leg（法／读）同形不同源，靠例词分流。",
+      "sums": [
+        {
+          "parts": [
+            "pract",
+            "ical"
+          ],
+          "result": "practical",
+          "glossZh": "实用的",
+          "note": "-ical 构成形容词：与做事有关的"
+        },
+        {
+          "parts": [
+            "log",
+            "ical"
+          ],
+          "result": "logical",
+          "glossZh": "合乎逻辑的",
+          "note": "log 言说、推理：合乎言说之理"
+        },
+        {
+          "parts": [
+            "e",
+            "valu",
+            "ate"
+          ],
+          "result": "evaluate",
+          "glossZh": "评估",
+          "note": "e- 向外 + valu 价值 + -ate 动词化"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三个高频误读",
+      "body": "**innocence 不是“无知”。**in-（不）+ noc（伤害）+ -ence（状态）→“无害、无罪”。它与“知识”无关；表示无知的是 ignorance（i + gno + rance，不 + 知道）。两个词都带 in- 与 n，容易混，靠词根分辨：noc 伤害，gno 知道。\n\n**practical 不是“实践的”那么窄。**它的核心是“与做事有关的”，所以在学术文本里常指“可操作的、可行的”（a practical solution），而不是“实践课的”。\n\n**logical 不只指“逻辑学的”。**log 的本义是“言说、推理”，logical 指“合乎推理规则的”，因此在评论里可以说 a logical conclusion，也可以说 the logical next step。它和 legible（可读的）共享拉丁词根 legere，但走的是不同分支。",
+      "morphemes": [
+        "noc",
+        "gno",
+        "log"
+      ],
+      "morphemeIds": []
+    }
+  ],
+  "practice": [
+    {
+      "id": "w39d7-p1",
+      "kind": "infer",
+      "prompt": "读句子，推测 evanescent 在实验描述中的含义",
+      "passage": "The fluorescence was evanescent: it appeared within milliseconds of excitation and had faded below the detection threshold before the next frame was captured.",
+      "word": "evanescent",
+      "choices": [
+        "转瞬即逝的",
+        "极其明亮的",
+        "周期性的",
+        "不可检测的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：e（向外）+ van（空）+ -esc-（开始）+ -ent（形容词）→“开始变空的”；② 句法：冒号后是解释，两小句都在讲时间极短；③ 语境：毫秒内出现、下一帧前已低于阈值；④ 校验：“不可检测”与 appeared 矛盾——它被测到过，只是很快消失。",
+      "explain": "evanescent 是“转瞬即逝的”。van 的核心义是“空”（拉丁 vanus），evanescent 的字面义是“正在变空、消散”。同族的 evanesce、vanity（空虚）、vanish 都在这条线上。科研文本里它几乎总与时间尺度同现（milliseconds、before the next frame），这是最好用的语境线索。",
+      "concepts": [
+        "vac",
+        "ent"
+      ]
+    },
+    {
+      "id": "w39d7-p2",
+      "kind": "boundary",
+      "prompt": "切开 applicant：注意第一段是同化后的前缀",
+      "word": "applicant",
+      "segments": [
+        "ap",
+        "plic",
+        "ant"
+      ],
+      "explain": "ap + plic + ant。ap- 是 ad-（朝向）在 p 前的同化形式，plic 是“折叠、贴合”，-ant 表施动者。字面义“把自己贴上去的人”→ 申请人。三段都必须能释义：把 ap 当成独立词根，或把 plic 与 ant 合成 -icant，都会让切分失去解释力。同族的 apply、application、explicit 都含 plic。",
+      "concepts": [
+        "pl",
+        "ant",
+        "ad"
+      ]
+    },
+    {
+      "id": "w39d7-p3",
+      "kind": "wordSum",
+      "prompt": "用 + 连接两段，写出“实用的”这个形容词",
+      "parts": [
+        "pract",
+        "ical"
+      ],
+      "answer": "practical",
+      "explain": "pract（做、实行）+ -ical（与……有关的）→ practical，字面义“与做事有关的”。同族的 practice（实践）、practise（英式动词）、impractical（不切实际的）都共享这个词根。注意 -ical 与 -ic 的分工：practical 与 practic 都存在，但常用的是前者；这类固定搭配只能靠词频记，不能靠规则推。",
+      "concepts": [
+        "prac",
+        "ical"
+      ]
+    },
+    {
+      "id": "w39d7-p4",
+      "kind": "mcq",
+      "prompt": "logical 的词根 log 与下面哪个词同源？",
+      "choices": [
+        "logic（逻辑）",
+        "legal（法律的）",
+        "local（地方的）",
+        "locate（定位）"
+      ],
+      "answer": 0,
+      "explain": "log 表“言说、推理”，与 logic、logos 同源；legal 的 leg 是“法”（lex），local / locate 的 loc 是“地方”（locus）。三组拼写接近，来源完全不同。判断依据是同族词：logical 能拉出 logic、logistics？——注意 logistics 另有来源；能稳定拉出的是 logic、logician、analogy（按比例言说）。",
+      "concepts": [
+        "log"
+      ]
+    },
+    {
+      "id": "w39d7-p5",
+      "kind": "cloze",
+      "prompt": "填入一个英语名词",
+      "sentence": "The court's finding of ___ rested on the fact that the substance had never been shown to harm anyone at the doses involved.",
+      "answer": "innocence",
+      "accept": [
+        "innocence",
+        "无罪"
+      ],
+      "explain": "innocence = in（不）+ noc（伤害）+ -ence（状态）→“无害、无罪”。句中 never been shown to harm 是直接释义，doses involved 提示这是毒理学或法律语境。注意与 ignorance 区分：后者是“不知道”（gno），前者是“不伤害”（noc）。两个词都常出现在法庭文本里，混用会改变论证方向。",
+      "concepts": [
+        "nec",
+        "ence"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w39d7-a1",
+      "kind": "infer",
+      "prompt": "（迁移）读句子，推测 evaluate 在方法学语境中的含义",
+      "passage": "Before the model was deployed, we evaluated it on three held-out sets, reporting not only accuracy but also the cost of each false positive.",
+      "word": "evaluated",
+      "choices": [
+        "评估、测评",
+        "训练、拟合",
+        "部署、上线",
+        "复制、重跑"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：e（向外）+ valu（价值）+ -ate（动词）→“把价值量出来”；② 句法：evaluated it on three held-out sets 是“在……上测评”的固定结构；③ 语境：报告准确率与假阳性代价，都是测评指标；④ 校验：部署在 before 之后才发生，训练与 held-out 集矛盾。",
+      "explain": "evaluate 是“评估”。字面义“把价值量出来”解释了为什么它总与指标同现（accuracy、cost、precision）。注意它与 assess、estimate 的分工：evaluate 强调按标准判定价值或性能，assess 更偏“估价、判断”，estimate 是“估算数值”。三者在方法学文本里不能随意互换。",
+      "concepts": [
+        "val",
+        "ate"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "语境线索与学术词汇推理"
+    },
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 13 章：拉丁词根的抽象名词派生"
+    },
+    {
+      "id": "S5",
+      "title": "Academic vocabulary in use",
+      "detail": "evaluate、practical、logical 的学术搭配"
+    }
+  ]
+}

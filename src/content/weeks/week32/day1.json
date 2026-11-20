@@ -1,0 +1,298 @@
+{
+  "id": "w32d1",
+  "week": 32,
+  "day": 1,
+  "title": "十九个字母，四段意义：otorhinolaryngology 拆给你看",
+  "tagline": "长词不是难词：越长的技术词越守规矩，因为它本来就是拼装出来的",
+  "objectives": [
+    "能把 superconductivity、otorhinolaryngology 按词素逐段赋义，并数出段数与字母数的关系",
+    "能说明“能拆开”与“能理解”是两件事：拆解给义项索引，概念仍要另学",
+    "能靠词尾（-itis、-osis、-scopy、-ology）判断一个技术词属于哪一类"
+  ],
+  "prereqs": [
+    "w31d5",
+    "c-scientific",
+    "c-greek-latin"
+  ],
+  "concepts": [
+    "c-scientific",
+    "c-greek-latin",
+    "c-morpheme",
+    "c-combining"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s6-1"
+  ],
+  "minutes": {
+    "review": 6,
+    "learn": 9,
+    "practice": 7,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "先量四个长度",
+      "body": "superconductivity 17 个字母，拆开是 super + con + duct + ivity，四段。otorhinolaryngology 19 个字母，拆开是 oto + rhino + laryng + ology，四段。electroencephalographically 24 个字母，内容只有三段（electr 电、encephal 脑、graph 记录），后面 -ic、-al、-ly 三层只标词性与方式。pneumonoultramicroscopicsilicovolcanoconiosis 45 个字母，能拆到八段左右。\n\n看出规律没有：**字母数的增长远快于段数的增长**。每段平均四到六个字母，段落之间靠连接元音 -o- 缝合。所以长词的真实难度不在“段多”，而在“你不认识那几段”。一旦段落认识，长度就只是拼装的结果。\n\n这也解释了一个反直觉的现象：医学、化学的长词往往比文学里的短词更好读——因为它们是**按规矩造的**，而 nice、understand 是历史长出来的，没有规矩可依。"
+    },
+    {
+      "kind": "table",
+      "title": "superconductivity：四段全在词库里",
+      "body": "这个例子故意选一个“完全透明”的词：四段全在本站 787 个成分之列，逐段赋义没有缺口。但请读完最后一行——赋义完成之后，你依然不知道它是什么。这就是本课要立的第二条原则。",
+      "head": [
+        "成分",
+        "来源",
+        "义",
+        "对整词的贡献"
+      ],
+      "rows": [
+        [
+          "super-",
+          "拉丁",
+          "在上、超过",
+          "限定为“超”这个量级"
+        ],
+        [
+          "con-",
+          "拉丁",
+          "共同、一起",
+          "表示诸性质同时出现"
+        ],
+        [
+          "duct",
+          "拉丁",
+          "引导、传导",
+          "核心义：传导"
+        ],
+        [
+          "-ivity",
+          "拉丁",
+          "性质、状态（名词）",
+          "把整词定成“某种性质”"
+        ],
+        [
+          "合成",
+          "—",
+          "超 + 共同 + 传导 + 性质",
+          "“超导性”——但零电阻、迈斯纳效应这些物理内容，一个也没在词里"
+        ]
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "otorhinolaryngology：希腊医学的拼装",
+      "body": "这个词是“耳鼻喉科学”，四段依次指向三个器官加一个学科名。注意第一行的备注：oto- 在本站词库里还没有单列，只能靠同族词（otitis 耳炎、otoscope 耳镜）交叉确认。元素表不是天降的清单，它也是逐步补出来的——遇到缺口时，同族词就是你的证据。",
+      "head": [
+        "成分",
+        "来源",
+        "义",
+        "同族词"
+      ],
+      "rows": [
+        [
+          "oto-",
+          "希腊",
+          "耳",
+          "otitis 耳炎、otoscope 耳镜（词库暂未单列 oto-）"
+        ],
+        [
+          "rhin-",
+          "希腊",
+          "鼻",
+          "rhinitis 鼻炎、rhinoplasty 鼻整形"
+        ],
+        [
+          "laryng-",
+          "希腊",
+          "喉",
+          "laryngitis 喉炎、laryngeal 喉的"
+        ],
+        [
+          "-ology",
+          "希腊",
+          "学科、研究",
+          "geology 地质学、psychology 心理学"
+        ],
+        [
+          "合成",
+          "—",
+          "耳 + 鼻 + 喉 + 学科",
+          "耳鼻喉科学（临床上也叫 ENT）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "极端案例：45 个字母，拆得开却不通",
+      "body": "pneumonoultramicroscopicsilicovolcanoconiosis 常被当作“最长单词”。它 20 世纪 30 年代由拼词爱好者造出来，用来争夺这个名号，临床上并不使用——真正的病名是 pneumoconiosis（尘肺）与 silicosis（硅肺）。\n\n把它拆开：pneumono（肺）+ ultra（超）+ microscopic（显微的）+ silico（硅）+ volcano（火山）+ coni（尘）+ osis（病理状态）。八段，段段有义。可拆完之后你得到的是什么？是一串义项索引：“肺—超—显微—硅—火山—尘—病”。\n\n要真正读懂，你还得知道：这是吸入极细的硅尘导致的肺纤维化。**拆解给的是索引，概念要另学**。所以本课的口号是：拆得开 ≠ 懂；但拆得开，能让你知道该去查什么。"
+    },
+    {
+      "kind": "table",
+      "title": "词尾是科室门牌",
+      "body": "技术词的词尾往往不表“具体是什么”，而表“属于哪一类”。先读词尾，你就知道该往哪个方向猜：是炎症、是状态、是手术、还是学科。这一招在考场上比逐段翻译更快，也更不容易错方向。",
+      "head": [
+        "词尾",
+        "范畴",
+        "例词",
+        "误判风险"
+      ],
+      "rows": [
+        [
+          "-itis",
+          "炎症",
+          "laryngitis 喉炎、appendicitis 阑尾炎",
+          "别猜成“研究”，那是 -ology"
+        ],
+        [
+          "-osis",
+          "病理状态（常为慢性、非炎症）",
+          "pneumoconiosis 尘肺、neurosis 神经症",
+          "别一律译成“病”，它常指“沉着、变性”这类过程"
+        ],
+        [
+          "-scopy",
+          "检查术（用仪器看）",
+          "endoscopy 内镜检查、gastroscopy 胃镜",
+          "与 -scopic（形容词）、-scope（仪器）分工不同"
+        ],
+        [
+          "-ology",
+          "学科、研究",
+          "geology、psychology、otorhinolaryngology",
+          "别与 -logy 之外的 -graphy（记录术）混"
+        ],
+        [
+          "-ectomy",
+          "切除术",
+          "appendectomy 阑尾切除、gastrectomy 胃切除",
+          "与 -tomy（切开）不同：一个是切掉，一个是切开"
+        ]
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w32d1-p1",
+      "kind": "mcq",
+      "prompt": "otorhinolaryngology 里的 oto- 意为：",
+      "choices": [
+        "耳",
+        "鼻",
+        "喉",
+        "眼"
+      ],
+      "answer": 0,
+      "explain": "oto- 是希腊语“耳”，所以整词是耳 + 鼻 + 喉 + 学科。判断依据可以来自同族词：otitis（耳炎）、otoscope（耳镜）都指耳。注意别把 rhin-（鼻）与 oto- 弄反——rhinoceros 字面是“鼻角兽”，rhin- 的“鼻”在这里最直观。",
+      "concepts": [
+        "c-scientific",
+        "c-greek-latin",
+        "rhin"
+      ]
+    },
+    {
+      "id": "w32d1-p2",
+      "kind": "mcq",
+      "prompt": "长技术词之所以能可靠地拆解，根本原因是：",
+      "choices": [
+        "它们是造词者按词素拼装出来的，不是自然演化出来的",
+        "它们比日常词更古老，保留了原始形式",
+        "它们全部来自希腊语，而希腊语没有音变",
+        "它们字母多，所以每段必然有意义"
+      ],
+      "answer": 0,
+      "explain": "关键在“造”与“长”的区别。技术词多是 18 世纪以后按命名法组装的，组装时每一段都被赋予了义项，所以拆解可靠；日常词（nice、understand）是历史演变的结果，拆解反而误导。B、C、D 都站不住：希腊语同样有音变，字母多也不保证可拆（如单成分借词）。",
+      "concepts": [
+        "c-scientific",
+        "c-morpheme",
+        "c-transparency"
+      ]
+    },
+    {
+      "id": "w32d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个词尾（英语，不带连字符）",
+      "sentence": "The suffix ___ marks inflammation, as in laryngitis and appendicitis.",
+      "answer": "itis",
+      "accept": [
+        "itis",
+        "-itis"
+      ],
+      "explain": "答案是 itis（-itis）。它只标“炎症”这一个范畴，不告诉你发炎的是哪儿——部位由前面的词根给（laryng 喉、appendic 阑尾）。所以读技术词的标准顺序是：先看词尾定范畴，再看词根定部位，最后用语境定程度。",
+      "concepts": [
+        "c-scientific",
+        "itis"
+      ]
+    },
+    {
+      "id": "w32d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 rhin 意为“鼻”，-plasty 意为“塑形术”，rhinoplasty 最可能是：",
+      "choices": [
+        "鼻部整形手术",
+        "鼻腔炎症",
+        "鼻镜检查",
+        "鼻部止血"
+      ],
+      "answer": 0,
+      "explain": "rhin（鼻）+ -plasty（塑形术）→ 鼻整形。四个选项中只有 A 含“手术塑形”；B 会写成 rhinitis（-itis 炎症），C 会写成 rhinoscopy（-scopy 检查术），D 需要别的词尾。这道题练的是“词尾定范畴”：同一个词根配不同词尾，就是不同科室的动作。",
+      "concepts": [
+        "c-inference",
+        "rhin",
+        "c-scientific"
+      ],
+      "hint": "先看 -plasty 属于“手术”还是“检查”，再定部位。"
+    },
+    {
+      "id": "w32d1-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“喉炎”的切分",
+      "parts": [
+        "laryng",
+        "itis"
+      ],
+      "answer": "laryngitis",
+      "explain": "laryng（喉）+ -itis（炎症）→ 喉炎。这是本站词库里真实存在的词条，两段都在 787 个成分之内，可以逐段核对。对比 otorhinolaryngology：那个词只多了“耳”与“鼻”两段和“学科”词尾，机制完全一样——所以“会拆一个，就会拆一串”。",
+      "concepts": [
+        "c-word-sum",
+        "laryng",
+        "itis"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w32d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 endoscopy 是什么检查",
+      "passage": "The doctor recommended endoscopy: a thin flexible tube with a camera was passed through the mouth, so that the lining of the stomach could be inspected directly instead of inferred from X-rays.",
+      "word": "endoscopy",
+      "choices": [
+        "内镜检查：把带摄像头的管子伸进体内直接观察",
+        "开腹手术：切开腹壁取出病灶",
+        "体外扫描：在体外用射线成像",
+        "血液化验：通过血样推断胃部状况"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：endo（内部）+ scopy（观察术）→“往里面看的技术”；② 语境：a thin flexible tube with a camera、passed through the mouth、inspected directly 三处都在描述“伸进去看”；③ 排除：开腹要切开、扫描在体外、化验看血样，都不符合“through the mouth + camera”；④ 校验：-scopy 在 gastroscopy、laparoscopy 里同义，endo- 在 endoscope、endocrine 里都是“内”。",
+      "explain": "endoscopy 是“内镜检查”。它和 otorhinolaryngology 属于同一套构词逻辑：endo/scopy 两段各自带范畴（内／看），组合后意义可预测。请注意最后半句 instead of inferred from X-rays——它把“直接看”与“间接推断”对立起来，这才是 endoscopy 的关键语义，而这一点词素给不了，只能从语境拿。",
+      "concepts": [
+        "c-inference",
+        "c-scientific",
+        "c-greek-latin"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 1 章第 6 节：超长技术词的逐段赋义"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "医学词尾的范畴义与 pneumonoultramicroscopicsilicovolcanoconiosis 的来历"
+    }
+  ]
+}

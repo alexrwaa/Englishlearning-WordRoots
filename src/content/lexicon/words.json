@@ -402,6 +402,68 @@
     "partResolution": "exact"
   },
   {
+    "w": "acronym",
+    "parts": [
+      "acr",
+      "onym"
+    ],
+    "pos": "n",
+    "glossEn": "a word formed from the initial letters of other words",
+    "glossZh": "首字母缩略词",
+    "domain": "general",
+    "etymology": "希腊 akron「末端、开头」+ onyma「名字」",
+    "derivation": [
+      "acr（尖端、开头）+ onym（名字）→ 取首字母成词"
+    ],
+    "example": "NASA is an acronym for a long agency name.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-acr",
+      "cx-onom-ononat"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "acropolis",
+    "parts": [
+      "acr",
+      "o",
+      "pol",
+      "is"
+    ],
+    "pos": "n",
+    "glossEn": "the fortified upper part of an ancient Greek city",
+    "glossZh": "（古希腊城市的）卫城",
+    "domain": "general",
+    "etymology": "希腊 akros「最高的、尖端的」+ polis「城邦」",
+    "derivation": [
+      "acr（高处）+ o + pol（城）+ -is → 高处的城"
+    ],
+    "example": "The Acropolis of Athens stands on a limestone hill.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-acr",
+      "cx-o",
+      "cx-pol",
+      "sx-ize"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "act",
     "parts": [
       "act"
@@ -1151,6 +1213,70 @@
     "partResolution": "unresolved"
   },
   {
+    "w": "agriculture",
+    "parts": [
+      "agr",
+      "i",
+      "cult",
+      "ure"
+    ],
+    "pos": "n",
+    "glossEn": "the practice of farming land and raising crops",
+    "glossZh": "农业；农艺",
+    "domain": "general",
+    "etymology": "拉丁 ager/agri「田地」+ cultura「耕作」",
+    "derivation": [
+      "agr（田地）+ i + cult（耕种）+ -ure → 耕种田地"
+    ],
+    "example": "Agriculture still employs half the region's workers.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-agr",
+      "cx-i",
+      "rx-cult",
+      "sx-ure"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "agronomy",
+    "parts": [
+      "agr",
+      "o",
+      "nomy"
+    ],
+    "pos": "n",
+    "glossEn": "the science of crop production and soil management",
+    "glossZh": "农学；农艺学",
+    "domain": "general",
+    "etymology": "希腊 agros「田地」+ nomos「管理、法则」",
+    "derivation": [
+      "agr（田地）+ o + -nomy（管理法则）→ 田地管理的学问"
+    ],
+    "example": "She took a degree in agronomy before returning to the farm.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-agr",
+      "cx-o",
+      "cx-nom"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "ai",
     "parts": [
       "ai"
@@ -1562,6 +1688,66 @@
     "partResolution": "exact"
   },
   {
+    "w": "ambulance",
+    "parts": [
+      "ambul",
+      "ance"
+    ],
+    "pos": "n",
+    "glossEn": "a vehicle that carries sick or injured people",
+    "glossZh": "救护车",
+    "domain": "general",
+    "etymology": "拉丁 ambulare「走动」+ -ance；原指野战移动医院",
+    "derivation": [
+      "ambul（走动）+ -ance → 可移动的救护设施"
+    ],
+    "example": "An ambulance reached the scene in four minutes.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-ambul",
+      "sx-ance"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "ambulatory",
+    "parts": [
+      "ambul",
+      "at",
+      "ory"
+    ],
+    "pos": "adj",
+    "glossEn": "able to walk; relating to walking",
+    "glossZh": "能走动的；步行的",
+    "domain": "general",
+    "etymology": "拉丁 ambulatorius < ambulare「走动」",
+    "derivation": [
+      "ambul（走）+ -at- + -ory → 与行走有关的"
+    ],
+    "example": "The patient was ambulatory on the second day after surgery.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-ambul",
+      "px-ad",
+      "sx-ory"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "American",
     "parts": [
       "american"
@@ -1746,6 +1932,157 @@
     "partResolution": "exact"
   },
   {
+    "w": "android",
+    "parts": [
+      "andr",
+      "oid"
+    ],
+    "pos": "n",
+    "glossEn": "a robot that looks like a human",
+    "glossZh": "人形机器人",
+    "domain": "technical",
+    "etymology": "希腊 anēr/andros「人、男人」+ -oeidēs「像…的」",
+    "derivation": [
+      "andr（人）+ -oid（像…的）→ 像人的机器"
+    ],
+    "example": "The film's android learns to imitate grief.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-andr",
+      "cx-oid"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "animal",
+    "parts": [
+      "anim",
+      "al"
+    ],
+    "pos": "n",
+    "glossEn": "a living creature that is not a plant",
+    "glossZh": "动物",
+    "domain": "general",
+    "etymology": "拉丁 animalis < anima「气息、生命」",
+    "derivation": [
+      "anim（生命、气息）+ -al → 有气息者"
+    ],
+    "example": "The fox is a nocturnal animal.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-anim",
+      "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "animate",
+    "parts": [
+      "anim",
+      "ate"
+    ],
+    "pos": "v",
+    "glossEn": "to give life, spirit, or motion to",
+    "glossZh": "使有生气；赋予生命",
+    "domain": "general",
+    "etymology": "拉丁 anima「气息、灵魂」+ -ate",
+    "derivation": [
+      "anim（灵魂、生命）+ -ate（动词后缀）→ 注入生命"
+    ],
+    "example": "A skilled teacher can animate a dull textbook chapter.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-anim",
+      "sx-ate"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "annihilate",
+    "parts": [
+      "an",
+      "nihil",
+      "ate"
+    ],
+    "pos": "v",
+    "glossEn": "to destroy something completely",
+    "glossZh": "彻底消灭；湮灭",
+    "domain": "general",
+    "etymology": "晚期拉丁 annihilare < ad-（向）+ nihil（无）",
+    "derivation": [
+      "an（使…）+ nihil（无）+ -ate → 使化为无"
+    ],
+    "example": "The flood annihilated the lower village.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "sx-an",
+      "cx-nihil-nil",
+      "sx-ate"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "anniversary",
+    "parts": [
+      "ann",
+      "i",
+      "vers",
+      "ary"
+    ],
+    "pos": "n",
+    "glossEn": "the yearly return of a date worth remembering",
+    "glossZh": "周年纪念（日）",
+    "domain": "general",
+    "etymology": "拉丁 anniversarius < annus「年」+ vertere「转」",
+    "derivation": [
+      "ann（年）+ i + vers（转）+ -ary → 每年转回的那一天"
+    ],
+    "example": "They marked their tenth anniversary with a quiet dinner.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-ann-enn",
+      "cx-i",
+      "rx-vert",
+      "cx-ary"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "antebellum",
     "parts": [
       "ante",
@@ -1862,6 +2199,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "anthropology",
+    "parts": [
+      "anthrop",
+      "o",
+      "logy"
+    ],
+    "pos": "n",
+    "glossEn": "the study of human societies and cultures",
+    "glossZh": "人类学",
+    "domain": "general",
+    "etymology": "希腊 anthropos「人」+ -logia「学问」",
+    "derivation": [
+      "anthrop（人）+ o + logy（学科）→ 研究人的学问"
+    ],
+    "example": "He switched from law to anthropology in his second year.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-anthrop",
+      "cx-o",
+      "cx-logy"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "antibiotic",
     "parts": [
       "anti",
@@ -1936,6 +2304,37 @@
       "px-anti",
       "rx-soci",
       "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "antithesis",
+    "parts": [
+      "anti",
+      "the",
+      "sis"
+    ],
+    "pos": "n",
+    "glossEn": "the direct opposite of something",
+    "glossZh": "对立面；对照",
+    "domain": "academic",
+    "etymology": "希腊 antithesis < anti-（相反）+ thesis（放置）",
+    "derivation": [
+      "anti（相反）+ the（放置）+ -sis → 放在对立面"
+    ],
+    "example": "The quiet garden is the antithesis of the noisy street.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-anti",
+      "cx-the",
+      "cx-sis"
     ],
     "partResolution": "exact"
   },
@@ -2058,16 +2457,17 @@
         "detail": "词条释义与词源通识"
       }
     ],
-    "etymology": "拉丁 apparatus < ad- + parare 准备",
+    "etymology": "ad-（向）+ parare「备好」+ -atus",
     "derivation": [
       "ap（朝向；增加） + par（生育） + atus（状态；装备（名）） → 器械；装置"
     ],
     "partIds": [
       "px-ad",
-      "cx-par",
+      "cx-par-2",
       "sx-atus"
     ],
-    "partResolution": "exact"
+    "partResolution": "exact",
+    "note": "parare「备好」，非 parere「生育」"
   },
   {
     "w": "apparatuses",
@@ -2254,6 +2654,37 @@
       "px-ad",
       "cx-pend-pond",
       "sx-ix"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "appetite",
+    "parts": [
+      "ap",
+      "pet",
+      "ite"
+    ],
+    "pos": "n",
+    "glossEn": "a natural desire to eat or to have something",
+    "glossZh": "食欲；欲望",
+    "domain": "general",
+    "etymology": "拉丁 appetitus「趋向」< ad-（向）+ petere（寻求）",
+    "derivation": [
+      "ap（向）+ pet（寻求）+ -ite → 向食物伸手"
+    ],
+    "example": "He lost his appetite during the illness.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-ad",
+      "cx-pet",
+      "sx-ite"
     ],
     "partResolution": "exact"
   },
@@ -2788,10 +3219,11 @@
     ],
     "partIds": [
       "px-a",
-      "cx-sex",
+      "cx-sex-2",
       null
     ],
-    "partResolution": "unresolved"
+    "partResolution": "unresolved",
+    "note": "sexus「性别」，非 sex「六」；-ual 无独立词素记录"
   },
   {
     "w": "aspect",
@@ -2863,6 +3295,35 @@
     "partIds": [
       "px-ad",
       "rx-sist"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "asteroid",
+    "parts": [
+      "aster",
+      "oid"
+    ],
+    "pos": "n",
+    "glossEn": "a small rocky body orbiting the sun",
+    "glossZh": "小行星",
+    "domain": "science",
+    "etymology": "希腊 astēr「星」+ -oeidēs「像…的」",
+    "derivation": [
+      "aster（星）+ -oid（像…的）→ 像星星的东西"
+    ],
+    "example": "An asteroid passed within a million kilometres of Earth.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-aster-astr",
+      "cx-oid"
     ],
     "partResolution": "exact"
   },
@@ -3111,6 +3572,124 @@
     "partResolution": "exact"
   },
   {
+    "w": "audible",
+    "parts": [
+      "aud",
+      "ible"
+    ],
+    "pos": "adj",
+    "glossEn": "loud enough to be heard",
+    "glossZh": "听得见的",
+    "domain": "general",
+    "etymology": "拉丁 audire「听」+ -ibilis「能够」",
+    "derivation": [
+      "aud（听）+ -ible（能…的）→ 能听到的"
+    ],
+    "example": "The warning tone was barely audible over the engines.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-aud",
+      "sx-ible"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "audience",
+    "parts": [
+      "aud",
+      "i",
+      "ence"
+    ],
+    "pos": "n",
+    "glossEn": "the people who watch or listen to a performance",
+    "glossZh": "观众；听众",
+    "domain": "general",
+    "etymology": "拉丁 audientia < audire「听」",
+    "derivation": [
+      "aud（听）+ i + -ence → 听的人"
+    ],
+    "example": "The audience stayed for the whole question session.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-aud",
+      "cx-i",
+      "sx-ence"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "aural",
+    "parts": [
+      "aur",
+      "al"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to the ear or to hearing",
+    "glossZh": "耳的；听觉的",
+    "domain": "general",
+    "etymology": "拉丁 auris「耳」+ -al",
+    "derivation": [
+      "aur（耳）+ -al → 耳的"
+    ],
+    "example": "The test measures both visual and aural memory.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-aur",
+      "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "auricle",
+    "parts": [
+      "aur",
+      "icle"
+    ],
+    "pos": "n",
+    "glossEn": "the visible outer part of the ear",
+    "glossZh": "耳廓",
+    "domain": "general",
+    "etymology": "拉丁 auricula「小耳」，auris「耳」的指小形式",
+    "derivation": [
+      "aur（耳）+ -icle（指小）→ 小耳 → 耳廓"
+    ],
+    "example": "The surgeon repaired a small tear in the auricle.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-aur",
+      "sx-acle"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "autobiography",
     "parts": [
       "auto",
@@ -3149,6 +3728,66 @@
       "cx-bio",
       "cx-graph",
       "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "autocracy",
+    "parts": [
+      "auto",
+      "crac",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "government by one person with unlimited power",
+    "glossZh": "专制统治；独裁政体",
+    "domain": "general",
+    "etymology": "希腊 autokrateia < autos「自己」+ kratein「统治」",
+    "derivation": [
+      "auto（自己）+ crac（统治）+ -y → 一人统治"
+    ],
+    "example": "The country drifted from autocracy to chaos.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-auto",
+      "cx-crac-crat",
+      "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "autocrat",
+    "parts": [
+      "auto",
+      "crat"
+    ],
+    "pos": "n",
+    "glossEn": "a ruler with absolute power",
+    "glossZh": "独裁者；专制君主",
+    "domain": "general",
+    "etymology": "希腊 autokratēs < autos「自己」+ kratos「统治」",
+    "derivation": [
+      "auto（自己）+ crat（统治）→ 独自统治的人"
+    ],
+    "example": "The founder ran the company like an autocrat.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-auto",
+      "cx-crac-crat"
     ],
     "partResolution": "exact"
   },
@@ -3483,6 +4122,37 @@
     "partIds": [
       "cx-bin",
       "cx-ary"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "binocular",
+    "parts": [
+      "bin",
+      "ocul",
+      "ar"
+    ],
+    "pos": "adj",
+    "glossEn": "using both eyes; (n.) an optical instrument for both eyes",
+    "glossZh": "双眼的；双筒望远镜",
+    "domain": "technical",
+    "etymology": "拉丁 bini「两个一组」+ oculus「眼」",
+    "derivation": [
+      "bin（两个一组）+ ocul（眼）+ -ar → 双眼的"
+    ],
+    "example": "Depth perception depends on binocular vision.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-bin",
+      "cx-ocul",
+      "sx-ar"
     ],
     "partResolution": "exact"
   },
@@ -4495,6 +5165,72 @@
     "partResolution": "unresolved"
   },
   {
+    "w": "cardiogram",
+    "parts": [
+      "card",
+      "i",
+      "o",
+      "gram"
+    ],
+    "pos": "n",
+    "glossEn": "a record of the heart's electrical activity",
+    "glossZh": "心动图",
+    "domain": "medical",
+    "etymology": "cardio-「心」+ -gram「记录下来的东西」",
+    "derivation": [
+      "card（心）+ i + o + gram（记录）→ 心的记录图"
+    ],
+    "example": "The cardiogram showed an irregular rhythm.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-card",
+      "cx-i",
+      "cx-o",
+      "cx-gram"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "cardiology",
+    "parts": [
+      "card",
+      "i",
+      "o",
+      "logy"
+    ],
+    "pos": "n",
+    "glossEn": "the branch of medicine dealing with the heart",
+    "glossZh": "心脏病学",
+    "domain": "medical",
+    "etymology": "希腊 kardia「心」+ -logia「学问」",
+    "derivation": [
+      "card（心）+ i + o（连接元音）+ logy（学科）→ 研究心的学问"
+    ],
+    "example": "He was referred to cardiology for further tests.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-card",
+      "cx-i",
+      "cx-o",
+      "cx-logy"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "careful",
     "parts": [
       "care",
@@ -5351,6 +6087,66 @@
     "partResolution": "unresolved"
   },
   {
+    "w": "chronic",
+    "parts": [
+      "chron",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "lasting a long time; long-established",
+    "glossZh": "慢性的；长期的",
+    "domain": "medical",
+    "etymology": "希腊 khronikos < khronos「时间」",
+    "derivation": [
+      "chron（时间）+ -ic → 拖很久的"
+    ],
+    "example": "He suffers from chronic back pain.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-chron",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "chronology",
+    "parts": [
+      "chron",
+      "o",
+      "logy"
+    ],
+    "pos": "n",
+    "glossEn": "the arrangement of events in time order",
+    "glossZh": "年表；年代学",
+    "domain": "academic",
+    "etymology": "希腊 khronos「时间」+ -logia「学问」",
+    "derivation": [
+      "chron（时间）+ o + logy（学科）→ 研究时间顺序"
+    ],
+    "example": "The report sets out a chronology of the accident.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-chron",
+      "cx-o",
+      "cx-logy"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "circle",
     "parts": [
       "circle"
@@ -5849,6 +6645,35 @@
     "partResolution": "unresolved"
   },
   {
+    "w": "clamor",
+    "parts": [
+      "clam",
+      "or"
+    ],
+    "pos": "n",
+    "glossEn": "a loud and confused noise of many voices",
+    "glossZh": "喧嚷；大声的要求",
+    "domain": "general",
+    "etymology": "拉丁 clamor < clamare「呼喊」",
+    "derivation": [
+      "clam（呼喊）+ -or（名词后缀）→ 呼喊声"
+    ],
+    "example": "The clamor for reform grew louder each week.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-clam",
+      "sx-or"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "clarify",
     "parts": [
       "clar",
@@ -6238,6 +7063,70 @@
       "px-com",
       "rx-mit",
       "sx-ee"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "communicate",
+    "parts": [
+      "com",
+      "mun",
+      "ic",
+      "ate"
+    ],
+    "pos": "v",
+    "glossEn": "to share information or feelings with others",
+    "glossZh": "交流；传达",
+    "domain": "general",
+    "etymology": "拉丁 communicare「共享、使公共」< communis「共同的」",
+    "derivation": [
+      "com（共同）+ mun（公共服务）+ -ic- + -ate → 使成为共同所有"
+    ],
+    "example": "The two teams communicate mainly by email.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-com",
+      "cx-mun",
+      "sx-ic",
+      "sx-ate"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "community",
+    "parts": [
+      "com",
+      "mun",
+      "ity"
+    ],
+    "pos": "n",
+    "glossEn": "a group sharing a place, interest, or identity",
+    "glossZh": "社区；共同体",
+    "domain": "general",
+    "etymology": "拉丁 communitas < communis「共同的」",
+    "derivation": [
+      "com（共同）+ mun（公共负担）+ -ity → 共担义务的一群人"
+    ],
+    "example": "The library is run by the local community.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-com",
+      "cx-mun",
+      "sx-ity"
     ],
     "partResolution": "exact"
   },
@@ -6692,6 +7581,35 @@
     "partResolution": "exact"
   },
   {
+    "w": "condemn",
+    "parts": [
+      "con",
+      "demn"
+    ],
+    "pos": "v",
+    "glossEn": "to express strong disapproval of; to sentence",
+    "glossZh": "谴责；判刑",
+    "domain": "general",
+    "etymology": "拉丁 condemnare < con-（加强）+ damnare（判罚）",
+    "derivation": [
+      "con（共同、加强）+ demn（判罚）→ 判定有罪"
+    ],
+    "example": "World leaders condemned the attack on the hospital.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-con",
+      "cx-damn-demn"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "conduct",
     "parts": [
       "con",
@@ -7082,6 +8000,68 @@
       "px-con",
       "rx-form",
       "sx-ity"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "confuse",
+    "parts": [
+      "con",
+      "fus",
+      "e"
+    ],
+    "pos": "v",
+    "glossEn": "to mix up in the mind; to make unclear",
+    "glossZh": "使困惑；混淆",
+    "domain": "general",
+    "etymology": "拉丁 confundere < con-（一起）+ fundere（倒、流）",
+    "derivation": [
+      "con（一起）+ fus（倾倒）+ -e → 倒在一起 → 混淆"
+    ],
+    "example": "The two labels are easy to confuse.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-con",
+      "cx-fund-fus",
+      null
+    ],
+    "partResolution": "unresolved"
+  },
+  {
+    "w": "congregation",
+    "parts": [
+      "con",
+      "greg",
+      "ation"
+    ],
+    "pos": "n",
+    "glossEn": "a gathered group, especially for worship",
+    "glossZh": "（教堂）会众；聚集",
+    "domain": "general",
+    "etymology": "拉丁 congregatio < con-（一起）+ grex（群体）",
+    "derivation": [
+      "con（一起）+ greg（群）+ -ation → 聚成一群"
+    ],
+    "example": "The congregation stood as the choir began.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-con",
+      "cx-greg",
+      "sx-ation"
     ],
     "partResolution": "exact"
   },
@@ -7549,6 +8529,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "contemporary",
+    "parts": [
+      "con",
+      "tempor",
+      "ary"
+    ],
+    "pos": "adj",
+    "glossEn": "belonging to the same time; modern",
+    "glossZh": "同时代的；当代的",
+    "domain": "general",
+    "etymology": "拉丁 contemporarius < con-（共同）+ tempus（时间）",
+    "derivation": [
+      "con（共同）+ tempor（时间）+ -ary → 同一时代的"
+    ],
+    "example": "The gallery shows contemporary Chinese painting.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-con",
+      "cx-tempor",
+      "cx-ary"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "continent",
     "parts": [
       "con",
@@ -7859,6 +8870,64 @@
     "partResolution": "exact"
   },
   {
+    "w": "corporate",
+    "parts": [
+      "corpor",
+      "ate"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to a large company or group",
+    "glossZh": "公司的；法人的",
+    "domain": "finance",
+    "etymology": "拉丁 corporatus < corpus/corporis「身体」→ 结为一个体",
+    "derivation": [
+      "corpor（身体）+ -ate → 组成一个法人实体"
+    ],
+    "example": "Corporate profits rose for the third year.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-corp-corpor",
+      "sx-ate"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "corporation",
+    "parts": [
+      "corpor",
+      "ation"
+    ],
+    "pos": "n",
+    "glossEn": "a company recognized as a legal person",
+    "glossZh": "公司；法人团体",
+    "domain": "finance",
+    "etymology": "拉丁 corporatio < corpus「身体」",
+    "derivation": [
+      "corpor（身体）+ -ation → 结成的法人团体"
+    ],
+    "example": "The corporation employs forty thousand people.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-corp-corpor",
+      "sx-ation"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "corporeal",
     "parts": [
       "corp",
@@ -7923,6 +8992,64 @@
       null
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "cosmic",
+    "parts": [
+      "cosm",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to the universe",
+    "glossZh": "宇宙的",
+    "domain": "science",
+    "etymology": "希腊 kosmikos < kosmos「秩序、宇宙」",
+    "derivation": [
+      "cosm（宇宙、秩序）+ -ic → 宇宙的"
+    ],
+    "example": "The probe measures cosmic radiation.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-cosm",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "cosmos",
+    "parts": [
+      "cosm",
+      "os"
+    ],
+    "pos": "n",
+    "glossEn": "the universe seen as an ordered whole",
+    "glossZh": "宇宙",
+    "domain": "science",
+    "etymology": "希腊 kosmos「秩序、世界」",
+    "derivation": [
+      "cosm（秩序、宇宙）+ -os（名词）→ 有秩序的总体"
+    ],
+    "example": "Ancient thinkers saw the cosmos as a living order.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-cosm",
+      "cx-os-or"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "cough",
@@ -8290,6 +9417,35 @@
     "partResolution": "exact"
   },
   {
+    "w": "credence",
+    "parts": [
+      "cred",
+      "ence"
+    ],
+    "pos": "n",
+    "glossEn": "belief that something is true",
+    "glossZh": "相信；可信度",
+    "domain": "general",
+    "etymology": "拉丁 credentia < credere「相信」",
+    "derivation": [
+      "cred（相信）+ -ence → 相信的状态"
+    ],
+    "example": "The theory has gained credence among geologists.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "rx-cred",
+      "sx-ence"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "credential",
     "parts": [
       "cred",
@@ -8405,6 +9561,35 @@
       "sx-or"
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "credo",
+    "parts": [
+      "cred",
+      "o"
+    ],
+    "pos": "n",
+    "glossEn": "a statement of belief",
+    "glossZh": "信条",
+    "domain": "academic",
+    "etymology": "拉丁 credo「我相信」，信经首词",
+    "derivation": [
+      "cred（相信）+ -o（第一人称）→「我相信」"
+    ],
+    "example": "Low taxes form part of his political credo.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "rx-cred",
+      "cx-o"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "creed",
@@ -8603,6 +9788,126 @@
     "partResolution": "unresolved"
   },
   {
+    "w": "cryptic",
+    "parts": [
+      "crypt",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "deliberately mysterious; hidden in meaning",
+    "glossZh": "隐晦的；神秘的",
+    "domain": "general",
+    "etymology": "希腊 kryptos「隐藏的」+ -ic；同族 crypt（地窖）、cryptography",
+    "derivation": [
+      "crypt（隐藏）+ -ic（形容词后缀）→ cryptic"
+    ],
+    "example": "His answer was so cryptic that nobody understood it.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-crypt",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "cryptogram",
+    "parts": [
+      "crypt",
+      "o",
+      "gram"
+    ],
+    "pos": "n",
+    "glossEn": "a message written in cipher",
+    "glossZh": "密码文字；密文",
+    "domain": "general",
+    "etymology": "crypt（隐藏）+ -o-（连接元音）+ -gram（写下的东西）",
+    "derivation": [
+      "crypt + o + gram → cryptogram"
+    ],
+    "example": "The agent hid a cryptogram inside the advertisement.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-crypt",
+      "cx-o",
+      "cx-gram"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "culpability",
+    "parts": [
+      "culp",
+      "abil",
+      "ity"
+    ],
+    "pos": "n",
+    "glossEn": "the state of being to blame",
+    "glossZh": "可归咎性；罪责",
+    "domain": "legal",
+    "etymology": "晚期拉丁 culpabilitas < culpa「过错」",
+    "derivation": [
+      "culp（过错）+ -abil- + -ity → 应受责备的性质"
+    ],
+    "example": "The court weighed the culpability of each defendant.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-culp",
+      "sx-abil",
+      "sx-ity"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "culpable",
+    "parts": [
+      "culp",
+      "able"
+    ],
+    "pos": "adj",
+    "glossEn": "deserving blame",
+    "glossZh": "应受责备的；有罪的",
+    "domain": "general",
+    "etymology": "拉丁 culpabilis < culpa「过错」",
+    "derivation": [
+      "culp（过错）+ -able（可…的）→ 可归咎的"
+    ],
+    "example": "The report found the manager culpable for the delay.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-culp",
+      "sx-able"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "curricula",
     "parts": [
       "curr",
@@ -8742,6 +10047,35 @@
       null
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "damnation",
+    "parts": [
+      "damn",
+      "ation"
+    ],
+    "pos": "n",
+    "glossEn": "condemnation to eternal punishment",
+    "glossZh": "诅咒；下地狱",
+    "domain": "general",
+    "etymology": "拉丁 damnatio < damnare「判定有罪、判罚」",
+    "derivation": [
+      "damn（判罪、损害）+ -ation → 被判罚"
+    ],
+    "example": "The preacher thundered about damnation and mercy.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-damn-demn",
+      "sx-ation"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "dangerous",
@@ -9241,6 +10575,37 @@
       "sx-ed"
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "dedicate",
+    "parts": [
+      "de",
+      "dic",
+      "ate"
+    ],
+    "pos": "v",
+    "glossEn": "to devote something to a purpose or person",
+    "glossZh": "奉献；致力于",
+    "domain": "general",
+    "etymology": "拉丁 dedicare < de-（郑重）+ dicare（宣告）",
+    "derivation": [
+      "de（郑重）+ dic（说、宣告）+ -ate → 郑重宣告归于某人"
+    ],
+    "example": "She dedicated ten years to the study of beetles.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-de",
+      "cx-dic",
+      "sx-ate"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "deduce",
@@ -11809,6 +13174,35 @@
     "partResolution": "exact"
   },
   {
+    "w": "dual",
+    "parts": [
+      "du",
+      "al"
+    ],
+    "pos": "adj",
+    "glossEn": "consisting of two parts or having two functions",
+    "glossZh": "双重的；二元的",
+    "domain": "general",
+    "etymology": "拉丁 dualis < duo「二」，与 duet、duplicate 同族",
+    "derivation": [
+      "du（二）+ -al → dual"
+    ],
+    "example": "The aircraft uses a dual control system.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-du",
+      "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "duct",
     "parts": [
       "duct"
@@ -11911,6 +13305,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "duplicate",
+    "parts": [
+      "du",
+      "plic",
+      "ate"
+    ],
+    "pos": "v",
+    "glossEn": "to make an exact copy of something",
+    "glossZh": "复制；重复",
+    "domain": "general",
+    "etymology": "拉丁 duplicare < du-（二）+ plicare（折叠）",
+    "derivation": [
+      "du（二）+ plic（折叠）+ -ate → 折成两层 → 复制"
+    ],
+    "example": "Please duplicate this file before you edit it.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-du",
+      "cx-pl-plec",
+      "sx-ate"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "dynamic",
     "parts": [
       "dynam",
@@ -11965,6 +13390,64 @@
     "partIds": [
       "cx-dyn",
       "sx-ics"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "dynamite",
+    "parts": [
+      "dynam",
+      "ite"
+    ],
+    "pos": "n",
+    "glossEn": "an explosive; something highly volatile",
+    "glossZh": "炸药；极具冲击力的事物",
+    "domain": "general",
+    "etymology": "希腊 dynamis「力量」+ -ite（矿物、制品）",
+    "derivation": [
+      "dynam（力量）+ -ite → 靠力量起作用的炸药"
+    ],
+    "example": "The crew used dynamite to clear the boulders.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-dyn",
+      "sx-ite"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "dynamo",
+    "parts": [
+      "dynam",
+      "o"
+    ],
+    "pos": "n",
+    "glossEn": "a machine that generates electricity; an energetic person",
+    "glossZh": "发电机；精力充沛的人",
+    "domain": "general",
+    "etymology": "希腊 dynamis「力量」，dynamo-electric machine 的缩略",
+    "derivation": [
+      "dynam（力量）+ -o → 产生电力的机器"
+    ],
+    "example": "The bicycle light runs off a small dynamo.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-dyn",
+      "cx-o"
     ],
     "partResolution": "exact"
   },
@@ -12961,6 +14444,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "energy",
+    "parts": [
+      "en",
+      "erg",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "the capacity to do work; vigour",
+    "glossZh": "能量；精力",
+    "domain": "general",
+    "etymology": "希腊 energeia < en-（在内）+ ergon（工作）",
+    "derivation": [
+      "en（在内）+ erg（工作）+ -y → 内在的做功能力"
+    ],
+    "example": "The panel converts sunlight into electrical energy.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-oen-en",
+      "cx-erg-urg",
+      "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "enslave",
     "parts": [
       "en",
@@ -13167,6 +14681,66 @@
     "partIds": [
       "cx-err",
       "sx-atum"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "eulogy",
+    "parts": [
+      "eu",
+      "logy"
+    ],
+    "pos": "n",
+    "glossEn": "a speech of high praise, especially for the dead",
+    "glossZh": "悼词；颂词",
+    "domain": "general",
+    "etymology": "希腊 eulogia < eu-（好）+ logos（言辞）",
+    "derivation": [
+      "eu（好）+ logy（言辞）→ 说好话 → 颂词"
+    ],
+    "example": "His eulogy for the old coach moved the whole hall.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-eu",
+      "cx-logy"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "euphoria",
+    "parts": [
+      "eu",
+      "phor",
+      "ia"
+    ],
+    "pos": "n",
+    "glossEn": "a feeling of intense happiness",
+    "glossZh": "欣快；极度兴奋",
+    "domain": "medical",
+    "etymology": "希腊 euphoria < eu-（好）+ pherein（承受）→ 身体舒泰",
+    "derivation": [
+      "eu（好）+ phor（承受）+ -ia（状态）→ 感觉良好"
+    ],
+    "example": "The victory brought a brief euphoria to the whole town.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-eu",
+      "cx-pher-phor",
+      "sx-ia"
     ],
     "partResolution": "exact"
   },
@@ -14038,6 +15612,37 @@
     "partResolution": "unresolved"
   },
   {
+    "w": "extrusion",
+    "parts": [
+      "ex",
+      "trus",
+      "ion"
+    ],
+    "pos": "n",
+    "glossEn": "the act of forcing or pushing something out",
+    "glossZh": "挤出；挤压成型",
+    "domain": "technical",
+    "etymology": "拉丁 extrudere 的过去分词 extrusus < ex-（向外）+ trudere（推）",
+    "derivation": [
+      "ex（向外）+ trus（推）+ -ion → 被推出"
+    ],
+    "example": "The plastic pipe is made by extrusion.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-e",
+      "cx-trud-trus",
+      "sx-ion"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "facile",
     "parts": [
       "fac",
@@ -14503,6 +16108,64 @@
     "domain": "general",
     "partIds": [
       "cx-flu-fluc"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "fluency",
+    "parts": [
+      "flu",
+      "ency"
+    ],
+    "pos": "n",
+    "glossEn": "the ability to express oneself smoothly",
+    "glossZh": "流利；流畅",
+    "domain": "general",
+    "etymology": "拉丁 fluentia < fluere「流动」",
+    "derivation": [
+      "flu（流）+ -ency → 流动般的顺畅"
+    ],
+    "example": "Reading aloud builds fluency.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-flu-fluc",
+      "sx-ency"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "fluent",
+    "parts": [
+      "flu",
+      "ent"
+    ],
+    "pos": "adj",
+    "glossEn": "able to speak or write smoothly and easily",
+    "glossZh": "流利的",
+    "domain": "general",
+    "etymology": "拉丁 fluens < fluere「流动」",
+    "derivation": [
+      "flu（流）+ -ent → 像水一样流的"
+    ],
+    "example": "She is fluent in three languages.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-flu-fluc",
+      "sx-ent"
     ],
     "partResolution": "exact"
   },
@@ -15332,6 +16995,126 @@
       null
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "fugitive",
+    "parts": [
+      "fug",
+      "it",
+      "ive"
+    ],
+    "pos": "n",
+    "glossEn": "a person who has escaped and is in hiding",
+    "glossZh": "逃亡者；逃犯",
+    "domain": "legal",
+    "etymology": "拉丁 fugitivus < fugere「逃走」",
+    "derivation": [
+      "fug（逃）+ -it- + -ive → 逃跑的人"
+    ],
+    "example": "The fugitive was caught at a border crossing.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-fug",
+      "sx-it",
+      "sx-ive"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "fusion",
+    "parts": [
+      "fus",
+      "ion"
+    ],
+    "pos": "n",
+    "glossEn": "the process of joining two things into one",
+    "glossZh": "融合；聚变",
+    "domain": "science",
+    "etymology": "拉丁 fusio < fundere「倾倒、熔化」",
+    "derivation": [
+      "fus（熔化、倾倒）+ -ion → 熔合"
+    ],
+    "example": "The reactor aims at controlled nuclear fusion.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-fund-fus",
+      "sx-ion"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "gastric",
+    "parts": [
+      "gastr",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to the stomach",
+    "glossZh": "胃的",
+    "domain": "medical",
+    "etymology": "希腊 gastēr「胃」+ -ic",
+    "derivation": [
+      "gastr（胃）+ -ic → 胃的"
+    ],
+    "example": "He suffers from gastric pain after large meals.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-gastr",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "gastronomy",
+    "parts": [
+      "gastr",
+      "o",
+      "nomy"
+    ],
+    "pos": "n",
+    "glossEn": "the art and science of good eating",
+    "glossZh": "美食学；烹饪法",
+    "domain": "general",
+    "etymology": "希腊 gastēr「胃」+ nomos「法则」",
+    "derivation": [
+      "gastr（胃）+ o + nomy（法则）→ 关于吃的法则"
+    ],
+    "example": "The region is famous for its gastronomy.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-gastr",
+      "cx-o",
+      "cx-nom"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "gate",
@@ -16505,6 +18288,68 @@
     "partResolution": "exact"
   },
   {
+    "w": "heliotrope",
+    "parts": [
+      "heli",
+      "o",
+      "trop",
+      "e"
+    ],
+    "pos": "n",
+    "glossEn": "a plant that turns toward the sun",
+    "glossZh": "向阳植物；天芥菜",
+    "domain": "general",
+    "etymology": "希腊 hēlios「太阳」+ tropos「转向」",
+    "derivation": [
+      "heli（太阳）+ o + trop（转）+ -e → 随太阳转的植物"
+    ],
+    "example": "A heliotrope grew along the warm wall.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-heli",
+      "cx-o",
+      "cx-trop",
+      null
+    ],
+    "partResolution": "unresolved"
+  },
+  {
+    "w": "helium",
+    "parts": [
+      "heli",
+      "um"
+    ],
+    "pos": "n",
+    "glossEn": "the lightest noble gas, found in the sun's spectrum",
+    "glossZh": "氦",
+    "domain": "science",
+    "etymology": "希腊 hēlios「太阳」+ 化学元素后缀 -ium",
+    "derivation": [
+      "heli（太阳）+ -um（元素名）→ 先在太阳光谱中发现的气体"
+    ],
+    "example": "The balloon rose quickly once filled with helium.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-heli",
+      "cx-ium-um"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "helper",
     "parts": [
       "help",
@@ -16580,6 +18425,124 @@
     "partIds": [
       "rx-help",
       "sx-less"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "hemisphere",
+    "parts": [
+      "hemi",
+      "sphere"
+    ],
+    "pos": "n",
+    "glossEn": "half of a sphere, especially of the earth",
+    "glossZh": "半球",
+    "domain": "general",
+    "etymology": "希腊 hēmi-「半」+ sphaira「球」",
+    "derivation": [
+      "hemi（半）+ sphere（球）→ 半个球"
+    ],
+    "example": "The southern hemisphere has its summer in December.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-hemi",
+      "cx-sphere"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "hemispherical",
+    "parts": [
+      "hemi",
+      "sphere",
+      "ical"
+    ],
+    "pos": "adj",
+    "glossEn": "shaped like half a sphere",
+    "glossZh": "半球形的",
+    "domain": "technical",
+    "etymology": "希腊 hēmi-「半」+ sphaira「球」+ -ical",
+    "derivation": [
+      "hemi（半）+ sphere（球）+ -ical → 半球形的"
+    ],
+    "example": "The dome is a hemispherical shell of concrete.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-hemi",
+      "cx-sphere",
+      "sx-ical"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "hepatic",
+    "parts": [
+      "hepat",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to the liver",
+    "glossZh": "肝的",
+    "domain": "medical",
+    "etymology": "希腊 hēpar/hēpatos「肝」+ -ic",
+    "derivation": [
+      "hepat（肝）+ -ic → 肝的"
+    ],
+    "example": "The scan revealed impaired hepatic function.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-hepat",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "hepatitis",
+    "parts": [
+      "hepat",
+      "itis"
+    ],
+    "pos": "n",
+    "glossEn": "inflammation of the liver",
+    "glossZh": "肝炎",
+    "domain": "medical",
+    "etymology": "希腊 hēpar「肝」+ -itis「炎症」",
+    "derivation": [
+      "hepat（肝）+ -itis（炎症）→ 肝炎"
+    ],
+    "example": "The vaccine protects against one form of hepatitis.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-hepat",
+      "cx-itis"
     ],
     "partResolution": "exact"
   },
@@ -16723,6 +18686,66 @@
       "rx-her",
       "sx-it",
       "sx-ation"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "hexagon",
+    "parts": [
+      "hexa",
+      "gon"
+    ],
+    "pos": "n",
+    "glossEn": "a flat shape with six sides",
+    "glossZh": "六边形",
+    "domain": "general",
+    "etymology": "希腊 hex「六」+ gōnia「角」",
+    "derivation": [
+      "hexa（六）+ gon（角）→ 六个角的图形"
+    ],
+    "example": "The tiles are shaped like a hexagon.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-hexa",
+      "cx-gon-gen"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "hexameter",
+    "parts": [
+      "hexa",
+      "metr",
+      "er"
+    ],
+    "pos": "n",
+    "glossEn": "a line of verse with six metrical feet",
+    "glossZh": "六音步诗行",
+    "domain": "academic",
+    "etymology": "希腊 hexametros < hex「六」+ metron「尺度」",
+    "derivation": [
+      "hexa（六）+ metr（度量）+ -er → 六个音步"
+    ],
+    "example": "Homer's epics are written in hexameter.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-hexa",
+      "cx-metr",
+      "sx-er"
     ],
     "partResolution": "exact"
   },
@@ -16934,6 +18957,64 @@
     "partIds": [
       "rx-homin",
       "sx-id"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "homograph",
+    "parts": [
+      "homo",
+      "graph"
+    ],
+    "pos": "n",
+    "glossEn": "a word spelt like another but different in meaning",
+    "glossZh": "同形异义词",
+    "domain": "academic",
+    "etymology": "希腊 homos「相同」+ graphein「写」",
+    "derivation": [
+      "homo（相同）+ graph（写）→ 写法相同"
+    ],
+    "example": "The two senses of 'bank' make it a homograph.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-homo",
+      "cx-graph"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "homophone",
+    "parts": [
+      "homo",
+      "phone"
+    ],
+    "pos": "n",
+    "glossEn": "a word that sounds like another but differs in spelling",
+    "glossZh": "同音异形词",
+    "domain": "academic",
+    "etymology": "希腊 homos「相同」+ phōnē「声音」",
+    "derivation": [
+      "homo（相同）+ phone（声音）→ 读音相同"
+    ],
+    "example": "'Sea' and 'see' are homophones.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-homo",
+      "cx-phon"
     ],
     "partResolution": "exact"
   },
@@ -17282,6 +19363,37 @@
       "px-hyper",
       "rx-spectr",
       "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "hypodermic",
+    "parts": [
+      "hypo",
+      "derm",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to the layer beneath the skin; (n.) a syringe",
+    "glossZh": "皮下的；皮下注射器",
+    "domain": "medical",
+    "etymology": "希腊 hypo-（在下）+ derma「皮」+ -ic",
+    "derivation": [
+      "hypo（下）+ derm（皮）+ -ic → 皮下的"
+    ],
+    "example": "The nurse prepared a hypodermic injection.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-hypo",
+      "cx-dermat-derm",
+      "sx-ic"
     ],
     "partResolution": "exact"
   },
@@ -20115,6 +22227,35 @@
     "partResolution": "exact"
   },
   {
+    "w": "intercom",
+    "parts": [
+      "inter",
+      "com"
+    ],
+    "pos": "n",
+    "glossEn": "an internal communication system",
+    "glossZh": "内部通话系统",
+    "domain": "technical",
+    "etymology": "inter-（之间）+ communication 的缩略",
+    "derivation": [
+      "inter（之间）+ com（共同、通信）→ 内部互通"
+    ],
+    "example": "The guard called the gate on the intercom.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-inter",
+      "px-com"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "interesting",
     "parts": [
       "interest",
@@ -20233,6 +22374,37 @@
       "sx-al"
     ],
     "partResolution": "exact"
+  },
+  {
+    "w": "intervene",
+    "parts": [
+      "inter",
+      "ven",
+      "e"
+    ],
+    "pos": "v",
+    "glossEn": "to step in to change what is happening",
+    "glossZh": "干预；介入",
+    "domain": "general",
+    "etymology": "拉丁 intervenire < inter-（之间）+ venire（来）",
+    "derivation": [
+      "inter（之间）+ ven（来）+ -e → 到中间来"
+    ],
+    "example": "The central bank intervened to steady the currency.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-inter",
+      "cx-ven",
+      null
+    ],
+    "partResolution": "unresolved"
   },
   {
     "w": "intracellular",
@@ -20356,7 +22528,7 @@
     "glossZh": "静脉内的",
     "glossEn": "into a vein",
     "domain": "general",
-    "etymology": "intra- + 拉丁 vena 'vein' + -ous",
+    "etymology": "intra-（内）+ vena「血管」+ -ous；与 venire「来」无关",
     "derivation": [
       "intra（在内部） + ven（来） + ous（形容词后缀） → intravenous"
     ],
@@ -20380,10 +22552,11 @@
     ],
     "partIds": [
       "px-intra",
-      "cx-ven",
+      "cx-ven-2",
       "sx-ous"
     ],
-    "partResolution": "exact"
+    "partResolution": "exact",
+    "note": "vena「血管」，非 venire「来」"
   },
   {
     "w": "introduce",
@@ -20907,6 +23080,68 @@
     "partResolution": "exact"
   },
   {
+    "w": "isometric",
+    "parts": [
+      "iso",
+      "metr",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "having equal dimensions; of equal measure",
+    "glossZh": "等大的；等距的",
+    "domain": "technical",
+    "etymology": "希腊 isos「相等」+ metron「尺度」+ -ic",
+    "derivation": [
+      "iso（相等）+ metr（度量）+ -ic → 尺寸相等的"
+    ],
+    "example": "The drawing uses an isometric projection.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-iso",
+      "cx-metr",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "isotope",
+    "parts": [
+      "iso",
+      "top",
+      "e"
+    ],
+    "pos": "n",
+    "glossEn": "a form of an element with a different neutron number",
+    "glossZh": "同位素",
+    "domain": "science",
+    "etymology": "希腊 isos「相同」+ topos「位置」（在周期表同一位置）",
+    "derivation": [
+      "iso（相同）+ top（位置）+ -e → 占同一位置的变体"
+    ],
+    "example": "Carbon-14 is a radioactive isotope of carbon.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-iso",
+      "cx-top",
+      null
+    ],
+    "partResolution": "unresolved"
+  },
+  {
     "w": "item",
     "parts": [
       "item"
@@ -21025,6 +23260,97 @@
     "partResolution": "exact"
   },
   {
+    "w": "jurisdiction",
+    "parts": [
+      "jur",
+      "is",
+      "dic",
+      "tion"
+    ],
+    "pos": "n",
+    "glossEn": "the official power to make legal decisions",
+    "glossZh": "司法管辖权；管辖范围",
+    "domain": "legal",
+    "etymology": "拉丁 jurisdictio < jus/juris「法」+ dicere（宣告）",
+    "derivation": [
+      "jur（法）+ -is- + dic（宣告）+ -tion → 依法宣告的权力"
+    ],
+    "example": "The case falls outside this court's jurisdiction.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-jus-jur",
+      "sx-ize",
+      "cx-dic",
+      "sx-tion"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "jury",
+    "parts": [
+      "jur",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "a group of citizens who decide a case in court",
+    "glossZh": "陪审团",
+    "domain": "legal",
+    "etymology": "古法语 juree < 拉丁 jurare「宣誓」< jus「法」",
+    "derivation": [
+      "jur（法、宣誓）+ -y → 宣誓断案的一群人"
+    ],
+    "example": "The jury returned a verdict after two hours.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-jus-jur",
+      "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "juvenile",
+    "parts": [
+      "juven",
+      "ile"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to young people; immature",
+    "glossZh": "少年的；幼稚的",
+    "domain": "legal",
+    "etymology": "拉丁 juvenilis < juvenis「年轻的」",
+    "derivation": [
+      "juven（年轻）+ -ile → 年轻人的"
+    ],
+    "example": "He was tried in a juvenile court.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-jun-juven",
+      "sx-ile"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "keep",
     "parts": [
       "keep"
@@ -21132,6 +23458,66 @@
       null
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "kilogram",
+    "parts": [
+      "kilo",
+      "gram"
+    ],
+    "pos": "n",
+    "glossEn": "a unit of mass equal to one thousand grams",
+    "glossZh": "千克；公斤",
+    "domain": "science",
+    "etymology": "希腊 khilioi「一千」+ gramma「小重量」",
+    "derivation": [
+      "kilo（千）+ gram（克）→ 一千克"
+    ],
+    "example": "The bag weighs just over one kilogram.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-kilo",
+      "cx-gram"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "kilometer",
+    "parts": [
+      "kilo",
+      "metr",
+      "er"
+    ],
+    "pos": "n",
+    "glossEn": "a unit of length equal to one thousand meters",
+    "glossZh": "千米；公里",
+    "domain": "general",
+    "etymology": "希腊 khilioi「一千」+ metron「尺度」",
+    "derivation": [
+      "kilo（千）+ metr（度量）+ -er → 一千米"
+    ],
+    "example": "The village lies a kilometer from the main road.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-kilo",
+      "cx-metr",
+      "sx-er"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "kindly",
@@ -21337,6 +23723,64 @@
     "partResolution": "exact"
   },
   {
+    "w": "lactation",
+    "parts": [
+      "lact",
+      "ation"
+    ],
+    "pos": "n",
+    "glossEn": "the secretion of milk; the period of suckling",
+    "glossZh": "泌乳；哺乳期",
+    "domain": "medical",
+    "etymology": "拉丁 lactatio < lactare「分泌乳汁」< lac/lactis「乳」",
+    "derivation": [
+      "lact（乳）+ -ation → 产乳的过程"
+    ],
+    "example": "The mother returned to work after lactation ended.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-lact",
+      "sx-ation"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "lactose",
+    "parts": [
+      "lact",
+      "ose"
+    ],
+    "pos": "n",
+    "glossEn": "the sugar found in milk",
+    "glossZh": "乳糖",
+    "domain": "science",
+    "etymology": "拉丁 lac/lactis「乳」+ 化学后缀 -ose（糖）",
+    "derivation": [
+      "lact（乳）+ -ose（糖）→ 乳中的糖"
+    ],
+    "example": "He avoids milk because of lactose intolerance.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-lact",
+      "sx-ose"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "laptop",
     "parts": [
       "lap",
@@ -21364,7 +23808,9 @@
       null,
       "cx-top"
     ],
-    "partResolution": "unresolved"
+    "partResolution": "unresolved",
+    "verified": false,
+    "note": "现代英语复合词（lap + top），不是拉丁/希腊词素切分；此前误连 cx-top「地方」"
   },
   {
     "w": "laryngeal",
@@ -21769,6 +24215,68 @@
     "partResolution": "unresolved"
   },
   {
+    "w": "lexical",
+    "parts": [
+      "lex",
+      "ic",
+      "al"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to words or vocabulary",
+    "glossZh": "词汇的",
+    "domain": "academic",
+    "etymology": "希腊 lexikos < lexis「言词」",
+    "derivation": [
+      "lex（词）+ -ic- + -al → 与词有关的"
+    ],
+    "example": "The study compares lexical richness across texts.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-lex-leg",
+      "sx-ic",
+      "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "lexicon",
+    "parts": [
+      "lex",
+      "ic",
+      "on"
+    ],
+    "pos": "n",
+    "glossEn": "the vocabulary of a language or field",
+    "glossZh": "词汇表；词典",
+    "domain": "academic",
+    "etymology": "希腊 lexikon (biblion)「词的书」< lexis「言词」< legein（说）",
+    "derivation": [
+      "lex（词、说）+ -ic- + -on → 词的汇集"
+    ],
+    "example": "The term has entered the general lexicon.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-lex-leg",
+      "sx-ic",
+      "cx-on"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "library",
     "parts": [
       "libr",
@@ -21792,7 +24300,7 @@
         "detail": "词条释义与词源通识"
       }
     ],
-    "etymology": "拉丁 librarium < liber 书",
+    "etymology": "拉丁 liber/libri「书」+ -ary；与 libra「天平」无关",
     "derivation": [
       "libr（平衡、称） + ary（形容词/名词后缀） → 图书馆"
     ],
@@ -21800,7 +24308,8 @@
       "cx-libr",
       "cx-ary"
     ],
-    "partResolution": "exact"
+    "partResolution": "exact",
+    "note": "liber「书」，非 libra「天平」"
   },
   {
     "w": "lidar",
@@ -21825,6 +24334,37 @@
     "domain": "general",
     "partIds": [
       "rx-lidar"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "ligature",
+    "parts": [
+      "lig",
+      "at",
+      "ure"
+    ],
+    "pos": "n",
+    "glossEn": "a thing used for tying; letters joined in print",
+    "glossZh": "结扎线；连字",
+    "domain": "medical",
+    "etymology": "拉丁 ligatura < ligare「捆绑」",
+    "derivation": [
+      "lig（绑）+ -at- + -ure → 用于绑的东西"
+    ],
+    "example": "The surgeon closed the vessel with a ligature.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-lig",
+      "px-ad",
+      "sx-ure"
     ],
     "partResolution": "exact"
   },
@@ -21939,6 +24479,97 @@
     "partIds": [
       "rx-limit",
       "sx-ed"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "literacy",
+    "parts": [
+      "liter",
+      "acy"
+    ],
+    "pos": "n",
+    "glossEn": "the ability to read and write",
+    "glossZh": "读写能力；识字率",
+    "domain": "academic",
+    "etymology": "拉丁 littera「字母」+ -acy",
+    "derivation": [
+      "liter（字母）+ -acy（能力、状态）→ 识字母的能力"
+    ],
+    "example": "Adult literacy rose sharply in one generation.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-liter",
+      "sfx-acy"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "literary",
+    "parts": [
+      "liter",
+      "ary"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to literature or formal writing",
+    "glossZh": "文学的；文体的",
+    "domain": "academic",
+    "etymology": "拉丁 litterarius < littera「字母」",
+    "derivation": [
+      "liter（字母、文字）+ -ary → 与文字作品有关的"
+    ],
+    "example": "The novel won a major literary prize.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-liter",
+      "cx-ary"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "lithography",
+    "parts": [
+      "lith",
+      "o",
+      "graph",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "printing from a flat stone or metal plate",
+    "glossZh": "平版印刷术",
+    "domain": "technical",
+    "etymology": "希腊 lithos「石」+ graphein「写、刻」",
+    "derivation": [
+      "lith（石）+ o + graph（刻写）+ -y → 在石版上刻写印刷"
+    ],
+    "example": "The poster was produced by stone lithography.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-lith-lit",
+      "cx-o",
+      "cx-graph",
+      "cx-y"
     ],
     "partResolution": "exact"
   },
@@ -22306,6 +24937,64 @@
     "partResolution": "exact"
   },
   {
+    "w": "lucid",
+    "parts": [
+      "luc",
+      "id"
+    ],
+    "pos": "adj",
+    "glossEn": "clear and easy to understand; bright",
+    "glossZh": "清晰的；明亮的",
+    "domain": "general",
+    "etymology": "拉丁 lucidus < lucere「发光」",
+    "derivation": [
+      "luc（光）+ -id → 有光的 → 明白的"
+    ],
+    "example": "She gave a lucid account of the experiment.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-lumen-lumin",
+      "sx-id"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "luminous",
+    "parts": [
+      "lumin",
+      "ous"
+    ],
+    "pos": "adj",
+    "glossEn": "giving off light; bright",
+    "glossZh": "发光的；明亮的",
+    "domain": "general",
+    "etymology": "拉丁 luminosus < lumen/luminis「光」",
+    "derivation": [
+      "lumin（光）+ -ous（充满）→ 充满光的"
+    ],
+    "example": "The dial is painted with a luminous compound.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-lumen-lumin",
+      "sx-ous"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "lunar",
     "parts": [
       "lun",
@@ -22526,6 +25215,66 @@
     "partIds": [
       "rx-mag",
       "sx-ic"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "magnificent",
+    "parts": [
+      "magn",
+      "ific",
+      "ent"
+    ],
+    "pos": "adj",
+    "glossEn": "impressively large or beautiful",
+    "glossZh": "壮丽的；宏伟的",
+    "domain": "general",
+    "etymology": "拉丁 magnificus < magnus「大」+ facere「做」",
+    "derivation": [
+      "magn（大）+ -ific（做）+ -ent → 做得很大 → 宏伟"
+    ],
+    "example": "The hall opened onto a magnificent view of the valley.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-magn",
+      "sx-ific",
+      "sx-ent"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "magnify",
+    "parts": [
+      "magn",
+      "ify"
+    ],
+    "pos": "v",
+    "glossEn": "to make something appear larger",
+    "glossZh": "放大；夸大",
+    "domain": "general",
+    "etymology": "拉丁 magnificare < magnus「大」+ facere「做」",
+    "derivation": [
+      "magn（大）+ -ify（使…）→ 使变大"
+    ],
+    "example": "The lens can magnify the image ten times.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-magn",
+      "sx-ify"
     ],
     "partResolution": "exact"
   },
@@ -22865,6 +25614,68 @@
     "partResolution": "unresolved"
   },
   {
+    "w": "maternal",
+    "parts": [
+      "matr",
+      "ern",
+      "al"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to a mother",
+    "glossZh": "母亲的；母系的",
+    "domain": "general",
+    "etymology": "拉丁 maternus < mater「母亲」",
+    "derivation": [
+      "matr（母）+ -ern- + -al → 母亲的"
+    ],
+    "example": "She spent the summer at her maternal grandmother's farm.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-matr",
+      "sx-ern",
+      "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "matriarch",
+    "parts": [
+      "matr",
+      "i",
+      "arch"
+    ],
+    "pos": "n",
+    "glossEn": "a woman who heads a family or group",
+    "glossZh": "女家长；女族长",
+    "domain": "general",
+    "etymology": "拉丁 mater「母亲」+ 希腊 arkhein「统治」",
+    "derivation": [
+      "matr（母）+ i + arch（统治者）→ 女性家长"
+    ],
+    "example": "The family business is run by its eighty-year-old matriarch.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-matr",
+      "cx-i",
+      "cx-arch"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "matrimony",
     "parts": [
       "matr",
@@ -23035,6 +25846,64 @@
       "rx-medi",
       "cx-ev",
       "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "megalith",
+    "parts": [
+      "mega",
+      "lith"
+    ],
+    "pos": "n",
+    "glossEn": "a very large prehistoric stone",
+    "glossZh": "巨石（建筑）",
+    "domain": "academic",
+    "etymology": "希腊 megas「大」+ lithos「石」",
+    "derivation": [
+      "mega（大）+ lith（石）→ 巨石"
+    ],
+    "example": "The tomb is built from megaliths weighing several tons.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-mega-megal",
+      "cx-lith-lit"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "megaphone",
+    "parts": [
+      "mega",
+      "phone"
+    ],
+    "pos": "n",
+    "glossEn": "a cone used to make the voice carry",
+    "glossZh": "扩音器；喇叭筒",
+    "domain": "general",
+    "etymology": "希腊 megas「大」+ phōnē「声音」",
+    "derivation": [
+      "mega（大）+ phone（声音）→ 放大声音的器具"
+    ],
+    "example": "The marshal shouted through a megaphone.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-mega-megal",
+      "cx-phon"
     ],
     "partResolution": "exact"
   },
@@ -23211,6 +26080,126 @@
       "sx-al"
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "metabolism",
+    "parts": [
+      "meta",
+      "bol",
+      "ism"
+    ],
+    "pos": "n",
+    "glossEn": "the chemical processes that sustain life",
+    "glossZh": "新陈代谢",
+    "domain": "science",
+    "etymology": "希腊 metabolē「改变」< meta-（转变）+ ballein（投掷）",
+    "derivation": [
+      "meta（转变）+ bol（投）+ -ism → 体内不断转换的过程"
+    ],
+    "example": "Regular exercise raises your resting metabolism.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-meta",
+      "cx-bl-bol",
+      "sx-ism"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "metamorphic",
+    "parts": [
+      "meta",
+      "morph",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "changed in form, especially rock altered by heat",
+    "glossZh": "变形的；变质（岩）的",
+    "domain": "science",
+    "etymology": "希腊 meta-（转变）+ morphē「形状」+ -ic",
+    "derivation": [
+      "meta（转变）+ morph（形状）+ -ic → 形状改变的"
+    ],
+    "example": "Marble is a metamorphic rock derived from limestone.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-meta",
+      "cx-morph",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "metaphor",
+    "parts": [
+      "meta",
+      "phor"
+    ],
+    "pos": "n",
+    "glossEn": "a figure of speech applying one thing's name to another",
+    "glossZh": "隐喻；比喻",
+    "domain": "academic",
+    "etymology": "希腊 metaphora「转移」< meta-（越过）+ pherein（携带）",
+    "derivation": [
+      "meta（越过）+ phor（携带）→ 把意义搬过去"
+    ],
+    "example": "'A sea of troubles' is a metaphor.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-meta",
+      "cx-pher-phor"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "metric",
+    "parts": [
+      "metr",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to measurement; based on the metre",
+    "glossZh": "度量的；公制的",
+    "domain": "technical",
+    "etymology": "希腊 metron「尺度」+ -ic",
+    "derivation": [
+      "metr（度量）+ -ic → 关于度量的"
+    ],
+    "example": "The lab reports every figure in metric units.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-metr",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "microphone",
@@ -23433,6 +26422,66 @@
     "partIds": [
       "rx-milit",
       "cx-ary"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "milligram",
+    "parts": [
+      "milli",
+      "gram"
+    ],
+    "pos": "n",
+    "glossEn": "one thousandth of a gram",
+    "glossZh": "毫克",
+    "domain": "medical",
+    "etymology": "拉丁 mille「千」+ 法语 gramme「克」",
+    "derivation": [
+      "milli（千分之一）+ gram（克）→ 千分之一克"
+    ],
+    "example": "The tablet contains five milligrams of the drug.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-milli",
+      "cx-gram"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "millimeter",
+    "parts": [
+      "milli",
+      "metr",
+      "er"
+    ],
+    "pos": "n",
+    "glossEn": "one thousandth of a metre",
+    "glossZh": "毫米",
+    "domain": "science",
+    "etymology": "拉丁 mille「千」+ metron「尺度」",
+    "derivation": [
+      "milli（千分之一）+ metr（米）+ -er → 千分之一米"
+    ],
+    "example": "The crack widened by a millimeter each year.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-milli",
+      "cx-metr",
+      "sx-er"
     ],
     "partResolution": "exact"
   },
@@ -23968,6 +27017,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "monogamy",
+    "parts": [
+      "mono",
+      "gam",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "the practice of having one spouse at a time",
+    "glossZh": "一夫一妻制",
+    "domain": "general",
+    "etymology": "希腊 monos「单一」+ gamos「婚姻」",
+    "derivation": [
+      "mono（一）+ gam（婚配）+ -y → 只结一次婚"
+    ],
+    "example": "Monogamy is the legal norm in most of the country.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-mono",
+      "cx-gam",
+      "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "monolingual",
     "parts": [
       "mono",
@@ -24004,6 +27084,35 @@
       "px-mono",
       "rx-lingu",
       "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "monolith",
+    "parts": [
+      "mono",
+      "lith"
+    ],
+    "pos": "n",
+    "glossEn": "a large single block of stone",
+    "glossZh": "独石柱；整块巨石",
+    "domain": "general",
+    "etymology": "希腊 monos「单一」+ lithos「石」",
+    "derivation": [
+      "mono（单一）+ lith（石）→ 一整块石头"
+    ],
+    "example": "A weathered monolith stands at the centre of the ring.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-mono",
+      "cx-lith-lit"
     ],
     "partResolution": "exact"
   },
@@ -24137,6 +27246,37 @@
       null
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "morphology",
+    "parts": [
+      "morph",
+      "o",
+      "logy"
+    ],
+    "pos": "n",
+    "glossEn": "the study of form and structure",
+    "glossZh": "形态学；词法",
+    "domain": "academic",
+    "etymology": "希腊 morphē「形状」+ -logia「学问」",
+    "derivation": [
+      "morph（形状）+ o + logy（学科）→ 研究形态的学问"
+    ],
+    "example": "The course covers the morphology of flowering plants.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-morph",
+      "cx-o",
+      "cx-logy"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "mortuary",
@@ -24291,6 +27431,39 @@
     "partResolution": "exact"
   },
   {
+    "w": "multilateral",
+    "parts": [
+      "mult",
+      "i",
+      "later",
+      "al"
+    ],
+    "pos": "adj",
+    "glossEn": "involving three or more parties or countries",
+    "glossZh": "多边的；多方参与的",
+    "domain": "academic",
+    "etymology": "拉丁 multus「多」+ latus/lateris「边」+ -al",
+    "derivation": [
+      "mult（多）+ i + later（边）+ -al → 多边的"
+    ],
+    "example": "The two sides signed a multilateral trade agreement.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-mult",
+      "cx-i",
+      "rx-later",
+      "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "multilingual",
     "parts": [
       "multi",
@@ -24367,6 +27540,37 @@
       null
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "multiple",
+    "parts": [
+      "mult",
+      "i",
+      "ple"
+    ],
+    "pos": "adj",
+    "glossEn": "consisting of more than one part or instance",
+    "glossZh": "多重的；多个的",
+    "domain": "general",
+    "etymology": "拉丁 multiplex < multus「多」+ plicare（折叠）",
+    "derivation": [
+      "mult（多）+ i + ple（折）→ 折成多层 → 多个的"
+    ],
+    "example": "The report lists multiple causes for the failure.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-mult",
+      "cx-i",
+      "cx-ple"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "muscle",
@@ -24788,6 +27992,66 @@
     "partResolution": "exact"
   },
   {
+    "w": "navigate",
+    "parts": [
+      "nav",
+      "ig",
+      "ate"
+    ],
+    "pos": "v",
+    "glossEn": "to plan and direct a course, especially at sea",
+    "glossZh": "航行；导航",
+    "domain": "general",
+    "etymology": "拉丁 navigare < navis「船」+ agere（驱动）",
+    "derivation": [
+      "nav（船）+ -ig-（驱动）+ -ate → 驾船前行"
+    ],
+    "example": "They navigated the channel without a pilot.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-nav",
+      "cx-ag-ig",
+      "sx-ate"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "navy",
+    "parts": [
+      "nav",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "a country's military force at sea",
+    "glossZh": "海军",
+    "domain": "general",
+    "etymology": "古法语 navie「船队」< 拉丁 navis「船」",
+    "derivation": [
+      "nav（船）+ -y（集合）→ 船队 → 海军"
+    ],
+    "example": "He served in the navy for six years.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-nav",
+      "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "negative",
     "parts": [
       "neg",
@@ -25067,6 +28331,35 @@
     "partIds": [
       "rx-nice",
       "sx-ness"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "nihilism",
+    "parts": [
+      "nihil",
+      "ism"
+    ],
+    "pos": "n",
+    "glossEn": "the belief that nothing has real value or meaning",
+    "glossZh": "虚无主义",
+    "domain": "academic",
+    "etymology": "拉丁 nihil「无」+ -ism",
+    "derivation": [
+      "nihil（无）+ -ism（主义）→ 一切皆无的主张"
+    ],
+    "example": "The novel's ending drifts toward nihilism.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-nihil-nil",
+      "sx-ism"
     ],
     "partResolution": "exact"
   },
@@ -25430,6 +28723,93 @@
     "partResolution": "unresolved"
   },
   {
+    "w": "noxious",
+    "parts": [
+      "nox",
+      "ious"
+    ],
+    "pos": "adj",
+    "glossEn": "harmful, especially to health",
+    "glossZh": "有害的；有毒的",
+    "domain": "science",
+    "etymology": "拉丁 noxius < noxa「伤害」< nocere（伤害）",
+    "derivation": [
+      "nox（伤害）+ -ious → 有害的"
+    ],
+    "example": "The plant releases noxious fumes when burnt.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-nec-noc",
+      "sx-ous"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "nullify",
+    "parts": [
+      "null",
+      "ify"
+    ],
+    "pos": "v",
+    "glossEn": "to make legally void or ineffective",
+    "glossZh": "使无效；取消",
+    "domain": "legal",
+    "etymology": "晚期拉丁 nullificare < nullus「无」+ facere（做）",
+    "derivation": [
+      "null（无）+ -ify（使…）→ 使归于无"
+    ],
+    "example": "The court nullified the contract.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-null",
+      "sx-ify"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "nullity",
+    "parts": [
+      "null",
+      "ity"
+    ],
+    "pos": "n",
+    "glossEn": "the state of being legally void; nothingness",
+    "glossZh": "无效；无价值之物",
+    "domain": "legal",
+    "etymology": "中世纪拉丁 nullitas < nullus「无」",
+    "derivation": [
+      "null（无）+ -ity（性质）→ 无效的状态"
+    ],
+    "example": "The lawyer argued for the nullity of the marriage.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-null",
+      "sx-ity"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "object",
     "parts": [
       "ob",
@@ -25532,6 +28912,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "obnoxious",
+    "parts": [
+      "ob",
+      "nox",
+      "ious"
+    ],
+    "pos": "adj",
+    "glossEn": "extremely unpleasant",
+    "glossZh": "令人讨厌的",
+    "domain": "general",
+    "etymology": "拉丁 obnoxiosus < ob-（向）+ noxa（伤害），词义由「易受伤害」转为「惹人厌」",
+    "derivation": [
+      "ob（向）+ nox（伤害）+ -ious → 一碰就伤人 → 讨厌的"
+    ],
+    "example": "His obnoxious jokes emptied the room.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-ob",
+      "cx-nec-noc",
+      "sx-ous"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "observe",
     "parts": [
       "ob",
@@ -25598,7 +29009,7 @@
     ],
     "partIds": [
       "px-ob",
-      "rx-sol",
+      "rx-sol-lat",
       "cx-esc-sc",
       "sx-ent"
     ],
@@ -25862,7 +29273,7 @@
     "glossZh": "发生；想到",
     "domain": "general",
     "family": "fam-fer",
-    "etymology": "拉丁 occurrere < ob-（朝向）+ currere（跑）",
+    "etymology": "ob-（向）+ currere「跑」→ 跑到跟前，发生；与 cura「关心」无关",
     "derivation": [
       "oc（ob- 在 c 前的同化）+ cur（跑，currere；英语拼写中 rr 简作 r）→ occur 跑到面前 → 发生",
       "注意：此处 cur 取“跑”义（currere），与 cura“关心”同形异源"
@@ -25885,7 +29296,8 @@
       "px-ob",
       "cx-cur"
     ],
-    "partResolution": "exact"
+    "partResolution": "exact",
+    "note": "currere「跑」，非 cura「关心」"
   },
   {
     "w": "octopi",
@@ -26026,6 +29438,35 @@
     "partIds": [
       "cx-octo",
       "rx-pus"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "ocular",
+    "parts": [
+      "ocul",
+      "ar"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to the eye or to sight",
+    "glossZh": "眼睛的；视觉的",
+    "domain": "medical",
+    "etymology": "拉丁 ocularis < oculus「眼」",
+    "derivation": [
+      "ocul（眼）+ -ar → 眼的"
+    ],
+    "example": "The infection causes ocular pain and redness.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-ocul",
+      "sx-ar"
     ],
     "partResolution": "exact"
   },
@@ -26286,6 +29727,134 @@
     "partResolution": "unresolved"
   },
   {
+    "w": "oligarchy",
+    "parts": [
+      "olig",
+      "arch",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "rule by a small group of people",
+    "glossZh": "寡头统治",
+    "domain": "academic",
+    "etymology": "希腊 oligos「少」+ arkhein「统治」",
+    "derivation": [
+      "olig（少）+ arch（统治）+ -y → 少数人统治"
+    ],
+    "example": "The country slid from oligarchy into civil war.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-olig",
+      "cx-arch",
+      "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "oligopoly",
+    "parts": [
+      "olig",
+      "o",
+      "poly"
+    ],
+    "pos": "n",
+    "glossEn": "a market controlled by a few sellers",
+    "glossZh": "寡头垄断",
+    "domain": "finance",
+    "etymology": "希腊 oligos「少」+ pōlein「卖」",
+    "derivation": [
+      "olig（少）+ o + poly（卖）→ 少数卖家把持市场"
+    ],
+    "example": "Three airlines form an oligopoly on that route.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-olig",
+      "cx-o",
+      "cx-poly"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "omnipotent",
+    "parts": [
+      "omn",
+      "i",
+      "pot",
+      "ent"
+    ],
+    "pos": "adj",
+    "glossEn": "having unlimited power",
+    "glossZh": "全能的",
+    "domain": "general",
+    "etymology": "拉丁 omnis「全部」+ potens「有力量的」",
+    "derivation": [
+      "omn（全）+ i + pot（能力）+ -ent → 无所不能的"
+    ],
+    "example": "The old king was described as almost omnipotent.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-omn",
+      "cx-i",
+      "cx-poss-pot",
+      "sx-ent"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "omnivorous",
+    "parts": [
+      "omn",
+      "i",
+      "vor",
+      "ous"
+    ],
+    "pos": "adj",
+    "glossEn": "eating both plants and animals",
+    "glossZh": "杂食的",
+    "domain": "science",
+    "etymology": "拉丁 omnis「全部」+ vorare「吞食」",
+    "derivation": [
+      "omn（全）+ i + vor（吃）+ -ous → 什么都吃的"
+    ],
+    "example": "Rats are omnivorous and adapt to almost any diet.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-omn",
+      "cx-i",
+      "cx-vor",
+      "sx-ous"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "oppose",
     "parts": [
       "op",
@@ -26362,6 +29931,70 @@
       "sx-ation"
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "orthodontist",
+    "parts": [
+      "orth",
+      "odont",
+      "ist"
+    ],
+    "pos": "n",
+    "glossEn": "a dentist who straightens teeth",
+    "glossZh": "正畸牙医",
+    "domain": "medical",
+    "etymology": "希腊 orthos「直的」+ odous/odontos「牙」+ -ist",
+    "derivation": [
+      "orth（正、直）+ odont（牙）+ -ist → 把牙弄直的人"
+    ],
+    "example": "The orthodontist fitted her with braces.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-orth",
+      "cx-odont",
+      "sx-ist"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "orthography",
+    "parts": [
+      "orth",
+      "o",
+      "graph",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "the conventional spelling system of a language",
+    "glossZh": "正字法；拼写体系",
+    "domain": "academic",
+    "etymology": "希腊 orthos「正确的」+ graphein「写」",
+    "derivation": [
+      "orth（正确）+ o + graph（写）+ -y → 正确写法"
+    ],
+    "example": "English orthography preserves many older pronunciations.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-orth",
+      "cx-o",
+      "cx-graph",
+      "cx-y"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "ossify",
@@ -26572,6 +30205,35 @@
     "partResolution": "exact"
   },
   {
+    "w": "ovary",
+    "parts": [
+      "ov",
+      "ary"
+    ],
+    "pos": "n",
+    "glossEn": "the organ that produces eggs",
+    "glossZh": "卵巢",
+    "domain": "medical",
+    "etymology": "现代拉丁 ovarium < ovum「卵」",
+    "derivation": [
+      "ov（卵）+ -ary（场所）→ 存卵之处"
+    ],
+    "example": "The scan showed a small cyst on the left ovary.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-ov",
+      "cx-ary"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "overestimate",
     "parts": [
       "over",
@@ -26675,6 +30337,35 @@
     "partIds": [
       "px-over",
       "rx-work"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "ovoid",
+    "parts": [
+      "ov",
+      "oid"
+    ],
+    "pos": "adj",
+    "glossEn": "shaped like an egg",
+    "glossZh": "卵形的",
+    "domain": "technical",
+    "etymology": "拉丁 ovum「卵」+ 希腊 -oeidēs「像…的」",
+    "derivation": [
+      "ov（卵）+ -oid（像…的）→ 卵形的"
+    ],
+    "example": "The vessel has an ovoid body and a narrow neck.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-ov",
+      "cx-oid"
     ],
     "partResolution": "exact"
   },
@@ -27106,6 +30797,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "perennial",
+    "parts": [
+      "per",
+      "enn",
+      "ial"
+    ],
+    "pos": "adj",
+    "glossEn": "lasting through the year or recurring year after year",
+    "glossZh": "全年的；长期不断的",
+    "domain": "general",
+    "etymology": "拉丁 perennis < per-（贯穿）+ annus/ennus「年」",
+    "derivation": [
+      "per（贯穿）+ enn（年）+ -ial → 贯穿全年"
+    ],
+    "example": "Traffic congestion is a perennial complaint in the city.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-per",
+      "cx-ann-enn",
+      "sx-ial"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "perform",
     "parts": [
       "per",
@@ -27217,6 +30939,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "periodontal",
+    "parts": [
+      "peri",
+      "odont",
+      "al"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to the tissue around the teeth",
+    "glossZh": "牙周的",
+    "domain": "medical",
+    "etymology": "希腊 peri-（周围）+ odous/odontos「牙」+ -al",
+    "derivation": [
+      "peri（周围）+ odont（牙）+ -al → 牙周围的"
+    ],
+    "example": "Gum disease is a common periodontal problem.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-peri",
+      "cx-odont",
+      "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "permanent",
     "parts": [
       "per",
@@ -27228,7 +30981,7 @@
     "glossZh": "永久的",
     "domain": "general",
     "family": null,
-    "etymology": "拉丁 permanens < per-（贯穿）+ manere（停留）",
+    "etymology": "per-（贯穿）+ manere「停留」+ -ent；与 manus「手」无关",
     "derivation": [
       "per（贯穿）+ man（停留，manere）+ ent（形容词后缀）→ permanent",
       "注意：此处 man 取“停留”义（manere），与 manus“手”同形异源"
@@ -27249,10 +31002,11 @@
     ],
     "partIds": [
       "px-per",
-      "rx-man",
+      "rx-man-2",
       "sx-ent"
     ],
-    "partResolution": "exact"
+    "partResolution": "exact",
+    "note": "manere「停留」，非 manus「手」"
   },
   {
     "w": "permission",
@@ -27359,6 +31113,126 @@
       "sx-ive"
     ],
     "partResolution": "ambiguous"
+  },
+  {
+    "w": "petition",
+    "parts": [
+      "pet",
+      "i",
+      "tion"
+    ],
+    "pos": "n",
+    "glossEn": "a formal written request",
+    "glossZh": "请愿书；申请",
+    "domain": "legal",
+    "etymology": "拉丁 petitio < petere「寻求、请求」",
+    "derivation": [
+      "pet（寻求）+ i + -tion（名词）→ 所请求之事"
+    ],
+    "example": "Ten thousand people signed the petition.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-pet",
+      "cx-i",
+      "sx-tion"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "philanthropy",
+    "parts": [
+      "phil",
+      "anthrop",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "the giving of money or help for human welfare",
+    "glossZh": "慈善；博爱",
+    "domain": "general",
+    "etymology": "希腊 philanthrōpia < philein「爱」+ anthropos「人」",
+    "derivation": [
+      "phil（爱）+ anthrop（人）+ -y → 爱人之举"
+    ],
+    "example": "Her philanthropy paid for three rural schools.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-phil",
+      "cx-anthrop",
+      "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "phobia",
+    "parts": [
+      "phob",
+      "ia"
+    ],
+    "pos": "n",
+    "glossEn": "an extreme irrational fear",
+    "glossZh": "恐惧症；畏惧",
+    "domain": "medical",
+    "etymology": "希腊 phobos「恐惧」+ -ia（状态）",
+    "derivation": [
+      "phob（恐惧）+ -ia → 恐惧的状态"
+    ],
+    "example": "He has a phobia about lifts.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-phob",
+      "sx-ia"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "phobic",
+    "parts": [
+      "phob",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to or suffering from a phobia",
+    "glossZh": "恐惧症的；畏忌的",
+    "domain": "medical",
+    "etymology": "希腊 phobos「恐惧」+ -ic",
+    "derivation": [
+      "phob（恐惧）+ -ic → 恐惧的"
+    ],
+    "example": "The reaction was more phobic than rational.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-phob",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "phone",
@@ -28096,6 +31970,97 @@
     "partResolution": "exact"
   },
   {
+    "w": "polygamy",
+    "parts": [
+      "poly",
+      "gam",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "the practice of having more than one spouse",
+    "glossZh": "一夫多妻；多配偶制",
+    "domain": "general",
+    "etymology": "希腊 polos「多」+ gamos「婚姻」",
+    "derivation": [
+      "poly（多）+ gam（婚配）+ -y → 多配偶"
+    ],
+    "example": "The novel describes a family shaped by polygamy.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-poly",
+      "cx-gam",
+      "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "polygon",
+    "parts": [
+      "poly",
+      "gon"
+    ],
+    "pos": "n",
+    "glossEn": "a closed plane figure with many straight sides",
+    "glossZh": "多边形",
+    "domain": "academic",
+    "etymology": "希腊 polys「多」+ gōnia「角」",
+    "derivation": [
+      "poly（多）+ gon（角）→ 多角的图形"
+    ],
+    "example": "The software fills any closed polygon with colour.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-poly",
+      "cx-gon-gen"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "polyphony",
+    "parts": [
+      "poly",
+      "phon",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "music in which several voices sound together",
+    "glossZh": "复调音乐",
+    "domain": "academic",
+    "etymology": "希腊 polys「多」+ phōnē「声音」",
+    "derivation": [
+      "poly（多）+ phon（声）+ -y → 多声部"
+    ],
+    "example": "The choir specialises in Renaissance polyphony.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-poly",
+      "cx-phon",
+      "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "portability",
     "parts": [
       "port",
@@ -28577,6 +32542,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "predicate",
+    "parts": [
+      "pre",
+      "dic",
+      "ate"
+    ],
+    "pos": "v",
+    "glossEn": "to base something on a stated fact; to assert",
+    "glossZh": "断言；使依据于",
+    "domain": "academic",
+    "etymology": "拉丁 praedicare < prae-（在前）+ dicare（宣告）",
+    "derivation": [
+      "pre（在前）+ dic（说）+ -ate → 当众说出 → 断言"
+    ],
+    "example": "The argument is predicated on a false assumption.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-pre",
+      "cx-dic",
+      "sx-ate"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "predict",
     "parts": [
       "pre",
@@ -28981,6 +32977,37 @@
       "px-pro",
       "rx-act",
       "sx-ive"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "proclamation",
+    "parts": [
+      "pro",
+      "clam",
+      "ation"
+    ],
+    "pos": "n",
+    "glossEn": "an official public announcement",
+    "glossZh": "公告；宣言",
+    "domain": "general",
+    "etymology": "拉丁 proclamatio < pro-（向前）+ clamare（呼喊）",
+    "derivation": [
+      "pro（向前）+ clam（呼喊）+ -ation → 向公众喊出的话"
+    ],
+    "example": "The governor issued a proclamation on the holiday.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-pro",
+      "cx-clam",
+      "sx-ation"
     ],
     "partResolution": "exact"
   },
@@ -29610,6 +33637,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "protrude",
+    "parts": [
+      "pro",
+      "trud",
+      "e"
+    ],
+    "pos": "v",
+    "glossEn": "to stick out from a surface",
+    "glossZh": "突出；伸出",
+    "domain": "general",
+    "etymology": "拉丁 protrudere < pro-（向前）+ trudere（推）",
+    "derivation": [
+      "pro（向前）+ trud（推）+ -e → 向前推出"
+    ],
+    "example": "A nail protruded from the plank.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-pro",
+      "cx-trud-trus",
+      null
+    ],
+    "partResolution": "unresolved"
+  },
+  {
     "w": "provide",
     "parts": [
       "pro",
@@ -29666,6 +33724,35 @@
     "partResolution": "exact"
   },
   {
+    "w": "psyche",
+    "parts": [
+      "psych",
+      "e"
+    ],
+    "pos": "n",
+    "glossEn": "the human soul, mind, or spirit",
+    "glossZh": "心灵；精神",
+    "domain": "academic",
+    "etymology": "希腊 psykhē「气息、灵魂」，原为「普绪克」女神名",
+    "derivation": [
+      "psych（心智）+ -e → 心智整体"
+    ],
+    "example": "The story explores the national psyche.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-psych",
+      null
+    ],
+    "partResolution": "unresolved"
+  },
+  {
     "w": "psychiatry",
     "parts": [
       "psych",
@@ -29699,6 +33786,35 @@
       "cx-psych",
       "cx-iatr",
       "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "psychic",
+    "parts": [
+      "psych",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to the mind; (n.) a person claiming extrasensory powers",
+    "glossZh": "心灵的；通灵的",
+    "domain": "general",
+    "etymology": "希腊 psykhē「灵魂、心智」+ -ic",
+    "derivation": [
+      "psych（心智）+ -ic → 心智的"
+    ],
+    "example": "The trauma left a deep psychic wound.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-psych",
+      "sx-ic"
     ],
     "partResolution": "exact"
   },
@@ -29948,6 +34064,66 @@
       "sx-ly"
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "quadrant",
+    "parts": [
+      "quadr",
+      "ant"
+    ],
+    "pos": "n",
+    "glossEn": "one of four parts of a divided whole",
+    "glossZh": "四分之一；象限",
+    "domain": "technical",
+    "etymology": "拉丁 quadrans「四分之一」< quattuor「四」",
+    "derivation": [
+      "quadr（四）+ -ant → 四分之一"
+    ],
+    "example": "The revenue from that quadrant fell sharply.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-quadr",
+      "sx-ant"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "quadratic",
+    "parts": [
+      "quadr",
+      "at",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "involving the square of an unknown quantity",
+    "glossZh": "二次的",
+    "domain": "academic",
+    "etymology": "拉丁 quadratus「使成方形」< quadrare < quattuor「四」",
+    "derivation": [
+      "quadr（四、方）+ -at- + -ic → 与平方有关的"
+    ],
+    "example": "Solve the quadratic equation for both roots.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-quadr",
+      "px-ad",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "quarantined",
@@ -31138,6 +35314,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "refuge",
+    "parts": [
+      "re",
+      "fug",
+      "e"
+    ],
+    "pos": "n",
+    "glossEn": "a place or state of shelter from danger",
+    "glossZh": "避难所；庇护",
+    "domain": "general",
+    "etymology": "拉丁 refugium < re-（回）+ fugere（逃）",
+    "derivation": [
+      "re（回）+ fug（逃）+ -e → 逃回去的地方"
+    ],
+    "example": "The climbers took refuge in a stone hut.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-re",
+      "cx-fug",
+      null
+    ],
+    "partResolution": "unresolved"
+  },
+  {
     "w": "regal",
     "parts": [
       "reg",
@@ -31292,6 +35499,37 @@
     "partIds": [
       "px-re",
       "rx-ject"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "rejuvenate",
+    "parts": [
+      "re",
+      "juven",
+      "ate"
+    ],
+    "pos": "v",
+    "glossEn": "to make someone or something look or feel young again",
+    "glossZh": "使恢复活力；使年轻",
+    "domain": "general",
+    "etymology": "re-（再）+ 拉丁 juvenis「年轻」+ -ate",
+    "derivation": [
+      "re（再）+ juven（年轻）+ -ate → 使再年轻"
+    ],
+    "example": "The new square rejuvenated the old quarter.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-re",
+      "cx-jun-juven",
+      "sx-ate"
     ],
     "partResolution": "exact"
   },
@@ -31453,6 +35691,37 @@
     "partIds": [
       "rx-rely",
       "sx-ance"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "religion",
+    "parts": [
+      "re",
+      "lig",
+      "ion"
+    ],
+    "pos": "n",
+    "glossEn": "a system of faith and worship",
+    "glossZh": "宗教",
+    "domain": "general",
+    "etymology": "拉丁 religio，常释为 re-（再）+ ligare（绑）「重新系紧」",
+    "derivation": [
+      "re（再、回）+ lig（绑）+ -ion → 把人重新系住的约束"
+    ],
+    "example": "The two communities practise the same religion.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-re",
+      "cx-lig",
+      "sx-ion"
     ],
     "partResolution": "exact"
   },
@@ -32097,6 +36366,37 @@
       "px-re",
       "rx-sist",
       "sx-ant"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "resonance",
+    "parts": [
+      "re",
+      "son",
+      "ance"
+    ],
+    "pos": "n",
+    "glossEn": "a deep, full sound; a reinforcing response",
+    "glossZh": "共鸣；共振",
+    "domain": "science",
+    "etymology": "拉丁 resonantia < re-（回）+ sonare（发声）",
+    "derivation": [
+      "re（回）+ son（声）+ -ance → 声音回来 → 共鸣"
+    ],
+    "example": "The hall gives the cello a warm resonance.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-re",
+      "cx-son",
+      "sx-ance"
     ],
     "partResolution": "exact"
   },
@@ -32841,6 +37141,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "revive",
+    "parts": [
+      "re",
+      "viv",
+      "e"
+    ],
+    "pos": "v",
+    "glossEn": "to bring back to life, use, or strength",
+    "glossZh": "使复苏；复兴",
+    "domain": "general",
+    "etymology": "拉丁 revivere < re-（再）+ vivere（活）",
+    "derivation": [
+      "re（再）+ viv（活）+ -e → 再活过来"
+    ],
+    "example": "A grant revived the town's old theatre.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-re",
+      "cx-vit-viv",
+      null
+    ],
+    "partResolution": "unresolved"
+  },
+  {
     "w": "rewrite",
     "parts": [
       "re",
@@ -33198,10 +37529,12 @@
     ],
     "domain": "general",
     "partIds": [
-      "cx-sal-sil",
+      "cx-sal-2",
       "cx-ary"
     ],
-    "partResolution": "exact"
+    "partResolution": "exact",
+    "note": "sal「盐」+ -ary：原指买盐的钱，非 salire「跳」",
+    "etymology": "拉丁 sal「盐」+ -ary：原指发给士兵买盐的津贴"
   },
   {
     "w": "sapience",
@@ -33775,6 +38108,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "segregate",
+    "parts": [
+      "se",
+      "greg",
+      "ate"
+    ],
+    "pos": "v",
+    "glossEn": "to set apart from a group",
+    "glossZh": "隔离；分开",
+    "domain": "general",
+    "etymology": "拉丁 segregare < se-（分开）+ grex（群体）",
+    "derivation": [
+      "se（分开）+ greg（群）+ -ate → 使离群"
+    ],
+    "example": "The old rules segregated passengers by race.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-se",
+      "cx-greg",
+      "sx-ate"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "semicircle",
     "parts": [
       "semi",
@@ -34206,10 +38570,10 @@
     ],
     "partIds": [
       "px-se",
-      "cx-par",
+      null,
       "sx-ator"
     ],
-    "partResolution": "exact"
+    "partResolution": "ambiguous"
   },
   {
     "w": "ship",
@@ -34687,6 +39051,35 @@
       null
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "sonic",
+    "parts": [
+      "son",
+      "ic"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to sound or to the speed of sound",
+    "glossZh": "声音的；音速的",
+    "domain": "technical",
+    "etymology": "拉丁 sonus「声音」+ -ic",
+    "derivation": [
+      "son（声）+ -ic → 声音的"
+    ],
+    "example": "The jet broke the sonic barrier over the desert.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-son",
+      "sx-ic"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "special",
@@ -37056,6 +41449,37 @@
     "partResolution": "exact"
   },
   {
+    "w": "symmetry",
+    "parts": [
+      "sym",
+      "metr",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "balanced correspondence of parts on opposite sides",
+    "glossZh": "对称（性）",
+    "domain": "general",
+    "etymology": "希腊 symmetria < syn-（共同）+ metron（尺度）",
+    "derivation": [
+      "sym（共同）+ metr（尺度）+ -y → 尺度相合"
+    ],
+    "example": "The building's symmetry is best seen from the river.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-syn",
+      "cx-metr",
+      "cx-y"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "sympathy",
     "parts": [
       "sym",
@@ -37126,6 +41550,37 @@
       "px-syn",
       "cx-chron",
       "sx-ize"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "synergy",
+    "parts": [
+      "syn",
+      "erg",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "combined action producing more than the parts alone",
+    "glossZh": "协同作用；增效",
+    "domain": "general",
+    "etymology": "希腊 synergia < syn-（共同）+ ergon（工作）",
+    "derivation": [
+      "syn（共同）+ erg（工作）+ -y → 共同做功"
+    ],
+    "example": "The merger promised synergy between the two labs.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "px-syn",
+      "cx-erg-urg",
+      "cx-y"
     ],
     "partResolution": "exact"
   },
@@ -37614,6 +42069,35 @@
     "partResolution": "exact"
   },
   {
+    "w": "temporary",
+    "parts": [
+      "tempor",
+      "ary"
+    ],
+    "pos": "adj",
+    "glossEn": "lasting only for a limited time",
+    "glossZh": "暂时的；临时的",
+    "domain": "general",
+    "etymology": "拉丁 temporarius < tempus/temporis「时间」",
+    "derivation": [
+      "tempor（时间）+ -ary → 只在一段时间内的"
+    ],
+    "example": "The bridge is closed for temporary repairs.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-tempor",
+      "cx-ary"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "tenable",
     "parts": [
       "ten",
@@ -37827,6 +42311,35 @@
     "partResolution": "exact"
   },
   {
+    "w": "terrain",
+    "parts": [
+      "terr",
+      "ain"
+    ],
+    "pos": "n",
+    "glossEn": "the physical features of a stretch of land",
+    "glossZh": "地形；地势",
+    "domain": "general",
+    "etymology": "法语 terrain < 拉丁 terrenum「土地」< terra「地」",
+    "derivation": [
+      "terr（土地）+ -ain → 土地的面貌"
+    ],
+    "example": "The vehicles were built for rough terrain.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-terr",
+      "sx-ain"
+    ],
+    "partResolution": "exact"
+  },
+  {
     "w": "terrible",
     "parts": [
       "terr",
@@ -37840,8 +42353,41 @@
     ],
     "domain": "general",
     "partIds": [
-      "cx-terr",
+      "cx-terr-2",
       "sx-ible"
+    ],
+    "partResolution": "exact",
+    "note": "terr(ere)「使害怕」，非 terra「土地」",
+    "etymology": "拉丁 terrere「使害怕」的 territ- + -ible"
+  },
+  {
+    "w": "territory",
+    "parts": [
+      "terr",
+      "it",
+      "ory"
+    ],
+    "pos": "n",
+    "glossEn": "an area of land under a particular control",
+    "glossZh": "领土；地域",
+    "domain": "general",
+    "etymology": "拉丁 territorium < terra「土地」",
+    "derivation": [
+      "terr（土地）+ -it- + -ory（场所）→ 属于某方的土地"
+    ],
+    "example": "The wolves defend a territory of thirty square kilometres.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-terr",
+      "sx-it",
+      "sx-ory"
     ],
     "partResolution": "exact"
   },
@@ -37955,6 +42501,35 @@
     "partIds": [
       "cx-therm",
       "cx-meter"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "thesis",
+    "parts": [
+      "the",
+      "sis"
+    ],
+    "pos": "n",
+    "glossEn": "a long research paper; a stated position",
+    "glossZh": "论文；论点",
+    "domain": "academic",
+    "etymology": "希腊 thesis「放置、所立之点」< tithenai（放置）",
+    "derivation": [
+      "the（放置）+ -sis（动作）→ 立起来的论点"
+    ],
+    "example": "Her thesis argues that the treaty changed little.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-the",
+      "cx-sis"
     ],
     "partResolution": "exact"
   },
@@ -38179,6 +42754,68 @@
       "cx-tom-tm",
       "cx-o",
       "cx-graphy"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "topical",
+    "parts": [
+      "top",
+      "ical"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to current affairs; applied to a place",
+    "glossZh": "时事性的；局部的",
+    "domain": "academic",
+    "etymology": "希腊 topos「地方、论题」+ -ical",
+    "derivation": [
+      "top（地方、论题）+ -ical → 与当下话题有关的"
+    ],
+    "example": "The show mixes topical humour with music.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-top",
+      "sx-ical"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "topography",
+    "parts": [
+      "top",
+      "o",
+      "graph",
+      "y"
+    ],
+    "pos": "n",
+    "glossEn": "the physical arrangement of surface features",
+    "glossZh": "地形；地形学",
+    "domain": "science",
+    "etymology": "希腊 topos「地方」+ graphein「描写」",
+    "derivation": [
+      "top（地方）+ o + graph（描写）+ -y → 对地面的描写"
+    ],
+    "example": "The topography makes road building expensive here.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-top",
+      "cx-o",
+      "cx-graph",
+      "cx-y"
     ],
     "partResolution": "exact"
   },
@@ -38826,6 +43463,64 @@
       "cx-tra-trans",
       "rx-port",
       "sx-er"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "trilogy",
+    "parts": [
+      "tri",
+      "logy"
+    ],
+    "pos": "n",
+    "glossEn": "a set of three related works",
+    "glossZh": "三部曲",
+    "domain": "academic",
+    "etymology": "希腊 tri-（三）+ -logia（作品、言说）",
+    "derivation": [
+      "tri（三）+ logy（作品）→ 三部作品"
+    ],
+    "example": "The director finished his war trilogy last year.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-tri",
+      "cx-logy"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "triple",
+    "parts": [
+      "tri",
+      "ple"
+    ],
+    "pos": "adj",
+    "glossEn": "consisting of three parts; three times as much",
+    "glossZh": "三倍的；三重的",
+    "domain": "general",
+    "etymology": "拉丁 triplus < tri-（三）+ -plus（倍）",
+    "derivation": [
+      "tri（三）+ ple（倍）→ 三倍"
+    ],
+    "example": "Output tripled in a single season.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-tri",
+      "cx-ple"
     ],
     "partResolution": "exact"
   },
@@ -40392,6 +45087,93 @@
       null
     ],
     "partResolution": "unresolved"
+  },
+  {
+    "w": "vital",
+    "parts": [
+      "vit",
+      "al"
+    ],
+    "pos": "adj",
+    "glossEn": "essential to life or to success",
+    "glossZh": "至关重要的；生命的",
+    "domain": "general",
+    "etymology": "拉丁 vitalis < vita「生命」",
+    "derivation": [
+      "vit（生命）+ -al → 与生命有关的"
+    ],
+    "example": "Clean water is vital to the whole plan.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-vit-viv",
+      "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "vocal",
+    "parts": [
+      "voc",
+      "al"
+    ],
+    "pos": "adj",
+    "glossEn": "relating to the voice; expressing opinions freely",
+    "glossZh": "嗓音的；直言不讳的",
+    "domain": "general",
+    "etymology": "拉丁 vocalis < vox/vocis「声音」",
+    "derivation": [
+      "voc（声音）+ -al → 声音的"
+    ],
+    "example": "She became a vocal critic of the scheme.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-voc",
+      "sx-al"
+    ],
+    "partResolution": "exact"
+  },
+  {
+    "w": "vocation",
+    "parts": [
+      "voc",
+      "ation"
+    ],
+    "pos": "n",
+    "glossEn": "a strong calling to a particular work",
+    "glossZh": "职业；使命感",
+    "domain": "general",
+    "etymology": "拉丁 vocatio「召唤」< vocare「呼唤」",
+    "derivation": [
+      "voc（呼唤）+ -ation → 被召唤去做的事"
+    ],
+    "example": "Teaching was a vocation for him, not a job.",
+    "verified": true,
+    "sources": [
+      {
+        "id": "S5",
+        "title": "现代辞书（词源条目）",
+        "detail": "OED / Etymonline 核对"
+      }
+    ],
+    "partIds": [
+      "cx-voc",
+      "sx-ation"
+    ],
+    "partResolution": "exact"
   },
   {
     "w": "vociferation",

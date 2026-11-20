@@ -1,0 +1,252 @@
+{
+  "id": "w35d4",
+  "week": 35,
+  "day": 4,
+  "title": "Latinate：为什么不必追问“直接还是间接”",
+  "tagline": "fragile 与 frail 是同一个拉丁词的两次入境；对构词分析来说，两者都算 Latinate",
+  "objectives": [
+    "能说明“直接借自拉丁”与“经法语中转”在词形上留下的不同痕迹",
+    "能解释为什么词分析只需判断“是否形似拉丁”，不必考据具体路径",
+    "能用 frail／fragile 这类双式词说明两条路径可以并存"
+  ],
+  "prereqs": [
+    "w35d3",
+    "c-borrowing",
+    "c-greek-latin"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-greek-latin",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s9-3"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一条链，不是一次跳跃",
+      "body": "拉丁词进入英语，通常不是一步到位：拉丁 →（通俗拉丁／法语）→ 英语。有时法语又从拉丁**重新借回**书面词形，于是同一个拉丁词在法语里也有两副面孔，再一起传到英语。\n\n所以问“这个词是直接从拉丁借的，还是经法语来的”，有时**没有唯一答案**：两条路都真的存在，最后都落在英语里。animal 看上去像拉丁原形，其实可能来自法语对拉丁的再借——但它仍然是 Latinate。\n\n这就是本课要立的标签：**看材料，不追路线**。构词分析需要的是“能不能按拉丁词素拆”，不是“走了几步”。",
+      "terms": [
+        {
+          "term": "Latinate",
+          "zh": "拉丁系的",
+          "en": "Latinate",
+          "note": "形似拉丁、可按拉丁词素分析的词，不追究具体借入路径"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四组双式词：同源、两路",
+      "body": "每一行都是“同一个词的两次入境”。左边被法语磨掉了音节与词尾，右边按拉丁原形重拼。**两条路的痕迹不同**：有 ch、oi、丢音节的多半经法语；保留 -t-、-c-、-tion 的多半是书面借入。",
+      "head": [
+        "拉丁原形",
+        "经法语（口语，磨短）",
+        "书面借入（保留拉丁形）",
+        "意义分工"
+      ],
+      "rows": [
+        [
+          "fragilis",
+          "frail",
+          "fragile",
+          "虚弱／易碎"
+        ],
+        [
+          "cadentia",
+          "chance",
+          "cadence",
+          "机会／节奏"
+        ],
+        [
+          "ratio",
+          "reason",
+          "ration",
+          "理由／配给"
+        ],
+        [
+          "potio",
+          "poison",
+          "potion",
+          "毒药／药剂"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么词分析不必考据",
+      "body": "对构词分析来说，要紧的是这个词**能不能按拉丁词素拆**，而不是它在路上走了几步。animal 可按 anim-（生命、气息）＋ -al 拆；即使它其实是法语从拉丁借来再传给英语的，拆法照样成立。\n\n教材因此用一个概括标签：**Latinate**。它承诺的是“形似拉丁、可按拉丁词素处理”，不承诺具体路径。需要精确路径时，那是词源学的活，靠文献与音形证据。\n\n这条分工很实用：读专业文献时你会遇到大量 Latinate 词，能拆就能猜；至于它 1380 年从巴黎来还是 1520 年从拉丁来，读文章时不需要知道。",
+      "terms": [
+        {
+          "term": "loanword",
+          "zh": "借词",
+          "en": "loanword",
+          "note": "从另一种语言整体吸收进来的词"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "路径会留下痕迹（但不是判决）",
+      "body": "判断路径有三条常用线索：**音形**（ch、oi、au 这类法语化结果）、**词尾**（-tion、-able、-ous 多为书面层）、**文献年代与语域**（法律、医学、神学的书面词多直接借）。\n\n但三条都只是线索，不是判决：同一时期两条路可以并行；抄写者还会“更正”拼写——scissors 的 sc- 就是后人误按拉丁 scindere 改的，原本来自法语的 cisoires。\n\n所以稳妥的做法是：能判就说，判不准就用 Latinate 这个宽标签。**宽标签不是偷懒，是承认证据的限度**。"
+    },
+    {
+      "kind": "compare",
+      "title": "直接借 vs 经法语",
+      "body": "两栏的分工与第 9 周讲的法语借词三个语义场一致：书面层进学术与制度，口语层进日常生活。所以英语里同源的两副面孔，常常一个“文”一个“白”。",
+      "a": "直接借自拉丁（书面层）",
+      "b": "经法语中转（口语层）",
+      "rows": [
+        {
+          "label": "词形",
+          "a": "保留拉丁词形与词尾",
+          "b": "音节脱落、c→ch、o→oi 等法语化"
+        },
+        {
+          "label": "例",
+          "a": "fragile、capture、ration、potion",
+          "b": "frail、chase、reason、poison"
+        },
+        {
+          "label": "语域",
+          "a": "学术、法律、宗教的书面词",
+          "b": "日常、商业、生活的口语词"
+        },
+        {
+          "label": "可否区分",
+          "a": "多数可辨，但边界模糊",
+          "b": "多数可辨，偶有后人误改拼写"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w35d4-p1",
+      "kind": "mcq",
+      "prompt": "Latinate 这个标签的含义是：",
+      "choices": [
+        "形似拉丁、可按拉丁词素分析，但不承诺具体借入路径",
+        "确定直接借自古典拉丁的词",
+        "经法语中转的词",
+        "所有源自拉丁语的现代术语"
+      ],
+      "answer": 0,
+      "explain": "Latinate 是宽标签：管“材料”，不管“路线”。它既包括直接借的（fragile），也包括经法语来的（frail），甚至可以包括法语从拉丁再借、再传给英语的词。第二、三项都太窄，把标签当成了路径判定。",
+      "concepts": [
+        "c-borrowing",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w35d4-p2",
+      "kind": "mcq",
+      "prompt": "下列哪一组是双式词（同源、两路进入英语）？",
+      "choices": [
+        "frail / fragile",
+        "cow / beef",
+        "foot / feet",
+        "un- / -ness"
+      ],
+      "answer": 0,
+      "explain": "frail 与 fragile 都来自拉丁 fragilis，一条经法语口语、一条按拉丁原形书面借入，是同源双式词。cow/beef 是不同来源的词并存（本族 vs 法语）；foot/feet 是同一词的屈折形式；un-/-ness 是不同位置的词缀。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w35d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语单词",
+      "sentence": "English often keeps two forms of one Latin word: chance beside cadence, poison beside ___, frail beside fragile.",
+      "answer": "potion",
+      "accept": [
+        "potion",
+        "Potion"
+      ],
+      "explain": "填 potion。poison 与 potion 都来自拉丁 potio（饮、药剂）：经法语口语的成了 poison（毒药），按书面形借入的成了 potion（药剂）。同源、两路、意义分化——双式词的标准剧本。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w35d4-p4",
+      "kind": "mcq",
+      "prompt": "判断一个词“经法语中转”，最常用的线索是：",
+      "choices": [
+        "音节脱落、c→ch、o→oi 等法语化音形",
+        "词的拼写长度",
+        "这个词是否出现在词典里",
+        "这个词是否有拉丁词根"
+      ],
+      "answer": 0,
+      "explain": "法语化音形是最直接的路标：拉丁的 c 在法语前元音前变 ch（cantare→chanter→chant），o 在重读开音节变 oi（ratio→raison）。有拉丁词根只说明它是 Latinate，不能区分路径；拼写长度与词典收录都无关。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w35d4-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“For word analysis we may call both forms Latinate: the label says what the word is made of, not which road it travelled.” 这句话的意思是：",
+      "choices": [
+        "标签只管构词材料，不管借入路径",
+        "标签能确定借入的年代",
+        "标签只适用于直接借自拉丁的词",
+        "标签只适用于经法语来的词"
+      ],
+      "answer": 0,
+      "explain": "says what the word is made of, not which road it travelled——材料 vs 路径的区分。这正是 Latinate 这个标签的设计意图：让构词分析不必先做词源考据。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w35d4-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 doublet 在句中的含义",
+      "passage": "A doublet is a pair of words that go back to one source but entered the language by different routes, often centuries apart. Because each route reshaped the word in its own way, the two forms no longer look alike, and speakers rarely suspect that they are relatives.",
+      "word": "doublet",
+      "choices": [
+        "同源但经不同路径进入同一语言的两个词",
+        "一对意义完全相同的同义词",
+        "同一个词的两种拼写变体",
+        "一种双关语"
+      ],
+      "answer": 0,
+      "strategy": "① 定义句：go back to one source but entered by different routes；② 因果：each route reshaped the word —— 所以外形不同；③ 结果：speakers rarely suspect that they are relatives，说明是“看不出亲戚关系的同源对”；④ 排除同义词、拼写变体、双关：三者都不含“不同路径”这个要素。",
+      "explain": "doublet（双式词）来自 double（双）。它是“树＋网”在一对词上的合影：同一条根，两条路。典型例子除 frail／fragile，还有 chief／chef、guardian／warden、guarantee／warranty。",
+      "concepts": [
+        "c-inference",
+        "c-borrowing",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 9 节：Latinate 标签、直接借与间接借不必区分"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "frail／fragile、chance／cadence、poison／potion、reason／ration 的双式路径"
+    }
+  ]
+}

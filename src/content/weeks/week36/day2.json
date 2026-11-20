@@ -1,0 +1,284 @@
+{
+  "id": "w36d2",
+  "week": 36,
+  "day": 2,
+  "title": "语义密度：从“几乎无义”到“近乎词根”",
+  "tagline": "同样叫后缀，-s 只剩一个语法信号，-crat 却实打实表示“统治者”",
+  "objectives": [
+    "能用 -s 与 -crat 说明词缀的语义密度存在连续差异",
+    "能说出四条可操作的密度判据：可否用实词改写、换词基后义是否稳定、成员是否封闭、删去后句法是否受损",
+    "能解释为什么 -ous 接近密度最低端，而 -crat、-graph 接近词根一端"
+  ],
+  "prereqs": [
+    "w36d1",
+    "w04d1",
+    "c-suffix",
+    "c-derivation"
+  ],
+  "concepts": [
+    "c-suffix",
+    "c-affix",
+    "c-root",
+    "c-inflection",
+    "c-derivation",
+    "c-combining"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s6-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "词缀不是一个模子刻出来的",
+      "body": "教材提醒：词缀的语义密度差异很大。一端是几乎纯语法的标记，另一端是接近词根的实义成分，中间是一大片过渡带。\n\n拿两个都出现在词尾的成分对比：**books 的 -s** 只告诉你“不止一个”，删掉它句子照样成立，只是数变了；**democrat 的 -crat** 却明明白白表示“统治者、某种统治的支持者”，你能用一个实词把它改写成 ruler。前者密度接近零，后者接近词根。\n\n这个差别不是学术趣味，它直接决定学习策略：低密度词缀靠**规则**掌握（-s 的三种读音、-ed 的拼写规则），高密度成分必须**逐个记义**（-crat、-graph、-meter 各自带什么）。把两者当成同一类东西背，效率会很低。",
+      "terms": [
+        {
+          "term": "semantic density",
+          "zh": "语义密度",
+          "en": "semantic density",
+          "note": "一个词素自身携带多少可独立表述的词汇义"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "一条从语法到词根的连续统",
+      "body": "从下往上读：越往下越像语法，越往上越像词根。注意每一行的“能否用一个实词改写”一栏，这是四条判据里最好用的一条——如果你能用 ruler、write、measure 这样的实词把该成分改说出来，它的密度就高。",
+      "head": [
+        "密度",
+        "成分",
+        "例词",
+        "能否用实词改写"
+      ],
+      "rows": [
+        [
+          "极低（纯语法）",
+          "-s 复数、-ed 过去、-er 比较级",
+          "books、walked、kinder",
+          "不能，只能改说成“复数／过去／更……”"
+        ],
+        [
+          "低（转类）",
+          "-ous、-al、-ic 的一部分用法",
+          "famous、national、historic",
+          "勉强：只能改说成“具有……性质的”"
+        ],
+        [
+          "中（带一点义）",
+          "-less、un-、non-、-ish",
+          "helpless、unkind、nonstop、childish",
+          "能：没有、不、非、有点像"
+        ],
+        [
+          "中高（有实义后缀）",
+          "-er 施事、-ment、-ness",
+          "teacher、government、kindness",
+          "能：做……的人、行为、性质"
+        ],
+        [
+          "高（近词根）",
+          "-crat、-graph、-meter",
+          "democrat、photograph、thermometer",
+          "能：统治者、写、测量"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "-s 与 -crat：同在后缀位，密度两端",
+      "body": "把这两个成分放在一起看，密度的四个侧面会同时暴露出来。注意第三行“成员是否封闭”：-s 是封闭清单，数得清；-crat 能不断造新词（technocrat、plutocrat、meritocrat），是半开放的。",
+      "a": "-s（复数）",
+      "b": "-crat（统治者）",
+      "rows": [
+        {
+          "label": "自身意义",
+          "a": "只有“复数”这一语法信息，无词汇义",
+          "b": "“统治者、某种统治的支持者”，词汇义明确"
+        },
+        {
+          "label": "能否用实词改写",
+          "a": "不能",
+          "b": "能：ruler、supporter of rule"
+        },
+        {
+          "label": "成员是否封闭",
+          "a": "封闭，英语只有 -s／-es 这一套",
+          "b": "半开放，可不断造新词"
+        },
+        {
+          "label": "删除后的后果",
+          "a": "句子仍合语法，只是数变了",
+          "b": "词不再成立，democrat 不能去掉 -crat"
+        },
+        {
+          "label": "学习方式",
+          "a": "记规则（读音、拼写）",
+          "b": "记义项（并注意它常与 -cracy 配对）"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "中间地带最难：-ish、-ee 与 -ous",
+      "body": "密度低不等于“没有义”，而是“意义被语法功能压住了”。三种典型情况：\n\n**一义多形**：-less、un-、non- 的意义很稳定，都是否定，只是搭配和语体不同（helpless 是“没有帮助可依靠”，unkind 是“不善良”，nonstop 是“不停”）。这类词缀好学，因为一条义管一片。\n\n**一形多义**：-ish 至少三种——childish（像孩子一样的）、reddish（略带红色的）、British（属于某地的）。-ee 也有两读：employee 是受事（被雇用者），escapee 是施事（逃跑者）。这类必须按词记。\n\n**几乎只剩词性**：-ous 在很多词里只剩下“构成形容词”的功能，famous、nervous、copious 的具体意义主要来自词根。判断方法是：把 -ous 换成“与……有关的”，句子基本不变，说明它没带来多少独立信息。",
+      "terms": [
+        {
+          "term": "-ish",
+          "zh": "形容词后缀",
+          "en": "-ish",
+          "note": "像……的／略带的／属于……的，至少三义"
+        },
+        {
+          "term": "-ous",
+          "zh": "形容词后缀",
+          "en": "-ous",
+          "note": "多数情况下只标词性，词汇义由词根承担"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "四条判据，按顺序问",
+      "body": "遇到一个不熟悉的词尾，按这四问走一遍，密度大致就能定位：\n\n**第一问：能用实词改写吗？** 能改写成 ruler、write、measure 的，密度高；只能改写成“复数、过去、更……”的，密度低。\n\n**第二问：换一个词基，它的义还稳定吗？** -less 接在 help、hope、care 后面都是“没有”，稳定；-ish 接在 child、red、Britain 后面意义各不相同，不稳定——不稳定往往意味着它有多个义项，而不是没有义。\n\n**第三问：成员是封闭清单吗？** 封闭（-s、-ed）偏语法；能不断新增（-crat、-gate）偏词汇。\n\n**第四问：删掉它，剩下的是词还是残片？** 删 -s 剩 book，仍是词；删 -crat 剩 demo-，成了残片，说明 -crat 承担了主要构词任务。\n\n四问指向同一结论时最可靠；指向不一致时，以第一问和第四问为主，因为它们最接近“这个词还成不成立”。",
+      "terms": [
+        {
+          "term": "closed list",
+          "zh": "封闭清单",
+          "en": "closed list",
+          "note": "成员可以穷举、不再新增的语法成分集合"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w36d2-p1",
+      "kind": "mcq",
+      "prompt": "按语义密度从低到高排列，哪一项正确？",
+      "choices": [
+        "-s（复数）< -ous < -crat",
+        "-crat < -ous < -s（复数）",
+        "-ous < -s（复数）< -crat",
+        "三者密度相同，只是位置不同"
+      ],
+      "answer": 0,
+      "explain": "-s 只标复数，几乎无词汇义；-ous 多数情况下只剩“构成形容词”，语义稀薄但比 -s 略实；-crat 明确表示“统治者”，可以改写成 ruler，接近词根。这就是教材说的“密度差异很大”。",
+      "concepts": [
+        "c-suffix",
+        "c-inflection",
+        "c-root"
+      ]
+    },
+    {
+      "id": "w36d2-p2",
+      "kind": "mcq",
+      "prompt": "为什么说 -ous 处在密度较低的一端？",
+      "choices": [
+        "它通常只承担“构成形容词”的功能，具体意义主要来自词根",
+        "它是否定后缀，意义固定为“不”",
+        "它只能接在希腊词根后面",
+        "它是屈折后缀，只标语法关系"
+      ],
+      "answer": 0,
+      "explain": "-ous 的功能主要是把名词性词基变成形容词（fame→famous、nerve→nervous），把他说成“与……有关的”句子基本不变，说明它没带来多少独立词汇义。它不是否定后缀，也不是屈折后缀——它确实造出了新词，只是语义贡献小。",
+      "concepts": [
+        "c-suffix",
+        "c-derivation"
+      ]
+    },
+    {
+      "id": "w36d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个词素（不加连字符）",
+      "sentence": "In democrat, aristocrat and bureaucrat, the element ___ carries the sense “ruler” or “supporter of a form of rule”.",
+      "answer": "crat",
+      "accept": [
+        "crat",
+        "-crat"
+      ],
+      "explain": "-crat 来自希腊 kratos“权力、统治”，义为“统治者、某种统治的支持者”，与 -cracy（统治制度）配对：democracy 是制度，democrat 是人。它的语义密度接近词根，不能像 -s 那样只当语法标记处理。",
+      "concepts": [
+        "c-suffix",
+        "c-root"
+      ]
+    },
+    {
+      "id": "w36d2-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）technocrat 最可能的意思是：",
+      "choices": [
+        "掌握技术权力、以技术专家身份参与治理的人",
+        "反对使用技术的人",
+        "研究技术史的人",
+        "一种技术设备"
+      ],
+      "answer": 0,
+      "explain": "techno-（技术，希腊 technē“技艺”）+ -crat（统治者、治理者）→“技术专家出身的治理者”。同族有 technocracy（技术专家治国）。这里 -crat 的高密度正好帮上忙：只要认出它，整词方向就定了；如果把它当成低密度的语法后缀，就推不出来。",
+      "concepts": [
+        "c-suffix",
+        "c-root",
+        "c-inference"
+      ],
+      "hint": "先定 -crat 的义，再看 techno- 提供什么领域。"
+    },
+    {
+      "id": "w36d2-p5",
+      "kind": "mcq",
+      "prompt": "-ish 在 childish、reddish、British 三个词里的意义关系是：",
+      "choices": [
+        "同一形式承载多个义项：像……的／略带的／属于……的",
+        "三处意义完全相同，都是“像……的”",
+        "childish 的 -ish 是屈折后缀，其余是派生后缀",
+        "reddish 的 -ish 表示否定"
+      ],
+      "answer": 0,
+      "explain": "childish 是“像孩子一样的（常含贬义）”，reddish 是“略带红色的”，British 是“属于不列颠的”。同一个 -ish 有三个义项，属于“一形多义”，所以密度判据的第二问（换词基后义是否稳定）会给出“不稳定”的答案——这不等于它没有义，而是义要按词定。",
+      "concepts": [
+        "c-suffix",
+        "c-morpheme"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w36d2-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 plutocrat 在句中的含义",
+      "passage": "The reforms were drafted by a small circle of plutocrats whose fortunes came from mining and shipping. They spoke of efficiency, but every clause protected the assets of the very group that had written it.",
+      "word": "plutocrats",
+      "choices": [
+        "靠财富掌握影响力的人",
+        "研究古代文物的学者",
+        "负责监管矿业的政府官员",
+        "反对私有财产的活跃分子"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：pluto-（财富，希腊 ploutos）+ -crat（统治者）+ -s（复数）；② 句法：由 whose fortunes came from mining and shipping 修饰，直接指向财富来源；③ 语境：they wrote the rules and protected their own assets，说明是以财富换取影响力；④ 排除：学者、监管者、反私有财产者都与“保护自身资产”矛盾。",
+      "explain": "plutocrat 是“财阀、富豪统治者”。pluto- 这个成分在 plutocracy（财阀政治）里同样出现。这道题靠的正是高密度词缀：-crat 一旦认出，整词就是“某类统治者”，剩下的只是判断是哪一类；语境再确认是“财富”这一类。",
+      "concepts": [
+        "c-suffix",
+        "c-root",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 6 节：词缀意义的密度差异（-less、un-、non-、-ish、-ee、-ous）"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态学：屈折标记与派生后缀的语义贡献"
+    }
+  ]
+}

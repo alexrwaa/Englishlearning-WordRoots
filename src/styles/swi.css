@@ -1,0 +1,139 @@
+/* ------------------------------------------------------------------ */
+/* SWI drills: hand-drawn morpheme boundaries and real-word judgement  */
+/* Imported by components/session/ExerciseView.tsx.                    */
+/* ------------------------------------------------------------------ */
+
+.boundary-block {
+  margin: 6px 0 4px;
+}
+
+/* The word as a row of letters with a clickable gap between each pair. */
+.cut-word {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel-2);
+  font-family: var(--mono);
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.cut-letter {
+  padding: 4px 0;
+  color: var(--ink);
+  user-select: none;
+}
+
+/* The gap itself. A bare narrow button keeps the target hittable while the
+   dashed guide stays quiet until hovered, so the letters read as one word. */
+button.cut {
+  position: relative;
+  width: 18px;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  border-radius: 5px;
+  flex: none;
+}
+
+button.cut::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 50%;
+  width: 2px;
+  transform: translateX(-1px);
+  border-radius: 2px;
+  background: var(--line-strong);
+  opacity: 0.5;
+  transition: background 120ms ease, opacity 120ms ease, width 120ms ease;
+}
+
+button.cut:hover::after {
+  background: var(--accent);
+  opacity: 1;
+  width: 3px;
+}
+
+button.cut:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+button.cut[aria-pressed='true']::after {
+  background: var(--accent);
+  opacity: 1;
+  width: 3px;
+}
+
+/* Judged: the verdict belongs on the exact gap that was cut (or missed). */
+button.cut[data-state='correct']::after {
+  background: var(--green);
+  opacity: 1;
+  width: 3px;
+}
+
+button.cut[data-state='wrong']::after {
+  background: var(--red);
+  opacity: 1;
+  width: 3px;
+}
+
+button.cut[data-state='missed']::after {
+  background: var(--amber);
+  opacity: 1;
+  width: 3px;
+}
+
+button.cut:disabled {
+  cursor: default;
+}
+
+.cut-standard {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+
+/* ------------------------------------------------------------------ */
+
+.judge-why {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-left: 2px solid var(--accent-soft);
+  border-radius: var(--radius-sm);
+  background: var(--panel-2);
+  font-size: 13.5px;
+}
+
+.judge-why ul {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 5px;
+}
+
+.judge-why li {
+  color: var(--ink-soft);
+}
+
+.judge-word {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink);
+  margin-right: 7px;
+}

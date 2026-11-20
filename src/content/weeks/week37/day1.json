@@ -1,0 +1,273 @@
+{
+  "id": "w37d1",
+  "week": 37,
+  "day": 1,
+  "title": "拟声词：古音比今音更贴切",
+  "tagline": "cough 里的那个音原本像清嗓子，几百年的音变把它磨平了",
+  "objectives": [
+    "能说明拟声词模仿的是声音，但模仿方式仍受语言音系约束",
+    "能解释音变（如 /x/ 消失、元音高化）为何会磨损拟声性",
+    "能对拟声理据作有保留的表述，不把构拟音值当成录音"
+  ],
+  "prereqs": [
+    "w09d2",
+    "w36d4",
+    "c-etymology",
+    "c-semantic-shift"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-semantic-shift",
+    "c-borrowing",
+    "c-transparency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s19-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "拟声不是录音",
+      "body": "**onomatopoeia**（拟声）指用语音模仿所指的声音：buzz、hiss、crash。听起来像是“直接复制”，其实每一步都经过语言的筛选：英语的音位系统里没有搭嘴音（click），所以它不会用搭嘴音去模仿敲击；英语的音节结构也不允许某些辅音丛，所以模仿会被改写。\n\n这就带来一个反直觉的结论：**拟声词也会随着语音变化而变得不那么像**。词形一旦固定，音变照常发生，而拼写往往保留旧貌，于是今天读出来的声音与当初模仿的声音就对不上了。\n\n教材举的 cough、bleat、barbarian、borborygmus 都属于这种情况：不是词义变了，而是**声音变了，模仿性被磨损**。",
+      "terms": [
+        {
+          "term": "onomatopoeia",
+          "zh": "拟声（词）",
+          "en": "onomatopoeia",
+          "note": "用语音模仿所指声音的构词方式"
+        },
+        {
+          "term": "sound change",
+          "zh": "音变",
+          "en": "sound change",
+          "note": "语音系统随时间发生的规律性变化，会磨损拟声的贴切度"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个词：原本像什么，现在差在哪",
+      "body": "第二列是学界通行的构拟，不是录音，不能当作精确音值。看第三列：每个词的模仿对象都很具体（清嗓子、羊叫、听不懂的外语、肠鸣），而第四列说明磨损发生在哪一层——辅音、元音，还是整个音节的重叠。",
+      "head": [
+        "词",
+        "较早形式（构拟）",
+        "模仿什么",
+        "为什么今天不那么像"
+      ],
+      "rows": [
+        [
+          "cough",
+          "中古英语 coughen，词干带软腭擦音 /x/",
+          "清嗓子的喉部摩擦声",
+          "现代英语丢了 /x/，读 /kɒf/，摩擦部位前移"
+        ],
+        [
+          "bleat",
+          "古英语 blǣtan，长元音 ǣ（构拟为前低长元音）",
+          "羊叫的开口颤音",
+          "元音高化为 /iː/，开口度变小，羊叫感减弱"
+        ],
+        [
+          "barbarian",
+          "希腊 barbaros，重复 bar-bar",
+          "听不懂的外语（“巴拉巴拉”）",
+          "词义已固定为“野蛮人”，重叠的模仿性不再被感知"
+        ],
+        [
+          "borborygmus",
+          "希腊 borborygmos，bor-bor 重叠",
+          "肠子蠕动的咕噜声",
+          "纯学术借词，只在医学语境出现，声音理据被术语性掩盖"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "磨损是怎么发生的",
+      "body": "三条机制最常见。\n\n**一，辅音消失或弱化。** cough 的 /x/ 在现代英语标准音里消失了，只在苏格兰语 loch 这类词里还听得到。清嗓子的摩擦声正是靠这个音，丢了它，模仿性就掉了一大半。\n\n**二，元音系统整体移动。** 中古英语到现代英语经历了一次大推移，长元音普遍高化。bleat 的长开元音变成了 /iː/，开口度缩小，羊叫那种“张开嘴的颤音”就不明显了。\n\n**三，拼写冻结。** 拼写一旦固定，就不再跟着读音走。于是 hiccup 保留了 hic- 这个像打嗝的短促音节（早期拼作 hiccough），而 cough 的 gh 成了纯拼写化石。\n\n三条机制叠在一起，就出现了教材说的现象：**同一个拟声词，按古音读比按今音读更逼真**。",
+      "terms": [
+        {
+          "term": "Great Vowel Shift",
+          "zh": "元音大推移",
+          "en": "Great Vowel Shift",
+          "note": "中古英语到现代英语的长元音系统性高化"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "还贴切的 vs 已磨损的",
+      "body": "不是所有拟声词都被磨平。判断标准很简单：今天读出来的声音，还能不能让人直接联想到所指。能，就是第一列；不能，就得靠词源解释，属于第二列。这个区分对记忆有用——第一列可以靠声音记，第二列必须靠词源记。",
+      "a": "今天仍然贴切",
+      "b": "今天已磨损",
+      "rows": [
+        {
+          "label": "例词",
+          "a": "hiss、buzz、crash、splash、murmur",
+          "b": "cough、bleat、barbarian、borborygmus"
+        },
+        {
+          "label": "为什么",
+          "a": "擦音、塞擦音、重叠结构保留了噪音质感",
+          "b": "关键音段丢失或元音移动，模仿对象不可直接听出"
+        },
+        {
+          "label": "记忆方式",
+          "a": "可凭声音直接记",
+          "b": "必须靠词源说明，否则只是死记"
+        },
+        {
+          "label": "跨语言稳定性",
+          "a": "较高，多种语言有相似形式",
+          "b": "较低，多为本语言内部的历史产物"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三条谨慎原则",
+      "body": "**第一，构拟不是录音。** 我们说的是“中古英语这个词尾很可能是 /x/”，不是“我们听过”。构拟依据是拼写、押韵、借词与后代语言的对应，可靠性有高有低。\n\n**第二，拟声也受音系限制。** 一种语言能用哪些音、怎么组合，决定了它怎么“模仿”。所以模仿从来不是中立的复制，而是用本语言的音去近似。\n\n**第三，跨语言拟声并不一致。** 狗叫在英语是 woof、日语是 wan-wan、俄语是 gav-gav、普通话常写作汪汪。若拟声是直接复制，就不该有这种差异。\n\n三条合起来给出一句可用的结论：**拟声有真实的语音理据，但理据是被语言系统过滤过的，而且会被音变磨损。**",
+      "terms": [
+        {
+          "term": "reconstruction",
+          "zh": "构拟",
+          "en": "reconstruction",
+          "note": "依据对应关系推测早期音值，不是直接观测"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w37d1-p1",
+      "kind": "mcq",
+      "prompt": "cough 今天的拟声性比中古英语弱，主要原因是：",
+      "choices": [
+        "词干中的软腭擦音 /x/ 在现代标准英语中消失了",
+        "这个词从法语借入，原本就不是拟声词",
+        "它的词义从“咳嗽”变成了“感冒”",
+        "重音位置从第一音节移到了第二音节"
+      ],
+      "answer": 0,
+      "explain": "中古英语 coughen 的词干中带软腭擦音 /x/，像清嗓子时的喉部摩擦；现代标准英语丢了这个音，读 /kɒf/，摩擦部位前移，模仿性因此减弱。词义没有变，也不是借词。",
+      "concepts": [
+        "c-etymology",
+        "c-transparency"
+      ]
+    },
+    {
+      "id": "w37d1-p2",
+      "kind": "mcq",
+      "prompt": "barbarian 的词源 barbaros 模仿的是什么？",
+      "choices": [
+        "听不懂的外语，重复的 bar-bar 像无意义的音节流",
+        "战场上刀剑相击的声音",
+        "野兽的吼叫",
+        "风吹过帐篷的声音"
+      ],
+      "answer": 0,
+      "explain": "希腊语 barbaros 用重复的 bar-bar 模仿非希腊语者的说话声，听者只觉得是一串无意义音节，于是引申为“外邦人”，再演变为“野蛮人”。这是“拟声 + 语义贬降”叠加的例子。",
+      "concepts": [
+        "c-etymology",
+        "c-semantic-shift"
+      ]
+    },
+    {
+      "id": "w37d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文名词",
+      "sentence": "The doctor listened to the patient's abdomen and noted a loud ___, the gurgling sound made by gas moving through the intestine.",
+      "answer": "borborygmus",
+      "accept": [
+        "borborygmus",
+        "肠鸣音"
+      ],
+      "explain": "borborygmus 指肠鸣音，来自希腊 borborygmos，bor-bor 的重叠模仿肠内气体蠕动的咕噜声。它是纯学术借词，声音理据被术语性掩盖，今天多数使用者并不知道它其实是拟声词。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w37d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）murmur 最可能属于哪一类词？",
+      "choices": [
+        "拟声词：重复的 mur- 模仿低而连续的人声",
+        "缩拼词：取多个词首字母",
+        "逆构词：从名词去掉后缀造出动词",
+        "混成词：两个词各取一半"
+      ],
+      "answer": 0,
+      "explain": "murmur 通过 mur- 的重复模仿低沉连续的声音（低语、溪流、心脏杂音），属于拟声词。它的重复结构是关键线索：拟声词常用重叠来表现持续性，这与缩拼、逆构、混成的形式特征都不同。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ],
+      "hint": "先看有没有重复音节，再想这个重复在模仿什么。"
+    },
+    {
+      "id": "w37d1-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一句对拟声的表述最严谨？",
+      "choices": [
+        "拟声有真实的语音理据，但模仿经过本语言音系过滤，且会被音变磨损",
+        "拟声词直接复制声音，因此各语言的拟声词都一样",
+        "拟声词没有理据，和任意符号没有区别",
+        "只要按现代读音读，拟声词总是比古音更逼真"
+      ],
+      "answer": 0,
+      "explain": "拟声确有语音理据，但不是中立复制：要受本语言可用音与音节的限制，还会被音变磨损。所以各语言拟声词并不一致（狗叫有 woof、wan-wan、gav-gav），也不能说今音总比古音逼真——cough、bleat 恰好相反。",
+      "concepts": [
+        "c-etymology",
+        "c-transparency"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w37d1-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 bleat 在句中的含义",
+      "passage": "At dusk the lamb began to bleat, a thin wavering cry that rose and fell as it searched for the ewe. The sound carried across the field, high and unsteady, quite unlike the deep bark of the farm dogs.",
+      "word": "bleat",
+      "choices": [
+        "羊叫，发出细弱颤抖的叫声",
+        "狗吠，发出低沉短促的声音",
+        "鸟鸣，发出连续清脆的音",
+        "风声，发出低沉的呼啸"
+      ],
+      "answer": 0,
+      "strategy": "① 语境：主语是 the lamb，动作是寻找母羊时发出的叫声；② 描写：a thin wavering cry that rose and fell、high and unsteady 都指向细弱颤动的羊叫；③ 对比：quite unlike the deep bark of the farm dogs 明确排除狗吠；④ 词源辅助：bleat 是拟声词，古英语 blǣtan 的长开元音更接近羊叫。",
+      "explain": "bleat 是“羊叫”。这道题不靠词源也能做出来，语境给足了线索；词源的作用是加固记忆：古英语 blǣtan 的长开元音 /ɛː/ 开口度大，更像羊的颤音，现代 /bliːt/ 已经高化。这就是“古音更贴切”的一个具体例子。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 19 节：拟声与音变对拟声性的磨损（cough、bleat、barbarian、borborygmus）"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "语音学与历史语言学：音变规律、构拟的性质"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "cough、bleat 的中古与古英语形式核对"
+    }
+  ]
+}

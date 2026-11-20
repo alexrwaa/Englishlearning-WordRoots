@@ -331,8 +331,22 @@ function Invoke-Case {
     }
     Write-Host "launched pid=$($proc.Id) from $appDir"
 
+    # Cold start: from process start to the renderer reporting ready. The number
+    # used to live only inside an artifact; it is emitted as an annotation so a
+    # Windows timing can be read (and trended) without downloading anything.
+    $startedAt = $null
+    try { $startedAt = $proc.StartTime.ToUniversalTime() } catch { $startedAt = $null }
+
     # --- assertion 1: the frontend mounted and painted ----------------------
     $ready = Wait-ForJson $readyPath $ReadyTimeoutSec
+    if ($null -ne $ready -and $null -ne $startedAt -and $null -ne $ready.ready_at_ms) {
+      $epochMs = [int64](($startedAt - [datetime]'1970-01-01T00:00:00Z').TotalMilliseconds)
+      $coldMs = [int64]$ready.ready_at_ms - $epochMs
+      if ($coldMs -gt 0) {
+        Write-Host "cold-start: $coldMs ms (process start -> frontend ready)"
+        Write-Host "::notice title=cold-start case=$Id::$coldMs ms from process start to frontend_ready"
+      }
+    }
     if ($null -eq $ready) {
       $readyNote = "frontend-ready.json missing after ${ReadyTimeoutSec}s"
     } else {

@@ -1,0 +1,255 @@
+{
+  "id": "w33d4",
+  "week": 33,
+  "day": 4,
+  "title": "从孟加拉湾到冰岛",
+  "tagline": "原始印欧语没留下一个字，却留下了一整套词尾——英语的 he/him/his 就是它的残片",
+  "objectives": [
+    "能说出印欧语系的地理范围与“无文献、靠构拟”的证据状况",
+    "能举例说明“高度屈折”意味着什么：一个词形要承担几项语法信息",
+    "能用“祖语屈折丰富、后代简化”解释英语残留的格形式"
+  ],
+  "prereqs": [
+    "w33d1",
+    "w13d1",
+    "c-inflection"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-etymology",
+    "c-cognate"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s3-1"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一个语系，两个端点",
+      "body": "印欧语系西到冰岛，东到孟加拉与印度北部，南到地中海与伊朗，北到斯堪的纳维亚。它的祖语**没有文字**：没有一块泥板写着“原始印欧语”，也没有一本词典。\n\n我们说它存在，是因为从印度到爱尔兰的语言在核心词与语法范畴上呈现成批对应。范围本身就是证据：只有一段共同的早史，才能解释相隔几千公里的地方为何共用“父亲”“三”“脚”这一整套词，而且共用得那么有规律。\n\n这个范围还给了我们一个有用的直觉：**语系的大小与绝对年代无关，与分化的次数有关**。走得越远、分得越多，对应就越稀，但底层越清楚。",
+      "terms": [
+        {
+          "term": "Proto-Indo-European",
+          "zh": "原始印欧语",
+          "en": "Proto-Indo-European",
+          "note": "印欧语系的构拟祖语，无文献，形式一律加星号"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "高度的屈折：一个名词能有多少形式",
+      "body": "“两打形式”是教材给的量级说法，不必记成精确数。要看的是趋势：**从祖语到现代英语，形式数一路减**。减掉的不是“语法”，而是“用词尾标语法”这种手段；手段换成了语序、介词与助动词。",
+      "head": [
+        "阶段",
+        "名词的格",
+        "数",
+        "大致形式数",
+        "例"
+      ],
+      "rows": [
+        [
+          "原始印欧语（构拟）",
+          "约 8 个格",
+          "单、双、复 3 数",
+          "二十余种",
+          "*pətēr 的一整套词尾"
+        ],
+        [
+          "拉丁语（有文献）",
+          "5–6 个格（与格与夺格常同形）",
+          "2 数",
+          "十余种",
+          "taurus / taurī / taurō / taurum"
+        ],
+        [
+          "古英语（有文献）",
+          "4–5 个格",
+          "2 数",
+          "数个",
+          "stān / stānes / stāne / stānas"
+        ],
+        [
+          "现代英语（名词）",
+          "通格＋属格",
+          "2 数",
+          "2 个",
+          "stone / stone's"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "英语里剩下的三个格",
+      "body": "现代英语的代词还保留主格、宾格、属格三分：he / him / his、they / them / their、who / whom / whose。名词只剩属格 -'s 与通格。这不是“英语没有格”，而是**格系统缩到只剩代词**。\n\n理解这一点，能解释两件日常小事。第一，为什么 between you and I 让人觉得别扭：介词后需要宾格 me。第二，为什么 who/whom 在口语里摇摇欲坠：当一个区别只剩一个词承担，它很容易被语序与习惯挤掉。\n\n所以“残留”不是零散的例外，而是系统退潮后留在沙滩上的几块石头。认清这块地形，比背规则表有用。"
+    },
+    {
+      "kind": "text",
+      "title": "屈折多不等于精确",
+      "body": "有一种流行的误解：形式越多，表达越精确。事实往往相反。拉丁语用词尾标格，语序因此自由，但一个词尾要兼管几个功能——与格与夺格同形，就得靠上下文分辨；古英语的 -e 同时出现在好几个格数组合里。\n\n英语反过来：词尾几乎没了，但语序固定、介词明确，歧义反而更少。语言不是越复杂越好，**复杂度只是把负担放在不同位置**：词尾、语序、虚词、语调，总得有一个地方承重。\n\n这条认识对学词有直接好处：遇到“为什么英语没有这个形式”的问题，答案通常不是“丢了”，而是“搬到别处去了”。",
+      "terms": [
+        {
+          "term": "case",
+          "zh": "格",
+          "en": "case",
+          "note": "标记名词在句中语法角色的词形变化"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "词尾承重 vs 语序承重",
+      "body": "两种策略没有高下，只有分工。现代英语并非“丢掉了语法”，而是把语法从词尾搬到了句法位置。这条搬家线贯穿整个单元：日耳曼支简化一次（本周第 6 天），中古英语词尾塌陷又一次（第 35 周第 5 天）。",
+      "a": "屈折型（拉丁、古英语）",
+      "b": "分析型（现代英语）",
+      "rows": [
+        {
+          "label": "句法信息放在",
+          "a": "词尾",
+          "b": "语序＋介词＋助动词"
+        },
+        {
+          "label": "语序自由度",
+          "a": "较高，靠词尾认主语宾语",
+          "b": "低，靠位置认主语宾语"
+        },
+        {
+          "label": "例",
+          "a": "拉丁 taurum taurus videt（靠词尾分辨谁看见谁）",
+          "b": "The bull sees the bull（靠位置分辨）"
+        },
+        {
+          "label": "代价",
+          "a": "词尾多，记忆负担重；一词尾兼数职",
+          "b": "语序僵，长句易歧义"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w33d4-p1",
+      "kind": "mcq",
+      "prompt": "说原始印欧语“存在”，最可靠的依据是：",
+      "choices": [
+        "从印度到欧洲的诸语言在核心词与语法范畴上呈现成批对应",
+        "古代文献中有一本原始印欧语词典",
+        "所有印欧语言都用同一套字母",
+        "考古发现了印欧人的文字泥板"
+      ],
+      "answer": 0,
+      "explain": "原始印欧语是构拟出来的，没有任何文献（第二、四项都不成立）。成批对应才是证据：单个词的相似可以撞巧或借用，几十上百个词同时服从同一套映射就不行。字母系统与语言亲缘无关，拉丁字母被大量非印欧语言使用。",
+      "concepts": [
+        "c-cognate",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w33d4-p2",
+      "kind": "mcq",
+      "prompt": "“高度屈折”最准确的理解是：",
+      "choices": [
+        "同一个词有大量不同词形，每个词形标记若干项语法信息（格、数、时、人称等）",
+        "这种语言的词汇量特别大",
+        "这种语言的语序完全自由",
+        "这种语言有很多借词"
+      ],
+      "answer": 0,
+      "explain": "屈折讲的是词形变化，不是词汇量。词形多，意味着语法信息被打包进词里；语序自由是它的结果之一，不是定义。借词与屈折程度无关——英语借词极多，屈折却极少。",
+      "concepts": [
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w33d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文名词（复数）",
+      "sentence": "Modern English keeps case only in its ___: he / him / his and they / them / their are the last systematic traces of a much larger case system.",
+      "answer": "pronouns",
+      "accept": [
+        "pronouns",
+        "pronoun"
+      ],
+      "explain": "填 pronouns。名词只剩属格 -'s 与通格，格的区别几乎全部退到代词里。这条事实有两个用处：解释 between you and I 这类“错用”的由来；解释 who/whom 为什么难维持。",
+      "concepts": [
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w33d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“Latin is a fusional language: a single ending such as -ō can carry case, number and gender at once, so the pieces cannot be peeled apart.” 句中 fusional 最可能指：",
+      "choices": [
+        "一个词尾把几项语法信息熔合在一起",
+        "词与词之间大量互相借用",
+        "两个音节合并成一个长音",
+        "语序完全自由、不受限制"
+      ],
+      "answer": 0,
+      "explain": "fusion 是“熔合”：-ō 一个词尾同时承担格、数、性，剥不开。这正是屈折语的典型特征，与“黏着语”（一个词尾只管一项）相对。第二项说的是借用，第三项是语音合并，第四项是语序，都不是 fusional 的意思。",
+      "concepts": [
+        "c-inference",
+        "c-inflection"
+      ],
+      "hint": "看后半句：so the pieces cannot be peeled apart。"
+    },
+    {
+      "id": "w33d4-p5",
+      "kind": "mcq",
+      "prompt": "拉丁 taurus 与 taurum 的区别，在现代英语里主要由什么手段承担？",
+      "choices": [
+        "语序与介词：位置和 of／to／for 这类虚词",
+        "名词词尾：-us 与 -um 的对应",
+        "语调升降",
+        "冠词 the 的形式变化"
+      ],
+      "answer": 0,
+      "explain": "英语把“谁做什么”交给位置与虚词：The bull sees the bull 靠前后位置区分；of the bull 表所属。英语没有 the 的格变化，也没有 -us／-um 这类名词格词尾——那正是它丢掉的东西。",
+      "concepts": [
+        "c-inflection",
+        "c-inference"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w33d4-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 synthetic 在句中的含义",
+      "passage": "A synthetic language packs grammar into the word: the ending tells you who did what. An analytic one does the opposite, spreading grammar across separate words such as prepositions and auxiliaries. English has moved steadily from the first type to the second, which is why its words look bare and its word order looks rigid.",
+      "word": "synthetic",
+      "choices": [
+        "把语法信息打包进词形里的",
+        "人工制造出来的（非天然的）",
+        "由多种语言混合而成的",
+        "只用于书面语的"
+      ],
+      "answer": 0,
+      "strategy": "① 定义句：packs grammar into the word，冒号后 the ending tells you who did what；② 对照项：an analytic one does the opposite，说明这是类型学上的一对术语；③ 结果句：English has moved from the first type to the second，与“词形裸露、语序僵硬”对应；④ 排除日常义“人工合成”：段落谈的是语法类型，不是材料来源。",
+      "explain": "synthetic 在语言学里指“综合型”：语法信息打包进词形。日常义“合成的、人造的”是同一个隐喻的另一支——把零件合进一个整体。这类“术语义 vs 日常义”的词要按上下文取义：出现 ending、auxiliary、word order 时，就是类型学术语。",
+      "concepts": [
+        "c-inference",
+        "c-inflection"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 3 节：印欧语系的范围、祖语的高度屈折与重构"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "屈折语、黏着语与分析语的类型学区分"
+    }
+  ]
+}

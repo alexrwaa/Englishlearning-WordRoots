@@ -452,7 +452,8 @@
     "rx-cult"
   ],
   "cur": [
-    "cx-cur"
+    "cx-cur",
+    "cx-cur-2"
   ],
   "curs": [
     "cx-curs-curr"
@@ -1110,7 +1111,8 @@
     "cx-lex-leg"
   ],
   "libr": [
-    "cx-libr"
+    "cx-libr",
+    "cx-libr-2"
   ],
   "lic": [
     "cx-lic"
@@ -1194,7 +1196,8 @@
     "cx-mamm"
   ],
   "man": [
-    "rx-man"
+    "rx-man",
+    "rx-man-2"
   ],
   "manage": [
     "rx-manage"
@@ -1539,7 +1542,8 @@
     "cx-pan-pant"
   ],
   "par": [
-    "cx-par"
+    "cx-par",
+    "cx-par-2"
   ],
   "para": [
     "cx-para"
@@ -1852,6 +1856,7 @@
     "rx-safe"
   ],
   "sal": [
+    "cx-sal-2",
     "cx-sal-sil"
   ],
   "salv": [
@@ -1939,7 +1944,8 @@
     "cx-sesqui"
   ],
   "sex": [
-    "cx-sex"
+    "cx-sex",
+    "cx-sex-2"
   ],
   "sext": [
     "cx-sext"
@@ -1969,7 +1975,8 @@
     "rx-soci"
   ],
   "sol": [
-    "rx-sol"
+    "rx-sol",
+    "rx-sol-lat"
   ],
   "solut": [
     "rx-solut"
@@ -2104,7 +2111,8 @@
     "cx-tern"
   ],
   "terr": [
-    "cx-terr"
+    "cx-terr",
+    "cx-terr-2"
   ],
   "terti": [
     "cx-terti"
@@ -2254,7 +2262,8 @@
     "cx-vas"
   ],
   "ven": [
-    "cx-ven"
+    "cx-ven",
+    "cx-ven-2"
   ],
   "ver": [
     "cx-ver",

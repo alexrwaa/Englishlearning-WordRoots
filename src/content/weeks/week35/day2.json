@@ -1,0 +1,282 @@
+{
+  "id": "w35d2",
+  "week": 35,
+  "day": 2,
+  "title": "七百年才有第一本书：三分期与古英语的屈折",
+  "tagline": "把英语史切成三段，是一百多年前的惯例；而古英语的样子，更像今天的德语",
+  "objectives": [
+    "能说出古／中古／现代英语的分期与起始依据，并指出边界的约定性",
+    "能读一个简单的古英语短语，指出词尾所标的人称与格",
+    "能举出现代英语里残留的屈折形式（he/him/his、ox/oxen、foot/feet）"
+  ],
+  "prereqs": [
+    "w35d1",
+    "c-inflection"
+  ],
+  "concepts": [
+    "c-inflection",
+    "c-etymology",
+    "c-cognate"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s8-1",
+    "kp-s1c2s8-2"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "三段，每段约四百年",
+      "body": "英语史通常分三段：**古英语**（约 700–1100）、**中古英语**（约 1100–1500）、**现代英语**（1500 以后）。起点定在 700 年，是因为从那时起才有大量英语文本；这套三分法是十九世纪末到二十世纪初定下来的惯例，三段长度大致相等，整齐得可疑。\n\n整齐就说明它是**人为约定**：语言不会在某一年突然改朝换代。用分期要记住：它是叙述工具，不是事实边界。1150 年的抄写员不会觉得自己在写“一种新语言”。\n\n但约定也有用：它给了我们三个可讨论的剖面，每个剖面有自己的典型特征。下面两张卡片就是这三个剖面里最重要的两个。",
+      "terms": [
+        {
+          "term": "periodization",
+          "zh": "分期",
+          "en": "periodization",
+          "note": "为叙述方便而划定的历史阶段，边界是约定"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "三分期与标志",
+      "body": "中段（1100–1500）变化最剧烈：外有法语词汇涌入，内有词尾塌陷，两件事同时发生，才把古英语变成了“看起来像英语”的语言。注意第三列都是事件，不是年份——事件可以核，年份常是追记。",
+      "head": [
+        "阶段",
+        "大致年代",
+        "标志性事件",
+        "语言特征"
+      ],
+      "rows": [
+        [
+          "古英语",
+          "700–1100",
+          "基督教化后的书写；阿尔弗雷德时期的翻译",
+          "四五个格、语法性别、词尾丰富"
+        ],
+        [
+          "中古英语",
+          "1100–1500",
+          "诺曼征服后的法语接触；词尾弱化",
+          "格系统瓦解、语序固定"
+        ],
+        [
+          "现代英语",
+          "1500–",
+          "印刷术、文艺复兴借词、元音大推移",
+          "屈折极少、拼写与读音脱节"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "一句古英语",
+      "body": "古英语句子 **hē hafaþ hwīte tungan**（“他有白舌头／他有一条白舌头”）里，三处词尾都在工作：\n\n- **hafaþ** 的 -aþ 标“第三人称单数现在时”，相当于今天 has 的 -s；\n- **hwīte** 的 -e 标形容词与名词的格一致（这里与宾格搭配）；\n- **tungan** 的 -an 标弱变化名词的宾格。\n\n现代英语只剩 he has the white tongue：人称靠 has，格靠语序与冠词，形容词完全不变。同一句话，语法从词尾搬到了位置与虚词上。这就是三百年间发生的事。",
+      "terms": [
+        {
+          "term": "case ending",
+          "zh": "格词尾",
+          "en": "case ending",
+          "note": "附在词干后、标记名词或形容词语法角色的词尾"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "现代英语的屈折残留",
+      "body": "这张表就是“古英语还在今天的五个位置”。学不规则形式时不要当成例外硬背——它们每一个都能在古英语里找到理由。理解了理由，记忆就从“记形”变成“记因”。",
+      "head": [
+        "残留类型",
+        "例",
+        "来源",
+        "说明"
+      ],
+      "rows": [
+        [
+          "代词三格",
+          "he / him / his",
+          "古英语 hē / hine / his",
+          "唯一成系统的格残留"
+        ],
+        [
+          "名词属格",
+          "the king's",
+          "古英语 -es",
+          "其余格已并入通格"
+        ],
+        [
+          "弱变化复数",
+          "ox / oxen",
+          "古英语 -an",
+          "同类：children、brethren"
+        ],
+        [
+          "i-变音复数",
+          "foot / feet",
+          "复数词尾 -iz 引起的元音变化",
+          "词尾消失，元音变化留下"
+        ],
+        [
+          "动词人称",
+          "he walks",
+          "古英语 -aþ / -eþ",
+          "只剩第三人称单数"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "古英语 vs 现代英语",
+      "body": "四行里最能“一眼认出”古英语的是语序那一行：古英语句子里词序可以翻来覆去，因为词尾在标记关系；现代英语一换位置，意思就变了。这条差别比词汇差别更能判断文本属于哪个时期。",
+      "a": "古英语",
+      "b": "现代英语",
+      "rows": [
+        {
+          "label": "格",
+          "a": "名词四五个格，代词更多",
+          "b": "名词只剩属格，代词三格"
+        },
+        {
+          "label": "语法性别",
+          "a": "有（如“太阳”阳性、“月亮”阴性）",
+          "b": "无，性别由词义决定"
+        },
+        {
+          "label": "语序",
+          "a": "较自由，靠词尾认关系",
+          "b": "固定 SVO，靠位置认关系"
+        },
+        {
+          "label": "形容词",
+          "a": "强／弱两套变化，随格、数、性变",
+          "b": "不变（除比较级、最高级）"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w35d2-p1",
+      "kind": "mcq",
+      "prompt": "把 700 年定为英语史的起点，主要理由是：",
+      "choices": [
+        "从那时起才有大量英语文本可供研究",
+        "那一年盎格鲁—撒克逊人登陆不列颠",
+        "那一年英语的语音系统定型",
+        "那一年英语与德语正式分开"
+      ],
+      "answer": 0,
+      "explain": "起点由证据决定：有文本才有语言史。登陆在五世纪（且具体年份是后世追记），语音与词汇一直在变，英语与德语的分开远早于 700 年。分期从“文献开始”起算，是史学惯例，不是语言事件。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w35d2-p2",
+      "kind": "mcq",
+      "prompt": "古／中古／现代英语三段长度大致相等，这一事实说明：",
+      "choices": [
+        "分期是人为约定的叙述工具，语言本身没有在固定年份断裂",
+        "语言每四百年必然发生一次彻底变化",
+        "三段之间没有任何连续性",
+        "每段的词汇量大致相同"
+      ],
+      "answer": 0,
+      "explain": "整齐的分期恰恰暴露了它是约定：真实的变化是连续、不均匀的。语言不会按四百年周期换血；三段之间的连续性极强（代词、数词、核心词一路继承）。",
+      "concepts": [
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w35d2-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "In Old English the ending -aþ in hafaþ marks person and number on the verb; in Modern English that job is done by the pronoun together with word ___.",
+      "answer": "order",
+      "accept": [
+        "order",
+        "ordering"
+      ],
+      "explain": "填 order（word order，语序）。词尾丢掉的功能，由语序、代词与助动词分担。这条“功能搬家”是整周的主线，也是理解现代英语句子为何语序固定的关键。",
+      "concepts": [
+        "c-inflection"
+      ]
+    },
+    {
+      "id": "w35d2-p4",
+      "kind": "mcq",
+      "prompt": "foot／feet 属于哪一类残留？",
+      "choices": [
+        "i-变音：复数词尾消失，但它引起的元音变化留了下来",
+        "弱变化复数：-en 词尾的幸存",
+        "外来借词的复数规则",
+        "属格词尾的扩张"
+      ],
+      "answer": 0,
+      "explain": "古英语复数词尾里的 i 把词干元音前移（i-umlaut），后来词尾丢了，元音变化成了唯一的复数标记。同类：mouse/mice、tooth/teeth、man/men。弱变化复数是 ox/oxen、children 那一类。",
+      "concepts": [
+        "c-inflection",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w35d2-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“Old English adjectives agreed with their nouns in case, number and gender, which is why the same adjective appears in half a dozen shapes on a single page.” 句中 agreed with 最可能指：",
+      "choices": [
+        "在性、数、格上与名词保持一致",
+        "同意名词所表达的观点",
+        "与名词押韵",
+        "必须放在名词之前"
+      ],
+      "answer": 0,
+      "explain": "agree with 在这里是语法的“一致关系”：形容词要跟着名词变格、变数、变性，所以同一个形容词会出现多种形态。这与“同意观点”“押韵”“位置”都无关——判断靠 case, number and gender 这串术语。",
+      "concepts": [
+        "c-inference",
+        "c-inflection"
+      ],
+      "hint": "看后面的 case, number and gender。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w35d2-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 conventional 在句中的含义",
+      "passage": "The dates are conventional: 1100 and 1500 are not walls but signposts. A scribe writing in 1150 would not have thought he was writing a new language, and a text from 1490 can look thoroughly medieval. Periods are conveniences for readers, not events in the speech community.",
+      "word": "conventional",
+      "choices": [
+        "约定俗成的、人为规定的",
+        "与宗教仪式有关的",
+        "正式的、官方的",
+        "常见的、普通的错误"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后解释：not walls but signposts——不是墙，是路标；② 例证：1150 年的抄写员不会觉得自己在写新语言；③ 收束句：conveniences for readers, not events in the speech community；④ 排除“宗教仪式”“官方”：无对应语境。",
+      "explain": "conventional 是“约定的、惯例的”，来自 convention（集会、约定）。在学术写作里常用来给概念降温：conventional date（约定年代）、conventional spelling（通行拼写）——意思是“大家都这么用”，不是“本质如此”。这个词是读学术文本的信号灯。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 8 节：历史英语的起点、三分期惯例与古英语屈折"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "hafaþ／tungan 的词尾功能；oxen、feet、children 的复数来源"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "id": "w32d4",
+  "week": 32,
+  "day": 4,
+  "title": "这本书的地图：五个分支各管一段",
+  "tagline": "你已经在做语音学、形态学、历史语言学、词汇语义学与社会语言学——只是还没给它们命名",
+  "objectives": [
+    "能说出五个分支各研究什么，并各举一个本书里的真实例子",
+    "能把一个具体问题归到正确的分支，并识别跨分支的问题",
+    "能说明本书为什么从形态学入手，以及这九个知识点在全书里的位置"
+  ],
+  "prereqs": [
+    "w32d3",
+    "c-morpheme",
+    "c-inference"
+  ],
+  "concepts": [
+    "c-morpheme",
+    "c-etymology",
+    "c-register",
+    "c-scientific"
+  ],
+  "knowledgePoints": [
+    "kp-s1c1s8-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 9,
+    "practice": 8,
+    "apply": 6
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "先给已经做过的事命名",
+      "body": "前三十周你其实一直在这五个领域里来回走，只是没人告诉你它们叫什么：\n\n**phonetics / phonology（语音学／音系学）**：音怎么发、怎么组合。第 23 周你学过 cats 的 [s] 与 dogs 的 [z]。\n\n**morphology（形态学）**：词怎么由更小的意义单位构成。这是本书的主干。\n\n**historical linguistics（历史语言学）**：语言怎么变、怎么分家。cap → chief → chef 就是它的证据。\n\n**lexical semantics（词汇语义学）**：词义是什么、怎么变。house/home 的差别、broadening 与 narrowing 都在这里。\n\n**sociolinguistics（社会语言学）**：谁在什么场合怎么说。语域、方言、以及“hopefully 能不能这么用”的争论都归它管。\n\n命名不是装饰：知道问题属于哪个分支，你才知道该找什么证据。"
+    },
+    {
+      "kind": "table",
+      "title": "五个分支：问题、例子、本书位置",
+      "body": "第三列全部来自你已经学过的内容——这说明分支不是新知识，而是新标签。第四列是复习线索：想再练某个分支，回到对应周次即可。注意最后一行的词源学性质不同：它不是并列分支，而是所有分支都要用的工具。",
+      "head": [
+        "分支",
+        "研究什么",
+        "本书里的例子",
+        "对应周次"
+      ],
+      "rows": [
+        [
+          "语音学／音系学",
+          "音的发法、清浊、同化、连读",
+          "cats [s] 与 dogs [z]；in- 变 im-",
+          "第 23 周（C5）"
+        ],
+        [
+          "形态学",
+          "词素、异形、屈折与派生",
+          "spectator = spect + ator；fer 的三个变体",
+          "第 1–8、13–18 周（C3/C9）"
+        ],
+        [
+          "历史语言学",
+          "语言变化、分化、同源判断",
+          "caput → chief／chef；semi- 与 hemi- 的 s~h",
+          "第 27–30 周（C10）"
+        ],
+        [
+          "词汇语义学",
+          "外延与内涵、义变类型",
+          "house/home；broadening、narrowing",
+          "第 21–22 周（C7）"
+        ],
+        [
+          "社会语言学",
+          "语域、方言、社会评价",
+          "paternal 与 fatherly 的场合差异",
+          "第 24–26 周（C8）"
+        ],
+        [
+          "（工具）词源学",
+          "词的来源与借入路径",
+          "chief／chef 的分层；chandelier 与 candle",
+          "贯穿全书"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "交界处最热闹",
+      "body": "真实的问题很少只属于一个分支。举三个你已经遇到过的例子：\n\n**-s 为什么有时读 [s]、有时读 [z]？** 表面是语音学（清浊同化），但要解释“为什么同一个复数有两个形状”，就得用形态学（同一个词素的两个变体）。\n\n**cap 为什么在 chief 和 chef 里长得完全不一样？** 这是历史语言学（音变与借词层次），可要说清“为什么 chief 是首领、chef 是厨师”，又要用词汇语义学（借入场合决定义项）。\n\n**house 与 home 能不能换？** 语义学给出外延与内涵的区分，社会语言学给出“谁在什么场合说”的约束。\n\n所以学分支的目的不是分类，而是**知道一件事该问几个问题**。只问一个分支，答案通常只有一半。"
+    },
+    {
+      "kind": "table",
+      "title": "把问题分配给分支",
+      "body": "练习方法：拿一个真实的疑问句，先判主分支，再问“还需要哪个分支配合”。第二列给主分支，第三列给必须的旁证——这张表可以当成你以后自学的检查清单。",
+      "head": [
+        "问题",
+        "主分支",
+        "还需要什么旁证"
+      ],
+      "rows": [
+        [
+          "为什么 write 的过去式是 wrote，不是 writed？",
+          "形态学（屈折）",
+          "历史语言学：元音交替是古规则的残留"
+        ],
+        [
+          "为什么 -tion 与 -sion 都读 [ʃən]？",
+          "语音学",
+          "词源：-sion 多来自拉丁过去分词 -sus"
+        ],
+        [
+          "为什么 cheap 不能随便形容别人的东西？",
+          "词汇语义学（内涵）",
+          "社会语言学：语域与礼貌"
+        ],
+        [
+          "为什么美国人和英国人对某些词的接受度不同？",
+          "社会语言学",
+          "历史语言学：两地分叉后的独立演变"
+        ],
+        [
+          "为什么科技词可以按成分猜，日常词不行？",
+          "形态学（透明度）",
+          "历史语言学：造词 vs 演变"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么这本书从构词开始：九个站点的回顾",
+      "body": "全章九个知识点，其实是一条论证链：\n\n1. **规模**（w31d1）：英语的词多到无法逐个背。\n2. **两面性**（w31d2）：词多既给能力也给负担，负担主要落在“不可拆”的那 11.6%。\n3. **精确**（w31d3）：词多的真正红利是近义词分工，而分工靠内涵。\n4. **历史一**（w31d4）：同一个来源可以留下四张面孔，拼写不可靠。\n5. **历史二**（w31d5）：语音对应能揭示亲缘，但要成系统。\n6. **长词**（w32d1）：技术词可逐段赋义，长不等于难。\n7. **程序**（w32d2）：拆与造是同一套程序，可正向也可反向。\n8. **拼写**（w32d3）：结构还能当拼写线索，补救听觉的盲区。\n9. **地图**（本课）：这九件事分属五个分支，形态学是入口。\n\n为什么入口是形态学？因为它**可教、可练、可验证**：一个词能不能这样切，查词源就能判对错；而语义与社会评价往往只能给倾向。先用能判对错的东西建立信心，再去处理只能给倾向的问题——这是本书的教学顺序，也是你以后自学的顺序。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w32d4-p1",
+      "kind": "mcq",
+      "prompt": "“-s 在 cats 里读 [s]、在 dogs 里读 [z]”这个问题，主要属于：",
+      "choices": [
+        "语音学（并与形态学交界：同一个复数词素的两个形状）",
+        "社会语言学",
+        "词汇语义学",
+        "词源学"
+      ],
+      "answer": 0,
+      "explain": "读音差别由前一个音的清浊决定，这是语音学；而“同一个复数词素有两个形状”是形态学（异形）。这类问题正好说明分支只是视角，不是围墙。社会语言学关心的是“谁这么说”，语义学关心“什么意思”，都与清浊无关。",
+      "concepts": [
+        "c-morpheme",
+        "c-allomorph"
+      ]
+    },
+    {
+      "id": "w32d4-p2",
+      "kind": "mcq",
+      "prompt": "“拉丁 caput 为什么在英语里变成 chief 和 chef 两种样子”，主要属于：",
+      "choices": [
+        "语音学：英语的音素清单",
+        "历史语言学：音变与借词层次",
+        "社会语言学：阶层与口音",
+        "形态学：词素的切分规则"
+      ],
+      "answer": 1,
+      "explain": "解释“同一个来源为什么分成两种形式”，要找历史语言学：法语内部的 [k]→[tʃ]→[ʃ] 是音变，英语在两个时代各借一次是借词层次。语音学只描述音本身，不解释历史分层；社会语言学可以补充“为什么厨师这个词从法语借”，但主证据仍在历史。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing",
+        "c-cognate"
+      ]
+    },
+    {
+      "id": "w32d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个学科名（英语）",
+      "sentence": "The branch that studies how words are built from smaller meaningful units is ___.",
+      "answer": "morphology",
+      "accept": [
+        "morphology"
+      ],
+      "explain": "morphology = morph（形状、形式）+ -ology（学科）→“研究形式的学问”，即形态学。这个词本身就是一个可拆的样本：morph 在 amorphous、polymorph 里同义，-ology 在 geology、psychology 里同义。学科名往往也是按同一套规则造的，这算是构词法的一点自我印证。",
+      "concepts": [
+        "c-morpheme",
+        "morph",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w32d4-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）已知 soci 意为“社会”，lingu 意为“语言”，-istics 表示“……学”，sociolinguistics 是：",
+      "choices": [
+        "社会语言学：研究语言与社会的关系",
+        "社会方言：某一阶层使用的语言",
+        "语言社会学：研究社会制度的语言",
+        "比较语言学：研究语言之间的亲属关系"
+      ],
+      "answer": 0,
+      "explain": "soci（社会）+ lingu（语言）+ -istics（学科）→ 社会语言学，研究语言使用与社会因素（阶层、性别、场合、身份）的关系。选项 B 是 dialect 一类；C 是刻意调换语序的干扰项，实际并不作为独立学科名通用；D 是比较语言学，对应 comparative linguistics。辨这类题的关键是看两个词根的顺序与后缀的学科标记。",
+      "concepts": [
+        "c-inference",
+        "soci",
+        "lingu"
+      ],
+      "hint": "先看 -istics 定“学科”，再按两个词根的先后定研究对象。"
+    },
+    {
+      "id": "w32d4-p5",
+      "kind": "wordSum",
+      "prompt": "用 + 连接词素，写出“地质学”的切分",
+      "parts": [
+        "geo",
+        "logy"
+      ],
+      "answer": "geology",
+      "explain": "geo（地球）+ -logy（学科）→ 地质学。这条题是本章的收尾练习：它同时用到了四个分支的常识——成分义（形态学）、来源（词源学）、读音（语音学：geo 的 g 是 [dʒ]），以及“学科名按希腊成分造”的惯例（历史语言学）。一个词能牵出四条线，说明这些分支本来就是一体的。",
+      "concepts": [
+        "c-word-sum",
+        "geo",
+        "c-greek-latin"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w32d4-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，判断 sociolinguistics 关心的是什么",
+      "passage": "Sociolinguistics asks who says “ain't” and in what company: the same speaker may use the form at home and avoid it in an interview, and neither use is a mistake.",
+      "word": "sociolinguistics",
+      "choices": [
+        "谁在什么场合使用某种形式，以及这种选择的社会含义",
+        "哪种形式在语法上正确、哪种是错误",
+        "一个词最早来自哪种语言",
+        "句子如何由短语一层层组合起来"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：soci（社会）+ lingu（语言）+ -istics（学科）→“语言与社会”；② 语境：who says ... and in what company 是定义式证据，at home / in an interview 是场合对比；③ 关键句：neither use is a mistake —— 明确否定“对错”框架；④ 排除：语法正误是规范语法的事，词源是词源学，句子组合是句法学。",
+      "explain": "sociolinguistics 是“社会语言学”。这道题最重要的落点是 neither use is a mistake：社会语言学描述“谁在什么场合怎么说”，不裁决对错。这与本书的一贯立场一致——分化、借词、新用法都不是“腐化”，而是可描述的现象。你以后读到“某用法不正规”这类判断时，先问一句：这是描述，还是规范？",
+      "concepts": [
+        "c-inference",
+        "soci",
+        "c-register"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 1 章第 8 节：本书涉及的语言学分支"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "语言学分支导论：语音、形态、历史、语义、社会"
+    }
+  ]
+}

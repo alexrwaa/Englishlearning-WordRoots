@@ -1,0 +1,288 @@
+{
+  "id": "w37d3",
+  "week": 37,
+  "day": 3,
+  "title": "类推：照着现成模式造新词",
+  "tagline": "tweetophobia 不是从词源长出来的，它是照着 agoraphobia 的架子搭出来的",
+  "objectives": [
+    "能说明类推是按既有词的结构仿造，仿造可以完全脱离词源",
+    "能举出 -phobia、post-、-gate、-holic 四类可被单独取出的模式",
+    "能区分类推、规则派生与混成三种造词方式"
+  ],
+  "prereqs": [
+    "w07d6",
+    "w37d2",
+    "c-compound",
+    "c-derivation",
+    "c-frequency"
+  ],
+  "concepts": [
+    "c-compound",
+    "c-derivation",
+    "c-blend",
+    "c-acronym",
+    "c-semantic-shift",
+    "c-frequency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s20-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "不是加词缀，是照架子搭",
+      "body": "**analogy**（类推）指说话人按一个已有词的结构，替换其中一块，造出一个新词。教材举的例子是 **tweetophobia**：它不是从希腊语词根长出来的，而是照着 **agoraphobia**（广场恐惧症）的架子，把 agor- 换成 tweet-。\n\n同理，**prepone** 是照着 **postpone** 造的：post-（后）换成 pre-（前），得到“提前”。这个词在印度英语里已经稳定使用，在别的变体里还算新造。\n\n类推最关键的一点是：**它只需要结构，不需要词源。** 说话人不必知道 agoraphobia 的 agora 是“广场”，只要看出“X-phobia = 对 X 的恐惧”这个可替换的框架，就能造新词。所以类推是英语里最活跃的造词力量之一，也是最容易产生“词典还没收、但大家都懂”的词的地方。",
+      "terms": [
+        {
+          "term": "analogy",
+          "zh": "类推",
+          "en": "analogy",
+          "note": "按已有词的结构替换成分，造出新词"
+        },
+        {
+          "term": "productivity",
+          "zh": "能产性",
+          "en": "productivity",
+          "note": "一个模式能造出多少新词、还能不能继续造"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "六个模式，一条共同结构",
+      "body": "第三列是“被替换的槽”，第四列是新填进去的材料。看一遍会发现：槽的位置固定，填入的材料可以来自任何领域，甚至可以是专名（Twitter）或新事件（Watergate）。这就是类推能迅速跟上新事物的原因。",
+      "head": [
+        "既有词",
+        "仿造词",
+        "被替换的槽",
+        "填入的新材料"
+      ],
+      "rows": [
+        [
+          "agoraphobia（广场恐惧）",
+          "tweetophobia",
+          "agora-（场所）",
+          "tweet-（社交平台帖子）"
+        ],
+        [
+          "postpone（推迟）",
+          "prepone（提前）",
+          "post-（后）",
+          "pre-（前）"
+        ],
+        [
+          "alcoholic（酒精成瘾者）",
+          "workaholic（工作狂）",
+          "alco-（酒精）",
+          "work-（工作）"
+        ],
+        [
+          "Watergate（水门事件）",
+          "Irangate、-gate 系列",
+          "Water-（事件名）",
+          "任意专名，-gate 已独立表示“丑闻”"
+        ],
+        [
+          "hamburger（汉堡包）",
+          "cheeseburger、veggie burger",
+          "ham-（被误当成“火腿”）",
+          "cheese、veggie"
+        ],
+        [
+          "marathon（马拉松）",
+          "walkathon、telethon",
+          "marath-（地名）",
+          "walk、tele-（电视）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "类推要成立，得同时满足三条",
+      "body": "不是随便换一块就能造词。三条条件缺一不可。\n\n**一，模式可切分。** 听者要能看出哪一块是固定的、哪一块是可替换的。-phobia、-gate、-holic 都已经被反复使用到可以单独取出；如果一个词只出现一次，就还没有形成槽。\n\n**二，语义有空格。** 新词要填补一个真实的表达空缺。英语有 postpone（推迟）却没有一个常用的“提前”，prepone 正好补上；反过来，如果已有现成词，仿造就缺乏动力。\n\n**三，音形可接受。** 新词要符合英语的音节与拼写习惯。tweetophobia 读得出来、拼得出来；如果换成一个英语不允许的辅音丛，造出来也会被淘汰。\n\n三条都满足，类推就容易成功；缺一条，新词多半只是临时的，过一阵就消失。这也解释了为什么绝大多数网络新词活不下来：它们往往在第二条或第三条上不合格。",
+      "terms": [
+        {
+          "term": "slot",
+          "zh": "可替换槽",
+          "en": "slot",
+          "note": "模式中被反复替换的那一部分，如 X-phobia 的 X"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "shambolic：连词素都可以是假的",
+      "body": "**shambolic**（混乱不堪的）一般认为由 **shambles**（混乱）加上一个仿 **symbolic** 的尾巴 -bolic 构成。这个例子很极端：-bolic 并不是一个真实的词素，symbolic 的 -ic 才是后缀，-bol- 属于词根。说话人并不做词素分析，只抓了“音形框架”。\n\n这正说明类推的运作单位不一定是词素，也可以是**音节模板**。只要听感上对得上，新词就能被接受。\n\n教学上的意义有两条：第一，别把所有新词都硬拆成词素，拆不出来是正常的；第二，遇到拆不动的词，先问“它像哪个词”，这比问“它由哪些词素组成”更可能找到答案。",
+      "terms": [
+        {
+          "term": "phonological template",
+          "zh": "音形模板",
+          "en": "phonological template",
+          "note": "类推时被复制的音节与重音框架，不一定对应真实词素"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "类推、规则派生、混成：三条路",
+      "body": "三者都会造出新词，但材料和可预测性不同。判据是：**能不能切出真实的词素**。能，是规则派生；切不出、但能指出“像哪个词”，是类推；两块各取一半、拼成一个新音节串，是混成。",
+      "a": "规则派生／复合",
+      "b": "类推",
+      "rows": [
+        {
+          "label": "材料",
+          "a": "真实词素：un-、-ness、help、kind",
+          "b": "既有词的整体框架，或某个被单独取出的部分"
+        },
+        {
+          "label": "可预测性",
+          "a": "高：知道规则就能造，也能判对错",
+          "b": "中：能造，但是否被接受要看社群"
+        },
+        {
+          "label": "例词",
+          "a": "unhelpful、kindness、photograph",
+          "b": "tweetophobia、prepone、workaholic、-gate 系列"
+        },
+        {
+          "label": "与词源的关系",
+          "a": "通常保留词素的原有义",
+          "b": "可以完全脱离词源，甚至基于误解（hamburger 的 ham）"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w37d3-p1",
+      "kind": "mcq",
+      "prompt": "tweetophobia 的构词方式是：",
+      "choices": [
+        "类推：照 agoraphobia 的框架替换前半部分",
+        "规则派生：tweet + -o- + -phobia 三个词素直接相加",
+        "混成：tweet 与 phobia 各取一半",
+        "逆构：从 tweetophobic 去掉 -ic"
+      ],
+      "answer": 0,
+      "explain": "tweetophobia 是照着 agoraphobia 的“X-phobia = 对 X 的恐惧”框架造出来的，被替换的是前半部分。它不是严格的词素相加，也不是各取一半的混成，更没有先有形容词再逆构。教材用它说明“结构仿制可以完全脱离词源”。",
+      "concepts": [
+        "c-derivation",
+        "c-frequency"
+      ]
+    },
+    {
+      "id": "w37d3-p2",
+      "kind": "mcq",
+      "prompt": "后缀 -gate（表示“丑闻”）来自：",
+      "choices": [
+        "Watergate 事件，-gate 从专名中被单独取出",
+        "古英语“门”的本义引申",
+        "希腊词根 gate“报道”",
+        "从 gatekeeper 截短而来"
+      ],
+      "answer": 0,
+      "explain": "-gate 来自 1972 年的 Watergate 事件。说话人把 Watergate 切成 Water + gate，把 gate 重新分析为“丑闻”成分，于是有了 Irangate 以及后来大量 -gate 系列。这是类推中最典型的“从专名中提取成分”。",
+      "concepts": [
+        "c-derivation",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w37d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文动词",
+      "sentence": "Our Tuesday meeting clashes with the audit, so I'd like to ___ it to Monday morning if that suits everyone.",
+      "answer": "prepone",
+      "accept": [
+        "prepone",
+        "提前"
+      ],
+      "explain": "prepone 是“把时间提前”，照着 postpone（推迟）的框架把 post-（后）换成 pre-（前）造出，在印度英语中已稳定使用。句中 clashes with the audit 说明原时间不行，to Monday morning 说明往前提，语义与 prepone 吻合。",
+      "concepts": [
+        "c-derivation",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w37d3-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）walkathon 最可能的意思是：",
+      "choices": [
+        "为筹款等目的举行的长途步行活动",
+        "一种步行比赛的世界纪录",
+        "研究步态的学科",
+        "一种专供行走的机器"
+      ],
+      "answer": 0,
+      "explain": "walkathon 照着 marathon 的框架造出：-athon 已被单独取出，表示“长时间、耐力型的活动”，于是有 walkathon、telethon、danceathon。它不是“研究步态的学科”（那会是 -ology），也不是机器。判断依据是模式可切分 + 语义空位。",
+      "concepts": [
+        "c-derivation",
+        "c-inference"
+      ],
+      "hint": "先找它像哪个词，再看被替换的槽填了什么。"
+    },
+    {
+      "id": "w37d3-p5",
+      "kind": "mcq",
+      "prompt": "下面哪个词属于规则派生，而不是类推？",
+      "choices": [
+        "unhelpful",
+        "workaholic",
+        "prepone",
+        "cheeseburger"
+      ],
+      "answer": 0,
+      "explain": "unhelpful 由真实词素 un（否定）+ help（帮助）+ ful（充满……的）按规则相加，意义完全可预测，属于规则派生。workaholic、prepone、cheeseburger 都是照既有词的框架替换成分，属于类推。判据仍是那句：能不能切出真实词素。",
+      "concepts": [
+        "c-derivation",
+        "c-word-sum"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w37d3-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 prepone 在句中的含义",
+      "passage": "The conference was originally set for Thursday, but the venue double-booked us. Rather than cancel, the organisers decided to prepone the whole event to Tuesday, giving speakers barely a week to rearrange their travel.",
+      "word": "prepone",
+      "choices": [
+        "把（活动）提前到更早的日期",
+        "把（活动）推迟到更晚的日期",
+        "取消（活动）",
+        "更换（活动）的地点"
+      ],
+      "answer": 0,
+      "strategy": "① 构词：pre-（前）+ -pone（放置，同 postpone 的 pone），照 postpone 的框架替换前缀；② 句法：decided to prepone the whole event to Tuesday，to 后接新日期；③ 语境：originally set for Thursday、double-booked、barely a week to rearrange 都指向“往前提”；④ 排除：Rather than cancel 明确不是取消，venue 问题不等于换地点。",
+      "explain": "prepone 是“提前”。这道题把类推讲透了：只要你认识 postpone，就能靠 pre-/post- 的对立推出 prepone，完全不需要查词典。这也说明类推为什么高效——它复用的是你已有的词，而不是要求你先学一套新词素。",
+      "concepts": [
+        "c-derivation",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 20 节：类推造词（tweetophobia、prepone、shambolic）"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态学：能产性与新词的可接受度"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "-gate、-holic、-athon、-burger 的提取过程核对"
+    }
+  ]
+}

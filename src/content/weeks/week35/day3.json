@@ -1,0 +1,244 @@
+{
+  "id": "w35d3",
+  "week": 35,
+  "day": 3,
+  "title": "阿尔弗雷德：一位国王为什么要翻译书",
+  "tagline": "英语的第一个文学标准不是诗人定的，是一项政治与教育计划定的",
+  "objectives": [
+    "能说明阿尔弗雷德的翻译计划与西撒克逊文学标准的关系",
+    "能解释“文学标准”为何总跟着政治与文化中心走",
+    "能指出西撒克逊标准与后来伦敦标准是两次建立、中间有断裂"
+  ],
+  "prereqs": [
+    "w35d2",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-register",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s8-3"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一个国王的语言政策",
+      "body": "九世纪末，西撒克逊国王**阿尔弗雷德**组织把一批拉丁著作译成古英语：格列高利的《牧灵关怀》、波爱修斯的《哲学的慰藉》、奥古斯丁的《独语录》、比德的《教会史》，以及史书与法典。\n\n这不是文人雅事，是**国家建设**：要让官员、教士与贵族能用英语读到他们需要的知识。维京人的压力让王国需要一个能读、能写、能记录的行政层，而拉丁语的门槛太高。\n\n翻译需要一套统一的术语与拼写。文学标准不是被“宣布”的，是在这个过程中被**做**出来的。",
+      "terms": [
+        {
+          "term": "literary standard",
+          "zh": "文学标准",
+          "en": "literary standard",
+          "note": "被广泛模仿的书面语规范，通常以某地方言为基础"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "标准是怎么形成的",
+      "body": "这套标准的底子是**西撒克逊方言**，尤其是温切斯特宫廷与修道院圈子的写法。它之所以成为“标准”，不是因为西撒克逊语更优美，而是因为它背后有**宫廷、教会与教育**三件事。\n\n手稿被复制、传播，抄写者照着抄，标准就固化了。这条机制在整部英语史里反复出现：标准跟着权力中心走，不跟着“最好听的口音”走。\n\n注意标准的功能：它让远方的读者能读懂，也让行政文书可以互相引用。统一拼写的动力从来是**实用**，不是审美。",
+      "terms": [
+        {
+          "term": "West Saxon",
+          "zh": "西撒克逊方言",
+          "en": "West Saxon",
+          "note": "古英语晚期文学标准的基础方言，中心在温切斯特"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "两根标准线，中间有断裂",
+      "body": "三行不是一条直线。西撒克逊标准在诺曼征服后**断了**，中古英语的标准另起于伦敦。所以“英语标准语”没有一条从阿尔弗雷德直通今天的血脉——它是两次建立，中间隔着一个断裂。",
+      "head": [
+        "时期",
+        "标准的基础方言",
+        "中心",
+        "代表"
+      ],
+      "rows": [
+        [
+          "古英语晚期",
+          "西撒克逊",
+          "温切斯特",
+          "阿尔弗雷德时期的译作；《盎格鲁—撒克逊编年史》"
+        ],
+        [
+          "中古英语",
+          "伦敦英语（东中部方言）",
+          "伦敦",
+          "乔叟；衡平法院（Chancery）文书"
+        ],
+        [
+          "现代英语早期",
+          "伦敦印刷英语",
+          "伦敦",
+          "卡克斯顿及后继印刷商"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "断裂的证据",
+      "body": "如果标准是直系继承，中古英语的拼写与词尾应该接着西撒克逊走。事实相反：中古英语的形态更接近**中部与北部方言**——复数 -es 扩张、-aþ 变 -eþ／-eth、西撒克逊的许多拼写习惯消失。\n\n这说明诺曼征服不只换了上层语言，也**打断了原有的书写传统**：抄写中心换人、换地方、换方言。语言的标准像一盏灯，靠人举着；举灯的人走了，灯就灭了，后来的人在别处重新点了一盏。\n\n这条认识对读书有用：不要以为“标准英语”是一条自古至今的直线。它是几段被接起来的线，接缝处有方言的跳变。"
+    },
+    {
+      "kind": "compare",
+      "title": "标准语形成的两种动力",
+      "body": "两种动力都靠“一个中心＋一套复制方式”，但复制方式不同，命运也不同：手抄会漂移，印刷会锁定。这条差别在第 6 天（印刷术）会变成决定性的因素——也是为什么西撒克逊标准断了，而伦敦标准没断。",
+      "a": "宫廷与教育（阿尔弗雷德）",
+      "b": "商业与印刷（伦敦）",
+      "rows": [
+        {
+          "label": "谁推动",
+          "a": "国王、教会、修道院",
+          "b": "商人、文书机构、印刷商"
+        },
+        {
+          "label": "覆盖范围",
+          "a": "西撒克逊及受其影响的地区",
+          "b": "全国，随印刷与行政扩散"
+        },
+        {
+          "label": "稳定性",
+          "a": "依赖手抄复制，容易漂移",
+          "b": "字形被印刷固定，漂移小"
+        },
+        {
+          "label": "结局",
+          "a": "诺曼征服后中断",
+          "b": "延续至今"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w35d3-p1",
+      "kind": "mcq",
+      "prompt": "阿尔弗雷德组织翻译拉丁著作，主要目的是：",
+      "choices": [
+        "让官员与教士能用英语读到必要的知识，服务王国治理",
+        "让英语取代拉丁语成为全欧洲的学术语言",
+        "保存拉丁文学以免失传",
+        "为诗人提供写诗的范本"
+      ],
+      "answer": 0,
+      "explain": "翻译计划是行政与教育工程：在维京压力下，王国需要一个能用英语读写的行政层。它没有、也不可能让英语取代拉丁语成为欧洲学术语言；保存拉丁文学不是主要动机（拉丁原文并未失传）。",
+      "concepts": [
+        "c-etymology",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w35d3-p2",
+      "kind": "mcq",
+      "prompt": "西撒克逊方言成为文学标准，主要因为：",
+      "choices": [
+        "宫廷、教会与教育机构的支持，以及手稿的持续复制",
+        "它的发音最好听",
+        "它的语法最简单",
+        "使用它的人口最多"
+      ],
+      "answer": 0,
+      "explain": "标准的形成靠制度：宫廷使用、教会抄写、学校教授。发音美感无法测量；语法简单与否与标准地位无关；人口多也不保证成为标准（伦敦英语后来胜出，靠的是政治与经济中心地位）。",
+      "concepts": [
+        "c-etymology",
+        "c-register"
+      ]
+    },
+    {
+      "id": "w35d3-p3",
+      "kind": "cloze",
+      "prompt": "填入一个地名",
+      "sentence": "The Late West Saxon standard was based on the dialect of ___, the centre of Alfred's court and monastic circle.",
+      "answer": "Winchester",
+      "accept": [
+        "Winchester",
+        "winchester",
+        "Wessex"
+      ],
+      "explain": "填 Winchester（温切斯特）。它是西撒克逊王国的中心，宫廷与修道院圈子的写法成了标准的底本。答 Wessex 也算对，但那是更大的范围；标准的具体形态与温切斯特的书写实践关系最直接。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w35d3-p4",
+      "kind": "mcq",
+      "prompt": "中古英语的伦敦标准与西撒克逊标准的关系是：",
+      "choices": [
+        "不是直系继承：诺曼征服后书写传统中断，中古标准另起于中部方言",
+        "直接继承：伦敦标准就是西撒克逊标准的延续",
+        "完全无关：两者分属不同语系",
+        "伦敦标准来自诺曼法语，与英语无关"
+      ],
+      "answer": 0,
+      "explain": "两次建立、中间断裂。中古英语的形态特征（-es 扩张、-eþ、拼写习惯）更接近中部与北部方言，而不是西撒克逊。两者同属英语，当然同语系；伦敦标准是英语的，不是法语的（虽然它含大量法语借词）。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w35d3-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“A standard is not chosen for its beauty; it is the variety that happens to be backed by a court, a chancery and a printing press.” 这句对 standard 的解释强调：",
+      "choices": [
+        "标准由制度支持决定，而不是语言本身的优劣",
+        "标准取决于发音是否悦耳",
+        "标准由使用人数决定",
+        "标准由语法复杂度决定"
+      ],
+      "answer": 0,
+      "explain": "句子明说 not chosen for its beauty，并列的三项（court、chancery、printing press）全是制度。这与本周第 3 天的主线一致：标准的背后是权力与复制技术。",
+      "concepts": [
+        "c-inference",
+        "c-register"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w35d3-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 patronage 在句中的含义",
+      "passage": "Alfred's programme depended on patronage: he commissioned the translations, assigned the scholars, and gave the resulting texts the prestige of royal use. Without a patron, a dialect remains a dialect; with one, it can become a written standard within a generation.",
+      "word": "patronage",
+      "choices": [
+        "有权势者的资助与支持",
+        "一种家族继承制度",
+        "一份商业赞助合同",
+        "一种宗教仪式"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后三个动作：commissioned、assigned、gave prestige——都是权力支持的表现；② 对照句：without a patron / with one，说明是“有人支持”；③ 结果：can become a written standard within a generation；④ 排除继承制度、商业合同、宗教仪式：句中动作是委托与授权，不是这些。",
+      "explain": "patronage 指“资助、提携”，来自 patron（保护人、赞助人），与 pater（父）同源——最初指像父亲一样的保护者。理解这个词，就理解了标准语形成的政治面：方言要靠人举起来。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 8 节：阿尔弗雷德、西撒克逊文学标准与书写传统"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "patron／patronage 的拉丁语源；西撒克逊标准与中古伦敦标准的差异"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "id": "w35d6",
+  "week": 35,
+  "day": 6,
+  "title": "印刷术定下拼写，元音却跑了",
+  "tagline": "十五世纪两件事撞在一起：字形被锁住，读音却整体上移了一格",
+  "objectives": [
+    "能说明活字印刷如何促成拼写标准化，以及它为何把拼写冻结在旧读音上",
+    "能列出元音大推移的四组标志性对应，并用 time、mouse、name、moon 举例",
+    "能说明“对应”不等于“音值相等”，并区分辅音对应与元音对应"
+  ],
+  "prereqs": [
+    "w35d5",
+    "w34d1"
+  ],
+  "concepts": [
+    "c-spelling-rule",
+    "c-etymology",
+    "c-inference"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s10-1",
+    "kp-s1c2s10-2"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 11,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "C1",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "两件事撞在一起",
+      "body": "十五世纪七十年代，卡克斯顿在威斯敏斯特开办印刷所，活字印刷进入英语。印刷商要统一字形，否则排字无法批量进行——拼写因此被**锁定**。\n\n同一时期，英语的长元音正在系统上移，后来称为**元音大推移**（Great Vowel Shift）。两件事撞在一起的结果是：**拼写记录的是变化前的读音，读音已经走远了**。\n\n英语“拼写与读音不对应”的根源，就在这个时间差。它不是设计失误，是两次历史事件的重叠。",
+      "terms": [
+        {
+          "term": "Great Vowel Shift",
+          "zh": "元音大推移",
+          "en": "Great Vowel Shift",
+          "note": "中古英语到现代英语之间，长元音系统整体上移或二合化的变化"
+        },
+        {
+          "term": "standardization",
+          "zh": "标准化",
+          "en": "standardization",
+          "note": "拼写、词汇与语法被统一为通行规范的过程"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "元音大推移：四组对应",
+      "body": "竖着读，元音整体上移一格；ī 与 ū 上不去了，就分裂成二合元音 /aɪ/、/aʊ/。这也解释了五个元音字母的“名称音”为什么与它们在别处的读音不同——字母名称记的是推移**之后**的值。",
+      "head": [
+        "中古英语",
+        "现代英语",
+        "例词",
+        "说明"
+      ],
+      "rows": [
+        [
+          "ī /iː/",
+          "/aɪ/",
+          "tīma → time；fīf → five",
+          "最标志性的一组"
+        ],
+        [
+          "ū /uː/",
+          "/aʊ/",
+          "mūs → mouse；hūs → house",
+          "与上一组平行"
+        ],
+        [
+          "ā /aː/",
+          "/eɪ/",
+          "nāma → name；tālan → tale",
+          "长 a 上移"
+        ],
+        [
+          "ō /oː/",
+          "/uː/",
+          "mōna → moon；dōn → do",
+          "长 o 上移"
+        ],
+        [
+          "ē /eː/",
+          "/iː/",
+          "mētan → meet",
+          "长 e 上移，与 ī 的原位重合"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "对应不是音值相等",
+      "body": "关键的一句：**tīma 的 /iː/ 与 time 的 /aɪ/ 不是同一个音**。它们的关系是“同一个词在不同时期的两个读音”，是**对应**，不是相等。\n\n把四列排开更清楚：拉丁 mūs ／ 古英语 mūs ／ 现代英语 mouse ／ 德语 Maus。辅音一路没动（m-、s），长元音走了两站：/uː/ → /uː/（古英语仍是长 u）→ /aʊ/。这条链证明的是**历史关系**，不是“两个音相等”。\n\n同理，第 34 周讲的 pater／father 是辅音对应，今天这组是元音对应。两类对应要分开记，套错规则就会得出错误结论。",
+      "terms": [
+        {
+          "term": "diphthongization",
+          "zh": "二合元音化",
+          "en": "diphthongization",
+          "note": "单元音变成两个音滑动的二合元音，如 /iː/ → /aɪ/"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "拼写冻结的三个后果",
+      "body": "所以英语拼写不是“混乱”，而是**多期叠压的地层**。每一层都能解释：为什么这个字母不发音，为什么这个组合有好几种读法，为什么这个词的拼写比读音“老”。",
+      "head": [
+        "现象",
+        "例",
+        "原因"
+      ],
+      "rows": [
+        [
+          "同一字母组合多种读法",
+          "ough：though、through、tough、bough",
+          "拼写固定在音变前，各地读音分头演变"
+        ],
+        [
+          "纯历史字母",
+          "knight 的 k 与 gh；name 的 e",
+          "曾发音，后脱落，拼写未改"
+        ],
+        [
+          "按词源加回的字母",
+          "debt 的 b（拉丁 dēbitum）",
+          "文艺复兴学者据拉丁“更正”拼写，b 从未发音"
+        ],
+        [
+          "字母名称与音值不一致",
+          "a /eɪ/、i /aɪ/、u /juː/",
+          "名称记的是推移之后的值"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "文艺复兴的借词潮",
+      "body": "同一时期，文艺复兴让英语大量引入拉丁、希腊词：exterior、appendix、catastrophe、lexicon、parenthesis、skeleton。这批词有个共同点：**按原形拼写**——学者刻意保留拉丁／希腊字形，以显示学问与来源。\n\n这是 Latinate 标签最好用的一类词（本周第 4 天）：它们形似拉丁、可按拉丁词素拆，而且往往保留拉丁的复数与词尾习惯（appendix／appendices、phenomenon／phenomena）。\n\n印刷＋古典借词＋元音大推移，三件事一起把现代英语的“样子”定下来了：字形古、读音新、词汇一半来自古典语言。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w35d6-p1",
+      "kind": "mcq",
+      "prompt": "印刷术对英语拼写的主要影响是：",
+      "choices": [
+        "把某一时期的拼写固定下来，此后的音变不再反映到字形上",
+        "让英语的拼写变得完全符合读音",
+        "统一了全欧洲的拼写",
+        "消灭了所有的方言"
+      ],
+      "answer": 0,
+      "explain": "印刷需要统一字形，于是某一批拼写被锁定；而读音继续变化（元音大推移），两者从此脱节。印刷没有让拼写“更符合读音”，也没有统一欧洲（各语言的拼写各自标准化），更没有消灭方言（方言口语一直在）。",
+      "concepts": [
+        "c-spelling-rule",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w35d6-p2",
+      "kind": "mcq",
+      "prompt": "元音大推移最标志性的一组对应是：",
+      "choices": [
+        "中古英语 ī /iː/ 变现代 /aɪ/（tīma → time）",
+        "中古英语 ī /iː/ 变现代 /iː/（保持不变）",
+        "现代 /aɪ/ 变中古 /iː/（方向相反）",
+        "所有元音都变成 /ə/"
+      ],
+      "answer": 0,
+      "explain": "方向是中古 → 现代：ī 上移无处可去，分裂为 /aɪ/。方向不能反（tīma 在前，time 在后）。/ə/ 化发生在非重读音节（本周第 5 天），与长元音的高化是两回事。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w35d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个音标",
+      "sentence": "Old English mūs and Modern English mouse differ in their long vowel: /uː/ became ___ .",
+      "answer": "/aʊ/",
+      "accept": [
+        "/aʊ/",
+        "aʊ",
+        "au"
+      ],
+      "explain": "填 /aʊ/。ū 与 ī 是平行的一组：都上移无处可去，于是分裂成二合元音（/uː/→/aʊ/、/iː/→/aɪ/）。记住这一对平行，就记住了元音大推移的骨架。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w35d6-p4",
+      "kind": "mcq",
+      "prompt": "元音大推移与格里姆定律的区别是：",
+      "choices": [
+        "前者是英语内部的长元音变化，后者是印欧到日耳曼的辅音推移",
+        "两者都是辅音变化，只是时代不同",
+        "前者发生在拉丁语，后者发生在英语",
+        "两者是同一件事的两种叫法"
+      ],
+      "answer": 0,
+      "explain": "两层不同：格里姆定律是印欧语→日耳曼语的辅音推移（p→f、t→th、k→h），发生在英语存在之前；元音大推移是英语内部中古→现代的长元音变化。既不是同一层，也不是同一类音。",
+      "concepts": [
+        "c-cognate",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w35d6-p5",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“Spelling fossilised the older pronunciation: the letters still spell the sounds of 1400, while the tongue has moved on.” 句中 fossilised 最可能指：",
+      "choices": [
+        "把旧状态固定下来、不再随变化更新",
+        "变成了地层的化石",
+        "被彻底废弃不用",
+        "按词源重新拼写过"
+      ],
+      "answer": 0,
+      "explain": "fossil（化石）＋ -ise：使成为化石，引申为“冻结、固定”。句子用 the letters still spell the sounds of 1400 解释“冻在旧读音上”，与 the tongue has moved on 形成对照。这是隐喻用法，不是真的化石。",
+      "concepts": [
+        "c-inference",
+        "c-spelling-rule"
+      ],
+      "hint": "看冒号后的解释：still spell the sounds of 1400。"
+    }
+  ],
+  "apply": [
+    {
+      "id": "w35d6-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 correspondence 在句中的含义",
+      "passage": "Each stage of the vowel shift can be stated as a correspondence rather than a value: wherever Middle English had a long i, Modern English has a diphthong. The statement does not claim the two sounds were alike; it claims that one regularly replaced the other, word after word.",
+      "word": "correspondence",
+      "choices": [
+        "两个时期之间规律性的对应关系",
+        "两封信件之间的往来",
+        "两个音在音值上完全相同",
+        "一种约定俗成的拼写习惯"
+      ],
+      "answer": 0,
+      "strategy": "① 定义句：stated as a correspondence rather than a value——重点在“关系”，不在“音值”；② 例示：wherever Middle English had a long i, Modern English has a diphthong；③ 澄清句：does not claim the two sounds were alike；④ 排除书信义、相等义、拼写习惯：三者都与“逐词替换的规律”不符。",
+      "explain": "correspondence 在这里是“对应关系”：一套语言的两个时期之间，A 音在固定条件下总是变成 B 音。它与“音值相等”相反——正是为了否认相等，才需要“对应”这个概念。这个词在本单元出现多次（第 34 周第 1 天、第 27 周第 4 天），含义一致。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 10 节：印刷术与标准化、文艺复兴古典借词、元音大推移"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "time、mouse、name、moon、meet 的中古英语形式与现代读音"
+    }
+  ]
+}

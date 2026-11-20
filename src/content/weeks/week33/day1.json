@@ -1,0 +1,252 @@
+{
+  "id": "w33d1",
+  "week": 33,
+  "day": 1,
+  "title": "一种语言，四块大陆",
+  "tagline": "英语在英格兰住了一千五百年，在北美只住了四百年——拉开距离的不是海洋，是隔离加时间",
+  "objectives": [
+    "能说明英格兰、美国、澳大利亚的英语为什么仍算同一种语言，判据是什么",
+    "能用共同历史解释英语词汇的两层结构：本族日耳曼词与拉丁法语借词",
+    "能区分“同源”与“同语”两个概念，并各举一例"
+  ],
+  "prereqs": [
+    "w27d1",
+    "c-etymology"
+  ],
+  "concepts": [
+    "c-etymology",
+    "c-borrowing",
+    "c-cognate"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s1-1"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "一千年在岛上，四百年在海上",
+      "body": "英语在英格兰有连续文献约一千三百年；北美要到十七世纪才有稳定的英语社群，澳大利亚更晚。三地英语之所以“同属一语”，判据不是发音像，而是**共同历史**：同一套语法核心、同一批本族词、同一段借词史。\n\n差别集中在晚近分化出来的部分：词汇、拼写、少数语法习惯。因为分开的时间短，而且此后一直有书籍、贸易、航运与媒体在拉着它们，分化没能累积到断裂。若隔离再久一点、接触再少一点，就会像冰岛语与大陆北欧语那样——同源，却听不懂。\n\n所以“英语是一种语言”不是本质判断，是历史判断：它有一个共同的过去，且这个过去还在被共同使用。",
+      "terms": [
+        {
+          "term": "variety",
+          "zh": "变体",
+          "en": "variety",
+          "note": "同一种语言在不同地区或社会群体中的具体形态"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个变体，四层借词",
+      "body": "竖着看前两列，几乎不变：语法骨架与核心词是各家共有的。横着看最后一列，差别最大：借词层记录的是**各地不同的接触史**。这正好说明同一性与差异性各自住在哪一层。",
+      "head": [
+        "变体",
+        "本族日耳曼底色",
+        "主要借词层",
+        "例词"
+      ],
+      "rows": [
+        [
+          "英格兰英语",
+          "house、water、eat",
+          "诺斯语、法语、拉丁",
+          "they、beef、government"
+        ],
+        [
+          "美国英语",
+          "同上",
+          "西班牙语、美洲原住民语、德语",
+          "ranch、moose、kindergarten"
+        ],
+        [
+          "澳大利亚英语",
+          "同上",
+          "英式底层＋澳洲原住民语",
+          "kangaroo、boomerang"
+        ],
+        [
+          "印度英语",
+          "同上",
+          "印地语、葡萄牙语",
+          "shampoo、juggernaut、veranda"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "核心不动，边缘在长",
+      "body": "英语的核心词——sun、mother、eat、house、two——在各变体里几乎没变，因为它们从古英语一路继承下来，属于**继承词**；边缘的词汇（食物、地名、制度名）随接触不断更换，属于**借词**。\n\n于是有了一条实用的分工：判断两个变体是不是同一种语言，看核心；判断它们各自经历过什么，看边缘。前者是语法与代词、数词、亲属称谓；后者是菜名、地名、官职名。\n\n这也是本单元后面所有内容的角度：**英语史就是一层层借词压上去的历史**，而每一层都能从语义场读出来源。看到 wine 与 street，就该想到罗马人的市场；看到 court 与 justice，就该想到诺曼人的法庭。",
+      "terms": [
+        {
+          "term": "inherited word",
+          "zh": "继承词",
+          "en": "inherited word",
+          "note": "从祖语一代代传下来、未经借用的词"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "同源 vs 同语",
+      "body": "两个概念常被混用，判据却完全不同。混用会带来两种典型错误：把“同源”当成“能通话”，于是奇怪为什么英语和印地语说不通；或者把“互通”当成“同源”，于是以为挪威语与丹麦语是同一门语言。下面四行把两条判据分开摆。",
+      "a": "同源（cognate）",
+      "b": "同语（same language）",
+      "rows": [
+        {
+          "label": "判据",
+          "a": "来自同一祖语形式，音对应成套",
+          "b": "共享语法核心与核心词，且说话人认同或互通"
+        },
+        {
+          "label": "例子",
+          "a": "英语 father 与拉丁 pater",
+          "b": "英格兰英语与美国英语"
+        },
+        {
+          "label": "反例",
+          "a": "英语与印地语同源，却完全不通",
+          "b": "挪威语与丹麦语高度互通，仍常算两种语言"
+        },
+        {
+          "label": "靠什么判断",
+          "a": "成批的音对应，个别词不算",
+          "b": "核心语法＋社会认同，与词汇相似度无关"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "这不是“纯度”问题",
+      "body": "有人把借词多当成“英语不纯”，这个说法在语言学上站不住：**没有哪种语言是纯的**。借词是接触的正常结果，日语、韩语、土耳其语都有一半以上的借词，语法照样稳定。\n\n更要紧的是分清层次。英语的语法骨架仍是日耳曼的：第三人称单数 -s、过去式 -ed、比较级 -er、复合构词、un- 与 -ness 这套词缀，全部承自日耳曼语；借来的主要是名词与形容词。\n\n所以看到 cow 与 beef 并存，正确的反应不是“英语被污染了”，而是“这里压着两段历史”：cow 是农夫的古英语，beef 是诺曼贵族的法语。词表本身就是地层剖面。"
+    }
+  ],
+  "practice": [
+    {
+      "id": "w33d1-p1",
+      "kind": "mcq",
+      "prompt": "判断英格兰英语、美国英语、澳大利亚英语“同属一种语言”，最有力的依据是：",
+      "choices": [
+        "三者共享语法核心与核心词汇，且历史连续、近几百年持续接触",
+        "三者的发音基本相同",
+        "三者都使用拉丁字母",
+        "三者都从法语借过大量词汇"
+      ],
+      "answer": 0,
+      "explain": "同语的判据是共享语法核心与核心词汇，加上持续接触与社会认同。发音差别恰恰是三者最明显的分歧点之一（元音、r 音、语调都不同），所以第二项不成立；文字系统可以整套移植，与语言身份无关；借词层是各自接触史的结果，不是同一性的证据。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w33d1-p2",
+      "kind": "mcq",
+      "prompt": "英语各变体之间差异最大的部分通常是：",
+      "choices": [
+        "借词层：食物、地名、制度名等随接触更换的词汇",
+        "人称代词的形态",
+        "数词系统",
+        "动词的第三人称单数词尾"
+      ],
+      "answer": 0,
+      "explain": "代词、数词、动词词尾属于最稳定的核心层，各变体几乎一致；借词层跟着各地接触史走，差别最大。这条分工有实用价值：想判断历史，看边缘；想判断同一性，看核心。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w33d1-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文名词",
+      "sentence": "The unity of English across four continents rests on shared ___, not on identical pronunciation: the varieties descend from one continuous speech community.",
+      "answer": "history",
+      "accept": [
+        "history",
+        "common history",
+        "a common history"
+      ],
+      "explain": "填 history。判据是共同历史：同一套语法核心、同一批本族词、同一段借词史。发音、拼写、词汇偏好都可以不同，只要这条历史链没断，就还是同一种语言。",
+      "concepts": [
+        "c-etymology"
+      ]
+    },
+    {
+      "id": "w33d1-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“For most of its history English was a vernacular spoken by farmers and cooks, while Latin and French held the written registers.” 句中 vernacular 最可能指：",
+      "choices": [
+        "日常口语中使用的本地语言",
+        "一种官方文书格式",
+        "一套字母系统",
+        "一种诗歌体裁"
+      ],
+      "answer": 0,
+      "explain": "vernacular 与 written registers 构成对立：一边是农夫与厨子的口语，一边是拉丁语与法语占着的书面语域。所以 vernacular 指“本地日常口语”，不是文书格式、字母或体裁。这个词在语言史里很常用，指“一个社群的土语”，与“学者用的书面语”相对。",
+      "concepts": [
+        "c-inference",
+        "c-register"
+      ],
+      "hint": "先找对比项：spoken by farmers 对 written registers。"
+    },
+    {
+      "id": "w33d1-p5",
+      "kind": "mcq",
+      "prompt": "下列哪一组最能说明英语词汇的“分层”？",
+      "choices": [
+        "cow（本族）与 beef（法语借词）",
+        "foot（单数）与 feet（复数）",
+        "time（现代）与 tīma（古英语）",
+        "un-（前缀）与 -ness（后缀）"
+      ],
+      "answer": 0,
+      "explain": "分层指不同历史来源的词并存于同一语义场。cow 是古英语的本族词，beef 是诺曼法语借词，两者分工（活的动物／端上桌的肉）正是社会史压在词表上的痕迹。foot/feet 是同一个词的屈折形式；tīma/time 是同一词的前后两期；un- 与 -ness 是不同位置的词缀，都不是“分层”。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w33d1-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 inherited 在句中的含义",
+      "passage": "The words a language inherits are not the ones it talks about most. English can borrow thousands of nouns for food, law and fashion and still keep its pronouns, its numbers and its word order untouched: those are inherited, and they are what makes the language the same language across four continents.",
+      "word": "inherited",
+      "choices": [
+        "从更早的语言阶段一代代传下来的",
+        "从别的语言临时借来的",
+        "由近代学者人为新造的",
+        "已经废弃不用的"
+      ],
+      "answer": 0,
+      "strategy": "① 句法：are inherited 与前面的 can borrow 构成对比；② 后半句点明“代词、数词、语序没被动过”，这三类正是最稳定的核心层；③ 与 borrow 对立，只能是“继承”；④ 排除“新造”“废弃”：段落没有提造词或消亡，只说稳定性。",
+      "explain": "inherited 指“继承来的”，与 borrowed 相对。这一段讲的是英语史的基本分工：核心层靠继承，边缘层靠借用。记住这条，后面每一次遇到“这个词是本族还是借词”的问题，都能先问一句：它在核心层还是边缘层。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 1 节：英语的历史背景与各地英语的共同来源"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "语言变体、互通度与“语言／方言”的社会判断"
+    }
+  ]
+}

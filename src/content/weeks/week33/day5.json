@@ -1,0 +1,248 @@
+{
+  "id": "w33d5",
+  "week": 33,
+  "day": 5,
+  "title": "为什么是印欧语铺开，而不是“更好的语言”",
+  "tagline": "语言的边界跟着权势走：战车、税吏、印刷机、服务器——借词的方向也一样",
+  "objectives": [
+    "能说明语言扩张的两个动力：使用者的军事／经济优势与传播制度",
+    "能反驳“某语言更优越、更精确”的说法，并给出反例",
+    "能用“权势流向”判断借词方向：谁借谁"
+  ],
+  "prereqs": [
+    "w33d4",
+    "c-borrowing"
+  ],
+  "concepts": [
+    "c-borrowing",
+    "c-register",
+    "c-etymology"
+  ],
+  "knowledgePoints": [
+    "kp-s1c2s3-2"
+  ],
+  "minutes": {
+    "review": 4,
+    "learn": 10,
+    "practice": 8,
+    "apply": 4
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "铺开的是人，不是语法",
+      "body": "印欧语在几千年里从草原一带铺到印度与西欧。主流解释是**使用者占了军事与社会经济的上风**：能组织、能打仗、能占据好地、能把自己的制度带过去。有学者特别看重马与战车的作用，这条属于主流假说，仍有讨论，不宜当成定论。\n\n没有一种解释需要假设印欧语“更精确”“更美”或“更适合思考”。语言本身没有优劣，只有使用者的处境。同样的话也可以反过来说：一种语言之所以消失，通常不是因为它“不够好”，而是因为说它的人失去了学校、市场与婚姻网络。\n\n这条认识是防骗的：凡是听到“某语言逻辑严密所以先进”，先问一句——用什么尺子量的？",
+      "terms": [
+        {
+          "term": "prestige",
+          "zh": "声望",
+          "en": "prestige",
+          "note": "某种语言或变体因使用者地位而获得的社会评价"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三个反例",
+      "body": "若“优劣”能解释扩张，就该有反证。反证很多：**巴斯克语**在印欧语包围中活了两千年；**芬兰语、爱沙尼亚语、匈牙利语**在欧洲腹地存留；**柏柏尔诸语**在阿拉伯语压力下仍在北非使用。\n\n反过来，拉丁语在帝国崩解后分化为罗曼诸语，不是因为拉丁语“变差了”，而是因为政治中心散了、书写标准断了。语言的存留与取代由政治、人口、教育决定，与结构优劣无关。\n\n还有一层：所谓“精确”往往是**语域**带来的错觉。法律文本精确，是因为写的人反复打磨，不是因为那门语言天生精确；同一门语言在闲聊里一样含糊。"
+    },
+    {
+      "kind": "table",
+      "title": "权势流向 = 借词方向",
+      "body": "横向读这张表，箭头几乎总从权势高的一边指向低的一边。**借词不是崇拜，是接触条件下的实用选择**：要谈法庭、谈菜肴、谈新机器，就借那一套词。这条规律比“某语言更高级”有用得多，因为它能预测你会遇到什么词。",
+      "head": [
+        "时期",
+        "权势在哪边",
+        "借词流向",
+        "例"
+      ],
+      "rows": [
+        [
+          "古英语早期",
+          "罗马的物质文明",
+          "拉丁 → 日耳曼",
+          "wine、street、mile、cheese"
+        ],
+        [
+          "九至十世纪",
+          "北欧定居者",
+          "诺斯语 → 英语",
+          "they、sky、egg、skin"
+        ],
+        [
+          "1066 之后",
+          "诺曼贵族",
+          "法语 → 英语",
+          "beef、court、justice"
+        ],
+        [
+          "十七世纪以后",
+          "英国海上与殖民势力",
+          "英语 ↔ 各地语言",
+          "shampoo（印地语）、kangaroo（澳洲）、typhoon（汉语）"
+        ],
+        [
+          "二十世纪以后",
+          "美国科技与媒体",
+          "英语 → 各国",
+          "le week-end（法语）、コンピューター（日语）"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "一个词的旅行方向",
+      "body": "同一件事，两边各自命名，胜负由权势定。英语的 **war** 来自诺曼法语的 werre；而法语的 guerre 本身又借自日耳曼的 *werra——一个日耳曼词先进了拉丁口语，又被诺曼人带回英语。\n\n反过来，今天法语从英语借 le week-end、le football，日语从英语借大量科技词。方向反转，词还是那些词。所以看到借词，先问“当时谁在上风”，而不是“谁的语言更好”。\n\n这条也给了一个实用的读词法：一个词的形状越“不像本族词”，越可能来自权势更高的那一层——城堡、法庭、教堂、实验室。"
+    },
+    {
+      "kind": "compare",
+      "title": "权势解释 vs 优劣论",
+      "body": "优劣论最致命的地方是不可检验：没有一把尺子能量出哪种语言的语法“更好”。而权势解释可以被史料推翻或支持，所以它是学术上的默认框架。四行对照，重点看“可否检验”这一行——它决定了一个说法是不是科学假说。",
+      "a": "权势解释",
+      "b": "优劣论",
+      "rows": [
+        {
+          "label": "扩张原因",
+          "a": "使用者的军事、经济、制度优势",
+          "b": "语言结构更精确、更美、更适合思考"
+        },
+        {
+          "label": "可否检验",
+          "a": "可：对照人口、贸易、宗教、教育史料",
+          "b": "不可：没有客观指标"
+        },
+        {
+          "label": "反例",
+          "a": "有：巴斯克语、芬兰语等存留需另作解释",
+          "b": "大量：结构简单的语言照样扩张"
+        },
+        {
+          "label": "对学词的用处",
+          "a": "能预测借词层与借词方向",
+          "b": "无"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w33d5-p1",
+      "kind": "mcq",
+      "prompt": "印欧语系得以大范围扩张，学术上的主流解释是：",
+      "choices": [
+        "使用者的军事与社会经济优势，加上制度与传播方式的扩散",
+        "印欧语的语法比别的语言更精确",
+        "印欧语的词汇量最大",
+        "印欧语最早发明了文字"
+      ],
+      "answer": 0,
+      "explain": "扩张靠人，不靠语法。语法优劣没有可操作的衡量标准；词汇量与文字发明都与亲缘、扩张无关（印欧祖语恰恰没有文字）。第二、三项属于“优劣论”，不可检验；第四项与事实相反。",
+      "concepts": [
+        "c-etymology",
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w33d5-p2",
+      "kind": "mcq",
+      "prompt": "“某语言更优越所以传播更广”这一说法最主要的问题是：",
+      "choices": [
+        "它不可检验，且与语言存留、取代的实际史料不符",
+        "它违反了语法规则",
+        "它只适用于有文字的语言",
+        "它把借词和同源词混为一谈"
+      ],
+      "answer": 0,
+      "explain": "双重问题：一是没有客观指标可以衡量“优越”，二是反例太多（结构简单的语言照样扩张，结构复杂的语言照样消亡）。它既不是语法问题，也不是文字或同源的问题。",
+      "concepts": [
+        "c-inference"
+      ]
+    },
+    {
+      "id": "w33d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文词（过去分词）",
+      "sentence": "Words travel along the same routes as power: when a group controls courts, trade or schooling, its vocabulary is ___ into its neighbours' speech.",
+      "answer": "borrowed",
+      "accept": [
+        "borrowed",
+        "adopted",
+        "taken"
+      ],
+      "explain": "填 borrowed。这条判断很实用：看到一个借词层，就能反推当时的权势关系；反过来，知道权势关系，就能预测会遇到哪类借词（法庭词、菜肴词、科技词）。",
+      "concepts": [
+        "c-borrowing"
+      ]
+    },
+    {
+      "id": "w33d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）读句子：“Prestige, not structure, decides which variety parents pass on: a dialect associated with jobs and schools spreads, while an equally regular rural variety recedes.” 句中 prestige 最可能指：",
+      "choices": [
+        "因使用者地位而获得的社会声望",
+        "语法的复杂程度",
+        "使用人口的绝对数量",
+        "文献保存的数量"
+      ],
+      "answer": 0,
+      "explain": "句子用 not structure 把 prestige 与“结构”对立起来，并用 jobs and schools 解释它的来源——社会地位带来的声望。它不等于语法复杂度、人口数量或文献数量；一个只有几千人使用的城市变体，也可能有很高的声望。",
+      "concepts": [
+        "c-inference",
+        "c-register"
+      ],
+      "hint": "看 not structure 的对立，以及 jobs and schools 这个解释。"
+    },
+    {
+      "id": "w33d5-p5",
+      "kind": "mcq",
+      "prompt": "1066 年后英语从法语大量借词，最能说明：",
+      "choices": [
+        "借词方向跟随权势，而不是语言优劣",
+        "法语的语法比英语更严密，所以英语必须借",
+        "英语当时的词汇量不足以表达日常事物",
+        "英语与法语同属一个语族"
+      ],
+      "answer": 0,
+      "explain": "诺曼贵族掌握宫廷、法庭与地产，法语因此成为“有好处”的语言，词汇随之流入。英语并不缺词——它有 cow、sheep、house 这些本族词；缺的是与新制度配套的说法。英语与法语同属印欧语系，但不同支（日耳曼／意大利），所以第四项也不准确。",
+      "concepts": [
+        "c-borrowing",
+        "c-etymology"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w33d5-a1",
+      "kind": "infer",
+      "prompt": "阅读段落，推测 recede 在句中的含义",
+      "passage": "When a language loses its speakers, it rarely disappears in a single generation. It recedes: first from schools and courts, then from the market, and finally from the kitchen, until grandparents and grandchildren no longer share a comfortable language.",
+      "word": "recedes",
+      "choices": [
+        "使用范围一步步退却、缩小",
+        "被政府突然明令禁止",
+        "使用者集体迁往城市",
+        "重新流行起来"
+      ],
+      "answer": 0,
+      "strategy": "① 冒号后的序列就是定义：先退出学校与法庭，再退出市场，最后退出厨房；② 空间隐喻：从公共领域退到家庭内部，范围逐层缩小；③ 结果句 until grandparents and grandchildren no longer share a language，说明退到代际断裂；④ 排除“突然禁止”“迁往城市”“重新流行”：都与“逐层退出”的渐进义不符。",
+      "explain": "recede 是“后退、退去”，与 re-（向后）＋ cedere（走）同源。它描述的是一种缓慢的退潮：语言不是被消灭，而是使用场合一层层让出去。这个词在讨论语言濒危时非常常用，与之相对的是 spread、expand。",
+      "concepts": [
+        "c-inference",
+        "c-etymology"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 2 章第 3 节：印欧语扩张的权势解释与语言无优劣"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "war／guerre／*werra 的借词链与 prestige 的语义"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { db, cardId, IS_TAURI, WEB_DB_KEY, type AppInfo, type Bookmark, type DailyStat, type KindStat, type Totals } from './api';
+import { loadLessons } from './content';
 import {
   backupFileName,
   parseBackup,
@@ -170,7 +171,9 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       try {
         const appInfo = await db.info();
         setInfo(appInfo);
-        await refresh();
+        // Lesson JSON is its own chunk now. Load it alongside the user data so
+        // every screen can keep reading `lessons` synchronously once ready.
+        await Promise.all([refresh(), loadLessons()]);
         setReady(true);
       } catch (err) {
         setError(err instanceof Error ? err.message : String(err));

@@ -1,0 +1,278 @@
+{
+  "id": "w37d5",
+  "week": 37,
+  "day": 5,
+  "title": "标源语言不是为了考古，是为了预测",
+  "tagline": "知道一个词素是拉丁还是希腊，你就能预判它怎么连接、怎么变复数、怎么拼写",
+  "objectives": [
+    "能说明标注 Latin／Greek 的实用价值：预测连接元音、复数形式、拼写与词缀同化",
+    "能用 anemometer 演示“希腊来源 → -o- 连接 → -meter 组合”的推理链",
+    "能区分 aqua-（拉丁）与 hydro-（希腊）这两个同义词根的使用行为"
+  ],
+  "prereqs": [
+    "w36d1",
+    "w37d4",
+    "c-greek-latin",
+    "c-combining",
+    "c-allomorph"
+  ],
+  "concepts": [
+    "c-greek-latin",
+    "c-combining",
+    "c-allomorph",
+    "c-spelling-rule",
+    "c-scientific",
+    "c-borrowing"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s21-3"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "标签的用处：预判行为",
+      "body": "教材对“标源语言”给了一个很实用的定位：**标注 Latin 或 Greek 不是追溯历史，而是预判该词素接缀时的音变行为。**\n\n举个最直接的例子：希腊来源的组合形式在拼接时通常带一个连接元音 **-o-**（photograph、thermometer、barometer），拉丁来源的成分则不一定（aquatic、manual、cordial）。你只要知道来源，就能预判“这里该不该出现 o”。\n\n同样能预判的还有三件事：**复数怎么变**（Greek -on → -a，Latin -us → -i）、**拼写怎么选**（Greek 的 ph、ch、y）、**前缀会不会同化**（Latin in- 在 p 前变 im-，在 l 前变 il-）。\n\n所以这个标签不是博物馆的说明牌，而是一张行为预测表。",
+      "terms": [
+        {
+          "term": "source language",
+          "zh": "源语言",
+          "en": "source language",
+          "note": "词素借入英语时所来自的语言，决定其接缀与拼写行为"
+        },
+        {
+          "term": "linking vowel",
+          "zh": "连接元音",
+          "en": "linking vowel",
+          "note": "希腊组合形式之间常见的 -o-，如 thermometer"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四类可预测的行为",
+      "body": "这张表是本周最该背下来的一张。每一行都是“看到标签 → 预判形式”的对应关系，而不是零散知识。注意第三行：ph、ch、y 这三个拼写几乎可以作为希腊来源的指纹。",
+      "head": [
+        "行为",
+        "Greek 的表现",
+        "Latin 的表现",
+        "例词"
+      ],
+      "rows": [
+        [
+          "连接元音",
+          "组合形式之间常加 -o-",
+          "一般不插 -o-",
+          "Greek: thermometer、anemometer；Latin: manual、cordial"
+        ],
+        [
+          "复数",
+          "-on → -a；-ma → -mata",
+          "-us → -i；-a → -ae；-um → -a",
+          "criterion/criteria；radius/radii；alumna/alumnae；datum/data"
+        ],
+        [
+          "拼写",
+          "ph = /f/；ch = /k/；y 常见",
+          "c 在前元音前常读 /s/",
+          "Greek: philosophy、chrome、cycle；Latin: decide、incisor、century"
+        ],
+        [
+          "前缀同化",
+          "较少同化",
+          "in- → im-/il-/ir-；ad- → ac-/af-/al-/ap- 等",
+          "impossible、illegal、irregular；accept、affect、arrive"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "anemometer：一条完整的推理链",
+      "body": "教材用的例子是 **anemometer**（风速计）。拆解如下：\n\n**anemo-** 来自希腊 anemos“风”，是组合形式；中间的 **-o-** 是希腊组合形式常见的连接元音；**-meter** 也是希腊来源，表示“测量仪器”。所以整词是“测风的仪器”。\n\n这条链的每一步都能被标签预测：看到 anemo- 的 -o- 结尾和 -meter 的希腊身份，你就知道中间那个 o 不是任意的，而是这类组合的标准连接方式。同族还有 anemone（银莲花，字面与“风”有关）、anemograph（风速记录仪）。\n\n反过来说，如果 anemo- 是拉丁来源，我们就不该期待这个 -o-。这就是“标源语言”的实际收益：它让你在没见过的词里也能判断哪个音是连接成分、哪个是词根的一部分。",
+      "terms": [
+        {
+          "term": "anemo-",
+          "zh": "组合形式：风",
+          "en": "anemo-",
+          "note": "希腊 anemos“风”，见于 anemometer、anemograph"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "拼写层：三个希腊指纹，一条拉丁规则",
+      "body": "**希腊指纹一：ph = /f/。** photograph、philosophy、phone、hydrophobia。英语本族词很少用 ph 表 /f/，看到它基本可以判为希腊来源。\n\n**希腊指纹二：ch = /k/。** chrome、chorus、psychology、technical。注意别和英语本族的 ch（church、child，读 /tʃ/）混。\n\n**希腊指纹三：y 在词中。** cycle、psychology、hypothesis、anonymous。y 在英语本族词里几乎只出现在词尾（happy、day）。\n\n**拉丁规则：c 在前元音前读 /s/。** decide、incisor、century、civic。这条规则不适用于希腊来源的 ch，因为 ch 是一个整体，读 /k/。\n\n四条合起来，你就有了一个“看拼写猜来源、看来源预判读音”的双向工具。它比背单词表有用，因为它是可推广的。",
+      "terms": [
+        {
+          "term": "soft c",
+          "zh": "软音 c",
+          "en": "soft c",
+          "note": "c 在 e、i、y 前读 /s/，是拉丁来源词的常见拼写—读音对应"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "aqua- 与 hydro-：同义，不同行为",
+      "body": "两个词根都表示“水”，但一个来自拉丁、一个来自希腊，行为跟着来源走。这不是同义词的修辞差别，而是构词规矩的差别：选哪个词根，决定你能接什么、怎么拼。",
+      "a": "aqua-（拉丁：水）",
+      "b": "hydro-（希腊：水）",
+      "rows": [
+        {
+          "label": "来源",
+          "a": "拉丁 aqua",
+          "b": "希腊 hydōr"
+        },
+        {
+          "label": "典型派生",
+          "a": "aquatic、aqueous、aquarium、aqueduct",
+          "b": "hydraulic、hydroelectric、hydrophobia、hydrogen"
+        },
+        {
+          "label": "连接行为",
+          "a": "不插 -o-，多用 -atic／-eous 等拉丁后缀",
+          "b": "常以 -o- 连接另一成分：hydro-electric、hydro-phobia"
+        },
+        {
+          "label": "使用领域",
+          "a": "偏生物、日常与古典语境",
+          "b": "偏科技、医学与工程术语"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w37d5-p1",
+      "kind": "mcq",
+      "prompt": "criterion 的复数形式是：",
+      "choices": [
+        "criteria",
+        "criterions",
+        "criterias",
+        "criterion 不变"
+      ],
+      "answer": 0,
+      "explain": "criterion 是希腊来源的中性名词，复数 -on → -a，所以是 criteria。同类的还有 phenomenon/phenomena。criterions 偶见但非标准。知道来源就能预判复数，这正是标源语言的实用价值。",
+      "concepts": [
+        "c-greek-latin",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w37d5-p2",
+      "kind": "mcq",
+      "prompt": "thermometer 中 -o- 的功能是：",
+      "choices": [
+        "连接两个希腊组合形式的连接元音",
+        "表示“热”的词根",
+        "表示复数的屈折词尾",
+        "表示“测量”的后缀"
+      ],
+      "answer": 0,
+      "explain": "therm（热）+ o（连接元音）+ meter（测量）→ thermometer。这个 -o- 不携带词汇义，作用是连接两个希腊来源的组合形式。它不是词根（“热”是 therm），不是屈折词尾，也不是后缀。",
+      "concepts": [
+        "c-combining",
+        "c-greek-latin"
+      ]
+    },
+    {
+      "id": "w37d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文单词",
+      "sentence": "The plural of criterion is ___ , following the Greek neuter pattern.",
+      "answer": "criteria",
+      "accept": [
+        "criteria"
+      ],
+      "explain": "criterion 的复数是 criteria，遵循希腊中性名词 -on → -a 的模式。这类复数不是靠死记，而是靠“来源 → 复数规则”的对应推出来的；同类的 phenomenon → phenomena 可以一起记。",
+      "concepts": [
+        "c-greek-latin",
+        "c-spelling-rule"
+      ]
+    },
+    {
+      "id": "w37d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）hydrometer 与 anemometer 共享的构词特征是什么？",
+      "choices": [
+        "都是希腊组合形式 + 连接元音 -o- + -meter（测量仪器）",
+        "都是拉丁词根 + -or（施事）+ -er（比较级）",
+        "都是首字母缩拼词",
+        "都是逆构词"
+      ],
+      "answer": 0,
+      "explain": "hydrometer = hydro（水）+ o + meter，anemometer = anemo（风）+ o + meter，两者都是希腊组合形式经 -o- 连接到 -meter。这个共享结构正是“标源语言可预测行为”的证据：知道 -meter 是希腊来源，就能预判前面会出现连接元音。",
+      "concepts": [
+        "c-combining",
+        "c-greek-latin",
+        "c-inference"
+      ],
+      "hint": "先找两个词共同的尾巴，再看它前面有没有连接元音。"
+    },
+    {
+      "id": "w37d5-p5",
+      "kind": "mcq",
+      "prompt": "下面哪种拼写最强烈地提示一个词来自希腊语？",
+      "choices": [
+        "ph 表示 /f/，如 philosophy",
+        "c 在 i 前读 /s/，如 incisor",
+        "-tion 结尾，如 nation",
+        "-ment 结尾，如 government"
+      ],
+      "answer": 0,
+      "explain": "ph = /f/ 是希腊来源的典型指纹，同类的还有 ch = /k/、词中的 y。c 在 i 前读 /s/ 是拉丁规则，-tion 和 -ment 是拉丁来源的常见后缀。用拼写反推来源时，ph、ch、y 这三条最可靠。",
+      "concepts": [
+        "c-greek-latin",
+        "c-spelling-rule"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w37d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 anemometer 的用途",
+      "passage": "Before the tower could be certified, the engineers mounted an anemometer on a temporary mast and logged its output for a month. The readings showed that gusts above the design limit occurred far more often than the original survey had suggested.",
+      "word": "anemometer",
+      "choices": [
+        "测量风速的仪器",
+        "测量气温的仪器",
+        "测量湿度的仪器",
+        "测量塔身倾斜的仪器"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：anemo（风，希腊）+ o（连接元音）+ meter（测量仪器）；② 句法：mounted ... on a temporary mast，装在高杆上，符合测风设备；③ 语境：gusts above the design limit，直接出现“阵风”，说明测的是风；④ 排除：气温、湿度、倾斜都没有“gust”这条线索。",
+      "explain": "anemometer 是风速计。这道题完整演示了本课的方法：先用来源预测结构（希腊组合形式 + -o- + meter），再用语境确认具体测什么（gusts）。如果只知道 -meter 是“测量”，你只能得到“测量仪器”；是 anemo- 的“风”把范围锁死。**标签预测结构，词根提供语义，语境做最后校验。**",
+      "concepts": [
+        "c-combining",
+        "c-greek-latin",
+        "c-scientific",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 21 节：标源语言是为预测词素行为；anemometer"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态学：能产性与语素变体"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "criterion、anemometer、hydrometer、aqua-/hydro- 的来源与形式核对"
+    }
+  ]
+}

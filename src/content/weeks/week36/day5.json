@@ -1,0 +1,283 @@
+{
+  "id": "w36d5",
+  "week": 36,
+  "day": 5,
+  "title": "重音作超缀：不占一个音，却区分两个词",
+  "tagline": "REcord 与 reCORD 拼写一模一样，只靠重音位置分成名词和动词",
+  "objectives": [
+    "能读出 record、present、object、contract 的名词与动词重音差别",
+    "能说明超缀是不占音段的词素：只由重音型承担词类区分",
+    "能区分三种转换标记：重音、清浊交替、元音音质，并知道并非所有转换都有标记"
+  ],
+  "prereqs": [
+    "w36d1",
+    "w07d1",
+    "c-conversion",
+    "c-suffix"
+  ],
+  "concepts": [
+    "c-conversion",
+    "c-affix",
+    "c-etymology",
+    "c-word-family"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s15-1"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "零词缀转换，靠什么标记",
+      "body": "**conversion**（转换）指不添加任何词缀就改变词类：a record → to record，a present → to present。既然没有词缀，听者凭什么知道这里是名词还是动词？英语给了一部分词一个补偿手段：**重音位置**。\n\n名词 **REcord** 重音在前，动词 **reCORD** 重音在后。两个词的音段完全相同，只有重音型不同。教材把这种“不占音段、只以超音段特征出现的词素”叫作**超缀**（superfix）：它在位置上不属于前缀后缀中的任何一类，却确实承担了区分功能，所以列入词缀的第五类。\n\n一句话记住：**这是音系手段在承担语法功能，不是又加了一个词缀。**拼写上你什么也看不见，必须在语音层面听出来。",
+      "terms": [
+        {
+          "term": "conversion",
+          "zh": "转换",
+          "en": "conversion",
+          "note": "不加词缀而改变词类，也称零派生"
+        },
+        {
+          "term": "superfix",
+          "zh": "超缀",
+          "en": "superfix",
+          "note": "以重音型或声调型标记语法或词类差别，不占音段"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "六对名动同形词的重音",
+      "body": "规律很整齐：这类词多为拉丁来源的双音节词，名词重音在前、动词重音在后。读的时候用手打拍子，重音落在第一拍还是第二拍，比看音标更容易形成直觉。注意 produce 的名词义已经专指“农产品”，不只是“生产”的名词化。",
+      "head": [
+        "名词（重音在前）",
+        "动词（重音在后）",
+        "名词义",
+        "动词义"
+      ],
+      "rows": [
+        [
+          "REcord /ˈrekɔːd/",
+          "reCORD /rɪˈkɔːd/",
+          "记录、唱片",
+          "记录下来"
+        ],
+        [
+          "PREsent /ˈpreznt/",
+          "preSENT /prɪˈzent/",
+          "礼物、现在",
+          "呈现、赠送"
+        ],
+        [
+          "OBject /ˈɒbdʒɪkt/",
+          "obJECT /əbˈdʒekt/",
+          "物体、对象",
+          "反对"
+        ],
+        [
+          "CONtract /ˈkɒntrækt/",
+          "conTRACT /kənˈtrækt/",
+          "合同",
+          "签约；收缩；感染"
+        ],
+        [
+          "CONduct /ˈkɒndʌkt/",
+          "conDUCT /kənˈdʌkt/",
+          "行为、举止",
+          "引导、指挥"
+        ],
+        [
+          "PROduce /ˈprɒdjuːs/",
+          "proDUCE /prəˈdjuːs/",
+          "农产品",
+          "生产"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "为什么算“词素”，又为什么有人反对",
+      "body": "把重音叫超缀，理由是功能：它和 -ness、-ment 一样，能在形式上把两类词分开，只是它作用在整个词上，而不是贴在词的边缘。教材正是按这个功能标准把它收进 affix 的第五类。\n\n但要说清一个学理上的分歧：严格讲，重音型并不是一个独立的音段单位，而且这对重音在很大程度上可以由“名词重音在前、动词重音在后”这条**词类—音系关联**推出来。所以有人主张它是音系规律，不是词素。本书的立场是：**教学上按超缀处理更方便**（它确实承担了区分功能），但不要因此说英语“有一个重音词缀”像 -ness 那样可以随意添加。\n\n判断时守住一句：它**不增加任何音段，也不改变拼写**，只改变超音段型。这一点把它和所有前缀、后缀区分开。",
+      "terms": [
+        {
+          "term": "suprasegmental",
+          "zh": "超音段特征",
+          "en": "suprasegmental",
+          "note": "重音、声调、语调等附加在音段之上的特征"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "转换的四种标记方式",
+      "body": "重音只是其中一种，而且只覆盖一部分词。英语还有清浊交替、元音音质交替，以及完全没有标记、只靠句法位置的情况。看到名动同形，先问“有没有语音差别”，再问“差别在哪一层”。",
+      "a": "有语音标记",
+      "b": "无语音标记",
+      "rows": [
+        {
+          "label": "重音",
+          "a": "REcord／reCORD；PREsent／preSENT",
+          "b": "—"
+        },
+        {
+          "label": "清浊交替",
+          "a": "house /haʊs/ 名 → /haʊz/ 动；use /juːs/ → /juːz/",
+          "b": "—"
+        },
+        {
+          "label": "元音音质",
+          "a": "live /laɪv/ 形 → /lɪv/ 动",
+          "b": "—"
+        },
+        {
+          "label": "零标记",
+          "a": "—",
+          "b": "to trial、to email、to text、to google：全靠句法位置"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "两条使用边界",
+      "body": "**第一，别把它当万能规则。** 新造词和本族词基本不走重音转换：text、email、google、trial 都是零标记，靠“冠词后是名词、to 后是动词”来判断。重音转换集中在拉丁来源的双音节词上，是一个有范围的模式。\n\n**第二，书面语里它帮不上忙。** 拼写相同，读者只能靠句法消歧：The REcord was deleted（冠词 + 名词）／They reCORDed it（主语后 + 宾语）。所以阅读时遇到这类词，先看它在句子里占什么位置，再决定读哪个音、取哪个义。\n\n这两条合起来，才是超缀的完整用法：**口语靠重音，书面靠句法，两者说的是同一件事。**",
+      "terms": [
+        {
+          "term": "zero marking",
+          "zh": "零标记",
+          "en": "zero marking",
+          "note": "转换后没有任何形式差别，只靠句法环境区分"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w36d5-p1",
+      "kind": "mcq",
+      "prompt": "名词 record（唱片、记录）的重音位置是：",
+      "choices": [
+        "第一音节：RE-cord",
+        "第二音节：re-CORD",
+        "两个音节等重",
+        "重音随句子语调移动，没有固定位置"
+      ],
+      "answer": 0,
+      "explain": "名词 REcord 重音在第一音节 /ˈrekɔːd/，动词 reCORD 重音在第二音节 /rɪˈkɔːd/。这类拉丁来源双音节词的模式是“名词前重、动词后重”，重音型就是区分词类的超缀。",
+      "concepts": [
+        "c-conversion",
+        "c-affix"
+      ]
+    },
+    {
+      "id": "w36d5-p2",
+      "kind": "mcq",
+      "prompt": "在 “They object to the plan” 中，object 的读音与词性是：",
+      "choices": [
+        "动词，重音在第二音节 /əbˈdʒekt/，义为“反对”",
+        "名词，重音在第一音节 /ˈɒbdʒɪkt/，义为“物体”",
+        "形容词，重音在第一音节",
+        "名词，重音在第二音节"
+      ],
+      "answer": 0,
+      "explain": "句中是 They object to the plan，object 后接 to、作谓语，是动词“反对”，重音在第二音节。若是名词“物体、对象”，重音在第一音节，且不能直接带 to 作谓语。重音与句法在这里互相印证。",
+      "concepts": [
+        "c-conversion"
+      ]
+    },
+    {
+      "id": "w36d5-p3",
+      "kind": "cloze",
+      "prompt": "填入一个术语（英文）",
+      "sentence": "The stress pattern that separates REcord from reCORD is called a ___, because it carries grammatical information without adding any sound segment.",
+      "answer": "superfix",
+      "accept": [
+        "superfix",
+        "超缀"
+      ],
+      "explain": "超缀是不占音段的词素，以重音型或声调型标记语法或词类差别。它既不是前缀也不是后缀，因为它的作用范围是整个词，而不是词的某个边缘位置。record 这一对是英语里最常被引用的例子。",
+      "concepts": [
+        "c-affix",
+        "c-conversion"
+      ]
+    },
+    {
+      "id": "w36d5-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）在 “You need a permit to park here” 中，permit 的重音与词性是：",
+      "choices": [
+        "名词，重音在第一音节 /ˈpɜːmɪt/",
+        "动词，重音在第二音节 /pəˈmɪt/",
+        "动词，重音在第一音节",
+        "名词，重音在第二音节"
+      ],
+      "answer": 0,
+      "explain": "冠词 a 后面必须是名词，所以 permit 是“许可证”，按名动同形词的规律重音前移：PERmit /ˈpɜːmɪt/；动词“允许”则是 perMIT /pəˈmɪt/。这题同时用到句法（冠词后是名词）和超缀规律（名词前重），两条线索互相验证。",
+      "concepts": [
+        "c-conversion",
+        "c-inference"
+      ],
+      "hint": "先由冠词定词性，再套“名词前重”的规律。"
+    },
+    {
+      "id": "w36d5-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一对名动同形词不是靠重音区分，而是靠辅音清浊？",
+      "choices": [
+        "house（名词 /s/）／house（动词 /z/）",
+        "record（名词／动词）",
+        "present（名词／动词）",
+        "contract（名词／动词）"
+      ],
+      "answer": 0,
+      "explain": "house 的名词读 /haʊs/、动词读 /haʊz/，区别在词尾擦音的清浊，重音位置不变。record、present、contract 都是靠重音前后来区分。这说明“转换”可以有多种标记方式，重音只是其中一种。",
+      "concepts": [
+        "c-conversion"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w36d5-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，判断 contract 的词性与含义",
+      "passage": "The supplier had already agreed to the terms, but the board refused to contract with a firm whose safety record was under investigation. Without a signature, the agreement lapsed at the end of the quarter.",
+      "word": "contract",
+      "choices": [
+        "动词，重音在第二音节，义为“签订合同、订立约定”",
+        "名词，重音在第一音节，义为“合同文件”",
+        "动词，义为“收缩、变小”",
+        "名词，义为“感染疾病”"
+      ],
+      "answer": 0,
+      "strategy": "① 句法：refused to ___ with a firm，to 后必须是动词原形，且 with 引出签约对象；② 语境：the supplier had agreed to the terms、without a signature、the agreement lapsed 全在讲签约；③ 重音：动词 conTRACT 重音后移，与句法判断一致；④ 排除：“收缩”“感染”虽也是动词义，但与 with a firm 搭配不通。",
+      "explain": "这里的 contract 是动词“与……签约”，重音在第二音节。同一拼写还有名词“合同”（CONtract）和动词“收缩、感染”（也是 conTRACT），三个义项要靠句法和搭配分开。书面语看不出重音，所以句法位置是第一判据；口语里重音会进一步确认。",
+      "concepts": [
+        "c-conversion",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 15 节：conversion 与以重音为 superfix 的标记"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态学：零派生与超音段标记"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "record、present、object、contract、permit 的名动读音核对"
+    }
+  ]
+}

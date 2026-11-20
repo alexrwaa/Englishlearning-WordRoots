@@ -1,0 +1,279 @@
+{
+  "id": "w36d6",
+  "week": 36,
+  "day": 6,
+  "title": "缩拼词一旦成词，就按普通词活",
+  "tagline": "laser 原本是五个词的首字母，如今却能变成动词 lase、加上 -s、组成 laser printer",
+  "objectives": [
+    "能说明 acronym 与 initialism 的读音差别，并各举两例",
+    "能解释 laser → lase 是逆构、radar → radar gun 是复合、scuba → scuba diver 是重新分析",
+    "能区分首字母缩拼、截短与混成三种来源，不把 Soho 误称 acronym"
+  ],
+  "prereqs": [
+    "w07d3",
+    "w07d4",
+    "w07d5",
+    "c-acronym",
+    "c-clipping",
+    "c-blend"
+  ],
+  "concepts": [
+    "c-acronym",
+    "c-clipping",
+    "c-blend",
+    "c-compound",
+    "c-derivation",
+    "c-frequency"
+  ],
+  "knowledgePoints": [
+    "kp-s1c3s18-2"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 7,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
+    {
+      "kind": "text",
+      "title": "从“读字母”到“读成一个词”",
+      "body": "首字母缩写有两种读法。**initialism** 逐字母读：CPU、HIV、ATM。**acronym** 拼起来读成一个词：NASA、NATO、laser。\n\n关键差别不在来源，而在**读音带来的后果**。一旦一个缩写被读成词，它就有了普通词的音形，接着就会发生普通词会发生的所有事：小写化（laser 不再写作 LASER）、加屈折词尾（lasers）、参与复合（laser printer）、甚至逆构出动词（lase）。\n\n教材把这一点讲得很干脆：**词一旦成词，就按普通词变化**，原来的全称退到词源的位置，不再是使用时的必经之路。今天的说话人说“a laser”时，脑子里并没有那五个词。",
+      "terms": [
+        {
+          "term": "acronym",
+          "zh": "首字母缩拼词",
+          "en": "acronym",
+          "note": "取首字母后拼读成一个词，如 NASA、laser"
+        },
+        {
+          "term": "initialism",
+          "zh": "首字母连读词",
+          "en": "initialism",
+          "note": "取首字母但逐字母读，如 CPU、HIV"
+        }
+      ]
+    },
+    {
+      "kind": "table",
+      "title": "四个“已经变成普通词”的例子",
+      "body": "看第三列：这些衍生形式是判定“它已经是词”的硬证据——缩写本身不会加 -s，也不会被截短再逆构。第四列写全称，只是让你看到来源，不是让你在使用时还原。",
+      "head": [
+        "原全称",
+        "今词",
+        "衍生形式",
+        "判定它已是普通词的证据"
+      ],
+      "rows": [
+        [
+          "light amplification by stimulated emission of radiation",
+          "laser",
+          "lasers、lasing、lase、laser printer",
+          "可加复数、可逆构出动词、可作定语复合"
+        ],
+        [
+          "self-contained underwater breathing apparatus",
+          "scuba",
+          "scuba diver、scuba dive、scuba gear",
+          "被重新分析为自由词，直接修饰名词"
+        ],
+        [
+          "radio detection and ranging",
+          "radar",
+          "radar gun、radar dome、radar trap",
+          "作定语参与复合，全称不再被想起"
+        ],
+        [
+          "sound navigation and ranging",
+          "sonar",
+          "sonar operator、sonar ping",
+          "同上，且常与 radar 并列使用"
+        ]
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三个阶段与四条诊断",
+      "body": "**阶段一，逐字母读**：US、CPU、HIV，全称仍然活跃，说话人知道每个字母代表什么。\n\n**阶段二，拼读成词**：NASA、NATO、laser，读音已经像一个词，但大小写和全称还在意识里。\n\n**阶段三，完全词汇化**：laser 小写、能加 -s、能派生动词、能组成新复合词，全称只在词典里。\n\n四条诊断可以帮你判断一个缩写走到哪一步：**一，是否小写；二，能否直接加 -s 或 -ed；三，能否派生出新词或组成新复合词；四，母语者是否还说得出全称。**四条全中，就是阶段三。\n\n注意第三条最强：能逆构出动词（lase）或能当形容词用（radar gun），说明它已经取得了完整的词类身份，而缩写本身是没有词类的。",
+      "terms": [
+        {
+          "term": "lexicalization",
+          "zh": "词汇化",
+          "en": "lexicalization",
+          "note": "一个形式从规则组合产物变成独立词条的过程"
+        }
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "四种来源，别混着叫",
+      "body": "这四类经常被笼统称为“缩写”，但构词方式不同，考试里也常拿它们做干扰项。最容易被误称的是 Soho 一类：它取的不是首字母，而是各词的首段，所以是截短后拼合的混成，不是 acronym。",
+      "a": "取首字母（acronym／initialism）",
+      "b": "取片段（clipping／blend）",
+      "rows": [
+        {
+          "label": "材料",
+          "a": "各词的首字母",
+          "b": "各词的首段或整词的一部分"
+        },
+        {
+          "label": "例词",
+          "a": "NASA、NATO、laser、CPU、HIV",
+          "b": "Soho（South of Houston）、Tribeca（Triangle Below Canal）、Nolita（North of Little Italy）"
+        },
+        {
+          "label": "读音",
+          "a": "拼读成词，或逐字母读",
+          "b": "按拼写读成一个新词"
+        },
+        {
+          "label": "混合型",
+          "a": "USINDOPACOM：US 逐字母 + INDO 截短 + PACOM 拼读",
+          "b": "同上，属于首字母词与截短拼合的混合"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "冗余复合：词汇化留下的化石",
+      "body": "**ATM machine**、**HIV virus**、**PIN number**、**LCD display**、**LED light** 常被当作“病句”，但它们其实是词汇化的证据：说话人已经不再把 ATM 分析为“automated teller machine”，而只把它当成一个表示“取款机”的普通名词，于是自然再加一个 machine。\n\n这类冗余在语言里非常稳定，因为交流效率优先于逻辑整洁。教材讲缩拼词再衍生，重点也在这里：**来源透明不等于使用透明**。你可以为了记忆去还原全称，但不能假设别人说话时也在还原。\n\n写作时的实用建议：正式文本里避免 ATM machine 这类冗余；但阅读时遇到它，不要判为理解错误，它只说明这个词已经彻底独立了。",
+      "terms": [
+        {
+          "term": "redundant compound",
+          "zh": "冗余复合",
+          "en": "redundant compound",
+          "note": "全称义已包含在首词中，却又加一个通名，如 ATM machine"
+        }
+      ]
+    }
+  ],
+  "practice": [
+    {
+      "id": "w36d6-p1",
+      "kind": "mcq",
+      "prompt": "laser 原本来自哪个短语？",
+      "choices": [
+        "light amplification by stimulated emission of radiation",
+        "light and sound emission recording",
+        "linear acceleration by stimulated energy release",
+        "long-range amplified signal transmission"
+      ],
+      "answer": 0,
+      "explain": "laser 是 light amplification by stimulated emission of radiation 的首字母缩拼词，1960 年代造出。它被读成一个词之后迅速小写化，进而有了 lasers、lasing、lase、laser printer 这些普通词才有的形式。",
+      "concepts": [
+        "c-acronym"
+      ]
+    },
+    {
+      "id": "w36d6-p2",
+      "kind": "mcq",
+      "prompt": "动词 lase 的构词方式是：",
+      "choices": [
+        "逆构：从 laser 去掉看似后缀的 -er，造出动词",
+        "加后缀：las + -e",
+        "混成：las + case",
+        "缩拼：取四个词的首字母"
+      ],
+      "answer": 0,
+      "explain": "lase 是逆构词（back-formation）：说话人把 laser 末尾的 -er 误认为施事后缀（像 writer 的 -er），于是去掉它造出动词“发射激光”。这正说明 laser 已经被当作普通名词，否则不会有人去拆它的“后缀”。",
+      "concepts": [
+        "c-acronym",
+        "c-derivation"
+      ]
+    },
+    {
+      "id": "w36d6-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英文动词",
+      "sentence": "Once the gain medium is pumped hard enough, the device begins to ___ , emitting a narrow beam of coherent light.",
+      "answer": "lase",
+      "accept": [
+        "lase",
+        "lasing"
+      ],
+      "explain": "lase 是“发射激光”，由 laser 逆构而来。句中 begins to 后需要动词原形，emitting a narrow beam 进一步确认是激光发射。这个词的存在本身就是 laser 已完成词汇化的证据——纯缩写不能这样变。",
+      "concepts": [
+        "c-acronym",
+        "c-derivation"
+      ]
+    },
+    {
+      "id": "w36d6-p4",
+      "kind": "mcq",
+      "prompt": "（陌生词迁移）在 radar gun 这个组合里，radar 的语法角色是：",
+      "choices": [
+        "名词作定语，修饰 gun，说明这是用雷达测速的枪",
+        "形容词后缀，表示“像雷达的”",
+        "动词，表示“用雷达扫描”",
+        "前缀，表示“无线电的”"
+      ],
+      "answer": 0,
+      "explain": "radar gun 是“雷达测速枪”，radar 是名词直接作定语修饰 gun，这是英语复合词的常见方式（同类的还有 radar dome、radar trap）。能这样自由参与复合，说明 radar 已经取得普通名词的身份；若它还是纯缩写，就不会有这种用法。",
+      "concepts": [
+        "c-acronym",
+        "c-compound",
+        "c-inference"
+      ],
+      "hint": "先判断两个名词之间是“修饰—被修饰”还是“并列”。"
+    },
+    {
+      "id": "w36d6-p5",
+      "kind": "mcq",
+      "prompt": "下面哪一个不是 acronym（首字母缩拼词）？",
+      "choices": [
+        "Soho（South of Houston）",
+        "NASA",
+        "NATO",
+        "laser"
+      ],
+      "answer": 0,
+      "explain": "Soho 取的是 South 和 Houston 的首段（So + Ho），不是首字母，属于截短后拼合的混成，不是 acronym。NASA、NATO、laser 都是取首字母后拼读成词。这个区分在教材讲 initialisms and acronyms 时被特别标出。",
+      "concepts": [
+        "c-acronym",
+        "c-blend",
+        "c-clipping"
+      ]
+    }
+  ],
+  "apply": [
+    {
+      "id": "w36d6-a1",
+      "kind": "infer",
+      "prompt": "阅读句子，推测 lased 在句中的含义",
+      "passage": "The team cooled a cloud of atoms until it was nearly motionless, then lased it from two directions. The beam was tuned so that only atoms moving toward the source absorbed light, and the sample slowed further with every pulse.",
+      "word": "lased",
+      "choices": [
+        "用激光照射（某物）",
+        "用雷达测量（某物）",
+        "把（某物）冷冻到接近绝对零度",
+        "用声呐定位（某物）"
+      ],
+      "answer": 0,
+      "strategy": "① 形态：lased 是 lase + -ed，而 lase 由 laser 逆构；② 句法：lased it from two directions，it 指云团，from two directions 说明是定向照射；③ 语境：The beam was tuned、absorbed light、with every pulse 全是激光术语；④ 排除：冷却发生在 lased 之前（until it was nearly motionless），雷达与声呐不涉及吸收光。",
+      "explain": "lased 在这里是“用激光照射”。这道题的价值在于：你必须先认出 lase 是 laser 的逆构动词，才能读出 -ed 的屈折。整条链是“缩写 → 拼读成词 → 小写 → 逆构成动词 → 加屈折词尾”，正好走完教材说的“词一旦成词就按普通词变化”。",
+      "concepts": [
+        "c-acronym",
+        "c-derivation",
+        "c-inference"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 3 章第 18 节：首字母缩拼词及其再截短与衍生（Soho、Tribeca、Nolita、USINDOPACOM）"
+    },
+    {
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "形态学：缩略、混成与词汇化"
+    },
+    {
+      "id": "S5",
+      "title": "现代辞书与词源参考",
+      "detail": "laser、scuba、radar、sonar 的全称与衍生形式核对"
+    }
+  ]
+}
