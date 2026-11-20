@@ -1,308 +1,309 @@
 {
-  "id": "w38d5",
-  "week": 38,
-  "day": 5,
-  "title": "同源异形：同一个词素的两副面孔",
-  "tagline": "cid 与 cis 是同一个词素，cur 与 curr 不是——判据在分布，不在长相",
-  "objectives": [
-    "能用“意义相同、分布互补、有历史对应”三条判据确认同源异形",
-    "能区分同源异形（cid~cis）与同形不同源（cur~curr）",
-    "能在构词算式里正确选择变体形式，并说明选择条件"
-  ],
-  "prereqs": [
-    "w38d1",
-    "c-allomorph",
-    "c-root"
-  ],
-  "concepts": [
-    "c-allomorph",
-    "c-root",
-    "c-word-sum",
-    "c-cognate"
-  ],
-  "minutes": {
-    "review": 5,
-    "learn": 8,
-    "practice": 8,
-    "apply": 5
+ "id": "w38d5",
+ "week": 38,
+ "day": 5,
+ "title": "同源异形：同一个词素的两副面孔",
+ "tagline": "cid 与 cis 是同一个词素，cur 与 curr 不是——判据在分布，不在长相",
+ "objectives": [
+  "能用“意义相同、分布互补、有历史对应”三条判据确认同源异形",
+  "能区分同源异形（cid~cis）与同形不同源（cur~curr）",
+  "能在构词算式里正确选择变体形式，并说明选择条件"
+ ],
+ "prereqs": [
+  "w38d1",
+  "c-allomorph",
+  "c-root"
+ ],
+ "concepts": [
+  "c-allomorph",
+  "c-root",
+  "c-word-sum",
+  "c-cognate"
+ ],
+ "minutes": {
+  "review": 5,
+  "learn": 8,
+  "practice": 8,
+  "apply": 5
+ },
+ "level": "B2",
+ "cards": [
+  {
+   "kind": "text",
+   "title": "三条判据，缺一不可",
+   "body": "同源异形（allomorph）是同一个词素的不同形态。要确认两个形式是同源异形，必须同时满足三条：\n\n**意义相同。**cid 与 cis 都是“切、杀”，不是“切”与“看”。\n\n**分布互补。**cid 出现在 -e 结尾的动词里（decide、incise 的过去分词），cis 出现在接 -ion、-ure 的名词化形式里（decision、incision）。两者很少在同一环境里自由替换。\n\n**有历史对应。**拉丁 caedere 的现在时词干是 -cid-，分词词干是 -cīs-；英语照搬了这套分工。没有历史对应，就只是碰巧同义。\n\n三条都满足，才可以写成一条记录加两个形态（cid~cis）。只满足“意义相近”就合并，会把不同词源的东西混在一起。",
+   "terms": [
+    {
+     "term": "allomorph",
+     "zh": "同源异形",
+     "en": "allomorph",
+     "note": "同一词素在不同语音或形态环境中的变体"
+    },
+    {
+     "term": "complementary distribution",
+     "zh": "互补分布",
+     "en": "complementary distribution",
+     "note": "两个形式出现在互不重叠的环境里"
+    }
+   ]
   },
-  "level": "B2",
-  "cards": [
+  {
+   "kind": "table",
+   "title": "五组变体与它们的选择条件",
+   "body": "最后一列是做题时真正要用的：看到什么环境，选哪个形态。记住环境比记住形式有用——形式只有两个，环境有规律。",
+   "head": [
+    "词素",
+    "变体",
+    "例词",
+    "选择条件"
+   ],
+   "rows": [
+    [
+     "切、杀",
+     "cid ~ cis",
+     "decide / decision；incise / incision",
+     "动词词干多用 cid，接 -ion/-ure 的名词化多用 cis"
+    ],
+    [
+     "走、放行",
+     "ced ~ cess",
+     "secede / antecedent；access",
+     "简单词干用 ced，过去分词词干用 cess"
+    ],
+    [
+     "步、行",
+     "grad ~ gress",
+     "progress；postgraduate",
+     "名词与动词多取 gress，复合词多取 grad"
+    ],
+    [
+     "伸展",
+     "tend ~ tens",
+     "tendency；tension（同族）",
+     "动词与派生名词取 tend，形容词与名词化取 tens"
+    ],
+    [
+     "尾",
+     "caud ~ cod",
+     "caudal / caudate",
+     "英语科技词几乎只用 caud，cod 只留在拉丁词形里"
+    ]
+   ]
+  },
+  {
+   "kind": "compare",
+   "title": "同源异形 vs 同形不同源",
+   "body": "两列长得很像，处理方式相反。左列可以写成一条记录加两个形态；右列必须分成两条记录，因为它们连核心义都不同。混为一谈的后果是：你会用“跑”去解释 secure，或用“关心”去解释 occur。",
+   "a": "同源异形（可合写一条）",
+   "b": "同形不同源（必须分开）",
+   "rows": [
+    [
+     "例子",
+     "cid ~ cis；ced ~ cess；tend ~ tens",
+     "cur（关心）~ curr（跑）；leg（法）~ leg（读）"
+    ],
+    [
+     "核心义",
+     "完全相同",
+     "不同"
+    ],
+    [
+     "分布",
+     "互补，由形态环境决定",
+     "各自成族，互不补充"
+    ],
+    [
+     "历史",
+     "同一拉丁词干的不同形态",
+     "不同拉丁词，拼写在英语里撞车"
+    ]
+   ]
+  },
+  {
+   "kind": "sum",
+   "title": "变体在算式里的位置",
+   "body": "同一组变体，在不同算式里取不同形态，但位置不变：都在前缀之后、后缀之前。写完检查两件事——你选的形式是否与该后缀的搭配习惯一致；把变体换成另一个形态，这个拼法是否还存在。换过去仍成立，说明你写的不是同源异形，而是可自由替换的同义词。",
+   "sums": [
     {
-      "kind": "text",
-      "title": "三条判据，缺一不可",
-      "body": "同源异形（allomorph）是同一个词素的不同形态。要确认两个形式是同源异形，必须同时满足三条：\n\n**意义相同。**cid 与 cis 都是“切、杀”，不是“切”与“看”。\n\n**分布互补。**cid 出现在 -e 结尾的动词里（decide、incise 的过去分词），cis 出现在接 -ion、-ure 的名词化形式里（decision、incision）。两者很少在同一环境里自由替换。\n\n**有历史对应。**拉丁 caedere 的现在时词干是 -cid-，分词词干是 -cīs-；英语照搬了这套分工。没有历史对应，就只是碰巧同义。\n\n三条都满足，才可以写成一条记录加两个形态（cid~cis）。只满足“意义相近”就合并，会把不同词源的东西混在一起。",
-      "terms": [
-        {
-          "term": "allomorph",
-          "zh": "同源异形",
-          "en": "allomorph",
-          "note": "同一词素在不同语音或形态环境中的变体"
-        },
-        {
-          "term": "complementary distribution",
-          "zh": "互补分布",
-          "en": "complementary distribution",
-          "note": "两个形式出现在互不重叠的环境里"
-        }
-      ]
+     "parts": [
+      "de",
+      "cis",
+      "ion"
+     ],
+     "result": "decision",
+     "glossZh": "决定",
+     "note": "接 -ion 时取 cis，与 decide 的 cid 是同一词素"
     },
     {
-      "kind": "table",
-      "title": "五组变体与它们的选择条件",
-      "body": "最后一列是做题时真正要用的：看到什么环境，选哪个形态。记住环境比记住形式有用——形式只有两个，环境有规律。",
-      "head": [
-        "词素",
-        "变体",
-        "例词",
-        "选择条件"
-      ],
-      "rows": [
-        [
-          "切、杀",
-          "cid ~ cis",
-          "decide / decision；incise / incision",
-          "动词词干多用 cid，接 -ion/-ure 的名词化多用 cis"
-        ],
-        [
-          "走、放行",
-          "ced ~ cess",
-          "secede / antecedent；access",
-          "简单词干用 ced，过去分词词干用 cess"
-        ],
-        [
-          "步、行",
-          "grad ~ gress",
-          "progress；postgraduate",
-          "名词与动词多取 gress，复合词多取 grad"
-        ],
-        [
-          "伸展",
-          "tend ~ tens",
-          "tendency；tension（同族）",
-          "动词与派生名词取 tend，形容词与名词化取 tens"
-        ],
-        [
-          "尾",
-          "caud ~ cod",
-          "caudal / caudate",
-          "英语科技词几乎只用 caud，cod 只留在拉丁词形里"
-        ]
-      ]
+     "parts": [
+      "pro",
+      "gress"
+     ],
+     "result": "progress",
+     "glossZh": "进步",
+     "note": "gress 是 grad 的分词词干形态"
     },
     {
-      "kind": "compare",
-      "title": "同源异形 vs 同形不同源",
-      "body": "两列长得很像，处理方式相反。左列可以写成一条记录加两个形态；右列必须分成两条记录，因为它们连核心义都不同。混为一谈的后果是：你会用“跑”去解释 secure，或用“关心”去解释 occur。",
-      "a": "同源异形（可合写一条）",
-      "b": "同形不同源（必须分开）",
-      "rows": [
-        [
-          "例子",
-          "cid ~ cis；ced ~ cess；tend ~ tens",
-          "cur（关心）~ curr（跑）；leg（法）~ leg（读）"
-        ],
-        [
-          "核心义",
-          "完全相同",
-          "不同"
-        ],
-        [
-          "分布",
-          "互补，由形态环境决定",
-          "各自成族，互不补充"
-        ],
-        [
-          "历史",
-          "同一拉丁词干的不同形态",
-          "不同拉丁词，拼写在英语里撞车"
-        ]
-      ]
+     "parts": [
+      "tend",
+      "ency"
+     ],
+     "result": "tendency",
+     "glossZh": "倾向",
+     "note": "动词性词干 tend 接 -ency"
     },
     {
-      "kind": "sum",
-      "title": "变体在算式里的位置",
-      "body": "同一组变体，在不同算式里取不同形态，但位置不变：都在前缀之后、后缀之前。写完检查两件事——你选的形式是否与该后缀的搭配习惯一致；把变体换成另一个形态，这个拼法是否还存在。换过去仍成立，说明你写的不是同源异形，而是可自由替换的同义词。",
-      "sums": [
-        {
-          "parts": [
-            "de",
-            "cis",
-            "ion"
-          ],
-          "result": "decision",
-          "glossZh": "决定",
-          "note": "接 -ion 时取 cis，与 decide 的 cid 是同一词素"
-        },
-        {
-          "parts": [
-            "pro",
-            "gress"
-          ],
-          "result": "progress",
-          "glossZh": "进步",
-          "note": "gress 是 grad 的分词词干形态"
-        },
-        {
-          "parts": [
-            "tend",
-            "ency"
-          ],
-          "result": "tendency",
-          "glossZh": "倾向",
-          "note": "动词性词干 tend 接 -ency"
-        },
-        {
-          "parts": [
-            "caud",
-            "ate"
-          ],
-          "result": "caudate",
-          "glossZh": "有尾的",
-          "note": "科技拉丁里固定用 caud"
-        }
-      ]
-    },
-    {
-      "kind": "text",
-      "title": "学习笔记怎么写才不丢信息",
-      "body": "笔记里最省事也最危险的写法，是只记一个形式。看到 decision 就记 cis = 切，下次遇到 decide 又要重新查一遍。\n\n推荐的写法是一行三栏：**词素（含变体）｜核心义｜选择条件**。例如：cid~cis｜切、杀｜动词干用 cid，-ion/-ure 前用 cis。这样一条笔记能覆盖 decide、decision、incise、incision、homicide 五个词。\n\n但注意：合写只适用于同源异形。cur 与 curr 必须写成两行，并在旁边标注“同形不同源，勿合并”。判断依据就是上一张卡片的三条判据——尤其第三条：能不能拉出一串同源同义的词。",
-      "morphemes": [
-        "cid",
-        "cis",
-        "cur"
-      ],
-      "morphemeIds": []
+     "parts": [
+      "caud",
+      "ate"
+     ],
+     "result": "caudate",
+     "glossZh": "有尾的",
+     "note": "科技拉丁里固定用 caud"
     }
-  ],
-  "practice": [
-    {
-      "id": "w38d5-p1",
-      "kind": "mcq",
-      "prompt": "decide 里的 cid 与 decision 里的 cis 是什么关系？",
-      "choices": [
-        "同一个词素的两个形态变体，分布由形态环境决定",
-        "两个不同的词根，意思分别是“切”和“看”",
-        "一个是词根，一个是后缀",
-        "前者是拉丁语，后者是英语，二者无关"
-      ],
-      "answer": 0,
-      "explain": "cid 与 cis 都来自拉丁 caedere 的“切、杀”，核心义完全相同；分布上互补：动词词干取 cid（decide、incise），接 -ion 的名词化取 cis（decision、incision）。这是同源异形。如果它们是两个不同的词根，就无法解释为什么 decide 与 decision 的词义完全对应。",
-      "concepts": [
-        "cid",
-        "de",
-        "ion"
-      ]
-    },
-    {
-      "id": "w38d5-p2",
-      "kind": "boundary",
-      "prompt": "切开 decision：注意词根在这里取的是 cis 而不是 cid",
-      "word": "decision",
-      "segments": [
-        "de",
-        "cis",
-        "ion"
-      ],
-      "explain": "de + cis + ion。de- 表“离开”，cis 是“切”的分词词干形态，-ion 是名词后缀。字面义“切掉的结果”→ 决定。切分时不要写成 de|cid|ion：cid 只出现在动词词干环境（decide、incise），在 -ion 前必须换成 cis。这条规则不是拼写习惯，而是拉丁词干分工的直接继承。",
-      "concepts": [
-        "de",
-        "cid",
-        "ion"
-      ]
-    },
-    {
-      "id": "w38d5-p3",
-      "kind": "wordSum",
-      "prompt": "用 + 连接两段，写出“进步”这个词（词根取分词词干形态）",
-      "parts": [
-        "pro",
-        "gress"
-      ],
-      "answer": "progress",
-      "explain": "pro（向前）+ gress（步、行，grad 的分词词干）→ progress。同一词素的另一形态出现在 postgraduate（post + gradu + ate）里，取 grad。选择条件与 cid/cis 同构：简单词干取短形，分词词干取长形。-gress 还出现在 progress、regress、transgress 里，构成一个稳定的“行走”子族。",
-      "concepts": [
-        "pro",
-        "grad"
-      ]
-    },
-    {
-      "id": "w38d5-p4",
-      "kind": "cloze",
-      "prompt": "填入一个语言学英文术语（复数）",
-      "sentence": "cid and cis are ___ of the same morpheme: they carry the same meaning and appear in complementary environments.",
-      "answer": "allomorphs",
-      "accept": [
-        "allomorphs",
-        "allomorph",
-        "同源异形",
-        "变体"
-      ],
-      "explain": "同源异形（allomorphs）。定义的两个关键点是“同一词素”与“互补分布”，缺一不可。只用“长得像”判断会把 cur / curr 也算进来，那是同形不同源；只用“意义相近”判断会把同义词当成变体。三条判据里，互补分布最容易被忽略。",
-      "concepts": [
-        "cid",
-        "cis",
-        "grad"
-      ]
-    },
-    {
-      "id": "w38d5-p5",
-      "kind": "mcq",
-      "prompt": "下面哪一组不是同源异形，而是同形不同源？",
-      "choices": [
-        "cid ~ cis（decide / decision）",
-        "ced ~ cess（secede / access）",
-        "tend ~ tens（tendency / tension）",
-        "cur ~ curr（secure / occur）"
-      ],
-      "answer": 3,
-      "explain": "secure 的 cur 是 cura“关心”，occur 的 cur 是 currere“跑”。两者拼写相近但核心义不同，各自成族（cure、curious vs current、curriculum），分布不互补，所以是同形不同源，必须分成两条记录。前三组的核心义完全一致，且分布由形态环境决定，属于同源异形。同类的正例还有 caud ~ cod（caudal / 拉丁词形 cod-）：核心义都是“尾”，只是英语科技词固定取 caud。",
-      "concepts": [
-        "caud",
-        "cur",
-        "cid",
-        "ced",
-        "tend"
-      ]
-    }
-  ],
-  "apply": [
-    {
-      "id": "w38d5-a1",
-      "kind": "infer",
-      "prompt": "（迁移）读句子，推测 tendency 在统计语境中的含义",
-      "passage": "There is a clear tendency for shorter reviews to receive higher scores, but the effect disappears once reviewer workload is controlled for.",
-      "word": "tendency",
-      "choices": [
-        "倾向、趋势",
-        "能力、才能",
-        "张力、拉紧",
-        "期限、截止时间"
-      ],
-      "answer": 0,
-      "strategy": "① 切分：tend（伸展）+ -ency（名词后缀）→“朝某方向伸展的态势”；② 句法：There is a clear tendency for X to do Y 是固定的统计表述；③ 语境：but 后说控制工作量后效应消失，说明前面讲的是一种统计上的规律性；④ 校验：tension 才是“张力”，与 tend 同源但取 tens 形态、意义已分化。",
-      "explain": "tendency 是“倾向、趋势”。它和 tension 同源（tend“伸展”），但走了两条路：tendency 保留“朝某方向伸”的动态义，tension 落在“拉紧”的物理义。这正是同源异形的价值——知道它们同源，就能理解为什么两个看似无关的词会有亲缘；但也必须知道它们已经分化，不能互相替换。",
-      "concepts": [
-        "tend",
-        "ency"
-      ]
-    }
-  ],
-  "sources": [
-    {
-      "id": "S1",
-      "title": "English Vocabulary Elements",
-      "detail": "第 5 章：拉丁词干的现在时与分词形态"
-    },
-    {
-      "id": "S2",
-      "title": "Essentials of Linguistics",
-      "detail": "形态学：语素变体与互补分布"
-    },
-    {
-      "id": "S4",
-      "title": "New Word-Analysis",
-      "detail": "caedere、cedere、gradi 的词干分工"
-    }
-  ]
+   ]
+  },
+  {
+   "kind": "text",
+   "title": "学习笔记怎么写才不丢信息",
+   "body": "笔记里最省事也最危险的写法，是只记一个形式。看到 decision 就记 cis = 切，下次遇到 decide 又要重新查一遍。\n\n推荐的写法是一行三栏：**词素（含变体）｜核心义｜选择条件**。例如：cid~cis｜切、杀｜动词干用 cid，-ion/-ure 前用 cis。这样一条笔记能覆盖 decide、decision、incise、incision、homicide 五个词。\n\n但注意：合写只适用于同源异形。cur 与 curr 必须写成两行，并在旁边标注“同形不同源，勿合并”。判断依据就是上一张卡片的三条判据——尤其第三条：能不能拉出一串同源同义的词。",
+   "morphemes": [
+    "cid",
+    "cis",
+    "cur"
+   ],
+   "morphemeIds": []
+  }
+ ],
+ "practice": [
+  {
+   "id": "w38d5-p1",
+   "kind": "mcq",
+   "prompt": "decide 里的 cid 与 decision 里的 cis 是什么关系？",
+   "choices": [
+    "同一个词素的两个形态变体，分布由形态环境决定",
+    "两个不同的词根，意思分别是“切”和“看”",
+    "一个是词根，一个是后缀",
+    "前者是拉丁语，后者是英语，二者无关"
+   ],
+   "answer": 0,
+   "explain": "cid 与 cis 都来自拉丁 caedere 的“切、杀”，核心义完全相同；分布上互补：动词词干取 cid（decide、incise），接 -ion 的名词化取 cis（decision、incision）。这是同源异形。如果它们是两个不同的词根，就无法解释为什么 decide 与 decision 的词义完全对应。",
+   "concepts": [
+    "cid",
+    "de",
+    "ion"
+   ]
+  },
+  {
+   "id": "w38d5-p2",
+   "kind": "boundary",
+   "prompt": "切开 decision：注意词根在这里取的是 cis 而不是 cid",
+   "word": "decision",
+   "segments": [
+    "de",
+    "cis",
+    "ion"
+   ],
+   "explain": "de + cis + ion。de- 表“离开”，cis 是“切”的分词词干形态，-ion 是名词后缀。字面义“切掉的结果”→ 决定。切分时不要写成 de|cid|ion：cid 只出现在动词词干环境（decide、incise），在 -ion 前必须换成 cis。这条规则不是拼写习惯，而是拉丁词干分工的直接继承。",
+   "concepts": [
+    "de",
+    "cid",
+    "ion"
+   ]
+  },
+  {
+   "id": "w38d5-p3",
+   "kind": "wordSum",
+   "prompt": "用 + 连接两段，写出“进步”这个词（词根取分词词干形态）",
+   "parts": [
+    "pro",
+    "gress"
+   ],
+   "answer": "progress",
+   "explain": "pro（向前）+ gress（步、行，grad 的分词词干）→ progress。同一词素的另一形态出现在 postgraduate（post + gradu + ate）里，取 grad。选择条件与 cid/cis 同构：简单词干取短形，分词词干取长形。-gress 还出现在 progress、regress、transgress 里，构成一个稳定的“行走”子族。",
+   "concepts": [
+    "pro",
+    "grad"
+   ]
+  },
+  {
+   "id": "w38d5-p4",
+   "kind": "cloze",
+   "prompt": "填入一个语言学英文术语（复数）",
+   "sentence": "cid and cis are ___ of the same morpheme: they carry the same meaning and appear in complementary environments.",
+   "answer": "allomorphs",
+   "accept": [
+    "allomorphs",
+    "allomorph",
+    "同源异形",
+    "变体"
+   ],
+   "explain": "同源异形（allomorphs）。定义的两个关键点是“同一词素”与“互补分布”，缺一不可。只用“长得像”判断会把 cur / curr 也算进来，那是同形不同源；只用“意义相近”判断会把同义词当成变体。三条判据里，互补分布最容易被忽略。",
+   "concepts": [
+    "cid",
+    "cis",
+    "grad"
+   ]
+  },
+  {
+   "id": "w38d5-p5",
+   "kind": "mcq",
+   "prompt": "下面哪一组不是同源异形，而是同形不同源？",
+   "choices": [
+    "cid ~ cis（decide / decision）",
+    "ced ~ cess（secede / access）",
+    "tend ~ tens（tendency / tension）",
+    "cur ~ curr（secure / occur）"
+   ],
+   "answer": 3,
+   "explain": "secure 的 cur 是 cura“关心”，occur 的 cur 是 currere“跑”。两者拼写相近但核心义不同，各自成族（cure、curious vs current、curriculum），分布不互补，所以是同形不同源，必须分成两条记录。前三组的核心义完全一致，且分布由形态环境决定，属于同源异形。同类的正例还有 caud ~ cod（caudal / 拉丁词形 cod-）：核心义都是“尾”，只是英语科技词固定取 caud。",
+   "concepts": [
+    "caud",
+    "cur",
+    "cid",
+    "ced",
+    "tend"
+   ]
+  }
+ ],
+ "apply": [
+  {
+   "id": "w38d5-a1",
+   "kind": "infer",
+   "prompt": "（迁移）读句子，推测 tendency 在统计语境中的含义",
+   "passage": "There is a clear tendency for shorter reviews to receive higher scores, but the effect disappears once reviewer workload is controlled for.",
+   "word": "tendency",
+   "choices": [
+    "倾向、趋势",
+    "能力、才能",
+    "张力、拉紧",
+    "期限、截止时间"
+   ],
+   "answer": 0,
+   "strategy": "① 切分：tend（伸展）+ -ency（名词后缀）→“朝某方向伸展的态势”；② 句法：There is a clear tendency for X to do Y 是固定的统计表述；③ 语境：but 后说控制工作量后效应消失，说明前面讲的是一种统计上的规律性；④ 校验：tension 才是“张力”，与 tend 同源但取 tens 形态、意义已分化。",
+   "explain": "tendency 是“倾向、趋势”。它和 tension 同源（tend“伸展”），但走了两条路：tendency 保留“朝某方向伸”的动态义，tension 落在“拉紧”的物理义。这正是同源异形的价值——知道它们同源，就能理解为什么两个看似无关的词会有亲缘；但也必须知道它们已经分化，不能互相替换。",
+   "concepts": [
+    "tend",
+    "ency"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1",
+   "title": "English Vocabulary Elements",
+   "detail": "第 5 章：拉丁词干的现在时与分词形态"
+  },
+  {
+   "id": "S2",
+   "title": "Essentials of Linguistics",
+   "detail": "形态学：语素变体与互补分布"
+  },
+  {
+   "id": "S4",
+   "title": "New Word-Analysis",
+   "detail": "caedere、cedere、gradi 的词干分工"
+  }
+ ],
+ "knowledgePoints": []
 }

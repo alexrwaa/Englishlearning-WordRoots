@@ -1,289 +1,290 @@
 {
-  "id": "w38d2",
-  "week": 38,
-  "day": 2,
-  "title": "手动切分的三条纪律",
-  "tagline": "切分点不是听出来的，是论证出来的：同化前缀、连接元音、词尾各归各位",
-  "objectives": [
-    "能说明为什么长词切分不能按音节走，而必须落在词素边界",
-    "能处理同化前缀（in- → ir-/im-/il-），并把连接元音单独切出",
-    "能对一个切分结果做反向检验：拼接是否还原原词，每一段是否可释义"
-  ],
-  "prereqs": [
-    "w38d1",
-    "c-morpheme",
-    "c-prefix"
-  ],
-  "concepts": [
-    "c-morpheme",
-    "c-prefix",
-    "c-word-sum",
-    "c-spelling-rule"
-  ],
-  "minutes": {
-    "review": 5,
-    "learn": 8,
-    "practice": 8,
-    "apply": 5
+ "id": "w38d2",
+ "week": 38,
+ "day": 2,
+ "title": "手动切分的三条纪律",
+ "tagline": "切分点不是听出来的，是论证出来的：同化前缀、连接元音、词尾各归各位",
+ "objectives": [
+  "能说明为什么长词切分不能按音节走，而必须落在词素边界",
+  "能处理同化前缀（in- → ir-/im-/il-），并把连接元音单独切出",
+  "能对一个切分结果做反向检验：拼接是否还原原词，每一段是否可释义"
+ ],
+ "prereqs": [
+  "w38d1",
+  "c-morpheme",
+  "c-prefix"
+ ],
+ "concepts": [
+  "c-morpheme",
+  "c-prefix",
+  "c-word-sum",
+  "c-spelling-rule"
+ ],
+ "minutes": {
+  "review": 5,
+  "learn": 8,
+  "practice": 8,
+  "apply": 5
+ },
+ "level": "B2",
+ "cards": [
+  {
+   "kind": "text",
+   "title": "纪律一：切分点是词素边界，不是换气的地方",
+   "body": "读长词时人会本能地按音节停顿：in-fra-struc-ture、psy-cho-so-mat-ic。这种停顿对发音有用，对分析有害——音节是语音单位，词素是意义单位，两者经常错位。infrastructure 的正确切法是 infra | struct | ure，其中 struc 与 ture 被音节边界切开了，而 infra 与 struct 之间反而没有换气。\n\n所以切分前先问一句：**我切出来的每一段，能不能单独说出一条意义或一条语法功能？**说不出就不许切。这条纪律能挡掉大部分错误：把 accurate 切成 a|ccu|rate，三段都说不出功能；切成 ac|cur|ate，三段都能交代。\n\n第二条纪律是拼接检验：把所有段按顺序连起来，必须一字不差地还原原词。少一个字母、多一个字母，都说明切分点在错误的位置。",
+   "terms": [
+    {
+     "term": "morpheme boundary",
+     "zh": "词素边界",
+     "en": "morpheme boundary",
+     "note": "两个词素之间的接缝，可能落在音节内部"
+    }
+   ],
+   "morphemes": [
+    "infra",
+    "stru"
+   ],
+   "morphemeIds": [
+    "px-infra",
+    "rx-stru"
+   ]
   },
-  "level": "B2",
-  "cards": [
+  {
+   "kind": "table",
+   "title": "四个长词，四种陷阱",
+   "body": "下表每一行都标出了最容易出错的那个接缝。注意 psychosomatic 的 -o- 与 homicide 的 -i- 是同一类东西：它们各占一格位置，却不表达任何意义，必须单独切出。判断这类成分只看两条：删掉它拼写就错，解释它又说不出意义。",
+   "head": [
+    "词",
+    "正确切分",
+    "最易错处",
+    "为什么这样切"
+   ],
+   "rows": [
+    [
+     "irreducible",
+     "ir + re + duc + ible",
+     "ir|re 这一刀",
+     "ir- 是 in- 在 r 前的同化形式，不能写成 in-，也不能与 re- 合并"
+    ],
+    [
+     "infrastructure",
+     "infra + struct + ure",
+     "struc|ture 不该切",
+     "struct 是完整词根（建造），-ure 是名词后缀；按音节切会把词根劈开"
+    ],
+    [
+     "psychosomatic",
+     "psych + o + somat + ic",
+     "-o- 不是词根",
+     "连接元音只标记两个词根相接；somat（身体）是词根，-ic 是形容词后缀"
+    ],
+    [
+     "counterproductive",
+     "counter + product + ive",
+     "coun|ter 不该切",
+     "counter 是“反对”的完整前缀；product 是现成词基；-ive 构成形容词"
+    ]
+   ]
+  },
+  {
+   "kind": "compare",
+   "title": "同一串字母，两套切法",
+   "body": "两列切的是同一个词。左列能通过“每段可释义”的检验，右列不能。做题时如果拿不准，就用右列切一遍，再逐段问“这段是什么意思”——答不上来的那一段，就是你切错的地方。",
+   "a": "词素切分（可释义）",
+   "b": "音节切分（只管发音）",
+   "rows": [
+    [
+     "infrastructure",
+     "infra | struct | ure",
+     "in | fra | struc | ture"
+    ],
+    [
+     "每段能否释义",
+     "能：下方 / 建造 / 名词后缀",
+     "不能：fra、ture 都不是独立成分"
+    ],
+    [
+     "psychosomatic",
+     "psych | o | somat | ic",
+     "psy | cho | so | mat | ic"
+    ],
+    [
+     "每段能否释义",
+     "能：心灵 / 连接元音 / 身体 / 形容词后缀",
+     "不能：cho、so、mat 都没有稳定意义"
+    ]
+   ]
+  },
+  {
+   "kind": "sum",
+   "title": "把切分写成算式",
+   "body": "算式是切分的书面形式：加号写在哪里，切分点就在哪里。写完以后必须做两项自检——把所有段按顺序连起来能否一字不差还原原词，以及每一段能否在词库里找到对应记录。两项都过，切分才算成立；只过一项，说明你切的是音节而不是词素。",
+   "sums": [
     {
-      "kind": "text",
-      "title": "纪律一：切分点是词素边界，不是换气的地方",
-      "body": "读长词时人会本能地按音节停顿：in-fra-struc-ture、psy-cho-so-mat-ic。这种停顿对发音有用，对分析有害——音节是语音单位，词素是意义单位，两者经常错位。infrastructure 的正确切法是 infra | struct | ure，其中 struc 与 ture 被音节边界切开了，而 infra 与 struct 之间反而没有换气。\n\n所以切分前先问一句：**我切出来的每一段，能不能单独说出一条意义或一条语法功能？**说不出就不许切。这条纪律能挡掉大部分错误：把 accurate 切成 a|ccu|rate，三段都说不出功能；切成 ac|cur|ate，三段都能交代。\n\n第二条纪律是拼接检验：把所有段按顺序连起来，必须一字不差地还原原词。少一个字母、多一个字母，都说明切分点在错误的位置。",
-      "terms": [
-        {
-          "term": "morpheme boundary",
-          "zh": "词素边界",
-          "en": "morpheme boundary",
-          "note": "两个词素之间的接缝，可能落在音节内部"
-        }
-      ],
-      "morphemes": [
-        "infra",
-        "stru"
-      ],
-      "morphemeIds": [
-        "px-infra",
-        "rx-stru"
-      ]
+     "parts": [
+      "ir",
+      "re",
+      "duc",
+      "ible"
+     ],
+     "result": "irreducible",
+     "glossZh": "不可简化的",
+     "note": "ir- 为 in- 的同化形式；duc 引导；-ible 能够被……的"
     },
     {
-      "kind": "table",
-      "title": "四个长词，四种陷阱",
-      "body": "下表每一行都标出了最容易出错的那个接缝。注意 psychosomatic 的 -o- 与 homicide 的 -i- 是同一类东西：它们各占一格位置，却不表达任何意义，必须单独切出。判断这类成分只看两条：删掉它拼写就错，解释它又说不出意义。",
-      "head": [
-        "词",
-        "正确切分",
-        "最易错处",
-        "为什么这样切"
-      ],
-      "rows": [
-        [
-          "irreducible",
-          "ir + re + duc + ible",
-          "ir|re 这一刀",
-          "ir- 是 in- 在 r 前的同化形式，不能写成 in-，也不能与 re- 合并"
-        ],
-        [
-          "infrastructure",
-          "infra + struct + ure",
-          "struc|ture 不该切",
-          "struct 是完整词根（建造），-ure 是名词后缀；按音节切会把词根劈开"
-        ],
-        [
-          "psychosomatic",
-          "psych + o + somat + ic",
-          "-o- 不是词根",
-          "连接元音只标记两个词根相接；somat（身体）是词根，-ic 是形容词后缀"
-        ],
-        [
-          "counterproductive",
-          "counter + product + ive",
-          "coun|ter 不该切",
-          "counter 是“反对”的完整前缀；product 是现成词基；-ive 构成形容词"
-        ]
-      ]
-    },
-    {
-      "kind": "compare",
-      "title": "同一串字母，两套切法",
-      "body": "两列切的是同一个词。左列能通过“每段可释义”的检验，右列不能。做题时如果拿不准，就用右列切一遍，再逐段问“这段是什么意思”——答不上来的那一段，就是你切错的地方。",
-      "a": "词素切分（可释义）",
-      "b": "音节切分（只管发音）",
-      "rows": [
-        [
-          "infrastructure",
-          "infra | struct | ure",
-          "in | fra | struc | ture"
-        ],
-        [
-          "每段能否释义",
-          "能：下方 / 建造 / 名词后缀",
-          "不能：fra、ture 都不是独立成分"
-        ],
-        [
-          "psychosomatic",
-          "psych | o | somat | ic",
-          "psy | cho | so | mat | ic"
-        ],
-        [
-          "每段能否释义",
-          "能：心灵 / 连接元音 / 身体 / 形容词后缀",
-          "不能：cho、so、mat 都没有稳定意义"
-        ]
-      ]
-    },
-    {
-      "kind": "sum",
-      "title": "把切分写成算式",
-      "body": "算式是切分的书面形式：加号写在哪里，切分点就在哪里。写完以后必须做两项自检——把所有段按顺序连起来能否一字不差还原原词，以及每一段能否在词库里找到对应记录。两项都过，切分才算成立；只过一项，说明你切的是音节而不是词素。",
-      "sums": [
-        {
-          "parts": [
-            "ir",
-            "re",
-            "duc",
-            "ible"
-          ],
-          "result": "irreducible",
-          "glossZh": "不可简化的",
-          "note": "ir- 为 in- 的同化形式；duc 引导；-ible 能够被……的"
-        },
-        {
-          "parts": [
-            "psych",
-            "o",
-            "somat",
-            "ic"
-          ],
-          "result": "psychosomatic",
-          "glossZh": "身心相关的",
-          "note": "-o- 是连接元音，本身无义，但缺了它拼写就错"
-        }
-      ]
-    },
-    {
-      "kind": "text",
-      "title": "同化前缀清单：拼写变了，身份没变",
-      "body": "in-（不）在接不同辅音时会变形：接 r 变 ir-（irreducible、irregular），接 m 变 im-（impossible、immature），接 l 变 il-（illegal、illogical），接 p/b 也常变 im-（impatient）。这不是四个不同的前缀，而是同一个前缀为了发音方便改变了自己的收尾音——拉丁语把这种变化写进了拼写，英语照抄。\n\n同化只发生在**前缀的最后一个辅音**上，词根不受影响。所以 impossible 切作 im + poss + ible，而不是 im + possible 或 imp + ossible。反例是 intravenous 的 intra-：它本身以元音 -a 结尾，没有可被下一个音“带跑”的收尾辅音，所以拼写保持不变（intra + ven + ous）。判断方法：先看前缀的末音是辅音还是元音，再看它是否被下一个音同化。",
-      "morphemes": [
-        "in",
-        "poss",
-        "ible"
-      ],
-      "morphemeIds": []
+     "parts": [
+      "psych",
+      "o",
+      "somat",
+      "ic"
+     ],
+     "result": "psychosomatic",
+     "glossZh": "身心相关的",
+     "note": "-o- 是连接元音，本身无义，但缺了它拼写就错"
     }
-  ],
-  "practice": [
-    {
-      "id": "w38d2-p1",
-      "kind": "boundary",
-      "prompt": "切开 irreducible：注意第一个前缀被后面的 r 同化了",
-      "hint": "ir- 不是独立前缀，它代表 in-（不）。",
-      "word": "irreducible",
-      "segments": [
-        "ir",
-        "re",
-        "duc",
-        "ible"
-      ],
-      "explain": "ir + re + duc + ible。ir- 是 in-（否定）在 r 前的同化形式；re- 表“向后、回”；duc 是“引导”；-ible 是“能够被……的”。字面义“不能被引导回去的”→ 不可简化的。常见的错切是 irr|educ|ible 或 irre|duc|ible，前者把同化后的双写 r 当成词根的一部分，后者把 re- 吞进了不可分析的开头。",
-      "concepts": [
-        "re",
-        "duc",
-        "ible"
-      ]
-    },
-    {
-      "id": "w38d2-p2",
-      "kind": "boundary",
-      "prompt": "切开 infrastructure：不要让音节边界把词根劈开",
-      "word": "infrastructure",
-      "segments": [
-        "infra",
-        "struct",
-        "ure"
-      ],
-      "explain": "infra + struct + ure。infra- 表“在下方”，struct 是“建造”，-ure 是名词后缀。字面义“建在下面的东西”→ 基础设施、底层架构。按音节切会得到 in|fra|struc|ture，其中 struc 与 ture 都无法单独释义，这正是“音节切分不可用于分析”的典型例子。",
-      "concepts": [
-        "infra",
-        "stru",
-        "ure"
-      ]
-    },
-    {
-      "id": "w38d2-p3",
-      "kind": "boundary",
-      "prompt": "切开 psychosomatic：两个词根之间那个字母要单独切",
-      "word": "psychosomatic",
-      "segments": [
-        "psych",
-        "o",
-        "somat",
-        "ic"
-      ],
-      "explain": "psych + o + somat + ic。psych 是“心灵”，somat 是“身体”，-o- 是希腊复合词里的连接元音，-ic 是形容词后缀。字面义“心灵与身体共同引起的”→ 身心相关的（医学上指查不出器质性原因的躯体症状）。漏切 -o- 会得到 psych|osomatic，把连接元音塞进词根，之后就无法解释为什么同族词是 psychiatry 而不是 psychosiatry。",
-      "concepts": [
-        "psych",
-        "som",
-        "ic"
-      ]
-    },
-    {
-      "id": "w38d2-p4",
-      "kind": "cloze",
-      "prompt": "填入一个语言学英文术语",
-      "sentence": "When in- is spelled ir- before r and im- before m, the change is called ___ : the prefix keeps its meaning but adapts its final consonant to the next sound.",
-      "answer": "assimilation",
-      "accept": [
-        "assimilation",
-        "同化",
-        "regressive assimilation"
-      ],
-      "explain": "这叫同化（assimilation）。它解释了为什么同一个否定前缀会有 in-/im-/il-/ir- 四种拼写：变的只是收尾辅音，意义和功能完全不变。切分时要把同化后的形式整体当作一个前缀段（ir、im、il），既不能还原成 in 写进答案，也不能把它拆成 i + r。",
-      "concepts": [
-        "in",
-        "re",
-        "duc"
-      ]
-    },
-    {
-      "id": "w38d2-p5",
-      "kind": "wordSum",
-      "prompt": "用 + 连接三段，写出 infrastructure 的构词算式",
-      "parts": [
-        "infra",
-        "struct",
-        "ure"
-      ],
-      "answer": "infrastructure",
-      "explain": "infra + struct + ure。这里 struct 是 stru 的分词词干形式（建造），与 structure、construct、instruct 同族；-ure 把动词性词根变成名词。三个成分各自可释义，拼接后与原词完全一致，两条检验都通过。",
-      "concepts": [
-        "infra",
-        "stru",
-        "ure"
-      ]
-    }
-  ],
-  "apply": [
-    {
-      "id": "w38d2-a1",
-      "kind": "infer",
-      "prompt": "（迁移）读句子，判断 counterproductive 在句中的确切含义",
-      "passage": "Adding more reviewers to the already overloaded committee proved counterproductive: the review time doubled, and the number of substantive comments fell by half.",
-      "word": "counterproductive",
-      "choices": [
-        "产生相反效果的、适得其反的",
-        "效率极高的、产能翻倍的",
-        "与生产部门对立的",
-        "可以反复生产的"
-      ],
-      "answer": 0,
-      "strategy": "① 切分：counter（反对、相反）+ product（产出）+ ive（形容词）；② 句法：proved counterproductive 是表语，后面冒号给出证据；③ 语境：审稿时间翻倍、实质意见减半——投入增加而产出下降，正是“反效果”；④ 校验：counter- 在这里不是“柜台”，product 也不是“产品目录”，整词评价的是效果方向。",
-      "explain": "counterproductive 是“适得其反的”。counter- 的核心义是“相反方向”，与 counteract、counterexample 同族；productive 是“有产出的”。合起来不是“反对生产”，而是“朝产出的反方向走”。这条推理链完全来自切分：先定 counter，再定 product，最后让 -ive 决定词性。",
-      "concepts": [
-        "counter",
-        "ive"
-      ]
-    }
-  ],
-  "sources": [
-    {
-      "id": "S1",
-      "title": "English Vocabulary Elements",
-      "detail": "第 3 章：前缀的同化与拼写规则"
-    },
-    {
-      "id": "S3",
-      "title": "WordWorks SWI",
-      "detail": "词素边界与音节边界的区别"
-    },
-    {
-      "id": "S2",
-      "title": "Essentials of Linguistics",
-      "detail": "形态学：词素切分的可替换性检验"
-    }
-  ]
+   ]
+  },
+  {
+   "kind": "text",
+   "title": "同化前缀清单：拼写变了，身份没变",
+   "body": "in-（不）在接不同辅音时会变形：接 r 变 ir-（irreducible、irregular），接 m 变 im-（impossible、immature），接 l 变 il-（illegal、illogical），接 p/b 也常变 im-（impatient）。这不是四个不同的前缀，而是同一个前缀为了发音方便改变了自己的收尾音——拉丁语把这种变化写进了拼写，英语照抄。\n\n同化只发生在**前缀的最后一个辅音**上，词根不受影响。所以 impossible 切作 im + poss + ible，而不是 im + possible 或 imp + ossible。反例是 intravenous 的 intra-：它本身以元音 -a 结尾，没有可被下一个音“带跑”的收尾辅音，所以拼写保持不变（intra + ven + ous）。判断方法：先看前缀的末音是辅音还是元音，再看它是否被下一个音同化。",
+   "morphemes": [
+    "in",
+    "poss",
+    "ible"
+   ],
+   "morphemeIds": []
+  }
+ ],
+ "practice": [
+  {
+   "id": "w38d2-p1",
+   "kind": "boundary",
+   "prompt": "切开 irreducible：注意第一个前缀被后面的 r 同化了",
+   "hint": "ir- 不是独立前缀，它代表 in-（不）。",
+   "word": "irreducible",
+   "segments": [
+    "ir",
+    "re",
+    "duc",
+    "ible"
+   ],
+   "explain": "ir + re + duc + ible。ir- 是 in-（否定）在 r 前的同化形式；re- 表“向后、回”；duc 是“引导”；-ible 是“能够被……的”。字面义“不能被引导回去的”→ 不可简化的。常见的错切是 irr|educ|ible 或 irre|duc|ible，前者把同化后的双写 r 当成词根的一部分，后者把 re- 吞进了不可分析的开头。",
+   "concepts": [
+    "re",
+    "duc",
+    "ible"
+   ]
+  },
+  {
+   "id": "w38d2-p2",
+   "kind": "boundary",
+   "prompt": "切开 infrastructure：不要让音节边界把词根劈开",
+   "word": "infrastructure",
+   "segments": [
+    "infra",
+    "struct",
+    "ure"
+   ],
+   "explain": "infra + struct + ure。infra- 表“在下方”，struct 是“建造”，-ure 是名词后缀。字面义“建在下面的东西”→ 基础设施、底层架构。按音节切会得到 in|fra|struc|ture，其中 struc 与 ture 都无法单独释义，这正是“音节切分不可用于分析”的典型例子。",
+   "concepts": [
+    "infra",
+    "stru",
+    "ure"
+   ]
+  },
+  {
+   "id": "w38d2-p3",
+   "kind": "boundary",
+   "prompt": "切开 psychosomatic：两个词根之间那个字母要单独切",
+   "word": "psychosomatic",
+   "segments": [
+    "psych",
+    "o",
+    "somat",
+    "ic"
+   ],
+   "explain": "psych + o + somat + ic。psych 是“心灵”，somat 是“身体”，-o- 是希腊复合词里的连接元音，-ic 是形容词后缀。字面义“心灵与身体共同引起的”→ 身心相关的（医学上指查不出器质性原因的躯体症状）。漏切 -o- 会得到 psych|osomatic，把连接元音塞进词根，之后就无法解释为什么同族词是 psychiatry 而不是 psychosiatry。",
+   "concepts": [
+    "psych",
+    "som",
+    "ic"
+   ]
+  },
+  {
+   "id": "w38d2-p4",
+   "kind": "cloze",
+   "prompt": "填入一个语言学英文术语",
+   "sentence": "When in- is spelled ir- before r and im- before m, the change is called ___ : the prefix keeps its meaning but adapts its final consonant to the next sound.",
+   "answer": "assimilation",
+   "accept": [
+    "assimilation",
+    "同化",
+    "regressive assimilation"
+   ],
+   "explain": "这叫同化（assimilation）。它解释了为什么同一个否定前缀会有 in-/im-/il-/ir- 四种拼写：变的只是收尾辅音，意义和功能完全不变。切分时要把同化后的形式整体当作一个前缀段（ir、im、il），既不能还原成 in 写进答案，也不能把它拆成 i + r。",
+   "concepts": [
+    "in",
+    "re",
+    "duc"
+   ]
+  },
+  {
+   "id": "w38d2-p5",
+   "kind": "wordSum",
+   "prompt": "用 + 连接三段，写出 infrastructure 的构词算式",
+   "parts": [
+    "infra",
+    "struct",
+    "ure"
+   ],
+   "answer": "infrastructure",
+   "explain": "infra + struct + ure。这里 struct 是 stru 的分词词干形式（建造），与 structure、construct、instruct 同族；-ure 把动词性词根变成名词。三个成分各自可释义，拼接后与原词完全一致，两条检验都通过。",
+   "concepts": [
+    "infra",
+    "stru",
+    "ure"
+   ]
+  }
+ ],
+ "apply": [
+  {
+   "id": "w38d2-a1",
+   "kind": "infer",
+   "prompt": "（迁移）读句子，判断 counterproductive 在句中的确切含义",
+   "passage": "Adding more reviewers to the already overloaded committee proved counterproductive: the review time doubled, and the number of substantive comments fell by half.",
+   "word": "counterproductive",
+   "choices": [
+    "产生相反效果的、适得其反的",
+    "效率极高的、产能翻倍的",
+    "与生产部门对立的",
+    "可以反复生产的"
+   ],
+   "answer": 0,
+   "strategy": "① 切分：counter（反对、相反）+ product（产出）+ ive（形容词）；② 句法：proved counterproductive 是表语，后面冒号给出证据；③ 语境：审稿时间翻倍、实质意见减半——投入增加而产出下降，正是“反效果”；④ 校验：counter- 在这里不是“柜台”，product 也不是“产品目录”，整词评价的是效果方向。",
+   "explain": "counterproductive 是“适得其反的”。counter- 的核心义是“相反方向”，与 counteract、counterexample 同族；productive 是“有产出的”。合起来不是“反对生产”，而是“朝产出的反方向走”。这条推理链完全来自切分：先定 counter，再定 product，最后让 -ive 决定词性。",
+   "concepts": [
+    "counter",
+    "ive"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1",
+   "title": "English Vocabulary Elements",
+   "detail": "第 3 章：前缀的同化与拼写规则"
+  },
+  {
+   "id": "S3",
+   "title": "WordWorks SWI",
+   "detail": "词素边界与音节边界的区别"
+  },
+  {
+   "id": "S2",
+   "title": "Essentials of Linguistics",
+   "detail": "形态学：词素切分的可替换性检验"
+  }
+ ],
+ "knowledgePoints": []
 }

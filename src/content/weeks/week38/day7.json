@@ -1,278 +1,279 @@
 {
-  "id": "w38d7",
-  "week": 38,
-  "day": 7,
-  "title": "科研句里的陌生词：四步拆读法",
-  "tagline": "论文句子不给你查词的时间；先定位词根，再用句法缩小范围，最后回读验证",
-  "objectives": [
-    "能在真实科研句里定位目标词，并按“切分—句法—语境—校验”四步推出词义",
-    "能识别科研文本里的高频词根（son、tempor、strat、caud、peri）并预测同族词",
-    "能避开三个常见误判：把复数当单数、把学科名当形容词、把术语当日常词"
-  ],
-  "prereqs": [
-    "w38d6",
-    "c-scientific",
-    "c-inference"
-  ],
-  "concepts": [
-    "c-scientific",
-    "c-inference",
-    "c-greek-latin",
-    "c-word-family"
-  ],
-  "minutes": {
-    "review": 5,
-    "learn": 8,
-    "practice": 8,
-    "apply": 5
+ "id": "w38d7",
+ "week": 38,
+ "day": 7,
+ "title": "科研句里的陌生词：四步拆读法",
+ "tagline": "论文句子不给你查词的时间；先定位词根，再用句法缩小范围，最后回读验证",
+ "objectives": [
+  "能在真实科研句里定位目标词，并按“切分—句法—语境—校验”四步推出词义",
+  "能识别科研文本里的高频词根（son、tempor、strat、caud、peri）并预测同族词",
+  "能避开三个常见误判：把复数当单数、把学科名当形容词、把术语当日常词"
+ ],
+ "prereqs": [
+  "w38d6",
+  "c-scientific",
+  "c-inference"
+ ],
+ "concepts": [
+  "c-scientific",
+  "c-inference",
+  "c-greek-latin",
+  "c-word-family"
+ ],
+ "minutes": {
+  "review": 5,
+  "learn": 8,
+  "practice": 8,
+  "apply": 5
+ },
+ "level": "B2",
+ "cards": [
+  {
+   "kind": "passage",
+   "title": "真实句子：蝙蝠的回声定位",
+   "body": "先读句子，不要逐个查词。第一遍只回答一个问题：这段话在比较什么？第二遍再处理划线的术语。科研文本的术语通常在同句里就有定义或对比，这是它比文学文本好读的地方。",
+   "excerpt": "Bats emit brief ultrasonic pulses and listen for the returning echoes. Because the wingbeat of some moths falls partly into the infrasonic range, the echo carries a low-frequency component that the bat must separate from background noise. In our recordings this component appeared only when the target moved within a few metres of the microphone.",
+   "glossZh": "蝙蝠发出短暂的超声脉冲，并聆听返回的回声。由于某些蛾的振翅频率有一部分落在次声范围，回声里会带一个低频成分，蝙蝠必须把它与背景噪声分开。在我们的记录中，这个成分只在目标移动到麦克风数米以内时出现。",
+   "questions": [
+    {
+     "q": "infrasonic 与 ultrasonic 的差别在哪里？",
+     "a": "ultrasonic 是“超出可听范围的高频”，infrasonic 是“低于可听范围的低频”。infra- 表“在下方”，ultra- 表“超出”。"
+    },
+    {
+     "q": "为什么作者要强调 partly into the infrasonic range？",
+     "a": "因为蛾的振翅并非全在次声区，只有一部分落进去，这解释了为什么该成分只在近距离、强信号时才可测到。"
+    }
+   ]
   },
-  "level": "B2",
-  "cards": [
+  {
+   "kind": "table",
+   "title": "五个术语的拆读表",
+   "body": "第二列是切分，第三列是“字面读法”，第四列才是句子里实际承担的意思。注意二者常常只差一步：这一步就是你要在答题时写出来的推理。",
+   "head": [
+    "术语",
+    "切分",
+    "字面读法",
+    "句中义"
+   ],
+   "rows": [
+    [
+     "infrasonic",
+     "infra + son + ic",
+     "在声音范围下方的",
+     "次声的（低于人耳可听频率）"
+    ],
+    [
+     "perimeter",
+     "peri + meter",
+     "绕着量一圈",
+     "周长；外围边界"
+    ],
+    [
+     "strata",
+     "strat + a（复数）",
+     "铺开的层（复数）",
+     "地层；（社会）阶层"
+    ],
+    [
+     "caudal",
+     "caud + al",
+     "与尾有关的",
+     "尾部的（解剖方位）"
+    ],
+    [
+     "temporal",
+     "tempor + al",
+     "与时间有关的",
+     "时间的（与 spatial 相对）"
+    ]
+   ]
+  },
+  {
+   "kind": "text",
+   "title": "四步拆读法",
+   "body": "**第一步，切分。**把目标词切成能释义的段。切不动就先找后缀：-ic、-al、-ous 多半是形容词，-tion、-ment 多半是名词。\n\n**第二步，句法。**看这个词在句子里做什么成分：修饰名词的形容词、作表语、还是介词宾语。这一步决定你只要一个大概方向还是需要一个精确术语。\n\n**第三步，语境。**找同句里的对比项、定义项、因果连接。科研写作高度依赖 rather than、because、that is，这些词往往直接把答案送给你。\n\n**第四步，校验。**把你猜的义代回原句，读一遍是否通顺，并且问：这个义是否与句中其他证据冲突。冲突就退回第一步。\n\n四步的顺序不能乱：先句法后语境的人，容易被生词吓住；先语境后切分的人，猜对了也说不清依据，换个句子就失效。",
+   "terms": [
     {
-      "kind": "passage",
-      "title": "真实句子：蝙蝠的回声定位",
-      "body": "先读句子，不要逐个查词。第一遍只回答一个问题：这段话在比较什么？第二遍再处理划线的术语。科研文本的术语通常在同句里就有定义或对比，这是它比文学文本好读的地方。",
-      "excerpt": "Bats emit brief ultrasonic pulses and listen for the returning echoes. Because the wingbeat of some moths falls partly into the infrasonic range, the echo carries a low-frequency component that the bat must separate from background noise. In our recordings this component appeared only when the target moved within a few metres of the microphone.",
-      "glossZh": "蝙蝠发出短暂的超声脉冲，并聆听返回的回声。由于某些蛾的振翅频率有一部分落在次声范围，回声里会带一个低频成分，蝙蝠必须把它与背景噪声分开。在我们的记录中，这个成分只在目标移动到麦克风数米以内时出现。",
-      "questions": [
-        {
-          "q": "infrasonic 与 ultrasonic 的差别在哪里？",
-          "a": "ultrasonic 是“超出可听范围的高频”，infrasonic 是“低于可听范围的低频”。infra- 表“在下方”，ultra- 表“超出”。"
-        },
-        {
-          "q": "为什么作者要强调 partly into the infrasonic range？",
-          "a": "因为蛾的振翅并非全在次声区，只有一部分落进去，这解释了为什么该成分只在近距离、强信号时才可测到。"
-        }
-      ]
-    },
-    {
-      "kind": "table",
-      "title": "五个术语的拆读表",
-      "body": "第二列是切分，第三列是“字面读法”，第四列才是句子里实际承担的意思。注意二者常常只差一步：这一步就是你要在答题时写出来的推理。",
-      "head": [
-        "术语",
-        "切分",
-        "字面读法",
-        "句中义"
-      ],
-      "rows": [
-        [
-          "infrasonic",
-          "infra + son + ic",
-          "在声音范围下方的",
-          "次声的（低于人耳可听频率）"
-        ],
-        [
-          "perimeter",
-          "peri + meter",
-          "绕着量一圈",
-          "周长；外围边界"
-        ],
-        [
-          "strata",
-          "strat + a（复数）",
-          "铺开的层（复数）",
-          "地层；（社会）阶层"
-        ],
-        [
-          "caudal",
-          "caud + al",
-          "与尾有关的",
-          "尾部的（解剖方位）"
-        ],
-        [
-          "temporal",
-          "tempor + al",
-          "与时间有关的",
-          "时间的（与 spatial 相对）"
-        ]
-      ]
-    },
-    {
-      "kind": "text",
-      "title": "四步拆读法",
-      "body": "**第一步，切分。**把目标词切成能释义的段。切不动就先找后缀：-ic、-al、-ous 多半是形容词，-tion、-ment 多半是名词。\n\n**第二步，句法。**看这个词在句子里做什么成分：修饰名词的形容词、作表语、还是介词宾语。这一步决定你只要一个大概方向还是需要一个精确术语。\n\n**第三步，语境。**找同句里的对比项、定义项、因果连接。科研写作高度依赖 rather than、because、that is，这些词往往直接把答案送给你。\n\n**第四步，校验。**把你猜的义代回原句，读一遍是否通顺，并且问：这个义是否与句中其他证据冲突。冲突就退回第一步。\n\n四步的顺序不能乱：先句法后语境的人，容易被生词吓住；先语境后切分的人，猜对了也说不清依据，换个句子就失效。",
-      "terms": [
-        {
-          "term": "context clue",
-          "zh": "语境线索",
-          "en": "context clue",
-          "note": "同句内的对比、定义、因果关系"
-        }
-      ]
-    },
-    {
-      "kind": "sum",
-      "title": "三条算式对应三个术语",
-      "body": "算式写对，字面义就出来了；再把字面义放进句子，术语义就出来了。这两段推理在答题时都要写，只写结论拿不到方法分。注意第三条算式里的 tempor 是斜格词干：拉丁主格 tempus 不会直接进入英语，能用的只有 tempor-。",
-      "sums": [
-        {
-          "parts": [
-            "infra",
-            "son",
-            "ic"
-          ],
-          "result": "infrasonic",
-          "glossZh": "次声的",
-          "note": "infra- 在下方 + son 声音 + -ic 形容词"
-        },
-        {
-          "parts": [
-            "peri",
-            "meter"
-          ],
-          "result": "perimeter",
-          "glossZh": "周长",
-          "note": "peri- 环绕 + meter 测量"
-        },
-        {
-          "parts": [
-            "tempor",
-            "al"
-          ],
-          "result": "temporal",
-          "glossZh": "时间的",
-          "note": "tempor 时间 + -al 形容词"
-        }
-      ]
-    },
-    {
-      "kind": "text",
-      "title": "三个高频误判",
-      "body": "**误判一：把 strata 当单数。**strata 已经是复数，单数是 stratum。写成 *a strata 在期刊里会被直接标错。同类还有 data / datum、criteria / criterion。\n\n**误判二：把 dynamics 当形容词。**dynamics 是“动力学”，作单数名词用；dynamic 才是形容词“动态的”。论文里“the dynamics of the system”指系统的动力学行为，不是“系统的动态的”。\n\n**误判三：把 temporal 当“临时”。**temporal 是“时间的”，与 spatial（空间的）相对；“临时的”是 temporary，虽然同根，但 -ary 与 -al 把它固定成了另一条义。同根不同义，靠后缀分辨。",
-      "morphemes": [
-        "strat",
-        "dyn",
-        "tempor"
-      ],
-      "morphemeIds": [
-        "cx-strat",
-        "cx-dyn",
-        "cx-tempor"
-      ]
+     "term": "context clue",
+     "zh": "语境线索",
+     "en": "context clue",
+     "note": "同句内的对比、定义、因果关系"
     }
-  ],
-  "practice": [
+   ]
+  },
+  {
+   "kind": "sum",
+   "title": "三条算式对应三个术语",
+   "body": "算式写对，字面义就出来了；再把字面义放进句子，术语义就出来了。这两段推理在答题时都要写，只写结论拿不到方法分。注意第三条算式里的 tempor 是斜格词干：拉丁主格 tempus 不会直接进入英语，能用的只有 tempor-。",
+   "sums": [
     {
-      "id": "w38d7-p1",
-      "kind": "infer",
-      "prompt": "读句子，推测 infrasonic 在声学语境中的含义",
-      "passage": "Unlike the ultrasonic pulse the bat emits, the returning component described here lies below the range of human hearing: it is infrasonic, and only its low frequency allows it to travel through the canopy without being scattered.",
-      "word": "infrasonic",
-      "choices": [
-        "低于人耳可听频率的（次声的）",
-        "高于人耳可听频率的（超声的）",
-        "强度极大、会损伤听力的",
-        "由多个声源叠加而成的"
-      ],
-      "answer": 0,
-      "strategy": "① 切分：infra（在下方）+ son（声音）+ -ic（形容词）；② 句法：Unlike the ultrasonic pulse 构成对比，前项 ultra- 是“超出”，后项 infra- 必然是“低于”；③ 语境：below the range of human hearing 与 low frequency 直接把范围写出来；④ 校验：超声与 ultra- 冲突，强度与频率无关。",
-      "explain": "infrasonic 是“次声的”，即频率低于人耳可听下限（约 20 Hz）。infra- 与 ultra- 是一对方向相反的前缀：infra- 在下方（infrastructure、infrared），ultra- 超出（ultrasonic、ultraviolet）。同族的 son 还出现在 supersonic（超音速）里——注意 super- 与 ultra- 都表“超出”，但一个用于速度、一个用于频率，这是搭配习惯而非规则。",
-      "concepts": [
-        "infra",
-        "son",
-        "ic"
-      ]
+     "parts": [
+      "infra",
+      "son",
+      "ic"
+     ],
+     "result": "infrasonic",
+     "glossZh": "次声的",
+     "note": "infra- 在下方 + son 声音 + -ic 形容词"
     },
     {
-      "id": "w38d7-p2",
-      "kind": "boundary",
-      "prompt": "切开 perimeter：两个成分都是希腊来源，前一个是前缀",
-      "word": "perimeter",
-      "segments": [
-        "peri",
-        "meter"
-      ],
-      "explain": "peri + meter。peri- 表“环绕、near”，meter 表“测量（的装置）”，字面义“绕着量一圈”→ 周长、外围。这与 diameter（dia 穿过 + meter）、parameter（para 旁 + meter）构成一个 meter 家族：量一圈、量穿过、量在旁边。切分只有两段，不要再把 peri 拆成 per + i。",
-      "concepts": [
-        "peri",
-        "meter"
-      ]
+     "parts": [
+      "peri",
+      "meter"
+     ],
+     "result": "perimeter",
+     "glossZh": "周长",
+     "note": "peri- 环绕 + meter 测量"
     },
     {
-      "id": "w38d7-p3",
-      "kind": "wordSum",
-      "prompt": "用 + 连接两段，写出“时间的”这个形容词",
-      "parts": [
-        "tempor",
-        "al"
-      ],
-      "answer": "temporal",
-      "explain": "tempor（时间）+ -al（与……有关的）→ temporal。词根 tempor 来自 tempus 的斜格词干，同族有 temporary（时间的 → 只持续一段时间的 → 临时的）、contemporary（同时代的）。temporal 与 temporary 的分工正好说明：同一词根配不同后缀，会固定成不同的义。",
-      "concepts": [
-        "tempor",
-        "al"
-      ]
-    },
-    {
-      "id": "w38d7-p4",
-      "kind": "mcq",
-      "prompt": "论文写“each strata was sampled twice”，错误在于：",
-      "choices": [
-        "strata 已是复数，单数应为 stratum",
-        "strata 是动词，不能作主语",
-        "strata 指“街道”，与采样无关",
-        "strata 只能用于社会科学，不能用于地质"
-      ],
-      "answer": 0,
-      "explain": "strata 是 stratum 的复数（拉丁中性名词 -um → -a），所以不能说 each strata，应说 each stratum 或 each layer。这类复数陷阱在科研写作里很常见：data / datum、criteria / criterion、phenomena / phenomenon。判断方法：看到 -a 结尾的学术名词，先查它是不是拉丁复数。",
-      "concepts": [
-        "strat"
-      ]
-    },
-    {
-      "id": "w38d7-p5",
-      "kind": "cloze",
-      "prompt": "填入一个物理术语（英语）",
-      "sentence": "Although the trolley was moving slowly, its ___ was large, so stopping it required a long braking distance.",
-      "answer": "momentum",
-      "accept": [
-        "momentum"
-      ],
-      "explain": "momentum（动量）来自 mo（移动）+ -ment（名词）+ -um（拉丁词尾），字面义“推动的状态”。物理上它等于质量乘速度，所以速度不高但质量大时仍然很大，刹车距离长。同一词根在学术文本里常作隐喻：lose momentum（失去势头）、gain momentum（势头增强），判断依据是主语是不是可测量的物体。",
-      "concepts": [
-        "mo",
-        "ment"
-      ]
+     "parts": [
+      "tempor",
+      "al"
+     ],
+     "result": "temporal",
+     "glossZh": "时间的",
+     "note": "tempor 时间 + -al 形容词"
     }
-  ],
-  "apply": [
-    {
-      "id": "w38d7-a1",
-      "kind": "infer",
-      "prompt": "（迁移）读句子，推测 dynamic 在系统描述中的含义",
-      "passage": "The network's topology is fixed, but its load distribution is dynamic: edge weights are recomputed every ten seconds from the latest traffic measurements.",
-      "word": "dynamic",
-      "choices": [
-        "随时间变化的、动态的",
-        "与动力装置有关的",
-        "静态的、固定不变的",
-        "由两个部分组成的"
-      ],
-      "answer": 0,
-      "strategy": "① 切分：dyn（力）+ -ic（形容词）→“与力有关的”；② 句法：but 引导对比，前项 fixed 是“固定”，后项必然是“变化”；③ 语境：每十秒重新计算一次权重，直接定义“随时间变化”；④ 校验：静态与 but 后的语义冲突；动力装置与权重计算无关。",
-      "explain": "dynamic 在这里是“动态的、随时间变化的”。dyn 的核心义是“力”，从“力”到“变化”的桥梁是物理学：受力就改变状态。科研写作把这条物理直觉借来处理任何随时间演化的系统。注意名词 dynamics 是“动力学”，作单数用——这是 d7 卡片里提醒的第二个误判。",
-      "concepts": [
-        "dyn",
-        "ic"
-      ]
-    }
-  ],
-  "sources": [
-    {
-      "id": "S1",
-      "title": "English Vocabulary Elements",
-      "detail": "第 13 章：科技英语的希腊语成分"
-    },
-    {
-      "id": "S2",
-      "title": "Essentials of Linguistics",
-      "detail": "语境线索与词汇推理"
-    },
-    {
-      "id": "S5",
-      "title": "Academic vocabulary in use",
-      "detail": "科研文本中 momentum、dynamic 的隐喻用法"
-    }
-  ]
+   ]
+  },
+  {
+   "kind": "text",
+   "title": "三个高频误判",
+   "body": "**误判一：把 strata 当单数。**strata 已经是复数，单数是 stratum。写成 *a strata 在期刊里会被直接标错。同类还有 data / datum、criteria / criterion。\n\n**误判二：把 dynamics 当形容词。**dynamics 是“动力学”，作单数名词用；dynamic 才是形容词“动态的”。论文里“the dynamics of the system”指系统的动力学行为，不是“系统的动态的”。\n\n**误判三：把 temporal 当“临时”。**temporal 是“时间的”，与 spatial（空间的）相对；“临时的”是 temporary，虽然同根，但 -ary 与 -al 把它固定成了另一条义。同根不同义，靠后缀分辨。",
+   "morphemes": [
+    "strat",
+    "dyn",
+    "tempor"
+   ],
+   "morphemeIds": [
+    "cx-strat",
+    "cx-dyn",
+    "cx-tempor"
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "id": "w38d7-p1",
+   "kind": "infer",
+   "prompt": "读句子，推测 infrasonic 在声学语境中的含义",
+   "passage": "Unlike the ultrasonic pulse the bat emits, the returning component described here lies below the range of human hearing: it is infrasonic, and only its low frequency allows it to travel through the canopy without being scattered.",
+   "word": "infrasonic",
+   "choices": [
+    "低于人耳可听频率的（次声的）",
+    "高于人耳可听频率的（超声的）",
+    "强度极大、会损伤听力的",
+    "由多个声源叠加而成的"
+   ],
+   "answer": 0,
+   "strategy": "① 切分：infra（在下方）+ son（声音）+ -ic（形容词）；② 句法：Unlike the ultrasonic pulse 构成对比，前项 ultra- 是“超出”，后项 infra- 必然是“低于”；③ 语境：below the range of human hearing 与 low frequency 直接把范围写出来；④ 校验：超声与 ultra- 冲突，强度与频率无关。",
+   "explain": "infrasonic 是“次声的”，即频率低于人耳可听下限（约 20 Hz）。infra- 与 ultra- 是一对方向相反的前缀：infra- 在下方（infrastructure、infrared），ultra- 超出（ultrasonic、ultraviolet）。同族的 son 还出现在 supersonic（超音速）里——注意 super- 与 ultra- 都表“超出”，但一个用于速度、一个用于频率，这是搭配习惯而非规则。",
+   "concepts": [
+    "infra",
+    "son",
+    "ic"
+   ]
+  },
+  {
+   "id": "w38d7-p2",
+   "kind": "boundary",
+   "prompt": "切开 perimeter：两个成分都是希腊来源，前一个是前缀",
+   "word": "perimeter",
+   "segments": [
+    "peri",
+    "meter"
+   ],
+   "explain": "peri + meter。peri- 表“环绕、near”，meter 表“测量（的装置）”，字面义“绕着量一圈”→ 周长、外围。这与 diameter（dia 穿过 + meter）、parameter（para 旁 + meter）构成一个 meter 家族：量一圈、量穿过、量在旁边。切分只有两段，不要再把 peri 拆成 per + i。",
+   "concepts": [
+    "peri",
+    "meter"
+   ]
+  },
+  {
+   "id": "w38d7-p3",
+   "kind": "wordSum",
+   "prompt": "用 + 连接两段，写出“时间的”这个形容词",
+   "parts": [
+    "tempor",
+    "al"
+   ],
+   "answer": "temporal",
+   "explain": "tempor（时间）+ -al（与……有关的）→ temporal。词根 tempor 来自 tempus 的斜格词干，同族有 temporary（时间的 → 只持续一段时间的 → 临时的）、contemporary（同时代的）。temporal 与 temporary 的分工正好说明：同一词根配不同后缀，会固定成不同的义。",
+   "concepts": [
+    "tempor",
+    "al"
+   ]
+  },
+  {
+   "id": "w38d7-p4",
+   "kind": "mcq",
+   "prompt": "论文写“each strata was sampled twice”，错误在于：",
+   "choices": [
+    "strata 已是复数，单数应为 stratum",
+    "strata 是动词，不能作主语",
+    "strata 指“街道”，与采样无关",
+    "strata 只能用于社会科学，不能用于地质"
+   ],
+   "answer": 0,
+   "explain": "strata 是 stratum 的复数（拉丁中性名词 -um → -a），所以不能说 each strata，应说 each stratum 或 each layer。这类复数陷阱在科研写作里很常见：data / datum、criteria / criterion、phenomena / phenomenon。判断方法：看到 -a 结尾的学术名词，先查它是不是拉丁复数。",
+   "concepts": [
+    "strat"
+   ]
+  },
+  {
+   "id": "w38d7-p5",
+   "kind": "cloze",
+   "prompt": "填入一个物理术语（英语）",
+   "sentence": "Although the trolley was moving slowly, its ___ was large, so stopping it required a long braking distance.",
+   "answer": "momentum",
+   "accept": [
+    "momentum"
+   ],
+   "explain": "momentum（动量）来自 mo（移动）+ -ment（名词）+ -um（拉丁词尾），字面义“推动的状态”。物理上它等于质量乘速度，所以速度不高但质量大时仍然很大，刹车距离长。同一词根在学术文本里常作隐喻：lose momentum（失去势头）、gain momentum（势头增强），判断依据是主语是不是可测量的物体。",
+   "concepts": [
+    "mo",
+    "ment"
+   ]
+  }
+ ],
+ "apply": [
+  {
+   "id": "w38d7-a1",
+   "kind": "infer",
+   "prompt": "（迁移）读句子，推测 dynamic 在系统描述中的含义",
+   "passage": "The network's topology is fixed, but its load distribution is dynamic: edge weights are recomputed every ten seconds from the latest traffic measurements.",
+   "word": "dynamic",
+   "choices": [
+    "随时间变化的、动态的",
+    "与动力装置有关的",
+    "静态的、固定不变的",
+    "由两个部分组成的"
+   ],
+   "answer": 0,
+   "strategy": "① 切分：dyn（力）+ -ic（形容词）→“与力有关的”；② 句法：but 引导对比，前项 fixed 是“固定”，后项必然是“变化”；③ 语境：每十秒重新计算一次权重，直接定义“随时间变化”；④ 校验：静态与 but 后的语义冲突；动力装置与权重计算无关。",
+   "explain": "dynamic 在这里是“动态的、随时间变化的”。dyn 的核心义是“力”，从“力”到“变化”的桥梁是物理学：受力就改变状态。科研写作把这条物理直觉借来处理任何随时间演化的系统。注意名词 dynamics 是“动力学”，作单数用——这是 d7 卡片里提醒的第二个误判。",
+   "concepts": [
+    "dyn",
+    "ic"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1",
+   "title": "English Vocabulary Elements",
+   "detail": "第 13 章：科技英语的希腊语成分"
+  },
+  {
+   "id": "S2",
+   "title": "Essentials of Linguistics",
+   "detail": "语境线索与词汇推理"
+  },
+  {
+   "id": "S5",
+   "title": "Academic vocabulary in use",
+   "detail": "科研文本中 momentum、dynamic 的隐喻用法"
+  }
+ ],
+ "knowledgePoints": []
 }

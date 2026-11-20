@@ -1,318 +1,319 @@
 {
-  "id": "w38d1",
-  "week": 38,
-  "day": 1,
-  "title": "先归纳，再查证：六个词共有的那个成分",
-  "tagline": "不给你词根义，只给一组真实同族词——核心义要自己从词形里推出来",
-  "objectives": [
-    "能从 4–6 个同族词中定位反复出现的词根，并用一句话概括它的核心义",
-    "能用“核心义 → 前缀方向 → 后缀词性”的顺序解释一个陌生同族词",
-    "能识别同形不同源（cur = 关心 vs curr = 跑），不按拼写合并词族"
-  ],
-  "prereqs": [
-    "w37d4",
-    "c-morpheme",
-    "c-word-family"
-  ],
-  "concepts": [
-    "c-root",
-    "c-word-family",
-    "c-inference",
-    "c-allomorph"
-  ],
-  "minutes": {
-    "review": 5,
-    "learn": 8,
-    "practice": 8,
-    "apply": 5
+ "id": "w38d1",
+ "week": 38,
+ "day": 1,
+ "title": "先归纳，再查证：六个词共有的那个成分",
+ "tagline": "不给你词根义，只给一组真实同族词——核心义要自己从词形里推出来",
+ "objectives": [
+  "能从 4–6 个同族词中定位反复出现的词根，并用一句话概括它的核心义",
+  "能用“核心义 → 前缀方向 → 后缀词性”的顺序解释一个陌生同族词",
+  "能识别同形不同源（cur = 关心 vs curr = 跑），不按拼写合并词族"
+ ],
+ "prereqs": [
+  "w37d4",
+  "c-morpheme",
+  "c-word-family"
+ ],
+ "concepts": [
+  "c-root",
+  "c-word-family",
+  "c-inference",
+  "c-allomorph"
+ ],
+ "minutes": {
+  "review": 5,
+  "learn": 8,
+  "practice": 8,
+  "apply": 5
+ },
+ "level": "B2",
+ "cards": [
+  {
+   "kind": "text",
+   "title": "材料：五个词，一个不查词典的任务",
+   "body": "下面五个词都含同一串字母 cur，中文义已给出，但词根义我没有写：\n\n- accurate 准确的\n- accuracy 准确性\n- inaccurate 不准确的\n- procure 获得、采购\n- secure 安全的\n\n任务：先不看词根，只做一件事——把每个词里“除了 cur 以外的部分”找出来，再看剩下的 cur 在五个词义里承担什么共同成分。acc- 是 ad- 的同化形式（朝向），-ate、-acy 是后缀，pro- 是“向前”，se- 是“分开”。把这些外壳剥掉以后，五个词剩下的共同点只有一个：**把事情放在心上、加以照料**。这就是 cur 的核心义“关心、照料”（拉丁 cura）。\n\n归纳的纪律是：核心义必须能同时解释五个词，而不是只解释其中一个。如果你给出的意思是“准确”，那 secure 与 procure 就解释不通——这不是词根义，只是其中一个词的词义。",
+   "terms": [
+    {
+     "term": "induction",
+     "zh": "归纳",
+     "en": "induction",
+     "note": "从若干具体形式反推出共同成分及其意义"
+    },
+    {
+     "term": "core meaning",
+     "zh": "核心义",
+     "en": "core meaning",
+     "note": "能解释整个词族、而不只是单个词的那个义"
+    }
+   ],
+   "morphemes": [
+    "cur"
+   ],
+   "morphemeIds": []
   },
-  "level": "B2",
-  "cards": [
+  {
+   "kind": "table",
+   "title": "把五个词拆到底",
+   "body": "同一列里对照着看：词根一栏始终是 cur，变化全在外壳。注意 accurate 与 accuracy 的开头都写作 ac-，那是 ad-（朝向）在 c 前被同化的结果；写成 adcurate 是拼写错误，不是更“忠于词源”。",
+   "head": [
+    "词",
+    "切分",
+    "外壳的作用",
+    "字面读法"
+   ],
+   "rows": [
+    [
+     "accurate",
+     "ac + cur + ate",
+     "ad- 朝向 + -ate 形容词",
+     "带着关心去做的 → 准确的"
+    ],
+    [
+     "accuracy",
+     "ac + cur + acy",
+     "ad- 朝向 + -acy 性质名词",
+     "被照料到的程度 → 准确性"
+    ],
+    [
+     "inaccurate",
+     "in + ac + cur + ate",
+     "in- 否定 + 原有结构",
+     "没有照料到 → 不准确的"
+    ],
+    [
+     "procure",
+     "pro + cur + e",
+     "pro- 向前 + 词根 + 词尾 e",
+     "向前照料、设法弄到 → 获得"
+    ],
+    [
+     "secure",
+     "se + cur + e",
+     "se- 分开、去除 + 词根",
+     "不必操心 → 安全的、牢固的"
+    ]
+   ]
+  },
+  {
+   "kind": "compare",
+   "title": "cur 与 curr：同形不同源，别合并",
+   "body": "英语里还有一批含 cur 的词，词根并不是 cura（关心），而是 currere（跑）：occur、current、curriculum、recur。它们拼写相近、意义毫不相干。判断依据不是拼写，而是同族词：能拉出 course、courier 这一串“跑”的词，就是 currere；能拉出 cure、curable 这一串“照料”的词，才是 cura。词组可以共享字母，不能共享身份。",
+   "a": "cur = 关心、照料（cura）",
+   "b": "curr = 跑（currere）",
+   "rows": [
+    [
+     "同族词",
+     "accurate、accuracy、procure、secure、curious",
+     "occur、current、curriculum、course、courier"
+    ],
+    [
+     "词根义在词里怎么体现",
+     "照料 → 精确、获得、无忧",
+     "跑 → 发生（跑到眼前）、流动、课程进程"
+    ],
+    [
+     "判据",
+     "能替换成 care 而不破坏词义",
+     "能替换成 run 或 flow 而不破坏词义"
+    ],
+    [
+     "误判的后果",
+     "把 occur 讲成“一起关心”，词义全错",
+     "把 secure 讲成“不跑”，同样讲不通"
+    ]
+   ]
+  },
+  {
+   "kind": "sum",
+   "title": "三条算式，同一个词根",
+   "body": "算式的作用不是背答案，而是把“外壳 + 词根”的顺序固定下来。做完以后回头看：三条算式的词根都是 cur，三条的意义都能落到“关心/照料”上——这说明核心义选对了。",
+   "sums": [
     {
-      "kind": "text",
-      "title": "材料：五个词，一个不查词典的任务",
-      "body": "下面五个词都含同一串字母 cur，中文义已给出，但词根义我没有写：\n\n- accurate 准确的\n- accuracy 准确性\n- inaccurate 不准确的\n- procure 获得、采购\n- secure 安全的\n\n任务：先不看词根，只做一件事——把每个词里“除了 cur 以外的部分”找出来，再看剩下的 cur 在五个词义里承担什么共同成分。acc- 是 ad- 的同化形式（朝向），-ate、-acy 是后缀，pro- 是“向前”，se- 是“分开”。把这些外壳剥掉以后，五个词剩下的共同点只有一个：**把事情放在心上、加以照料**。这就是 cur 的核心义“关心、照料”（拉丁 cura）。\n\n归纳的纪律是：核心义必须能同时解释五个词，而不是只解释其中一个。如果你给出的意思是“准确”，那 secure 与 procure 就解释不通——这不是词根义，只是其中一个词的词义。",
-      "terms": [
-        {
-          "term": "induction",
-          "zh": "归纳",
-          "en": "induction",
-          "note": "从若干具体形式反推出共同成分及其意义"
-        },
-        {
-          "term": "core meaning",
-          "zh": "核心义",
-          "en": "core meaning",
-          "note": "能解释整个词族、而不只是单个词的那个义"
-        }
-      ],
-      "morphemes": [
-        "cur"
-      ],
-      "morphemeIds": []
+     "parts": [
+      "ac",
+      "cur",
+      "ate"
+     ],
+     "result": "accurate",
+     "glossZh": "准确的",
+     "note": "ac- 是 ad- 的同化形式，不是独立词素"
     },
     {
-      "kind": "table",
-      "title": "把五个词拆到底",
-      "body": "同一列里对照着看：词根一栏始终是 cur，变化全在外壳。注意 accurate 与 accuracy 的开头都写作 ac-，那是 ad-（朝向）在 c 前被同化的结果；写成 adcurate 是拼写错误，不是更“忠于词源”。",
-      "head": [
-        "词",
-        "切分",
-        "外壳的作用",
-        "字面读法"
-      ],
-      "rows": [
-        [
-          "accurate",
-          "ac + cur + ate",
-          "ad- 朝向 + -ate 形容词",
-          "带着关心去做的 → 准确的"
-        ],
-        [
-          "accuracy",
-          "ac + cur + acy",
-          "ad- 朝向 + -acy 性质名词",
-          "被照料到的程度 → 准确性"
-        ],
-        [
-          "inaccurate",
-          "in + ac + cur + ate",
-          "in- 否定 + 原有结构",
-          "没有照料到 → 不准确的"
-        ],
-        [
-          "procure",
-          "pro + cur + e",
-          "pro- 向前 + 词根 + 词尾 e",
-          "向前照料、设法弄到 → 获得"
-        ],
-        [
-          "secure",
-          "se + cur + e",
-          "se- 分开、去除 + 词根",
-          "不必操心 → 安全的、牢固的"
-        ]
-      ]
+     "parts": [
+      "se",
+      "cur",
+      "e"
+     ],
+     "result": "secure",
+     "glossZh": "安全的",
+     "note": "se- 表“分开、去除”，去掉操心就是安全"
     },
     {
-      "kind": "compare",
-      "title": "cur 与 curr：同形不同源，别合并",
-      "body": "英语里还有一批含 cur 的词，词根并不是 cura（关心），而是 currere（跑）：occur、current、curriculum、recur。它们拼写相近、意义毫不相干。判断依据不是拼写，而是同族词：能拉出 course、courier 这一串“跑”的词，就是 currere；能拉出 cure、curable 这一串“照料”的词，才是 cura。词组可以共享字母，不能共享身份。",
-      "a": "cur = 关心、照料（cura）",
-      "b": "curr = 跑（currere）",
-      "rows": [
-        [
-          "同族词",
-          "accurate、accuracy、procure、secure、curious",
-          "occur、current、curriculum、course、courier"
-        ],
-        [
-          "词根义在词里怎么体现",
-          "照料 → 精确、获得、无忧",
-          "跑 → 发生（跑到眼前）、流动、课程进程"
-        ],
-        [
-          "判据",
-          "能替换成 care 而不破坏词义",
-          "能替换成 run 或 flow 而不破坏词义"
-        ],
-        [
-          "误判的后果",
-          "把 occur 讲成“一起关心”，词义全错",
-          "把 secure 讲成“不跑”，同样讲不通"
-        ]
-      ]
-    },
-    {
-      "kind": "sum",
-      "title": "三条算式，同一个词根",
-      "body": "算式的作用不是背答案，而是把“外壳 + 词根”的顺序固定下来。做完以后回头看：三条算式的词根都是 cur，三条的意义都能落到“关心/照料”上——这说明核心义选对了。",
-      "sums": [
-        {
-          "parts": [
-            "ac",
-            "cur",
-            "ate"
-          ],
-          "result": "accurate",
-          "glossZh": "准确的",
-          "note": "ac- 是 ad- 的同化形式，不是独立词素"
-        },
-        {
-          "parts": [
-            "se",
-            "cur",
-            "e"
-          ],
-          "result": "secure",
-          "glossZh": "安全的",
-          "note": "se- 表“分开、去除”，去掉操心就是安全"
-        },
-        {
-          "parts": [
-            "in",
-            "ac",
-            "cur",
-            "ate"
-          ],
-          "result": "inaccurate",
-          "glossZh": "不准确的",
-          "note": "否定前缀加在原有结构之外，不改变词根"
-        }
-      ]
-    },
-    {
-      "kind": "text",
-      "title": "第二条线索：cid 与连接元音",
-      "body": "换一组材料练同一套动作。decide、decision、incise、incision、homicide 的共同成分是 cid/cis（切、杀）。de- 是“离开”，所以 decide 的字面义是“把别的选项切掉”——决定就是排除。in- 表“向内”，incise 就是切进去，incision 是切出来的口子。\n\nhomicide 多出一个 -i-：hom + i + cid。这个 i 不是词根，也不是后缀，而是拉丁复合词里的**连接元音**（interfix）：它没有意义，只标记“这里两个词根相接”。同类还有 matrimony（matr + i + mony）、testimony（test + i + mony）。切分时要把 -i- 单独切出来，因为它占了位置；解释时不要给它编意义，因为它本来就没有。",
-      "terms": [
-        {
-          "term": "interfix",
-          "zh": "连接元音",
-          "en": "interfix",
-          "note": "复合词中连接两个词根的空词素，无词汇意义"
-        }
-      ],
-      "morphemes": [
-        "cid",
-        "i"
-      ],
-      "morphemeIds": [
-        "rx-cid",
-        "cx-i"
-      ]
+     "parts": [
+      "in",
+      "ac",
+      "cur",
+      "ate"
+     ],
+     "result": "inaccurate",
+     "glossZh": "不准确的",
+     "note": "否定前缀加在原有结构之外，不改变词根"
     }
-  ],
-  "practice": [
+   ]
+  },
+  {
+   "kind": "text",
+   "title": "第二条线索：cid 与连接元音",
+   "body": "换一组材料练同一套动作。decide、decision、incise、incision、homicide 的共同成分是 cid/cis（切、杀）。de- 是“离开”，所以 decide 的字面义是“把别的选项切掉”——决定就是排除。in- 表“向内”，incise 就是切进去，incision 是切出来的口子。\n\nhomicide 多出一个 -i-：hom + i + cid。这个 i 不是词根，也不是后缀，而是拉丁复合词里的**连接元音**（interfix）：它没有意义，只标记“这里两个词根相接”。同类还有 matrimony（matr + i + mony）、testimony（test + i + mony）。切分时要把 -i- 单独切出来，因为它占了位置；解释时不要给它编意义，因为它本来就没有。",
+   "terms": [
     {
-      "id": "w38d1-p1",
-      "kind": "mcq",
-      "prompt": "accurate、accuracy、procure、secure 四个词里，cur 承担的核心义是：",
-      "choices": [
-        "关心、照料",
-        "准确",
-        "向前",
-        "分开"
-      ],
-      "answer": 0,
-      "explain": "把外壳剥掉看：ac- 是“朝向”，pro- 是“向前”，se- 是“分开”，-ate/-acy 只标词性。剩下的 cur 必须在四个词义里都成立，只有“关心、照料”做得到——procure 是“设法照料到、弄到手”，secure 是“不必操心”。选“准确”只解释了 accurate 一个词，那是词义而非词根义；选“向前”“分开”则把前缀当成了词根。",
-      "concepts": [
-        "cur",
-        "ad",
-        "ate"
-      ]
-    },
-    {
-      "id": "w38d1-p2",
-      "kind": "boundary",
-      "prompt": "在字母缝隙处切开 inaccurately，切出它的四个词素与一个副词后缀",
-      "hint": "先处理否定前缀，再处理 ad- 的同化形式 ac-，最后看词尾。",
-      "word": "inaccurately",
-      "segments": [
-        "in",
-        "ac",
-        "cur",
-        "ate",
-        "ly"
-      ],
-      "explain": "in + ac + cur + ate + ly。in- 是否定；ac- 是 ad-（朝向）在 c 前的同化形式，不能单独写成 ad-；cur 是词根；-ate 构成形容词 accurate；-ly 再加一层构成副词。切分点全部落在词素边界上，其中 in|ac 与 ac|cur 两处最容易漏——学习者常把 inaccurately 切成 in + accurate + ly 三段，那样就把一个词素（cur）藏在了不可分析的整块里。",
-      "concepts": [
-        "cur",
-        "ad",
-        "ate",
-        "ly"
-      ]
-    },
-    {
-      "id": "w38d1-p3",
-      "kind": "cloze",
-      "prompt": "填入一个英语动词（原形），补全 decide 的字面义",
-      "sentence": "Latin dēcīdere means to ___ something off; English decide keeps that image: you remove the alternatives and keep one.",
-      "answer": "cut",
-      "accept": [
-        "cut",
-        "chop",
-        "slice"
-      ],
-      "explain": "de-（离开）+ cid（切）→“切掉”。decide 的字面义是“把其他选项切掉”，所以名词 decision 是“切完的结果”。这条字面义还能解释为什么 decide 后面常接 between：切的动作发生在两个或多个候选项之间。把 cid 记成“切、杀”，homicide（杀人）、incision（切口）就都能推。",
-      "concepts": [
-        "cid",
-        "de",
-        "ion"
-      ]
-    },
-    {
-      "id": "w38d1-p4",
-      "kind": "wordSum",
-      "prompt": "用 + 连接三个成分，写出 homicide（杀人）的构词算式",
-      "parts": [
-        "hom",
-        "i",
-        "cid"
-      ],
-      "answer": "homicide",
-      "explain": "hom（人）+ i（连接元音）+ cid（切、杀）→ homicide。这里的 -i- 必须单独占一格：它没有意义，但它是拉丁复合词的结构标记，删掉它就变成 homcid，英语里不存在这个拼法。判断一个成分是不是连接元音，看两条：它不带来任何意义，且它只出现在两个词根之间。matrimony、testimony 的 -i- 同理。",
-      "concepts": [
-        "hom",
-        "i",
-        "cid"
-      ]
-    },
-    {
-      "id": "w38d1-p5",
-      "kind": "mcq",
-      "prompt": "下面哪个词的 cur 不属于“关心、照料”这个词族？",
-      "choices": [
-        "accurate",
-        "occur",
-        "secure",
-        "procure"
-      ],
-      "answer": 1,
-      "explain": "occur 的 cur 来自 currere（跑），字面是“跑到面前”，所以是“发生”。它和 accurate、secure、procure 只是拼写撞车，词源不同源。这类同形不同源必须按词分流：能替换成 care 的归 cura，能替换成 run/flow 的归 currere。词族按来源划，不按字母划。",
-      "concepts": [
-        "cur",
-        "ob"
-      ]
+     "term": "interfix",
+     "zh": "连接元音",
+     "en": "interfix",
+     "note": "复合词中连接两个词根的空词素，无词汇意义"
     }
-  ],
-  "apply": [
-    {
-      "id": "w38d1-a1",
-      "kind": "infer",
-      "prompt": "（迁移）读句子，推测 procure 在学术语境中的含义",
-      "passage": "The team had to procure three more sensors before the field trial could begin, and the delay was blamed not on the design but on the purchasing office.",
-      "word": "procure",
-      "choices": [
-        "获得、采购到",
-        "校准、调试",
-        "拆除、报废",
-        "设计、构思"
-      ],
-      "answer": 0,
-      "strategy": "① 切分：pro-（向前）+ cur（关心、照料）+ 词尾 e；② 句法：had to procure three more sensors 是“必须 ___ 三个传感器”，宾语是可购置的实物；③ 语境：后文把延误归因于 purchasing office（采购部门），直接锁定“采购”；④ 校验：校准是 calibrate，拆除是 dismantle，都与 purchasing office 无关。",
-      "explain": "procure 是“（设法）获得、采购”。字面义是“向前照料”，即把事情办到手里——这正是 cura 一族从“关心”走向“取得”的路径。同族里 secure 走的是另一条路（se- 去除 + 照料 → 无忧 → 安全），所以同一个词根会给出“获得”和“安全”两种结果，靠前缀分流。",
-      "concepts": [
-        "cur",
-        "pro"
-      ]
-    }
-  ],
-  "sources": [
-    {
-      "id": "S1",
-      "title": "English Vocabulary Elements",
-      "detail": "第 2 章：词根的核心义与词族归纳"
-    },
-    {
-      "id": "S4",
-      "title": "New Word-Analysis",
-      "detail": "拉丁词根 cura、caedere 的派生词"
-    },
-    {
-      "id": "S3",
-      "title": "WordWorks SWI",
-      "detail": "词族按词源而非拼写划分"
-    }
-  ]
+   ],
+   "morphemes": [
+    "cid",
+    "i"
+   ],
+   "morphemeIds": [
+    "rx-cid",
+    "cx-i"
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "id": "w38d1-p1",
+   "kind": "mcq",
+   "prompt": "accurate、accuracy、procure、secure 四个词里，cur 承担的核心义是：",
+   "choices": [
+    "关心、照料",
+    "准确",
+    "向前",
+    "分开"
+   ],
+   "answer": 0,
+   "explain": "把外壳剥掉看：ac- 是“朝向”，pro- 是“向前”，se- 是“分开”，-ate/-acy 只标词性。剩下的 cur 必须在四个词义里都成立，只有“关心、照料”做得到——procure 是“设法照料到、弄到手”，secure 是“不必操心”。选“准确”只解释了 accurate 一个词，那是词义而非词根义；选“向前”“分开”则把前缀当成了词根。",
+   "concepts": [
+    "cur",
+    "ad",
+    "ate"
+   ]
+  },
+  {
+   "id": "w38d1-p2",
+   "kind": "boundary",
+   "prompt": "在字母缝隙处切开 inaccurately，切出它的四个词素与一个副词后缀",
+   "hint": "先处理否定前缀，再处理 ad- 的同化形式 ac-，最后看词尾。",
+   "word": "inaccurately",
+   "segments": [
+    "in",
+    "ac",
+    "cur",
+    "ate",
+    "ly"
+   ],
+   "explain": "in + ac + cur + ate + ly。in- 是否定；ac- 是 ad-（朝向）在 c 前的同化形式，不能单独写成 ad-；cur 是词根；-ate 构成形容词 accurate；-ly 再加一层构成副词。切分点全部落在词素边界上，其中 in|ac 与 ac|cur 两处最容易漏——学习者常把 inaccurately 切成 in + accurate + ly 三段，那样就把一个词素（cur）藏在了不可分析的整块里。",
+   "concepts": [
+    "cur",
+    "ad",
+    "ate",
+    "ly"
+   ]
+  },
+  {
+   "id": "w38d1-p3",
+   "kind": "cloze",
+   "prompt": "填入一个英语动词（原形），补全 decide 的字面义",
+   "sentence": "Latin dēcīdere means to ___ something off; English decide keeps that image: you remove the alternatives and keep one.",
+   "answer": "cut",
+   "accept": [
+    "cut",
+    "chop",
+    "slice"
+   ],
+   "explain": "de-（离开）+ cid（切）→“切掉”。decide 的字面义是“把其他选项切掉”，所以名词 decision 是“切完的结果”。这条字面义还能解释为什么 decide 后面常接 between：切的动作发生在两个或多个候选项之间。把 cid 记成“切、杀”，homicide（杀人）、incision（切口）就都能推。",
+   "concepts": [
+    "cid",
+    "de",
+    "ion"
+   ]
+  },
+  {
+   "id": "w38d1-p4",
+   "kind": "wordSum",
+   "prompt": "用 + 连接三个成分，写出 homicide（杀人）的构词算式",
+   "parts": [
+    "hom",
+    "i",
+    "cid"
+   ],
+   "answer": "homicide",
+   "explain": "hom（人）+ i（连接元音）+ cid（切、杀）→ homicide。这里的 -i- 必须单独占一格：它没有意义，但它是拉丁复合词的结构标记，删掉它就变成 homcid，英语里不存在这个拼法。判断一个成分是不是连接元音，看两条：它不带来任何意义，且它只出现在两个词根之间。matrimony、testimony 的 -i- 同理。",
+   "concepts": [
+    "hom",
+    "i",
+    "cid"
+   ]
+  },
+  {
+   "id": "w38d1-p5",
+   "kind": "mcq",
+   "prompt": "下面哪个词的 cur 不属于“关心、照料”这个词族？",
+   "choices": [
+    "accurate",
+    "occur",
+    "secure",
+    "procure"
+   ],
+   "answer": 1,
+   "explain": "occur 的 cur 来自 currere（跑），字面是“跑到面前”，所以是“发生”。它和 accurate、secure、procure 只是拼写撞车，词源不同源。这类同形不同源必须按词分流：能替换成 care 的归 cura，能替换成 run/flow 的归 currere。词族按来源划，不按字母划。",
+   "concepts": [
+    "cur",
+    "ob"
+   ]
+  }
+ ],
+ "apply": [
+  {
+   "id": "w38d1-a1",
+   "kind": "infer",
+   "prompt": "（迁移）读句子，推测 procure 在学术语境中的含义",
+   "passage": "The team had to procure three more sensors before the field trial could begin, and the delay was blamed not on the design but on the purchasing office.",
+   "word": "procure",
+   "choices": [
+    "获得、采购到",
+    "校准、调试",
+    "拆除、报废",
+    "设计、构思"
+   ],
+   "answer": 0,
+   "strategy": "① 切分：pro-（向前）+ cur（关心、照料）+ 词尾 e；② 句法：had to procure three more sensors 是“必须 ___ 三个传感器”，宾语是可购置的实物；③ 语境：后文把延误归因于 purchasing office（采购部门），直接锁定“采购”；④ 校验：校准是 calibrate，拆除是 dismantle，都与 purchasing office 无关。",
+   "explain": "procure 是“（设法）获得、采购”。字面义是“向前照料”，即把事情办到手里——这正是 cura 一族从“关心”走向“取得”的路径。同族里 secure 走的是另一条路（se- 去除 + 照料 → 无忧 → 安全），所以同一个词根会给出“获得”和“安全”两种结果，靠前缀分流。",
+   "concepts": [
+    "cur",
+    "pro"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1",
+   "title": "English Vocabulary Elements",
+   "detail": "第 2 章：词根的核心义与词族归纳"
+  },
+  {
+   "id": "S4",
+   "title": "New Word-Analysis",
+   "detail": "拉丁词根 cura、caedere 的派生词"
+  },
+  {
+   "id": "S3",
+   "title": "WordWorks SWI",
+   "detail": "词族按词源而非拼写划分"
+  }
+ ],
+ "knowledgePoints": []
 }

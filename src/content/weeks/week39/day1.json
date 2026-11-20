@@ -1,300 +1,301 @@
 {
-  "id": "w39d1",
-  "week": 39,
-  "day": 1,
-  "title": "方位前缀：给词根装一套空间坐标",
-  "tagline": "peri- 绕、infra- 下、extra- 外、endo- 内、para- 旁、ab- 离、dia- 穿——七个方向，一套坐标",
-  "objectives": [
-    "能把七个方位前缀按“绕／下／外／内／旁／离／穿”归位，并各举一个真实例词",
-    "能用方位前缀预测陌生术语的大致意义范围，再靠句法收窄",
-    "能识别前缀的引申义（extra- 的“超出常规”、para- 的“近乎”）"
-  ],
-  "prereqs": [
-    "w38d2",
-    "c-prefix",
-    "c-scientific"
-  ],
-  "concepts": [
-    "c-prefix",
-    "c-scientific",
-    "c-greek-latin",
-    "c-inference"
-  ],
-  "minutes": {
-    "review": 5,
-    "learn": 7,
-    "practice": 9,
-    "apply": 5
+ "id": "w39d1",
+ "week": 39,
+ "day": 1,
+ "title": "方位前缀：给词根装一套空间坐标",
+ "tagline": "peri- 绕、infra- 下、extra- 外、endo- 内、para- 旁、ab- 离、dia- 穿——七个方向，一套坐标",
+ "objectives": [
+  "能把七个方位前缀按“绕／下／外／内／旁／离／穿”归位，并各举一个真实例词",
+  "能用方位前缀预测陌生术语的大致意义范围，再靠句法收窄",
+  "能识别前缀的引申义（extra- 的“超出常规”、para- 的“近乎”）"
+ ],
+ "prereqs": [
+  "w38d2",
+  "c-prefix",
+  "c-scientific"
+ ],
+ "concepts": [
+  "c-prefix",
+  "c-scientific",
+  "c-greek-latin",
+  "c-inference"
+ ],
+ "minutes": {
+  "review": 5,
+  "learn": 7,
+  "practice": 9,
+  "apply": 5
+ },
+ "level": "C1",
+ "cards": [
+  {
+   "kind": "text",
+   "title": "七个方向，一张坐标",
+   "body": "方位前缀的价值在于可组合：词根给你“是什么”，前缀给你“在哪、朝哪”。把下面七个先记成方向，而不是记成中文释义：\n\nperi-（绕一圈）、infra-（在下方）、extra-（在外面）、endo-（在内部）、para-（在旁边）、ab-（离开）、dia-（穿过）。\n\n坐标系一旦建立，遇到没见过的术语也能先定位。例如 endoscope：endo- 在内，-scope 看，合起来“看内部的仪器”→ 内窥镜。infrasonic：infra- 在下方，son 声音 →“在声音范围下方”→ 次声。定位给出的是一个**范围**，不是精确词义；精确化要靠句法。",
+   "terms": [
+    {
+     "term": "locative prefix",
+     "zh": "方位前缀",
+     "en": "locative prefix",
+     "note": "表示位置或方向的前缀，如 peri-、infra-"
+    }
+   ]
   },
-  "level": "C1",
-  "cards": [
+  {
+   "kind": "table",
+   "title": "七个前缀的例词与字面义",
+   "body": "第四列是字面义，最后一列才是今义。多数情况下两者只差一步引申；这一步要能说出来，否则你只是在背两个不相干的义项。",
+   "head": [
+    "前缀",
+    "方向",
+    "例词",
+    "字面义 → 今义"
+   ],
+   "rows": [
+    [
+     "peri-",
+     "绕一圈",
+     "perimeter / period",
+     "绕一圈量 → 周长；绕一圈的路 → 时期"
+    ],
+    [
+     "infra-",
+     "在下方",
+     "infrared / infrasonic",
+     "在红光之下 → 红外；在声音之下 → 次声"
+    ],
+    [
+     "extra-",
+     "在外面",
+     "extraordinary / extracurricular",
+     "在常规之外 → 非凡的；在课程之外 → 课外的"
+    ],
+    [
+     "endo-",
+     "在内部",
+     "endoscope / endoscopy",
+     "看内部的仪器 → 内窥镜；内窥检查"
+    ],
+    [
+     "para-",
+     "在旁边",
+     "parameter",
+     "量在旁边的量 → 参数、界限"
+    ],
+    [
+     "ab-",
+     "离开",
+     "abduct / absent",
+     "引开 → 绑架；不在场 → 缺席"
+    ],
+    [
+     "dia-",
+     "穿过",
+     "diagnosis / diameter",
+     "穿过去认出 → 诊断；量穿过 → 直径"
+    ]
+   ]
+  },
+  {
+   "kind": "compare",
+   "title": "容易混的三组",
+   "body": "三组都涉及内外、上下，但参照系不同。判断时先问“相对于什么是内/外”，再选前缀——这一步比记中文释义有用。",
+   "a": "前缀 A",
+   "b": "前缀 B",
+   "rows": [
+    [
+     "extra-（在外）",
+     "extraordinary：在常规之外",
+     "infra-（在下）",
+     "infrared：在红光（频率）之下"
+    ],
+    [
+     "endo-（在内）",
+     "endoscope：进入身体内部观看",
+     "para-（在旁）",
+     "parameter：量在主线旁边的量"
+    ],
+    [
+     "参照系",
+     "extra- / endo- 以“边界”为参照",
+     "infra- / para- 以“某个基准线”为参照"
+    ],
+    [
+     "常见误读",
+     "把 extra- 一律读成“额外的”",
+     "把 para- 一律读成“准、副”（paralegal 才是这条义）"
+    ]
+   ]
+  },
+  {
+   "kind": "sum",
+   "title": "三条算式，三个方向",
+   "body": "算式里的前缀决定方向，词根决定对象。写完后自问一句：如果把前缀换掉，词义会朝哪个方向变？比如把 endoscope 的 endo- 换成 peri-，得到的就是“绕着看”而不是“进去看”。能答出这一步，说明你按方位理解了，而不是背了三个词。",
+   "sums": [
     {
-      "kind": "text",
-      "title": "七个方向，一张坐标",
-      "body": "方位前缀的价值在于可组合：词根给你“是什么”，前缀给你“在哪、朝哪”。把下面七个先记成方向，而不是记成中文释义：\n\nperi-（绕一圈）、infra-（在下方）、extra-（在外面）、endo-（在内部）、para-（在旁边）、ab-（离开）、dia-（穿过）。\n\n坐标系一旦建立，遇到没见过的术语也能先定位。例如 endoscope：endo- 在内，-scope 看，合起来“看内部的仪器”→ 内窥镜。infrasonic：infra- 在下方，son 声音 →“在声音范围下方”→ 次声。定位给出的是一个**范围**，不是精确词义；精确化要靠句法。",
-      "terms": [
-        {
-          "term": "locative prefix",
-          "zh": "方位前缀",
-          "en": "locative prefix",
-          "note": "表示位置或方向的前缀，如 peri-、infra-"
-        }
-      ]
+     "parts": [
+      "endo",
+      "scope"
+     ],
+     "result": "endoscope",
+     "glossZh": "内窥镜",
+     "note": "endo- 在内 + scope 观看的仪器"
     },
     {
-      "kind": "table",
-      "title": "七个前缀的例词与字面义",
-      "body": "第四列是字面义，最后一列才是今义。多数情况下两者只差一步引申；这一步要能说出来，否则你只是在背两个不相干的义项。",
-      "head": [
-        "前缀",
-        "方向",
-        "例词",
-        "字面义 → 今义"
-      ],
-      "rows": [
-        [
-          "peri-",
-          "绕一圈",
-          "perimeter / period",
-          "绕一圈量 → 周长；绕一圈的路 → 时期"
-        ],
-        [
-          "infra-",
-          "在下方",
-          "infrared / infrasonic",
-          "在红光之下 → 红外；在声音之下 → 次声"
-        ],
-        [
-          "extra-",
-          "在外面",
-          "extraordinary / extracurricular",
-          "在常规之外 → 非凡的；在课程之外 → 课外的"
-        ],
-        [
-          "endo-",
-          "在内部",
-          "endoscope / endoscopy",
-          "看内部的仪器 → 内窥镜；内窥检查"
-        ],
-        [
-          "para-",
-          "在旁边",
-          "parameter",
-          "量在旁边的量 → 参数、界限"
-        ],
-        [
-          "ab-",
-          "离开",
-          "abduct / absent",
-          "引开 → 绑架；不在场 → 缺席"
-        ],
-        [
-          "dia-",
-          "穿过",
-          "diagnosis / diameter",
-          "穿过去认出 → 诊断；量穿过 → 直径"
-        ]
-      ]
+     "parts": [
+      "para",
+      "meter"
+     ],
+     "result": "parameter",
+     "glossZh": "参数；界限",
+     "note": "para- 在旁边 + meter 测量"
     },
     {
-      "kind": "compare",
-      "title": "容易混的三组",
-      "body": "三组都涉及内外、上下，但参照系不同。判断时先问“相对于什么是内/外”，再选前缀——这一步比记中文释义有用。",
-      "a": "前缀 A",
-      "b": "前缀 B",
-      "rows": [
-        [
-          "extra-（在外）",
-          "extraordinary：在常规之外",
-          "infra-（在下）",
-          "infrared：在红光（频率）之下"
-        ],
-        [
-          "endo-（在内）",
-          "endoscope：进入身体内部观看",
-          "para-（在旁）",
-          "parameter：量在主线旁边的量"
-        ],
-        [
-          "参照系",
-          "extra- / endo- 以“边界”为参照",
-          "infra- / para- 以“某个基准线”为参照"
-        ],
-        [
-          "常见误读",
-          "把 extra- 一律读成“额外的”",
-          "把 para- 一律读成“准、副”（paralegal 才是这条义）"
-        ]
-      ]
-    },
-    {
-      "kind": "sum",
-      "title": "三条算式，三个方向",
-      "body": "算式里的前缀决定方向，词根决定对象。写完后自问一句：如果把前缀换掉，词义会朝哪个方向变？比如把 endoscope 的 endo- 换成 peri-，得到的就是“绕着看”而不是“进去看”。能答出这一步，说明你按方位理解了，而不是背了三个词。",
-      "sums": [
-        {
-          "parts": [
-            "endo",
-            "scope"
-          ],
-          "result": "endoscope",
-          "glossZh": "内窥镜",
-          "note": "endo- 在内 + scope 观看的仪器"
-        },
-        {
-          "parts": [
-            "para",
-            "meter"
-          ],
-          "result": "parameter",
-          "glossZh": "参数；界限",
-          "note": "para- 在旁边 + meter 测量"
-        },
-        {
-          "parts": [
-            "dia",
-            "gno",
-            "sis"
-          ],
-          "result": "diagnosis",
-          "glossZh": "诊断",
-          "note": "dia- 穿过 + gno 知道 + -sis 名词"
-        }
-      ]
-    },
-    {
-      "kind": "text",
-      "title": "前缀的引申义：extra- 与 para-",
-      "body": "extra- 的本义是“在外面”，但英语里最常见的是引申义“超出常规”：extraordinary 不是“普通之外还有”，而是“非凡”；extracurricular 是“课程之外的”，仍属本义。判断依据看宿主：接 ordinary 这类评价性形容词，多半是“超出”；接具体名词，多是字面方位。\n\npara- 更麻烦。它在 parameter、paradigm 里是“在旁边”，在 paralegal、paramedic 里是“辅助、准”，在 parachute 里又来自“防御”。同一个拼写承载了多条来源，不能一律套一个中文对应词。处理办法仍是分流：先看这个词属于哪个专业域，再决定取哪条义。",
-      "morphemes": [
-        "extra",
-        "para"
-      ],
-      "morphemeIds": [
-        "cx-extra",
-        "cx-para"
-      ]
+     "parts": [
+      "dia",
+      "gno",
+      "sis"
+     ],
+     "result": "diagnosis",
+     "glossZh": "诊断",
+     "note": "dia- 穿过 + gno 知道 + -sis 名词"
     }
-  ],
-  "practice": [
-    {
-      "id": "w39d1-p1",
-      "kind": "mcq",
-      "prompt": "extracurricular 的字面义与今义分别是：",
-      "choices": [
-        "在课程之外的 → 课外的（与课程无关的活动）",
-        "超出课程难度的 → 高级课程",
-        "在课程之前的 → 预科",
-        "课程内部的 → 必修的"
-      ],
-      "answer": 0,
-      "explain": "extra-（在外面）+ curricular（课程的）→“在课程之外的”。这个词保留了字面义，没有大幅引申，所以“课外活动”就是字面读法。对照 extraordinary：同样是 extra-，但宿主 ordinary 是评价性形容词，于是引申为“超出常规的、非凡的”。宿主性质决定引申方向，这是本课要带走的方法。",
-      "concepts": [
-        "extra"
-      ]
-    },
-    {
-      "id": "w39d1-p2",
-      "kind": "boundary",
-      "prompt": "切开 parameter：前一段是方位前缀，后一段是“测量”",
-      "word": "parameter",
-      "segments": [
-        "para",
-        "meter"
-      ],
-      "explain": "para + meter。para- 表“在旁边”，meter 表“测量”，字面义“量在旁边的量”。数学上参数是给定函数时固定、不随自变量变化的量——它“站在旁边”而不参与变化，字面义与术语义对得上。切分只有两段：para 是完整前缀，不要再拆成 par + a。",
-      "concepts": [
-        "para",
-        "meter"
-      ]
-    },
-    {
-      "id": "w39d1-p3",
-      "kind": "wordSum",
-      "prompt": "用 + 连接三段，写出“诊断”这个词",
-      "parts": [
-        "dia",
-        "gno",
-        "sis"
-      ],
-      "answer": "diagnosis",
-      "explain": "dia（穿过）+ gno（知道）+ -sis（名词后缀）→ diagnosis，字面义“穿过去认出来”。医学上指通过症状“看穿”病因。同族的 prognosis（pro 在前 + gno → 预先知道 → 预后）与此形成对照：一个往回看穿，一个往前预知。gno 还出现在 diagnosis 的动词 diagnose 里。",
-      "concepts": [
-        "dia",
-        "gno",
-        "sis"
-      ]
-    },
-    {
-      "id": "w39d1-p4",
-      "kind": "cloze",
-      "prompt": "填入一个医疗器械名（英语）",
-      "sentence": "An ___ is passed through a small opening so that the surgeon can inspect the inside of the joint without open surgery.",
-      "answer": "endoscope",
-      "accept": [
-        "endoscope",
-        "内窥镜"
-      ],
-      "explain": "endoscope = endo（在内）+ scope（观看的仪器）。句中的 through a small opening 与 inspect the inside 分别对应“进入”与“看”，两个线索都指向内窥镜。同族的 endoscopy 是检查本身（-scopy 表“观察术”），-scope 是器械——这一对区分在医学文本里很重要：endoscopy 是操作，endoscope 是工具。",
-      "concepts": [
-        "endo",
-        "scope"
-      ]
-    },
-    {
-      "id": "w39d1-p5",
-      "kind": "mcq",
-      "prompt": "abduct、absent、abnormal 三个词里，ab- 的共同作用是：",
-      "choices": [
-        "表示“离开、脱离”",
-        "表示“加强语气”",
-        "表示“再一次”",
-        "表示“向下”"
-      ],
-      "answer": 0,
-      "explain": "abduct（引开 → 绑架）、absent（不在 → 缺席）、abnormal（偏离常规 → 异常）三词的 ab- 都是“离开”：离开原地、离开现场、离开常态。注意 ab- 在 p、t、c 前常同化为 abs-（absent、abstract），这是拼写层面的同化，不改变意义。与 de-（向下、去除）不同：ab- 只表方向上的“离开”，不表程度。",
-      "concepts": [
-        "ab"
-      ]
-    }
-  ],
-  "apply": [
-    {
-      "id": "w39d1-a1",
-      "kind": "infer",
-      "prompt": "（迁移）读句子，推测 infrastructure 在这个组织语境中的含义",
-      "passage": "The laboratory's infrastructure is invisible until it fails: the shared freezer, the calibration service and the sample database are never mentioned in papers, yet every experiment depends on them.",
-      "word": "infrastructure",
-      "choices": [
-        "支撑日常运转的基础设施",
-        "建筑物的外观结构",
-        "论文中引用的文献库",
-        "实验室的行政等级"
-      ],
-      "answer": 0,
-      "strategy": "① 切分：infra（在下方）+ struct（建造）+ -ure（名词）→“建在下面的东西”；② 句法：is invisible until it fails 说明它是隐性的支撑条件；③ 语境：冰箱、校准服务、样品数据库——都是不写进论文却离不开的东西；④ 校验：外观结构与 invisible 矛盾，文献库与 freezer 不同类。",
-      "explain": "infrastructure 由“建在下面的部分”引申为“支撑系统运转的基础条件”。这个词从土木工程扩展到组织、科研、信息技术，靠的正是“在下方承托”这条空间隐喻。识别这类引申的方法：看例举项是否都是“不显眼但缺了就停摆”的东西。",
-      "concepts": [
-        "infra",
-        "stru"
-      ]
-    }
-  ],
-  "sources": [
-    {
-      "id": "S1",
-      "title": "English Vocabulary Elements",
-      "detail": "第 3 章：希腊语方位前缀"
-    },
-    {
-      "id": "S4",
-      "title": "New Word-Analysis",
-      "detail": "peri-、dia-、ab- 的派生词"
-    },
-    {
-      "id": "S5",
-      "title": "Merriam-Webster's Medical Dictionary",
-      "detail": "endoscope / endoscopy 的区分"
-    }
-  ]
+   ]
+  },
+  {
+   "kind": "text",
+   "title": "前缀的引申义：extra- 与 para-",
+   "body": "extra- 的本义是“在外面”，但英语里最常见的是引申义“超出常规”：extraordinary 不是“普通之外还有”，而是“非凡”；extracurricular 是“课程之外的”，仍属本义。判断依据看宿主：接 ordinary 这类评价性形容词，多半是“超出”；接具体名词，多是字面方位。\n\npara- 更麻烦。它在 parameter、paradigm 里是“在旁边”，在 paralegal、paramedic 里是“辅助、准”，在 parachute 里又来自“防御”。同一个拼写承载了多条来源，不能一律套一个中文对应词。处理办法仍是分流：先看这个词属于哪个专业域，再决定取哪条义。",
+   "morphemes": [
+    "extra",
+    "para"
+   ],
+   "morphemeIds": [
+    "cx-extra",
+    "cx-para"
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "id": "w39d1-p1",
+   "kind": "mcq",
+   "prompt": "extracurricular 的字面义与今义分别是：",
+   "choices": [
+    "在课程之外的 → 课外的（与课程无关的活动）",
+    "超出课程难度的 → 高级课程",
+    "在课程之前的 → 预科",
+    "课程内部的 → 必修的"
+   ],
+   "answer": 0,
+   "explain": "extra-（在外面）+ curricular（课程的）→“在课程之外的”。这个词保留了字面义，没有大幅引申，所以“课外活动”就是字面读法。对照 extraordinary：同样是 extra-，但宿主 ordinary 是评价性形容词，于是引申为“超出常规的、非凡的”。宿主性质决定引申方向，这是本课要带走的方法。",
+   "concepts": [
+    "extra"
+   ]
+  },
+  {
+   "id": "w39d1-p2",
+   "kind": "boundary",
+   "prompt": "切开 parameter：前一段是方位前缀，后一段是“测量”",
+   "word": "parameter",
+   "segments": [
+    "para",
+    "meter"
+   ],
+   "explain": "para + meter。para- 表“在旁边”，meter 表“测量”，字面义“量在旁边的量”。数学上参数是给定函数时固定、不随自变量变化的量——它“站在旁边”而不参与变化，字面义与术语义对得上。切分只有两段：para 是完整前缀，不要再拆成 par + a。",
+   "concepts": [
+    "para",
+    "meter"
+   ]
+  },
+  {
+   "id": "w39d1-p3",
+   "kind": "wordSum",
+   "prompt": "用 + 连接三段，写出“诊断”这个词",
+   "parts": [
+    "dia",
+    "gno",
+    "sis"
+   ],
+   "answer": "diagnosis",
+   "explain": "dia（穿过）+ gno（知道）+ -sis（名词后缀）→ diagnosis，字面义“穿过去认出来”。医学上指通过症状“看穿”病因。同族的 prognosis（pro 在前 + gno → 预先知道 → 预后）与此形成对照：一个往回看穿，一个往前预知。gno 还出现在 diagnosis 的动词 diagnose 里。",
+   "concepts": [
+    "dia",
+    "gno",
+    "sis"
+   ]
+  },
+  {
+   "id": "w39d1-p4",
+   "kind": "cloze",
+   "prompt": "填入一个医疗器械名（英语）",
+   "sentence": "An ___ is passed through a small opening so that the surgeon can inspect the inside of the joint without open surgery.",
+   "answer": "endoscope",
+   "accept": [
+    "endoscope",
+    "内窥镜"
+   ],
+   "explain": "endoscope = endo（在内）+ scope（观看的仪器）。句中的 through a small opening 与 inspect the inside 分别对应“进入”与“看”，两个线索都指向内窥镜。同族的 endoscopy 是检查本身（-scopy 表“观察术”），-scope 是器械——这一对区分在医学文本里很重要：endoscopy 是操作，endoscope 是工具。",
+   "concepts": [
+    "endo",
+    "scope"
+   ]
+  },
+  {
+   "id": "w39d1-p5",
+   "kind": "mcq",
+   "prompt": "abduct、absent、abnormal 三个词里，ab- 的共同作用是：",
+   "choices": [
+    "表示“离开、脱离”",
+    "表示“加强语气”",
+    "表示“再一次”",
+    "表示“向下”"
+   ],
+   "answer": 0,
+   "explain": "abduct（引开 → 绑架）、absent（不在 → 缺席）、abnormal（偏离常规 → 异常）三词的 ab- 都是“离开”：离开原地、离开现场、离开常态。注意 ab- 在 p、t、c 前常同化为 abs-（absent、abstract），这是拼写层面的同化，不改变意义。与 de-（向下、去除）不同：ab- 只表方向上的“离开”，不表程度。",
+   "concepts": [
+    "ab"
+   ]
+  }
+ ],
+ "apply": [
+  {
+   "id": "w39d1-a1",
+   "kind": "infer",
+   "prompt": "（迁移）读句子，推测 infrastructure 在这个组织语境中的含义",
+   "passage": "The laboratory's infrastructure is invisible until it fails: the shared freezer, the calibration service and the sample database are never mentioned in papers, yet every experiment depends on them.",
+   "word": "infrastructure",
+   "choices": [
+    "支撑日常运转的基础设施",
+    "建筑物的外观结构",
+    "论文中引用的文献库",
+    "实验室的行政等级"
+   ],
+   "answer": 0,
+   "strategy": "① 切分：infra（在下方）+ struct（建造）+ -ure（名词）→“建在下面的东西”；② 句法：is invisible until it fails 说明它是隐性的支撑条件；③ 语境：冰箱、校准服务、样品数据库——都是不写进论文却离不开的东西；④ 校验：外观结构与 invisible 矛盾，文献库与 freezer 不同类。",
+   "explain": "infrastructure 由“建在下面的部分”引申为“支撑系统运转的基础条件”。这个词从土木工程扩展到组织、科研、信息技术，靠的正是“在下方承托”这条空间隐喻。识别这类引申的方法：看例举项是否都是“不显眼但缺了就停摆”的东西。",
+   "concepts": [
+    "infra",
+    "stru"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1",
+   "title": "English Vocabulary Elements",
+   "detail": "第 3 章：希腊语方位前缀"
+  },
+  {
+   "id": "S4",
+   "title": "New Word-Analysis",
+   "detail": "peri-、dia-、ab- 的派生词"
+  },
+  {
+   "id": "S5",
+   "title": "Merriam-Webster's Medical Dictionary",
+   "detail": "endoscope / endoscopy 的区分"
+  }
+ ],
+ "knowledgePoints": []
 }

@@ -1,313 +1,314 @@
 {
-  "id": "w39d2",
-  "week": 39,
-  "day": 2,
-  "title": "身体与医学词族：希腊来源的组合形式",
-  "tagline": "psych、somat、iatr、path、tom 五个成分撑起半个医学词表，连接元音 -o- 是它们的接头",
-  "objectives": [
-    "能拆解 psychosomatic、psychiatry、podiatry、tomography 这类医学术语",
-    "能说明医学词里 -o- 的功能，并在切分时把它单独切出",
-    "能区分“器官词根 + 学科后缀”与“器官词根 + 病理后缀”两条派生路径"
-  ],
-  "prereqs": [
-    "w39d1",
-    "c-combining",
-    "c-scientific"
-  ],
-  "concepts": [
-    "c-combining",
-    "c-scientific",
-    "c-greek-latin",
-    "c-word-sum"
-  ],
-  "minutes": {
-    "review": 5,
-    "learn": 7,
-    "practice": 9,
-    "apply": 5
+ "id": "w39d2",
+ "week": 39,
+ "day": 2,
+ "title": "身体与医学词族：希腊来源的组合形式",
+ "tagline": "psych、somat、iatr、path、tom 五个成分撑起半个医学词表，连接元音 -o- 是它们的接头",
+ "objectives": [
+  "能拆解 psychosomatic、psychiatry、podiatry、tomography 这类医学术语",
+  "能说明医学词里 -o- 的功能，并在切分时把它单独切出",
+  "能区分“器官词根 + 学科后缀”与“器官词根 + 病理后缀”两条派生路径"
+ ],
+ "prereqs": [
+  "w39d1",
+  "c-combining",
+  "c-scientific"
+ ],
+ "concepts": [
+  "c-combining",
+  "c-scientific",
+  "c-greek-latin",
+  "c-word-sum"
+ ],
+ "minutes": {
+  "review": 5,
+  "learn": 7,
+  "practice": 9,
+  "apply": 5
+ },
+ "level": "C1",
+ "cards": [
+  {
+   "kind": "text",
+   "title": "医学词的组装规则",
+   "body": "医学词汇大半是希腊来源的组合形式（combining form）：psych（心灵）、somat（身体）、iatr（治疗）、path（疾病、感受）、tom（切）、pod（脚）、dent（牙）、oss（骨）。这些成分不能独立成词，只能互相拼接或接后缀。\n\n拼接时通常插入连接元音 **-o-**：psych-o-somatic、tom-o-graphy、pod-o-…；但接元音开头的后缀时不插（psych + iatr + y → psychiatry），因为发音已经顺了。这条规则与拉丁复合词的 -i-（homicide、matrimony）功能相同：只标记边界，不表意义。\n\n组装的方向决定词义：**器官 + 学科后缀**得到学科名（pod + iatr + y → 足病学）；**器官 + 病理后缀**得到病名或状态（psych + osis → 精神病）。先判断后缀属于哪一类，词义范围就定了。",
+   "terms": [
+    {
+     "term": "combining form",
+     "zh": "组合形式",
+     "en": "combining form",
+     "note": "不能独立成词、只能参与构词的希腊或拉丁成分"
+    },
+    {
+     "term": "linking vowel",
+     "zh": "连接元音",
+     "en": "linking vowel",
+     "note": "复合时插入的 -o- 或 -i-，无词汇意义"
+    }
+   ]
   },
-  "level": "C1",
-  "cards": [
+  {
+   "kind": "table",
+   "title": "六个医学词的拆解",
+   "body": "注意最后一列的“路径”：同样是器官词根，接 -iatry 就是学科，接 -osis 就是病症，接 -ic 就是形容词。后缀决定这个词在句子里能做什么。",
+   "head": [
+    "词",
+    "切分",
+    "字面义",
+    "派生路径"
+   ],
+   "rows": [
+    [
+     "psychiatry",
+     "psych + iatr + y",
+     "治疗心灵（的学问）",
+     "器官 + 学科后缀"
+    ],
+    [
+     "podiatry",
+     "pod + iatr + y",
+     "治疗脚（的学问）",
+     "器官 + 学科后缀"
+    ],
+    [
+     "psychosomatic",
+     "psych + o + somat + ic",
+     "心灵与身体共同引起的",
+     "两个器官词根 + 形容词后缀"
+    ],
+    [
+     "tomography",
+     "tom + o + graphy",
+     "切开式的记录术",
+     "动作词根 + 记录术后缀"
+    ],
+    [
+     "capsule",
+     "caps + ule",
+     "小盒子",
+     "容器词根 + 指小后缀"
+    ],
+    [
+     "placoid",
+     "plac + oid",
+     "平板状的",
+     "形状词根 + 相似后缀"
+    ]
+   ]
+  },
+  {
+   "kind": "compare",
+   "title": "-iatry 与 -pathy：学科 vs 病态",
+   "body": "两个后缀都常与器官词根搭配，但落点完全不同。左列是“研究/治疗某器官的学问”，右列是“某处的不适或病”。读医学文本时先看后缀，能立刻判断这句话在讲学科还是在讲症状。",
+   "a": "-iatry（治疗、学科）",
+   "b": "-pathy（疾病、感受）",
+   "rows": [
+    [
+     "例词",
+     "psychiatry、podiatry",
+     "sympathy、pathology",
+     "词性",
+     "名词：学科名",
+     "名词：病名或状态"
+    ],
+    [
+     "句中功能",
+     "作主语或修饰语，指领域",
+     "作主语或宾语，指病人的状况"
+    ],
+    [
+     "词根义",
+     "iatr = 治疗",
+     "path = 感受、疾病"
+    ],
+    [
+     "易混点",
+     "psychiatry 是学科，psychiatrist 是从业者",
+     "sympathy 是“共同感受”，不是“共同生病”"
+    ]
+   ]
+  },
+  {
+   "kind": "sum",
+   "title": "四条算式，两种路径",
+   "body": "算式里 -o- 该出现的位置已经标出。做完后横向比较：前两条走“器官 + 学科”，后两条走“动作/形状 + 描述后缀”。路径不同，词在句子里的用法也不同。",
+   "sums": [
     {
-      "kind": "text",
-      "title": "医学词的组装规则",
-      "body": "医学词汇大半是希腊来源的组合形式（combining form）：psych（心灵）、somat（身体）、iatr（治疗）、path（疾病、感受）、tom（切）、pod（脚）、dent（牙）、oss（骨）。这些成分不能独立成词，只能互相拼接或接后缀。\n\n拼接时通常插入连接元音 **-o-**：psych-o-somatic、tom-o-graphy、pod-o-…；但接元音开头的后缀时不插（psych + iatr + y → psychiatry），因为发音已经顺了。这条规则与拉丁复合词的 -i-（homicide、matrimony）功能相同：只标记边界，不表意义。\n\n组装的方向决定词义：**器官 + 学科后缀**得到学科名（pod + iatr + y → 足病学）；**器官 + 病理后缀**得到病名或状态（psych + osis → 精神病）。先判断后缀属于哪一类，词义范围就定了。",
-      "terms": [
-        {
-          "term": "combining form",
-          "zh": "组合形式",
-          "en": "combining form",
-          "note": "不能独立成词、只能参与构词的希腊或拉丁成分"
-        },
-        {
-          "term": "linking vowel",
-          "zh": "连接元音",
-          "en": "linking vowel",
-          "note": "复合时插入的 -o- 或 -i-，无词汇意义"
-        }
-      ]
+     "parts": [
+      "psych",
+      "iatr",
+      "y"
+     ],
+     "result": "psychiatry",
+     "glossZh": "精神病学",
+     "note": "iatr 以元音开头，不插 -o-"
     },
     {
-      "kind": "table",
-      "title": "六个医学词的拆解",
-      "body": "注意最后一列的“路径”：同样是器官词根，接 -iatry 就是学科，接 -osis 就是病症，接 -ic 就是形容词。后缀决定这个词在句子里能做什么。",
-      "head": [
-        "词",
-        "切分",
-        "字面义",
-        "派生路径"
-      ],
-      "rows": [
-        [
-          "psychiatry",
-          "psych + iatr + y",
-          "治疗心灵（的学问）",
-          "器官 + 学科后缀"
-        ],
-        [
-          "podiatry",
-          "pod + iatr + y",
-          "治疗脚（的学问）",
-          "器官 + 学科后缀"
-        ],
-        [
-          "psychosomatic",
-          "psych + o + somat + ic",
-          "心灵与身体共同引起的",
-          "两个器官词根 + 形容词后缀"
-        ],
-        [
-          "tomography",
-          "tom + o + graphy",
-          "切开式的记录术",
-          "动作词根 + 记录术后缀"
-        ],
-        [
-          "capsule",
-          "caps + ule",
-          "小盒子",
-          "容器词根 + 指小后缀"
-        ],
-        [
-          "placoid",
-          "plac + oid",
-          "平板状的",
-          "形状词根 + 相似后缀"
-        ]
-      ]
+     "parts": [
+      "pod",
+      "iatr",
+      "y"
+     ],
+     "result": "podiatry",
+     "glossZh": "足病学",
+     "note": "同上：元音相接不插连接元音"
     },
     {
-      "kind": "compare",
-      "title": "-iatry 与 -pathy：学科 vs 病态",
-      "body": "两个后缀都常与器官词根搭配，但落点完全不同。左列是“研究/治疗某器官的学问”，右列是“某处的不适或病”。读医学文本时先看后缀，能立刻判断这句话在讲学科还是在讲症状。",
-      "a": "-iatry（治疗、学科）",
-      "b": "-pathy（疾病、感受）",
-      "rows": [
-        [
-          "例词",
-          "psychiatry、podiatry",
-          "sympathy、pathology",
-          "词性",
-          "名词：学科名",
-          "名词：病名或状态"
-        ],
-        [
-          "句中功能",
-          "作主语或修饰语，指领域",
-          "作主语或宾语，指病人的状况"
-        ],
-        [
-          "词根义",
-          "iatr = 治疗",
-          "path = 感受、疾病"
-        ],
-        [
-          "易混点",
-          "psychiatry 是学科，psychiatrist 是从业者",
-          "sympathy 是“共同感受”，不是“共同生病”"
-        ]
-      ]
+     "parts": [
+      "tom",
+      "o",
+      "graphy"
+     ],
+     "result": "tomography",
+     "glossZh": "断层扫描术",
+     "note": "辅音相接，插 -o-"
     },
     {
-      "kind": "sum",
-      "title": "四条算式，两种路径",
-      "body": "算式里 -o- 该出现的位置已经标出。做完后横向比较：前两条走“器官 + 学科”，后两条走“动作/形状 + 描述后缀”。路径不同，词在句子里的用法也不同。",
-      "sums": [
-        {
-          "parts": [
-            "psych",
-            "iatr",
-            "y"
-          ],
-          "result": "psychiatry",
-          "glossZh": "精神病学",
-          "note": "iatr 以元音开头，不插 -o-"
-        },
-        {
-          "parts": [
-            "pod",
-            "iatr",
-            "y"
-          ],
-          "result": "podiatry",
-          "glossZh": "足病学",
-          "note": "同上：元音相接不插连接元音"
-        },
-        {
-          "parts": [
-            "tom",
-            "o",
-            "graphy"
-          ],
-          "result": "tomography",
-          "glossZh": "断层扫描术",
-          "note": "辅音相接，插 -o-"
-        },
-        {
-          "parts": [
-            "caps",
-            "ule"
-          ],
-          "result": "capsule",
-          "glossZh": "胶囊；荚膜",
-          "note": "-ule 指小：小盒子"
-        }
-      ]
-    },
-    {
-      "kind": "text",
-      "title": "psychosomatic 为什么不是“精神病”",
-      "body": "psychosomatic = psych（心灵）+ o + somat（身体）+ ic（形容词），字面义“心灵与身体共同相关的”。医学上它指“由心理因素引起或加重的躯体症状”——重点是**躯体有症状、原因在心理**，不是“心理有病”。\n\n把它误读成“精神病”的原因，是把 psych 当成了整个词的中心。实际上 -ic 说明它是形容词，修饰的通常是 symptom、disorder 这类词；真正的中心是 somat。判断复合词的中心时，看后缀落在哪个成分上：后缀跟谁结合，谁就是语义中心。",
-      "morphemes": [
-        "psych",
-        "somat"
-      ],
-      "morphemeIds": []
+     "parts": [
+      "caps",
+      "ule"
+     ],
+     "result": "capsule",
+     "glossZh": "胶囊；荚膜",
+     "note": "-ule 指小：小盒子"
     }
-  ],
-  "practice": [
-    {
-      "id": "w39d2-p1",
-      "kind": "mcq",
-      "prompt": "psychiatry 与 podiatry 共同的成分 iatr 表示：",
-      "choices": [
-        "治疗",
-        "研究",
-        "疾病",
-        "切割"
-      ],
-      "answer": 0,
-      "explain": "iatr 是“治疗”：psych + iatr + y 是“治疗心灵的学问”，pod + iatr + y 是“治疗脚的学问”。注意它不等于“研究”——研究是 -logy（psychology 心理学），治疗是 -iatry（psychiatry 精神病学）。这两个词在英语里并存且分工明确：psychology 研究心理机制，psychiatry 处理心理疾病。",
-      "concepts": [
-        "psych",
-        "iatr",
-        "pod"
-      ]
-    },
-    {
-      "id": "w39d2-p2",
-      "kind": "boundary",
-      "prompt": "切开 capsule：后一段是“小”的意思",
-      "word": "capsule",
-      "segments": [
-        "caps",
-        "ule"
-      ],
-      "explain": "caps + ule。caps 是“盒子、容器”（拉丁 capsa），-ule 是指小后缀，字面义“小盒子”。药用的胶囊、细菌的荚膜、关节的关节囊，都共享“包住东西的小容器”这个核心。切分只有两段：不要切成 cap|sule，那样第二段无法释义；也不要漏掉 s，caps 是完整词根。",
-      "concepts": [
-        "caps",
-        "ule"
-      ]
-    },
-    {
-      "id": "w39d2-p3",
-      "kind": "wordSum",
-      "prompt": "用 + 连接三段，写出“断层扫描术”这个词",
-      "parts": [
-        "tom",
-        "o",
-        "graphy"
-      ],
-      "answer": "tomography",
-      "explain": "tom（切）+ o（连接元音）+ graphy（记录术）→ tomography，字面义“切开式的记录术”。CT 的全称 computed tomography 就是“计算机断层扫描”：用 X 线把身体“切”成一层层再成像。这里的 -o- 必须保留：tom 以辅音结尾，graphy 以辅音开头，中间需要连接元音；对比 psychiatry 里 iatr 以元音开头，就不插 -o-。",
-      "concepts": [
-        "tom",
-        "o",
-        "graphy"
-      ]
-    },
-    {
-      "id": "w39d2-p4",
-      "kind": "wordSum",
-      "prompt": "用 + 连接两段，写出“平板状的”这个形容词（指鲨鱼盾鳞）",
-      "parts": [
-        "plac",
-        "oid"
-      ],
-      "answer": "placoid",
-      "explain": "plac（平板）+ -oid（似……的）→ placoid，字面义“像平板一样的”。鲨鱼皮肤上的盾鳞就是 placoid scales：每片像一块小板。注意这里的 plac 是希腊语“平板”，与 placate 的 plac（使高兴）同形不同源——这正是本单元反复强调的分流原则：按例词的同族关系判断，不按拼写。",
-      "concepts": [
-        "plac",
-        "oid"
-      ]
-    },
-    {
-      "id": "w39d2-p5",
-      "kind": "mcq",
-      "prompt": "sympathy 与 psychiatry 里，path 与 iatr 的分工是：",
-      "choices": [
-        "path 表“感受、疾病”，iatr 表“治疗”",
-        "path 表“治疗”，iatr 表“感受”",
-        "两者都表“心灵”，只是来源不同",
-        "path 是前缀，iatr 是后缀"
-      ],
-      "answer": 0,
-      "explain": "sympathy = sym（共同）+ path（感受）+ y →“共同感受”→ 同情；psychiatry = psych（心灵）+ iatr（治疗）+ y → 治疗心灵的学问。path 走“感受→疾病”这条线（pathology 病理学、pathogen 病原体），iatr 走“治疗”这条线。两个成分都不是前后缀，而是组合形式，位置由构词需要决定。",
-      "concepts": [
-        "path",
-        "iatr",
-        "psych"
-      ]
-    }
-  ],
-  "apply": [
-    {
-      "id": "w39d2-a1",
-      "kind": "infer",
-      "prompt": "（迁移）读句子，推测 psychosomatic 在临床描述中的含义",
-      "passage": "No organic cause could be found for her chest pain; the cardiologist therefore described it as psychosomatic, noting that the episodes clustered around exam periods and disappeared during the summer.",
-      "word": "psychosomatic",
-      "choices": [
-        "由心理因素引起、表现为躯体症状的",
-        "由心脏器质性病变引起的",
-        "假装出来的、不真实的",
-        "与精神分裂症有关的"
-      ],
-      "answer": 0,
-      "strategy": "① 切分：psych（心灵）+ o + somat（身体）+ ic（形容词）；② 句法：No organic cause 与 therefore 构成因果，前半句否定器质原因；③ 语境：发作集中在考试期、暑假消失——心理因素的时间分布；④ 校验：器质性病因已被排除，假装与 clustered 这种规律性不符。",
-      "explain": "psychosomatic 指“心理因素导致躯体症状”。词的结构已经把答案写好了：psych 与 somat 并列，-ic 说明它描述的是症状的性质。注意它不是“装病”：症状是真实的（chest pain），只是成因不在器官。这条区分在医学人文文本里经常考。",
-      "concepts": [
-        "psych",
-        "som",
-        "ic"
-      ]
-    }
-  ],
-  "sources": [
-    {
-      "id": "S1",
-      "title": "English Vocabulary Elements",
-      "detail": "第 13 章：希腊语组合形式与连接元音"
-    },
-    {
-      "id": "S5",
-      "title": "Merriam-Webster's Medical Dictionary",
-      "detail": "psychosomatic、tomography、placoid 的词条"
-    },
-    {
-      "id": "S2",
-      "title": "Essentials of Linguistics",
-      "detail": "复合词的语义中心与后缀位置"
-    }
-  ]
+   ]
+  },
+  {
+   "kind": "text",
+   "title": "psychosomatic 为什么不是“精神病”",
+   "body": "psychosomatic = psych（心灵）+ o + somat（身体）+ ic（形容词），字面义“心灵与身体共同相关的”。医学上它指“由心理因素引起或加重的躯体症状”——重点是**躯体有症状、原因在心理**，不是“心理有病”。\n\n把它误读成“精神病”的原因，是把 psych 当成了整个词的中心。实际上 -ic 说明它是形容词，修饰的通常是 symptom、disorder 这类词；真正的中心是 somat。判断复合词的中心时，看后缀落在哪个成分上：后缀跟谁结合，谁就是语义中心。",
+   "morphemes": [
+    "psych",
+    "somat"
+   ],
+   "morphemeIds": []
+  }
+ ],
+ "practice": [
+  {
+   "id": "w39d2-p1",
+   "kind": "mcq",
+   "prompt": "psychiatry 与 podiatry 共同的成分 iatr 表示：",
+   "choices": [
+    "治疗",
+    "研究",
+    "疾病",
+    "切割"
+   ],
+   "answer": 0,
+   "explain": "iatr 是“治疗”：psych + iatr + y 是“治疗心灵的学问”，pod + iatr + y 是“治疗脚的学问”。注意它不等于“研究”——研究是 -logy（psychology 心理学），治疗是 -iatry（psychiatry 精神病学）。这两个词在英语里并存且分工明确：psychology 研究心理机制，psychiatry 处理心理疾病。",
+   "concepts": [
+    "psych",
+    "iatr",
+    "pod"
+   ]
+  },
+  {
+   "id": "w39d2-p2",
+   "kind": "boundary",
+   "prompt": "切开 capsule：后一段是“小”的意思",
+   "word": "capsule",
+   "segments": [
+    "caps",
+    "ule"
+   ],
+   "explain": "caps + ule。caps 是“盒子、容器”（拉丁 capsa），-ule 是指小后缀，字面义“小盒子”。药用的胶囊、细菌的荚膜、关节的关节囊，都共享“包住东西的小容器”这个核心。切分只有两段：不要切成 cap|sule，那样第二段无法释义；也不要漏掉 s，caps 是完整词根。",
+   "concepts": [
+    "caps",
+    "ule"
+   ]
+  },
+  {
+   "id": "w39d2-p3",
+   "kind": "wordSum",
+   "prompt": "用 + 连接三段，写出“断层扫描术”这个词",
+   "parts": [
+    "tom",
+    "o",
+    "graphy"
+   ],
+   "answer": "tomography",
+   "explain": "tom（切）+ o（连接元音）+ graphy（记录术）→ tomography，字面义“切开式的记录术”。CT 的全称 computed tomography 就是“计算机断层扫描”：用 X 线把身体“切”成一层层再成像。这里的 -o- 必须保留：tom 以辅音结尾，graphy 以辅音开头，中间需要连接元音；对比 psychiatry 里 iatr 以元音开头，就不插 -o-。",
+   "concepts": [
+    "tom",
+    "o",
+    "graphy"
+   ]
+  },
+  {
+   "id": "w39d2-p4",
+   "kind": "wordSum",
+   "prompt": "用 + 连接两段，写出“平板状的”这个形容词（指鲨鱼盾鳞）",
+   "parts": [
+    "plac",
+    "oid"
+   ],
+   "answer": "placoid",
+   "explain": "plac（平板）+ -oid（似……的）→ placoid，字面义“像平板一样的”。鲨鱼皮肤上的盾鳞就是 placoid scales：每片像一块小板。注意这里的 plac 是希腊语“平板”，与 placate 的 plac（使高兴）同形不同源——这正是本单元反复强调的分流原则：按例词的同族关系判断，不按拼写。",
+   "concepts": [
+    "plac",
+    "oid"
+   ]
+  },
+  {
+   "id": "w39d2-p5",
+   "kind": "mcq",
+   "prompt": "sympathy 与 psychiatry 里，path 与 iatr 的分工是：",
+   "choices": [
+    "path 表“感受、疾病”，iatr 表“治疗”",
+    "path 表“治疗”，iatr 表“感受”",
+    "两者都表“心灵”，只是来源不同",
+    "path 是前缀，iatr 是后缀"
+   ],
+   "answer": 0,
+   "explain": "sympathy = sym（共同）+ path（感受）+ y →“共同感受”→ 同情；psychiatry = psych（心灵）+ iatr（治疗）+ y → 治疗心灵的学问。path 走“感受→疾病”这条线（pathology 病理学、pathogen 病原体），iatr 走“治疗”这条线。两个成分都不是前后缀，而是组合形式，位置由构词需要决定。",
+   "concepts": [
+    "path",
+    "iatr",
+    "psych"
+   ]
+  }
+ ],
+ "apply": [
+  {
+   "id": "w39d2-a1",
+   "kind": "infer",
+   "prompt": "（迁移）读句子，推测 psychosomatic 在临床描述中的含义",
+   "passage": "No organic cause could be found for her chest pain; the cardiologist therefore described it as psychosomatic, noting that the episodes clustered around exam periods and disappeared during the summer.",
+   "word": "psychosomatic",
+   "choices": [
+    "由心理因素引起、表现为躯体症状的",
+    "由心脏器质性病变引起的",
+    "假装出来的、不真实的",
+    "与精神分裂症有关的"
+   ],
+   "answer": 0,
+   "strategy": "① 切分：psych（心灵）+ o + somat（身体）+ ic（形容词）；② 句法：No organic cause 与 therefore 构成因果，前半句否定器质原因；③ 语境：发作集中在考试期、暑假消失——心理因素的时间分布；④ 校验：器质性病因已被排除，假装与 clustered 这种规律性不符。",
+   "explain": "psychosomatic 指“心理因素导致躯体症状”。词的结构已经把答案写好了：psych 与 somat 并列，-ic 说明它描述的是症状的性质。注意它不是“装病”：症状是真实的（chest pain），只是成因不在器官。这条区分在医学人文文本里经常考。",
+   "concepts": [
+    "psych",
+    "som",
+    "ic"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1",
+   "title": "English Vocabulary Elements",
+   "detail": "第 13 章：希腊语组合形式与连接元音"
+  },
+  {
+   "id": "S5",
+   "title": "Merriam-Webster's Medical Dictionary",
+   "detail": "psychosomatic、tomography、placoid 的词条"
+  },
+  {
+   "id": "S2",
+   "title": "Essentials of Linguistics",
+   "detail": "复合词的语义中心与后缀位置"
+  }
+ ],
+ "knowledgePoints": []
 }

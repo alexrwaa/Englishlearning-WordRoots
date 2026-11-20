@@ -1,304 +1,305 @@
 {
-  "id": "w39d3",
-  "week": 39,
-  "day": 3,
-  "title": "第二次判定：规则合法，语言不承认",
-  "tagline": "最难判的不是明显错拼，而是结构上说得通、词典里却没有的拼法",
-  "objectives": [
-    "能区分“违反构词规则”与“规则允许但未被词汇化”两类伪词",
-    "能用派生顺序解释为什么 -ize 后面不能再接 -ment",
-    "能为每个干扰项写出可检验的判定依据，并指出该依据属于哪一类"
-  ],
-  "prereqs": [
-    "w38d3",
-    "c-derivation",
-    "c-frequency"
-  ],
-  "concepts": [
-    "c-derivation",
-    "c-frequency",
-    "c-suffix",
-    "c-word-family"
-  ],
-  "minutes": {
-    "review": 5,
-    "learn": 7,
-    "practice": 9,
-    "apply": 5
+ "id": "w39d3",
+ "week": 39,
+ "day": 3,
+ "title": "第二次判定：规则合法，语言不承认",
+ "tagline": "最难判的不是明显错拼，而是结构上说得通、词典里却没有的拼法",
+ "objectives": [
+  "能区分“违反构词规则”与“规则允许但未被词汇化”两类伪词",
+  "能用派生顺序解释为什么 -ize 后面不能再接 -ment",
+  "能为每个干扰项写出可检验的判定依据，并指出该依据属于哪一类"
+ ],
+ "prereqs": [
+  "w38d3",
+  "c-derivation",
+  "c-frequency"
+ ],
+ "concepts": [
+  "c-derivation",
+  "c-frequency",
+  "c-suffix",
+  "c-word-family"
+ ],
+ "minutes": {
+  "review": 5,
+  "learn": 7,
+  "practice": 9,
+  "apply": 5
+ },
+ "level": "C1",
+ "cards": [
+  {
+   "kind": "text",
+   "title": "两类伪词，两套依据",
+   "body": "第一类伪词**违反规则**：宿主词性不对、后缀顺序颠倒、拼写连接缺失。判定它们不需要词典，规则本身就够：*docment 缺 -u-，*ossness 的宿主不是形容词。\n\n第二类伪词**规则允许但语言不用**。英语的派生规则是开放的，理论上可以造出无数合法组合，但只有被反复使用、被词典收录的那部分才成为词。这类拼法的问题不在语法，而在词汇化（lexicalization）。判定它们只能靠证据：词典、语料库、母语者的接受度。\n\n两类要分开说。把第二类说成“违反规则”是错的；把第一类说成“没听过”则放弃了解释力。判定的专业度，体现在你能说清自己用的是哪套依据。",
+   "terms": [
+    {
+     "term": "lexicalization",
+     "zh": "词汇化",
+     "en": "lexicalization",
+     "note": "一个合法组合被语言共同体接受并固定为词"
+    },
+    {
+     "term": "productivity",
+     "zh": "能产性",
+     "en": "productivity",
+     "note": "一个词缀还能造出多少新词的能力"
+    }
+   ]
   },
-  "level": "C1",
-  "cards": [
+  {
+   "kind": "table",
+   "title": "四类违规与判定依据",
+   "body": "前三行属于“违反规则”，可以现场判定；最后一行属于“规则允许但未词汇化”，必须查证据。做题时先归类，再写依据。",
+   "head": [
+    "类型",
+    "例子",
+    "判定依据"
+   ],
+   "rows": [
+    [
+     "宿主词性错误",
+     "ossness、dentness",
+     "-ness 只接形容词或分词，oss、dent 是名词性词根"
+    ],
+    [
+     "后缀搭配限制",
+     "synchronizement",
+     "-ize 动词的名词化固定走 -ation（synchronization），-ment 不与 -ize 组合，英语无此搭配"
+    ],
+    [
+     "词基不存在",
+     "disastment、disastly",
+     "disaster 是整词借入，英语没有 disast 这个词基可供接缀"
+    ],
+    [
+     "规则允许但未词汇化",
+     "concludement（对比 conclusion）",
+     "结构上可解释，但英语固定用 conclusion，词典无 concludement"
+    ]
+   ]
+  },
+  {
+   "kind": "compare",
+   "title": "能产不等于可用",
+   "body": "两列都“说得通”。差别在于左列已经在语言里固定下来，右列只是潜在可能。写作时用左列，考题里右列通常就是干扰项。",
+   "a": "已词汇化（用）",
+   "b": "潜在但不用（不用）",
+   "rows": [
+    [
+     "名词化",
+     "adapt → adaptation",
+     "adapt → adaptment"
+    ],
+    [
+     "学科名",
+     "psych + iatr + y → psychiatry",
+     "psych + iatr + y → psychiatrical（罕用）"
+    ],
+    [
+     "副词化",
+     "scientific → scientifically",
+     "scientific → sciencely"
+    ],
+    [
+     "判据",
+     "词典有条目、语料常见",
+     "只能靠规则推，缺少使用证据"
+    ]
+   ]
+  },
+  {
+   "kind": "sum",
+   "title": "四个真词的算式",
+   "body": "这四条算式都是已词汇化的路径。注意第三条：possible 走 -ible，possibility 走 -ibil- + -ity，同一个词根在两处取不同连接形式——这是拉丁形容词名词化的固定套路，不能按英语规则重算。",
+   "sums": [
     {
-      "kind": "text",
-      "title": "两类伪词，两套依据",
-      "body": "第一类伪词**违反规则**：宿主词性不对、后缀顺序颠倒、拼写连接缺失。判定它们不需要词典，规则本身就够：*docment 缺 -u-，*ossness 的宿主不是形容词。\n\n第二类伪词**规则允许但语言不用**。英语的派生规则是开放的，理论上可以造出无数合法组合，但只有被反复使用、被词典收录的那部分才成为词。这类拼法的问题不在语法，而在词汇化（lexicalization）。判定它们只能靠证据：词典、语料库、母语者的接受度。\n\n两类要分开说。把第二类说成“违反规则”是错的；把第一类说成“没听过”则放弃了解释力。判定的专业度，体现在你能说清自己用的是哪套依据。",
-      "terms": [
-        {
-          "term": "lexicalization",
-          "zh": "词汇化",
-          "en": "lexicalization",
-          "note": "一个合法组合被语言共同体接受并固定为词"
-        },
-        {
-          "term": "productivity",
-          "zh": "能产性",
-          "en": "productivity",
-          "note": "一个词缀还能造出多少新词的能力"
-        }
-      ]
+     "parts": [
+      "ver",
+      "dict"
+     ],
+     "result": "verdict",
+     "glossZh": "裁决",
+     "note": "ver 真 + dict 说：说出真相"
     },
     {
-      "kind": "table",
-      "title": "四类违规与判定依据",
-      "body": "前三行属于“违反规则”，可以现场判定；最后一行属于“规则允许但未词汇化”，必须查证据。做题时先归类，再写依据。",
-      "head": [
-        "类型",
-        "例子",
-        "判定依据"
-      ],
-      "rows": [
-        [
-          "宿主词性错误",
-          "ossness、dentness",
-          "-ness 只接形容词或分词，oss、dent 是名词性词根"
-        ],
-        [
-          "后缀搭配限制",
-          "synchronizement",
-          "-ize 动词的名词化固定走 -ation（synchronization），-ment 不与 -ize 组合，英语无此搭配"
-        ],
-        [
-          "词基不存在",
-          "disastment、disastly",
-          "disaster 是整词借入，英语没有 disast 这个词基可供接缀"
-        ],
-        [
-          "规则允许但未词汇化",
-          "concludement（对比 conclusion）",
-          "结构上可解释，但英语固定用 conclusion，词典无 concludement"
-        ]
-      ]
+     "parts": [
+      "ver",
+      "ify"
+     ],
+     "result": "verify",
+     "glossZh": "核实",
+     "note": "-ify 使成为：使为真 → 验证"
     },
     {
-      "kind": "compare",
-      "title": "能产不等于可用",
-      "body": "两列都“说得通”。差别在于左列已经在语言里固定下来，右列只是潜在可能。写作时用左列，考题里右列通常就是干扰项。",
-      "a": "已词汇化（用）",
-      "b": "潜在但不用（不用）",
-      "rows": [
-        [
-          "名词化",
-          "adapt → adaptation",
-          "adapt → adaptment"
-        ],
-        [
-          "学科名",
-          "psych + iatr + y → psychiatry",
-          "psych + iatr + y → psychiatrical（罕用）"
-        ],
-        [
-          "副词化",
-          "scientific → scientifically",
-          "scientific → sciencely"
-        ],
-        [
-          "判据",
-          "词典有条目、语料常见",
-          "只能靠规则推，缺少使用证据"
-        ]
-      ]
+     "parts": [
+      "poss",
+      "ible"
+     ],
+     "result": "possible",
+     "glossZh": "可能的",
+     "note": "-ible 能够被……的"
     },
     {
-      "kind": "sum",
-      "title": "四个真词的算式",
-      "body": "这四条算式都是已词汇化的路径。注意第三条：possible 走 -ible，possibility 走 -ibil- + -ity，同一个词根在两处取不同连接形式——这是拉丁形容词名词化的固定套路，不能按英语规则重算。",
-      "sums": [
-        {
-          "parts": [
-            "ver",
-            "dict"
-          ],
-          "result": "verdict",
-          "glossZh": "裁决",
-          "note": "ver 真 + dict 说：说出真相"
-        },
-        {
-          "parts": [
-            "ver",
-            "ify"
-          ],
-          "result": "verify",
-          "glossZh": "核实",
-          "note": "-ify 使成为：使为真 → 验证"
-        },
-        {
-          "parts": [
-            "poss",
-            "ible"
-          ],
-          "result": "possible",
-          "glossZh": "可能的",
-          "note": "-ible 能够被……的"
-        },
-        {
-          "parts": [
-            "syn",
-            "chron",
-            "ize"
-          ],
-          "result": "synchronize",
-          "glossZh": "使同步",
-          "note": "syn 共同 + chron 时间 + ize 动词化"
-        }
-      ]
-    },
-    {
-      "kind": "text",
-      "title": "派生的先后顺序为什么不能乱",
-      "body": "派生是有次序的：每一步都改变词性或意义，后一步只能接在前一步的产物上。synchronize 的路径是 chron（时间）→ synchron（同时的）→ synchronize（使同步）。到这里它已经是动词，如果再接 -ment，得到的就是“动词的名词化”，理论上可行；但英语在这个位置上固定用 synchronization，于是 synchronizement 成为未被词汇化的空位。\n\n对比 govern → government：这里没有中间的 -ize，所以 -ment 直接接动词词干，成立。规则不是“-ment 不能接 -ize”，而是“同一路径上已有固定形式时，新形式不会被采用”。这条区别很细，但正是判定的关键。",
-      "morphemes": [
-        "syn",
-        "chron",
-        "ize"
-      ],
-      "morphemeIds": [
-        "px-syn",
-        "cx-chron",
-        "sx-ize"
-      ]
+     "parts": [
+      "syn",
+      "chron",
+      "ize"
+     ],
+     "result": "synchronize",
+     "glossZh": "使同步",
+     "note": "syn 共同 + chron 时间 + ize 动词化"
     }
-  ],
-  "practice": [
-    {
-      "id": "w39d3-p1",
-      "kind": "judge",
-      "prompt": "下面四个拼法中，哪一个是真实存在的英语词？",
-      "choices": [
-        "disaster",
-        "disastment",
-        "disastness",
-        "disastly"
-      ],
-      "answer": 0,
-      "whyNot": [
-        "-ment 要求动词词干作宿主；disaster 是整词借入（dis- + 星 astro-，原指“星位不正”），英语没有 disast 这个词基可供接缀。",
-        "-ness 要求形容词或分词作宿主；disaster 是名词，不能作宿主，表“灾难性”英语用 disastrousness。",
-        "-ly 要求形容词作宿主；disaster 是名词，英语的副词形式是 disastrously。"
-      ],
-      "explain": "disaster 是真实词：dis-（偏离）+ aster（星）→“星位不正”，古人把灾祸归因于星象，于是有了“灾难”。三个干扰项都假设存在一个词基 disast，而这个词基在英语里从未成立。判定要点：先确认词基是否存在，再谈接缀规则。",
-      "concepts": [
-        "dis",
-        "aster"
-      ]
-    },
-    {
-      "id": "w39d3-p2",
-      "kind": "wordSum",
-      "prompt": "用 + 连接两段，写出“裁决”这个词",
-      "parts": [
-        "ver",
-        "dict"
-      ],
-      "answer": "verdict",
-      "explain": "ver（真）+ dict（说）→ verdict，字面义“说出真相”。法庭上陪审团给出的 verdict 就是对事实的认定。同根的 verify（ver + ify，使为真 → 核实）走的是动词路径；verdict 走的是“说”的路径。两个词共享 ver，但靠第二个成分分工。",
-      "concepts": [
-        "ver",
-        "dict"
-      ]
-    },
-    {
-      "id": "w39d3-p3",
-      "kind": "judge",
-      "prompt": "下面四个拼法中，哪一个是真实存在的英语词？",
-      "choices": [
-        "chronment",
-        "chronly",
-        "chronic",
-        "chronness"
-      ],
-      "answer": 2,
-      "whyNot": [
-        "-ment 要接动词词干；chron 是黏着词根（时间），英语没有 chron 这个动词，也没有 *chronment 这个名词。",
-        "-ly 要接形容词；chron 不是英语形容词（形容词是 chronic），副词形式是 chronically。",
-        "-ness 要接形容词或分词；chron 不能作宿主，表“长期性”英语用 chronicity 或 chronology。"
-      ],
-      "explain": "chronic 是真实词：chron（时间）+ -ic（形容词）→“与时间有关的、拖了很久的”→ 慢性的。三个干扰项犯的是同一类错：把黏着词根 chron 当成自由词基去接本土后缀。注意本题的正确项并没有在本课卡片里出现过——判定必须靠“宿主词性 + 是否词汇化”，不能靠“刚才见过这串字母”。",
-      "concepts": [
-        "chron",
-        "ic"
-      ]
-    },
-    {
-      "id": "w39d3-p4",
-      "kind": "mcq",
-      "prompt": "possible 与 possibility 共享词根 poss，两词的后缀关系是：",
-      "choices": [
-        "possible 用 -ible，possibility 用 -ibil- + -ity，是拉丁形容词名词化的固定搭配",
-        "possibility 是 possible 直接加 -ity，拼写未变",
-        "possible 是名词，possibility 是它的形容词",
-        "两者后缀相同，只是拼写习惯不同"
-      ],
-      "answer": 0,
-      "explain": "possible = poss + -ible；名词化时 -ible 变为 -ibil- 再接 -ity，得到 possibility。这是拉丁形容词的固定套路，同类的还有 visible → visibility、flexible → flexibility。它说明派生不总是“原样加后缀”：连接形式会随后缀改变。做题时若看到 possibilty 这类拼写，错在丢了中间的 i。",
-      "concepts": [
-        "poss",
-        "ible"
-      ]
-    },
-    {
-      "id": "w39d3-p5",
-      "kind": "cloze",
-      "prompt": "填入一个英语名词，补全 antebellum 的字面义",
-      "sentence": "Antebellum means 'before the ___': in American usage it usually refers to the period before the Civil War, which is why the word appears mostly in historical writing.",
-      "answer": "war",
-      "accept": [
-        "war",
-        "war 战争"
-      ],
-      "explain": "antebellum = ante（之前）+ bell（战争）+ -um（拉丁词尾）→“战前的”。这个词在美国语境里几乎专指南北战争之前，因此带有固定的历史所指。注意 -um 不是英语的屈折词尾，而是拉丁中性名词词尾，借入时被整体保留。",
-      "concepts": [
-        "ante",
-        "bell"
-      ]
-    }
-  ],
-  "apply": [
-    {
-      "id": "w39d3-a1",
-      "kind": "infer",
-      "prompt": "（迁移）读句子，推测 adapt 在这个技术语境中的含义",
-      "passage": "The controller does not assume a fixed model of the plant; instead it adapts its gains online, using the error signal to adjust them whenever the load changes.",
-      "word": "adapt",
-      "choices": [
-        "调整以适应",
-        "采用、采纳",
-        "拆解、分解",
-        "复制、仿制"
-      ],
-      "answer": 0,
-      "strategy": "① 切分：ad（朝向）+ apt（适合）→“使朝向适合”；② 句法：adapts its gains 是动宾结构，宾语是增益参数；③ 语境：用误差信号在线调整、负载变化时更新——都是“随环境调整”；④ 校验：adopt（采用）拼写相近但词根不同，且与 online adjustment 不合。",
-      "explain": "adapt 是“调整以适应”。ad-（朝向）+ apt（适合）的字面义就是“使适合”。注意它与 adopt 的差别：adopt 来自 optare（选择），是“采用”；adapt 是“改造自己以适应”。两个词在学术写作里高频且易混，靠词根分辨最可靠。",
-      "concepts": [
-        "apt",
-        "ad"
-      ]
-    }
-  ],
-  "sources": [
-    {
-      "id": "S2",
-      "title": "Essentials of Linguistics",
-      "detail": "形态学：能产性与词汇化"
-    },
-    {
-      "id": "S1",
-      "title": "English Vocabulary Elements",
-      "detail": "第 4 章：派生顺序与连接形式"
-    },
-    {
-      "id": "S5",
-      "title": "Oxford English Dictionary",
-      "detail": "disaster、antebellum 的词源与首见年代"
-    }
-  ]
+   ]
+  },
+  {
+   "kind": "text",
+   "title": "派生的先后顺序为什么不能乱",
+   "body": "派生是有次序的：每一步都改变词性或意义，后一步只能接在前一步的产物上。synchronize 的路径是 chron（时间）→ synchron（同时的）→ synchronize（使同步）。到这里它已经是动词，如果再接 -ment，得到的就是“动词的名词化”，理论上可行；但英语在这个位置上固定用 synchronization，于是 synchronizement 成为未被词汇化的空位。\n\n对比 govern → government：这里没有中间的 -ize，所以 -ment 直接接动词词干，成立。规则不是“-ment 不能接 -ize”，而是“同一路径上已有固定形式时，新形式不会被采用”。这条区别很细，但正是判定的关键。",
+   "morphemes": [
+    "syn",
+    "chron",
+    "ize"
+   ],
+   "morphemeIds": [
+    "px-syn",
+    "cx-chron",
+    "sx-ize"
+   ]
+  }
+ ],
+ "practice": [
+  {
+   "id": "w39d3-p1",
+   "kind": "judge",
+   "prompt": "下面四个拼法中，哪一个是真实存在的英语词？",
+   "choices": [
+    "disaster",
+    "disastment",
+    "disastness",
+    "disastly"
+   ],
+   "answer": 0,
+   "whyNot": [
+    "-ment 要求动词词干作宿主；disaster 是整词借入（dis- + 星 astro-，原指“星位不正”），英语没有 disast 这个词基可供接缀。",
+    "-ness 要求形容词或分词作宿主；disaster 是名词，不能作宿主，表“灾难性”英语用 disastrousness。",
+    "-ly 要求形容词作宿主；disaster 是名词，英语的副词形式是 disastrously。"
+   ],
+   "explain": "disaster 是真实词：dis-（偏离）+ aster（星）→“星位不正”，古人把灾祸归因于星象，于是有了“灾难”。三个干扰项都假设存在一个词基 disast，而这个词基在英语里从未成立。判定要点：先确认词基是否存在，再谈接缀规则。",
+   "concepts": [
+    "dis",
+    "aster"
+   ]
+  },
+  {
+   "id": "w39d3-p2",
+   "kind": "wordSum",
+   "prompt": "用 + 连接两段，写出“裁决”这个词",
+   "parts": [
+    "ver",
+    "dict"
+   ],
+   "answer": "verdict",
+   "explain": "ver（真）+ dict（说）→ verdict，字面义“说出真相”。法庭上陪审团给出的 verdict 就是对事实的认定。同根的 verify（ver + ify，使为真 → 核实）走的是动词路径；verdict 走的是“说”的路径。两个词共享 ver，但靠第二个成分分工。",
+   "concepts": [
+    "ver",
+    "dict"
+   ]
+  },
+  {
+   "id": "w39d3-p3",
+   "kind": "judge",
+   "prompt": "下面四个拼法中，哪一个是真实存在的英语词？",
+   "choices": [
+    "chronment",
+    "chronly",
+    "chronic",
+    "chronness"
+   ],
+   "answer": 2,
+   "whyNot": [
+    "-ment 要接动词词干；chron 是黏着词根（时间），英语没有 chron 这个动词，也没有 *chronment 这个名词。",
+    "-ly 要接形容词；chron 不是英语形容词（形容词是 chronic），副词形式是 chronically。",
+    "-ness 要接形容词或分词；chron 不能作宿主，表“长期性”英语用 chronicity 或 chronology。"
+   ],
+   "explain": "chronic 是真实词：chron（时间）+ -ic（形容词）→“与时间有关的、拖了很久的”→ 慢性的。三个干扰项犯的是同一类错：把黏着词根 chron 当成自由词基去接本土后缀。注意本题的正确项并没有在本课卡片里出现过——判定必须靠“宿主词性 + 是否词汇化”，不能靠“刚才见过这串字母”。",
+   "concepts": [
+    "chron",
+    "ic"
+   ]
+  },
+  {
+   "id": "w39d3-p4",
+   "kind": "mcq",
+   "prompt": "possible 与 possibility 共享词根 poss，两词的后缀关系是：",
+   "choices": [
+    "possible 用 -ible，possibility 用 -ibil- + -ity，是拉丁形容词名词化的固定搭配",
+    "possibility 是 possible 直接加 -ity，拼写未变",
+    "possible 是名词，possibility 是它的形容词",
+    "两者后缀相同，只是拼写习惯不同"
+   ],
+   "answer": 0,
+   "explain": "possible = poss + -ible；名词化时 -ible 变为 -ibil- 再接 -ity，得到 possibility。这是拉丁形容词的固定套路，同类的还有 visible → visibility、flexible → flexibility。它说明派生不总是“原样加后缀”：连接形式会随后缀改变。做题时若看到 possibilty 这类拼写，错在丢了中间的 i。",
+   "concepts": [
+    "poss",
+    "ible"
+   ]
+  },
+  {
+   "id": "w39d3-p5",
+   "kind": "cloze",
+   "prompt": "填入一个英语名词，补全 antebellum 的字面义",
+   "sentence": "Antebellum means 'before the ___': in American usage it usually refers to the period before the Civil War, which is why the word appears mostly in historical writing.",
+   "answer": "war",
+   "accept": [
+    "war",
+    "war 战争"
+   ],
+   "explain": "antebellum = ante（之前）+ bell（战争）+ -um（拉丁词尾）→“战前的”。这个词在美国语境里几乎专指南北战争之前，因此带有固定的历史所指。注意 -um 不是英语的屈折词尾，而是拉丁中性名词词尾，借入时被整体保留。",
+   "concepts": [
+    "ante",
+    "bell"
+   ]
+  }
+ ],
+ "apply": [
+  {
+   "id": "w39d3-a1",
+   "kind": "infer",
+   "prompt": "（迁移）读句子，推测 adapt 在这个技术语境中的含义",
+   "passage": "The controller does not assume a fixed model of the plant; instead it adapts its gains online, using the error signal to adjust them whenever the load changes.",
+   "word": "adapt",
+   "choices": [
+    "调整以适应",
+    "采用、采纳",
+    "拆解、分解",
+    "复制、仿制"
+   ],
+   "answer": 0,
+   "strategy": "① 切分：ad（朝向）+ apt（适合）→“使朝向适合”；② 句法：adapts its gains 是动宾结构，宾语是增益参数；③ 语境：用误差信号在线调整、负载变化时更新——都是“随环境调整”；④ 校验：adopt（采用）拼写相近但词根不同，且与 online adjustment 不合。",
+   "explain": "adapt 是“调整以适应”。ad-（朝向）+ apt（适合）的字面义就是“使适合”。注意它与 adopt 的差别：adopt 来自 optare（选择），是“采用”；adapt 是“改造自己以适应”。两个词在学术写作里高频且易混，靠词根分辨最可靠。",
+   "concepts": [
+    "apt",
+    "ad"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S2",
+   "title": "Essentials of Linguistics",
+   "detail": "形态学：能产性与词汇化"
+  },
+  {
+   "id": "S1",
+   "title": "English Vocabulary Elements",
+   "detail": "第 4 章：派生顺序与连接形式"
+  },
+  {
+   "id": "S5",
+   "title": "Oxford English Dictionary",
+   "detail": "disaster、antebellum 的词源与首见年代"
+  }
+ ],
+ "knowledgePoints": []
 }
