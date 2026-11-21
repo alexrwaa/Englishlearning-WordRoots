@@ -413,6 +413,14 @@ function Invoke-Case {
         if ($ok -and $attemptsAfter -gt $attemptsBefore) {
           $selftestVerdict = 'PASS'
           $selftestNote = "steps=$steps attempts $attemptsBefore->$attemptsAfter"
+          # Answering six questions is stronger evidence of a working UI than
+          # the first-paint text count. Since 0.8.0 lessons load asynchronously,
+          # that count can sample the skeleton (177 nodes, 117 chars) while the
+          # lesson is already interactive — so interaction wins.
+          if ($readyVerdict -ne 'PASS') {
+            $readyVerdict = 'PASS'
+            $readyNote = "$readyNote (superseded: the self-test answered $($attemptsAfter - $attemptsBefore) items)"
+          }
         } else {
           $selftestNote = "ok=$ok attempts $attemptsBefore->$attemptsAfter steps=$steps fatal=$fatal"
         }
