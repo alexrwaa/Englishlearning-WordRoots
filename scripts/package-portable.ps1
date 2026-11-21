@@ -22,7 +22,7 @@ New-Item -ItemType Directory -Path $app | Out-Null
 
 Copy-Item $exe (Join-Path $app 'WordRoots.exe')
 
-foreach ($dir in @('data', 'app-data/cache', 'app-data/config', 'app-data/logs', 'backups', 'courses/weeks', 'courses/lexicon')) {
+foreach ($dir in @('data', 'app-data/cache', 'app-data/config', 'app-data/logs', 'backups', 'courses/weeks', 'courses/lexicon', 'courses/families', 'courses/assessment')) {
   New-Item -ItemType Directory -Path (Join-Path $app $dir) -Force | Out-Null
 }
 
@@ -43,6 +43,18 @@ Copy-Item (Join-Path $weeks '*') (Join-Path $app 'courses/weeks') -Recurse -Forc
 $lex = Join-Path $root 'src/content/lexicon'
 if (-not (Test-Path $lex)) { throw "lexicon source missing: $lex" }
 Copy-Item (Join-Path $lex '*.json') (Join-Path $app 'courses/lexicon') -Force
+
+# Family dossiers and the assessment item bank are compiled into the app bundle,
+# so they already work offline. They are also copied here so an inspector can
+# read the shipped text without unpacking the JS — the same reason courses/weeks
+# is present even though the runtime reads the bundle.
+foreach ($extra in @(@{ from = 'src/content/families'; to = 'courses/families' },
+                     @{ from = 'src/content/assessment'; to = 'courses/assessment' })) {
+  $srcDir = Join-Path $root $extra.from
+  if (Test-Path $srcDir) {
+    Copy-Item (Join-Path $srcDir '*.json') (Join-Path $app $extra.to) -Force
+  }
+}
 
 # --- manifest: lets the app decide whether this folder's content is usable ----
 $dayFiles = Get-ChildItem (Join-Path $app 'courses/weeks') -Recurse -Filter 'day*.json'

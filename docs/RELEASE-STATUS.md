@@ -34,7 +34,7 @@
 | 打包断言 5–7 课/周 | ✅ | ✅ | ✅ 0.4.1 | ⬜ | CI run `44564855827` success |
 | manifest 无 BOM / ZIP 路径归一化 | ✅ | ✅ 发布包实测 | ✅ 0.4.1 | ⬜ | 解包后 manifest 首字节为 `{` |
 | CI 增加 `validate:course-index` | ✅ | ✅ | ✅ 0.4.1 | ⬜ | `.github/workflows/ci.yml` |
-| **Windows 便携 ZIP** | ✅ | ✅ 11 场景冒烟（阻断，含 C9/C11 与 boundary 实答） | ⏳ **v0.8.0 构建中** | ⬜ | 状态模型、词源纠错、词族档案、测评模块新增门禁 |
+| **Windows 便携 ZIP** | ✅ | ✅ 11 场景冒烟（阻断，含 C9/C11 与 boundary 实答） | ✅ **v0.8.0 已发布** | ⬜ | [Release v0.8.0](https://github.com/alexrwaa/Englishlearning-WordRoots/releases/tag/v0.8.0)，ZIP 4.4 MB；解包复核 `39 周/243 课`、1473 词条全带 analysis |
 | 8 场景冒烟（代理 / 路径 / 换盘迁移） | ✅ | ✅ CI 通过 | ✅ 0.4.1 | ⬜ | 构建通过即 8 场景全过（门禁是阻断式）；报告在 run artifact 内，需登录读取 |
 | C9/C11 单元在安装包内可答题 | ✅ 0.5.0 起 | ✅ CI 场景 9/10 通过 | ✅ 0.6.0 | ⬜ | 场景 9 驱动 `w13d1`、场景 10 驱动 `w15d1`，断言 steps>0 且 attempts 增长（实测 `0→6`） |
 | 学习记录持久化 / 换路径迁移 | ✅ | ✅ 场景 6→7 | ✅ 0.4.1 | ⬜ | 迁移场景断言 db 大小不变且再次渲染 |

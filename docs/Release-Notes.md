@@ -108,6 +108,16 @@ L7b 是 0，这是本轮最重要的负面结论：**208 条审校全部只引�
 - `word-status.test.ts`（8 条不变量）、`etymology-regression.test.ts`、`assessment.test.ts`
 - 合计 **268 条单测**，12 个测试文件
 
+## 七之二、发布包核对
+
+解包 v0.8.0 的 ZIP 复核：`manifest 0.8.0 / 39 周 / 243 课`、commit `28b90e8`、
+`1473` 个词条全部带 `analysis`（其中 `1286` 个 segmentation=verified），
+`node scripts/build-course-index.mjs --root` 报 `package matches index`。
+
+一处包装细节：词族档案与测评题库**已编译进 app bundle**（`fam-spect-*.js`、`Assessment-*.js`），
+离线可用，但 0.8.0 的 ZIP 里没有 `courses/families` 可检查副本。
+下一次构建起打包脚本会把 `families/` 与 `assessment/` 一并复制进 `courses/`，便于不开 JS 也能读内容。
+
 ## 八、仍未完成（明确写出）
 
 1. **L7b = 0**：词典交叉核验一条都没做。需要在能访问词典的环境里补，不能靠"看起来对"。
