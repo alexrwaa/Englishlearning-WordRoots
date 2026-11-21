@@ -322,23 +322,9 @@ pub struct BookmarkRow {
     pub created_at: i64,
 }
 
-/// One answered exercise, for the personal learning report (0.11.0).
-///
-/// The aggregate stats cannot answer "which concepts collect mistakes" or
-/// "which exercise keeps failing", so the raw rows are exposed read-only.
-#[derive(Debug, Serialize, Deserialize)]
-#[serde(rename_all = "camelCase")]
-pub struct AttemptRow {
-    pub lesson_id: String,
-    pub exercise_id: String,
-    pub kind: String,
-    pub correct: bool,
-    pub ts: i64,
-    pub duration_ms: i64,
-    pub answer: Option<String>,
-}
-
 /// Most recent attempts first; the report only needs a window, not the archive.
+/// (`AttemptRow` already existed for the export path; this reuses it so the
+/// report and the backup cannot drift apart.)
 pub fn attempts(conn: &Connection, limit: i64) -> Result<Vec<AttemptRow>, String> {
     let mut stmt = conn
         .prepare(
