@@ -1483,7 +1483,6 @@
     "rx-lect"
   ],
   "leg": [
-    "cx-leg",
     "cx-lex-leg",
     "cx-lig",
     "rx-lect"
@@ -1498,8 +1497,8 @@
     "rx-lev"
   ],
   "lex": [
-    "cx-leg",
-    "cx-lex-leg"
+    "cx-lex-leg",
+    "rx-lect"
   ],
   "libr": [
     "cx-libr",
@@ -1515,7 +1514,6 @@
     "rx-lev"
   ],
   "lig": [
-    "cx-leg",
     "cx-lig"
   ],
   "lign": [
@@ -1551,7 +1549,6 @@
     "cx-locu-loqu"
   ],
   "log": [
-    "cx-leg",
     "cx-lex-leg",
     "cx-logy"
   ],

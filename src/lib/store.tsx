@@ -310,12 +310,13 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       // database but are not part of that snapshot (see `db.rs::Snapshot`), so
       // the counts below report what the file actually contains.
       const path = await db.exportData();
-      const [states, cards, notes, bookmarks, totals] = await Promise.all([
+      const [states, cards, notes, bookmarks, totals, runs] = await Promise.all([
         db.lessonStates(),
         db.cards(),
         db.notes(),
         db.bookmarks(),
         db.totals(),
+        db.assessmentList().catch(() => ({ runs: [], skipped: 0 })),
       ]);
       toast('学习数据已导出', 'success');
       return {
@@ -326,6 +327,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
           lessonStates: states.length,
           cards: cards.length,
           reviews: totals.reviews,
+          assessments: runs?.runs?.length ?? 0,
           attempts: totals.attempts,
           notes: notes.length,
           bookmarks: bookmarks.length,

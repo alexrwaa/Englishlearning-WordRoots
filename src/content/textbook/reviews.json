@@ -8,66 +8,254 @@
   "sourcePolicy": "每条必须给出可追溯来源（教材页/章或合作词典）；没有来源的条目不进 reviews.json，也不计入 L7。",
   "entries": [
     {
-      "id": "cx-plac",
-      "note": "拉丁 placere「使高兴」；placate/placid 属此。与希腊 πλάξ「平板」无关。",
+      "id": "cx-aesth-esth",
+      "note": "希腊 aisthēsis「知觉」；aesthetic / anesthesia 属此；esth 为去 a- 形。",
       "kinds": [
         "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.266 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-ag-ig",
+      "note": "拉丁 agere「做、驱」；agent / agenda / ambiguous 属此；ig 为变体（exigent），act 为同源双式。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.266 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-alt",
+      "note": "拉丁 altus 兼指「高」与「深」；altitude / altimeter / exalt 属此。教材只写 high，漏「深」义（alt- 在 altitude 中两义并存）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.267 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-am-im",
+      "note": "拉丁 amare「爱」；amateur / amorous / amity 属此；im- 变体见 inimical（in- + imicus「友」）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.267 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-ambul",
+      "note": "拉丁 ambulare「走」；ambulance / amble / somnambulist 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.267 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-andr",
+      "note": "希腊 anēr / andros「男」；android / androgen / polyandry 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.267 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-anim",
+      "note": "拉丁 anima「气息、灵魂」；animal / animate / unanimous 属此（unanimous = unus + animus）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.267 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-ann-enn",
+      "note": "拉丁 annus「年」；annual / anniversary / biennial 属此；enn 为元音弱化形。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.267 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-anthrop",
+      "note": "希腊 anthrōpos「人」；anthropology / philanthropy / misanthrope 属此，anthropos 本身为复合词（andr-「男」+ ōps「面」），不影响本条词根义。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.267 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-apo",
+      "note": "希腊 apo「离开」；apology / apostle / apocalypse 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.267 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-arch",
+      "note": "希腊 arkhē「始、统治」；monarchy / architect / archive 属此；arch- 两义（首/治）同源。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.267 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-aud",
+      "note": "拉丁 audire「听」；audio/audience/inaudible 属此。",
+      "kinds": [
+        "gloss",
         "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.278 (ch.11)"
+          "detail": "appendix 1, p.267 (ch.9)"
         }
       ],
       "reviewer": "lead-review",
       "at": "2026-11-19"
     },
     {
-      "id": "cx-plac-gk",
-      "note": "希腊 πλάξ「平板」；placoid/placenta/placoderm 属此。与拉丁 placere 同形异源。",
+      "id": "cx-av",
+      "note": "拉丁 avis「鸟」；aviation / aviary / auspicious 属此（auspicium = avis + specere「观鸟占卜」）。",
       "kinds": [
         "identity",
-        "etymology"
+        "gloss",
+        "etymology",
+        "derivation"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.278 (ch.11)"
+          "detail": "appendix 1, p.267 (ch.5)"
         }
       ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
     },
     {
-      "id": "px-in",
-      "note": "否定前缀（PIE *ne）；invisible/incomplete 属此。",
+      "id": "cx-bell",
+      "note": "拉丁 bellum「战争」；belligerent / rebellion 属此。与 bellus「美」（belle）同形异源。",
       "kinds": [
-        "identity"
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.273 (ch.3)"
+          "detail": "appendix 1, p.267 (ch.6)"
         }
       ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "px-im",
-      "note": "方位 in- 的同化形（in+p/b/m→im-）；import/impose 属此。",
-      "kinds": [
-        "identity"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.273 (ch.3)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
     },
     {
       "id": "cx-bi",
@@ -118,516 +306,8 @@
       "at": "2026-11-19"
     },
     {
-      "id": "cx-ver",
-      "note": "拉丁 vērus「真」；verify/veracity/verdict 属此。",
-      "kinds": [
-        "identity",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.282 (ch.2)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-ver-lat-2",
-      "note": "拉丁 vereri「敬畏」；revere/reverence 属此。与 vērus 同形异源。",
-      "kinds": [
-        "identity",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.282 (ch.2)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-crypt",
-      "note": "希腊 kryptos「隐藏」；cryptic/cryptography 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.296 (ch.9)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-du",
-      "note": "拉丁 duo「二」；dual/duet/duplicate 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.299 (ch.6)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-nat",
-      "note": "拉丁 nasci 的过去分词词干 nat-「出生」；native/nation/innate 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.296 (ch.2)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-onomat",
-      "note": "希腊 onoma「名字」；onomatopoeia/onomastic 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.293 (ch.10)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-pug",
-      "note": "拉丁 pugnus「拳」；pugilist 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.288 (ch.9)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-pung",
-      "note": "拉丁 pungere「刺」；pungent/puncture/expunge 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.288 (ch.9)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-tetra",
-      "note": "希腊 tetra-「四」；tetrahedron/tetrapod 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.289 (ch.6)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-stru",
-      "note": "拉丁 struere「建造」；structure/instruct/obstruct 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form stru)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-norm",
-      "note": "拉丁 norma「规矩」；normal/enormous（e- 出格）属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form norm)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-legal",
-      "note": "拉丁 lex/legis「法」；legal/legislation 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form legal)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-spec",
-      "note": "拉丁 specere「看」；inspect/respect/perspective 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.281 (ch.4)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-form",
-      "note": "拉丁 forma「形状」；reform/conform/formative 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form form)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-port",
-      "note": "拉丁 portare「携带」；transport/import/portable 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form port)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-fer",
-      "note": "拉丁 ferre「带、载」；transfer/refer/conifer 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.271 (ch.10)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-duc",
-      "note": "拉丁 ducere「引导」；conduct/produce/induce 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.270 (ch.2)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-ject",
-      "note": "拉丁 iacere「投」；reject/inject/project 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form ject)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-scrib",
-      "note": "拉丁 scribere「写」；describe/inscribe/prescribe 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form scrib)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-script",
-      "note": "scribere 的过去分词词干 script-；script/manuscript/description 属此。",
-      "kinds": [
-        "gloss"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form script)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-mit",
-      "note": "拉丁 mittere「送」；submit/permit/transmit 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form mit)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-miss",
-      "note": "mittere 的过去分词词干 miss-；mission/permission/missile 属此。",
-      "kinds": [
-        "gloss"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.3,4)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-cap",
-      "note": "拉丁 capere「拿、抓」；capture/capacity/accept 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.268 (ch.4)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-cept",
-      "note": "capere 的过去分词词干 cept-；concept/intercept/reception 属此。",
-      "kinds": [
-        "gloss"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form cept)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-graph",
-      "note": "希腊 graphein「写」；photograph/biography/graphite 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.10)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-phon",
-      "note": "希腊 phone「声音」；telephone/phonetics/symphony 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.278 (ch.1)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-geo",
-      "note": "希腊 ge「大地」；geography/geology/geothermal 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form geo)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-therm",
-      "note": "希腊 therme「热」；thermometer/hypothermia 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form therm)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-chron",
-      "note": "希腊 chronos「时间」；chronic/synchronize/anachronism 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.268 (ch.1)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-aud",
-      "note": "拉丁 audire「听」；audio/audience/inaudible 属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.9)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-vid",
-      "note": "拉丁 videre「看见」；video/evidence/provide（pro+videre）属此。",
-      "kinds": [
-        "gloss",
-        "etymology"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form vid)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "rx-vis",
-      "note": "videre 的变体 vis-；vision/visible/revise 属此。",
-      "kinds": [
-        "gloss"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "element list (no appendix row; form vis)"
-        }
-      ],
-      "reviewer": "lead-review",
-      "at": "2026-11-19"
-    },
-    {
-      "id": "cx-anthrop",
-      "note": "希腊 anthrōpos「人」；anthropology / philanthropy / misanthrope 属此，anthropos 本身为复合词（andr-「男」+ ōps「面」），不影响本条词根义。",
+      "id": "cx-cata",
+      "note": "希腊 kata「向下、反对」；catastrophe / catalog / catalyst 属此。",
       "kinds": [
         "identity",
         "gloss",
@@ -637,7 +317,61 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.267 (ch.1)"
+          "detail": "appendix 1, p.268 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-ced-cess",
+      "note": "拉丁 cedere「行、让」；proceed / access / concede 属此；cess 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.268 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-cent",
+      "note": "拉丁 centum「百」；century / percent / centipede 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.268 (ch.6)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-cer-cri",
+      "note": "拉丁 cernere「分开、筛」；discern / secret / certain 属此。与希腊 krinein「判断」（crisis）同源双式，非同形变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.268 (ch.4)"
         }
       ],
       "reviewer": "review-audit",
@@ -662,6 +396,40 @@
       "at": "2026-11-20"
     },
     {
+      "id": "cx-chron",
+      "note": "希腊 chronos「时间」；chronic/synchronize/anachronism 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.268 (ch.1)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-contra-counter",
+      "note": "拉丁 contra「对着」；contradict / contrast / counteract 属此；counter- 为经法语的双式形。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.269 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
       "id": "cx-cosm",
       "note": "希腊 kosmos 本义「秩序、编排」，引申为「世界」；cosmic / microcosm 属此。cosmetic 的 cosm 出自 kosmein「装饰」，同一词源的另一引申，教材 ch.1 已分列。",
       "kinds": [
@@ -680,26 +448,24 @@
       "at": "2026-11-20"
     },
     {
-      "id": "cx-lex-leg",
-      "note": "希腊 legein「说、收集」；lexicon / dialect / logic 属此。与拉丁 leg「法」（cx-leg）同形异源，词库已用不同 ID 区分。",
+      "id": "cx-crypt",
+      "note": "希腊 kryptos「隐藏」；cryptic/cryptography 属此。",
       "kinds": [
-        "identity",
         "gloss",
-        "etymology",
-        "derivation"
+        "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.274 (ch.1)"
+          "detail": "appendix 1, p.296 (ch.9)"
         }
       ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
     },
     {
-      "id": "cx-macr",
-      "note": "希腊 makros「长、大」；macroscopic / macrocosm / macron 属此。教材 gloss 只写 large，漏「长」义，macron（长音符）即用长义。",
+      "id": "cx-cub-cumb",
+      "note": "拉丁 cubare「躺卧」；incubate / succumb / cubicle 属此；cumb 为鼻音中缀形。",
       "kinds": [
         "identity",
         "gloss",
@@ -709,295 +475,7 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.275 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-micr",
-      "note": "希腊 mikros「小」；microscope / microbe / microcosm 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-morph",
-      "note": "希腊 morphē「形」；morphology / amorphous / metamorphosis 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-nom",
-      "note": "希腊 nomos「法、惯例」；autonomy / economy / astronomy 属此。与拉丁 nomen「名」（cx-nomen-nomin）同形异源。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-gam",
-      "note": "希腊 gamos「婚姻」；monogamy / bigamy / polygamy 属此。gamete 出自 gametē「妻子」，同源。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-iatr",
-      "note": "希腊 iatros「医者」；psychiatry / pediatrics / iatrogenic 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.273 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-idi",
-      "note": "希腊 idios「自己的、特有的」；idiom / idiosyncrasy 属此。idiot 原义「不参与公共事务的私人」，同源。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.273 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-top",
-      "note": "希腊 topos「地方」；topical / topography / utopia 属此（utopia = ou「无」+ topos）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.282 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-xen",
-      "note": "希腊 xenos「外人、客人」；xenophobia / xenon 属此（xenon 因「陌生」得名）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.283 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-path",
-      "note": "希腊 pathos「感受、受苦」；sympathy / pathology / apathetic 属此；-pathy 兼表感觉、疾病，与教材 ch.1 注一致。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.278 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-petr",
-      "note": "希腊 petra「岩石」；petroleum / petrify / petrology 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.278 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-phil",
-      "note": "希腊 philos「亲爱的、喜爱」；philosophy / bibliophile / philanthropy 属此；词首 phil- 与词末 -phile 义域一致。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.278 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-pol",
-      "note": "希腊 polis「城邦」；politics / metropolis / police 属此（police 经法语 < politeia「政体」）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.279 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-pseud",
-      "note": "希腊 pseudēs「假」；pseudonym / pseudoscience 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.279 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-psych",
-      "note": "希腊 psykhē「呼吸、灵魂」；psychology / psychic / psychiatry 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.279 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-pyr",
-      "note": "希腊 pyr「火」；pyromaniac / pyre / antipyretic 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.279 (ch.1)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-anim",
-      "note": "拉丁 anima「气息、灵魂」；animal / animate / unanimous 属此（unanimous = unus + animus）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.2)"
+          "detail": "appendix 1, p.269 (ch.4)"
         }
       ],
       "reviewer": "review-audit",
@@ -1022,8 +500,8 @@
       "at": "2026-11-20"
     },
     {
-      "id": "cx-leg",
-      "note": "拉丁 lex / legis「法」；legal / legislate / legitimate 属此。与希腊 leg「说」（cx-lex-leg）同形异源。",
+      "id": "cx-curs-curr",
+      "note": "拉丁 currere「跑」；current / excursion / cursor 属此；curs 为变体。",
       "kinds": [
         "identity",
         "gloss",
@@ -1033,15 +511,15 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.274 (ch.2)"
+          "detail": "appendix 1, p.269 (ch.11)"
         }
       ],
       "reviewer": "review-audit",
       "at": "2026-11-20"
     },
     {
-      "id": "cx-libr",
-      "note": "拉丁 libra「天平、秤」；equilibrium / deliberate 属此（deliberate < librare「称量」）。与 liber「书」「自由」形近，但非同源，不可互训。",
+      "id": "cx-deca",
+      "note": "希腊 deka「十」；decade / decathlon 属此。",
       "kinds": [
         "identity",
         "gloss",
@@ -1051,15 +529,15 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.274 (ch.2)"
+          "detail": "appendix 1, p.270 (ch.6)"
         }
       ],
       "reviewer": "review-audit",
       "at": "2026-11-20"
     },
     {
-      "id": "cx-liter",
-      "note": "拉丁 littera「字母」；literature / literal / illiterate 属此。",
+      "id": "cx-dent",
+      "note": "拉丁 dens / dentis「牙」；dental / dentist 属此。",
       "kinds": [
         "identity",
         "gloss",
@@ -1069,15 +547,15 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.274 (ch.2)"
+          "detail": "appendix 1, p.270 (ch.11)"
         }
       ],
       "reviewer": "review-audit",
       "at": "2026-11-20"
     },
     {
-      "id": "cx-nov",
-      "note": "拉丁 novus「新」；novel / innovate / renovate 属此。",
+      "id": "cx-dermat-derm",
+      "note": "希腊 derma「皮」；dermatitis / epidermis 属此；derm 为去尾形。",
       "kinds": [
         "identity",
         "gloss",
@@ -1087,385 +565,7 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.276 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-par",
-      "note": "拉丁 parere「生育、产出」；parent / primiparous 属此。与 parare「准备」（prepare 中的 par）同形异源，须分列。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.277 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-sci",
-      "note": "拉丁 scire「知」；science / conscious / omniscient 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.280 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-sec",
-      "note": "拉丁 secare「切」；section / dissect / insect 属此（insect < insecare「切成节」）。与 sec「跟随」（sequence）同形异源。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.280 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-somn",
-      "note": "拉丁 somnus「睡」；insomnia / somnolent 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.280 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-fug",
-      "note": "拉丁 fugere「逃」；fugitive / refuge / centrifuge 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-grat",
-      "note": "拉丁 gratus「令人愉快的、感谢的」；grateful / gratitude / congratulate 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-greg",
-      "note": "拉丁 grex / gregis「群」；gregarious / congregate / segregate 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-hom",
-      "note": "拉丁 homo「人」；homicide / hominid 属此。与希腊 homo「同」（cx-homo）同形异源。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.273 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-pet",
-      "note": "拉丁 petere「寻求、扑向」；petition / compete / appetite 属此。与 petr「石」形近异源。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.278 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-prob",
-      "note": "拉丁 probare「检验、证明」（probus「正直」）；probable / probate / prove 属此。教材 gloss「good, test」中 good 义应归 probus，非动词义。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.279 (ch.2)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-apo",
-      "note": "希腊 apo「离开」；apology / apostle / apocalypse 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-cata",
-      "note": "希腊 kata「向下、反对」；catastrophe / catalog / catalyst 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.268 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-contra-counter",
-      "note": "拉丁 contra「对着」；contradict / contrast / counteract 属此；counter- 为经法语的双式形。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.269 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-iso",
-      "note": "希腊 isos「相等」；isotope / isometric / isobar 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.274 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-meso",
-      "note": "希腊 mesos「中间」；Mesolithic / mesosphere 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-meta",
-      "note": "希腊 meta「在…之后、超越」；metaphor / metaphysics / metabolism 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "px-ob",
-      "note": "拉丁 ob「对着、朝向」；object / obstruct / oppose 属此；op- / oc- / of- 为同化变体（oppose、occur、offer）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-para",
-      "note": "希腊 para「在旁边、偏离」；parallel / paradox / parasite 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.277 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-sis",
-      "note": "希腊 -sis（动作名词后缀）经拉丁入英；analysis / crisis / thesis 属此。教材 origin 标 L，现代词源学作 G，见 REVIEW_LOG 缺陷表。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.280 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "px-super",
-      "note": "拉丁 super「在上」；supervise / superior / supernatural 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.281 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-tempor",
-      "note": "拉丁 tempus / temporis「时间」；temporary / contemporary 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.281 (ch.3)"
+          "detail": "appendix 1, p.270 (ch.8)"
         }
       ],
       "reviewer": "review-audit",
@@ -1488,6 +588,76 @@
       ],
       "reviewer": "review-audit",
       "at": "2026-11-20"
+    },
+    {
+      "id": "cx-dic",
+      "note": "拉丁 dicere「说」；dictate / predict / verdict 属此；dict 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.270 (ch.9)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-div-de",
+      "note": "拉丁 divus「神」；divine / deity / deify 属此；de 为法语弱化形。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.270 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-doc",
+      "note": "拉丁 docere「教」；doctor / doctrine / document 属此；doct 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.270 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-du",
+      "note": "拉丁 duo「二」；dual/duet/duplicate 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.299 (ch.6)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
     },
     {
       "id": "cx-ec",
@@ -1520,6 +690,24 @@
         {
           "id": "S1",
           "detail": "appendix 1, p.270 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-eme",
+      "note": "希腊 -ēma（动作结果/抽象单位）经法语 -ème 入英；phoneme / morpheme / grapheme 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.271 (ch.4)"
         }
       ],
       "reviewer": "review-audit",
@@ -1562,6 +750,427 @@
       "at": "2026-11-20"
     },
     {
+      "id": "cx-equ-iqu",
+      "note": "拉丁 aequus「平」；equal / equator / iniquity 属此；iqu 为元音弱化形。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.271 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-erg-urg",
+      "note": "希腊 ergon「工作」；energy / surgery / metallurgy 属此；org / urg 为变体（organ、dramaturgy）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.277 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-ero",
+      "note": "希腊 erōs「爱欲」；erotic / erogenous 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.271 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-eu",
+      "note": "希腊 eu「好」；eulogy / euphoria / euphemism 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.271 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-fac-fec",
+      "note": "拉丁 facere「做」；factory / effect / perfect 属此；fec / fic / fact 为变体。词库 examples 收 difficult / benefit，两者切分待修（见 word-classification）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.271 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-flu-fluc",
+      "note": "拉丁 fluere「流」；fluent / influence / fluid 属此；fluc / flux 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.271 (ch.9)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-frag-frang",
+      "note": "拉丁 frangere「破」；fragile / fragment / fracture 属此；fract 为变体，fring 为鼻音形（infringe）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.271 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-fug",
+      "note": "拉丁 fugere「逃」；fugitive / refuge / centrifuge 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-fund-fus",
+      "note": "拉丁 fundere「倒、熔」；refund / confuse / fusion 属此；fus 为变体。与 fund「底」（foundation）同形异源。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-gam",
+      "note": "希腊 gamos「婚姻」；monogamy / bigamy / polygamy 属此。gamete 出自 gametē「妻子」，同源。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-gastr",
+      "note": "希腊 gastēr「胃」；gastric / gastritis 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-geo",
+      "note": "希腊 ge「大地」；geography/geology/geothermal 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "element list (no appendix row; form geo)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-gn-gen",
+      "note": "拉丁 gignere / genus「生、类」；generate / native / genius 属此；gn / na 为变体（pregnant、native）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-gon-gen",
+      "note": "希腊 gonos「生育、后代」；gonad / gonorrhea 属此；与拉丁 gen（cx-gn-gen）同源双式，非同形变体。注意 gon「角」为另一同形词根（polygon）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-grad-gred",
+      "note": "拉丁 gradi「迈步」；grade / progress / congress 属此；gress / gred 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-graph",
+      "note": "希腊 graphein「写」；photograph/biography/graphite 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.10)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. geography: https://en.wiktionary.org/w/index.php?title=geography&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. topography: https://en.wiktionary.org/w/index.php?title=topography&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. graphite: https://en.wiktionary.org/w/index.php?title=graphite&action=raw"
+        }
+      ],
+      "reviewer": "ety-verify",
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "graph < 希腊 graphein「写、刻画」（γράφω）",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "geography",
+            "entry": "geography",
+            "url": "https://en.wiktionary.org/w/index.php?title=geography&action=raw",
+            "quote": "from Ancient Greek γεωγραφία 'a description of the earth', from γῆ 'earth' + γράφω 'write'",
+            "etymon": "γράφω",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "topography",
+            "entry": "topography",
+            "url": "https://en.wiktionary.org/w/index.php?title=topography&action=raw",
+            "quote": "from Ancient Greek τοπογραφία, from τόπος 'place' + γράφω 'to write'",
+            "etymon": "γράφω",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "graphite",
+            "entry": "graphite",
+            "url": "https://en.wiktionary.org/w/index.php?title=graphite&action=raw",
+            "quote": "Borrowed from German Graphit (A. G. Werner 1789), from Ancient Greek γράφω 'to write'.",
+            "etymon": "γράφω",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cx-grat",
+      "note": "拉丁 gratus「令人愉快的、感谢的」；grateful / gratitude / congratulate 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-greg",
+      "note": "拉丁 grex / gregis「群」；gregarious / congregate / segregate 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-heli",
+      "note": "希腊 hēlios「太阳」；heliocentric / helium 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-hemi",
+      "note": "希腊 hēmi-「半」；hemisphere / hemicycle 属此；与拉丁 semi- 同源双式。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.6)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-hepat",
+      "note": "希腊 hēpar / hēpatos「肝」；hepatitis / hepatic 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.272 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
       "id": "cx-hetero",
       "note": "希腊 heteros「另一个」；heterogeneous / heterodox 属此；与 homo-「同」相对。",
       "kinds": [
@@ -1574,6 +1183,24 @@
         {
           "id": "S1",
           "detail": "appendix 1, p.273 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-hom",
+      "note": "拉丁 homo「人」；homicide / hominid 属此。与希腊 homo「同」（cx-homo）同形异源。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.273 (ch.2)"
         }
       ],
       "reviewer": "review-audit",
@@ -1598,6 +1225,2050 @@
       "at": "2026-11-20"
     },
     {
+      "id": "cx-iatr",
+      "note": "希腊 iatros「医者」；psychiatry / pediatrics / iatrogenic 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.273 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-idi",
+      "note": "希腊 idios「自己的、特有的」；idiom / idiosyncrasy 属此。idiot 原义「不参与公共事务的私人」，同源。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.273 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-iso",
+      "note": "希腊 isos「相等」；isotope / isometric / isobar 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-itis",
+      "note": "希腊 -itis「炎症」；arthritis / bronchitis 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-jus-jur",
+      "note": "拉丁 jus / juris「法、权利」；justice / jury / injury 属此。与 jurare「发誓」同形近源不同，须分列。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.9)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-laryng",
+      "note": "希腊 larynx / laryngos「喉」；laryngitis 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-leg",
+      "note": "拉丁 lex / legis「法」；legal / legislate / legitimate 属此。与希腊 leg「说」（cx-lex-leg）同形异源。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.2)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. legal: https://en.wiktionary.org/w/index.php?title=legal&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. legend: https://en.wiktionary.org/w/index.php?title=legend&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. legible: https://en.wiktionary.org/w/index.php?title=legible&action=raw"
+        }
+      ],
+      "reviewer": "ety-verify",
+      "at": "2026-11-20",
+      "verification": {
+        "claim": "leg < 拉丁 lēx「法」/ legere「读、选」（两条语义支线）",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "legal",
+            "entry": "legal",
+            "url": "https://en.wiktionary.org/w/index.php?title=legal&action=raw",
+            "quote": "Latin lēgālis 'legal', from lēx 'law'.",
+            "etymon": "lēx",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "legend",
+            "entry": "legend",
+            "url": "https://en.wiktionary.org/w/index.php?title=legend&action=raw",
+            "quote": "from Latin legendus 'things which ought to be read', from lego 'to read'.",
+            "etymon": "legere",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "legible",
+            "entry": "legible",
+            "url": "https://en.wiktionary.org/w/index.php?title=legible&action=raw",
+            "quote": "From Latin legibilis 'that can be read', from Latin legō.",
+            "etymon": "legō",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cx-lex-leg",
+      "note": "希腊 legein「说、收集」；lexicon / dialect / logic 属此。与拉丁 leg「法」（cx-leg）同形异源，词库已用不同 ID 区分。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-libr",
+      "note": "拉丁 libra「天平、秤」；equilibrium / deliberate 属此（deliberate < librare「称量」）。与 liber「书」「自由」形近，但非同源，不可互训。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-lic",
+      "note": "拉丁 licere「被允许」；license / illicit / leisure 属此（leisure < licere 经古法语 leisir）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-liter",
+      "note": "拉丁 littera「字母」；literature / literal / illiterate 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-lith-lit",
+      "note": "希腊 lithos「石」；lithograph / monolith 属此；lit 为变体（aerolite）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.9)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-locu-loqu",
+      "note": "拉丁 loqui「说」；eloquent / loquacious / colloquial 属此；locu 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.274 (ch.10)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-macr",
+      "note": "希腊 makros「长、大」；macroscopic / macrocosm / macron 属此。教材 gloss 只写 large，漏「长」义，macron（长音符）即用长义。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-magn",
+      "note": "拉丁 magnus「大」；magnify / magnitude 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.10)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-mamm",
+      "note": "拉丁 mamma「乳房」；mammal / mammary 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-matr",
+      "note": "拉丁 mater「母」；maternal / matrimony 属此；与 metr「子宫」同源但应分列。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.10)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-men-mon",
+      "note": "拉丁 mens / mentis「心智」与 monere「提醒」；mental / monument / admonish 属此。教材并作一条，实为两个拉丁词根（ment- / mon-），宜拆分或注明。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-meso",
+      "note": "希腊 mesos「中间」；Mesolithic / mesosphere 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-meta",
+      "note": "希腊 meta「在…之后、超越」；metaphor / metaphysics / metabolism 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-micr",
+      "note": "希腊 mikros「小」；microscope / microbe / microcosm 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-milli",
+      "note": "拉丁 mille「千」，milli- 表「千分之一」；millimeter / milligram 属此。教材把 milli- 作 prefix、mille 作 root，二者同源不同功能，处理正确。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.6)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-mne",
+      "note": "希腊 mnēmē「记忆」；mnemonic / amnesia 属此（a- 否定 + mnēsis）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-mo",
+      "note": "拉丁 movere「移动」；move / motion / mobile 属此；mot / mob 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-morph",
+      "note": "希腊 morphē「形」；morphology / amorphous / metamorphosis 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-mult",
+      "note": "拉丁 multus「多」；multiple / multiply / multitude 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.275 (ch.6)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-mun",
+      "note": "拉丁 munus「公职、赠礼」；municipal / community / immune 属此（immunis「免役」）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.11)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-nat",
+      "note": "拉丁 nasci 的过去分词词干 nat-「出生」；native/nation/innate 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.296 (ch.2)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-nav",
+      "note": "拉丁 navis「船」；navy / navigate 属此。与 nav「脐」形近异源。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.11)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-ne",
+      "note": "希腊 neos「新」；Neolithic / neologism 属此。教材 glossZh 作「新、近」：「近」义无据（near 为日耳曼语），宜删。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-nec-noc",
+      "note": "拉丁 necare「杀」与 nocere「伤害」；innocent / innocuous / necropolis 属此。教材并作 harm：现代词源学 nec=杀、noc=伤害，应分列（二者同出 PIE *nek-）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-nephr",
+      "note": "希腊 nephros「肾」；nephritis / nephron 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-nom",
+      "note": "希腊 nomos「法、惯例」；autonomy / economy / astronomy 属此。与拉丁 nomen「名」（cx-nomen-nomin）同形异源。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-nomen-nomin",
+      "note": "拉丁 nomen / nominis「名」；nominate / nominal / denominator 属此；nomin 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.10)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-nov",
+      "note": "拉丁 novus「新」；novel / innovate / renovate 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-null",
+      "note": "拉丁 nullus「无」；nullify / annul 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.11)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-o",
+      "note": "希腊构词连接元音 -o-，本身无实义；biology / photograph / microscope 中以 -o- 连接两个词根。教材把它列为 empty interfix，本条确认其非词素性质。",
+      "kinds": [
+        "identity",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-odont",
+      "note": "希腊 odous / odontos「牙」；orthodontist 属此；与拉丁 dent 同源双式。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.277 (ch.11)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-oid",
+      "note": "希腊 -oeidēs「似…的」；android / asteroid / thyroid 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 2, p.295 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-oma",
+      "note": "希腊 -ōma「肿物、增生」；carcinoma / sarcoma 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.277 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-onomat",
+      "note": "希腊 onoma「名字」；onomatopoeia/onomastic 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.293 (ch.10)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-ophthalm",
+      "note": "希腊 ophthalmos「眼」；ophthalmology 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.277 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-orth",
+      "note": "希腊 orthos「直、正」；orthodox / orthodontics 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.277 (ch.10)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-oste",
+      "note": "希腊 osteon「骨」；osteoporosis / osteology 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.277 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-par",
+      "note": "拉丁 parere「生育、产出」；parent / primiparous 属此。与 parare「准备」（prepare 中的 par）同形异源，须分列。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.277 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-para",
+      "note": "希腊 para「在旁边、偏离」；parallel / paradox / parasite 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.277 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-path",
+      "note": "希腊 pathos「感受、受苦」；sympathy / pathology / apathetic 属此；-pathy 兼表感觉、疾病，与教材 ch.1 注一致。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-pend-pond",
+      "note": "拉丁 pendere「悬挂、称量」；pendant / suspend / ponder 属此；pond 为变体（ponderous），pens 亦为变体（pensive）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-peri",
+      "note": "希腊 peri「周围」；perimeter / periscope 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-pet",
+      "note": "拉丁 petere「寻求、扑向」；petition / compete / appetite 属此。与 petr「石」形近异源。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-petr",
+      "note": "希腊 petra「岩石」；petroleum / petrify / petrology 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-phag",
+      "note": "希腊 phagein「吃」；bacteriophage / phagocyte 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.11)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-phil",
+      "note": "希腊 philos「亲爱的、喜爱」；philosophy / bibliophile / philanthropy 属此；词首 phil- 与词末 -phile 义域一致。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-phleb",
+      "note": "希腊 phleps / phlebos「静脉」；phlebitis 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-phon",
+      "note": "希腊 phone「声音」；telephone/phonetics/symphony 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.1)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. telephone: https://en.wiktionary.org/w/index.php?title=telephone&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. phoneme: https://en.wiktionary.org/w/index.php?title=phoneme&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. gramophone: https://en.wiktionary.org/w/index.php?title=gramophone&action=raw"
+        }
+      ],
+      "reviewer": "ety-verify",
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "phon < 希腊 phōnē「声音、嗓音」（φωνή）",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "telephone",
+            "entry": "telephone",
+            "url": "https://en.wiktionary.org/w/index.php?title=telephone&action=raw",
+            "quote": "The suffix -phone is ultimately from Ancient Greek φωνή, and Proto-Indo-European *bʰeh₂-.",
+            "etymon": "φωνή",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "phoneme",
+            "entry": "phoneme",
+            "url": "https://en.wiktionary.org/w/index.php?title=phoneme&action=raw",
+            "quote": "From Ancient Greek φώνημα 'sound', from φωνέω 'to sound', from φωνή 'sound'.",
+            "etymon": "φωνή",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "gramophone",
+            "entry": "gramophone",
+            "url": "https://en.wiktionary.org/w/index.php?title=gramophone&action=raw",
+            "quote": "from Ancient Greek γράμμα 'letter' + φωνή 'sound'.",
+            "etymon": "φωνή",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cx-phot-phos",
+      "note": "希腊 phōs / phōtos「光」；photograph / photon 属此；phos 为变体（phosphorus）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-plac",
+      "note": "拉丁 placere「使高兴」；placate/placid 属此。与希腊 πλάξ「平板」无关。",
+      "kinds": [
+        "identity",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.11)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-plac-gk",
+      "note": "希腊 πλάξ「平板」；placoid/placenta/placoderm 属此。与拉丁 placere 同形异源。",
+      "kinds": [
+        "identity",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.11)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-pne-pneum",
+      "note": "希腊 pneuma「气息、呼吸」；pneumatic / pneumonia 属此；pneumon 为变体（肺）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.278 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-pol",
+      "note": "希腊 polis「城邦」；politics / metropolis / police 属此（police 经法语 < politeia「政体」）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.279 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-poly",
+      "note": "希腊 polys「多」；polygon / polygamy 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.279 (ch.6)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-prac",
+      "note": "希腊 praktikos「实践的」；practice / practical / pragmatic 属此（pragma「行为」同源）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.279 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-prim",
+      "note": "拉丁 primus「第一」；primary / prime / primitive 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.279 (ch.6)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-prob",
+      "note": "拉丁 probare「检验、证明」（probus「正直」）；probable / probate / prove 属此。教材 gloss「good, test」中 good 义应归 probus，非动词义。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.279 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-prot",
+      "note": "希腊 prōtos「第一」；protagonist / prototype 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.279 (ch.6)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-pseud",
+      "note": "希腊 pseudēs「假」；pseudonym / pseudoscience 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.279 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-psych",
+      "note": "希腊 psykhē「呼吸、灵魂」；psychology / psychic / psychiatry 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.279 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-pug",
+      "note": "拉丁 pugnus「拳」；pugilist 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.288 (ch.9)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-pung",
+      "note": "拉丁 pungere「刺」；pungent/puncture/expunge 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.288 (ch.9)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-pyr",
+      "note": "希腊 pyr「火」；pyromaniac / pyre / antipyretic 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.279 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-quadr",
+      "note": "拉丁 quattuor「四」；quadrant / quadruple 属此；quart / quatern 为同族变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.279 (ch.6)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-reg-rig",
+      "note": "拉丁 regere「统治、导直」；regal / regular / rigid 属此。形式字段写作 \"reg-rig\"，带内部连字符不符合 form 规范，宜拆为 reg / rig 两条或改用 allomorphs。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.280 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-rhin",
+      "note": "希腊 rhis / rhinos「鼻」；rhinitis / rhinoceros 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.280 (ch.8)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-sacr-sanc",
+      "note": "拉丁 sacer「神圣」与 sancire「定圣」；sacred / sanctuary / sacrifice 属此。教材 allomorphs 列 secr：secr 实属 cernere「分开」（cx-cer-cri），不应并入本条。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.280 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-sal-2",
+      "note": "salary 条目确认 salārium < salārius < sal「盐」；saline 为词库外的旁证条目（拉丁 salīna < sal）。重要：salary 条目明确表示「罗马士兵以盐发饷」无古代文献证据，见 conflict 字段。 词库外旁证条目（仅印证同一词源，不对应词库词条）：saline。",
+      "kinds": [
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. salary: https://en.wiktionary.org/w/index.php?title=salary&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. saline: https://en.wiktionary.org/w/index.php?title=saline&action=raw"
+        }
+      ],
+      "reviewer": "ety-verify",
+      "at": "2026-11-21",
+      "verification": {
+        "claim": "sal < 拉丁 sal「盐」",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "salary",
+            "entry": "salary",
+            "url": "https://en.wiktionary.org/w/index.php?title=salary&action=raw",
+            "quote": "from Latin salārium 'wages', the neuter form of the adjective salārius 'related to salt', from salt.",
+            "etymon": "sal",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "saline",
+            "entry": "saline",
+            "url": "https://en.wiktionary.org/w/index.php?title=saline&action=raw",
+            "quote": "from Medieval Latin salīna and Middle French salin, from Latin sal 'salt'.",
+            "etymon": "sal",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cx-sci",
+      "note": "拉丁 scire「知」；science / conscious / omniscient 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.280 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-sec",
+      "note": "拉丁 secare「切」；section / dissect / insect 属此（insect < insecare「切成节」）。与 sec「跟随」（sequence）同形异源。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.280 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-sis",
+      "note": "希腊 -sis（动作名词后缀）经拉丁入英；analysis / crisis / thesis 属此。教材 origin 标 L，现代词源学作 G，见 REVIEW_LOG 缺陷表。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.280 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-som-somat",
+      "note": "希腊 sōma / sōmatos「体」；somatic / psychosomatic 属此；somat 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.280 (ch.11)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-somn",
+      "note": "拉丁 somnus「睡」；insomnia / somnolent 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.280 (ch.2)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-soph",
+      "note": "希腊 sophos「智」；philosophy / sophomore 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.281 (ch.11)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-tag-teg",
+      "note": "拉丁 tangere「触」；tangent / contact / contagious 属此；tact / ting 为变体（tactile、contingent）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.281 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-tempor",
+      "note": "拉丁 tempus / temporis「时间」；temporary / contemporary 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.281 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-tend-tens",
+      "note": "拉丁 tendere「伸展」；extend / tension / intense 属此；tens / tent 为变体（tentative）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.281 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-terr",
+      "note": "拉丁 terra「土地」；territory / terrace / Mediterranean 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.281 (ch.9)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. terrain: https://en.wiktionary.org/w/index.php?title=terrain&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. terrestrial: https://en.wiktionary.org/w/index.php?title=terrestrial&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. terrace: https://en.wiktionary.org/w/index.php?title=terrace&action=raw"
+        }
+      ],
+      "reviewer": "ety-verify",
+      "at": "2026-11-20",
+      "verification": {
+        "claim": "terr < 拉丁 terra「土地」",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "terrain",
+            "entry": "terrain",
+            "url": "https://en.wiktionary.org/w/index.php?title=terrain&action=raw",
+            "quote": "from Latin terrenum, neuter of terrenus, from terra.",
+            "etymon": "terra",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "terrestrial",
+            "entry": "terrestrial",
+            "url": "https://en.wiktionary.org/w/index.php?title=terrestrial&action=raw",
+            "quote": "from terrestre or Latin terrestris, from terra 'land, earth, ground'",
+            "etymon": "terra",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "terrace",
+            "entry": "terrace",
+            "url": "https://en.wiktionary.org/w/index.php?title=terrace&action=raw",
+            "quote": "from terra 'land'.",
+            "etymon": "terra",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cx-tetra",
+      "note": "希腊 tetra-「四」；tetrahedron/tetrapod 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.289 (ch.6)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-therm",
+      "note": "希腊 therme「热」；thermometer/hypothermia 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "element list (no appendix row; form therm)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-tom-tm",
+      "note": "希腊 temnein「切」；atom / anatomy / epitome 属此；tom / tm 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.282 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-top",
+      "note": "希腊 topos「地方」；topical / topography / utopia 属此（utopia = ou「无」+ topos）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.282 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-tri",
+      "note": "拉丁 tri- 与希腊 tri- 同形同义「三」；triangle / triple / tricycle 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.282 (ch.6)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-trop",
+      "note": "希腊 tropos「转」；tropical / heliotrope 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.282 (ch.11)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-trud-trus",
+      "note": "拉丁 trudere「推」；intrude / protrude / abstruse 属此；trus 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.282 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-vac-van",
+      "note": "拉丁 vacare「空」；vacant / vacation / vanish 属此；van 为法语形。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.282 (ch.9)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-ven-2",
+      "note": "vein / venous 均回溯 vēna「血管」；intravenous 词条只有 intra- + venous 的构成式（{{ety|en|:af|intra-|venous}}），无词源段，故未收录。 词库外旁证条目（仅印证同一词源，不对应词库词条）：vein、venous。",
+      "kinds": [
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. vein: https://en.wiktionary.org/w/index.php?title=vein&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. venous: https://en.wiktionary.org/w/index.php?title=venous&action=raw"
+        }
+      ],
+      "reviewer": "ety-verify",
+      "at": "2026-11-21",
+      "verification": {
+        "claim": "ven < 拉丁 vena「血管」（与 venire「来」无关）",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "vein",
+            "entry": "vein",
+            "url": "https://en.wiktionary.org/w/index.php?title=vein&action=raw",
+            "quote": "from Latin vēna 'a blood-vessel; vein; artery'",
+            "etymon": "vēna",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "venous",
+            "entry": "venous",
+            "url": "https://en.wiktionary.org/w/index.php?title=venous&action=raw",
+            "quote": "borrowing from Latin vēnōsus 'full of veins, veiny'",
+            "etymon": "vēnōsus < vēna",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cx-ver",
+      "note": "拉丁 vērus「真」；verify/veracity/verdict 属此。",
+      "kinds": [
+        "identity",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.282 (ch.2)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-ver-lat-2",
+      "note": "拉丁 vereri「敬畏」；revere/reverence 属此。与 vērus 同形异源。",
+      "kinds": [
+        "identity",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.282 (ch.2)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "cx-vinc-vic",
+      "note": "拉丁 vincere「征服」；invincible / victory / convince 属此；vict 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.283 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-vit-viv",
+      "note": "拉丁 vivere「活」；vital / survive / revive 属此；vit 为变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.283 (ch.9)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-voc",
+      "note": "拉丁 vocare「叫」；vocal / invoke / vocabulary 属此；voc 与 vok 为拼写变体。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.283 (ch.10)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-vor",
+      "note": "拉丁 vorare「吞食」；carnivore / voracious / devour 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.283 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-xen",
+      "note": "希腊 xenos「外人、客人」；xenophobia / xenon 属此（xenon 因「陌生」得名）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.283 (ch.1)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-xyl",
+      "note": "希腊 xylon「木」；xylophone / xylem 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.283 (ch.11)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "cx-zo",
+      "note": "希腊 zōion「动物」；zoology / protozoa 属此。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.283 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "px-ante",
+      "note": "拉丁 ante「在前」；antecedent / anterior / antebellum 属此。教材 p.267 把 anti- 也并入本条作 before：希腊 anti- 实为「反对」，应拆为独立词素（见 REVIEW_LOG 缺陷表）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.267 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
       "id": "px-hypo",
       "note": "希腊 hypo「在下、不足」；hypothesis / hypodermic / hypothermia 属此；hyph- 为送气变体。",
       "kinds": [
@@ -1614,6 +3285,36 @@
       ],
       "reviewer": "review-audit",
       "at": "2026-11-20"
+    },
+    {
+      "id": "px-im",
+      "note": "方位 in- 的同化形（in+p/b/m→im-）；import/impose 属此。",
+      "kinds": [
+        "identity"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.273 (ch.3)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "px-in",
+      "note": "否定前缀（PIE *ne）；invisible/incomplete 属此。",
+      "kinds": [
+        "identity"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.273 (ch.3)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
     },
     {
       "id": "px-infra",
@@ -1670,8 +3371,8 @@
       "at": "2026-11-20"
     },
     {
-      "id": "px-per",
-      "note": "拉丁 per「穿过、彻底」；perceive / permit / persist 属此；per- 在法语借词中可弱化为 pel-（pellucid）。",
+      "id": "px-mono",
+      "note": "希腊 monos「单」；monopoly / monologue / monolingual 属此。成分表另列 mon 一行，作本条变体可接受。",
       "kinds": [
         "identity",
         "gloss",
@@ -1681,15 +3382,33 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.278 (ch.3)"
+          "detail": "appendix 2, p.294 (ch.6)"
         }
       ],
       "reviewer": "review-audit",
       "at": "2026-11-20"
     },
     {
-      "id": "cx-peri",
-      "note": "希腊 peri「周围」；perimeter / periscope 属此。",
+      "id": "px-ob",
+      "note": "拉丁 ob「对着、朝向」；object / obstruct / oppose 属此；op- / oc- / of- 为同化变体（oppose、occur、offer）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.276 (ch.3)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "px-per",
+      "note": "拉丁 per「穿过、彻底」；perceive / permit / persist 属此；per- 在法语借词中可弱化为 pel-（pellucid）。",
       "kinds": [
         "identity",
         "gloss",
@@ -1760,8 +3479,8 @@
       "at": "2026-11-20"
     },
     {
-      "id": "sx-ise",
-      "note": "希腊 -izein 经拉丁 -izare、法语 -iser 入英，作 -ise；modernise / localise 属此。与 -ize 是同一后缀的英式/美式拼写分工，不是两个词素。",
+      "id": "px-semi",
+      "note": "拉丁 semi-「半」；semicircle / semifinal 属此；与希腊 hemi- 同源双式（s ∼ h 对应）。",
       "kinds": [
         "identity",
         "gloss",
@@ -1771,15 +3490,15 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 2, p.299 (ch.3)"
+          "detail": "appendix 1, p.280 (ch.6)"
         }
       ],
       "reviewer": "review-audit",
       "at": "2026-11-20"
     },
     {
-      "id": "cx-oid",
-      "note": "希腊 -oeidēs「似…的」；android / asteroid / thyroid 属此。",
+      "id": "px-super",
+      "note": "拉丁 super「在上」；supervise / superior / supernatural 属此。",
       "kinds": [
         "identity",
         "gloss",
@@ -1789,762 +3508,7 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 2, p.295 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-o",
-      "note": "希腊构词连接元音 -o-，本身无实义；biology / photograph / microscope 中以 -o- 连接两个词根。教材把它列为 empty interfix，本条确认其非词素性质。",
-      "kinds": [
-        "identity",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-eme",
-      "note": "希腊 -ēma（动作结果/抽象单位）经法语 -ème 入英；phoneme / morpheme / grapheme 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.271 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "px-ante",
-      "note": "拉丁 ante「在前」；antecedent / anterior / antebellum 属此。教材 p.267 把 anti- 也并入本条作 before：希腊 anti- 实为「反对」，应拆为独立词素（见 REVIEW_LOG 缺陷表）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.3)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "rx-sist",
-      "note": "拉丁 sistere「站立」；resist / insist / assist 属此；sta / stat / stit 为同源变体（statue、institute）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 2, p.297 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-am-im",
-      "note": "拉丁 amare「爱」；amateur / amorous / amity 属此；im- 变体见 inimical（in- + imicus「友」）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-ann-enn",
-      "note": "拉丁 annus「年」；annual / anniversary / biennial 属此；enn 为元音弱化形。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-cer-cri",
-      "note": "拉丁 cernere「分开、筛」；discern / secret / certain 属此。与希腊 krinein「判断」（crisis）同源双式，非同形变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.268 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "rx-cid",
-      "note": "拉丁 caedere「切、杀」；decide / precise / suicide 属此；cis 为变体（incision）。与 cad「落」的 cid 同形异源，教材 ch.5 已分列。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.268 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-cub-cumb",
-      "note": "拉丁 cubare「躺卧」；incubate / succumb / cubicle 属此；cumb 为鼻音中缀形。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.269 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-men-mon",
-      "note": "拉丁 mens / mentis「心智」与 monere「提醒」；mental / monument / admonish 属此。教材并作一条，实为两个拉丁词根（ment- / mon-），宜拆分或注明。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-mne",
-      "note": "希腊 mnēmē「记忆」；mnemonic / amnesia 属此（a- 否定 + mnēsis）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-mo",
-      "note": "拉丁 movere「移动」；move / motion / mobile 属此；mot / mob 为变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-gn-gen",
-      "note": "拉丁 gignere / genus「生、类」；generate / native / genius 属此；gn / na 为变体（pregnant、native）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-nec-noc",
-      "note": "拉丁 necare「杀」与 nocere「伤害」；innocent / innocuous / necropolis 属此。教材并作 harm：现代词源学 nec=杀、noc=伤害，应分列（二者同出 PIE *nek-）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-erg-urg",
-      "note": "希腊 ergon「工作」；energy / surgery / metallurgy 属此；org / urg 为变体（organ、dramaturgy）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.277 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-fac-fec",
-      "note": "拉丁 facere「做」；factory / effect / perfect 属此；fec / fic / fact 为变体。词库 examples 收 difficult / benefit，两者切分待修（见 word-classification）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.271 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-frag-frang",
-      "note": "拉丁 frangere「破」；fragile / fragment / fracture 属此；fract 为变体，fring 为鼻音形（infringe）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.271 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-fund-fus",
-      "note": "拉丁 fundere「倒、熔」；refund / confuse / fusion 属此；fus 为变体。与 fund「底」（foundation）同形异源。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-gon-gen",
-      "note": "希腊 gonos「生育、后代」；gonad / gonorrhea 属此；与拉丁 gen（cx-gn-gen）同源双式，非同形变体。注意 gon「角」为另一同形词根（polygon）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-equ-iqu",
-      "note": "拉丁 aequus「平」；equal / equator / iniquity 属此；iqu 为元音弱化形。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.271 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-tag-teg",
-      "note": "拉丁 tangere「触」；tangent / contact / contagious 属此；tact / ting 为变体（tactile、contingent）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.281 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "rx-ten",
-      "note": "拉丁 tenere「握持」；contain / maintain / tenant 属此；tain / tin 为变体（retain、continue）。与 tend「伸展」同源但应分列。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.281 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-tom-tm",
-      "note": "希腊 temnein「切」；atom / anatomy / epitome 属此；tom / tm 为变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.282 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-vinc-vic",
-      "note": "拉丁 vincere「征服」；invincible / victory / convince 属此；vict 为变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.283 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-vor",
-      "note": "拉丁 vorare「吞食」；carnivore / voracious / devour 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.283 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-zo",
-      "note": "希腊 zōion「动物」；zoology / protozoa 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.283 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-pend-pond",
-      "note": "拉丁 pendere「悬挂、称量」；pendant / suspend / ponder 属此；pond 为变体（ponderous），pens 亦为变体（pensive）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.278 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-sacr-sanc",
-      "note": "拉丁 sacer「神圣」与 sancire「定圣」；sacred / sanctuary / sacrifice 属此。教材 allomorphs 列 secr：secr 实属 cernere「分开」（cx-cer-cri），不应并入本条。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.280 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-div-de",
-      "note": "拉丁 divus「神」；divine / deity / deify 属此；de 为法语弱化形。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.270 (ch.4)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-aesth-esth",
-      "note": "希腊 aisthēsis「知觉」；aesthetic / anesthesia 属此；esth 为去 a- 形。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.266 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-ag-ig",
-      "note": "拉丁 agere「做、驱」；agent / agenda / ambiguous 属此；ig 为变体（exigent），act 为同源双式。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.266 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-alt",
-      "note": "拉丁 altus 兼指「高」与「深」；altitude / altimeter / exalt 属此。教材只写 high，漏「深」义（alt- 在 altitude 中两义并存）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-ambul",
-      "note": "拉丁 ambulare「走」；ambulance / amble / somnambulist 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-andr",
-      "note": "希腊 anēr / andros「男」；android / androgen / polyandry 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-arch",
-      "note": "希腊 arkhē「始、统治」；monarchy / architect / archive 属此；arch- 两义（首/治）同源。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-av",
-      "note": "拉丁 avis「鸟」；aviation / aviary / auspicious 属此（auspicium = avis + specere「观鸟占卜」）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.267 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-ced-cess",
-      "note": "拉丁 cedere「行、让」；proceed / access / concede 属此；cess 为变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.268 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "rx-clud",
-      "note": "拉丁 claudere「关」；include / exclude / conclude 属此；clus 为变体（exclusive）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.269 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-lic",
-      "note": "拉丁 licere「被允许」；license / illicit / leisure 属此（leisure < licere 经古法语 leisir）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.274 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-ne",
-      "note": "希腊 neos「新」；Neolithic / neologism 属此。教材 glossZh 作「新、近」：「近」义无据（near 为日耳曼语），宜删。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-reg-rig",
-      "note": "拉丁 regere「统治、导直」；regal / regular / rigid 属此。形式字段写作 \"reg-rig\"，带内部连字符不符合 form 规范，宜拆为 reg / rig 两条或改用 allomorphs。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.280 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "rx-sens",
-      "note": "拉丁 sentire「感觉」；sense / consent / sensitive 属此；sent 为变体（sentiment）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.280 (ch.5)"
+          "detail": "appendix 1, p.281 (ch.3)"
         }
       ],
       "reviewer": "review-audit",
@@ -2569,8 +3533,144 @@
       "at": "2026-11-20"
     },
     {
-      "id": "cx-tend-tens",
-      "note": "拉丁 tendere「伸展」；extend / tension / intense 属此；tens / tent 为变体（tentative）。",
+      "id": "rx-cap",
+      "note": "拉丁 capere「拿、抓」；capture/capacity/accept 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.268 (ch.4)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. accept: https://en.wiktionary.org/w/index.php?title=accept&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. anticipate: https://en.wiktionary.org/w/index.php?title=anticipate&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. capacity: https://en.wiktionary.org/w/index.php?title=capacity&action=raw"
+        }
+      ],
+      "reviewer": "ety-verify",
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "cap < 拉丁 capere「抓、取」",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "accept",
+            "entry": "accept",
+            "url": "https://en.wiktionary.org/w/index.php?title=accept&action=raw",
+            "quote": "from Latin accepto 'receive', frequentative of accipiō, formed from ad- + capiō 'to take'.",
+            "etymon": "capiō",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "anticipate",
+            "entry": "anticipate",
+            "url": "https://en.wiktionary.org/w/index.php?title=anticipate&action=raw",
+            "quote": "Latin anticipātus, of anticipō 'to anticipate' (see -ate), from ante-, + capiō 'to take' + -ō.",
+            "etymon": "capiō",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "capacity",
+            "entry": "capacity",
+            "url": "https://en.wiktionary.org/w/index.php?title=capacity&action=raw",
+            "quote": "from capāx 'able to hold much', from capiō 'to hold, to contain, to take, to understand'.",
+            "etymon": "capiō",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rx-capit",
+      "note": "capital / captain / chapter 均给出 caput 'head'，captain 经古法语 capitaine。 词库外旁证条目（仅印证同一词源，不对应词库词条）：chapter。",
+      "kinds": [
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. capital: https://en.wiktionary.org/w/index.php?title=capital&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. captain: https://en.wiktionary.org/w/index.php?title=captain&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. chapter: https://en.wiktionary.org/w/index.php?title=chapter&action=raw"
+        }
+      ],
+      "reviewer": "ety-verify",
+      "at": "2026-11-21",
+      "verification": {
+        "claim": "capit < 拉丁 caput「头」",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "capital",
+            "entry": "capital",
+            "url": "https://en.wiktionary.org/w/index.php?title=capital&action=raw",
+            "quote": "borrowed partly from Old French capital and partly from Latin capitālis (in sense “head of cattle”), from caput",
+            "etymon": "caput",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "captain",
+            "entry": "captain",
+            "url": "https://en.wiktionary.org/w/index.php?title=captain&action=raw",
+            "quote": "from Latin capitāneus, from Latin caput 'head'",
+            "etymon": "caput",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "chapter",
+            "entry": "chapter",
+            "url": "https://en.wiktionary.org/w/index.php?title=chapter&action=raw",
+            "quote": "from Latin capitulum 'a chapter of a book, in Medieval Latin also a synod or council', diminutive of caput 'a head'",
+            "etymon": "caput",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rx-cept",
+      "note": "capere 的过去分词词干 cept-；concept/intercept/reception 属此。",
+      "kinds": [
+        "gloss"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "element list (no appendix row; form cept)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "rx-cid",
+      "note": "拉丁 caedere「切、杀」；decide / precise / suicide 属此；cis 为变体（incision）。与 cad「落」的 cid 同形异源，教材 ch.5 已分列。",
       "kinds": [
         "identity",
         "gloss",
@@ -2580,15 +3680,15 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.281 (ch.5)"
+          "detail": "appendix 1, p.268 (ch.4)"
         }
       ],
       "reviewer": "review-audit",
       "at": "2026-11-20"
     },
     {
-      "id": "cx-doc",
-      "note": "拉丁 docere「教」；doctor / doctrine / document 属此；doct 为变体。",
+      "id": "rx-clud",
+      "note": "拉丁 claudere「关」；include / exclude / conclude 属此；clus 为变体（exclusive）。",
       "kinds": [
         "identity",
         "gloss",
@@ -2598,583 +3698,7 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.270 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-ero",
-      "note": "希腊 erōs「爱欲」；erotic / erogenous 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.271 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-eu",
-      "note": "希腊 eu「好」；eulogy / euphoria / euphemism 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.271 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-grad-gred",
-      "note": "拉丁 gradi「迈步」；grade / progress / congress 属此；gress / gred 为变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-heli",
-      "note": "希腊 hēlios「太阳」；heliocentric / helium 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-trud-trus",
-      "note": "拉丁 trudere「推」；intrude / protrude / abstruse 属此；trus 为变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.282 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-phot-phos",
-      "note": "希腊 phōs / phōtos「光」；photograph / photon 属此；phos 为变体（phosphorus）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.278 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-prac",
-      "note": "希腊 praktikos「实践的」；practice / practical / pragmatic 属此（pragma「行为」同源）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.279 (ch.5)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "px-mono",
-      "note": "希腊 monos「单」；monopoly / monologue / monolingual 属此。成分表另列 mon 一行，作本条变体可接受。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 2, p.294 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-cent",
-      "note": "拉丁 centum「百」；century / percent / centipede 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.268 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-mult",
-      "note": "拉丁 multus「多」；multiple / multiply / multitude 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-poly",
-      "note": "希腊 polys「多」；polygon / polygamy 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.279 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-tri",
-      "note": "拉丁 tri- 与希腊 tri- 同形同义「三」；triangle / triple / tricycle 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.282 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-quadr",
-      "note": "拉丁 quattuor「四」；quadrant / quadruple 属此；quart / quatern 为同族变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.279 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "px-semi",
-      "note": "拉丁 semi-「半」；semicircle / semifinal 属此；与希腊 hemi- 同源双式（s ∼ h 对应）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.280 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-hemi",
-      "note": "希腊 hēmi-「半」；hemisphere / hemicycle 属此；与拉丁 semi- 同源双式。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-deca",
-      "note": "希腊 deka「十」；decade / decathlon 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.270 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-prim",
-      "note": "拉丁 primus「第一」；primary / prime / primitive 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.279 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-prot",
-      "note": "希腊 prōtos「第一」；protagonist / prototype 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.279 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-milli",
-      "note": "拉丁 mille「千」，milli- 表「千分之一」；millimeter / milligram 属此。教材把 milli- 作 prefix、mille 作 root，二者同源不同功能，处理正确。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.6)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-dermat-derm",
-      "note": "希腊 derma「皮」；dermatitis / epidermis 属此；derm 为去尾形。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.270 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-gastr",
-      "note": "希腊 gastēr「胃」；gastric / gastritis 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-hepat",
-      "note": "希腊 hēpar / hēpatos「肝」；hepatitis / hepatic 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.272 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-nephr",
-      "note": "希腊 nephros「肾」；nephritis / nephron 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-oste",
-      "note": "希腊 osteon「骨」；osteoporosis / osteology 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.277 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-rhin",
-      "note": "希腊 rhis / rhinos「鼻」；rhinitis / rhinoceros 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.280 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-ophthalm",
-      "note": "希腊 ophthalmos「眼」；ophthalmology 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.277 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-phleb",
-      "note": "希腊 phleps / phlebos「静脉」；phlebitis 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.278 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-pne-pneum",
-      "note": "希腊 pneuma「气息、呼吸」；pneumatic / pneumonia 属此；pneumon 为变体（肺）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.278 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-laryng",
-      "note": "希腊 larynx / laryngos「喉」；laryngitis 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.274 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-mamm",
-      "note": "拉丁 mamma「乳房」；mammal / mammary 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-itis",
-      "note": "希腊 -itis「炎症」；arthritis / bronchitis 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.274 (ch.8)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-oma",
-      "note": "希腊 -ōma「肿物、增生」；carcinoma / sarcoma 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.277 (ch.8)"
+          "detail": "appendix 1, p.269 (ch.5)"
         }
       ],
       "reviewer": "review-audit",
@@ -3199,436 +3723,336 @@
       "at": "2026-11-20"
     },
     {
-      "id": "cx-dic",
-      "note": "拉丁 dicere「说」；dictate / predict / verdict 属此；dict 为变体。",
+      "id": "rx-duc",
+      "note": "拉丁 ducere「引导」；conduct/produce/induce 属此。",
       "kinds": [
-        "identity",
         "gloss",
-        "etymology",
-        "derivation"
+        "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.270 (ch.9)"
+          "detail": "appendix 1, p.270 (ch.2)"
         }
       ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
     },
     {
-      "id": "cx-lith-lit",
-      "note": "希腊 lithos「石」；lithograph / monolith 属此；lit 为变体（aerolite）。",
+      "id": "rx-fer",
+      "note": "拉丁 ferre「带、载」；transfer/refer/conifer 属此。",
       "kinds": [
-        "identity",
         "gloss",
-        "etymology",
-        "derivation"
+        "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.274 (ch.9)"
+          "detail": "appendix 1, p.271 (ch.10)"
         }
       ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
     },
     {
-      "id": "cx-terr",
-      "note": "拉丁 terra「土地」；territory / terrace / Mediterranean 属此。",
+      "id": "rx-form",
+      "note": "拉丁 forma「形状」；reform/conform/formative 属此。",
       "kinds": [
-        "identity",
         "gloss",
-        "etymology",
-        "derivation"
+        "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.281 (ch.9)"
+          "detail": "element list (no appendix row; form form)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. form: https://en.wiktionary.org/w/index.php?title=form&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. inform: https://en.wiktionary.org/w/index.php?title=inform&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. deform: https://en.wiktionary.org/w/index.php?title=deform&action=raw"
         }
       ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "reviewer": "ety-verify",
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "form < 拉丁 forma「形状、模子」",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "form",
+            "entry": "form",
+            "url": "https://en.wiktionary.org/w/index.php?title=form&action=raw",
+            "quote": "from Latin fōrma 'shape, figure, image, outline, plan, mold, frame, case, etc., manner, sort, kind, etc.'",
+            "etymon": "fōrma",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "inform",
+            "entry": "inform",
+            "url": "https://en.wiktionary.org/w/index.php?title=inform&action=raw",
+            "quote": "from Latin īnfōrmō 'to shape, form, train, instruct, educate', from in- 'into' + fōrma 'form, shape'",
+            "etymon": "fōrma",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "deform",
+            "entry": "deform",
+            "url": "https://en.wiktionary.org/w/index.php?title=deform&action=raw",
+            "quote": "from its Latin dēfōrmis, from dē- + fōrma",
+            "etymon": "fōrma",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
     },
     {
-      "id": "cx-vit-viv",
-      "note": "拉丁 vivere「活」；vital / survive / revive 属此；vit 为变体。",
+      "id": "rx-ject",
+      "note": "拉丁 iacere「投」；reject/inject/project 属此。",
       "kinds": [
-        "identity",
         "gloss",
-        "etymology",
-        "derivation"
+        "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.283 (ch.9)"
+          "detail": "element list (no appendix row; form ject)"
         }
       ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
     },
     {
-      "id": "cx-vac-van",
-      "note": "拉丁 vacare「空」；vacant / vacation / vanish 属此；van 为法语形。",
+      "id": "rx-legal",
+      "note": "拉丁 lex/legis「法」；legal/legislation 属此。",
       "kinds": [
-        "identity",
         "gloss",
-        "etymology",
-        "derivation"
+        "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.282 (ch.9)"
+          "detail": "element list (no appendix row; form legal)"
         }
       ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
     },
     {
-      "id": "cx-flu-fluc",
-      "note": "拉丁 fluere「流」；fluent / influence / fluid 属此；fluc / flux 为变体。",
+      "id": "rx-miss",
+      "note": "mittere 的过去分词词干 miss-；mission/permission/missile 属此。",
       "kinds": [
-        "identity",
         "gloss",
-        "etymology",
-        "derivation"
+        "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.271 (ch.9)"
+          "detail": "appendix 1, p.275 (ch.3,4)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. dismiss: https://en.wiktionary.org/w/index.php?title=dismiss&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. missile: https://en.wiktionary.org/w/index.php?title=missile&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. emission: https://en.wiktionary.org/w/index.php?title=emission&action=raw"
         }
       ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "reviewer": "ety-verify",
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "miss < 拉丁 mittere 的分词词干 miss-（missus）",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "dismiss",
+            "entry": "dismiss",
+            "url": "https://en.wiktionary.org/w/index.php?title=dismiss&action=raw",
+            "quote": "from Latin dimissus 'sent away, dismissed, banished', perfect passive participle of dīmittō 'send away, dismiss', from mittere.",
+            "etymon": "mittere",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "missile",
+            "entry": "missile",
+            "url": "https://en.wiktionary.org/w/index.php?title=missile&action=raw",
+            "quote": "From Latin missile 'thrown weapon, projectile', neuter of missilis 'throwable, capable of being thrown', from mittere 'to send'.",
+            "etymon": "mittere",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "emission",
+            "entry": "emission",
+            "url": "https://en.wiktionary.org/w/index.php?title=emission&action=raw",
+            "quote": "from Latin ēmissiō 'sending forth', from ēmittō 'send out'",
+            "etymon": "mittō",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
     },
     {
-      "id": "cx-jus-jur",
-      "note": "拉丁 jus / juris「法、权利」；justice / jury / injury 属此。与 jurare「发誓」同形近源不同，须分列。",
+      "id": "rx-mit",
+      "note": "拉丁 mittere「送」；submit/permit/transmit 属此。",
       "kinds": [
-        "identity",
         "gloss",
-        "etymology",
-        "derivation"
+        "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.274 (ch.9)"
+          "detail": "element list (no appendix row; form mit)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. admit: https://en.wiktionary.org/w/index.php?title=admit&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. submit: https://en.wiktionary.org/w/index.php?title=submit&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. commit: https://en.wiktionary.org/w/index.php?title=commit&action=raw"
         }
       ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "reviewer": "ety-verify",
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "mit < 拉丁 mittere「送、放出」",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "admit",
+            "entry": "admit",
+            "url": "https://en.wiktionary.org/w/index.php?title=admit&action=raw",
+            "quote": "from Latin admittō 'to allow entrance, inlet', from ad- + mittere 'to send'.",
+            "etymon": "mittere",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "submit",
+            "entry": "submit",
+            "url": "https://en.wiktionary.org/w/index.php?title=submit&action=raw",
+            "quote": "from Latin submittere, infinitive of submittō 'place under, yield', from under, from below, up + mitto 'to send'.",
+            "etymon": "mitto",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "commit",
+            "entry": "commit",
+            "url": "https://en.wiktionary.org/w/index.php?title=commit&action=raw",
+            "quote": "from Latin committō 'to bring together, join, compare, commit (a wrong), incur, give in charge, etc.', from com- 'together' + mittō 'to send'.",
+            "etymon": "mittō",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
     },
     {
-      "id": "cx-locu-loqu",
-      "note": "拉丁 loqui「说」；eloquent / loquacious / colloquial 属此；locu 为变体。",
+      "id": "rx-norm",
+      "note": "拉丁 norma「规矩」；normal/enormous（e- 出格）属此。",
       "kinds": [
-        "identity",
         "gloss",
-        "etymology",
-        "derivation"
+        "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.274 (ch.10)"
+          "detail": "element list (no appendix row; form norm)"
         }
       ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
     },
     {
-      "id": "cx-magn",
-      "note": "拉丁 magnus「大」；magnify / magnitude 属此。",
+      "id": "rx-port",
+      "note": "拉丁 portare「携带」；transport/import/portable 属此。",
       "kinds": [
-        "identity",
         "gloss",
-        "etymology",
-        "derivation"
+        "etymology"
       ],
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.275 (ch.10)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-matr",
-      "note": "拉丁 mater「母」；maternal / matrimony 属此；与 metr「子宫」同源但应分列。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
+          "detail": "element list (no appendix row; form port)"
+        },
         {
-          "id": "S1",
-          "detail": "appendix 1, p.275 (ch.10)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-nomen-nomin",
-      "note": "拉丁 nomen / nominis「名」；nominate / nominal / denominator 属此；nomin 为变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
+          "id": "S5",
+          "detail": "Wiktionary, s.v. import: https://en.wiktionary.org/w/index.php?title=import&action=raw"
+        },
         {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.10)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-orth",
-      "note": "希腊 orthos「直、正」；orthodox / orthodontics 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
+          "id": "S5",
+          "detail": "Wiktionary, s.v. report: https://en.wiktionary.org/w/index.php?title=report&action=raw"
+        },
         {
-          "id": "S1",
-          "detail": "appendix 1, p.277 (ch.10)"
+          "id": "S5",
+          "detail": "Wiktionary, s.v. porter: https://en.wiktionary.org/w/index.php?title=porter&action=raw"
         }
       ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-soph",
-      "note": "希腊 sophos「智」；philosophy / sophomore 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.281 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-voc",
-      "note": "拉丁 vocare「叫」；vocal / invoke / vocabulary 属此；voc 与 vok 为拼写变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.283 (ch.10)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-curs-curr",
-      "note": "拉丁 currere「跑」；current / excursion / cursor 属此；curs 为变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.269 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-dent",
-      "note": "拉丁 dens / dentis「牙」；dental / dentist 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.270 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-odont",
-      "note": "希腊 odous / odontos「牙」；orthodontist 属此；与拉丁 dent 同源双式。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.277 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-mun",
-      "note": "拉丁 munus「公职、赠礼」；municipal / community / immune 属此（immunis「免役」）。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-nav",
-      "note": "拉丁 navis「船」；navy / navigate 属此。与 nav「脐」形近异源。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-null",
-      "note": "拉丁 nullus「无」；nullify / annul 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.276 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-som-somat",
-      "note": "希腊 sōma / sōmatos「体」；somatic / psychosomatic 属此；somat 为变体。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.280 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-trop",
-      "note": "希腊 tropos「转」；tropical / heliotrope 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.282 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-xyl",
-      "note": "希腊 xylon「木」；xylophone / xylem 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.283 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
-    },
-    {
-      "id": "cx-phag",
-      "note": "希腊 phagein「吃」；bacteriophage / phagocyte 属此。",
-      "kinds": [
-        "identity",
-        "gloss",
-        "etymology",
-        "derivation"
-      ],
-      "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.278 (ch.11)"
-        }
-      ],
-      "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "reviewer": "ety-verify",
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "port < 拉丁 portare「携带、运送」",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "import",
+            "entry": "import",
+            "url": "https://en.wiktionary.org/w/index.php?title=import&action=raw",
+            "quote": "from Latin importō, from in, at, on; into + portō 'to carry, bear; convey'",
+            "etymon": "portō",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "report",
+            "entry": "report",
+            "url": "https://en.wiktionary.org/w/index.php?title=report&action=raw",
+            "quote": "from Latin reporto 'to carry back, return, remit, refer', from porto.",
+            "etymon": "porto",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "porter",
+            "entry": "porter",
+            "url": "https://en.wiktionary.org/w/index.php?title=porter&action=raw",
+            "quote": "from Latin portātor, from past participle of Latin portō 'portāre'",
+            "etymon": "portō",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
     },
     {
       "id": "rx-pter",
@@ -3649,8 +4073,39 @@
       "at": "2026-11-20"
     },
     {
-      "id": "cx-bell",
-      "note": "拉丁 bellum「战争」；belligerent / rebellion 属此。与 bellus「美」（belle）同形异源。",
+      "id": "rx-scrib",
+      "note": "拉丁 scribere「写」；describe/inscribe/prescribe 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "element list (no appendix row; form scrib)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "rx-script",
+      "note": "scribere 的过去分词词干 script-；script/manuscript/description 属此。",
+      "kinds": [
+        "gloss"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "element list (no appendix row; form script)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "rx-sens",
+      "note": "拉丁 sentire「感觉」；sense / consent / sensitive 属此；sent 为变体（sentiment）。",
       "kinds": [
         "identity",
         "gloss",
@@ -3660,7 +4115,218 @@
       "sources": [
         {
           "id": "S1",
-          "detail": "appendix 1, p.267 (ch.6)"
+          "detail": "appendix 1, p.280 (ch.5)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "rx-sist",
+      "note": "拉丁 sistere「站立」；resist / insist / assist 属此；sta / stat / stit 为同源变体（statue、institute）。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 2, p.297 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "rx-spec",
+      "note": "拉丁 specere「看」；inspect/respect/perspective 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.281 (ch.4)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. inspect: https://en.wiktionary.org/w/index.php?title=inspect&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. expect: https://en.wiktionary.org/w/index.php?title=expect&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. perspective: https://en.wiktionary.org/w/index.php?title=perspective&action=raw"
+        }
+      ],
+      "reviewer": "ety-verify",
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "spec < 拉丁 specere「看」；spectare 为其反复形",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "inspect",
+            "entry": "inspect",
+            "url": "https://en.wiktionary.org/w/index.php?title=inspect&action=raw",
+            "quote": "From Latin inspectum, past participle of inspicio, inspicere 'to look into', from in + specio, specere 'to look at', equivalent to spect.",
+            "etymon": "specere",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "expect",
+            "entry": "expect",
+            "url": "https://en.wiktionary.org/w/index.php?title=expect&action=raw",
+            "quote": "From Latin expectāre, infinitive form of exspectō 'look out for, await, expect', from out + spectō 'look at', of speciō 'see'.",
+            "etymon": "speciō / spectō",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "perspective",
+            "entry": "perspective",
+            "url": "https://en.wiktionary.org/w/index.php?title=perspective&action=raw",
+            "quote": "from perspectus, the past participle of perspicere 'to inspect, look through', itself from per- 'through' + specere 'to look at'",
+            "etymon": "specere",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rx-stru",
+      "note": "拉丁 struere「建造」；structure/instruct/obstruct 属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "element list (no appendix row; form stru)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. construct: https://en.wiktionary.org/w/index.php?title=construct&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. structure: https://en.wiktionary.org/w/index.php?title=structure&action=raw"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary, s.v. obstruct: https://en.wiktionary.org/w/index.php?title=obstruct&action=raw"
+        }
+      ],
+      "reviewer": "ety-verify",
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "stru < 拉丁 struere「堆叠、建造」",
+        "verdict": "verified",
+        "checkedAt": "2026-11-21",
+        "verifier": "ety-verify",
+        "records": [
+          {
+            "word": "construct",
+            "entry": "construct",
+            "url": "https://en.wiktionary.org/w/index.php?title=construct&action=raw",
+            "quote": "from cōnstruō 'to heap together', from com- 'together' + struō 'to heap up, pile'",
+            "etymon": "struō",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "structure",
+            "entry": "structure",
+            "url": "https://en.wiktionary.org/w/index.php?title=structure&action=raw",
+            "quote": "from Latin structūra 'a fitting together, adjustment, building, erection, a building, edifice, structure', from struere",
+            "etymon": "struere",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "obstruct",
+            "entry": "obstruct",
+            "url": "https://en.wiktionary.org/w/index.php?title=obstruct&action=raw",
+            "quote": "from verb obstruere, from against + struere 'pile up, build'",
+            "etymon": "struere",
+            "supports": true,
+            "fetchedAt": "2026-11-21"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rx-ten",
+      "note": "拉丁 tenere「握持」；contain / maintain / tenant 属此；tain / tin 为变体（retain、continue）。与 tend「伸展」同源但应分列。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 1, p.281 (ch.4)"
+        }
+      ],
+      "reviewer": "review-audit",
+      "at": "2026-11-20"
+    },
+    {
+      "id": "rx-vid",
+      "note": "拉丁 videre「看见」；video/evidence/provide（pro+videre）属此。",
+      "kinds": [
+        "gloss",
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "element list (no appendix row; form vid)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "rx-vis",
+      "note": "videre 的变体 vis-；vision/visible/revise 属此。",
+      "kinds": [
+        "gloss"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "element list (no appendix row; form vis)"
+        }
+      ],
+      "reviewer": "lead-review",
+      "at": "2026-11-19"
+    },
+    {
+      "id": "sx-ise",
+      "note": "希腊 -izein 经拉丁 -izare、法语 -iser 入英，作 -ise；modernise / localise 属此。与 -ize 是同一后缀的英式/美式拼写分工，不是两个词素。",
+      "kinds": [
+        "identity",
+        "gloss",
+        "etymology",
+        "derivation"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "detail": "appendix 2, p.299 (ch.3)"
         }
       ],
       "reviewer": "review-audit",

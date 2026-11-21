@@ -1,127 +1,82 @@
-# WordRoots 0.8.0
+# WordRoots 0.9.0
 
-**这一版不追求数字更大。** 它拆掉了 `verified` 这个含混标记，修掉三个让解析器判错的 bug，
-把 7 个词的词源重写成分层证据，并为"学习者到底学到没有"建立了第一个可测量的入口。
-上一版见 [`releases/v0.7.0.md`](releases/v0.7.0.md)。
+**这一版的核心是"证据能不能被复核"。** L7b 从 0 变成 14 个词素——每一个都带可重新抓取的词典
+URL 与原文引文；测评历史从 WebView 的 localStorage 搬进 SQLite，并进入备份、恢复与便携迁移。
+上一版见 [`releases/v0.8.0.md`](v0.8.0.md)。
 
-## 一、`verified` 拆成六个问题（P0）
+> 0.8.1 是发布修复版，已独立发布：打包资源强制校验、恢复 `w38d2` 切分场景、新增词族与测评
+> 冒烟场景、文档统计改为自动生成。本页描述 0.9.0 的内容工作。
 
-旧标签同时回答"词真不真、能不能拆、拆得对不对、词源有没有据"。结果：101 个 `verified` 词条里
-**有成分根本解析不出 ID**，却仍在给 L4 供证据。
+## 一、词源核验：从"填了字段"到"可复核"
 
-现在每个词带一个 `analysis` 块（`docs/WORD_STATUS.md`）：
+0.8.0 的 `documented` 只看"有没有来源字段"。0.9.0 把核验拆成五级，每条记录必须逐级通过：
 
-| 字段 | 含义 |
-| --- | --- |
-| `lexical` | 这个词真实存在 |
-| `analyzable` | 今天还能拆 |
-| `segmentation` | verified / partial / unverified / none——每个成分都要有交代 |
-| `unresolved[]` | 没 ID 的成分**及原因**：自由词干 / 正字法 / 确实缺记录 |
-| `etymology.status` | documented / inferred / disputed / unknown（documented 必须有可定位来源） |
-| `contested[]` | 学术分歧，保留多说 |
-| `quizSafe` | 可自动判题 |
-
-| 项目 | 数量 |
-| --- | --- |
-| 词条 | 1473 |
-| segmentation = verified | **1286** |
-| segmentation = partial | 161 |
-| etymology documented / inferred / disputed / unknown | 1058 / 8 / 1 / 406 |
-| quizSafe | 1286 |
-| legacy `verified` | 972（0.7.0 是 925，其中 101 个解析不全） |
-
-**verified 反而变多，是因为修了三个解析器 bug，不是放宽标准**：
-
-1. `forms.json` 只索引 `form`，**没索引 allomorphs** → `spect`/`spic`/`miss`/`cept` 全查不到，
-   `inspection`、`circumspect` 被判"缺成分"。
-2. 同族候选（`cept` 被 cap/ceipt/cept 三条记录声明）本该折叠却被判歧义。
-3. 消歧顺序错了：应**先看词自身的语源**，再看位置（词首才是前缀、词尾才是后缀），最后才看拼写。
-
-修正后 exact 1121、ambiguous 14；`captain` 回到 caput「头」、`capture` 回到 capere「抓」
-（此前两者都指向同一条记录）。剩余 161 个 partial 是**工作清单**，不是失败。
-
-## 二、7 个词的词源纠错（P0）
-
-`religion`、`intercom`、`credo`、`laptop`、`captain`、`lucid`、`psyche` 逐词区分四层：
-**历史造词 / 现代共时结构 / 教学拆分 / 可归纳的生产性规律**。
-
-- `intercom`：1918 年前后的截短复合（internal communication），**不是** inter- + com 的拉丁构词。
-- `credo`：直接借拉丁第一人称 `credō`「我相信」，词尾 -o 是动词词尾，**不是**连接元音。
-- `laptop`：现代英语复合词，**已从希腊 `top`「地方」剥离**，不再是 `cx-top`。
-- `religion`：`religare`（重新绑定）与 `relegere`（反复诵读）两说并存，标 `disputed`，
-  `contested` 记录两方证据与置信度。
-- `captain`：caput「头」→ 首领；与 `capture` 的 capere「抓」分属两条记录。
-
-`src/lib/etymology-regression.test.ts` 把每个词最容易写错的那一点钉成断言，防止回潮。
-
-## 三、来源与 L7 双口径（P0）
-
-- **补登记** `S5`（历史词典集）、`G1`（现代释义集）、`LEX`（项目规则，不是语言学证据）。
-  此前 330 条引 `S5`、491 条引 `G1`，**注册表里根本没有这两个 ID**。
-- 新增 `scripts/audit-reviews.mjs`：核查"引用的页码在教材成分表里是否真有该成分"。
-  **208 条审校中 193 条页码对得上**，15 条无页码。
-
-| 口径 | 含义 | 条数 |
+| 级别 | 判据 | 当前 |
 | --- | --- | --- |
-| L7a（0.7.0） | 有可定位来源 | 208 |
-| L7b（0.8.0） | 页码对得上 **且** 有词典独立交叉核验 | **0** |
+| 来源已登记 | 来源 ID 在 `sources.json` 注册 | 211 / 211 |
+| 已定位到具体条目 | 带可复现 URL 或教材页码 | 200 / 211 |
+| 条目内容支持主张 | 存有原文引文且 `supports: true` | **14** |
+| 独立来源交叉验证 | ≥2 个不同词条，或教材页 + 词典 | **14** |
+| 审校者确认无疑义 | 署名校校者且非 conflict | 211 |
 
-L7b 是 0，这是本轮最重要的负面结论：**208 条审校全部只引教材，没有一条做过词典交叉核验**。
-本环境无法访问词典站点，因此只建了机制、没有伪造数据。两个口径并列报告，避免"改定义"被读成"进步"。
+**L7b = 14 个词素**（0.8.0 是 0）。每个都来自实际抓取的 Wiktionary 原文，形如：
 
-## 四、词族档案（P1）
+```
+rx-spec  ·  inspect  ·  https://en.wiktionary.org/w/index.php?title=inspect&action=raw
+quote: "From Latin inspectum … from in- + specio, specere 'to look at'"
+```
 
-12 个族（spect / struct / port / fer / duct / mit / cap / scrib / graph / phon / chron / form），
-**171 个真实成员**，每个族一份 `src/content/families/*.json`：核心义、语源、成员（派生 / 同源异途分层）、
-异形与拼写规律、多层派生链、语义演变、**同形异源反例**、归纳提问、迁移检验题、来源。
+任何人都能重新打开该 URL 核对。工具链：`scripts/merge-etymology-verification.mjs` 把记录并入
+`reviews.json`，`scripts/audit-reviews.mjs` 按五级判定，两者都进 CI。
 
-词族页新增"词族档案"面板，直接渲染这些数据——解决"打开词族页只有两三个结果"的问题。
+**核验过程中查出的真错**：
 
-诚实说明：`phon`（5 成员）、`mit`（10 成员）在英语中真实成员本就少，档案里写明，**没有凑数**。
+- `salary`「士兵买盐津贴」是流行说法，缺同时代文献支持 → 已改为争议说法并标注 `contested`。
+- `cx-leg` 原把 `lex`（法）、`log`（说话）、`lig`（捆绑）并作同一词根的变体 → 已拆正，只保留
+  `lex/leg`，并注明拉丁 `lēx`「法律」与 `legere`「读、选」同形不同源。
+- `territory` 无法用该词素取证 → 改用 `terrain/terrestrial`，不硬凑。
 
-## 五、四组教材覆盖（P1）
+## 二、词条状态：quizSafe 收紧
 
-| 教材 | 覆盖 | 方法 |
-| --- | --- | --- |
-| S1（主教材） | 283/283 显式关联 + **抽样 30 个：27 pass / 3 partial / 0 fail** | 逐条核对正文、例词、练习 |
-| S2（构词学理论） | 43 个概念：**taught 33（76.7%）/ partial 7 / missing 3** | 缺的是理论框架类概念 |
-| S3（SWI 方法） | 五步：**4/5 taught**，观察一步只做到一半 | 检查是否要求学生自己归纳 |
-| S4（历史构词） | 内容 16/16；旧说 7 条中 **2 条显式隔离、2 条部分、3 条未隔离** | 逐条标注"教材说法 / 现代共识 / 有争议" |
+`quizSafe` 不再等于"成分都解析出来了"。现在要求：切分已核验 **且** 词源状态已知 **且** 无争议
+**且** 没有真正缺失的词素记录。**1305 → 989**。
 
-报告：`docs/TEXTBOOK_S2_S3_S4.md`、`analysis/textbook/*.json`。
+理由是：词源未知时，自动判题无法区分真分析与"看起来像"的分析；来源有争议时，系统可能把败方
+判成正确答案。不被 `quizSafe` 的题仍可人工审阅或在课堂上讲解，只是不进自动评分。
 
-## 六、能力测评（P1）
+## 三、测评数据进入 SQLite
 
-新增 `/assessment` 页面与 `src/content/assessment/items.json`（**60 题**，5 维：词素记忆、边界判断、
-词源与现代构词区分、陌生词推理、语境修正；每维 12 题、3 个难度档）。
+- 新表 `assessment_runs`（`id / mode / item_bank_version / started_at / finished_at / duration_ms / payload / created_at`）。
+- 首次启动把 `localStorage` 的历史一次性导入，写 `wordroots.assessment.migrated.v1` 标记；
+  导入幂等，重复运行不产生重复行；旧数据保留作回滚。
+- 损坏的单条 `payload` 不会拖垮启动：`assessment_list` 返回 `{runs, skipped}`，坏记录计数跳过。
+- 导出/导入带上 `assessment_run`；旧备份（无该字段）仍可导入，不会清空历史。
+- `item_bank_version` 随记录保存，换题后历史分数的解释依据仍在。
 
-- 题池与课程**隔离**：题库里的词不出现在任何课时里，测的是迁移而非记忆。
-- 三种模式：`baseline` / `checkpoint` / `retest`（延迟复测），本地保存历史，可对比同一人不同时间。
-- 页面上明确写着：**这是测评工具，不是学习效果实验**；分数变化不等于教学有效。
+## 四、覆盖率（证据制，未改口径）
 
-## 七、门禁
+| 级别 | 数值 |
+| --- | --- |
+| L2 已关联 | 518 / 559（93%） |
+| L4 例词充分 | 252（45%） |
+| L5 有讲解 | 229（41%） |
+| L6 有练习 | **211（38%）**（0.8.0 是 207） |
+| L7 有审校记录 | 234（42%） |
+| **L7b 独立交叉核验** | **9 / 559（2%）** |
+| 知识点 | 283 / 283 |
 
-新增并进入 CI：
+L6 上升来自解析器修复（allomorphs 索引 + 证据优先），不是新增题目。
 
-- `migrate-word-status --check`：状态漂移即失败（防止绕过推导直接改标记）
-- `audit-reviews`：审校引用完整性
-- `word-status.test.ts`（8 条不变量）、`etymology-regression.test.ts`、`assessment.test.ts`
-- 合计 **268 条单测**，12 个测试文件
+## 五、门禁
 
-## 七之二、发布包核对
+`migrate-word-status --check`（状态漂移）· `word-status-report --check`（文档与数据一致）·
+`audit-reviews`（证据分级）· 课程索引 · 课程包一致性 · 课时负担 · 内容校验 · 275 条单测（13 文件）。
 
-解包 v0.8.0 的 ZIP 复核：`manifest 0.8.0 / 39 周 / 243 课`、commit `28b90e8`、
-`1473` 个词条全部带 `analysis`（其中 `1286` 个 segmentation=verified），
-`node scripts/build-course-index.mjs --root` 报 `package matches index`。
+## 六、仍未完成
 
-一处包装细节：词族档案与测评题库**已编译进 app bundle**（`fam-spect-*.js`、`Assessment-*.js`），
-离线可用，但 0.8.0 的 ZIP 里没有 `courses/families` 可检查副本。
-下一次构建起打包脚本会把 `families/` 与 `assessment/` 一并复制进 `courses/`，便于不开 JS 也能读内容。
-
-## 八、仍未完成（明确写出）
-
-1. **L7b = 0**：词典交叉核验一条都没做。需要在能访问词典的环境里补，不能靠"看起来对"。
-2. **161 个 partial 词条**：缺具体词素记录或自由词干未入词库。
-3. **S2 缺 3 个概念、S3 缺"发现问题"环节、S4 有 3 条旧说未隔离**（w29d2 的两处断言需改）。
-4. **学习效果没有实验数据**：只有测评工具与自动化测试，两者都不等于教学有效。
-5. 课标时长仍为内容量估算（同侪相对偏差），没有真实完成耗时。
+1. **L7b 只有 14 个词素**（9 个成分）。把 559 个成分全部核验是长期工作，本轮只做了高价值词根。
+2. **S2 仍有 3 个 missing 概念、7 个 partial；S3 缺"从材料中自己发现问题"；S4 有 3 条旧说未隔离**
+   （含 w29d2 两处强断言）。这些是课程写作，本轮未动。
+3. **142 个 partial 词条**未逐条分类处理。
+4. **没有学习效果实验**：只有可导出的结构化数据与测评工具。
+5. 课标时长仍是同侪相对估算，没有真实完成耗时。

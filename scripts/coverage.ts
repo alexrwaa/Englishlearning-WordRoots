@@ -595,6 +595,23 @@ const levelSummary = LEVELS.map((level) => ({
     .map((row) => ({ element: row.element, chapter: row.chapter, reason: row.levels[level] ? '' : row.reason || LEVEL_RULES[level] })),
 }));
 
+// L7b: review records whose evidence passes all five levels (see
+// scripts/audit-reviews.mjs). Reported next to L7 instead of replacing it, so a
+// definition change can never read as progress.
+const crossVerified = new Map<string, number>();
+{
+  const raw = read<{ entries?: { id: string; verification?: { verdict?: string } }[] }>(
+    join(TX, 'reviews.json'),
+    {},
+  );
+  for (const entry of raw.entries ?? []) {
+    if (entry.verification && entry.verification.verdict !== 'conflict') {
+      crossVerified.set(entry.id, (crossVerified.get(entry.id) ?? 0) + 1);
+    }
+  }
+}
+const crossVerifiedElements = elementRows.filter((row) => row.morphemeId && crossVerified.has(row.morphemeId)).length;
+
 const summary = {
   generatedAt: new Date().toISOString(),
   identity: identity.stats(),
@@ -612,6 +629,7 @@ const summary = {
     elements: elementRows.length,
     knowledgePoints: kpRows.length,
     knowledgePointsTaught: kpRows.filter((row) => row.taught).length,
+    elementsCrossVerified: crossVerifiedElements,
     knowledgePointsMappedOnly: kpRows.filter((row) => !row.taught && row.mappedOnly.length > 0).length,
     chapters: chapters.length,
     sections: chapters.reduce((total, chapter) => total + (chapter.sections?.length ?? 0), 0),
@@ -654,6 +672,7 @@ console.log(`biggest gap: ${worst.level} ${worst.name} at ${worst.pct}% (${worst
 const biggestStuck = [...stuckAt.entries()].filter(([level]) => level !== 'done').sort((a, b) => b[1] - a[1])[0];
 if (biggestStuck) console.log(`most elements stop after ${biggestStuck[0]}: ${biggestStuck[1]}`);
 console.log(`knowledge points: ${summary.s1.knowledgePoints}, taught: ${summary.s1.knowledgePointsTaught} (${pct(summary.s1.knowledgePointsTaught, summary.s1.knowledgePoints)})`);
+console.log(`L7b 独立交叉核验（词典引用可通过 URL 复核）: ${crossVerifiedElements} / ${elementRows.length} (${pct(crossVerifiedElements, elementRows.length)})`);
 
 if (process.argv.includes('--write')) {
   const lines: string[] = [];

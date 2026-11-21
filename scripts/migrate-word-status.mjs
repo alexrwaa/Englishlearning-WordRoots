@@ -101,7 +101,16 @@ for (const word of words) {
 
   const lexical = word.lexical !== false;
   const analyzable = parts.length > 0 && segmentation !== 'unverified';
-  const quizSafe = lexical && analyzable && segmentation === 'verified';
+  // Gradeable means more than "the parts resolve": if the history is unknown the
+  // app cannot tell a real analysis from a plausible-looking one, and if the
+  // sources disagree an auto-marked answer may teach the losing side.
+  const quizSafe =
+    lexical &&
+    analyzable &&
+    segmentation === 'verified' &&
+    etyStatus !== 'unknown' &&
+    contested.length === 0 &&
+    !unresolved.some((gap) => gap.reason === 'unresolved');
   // A disputed etymology does not make the *split* unverified, but the legacy
   // flag historically claimed both, so it stays false where they disagree.
   const verified = segmentation === 'verified' && etyStatus !== 'unknown' && etyStatus !== 'disputed';

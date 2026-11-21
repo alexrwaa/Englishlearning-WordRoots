@@ -1,1602 +1,6 @@
 {
   "rows": [
     {
-      "id": "cx-plac",
-      "form": "plac",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-plac-gk",
-      "form": "plac",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-in",
-      "form": "in",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-im",
-      "form": "in",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-bi",
-      "form": "bi",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 267,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-bi-gk",
-      "form": "bi",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 268,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-bio",
-      "form": "bio",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-ver",
-      "form": "ver",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 282,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-ver-lat-2",
-      "form": "ver",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 282,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-crypt",
-      "form": "crypt",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 296,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-du",
-      "form": "du",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 299,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-nat",
-      "form": "nat",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 296,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-onomat",
-      "form": "onomat",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 293,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-pug",
-      "form": "pug",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 288,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-pung",
-      "form": "pung",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 288,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-tetra",
-      "form": "tetra",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 289,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-stru",
-      "form": "stru",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-norm",
-      "form": "norm",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-legal",
-      "form": "legal",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-spec",
-      "form": "spec",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 281,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-form",
-      "form": "form",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-port",
-      "form": "port",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-fer",
-      "form": "fer",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 271,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-duc",
-      "form": "duc",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 270,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-ject",
-      "form": "ject",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-scrib",
-      "form": "scrib",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-script",
-      "form": "script",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-mit",
-      "form": "mit",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-miss",
-      "form": "miss",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-cap",
-      "form": "cap",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 268,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-cept",
-      "form": "cept",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-graph",
-      "form": "graph",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-phon",
-      "form": "phon",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-geo",
-      "form": "geo",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-therm",
-      "form": "therm",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-chron",
-      "form": "chron",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 268,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-aud",
-      "form": "aud",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 267,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-vid",
-      "form": "vid",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-vis",
-      "form": "vis",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": null,
-      "pageCheck": "unlocated",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-anthrop",
-      "form": "anthrop",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 267,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-chrom",
-      "form": "chrom",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 268,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-cosm",
-      "form": "cosm",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 269,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-lex-leg",
-      "form": "lex",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-macr",
-      "form": "macr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-micr",
-      "form": "micr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-morph",
-      "form": "morph",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-nom",
-      "form": "nom",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-gam",
-      "form": "gam",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-iatr",
-      "form": "iatr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-idi",
-      "form": "idi",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-top",
-      "form": "top",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 282,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-xen",
-      "form": "xen",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 283,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-path",
-      "form": "path",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-petr",
-      "form": "petr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-phil",
-      "form": "phil",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-pol",
-      "form": "pol",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-pseud",
-      "form": "pseud",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-psych",
-      "form": "psych",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-pyr",
-      "form": "pyr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-anim",
-      "form": "anim",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 267,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-culp",
-      "form": "culp",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 269,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-leg",
-      "form": "leg",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-libr",
-      "form": "libr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-liter",
-      "form": "liter",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-nov",
-      "form": "nov",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-par",
-      "form": "par",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 277,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-sci",
-      "form": "sci",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 280,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-sec",
-      "form": "sec",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 280,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-somn",
-      "form": "somn",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 280,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-fug",
-      "form": "fug",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-grat",
-      "form": "grat",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-greg",
-      "form": "greg",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-hom",
-      "form": "hom",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-pet",
-      "form": "pet",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-prob",
-      "form": "prob",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-apo",
-      "form": "apo",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 267,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-cata",
-      "form": "cata",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 268,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-contra-counter",
-      "form": "contra",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 269,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-iso",
-      "form": "iso",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-meso",
-      "form": "meso",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-meta",
-      "form": "meta",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-ob",
-      "form": "ob",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-para",
-      "form": "para",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 277,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-sis",
-      "form": "sis",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 280,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-super",
-      "form": "super",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 281,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-tempor",
-      "form": "tempor",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 281,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-dia",
-      "form": "dia",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 270,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-ec",
-      "form": "ec",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 270,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-ecto",
-      "form": "ecto",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 270,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-endo",
-      "form": "endo",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 271,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-epi",
-      "form": "epi",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 271,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-hetero",
-      "form": "hetero",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-homo",
-      "form": "homo",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-hypo",
-      "form": "hypo",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-infra",
-      "form": "infra",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-inter",
-      "form": "inter",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-intra",
-      "form": "intra",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 273,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-per",
-      "form": "per",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-peri",
-      "form": "peri",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-post",
-      "form": "post",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-pre",
-      "form": "pre",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-pro",
-      "form": "pro",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "sx-ise",
-      "form": "ise",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 299,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-oid",
-      "form": "oid",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 295,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-o",
-      "form": "o",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-eme",
-      "form": "eme",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 271,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-ante",
-      "form": "ante",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 267,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-sist",
-      "form": "sist",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 297,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-am-im",
-      "form": "am",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 267,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-ann-enn",
-      "form": "ann",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 267,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-cer-cri",
-      "form": "cer",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 268,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-cid",
-      "form": "cid",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 268,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-cub-cumb",
-      "form": "cub",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 269,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-men-mon",
-      "form": "men",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-mne",
-      "form": "mne",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-mo",
-      "form": "mo",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-gn-gen",
-      "form": "gn",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-nec-noc",
-      "form": "nec",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-erg-urg",
-      "form": "erg",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 277,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-fac-fec",
-      "form": "fac",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 271,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-frag-frang",
-      "form": "frag",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 271,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-fund-fus",
-      "form": "fund",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-gon-gen",
-      "form": "gon",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-equ-iqu",
-      "form": "equ",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 271,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-tag-teg",
-      "form": "tag",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 281,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-ten",
-      "form": "ten",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 281,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-tom-tm",
-      "form": "tom",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 282,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-vinc-vic",
-      "form": "vinc",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 283,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-vor",
-      "form": "vor",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 283,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-zo",
-      "form": "zo",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 283,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-pend-pond",
-      "form": "pend",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-sacr-sanc",
-      "form": "sacr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 280,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-div-de",
-      "form": "div",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 270,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
       "id": "cx-aesth-esth",
       "form": "aesth",
       "kinds": [
@@ -1606,7 +10,15 @@
       "citedPage": 266,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
     },
     {
       "id": "cx-ag-ig",
@@ -1618,7 +30,15 @@
       "citedPage": 266,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
     },
     {
       "id": "cx-alt",
@@ -1630,7 +50,35 @@
       "citedPage": 267,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-am-im",
+      "form": "am",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 267,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
     },
     {
       "id": "cx-ambul",
@@ -1642,7 +90,15 @@
       "citedPage": 267,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
     },
     {
       "id": "cx-andr",
@@ -1654,7 +110,95 @@
       "citedPage": 267,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-anim",
+      "form": "anim",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 267,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-ann-enn",
+      "form": "ann",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 267,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-anthrop",
+      "form": "anthrop",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 267,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-apo",
+      "form": "apo",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 267,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
     },
     {
       "id": "cx-arch",
@@ -1666,7 +210,35 @@
       "citedPage": 267,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-aud",
+      "form": "aud",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 267,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
     },
     {
       "id": "cx-av",
@@ -1678,811 +250,15 @@
       "citedPage": 267,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-ced-cess",
-      "form": "ced",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 268,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-clud",
-      "form": "clud",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 269,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-lic",
-      "form": "lic",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-ne",
-      "form": "ne",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-reg-rig",
-      "form": "reg-rig",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 280,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-sens",
-      "form": "sens",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 280,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-tele",
-      "form": "tele",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 281,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-tend-tens",
-      "form": "tend",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 281,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-doc",
-      "form": "doc",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 270,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-ero",
-      "form": "ero",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 271,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-eu",
-      "form": "eu",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 271,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-grad-gred",
-      "form": "grad",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-heli",
-      "form": "heli",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-trud-trus",
-      "form": "trud",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 282,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-phot-phos",
-      "form": "phot",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-prac",
-      "form": "prac",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-mono",
-      "form": "mono",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 294,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-cent",
-      "form": "cent",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 268,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-mult",
-      "form": "mult",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-poly",
-      "form": "poly",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-tri",
-      "form": "tri",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 282,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-quadr",
-      "form": "quadr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "px-semi",
-      "form": "semi",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 280,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-hemi",
-      "form": "hemi",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-deca",
-      "form": "deca",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 270,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-prim",
-      "form": "prim",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-prot",
-      "form": "prot",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-milli",
-      "form": "milli",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-dermat-derm",
-      "form": "dermat",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 270,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-gastr",
-      "form": "gastr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-hepat",
-      "form": "hepat",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 272,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-nephr",
-      "form": "nephr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-oste",
-      "form": "oste",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 277,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-rhin",
-      "form": "rhin",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 280,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-ophthalm",
-      "form": "ophthalm",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 277,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-phleb",
-      "form": "phleb",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-pne-pneum",
-      "form": "pne",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-laryng",
-      "form": "laryng",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-mamm",
-      "form": "mamm",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-itis",
-      "form": "itis",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-oma",
-      "form": "oma",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 277,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-cred",
-      "form": "cred",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 269,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-dic",
-      "form": "dic",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 270,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-lith-lit",
-      "form": "lith",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-terr",
-      "form": "terr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 281,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-vit-viv",
-      "form": "vit",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 283,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-vac-van",
-      "form": "vac",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 282,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-flu-fluc",
-      "form": "flu",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 271,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-jus-jur",
-      "form": "jus",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-locu-loqu",
-      "form": "locu",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 274,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-magn",
-      "form": "magn",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-matr",
-      "form": "matr",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 275,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-nomen-nomin",
-      "form": "nomen",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-orth",
-      "form": "orth",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 277,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-soph",
-      "form": "soph",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 281,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-voc",
-      "form": "voc",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 283,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-curs-curr",
-      "form": "curs",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 269,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-dent",
-      "form": "dent",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 270,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-odont",
-      "form": "odont",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 277,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-mun",
-      "form": "mun",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-nav",
-      "form": "nav",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-null",
-      "form": "null",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 276,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-som-somat",
-      "form": "som",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 280,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-trop",
-      "form": "trop",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 282,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-xyl",
-      "form": "xyl",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 283,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "cx-phag",
-      "form": "phag",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 278,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
-    },
-    {
-      "id": "rx-pter",
-      "form": "pter",
-      "kinds": [
-        "textbook",
-        "review"
-      ],
-      "citedPage": 279,
-      "pageCheck": "page-matches",
-      "l7a": true,
-      "l7b": false
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
     },
     {
       "id": "cx-bell",
@@ -2494,15 +270,4018 @@
       "citedPage": 267,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-bi",
+      "form": "bi",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 267,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-bi-gk",
+      "form": "bi",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 268,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-bio",
+      "form": "bio",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-cata",
+      "form": "cata",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 268,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-ced-cess",
+      "form": "ced",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 268,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-cent",
+      "form": "cent",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 268,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-cer-cri",
+      "form": "cer",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 268,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-chrom",
+      "form": "chrom",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 268,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-chron",
+      "form": "chron",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 268,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-contra-counter",
+      "form": "contra",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 269,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-cosm",
+      "form": "cosm",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 269,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-crypt",
+      "form": "crypt",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 296,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-cub-cumb",
+      "form": "cub",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 269,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-culp",
+      "form": "culp",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 269,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-curs-curr",
+      "form": "curs",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 269,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-deca",
+      "form": "deca",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 270,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-dent",
+      "form": "dent",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 270,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-dermat-derm",
+      "form": "dermat",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 270,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-dia",
+      "form": "dia",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 270,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-dic",
+      "form": "dic",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 270,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-div-de",
+      "form": "div",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 270,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-doc",
+      "form": "doc",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 270,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-du",
+      "form": "du",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 299,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-ec",
+      "form": "ec",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 270,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-ecto",
+      "form": "ecto",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 270,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-eme",
+      "form": "eme",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 271,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-endo",
+      "form": "endo",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 271,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-epi",
+      "form": "epi",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 271,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-equ-iqu",
+      "form": "equ",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 271,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-erg-urg",
+      "form": "erg",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 277,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-ero",
+      "form": "ero",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 271,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-eu",
+      "form": "eu",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 271,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-fac-fec",
+      "form": "fac",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 271,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-flu-fluc",
+      "form": "flu",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 271,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-frag-frang",
+      "form": "frag",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 271,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-fug",
+      "form": "fug",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-fund-fus",
+      "form": "fund",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-gam",
+      "form": "gam",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-gastr",
+      "form": "gastr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-geo",
+      "form": "geo",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-gn-gen",
+      "form": "gn",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-gon-gen",
+      "form": "gon",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-grad-gred",
+      "form": "grad",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-graph",
+      "form": "graph",
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "cx-grat",
+      "form": "grat",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-greg",
+      "form": "greg",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-heli",
+      "form": "heli",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-hemi",
+      "form": "hemi",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-hepat",
+      "form": "hepat",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 272,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-hetero",
+      "form": "hetero",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-hom",
+      "form": "hom",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-homo",
+      "form": "homo",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-iatr",
+      "form": "iatr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-idi",
+      "form": "idi",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-iso",
+      "form": "iso",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-itis",
+      "form": "itis",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-jus-jur",
+      "form": "jus",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-laryng",
+      "form": "laryng",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-leg",
+      "form": null,
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "form-not-in-appendix",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "cx-lex-leg",
+      "form": "lex",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-libr",
+      "form": "libr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-lic",
+      "form": "lic",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-liter",
+      "form": "liter",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-lith-lit",
+      "form": "lith",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-locu-loqu",
+      "form": "locu",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 274,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-macr",
+      "form": "macr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-magn",
+      "form": "magn",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-mamm",
+      "form": "mamm",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-matr",
+      "form": "matr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-men-mon",
+      "form": "men",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-meso",
+      "form": "meso",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-meta",
+      "form": "meta",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-micr",
+      "form": "micr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-milli",
+      "form": "milli",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-mne",
+      "form": "mne",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-mo",
+      "form": "mo",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-morph",
+      "form": "morph",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-mult",
+      "form": "mult",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-mun",
+      "form": "mun",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-nat",
+      "form": "nat",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 296,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-nav",
+      "form": "nav",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-ne",
+      "form": "ne",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-nec-noc",
+      "form": "nec",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-nephr",
+      "form": "nephr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-nom",
+      "form": "nom",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-nomen-nomin",
+      "form": "nomen",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-nov",
+      "form": "nov",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-null",
+      "form": "null",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-o",
+      "form": "o",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-odont",
+      "form": "odont",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 277,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-oid",
+      "form": "oid",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 295,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-oma",
+      "form": "oma",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 277,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-onomat",
+      "form": "onomat",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 293,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-ophthalm",
+      "form": "ophthalm",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 277,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-orth",
+      "form": "orth",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 277,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-oste",
+      "form": "oste",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 277,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-par",
+      "form": "par",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 277,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-para",
+      "form": "para",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 277,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-path",
+      "form": "path",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-pend-pond",
+      "form": "pend",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-peri",
+      "form": "peri",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-pet",
+      "form": "pet",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-petr",
+      "form": "petr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-phag",
+      "form": "phag",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-phil",
+      "form": "phil",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-phleb",
+      "form": "phleb",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-phon",
+      "form": "phon",
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "cx-phot-phos",
+      "form": "phot",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-plac",
+      "form": "plac",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-plac-gk",
+      "form": "plac",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-pne-pneum",
+      "form": "pne",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-pol",
+      "form": "pol",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-poly",
+      "form": "poly",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-prac",
+      "form": "prac",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-prim",
+      "form": "prim",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-prob",
+      "form": "prob",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-prot",
+      "form": "prot",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-pseud",
+      "form": "pseud",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-psych",
+      "form": "psych",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-pug",
+      "form": "pug",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 288,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-pung",
+      "form": "pung",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 288,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-pyr",
+      "form": "pyr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-quadr",
+      "form": "quadr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-reg-rig",
+      "form": "reg-rig",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 280,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-rhin",
+      "form": "rhin",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 280,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-sacr-sanc",
+      "form": "sacr",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 280,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-sal-2",
+      "form": "sal",
+      "kinds": [
+        "dictionary",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 2
+      }
+    },
+    {
+      "id": "cx-sci",
+      "form": "sci",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 280,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-sec",
+      "form": "sec",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 280,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-sis",
+      "form": "sis",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 280,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-som-somat",
+      "form": "som",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 280,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-somn",
+      "form": "somn",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 280,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-soph",
+      "form": "soph",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 281,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-tag-teg",
+      "form": "tag",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 281,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-tempor",
+      "form": "tempor",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 281,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-tend-tens",
+      "form": "tend",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 281,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-terr",
+      "form": "terr",
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": 281,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "cx-tetra",
+      "form": "tetra",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 289,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-therm",
+      "form": "therm",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-tom-tm",
+      "form": "tom",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 282,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-top",
+      "form": "top",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 282,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-tri",
+      "form": "tri",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 282,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-trop",
+      "form": "trop",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 282,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-trud-trus",
+      "form": "trud",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 282,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-vac-van",
+      "form": "vac",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 282,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-ven-2",
+      "form": "ven",
+      "kinds": [
+        "dictionary",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 2
+      }
+    },
+    {
+      "id": "cx-ver",
+      "form": "ver",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 282,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-ver-lat-2",
+      "form": "ver",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 282,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-vinc-vic",
+      "form": "vinc",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 283,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-vit-viv",
+      "form": "vit",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 283,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-voc",
+      "form": "voc",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 283,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-vor",
+      "form": "vor",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 283,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-xen",
+      "form": "xen",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 283,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-xyl",
+      "form": "xyl",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 283,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "cx-zo",
+      "form": "zo",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 283,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-ante",
+      "form": "ante",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 267,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-hypo",
+      "form": "hypo",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-im",
+      "form": "in",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-in",
+      "form": "in",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-infra",
+      "form": "infra",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-inter",
+      "form": "inter",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-intra",
+      "form": "intra",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 273,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-mono",
+      "form": "mono",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 294,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-ob",
+      "form": "ob",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 276,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-per",
+      "form": "per",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 278,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-post",
+      "form": "post",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-pre",
+      "form": "pre",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-pro",
+      "form": "pro",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-semi",
+      "form": "semi",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 280,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-super",
+      "form": "super",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 281,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "px-tele",
+      "form": "tele",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 281,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-cap",
+      "form": "cap",
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": 268,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "rx-capit",
+      "form": "capit",
+      "kinds": [
+        "dictionary",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "rx-cept",
+      "form": "cept",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-cid",
+      "form": "cid",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 268,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-clud",
+      "form": "clud",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 269,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-cred",
+      "form": "cred",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 269,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-duc",
+      "form": "duc",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 270,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-fer",
+      "form": "fer",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 271,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-form",
+      "form": "form",
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "rx-ject",
+      "form": "ject",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-legal",
+      "form": "legal",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-miss",
+      "form": "miss",
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": 275,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "rx-mit",
+      "form": "mit",
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "rx-norm",
+      "form": "norm",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-port",
+      "form": "port",
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "rx-pter",
+      "form": "pter",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 279,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-scrib",
+      "form": "scrib",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-script",
+      "form": "script",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-sens",
+      "form": "sens",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 280,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-sist",
+      "form": "sist",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 297,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-spec",
+      "form": "spec",
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": 281,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "rx-stru",
+      "form": "stru",
+      "kinds": [
+        "textbook",
+        "dictionary",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": true,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": true,
+        "reviewed": true
+      },
+      "verification": {
+        "verdict": "verified",
+        "records": 3
+      }
+    },
+    {
+      "id": "rx-ten",
+      "form": "ten",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 281,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-vid",
+      "form": "vid",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "rx-vis",
+      "form": "vis",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": false,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
+    },
+    {
+      "id": "sx-ise",
+      "form": "ise",
+      "kinds": [
+        "textbook",
+        "review"
+      ],
+      "citedPage": 299,
+      "pageCheck": "page-matches",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": false,
+        "independent": false,
+        "reviewed": true
+      },
+      "verification": null
     }
   ],
   "pageStats": {
-    "page-matches": 193,
-    "unlocated": 15
+    "page-matches": 192,
+    "unlocated": 18,
+    "form-not-in-appendix": 1
   },
   "kindStats": {
     "textbook": 208,
-    "review": 208
+    "review": 211,
+    "dictionary": 14
   }
 }

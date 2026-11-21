@@ -1,6 +1,6 @@
 # 教材覆盖率审计（自动生成）
 
-生成时间：2026-11-21T00:57:46.077Z
+生成时间：2026-11-21T03:34:45.011Z
 
 > 本文件由 `npx tsx scripts/coverage.ts --write` 生成，请勿手工编辑。
 > 数据来自教材清单、词库（含 `forms.json` 身份索引）、课程与审校记录四处独立来源。
@@ -11,11 +11,11 @@
 | 级别 | 判据 | 数量 | 占比 |
 | --- | --- | --- | --- |
 | L1 已登记 | 出现在 s1-elements.json | 559 | 100% |
-| L2 已关联 | 元素 → 词素 ID，form 与 origin 同时一致 | 519 | 93% |
-| L3 释义已核 | glossZh 与 glossEn 均非空且无占位符 | 519 | 93% |
-| L4 例词充分 | ≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true） | 253 | 45% |
-| L5 有讲解 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） | 230 | 41% |
-| L6 有练习 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） | 207 | 37% |
+| L2 已关联 | 元素 → 词素 ID，form 与 origin 同时一致 | 518 | 93% |
+| L3 释义已核 | glossZh 与 glossEn 均非空且无占位符 | 518 | 93% |
+| L4 例词充分 | ≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true） | 252 | 45% |
+| L5 有讲解 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） | 229 | 41% |
+| L6 有练习 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） | 211 | 38% |
 | L7 已审校 | 该词素在 reviews.json 有审校记录（或记录自带 review.by） | 234 | 42% |
 
 ## 一之二、证据构成（可抽样复核）
@@ -24,8 +24,8 @@
 | --- | --- | --- | --- |
 | L5 | 卡片/课时声明 ID | 41 | 最强：作者显式声明 |
 | L5 | 卡片声明拼写 | 22 | 拼写经身份索引解析到唯一 ID |
-| L5 | 卡片正文释义 | 167 | 命中处附近有释义线索，报告存片段 |
-| L6 | 题目声明成分 | 175 | parts / concepts / matrix base |
+| L5 | 卡片正文释义 | 166 | 命中处附近有释义线索，报告存片段 |
+| L6 | 题目声明成分 | 179 | parts / concepts / matrix base |
 | L6 | 答案为已知词 | 32 | wordSum/cloze 答案词的 partIds 含该 ID |
 | L7 | 有来源的审校 | 234 | 必须带 sources，否则不计 |
 
@@ -37,13 +37,13 @@
 | 停在 | 数量 | 含义 |
 | --- | --- | --- |
 | L1 已登记 未过 | 0 | 出现在 s1-elements.json 尚未满足 |
-| L2 已关联 未过 | 40 | 元素 → 词素 ID，form 与 origin 同时一致 尚未满足 |
+| L2 已关联 未过 | 41 | 元素 → 词素 ID，form 与 origin 同时一致 尚未满足 |
 | L3 释义已核 未过 | 0 | glossZh 与 glossEn 均非空且无占位符 尚未满足 |
 | L4 例词充分 未过 | 266 | ≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true） 尚未满足 |
 | L5 有讲解 未过 | 98 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） 尚未满足 |
-| L6 有练习 未过 | 26 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） 尚未满足 |
-| L7 已审校 未过 | 61 | 该词素在 reviews.json 有审校记录（或记录自带 review.by） 尚未满足 |
-| — 七级全过 | 68 | 已登记、已关联、释义已核、例词充分、有讲解、有练习、已审校 |
+| L6 有练习 未过 | 21 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） 尚未满足 |
+| L7 已审校 未过 | 62 | 该词素在 reviews.json 有审校记录（或记录自带 review.by） 尚未满足 |
+| — 七级全过 | 71 | 已登记、已关联、释义已核、例词充分、有讲解、有练习、已审校 |
 
 ## 三、各级差异清单（前 20 条）
 
@@ -51,7 +51,7 @@
 
 - 无
 
-### L2 已关联（缺 40 条）
+### L2 已关联（缺 41 条）
 
 - `-ise`（第 3 章）：同形同源多条记录且释义不匹配（sx-ise / sx-ize）
 - `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）
@@ -66,15 +66,15 @@
 - `co-~con-~com-`（第 3 章）：同形同源多条记录，释义仍无法区分（px-com / px-con）
 - `con-~com-~co-`（第 3 章）：同形同源多条记录，释义仍无法区分（px-con / px-com）
 - `-ive~-tive`（第 3,4,6 章）：同形同源多条记录且释义不匹配（cx-tive-ive / sx-ative）
+- `leg`（第 2 章）：同形同源多条记录且释义不匹配（cx-lig / rx-lect）
 - `ly`（第 11 章）：词库中没有 form+origin 一致的记录（ly · G）
 - `-ment`（第 9 章）：词库中没有 form+origin 一致的记录（ment · L）
 - `metr`（第 10 章）：同形同源多条记录且释义不匹配（cx-meter / cx-metr）
 - `mis`（第 1 章）：词库中没有 form+origin 一致的记录（mis · G）
 - `mitt~miss`（第 3,4 章）：同形同源多条记录，释义仍无法区分（rx-mitt / rx-mit）
 - `nano-`（第 6 章）：词库中没有 form+origin 一致的记录（nano · G）
-- `-nd~-and~-end`（第 9 章）：同形同源多条记录，释义仍无法区分（sx-nd / cx-and-end）
 
-### L3 释义已核（缺 40 条）
+### L3 释义已核（缺 41 条）
 
 - `-ise`（第 3 章）：同形同源多条记录且释义不匹配（sx-ise / sx-ize）
 - `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）
@@ -89,15 +89,15 @@
 - `co-~con-~com-`（第 3 章）：同形同源多条记录，释义仍无法区分（px-com / px-con）
 - `con-~com-~co-`（第 3 章）：同形同源多条记录，释义仍无法区分（px-con / px-com）
 - `-ive~-tive`（第 3,4,6 章）：同形同源多条记录且释义不匹配（cx-tive-ive / sx-ative）
+- `leg`（第 2 章）：同形同源多条记录且释义不匹配（cx-lig / rx-lect）
 - `ly`（第 11 章）：词库中没有 form+origin 一致的记录（ly · G）
 - `-ment`（第 9 章）：词库中没有 form+origin 一致的记录（ment · L）
 - `metr`（第 10 章）：同形同源多条记录且释义不匹配（cx-meter / cx-metr）
 - `mis`（第 1 章）：词库中没有 form+origin 一致的记录（mis · G）
 - `mitt~miss`（第 3,4 章）：同形同源多条记录，释义仍无法区分（rx-mitt / rx-mit）
 - `nano-`（第 6 章）：词库中没有 form+origin 一致的记录（nano · G）
-- `-nd~-and~-end`（第 9 章）：同形同源多条记录，释义仍无法区分（sx-nd / cx-and-end）
 
-### L4 例词充分（缺 306 条）
+### L4 例词充分（缺 307 条）
 
 - `-ise`（第 3 章）：同形同源多条记录且释义不匹配（sx-ise / sx-ize）
 - `onomat`（第 10 章）：verified 词条只有 0 个（需要 2 个）
@@ -120,7 +120,7 @@
 - `alt (< al 'grow')`（第 5 章）：verified 词条只有 0 个（需要 2 个）
 - `am~im`（第 4 章）：verified 词条只有 0 个（需要 2 个）
 
-### L5 有讲解（缺 329 条）
+### L5 有讲解（缺 330 条）
 
 - `crypt`（第 9 章）：没有任何课时讲到它
 - `du`（第 6 章）：没有任何课时讲到它
@@ -143,7 +143,7 @@
 - `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
 - `al`（第 10 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
 
-### L6 有练习（缺 352 条）
+### L6 有练习（缺 348 条）
 
 - `crypt`（第 9 章）：没有任何课时讲到它
 - `du`（第 6 章）：没有任何课时讲到它
@@ -341,13 +341,13 @@
 | lact | milk | 8 | L | cx-lact | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
 | laryng | voice box | 8 | G | cx-laryng | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | lat | carry | 10 | L | rx-fer | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
-| leg | law, deputize | 2 | L | cx-leg | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
-| leg~lex~log | speak, study | 1 | G | cx-lex-leg | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
+| leg | law, deputize | 2 | L | — | ✓ | — | — | — | — | — | — | L2 |
+| leg~lex~log | speak, study | 1 | G | cx-lex-leg | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | leg~lig | gather, read | 5 | L | rx-lect | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
-| lex~leg~log | word, speak | 1 | G | cx-lex-leg | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
+| lex~leg~log | word, speak | 1 | G | cx-lex-leg | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | libr | balance, weigh | 2 | L | cx-libr | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | lic | permit, unrestrained | 5 | L | cx-lic | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
-| lig | tie, bind | 10 | L | cx-lig | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | L6 |
+| lig | tie, bind | 10 | L | cx-lig | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | lig~leg | gather, read | 5 | L | rx-lect | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
 | lign | wood | 10 | L | cx-lign | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | lit~lith | stone | 9 | L | cx-lit-lith | ✓ | ✓ | ✓ | — | — | — | — | L4 |
@@ -355,7 +355,7 @@
 | lith~lit | stone | 9 | G | cx-lith-lit | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | loc | place | 6 | L | rx-loc | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | locu~loqu | speak | 10 | L | cx-locu-loqu | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
-| log~leg~lex | speak, study | 1 | G | cx-lex-leg | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
+| log~leg~lex | speak, study | 1 | G | cx-lex-leg | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | loqu~locu | speak | 10 | L | cx-locu-loqu | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | lu~lv | dissolve | 11 | L | cx-lu-lv | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | lumen~lumin~luc | light | 6 | L | cx-lumen-lumin | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | L6 |
@@ -669,7 +669,7 @@
 | van~vac | empty | 9 | L | cx-vac-van | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | L4 |
 | vas | vessel, blood vessel, duct | 8 | L | cx-vas | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | ven | come | 2 | L | cx-ven | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
-| ven | vein | 8 | L | cx-ven-2 | ✓ | ✓ | ✓ | — | — | — | — | L4 |
+| ven | vein | 8 | L | cx-ven-2 | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | ver | true | 2 | L | cx-ver | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | ver | turn | 9 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | verg (< ver) | turn | 9 | L | cx-verg | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |

@@ -57,6 +57,14 @@ interface WebDb {
 export const WEB_DB_KEY = 'wordroots.dev.db.v1';
 const WEB_BACKUP_KEY = 'wordroots.dev.backup.last';
 
+/**
+ * Keys shared with `lib/assessment.ts`. They live here so the browser-preview
+ * export/import paths can pass assessment history through without importing
+ * `assessment.ts` (which imports this module).
+ */
+export const ASSESSMENT_KEY = 'wordroots.assessment.v1';
+export const ASSESSMENT_MIGRATED_KEY = 'wordroots.assessment.migrated.v1';
+
 function emptyDb(): WebDb {
   return { settings: {}, lessonStates: [], cards: [], reviews: [], attempts: [], notes: [], bookmarks: [] };
 }
@@ -88,6 +96,26 @@ function readBackup(): BackupFile {
     notes: d.notes,
     bookmarks: d.bookmarks,
   });
+}
+
+/** Assessment runs stored by `lib/assessment.ts` (opaque pass-through here). */
+function readAssessmentRuns(): unknown[] {
+  try {
+    const raw = localStorage.getItem(ASSESSMENT_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw) as { runs?: unknown };
+    return Array.isArray(parsed.runs) ? parsed.runs : [];
+  } catch {
+    return [];
+  }
+}
+
+function writeAssessmentRuns(runs: unknown[]) {
+  try {
+    localStorage.setItem(ASSESSMENT_KEY, JSON.stringify({ version: 1, runs: runs.slice(0, 200) }));
+  } catch {
+    // Quota / locked webview: the restore of the main database already happened.
+  }
 }
 
 function localDay(ts: number): string {
@@ -173,6 +201,28 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
       writeDb(db);
       return !had as T;
     }
+    case 'assessment_list': {
+      const all = readAssessmentRuns();
+      const runs = all.filter(
+        (run): run is Record<string, unknown> =>
+          typeof run === 'object' && run !== null && typeof (run as Record<string, unknown>).id === 'string',
+      );
+      runs.sort((a, b) => Number(b.finishedAt ?? 0) - Number(a.finishedAt ?? 0));
+      return { runs: runs.slice(0, 200), skipped: all.length - runs.length } as T;
+    }
+    case 'assessment_save': {
+      const run = args.run as Record<string, unknown>;
+      const rest = readAssessmentRuns().filter(
+        (entry) => (entry as Record<string, unknown>).id !== run.id,
+      );
+      writeAssessmentRuns([run, ...rest]);
+      return undefined as T;
+    }
+    case 'assessment_clear':
+      writeAssessmentRuns([]);
+      return undefined as T;
+    case 'assessment_count':
+      return readAssessmentRuns().length as T;
     case 'load_daily_stats': {
       const byDay = new Map<string, { minutes: number; reviews: number; correct: number; total: number }>();
       for (const a of db.attempts) {
@@ -223,7 +273,7 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
     case 'export_data': {
       // The browser has no file system: hand the canonical backup JSON back to
       // the caller, which downloads it as a .json file.
-      return JSON.stringify(readBackup()) as T;
+      return JSON.stringify({ ...readBackup(), assessments: readAssessmentRuns() }) as T;
     }
     case 'import_data': {
       // Validate first, snapshot the current database second, write third: the
@@ -234,6 +284,16 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
       if (current) localStorage.setItem(PREIMPORT_KEY, current);
       const payload = toWebDb(result.file, { ...DEFAULT_SETTINGS, ...db.settings });
       writeAtomic(localStorage, WEB_DB_KEY, `${WEB_DB_KEY}.staging`, payload);
+      // Assessment history rides along at the top level of the file. Read it
+      // from the raw JSON: validation/`toWebDb` only knows the v1 tables and
+      // would otherwise drop it.
+      let assessments: unknown;
+      try {
+        assessments = (JSON.parse(String(args.json ?? '{}')) as { assessments?: unknown }).assessments;
+      } catch {
+        assessments = undefined;
+      }
+      if (Array.isArray(assessments)) writeAssessmentRuns(assessments);
       return undefined as T;
     }
     case 'db_health':
@@ -308,6 +368,43 @@ export interface Bookmark {
   createdAt: number;
 }
 
+/**
+ * One assessment run as stored by SQLite. `payload` is the whole `RunResult`
+ * (dimensions/overall/answers) and is treated as opaque here.
+ */
+export interface AssessmentRunRecord {
+  id: string;
+  mode: string;
+  itemBankVersion: number;
+  startedAt: number;
+  finishedAt: number;
+  durationMs: number;
+  payload: unknown;
+}
+
+export interface AssessmentListResult {
+  runs: unknown[];
+  /** Rows whose payload no longer parses; dropped but reported. */
+  skipped: number;
+}
+
+/** Map a stored run (RunResult-shaped) onto the row shape `import_data` reads. */
+function toAssessmentRow(run: unknown): Record<string, unknown> {
+  const r = (typeof run === 'object' && run !== null ? run : {}) as Record<string, unknown>;
+  const num = (v: unknown, fallback = 0) => (typeof v === 'number' && Number.isFinite(v) ? v : fallback);
+  const finishedAt = num(r.finishedAt);
+  return {
+    id: String(r.id ?? ''),
+    mode: String(r.mode ?? 'baseline'),
+    item_bank_version: num(r.itemBankVersion, 1),
+    started_at: num(r.startedAt),
+    finished_at: finishedAt,
+    duration_ms: num(r.durationMs),
+    payload: JSON.stringify(r),
+    created_at: finishedAt,
+  };
+}
+
 export const db = {
   info: () => call<AppInfo>('app_info'),
   health: () => call<string>('db_health'),
@@ -332,6 +429,11 @@ export const db = {
   bookmarks: () => call<Bookmark[]>('load_bookmarks'),
   toggleBookmark: (targetType: string, targetId: string) =>
     call<boolean>('toggle_bookmark', { target_type: targetType, target_id: targetId }),
+  /** Desktop: SQLite, newest first, damaged rows counted as `skipped`. */
+  assessmentList: () => call<AssessmentListResult>('assessment_list'),
+  assessmentSave: (run: AssessmentRunRecord) => call<void>('assessment_save', { run }),
+  assessmentClear: () => call<void>('assessment_clear'),
+  assessmentCount: () => call<number>('assessment_count'),
   backup: () => call<string>('backup_now'),
   /**
    * Desktop: `export_data` writes a snapshot into `backups/` and returns its
@@ -349,7 +451,16 @@ export const db = {
    */
   importBackup: (file: BackupFile) =>
     IS_TAURI
-      ? call<void>('import_data', { json: JSON.stringify(toSnapshot(file)) })
+      ? call<void>('import_data', {
+          json: JSON.stringify({
+            ...toSnapshot(file),
+            // Assessment history is not part of `BackupFile` yet; when a file
+            // carries it, Rust replaces the table only if rows are present.
+            assessment_run: ((file as unknown as { assessments?: unknown[] }).assessments ?? []).map(
+              toAssessmentRow,
+            ),
+          }),
+        })
       : call<void>('import_data', { json: JSON.stringify(file) }),
   openFolder: (which: 'data' | 'backups' | 'logs' | 'base') => call<void>('open_folder', { which }),
 };

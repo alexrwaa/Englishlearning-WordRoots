@@ -26,15 +26,15 @@
 | 项目 | 数量 |
 | --- | --- |
 | 词条 | 1473 |
-| segmentation = verified | 1307 |
-| segmentation = partial | 140 |
+| segmentation = verified | 1305 |
+| segmentation = partial | 142 |
 | segmentation = unverified | 26 |
 | etymology documented | 1058 |
 | etymology inferred | 8 |
 | etymology disputed | 1 |
 | etymology unknown | 406 |
-| quizSafe | 1307 |
-| legacy `verified` | 993 |
+| quizSafe | 989 |
+| legacy `verified` | 991 |
 
 剩余未解析成分按出现次数：in（5）、ual（4）、ibil（4）、posit（4）、im（4）、pur（4）、care（3）、gen（3）。
 

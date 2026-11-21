@@ -10464,12 +10464,18 @@
     "glossZh": "选择；聚集；读",
     "glossEn": "choose, gather, read",
     "allomorphs": [
-      "leg"
+      "leg",
+      "lex"
     ],
     "senseKey": "choose",
     "examples": [
       "election",
-      "legend"
+      "legend",
+      "legal",
+      "legislate",
+      "legitimate",
+      "legible",
+      "legacy"
     ],
     "note": "拉丁 legere（挑选、读）；leg- 为其变体，与 lex（法）同形异源。",
     "textbookRefs": [
@@ -10485,40 +10491,10 @@
     "id": "rx-lect",
     "formKey": "lect",
     "identityStatus": "verified",
-    "homographs": []
-  },
-  {
-    "id": "cx-leg",
-    "form": "leg",
-    "type": "root",
-    "origin": "Lat",
-    "glossZh": "法、委任",
-    "glossEn": "law, deputize",
-    "allomorphs": [
-      "lex",
-      "log",
-      "lig"
-    ],
-    "examples": [],
-    "familyId": "fam-leg",
-    "textbookRefs": [
-      "S1 C2",
-      "S1 C1",
-      "S1 C5"
-    ],
-    "note": "",
-    "sources": [
-      {
-        "id": "S1",
-        "title": "English Vocabulary Elements",
-        "detail": "appendix, ch.2"
-      }
-    ],
-    "needsChineseGloss": true,
-    "formKey": "leg",
-    "identityStatus": "provisional",
     "homographs": [],
-    "senseKey": "law"
+    "legacyIds": [
+      "cx-leg"
+    ]
   },
   {
     "id": "rx-legal",

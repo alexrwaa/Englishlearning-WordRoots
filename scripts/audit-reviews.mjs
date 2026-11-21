@@ -46,6 +46,10 @@ for (const el of elements) {
   }
 }
 
+const registeredIds = new Set(
+  JSON.parse(readFileSync('src/content/textbook/sources.json', 'utf8')).sources.map((s) => s.id),
+);
+
 const rows = reviews.entries.map((entry) => {
   const morpheme = morphemes.get(entry.id);
   const sources = entry.sources ?? [];
@@ -75,10 +79,31 @@ const rows = reviews.entries.map((entry) => {
 
   const located = sources.some((s) => (s.detail ?? '').trim().length >= 4);
   const l7a = located; // 0.7.0 caliber
-  // 0.8.0: a textbook page proves the book says it; cross-verification needs a
-  // second, independent kind of source (dictionary). A reviewer signature is not
-  // a source, so it does not count here.
-  const l7b = pageCheck === 'page-matches' && kinds.has('dictionary');
+
+  // Five separate questions, because "documented" used to mean "a field exists".
+  const registered = sources.every((s) => registeredIds.has(s.id)) && sources.length > 0;
+  const hasUrl = sources.some((s) => /https?:\/\//.test(s.detail ?? ''));
+  const dictionaryEntries = new Set(
+    sources
+      .filter((s) => (s.id === 'S5' || s.id === 'G1') && /https?:\/\//.test(s.detail ?? ''))
+      .map((s) => s.detail),
+  );
+  const verification = entry.verification ?? null;
+  const supported = Boolean(verification?.records?.some((r) => r.supports === true));
+  const independentEntries = new Set((verification?.records ?? []).filter((r) => r.supports).map((r) => r.entry));
+  const textbookPlus = pageCheck === 'page-matches' && dictionaryEntries.size >= 1;
+  const independent = independentEntries.size >= 2 || textbookPlus;
+  const reviewedBy = Boolean(entry.reviewer) && verification?.verdict !== 'conflict';
+  const evidenceLevels = {
+    registered,
+    located: hasUrl || pageCheck === 'page-matches',
+    supported,
+    independent,
+    reviewed: reviewedBy,
+  };
+  // 0.8.0 L7b was "page + any dictionary". 0.9.0 requires all five levels, so a
+  // filled-in source string can no longer buy a pass.
+  const l7b = registered && evidenceLevels.located && supported && independent && reviewedBy;
 
   return {
     id: entry.id,
@@ -88,6 +113,8 @@ const rows = reviews.entries.map((entry) => {
     pageCheck,
     l7a,
     l7b,
+    evidenceLevels,
+    verification: verification ? { verdict: verification.verdict, records: verification.records?.length ?? 0 } : null,
   };
 });
 
@@ -102,7 +129,12 @@ console.log(`review entries: ${rows.length}`);
 console.log(`page check: ${JSON.stringify(pageStats)}`);
 console.log(`support kinds: ${JSON.stringify(kindStats)}`);
 console.log(`L7a (0.7.0: has a located source): ${count('l7a')}`);
-console.log(`L7b (0.8.0: page matches + 2 support kinds): ${count('l7b')}`);
+console.log(`L7b (0.9.0: 登记+定位+支持+独立+审校 五级全过): ${count('l7b')}`);
+const levelCounts = Object.keys(rows[0]?.evidenceLevels ?? {}).map((key) => [
+  key,
+  rows.filter((r) => r.evidenceLevels?.[key]).length,
+]);
+console.log(`证据分级：${levelCounts.map(([k, n]) => `${k} ${n}`).join(' / ')}`);
 
 const mismatches = rows.filter((r) => r.pageCheck === 'page-mismatch' || r.pageCheck === 'form-not-in-appendix');
 if (mismatches.length) {

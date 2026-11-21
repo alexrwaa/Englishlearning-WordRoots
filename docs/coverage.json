@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-21T03:16:21.761Z",
+  "generatedAt": "2026-11-21T03:34:42.007Z",
   "identity": {
-    "morphemes": 797,
+    "morphemes": 796,
     "forms": 1019,
     "ambiguousForms": [
       "a",
@@ -41,7 +41,6 @@
       "leg",
       "lex",
       "libr",
-      "lig",
       "lit",
       "lith",
       "log",
@@ -120,11 +119,11 @@
     }
   ],
   "knowledgeBase": {
-    "morphemes": 797,
+    "morphemes": 796,
     "words": 1473,
-    "verifiedWords": 993,
+    "verifiedWords": 991,
     "concepts": 35,
-    "families": 420
+    "families": 419
   },
   "curriculum": {
     "lessons": 243,
@@ -144,7 +143,7 @@
       "level": "L2",
       "name": "已关联",
       "rule": "元素 → 词素 ID，form 与 origin 同时一致",
-      "count": 519,
+      "count": 518,
       "total": 559,
       "pct": 93,
       "gaps": [
@@ -214,6 +213,11 @@
           "reason": "同形同源多条记录且释义不匹配（cx-tive-ive / sx-ative）"
         },
         {
+          "element": "leg",
+          "chapter": "2",
+          "reason": "同形同源多条记录且释义不匹配（cx-lig / rx-lect）"
+        },
+        {
           "element": "ly",
           "chapter": "11",
           "reason": "词库中没有 form+origin 一致的记录（ly · G）"
@@ -242,11 +246,6 @@
           "element": "nano-",
           "chapter": "6",
           "reason": "词库中没有 form+origin 一致的记录（nano · G）"
-        },
-        {
-          "element": "-nd~-and~-end",
-          "chapter": "9",
-          "reason": "同形同源多条记录，释义仍无法区分（sx-nd / cx-and-end）"
         }
       ]
     },
@@ -254,7 +253,7 @@
       "level": "L3",
       "name": "释义已核",
       "rule": "glossZh 与 glossEn 均非空且无占位符",
-      "count": 519,
+      "count": 518,
       "total": 559,
       "pct": 93,
       "gaps": [
@@ -324,6 +323,11 @@
           "reason": "同形同源多条记录且释义不匹配（cx-tive-ive / sx-ative）"
         },
         {
+          "element": "leg",
+          "chapter": "2",
+          "reason": "同形同源多条记录且释义不匹配（cx-lig / rx-lect）"
+        },
+        {
           "element": "ly",
           "chapter": "11",
           "reason": "词库中没有 form+origin 一致的记录（ly · G）"
@@ -352,11 +356,6 @@
           "element": "nano-",
           "chapter": "6",
           "reason": "词库中没有 form+origin 一致的记录（nano · G）"
-        },
-        {
-          "element": "-nd~-and~-end",
-          "chapter": "9",
-          "reason": "同形同源多条记录，释义仍无法区分（sx-nd / cx-and-end）"
         }
       ]
     },
@@ -364,7 +363,7 @@
       "level": "L4",
       "name": "例词充分",
       "rule": "≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true）",
-      "count": 253,
+      "count": 252,
       "total": 559,
       "pct": 45,
       "gaps": [
@@ -474,7 +473,7 @@
       "level": "L5",
       "name": "有讲解",
       "rule": "某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段）",
-      "count": 230,
+      "count": 229,
       "total": 559,
       "pct": 41,
       "gaps": [
@@ -584,9 +583,9 @@
       "level": "L6",
       "name": "有练习",
       "rule": "practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds）",
-      "count": 207,
+      "count": 211,
       "total": 559,
-      "pct": 37,
+      "pct": 38,
       "gaps": [
         {
           "element": "crypt",
@@ -805,6 +804,7 @@
     "elements": 559,
     "knowledgePoints": 283,
     "knowledgePointsTaught": 283,
+    "elementsCrossVerified": 9,
     "knowledgePointsMappedOnly": 0,
     "chapters": 11,
     "sections": 116,
@@ -816,11 +816,11 @@
       },
       {
         "at": "L2",
-        "count": 40
+        "count": 41
       },
       {
         "at": "done",
-        "count": 68
+        "count": 71
       },
       {
         "at": "L4",
@@ -828,31 +828,32 @@
       },
       {
         "at": "L7",
-        "count": 61
+        "count": 62
       },
       {
         "at": "L6",
-        "count": 26
+        "count": 21
       }
     ]
   },
   "evidence": {
     "l5": {
       "id": 41,
-      "text": 167,
+      "text": 166,
       "form": 22
     },
     "l6": {
-      "form": 175,
+      "form": 179,
       "text": 32
     },
     "chapterTopicOnly": 287,
     "l7": {
       "gloss+etymology": 19,
-      "identity+gloss+etymology+derivation": 207,
+      "identity+gloss+etymology+derivation": 206,
       "identity+etymology": 5,
       "identity+etymology+derivation": 1,
-      "identity": 2
+      "identity": 2,
+      "etymology": 1
     }
   },
   "parseErrors": [],
@@ -2376,11 +2377,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "agenda",
-        "legend",
         "memoranda",
         "memorandum",
         "memorandums",
-        "propaganda"
+        "propaganda",
+        "referendum"
       ],
       "teaching": [
         {
@@ -7294,36 +7295,19 @@
       "chapter": "2",
       "source": "L",
       "page": 274,
-      "morphemeId": "cx-leg",
       "levels": {
         "L1": true,
-        "L2": true,
-        "L3": true,
-        "L4": true,
-        "L5": true,
+        "L2": false,
+        "L3": false,
+        "L4": false,
+        "L5": false,
         "L6": false,
-        "L7": true
+        "L7": false
       },
-      "gap": "L6",
-      "reason": "讲到它的课时没有练习用到它",
-      "verifiedWords": [
-        "legal",
-        "legend"
-      ],
-      "teaching": [
-        {
-          "kind": "text",
-          "lesson": "w06d4",
-          "card": "为什么是 biologist 而不是 biologyist",
-          "snippet": "整形式带 -y。 - 加 -ist 时，实际接的是词干 **-log-**，后面直接加 -ist，得到 -logist。 - 所以是 bio"
-        },
-        {
-          "kind": "text",
-          "lesson": "w24d5",
-          "card": "ligare：把两样东西绑在一起",
-          "snippet": "一起 一个“绑”字，撑起一整族词。这条链值得记住，因为 -lig- 在现代英语里几乎不单独出现，却反复出现在法律、医学、解剖术语里：你在"
-        }
-      ],
+      "gap": "L2",
+      "reason": "同形同源多条记录且释义不匹配（cx-lig / rx-lect）",
+      "verifiedWords": [],
+      "teaching": [],
       "practice": [],
       "chapterTopicOnly": false
     },
@@ -7346,11 +7330,11 @@
         "L3": true,
         "L4": true,
         "L5": true,
-        "L6": false,
+        "L6": true,
         "L7": true
       },
-      "gap": "L6",
-      "reason": "讲到它的课时没有练习用到它",
+      "gap": "done",
+      "reason": "",
       "verifiedWords": [
         "lexical",
         "lexicon",
@@ -7362,9 +7346,19 @@
           "lesson": "w06d4",
           "card": "为什么是 biologist 而不是 biologyist",
           "snippet": "整形式带 -y。 - 加 -ist 时，实际接的是词干 **-log-**，后面直接加 -ist，得到 -logist。 - 所以是 bio"
+        },
+        {
+          "kind": "form",
+          "lesson": "w39d7",
+          "card": "三个高频误读"
         }
       ],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "form",
+          "lesson": "w39d7"
+        }
+      ],
       "chapterTopicOnly": false
     },
     {
@@ -7429,11 +7423,11 @@
         "L3": true,
         "L4": true,
         "L5": true,
-        "L6": false,
+        "L6": true,
         "L7": true
       },
-      "gap": "L6",
-      "reason": "讲到它的课时没有练习用到它",
+      "gap": "done",
+      "reason": "",
       "verifiedWords": [
         "lexical",
         "lexicon",
@@ -7445,9 +7439,19 @@
           "lesson": "w06d4",
           "card": "为什么是 biologist 而不是 biologyist",
           "snippet": "整形式带 -y。 - 加 -ist 时，实际接的是词干 **-log-**，后面直接加 -ist，得到 -logist。 - 所以是 bio"
+        },
+        {
+          "kind": "form",
+          "lesson": "w39d7",
+          "card": "三个高频误读"
         }
       ],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "form",
+          "lesson": "w39d7"
+        }
+      ],
       "chapterTopicOnly": false
     },
     {
@@ -7523,11 +7527,11 @@
         "L3": true,
         "L4": true,
         "L5": true,
-        "L6": false,
+        "L6": true,
         "L7": false
       },
-      "gap": "L6",
-      "reason": "讲到它的课时没有练习用到它",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "ligature",
         "religion"
@@ -7540,7 +7544,13 @@
           "snippet": "一起 一个“绑”字，撑起一整族词。这条链值得记住，因为 -lig- 在现代英语里几乎不单独出现，却反复出现在法律、医学、解剖术语里：你在"
         }
       ],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "form",
+          "lesson": "w24d5",
+          "snippet": "parts: lig + ament"
+        }
+      ],
       "chapterTopicOnly": false
     },
     {
@@ -7845,11 +7855,11 @@
         "L3": true,
         "L4": true,
         "L5": true,
-        "L6": false,
+        "L6": true,
         "L7": true
       },
-      "gap": "L6",
-      "reason": "讲到它的课时没有练习用到它",
+      "gap": "done",
+      "reason": "",
       "verifiedWords": [
         "lexical",
         "lexicon",
@@ -7861,9 +7871,19 @@
           "lesson": "w06d4",
           "card": "为什么是 biologist 而不是 biologyist",
           "snippet": "整形式带 -y。 - 加 -ist 时，实际接的是词干 **-log-**，后面直接加 -ist，得到 -logist。 - 所以是 bio"
+        },
+        {
+          "kind": "form",
+          "lesson": "w39d7",
+          "card": "三个高频误读"
         }
       ],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "form",
+          "lesson": "w39d7"
+        }
+      ],
       "chapterTopicOnly": false
     },
     {
@@ -15867,11 +15887,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "agenda",
-        "legend",
         "memoranda",
         "memorandum",
         "memorandums",
-        "propaganda"
+        "propaganda",
+        "referendum"
       ],
       "teaching": [
         {
@@ -21357,7 +21377,7 @@
         "L4": false,
         "L5": false,
         "L6": false,
-        "L7": false
+        "L7": true
       },
       "gap": "L4",
       "reason": "verified 词条只有 1 个（需要 2 个）",

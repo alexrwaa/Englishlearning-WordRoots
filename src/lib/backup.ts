@@ -93,6 +93,12 @@ export interface BackupData {
   attempts: Attempt[];
   notes: Note[];
   bookmarks: BackupBookmark[];
+  /**
+   * Assessment runs (v3). Opaque here on purpose: the scoring payload belongs to
+   * `lib/assessment.ts`, and a backup must survive a scoring-version change
+   * without this module having to understand it.
+   */
+  assessments?: unknown[];
 }
 
 export interface BackupCounts {
@@ -104,6 +110,8 @@ export interface BackupCounts {
   attempts: number;
   notes: number;
   bookmarks: number;
+  /** Present only when the file actually carries assessment runs (schema v3). */
+  assessments?: number;
 }
 
 export interface BackupFile extends BackupData {
@@ -158,7 +166,13 @@ function asBool(v: unknown, fallback: boolean): boolean {
 
 function total(counts: BackupCounts): number {
   return (
-    counts.lessonStates + counts.cards + counts.reviews + counts.attempts + counts.notes + counts.bookmarks
+    counts.lessonStates +
+    counts.cards +
+    counts.reviews +
+    counts.attempts +
+    counts.notes +
+    counts.bookmarks +
+    (counts.assessments ?? 0)
   );
 }
 
@@ -171,6 +185,7 @@ export function countsOf(data: BackupData): BackupCounts {
     attempts: data.attempts.length,
     notes: data.notes.length,
     bookmarks: data.bookmarks.length,
+    ...(data.assessments?.length ? { assessments: data.assessments.length } : {}),
   };
 }
 
@@ -208,6 +223,7 @@ export function buildExport(
     attempts: data.attempts,
     notes: data.notes,
     bookmarks: data.bookmarks,
+    ...(data.assessments?.length ? { assessments: data.assessments } : {}),
   };
 }
 
@@ -473,6 +489,7 @@ export function validateBackup(raw: unknown): ValidateResult {
     attempts: Array.isArray(src.attempts) ? src.attempts : [],
     notes: Array.isArray(src.notes) ? src.notes : [],
     bookmarks: Array.isArray(src.bookmarks) ? src.bookmarks : [],
+    assessments: Array.isArray(src.assessments) ? src.assessments : [],
   };
   const actual: BackupCounts = {
     settings: src.settings ? 1 : 0,
@@ -482,6 +499,7 @@ export function validateBackup(raw: unknown): ValidateResult {
     attempts: lists.attempts.length,
     notes: lists.notes.length,
     bookmarks: lists.bookmarks.length,
+    ...(lists.assessments.length ? { assessments: lists.assessments.length } : {}),
   };
 
   if (src.counts !== undefined && src.counts !== null) {
@@ -489,6 +507,9 @@ export function validateBackup(raw: unknown): ValidateResult {
     for (const key of Object.keys(actual) as (keyof BackupCounts)[]) {
       const declared = src.counts[key];
       if (declared === undefined) {
+        // `assessments` arrived with schema v3. A v2 file that carries none is
+        // complete, not broken — only complain when rows are actually present.
+        if (key === 'assessments' && actual.assessments === 0) continue;
         return fail(`counts 缺少 ${key}，无法校验文件完整性。`);
       }
       if (typeof declared !== 'number' || !Number.isFinite(declared)) {
@@ -726,6 +747,12 @@ export interface WebDbPayload {
   attempts: Attempt[];
   notes: Note[];
   bookmarks: BackupBookmark[];
+  /**
+   * Assessment runs (v3). Opaque here on purpose: the scoring payload belongs to
+   * `lib/assessment.ts`, and a backup must survive a scoring-version change
+   * without this module having to understand it.
+   */
+  assessments?: unknown[];
 }
 
 /**

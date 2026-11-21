@@ -16,6 +16,19 @@
  * high score cannot come from memorising lesson examples.
  */
 import rawBank from '../content/assessment/items.json';
+import {
+  ASSESSMENT_KEY,
+  ASSESSMENT_MIGRATED_KEY,
+  IS_TAURI,
+  call,
+  type AssessmentListResult,
+} from './api';
+
+/** Version of the shipped item bank; stamped into every run for comparability. */
+export const ITEM_BANK_VERSION: number =
+  typeof (rawBank as { version?: unknown }).version === 'number'
+    ? ((rawBank as { version: number }).version)
+    : 1;
 
 export const DIMENSIONS = ['recall', 'boundary', 'etymology', 'transfer', 'repair'] as const;
 export type Dimension = (typeof DIMENSIONS)[number];
@@ -305,6 +318,8 @@ export interface DimensionScore {
 export interface RunResult {
   id: string;
   mode: Mode;
+  /** Item-bank version the run was administered from (history comparability). */
+  itemBankVersion: number;
   startedAt: number;
   finishedAt: number;
   /** Sum of per-question times, not wall time. */
@@ -408,6 +423,7 @@ export function scoreRun(
   return {
     id: run.id,
     mode: run.mode,
+    itemBankVersion: ITEM_BANK_VERSION,
     startedAt: run.startedAt,
     finishedAt,
     durationMs: answers.reduce((sum, a) => sum + Math.max(0, a.ms), 0),
@@ -444,13 +460,21 @@ export function formatDuration(ms: number): string {
 /* -------------------------------- storage --------------------------------- */
 
 /**
- * Assessment runs are a local, optional record. They deliberately do not go
- * through `lib/api.ts`: that layer is the product database and has no generic
- * KV command. `localStorage` works in the browser preview and inside the Tauri
- * webview, so the desktop build needs no Rust change either.
+ * Storage model.
+ *
+ * - Desktop (`IS_TAURI`): SQLite table `assessment_runs` is the durable store.
+ *   It is part of the backup snapshot and lives in the portable `data.db`.
+ * - Browser preview: `lib/api.ts` emulates the same four commands on top of
+ *   `localStorage`, so both modes share one contract.
+ * - `localStorage[STORAGE_KEY]` stays as a synchronous mirror. The page reads
+ *   `loadHistory()` during render and cannot await IPC, so every write updates
+ *   the mirror first and the durable store second. The mirror is also the
+ *   pre-migration data, which is why migration never deletes it.
  */
-export const STORAGE_KEY = 'wordroots.assessment.v1';
+export const STORAGE_KEY = ASSESSMENT_KEY;
+export const MIGRATED_KEY = ASSESSMENT_MIGRATED_KEY;
 export const HISTORY_LIMIT = 50;
+export const SQLITE_HISTORY_LIMIT = 200;
 
 export interface StorageLike {
   getItem(key: string): string | null;
@@ -482,22 +506,207 @@ function isStoredResult(value: unknown): value is RunResult {
   );
 }
 
-export function loadHistory(storage: StorageLike | null = defaultStorage()): RunResult[] {
+/** Raw `runs` array of the mirror, already JSON-parsed but not validated. */
+function readEntries(storage: StorageLike | null, key: string = STORAGE_KEY): unknown[] {
   if (!storage) return [];
   try {
-    const raw = storage.getItem(STORAGE_KEY);
+    const raw = storage.getItem(key);
     if (!raw) return [];
     const parsed: unknown = JSON.parse(raw);
     if (!isRecord(parsed) || !Array.isArray(parsed.runs)) return [];
-    return parsed.runs.filter(isStoredResult).slice(0, HISTORY_LIMIT);
+    return parsed.runs;
   } catch {
     return [];
   }
 }
 
-/** Prepend a run, replace any same-id entry, and cap history. Never throws. */
+function newestFirst(runs: RunResult[]): RunResult[] {
+  return [...runs].sort((a, b) => b.finishedAt - a.finishedAt);
+}
+
+/**
+ * Runs written before this field existed carry no version. The bank has only
+ * ever shipped v1, so that — not the *current* version — is the factual value.
+ */
+function normalizeBankVersion(run: RunResult): RunResult {
+  return typeof run.itemBankVersion === 'number' && Number.isFinite(run.itemBankVersion)
+    ? run
+    : { ...run, itemBankVersion: 1 };
+}
+
+/* ------------------------------ store contract ------------------------------ */
+
+/**
+ * The four operations both backends implement. `skipped` counts entries whose
+ * payload could not be read: one damaged record is dropped, never fatal.
+ */
+export interface AssessmentStore {
+  list(): Promise<{ runs: RunResult[]; skipped: number }>;
+  save(run: RunResult): Promise<void>;
+  clear(): Promise<void>;
+  count(): Promise<number>;
+}
+
+/**
+ * localStorage-backed store: browser preview, tests, and rollback fallback.
+ *
+ * `key` defaults to the mirror key. Tests (and any caller that wants to model a
+ * *separate* durable backend on the same primitive) can pass another key — which
+ * is what makes migration testable without a Tauri runtime.
+ */
+export function browserAssessmentStore(
+  storage: StorageLike | null = defaultStorage(),
+  key: string = STORAGE_KEY,
+): AssessmentStore {
+  return {
+    async list() {
+      const entries = readEntries(storage, key);
+      const runs = newestFirst(entries.filter(isStoredResult)).map(normalizeBankVersion);
+      return { runs: runs.slice(0, HISTORY_LIMIT), skipped: entries.length - runs.length };
+    },
+    async save(run) {
+      if (!storage) return;
+      const runs = readEntries(storage, key).filter(isStoredResult);
+      const next = newestFirst([run, ...runs.filter((entry) => entry.id !== run.id)]).slice(0, HISTORY_LIMIT);
+      storage.setItem(key, JSON.stringify({ version: 1, runs: next }));
+    },
+    async clear() {
+      storage?.removeItem(key);
+    },
+    async count() {
+      return readEntries(storage, key).filter(isStoredResult).length;
+    },
+  };
+}
+
+/** SQLite-backed store used by the desktop build. */
+export function sqliteAssessmentStore(): AssessmentStore {
+  return {
+    async list() {
+      const result = await call<AssessmentListResult>('assessment_list');
+      const runs = newestFirst(result.runs.filter(isStoredResult)).map(normalizeBankVersion);
+      return { runs, skipped: result.skipped + (result.runs.length - runs.length) };
+    },
+    async save(run) {
+      await call<void>('assessment_save', {
+        run: {
+          id: run.id,
+          mode: run.mode,
+          itemBankVersion: run.itemBankVersion ?? ITEM_BANK_VERSION,
+          startedAt: run.startedAt,
+          finishedAt: run.finishedAt,
+          durationMs: run.durationMs,
+          // The row's payload is the whole result: scoring detail stays intact.
+          payload: run,
+        },
+      });
+    },
+    async clear() {
+      await call<void>('assessment_clear');
+    },
+    async count() {
+      return call<number>('assessment_count');
+    },
+  };
+}
+
+/** Durable store for the current runtime. */
+export function assessmentStore(storage: StorageLike | null = defaultStorage()): AssessmentStore {
+  return IS_TAURI ? sqliteAssessmentStore() : browserAssessmentStore(storage);
+}
+
+/* -------------------------------- migration -------------------------------- */
+
+export interface MigrationResult {
+  imported: number;
+  skipped: number;
+  /** True when the marker already existed: nothing was read or written. */
+  alreadyMigrated: boolean;
+  /** True when every legacy id is present in the store afterwards. */
+  verified: boolean;
+}
+
+/**
+ * One-shot localStorage → store migration.
+ *
+ * Idempotent on three levels:
+ * 1. the `wordroots.assessment.migrated.v1` marker short-circuits later runs;
+ * 2. rows already present are not re-inserted (the backends upsert by id);
+ * 3. the marker is written only after every legacy id is readable again.
+ *
+ * The legacy key is deliberately left in place as a rollback copy.
+ */
+export async function migrateLegacyAssessmentHistory(
+  store: AssessmentStore = assessmentStore(),
+  storage: StorageLike | null = defaultStorage(),
+  now: number = Date.now(),
+): Promise<MigrationResult> {
+  if (storage?.getItem(MIGRATED_KEY)) {
+    return { imported: 0, skipped: 0, alreadyMigrated: true, verified: true };
+  }
+  const entries = readEntries(storage);
+  const legacy = entries.filter(isStoredResult);
+  const skipped = entries.length - legacy.length;
+  if (legacy.length === 0) {
+    return { imported: 0, skipped, alreadyMigrated: false, verified: true };
+  }
+
+  const existing = await store.list();
+  const known = new Set(existing.runs.map((run) => run.id));
+  let imported = 0;
+  for (const run of legacy) {
+    if (known.has(run.id)) continue;
+    await store.save(run);
+    known.add(run.id);
+    imported += 1;
+  }
+
+  const after = await store.list();
+  const present = new Set(after.runs.map((run) => run.id));
+  const verified = legacy.every((run) => present.has(run.id));
+  if (verified) {
+    try {
+      storage?.setItem(MIGRATED_KEY, new Date(now).toISOString());
+    } catch {
+      // A locked webview still has the data in SQLite; the marker is only a guard.
+    }
+  }
+  return { imported, skipped, alreadyMigrated: false, verified };
+}
+
+let migration: Promise<MigrationResult> | null = null;
+
+/**
+ * Fire-and-forget migration guard for the synchronous UI entry points. Safe to
+ * call repeatedly: the promise is shared, and a failure resets it so the next
+ * interaction retries instead of silently giving up forever.
+ */
+export function ensureAssessmentMigrated(): void {
+  if (!IS_TAURI || migration) return;
+  migration = migrateLegacyAssessmentHistory().catch((error: unknown) => {
+    migration = null;
+    void error;
+    return { imported: 0, skipped: 0, alreadyMigrated: false, verified: false };
+  });
+}
+
+/* --------------------------- synchronous facade --------------------------- */
+
+/**
+ * Mirror read used by the page. On desktop the mirror is hydrated by the
+ * migration/write-through path above, so this stays fast and synchronous.
+ */
+export function loadHistory(storage: StorageLike | null = defaultStorage()): RunResult[] {
+  ensureAssessmentMigrated();
+  const entries = readEntries(storage);
+  return newestFirst(entries.filter(isStoredResult)).map(normalizeBankVersion).slice(0, HISTORY_LIMIT);
+}
+
+/** Prepend a run (replace same id, cap history), mirror first, store second. */
 export function saveRun(result: RunResult, storage: StorageLike | null = defaultStorage()): RunResult[] {
-  const next = [result, ...loadHistory(storage).filter((run) => run.id !== result.id)].slice(0, HISTORY_LIMIT);
+  ensureAssessmentMigrated();
+  const entries = readEntries(storage).filter(isStoredResult);
+  const next = newestFirst([result, ...entries.filter((run) => run.id !== result.id)]).slice(0, HISTORY_LIMIT);
   if (storage) {
     try {
       storage.setItem(STORAGE_KEY, JSON.stringify({ version: 1, runs: next }));
@@ -505,16 +714,27 @@ export function saveRun(result: RunResult, storage: StorageLike | null = default
       // Quota or a locked webview: the in-memory list is still usable.
     }
   }
+  if (IS_TAURI) {
+    void assessmentStore(storage).save(result).catch(() => {
+      // The mirror still holds the run; the next successful save retries the store.
+    });
+  }
   return next;
 }
 
 export function clearHistory(storage: StorageLike | null = defaultStorage()): RunResult[] {
+  ensureAssessmentMigrated();
   if (storage) {
     try {
       storage.removeItem(STORAGE_KEY);
     } catch {
       // ignore
     }
+  }
+  if (IS_TAURI) {
+    void assessmentStore(storage).clear().catch(() => {
+      // ignore
+    });
   }
   return [];
 }
