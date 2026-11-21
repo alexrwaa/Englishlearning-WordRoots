@@ -332,15 +332,31 @@ async function tour(): Promise<TourResult> {
         }
       }
       result.assessment.answered = answered;
+
+      // 0.9.1 makes SQLite the authority, so the localStorage mirror is no longer
+      // proof that a run was stored. What the page actually shows is: go back to
+      // the start screen and count the history rows it rendered from the store.
+      const back = Array.from(document.querySelectorAll('button')).find((b) =>
+        (b.textContent ?? '').includes('回到开始'),
+      );
+      if (back instanceof HTMLElement) back.click();
+      await sleep(600);
+      const historyRows = document.querySelectorAll('.assess-history-row').length;
+      let mirrored = 0;
       try {
         const raw = localStorage.getItem('wordroots.assessment.v1');
         const saved = raw ? (JSON.parse(raw) as { runs?: unknown[] }) : { runs: [] };
-        result.assessment.runs = saved.runs?.length ?? 0;
+        mirrored = saved.runs?.length ?? 0;
       } catch (error) {
         errors.push(`assessment storage: ${error instanceof Error ? error.message : String(error)}`);
       }
+      result.assessment.runs = Math.max(historyRows, mirrored);
       result.assessment.ok = result.assessment.runs >= 1;
-      if (!result.assessment.ok) errors.push(`assessment page: no run saved after ${steps} steps`);
+      if (!result.assessment.ok) {
+        errors.push(
+          `assessment page: no run visible after ${steps} steps (history rows 0, mirror 0)`,
+        );
+      }
     }
   } catch (error) {
     errors.push(`assessment page: ${error instanceof Error ? error.message : String(error)}`);
