@@ -382,7 +382,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-cap"
  },
  {
   "w": "acceptable",
@@ -863,19 +864,13 @@
   "domain": "general",
   "partIds": [
    "rx-act",
-   null
+   "sx-ial"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "ual",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -1219,7 +1214,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "advance",
@@ -3400,26 +3396,24 @@
   "domain": "general",
   "partIds": [
    "cx-apo",
-   null,
+   "cx-lex-leg",
    "sx-ize"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "log",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "note": "log- 是希腊 logos「言说」（同族 monologue、dialogue、logic），不是 -logy「学科」。",
+  "derivation": [
+   "apo-（离开）+ log（word, speak；希腊 logos）+ -ize（动词后缀）→ 把话推开 → 辩白、道歉"
+  ]
  },
  {
   "w": "apparatus",
@@ -3886,7 +3880,7 @@
    "aquiculture"
   ],
   "example": "Ducks are well adapted to aquatic life.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -3901,19 +3895,13 @@
   ],
   "partIds": [
    "cx-aque",
-   null
+   "sx-atic"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "tic",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -3921,7 +3909,7 @@
      "G1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -4484,7 +4472,7 @@
    "sex"
   ],
   "example": "Some plants spread by asexual reproduction.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -4500,20 +4488,14 @@
   "partIds": [
    "px-a",
    "cx-sex-2",
-   null
+   "sx-ial"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "note": "sexus「性别」，非 sex「六」；-ual 无独立词素记录",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "ual",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -4521,7 +4503,7 @@
      "G1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -5914,7 +5896,8 @@
     ]
    },
    "quizSafe": true
-  }
+  },
+  "family": "fam-graph"
  },
  {
   "w": "biology",
@@ -6959,7 +6942,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-cap"
  },
  {
   "w": "capacity",
@@ -6988,7 +6972,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-cap"
  },
  {
   "w": "capital",
@@ -7202,7 +7187,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-cap"
  },
  {
   "w": "capture",
@@ -7232,7 +7218,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-cap"
  },
  {
   "w": "carboniferous",
@@ -8318,7 +8305,7 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "cx-centi",
    "rx-ped",
    null
   ],
@@ -8326,12 +8313,8 @@
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
+   "segmentation": "verified",
    "unresolved": [
-    {
-     "part": "centi",
-     "reason": "unresolved"
-    },
     {
      "part": "e",
      "reason": "orthographic"
@@ -8769,7 +8752,8 @@
     ]
    },
    "quizSafe": true
-  }
+  },
+  "family": "fam-chron"
  },
  {
   "w": "chronology",
@@ -8812,7 +8796,8 @@
     ]
    },
    "quizSafe": true
-  }
+  },
+  "family": "fam-chron"
  },
  {
   "w": "circle",
@@ -9588,20 +9573,14 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "rx-clar",
    "sx-ify"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "clar",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -10032,7 +10011,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "commitment",
@@ -10297,7 +10277,7 @@
    "incompatible"
   ],
   "example": "Check compatibility before installing the driver.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -10313,20 +10293,14 @@
   "partIds": [
    "px-com",
    "rx-pat",
-   null,
+   "sx-abil",
    "sx-ity"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "ibil",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -10334,7 +10308,7 @@
      "G1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -10571,20 +10545,14 @@
   "domain": "general",
   "partIds": [
    "px-com",
-   null,
+   "rx-pos",
    "sx-ion"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "posit",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -10723,7 +10691,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-cap"
  },
  {
   "w": "conception",
@@ -10931,7 +10900,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-duct"
  },
  {
   "w": "conductance",
@@ -13596,20 +13566,14 @@
   "domain": "general",
   "partIds": [
    "rx-cred",
-   null,
+   "sx-abil",
    "sx-ity"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "ibil",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -16388,19 +16352,13 @@
   "domain": "general",
   "partIds": [
    "px-de",
-   null
+   "rx-pos"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "posit",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -16495,7 +16453,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-scrib"
  },
  {
   "w": "description",
@@ -16527,7 +16486,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-scrib"
  },
  {
   "w": "descriptive",
@@ -16934,20 +16894,14 @@
   "domain": "general",
   "partIds": [
    "px-de",
-   null,
+   "rx-ten",
    "sx-ion"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "tent",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -17248,7 +17202,8 @@
     ]
    },
    "quizSafe": true
-  }
+  },
+  "family": "fam-graph"
  },
  {
   "w": "diameter",
@@ -18102,7 +18057,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "disrespect",
@@ -18251,7 +18207,7 @@
   "w": "distinct",
   "parts": [
    "dis",
-   "tinct"
+   "stinct"
   ],
   "pos": "a",
   "glossZh": "明显的；截然不同的",
@@ -18266,7 +18222,7 @@
    "distinguish"
   ],
   "example": "The two dialects are distinct to local ears.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -18279,22 +18235,11 @@
     "detail": "词条释义与词源通识"
    }
   ],
-  "note": "tinct 为 stinguere 的弱化词干",
-  "partIds": [
-   "px-dis",
-   null
-  ],
-  "partResolution": "unresolved",
+  "note": "原切分 dis + tinct 把 stinguere 的 s 丢在 tinct 里，会把它与 tingere（染色，tinctorial）混同。改为 dis + stinct：拉丁 distinguere = dis-（分开）+ stinguere（刺、标示）→ 分开标示 → 有区别的。",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "tinct",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -18302,14 +18247,19 @@
      "G1"
     ]
    },
-   "quizSafe": false
-  }
+   "quizSafe": true
+  },
+  "partIds": [
+   "px-dis",
+   "rx-stingu"
+  ],
+  "partResolution": "exact"
  },
  {
   "w": "distinction",
   "parts": [
    "dis",
-   "tinct",
+   "stinct",
    "ion"
   ],
   "pos": "n",
@@ -18325,7 +18275,7 @@
    "distinguish"
   ],
   "example": "Draw a distinction between cause and motive.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -18338,22 +18288,10 @@
     "detail": "词条释义与词源通识"
    }
   ],
-  "partIds": [
-   "px-dis",
-   null,
-   "sx-ion"
-  ],
-  "partResolution": "unresolved",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "tinct",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -18361,8 +18299,15 @@
      "G1"
     ]
    },
-   "quizSafe": false
-  }
+   "quizSafe": true
+  },
+  "note": "同 distinct：dis + stinct（stinguere「刺、标示」）+ -ion；不是 dis + tinct（tingere 染色）。",
+  "partIds": [
+   "px-dis",
+   "rx-stingu",
+   "sx-ion"
+  ],
+  "partResolution": "exact"
  },
  {
   "w": "distinguishable",
@@ -19940,7 +19885,7 @@
    "sufficient"
   ],
   "example": "Better insulation raised the building's efficiency.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -19956,19 +19901,13 @@
   "partIds": [
    "px-e",
    "cx-fac-fec",
-   null
+   "sx-ency"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "iency",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -19976,7 +19915,7 @@
      "G1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -20497,7 +20436,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "emoticon",
@@ -21612,7 +21552,8 @@
     ]
    },
    "quizSafe": true
-  }
+  },
+  "family": "fam-cap"
  },
  {
   "w": "exception",
@@ -22053,20 +21994,14 @@
   "domain": "general",
   "partIds": [
    "px-e",
-   null,
+   "cx-pend-pond",
    "sx-ive"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "pens",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -22094,7 +22029,7 @@
    "implode"
   ],
   "example": "The explosion shattered windows across the street.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -22109,20 +22044,14 @@
   ],
   "partIds": [
    "px-e",
-   null,
+   "rx-plaud",
    "sx-ion"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "plos",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -22130,7 +22059,7 @@
      "G1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -22958,8 +22887,7 @@
  {
   "w": "fertilize",
   "parts": [
-   "fert",
-   "il",
+   "fertile",
    "ize"
   ],
   "pos": "v",
@@ -22977,7 +22905,7 @@
    "fertility"
   ],
   "example": "Farmers fertilize the fields before the spring rains.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -22985,20 +22913,14 @@
     "detail": "ch.9 elements"
    }
   ],
-  "partIds": [
-   "rx-fer",
-   null,
-   "sx-ize"
-  ],
-  "partResolution": "ambiguous",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
+   "segmentation": "verified",
    "unresolved": [
     {
-     "part": "il",
-     "reason": "unresolved"
+     "part": "fertile",
+     "reason": "free-base"
     }
    ],
    "etymology": {
@@ -23007,8 +22929,14 @@
      "S1"
     ]
    },
-   "quizSafe": false
-  }
+   "quizSafe": true
+  },
+  "note": "fertile + -ize（17 世纪）。原切分 fert + il + ize 把自由词 fertile 拆成不可分析的 fert + il：-il 既不是后缀也不是词干，fert 也不是独立成分。此处保留自由词干，不造词素。",
+  "partIds": [
+   null,
+   "sx-ize"
+  ],
+  "partResolution": "unresolved"
  },
  {
   "w": "fertilizer",
@@ -23161,20 +23089,14 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "rx-flex",
    "sx-ible"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "flex",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -23999,7 +23921,7 @@
  {
   "w": "forward",
   "parts": [
-   "for",
+   "fore",
    "ward"
   ],
   "pos": "ad",
@@ -24015,7 +23937,7 @@
    "homeward"
   ],
   "example": "Lean forward and keep your back straight.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -24028,21 +23950,10 @@
     "detail": "词条释义与词源通识"
    }
   ],
-  "partIds": [
-   null,
-   "sx-ward"
-  ],
-  "partResolution": "unresolved",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "for",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -24050,8 +23961,14 @@
      "G1"
     ]
    },
-   "quizSafe": false
-  }
+   "quizSafe": true
+  },
+  "note": "forward < 古英语 foreweard = fore（在前）+ -weard（向……方向）。原 parts 的 for 是介词 for，与 fore 同形不同源，属切分错误。",
+  "partIds": [
+   "px-fore",
+   "sx-ward"
+  ],
+  "partResolution": "exact"
  },
  {
   "w": "fraction",
@@ -25152,7 +25069,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-graph"
  },
  {
   "w": "geology",
@@ -25931,7 +25849,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-graph"
  },
  {
   "w": "graphite",
@@ -27485,7 +27404,8 @@
     ]
    },
    "quizSafe": true
-  }
+  },
+  "family": "fam-phon"
  },
  {
   "w": "host",
@@ -27724,20 +27644,14 @@
   "domain": "science",
   "partIds": [
    "cx-hydro",
-   null,
+   "rx-electr",
    "sx-ic"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "electr",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -28720,7 +28634,7 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "px-im",
    "rx-pos",
    null
   ],
@@ -28728,12 +28642,8 @@
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
+   "segmentation": "verified",
    "unresolved": [
-    {
-     "part": "im",
-     "reason": "unresolved"
-    },
     {
      "part": "e",
      "reason": "orthographic"
@@ -28744,7 +28654,11 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "note": "im- 是 in-「向内」在唇音前的同化形式（不是否定 in-）；同族 expose「放出去」、deposit「放下」、compose「放在一起」。",
+  "derivation": [
+   "im-（向内）+ pos（放置）→ 把东西放进去 → 强加、征收"
+  ]
  },
  {
   "w": "impossible",
@@ -28760,26 +28674,24 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "px-in",
    "rx-possible"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "im",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "note": "im- 是否定 in- 在唇音前的同化形式（不是方向 in-）；同族 invisible、irregular、illegal 的 in- 都是否定。",
+  "derivation": [
+   "im-（不）+ possible（可能的）→ 不可能的"
+  ]
  },
  {
   "w": "IMU",
@@ -29370,39 +29282,41 @@
    "destruction"
   ],
   "example": "The case is heavy but nearly indestructible.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
-    "id": "S1",
-    "title": "English Vocabulary Elements",
-    "detail": "ch.9"
+    "id": "S5",
+    "title": "Historical and etymological references (reference set)",
+    "detail": "Online Etymology Dictionary, s.v. \"indestructible\"（in- \"not\" + destructible）"
    }
   ],
   "partIds": [
-   null,
+   "px-in",
    "cx-div-de",
    "rx-stru",
    "sx-ible"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "in",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
-     "S1"
+     "S5"
     ]
    },
-   "quizSafe": false
-  }
+   "quizSafe": true
+  },
+  "ety": {
+   "historical": "in-（不，not）+ destruct（毁坏）+ -ible（可……的）→ 不可毁坏的。前缀是否定 in-，不是方向 in-「向内」；拉丁 indestructibilis 同构。",
+   "synchronic": "现代英语 in- + destruct + -ible 三段清晰，destruct 由 destruction 反构。",
+   "teaching": "in（不）+ destruct（毁坏）+ ible（可……的）→ 不可毁坏的。",
+   "productive": "否定 in- 的同化形式：im-（impossible）、il-（illegal）、ir-（irregular）；与方向 in-（inject、include）同形异义。",
+   "contested": []
+  },
+  "note": "原 derivation 把否定 in- 误作方向 in-「向内」。in-destructible 是否定 in- + destruct + -ible；destruct 内部的 de- 是正确的（destruere = de-「反」+ struere「堆建」→ 拆毁），不要一并删掉。"
  },
  {
   "w": "index",
@@ -29573,38 +29487,40 @@
    "induction"
   ],
   "example": "Tax inducements were offered to attract the plant to the region.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S5",
-    "title": "现代辞书（词源条目）",
-    "detail": "拉丁语源核对"
+    "title": "Historical and etymological references (reference set)",
+    "detail": "Online Etymology Dictionary, s.v. \"induce\"（< L. inducere \"lead in\"）"
    }
   ],
   "partIds": [
-   null,
+   "px-im",
    "rx-duc",
    "sx-ment"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "in",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S5"
     ]
    },
-   "quizSafe": false
-  }
+   "quizSafe": true
+  },
+  "ety": {
+   "historical": "induce（< in-「向内」+ ducere「引导」）+ -ment（名词后缀）→ 诱导物、诱因。",
+   "synchronic": "in + duce + -ment 三段可识别；duce 是 ducere 的变体词干。",
+   "teaching": "in（向内）+ duce（引导）+ ment（名词）→ 引进来 → 诱因。",
+   "productive": "同族 induce、inducible；-ment 能产（movement、agreement）。",
+   "contested": []
+  },
+  "note": "in- 取「向内」义，与否定 in- 同形异义。"
  },
  {
   "w": "induct",
@@ -29677,38 +29593,46 @@
    "induce"
   ],
   "example": "An induction motor needs no brushes to turn.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
-    "id": "S1",
-    "title": "English Vocabulary Elements",
-    "detail": "ch.9 elements"
+    "id": "S5",
+    "title": "Historical and etymological references (reference set)",
+    "detail": "Online Etymology Dictionary, s.v. \"induction\"（< L. inductionem < inducere \"lead in\"）"
+   },
+   {
+    "id": "G2",
+    "title": "A Latin Dictionary (Lewis & Short)",
+    "detail": "s.v. \"induco\"（in- + duco）"
    }
   ],
   "partIds": [
-   null,
+   "px-im",
    "rx-duc",
    "sx-ion"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "in",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
-     "S1"
+     "S5",
+     "G2"
     ]
    },
-   "quizSafe": false
-  }
+   "quizSafe": true
+  },
+  "ety": {
+   "historical": "拉丁 inductio < inducere = in-（向内、进入）+ ducere（引导）→ 引入；此处 in- 是方向义，与 in-『不』那一支同形异源。逻辑义「由个别引出一般」是 15 世纪后的引申。",
+   "synchronic": "in + duct + -ion 三段可识别，duct 是 ducere 的分词词干。",
+   "teaching": "in（向内）+ duct（引导）+ ion（名词）→ 引入 → 归纳。",
+   "productive": "duc/duct 能产：induce、conduct、produce、reduce、seduce。",
+   "contested": []
+  },
+  "note": "in- 取「向内」义（px-im），与否定 in- 同形异义；给解析器一条可判别的语源证据。"
  },
  {
   "w": "inductive",
@@ -31114,7 +31038,7 @@
    "initial"
   ],
   "example": "She took the initiative and called the supplier.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -31129,19 +31053,13 @@
   ],
   "partIds": [
    "rx-init",
-   null
+   "sx-ative"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "iative",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -31149,7 +31067,7 @@
      "G1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -31198,27 +31116,25 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "px-im",
    "rx-ject",
    "sx-ion"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "in",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "note": "in- 是方向「向内」，与否定 in- 同形异义；同族 project「向前投」、reject「投回去」、eject「投出去」。",
+  "derivation": [
+   "in-（向内）+ ject（投、掷）+ -ion（名词后缀）→ 注入"
+  ]
  },
  {
   "w": "innocence",
@@ -31306,7 +31222,8 @@
    },
    "quizSafe": true
   },
-  "verified": true
+  "verified": true,
+  "family": "fam-scrib"
  },
  {
   "w": "inscription",
@@ -32164,7 +32081,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-cap"
  },
  {
   "w": "intercom",
@@ -32377,7 +32295,8 @@
     ]
    },
    "quizSafe": true
-  }
+  },
+  "family": "fam-mit"
  },
  {
   "w": "international",
@@ -32700,7 +32619,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-duct"
  },
  {
   "w": "introduction",
@@ -33056,26 +32976,24 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "px-in",
    "rx-regular"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "ir",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "note": "ir- 是否定 in- 在 r 前的同化形式（不是方向 in-）；同族 irrelevant、irreversible。",
+  "derivation": [
+   "ir-（非）+ regular（规则的）→ 不规则的"
+  ]
  },
  {
   "w": "irrelevant",
@@ -33568,20 +33486,14 @@
   ],
   "domain": "cs",
   "partIds": [
-   null,
+   "rx-iter",
    "sx-ation"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "iter",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -35024,7 +34936,7 @@
   "glossEn": "an old story; a key on a map",
   "domain": "general",
   "example": "The legend explains the map symbols.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -35042,20 +34954,14 @@
    "leg（法、委任） + end（名词后缀（动形词）） → 传说；图例"
   ],
   "partIds": [
-   null,
+   "rx-lect",
    "cx-and-end"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "leg",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -35063,8 +34969,16 @@
      "G1"
     ]
    },
-   "quizSafe": false
-  }
+   "quizSafe": true
+  },
+  "ety": {
+   "historical": "拉丁 legenda「应读之物」，是 legere（to read，读）的动形词复数（gerundive），原指修道院每日应诵读的圣徒行传段落。与 lex/legis（法）无关。",
+   "synchronic": "现代英语 leg + -end 已不可再分析：-end 是拉丁动形词词尾，不是英语后缀；母语者把 legend 当整体词。",
+   "teaching": "leg（读，legere）+ -end（应……的）→ 应读的东西 → 传说。教学时必须注明这是拉丁动形词，不是英语后缀。",
+   "productive": "leg（legere）能产：legend、legible、lecture、lesson、collect；但 -end 不能产。",
+   "contested": []
+  },
+  "note": "原 derivation 写「leg（法、委任）+ end」，把 legere 误作 lex。legend 属 legere「读」一支（rx-lect），legal 才属 lex「法」一支——两者同形异源，本词按读义归族。"
  },
  {
   "w": "legislature",
@@ -36838,7 +36752,7 @@
    "manuscript"
   ],
   "example": "Do not let anyone manipulate the results.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -36852,20 +36766,14 @@
    }
   ],
   "partIds": [
-   null,
+   "rx-manipul",
    "sx-ate"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "manipul",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -36873,7 +36781,7 @@
      "G1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -37032,7 +36940,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-scrib"
  },
  {
   "w": "map",
@@ -37724,7 +37633,7 @@
    "menstruation"
   ],
   "example": "The app tracks the menstrual cycle.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -37738,20 +37647,14 @@
    }
   ],
   "partIds": [
-   null,
+   "rx-menstru",
    "sx-ial"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "menstru",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -37759,7 +37662,7 @@
      "G1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -37957,7 +37860,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-phon"
  },
  {
   "w": "microprocessor",
@@ -38557,7 +38461,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "mission",
@@ -38586,7 +38491,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "mistake",
@@ -39240,7 +39146,7 @@
    "monopoly"
   ],
   "example": "The actor opened with a two-minute monologue.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -39255,19 +39161,13 @@
   ],
   "partIds": [
    "px-mono",
-   null
+   "sx-logue"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "logue",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
@@ -39275,7 +39175,7 @@
      "G1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -42645,21 +42545,15 @@
   ],
   "domain": "slam",
   "partIds": [
-   null,
+   "rx-od",
    "cx-metr",
    "cx-y"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "odo",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -44361,19 +44255,13 @@
   "domain": "general",
   "partIds": [
    "px-per",
-   null
+   "rx-cap"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "ceive",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -44782,7 +44670,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "permit",
@@ -44811,7 +44700,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "persist",
@@ -45125,7 +45015,7 @@
   "glossEn": "study of speech sounds",
   "glossZh": "语音学",
   "domain": "academic",
-  "family": null,
+  "family": "fam-phon",
   "etymology": "希腊 phōnētikos（与声音有关的）< phōnein（说话）< phōnē（声音）",
   "derivation": [
    "phon（声音）+ etic（希腊形容词/学科后缀 -ētikos）+ s（学科名词）→ phonetics"
@@ -45221,38 +45111,40 @@
    "photodetector"
   ],
   "example": "The photodiode output tracks the laser pulse closely.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S5",
-    "title": "现代辞书（词源条目）",
-    "detail": "词源与拼写核对"
+    "title": "Historical and etymological references (reference set)",
+    "detail": "Online Etymology Dictionary, s.v. \"diode\"（di- \"two\" + hodos \"way\"）"
    }
   ],
   "partIds": [
    "cx-photo",
-   null,
+   "cx-dy-di",
    "rx-od"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "di",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S5"
     ]
    },
-   "quizSafe": false
-  }
+   "quizSafe": true
+  },
+  "ety": {
+   "historical": "photo-（光）+ diode；diode 由 di-（two，二）+ -ode（hodos 道路）构成——只有两个电极、只允许电流单向通过。原 derivation 把 di- 写成「穿过」，与 dia-（through）混淆。",
+   "synchronic": "photo + di + ode 三段可识别：di-「二」是希腊数词，-ode 是 hodos「路」。",
+   "teaching": "photo（光）+ di（二）+ ode（路）→ 有两条路的器件 → 二极管（光敏）。注意 di-「二」不是 dia-「穿过」。",
+   "productive": "di-（二）能产：diode、dioxide、dilemma；-ode 见于 diode、anode、cathode、electrode。",
+   "contested": []
+  },
+  "note": "修正 derivation 中 di（穿过）的错误：diode 的 di- 是「二」（cx-dy-di），不是 dia-「穿过」（cx-dia）。"
  },
  {
   "w": "photogrammetry",
@@ -45341,7 +45233,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-graph"
  },
  {
   "w": "photographer",
@@ -45971,7 +45864,7 @@
    "pneumatic"
   ],
   "example": "Pneumonia kept the operator off work for a week.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S5",
@@ -45980,27 +45873,21 @@
    }
   ],
   "partIds": [
-   null,
+   "cx-pne-pneum",
    "sx-ia"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "pneumon",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S5"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -46249,7 +46136,8 @@
     ]
    },
    "quizSafe": true
-  }
+  },
+  "family": "fam-phon"
  },
  {
   "w": "portability",
@@ -46452,20 +46340,14 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "rx-pos",
    "sx-ion"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "posit",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -46487,20 +46369,14 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "rx-pos",
    "sx-ive"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "posit",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -46525,20 +46401,14 @@
   "domain": "general",
   "partIds": [
    "cx-poss-pot",
-   null,
+   "sx-abil",
    "sx-ity"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "ibil",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -46719,7 +46589,7 @@
   "glossEn": "note added after a letter's signature",
   "glossZh": "附言；后记",
   "domain": "general",
-  "family": null,
+  "family": "fam-scrib",
   "etymology": "拉丁 postscriptum < post（之后）+ scribere（写）",
   "derivation": [
    "post（之后）+ script（写）→ postscript"
@@ -47370,7 +47240,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-scrib"
  },
  {
   "w": "prescription",
@@ -47402,7 +47273,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-scrib"
  },
  {
   "w": "pressure",
@@ -47720,7 +47592,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-duct"
  },
  {
   "w": "producer",
@@ -48959,7 +48832,7 @@
    "chase"
   ],
   "example": "The team will purchase two more sensors next quarter.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S5",
@@ -48968,27 +48841,21 @@
    }
   ],
   "partIds": [
-   null,
+   "px-pro",
    "rx-chase"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "pur",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S5"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -49011,7 +48878,7 @@
    "purported"
   ],
   "example": "The memo purports to explain the delay.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -49020,27 +48887,21 @@
    }
   ],
   "partIds": [
-   null,
+   "px-pro",
    "rx-port"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "pur",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -49064,7 +48925,7 @@
    "purport"
   ],
   "example": "The purported cure has never been tested.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -49073,28 +48934,22 @@
    }
   ],
   "partIds": [
-   null,
+   "px-pro",
    "rx-port",
    "sx-ed"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "pur",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -49119,7 +48974,7 @@
    "purported"
   ],
   "example": "The site was purportedly sealed in 2019.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -49128,29 +48983,23 @@
    }
   ],
   "partIds": [
-   null,
+   "px-pro",
    "rx-port",
    "sx-ed",
    "sx-ly"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "pur",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -49905,7 +49754,8 @@
     ]
    },
    "quizSafe": true
-  }
+  },
+  "family": "fam-cap"
  },
  {
   "w": "receptacle",
@@ -49986,7 +49836,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-cap"
  },
  {
   "w": "recite",
@@ -50221,7 +50072,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-duct"
  },
  {
   "w": "reducible",
@@ -50577,7 +50429,8 @@
     ]
    },
    "quizSafe": true
-  }
+  },
+  "family": "fam-fer"
  },
  {
   "w": "referent",
@@ -52283,24 +52136,14 @@
   "domain": "slam",
   "partIds": [
    "px-re",
-   null,
-   null
+   "rx-sed",
+   "sx-ial"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "sid",
-     "reason": "unresolved"
-    },
-    {
-     "part": "ual",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -52805,25 +52648,15 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
-   null,
+   "rx-spond",
+   "sx-abil",
    "sx-ity"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "respons",
-     "reason": "unresolved"
-    },
-    {
-     "part": "ibil",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -52845,20 +52678,14 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "rx-spond",
    "sx-ible"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "respons",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -53010,20 +52837,14 @@
   "domain": "general",
   "partIds": [
    "px-re",
-   null,
+   "rx-ten",
    "sx-ion"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "tent",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -53462,19 +53283,13 @@
   "domain": "general",
   "partIds": [
    "px-re",
-   null
+   "rx-vert"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "verse",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -54525,20 +54340,14 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "cx-sci",
    "sx-ist"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "scient",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -54659,7 +54468,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-scrib"
  },
  {
   "w": "scuba",
@@ -55635,38 +55445,46 @@
    "separation"
   ],
   "example": "The cyclone separator traps dust before the filter.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S5",
-    "title": "现代辞书（词源条目）",
-    "detail": "词源与拼写核对"
+    "title": "Historical and etymological references (reference set)",
+    "detail": "Online Etymology Dictionary, s.v. \"separate\"（< L. separare < se- + parare）"
+   },
+   {
+    "id": "G2",
+    "title": "A Latin Dictionary (Lewis & Short)",
+    "detail": "s.v. \"separo\", \"paro\" 与 \"pario\" 分立条目"
    }
   ],
   "partIds": [
    "px-se",
-   null,
+   "cx-par",
    "sx-ator"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "par",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
-     "S5"
+     "S5",
+     "G2"
     ]
    },
-   "quizSafe": false
-  }
+   "quizSafe": true
+  },
+  "ety": {
+   "historical": "拉丁 separare「分开」= se-（分开）+ parare（准备、安排）；与 parere（生育，parent、partum）同形异源。",
+   "synchronic": "现代英语 se- + par + -ator 三段仍可识别，但 par 只能回溯到 parare「安排」，不能与 parere 互推。",
+   "teaching": "se（分开）+ par（安排）+ -ator（装置）→ 把东西分开的装置。",
+   "productive": "se- 能产（separate、seclude、secede）；par（parare）只出现在 prepare、repair、apparatus、separate 这一封闭集合里。",
+   "contested": []
+  },
+  "note": "par 的归属改为 parare（安排）：原文本已写 parare，但字符串 \"separare\" 里含 parere，会误命中 cx-par（生育）。此条把语源写清，供解析器按证据取 cx-par-2。"
  },
  {
   "w": "ship",
@@ -58383,7 +58201,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "submit",
@@ -58412,7 +58231,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "subnational",
@@ -58493,7 +58313,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-scrib"
  },
  {
   "w": "subscription",
@@ -58525,7 +58346,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-scrib"
  },
  {
   "w": "substandard",
@@ -60311,20 +60133,14 @@
   ],
   "domain": "general",
   "partIds": [
-   null,
+   "rx-techn",
    "cx-logy"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "techno",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -60359,7 +60175,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-graph"
  },
  {
   "w": "telemetry",
@@ -60431,7 +60248,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-phon"
  },
  {
   "w": "teleport",
@@ -61848,7 +61666,8 @@
  {
   "w": "trajectory",
   "parts": [
-   "traject",
+   "tra",
+   "ject",
    "ory"
   ],
   "pos": "n",
@@ -61859,27 +61678,23 @@
    "traject"
   ],
   "domain": "general",
-  "partIds": [
-   null,
-   "sx-ory"
-  ],
-  "partResolution": "unresolved",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "traject",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "note": "trajectory < 新拉丁 trajectoria < 拉丁 trajectus = tra-（trans「穿过」的缩合）+ iacere（投、掷）。原切分 traject + ory 把 tra- 与 ject 粘成一个不可再分的块，掩盖了 ject 这一能产词根（inject、project、reject）。",
+  "partIds": [
+   "cx-tra-trans",
+   "rx-ject",
+   "sx-ory"
+  ],
+  "partResolution": "exact"
  },
  {
   "w": "transducer",
@@ -62399,7 +62214,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-fer"
  },
  {
   "w": "translation",
@@ -62463,7 +62279,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "transmit",
@@ -62492,7 +62309,8 @@
    },
    "quizSafe": false
   },
-  "verified": false
+  "verified": false,
+  "family": "fam-mit"
  },
  {
   "w": "transnational",
@@ -63819,19 +63637,13 @@
   "domain": "general",
   "partIds": [
    "px-uni",
-   null
+   "rx-vert"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "verse",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },
@@ -65032,19 +64844,13 @@
   "domain": "general",
   "partIds": [
    "rx-vis",
-   null
+   "sx-ial"
   ],
-  "partResolution": "unresolved",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "ual",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "unknown"
    },

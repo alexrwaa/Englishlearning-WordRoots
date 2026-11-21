@@ -14,117 +14,182 @@
       "w": "transport",
       "relation": "derivative",
       "glossZh": "运输",
-      "layer": ["trans-", "port"],
+      "layer": [
+        "trans-",
+        "port"
+      ],
       "note": "trans- 穿过 + port 带 → 从一地带到另一地"
     },
     {
       "w": "export",
       "relation": "derivative",
       "glossZh": "出口",
-      "layer": ["ex-", "port"],
+      "layer": [
+        "ex-",
+        "port"
+      ],
       "note": "ex- 向外 + 带"
     },
     {
       "w": "import",
       "relation": "derivative",
       "glossZh": "进口",
-      "layer": ["im-", "port"],
+      "layer": [
+        "im-",
+        "port"
+      ],
       "note": "im- 是 in- 的变体，向内 + 带"
     },
     {
       "w": "report",
       "relation": "derivative",
       "glossZh": "报告",
-      "layer": ["re-", "port"],
+      "layer": [
+        "re-",
+        "port"
+      ],
       "note": "re- 回 + 带 → 把见闻带回来"
     },
     {
       "w": "support",
       "relation": "derivative",
       "glossZh": "支持",
-      "layer": ["sup-", "port"],
+      "layer": [
+        "sup-",
+        "port"
+      ],
       "note": "sup- 是 sub- 的变体，从下面 + 扛 → 在底下托住"
     },
     {
       "w": "deport",
       "relation": "derivative",
       "glossZh": "驱逐出境",
-      "layer": ["de-", "port"],
+      "layer": [
+        "de-",
+        "port"
+      ],
       "note": "de- 离开 + 带 → 把人带走"
     },
     {
       "w": "portable",
       "relation": "derivative",
       "glossZh": "便携的",
-      "layer": ["port", "-able"],
+      "layer": [
+        "port",
+        "-able"
+      ],
       "note": "-able 能…的：能被带的"
     },
     {
       "w": "porter",
       "relation": "derivative",
       "glossZh": "搬运工",
-      "layer": ["port", "-er"],
+      "layer": [
+        "port",
+        "-er"
+      ],
       "note": "-er 表人；注意「门房」的 porter 另出一源，见 homographTraps"
     },
     {
       "w": "teleport",
       "relation": "derivative",
       "glossZh": "瞬间传送",
-      "layer": ["tele-", "port"],
+      "layer": [
+        "tele-",
+        "port"
+      ],
       "note": "tele- 远 + 带，19 世纪科幻与物理借词"
     },
     {
       "w": "comport",
       "relation": "derivative",
       "glossZh": "举止相称",
-      "layer": ["com-", "port"],
+      "layer": [
+        "com-",
+        "port"
+      ],
       "note": "com- 一起 + 带 → 把自己带得与场合一致"
     },
     {
       "w": "importance",
       "relation": "derivative",
       "glossZh": "重要性",
-      "layer": ["im-", "port", "-ance"],
+      "layer": [
+        "im-",
+        "port",
+        "-ance"
+      ],
       "note": "import 原义「带入」→ 带进来的分量 → 重要"
     },
     {
       "w": "portage",
       "relation": "derivative",
       "glossZh": "搬运；陆上转运",
-      "layer": ["port", "-age"],
+      "layer": [
+        "port",
+        "-age"
+      ],
       "note": "-age 表动作或费用：把船货扛过陆地的路段"
     },
     {
       "w": "transportation",
       "relation": "derivative",
       "glossZh": "运输（系统）",
-      "layer": ["trans-", "port", "-ation"],
+      "layer": [
+        "trans-",
+        "port",
+        "-ation"
+      ],
       "note": "-ation 在 -tion 前多一层 -a-，是拉丁分词词干的残留"
     },
     {
       "w": "exportable",
       "relation": "derivative",
       "glossZh": "可出口的",
-      "layer": ["ex-", "port", "-able"],
+      "layer": [
+        "ex-",
+        "port",
+        "-able"
+      ],
       "note": "三层：前缀 + 词根 + 形容词后缀"
     }
   ],
   "allomorphs": [],
   "derivationChains": [
     {
-      "stages": ["port", "export", "exportation", "exporter"],
+      "stages": [
+        "port",
+        "export",
+        "exportation",
+        "exporter"
+      ],
       "note": "每一级都真实成词；-ation 与 -er 是两条并行派生"
     },
     {
-      "stages": ["port", "transport", "transportation", "transporter"],
+      "stages": [
+        "port",
+        "transport",
+        "transportation",
+        "transporter"
+      ],
       "note": "transportation 指系统，transporter 指设备或人"
     },
     {
-      "stages": ["port", "import", "importance", "important"],
+      "stages": [
+        "port",
+        "import",
+        "importance",
+        "important"
+      ],
       "note": "importance 不是「进口行为」，而是「带进来的分量」，词义已转移"
     },
     {
-      "stages": ["port", "report", "reporter", "reportage"],
+      "stages": [
+        "port",
+        "report",
+        "reporter",
+        "reportage"
+      ],
       "note": "reportage 借自法语，指报道文体"
     }
   ],
@@ -182,6 +247,10 @@
     {
       "id": "S5",
       "detail": "Oxford Dictionary of English Etymology，portare 与 portus 两条对照"
+    },
+    {
+      "id": "G2",
+      "detail": "Lewis & Short 1879, s.v. porto (line 475764)"
     }
   ]
 }

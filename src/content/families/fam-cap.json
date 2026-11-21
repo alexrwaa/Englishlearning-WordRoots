@@ -14,98 +14,144 @@
       "w": "capture",
       "relation": "derivative",
       "glossZh": "捕获",
-      "layer": ["capt", "-ure"],
+      "layer": [
+        "capt",
+        "-ure"
+      ],
       "note": "capt 是 capere 的分词词干 + -ure 表动作"
     },
     {
       "w": "captive",
       "relation": "derivative",
       "glossZh": "俘虏；被俘的",
-      "layer": ["capt", "-ive"],
+      "layer": [
+        "capt",
+        "-ive"
+      ],
       "note": "-ive 表人或性质：被抓住的"
     },
     {
       "w": "capacity",
       "relation": "derivative",
       "glossZh": "容量；能力",
-      "layer": ["cap", "-ity"],
+      "layer": [
+        "cap",
+        "-ity"
+      ],
       "note": "拉丁 capax「能容纳的」+ -ity；-ac- 是 capax 的词干残留"
     },
     {
       "w": "accept",
       "relation": "derivative",
       "glossZh": "接受",
-      "layer": ["ac-", "cept"],
+      "layer": [
+        "ac-",
+        "cept"
+      ],
       "note": "ac- 是 ad- 的同化变体，向 + 拿 → 拿到自己这里"
     },
     {
       "w": "except",
       "relation": "derivative",
       "glossZh": "除外",
-      "layer": ["ex-", "cept"],
+      "layer": [
+        "ex-",
+        "cept"
+      ],
       "note": "ex- 向外 + 拿 → 拿到外面去"
     },
     {
       "w": "intercept",
       "relation": "derivative",
       "glossZh": "拦截",
-      "layer": ["inter-", "cept"],
+      "layer": [
+        "inter-",
+        "cept"
+      ],
       "note": "inter- 在中间 + 拿 → 半路拿走"
     },
     {
       "w": "concept",
       "relation": "derivative",
       "glossZh": "概念",
-      "layer": ["con-", "cept"],
+      "layer": [
+        "con-",
+        "cept"
+      ],
       "note": "con- 一起 + 拿 → 把特征拿到一起形成的想法"
     },
     {
       "w": "reception",
       "relation": "derivative",
       "glossZh": "接待；接收",
-      "layer": ["re-", "cept", "-ion"],
+      "layer": [
+        "re-",
+        "cept",
+        "-ion"
+      ],
       "note": "re- 回 + 拿 + -ion → 把来者接回来"
     },
     {
       "w": "receipt",
       "relation": "derivative",
       "glossZh": "收据",
-      "layer": ["re-", "ceipt"],
+      "layer": [
+        "re-",
+        "ceipt"
+      ],
       "note": "ceipt 是受法语影响的拼写变体，与 reception 同源"
     },
     {
       "w": "deception",
       "relation": "derivative",
       "glossZh": "欺骗",
-      "layer": ["de-", "cept", "-ion"],
+      "layer": [
+        "de-",
+        "cept",
+        "-ion"
+      ],
       "note": "de- 向下、偏离 + 拿 → 把人拿进圈套"
     },
     {
       "w": "occupy",
       "relation": "derivative",
       "glossZh": "占据",
-      "layer": ["oc-", "cup", "-y"],
+      "layer": [
+        "oc-",
+        "cup",
+        "-y"
+      ],
       "note": "oc- 是 ob- 的同化变体 + cup 拿 → 压上去拿住"
     },
     {
       "w": "capable",
       "relation": "derivative",
       "glossZh": "有能力的",
-      "layer": ["cap", "-able"],
+      "layer": [
+        "cap",
+        "-able"
+      ],
       "note": "-able 能…的：能拿得住事的"
     },
     {
       "w": "caption",
       "relation": "derivative",
       "glossZh": "标题；字幕",
-      "layer": ["capt", "-ion"],
+      "layer": [
+        "capt",
+        "-ion"
+      ],
       "note": "拉丁 captio 原义「抓取」，后指「抓住要点的文字」"
     },
     {
       "w": "susceptible",
       "relation": "derivative",
       "glossZh": "易受影响的",
-      "layer": ["sus-", "cept", "-ible"],
+      "layer": [
+        "sus-",
+        "cept",
+        "-ible"
+      ],
       "note": "sus- 是 sub- 的变体，在下面 + 拿 + -ible → 容易被拿住的"
     }
   ],
@@ -113,44 +159,81 @@
     {
       "form": "capt",
       "note": "拉丁分词词干，出现在 capture / captive 这一类",
-      "examples": ["capture", "captive", "caption"]
+      "examples": [
+        "capture",
+        "captive",
+        "caption"
+      ]
     },
     {
       "form": "cept",
       "note": "加前缀时的弱化形式，最常见",
-      "examples": ["accept", "except", "concept"]
+      "examples": [
+        "accept",
+        "except",
+        "concept"
+      ]
     },
     {
       "form": "cip",
       "note": "元音进一步弱化为 i",
-      "examples": ["recipient", "incipient", "participate"]
+      "examples": [
+        "recipient",
+        "incipient",
+        "participate"
+      ]
     },
     {
       "form": "cup",
       "note": "在唇音前圆唇化",
-      "examples": ["occupy", "recuperate"]
+      "examples": [
+        "occupy",
+        "recuperate"
+      ]
     },
     {
       "form": "ceipt",
       "note": "经法语传入的拼写，只有少数词",
-      "examples": ["receipt"]
+      "examples": [
+        "receipt"
+      ]
     }
   ],
   "derivationChains": [
     {
-      "stages": ["cap", "capture", "captive", "captivity"],
+      "stages": [
+        "cap",
+        "capture",
+        "captive",
+        "captivity"
+      ],
       "note": "每一级都真实成词；-ive 先造形容词，-ity 再造抽象名词"
     },
     {
-      "stages": ["cap", "accept", "acceptance", "acceptable"],
+      "stages": [
+        "cap",
+        "accept",
+        "acceptance",
+        "acceptable"
+      ],
       "note": "accept 走 cept，名词 -ance，形容词 -able"
     },
     {
-      "stages": ["cap", "except", "exception", "exceptional"],
+      "stages": [
+        "cap",
+        "except",
+        "exception",
+        "exceptional"
+      ],
       "note": "exception 的 -ion 前是 t，不是拼写错误"
     },
     {
-      "stages": ["cap", "concept", "conception", "conceptual"],
+      "stages": [
+        "cap",
+        "concept",
+        "conception",
+        "conceptual"
+      ],
       "note": "conceptual 走 -ual，与 concept 的 t 对应"
     }
   ],
@@ -213,6 +296,10 @@
     {
       "id": "S5",
       "detail": "Oxford Dictionary of English Etymology，capere 与 caput 两条对照"
+    },
+    {
+      "id": "G2",
+      "detail": "Lewis & Short 1879, s.v. capio (line 98264)"
     }
   ]
 }

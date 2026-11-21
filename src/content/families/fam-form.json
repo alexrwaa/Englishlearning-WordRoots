@@ -14,110 +14,169 @@
       "w": "form",
       "relation": "derivative",
       "glossZh": "形式；形成",
-      "layer": ["form"],
+      "layer": [
+        "form"
+      ],
       "note": "拉丁 forma 直接进入英语，既指形状也指构成"
     },
     {
       "w": "formal",
       "relation": "derivative",
       "glossZh": "正式的",
-      "layer": ["form", "-al"],
+      "layer": [
+        "form",
+        "-al"
+      ],
       "note": "-al …的：有明确形式的 → 合规矩的"
     },
     {
       "w": "formation",
       "relation": "derivative",
       "glossZh": "形成；编队",
-      "layer": ["form", "-ation"],
+      "layer": [
+        "form",
+        "-ation"
+      ],
       "note": "-ation 表动作或结果"
     },
     {
       "w": "inform",
       "relation": "derivative",
       "glossZh": "告知",
-      "layer": ["in-", "form"],
+      "layer": [
+        "in-",
+        "form"
+      ],
       "note": "in- 在内 + form 形状 → 把形状放进人心里，即让他知道"
     },
     {
       "w": "information",
       "relation": "derivative",
       "glossZh": "信息",
-      "layer": ["in-", "form", "-ation"],
+      "layer": [
+        "in-",
+        "form",
+        "-ation"
+      ],
       "note": "inform 的名词形：被放进心里的东西"
     },
     {
       "w": "reform",
       "relation": "derivative",
       "glossZh": "改革",
-      "layer": ["re-", "form"],
+      "layer": [
+        "re-",
+        "form"
+      ],
       "note": "re- 再 + 成形 → 重新塑造"
     },
     {
       "w": "transform",
       "relation": "derivative",
       "glossZh": "转变",
-      "layer": ["trans-", "form"],
+      "layer": [
+        "trans-",
+        "form"
+      ],
       "note": "trans- 越过 + 形状 → 跨到另一种形态"
     },
     {
       "w": "uniform",
       "relation": "derivative",
       "glossZh": "制服；统一的",
-      "layer": ["uni-", "form"],
+      "layer": [
+        "uni-",
+        "form"
+      ],
       "note": "uni- 一个 + 形状 → 同一种样式"
     },
     {
       "w": "conform",
       "relation": "derivative",
       "glossZh": "遵从",
-      "layer": ["con-", "form"],
+      "layer": [
+        "con-",
+        "form"
+      ],
       "note": "con- 一起 + 形状 → 把自己塑成同一形状"
     },
     {
       "w": "deform",
       "relation": "derivative",
       "glossZh": "使变形",
-      "layer": ["de-", "form"],
+      "layer": [
+        "de-",
+        "form"
+      ],
       "note": "de- 去掉、向下 + 形状 → 破坏原形"
     },
     {
       "w": "formative",
       "relation": "derivative",
       "glossZh": "形成性的",
-      "layer": ["form", "-ative"],
+      "layer": [
+        "form",
+        "-ative"
+      ],
       "note": "-ative …的：起塑造作用的"
     },
     {
       "w": "formless",
       "relation": "derivative",
       "glossZh": "无形的",
-      "layer": ["form", "-less"],
+      "layer": [
+        "form",
+        "-less"
+      ],
       "note": "-less 无…的"
     },
     {
       "w": "multiform",
       "relation": "derivative",
       "glossZh": "多形态的",
-      "layer": ["multi-", "form"],
+      "layer": [
+        "multi-",
+        "form"
+      ],
       "note": "multi- 多 + 形状"
     }
   ],
   "allomorphs": [],
   "derivationChains": [
     {
-      "stages": ["form", "inform", "information", "informational"],
+      "stages": [
+        "form",
+        "inform",
+        "information",
+        "informational"
+      ],
       "note": "每一级都真实成词；-ation 与 -ational 是两层"
     },
     {
-      "stages": ["form", "reform", "reformation", "reformer"],
+      "stages": [
+        "form",
+        "reform",
+        "reformation",
+        "reformer"
+      ],
       "note": "reformation 既指一般「重塑」，也特指 16 世纪宗教改革"
     },
     {
-      "stages": ["form", "transform", "transformation", "transformative"],
+      "stages": [
+        "form",
+        "transform",
+        "transformation",
+        "transformative"
+      ],
       "note": "transformative 走 -ative，不经过 transformation"
     },
     {
-      "stages": ["form", "conform", "conformity", "conformist"],
+      "stages": [
+        "form",
+        "conform",
+        "conformity",
+        "conformist"
+      ],
       "note": "conform 的 -ity 前拼作 -ity，不是 -ation"
     }
   ],
@@ -175,6 +234,10 @@
     {
       "id": "S5",
       "detail": "Oxford Dictionary of English Etymology，forma 与 formido 两条对照"
+    },
+    {
+      "id": "G2",
+      "detail": "Lewis & Short 1879, s.v. forma (line 263049)"
     }
   ]
 }

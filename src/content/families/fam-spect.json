@@ -14,98 +14,141 @@
       "w": "inspect",
       "relation": "derivative",
       "glossZh": "检查",
-      "layer": ["in-", "spect"],
+      "layer": [
+        "in-",
+        "spect"
+      ],
       "note": "in- 向内 + spect 看 → 往里看，逐处查看"
     },
     {
       "w": "expect",
       "relation": "derivative",
       "glossZh": "期待",
-      "layer": ["ex-", "pect"],
+      "layer": [
+        "ex-",
+        "pect"
+      ],
       "note": "ex- 向外 + spect；x 后 s 脱落写作 pect → 向外张望、等候"
     },
     {
       "w": "respect",
       "relation": "derivative",
       "glossZh": "尊敬",
-      "layer": ["re-", "spect"],
+      "layer": [
+        "re-",
+        "spect"
+      ],
       "note": "re- 回 + 看 → 回头看，引申为看重"
     },
     {
       "w": "suspect",
       "relation": "derivative",
       "glossZh": "怀疑",
-      "layer": ["sus-", "spect"],
+      "layer": [
+        "sus-",
+        "spect"
+      ],
       "note": "sus- 是 sub- 的变体，从下往上看 → 暗中打量"
     },
     {
       "w": "prospect",
       "relation": "derivative",
       "glossZh": "前景",
-      "layer": ["pro-", "spect"],
+      "layer": [
+        "pro-",
+        "spect"
+      ],
       "note": "pro- 向前 + 看 → 向前望到的景象"
     },
     {
       "w": "retrospect",
       "relation": "derivative",
       "glossZh": "回顾",
-      "layer": ["retro-", "spect"],
+      "layer": [
+        "retro-",
+        "spect"
+      ],
       "note": "retro- 向后 + 看"
     },
     {
       "w": "spectator",
       "relation": "derivative",
       "glossZh": "观众",
-      "layer": ["spect", "-ator"],
+      "layer": [
+        "spect",
+        "-ator"
+      ],
       "note": "-ator 表施动者：看的人"
     },
     {
       "w": "perspective",
       "relation": "derivative",
       "glossZh": "视角",
-      "layer": ["per-", "spect", "-ive"],
+      "layer": [
+        "per-",
+        "spect",
+        "-ive"
+      ],
       "note": "per- 穿过 + 看 → 透过某处看到的景象"
     },
     {
       "w": "specify",
       "relation": "derivative",
       "glossZh": "明确说明",
-      "layer": ["spec", "-ify"],
+      "layer": [
+        "spec",
+        "-ify"
+      ],
       "note": "源自 species「外观、种类」（< specere）+ -ify → 把类别说定"
     },
     {
       "w": "specific",
       "relation": "derivative",
       "glossZh": "具体的",
-      "layer": ["spec", "-ific"],
+      "layer": [
+        "spec",
+        "-ific"
+      ],
       "note": "-ific 使…的：被指明到某一类的"
     },
     {
       "w": "spectacle",
       "relation": "derivative",
       "glossZh": "景象；眼镜",
-      "layer": ["spect", "-acle"],
+      "layer": [
+        "spect",
+        "-acle"
+      ],
       "note": "-acle 表对象或工具 → 供观看之物；spectacles 是「用来看的东西」"
     },
     {
       "w": "introspect",
       "relation": "derivative",
       "glossZh": "内省",
-      "layer": ["intro-", "spect"],
+      "layer": [
+        "intro-",
+        "spect"
+      ],
       "note": "intro- 向内 + 看"
     },
     {
       "w": "circumspect",
       "relation": "derivative",
       "glossZh": "谨慎的",
-      "layer": ["circum-", "spect"],
+      "layer": [
+        "circum-",
+        "spect"
+      ],
       "note": "circum- 环绕 + 看 → 四面都看到，不冒进"
     },
     {
       "w": "despise",
       "relation": "derivative",
       "glossZh": "鄙视",
-      "layer": ["de-", "spic"],
+      "layer": [
+        "de-",
+        "spic"
+      ],
       "note": "de- 向下 + spic 看 → 从上往下看"
     },
     {
@@ -125,30 +168,57 @@
     {
       "form": "spec",
       "note": "词根元音弱化，多出现在 -ify / -ific / -ial 前",
-      "examples": ["specify", "specific", "special"]
+      "examples": [
+        "specify",
+        "specific",
+        "special"
+      ]
     },
     {
       "form": "spic",
       "note": "拉丁内部形式，保留在复合词里",
-      "examples": ["conspicuous", "despise", "perspicacious"]
+      "examples": [
+        "conspicuous",
+        "despise",
+        "perspicacious"
+      ]
     },
     {
       "form": "pect",
       "note": "ex- 后 s 脱落，-spect- 写作 -pect-",
-      "examples": ["expect", "expectant", "unexpected"]
+      "examples": [
+        "expect",
+        "expectant",
+        "unexpected"
+      ]
     }
   ],
   "derivationChains": [
     {
-      "stages": ["spect", "inspect", "inspection", "inspector"],
+      "stages": [
+        "spect",
+        "inspect",
+        "inspection",
+        "inspector"
+      ],
       "note": "每一级都真实成词；-ion 造动作名词，-or 再造施动者"
     },
     {
-      "stages": ["spect", "respect", "respectable", "respectability"],
+      "stages": [
+        "spect",
+        "respect",
+        "respectable",
+        "respectability"
+      ],
       "note": "-able 造形容词，-ity 再加一层名词"
     },
     {
-      "stages": ["spect", "prospect", "prospective", "prospector"],
+      "stages": [
+        "spect",
+        "prospect",
+        "prospective",
+        "prospector"
+      ],
       "note": "prospective 与 prospector 是 prospect 的两条不同派生路，不是先后关系"
     }
   ],
@@ -206,6 +276,10 @@
     {
       "id": "S5",
       "detail": "Oxford Dictionary of English Etymology，specere 与 spectrum 条"
+    },
+    {
+      "id": "G2",
+      "detail": "Lewis & Short 1879, s.v. specto (line 587815)"
     }
   ]
 }

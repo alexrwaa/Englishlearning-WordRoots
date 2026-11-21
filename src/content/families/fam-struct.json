@@ -14,91 +14,138 @@
       "w": "construct",
       "relation": "derivative",
       "glossZh": "建造",
-      "layer": ["con-", "struct"],
+      "layer": [
+        "con-",
+        "struct"
+      ],
       "note": "con- 一起 + struct 堆 → 把材料堆到一起"
     },
     {
       "w": "destruction",
       "relation": "derivative",
       "glossZh": "破坏",
-      "layer": ["de-", "struct", "-ion"],
+      "layer": [
+        "de-",
+        "struct",
+        "-ion"
+      ],
       "note": "de- 向下、反着来 + 建造 → 拆掉已搭好的"
     },
     {
       "w": "instruct",
       "relation": "derivative",
       "glossZh": "指导",
-      "layer": ["in-", "struct"],
+      "layer": [
+        "in-",
+        "struct"
+      ],
       "note": "in- 在内 + 搭建 → 在人心里把知识搭起来"
     },
     {
       "w": "obstruct",
       "relation": "derivative",
       "glossZh": "阻碍",
-      "layer": ["ob-", "struct"],
+      "layer": [
+        "ob-",
+        "struct"
+      ],
       "note": "ob- 对着、挡在前面 + 堆 → 在前方堆起障碍"
     },
     {
       "w": "structure",
       "relation": "derivative",
       "glossZh": "结构",
-      "layer": ["struct", "-ure"],
+      "layer": [
+        "struct",
+        "-ure"
+      ],
       "note": "-ure 造名词：搭建的方式与结果"
     },
     {
       "w": "infrastructure",
       "relation": "derivative",
       "glossZh": "基础设施",
-      "layer": ["infra-", "struct", "-ure"],
+      "layer": [
+        "infra-",
+        "struct",
+        "-ure"
+      ],
       "note": "infra- 在下方 + 结构 → 托住上层设施的底层结构"
     },
     {
       "w": "superstructure",
       "relation": "derivative",
       "glossZh": "上层建筑",
-      "layer": ["super-", "struct", "-ure"],
+      "layer": [
+        "super-",
+        "struct",
+        "-ure"
+      ],
       "note": "super- 在上 + 结构，与 infrastructure 成对"
     },
     {
       "w": "substructure",
       "relation": "derivative",
       "glossZh": "下部结构",
-      "layer": ["sub-", "struct", "-ure"],
+      "layer": [
+        "sub-",
+        "struct",
+        "-ure"
+      ],
       "note": "sub- 在下 + 结构，工程术语"
     },
     {
       "w": "nanostructure",
       "relation": "derivative",
       "glossZh": "纳米结构",
-      "layer": ["nano-", "struct", "-ure"],
+      "layer": [
+        "nano-",
+        "struct",
+        "-ure"
+      ],
       "note": "nano- 纳米级 + 结构，20 世纪科技复合词"
     },
     {
       "w": "reconstruct",
       "relation": "derivative",
       "glossZh": "重建",
-      "layer": ["re-", "con-", "struct"],
+      "layer": [
+        "re-",
+        "con-",
+        "struct"
+      ],
       "note": "re- 再 + con- 一起 + 搭"
     },
     {
       "w": "instrument",
       "relation": "derivative",
       "glossZh": "仪器；乐器",
-      "layer": ["in-", "stru", "-ment"],
+      "layer": [
+        "in-",
+        "stru",
+        "-ment"
+      ],
       "note": "拉丁 instruere「装备、布置」→ 为完成某事搭起来的东西"
     },
     {
       "w": "construe",
       "relation": "derivative",
       "glossZh": "理解；解释",
-      "layer": ["con-", "stru"],
+      "layer": [
+        "con-",
+        "stru"
+      ],
       "note": "con- 一起 + stru 搭 → 把词句的意义搭起来（词尾 e 不承载意义）"
     },
     {
       "w": "structural",
       "relation": "derivative",
       "glossZh": "结构的",
-      "layer": ["struct", "-ure", "-al"],
+      "layer": [
+        "struct",
+        "-ure",
+        "-al"
+      ],
       "note": "structure 去 e 加 -al"
     },
     {
@@ -112,24 +159,48 @@
     {
       "form": "stru",
       "note": "拉丁现在词干，出现在 instrument、construe 这类早期借词里",
-      "examples": ["instrument", "instrumental", "construe"]
+      "examples": [
+        "instrument",
+        "instrumental",
+        "construe"
+      ]
     }
   ],
   "derivationChains": [
     {
-      "stages": ["struct", "construct", "construction", "constructionist"],
+      "stages": [
+        "struct",
+        "construct",
+        "construction",
+        "constructionist"
+      ],
       "note": "每一级都真实成词；-ion 造动作名词，-ist 再造人"
     },
     {
-      "stages": ["struct", "instruct", "instruction", "instructional"],
+      "stages": [
+        "struct",
+        "instruct",
+        "instruction",
+        "instructional"
+      ],
       "note": "-al 把名词转成形容词"
     },
     {
-      "stages": ["struct", "structure", "structural", "structurally"],
+      "stages": [
+        "struct",
+        "structure",
+        "structural",
+        "structurally"
+      ],
       "note": "structure → structural 去 e，是拼写规则不是词根变化"
     },
     {
-      "stages": ["struct", "obstruct", "obstruction", "obstructive"],
+      "stages": [
+        "struct",
+        "obstruct",
+        "obstruction",
+        "obstructive"
+      ],
       "note": "-ive 造形容词，与 -ion 名词并行"
     }
   ],
@@ -181,6 +252,10 @@
     {
       "id": "S5",
       "detail": "Oxford Dictionary of English Etymology，struere 与 instrumentum 条"
+    },
+    {
+      "id": "G2",
+      "detail": "Lewis & Short 1879, s.v. struo (line 597587)"
     }
   ]
 }

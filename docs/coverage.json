@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-21T16:30:03.551Z",
+  "generatedAt": "2026-11-21T16:53:47.764Z",
   "identity": {
-    "morphemes": 796,
-    "forms": 1019,
+    "morphemes": 809,
+    "forms": 1054,
     "ambiguousForms": [
       "a",
       "able",
@@ -58,6 +58,7 @@
       "prim",
       "sal",
       "script",
+      "sed",
       "sex",
       "sion",
       "sol",
@@ -125,9 +126,9 @@
     }
   ],
   "knowledgeBase": {
-    "morphemes": 796,
+    "morphemes": 809,
     "words": 1473,
-    "verifiedWords": 991,
+    "verifiedWords": 1015,
     "concepts": 35,
     "families": 423
   },
@@ -369,9 +370,9 @@
       "level": "L4",
       "name": "例词充分",
       "rule": "≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true）",
-      "count": 252,
+      "count": 257,
       "total": 559,
-      "pct": 45,
+      "pct": 46,
       "gaps": [
         {
           "element": "-ise",
@@ -479,9 +480,9 @@
       "level": "L5",
       "name": "有讲解",
       "rule": "某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段）",
-      "count": 230,
+      "count": 233,
       "total": 559,
-      "pct": 41,
+      "pct": 42,
       "gaps": [
         {
           "element": "crypt",
@@ -818,7 +819,7 @@
     "stuck": [
       {
         "at": "L5",
-        "count": 98
+        "count": 97
       },
       {
         "at": "L2",
@@ -830,29 +831,29 @@
       },
       {
         "at": "L4",
-        "count": 266
+        "count": 261
       },
       {
         "at": "L7",
-        "count": 62
+        "count": 64
       },
       {
         "at": "L6",
-        "count": 21
+        "count": 25
       }
     ]
   },
   "evidence": {
     "l5": {
-      "id": 41,
-      "text": 167,
-      "form": 22
+      "id": 42,
+      "text": 170,
+      "form": 21
     },
     "l6": {
       "form": 179,
       "text": 32
     },
-    "chapterTopicOnly": 286,
+    "chapterTopicOnly": 283,
     "l7": {
       "gloss+etymology": 19,
       "identity+gloss+etymology+derivation": 206,
@@ -976,6 +977,7 @@
         "monogamy",
         "monolingual",
         "monolith",
+        "monologue",
         "monopoly",
         "monument"
       ],
@@ -1304,6 +1306,7 @@
       "verifiedWords": [
         "amoral",
         "annihilate",
+        "asexual",
         "atypical"
       ],
       "teaching": [
@@ -2259,6 +2262,7 @@
       "verifiedWords": [
         "amoral",
         "annihilate",
+        "asexual",
         "atypical"
       ],
       "teaching": [
@@ -2383,11 +2387,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "agenda",
+        "legend",
         "memoranda",
         "memorandum",
         "memorandums",
-        "propaganda",
-        "referendum"
+        "propaganda"
       ],
       "teaching": [
         {
@@ -2815,8 +2819,10 @@
         "L7": true
       },
       "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "verifiedWords": [
+        "apologize"
+      ],
       "teaching": [],
       "practice": [],
       "chapterTopicOnly": true
@@ -4010,7 +4016,8 @@
         "capability",
         "capable",
         "capacity",
-        "except"
+        "except",
+        "perceive"
       ],
       "teaching": [
         {
@@ -4451,7 +4458,8 @@
         "capability",
         "capable",
         "capacity",
-        "except"
+        "except",
+        "perceive"
       ],
       "teaching": [
         {
@@ -4881,7 +4889,8 @@
         "capability",
         "capable",
         "capacity",
-        "except"
+        "except",
+        "perceive"
       ],
       "teaching": [
         {
@@ -5732,6 +5741,7 @@
       "verifiedWords": [
         "credence",
         "credential",
+        "credibility",
         "credible",
         "incredible"
       ],
@@ -6027,7 +6037,8 @@
         "capability",
         "capable",
         "capacity",
-        "except"
+        "except",
+        "perceive"
       ],
       "teaching": [
         {
@@ -6424,9 +6435,9 @@
         "activity",
         "capability",
         "community",
+        "compatibility",
         "complexity",
-        "conformity",
-        "creativity"
+        "conformity"
       ],
       "teaching": [
         {
@@ -6672,9 +6683,9 @@
         "acropolis",
         "analyses",
         "analysis",
+        "apologize",
         "civilization",
-        "fertilizer",
-        "formalize"
+        "fertilize"
       ],
       "teaching": [
         {
@@ -7342,6 +7353,7 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
+        "apologize",
         "lexical",
         "lexicon",
         "logical"
@@ -7383,15 +7395,16 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
-        "election"
+        "election",
+        "legend"
       ],
       "teaching": [
         {
@@ -7435,6 +7448,7 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
+        "apologize",
         "lexical",
         "lexicon",
         "logical"
@@ -7575,15 +7589,16 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
-        "election"
+        "election",
+        "legend"
       ],
       "teaching": [
         {
@@ -7867,6 +7882,7 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
+        "apologize",
         "lexical",
         "lexicon",
         "logical"
@@ -8789,6 +8805,7 @@
         "monogamy",
         "monolingual",
         "monolith",
+        "monologue",
         "monopoly",
         "monument"
       ],
@@ -11019,7 +11036,7 @@
         "introductory",
         "sensory",
         "territory",
-        "victory"
+        "trajectory"
       ],
       "teaching": [
         {
@@ -11386,15 +11403,16 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": false,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L6",
+      "reason": "讲到它的课时没有练习用到它",
       "verifiedWords": [
-        "apparatuses"
+        "apparatuses",
+        "separator"
       ],
       "teaching": [
         {
@@ -11802,19 +11820,87 @@
         "L2": true,
         "L3": true,
         "L4": true,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": true
       },
-      "gap": "L5",
-      "reason": "没有任何课时讲到它",
+      "gap": "L6",
+      "reason": "讲到它的课时没有练习用到它",
       "verifiedWords": [
         "science",
-        "scientific"
+        "scientific",
+        "scientist"
       ],
-      "teaching": [],
+      "teaching": [
+        {
+          "kind": "text",
+          "lesson": "w03d7",
+          "card": "三个否定前缀的语用差别",
+          "snippet": "某做法持什么态度”，而 unscientific 与 non-scientific 的区别恰好能改变判断：前者在批评，后者只是划界。读文章时"
+        },
+        {
+          "kind": "text",
+          "lesson": "w04d1",
+          "card": "后缀是词性的身份证",
+          "snippet": "pitalism），做事的人变成职业身份（science → scientist）。 今天先建立这张“名词化路线图”，后面三张卡片分别处理"
+        },
+        {
+          "kind": "text",
+          "lesson": "w04d5",
+          "card": "后缀到词性的速查表",
+          "snippet": "t, darkness, ability, realism, scientist, performance, friendship -a"
+        },
+        {
+          "kind": "text",
+          "lesson": "w04d7",
+          "card": "四类后缀的最终速查",
+          "snippet": "t, darkness, ability, realism, scientist -able/-ible, -ive, -ous, -a"
+        },
+        {
+          "kind": "text",
+          "lesson": "w11d1",
+          "card": "hydrogen：1787 年的一次命名",
+          "snippet": "。同一个组合形式落在“水”或“氢”两侧，只能靠搭配判断。 scientific Latin Neo-Latin 文艺复兴以后用拉"
+        },
+        {
+          "kind": "text",
+          "lesson": "w12d7",
+          "card": "十二周知识地图",
+          "snippet": "ng 术语怎么造、怎么拆 判断三类出身并推理 c-scientific, c-inference 长词与论文怎么读 独立"
+        },
+        {
+          "kind": "text",
+          "lesson": "w13d1",
+          "card": "两套词尾速查表",
+          "snippet": "-tura / -arium 词根之后、屈折之前 能：scient- + -ia → scientia -alis / -ari"
+        },
+        {
+          "kind": "text",
+          "lesson": "w13d6",
+          "card": "四个“只标词性”的名词后缀",
+          "snippet": "道该往名词方向理解，而不是去追问一个并不存在的固定含义。 scientia（知道＋性质） science 抽象性质或状态；常对应"
+        },
+        {
+          "kind": "text",
+          "lesson": "w14d1",
+          "card": "后缀的语义值：一张分类表",
+          "snippet": "c -ia / -ium / -tio / -tas scientia、studium、electio、gravitas 语义由"
+        },
+        {
+          "kind": "text",
+          "lesson": "w14d5",
+          "card": "-ent- 是“正在做”的词干",
+          "snippet": "正在感觉）→ 词干 sentient- - sciens / scientis（正在知道）→ 词干 scient- 英语直接借了一批这样的"
+        },
+        {
+          "kind": "text",
+          "lesson": "w39d3",
+          "card": "能产不等于可用",
+          "snippet": "iatr + y → psychiatrical（罕用） scientific → scientifically scientifi"
+        }
+      ],
       "practice": [],
-      "chapterTopicOnly": true
+      "chapterTopicOnly": false
     },
     {
       "id": "el-scind-l-2-11",
@@ -14530,14 +14616,15 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
         "L6": true,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
       "verifiedWords": [
+        "indestructible",
         "nondeterministic"
       ],
       "teaching": [],
@@ -14993,8 +15080,10 @@
         "L7": false
       },
       "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "verifiedWords": [
+        "photodiode"
+      ],
       "teaching": [],
       "practice": [],
       "chapterTopicOnly": true
@@ -15144,14 +15233,15 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
         "L6": true,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
       "verifiedWords": [
+        "indestructible",
         "nondeterministic"
       ],
       "teaching": [],
@@ -15394,8 +15484,10 @@
         "L7": false
       },
       "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "verifiedWords": [
+        "photodiode"
+      ],
       "teaching": [],
       "practice": [],
       "chapterTopicOnly": true
@@ -15486,11 +15578,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "effect",
+        "efficiency",
         "exact",
         "except",
         "exception",
-        "excite",
-        "exclude"
+        "excite"
       ],
       "teaching": [
         {
@@ -15906,11 +15998,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "agenda",
+        "legend",
         "memoranda",
         "memorandum",
         "memorandums",
-        "propaganda",
-        "referendum"
+        "propaganda"
       ],
       "teaching": [
         {
@@ -16472,11 +16564,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "effect",
+        "efficiency",
         "exact",
         "except",
         "exception",
-        "excite",
-        "exclude"
+        "excite"
       ],
       "teaching": [
         {
@@ -16628,11 +16720,11 @@
       "reason": "",
       "verifiedWords": [
         "effect",
+        "efficiency",
         "facile",
         "factory",
         "manufacture",
-        "manufacturer",
-        "proficient"
+        "manufacturer"
       ],
       "teaching": [
         {
@@ -16715,11 +16807,11 @@
       "reason": "",
       "verifiedWords": [
         "effect",
+        "efficiency",
         "facile",
         "factory",
         "manufacture",
-        "manufacturer",
-        "proficient"
+        "manufacturer"
       ],
       "teaching": [
         {
@@ -16897,11 +16989,11 @@
       "reason": "",
       "verifiedWords": [
         "effect",
+        "efficiency",
         "facile",
         "factory",
         "manufacture",
-        "manufacturer",
-        "proficient"
+        "manufacturer"
       ],
       "teaching": [
         {
@@ -19065,6 +19157,7 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "dehydrate",
+        "hydroelectric",
         "hydrogel"
       ],
       "teaching": [
@@ -19322,7 +19415,8 @@
         "criteria",
         "euphoria",
         "hypothermia",
-        "phobia"
+        "phobia",
+        "pneumonia"
       ],
       "teaching": [
         {
@@ -19763,11 +19857,11 @@
       "reason": "没有任何课时讲到它",
       "verifiedWords": [
         "illegal",
+        "impossible",
         "inaccurate",
         "incompatible",
         "incomplete",
-        "incredible",
-        "inerrant"
+        "incredible"
       ],
       "teaching": [],
       "practice": [
@@ -19778,6 +19872,11 @@
         },
         {
           "kind": "text",
+          "lesson": "w08d1",
+          "snippet": "answer: irregular"
+        },
+        {
+          "kind": "text",
           "lesson": "w12d7",
           "snippet": "answer: irreproducible"
         },
@@ -19785,6 +19884,11 @@
           "kind": "text",
           "lesson": "w23d7",
           "snippet": "answer: incredible"
+        },
+        {
+          "kind": "text",
+          "lesson": "w25d5",
+          "snippet": "answer: irregular"
         },
         {
           "kind": "text",
@@ -20340,12 +20444,12 @@
       "gap": "L7",
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "trajectory",
         "transducer",
         "transfer",
         "transferable",
         "transferee",
-        "transference",
-        "transferor"
+        "transference"
       ],
       "teaching": [
         {
@@ -20536,12 +20640,12 @@
       "gap": "L7",
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "trajectory",
         "transducer",
         "transfer",
         "transferable",
         "transferee",
-        "transference",
-        "transferor"
+        "transference"
       ],
       "teaching": [
         {
@@ -21498,7 +21602,7 @@
       ],
       "teaching": [
         {
-          "kind": "form",
+          "kind": "id",
           "lesson": "w12d3",
           "card": "convergence 与 residual：优化器的两个关键词"
         }
@@ -22014,6 +22118,7 @@
       "gap": "L7",
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "centipede",
         "pedal",
         "pedestal",
         "pedestrian"
@@ -22161,7 +22266,8 @@
         "appendices",
         "appendicitis",
         "appendix",
-        "appendixes"
+        "appendixes",
+        "expensive"
       ],
       "teaching": [],
       "practice": [
@@ -22251,12 +22357,12 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
+        "perceive",
         "percent",
         "perception",
         "perennial",
         "perform",
-        "performance",
-        "permanent"
+        "performance"
       ],
       "teaching": [
         {
@@ -23169,8 +23275,10 @@
         "L7": true
       },
       "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "verifiedWords": [
+        "pneumonia"
+      ],
       "teaching": [
         {
           "kind": "text",
@@ -23321,23 +23429,30 @@
         "L2": true,
         "L3": true,
         "L4": true,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
-      "gap": "L5",
-      "reason": "没有任何课时讲到它",
+      "gap": "L6",
+      "reason": "讲到它的课时没有练习用到它",
       "verifiedWords": [
         "component",
         "compose",
+        "composition",
+        "deposit",
         "expose",
-        "exposure",
-        "oppose",
-        "postpone"
+        "exposure"
       ],
-      "teaching": [],
+      "teaching": [
+        {
+          "kind": "text",
+          "lesson": "w10d6",
+          "card": "localization：同一个词，两个专业社群",
+          "snippet": "*：定位——确定自己在环境中的位置（localization、position estimation）。这里的问题是“我在哪”。 - **软"
+        }
+      ],
       "practice": [],
-      "chapterTopicOnly": true
+      "chapterTopicOnly": false
     },
     {
       "id": "el-pond-l-4",
@@ -23366,7 +23481,8 @@
         "appendices",
         "appendicitis",
         "appendix",
-        "appendixes"
+        "appendixes",
+        "expensive"
       ],
       "teaching": [],
       "practice": [
@@ -23395,23 +23511,30 @@
         "L2": true,
         "L3": true,
         "L4": true,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
-      "gap": "L5",
-      "reason": "没有任何课时讲到它",
+      "gap": "L6",
+      "reason": "讲到它的课时没有练习用到它",
       "verifiedWords": [
         "component",
         "compose",
+        "composition",
+        "deposit",
         "expose",
-        "exposure",
-        "oppose",
-        "postpone"
+        "exposure"
       ],
-      "teaching": [],
+      "teaching": [
+        {
+          "kind": "text",
+          "lesson": "w10d6",
+          "card": "localization：同一个词，两个专业社群",
+          "snippet": "*：定位——确定自己在环境中的位置（localization、position estimation）。这里的问题是“我在哪”。 - **软"
+        }
+      ],
       "practice": [],
-      "chapterTopicOnly": true
+      "chapterTopicOnly": false
     },
     {
       "id": "el-poss-l-2",
@@ -23438,6 +23561,7 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "omnipotent",
+        "possibility",
         "possible"
       ],
       "teaching": [
@@ -23557,6 +23681,7 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "omnipotent",
+        "possibility",
         "possible"
       ],
       "teaching": [
@@ -24560,7 +24685,7 @@
           "card": "loc 词族：从“放置”到“分配”"
         },
         {
-          "kind": "form",
+          "kind": "id",
           "lesson": "w12d3",
           "card": "convergence 与 residual：优化器的两个关键词"
         }

@@ -132,7 +132,12 @@
           "en": "residual"
         }
       ],
-      "morphemeIds": []
+      "morphemeIds": [
+        "px-con",
+        "cx-verg",
+        "px-re",
+        "rx-sed"
+      ]
     },
     {
       "kind": "table",

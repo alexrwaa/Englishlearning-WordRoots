@@ -340,6 +340,54 @@ export default function Assessment() {
                     有 {load.skipped} 条记录损坏已跳过，其余 {load.runs.length} 条正常显示。
                   </p>
                 ) : null}
+                {(() => {
+                  // A trend is only meaningful within one item bank. Mixing
+                  // baseline and retest, or two bank versions, would produce a
+                  // slope that measures the test rather than the learner.
+                  const byMode = new Map<string, typeof load.runs>();
+                  for (const run of load.runs) {
+                    const list = byMode.get(run.mode) ?? [];
+                    list.push(run);
+                    byMode.set(run.mode, list);
+                  }
+                  const lines = [...byMode.entries()]
+                    .filter(([, runs]) => runs.length >= 2)
+                    .map(([mode, runs]) => {
+                      const sorted = [...runs].sort((a, b) => a.finishedAt - b.finishedAt);
+                      const last = sorted[sorted.length - 1];
+                      const prev = sorted[sorted.length - 2];
+                      const sameBank = last.itemBankVersion === prev.itemBankVersion;
+                      return { mode, last, prev, sameBank };
+                    });
+                  if (lines.length === 0) return null;
+                  return (
+                    <div style={{ marginTop: 10 }}>
+                      <p className="small faint" style={{ marginBottom: 6 }}>
+                        同一模式的趋势（只在同一题库版本内比较）
+                      </p>
+                      {lines.map(({ mode, last, prev, sameBank }) => (
+                        <p key={mode} className="small" style={{ margin: '2px 0' }}>
+                          {modeLabel(mode as Mode)}：{prev.overall.toFixed(1)} → {last.overall.toFixed(1)}
+                          {sameBank ? (
+                            <span className="tiny faint">
+                              {' '}
+                              （{last.overall - prev.overall >= 0 ? '+' : ''}
+                              {(last.overall - prev.overall).toFixed(1)}）
+                            </span>
+                          ) : (
+                            <span className="tiny faint">
+                              {' '}
+                              （题库版本 {prev.itemBankVersion} → {last.itemBankVersion}，分数不可直接比较）
+                            </span>
+                          )}
+                        </p>
+                      ))}
+                      <p className="tiny faint" style={{ marginTop: 4 }}>
+                        分数变化不等于教学有效：题不同、状态不同、样本都很小。
+                      </p>
+                    </div>
+                  );
+                })()}
                 {load.runs.length === 0 ? (
                   <p className="small faint" style={{ margin: 0 }}>
                     还没有记录。完成一次基线测评后，这里会出现分数、耗时与复测对比。

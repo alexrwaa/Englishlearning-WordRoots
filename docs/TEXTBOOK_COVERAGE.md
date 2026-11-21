@@ -1,6 +1,6 @@
 # 教材覆盖率审计（自动生成）
 
-生成时间：2026-11-21T16:30:06.618Z
+生成时间：2026-11-21T16:53:50.969Z
 
 > 本文件由 `npx tsx scripts/coverage.ts --write` 生成，请勿手工编辑。
 > 数据来自教材清单、词库（含 `forms.json` 身份索引）、课程与审校记录四处独立来源。
@@ -13,8 +13,8 @@
 | L1 已登记 | 出现在 s1-elements.json | 559 | 100% |
 | L2 已关联 | 元素 → 词素 ID，form 与 origin 同时一致 | 518 | 93% |
 | L3 释义已核 | glossZh 与 glossEn 均非空且无占位符 | 518 | 93% |
-| L4 例词充分 | ≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true） | 252 | 45% |
-| L5 有讲解 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） | 230 | 41% |
+| L4 例词充分 | ≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true） | 257 | 46% |
+| L5 有讲解 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） | 233 | 42% |
 | L6 有练习 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） | 211 | 38% |
 | L7 已审校 | 该词素在 reviews.json 有审校记录（或记录自带 review.by） | 234 | 42% |
 
@@ -22,14 +22,14 @@
 
 | 级别 | 证据类型 | 数量 | 说明 |
 | --- | --- | --- | --- |
-| L5 | 卡片/课时声明 ID | 41 | 最强：作者显式声明 |
-| L5 | 卡片声明拼写 | 22 | 拼写经身份索引解析到唯一 ID |
-| L5 | 卡片正文释义 | 167 | 命中处附近有释义线索，报告存片段 |
+| L5 | 卡片/课时声明 ID | 42 | 最强：作者显式声明 |
+| L5 | 卡片声明拼写 | 21 | 拼写经身份索引解析到唯一 ID |
+| L5 | 卡片正文释义 | 170 | 命中处附近有释义线索，报告存片段 |
 | L6 | 题目声明成分 | 179 | parts / concepts / matrix base |
 | L6 | 答案为已知词 | 32 | wordSum/cloze 答案词的 partIds 含该 ID |
 | L7 | 有来源的审校 | 234 | 必须带 sources，否则不计 |
 
-> 另有 **286** 个成分：所在章有知识点被讲到，但没有任何卡片或题目点名它。
+> 另有 **283** 个成分：所在章有知识点被讲到，但没有任何卡片或题目点名它。
 > 这部分**不计入 L5**——章节相近不等于讲解证据，仅作为排课线索。
 
 ## 二、卡点分布（每个成分停在第一处未达标）
@@ -39,10 +39,10 @@
 | L1 已登记 未过 | 0 | 出现在 s1-elements.json 尚未满足 |
 | L2 已关联 未过 | 41 | 元素 → 词素 ID，form 与 origin 同时一致 尚未满足 |
 | L3 释义已核 未过 | 0 | glossZh 与 glossEn 均非空且无占位符 尚未满足 |
-| L4 例词充分 未过 | 266 | ≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true） 尚未满足 |
-| L5 有讲解 未过 | 98 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） 尚未满足 |
-| L6 有练习 未过 | 21 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） 尚未满足 |
-| L7 已审校 未过 | 62 | 该词素在 reviews.json 有审校记录（或记录自带 review.by） 尚未满足 |
+| L4 例词充分 未过 | 261 | ≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true） 尚未满足 |
+| L5 有讲解 未过 | 97 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） 尚未满足 |
+| L6 有练习 未过 | 25 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） 尚未满足 |
+| L7 已审校 未过 | 64 | 该词素在 reviews.json 有审校记录（或记录自带 review.by） 尚未满足 |
 | — 七级全过 | 71 | 已登记、已关联、释义已核、例词充分、有讲解、有练习、已审校 |
 
 ## 三、各级差异清单（前 20 条）
@@ -97,7 +97,7 @@
 - `mitt~miss`（第 3,4 章）：同形同源多条记录，释义仍无法区分（rx-mitt / rx-mit）
 - `nano-`（第 6 章）：词库中没有 form+origin 一致的记录（nano · G）
 
-### L4 例词充分（缺 307 条）
+### L4 例词充分（缺 302 条）
 
 - `-ise`（第 3 章）：同形同源多条记录且释义不匹配（sx-ise / sx-ize）
 - `onomat`（第 10 章）：verified 词条只有 0 个（需要 2 个）
@@ -120,7 +120,7 @@
 - `alt (< al 'grow')`（第 5 章）：verified 词条只有 0 个（需要 2 个）
 - `am~im`（第 4 章）：verified 词条只有 0 个（需要 2 个）
 
-### L5 有讲解（缺 329 条）
+### L5 有讲解（缺 326 条）
 
 - `crypt`（第 9 章）：没有任何课时讲到它
 - `du`（第 6 章）：没有任何课时讲到它
@@ -343,12 +343,12 @@
 | lat | carry | 10 | L | rx-fer | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | leg | law, deputize | 2 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | leg~lex~log | speak, study | 1 | G | cx-lex-leg | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
-| leg~lig | gather, read | 5 | L | rx-lect | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
+| leg~lig | gather, read | 5 | L | rx-lect | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | lex~leg~log | word, speak | 1 | G | cx-lex-leg | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | libr | balance, weigh | 2 | L | cx-libr | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | lic | permit, unrestrained | 5 | L | cx-lic | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | lig | tie, bind | 10 | L | cx-lig | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| lig~leg | gather, read | 5 | L | rx-lect | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
+| lig~leg | gather, read | 5 | L | rx-lect | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | lign | wood | 10 | L | cx-lign | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | lit~lith | stone | 9 | L | cx-lit-lith | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | liter | letter | 2 | L | cx-liter | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
@@ -449,7 +449,7 @@
 | paed~ped | child, teach | 10 | G | cx-paed-ped | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
 | pale~palae | old | 10 | G | cx-pale-palae | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | pan~pant~par | all | 6 | G | cx-pan-pant | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
-| par | give birth to | 2 | L | cx-par | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | L4 |
+| par | give birth to | 2 | L | cx-par | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
 | para- | beside, nearly | 3 | G | cx-para | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | L4 |
 | reg-rig | rule, straight | 5 | L | cx-reg-rig | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | rhin | nose | 8 | G | cx-rhin | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | L4 |
@@ -461,7 +461,7 @@
 | salv~salu | safe, greet, healthy | 10 | L | cx-salv-salu | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | sarc | flesh | 8 | G | cx-sarc | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | -sc~-esc | begin | 9 | L | cx-esc-sc | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| sci | know, discern | 2 | L | cx-sci | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
+| sci | know, discern | 2 | L | cx-sci | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
 | scind~sciss | split | 2, 11 | L | cx-scind-sciss | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | scler | hard | 8 | G | cx-scler | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | se-~sed- | apart | 3, 6 | L | px-se | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
@@ -517,7 +517,7 @@
 | tig~ting~tag~teg~tang | touch | 4 | L | cx-tag-teg | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | L4 |
 | -tion~-ion | N | 3 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | de- | reverse, from | 3,7 | L | px-de | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| de~div | god, augury | 4 | L | cx-div-de | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | L4 |
+| de~div | god, augury | 4 | L | cx-div-de | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | dec | acceptable | 10 | L | cx-dec | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | deca | ten | 6 | G | cx-deca | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | L4 |
 | decem | ten | 6 | L | cx-decem | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
@@ -535,7 +535,7 @@
 | dic | say, point | 9 | L | cx-dic | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | dich | (split in) two | 6 | G | cx-dich | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | dipl | double | 6 | G | cx-dipl | ✓ | ✓ | ✓ | — | — | — | — | L4 |
-| div~de | god, augury | 4 | L | cx-div-de | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | L4 |
+| div~de | god, augury | 4 | L | cx-div-de | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | do | give | 9 | G | cx-do | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | doc | teach | 5 | L | cx-doc | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | doc~dog | opinion | 5 | G | — | ✓ | — | — | — | — | — | — | L2 |
@@ -724,9 +724,9 @@
 | pol | community | 1 | G | cx-pol | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | poly | many | 6 | G | cx-poly | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | pom | fruit, apple | 10 | L | cx-pom | ✓ | ✓ | ✓ | — | — | — | — | L4 |
-| pon~pos | place, put | 9 | L | rx-pos | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
+| pon~pos | place, put | 9 | L | rx-pos | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | L6 |
 | pond~pend | hang, weigh | 4 | L | cx-pend-pond | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
-| pos~pon | place, put | 9 | L | rx-pos | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
+| pos~pon | place, put | 9 | L | rx-pos | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | L6 |
 | poss~pot | able, powerful | 2 | L | cx-poss-pot | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | post- | after, behind | 3 | L | px-post | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | pot | able, powerful | 2 | L | cx-poss-pot | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |

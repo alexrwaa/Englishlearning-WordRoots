@@ -173,7 +173,18 @@ export default function Family() {
                 <tbody>
                   {dossier.members.map((member) => (
                     <tr key={member.w}>
-                      <td><code>{member.w}</code></td>
+                      <td>
+                        {dictionary.has(member.w) ? (
+                          <Link to={`/word/${encodeURIComponent(member.w)}`}>
+                            <code>{member.w}</code>
+                          </Link>
+                        ) : (
+                          <>
+                            <code>{member.w}</code>
+                            <span className="tiny faint"> 词库未收</span>
+                          </>
+                        )}
+                      </td>
                       <td>
                         <Badge tone={member.relation === 'cognate' ? 'green' : 'accent'}>
                           {member.relation === 'cognate' ? '同源异途' : '派生'}
@@ -241,9 +252,31 @@ export default function Family() {
           ) : null}
 
           {dossier.sources?.length ? (
-            <p className="tiny faint" style={{ marginTop: 12 }}>
-              来源：{dossier.sources.map((s) => `${s.id}${s.detail ? `（${s.detail}）` : ''}`).join('；')}
-            </p>
+            <>
+              <p className="tiny faint" style={{ marginTop: 12 }}>
+                来源：{dossier.sources.map((s) => `${s.id}${s.detail ? `（${s.detail}）` : ''}`).join('；')}
+              </p>
+              {/* Evidence status belongs on the page, not only in a report: a
+                  family backed by one textbook is not the same claim as one whose
+                  etymons were checked in two independent dictionaries. */}
+              <p className="small" style={{ marginTop: 4 }}>
+                {(() => {
+                  const ids = new Set(dossier.sources.map((s) => s.id));
+                  const dictionaries = ['S5', 'G1', 'G2'].filter((id) => ids.has(id));
+                  if (dictionaries.length >= 2) {
+                    return (
+                      <Badge tone="green">
+                        词源：{dictionaries.length} 个独立词典来源交叉核对
+                      </Badge>
+                    );
+                  }
+                  if (dictionaries.length === 1) {
+                    return <Badge tone="accent">词源：单一词典来源（未交叉核对）</Badge>;
+                  }
+                  return <Badge>词源：仅教材转述，未引词典</Badge>;
+                })()}
+              </p>
+            </>
           ) : null}
         </Panel>
       ) : null}

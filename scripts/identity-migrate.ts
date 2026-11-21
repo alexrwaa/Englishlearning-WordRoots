@@ -153,7 +153,9 @@ const KNOWN_SENSES: KnownSense[] = [
  */
 const SENSE_PATTERNS: Record<string, RegExp[]> = {
   'px-in': [/[（(]\s*不\s*[）)]/, /\bnot\b/i, /否定/, /非/, /invisible|informal|incomplete/i],
-  'px-in-lat-2': [/向内/, /进入/, /往里/, /\binto\b/i, /inject|include|inhale|inspect|induce/i],
+  // px-im is the 'into' prefix; px-in is the negative one. The old key here was
+  // px-in-lat-2, which no morpheme has ever had, so the pattern was dead code.
+  'px-im': [/向内/, /进入/, /往里/, /\binto\b/i, /inject|include|inhale|inspect|induce/i],
   'cx-plac': [/please/i, /placere/i, /使高兴/, /安抚/, /placate|placid/i],
   // Same-spelling, different-etymon pairs added in 0.7.0. The cue is the Latin
   // etymon itself: a word whose etymology names terrere is not about terra.

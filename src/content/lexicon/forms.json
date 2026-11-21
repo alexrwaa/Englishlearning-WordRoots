@@ -407,11 +407,17 @@
   "ceipt": [
     "rx-ceipt"
   ],
+  "ceive": [
+    "rx-cap"
+  ],
   "cens": [
     "cx-cens"
   ],
   "cent": [
     "cx-cent"
+  ],
+  "centi": [
+    "cx-centi"
   ],
   "cep": [
     "rx-cap"
@@ -488,6 +494,9 @@
   ],
   "clam": [
     "cx-clam"
+  ],
+  "clar": [
+    "rx-clar"
   ],
   "clav": [
     "cx-clav"
@@ -797,6 +806,9 @@
   "el1": [
     "cx-el1"
   ],
+  "electr": [
+    "rx-electr"
+  ],
   "em": [
     "cx-haem-hem",
     "px-em"
@@ -932,6 +944,12 @@
   "fla": [
     "cx-fla"
   ],
+  "flect": [
+    "rx-flex"
+  ],
+  "flex": [
+    "rx-flex"
+  ],
   "flor": [
     "rx-flor"
   ],
@@ -946,6 +964,9 @@
   ],
   "foc": [
     "rx-foc"
+  ],
+  "fore": [
+    "px-fore"
   ],
   "form": [
     "rx-form"
@@ -1222,8 +1243,14 @@
   "iation": [
     "sx-iation"
   ],
+  "iative": [
+    "sx-ative"
+  ],
   "iatr": [
     "cx-iatr"
+  ],
+  "ibil": [
+    "sx-abil"
   ],
   "ible": [
     "cx-ble-able",
@@ -1263,6 +1290,9 @@
   ],
   "idi": [
     "cx-idi"
+  ],
+  "iency": [
+    "sx-ency"
   ],
   "ient": [
     "sx-ient"
@@ -1385,6 +1415,9 @@
   ],
   "ite": [
     "sx-ite"
+  ],
+  "iter": [
+    "rx-iter"
   ],
   "itious": [
     "sx-itious"
@@ -1552,6 +1585,9 @@
     "cx-lex-leg",
     "cx-logy"
   ],
+  "logue": [
+    "sx-logue"
+  ],
   "logy": [
     "cx-logy"
   ],
@@ -1625,6 +1661,9 @@
   "manc": [
     "cx-mant-manc"
   ],
+  "manipul": [
+    "rx-manipul"
+  ],
   "mant": [
     "cx-mant-manc"
   ],
@@ -1651,6 +1690,9 @@
   ],
   "men": [
     "cx-men-mon"
+  ],
+  "menstru": [
+    "rx-menstru"
   ],
   "ment": [
     "sx-ment"
@@ -1936,6 +1978,9 @@
   "ode": [
     "rx-od"
   ],
+  "odo": [
+    "rx-od"
+  ],
   "odont": [
     "cx-odont"
   ],
@@ -2109,6 +2154,9 @@
   "pend": [
     "cx-pend-pond"
   ],
+  "pens": [
+    "cx-pend-pond"
+  ],
   "penta": [
     "cx-penta"
   ],
@@ -2200,6 +2248,12 @@
   "platy": [
     "rx-platy"
   ],
+  "plaud": [
+    "rx-plaud"
+  ],
+  "plaus": [
+    "rx-plaud"
+  ],
   "ple": [
     "cx-ple"
   ],
@@ -2221,6 +2275,9 @@
   "plic": [
     "cx-pl-plec"
   ],
+  "plos": [
+    "rx-plaud"
+  ],
   "plur": [
     "cx-plur"
   ],
@@ -2228,6 +2285,9 @@
     "cx-pne-pneum"
   ],
   "pneum": [
+    "cx-pne-pneum"
+  ],
+  "pneumon": [
     "cx-pne-pneum"
   ],
   "pod": [
@@ -2253,6 +2313,9 @@
     "rx-port"
   ],
   "pos": [
+    "rx-pos"
+  ],
+  "posit": [
     "rx-pos"
   ],
   "poss": [
@@ -2343,6 +2406,9 @@
   "pung": [
     "cx-pung"
   ],
+  "pur": [
+    "px-pro"
+  ],
   "pus": [
     "rx-pus"
   ],
@@ -2411,6 +2477,9 @@
   ],
   "respect": [
     "rx-respect"
+  ],
+  "respons": [
+    "rx-spond"
   ],
   "retro": [
     "px-retro"
@@ -2488,6 +2557,9 @@
   "sci": [
     "cx-sci"
   ],
+  "scient": [
+    "cx-sci"
+  ],
   "scind": [
     "cx-scind-sciss"
   ],
@@ -2523,7 +2595,8 @@
     "cx-sacr-sanc"
   ],
   "sed": [
-    "px-se"
+    "px-se",
+    "rx-sed"
   ],
   "segment": [
     "rx-segment"
@@ -2576,12 +2649,18 @@
   "sesqui": [
     "cx-sesqui"
   ],
+  "sess": [
+    "rx-sed"
+  ],
   "sex": [
     "cx-sex",
     "cx-sex-2"
   ],
   "sext": [
     "cx-sext"
+  ],
+  "sid": [
+    "rx-sed"
   ],
   "sign": [
     "rx-sign"
@@ -2672,6 +2751,12 @@
   "spir": [
     "rx-spir"
   ],
+  "spond": [
+    "rx-spond"
+  ],
+  "spons": [
+    "rx-spond"
+  ],
   "spor": [
     "cx-spor"
   ],
@@ -2698,6 +2783,12 @@
   ],
   "stimul": [
     "rx-stimul"
+  ],
+  "stinct": [
+    "rx-stingu"
+  ],
+  "stingu": [
+    "rx-stingu"
   ],
   "stom": [
     "cx-stom-stomat"
@@ -2792,6 +2883,9 @@
   "techn": [
     "rx-techn"
   ],
+  "techno": [
+    "rx-techn"
+  ],
   "tect": [
     "rx-tect"
   ],
@@ -2817,6 +2911,9 @@
   ],
   "tens": [
     "cx-tend-tens"
+  ],
+  "tent": [
+    "rx-ten"
   ],
   "tenu": [
     "rx-tenu"
@@ -2866,6 +2963,9 @@
   ],
   "thromb": [
     "cx-thromb"
+  ],
+  "tic": [
+    "sx-atic"
   ],
   "tie": [
     "rx-tie"
@@ -2951,6 +3051,9 @@
   ],
   "type": [
     "rx-typ"
+  ],
+  "ual": [
+    "sx-ial"
   ],
   "uary": [
     "sx-uary"
@@ -3043,6 +3146,9 @@
     "cx-verm"
   ],
   "vers": [
+    "rx-vert"
+  ],
+  "verse": [
     "rx-vert"
   ],
   "vert": [
