@@ -2664,7 +2664,8 @@
     "legacyIds": [
       "cx-cep-cap",
       "cx-cup-cap"
-    ]
+    ],
+    "familyId": "fam-cap"
   },
   {
     "form": "capit",
@@ -2695,7 +2696,8 @@
     "id": "rx-capit",
     "formKey": "capit",
     "identityStatus": "verified",
-    "homographs": []
+    "homographs": [],
+    "familyId": "fam-cap"
   },
   {
     "form": "caps",
@@ -7538,7 +7540,8 @@
     "formKey": "graph",
     "identityStatus": "verified",
     "homographs": [],
-    "senseKey": "write"
+    "senseKey": "write",
+    "familyId": "fam-graph"
   },
   {
     "id": "cx-graphy",
@@ -12099,7 +12102,8 @@
     "formKey": "miss",
     "identityStatus": "verified",
     "homographs": [],
-    "senseKey": "sent"
+    "senseKey": "sent",
+    "familyId": "fam-mit"
   },
   {
     "id": "rx-mit",
@@ -12128,7 +12132,8 @@
     "formKey": "mit",
     "identityStatus": "verified",
     "homographs": [],
-    "senseKey": "send"
+    "senseKey": "send",
+    "familyId": "fam-mit"
   },
   {
     "id": "rx-mitt",
@@ -15276,7 +15281,8 @@
     "formKey": "phon",
     "identityStatus": "verified",
     "homographs": [],
-    "senseKey": "sound"
+    "senseKey": "sound",
+    "familyId": "fam-phon"
   },
   {
     "id": "cx-phot-phos",
@@ -17933,7 +17939,8 @@
     "formKey": "scrib",
     "identityStatus": "verified",
     "homographs": [],
-    "senseKey": "write"
+    "senseKey": "write",
+    "familyId": "fam-scrib"
   },
   {
     "id": "rx-script",
@@ -17959,7 +17966,8 @@
     "formKey": "script",
     "identityStatus": "verified",
     "homographs": [],
-    "senseKey": "written"
+    "senseKey": "written",
+    "familyId": "fam-scrib"
   },
   {
     "id": "px-se",

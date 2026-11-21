@@ -31,17 +31,24 @@ export default function Family() {
   const familyId = resolveFamilyId(id);
   const morpheme = useMemo(() => allMorphemes().find((m) => m.id === familyId), [familyId]);
   const baseForm = familyId ? (familyBaseForm(familyId) ?? '') : '';
+  // The route carries a **morpheme** id (`rx-spec`); dossiers are filed under the
+  // **family** id (`fam-spect`). Looking up by the route id never matched, so the
+  // dossier panel silently never rendered in 0.8.0. Resolve through the
+  // morpheme's familyId, and keep the direct id as a fallback for old links.
+  const dossierId = morpheme?.familyId ?? familyId;
   const [dossier, setDossier] = useState<FamilyDossier | undefined>();
 
   useEffect(() => {
     let alive = true;
     void loadFamilies().then(() => {
-      if (alive) setDossier(familyId ? familyDossier(familyId) : undefined);
+      if (!alive) return;
+      const key = dossierId ?? familyId ?? '';
+      setDossier(key ? familyDossier(key) : undefined);
     });
     return () => {
       alive = false;
     };
-  }, [familyId]);
+  }, [dossierId, familyId]);
 
   const members = useMemo(() => {
     if (!familyId) return [];

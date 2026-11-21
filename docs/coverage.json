@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T03:34:42.007Z",
+  "generatedAt": "2026-11-21T15:38:09.536Z",
   "identity": {
     "morphemes": 796,
     "forms": 1019,
@@ -123,7 +123,7 @@
     "words": 1473,
     "verifiedWords": 991,
     "concepts": 35,
-    "families": 419
+    "families": 423
   },
   "curriculum": {
     "lessons": 243,
@@ -18127,7 +18127,7 @@
           "card": "bio：从“生命”到“共同生活”"
         },
         {
-          "kind": "form",
+          "kind": "id",
           "lesson": "w06d3",
           "card": "graphein 是“刻划”，graph 与 gram 分工不同"
         },

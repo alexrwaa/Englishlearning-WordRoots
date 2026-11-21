@@ -40,7 +40,10 @@
         "mit",
         "miss"
       ],
-      "morphemeIds": []
+      "morphemeIds": [
+        "rx-mit",
+        "rx-miss"
+      ]
     },
     {
       "kind": "text",

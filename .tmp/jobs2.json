@@ -1,0 +1,201 @@
+{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 136725068629,
+      "run_id": 44864514933,
+      "workflow_name": "Build portable Windows app",
+      "head_branch": "v0.9.0",
+      "run_url": "https://api.github.com/repos/alexrwaa/Englishlearning-WordRoots/actions/runs/44864514933",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOVxaW3s8AAAAf1XL7VQ",
+      "head_sha": "e8dc6a0152d8e1532c757a4dbcb8a5e14d6e407d",
+      "url": "https://api.github.com/repos/alexrwaa/Englishlearning-WordRoots/actions/jobs/136725068629",
+      "html_url": "https://github.com/alexrwaa/Englishlearning-WordRoots/actions/runs/44864514933/job/136725068629",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-11-21T04:07:24Z",
+      "started_at": "2026-11-21T04:07:27Z",
+      "completed_at": "2026-11-21T04:13:43Z",
+      "name": "Windows x64 portable ZIP",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-11-21T04:07:28Z",
+          "completed_at": "2026-11-21T04:07:30Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-11-21T04:07:30Z",
+          "completed_at": "2026-11-21T04:07:36Z"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-11-21T04:07:36Z",
+          "completed_at": "2026-11-21T04:07:47Z"
+        },
+        {
+          "name": "Run dtolnay/rust-toolchain@stable",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-11-21T04:07:47Z",
+          "completed_at": "2026-11-21T04:07:56Z"
+        },
+        {
+          "name": "Run Swatinem/rust-cache@v2",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-11-21T04:07:56Z",
+          "completed_at": "2026-11-21T04:08:21Z"
+        },
+        {
+          "name": "Install frontend deps",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-11-21T04:08:21Z",
+          "completed_at": "2026-11-21T04:09:15Z"
+        },
+        {
+          "name": "Unit tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-11-21T04:09:15Z",
+          "completed_at": "2026-11-21T04:09:23Z"
+        },
+        {
+          "name": "Build frontend",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-11-21T04:09:23Z",
+          "completed_at": "2026-11-21T04:09:37Z"
+        },
+        {
+          "name": "Rust unit tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-11-21T04:09:37Z",
+          "completed_at": "2026-11-21T04:10:21Z"
+        },
+        {
+          "name": "Build desktop binary",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-11-21T04:10:21Z",
+          "completed_at": "2026-11-21T04:11:53Z"
+        },
+        {
+          "name": "Assemble portable folder",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-11-21T04:11:53Z",
+          "completed_at": "2026-11-21T04:11:55Z"
+        },
+        {
+          "name": "Smoke test the packaged app",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 12,
+          "started_at": "2026-11-21T04:11:55Z",
+          "completed_at": "2026-11-21T04:13:36Z"
+        },
+        {
+          "name": "Write checksums",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 13,
+          "started_at": "2026-11-21T04:13:36Z",
+          "completed_at": "2026-11-21T04:13:36Z"
+        },
+        {
+          "name": "Upload portable artifact",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 14,
+          "started_at": "2026-11-21T04:13:36Z",
+          "completed_at": "2026-11-21T04:13:36Z"
+        },
+        {
+          "name": "Upload build for diagnosis",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2026-11-21T04:13:36Z",
+          "completed_at": "2026-11-21T04:13:38Z"
+        },
+        {
+          "name": "Upload smoke evidence",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-11-21T04:13:38Z",
+          "completed_at": "2026-11-21T04:13:39Z"
+        },
+        {
+          "name": "Publish immutable release",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 17,
+          "started_at": "2026-11-21T04:13:39Z",
+          "completed_at": "2026-11-21T04:13:39Z"
+        },
+        {
+          "name": "Post Run Swatinem/rust-cache@v2",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 32,
+          "started_at": "2026-11-21T04:13:39Z",
+          "completed_at": "2026-11-21T04:13:39Z"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 33,
+          "started_at": "2026-11-21T04:13:39Z",
+          "completed_at": "2026-11-21T04:13:39Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 34,
+          "started_at": "2026-11-21T04:13:39Z",
+          "completed_at": "2026-11-21T04:13:42Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 35,
+          "started_at": "2026-11-21T04:13:42Z",
+          "completed_at": "2026-11-21T04:13:42Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/alexrwaa/Englishlearning-WordRoots/check-runs/136725068629",
+      "labels": [
+        "windows-latest"
+      ],
+      "runner_id": 1000000145,
+      "runner_name": "GitHub Actions 1000000145",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}

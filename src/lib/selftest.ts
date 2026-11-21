@@ -267,14 +267,16 @@ async function driveLesson(lessonId?: string): Promise<{
 async function tour(): Promise<TourResult> {
   const errors: string[] = [];
   const result: TourResult = {
-    family: { ok: false, route: '#/family/fam-spect', members: 0, hasDossier: false, coreIdea: '' },
+    family: { ok: false, route: '#/family/rx-spec', members: 0, hasDossier: false, coreIdea: '' },
     assessment: { ok: false, route: '#/assessment', runs: 0, storageKey: 'wordroots.assessment.v1', answered: 0 },
     errors,
   };
 
   // --- family dossier -----------------------------------------------------
   try {
-    location.hash = '#/family/fam-spect';
+    // Route by morpheme id: that is what the app links to and what the page
+    // resolves; the dossier is then found through the morpheme's familyId.
+    location.hash = '#/family/rx-spec';
     const dossier = await waitFor(
       () => (document.body.innerText.includes('词族档案') ? document.body : null),
       15_000,

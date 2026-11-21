@@ -41,7 +41,10 @@
         "graph",
         "gram"
       ],
-      "morphemeIds": []
+      "morphemeIds": [
+        "cx-graph",
+        "cx-gram"
+      ]
     },
     {
       "kind": "etym",
