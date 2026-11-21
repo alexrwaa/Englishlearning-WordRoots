@@ -1,0 +1,44 @@
+{
+  "morphemeId": "cx-phon",
+  "claim": {
+    "type": "root-sense",
+    "text": "phon- 来自希腊语 φωνή，义为「声音、人声」"
+  },
+  "records": [
+    {
+      "source": "G3",
+      "work": "LSJ (Liddell-Scott-Jones, 9th ed.)",
+      "headword": "φωνή",
+      "locator": "entry φωνή, sense 1 (level 1)",
+      "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott81.xml#L2562",
+      "quote": "<i>sound, tone,</i> prop., <i>the sound of the voice,</i>",
+      "quoteNormalized": "sound, tone, prop., the sound of the voice,",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "tz": "Asia/Shanghai"
+    },
+    {
+      "source": "G3",
+      "work": "LSJ (Liddell-Scott-Jones, 9th ed.)",
+      "headword": "φωνή",
+      "locator": "entry φωνή, sense I (level 2)",
+      "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott81.xml#L2562",
+      "quote": "<i>speech, voice, utterance,</i>",
+      "quoteNormalized": "speech, voice, utterance,",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "tz": "Asia/Shanghai"
+    }
+  ],
+  "verdict": "supports",
+  "note": "φωνή 的义项从「声音、音调」→「人声、说话」→「语言、说法」逐层扩展，词库「声音」取的是最底层义项，成立。voice 义与 phone（语音）义都在同一词条内，不存在「同形异词」问题。",
+  "quoteNote": "quote 为源文件中的连续原文片段，只保留行内 <i> 斜体标记；quoteNormalized 为去掉标签与变音符号后的文本。",
+  "coverage": {
+    "root-sense": "supported",
+    "borrowing-path": "not-covered",
+    "classical-derivation": "not-covered",
+    "modern-structure": "not-covered",
+    "modern-sense": "not-covered"
+  },
+  "borrowingPathNote": "LSJ 不涉及英语 telephone/microphone 的构词史。仓库内 analysis/etymology-verification/cx-phon.json 有 S5（Wiktionary）记录可作旁证，但本次不据此下借词路径结论。"
+}

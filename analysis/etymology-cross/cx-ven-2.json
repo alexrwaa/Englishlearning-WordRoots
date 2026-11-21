@@ -1,0 +1,27 @@
+{
+  "morphemeId": "cx-ven-2",
+  "latin": "vena",
+  "glossEn": "vein",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "vena",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 661925,
+      "quote": "vena, ae,/ [perh. root veh-, to carry, 1  etc. ; prop, a pipe, channel ; Gr. oxeror], a '  blood-vessel, vein. I, Lit. I. In gen. : j",
+      "supports": true,
+      "fetchedAt": "2026-11-22"
+    }
+  ],
+  "verdict": "supports",
+  "note": "L&S vena, -ae, f. 释义 \"a blood-vessel, vein\"，词源写作 \"perh. root veh-, to carry; prop. a pipe, channel\"，与 vena「血管」一致。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

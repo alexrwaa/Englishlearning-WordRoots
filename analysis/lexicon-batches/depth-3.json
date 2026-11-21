@@ -1,0 +1,569 @@
+{
+ "note": "depth pass 3: L4 例词补充",
+ "targets": [
+  {
+   "id": "cx-gam",
+   "words": [
+    "monogamy",
+    "polygamy"
+   ]
+  },
+  {
+   "id": "cx-gastr",
+   "words": [
+    "gastric",
+    "gastronomy"
+   ]
+  },
+  {
+   "id": "cx-greg",
+   "words": [
+    "congregation",
+    "segregate"
+   ]
+  },
+  {
+   "id": "cx-heli",
+   "words": [
+    "helium",
+    "heliotrope"
+   ]
+  },
+  {
+   "id": "cx-hemi",
+   "words": [
+    "hemisphere",
+    "hemispherical"
+   ]
+  },
+  {
+   "id": "cx-hepat",
+   "words": [
+    "hepatic",
+    "hepatitis"
+   ]
+  },
+  {
+   "id": "cx-hexa",
+   "words": [
+    "hexagon",
+    "hexameter"
+   ]
+  },
+  {
+   "id": "cx-homo",
+   "words": [
+    "homograph",
+    "homophone"
+   ]
+  },
+  {
+   "id": "cx-iso",
+   "words": [
+    "isometric",
+    "isotope"
+   ]
+  },
+  {
+   "id": "cx-quadr",
+   "words": [
+    "quadrant",
+    "quadratic"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "monogamy",
+   "parts": [
+    "mono",
+    "gam",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "the practice of having one spouse at a time",
+   "glossZh": "一夫一妻制",
+   "domain": "general",
+   "etymology": "希腊 monos「单一」+ gamos「婚姻」",
+   "derivation": [
+    "mono（一）+ gam（婚配）+ -y → 只结一次婚"
+   ],
+   "example": "Monogamy is the legal norm in most of the country.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "polygamy",
+   "parts": [
+    "poly",
+    "gam",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "the practice of having more than one spouse",
+   "glossZh": "一夫多妻；多配偶制",
+   "domain": "general",
+   "etymology": "希腊 polos「多」+ gamos「婚姻」",
+   "derivation": [
+    "poly（多）+ gam（婚配）+ -y → 多配偶"
+   ],
+   "example": "The novel describes a family shaped by polygamy.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "gastric",
+   "parts": [
+    "gastr",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to the stomach",
+   "glossZh": "胃的",
+   "domain": "medical",
+   "etymology": "希腊 gastēr「胃」+ -ic",
+   "derivation": [
+    "gastr（胃）+ -ic → 胃的"
+   ],
+   "example": "He suffers from gastric pain after large meals.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "gastronomy",
+   "parts": [
+    "gastr",
+    "o",
+    "nomy"
+   ],
+   "pos": "n",
+   "glossEn": "the art and science of good eating",
+   "glossZh": "美食学；烹饪法",
+   "domain": "general",
+   "etymology": "希腊 gastēr「胃」+ nomos「法则」",
+   "derivation": [
+    "gastr（胃）+ o + nomy（法则）→ 关于吃的法则"
+   ],
+   "example": "The region is famous for its gastronomy.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "congregation",
+   "parts": [
+    "con",
+    "greg",
+    "ation"
+   ],
+   "pos": "n",
+   "glossEn": "a gathered group, especially for worship",
+   "glossZh": "（教堂）会众；聚集",
+   "domain": "general",
+   "etymology": "拉丁 congregatio < con-（一起）+ grex（群体）",
+   "derivation": [
+    "con（一起）+ greg（群）+ -ation → 聚成一群"
+   ],
+   "example": "The congregation stood as the choir began.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "segregate",
+   "parts": [
+    "se",
+    "greg",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "to set apart from a group",
+   "glossZh": "隔离；分开",
+   "domain": "general",
+   "etymology": "拉丁 segregare < se-（分开）+ grex（群体）",
+   "derivation": [
+    "se（分开）+ greg（群）+ -ate → 使离群"
+   ],
+   "example": "The old rules segregated passengers by race.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "helium",
+   "parts": [
+    "heli",
+    "um"
+   ],
+   "pos": "n",
+   "glossEn": "the lightest noble gas, found in the sun's spectrum",
+   "glossZh": "氦",
+   "domain": "science",
+   "etymology": "希腊 hēlios「太阳」+ 化学元素后缀 -ium",
+   "derivation": [
+    "heli（太阳）+ -um（元素名）→ 先在太阳光谱中发现的气体"
+   ],
+   "example": "The balloon rose quickly once filled with helium.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "heliotrope",
+   "parts": [
+    "heli",
+    "o",
+    "trop",
+    "e"
+   ],
+   "pos": "n",
+   "glossEn": "a plant that turns toward the sun",
+   "glossZh": "向阳植物；天芥菜",
+   "domain": "general",
+   "etymology": "希腊 hēlios「太阳」+ tropos「转向」",
+   "derivation": [
+    "heli（太阳）+ o + trop（转）+ -e → 随太阳转的植物"
+   ],
+   "example": "A heliotrope grew along the warm wall.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "hemisphere",
+   "parts": [
+    "hemi",
+    "sphere"
+   ],
+   "pos": "n",
+   "glossEn": "half of a sphere, especially of the earth",
+   "glossZh": "半球",
+   "domain": "general",
+   "etymology": "希腊 hēmi-「半」+ sphaira「球」",
+   "derivation": [
+    "hemi（半）+ sphere（球）→ 半个球"
+   ],
+   "example": "The southern hemisphere has its summer in December.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "hemispherical",
+   "parts": [
+    "hemi",
+    "sphere",
+    "ical"
+   ],
+   "pos": "adj",
+   "glossEn": "shaped like half a sphere",
+   "glossZh": "半球形的",
+   "domain": "technical",
+   "etymology": "希腊 hēmi-「半」+ sphaira「球」+ -ical",
+   "derivation": [
+    "hemi（半）+ sphere（球）+ -ical → 半球形的"
+   ],
+   "example": "The dome is a hemispherical shell of concrete.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "hepatic",
+   "parts": [
+    "hepat",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to the liver",
+   "glossZh": "肝的",
+   "domain": "medical",
+   "etymology": "希腊 hēpar/hēpatos「肝」+ -ic",
+   "derivation": [
+    "hepat（肝）+ -ic → 肝的"
+   ],
+   "example": "The scan revealed impaired hepatic function.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "hepatitis",
+   "parts": [
+    "hepat",
+    "itis"
+   ],
+   "pos": "n",
+   "glossEn": "inflammation of the liver",
+   "glossZh": "肝炎",
+   "domain": "medical",
+   "etymology": "希腊 hēpar「肝」+ -itis「炎症」",
+   "derivation": [
+    "hepat（肝）+ -itis（炎症）→ 肝炎"
+   ],
+   "example": "The vaccine protects against one form of hepatitis.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "hexagon",
+   "parts": [
+    "hexa",
+    "gon"
+   ],
+   "pos": "n",
+   "glossEn": "a flat shape with six sides",
+   "glossZh": "六边形",
+   "domain": "general",
+   "etymology": "希腊 hex「六」+ gōnia「角」",
+   "derivation": [
+    "hexa（六）+ gon（角）→ 六个角的图形"
+   ],
+   "example": "The tiles are shaped like a hexagon.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "hexameter",
+   "parts": [
+    "hexa",
+    "metr",
+    "er"
+   ],
+   "pos": "n",
+   "glossEn": "a line of verse with six metrical feet",
+   "glossZh": "六音步诗行",
+   "domain": "academic",
+   "etymology": "希腊 hexametros < hex「六」+ metron「尺度」",
+   "derivation": [
+    "hexa（六）+ metr（度量）+ -er → 六个音步"
+   ],
+   "example": "Homer's epics are written in hexameter.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "homograph",
+   "parts": [
+    "homo",
+    "graph"
+   ],
+   "pos": "n",
+   "glossEn": "a word spelt like another but different in meaning",
+   "glossZh": "同形异义词",
+   "domain": "academic",
+   "etymology": "希腊 homos「相同」+ graphein「写」",
+   "derivation": [
+    "homo（相同）+ graph（写）→ 写法相同"
+   ],
+   "example": "The two senses of 'bank' make it a homograph.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "homophone",
+   "parts": [
+    "homo",
+    "phone"
+   ],
+   "pos": "n",
+   "glossEn": "a word that sounds like another but differs in spelling",
+   "glossZh": "同音异形词",
+   "domain": "academic",
+   "etymology": "希腊 homos「相同」+ phōnē「声音」",
+   "derivation": [
+    "homo（相同）+ phone（声音）→ 读音相同"
+   ],
+   "example": "'Sea' and 'see' are homophones.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "isometric",
+   "parts": [
+    "iso",
+    "metr",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "having equal dimensions; of equal measure",
+   "glossZh": "等大的；等距的",
+   "domain": "technical",
+   "etymology": "希腊 isos「相等」+ metron「尺度」+ -ic",
+   "derivation": [
+    "iso（相等）+ metr（度量）+ -ic → 尺寸相等的"
+   ],
+   "example": "The drawing uses an isometric projection.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "isotope",
+   "parts": [
+    "iso",
+    "top",
+    "e"
+   ],
+   "pos": "n",
+   "glossEn": "a form of an element with a different neutron number",
+   "glossZh": "同位素",
+   "domain": "science",
+   "etymology": "希腊 isos「相同」+ topos「位置」（在周期表同一位置）",
+   "derivation": [
+    "iso（相同）+ top（位置）+ -e → 占同一位置的变体"
+   ],
+   "example": "Carbon-14 is a radioactive isotope of carbon.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "quadrant",
+   "parts": [
+    "quadr",
+    "ant"
+   ],
+   "pos": "n",
+   "glossEn": "one of four parts of a divided whole",
+   "glossZh": "四分之一；象限",
+   "domain": "technical",
+   "etymology": "拉丁 quadrans「四分之一」< quattuor「四」",
+   "derivation": [
+    "quadr（四）+ -ant → 四分之一"
+   ],
+   "example": "The revenue from that quadrant fell sharply.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "quadratic",
+   "parts": [
+    "quadr",
+    "at",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "involving the square of an unknown quantity",
+   "glossZh": "二次的",
+   "domain": "academic",
+   "etymology": "拉丁 quadratus「使成方形」< quadrare < quattuor「四」",
+   "derivation": [
+    "quadr（四、方）+ -at- + -ic → 与平方有关的"
+   ],
+   "example": "Solve the quadratic equation for both roots.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+  "morphemeId": "rx-stru",
+  "claim": "stru < 拉丁 struere「堆叠、建造」",
+  "records": [
+    {
+      "word": "construct",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "construct",
+      "url": "https://en.wiktionary.org/w/index.php?title=construct&action=raw",
+      "quote": "from cōnstruō 'to heap together', from com- 'together' + struō 'to heap up, pile'",
+      "etymon": "struō",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "structure",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "structure",
+      "url": "https://en.wiktionary.org/w/index.php?title=structure&action=raw",
+      "quote": "from Latin structūra 'a fitting together, adjustment, building, erection, a building, edifice, structure', from struere",
+      "etymon": "struere",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "obstruct",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "obstruct",
+      "url": "https://en.wiktionary.org/w/index.php?title=obstruct&action=raw",
+      "quote": "from verb obstruere, from against + struere 'pile up, build'",
+      "etymon": "struere",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "construct / structure / obstruct 三条独立条目均给出 struere/struō；instruct 词条只有 īnstrūctus，未展开 struere。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

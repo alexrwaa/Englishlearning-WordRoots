@@ -1,0 +1,43 @@
+{
+  "morphemeId": "cx-leg",
+  "claim": "leg < 拉丁 lēx「法」/ legere「读、选」（两条语义支线）",
+  "records": [
+    {
+      "word": "legal",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "legal",
+      "url": "https://en.wiktionary.org/w/index.php?title=legal&action=raw",
+      "quote": "Latin lēgālis 'legal', from lēx 'law'.",
+      "etymon": "lēx",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "legend",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "legend",
+      "url": "https://en.wiktionary.org/w/index.php?title=legend&action=raw",
+      "quote": "from Latin legendus 'things which ought to be read', from lego 'to read'.",
+      "etymon": "legere",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "legible",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "legible",
+      "url": "https://en.wiktionary.org/w/index.php?title=legible&action=raw",
+      "quote": "From Latin legibilis 'that can be read', from Latin legō.",
+      "etymon": "legō",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "lēx「法」与 legere「读」是同一词根的两条支线：legal 走 lēx，legend / legible 走 legere。词库 gloss 只写「法、委任」，未覆盖 legend 的「读」义。 词库外旁证条目（仅印证同一词源，不对应词库词条）：legible。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

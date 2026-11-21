@@ -1,0 +1,127 @@
+{
+  "$comment": "S3（WordWorks / Structured Word Inquiry）五步覆盖审计。五步取自 s3-method.json 的 swi-inquiry-cycle（疑问→呈现词群→提假设→检验→用工具练习），并与任务给定的五步（观察→假设→验证→矩阵→Word Sum）对齐。判定不只看「有没有提到」，而看两件事：该步是否有可操作的产出物，以及课程是否要求学生自己做归纳而不是先给结论。",
+  "generatedAt": "2026-11-21",
+  "framework": {
+    "source": "S3 WordWorks：Bowers & Kirby 2010、IDA 讲义、workshop booklet（analysis/s3/extraction-report.json，14 项实践）",
+    "steps": ["观察并提出可追问的拼写现象", "提出假设", "用证据验证", "画词矩阵", "写 word sum"],
+    "note": "S3 的原始四问是「意义—结构—同族—词源」，本站课程把「同族」落实为矩阵，把「结构」落实为 word sum，因此五步与四问可一一对上。"
+  },
+  "steps": [
+    {
+      "id": "observe",
+      "step": "观察并提出可追问的现象",
+      "stepZh": "观察",
+      "lessons": ["w02d5", "w38d1", "w11d6"],
+      "evidence": "w02d5 第一问要求「先看它在句中的用法与词性，不要一上来就拆」，并把「跳过语境直接按词根猜义」列为典型错误；w38d1 的做法相反相成：给出五个含 cur 的真实词、故意不给词根义，让学生先找「除 cur 以外的部分」；w11d6 的四步法第一步是「切分，切不动就承认切不动——这不是失败，而是信息」。",
+      "status": "partial",
+      "problem": "课程从未教「怎么发现一个值得追问的现象」。所有课时的现象都是教师预先挑好的（caput 的三种拼写、cur 与 curr、greenhouse 的重音），学生练的是「处理给定现象」，不是「从一段真实语料里挑出现象」。S3 的 inquiry cycle 第一步（用真实拼写疑问抓住学生）在课程里没有对应练习。",
+      "studentInduction": "partial"
+    },
+    {
+      "id": "hypothesis",
+      "step": "提出可以检验的假设",
+      "stepZh": "假设",
+      "lessons": ["w01d1", "w11d6", "w02d5", "w38d3", "w37d4"],
+      "evidence": "w01d1 的替换测试写成「1 假设某一段是一个词素 → 2 替换 → 3 反向验证」，假设是显式步骤；w11d6 标题即「把猜测变成假设」，要求先切分定词性形成假设，再查词典；w02d5 第三问产出「矩阵或同族词清单」；w38d3 要求每个伪构词都写出一条可检验的判定依据，而不是说「没听过」；w37d4 把判据本身（可概括性）作为假设取舍的标准。",
+      "status": "taught",
+      "studentInduction": "yes",
+      "inductionNote": "w38d1 是最强的一处：不给词根义，要求「核心义必须能同时解释五个词」，并明确「如果你的意思是『准确』，那 secure 与 procure 就解释不通」。学生必须自己提出并淘汰假设。"
+    },
+    {
+      "id": "verify",
+      "step": "用证据检验假设",
+      "stepZh": "验证",
+      "lessons": ["w02d6", "w16d6", "w38d3", "w38d5", "w10d4", "w37d4"],
+      "evidence": "w02d6 给四个核验去处（大型词典 / 语料库 / Ngram / 母语者判断）并提醒词典有滞后；w16d6 把顺序写成「规则用来提出假设，词典用来验证假设——这个顺序不能反」；w38d3 的三关是词素真实性→接缀合法性→词典或语料证据，且说明「只做第三关会退化成没听过就是错的」；w38d5 给同源异形的三条判据；w10d4 用「旧义若真存在，应在固定搭配、方言或同源语里留下痕迹」演示如何检验语义假设。",
+      "status": "taught",
+      "studentInduction": "yes",
+      "inductionNote": "验证的产出物被明确规定（判定依据、三条判据、四个去处），练习 judge 题型（w38d3 三题）要求学生在四个拼法中选真词并说明理由。"
+    },
+    {
+      "id": "matrix",
+      "step": "画词矩阵",
+      "stepZh": "矩阵",
+      "lessons": ["w02d2", "w02d4", "w38d6", "w39d6", "w11d2", "w16d2"],
+      "evidence": "w02d2 专门讲矩阵：把一个词基的所有合法组合排成表，空格不是没意义而是「尚未词汇化」；w02d4 用 nation 的四词性矩阵发现词族；w38d6 的 manu 矩阵明确三层派生与「哪些格子必须空着」并给原因（-ness 要形容词宿主等）；w39d6 用 ag 矩阵区分 agency/agenda/agility/agitate 四个语义角色。全课程共 18 节课含 matrix 卡片、28 道 matrix 练习题，覆盖 10 个周。",
+      "status": "taught",
+      "studentInduction": "yes",
+      "inductionNote": "w38d6-p1 要求「以 dent 为词根加施事后缀构出牙医」，p4 要求判出 manu+ment 不能进矩阵；矩阵题不是填表复述，而是补格与排除非法格。"
+    },
+    {
+      "id": "word-sum",
+      "step": "写 word sum",
+      "stepZh": "Word Sum",
+      "lessons": ["w02d1", "w02d7", "w01d3", "w12d1", "w38d2"],
+      "evidence": "w02d1 是 word sum 专课：加号左边是词基、拼写变化只发生在接缝处、空槽要问为什么；w01d3 要求分行写多层算式而不是平铺一串加号；w12d1 把「不要平铺成一串加号」列为长词分析的四条纪律之一；w38d2 给切分的三条纪律并做反向检验（拼回去是否还原原词、每段是否可释义）。全课程 139 道 wordSum 练习题，分布在 24 个周。",
+      "status": "taught",
+      "studentInduction": "yes",
+      "inductionNote": "wordSum 是产出型题型：学生要自己写出切分，选项里没有答案。第 38、39 两周的 wordSum 密度最高（7 + 12 题），用于综合迁移。"
+    }
+  ],
+  "coverage": {
+    "total": 5,
+    "taught": 4,
+    "partial": 1,
+    "missing": 0,
+    "rate": "4/5 = 80%（partial 计 0.5 则为 90%）"
+  },
+  "inductionAudit": {
+    "overall": "yes-with-caveat",
+    "summary": "方法周（第 2、38、39 周）确实要求归纳：不给词根义、要求写判定依据、要求补矩阵空格、要求写算式。内容周（第 5–6、13–14、15–16 周等）多数先给词根义再练应用，「归纳」退化为「验证教师给的结论」。",
+    "strongCases": [
+      {
+        "lesson": "w38d1",
+        "why": "五个含 cur 的词只给中文义，词根义留白，并要求「核心义必须同时解释五个词」；随后用 cur（关心）与 curr（跑）的同形不同源做反例，逼学生用同族词而不是拼写做判据。"
+      },
+      {
+        "lesson": "w38d3",
+        "why": "四个伪构词（docment、ossness、fratrnal、localiseable）分别对应四类违规，学生必须写出可检验的一句话依据；练习 p1/p3/p5 只问「哪一个是真词」，理由要靠自己给。"
+      },
+      {
+        "lesson": "w38d6",
+        "why": "矩阵图故意留空格，并给出「哪些格子必须空着」的三条理由；练习要求补格与排除非法格，而不是记住四个现成词。"
+      },
+      {
+        "lesson": "w39d3",
+        "why": "同一批拼法先判规则合法性，再判语言是否承认，把「形态合法≠词存在」做成两步判定，且要求用词典/语料作依据。"
+      }
+    ],
+    "weakCases": [
+      {
+        "lesson": "w13d6",
+        "why": "卡片1 直接给 caud-（尾）、oss-（骨）、ped-（脚）等词根义，随后才是派生练习；学生没有机会自己从同族词推出词根义。"
+      },
+      {
+        "lesson": "w05d1",
+        "why": "开篇即给 struct = 建造，并列出 con-/de-/ob-/in- 四个方向；整节课是「用已知零件解释新词」，属应用而非探究。"
+      },
+      {
+        "lesson": "w14d6",
+        "why": "完成分词的语义与词干形态（doct-/act-/sens-）全部先给出，练习只考辨认与迁移，没有让学从语料反推 -t-/-s- 的分布。"
+      }
+    ]
+  },
+  "toolingStats": {
+    "practiceItems": 1256,
+    "applyItems": 257,
+    "totalExercises": 1513,
+    "byKind": {
+      "mcq": 833,
+      "cloze": 237,
+      "wordSum": 139,
+      "matrix": 28,
+      "boundary": 12,
+      "judge": 5,
+      "infer": 259
+    },
+    "wordSumWeeks": 24,
+    "matrixWeeks": 10,
+    "matrixCardLessons": 18,
+    "comment": "产出型题型（wordSum + matrix + boundary + judge）合计 184/1513 = 12.2%，其余为选择/填空。SWI 的「写出来」在总量上仍是少数派，集中在第 2、38、39 周。"
+  },
+  "gaps": [
+    "缺「发现问题」的训练：所有探究现象由课程预先给出，学生没有从真实语料中挑现象的机会。",
+    "缺矩阵的读法教学：18 节课有 matrix 卡片，但只有 w02d2 讲「空格代表什么」，其余课直接给已填好的矩阵。",
+    "week38、week39 的 14 节课 knowledgePoints 为空，SWI 方法教学因此不进覆盖率账本，容易被误判为「方法未覆盖」。"
+  ]
+}

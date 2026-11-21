@@ -1,0 +1,45 @@
+{
+  "morphemeId": "cx-logy",
+  "claim": {
+    "type": "root-sense",
+    "text": "logy 的 log- 来自希腊语 λόγος，义为「言说、叙述、道理」"
+  },
+  "records": [
+    {
+      "source": "G3",
+      "work": "LSJ (Liddell-Scott-Jones, 9th ed.)",
+      "headword": "λόγος",
+      "locator": "entry λόγος, sense VI (level 2)",
+      "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott44.xml#L5419",
+      "quote": "<i>verbal expression</i> or <i>utterance</i>",
+      "quoteNormalized": "verbal expression or utterance",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "tz": "Asia/Shanghai"
+    },
+    {
+      "source": "G3",
+      "work": "LSJ (Liddell-Scott-Jones, 9th ed.)",
+      "headword": "λόγος",
+      "locator": "entry λόγος, sense III.5 (level 3)",
+      "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott44.xml#L5419",
+      "quote": "<i>reason, ground,</i>",
+      "quoteNormalized": "reason, ground,",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "tz": "Asia/Shanghai"
+    }
+  ],
+  "verdict": "supports",
+  "note": "两条记录只支持「log- 出自 λόγος，义为言说/道理」这一层。词库 glossEn「study of」、glossZh「学科、研究」是 19 世纪以后英语 -logy（< 法语 -logie < 拉丁 -logia < 希腊 -λογία）的现代后缀义，LSJ 的 λόγος 条目里没有「学科」这一义项——LSJ 的 λογία 条只写作「λογεία 的晚期拼法」。因此 root-sense 成立、modern-sense 未获证据，不能拿本条记录去支撑「λόγος = 学科」。",
+  "quoteNote": "quote 为源文件中的连续原文片段，只保留行内 <i> 斜体标记；quoteNormalized 为去掉标签与变音符号后的文本。",
+  "coverage": {
+    "root-sense": "supported",
+    "borrowing-path": "not-covered",
+    "classical-derivation": "not-covered",
+    "modern-structure": "not-covered",
+    "modern-sense": "not-covered"
+  },
+  "borrowingPathNote": "「希腊 -λογία → 拉丁 -logia → 法语 -logie → 英语 -logy」这条链需要拉丁/法语/英语词书证据，LSJ 只能证明希腊语一端，故 borrowing-path 记为 not-covered。另：任务单写的是 cx-log，词库实际 ID 为 cx-logy（form 为 logy，allomorphs 含 log/ology），本文件按实际 ID 记录。",
+  "idNote": "任务书中的 cx-log 在 src/content/lexicon/morphemes.json 中不存在；对应条目为 cx-logy。"
+}

@@ -1,0 +1,5933 @@
+{
+ "morphemes": [
+  {
+   "id": "cx-metre",
+   "form": "metre",
+   "type": "combining",
+   "origin": "Gk",
+   "glossZh": "米（英式拼写）",
+   "glossEn": "metre",
+   "allomorphs": [],
+   "examples": [
+    "nanometre",
+    "kilometre"
+   ],
+   "originalForm": "metron",
+   "originalGloss": "measure",
+   "note": "希腊 metron“尺”。英式拼写 metre 与美式 meter 同源，单列以支持 nanometre、kilometre 等拼写校验。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-natur",
+   "form": "natur",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "出生；天性",
+   "glossEn": "be born, nature",
+   "allomorphs": [
+    "nature"
+   ],
+   "examples": [
+    "natural",
+    "naturally"
+   ],
+   "originalForm": "natura",
+   "originalGloss": "nature",
+   "note": "拉丁 natura“天性”< nasci“出生”。-e 结尾形式 nature 用于派生 base。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-fict",
+   "form": "fict",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "塑造；虚构",
+   "glossEn": "shape, feign",
+   "allomorphs": [],
+   "examples": [
+    "fiction",
+    "nonfiction",
+    "fictitious"
+   ],
+   "originalForm": "fictus",
+   "originalGloss": "shaped, feigned",
+   "note": "拉丁 fingere“捏塑”的分词词干 fictus；fiction 取“捏造出来的东西”义。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-line",
+   "form": "line",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "线",
+   "glossEn": "line",
+   "allomorphs": [],
+   "examples": [
+    "linear",
+    "nonlinear"
+   ],
+   "originalForm": "linea",
+   "originalGloss": "linen thread, line",
+   "note": "拉丁 linea“亚麻线、直线”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-ar",
+   "form": "ar",
+   "type": "suffix",
+   "origin": "Lat",
+   "glossZh": "形容词后缀：……的",
+   "glossEn": "relating to",
+   "allomorphs": [],
+   "examples": [
+    "linear",
+    "solar",
+    "familiar"
+   ],
+   "originalForm": "-aris",
+   "originalGloss": "relating to",
+   "note": "拉丁 -aris 经法语 -aire 进入英语，与 -al 分工：多接在含 l 的词干后（linear、solar）。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-serv",
+   "form": "serv",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "守护；保存",
+   "glossEn": "keep, guard",
+   "allomorphs": [
+    "serve",
+    "servat"
+   ],
+   "examples": [
+    "observe",
+    "preserve",
+    "reserve"
+   ],
+   "originalForm": "servare",
+   "originalGloss": "to keep, guard",
+   "note": "拉丁 servare“守护、保存”。observe 为“守着看”，preserve 为“事先保住”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-odor",
+   "form": "odor",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "气味",
+   "glossEn": "smell",
+   "allomorphs": [
+    "odori"
+   ],
+   "examples": [
+    "odorant",
+    "odorous"
+   ],
+   "originalForm": "odor",
+   "originalGloss": "smell",
+   "note": "拉丁 odor“气味”。odori 为构词连接形式（odor + -i-）。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-other",
+   "form": "other",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "其他的",
+   "glossEn": "other",
+   "allomorphs": [],
+   "examples": [
+    "otherwise",
+    "another"
+   ],
+   "originalForm": "ōþer",
+   "originalGloss": "other",
+   "note": "古英语 ōþer“两者中的另一个”，日耳曼固有词。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-door",
+   "form": "door",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "门",
+   "glossEn": "door",
+   "allomorphs": [],
+   "examples": [
+    "outdoor",
+    "indoor"
+   ],
+   "originalForm": "duru",
+   "originalGloss": "door",
+   "note": "古英语 duru“门”，日耳曼固有词。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-number",
+   "form": "number",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "数目",
+   "glossEn": "number",
+   "allomorphs": [
+    "numer"
+   ],
+   "examples": [
+    "outnumber",
+    "numeral"
+   ],
+   "originalForm": "numerus",
+   "originalGloss": "number",
+   "note": "拉丁 numerus“数”经古法语 nombre 进入英语，词尾 -b- 为法语插入音；拉丁词干 numer- 见 numerical。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-estim",
+   "form": "estim",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "估价；评价",
+   "glossEn": "value, estimate",
+   "allomorphs": [
+    "aestim"
+   ],
+   "examples": [
+    "estimate",
+    "overestimate"
+   ],
+   "originalForm": "aestimare",
+   "originalGloss": "to value",
+   "note": "拉丁 aestimare“估价”。英语失落首元音作 estim-。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-head",
+   "form": "head",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "头",
+   "glossEn": "head",
+   "allomorphs": [],
+   "examples": [
+    "overhead",
+    "header"
+   ],
+   "originalForm": "hēafod",
+   "originalGloss": "head",
+   "note": "古英语 hēafod“头”，日耳曼固有词。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-work",
+   "form": "work",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "工作",
+   "glossEn": "work",
+   "allomorphs": [],
+   "examples": [
+    "overwork",
+    "workload"
+   ],
+   "originalForm": "weorc",
+   "originalGloss": "work",
+   "note": "古英语 weorc“劳作”，日耳曼固有词。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-stal",
+   "form": "stal",
+   "type": "root",
+   "origin": "It",
+   "glossZh": "站立处；台座",
+   "glossEn": "standing place, stall",
+   "allomorphs": [],
+   "examples": [
+    "pedestal",
+    "install"
+   ],
+   "originalForm": "stallo",
+   "originalGloss": "standing place",
+   "note": "意大利语 stallo“站立处”，与英语 stall 同源；pedestal < piedistallo。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-estr",
+   "form": "estr",
+   "type": "suffix",
+   "origin": "Lat",
+   "glossZh": "形容词后缀：属于……的",
+   "glossEn": "belonging to",
+   "allomorphs": [],
+   "examples": [
+    "pedestrian",
+    "equestrian",
+    "campestris"
+   ],
+   "originalForm": "-estris",
+   "originalGloss": "belonging to",
+   "note": "拉丁形容词后缀 -ester / -estris（pedester、equestris、campester），英语多见于 ped-estr-ian 一类词。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-etic",
+   "form": "etic",
+   "type": "suffix",
+   "origin": "Gk",
+   "glossZh": "学科/形容词后缀",
+   "glossEn": "pertaining to",
+   "allomorphs": [],
+   "examples": [
+    "phonetics",
+    "genetics",
+    "energetic"
+   ],
+   "originalForm": "-ētikos",
+   "originalGloss": "pertaining to",
+   "note": "希腊 -ētikos 经拉丁 -eticus 进入英语，构成学科名（phonetics、genetics）或形容词（energetic）。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-phys",
+   "form": "phys",
+   "type": "root",
+   "origin": "Gk",
+   "glossZh": "自然；生长",
+   "glossEn": "nature, grow",
+   "allomorphs": [],
+   "examples": [
+    "physics",
+    "physical",
+    "physiology"
+   ],
+   "originalForm": "physis",
+   "originalGloss": "nature",
+   "note": "希腊 physis“自然”< phyein“生长”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-ated",
+   "form": "ated",
+   "type": "suffix",
+   "origin": "Lat",
+   "glossZh": "形容词后缀：具有……的",
+   "glossEn": "having the quality of",
+   "allomorphs": [],
+   "examples": [
+    "pixelated",
+    "animated",
+    "calibrated"
+   ],
+   "originalForm": "-atus",
+   "originalGloss": "-ed",
+   "note": "-ate 的过去分词再加 -ed 的合并形式，用于源自拉丁分词的技术形容词。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-pneumon",
+   "form": "pneumon",
+   "type": "root",
+   "origin": "Gk",
+   "glossZh": "肺",
+   "glossEn": "lung",
+   "allomorphs": [
+    "pneum"
+   ],
+   "examples": [
+    "pneumonia",
+    "pneumatic"
+   ],
+   "originalForm": "pneumōn",
+   "originalGloss": "lung",
+   "note": "希腊 pneumōn“肺”< pneuma“气息”。pneum- 为去尾形式（pneumatic）。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-ient",
+   "form": "ient",
+   "type": "suffix",
+   "origin": "Lat",
+   "glossZh": "形容词后缀：正在……的",
+   "glossEn": "-ing, being",
+   "allomorphs": [],
+   "examples": [
+    "proficient",
+    "patient",
+    "obedient"
+   ],
+   "originalForm": "-iens",
+   "originalGloss": "-ing",
+   "note": "拉丁现在分词词尾 -iens / -ientis 经法语进入英语。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-dactyl",
+   "form": "dactyl",
+   "type": "root",
+   "origin": "Gk",
+   "glossZh": "指、趾",
+   "glossEn": "finger, toe",
+   "allomorphs": [],
+   "examples": [
+    "pterodactyl",
+    "dactylogram"
+   ],
+   "originalForm": "daktylos",
+   "originalGloss": "finger",
+   "note": "希腊 daktylos“手指”；pterodactyl 指翼膜长在特化的第四指上。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-chase",
+   "form": "chase",
+   "type": "root",
+   "origin": "Fr",
+   "glossZh": "追逐",
+   "glossEn": "chase",
+   "allomorphs": [],
+   "examples": [
+    "purchase",
+    "chaser"
+   ],
+   "originalForm": "chacier",
+   "originalGloss": "to hunt",
+   "note": "古法语 chacier < 晚期拉丁 captiare“抓取”。purchase < purchacier“追求到手”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-quick",
+   "form": "quick",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "快的；活的",
+   "glossEn": "alive, quick",
+   "allomorphs": [],
+   "examples": [
+    "quickly",
+    "quicken"
+   ],
+   "originalForm": "cwic",
+   "originalGloss": "alive",
+   "note": "古英语 cwic 本义“活的”（the quick and the dead），后转指“快”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-read",
+   "form": "read",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "读",
+   "glossEn": "read",
+   "allomorphs": [],
+   "examples": [
+    "readable",
+    "reader"
+   ],
+   "originalForm": "rǣdan",
+   "originalGloss": "to read, advise",
+   "note": "古英语 rǣdan“解读、劝告”，与 rede“建议”同源。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-real",
+   "form": "real",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "真实的；事物",
+   "glossEn": "real, thing",
+   "allomorphs": [],
+   "examples": [
+    "realistic",
+    "reality"
+   ],
+   "originalForm": "realis",
+   "originalGloss": "relating to a thing",
+   "note": "晚期拉丁 realis < res“事物”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-call",
+   "form": "call",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "呼喊",
+   "glossEn": "call, shout",
+   "allomorphs": [],
+   "examples": [
+    "recall",
+    "caller"
+   ],
+   "originalForm": "ceallian",
+   "originalGloss": "to call",
+   "note": "古英语 ceallian“呼喊”，与古诺斯语 kalla 同源。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-heat",
+   "form": "heat",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "热",
+   "glossEn": "heat",
+   "allomorphs": [],
+   "examples": [
+    "preheat",
+    "heater"
+   ],
+   "originalForm": "hǣtu",
+   "originalGloss": "heat",
+   "note": "古英语 hǣtu“热”，与 hāt“热的”同源。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-press",
+   "form": "press",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "压",
+   "glossEn": "press",
+   "allomorphs": [],
+   "examples": [
+    "pressure",
+    "compress"
+   ],
+   "originalForm": "pressare",
+   "originalGloss": "to press",
+   "note": "拉丁 pressare（premere 的反复形式）经古法语 presser 进入英语。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-view",
+   "form": "view",
+   "type": "root",
+   "origin": "Fr",
+   "glossZh": "看；所见",
+   "glossEn": "see, sight",
+   "allomorphs": [],
+   "examples": [
+    "preview",
+    "review"
+   ],
+   "originalForm": "veue",
+   "originalGloss": "sight",
+   "note": "古法语 veue“所见”< veoir < 拉丁 videre“看”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-run",
+   "form": "run",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "跑；运转",
+   "glossEn": "run",
+   "allomorphs": [],
+   "examples": [
+    "running",
+    "runs"
+   ],
+   "originalForm": "rinnan",
+   "originalGloss": "to flow, run",
+   "note": "古英语 rinnan“流动、奔跑”，强变化动词。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-turn",
+   "form": "turn",
+   "type": "root",
+   "origin": "Fr",
+   "glossZh": "转",
+   "glossEn": "turn",
+   "allomorphs": [],
+   "examples": [
+    "return",
+    "turning"
+   ],
+   "originalForm": "torner",
+   "originalGloss": "to turn",
+   "note": "古法语 torner < 拉丁 tornare“车削”< 希腊 tornos“车床”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-write",
+   "form": "write",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "写",
+   "glossEn": "write",
+   "allomorphs": [],
+   "examples": [
+    "rewrite",
+    "writer"
+   ],
+   "originalForm": "wrītan",
+   "originalGloss": "to scratch, write",
+   "note": "古英语 wrītan 本义“刻划”，故首字母 w 仍拼写但不发音。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-safe",
+   "form": "safe",
+   "type": "root",
+   "origin": "Fr",
+   "glossZh": "安全；完好",
+   "glossEn": "safe, unharmed",
+   "allomorphs": [],
+   "examples": [
+    "safety",
+    "safely"
+   ],
+   "originalForm": "sauf",
+   "originalGloss": "safe",
+   "note": "古法语 sauf < 拉丁 salvus“完好”，与 salute、salvage 同源。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-satell",
+   "form": "satell",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "随从；卫兵",
+   "glossEn": "attendant",
+   "allomorphs": [],
+   "examples": [
+    "satellite"
+   ],
+   "originalForm": "satelles",
+   "originalGloss": "attendant, guard",
+   "note": "拉丁 satelles / satellit-“随从、卫兵”，17 世纪起用于“卫星”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-public",
+   "form": "public",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "公众的",
+   "glossEn": "public",
+   "allomorphs": [],
+   "examples": [
+    "republican",
+    "publication"
+   ],
+   "originalForm": "publicus",
+   "originalGloss": "of the people",
+   "note": "拉丁 publicus < populus“人民”（与 pubes“成年人”有关）。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-circle",
+   "form": "circle",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "圆",
+   "glossEn": "circle",
+   "allomorphs": [],
+   "examples": [
+    "semicircle",
+    "circular"
+   ],
+   "originalForm": "circulus",
+   "originalGloss": "small ring",
+   "note": "拉丁 circulus 为 circus“环”的指小形式。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-final",
+   "form": "final",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "终点；最终的",
+   "glossEn": "end, final",
+   "allomorphs": [],
+   "examples": [
+    "semifinal",
+    "finalize"
+   ],
+   "originalForm": "finalis",
+   "originalGloss": "of the end",
+   "note": "拉丁 finalis < finis“界限、终点”，与 finish、finite 同源。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-itive",
+   "form": "itive",
+   "type": "suffix",
+   "origin": "Lat",
+   "glossZh": "形容词后缀：有……倾向的",
+   "glossEn": "tending to",
+   "allomorphs": [],
+   "examples": [
+    "sensitive",
+    "positive",
+    "competitive"
+   ],
+   "originalForm": "-itivus",
+   "originalGloss": "tending to",
+   "note": "拉丁 -itivus 由分词词干 -it- 加 -ivus 构成。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-simpl",
+   "form": "simpl",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "简单",
+   "glossEn": "simple",
+   "allomorphs": [],
+   "examples": [
+    "simplistic",
+    "simple",
+    "simplicity"
+   ],
+   "originalForm": "simplex",
+   "originalGloss": "single, simple",
+   "note": "拉丁 simplex“一层的、单纯的”< sim-（一）+ plicare（折）。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-situ",
+   "form": "situ",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "位置；安置",
+   "glossEn": "place",
+   "allomorphs": [],
+   "examples": [
+    "situate",
+    "situation"
+   ],
+   "originalForm": "situs",
+   "originalGloss": "position",
+   "note": "拉丁 situs“位置”，动词 situs 分词词干为 situ-。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-standard",
+   "form": "standard",
+   "type": "root",
+   "origin": "Fr",
+   "glossZh": "标准；旗",
+   "glossEn": "standard",
+   "allomorphs": [],
+   "examples": [
+    "standardize",
+    "substandard"
+   ],
+   "originalForm": "estandart",
+   "originalGloss": "banner, standard",
+   "note": "古法语 estandart 本指军旗，后引申为“公认的规范”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-stor",
+   "form": "stor",
+   "type": "root",
+   "origin": "Fr",
+   "glossZh": "储存",
+   "glossEn": "store",
+   "allomorphs": [
+    "store"
+   ],
+   "examples": [
+    "storage",
+    "restore"
+   ],
+   "originalForm": "estorer",
+   "originalGloss": "to build, supply",
+   "note": "古法语 estorer < 拉丁 instaurare“重建、储备”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-stud",
+   "form": "stud",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "研习；热心",
+   "glossEn": "study, be eager",
+   "allomorphs": [],
+   "examples": [
+    "student",
+    "study"
+   ],
+   "originalForm": "studere",
+   "originalGloss": "to be eager, study",
+   "note": "拉丁 studere“热心从事”，现在分词 studens 即 student 的来源。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-segment",
+   "form": "segment",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "切段；段",
+   "glossEn": "segment",
+   "allomorphs": [],
+   "examples": [
+    "suprasegmental",
+    "segmentation"
+   ],
+   "originalForm": "segmentum",
+   "originalGloss": "a cutting, piece",
+   "note": "拉丁 segmentum < secare“切”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-ique",
+   "form": "ique",
+   "type": "suffix",
+   "origin": "Fr",
+   "glossZh": "名词后缀：技术、方法",
+   "glossEn": "technique, art",
+   "allomorphs": [],
+   "examples": [
+    "technique",
+    "physique",
+    "unique"
+   ],
+   "originalForm": "-ique",
+   "originalGloss": "-ic",
+   "note": "法语 -ique 借入的名词词尾，与英语 -ic 同源但保留法语拼写。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-th",
+   "form": "th",
+   "type": "suffix",
+   "origin": "OE",
+   "glossZh": "名词后缀：状态、性质",
+   "glossEn": "state, quality",
+   "allomorphs": [],
+   "examples": [
+    "truth",
+    "warmth",
+    "width"
+   ],
+   "originalForm": "-þu",
+   "originalGloss": "-th",
+   "note": "古英语 -þu 名词后缀，接形容词构成抽象名词；true → truth 时去 e。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-ground",
+   "form": "ground",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "地面",
+   "glossEn": "ground",
+   "allomorphs": [],
+   "examples": [
+    "underground",
+    "background"
+   ],
+   "originalForm": "grund",
+   "originalGloss": "bottom, ground",
+   "note": "古英语 grund“底部、地面”，日耳曼固有词。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-pay",
+   "form": "pay",
+   "type": "root",
+   "origin": "Fr",
+   "glossZh": "支付",
+   "glossEn": "pay",
+   "allomorphs": [],
+   "examples": [
+    "underpay",
+    "payment"
+   ],
+   "originalForm": "paier",
+   "originalGloss": "to pay, pacify",
+   "note": "古法语 paier < 拉丁 pacare“使平息”，本义“偿付以平息债主”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-tie",
+   "form": "tie",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "系；绳结",
+   "glossEn": "tie",
+   "allomorphs": [],
+   "examples": [
+    "untie",
+    "tied"
+   ],
+   "originalForm": "tīgan",
+   "originalGloss": "to tie",
+   "note": "古英语 tīgan“系、绑”，日耳曼固有词。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-later",
+   "form": "later",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "边、侧",
+   "glossEn": "side",
+   "allomorphs": [],
+   "examples": [
+    "unilateral",
+    "bilateral",
+    "lateral"
+   ],
+   "originalForm": "latus",
+   "originalGloss": "side",
+   "note": "拉丁 latus / lateris“边”。与 ferre 的分词词干 lat-（relate、translate）同形异源，切分时须按语义辨别。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-igo",
+   "form": "igo",
+   "type": "suffix",
+   "origin": "Lat",
+   "glossZh": "名词后缀：状态、疾病",
+   "glossEn": "state, disease",
+   "allomorphs": [],
+   "examples": [
+    "vertigo",
+    "impetigo",
+    "lumbago"
+   ],
+   "originalForm": "-igo",
+   "originalGloss": "-ness",
+   "note": "拉丁 -igo / -iginis 构成表状态或疾病的名词（vertigo、impetigo、lumbago）。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-volat",
+   "form": "volat",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "飞",
+   "glossEn": "fly",
+   "allomorphs": [],
+   "examples": [
+    "volatile",
+    "volant"
+   ],
+   "originalForm": "volare",
+   "originalGloss": "to fly",
+   "note": "拉丁 volare“飞”的分词词干 volat-，volatile 本义“会飞的、易散的”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-ized",
+   "form": "ized",
+   "type": "suffix",
+   "origin": "Gk",
+   "glossZh": "形容词后缀：已……化的",
+   "glossEn": "-ized",
+   "allomorphs": [],
+   "examples": [
+    "voxelized",
+    "standardized",
+    "digitized"
+   ],
+   "originalForm": "-izein + -ed",
+   "originalGloss": "-ized",
+   "note": "-ize（希腊 -izein）加过去分词 -ed 的合并形式，构成“已完成某处理”的形容词。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-walk",
+   "form": "walk",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "走",
+   "glossEn": "walk",
+   "allomorphs": [],
+   "examples": [
+    "walked",
+    "walking"
+   ],
+   "originalForm": "wealcan",
+   "originalGloss": "to roll, toss",
+   "note": "古英语 wealcan“滚动、翻动”，中古英语起专指“步行”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "sx-some",
+   "form": "some",
+   "type": "suffix",
+   "origin": "OE",
+   "glossZh": "形容词后缀：具有……性质的",
+   "glossEn": "having the quality of",
+   "allomorphs": [],
+   "examples": [
+    "wholesome",
+    "handsome",
+    "troublesome"
+   ],
+   "originalForm": "-sum",
+   "originalGloss": "-some",
+   "note": "古英语 -sum 形容词后缀，与 same 同源，表“带有……性质的”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-wire",
+   "form": "wire",
+   "type": "root",
+   "origin": "OE",
+   "glossZh": "金属丝",
+   "glossEn": "wire",
+   "allomorphs": [],
+   "examples": [
+    "wireless",
+    "wiring"
+   ],
+   "originalForm": "wīr",
+   "originalGloss": "wire",
+   "note": "古英语 wīr“金属丝”，日耳曼固有词；wireless 20 世纪初指“无线电”。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-perform",
+   "form": "perform",
+   "type": "root",
+   "origin": "Fr",
+   "glossZh": "执行；表演",
+   "glossEn": "carry out, perform",
+   "allomorphs": [],
+   "examples": [
+    "outperform",
+    "performance"
+   ],
+   "originalForm": "parfournir",
+   "originalGloss": "to complete, provide",
+   "note": "古法语 parfournir“彻底完成、供给”，并非拉丁 forma 的派生，勿按 per- + form 硬拆。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-od",
+   "form": "od",
+   "type": "root",
+   "origin": "Gk",
+   "glossZh": "道路、行程",
+   "glossEn": "way, journey",
+   "allomorphs": [
+    "ode"
+   ],
+   "examples": [
+    "odometer",
+    "period",
+    "photodiode"
+   ],
+   "originalForm": "hodos",
+   "originalGloss": "way",
+   "note": "希腊 hodos“道路”。ode 为古希借词中的拼写变体（diode、anode、cathode、photodiode）。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-clud",
+   "form": "clud",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "关闭",
+   "glossEn": "close",
+   "allomorphs": [
+    "clude"
+   ],
+   "examples": [
+    "include",
+    "exclude",
+    "occlude",
+    "seclude"
+   ],
+   "originalForm": "claudere",
+   "originalGloss": "to close",
+   "note": "拉丁 claudere“关”。英语动词取 -clude 拼写（include、exclude、occlude、seclude），名词多作 -clusion。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-ced",
+   "form": "ced",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "走；让",
+   "glossEn": "go, yield",
+   "allomorphs": [
+    "cede"
+   ],
+   "examples": [
+    "secede",
+    "proceed",
+    "recede"
+   ],
+   "originalForm": "cedere",
+   "originalGloss": "to go, yield",
+   "note": "拉丁 cedere“走、让”。英语动词多作 -cede（secede、proceed、recede），名词作 -cession。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "rx-lat",
+   "form": "lat",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "携带（fer- 的分词词干）",
+   "glossEn": "carried",
+   "allomorphs": [
+    "late"
+   ],
+   "examples": [
+    "relate",
+    "translate",
+    "elated"
+   ],
+   "originalForm": "latus",
+   "originalGloss": "carried",
+   "note": "ferre“带”的异根分词 latus，英语动词作 -late（relate、translate）。与 latus“边”同形异源。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "cx-prac",
+   "form": "prac",
+   "type": "root",
+   "origin": "Gk",
+   "glossZh": "行动、做",
+   "glossEn": "do, act",
+   "allomorphs": [
+    "pract"
+   ],
+   "examples": [
+    "practical",
+    "practice",
+    "practise"
+   ],
+   "originalForm": "prassein",
+   "originalGloss": "to do",
+   "note": "希腊 prassein“做”经晚期拉丁 practicus；形容词词干作 pract-（practical、practicable）。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "id": "cx-sti-sta",
+   "form": "sti",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "站、状态",
+   "glossEn": "stand",
+   "allomorphs": [
+    "stant"
+   ],
+   "examples": [
+    "obstacle",
+    "substantiate",
+    "constant",
+    "distance"
+   ],
+   "originalForm": "stare",
+   "originalGloss": "to stand",
+   "note": "拉丁 stare“站”。stant 为现在分词词干（stantis），见 constant、substantiate、distance。",
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "SLAM",
+   "parts": [
+    "slam"
+   ],
+   "pos": "n",
+   "glossEn": "simultaneous localization and mapping",
+   "glossZh": "同步定位与建图",
+   "domain": "slam",
+   "family": null,
+   "etymology": "20 世纪 90 年代机器人学界的首字母缩略词（Simultaneous Localization and Mapping）",
+   "derivation": [
+    "S+L+A+M 四个首字母缩略，作为整体借入，内部不可再切分；词素库记录 slam 这一整体形式"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "SLAM system",
+    "visual SLAM"
+   ],
+   "example": "The drone runs SLAM to map the tunnel as it flies.",
+   "verified": false,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "nanometre",
+   "parts": [
+    "nano",
+    "metre"
+   ],
+   "pos": "n",
+   "glossEn": "one billionth of a metre",
+   "glossZh": "纳米",
+   "domain": "science",
+   "family": "fam-struct",
+   "etymology": "nano-（希腊 nanos 侏儒，引申十亿分之一）+ metre（希腊 metron 尺）",
+   "derivation": [
+    "nano（十亿分之一）+ metre（米）→ nanometre；英式拼写 -re，美式作 nanometer"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "nanometer",
+    "nanoscale",
+    "nanotechnology"
+   ],
+   "example": "The coating is only a few nanometres thick.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "nanotechnology",
+   "parts": [
+    "nano",
+    "techn",
+    "o",
+    "logy"
+   ],
+   "pos": "n",
+   "glossEn": "engineering of materials at the nanometre scale",
+   "glossZh": "纳米技术",
+   "domain": "science",
+   "family": "fam-struct",
+   "etymology": "nano-（纳米级）+ 希腊 tekhnē（技艺）+ -logia（学科）",
+   "derivation": [
+    "nano（纳米级）+ techn（技艺）+ o（连接元音）+ logy（学科）→ nanotechnology"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "nanotech",
+    "nanometre"
+   ],
+   "example": "Nanotechnology may shrink the sensor to a grain of dust.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "natural",
+   "parts": [
+    "natur",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "existing in nature, not made by people",
+   "glossZh": "自然的；天然的",
+   "domain": "general",
+   "family": "fam-spect",
+   "etymology": "拉丁 naturalis < natura（天性）< nasci（出生）",
+   "derivation": [
+    "natur（出生、天性）+ al（形容词后缀）→ natural"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "nature",
+    "naturally"
+   ],
+   "example": "The cave keeps a natural temperature all year.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "neurology",
+   "parts": [
+    "neur",
+    "o",
+    "logy"
+   ],
+   "pos": "n",
+   "glossEn": "study and treatment of the nervous system",
+   "glossZh": "神经学；神经科",
+   "domain": "medical",
+   "family": "fam-o",
+   "etymology": "希腊 neuron（神经、筋）+ -logia（学科）",
+   "derivation": [
+    "neur（神经）+ o（连接元音）+ logy（学科）→ neurology"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "neurologist",
+    "neuron"
+   ],
+   "example": "The neurology clinic sees many patients with migraine.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "nicely",
+   "parts": [
+    "nice",
+    "ly"
+   ],
+   "pos": "adv",
+   "glossEn": "in a pleasant or satisfactory way",
+   "glossZh": "很好地；恰好地",
+   "domain": "general",
+   "family": null,
+   "etymology": "nice（古法语 nice < 拉丁 nescius 无知的）+ -ly",
+   "derivation": [
+    "nice（令人愉快的）+ ly（副词后缀）→ nicely"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "nice",
+    "niceness"
+   ],
+   "example": "The two boards fit nicely together after sanding.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "niceness",
+   "parts": [
+    "nice",
+    "ness"
+   ],
+   "pos": "n",
+   "glossEn": "the quality of being pleasant",
+   "glossZh": "亲切；美好",
+   "domain": "general",
+   "family": null,
+   "etymology": "nice + -ness",
+   "derivation": [
+    "nice（令人愉快的）+ ness（名词后缀）→ niceness"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "nice",
+    "nicely"
+   ],
+   "example": "Her niceness made the long shift easier.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "noiseless",
+   "parts": [
+    "noise",
+    "less"
+   ],
+   "pos": "adj",
+   "glossEn": "making no sound at all",
+   "glossZh": "无声的；无噪声的",
+   "domain": "technical",
+   "family": null,
+   "etymology": "noise + -less",
+   "derivation": [
+    "noise（噪声）+ less（没有……的）→ noiseless"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "noise",
+    "noisy"
+   ],
+   "example": "A noiseless fan keeps the enclosure cool.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "noisy",
+   "parts": [
+    "noise",
+    "y"
+   ],
+   "pos": "adj",
+   "glossEn": "making a lot of sound",
+   "glossZh": "吵的；噪声大的",
+   "domain": "general",
+   "family": "fam-y",
+   "etymology": "noise + -y，17 世纪",
+   "derivation": [
+    "noise（噪声）+ y（形容词后缀）；去 e 加 -y → noisy"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "noise",
+    "noiseless"
+   ],
+   "example": "The gearbox grew noisy after the third run.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "nominal",
+   "parts": [
+    "nomin",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "existing in name only; very small in amount",
+   "glossZh": "名义上的；极小的",
+   "domain": "academic",
+   "family": "fam-nomen",
+   "etymology": "拉丁 nominalis < nomen（名字）",
+   "derivation": [
+    "nomin（名字）+ al（形容词后缀）→ nominal"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "nominate",
+    "nominee"
+   ],
+   "example": "The fee was nominal, so the lab paid at once.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "nominate",
+   "parts": [
+    "nomin",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "propose someone for a post or award",
+   "glossZh": "提名；任命",
+   "domain": "general",
+   "family": "fam-nomen",
+   "etymology": "拉丁 nominare（命名、提名）< nomen（名字）",
+   "derivation": [
+    "nomin（名字）+ ate（动词后缀）→ nominate 把名字报上去"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "nominal",
+    "nomination"
+   ],
+   "example": "The board will nominate two candidates for the chair.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "nonfiction",
+   "parts": [
+    "non",
+    "fict",
+    "ion"
+   ],
+   "pos": "n",
+   "glossEn": "writing about real facts",
+   "glossZh": "非虚构作品",
+   "domain": "general",
+   "family": null,
+   "etymology": "non-（非）+ fiction < 拉丁 fingere（塑造）的分词词干 fictus",
+   "derivation": [
+    "non（非）+ fict（塑造）+ ion（名词后缀）→ nonfiction"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "fiction",
+    "fictional"
+   ],
+   "example": "Her nonfiction account of the flood sold well.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "nonlinear",
+   "parts": [
+    "non",
+    "line",
+    "ar"
+   ],
+   "pos": "adj",
+   "glossEn": "not changing in direct proportion",
+   "glossZh": "非线性的",
+   "domain": "technical",
+   "family": null,
+   "etymology": "non- + linear < 拉丁 linea（线）+ -aris",
+   "derivation": [
+    "non（非）+ line（线）+ ar（形容词后缀）→ nonlinear"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "linear",
+    "linearity"
+   ],
+   "example": "The sensor response is nonlinear near saturation.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "objectivity",
+   "parts": [
+    "ob",
+    "ject",
+    "ivity"
+   ],
+   "pos": "n",
+   "glossEn": "the ability to judge without personal bias",
+   "glossZh": "客观性",
+   "domain": "academic",
+   "family": "fam-fer",
+   "etymology": "objective + -ity < 拉丁 obicere（投向）",
+   "derivation": [
+    "ob（朝向）+ ject（投）+ ivity（名词后缀）→ objectivity 把判断投向对象而非自己"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "objective",
+    "object"
+   ],
+   "example": "Peer review is meant to protect objectivity.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "observe",
+   "parts": [
+    "ob",
+    "serve"
+   ],
+   "pos": "v",
+   "glossEn": "watch carefully; also, obey a rule",
+   "glossZh": "观察；遵守",
+   "domain": "academic",
+   "family": "fam-fer",
+   "etymology": "拉丁 observare < ob-（朝向）+ servare（守护、留意）",
+   "derivation": [
+    "ob（朝向）+ serve（守护）→ observe 守着看 → 观察，引申为遵守"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "observation",
+    "observer"
+   ],
+   "example": "Technicians observe the arc through a filtered window.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "obstacle",
+   "parts": [
+    "ob",
+    "st",
+    "acle"
+   ],
+   "pos": "n",
+   "glossEn": "something that blocks progress",
+   "glossZh": "障碍；障碍物",
+   "domain": "general",
+   "family": "fam-fer",
+   "etymology": "拉丁 obstaculum < ob-（对着）+ stare（站）+ -culum（工具、事物）",
+   "derivation": [
+    "ob（对着）+ st（站，stare 的词干）+ acle（名词后缀：事物）→ obstacle 挡在面前的东西"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "obstruct",
+    "obstinate"
+   ],
+   "example": "Cost remains the main obstacle to a wider rollout.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "obvious",
+   "parts": [
+    "ob",
+    "vi",
+    "ous"
+   ],
+   "pos": "adj",
+   "glossEn": "easy to see or understand",
+   "glossZh": "明显的",
+   "domain": "general",
+   "family": "fam-fer",
+   "etymology": "拉丁 obvius < ob viam（在路上）",
+   "derivation": [
+    "ob（朝向）+ vi（道路，via 的变体）+ ous（形容词后缀）→ obvious 就在路上，一眼看见"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "obviously",
+    "via"
+   ],
+   "example": "The crack was obvious under the inspection lamp.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "occlude",
+   "parts": [
+    "oc",
+    "clude"
+   ],
+   "pos": "v",
+   "glossEn": "close off or block a passage",
+   "glossZh": "阻塞；遮挡",
+   "domain": "medical",
+   "family": "fam-fer",
+   "etymology": "拉丁 occludere < ob-（对着）+ claudere（关）",
+   "derivation": [
+    "oc（ob- 在 c 前的同化）+ clude（关，claudere）→ occlude"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "occlusion",
+    "occlusive"
+   ],
+   "example": "A clot can occlude the artery within minutes.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "occur",
+   "parts": [
+    "oc",
+    "cur"
+   ],
+   "pos": "v",
+   "glossEn": "happen; come into the mind",
+   "glossZh": "发生；想到",
+   "domain": "general",
+   "family": "fam-fer",
+   "etymology": "拉丁 occurrere < ob-（朝向）+ currere（跑）",
+   "derivation": [
+    "oc（ob- 在 c 前的同化）+ cur（跑，currere；英语拼写中 rr 简作 r）→ occur 跑到面前 → 发生",
+    "注意：此处 cur 取“跑”义（currere），与 cura“关心”同形异源"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "occurrence",
+    "recur"
+   ],
+   "example": "Errors occur when the battery drops below ten percent.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "odometer",
+   "parts": [
+    "od",
+    "o",
+    "meter"
+   ],
+   "pos": "n",
+   "glossEn": "instrument that measures distance travelled",
+   "glossZh": "里程表",
+   "domain": "technical",
+   "family": "fam-o",
+   "etymology": "希腊 hodos（道路）+ metron（测量）",
+   "derivation": [
+    "od（道路、行程）+ o（连接元音）+ meter（测量仪）→ odometer"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "odometry",
+    "period"
+   ],
+   "example": "The odometer showed forty kilometres after the loop.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "odorant",
+   "parts": [
+    "odor",
+    "ant"
+   ],
+   "pos": "n",
+   "glossEn": "substance added to give a smell",
+   "glossZh": "气味物质；增味剂",
+   "domain": "science",
+   "family": null,
+   "etymology": "拉丁 odor（气味）+ -ant（表物）",
+   "derivation": [
+    "odor（气味）+ ant（名词后缀：物）→ odorant"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "odor",
+    "odorous"
+   ],
+   "example": "A trace odorant makes small leaks easy to smell.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "otherwise",
+   "parts": [
+    "other",
+    "wise"
+   ],
+   "pos": "adv",
+   "glossEn": "in a different case; in other respects",
+   "glossZh": "否则；另外",
+   "domain": "general",
+   "family": null,
+   "etymology": "古英语 oþre wisan（以别的方式）",
+   "derivation": [
+    "other（其他的）+ wise（副词后缀：在……方面/以……方式）→ otherwise"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "other",
+    "likewise"
+   ],
+   "example": "Log the offset, otherwise the next run will drift.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "outdoor",
+   "parts": [
+    "out",
+    "door"
+   ],
+   "pos": "adj",
+   "glossEn": "located or used outside a building",
+   "glossZh": "户外的",
+   "domain": "general",
+   "family": null,
+   "etymology": "out + door，18 世纪",
+   "derivation": [
+    "out（向外）+ door（门）→ outdoor"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "outdoors",
+    "indoor"
+   ],
+   "example": "The outdoor test ran from noon until dusk.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "outnumber",
+   "parts": [
+    "out",
+    "number"
+   ],
+   "pos": "v",
+   "glossEn": "be more numerous than",
+   "glossZh": "数量上超过",
+   "domain": "general",
+   "family": null,
+   "etymology": "out-（超过）+ number",
+   "derivation": [
+    "out（超过）+ number（数目）→ outnumber"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "number",
+    "outperform"
+   ],
+   "example": "Cheap units outnumber the calibrated ones in the field.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "outperform",
+   "parts": [
+    "out",
+    "perform"
+   ],
+   "pos": "v",
+   "glossEn": "do better than another",
+   "glossZh": "表现优于",
+   "domain": "academic",
+   "family": null,
+   "etymology": "out-（超过）+ perform（古法语 parfournir 完成、执行）",
+   "derivation": [
+    "out（超过）+ perform（执行、表现）→ outperform"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "performance",
+    "outnumber"
+   ],
+   "example": "The new model outperforms the old one on noisy data.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "overestimate",
+   "parts": [
+    "over",
+    "estim",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "judge something as larger than it is",
+   "glossZh": "高估",
+   "domain": "academic",
+   "family": null,
+   "etymology": "over- + estimate < 拉丁 aestimare（估价）",
+   "derivation": [
+    "over（过度）+ estim（估价）+ ate（动词后缀）→ overestimate"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "estimate",
+    "underestimate"
+   ],
+   "example": "Do not overestimate the gain from a single trial.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "overhead",
+   "parts": [
+    "over",
+    "head"
+   ],
+   "pos": "n",
+   "glossEn": "costs of running a business; above the head",
+   "glossZh": "经常开支；上方的",
+   "domain": "finance",
+   "family": null,
+   "etymology": "over-（在上）+ head，18 世纪商业用语",
+   "derivation": [
+    "over（在上）+ head（头）→ overhead 头顶之上 → 不直接产出的一般开支"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "overhead cost",
+    "overwork"
+   ],
+   "example": "Cloud overhead rose once the dataset doubled.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "overwork",
+   "parts": [
+    "over",
+    "work"
+   ],
+   "pos": "v",
+   "glossEn": "make someone work too hard",
+   "glossZh": "使过度工作",
+   "domain": "general",
+   "family": null,
+   "etymology": "over-（过度）+ work",
+   "derivation": [
+    "over（过度）+ work（工作）→ overwork"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "workload",
+    "overestimate"
+   ],
+   "example": "Do not overwork the pump during the first hour.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "parameter",
+   "parts": [
+    "para",
+    "meter"
+   ],
+   "pos": "n",
+   "glossEn": "measurable factor that defines a system",
+   "glossZh": "参数",
+   "domain": "technical",
+   "family": "fam-para",
+   "etymology": "希腊 para（旁）+ metron（测量）；现代义经 17 世纪数学拉丁传入",
+   "derivation": [
+    "para（旁、辅助）+ meter（测量）→ parameter 辅助量度 → 参数"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "parametric",
+    "perimeter"
+   ],
+   "example": "Each parameter is logged together with its unit.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "pedestal",
+   "parts": [
+    "ped",
+    "stal"
+   ],
+   "pos": "n",
+   "glossEn": "base that supports a column or statue",
+   "glossZh": "基座；台座",
+   "domain": "technical",
+   "family": "fam-paed",
+   "etymology": "意大利语 piedistallo < piede（脚）+ stallo（站立处）",
+   "derivation": [
+    "ped（脚）+ stal（站立处）→ pedestal；意大利语原形 piedistallo 中的 -i- 弱化为 -e-，现有词素无法严格拼出该元音"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "pedal",
+    "pedestal base"
+   ],
+   "example": "The telescope sits on a concrete pedestal.",
+   "verified": false,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "pedestrian",
+   "parts": [
+    "ped",
+    "estr",
+    "ian"
+   ],
+   "pos": "n",
+   "glossEn": "person walking along a road",
+   "glossZh": "行人",
+   "domain": "general",
+   "family": "fam-paed",
+   "etymology": "拉丁 pedester（步行的）< pedes（脚）",
+   "derivation": [
+    "ped（脚）+ estr（拉丁形容词后缀 -estris）+ ian（属于……的人）→ pedestrian"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "pedal",
+    "podiatry"
+   ],
+   "example": "The crossing keeps pedestrians clear of the haul road.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "perimeter",
+   "parts": [
+    "peri",
+    "meter"
+   ],
+   "pos": "n",
+   "glossEn": "outer boundary of an area, or its length",
+   "glossZh": "周长；周边",
+   "domain": "technical",
+   "family": "fam-peri",
+   "etymology": "希腊 peri（环绕）+ metron（测量）",
+   "derivation": [
+    "peri（环绕）+ meter（测量）→ perimeter 绕着量一圈"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "perimetric",
+    "parameter"
+   ],
+   "example": "A fence runs along the perimeter of the site.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "period",
+   "parts": [
+    "peri",
+    "od"
+   ],
+   "pos": "n",
+   "glossEn": "length of time; one full cycle",
+   "glossZh": "时期；周期",
+   "domain": "general",
+   "family": "fam-peri",
+   "etymology": "希腊 periodos < peri（环绕）+ hodos（道路）",
+   "derivation": [
+    "peri（环绕）+ od（道路）→ period 绕一圈的路程 → 周期、时期"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "periodic",
+    "odometer"
+   ],
+   "example": "The test period covers two full heating cycles.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "permanent",
+   "parts": [
+    "per",
+    "man",
+    "ent"
+   ],
+   "pos": "adj",
+   "glossEn": "lasting without change",
+   "glossZh": "永久的",
+   "domain": "general",
+   "family": null,
+   "etymology": "拉丁 permanens < per-（贯穿）+ manere（停留）",
+   "derivation": [
+    "per（贯穿）+ man（停留，manere）+ ent（形容词后缀）→ permanent",
+    "注意：此处 man 取“停留”义（manere），与 manus“手”同形异源"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "permanence",
+    "remain"
+   ],
+   "example": "A permanent marker will not fade in sunlight.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "persist",
+   "parts": [
+    "per",
+    "sist"
+   ],
+   "pos": "v",
+   "glossEn": "continue firmly despite difficulty",
+   "glossZh": "坚持；持续",
+   "domain": "academic",
+   "family": null,
+   "etymology": "拉丁 persistere < per-（贯穿）+ sistere（站住）",
+   "derivation": [
+    "per（贯穿）+ sist（站立、停住）→ persist 一直站着 → 坚持"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "persistent",
+    "resist"
+   ],
+   "example": "The error persists even after a full reset.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "phonetics",
+   "parts": [
+    "phon",
+    "etic",
+    "s"
+   ],
+   "pos": "n",
+   "glossEn": "study of speech sounds",
+   "glossZh": "语音学",
+   "domain": "academic",
+   "family": null,
+   "etymology": "希腊 phōnētikos（与声音有关的）< phōnein（说话）< phōnē（声音）",
+   "derivation": [
+    "phon（声音）+ etic（希腊形容词/学科后缀 -ētikos）+ s（学科名词）→ phonetics"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "phonetic",
+    "phoneme"
+   ],
+   "example": "Phonetics explains why the two vowels merge here.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "photodiode",
+   "parts": [
+    "photo",
+    "di",
+    "ode"
+   ],
+   "pos": "n",
+   "glossEn": "semiconductor device that turns light into current",
+   "glossZh": "光电二极管",
+   "domain": "sensor",
+   "family": "fam-da",
+   "etymology": "photo-（光）+ diode < 希腊 di-（穿过）+ hodos（道路）",
+   "derivation": [
+    "photo（光）+ di（穿过）+ ode（道路，hodos）→ photodiode 让电流单向往光里走"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "diode",
+    "photodetector"
+   ],
+   "example": "The photodiode output tracks the laser pulse closely.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "photogrammetry",
+   "parts": [
+    "photo",
+    "gram",
+    "metry"
+   ],
+   "pos": "n",
+   "glossEn": "measuring real objects from photographs",
+   "glossZh": "摄影测量",
+   "domain": "technical",
+   "family": null,
+   "etymology": "photo-（光、摄影）+ 希腊 gramma（记录）+ metron（测量）",
+   "derivation": [
+    "photo（摄影）+ gram（记录）+ metry（测量术）→ photogrammetry"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "photogram",
+    "geometry"
+   ],
+   "example": "Photogrammetry rebuilt the facade from forty overlapping images.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "physics",
+   "parts": [
+    "phys",
+    "ics"
+   ],
+   "pos": "n",
+   "glossEn": "science of matter, force and energy",
+   "glossZh": "物理学",
+   "domain": "science",
+   "family": null,
+   "etymology": "拉丁 physica < 希腊 physika < physis（自然）< phyein（生长）",
+   "derivation": [
+    "phys（自然、生长）+ ics（学科后缀，作单数）→ physics"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "physical",
+    "physicist"
+   ],
+   "example": "The physics of the failure is still unclear.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "pixelated",
+   "parts": [
+    "pixel",
+    "ated"
+   ],
+   "pos": "adj",
+   "glossEn": "showing visible square pixels",
+   "glossZh": "像素化的；马赛克的",
+   "domain": "cs",
+   "family": null,
+   "etymology": "pixel（picture + element 的混成词）+ -ated",
+   "derivation": [
+    "pixel（像素）+ ated（形容词后缀：具有……的）→ pixelated"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "pixel",
+    "pixels"
+   ],
+   "example": "The zoomed image looked pixelated at the edges.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "pixels",
+   "parts": [
+    "pixel",
+    "s"
+   ],
+   "pos": "n",
+   "glossEn": "smallest units of a digital image (plural)",
+   "glossZh": "像素（复数）",
+   "domain": "cs",
+   "family": null,
+   "etymology": "pixel 的复数；pixel 为 1960 年代 picture + element 的混成词",
+   "derivation": [
+    "pixel（像素）+ s（复数后缀）→ pixels"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "pixel",
+    "pixelated"
+   ],
+   "example": "The camera delivers twelve million pixels per frame.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "pneumonia",
+   "parts": [
+    "pneumon",
+    "ia"
+   ],
+   "pos": "n",
+   "glossEn": "infection that inflames the lungs",
+   "glossZh": "肺炎",
+   "domain": "medical",
+   "family": null,
+   "etymology": "希腊 pneumōnia < pneumōn（肺）< pneuma（气息）",
+   "derivation": [
+    "pneumon（肺）+ ia（名词后缀：疾病状态）→ pneumonia"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "pneumonic",
+    "pneumatic"
+   ],
+   "example": "Pneumonia kept the operator off work for a week.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "podiatry",
+   "parts": [
+    "pod",
+    "iatr",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "treatment of foot and ankle disorders",
+   "glossZh": "足病学；足科",
+   "domain": "medical",
+   "family": "fam-pus",
+   "etymology": "希腊 pous / podos（脚）+ iatreia（治疗）",
+   "derivation": [
+    "pod（脚）+ iatr（医术、治疗）+ y（学科名词后缀）→ podiatry"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "podiatrist",
+    "pedestrian"
+   ],
+   "example": "Podiatry solved the gait problem the sensors missed.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "postgraduate",
+   "parts": [
+    "post",
+    "grad",
+    "uate"
+   ],
+   "pos": "n",
+   "glossEn": "student who continues after a first degree",
+   "glossZh": "研究生",
+   "domain": "academic",
+   "family": "fam-grad",
+   "etymology": "post-（之后）+ graduate < 拉丁 gradus（步、级）",
+   "derivation": [
+    "post（之后）+ grad（步、级）+ uate（动词后缀：使按级次）→ postgraduate 走完一级之后"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "graduate",
+    "undergraduate"
+   ],
+   "example": "Every postgraduate in the lab rotates through calibration duty.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "postmodern",
+   "parts": [
+    "post",
+    "modern"
+   ],
+   "pos": "adj",
+   "glossEn": "following the modern movement in art and thought",
+   "glossZh": "后现代的",
+   "domain": "academic",
+   "family": null,
+   "etymology": "post-（之后）+ modern（拉丁 modernus）",
+   "derivation": [
+    "post（之后）+ modern（现代的）→ postmodern"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "postmodernism",
+    "modern"
+   ],
+   "example": "The essay reads the archive in a postmodern way.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "postscript",
+   "parts": [
+    "post",
+    "script"
+   ],
+   "pos": "n",
+   "glossEn": "note added after a letter's signature",
+   "glossZh": "附言；后记",
+   "domain": "general",
+   "family": null,
+   "etymology": "拉丁 postscriptum < post（之后）+ scribere（写）",
+   "derivation": [
+    "post（之后）+ script（写）→ postscript"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "script",
+    "manuscript"
+   ],
+   "example": "A short postscript explains the change of address.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "powerful",
+   "parts": [
+    "power",
+    "ful"
+   ],
+   "pos": "adj",
+   "glossEn": "having great strength or effect",
+   "glossZh": "强大的；有力的",
+   "domain": "general",
+   "family": null,
+   "etymology": "power（古法语 poeir < 拉丁 posse 能够）+ -ful",
+   "derivation": [
+    "power（力量）+ ful（充满……的）→ powerful"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "power",
+    "powerless"
+   ],
+   "example": "A powerful fan clears the fumes in seconds.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "practical",
+   "parts": [
+    "pract",
+    "ical"
+   ],
+   "pos": "adj",
+   "glossEn": "concerned with doing rather than theory",
+   "glossZh": "实用的；实际的",
+   "domain": "general",
+   "family": null,
+   "etymology": "晚期拉丁 practicus < 希腊 praktikos（善于行动的）< prassein（做）",
+   "derivation": [
+    "pract（行动、做）+ ical（形容词后缀）→ practical"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "practice",
+    "practically"
+   ],
+   "example": "A practical fix beat the elegant model again.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "preheat",
+   "parts": [
+    "pre",
+    "heat"
+   ],
+   "pos": "v",
+   "glossEn": "heat something before it is used",
+   "glossZh": "预热",
+   "domain": "technical",
+   "family": null,
+   "etymology": "pre-（之前）+ heat（古英语 hǣtu）",
+   "derivation": [
+    "pre（之前）+ heat（加热）→ preheat"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "heat",
+    "preheating"
+   ],
+   "example": "Preheat the chamber to sixty degrees before the run.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "pressure",
+   "parts": [
+    "press",
+    "ure"
+   ],
+   "pos": "n",
+   "glossEn": "force spread over an area",
+   "glossZh": "压力",
+   "domain": "science",
+   "family": "fam-ture",
+   "etymology": "拉丁 pressura < premere（压），经古法语",
+   "derivation": [
+    "press（压）+ ure（名词后缀：动作、结果）→ pressure"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "press",
+    "pressurized"
+   ],
+   "example": "Pressure inside the tank rose faster than expected.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "preview",
+   "parts": [
+    "pre",
+    "view"
+   ],
+   "pos": "n",
+   "glossEn": "advance showing before the public release",
+   "glossZh": "预览；试映",
+   "domain": "cs",
+   "family": null,
+   "etymology": "pre-（之前）+ view（古法语 veue < 拉丁 videre 看）",
+   "derivation": [
+    "pre（之前）+ view（看）→ preview"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "view",
+    "review"
+   ],
+   "example": "The preview build crashed on the second launch.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "proactive",
+   "parts": [
+    "pro",
+    "act",
+    "ive"
+   ],
+   "pos": "adj",
+   "glossEn": "acting before a problem appears",
+   "glossZh": "主动的；前瞻的",
+   "domain": "academic",
+   "family": "fam-port",
+   "etymology": "pro-（向前）+ active < 拉丁 agere（做）",
+   "derivation": [
+    "pro（向前）+ act（做）+ ive（形容词后缀）→ proactive"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "active",
+    "react"
+   ],
+   "example": "A proactive check caught the leak before the flight.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "proficient",
+   "parts": [
+    "pro",
+    "fic",
+    "ient"
+   ],
+   "pos": "adj",
+   "glossEn": "skilled and competent at something",
+   "glossZh": "熟练的；精通的",
+   "domain": "academic",
+   "family": "fam-port",
+   "etymology": "拉丁 proficere（前进、有成效）< pro-（向前）+ facere（做）",
+   "derivation": [
+    "pro（向前）+ fic（做，facere）+ ient（形容词后缀 -iens）→ proficient"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "proficiency",
+    "sufficient"
+   ],
+   "example": "She is proficient with both the mill and the lathe.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "program",
+   "parts": [
+    "pro",
+    "gram"
+   ],
+   "pos": "n",
+   "glossEn": "set of instructions; planned scheme",
+   "glossZh": "程序；计划",
+   "domain": "cs",
+   "family": "fam-port",
+   "etymology": "希腊 programma < pro（在前）+ graphein（写）",
+   "derivation": [
+    "pro（在前）+ gram（写下的东西）→ program 事先写好的东西"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "programmer",
+    "diagram"
+   ],
+   "example": "The program stops if a checksum fails.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "progress",
+   "parts": [
+    "pro",
+    "gress"
+   ],
+   "pos": "n",
+   "glossEn": "forward movement or improvement",
+   "glossZh": "进步；进展",
+   "domain": "general",
+   "family": "fam-port",
+   "etymology": "拉丁 progressus < pro-（向前）+ gradi（走）",
+   "derivation": [
+    "pro（向前）+ gress（走）→ progress"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "progressive",
+    "regress"
+   ],
+   "example": "Progress on the second site was slower than promised.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "proliferation",
+   "parts": [
+    "proli",
+    "fer",
+    "ation"
+   ],
+   "pos": "n",
+   "glossEn": "rapid increase in number",
+   "glossZh": "增殖；扩散",
+   "domain": "academic",
+   "family": "fam-fer",
+   "etymology": "拉丁 proles（后代）+ ferre（带来）→ proliferatio",
+   "derivation": [
+    "proli（后代）+ fer（带来）+ ation（名词后缀）→ proliferation"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "proliferate",
+    "prolific"
+   ],
+   "example": "Cheap nodes caused a proliferation of duplicate records.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "protect",
+   "parts": [
+    "pro",
+    "tect"
+   ],
+   "pos": "v",
+   "glossEn": "keep someone or something from harm",
+   "glossZh": "保护",
+   "domain": "general",
+   "family": "fam-port",
+   "etymology": "拉丁 protegere < pro-（在前）+ tegere（覆盖）",
+   "derivation": [
+    "pro（在前）+ tect（覆盖）→ protect 在前面盖住 → 保护"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "protection",
+    "detect"
+   ],
+   "example": "A shield protects the lens from the welding spatter.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "psychiatry",
+   "parts": [
+    "psych",
+    "iatr",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "medical treatment of mental illness",
+   "glossZh": "精神病学",
+   "domain": "medical",
+   "family": "fam-psych",
+   "etymology": "希腊 psychē（心灵）+ iatreia（治疗）",
+   "derivation": [
+    "psych（心灵）+ iatr（治疗）+ y（学科名词后缀）→ psychiatry"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "psychiatrist",
+    "psychology"
+   ],
+   "example": "Psychiatry and neurology share the same ward here.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "psychosomatic",
+   "parts": [
+    "psycho",
+    "somat",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "caused by the mind acting on the body",
+   "glossZh": "心身的；由心理引起的",
+   "domain": "medical",
+   "family": "fam-som",
+   "etymology": "希腊 psychē（心灵）+ sōma / sōmatos（身体）",
+   "derivation": [
+    "psycho（心灵）+ somat（身体）+ ic（形容词后缀）→ psychosomatic"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "psychosomatic illness",
+    "somatic"
+   ],
+   "example": "The rash was psychosomatic, not an allergy.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "pterodactyl",
+   "parts": [
+    "pter",
+    "o",
+    "dactyl"
+   ],
+   "pos": "n",
+   "glossEn": "extinct flying reptile with a long finger wing",
+   "glossZh": "翼手龙",
+   "domain": "science",
+   "family": "fam-o",
+   "etymology": "希腊 pteron（翅）+ daktylos（指）",
+   "derivation": [
+    "pter（翅）+ o（连接元音）+ dactyl（指、趾）→ pterodactyl 翅长在指上"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "pterosaur",
+    "dactyl"
+   ],
+   "example": "A pterodactyl cast hangs above the museum stairs.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "purchase",
+   "parts": [
+    "pur",
+    "chase"
+   ],
+   "pos": "v",
+   "glossEn": "buy something",
+   "glossZh": "购买",
+   "domain": "general",
+   "family": "fam-port",
+   "etymology": "古法语 purchacier（追求、取得）< pur-（向前）+ chacier（追逐）",
+   "derivation": [
+    "pur（向前）+ chase（追逐）→ purchase 追着要到手 → 购买"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "purchaser",
+    "chase"
+   ],
+   "example": "The team will purchase two more sensors next quarter.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "quarantined",
+   "parts": [
+    "quarantine",
+    "ed"
+   ],
+   "pos": "adj",
+   "glossEn": "kept apart to stop a disease spreading",
+   "glossZh": "被隔离的",
+   "domain": "medical",
+   "family": null,
+   "etymology": "quarantine < 意大利 quarantina（四十天）< quaranta（四十），威尼斯港口防疫期",
+   "derivation": [
+    "quarantine（隔离检疫）+ ed（形容词后缀）→ quarantined"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "quarantine",
+    "isolation"
+   ],
+   "example": "The whole batch was quarantined after the first failure.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "quickly",
+   "parts": [
+    "quick",
+    "ly"
+   ],
+   "pos": "adv",
+   "glossEn": "at speed; in a short time",
+   "glossZh": "迅速地",
+   "domain": "general",
+   "family": null,
+   "etymology": "quick（古英语 cwic 活的）+ -ly",
+   "derivation": [
+    "quick（快的）+ ly（副词后缀）→ quickly"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "quick",
+    "quicken"
+   ],
+   "example": "The joint cooled quickly once the flow stopped.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "react",
+   "parts": [
+    "re",
+    "act"
+   ],
+   "pos": "v",
+   "glossEn": "respond to something that happens",
+   "glossZh": "反应",
+   "domain": "general",
+   "family": null,
+   "etymology": "中世纪拉丁 reagere < re-（回）+ agere（做）",
+   "derivation": [
+    "re（回）+ act（做、驱动）→ react 反过来做 → 反应"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "reaction",
+    "proactive"
+   ],
+   "example": "The coating reacts badly to salt spray.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "readable",
+   "parts": [
+    "read",
+    "able"
+   ],
+   "pos": "adj",
+   "glossEn": "clear enough to be read easily",
+   "glossZh": "可读的；易读的",
+   "domain": "cs",
+   "family": "fam-port",
+   "etymology": "read（古英语 rǣdan）+ -able",
+   "derivation": [
+    "read（读）+ able（能够被……的）→ readable"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "read",
+    "readability"
+   ],
+   "example": "The log stays readable even after the crash.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "realign",
+   "parts": [
+    "re",
+    "align"
+   ],
+   "pos": "v",
+   "glossEn": "bring back into line",
+   "glossZh": "重新对齐",
+   "domain": "technical",
+   "family": null,
+   "etymology": "re-（再）+ align（古法语 alignier < 拉丁 linea 线）",
+   "derivation": [
+    "re（再）+ align（对齐）→ realign"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "align",
+    "alignment"
+   ],
+   "example": "Realign the mirrors before every measurement session.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "realistic",
+   "parts": [
+    "real",
+    "istic"
+   ],
+   "pos": "adj",
+   "glossEn": "showing things as they really are",
+   "glossZh": "现实的；逼真的",
+   "domain": "academic",
+   "family": null,
+   "etymology": "real（晚期拉丁 realis < res 事物）+ -istic",
+   "derivation": [
+    "real（真实的）+ istic（形容词后缀：……特征的）→ realistic"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "real",
+    "realism"
+   ],
+   "example": "The simulation gives a realistic estimate of drift.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "rebuild",
+   "parts": [
+    "re",
+    "build"
+   ],
+   "pos": "v",
+   "glossEn": "build something again",
+   "glossZh": "重建；重构",
+   "domain": "general",
+   "family": null,
+   "etymology": "re-（再）+ build（古英语 byldan）",
+   "derivation": [
+    "re（再）+ build（建造）→ rebuild"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "build",
+    "rebuilding"
+   ],
+   "example": "Engineers had to rebuild the index from scratch.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "recalibrate",
+   "parts": [
+    "re",
+    "calibr",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "adjust an instrument again",
+   "glossZh": "重新校准",
+   "domain": "technical",
+   "family": null,
+   "etymology": "re-（再）+ calibrate < calibre（口径）",
+   "derivation": [
+    "re（再）+ calibr（校准）+ ate（动词后缀）→ recalibrate"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "calibrate",
+    "calibration"
+   ],
+   "example": "Recalibrate the balance after each transport.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "recall",
+   "parts": [
+    "re",
+    "call"
+   ],
+   "pos": "v",
+   "glossEn": "remember; ask for something to be returned",
+   "glossZh": "回想；召回",
+   "domain": "general",
+   "family": null,
+   "etymology": "re-（回）+ call（古英语 ceallian 呼喊）",
+   "derivation": [
+    "re（回）+ call（呼喊）→ recall 叫回来 → 想起、召回"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "call",
+    "recall rate"
+   ],
+   "example": "I cannot recall which batch failed first.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "receptacle",
+   "parts": [
+    "re",
+    "cept",
+    "acle"
+   ],
+   "pos": "n",
+   "glossEn": "container or socket that receives something",
+   "glossZh": "容器；插座",
+   "domain": "technical",
+   "family": "fam-spect",
+   "etymology": "拉丁 receptaculum < recipere（接收）< re- + capere（拿）",
+   "derivation": [
+    "re（回）+ cept（拿，capere 的分词词干）+ acle（名词后缀：事物）→ receptacle"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "receive",
+    "reception"
+   ],
+   "example": "Wipe the receptacle before fitting a new probe.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "region",
+   "parts": [
+    "reg",
+    "ion"
+   ],
+   "pos": "n",
+   "glossEn": "area with a shared feature",
+   "glossZh": "地区；区域",
+   "domain": "general",
+   "family": "fam-rig",
+   "etymology": "拉丁 regio < regere（统治、划界）",
+   "derivation": [
+    "reg（统治、划界）+ ion（名词后缀）→ region 划定的范围"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "regional",
+    "regulate"
+   ],
+   "example": "The northern region sees twice the rainfall.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "regularity",
+   "parts": [
+    "regular",
+    "ity"
+   ],
+   "pos": "n",
+   "glossEn": "state of being even or repeated",
+   "glossZh": "规律性；整齐",
+   "domain": "academic",
+   "family": null,
+   "etymology": "regular + -ity < 拉丁 regularis < regula（尺、规则）",
+   "derivation": [
+    "regular（规则的）+ ity（名词后缀）→ regularity"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "regular",
+    "regularize"
+   ],
+   "example": "The regularity of the pulses suggests a clock fault.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "regularize",
+   "parts": [
+    "regular",
+    "ize"
+   ],
+   "pos": "v",
+   "glossEn": "make regular or standard",
+   "glossZh": "规范化；使规律",
+   "domain": "academic",
+   "family": "fam-fer",
+   "etymology": "regular + -ize，17 世纪",
+   "derivation": [
+    "regular（规则的）+ ize（使……化）→ regularize"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "regular",
+    "regularity"
+   ],
+   "example": "They agreed to regularize the naming of every module.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "relate",
+   "parts": [
+    "re",
+    "late"
+   ],
+   "pos": "v",
+   "glossEn": "show or feel a connection",
+   "glossZh": "联系；讲述",
+   "domain": "academic",
+   "family": null,
+   "etymology": "拉丁 referre 的分词 relatus（带回、报告）> relatio",
+   "derivation": [
+    "re（回）+ late（携带，ferre 的分词词干 lat-）→ relate 把两边带回来对上"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "relation",
+    "relative"
+   ],
+   "example": "The report relates the crack to a bad weld.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "reliability",
+   "parts": [
+    "rely",
+    "abil",
+    "ity"
+   ],
+   "pos": "n",
+   "glossEn": "quality of being able to be trusted",
+   "glossZh": "可靠性",
+   "domain": "technical",
+   "family": "fam-port",
+   "etymology": "rely + -ability，-able 在派生中作 -abil-",
+   "derivation": [
+    "rely（依靠）+ abil（-able 的变体）+ ity（名词后缀）→ reliability；y→i 拼写变化"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "reliable",
+    "reliance"
+   ],
+   "example": "Battery reliability decides the maintenance interval.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "reliable",
+   "parts": [
+    "rely",
+    "able"
+   ],
+   "pos": "adj",
+   "glossEn": "able to be trusted",
+   "glossZh": "可靠的",
+   "domain": "general",
+   "family": "fam-port",
+   "etymology": "rely（古法语 relier < 拉丁 religare 绑紧）+ -able",
+   "derivation": [
+    "rely（依靠）+ able（能够被……的）→ reliable；y→i 拼写变化"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "reliability",
+    "reliance"
+   ],
+   "example": "A cheap but reliable sensor beats a fragile one.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "reliance",
+   "parts": [
+    "rely",
+    "ance"
+   ],
+   "pos": "n",
+   "glossEn": "dependence on someone or something",
+   "glossZh": "依赖；依靠",
+   "domain": "academic",
+   "family": null,
+   "etymology": "rely + -ance，17 世纪",
+   "derivation": [
+    "rely（依靠）+ ance（名词后缀）→ reliance；y→i 拼写变化"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "rely",
+    "reliable"
+   ],
+   "example": "Heavy reliance on one supplier caused the delay.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "replaceable",
+   "parts": [
+    "replace",
+    "able"
+   ],
+   "pos": "adj",
+   "glossEn": "able to be swapped for another",
+   "glossZh": "可替换的",
+   "domain": "technical",
+   "family": "fam-port",
+   "etymology": "replace（re- + place）+ -able",
+   "derivation": [
+    "replace（替换）+ able（能够被……的）→ replaceable"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "replace",
+    "replacement"
+   ],
+   "example": "Every wear part is replaceable in under an hour.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "replacement",
+   "parts": [
+    "replace",
+    "ment"
+   ],
+   "pos": "n",
+   "glossEn": "thing that takes the place of another",
+   "glossZh": "替换；替代品",
+   "domain": "general",
+   "family": null,
+   "etymology": "replace + -ment，18 世纪",
+   "derivation": [
+    "replace（替换）+ ment（名词后缀）→ replacement"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "replace",
+    "replaceable"
+   ],
+   "example": "The replacement arrived with the wrong connector.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "republican",
+   "parts": [
+    "re",
+    "public",
+    "an"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to a state without a monarch",
+   "glossZh": "共和的",
+   "domain": "general",
+   "family": "fam-spect",
+   "etymology": "拉丁 res publica（公共事务）> republicanus",
+   "derivation": [
+    "re（事物，res）+ public（公众的，publicus）+ an（属于……的）→ republican"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "republic",
+    "public"
+   ],
+   "example": "The city kept its republican charter for centuries.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "resist",
+   "parts": [
+    "re",
+    "sist"
+   ],
+   "pos": "v",
+   "glossEn": "oppose or withstand something",
+   "glossZh": "抵抗；抗拒",
+   "domain": "general",
+   "family": null,
+   "etymology": "拉丁 resistere < re-（反）+ sistere（站住）",
+   "derivation": [
+    "re（反）+ sist（站立、停住）→ resist 站着顶回去"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "resistance",
+    "resistant"
+   ],
+   "example": "The seal resists oil but not hot acid.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "resistance",
+   "parts": [
+    "re",
+    "sist",
+    "ance"
+   ],
+   "pos": "n",
+   "glossEn": "ability to oppose a force; electrical opposition",
+   "glossZh": "阻力；电阻",
+   "domain": "science",
+   "family": null,
+   "etymology": "拉丁 resistentia < resistere",
+   "derivation": [
+    "re（反）+ sist（站立）+ ance（名词后缀）→ resistance"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "resist",
+    "resistant"
+   ],
+   "example": "Contact resistance rose after the connector corroded.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "resistant",
+   "parts": [
+    "re",
+    "sist",
+    "ant"
+   ],
+   "pos": "adj",
+   "glossEn": "able to withstand something",
+   "glossZh": "抗……的；耐……的",
+   "domain": "technical",
+   "family": null,
+   "etymology": "拉丁 resistens，resistere 的现在分词",
+   "derivation": [
+    "re（反）+ sist（站立）+ ant（形容词后缀）→ resistant"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "resist",
+    "resistance"
+   ],
+   "example": "The alloy is resistant to salt but not to ammonia.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "retroactive",
+   "parts": [
+    "retro",
+    "act",
+    "ive"
+   ],
+   "pos": "adj",
+   "glossEn": "applying to events in the past",
+   "glossZh": "有追溯效力的",
+   "domain": "legal",
+   "family": "fam-form",
+   "etymology": "retro-（向后）+ active < 拉丁 agere（做）",
+   "derivation": [
+    "retro（向后）+ act（做）+ ive（形容词后缀）→ retroactive"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "retrofit",
+    "active"
+   ],
+   "example": "The clause is retroactive to the first of January.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "retrofit",
+   "parts": [
+    "retro",
+    "fit"
+   ],
+   "pos": "v",
+   "glossEn": "add new parts to equipment already in use",
+   "glossZh": "改装；加装",
+   "domain": "technical",
+   "family": null,
+   "etymology": "retro-（向后）+ fit（装配）",
+   "derivation": [
+    "retro（向后）+ fit（装配）→ retrofit 往回装到旧设备上"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "retroactive",
+    "fitting"
+   ],
+   "example": "They will retrofit the old rig with new sensors.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "return",
+   "parts": [
+    "re",
+    "turn"
+   ],
+   "pos": "v",
+   "glossEn": "go back; give something back",
+   "glossZh": "返回；归还",
+   "domain": "general",
+   "family": null,
+   "etymology": "古法语 retorner < re-（回）+ torner（转）",
+   "derivation": [
+    "re（回）+ turn（转）→ return 转回去"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "turn",
+    "returned"
+   ],
+   "example": "Return the probe to its case after use.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "rewrite",
+   "parts": [
+    "re",
+    "write"
+   ],
+   "pos": "v",
+   "glossEn": "write something again in a new form",
+   "glossZh": "重写",
+   "domain": "general",
+   "family": null,
+   "etymology": "re-（再）+ write（古英语 wrītan）",
+   "derivation": [
+    "re（再）+ write（写）→ rewrite"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "write",
+    "rewrote"
+   ],
+   "example": "We had to rewrite the parser after the format change.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "running",
+   "parts": [
+    "run",
+    "ing"
+   ],
+   "pos": "n",
+   "glossEn": "the act of operating or moving fast",
+   "glossZh": "运行；跑步",
+   "domain": "cs",
+   "family": null,
+   "etymology": "run（古英语 rinnan 流动）+ -ing",
+   "derivation": [
+    "run（跑、运转）+ ing（动名词后缀）→ running；n 双写"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "run",
+    "runs"
+   ],
+   "example": "Running the model twice gave the same numbers.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "runs",
+   "parts": [
+    "run",
+    "s"
+   ],
+   "pos": "v",
+   "glossEn": "operates, or moves fast (third person singular)",
+   "glossZh": "运行（第三人称单数）",
+   "domain": "cs",
+   "family": null,
+   "etymology": "run 的第三人称单数形式",
+   "derivation": [
+    "run（运转）+ s（第三人称单数后缀）→ runs"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "run",
+    "running"
+   ],
+   "example": "The script runs in under two seconds.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "safety",
+   "parts": [
+    "safe",
+    "ty"
+   ],
+   "pos": "n",
+   "glossEn": "state of being free from danger",
+   "glossZh": "安全",
+   "domain": "general",
+   "family": null,
+   "etymology": "古法语 sauveté < 拉丁 salvus（完好）",
+   "derivation": [
+    "safe（安全的）+ ty（名词后缀，-ity 的缩短形式）→ safety"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "safe",
+    "safely"
+   ],
+   "example": "Safety checks run before every motor test.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "satellite",
+   "parts": [
+    "satell",
+    "ite"
+   ],
+   "pos": "n",
+   "glossEn": "object that orbits a planet; a dependent state",
+   "glossZh": "卫星",
+   "domain": "science",
+   "family": null,
+   "etymology": "拉丁 satelles / satellitis（随从、卫兵）",
+   "derivation": [
+    "satell（随从）+ ite（名词后缀）→ satellite 随从 → 卫星"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "satellite dish",
+    "orbiter"
+   ],
+   "example": "The satellite downlinks the map twice a day.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "scientific",
+   "parts": [
+    "sci",
+    "ent",
+    "ific"
+   ],
+   "pos": "adj",
+   "glossEn": "based on systematic observation and experiment",
+   "glossZh": "科学的",
+   "domain": "academic",
+   "family": "fam-sci",
+   "etymology": "晚期拉丁 scientificus < scientia（知识）+ facere（做）",
+   "derivation": [
+    "sci（知道）+ ent（现在分词后缀，-ens） + ific（造成……的）→ scientific"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "science",
+    "scientist"
+   ],
+   "example": "There is no scientific support for that claim.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "secede",
+   "parts": [
+    "se",
+    "cede"
+   ],
+   "pos": "v",
+   "glossEn": "withdraw formally from a group or state",
+   "glossZh": "退出；脱离",
+   "domain": "general",
+   "family": "fam-prefix",
+   "etymology": "拉丁 secedere < se-（分开）+ cedere（走）",
+   "derivation": [
+    "se（分开）+ cede（走，cedere）→ secede 走开 → 脱离"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "secession",
+    "cede"
+   ],
+   "example": "Two labs voted to secede from the consortium.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "seclude",
+   "parts": [
+    "se",
+    "clude"
+   ],
+   "pos": "v",
+   "glossEn": "keep apart from other people",
+   "glossZh": "使隔离；使隐退",
+   "domain": "general",
+   "family": "fam-prefix",
+   "etymology": "拉丁 secludere < se-（分开）+ claudere（关）",
+   "derivation": [
+    "se（分开）+ clude（关，claudere）→ seclude 关到一边"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "seclusion",
+    "occlude"
+   ],
+   "example": "They seclude the reference unit from all vibration.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "semicircle",
+   "parts": [
+    "semi",
+    "circle"
+   ],
+   "pos": "n",
+   "glossEn": "half of a circle",
+   "glossZh": "半圆",
+   "domain": "technical",
+   "family": null,
+   "etymology": "semi-（一半）+ circle < 拉丁 circulus",
+   "derivation": [
+    "semi（一半）+ circle（圆）→ semicircle"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "circle",
+    "semicircular"
+   ],
+   "example": "The benches form a semicircle around the model.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "semifinal",
+   "parts": [
+    "semi",
+    "final"
+   ],
+   "pos": "n",
+   "glossEn": "match that decides who reaches the final",
+   "glossZh": "半决赛",
+   "domain": "general",
+   "family": null,
+   "etymology": "semi-（一半）+ final < 拉丁 finalis < finis（终点）",
+   "derivation": [
+    "semi（一半）+ final（决赛）→ semifinal"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "final",
+    "semifinalist"
+   ],
+   "example": "Their robot lost the semifinal by two points.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "sensitive",
+   "parts": [
+    "sens",
+    "itive"
+   ],
+   "pos": "adj",
+   "glossEn": "quick to detect or react to small changes",
+   "glossZh": "敏感的；灵敏的",
+   "domain": "technical",
+   "family": null,
+   "etymology": "拉丁 sensitivus < sentire（感觉）",
+   "derivation": [
+    "sens（感觉）+ itive（形容词后缀 -itivus）→ sensitive"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "sensor",
+    "sensitivity"
+   ],
+   "example": "The film is sensitive to green light only.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "sensors",
+   "parts": [
+    "sensor",
+    "s"
+   ],
+   "pos": "n",
+   "glossEn": "devices that detect a change (plural)",
+   "glossZh": "传感器（复数）",
+   "domain": "sensor",
+   "family": null,
+   "etymology": "sensor < 拉丁 sentire（感觉）+ -or",
+   "derivation": [
+    "sensor（传感器）+ s（复数后缀）→ sensors"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "sensor",
+    "sensing"
+   ],
+   "example": "Four sensors record the vibration of the frame.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "separator",
+   "parts": [
+    "se",
+    "par",
+    "ator"
+   ],
+   "pos": "n",
+   "glossEn": "device that divides a mixture or stream",
+   "glossZh": "分离器",
+   "domain": "technical",
+   "family": "fam-prefix",
+   "etymology": "拉丁 separare < se-（分开）+ parare（安排、准备）",
+   "derivation": [
+    "se（分开）+ par（安排，parare）+ ator（名词后缀：装置）→ separator",
+    "注意：此处 par 取“安排”义（parare），与 parere“生育”同形异源"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "separate",
+    "separation"
+   ],
+   "example": "The cyclone separator traps dust before the filter.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "signal",
+   "parts": [
+    "sign",
+    "al"
+   ],
+   "pos": "n",
+   "glossEn": "a sign, gesture or transmitted wave",
+   "glossZh": "信号",
+   "domain": "technical",
+   "family": "fam-spect",
+   "etymology": "拉丁 signale < signum（记号）",
+   "derivation": [
+    "sign（记号、标志）+ al（名词/形容词后缀）→ signal"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "sign",
+    "signature"
+   ],
+   "example": "The signal fades when the antenna tilts.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "significant",
+   "parts": [
+    "sign",
+    "ific",
+    "ant"
+   ],
+   "pos": "adj",
+   "glossEn": "large enough to matter; full of meaning",
+   "glossZh": "显著的；有意义的",
+   "domain": "academic",
+   "family": null,
+   "etymology": "拉丁 significans，significare（表示）的现在分词",
+   "derivation": [
+    "sign（记号）+ ific（造成……的）+ ant（形容词后缀）→ significant"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "significance",
+    "signify"
+   ],
+   "example": "The drop in error rate was significant at p under 0.05.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "simplistic",
+   "parts": [
+    "simpl",
+    "istic"
+   ],
+   "pos": "adj",
+   "glossEn": "too simple to be accurate",
+   "glossZh": "过于简化的",
+   "domain": "academic",
+   "family": null,
+   "etymology": "simple（拉丁 simplex）+ -istic",
+   "derivation": [
+    "simpl（简单，simplex）+ istic（形容词后缀）→ simplistic"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "simple",
+    "simplicity"
+   ],
+   "example": "That explanation is simplistic and ignores the weather.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "situate",
+   "parts": [
+    "situ",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "place something in a position or context",
+   "glossZh": "使位于；置于",
+   "domain": "academic",
+   "family": null,
+   "etymology": "中世纪拉丁 situare < situs（位置）",
+   "derivation": [
+    "situ（位置、地点）+ ate（动词后缀）→ situate"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "situation",
+    "situated"
+   ],
+   "example": "The paper situates the method within robotics practice.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "standardize",
+   "parts": [
+    "standard",
+    "ize"
+   ],
+   "pos": "v",
+   "glossEn": "make things conform to one standard",
+   "glossZh": "标准化",
+   "domain": "technical",
+   "family": "fam-fer",
+   "etymology": "standard（古法语 estandart）+ -ize，19 世纪工业语境",
+   "derivation": [
+    "standard（标准）+ ize（使……化）→ standardize"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "standard",
+    "standardization"
+   ],
+   "example": "They standardize the bolt pattern across all units.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "storage",
+   "parts": [
+    "stor",
+    "age"
+   ],
+   "pos": "n",
+   "glossEn": "the keeping of data or goods",
+   "glossZh": "储存；存储",
+   "domain": "cs",
+   "family": "fam-port",
+   "etymology": "store（古法语 estorer < 拉丁 instaurare 建立、储备）+ -age",
+   "derivation": [
+    "stor（储存）+ age（名词后缀）→ storage"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "store",
+    "stored"
+   ],
+   "example": "Storage fills up after about nine hours of video.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "student",
+   "parts": [
+    "stud",
+    "ent"
+   ],
+   "pos": "n",
+   "glossEn": "person who studies at a school",
+   "glossZh": "学生",
+   "domain": "academic",
+   "family": null,
+   "etymology": "拉丁 students，studere（热心、钻研）的现在分词",
+   "derivation": [
+    "stud（研习，studere）+ ent（形容词/名词后缀：具有……性质的人）→ student"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "study",
+    "studious"
+   ],
+   "example": "Each student repeats the measurement three times.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "substandard",
+   "parts": [
+    "sub",
+    "standard"
+   ],
+   "pos": "adj",
+   "glossEn": "below the required quality",
+   "glossZh": "不合格的；低于标准的",
+   "domain": "technical",
+   "family": "fam-fer",
+   "etymology": "sub-（在下面）+ standard（标准）",
+   "derivation": [
+    "sub（在下面）+ standard（标准）→ substandard"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "standard",
+    "subpar"
+   ],
+   "example": "Substandard solder caused two failures this month.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "substantiate",
+   "parts": [
+    "sub",
+    "stant",
+    "iate"
+   ],
+   "pos": "v",
+   "glossEn": "support a claim with evidence",
+   "glossZh": "证实；举出证据",
+   "domain": "academic",
+   "family": "fam-fer",
+   "etymology": "拉丁 substantia（实质）< sub-（在下）+ stare（站）",
+   "derivation": [
+    "sub（在下）+ stant（站立，stare 的分词词干）+ iate（动词后缀）→ substantiate"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "substance",
+    "substantiation"
+   ],
+   "example": "Two independent runs substantiate the reported gain.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "substantiation",
+   "parts": [
+    "sub",
+    "stant",
+    "iation"
+   ],
+   "pos": "n",
+   "glossEn": "evidence that supports a claim",
+   "glossZh": "证实；佐证",
+   "domain": "academic",
+   "family": "fam-fer",
+   "etymology": "中世纪拉丁 substantiatio < substantiare",
+   "derivation": [
+    "sub（在下）+ stant（站立）+ iation（名词后缀）→ substantiation"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "substantiate",
+    "substance"
+   ],
+   "example": "The paper asks for substantiation of every figure.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "superscript",
+   "parts": [
+    "super",
+    "script"
+   ],
+   "pos": "n",
+   "glossEn": "character set above the normal line",
+   "glossZh": "上标",
+   "domain": "technical",
+   "family": null,
+   "etymology": "super-（在上）+ script < 拉丁 scribere（写）",
+   "derivation": [
+    "super（在上）+ script（写）→ superscript"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "subscript",
+    "script"
+   ],
+   "example": "Write the exponent as a superscript in the diagram.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "suprasegmental",
+   "parts": [
+    "supra",
+    "segment",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "above the level of individual speech sounds",
+   "glossZh": "超音段的",
+   "domain": "academic",
+   "family": "fam-spect",
+   "etymology": "supra-（在上）+ segment < 拉丁 segmentum（切段）",
+   "derivation": [
+    "supra（在上）+ segment（音段）+ al（形容词后缀）→ suprasegmental"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "segment",
+    "suprasegmental feature"
+   ],
+   "example": "Stress is a suprasegmental feature of the phrase.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "sympathy",
+   "parts": [
+    "sym",
+    "path",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "shared feeling for another's trouble",
+   "glossZh": "同情",
+   "domain": "general",
+   "family": "fam-path",
+   "etymology": "希腊 sympatheia < syn（共同）+ pathos（感受）",
+   "derivation": [
+    "sym（syn- 在 p 前的同化，共同）+ path（感受）+ y（名词后缀）→ sympathy"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "sympathetic",
+    "pathos"
+   ],
+   "example": "She has little sympathy for careless calibration.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "synchronize",
+   "parts": [
+    "syn",
+    "chron",
+    "ize"
+   ],
+   "pos": "v",
+   "glossEn": "make things happen at the same time",
+   "glossZh": "使同步",
+   "domain": "technical",
+   "family": "fam-chron",
+   "etymology": "希腊 synchronizein < syn（共同）+ khronos（时间）",
+   "derivation": [
+    "syn（共同）+ chron（时间）+ ize（使……化）→ synchronize"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "synchronous",
+    "chronology"
+   ],
+   "example": "Synchronize the two cameras before the first drop.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "teaching",
+   "parts": [
+    "teach",
+    "ing"
+   ],
+   "pos": "n",
+   "glossEn": "the work of instructing others",
+   "glossZh": "教学",
+   "domain": "academic",
+   "family": null,
+   "etymology": "teach（古英语 tǣcan 指示）+ -ing",
+   "derivation": [
+    "teach（教）+ ing（动名词后缀）→ teaching"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "teach",
+    "teacher"
+   ],
+   "example": "Good teaching saves a week of debugging.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "technical",
+   "parts": [
+    "techn",
+    "ical"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to applied skills or machines",
+   "glossZh": "技术的",
+   "domain": "technical",
+   "family": null,
+   "etymology": "希腊 tekhnikos < tekhnē（技艺）",
+   "derivation": [
+    "techn（技艺）+ ical（形容词后缀）→ technical"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "technique",
+    "technology"
+   ],
+   "example": "The technical report lists every torque value.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "technique",
+   "parts": [
+    "techn",
+    "ique"
+   ],
+   "pos": "n",
+   "glossEn": "skilled way of doing something",
+   "glossZh": "技术；技巧",
+   "domain": "technical",
+   "family": null,
+   "etymology": "法语 technique < 希腊 tekhnē（技艺）",
+   "derivation": [
+    "techn（技艺）+ ique（法语名词后缀）→ technique"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "technical",
+    "technician"
+   ],
+   "example": "This welding technique leaves almost no spatter.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "tenant",
+   "parts": [
+    "ten",
+    "ant"
+   ],
+   "pos": "n",
+   "glossEn": "person who rents property",
+   "glossZh": "租户；房客",
+   "domain": "legal",
+   "family": "fam-tend",
+   "etymology": "古法语 tenant，tenir（持有）的现在分词 < 拉丁 tenere",
+   "derivation": [
+    "ten（握持、保持）+ ant（名词后缀：正在……的人）→ tenant 持有房屋的人"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "tenure",
+    "tenement"
+   ],
+   "example": "The tenant reported the broken window on Monday.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "tenuous",
+   "parts": [
+    "tenu",
+    "ous"
+   ],
+   "pos": "adj",
+   "glossEn": "very weak or thin",
+   "glossZh": "薄弱的；细微的",
+   "domain": "academic",
+   "family": null,
+   "etymology": "拉丁 tenuis（细、薄）+ -ous",
+   "derivation": [
+    "tenu（薄、细）+ ous（形容词后缀）→ tenuous"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "tenuity",
+    "attenuate"
+   ],
+   "example": "The link between the two faults is tenuous.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "terminal",
+   "parts": [
+    "termin",
+    "al"
+   ],
+   "pos": "n",
+   "glossEn": "end point; device for entering commands",
+   "glossZh": "终端；终点站",
+   "domain": "cs",
+   "family": "fam-spect",
+   "etymology": "拉丁 terminalis < terminus（界石、终点）",
+   "derivation": [
+    "termin（界限、终点）+ al（形容词/名词后缀）→ terminal"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "terminate",
+    "terminus"
+   ],
+   "example": "The terminal froze while the job was running.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "terminate",
+   "parts": [
+    "termin",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "bring something to an end",
+   "glossZh": "终止；结束",
+   "domain": "general",
+   "family": null,
+   "etymology": "拉丁 terminare < terminus（终点）",
+   "derivation": [
+    "termin（界限、终点）+ ate（动词后缀）→ terminate"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "terminal",
+    "termination"
+   ],
+   "example": "Terminate the run before swapping the probe.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "tomography",
+   "parts": [
+    "tom",
+    "o",
+    "graphy"
+   ],
+   "pos": "n",
+   "glossEn": "imaging by taking cross sections",
+   "glossZh": "断层扫描术",
+   "domain": "medical",
+   "family": "fam-tom",
+   "etymology": "希腊 tomos（切片）+ graphein（写）",
+   "derivation": [
+    "tom（切）+ o（连接元音）+ graphy（记录、成像术）→ tomography"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "tomograph",
+    "tomogram"
+   ],
+   "example": "Computed tomography found the crack inside the blade.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "tractor",
+   "parts": [
+    "tract",
+    "or"
+   ],
+   "pos": "n",
+   "glossEn": "vehicle that pulls heavy loads",
+   "glossZh": "拖拉机；牵引车",
+   "domain": "general",
+   "family": "fam-os",
+   "etymology": "拉丁 trahere / tractus（拉）+ -or",
+   "derivation": [
+    "tract（拉、拖）+ or（施动者）→ tractor"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "traction",
+    "attract"
+   ],
+   "example": "The tractor pulled the trailer off the wet field.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "truly",
+   "parts": [
+    "true",
+    "ly"
+   ],
+   "pos": "adv",
+   "glossEn": "in fact; genuinely",
+   "glossZh": "真正地；确实",
+   "domain": "general",
+   "family": null,
+   "etymology": "true（古英语 trēowe 忠实的）+ -ly",
+   "derivation": [
+    "true（真实的）+ ly（副词后缀）→ truly；去 e 加 -ly"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "true",
+    "truth"
+   ],
+   "example": "The result is truly independent of the operator.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "truth",
+   "parts": [
+    "true",
+    "th"
+   ],
+   "pos": "n",
+   "glossEn": "that which is true",
+   "glossZh": "真理；真相",
+   "domain": "general",
+   "family": null,
+   "etymology": "古英语 trēowþ < trēowe（忠实）+ -þu",
+   "derivation": [
+    "true（真实的）+ th（名词后缀 -th）→ truth；去 e 加 -th"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "true",
+    "truly"
+   ],
+   "example": "The truth came out only after the logs were read.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "underground",
+   "parts": [
+    "under",
+    "ground"
+   ],
+   "pos": "adj",
+   "glossEn": "below the surface of the earth",
+   "glossZh": "地下的",
+   "domain": "general",
+   "family": null,
+   "etymology": "under（古英语 under）+ ground（古英语 grund）",
+   "derivation": [
+    "under（在下）+ ground（地面）→ underground"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "ground",
+    "underwater"
+   ],
+   "example": "The underground vault holds the reference masses.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "underpay",
+   "parts": [
+    "under",
+    "pay"
+   ],
+   "pos": "v",
+   "glossEn": "pay less than is fair or agreed",
+   "glossZh": "少付工资；付酬不足",
+   "domain": "general",
+   "family": null,
+   "etymology": "under-（不足）+ pay（古法语 paier < 拉丁 pacare 平息、偿付）",
+   "derivation": [
+    "under（不足）+ pay（支付）→ underpay"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "pay",
+    "underpaid"
+   ],
+   "example": "The contractor tends to underpay the night crew.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "understanding",
+   "parts": [
+    "understand",
+    "ing"
+   ],
+   "pos": "n",
+   "glossEn": "grasp of a subject or situation",
+   "glossZh": "理解；认识",
+   "domain": "academic",
+   "family": null,
+   "etymology": "understand（古英语 understandan 站在其中）+ -ing",
+   "derivation": [
+    "understand（理解）+ ing（动名词后缀）→ understanding"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "understand",
+    "misunderstanding"
+   ],
+   "example": "A deeper understanding of the drift changed the design.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "unify",
+   "parts": [
+    "uni",
+    "ify"
+   ],
+   "pos": "v",
+   "glossEn": "make separate things into one",
+   "glossZh": "统一；使一致",
+   "domain": "academic",
+   "family": "fam-form",
+   "etymology": "晚期拉丁 unificare < unus（一）+ facere（做）",
+   "derivation": [
+    "uni（单一）+ ify（使成为）→ unify；两个 i 合并为一个"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "union",
+    "unified"
+   ],
+   "example": "They plan to unify the two file formats.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "unilateral",
+   "parts": [
+    "uni",
+    "later",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "done by one side only",
+   "glossZh": "单方面的；单侧的",
+   "domain": "academic",
+   "family": "fam-form",
+   "etymology": "拉丁 unus（一）+ latus / lateris（边）",
+   "derivation": [
+    "uni（单一）+ later（边，latus 的词干 later-）+ al（形容词后缀）→ unilateral",
+    "注意：此处 later 取“边”义（latus, lateris），与 ferre 的分词 lat- 同形异源"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "bilateral",
+    "lateral"
+   ],
+   "example": "A unilateral change of spec broke the interface.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "union",
+   "parts": [
+    "uni",
+    "on"
+   ],
+   "pos": "n",
+   "glossEn": "act of joining; a joined group",
+   "glossZh": "联合；工会",
+   "domain": "general",
+   "family": "fam-form",
+   "etymology": "教会拉丁 unio < 拉丁 unus（一）",
+   "derivation": [
+    "uni（单一）+ on（名词后缀：事物、状态）→ union 合为一体"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "unify",
+    "unison"
+   ],
+   "example": "The union of the two datasets halved the gaps.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "unlimited",
+   "parts": [
+    "un",
+    "limit",
+    "ed"
+   ],
+   "pos": "adj",
+   "glossEn": "having no limit",
+   "glossZh": "无限的；无限制的",
+   "domain": "general",
+   "family": null,
+   "etymology": "un-（不）+ limit（拉丁 limes / limitis 边界）+ -ed",
+   "derivation": [
+    "un（不）+ limit（限制）+ ed（形容词后缀）→ unlimited"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "limit",
+    "limited"
+   ],
+   "example": "The trial account gives unlimited storage for a month.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "unmanageable",
+   "parts": [
+    "un",
+    "manage",
+    "able"
+   ],
+   "pos": "adj",
+   "glossEn": "too hard to control",
+   "glossZh": "难以管理的",
+   "domain": "general",
+   "family": "fam-port",
+   "etymology": "un-（不）+ manage（意大利 maneggiare 驯马）+ -able",
+   "derivation": [
+    "un（不）+ manage（管理）+ able（能够被……的）→ unmanageable"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "manage",
+    "manageable"
+   ],
+   "example": "The cable bundle became unmanageable after the sixth run.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "unreliable",
+   "parts": [
+    "un",
+    "rely",
+    "able"
+   ],
+   "pos": "adj",
+   "glossEn": "not able to be trusted",
+   "glossZh": "不可靠的",
+   "domain": "general",
+   "family": "fam-port",
+   "etymology": "un-（不）+ reliable < rely + -able",
+   "derivation": [
+    "un（不）+ rely（依靠）+ able（能够被……的）→ unreliable；y→i 拼写变化"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "reliable",
+    "reliability"
+   ],
+   "example": "An unreliable clock ruins every later measurement.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "untie",
+   "parts": [
+    "un",
+    "tie"
+   ],
+   "pos": "v",
+   "glossEn": "undo a knot or fastening",
+   "glossZh": "解开；松开",
+   "domain": "general",
+   "family": null,
+   "etymology": "un-（相反动作）+ tie（古英语 tīgan 系）",
+   "derivation": [
+    "un（相反动作）+ tie（系）→ untie"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "tie",
+    "untied"
+   ],
+   "example": "Untie the strap before you lift the case.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "untrue",
+   "parts": [
+    "un",
+    "true"
+   ],
+   "pos": "adj",
+   "glossEn": "not in accordance with fact",
+   "glossZh": "不真实的；不忠的",
+   "domain": "general",
+   "family": null,
+   "etymology": "un-（不）+ true（古英语 trēowe）",
+   "derivation": [
+    "un（不）+ true（真实的）→ untrue"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "true",
+    "truth"
+   ],
+   "example": "The claim is untrue and easy to disprove.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "verify",
+   "parts": [
+    "ver",
+    "ify"
+   ],
+   "pos": "v",
+   "glossEn": "check that something is true",
+   "glossZh": "核实；验证",
+   "domain": "academic",
+   "family": "fam-ver",
+   "etymology": "中世纪拉丁 verificare < verus（真）+ facere（做）",
+   "derivation": [
+    "ver（真）+ ify（使成为）→ verify 使成真 → 核实"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "verification",
+    "veritable"
+   ],
+   "example": "Verify the offset against a known mass.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "vertigo",
+   "parts": [
+    "vert",
+    "igo"
+   ],
+   "pos": "n",
+   "glossEn": "sensation that the world is spinning",
+   "glossZh": "眩晕",
+   "domain": "medical",
+   "family": null,
+   "etymology": "拉丁 vertigo < vertere（转）+ -igo（表状态、疾病）",
+   "derivation": [
+    "vert（转）+ igo（名词后缀：状态、疾病）→ vertigo 天旋地转"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "vertical",
+    "invert"
+   ],
+   "example": "Vertigo kept him off the ladder for two days.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "vociferation",
+   "parts": [
+    "voci",
+    "fer",
+    "ation"
+   ],
+   "pos": "n",
+   "glossEn": "loud and insistent shouting",
+   "glossZh": "喧嚷；叫喊",
+   "domain": "academic",
+   "family": "fam-fer",
+   "etymology": "拉丁 vociferatio < vox / vocis（声音）+ ferre（带来）",
+   "derivation": [
+    "voci（声音）+ fer（带来）+ ation（名词后缀）→ vociferation 把声音送出去"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "vociferous",
+    "voice"
+   ],
+   "example": "The vociferation outside drowned out the alarm.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "volatile",
+   "parts": [
+    "volat",
+    "ile"
+   ],
+   "pos": "adj",
+   "glossEn": "evaporating easily; changing quickly",
+   "glossZh": "易挥发的；易变的",
+   "domain": "science",
+   "family": "fam-fer",
+   "etymology": "拉丁 volatilis < volare（飞）",
+   "derivation": [
+    "volat（飞，volare 的分词词干）+ ile（形容词后缀：易于……的）→ volatile 容易飞走的"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "volley",
+    "volatility"
+   ],
+   "example": "The solvent is volatile, so seal the jar.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "voxelized",
+   "parts": [
+    "voxel",
+    "ized"
+   ],
+   "pos": "adj",
+   "glossEn": "converted into three-dimensional pixels",
+   "glossZh": "体素化的",
+   "domain": "cs",
+   "family": null,
+   "etymology": "voxel（volume + pixel 的混成词）+ -ized",
+   "derivation": [
+    "voxel（体素）+ ized（形容词后缀）→ voxelized"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "voxel",
+    "voxels"
+   ],
+   "example": "The scan was voxelized at one millimetre resolution.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "voxels",
+   "parts": [
+    "voxel",
+    "s"
+   ],
+   "pos": "n",
+   "glossEn": "three-dimensional image units (plural)",
+   "glossZh": "体素（复数）",
+   "domain": "cs",
+   "family": null,
+   "etymology": "voxel 的复数；voxel 为 volume + pixel 的混成词",
+   "derivation": [
+    "voxel（体素）+ s（复数后缀）→ voxels"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "voxel",
+    "voxelized"
+   ],
+   "example": "Empty voxels are dropped before the mesh is built.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "walked",
+   "parts": [
+    "walk",
+    "ed"
+   ],
+   "pos": "v",
+   "glossEn": "moved on foot (past tense)",
+   "glossZh": "走过（过去式）",
+   "domain": "general",
+   "family": null,
+   "etymology": "walk（古英语 wealcan 滚动、翻动）+ -ed",
+   "derivation": [
+    "walk（走）+ ed（过去式后缀）→ walked"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "walk",
+    "walking"
+   ],
+   "example": "She walked the whole perimeter before the survey.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "wholesome",
+   "parts": [
+    "whole",
+    "some"
+   ],
+   "pos": "adj",
+   "glossEn": "good for health or morals",
+   "glossZh": "有益健康的",
+   "domain": "general",
+   "family": null,
+   "etymology": "whole（古英语 hāl 完整、健康）+ -some，12 世纪",
+   "derivation": [
+    "whole（完整、健康）+ some（形容词后缀：具有……性质的）→ wholesome"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "whole",
+    "wholly"
+   ],
+   "example": "The canteen serves wholesome food at low cost.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "wholly",
+   "parts": [
+    "whole",
+    "ly"
+   ],
+   "pos": "adv",
+   "glossEn": "completely",
+   "glossZh": "完全地",
+   "domain": "general",
+   "family": null,
+   "etymology": "whole + -ly，中古英语 holliche",
+   "derivation": [
+    "whole（完整的）+ ly（副词后缀）→ wholly；去 e 加 -ly"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "whole",
+    "wholesome"
+   ],
+   "example": "The failure was wholly due to a loose ground.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  },
+  {
+   "w": "wireless",
+   "parts": [
+    "wire",
+    "less"
+   ],
+   "pos": "adj",
+   "glossEn": "using radio instead of cables",
+   "glossZh": "无线的",
+   "domain": "technical",
+   "family": null,
+   "etymology": "wire（古英语 wīr）+ -less，20 世纪初指无线电",
+   "derivation": [
+    "wire（导线）+ less（没有……的）→ wireless"
+   ],
+   "semanticShift": "",
+   "cognates": [
+    "wire",
+    "wired"
+   ],
+   "example": "The wireless link drops whenever the door closes.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "词源与拼写核对"
+    }
+   ]
+  }
+ ]
+}

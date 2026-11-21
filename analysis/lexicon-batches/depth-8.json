@@ -1,0 +1,541 @@
+{
+ "note": "depth pass 8: L4 例词补充",
+ "targets": [
+  {
+   "id": "cx-lex-leg",
+   "words": [
+    "lexicon",
+    "lexical"
+   ]
+  },
+  {
+   "id": "cx-matr",
+   "words": [
+    "maternal",
+    "matriarch"
+   ]
+  },
+  {
+   "id": "cx-nec-noc",
+   "words": [
+    "noxious",
+    "obnoxious"
+   ]
+  },
+  {
+   "id": "cx-oid",
+   "words": [
+    "asteroid",
+    "android"
+   ]
+  },
+  {
+   "id": "cx-psych",
+   "words": [
+    "psychic",
+    "psyche"
+   ]
+  },
+  {
+   "id": "cx-son",
+   "words": [
+    "sonic",
+    "resonance"
+   ]
+  },
+  {
+   "id": "cx-tempor",
+   "words": [
+    "temporary",
+    "contemporary"
+   ]
+  },
+  {
+   "id": "px-inter",
+   "words": [
+    "intervene",
+    "intercom"
+   ]
+  },
+  {
+   "id": "rx-cred",
+   "words": [
+    "credence",
+    "credo"
+   ]
+  },
+  {
+   "id": "px-hypo",
+   "words": [
+    "hypodermic"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "lexicon",
+   "parts": [
+    "lex",
+    "ic",
+    "on"
+   ],
+   "pos": "n",
+   "glossEn": "the vocabulary of a language or field",
+   "glossZh": "词汇表；词典",
+   "domain": "academic",
+   "etymology": "希腊 lexikon (biblion)「词的书」< lexis「言词」< legein（说）",
+   "derivation": [
+    "lex（词、说）+ -ic- + -on → 词的汇集"
+   ],
+   "example": "The term has entered the general lexicon.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "lexical",
+   "parts": [
+    "lex",
+    "ic",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to words or vocabulary",
+   "glossZh": "词汇的",
+   "domain": "academic",
+   "etymology": "希腊 lexikos < lexis「言词」",
+   "derivation": [
+    "lex（词）+ -ic- + -al → 与词有关的"
+   ],
+   "example": "The study compares lexical richness across texts.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "maternal",
+   "parts": [
+    "matr",
+    "ern",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to a mother",
+   "glossZh": "母亲的；母系的",
+   "domain": "general",
+   "etymology": "拉丁 maternus < mater「母亲」",
+   "derivation": [
+    "matr（母）+ -ern- + -al → 母亲的"
+   ],
+   "example": "She spent the summer at her maternal grandmother's farm.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "matriarch",
+   "parts": [
+    "matr",
+    "i",
+    "arch"
+   ],
+   "pos": "n",
+   "glossEn": "a woman who heads a family or group",
+   "glossZh": "女家长；女族长",
+   "domain": "general",
+   "etymology": "拉丁 mater「母亲」+ 希腊 arkhein「统治」",
+   "derivation": [
+    "matr（母）+ i + arch（统治者）→ 女性家长"
+   ],
+   "example": "The family business is run by its eighty-year-old matriarch.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "noxious",
+   "parts": [
+    "nox",
+    "ious"
+   ],
+   "pos": "adj",
+   "glossEn": "harmful, especially to health",
+   "glossZh": "有害的；有毒的",
+   "domain": "science",
+   "etymology": "拉丁 noxius < noxa「伤害」< nocere（伤害）",
+   "derivation": [
+    "nox（伤害）+ -ious → 有害的"
+   ],
+   "example": "The plant releases noxious fumes when burnt.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "obnoxious",
+   "parts": [
+    "ob",
+    "nox",
+    "ious"
+   ],
+   "pos": "adj",
+   "glossEn": "extremely unpleasant",
+   "glossZh": "令人讨厌的",
+   "domain": "general",
+   "etymology": "拉丁 obnoxiosus < ob-（向）+ noxa（伤害），词义由「易受伤害」转为「惹人厌」",
+   "derivation": [
+    "ob（向）+ nox（伤害）+ -ious → 一碰就伤人 → 讨厌的"
+   ],
+   "example": "His obnoxious jokes emptied the room.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "asteroid",
+   "parts": [
+    "aster",
+    "oid"
+   ],
+   "pos": "n",
+   "glossEn": "a small rocky body orbiting the sun",
+   "glossZh": "小行星",
+   "domain": "science",
+   "etymology": "希腊 astēr「星」+ -oeidēs「像…的」",
+   "derivation": [
+    "aster（星）+ -oid（像…的）→ 像星星的东西"
+   ],
+   "example": "An asteroid passed within a million kilometres of Earth.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "android",
+   "parts": [
+    "andr",
+    "oid"
+   ],
+   "pos": "n",
+   "glossEn": "a robot that looks like a human",
+   "glossZh": "人形机器人",
+   "domain": "technical",
+   "etymology": "希腊 anēr/andros「人、男人」+ -oeidēs「像…的」",
+   "derivation": [
+    "andr（人）+ -oid（像…的）→ 像人的机器"
+   ],
+   "example": "The film's android learns to imitate grief.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "psychic",
+   "parts": [
+    "psych",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to the mind; (n.) a person claiming extrasensory powers",
+   "glossZh": "心灵的；通灵的",
+   "domain": "general",
+   "etymology": "希腊 psykhē「灵魂、心智」+ -ic",
+   "derivation": [
+    "psych（心智）+ -ic → 心智的"
+   ],
+   "example": "The trauma left a deep psychic wound.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "psyche",
+   "parts": [
+    "psych",
+    "e"
+   ],
+   "pos": "n",
+   "glossEn": "the human soul, mind, or spirit",
+   "glossZh": "心灵；精神",
+   "domain": "academic",
+   "etymology": "希腊 psykhē「气息、灵魂」，原为「普绪克」女神名",
+   "derivation": [
+    "psych（心智）+ -e → 心智整体"
+   ],
+   "example": "The story explores the national psyche.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "sonic",
+   "parts": [
+    "son",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to sound or to the speed of sound",
+   "glossZh": "声音的；音速的",
+   "domain": "technical",
+   "etymology": "拉丁 sonus「声音」+ -ic",
+   "derivation": [
+    "son（声）+ -ic → 声音的"
+   ],
+   "example": "The jet broke the sonic barrier over the desert.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "resonance",
+   "parts": [
+    "re",
+    "son",
+    "ance"
+   ],
+   "pos": "n",
+   "glossEn": "a deep, full sound; a reinforcing response",
+   "glossZh": "共鸣；共振",
+   "domain": "science",
+   "etymology": "拉丁 resonantia < re-（回）+ sonare（发声）",
+   "derivation": [
+    "re（回）+ son（声）+ -ance → 声音回来 → 共鸣"
+   ],
+   "example": "The hall gives the cello a warm resonance.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "temporary",
+   "parts": [
+    "tempor",
+    "ary"
+   ],
+   "pos": "adj",
+   "glossEn": "lasting only for a limited time",
+   "glossZh": "暂时的；临时的",
+   "domain": "general",
+   "etymology": "拉丁 temporarius < tempus/temporis「时间」",
+   "derivation": [
+    "tempor（时间）+ -ary → 只在一段时间内的"
+   ],
+   "example": "The bridge is closed for temporary repairs.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "contemporary",
+   "parts": [
+    "con",
+    "tempor",
+    "ary"
+   ],
+   "pos": "adj",
+   "glossEn": "belonging to the same time; modern",
+   "glossZh": "同时代的；当代的",
+   "domain": "general",
+   "etymology": "拉丁 contemporarius < con-（共同）+ tempus（时间）",
+   "derivation": [
+    "con（共同）+ tempor（时间）+ -ary → 同一时代的"
+   ],
+   "example": "The gallery shows contemporary Chinese painting.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "intervene",
+   "parts": [
+    "inter",
+    "ven",
+    "e"
+   ],
+   "pos": "v",
+   "glossEn": "to step in to change what is happening",
+   "glossZh": "干预；介入",
+   "domain": "general",
+   "etymology": "拉丁 intervenire < inter-（之间）+ venire（来）",
+   "derivation": [
+    "inter（之间）+ ven（来）+ -e → 到中间来"
+   ],
+   "example": "The central bank intervened to steady the currency.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "intercom",
+   "parts": [
+    "inter",
+    "com"
+   ],
+   "pos": "n",
+   "glossEn": "an internal communication system",
+   "glossZh": "内部通话系统",
+   "domain": "technical",
+   "etymology": "inter-（之间）+ communication 的缩略",
+   "derivation": [
+    "inter（之间）+ com（共同、通信）→ 内部互通"
+   ],
+   "example": "The guard called the gate on the intercom.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "credence",
+   "parts": [
+    "cred",
+    "ence"
+   ],
+   "pos": "n",
+   "glossEn": "belief that something is true",
+   "glossZh": "相信；可信度",
+   "domain": "general",
+   "etymology": "拉丁 credentia < credere「相信」",
+   "derivation": [
+    "cred（相信）+ -ence → 相信的状态"
+   ],
+   "example": "The theory has gained credence among geologists.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "credo",
+   "parts": [
+    "cred",
+    "o"
+   ],
+   "pos": "n",
+   "glossEn": "a statement of belief",
+   "glossZh": "信条",
+   "domain": "academic",
+   "etymology": "拉丁 credo「我相信」，信经首词",
+   "derivation": [
+    "cred（相信）+ -o（第一人称）→「我相信」"
+   ],
+   "example": "Low taxes form part of his political credo.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "hypodermic",
+   "parts": [
+    "hypo",
+    "derm",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to the layer beneath the skin; (n.) a syringe",
+   "glossZh": "皮下的；皮下注射器",
+   "domain": "medical",
+   "etymology": "希腊 hypo-（在下）+ derma「皮」+ -ic",
+   "derivation": [
+    "hypo（下）+ derm（皮）+ -ic → 皮下的"
+   ],
+   "example": "The nurse prepared a hypodermic injection.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  }
+ ]
+}

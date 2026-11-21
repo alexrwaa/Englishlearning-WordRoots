@@ -1,0 +1,37 @@
+{
+  "morphemeId": "cx-leg",
+  "latin": "lex / legere",
+  "glossEn": "law / to read, gather",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "lex",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 359353,
+      "quote": "lex, it-gis, f. [perh. SaDscr. root lag-, lig-,  to fasten; Lat. ligo, to hind, oblige; cf reli-  gio], a proposition or motion for a law made",
+      "supports": true,
+      "fetchedAt": "2026-11-22"
+    },
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "lego",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 356729,
+      "quote": "2. lego, legi, lectum (^gn, plur. part.  legentum, Ov. Tr. I, 7, 25), 3, v. a. [Gr. Xe-yw,  \\6yor, Ao-ydr, etc - Lat.legumen, di-leg ens,  neg-leg-o, etc • cf. Germ, lesen], to bring to-  gether, to gather , collect. I, L i t. In",
+      "supports": true,
+      "fetchedAt": "2026-11-22"
+    }
+  ],
+  "verdict": "supports",
+  "note": "cx-leg 现为 rx-lect 的 legacyId（form lect，gloss choose/gather/read）。L&S 同时支持两义：lex, legis \"a law\"（词源 \"perh. Sanscr. root lag-, lig-, to fasten; Lat. ligo\"），lego, legi, lectum \"to bring together, to gather, collect\"。关键点：L&S 把 lex 归到 lag-/lig-「系、缚」根而非 lego「读」，因此词库 note 说 lex（法）与 legere 同形异源，与 L&S 一致。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

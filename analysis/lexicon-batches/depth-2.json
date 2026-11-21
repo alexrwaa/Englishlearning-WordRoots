@@ -1,0 +1,572 @@
+{
+ "note": "depth pass 2: L4 例词补充",
+ "targets": [
+  {
+   "id": "cx-card",
+   "words": [
+    "cardiology",
+    "cardiogram"
+   ]
+  },
+  {
+   "id": "cx-clam",
+   "words": [
+    "clamor",
+    "proclamation"
+   ]
+  },
+  {
+   "id": "cx-crac-crat",
+   "words": [
+    "autocrat",
+    "autocracy"
+   ]
+  },
+  {
+   "id": "cx-culp",
+   "words": [
+    "culpable",
+    "culpability"
+   ]
+  },
+  {
+   "id": "cx-damn-demn",
+   "words": [
+    "damnation",
+    "condemn"
+   ]
+  },
+  {
+   "id": "cx-dic",
+   "words": [
+    "dedicate",
+    "predicate"
+   ]
+  },
+  {
+   "id": "cx-erg-urg",
+   "words": [
+    "energy",
+    "synergy"
+   ]
+  },
+  {
+   "id": "cx-eu",
+   "words": [
+    "eulogy",
+    "euphoria"
+   ]
+  },
+  {
+   "id": "cx-fug",
+   "words": [
+    "fugitive",
+    "refuge"
+   ]
+  },
+  {
+   "id": "cx-fund-fus",
+   "words": [
+    "confuse",
+    "fusion"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "cardiology",
+   "parts": [
+    "card",
+    "i",
+    "o",
+    "logy"
+   ],
+   "pos": "n",
+   "glossEn": "the branch of medicine dealing with the heart",
+   "glossZh": "心脏病学",
+   "domain": "medical",
+   "etymology": "希腊 kardia「心」+ -logia「学问」",
+   "derivation": [
+    "card（心）+ i + o（连接元音）+ logy（学科）→ 研究心的学问"
+   ],
+   "example": "He was referred to cardiology for further tests.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "cardiogram",
+   "parts": [
+    "card",
+    "i",
+    "o",
+    "gram"
+   ],
+   "pos": "n",
+   "glossEn": "a record of the heart's electrical activity",
+   "glossZh": "心动图",
+   "domain": "medical",
+   "etymology": "cardio-「心」+ -gram「记录下来的东西」",
+   "derivation": [
+    "card（心）+ i + o + gram（记录）→ 心的记录图"
+   ],
+   "example": "The cardiogram showed an irregular rhythm.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "clamor",
+   "parts": [
+    "clam",
+    "or"
+   ],
+   "pos": "n",
+   "glossEn": "a loud and confused noise of many voices",
+   "glossZh": "喧嚷；大声的要求",
+   "domain": "general",
+   "etymology": "拉丁 clamor < clamare「呼喊」",
+   "derivation": [
+    "clam（呼喊）+ -or（名词后缀）→ 呼喊声"
+   ],
+   "example": "The clamor for reform grew louder each week.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "proclamation",
+   "parts": [
+    "pro",
+    "clam",
+    "ation"
+   ],
+   "pos": "n",
+   "glossEn": "an official public announcement",
+   "glossZh": "公告；宣言",
+   "domain": "general",
+   "etymology": "拉丁 proclamatio < pro-（向前）+ clamare（呼喊）",
+   "derivation": [
+    "pro（向前）+ clam（呼喊）+ -ation → 向公众喊出的话"
+   ],
+   "example": "The governor issued a proclamation on the holiday.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "autocrat",
+   "parts": [
+    "auto",
+    "crat"
+   ],
+   "pos": "n",
+   "glossEn": "a ruler with absolute power",
+   "glossZh": "独裁者；专制君主",
+   "domain": "general",
+   "etymology": "希腊 autokratēs < autos「自己」+ kratos「统治」",
+   "derivation": [
+    "auto（自己）+ crat（统治）→ 独自统治的人"
+   ],
+   "example": "The founder ran the company like an autocrat.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "autocracy",
+   "parts": [
+    "auto",
+    "crac",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "government by one person with unlimited power",
+   "glossZh": "专制统治；独裁政体",
+   "domain": "general",
+   "etymology": "希腊 autokrateia < autos「自己」+ kratein「统治」",
+   "derivation": [
+    "auto（自己）+ crac（统治）+ -y → 一人统治"
+   ],
+   "example": "The country drifted from autocracy to chaos.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "culpable",
+   "parts": [
+    "culp",
+    "able"
+   ],
+   "pos": "adj",
+   "glossEn": "deserving blame",
+   "glossZh": "应受责备的；有罪的",
+   "domain": "general",
+   "etymology": "拉丁 culpabilis < culpa「过错」",
+   "derivation": [
+    "culp（过错）+ -able（可…的）→ 可归咎的"
+   ],
+   "example": "The report found the manager culpable for the delay.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "culpability",
+   "parts": [
+    "culp",
+    "abil",
+    "ity"
+   ],
+   "pos": "n",
+   "glossEn": "the state of being to blame",
+   "glossZh": "可归咎性；罪责",
+   "domain": "legal",
+   "etymology": "晚期拉丁 culpabilitas < culpa「过错」",
+   "derivation": [
+    "culp（过错）+ -abil- + -ity → 应受责备的性质"
+   ],
+   "example": "The court weighed the culpability of each defendant.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "damnation",
+   "parts": [
+    "damn",
+    "ation"
+   ],
+   "pos": "n",
+   "glossEn": "condemnation to eternal punishment",
+   "glossZh": "诅咒；下地狱",
+   "domain": "general",
+   "etymology": "拉丁 damnatio < damnare「判定有罪、判罚」",
+   "derivation": [
+    "damn（判罪、损害）+ -ation → 被判罚"
+   ],
+   "example": "The preacher thundered about damnation and mercy.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "condemn",
+   "parts": [
+    "con",
+    "demn"
+   ],
+   "pos": "v",
+   "glossEn": "to express strong disapproval of; to sentence",
+   "glossZh": "谴责；判刑",
+   "domain": "general",
+   "etymology": "拉丁 condemnare < con-（加强）+ damnare（判罚）",
+   "derivation": [
+    "con（共同、加强）+ demn（判罚）→ 判定有罪"
+   ],
+   "example": "World leaders condemned the attack on the hospital.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "dedicate",
+   "parts": [
+    "de",
+    "dic",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "to devote something to a purpose or person",
+   "glossZh": "奉献；致力于",
+   "domain": "general",
+   "etymology": "拉丁 dedicare < de-（郑重）+ dicare（宣告）",
+   "derivation": [
+    "de（郑重）+ dic（说、宣告）+ -ate → 郑重宣告归于某人"
+   ],
+   "example": "She dedicated ten years to the study of beetles.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "predicate",
+   "parts": [
+    "pre",
+    "dic",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "to base something on a stated fact; to assert",
+   "glossZh": "断言；使依据于",
+   "domain": "academic",
+   "etymology": "拉丁 praedicare < prae-（在前）+ dicare（宣告）",
+   "derivation": [
+    "pre（在前）+ dic（说）+ -ate → 当众说出 → 断言"
+   ],
+   "example": "The argument is predicated on a false assumption.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "energy",
+   "parts": [
+    "en",
+    "erg",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "the capacity to do work; vigour",
+   "glossZh": "能量；精力",
+   "domain": "general",
+   "etymology": "希腊 energeia < en-（在内）+ ergon（工作）",
+   "derivation": [
+    "en（在内）+ erg（工作）+ -y → 内在的做功能力"
+   ],
+   "example": "The panel converts sunlight into electrical energy.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "synergy",
+   "parts": [
+    "syn",
+    "erg",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "combined action producing more than the parts alone",
+   "glossZh": "协同作用；增效",
+   "domain": "general",
+   "etymology": "希腊 synergia < syn-（共同）+ ergon（工作）",
+   "derivation": [
+    "syn（共同）+ erg（工作）+ -y → 共同做功"
+   ],
+   "example": "The merger promised synergy between the two labs.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "eulogy",
+   "parts": [
+    "eu",
+    "logy"
+   ],
+   "pos": "n",
+   "glossEn": "a speech of high praise, especially for the dead",
+   "glossZh": "悼词；颂词",
+   "domain": "general",
+   "etymology": "希腊 eulogia < eu-（好）+ logos（言辞）",
+   "derivation": [
+    "eu（好）+ logy（言辞）→ 说好话 → 颂词"
+   ],
+   "example": "His eulogy for the old coach moved the whole hall.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "euphoria",
+   "parts": [
+    "eu",
+    "phor",
+    "ia"
+   ],
+   "pos": "n",
+   "glossEn": "a feeling of intense happiness",
+   "glossZh": "欣快；极度兴奋",
+   "domain": "medical",
+   "etymology": "希腊 euphoria < eu-（好）+ pherein（承受）→ 身体舒泰",
+   "derivation": [
+    "eu（好）+ phor（承受）+ -ia（状态）→ 感觉良好"
+   ],
+   "example": "The victory brought a brief euphoria to the whole town.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "fugitive",
+   "parts": [
+    "fug",
+    "it",
+    "ive"
+   ],
+   "pos": "n",
+   "glossEn": "a person who has escaped and is in hiding",
+   "glossZh": "逃亡者；逃犯",
+   "domain": "legal",
+   "etymology": "拉丁 fugitivus < fugere「逃走」",
+   "derivation": [
+    "fug（逃）+ -it- + -ive → 逃跑的人"
+   ],
+   "example": "The fugitive was caught at a border crossing.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "refuge",
+   "parts": [
+    "re",
+    "fug",
+    "e"
+   ],
+   "pos": "n",
+   "glossEn": "a place or state of shelter from danger",
+   "glossZh": "避难所；庇护",
+   "domain": "general",
+   "etymology": "拉丁 refugium < re-（回）+ fugere（逃）",
+   "derivation": [
+    "re（回）+ fug（逃）+ -e → 逃回去的地方"
+   ],
+   "example": "The climbers took refuge in a stone hut.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "confuse",
+   "parts": [
+    "con",
+    "fus",
+    "e"
+   ],
+   "pos": "v",
+   "glossEn": "to mix up in the mind; to make unclear",
+   "glossZh": "使困惑；混淆",
+   "domain": "general",
+   "etymology": "拉丁 confundere < con-（一起）+ fundere（倒、流）",
+   "derivation": [
+    "con（一起）+ fus（倾倒）+ -e → 倒在一起 → 混淆"
+   ],
+   "example": "The two labels are easy to confuse.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "fusion",
+   "parts": [
+    "fus",
+    "ion"
+   ],
+   "pos": "n",
+   "glossEn": "the process of joining two things into one",
+   "glossZh": "融合；聚变",
+   "domain": "science",
+   "etymology": "拉丁 fusio < fundere「倾倒、熔化」",
+   "derivation": [
+    "fus（熔化、倾倒）+ -ion → 熔合"
+   ],
+   "example": "The reactor aims at controlled nuclear fusion.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  }
+ ]
+}

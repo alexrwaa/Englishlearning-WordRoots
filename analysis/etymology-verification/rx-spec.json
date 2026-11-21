@@ -1,0 +1,43 @@
+{
+  "morphemeId": "rx-spec",
+  "claim": "spec < 拉丁 specere「看」；spectare 为其反复形",
+  "records": [
+    {
+      "word": "inspect",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "inspect",
+      "url": "https://en.wiktionary.org/w/index.php?title=inspect&action=raw",
+      "quote": "From Latin inspectum, past participle of inspicio, inspicere 'to look into', from in + specio, specere 'to look at', equivalent to spect.",
+      "etymon": "specere",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "expect",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "expect",
+      "url": "https://en.wiktionary.org/w/index.php?title=expect&action=raw",
+      "quote": "From Latin expectāre, infinitive form of exspectō 'look out for, await, expect', from out + spectō 'look at', of speciō 'see'.",
+      "etymon": "speciō / spectō",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "perspective",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "perspective",
+      "url": "https://en.wiktionary.org/w/index.php?title=perspective&action=raw",
+      "quote": "from perspectus, the past participle of perspicere 'to inspect, look through', itself from per- 'through' + specere 'to look at'",
+      "etymon": "specere",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "三条独立条目均直接给出 specere/speciō；inspect 与 perspective 明写 specere 原形。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

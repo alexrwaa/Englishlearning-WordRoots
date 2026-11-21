@@ -2571,6 +2571,63 @@
   }
  },
  {
+  "w": "anachronism",
+  "parts": [
+   "ana",
+   "chron",
+   "ism"
+  ],
+  "pos": "n",
+  "glossEn": "something placed in the wrong historical period",
+  "glossZh": "时代错误；不合时宜的人或事",
+  "domain": "general",
+  "family": "fam-chron",
+  "etymology": "法语 anachronisme 或新拉丁 anachronismus < 希腊 anakhronismós = ana-（反、错）+ khronos（时间）",
+  "derivation": [
+   "ana（错位）+ chron（时间）+ ism（现象）→ 放错时代的事物 → 时代错误"
+  ],
+  "cognates": [
+   "chronic",
+   "chronology",
+   "anachronistic"
+  ],
+  "example": "A clock in a Shakespeare play would be an anachronism.",
+  "verified": true,
+  "ety": {
+   "historical": "希腊 anakhronismós 由 aná「向上、反着」+ khronízesthai「花费时间」构成，指「把事物放到错误的时间」。17 世纪经法语进入英语。",
+   "synchronic": "ana-（错、反）+ chron（时间）+ -ism（现象、事物）三段仍可识别。",
+   "teaching": "ana（错位）+ chron（时间）+ -ism（现象）→ 放错时代的事物 → 时代错误。",
+   "productive": "ana- 见于 anachronism、anagram、analogy（不同义项）；-ism 高度能产。",
+   "contested": []
+  },
+  "note": "ana- 在这里是「错位」，不是「向上」；词义靠「时间放错」而非「反对时间」。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"anachronism\"（< French anachronisme < Greek anakhronismós）"
+   }
+  ],
+  "partIds": [
+   "cx-ana",
+   "cx-chron",
+   "sx-ism"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "analyses",
   "parts": [
    "ana",
@@ -4783,6 +4840,65 @@
   }
  },
  {
+  "w": "asynchronous",
+  "parts": [
+   "a",
+   "syn",
+   "chron",
+   "ous"
+  ],
+  "pos": "adj",
+  "glossEn": "not happening at the same time; occurring without fixed timing",
+  "glossZh": "异步的；不同时的",
+  "domain": "general",
+  "family": "fam-chron",
+  "etymology": "a-（否定）+ synchronous；synchronous < 希腊 synkhronos = syn-（一起）+ khronos（时间）",
+  "derivation": [
+   "a（不）+ syn（一起）+ chron（时间）+ ous（……的）→ 不同时发生的 → 异步的"
+  ],
+  "cognates": [
+   "synchronous",
+   "synchronize",
+   "chronic"
+  ],
+  "example": "The two processes run asynchronous tasks on separate threads.",
+  "verified": true,
+  "ety": {
+   "historical": "synchronous 由希腊 syn-「一起」+ khronos「时间」构成（17 世纪进入英语）；asynchronous 加否定前缀 a-（希腊 an- 在辅音前的形式），18 世纪起用于「不同时发生的」，20 世纪在电子与通信领域指「异步」。",
+   "synchronic": "a-（不，without）+ syn-（一起）+ chron（时间）+ -ous（……的）四段可识别。",
+   "teaching": "a（不）+ syn（一起）+ chron（时间）+ -ous（……的）→ 不同时发生的 → 异步的。",
+   "productive": "a- 否定前缀能产（atypical、asymmetric、asynchronous）；syn- 亦能产（synchronize、synthesis、sympathy）。",
+   "contested": []
+  },
+  "note": "a- 是希腊否定前缀 px-a（不是拉丁 ad- 的弱化）；ety.historical 中保留 without，便于与 px-a 的 glossEn 对齐解析。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"asynchronous\"（a- + synchronous）；s.v. \"synchronous\"（< Greek synkhronos）"
+   }
+  ],
+  "partIds": [
+   "px-a",
+   "px-syn",
+   "cx-chron",
+   "sx-ous"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "attenuate",
   "parts": [
    "at",
@@ -5271,6 +5387,61 @@
   "partIds": [
    "px-auto",
    "cx-crac-crat"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "autograph",
+  "parts": [
+   "auto",
+   "graph"
+  ],
+  "pos": "n",
+  "glossEn": "a signature, especially of a famous person",
+  "glossZh": "亲笔签名；手稿",
+  "domain": "general",
+  "family": "fam-graph",
+  "etymology": "拉丁 autographum < 希腊 autógraphon「亲笔写的东西」= auto-（自己）+ gráphein（写）",
+  "derivation": [
+   "auto（自己）+ graph（写）→ 本人写的 → 亲笔签名、手稿"
+  ],
+  "cognates": [
+   "autobiography",
+   "graph",
+   "monograph"
+  ],
+  "example": "The author signed copies and added a personal autograph.",
+  "verified": true,
+  "ety": {
+   "historical": "希腊 autógraphon 是 auto-「自己」+ gráphein「写」的中性形容词名词化，指「本人手写的东西」；拉丁 autographum 进入英语后指「亲笔稿、签名」。",
+   "synchronic": "auto-（自己）+ graph（写）透明；auto- 在 automatic、autobiography 中亦能产。",
+   "teaching": "auto（自己）+ graph（写）→ 本人写的 → 亲笔签名、手稿。",
+   "productive": "auto- 高度能产（autobiography、automatic、automobile）；-graph 亦能产。",
+   "contested": []
+  },
+  "note": "与 biography（别人写的一生）对照记忆。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"autograph\"（< Latin autographum < Greek autógraphon）"
+   }
+  ],
+  "partIds": [
+   "px-auto",
+   "cx-graph"
   ],
   "partResolution": "exact",
   "analysis": {
@@ -7161,6 +7332,61 @@
   "note": "保留 verified=true：capt + ain 的切分与 rx-capit 声明的 allomorph capt 一致，词源链（caput→capitaneus→capitaine→captain）无争议。但 -ain 的非能产性必须在教学里限定为封闭词集；另注 capt- 与 capere 来源的 capture/captive 同形异源。"
  },
  {
+  "w": "caption",
+  "parts": [
+   "capt",
+   "ion"
+  ],
+  "pos": "n",
+  "glossEn": "a short text under a picture or table; a subtitle",
+  "glossZh": "（图片、表格的）说明文字；字幕；标题",
+  "domain": "general",
+  "family": "fam-cap",
+  "etymology": "中古英语 capcioun「扣押」< 拉丁 captiō（抓取、扣押）< capere（拿取）",
+  "derivation": [
+   "capt（抓取）+ ion（名词）→ 抓取 → 扣押 → 抓住要点的文字 → 标题、说明文字"
+  ],
+  "cognates": [
+   "capture",
+   "captive",
+   "captivate"
+  ],
+  "example": "Each photograph carries a short caption.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 captiō 由 capere「拿取」的分词词干 capt- + -iō 构成，原指法律上的「扣押、逮捕」。英语 14 世纪借入时仍作「扣押」，18 世纪起转指章节或图片开头「抓住读者眼球的文字」，再固定为说明文字、字幕。",
+   "synchronic": "capt（拿取）+ -ion（名词）仍可识别；同一词干见于 capture、captive、captivate。",
+   "teaching": "capt（抓取）+ -ion（名词）→（法律）扣押 → 抓住要点的文字 → 标题、说明文字。",
+   "productive": "capt- 在 capture / captive / captivate / caption 一组里能产；-ion 是能产后缀。",
+   "contested": []
+  },
+  "note": "本条的重点是义项转移：从「扣押」到「标题/字幕」，不是两个不同的词。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"caption\"（< Latin captiō < capiō）；Lewis & Short, s.v. \"captĭo\""
+   }
+  ],
+  "partIds": [
+   "rx-capt",
+   "sx-ion"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "captive",
   "parts": [
    "capt",
@@ -8756,6 +8982,171 @@
   "family": "fam-chron"
  },
  {
+  "w": "chronicle",
+  "parts": [
+   "chron"
+  ],
+  "pos": "n",
+  "glossEn": "a written account of events in the order they happened",
+  "glossZh": "编年史；按时间顺序的记述",
+  "domain": "general",
+  "family": "fam-chron",
+  "etymology": "中古英语 cronicle < 古法语 cronique < 拉丁 chronica < 希腊 khroniká（按时间排列的事）< khronos（时间）",
+  "derivation": [
+   "chron（时间）→ 按时间编排的记载 → 编年史"
+  ],
+  "cognates": [
+   "chronic",
+   "chronology",
+   "synchronize"
+  ],
+  "example": "The monastery kept a detailed chronicle of local events.",
+  "verified": true,
+  "ety": {
+   "historical": "希腊中性复数 khroniká「按时间编排的记载」经拉丁 chronica、古法语 cronique 进入英语，词尾 -icle 是借入后磨出的词尾。",
+   "synchronic": "现代英语只可分析出 chron-（时间）；-icle 不能与 -acle / -icle「小称、工具」后缀等同，因为该词是整体借入。",
+   "teaching": "chron（时间）→ 按时间编排的记载 → 编年史。词尾 -icle 只作整体记。",
+   "productive": "chron- 能产（chronic、chronology、synchronize、chronicle）；-icle 在此不是能产后缀。",
+   "contested": []
+  },
+  "note": "parts 只列 chron：-icle 不是 sx-acle 的「小称/工具」后缀，挂上去会造成假切分。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"chronicle\"（< Anglo-Norman cronicle < Latin chronica < Greek khroniká）"
+   }
+  ],
+  "partIds": [
+   "cx-chron"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "chronograph",
+  "parts": [
+   "chrono",
+   "graph"
+  ],
+  "pos": "n",
+  "glossEn": "an instrument that records time intervals precisely",
+  "glossZh": "计时器；秒表（可记录时间间隔的仪器）",
+  "domain": "general",
+  "family": "fam-chron",
+  "etymology": "希腊 khronográphos「编年史作者」；现代义由 chrono- + -graph 重新分析，18 世纪指记录时间的仪器",
+  "derivation": [
+   "chrono（时间）+ graph（记录）→ 把时间记下来的仪器 → 计时器"
+  ],
+  "cognates": [
+   "chronology",
+   "chronometer",
+   "telegraph"
+  ],
+  "example": "The pilot started the chronograph at the moment of takeoff.",
+  "verified": true,
+  "ety": {
+   "historical": "希腊 khronográphos 原指「记录时间的人、编年史家」，由 khronos + gráphein「写」构成。18 世纪英语借 chrono- + -graph 造出「记录时间间隔的仪器」这一新义。",
+   "synchronic": "chrono-（时间）+ -graph（书写、记录）透明；-graph 与 -graphy（记录术）、-gram（记录下的东西）成组。",
+   "teaching": "chrono（时间）+ graph（记录）→ 把时间记下来的仪器 → 计时器、秒表。",
+   "productive": "-graph 能产（telegraph、phonograph、paragraph、autograph）；chrono- 亦能产。",
+   "contested": []
+  },
+  "note": "同形词根 graph 在希腊语里是「写」，不是「图」；现代「图表」义是后起的引申。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"chronograph\"（< Greek khronográphos；chrono- + -graph）"
+   }
+  ],
+  "partIds": [
+   "cx-chron",
+   "cx-graph"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "chronological",
+  "parts": [
+   "chrono",
+   "logy",
+   "ical"
+  ],
+  "pos": "adj",
+  "glossEn": "arranged in the order in which events happened",
+  "glossZh": "按时间顺序的；年代学的",
+  "domain": "general",
+  "family": "fam-chron",
+  "etymology": "chronology + -ical；chronology < 新拉丁 chronologia < 希腊 khronología = khronos（时间）+ -logia（研究）",
+  "derivation": [
+   "chrono（时间）+ logy（学科）+ ical（……的）→ 按时间顺序编排的"
+  ],
+  "cognates": [
+   "chronology",
+   "chronic",
+   "synchronize"
+  ],
+  "example": "The report lists the events in chronological order.",
+  "verified": true,
+  "ety": {
+   "historical": "英语 chronology 借自新拉丁 chronologia，源自希腊 khronología；形容词 chronological 由 chronology 去 -y 加 -ical 构成（17 世纪）。",
+   "synchronic": "chrono-（时间）+ -logy（学科）+ -ical（……的）在现代英语中仍透明；教学上可读作「chronology + -ical」。",
+   "teaching": "chrono（时间）+ logy（学科）+ -ical（……的）→ 按时间顺序编排的、年代学的。",
+   "productive": "chrono- 与 -logy 都能产；-ical 是 -ic 的扩展形式（historic / historical、logic / logical）。",
+   "contested": []
+  },
+  "note": "按「chronology + -ical」理解，故 parts 写作 chrono+logy+ical，不强行切成 log+ical。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"chronological\"（chrono- + -logical / chronology + -ical）"
+   }
+  ],
+  "partIds": [
+   "cx-chron",
+   "cx-logy",
+   "sx-ical"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "chronology",
   "parts": [
    "chron",
@@ -8798,6 +9189,61 @@
    "quizSafe": true
   },
   "family": "fam-chron"
+ },
+ {
+  "w": "chronometer",
+  "parts": [
+   "chrono",
+   "meter"
+  ],
+  "pos": "n",
+  "glossEn": "a very accurate clock, especially one used at sea",
+  "glossZh": "精密计时器；航海天文钟",
+  "domain": "general",
+  "family": "fam-chron",
+  "etymology": "chrono- + -meter；可能仿法语 chronomètre；希腊 khronos（时间）+ metron（量度）",
+  "derivation": [
+   "chrono（时间）+ meter（测量）→ 测时的仪器 → 精密计时器"
+  ],
+  "cognates": [
+   "chronometry",
+   "chronograph",
+   "thermometer"
+  ],
+  "example": "The chronometer was checked against a radio time signal.",
+  "verified": true,
+  "ety": {
+   "historical": "18 世纪由 chrono-「时间」+ -meter「测量器」构成（法语 chronomètre 早期指节拍器），专指能在海上精确走时的钟表；希腊语根 khronos + metron。",
+   "synchronic": "chrono-（时间）+ -meter（测量仪器）完全透明，是国际科学术语的常规构词。",
+   "teaching": "chrono（时间）+ meter（测量）→ 测时的仪器 → 精密计时器、航海天文钟。",
+   "productive": "-meter 高度能产（thermometer、barometer、spectrometer）；chrono- 亦能产（chronology、chronograph）。",
+   "contested": []
+  },
+  "note": "-meter 是「测量仪器」，-metry 是「测量术」；注意与 chronometry 区分。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"chronometer\"（chrono- + -meter < Greek khronos + metron）"
+   }
+  ],
+  "partIds": [
+   "cx-chron",
+   "cx-meter"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
  },
  {
   "w": "circle",
@@ -10873,6 +11319,63 @@
   }
  },
  {
+  "w": "conducive",
+  "parts": [
+   "con",
+   "duc",
+   "ive"
+  ],
+  "pos": "adj",
+  "glossEn": "helping to bring about a particular result",
+  "glossZh": "有助于……的；有益于……的",
+  "domain": "general",
+  "family": "fam-duct",
+  "etymology": "conduce + -ive；conduce < 拉丁 condūcere = con-（一起）+ dūcere（引导）",
+  "derivation": [
+   "con（一起）+ duc（引导）+ ive（……的）→ 能把事情引向某结果的 → 有助于……的"
+  ],
+  "cognates": [
+   "conduce",
+   "conduct",
+   "deduce"
+  ],
+  "example": "Quiet surroundings are conducive to concentrated work.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 condūcere 本义「把……引到一起」，在中古英语里作 conduce「导致、有助于」；17 世纪加 -ive 构成 conducive「有助于……的」。",
+   "synchronic": "con-（一起）+ duc（引导）+ -ive（……的）三段可识别，与 conduct、deduction 同族。",
+   "teaching": "con（一起）+ duc（引导）+ -ive（……的）→ 能把事情引向某结果的 → 有助于……的。",
+   "productive": "duc- 能产（conduct、produce、reduce、introduce）；-ive 能产。",
+   "contested": []
+  },
+  "note": "常与 to 连用：conducive to health。不要与 conductive（导电的）混。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"conducive\"（conduce + -ive < Latin condūcere）"
+   }
+  ],
+  "partIds": [
+   "px-con",
+   "rx-duc",
+   "sx-ive"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "conduct",
   "parts": [
    "con",
@@ -11663,6 +12166,61 @@
   }
  },
  {
+  "w": "conscript",
+  "parts": [
+   "con",
+   "script"
+  ],
+  "pos": "n",
+  "glossEn": "a person compulsorily enrolled for military service",
+  "glossZh": "应征入伍者；被征召者",
+  "domain": "general",
+  "family": "fam-scrib",
+  "etymology": "拉丁 cōnscriptus（cōnscrībere 的分词）= con-（一起）+ scrībere（写）",
+  "derivation": [
+   "con（一起）+ script（写）→ 把名字一起写进名册 → 征召；被征召者"
+  ],
+  "cognates": [
+   "conscription",
+   "script",
+   "inscribe"
+  ],
+  "example": "He was conscripted into the army at eighteen.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 cōnscrībere 本义「一起写、登记入册」，cōnscriptus 指「被登记入册的人」；罗马征兵即把名字写入名册，故英语 conscript 指「被征召入伍者」。",
+   "synchronic": "con-（一起）+ script（写）可识别；作名词指人，作动词指征召。",
+   "teaching": "con（一起）+ script（写）→ 把名字一起写进名册 → 征召；被征召者。",
+   "productive": "script- 能产；con- 能产。",
+   "contested": []
+  },
+  "note": "与 describe / inscribe 的「写」义一致，但 conscript 的「征兵」义来自「登记名册」这一制度。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"conscript\"（< Latin cōnscriptus < cōnscrībō）"
+   }
+  ],
+  "partIds": [
+   "px-con",
+   "rx-script"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "consensus",
   "parts": [
    "con",
@@ -12016,6 +12574,61 @@
     "status": "documented",
     "sources": [
      "S1"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "construe",
+  "parts": [
+   "con",
+   "stru"
+  ],
+  "pos": "v",
+  "glossEn": "to interpret the meaning of words or actions",
+  "glossZh": "理解；解释；（语法上）分析",
+  "domain": "general",
+  "family": "fam-struct",
+  "etymology": "中古英语 construen < 拉丁 cōnstruere = con-（一起）+ struere（堆、搭）",
+  "derivation": [
+   "con（一起）+ stru（搭）→ 把词句搭起来 → 理解、解释"
+  ],
+  "cognates": [
+   "construct",
+   "construction",
+   "instruct"
+  ],
+  "example": "The clause can be construed in two different ways.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 cōnstruere 本义「堆在一起、搭建」，用于语言即「把词句搭起来理解」，故英语 construe 指「解释、理解（词句）」。中古英语经古法语/拉丁借入。",
+   "synchronic": "con-（一起）+ stru（搭建，见 structure、construct、instruct）可识别；与 construct 同源，但 construe 走的是「语法解析」义。",
+   "teaching": "con（一起）+ stru（搭）→ 把词句搭起来 → 理解、解释。",
+   "productive": "stru- / struct- 能产（construct、structure、instruct；destroy 同源但拼写已磨平）；con- 能产。",
+   "contested": []
+  },
+  "note": "与 construct 是双重借词（doublet）：construct 走「建造」，construe 走「解析词句」。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"construe\"（< Middle English construen < Latin cōnstruō）"
+   }
+  ],
+  "partIds": [
+   "px-con",
+   "rx-stru"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
     ]
    },
    "quizSafe": true
@@ -14944,6 +15557,63 @@
   }
  },
  {
+  "w": "deception",
+  "parts": [
+   "de",
+   "cept",
+   "ion"
+  ],
+  "pos": "n",
+  "glossEn": "the act of deliberately making someone believe something that is false",
+  "glossZh": "欺骗；欺诈；骗局",
+  "domain": "general",
+  "family": "fam-cap",
+  "etymology": "中古英语 decepcioun < 古法语 decepcion < 拉丁 dēcipere（欺骗）= dē-（离开）+ capere（拿取）",
+  "derivation": [
+   "de（偏离）+ cept（拿取）+ ion（名词）→ 把人引偏、套住 → 欺骗"
+  ],
+  "cognates": [
+   "deceive",
+   "deceptive",
+   "reception"
+  ],
+  "example": "The whole investment scheme was built on deception.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 dēcipere 本义「把猎物引离原路、套住」，由 dē-「离开、向下」+ capere「拿取」构成；过去分词词干 capt- 在复合词中写作 -cept-。中古英语经古法语借入，拼写定为 deception。",
+   "synchronic": "现代英语 de- + -cept- + -ion 三段仍可识别：de- 表「偏离」，cept 是 capere 的分词词干（accept、except、intercept 同族），-ion 造抽象名词。",
+   "teaching": "de（偏离）+ cept（拿取）+ -ion（名词）→ 把人引偏、拿住 → 欺骗。",
+   "productive": "de- 高度能产（deceive、deception、deceptive、devalue）；-cept- 只出现在 accept / except / intercept / reception 这一封闭的拉丁借词集里，不能自由造新词。",
+   "contested": []
+  },
+  "note": "切分 de+cept+ion：cept 是 capere 的分词词干，与 capture / captive 的 capt- 同源异形；不要与 caput「头」（capital、captain）混。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"deception\"（< Old French decepcion < Latin dēcipere）；Lewis & Short, s.v. \"dēcipiō\""
+   }
+  ],
+  "partIds": [
+   "px-de",
+   "rx-cept",
+   "sx-ion"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "decide",
   "parts": [
    "de",
@@ -16573,6 +17243,61 @@
   }
  },
  {
+  "w": "despise",
+  "parts": [
+   "de",
+   "spis"
+  ],
+  "pos": "v",
+  "glossEn": "to feel contempt for someone or something",
+  "glossZh": "鄙视；蔑视",
+  "domain": "general",
+  "family": "fam-spect",
+  "etymology": "中古英语 despisen < 古法语 despire（词干 despis-）< 拉丁 dēspicere = dē-（向下）+ specere（看）",
+  "derivation": [
+   "de（向下）+ spis（看）→ 从上往下看 → 轻视、鄙视"
+  ],
+  "cognates": [
+   "despicable",
+   "spectacle",
+   "inspect"
+  ],
+  "example": "She came to despise the corruption around her.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 dēspicere 本义「从上面往下看」，由 dē-「向下」+ specere「看」构成；古法语 despire 的词干 despis- 进入英语，拼写固定为 despise。",
+   "synchronic": "de-（向下）+ spis-（specere 在古法语词干里的拼写变体，见 despicable）可识别；spis 只出现在 despise / despicable 等少数词里。",
+   "teaching": "de（向下）+ spis（看）→ 从上往下看 → 轻视、鄙视。",
+   "productive": "de- 能产；spec- / spic- / spis- 属封闭的拉丁借词集（despise、despicable、conspicuous）。",
+   "contested": []
+  },
+  "note": "parts 用 de+spis：spis 是 spec- 在古法语词干里的拼写变体，已加入 rx-spec 的 allomorphs；不要按 de+spise 切。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"despise\"（< Old French despis- < Latin dēspiciō）"
+   }
+  ],
+  "partIds": [
+   "px-de",
+   "rx-spec"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "destruct",
   "parts": [
    "de",
@@ -17099,6 +17824,63 @@
     "sources": [
      "S1",
      "G1"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "diachronic",
+  "parts": [
+   "dia",
+   "chron",
+   "ic"
+  ],
+  "pos": "adj",
+  "glossEn": "studying how something changes over time",
+  "glossZh": "历时的（跨时间演变的）",
+  "domain": "general",
+  "family": "fam-chron",
+  "etymology": "dia-（穿过）+ chron-（时间）+ -ic；19 世纪语言学用以指「跨时间演变的」",
+  "derivation": [
+   "dia（穿过）+ chron（时间）+ ic（……的）→ 沿时间轴看变化的 → 历时的"
+  ],
+  "cognates": [
+   "synchronic",
+   "chronicle",
+   "chronology"
+  ],
+  "example": "A diachronic study traces how the word's meaning changed over centuries.",
+  "verified": true,
+  "ety": {
+   "historical": "由希腊 dia-「穿过」+ khronos「时间」+ -ic 构成，19 世纪出现，20 世纪成为语言学标准术语，与 synchronic 相对。",
+   "synchronic": "dia（穿过）+ chron（时间）+ -ic（……的）三段透明。",
+   "teaching": "dia（穿过）+ chron（时间）+ -ic（……的）→ 沿时间轴看变化的 → 历时的。",
+   "productive": "dia- 能产（diagram、diameter、diagnosis）；-ic 能产。",
+   "contested": []
+  },
+  "note": "与 synchronic 成对记忆：一个切时间点，一个沿时间轴。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"diachronic\"（dia- + chron- + -ic）"
+   }
+  ],
+  "partIds": [
+   "cx-dia",
+   "cx-chron",
+   "sx-ic"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
     ]
    },
    "quizSafe": true
@@ -21140,6 +21922,63 @@
   "partIds": [
    "cx-eu",
    "cx-logy"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "euphony",
+  "parts": [
+   "eu",
+   "phon",
+   "y"
+  ],
+  "pos": "n",
+  "glossEn": "a pleasant, harmonious sound",
+  "glossZh": "悦耳的声音；谐音",
+  "domain": "general",
+  "family": "fam-phon",
+  "etymology": "法语 euphonie < 希腊 euphōnía = eu-（好）+ phōnē（声音）+ -ia（名词）",
+  "derivation": [
+   "eu（好）+ phon（声音）+ y（名词）→ 好听的声音 → 悦耳、谐音"
+  ],
+  "cognates": [
+   "euphemism",
+   "eulogy",
+   "phoneme"
+  ],
+  "example": "The poet chose the longer word for its euphony.",
+  "verified": true,
+  "ety": {
+   "historical": "希腊 euphōnía 由 eu-「好」+ phōnē「声音」构成，指「好听的声音、谐音」；经法语进入英语。",
+   "synchronic": "eu-（好）+ phon（声音）+ -y（名词）可识别；eu- 在 eulogy、euphemism 中亦见。",
+   "teaching": "eu（好）+ phon（声音）+ -y（名词）→ 好听的声音 → 悦耳、谐音。",
+   "productive": "eu- 能产（eulogy、euphemism、euphoria）；phon- 能产。",
+   "contested": []
+  },
+  "note": "eu- 是希腊「好」，不是「欧洲」；注意与 Europe 的 Euro- 区分。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"euphony\"（< French euphonie < Greek euphōnía）"
+   }
+  ],
+  "partIds": [
+   "cx-eu",
+   "cx-phon",
+   "cx-y"
   ],
   "partResolution": "exact",
   "analysis": {
@@ -37666,6 +38505,61 @@
   }
  },
  {
+  "w": "message",
+  "parts": [
+   "miss",
+   "age"
+  ],
+  "pos": "n",
+  "glossEn": "a piece of information sent to someone",
+  "glossZh": "消息；信息；要旨",
+  "domain": "general",
+  "family": "fam-mit",
+  "etymology": "中古英语 message < 古法语 message < 通俗拉丁 missāticum < missus（mittere 的分词「被送出的」）",
+  "derivation": [
+   "miss（送出）+ age（名词）→ 被送出的东西 → 消息"
+  ],
+  "cognates": [
+   "mission",
+   "missile",
+   "messenger"
+  ],
+  "example": "She left a message on his voicemail.",
+  "verified": true,
+  "ety": {
+   "historical": "通俗拉丁 missāticum 由 mittere「送」的分词 missus 派生，指「被送出的东西」；经古法语 message 进入英语，词义从「派遣」转为「口信、信息」。",
+   "synchronic": "miss（送，mittere 的分词词干）+ -age（名词，表集合/事物）可识别；同干见 mission、missile、message。",
+   "teaching": "miss（送出）+ -age（名词）→ 被送出的东西 → 消息。",
+   "productive": "miss- 能产（mission、missile、admission）；-age 能产（package、passage、message）。",
+   "contested": []
+  },
+  "note": "-age 在这里指「被送出之物」，不是「行为/费用」；不要按「message = mess + age」讲。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"message\"（< Old French message < Latin missāticum < mittō）"
+   }
+  ],
+  "partIds": [
+   "rx-miss",
+   "sx-age"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "metabolism",
   "parts": [
    "meta",
@@ -39018,6 +39912,61 @@
    "px-mono",
    "cx-gam",
    "cx-y"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "monograph",
+  "parts": [
+   "mono",
+   "graph"
+  ],
+  "pos": "n",
+  "glossEn": "a scholarly book or long article on a single subject",
+  "glossZh": "专著；专题论文",
+  "domain": "academic",
+  "family": "fam-graph",
+  "etymology": "mono-（单一）+ -graph（写）；19 世纪学术用语",
+  "derivation": [
+   "mono（单一）+ graph（写）→ 只写一个题目的书 → 专著"
+  ],
+  "cognates": [
+   "monologue",
+   "polygraph",
+   "graph"
+  ],
+  "example": "She published a monograph on the dialect of the island.",
+  "verified": true,
+  "ety": {
+   "historical": "19 世纪按 mono-「单一」+ -graph「写」构成，指「专门写一个题目的一本书」，与覆盖多题的 treatise 相对。",
+   "synchronic": "mono-（单一）+ graph（写）透明。",
+   "teaching": "mono（单一）+ graph（写）→ 只写一个题目的书 → 专著。",
+   "productive": "mono- 能产（monologue、monopoly、monolingual）；-graph 能产。",
+   "contested": []
+  },
+  "note": "与 polygraph（多写/多道记录）在构词上成对，但现代义分属学术与刑侦两个领域。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"monograph\"（mono- + -graph）"
+   }
+  ],
+  "partIds": [
+   "px-mono",
+   "cx-graph"
   ],
   "partResolution": "exact",
   "analysis": {
@@ -42196,6 +43145,61 @@
   "verified": false
  },
  {
+  "w": "occupy",
+  "parts": [
+   "oc",
+   "cup"
+  ],
+  "pos": "v",
+  "glossEn": "to fill or use a place, space, or period of time",
+  "glossZh": "占据；占用；使忙碌",
+  "domain": "general",
+  "family": "fam-cap",
+  "etymology": "中古英语 occupien < 古法语 occuper < 拉丁 occupāre = ob-（对着、压上）+ capere（拿取）",
+  "derivation": [
+   "oc（=ob-，对着/压上）+ cup（拿取）→ 压上去拿住 → 占据、占用"
+  ],
+  "cognates": [
+   "occupant",
+   "occupation",
+   "recoup"
+  ],
+  "example": "The company occupies three floors of the building.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 occupāre 由 ob-「对着、压上」+ capere「拿取」构成，本义「占住、抓住」，引申为「占用地方、时间」。英语经古法语 occuper 借入，词尾 -y 来自法语不定式 -er，不是英语后缀。",
+   "synchronic": "现代拼写可识别 oc-（ob- 在 c 前的同化形式）+ cup-（capere 的弱化变体，与 captive / capture 的 capt- 同源）。词尾 -y 只是借入时保留下来的法语动词词尾。",
+   "teaching": "oc（=ob-，对着/压上）+ cup（拿取）→ 压上去拿住 → 占据、占用。词尾 y 不切分。",
+   "productive": "ob- 的同化形式 oc- / of- / op- 见于 occupy、occur、offer、oppose；cup- 只出现在 occupy 及其派生词、recoup 等少数词里，属封闭集合。",
+   "contested": []
+  },
+  "note": "切分 oc+cup：oc- 是 px-ob 的拼写变体（forms.json 已收），词尾 -y 为法语不定式词尾，不映射为后缀。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"occupy\"（< Old French occuper < Latin occupāre < ob- + capiō）；Lewis & Short, s.v. \"occŭpo\""
+   }
+  ],
+  "partIds": [
+   "px-ob",
+   "rx-cap"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "occur",
   "parts": [
    "oc",
@@ -42928,6 +43932,65 @@
    "lexical": true,
    "analyzable": true,
    "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "omit",
+  "parts": [
+   "omit"
+  ],
+  "pos": "v",
+  "glossEn": "to leave something out or fail to do it",
+  "glossZh": "省略；遗漏；不做",
+  "domain": "general",
+  "family": "fam-mit",
+  "etymology": "中古英语 omitten < 拉丁 omittere = ob-（对着、放着）+ mittere（送、放）",
+  "derivation": [
+   "o（=ob-，放掉）+ mit（送）→ 放它走 → 省略、遗漏"
+  ],
+  "cognates": [
+   "omission",
+   "submit",
+   "transmit"
+  ],
+  "example": "You may omit question 5 if you are short of time.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 omittere 由 ob-「对着、放着」+ mittere「送、放」构成，本义「放掉、不去管」，引申为「遗漏、不做」。中古英语经法语/拉丁借入作 omitten。",
+   "synchronic": "现代拼写可识别 mit-（送、放，见 submit、transmit、permit），但词首 o- 是 ob- 的弱化形式；o 与希腊连接元音 cx-o 同形，本库无法单独给它一个不冲突的 ID，故整词记录。",
+   "teaching": "o（=ob-，放掉）+ mit（送）→ 放它走 → 省略、遗漏。词首 o- 不单独切分。",
+   "productive": "mit- / miss- 能产（submit、transmit、permit、mission）；o- 这种弱化形式不能产，只能整词记。",
+   "contested": []
+  },
+  "note": "parts 整词记录：若写 o+mit，\"o\" 会命中希腊连接元音 cx-o，造成同形误挂；mit 的联系保留在 ety.teaching。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"omit\"（< Latin omittō < ob- + mittō）"
+   }
+  ],
+  "partIds": [
+   null
+  ],
+  "partResolution": "unresolved",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "unresolved": [
+    {
+     "part": "omit",
+     "reason": "free-base"
+    }
+   ],
    "etymology": {
     "status": "documented",
     "sources": [
@@ -43828,6 +44891,61 @@
     "sources": [
      "S1",
      "G1"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "paragraph",
+  "parts": [
+   "para",
+   "graph"
+  ],
+  "pos": "n",
+  "glossEn": "a distinct section of a piece of writing",
+  "glossZh": "段落；（报纸的）短讯",
+  "domain": "general",
+  "family": "fam-graph",
+  "etymology": "中古英语 paragraf < 古法语 paragraphe < 拉丁 paragraphus < 希腊 parágraphos = para-（旁边）+ gráphein（写）",
+  "derivation": [
+   "para（旁边）+ graph（写）→ 写在旁边的记号 → 分段 → 段落"
+  ],
+  "cognates": [
+   "graph",
+   "diagram",
+   "paragraphos"
+  ],
+  "example": "The editor cut the last paragraph for length.",
+  "verified": true,
+  "ety": {
+   "historical": "希腊 parágraphos 原指书页边上用来分段的小记号，由 pará「旁边」+ gráphein「写」构成；经拉丁、古法语进入英语，词义从「边上的记号」转为「记号之间的文字段」。",
+   "synchronic": "para-（旁边）+ graph（写）可识别；para- 在英语里还表「辅助、近似」（paramedic、paradox）。",
+   "teaching": "para（旁边）+ graph（写）→ 写在旁边的记号 → 分段 → 段落。",
+   "productive": "para- 与 -graph 都能产；注意 para- 的多义性（旁边 / 辅助 / 防）。",
+   "contested": []
+  },
+  "note": "词义转移：记号 → 由记号划出的段落。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"paragraph\"（< Greek parágraphos，para + graphein）"
+   }
+  ],
+  "partIds": [
+   "cx-para",
+   "cx-graph"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
     ]
    },
    "quizSafe": true
@@ -45005,6 +46123,61 @@
   "verified": false
  },
  {
+  "w": "phoneme",
+  "parts": [
+   "phon",
+   "eme"
+  ],
+  "pos": "n",
+  "glossEn": "the smallest unit of sound that distinguishes meaning in a language",
+  "glossZh": "音位；音素",
+  "domain": "academic",
+  "family": "fam-phon",
+  "etymology": "希腊 phōnēma「声音、话语」< phōnein「发声」< phōnē（声音）",
+  "derivation": [
+   "phon（声音）+ eme（最小单位）→ 最小的区别性语音单位 → 音位"
+  ],
+  "cognates": [
+   "phonetics",
+   "morpheme",
+   "grapheme"
+  ],
+  "example": "The /p/ in \"pin\" and the /b/ in \"bin\" are different phonemes.",
+  "verified": true,
+  "ety": {
+   "historical": "希腊 phōnēma 指「说出的声音」，19 世纪末语言学借入，作为「能区分意义的最小语音单位」的术语；英语按 phon + -eme 分析。",
+   "synchronic": "phon（声音）+ -eme（最小单位）可识别；-eme 还见于 morpheme、grapheme。",
+   "teaching": "phon（声音）+ -eme（最小单位）→ 最小的区别性语音单位 → 音位。",
+   "productive": "-eme 是语言学专用能产后缀（morpheme、grapheme、sememe）；phon- 能产。",
+   "contested": []
+  },
+  "note": "音位是「区别意义的最小语音单位」，不是「音素」的随意同义词。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"phoneme\"（< Greek phōnēma < phōnein）"
+   }
+  ],
+  "partIds": [
+   "cx-phon",
+   "cx-eme"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "phonetics",
   "parts": [
    "phon",
@@ -45038,6 +46211,118 @@
    "cx-phon",
    "sx-etic",
    "sx-s"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "phonics",
+  "parts": [
+   "phon",
+   "ics"
+  ],
+  "pos": "n",
+  "glossEn": "a method of teaching reading by relating letters to sounds",
+  "glossZh": "自然拼读法；语音教学法",
+  "domain": "general",
+  "family": "fam-phon",
+  "etymology": "phon-（声音）+ -ics（学科、方法）；20 世纪指「自然拼读法」",
+  "derivation": [
+   "phon（声音）+ ics（方法）→ 从声音入手的方法 → 自然拼读法"
+  ],
+  "cognates": [
+   "phonetics",
+   "phoneme",
+   "telephone"
+  ],
+  "example": "The school teaches reading through systematic phonics.",
+  "verified": true,
+  "ety": {
+   "historical": "17 世纪 phonics 指「声学、语音学」，由希腊 phōnē「声音」+ -ics 构成；20 世纪起专指通过字母与发音对应关系教读写的方法。",
+   "synchronic": "phon（声音）+ -ics（学科/方法）透明。",
+   "teaching": "phon（声音）+ -ics（方法）→ 从声音入手的方法 → 自然拼读法。",
+   "productive": "-ics 能产（physics、linguistics、phonetics）；phon- 能产。",
+   "contested": []
+  },
+  "note": "与 phonetics（语音学）区分：phonics 是教学法，phonetics 是学科。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"phonics\"（phon + -ics）"
+   }
+  ],
+  "partIds": [
+   "cx-phon",
+   "sx-ics"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "phonograph",
+  "parts": [
+   "phon",
+   "o",
+   "graph"
+  ],
+  "pos": "n",
+  "glossEn": "an early machine that played sound recorded on cylinders or discs",
+  "glossZh": "留声机；唱机",
+  "domain": "general",
+  "family": "fam-phon",
+  "etymology": "phono-（声音）+ -graph（记录）；1877 年爱迪生造词",
+  "derivation": [
+   "phon（声音）+ o（连接元音）+ graph（记录）→ 记录声音的机器 → 留声机"
+  ],
+  "cognates": [
+   "telephone",
+   "phoneme",
+   "graph"
+  ],
+  "example": "The museum still plays wax cylinders on an original phonograph.",
+  "verified": true,
+  "ety": {
+   "historical": "1877 年爱迪生公布留声机，词由 phono-「声音」+ -graph「记录」构成，字面「把声音记下来的东西」；更早 phonograph 指「速记符号」，被新义取代。",
+   "synchronic": "phon（声音）+ o（连接元音）+ graph（记录）透明。",
+   "teaching": "phon（声音）+ o（连接元音）+ graph（记录）→ 记录声音的机器 → 留声机。",
+   "productive": "phon- 与 -graph 都能产（telephone、phoneme、telegraph）。",
+   "contested": []
+  },
+  "note": "连接元音 -o- 只用于希腊复合词，不承载意义。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"phonograph\"（phono- + -graph；1877 年新义）"
+   }
+  ],
+  "partIds": [
+   "cx-phon",
+   "cx-o",
+   "cx-graph"
   ],
   "partResolution": "exact",
   "analysis": {
@@ -46080,6 +47365,61 @@
   "partIds": [
    "cx-poly",
    "cx-gon-gen"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "polygraph",
+  "parts": [
+   "poly",
+   "graph"
+  ],
+  "pos": "n",
+  "glossEn": "a lie-detector that records several physiological signals at once",
+  "glossZh": "测谎仪；多道生理记录仪",
+  "domain": "general",
+  "family": "fam-graph",
+  "etymology": "希腊 polýgraphos「写得多的」= poly-（多）+ gráphein（写）",
+  "derivation": [
+   "poly（多）+ graph（记录）→ 同时记录多项指标 → 测谎仪"
+  ],
+  "cognates": [
+   "polyphony",
+   "polygon",
+   "graph"
+  ],
+  "example": "The suspect agreed to take a polygraph test.",
+  "verified": true,
+  "ety": {
+   "historical": "希腊 polýgraphos 意为「多产的作家、写得多的人」。19 世纪英语用它指「复写器、多道记录仪」；20 世纪起专指同时记录多项生理指标（呼吸、脉搏、皮电）的测谎仪。",
+   "synchronic": "poly-（多）+ graph（写、记录）透明。",
+   "teaching": "poly（多）+ graph（记录）→ 同时记录多项指标 → 测谎仪。",
+   "productive": "poly- 能产（polygon、polyglot、polyphony）；-graph 能产。",
+   "contested": []
+  },
+  "note": "现代「测谎仪」义是 20 世纪的专门化，不是希腊原义。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"polygraph\"（< Greek polýgraphos，poly- + graphein）"
+   }
+  ],
+  "partIds": [
+   "cx-poly",
+   "cx-graph"
   ],
   "partResolution": "exact",
   "analysis": {
@@ -48185,6 +49525,61 @@
     "sources": [
      "S1",
      "G1"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "proscribe",
+  "parts": [
+   "pro",
+   "scrib"
+  ],
+  "pos": "v",
+  "glossEn": "to officially forbid something",
+  "glossZh": "禁止；宣布……为非法；使流放",
+  "domain": "general",
+  "family": "fam-scrib",
+  "etymology": "中古英语 proscriben < 拉丁 prōscrībere = prō-（公开、在前）+ scrībere（写）",
+  "derivation": [
+   "pro（公开）+ scrib（写）→ 把名单公开写出 → 宣布非法 → 禁止"
+  ],
+  "cognates": [
+   "prescribe",
+   "describe",
+   "proscription"
+  ],
+  "example": "The new law proscribes the sale of such devices.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 prōscrībere 本义「公开写出（名单）」，罗马人用来公布被剥夺公民权、放逐者的名单，故引申为「宣布为非法、禁止」。中古英语借入。",
+   "synchronic": "pro-（公开）+ scrib（写）可识别，与 prescribe（预先写）、describe（写下）、inscribe（刻写）同族。",
+   "teaching": "pro（公开）+ scrib（写）→ 把名单公开写出 → 宣布非法 → 禁止。",
+   "productive": "scrib- / script- 能产（describe、prescribe、scripture）；pro- 能产。",
+   "contested": []
+  },
+  "note": "与 prescribe 形近义反：prescribe 是「预先写」→ 开处方/规定，proscribe 是「公开写」→ 禁止。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"proscribe\"（< Latin prōscrībō < prō- + scrībō）"
+   }
+  ],
+  "partIds": [
+   "px-pro",
+   "rx-scrib"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
     ]
    },
    "quizSafe": true
@@ -51437,6 +52832,61 @@
   "verified": false
  },
  {
+  "w": "remit",
+  "parts": [
+   "re",
+   "mit"
+  ],
+  "pos": "v",
+  "glossEn": "to send money; to cancel a debt or punishment",
+  "glossZh": "汇款；免除（债务、处罚）；提交",
+  "domain": "general",
+  "family": "fam-mit",
+  "etymology": "中古英语 remitten < 拉丁 remittere = re-（回）+ mittere（送）",
+  "derivation": [
+   "re（回）+ mit（送）→ 把钱送回去 → 汇款；把责罚送回去 → 免除"
+  ],
+  "cognates": [
+   "remission",
+   "remittance",
+   "submit"
+  ],
+  "example": "Please remit the balance within thirty days.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 remittere 本义「送回去、放回去」，用于钱款即「汇回」，用于责罚即「放回去、免除」。中古英语借入后两义并存。",
+   "synchronic": "re-（回）+ mit（送）透明，与 submit、transmit、admit 同族。",
+   "teaching": "re（回）+ mit（送）→ 把钱送回去 → 汇款；把责罚送回去 → 免除。",
+   "productive": "re- 与 mit- 都高度能产；remit 的名词是 remission / remittance，词干换 miss-。",
+   "contested": []
+  },
+  "note": "多义（汇款 / 免除 / 提交）都可由「送回去」推出。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"remit\"（< Latin remittō < re- + mittō）"
+   }
+  ],
+  "partIds": [
+   "px-re",
+   "rx-mit"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "rendezvous",
   "parts": [
    "rendezvous"
@@ -54472,6 +55922,61 @@
   "family": "fam-scrib"
  },
  {
+  "w": "scripture",
+  "parts": [
+   "script",
+   "ure"
+  ],
+  "pos": "n",
+  "glossEn": "sacred writings, especially the Bible",
+  "glossZh": "经文；圣典；（大写）《圣经》",
+  "domain": "general",
+  "family": "fam-scrib",
+  "etymology": "中古英语 scripture < 拉丁 scrīptūra「书写、文本」< scrīptum（scrībere 的 supine）",
+  "derivation": [
+   "script（写下的东西）+ ure（名词）→ 写下的文本 → 经文、圣典"
+  ],
+  "cognates": [
+   "script",
+   "manuscript",
+   "inscription"
+  ],
+  "example": "The passage is quoted from scripture.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 scrīptūra 由 scrībere「写」的分词词干 scrīpt- + -ūra 构成，泛指「写下的东西」；基督教拉丁语中特指「圣经」，英语沿用。",
+   "synchronic": "script（写下的东西）+ -ure（名词）可识别。",
+   "teaching": "script（写）+ -ure（名词）→ 写下的文本 → 经文、圣典。",
+   "productive": "script- 能产（manuscript、transcript、inscription）；-ure 能产（culture、structure）。",
+   "contested": []
+  },
+  "note": "小写 scripture 可指任何宗教经典，大写 Scripture 常指《圣经》。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"scripture\"（< Latin scrīptūra < scrībō）"
+   }
+  ],
+  "partIds": [
+   "rx-script",
+   "sx-ure"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "scuba",
   "parts": [
    "scuba"
@@ -57057,6 +58562,61 @@
   }
  },
  {
+  "w": "spectrum",
+  "parts": [
+   "spectr",
+   "um"
+  ],
+  "pos": "n",
+  "glossEn": "the range of colours or wavelengths produced by light; a broad range",
+  "glossZh": "光谱；范围；系列",
+  "domain": "general",
+  "family": "fam-spect",
+  "etymology": "拉丁 spectrum「影像、幻象」< specere（看）",
+  "derivation": [
+   "spectr（影像）+ um（拉丁名词词尾）→ 看到的影像 → 光谱 → 范围"
+  ],
+  "cognates": [
+   "spectral",
+   "spectroscopy",
+   "specter"
+  ],
+  "example": "The prism spread the light into a spectrum.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 spectrum 指「出现的影像、鬼魂」，由 specere「看」派生。17 世纪牛顿用 spectrum 指棱镜分出的色带，19 世纪扩展为「波谱、范围」。",
+   "synchronic": "spectr-（影像、光谱）+ -um（拉丁中性名词词尾）可识别；spectr- 还见于 spectral。",
+   "teaching": "spectr（影像）+ -um（名词词尾）→ 看到的影像 → 光谱 → 范围。",
+   "productive": "spectr- 能产（spectral、spectroscopy、spectrometer）；-um 是拉丁借词词尾，不能产。",
+   "contested": []
+  },
+  "note": "现代「范围、系列」义由「连续色带」引申，不是「看」的直接结果。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"spectrum\"（< Latin spectrum < speciō）；Lewis & Short, s.v. \"spectrum\""
+   }
+  ],
+  "partIds": [
+   "rx-spectr",
+   "cx-ium-um"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "speculate",
   "parts": [
    "specul",
@@ -59479,6 +61039,63 @@
   }
  },
  {
+  "w": "susceptible",
+  "parts": [
+   "sus",
+   "cept",
+   "ible"
+  ],
+  "pos": "adj",
+  "glossEn": "easily affected or infected by something",
+  "glossZh": "易受影响的；易感染的；敏感的",
+  "domain": "general",
+  "family": "fam-cap",
+  "etymology": "晚期拉丁 susceptibilis < susceptus（suscipere 的分词）= sub-（在下）+ capere（拿取）",
+  "derivation": [
+   "sus（在下）+ cept（接住）+ ible（能……的）→ 能被接住的 → 易受影响的"
+  ],
+  "cognates": [
+   "susceptibility",
+   "suspect",
+   "reception"
+  ],
+  "example": "Young children are especially susceptible to the infection.",
+  "verified": true,
+  "ety": {
+   "historical": "晚期拉丁 susceptibilis 来自 susceptus，是 suscipere「从下面接住、承受」的分词；suscipere = sub-「在下」+ capere「拿取」。英语 17 世纪经法语借入，本义「能接受（影响）的」。",
+   "synchronic": "sus-（sub- 在 c 前的同化）+ cept（capere 的分词词干）+ -ible（能……的）三段可识别。",
+   "teaching": "sus（在下）+ cept（接住）+ -ible（能……的）→ 能被接住的 → 易受影响的、易感染的。",
+   "productive": "sub- 的同化形式 sus- 见于 susceptible、suspect、sustain；-ible 能产（visible、flexible、permissible）。",
+   "contested": []
+  },
+  "note": "sus- 是 px-sub 的拼写变体，不是独立前缀；-ible 与 -able 同义，但按拉丁分词词干取 -ible。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"susceptible\"（< Latin susceptibilis < suscipiō）；Lewis & Short, s.v. \"suscĭpĭo\""
+   }
+  ],
+  "partIds": [
+   "px-sub",
+   "rx-cept",
+   "sx-ible"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
   "w": "suspect",
   "parts": [
    "sus",
@@ -59663,6 +61280,120 @@
    "px-syn",
    "cx-path",
    "cx-y"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "symphony",
+  "parts": [
+   "sym",
+   "phon",
+   "y"
+  ],
+  "pos": "n",
+  "glossEn": "a long musical work for an orchestra",
+  "glossZh": "交响乐；交响曲；（声音的）和谐",
+  "domain": "general",
+  "family": "fam-phon",
+  "etymology": "中古英语 symphonye < 古法语 simphonie < 拉丁 symphonia < 希腊 symphōnía = syn-（一起）+ phōnē（声音）",
+  "derivation": [
+   "sym（一起）+ phon（声音）+ y（名词）→ 一起发声 → 和声 → 交响乐"
+  ],
+  "cognates": [
+   "symphonic",
+   "phoneme",
+   "synchronic"
+  ],
+  "example": "The orchestra rehearsed the symphony's final movement.",
+  "verified": true,
+  "ety": {
+   "historical": "希腊 symphōnía 本义「声音的一致、和声」，由 syn-「一起」+ phōnē「声音」构成；经拉丁、古法语进入英语，17 世纪起指「多声部的器乐作品」。",
+   "synchronic": "sym-（syn- 在唇音前的变体）+ phon（声音）+ -y（名词）可识别。",
+   "teaching": "sym（一起）+ phon（声音）+ -y（名词）→ 一起发声 → 和声 → 交响乐。",
+   "productive": "syn- / sym- 与 phon- 都高度能产。",
+   "contested": []
+  },
+  "note": "sym- 是 syn- 的语音变体，不是另一个前缀。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"symphony\"（< Latin symphonia < Greek symphōnía）"
+   }
+  ],
+  "partIds": [
+   "px-syn",
+   "cx-phon",
+   "cx-y"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
+ },
+ {
+  "w": "synchronic",
+  "parts": [
+   "syn",
+   "chron",
+   "ic"
+  ],
+  "pos": "adj",
+  "glossEn": "concerned with a system as it exists at one point in time",
+  "glossZh": "共时的（同一时期内的）",
+  "domain": "general",
+  "family": "fam-chron",
+  "etymology": "syn-（一起）+ chron-（时间）+ -ic；20 世纪初语言学用以指「同一时期的」",
+  "derivation": [
+   "syn（同一）+ chron（时间）+ ic（……的）→ 同一时期的 → 共时的"
+  ],
+  "cognates": [
+   "diachronic",
+   "synchronous",
+   "chronology"
+  ],
+  "example": "Synchronic linguistics studies a language as it exists at one point in time.",
+  "verified": true,
+  "ety": {
+   "historical": "由 syn-「一起」+ 希腊 khronos「时间」+ -ic 构成，19 世纪已有「同时的」用法；20 世纪初索绪尔学派用它指「截取一个时点看语言系统」，与 diachronic 相对。",
+   "synchronic": "syn（一起）+ chron（时间）+ -ic（……的）三段透明。",
+   "teaching": "syn（同一）+ chron（时间）+ -ic（……的）→ 同一时期的 → 共时的。",
+   "productive": "syn- 与 -ic 都高度能产；syn- / dia- 的对立是学术词汇的常见配对。",
+   "contested": []
+  },
+  "note": "术语义（共时）比字面义（同时）窄，需在教学中点明。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"synchronic\"（syn- + chron- + -ic）；术语义见 20 世纪语言学"
+   }
+  ],
+  "partIds": [
+   "px-syn",
+   "cx-chron",
+   "sx-ic"
   ],
   "partResolution": "exact",
   "analysis": {
@@ -60177,6 +61908,61 @@
   },
   "verified": false,
   "family": "fam-graph"
+ },
+ {
+  "w": "telegraph",
+  "parts": [
+   "tele",
+   "graph"
+  ],
+  "pos": "n",
+  "glossEn": "a system or device for sending messages over a distance by coded signals",
+  "glossZh": "电报机；电报（系统）",
+  "domain": "general",
+  "family": "fam-graph",
+  "etymology": "法语 télégraphe（1790 年代）< tele-（远）+ -graph（写）",
+  "derivation": [
+   "tele（远）+ graph（写）→ 远距离写过来 → 电报（机）"
+  ],
+  "cognates": [
+   "telegram",
+   "telephone",
+   "graph"
+  ],
+  "example": "News of the armistice reached the coast by telegraph.",
+  "verified": true,
+  "ety": {
+   "historical": "1790 年代法国 Chappe 的光信号电报网络需要命名，télégraphe 由 tele-「远」+ -graph「写」构成，取代原先的 tachygraphe；英语随即借入。19 世纪电报告普及后词义固定为「电报（机）」。",
+   "synchronic": "tele-（远）+ graph（写、记录）透明；与 telephone、television、telegram 同族。",
+   "teaching": "tele（远）+ graph（写）→ 远距离写过来 → 电报（机）。",
+   "productive": "tele- 高度能产（telephone、television、telescope、teleport）；-graph 亦能产。",
+   "contested": []
+  },
+  "note": "telegraph 是「远距离书写」的原型词，telegram 是「写下来的那一条」。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"telegraph\"（< French télégraphe，tele- + -graph）"
+   }
+  ],
+  "partIds": [
+   "px-tele",
+   "cx-graph"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
  },
  {
   "w": "telemetry",
@@ -61695,6 +63481,61 @@
    "sx-ory"
   ],
   "partResolution": "exact"
+ },
+ {
+  "w": "transcript",
+  "parts": [
+   "trans",
+   "script"
+  ],
+  "pos": "n",
+  "glossEn": "a written or printed copy of spoken or recorded material",
+  "glossZh": "抄本；转写稿；（学校的）成绩单；转录本",
+  "domain": "general",
+  "family": "fam-scrib",
+  "etymology": "拉丁 transcriptum（transcribere 的 supine）= trans-（转、越过）+ scrībere（写）",
+  "derivation": [
+   "trans（转）+ script（写下的东西）→ 从一处抄写到另一处 → 抄本、转写稿"
+  ],
+  "cognates": [
+   "transcription",
+   "script",
+   "manuscript"
+  ],
+  "example": "The court released a transcript of the hearing.",
+  "verified": true,
+  "ety": {
+   "historical": "拉丁 transcribere「抄写到另一处」的 supine transcriptum 在中世纪作名词，指「抄本」；英语直接借入指「转写出的文本、成绩单」。",
+   "synchronic": "trans-（转）+ script（写下的东西）可识别。",
+   "teaching": "trans（转）+ script（写）→ 从一处抄写到另一处 → 抄本、转写稿。",
+   "productive": "trans- 与 script- 都能产（translate、transport、manuscript）。",
+   "contested": []
+  },
+  "note": "与 transcription 同源，后者指「转写行为」。",
+  "sources": [
+   {
+    "id": "S5",
+    "title": "现代辞书（词源条目）",
+    "detail": "Wiktionary, s.v. \"transcript\"（< Latin transcriptum < transcribō）"
+   }
+  ],
+  "partIds": [
+   "cx-tra-trans",
+   "rx-script"
+  ],
+  "partResolution": "exact",
+  "analysis": {
+   "lexical": true,
+   "analyzable": true,
+   "segmentation": "verified",
+   "etymology": {
+    "status": "documented",
+    "sources": [
+     "S5"
+    ]
+   },
+   "quizSafe": true
+  }
  },
  {
   "w": "transducer",

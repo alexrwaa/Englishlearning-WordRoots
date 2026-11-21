@@ -1,0 +1,28 @@
+{
+  "morphemeId": "rx-port",
+  "latin": "portare",
+  "glossEn": "to carry",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "porto",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 475764,
+      "quote": "porto, jwi, 5tum > % f re( l a t root por  for for to, kmclr with fero, Sander \\hri,  ferre], to bear or carry along , to convey  any thing heavy (class- , syn fero, gero,",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "entryNote": "Headword OCR \"porto, jwi, 5tum\" = porto, avi, atum."
+    }
+  ],
+  "verdict": "supports",
+  "note": "L&S porto, -avi, -atum 释义 \"to bear or carry along, to convey any thing heavy\"，与 portare「运」一致；同条给出与 fero「带」同源。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

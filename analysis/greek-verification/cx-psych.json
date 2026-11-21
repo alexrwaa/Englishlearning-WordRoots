@@ -1,0 +1,45 @@
+{
+  "morphemeId": "cx-psych",
+  "claim": {
+    "type": "root-sense",
+    "text": "psych- 来自希腊语 ψυχή，义为「生命、灵魂、自我」"
+  },
+  "records": [
+    {
+      "source": "G3",
+      "work": "LSJ (Liddell-Scott-Jones, 9th ed.)",
+      "headword": "ψυχή",
+      "locator": "entry ψυχή, sense II (level 2)",
+      "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott84.xml#L2085",
+      "quote": "<i>departed spirit, ghost</i>",
+      "quoteNormalized": "departed spirit, ghost",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "tz": "Asia/Shanghai",
+      "note": "荷马语「离体之魂」，支持「魂」这一半，但不支持「心灵」；「心灵」要靠 sense III/IV 的 soul/self。"
+    },
+    {
+      "source": "G3",
+      "work": "LSJ (Liddell-Scott-Jones, 9th ed.)",
+      "headword": "ψυχή",
+      "locator": "entry ψυχή, sense III (level 2)",
+      "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott84.xml#L2085",
+      "quote": "the immaterial and immortal <i>soul,</i> first in Pindar",
+      "quoteNormalized": "the immaterial and immortal soul, first in Pindar",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "tz": "Asia/Shanghai"
+    }
+  ],
+  "verdict": "supports",
+  "note": "ψυχή 的义项次序是：①「生命」→②荷马语「离体之魂、鬼魂」→③（自品达起）「非物质的、不死的灵魂」→④「作为情感与欲望中心的自觉自我、人格」。词库 glossZh「心灵」/glossEn「mind」是对 ③④ 的宽松译法：③是 soul 不是 mind，英语 mind 在希腊语里通常对应 νοῦς。建议把 gloss 改为「生命、灵魂」，并在 note 里补一句「-psych- 表心理，是 19 世纪由 ψυχή『灵魂』引申」。LSJ 词头印作 ψῡχ-ή（带长音量符号与连字符），索引需先去掉变音符号才能命中。",
+  "quoteNote": "quote 为源文件中的连续原文片段，只保留行内 <i> 斜体标记；quoteNormalized 为去掉标签与变音符号后的文本。",
+  "coverage": {
+    "root-sense": "supported",
+    "borrowing-path": "not-covered",
+    "classical-derivation": "not-covered",
+    "modern-structure": "not-covered",
+    "modern-sense": "not-covered"
+  },
+  "borrowingPathNote": "psychology 的借词路径（ψυχή + λόγος → 拉丁 psychologia（16 世纪）→ 法语/英语 psychology）需要拉丁与英语词书证据。LSJ 只能证明「ψυχή 有灵魂义」，不能证明 psych- 进入了英语；故 borrowing-path、modern-sense 均为 not-covered。这正是最容易夸大的一步：查到 ψυχή 不等于证明 psychology 的词源关系。"
+}

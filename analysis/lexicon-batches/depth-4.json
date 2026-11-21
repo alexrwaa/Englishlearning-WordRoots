@@ -1,0 +1,566 @@
+{
+ "note": "depth pass 4: L4 例词补充",
+ "targets": [
+  {
+   "id": "cx-jus-jur",
+   "words": [
+    "jurisdiction",
+    "jury"
+   ]
+  },
+  {
+   "id": "cx-kilo",
+   "words": [
+    "kilogram",
+    "kilometer"
+   ]
+  },
+  {
+   "id": "cx-lact",
+   "words": [
+    "lactation",
+    "lactose"
+   ]
+  },
+  {
+   "id": "cx-lig",
+   "words": [
+    "ligature",
+    "religion"
+   ]
+  },
+  {
+   "id": "cx-liter",
+   "words": [
+    "literacy",
+    "literary"
+   ]
+  },
+  {
+   "id": "cx-lith-lit",
+   "words": [
+    "monolith",
+    "lithography"
+   ]
+  },
+  {
+   "id": "cx-lumen-lumin",
+   "words": [
+    "lucid",
+    "luminous"
+   ]
+  },
+  {
+   "id": "cx-magn",
+   "words": [
+    "magnificent",
+    "magnify"
+   ]
+  },
+  {
+   "id": "cx-mega-megal",
+   "words": [
+    "megaphone",
+    "megalith"
+   ]
+  },
+  {
+   "id": "cx-meta",
+   "words": [
+    "metabolism",
+    "metaphor"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "jurisdiction",
+   "parts": [
+    "jur",
+    "is",
+    "dic",
+    "tion"
+   ],
+   "pos": "n",
+   "glossEn": "the official power to make legal decisions",
+   "glossZh": "司法管辖权；管辖范围",
+   "domain": "legal",
+   "etymology": "拉丁 jurisdictio < jus/juris「法」+ dicere（宣告）",
+   "derivation": [
+    "jur（法）+ -is- + dic（宣告）+ -tion → 依法宣告的权力"
+   ],
+   "example": "The case falls outside this court's jurisdiction.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "jury",
+   "parts": [
+    "jur",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "a group of citizens who decide a case in court",
+   "glossZh": "陪审团",
+   "domain": "legal",
+   "etymology": "古法语 juree < 拉丁 jurare「宣誓」< jus「法」",
+   "derivation": [
+    "jur（法、宣誓）+ -y → 宣誓断案的一群人"
+   ],
+   "example": "The jury returned a verdict after two hours.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "kilogram",
+   "parts": [
+    "kilo",
+    "gram"
+   ],
+   "pos": "n",
+   "glossEn": "a unit of mass equal to one thousand grams",
+   "glossZh": "千克；公斤",
+   "domain": "science",
+   "etymology": "希腊 khilioi「一千」+ gramma「小重量」",
+   "derivation": [
+    "kilo（千）+ gram（克）→ 一千克"
+   ],
+   "example": "The bag weighs just over one kilogram.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "kilometer",
+   "parts": [
+    "kilo",
+    "metr",
+    "er"
+   ],
+   "pos": "n",
+   "glossEn": "a unit of length equal to one thousand meters",
+   "glossZh": "千米；公里",
+   "domain": "general",
+   "etymology": "希腊 khilioi「一千」+ metron「尺度」",
+   "derivation": [
+    "kilo（千）+ metr（度量）+ -er → 一千米"
+   ],
+   "example": "The village lies a kilometer from the main road.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "lactation",
+   "parts": [
+    "lact",
+    "ation"
+   ],
+   "pos": "n",
+   "glossEn": "the secretion of milk; the period of suckling",
+   "glossZh": "泌乳；哺乳期",
+   "domain": "medical",
+   "etymology": "拉丁 lactatio < lactare「分泌乳汁」< lac/lactis「乳」",
+   "derivation": [
+    "lact（乳）+ -ation → 产乳的过程"
+   ],
+   "example": "The mother returned to work after lactation ended.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "lactose",
+   "parts": [
+    "lact",
+    "ose"
+   ],
+   "pos": "n",
+   "glossEn": "the sugar found in milk",
+   "glossZh": "乳糖",
+   "domain": "science",
+   "etymology": "拉丁 lac/lactis「乳」+ 化学后缀 -ose（糖）",
+   "derivation": [
+    "lact（乳）+ -ose（糖）→ 乳中的糖"
+   ],
+   "example": "He avoids milk because of lactose intolerance.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "ligature",
+   "parts": [
+    "lig",
+    "at",
+    "ure"
+   ],
+   "pos": "n",
+   "glossEn": "a thing used for tying; letters joined in print",
+   "glossZh": "结扎线；连字",
+   "domain": "medical",
+   "etymology": "拉丁 ligatura < ligare「捆绑」",
+   "derivation": [
+    "lig（绑）+ -at- + -ure → 用于绑的东西"
+   ],
+   "example": "The surgeon closed the vessel with a ligature.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "religion",
+   "parts": [
+    "re",
+    "lig",
+    "ion"
+   ],
+   "pos": "n",
+   "glossEn": "a system of faith and worship",
+   "glossZh": "宗教",
+   "domain": "general",
+   "etymology": "拉丁 religio，常释为 re-（再）+ ligare（绑）「重新系紧」",
+   "derivation": [
+    "re（再、回）+ lig（绑）+ -ion → 把人重新系住的约束"
+   ],
+   "example": "The two communities practise the same religion.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "literacy",
+   "parts": [
+    "liter",
+    "acy"
+   ],
+   "pos": "n",
+   "glossEn": "the ability to read and write",
+   "glossZh": "读写能力；识字率",
+   "domain": "academic",
+   "etymology": "拉丁 littera「字母」+ -acy",
+   "derivation": [
+    "liter（字母）+ -acy（能力、状态）→ 识字母的能力"
+   ],
+   "example": "Adult literacy rose sharply in one generation.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "literary",
+   "parts": [
+    "liter",
+    "ary"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to literature or formal writing",
+   "glossZh": "文学的；文体的",
+   "domain": "academic",
+   "etymology": "拉丁 litterarius < littera「字母」",
+   "derivation": [
+    "liter（字母、文字）+ -ary → 与文字作品有关的"
+   ],
+   "example": "The novel won a major literary prize.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "monolith",
+   "parts": [
+    "mono",
+    "lith"
+   ],
+   "pos": "n",
+   "glossEn": "a large single block of stone",
+   "glossZh": "独石柱；整块巨石",
+   "domain": "general",
+   "etymology": "希腊 monos「单一」+ lithos「石」",
+   "derivation": [
+    "mono（单一）+ lith（石）→ 一整块石头"
+   ],
+   "example": "A weathered monolith stands at the centre of the ring.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "lithography",
+   "parts": [
+    "lith",
+    "o",
+    "graph",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "printing from a flat stone or metal plate",
+   "glossZh": "平版印刷术",
+   "domain": "technical",
+   "etymology": "希腊 lithos「石」+ graphein「写、刻」",
+   "derivation": [
+    "lith（石）+ o + graph（刻写）+ -y → 在石版上刻写印刷"
+   ],
+   "example": "The poster was produced by stone lithography.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "lucid",
+   "parts": [
+    "luc",
+    "id"
+   ],
+   "pos": "adj",
+   "glossEn": "clear and easy to understand; bright",
+   "glossZh": "清晰的；明亮的",
+   "domain": "general",
+   "etymology": "拉丁 lucidus < lucere「发光」",
+   "derivation": [
+    "luc（光）+ -id → 有光的 → 明白的"
+   ],
+   "example": "She gave a lucid account of the experiment.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "luminous",
+   "parts": [
+    "lumin",
+    "ous"
+   ],
+   "pos": "adj",
+   "glossEn": "giving off light; bright",
+   "glossZh": "发光的；明亮的",
+   "domain": "general",
+   "etymology": "拉丁 luminosus < lumen/luminis「光」",
+   "derivation": [
+    "lumin（光）+ -ous（充满）→ 充满光的"
+   ],
+   "example": "The dial is painted with a luminous compound.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "magnificent",
+   "parts": [
+    "magn",
+    "ific",
+    "ent"
+   ],
+   "pos": "adj",
+   "glossEn": "impressively large or beautiful",
+   "glossZh": "壮丽的；宏伟的",
+   "domain": "general",
+   "etymology": "拉丁 magnificus < magnus「大」+ facere「做」",
+   "derivation": [
+    "magn（大）+ -ific（做）+ -ent → 做得很大 → 宏伟"
+   ],
+   "example": "The hall opened onto a magnificent view of the valley.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "magnify",
+   "parts": [
+    "magn",
+    "ify"
+   ],
+   "pos": "v",
+   "glossEn": "to make something appear larger",
+   "glossZh": "放大；夸大",
+   "domain": "general",
+   "etymology": "拉丁 magnificare < magnus「大」+ facere「做」",
+   "derivation": [
+    "magn（大）+ -ify（使…）→ 使变大"
+   ],
+   "example": "The lens can magnify the image ten times.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "megaphone",
+   "parts": [
+    "mega",
+    "phone"
+   ],
+   "pos": "n",
+   "glossEn": "a cone used to make the voice carry",
+   "glossZh": "扩音器；喇叭筒",
+   "domain": "general",
+   "etymology": "希腊 megas「大」+ phōnē「声音」",
+   "derivation": [
+    "mega（大）+ phone（声音）→ 放大声音的器具"
+   ],
+   "example": "The marshal shouted through a megaphone.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "megalith",
+   "parts": [
+    "mega",
+    "lith"
+   ],
+   "pos": "n",
+   "glossEn": "a very large prehistoric stone",
+   "glossZh": "巨石（建筑）",
+   "domain": "academic",
+   "etymology": "希腊 megas「大」+ lithos「石」",
+   "derivation": [
+    "mega（大）+ lith（石）→ 巨石"
+   ],
+   "example": "The tomb is built from megaliths weighing several tons.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "metabolism",
+   "parts": [
+    "meta",
+    "bol",
+    "ism"
+   ],
+   "pos": "n",
+   "glossEn": "the chemical processes that sustain life",
+   "glossZh": "新陈代谢",
+   "domain": "science",
+   "etymology": "希腊 metabolē「改变」< meta-（转变）+ ballein（投掷）",
+   "derivation": [
+    "meta（转变）+ bol（投）+ -ism → 体内不断转换的过程"
+   ],
+   "example": "Regular exercise raises your resting metabolism.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "metaphor",
+   "parts": [
+    "meta",
+    "phor"
+   ],
+   "pos": "n",
+   "glossEn": "a figure of speech applying one thing's name to another",
+   "glossZh": "隐喻；比喻",
+   "domain": "academic",
+   "etymology": "希腊 metaphora「转移」< meta-（越过）+ pherein（携带）",
+   "derivation": [
+    "meta（越过）+ phor（携带）→ 把意义搬过去"
+   ],
+   "example": "'A sea of troubles' is a metaphor.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  }
+ ]
+}

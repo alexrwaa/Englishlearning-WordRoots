@@ -1,0 +1,43 @@
+{
+  "morphemeId": "rx-cap",
+  "claim": "cap < 拉丁 capere「抓、取」",
+  "records": [
+    {
+      "word": "accept",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "accept",
+      "url": "https://en.wiktionary.org/w/index.php?title=accept&action=raw",
+      "quote": "from Latin accepto 'receive', frequentative of accipiō, formed from ad- + capiō 'to take'.",
+      "etymon": "capiō",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "anticipate",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "anticipate",
+      "url": "https://en.wiktionary.org/w/index.php?title=anticipate&action=raw",
+      "quote": "Latin anticipātus, of anticipō 'to anticipate' (see -ate), from ante-, + capiō 'to take' + -ō.",
+      "etymon": "capiō",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "capacity",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "capacity",
+      "url": "https://en.wiktionary.org/w/index.php?title=capacity&action=raw",
+      "quote": "from capāx 'able to hold much', from capiō 'to hold, to contain, to take, to understand'.",
+      "etymon": "capiō",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "accept / anticipate / capacity 均落在 capiō 'to take'；注意 except 词条只到 exceptus，未展开 capere。 词库外旁证条目（仅印证同一词源，不对应词库词条）：anticipate。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

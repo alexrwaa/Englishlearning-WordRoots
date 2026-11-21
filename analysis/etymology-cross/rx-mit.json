@@ -1,0 +1,27 @@
+{
+  "morphemeId": "rx-mit",
+  "latin": "mittere",
+  "glossEn": "to send",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "mitto",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 391819,
+      "quote": "mitto, mlsi, missum, 3 (contr. form,  misti for misisti, Cat. 14, 14: archaic inf.  pass, mittier, Plaut. Capt. 2, 3, 78), v. a.  [etym. dub. ; cf Sanscr. math-, to set in  motion], to cause to go, let go, send, to send",
+      "supports": true,
+      "fetchedAt": "2026-11-22"
+    }
+  ],
+  "verdict": "supports",
+  "note": "L&S mitto, misi, missum 释义 \"to cause to go, let go, send, to send off, despatch\"，与 mittere「送」一致；分词词干 miss- 见 rx-miss。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

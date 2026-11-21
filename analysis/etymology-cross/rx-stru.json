@@ -1,0 +1,28 @@
+{
+  "morphemeId": "rx-stru",
+  "latin": "struere",
+  "glossEn": "to build",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "struo",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 597587,
+      "quote": "— B. Inpartfc X. To make by join  xng together, to build, erect fabricate, make ,  form, construct (eyn aedifleo) fornacem",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "entryNote": "Headword at 597563 (\"Struo, xf, ctum 3, v a\" = struo, struxi, structum); \"to build, erect\" sits under B. In part. 1, not in the opening sense, which is 597565-597566 \"to place by or upon each other, to pile up, arrange\"."
+    }
+  ],
+  "verdict": "supports",
+  "note": "L&S struo 的首义是 \"to place by or upon each other, to pile up, arrange\"，build/erect 是第二层义项 \"to make by joining together, to build, erect, fabricate, make, form, construct\"。「建造」成立，但严格说 pile up/arrange 才是字面本义，词库 glossEn 只写 build 略有简化，值得补「堆叠、排列」这一层。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

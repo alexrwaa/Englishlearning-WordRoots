@@ -1,0 +1,789 @@
+{
+  "$comment": "PARTIAL 词条分类与修正（docs/PARTIAL_CLASSIFICATION.md）。morphemes: 13 条新记录 + 15 条补齐 allomorph，全部有拉丁/希腊语源依据（G2=Lewis & Short，S5=etymonline）。words: 5 条改切分（distinct/distinction/trajectory/forward/fertilize）、5 条补 derivation 作为同形歧义的证据（impose/impossible/injection/irregular/apologize）、6 条补 ety.historical + sources（separator/legend/photodiode/indestructible/induction/inducement）。不含任何自由词干（free-base）与整体借词（whole-loan）的强拆——那两类保持 partial 是正确状态。",
+  "schemaVersion": 1,
+  "morphemes": [
+    {
+      "id": "px-fore",
+      "form": "fore",
+      "type": "prefix",
+      "origin": "OE",
+      "glossZh": "在前、先",
+      "glossEn": "before, in front",
+      "allomorphs": [],
+      "examples": [
+        "forward",
+        "foreword",
+        "foresee",
+        "foretell",
+        "forehead"
+      ],
+      "originalForm": "fore-",
+      "originalGloss": "before, in front of",
+      "note": "古英语 fore-「在前、先」。与介词 for 同形不同源：forward = fore + -weard，不是 for + ward。",
+      "rules": [
+        "forward/homeward/backward 的 -ward 是方向后缀，前面的成分是 fore/home/back，不是介词"
+      ],
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Historical and etymological references (reference set)",
+          "detail": "Online Etymology Dictionary, s.v. \"fore-\"（OE fore- \"before, in front of\"）"
+        }
+      ]
+    },
+    {
+      "id": "rx-clar",
+      "form": "clar",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "清楚、明亮",
+      "glossEn": "clear",
+      "allomorphs": [],
+      "examples": [
+        "clarify",
+        "clarity",
+        "declare",
+        "clarion"
+      ],
+      "originalForm": "clarus",
+      "originalGloss": "clear, bright",
+      "note": "拉丁 clarus「明亮的、清楚的」；clarare「使清楚」→ clarify。",
+      "sources": [
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"clarus\"；claro, -are"
+        }
+      ]
+    },
+    {
+      "id": "rx-flex",
+      "form": "flex",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "弯曲",
+      "glossEn": "bend",
+      "allomorphs": [
+        "flect"
+      ],
+      "examples": [
+        "flexible",
+        "flex",
+        "reflect",
+        "deflect",
+        "inflection"
+      ],
+      "originalForm": "flectere",
+      "originalGloss": "to bend",
+      "note": "拉丁 flectere「弯曲」，分词词干 flex-。英语 flex「屈伸」是 20 世纪从 flexible 反构的，同一语源。",
+      "sources": [
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"flecto\"（pp. flexus）"
+        }
+      ]
+    },
+    {
+      "id": "rx-stingu",
+      "form": "stingu",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "刺、做记号；熄灭",
+      "glossEn": "prick, mark; extinguish",
+      "allomorphs": [
+        "stinct"
+      ],
+      "examples": [
+        "distinct",
+        "distinction",
+        "extinct",
+        "instinct",
+        "distinguish"
+      ],
+      "originalForm": "stinguere",
+      "originalGloss": "to prick, quench",
+      "note": "拉丁 stinguere「刺、标示；熄灭」：distinguere = dis- + stinguere「分开标示」→ 区别；exstinguere「熄灭」。与 tingere（染色，tinctorial）同形近但异源，不可互推。",
+      "rules": [
+        "distinct/distinction 的 -stinct 是 stinguere，不是 tingere"
+      ],
+      "sources": [
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"stinguo\"；distinguo, exstinguo"
+        }
+      ]
+    },
+    {
+      "id": "rx-spond",
+      "form": "spond",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "许诺、回应",
+      "glossEn": "promise, answer",
+      "allomorphs": [
+        "spons",
+        "respons"
+      ],
+      "examples": [
+        "respond",
+        "responsible",
+        "response",
+        "sponsor",
+        "correspond"
+      ],
+      "originalForm": "spondere",
+      "originalGloss": "to promise",
+      "note": "拉丁 spondere「郑重许诺」，分词 sponsus；respondere = re- + spondere「回许」→ 回应、负责。",
+      "sources": [
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"spondeo\"（pp. sponsus）；respondeo"
+        }
+      ]
+    },
+    {
+      "id": "rx-sed",
+      "form": "sed",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "坐",
+      "glossEn": "sit",
+      "allomorphs": [
+        "sid",
+        "sess"
+      ],
+      "examples": [
+        "residual",
+        "reside",
+        "sediment",
+        "session",
+        "preside"
+      ],
+      "originalForm": "sedere",
+      "originalGloss": "to sit",
+      "note": "拉丁 sedere「坐」：residere「留在后面」→ residual（剩余的）；sediment；sess- 为分词词干（session）。",
+      "sources": [
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"sedeo\"（pp. sessus）"
+        }
+      ]
+    },
+    {
+      "id": "rx-plaud",
+      "form": "plaud",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "拍手、击",
+      "glossEn": "clap, strike",
+      "allomorphs": [
+        "plaus",
+        "plos"
+      ],
+      "examples": [
+        "applaud",
+        "applause",
+        "explosion",
+        "explode",
+        "plausible"
+      ],
+      "originalForm": "plaudere",
+      "originalGloss": "to clap, strike",
+      "note": "拉丁 plaudere「拍手」：applaud/applause（plaus-）；explodere = ex- + plaudere「拍手把演员轰下台」→ 爆裂、爆炸（plos-）。",
+      "sources": [
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"plaudo\"（pp. plausus）；explodo"
+        }
+      ]
+    },
+    {
+      "id": "rx-iter",
+      "form": "iter",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "再次；行程",
+      "glossEn": "again; journey",
+      "allomorphs": [],
+      "examples": [
+        "iteration",
+        "iterate",
+        "iterative",
+        "itinerary"
+      ],
+      "originalForm": "iterum; iter, itineris",
+      "originalGloss": "again; journey",
+      "note": "两个同形异源的拉丁词：iterum「再一次」→ iterare「重复」→ iteration；iter「行程」→ itinerary。本记录以「再一次」为主义，itinerary 一支在 examples 中标注，不另立记录（避免同形冲突）。",
+      "sources": [
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"iterum\"；\"iter\"；itero, -are"
+        }
+      ]
+    },
+    {
+      "id": "rx-manipul",
+      "form": "manipul",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "一把、一束",
+      "glossEn": "handful",
+      "allomorphs": [],
+      "examples": [
+        "manipulate",
+        "manipulation",
+        "manipulative"
+      ],
+      "originalForm": "manipulus",
+      "originalGloss": "handful, bundle",
+      "note": "拉丁 manipulus「一把（manus 手 + -pulus 充满）」→ 用手摆弄 → manipulate。manipul- 已不是「manus + 英语后缀」的可再分结构，故整段记为一个词根。",
+      "sources": [
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"manipulus\""
+        }
+      ]
+    },
+    {
+      "id": "rx-electr",
+      "form": "electr",
+      "type": "root",
+      "origin": "Gk",
+      "glossZh": "琥珀；电",
+      "glossEn": "amber; electric",
+      "allomorphs": [],
+      "examples": [
+        "electric",
+        "electricity",
+        "hydroelectric",
+        "electron"
+      ],
+      "originalForm": "ēlektōr (ἤλεκτρον)",
+      "originalGloss": "amber",
+      "note": "希腊 ēlektron「琥珀」——摩擦琥珀能吸轻物，17 世纪起被借作「电」的词根。hydroelectric = hydro（水）+ electr（电）+ -ic。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Historical and etymological references (reference set)",
+          "detail": "Online Etymology Dictionary, s.v. \"electric\"（< L. electrum < Gk. ēlektōr \"amber\"）"
+        }
+      ]
+    },
+    {
+      "id": "rx-menstru",
+      "form": "menstru",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "每月的",
+      "glossEn": "monthly",
+      "allomorphs": [],
+      "examples": [
+        "menstrual",
+        "menstruation",
+        "menses"
+      ],
+      "originalForm": "menstruus",
+      "originalGloss": "monthly",
+      "note": "拉丁 menstruus「每月的」< mensis「月」，与 moon 同源。menstru + -al。",
+      "sources": [
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"menstruus\", \"mensis\""
+        }
+      ]
+    },
+    {
+      "id": "sx-logue",
+      "form": "logue",
+      "type": "suffix",
+      "origin": "Gk",
+      "glossZh": "言语、论述",
+      "glossEn": "speech, discourse",
+      "allomorphs": [],
+      "examples": [
+        "monologue",
+        "dialogue",
+        "catalogue",
+        "epilogue"
+      ],
+      "originalForm": "-logos",
+      "originalGloss": "word, speech",
+      "note": "-logue 与 -logy 分工不同：-logue 指「说/写出来的话」（monologue、dialogue），-logy 指「学科研究」（biology）。不要合并成一个后缀。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Historical and etymological references (reference set)",
+          "detail": "Online Etymology Dictionary, s.v. \"-logue\"（< Gk. -logos \"speaking\"）"
+        }
+      ]
+    },
+    {
+      "id": "cx-centi",
+      "form": "centi",
+      "type": "combining",
+      "origin": "Lat",
+      "glossZh": "百",
+      "glossEn": "hundred",
+      "allomorphs": [],
+      "examples": [
+        "centipede",
+        "centigrade",
+        "centimeter",
+        "percent"
+      ],
+      "originalForm": "centum",
+      "originalGloss": "hundred",
+      "note": "拉丁 centum「百」。centipede = centi（百）+ ped（足）+ 静音 e「百足虫」；centi- 是能产的计量前缀（centimeter）。",
+      "sources": [
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"centum\""
+        }
+      ]
+    },
+    {
+      "id": "sx-ial",
+      "form": "ial",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "形容词后缀",
+      "glossEn": "relating to",
+      "allomorphs": [
+        "ual"
+      ],
+      "note": "补充 -ual 拼写（actual、visual、residual、asexual）：-alis 在 /u/ 后写作 -ual，与 -ial/-al 是同一后缀的拼写变体，不是新后缀。"
+    },
+    {
+      "id": "sx-abil",
+      "form": "abil",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "能够被……的（-able 变体）",
+      "glossEn": "able to be ___ed",
+      "allomorphs": [
+        "ibil"
+      ],
+      "note": "补充 -ibil- 拼写（credibility、possibility、compatibility、responsibility）：-ibilis 是 -abilis 在 -i- 词干后的变体，出现于 -ity 之前。"
+    },
+    {
+      "id": "rx-pos",
+      "form": "pos",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "放置",
+      "glossEn": "place, put",
+      "allomorphs": [
+        "posit"
+      ],
+      "note": "补充分词词干 posit-（ponere 的 pp. positus）：composition、deposit、position、positive。posit 亦是英语动词「假定」，同一语源。"
+    },
+    {
+      "id": "px-pro",
+      "form": "pro",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "向前；支持",
+      "glossEn": "forward, in favour of",
+      "allomorphs": [
+        "pur"
+      ],
+      "note": "补充古法语拼写 pur-（< pro-）：purchase（pur- + chase）、purport（pur- + port）。purpose 的 pur- 同源，但 purpose 整体另有 pos 一支。"
+    },
+    {
+      "id": "rx-vert",
+      "form": "vert",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "转",
+      "glossEn": "turn",
+      "allomorphs": [
+        "verse"
+      ],
+      "note": "补充 verse 拼写（vertere 的反复态 versari / pp. versus）：reverse、universe（uni + verse「转成一体」）、versatile。"
+    },
+    {
+      "id": "rx-ten",
+      "form": "ten",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "握持、保持",
+      "glossEn": "hold",
+      "allomorphs": [
+        "tent"
+      ],
+      "note": "补充分词词干 tent-（tenere 的 pp. tentus）：detention、retention、content、tenable。maintain 的 tain 已在表内。"
+    },
+    {
+      "id": "cx-pend-pond",
+      "form": "pend",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "悬挂、称",
+      "glossEn": "hang, weigh",
+      "allomorphs": [
+        "pens"
+      ],
+      "note": "补充分词词干 pens-（pendere 的 pp. pensus）：expensive（ex- + pens + -ive「称量出来的 → 贵重的」）、pension、compensate。"
+    },
+    {
+      "id": "cx-pne-pneum",
+      "form": "pne",
+      "type": "root",
+      "origin": "Gk",
+      "glossZh": "呼吸、肺",
+      "glossEn": "breathe, lung",
+      "allomorphs": [
+        "pneumon"
+      ],
+      "note": "补充 pneumon-（πνεύμων「肺」）：pneumonia、pneumonic。pneum- 一支见 pneumatic（呼吸、气）。"
+    },
+    {
+      "id": "sx-ency",
+      "form": "ency",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "……的状态（名）",
+      "glossEn": "state, quality",
+      "allomorphs": [
+        "iency"
+      ],
+      "note": "补充 -iency 拼写：efficiency、proficiency、sufficiency。是 -ent- 词干 + -cy，中间的 i 属词干，不是另立后缀。"
+    },
+    {
+      "id": "sx-ative",
+      "form": "ative",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "形容词后缀：具有……作用的",
+      "glossEn": "serving to",
+      "allomorphs": [
+        "iative"
+      ],
+      "note": "补充 -iative 拼写：initiative、substantiate 类 -i- 词干 + -ative。中间的 i 属词干。"
+    },
+    {
+      "id": "sx-atic",
+      "form": "atic",
+      "type": "suffix",
+      "origin": "Gk",
+      "glossZh": "……的（形）",
+      "glossEn": "relating to",
+      "allomorphs": [
+        "tic"
+      ],
+      "note": "补充 -tic 拼写：aquatic、Asiatic、romantic、dramatic。拉丁 -aticus 在部分词里只剩 -tic。"
+    },
+    {
+      "id": "cx-sci",
+      "form": "sci",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "知、辨别",
+      "glossEn": "know, discern",
+      "allomorphs": [
+        "scient"
+      ],
+      "note": "补充 scient-（scire 的现在分词 sciens, scientis）：scientist、scientific、conscience、prescient。scientist = scient + -ist，不是 science + -ist 的规则派生（拼写已重整）。"
+    },
+    {
+      "id": "rx-techn",
+      "form": "techn",
+      "type": "root",
+      "origin": "Gk",
+      "glossZh": "技艺、技术",
+      "glossEn": "art, skill",
+      "allomorphs": [
+        "techno"
+      ],
+      "note": "补充 techno- 拼写（连接元音 o）：technology、technique、technocracy。"
+    },
+    {
+      "id": "rx-cap",
+      "form": "cap",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "抓、取",
+      "glossEn": "take, seize",
+      "allomorphs": [
+        "ceive"
+      ],
+      "note": "补充法语借入拼写 ceive（< cipere，capere 的弱化形式）：perceive、receive、conceive、deceive。这些词的 -ceive 不是 -ceive 后缀。"
+    },
+    {
+      "id": "rx-od",
+      "form": "od",
+      "type": "root",
+      "origin": "Gk",
+      "glossZh": "道路、行程",
+      "glossEn": "way, path",
+      "allomorphs": [
+        "odo"
+      ],
+      "note": "补充 odo- 拼写：odometry（odo「路」+ metr「测量」）、odometer、period（peri + od）。"
+    }
+  ],
+  "words": [
+    {
+      "w": "distinct",
+      "parts": [
+        "dis",
+        "stinct"
+      ],
+      "note": "原切分 dis + tinct 把 stinguere 的 s 丢在 tinct 里，会把它与 tingere（染色，tinctorial）混同。改为 dis + stinct：拉丁 distinguere = dis-（分开）+ stinguere（刺、标示）→ 分开标示 → 有区别的。"
+    },
+    {
+      "w": "distinction",
+      "parts": [
+        "dis",
+        "stinct",
+        "ion"
+      ],
+      "note": "同 distinct：dis + stinct（stinguere「刺、标示」）+ -ion；不是 dis + tinct（tingere 染色）。"
+    },
+    {
+      "w": "trajectory",
+      "parts": [
+        "tra",
+        "ject",
+        "ory"
+      ],
+      "note": "trajectory < 新拉丁 trajectoria < 拉丁 trajectus = tra-（trans「穿过」的缩合）+ iacere（投、掷）。原切分 traject + ory 把 tra- 与 ject 粘成一个不可再分的块，掩盖了 ject 这一能产词根（inject、project、reject）。"
+    },
+    {
+      "w": "forward",
+      "parts": [
+        "fore",
+        "ward"
+      ],
+      "note": "forward < 古英语 foreweard = fore（在前）+ -weard（向……方向）。原 parts 的 for 是介词 for，与 fore 同形不同源，属切分错误。"
+    },
+    {
+      "w": "fertilize",
+      "parts": [
+        "fertile",
+        "ize"
+      ],
+      "note": "fertile + -ize（17 世纪）。原切分 fert + il + ize 把自由词 fertile 拆成不可分析的 fert + il：-il 既不是后缀也不是词干，fert 也不是独立成分。此处保留自由词干，不造词素。"
+    },
+    {
+      "w": "impose",
+      "parts": [
+        "im",
+        "pos",
+        "e"
+      ],
+      "derivation": [
+        "im-（向内）+ pos（放置）→ 把东西放进去 → 强加、征收"
+      ],
+      "note": "im- 是 in-「向内」在唇音前的同化形式（不是否定 in-）；同族 expose「放出去」、deposit「放下」、compose「放在一起」。"
+    },
+    {
+      "w": "impossible",
+      "parts": [
+        "im",
+        "possible"
+      ],
+      "derivation": [
+        "im-（不）+ possible（可能的）→ 不可能的"
+      ],
+      "note": "im- 是否定 in- 在唇音前的同化形式（不是方向 in-）；同族 invisible、irregular、illegal 的 in- 都是否定。"
+    },
+    {
+      "w": "injection",
+      "parts": [
+        "in",
+        "ject",
+        "ion"
+      ],
+      "derivation": [
+        "in-（向内）+ ject（投、掷）+ -ion（名词后缀）→ 注入"
+      ],
+      "note": "in- 是方向「向内」，与否定 in- 同形异义；同族 project「向前投」、reject「投回去」、eject「投出去」。"
+    },
+    {
+      "w": "irregular",
+      "parts": [
+        "ir",
+        "regular"
+      ],
+      "derivation": [
+        "ir-（非）+ regular（规则的）→ 不规则的"
+      ],
+      "note": "ir- 是否定 in- 在 r 前的同化形式（不是方向 in-）；同族 irrelevant、irreversible。"
+    },
+    {
+      "w": "apologize",
+      "parts": [
+        "apo",
+        "log",
+        "ize"
+      ],
+      "derivation": [
+        "apo-（离开）+ log（word, speak；希腊 logos）+ -ize（动词后缀）→ 把话推开 → 辩白、道歉"
+      ],
+      "note": "log- 是希腊 logos「言说」（同族 monologue、dialogue、logic），不是 -logy「学科」。"
+    },
+    {
+      "w": "separator",
+      "parts": [
+        "se",
+        "par",
+        "ator"
+      ],
+      "ety": {
+        "historical": "拉丁 separare「分开」= se-（分开）+ parare（准备、安排）；与 parere（生育，parent、partum）同形异源。",
+        "synchronic": "现代英语 se- + par + -ator 三段仍可识别，但 par 只能回溯到 parare「安排」，不能与 parere 互推。",
+        "teaching": "se（分开）+ par（安排）+ -ator（装置）→ 把东西分开的装置。",
+        "productive": "se- 能产（separate、seclude、secede）；par（parare）只出现在 prepare、repair、apparatus、separate 这一封闭集合里。",
+        "contested": []
+      },
+      "note": "par 的归属改为 parare（安排）：原文本已写 parare，但字符串 \"separare\" 里含 parere，会误命中 cx-par（生育）。此条把语源写清，供解析器按证据取 cx-par-2。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Historical and etymological references (reference set)",
+          "detail": "Online Etymology Dictionary, s.v. \"separate\"（< L. separare < se- + parare）"
+        },
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"separo\", \"paro\" 与 \"pario\" 分立条目"
+        }
+      ]
+    },
+    {
+      "w": "legend",
+      "parts": [
+        "leg",
+        "end"
+      ],
+      "ety": {
+        "historical": "拉丁 legenda「应读之物」，是 legere（to read，读）的动形词复数（gerundive），原指修道院每日应诵读的圣徒行传段落。与 lex/legis（法）无关。",
+        "synchronic": "现代英语 leg + -end 已不可再分析：-end 是拉丁动形词词尾，不是英语后缀；母语者把 legend 当整体词。",
+        "teaching": "leg（读，legere）+ -end（应……的）→ 应读的东西 → 传说。教学时必须注明这是拉丁动形词，不是英语后缀。",
+        "productive": "leg（legere）能产：legend、legible、lecture、lesson、collect；但 -end 不能产。",
+        "contested": []
+      },
+      "note": "原 derivation 写「leg（法、委任）+ end」，把 legere 误作 lex。legend 属 legere「读」一支（rx-lect），legal 才属 lex「法」一支——两者同形异源，本词按读义归族。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Historical and etymological references (reference set)",
+          "detail": "Online Etymology Dictionary, s.v. \"legend\"（< L. legenda \"things to be read\" < legere \"to read\"）"
+        },
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"lego, legere\"（read）与 \"lex, legis\"（law）分立条目"
+        }
+      ]
+    },
+    {
+      "w": "photodiode",
+      "parts": [
+        "photo",
+        "di",
+        "ode"
+      ],
+      "ety": {
+        "historical": "photo-（光）+ diode；diode 由 di-（two，二）+ -ode（hodos 道路）构成——只有两个电极、只允许电流单向通过。原 derivation 把 di- 写成「穿过」，与 dia-（through）混淆。",
+        "synchronic": "photo + di + ode 三段可识别：di-「二」是希腊数词，-ode 是 hodos「路」。",
+        "teaching": "photo（光）+ di（二）+ ode（路）→ 有两条路的器件 → 二极管（光敏）。注意 di-「二」不是 dia-「穿过」。",
+        "productive": "di-（二）能产：diode、dioxide、dilemma；-ode 见于 diode、anode、cathode、electrode。",
+        "contested": []
+      },
+      "note": "修正 derivation 中 di（穿过）的错误：diode 的 di- 是「二」（cx-dy-di），不是 dia-「穿过」（cx-dia）。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Historical and etymological references (reference set)",
+          "detail": "Online Etymology Dictionary, s.v. \"diode\"（di- \"two\" + hodos \"way\"）"
+        }
+      ]
+    },
+    {
+      "w": "indestructible",
+      "parts": [
+        "in",
+        "de",
+        "struct",
+        "ible"
+      ],
+      "ety": {
+        "historical": "in-（不，not）+ destruct（毁坏）+ -ible（可……的）→ 不可毁坏的。前缀是否定 in-，不是方向 in-「向内」；拉丁 indestructibilis 同构。",
+        "synchronic": "现代英语 in- + destruct + -ible 三段清晰，destruct 由 destruction 反构。",
+        "teaching": "in（不）+ destruct（毁坏）+ ible（可……的）→ 不可毁坏的。",
+        "productive": "否定 in- 的同化形式：im-（impossible）、il-（illegal）、ir-（irregular）；与方向 in-（inject、include）同形异义。",
+        "contested": []
+      },
+      "note": "原 derivation 把否定 in- 误作方向 in-「向内」。in-destructible 是否定 in- + destruct + -ible；destruct 内部的 de- 是正确的（destruere = de-「反」+ struere「堆建」→ 拆毁），不要一并删掉。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Historical and etymological references (reference set)",
+          "detail": "Online Etymology Dictionary, s.v. \"indestructible\"（in- \"not\" + destructible）"
+        }
+      ]
+    },
+    {
+      "w": "induction",
+      "parts": [
+        "in",
+        "duct",
+        "ion"
+      ],
+      "ety": {
+        "historical": "拉丁 inductio < inducere = in-（向内、进入）+ ducere（引导）→ 引入；此处 in- 是方向义，与 in-『不』那一支同形异源。逻辑义「由个别引出一般」是 15 世纪后的引申。",
+        "synchronic": "in + duct + -ion 三段可识别，duct 是 ducere 的分词词干。",
+        "teaching": "in（向内）+ duct（引导）+ ion（名词）→ 引入 → 归纳。",
+        "productive": "duc/duct 能产：induce、conduct、produce、reduce、seduce。",
+        "contested": []
+      },
+      "note": "in- 取「向内」义（px-im），与否定 in- 同形异义；给解析器一条可判别的语源证据。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Historical and etymological references (reference set)",
+          "detail": "Online Etymology Dictionary, s.v. \"induction\"（< L. inductionem < inducere \"lead in\"）"
+        },
+        {
+          "id": "G2",
+          "title": "A Latin Dictionary (Lewis & Short)",
+          "detail": "s.v. \"induco\"（in- + duco）"
+        }
+      ]
+    },
+    {
+      "w": "inducement",
+      "parts": [
+        "in",
+        "duce",
+        "ment"
+      ],
+      "ety": {
+        "historical": "induce（< in-「向内」+ ducere「引导」）+ -ment（名词后缀）→ 诱导物、诱因。",
+        "synchronic": "in + duce + -ment 三段可识别；duce 是 ducere 的变体词干。",
+        "teaching": "in（向内）+ duce（引导）+ ment（名词）→ 引进来 → 诱因。",
+        "productive": "同族 induce、inducible；-ment 能产（movement、agreement）。",
+        "contested": []
+      },
+      "note": "in- 取「向内」义，与否定 in- 同形异义。",
+      "sources": [
+        {
+          "id": "S5",
+          "title": "Historical and etymological references (reference set)",
+          "detail": "Online Etymology Dictionary, s.v. \"induce\"（< L. inducere \"lead in\"）"
+        }
+      ]
+    }
+  ]
+}

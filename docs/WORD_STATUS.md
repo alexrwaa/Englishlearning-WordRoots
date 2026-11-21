@@ -25,16 +25,16 @@
 
 | 项目 | 数量 |
 | --- | --- |
-| 词条 | 1473 |
-| segmentation = verified | 1360 |
+| 词条 | 1506 |
+| segmentation = verified | 1393 |
 | segmentation = partial | 87 |
 | segmentation = unverified | 26 |
-| etymology documented | 1058 |
+| etymology documented | 1091 |
 | etymology inferred | 8 |
 | etymology disputed | 1 |
 | etymology unknown | 406 |
-| quizSafe | 1013 |
-| legacy `verified` | 1015 |
+| quizSafe | 1046 |
+| legacy `verified` | 1048 |
 
 剩余未解析成分按出现次数：care（3）、gen（3）、up（3）、agree（2）、mat（2）、back（2）、fit（2）、coupl（2）。
 

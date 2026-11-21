@@ -1,0 +1,1822 @@
+{
+  "morphemes": [
+    {
+      "id": "rx-spect",
+      "form": "spect",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "看",
+      "glossEn": "look at",
+      "allomorphs": [
+        "spec",
+        "spic",
+        "pect"
+      ],
+      "examples": [
+        "inspect",
+        "respect",
+        "spectator",
+        "perspective"
+      ],
+      "originalForm": "specere",
+      "originalGloss": "to look at",
+      "familyId": "fam-spect",
+      "note": "拉丁 specere“看”。spec 为弱化形式，用于 -ify/-ific/-ial 前；spic 出现在拉丁内部形式中；ex- 后 s 脱落作 -pect-（expect < exspectare），为拼写校验单列变体。",
+      "rules": [
+        "ex- 后 -spect- 写作 -pect-：expect、expectant"
+      ],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "rx-spec",
+      "form": "spec",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "看",
+      "glossEn": "look",
+      "allomorphs": [
+        "spect",
+        "spic"
+      ],
+      "examples": [
+        "specify",
+        "specific",
+        "special"
+      ],
+      "originalForm": "specere",
+      "originalGloss": "to look at",
+      "familyId": "fam-spect",
+      "note": "spect 的弱化变体，与本文件 rx-spect 同根；单列只为 words.parts 拼写校验。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "rx-specul",
+      "form": "specul",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "观察；瞭望",
+      "glossEn": "observe, watch",
+      "allomorphs": [
+        "spec"
+      ],
+      "examples": [
+        "speculate",
+        "speculation",
+        "speculator"
+      ],
+      "originalForm": "specula",
+      "originalGloss": "watchtower",
+      "familyId": "fam-spect",
+      "note": "拉丁 specula“瞭望塔”< specere“看”。由“登塔观察”引申为“推测、投机”。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "rx-spectr",
+      "form": "spectr",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "影像；光谱",
+      "glossEn": "image, spectrum",
+      "allomorphs": [
+        "spect"
+      ],
+      "examples": [
+        "spectral"
+      ],
+      "originalForm": "spectrum",
+      "originalGloss": "apparition, image",
+      "familyId": "fam-spect",
+      "note": "拉丁 spectrum“影像、幻象”< specere。19 世纪物理学借来表示“光谱”。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "cx-spectro",
+      "form": "spectro",
+      "type": "combining",
+      "origin": "Lat",
+      "glossZh": "光谱",
+      "glossEn": "spectrum",
+      "allomorphs": [],
+      "examples": [
+        "spectroscopy",
+        "spectrometer",
+        "spectrogram"
+      ],
+      "originalForm": "spectrum",
+      "originalGloss": "image, spectrum",
+      "familyId": "fam-spect",
+      "note": "spectrum 的构词连接形式，多用于光学与化学术语。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "cx-scopy",
+      "form": "scopy",
+      "type": "combining",
+      "origin": "Lat",
+      "glossZh": "观察术；检查术",
+      "glossEn": "observation, examination",
+      "allomorphs": [],
+      "examples": [
+        "spectroscopy",
+        "endoscopy",
+        "microscopy"
+      ],
+      "originalForm": "skopein",
+      "originalGloss": "to look at",
+      "familyId": "fam-spect",
+      "note": "希腊 skopein“看”经拉丁化的构词成分，与 -scope 同源：-scope 指仪器，-scopy 指技术。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-in2",
+      "form": "in",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "向内；进入",
+      "glossEn": "into, in",
+      "allomorphs": [
+        "im",
+        "il",
+        "ir"
+      ],
+      "examples": [
+        "inspect",
+        "instruct",
+        "import"
+      ],
+      "originalForm": "in",
+      "originalGloss": "in, into",
+      "familyId": "fam-spect",
+      "note": "拉丁 in“进入”，与否定前缀 in-（不）同形异义。inspect 取“向内看”，不是“不看”。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-intro",
+      "form": "intro",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "向内；内部",
+      "glossEn": "inward, within",
+      "allomorphs": [],
+      "examples": [
+        "introspect",
+        "introspection",
+        "introduce"
+      ],
+      "originalForm": "intro",
+      "originalGloss": "within",
+      "familyId": "fam-spect",
+      "note": "拉丁 intro“向内”，与 inter-（之间）只差一个字母，语义相反。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-a2",
+      "form": "a",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "朝向",
+      "glossEn": "toward",
+      "allomorphs": [],
+      "examples": [
+        "aspect"
+      ],
+      "originalForm": "ad",
+      "originalGloss": "to, toward",
+      "familyId": "fam-spect",
+      "note": "ad- 在 sp 前失落 d 的弱化形式（aspect < ad+specere）。与否定前缀 a-（如 atypical）同形异义。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-ial",
+      "form": "ial",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "形容词后缀",
+      "glossEn": "relating to",
+      "allomorphs": [
+        "al"
+      ],
+      "examples": [
+        "special",
+        "referential",
+        "preferential"
+      ],
+      "originalForm": "-ialis",
+      "originalGloss": "relating to",
+      "familyId": "fam-spect",
+      "note": "-al 的 i- 变体，接在含 i 或拉丁词干后：special、referential。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-acle",
+      "form": "acle",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "名词后缀：事物、手段",
+      "glossEn": "thing, means",
+      "allomorphs": [
+        "icle"
+      ],
+      "examples": [
+        "spectacle",
+        "receptacle",
+        "obstacle"
+      ],
+      "originalForm": "-aculum",
+      "originalGloss": "means, instrument",
+      "familyId": "fam-spect",
+      "note": "拉丁 -culum 经法语 -acle 进入英语，多表器具或事件。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-abil",
+      "form": "abil",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "能够被……的（-able 变体）",
+      "glossEn": "able to be ___ed",
+      "allomorphs": [
+        "able",
+        "ible"
+      ],
+      "examples": [
+        "respectability",
+        "portability",
+        "capability"
+      ],
+      "originalForm": "-abilis",
+      "originalGloss": "capable of",
+      "familyId": "fam-spect",
+      "note": "-able 接 -ity 时词干作 -abil-：respectable→respectability、portable→portability。单列以支持拼写校验。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "inspect",
+      "parts": [
+        "in",
+        "spect"
+      ],
+      "pos": "v",
+      "glossEn": "look closely at",
+      "glossZh": "检查；视察",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 inspicere < in-（向内）+ specere（看）",
+      "derivation": [
+        "in（向内） + spect（看） → inspect"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "inspection",
+        "respect"
+      ],
+      "example": "The engineer inspected the weld seam before release.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "inspection",
+      "parts": [
+        "in",
+        "spect",
+        "ion"
+      ],
+      "pos": "n",
+      "glossEn": "careful examination",
+      "glossZh": "检查；检验",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 inspectio < inspectus，inspect 的名词形式",
+      "derivation": [
+        "in（向内） + spect（看） + ion（名词后缀） → inspection"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "inspect",
+        "inspector"
+      ],
+      "example": "A routine inspection found no cracks in the blade.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "inspector",
+      "parts": [
+        "in",
+        "spect",
+        "or"
+      ],
+      "pos": "n",
+      "glossEn": "one who inspects",
+      "glossZh": "检查员；督察",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 inspector < inspectus，inspect 的施动者名词",
+      "derivation": [
+        "in（向内） + spect（看） + or（施动者） → inspector"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "inspection",
+        "spectator"
+      ],
+      "example": "The safety inspector closed the site for a day.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "respect",
+      "parts": [
+        "re",
+        "spect"
+      ],
+      "pos": "n./v.",
+      "glossEn": "regard; look back at",
+      "glossZh": "尊重；方面",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 respicere < re-（回）+ specere（看）→ respectus",
+      "derivation": [
+        "re（回/再） + spect（看） → respect"
+      ],
+      "semanticShift": "“回头看” → 顾及 → 尊重",
+      "cognates": [
+        "respectful",
+        "disrespect"
+      ],
+      "example": "We respect the limits of the instrument.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "respectful",
+      "parts": [
+        "re",
+        "spect",
+        "ful"
+      ],
+      "pos": "adj",
+      "glossEn": "showing respect",
+      "glossZh": "恭敬的",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "respect + -ful，17 世纪",
+      "derivation": [
+        "re（回/再） + spect（看） + ful（充满…的） → respectful"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "respect",
+        "respectable"
+      ],
+      "example": "Keep a respectful distance from the sample.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "respectable",
+      "parts": [
+        "re",
+        "spect",
+        "able"
+      ],
+      "pos": "adj",
+      "glossEn": "worthy of respect",
+      "glossZh": "体面的；可敬的",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "法语 respectable < respect + -able",
+      "derivation": [
+        "re（回/再） + spect（看） + able（可…的） → respectable"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "respectability",
+        "respectful"
+      ],
+      "example": "The journal has a respectable impact factor.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "respectability",
+      "parts": [
+        "re",
+        "spect",
+        "abil",
+        "ity"
+      ],
+      "pos": "n",
+      "glossEn": "quality of being respectable",
+      "glossZh": "体面；可敬",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "respectable + -ity，-able 在派生中变 -abil-",
+      "derivation": [
+        "re（回/再） + spect（看） + able（可…的） + ity（名词后缀） → respectability；-able + -ity → -ability，拼写变化"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "respectable"
+      ],
+      "example": "The method gained respectability after replication.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "respective",
+      "parts": [
+        "re",
+        "spect",
+        "ive"
+      ],
+      "pos": "adj",
+      "glossEn": "belonging to each separately",
+      "glossZh": "各自的",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "中世纪拉丁 respectivus < respectus",
+      "derivation": [
+        "re（回/再） + spect（看） + ive（形容词后缀） → respective"
+      ],
+      "semanticShift": "“各自相关” → 各自的",
+      "cognates": [
+        "respectively"
+      ],
+      "example": "The two teams returned to their respective labs.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "respectively",
+      "parts": [
+        "re",
+        "spect",
+        "ive",
+        "ly"
+      ],
+      "pos": "adv",
+      "glossEn": "in the order given",
+      "glossZh": "分别地",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "respective + -ly",
+      "derivation": [
+        "re（回/再） + spect（看） + ive（形容词后缀） + ly（副词后缀） → respectively"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "respective"
+      ],
+      "example": "The samples weighed 2.1 and 3.4 grams respectively.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "disrespect",
+      "parts": [
+        "dis",
+        "respect"
+      ],
+      "pos": "n./v.",
+      "glossEn": "lack of respect",
+      "glossZh": "不敬；无礼",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "dis-（不）+ respect，17 世纪",
+      "derivation": [
+        "dis（不/分开） + respect（respect） → disrespect"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "respect",
+        "respectful"
+      ],
+      "example": "Leaving the sample uncovered shows disrespect for the protocol.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "spectator",
+      "parts": [
+        "spect",
+        "ator"
+      ],
+      "pos": "n",
+      "glossEn": "one who watches",
+      "glossZh": "观众",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 spectator < spectare（观看），spectare 为 specere 的反复形式",
+      "derivation": [
+        "spect（看） + ator（施动者） → spectator"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "spectate",
+        "inspect"
+      ],
+      "example": "A spectator asked how the drone stayed level.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "spectate",
+      "parts": [
+        "spect",
+        "ate"
+      ],
+      "pos": "v",
+      "glossEn": "watch an event",
+      "glossZh": "观看（比赛）",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "spectator 的逆构动词（back-formation），20 世纪初见于美式英语体育报道",
+      "derivation": [
+        "spect（看） + ate（动词后缀） → spectate"
+      ],
+      "semanticShift": "由“做观众”逆构出动词“观看比赛”",
+      "cognates": [
+        "spectator"
+      ],
+      "example": "Visitors may spectate but not touch the equipment.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "spectacle",
+      "parts": [
+        "spect",
+        "acle"
+      ],
+      "pos": "n",
+      "glossEn": "impressive sight",
+      "glossZh": "景象；奇观",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 spectaculum（公开演出）< spectare（观看），经古法语 spectacle",
+      "derivation": [
+        "spect（看） + acle（名词后缀） → spectacle"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "spectacular",
+        "spectator"
+      ],
+      "example": "The launch was a spectacle visible for miles.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "perspective",
+      "parts": [
+        "per",
+        "spect",
+        "ive"
+      ],
+      "pos": "n",
+      "glossEn": "point of view; depth view",
+      "glossZh": "视角；透视",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "拉丁 perspectivus < perspicere（看穿）",
+      "derivation": [
+        "per（穿过） + spect（看） + ive（形容词后缀） → perspective"
+      ],
+      "semanticShift": "“看穿” → 透视法 → 视角",
+      "cognates": [
+        "inspect",
+        "aspect"
+      ],
+      "example": "A historical perspective changes the reading of the data.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "speculate",
+      "parts": [
+        "specul",
+        "ate"
+      ],
+      "pos": "v",
+      "glossEn": "form a theory; invest",
+      "glossZh": "推测；投机",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "拉丁 speculari（观察、窥探）< specula（瞭望塔）",
+      "derivation": [
+        "specul（观察） + ate（动词后缀） → speculate"
+      ],
+      "semanticShift": "“瞭望” → 推测 → 金融投机",
+      "cognates": [
+        "speculation",
+        "speculator"
+      ],
+      "example": "The authors speculate that pressure drove the shift.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "speculation",
+      "parts": [
+        "specul",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "reasoned guess; risky investment",
+      "glossZh": "推测；投机",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "拉丁 speculatio < speculari",
+      "derivation": [
+        "specul（观察） + ation（名词后缀） → speculation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "speculate",
+        "speculative"
+      ],
+      "example": "Further speculation is pointless without new samples.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "speculator",
+      "parts": [
+        "specul",
+        "ator"
+      ],
+      "pos": "n",
+      "glossEn": "one who speculates",
+      "glossZh": "投机者；推测者",
+      "domain": "finance",
+      "family": "fam-spect",
+      "etymology": "拉丁 speculator（瞭望者），19 世纪起指投机商",
+      "derivation": [
+        "specul（观察） + ator（施动者） → speculator"
+      ],
+      "semanticShift": "“瞭望者” → 伺机者 → 投机者",
+      "cognates": [
+        "speculate"
+      ],
+      "example": "A speculator bought the land before the survey.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "suspect",
+      "parts": [
+        "sus",
+        "spect"
+      ],
+      "pos": "v./n.",
+      "glossEn": "believe without proof; suspect person",
+      "glossZh": "怀疑；嫌疑人",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 suspicere < sub-（在下）+ specere（看）→ suspectus",
+      "derivation": [
+        "sub-（在下）+ spect（看）→ 从下面看→ 怀疑",
+        "sub- 在 s 前同化为 sus-，ss 再简化为 s"
+      ],
+      "semanticShift": "“从下往上看” → 猜疑",
+      "cognates": [
+        "suspicion",
+        "unsuspecting"
+      ],
+      "example": "Investigators suspect a fault in the cooling loop.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "unsuspecting",
+      "parts": [
+        "un",
+        "sus",
+        "spect",
+        "ing"
+      ],
+      "pos": "adj",
+      "glossEn": "not expecting",
+      "glossZh": "不疑的",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "un-（不）+ suspect + -ing，18 世纪",
+      "derivation": [
+        "un-（不）+ suspect（怀疑）+ -ing（形容词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "suspect"
+      ],
+      "example": "The phishing mail reached unsuspecting staff.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "prospect",
+      "parts": [
+        "pro",
+        "spect"
+      ],
+      "pos": "n",
+      "glossEn": "outlook; possibility",
+      "glossZh": "前景；勘探",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 prospectus < prospicere（向前看）",
+      "derivation": [
+        "pro（向前） + spect（看） → prospect"
+      ],
+      "semanticShift": "“向前看” → 前景 → 勘探",
+      "cognates": [
+        "prospective",
+        "prospector"
+      ],
+      "example": "The prospect of a cheaper sensor drives the design.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "prospective",
+      "parts": [
+        "pro",
+        "spect",
+        "ive"
+      ],
+      "pos": "adj",
+      "glossEn": "expected in the future",
+      "glossZh": "预期的；潜在的",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "拉丁 prospectivus < prospectus",
+      "derivation": [
+        "pro（向前） + spect（看） + ive（形容词后缀） → prospective"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "prospect"
+      ],
+      "example": "Prospective buyers can request a test report.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "prospector",
+      "parts": [
+        "pro",
+        "spect",
+        "or"
+      ],
+      "pos": "n",
+      "glossEn": "one who explores for minerals",
+      "glossZh": "勘探者",
+      "domain": "technical",
+      "family": "fam-spect",
+      "etymology": "prospect + -or，19 世纪淘金语境",
+      "derivation": [
+        "pro（向前） + spect（看） + or（施动者） → prospector"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "prospect"
+      ],
+      "example": "The prospector staked a claim near the ridge.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "retrospect",
+      "parts": [
+        "retro",
+        "spect"
+      ],
+      "pos": "n",
+      "glossEn": "a look back",
+      "glossZh": "回顾",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "拉丁 retrospectus < retro-（向后）+ specere",
+      "derivation": [
+        "retro（向后） + spect（看） → retrospect"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "retrospective",
+        "prospect"
+      ],
+      "example": "In retrospect, the first model was too complex.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "retrospective",
+      "parts": [
+        "retro",
+        "spect",
+        "ive"
+      ],
+      "pos": "adj./n.",
+      "glossEn": "looking back; exhibition",
+      "glossZh": "回顾的；回顾展",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "retrospect + -ive，17 世纪",
+      "derivation": [
+        "retro（向后） + spect（看） + ive（形容词后缀） → retrospective"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "retrospect"
+      ],
+      "example": "The paper offers a retrospective on ten years of trials.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "circumspect",
+      "parts": [
+        "circum",
+        "spect"
+      ],
+      "pos": "adj",
+      "glossEn": "cautious, looking around",
+      "glossZh": "谨慎的",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "拉丁 circumspectus < circum-（环绕）+ specere",
+      "derivation": [
+        "circum（环绕） + spect（看） → circumspect"
+      ],
+      "semanticShift": "“环顾四周” → 谨慎",
+      "cognates": [
+        "circumspection"
+      ],
+      "example": "Be circumspect when quoting preliminary numbers.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "circumspection",
+      "parts": [
+        "circum",
+        "spect",
+        "ion"
+      ],
+      "pos": "n",
+      "glossEn": "caution",
+      "glossZh": "谨慎；审慎",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "拉丁 circumspectio < circumspectus",
+      "derivation": [
+        "circum（环绕） + spect（看） + ion（名词后缀） → circumspection"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "circumspect"
+      ],
+      "example": "Circumspection is required before publishing the map.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "aspect",
+      "parts": [
+        "a",
+        "spect"
+      ],
+      "pos": "n",
+      "glossEn": "one side of a matter; look",
+      "glossZh": "方面；外观",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 aspectus < ad-（朝向）+ specere",
+      "derivation": [
+        "a（朝向） + spect（看） → aspect"
+      ],
+      "semanticShift": "“朝向看” → 外观 → 方面",
+      "cognates": [
+        "perspective",
+        "inspect"
+      ],
+      "example": "Cost is only one aspect of the decision.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "expect",
+      "parts": [
+        "ex",
+        "pect"
+      ],
+      "pos": "v",
+      "glossEn": "regard as likely",
+      "glossZh": "期待；预期",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 exspectare < ex-（向外）+ spectare（看）",
+      "derivation": [
+        "ex（向外） + spect（看） → expect；ex- + spect → expect，s 脱落（拉丁异体 expectare）"
+      ],
+      "semanticShift": "“向外张望” → 期待",
+      "cognates": [
+        "expectation",
+        "expectant"
+      ],
+      "example": "We expect the run to finish before noon.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "expectation",
+      "parts": [
+        "ex",
+        "pect",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "belief about the future",
+      "glossZh": "期望；预期",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 exspectatio < exspectare",
+      "derivation": [
+        "ex（向外） + spect（看） + ation（名词后缀） → expectation；ex- + spect → expect，s 脱落"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "expect",
+        "expectancy"
+      ],
+      "example": "The result fell short of expectation.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "unexpected",
+      "parts": [
+        "un",
+        "ex",
+        "pect",
+        "ed"
+      ],
+      "pos": "adj",
+      "glossEn": "not anticipated",
+      "glossZh": "意外的",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "un-（不）+ expect + -ed，16 世纪",
+      "derivation": [
+        "un（不） + ex（向外） + spect（看） + ed（过去/被动） → unexpected；ex- + spect → expect，s 脱落"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "expect"
+      ],
+      "example": "An unexpected drop in pressure stopped the test.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "expectant",
+      "parts": [
+        "ex",
+        "pect",
+        "ant"
+      ],
+      "pos": "adj",
+      "glossEn": "waiting hopefully",
+      "glossZh": "期待的",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "拉丁 exspectans，exspectare 的现在分词",
+      "derivation": [
+        "ex（向外） + spect（看） + ant（形/名后缀） → expectant；ex- + spect → expect，s 脱落"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "expectation"
+      ],
+      "example": "The expectant crowd waited for the first image.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "expectancy",
+      "parts": [
+        "ex",
+        "pect",
+        "ancy"
+      ],
+      "pos": "n",
+      "glossEn": "state of expecting",
+      "glossZh": "预期（寿命等）",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "expectant + -cy（-ancy 变体），17 世纪",
+      "derivation": [
+        "ex（向外） + spect（看） + ancy（名词后缀） → expectancy；ex- + spect → expect，s 脱落"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "expectation"
+      ],
+      "example": "Average life expectancy rose by six years.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "introspect",
+      "parts": [
+        "intro",
+        "spect"
+      ],
+      "pos": "v",
+      "glossEn": "examine one's own thoughts",
+      "glossZh": "内省",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "拉丁 introspicere < intro-（向内）+ specere",
+      "derivation": [
+        "intro（向内） + spect（看） → introspect"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "introspection"
+      ],
+      "example": "Good analysts introspect on their own assumptions.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "introspection",
+      "parts": [
+        "intro",
+        "spect",
+        "ion"
+      ],
+      "pos": "n",
+      "glossEn": "self-examination",
+      "glossZh": "内省",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "拉丁 introspectio，19 世纪英语复活",
+      "derivation": [
+        "intro（向内） + spect（看） + ion（名词后缀） → introspection"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "introspect"
+      ],
+      "example": "A week of introspection followed the failed launch.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "specify",
+      "parts": [
+        "spec",
+        "ify"
+      ],
+      "pos": "v",
+      "glossEn": "state precisely",
+      "glossZh": "具体说明；规定",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "中世纪拉丁 specificare < species（种类）+ facere（做）",
+      "derivation": [
+        "spec（看） + ify（使…） → specify"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "specific",
+        "specification"
+      ],
+      "example": "The contract specifies a tolerance of 0.1 mm.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "specific",
+      "parts": [
+        "spec",
+        "ific"
+      ],
+      "pos": "adj",
+      "glossEn": "precise; relating to a kind",
+      "glossZh": "具体的；特定的",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "晚期拉丁 specificus < species（种类）",
+      "derivation": [
+        "spec（看） + ific（造成…的） → specific"
+      ],
+      "semanticShift": "“属于某一种类” → 特定的",
+      "cognates": [
+        "specify",
+        "specificity"
+      ],
+      "example": "Give a specific example, not a general claim.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "specification",
+      "parts": [
+        "spec",
+        "ific",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "detailed description",
+      "glossZh": "规格；详述",
+      "domain": "technical",
+      "family": "fam-spect",
+      "etymology": "中世纪拉丁 specificatio < specificare",
+      "derivation": [
+        "spec（看） + ific（造成…的） + ation（名词后缀） → specification"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "specify",
+        "specific"
+      ],
+      "example": "The specification lists every allowed alloy.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "specificity",
+      "parts": [
+        "spec",
+        "ific",
+        "ity"
+      ],
+      "pos": "n",
+      "glossEn": "quality of being specific",
+      "glossZh": "特异性；专一性",
+      "domain": "technical",
+      "family": "fam-spect",
+      "etymology": "specific + -ity，19 世纪",
+      "derivation": [
+        "spec（看） + ific（造成…的） + ity（名词后缀） → specificity"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "specific"
+      ],
+      "example": "The assay reaches high specificity for the target.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "specifically",
+      "parts": [
+        "spec",
+        "ific",
+        "al",
+        "ly"
+      ],
+      "pos": "adv",
+      "glossEn": "in a precise way",
+      "glossZh": "具体地；特别地",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "specific + -al + -ly",
+      "derivation": [
+        "spec（看） + ific（造成…的） + al（形容词后缀） + ly（副词后缀） → specifically"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "specific"
+      ],
+      "example": "The rule applies specifically to sealed units.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "special",
+      "parts": [
+        "spec",
+        "ial"
+      ],
+      "pos": "adj",
+      "glossEn": "distinct; exceptional",
+      "glossZh": "特别的；专门的",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "拉丁 specialis < species（外观、种类）",
+      "derivation": [
+        "spec（看） + ial（形容词后缀） → special"
+      ],
+      "semanticShift": "“属于某一种” → 特别的",
+      "cognates": [
+        "specialist",
+        "specialty"
+      ],
+      "example": "This case needs special handling.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "specially",
+      "parts": [
+        "spec",
+        "ial",
+        "ly"
+      ],
+      "pos": "adv",
+      "glossEn": "for a particular purpose",
+      "glossZh": "专门地",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "special + -ly",
+      "derivation": [
+        "spec（看） + ial（形容词后缀） + ly（副词后缀） → specially"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "special"
+      ],
+      "example": "The lens was specially coated for the test.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "specialist",
+      "parts": [
+        "spec",
+        "ial",
+        "ist"
+      ],
+      "pos": "n",
+      "glossEn": "expert in one field",
+      "glossZh": "专家",
+      "domain": "academic",
+      "family": "fam-spect",
+      "etymology": "special + -ist，19 世纪",
+      "derivation": [
+        "spec（看） + ial（形容词后缀） + ist（ist） → specialist"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "special",
+        "specialty"
+      ],
+      "example": "A specialist reviewed the corrosion report.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "specialty",
+      "parts": [
+        "spec",
+        "ial",
+        "ty"
+      ],
+      "pos": "n",
+      "glossEn": "special field or product",
+      "glossZh": "专长；特产",
+      "domain": "general",
+      "family": "fam-spect",
+      "etymology": "古法语 especialte < specialis",
+      "derivation": [
+        "spec（看） + ial（形容词后缀） + ty（名词后缀） → specialty"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "special",
+        "specialist"
+      ],
+      "example": "Fiber optics is the lab's specialty.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "spectral",
+      "parts": [
+        "spectr",
+        "al"
+      ],
+      "pos": "adj",
+      "glossEn": "of a spectrum; ghostly",
+      "glossZh": "光谱的；幽灵般的",
+      "domain": "technical",
+      "family": "fam-spect",
+      "etymology": "拉丁 spectrum（影像）+ -al，19 世纪物理义",
+      "derivation": [
+        "spectr（影像） + al（形容词后缀） → spectral"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "spectroscopy"
+      ],
+      "example": "Spectral lines reveal the composition of the gas.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "spectroscopy",
+      "parts": [
+        "spectro",
+        "scopy"
+      ],
+      "pos": "n",
+      "glossEn": "study of spectra",
+      "glossZh": "光谱学",
+      "domain": "technical",
+      "family": "fam-spect",
+      "etymology": "spectro-（光谱）+ -scopy（观察术），19 世纪",
+      "derivation": [
+        "spectro（光谱） + scopy（观察术） → spectroscopy"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "spectrometer",
+        "spectroscope"
+      ],
+      "example": "Raman spectroscopy identified the pigment.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "spectrometer",
+      "parts": [
+        "spectro",
+        "meter"
+      ],
+      "pos": "n",
+      "glossEn": "instrument measuring spectra",
+      "glossZh": "光谱仪",
+      "domain": "technical",
+      "family": "fam-spect",
+      "etymology": "spectro- + -meter（测量仪），19 世纪",
+      "derivation": [
+        "spectro（光谱） + meter（测量仪） → spectrometer"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "spectroscopy"
+      ],
+      "example": "The mass spectrometer ran overnight.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "spectroscope",
+      "parts": [
+        "spectro",
+        "scope"
+      ],
+      "pos": "n",
+      "glossEn": "instrument for viewing spectra",
+      "glossZh": "分光镜",
+      "domain": "technical",
+      "family": "fam-spect",
+      "etymology": "spectro- + -scope（观察仪），19 世纪",
+      "derivation": [
+        "spectro（光谱） + scope（观察仪） → spectroscope"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "spectroscopy"
+      ],
+      "example": "A simple spectroscope splits light into bands.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "spectrogram",
+      "parts": [
+        "spectro",
+        "gram"
+      ],
+      "pos": "n",
+      "glossEn": "recorded spectrum",
+      "glossZh": "光谱图；声谱图",
+      "domain": "technical",
+      "family": "fam-spect",
+      "etymology": "spectro- + -gram（记录图），20 世纪",
+      "derivation": [
+        "spectro（光谱） + gram（记录图） → spectrogram"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "spectroscopy"
+      ],
+      "example": "The spectrogram shows a sharp peak at 2 kHz.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    }
+  ]
+}

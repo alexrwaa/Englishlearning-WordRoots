@@ -1,0 +1,39 @@
+{
+  "morphemeId": "rx-spec",
+  "latin": "specere",
+  "glossEn": "to look at",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "specto",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 587815,
+      "quote": "gpecto, Svi, atom, 1 ,vfieq a [id], to  look at, behold, to gaze at, natch, obsene ,",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "entryNote": "OCR mangles the headword (\"gpecto, Svi, atom, 1 ,vfieq a\"); the gloss \"to look at, behold\" is intact. specto is the frequentative of specio."
+    },
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "spectio",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 587808,
+      "quote": "spcctio, oms,/ [specio], in the lang  or augurs, an observing of the auspices ,  hence, al c o, the right of observing them",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "entryNote": "Derivative of specio: \"[specio], in the language of augurs, an observing of the auspices\". This is the only place where the base verb specio itself is named in L&S."
+    }
+  ],
+  "verdict": "supports",
+  "note": "L&S 的 specto（specio 的反复形）释义为 \"to look at, behold\"，派生词 spectio 明确标注 [specio]，与词库 specere「看」一致。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

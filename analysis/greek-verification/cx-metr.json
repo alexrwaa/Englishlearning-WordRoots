@@ -1,0 +1,44 @@
+{
+  "morphemeId": "cx-metr",
+  "claim": {
+    "type": "root-sense",
+    "text": "metr- 来自希腊语 μέτρον，义为「量度、尺度」（-meter/-metry 的词干来源）"
+  },
+  "records": [
+    {
+      "source": "G3",
+      "work": "LSJ (Liddell-Scott-Jones, 9th ed.)",
+      "headword": "μέτρον",
+      "locator": "entry μέτρον, sense 1 (level 1)",
+      "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott47.xml#L3868",
+      "quote": "<i>that by which anything is measured</i>",
+      "quoteNormalized": "that by which anything is measured",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "tz": "Asia/Shanghai"
+    },
+    {
+      "source": "G3",
+      "work": "LSJ (Liddell-Scott-Jones, 9th ed.)",
+      "headword": "μέτρον",
+      "locator": "entry μέτρον, sense I.1 (level 3)",
+      "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott47.xml#L3868",
+      "quote": "<i>measure, rule,</i>",
+      "quoteNormalized": "measure, rule,",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "tz": "Asia/Shanghai"
+    }
+  ],
+  "verdict": "supports",
+  "note": "μέτρον 首义「用来量某物的东西」，随即给出「measure, rule」；这正是 -meter/-metry 的语义来源。同条目的 sense II 另有「格律、诗行」义（metre），属同一词的另一支发展，容易与「测量」义混淆，词库释义应只取 sense I。",
+  "quoteNote": "quote 为源文件中的连续原文片段，只保留行内 <i> 斜体标记；quoteNormalized 为去掉标签与变音符号后的文本。",
+  "coverage": {
+    "root-sense": "supported",
+    "borrowing-path": "not-covered",
+    "classical-derivation": "not-covered",
+    "modern-structure": "not-covered",
+    "modern-sense": "not-covered"
+  },
+  "borrowingPathNote": "telemetry/odometry 等英语词的构词与借入路径未核验；LSJ 只提供希腊语一侧的义项。"
+}

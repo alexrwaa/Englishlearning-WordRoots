@@ -254,6 +254,13 @@ pub fn delete_note(db: State<Db>, id: i64) -> Result<(), String> {
     Ok(())
 }
 
+/// Read-only window of answered exercises for the learning report.
+#[tauri::command]
+pub fn load_attempts(db: State<Db>, limit: Option<i64>) -> Result<Vec<db::AttemptRow>, String> {
+    let conn = db.0.lock().map_err(|e| e.to_string())?;
+    db::attempts(&conn, limit.unwrap_or(2000).clamp(1, 20_000))
+}
+
 #[tauri::command]
 pub fn load_bookmarks(db: State<Db>) -> Result<Vec<BookmarkRow>, String> {
     let conn = db.0.lock().map_err(|e| e.to_string())?;

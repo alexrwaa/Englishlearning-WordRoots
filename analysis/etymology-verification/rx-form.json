@@ -1,0 +1,43 @@
+{
+  "morphemeId": "rx-form",
+  "claim": "form < 拉丁 forma「形状、模子」",
+  "records": [
+    {
+      "word": "form",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "form",
+      "url": "https://en.wiktionary.org/w/index.php?title=form&action=raw",
+      "quote": "from Latin fōrma 'shape, figure, image, outline, plan, mold, frame, case, etc., manner, sort, kind, etc.'",
+      "etymon": "fōrma",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "inform",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "inform",
+      "url": "https://en.wiktionary.org/w/index.php?title=inform&action=raw",
+      "quote": "from Latin īnfōrmō 'to shape, form, train, instruct, educate', from in- 'into' + fōrma 'form, shape'",
+      "etymon": "fōrma",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "deform",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "deform",
+      "url": "https://en.wiktionary.org/w/index.php?title=deform&action=raw",
+      "quote": "from its Latin dēfōrmis, from dē- + fōrma",
+      "etymon": "fōrma",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "form / inform / deform 三条独立条目均给出 fōrma；deform 条目另注 fōrma 的进一步来源尚无定论（或与 μορφή 有关，Pre-Greek）。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

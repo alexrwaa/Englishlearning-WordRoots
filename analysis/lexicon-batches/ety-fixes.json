@@ -1,0 +1,895 @@
+{
+  "$comment": "Etymology & word-formation corrections. (a) words: 7 high-risk entries, four layers each — historical derivation, modern synchronic structure, pedagogical split, productive rule; genuinely disputed etymologies keep all views in ety.contested. (b) morphemes: two enrichment-only fixes found while cross-checking src/content/families/*.json (rx-duc missing familyId, cx-chron empty variants/examples). partIds must reference existing morphemes.json ids only. NOTE: merge can only add examples/allomorphs, never remove them — rx-stru's wrong example 'menstrual' needs a direct edit by the merge owner.",
+  "schemaVersion": 1,
+  "words": [
+    {
+      "w": "captain",
+      "parts": [
+        "capt",
+        "ain"
+      ],
+      "partIds": [
+        "rx-capit",
+        "sx-ain"
+      ],
+      "verified": true,
+      "ety": {
+        "historical": "中古英语 capitain（14c.）< 古法语 capitain / capitaine（12c.）< 晚期拉丁 capitaneus「首领」< 拉丁 caput, capitis「头」+ 形容词后缀 -aneus。它是**整词借入**：英语没有经历过「caput + -ain」这一步构造，-ain 是随法语词一起进来的。",
+        "synchronic": "母语者可识别 capt-（capital、decapitate、capitate 的「头」）与 -ain 的组合，其中 capt 是 capit- 的缩合形式（词干元音 i 在派生中脱落）。但 -ain 只出现在 captain、chieftain、chaplain、sovereign、villain 这一封闭词集里，**不是能产后缀**。",
+        "teaching": "教学切分：capt（头；首要）+ -ain（……的人）→ 领头的人 → 船长/队长。**教学用**；须补一句「-ain 只在这几个词里出现，不能拿来造新词」。",
+        "productive": "可复用规则有两条，方向相反：① cap-「头」在学术词汇中能产——capital、capitalism、decapitate、capitulate、per capita；② -ain 不能产，只能整词记（captain、chieftain、chaplain、sovereign、villain）。③ 高频陷阱：capt- 有两个来源——caput「头」（captain、capital）与 capere「抓」（capture、captive、captivate），同形异源，不可互推。",
+        "contested": []
+      },
+      "note": "保留 verified=true：capt + ain 的切分与 rx-capit 声明的 allomorph capt 一致，词源链（caput→capitaneus→capitaine→captain）无争议。但 -ain 的非能产性必须在教学里限定为封闭词集；另注 capt- 与 capere 来源的 capture/captive 同形异源。",
+      "sources": [
+        {
+          "id": "S5",
+          "detail": "Oxford English Dictionary, 3rd ed. (online), s.v. \"captain, n.\"（< Old French capitaine < late Latin capitaneus）"
+        },
+        {
+          "id": "S5",
+          "detail": "Online Etymology Dictionary, s.v. \"captain\" — https://www.etymonline.com/word/captain"
+        },
+        {
+          "id": "G1",
+          "detail": "Lewis & Short, A Latin Dictionary, s.v. \"caput\" 与 \"căpĭtānĕus\"；TLFi, s.v. \"capitaine\""
+        },
+        {
+          "id": "S1",
+          "detail": "English Vocabulary Elements, 3rd ed., C9 reference forms（capit / -ain 的词素表条目）"
+        }
+      ]
+    },
+    {
+      "w": "credo",
+      "parts": [
+        "credo"
+      ],
+      "partIds": [
+        null
+      ],
+      "verified": true,
+      "ety": {
+        "historical": "直接借自拉丁语动词 credō「我相信」——第一人称单数现在时主动陈述式，是《使徒信经》《尼西亚信经》拉丁文本的首词。英语 16 世纪起用它指「信经」，19 世纪起泛指「（个人的）一套信念」。同源借词 creed 走的是另一条路：古英语 crēda < 拉丁 credo，被英语化成一个独立词形。",
+        "synchronic": "现代英语中 credo 是**整体借入的名词**，母语者不把它当「词根 + 后缀」。词尾 -o 既不是英语后缀，也不是连接元音，而是拉丁第一人称单数的**屈折词尾**——它标记的是「我说」这个语法信息，不是构词成分。",
+        "teaching": "教学切分：cred（相信）+ -o（拉丁语「我」）→「我相信」。**教学用，非历史构词**；必须同时说明 -o 是屈折词尾，不是 cx-o 那个希腊连接元音，否则学生会把 *video、*audio 之类也按「连接元音」解释。",
+        "productive": "可复用规则：①cred- 高度能产（credit、credible、credential、incredulous、creed）；②拉丁/意大利语常把整句首词借作名词，词尾元音是形态标记而非英语词缀（credo「我相信」、placebo「我将取悦」、video「我看见」、ego「我」、item「同样地」）。学到的是「不要把借词词尾当后缀」，不是「-o 能造名词」。",
+        "contested": []
+      },
+      "note": "整词记录（parts=[credo]）：词尾 -o 是拉丁第一人称屈折词尾，不是派生后缀；此前挂 cx-o（希腊连接元音）是同形误挂。verified=true 指「整词处理已复核」，cred- 的联系保留在 ety.teaching / ety.productive。",
+      "sources": [
+        {
+          "id": "S5",
+          "detail": "Oxford English Dictionary, 3rd ed. (online), s.v. \"credo, n.\"（信经首词；引申义「信条」）"
+        },
+        {
+          "id": "S5",
+          "detail": "Online Etymology Dictionary, s.v. \"credo\" — https://www.etymonline.com/word/credo"
+        },
+        {
+          "id": "G1",
+          "detail": "Lewis & Short, A Latin Dictionary, s.v. \"crēdo\"（1sg. pres. act. ind. of crēdere）；对照 placebo、video 的同类借入"
+        },
+        {
+          "id": "LEX",
+          "detail": "本项目规则：屈折词尾不映射为派生词缀 ID；cx-o 仅指希腊连接元音"
+        }
+      ]
+    },
+    {
+      "w": "intercom",
+      "parts": [
+        "intercom"
+      ],
+      "partIds": [
+        null
+      ],
+      "verified": true,
+      "ety": {
+        "historical": "美国英语 1918 年前后出现的截短复合词（clipping/truncation），直接来源是 intercommunication（inter- + communication）的缩略，早期指舰船、办公楼内的「内部通话装置」，曾带商标性质。它不是拉丁语词，也不是 in- + com- 的派生。",
+        "synchronic": "母语者能拆成 inter-（能产前缀「之间/相互」）+ com，但 com 是 communication 的**截短残余（splinter）**，不是拉丁前缀 com-「共同」。「内部」义来自 inter- 的「在群体之内」，不是来自 com。",
+        "teaching": "教学切分：inter（之间/内部）+ com（communication 的截短）→ 内部通话。**教学用，非历史**；不要教成 in- + com「共同」，也不要把它接到 px-com（con- 的唇音变体）上。",
+        "productive": "可复用规则：inter- 高度能产，可直接加在名词/形容词前表「之间、相互、内部」（intercity、interface、international、intercom）；但「截短词尾」本身不是规则，属零星造词，学习者不应仿造 *interphone/*intertalk 去类推。",
+        "contested": []
+      },
+      "note": "整词记录（parts=[intercom]）：inter- 可拆，但 com 是 communication 的截短残余，词根库没有对应 ID；此前挂 px-com（con- 唇音变体）是同形误挂。verified=true 指「整词处理已复核」，inter- 的联系保留在 ety.teaching。",
+      "sources": [
+        {
+          "id": "S5",
+          "detail": "Oxford English Dictionary, 3rd ed. (online), s.v. \"intercom, n.\"（首见 1918，标注为 intercommunication 的缩略）"
+        },
+        {
+          "id": "S5",
+          "detail": "Online Etymology Dictionary, s.v. \"intercom\" — https://www.etymonline.com/word/intercom"
+        },
+        {
+          "id": "G1",
+          "detail": "Merriam-Webster Unabridged, s.v. \"intercom\"（释义：a two-way internal communication system）"
+        },
+        {
+          "id": "LEX",
+          "detail": "本项目规则：截短残余（splinter）不映射到同形前缀 ID；无对应 ID 时整词记录并置 null"
+        }
+      ]
+    },
+    {
+      "w": "laptop",
+      "parts": [
+        "laptop"
+      ],
+      "partIds": [
+        null
+      ],
+      "verified": true,
+      "ety": {
+        "historical": "20 世纪 80 年代初（1983–84 年）出现的现代英语复合词，早期拼作 lap-top (computer)，以 desktop 为模板造出。两个成分都是本土日耳曼语词：lap < 古英语 læppa「衣摆、膝上」，top < 古英语 topp「顶端」。**与拉丁/希腊词根无关**。",
+        "synchronic": "对母语者是完全透明的向心复合词（endocentric compound）：lap（膝上，处所）+ top（上面）→「放在膝上用的（电脑）」，整体义可由成分推出。这是**自由语素的复合**，不是词根+词缀的派生。",
+        "teaching": "教学切分：lap（膝上）+ top（上面）。**教学用，非词根切分**；务必声明 top 是英语自由语素「顶部」，与希腊词根 top-（topos「地方」，见 cx-top，如 topology）**同形异源**，二者无任何构词关系。",
+        "productive": "可复用规则：英语 N+N 复合可表处所/用途（laptop、desktop、palmtop、tabletop、hilltop），中心词在后、修饰语在前；同一模式还被类推到产品类别命名（-top 一度成为「一类电脑」的能产尾巴）。注意这条规则属于**复合构词**，不属于拉丁词根派生。",
+        "contested": []
+      },
+      "note": "整词记录（parts=[laptop]）：lap+top 是**自由语素复合**，词根库无对应 ID；此前 [lap, top] 使 top 经 forms.json 命中 cx-top（希腊 topos「地方」），是同形异源误挂。verified=true 表示「按整词处理这一决定已复核」，不是声称该词不可再拆——可拆性写在 ety.synchronic/teaching。",
+      "sources": [
+        {
+          "id": "S5",
+          "detail": "Oxford English Dictionary, 3rd ed. (online), s.v. \"laptop, n. (and adj.)\"（首见 1983–84，早期 lap-top）"
+        },
+        {
+          "id": "S5",
+          "detail": "Online Etymology Dictionary, s.v. \"laptop\" — https://www.etymonline.com/word/laptop"
+        },
+        {
+          "id": "G1",
+          "detail": "Merriam-Webster, s.v. \"laptop\"；对照 \"desktop\" 的同类复合"
+        },
+        {
+          "id": "LEX",
+          "detail": "本项目规则：自由语素复合不得映射到同形异源的古典词根 ID（同 homograph-fix 的处理原则）"
+        }
+      ]
+    },
+    {
+      "w": "lucid",
+      "parts": [
+        "luc",
+        "id"
+      ],
+      "partIds": [
+        "cx-lumen-lumin",
+        "sx-id"
+      ],
+      "verified": true,
+      "ety": {
+        "historical": "拉丁 lucidus「明亮的、（文风）清楚的」< lucēre「发光」< lux, lucis「光」。16 世纪经法语 lucide 或直接自拉丁进入英语，早期用于医学与天文（如 lucid interval「（精神病的）清醒期」），17 世纪起发展出「（表达、思路）清楚」的比喻义。",
+        "synchronic": "luc-（语义不透明的粘着词根）+ -id（拉丁 -idus 形容词后缀，同 rigid、humid、tepid、placid、vivid）。母语者能识别 -id 这个形容词模式，但 luc- 的「光」义要靠词族（elucidate、translucent）才能唤起，属半透明结构。",
+        "teaching": "教学切分：luc（光）+ -id（有……性质的）→ 有光的 → 明白的。**教学用**；-id 可教成规则，luc- 只在本词族内教。",
+        "productive": "可复用规则：① -id 构成形容词（rigid、humid、liquid、placid、vivid、tepid、lucid），语义多为「具有某性质」；② luc- 词族：elucidate、translucent、lucifer、lucidity——同出印欧 *lewk-「光」。③ 注意：拉丁语中 lux/luc-（光）与 lumen/lumin-（光源、光）是**两个不同词位**，只是同根；词根库把 luc 列为 cx-lumen-lumin 的 allomorph 属教学简化，不等于二者是同一词素。",
+        "contested": [
+          {
+            "view": "词素归属之争（非词源之争）：luc- 是否应独立为 rx-luc，而不是挂在 cx-lumen-lumin 名下当 allomorph",
+            "evidence": "拉丁语 lux, lucis 与 lumen, luminis 是两个独立词位，虽同出 PIE *lewk-；把 luc 作为 lumen 的 allomorph 会让词族矩阵把「发光」与「光源」混为一谈，但拆出新 ID 又会让 lucid / translucent / elucidate 的聚合断开。",
+            "confidence": "medium"
+          }
+        ]
+      },
+      "note": "切分 luc+id 与拉丁 lucidus < lucere 一致，故 verified=true；但 cx-lumen-lumin 把 luc 收作 allomorph 是形式合并（lux 与 lumen 在拉丁语中为不同词位），已作为「词素归属之争」写入 ety.contested，供主端决定是否拆出 rx-luc。",
+      "sources": [
+        {
+          "id": "S5",
+          "detail": "Oxford English Dictionary, 3rd ed. (online), s.v. \"lucid, adj.\"（< Latin lucidus < lucere）"
+        },
+        {
+          "id": "S5",
+          "detail": "Online Etymology Dictionary, s.v. \"lucid\" — https://www.etymonline.com/word/lucid"
+        },
+        {
+          "id": "G1",
+          "detail": "Lewis & Short, A Latin Dictionary, s.v. \"lūcĭdus\"、\"lux\"、\"lūmen\""
+        },
+        {
+          "id": "S1",
+          "detail": "English Vocabulary Elements, 3rd ed., C6（lumen/lumin 词根条目，allomorph 表含 luc）"
+        }
+      ]
+    },
+    {
+      "w": "psyche",
+      "parts": [
+        "psych",
+        "e"
+      ],
+      "partIds": [
+        "cx-psych",
+        null
+      ],
+      "verified": true,
+      "ety": {
+        "historical": "希腊 ψυχή (psūkhē)「气息、生命、灵魂」，一般认为与 psūkhein「吹、呼吸」同源。希腊神话中 Psykhē 是 Eros 的凡间妻子，后世被寓意为「灵魂」（阿普列乌斯《金驴记》）。英语 17c（1640s）借用为「灵魂/精神」；19 世纪经德语心理学传统（Psychologie）确立「心灵」这一术语义。",
+        "synchronic": "psych- 在现代英语是高度能产的**粘着组合形式**（psychology、psychic、psychiatry、psychosomatic）；psyche 本身是整体借词，词尾 -e 拼写希腊语 -η (ēta)，既不是英语后缀，也不是「沉默 e」那种正字法现象。",
+        "teaching": "教学切分：psych（心智）+ -e（希腊语词尾，非后缀）→ 心灵。**教学用**；须说明 -e 不承载意义，不能像 -ness/-ity 那样替换。",
+        "productive": "可复用规则：① psych- 作组合形式常带连接元音 -o- 再接后缀（psych-o-logy、psych-o-sis、psych-o-somatic），这是希腊来源术语的标准拼法；② 希腊第一变格 -η 借入英语作 -e（psyche、epitome、Nike、Penelope），属**借词拼写对应**，不是能产后缀。",
+        "contested": []
+      },
+      "note": "psych 对应 cx-psych 正确，故 verified 保留；第二段 'e' 是希腊语词尾的拼写残留，partIds 置 null、partResolution 为 unresolved 属预期，不应为了「凑 exact」硬挂 cx-o 之类 ID。",
+      "sources": [
+        {
+          "id": "S5",
+          "detail": "Oxford English Dictionary, 3rd ed. (online), s.v. \"psyche, n.¹\"（< Greek ψυχή）"
+        },
+        {
+          "id": "S5",
+          "detail": "Online Etymology Dictionary, s.v. \"psyche\" — https://www.etymonline.com/word/psyche"
+        },
+        {
+          "id": "G1",
+          "detail": "Liddell & Scott, A Greek-English Lexicon, s.v. \"ψυχή\"；Apuleius, Metamorphoses IV.28–VI.24（Cupid and Psyche）"
+        },
+        {
+          "id": "S1",
+          "detail": "English Vocabulary Elements, 3rd ed., C1（psych 词根条目）"
+        }
+      ]
+    },
+    {
+      "w": "religion",
+      "parts": [
+        "re",
+        "lig",
+        "ion"
+      ],
+      "partIds": [
+        "px-re",
+        "cx-lig",
+        "sx-ion"
+      ],
+      "verified": false,
+      "ety": {
+        "historical": "拉丁 religiō, -ōnis（名词）经古法语 religion（12c.）进入中古英语 religioun（约 1200 年）。拉丁语内部对它的构成有两套古代分析，且互相冲突：西塞罗取 relegere（re- + legere「反复诵读/仔细过一遍」→「审慎、敬畏」），拉克坦提乌斯与奥古斯丁取 religare（re- + ligare「绑」→「人与神的联结」）。这不是「随便哪个都行」的同义解释，而是两个不同的词根（leg- vs lig-）。",
+        "synchronic": "对今天的母语者，religion 是**单语素借词**：re- 不触发「再次」的解读（对比 rebuild、return），-ion 也不能自由替换（*religate、*religion 之外没有 religion+ 的能产派生）。因此 re + lig + ion 只是拼写切分，不是共时构词结构。",
+        "teaching": "助记切分：re（回/再）+ lig（绑）+ -ion →「把自己重新绑住」。**教学用，非历史**。若采信 relegere 说，第二段实际是 leg（读/采集）而 RELIGARE 说的 lig（绑）不同；两种说法下助记句都要标注为记忆装置，不是词源结论。",
+        "productive": "能产的是两端，不是中间：① -ion 把动词名词化（但 religion 是拉丁遗留，不参与英语的 -ion 派生）；② religion → religious → religiously → religiosity 这条形容词/名词派生链是活的。lig-「绑」的聚合（oblige、ligament、league、liable）真实存在，但 religion 不在其中，不能靠 religion 教 lig-。",
+        "contested": [
+          {
+            "view": "relegere 说：re- + legere「反复诵读、仔细对待」→「审慎/敬畏」→ religion",
+            "evidence": "西塞罗 De natura deorum 2.72 明言 a relegendo；形态上 relegere→religio 与 legere→legio 属同一类 -io 名词化；OED 3rd ed. s.v. religion 及 de Vaan, Etymological Dictionary of Latin s.v. religio 均以此为主流。",
+            "confidence": "medium-high"
+          },
+          {
+            "view": "religare 说：re- + ligare「绑紧」→「人与神的联结」",
+            "evidence": "拉克坦提乌斯 Divinae institutiones 4.28、奥古斯丁 De vera religione 的基督教辩护；语义上极有吸引力，后世布道与通俗词源广泛沿用。形态弱点：ligare 的规则动作名词是 religatio，religio 并不合该模式。",
+            "confidence": "low-medium"
+          }
+        ]
+      },
+      "note": "四层已分：历史=拉丁借词，relegere/religare 两说并存（本项目不二选一）；共时=单语素借词，re+lig+ion 不是能产切分；教学=re+lig+ion 仅助记并已标注；能产=religious/religiosity 派生链。verified=false：现有切分隐含采信了有争议的 religare 一说。",
+      "sources": [
+        {
+          "id": "S5",
+          "detail": "Oxford English Dictionary, 3rd ed. (online), s.v. \"religion\", etymology"
+        },
+        {
+          "id": "S5",
+          "detail": "Online Etymology Dictionary, s.v. \"religion\" — https://www.etymonline.com/word/religion"
+        },
+        {
+          "id": "S5",
+          "detail": "de Vaan, Etymological Dictionary of Latin and the other Italic Languages (2008), s.v. \"religio\""
+        },
+        {
+          "id": "G1",
+          "detail": "Lewis & Short, A Latin Dictionary, s.v. \"religio\"; 原始文献：西塞罗 De natura deorum 2.72；拉克坦提乌斯 Divinae institutiones 4.28"
+        },
+        {
+          "id": "LEX",
+          "detail": "本项目规则：contested 不得压缩为单说；含争议切分的词 verified=false"
+        }
+      ]
+    },
+    {
+      "w": "capture",
+      "parts": [
+        "capt",
+        "ure"
+      ],
+      "family": "fam-cap",
+      "$role": "family-fill"
+    },
+    {
+      "w": "captive",
+      "parts": [
+        "capt",
+        "ive"
+      ],
+      "family": "fam-cap",
+      "$role": "family-fill"
+    },
+    {
+      "w": "capacity",
+      "parts": [
+        "cap",
+        "acity"
+      ],
+      "family": "fam-cap",
+      "$role": "family-fill"
+    },
+    {
+      "w": "accept",
+      "parts": [
+        "ac",
+        "cept"
+      ],
+      "family": "fam-cap",
+      "$role": "family-fill"
+    },
+    {
+      "w": "except",
+      "parts": [
+        "ex",
+        "cept"
+      ],
+      "family": "fam-cap",
+      "$role": "family-fill"
+    },
+    {
+      "w": "intercept",
+      "parts": [
+        "inter",
+        "cept"
+      ],
+      "family": "fam-cap",
+      "$role": "family-fill"
+    },
+    {
+      "w": "concept",
+      "parts": [
+        "con",
+        "cept"
+      ],
+      "family": "fam-cap",
+      "$role": "family-fill"
+    },
+    {
+      "w": "reception",
+      "parts": [
+        "re",
+        "cept",
+        "ion"
+      ],
+      "family": "fam-cap",
+      "$role": "family-fill"
+    },
+    {
+      "w": "receipt",
+      "parts": [
+        "re",
+        "ceipt"
+      ],
+      "family": "fam-cap",
+      "$role": "family-fill"
+    },
+    {
+      "w": "capable",
+      "parts": [
+        "cap",
+        "able"
+      ],
+      "family": "fam-cap",
+      "$role": "family-fill"
+    },
+    {
+      "w": "chronic",
+      "parts": [
+        "chron",
+        "ic"
+      ],
+      "family": "fam-chron",
+      "$role": "family-fill"
+    },
+    {
+      "w": "chronology",
+      "parts": [
+        "chron",
+        "o",
+        "logy"
+      ],
+      "family": "fam-chron",
+      "$role": "family-fill"
+    },
+    {
+      "w": "conduct",
+      "parts": [
+        "con",
+        "duct"
+      ],
+      "family": "fam-duct",
+      "$role": "family-fill"
+    },
+    {
+      "w": "produce",
+      "parts": [
+        "pro",
+        "duce"
+      ],
+      "family": "fam-duct",
+      "$role": "family-fill"
+    },
+    {
+      "w": "reduce",
+      "parts": [
+        "re",
+        "duce"
+      ],
+      "family": "fam-duct",
+      "$role": "family-fill"
+    },
+    {
+      "w": "introduce",
+      "parts": [
+        "intro",
+        "duce"
+      ],
+      "family": "fam-duct",
+      "$role": "family-fill"
+    },
+    {
+      "w": "translate",
+      "parts": [
+        "trans",
+        "lat",
+        "e"
+      ],
+      "family": "fam-fer",
+      "$role": "family-fill"
+    },
+    {
+      "w": "referendum",
+      "parts": [
+        "re",
+        "fer",
+        "end",
+        "um"
+      ],
+      "family": "fam-fer",
+      "$role": "family-fill"
+    },
+    {
+      "w": "photograph",
+      "parts": [
+        "photo",
+        "graph"
+      ],
+      "family": "fam-graph",
+      "$role": "family-fill"
+    },
+    {
+      "w": "biography",
+      "parts": [
+        "bio",
+        "graph",
+        "y"
+      ],
+      "family": "fam-graph",
+      "$role": "family-fill"
+    },
+    {
+      "w": "geography",
+      "parts": [
+        "geo",
+        "graph",
+        "y"
+      ],
+      "family": "fam-graph",
+      "$role": "family-fill"
+    },
+    {
+      "w": "telegram",
+      "parts": [
+        "tele",
+        "gram"
+      ],
+      "family": "fam-graph",
+      "$role": "family-fill"
+    },
+    {
+      "w": "diagram",
+      "parts": [
+        "dia",
+        "gram"
+      ],
+      "family": "fam-graph",
+      "$role": "family-fill"
+    },
+    {
+      "w": "graphic",
+      "parts": [
+        "graph",
+        "ic"
+      ],
+      "family": "fam-graph",
+      "$role": "family-fill"
+    },
+    {
+      "w": "submit",
+      "parts": [
+        "sub",
+        "mit"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "transmit",
+      "parts": [
+        "trans",
+        "mit"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "permit",
+      "parts": [
+        "per",
+        "mit"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "commit",
+      "parts": [
+        "com",
+        "mit"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "admit",
+      "parts": [
+        "ad",
+        "mit"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "emit",
+      "parts": [
+        "e",
+        "mit"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "dismiss",
+      "parts": [
+        "dis",
+        "miss"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "mission",
+      "parts": [
+        "miss",
+        "ion"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "missile",
+      "parts": [
+        "miss",
+        "ile"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "submission",
+      "parts": [
+        "sub",
+        "miss",
+        "ion"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "transmission",
+      "parts": [
+        "trans",
+        "miss",
+        "ion"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "permission",
+      "parts": [
+        "per",
+        "miss",
+        "ion"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "intermittent",
+      "parts": [
+        "inter",
+        "mitt",
+        "ent"
+      ],
+      "family": "fam-mit",
+      "$role": "family-fill"
+    },
+    {
+      "w": "telephone",
+      "parts": [
+        "tele",
+        "phone"
+      ],
+      "family": "fam-phon",
+      "$role": "family-fill"
+    },
+    {
+      "w": "microphone",
+      "parts": [
+        "micro",
+        "phone"
+      ],
+      "family": "fam-phon",
+      "$role": "family-fill"
+    },
+    {
+      "w": "homophone",
+      "parts": [
+        "homo",
+        "phone"
+      ],
+      "family": "fam-phon",
+      "$role": "family-fill"
+    },
+    {
+      "w": "phonetics",
+      "parts": [
+        "phon",
+        "etic",
+        "s"
+      ],
+      "family": "fam-phon",
+      "$role": "family-fill"
+    },
+    {
+      "w": "polyphony",
+      "parts": [
+        "poly",
+        "phon",
+        "y"
+      ],
+      "family": "fam-phon",
+      "$role": "family-fill"
+    },
+    {
+      "w": "describe",
+      "parts": [
+        "de",
+        "scrib",
+        "e"
+      ],
+      "family": "fam-scrib",
+      "$role": "family-fill"
+    },
+    {
+      "w": "inscribe",
+      "parts": [
+        "in",
+        "scrib",
+        "e"
+      ],
+      "family": "fam-scrib",
+      "$role": "family-fill"
+    },
+    {
+      "w": "subscribe",
+      "parts": [
+        "sub",
+        "scrib",
+        "e"
+      ],
+      "family": "fam-scrib",
+      "$role": "family-fill"
+    },
+    {
+      "w": "prescribe",
+      "parts": [
+        "pre",
+        "scrib",
+        "e"
+      ],
+      "family": "fam-scrib",
+      "$role": "family-fill"
+    },
+    {
+      "w": "manuscript",
+      "parts": [
+        "manu",
+        "script"
+      ],
+      "family": "fam-scrib",
+      "$role": "family-fill"
+    },
+    {
+      "w": "script",
+      "parts": [
+        "script"
+      ],
+      "family": "fam-scrib",
+      "$role": "family-fill"
+    },
+    {
+      "w": "prescription",
+      "parts": [
+        "pre",
+        "script",
+        "ion"
+      ],
+      "family": "fam-scrib",
+      "$role": "family-fill"
+    },
+    {
+      "w": "subscription",
+      "parts": [
+        "sub",
+        "script",
+        "ion"
+      ],
+      "family": "fam-scrib",
+      "$role": "family-fill"
+    },
+    {
+      "w": "description",
+      "parts": [
+        "de",
+        "script",
+        "ion"
+      ],
+      "family": "fam-scrib",
+      "$role": "family-fill"
+    },
+    {
+      "w": "postscript",
+      "parts": [
+        "post",
+        "script"
+      ],
+      "family": "fam-scrib",
+      "$role": "family-fill"
+    }
+  ],
+  "morphemes": [
+    {
+      "id": "rx-duc",
+      "form": "duc",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "引导、带领",
+      "glossEn": "lead",
+      "familyId": "fam-duct",
+      "note": "拉丁 ducere「引导」的现在词干 duc-，过去分词词干 duct-，同一词根的两种词干（不是拼写规则）。familyId 补 fam-duct：words.json 中 44 条 fam-duct 词条此前没有任何 morpheme 反向指回该族。"
+    },
+    {
+      "id": "cx-chron",
+      "form": "chron",
+      "type": "root",
+      "origin": "Gk",
+      "glossZh": "时间",
+      "glossEn": "time",
+      "allomorphs": [
+        "chrono"
+      ],
+      "examples": [
+        "chronology",
+        "chronic",
+        "chronicle",
+        "synchronize",
+        "anachronism",
+        "chronological"
+      ],
+      "note": "希腊 khronos「时间」。组合形式 chrono-（chronology、chronometer）中的 -o- 是连接元音，不是第二个词素；与拉丁-英语的 chron 同形同源，非两项。"
+    },
+    {
+      "id": "rx-capit",
+      "form": "capit",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "头；首要",
+      "glossEn": "head",
+      "familyId": "fam-capit",
+      "note": "拉丁 caput / capitis（头）。familyId 必须与 rx-capt（capere「抓」，fam-cap）不同：identity 的 resolve() 有一条「候选同族就取规范拼写」的捷径（src/lib/identity.ts 的 sameFamily 分支），两者同族时拼写 capt 会被无提示地判给 rx-capt，captain 就被解释成「抓」。分开成族后 capt 变为真歧义，由词条证据（caput vs capere）决定。fam-capit 暂无 dossier，族页按 lexicon 回退渲染。"
+    }
+  ],
+  "$sections": {
+    "ety-fix": [
+      "religion",
+      "intercom",
+      "credo",
+      "laptop",
+      "captain",
+      "lucid",
+      "psyche"
+    ],
+    "family-fill": [
+      "accept",
+      "admit",
+      "biography",
+      "capable",
+      "capacity",
+      "captive",
+      "capture",
+      "chronic",
+      "chronology",
+      "commit",
+      "concept",
+      "conduct",
+      "describe",
+      "description",
+      "diagram",
+      "dismiss",
+      "emit",
+      "except",
+      "geography",
+      "graphic",
+      "homophone",
+      "inscribe",
+      "intercept",
+      "intermittent",
+      "introduce",
+      "manuscript",
+      "microphone",
+      "missile",
+      "mission",
+      "permission",
+      "permit",
+      "phonetics",
+      "photograph",
+      "polyphony",
+      "postscript",
+      "prescribe",
+      "prescription",
+      "produce",
+      "receipt",
+      "reception",
+      "reduce",
+      "referendum",
+      "script",
+      "submission",
+      "submit",
+      "subscribe",
+      "subscription",
+      "telegram",
+      "telephone",
+      "translate",
+      "transmission",
+      "transmit"
+    ],
+    "morpheme-fix": [
+      "rx-duc",
+      "cx-chron",
+      "rx-capit"
+    ],
+    "blocked": [
+      "rx-stru: remove 'menstrual' from examples (merge only unions)",
+      "program: family fam-port -> fam-graph (family non-empty; merge never overwrites)"
+    ],
+    "already-in-lexicon": [
+      "rx-capt (form capt, senseKey capere, fam-cap) 已由主端落库；本批次只补 rx-capit 的 familyId，使 capt 成为真歧义"
+    ]
+  }
+}

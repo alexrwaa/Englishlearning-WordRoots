@@ -1,0 +1,185 @@
+{
+ "morphemes": [
+  {
+   "id": "cx-crypt",
+   "form": "crypt",
+   "type": "root",
+   "origin": "Gk",
+   "glossZh": "隐藏；秘密",
+   "glossEn": "secret, hidden",
+   "allomorphs": [],
+   "examples": [
+    "cryptic",
+    "cryptography",
+    "crypt"
+   ],
+   "familyId": "fam-crypt",
+   "textbookRefs": [
+    "S1 C9"
+   ],
+   "note": "由附录 2 反查索引补录（A1 漏行），形式与释义已与 A1 相邻条目交叉核对。",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "English Vocabulary Elements",
+     "detail": "appendix, ch.9"
+    }
+   ]
+  },
+  {
+   "id": "cx-du",
+   "form": "du",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "二",
+   "glossEn": "two",
+   "allomorphs": [],
+   "examples": [
+    "dual",
+    "duet",
+    "duplicate"
+   ],
+   "familyId": "fam-du",
+   "textbookRefs": [
+    "S1 C6"
+   ],
+   "note": "由附录 2 反查索引补录（A1 漏行），形式与释义已与 A1 相邻条目交叉核对。",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "English Vocabulary Elements",
+     "detail": "appendix, ch.6"
+    }
+   ]
+  },
+  {
+   "id": "cx-nat",
+   "form": "nat",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "出生；来源",
+   "glossEn": "source, birth, tribe",
+   "allomorphs": [],
+   "examples": [
+    "native",
+    "nation",
+    "innate"
+   ],
+   "familyId": "fam-nat",
+   "textbookRefs": [
+    "S1 C2"
+   ],
+   "note": "由附录 2 反查索引补录（A1 漏行），形式与释义已与 A1 相邻条目交叉核对。",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "English Vocabulary Elements",
+     "detail": "appendix, ch.2"
+    }
+   ]
+  },
+  {
+   "id": "cx-onomat",
+   "form": "onomat",
+   "type": "root",
+   "origin": "Gk",
+   "glossZh": "名字",
+   "glossEn": "name",
+   "allomorphs": [],
+   "examples": [
+    "onomatopoeia",
+    "onomastic"
+   ],
+   "familyId": "fam-onomat",
+   "textbookRefs": [
+    "S1 C10"
+   ],
+   "note": "由附录 2 反查索引补录（A1 漏行），形式与释义已与 A1 相邻条目交叉核对。",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "English Vocabulary Elements",
+     "detail": "appendix, ch.10"
+    }
+   ]
+  },
+  {
+   "id": "cx-pug",
+   "form": "pug",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "拳；打斗",
+   "glossEn": "fight",
+   "allomorphs": [],
+   "examples": [
+    "pugilist",
+    "impugn"
+   ],
+   "familyId": "fam-pug",
+   "textbookRefs": [
+    "S1 C9"
+   ],
+   "note": "由附录 2 反查索引补录（A1 漏行），形式与释义已与 A1 相邻条目交叉核对。",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "English Vocabulary Elements",
+     "detail": "appendix, ch.9"
+    }
+   ]
+  },
+  {
+   "id": "cx-pung",
+   "form": "pung",
+   "type": "root",
+   "origin": "Lat",
+   "glossZh": "刺；打斗",
+   "glossEn": "fight",
+   "allomorphs": [],
+   "examples": [
+    "pungent",
+    "expunge",
+    "puncture"
+   ],
+   "familyId": "fam-pung",
+   "textbookRefs": [
+    "S1 C9"
+   ],
+   "note": "由附录 2 反查索引补录（A1 漏行），形式与释义已与 A1 相邻条目交叉核对。",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "English Vocabulary Elements",
+     "detail": "appendix, ch.9"
+    }
+   ]
+  },
+  {
+   "id": "cx-tetra",
+   "form": "tetra",
+   "type": "root",
+   "origin": "Gk",
+   "glossZh": "四",
+   "glossEn": "four",
+   "allomorphs": [],
+   "examples": [
+    "tetrahedron",
+    "tetrapod",
+    "tetrarch"
+   ],
+   "familyId": "fam-tetra",
+   "textbookRefs": [
+    "S1 C6"
+   ],
+   "note": "由附录 2 反查索引补录（A1 漏行），形式与释义已与 A1 相邻条目交叉核对。",
+   "sources": [
+    {
+     "id": "S1",
+     "title": "English Vocabulary Elements",
+     "detail": "appendix, ch.6"
+    }
+   ]
+  }
+ ],
+ "words": []
+}

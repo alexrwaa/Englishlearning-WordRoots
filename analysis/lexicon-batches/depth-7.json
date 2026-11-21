@@ -1,0 +1,563 @@
+{
+ "note": "depth pass 7: L4 例词补充",
+ "targets": [
+  {
+   "id": "cx-terr",
+   "words": [
+    "terrain",
+    "territory"
+   ]
+  },
+  {
+   "id": "cx-trud-trus",
+   "words": [
+    "protrude",
+    "extrusion"
+   ]
+  },
+  {
+   "id": "cx-vit-viv",
+   "words": [
+    "vital",
+    "revive"
+   ]
+  },
+  {
+   "id": "cx-voc",
+   "words": [
+    "vocal",
+    "vocation"
+   ]
+  },
+  {
+   "id": "cx-chron",
+   "words": [
+    "chronic",
+    "chronology"
+   ]
+  },
+  {
+   "id": "cx-corp-corpor",
+   "words": [
+    "corporate",
+    "corporation"
+   ]
+  },
+  {
+   "id": "cx-cosm",
+   "words": [
+    "cosmic",
+    "cosmos"
+   ]
+  },
+  {
+   "id": "cx-dyn",
+   "words": [
+    "dynamite",
+    "dynamo"
+   ]
+  },
+  {
+   "id": "cx-flu-fluc",
+   "words": [
+    "fluent",
+    "fluency"
+   ]
+  },
+  {
+   "id": "cx-jun-juven",
+   "words": [
+    "juvenile",
+    "rejuvenate"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "terrain",
+   "parts": [
+    "terr",
+    "ain"
+   ],
+   "pos": "n",
+   "glossEn": "the physical features of a stretch of land",
+   "glossZh": "地形；地势",
+   "domain": "general",
+   "etymology": "法语 terrain < 拉丁 terrenum「土地」< terra「地」",
+   "derivation": [
+    "terr（土地）+ -ain → 土地的面貌"
+   ],
+   "example": "The vehicles were built for rough terrain.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "territory",
+   "parts": [
+    "terr",
+    "it",
+    "ory"
+   ],
+   "pos": "n",
+   "glossEn": "an area of land under a particular control",
+   "glossZh": "领土；地域",
+   "domain": "general",
+   "etymology": "拉丁 territorium < terra「土地」",
+   "derivation": [
+    "terr（土地）+ -it- + -ory（场所）→ 属于某方的土地"
+   ],
+   "example": "The wolves defend a territory of thirty square kilometres.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "protrude",
+   "parts": [
+    "pro",
+    "trud",
+    "e"
+   ],
+   "pos": "v",
+   "glossEn": "to stick out from a surface",
+   "glossZh": "突出；伸出",
+   "domain": "general",
+   "etymology": "拉丁 protrudere < pro-（向前）+ trudere（推）",
+   "derivation": [
+    "pro（向前）+ trud（推）+ -e → 向前推出"
+   ],
+   "example": "A nail protruded from the plank.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "extrusion",
+   "parts": [
+    "ex",
+    "trus",
+    "ion"
+   ],
+   "pos": "n",
+   "glossEn": "the act of forcing or pushing something out",
+   "glossZh": "挤出；挤压成型",
+   "domain": "technical",
+   "etymology": "拉丁 extrudere 的过去分词 extrusus < ex-（向外）+ trudere（推）",
+   "derivation": [
+    "ex（向外）+ trus（推）+ -ion → 被推出"
+   ],
+   "example": "The plastic pipe is made by extrusion.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "vital",
+   "parts": [
+    "vit",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "essential to life or to success",
+   "glossZh": "至关重要的；生命的",
+   "domain": "general",
+   "etymology": "拉丁 vitalis < vita「生命」",
+   "derivation": [
+    "vit（生命）+ -al → 与生命有关的"
+   ],
+   "example": "Clean water is vital to the whole plan.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "revive",
+   "parts": [
+    "re",
+    "viv",
+    "e"
+   ],
+   "pos": "v",
+   "glossEn": "to bring back to life, use, or strength",
+   "glossZh": "使复苏；复兴",
+   "domain": "general",
+   "etymology": "拉丁 revivere < re-（再）+ vivere（活）",
+   "derivation": [
+    "re（再）+ viv（活）+ -e → 再活过来"
+   ],
+   "example": "A grant revived the town's old theatre.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "vocal",
+   "parts": [
+    "voc",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to the voice; expressing opinions freely",
+   "glossZh": "嗓音的；直言不讳的",
+   "domain": "general",
+   "etymology": "拉丁 vocalis < vox/vocis「声音」",
+   "derivation": [
+    "voc（声音）+ -al → 声音的"
+   ],
+   "example": "She became a vocal critic of the scheme.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "vocation",
+   "parts": [
+    "voc",
+    "ation"
+   ],
+   "pos": "n",
+   "glossEn": "a strong calling to a particular work",
+   "glossZh": "职业；使命感",
+   "domain": "general",
+   "etymology": "拉丁 vocatio「召唤」< vocare「呼唤」",
+   "derivation": [
+    "voc（呼唤）+ -ation → 被召唤去做的事"
+   ],
+   "example": "Teaching was a vocation for him, not a job.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "chronic",
+   "parts": [
+    "chron",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "lasting a long time; long-established",
+   "glossZh": "慢性的；长期的",
+   "domain": "medical",
+   "etymology": "希腊 khronikos < khronos「时间」",
+   "derivation": [
+    "chron（时间）+ -ic → 拖很久的"
+   ],
+   "example": "He suffers from chronic back pain.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "chronology",
+   "parts": [
+    "chron",
+    "o",
+    "logy"
+   ],
+   "pos": "n",
+   "glossEn": "the arrangement of events in time order",
+   "glossZh": "年表；年代学",
+   "domain": "academic",
+   "etymology": "希腊 khronos「时间」+ -logia「学问」",
+   "derivation": [
+    "chron（时间）+ o + logy（学科）→ 研究时间顺序"
+   ],
+   "example": "The report sets out a chronology of the accident.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "corporate",
+   "parts": [
+    "corpor",
+    "ate"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to a large company or group",
+   "glossZh": "公司的；法人的",
+   "domain": "finance",
+   "etymology": "拉丁 corporatus < corpus/corporis「身体」→ 结为一个体",
+   "derivation": [
+    "corpor（身体）+ -ate → 组成一个法人实体"
+   ],
+   "example": "Corporate profits rose for the third year.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "corporation",
+   "parts": [
+    "corpor",
+    "ation"
+   ],
+   "pos": "n",
+   "glossEn": "a company recognized as a legal person",
+   "glossZh": "公司；法人团体",
+   "domain": "finance",
+   "etymology": "拉丁 corporatio < corpus「身体」",
+   "derivation": [
+    "corpor（身体）+ -ation → 结成的法人团体"
+   ],
+   "example": "The corporation employs forty thousand people.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "cosmic",
+   "parts": [
+    "cosm",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to the universe",
+   "glossZh": "宇宙的",
+   "domain": "science",
+   "etymology": "希腊 kosmikos < kosmos「秩序、宇宙」",
+   "derivation": [
+    "cosm（宇宙、秩序）+ -ic → 宇宙的"
+   ],
+   "example": "The probe measures cosmic radiation.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "cosmos",
+   "parts": [
+    "cosm",
+    "os"
+   ],
+   "pos": "n",
+   "glossEn": "the universe seen as an ordered whole",
+   "glossZh": "宇宙",
+   "domain": "science",
+   "etymology": "希腊 kosmos「秩序、世界」",
+   "derivation": [
+    "cosm（秩序、宇宙）+ -os（名词）→ 有秩序的总体"
+   ],
+   "example": "Ancient thinkers saw the cosmos as a living order.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "dynamite",
+   "parts": [
+    "dynam",
+    "ite"
+   ],
+   "pos": "n",
+   "glossEn": "an explosive; something highly volatile",
+   "glossZh": "炸药；极具冲击力的事物",
+   "domain": "general",
+   "etymology": "希腊 dynamis「力量」+ -ite（矿物、制品）",
+   "derivation": [
+    "dynam（力量）+ -ite → 靠力量起作用的炸药"
+   ],
+   "example": "The crew used dynamite to clear the boulders.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "dynamo",
+   "parts": [
+    "dynam",
+    "o"
+   ],
+   "pos": "n",
+   "glossEn": "a machine that generates electricity; an energetic person",
+   "glossZh": "发电机；精力充沛的人",
+   "domain": "general",
+   "etymology": "希腊 dynamis「力量」，dynamo-electric machine 的缩略",
+   "derivation": [
+    "dynam（力量）+ -o → 产生电力的机器"
+   ],
+   "example": "The bicycle light runs off a small dynamo.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "fluent",
+   "parts": [
+    "flu",
+    "ent"
+   ],
+   "pos": "adj",
+   "glossEn": "able to speak or write smoothly and easily",
+   "glossZh": "流利的",
+   "domain": "general",
+   "etymology": "拉丁 fluens < fluere「流动」",
+   "derivation": [
+    "flu（流）+ -ent → 像水一样流的"
+   ],
+   "example": "She is fluent in three languages.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "fluency",
+   "parts": [
+    "flu",
+    "ency"
+   ],
+   "pos": "n",
+   "glossEn": "the ability to express oneself smoothly",
+   "glossZh": "流利；流畅",
+   "domain": "general",
+   "etymology": "拉丁 fluentia < fluere「流动」",
+   "derivation": [
+    "flu（流）+ -ency → 流动般的顺畅"
+   ],
+   "example": "Reading aloud builds fluency.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "juvenile",
+   "parts": [
+    "juven",
+    "ile"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to young people; immature",
+   "glossZh": "少年的；幼稚的",
+   "domain": "legal",
+   "etymology": "拉丁 juvenilis < juvenis「年轻的」",
+   "derivation": [
+    "juven（年轻）+ -ile → 年轻人的"
+   ],
+   "example": "He was tried in a juvenile court.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "rejuvenate",
+   "parts": [
+    "re",
+    "juven",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "to make someone or something look or feel young again",
+   "glossZh": "使恢复活力；使年轻",
+   "domain": "general",
+   "etymology": "re-（再）+ 拉丁 juvenis「年轻」+ -ate",
+   "derivation": [
+    "re（再）+ juven（年轻）+ -ate → 使再年轻"
+   ],
+   "example": "The new square rejuvenated the old quarter.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  }
+ ]
+}

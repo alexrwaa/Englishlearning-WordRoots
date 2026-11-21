@@ -4,6 +4,7 @@ import { allMorphemes, allWords, familyDossier, getWord, loadFamilies, type Fami
 import { affixRole, familyBaseForm, familyMembers, resolveFamilyId } from '../lib/derive';
 import { Badge, EmptyState, Panel } from '../components/ui';
 import { FamilyTree } from '../components/lab/FamilyTree';
+import FamilyInquiry from '../components/family/FamilyInquiry';
 import { POS_LABEL } from '../components/matrix/model';
 import { ORIGIN_LABELS, TYPE_LABELS } from '../components/word/tokens';
 import type { WordEntry } from '../lib/types';
@@ -138,6 +139,10 @@ export default function Family() {
           换一个词基
         </Link>
       </div>
+
+      {dossier ? (
+        <FamilyInquiry dossier={dossier} familyId={dossier.id} known={(w) => dictionary.has(w)} />
+      ) : null}
 
       {dossier ? (
         <Panel>

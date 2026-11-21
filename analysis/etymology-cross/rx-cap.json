@@ -1,0 +1,28 @@
+{
+  "morphemeId": "rx-cap",
+  "latin": "capere",
+  "glossEn": "to take, seize",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "capio",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 98264,
+      "quote": "seize]. I. Lit. A, In gen., to take in  handy take hold of y lay hold of takey seize ,",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "entryNote": "Headword + principal parts at 98248 (\"capio, cepi, captum\"); etymology bracket at 98260-98264 (Lat. capulum, Engl. haft, Goth. hinthan, seize)."
+    }
+  ],
+  "verdict": "supports",
+  "note": "L&S capio 释义 \"to take in hand, take hold of, lay hold of, take, seize, grasp\"，并给出 capulum / haft / hand / Goth. hinthan 的同源链，与 capere「抓」一致。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

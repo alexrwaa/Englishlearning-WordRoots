@@ -1,0 +1,520 @@
+{
+  "$comment": "S2《Essentials of Linguistics》构词学（Morphology）概念覆盖审计。概念清单以 s2-topics.json 的 141 个知识点为底，抽出课程可教的 43 个核心概念，逐条核对 243 节课的正文与练习。判定：taught = 有实质讲解 + 例词 + 至少一处练习或明确的应用任务；partial = 有讲解但术语/体系缺一环，或只在练习解析/术语表里出现；missing = 全课程未教。",
+  "generatedAt": "2026-11-21",
+  "sources": [
+    "S2-C5 Morphology",
+    "S2-C14 Historical Linguistics（形态变化部分）"
+  ],
+  "concepts": [
+    {
+      "id": "morphology",
+      "term": "morphology",
+      "termZh": "形态学",
+      "lessons": [
+        "w01d1",
+        "w38d2"
+      ],
+      "evidence": "w01d1 用 teachers 的切分把「词由更小单位组装」立为全课起点；w38d2 讲切分必须落在词素边界、不能按音节走。",
+      "status": "taught"
+    },
+    {
+      "id": "morpheme",
+      "term": "morpheme",
+      "termZh": "语素（词素）",
+      "lessons": [
+        "w01d1",
+        "w38d1"
+      ],
+      "evidence": "w01d1 用替换测试定义「能替换而意义稳定的最小单位」，并用 table / understand 作反例；练习 p1、p4 直接检测切分。",
+      "status": "taught"
+    },
+    {
+      "id": "free-bound",
+      "term": "free / bound morpheme",
+      "termZh": "自由语素与黏着语素",
+      "lessons": [
+        "w01d1",
+        "w38d3"
+      ],
+      "evidence": "w01d1 卡片3 给四种基本类型（自由/黏着 × 词根/词缀）并各配例词；w38d3 卡片3 进一步解释黏着词根为何不能接本土后缀（*docful）。",
+      "status": "taught"
+    },
+    {
+      "id": "root-base-stem",
+      "term": "root / base / stem",
+      "termZh": "词根、词基与词干",
+      "lessons": [
+        "w01d2",
+        "w01d3",
+        "w13d6",
+        "w36d1"
+      ],
+      "evidence": "w01d2 定义词根为词族共同核心（struct/fer/form）；w01d3 讲词基可以是词根也可以是已带缀形式（unhelpfulness）；w36d1 明确 base 的两种来源。",
+      "status": "taught"
+    },
+    {
+      "id": "affix-positions",
+      "term": "prefix / suffix / infix / interfix / superfix",
+      "termZh": "词缀的五种位置",
+      "lessons": [
+        "w36d1",
+        "w18d1",
+        "w38d1"
+      ],
+      "evidence": "w36d1 按位置分五类并各给真实例词，且交代「-o- 算间缀还是连接元音」存在分析分歧；w18d1 讲鼻音中缀 -ne-；w38d1 把 homicide 的 -i- 单列为连接元音。",
+      "status": "taught"
+    },
+    {
+      "id": "inflection-vs-derivation",
+      "term": "inflectional vs derivational morphology",
+      "termZh": "屈折与派生",
+      "lessons": [
+        "w01d4",
+        "w36d1",
+        "w13d1"
+      ],
+      "evidence": "w01d4 卡片给出英语屈折词缀的封闭清单（-s、-'s、-ed、-ing、-er/-est）并说明屈折不改变词性、永远在最外层；w36d1 用「加完还是不是原来那个词」作唯一判据；练习多处考哪一个是屈折词缀。",
+      "status": "taught"
+    },
+    {
+      "id": "productivity",
+      "term": "productivity",
+      "termZh": "能产性",
+      "lessons": [
+        "w02d6",
+        "w04d2",
+        "w37d3",
+        "w07d6"
+      ],
+      "evidence": "w02d6 用 un- / -ness / -ment 三档能产性解释 *unhelpment；w04d2 比较 -able 与 -ible 的可推广性；w37d3 把类推的成败归到「模式可切分、语义有空缺、音形可接受」。",
+      "status": "taught"
+    },
+    {
+      "id": "selection",
+      "term": "selectional restrictions",
+      "termZh": "选择限制（宿主条件）",
+      "lessons": [
+        "w38d3",
+        "w01d4",
+        "w13d6"
+      ],
+      "evidence": "w38d3 卡片1 把「-ness 只接形容词、-ment 只接动词」写成判定三关的第二关，并用 ossness / docment 作反例；w01d4 讲前缀不改变词类、后缀决定词类。",
+      "status": "taught"
+    },
+    {
+      "id": "hierarchy",
+      "term": "hierarchical structure / order of affixation",
+      "termZh": "层级结构与加缀顺序",
+      "lessons": [
+        "w01d3",
+        "w02d1",
+        "w12d1",
+        "w38d6"
+      ],
+      "evidence": "w01d3 用 unhelpfulness 演示「每一步只加一个成分、每一步产物都是真词」；w02d1 把逐层派生写成多层算式；w12d1 明确「长词不是平铺成一串加号」。",
+      "status": "taught"
+    },
+    {
+      "id": "blocking",
+      "term": "blocking",
+      "termZh": "阻塞（同义形式互斥）",
+      "lessons": [
+        "w02d6"
+      ],
+      "evidence": "w02d6 卡片2 讲 *unpossible 不成立的两层原因，其中「impossible 已经承担了这个否定义，语言不需要第二个同义形式」正是阻塞机制，但全课未出现 blocking 这个术语，也没有把它提升为一条可迁移的规则。",
+      "status": "partial",
+      "note": "机制讲对了，术语与适用条件（如 *gloriosity 被 glory 阻塞）没有系统化。"
+    },
+    {
+      "id": "lexicalization",
+      "term": "lexicalization",
+      "termZh": "词汇化",
+      "lessons": [
+        "w02d6",
+        "w07d1",
+        "w07d4",
+        "w36d6",
+        "w39d3"
+      ],
+      "evidence": "w02d6 把词汇化列为「可分析/可生成/已被词汇化」的第三层；w07d4 用 laser 的词汇化三阶段（拼读成词→小写→可加 -s、可作动词）；w39d3 用它解释「规则合法但语言不承认」。",
+      "status": "taught"
+    },
+    {
+      "id": "compounding",
+      "term": "compounding",
+      "termZh": "复合",
+      "lessons": [
+        "w07d1",
+        "w07d6",
+        "w06d1"
+      ],
+      "evidence": "w07d1 给复合词定义、右中心语、拼写三态（分写/连字符/合写）与三条判据（重音、可插入性、屈折位置）；w06d1 对比希腊组合形式的复合。",
+      "status": "taught"
+    },
+    {
+      "id": "endo-exocentric",
+      "term": "endocentric / exocentric compound",
+      "termZh": "向心复合词与离心复合词",
+      "lessons": [
+        "w07d1"
+      ],
+      "evidence": "w07d1 卡片4 用 blackboard（向心）与 redhead（离心）对照，并给判据「整体是不是右成分的一种」；练习 p5 直接考 redhead 的类型。",
+      "status": "taught"
+    },
+    {
+      "id": "dvandva",
+      "term": "dvandva (coordinate compound)",
+      "termZh": "并列复合词",
+      "lessons": [],
+      "evidence": "全课程检索「并列复合」「dvandva」均为 0 命中；w07d1 只讲向心/离心两分，没有第三个类型。",
+      "status": "missing"
+    },
+    {
+      "id": "allomorphy",
+      "term": "allomorphy / allomorph",
+      "termZh": "语素变体",
+      "lessons": [
+        "w01d1",
+        "w08d1",
+        "w17d1",
+        "w38d5"
+      ],
+      "evidence": "w01d1 卡片5 用 in-/im-/il-/ir- 引入 allomorph；w08d1 给分布表与三种同化程度；w17d1 区分「分化」与「合并」两大来源；w38d5 给「意义相同、分布互补、有历史对应」三条判据。",
+      "status": "taught"
+    },
+    {
+      "id": "allomorph-conditioning",
+      "term": "phonologically vs lexically conditioned allomorphy",
+      "termZh": "语音条件变体与词汇条件变体",
+      "lessons": [
+        "w08d1",
+        "w08d7",
+        "w17d2"
+      ],
+      "evidence": "w08d1 按后接辅音给 im-/il-/ir-/in- 的语音条件；w08d7 给 -s 的 /s//z//ɪz/ 三读与 -ed 的三读；w17d2 讲规则消失后交替残留为形态规则（属词汇条件）。",
+      "status": "taught"
+    },
+    {
+      "id": "zero-affix",
+      "term": "zero affix / zero derivation",
+      "termZh": "零形式与零派生",
+      "lessons": [
+        "w36d5",
+        "w07d2",
+        "w07d7"
+      ],
+      "evidence": "w36d5 讲 conversion 即零派生，并解释英语用重音（record/record）作补偿标记；w07d2 讲不加词缀只换句法位置；w07d7 复盘表里列出「零词缀」这一判定干扰项。",
+      "status": "taught"
+    },
+    {
+      "id": "suppletion",
+      "term": "suppletion",
+      "termZh": "异干互补",
+      "lessons": [
+        "w17d5",
+        "w18d2",
+        "w28d5"
+      ],
+      "evidence": "w17d5 定义 suppletion 为「屈折表里借另一个词的形」，给动词/系动词/形容词/代词/名词五类例，并给三条判据；w28d5 把它列为祖语四种形态手段之一。",
+      "status": "taught"
+    },
+    {
+      "id": "internal-change",
+      "term": "internal change / ablaut / umlaut",
+      "termZh": "内部屈折、元音变换与元音变音",
+      "lessons": [
+        "w17d2",
+        "w18d2",
+        "w23d6"
+      ],
+      "evidence": "w17d2 讲 man/men 的 i-umlaut 与「规则死了、交替活着」；w18d2 讲 sing/sang/sung 的 e/o/零三级；w23d6 讲 fac-/fec-/fic- 的元音交替。",
+      "status": "taught"
+    },
+    {
+      "id": "reduplication",
+      "term": "reduplication",
+      "termZh": "重叠",
+      "lessons": [
+        "w28d5"
+      ],
+      "evidence": "w28d5 只在一张表里把「重叠词根首音节表完成/持续」列为祖语四种形态手段之一（配希腊语例），没有展开重叠的类型（完全/部分、复数/反复/强调），也没有英语或跨语言练习。",
+      "status": "partial"
+    },
+    {
+      "id": "clipping",
+      "term": "clipping",
+      "termZh": "截短",
+      "lessons": [
+        "w07d4",
+        "w07d6"
+      ],
+      "evidence": "w07d4 按截去位置分三类（截尾 gym/lab、截首 phone、截中 flu/fridge），并明确截短不是缩写；练习区分截短与缩略。",
+      "status": "taught"
+    },
+    {
+      "id": "blending",
+      "term": "blend / portmanteau",
+      "termZh": "混成",
+      "lessons": [
+        "w07d3",
+        "w07d6"
+      ],
+      "evidence": "w07d3 用 sm(oke)+(f)og 讲「各取一部分」并给 brunch/podcast 等例，卡片与练习反复与复合、截短对比。",
+      "status": "taught"
+    },
+    {
+      "id": "acronym",
+      "term": "acronym / initialism",
+      "termZh": "首字母缩略词与首字母缩写",
+      "lessons": [
+        "w07d4",
+        "w36d6",
+        "w11d4"
+      ],
+      "evidence": "w07d4 以「全看怎么读」区分 acronym（NASA 读成词）与 initialism（CPU 逐字母）；w36d6 讲缩拼词成词后的三阶段与四条诊断。",
+      "status": "taught"
+    },
+    {
+      "id": "back-formation",
+      "term": "back-formation",
+      "termZh": "逆构词",
+      "lessons": [
+        "w07d5",
+        "w37d4"
+      ],
+      "evidence": "w07d5 用 editor→edit、burglar→burgle、television→televise 讲「看似加缀实为减缀」，并区分逆构与截短、正常派生；w37d4 用 scissor 的逆构说明再分析会造新词素。",
+      "status": "taught"
+    },
+    {
+      "id": "conversion",
+      "term": "conversion",
+      "termZh": "转换（转类）",
+      "lessons": [
+        "w07d2",
+        "w36d5",
+        "w10d1"
+      ],
+      "evidence": "w07d2 以 email/ship 为例讲不加词缀只换句法位置，并说明意义按语域收窄；w36d5 讲重音作超缀补偿；w10d1 把转类列为第三条文生义通道。",
+      "status": "taught"
+    },
+    {
+      "id": "reanalysis",
+      "term": "reanalysis / rebracketing",
+      "termZh": "重新分析",
+      "lessons": [
+        "w17d1",
+        "w24d4",
+        "w37d4",
+        "w13d3"
+      ],
+      "evidence": "w17d1 讲 corpor-al-is 被重新切分为 corp+or+eal；w24d4 讲 Godbwye 被重新分析为 good+bye；w37d4 讲 cockroach 的 cock+roach 与由此诞生的 roach；w13d3 讲 agenda 由复数被当作单数。",
+      "status": "taught"
+    },
+    {
+      "id": "folk-etymology",
+      "term": "folk etymology",
+      "termZh": "民间词源",
+      "lessons": [
+        "w21d5",
+        "w09d6",
+        "w16d3"
+      ],
+      "evidence": "w21d5 专讲「听错一次，词义就拐了弯」，并对比重新分析（无声）与民间词源（有痕）；w09d6 把民间词源列为词源写作的红线之一。",
+      "status": "taught"
+    },
+    {
+      "id": "analogy",
+      "term": "analogy",
+      "termZh": "类推",
+      "lessons": [
+        "w37d3",
+        "w13d5",
+        "w17d2",
+        "w07d6"
+      ],
+      "evidence": "w37d3 用 tweetophobia、prepone 讲「照架子搭」并给三条成立条件；w13d5 讲过度类推造出假拉丁词；w17d2 用儿童 *goed、*foots 说明规则类推与词条记忆竞争。",
+      "status": "taught"
+    },
+    {
+      "id": "borrowing-strata",
+      "term": "borrowing / stratification of loanwords",
+      "termZh": "借词与借词层次",
+      "lessons": [
+        "w09d1",
+        "w15d1",
+        "w31d4",
+        "w09d2"
+      ],
+      "evidence": "w09d1 给本土/法语/拉丁三层对照与语域分工；w15d1 定义学术借词与借词变化的四个方面；w31d4 用 caput 的三条借词路展示「层次」的形态证据。",
+      "status": "taught"
+    },
+    {
+      "id": "semantic-change",
+      "term": "types of semantic change",
+      "termZh": "词义变化的类型",
+      "lessons": [
+        "w10d4",
+        "w21d4",
+        "w36d3",
+        "w22d6"
+      ],
+      "evidence": "w10d4 讲特化/泛化；w21d4 讲四类动因；w36d3 用 pyr 一条链统合隐喻、转喻、特化、泛化、贬降五条路径，并强调「规律可描述、落点不可硬推」；w22d6 讲义项替代。",
+      "status": "taught"
+    },
+    {
+      "id": "grammaticalization",
+      "term": "grammaticalization",
+      "termZh": "语法化",
+      "lessons": [],
+      "evidence": "检索「语法化」0 命中；最接近的是 w10d7 解析里一句「口语中进一步虚化为程度副词」（讲 awful），以及 w22d4 的 semantic bleaching，但都没有讲「实词→语法词」的通道、单向性或典型链条（如 be going to）。",
+      "status": "missing"
+    },
+    {
+      "id": "typology",
+      "term": "morphological typology",
+      "termZh": "形态类型学（孤立/黏着/屈折/多式综合）",
+      "lessons": [
+        "w33d4"
+      ],
+      "evidence": "w33d4 只在练习解析里用 fusional 解释拉丁 -ō 一词尾兼格数性，并顺带对比「黏着语一个词尾只管一项」；正文没有系统介绍四分框架，也没有说明这套 19 世纪标签的局限。",
+      "status": "partial"
+    },
+    {
+      "id": "tree-diagram",
+      "term": "morphological tree diagram",
+      "termZh": "形态树形图",
+      "lessons": [
+        "w01d3",
+        "w02d1",
+        "w12d1"
+      ],
+      "evidence": "层级结构讲得很透，但表达工具是「分行写算式 + 括号」（w01d3、w02d1、w12d1）；全课程检索「树形/画树」只有 w33d3 的语系树隐喻，没有形态树。",
+      "status": "partial",
+      "note": "S2 的 5.10 要求会画树；本站用 word sum 分行替代，功能等价但形式不同，若学习者要对接外部教材会出现落差。"
+    },
+    {
+      "id": "structural-ambiguity",
+      "term": "structural ambiguity",
+      "termZh": "结构歧义",
+      "lessons": [
+        "w07d1"
+      ],
+      "evidence": "w07d1 用 greenhouse（温室）与 green house（绿色的房子）讲重音、可插入性与屈折位置，实质是复合词与短语的歧义；但「结构歧义」这一术语 0 命中，unlockable 式「两种合法切分」的经典例子没有出现。",
+      "status": "partial"
+    },
+    {
+      "id": "case",
+      "term": "case",
+      "termZh": "格",
+      "lessons": [
+        "w13d1",
+        "w28d4",
+        "w33d4"
+      ],
+      "evidence": "w13d1 讲拉丁名词的格与词干；w28d4 讲祖语八格与单双复；w33d4 讲现代英语只剩代词三格（he/him/his）并用 between you and I 说明残留。",
+      "status": "taught"
+    },
+    {
+      "id": "agreement",
+      "term": "agreement",
+      "termZh": "一致关系",
+      "lessons": [
+        "w28d4",
+        "w35d2"
+      ],
+      "evidence": "w28d4 讲拉丁形容词与名词的格、数、性三重一致并配练习；w35d2 讲古英语形容词随名词变格变数变性，并用练习排除「同意观点/押韵」等误读。",
+      "status": "taught"
+    },
+    {
+      "id": "tense-aspect",
+      "term": "tense vs aspect",
+      "termZh": "时与体的区分",
+      "lessons": [
+        "w01d4",
+        "w04d5",
+        "w28d5"
+      ],
+      "evidence": "w01d4 列出 -ed（过去式/过去分词）与 -ing（进行体/现在分词），w04d5 区分动名词、现在分词与进行体，w28d5 提到未完成体；但没有任何一处把 tense 与 aspect 作为两个独立范畴定义并对比。",
+      "status": "partial"
+    },
+    {
+      "id": "onomatopoeia",
+      "term": "onomatopoeia / root creation",
+      "termZh": "拟声与根造词",
+      "lessons": [
+        "w37d1",
+        "w37d2"
+      ],
+      "evidence": "w37d1 讲拟声词的古音更贴切、拟声词也会随音变失真；w37d2 讲声音象征（phonestheme）比拟声更间接，并给 gl-/sn- 类例。",
+      "status": "taught"
+    },
+    {
+      "id": "eponym",
+      "term": "eponym / genericization",
+      "termZh": "专名词与商标普通化",
+      "lessons": [
+        "w07d6",
+        "w07d2"
+      ],
+      "evidence": "w07d6 讲 algorithm 来自 al-Khwārizmī、-gate 从 Watergate 解放为 libfix；w07d2 讲 to google 的转换；但「商标普通化」（hoover、xerox）未作为一类单独处理。",
+      "status": "taught"
+    },
+    {
+      "id": "metathesis",
+      "term": "metathesis",
+      "termZh": "音位置换",
+      "lessons": [
+        "w26d4"
+      ],
+      "evidence": "w26d4 卡片3 明确命名 metathesis，并给 acsian→ascian、brid→bird、þurh→through 三例，用来纠正「aks 是口误」的误解。",
+      "status": "partial",
+      "note": "只出现在一节社会语言学课里，起的是「纠错证据」作用；五道练习没有一题要求辨认音位置换（p5 考的是 aks 的社会评价，不是 brid→bird 属何种音变），也没有作为音变类型系统讲过。"
+    },
+    {
+      "id": "spelling-pronunciation",
+      "term": "spelling pronunciation",
+      "termZh": "拼读式读音",
+      "lessons": [],
+      "evidence": "w15d4 的术语表里登记了 spelling pronunciation「拼读式读音」，但正文没有解释、没有例词（如 often 的 /t/、waistcoat），也没有练习；其余课时 0 命中。",
+      "status": "missing",
+      "note": "属「术语入表但未教学」，比完全没提更危险：检索时会误判为已覆盖。"
+    },
+    {
+      "id": "hypercorrection",
+      "term": "hypercorrection / hyperforeignism",
+      "termZh": "过度纠正与超外来",
+      "lessons": [
+        "w16d3",
+        "w15d6"
+      ],
+      "evidence": "w16d3 卡片4 定义 hypercorrection，用 scissors 的 sc-（把 cis「切」误连到 scind「裂」）作完整案例，并与 debt 的 b（有依据）、island 的 s（误认）分级对比；w15d6 讲近年反向的「复原读音」。",
+      "status": "taught"
+    },
+    {
+      "id": "bleaching",
+      "term": "semantic bleaching",
+      "termZh": "语义漂白/磨损",
+      "lessons": [
+        "w22d4"
+      ],
+      "evidence": "w22d4 以 literally 为主线讲内容义退、功能义进，并用 very/awfully/terribly 对照，给出「表真实或极度的词最容易被拉去当强化词」的规律。",
+      "status": "taught"
+    }
+  ],
+  "summary": {
+    "total": 43,
+    "taught": 33,
+    "partial": 7,
+    "missing": 3,
+    "coverageTaught": "33/43 = 76.7%",
+    "coverageTaughtOrPartial": "40/43 = 93.0%"
+  },
+  "methodNote": "统计口径偏严：只要缺少术语、体系或缺练习检测，一律降为 partial。若按「提过即算」的宽口径，partial 的 6 条（blocking、reduplication、typology、tree diagram、structural ambiguity、tense-aspect）都可算作覆盖，覆盖率会虚高到 93%，因此本表不采用宽口径。",
+  "gaps": [
+    "dvandva（并列复合）：复合词只讲向心/离心两分，缺第三类。",
+    "grammaticalization（语法化）：全课未讲，只有 bleaching 与一句「虚化为程度副词」。",
+    "spelling pronunciation（拼读式读音）：术语表有词条、正文无教学。",
+    "形态树形图：用分行算式替代，未教画树，与 S2 5.10 的产出要求不对齐。",
+    "结构歧义：只有复合词/短语一组例子，缺「同一串词素两种合法切分」的经典案例。"
+  ]
+}

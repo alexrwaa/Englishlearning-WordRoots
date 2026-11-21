@@ -1,0 +1,43 @@
+{
+  "morphemeId": "rx-miss",
+  "claim": "miss < 拉丁 mittere 的分词词干 miss-（missus）",
+  "records": [
+    {
+      "word": "dismiss",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "dismiss",
+      "url": "https://en.wiktionary.org/w/index.php?title=dismiss&action=raw",
+      "quote": "from Latin dimissus 'sent away, dismissed, banished', perfect passive participle of dīmittō 'send away, dismiss', from mittere.",
+      "etymon": "mittere",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "missile",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "missile",
+      "url": "https://en.wiktionary.org/w/index.php?title=missile&action=raw",
+      "quote": "From Latin missile 'thrown weapon, projectile', neuter of missilis 'throwable, capable of being thrown', from mittere 'to send'.",
+      "etymon": "mittere",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "emission",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "emission",
+      "url": "https://en.wiktionary.org/w/index.php?title=emission&action=raw",
+      "quote": "from Latin ēmissiō 'sending forth', from ēmittō 'send out'",
+      "etymon": "mittō",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "三条独立条目均以 mittere 说明 miss- 词干来源（dimissus/missilis/ēmissiō），与 mit- 同源，记录无误。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

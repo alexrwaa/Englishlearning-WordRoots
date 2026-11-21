@@ -1,0 +1,171 @@
+{
+  "morphemes": [
+    {
+      "id": "cx-terr-2",
+      "form": "terr",
+      "type": "combining",
+      "origin": "Lat",
+      "glossZh": "恐吓",
+      "glossEn": "frighten",
+      "root": "terrere",
+      "examples": [
+        "terrible",
+        "terrify",
+        "terror",
+        "deter"
+      ],
+      "familyId": "fam-terr",
+      "note": "拉丁 terrere「使害怕」的完成分词词干 territ-；与 terra「土地」（cx-terr）同形异源。",
+      "sources": [
+        "S1"
+      ],
+      "senseKey": "terrere"
+    },
+    {
+      "id": "cx-sex-2",
+      "form": "sex",
+      "type": "combining",
+      "origin": "Lat",
+      "glossZh": "性/性别",
+      "glossEn": "sex, gender",
+      "root": "sexus",
+      "examples": [
+        "asexual",
+        "sexual",
+        "bisexual",
+        "sexism"
+      ],
+      "familyId": "fam-sex",
+      "note": "拉丁 sexus「性别」；与 sex「六」（cx-sex）同形异源。",
+      "sources": [
+        "S1"
+      ],
+      "senseKey": "sexus"
+    },
+    {
+      "id": "cx-sal-2",
+      "form": "sal",
+      "type": "combining",
+      "origin": "Lat",
+      "glossZh": "盐",
+      "glossEn": "salt",
+      "root": "sal",
+      "examples": [
+        "salary",
+        "saline",
+        "salad",
+        "salami"
+      ],
+      "familyId": "fam-sal",
+      "note": "拉丁 sal「盐」；salary 本为「发给士兵买盐的钱」。与 salire「跳」（cx-sal-sil）无关。",
+      "sources": [
+        "S1"
+      ],
+      "senseKey": "sal"
+    },
+    {
+      "id": "cx-libr-2",
+      "form": "libr",
+      "type": "combining",
+      "origin": "Lat",
+      "glossZh": "书",
+      "glossEn": "book",
+      "root": "liber, libri",
+      "examples": [
+        "library",
+        "librarian",
+        "libretto"
+      ],
+      "familyId": "fam-libr",
+      "note": "拉丁 liber/libri「书（的内皮）」；与 libra「天平」（cx-libr）同形异源。",
+      "sources": [
+        "S1"
+      ],
+      "senseKey": "liber"
+    },
+    {
+      "id": "cx-par-2",
+      "form": "par",
+      "type": "combining",
+      "origin": "Lat",
+      "glossZh": "准备",
+      "glossEn": "prepare, make ready",
+      "root": "parare",
+      "examples": [
+        "apparatus",
+        "prepare",
+        "repair",
+        "parade"
+      ],
+      "familyId": "fam-par",
+      "note": "拉丁 parare「备好」；与 parere「生育」（cx-par）同形异源。",
+      "sources": [
+        "S1"
+      ],
+      "senseKey": "parare"
+    },
+    {
+      "id": "rx-man-2",
+      "form": "man",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "停留",
+      "glossEn": "stay, remain",
+      "root": "manere",
+      "examples": [
+        "permanent",
+        "remain",
+        "mansion",
+        "manor"
+      ],
+      "familyId": "fam-man",
+      "note": "拉丁 manere「停留」；与 manus「手」（rx-man）同形异源。",
+      "sources": [
+        "S1"
+      ],
+      "senseKey": "manere"
+    },
+    {
+      "id": "cx-cur-2",
+      "form": "cur",
+      "type": "combining",
+      "origin": "Lat",
+      "glossZh": "跑",
+      "glossEn": "run",
+      "root": "currere",
+      "examples": [
+        "occur",
+        "current",
+        "cursor",
+        "excursion"
+      ],
+      "familyId": "fam-cur",
+      "note": "拉丁 currere「跑」；与 cura「关心」（cx-cur）同形异源。",
+      "sources": [
+        "S1"
+      ],
+      "senseKey": "currere"
+    },
+    {
+      "id": "cx-ven-2",
+      "form": "ven",
+      "type": "combining",
+      "origin": "Lat",
+      "glossZh": "静脉",
+      "glossEn": "vein",
+      "root": "vena",
+      "examples": [
+        "intravenous",
+        "vein",
+        "venesection"
+      ],
+      "familyId": "fam-ven",
+      "note": "拉丁 vena「血管」；与 venire「来」（cx-ven）同形异源。",
+      "sources": [
+        "S1"
+      ],
+      "senseKey": "vena"
+    }
+  ],
+  "words": []
+}

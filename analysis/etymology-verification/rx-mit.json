@@ -1,0 +1,43 @@
+{
+  "morphemeId": "rx-mit",
+  "claim": "mit < 拉丁 mittere「送、放出」",
+  "records": [
+    {
+      "word": "admit",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "admit",
+      "url": "https://en.wiktionary.org/w/index.php?title=admit&action=raw",
+      "quote": "from Latin admittō 'to allow entrance, inlet', from ad- + mittere 'to send'.",
+      "etymon": "mittere",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "submit",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "submit",
+      "url": "https://en.wiktionary.org/w/index.php?title=submit&action=raw",
+      "quote": "from Latin submittere, infinitive of submittō 'place under, yield', from under, from below, up + mitto 'to send'.",
+      "etymon": "mitto",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "commit",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "commit",
+      "url": "https://en.wiktionary.org/w/index.php?title=commit&action=raw",
+      "quote": "from Latin committō 'to bring together, join, compare, commit (a wrong), incur, give in charge, etc.', from com- 'together' + mittō 'to send'.",
+      "etymon": "mittō",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "admit / submit / permit 三条独立条目均给出 mittere/mittō 'send'；transmit 词条仅写 trānsmittō 未展开，故未采用。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

@@ -2751,6 +2751,9 @@
   "spir": [
     "rx-spir"
   ],
+  "spis": [
+    "rx-spec"
+  ],
   "spond": [
     "rx-spond"
   ],

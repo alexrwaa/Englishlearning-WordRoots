@@ -441,8 +441,14 @@ function Invoke-Case {
             $famMembers = [int]$tour.family.members
             $assessOk = [bool]$tour.assessment.ok
             $runs = [int]$tour.assessment.runs
-            $selftestNote = "$selftestNote | family ok=$famOk members=$famMembers | assessment ok=$assessOk runs=$runs"
-            if (-not $famOk -or -not $assessOk) {
+            $inquiryOk = $true
+            $inquiryNote = ''
+            if ($null -ne $tour.inquiry) {
+              $inquiryOk = [bool]$tour.inquiry.ok
+              $inquiryNote = " | inquiry ok=$inquiryOk steps=$($tour.inquiry.steps) persisted=$($tour.inquiry.persisted)"
+            }
+            $selftestNote = "$selftestNote | family ok=$famOk members=$famMembers$inquiryNote | assessment ok=$assessOk runs=$runs"
+            if (-not $famOk -or -not $assessOk -or -not $inquiryOk) {
               $selftestVerdict = 'FAIL'
               $tourErrors = @()
               if ($tour.errors) { $tourErrors = @($tour.errors) }

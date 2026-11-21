@@ -1,0 +1,28 @@
+{
+  "morphemeId": "rx-capit",
+  "latin": "caput",
+  "glossEn": "head",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "caput",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 100207,
+      "quote": "caput Ikap- capudh itis {all sing.  regularly capiic: capiti, Cat. 68, 124: cf.  Tib. 1, 1, 72 Huschk., where the MSS, as  well as Caes. German. Aral. 213, vary be-  tween the two forms), n. [kindr. with  Sanscr. kap-ula; Gr. Ke<p-a\\ti; Goth, hau-  bith ; Germ. Haupt]. I. The head, of men",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "entryNote": "Headword line 100207 \"caput ... itis\" + etymology bracket + the primary gloss \"The head, of men and animals\" at 100213."
+    }
+  ],
+  "verdict": "supports",
+  "note": "L&S caput, -itis, n. 直接释义 \"The head, of men and animals\"，与 caput / capitis「头」完全一致；capital、captain 的 capit- 词干由此而来。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

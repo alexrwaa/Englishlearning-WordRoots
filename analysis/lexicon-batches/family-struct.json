@@ -1,0 +1,1319 @@
+{
+  "morphemes": [
+    {
+      "id": "rx-struct",
+      "form": "struct",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "建造、堆叠",
+      "glossEn": "build, pile up",
+      "allomorphs": [
+        "stru"
+      ],
+      "examples": [
+        "construct",
+        "structure",
+        "instruct",
+        "destruction"
+      ],
+      "originalForm": "struere",
+      "originalGloss": "to pile up, build",
+      "familyId": "fam-struct",
+      "note": "拉丁 struere“堆叠”的过去分词词干 struct-。instruct 的 in- 是“在里面”，不是否定。",
+      "rules": [
+        "struct 是过去分词词干，stru 是现在词干：structure / instrument",
+        "construct 与 construe 同源不同形，后者经法语演变"
+      ],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "rx-stru",
+      "form": "stru",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "建造（struct- 的现在词干）",
+      "glossEn": "build",
+      "allomorphs": [
+        "struct"
+      ],
+      "examples": [
+        "instrument",
+        "instrumental",
+        "instrumentation"
+      ],
+      "originalForm": "struere",
+      "originalGloss": "to build",
+      "familyId": "fam-struct",
+      "note": "struere 的现在词干，只保留在 instrument 等少数词中；与 struct- 是同一词根的两种词干，不是两个词根。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-nano",
+      "form": "nano",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "纳米；十亿分之一",
+      "glossEn": "nanometre, one billionth",
+      "allomorphs": [],
+      "examples": [
+        "nanostructure",
+        "nanometre",
+        "nanotechnology"
+      ],
+      "originalForm": "nanos",
+      "originalGloss": "dwarf",
+      "familyId": "fam-struct",
+      "note": "希腊 nanos“侏儒”，20 世纪起作科学计量前缀，表示 10⁻⁹。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "construct",
+      "parts": [
+        "con",
+        "struct"
+      ],
+      "pos": "v./n.",
+      "glossEn": "build; build up mentally",
+      "glossZh": "建造；构想",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "拉丁 construere < con-（共同）+ struere（堆叠）→ constructus",
+      "derivation": [
+        "con（共同） + struct（建造） → construct"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "construction",
+        "instruct"
+      ],
+      "example": "The team constructed a scale model of the bridge.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "construction",
+      "parts": [
+        "con",
+        "struct",
+        "ion"
+      ],
+      "pos": "n",
+      "glossEn": "act of building; structure",
+      "glossZh": "建造；结构",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "拉丁 constructio < constructus",
+      "derivation": [
+        "con（共同） + struct（建造） + ion（名词后缀） → construction"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "construct",
+        "structural"
+      ],
+      "example": "Construction of the tunnel took four years.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "constructive",
+      "parts": [
+        "con",
+        "struct",
+        "ive"
+      ],
+      "pos": "adj",
+      "glossEn": "helpful, building up",
+      "glossZh": "建设性的",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "中世纪拉丁 constructivus",
+      "derivation": [
+        "con（共同） + struct（建造） + ive（形容词后缀） → constructive"
+      ],
+      "semanticShift": "“建造的” → 有益的、建设性的",
+      "cognates": [
+        "construct"
+      ],
+      "example": "She gave constructive feedback on the draft.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "constructor",
+      "parts": [
+        "con",
+        "struct",
+        "or"
+      ],
+      "pos": "n",
+      "glossEn": "one who builds; initializing function",
+      "glossZh": "建造者；构造函数",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "construct + -or",
+      "derivation": [
+        "con（共同） + struct（建造） + or（施动者） → constructor"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "construct"
+      ],
+      "example": "The class constructor sets the default values.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "reconstruct",
+      "parts": [
+        "re",
+        "con",
+        "struct"
+      ],
+      "pos": "v",
+      "glossEn": "build again; recreate",
+      "glossZh": "重建；复原",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "re-（再）+ construct，18 世纪",
+      "derivation": [
+        "re（再） + con（共同） + struct（建造） → reconstruct"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "reconstruction"
+      ],
+      "example": "Engineers reconstructed the damaged pier from photos.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "reconstruction",
+      "parts": [
+        "re",
+        "con",
+        "struct",
+        "ion"
+      ],
+      "pos": "n",
+      "glossEn": "act of rebuilding",
+      "glossZh": "重建；复原",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "re- + construction，18 世纪",
+      "derivation": [
+        "re（再） + con（共同） + struct（建造） + ion（名词后缀） → reconstruction"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "reconstruct"
+      ],
+      "example": "The reconstruction matched the original within a millimetre.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "reconstructive",
+      "parts": [
+        "re",
+        "con",
+        "struct",
+        "ive"
+      ],
+      "pos": "adj",
+      "glossEn": "rebuilding",
+      "glossZh": "重建的；复原的",
+      "domain": "medical",
+      "family": "fam-struct",
+      "etymology": "reconstruction + -ive，19 世纪",
+      "derivation": [
+        "re（再） + con（共同） + struct（建造） + ive（形容词后缀） → reconstructive"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "reconstruction"
+      ],
+      "example": "Reconstructive surgery restored the jaw line.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "deconstruct",
+      "parts": [
+        "de",
+        "con",
+        "struct"
+      ],
+      "pos": "v",
+      "glossEn": "analyse by taking apart",
+      "glossZh": "解构",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "de-（反向）+ construct，20 世纪（德里达哲学）",
+      "derivation": [
+        "de（反向；去除） + con（共同） + struct（建造） → deconstruct"
+      ],
+      "semanticShift": "“拆开建造物” → 解构",
+      "cognates": [
+        "deconstruction"
+      ],
+      "example": "The essay deconstructs the advert's visual grammar.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "deconstruction",
+      "parts": [
+        "de",
+        "con",
+        "struct",
+        "ion"
+      ],
+      "pos": "n",
+      "glossEn": "analytic taking apart",
+      "glossZh": "解构",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "20 世纪哲学术语，源自德里达",
+      "derivation": [
+        "de（反向；去除） + con（共同） + struct（建造） + ion（名词后缀） → deconstruction"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "deconstruct"
+      ],
+      "example": "Deconstruction exposed the assumptions behind the map.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "destruct",
+      "parts": [
+        "de",
+        "struct"
+      ],
+      "pos": "v",
+      "glossEn": "destroy itself",
+      "glossZh": "自毁",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "destruction 的逆构动词（back-formation），20 世纪；源头为拉丁 destruere",
+      "derivation": [
+        "de（反向；去除） + struct（建造） → destruct"
+      ],
+      "semanticShift": "由名词“破坏”逆构出动词，多用于 self-destruct",
+      "cognates": [
+        "destruction"
+      ],
+      "example": "The probe will destruct on re-entry.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "destruction",
+      "parts": [
+        "de",
+        "struct",
+        "ion"
+      ],
+      "pos": "n",
+      "glossEn": "act of destroying",
+      "glossZh": "破坏；毁灭",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "拉丁 destructio < destruere（de- 反向 + struere 建造）",
+      "derivation": [
+        "de（反向；去除） + struct（建造） + ion（名词后缀） → destruction"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "destructive",
+        "construct"
+      ],
+      "example": "The fire caused total destruction of the archive.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "destructive",
+      "parts": [
+        "de",
+        "struct",
+        "ive"
+      ],
+      "pos": "adj",
+      "glossEn": "causing destruction",
+      "glossZh": "破坏性的",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "拉丁 destructivus < destructio",
+      "derivation": [
+        "de（反向；去除） + struct（建造） + ive（形容词后缀） → destructive"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "destruction"
+      ],
+      "example": "Destructive testing is forbidden on flight hardware.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "destructor",
+      "parts": [
+        "de",
+        "struct",
+        "or"
+      ],
+      "pos": "n",
+      "glossEn": "destroyer; cleanup function",
+      "glossZh": "析构函数；破坏者",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "destruct + -or，20 世纪编程义",
+      "derivation": [
+        "de（反向；去除） + struct（建造） + or（施动者） → destructor"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "destruction"
+      ],
+      "example": "The destructor releases the buffer when the object dies.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "instruct",
+      "parts": [
+        "in",
+        "struct"
+      ],
+      "pos": "v",
+      "glossEn": "teach; give orders",
+      "glossZh": "指导；指示",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "拉丁 instruere（in- 在内 + struere 堆叠）→ instructus",
+      "derivation": [
+        "in（向内） + struct（建造） → instruct"
+      ],
+      "semanticShift": "“在内部搭起” → 装备知识 → 教",
+      "cognates": [
+        "instruction",
+        "instrument"
+      ],
+      "example": "The manual instructs operators to vent the line first.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "instruction",
+      "parts": [
+        "in",
+        "struct",
+        "ion"
+      ],
+      "pos": "n",
+      "glossEn": "teaching; order",
+      "glossZh": "指示；教学",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "拉丁 instructio < instructus",
+      "derivation": [
+        "in（向内） + struct（建造） + ion（名词后缀） → instruction"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "instruct",
+        "instructor"
+      ],
+      "example": "Follow the instruction sheet before powering up.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "instructional",
+      "parts": [
+        "in",
+        "struct",
+        "ion",
+        "al"
+      ],
+      "pos": "adj",
+      "glossEn": "relating to teaching",
+      "glossZh": "教学的",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "instruction + -al，19 世纪",
+      "derivation": [
+        "in（向内） + struct（建造） + ion（名词后缀） + al（形容词后缀） → instructional"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "instruction"
+      ],
+      "example": "The lab produced an instructional video for new staff.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "instructor",
+      "parts": [
+        "in",
+        "struct",
+        "or"
+      ],
+      "pos": "n",
+      "glossEn": "teacher; trainer",
+      "glossZh": "教练；讲师",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "拉丁 instructor < instructus",
+      "derivation": [
+        "in（向内） + struct（建造） + or（施动者） → instructor"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "instruct"
+      ],
+      "example": "The instructor signed off on my first solo flight.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "instructive",
+      "parts": [
+        "in",
+        "struct",
+        "ive"
+      ],
+      "pos": "adj",
+      "glossEn": "giving useful knowledge",
+      "glossZh": "有教益的",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "instruct + -ive，17 世纪",
+      "derivation": [
+        "in（向内） + struct（建造） + ive（形容词后缀） → instructive"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "instruction"
+      ],
+      "example": "The failure is instructive for future designs.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "instrument",
+      "parts": [
+        "in",
+        "stru",
+        "ment"
+      ],
+      "pos": "n",
+      "glossEn": "tool; measuring device",
+      "glossZh": "工具；仪器",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "拉丁 instrumentum（装备）< instruere",
+      "derivation": [
+        "in（向内） + stru（建造） + ment（名词后缀） → instrument"
+      ],
+      "semanticShift": "“装备之物” → 工具 → 仪器",
+      "cognates": [
+        "instrumental",
+        "instruct"
+      ],
+      "example": "The instrument drifted out of calibration overnight.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "instrumental",
+      "parts": [
+        "in",
+        "stru",
+        "ment",
+        "al"
+      ],
+      "pos": "adj",
+      "glossEn": "helpful; of music",
+      "glossZh": "起作用的；器乐的",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "中世纪拉丁 instrumentalis",
+      "derivation": [
+        "in（向内） + stru（建造） + ment（名词后缀） + al（形容词后缀） → instrumental"
+      ],
+      "semanticShift": "“工具的” → 起手段作用的",
+      "cognates": [
+        "instrument"
+      ],
+      "example": "Her data were instrumental in the final decision.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "instrumentation",
+      "parts": [
+        "in",
+        "stru",
+        "ment",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "instruments; arrangement for instruments",
+      "glossZh": "仪器装备；配器",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "instrument + -ation，19 世纪",
+      "derivation": [
+        "in（向内） + stru（建造） + ment（名词后缀） + ation（名词后缀） → instrumentation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "instrument"
+      ],
+      "example": "The test stand needs new pressure instrumentation.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "obstruct",
+      "parts": [
+        "ob",
+        "struct"
+      ],
+      "pos": "v",
+      "glossEn": "block; get in the way",
+      "glossZh": "阻碍；阻塞",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "拉丁 obstruere < ob-（对着）+ struere（堆叠）",
+      "derivation": [
+        "ob（对着） + struct（建造） → obstruct"
+      ],
+      "semanticShift": "“在对面堆起来” → 阻塞",
+      "cognates": [
+        "obstruction"
+      ],
+      "example": "A fallen beam obstructed the service corridor.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "obstruction",
+      "parts": [
+        "ob",
+        "struct",
+        "ion"
+      ],
+      "pos": "n",
+      "glossEn": "blockage",
+      "glossZh": "阻碍；阻塞物",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "拉丁 obstructio < obstructus",
+      "derivation": [
+        "ob（对着） + struct（建造） + ion（名词后缀） → obstruction"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "obstruct",
+        "obstructive"
+      ],
+      "example": "The obstruction was cleared within an hour.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "obstructive",
+      "parts": [
+        "ob",
+        "struct",
+        "ive"
+      ],
+      "pos": "adj",
+      "glossEn": "causing blockage",
+      "glossZh": "阻塞的；妨碍的",
+      "domain": "medical",
+      "family": "fam-struct",
+      "etymology": "obstruct + -ive，17 世纪",
+      "derivation": [
+        "ob（对着） + struct（建造） + ive（形容词后缀） → obstructive"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "obstruction"
+      ],
+      "example": "The scan showed an obstructive lesion in the airway.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "structure",
+      "parts": [
+        "struct",
+        "ure"
+      ],
+      "pos": "n./v.",
+      "glossEn": "arrangement; building",
+      "glossZh": "结构；构造",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "拉丁 structura < struere（建造）",
+      "derivation": [
+        "struct（建造） + ure（名词后缀） → structure"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "structural",
+        "construct"
+      ],
+      "example": "The structure survived the simulated quake.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "structural",
+      "parts": [
+        "struct",
+        "ure",
+        "al"
+      ],
+      "pos": "adj",
+      "glossEn": "relating to structure",
+      "glossZh": "结构的",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "structure + -al，19 世纪",
+      "derivation": [
+        "struct（建造） + ure（名词后缀） + al（形容词后缀） → structural；structure + -al → structural，去 e"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "structure",
+        "structurally"
+      ],
+      "example": "A structural engineer reviewed the roof loads.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "structurally",
+      "parts": [
+        "struct",
+        "ure",
+        "al",
+        "ly"
+      ],
+      "pos": "adv",
+      "glossEn": "in terms of structure",
+      "glossZh": "结构上",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "structural + -ly",
+      "derivation": [
+        "struct（建造） + ure（名词后缀） + al（形容词后缀） + ly（副词后缀） → structurally；structure + -al + -ly，去 e"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "structural"
+      ],
+      "example": "The panel is structurally sound but cosmetically flawed.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "structuralism",
+      "parts": [
+        "struct",
+        "ure",
+        "al",
+        "ism"
+      ],
+      "pos": "n",
+      "glossEn": "theory centred on structures",
+      "glossZh": "结构主义",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "structural + -ism，20 世纪",
+      "derivation": [
+        "struct（建造） + ure（名词后缀） + al（形容词后缀） + ism（学说） → structuralism；structure + -al + -ism，去 e"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "structuralist"
+      ],
+      "example": "Structuralism treats language as a system of differences.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "structuralist",
+      "parts": [
+        "struct",
+        "ure",
+        "al",
+        "ist"
+      ],
+      "pos": "n./adj.",
+      "glossEn": "adherent of structuralism",
+      "glossZh": "结构主义者",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "structural + -ist，20 世纪",
+      "derivation": [
+        "struct（建造） + ure（名词后缀） + al（形容词后缀） + ist（从事者） → structuralist；structure + -al + -ist，去 e"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "structuralism"
+      ],
+      "example": "A structuralist reading focuses on oppositions, not authors.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "structured",
+      "parts": [
+        "struct",
+        "ure",
+        "ed"
+      ],
+      "pos": "adj",
+      "glossEn": "organized; having structure",
+      "glossZh": "有结构的",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "structure + -ed，20 世纪",
+      "derivation": [
+        "struct（建造） + ure（名词后缀） + ed（过去/被动） → structured；structure + -ed → structured，去 e"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "structure",
+        "unstructured"
+      ],
+      "example": "The interview followed a structured protocol.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "unstructured",
+      "parts": [
+        "un",
+        "struct",
+        "ure",
+        "ed"
+      ],
+      "pos": "adj",
+      "glossEn": "without formal structure",
+      "glossZh": "无结构的",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "un-（不）+ structured，20 世纪",
+      "derivation": [
+        "un（不） + struct（建造） + ure（名词后缀） + ed（过去/被动） → unstructured；structure + -ed → structured，去 e"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "structured"
+      ],
+      "example": "Unstructured interviews are hard to compare.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "restructure",
+      "parts": [
+        "re",
+        "struct",
+        "ure"
+      ],
+      "pos": "v",
+      "glossEn": "organize differently",
+      "glossZh": "重组；重构",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "re-（再）+ structure，20 世纪",
+      "derivation": [
+        "re（再） + struct（建造） + ure（名词后缀） → restructure"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "restructuring"
+      ],
+      "example": "The company restructured its data team last spring.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "restructuring",
+      "parts": [
+        "re",
+        "struct",
+        "ure",
+        "ing"
+      ],
+      "pos": "n",
+      "glossEn": "reorganization",
+      "glossZh": "重组",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "restructure + -ing，20 世纪",
+      "derivation": [
+        "re（再） + struct（建造） + ure（名词后缀） + ing（进行） → restructuring；restructure + -ing → restructuring，去 e"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "restructure"
+      ],
+      "example": "The restructuring cut review time by half.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "infrastructure",
+      "parts": [
+        "infra",
+        "struct",
+        "ure"
+      ],
+      "pos": "n",
+      "glossEn": "basic facilities and systems",
+      "glossZh": "基础设施",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "infra-（在下）+ structure，1927 年",
+      "derivation": [
+        "infra（在下） + struct（建造） + ure（名词后缀） → infrastructure"
+      ],
+      "semanticShift": "“下层结构” → 基础设施",
+      "cognates": [
+        "structure"
+      ],
+      "example": "The port lacks the infrastructure for cold storage.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "superstructure",
+      "parts": [
+        "super",
+        "struct",
+        "ure"
+      ],
+      "pos": "n",
+      "glossEn": "structure built on another",
+      "glossZh": "上层建筑",
+      "domain": "academic",
+      "family": "fam-struct",
+      "etymology": "super-（在上）+ structure，17 世纪",
+      "derivation": [
+        "super（在上） + struct（建造） + ure（名词后缀） → superstructure"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "structure",
+        "infrastructure"
+      ],
+      "example": "The superstructure rests on four concrete piers.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "substructure",
+      "parts": [
+        "sub",
+        "struct",
+        "ure"
+      ],
+      "pos": "n",
+      "glossEn": "supporting lower structure",
+      "glossZh": "下部结构；基础",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "sub-（在下）+ structure，18 世纪",
+      "derivation": [
+        "sub（在下） + struct（建造） + ure（名词后缀） → substructure"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "structure"
+      ],
+      "example": "Cracks appeared in the substructure after the flood.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "microstructure",
+      "parts": [
+        "micro",
+        "struct",
+        "ure"
+      ],
+      "pos": "n",
+      "glossEn": "structure at small scale",
+      "glossZh": "微观结构",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "micro-（微小）+ structure，19 世纪",
+      "derivation": [
+        "micro（微小） + struct（建造） + ure（名词后缀） → microstructure"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "macrostructure"
+      ],
+      "example": "Etching revealed the alloy's microstructure.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "macrostructure",
+      "parts": [
+        "macro",
+        "struct",
+        "ure"
+      ],
+      "pos": "n",
+      "glossEn": "structure at large scale",
+      "glossZh": "宏观结构",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "macro-（宏大）+ structure，20 世纪",
+      "derivation": [
+        "macro（宏大） + struct（建造） + ure（名词后缀） → macrostructure"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "microstructure"
+      ],
+      "example": "The macrostructure looks uniform at this magnification.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "nanostructure",
+      "parts": [
+        "nano",
+        "struct",
+        "ure"
+      ],
+      "pos": "n",
+      "glossEn": "structure at nanometre scale",
+      "glossZh": "纳米结构",
+      "domain": "technical",
+      "family": "fam-struct",
+      "etymology": "nano-（纳米）+ structure，20 世纪晚期",
+      "derivation": [
+        "nano（纳米） + struct（建造） + ure（名词后缀） → nanostructure"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "microstructure"
+      ],
+      "example": "The coating forms a regular nanostructure.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "indestructible",
+      "parts": [
+        "in",
+        "de",
+        "struct",
+        "ible"
+      ],
+      "pos": "adj",
+      "glossEn": "cannot be destroyed",
+      "glossZh": "不可摧毁的",
+      "domain": "general",
+      "family": "fam-struct",
+      "etymology": "in-（不）+ destruct + -ible，17 世纪",
+      "derivation": [
+        "in（向内） + de（反向；去除） + struct（建造） + ible（可…的） → indestructible"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "destruction"
+      ],
+      "example": "The case is heavy but nearly indestructible.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    }
+  ]
+}

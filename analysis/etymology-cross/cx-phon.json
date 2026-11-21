@@ -1,0 +1,16 @@
+{
+  "morphemeId": "cx-phon",
+  "latin": "phōnē (Greek)",
+  "glossEn": "sound, voice",
+  "records": [],
+  "verdict": "not-covered",
+  "note": "L&S 不收录希腊语 φωνή / phōnē（全文检索 φων / phōnē 无对应词条）。如需交叉核验，应改用 Liddell-Scott Greek Lexicon。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

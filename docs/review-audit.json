@@ -1,5 +1,5 @@
 {
-  "version": "0.10.0",
+  "version": "0.11.0",
   "rows": [
     {
       "id": "cx-aesth-esth",
@@ -653,20 +653,25 @@
       "evidenceLevels": {
         "registered": true,
         "located": true,
-        "supported": false,
+        "supported": true,
         "independent": false,
         "reviewed": true
       },
       "indicators": {
         "registered": true,
-        "contentVerified": false,
+        "contentVerified": true,
         "sameWorkMultiEntry": false,
         "crossSource": false,
         "signed": true,
-        "performed": false
+        "performed": true
       },
-      "works": [],
-      "verification": null
+      "works": [
+        "unknown"
+      ],
+      "verification": {
+        "verdict": "verified",
+        "records": 1
+      }
     },
     {
       "id": "cx-contra-counter",
@@ -1677,7 +1682,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -1686,7 +1691,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 4
       }
     },
     {
@@ -3515,7 +3520,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -3524,7 +3529,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 4
       }
     },
     {
@@ -3860,20 +3865,25 @@
       "evidenceLevels": {
         "registered": true,
         "located": true,
-        "supported": false,
+        "supported": true,
         "independent": false,
         "reviewed": true
       },
       "indicators": {
         "registered": true,
-        "contentVerified": false,
+        "contentVerified": true,
         "sameWorkMultiEntry": false,
         "crossSource": false,
         "signed": true,
-        "performed": false
+        "performed": true
       },
-      "works": [],
-      "verification": null
+      "works": [
+        "unknown"
+      ],
+      "verification": {
+        "verdict": "verified",
+        "records": 1
+      }
     },
     {
       "id": "cx-pug",
@@ -6199,15 +6209,81 @@
       },
       "works": [],
       "verification": null
+    },
+    {
+      "id": "cx-logy",
+      "form": "logy",
+      "kinds": [
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": false,
+        "reviewed": true
+      },
+      "indicators": {
+        "registered": true,
+        "contentVerified": true,
+        "sameWorkMultiEntry": false,
+        "crossSource": false,
+        "signed": true,
+        "performed": true
+      },
+      "works": [
+        "unknown"
+      ],
+      "verification": {
+        "verdict": "verified",
+        "records": 1
+      }
+    },
+    {
+      "id": "cx-metr",
+      "form": "metr",
+      "kinds": [
+        "review"
+      ],
+      "citedPage": null,
+      "pageCheck": "unlocated",
+      "l7a": true,
+      "l7b": false,
+      "evidenceLevels": {
+        "registered": true,
+        "located": true,
+        "supported": true,
+        "independent": false,
+        "reviewed": true
+      },
+      "indicators": {
+        "registered": true,
+        "contentVerified": true,
+        "sameWorkMultiEntry": false,
+        "crossSource": false,
+        "signed": true,
+        "performed": true
+      },
+      "works": [
+        "unknown"
+      ],
+      "verification": {
+        "verdict": "verified",
+        "records": 1
+      }
     }
   ],
   "pageStats": {
     "page-matches": 192,
-    "unlocated": 19
+    "unlocated": 21
   },
   "kindStats": {
     "textbook": 207,
-    "review": 211,
+    "review": 213,
     "dictionary": 14
   }
 }

@@ -1,0 +1,28 @@
+{
+  "morphemeId": "rx-form",
+  "latin": "forma",
+  "glossEn": "shape, form",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "forma",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 263049,
+      "quote": "forma, ae, f [Sanscr dhar , dhar Smj,  bear, dhar i man, figure, Gr 6 pa in 0p7j  vuy, dpovov , cf. Lat fr£tus, frtnum, fortis,  etc.), form , m the moat comprehensive  sen c e of the word, contour, figure, shape,",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "entryNote": "OCR drops the opening bracket of the etymology and mangles some Greek; the definition words are intact."
+    }
+  ],
+  "verdict": "supports",
+  "note": "L&S forma, -ae, f. 释义 \"form ... contour, figure, shape, appearance\"，与 forma「形」一致。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "morphemeId": "rx-miss",
+  "latin": "missum (part. of mittere)",
+  "glossEn": "sent",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "missus",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 391436,
+      "quote": "2, missus, r*s, m. [mitto], a sending  away, a sending, despatching. I, Lit. A",
+      "supports": true,
+      "fetchedAt": "2026-11-22"
+    }
+  ],
+  "verdict": "supports",
+  "note": "L&S 单列 2. missus, -us, m. [mitto] \"a sending away, a sending, despatching\"，并把 1. missus 标为 \"Part., from mitto\"，确认 miss- 是 mittere 的分词词干。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "$comment": "S4（历史构词）覆盖与过时内容隔离审计。三件事：一、列出课程里实际教到的历史构词内容及其证据等级；二、标出哪些说法属于「教材旧说/已过时」，以及课程现有处理方式；三、给出可执行的隔离机制建议。判定只看课程有没有把「事实 / 主流假说 / 教材约定 / 旧说」四档说清楚，不看结论本身新旧。",
+  "generatedAt": "2026-11-21",
+  "inventory": [
+    {
+      "id": "grimm",
+      "topic": "Grimm's Law / First Germanic Consonant Shift",
+      "topicZh": "格里姆定律（第一次日耳曼辅音推移）",
+      "lessons": ["w27d4", "w34d1", "w35d6"],
+      "content": "三组九行对应（*p→f、*t→þ、*k→h、*d→t、*g→k、*b→p、*bʰ→b、*dʰ→d、*gʰ→g），并留出 *b 的空格；Rask 1818 的判定程序与 Grimm 1822 的整理。",
+      "status": "现代共识",
+      "isolation": "explicit",
+      "evidence": "w27d4 卡片3 用 much/mucho、haben/habēre 两对假朋友说明「意义相同＋形状相似是最弱证据」；w34d1 卡片3 专门讲「对应不等于音值相等」，并给检验办法「必须成批出现且方向一致」。"
+    },
+    {
+      "id": "verner",
+      "topic": "Verner's Law",
+      "topicZh": "维尔纳定律",
+      "lessons": ["w27d5"],
+      "content": "擦音是否浊化取决于祖语重音位置：重音在紧邻音节之前则保持清（brother 的 th），在其后则浊化（father 的 d）。",
+      "status": "现代共识",
+      "isolation": "explicit",
+      "evidence": "w27d5 卡片4 把维尔纳定律的意义写成方法论命题：「所谓『例外』往往不是规律失效，而是还有一条规律没被发现」。"
+    },
+    {
+      "id": "chain-shift",
+      "topic": "chain shift as explanatory model",
+      "topicZh": "链移（推链）作为解释模型",
+      "lessons": ["w27d5"],
+      "content": "三组齿音整体挪一格：*dʰ→d→t→þ，用「位置被占住」解释顺序。",
+      "status": "有争议（解释模型）",
+      "isolation": "explicit",
+      "evidence": "w27d5 卡片3 原文：「必须说清楚：链移是一种解释模型……语言史不能做实验，无法证明当时真是『被推』的。教材采用它，是因为它同时解释了方向与动机，且没有反例。」"
+    },
+    {
+      "id": "gvs",
+      "topic": "Great Vowel Shift",
+      "topicZh": "元音大推移",
+      "lessons": ["w35d6", "w34d1", "w35d2"],
+      "content": "四到五组对应（ī→aɪ、ū→aʊ、ā→eɪ、ō→uː、ē→iː），配 tīma/time、mūs/mouse 等链证；与印刷术锁定拼写的时间差。",
+      "status": "现代共识",
+      "isolation": "partial",
+      "evidence": "w35d6 卡片2「元音整体上移一格」是标准表述，但没有说明这条推移存在例外与分期争议（如 /ɛː/、/ɔː/ 的走向、各地方言不同步）。w34d1 与 w35d6 都把「对应」与「相等」分开讲，方法层面是稳的。"
+    },
+    {
+      "id": "asterisk",
+      "topic": "reconstruction and the asterisk convention",
+      "topicZh": "构拟与星号约定",
+      "lessons": ["w27d5", "w28d2", "w33d2"],
+      "content": "星号表示形式无文献实证、由对应反推；同一星号背后的确信度差别很大（*pətēr 几无争议 vs 喉音音值争议大）；星号在句法学另有含义。",
+      "status": "现代共识",
+      "isolation": "explicit",
+      "evidence": "w27d5 卡片1 明确「星号不等于不确定，它等于非实证」，并提醒读论文要看证据而不是看有没有星号。"
+    },
+    {
+      "id": "laryngeal",
+      "topic": "laryngeal theory",
+      "topicZh": "喉音假说",
+      "lessons": ["w27d3", "w28d2", "w30d3"],
+      "content": "索绪尔反推的三个喉音，赫梯语 ḫ 提供旁证；喉音着色与加长。",
+      "status": "现代共识（音值不确定）",
+      "isolation": "explicit",
+      "evidence": "w28d2 讲 1878 年索绪尔假设与 30 多年后赫梯语出土的验证过程，并把音值标为「不确定读音」；这与 S1 的表述一致。"
+    },
+    {
+      "id": "centum-satem",
+      "topic": "centum / satem division",
+      "topicZh": "centum／satem 二分",
+      "lessons": ["w28d1", "w27d3"],
+      "content": "三套软腭音（*ḱ、*k、*kʷ）在各支的合并方式不同；centum 型与 satem 型各含哪些分支。",
+      "status": "教材旧说（作为谱系分裂）",
+      "isolation": "explicit",
+      "evidence": "这是任务点名的典型。教材旧说把 centum/satem 当作印欧语最早的一次分裂；课程已明确纠正：w28d1 原文「吐火罗语地处极东却属 centum 型，说明这条界线是地域扩散，不是最早的一次谱系分裂」，w27d3-p4 的练习也以同一判断为答案。这是全课程隔离做得最好的一处。"
+    },
+    {
+      "id": "homeland",
+      "topic": "Indo-European homeland debate",
+      "topicZh": "印欧故乡之争（库尔干／安纳托利亚／南弧）",
+      "lessons": ["w29d3", "w27d3", "w33d5"],
+      "content": "Gimbutas 的草原三波迁移说、Renfrew 的农业扩散说、近年南弧方案，以及古 DNA 支持了什么、没支持什么。",
+      "status": "有争议",
+      "isolation": "explicit",
+      "evidence": "w29d3 标题即「但它至今仍是一个有对手的假说」，卡片3 用「主要困难」一列并置三种方案，结尾写「草原假说是主流，但不是定论」；w33d5 也写「这条属于主流假说，仍有讨论，不宜当成定论」。"
+    },
+    {
+      "id": "palaeo-lexicon",
+      "topic": "linguistic palaeontology (shared lexicon → culture)",
+      "topicZh": "语言考古：由共享词汇推断文化与年代",
+      "lessons": ["w29d1", "w29d2"],
+      "content": "三条前提（继承而非借用、义未大改、未被独立丢失）与三个陷阱；用家畜、树木、金属、轮轴词推定生活环境与年代上下限。",
+      "status": "方法可用，个别断言过强",
+      "isolation": "partial",
+      "evidence": "方法层面隔离得很好：w29d1 要求措辞停在「祖语里有表示 X 的词」而不是「祖语使用者有 X 这种制度」，并用 bear 被禁忌替换作反例。但 w29d2 有两处把推断写成硬结论：「祖语不可能早于这个时间就散开」「这就是『缺词』的用法：一个词的缺席，和它的在场一样有信息量」——而 w29d1 刚教过「一个词在某支消失，不等于祖语里没有这个词」。"
+    },
+    {
+      "id": "branch-count",
+      "topic": "number of IE branches",
+      "topicZh": "印欧语系的分支数目（十三个）",
+      "lessons": ["w27d3"],
+      "content": "八个分支仍有活语言，五个只有文献或铭文。",
+      "status": "教材约定",
+      "isolation": "explicit",
+      "evidence": "w27d3 卡片1 原文：「分支的具体数目是教材的编排约定，不是自然事实……『十三个』会变成『十二个』或『十四个』。记住八个活分支是稳的，残篇分支的清单是有版本的。」"
+    },
+    {
+      "id": "periodization",
+      "topic": "Old / Middle / Modern English periodization",
+      "topicZh": "古英语—中古英语—现代英语三分期",
+      "lessons": ["w35d2"],
+      "content": "约 700–1100 / 1100–1500 / 1500 以后；起点定在 700 年是因为文本从那时起才多。",
+      "status": "教材约定",
+      "isolation": "explicit",
+      "evidence": "w35d2 原文：「这套三分法是十九世纪末到二十世纪初定下来的惯例，三段长度大致相等，整齐得可疑……它是叙述工具，不是事实边界。1150 年的抄写员不会觉得自己在写『一种语言』。」"
+    },
+    {
+      "id": "anglo-saxon",
+      "topic": "the Adventus Saxonum narrative",
+      "topicZh": "盎格鲁—撒克逊渡海叙述（449 年）",
+      "lessons": ["w35d1"],
+      "content": "Angles / Saxons / Jutes 三支与 England 的命名；基督教化带来的借词。",
+      "status": "传统叙述",
+      "isolation": "explicit",
+      "evidence": "w35d1 原文：「传统叙述里，五世纪渡海的是三支……但传统叙述给的登陆年份（449 年）出自后世编年史的追记，考古只支持『五世纪中后期逐步移入』，不宜当成精确日期。」"
+    },
+    {
+      "id": "loan-strata",
+      "topic": "three layers of English vocabulary",
+      "topicZh": "本土／法语／拉丁三层借词模型",
+      "lessons": ["w09d1", "w15d1", "w09d2", "w31d4"],
+      "content": "1066 后法语掌制度、拉丁掌学术、本土守日常；三层与语域分工；学术借词（learned borrowing）的变化最少。",
+      "status": "教材简化",
+      "isolation": "partial",
+      "evidence": "w09d1 的对照表把「本土 5–11 世纪 / 诺曼法语 1066 后三百年 / 拉丁希腊 14 世纪起」排成三行，说明「不是三个时期替换，而是层层叠加」，这一点讲得对；但表里没有位置放古北欧语（w09d2 单独讲过）、低地德语/荷兰语借词、以及文艺复兴后的拉丁二次借入，学生容易把「三层」当成全集。"
+    },
+    {
+      "id": "latin-pronunciation",
+      "topic": "the Latin pronunciation tradition",
+      "topicZh": "拉丁读音传统与软腭软化",
+      "lessons": ["w15d4", "w15d5", "w15d6"],
+      "content": "古典拉丁 c 一律 [k]；软化发生在晚期拉丁到罗曼语；英语借的是软化后的法语音，拼写却常按拉丁改回；近年有反向「复原读音」。",
+      "status": "现代共识",
+      "isolation": "explicit",
+      "evidence": "w15d4 卡片5 用 Celtic 的两读（[ˈkeltɪk] / [ˈseltɪk]）说明「拼写不决定读音，社团惯例才决定」；w15d6 讲复原读音的反复。"
+    },
+    {
+      "id": "typology",
+      "topic": "19th-century morphological typology",
+      "topicZh": "形态类型学四分（孤立／黏着／屈折／多式综合）",
+      "lessons": ["w33d4"],
+      "content": "用 fusional 解释拉丁 -ō 一词尾兼格数性，对比黏着语「一个词尾只管一项」。",
+      "status": "教材旧框架",
+      "isolation": "none",
+      "evidence": "只出现在 w33d4-p5 的解析里，正文没有介绍这套框架，也没有说明它今天只作描述性概括（没有离散类型、曾被用于语言优劣排序）。因为出现浅，教学风险低；但作为考点会固化旧框架。"
+    },
+    {
+      "id": "semantic-regularity",
+      "topic": "regularity of semantic change",
+      "topicZh": "词义变化是否有规律",
+      "lessons": ["w36d3", "w21d4", "w10d4"],
+      "content": "五条常见路径（隐喻、转喻、特化、泛化、贬降/升格）；规律可描述但落点不可硬推。",
+      "status": "现代共识（有限规律）",
+      "isolation": "explicit",
+      "evidence": "w36d3 卡片4 给三条理由说明为什么不能预测（起点分叉、同类机制相反结果、外部知识介入），结论是「规律给你的是候选路径和排除依据，不是唯一答案」。这与 S2 的「语义变化通常不规则」并不冲突。"
+    }
+  ],
+  "summary": {
+    "total": 16,
+    "modern": 7,
+    "disputedOrConvention": 6,
+    "datedOrOverstrong": 3,
+    "isolationExplicit": 12,
+    "isolationPartial": 3,
+    "isolationNone": 1,
+    "comment": "16 项里 12 项已有显式隔离（写成「教材约定」「主流假说，不是定论」「一种解释模型」），3 项部分隔离（GVS 的例外、三层借词的全集性、语言考古的断言强度），1 项（形态类型学）无隔离但出现极浅。整体隔离水平高于同类教材型课程；真正需要动笔改的只有 w29d2 的两处强断言。"
+  },
+  "outdatedClaims": [
+    {
+      "id": "oc-centum",
+      "claim": "centum／satem 的二分是印欧语最早的一次谱系分裂。",
+      "where": "S1 第 10 章的旧框架；课程 w28d1、w27d3 复述该框架时附带纠正。",
+      "whyDated": "吐火罗语地处极东却呈 centum 型，与「最早分裂」不相容；现代处理为地域扩散造成的等语线（isogloss），且 satem 型内部也并不统一。",
+      "courseTreatment": "已隔离。w28d1 明确「这条界线是地域扩散，不是最早的一次谱系分裂」，并在 w27d3-p4 用练习检测。可作为隔离机制的范本。"
+    },
+    {
+      "id": "oc-kurgan",
+      "claim": "印欧故乡在黑海—里海草原，靠马与轮车的军事优势分三波扩张并取代当地人。",
+      "where": "w29d3（Gimbutas 方案）。",
+      "whyDated": "「入侵取代」在多数地区缺乏考古支持，近年古 DNA 支持大规模人口移动但不支持单向暴力取代；安纳托利亚方案与南弧方案仍是竞争对手。",
+      "courseTreatment": "已隔离。写明「草原假说是主流，但不是定论」，并列出三方案的主要困难。"
+    },
+    {
+      "id": "oc-threelayer",
+      "claim": "英语词汇由本土、法语、拉丁三层构成。",
+      "where": "w09d1 的三层对照表。",
+      "whyDated": "三层是教学简化：古北欧语（w09d2 已单讲）、低地德语/荷兰语、凯尔特底层、文艺复兴后的拉丁二次借入、20 世纪的世界借词都不在这三层里。",
+      "courseTreatment": "部分隔离。表格说明「不是三个时期替换，而是层层叠加」，但没有一句「这三层不是全集」。"
+    },
+    {
+      "id": "oc-wheel-date",
+      "claim": "祖语有轮、轴、轭的成套词汇，所以祖语不可能早于公元前四千纪末散开。",
+      "where": "w29d2 卡片3。",
+      "whyDated": "这是把「共享词汇→年代上限」当成硬约束。轮车词可能在祖语之后沿接触网络扩散（Wanderwort），也可能在某支被替换；w29d1 自己刚用 bear 的禁忌替换说明「词的缺席不等于事物不存在」。",
+      "courseTreatment": "未隔离。同一节课的方法论与结论强度不一致，是最值得改的一处。"
+    },
+    {
+      "id": "oc-iron-date",
+      "claim": "祖语没有共同的「铁」词，所以铁器传入时印欧语已经散开。",
+      "where": "w29d2 卡片1。",
+      "whyDated": "同上：缺词既可能因为时代晚，也可能因为该词在某一支被替换或从未固定。这条推断方向大体成立，但措辞应为「与……相符」，不是「结论很清楚」。",
+      "courseTreatment": "未隔离。"
+    },
+    {
+      "id": "oc-typology",
+      "claim": "语言可按孤立／黏着／屈折／多式综合分成四类。",
+      "where": "w33d4-p5 解析。",
+      "whyDated": "19 世纪类型学，现代只作描述性概括（纯类型极少、同一语言可同时具备多种特征），且该框架历史上与语言优劣论绑定。",
+      "courseTreatment": "未隔离，但只作术语解释出现，未做考点。"
+    },
+    {
+      "id": "oc-gvs-uniform",
+      "claim": "长元音整体上移一格。",
+      "where": "w35d6 卡片2。",
+      "whyDated": "「整体上移一格」是教学隐喻；实际推移有时间差、地域差与例外（如部分方言 /uː/ 前移而非二合化），中古英语 /ɛː/、/ɔː/ 的走向也有争议。",
+      "courseTreatment": "部分隔离。课程用「对应」而非「相等」的框架讲，避免了最大误解，但没有提示例外。"
+    }
+  ],
+  "isolationMechanisms": {
+    "existing": [
+      "正文直标：『教材的编排约定，不是自然事实』（w27d3）、『叙述工具，不是事实边界』（w35d2）、『一种解释模型』（w27d5）、『主流，但不是定论』（w29d3）、『传统叙述』＋『不宜当成精确日期』（w35d1）。",
+      "术语分层：实证（无星号）/ 构拟（有星号）/ 假说（喉音音值、故乡）三档在 w27d5、w28d2 讲清。",
+      "练习检测：w27d3-p4、w28d1、w34d1-p2 都把「能不能把等语线当谱系分裂」「对应是否等于相等」做成了题。",
+      "数据层：s4-elements.json 对 7 条 1879 年说法加了 obsolete:true 与 note；analysis/s4/obsolete-claims.md 逐条给现代修正。"
+    ],
+    "leakCheck": {
+      "checked": 7,
+      "leaked": 0,
+      "detail": "把 s4-elements.json 的 7 条 obsolete 条目（dis-=two、n- 否定前缀、-fold 源自 plico、-hood 来源不明、-ic 只限希腊来源、-ics 只限希腊来源、-ish=to make）逐条回到 243 节课检索：dis- 在 w03d1 明确讲「分离义而非否定义」，-ish 在 w36d2 讲三义（像/略/属于），publish 未按 -ish 构词讲，n- 未被列为否定前缀。7 条旧说均未进入课程。"
+    },
+    "recommended": [
+      {
+        "id": "rec-tag",
+        "title": "给每条历史结论加统一的四档来源标记",
+        "detail": "在卡片 JSON 增加 claimStrength 字段，取值 fact / mainstream / textbook-convention / superseded，渲染成卡片角标（如「教材约定」「旧说·已修正」）。现有隔离全靠行文，写法不统一，同一批卡片里「教材说」「主流」「有争议」混用，学生无法一眼分辨证据等级。先落在 16 条 inventory 上，再推广。",
+        "example": "w29d2 卡片3 标 textbook-convention；w28d1 的 centum/satem 标 superseded 并链到纠正卡。"
+      },
+      {
+        "id": "rec-claims-file",
+        "title": "建立 docs/TEXTBOOK_CLAIMS.md 作为唯一登记处",
+        "detail": "把「教材独有/过时框架」集中登记：三系列塞音与声门音理论之争、centum/satem、三层借词、三分期、十三分支、形态类型学四分、轮车断代。每条写：教材原说法、现代分歧、保留理由、课程处理方式、相关课时。课程卡片只写一句「见 TEXTBOOK_CLAIMS#id」，避免同一免责声明在多节课里各写一遍、措辞漂移。",
+        "example": "现有 analysis/s4/obsolete-claims.md 只覆盖 7 条成分级旧说，缺框架级旧说，二者应合并。"
+      },
+      {
+        "id": "rec-evidence-task",
+        "title": "把「证据强度判断」做成题型，而不是只写在正文",
+        "detail": "新增一类练习：给同一结论的两条支持证据，让学生判哪条更强、为什么。例如「英语与拉丁同源」给 (a) pater/father 形近 与 (b) p↔f 成批对应；「祖语有轮」给 (a) 六支同源词 与 (b) 考古发现车轮。这类题能把「识别旧说」变成可测能力，也能直接复用 w27d4 的证据分级表。",
+        "example": "可作为 judge 题型的第二种用法，当前 judge 仅 5 题且全部用于真词/伪词判定。"
+      },
+      {
+        "id": "rec-ci",
+        "title": "把 obsolete 标记接进构建校验",
+        "detail": "写一条测试：读取 s4-elements.json 中 obsolete:true 的条目，检索 src/content 的词库与课时正文，若出现「把该成分按旧义教学」的模式（如把 -ish 释为 to make、把 n- 列为否定前缀）则失败。当前 7 条均未泄漏，正好可作为回归基线。",
+        "example": "可挂在现有 etymology-regression 测试旁，成本低、防回归价值高。"
+      }
+    ]
+  }
+}

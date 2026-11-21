@@ -126,6 +126,18 @@
       "url": "https://archive.org/details/in.ernet.dli.2015.120891",
       "rights": "Public domain (1879). Quoted in short excerpts only for verification; the full text is not redistributed.",
       "note": "Independent editorial source from Wiktionary: 19th-century Latin lexicography, useful for checking etymon and sense."
+    },
+    {
+      "id": "G3",
+      "title": "A Greek-English Lexicon (Liddell-Scott-Jones, 9th ed. with revised supplement)",
+      "year": "1940",
+      "publisher": "Clarendon Press (JSON transcription: LSJLogeion)",
+      "status": "full-text",
+      "role": "dictionary",
+      "url": "https://github.com/helmadik/LSJLogeion",
+      "license": "CC BY-SA 4.0 (digital transcription); the lexicon itself is public domain",
+      "rights": "Quoted in short excerpts with attribution, per CC BY-SA. The full JSON is not redistributed; only headword, short quote and a pointer are stored.",
+      "note": "Independent of Wiktionary and of Lewis & Short (different language, different editorial tradition)."
     }
   ]
 }

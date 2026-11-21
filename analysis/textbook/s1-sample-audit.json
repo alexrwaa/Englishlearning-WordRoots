@@ -1,0 +1,268 @@
+{
+  "$comment": "S1《English Vocabulary Elements》知识点抽样审校。判据：正文有实质解释 + 至少 1 个真实例词 + 至少 1 题检测，三者齐备才算 pass；只有 ID 关联或只在一张卡里带过一句算 partial/fail。抽样为分层抽样：11 章每章 2–3 个，优先第 9–11 章与新补的 C1/C2/C3 章节。",
+  "generatedAt": "2026-11-21",
+  "sampling": {
+    "population": 283,
+    "sampled": 30,
+    "strategy": "按 chapter 分层，C1/C2/C3/C7/C8/C9/C10 各 3 个，C4/C5/C11 各 2 个，C6 3 个；优先抽「单课时挂多个 kp」「课时主题与 kp 标题不同」的高风险条目",
+    "criteria": {
+      "pass": "正文有实质解释 + ≥1 真实例词 + ≥1 练习检测该点",
+      "partial": "正文有解释与例词，但缺少针对该点的练习，或该点只在关联课时的边缘段落出现",
+      "fail": "只有 ID 关联，正文未实质讲解"
+    }
+  },
+  "samples": [
+    {
+      "kp": "kp-s1c1s1-1",
+      "title": "英语词汇的规模与分布",
+      "lesson": "w31d1",
+      "verdict": "pass",
+      "evidence": "卡片2 的五种口径对照表（47.6 万词条 / 5% 母语者 / 六成网站 / 1315 词条 / 787 词素），卡片3 用本站词库算出 2.31 个成分/词；练习 p1 直接考「47.6 万指的是什么」，p2 考 1315:787 的含义。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c1s7-1",
+      "title": "一词三形：cap 经法语音变留下三组借词",
+      "lesson": "w31d4",
+      "verdict": "pass",
+      "evidence": "卡片2 的 caput 七步时间线与卡片3 的「三条借词路加一条本土路」表给出 capital/chief/captain/chef/head 五组形式；练习 p1 考 captain 与 chief 是否同源，p2 考 [k]→[tʃ] 的路径差异，p4 迁移考 decapitate。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c1s3-2",
+      "title": "能产性使词典必然滞后",
+      "lesson": "w02d6+w03d3",
+      "verdict": "pass",
+      "evidence": "w02d6 卡片1 把「可分析 / 可生成 / 已被词汇化」分成三层，卡片3 用 -ment 的低能产解释 *unhelpment，卡片4 明确写「词典收录有滞后，新词可能还没进词典」，p2/p3 分别考能产性与核验途径。",
+      "problem": "第二条关联（w03d3 时间前缀）只在一张卡里说「这类组合不需要收进词典也能被即时理解」，属顺带一提，不承担本 kp 的教学；本 kp 实际由 w02d6 独立完成，w03d3 的挂靠是冗余映射。"
+    },
+    {
+      "kp": "kp-s1c2s4-2",
+      "title": "格里姆定律：日耳曼辅音的系统对应",
+      "lesson": "w34d1",
+      "verdict": "pass",
+      "evidence": "卡片2 给出三组九行对应表（p→f、t→th、k→h、d→t、g→k、bʰ→b），每行带拉丁/英语双例（pater/father、trēs/three、cornu/horn、duo/two、genu/knee、frāter/brother）；练习 p1 考 cornu/horn，p3 填 *p→f，p5 判断哪组不能作例（tīma/time）。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c2s10-2",
+      "title": "元音大推移的标志性对应",
+      "lesson": "w35d6",
+      "verdict": "pass",
+      "evidence": "卡片2 的五行对应表（ī→aɪ、ū→aʊ、ā→eɪ、ō→uː、ē→iː）配 tīma/time、mūs/mouse、nāma/name、mōna/moon、mētan/meet；卡片3 用拉丁 mūs／古英语 mūs／英语 mouse／德语 Maus 的链证「对应≠相等」；p2 考最标志性的一组，p3 填 /aʊ/，p4 区分格里姆定律。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c2s8-4",
+      "title": "诺斯借词与同源双式词",
+      "lesson": "w09d2",
+      "verdict": "partial",
+      "evidence": "前半（诺斯借词）讲得扎实：卡片2 列出 sky/egg/law/take/get/give 等两组词，卡片4 四组词表说明「替换而非填补」，p1 考哪组全来自古北欧语，p5 考接触强度。",
+      "problem": "后半「同源双式词」在本课完全缺失：全课没有出现「双式词」字样，shirt/skirt、church/kirk、ditch/dike 也不在本课。这组内容实际在 w24d3（那里有一张卡专讲 shirt 与 skirt 是同一日耳曼词根的两次落地），但 w24d3 只标了 kp-s1c8s2-1/2-2，没有回指本 kp。属内容存在而映射漏指。"
+    },
+    {
+      "kp": "kp-s1c3s1-1",
+      "title": "词素是最小的形义单位",
+      "lesson": "w01d1",
+      "verdict": "pass",
+      "evidence": "卡片1 用 teachers → teach+er+s 演示「能替换而意义稳定的最小单位」，并给出 table 切不动的反例；卡片2 的替换测试三步（假设—替换—双向验证）给出可操作判据；p1 考哪个词不能再切，p4 写 unkindness 算式，p5 考 understand 的伪切分。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c3s14-1",
+      "title": "复合词内部关系多种多样",
+      "lesson": "w07d1",
+      "verdict": "pass",
+      "evidence": "卡片1 给 laptop/windmill/software/greenhouse 并讲右中心语，卡片3 用重音、可插入性、屈折位置三条判据区分复合词与自由短语，卡片4 引向心/离心（blackboard vs redhead）；p1 判复合词，p4 考最好的判据，p5 考离心复合词。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c3s21-2",
+      "title": "冲突时以可概括的现代规则为准",
+      "lesson": "w37d4",
+      "verdict": "pass",
+      "evidence": "卡片1 给出「可概括 = 能推广到一族词 + 能预测拼写读音 + 能让学习者算出生词」三条判据，卡片2 用 cockroach/scissors/decide/incisor 四词并置词源与现代切分，卡片5 用 captain/chief/chef 划出「同源≠同一词素」的边界；p1/p2/p3/p4 逐词检测，p5 直接考冲突时取哪条。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c4s6-1",
+      "title": "异干互补：屈折表里混入别的词",
+      "lesson": "w17d5",
+      "verdict": "pass",
+      "evidence": "卡片1 讲 go/ēode→went 的借形史，卡片2 给动词、系动词、形容词、代词、序数词五类异干，卡片3 给三条判据（能否音变解释 / 有无共同部分 / 能否独立成词），卡片4 用 Iuppiter/Iovis→Jupiter/Jovian；p1 判异干，p2 考儿童 *goed，p5 对比 good/better/best 与 foot/feet。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c4s1-2",
+      "title": "判定同词素变体的三条标准",
+      "lesson": "w03d5+w08d1",
+      "verdict": "pass",
+      "evidence": "w03d5 卡片1 直接给出「意义相同、分布互补、从不出现在同一环境」三条标准，卡片4 用「一个词素＋一条规则」与「十个前缀＋十份清单」对比学习成本；w08d1 卡片1 复述同一组标准并补 /p b m/、/l/、/r/ 的分布条件；w03d5 p1 考哪组是同一词素的变体，w08d1 p1/p3 分别考 im- 的来源与 il- 的成因。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c5s3-1",
+      "title": "按阻塞方式分为五类辅音",
+      "lesson": "w23d3",
+      "verdict": "pass",
+      "evidence": "卡片1 定义塞/擦/塞擦/鼻/近五类并划出阻音与响音的界线，卡片2 给五类音标与例词（pie/toe/key、safe/save/this、church/judge、sum/sun/sung、love/red/wet），并标出拼写陷阱；p1 考 judge 首尾属塞擦音，p2 考 illegalis 的 n 变化属于哪类同化。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c5s6-1",
+      "title": "元音按舌位高低前后与松紧描写",
+      "lesson": "w23d6",
+      "verdict": "partial",
+      "evidence": "卡片3 有一段实质讲解：元音靠舌位高低、前后、圆唇与否、松紧区分，并给 bee/bay/boo 与 bit 的紧松对比。",
+      "problem": "练习完全没有检测元音描写：p1 考送气、p2 考 ph 的处理、p3 是 deficient 填空、p4 考 cap-/cip- 元音交替、p5 写 proficient 算式。整节课的主线是「词根元音换零件」，元音分类只是背景铺垫，结果是「讲了但没测」。"
+    },
+    {
+      "kp": "kp-s1c6s3-1",
+      "title": "部位同化是右向的",
+      "lesson": "w03d5+w08d1",
+      "verdict": "pass",
+      "evidence": "w08d1 卡片1 明确「当后面紧跟双唇音 /p b m/ 时，/n/ 被拉到双唇部位变成 /m/」，卡片2 给出 /p b m/→im-、/l/→il-、/r/→ir- 的分布表，卡片4 区分完全/部分/不反映在拼写上三种程度；p3 考 il- 的成因，p4 写 irregular 算式。w03d5 卡片1 复述同一规律并补 ad-/con-/sub-/dis- 的变体表。",
+      "problem": "术语层面缺一环：关联课时都用「后面的音把前面的音带跑」这类平话表述，没有出现「右向/逆行同化」这组术语。这组术语在 w23d2 的对照卡里（逆行 vs 顺行）讲得很清楚，但 w23d2 只挂了 kp-s1c5s2-1，没有挂本 kp。"
+    },
+    {
+      "kp": "kp-s1c6s9-6",
+      "title": "大数命名：-illion 与 SI 前缀",
+      "lesson": "w20d7",
+      "verdict": "pass",
+      "evidence": "卡片1 讲 -illion 是从 million 截出的 splinter（并给 *fiveillion 反例），卡片2 对 short/long scale 的 billion/trillion/quadrillion 逐一给值，卡片3-4 讲 kilo-/mega-/giga-/tera- 的希腊来源与「表数量级不表序数」；p1 考 -illion 的性质，p2 考 giga- 语源，p4 考 short scale 的 billion，p5 迁移考 quadrillion 的数值。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c6s7-2",
+      "title": "元音着色：辅音改变元音音质",
+      "lesson": "w20d4",
+      "verdict": "pass",
+      "evidence": "卡片1 讲 [l]/[r] 的发音姿势如何改变相邻元音，卡片2 给 saltare→sult-、colere→cult-、facilis→facul- 三组对应并带英语例词（insult/result/cultivate/faculty），卡片4 用 insult 与 *inselt 说明着色优先于弱化；p1 考 insult 为何不是 inselt，p2 考 cultivate 的 u，p3 填 faculty，p4 迁移考 exult。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c7s3-1",
+      "title": "语义变化的四类动因",
+      "lesson": "w21d4",
+      "verdict": "pass",
+      "evidence": "卡片1 列出误解、求新、省略、词汇量有限四类并各配词例（bead / cool / church / horse），卡片3 论证第四类为何是根因（造新词 vs 拉长短语 vs 扩展旧义的成本比较），卡片4 区分动因与机制；p1 考哪类是根因，p2 考 bead，p3 填 church，p5 用 mobile 迁移。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c7s10-1",
+      "title": "隐喻基于相似",
+      "lesson": "w10d2",
+      "verdict": "pass",
+      "evidence": "卡片1 用源域/目标域定义隐喻，卡片2 给 understand/grasp/comprehend/follow 的「空间→认知」同一条路径，卡片3 给 virus/worm/bug/web/cookie/cloud 的跨域映射并强调只保留部分特征，卡片5 列五个概念隐喻（MORE IS UP 等）；p1 考 grasp，p2 考 computer virus 映射了哪些特征，p5 认 MORE IS UP。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c7s11-1",
+      "title": "转喻基于邻接而非相似",
+      "lesson": "w10d3",
+      "verdict": "pass",
+      "evidence": "卡片1 用 kettle/hands/White House/Shakespeare 四例区分邻接与相似，卡片2 给五类邻近关系表（部分代整体、容器代内容、地点代机构、作者代作品、机构代人员），卡片3 用「是否跨域 + 能否改写为像」两步判据；p1 考 kettle，p2 考 Wall Street，p3 考哪句是隐喻而非转喻，p4 填「提喻」。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c8s4-3",
+      "title": "标准的三种来源",
+      "lesson": "w25d2",
+      "verdict": "pass",
+      "evidence": "卡片1 讲伦敦用法与 Chancery English、1476 卡克斯顿印刷，卡片2 讲约翰逊 1755 以作家引文为证并承认「只能延缓变化」，卡片3 讲韦伯斯特 1828 的国家意图与成败（color/center 成，soop/tung 败）；p1 考判断改革成败的标准，p2 考 debt 的 b，p5 迁移考 island 的 s 与 debt 的 b。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c8s8-3",
+      "title": "语言管控为何屡屡失败",
+      "lesson": "w07d5",
+      "verdict": "partial",
+      "evidence": "卡片5 有一段可用的论证：19 世纪评论者斥 enthuse、burgle「不合逻辑」，今天两者都是标准用法；burgle 在英式通行、美式用 burglarize，结论是「合法性取决于语言社区是否接受」。",
+      "problem": "本课主题是逆构词，这段只是收尾段落，没有展开「为什么管控会失败」的机制（没有提权威分散、儿童习得、使用频率、执法成本等）；五道练习全部考逆构（p1-p5），没有一题检测「管控失败」。同一节课还同时挂着 kp-s1c1s4-1 与 kp-s1c1s8-2，三个 kp 共用这一段收尾文字，属典型的一卡多挂。"
+    },
+    {
+      "kp": "kp-s1c8s9-1",
+      "title": "规定主义的问题在绝对化",
+      "lesson": "w26d4",
+      "verdict": "pass",
+      "evidence": "卡片1 用「一个人只能有一个名字」的类比把「正确」偷换成「唯一」，明确「问题不在提出规范，而在把规范绝对化」；卡片2 给 lite/irregardless/aks 三组争议，卡片3 讲 acsian/ascian 并存与音位置换，卡片5 区分「标准」与「正确」；p1 直接考规定主义的问题在哪，p2 考 irregardless 的语域判断，p5 迁移考面试官因 aks 判人。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c9s1-2",
+      "title": "复数配对规则与例外",
+      "lesson": "w13d2",
+      "verdict": "pass",
+      "evidence": "卡片1 给五组词尾配对（-a→-ae、-us→-i、-um→-a、-on→-a、-is→-es），卡片3 用第四变格法解释 apparatus 同形（status/senatus/exercitus），卡片5 对比长短 -us；p1 考 memorandum，p3 考 apparatus，p4 迁移考 strata 的单数，p5 找错误配对。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c9s3-1",
+      "title": "拉丁名词后缀（一）",
+      "lesson": "w13d6",
+      "verdict": "pass",
+      "evidence": "卡片3 专讲 -arium 的场所义并给 liber→library、aqua→aquarium、os→ossuary、apis→apiary、mortuus→mortuary 五个可核对链条，卡片4 讲 -ia/-ium/-mentum/-monium 只标词性，卡片5 讲 [l] 开头的指小后缀（molecula/alveolus/formula/capsula）；p1 考 ossuary，p2 填 aquarium，p4 迁移考 herbarium，p5 考 -ula。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c9s5-4",
+      "title": "完成分词及其音变",
+      "lesson": "w14d6",
+      "verdict": "pass",
+      "evidence": "卡片1 给 doctus/actus/factus/sensus/solutus/visus 六个完成分词并说明「被动、已完成」的语义，卡片2 归纳词干以 -t-/-s- 收尾的三种来源（直接加 -t-、塞音清化、齿音丛同化），卡片3 强调这是拉丁历史音变而非英语共时规则，卡片5 给 act-/ag-、sens-/sent-、vis-/vid- 的分工；p1 考 sense 的 -s-，p3 考 act 与 agent，p5 写 sensory 算式。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c10s3-1",
+      "title": "格里姆定律与拉斯克",
+      "lesson": "w27d4",
+      "verdict": "pass",
+      "evidence": "卡片1 给 Rask 1818 的判定程序（先语法、再基本词、音对应要成系统）与 Grimm 1822 的推移表，卡片2 给三组九行对应并留出 *b 的空格，卡片3 用 much/mucho、haben/habēre 两对假朋友论证「像≠对应」；p1 考 cornu/horn，p2 考规律为何更可靠，p3 填 Grimm，p4 考 much/mucho，p5 迁移考 piscis/fish。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c10s3-3",
+      "title": "重构与星号约定",
+      "lesson": "w27d5",
+      "verdict": "pass",
+      "evidence": "卡片1 明确星号 = 构拟（非实证），并区分「确信度高（*pətēr）」与「争议大（喉音音值）」，还提醒星号在句法学里另有含义；卡片5 把四类材料按证据等级排列（无星号实证 vs 有星号构拟）；p1 直接考星号含义，p3 填 reconstructed，p4 考维尔纳定律。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c10s7-5",
+      "title": "库尔干假说与战车优势",
+      "lesson": "w29d3",
+      "verdict": "pass",
+      "evidence": "卡片1 给 Gimbutas 的三要素（时间、地点、三波迁移）与「入侵取代」的考古困难，卡片2 给 Renfrew 的农业扩散方案与其硬伤（轮车词汇对不上年代），卡片3 表列三种方案的时间/地点/机制/主要困难，卡片2 末尾写明「草原假说是主流，但不是定论」；p1 考马与轮车，p2 考安纳托利亚假说的困难，p3 填 innovations。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c11s4-2",
+      "title": "软腭软化：c、g 的前化",
+      "lesson": "w15d4",
+      "verdict": "pass",
+      "evidence": "卡片1 给古典拉丁 c=[k]、g=[g] 的读音并说明软化发生在晚期拉丁到罗曼语，卡片2 给 ce/ci/cy、ge/gi/gy、ae/oe 的拼写信号表，卡片3 用 centum→cento/cent 三形演示同一词根三种命运，卡片5 列三个坑（本族词不软化、a 前也可能软化、拼写不能反推拉丁音）；p1 考 cell，p2 考 Caesar，p5 迁移考 gingival。",
+      "problem": ""
+    },
+    {
+      "kp": "kp-s1c11s5-6",
+      "title": "复原过头：scissors 的误判",
+      "lesson": "w16d3",
+      "verdict": "pass",
+      "evidence": "卡片4 讲剪刀词真实来源 cisoria < cis-（incision/incise 同族）、经古法语 cisoires 入英语，学者误连 scindere（rescind/rescission）而改写为 scissors，并明确定义 hypercorrection；卡片5 把 debt 的 b（有依据）、island 的 s（误认）、scissors 的 sc-（改错根）按证据强度分三类；p2 直接考 sc- 的来历，p1/p4 考双式词 legal/loyal、secure/sure。",
+      "problem": ""
+    }
+  ],
+  "summary": {
+    "pass": 27,
+    "partial": 3,
+    "fail": 0
+  },
+  "findings": [
+    "抽样未发现「只有 ID 关联」的空挂（fail=0），23 个样本的正文解释与练习都能对上。",
+    "3 个 partial 的原因分成两类：(a) 讲解到位但练习不测（kp-s1c5s6-1）；(b) 知识点的一半内容不在所挂课时里（kp-s1c2s8-4 的双式词在 w24d3，kp-s1c6s3-1 的「右向」术语在 w23d2）。",
+    "结构与内容漂移：src/content/textbook/course-c*.json 只登记了 116 个 kp，而课时文件的 knowledgePoints 字段与 docs/coverage.json 都是 283 个，且两者逐条一致。因此 course-c*.json 是过期产物，不能作为覆盖审计的依据。",
+    "一卡多挂：w07d5（逆构词）同时挂 kp-s1c3s20-2、kp-s1c1s4-1、kp-s1c1s8-2、kp-s1c8s8-3，后三个都只靠卡片5 的同一段收尾文字支撑，且无练习检测。",
+    "week38、week39 共 14 节课的 knowledgePoints 为空，方法/复习周不进入知识点账本，覆盖数字因此不能反映方法类教学。"
+  ]
+}

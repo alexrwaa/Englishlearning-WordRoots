@@ -1,0 +1,43 @@
+{
+  "morphemeId": "cx-graph",
+  "claim": "graph < 希腊 graphein「写、刻画」（γράφω）",
+  "records": [
+    {
+      "word": "geography",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "geography",
+      "url": "https://en.wiktionary.org/w/index.php?title=geography&action=raw",
+      "quote": "from Ancient Greek γεωγραφία 'a description of the earth', from γῆ 'earth' + γράφω 'write'",
+      "etymon": "γράφω",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "topography",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "topography",
+      "url": "https://en.wiktionary.org/w/index.php?title=topography&action=raw",
+      "quote": "from Ancient Greek τοπογραφία, from τόπος 'place' + γράφω 'to write'",
+      "etymon": "γράφω",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "graphite",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "graphite",
+      "url": "https://en.wiktionary.org/w/index.php?title=graphite&action=raw",
+      "quote": "Borrowed from German Graphit (A. G. Werner 1789), from Ancient Greek γράφω 'to write'.",
+      "etymon": "γράφω",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "geography / topography / graphite 三条独立条目均给出 γράφω 'write'；graphic 另经 γραφή。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

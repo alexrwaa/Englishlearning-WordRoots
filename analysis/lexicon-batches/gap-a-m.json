@@ -1,0 +1,7828 @@
+{
+  "morphemes": [
+    {
+      "id": "rx-norm",
+      "form": "norm",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "规范、准则",
+      "glossEn": "rule, standard",
+      "examples": [
+        "abnormal",
+        "normal",
+        "enormous"
+      ],
+      "originalForm": "norma",
+      "originalGloss": "carpenter's square, rule",
+      "familyId": "fam-norm",
+      "note": "拉丁 norma“木工角尺、准则”。"
+    },
+    {
+      "id": "rx-mor",
+      "form": "mor",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "风俗、道德",
+      "glossEn": "custom, morals",
+      "allomorphs": [
+        "mos"
+      ],
+      "examples": [
+        "moral",
+        "amoral",
+        "mores"
+      ],
+      "originalForm": "mos",
+      "originalGloss": "custom",
+      "familyId": "fam-mor",
+      "note": "拉丁 mos（属格 moris）“风俗”。moral 由其形容词 moralis 而来。"
+    },
+    {
+      "id": "rx-soci",
+      "form": "soci",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "同伴、社会",
+      "glossEn": "companion",
+      "examples": [
+        "social",
+        "society",
+        "antisocial"
+      ],
+      "originalForm": "socius",
+      "originalGloss": "companion",
+      "familyId": "fam-soci"
+    },
+    {
+      "id": "rx-cult",
+      "form": "cult",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "耕作、培养",
+      "glossEn": "till, cultivate",
+      "examples": [
+        "culture",
+        "agriculture",
+        "aquiculture"
+      ],
+      "originalForm": "colere",
+      "originalGloss": "to till, to worship",
+      "familyId": "fam-cult",
+      "note": "拉丁 colere（过去分词 cultus）“耕作、培育”，col- 形式与 com- 变体同形，故不单列变体。"
+    },
+    {
+      "id": "rx-typ",
+      "form": "typ",
+      "type": "root",
+      "origin": "Gk",
+      "glossZh": "类型、印记",
+      "glossEn": "type, impression",
+      "allomorphs": [
+        "type"
+      ],
+      "examples": [
+        "typical",
+        "atypical",
+        "prototype"
+      ],
+      "originalForm": "typos",
+      "originalGloss": "impression, figure",
+      "familyId": "fam-typ"
+    },
+    {
+      "id": "rx-phys",
+      "form": "phys",
+      "type": "root",
+      "origin": "Gk",
+      "glossZh": "自然、物理",
+      "glossEn": "nature",
+      "allomorphs": [
+        "physi"
+      ],
+      "examples": [
+        "physics",
+        "physical",
+        "astrophysics"
+      ],
+      "originalForm": "physis",
+      "originalGloss": "nature",
+      "familyId": "fam-phys"
+    },
+    {
+      "id": "rx-naut",
+      "form": "naut",
+      "type": "root",
+      "origin": "Gk",
+      "glossZh": "航行者",
+      "glossEn": "sailor",
+      "examples": [
+        "astronaut",
+        "nautical",
+        "aeronaut"
+      ],
+      "originalForm": "nautes",
+      "originalGloss": "sailor",
+      "familyId": "fam-naut",
+      "note": "希腊 nautes“水手”；nau-“船”已有单列词素，此处不再重复登记变体。"
+    },
+    {
+      "id": "rx-calcul",
+      "form": "calcul",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "小石子→计算",
+      "glossEn": "pebble; reckon",
+      "allomorphs": [
+        "calc"
+      ],
+      "examples": [
+        "calculate",
+        "calculator",
+        "calculus"
+      ],
+      "originalForm": "calculus",
+      "originalGloss": "small stone (used in counting)",
+      "familyId": "fam-calcul"
+    },
+    {
+      "id": "sfx-acy",
+      "form": "acy",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "名词后缀：性质、状态",
+      "glossEn": "state, quality",
+      "examples": [
+        "accuracy",
+        "privacy",
+        "supremacy"
+      ],
+      "familyId": "fam-suffix",
+      "note": "-acy 为 -ia/-itas 经法语进入英语的名词后缀。"
+    },
+    {
+      "id": "sfx-ior",
+      "form": "ior",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "比较级后缀：较……的",
+      "glossEn": "comparative suffix",
+      "examples": [
+        "anterior",
+        "superior",
+        "inferior"
+      ],
+      "familyId": "fam-suffix"
+    },
+    {
+      "id": "rx-init",
+      "form": "init",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "开始",
+      "glossEn": "beginning",
+      "examples": [
+        "initial",
+        "initiate",
+        "initiative"
+      ],
+      "originalForm": "initium",
+      "originalGloss": "beginning",
+      "familyId": "fam-init",
+      "note": "拉丁 initium“开始” < inire（in- + ire“走”）。"
+    },
+    {
+      "id": "rx-lingu",
+      "form": "lingu",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "舌头、语言",
+      "glossEn": "tongue, language",
+      "allomorphs": [
+        "lingua"
+      ],
+      "examples": [
+        "bilingual",
+        "linguistics",
+        "language"
+      ],
+      "originalForm": "lingua",
+      "originalGloss": "tongue",
+      "familyId": "fam-lingu"
+    },
+    {
+      "id": "rx-pat",
+      "form": "pat",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "感受、承受",
+      "glossEn": "suffer, feel",
+      "allomorphs": [
+        "pass"
+      ],
+      "examples": [
+        "patient",
+        "passion",
+        "compatible"
+      ],
+      "originalForm": "pati",
+      "originalGloss": "to suffer",
+      "familyId": "fam-pat",
+      "note": "拉丁 pati（过去分词 passus）“忍受”；patient、passion 同根。"
+    },
+    {
+      "id": "rx-press",
+      "form": "press",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "压",
+      "glossEn": "press",
+      "allomorphs": [
+        "prim"
+      ],
+      "examples": [
+        "compress",
+        "express",
+        "impress"
+      ],
+      "originalForm": "premere",
+      "originalGloss": "to press",
+      "familyId": "fam-press",
+      "note": "拉丁 premere（过去分词 pressus）“压”。"
+    },
+    {
+      "id": "rx-put",
+      "form": "put",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "计算、思量",
+      "glossEn": "reckon, think",
+      "allomorphs": [
+        "pute"
+      ],
+      "examples": [
+        "compute",
+        "dispute",
+        "reputation"
+      ],
+      "originalForm": "putare",
+      "originalGloss": "to reckon, prune",
+      "familyId": "fam-put"
+    },
+    {
+      "id": "rx-nect",
+      "form": "nect",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "系、绑",
+      "glossEn": "bind",
+      "allomorphs": [
+        "nex"
+      ],
+      "examples": [
+        "connect",
+        "annex",
+        "nexus"
+      ],
+      "originalForm": "nectere",
+      "originalGloss": "to bind",
+      "familyId": "fam-nect"
+    },
+    {
+      "id": "rx-merg",
+      "form": "merg",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "沉、浸",
+      "glossEn": "dip, sink",
+      "allomorphs": [
+        "mers"
+      ],
+      "examples": [
+        "emerge",
+        "submerge",
+        "immerse"
+      ],
+      "originalForm": "mergere",
+      "originalGloss": "to dip, sink",
+      "familyId": "fam-merg"
+    },
+    {
+      "id": "rx-plete",
+      "form": "plete",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "填满",
+      "glossEn": "fill",
+      "allomorphs": [
+        "plet"
+      ],
+      "examples": [
+        "complete",
+        "deplete",
+        "supplement"
+      ],
+      "originalForm": "plere",
+      "originalGloss": "to fill",
+      "familyId": "fam-plete"
+    },
+    {
+      "id": "rx-scend",
+      "form": "scend",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "攀爬",
+      "glossEn": "climb",
+      "allomorphs": [
+        "scens"
+      ],
+      "examples": [
+        "descend",
+        "ascend",
+        "transcend"
+      ],
+      "originalForm": "scandere",
+      "originalGloss": "to climb",
+      "familyId": "fam-scend"
+    },
+    {
+      "id": "rx-lev",
+      "form": "lev",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "举、升",
+      "glossEn": "lift, light",
+      "allomorphs": [
+        "liev"
+      ],
+      "examples": [
+        "elevate",
+        "lever",
+        "relieve"
+      ],
+      "originalForm": "levare",
+      "originalGloss": "to raise",
+      "familyId": "fam-lev",
+      "note": "拉丁 levare“举起” < levis“轻”。"
+    },
+    {
+      "id": "rx-plex",
+      "form": "plex",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "编织、缠绕",
+      "glossEn": "weave, braid",
+      "allomorphs": [
+        "plect"
+      ],
+      "examples": [
+        "complex",
+        "perplex",
+        "plexus"
+      ],
+      "originalForm": "plectere",
+      "originalGloss": "to weave",
+      "familyId": "fam-plex"
+    },
+    {
+      "id": "rx-caut",
+      "form": "caut",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "当心、提防",
+      "glossEn": "beware",
+      "allomorphs": [
+        "cav"
+      ],
+      "examples": [
+        "cautious",
+        "caution",
+        "precaution"
+      ],
+      "originalForm": "cavere",
+      "originalGloss": "to be on guard",
+      "familyId": "fam-caut"
+    },
+    {
+      "id": "rx-navig",
+      "form": "navig",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "航行",
+      "glossEn": "sail",
+      "allomorphs": [
+        "nav"
+      ],
+      "examples": [
+        "navigate",
+        "navigation",
+        "navy"
+      ],
+      "originalForm": "navigare",
+      "originalGloss": "to sail",
+      "familyId": "fam-navig",
+      "note": "拉丁 navigare < navis“船” + agere“驱动”。"
+    },
+    {
+      "id": "rx-gran",
+      "form": "gran",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "颗粒",
+      "glossEn": "grain",
+      "allomorphs": [
+        "grain"
+      ],
+      "examples": [
+        "granite",
+        "granular",
+        "grain"
+      ],
+      "originalForm": "granum",
+      "originalGloss": "grain",
+      "familyId": "fam-gran"
+    },
+    {
+      "id": "rx-hum",
+      "form": "hum",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "土、地",
+      "glossEn": "earth, ground",
+      "allomorphs": [
+        "humil"
+      ],
+      "examples": [
+        "human",
+        "humble",
+        "inhume"
+      ],
+      "originalForm": "humus",
+      "originalGloss": "earth, ground",
+      "familyId": "fam-hum",
+      "note": "拉丁 humus“土”；humanus、humilis 均由此派生。"
+    },
+    {
+      "id": "rx-mechan",
+      "form": "mechan",
+      "type": "root",
+      "origin": "Gk",
+      "glossZh": "机械、装置",
+      "glossEn": "machine",
+      "examples": [
+        "mechanism",
+        "mechanic",
+        "machine"
+      ],
+      "originalForm": "mekhane",
+      "originalGloss": "machine, device",
+      "familyId": "fam-mechan"
+    },
+    {
+      "id": "cx-sphere",
+      "form": "sphere",
+      "type": "combining",
+      "origin": "Gk",
+      "glossZh": "球、圈层",
+      "glossEn": "sphere",
+      "allomorphs": [
+        "spher"
+      ],
+      "examples": [
+        "biosphere",
+        "atmosphere",
+        "spherical"
+      ],
+      "originalForm": "sphaira",
+      "originalGloss": "ball, globe",
+      "familyId": "fam-sphere"
+    },
+    {
+      "id": "pfx-archi",
+      "form": "archi",
+      "type": "prefix",
+      "origin": "Gk",
+      "glossZh": "首领、首要",
+      "glossEn": "chief, principal",
+      "examples": [
+        "architecture",
+        "archbishop",
+        "archipelago"
+      ],
+      "originalForm": "arkhi-",
+      "originalGloss": "chief",
+      "familyId": "fam-arch"
+    },
+    {
+      "id": "rx-dyn",
+      "form": "dyn",
+      "type": "root",
+      "origin": "Gk",
+      "glossZh": "力、权力",
+      "glossEn": "power",
+      "allomorphs": [
+        "dyn",
+        "dynam"
+      ],
+      "examples": [
+        "dynamic",
+        "dynamics",
+        "dynamite"
+      ],
+      "familyId": "fam-dyn"
+    },
+    {
+      "id": "rx-val",
+      "form": "val",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "强、有用",
+      "glossEn": "be strong; be worth",
+      "allomorphs": [
+        "valu"
+      ],
+      "examples": [
+        "value",
+        "evaluate",
+        "valid"
+      ],
+      "familyId": "fam-val"
+    },
+    {
+      "id": "cx-helico",
+      "form": "helico",
+      "type": "combining",
+      "origin": "Gk",
+      "glossZh": "螺旋",
+      "glossEn": "spiral",
+      "allomorphs": [
+        "helic"
+      ],
+      "examples": [
+        "helicopter",
+        "helical"
+      ],
+      "familyId": "fam-heli"
+    },
+    {
+      "id": "rx-mov",
+      "form": "mov",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "移动",
+      "glossEn": "move",
+      "allomorphs": [
+        "mo",
+        "mot",
+        "mob"
+      ],
+      "examples": [
+        "move",
+        "motion",
+        "mobile"
+      ],
+      "familyId": "fam-mov"
+    },
+    {
+      "id": "cx-scope",
+      "form": "scope",
+      "type": "combining",
+      "origin": "Gk",
+      "glossZh": "观看的仪器",
+      "glossEn": "instrument for viewing",
+      "allomorphs": [
+        "scop"
+      ],
+      "examples": [
+        "microscope",
+        "macroscopic"
+      ],
+      "familyId": "fam-scope"
+    }
+  ],
+  "words": [
+    {
+      "w": "American",
+      "parts": [
+        "American"
+      ],
+      "pos": "a",
+      "glossZh": "美国的；美国人",
+      "glossEn": "of or relating to America",
+      "domain": "general",
+      "etymology": "America（亚美利哥·韦斯普奇之名）+ -an",
+      "derivation": [
+        "America（美洲，源自人名 Amerigo）+ an（属于……的）→ American；专名整体处理，不切分"
+      ],
+      "cognates": [
+        "America",
+        "Americanize"
+      ],
+      "example": "She teaches American history at the college.",
+      "verified": false,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "专有名词，整体借词，不作词素切分"
+    },
+    {
+      "w": "IMU",
+      "parts": [
+        "IMU"
+      ],
+      "pos": "n",
+      "glossZh": "惯性测量单元",
+      "glossEn": "inertial measurement unit",
+      "domain": "general",
+      "etymology": "inertial measurement unit 的首字母缩略词",
+      "derivation": [
+        "inertial measurement unit 取首字母 → IMU；缩略词不作构词分析"
+      ],
+      "cognates": [
+        "inertial",
+        "measurement"
+      ],
+      "example": "The drone uses an IMU to stay level.",
+      "verified": false,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "缩略词，不作构词分析"
+    },
+    {
+      "w": "abnormal",
+      "parts": [
+        "ab",
+        "norm",
+        "al"
+      ],
+      "pos": "a",
+      "glossZh": "异常的；不正常的",
+      "glossEn": "not normal; deviating from the norm",
+      "domain": "general",
+      "etymology": "拉丁 abnormis < ab- 'away from' + norma 'rule'",
+      "derivation": [
+        "ab（离开） + norm（规范、准则） + al（形容词后缀） → abnormal"
+      ],
+      "cognates": [
+        "abnormality",
+        "norm",
+        "enormous"
+      ],
+      "example": "The test flagged an abnormal reading.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "absent",
+      "parts": [
+        "ab",
+        "sent"
+      ],
+      "pos": "a",
+      "glossZh": "缺席的；不在的",
+      "glossEn": "not present; away",
+      "domain": "general",
+      "etymology": "拉丁 absens < abesse < ab- 'away' + esse 'be'",
+      "derivation": [
+        "ab（离开） + sent（拉丁 esse“存在”的分词词干） → absent"
+      ],
+      "cognates": [
+        "absence",
+        "present"
+      ],
+      "example": "Two students were absent from class today.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "sent 为拉丁 esse（存在）的分词词干，与 sens/sent“感觉”同形异源"
+    },
+    {
+      "w": "accuracy",
+      "parts": [
+        "ac",
+        "cur",
+        "acy"
+      ],
+      "pos": "n",
+      "glossZh": "准确性；精确度",
+      "glossEn": "the quality of being correct",
+      "domain": "general",
+      "etymology": "拉丁 accuratus < accurare < ad- + cura 'care'",
+      "derivation": [
+        "ac（朝向） + cur（关心） + acy（名词后缀） → accuracy"
+      ],
+      "cognates": [
+        "accurate",
+        "curate"
+      ],
+      "example": "The model's accuracy improved after more training.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "accurate",
+      "parts": [
+        "ac",
+        "cur",
+        "ate"
+      ],
+      "pos": "a",
+      "glossZh": "准确的；精确的",
+      "glossEn": "correct and exact",
+      "domain": "general",
+      "etymology": "拉丁 accuratus，ad- + curare 'take care' 的过去分词",
+      "derivation": [
+        "ac（朝向） + cur（关心） + ate（动词/形容词后缀） → accurate"
+      ],
+      "cognates": [
+        "accuracy",
+        "curate"
+      ],
+      "example": "Her estimate of the cost was surprisingly accurate.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "adapt",
+      "parts": [
+        "ad",
+        "apt"
+      ],
+      "pos": "v",
+      "glossZh": "适应；改编",
+      "glossEn": "to change so as to fit",
+      "domain": "general",
+      "etymology": "拉丁 adaptare < ad- 'to' + aptare 'fit'",
+      "derivation": [
+        "ad（朝向） + apt（适合、有能力） → adapt"
+      ],
+      "cognates": [
+        "adaptation",
+        "apt"
+      ],
+      "example": "Plants adapt slowly to a drier climate.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "adhere",
+      "parts": [
+        "ad",
+        "her"
+      ],
+      "pos": "v",
+      "glossZh": "粘附；坚持",
+      "glossEn": "to stick fast; to hold to a rule",
+      "domain": "general",
+      "etymology": "拉丁 adhaerere < ad- + haerere 'stick'",
+      "derivation": [
+        "ad（朝向） + her（粘附） → adhere"
+      ],
+      "cognates": [
+        "adhesion",
+        "coherent"
+      ],
+      "example": "The tape will not adhere to a wet surface.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "词尾 -e 为拉丁词干元音，不构成独立词素"
+    },
+    {
+      "w": "administer",
+      "parts": [
+        "ad",
+        "minister"
+      ],
+      "pos": "v",
+      "glossZh": "管理；施行",
+      "glossEn": "to manage or apply",
+      "domain": "general",
+      "etymology": "拉丁 administrare < ad- + ministrare 'serve'",
+      "derivation": [
+        "ad（朝向） + minister（侍奉） → administer"
+      ],
+      "cognates": [
+        "administration",
+        "minister"
+      ],
+      "example": "Nurses administer the drug twice a day.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "advance",
+      "parts": [
+        "advance"
+      ],
+      "pos": "v",
+      "glossZh": "前进；提前",
+      "glossEn": "to move forward",
+      "domain": "general",
+      "etymology": "古法语 avancier < 晚期拉丁 abante 'from before'",
+      "derivation": [
+        "古法语 avancier < 晚期拉丁 abante → advance；ad- 为民间词源改拼，不作硬拆"
+      ],
+      "cognates": [
+        "advanced",
+        "advantage"
+      ],
+      "example": "The troops advance at dawn.",
+      "verified": false,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "ad- 为民间词源改拼，实为 ab + ante，不作硬拆"
+    },
+    {
+      "w": "agility",
+      "parts": [
+        "ag",
+        "il",
+        "ity"
+      ],
+      "pos": "n",
+      "glossZh": "敏捷；灵活",
+      "glossEn": "quickness of movement",
+      "domain": "general",
+      "etymology": "拉丁 agilitas < agilis 'nimble' < agere 'do'",
+      "derivation": [
+        "ag（做、行动、驱动） + il（形容词后缀） + ity（名词后缀） → agility"
+      ],
+      "cognates": [
+        "agile",
+        "agent"
+      ],
+      "example": "The goalkeeper showed remarkable agility.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "algorithmic",
+      "parts": [
+        "algorithm",
+        "ic"
+      ],
+      "pos": "a",
+      "glossZh": "算法的",
+      "glossEn": "of or using an algorithm",
+      "domain": "general",
+      "etymology": "algorithm（花拉子米 al-Khwarizmi 之名）+ -ic",
+      "derivation": [
+        "algorithm（算法） + ic（形容词后缀） → algorithmic"
+      ],
+      "cognates": [
+        "algorithm",
+        "algorithms"
+      ],
+      "example": "We replaced the manual step with an algorithmic check.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "algorithms",
+      "parts": [
+        "algorithm",
+        "s"
+      ],
+      "pos": "n",
+      "glossZh": "算法（复数）",
+      "glossEn": "sets of rules for solving a problem",
+      "domain": "general",
+      "etymology": "algorithm + 复数 -s",
+      "derivation": [
+        "algorithm（算法） + s（屈折后缀） → algorithms"
+      ],
+      "cognates": [
+        "algorithmic",
+        "algorithm"
+      ],
+      "example": "These two algorithms sort the same list differently.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "alignment",
+      "parts": [
+        "align",
+        "ment"
+      ],
+      "pos": "n",
+      "glossZh": "对齐；结盟",
+      "glossEn": "the state of being lined up",
+      "domain": "general",
+      "etymology": "法语 aligner < à ligne 'into line' + -ment",
+      "derivation": [
+        "align（对齐） + ment（名词后缀） → alignment"
+      ],
+      "cognates": [
+        "align",
+        "misalign"
+      ],
+      "example": "The wheels need alignment after the bump.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "allocate",
+      "parts": [
+        "al",
+        "loc",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "分配；拨给",
+      "glossEn": "to assign for a purpose",
+      "domain": "general",
+      "etymology": "拉丁 allocare < ad- + locare 'place' < locus",
+      "derivation": [
+        "al（朝向） + loc（地方） + ate（动词/形容词后缀） → allocate"
+      ],
+      "cognates": [
+        "allocation",
+        "local"
+      ],
+      "example": "We allocate half the budget to hardware.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "amoral",
+      "parts": [
+        "a",
+        "mor",
+        "al"
+      ],
+      "pos": "a",
+      "glossZh": "无道德观的",
+      "glossEn": "lacking moral sense",
+      "domain": "general",
+      "etymology": "a- 'not' + 拉丁 moralis < mos 'custom'",
+      "derivation": [
+        "a（无、缺乏） + mor（风俗、道德） + al（形容词后缀） → amoral"
+      ],
+      "cognates": [
+        "moral",
+        "morality"
+      ],
+      "example": "An amoral character, he acted only from habit.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "antebellum",
+      "parts": [
+        "ante",
+        "bell",
+        "um"
+      ],
+      "pos": "a",
+      "glossZh": "战前的",
+      "glossEn": "before the war",
+      "domain": "general",
+      "etymology": "拉丁 ante bellum 'before the war'",
+      "derivation": [
+        "ante（在……之前） + bell（战争） + um（名词后缀） → antebellum"
+      ],
+      "cognates": [
+        "belligerent",
+        "rebel"
+      ],
+      "example": "The house survives from the antebellum South.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "antecedent",
+      "parts": [
+        "ante",
+        "ced",
+        "ent"
+      ],
+      "pos": "n",
+      "glossZh": "前身；先行词",
+      "glossEn": "something that comes before",
+      "domain": "general",
+      "etymology": "拉丁 antecedens < ante- 'before' + cedere 'go'",
+      "derivation": [
+        "ante（在……之前） + ced（行、放行） + ent（形容词/名词后缀） → antecedent"
+      ],
+      "cognates": [
+        "precedent",
+        "proceed"
+      ],
+      "example": "The pronoun refers back to its antecedent.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "anterior",
+      "parts": [
+        "ante",
+        "ior"
+      ],
+      "pos": "a",
+      "glossZh": "前部的；先前的",
+      "glossEn": "earlier; at the front",
+      "domain": "general",
+      "etymology": "拉丁 anterior，ante 'before' 的比较级",
+      "derivation": [
+        "ante（在……之前） + ior（比较级后缀） → anterior"
+      ],
+      "cognates": [],
+      "example": "The anterior teeth cut food first.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "拉丁 ante + -ior 比较级，拼写中插入 -r-"
+    },
+    {
+      "w": "antibiotic",
+      "parts": [
+        "anti",
+        "biotic"
+      ],
+      "pos": "n",
+      "glossZh": "抗生素",
+      "glossEn": "a drug that kills bacteria",
+      "domain": "general",
+      "etymology": "anti- + 希腊 biotikos 'of life' < bios",
+      "derivation": [
+        "anti（反对） + biotic（生命的） → antibiotic"
+      ],
+      "cognates": [
+        "antibody",
+        "biology"
+      ],
+      "example": "The doctor prescribed an antibiotic for the infection.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "antisocial",
+      "parts": [
+        "anti",
+        "soci",
+        "al"
+      ],
+      "pos": "a",
+      "glossZh": "反社会的；不合群的",
+      "glossEn": "hostile to society or company",
+      "domain": "general",
+      "etymology": "anti- + 拉丁 socialis < socius 'companion'",
+      "derivation": [
+        "anti（反对） + soci（同伴、社会） + al（形容词后缀） → antisocial"
+      ],
+      "cognates": [
+        "social",
+        "society"
+      ],
+      "example": "Loud music at night is antisocial behaviour.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "antivirus",
+      "parts": [
+        "anti",
+        "virus"
+      ],
+      "pos": "n",
+      "glossZh": "防病毒的",
+      "glossEn": "designed to detect computer viruses",
+      "domain": "general",
+      "etymology": "anti- + virus（拉丁 'poison'）",
+      "derivation": [
+        "anti（反对） + virus（病毒） → antivirus"
+      ],
+      "cognates": [
+        "virus",
+        "viral"
+      ],
+      "example": "Update your antivirus software monthly.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "applicant",
+      "parts": [
+        "ap",
+        "plic",
+        "ant"
+      ],
+      "pos": "n",
+      "glossZh": "申请人",
+      "glossEn": "a person who applies",
+      "domain": "general",
+      "etymology": "拉丁 applicare < ad- + plicare 'fold'",
+      "derivation": [
+        "ap（朝向） + plic（折叠） + ant（形容词/名词后缀） → applicant"
+      ],
+      "cognates": [
+        "apply",
+        "application"
+      ],
+      "example": "Each applicant must submit two references.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "aquatic",
+      "parts": [
+        "aqua",
+        "tic"
+      ],
+      "pos": "a",
+      "glossZh": "水生的；水中的",
+      "glossEn": "living or done in water",
+      "domain": "general",
+      "etymology": "拉丁 aquaticus < aqua 'water'",
+      "derivation": [
+        "aqua（水） + tic（形容词后缀 -ticus，aqua 的词尾 -a 与之合并） → aquatic"
+      ],
+      "cognates": [
+        "aquarium",
+        "aquiculture"
+      ],
+      "example": "Ducks are well adapted to aquatic life.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "aquiculture",
+      "parts": [
+        "aqui",
+        "cult",
+        "ure"
+      ],
+      "pos": "n",
+      "glossZh": "水产养殖",
+      "glossEn": "the farming of water organisms",
+      "domain": "general",
+      "etymology": "拉丁 aqua 'water' + cultura 'tilling'",
+      "derivation": [
+        "aqui（水） + cult（耕作、培养） + ure（名词后缀） → aquiculture"
+      ],
+      "cognates": [
+        "agriculture",
+        "culture"
+      ],
+      "example": "The lake supports both fishing and aquiculture.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "architecture",
+      "parts": [
+        "archi",
+        "tect",
+        "ure"
+      ],
+      "pos": "n",
+      "glossZh": "建筑；建筑学",
+      "glossEn": "the art of designing buildings",
+      "domain": "general",
+      "etymology": "拉丁 architectura < 希腊 arkhitekton 'chief builder'",
+      "derivation": [
+        "archi（首领、首要） + tect（覆盖、建造） + ure（名词后缀） → architecture"
+      ],
+      "cognates": [
+        "architect",
+        "tectonic"
+      ],
+      "example": "The city is famous for its timber architecture.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "arguable",
+      "parts": [
+        "argue",
+        "able"
+      ],
+      "pos": "a",
+      "glossZh": "可论证的；有争议的",
+      "glossEn": "open to argument",
+      "domain": "general",
+      "etymology": "argue < 拉丁 arguere 'make clear' + -able",
+      "derivation": [
+        "argue（论证、争论） + able（能够被……的） → arguable"
+      ],
+      "cognates": [
+        "argue",
+        "argument"
+      ],
+      "example": "It is arguable that the rule helped nobody.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "去 e 加 -able"
+    },
+    {
+      "w": "argument",
+      "parts": [
+        "argue",
+        "ment"
+      ],
+      "pos": "n",
+      "glossZh": "论点；争论",
+      "glossEn": "a reason offered; a quarrel",
+      "domain": "general",
+      "etymology": "argue + -ment",
+      "derivation": [
+        "argue（论证、争论） + ment（名词后缀） → argument"
+      ],
+      "cognates": [
+        "argue",
+        "argumentation"
+      ],
+      "example": "Her argument rested on one weak assumption.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "去 e 加 -ment"
+    },
+    {
+      "w": "argumentation",
+      "parts": [
+        "argue",
+        "ment",
+        "ation"
+      ],
+      "pos": "n",
+      "glossZh": "论证；推论",
+      "glossEn": "the process of reasoned argument",
+      "domain": "general",
+      "etymology": "拉丁 argumentatio",
+      "derivation": [
+        "argue（论证、争论） + ment（名词后缀） + ation（名词后缀） → argumentation"
+      ],
+      "cognates": [
+        "argument",
+        "argue"
+      ],
+      "example": "The essay's argumentation is clear but thin.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "ascertain",
+      "parts": [
+        "as",
+        "certain"
+      ],
+      "pos": "v",
+      "glossZh": "查明；确定",
+      "glossEn": "to find out for certain",
+      "domain": "general",
+      "etymology": "古法语 acertener < a- + certain",
+      "derivation": [
+        "as（朝向） + certain（确定的） → ascertain"
+      ],
+      "cognates": [
+        "certain",
+        "certainty"
+      ],
+      "example": "We must ascertain who sent the file.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "asexual",
+      "parts": [
+        "a",
+        "sex",
+        "ual"
+      ],
+      "pos": "a",
+      "glossZh": "无性的；无性别的",
+      "glossEn": "without sex or sexual reproduction",
+      "domain": "general",
+      "etymology": "a- 'without' + 拉丁 sexus 'sex'",
+      "derivation": [
+        "a（无、缺乏） + sex（性、性别） + ual（形容词后缀） → asexual"
+      ],
+      "cognates": [
+        "sexual",
+        "sex"
+      ],
+      "example": "Some plants spread by asexual reproduction.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "assist",
+      "parts": [
+        "as",
+        "sist"
+      ],
+      "pos": "v",
+      "glossZh": "帮助；协助",
+      "glossEn": "to help",
+      "domain": "general",
+      "etymology": "拉丁 assistere < ad- + sistere 'stand'",
+      "derivation": [
+        "as（朝向） + sist（站立、停止） → assist"
+      ],
+      "cognates": [
+        "assistant",
+        "insist"
+      ],
+      "example": "Two volunteers assist with the survey.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "astronaut",
+      "parts": [
+        "astro",
+        "naut"
+      ],
+      "pos": "n",
+      "glossZh": "宇航员",
+      "glossEn": "a person trained to travel in space",
+      "domain": "general",
+      "etymology": "希腊 astron 'star' + nautes 'sailor'",
+      "derivation": [
+        "astro（星） + naut（航行者） → astronaut"
+      ],
+      "cognates": [
+        "astronomy",
+        "nautical"
+      ],
+      "example": "The astronaut spent six months in orbit.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "astrophysics",
+      "parts": [
+        "astro",
+        "phys",
+        "ics"
+      ],
+      "pos": "n",
+      "glossZh": "天体物理学",
+      "glossEn": "physics of stars and space",
+      "domain": "general",
+      "etymology": "astro- + 希腊 physis 'nature' + -ics",
+      "derivation": [
+        "astro（星） + phys（自然、物理） + ics（学科名称后缀） → astrophysics"
+      ],
+      "cognates": [
+        "physics",
+        "astronomy"
+      ],
+      "example": "She studies astrophysics at the observatory.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "attenuate",
+      "parts": [
+        "at",
+        "tenu",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "减弱；使变细",
+      "glossEn": "to make weaker or thinner",
+      "domain": "general",
+      "etymology": "拉丁 attenuare < ad- + tenuis 'thin'",
+      "derivation": [
+        "at（朝向） + tenu（薄、细） + ate（动词/形容词后缀） → attenuate"
+      ],
+      "cognates": [
+        "tenuous",
+        "attenuation"
+      ],
+      "example": "Thick walls attenuate the signal indoors.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "atypical",
+      "parts": [
+        "a",
+        "typ",
+        "ical"
+      ],
+      "pos": "a",
+      "glossZh": "非典型的",
+      "glossEn": "not typical",
+      "domain": "general",
+      "etymology": "a- 'not' + 希腊 typikos < typos 'impression'",
+      "derivation": [
+        "a（无、缺乏） + typ（类型、印记） + ical（形容词后缀） → atypical"
+      ],
+      "cognates": [
+        "typical",
+        "type"
+      ],
+      "example": "The scan showed an atypical pattern.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "autobiography",
+      "parts": [
+        "auto",
+        "bio",
+        "graph",
+        "y"
+      ],
+      "pos": "n",
+      "glossZh": "自传",
+      "glossEn": "the story of one's own life",
+      "domain": "general",
+      "etymology": "auto- + bio- + 希腊 -graphia 'writing'",
+      "derivation": [
+        "auto（自己） + bio（生命） + graph（写、记录） + y（名词后缀） → autobiography"
+      ],
+      "cognates": [
+        "biography",
+        "autograph"
+      ],
+      "example": "Her autobiography sold a million copies.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "backward",
+      "parts": [
+        "back",
+        "ward"
+      ],
+      "pos": "ad",
+      "glossZh": "向后；落后的",
+      "glossEn": "toward the back; behind in progress",
+      "domain": "general",
+      "etymology": "古英语 bæcweard",
+      "derivation": [
+        "back（背） + ward（副词后缀） → backward"
+      ],
+      "cognates": [
+        "forward",
+        "homeward"
+      ],
+      "example": "He took one step backward and stopped.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "benefit",
+      "parts": [
+        "bene",
+        "fit"
+      ],
+      "pos": "n",
+      "glossZh": "好处；受益",
+      "glossEn": "an advantage gained from something",
+      "domain": "general",
+      "etymology": "拉丁 benefactum < bene 'well' + facere 'do'",
+      "derivation": [
+        "bene（好、善） + fit（做、制造） → benefit"
+      ],
+      "cognates": [
+        "beneficial",
+        "benefactor"
+      ],
+      "example": "Regular exercise brings a lasting benefit.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "fit 为 facere 的弱化形式（benefit < benefactum）"
+    },
+    {
+      "w": "biggest",
+      "parts": [
+        "big",
+        "est"
+      ],
+      "pos": "a",
+      "glossZh": "最大的",
+      "glossEn": "largest",
+      "domain": "general",
+      "etymology": "big + 最高级 -est（双写 g）",
+      "derivation": [
+        "big（大的） + est（屈折后缀） → biggest"
+      ],
+      "cognates": [
+        "big",
+        "large"
+      ],
+      "example": "This is the biggest room in the house.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "biography",
+      "parts": [
+        "bio",
+        "graph",
+        "y"
+      ],
+      "pos": "n",
+      "glossZh": "传记",
+      "glossEn": "the life story of a person",
+      "domain": "general",
+      "etymology": "希腊 bios 'life' + -graphia 'writing'",
+      "derivation": [
+        "bio（生命） + graph（写、记录） + y（名词后缀） → biography"
+      ],
+      "cognates": [
+        "autobiography",
+        "biology"
+      ],
+      "example": "He wrote a biography of the painter.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "biosphere",
+      "parts": [
+        "bio",
+        "sphere"
+      ],
+      "pos": "n",
+      "glossZh": "生物圈",
+      "glossEn": "the zone of life on Earth",
+      "domain": "general",
+      "etymology": "bio- + 希腊 sphaira 'sphere'",
+      "derivation": [
+        "bio（生命） + sphere（球、圈层） → biosphere"
+      ],
+      "cognates": [
+        "biology",
+        "atmosphere"
+      ],
+      "example": "Rain forests are the richest part of the biosphere.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "books",
+      "parts": [
+        "book",
+        "s"
+      ],
+      "pos": "n",
+      "glossZh": "书（复数）",
+      "glossEn": "plural of book",
+      "domain": "general",
+      "etymology": "book + 复数 -s",
+      "derivation": [
+        "book（书） + s（屈折后缀） → books"
+      ],
+      "cognates": [
+        "book",
+        "booklet"
+      ],
+      "example": "Two books lay open on the desk.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "builder",
+      "parts": [
+        "build",
+        "er"
+      ],
+      "pos": "n",
+      "glossZh": "建造者；建筑商",
+      "glossEn": "a person or firm that builds",
+      "domain": "general",
+      "etymology": "build + -er",
+      "derivation": [
+        "build（建造） + er（名词后缀） → builder"
+      ],
+      "cognates": [
+        "build",
+        "building"
+      ],
+      "example": "The builder promised to finish by June.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "building",
+      "parts": [
+        "build",
+        "ing"
+      ],
+      "pos": "n",
+      "glossZh": "建筑物；建造",
+      "glossEn": "a structure; the act of building",
+      "domain": "general",
+      "etymology": "build + -ing",
+      "derivation": [
+        "build（建造） + ing（屈折/派生后缀） → building"
+      ],
+      "cognates": [
+        "build",
+        "builder"
+      ],
+      "example": "The building has stood for a century.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "calculate",
+      "parts": [
+        "calcul",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "计算",
+      "glossEn": "to work out by mathematics",
+      "domain": "general",
+      "etymology": "拉丁 calculare < calculus 'pebble'",
+      "derivation": [
+        "calcul（小石子→计算） + ate（动词/形容词后缀） → calculate"
+      ],
+      "cognates": [
+        "calculator",
+        "calculus"
+      ],
+      "example": "Let me calculate the total before we order.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "calculator",
+      "parts": [
+        "calcul",
+        "ator"
+      ],
+      "pos": "n",
+      "glossZh": "计算器",
+      "glossEn": "a device for calculating",
+      "domain": "general",
+      "etymology": "拉丁 calculator 'reckoner'",
+      "derivation": [
+        "calcul（小石子→计算） + ator（名词后缀） → calculator"
+      ],
+      "cognates": [
+        "calculate",
+        "calculus"
+      ],
+      "example": "The calculator battery died mid-exam.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "capability",
+      "parts": [
+        "cap",
+        "abil",
+        "ity"
+      ],
+      "pos": "n",
+      "glossZh": "能力；性能",
+      "glossEn": "the power to do something",
+      "domain": "general",
+      "etymology": "拉丁 capabilis < capere 'take' + -ity",
+      "derivation": [
+        "cap（拿、抓） + abil（能够被……的） + ity（名词后缀） → capability"
+      ],
+      "cognates": [
+        "capable",
+        "capacity"
+      ],
+      "example": "The camera's low-light capability surprised us.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "carbonize",
+      "parts": [
+        "carbon",
+        "ize"
+      ],
+      "pos": "v",
+      "glossZh": "使碳化",
+      "glossEn": "to turn into carbon",
+      "domain": "general",
+      "etymology": "carbon < 拉丁 carbo 'coal' + -ize",
+      "derivation": [
+        "carbon（碳） + ize（动词后缀） → carbonize"
+      ],
+      "cognates": [
+        "carbon",
+        "carbonic"
+      ],
+      "example": "Heat will carbonize the sugar in the pan.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "careful",
+      "parts": [
+        "care",
+        "ful"
+      ],
+      "pos": "a",
+      "glossZh": "小心的；仔细的",
+      "glossEn": "taking care; attentive",
+      "domain": "general",
+      "etymology": "care + -ful",
+      "derivation": [
+        "care（关心） + ful（形容词后缀） → careful"
+      ],
+      "cognates": [
+        "careless",
+        "care"
+      ],
+      "example": "Be careful with the glass jars.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "careless",
+      "parts": [
+        "care",
+        "less"
+      ],
+      "pos": "a",
+      "glossZh": "粗心的",
+      "glossEn": "not taking care",
+      "domain": "general",
+      "etymology": "care + -less",
+      "derivation": [
+        "care（关心） + less（形容词后缀） → careless"
+      ],
+      "cognates": [
+        "careful",
+        "care"
+      ],
+      "example": "One careless keystroke erased the file.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "carriage",
+      "parts": [
+        "carry",
+        "age"
+      ],
+      "pos": "n",
+      "glossZh": "马车；车厢",
+      "glossEn": "a horse-drawn vehicle; a coach",
+      "domain": "general",
+      "etymology": "古法语 cariage < carier 'carry'",
+      "derivation": [
+        "carry（携带） + age（名词后缀） → carriage"
+      ],
+      "cognates": [
+        "carry",
+        "carrier"
+      ],
+      "example": "A carriage waited at the gate.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "y→i 加 -age"
+    },
+    {
+      "w": "carrier",
+      "parts": [
+        "carry",
+        "er"
+      ],
+      "pos": "n",
+      "glossZh": "承运人；载体",
+      "glossEn": "one that carries",
+      "domain": "general",
+      "etymology": "carry + -er",
+      "derivation": [
+        "carry（携带） + er（名词后缀） → carrier"
+      ],
+      "cognates": [
+        "carry",
+        "carriage"
+      ],
+      "example": "The airline is the largest carrier in the region.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "y→i 加 -er"
+    },
+    {
+      "w": "cautious",
+      "parts": [
+        "caut",
+        "ious"
+      ],
+      "pos": "a",
+      "glossZh": "谨慎的",
+      "glossEn": "showing care to avoid danger",
+      "domain": "general",
+      "etymology": "拉丁 cautio < cavere 'be on guard'",
+      "derivation": [
+        "caut（当心、提防） + ious（形容词后缀） → cautious"
+      ],
+      "cognates": [
+        "caution",
+        "precaution"
+      ],
+      "example": "Be cautious when sharing account details.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "certainty",
+      "parts": [
+        "certain",
+        "ty"
+      ],
+      "pos": "n",
+      "glossZh": "确定性；必然的事",
+      "glossEn": "the state of being certain",
+      "domain": "general",
+      "etymology": "certain < 拉丁 certus 'sure' + -ty",
+      "derivation": [
+        "certain（确定的） + ty（名词后缀） → certainty"
+      ],
+      "cognates": [
+        "certain",
+        "uncertain"
+      ],
+      "example": "There is no certainty that prices will fall.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "characteristic",
+      "parts": [
+        "character",
+        "istic"
+      ],
+      "pos": "a",
+      "glossZh": "特有的；特征",
+      "glossEn": "typical of a person or thing",
+      "domain": "general",
+      "etymology": "希腊 kharakter 'stamp' + -istic",
+      "derivation": [
+        "character（印记、特征） + istic（形容词后缀） → characteristic"
+      ],
+      "cognates": [
+        "character",
+        "characterize"
+      ],
+      "example": "Patience is characteristic of good teachers.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "circumnavigate",
+      "parts": [
+        "circum",
+        "navig",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "环绕航行",
+      "glossEn": "to sail around",
+      "domain": "general",
+      "etymology": "拉丁 circumnavigare < circum 'around' + navigare 'sail'",
+      "derivation": [
+        "circum（环绕） + navig（航行） + ate（动词/形容词后缀） → circumnavigate"
+      ],
+      "cognates": [
+        "navigation",
+        "navy"
+      ],
+      "example": "They circumnavigate the island in small boats.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "circumstance",
+      "parts": [
+        "circum",
+        "st",
+        "ance"
+      ],
+      "pos": "n",
+      "glossZh": "情况；境况",
+      "glossEn": "a fact affecting a situation",
+      "domain": "general",
+      "etymology": "拉丁 circumstantia < circum 'around' + stare 'stand'",
+      "derivation": [
+        "circum（环绕） + st（站、状态） + ance（名词后缀） → circumstance"
+      ],
+      "cognates": [
+        "stance",
+        "constant"
+      ],
+      "example": "Under no circumstance should you open the valve.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "classify",
+      "parts": [
+        "class",
+        "ify"
+      ],
+      "pos": "v",
+      "glossZh": "分类；归类",
+      "glossEn": "to arrange in classes",
+      "domain": "general",
+      "etymology": "class < 拉丁 classis + -ify",
+      "derivation": [
+        "class（类别） + ify（动词后缀） → classify"
+      ],
+      "cognates": [
+        "class",
+        "classification"
+      ],
+      "example": "We classify the samples by grain size.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "clockwise",
+      "parts": [
+        "clock",
+        "wise"
+      ],
+      "pos": "ad",
+      "glossZh": "顺时针地",
+      "glossEn": "in the direction of a clock's hands",
+      "domain": "general",
+      "etymology": "clock + -wise（方向）",
+      "derivation": [
+        "clock（钟） + wise（副词后缀） → clockwise"
+      ],
+      "cognates": [
+        "counterclockwise",
+        "likewise"
+      ],
+      "example": "Turn the cap clockwise until it clicks.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "coherent",
+      "parts": [
+        "co",
+        "her",
+        "ent"
+      ],
+      "pos": "a",
+      "glossZh": "连贯的；一致的",
+      "glossEn": "logically connected; sticking together",
+      "domain": "general",
+      "etymology": "拉丁 cohaerere < co- + haerere 'stick'",
+      "derivation": [
+        "co（共同） + her（粘附） + ent（形容词/名词后缀） → coherent"
+      ],
+      "cognates": [
+        "adhere",
+        "cohesion"
+      ],
+      "example": "The report is coherent but far too long.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "collate",
+      "parts": [
+        "col",
+        "lat"
+      ],
+      "pos": "v",
+      "glossZh": "核对；整理",
+      "glossEn": "to gather and compare",
+      "domain": "general",
+      "etymology": "拉丁 collatus，conferre 的过去分词",
+      "derivation": [
+        "col（共同） + lat（携带） → collate"
+      ],
+      "cognates": [
+        "collation",
+        "translate"
+      ],
+      "example": "Please collate the printed pages into sets.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "词尾 -e 不构成独立词素"
+    },
+    {
+      "w": "combine",
+      "parts": [
+        "com",
+        "bin"
+      ],
+      "pos": "v",
+      "glossZh": "结合；联合",
+      "glossEn": "to join into one",
+      "domain": "general",
+      "etymology": "晚期拉丁 combinare < com- + bini 'two together'",
+      "derivation": [
+        "com（共同） + bin（二） → combine"
+      ],
+      "cognates": [
+        "combination",
+        "binary"
+      ],
+      "example": "Combine the flour and salt first.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "词尾 -e 不构成独立词素"
+    },
+    {
+      "w": "commitment",
+      "parts": [
+        "com",
+        "mit",
+        "ment"
+      ],
+      "pos": "n",
+      "glossZh": "承诺；投入",
+      "glossEn": "a promise; dedication",
+      "domain": "general",
+      "etymology": "commit < 拉丁 committere + -ment",
+      "derivation": [
+        "com（共同） + mit（送、放出） + ment（名词后缀） → commitment"
+      ],
+      "cognates": [
+        "commit",
+        "committee"
+      ],
+      "example": "She made a firm commitment to the project.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "committee",
+      "parts": [
+        "com",
+        "mit",
+        "ee"
+      ],
+      "pos": "n",
+      "glossZh": "委员会",
+      "glossEn": "a body appointed for a task",
+      "domain": "general",
+      "etymology": "commit + -ee（受事者）",
+      "derivation": [
+        "com（共同） + mit（送、放出） + ee（被……者） → committee"
+      ],
+      "cognates": [
+        "commit",
+        "committal"
+      ],
+      "example": "The committee meets on alternate Fridays.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "双写 t"
+    },
+    {
+      "w": "compatibility",
+      "parts": [
+        "com",
+        "pat",
+        "ibil",
+        "ity"
+      ],
+      "pos": "n",
+      "glossZh": "兼容性",
+      "glossEn": "the ability to work together",
+      "domain": "general",
+      "etymology": "中世纪拉丁 compatibilis < compati 'suffer with'",
+      "derivation": [
+        "com（共同） + pat（感受、承受） + ibil（能够被……的） + ity（名词后缀） → compatibility"
+      ],
+      "cognates": [
+        "compatible",
+        "incompatible"
+      ],
+      "example": "Check compatibility before installing the driver.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "complexity",
+      "parts": [
+        "com",
+        "plex",
+        "ity"
+      ],
+      "pos": "n",
+      "glossZh": "复杂性",
+      "glossEn": "the state of having many parts",
+      "domain": "general",
+      "etymology": "complex < 拉丁 complecti 'embrace' + -ity",
+      "derivation": [
+        "com（共同） + plex（编织、缠绕） + ity（名词后缀） → complexity"
+      ],
+      "cognates": [
+        "complex",
+        "perplex"
+      ],
+      "example": "The complexity of the schedule defeated us.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "compress",
+      "parts": [
+        "com",
+        "press"
+      ],
+      "pos": "v",
+      "glossZh": "压缩",
+      "glossEn": "to press together; to make smaller",
+      "domain": "general",
+      "etymology": "拉丁 comprimere < com- + premere 'press'",
+      "derivation": [
+        "com（共同） + press（压） → compress"
+      ],
+      "cognates": [
+        "compression",
+        "depress"
+      ],
+      "example": "Compress the folder before you send it.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "computer",
+      "parts": [
+        "com",
+        "put",
+        "er"
+      ],
+      "pos": "n",
+      "glossZh": "计算机",
+      "glossEn": "a machine for processing data",
+      "domain": "general",
+      "etymology": "compute < 拉丁 computare 'reckon' + -er",
+      "derivation": [
+        "com（共同） + put（计算、思量） + er（名词后缀） → computer"
+      ],
+      "cognates": [
+        "compute",
+        "computation"
+      ],
+      "example": "The computer finished the render overnight.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "conclude",
+      "parts": [
+        "con",
+        "clud"
+      ],
+      "pos": "v",
+      "glossZh": "得出结论；结束",
+      "glossEn": "to bring to an end; to infer",
+      "domain": "general",
+      "etymology": "拉丁 concludere < com- + claudere 'close'",
+      "derivation": [
+        "con（共同） + clud（关闭） → conclude"
+      ],
+      "cognates": [
+        "conclusion",
+        "include"
+      ],
+      "example": "We conclude that the method is sound.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "词尾 -e 不构成独立词素"
+    },
+    {
+      "w": "conclusion",
+      "parts": [
+        "con",
+        "clus",
+        "ion"
+      ],
+      "pos": "n",
+      "glossZh": "结论；结束",
+      "glossEn": "a judgment reached; an ending",
+      "domain": "general",
+      "etymology": "拉丁 conclusio",
+      "derivation": [
+        "con（共同） + clus（关闭） + ion（名词后缀） → conclusion"
+      ],
+      "cognates": [
+        "conclude",
+        "exclude"
+      ],
+      "example": "His conclusion rests on two shaky facts.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "connect",
+      "parts": [
+        "con",
+        "nect"
+      ],
+      "pos": "v",
+      "glossZh": "连接",
+      "glossEn": "to join together",
+      "domain": "general",
+      "etymology": "拉丁 connectere < com- + nectere 'bind'",
+      "derivation": [
+        "con（共同） + nect（系、绑） → connect"
+      ],
+      "cognates": [
+        "connection",
+        "annex"
+      ],
+      "example": "Connect the monitor to the left port.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "consensus",
+      "parts": [
+        "con",
+        "sens",
+        "us"
+      ],
+      "pos": "n",
+      "glossZh": "共识",
+      "glossEn": "general agreement",
+      "domain": "general",
+      "etymology": "拉丁 consensus < consentire 'agree'",
+      "derivation": [
+        "con（共同） + sens（感觉） + us（名词/形容词后缀） → consensus"
+      ],
+      "cognates": [
+        "consent",
+        "dissent"
+      ],
+      "example": "The group reached a consensus by noon.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "consist",
+      "parts": [
+        "con",
+        "sist"
+      ],
+      "pos": "v",
+      "glossZh": "由……组成",
+      "glossEn": "to be made up of",
+      "domain": "general",
+      "etymology": "拉丁 consistere < com- + sistere 'stand'",
+      "derivation": [
+        "con（共同） + sist（站立、停止） → consist"
+      ],
+      "cognates": [
+        "consistent",
+        "insist"
+      ],
+      "example": "The kit consists of six small parts.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "consistent",
+      "parts": [
+        "con",
+        "sist",
+        "ent"
+      ],
+      "pos": "a",
+      "glossZh": "一致的；始终如一的",
+      "glossEn": "keeping to the same standard",
+      "domain": "general",
+      "etymology": "consist + -ent",
+      "derivation": [
+        "con（共同） + sist（站立、停止） + ent（形容词/名词后缀） → consistent"
+      ],
+      "cognates": [
+        "consistency",
+        "inconsistent"
+      ],
+      "example": "Her results are consistent across trials.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "counterattack",
+      "parts": [
+        "counter",
+        "attack"
+      ],
+      "pos": "n",
+      "glossZh": "反击",
+      "glossEn": "an attack made in reply",
+      "domain": "general",
+      "etymology": "counter-（相反）+ attack",
+      "derivation": [
+        "counter（反对） + attack（攻击） → counterattack"
+      ],
+      "cognates": [
+        "counterpart",
+        "attack"
+      ],
+      "example": "The infantry launched a counterattack at dusk.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "counterexample",
+      "parts": [
+        "counter",
+        "example"
+      ],
+      "pos": "n",
+      "glossZh": "反例",
+      "glossEn": "an example that disproves a claim",
+      "domain": "general",
+      "etymology": "counter-（相反）+ example",
+      "derivation": [
+        "counter（反对） + example（例子） → counterexample"
+      ],
+      "cognates": [
+        "counterpart",
+        "example"
+      ],
+      "example": "One counterexample is enough to refute the rule.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "counterpart",
+      "parts": [
+        "counter",
+        "part"
+      ],
+      "pos": "n",
+      "glossZh": "对应物；对手方",
+      "glossEn": "a person or thing matching another",
+      "domain": "general",
+      "etymology": "counter-（对应）+ part",
+      "derivation": [
+        "counter（对应） + part（部分） → counterpart"
+      ],
+      "cognates": [
+        "counter",
+        "part"
+      ],
+      "example": "The minister met her Japanese counterpart.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "courageous",
+      "parts": [
+        "courage",
+        "ous"
+      ],
+      "pos": "a",
+      "glossZh": "勇敢的",
+      "glossEn": "brave",
+      "domain": "general",
+      "etymology": "古法语 corage < 拉丁 cor 'heart' + -ous",
+      "derivation": [
+        "courage（勇气） + ous（形容词后缀） → courageous"
+      ],
+      "cognates": [
+        "courage",
+        "encourage"
+      ],
+      "example": "A courageous decision saved the crew.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "created",
+      "parts": [
+        "create",
+        "ed"
+      ],
+      "pos": "v",
+      "glossZh": "创造了（过去式）",
+      "glossEn": "made; brought into being",
+      "domain": "general",
+      "etymology": "create < 拉丁 creare 'make' + -ed",
+      "derivation": [
+        "create（创造） + ed（屈折后缀） → created"
+      ],
+      "cognates": [
+        "create",
+        "creation"
+      ],
+      "example": "The team created a working prototype in a week.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "去 e 加 -ed"
+    },
+    {
+      "w": "creation",
+      "parts": [
+        "cre",
+        "ation"
+      ],
+      "pos": "n",
+      "glossZh": "创造；作品",
+      "glossEn": "the act of creating; something made",
+      "domain": "general",
+      "etymology": "拉丁 creatio",
+      "derivation": [
+        "cre（创造、生长） + ation（名词后缀） → creation"
+      ],
+      "cognates": [
+        "create",
+        "creative"
+      ],
+      "example": "The mural is the creation of a local artist.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "creative",
+      "parts": [
+        "cre",
+        "ative"
+      ],
+      "pos": "a",
+      "glossZh": "有创造力的",
+      "glossEn": "able to make new things",
+      "domain": "general",
+      "etymology": "create + -ive",
+      "derivation": [
+        "cre（创造、生长） + ative（形容词后缀） → creative"
+      ],
+      "cognates": [
+        "create",
+        "creativity"
+      ],
+      "example": "She found a creative use for old tyres.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "credential",
+      "parts": [
+        "cred",
+        "ent",
+        "ial"
+      ],
+      "pos": "n",
+      "glossZh": "资格证书；资历",
+      "glossEn": "evidence of a person's qualifications",
+      "domain": "general",
+      "etymology": "中世纪拉丁 credentialis < credere 'believe'",
+      "derivation": [
+        "cred（相信） + ent（形容词/名词后缀） + ial（形容词后缀） → credential"
+      ],
+      "cognates": [
+        "credit",
+        "credible"
+      ],
+      "example": "He showed his press credential at the door.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "criteria",
+      "parts": [
+        "criter",
+        "ia"
+      ],
+      "pos": "n",
+      "glossZh": "标准（复数）",
+      "glossEn": "standards for judging",
+      "domain": "general",
+      "etymology": "希腊 kriterion 'means of judging' 的复数",
+      "derivation": [
+        "criter（判断） + ia（名词后缀） → criteria"
+      ],
+      "cognates": [
+        "criterion",
+        "critical"
+      ],
+      "example": "Two criteria decide who gets the grant.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "criticism",
+      "parts": [
+        "critic",
+        "ism"
+      ],
+      "pos": "n",
+      "glossZh": "批评；评论",
+      "glossEn": "the expression of disapproval",
+      "domain": "general",
+      "etymology": "希腊 kritike < krinein 'judge' + -ism",
+      "derivation": [
+        "critic（评判者） + ism（名词后缀） → criticism"
+      ],
+      "cognates": [
+        "critic",
+        "critical"
+      ],
+      "example": "The plan drew sharp criticism from engineers.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "darkness",
+      "parts": [
+        "dark",
+        "ness"
+      ],
+      "pos": "n",
+      "glossZh": "黑暗",
+      "glossEn": "the state of being dark",
+      "domain": "general",
+      "etymology": "dark + -ness",
+      "derivation": [
+        "dark（黑暗） + ness（名词后缀） → darkness"
+      ],
+      "cognates": [
+        "dark",
+        "darken"
+      ],
+      "example": "We waited in the darkness for the bus.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "data",
+      "parts": [
+        "data"
+      ],
+      "pos": "n",
+      "glossZh": "数据",
+      "glossEn": "facts collected for analysis",
+      "domain": "general",
+      "etymology": "拉丁 data，datum 'given' 的复数",
+      "derivation": [
+        "拉丁 datum（给定之物）的复数 → data；整体借词，不切分"
+      ],
+      "cognates": [
+        "datum",
+        "database"
+      ],
+      "example": "The data show a steady rise in traffic.",
+      "verified": false,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "整体借词（拉丁复数），不作词素切分"
+    },
+    {
+      "w": "debtor",
+      "parts": [
+        "debt",
+        "or"
+      ],
+      "pos": "n",
+      "glossZh": "债务人",
+      "glossEn": "a person who owes money",
+      "domain": "general",
+      "etymology": "古法语 dettor < 拉丁 debitor < debere 'owe'",
+      "derivation": [
+        "debt（债务） + or（名词后缀） → debtor"
+      ],
+      "cognates": [
+        "debt",
+        "debit"
+      ],
+      "example": "The debtor agreed to a monthly plan.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "decision",
+      "parts": [
+        "de",
+        "cis",
+        "ion"
+      ],
+      "pos": "n",
+      "glossZh": "决定",
+      "glossEn": "a judgment or choice",
+      "domain": "general",
+      "etymology": "拉丁 decisio < decidere 'cut off'",
+      "derivation": [
+        "de（向下） + cis（切、杀） + ion（名词后缀） → decision"
+      ],
+      "cognates": [
+        "decide",
+        "precise"
+      ],
+      "example": "The decision was postponed until Monday.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "dehydrate",
+      "parts": [
+        "de",
+        "hydr",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "脱水",
+      "glossEn": "to remove water from",
+      "domain": "general",
+      "etymology": "de- + 希腊 hydor 'water' + -ate",
+      "derivation": [
+        "de（向下） + hydr（水） + ate（动词/形容词后缀） → dehydrate"
+      ],
+      "cognates": [
+        "hydration",
+        "hydrogen"
+      ],
+      "example": "Salt will dehydrate the meat slowly.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "denominator",
+      "parts": [
+        "de",
+        "nomin",
+        "ator"
+      ],
+      "pos": "n",
+      "glossZh": "分母",
+      "glossEn": "the lower number of a fraction",
+      "domain": "general",
+      "etymology": "拉丁 denominare 'name' < de- + nomen",
+      "derivation": [
+        "de（向下） + nomin（名字） + ator（名词后缀） → denominator"
+      ],
+      "cognates": [
+        "nominate",
+        "numerator"
+      ],
+      "example": "In 3/4, four is the denominator.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "descend",
+      "parts": [
+        "de",
+        "scend"
+      ],
+      "pos": "v",
+      "glossZh": "下降；下来",
+      "glossEn": "to go down",
+      "domain": "general",
+      "etymology": "拉丁 descendere < de- + scandere 'climb'",
+      "derivation": [
+        "de（向下） + scend（攀爬） → descend"
+      ],
+      "cognates": [
+        "descent",
+        "ascend"
+      ],
+      "example": "The path descends steeply to the river.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "design",
+      "parts": [
+        "de",
+        "sign"
+      ],
+      "pos": "v",
+      "glossZh": "设计",
+      "glossEn": "to plan the form of something",
+      "domain": "general",
+      "etymology": "拉丁 designare < de- + signum 'mark'",
+      "derivation": [
+        "de（向下） + sign（记号、标志） → design"
+      ],
+      "cognates": [
+        "designate",
+        "signal"
+      ],
+      "example": "They design the chips in-house.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "detect",
+      "parts": [
+        "de",
+        "tect"
+      ],
+      "pos": "v",
+      "glossZh": "察觉；检测",
+      "glossEn": "to discover the presence of",
+      "domain": "general",
+      "etymology": "拉丁 detegere < de- + tegere 'cover'",
+      "derivation": [
+        "de（向下） + tect（覆盖、建造） → detect"
+      ],
+      "cognates": [
+        "detector",
+        "protect"
+      ],
+      "example": "The sensor can detect a single photon.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "determine",
+      "parts": [
+        "de",
+        "termin"
+      ],
+      "pos": "v",
+      "glossZh": "确定；决定",
+      "glossEn": "to fix or decide",
+      "domain": "general",
+      "etymology": "拉丁 determinare < de- + terminus 'boundary'",
+      "derivation": [
+        "de（向下） + termin（界限、终点） → determine"
+      ],
+      "cognates": [
+        "terminal",
+        "determination"
+      ],
+      "example": "Tests determine which alloy to use.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "词尾 -e 不构成独立词素"
+    },
+    {
+      "w": "devalue",
+      "parts": [
+        "de",
+        "value"
+      ],
+      "pos": "v",
+      "glossZh": "贬值；贬低",
+      "glossEn": "to reduce in value",
+      "domain": "general",
+      "etymology": "de-（向下）+ value",
+      "derivation": [
+        "de（向下） + value（价值） → devalue"
+      ],
+      "cognates": [
+        "value",
+        "devaluation"
+      ],
+      "example": "Inflation will devalue the currency again.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "deviate",
+      "parts": [
+        "de",
+        "vi",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "偏离",
+      "glossEn": "to depart from a course",
+      "domain": "general",
+      "etymology": "晚期拉丁 deviare < de- + via 'way'",
+      "derivation": [
+        "de（向下） + vi（道路） + ate（动词/形容词后缀） → deviate"
+      ],
+      "cognates": [
+        "deviation",
+        "via"
+      ],
+      "example": "Do not deviate from the approved route.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "diagram",
+      "parts": [
+        "dia",
+        "gram"
+      ],
+      "pos": "n",
+      "glossZh": "图表",
+      "glossEn": "a drawing that explains",
+      "domain": "general",
+      "etymology": "希腊 diagramma < dia- + graphein 'write'",
+      "derivation": [
+        "dia（穿过） + gram（写下的东西） → diagram"
+      ],
+      "cognates": [
+        "grammar",
+        "graph"
+      ],
+      "example": "The diagram shows the wiring in colour.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "diameter",
+      "parts": [
+        "dia",
+        "meter"
+      ],
+      "pos": "n",
+      "glossZh": "直径",
+      "glossEn": "the width across a circle",
+      "domain": "general",
+      "etymology": "希腊 diametros < dia- + metron 'measure'",
+      "derivation": [
+        "dia（穿过） + meter（测量仪器） → diameter"
+      ],
+      "cognates": [
+        "metre",
+        "symmetry"
+      ],
+      "example": "The pipe has a diameter of ten centimetres.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "difficult",
+      "parts": [
+        "dif",
+        "ficult"
+      ],
+      "pos": "a",
+      "glossZh": "困难的",
+      "glossEn": "hard to do",
+      "domain": "general",
+      "etymology": "拉丁 difficilis < dis- + facilis 'easy'",
+      "derivation": [
+        "dif-（=dis-，不）+ ficult（< 拉丁 facilis“容易”）→ difficult；ficult 不成独立词素"
+      ],
+      "cognates": [
+        "difficulty",
+        "facile"
+      ],
+      "example": "The climb is difficult in wet weather.",
+      "verified": false,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "ficult 不成词素，difficilis 整体借入"
+    },
+    {
+      "w": "difficulty",
+      "parts": [
+        "difficult",
+        "y"
+      ],
+      "pos": "n",
+      "glossZh": "困难",
+      "glossEn": "the state of being hard",
+      "domain": "general",
+      "etymology": "difficult + -y < 拉丁 difficultas",
+      "derivation": [
+        "difficult（困难的） + y（名词后缀） → difficulty"
+      ],
+      "cognates": [
+        "difficult",
+        "facility"
+      ],
+      "example": "We had difficulty finding the entrance.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "directory",
+      "parts": [
+        "direct",
+        "ory"
+      ],
+      "pos": "n",
+      "glossZh": "目录；名录",
+      "glossEn": "a list of names or files",
+      "domain": "general",
+      "etymology": "direct < 拉丁 dirigere 'guide' + -ory（场所）",
+      "derivation": [
+        "direct（引导） + ory（形容词/名词后缀） → directory"
+      ],
+      "cognates": [
+        "direct",
+        "direction"
+      ],
+      "example": "Look up the number in the staff directory.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "dishonest",
+      "parts": [
+        "dis",
+        "honest"
+      ],
+      "pos": "a",
+      "glossZh": "不诚实的",
+      "glossEn": "not truthful",
+      "domain": "general",
+      "etymology": "dis- + honest < 拉丁 honestus",
+      "derivation": [
+        "dis（不） + honest（诚实的） → dishonest"
+      ],
+      "cognates": [
+        "honest",
+        "honesty"
+      ],
+      "example": "It was dishonest to hide the error.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "distinct",
+      "parts": [
+        "dis",
+        "tinct"
+      ],
+      "pos": "a",
+      "glossZh": "明显的；截然不同的",
+      "glossEn": "clearly different",
+      "domain": "general",
+      "etymology": "拉丁 distinctus < distinguere 'separate'",
+      "derivation": [
+        "dis（分开） + tinct（刺、标记） → distinct"
+      ],
+      "cognates": [
+        "distinction",
+        "distinguish"
+      ],
+      "example": "The two dialects are distinct to local ears.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "tinct 为 stinguere 的弱化词干"
+    },
+    {
+      "w": "distinction",
+      "parts": [
+        "dis",
+        "tinct",
+        "ion"
+      ],
+      "pos": "n",
+      "glossZh": "区别；卓越",
+      "glossEn": "a clear difference; excellence",
+      "domain": "general",
+      "etymology": "拉丁 distinctio",
+      "derivation": [
+        "dis（分开） + tinct（刺、标记） + ion（名词后缀） → distinction"
+      ],
+      "cognates": [
+        "distinct",
+        "distinguish"
+      ],
+      "example": "Draw a distinction between cause and motive.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "distinguishable",
+      "parts": [
+        "distinguish",
+        "able"
+      ],
+      "pos": "a",
+      "glossZh": "可分辨的",
+      "glossEn": "able to be told apart",
+      "domain": "general",
+      "etymology": "distinguish + -able",
+      "derivation": [
+        "distinguish（区分） + able（能够被……的） → distinguishable"
+      ],
+      "cognates": [
+        "distinguish",
+        "distinct"
+      ],
+      "example": "The twins are barely distinguishable in photos.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "divide",
+      "parts": [
+        "di",
+        "vid"
+      ],
+      "pos": "v",
+      "glossZh": "分开；除以",
+      "glossEn": "to separate; to share out",
+      "domain": "general",
+      "etymology": "拉丁 dividere < dis- + -videre 'separate'",
+      "derivation": [
+        "di（=dis-，分开） + vid（分） → divide（词尾 -e 不构成独立词素）"
+      ],
+      "cognates": [
+        "division",
+        "individual"
+      ],
+      "example": "Divide the class into four groups.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "词尾 -e 不构成独立词素；vid 在此为“分开”义，与 vid“看”同形异源"
+    },
+    {
+      "w": "docile",
+      "parts": [
+        "doc",
+        "ile"
+      ],
+      "pos": "a",
+      "glossZh": "温顺的；易教的",
+      "glossEn": "easily taught or managed",
+      "domain": "general",
+      "etymology": "拉丁 docilis < docere 'teach'",
+      "derivation": [
+        "doc（教） + ile（形容词后缀） → docile"
+      ],
+      "cognates": [
+        "doctor",
+        "document"
+      ],
+      "example": "The docile pony followed the child anywhere.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "dynamic",
+      "parts": [
+        "dynam",
+        "ic"
+      ],
+      "pos": "a",
+      "glossZh": "动态的；有活力的",
+      "glossEn": "full of energy; constantly changing",
+      "domain": "general",
+      "etymology": "希腊 dynamikos < dynamis 'power'",
+      "derivation": [
+        "dynam（力） + ic（形容词后缀） → dynamic"
+      ],
+      "cognates": [
+        "dynamics",
+        "dynamo"
+      ],
+      "example": "The market is dynamic and hard to predict.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "ecology",
+      "parts": [
+        "eco",
+        "logy"
+      ],
+      "pos": "n",
+      "glossZh": "生态学",
+      "glossEn": "the study of organisms and habitats",
+      "domain": "general",
+      "etymology": "希腊 oikos 'house' + -logia（Haeckel 1866 造词）",
+      "derivation": [
+        "eco（家、环境） + logy（学科、研究） → ecology"
+      ],
+      "cognates": [
+        "ecosystem",
+        "biology"
+      ],
+      "example": "Ecology links the wetland to the nearby farms.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "economic",
+      "parts": [
+        "eco",
+        "nom",
+        "ic"
+      ],
+      "pos": "a",
+      "glossZh": "经济的",
+      "glossEn": "relating to trade and money",
+      "domain": "general",
+      "etymology": "希腊 oikonomia < oikos 'house' + nomos 'law'",
+      "derivation": [
+        "eco（家、环境） + nom（法则、规律） + ic（形容词后缀） → economic"
+      ],
+      "cognates": [
+        "economy",
+        "economics"
+      ],
+      "example": "The report predicts slow economic growth.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "efficiency",
+      "parts": [
+        "ef",
+        "fic",
+        "iency"
+      ],
+      "pos": "n",
+      "glossZh": "效率",
+      "glossEn": "ratio of useful output to input",
+      "domain": "general",
+      "etymology": "拉丁 efficientia < efficere 'accomplish'",
+      "derivation": [
+        "ef（向外） + fic（做、造） + iency（名词后缀） → efficiency"
+      ],
+      "cognates": [
+        "efficient",
+        "sufficient"
+      ],
+      "example": "Better insulation raised the building's efficiency.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "eject",
+      "parts": [
+        "e",
+        "ject"
+      ],
+      "pos": "v",
+      "glossZh": "弹出；驱逐",
+      "glossEn": "to throw out",
+      "domain": "general",
+      "etymology": "拉丁 eicere < ex- + iacere 'throw'",
+      "derivation": [
+        "e（向外） + ject（投、扔） → eject"
+      ],
+      "cognates": [
+        "ejection",
+        "inject"
+      ],
+      "example": "Press the key to eject the disc.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "elevator",
+      "parts": [
+        "e",
+        "lev",
+        "ator"
+      ],
+      "pos": "n",
+      "glossZh": "电梯；升降机",
+      "glossEn": "a lift; a machine that raises",
+      "domain": "general",
+      "etymology": "拉丁 elevare 'raise' < ex- + levare 'lift'",
+      "derivation": [
+        "e（向外） + lev（举、升） + ator（名词后缀） → elevator"
+      ],
+      "cognates": [
+        "elevate",
+        "lever"
+      ],
+      "example": "Take the elevator to the fifth floor.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "embed",
+      "parts": [
+        "em",
+        "bed"
+      ],
+      "pos": "v",
+      "glossZh": "嵌入；嵌套",
+      "glossEn": "to fix firmly inside",
+      "domain": "general",
+      "etymology": "em-（=in-）+ bed",
+      "derivation": [
+        "em（使进入） + bed（床） → embed"
+      ],
+      "cognates": [
+        "embedded",
+        "embedding"
+      ],
+      "example": "Embed the video in the slide deck.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "embrace",
+      "parts": [
+        "em",
+        "brace"
+      ],
+      "pos": "v",
+      "glossZh": "拥抱；接受",
+      "glossEn": "to hold in the arms; to accept",
+      "domain": "general",
+      "etymology": "古法语 embracer < 拉丁 in- + bracchium 'arm'",
+      "derivation": [
+        "em（使进入） + brace（臂） → embrace"
+      ],
+      "cognates": [
+        "bracelet",
+        "brace"
+      ],
+      "example": "She was quick to embrace the new method.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "emerge",
+      "parts": [
+        "e",
+        "merg"
+      ],
+      "pos": "v",
+      "glossZh": "出现；浮现",
+      "glossEn": "to come out into view",
+      "domain": "general",
+      "etymology": "拉丁 emergere < ex- + mergere 'dip'",
+      "derivation": [
+        "e（向外） + merg（沉、浸） → emerge"
+      ],
+      "cognates": [
+        "emergence",
+        "submerge"
+      ],
+      "example": "A pattern began to emerge from the data.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "employee",
+      "parts": [
+        "employ",
+        "ee"
+      ],
+      "pos": "n",
+      "glossZh": "雇员",
+      "glossEn": "a person employed",
+      "domain": "general",
+      "etymology": "employ + -ee（受事者）",
+      "derivation": [
+        "employ（雇用） + ee（被……者） → employee"
+      ],
+      "cognates": [
+        "employ",
+        "employer"
+      ],
+      "example": "Every employee receives a security badge.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "empower",
+      "parts": [
+        "em",
+        "power"
+      ],
+      "pos": "v",
+      "glossZh": "授权；使有能力",
+      "glossEn": "to give power or authority to",
+      "domain": "general",
+      "etymology": "em- + power",
+      "derivation": [
+        "em（使进入） + power（力量、功率） → empower"
+      ],
+      "cognates": [
+        "power",
+        "empowerment"
+      ],
+      "example": "The new law empowers inspectors to fine owners.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "enable",
+      "parts": [
+        "en",
+        "able"
+      ],
+      "pos": "v",
+      "glossZh": "使能够",
+      "glossEn": "to make able",
+      "domain": "general",
+      "etymology": "en- + able",
+      "derivation": [
+        "en（使成为） + able（能够被……的） → enable"
+      ],
+      "cognates": [
+        "able",
+        "disable"
+      ],
+      "example": "Enable two-factor login on the account.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "endoscope",
+      "parts": [
+        "endo",
+        "scope"
+      ],
+      "pos": "n",
+      "glossZh": "内窥镜",
+      "glossEn": "an instrument for viewing inside the body",
+      "domain": "general",
+      "etymology": "endo- + -scope（观看仪器）",
+      "derivation": [
+        "endo（内部） + scope（观看的仪器） → endoscope"
+      ],
+      "cognates": [
+        "endoscopy",
+        "endoscopic"
+      ],
+      "example": "The surgeon guided the endoscope through the throat.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "endoscopy",
+      "parts": [
+        "endo",
+        "scopy"
+      ],
+      "pos": "n",
+      "glossZh": "内镜检查",
+      "glossEn": "examination with an endoscope",
+      "domain": "general",
+      "etymology": "endo- + -scopy（观察术）",
+      "derivation": [
+        "endo（内部） + scopy（观察术） → endoscopy"
+      ],
+      "cognates": [
+        "endoscope",
+        "endoscopic"
+      ],
+      "example": "The endoscopy showed no sign of damage.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "enslave",
+      "parts": [
+        "en",
+        "slave"
+      ],
+      "pos": "v",
+      "glossZh": "奴役",
+      "glossEn": "to make a slave of",
+      "domain": "general",
+      "etymology": "en- + slave",
+      "derivation": [
+        "en（使成为） + slave（奴隶） → enslave"
+      ],
+      "cognates": [
+        "slavery",
+        "slave"
+      ],
+      "example": "Debt can enslave a whole family.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "equipment",
+      "parts": [
+        "equip",
+        "ment"
+      ],
+      "pos": "n",
+      "glossZh": "设备",
+      "glossEn": "the items needed for an activity",
+      "domain": "general",
+      "etymology": "古法语 esquipement < esquiper 'fit out'",
+      "derivation": [
+        "equip（装备） + ment（名词后缀） → equipment"
+      ],
+      "cognates": [
+        "equip",
+        "equipped"
+      ],
+      "example": "All safety equipment is checked each month.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "evaluate",
+      "parts": [
+        "e",
+        "valu",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "评估",
+      "glossEn": "to judge the value of",
+      "domain": "general",
+      "etymology": "法语 évaluer < value + -ate",
+      "derivation": [
+        "e（向外） + valu（价值） + ate（动词后缀） → evaluate"
+      ],
+      "cognates": [
+        "value",
+        "evaluation"
+      ],
+      "example": "We evaluate each model on the same data.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "ex-president",
+      "parts": [
+        "ex",
+        "president"
+      ],
+      "pos": "n",
+      "glossZh": "前总统",
+      "glossEn": "a former president",
+      "domain": "general",
+      "etymology": "ex-（前任）+ president",
+      "derivation": [
+        "ex（前任） + president（总统） → ex-president"
+      ],
+      "cognates": [
+        "president",
+        "ex-wife"
+      ],
+      "example": "The ex-president gave a short interview.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "连字符复合词"
+    },
+    {
+      "w": "exact",
+      "parts": [
+        "ex",
+        "act"
+      ],
+      "pos": "a",
+      "glossZh": "精确的；准确的",
+      "glossEn": "precise",
+      "domain": "general",
+      "etymology": "拉丁 exactus < exigere 'weigh out'",
+      "derivation": [
+        "ex（向外） + act（做、驱动） → exact"
+      ],
+      "cognates": [
+        "exactly",
+        "act"
+      ],
+      "example": "Give me the exact time of the call.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "except",
+      "parts": [
+        "ex",
+        "cept"
+      ],
+      "pos": "v",
+      "glossZh": "把……除外",
+      "glossEn": "to leave out; not including",
+      "domain": "general",
+      "etymology": "拉丁 exceptus < excipere 'take out'",
+      "derivation": [
+        "ex（向外） + cept（拿） → except"
+      ],
+      "cognates": [
+        "exception",
+        "accept"
+      ],
+      "example": "We excepted the damaged items from the count.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "existence",
+      "parts": [
+        "ex",
+        "sist",
+        "ence"
+      ],
+      "pos": "n",
+      "glossZh": "存在",
+      "glossEn": "the state of existing",
+      "domain": "general",
+      "etymology": "拉丁 exsistere < ex- + sistere 'stand'",
+      "derivation": [
+        "ex（向外） + sist（站立、停止） + ence（名词后缀） → existence"
+      ],
+      "cognates": [
+        "exist",
+        "insist"
+      ],
+      "example": "Few doubt the existence of the problem.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "拉丁 exsistere，英语拼写中 ex- 后的 s 脱落"
+    },
+    {
+      "w": "exit",
+      "parts": [
+        "ex",
+        "it"
+      ],
+      "pos": "n",
+      "glossZh": "出口；退出",
+      "glossEn": "a way out",
+      "domain": "general",
+      "etymology": "拉丁 exitus < exire 'go out'",
+      "derivation": [
+        "ex（向外） + it（走） → exit"
+      ],
+      "cognates": [
+        "exodus",
+        "initial"
+      ],
+      "example": "The exit sign glowed green.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "explosion",
+      "parts": [
+        "ex",
+        "plos",
+        "ion"
+      ],
+      "pos": "n",
+      "glossZh": "爆炸",
+      "glossEn": "a violent burst",
+      "domain": "general",
+      "etymology": "拉丁 explosio < explodere 'drive off by clapping'",
+      "derivation": [
+        "ex（向外） + plos（拍、击） + ion（名词后缀） → explosion"
+      ],
+      "cognates": [
+        "explode",
+        "implode"
+      ],
+      "example": "The explosion shattered windows across the street.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "extenuate",
+      "parts": [
+        "ex",
+        "tenu",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "减轻（罪责）",
+      "glossEn": "to lessen the seriousness of",
+      "domain": "general",
+      "etymology": "拉丁 extenuare < ex- + tenuis 'thin'",
+      "derivation": [
+        "ex（向外） + tenu（薄、细） + ate（动词/形容词后缀） → extenuate"
+      ],
+      "cognates": [
+        "tenuous",
+        "attenuate"
+      ],
+      "example": "Nothing can extenuate what he did.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "factory",
+      "parts": [
+        "fac",
+        "ory"
+      ],
+      "pos": "n",
+      "glossZh": "工厂",
+      "glossEn": "a building where goods are made",
+      "domain": "general",
+      "etymology": "拉丁 facere 'make' + -ory（场所）",
+      "derivation": [
+        "fac（做、造） + ory（形容词/名词后缀） → factory"
+      ],
+      "cognates": [
+        "manufacture",
+        "facile"
+      ],
+      "example": "The factory runs two shifts a day.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "fac 在元音前取过去分词词干 fact-，故拼作 factory"
+    },
+    {
+      "w": "failure",
+      "parts": [
+        "fail",
+        "ure"
+      ],
+      "pos": "n",
+      "glossZh": "失败",
+      "glossEn": "lack of success",
+      "domain": "general",
+      "etymology": "fail < 古法语 faillir + -ure",
+      "derivation": [
+        "fail（失败） + ure（名词后缀） → failure"
+      ],
+      "cognates": [
+        "fail",
+        "failing"
+      ],
+      "example": "The first attempt ended in failure.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "fastest",
+      "parts": [
+        "fast",
+        "est"
+      ],
+      "pos": "a",
+      "glossZh": "最快的",
+      "glossEn": "most quick",
+      "domain": "general",
+      "etymology": "fast + 最高级 -est",
+      "derivation": [
+        "fast（快的） + est（屈折后缀） → fastest"
+      ],
+      "cognates": [
+        "fast",
+        "speed"
+      ],
+      "example": "This is the fastest route at rush hour.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "forward",
+      "parts": [
+        "for",
+        "ward"
+      ],
+      "pos": "ad",
+      "glossZh": "向前",
+      "glossEn": "toward the front",
+      "domain": "general",
+      "etymology": "古英语 foreweard",
+      "derivation": [
+        "for（前） + ward（副词后缀） → forward"
+      ],
+      "cognates": [
+        "backward",
+        "homeward"
+      ],
+      "example": "Lean forward and keep your back straight.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "fragile",
+      "parts": [
+        "frag",
+        "ile"
+      ],
+      "pos": "a",
+      "glossZh": "易碎的；脆弱的",
+      "glossEn": "easily broken",
+      "domain": "general",
+      "etymology": "拉丁 fragilis < frangere 'break'",
+      "derivation": [
+        "frag（破碎） + ile（形容词后缀） → fragile"
+      ],
+      "cognates": [
+        "fragment",
+        "fracture"
+      ],
+      "example": "The crate holds fragile glassware.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "general",
+      "parts": [
+        "gener",
+        "al"
+      ],
+      "pos": "a",
+      "glossZh": "一般的；总的",
+      "glossEn": "relating to a whole class",
+      "domain": "general",
+      "etymology": "拉丁 generalis < genus 'kind'",
+      "derivation": [
+        "gener（产生、种类） + al（形容词后缀） → general"
+      ],
+      "cognates": [
+        "generate",
+        "generic"
+      ],
+      "example": "The general rule has two exceptions.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "generate",
+      "parts": [
+        "gener",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "产生；生成",
+      "glossEn": "to bring into being",
+      "domain": "general",
+      "etymology": "拉丁 generare < genus 'birth'",
+      "derivation": [
+        "gener（产生、种类） + ate（动词/形容词后缀） → generate"
+      ],
+      "cognates": [
+        "generation",
+        "generator"
+      ],
+      "example": "The panels generate power all summer.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "generation",
+      "parts": [
+        "gener",
+        "ation"
+      ],
+      "pos": "n",
+      "glossZh": "一代；产生",
+      "glossEn": "a group born about the same time",
+      "domain": "general",
+      "etymology": "拉丁 generatio",
+      "derivation": [
+        "gener（产生、种类） + ation（名词后缀） → generation"
+      ],
+      "cognates": [
+        "generate",
+        "generational"
+      ],
+      "example": "Her generation grew up without smartphones.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "goes",
+      "parts": [
+        "go",
+        "es"
+      ],
+      "pos": "v",
+      "glossZh": "去（第三人称单数）",
+      "glossEn": "third person singular of go",
+      "domain": "general",
+      "etymology": "go + -es",
+      "derivation": [
+        "go（去） + es（屈折后缀） → goes"
+      ],
+      "cognates": [
+        "going",
+        "gone"
+      ],
+      "example": "The last train goes at midnight.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "governance",
+      "parts": [
+        "govern",
+        "ance"
+      ],
+      "pos": "n",
+      "glossZh": "治理；管理",
+      "glossEn": "the manner of governing",
+      "domain": "general",
+      "etymology": "govern < 拉丁 gubernare 'steer' + -ance",
+      "derivation": [
+        "govern（治理） + ance（名词后缀） → governance"
+      ],
+      "cognates": [
+        "government",
+        "governor"
+      ],
+      "example": "Good governance requires open records.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "government",
+      "parts": [
+        "govern",
+        "ment"
+      ],
+      "pos": "n",
+      "glossZh": "政府",
+      "glossEn": "the body that governs",
+      "domain": "general",
+      "etymology": "govern + -ment",
+      "derivation": [
+        "govern（治理） + ment（名词后缀） → government"
+      ],
+      "cognates": [
+        "govern",
+        "governance"
+      ],
+      "example": "The government funded the new bridge.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "governor",
+      "parts": [
+        "govern",
+        "or"
+      ],
+      "pos": "n",
+      "glossZh": "州长；管理者",
+      "glossEn": "one who governs",
+      "domain": "general",
+      "etymology": "govern + -or",
+      "derivation": [
+        "govern（治理） + or（名词后缀） → governor"
+      ],
+      "cognates": [
+        "govern",
+        "government"
+      ],
+      "example": "The governor signed the bill on Friday.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "granite",
+      "parts": [
+        "gran",
+        "ite"
+      ],
+      "pos": "n",
+      "glossZh": "花岗岩",
+      "glossEn": "a hard grey rock",
+      "domain": "general",
+      "etymology": "意大利 granito < granire 'to grain' < 拉丁 granum",
+      "derivation": [
+        "gran（颗粒） + ite（名词后缀） → granite"
+      ],
+      "cognates": [
+        "grain",
+        "granular"
+      ],
+      "example": "The steps are cut from grey granite.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "happiest",
+      "parts": [
+        "happy",
+        "est"
+      ],
+      "pos": "a",
+      "glossZh": "最快乐的",
+      "glossEn": "most happy",
+      "domain": "general",
+      "etymology": "happy + 最高级 -est（y→i）",
+      "derivation": [
+        "happy（幸福的） + est（屈折后缀） → happiest"
+      ],
+      "cognates": [
+        "happy",
+        "happiness"
+      ],
+      "example": "That was the happiest day of her year.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "y→i 加 -est"
+    },
+    {
+      "w": "helical",
+      "parts": [
+        "helic",
+        "al"
+      ],
+      "pos": "a",
+      "glossZh": "螺旋状的",
+      "glossEn": "shaped like a helix",
+      "domain": "general",
+      "etymology": "希腊 helix 'spiral' + -al",
+      "derivation": [
+        "helic（螺旋） + al（形容词后缀） → helical"
+      ],
+      "cognates": [
+        "helicopter",
+        "helix"
+      ],
+      "example": "The spring has a helical shape.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "helicopter",
+      "parts": [
+        "helico",
+        "pter"
+      ],
+      "pos": "n",
+      "glossZh": "直升机",
+      "glossEn": "an aircraft with rotating blades",
+      "domain": "general",
+      "etymology": "法语 hélicoptère < 希腊 helix + pteron 'wing'",
+      "derivation": [
+        "helico（螺旋） + pter（翅） → helicopter"
+      ],
+      "cognates": [
+        "helical",
+        "pterodactyl"
+      ],
+      "example": "A helicopter lifted the injured climber off.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "hesitate",
+      "parts": [
+        "hes",
+        "it",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "犹豫",
+      "glossEn": "to pause in doubt",
+      "domain": "general",
+      "etymology": "拉丁 haesitare < haerere 'stick'",
+      "derivation": [
+        "hes（< 拉丁 haerere“粘”的反复态词干） + it（反复态中缀） + ate（动词后缀） → hesitate"
+      ],
+      "cognates": [
+        "hesitation",
+        "adhere"
+      ],
+      "example": "Do not hesitate to ask for help.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "-it- 为拉丁反复态中缀"
+    },
+    {
+      "w": "highly",
+      "parts": [
+        "high",
+        "ly"
+      ],
+      "pos": "ad",
+      "glossZh": "高度地；非常",
+      "glossEn": "to a high degree",
+      "domain": "general",
+      "etymology": "high + -ly",
+      "derivation": [
+        "high（高） + ly（副词后缀） → highly"
+      ],
+      "cognates": [
+        "high",
+        "height"
+      ],
+      "example": "The results were highly encouraging.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "historical",
+      "parts": [
+        "histor",
+        "ical"
+      ],
+      "pos": "a",
+      "glossZh": "历史的",
+      "glossEn": "relating to history",
+      "domain": "general",
+      "etymology": "希腊 historia 'inquiry' + -ical",
+      "derivation": [
+        "histor（历史） + ical（形容词后缀） → historical"
+      ],
+      "cognates": [
+        "history",
+        "historian"
+      ],
+      "example": "The novel uses a real historical figure.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "homeward",
+      "parts": [
+        "home",
+        "ward"
+      ],
+      "pos": "ad",
+      "glossZh": "向家；回家方向",
+      "glossEn": "toward home",
+      "domain": "general",
+      "etymology": "home + -ward",
+      "derivation": [
+        "home（家） + ward（副词后缀） → homeward"
+      ],
+      "cognates": [
+        "homeward",
+        "backward"
+      ],
+      "example": "We turned homeward before the storm.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "human",
+      "parts": [
+        "hum",
+        "an"
+      ],
+      "pos": "a",
+      "glossZh": "人的；人类的",
+      "glossEn": "of people",
+      "domain": "general",
+      "etymology": "拉丁 humanus < homo 'man'",
+      "derivation": [
+        "hum（土、地） + an（形容词/名词后缀） → human"
+      ],
+      "cognates": [
+        "humanity",
+        "inhuman"
+      ],
+      "example": "The human cost of the delay was high.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "hydrogel",
+      "parts": [
+        "hydro",
+        "gel"
+      ],
+      "pos": "n",
+      "glossZh": "水凝胶",
+      "glossEn": "a gel that holds water",
+      "domain": "general",
+      "etymology": "hydro- + gel",
+      "derivation": [
+        "hydro（水） + gel（凝胶） → hydrogel"
+      ],
+      "cognates": [
+        "hydrogen",
+        "gelatin"
+      ],
+      "example": "The wound was covered with a clear hydrogel.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "hyperactive",
+      "parts": [
+        "hyper",
+        "act",
+        "ive"
+      ],
+      "pos": "a",
+      "glossZh": "过度活跃的",
+      "glossEn": "abnormally active",
+      "domain": "general",
+      "etymology": "hyper- + active",
+      "derivation": [
+        "hyper（超出） + act（做、驱动） + ive（形容词后缀） → hyperactive"
+      ],
+      "cognates": [
+        "active",
+        "hyper"
+      ],
+      "example": "The child was hyperactive after the sweets.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "hyperlink",
+      "parts": [
+        "hyper",
+        "link"
+      ],
+      "pos": "n",
+      "glossZh": "超链接",
+      "glossEn": "a link to another location",
+      "domain": "general",
+      "etymology": "hyper- + link",
+      "derivation": [
+        "hyper（超出） + link（链接） → hyperlink"
+      ],
+      "cognates": [
+        "link",
+        "hyperlink"
+      ],
+      "example": "Click the hyperlink to open the source.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "hyperspectral",
+      "parts": [
+        "hyper",
+        "spectr",
+        "al"
+      ],
+      "pos": "a",
+      "glossZh": "高光谱的",
+      "glossEn": "using many narrow spectral bands",
+      "domain": "general",
+      "etymology": "hyper- + spectral",
+      "derivation": [
+        "hyper（超出） + spectr（光谱） + al（形容词后缀） → hyperspectral"
+      ],
+      "cognates": [
+        "spectrum",
+        "spectral"
+      ],
+      "example": "A hyperspectral camera mapped the field.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "inaccurate",
+      "parts": [
+        "in",
+        "ac",
+        "cur",
+        "ate"
+      ],
+      "pos": "a",
+      "glossZh": "不准确的",
+      "glossEn": "not accurate",
+      "domain": "general",
+      "etymology": "in- + accurate",
+      "derivation": [
+        "in（不） + ac（朝向） + cur（关心） + ate（动词/形容词后缀） → inaccurate"
+      ],
+      "cognates": [
+        "accurate",
+        "accuracy"
+      ],
+      "example": "The first report was wildly inaccurate.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "include",
+      "parts": [
+        "in",
+        "clud"
+      ],
+      "pos": "v",
+      "glossZh": "包括",
+      "glossEn": "to contain as a part",
+      "domain": "general",
+      "etymology": "拉丁 includere < in- + claudere 'close'",
+      "derivation": [
+        "in（向内） + clud（关闭） → include（词尾 -e 不构成独立词素）"
+      ],
+      "cognates": [
+        "inclusion",
+        "exclude"
+      ],
+      "example": "The price includes delivery.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "词尾 -e 不构成独立词素"
+    },
+    {
+      "w": "incompatible",
+      "parts": [
+        "in",
+        "com",
+        "pat",
+        "ible"
+      ],
+      "pos": "a",
+      "glossZh": "不兼容的",
+      "glossEn": "unable to work together",
+      "domain": "general",
+      "etymology": "in- + 中世纪拉丁 compatibilis",
+      "derivation": [
+        "in（不） + com（共同） + pat（感受、承受） + ible（能够被……的） → incompatible"
+      ],
+      "cognates": [
+        "compatible",
+        "compatibility"
+      ],
+      "example": "The old driver is incompatible with the new card.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "incomplete",
+      "parts": [
+        "in",
+        "com",
+        "plete"
+      ],
+      "pos": "a",
+      "glossZh": "不完整的",
+      "glossEn": "not complete",
+      "domain": "general",
+      "etymology": "in- + 拉丁 complere 'fill up'",
+      "derivation": [
+        "in（不） + com（共同） + plete（填满） → incomplete"
+      ],
+      "cognates": [
+        "complete",
+        "completion"
+      ],
+      "example": "The file arrived incomplete.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "indebted",
+      "parts": [
+        "in",
+        "debt",
+        "ed"
+      ],
+      "pos": "a",
+      "glossZh": "负债的；感激的",
+      "glossEn": "owing money or gratitude",
+      "domain": "general",
+      "etymology": "in- + debt + -ed",
+      "derivation": [
+        "in-（使……）+ debt（债务）+ ed（形容词化）→ indebted"
+      ],
+      "cognates": [
+        "debt",
+        "debtor"
+      ],
+      "example": "I am indebted to my first teacher.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "inertia",
+      "parts": [
+        "inert",
+        "ia"
+      ],
+      "pos": "n",
+      "glossZh": "惯性；惰性",
+      "glossEn": "resistance to change in motion",
+      "domain": "general",
+      "etymology": "拉丁 inertia < iners 'idle'",
+      "derivation": [
+        "inert（无活力的） + ia（名词后缀） → inertia"
+      ],
+      "cognates": [
+        "inert",
+        "inertial"
+      ],
+      "example": "The flywheel stores energy through inertia.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "inertially",
+      "parts": [
+        "inertial",
+        "ly"
+      ],
+      "pos": "ad",
+      "glossZh": "按惯性地",
+      "glossEn": "by means of inertia",
+      "domain": "general",
+      "etymology": "inertial + -ly",
+      "derivation": [
+        "inertial（惯性的） + ly（副词后缀） → inertially"
+      ],
+      "cognates": [
+        "inertia",
+        "inertial"
+      ],
+      "example": "The platform is inertially stabilised.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "infrared",
+      "parts": [
+        "infra",
+        "red"
+      ],
+      "pos": "a",
+      "glossZh": "红外的",
+      "glossEn": "below red in the spectrum",
+      "domain": "general",
+      "etymology": "infra- 'below' + red",
+      "derivation": [
+        "infra（在下方） + red（红） → infrared"
+      ],
+      "cognates": [
+        "ultraviolet",
+        "red"
+      ],
+      "example": "The remote control uses an infrared beam.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "infrasonic",
+      "parts": [
+        "infra",
+        "son",
+        "ic"
+      ],
+      "pos": "a",
+      "glossZh": "次声的",
+      "glossEn": "below the range of hearing",
+      "domain": "general",
+      "etymology": "infra- + 拉丁 sonus 'sound' + -ic",
+      "derivation": [
+        "infra（在下方） + son（声音） + ic（形容词后缀） → infrasonic"
+      ],
+      "cognates": [
+        "supersonic",
+        "sonic"
+      ],
+      "example": "Elephants communicate at infrasonic frequencies.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "initially",
+      "parts": [
+        "initial",
+        "ly"
+      ],
+      "pos": "ad",
+      "glossZh": "最初",
+      "glossEn": "at the beginning",
+      "domain": "general",
+      "etymology": "initial + -ly",
+      "derivation": [
+        "initial（开始的） + ly（副词后缀） → initially"
+      ],
+      "cognates": [
+        "initial",
+        "initiate"
+      ],
+      "example": "Initially the plan looked too costly.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "initiate",
+      "parts": [
+        "init",
+        "iate"
+      ],
+      "pos": "v",
+      "glossZh": "开始；发起",
+      "glossEn": "to begin; to admit into a group",
+      "domain": "general",
+      "etymology": "拉丁 initiare < initium 'beginning'",
+      "derivation": [
+        "init（开始） + iate（动词后缀） → initiate"
+      ],
+      "cognates": [
+        "initial",
+        "initiative"
+      ],
+      "example": "They will initiate the survey next month.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "initiation",
+      "parts": [
+        "init",
+        "iation"
+      ],
+      "pos": "n",
+      "glossZh": "开始；入会仪式",
+      "glossEn": "the act of beginning",
+      "domain": "general",
+      "etymology": "拉丁 initiatio",
+      "derivation": [
+        "init（开始） + iation（名词后缀） → initiation"
+      ],
+      "cognates": [
+        "initiate",
+        "initial"
+      ],
+      "example": "The initiation of the trial took a year.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "initiative",
+      "parts": [
+        "init",
+        "iative"
+      ],
+      "pos": "n",
+      "glossZh": "主动性；倡议",
+      "glossEn": "the ability to act first; a new plan",
+      "domain": "general",
+      "etymology": "拉丁 initiare + -ive",
+      "derivation": [
+        "init（开始） + iative（形容词后缀） → initiative"
+      ],
+      "cognates": [
+        "initiate",
+        "initial"
+      ],
+      "example": "She took the initiative and called the supplier.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "insist",
+      "parts": [
+        "in",
+        "sist"
+      ],
+      "pos": "v",
+      "glossZh": "坚持",
+      "glossEn": "to demand or maintain firmly",
+      "domain": "general",
+      "etymology": "拉丁 insistere < in- + sistere 'stand'",
+      "derivation": [
+        "in（向内、加强） + sist（站立） → insist"
+      ],
+      "cognates": [
+        "insistent",
+        "consist"
+      ],
+      "example": "He will insist on paying for dinner.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "interesting",
+      "parts": [
+        "interest",
+        "ing"
+      ],
+      "pos": "a",
+      "glossZh": "有趣的",
+      "glossEn": "holding attention",
+      "domain": "general",
+      "etymology": "interest + -ing",
+      "derivation": [
+        "interest（兴趣） + ing（屈折/派生后缀） → interesting"
+      ],
+      "cognates": [
+        "interest",
+        "interested"
+      ],
+      "example": "The lecture was more interesting than I expected.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "intermittent",
+      "parts": [
+        "inter",
+        "mitt",
+        "ent"
+      ],
+      "pos": "a",
+      "glossZh": "间歇的",
+      "glossEn": "stopping and starting",
+      "domain": "general",
+      "etymology": "拉丁 intermittens < inter- + mittere 'send'",
+      "derivation": [
+        "inter（在……之间） + mitt（送） + ent（形容词/名词后缀） → intermittent"
+      ],
+      "cognates": [
+        "intermission",
+        "transmit"
+      ],
+      "example": "Intermittent rain fell all afternoon.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "intracellular",
+      "parts": [
+        "intra",
+        "cell",
+        "ular"
+      ],
+      "pos": "a",
+      "glossZh": "细胞内的",
+      "glossEn": "inside a cell",
+      "domain": "general",
+      "etymology": "intra- + cell + -ular",
+      "derivation": [
+        "intra（在内部） + cell（细胞） + ular（形容词后缀） → intracellular"
+      ],
+      "cognates": [
+        "cell",
+        "cellular"
+      ],
+      "example": "The dye marks intracellular calcium.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "intranet",
+      "parts": [
+        "intra",
+        "net"
+      ],
+      "pos": "n",
+      "glossZh": "内联网",
+      "glossEn": "a private network inside an organisation",
+      "domain": "general",
+      "etymology": "intra- + net",
+      "derivation": [
+        "intra（在内部） + net（网络） → intranet"
+      ],
+      "cognates": [
+        "internet",
+        "network"
+      ],
+      "example": "The handbook is only on the company intranet.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "intravenous",
+      "parts": [
+        "intra",
+        "ven",
+        "ous"
+      ],
+      "pos": "a",
+      "glossZh": "静脉内的",
+      "glossEn": "into a vein",
+      "domain": "general",
+      "etymology": "intra- + 拉丁 vena 'vein' + -ous",
+      "derivation": [
+        "intra（在内部） + ven（来） + ous（形容词后缀） → intravenous"
+      ],
+      "cognates": [
+        "vein",
+        "intravenous"
+      ],
+      "example": "The patient received intravenous fluids.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "introvert",
+      "parts": [
+        "intro",
+        "vert"
+      ],
+      "pos": "n",
+      "glossZh": "内向的人",
+      "glossEn": "a person who turns inward",
+      "domain": "general",
+      "etymology": "intro- + 拉丁 vertere 'turn'",
+      "derivation": [
+        "intro（在内部） + vert（转） → introvert"
+      ],
+      "cognates": [
+        "extrovert",
+        "convert"
+      ],
+      "example": "As an introvert, he avoided the party.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "irrelevant",
+      "parts": [
+        "ir",
+        "relevant"
+      ],
+      "pos": "a",
+      "glossZh": "无关的",
+      "glossEn": "not connected to the matter",
+      "domain": "general",
+      "etymology": "ir- + relevant",
+      "derivation": [
+        "ir（不） + relevant（相关的） → irrelevant"
+      ],
+      "cognates": [
+        "relevant",
+        "relevance"
+      ],
+      "example": "His comment was clever but irrelevant.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "irreplaceable",
+      "parts": [
+        "ir",
+        "replace",
+        "able"
+      ],
+      "pos": "a",
+      "glossZh": "不可替代的",
+      "glossEn": "impossible to replace",
+      "domain": "general",
+      "etymology": "ir- + replace + -able",
+      "derivation": [
+        "ir（不） + replace（替换） + able（能够被……的） → irreplaceable"
+      ],
+      "cognates": [
+        "replace",
+        "replaceable"
+      ],
+      "example": "The old bridge is irreplaceable.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "islander",
+      "parts": [
+        "island",
+        "er"
+      ],
+      "pos": "n",
+      "glossZh": "岛民",
+      "glossEn": "a person who lives on an island",
+      "domain": "general",
+      "etymology": "island + -er",
+      "derivation": [
+        "island（岛） + er（名词后缀） → islander"
+      ],
+      "cognates": [
+        "island",
+        "islands"
+      ],
+      "example": "Every islander knows the tide tables.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "islands",
+      "parts": [
+        "island",
+        "s"
+      ],
+      "pos": "n",
+      "glossZh": "岛屿（复数）",
+      "glossEn": "plural of island",
+      "domain": "general",
+      "etymology": "island + -s",
+      "derivation": [
+        "island（岛） + s（屈折后缀） → islands"
+      ],
+      "cognates": [
+        "island",
+        "islander"
+      ],
+      "example": "The bay holds three small islands.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "kindly",
+      "parts": [
+        "kind",
+        "ly"
+      ],
+      "pos": "ad",
+      "glossZh": "友善地",
+      "glossEn": "in a kind way",
+      "domain": "general",
+      "etymology": "kind + -ly",
+      "derivation": [
+        "kind（善良的） + ly（副词后缀） → kindly"
+      ],
+      "cognates": [
+        "kind",
+        "kindness"
+      ],
+      "example": "She kindly carried the box upstairs.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "lasers",
+      "parts": [
+        "laser",
+        "s"
+      ],
+      "pos": "n",
+      "glossZh": "激光（复数）",
+      "glossEn": "plural of laser",
+      "domain": "general",
+      "etymology": "laser（light amplification by stimulated emission of radiation 的首字母缩略）+ -s",
+      "derivation": [
+        "laser（激光） + s（屈折后缀） → lasers"
+      ],
+      "cognates": [
+        "laser",
+        "maser"
+      ],
+      "example": "The lab uses two lasers for the test.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "legality",
+      "parts": [
+        "legal",
+        "ity"
+      ],
+      "pos": "n",
+      "glossZh": "合法性",
+      "glossEn": "the state of being legal",
+      "domain": "general",
+      "etymology": "拉丁 legalis + -ity",
+      "derivation": [
+        "legal（法律的） + ity（名词后缀） → legality"
+      ],
+      "cognates": [
+        "legal",
+        "legalize"
+      ],
+      "example": "The court questioned the legality of the search.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "legalize",
+      "parts": [
+        "legal",
+        "ize"
+      ],
+      "pos": "v",
+      "glossZh": "使合法化",
+      "glossEn": "to make legal",
+      "domain": "general",
+      "etymology": "legal + -ize",
+      "derivation": [
+        "legal（法律的） + ize（动词后缀） → legalize"
+      ],
+      "cognates": [
+        "legal",
+        "legality"
+      ],
+      "example": "The state voted to legalize the drug.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "likewise",
+      "parts": [
+        "like",
+        "wise"
+      ],
+      "pos": "ad",
+      "glossZh": "同样地",
+      "glossEn": "in the same way",
+      "domain": "general",
+      "etymology": "like + -wise（方式）",
+      "derivation": [
+        "like（相似） + wise（副词后缀） → likewise"
+      ],
+      "cognates": [
+        "otherwise",
+        "clockwise"
+      ],
+      "example": "He refused, and I did likewise.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "limitation",
+      "parts": [
+        "limit",
+        "ation"
+      ],
+      "pos": "n",
+      "glossZh": "限制；局限",
+      "glossEn": "a restriction",
+      "domain": "general",
+      "etymology": "limit + -ation",
+      "derivation": [
+        "limit（限制） + ation（名词后缀） → limitation"
+      ],
+      "cognates": [
+        "limit",
+        "limited"
+      ],
+      "example": "The study has one obvious limitation.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "limited",
+      "parts": [
+        "limit",
+        "ed"
+      ],
+      "pos": "a",
+      "glossZh": "有限的",
+      "glossEn": "restricted in amount",
+      "domain": "general",
+      "etymology": "limit + -ed",
+      "derivation": [
+        "limit（限制） + ed（屈折后缀） → limited"
+      ],
+      "cognates": [
+        "limit",
+        "limitation"
+      ],
+      "example": "We have limited time for questions.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "localise",
+      "parts": [
+        "loc",
+        "al",
+        "ise"
+      ],
+      "pos": "v",
+      "glossZh": "使局部化；定位",
+      "glossEn": "to restrict to a place; to locate",
+      "domain": "general",
+      "etymology": "local + -ise（英式）",
+      "derivation": [
+        "loc（地方） + al（形容词后缀） + ise（动词后缀） → localise"
+      ],
+      "cognates": [
+        "local",
+        "localize"
+      ],
+      "example": "Engineers localise the fault by ear.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "localize",
+      "parts": [
+        "loc",
+        "al",
+        "ize"
+      ],
+      "pos": "v",
+      "glossZh": "使局部化；定位",
+      "glossEn": "to restrict to a place; to locate",
+      "domain": "general",
+      "etymology": "local + -ize",
+      "derivation": [
+        "loc（地方） + al（形容词后缀） + ize（动词后缀） → localize"
+      ],
+      "cognates": [
+        "local",
+        "localise"
+      ],
+      "example": "The software can localize the leak.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "locomotive",
+      "parts": [
+        "loc",
+        "o",
+        "mot",
+        "ive"
+      ],
+      "pos": "n",
+      "glossZh": "机车；火车头",
+      "glossEn": "a railway engine",
+      "domain": "general",
+      "etymology": "拉丁 loco 'from a place' + motivus 'moving'",
+      "derivation": [
+        "loc（地方） + o（连接元音） + mot（动） + ive（形容词后缀） → locomotive"
+      ],
+      "cognates": [
+        "motion",
+        "motive"
+      ],
+      "example": "The old locomotive still runs on Sundays.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "logical",
+      "parts": [
+        "log",
+        "ical"
+      ],
+      "pos": "a",
+      "glossZh": "合乎逻辑的",
+      "glossEn": "following clear reasoning",
+      "domain": "general",
+      "etymology": "希腊 logos 'word, reason' + -ical",
+      "derivation": [
+        "log（言、理） + ical（形容词后缀） → logical"
+      ],
+      "cognates": [
+        "logic",
+        "analogy"
+      ],
+      "example": "That is the only logical conclusion.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "log 在此为“言、理”义，与 leg“法”同源异体"
+    },
+    {
+      "w": "macrocosm",
+      "parts": [
+        "macro",
+        "cosm"
+      ],
+      "pos": "n",
+      "glossZh": "宏观世界；大宇宙",
+      "glossEn": "the universe as a whole",
+      "domain": "general",
+      "etymology": "macro- + 希腊 kosmos 'world'",
+      "derivation": [
+        "macro（宏大） + cosm（宇宙） → macrocosm"
+      ],
+      "cognates": [
+        "microcosm",
+        "cosmos"
+      ],
+      "example": "The city is a macrocosm of the office.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "macroeconomics",
+      "parts": [
+        "macro",
+        "eco",
+        "nom",
+        "ics"
+      ],
+      "pos": "n",
+      "glossZh": "宏观经济学",
+      "glossEn": "the study of whole economies",
+      "domain": "general",
+      "etymology": "macro- + economics",
+      "derivation": [
+        "macro（宏大） + eco（家、环境） + nom（法则、规律） + ics（学科名称后缀） → macroeconomics"
+      ],
+      "cognates": [
+        "economics",
+        "microeconomics"
+      ],
+      "example": "She teaches macroeconomics to first years.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "macroscopic",
+      "parts": [
+        "macro",
+        "scop",
+        "ic"
+      ],
+      "pos": "a",
+      "glossZh": "宏观的",
+      "glossEn": "visible to the naked eye",
+      "domain": "general",
+      "etymology": "macro- + 希腊 skopein 'look' + -ic",
+      "derivation": [
+        "macro（宏大） + scop（看） + ic（形容词后缀） → macroscopic"
+      ],
+      "cognates": [
+        "microscopic",
+        "endoscope"
+      ],
+      "example": "The crack is macroscopic but harmless.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "maintain",
+      "parts": [
+        "main",
+        "tain"
+      ],
+      "pos": "v",
+      "glossZh": "维持；保养",
+      "glossEn": "to keep in good condition; to assert",
+      "domain": "general",
+      "etymology": "古法语 maintenir < 拉丁 manu tenere 'hold in hand'",
+      "derivation": [
+        "main（手） + tain（握持、保持） → maintain"
+      ],
+      "cognates": [
+        "maintenance",
+        "retain"
+      ],
+      "example": "They maintain the boilers twice a year.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "main < manu“手”"
+    },
+    {
+      "w": "manageable",
+      "parts": [
+        "manage",
+        "able"
+      ],
+      "pos": "a",
+      "glossZh": "可管理的；易对付的",
+      "glossEn": "able to be managed",
+      "domain": "general",
+      "etymology": "manage + -able",
+      "derivation": [
+        "manage（管理、操控） + able（能够被……的） → manageable"
+      ],
+      "cognates": [
+        "manage",
+        "management"
+      ],
+      "example": "The workload is manageable if we plan.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "去 e 加 -able"
+    },
+    {
+      "w": "management",
+      "parts": [
+        "manage",
+        "ment"
+      ],
+      "pos": "n",
+      "glossZh": "管理；管理层",
+      "glossEn": "the process of managing",
+      "domain": "general",
+      "etymology": "manage + -ment",
+      "derivation": [
+        "manage（管理、操控） + ment（名词后缀） → management"
+      ],
+      "cognates": [
+        "manage",
+        "manager"
+      ],
+      "example": "Management approved the new rota.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "去 e 加 -ment"
+    },
+    {
+      "w": "manipulate",
+      "parts": [
+        "manipul",
+        "ate"
+      ],
+      "pos": "v",
+      "glossZh": "操纵；操作",
+      "glossEn": "to handle skilfully; to influence unfairly",
+      "domain": "general",
+      "etymology": "拉丁 manipulus 'handful' < manus 'hand'",
+      "derivation": [
+        "manipul（一把） + ate（动词/形容词后缀） → manipulate"
+      ],
+      "cognates": [
+        "manual",
+        "manuscript"
+      ],
+      "example": "Do not let anyone manipulate the results.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "mechanism",
+      "parts": [
+        "mechan",
+        "ism"
+      ],
+      "pos": "n",
+      "glossZh": "机制；机械装置",
+      "glossEn": "a system of moving parts; a process",
+      "domain": "general",
+      "etymology": "希腊 mekhane 'machine' + -ism",
+      "derivation": [
+        "mechan（机械、装置） + ism（名词后缀） → mechanism"
+      ],
+      "cognates": [
+        "machine",
+        "mechanic"
+      ],
+      "example": "The locking mechanism jammed again.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "menstrual",
+      "parts": [
+        "menstru",
+        "al"
+      ],
+      "pos": "a",
+      "glossZh": "月经的",
+      "glossEn": "relating to menstruation",
+      "domain": "general",
+      "etymology": "拉丁 menstruus < mensis 'month'",
+      "derivation": [
+        "menstru（每月的） + al（形容词后缀） → menstrual"
+      ],
+      "cognates": [
+        "month",
+        "menstruation"
+      ],
+      "example": "The app tracks the menstrual cycle.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "microprocessor",
+      "parts": [
+        "micro",
+        "process",
+        "or"
+      ],
+      "pos": "n",
+      "glossZh": "微处理器",
+      "glossEn": "a small chip that runs a computer",
+      "domain": "general",
+      "etymology": "micro- + processor",
+      "derivation": [
+        "micro（微小） + process（进程） + or（施动者） → microprocessor"
+      ],
+      "cognates": [
+        "processor",
+        "computer"
+      ],
+      "example": "The board carries a 32-bit microprocessor.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "microscopy",
+      "parts": [
+        "micro",
+        "scopy"
+      ],
+      "pos": "n",
+      "glossZh": "显微术",
+      "glossEn": "the use of microscopes",
+      "domain": "general",
+      "etymology": "micro- + -scopy",
+      "derivation": [
+        "micro（微小） + scopy（观察术） → microscopy"
+      ],
+      "cognates": [
+        "microscope",
+        "microscopic"
+      ],
+      "example": "Electron microscopy revealed the pores.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "microsecond",
+      "parts": [
+        "micro",
+        "second"
+      ],
+      "pos": "n",
+      "glossZh": "微秒",
+      "glossEn": "one millionth of a second",
+      "domain": "general",
+      "etymology": "micro- + second",
+      "derivation": [
+        "micro（微小） + second（秒） → microsecond"
+      ],
+      "cognates": [
+        "millisecond",
+        "nanosecond"
+      ],
+      "example": "The switch reacts in a microsecond.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "misalign",
+      "parts": [
+        "mis",
+        "align"
+      ],
+      "pos": "v",
+      "glossZh": "使错位",
+      "glossEn": "to align wrongly",
+      "domain": "general",
+      "etymology": "mis- + align",
+      "derivation": [
+        "mis（错误地） + align（对齐） → misalign"
+      ],
+      "cognates": [
+        "align",
+        "alignment"
+      ],
+      "example": "One gear can misalign the whole train.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "mistake",
+      "parts": [
+        "mis",
+        "take"
+      ],
+      "pos": "n",
+      "glossZh": "错误",
+      "glossEn": "an error",
+      "domain": "general",
+      "etymology": "古诺斯 mistaka 'take wrongly'",
+      "derivation": [
+        "mis（错误地） + take（拿） → mistake"
+      ],
+      "cognates": [
+        "take",
+        "mistaken"
+      ],
+      "example": "That was a costly mistake.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "mobile",
+      "parts": [
+        "mob",
+        "ile"
+      ],
+      "pos": "a",
+      "glossZh": "移动的；可动的",
+      "glossEn": "able to move",
+      "domain": "general",
+      "etymology": "拉丁 mobilis < movere 'move'",
+      "derivation": [
+        "mob（移动） + ile（形容词后缀） → mobile"
+      ],
+      "cognates": [
+        "mobility",
+        "move"
+      ],
+      "example": "The clinic runs a mobile screening unit.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "modernise",
+      "parts": [
+        "modern",
+        "ise"
+      ],
+      "pos": "v",
+      "glossZh": "使现代化",
+      "glossEn": "to make modern",
+      "domain": "general",
+      "etymology": "modern + -ise（英式）",
+      "derivation": [
+        "modern（现代的） + ise（动词后缀） → modernise"
+      ],
+      "cognates": [
+        "modern",
+        "modernize"
+      ],
+      "example": "The port plans to modernise its cranes.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "modernity",
+      "parts": [
+        "modern",
+        "ity"
+      ],
+      "pos": "n",
+      "glossZh": "现代性",
+      "glossEn": "the quality of being modern",
+      "domain": "general",
+      "etymology": "modern + -ity",
+      "derivation": [
+        "modern（现代的） + ity（名词后缀） → modernity"
+      ],
+      "cognates": [
+        "modern",
+        "modernism"
+      ],
+      "example": "The building mixes tradition with modernity.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "modernize",
+      "parts": [
+        "modern",
+        "ize"
+      ],
+      "pos": "v",
+      "glossZh": "使现代化",
+      "glossEn": "to make modern",
+      "domain": "general",
+      "etymology": "modern + -ize",
+      "derivation": [
+        "modern（现代的） + ize（动词后缀） → modernize"
+      ],
+      "cognates": [
+        "modern",
+        "modernise"
+      ],
+      "example": "They will modernize the heating system.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "monolingual",
+      "parts": [
+        "mono",
+        "lingu",
+        "al"
+      ],
+      "pos": "a",
+      "glossZh": "单语的",
+      "glossEn": "using one language",
+      "domain": "general",
+      "etymology": "mono- + 拉丁 lingua 'tongue' + -al",
+      "derivation": [
+        "mono（单一） + lingu（舌头、语言） + al（形容词后缀） → monolingual"
+      ],
+      "cognates": [
+        "bilingual",
+        "language"
+      ],
+      "example": "The dictionary is aimed at monolingual learners.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "monologue",
+      "parts": [
+        "mono",
+        "logue"
+      ],
+      "pos": "n",
+      "glossZh": "独白",
+      "glossEn": "a long speech by one person",
+      "domain": "general",
+      "etymology": "希腊 monos 'single' + logos 'speech'",
+      "derivation": [
+        "mono（单一） + logue（言、说） → monologue"
+      ],
+      "cognates": [
+        "dialogue",
+        "monopoly"
+      ],
+      "example": "The actor opened with a two-minute monologue.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "monopoly",
+      "parts": [
+        "mono",
+        "poly"
+      ],
+      "pos": "n",
+      "glossZh": "垄断",
+      "glossEn": "exclusive control of a market",
+      "domain": "general",
+      "etymology": "希腊 monopolion < monos 'alone' + polein 'sell'",
+      "derivation": [
+        "mono（单一） + poly（卖，希腊 polein） → monopoly"
+      ],
+      "cognates": [
+        "monologue",
+        "oligopoly"
+      ],
+      "example": "The firm held a monopoly on parts for years.",
+      "verified": false,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ],
+      "note": "poly 在此为希腊 polein“卖”，与 poly-“多”同形异源"
+    },
+    {
+      "w": "multicore",
+      "parts": [
+        "multi",
+        "core"
+      ],
+      "pos": "a",
+      "glossZh": "多核的",
+      "glossEn": "having several processor cores",
+      "domain": "general",
+      "etymology": "multi- + core",
+      "derivation": [
+        "multi（多） + core（核心） → multicore"
+      ],
+      "cognates": [
+        "core",
+        "multimedia"
+      ],
+      "example": "The laptop uses a multicore chip.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "multilingual",
+      "parts": [
+        "multi",
+        "lingu",
+        "al"
+      ],
+      "pos": "a",
+      "glossZh": "多语的",
+      "glossEn": "using several languages",
+      "domain": "general",
+      "etymology": "multi- + 拉丁 lingua + -al",
+      "derivation": [
+        "multi（多） + lingu（舌头、语言） + al（形容词后缀） → multilingual"
+      ],
+      "cognates": [
+        "bilingual",
+        "monolingual"
+      ],
+      "example": "The staff are multilingual and patient.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    },
+    {
+      "w": "multimedia",
+      "parts": [
+        "multi",
+        "media"
+      ],
+      "pos": "n",
+      "glossZh": "多媒体",
+      "glossEn": "text, sound and images together",
+      "domain": "general",
+      "etymology": "multi- + media",
+      "derivation": [
+        "multi（多） + media（媒介） → multimedia"
+      ],
+      "cognates": [
+        "media",
+        "multicultural"
+      ],
+      "example": "The exhibit uses multimedia throughout.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "element examples"
+        },
+        {
+          "id": "G1",
+          "title": "通用英语词典",
+          "detail": "词条释义与词源通识"
+        }
+      ]
+    }
+  ]
+}

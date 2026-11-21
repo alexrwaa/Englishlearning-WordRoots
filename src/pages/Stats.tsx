@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useApp } from '../lib/store';
 import { labelFor, lessons } from '../lib/content';
@@ -8,6 +8,8 @@ import TrendChart, { type TrendPoint } from '../components/stats/TrendChart';
 import BarChart, { type BarDatum } from '../components/stats/BarChart';
 import KindAccuracy, { type KindRow } from '../components/stats/KindAccuracy';
 import WeakList, { type WeakItem } from '../components/stats/WeakList';
+import { db } from '../lib/api';
+import { buildExerciseIndex, buildReport, kindLabel, serializeReport, type LearningReport } from '../lib/learning-report';
 
 const KIND_LABELS: Record<string, string> = {
   mcq: '选择题',
@@ -107,6 +109,27 @@ export default function Stats() {
         })),
     [cards],
   );
+
+  // Personal learning report: real answer times, per-kind accuracy, and the
+  // concepts that collect mistakes. Loaded on demand because the raw rows are
+  // only needed here, and a failed read must not take the page down.
+  const [report, setReport] = useState<LearningReport | null>(null);
+  const [reportError, setReportError] = useState<string | null>(null);
+  useEffect(() => {
+    let alive = true;
+    void db
+      .attempts(2000)
+      .then((rows) => {
+        if (!alive) return;
+        setReport(buildReport(rows, buildExerciseIndex(lessons)));
+      })
+      .catch((error: unknown) => {
+        if (alive) setReportError(error instanceof Error ? error.message : String(error));
+      });
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   const hasData = stats.totals.attempts > 0 || Object.keys(cards).length > 0;
   const totalMinutes = Math.round(stats.totals.totalMinutes);
@@ -215,6 +238,98 @@ export default function Stats() {
             <BarChart bars={reviewBars} unit="次" ariaLabel="近 14 天每日复习次数柱状图" />
             <div className="tiny faint" style={{ marginTop: 10 }}>
               柱高为当天的复习次数；悬停可查看具体日期。
+            </div>
+          </>
+        )}
+      </Panel>
+
+      <SectionHead
+        title="个人学习报告"
+        hint="用真实作答时长与错题分布算出来，不是课标估算；它不是教学效果证据。"
+      />
+      <Panel>
+        {reportError ? (
+          <p className="small" style={{ color: 'var(--danger-ink)' }}>
+            读取答题记录失败：{reportError}。这不等于你没有记录，稍后重试。
+          </p>
+        ) : report === null ? (
+          <p className="small faint">正在读取本机答题记录…</p>
+        ) : report.attempts === 0 ? (
+          <p className="small faint">还没有作答记录。完成一节课的练习后，这里会出现报告。</p>
+        ) : (
+          <>
+            <div className="grid grid-3" style={{ gap: 16 }}>
+              <Stat label="实际作答时长" value={`${report.minutes} 分钟`} hint="按每题用时累加，不含阅读卡片" />
+              <Stat label="作答次数" value={`${report.attempts} 次`} hint={`活跃 ${report.activeDays} 天`} />
+              <Stat
+                label="重复出错"
+                value={`${report.repeated.length} 题`}
+                hint="同一题错 2 次以上，建议优先回顾"
+              />
+            </div>
+
+            {report.byKind.length ? (
+              <div style={{ marginTop: 14 }}>
+                <p className="small faint" style={{ marginBottom: 6 }}>各题型正确率</p>
+                <table className="table">
+                  <thead>
+                    <tr>
+                      <th>题型</th>
+                      <th>作答</th>
+                      <th>正确率</th>
+                      <th>用时</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {report.byKind.map((row) => (
+                      <tr key={row.kind}>
+                        <td>{kindLabel(row.kind)}</td>
+                        <td>{row.attempts}</td>
+                        <td>{Math.round(row.accuracy * 100)}%</td>
+                        <td>{row.minutes} 分钟</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : null}
+
+            {report.weakConcepts.length ? (
+              <div style={{ marginTop: 12 }}>
+                <p className="small faint" style={{ marginBottom: 6 }}>薄弱概念（错 2 次以上）</p>
+                <ul className="list">
+                  {report.weakConcepts.map((row) => (
+                    <li key={row.conceptId}>
+                      <code>{row.conceptId}</code> 错 {row.wrong} / {row.attempts} 次（正确率{' '}
+                      {Math.round(row.accuracy * 100)}%）
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
+
+            <ul className="list small" style={{ marginTop: 12 }}>
+              {report.limitations.map((line) => (
+                <li key={line} className="faint">{line}</li>
+              ))}
+            </ul>
+
+            <div className="row" style={{ gap: 8, marginTop: 10 }}>
+              <Button
+                size="sm"
+                onClick={() => {
+                  const blob = new Blob([serializeReport(report)], { type: 'application/json' });
+                  const url = URL.createObjectURL(blob);
+                  const link = document.createElement('a');
+                  link.href = url;
+                  link.download = `wordroots-learning-report-${Date.now()}.json`;
+                  link.click();
+                  URL.revokeObjectURL(url);
+                }}
+              >
+                导出学习报告
+              </Button>
+              <span className="tiny faint">导出内容含免责声明：分数变化不能归因于课程。</span>
             </div>
           </>
         )}

@@ -177,6 +177,35 @@ if (mismatches.length) {
 
 const APP_VERSION = JSON.parse(readFileSync('package.json', 'utf8')).version;
 
+// --- claim-level assessment (0.11.0) ---------------------------------------
+// A quote about the root's own meaning does not verify the borrowing route or
+// today's structure, so the counts are per claim type. A record without a type
+// would silently default into someone's total, so that is a hard failure.
+const CLAIM_TYPES = [
+  ['root-sense', '古典语词根原始意义'],
+  ['classical-derivation', '古典语内部词形变化与派生'],
+  ['borrowing-path', '从古典语到现代英语的借词路径'],
+  ['modern-structure', '现代英语共时构词结构'],
+  ['modern-sense', '现代英语词义及语义演变'],
+];
+const untagged = [];
+const claimStats = new Map(CLAIM_TYPES.map(([type]) => [type, { evidence: 0, single: 0, cross: 0, conflicting: 0 }]));
+for (const entry of reviews.entries) {
+  for (const record of entry.verification?.records ?? []) {
+    if (!record.claimType) untagged.push(`${entry.id}:${record.entry ?? '?'}`);
+  }
+  const claims = entry.verification?.claims ?? [];
+  for (const claim of claims) {
+    const bucket = claimStats.get(claim.type);
+    if (!bucket) continue;
+    if (claim.status === 'no-evidence') continue;
+    bucket.evidence += 1;
+    if (claim.status === 'single-work') bucket.single += 1;
+    if (claim.status === 'cross-source') bucket.cross += 1;
+    if (claim.status === 'conflicting') bucket.conflicting += 1;
+  }
+}
+
 const docLines = [
     `# 审校证据核查（${APP_VERSION}）`,
     '',
@@ -196,7 +225,19 @@ const docLines = [
     `| unlocated | ${pageStats.unlocated ?? 0} | 有来源但没有可定位的条目/页 |`,
     `| no-citation | ${pageStats['no-citation'] ?? 0} | 没有来源 |`,
     '',
-    '## 四套独立指标（0.10.0）',
+    '## 按主张分类（0.11.0）',
+    '',
+    '| 主张 | 有证据的条目 | 单一来源 | 跨来源 | 冲突 |',
+    '| --- | --- | --- | --- | --- |',
+    ...CLAIM_TYPES.map(([type, label]) => {
+      const row = claimStats.get(type);
+      return `| ${label}（\`${type}\`） | ${row.evidence} | ${row.single} | ${row.cross} | ${row.conflicting} |`;
+    }),
+    '',
+    '同一词条可以在 `root-sense` 上跨来源通过，而 `borrowing-path` 完全没有证据——',
+    '这正是本表存在的理由：两个词典都收了某个词根，不等于整个英语词族已被核验。',
+    '',
+    '## 四套独立指标（0.10.0，保留供比较）',
     '',
     '| 指标 | 条数 | 含义 |',
     '| --- | --- | --- |',
@@ -222,6 +263,12 @@ const docLines = [
     '> 避免"改定义"被读成"进步"。',
     '',
   ];
+
+if (untagged.length) {
+  console.error(`verification records without claimType: ${untagged.slice(0, 5).join(', ')}${untagged.length > 5 ? ' …' : ''}`);
+  console.error('run node scripts/normalize-verification.mjs');
+  process.exit(1);
+}
 
 if (process.argv.includes('--check')) {
   const current = existsSync('docs/REVIEW_AUDIT.md') ? readFileSync('docs/REVIEW_AUDIT.md', 'utf8') : '';

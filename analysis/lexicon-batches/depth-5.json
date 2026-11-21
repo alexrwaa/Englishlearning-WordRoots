@@ -1,0 +1,572 @@
+{
+ "note": "depth pass 5: L4 例词补充",
+ "targets": [
+  {
+   "id": "cx-metr",
+   "words": [
+    "symmetry",
+    "metric"
+   ]
+  },
+  {
+   "id": "cx-milli",
+   "words": [
+    "milligram",
+    "millimeter"
+   ]
+  },
+  {
+   "id": "cx-morph",
+   "words": [
+    "metamorphic",
+    "morphology"
+   ]
+  },
+  {
+   "id": "cx-mult",
+   "words": [
+    "multilateral",
+    "multiple"
+   ]
+  },
+  {
+   "id": "cx-mun",
+   "words": [
+    "communicate",
+    "community"
+   ]
+  },
+  {
+   "id": "cx-nav",
+   "words": [
+    "navigate",
+    "navy"
+   ]
+  },
+  {
+   "id": "cx-nihil-nil",
+   "words": [
+    "annihilate",
+    "nihilism"
+   ]
+  },
+  {
+   "id": "cx-null",
+   "words": [
+    "nullify",
+    "nullity"
+   ]
+  },
+  {
+   "id": "cx-ocul",
+   "words": [
+    "binocular",
+    "ocular"
+   ]
+  },
+  {
+   "id": "cx-odont",
+   "words": [
+    "orthodontist",
+    "periodontal"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "symmetry",
+   "parts": [
+    "sym",
+    "metr",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "balanced correspondence of parts on opposite sides",
+   "glossZh": "对称（性）",
+   "domain": "general",
+   "etymology": "希腊 symmetria < syn-（共同）+ metron（尺度）",
+   "derivation": [
+    "sym（共同）+ metr（尺度）+ -y → 尺度相合"
+   ],
+   "example": "The building's symmetry is best seen from the river.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "metric",
+   "parts": [
+    "metr",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to measurement; based on the metre",
+   "glossZh": "度量的；公制的",
+   "domain": "technical",
+   "etymology": "希腊 metron「尺度」+ -ic",
+   "derivation": [
+    "metr（度量）+ -ic → 关于度量的"
+   ],
+   "example": "The lab reports every figure in metric units.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "milligram",
+   "parts": [
+    "milli",
+    "gram"
+   ],
+   "pos": "n",
+   "glossEn": "one thousandth of a gram",
+   "glossZh": "毫克",
+   "domain": "medical",
+   "etymology": "拉丁 mille「千」+ 法语 gramme「克」",
+   "derivation": [
+    "milli（千分之一）+ gram（克）→ 千分之一克"
+   ],
+   "example": "The tablet contains five milligrams of the drug.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "millimeter",
+   "parts": [
+    "milli",
+    "metr",
+    "er"
+   ],
+   "pos": "n",
+   "glossEn": "one thousandth of a metre",
+   "glossZh": "毫米",
+   "domain": "science",
+   "etymology": "拉丁 mille「千」+ metron「尺度」",
+   "derivation": [
+    "milli（千分之一）+ metr（米）+ -er → 千分之一米"
+   ],
+   "example": "The crack widened by a millimeter each year.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "metamorphic",
+   "parts": [
+    "meta",
+    "morph",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "changed in form, especially rock altered by heat",
+   "glossZh": "变形的；变质（岩）的",
+   "domain": "science",
+   "etymology": "希腊 meta-（转变）+ morphē「形状」+ -ic",
+   "derivation": [
+    "meta（转变）+ morph（形状）+ -ic → 形状改变的"
+   ],
+   "example": "Marble is a metamorphic rock derived from limestone.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "morphology",
+   "parts": [
+    "morph",
+    "o",
+    "logy"
+   ],
+   "pos": "n",
+   "glossEn": "the study of form and structure",
+   "glossZh": "形态学；词法",
+   "domain": "academic",
+   "etymology": "希腊 morphē「形状」+ -logia「学问」",
+   "derivation": [
+    "morph（形状）+ o + logy（学科）→ 研究形态的学问"
+   ],
+   "example": "The course covers the morphology of flowering plants.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "multilateral",
+   "parts": [
+    "mult",
+    "i",
+    "later",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "involving three or more parties or countries",
+   "glossZh": "多边的；多方参与的",
+   "domain": "academic",
+   "etymology": "拉丁 multus「多」+ latus/lateris「边」+ -al",
+   "derivation": [
+    "mult（多）+ i + later（边）+ -al → 多边的"
+   ],
+   "example": "The two sides signed a multilateral trade agreement.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "multiple",
+   "parts": [
+    "mult",
+    "i",
+    "ple"
+   ],
+   "pos": "adj",
+   "glossEn": "consisting of more than one part or instance",
+   "glossZh": "多重的；多个的",
+   "domain": "general",
+   "etymology": "拉丁 multiplex < multus「多」+ plicare（折叠）",
+   "derivation": [
+    "mult（多）+ i + ple（折）→ 折成多层 → 多个的"
+   ],
+   "example": "The report lists multiple causes for the failure.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "communicate",
+   "parts": [
+    "com",
+    "mun",
+    "ic",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "to share information or feelings with others",
+   "glossZh": "交流；传达",
+   "domain": "general",
+   "etymology": "拉丁 communicare「共享、使公共」< communis「共同的」",
+   "derivation": [
+    "com（共同）+ mun（公共服务）+ -ic- + -ate → 使成为共同所有"
+   ],
+   "example": "The two teams communicate mainly by email.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "community",
+   "parts": [
+    "com",
+    "mun",
+    "ity"
+   ],
+   "pos": "n",
+   "glossEn": "a group sharing a place, interest, or identity",
+   "glossZh": "社区；共同体",
+   "domain": "general",
+   "etymology": "拉丁 communitas < communis「共同的」",
+   "derivation": [
+    "com（共同）+ mun（公共负担）+ -ity → 共担义务的一群人"
+   ],
+   "example": "The library is run by the local community.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "navigate",
+   "parts": [
+    "nav",
+    "ig",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "to plan and direct a course, especially at sea",
+   "glossZh": "航行；导航",
+   "domain": "general",
+   "etymology": "拉丁 navigare < navis「船」+ agere（驱动）",
+   "derivation": [
+    "nav（船）+ -ig-（驱动）+ -ate → 驾船前行"
+   ],
+   "example": "They navigated the channel without a pilot.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "navy",
+   "parts": [
+    "nav",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "a country's military force at sea",
+   "glossZh": "海军",
+   "domain": "general",
+   "etymology": "古法语 navie「船队」< 拉丁 navis「船」",
+   "derivation": [
+    "nav（船）+ -y（集合）→ 船队 → 海军"
+   ],
+   "example": "He served in the navy for six years.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "annihilate",
+   "parts": [
+    "an",
+    "nihil",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "to destroy something completely",
+   "glossZh": "彻底消灭；湮灭",
+   "domain": "general",
+   "etymology": "晚期拉丁 annihilare < ad-（向）+ nihil（无）",
+   "derivation": [
+    "an（使…）+ nihil（无）+ -ate → 使化为无"
+   ],
+   "example": "The flood annihilated the lower village.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "nihilism",
+   "parts": [
+    "nihil",
+    "ism"
+   ],
+   "pos": "n",
+   "glossEn": "the belief that nothing has real value or meaning",
+   "glossZh": "虚无主义",
+   "domain": "academic",
+   "etymology": "拉丁 nihil「无」+ -ism",
+   "derivation": [
+    "nihil（无）+ -ism（主义）→ 一切皆无的主张"
+   ],
+   "example": "The novel's ending drifts toward nihilism.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "nullify",
+   "parts": [
+    "null",
+    "ify"
+   ],
+   "pos": "v",
+   "glossEn": "to make legally void or ineffective",
+   "glossZh": "使无效；取消",
+   "domain": "legal",
+   "etymology": "晚期拉丁 nullificare < nullus「无」+ facere（做）",
+   "derivation": [
+    "null（无）+ -ify（使…）→ 使归于无"
+   ],
+   "example": "The court nullified the contract.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "nullity",
+   "parts": [
+    "null",
+    "ity"
+   ],
+   "pos": "n",
+   "glossEn": "the state of being legally void; nothingness",
+   "glossZh": "无效；无价值之物",
+   "domain": "legal",
+   "etymology": "中世纪拉丁 nullitas < nullus「无」",
+   "derivation": [
+    "null（无）+ -ity（性质）→ 无效的状态"
+   ],
+   "example": "The lawyer argued for the nullity of the marriage.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "binocular",
+   "parts": [
+    "bin",
+    "ocul",
+    "ar"
+   ],
+   "pos": "adj",
+   "glossEn": "using both eyes; (n.) an optical instrument for both eyes",
+   "glossZh": "双眼的；双筒望远镜",
+   "domain": "technical",
+   "etymology": "拉丁 bini「两个一组」+ oculus「眼」",
+   "derivation": [
+    "bin（两个一组）+ ocul（眼）+ -ar → 双眼的"
+   ],
+   "example": "Depth perception depends on binocular vision.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "ocular",
+   "parts": [
+    "ocul",
+    "ar"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to the eye or to sight",
+   "glossZh": "眼睛的；视觉的",
+   "domain": "medical",
+   "etymology": "拉丁 ocularis < oculus「眼」",
+   "derivation": [
+    "ocul（眼）+ -ar → 眼的"
+   ],
+   "example": "The infection causes ocular pain and redness.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "orthodontist",
+   "parts": [
+    "orth",
+    "odont",
+    "ist"
+   ],
+   "pos": "n",
+   "glossEn": "a dentist who straightens teeth",
+   "glossZh": "正畸牙医",
+   "domain": "medical",
+   "etymology": "希腊 orthos「直的」+ odous/odontos「牙」+ -ist",
+   "derivation": [
+    "orth（正、直）+ odont（牙）+ -ist → 把牙弄直的人"
+   ],
+   "example": "The orthodontist fitted her with braces.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "periodontal",
+   "parts": [
+    "peri",
+    "odont",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to the tissue around the teeth",
+   "glossZh": "牙周的",
+   "domain": "medical",
+   "etymology": "希腊 peri-（周围）+ odous/odontos「牙」+ -al",
+   "derivation": [
+    "peri（周围）+ odont（牙）+ -al → 牙周围的"
+   ],
+   "example": "Gum disease is a common periodontal problem.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  }
+ ]
+}

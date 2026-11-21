@@ -1,0 +1,547 @@
+{
+ "note": "depth pass 6: L4 例词补充",
+ "targets": [
+  {
+   "id": "cx-olig",
+   "words": [
+    "oligarchy",
+    "oligopoly"
+   ]
+  },
+  {
+   "id": "cx-omn",
+   "words": [
+    "omnipotent",
+    "omnivorous"
+   ]
+  },
+  {
+   "id": "cx-orth",
+   "words": [
+    "orthography",
+    "orthodontist"
+   ]
+  },
+  {
+   "id": "cx-ov",
+   "words": [
+    "ovary",
+    "ovoid"
+   ]
+  },
+  {
+   "id": "cx-pet",
+   "words": [
+    "appetite",
+    "petition"
+   ]
+  },
+  {
+   "id": "cx-phob",
+   "words": [
+    "phobia",
+    "phobic"
+   ]
+  },
+  {
+   "id": "cx-poly",
+   "words": [
+    "polygon",
+    "polyphony"
+   ]
+  },
+  {
+   "id": "cx-the",
+   "words": [
+    "thesis",
+    "antithesis"
+   ]
+  },
+  {
+   "id": "cx-top",
+   "words": [
+    "topical",
+    "topography"
+   ]
+  },
+  {
+   "id": "cx-tri",
+   "words": [
+    "trilogy",
+    "triple"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "oligarchy",
+   "parts": [
+    "olig",
+    "arch",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "rule by a small group of people",
+   "glossZh": "寡头统治",
+   "domain": "academic",
+   "etymology": "希腊 oligos「少」+ arkhein「统治」",
+   "derivation": [
+    "olig（少）+ arch（统治）+ -y → 少数人统治"
+   ],
+   "example": "The country slid from oligarchy into civil war.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "oligopoly",
+   "parts": [
+    "olig",
+    "o",
+    "poly"
+   ],
+   "pos": "n",
+   "glossEn": "a market controlled by a few sellers",
+   "glossZh": "寡头垄断",
+   "domain": "finance",
+   "etymology": "希腊 oligos「少」+ pōlein「卖」",
+   "derivation": [
+    "olig（少）+ o + poly（卖）→ 少数卖家把持市场"
+   ],
+   "example": "Three airlines form an oligopoly on that route.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "omnipotent",
+   "parts": [
+    "omn",
+    "i",
+    "pot",
+    "ent"
+   ],
+   "pos": "adj",
+   "glossEn": "having unlimited power",
+   "glossZh": "全能的",
+   "domain": "general",
+   "etymology": "拉丁 omnis「全部」+ potens「有力量的」",
+   "derivation": [
+    "omn（全）+ i + pot（能力）+ -ent → 无所不能的"
+   ],
+   "example": "The old king was described as almost omnipotent.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "omnivorous",
+   "parts": [
+    "omn",
+    "i",
+    "vor",
+    "ous"
+   ],
+   "pos": "adj",
+   "glossEn": "eating both plants and animals",
+   "glossZh": "杂食的",
+   "domain": "science",
+   "etymology": "拉丁 omnis「全部」+ vorare「吞食」",
+   "derivation": [
+    "omn（全）+ i + vor（吃）+ -ous → 什么都吃的"
+   ],
+   "example": "Rats are omnivorous and adapt to almost any diet.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "orthography",
+   "parts": [
+    "orth",
+    "o",
+    "graph",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "the conventional spelling system of a language",
+   "glossZh": "正字法；拼写体系",
+   "domain": "academic",
+   "etymology": "希腊 orthos「正确的」+ graphein「写」",
+   "derivation": [
+    "orth（正确）+ o + graph（写）+ -y → 正确写法"
+   ],
+   "example": "English orthography preserves many older pronunciations.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "ovary",
+   "parts": [
+    "ov",
+    "ary"
+   ],
+   "pos": "n",
+   "glossEn": "the organ that produces eggs",
+   "glossZh": "卵巢",
+   "domain": "medical",
+   "etymology": "现代拉丁 ovarium < ovum「卵」",
+   "derivation": [
+    "ov（卵）+ -ary（场所）→ 存卵之处"
+   ],
+   "example": "The scan showed a small cyst on the left ovary.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "ovoid",
+   "parts": [
+    "ov",
+    "oid"
+   ],
+   "pos": "adj",
+   "glossEn": "shaped like an egg",
+   "glossZh": "卵形的",
+   "domain": "technical",
+   "etymology": "拉丁 ovum「卵」+ 希腊 -oeidēs「像…的」",
+   "derivation": [
+    "ov（卵）+ -oid（像…的）→ 卵形的"
+   ],
+   "example": "The vessel has an ovoid body and a narrow neck.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "appetite",
+   "parts": [
+    "ap",
+    "pet",
+    "ite"
+   ],
+   "pos": "n",
+   "glossEn": "a natural desire to eat or to have something",
+   "glossZh": "食欲；欲望",
+   "domain": "general",
+   "etymology": "拉丁 appetitus「趋向」< ad-（向）+ petere（寻求）",
+   "derivation": [
+    "ap（向）+ pet（寻求）+ -ite → 向食物伸手"
+   ],
+   "example": "He lost his appetite during the illness.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "petition",
+   "parts": [
+    "pet",
+    "i",
+    "tion"
+   ],
+   "pos": "n",
+   "glossEn": "a formal written request",
+   "glossZh": "请愿书；申请",
+   "domain": "legal",
+   "etymology": "拉丁 petitio < petere「寻求、请求」",
+   "derivation": [
+    "pet（寻求）+ i + -tion（名词）→ 所请求之事"
+   ],
+   "example": "Ten thousand people signed the petition.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "phobia",
+   "parts": [
+    "phob",
+    "ia"
+   ],
+   "pos": "n",
+   "glossEn": "an extreme irrational fear",
+   "glossZh": "恐惧症；畏惧",
+   "domain": "medical",
+   "etymology": "希腊 phobos「恐惧」+ -ia（状态）",
+   "derivation": [
+    "phob（恐惧）+ -ia → 恐惧的状态"
+   ],
+   "example": "He has a phobia about lifts.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "phobic",
+   "parts": [
+    "phob",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to or suffering from a phobia",
+   "glossZh": "恐惧症的；畏忌的",
+   "domain": "medical",
+   "etymology": "希腊 phobos「恐惧」+ -ic",
+   "derivation": [
+    "phob（恐惧）+ -ic → 恐惧的"
+   ],
+   "example": "The reaction was more phobic than rational.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "polygon",
+   "parts": [
+    "poly",
+    "gon"
+   ],
+   "pos": "n",
+   "glossEn": "a closed plane figure with many straight sides",
+   "glossZh": "多边形",
+   "domain": "academic",
+   "etymology": "希腊 polys「多」+ gōnia「角」",
+   "derivation": [
+    "poly（多）+ gon（角）→ 多角的图形"
+   ],
+   "example": "The software fills any closed polygon with colour.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "polyphony",
+   "parts": [
+    "poly",
+    "phon",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "music in which several voices sound together",
+   "glossZh": "复调音乐",
+   "domain": "academic",
+   "etymology": "希腊 polys「多」+ phōnē「声音」",
+   "derivation": [
+    "poly（多）+ phon（声）+ -y → 多声部"
+   ],
+   "example": "The choir specialises in Renaissance polyphony.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "thesis",
+   "parts": [
+    "the",
+    "sis"
+   ],
+   "pos": "n",
+   "glossEn": "a long research paper; a stated position",
+   "glossZh": "论文；论点",
+   "domain": "academic",
+   "etymology": "希腊 thesis「放置、所立之点」< tithenai（放置）",
+   "derivation": [
+    "the（放置）+ -sis（动作）→ 立起来的论点"
+   ],
+   "example": "Her thesis argues that the treaty changed little.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "antithesis",
+   "parts": [
+    "anti",
+    "the",
+    "sis"
+   ],
+   "pos": "n",
+   "glossEn": "the direct opposite of something",
+   "glossZh": "对立面；对照",
+   "domain": "academic",
+   "etymology": "希腊 antithesis < anti-（相反）+ thesis（放置）",
+   "derivation": [
+    "anti（相反）+ the（放置）+ -sis → 放在对立面"
+   ],
+   "example": "The quiet garden is the antithesis of the noisy street.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "topical",
+   "parts": [
+    "top",
+    "ical"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to current affairs; applied to a place",
+   "glossZh": "时事性的；局部的",
+   "domain": "academic",
+   "etymology": "希腊 topos「地方、论题」+ -ical",
+   "derivation": [
+    "top（地方、论题）+ -ical → 与当下话题有关的"
+   ],
+   "example": "The show mixes topical humour with music.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "topography",
+   "parts": [
+    "top",
+    "o",
+    "graph",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "the physical arrangement of surface features",
+   "glossZh": "地形；地形学",
+   "domain": "science",
+   "etymology": "希腊 topos「地方」+ graphein「描写」",
+   "derivation": [
+    "top（地方）+ o + graph（描写）+ -y → 对地面的描写"
+   ],
+   "example": "The topography makes road building expensive here.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "trilogy",
+   "parts": [
+    "tri",
+    "logy"
+   ],
+   "pos": "n",
+   "glossEn": "a set of three related works",
+   "glossZh": "三部曲",
+   "domain": "academic",
+   "etymology": "希腊 tri-（三）+ -logia（作品、言说）",
+   "derivation": [
+    "tri（三）+ logy（作品）→ 三部作品"
+   ],
+   "example": "The director finished his war trilogy last year.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "triple",
+   "parts": [
+    "tri",
+    "ple"
+   ],
+   "pos": "adj",
+   "glossEn": "consisting of three parts; three times as much",
+   "glossZh": "三倍的；三重的",
+   "domain": "general",
+   "etymology": "拉丁 triplus < tri-（三）+ -plus（倍）",
+   "derivation": [
+    "tri（三）+ ple（倍）→ 三倍"
+   ],
+   "example": "Output tripled in a single season.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  }
+ ]
+}

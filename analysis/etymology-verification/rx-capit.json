@@ -1,0 +1,43 @@
+{
+  "morphemeId": "rx-capit",
+  "claim": "capit < 拉丁 caput「头」",
+  "records": [
+    {
+      "word": "capital",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "capital",
+      "url": "https://en.wiktionary.org/w/index.php?title=capital&action=raw",
+      "quote": "borrowed partly from Old French capital and partly from Latin capitālis (in sense “head of cattle”), from caput",
+      "etymon": "caput",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "captain",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "captain",
+      "url": "https://en.wiktionary.org/w/index.php?title=captain&action=raw",
+      "quote": "from Latin capitāneus, from Latin caput 'head'",
+      "etymon": "caput",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "chapter",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "chapter",
+      "url": "https://en.wiktionary.org/w/index.php?title=chapter&action=raw",
+      "quote": "from Latin capitulum 'a chapter of a book, in Medieval Latin also a synod or council', diminutive of caput 'a head'",
+      "etymon": "caput",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "capital / captain / chapter 均给出 caput 'head'，captain 经古法语 capitaine。 词库外旁证条目（仅印证同一词源，不对应词库词条）：chapter。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

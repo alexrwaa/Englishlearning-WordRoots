@@ -322,6 +322,50 @@ pub struct BookmarkRow {
     pub created_at: i64,
 }
 
+/// One answered exercise, for the personal learning report (0.11.0).
+///
+/// The aggregate stats cannot answer "which concepts collect mistakes" or
+/// "which exercise keeps failing", so the raw rows are exposed read-only.
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct AttemptRow {
+    pub lesson_id: String,
+    pub exercise_id: String,
+    pub kind: String,
+    pub correct: bool,
+    pub ts: i64,
+    pub duration_ms: i64,
+    pub answer: Option<String>,
+}
+
+/// Most recent attempts first; the report only needs a window, not the archive.
+pub fn attempts(conn: &Connection, limit: i64) -> Result<Vec<AttemptRow>, String> {
+    let mut stmt = conn
+        .prepare(
+            "SELECT lesson_id, exercise_id, kind, correct, ts, duration_ms, answer
+             FROM attempt ORDER BY ts DESC LIMIT ?1",
+        )
+        .map_err(|e| e.to_string())?;
+    let rows = stmt
+        .query_map([limit], |row| {
+            Ok(AttemptRow {
+                lesson_id: row.get(0)?,
+                exercise_id: row.get(1)?,
+                kind: row.get(2)?,
+                correct: row.get::<_, i64>(3)? != 0,
+                ts: row.get(4)?,
+                duration_ms: row.get(5)?,
+                answer: row.get(6)?,
+            })
+        })
+        .map_err(|e| e.to_string())?;
+    let mut out = Vec::new();
+    for row in rows {
+        out.push(row.map_err(|e| e.to_string())?);
+    }
+    Ok(out)
+}
+
 #[derive(Debug, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]
 pub struct DailyStat {

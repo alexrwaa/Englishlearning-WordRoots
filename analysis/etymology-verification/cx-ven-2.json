@@ -1,0 +1,32 @@
+{
+  "morphemeId": "cx-ven-2",
+  "claim": "ven < 拉丁 vena「血管」（与 venire「来」无关）",
+  "records": [
+    {
+      "word": "vein",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "vein",
+      "url": "https://en.wiktionary.org/w/index.php?title=vein&action=raw",
+      "quote": "from Latin vēna 'a blood-vessel; vein; artery'",
+      "etymon": "vēna",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "venous",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "venous",
+      "url": "https://en.wiktionary.org/w/index.php?title=venous&action=raw",
+      "quote": "borrowing from Latin vēnōsus 'full of veins, veiny'",
+      "etymon": "vēnōsus < vēna",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "vein / venous 均回溯 vēna「血管」；intravenous 词条只有 intra- + venous 的构成式（{{ety|en|:af|intra-|venous}}），无词源段，故未收录。 词库外旁证条目（仅印证同一词源，不对应词库词条）：vein、venous。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

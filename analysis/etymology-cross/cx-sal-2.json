@@ -1,0 +1,28 @@
+{
+  "morphemeId": "cx-sal-2",
+  "latin": "sal",
+  "glossEn": "salt",
+  "records": [
+    {
+      "source": "G2",
+      "work": "A Latin Dictionary (Lewis & Short, 1879)",
+      "headword": "sal",
+      "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+      "line": 547751,
+      "quote": "sal, sal 1 8 (neutr. collat. form ; of the  nom. sale, Enn. ap. GelL 2, 26, \"or Ann.  v. 378 VahL; Varr. ap. Non. 223, 17; also, in  the regular form sometimes neutr. in sing.,  v. infra, 1. ; but plur. always sales, m.f cf.  Neuc, FormenL 1, 697 sq. ; dat. plur.: in-  fusis sails, Fabian, ap. Charis. p. 82 P.), to.-  [root sal-, to stream, flow ; cf. «Ar ;.,perh.-  also found in insula, salixj. I. Lit., salt.",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "entryNote": "Entry head incl. \"root sal-, to stream, flow ... Lit., salt\"."
+    }
+  ],
+  "verdict": "supports",
+  "note": "L&S sal, salis 释义 \"salt\"（另有 salt water/brine 与「机智、风趣」的引申义），与 sal「盐」一致；L&S 给 sal 的词源是 \"root sal-, to stream, flow\"，与 salire「跳」无关，正是词库 homographs 要区分的那组。",
+  "verifier": "ety-cross",
+  "reference": {
+    "source": "G2",
+    "title": "A Latin Dictionary (Lewis & Short, 1879)",
+    "file": "analysis/reference/ls.txt",
+    "lines": 679636,
+    "quoteNote": "quote 为 ls.txt 中按行区间拼接的原文（换行以单个空格代替），未改动任何字符；line 为该区间起始行号（1-based）。`quoteNote` 与 `entryNote` 为人工说明，非原文。"
+  }
+}

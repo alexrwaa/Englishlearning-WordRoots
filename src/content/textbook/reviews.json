@@ -406,10 +406,69 @@
         {
           "id": "S1",
           "detail": "appendix 1, p.268 (ch.1)"
+        },
+        {
+          "id": "G3",
+          "detail": "LSJ (Liddell-Scott-Jones, 9th ed.), s.v. χρόνος: https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott83.xml#L2308"
         }
       ],
       "reviewer": "lead-review",
-      "at": "2026-11-19"
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "",
+        "verdict": "verified",
+        "checkedAt": "2026-11-22",
+        "verifier": "ety-cross",
+        "records": [
+          {
+            "word": "χρόνος",
+            "entry": "χρόνος",
+            "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott83.xml#L2308",
+            "quote": "<i>time</i> in the abstract",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "LSJ 9th ed.",
+            "locator": "entry χρόνος, sense 1 (level 1)",
+            "source": "G3",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "single-work",
+            "works": [
+              "LSJ 9th ed."
+            ],
+            "records": 1
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          }
+        ]
+      }
     },
     {
       "id": "cx-contra-counter",
@@ -1040,6 +1099,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. graphite: https://en.wiktionary.org/w/index.php?title=graphite&action=raw"
+        },
+        {
+          "id": "G3",
+          "detail": "LSJ (Liddell-Scott-Jones, 9th ed.), s.v. γράφω: https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott15.xml#L2632"
         }
       ],
       "reviewer": "ety-verify",
@@ -1057,7 +1120,11 @@
             "quote": "from Ancient Greek γεωγραφία 'a description of the earth', from γῆ 'earth' + γράφω 'write'",
             "etymon": "γράφω",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "topography",
@@ -1066,7 +1133,11 @@
             "quote": "from Ancient Greek τοπογραφία, from τόπος 'place' + γράφω 'to write'",
             "etymon": "γράφω",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "graphite",
@@ -1075,7 +1146,61 @@
             "quote": "Borrowed from German Graphit (A. G. Werner 1789), from Ancient Greek γράφω 'to write'.",
             "etymon": "γράφω",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "borrowing-path",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
+          },
+          {
+            "word": "γράφω",
+            "entry": "γράφω",
+            "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott15.xml#L2632",
+            "quote": "<i>scratch, graze,</i>",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "LSJ 9th ed.",
+            "locator": "entry γράφω, sense I",
+            "source": "G3",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "LSJ 9th ed."
+            ],
+            "records": 3
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 1
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -1378,7 +1503,11 @@
             "quote": "Latin lēgālis 'legal', from lēx 'law'.",
             "etymon": "lēx",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "legend",
@@ -1387,7 +1516,11 @@
             "quote": "from Latin legendus 'things which ought to be read', from lego 'to read'.",
             "etymon": "legere",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "legible",
@@ -1396,7 +1529,11 @@
             "quote": "From Latin legibilis 'that can be read', from Latin legō.",
             "etymon": "legō",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "lex / legere",
@@ -1406,9 +1543,11 @@
             "etymon": "lex / legere",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 359353",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
           },
           {
             "word": "lex / legere",
@@ -1418,9 +1557,46 @@
             "etymon": "lex / legere",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 356729",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 5
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -2289,6 +2465,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. gramophone: https://en.wiktionary.org/w/index.php?title=gramophone&action=raw"
+        },
+        {
+          "id": "G3",
+          "detail": "LSJ (Liddell-Scott-Jones, 9th ed.), s.v. φωνή: https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott81.xml#L2562"
         }
       ],
       "reviewer": "ety-verify",
@@ -2306,7 +2486,11 @@
             "quote": "The suffix -phone is ultimately from Ancient Greek φωνή, and Proto-Indo-European *bʰeh₂-.",
             "etymon": "φωνή",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "modern-structure",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "phoneme",
@@ -2315,7 +2499,11 @@
             "quote": "From Ancient Greek φώνημα 'sound', from φωνέω 'to sound', from φωνή 'sound'.",
             "etymon": "φωνή",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "gramophone",
@@ -2324,7 +2512,61 @@
             "quote": "from Ancient Greek γράμμα 'letter' + φωνή 'sound'.",
             "etymon": "φωνή",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
+          },
+          {
+            "word": "φωνή",
+            "entry": "φωνή",
+            "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott81.xml#L2562",
+            "quote": "<i>sound, tone,</i> prop., <i>the sound of the voice,</i>",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "LSJ 9th ed.",
+            "locator": "entry φωνή, sense 1 (level 1)",
+            "source": "G3",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "LSJ 9th ed."
+            ],
+            "records": 3
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 1
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -2536,10 +2778,69 @@
         {
           "id": "S1",
           "detail": "appendix 1, p.279 (ch.1)"
+        },
+        {
+          "id": "G3",
+          "detail": "LSJ (Liddell-Scott-Jones, 9th ed.), s.v. ψυχή: https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott84.xml#L2085"
         }
       ],
       "reviewer": "review-audit",
-      "at": "2026-11-20"
+      "at": "2026-11-20",
+      "verification": {
+        "claim": "",
+        "verdict": "verified",
+        "checkedAt": "2026-11-22",
+        "verifier": "ety-cross",
+        "records": [
+          {
+            "word": "ψυχή",
+            "entry": "ψυχή",
+            "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott84.xml#L2085",
+            "quote": "<i>departed spirit, ghost</i>",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "LSJ 9th ed.",
+            "locator": "entry ψυχή, sense II (level 2)",
+            "source": "G3",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "single-work",
+            "works": [
+              "LSJ 9th ed."
+            ],
+            "records": 1
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          }
+        ]
+      }
     },
     {
       "id": "cx-pug",
@@ -2698,7 +2999,11 @@
             "quote": "from Latin salārium 'wages', the neuter form of the adjective salārius 'related to salt', from salt.",
             "etymon": "sal",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "saline",
@@ -2707,7 +3012,11 @@
             "quote": "from Medieval Latin salīna and Middle French salin, from Latin sal 'salt'.",
             "etymon": "sal",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "sal",
@@ -2717,9 +3026,46 @@
             "etymon": "sal",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 547751",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 3
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -2932,7 +3278,11 @@
             "quote": "from Latin terrenum, neuter of terrenus, from terra.",
             "etymon": "terra",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "terrestrial",
@@ -2941,7 +3291,11 @@
             "quote": "from terrestre or Latin terrestris, from terra 'land, earth, ground'",
             "etymon": "terra",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "terrace",
@@ -2950,7 +3304,11 @@
             "quote": "from terra 'land'.",
             "etymon": "terra",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "terra",
@@ -2960,9 +3318,46 @@
             "etymon": "terra",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 626920",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 4
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -3142,7 +3537,11 @@
             "quote": "from Latin vēna 'a blood-vessel; vein; artery'",
             "etymon": "vēna",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "venous",
@@ -3151,7 +3550,11 @@
             "quote": "borrowing from Latin vēnōsus 'full of veins, veiny'",
             "etymon": "vēnōsus < vēna",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "vena",
@@ -3161,9 +3564,46 @@
             "etymon": "vena",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 661925",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 3
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -3652,7 +4092,11 @@
             "quote": "from Latin accepto 'receive', frequentative of accipiō, formed from ad- + capiō 'to take'.",
             "etymon": "capiō",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "anticipate",
@@ -3661,7 +4105,11 @@
             "quote": "Latin anticipātus, of anticipō 'to anticipate' (see -ate), from ante-, + capiō 'to take' + -ō.",
             "etymon": "capiō",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "capacity",
@@ -3670,7 +4118,11 @@
             "quote": "from capāx 'able to hold much', from capiō 'to hold, to contain, to take, to understand'.",
             "etymon": "capiō",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "capere",
@@ -3680,9 +4132,46 @@
             "etymon": "capere",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 98264",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 4
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -3726,7 +4215,11 @@
             "quote": "borrowed partly from Old French capital and partly from Latin capitālis (in sense “head of cattle”), from caput",
             "etymon": "caput",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "borrowing-path",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "captain",
@@ -3735,7 +4228,11 @@
             "quote": "from Latin capitāneus, from Latin caput 'head'",
             "etymon": "caput",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "chapter",
@@ -3744,7 +4241,11 @@
             "quote": "from Latin capitulum 'a chapter of a book, in Medieval Latin also a synod or council', diminutive of caput 'a head'",
             "etymon": "caput",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "caput",
@@ -3754,9 +4255,48 @@
             "etymon": "caput",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 100207",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 3
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 1
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -3906,7 +4446,11 @@
             "quote": "from Latin fōrma 'shape, figure, image, outline, plan, mold, frame, case, etc., manner, sort, kind, etc.'",
             "etymon": "fōrma",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "inform",
@@ -3915,7 +4459,11 @@
             "quote": "from Latin īnfōrmō 'to shape, form, train, instruct, educate', from in- 'into' + fōrma 'form, shape'",
             "etymon": "fōrma",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "deform",
@@ -3924,7 +4472,11 @@
             "quote": "from its Latin dēfōrmis, from dē- + fōrma",
             "etymon": "fōrma",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "forma",
@@ -3934,9 +4486,46 @@
             "etymon": "forma",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 263049",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 4
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -4017,7 +4606,11 @@
             "quote": "from Latin dimissus 'sent away, dismissed, banished', perfect passive participle of dīmittō 'send away, dismiss', from mittere.",
             "etymon": "mittere",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "missile",
@@ -4026,7 +4619,11 @@
             "quote": "From Latin missile 'thrown weapon, projectile', neuter of missilis 'throwable, capable of being thrown', from mittere 'to send'.",
             "etymon": "mittere",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "emission",
@@ -4035,7 +4632,11 @@
             "quote": "from Latin ēmissiō 'sending forth', from ēmittō 'send out'",
             "etymon": "mittō",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "missum (part. of mittere)",
@@ -4045,9 +4646,46 @@
             "etymon": "missum (part. of mittere)",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 391436",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 4
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -4096,7 +4734,11 @@
             "quote": "from Latin admittō 'to allow entrance, inlet', from ad- + mittere 'to send'.",
             "etymon": "mittere",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "submit",
@@ -4105,7 +4747,11 @@
             "quote": "from Latin submittere, infinitive of submittō 'place under, yield', from under, from below, up + mitto 'to send'.",
             "etymon": "mitto",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "commit",
@@ -4114,7 +4760,11 @@
             "quote": "from Latin committō 'to bring together, join, compare, commit (a wrong), incur, give in charge, etc.', from com- 'together' + mittō 'to send'.",
             "etymon": "mittō",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "mittere",
@@ -4124,9 +4774,46 @@
             "etymon": "mittere",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 391819",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 4
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -4191,7 +4878,11 @@
             "quote": "from Latin importō, from in, at, on; into + portō 'to carry, bear; convey'",
             "etymon": "portō",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "report",
@@ -4200,7 +4891,11 @@
             "quote": "from Latin reporto 'to carry back, return, remit, refer', from porto.",
             "etymon": "porto",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "porter",
@@ -4209,7 +4904,11 @@
             "quote": "from Latin portātor, from past participle of Latin portō 'portāre'",
             "etymon": "portō",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "portare",
@@ -4219,9 +4918,46 @@
             "etymon": "portare",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 475764",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 4
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -4359,7 +5095,11 @@
             "quote": "From Latin inspectum, past participle of inspicio, inspicere 'to look into', from in + specio, specere 'to look at', equivalent to spect.",
             "etymon": "specere",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "modern-structure",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "expect",
@@ -4368,7 +5108,11 @@
             "quote": "From Latin expectāre, infinitive form of exspectō 'look out for, await, expect', from out + spectō 'look at', of speciō 'see'.",
             "etymon": "speciō / spectō",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "perspective",
@@ -4377,7 +5121,11 @@
             "quote": "from perspectus, the past participle of perspicere 'to inspect, look through', itself from per- 'through' + specere 'to look at'",
             "etymon": "specere",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "specere",
@@ -4387,9 +5135,11 @@
             "etymon": "specere",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 587815",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
           },
           {
             "word": "specere",
@@ -4399,9 +5149,48 @@
             "etymon": "specere",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 587808",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 4
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 1
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -4450,7 +5239,11 @@
             "quote": "from cōnstruō 'to heap together', from com- 'together' + struō 'to heap up, pile'",
             "etymon": "struō",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "structure",
@@ -4459,7 +5252,11 @@
             "quote": "from Latin structūra 'a fitting together, adjustment, building, erection, a building, edifice, structure', from struere",
             "etymon": "struere",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "obstruct",
@@ -4468,7 +5265,11 @@
             "quote": "from verb obstruere, from against + struere 'pile up, build'",
             "etymon": "struere",
             "supports": true,
-            "fetchedAt": "2026-11-21"
+            "fetchedAt": "2026-11-21",
+            "claimType": "root-sense",
+            "work": "Wiktionary",
+            "tz": "Asia/Shanghai",
+            "source": "S5"
           },
           {
             "word": "struere",
@@ -4478,9 +5279,46 @@
             "etymon": "struere",
             "supports": true,
             "fetchedAt": "2026-11-22",
-            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "work": "Lewis & Short 1879",
             "locator": "line 597587",
-            "source": "G2"
+            "source": "G2",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "cross-source",
+            "works": [
+              "Wiktionary",
+              "Lewis & Short 1879"
+            ],
+            "records": 4
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
           }
         ]
       }
@@ -4551,6 +5389,146 @@
       ],
       "reviewer": "review-audit",
       "at": "2026-11-20"
+    },
+    {
+      "id": "cx-logy",
+      "note": "两条记录只支持「log- 出自 λόγος，义为言说/道理」这一层。词库 glossEn「study of」、glossZh「学科、研究」是 19 世纪以后英语 -logy（< 法语 -logie < 拉丁 -logia < 希腊 -λογία）的现代后缀义，LSJ 的 λόγος 条目里没有「学科」这一义项——LSJ 的 λογία 条只写作「λογεία 的晚期拼法」。因此 root-sense 成立、modern-sense 未获证据，不能拿本条记录去支撑「λόγος = 学科」。",
+      "kinds": [
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "G3",
+          "detail": "LSJ (Liddell-Scott-Jones, 9th ed.), s.v. λόγος: https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott44.xml#L5419"
+        }
+      ],
+      "reviewer": "greek-verify",
+      "at": "2026-11-22",
+      "verification": {
+        "claim": "",
+        "verdict": "verified",
+        "checkedAt": "2026-11-22",
+        "verifier": "ety-cross",
+        "records": [
+          {
+            "word": "λόγος",
+            "entry": "λόγος",
+            "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott44.xml#L5419",
+            "quote": "<i>verbal expression</i> or <i>utterance</i>",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "LSJ 9th ed.",
+            "locator": "entry λόγος, sense VI (level 2)",
+            "source": "G3",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "single-work",
+            "works": [
+              "LSJ 9th ed."
+            ],
+            "records": 1
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "cx-metr",
+      "note": "μέτρον 首义「用来量某物的东西」，随即给出「measure, rule」；这正是 -meter/-metry 的语义来源。同条目的 sense II 另有「格律、诗行」义（metre），属同一词的另一支发展，容易与「测量」义混淆，词库释义应只取 sense I。",
+      "kinds": [
+        "etymology"
+      ],
+      "sources": [
+        {
+          "id": "G3",
+          "detail": "LSJ (Liddell-Scott-Jones, 9th ed.), s.v. μέτρον: https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott47.xml#L3868"
+        }
+      ],
+      "reviewer": "greek-verify",
+      "at": "2026-11-22",
+      "verification": {
+        "claim": "",
+        "verdict": "verified",
+        "checkedAt": "2026-11-22",
+        "verifier": "ety-cross",
+        "records": [
+          {
+            "word": "μέτρον",
+            "entry": "μέτρον",
+            "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott47.xml#L3868",
+            "quote": "<i>that by which anything is measured</i>",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "LSJ 9th ed.",
+            "locator": "entry μέτρον, sense 1 (level 1)",
+            "source": "G3",
+            "claimType": "root-sense",
+            "tz": "Asia/Shanghai"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "single-work",
+            "works": [
+              "LSJ 9th ed."
+            ],
+            "records": 1
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-structure",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          }
+        ]
+      }
     }
   ]
 }

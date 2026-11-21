@@ -1,0 +1,44 @@
+{
+  "morphemeId": "cx-graph",
+  "claim": {
+    "type": "root-sense",
+    "text": "graph- 来自希腊语 γράφω，义为「刻、画、写」"
+  },
+  "records": [
+    {
+      "source": "G3",
+      "work": "LSJ (Liddell-Scott-Jones, 9th ed.)",
+      "headword": "γράφω",
+      "locator": "entry γράφω, sense I",
+      "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott15.xml#L2632",
+      "quote": "<i>scratch, graze,</i>",
+      "quoteNormalized": "scratch, graze,",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "tz": "Asia/Shanghai"
+    },
+    {
+      "source": "G3",
+      "work": "LSJ (Liddell-Scott-Jones, 9th ed.)",
+      "headword": "γράφω",
+      "locator": "entry γράφω, sense II",
+      "url": "https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott15.xml#L2632",
+      "quote": "<i>express by written characters, write,</i>",
+      "quoteNormalized": "express by written characters, write,",
+      "supports": true,
+      "fetchedAt": "2026-11-22",
+      "tz": "Asia/Shanghai"
+    }
+  ],
+  "verdict": "supports",
+  "note": "LSJ 的 γράφω 从「抓、刮」起，经 sense I 后半「represent by lines, draw, paint」过渡到 sense II「用文字表达、写」，词库的「刻、写」两义都在条目内。注意词库给的 graphein 是 γράφω 的不定式，词头应写 γράφω；-graph 的英语形态来自法语/拉丁 -graphus，非直接借自 γράφω 的现在时词干，见 borrowing-path 说明。",
+  "quoteNote": "quote 为源文件中的连续原文片段，只保留行内 <i> 斜体标记（LSJ 用斜体排英文对译）；quoteNormalized 为去掉标签与变音符号后的文本。",
+  "coverage": {
+    "root-sense": "supported",
+    "borrowing-path": "not-covered",
+    "classical-derivation": "not-covered",
+    "modern-structure": "not-covered",
+    "modern-sense": "not-covered"
+  },
+  "borrowingPathNote": "LSJ 只证明希腊语内部义项，不证明英语 -graph 的借词链（希腊 → 拉丁 → 法语 → 英语）。仓库内 analysis/etymology-verification/cx-graph.json 已有 3 条 S5（Wiktionary）词条记录可作借词路径旁证，但那是另一批证据，不在本次 LSJ 核验结论内。"
+}

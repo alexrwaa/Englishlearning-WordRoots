@@ -1,0 +1,43 @@
+{
+  "morphemeId": "cx-terr",
+  "claim": "terr < 拉丁 terra「土地」",
+  "records": [
+    {
+      "word": "terrain",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "terrain",
+      "url": "https://en.wiktionary.org/w/index.php?title=terrain&action=raw",
+      "quote": "from Latin terrenum, neuter of terrenus, from terra.",
+      "etymon": "terra",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "terrestrial",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "terrestrial",
+      "url": "https://en.wiktionary.org/w/index.php?title=terrestrial&action=raw",
+      "quote": "from terrestre or Latin terrestris, from terra 'land, earth, ground'",
+      "etymon": "terra",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "terrace",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "terrace",
+      "url": "https://en.wiktionary.org/w/index.php?title=terrace&action=raw",
+      "quote": "from terra 'land'.",
+      "etymon": "terra",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "terra 直接出现在 terrain / terrestrial / terrace；territory 词条只写 territōrium 未回溯 terra，故未采用。 词库外旁证条目（仅印证同一词源，不对应词库词条）：terrestrial、terrace。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

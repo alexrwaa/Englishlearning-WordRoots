@@ -103,6 +103,7 @@ fn main() {
             commands::save_note,
             commands::delete_note,
             commands::load_bookmarks,
+            commands::load_attempts,
             commands::toggle_bookmark,
             commands::assessment_list,
             commands::assessment_save,

@@ -1,0 +1,1362 @@
+{
+  "morphemes": [
+    {
+      "id": "rx-port",
+      "form": "port",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "携带、运送",
+      "glossEn": "carry",
+      "allomorphs": [],
+      "examples": [
+        "transport",
+        "import",
+        "export",
+        "portable",
+        "support"
+      ],
+      "originalForm": "portare",
+      "originalGloss": "to carry",
+      "familyId": "fam-port",
+      "note": "拉丁 portare“携带”。注意 port“港口”来自拉丁 portus，与“携带”同形异源，本族不收。",
+      "rules": [
+        "port 作自由词指“港口”时不属本族",
+        "import/export 的 -port 均为 portare"
+      ],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-im",
+      "form": "im",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "向内；进入",
+      "glossEn": "into",
+      "allomorphs": [
+        "in"
+      ],
+      "examples": [
+        "import",
+        "importer",
+        "importation"
+      ],
+      "originalForm": "in",
+      "originalGloss": "into",
+      "familyId": "fam-port",
+      "note": "in- 在唇音 p/b/m 前的同化形式。与否定前缀 im-（impossible）同形异义。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-sup",
+      "form": "sup",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "在下面",
+      "glossEn": "under",
+      "allomorphs": [
+        "sub"
+      ],
+      "examples": [
+        "support",
+        "supportive",
+        "supporter"
+      ],
+      "originalForm": "sub",
+      "originalGloss": "under",
+      "familyId": "fam-port",
+      "note": "sub- 在 p 前的同化形式，单列以支持 parts 拼写校验；与 px-sub 是同一词素。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-pur",
+      "form": "pur",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "向前；向外",
+      "glossEn": "forward",
+      "allomorphs": [
+        "pro"
+      ],
+      "examples": [
+        "purport",
+        "purported",
+        "purchase"
+      ],
+      "originalForm": "pro",
+      "originalGloss": "forward",
+      "familyId": "fam-port",
+      "note": "pro- 经古法语 por-/pur- 的形式，见于 purport、purchase 等法语借词。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-age",
+      "form": "age",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "名词后缀：行为、费用、集合",
+      "glossEn": "act, cost, collection",
+      "allomorphs": [],
+      "examples": [
+        "portage",
+        "reportage",
+        "storage"
+      ],
+      "originalForm": "-aticum",
+      "originalGloss": "act or charge",
+      "familyId": "fam-port",
+      "note": "拉丁 -aticum 经法语 -age 进入英语，常表行为、费用或集合。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-ee",
+      "form": "ee",
+      "type": "suffix",
+      "origin": "Fr",
+      "glossZh": "被……者；受事者",
+      "glossEn": "one who is ___ed",
+      "allomorphs": [],
+      "examples": [
+        "deportee",
+        "referee",
+        "employee"
+      ],
+      "originalForm": "-é",
+      "originalGloss": "past participle ending",
+      "familyId": "fam-port",
+      "note": "源自古法语 -é（拉丁 -atus），表动作承受者，与 -er/-or 表施动者相反。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-abil",
+      "form": "abil",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "能够被……的（-able 变体）",
+      "glossEn": "able to be ___ed",
+      "allomorphs": [
+        "able",
+        "ible"
+      ],
+      "examples": [
+        "respectability",
+        "portability",
+        "capability"
+      ],
+      "originalForm": "-abilis",
+      "originalGloss": "capable of",
+      "familyId": "fam-port",
+      "note": "-able 接 -ity 时词干作 -abil-：respectable→respectability、portable→portability。单列以支持拼写校验。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "portable",
+      "parts": [
+        "port",
+        "able"
+      ],
+      "pos": "adj",
+      "glossEn": "easy to carry",
+      "glossZh": "便携的",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "拉丁 portabilis < portare（携带）",
+      "derivation": [
+        "port（运送） + able（可…的） → portable"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "portability",
+        "transport"
+      ],
+      "example": "A portable spectrum analyser fits in one case.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "portability",
+      "parts": [
+        "port",
+        "abil",
+        "ity"
+      ],
+      "pos": "n",
+      "glossEn": "ease of carrying",
+      "glossZh": "便携性",
+      "domain": "technical",
+      "family": "fam-port",
+      "etymology": "portable + -ity，-able 变 -abil-",
+      "derivation": [
+        "port（运送） + able（可…的） + ity（名词后缀） → portability；-able + -ity → -ability，拼写变化"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "portable"
+      ],
+      "example": "Portability drove the choice of battery chemistry.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "porter",
+      "parts": [
+        "port",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "one who carries loads",
+      "glossZh": "搬运工；门房",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "拉丁 portarius < portare",
+      "derivation": [
+        "port（运送） + er（者） → porter"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "portable"
+      ],
+      "example": "The porter wheeled the crates to the loading bay.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "export",
+      "parts": [
+        "ex",
+        "port"
+      ],
+      "pos": "v./n.",
+      "glossEn": "send goods abroad",
+      "glossZh": "出口",
+      "domain": "finance",
+      "family": "fam-port",
+      "etymology": "拉丁 exportare < ex-（向外）+ portare（运送）",
+      "derivation": [
+        "ex（向外） + port（运送） → export"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "exporter",
+        "import"
+      ],
+      "example": "The firm exports sensors to twelve countries.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "exporter",
+      "parts": [
+        "ex",
+        "port",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "one who exports",
+      "glossZh": "出口商",
+      "domain": "finance",
+      "family": "fam-port",
+      "etymology": "export + -er",
+      "derivation": [
+        "ex（向外） + port（运送） + er（者） → exporter"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "export"
+      ],
+      "example": "The exporter must attach a customs declaration.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "exportable",
+      "parts": [
+        "ex",
+        "port",
+        "able"
+      ],
+      "pos": "adj",
+      "glossEn": "suitable for export",
+      "glossZh": "可出口的",
+      "domain": "finance",
+      "family": "fam-port",
+      "etymology": "export + -able",
+      "derivation": [
+        "ex（向外） + port（运送） + able（可…的） → exportable"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "export"
+      ],
+      "example": "The design is exportable without modification.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "import",
+      "parts": [
+        "im",
+        "port"
+      ],
+      "pos": "v./n.",
+      "glossEn": "bring goods in",
+      "glossZh": "进口",
+      "domain": "finance",
+      "family": "fam-port",
+      "etymology": "拉丁 importare < in-（向内）+ portare（运送）",
+      "derivation": [
+        "im（向内） + port（运送） → import"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "importer",
+        "export"
+      ],
+      "example": "We import the alloy because local mills cannot cast it.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "importer",
+      "parts": [
+        "im",
+        "port",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "one who imports",
+      "glossZh": "进口商",
+      "domain": "finance",
+      "family": "fam-port",
+      "etymology": "import + -er",
+      "derivation": [
+        "im（向内） + port（运送） + er（者） → importer"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "import"
+      ],
+      "example": "The importer paid the duty at the border.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "importable",
+      "parts": [
+        "im",
+        "port",
+        "able"
+      ],
+      "pos": "adj",
+      "glossEn": "able to be imported",
+      "glossZh": "可进口的",
+      "domain": "finance",
+      "family": "fam-port",
+      "etymology": "import + -able",
+      "derivation": [
+        "im（向内） + port（运送） + able（可…的） → importable"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "import"
+      ],
+      "example": "The seed is importable only with a phytosanitary certificate.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "importation",
+      "parts": [
+        "im",
+        "port",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "act of importing",
+      "glossZh": "进口",
+      "domain": "finance",
+      "family": "fam-port",
+      "etymology": "拉丁 importatio < importare",
+      "derivation": [
+        "im（向内） + port（运送） + ation（名词后缀） → importation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "import"
+      ],
+      "example": "Importation of the reagent was suspended.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "important",
+      "parts": [
+        "im",
+        "port",
+        "ant"
+      ],
+      "pos": "adj",
+      "glossEn": "of great significance",
+      "glossZh": "重要的",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "拉丁 importare（带入）；中世纪拉丁 importans 表“有分量的”",
+      "derivation": [
+        "im（向内） + port（运送） + ant（形容词后缀） → important"
+      ],
+      "semanticShift": "“带入” → 有分量 → 重要",
+      "cognates": [
+        "importance"
+      ],
+      "example": "One important caveat is missing from the summary.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "importance",
+      "parts": [
+        "im",
+        "port",
+        "ance"
+      ],
+      "pos": "n",
+      "glossEn": "significance",
+      "glossZh": "重要性",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "中世纪拉丁 importantia < importans",
+      "derivation": [
+        "im（向内） + port（运送） + ance（名词后缀） → importance"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "important"
+      ],
+      "example": "The importance of the control group was overlooked.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "transport",
+      "parts": [
+        "trans",
+        "port"
+      ],
+      "pos": "v./n.",
+      "glossEn": "carry across",
+      "glossZh": "运输",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "拉丁 transportare < trans-（穿过）+ portare（运送）",
+      "derivation": [
+        "trans（穿过） + port（运送） → transport"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transportation",
+        "transporter"
+      ],
+      "example": "The samples were transported at −20 °C.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "transportation",
+      "parts": [
+        "trans",
+        "port",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "means or act of transport",
+      "glossZh": "运输",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "transport + -ation，17 世纪",
+      "derivation": [
+        "trans（穿过） + port（运送） + ation（名词后缀） → transportation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transport"
+      ],
+      "example": "Public transportation stops running at midnight.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "transporter",
+      "parts": [
+        "trans",
+        "port",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "one that transports; carrier protein",
+      "glossZh": "运输者；转运蛋白",
+      "domain": "technical",
+      "family": "fam-port",
+      "etymology": "transport + -er",
+      "derivation": [
+        "trans（穿过） + port（运送） + er（者） → transporter"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transport"
+      ],
+      "example": "A membrane transporter moves the ion inward.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "transportable",
+      "parts": [
+        "trans",
+        "port",
+        "able"
+      ],
+      "pos": "adj",
+      "glossEn": "able to be moved",
+      "glossZh": "可运输的",
+      "domain": "technical",
+      "family": "fam-port",
+      "etymology": "transport + -able",
+      "derivation": [
+        "trans（穿过） + port（运送） + able（可…的） → transportable"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transport"
+      ],
+      "example": "The unit is transportable by a single truck.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "support",
+      "parts": [
+        "sup",
+        "port"
+      ],
+      "pos": "v./n.",
+      "glossEn": "hold up; assist",
+      "glossZh": "支持；支撑",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "拉丁 supportare < sub-（在下）+ portare（携带）",
+      "derivation": [
+        "sup（在下） + port（运送） → support"
+      ],
+      "semanticShift": "“从下托住” → 支持",
+      "cognates": [
+        "supporter",
+        "supportive"
+      ],
+      "example": "Two steel props support the temporary beam.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "supporter",
+      "parts": [
+        "sup",
+        "port",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "one who supports",
+      "glossZh": "支持者",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "support + -er",
+      "derivation": [
+        "sup（在下） + port（运送） + er（者） → supporter"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "support"
+      ],
+      "example": "The proposal found a supporter on the committee.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "supportive",
+      "parts": [
+        "sup",
+        "port",
+        "ive"
+      ],
+      "pos": "adj",
+      "glossEn": "giving encouragement",
+      "glossZh": "支持的",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "support + -ive",
+      "derivation": [
+        "sup（在下） + port（运送） + ive（形容词后缀） → supportive"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "support"
+      ],
+      "example": "Her supervisor was supportive of the leave request.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "supportable",
+      "parts": [
+        "sup",
+        "port",
+        "able"
+      ],
+      "pos": "adj",
+      "glossEn": "able to be justified or borne",
+      "glossZh": "可支撑的",
+      "domain": "academic",
+      "family": "fam-port",
+      "etymology": "support + -able",
+      "derivation": [
+        "sup（在下） + port（运送） + able（可…的） → supportable"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "support",
+        "insupportable"
+      ],
+      "example": "The claim is supportable only with better data.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "unsupported",
+      "parts": [
+        "un",
+        "sup",
+        "port",
+        "ed"
+      ],
+      "pos": "adj",
+      "glossEn": "not supported",
+      "glossZh": "无支持的",
+      "domain": "technical",
+      "family": "fam-port",
+      "etymology": "un-（不）+ supported",
+      "derivation": [
+        "un（不） + sup（在下） + port（运送） + ed（过去/被动） → unsupported"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "support"
+      ],
+      "example": "An unsupported span of six metres needs a truss.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "insupportable",
+      "parts": [
+        "in",
+        "sup",
+        "port",
+        "able"
+      ],
+      "pos": "adj",
+      "glossEn": "intolerable",
+      "glossZh": "难以忍受的",
+      "domain": "academic",
+      "family": "fam-port",
+      "etymology": "in-（不）+ supportable，16 世纪经法语",
+      "derivation": [
+        "in（不） + sup（在下） + port（运送） + able（可…的） → insupportable"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "supportable"
+      ],
+      "example": "The noise became insupportable after the third shift.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "report",
+      "parts": [
+        "re",
+        "port"
+      ],
+      "pos": "v./n.",
+      "glossEn": "carry back news; account",
+      "glossZh": "报告",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "拉丁 reportare（带回）< re-（回）+ portare（携带）",
+      "derivation": [
+        "re（回） + port（运送） → report"
+      ],
+      "semanticShift": "“把消息带回来” → 报告",
+      "cognates": [
+        "reporter",
+        "reportage"
+      ],
+      "example": "The technician reported a drift in the baseline.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "reporter",
+      "parts": [
+        "re",
+        "port",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "one who reports news",
+      "glossZh": "记者",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "report + -er",
+      "derivation": [
+        "re（回） + port（运送） + er（者） → reporter"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "report"
+      ],
+      "example": "A reporter asked about the delay.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "reportable",
+      "parts": [
+        "re",
+        "port",
+        "able"
+      ],
+      "pos": "adj",
+      "glossEn": "required to be reported",
+      "glossZh": "应报告的",
+      "domain": "legal",
+      "family": "fam-port",
+      "etymology": "report + -able",
+      "derivation": [
+        "re（回） + port（运送） + able（可…的） → reportable"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "report"
+      ],
+      "example": "Any leak above 5 ml is reportable within 24 hours.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "reportage",
+      "parts": [
+        "re",
+        "port",
+        "age"
+      ],
+      "pos": "n",
+      "glossEn": "journalistic reporting",
+      "glossZh": "报道文学",
+      "domain": "academic",
+      "family": "fam-port",
+      "etymology": "report + -age，19 世纪经法语",
+      "derivation": [
+        "re（回） + port（运送） + age（名词后缀） → reportage"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "report"
+      ],
+      "example": "The book blends reportage with oral history.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "deport",
+      "parts": [
+        "de",
+        "port"
+      ],
+      "pos": "v",
+      "glossEn": "expel from a country",
+      "glossZh": "驱逐；放逐",
+      "domain": "legal",
+      "family": "fam-port",
+      "etymology": "拉丁 deportare < de-（离开）+ portare（运送）",
+      "derivation": [
+        "de（去除；离开） + port（运送） → deport"
+      ],
+      "semanticShift": "“带走” → 驱逐",
+      "cognates": [
+        "deportation",
+        "deportee"
+      ],
+      "example": "The court ordered the company to deport the worker.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "deportation",
+      "parts": [
+        "de",
+        "port",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "expulsion from a country",
+      "glossZh": "驱逐出境",
+      "domain": "legal",
+      "family": "fam-port",
+      "etymology": "拉丁 deportatio < deportare",
+      "derivation": [
+        "de（去除；离开） + port（运送） + ation（名词后缀） → deportation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "deport"
+      ],
+      "example": "Deportation proceedings began last month.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "deportee",
+      "parts": [
+        "de",
+        "port",
+        "ee"
+      ],
+      "pos": "n",
+      "glossEn": "one who is deported",
+      "glossZh": "被驱逐者",
+      "domain": "legal",
+      "family": "fam-port",
+      "etymology": "deport + -ee，19 世纪",
+      "derivation": [
+        "de（去除；离开） + port（运送） + ee（受动者） → deportee"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "deport"
+      ],
+      "example": "The deportee was held at the border for two days.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "deportment",
+      "parts": [
+        "de",
+        "port",
+        "ment"
+      ],
+      "pos": "n",
+      "glossEn": "bearing; conduct",
+      "glossZh": "举止",
+      "domain": "academic",
+      "family": "fam-port",
+      "etymology": "法语 déportement < déporter",
+      "derivation": [
+        "de（去除；离开） + port（运送） + ment（名词后缀） → deportment"
+      ],
+      "semanticShift": "“带走自己” → 举止",
+      "cognates": [
+        "deport"
+      ],
+      "example": "His deportment under questioning impressed the board.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "comport",
+      "parts": [
+        "com",
+        "port"
+      ],
+      "pos": "v",
+      "glossEn": "conduct oneself; agree with",
+      "glossZh": "举止；相称",
+      "domain": "academic",
+      "family": "fam-port",
+      "etymology": "拉丁 comportare < com-（共同）+ portare（携带）",
+      "derivation": [
+        "com（共同） + port（运送） → comport"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "comportment"
+      ],
+      "example": "The findings comport with earlier field data.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "comportment",
+      "parts": [
+        "com",
+        "port",
+        "ment"
+      ],
+      "pos": "n",
+      "glossEn": "bearing; behaviour",
+      "glossZh": "举止",
+      "domain": "academic",
+      "family": "fam-port",
+      "etymology": "comport + -ment",
+      "derivation": [
+        "com（共同） + port（运送） + ment（名词后缀） → comportment"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "comport"
+      ],
+      "example": "Her comportment in the lab was always calm.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "purport",
+      "parts": [
+        "pur",
+        "port"
+      ],
+      "pos": "v./n.",
+      "glossEn": "claim to be; main meaning",
+      "glossZh": "声称；主旨",
+      "domain": "academic",
+      "family": "fam-port",
+      "etymology": "盎格鲁-法语 purporter < pro-（向前）+ porter（携带）",
+      "derivation": [
+        "pur（向前） + port（运送） → purport"
+      ],
+      "semanticShift": "“向前带出” → 声称",
+      "cognates": [
+        "purported"
+      ],
+      "example": "The memo purports to explain the delay.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "purported",
+      "parts": [
+        "pur",
+        "port",
+        "ed"
+      ],
+      "pos": "adj",
+      "glossEn": "alleged",
+      "glossZh": "声称的",
+      "domain": "legal",
+      "family": "fam-port",
+      "etymology": "purport + -ed",
+      "derivation": [
+        "pur（向前） + port（运送） + ed（过去/被动） → purported"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "purport"
+      ],
+      "example": "The purported cure has never been tested.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "purportedly",
+      "parts": [
+        "pur",
+        "port",
+        "ed",
+        "ly"
+      ],
+      "pos": "adv",
+      "glossEn": "allegedly",
+      "glossZh": "据称",
+      "domain": "academic",
+      "family": "fam-port",
+      "etymology": "purported + -ly",
+      "derivation": [
+        "pur（向前） + port（运送） + ed（过去/被动） + ly（副词后缀） → purportedly"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "purported"
+      ],
+      "example": "The site was purportedly sealed in 2019.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "teleport",
+      "parts": [
+        "tele",
+        "port"
+      ],
+      "pos": "v",
+      "glossEn": "move instantly across distance",
+      "glossZh": "瞬移",
+      "domain": "technical",
+      "family": "fam-port",
+      "etymology": "tele-（远）+ port（运送），1931 年 Charles Fort 造词",
+      "derivation": [
+        "tele（远） + port（运送） → teleport"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "teleportation"
+      ],
+      "example": "The experiment does not teleport matter, only a quantum state.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "teleportation",
+      "parts": [
+        "tele",
+        "port",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "instant transfer",
+      "glossZh": "瞬移；传态",
+      "domain": "technical",
+      "family": "fam-port",
+      "etymology": "teleport + -ation，20 世纪",
+      "derivation": [
+        "tele（远） + port（运送） + ation（名词后缀） → teleportation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "teleport"
+      ],
+      "example": "Quantum teleportation transfers information, not particles.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "portage",
+      "parts": [
+        "port",
+        "age"
+      ],
+      "pos": "n",
+      "glossEn": "carrying boats over land",
+      "glossZh": "搬运；陆运",
+      "domain": "general",
+      "family": "fam-port",
+      "etymology": "法语 portage < porter（携带）",
+      "derivation": [
+        "port（运送） + age（名词后缀） → portage"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "porter"
+      ],
+      "example": "The crew made a two-mile portage around the rapids.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    }
+  ]
+}

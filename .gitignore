@@ -16,10 +16,22 @@ coverage/
 scripts/morpheme-refs.json
 *.tsbuildinfo
 
-# local textbook analysis workspace (derived from a user-provided EPUB; not redistributed)
-analysis/
-# full-text reference dumps (e.g. Lewis & Short 1879 OCR) are never redistributed
+# Local analysis workspace. The raw material (user-provided EPUB parses, OCR dumps
+# of Lewis & Short, the 32 MB LSJ index) is never redistributed. Our own evidence
+# records ARE tracked: an audit that cannot be re-read after a clone is not an
+# audit.
+analysis/*
+# full-text reference dumps are never redistributed
 analysis/reference/
+analysis/backups/
+analysis/greek-index.json
+analysis/_*.py
+# evidence records and audit summaries are part of the repository
+!analysis/etymology-verification/
+!analysis/etymology-cross/
+!analysis/greek-verification/
+!analysis/lexicon-batches/
+!analysis/textbook/
 
 # scratch output for API probes (never shipped)
 .tmp/

@@ -1,0 +1,43 @@
+{
+  "morphemeId": "rx-port",
+  "claim": "port < 拉丁 portare「携带、运送」",
+  "records": [
+    {
+      "word": "import",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "import",
+      "url": "https://en.wiktionary.org/w/index.php?title=import&action=raw",
+      "quote": "from Latin importō, from in, at, on; into + portō 'to carry, bear; convey'",
+      "etymon": "portō",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "report",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "report",
+      "url": "https://en.wiktionary.org/w/index.php?title=report&action=raw",
+      "quote": "from Latin reporto 'to carry back, return, remit, refer', from porto.",
+      "etymon": "porto",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "porter",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "porter",
+      "url": "https://en.wiktionary.org/w/index.php?title=porter&action=raw",
+      "quote": "from Latin portātor, from past participle of Latin portō 'portāre'",
+      "etymon": "portō",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "import / report / porter 均给出 portāre 'carry'；export 词条仅写 From Latin exportare. 无展开，故未采用。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

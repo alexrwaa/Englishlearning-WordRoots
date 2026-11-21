@@ -1,0 +1,1946 @@
+{
+  "morphemes": [
+    {
+      "id": "rx-fer",
+      "form": "fer",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "携带；承受",
+      "glossEn": "bear, carry",
+      "allomorphs": [
+        "fert"
+      ],
+      "examples": [
+        "confer",
+        "transfer",
+        "fertile"
+      ],
+      "originalForm": "ferre",
+      "originalGloss": "to bear, carry",
+      "familyId": "fam-fer",
+      "note": "拉丁 ferre“带、承受”。fert- 为其分词干，仅用于 fertile 系列；拉丁另有异根补充 lat-/tul-（ferre 的完成分词），英语中不拼作 fer，故不收入本族。",
+      "rules": [
+        "fer 在 -al/-ed 前常双写 r：referral、preferred",
+        "fer 的 -ee 派生表受事：referee、transferee"
+      ],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-ob",
+      "form": "ob",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "对着；朝向",
+      "glossEn": "toward, against",
+      "allomorphs": [
+        "of",
+        "oc",
+        "op"
+      ],
+      "examples": [
+        "offer",
+        "obstruct",
+        "occur"
+      ],
+      "originalForm": "ob",
+      "originalGloss": "toward, against",
+      "familyId": "fam-fer",
+      "note": "拉丁 ob“对着、朝向”。在 f 前同化为 of-：offer < ob+ferre。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-dis",
+      "form": "dis",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "分开；相反",
+      "glossEn": "apart, away",
+      "allomorphs": [
+        "dif",
+        "di"
+      ],
+      "examples": [
+        "differ",
+        "differ",
+        "divide"
+      ],
+      "originalForm": "dis",
+      "originalGloss": "apart",
+      "familyId": "fam-fer",
+      "note": "拉丁 dis“分开”。在 f 前同化为 dif-：differ < dis+ferre。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-sub",
+      "form": "sub",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "在下面",
+      "glossEn": "under",
+      "allomorphs": [
+        "suf",
+        "sup",
+        "sus"
+      ],
+      "examples": [
+        "suffer",
+        "support",
+        "suspect"
+      ],
+      "originalForm": "sub",
+      "originalGloss": "under",
+      "familyId": "fam-fer",
+      "note": "拉丁 sub“在下”。在 f 前同化为 suf-：suffer < sub+ferre。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-ee",
+      "form": "ee",
+      "type": "suffix",
+      "origin": "Fr",
+      "glossZh": "被……者；受事者",
+      "glossEn": "one who is ___ed",
+      "allomorphs": [],
+      "examples": [
+        "referee",
+        "transferee",
+        "employee"
+      ],
+      "originalForm": "-é",
+      "originalGloss": "past participle ending",
+      "familyId": "fam-fer",
+      "note": "源自古法语 -é（拉丁 -atus），与 -er/-or 相反，表动作的承受者：referee 是被请求裁决的人。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-ial",
+      "form": "ial",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "形容词后缀：与……有关",
+      "glossEn": "relating to",
+      "allomorphs": [
+        "al"
+      ],
+      "examples": [
+        "referential",
+        "deferential",
+        "special"
+      ],
+      "originalForm": "-ialis",
+      "originalGloss": "relating to",
+      "familyId": "fam-fer",
+      "note": "-al 的 i- 变体，接在 -ent- 词干后：referential、deferential。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-iate",
+      "form": "iate",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "动词后缀：使……化",
+      "glossEn": "to make, cause",
+      "allomorphs": [],
+      "examples": [
+        "differentiate",
+        "substantiate",
+        "initiate"
+      ],
+      "originalForm": "-iatus",
+      "originalGloss": "verbal suffix",
+      "familyId": "fam-fer",
+      "note": "由连接元音 -i- 加 -ate 构成，多接形容词或名词词干，表“使具有某性质”。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-iation",
+      "form": "iation",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "名词后缀：过程、结果",
+      "glossEn": "process, result",
+      "allomorphs": [],
+      "examples": [
+        "differentiation",
+        "initiation",
+        "substantiation"
+      ],
+      "originalForm": "-iatio",
+      "originalGloss": "noun of action",
+      "familyId": "fam-fer",
+      "note": "-iate 动词的名词形式，-ate + -ion 融合为 -ation，前接 i 时作 -iation。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-ize",
+      "form": "ize",
+      "type": "suffix",
+      "origin": "Gk",
+      "glossZh": "动词后缀：使……化",
+      "glossEn": "to make, to cause",
+      "allomorphs": [
+        "iz",
+        "is"
+      ],
+      "examples": [
+        "fertilize",
+        "formalize",
+        "modernize"
+      ],
+      "originalForm": "-izein",
+      "originalGloss": "to make",
+      "familyId": "fam-fer",
+      "note": "希腊 -izein 经拉丁 -izare 进入英语。加 -er 时 -ize 缩为 -iz-：fertilizer。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-ile",
+      "form": "ile",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "形容词后缀：能……的",
+      "glossEn": "capable of",
+      "allomorphs": [
+        "il"
+      ],
+      "examples": [
+        "fertile",
+        "fragile",
+        "docile"
+      ],
+      "originalForm": "-ilis",
+      "originalGloss": "capable of",
+      "familyId": "fam-fer",
+      "note": "拉丁 -ilis 表能力或倾向。接 -ity 时作 -il-：fertility。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "rx-aqui",
+      "form": "aqui",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "水",
+      "glossEn": "water",
+      "allomorphs": [],
+      "examples": [
+        "aquifer",
+        "aquiculture"
+      ],
+      "originalForm": "aqua",
+      "originalGloss": "water",
+      "familyId": "fam-fer",
+      "note": "拉丁 aqua“水”的连接形式（aqui-），见于地质与生物术语。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "rx-coni",
+      "form": "coni",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "圆锥",
+      "glossEn": "cone",
+      "allomorphs": [],
+      "examples": [
+        "conifer",
+        "coniferous"
+      ],
+      "originalForm": "conus",
+      "originalGloss": "cone",
+      "familyId": "fam-fer",
+      "note": "拉丁 conus“锥体”的连接形式，conifer 字面“结锥果的”。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "rx-voci",
+      "form": "voci",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "声音",
+      "glossEn": "voice",
+      "allomorphs": [],
+      "examples": [
+        "vociferous",
+        "vociferation"
+      ],
+      "originalForm": "vox, vocis",
+      "originalGloss": "voice",
+      "familyId": "fam-fer",
+      "note": "拉丁 vox（属格 vocis）“声音”的连接形式，与 vocal、voice 同源。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "rx-carboni",
+      "form": "carboni",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "碳；煤",
+      "glossEn": "coal, carbon",
+      "allomorphs": [],
+      "examples": [
+        "carboniferous",
+        "carbonize"
+      ],
+      "originalForm": "carbo, carbonis",
+      "originalGloss": "coal",
+      "familyId": "fam-fer",
+      "note": "拉丁 carbo（属格 carbonis）“煤、炭”的连接形式；Carboniferous 指“含煤地层”的地质年代。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "rx-odori",
+      "form": "odori",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "气味",
+      "glossEn": "smell, odor",
+      "allomorphs": [],
+      "examples": [
+        "odoriferous",
+        "odorant"
+      ],
+      "originalForm": "odor",
+      "originalGloss": "smell",
+      "familyId": "fam-fer",
+      "note": "拉丁 odor“气味”的连接形式；odoriferous 字面“携带气味的”。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "rx-proli",
+      "form": "proli",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "后代；子嗣",
+      "glossEn": "offspring",
+      "allomorphs": [],
+      "examples": [
+        "proliferate",
+        "proliferation"
+      ],
+      "originalForm": "proles",
+      "originalGloss": "offspring",
+      "familyId": "fam-fer",
+      "note": "拉丁 proles“后代”的连接形式；proliferate 字面“由后代生出”，19 世纪用于生物学。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "confer",
+      "parts": [
+        "con",
+        "fer"
+      ],
+      "pos": "v",
+      "glossEn": "to grant or bestow; to consult",
+      "glossZh": "授予；商议",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "拉丁 conferre < con-（共同）+ ferre（带）→ 带到一起",
+      "derivation": [
+        "con-（共同）+ fer（带）→ 带到一起→ 商议",
+        "→ 把荣誉带到某人身上→ 授予"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "conference",
+        "conferment"
+      ],
+      "example": "The university will confer an honorary degree on her.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "conference",
+      "parts": [
+        "con",
+        "fer",
+        "ence"
+      ],
+      "pos": "n",
+      "glossEn": "a formal meeting for discussion",
+      "glossZh": "会议；研讨会",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "中世纪拉丁 conferentia < conferre（商议）",
+      "derivation": [
+        "confer（商议）+ -ence（名词后缀）→ 商议的场合"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "confer",
+        "conferencing"
+      ],
+      "example": "The annual conference drew researchers from twelve countries.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "offer",
+      "parts": [
+        "of",
+        "fer"
+      ],
+      "pos": "v./n.",
+      "glossEn": "to present for acceptance; a proposal",
+      "glossZh": "提供；提议",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "古英语 offrian < 拉丁 offerre < ob-（朝向）+ ferre（带）",
+      "derivation": [
+        "ob-→of-（朝向）+ fer（带）→ 带到面前",
+        "→ 呈上、提供"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "offering",
+        "proffer"
+      ],
+      "example": "She offered to review the draft before submission.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "offering",
+      "parts": [
+        "of",
+        "fer",
+        "ing"
+      ],
+      "pos": "n",
+      "glossEn": "something presented as a gift or sacrifice",
+      "glossZh": "供品；提供物",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "古英语 offrung，offer 的名词形式",
+      "derivation": [
+        "offer（献上）+ -ing（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "offer",
+        "offertory"
+      ],
+      "example": "The offering was placed on the altar before dawn.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "proffer",
+      "parts": [
+        "pro",
+        "fer"
+      ],
+      "pos": "v",
+      "glossEn": "to hold out or propose for acceptance",
+      "glossZh": "递上；提议",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "中古英语 profren < 古法语 proffrir < 拉丁 pro-（向前）+ offerre（提供）",
+      "derivation": [
+        "pro-（向前）+ fer（带）→ 向前递出",
+        "拼写受 offer 影响，f 双写"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "offer",
+        "proffer"
+      ],
+      "example": "He proffered a solution that no one had considered.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "refer",
+      "parts": [
+        "re",
+        "fer"
+      ],
+      "pos": "v",
+      "glossEn": "to mention; to send for treatment",
+      "glossZh": "提及；转诊",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "拉丁 referre < re-（回）+ ferre（带）→ 带回去、归到某处",
+      "derivation": [
+        "re-（回）+ fer（带）→ 把话题带回某处",
+        "→ 提及；把病人转交"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "reference",
+        "referee"
+      ],
+      "example": "The doctor referred the patient to a cardiologist.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "reference",
+      "parts": [
+        "re",
+        "fer",
+        "ence"
+      ],
+      "pos": "n",
+      "glossEn": "a source cited; a letter of recommendation",
+      "glossZh": "参考；推荐信",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "中世纪拉丁 referentia < referre",
+      "derivation": [
+        "refer（提及、归到）+ -ence（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "refer",
+        "referent"
+      ],
+      "example": "The paper lists thirty references in its bibliography.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "referee",
+      "parts": [
+        "re",
+        "fer",
+        "ee"
+      ],
+      "pos": "n",
+      "glossEn": "an official who judges a match or dispute",
+      "glossZh": "裁判；仲裁人",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "refer + -ee，受事后缀，指被请求裁决的人",
+      "derivation": [
+        "refer（提交裁决）+ -ee（受事者）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "refer",
+        "referral"
+      ],
+      "example": "The referee stopped play after the foul.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "referral",
+      "parts": [
+        "re",
+        "fer",
+        "al"
+      ],
+      "pos": "n",
+      "glossEn": "the act of directing someone elsewhere",
+      "glossZh": "转诊；推荐",
+      "domain": "medical",
+      "family": "fam-fer",
+      "etymology": "refer + -al，19 世纪",
+      "derivation": [
+        "refer（转交）+ -al（名词后缀），r 双写"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "refer",
+        "referee"
+      ],
+      "example": "The clinic received a referral from the general practitioner.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "referent",
+      "parts": [
+        "re",
+        "fer",
+        "ent"
+      ],
+      "pos": "n",
+      "glossEn": "the object a word or sign refers to",
+      "glossZh": "所指对象",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "拉丁 referent-，referre 的现在分词词干",
+      "derivation": [
+        "refer（指向）+ -ent（名词后缀）→ 所指向之物"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "reference",
+        "referential"
+      ],
+      "example": "In semantics, a referent is the object a term points to.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "referential",
+      "parts": [
+        "re",
+        "fer",
+        "ent",
+        "ial"
+      ],
+      "pos": "adj",
+      "glossEn": "relating to reference or pointing",
+      "glossZh": "指称的；参照的",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "referent + -ial，17 世纪",
+      "derivation": [
+        "referent（所指）+ -ial（形容词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "referent",
+        "reference"
+      ],
+      "example": "The two clauses are linked by a referential pronoun.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "transfer",
+      "parts": [
+        "trans",
+        "fer"
+      ],
+      "pos": "v./n.",
+      "glossEn": "to move from one place or owner to another",
+      "glossZh": "转移；转让",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "拉丁 transferre < trans-（穿过）+ ferre（带）",
+      "derivation": [
+        "trans-（越过）+ fer（带）→ 带过去"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transference",
+        "transferable"
+      ],
+      "example": "The funds were transferred to a separate account.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "transferable",
+      "parts": [
+        "trans",
+        "fer",
+        "able"
+      ],
+      "pos": "adj",
+      "glossEn": "able to be moved or assigned to another",
+      "glossZh": "可转移的；可转让",
+      "domain": "legal",
+      "family": "fam-fer",
+      "etymology": "transfer + -able",
+      "derivation": [
+        "transfer（转让）+ -able（能够被……的）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transfer",
+        "transferee"
+      ],
+      "example": "The ticket is not transferable to another passenger.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "transference",
+      "parts": [
+        "trans",
+        "fer",
+        "ence"
+      ],
+      "pos": "n",
+      "glossEn": "the act of moving something; redirection of feeling",
+      "glossZh": "转移；移情",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "transfer + -ence；心理学义为 20 世纪",
+      "derivation": [
+        "transfer（转移）+ -ence（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transfer",
+        "transferential"
+      ],
+      "example": "Transference describes feelings redirected onto the analyst.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "transferee",
+      "parts": [
+        "trans",
+        "fer",
+        "ee"
+      ],
+      "pos": "n",
+      "glossEn": "a person to whom property is transferred",
+      "glossZh": "受让人",
+      "domain": "legal",
+      "family": "fam-fer",
+      "etymology": "transfer + -ee，19 世纪法律用语",
+      "derivation": [
+        "transfer（转让）+ -ee（受事者）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transferor",
+        "transfer"
+      ],
+      "example": "The transferee must register the deed within thirty days.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "transferor",
+      "parts": [
+        "trans",
+        "fer",
+        "or"
+      ],
+      "pos": "n",
+      "glossEn": "a person who transfers property to another",
+      "glossZh": "转让人",
+      "domain": "legal",
+      "family": "fam-fer",
+      "etymology": "transfer + -or，19 世纪法律用语",
+      "derivation": [
+        "transfer（转让）+ -or（施动者）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transferee",
+        "transfer"
+      ],
+      "example": "The transferor retains no interest in the property.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "prefer",
+      "parts": [
+        "pre",
+        "fer"
+      ],
+      "pos": "v",
+      "glossEn": "to like better; to put forward",
+      "glossZh": "更喜欢；宁愿",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "拉丁 praeferre < prae-（在前）+ ferre（带）→ 放在前面",
+      "derivation": [
+        "pre-（在前）+ fer（带）→ 置于前",
+        "→ 更喜爱；正式提出"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "preference",
+        "preferential"
+      ],
+      "example": "I prefer to read the primary sources first.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "preference",
+      "parts": [
+        "pre",
+        "fer",
+        "ence"
+      ],
+      "pos": "n",
+      "glossEn": "a greater liking; priority",
+      "glossZh": "偏爱；优先权",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "古法语 préférence < 中世纪拉丁 praeferentia",
+      "derivation": [
+        "prefer（偏爱）+ -ence（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "prefer",
+        "preferential"
+      ],
+      "example": "She showed a clear preference for qualitative methods.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "preferential",
+      "parts": [
+        "pre",
+        "fer",
+        "ent",
+        "ial"
+      ],
+      "pos": "adj",
+      "glossEn": "giving priority or advantage",
+      "glossZh": "优先的；优惠的",
+      "domain": "finance",
+      "family": "fam-fer",
+      "etymology": "prefer + -ential，19 世纪",
+      "derivation": [
+        "prefer（置于前）+ -ent + -ial（形容词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "preference",
+        "preferment"
+      ],
+      "example": "Preferential tariffs apply to the least developed countries.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "infer",
+      "parts": [
+        "in",
+        "fer"
+      ],
+      "pos": "v",
+      "glossEn": "to reach a conclusion from evidence",
+      "glossZh": "推断；推论",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "拉丁 inferre < in-（向内）+ ferre（带）→ 带入、引出",
+      "derivation": [
+        "in-（向内）+ fer（带）→ 把结论带进来"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "inference",
+        "inferential"
+      ],
+      "example": "From these data we infer a gradual decline.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "inference",
+      "parts": [
+        "in",
+        "fer",
+        "ence"
+      ],
+      "pos": "n",
+      "glossEn": "a conclusion drawn from evidence",
+      "glossZh": "推论；推断",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "中世纪拉丁 inferentia < inferre",
+      "derivation": [
+        "infer（推断）+ -ence（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "infer",
+        "inferential"
+      ],
+      "example": "The inference rests on a single uncontrolled observation.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "inferential",
+      "parts": [
+        "in",
+        "fer",
+        "ent",
+        "ial"
+      ],
+      "pos": "adj",
+      "glossEn": "based on inference rather than direct observation",
+      "glossZh": "推论的",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "inference + -ial，17 世纪",
+      "derivation": [
+        "inferent（推断）+ -ial（形容词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "inference",
+        "infer"
+      ],
+      "example": "Inferential statistics generalize from a sample to a population.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "defer",
+      "parts": [
+        "de",
+        "fer"
+      ],
+      "pos": "v",
+      "glossEn": "to postpone; to yield to another",
+      "glossZh": "推迟；遵从",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "两个同形词：推迟 < 古法语 differer < 拉丁 differre；遵从 < 拉丁 deferre",
+      "derivation": [
+        "de-（向下）+ fer（带）→ 带到下面→ 让位于",
+        "推迟义经法语 differer，拼写与 deferre 合流"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "deference",
+        "deferment"
+      ],
+      "example": "They deferred the decision until the audit was complete.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "deference",
+      "parts": [
+        "de",
+        "fer",
+        "ence"
+      ],
+      "pos": "n",
+      "glossEn": "respectful submission to another's judgment",
+      "glossZh": "尊重；顺从",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "法语 déférence < 拉丁 deferre（让与）",
+      "derivation": [
+        "defer（让与）+ -ence（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "deferential",
+        "defer"
+      ],
+      "example": "Out of deference to the chair, she withdrew the motion.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "deferential",
+      "parts": [
+        "de",
+        "fer",
+        "ent",
+        "ial"
+      ],
+      "pos": "adj",
+      "glossEn": "showing respectful submission",
+      "glossZh": "恭敬的",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "deference + -ial，19 世纪",
+      "derivation": [
+        "deferent（恭敬）+ -ial（形容词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "deference",
+        "defer"
+      ],
+      "example": "His deferential tone surprised the committee.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "deferment",
+      "parts": [
+        "de",
+        "fer",
+        "ment"
+      ],
+      "pos": "n",
+      "glossEn": "postponement, especially of an obligation",
+      "glossZh": "延期；缓期",
+      "domain": "finance",
+      "family": "fam-fer",
+      "etymology": "defer + -ment，17 世纪",
+      "derivation": [
+        "defer（推迟）+ -ment（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "defer",
+        "deferral"
+      ],
+      "example": "The bank granted a six-month deferment on the loan.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "differ",
+      "parts": [
+        "dif",
+        "fer"
+      ],
+      "pos": "v",
+      "glossEn": "to be unlike; to disagree",
+      "glossZh": "不同；相异",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "拉丁 differre < dis-（分开）+ ferre（带）→ 带向不同方向",
+      "derivation": [
+        "dis-→dif-（分开）+ fer（带）→ 各自带开→ 相异"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "difference",
+        "different"
+      ],
+      "example": "The two protocols differ only in sample size.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "difference",
+      "parts": [
+        "dif",
+        "fer",
+        "ence"
+      ],
+      "pos": "n",
+      "glossEn": "the state of being unlike",
+      "glossZh": "差异；差别",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "拉丁 differentia < differre",
+      "derivation": [
+        "differ（相异）+ -ence（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "different",
+        "differentiate"
+      ],
+      "example": "The difference between the groups was not significant.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "different",
+      "parts": [
+        "dif",
+        "fer",
+        "ent"
+      ],
+      "pos": "adj",
+      "glossEn": "not the same",
+      "glossZh": "不同的",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "拉丁 differens，differre 的现在分词",
+      "derivation": [
+        "differ（相异）+ -ent（形容词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "difference",
+        "differ"
+      ],
+      "example": "Each sample was prepared in a different buffer.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "differentiate",
+      "parts": [
+        "dif",
+        "fer",
+        "ent",
+        "iate"
+      ],
+      "pos": "v",
+      "glossEn": "to distinguish; to develop specialized form",
+      "glossZh": "区分；分化",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "中世纪拉丁 differentiare < differentia",
+      "derivation": [
+        "different（不同的）+ -iate（使……化）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "differentiation",
+        "difference"
+      ],
+      "example": "Cells differentiate into specialized tissues.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "differentiation",
+      "parts": [
+        "dif",
+        "fer",
+        "ent",
+        "iation"
+      ],
+      "pos": "n",
+      "glossEn": "the process of becoming distinct or specialized",
+      "glossZh": "区分；分化",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "differentiate + -ion",
+      "derivation": [
+        "differentiate（分化）+ -ion（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "differentiate",
+        "different"
+      ],
+      "example": "Terminal differentiation precedes cell death.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "suffer",
+      "parts": [
+        "suf",
+        "fer"
+      ],
+      "pos": "v",
+      "glossEn": "to undergo pain or loss",
+      "glossZh": "遭受；受苦",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "古法语 suffrir < 拉丁 sufferre < sub-（在下）+ ferre（承受）",
+      "derivation": [
+        "sub-→suf-（在下）+ fer（承受）→ 在下面扛住"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "suffering",
+        "sufferer"
+      ],
+      "example": "Rural households suffered most from the drought.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "suffering",
+      "parts": [
+        "suf",
+        "fer",
+        "ing"
+      ],
+      "pos": "n",
+      "glossEn": "the experience of pain or distress",
+      "glossZh": "痛苦；苦难",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "suffer + -ing",
+      "derivation": [
+        "suffer（受苦）+ -ing（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "suffer",
+        "sufferer"
+      ],
+      "example": "The report documents the suffering caused by the blockade.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "sufferer",
+      "parts": [
+        "suf",
+        "fer",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "a person who suffers from a condition",
+      "glossZh": "患者；受苦者",
+      "domain": "medical",
+      "family": "fam-fer",
+      "etymology": "suffer + -er",
+      "derivation": [
+        "suffer（受苦）+ -er（施动者）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "suffer",
+        "suffering"
+      ],
+      "example": "Migraine sufferers often report light sensitivity.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "insufferable",
+      "parts": [
+        "in",
+        "suf",
+        "fer",
+        "able"
+      ],
+      "pos": "adj",
+      "glossEn": "too extreme to be endured",
+      "glossZh": "难以忍受的",
+      "domain": "general",
+      "family": "fam-fer",
+      "etymology": "in-（不）+ sufferable（可忍受的）",
+      "derivation": [
+        "in-（不）+ suffer（忍受）+ -able（可……的）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "suffer",
+        "insupportable"
+      ],
+      "example": "The heat in the attic was insufferable.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "fertile",
+      "parts": [
+        "fert",
+        "ile"
+      ],
+      "pos": "adj",
+      "glossEn": "able to produce abundant growth or offspring",
+      "glossZh": "肥沃的；多产的",
+      "domain": "science",
+      "family": "fam-fer",
+      "etymology": "拉丁 fertilis < ferre（出产）",
+      "derivation": [
+        "fert（出产，fer 的分词干）+ -ile（能……的）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "fertility",
+        "fertilize"
+      ],
+      "example": "The valley's fertile soil supports two harvests a year.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "fertility",
+      "parts": [
+        "fert",
+        "il",
+        "ity"
+      ],
+      "pos": "n",
+      "glossEn": "the capacity to produce crops or offspring",
+      "glossZh": "肥力；生育力",
+      "domain": "science",
+      "family": "fam-fer",
+      "etymology": "拉丁 fertilitas < fertilis",
+      "derivation": [
+        "fert（出产）+ -il（-ile 的变体）+ -ity（名词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "fertile",
+        "fertilize"
+      ],
+      "example": "Soil fertility declined after decades of monoculture.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "fertilize",
+      "parts": [
+        "fert",
+        "il",
+        "ize"
+      ],
+      "pos": "v",
+      "glossEn": "to enrich soil; to make fruitful",
+      "glossZh": "施肥；使受精",
+      "domain": "science",
+      "family": "fam-fer",
+      "etymology": "fertile + -ize，17 世纪",
+      "derivation": [
+        "fertile（肥沃的）+ -ize（使……化）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "fertilizer",
+        "fertility"
+      ],
+      "example": "Farmers fertilize the fields before the spring rains.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "fertilizer",
+      "parts": [
+        "fert",
+        "il",
+        "iz",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "a substance added to soil to increase yield",
+      "glossZh": "肥料",
+      "domain": "science",
+      "family": "fam-fer",
+      "etymology": "fertilize + -er，18 世纪",
+      "derivation": [
+        "fertilize（施肥）+ -er（工具/施动者），-ize 缩为 -iz-"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "fertilize",
+        "fertile"
+      ],
+      "example": "Excess fertilizer washes into the river each spring.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "circumference",
+      "parts": [
+        "circum",
+        "fer",
+        "ence"
+      ],
+      "pos": "n",
+      "glossEn": "the distance around a circle",
+      "glossZh": "圆周；周长",
+      "domain": "science",
+      "family": "fam-fer",
+      "etymology": "拉丁 circumferentia < circumferre（环绕运送）",
+      "derivation": [
+        "circum-（环绕）+ fer（带）+ -ence（名词）→ 绕行一圈的长度"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "circumspect",
+        "transfer"
+      ],
+      "example": "The circumference of the circle is about six centimeters.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "aquifer",
+      "parts": [
+        "aqui",
+        "fer"
+      ],
+      "pos": "n",
+      "glossEn": "an underground layer that holds water",
+      "glossZh": "含水层",
+      "domain": "technical",
+      "family": "fam-fer",
+      "etymology": "拉丁 aqua（水）+ ferre（携带），19 世纪地质学",
+      "derivation": [
+        "aqui（水）+ fer（携带）→ 带水的地层"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "aqueduct",
+        "conifer"
+      ],
+      "example": "The aquifer beneath the plain is slowly being depleted.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "conifer",
+      "parts": [
+        "coni",
+        "fer"
+      ],
+      "pos": "n",
+      "glossEn": "a tree bearing cones",
+      "glossZh": "针叶树",
+      "domain": "science",
+      "family": "fam-fer",
+      "etymology": "拉丁 conifer < conus（锥）+ ferre（结）",
+      "derivation": [
+        "coni（锥）+ fer（携带）→ 结球果的树"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "coniferous",
+        "cone"
+      ],
+      "example": "Conifers dominate the higher slopes of the range.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "coniferous",
+      "parts": [
+        "coni",
+        "fer",
+        "ous"
+      ],
+      "pos": "adj",
+      "glossEn": "bearing cones; of cone-bearing trees",
+      "glossZh": "针叶的；结球果的",
+      "domain": "science",
+      "family": "fam-fer",
+      "etymology": "conifer + -ous，17 世纪",
+      "derivation": [
+        "coni（锥）+ fer（结）+ -ous（充满……的）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "conifer",
+        "vociferous"
+      ],
+      "example": "The coniferous forest shelters little ground vegetation.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "vociferous",
+      "parts": [
+        "voci",
+        "fer",
+        "ous"
+      ],
+      "pos": "adj",
+      "glossEn": "expressing views loudly and forcefully",
+      "glossZh": "喧闹的；叫嚣的",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "拉丁 vociferari < vox（声音）+ ferre（发出）",
+      "derivation": [
+        "voci（声音）+ fer（发出）+ -ous（形容词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "vocal",
+        "coniferous"
+      ],
+      "example": "The proposal met vociferous opposition in the council.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "carboniferous",
+      "parts": [
+        "carboni",
+        "fer",
+        "ous"
+      ],
+      "pos": "adj",
+      "glossEn": "coal-bearing; of the Coal Measures period",
+      "glossZh": "含碳的；石炭纪的",
+      "domain": "science",
+      "family": "fam-fer",
+      "etymology": "carbon（碳）+ -i- + -ferous（含……的），18 世纪",
+      "derivation": [
+        "carboni（碳、煤）+ fer（携带）+ -ous（形容词后缀）→ 含煤的",
+        "地质学专指石炭纪"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "carbon",
+        "coniferous"
+      ],
+      "example": "The Carboniferous strata contain extensive coal seams.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "odoriferous",
+      "parts": [
+        "odori",
+        "fer",
+        "ous"
+      ],
+      "pos": "adj",
+      "glossEn": "giving off a scent",
+      "glossZh": "散发气味的",
+      "domain": "academic",
+      "family": "fam-fer",
+      "etymology": "拉丁 odorifer < odor（气味）+ ferre（携带）",
+      "derivation": [
+        "odori（气味）+ fer（携带）+ -ous（形容词后缀）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "odor",
+        "vociferous"
+      ],
+      "example": "The odoriferous resin was burned as incense.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "w": "proliferate",
+      "parts": [
+        "proli",
+        "fer",
+        "ate"
+      ],
+      "pos": "v",
+      "glossEn": "to increase rapidly in number",
+      "glossZh": "增殖；激增",
+      "domain": "science",
+      "family": "fam-fer",
+      "etymology": "中世纪拉丁 proliferare < proles（后代）+ ferre（产生）",
+      "derivation": [
+        "proli（后代）+ fer（产生）+ -ate（动词后缀）→ 不断产生后代"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "proliferation",
+        "prolific"
+      ],
+      "example": "Tumor cells proliferate rapidly under these conditions.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    }
+  ]
+}

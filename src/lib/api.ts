@@ -191,6 +191,10 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
       return undefined as T;
     case 'load_bookmarks':
       return db.bookmarks as T;
+    case 'load_attempts': {
+      const limit = Number(args.limit ?? 2000);
+      return [...db.attempts].sort((a, b) => b.ts - a.ts).slice(0, limit) as T;
+    }
     case 'toggle_bookmark': {
       const type = String(args.target_type);
       const id = String(args.target_id);
@@ -427,6 +431,8 @@ export const db = {
     call<Note>('save_note', { target_type: targetType, target_id: targetId, body, noteId: noteId ?? null }),
   deleteNote: (id: number) => call<void>('delete_note', { id }),
   bookmarks: () => call<Bookmark[]>('load_bookmarks'),
+  /** Read-only window of answers, for the personal learning report (0.11.0). */
+  attempts: (limit = 2000) => call<Attempt[]>('load_attempts', { limit }),
   toggleBookmark: (targetType: string, targetId: string) =>
     call<boolean>('toggle_bookmark', { target_type: targetType, target_id: targetId }),
   /** Desktop: SQLite, newest first, damaged rows counted as `skipped`. */

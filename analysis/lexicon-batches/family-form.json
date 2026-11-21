@@ -1,0 +1,1333 @@
+{
+  "morphemes": [
+    {
+      "id": "rx-form",
+      "form": "form",
+      "type": "root",
+      "origin": "Lat",
+      "glossZh": "形状、形成",
+      "glossEn": "shape, form",
+      "allomorphs": [],
+      "examples": [
+        "reform",
+        "transform",
+        "formation",
+        "uniform"
+      ],
+      "originalForm": "forma",
+      "originalGloss": "shape, mould",
+      "familyId": "fam-form",
+      "note": "拉丁 forma“形状”。information 字面是“把形状放进心里”，即“告知”。",
+      "rules": [
+        "form 作自由词与词根同形：form / formal / inform",
+        "perform 不属此族：源自古法语 parfournir，与 forma 无关"
+      ],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "px-uni",
+      "form": "uni",
+      "type": "prefix",
+      "origin": "Lat",
+      "glossZh": "单一",
+      "glossEn": "one",
+      "allomorphs": [],
+      "examples": [
+        "uniform",
+        "unify",
+        "unilateral"
+      ],
+      "originalForm": "unus",
+      "originalGloss": "one",
+      "familyId": "fam-form",
+      "note": "拉丁 unus“一”，元音前作 un-（unanimous），一般构词作 uni-。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    },
+    {
+      "id": "sx-ative",
+      "form": "ative",
+      "type": "suffix",
+      "origin": "Lat",
+      "glossZh": "形容词后缀：具有……作用的",
+      "glossEn": "serving to",
+      "allomorphs": [
+        "ive"
+      ],
+      "examples": [
+        "formative",
+        "informative",
+        "transformative"
+      ],
+      "originalForm": "-ativus",
+      "originalGloss": "serving to",
+      "familyId": "fam-form",
+      "note": "-ive 的变体，多接在 -at- 词干后：formative、informative。",
+      "rules": [],
+      "textbookRefs": [
+        "S1 C9"
+      ],
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9 elements"
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "w": "form",
+      "parts": [
+        "form"
+      ],
+      "pos": "n./v.",
+      "glossEn": "shape; to shape",
+      "glossZh": "形式；形成",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "拉丁 forma（形状、模子）",
+      "derivation": [
+        "form（形状；形成） → form"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "formal",
+        "formation"
+      ],
+      "example": "Water takes the form of the container.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "formal",
+      "parts": [
+        "form",
+        "al"
+      ],
+      "pos": "adj",
+      "glossEn": "according to convention",
+      "glossZh": "正式的；形式的",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "拉丁 formalis < forma",
+      "derivation": [
+        "form（形状；形成） + al（形容词后缀） → formal"
+      ],
+      "semanticShift": "“形式的” → 合乎形式的 → 正式的",
+      "cognates": [
+        "formally",
+        "formality"
+      ],
+      "example": "A formal complaint must be filed in writing.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "formally",
+      "parts": [
+        "form",
+        "al",
+        "ly"
+      ],
+      "pos": "adv",
+      "glossEn": "in a formal manner",
+      "glossZh": "正式地",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "formal + -ly",
+      "derivation": [
+        "form（形状；形成） + al（形容词后缀） + ly（副词后缀） → formally"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "formal"
+      ],
+      "example": "The agreement was formally signed in June.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "formality",
+      "parts": [
+        "form",
+        "al",
+        "ity"
+      ],
+      "pos": "n",
+      "glossEn": "conventional procedure",
+      "glossZh": "正式；礼节",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "拉丁 formalitas < formalis",
+      "derivation": [
+        "form（形状；形成） + al（形容词后缀） + ity（名词后缀） → formality"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "formal",
+        "informality"
+      ],
+      "example": "The inspection is a formality, but it is recorded.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "formalize",
+      "parts": [
+        "form",
+        "al",
+        "ize"
+      ],
+      "pos": "v",
+      "glossEn": "make official or explicit",
+      "glossZh": "使正式化；形式化",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "formal + -ize，19 世纪",
+      "derivation": [
+        "form（形状；形成） + al（形容词后缀） + ize（使…） → formalize"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "formal"
+      ],
+      "example": "We formalized the safety check as a written step.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "formalism",
+      "parts": [
+        "form",
+        "al",
+        "ism"
+      ],
+      "pos": "n",
+      "glossEn": "emphasis on form",
+      "glossZh": "形式主义",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "formal + -ism，19 世纪（艺术与数学）",
+      "derivation": [
+        "form（形状；形成） + al（形容词后缀） + ism（学说） → formalism"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "formalist"
+      ],
+      "example": "Mathematical formalism treats proof as symbol manipulation.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "formalist",
+      "parts": [
+        "form",
+        "al",
+        "ist"
+      ],
+      "pos": "n./adj.",
+      "glossEn": "adherent of formalism",
+      "glossZh": "形式主义者",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "formal + -ist，19 世纪",
+      "derivation": [
+        "form（形状；形成） + al（形容词后缀） + ist（从事者） → formalist"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "formalism"
+      ],
+      "example": "A formalist reading ignores the writer's biography.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "formation",
+      "parts": [
+        "form",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "act of forming; arrangement",
+      "glossZh": "形成；构造",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "拉丁 formatio < formare（塑形）",
+      "derivation": [
+        "form（形状；形成） + ation（名词后缀） → formation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "form",
+        "formative"
+      ],
+      "example": "Ice formation on the wing was the suspected cause.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "formative",
+      "parts": [
+        "form",
+        "ative"
+      ],
+      "pos": "adj",
+      "glossEn": "shaping development",
+      "glossZh": "形成的；塑造的",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "中世纪拉丁 formativus < formare",
+      "derivation": [
+        "form（形状；形成） + ative（形容词后缀） → formative"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "formation"
+      ],
+      "example": "The field trip was a formative experience for her.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "formless",
+      "parts": [
+        "form",
+        "less"
+      ],
+      "pos": "adj",
+      "glossEn": "without shape",
+      "glossZh": "无形的",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "form + -less，16 世纪",
+      "derivation": [
+        "form（形状；形成） + less（无…的） → formless"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "form"
+      ],
+      "example": "The cloud was a formless grey mass.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "inform",
+      "parts": [
+        "in",
+        "form"
+      ],
+      "pos": "v",
+      "glossEn": "tell; give shape to the mind",
+      "glossZh": "告知",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "拉丁 informare（in- 进入 + forma 形状）→“塑形、教导”",
+      "derivation": [
+        "in（进入）+ form（形状）→ inform（把形状放进心里→告知）"
+      ],
+      "semanticShift": "“在心里塑形” → 告知",
+      "cognates": [
+        "information",
+        "informant"
+      ],
+      "example": "Please inform the lab before changing the setpoint.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "information",
+      "parts": [
+        "in",
+        "form",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "facts communicated",
+      "glossZh": "信息",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "拉丁 informatio < informare",
+      "derivation": [
+        "in（向内/不） + form（形状；形成） + ation（名词后缀） → information"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "inform",
+        "informative"
+      ],
+      "example": "The sensor sends information every ten seconds.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "informational",
+      "parts": [
+        "in",
+        "form",
+        "ation",
+        "al"
+      ],
+      "pos": "adj",
+      "glossEn": "providing information",
+      "glossZh": "信息的",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "information + -al，20 世纪",
+      "derivation": [
+        "in（向内/不） + form（形状；形成） + ation（名词后缀） + al（形容词后缀） → informational"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "information"
+      ],
+      "example": "The meeting was purely informational.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "informative",
+      "parts": [
+        "in",
+        "form",
+        "ative"
+      ],
+      "pos": "adj",
+      "glossEn": "giving useful information",
+      "glossZh": "提供信息的",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "中世纪拉丁 informativus",
+      "derivation": [
+        "in（向内/不） + form（形状；形成） + ative（形容词后缀） → informative"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "information"
+      ],
+      "example": "The appendix is more informative than the abstract.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "informed",
+      "parts": [
+        "in",
+        "form",
+        "ed"
+      ],
+      "pos": "adj",
+      "glossEn": "having knowledge",
+      "glossZh": "知情的",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "inform + -ed，16 世纪",
+      "derivation": [
+        "in（向内/不） + form（形状；形成） + ed（过去/被动） → informed"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "inform"
+      ],
+      "example": "Informed consent was obtained from every subject.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "informant",
+      "parts": [
+        "in",
+        "form",
+        "ant"
+      ],
+      "pos": "n",
+      "glossEn": "one who supplies information",
+      "glossZh": "线人；提供信息者",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "拉丁 informans，informare 的现在分词",
+      "derivation": [
+        "in（向内/不） + form（形状；形成） + ant（形/名后缀） → informant"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "information"
+      ],
+      "example": "The informant asked to remain anonymous.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "informer",
+      "parts": [
+        "in",
+        "form",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "one who informs on others",
+      "glossZh": "告密者",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "inform + -er，16 世纪",
+      "derivation": [
+        "in（向内/不） + form（形状；形成） + er（者） → informer"
+      ],
+      "semanticShift": "“告知者” → 告发者",
+      "cognates": [
+        "informant"
+      ],
+      "example": "The informer's account was never corroborated.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "informal",
+      "parts": [
+        "in",
+        "form",
+        "al"
+      ],
+      "pos": "adj",
+      "glossEn": "not formal",
+      "glossZh": "非正式的",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "in-（不）+ formal，16 世纪",
+      "derivation": [
+        "in（不）+ form（形式）+ al（形容词后缀）→ informal（不合形式的→非正式的）"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "informality",
+        "formal"
+      ],
+      "example": "An informal chat produced the first prototype.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "informally",
+      "parts": [
+        "in",
+        "form",
+        "al",
+        "ly"
+      ],
+      "pos": "adv",
+      "glossEn": "in a casual way",
+      "glossZh": "非正式地",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "informal + -ly",
+      "derivation": [
+        "in（不）+ formal（正式的）+ ly（副词后缀）→ informally"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "informal"
+      ],
+      "example": "The team informally calls the rig 'the spider'.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "informality",
+      "parts": [
+        "in",
+        "form",
+        "al",
+        "ity"
+      ],
+      "pos": "n",
+      "glossEn": "absence of formality",
+      "glossZh": "非正式",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "informal + -ity",
+      "derivation": [
+        "in（不）+ formal（正式的）+ ity（名词后缀）→ informality"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "informal"
+      ],
+      "example": "The informality of the meeting encouraged dissent.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "misinformation",
+      "parts": [
+        "mis",
+        "in",
+        "form",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "false or wrong information",
+      "glossZh": "错误信息",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "mis-（错误）+ information，16 世纪",
+      "derivation": [
+        "mis（错误） + in（向内/不） + form（形状；形成） + ation（名词后缀） → misinformation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "information"
+      ],
+      "example": "Misinformation spread faster than the correction.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "conform",
+      "parts": [
+        "con",
+        "form"
+      ],
+      "pos": "v",
+      "glossEn": "comply; match a shape",
+      "glossZh": "遵从；符合",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "拉丁 conformare < con-（共同）+ forma（形状）",
+      "derivation": [
+        "con（共同） + form（形状；形成） → conform"
+      ],
+      "semanticShift": "“塑成同一形状” → 符合",
+      "cognates": [
+        "conformity",
+        "conformation"
+      ],
+      "example": "The housing must conform to the IP67 standard.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "conformity",
+      "parts": [
+        "con",
+        "form",
+        "ity"
+      ],
+      "pos": "n",
+      "glossEn": "compliance; sameness",
+      "glossZh": "遵从；一致性",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "拉丁 conformitas < conformare",
+      "derivation": [
+        "con（共同） + form（形状；形成） + ity（名词后缀） → conformity"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "conform",
+        "conformist"
+      ],
+      "example": "Conformity with the spec is checked at intake.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "conformation",
+      "parts": [
+        "con",
+        "form",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "arrangement in space",
+      "glossZh": "构象；构造",
+      "domain": "technical",
+      "family": "fam-form",
+      "etymology": "拉丁 conformatio < conformare",
+      "derivation": [
+        "con（共同） + form（形状；形成） + ation（名词后缀） → conformation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "conform"
+      ],
+      "example": "The protein's conformation changed with pH.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "conformist",
+      "parts": [
+        "con",
+        "form",
+        "ist"
+      ],
+      "pos": "n./adj.",
+      "glossEn": "one who conforms",
+      "glossZh": "循规蹈矩者",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "conform + -ist，17 世纪",
+      "derivation": [
+        "con（共同） + form（形状；形成） + ist（从事者） → conformist"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "conformity"
+      ],
+      "example": "He was too much of a conformist to challenge the plan.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "deform",
+      "parts": [
+        "de",
+        "form"
+      ],
+      "pos": "v",
+      "glossEn": "spoil the shape of",
+      "glossZh": "使变形",
+      "domain": "technical",
+      "family": "fam-form",
+      "etymology": "拉丁 deformare < de-（去除）+ forma（形状）",
+      "derivation": [
+        "de（去除；向下） + form（形状；形成） → deform"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "deformation",
+        "deformed"
+      ],
+      "example": "Excess heat can deform the aluminium frame.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "deformation",
+      "parts": [
+        "de",
+        "form",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "change of shape",
+      "glossZh": "变形",
+      "domain": "technical",
+      "family": "fam-form",
+      "etymology": "拉丁 deformatio < deformare",
+      "derivation": [
+        "de（去除；向下） + form（形状；形成） + ation（名词后缀） → deformation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "deform"
+      ],
+      "example": "Strain gauges recorded plastic deformation.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "deformed",
+      "parts": [
+        "de",
+        "form",
+        "ed"
+      ],
+      "pos": "adj",
+      "glossEn": "misshapen",
+      "glossZh": "变形的",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "deform + -ed",
+      "derivation": [
+        "de（去除；向下） + form（形状；形成） + ed（过去/被动） → deformed"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "deformity"
+      ],
+      "example": "The deformed gasket leaked under pressure.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "deformity",
+      "parts": [
+        "de",
+        "form",
+        "ity"
+      ],
+      "pos": "n",
+      "glossEn": "malformation",
+      "glossZh": "畸形",
+      "domain": "medical",
+      "family": "fam-form",
+      "etymology": "拉丁 deformitas < deformis（丑陋的）",
+      "derivation": [
+        "de（去除；向下） + form（形状；形成） + ity（名词后缀） → deformity"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "deformed"
+      ],
+      "example": "The scan ruled out a spinal deformity.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "reform",
+      "parts": [
+        "re",
+        "form"
+      ],
+      "pos": "v./n.",
+      "glossEn": "improve by change",
+      "glossZh": "改革",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "拉丁 reformare < re-（再）+ forma（形状）",
+      "derivation": [
+        "re（再） + form（形状；形成） → reform"
+      ],
+      "semanticShift": "“重新塑形” → 改良",
+      "cognates": [
+        "reformation",
+        "reformer"
+      ],
+      "example": "The agency promised to reform its permit process.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "reformation",
+      "parts": [
+        "re",
+        "form",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "act of reforming",
+      "glossZh": "改革；宗教改革",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "拉丁 reformatio < reformare",
+      "derivation": [
+        "re（再） + form（形状；形成） + ation（名词后缀） → reformation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "reform"
+      ],
+      "example": "The reformation of the tax code took a decade.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "reformer",
+      "parts": [
+        "re",
+        "form",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "one who reforms",
+      "glossZh": "改革者",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "reform + -er",
+      "derivation": [
+        "re（再） + form（形状；形成） + er（者） → reformer"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "reform"
+      ],
+      "example": "She was a quiet reformer, not a campaigner.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "reformist",
+      "parts": [
+        "re",
+        "form",
+        "ist"
+      ],
+      "pos": "n./adj.",
+      "glossEn": "favouring reform",
+      "glossZh": "改革派",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "reform + -ist，19 世纪",
+      "derivation": [
+        "re（再） + form（形状；形成） + ist（从事者） → reformist"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "reform"
+      ],
+      "example": "The reformist wing won three seats.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "transform",
+      "parts": [
+        "trans",
+        "form"
+      ],
+      "pos": "v",
+      "glossEn": "change form completely",
+      "glossZh": "转变；改造",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "拉丁 transformare < trans-（转变）+ forma（形状）",
+      "derivation": [
+        "trans（转变） + form（形状；形成） → transform"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transformation",
+        "transformer"
+      ],
+      "example": "The catalyst transforms the gas into a solid.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "transformation",
+      "parts": [
+        "trans",
+        "form",
+        "ation"
+      ],
+      "pos": "n",
+      "glossEn": "complete change",
+      "glossZh": "转变；变换",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "拉丁 transformatio < transformare",
+      "derivation": [
+        "trans（转变） + form（形状；形成） + ation（名词后缀） → transformation"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transform"
+      ],
+      "example": "The digital transformation took five years.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "transformer",
+      "parts": [
+        "trans",
+        "form",
+        "er"
+      ],
+      "pos": "n",
+      "glossEn": "device changing voltage",
+      "glossZh": "变压器",
+      "domain": "technical",
+      "family": "fam-form",
+      "etymology": "transform + -er，19 世纪电学",
+      "derivation": [
+        "trans（转变） + form（形状；形成） + er（者） → transformer"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transform"
+      ],
+      "example": "The transformer hummed at the edge of the yard.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "transformative",
+      "parts": [
+        "trans",
+        "form",
+        "ative"
+      ],
+      "pos": "adj",
+      "glossEn": "causing major change",
+      "glossZh": "有变革力的",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "transform + -ative，20 世纪",
+      "derivation": [
+        "trans（转变） + form（形状；形成） + ative（形容词后缀） → transformative"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "transformation"
+      ],
+      "example": "The grant had a transformative effect on the lab.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "uniform",
+      "parts": [
+        "uni",
+        "form"
+      ],
+      "pos": "n./adj.",
+      "glossEn": "identical; official dress",
+      "glossZh": "制服；统一的",
+      "domain": "general",
+      "family": "fam-form",
+      "etymology": "拉丁 uniformis < uni-（单一）+ forma（形状）",
+      "derivation": [
+        "uni（单一） + form（形状；形成） → uniform"
+      ],
+      "semanticShift": "“同一形状” → 统一的",
+      "cognates": [
+        "uniformity",
+        "uniformly"
+      ],
+      "example": "Keep the coating uniform across the panel.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "uniformity",
+      "parts": [
+        "uni",
+        "form",
+        "ity"
+      ],
+      "pos": "n",
+      "glossEn": "sameness",
+      "glossZh": "一致性；均匀性",
+      "domain": "technical",
+      "family": "fam-form",
+      "etymology": "拉丁 uniformitas < uniformis",
+      "derivation": [
+        "uni（单一） + form（形状；形成） + ity（名词后缀） → uniformity"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "uniform"
+      ],
+      "example": "Uniformity of thickness matters for the seal.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "uniformly",
+      "parts": [
+        "uni",
+        "form",
+        "ly"
+      ],
+      "pos": "adv",
+      "glossEn": "in the same way everywhere",
+      "glossZh": "一致地；均匀地",
+      "domain": "technical",
+      "family": "fam-form",
+      "etymology": "uniform + -ly",
+      "derivation": [
+        "uni（单一） + form（形状；形成） + ly（副词后缀） → uniformly"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "uniform"
+      ],
+      "example": "The sample was uniformly heated to 300 °C.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    },
+    {
+      "w": "multiform",
+      "parts": [
+        "multi",
+        "form"
+      ],
+      "pos": "adj",
+      "glossEn": "having many forms",
+      "glossZh": "多形式的",
+      "domain": "academic",
+      "family": "fam-form",
+      "etymology": "拉丁 multiformis < multi-（多）+ forma",
+      "derivation": [
+        "multi（多） + form（形状；形成） → multiform"
+      ],
+      "semanticShift": "",
+      "cognates": [
+        "uniform"
+      ],
+      "example": "The disease is multiform and hard to classify.",
+      "verified": true,
+      "sources": [
+        {
+          "id": "S1",
+          "title": "English Vocabulary Elements",
+          "detail": "ch.9"
+        }
+      ]
+    }
+  ]
+}

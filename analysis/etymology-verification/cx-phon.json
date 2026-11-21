@@ -1,0 +1,43 @@
+{
+  "morphemeId": "cx-phon",
+  "claim": "phon < 希腊 phōnē「声音、嗓音」（φωνή）",
+  "records": [
+    {
+      "word": "telephone",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "telephone",
+      "url": "https://en.wiktionary.org/w/index.php?title=telephone&action=raw",
+      "quote": "The suffix -phone is ultimately from Ancient Greek φωνή, and Proto-Indo-European *bʰeh₂-.",
+      "etymon": "φωνή",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "phoneme",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "phoneme",
+      "url": "https://en.wiktionary.org/w/index.php?title=phoneme&action=raw",
+      "quote": "From Ancient Greek φώνημα 'sound', from φωνέω 'to sound', from φωνή 'sound'.",
+      "etymon": "φωνή",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "gramophone",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "gramophone",
+      "url": "https://en.wiktionary.org/w/index.php?title=gramophone&action=raw",
+      "quote": "from Ancient Greek γράμμα 'letter' + φωνή 'sound'.",
+      "etymon": "φωνή",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "telephone / phoneme / gramophone 三条独立条目均给出 φωνή 'sound'。/phon/ 与 /graph/ 在 -graph、-gram 上交界，需注意 -gram 指「写下的东西」而非「写」本身。 词库外旁证条目（仅印证同一词源，不对应词库词条）：phoneme、gramophone。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。"
+}

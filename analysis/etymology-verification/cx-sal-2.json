@@ -1,0 +1,33 @@
+{
+  "morphemeId": "cx-sal-2",
+  "claim": "sal < 拉丁 sal「盐」",
+  "records": [
+    {
+      "word": "salary",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "salary",
+      "url": "https://en.wiktionary.org/w/index.php?title=salary&action=raw",
+      "quote": "from Latin salārium 'wages', the neuter form of the adjective salārius 'related to salt', from salt.",
+      "etymon": "sal",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    },
+    {
+      "word": "saline",
+      "source": "S5",
+      "name": "Wiktionary",
+      "entry": "saline",
+      "url": "https://en.wiktionary.org/w/index.php?title=saline&action=raw",
+      "quote": "from Medieval Latin salīna and Middle French salin, from Latin sal 'salt'.",
+      "etymon": "sal",
+      "supports": true,
+      "fetchedAt": "2026-11-21"
+    }
+  ],
+  "verdict": "verified",
+  "verifier": "ety-verify",
+  "note": "salary 条目确认 salārium < salārius < sal「盐」；saline 为词库外的旁证条目（拉丁 salīna < sal）。重要：salary 条目明确表示「罗马士兵以盐发饷」无古代文献证据，见 conflict 字段。 词库外旁证条目（仅印证同一词源，不对应词库词条）：saline。",
+  "quoteNote": "quote 取自 action=raw 返回的 wikitext 的 Etymology 段落，仅将 {{m|la|...}} 等模板展开为词形与释义，措辞未改写；可用 url 复现。",
+  "conflict": "salary 条目原文：「A commonly cited theory states that the phrase meant “money consisting of salt”, because, supposedly, Roman soldiers were sometimes paid in salt, but there is no evidence for either of these claims from ancient sources.」——词库 salary 的释义「原指发给士兵买盐的津贴」属流行说法，无古代文献支持，建议改为「一般认为与 salārium（盐钱）有关，但士兵以盐发饷无实证」。"
+}

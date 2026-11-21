@@ -34,6 +34,8 @@ const MAX_ERRORS = 10;
 
 export interface TourResult {
   family: { ok: boolean; route: string; members: number; hasDossier: boolean; coreIdea: string };
+  /** 0.11.0: the inquiry loop must be drivable in the packaged app, not just in tests. */
+  inquiry: { ok: boolean; steps: number; feedback: string; persisted: boolean };
   assessment: { ok: boolean; route: string; runs: number; storageKey: string; answered: number };
   errors: string[];
 }
@@ -268,6 +270,7 @@ async function tour(): Promise<TourResult> {
   const errors: string[] = [];
   const result: TourResult = {
     family: { ok: false, route: '#/family/rx-spec', members: 0, hasDossier: false, coreIdea: '' },
+    inquiry: { ok: false, steps: 0, feedback: '', persisted: false },
     assessment: { ok: false, route: '#/assessment', runs: 0, storageKey: 'wordroots.assessment.v1', answered: 0 },
     errors,
   };
@@ -294,6 +297,64 @@ async function tour(): Promise<TourResult> {
     }
   } catch (error) {
     errors.push(`family page: ${error instanceof Error ? error.message : String(error)}`);
+  }
+
+  // --- family inquiry -----------------------------------------------------
+  // The point of the loop is that the learner acts, so the smoke test must act
+  // too: open a step, pick an answer, check it, and confirm progress is stored.
+  try {
+    if (result.family.hasDossier) {
+      const panel = await waitFor(
+        () => (document.body.innerText.includes('探究这一族') ? document.body : null),
+        10_000,
+      );
+      if (!panel) {
+        errors.push('family inquiry: panel did not render');
+      } else {
+        const stepButtons = Array.from(document.querySelectorAll('button')).filter((b) =>
+          /发现|验证|总结/.test(b.textContent ?? ''),
+        );
+        result.inquiry.steps = stepButtons.length;
+        const discover = stepButtons.find((b) => (b.textContent ?? '').includes('发现'));
+        if (discover instanceof HTMLElement) {
+          discover.click();
+          await sleep(200);
+          // Pick the first word chip, then check the answer.
+          const word = Array.from(document.querySelectorAll('button.btn-sm')).find((b) =>
+            /^[a-z][a-z-]+$/.test((b.textContent ?? '').trim()),
+          );
+          if (word instanceof HTMLElement) {
+            word.click();
+            await sleep(150);
+            const check = Array.from(document.querySelectorAll('button')).find(
+              (b) => (b.textContent ?? '').trim() === '核对',
+            );
+            if (check instanceof HTMLElement) {
+              check.click();
+              await sleep(250);
+            }
+          }
+          const feedback = document.body.innerText;
+          result.inquiry.feedback = /对了|不是它/.test(feedback) ? 'answered' : '';
+          const next = Array.from(document.querySelectorAll('button')).find(
+            (b) => (b.textContent ?? '').trim() === '下一步',
+          );
+          if (next instanceof HTMLElement && !next.hasAttribute('disabled')) {
+            next.click();
+            await sleep(250);
+          }
+        }
+        result.inquiry.persisted = Boolean(localStorage.getItem('wordroots.family.inquiry.v1'));
+        result.inquiry.ok = result.inquiry.steps >= 3 && result.inquiry.persisted;
+        if (!result.inquiry.ok) {
+          errors.push(
+            `family inquiry: steps=${result.inquiry.steps} feedback=${result.inquiry.feedback || 'none'} persisted=${result.inquiry.persisted}`,
+          );
+        }
+      }
+    }
+  } catch (error) {
+    errors.push(`family inquiry: ${error instanceof Error ? error.message : String(error)}`);
   }
 
   // --- assessment ---------------------------------------------------------

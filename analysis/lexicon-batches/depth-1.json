@@ -1,0 +1,571 @@
+{
+ "note": "depth pass 1: L4 例词补充",
+ "targets": [
+  {
+   "id": "cx-crypt",
+   "words": [
+    "cryptic",
+    "cryptogram"
+   ]
+  },
+  {
+   "id": "cx-du",
+   "words": [
+    "dual",
+    "duplicate"
+   ]
+  },
+  {
+   "id": "cx-acr",
+   "words": [
+    "acropolis",
+    "acronym"
+   ]
+  },
+  {
+   "id": "cx-agr",
+   "words": [
+    "agriculture",
+    "agronomy"
+   ]
+  },
+  {
+   "id": "cx-anim",
+   "words": [
+    "animate",
+    "animal"
+   ]
+  },
+  {
+   "id": "cx-ambul",
+   "words": [
+    "ambulance",
+    "ambulatory"
+   ]
+  },
+  {
+   "id": "cx-ann-enn",
+   "words": [
+    "anniversary",
+    "perennial"
+   ]
+  },
+  {
+   "id": "cx-anthrop",
+   "words": [
+    "anthropology",
+    "philanthropy"
+   ]
+  },
+  {
+   "id": "cx-aud",
+   "words": [
+    "audible",
+    "audience"
+   ]
+  },
+  {
+   "id": "cx-aur",
+   "words": [
+    "aural",
+    "auricle"
+   ]
+  }
+ ],
+ "words": [
+  {
+   "w": "cryptic",
+   "parts": [
+    "crypt",
+    "ic"
+   ],
+   "pos": "adj",
+   "glossEn": "deliberately mysterious; hidden in meaning",
+   "glossZh": "隐晦的；神秘的",
+   "domain": "general",
+   "etymology": "希腊 kryptos「隐藏的」+ -ic；同族 crypt（地窖）、cryptography",
+   "derivation": [
+    "crypt（隐藏）+ -ic（形容词后缀）→ cryptic"
+   ],
+   "example": "His answer was so cryptic that nobody understood it.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "cryptogram",
+   "parts": [
+    "crypt",
+    "o",
+    "gram"
+   ],
+   "pos": "n",
+   "glossEn": "a message written in cipher",
+   "glossZh": "密码文字；密文",
+   "domain": "general",
+   "etymology": "crypt（隐藏）+ -o-（连接元音）+ -gram（写下的东西）",
+   "derivation": [
+    "crypt + o + gram → cryptogram"
+   ],
+   "example": "The agent hid a cryptogram inside the advertisement.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "dual",
+   "parts": [
+    "du",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "consisting of two parts or having two functions",
+   "glossZh": "双重的；二元的",
+   "domain": "general",
+   "etymology": "拉丁 dualis < duo「二」，与 duet、duplicate 同族",
+   "derivation": [
+    "du（二）+ -al → dual"
+   ],
+   "example": "The aircraft uses a dual control system.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "duplicate",
+   "parts": [
+    "du",
+    "plic",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "to make an exact copy of something",
+   "glossZh": "复制；重复",
+   "domain": "general",
+   "etymology": "拉丁 duplicare < du-（二）+ plicare（折叠）",
+   "derivation": [
+    "du（二）+ plic（折叠）+ -ate → 折成两层 → 复制"
+   ],
+   "example": "Please duplicate this file before you edit it.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "acropolis",
+   "parts": [
+    "acr",
+    "o",
+    "pol",
+    "is"
+   ],
+   "pos": "n",
+   "glossEn": "the fortified upper part of an ancient Greek city",
+   "glossZh": "（古希腊城市的）卫城",
+   "domain": "general",
+   "etymology": "希腊 akros「最高的、尖端的」+ polis「城邦」",
+   "derivation": [
+    "acr（高处）+ o + pol（城）+ -is → 高处的城"
+   ],
+   "example": "The Acropolis of Athens stands on a limestone hill.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "acronym",
+   "parts": [
+    "acr",
+    "onym"
+   ],
+   "pos": "n",
+   "glossEn": "a word formed from the initial letters of other words",
+   "glossZh": "首字母缩略词",
+   "domain": "general",
+   "etymology": "希腊 akron「末端、开头」+ onyma「名字」",
+   "derivation": [
+    "acr（尖端、开头）+ onym（名字）→ 取首字母成词"
+   ],
+   "example": "NASA is an acronym for a long agency name.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "agriculture",
+   "parts": [
+    "agr",
+    "i",
+    "cult",
+    "ure"
+   ],
+   "pos": "n",
+   "glossEn": "the practice of farming land and raising crops",
+   "glossZh": "农业；农艺",
+   "domain": "general",
+   "etymology": "拉丁 ager/agri「田地」+ cultura「耕作」",
+   "derivation": [
+    "agr（田地）+ i + cult（耕种）+ -ure → 耕种田地"
+   ],
+   "example": "Agriculture still employs half the region's workers.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "agronomy",
+   "parts": [
+    "agr",
+    "o",
+    "nomy"
+   ],
+   "pos": "n",
+   "glossEn": "the science of crop production and soil management",
+   "glossZh": "农学；农艺学",
+   "domain": "general",
+   "etymology": "希腊 agros「田地」+ nomos「管理、法则」",
+   "derivation": [
+    "agr（田地）+ o + -nomy（管理法则）→ 田地管理的学问"
+   ],
+   "example": "She took a degree in agronomy before returning to the farm.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "animate",
+   "parts": [
+    "anim",
+    "ate"
+   ],
+   "pos": "v",
+   "glossEn": "to give life, spirit, or motion to",
+   "glossZh": "使有生气；赋予生命",
+   "domain": "general",
+   "etymology": "拉丁 anima「气息、灵魂」+ -ate",
+   "derivation": [
+    "anim（灵魂、生命）+ -ate（动词后缀）→ 注入生命"
+   ],
+   "example": "A skilled teacher can animate a dull textbook chapter.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "animal",
+   "parts": [
+    "anim",
+    "al"
+   ],
+   "pos": "n",
+   "glossEn": "a living creature that is not a plant",
+   "glossZh": "动物",
+   "domain": "general",
+   "etymology": "拉丁 animalis < anima「气息、生命」",
+   "derivation": [
+    "anim（生命、气息）+ -al → 有气息者"
+   ],
+   "example": "The fox is a nocturnal animal.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "ambulance",
+   "parts": [
+    "ambul",
+    "ance"
+   ],
+   "pos": "n",
+   "glossEn": "a vehicle that carries sick or injured people",
+   "glossZh": "救护车",
+   "domain": "general",
+   "etymology": "拉丁 ambulare「走动」+ -ance；原指野战移动医院",
+   "derivation": [
+    "ambul（走动）+ -ance → 可移动的救护设施"
+   ],
+   "example": "An ambulance reached the scene in four minutes.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "ambulatory",
+   "parts": [
+    "ambul",
+    "at",
+    "ory"
+   ],
+   "pos": "adj",
+   "glossEn": "able to walk; relating to walking",
+   "glossZh": "能走动的；步行的",
+   "domain": "general",
+   "etymology": "拉丁 ambulatorius < ambulare「走动」",
+   "derivation": [
+    "ambul（走）+ -at- + -ory → 与行走有关的"
+   ],
+   "example": "The patient was ambulatory on the second day after surgery.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "anniversary",
+   "parts": [
+    "ann",
+    "i",
+    "vers",
+    "ary"
+   ],
+   "pos": "n",
+   "glossEn": "the yearly return of a date worth remembering",
+   "glossZh": "周年纪念（日）",
+   "domain": "general",
+   "etymology": "拉丁 anniversarius < annus「年」+ vertere「转」",
+   "derivation": [
+    "ann（年）+ i + vers（转）+ -ary → 每年转回的那一天"
+   ],
+   "example": "They marked their tenth anniversary with a quiet dinner.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "perennial",
+   "parts": [
+    "per",
+    "enn",
+    "ial"
+   ],
+   "pos": "adj",
+   "glossEn": "lasting through the year or recurring year after year",
+   "glossZh": "全年的；长期不断的",
+   "domain": "general",
+   "etymology": "拉丁 perennis < per-（贯穿）+ annus/ennus「年」",
+   "derivation": [
+    "per（贯穿）+ enn（年）+ -ial → 贯穿全年"
+   ],
+   "example": "Traffic congestion is a perennial complaint in the city.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "anthropology",
+   "parts": [
+    "anthrop",
+    "o",
+    "logy"
+   ],
+   "pos": "n",
+   "glossEn": "the study of human societies and cultures",
+   "glossZh": "人类学",
+   "domain": "general",
+   "etymology": "希腊 anthropos「人」+ -logia「学问」",
+   "derivation": [
+    "anthrop（人）+ o + logy（学科）→ 研究人的学问"
+   ],
+   "example": "He switched from law to anthropology in his second year.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "philanthropy",
+   "parts": [
+    "phil",
+    "anthrop",
+    "y"
+   ],
+   "pos": "n",
+   "glossEn": "the giving of money or help for human welfare",
+   "glossZh": "慈善；博爱",
+   "domain": "general",
+   "etymology": "希腊 philanthrōpia < philein「爱」+ anthropos「人」",
+   "derivation": [
+    "phil（爱）+ anthrop（人）+ -y → 爱人之举"
+   ],
+   "example": "Her philanthropy paid for three rural schools.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "audible",
+   "parts": [
+    "aud",
+    "ible"
+   ],
+   "pos": "adj",
+   "glossEn": "loud enough to be heard",
+   "glossZh": "听得见的",
+   "domain": "general",
+   "etymology": "拉丁 audire「听」+ -ibilis「能够」",
+   "derivation": [
+    "aud（听）+ -ible（能…的）→ 能听到的"
+   ],
+   "example": "The warning tone was barely audible over the engines.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "audience",
+   "parts": [
+    "aud",
+    "i",
+    "ence"
+   ],
+   "pos": "n",
+   "glossEn": "the people who watch or listen to a performance",
+   "glossZh": "观众；听众",
+   "domain": "general",
+   "etymology": "拉丁 audientia < audire「听」",
+   "derivation": [
+    "aud（听）+ i + -ence → 听的人"
+   ],
+   "example": "The audience stayed for the whole question session.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "aural",
+   "parts": [
+    "aur",
+    "al"
+   ],
+   "pos": "adj",
+   "glossEn": "relating to the ear or to hearing",
+   "glossZh": "耳的；听觉的",
+   "domain": "general",
+   "etymology": "拉丁 auris「耳」+ -al",
+   "derivation": [
+    "aur（耳）+ -al → 耳的"
+   ],
+   "example": "The test measures both visual and aural memory.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  },
+  {
+   "w": "auricle",
+   "parts": [
+    "aur",
+    "icle"
+   ],
+   "pos": "n",
+   "glossEn": "the visible outer part of the ear",
+   "glossZh": "耳廓",
+   "domain": "general",
+   "etymology": "拉丁 auricula「小耳」，auris「耳」的指小形式",
+   "derivation": [
+    "aur（耳）+ -icle（指小）→ 小耳 → 耳廓"
+   ],
+   "example": "The surgeon repaired a small tear in the auricle.",
+   "verified": true,
+   "sources": [
+    {
+     "id": "S5",
+     "title": "现代辞书（词源条目）",
+     "detail": "OED / Etymonline 核对"
+    }
+   ]
+  }
+ ]
+}
