@@ -19,46 +19,26 @@
 
 旧字段 `verified` 保留为 `segmentation === 'verified' && etymology.status !== 'unknown'`，供旧读取方兼容。
 
-## 当前分布（`node scripts/migrate-word-status.mjs`）
+## 当前分布（自动生成）
+
+<!-- status:begin -->
 
 | 项目 | 数量 |
 | --- | --- |
 | 词条 | 1473 |
-| segmentation = verified | 1272 |
-| segmentation = partial | 174 |
-| segmentation = unverified | 27 |
-| etymology documented | 1000 |
-| etymology inferred | 66 |
-| etymology unknown | 407 |
-| quizSafe | 1272 |
-| legacy `verified` | 975 |
+| segmentation = verified | 1307 |
+| segmentation = partial | 140 |
+| segmentation = unverified | 26 |
+| etymology documented | 1058 |
+| etymology inferred | 8 |
+| etymology disputed | 1 |
+| etymology unknown | 406 |
+| quizSafe | 1307 |
+| legacy `verified` | 993 |
 
-0.7.0 的 `verified` 是 925，且其中 101 个其实解析不全。0.8.0 的 975 每一个都能说明"每个成分去哪了"。
+剩余未解析成分按出现次数：in（5）、ual（4）、ibil（4）、posit（4）、im（4）、pur（4）、care（3）、gen（3）。
 
-## 为什么 verified 反而变多了
+> 以上数字由 `node scripts/word-status-report.mjs` 从 `words.json` 计算，
+> CI 会跑 `--check`，文档与数据不一致时构建失败。
 
-因为 0.8.0 修了三个**解析器**问题，而不是放宽标准：
-
-1. **`forms.json` 只索引了 `form`，没索引 `allomorphs`**。`spect`、`spic`、`miss`、`cept` 全都查不到，
-   于是 `inspection`、`circumspect` 这类词被判"缺成分"。这是数据索引 bug，不是语言学判断。
-2. **同族歧义**：`cept` 同时被 `cap`/`ceipt`/`cept` 三条记录声明。同一 familyId 内部的选择不构成
-   语言学主张，因此按"规范形式相符者优先"折叠。
-3. **位置与拼写**：词的第一个成分才可能是前缀、最后一个才可能是后缀；成分拼写与某条记录的规范形式
-   完全相同时优先。`al` 在词尾是 `-al`，在词首才可能是 `ad-`。
-
-修完之后 exact 从 1100（其中含大量错误匹配）变成 1087，ambiguous 从 36 变成 50，
-但**每个 verified 都可复核**——这是本轮唯一在意的方向。
-
-## 剩余 174 个 partial 是工作清单，不是失败
-
-它们大多缺一个具体记录（如 `-ual`、`-ibil`、`posit`），或自由词干未进词库（`agree`、`care`）。
-补这些记录会让数字上升，但**必须一条一条补**，不能靠放宽匹配。
-
-## 相关命令
-
-```bash
-node scripts/migrate-word-status.mjs           # 推导并写入
-node scripts/migrate-word-status.mjs --check   # CI：状态漂移则失败
-node scripts/audit-reviews.mjs                 # 审校证据核查（页码是否真有该成分）
-npx vitest run src/lib/word-status.test.ts     # 8 条不变量
-```
+<!-- status:end -->

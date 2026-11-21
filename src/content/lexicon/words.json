@@ -9125,28 +9125,22 @@
   ],
   "partIds": [
    "px-circum",
-   null
+   "rx-spec"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   },
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -9176,7 +9170,7 @@
    "circumspect"
   ],
   "example": "Circumspection is required before publishing the map.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -9186,27 +9180,21 @@
   ],
   "partIds": [
    "px-circum",
-   null,
+   "rx-spec",
    "sx-ion"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -31474,29 +31462,23 @@
   ],
   "partIds": [
    "px-im",
-   null,
+   "rx-spec",
    "sx-ion"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   },
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -31529,29 +31511,23 @@
   ],
   "partIds": [
    "px-im",
-   null,
+   "rx-spec",
    "sx-or"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   },
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -32827,7 +32803,7 @@
    "introspection"
   ],
   "example": "Good analysts introspect on their own assumptions.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -32837,26 +32813,20 @@
   ],
   "partIds": [
    "px-intra",
-   null
+   "rx-spec"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -32880,7 +32850,7 @@
    "introspect"
   ],
   "example": "A week of introspection followed the failed launch.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -32890,27 +32860,21 @@
   ],
   "partIds": [
    "px-intra",
-   null,
+   "rx-spec",
    "sx-ion"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -44909,29 +44873,23 @@
   ],
   "partIds": [
    "px-per",
-   null,
+   "rx-spec",
    "sx-ive"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   },
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -48370,28 +48328,22 @@
   ],
   "partIds": [
    "px-pro",
-   null
+   "rx-spec"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   },
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -48421,7 +48373,7 @@
    "prospect"
   ],
   "example": "Prospective buyers can request a test report.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -48431,27 +48383,21 @@
   ],
   "partIds": [
    "px-pro",
-   null,
+   "rx-spec",
    "sx-ive"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -48475,7 +48421,7 @@
    "prospect"
   ],
   "example": "The prospector staked a claim near the ridge.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -48485,27 +48431,21 @@
   ],
   "partIds": [
    "px-pro",
-   null,
+   "rx-spec",
    "sx-or"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -52613,7 +52553,7 @@
    "respectable"
   ],
   "example": "The method gained respectability after replication.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -52623,28 +52563,22 @@
   ],
   "partIds": [
    "px-re",
-   null,
+   "rx-spec",
    "sx-abil",
    "sx-ity"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -52669,7 +52603,7 @@
    "respectful"
   ],
   "example": "The journal has a respectable impact factor.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -52679,27 +52613,21 @@
   ],
   "partIds": [
    "px-re",
-   null,
+   "rx-spec",
    "sx-able"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -52726,29 +52654,23 @@
   ],
   "partIds": [
    "px-re",
-   null,
+   "rx-spec",
    "sx-ful"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   },
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -52778,7 +52700,7 @@
    "respectively"
   ],
   "example": "The two teams returned to their respective labs.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -52788,27 +52710,21 @@
   ],
   "partIds": [
    "px-re",
-   null,
+   "rx-spec",
    "sx-ive"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -52833,7 +52749,7 @@
    "respective"
   ],
   "example": "The samples weighed 2.1 and 3.4 grams respectively.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -52843,28 +52759,22 @@
   ],
   "partIds": [
    "px-re",
-   null,
+   "rx-spec",
    "sx-ive",
    "sx-ly"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -53279,7 +53189,7 @@
    "retrospect"
   ],
   "example": "The paper offers a retrospective on ten years of trials.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -53289,27 +53199,21 @@
   ],
   "partIds": [
    "px-retro",
-   null,
+   "rx-spec",
    "sx-ive"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -56958,7 +56862,7 @@
    "spectator"
   ],
   "example": "The launch was a spectacle visible for miles.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -56967,27 +56871,21 @@
    }
   ],
   "partIds": [
-   null,
+   "rx-spec",
    "sx-acle"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -57010,7 +56908,7 @@
    "spectator"
   ],
   "example": "Visitors may spectate but not touch the equipment.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -57019,27 +56917,21 @@
    }
   ],
   "partIds": [
-   null,
+   "rx-spec",
    "sx-ate"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -57063,29 +56955,23 @@
    "spect（看） + ator（施动者） → spectator"
   ],
   "partIds": [
-   null,
+   "rx-spec",
    "sx-ator"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   },
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -59764,7 +59650,7 @@
    "unsuspecting"
   ],
   "example": "Investigators suspect a fault in the cooling loop.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -59774,26 +59660,20 @@
   ],
   "partIds": [
    "px-sub",
-   null
+   "rx-spec"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {
@@ -64297,7 +64177,7 @@
    "suspect"
   ],
   "example": "The phishing mail reached unsuspecting staff.",
-  "verified": false,
+  "verified": true,
   "sources": [
    {
     "id": "S1",
@@ -64308,27 +64188,21 @@
   "partIds": [
    "px-un",
    "px-sub",
-   null,
+   "rx-spec",
    "sx-ing"
   ],
-  "partResolution": "ambiguous",
+  "partResolution": "exact",
   "analysis": {
    "lexical": true,
    "analyzable": true,
-   "segmentation": "partial",
-   "unresolved": [
-    {
-     "part": "spect",
-     "reason": "unresolved"
-    }
-   ],
+   "segmentation": "verified",
    "etymology": {
     "status": "documented",
     "sources": [
      "S1"
     ]
    },
-   "quizSafe": false
+   "quizSafe": true
   }
  },
  {

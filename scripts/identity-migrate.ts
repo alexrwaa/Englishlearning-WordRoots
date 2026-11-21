@@ -175,6 +175,8 @@ const SENSE_PATTERNS: Record<string, RegExp[]> = {
   'cx-ven-2': [/\bvena\b/i, /\bvein\b/i, /静脉|血管/, /intravenous/i],
   // capt- is two etymologies: caput "head" (captain, capital) and capere "take"
   // (capture, captive). The word's own etymology decides.
+  'rx-spec': [/specere/i, /spectare/i, /\blook\b/i, /看/, /inspect|respect|prospect|spectator|suspect|circumspect/i],
+  'rx-spectr': [/spectrum/i, /\bappearance\b/i, /影像|光谱/, /spectre|spectral/i],
   'rx-capit': [/\bcaput|capit/i, /头|首/, /capital|captain|chapter|decapitate/i],
   'rx-capt': [/\bcapere|\bcaptus/i, /抓|取|拿/, /capture|captive|caption|captivate|accept/i],
   'cx-plac-gk': [/flat/i, /plako?s?\b/i, /平面/, /平板/, /placoid|placenta|placoderm/i],

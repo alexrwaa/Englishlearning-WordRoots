@@ -5,7 +5,7 @@ use std::path::Path;
 
 use crate::paths;
 
-pub const SCHEMA_VERSION: i32 = 2;
+pub const SCHEMA_VERSION: i32 = 3;
 
 const MIGRATION_V1: &str = r#"
 CREATE TABLE IF NOT EXISTS meta (
@@ -94,6 +94,26 @@ CREATE INDEX IF NOT EXISTS idx_review_card_ts ON review(card_id, ts);
 CREATE INDEX IF NOT EXISTS idx_note_target ON note(target_type, target_id);
 "#;
 
+/// v3: learning-assessment runs move out of `localStorage` into the product
+/// database so they are covered by backups and travel with the portable folder.
+///
+/// `payload` is the full `RunResult` JSON (dimensions/overall/answers) and is
+/// treated as opaque text: an unreadable row is skipped by the read path instead
+/// of failing the whole query, so one bad write can never block startup.
+const MIGRATION_V3: &str = r#"
+CREATE TABLE IF NOT EXISTS assessment_runs (
+  id TEXT PRIMARY KEY,
+  mode TEXT NOT NULL,
+  item_bank_version INTEGER NOT NULL,
+  started_at INTEGER NOT NULL,
+  finished_at INTEGER NOT NULL,
+  duration_ms INTEGER NOT NULL,
+  payload TEXT NOT NULL,
+  created_at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_assessment_finished ON assessment_runs(finished_at DESC);
+"#;
+
 /// Apply every migration the database is missing. Kept separate from `open()` so
 /// it can be tested against an in-memory database at any starting version.
 pub fn migrate(conn: &mut Connection) -> Result<(), String> {
@@ -119,6 +139,17 @@ pub fn migrate(conn: &mut Connection) -> Result<(), String> {
         )
         .map_err(|e| e.to_string())?;
         version = 2;
+    }
+
+    if version < 3 {
+        conn.execute_batch(MIGRATION_V3).map_err(|e| e.to_string())?;
+        conn.execute(
+            "INSERT INTO meta(key, value) VALUES('schema_version', '3')
+             ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+            [],
+        )
+        .map_err(|e| e.to_string())?;
+        version = 3;
     }
 
     paths::log_line(&format!(
@@ -503,6 +534,128 @@ pub fn bookmarks(conn: &Connection) -> Result<Vec<BookmarkRow>, String> {
     rows.collect::<rusqlite::Result<Vec<_>>>().map_err(|e| e.to_string())
 }
 
+/* -------------------------- assessment runs -------------------------- */
+
+/// Upper bound for a history read. The UI only ever draws the newest handful,
+/// but a bounded read keeps a runaway database from blowing up IPC payloads.
+pub const ASSESSMENT_READ_LIMIT: i64 = 200;
+
+#[derive(Debug, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct AssessmentRunRow {
+    pub id: String,
+    pub mode: String,
+    pub item_bank_version: i64,
+    pub started_at: i64,
+    pub finished_at: i64,
+    pub duration_ms: i64,
+    pub payload: String,
+    pub created_at: i64,
+}
+
+/// Input of `assessment_save`: the run's metadata plus its whole `RunResult`
+/// as an opaque JSON value (scoring/answer detail lives in `payload`).
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct AssessmentRunInput {
+    pub id: String,
+    pub mode: String,
+    /// Older callers may omit it; the column has no sensible 0 value.
+    #[serde(default = "default_item_bank_version")]
+    pub item_bank_version: i64,
+    pub started_at: i64,
+    pub finished_at: i64,
+    pub duration_ms: i64,
+    #[serde(default)]
+    pub payload: serde_json::Value,
+}
+
+fn default_item_bank_version() -> i64 {
+    1
+}
+
+/// `{runs, skipped}`. `skipped` counts rows whose payload could not be parsed:
+/// they are dropped from `runs` but reported so the UI can say so instead of
+/// pretending the history is complete.
+#[derive(Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct AssessmentList {
+    pub runs: Vec<serde_json::Value>,
+    pub skipped: usize,
+}
+
+pub fn assessment_save(conn: &Connection, run: &AssessmentRunInput) -> Result<(), String> {
+    if run.id.trim().is_empty() {
+        return Err("assessment run id is required".into());
+    }
+    let payload = if run.payload.is_null() {
+        serde_json::json!({
+            "id": run.id,
+            "mode": run.mode,
+            "itemBankVersion": run.item_bank_version,
+            "startedAt": run.started_at,
+            "finishedAt": run.finished_at,
+            "durationMs": run.duration_ms,
+        })
+    } else {
+        run.payload.clone()
+    };
+    conn.execute(
+        "INSERT OR REPLACE INTO assessment_runs
+           (id, mode, item_bank_version, started_at, finished_at, duration_ms, payload, created_at)
+         VALUES(?1,?2,?3,?4,?5,?6,?7,?8)",
+        params![
+            &run.id,
+            &run.mode,
+            run.item_bank_version,
+            run.started_at,
+            run.finished_at,
+            run.duration_ms,
+            serde_json::to_string(&payload).map_err(|e| e.to_string())?,
+            paths::now_ms(),
+        ],
+    )
+    .map_err(|e| e.to_string())?;
+    Ok(())
+}
+
+/// Newest first. A row whose `payload` is not valid JSON is skipped and counted;
+/// one damaged row must never take the history (or startup) down with it.
+pub fn assessment_list(conn: &Connection, limit: i64) -> Result<AssessmentList, String> {
+    let limit = limit.clamp(1, ASSESSMENT_READ_LIMIT);
+    let mut stmt = conn
+        .prepare(
+            "SELECT payload FROM assessment_runs
+             ORDER BY finished_at DESC, created_at DESC LIMIT ?1",
+        )
+        .map_err(|e| e.to_string())?;
+    let rows = stmt
+        .query_map(params![limit], |r| r.get::<_, String>(0))
+        .map_err(|e| e.to_string())?;
+
+    let mut runs = Vec::new();
+    let mut skipped = 0usize;
+    for row in rows {
+        let raw = row.map_err(|e| e.to_string())?;
+        match serde_json::from_str::<serde_json::Value>(&raw) {
+            Ok(value) if value.is_object() => runs.push(value),
+            _ => skipped += 1,
+        }
+    }
+    Ok(AssessmentList { runs, skipped })
+}
+
+pub fn assessment_clear(conn: &Connection) -> Result<(), String> {
+    conn.execute("DELETE FROM assessment_runs", [])
+        .map_err(|e| e.to_string())?;
+    Ok(())
+}
+
+pub fn assessment_count(conn: &Connection) -> Result<i64, String> {
+    conn.query_row("SELECT COUNT(*) FROM assessment_runs", [], |r| r.get(0))
+        .map_err(|e| e.to_string())
+}
+
 /* ---------------------------- export ---------------------------- */
 
 #[derive(Serialize, Deserialize)]
@@ -520,6 +673,10 @@ struct Snapshot {
     /// import cleanly — in that case the current settings are left untouched.
     #[serde(default)]
     settings: Vec<serde_json::Value>,
+    /// Learning-assessment history (v3). Defaulted for the same reason: an old
+    /// export must not wipe a history it never carried.
+    #[serde(default, alias = "assessment_runs")]
+    assessment_run: Vec<serde_json::Value>,
 }
 
 /// Canonical snapshot body (no file I/O). Separated so it can be tested without
@@ -560,6 +717,7 @@ pub fn snapshot_json(conn: &Connection) -> Result<String, String> {
         note: notes(conn)?,
         bookmark: bookmarks(conn)?,
         settings: rows(conn, "SELECT key, value FROM settings")?,
+        assessment_run: rows(conn, "SELECT * FROM assessment_runs ORDER BY finished_at ASC")?,
     };
     serde_json::to_string_pretty(&snapshot).map_err(|e| e.to_string())
 }
@@ -677,6 +835,58 @@ pub fn import_snapshot(conn: &mut Connection, json: &str) -> Result<(), String> 
         )
         .map_err(|e| e.to_string())?;
     }
+
+    // Assessment history is replaced only when the file carries it, mirroring
+    // the settings rule: restoring a v2 backup must not delete runs recorded
+    // after that backup was written.
+    if !snapshot.assessment_run.is_empty() {
+        tx.execute_batch("DELETE FROM assessment_runs")
+            .map_err(|e| e.to_string())?;
+        for run in &snapshot.assessment_run {
+            let id = run.get("id").and_then(|v| v.as_str()).unwrap_or_default();
+            if id.is_empty() {
+                continue;
+            }
+            let mode = run.get("mode").and_then(|v| v.as_str()).unwrap_or("baseline");
+            let bank = run
+                .get("item_bank_version")
+                .or_else(|| run.get("itemBankVersion"))
+                .and_then(|v| v.as_i64())
+                .unwrap_or(1);
+            let started = run
+                .get("started_at")
+                .or_else(|| run.get("startedAt"))
+                .and_then(|v| v.as_i64())
+                .unwrap_or(0);
+            let finished = run
+                .get("finished_at")
+                .or_else(|| run.get("finishedAt"))
+                .and_then(|v| v.as_i64())
+                .unwrap_or(started);
+            let duration = run
+                .get("duration_ms")
+                .or_else(|| run.get("durationMs"))
+                .and_then(|v| v.as_i64())
+                .unwrap_or(0);
+            let created = run
+                .get("created_at")
+                .or_else(|| run.get("createdAt"))
+                .and_then(|v| v.as_i64())
+                .unwrap_or(finished);
+            let payload = match run.get("payload") {
+                Some(serde_json::Value::String(s)) => s.clone(),
+                Some(value) => serde_json::to_string(value).map_err(|e| e.to_string())?,
+                None => serde_json::to_string(run).map_err(|e| e.to_string())?,
+            };
+            tx.execute(
+                "INSERT OR REPLACE INTO assessment_runs
+                   (id,mode,item_bank_version,started_at,finished_at,duration_ms,payload,created_at)
+                 VALUES(?1,?2,?3,?4,?5,?6,?7,?8)",
+                params![id, mode, bank, started, finished, duration, payload, created],
+            )
+            .map_err(|e| e.to_string())?;
+        }
+    }
     tx.commit().map_err(|e| e.to_string())?;
     Ok(())
 }
@@ -718,7 +928,7 @@ mod tests {
 
         migrate(&mut conn).unwrap();
 
-        assert_eq!(read_version(&conn).unwrap(), 2);
+        assert_eq!(read_version(&conn).unwrap(), SCHEMA_VERSION);
         let elapsed: i64 = conn
             .query_row("SELECT elapsed_ms FROM lesson_state WHERE lesson_id='w01d1'", [], |r| r.get(0))
             .unwrap();
@@ -831,7 +1041,7 @@ mod tests {
         let mut conn = v1_only();
         migrate(&mut conn).unwrap();
         migrate(&mut conn).unwrap();
-        assert_eq!(read_version(&conn).unwrap(), 2);
+        assert_eq!(read_version(&conn).unwrap(), SCHEMA_VERSION);
     }
 
     #[test]
@@ -839,5 +1049,75 @@ mod tests {
         let mut conn = Connection::open_in_memory().unwrap();
         migrate(&mut conn).unwrap();
         assert_eq!(read_version(&conn).unwrap(), SCHEMA_VERSION);
+    }
+
+    fn sample_run(id: &str, finished_at: i64, bank: i64) -> AssessmentRunInput {
+        AssessmentRunInput {
+            id: id.into(),
+            mode: "baseline".into(),
+            item_bank_version: bank,
+            started_at: finished_at - 1000,
+            finished_at,
+            duration_ms: 1000,
+            payload: serde_json::json!({
+                "id": id, "mode": "baseline", "itemBankVersion": bank,
+                "startedAt": finished_at - 1000, "finishedAt": finished_at,
+                "durationMs": 1000, "answers": [], "dimensions": [], "overall": 50.0
+            }),
+        }
+    }
+
+    #[test]
+    fn assessment_save_is_upsert_and_read_newest_first() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        assessment_save(&conn, &sample_run("a", 1000, 1)).unwrap();
+        assessment_save(&conn, &sample_run("b", 2000, 2)).unwrap();
+        assessment_save(&conn, &sample_run("a", 3000, 3)).unwrap();
+
+        let list = assessment_list(&conn, ASSESSMENT_READ_LIMIT).unwrap();
+        assert_eq!(list.runs.len(), 2, "upsert must not duplicate ids");
+        assert_eq!(list.skipped, 0);
+        assert_eq!(list.runs[0]["id"], "a");
+        assert_eq!(list.runs[0]["itemBankVersion"], 3, "bank version round-trips");
+        assert_eq!(assessment_count(&conn).unwrap(), 2);
+    }
+
+    #[test]
+    fn assessment_list_skips_corrupt_payload() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        assessment_save(&conn, &sample_run("good", 1000, 1)).unwrap();
+        conn.execute(
+            "INSERT INTO assessment_runs(id,mode,item_bank_version,started_at,finished_at,duration_ms,payload,created_at)
+             VALUES('bad','baseline',1,0,2000,0,'{not json',0)",
+            [],
+        )
+        .unwrap();
+
+        let list = assessment_list(&conn, ASSESSMENT_READ_LIMIT).unwrap();
+        assert_eq!(list.runs.len(), 1);
+        assert_eq!(list.runs[0]["id"], "good");
+        assert_eq!(list.skipped, 1);
+
+        assessment_clear(&conn).unwrap();
+        assert_eq!(assessment_count(&conn).unwrap(), 0);
+    }
+
+    #[test]
+    fn snapshot_carries_assessment_runs() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        assessment_save(&conn, &sample_run("a", 1000, 2)).unwrap();
+
+        let json = snapshot_json(&conn).unwrap();
+        assert!(json.contains("assessment_run"));
+
+        let mut fresh = Connection::open_in_memory().unwrap();
+        migrate(&mut fresh).unwrap();
+        import_snapshot(&mut fresh, &json).unwrap();
+        let list = assessment_list(&fresh, ASSESSMENT_READ_LIMIT).unwrap();
+        assert_eq!(list.runs.len(), 1);
+        assert_eq!(list.runs[0]["id"], "a");
     }
 }

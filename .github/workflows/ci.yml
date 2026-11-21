@@ -52,6 +52,9 @@ jobs:
       # stopped meaning anything in 0.7.0.
       - name: Word status is current
         run: node scripts/migrate-word-status.mjs --check
+      # The status doc used to carry hand-typed counts that drifted within a day.
+      - name: Word status doc is current
+        run: node scripts/word-status-report.mjs --check
       - name: Review evidence audit
         run: node scripts/audit-reviews.mjs
       # A single unbalanced here-string in package-portable.ps1 broke the 0.5.0

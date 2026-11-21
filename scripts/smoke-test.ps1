@@ -266,6 +266,7 @@ function Invoke-Case {
     [string]$Workspace,
     [hashtable]$EnvVars = @{},
     [switch]$Selftest,
+    [switch]$SelftestTour,
     [string]$SelftestLesson = '',
     [string]$ReuseDir = '',
     [switch]$KeepCase,
@@ -314,6 +315,8 @@ function Invoke-Case {
     # Drives a specific lesson so the gate can prove a C9/C11 day is answerable,
     # not only the first day of week 1.
     if ($SelftestLesson) { $effectiveEnv['WORDROOTS_SELFTEST_LESSON'] = $SelftestLesson }
+    # Tour the family dossier and the assessment page in the same run.
+    if ($SelftestTour) { $effectiveEnv['WORDROOTS_SELFTEST_TOUR'] = '1' }
 
     # Chromium/WebView2 diagnostics go to stderr; without capturing them a blank
     # window is undebuggable. The files travel with the smoke evidence.
@@ -423,6 +426,29 @@ function Invoke-Case {
           }
         } else {
           $selftestNote = "ok=$ok attempts $attemptsBefore->$attemptsAfter steps=$steps fatal=$fatal"
+        }
+
+        # Route tour: the pages added in 0.8.0 must render with real data, and a
+        # finished assessment run must be persisted. Both are asserted from the
+        # payload the renderer wrote, not from a screenshot.
+        if ($SelftestTour) {
+          $tour = $body.tour
+          if ($null -eq $tour) {
+            $selftestVerdict = 'FAIL'
+            $selftestNote = "$selftestNote | tour missing"
+          } else {
+            $famOk = [bool]$tour.family.ok
+            $famMembers = [int]$tour.family.members
+            $assessOk = [bool]$tour.assessment.ok
+            $runs = [int]$tour.assessment.runs
+            $selftestNote = "$selftestNote | family ok=$famOk members=$famMembers | assessment ok=$assessOk runs=$runs"
+            if (-not $famOk -or -not $assessOk) {
+              $selftestVerdict = 'FAIL'
+              $tourErrors = @()
+              if ($tour.errors) { $tourErrors = @($tour.errors) }
+              if ($tourErrors.Count -gt 0) { $selftestNote = "$selftestNote | $($tourErrors -join '; ')" }
+            }
+          }
         }
       }
       Write-Host "selftest: $selftestVerdict ($selftestNote)"
@@ -726,6 +752,18 @@ try {
   Invoke-Case -Id '10' -Title '10 C11 音变单元答题' `
     -Expect 'w15d1 可进入、可作答、尝试数增长' `
     -Workspace $asciiRoot -Selftest -SelftestLesson 'w15d1' -EnvVars $cleanEnv | Out-Null
+
+  # 11 — boundary items (0.7.0) must still work in the shipped binary: w38d2 is
+  # five cut-selection tasks, so this proves the picker renders and grades.
+  Invoke-Case -Id '11' -Title '11 切分题型答题' `
+    -Expect 'w38d2（boundary）可进入、可提交、尝试数增长' `
+    -Workspace $asciiRoot -Selftest -SelftestLesson 'w38d2' -EnvVars $cleanEnv | Out-Null
+
+  # 12 — the pages added in 0.8.0: the family dossier must list real members and
+  # the assessment page must be answerable and persist a finished run.
+  Invoke-Case -Id '12' -Title '12 词族档案与测评' `
+    -Expect 'fam-spect 档案显示成员；测评答题后保存至少 1 条记录' `
+    -Workspace $asciiRoot -Selftest -SelftestTour -SelftestLesson 'w01d1' -EnvVars $cleanEnv | Out-Null
 } finally {
   if ($null -ne $registryBackup) { Restore-ProxyRegistry $registryBackup }
   Restore-ProcessEnv

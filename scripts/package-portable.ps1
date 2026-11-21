@@ -152,16 +152,67 @@ Windows 自行安装与维护）。
 ----------
 本软件为开源项目（MIT）。课程内容为基于公开语言学资料的原创中文讲解，
 不包含任何受版权保护的教材原文。
+
+courses 目录是只读副本，不是可热更新的内容包
+--------------------------------------------
+courses\ 下的课程、词库、词族档案与测评题库，是构建时打进 EXE 里那一份的
+可读副本，供你核对版本、比对内容、检查哈希（见 courses\CONTENT-HASHES.json）。
+直接修改这些 JSON 不会改变软件运行时的行为——程式读的是编译进包内的数据。
+要改内容请改源码并重新构建。
 "@
 Write-Utf8NoBom -Path (Join-Path $app 'README.txt') -Text $readme
 
 # Fail loudly if anything the app needs at runtime is missing.
 $required = @('WordRoots.exe', 'README.txt', 'BUILD-INFO.json', 'data', 'courses', 'courses/manifest.json',
   'courses/lexicon/forms.json', 'courses/lexicon/morphemes.json', 'courses/lexicon/words.json',
-  'courses/lexicon/concepts.json', 'app-data', 'backups')
+  'courses/lexicon/concepts.json', 'courses/families', 'courses/assessment/items.json',
+  'app-data', 'backups')
 foreach ($item in $required) {
   if (-not (Test-Path (Join-Path $app $item))) { throw "portable layout missing: $item" }
 }
+
+# The dossier and item-bank copies are inspection artifacts: the app runs the
+# versions compiled into its bundle. They are still required, because a release
+# whose readable content is incomplete is a release nobody can audit.
+# Counts, ids and schemas are checked here; hashes are written alongside so a
+# reviewer can tell whether the copy they read is the one that shipped.
+$familyFiles = @(Get-ChildItem -LiteralPath (Join-Path $app 'courses/families') -Filter '*.json' -File)
+if ($familyFiles.Count -lt 12) { throw "courses/families has $($familyFiles.Count) dossiers, expected at least 12" }
+$familyIds = @{}
+foreach ($file in $familyFiles) {
+  $dossier = Get-Content -LiteralPath $file.FullName -Raw -Encoding UTF8 | ConvertFrom-Json
+  if (-not $dossier.id) { throw "family dossier without id: $($file.Name)" }
+  if ($familyIds.ContainsKey($dossier.id)) { throw "duplicate family id: $($dossier.id)" }
+  $familyIds[$dossier.id] = $true
+  $members = @($dossier.members)
+  if ($members.Count -lt 5) { throw "family $($dossier.id) has $($members.Count) members, expected >= 5" }
+  if (-not $dossier.root -or -not $dossier.root.form) { throw "family $($dossier.id) has no root form" }
+}
+
+$bankPath = Join-Path $app 'courses/assessment/items.json'
+$bank = Get-Content -LiteralPath $bankPath -Raw -Encoding UTF8 | ConvertFrom-Json
+$items = @($bank.items)
+if ($items.Count -lt 60) { throw "assessment bank has $($items.Count) items, expected at least 60" }
+$itemIds = @{}
+$dims = @{}
+foreach ($item in $items) {
+  if (-not $item.id) { throw 'assessment item without id' }
+  if ($itemIds.ContainsKey($item.id)) { throw "duplicate assessment id: $($item.id)" }
+  $itemIds[$item.id] = $true
+  if ($null -eq $item.answer) { throw "assessment item $($item.id) has no answer key" }
+  if (-not $item.explain) { throw "assessment item $($item.id) has no explain" }
+  $dims[$item.dimension] = $true
+}
+if ($dims.Count -lt 5) { throw "assessment bank covers $($dims.Count) dimensions, expected 5" }
+
+$hashes = [ordered]@{}
+foreach ($file in @(Get-ChildItem -LiteralPath (Join-Path $app 'courses/families') -Filter '*.json' -File | Sort-Object Name)) {
+  $hashes["families/$($file.Name)"] = (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash.ToLower()
+}
+$hashes['assessment/items.json'] = (Get-FileHash -LiteralPath $bankPath -Algorithm SHA256).Hash.ToLower()
+$hashFile = [ordered]@{ generatedAt = (Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ'); files = $hashes }
+Write-Utf8NoBom -Path (Join-Path $app 'courses/CONTENT-HASHES.json') -Text ($hashFile | ConvertTo-Json -Depth 4)
+Write-Host "families: $($familyFiles.Count), assessment items: $($items.Count), dimensions: $($dims.Count)"
 
 # Exact structural check against the index: week folders, lesson ids, lexicon
 # integrity (every morpheme reachable from forms.json and vice versa).

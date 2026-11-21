@@ -4,7 +4,10 @@ use std::sync::atomic::{AtomicBool, Ordering};
 use std::sync::{Arc, Mutex};
 use tauri::{Manager, State};
 
-use crate::db::{self, AttemptRow, BookmarkRow, CardRow, DailyStat, KindStat, LessonStateRow, NoteRow, ReviewRow};
+use crate::db::{
+    self, AssessmentList, AssessmentRunInput, AttemptRow, BookmarkRow, CardRow, DailyStat, KindStat,
+    LessonStateRow, NoteRow, ReviewRow,
+};
 use crate::paths;
 
 pub struct Db(pub Mutex<rusqlite::Connection>);
@@ -28,6 +31,8 @@ pub struct AppInfo {
     /// Which lesson the self-test drives (WORDROOTS_SELFTEST_LESSON). Lets the
     /// release gate prove that a C9/C11 lesson can be answered, not just day 1.
     selftest_lesson: String,
+    /// Ask the renderer to also tour the family and assessment pages.
+    selftest_tour: bool,
     /// Browser arguments actually handed to WebView2 (proxy isolation proof).
     webview_args: String,
     /// True when the binary still loads the dev server instead of bundled assets.
@@ -50,6 +55,7 @@ pub fn app_info() -> AppInfo {
         portable: std::env::var("WORDROOTS_DATA_DIR").is_err(),
         selftest: std::env::var("WORDROOTS_SELFTEST").map(|v| v == "1").unwrap_or(false),
         selftest_lesson: std::env::var("WORDROOTS_SELFTEST_LESSON").unwrap_or_else(|_| "w01d1".to_string()),
+        selftest_tour: std::env::var("WORDROOTS_SELFTEST_TOUR").map(|v| v == "1").unwrap_or(false),
         webview_args: std::env::var("WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS").unwrap_or_default(),
         dev_mode: tauri::is_dev(),
     }
@@ -283,6 +289,35 @@ pub fn toggle_bookmark(
         .map_err(|e| e.to_string())?;
         Ok(true)
     }
+}
+
+/* --------------------------- assessment runs --------------------------- */
+
+/// Newest-first history, capped at 200 rows by `db::assessment_list`.
+/// `skipped` reports rows whose payload no longer parses, so the caller can
+/// surface a warning instead of silently losing history.
+#[tauri::command]
+pub fn assessment_list(db: State<Db>) -> Result<AssessmentList, String> {
+    let conn = db.0.lock().map_err(|e| e.to_string())?;
+    db::assessment_list(&conn, db::ASSESSMENT_READ_LIMIT)
+}
+
+#[tauri::command]
+pub fn assessment_save(db: State<Db>, run: AssessmentRunInput) -> Result<(), String> {
+    let conn = db.0.lock().map_err(|e| e.to_string())?;
+    db::assessment_save(&conn, &run)
+}
+
+#[tauri::command]
+pub fn assessment_clear(db: State<Db>) -> Result<(), String> {
+    let conn = db.0.lock().map_err(|e| e.to_string())?;
+    db::assessment_clear(&conn)
+}
+
+#[tauri::command]
+pub fn assessment_count(db: State<Db>) -> Result<i64, String> {
+    let conn = db.0.lock().map_err(|e| e.to_string())?;
+    db::assessment_count(&conn)
 }
 
 #[tauri::command]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T00:57:42.657Z",
+  "generatedAt": "2026-11-21T03:16:21.761Z",
   "identity": {
     "morphemes": 797,
     "forms": 1019,
@@ -122,7 +122,7 @@
   "knowledgeBase": {
     "morphemes": 797,
     "words": 1473,
-    "verifiedWords": 972,
+    "verifiedWords": 993,
     "concepts": 35,
     "families": 420
   },
@@ -1621,7 +1621,8 @@
       "verifiedWords": [
         "auricle",
         "obstacle",
-        "receptacle"
+        "receptacle",
+        "spectacle"
       ],
       "teaching": [],
       "practice": [],
@@ -12801,11 +12802,11 @@
       "reason": "",
       "verifiedWords": [
         "aspect",
+        "circumspect",
+        "circumspection",
         "expect",
         "expectancy",
-        "expectant",
-        "expectation",
-        "inspect"
+        "expectant"
       ],
       "teaching": [
         {

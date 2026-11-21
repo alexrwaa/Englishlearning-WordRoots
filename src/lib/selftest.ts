@@ -32,8 +32,16 @@ const RENDER_TIMEOUT_MS = 15_000;
 const STUCK_LIMIT = 8;
 const MAX_ERRORS = 10;
 
+export interface TourResult {
+  family: { ok: boolean; route: string; members: number; hasDossier: boolean; coreIdea: string };
+  assessment: { ok: boolean; route: string; runs: number; storageKey: string; answered: number };
+  errors: string[];
+}
+
 export interface SelftestResult {
   ok: boolean;
+  /** Route tour: proves the pages added in 0.8.0 render with real data. */
+  tour?: TourResult;
   steps: number;
   attemptsBefore: number;
   attemptsAfter: number;
@@ -60,6 +68,7 @@ export interface SelftestResult {
 type AppInfoWithSelftest = AppInfo & {
   selftest?: boolean;
   selftestLesson?: string;
+  selftestTour?: boolean;
   webviewArgs?: string;
 };
 
@@ -250,12 +259,98 @@ async function driveLesson(lessonId?: string): Promise<{
   };
 }
 
+/**
+ * Route tour. The lesson driver proves the session works; this proves the two
+ * pages added in 0.8.0 do too — the family dossier must list real members and
+ * the assessment page must be answerable and persist a finished run.
+ */
+async function tour(): Promise<TourResult> {
+  const errors: string[] = [];
+  const result: TourResult = {
+    family: { ok: false, route: '#/family/fam-spect', members: 0, hasDossier: false, coreIdea: '' },
+    assessment: { ok: false, route: '#/assessment', runs: 0, storageKey: 'wordroots.assessment.v1', answered: 0 },
+    errors,
+  };
+
+  // --- family dossier -----------------------------------------------------
+  try {
+    location.hash = '#/family/fam-spect';
+    const dossier = await waitFor(
+      () => (document.body.innerText.includes('词族档案') ? document.body : null),
+      15_000,
+    );
+    if (dossier) {
+      const text = dossier.innerText;
+      result.family.hasDossier = true;
+      const rows = document.querySelectorAll('table tbody tr');
+      result.family.members = rows.length;
+      const marker = text.indexOf('先自己归纳');
+      result.family.coreIdea = marker >= 0 ? text.slice(marker, marker + 60).replace(/\s+/g, ' ') : '';
+      result.family.ok = rows.length >= 8 && text.includes('同源异途') ;
+    } else {
+      errors.push('family page: 词族档案 did not render within 15s');
+    }
+  } catch (error) {
+    errors.push(`family page: ${error instanceof Error ? error.message : String(error)}`);
+  }
+
+  // --- assessment ---------------------------------------------------------
+  try {
+    location.hash = '#/assessment';
+    const modes = await waitFor(() => document.querySelector('.assess-modes'), 15_000);
+    if (!modes) {
+      errors.push('assessment page: mode picker did not render');
+    } else {
+      const start = modes.querySelector('button');
+      if (start instanceof HTMLElement) start.click();
+      let steps = 0;
+      let answered = 0;
+      while (steps < 120) {
+        const choice = document.querySelector('.choice:not([disabled])') as HTMLElement | null;
+        if (choice) {
+          choice.click();
+          answered += 1;
+          await sleep(60);
+        }
+        const primary = document.querySelector('button.btn-primary:not([disabled])') as HTMLElement | null;
+        if (!primary) break;
+        primary.click();
+        steps += 1;
+        await sleep(120);
+        if (localStorage.getItem('wordroots.assessment.v1')) {
+          const saved = JSON.parse(localStorage.getItem('wordroots.assessment.v1') || '{}') as { runs?: unknown[] };
+          if ((saved.runs?.length ?? 0) > 0) {
+            result.assessment.runs = saved.runs?.length ?? 0;
+            break;
+          }
+        }
+      }
+      result.assessment.answered = answered;
+      try {
+        const raw = localStorage.getItem('wordroots.assessment.v1');
+        const saved = raw ? (JSON.parse(raw) as { runs?: unknown[] }) : { runs: [] };
+        result.assessment.runs = saved.runs?.length ?? 0;
+      } catch (error) {
+        errors.push(`assessment storage: ${error instanceof Error ? error.message : String(error)}`);
+      }
+      result.assessment.ok = result.assessment.runs >= 1;
+      if (!result.assessment.ok) errors.push(`assessment page: no run saved after ${steps} steps`);
+    }
+  } catch (error) {
+    errors.push(`assessment page: ${error instanceof Error ? error.message : String(error)}`);
+  }
+
+  location.hash = '#/';
+  await sleep(200);
+  return result;
+}
+
 async function report(payload: Record<string, unknown>) {
   const invoke = await getInvoke();
   await invoke('frontend_ready', { payload });
 }
 
-async function run(lessonId?: string): Promise<SelftestResult> {
+async function run(lessonId?: string, withTour = false): Promise<SelftestResult> {
   const startedAt = performance.now();
   const errors: string[] = [];
   // Unhandled rejections are recorded but do not fail the run: a background
@@ -306,6 +401,12 @@ async function run(lessonId?: string): Promise<SelftestResult> {
     window.removeEventListener('unhandledrejection', onRejection);
   }
 
+  // Optional route tour (WORDROOTS_SELFTEST_TOUR=1): family dossier + assessment.
+  let tourResult: TourResult | undefined;
+  if (withTour) {
+    tourResult = await tour();
+  }
+
   // Leave the lesson so a screenshot or a following check sees the home page.
   location.hash = '#/';
   await sleep(350);
@@ -327,6 +428,7 @@ async function run(lessonId?: string): Promise<SelftestResult> {
     // The lesson screen was captured inside driveLesson; fall back to the current
     // page only when the lesson never rendered (a fatal run).
     ...(paint ?? paintEvidence()),
+    ...(tourResult ? { tour: tourResult } : {}),
   };
   return result;
 }
@@ -339,10 +441,12 @@ export async function maybeRunSelftest(): Promise<void> {
   if (!IS_TAURI) return;
   let enabled = false;
   let selftestLesson: string | undefined;
+  let selftestTour = false;
   try {
     const info = await call<AppInfoWithSelftest>('app_info');
     enabled = info?.selftest === true;
     selftestLesson = info?.selftestLesson;
+    selftestTour = info?.selftestTour === true;
   } catch (err) {
     console.warn('[wordroots] selftest: app_info unavailable:', err);
     return;
@@ -351,7 +455,7 @@ export async function maybeRunSelftest(): Promise<void> {
 
   let result: SelftestResult;
   try {
-    result = await run(selftestLesson);
+    result = await run(selftestLesson, selftestTour);
   } catch (err) {
     result = {
       ok: false,
