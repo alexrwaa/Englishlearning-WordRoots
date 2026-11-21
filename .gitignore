@@ -18,6 +18,8 @@ scripts/morpheme-refs.json
 
 # local textbook analysis workspace (derived from a user-provided EPUB; not redistributed)
 analysis/
+# full-text reference dumps (e.g. Lewis & Short 1879 OCR) are never redistributed
+analysis/reference/
 
 # scratch output for API probes (never shipped)
 .tmp/

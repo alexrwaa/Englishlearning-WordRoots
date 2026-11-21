@@ -22,8 +22,8 @@
   ],
   "minutes": {
     "review": 5,
-    "learn": 8,
-    "practice": 8,
+    "learn": 9,
+    "practice": 9,
     "apply": 5
   },
   "level": "B2",
@@ -183,6 +183,16 @@
         "rx-cid",
         "cx-i"
       ]
+    },
+    {
+      "kind": "text",
+      "title": "再来一组：规则先由你写",
+      "body": "下面六个都是规则动词的过去式，音标已给：\n\n- walked /wɔːkt/\n- looked /lʊkt/\n- played /pleɪd/\n- cleaned /kliːnd/\n- wanted /ˈwɒntɪd/\n- decided /dɪˈsaɪdɪd/\n\n任务分三步：① 找出它们共同的结尾；② 按结尾的读音分组；③ 用一句话写出“什么时候读哪个音”。**先写下来，再翻下一张。**不写就往下看，你会以为自己早就知道——那正是这一步要防的错觉。"
+    },
+    {
+      "kind": "text",
+      "title": "反例来了：blessed 与 learned",
+      "body": "你写的多半是“-ed 读 /t/ 或 /d/，前面是 t/d 时读 /ɪd/”。现在看反例：**a blessed event** 读 /ˈblesɪd/，**a learned professor** 读 /ˈlɜːnɪd/。两处都多出 /ɪd/，前面却不是 t 或 d——规则被推翻了。\n\n修正不是丢掉规则，而是给它加条件：**规则管的是动词的屈折形式**；这两个词已经形容词化，读音按词条单独存储，属词汇条件。证据是同形对比：The priest blessed the bread 读 /blest/（动词，按规则），a blessed event 读 /ˈblesɪd/（形容词，按词条）。判定顺序：先问是不是规则动词的过去式，再看是不是已形容词化的固定词。"
     }
   ],
   "practice": [
@@ -275,6 +285,35 @@
       "concepts": [
         "cur",
         "ob"
+      ]
+    },
+    {
+      "id": "w38d1-p6",
+      "kind": "mcq",
+      "prompt": "下面哪一条规则能同时解释 walked /wɔːkt/、played /pleɪd/、wanted /ˈwɒntɪd/ 与 blessed /ˈblesɪd/（形容词）？",
+      "choices": [
+        "动词 -ed 的读音由前一个音决定；少数已形容词化的 -ed 词另有固定读音，须按词条记",
+        "-ed 一律读 /ɪd/，其他读法都是例外",
+        "-ed 的读音只由拼写决定：前面是 t 或 d 才读 /ɪd/，其余一律读 /d/",
+        "所有 -ed 都读 /t/，只有形容词除外"
+      ],
+      "answer": 0,
+      "explain": "第一版假设（只看前一个音）能解释 walked、played、wanted，却被 blessed 推翻；能同时解释四者的，是加了条件的版本：屈折层按语音条件，词汇层按词条。第二项与 walked 冲突；第三项漏掉 /t/ 与 /d/ 的清浊分工，也解释不了 blessed；第四项与 played 冲突。归纳的产出不是“一条万能规则”，而是“规则 + 它的适用层级”。"
+    },
+    {
+      "id": "w38d1-p7",
+      "kind": "boundary",
+      "prompt": "切开 decided（过去式），标出屈折后缀",
+      "word": "decided",
+      "segments": [
+        "de",
+        "cid",
+        "ed"
+      ],
+      "explain": "de + cid + ed。de- 表“离开”，cid 是“切”的动词词干，-ed 是屈折后缀（不是派生后缀：加完仍是动词的过去式）。读音是 /dɪˈsaɪdɪd/：词干以 /d/ 结尾，所以 -ed 读 /ɪd/——这正符合上一题修正后的规则。把 -ed 当屈折词缀切出来，才能解释它为什么不改变词类。",
+      "concepts": [
+        "de",
+        "cid"
       ]
     }
   ],

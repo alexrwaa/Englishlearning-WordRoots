@@ -166,6 +166,19 @@
           "note": "pyr 取引申义“发烧”，anti“抗”，-etic 构成形容词"
         }
       ]
+    },
+    {
+      "kind": "text",
+      "title": "另一条通道：实词变语法词",
+      "body": "表里五条讲的是实词义项之间的挪移；还有一条通道会连词类一起换掉，叫**语法化（grammaticalization）**：一个实词逐步变成语法成分。\n\n典型链条是 be going to：go 本是“走”（实义动词），be going to 先表“正前往”，再表“打算”，最后弱化成 gonna，只剩将来标记。while 来自古英语 hwīl“一段时间”，very 来自古法语 verai“真的”，走的都是同一条路。\n\n语法化通常伴随三件事：**语义漂白**（内容义退、功能义进）、**去范畴化**（失去原来的词性与搭配能力）、**语音弱化**（going to → gonna）。它还有**单向性**：实词→语法词常见，反过来极少。所以它与普通义变要分开：普通义变仍留在同一词类里，语法化是跨到功能词那一层。",
+      "terms": [
+        {
+          "term": "grammaticalization",
+          "zh": "语法化",
+          "en": "grammaticalization",
+          "note": "实词逐步变成语法词的过程，常伴语义漂白、去范畴化与语音弱化"
+        }
+      ]
     }
   ],
   "practice": [
@@ -254,6 +267,18 @@
         "c-metaphor",
         "c-metonymy"
       ]
+    },
+    {
+      "id": "w36d3-p6",
+      "kind": "cloze",
+      "prompt": "填入一个语言学英文术语",
+      "sentence": "The development of be going to from a verb of motion into a future marker is a textbook case of ___.",
+      "answer": "grammaticalization",
+      "accept": [
+        "grammaticalization",
+        "语法化"
+      ],
+      "explain": "填 grammaticalization（语法化）。判定特征不是“意义变了”，而是“从实词跨到了语法词”：go 的“走”义被漂白，be going to 失去原有的进行体与位移搭配，语音又弱化成 gonna，最后只标将来。只讲“词义变化”会漏掉词类与语法功能的转移。"
     }
   ],
   "apply": [

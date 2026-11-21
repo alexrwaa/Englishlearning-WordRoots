@@ -146,6 +146,19 @@
       "kind": "text",
       "title": "用对应来认借词",
       "body": "这条规则在词汇上的用处，比在历史上大得多：**同一个拉丁词根，若英语形式保留了 p、t、k，多半是后来借入的；若变成 f、th、h，多半是同源继承的。**\n\n- 拉丁 pēs／pedis：pedal、pedestrian、podiatry 保留 p（借词）；foot 变成 f（继承）。\n- 拉丁 trēs：triple、triangle、trilogy 保留 t（借词）；three 变成 th（继承）。\n- 拉丁 canis：canine、canicular 保留 k（借词）；hound 变成 h（继承）。\n\n一组意义、两套词形——英语里到处都是这种“双份”。判断哪份是哪份，就靠这条对应。它也是后面几周辨别拉丁借词层的底层工具。"
+    },
+    {
+      "kind": "text",
+      "title": "另一类音变：两个音换了位置",
+      "body": "格里姆定律是**成批、有方向**的对应；音变还有另一类：**音位置换（metathesis）**——两个音在词里交换位置，往往只发生在个别词上。古英语 **brid** 变成现代 **bird**；**þurh** 变成 **through**；古英语 **acsian** 与 **ascian** 两种拼法并存，现代 **ask** 承自后者。这类变化不遵守格里姆定律，也不能拿来建语系对应，因为它不是系统推移，而是零星的换位。\n\n它有一个实用后果：看到对不上的词形，先别急着怀疑同源关系，先查是不是换过位。另一个后果是别把 **aks** 当成“口误”：它是 ask 的换位读法，在部分英语变体里连续使用了几百年（第 26 周第 4 天）。",
+      "terms": [
+        {
+          "term": "metathesis",
+          "zh": "音位置换",
+          "en": "metathesis",
+          "note": "两个音在词内交换位置，通常只影响个别词"
+        }
+      ]
     }
   ],
   "practice": [
@@ -233,6 +246,19 @@
         "c-cognate",
         "c-inference"
       ]
+    },
+    {
+      "id": "w34d1-p6",
+      "kind": "cloze",
+      "prompt": "填入一个语言学英文术语",
+      "sentence": "Old English brid became Modern English bird by ___: the r and the vowel swapped places inside the word.",
+      "answer": "metathesis",
+      "accept": [
+        "metathesis",
+        "音位置换",
+        "换位"
+      ],
+      "explain": "填 metathesis（音位置换）。brid → bird、þurh → through、acsian → ascian 都是两个音互换位置。它与格里姆定律的区别要记牢：格里姆定律成批、有方向，能用来建对应；音位置换是零星的，只影响个别词，因此既不能用来证明同源，也不能当成“口误”解释。"
     }
   ],
   "apply": [

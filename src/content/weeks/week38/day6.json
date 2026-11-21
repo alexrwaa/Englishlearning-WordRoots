@@ -202,6 +202,38 @@
         "able"
       ],
       "morphemeIds": []
+    },
+    {
+      "kind": "table",
+      "title": "把三层算式画成树：每个节点都必须是一个词",
+      "body": "S2 要求会画形态树形图。树与本站的算式是同一结构的两种写法：算式靠换行表示层级，树靠分叉。下表按“叶子到根”的顺序列出 unhelpfulness 的四个节点；画成树时，每一行就是一个分叉点。括号写法按同一顺序读：先 help + ful，再 un + 那个结果，最后 + ness。\n\n若画出 *unhelp 或 *fulness 这样的节点，树就错了——它们不是英语的词。三条规则：① 每个内部节点必须是**真实存在的词**；② 每个分叉只加**一个**成分；③ 叶子从左到右拼回原词。",
+      "head": [
+        "节点",
+        "由谁组成",
+        "为什么必须存在"
+      ],
+      "rows": [
+        [
+          "help",
+          "词根（自由词）",
+          "叶节点，不能再切"
+        ],
+        [
+          "helpful",
+          "help + ful",
+          "第一层派生；内部节点必须成立，否则说明 -ful 接错了宿主"
+        ],
+        [
+          "unhelpful",
+          "un + helpful",
+          "第二层派生；证明 un- 接的是形容词 helpful，而不是 help"
+        ],
+        [
+          "unhelpfulness",
+          "unhelpful + ness",
+          "根节点，整词；证明 -ness 接的是形容词 unhelpful"
+        ]
+      ]
     }
   ],
   "practice": [
@@ -283,6 +315,19 @@
         "man",
         "script"
       ]
+    },
+    {
+      "id": "w38d6-p6",
+      "kind": "mcq",
+      "prompt": "下面哪个括号切分正确反映了 unhelpfulness 的层级？",
+      "choices": [
+        "[[un + [help + ful]] + ness]",
+        "[[[un + help] + ful] + ness]",
+        "[un + [help + [ful + ness]]]",
+        "[[un + help] + [ful + ness]]"
+      ],
+      "answer": 0,
+      "explain": "un- 加在形容词 helpful 上，-ness 加在形容词 unhelpful 上，所以是 [[un + [help + ful]] + ness]。第二项要求 *unhelp 是个词（不是）；第三项要求 *fulness 是个词（不是）；第四项同时要求 *unhelp 与 *fulness，且把整词切成两块。检验办法就是树的三条规则：每个内部节点都得是真实存在的词。"
     }
   ],
   "apply": [

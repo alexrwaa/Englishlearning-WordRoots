@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T15:38:09.536Z",
+  "generatedAt": "2026-11-21T16:30:03.551Z",
   "identity": {
     "morphemes": 796,
     "forms": 1019,
@@ -115,7 +115,13 @@
       "id": "LEX",
       "title": "Internal lexical rules (project-defined)",
       "status": "derived",
-      "role": "method"
+      "role": "rule"
+    },
+    {
+      "id": "G2",
+      "title": "A Latin Dictionary (Lewis & Short, founded on Andrews' edition of Freund's Latin dictionary)",
+      "status": "full-text",
+      "role": "dictionary"
     }
   ],
   "knowledgeBase": {
@@ -473,7 +479,7 @@
       "level": "L5",
       "name": "有讲解",
       "rule": "某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段）",
-      "count": 229,
+      "count": 230,
       "total": 559,
       "pct": 41,
       "gaps": [
@@ -839,14 +845,14 @@
   "evidence": {
     "l5": {
       "id": 41,
-      "text": 166,
+      "text": 167,
       "form": 22
     },
     "l6": {
       "form": 179,
       "text": 32
     },
-    "chapterTopicOnly": 287,
+    "chapterTopicOnly": 286,
     "l7": {
       "gloss+etymology": 19,
       "identity+gloss+etymology+derivation": 206,
@@ -8993,6 +8999,12 @@
           "lesson": "w32d4",
           "card": "先给已经做过的事命名",
           "snippet": "学过 cats 的 [s] 与 dogs 的 [z]。 **morphology（形态学）**：词怎么由更小的意义单位构成。这是本书的主干"
+        },
+        {
+          "kind": "text",
+          "lesson": "w33d4",
+          "card": "四种类型：一张十九世纪的标签表",
+          "snippet": "四种类型：一张十九世纪的标签表 **形态类型学（morphological typology）**按“语法信息放在哪”把语言分"
         }
       ],
       "practice": [
@@ -14761,16 +14773,23 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": false,
+        "L5": true,
         "L6": false,
         "L7": false
       },
       "gap": "L4",
       "reason": "verified 词条只有 0 个（需要 2 个）",
       "verifiedWords": [],
-      "teaching": [],
+      "teaching": [
+        {
+          "kind": "text",
+          "lesson": "w33d4",
+          "card": "四种类型：一张十九世纪的标签表",
+          "snippet": "*（一个词缀只管一项语法意义，如土耳其语 ev-ler-im-den“从我的那些房子”）、**屈折语**（一个词尾同时承担几项，如拉丁 -ō"
+        }
+      ],
       "practice": [],
-      "chapterTopicOnly": true
+      "chapterTopicOnly": false
     },
     {
       "id": "el-dendr-g-11",

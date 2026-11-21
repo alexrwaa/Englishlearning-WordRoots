@@ -144,8 +144,8 @@
     },
     {
       "kind": "text",
-      "title": "三个容易踩的坑",
-      "body": "**坑一：把规则推广到本族词。** get、give、girl、begin 都是本族词，g 仍读 [g]；kill、king、kiss 的 k 也还是 [k]。软化是借词层的现象，不是英语的普遍拼读律。\n\n**坑二：以为 c 在 a 前一定读 [k]。** 本族词如此（cat、can），但法语借词里 c 在 a 前也可能软化，例如 **chief** 来自 caput，ch 就是软化的结果。\n\n**坑三：拿拼写反推拉丁音。** 看到 **Celtic** 有两个读法（[ˈkeltɪk] / [ˈseltɪk]）就知道：拼写不决定读音，社团惯例才决定。学术词、专名、地名各有自己的传统。",
+      "title": "四个容易踩的坑",
+      "body": "**坑一：把规则推广到本族词。** get、give、girl、begin 都是本族词，g 仍读 [g]；kill、king、kiss 的 k 也还是 [k]。软化是借词层的现象，不是英语的普遍拼读律。\n\n**坑二：以为 c 在 a 前一定读 [k]。** 本族词如此（cat、can），但法语借词里 c 在 a 前也可能软化，例如 **chief** 来自 caput，ch 就是软化的结果。\n\n**坑三：拿拼写反推拉丁音。** 看到 **Celtic** 有两个读法（[ˈkeltɪk] / [ˈseltɪk]）就知道：拼写不决定读音，社团惯例才决定。学术词、专名、地名各有自己的传统。\n\n**坑四：把拼写读出来。** often 的 t 在中古英语后就不再发音，读 /ˈɒfən/；但十七世纪以后，识字的人按拼写把它读了回来，/ˈɒftən/ 成了另一种通行读法。这类**按字形恢复某个音**的读法叫 **spelling pronunciation（拼读式读音）**：它不是从口语传下来的音，而是从拼写“推”出来的音。waistcoat 的 /t/、forehead 读 /ˈfɔːhed/（而非传统的 /ˈfɒrɪd/）都是同一机制。\n\n它和上一颗坑里的“复原读音”不同：复原读音是有意的决定（如把拉丁 c 读回 [k]），拼读式读音常是几代人无意间读出来的。结果却一样——拼写反过来改变了口语。",
       "terms": [
         {
           "term": "spelling pronunciation",
@@ -239,6 +239,19 @@
         "c-etymology",
         "c-borrowing"
       ]
+    },
+    {
+      "id": "w15d4-p6",
+      "kind": "cloze",
+      "prompt": "填入一个英文形容词（与拼写有关）",
+      "sentence": "The /t/ in often is a ___ pronunciation: the sound had been lost in speech and was later restored because the spelling kept the letter.",
+      "answer": "spelling",
+      "accept": [
+        "spelling",
+        "拼读式",
+        "spelling pronunciation"
+      ],
+      "explain": "填 spelling。often 的 /t/ 是中古英语后脱落、又在识字普及后按拼写读回来的音，这正是拼读式读音（spelling pronunciation）。判定特征有两条：这个音在口语传承里断过档，且它的回归有字形依据。与有意的“复原读音”相比，拼读式读音通常不是某一次决定，而是几代人读着读着就固定下来的。"
     }
   ],
   "apply": [

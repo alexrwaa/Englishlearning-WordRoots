@@ -147,6 +147,19 @@
           "note": "多数成员符合、但有稳定例外的分布规律，不能当作判定规则"
         }
       ]
+    },
+    {
+      "kind": "text",
+      "title": "重叠：把词或词的一部分再说一遍",
+      "body": "**重叠（reduplication）**是把一个词或词的一部分复制一次，用来表达复数、反复、强调或亲昵。分两种：**完全重叠**（bye-bye、night-night、so-so；马来语 orang“人”→ orang-orang“人们”）与**部分重叠**。英语的部分重叠常伴随元音交替，叫 **ablaut reduplication**：zigzag、tick-tock、ping-pong、mishmash、criss-cross。\n\n这类词还有一条可检验的倾向：两个成分的元音顺序通常是 **i → a → o**（tick-tock 不是 tock-tick，ping-pong 不是 pong-ping，hip-hop 不是 hop-hip）。顺序本身不表义，但违反它会让人觉得“不像英语”——这正属于声音象征：有统计倾向，没有逻辑必然。\n\n边界：重叠不是复合（两个成分不是不同的词根），也不是派生（没有词缀）；它是一种独立的形态手段，在英语里多用于口语与儿语，在梵语、马来语、日语里则是常规语法。",
+      "terms": [
+        {
+          "term": "reduplication",
+          "zh": "重叠",
+          "en": "reduplication",
+          "note": "把一个词或词的一部分复制一次，表复数、反复、强调或亲昵"
+        }
+      ]
     }
   ],
   "practice": [
@@ -236,6 +249,19 @@
         "c-morpheme",
         "c-frequency"
       ]
+    },
+    {
+      "id": "w37d2-p6",
+      "kind": "mcq",
+      "prompt": "下面哪个词属于元音交替式重叠（ablaut reduplication）？",
+      "choices": [
+        "zigzag",
+        "blackbird",
+        "unhappy",
+        "rewrite"
+      ],
+      "answer": 0,
+      "explain": "zigzag 是 zig + zag：同一个成分以不同元音重复一次，属部分重叠中的元音交替式（同类的还有 tick-tock、ping-pong、mishmash）。blackbird 是复合（两个不同词根），unhappy 是派生（前缀加词基），rewrite 也是派生——三者都没有“把同一成分说两遍”这个动作。"
     }
   ],
   "apply": [

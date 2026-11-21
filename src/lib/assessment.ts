@@ -462,14 +462,15 @@ export function formatDuration(ms: number): string {
 /**
  * Storage model.
  *
- * - Desktop (`IS_TAURI`): SQLite table `assessment_runs` is the durable store.
- *   It is part of the backup snapshot and lives in the portable `data.db`.
- * - Browser preview: `lib/api.ts` emulates the same four commands on top of
- *   `localStorage`, so both modes share one contract.
- * - `localStorage[STORAGE_KEY]` stays as a synchronous mirror. The page reads
- *   `loadHistory()` during render and cannot await IPC, so every write updates
- *   the mirror first and the durable store second. The mirror is also the
- *   pre-migration data, which is why migration never deletes it.
+ * - Desktop (`IS_TAURI`): SQLite table `assessment_runs` is the **only**
+ *   authoritative store. Reads go through `assessment_list`, writes are only
+ *   reported as saved after Rust confirms them.
+ * - Browser preview: `browserAssessmentStore` implements the same four
+ *   operations on `localStorage`, so both runtimes share one contract and one
+ *   asynchronous API.
+ * - `localStorage[STORAGE_KEY]` is the *legacy* copy written by the old
+ *   synchronous build. It is read once by the migration and then left alone as
+ *   a rollback copy; it is never written again by the authoritative path.
  */
 export const STORAGE_KEY = ASSESSMENT_KEY;
 export const MIGRATED_KEY = ASSESSMENT_MIGRATED_KEY;
@@ -540,8 +541,14 @@ function normalizeBankVersion(run: RunResult): RunResult {
  * The four operations both backends implement. `skipped` counts entries whose
  * payload could not be read: one damaged record is dropped, never fatal.
  */
+export interface HistorySnapshot {
+  runs: RunResult[];
+  /** Damaged rows dropped from `runs`. The page must surface a non-zero value. */
+  skipped: number;
+}
+
 export interface AssessmentStore {
-  list(): Promise<{ runs: RunResult[]; skipped: number }>;
+  list(): Promise<HistorySnapshot>;
   save(run: RunResult): Promise<void>;
   clear(): Promise<void>;
   count(): Promise<number>;
@@ -561,8 +568,10 @@ export function browserAssessmentStore(
   return {
     async list() {
       const entries = readEntries(storage, key);
-      const runs = newestFirst(entries.filter(isStoredResult)).map(normalizeBankVersion);
-      return { runs: runs.slice(0, HISTORY_LIMIT), skipped: entries.length - runs.length };
+      const valid = newestFirst(entries.filter(isStoredResult)).map(normalizeBankVersion);
+      // Count the damage *before* capping, otherwise a full history would look
+      // like it had skipped rows.
+      return { runs: valid.slice(0, HISTORY_LIMIT), skipped: entries.length - valid.length };
     },
     async save(run) {
       if (!storage) return;
@@ -584,8 +593,15 @@ export function sqliteAssessmentStore(): AssessmentStore {
   return {
     async list() {
       const result = await call<AssessmentListResult>('assessment_list');
-      const runs = newestFirst(result.runs.filter(isStoredResult)).map(normalizeBankVersion);
-      return { runs, skipped: result.skipped + (result.runs.length - runs.length) };
+      const entries = Array.isArray(result.runs) ? result.runs : [];
+      const valid = newestFirst(entries.filter(isStoredResult)).map(normalizeBankVersion);
+      // Same trap as above: `skipped` must come from the raw row count, not from
+      // the difference to the 50-row display cap. `result.skipped` already
+      // counts rows Rust could not parse at all.
+      return {
+        runs: valid.slice(0, HISTORY_LIMIT),
+        skipped: (result.skipped ?? 0) + (entries.length - valid.length),
+      };
     },
     async save(run) {
       await call<void>('assessment_save', {
@@ -622,17 +638,35 @@ export interface MigrationResult {
   skipped: number;
   /** True when the marker already existed: nothing was read or written. */
   alreadyMigrated: boolean;
-  /** True when every legacy id is present in the store afterwards. */
+  /** True when the durable store is complete for every legacy id. */
   verified: boolean;
+  /**
+   * True when the store already held rows and therefore refused the legacy
+   * copy: SQLite wins, the stale mirror is never merged in.
+   */
+  libraryWins: boolean;
+}
+
+function markMigrated(storage: StorageLike | null, now: number): void {
+  try {
+    storage?.setItem(MIGRATED_KEY, new Date(now).toISOString());
+  } catch {
+    // A locked webview still has the data in SQLite; the marker is only a guard,
+    // so the next load simply re-checks the store (which then wins).
+  }
 }
 
 /**
- * One-shot localStorage → store migration.
+ * One-shot localStorage → store migration. "Library empty and legacy has data"
+ * is the only case that copies anything; a populated store is authoritative and
+ * the legacy rows are discarded, not merged.
  *
  * Idempotent on three levels:
  * 1. the `wordroots.assessment.migrated.v1` marker short-circuits later runs;
- * 2. rows already present are not re-inserted (the backends upsert by id);
- * 3. the marker is written only after every legacy id is readable again.
+ * 2. a non-empty store is never seeded from the mirror (no resurrection after
+ *    a clear, no overwriting of newer rows);
+ * 3. the marker is written only after the copy is verified, so a failed attempt
+ *    retries on the next load instead of locking the data out.
  *
  * The legacy key is deliberately left in place as a rollback copy.
  */
@@ -642,42 +676,149 @@ export async function migrateLegacyAssessmentHistory(
   now: number = Date.now(),
 ): Promise<MigrationResult> {
   if (storage?.getItem(MIGRATED_KEY)) {
-    return { imported: 0, skipped: 0, alreadyMigrated: true, verified: true };
+    return { imported: 0, skipped: 0, alreadyMigrated: true, verified: true, libraryWins: false };
   }
   const entries = readEntries(storage);
   const legacy = entries.filter(isStoredResult);
   const skipped = entries.length - legacy.length;
   if (legacy.length === 0) {
-    return { imported: 0, skipped, alreadyMigrated: false, verified: true };
+    return { imported: 0, skipped, alreadyMigrated: false, verified: true, libraryWins: false };
   }
 
-  const existing = await store.list();
-  const known = new Set(existing.runs.map((run) => run.id));
+  if ((await store.count()) > 0) {
+    // The store already has history: it is the source of truth. Closing the
+    // migration here is what stops a later clear from being undone by the old
+    // mirror on the following load.
+    markMigrated(storage, now);
+    return { imported: 0, skipped, alreadyMigrated: false, verified: true, libraryWins: true };
+  }
+
   let imported = 0;
   for (const run of legacy) {
-    if (known.has(run.id)) continue;
     await store.save(run);
-    known.add(run.id);
     imported += 1;
   }
 
   const after = await store.list();
   const present = new Set(after.runs.map((run) => run.id));
   const verified = legacy.every((run) => present.has(run.id));
-  if (verified) {
-    try {
-      storage?.setItem(MIGRATED_KEY, new Date(now).toISOString());
-    } catch {
-      // A locked webview still has the data in SQLite; the marker is only a guard.
-    }
-  }
-  return { imported, skipped, alreadyMigrated: false, verified };
+  if (verified) markMigrated(storage, now);
+  return { imported, skipped, alreadyMigrated: false, verified, libraryWins: false };
 }
+
+/* ------------------------------- write queue ------------------------------- */
+
+/**
+ * Every read/write/migration of the history goes through one promise chain.
+ *
+ * That single mechanism gives the three guarantees the page needs:
+ * • a read cannot render "no records" while the migration is still importing;
+ * • a clear requested mid-migration runs *after* it, so nothing is written back
+ *   into a history the learner just erased;
+ * • saves are serialised, so two runs cannot clobber each other's snapshot.
+ *
+ * Failures are passed to the caller and the chain continues (the queue itself
+ * never becomes a rejected promise).
+ */
+let ioQueue: Promise<unknown> = Promise.resolve();
+
+function enqueue<T>(task: () => Promise<T>): Promise<T> {
+  const next = ioQueue.then(task, task);
+  ioQueue = next.then(
+    () => undefined,
+    () => undefined,
+  );
+  return next;
+}
+
+export interface PersistenceOptions {
+  /** Durable backend override (tests, tools). Defaults to the runtime store. */
+  store?: AssessmentStore;
+  /** Legacy mirror override. `null` means "this runtime has no localStorage". */
+  storage?: StorageLike | null;
+}
+
+function resolvePersistence(options: PersistenceOptions): {
+  store: AssessmentStore;
+  storage: StorageLike | null;
+} {
+  const storage = options.storage === undefined ? defaultStorage() : options.storage;
+  return { store: options.store ?? assessmentStore(storage), storage };
+}
+
+/**
+ * Authoritative read. Awaits the one-shot migration first, so the caller gets
+ * either the real history or a real error — never an empty list that only means
+ * "SQLite has not been asked yet".
+ *
+ * `skipped > 0` means damaged rows exist; the page must say so rather than
+ * pretending the history is complete.
+ */
+export async function loadHistoryAsync(options: PersistenceOptions = {}): Promise<HistorySnapshot> {
+  const { store, storage } = resolvePersistence(options);
+  return enqueue(async () => {
+    await migrateLegacyAssessmentHistory(store, storage);
+    return store.list();
+  });
+}
+
+/**
+ * Authoritative save. Resolves only after the backend acknowledged the write,
+ * and the resolved snapshot is re-read from the backend: the page cannot show a
+ * run that was not persisted. A rejection means "not saved" — the caller must
+ * surface a retry, never success.
+ */
+export async function saveRunAsync(
+  result: RunResult,
+  options: PersistenceOptions = {},
+): Promise<HistorySnapshot> {
+  const { store, storage } = resolvePersistence(options);
+  return enqueue(async () => {
+    await migrateLegacyAssessmentHistory(store, storage);
+    await store.save(normalizeBankVersion(result));
+    return store.list();
+  });
+}
+
+/**
+ * Authoritative clear. Resolves only after the backend confirmed the delete, and
+ * closes the migration for good so the legacy mirror cannot re-seed the store —
+ * neither during this call nor on a later load.
+ */
+export async function clearHistoryAsync(options: PersistenceOptions = {}): Promise<HistorySnapshot> {
+  const { store, storage } = resolvePersistence(options);
+  return enqueue(async () => {
+    try {
+      await migrateLegacyAssessmentHistory(store, storage);
+    } catch {
+      // Erasing is still the learner's intent; a failed migration must not
+      // block it. The marker is only written after the clear succeeds.
+    }
+    await store.clear();
+    try {
+      storage?.removeItem(STORAGE_KEY);
+    } catch {
+      // A locked webview still cleared SQLite, which is the authoritative copy.
+    }
+    markMigrated(storage, Date.now());
+    return { runs: [], skipped: 0 };
+  });
+}
+
+/* --------------------- synchronous legacy mirror (kept) --------------------- */
+
+/**
+ * The functions below are the pre-SQLite localStorage API. `*.test.ts` still
+ * exercises them, and they remain useful as a synchronous mirror reader for
+ * non-UI callers. The page and every authoritative path use the `*Async`
+ * functions above; nothing here writes SQLite any more, so a mirror can never
+ * be mistaken for the store.
+ */
 
 let migration: Promise<MigrationResult> | null = null;
 
 /**
- * Fire-and-forget migration guard for the synchronous UI entry points. Safe to
+ * Fire-and-forget migration guard for the synchronous entry points. Safe to
  * call repeatedly: the promise is shared, and a failure resets it so the next
  * interaction retries instead of silently giving up forever.
  */
@@ -686,23 +827,18 @@ export function ensureAssessmentMigrated(): void {
   migration = migrateLegacyAssessmentHistory().catch((error: unknown) => {
     migration = null;
     void error;
-    return { imported: 0, skipped: 0, alreadyMigrated: false, verified: false };
+    return { imported: 0, skipped: 0, alreadyMigrated: false, verified: false, libraryWins: false };
   });
 }
 
-/* --------------------------- synchronous facade --------------------------- */
-
-/**
- * Mirror read used by the page. On desktop the mirror is hydrated by the
- * migration/write-through path above, so this stays fast and synchronous.
- */
+/** Synchronous read of the legacy mirror only. */
 export function loadHistory(storage: StorageLike | null = defaultStorage()): RunResult[] {
   ensureAssessmentMigrated();
   const entries = readEntries(storage);
   return newestFirst(entries.filter(isStoredResult)).map(normalizeBankVersion).slice(0, HISTORY_LIMIT);
 }
 
-/** Prepend a run (replace same id, cap history), mirror first, store second. */
+/** Prepend a run to the legacy mirror (replace same id, cap history). */
 export function saveRun(result: RunResult, storage: StorageLike | null = defaultStorage()): RunResult[] {
   ensureAssessmentMigrated();
   const entries = readEntries(storage).filter(isStoredResult);
@@ -714,14 +850,10 @@ export function saveRun(result: RunResult, storage: StorageLike | null = default
       // Quota or a locked webview: the in-memory list is still usable.
     }
   }
-  if (IS_TAURI) {
-    void assessmentStore(storage).save(result).catch(() => {
-      // The mirror still holds the run; the next successful save retries the store.
-    });
-  }
   return next;
 }
 
+/** Remove the legacy mirror (the authoritative clear is `clearHistoryAsync`). */
 export function clearHistory(storage: StorageLike | null = defaultStorage()): RunResult[] {
   ensureAssessmentMigrated();
   if (storage) {
@@ -730,11 +862,6 @@ export function clearHistory(storage: StorageLike | null = defaultStorage()): Ru
     } catch {
       // ignore
     }
-  }
-  if (IS_TAURI) {
-    void assessmentStore(storage).clear().catch(() => {
-      // ignore
-    });
   }
   return [];
 }

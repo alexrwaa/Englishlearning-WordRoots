@@ -1353,6 +1353,14 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. legible: https://en.wiktionary.org/w/index.php?title=legible&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. lex: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. lego: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -1389,6 +1397,30 @@
             "etymon": "legō",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "lex / legere",
+            "entry": "lex",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "lex, it-gis, f. [perh. SaDscr. root lag-, lig-,  to fasten; Lat. ligo, to hind, oblige; cf reli-  gio], a proposition or motion for a law made",
+            "etymon": "lex / legere",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 359353",
+            "source": "G2"
+          },
+          {
+            "word": "lex / legere",
+            "entry": "lego",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "2. lego, legi, lectum (^gn, plur. part.  legentum, Ov. Tr. I, 7, 25), 3, v. a. [Gr. Xe-yw,  \\6yor, Ao-ydr, etc - Lat.legumen, di-leg ens,  neg-leg-o, etc • cf. Germ, lesen], to bring to-  gether, to gather , collect. I, L i t. In",
+            "etymon": "lex / legere",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 356729",
+            "source": "G2"
           }
         ]
       }
@@ -2645,6 +2677,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. saline: https://en.wiktionary.org/w/index.php?title=saline&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. sal: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -2672,6 +2708,18 @@
             "etymon": "sal",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "sal",
+            "entry": "sal",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "sal, sal 1 8 (neutr. collat. form ; of the  nom. sale, Enn. ap. GelL 2, 26, \"or Ann.  v. 378 VahL; Varr. ap. Non. 223, 17; also, in  the regular form sometimes neutr. in sing.,  v. infra, 1. ; but plur. always sales, m.f cf.  Neuc, FormenL 1, 697 sq. ; dat. plur.: in-  fusis sails, Fabian, ap. Charis. p. 82 P.), to.-  [root sal-, to stream, flow ; cf. «Ar ;.,perh.-  also found in insula, salixj. I. Lit., salt.",
+            "etymon": "sal",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 547751",
+            "source": "G2"
           }
         ]
       }
@@ -2863,6 +2911,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. terrace: https://en.wiktionary.org/w/index.php?title=terrace&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. terra: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -2899,6 +2951,18 @@
             "etymon": "terra",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "terra",
+            "entry": "terra",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "terra (archaic tera, Varr L L 5, 4,  21 ), ae ( gen terras, Naev ap Prise p. 679  P.: terra!, Enn ap Chans p 7 ib (Ann v.  479 Vahl ); Lucr. 1, 212: 1, 251; 2, 1063; 3,  989 et saep ), f. [perh. Sanscr root tarsh ,  to be dry, thirsty, Lat torreo, toms; Germ.  Durst; EngL thirst; prop the dryland),  the eai th, opp to the heavens, the sea, the  air, etc.; land, ground, soil (cf: tellus, so",
+            "etymon": "terra",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 626920",
+            "source": "G2"
           }
         ]
       }
@@ -3057,6 +3121,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. venous: https://en.wiktionary.org/w/index.php?title=venous&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. vena: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -3084,6 +3152,18 @@
             "etymon": "vēnōsus < vēna",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "vena",
+            "entry": "vena",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "vena, ae,/ [perh. root veh-, to carry, 1  etc. ; prop, a pipe, channel ; Gr. oxeror], a '  blood-vessel, vein. I, Lit. I. In gen. : j",
+            "etymon": "vena",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 661925",
+            "source": "G2"
           }
         ]
       }
@@ -3551,6 +3631,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. capacity: https://en.wiktionary.org/w/index.php?title=capacity&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. capio: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -3587,6 +3671,18 @@
             "etymon": "capiō",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "capere",
+            "entry": "capio",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "seize]. I. Lit. A, In gen., to take in  handy take hold of y lay hold of takey seize ,",
+            "etymon": "capere",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 98264",
+            "source": "G2"
           }
         ]
       }
@@ -3609,6 +3705,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. chapter: https://en.wiktionary.org/w/index.php?title=chapter&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. caput: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -3645,6 +3745,18 @@
             "etymon": "caput",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "caput",
+            "entry": "caput",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "caput Ikap- capudh itis {all sing.  regularly capiic: capiti, Cat. 68, 124: cf.  Tib. 1, 1, 72 Huschk., where the MSS, as  well as Caes. German. Aral. 213, vary be-  tween the two forms), n. [kindr. with  Sanscr. kap-ula; Gr. Ke<p-a\\ti; Goth, hau-  bith ; Germ. Haupt]. I. The head, of men",
+            "etymon": "caput",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 100207",
+            "source": "G2"
           }
         ]
       }
@@ -3773,6 +3885,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. deform: https://en.wiktionary.org/w/index.php?title=deform&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. forma: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -3809,6 +3925,18 @@
             "etymon": "fōrma",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "forma",
+            "entry": "forma",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "forma, ae, f [Sanscr dhar , dhar Smj,  bear, dhar i man, figure, Gr 6 pa in 0p7j  vuy, dpovov , cf. Lat fr£tus, frtnum, fortis,  etc.), form , m the moat comprehensive  sen c e of the word, contour, figure, shape,",
+            "etymon": "forma",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 263049",
+            "source": "G2"
           }
         ]
       }
@@ -3868,6 +3996,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. emission: https://en.wiktionary.org/w/index.php?title=emission&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. missus: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -3904,6 +4036,18 @@
             "etymon": "mittō",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "missum (part. of mittere)",
+            "entry": "missus",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "2, missus, r*s, m. [mitto], a sending  away, a sending, despatching. I, Lit. A",
+            "etymon": "missum (part. of mittere)",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 391436",
+            "source": "G2"
           }
         ]
       }
@@ -3931,6 +4075,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. commit: https://en.wiktionary.org/w/index.php?title=commit&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. mitto: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -3967,6 +4115,18 @@
             "etymon": "mittō",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "mittere",
+            "entry": "mitto",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "mitto, mlsi, missum, 3 (contr. form,  misti for misisti, Cat. 14, 14: archaic inf.  pass, mittier, Plaut. Capt. 2, 3, 78), v. a.  [etym. dub. ; cf Sanscr. math-, to set in  motion], to cause to go, let go, send, to send",
+            "etymon": "mittere",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 391819",
+            "source": "G2"
           }
         ]
       }
@@ -4010,6 +4170,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. porter: https://en.wiktionary.org/w/index.php?title=porter&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. porto: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -4046,6 +4210,18 @@
             "etymon": "portō",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "portare",
+            "entry": "porto",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "porto, jwi, 5tum > % f re( l a t root por  for for to, kmclr with fero, Sander \\hri,  ferre], to bear or carry along , to convey  any thing heavy (class- , syn fero, gero,",
+            "etymon": "portare",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 475764",
+            "source": "G2"
           }
         ]
       }
@@ -4158,6 +4334,14 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. perspective: https://en.wiktionary.org/w/index.php?title=perspective&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. specto: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. spectio: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -4194,6 +4378,30 @@
             "etymon": "specere",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "specere",
+            "entry": "specto",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "gpecto, Svi, atom, 1 ,vfieq a [id], to  look at, behold, to gaze at, natch, obsene ,",
+            "etymon": "specere",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 587815",
+            "source": "G2"
+          },
+          {
+            "word": "specere",
+            "entry": "spectio",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "spcctio, oms,/ [specio], in the lang  or augurs, an observing of the auspices ,  hence, al c o, the right of observing them",
+            "etymon": "specere",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 587808",
+            "source": "G2"
           }
         ]
       }
@@ -4221,6 +4429,10 @@
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. obstruct: https://en.wiktionary.org/w/index.php?title=obstruct&action=raw"
+        },
+        {
+          "id": "G2",
+          "detail": "A Latin Dictionary (Lewis & Short, 1879), s.v. struo: https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt"
         }
       ],
       "reviewer": "ety-verify",
@@ -4257,6 +4469,18 @@
             "etymon": "struere",
             "supports": true,
             "fetchedAt": "2026-11-21"
+          },
+          {
+            "word": "struere",
+            "entry": "struo",
+            "url": "https://archive.org/download/in.ernet.dli.2015.120891/2015.120891.A-Latin-Dictionary-Lewis-And-Short_djvu.txt",
+            "quote": "— B. Inpartfc X. To make by join  xng together, to build, erect fabricate, make ,  form, construct (eyn aedifleo) fornacem",
+            "etymon": "struere",
+            "supports": true,
+            "fetchedAt": "2026-11-22",
+            "work": "A Latin Dictionary (Lewis & Short, 1879)",
+            "locator": "line 597587",
+            "source": "G2"
           }
         ]
       }

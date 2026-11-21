@@ -6,22 +6,22 @@
  * on the page says that in plain language and must stay that way: no "提升 X%"
  * claims, no implication that a score change proves the teaching worked.
  */
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Badge, Bar, Button, Panel } from '../components/ui';
 import {
   DIMENSIONS,
   DIMENSION_META,
   MODE_META,
   buildRun,
-  clearHistory,
+  clearHistoryAsync,
   compareResults,
   confidenceNote,
   formatDuration,
   latestBaseline,
   latestRun,
-  loadHistory,
+  loadHistoryAsync,
   planRun,
-  saveRun,
+  saveRunAsync,
   scoreRun,
   type AnswerRecord,
   type AssessmentRun,
@@ -73,8 +73,37 @@ function DifficultyDots({ value }: { value: 1 | 2 | 3 }) {
   );
 }
 
+/**
+ * History is read from the durable store (SQLite on desktop), never from
+ * localStorage. The three states are distinct on purpose: "failed" must never
+ * look like "空历史", or a broken read would silently claim the learner has no
+ * records.
+ */
+type HistoryLoad =
+  | { status: 'loading' }
+  | { status: 'failed'; message: string }
+  | { status: 'ready'; runs: RunResult[]; skipped: number };
+
+type WriteState =
+  | { status: 'idle' }
+  | { status: 'working' }
+  | { status: 'done' }
+  | { status: 'failed'; message: string };
+
+function describeError(error: unknown, prefix: string): string {
+  const detail =
+    error instanceof Error && error.message
+      ? error.message
+      : typeof error === 'string' && error
+        ? error
+        : '未知错误';
+  return `${prefix}：${detail}`;
+}
+
 export default function Assessment() {
-  const [history, setHistory] = useState<RunResult[]>([]);
+  const [load, setLoad] = useState<HistoryLoad>({ status: 'loading' });
+  const [save, setSave] = useState<WriteState>({ status: 'idle' });
+  const [clearing, setClearing] = useState<WriteState>({ status: 'idle' });
   const [phase, setPhase] = useState<'intro' | 'quiz' | 'result'>('intro');
   const [run, setRun] = useState<AssessmentRun | null>(null);
   const [result, setResult] = useState<RunResult | null>(null);
@@ -83,10 +112,54 @@ export default function Assessment() {
   const [picked, setPicked] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
   const startedAt = useRef(0);
+  const alive = useRef(true);
+
+  /** The list only ever comes from the store's confirmed snapshot. */
+  const history = useMemo(() => (load.status === 'ready' ? load.runs : []), [load]);
+
+  const refresh = useCallback(async () => {
+    setLoad({ status: 'loading' });
+    try {
+      const snapshot = await loadHistoryAsync();
+      if (alive.current) setLoad({ status: 'ready', runs: snapshot.runs, skipped: snapshot.skipped });
+    } catch (failure) {
+      if (alive.current) setLoad({ status: 'failed', message: describeError(failure, '读取本机记录失败') });
+    }
+  }, []);
 
   useEffect(() => {
-    setHistory(loadHistory());
+    alive.current = true;
+    void refresh();
+    return () => {
+      alive.current = false;
+    };
+  }, [refresh]);
+
+  /** Confirmed save: the success badge only appears after the store answers. */
+  const persist = useCallback(async (scored: RunResult) => {
+    setSave({ status: 'working' });
+    try {
+      const snapshot = await saveRunAsync(scored);
+      if (!alive.current) return;
+      setLoad({ status: 'ready', runs: snapshot.runs, skipped: snapshot.skipped });
+      setSave({ status: 'done' });
+    } catch (failure) {
+      if (alive.current) setSave({ status: 'failed', message: describeError(failure, '保存失败') });
+    }
   }, []);
+
+  async function wipe() {
+    if (!window.confirm('清除本机的全部测评记录？此操作不可撤销。')) return;
+    setClearing({ status: 'working' });
+    try {
+      const snapshot = await clearHistoryAsync();
+      if (!alive.current) return;
+      setLoad({ status: 'ready', runs: snapshot.runs, skipped: snapshot.skipped });
+      setClearing({ status: 'idle' });
+    } catch (failure) {
+      if (alive.current) setClearing({ status: 'failed', message: describeError(failure, '清除失败') });
+    }
+  }
 
   const reference = useMemo(() => {
     if (!result) return undefined;
@@ -105,6 +178,7 @@ export default function Assessment() {
     }
     const next = buildRun(mode);
     setError(null);
+    setSave({ status: 'idle' });
     setRun(next);
     setResult(null);
     setAnswers([]);
@@ -132,8 +206,9 @@ export default function Assessment() {
     }
     const scored = scoreRun(run, answers, Date.now());
     setResult(scored);
-    setHistory(saveRun(scored));
     setPhase('result');
+    // The result is shown immediately, but "已保存" waits for the store.
+    void persist(scored);
   }
 
   function reset() {
@@ -144,11 +219,7 @@ export default function Assessment() {
     setQuestionIndex(0);
     setPicked(null);
     setError(null);
-  }
-
-  function wipe() {
-    if (!window.confirm('清除本机的全部测评记录？此操作不可撤销。')) return;
-    setHistory(clearHistory());
+    setSave({ status: 'idle' });
   }
 
   /* --------------------------------- intro -------------------------------- */
@@ -227,28 +298,68 @@ export default function Assessment() {
           <Panel>
             <div className="row-between" style={{ marginBottom: 8 }}>
               <h3 style={{ marginBottom: 0 }}>本机记录</h3>
-              {history.length > 0 ? (
-                <Button size="sm" variant="ghost" onClick={wipe}>
-                  清除记录
+              {load.status === 'ready' && load.runs.length > 0 ? (
+                <Button size="sm" variant="ghost" onClick={() => void wipe()} disabled={clearing.status === 'working'}>
+                  {clearing.status === 'working' ? '清除中…' : '清除记录'}
                 </Button>
               ) : null}
             </div>
-            {history.length === 0 ? (
+
+            {load.status === 'loading' ? (
               <p className="small faint" style={{ margin: 0 }}>
-                还没有记录。完成一次基线测评后，这里会出现分数、耗时与复测对比。
+                正在读取本机记录…
               </p>
-            ) : (
-              <div className="assess-history">
-                {history.slice(0, 6).map((entry) => (
-                  <div key={entry.id} className="assess-history-row">
-                    <span className="assess-history-mode">{modeLabel(entry.mode)}</span>
-                    <span className="tiny faint">{when(entry.finishedAt)}</span>
-                    <span className="assess-history-score">{entry.overall.toFixed(1)}</span>
-                  </div>
-                ))}
-                {history.length > 6 ? <p className="tiny faint">仅显示最近 6 次，共 {history.length} 次。</p> : null}
+            ) : null}
+
+            {load.status === 'failed' ? (
+              <div className="assess-error" style={{ paddingLeft: 10 }}>
+                <p className="small" style={{ margin: '0 0 8px' }}>
+                  {load.message}。读取失败不等于没有记录，这里不会用空列表冒充「还没有记录」。
+                </p>
+                <Button size="sm" onClick={() => void refresh()}>
+                  重试读取
+                </Button>
               </div>
-            )}
+            ) : null}
+
+            {clearing.status === 'failed' ? (
+              <div className="assess-error" style={{ paddingLeft: 10 }}>
+                <p className="small" style={{ margin: '0 0 8px' }}>
+                  {clearing.message}。记录仍保留在本机，可以重试。
+                </p>
+                <Button size="sm" onClick={() => void wipe()}>
+                  重试清除
+                </Button>
+              </div>
+            ) : null}
+
+            {load.status === 'ready' ? (
+              <>
+                {load.skipped > 0 ? (
+                  <p className="tiny" style={{ margin: '0 0 8px', color: 'var(--red)' }}>
+                    有 {load.skipped} 条记录损坏已跳过，其余 {load.runs.length} 条正常显示。
+                  </p>
+                ) : null}
+                {load.runs.length === 0 ? (
+                  <p className="small faint" style={{ margin: 0 }}>
+                    还没有记录。完成一次基线测评后，这里会出现分数、耗时与复测对比。
+                  </p>
+                ) : (
+                  <div className="assess-history">
+                    {load.runs.slice(0, 6).map((entry) => (
+                      <div key={entry.id} className="assess-history-row">
+                        <span className="assess-history-mode">{modeLabel(entry.mode)}</span>
+                        <span className="tiny faint">{when(entry.finishedAt)}</span>
+                        <span className="assess-history-score">{entry.overall.toFixed(1)}</span>
+                      </div>
+                    ))}
+                    {load.runs.length > 6 ? (
+                      <p className="tiny faint">仅显示最近 6 次，共 {load.runs.length} 次。</p>
+                    ) : null}
+                  </div>
+                )}
+              </>
+            ) : null}
           </Panel>
         </div>
 
@@ -380,6 +491,29 @@ export default function Assessment() {
             </Badge>
           </div>
         </header>
+
+        {save.status === 'working' ? (
+          <p className="small faint" style={{ margin: '0 0 12px' }}>
+            正在保存到本机数据库…
+          </p>
+        ) : null}
+        {save.status === 'done' ? (
+          <p className="small" style={{ margin: '0 0 12px', color: 'var(--accent-ink)' }}>
+            已保存到本机数据库。
+          </p>
+        ) : null}
+        {save.status === 'failed' ? (
+          <Panel className="assess-error">
+            <div className="row-between" style={{ gap: 12, flexWrap: 'wrap' }}>
+              <p className="small" style={{ margin: 0 }}>
+                {save.message}。这次结果还没有保存，本机记录也没有新增。
+              </p>
+              <Button size="sm" onClick={() => void persist(result)}>
+                重试保存
+              </Button>
+            </div>
+          </Panel>
+        ) : null}
 
         <Panel className="assess-score-card">
           <div className="assess-overall">

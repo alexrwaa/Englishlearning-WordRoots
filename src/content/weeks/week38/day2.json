@@ -154,6 +154,11 @@
     "ible"
    ],
    "morphemeIds": []
+  },
+  {
+   "kind": "text",
+   "title": "两套切法都合法：结构歧义",
+   "body": "上一张卡比的是“词素切分 vs 音节切分”：一对一错。还有一种情况是**两套词素切分都成立**，只是意义不同，这叫**结构歧义（structural ambiguity）**。**unlockable** 可以切作 un + lockable（“不能上锁的”），也可以切作 unlock + able（“能被打开的”）；两套都落在词素边界上，两套都产出真词，差别只在 -able 接的是 lockable 还是 unlock。**undoable** 同理：un + doable“做不了的” vs undo + able“可撤销的”。\n\n消歧靠三样：重音与停顿、句法环境（The door is unlockable 两种读法都通，须看上下文）、以及现实知识（一扇门是“不能上锁”还是“能被打开”）。遇到这类词，不要问“哪种切法对”，要问“在这个语境里是哪一种”。"
   }
  ],
  "practice": [
@@ -245,6 +250,19 @@
     "stru",
     "ure"
    ]
+  },
+  {
+   "id": "w38d2-p6",
+   "kind": "mcq",
+   "prompt": "unlockable 的两种意义，分别对应哪两种切分？",
+   "choices": [
+    "[un + [lock + able]]（不能上锁的）与 [[un + lock] + able]（能被打开的）",
+    "[[un + lock] + able]（不能上锁的）与 [un + [lock + able]]（能被打开的）",
+    "两种意义都对应 [un + [lock + able]]，只是重音不同",
+    "两种意义都对应 [[un + lock] + able]，只是语域不同"
+   ],
+   "answer": 0,
+   "explain": "“不能上锁的”是 un- 否定 lockable，即 [un + [lock + able]]；“能被打开的”是 -able 接在动词 unlock 上，即 [[un + lock] + able]。两套切分都落在词素边界上、都产出真词，这正是结构歧义与“切错”不同的地方——切错只有一套合法切分。第二项把两个意义的括号对调了，后两项否认了歧义的存在。"
   }
  ],
  "apply": [

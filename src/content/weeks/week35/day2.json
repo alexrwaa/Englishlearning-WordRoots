@@ -158,6 +158,25 @@
           "b": "不变（除比较级、最高级）"
         }
       ]
+    },
+    {
+      "kind": "text",
+      "title": "时与体：两个范畴，不是一个",
+      "body": "英语的动词词尾常被笼统叫作“时态”，其实它同时编码两个范畴。**时（tense）**把事件定位在时间轴上：现在、过去。英语没有专门的将来屈折，will 是情态动词。**体（aspect）**看事件内部的时间结构：进行体（be + -ing）把事件切成正在进行的片段；完成体（have + -ed）把事件当作已完成的整体。\n\n所以 walks / is walking / has walked 是三件事：walks 是现在时；is walking 是现在时加进行体；has walked 是现在时加完成体——它不是“过去时”，过去时是 walked。判断口诀：**时回答“什么时候”，体回答“怎么看这件事”。**\n\n汉语的“了／过／着”也是体标记，不是时标记；把英语的 -ed 一律译成“了”，就会丢掉时与体的分工。",
+      "terms": [
+        {
+          "term": "tense",
+          "zh": "时",
+          "en": "tense",
+          "note": "把事件定位在时间轴上（现在／过去）"
+        },
+        {
+          "term": "aspect",
+          "zh": "体",
+          "en": "aspect",
+          "note": "看事件内部的时间结构（进行／完成）"
+        }
+      ]
     }
   ],
   "practice": [
@@ -243,6 +262,19 @@
         "c-inflection"
       ],
       "hint": "看后面的 case, number and gender。"
+    },
+    {
+      "id": "w35d2-p6",
+      "kind": "mcq",
+      "prompt": "walks、is walking、has walked 三者的区别，下面哪项最准确？",
+      "choices": [
+        "walks 是现在时；is walking 是现在时加进行体；has walked 是现在时加完成体",
+        "三者都是过去时，只是语气不同",
+        "walks 是单数，is walking 是复数，has walked 是完成时",
+        "-ing 与 -ed 都是时标记，不表示体"
+      ],
+      "answer": 0,
+      "explain": "时定位“什么时候”，体说明“怎么看这件事”。walks 只标现在时；is walking 在现在时上加了进行体（事件正在展开）；has walked 是现在时加完成体（事件作为整体已完成）。has walked 常被误叫“过去时”，但真正的过去时是 walked。第三项把数的区别混进来，第四项把体误认成时。"
     }
   ],
   "apply": [

@@ -149,6 +149,19 @@
           "note": "结构相同，评价色彩仍取决于所爱对象与社会知识"
         }
       ]
+    },
+    {
+      "kind": "text",
+      "title": "第三种复合：并列（dvandva）",
+      "body": "向心（blackboard 是 board 的一种）与离心（redhead 不是 head 的一种）都假设有一个中心语。还有第三类：**并列复合词（dvandva，源自梵语“成对”）**，两个成分地位平等，谁也不修饰谁，整体指“A 和 B”两样东西。**bittersweet** 既苦又甜；**deaf-mute** 既聋又哑；**tragicomic** 既悲又喜；**Anglo-Saxon** 字面是“盎格鲁人和撒克逊人”。\n\n三条边界要分清：① 它不是向心——bittersweet 不是 sweet 的一种；② 它不是离心——离心词整体指某一个第三者（redhead 指人），并列词整体同时指两个成分；③ 它不是短语——black and white 是两个词，bittersweet 是一个词，重音与拼写都按单词处理。英语的并列复合词不多，梵语与日语里才是能产的类型。",
+      "terms": [
+        {
+          "term": "dvandva",
+          "zh": "并列复合词",
+          "en": "dvandva",
+          "note": "两个成分地位平等、整体指两者并列的复合词，如 bittersweet"
+        }
+      ]
     }
   ],
   "practice": [
@@ -237,6 +250,19 @@
         "c-derivation",
         "c-transparency"
       ]
+    },
+    {
+      "id": "w36d4-p6",
+      "kind": "mcq",
+      "prompt": "下面哪个词是并列复合词（dvandva）？",
+      "choices": [
+        "bittersweet",
+        "blackbird",
+        "redhead",
+        "greenhouse"
+      ],
+      "answer": 0,
+      "explain": "bittersweet = bitter + sweet，两个成分地位平等，整体“既苦又甜”，谁也不修饰谁，是并列复合。blackbird 是向心（bird 的一种）；greenhouse 也是向心（house 的一种）；redhead 是离心（整体指一个人，不是 head 的一种）。判断 dvandva 只需一问：整体是不是“A 和 B 两者”，而不是“A 的一种”。"
     }
   ],
   "apply": [

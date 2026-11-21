@@ -1,5 +1,5 @@
 {
-  "version": "0.9.0",
+  "version": "0.9.1",
   "rows": [
     {
       "id": "cx-aesth-esth",
@@ -2117,7 +2117,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -2126,7 +2126,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 5
       }
     },
     {
@@ -4100,7 +4100,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -4109,7 +4109,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 2
+        "records": 3
       }
     },
     {
@@ -4396,7 +4396,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -4405,7 +4405,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 4
       }
     },
     {
@@ -4662,7 +4662,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -4671,7 +4671,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 2
+        "records": 3
       }
     },
     {
@@ -5422,7 +5422,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -5431,7 +5431,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 4
       }
     },
     {
@@ -5456,7 +5456,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -5465,7 +5465,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 4
       }
     },
     {
@@ -5665,7 +5665,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -5674,7 +5674,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 4
       }
     },
     {
@@ -5758,7 +5758,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -5767,7 +5767,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 4
       }
     },
     {
@@ -5793,7 +5793,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -5802,7 +5802,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 4
       }
     },
     {
@@ -5857,7 +5857,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -5866,7 +5866,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 4
       }
     },
     {
@@ -6037,7 +6037,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -6046,7 +6046,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 5
       }
     },
     {
@@ -6072,7 +6072,7 @@
         "registered": true,
         "contentVerified": true,
         "sameWorkMultiEntry": true,
-        "crossSource": false,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -6081,7 +6081,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 3
+        "records": 4
       }
     },
     {
