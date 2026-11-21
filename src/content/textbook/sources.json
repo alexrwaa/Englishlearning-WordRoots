@@ -1,7 +1,7 @@
 {
   "$comment": "WordRoots textbook registry. One entry per source the curriculum is derived from. `status` is deliberately blunt: a source is never marked complete unless its full text was actually parsed in this workspace.",
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-21",
   "sources": [
     {
       "id": "S1",
@@ -79,6 +79,39 @@
         "epub"
       ],
       "parsedAt": "2026-11-19"
+    },
+    {
+      "id": "S5",
+      "title": "Historical and etymological references (reference set)",
+      "edition": "varies",
+      "publisher": "varies",
+      "status": "reference-set",
+      "role": "supporting",
+      "evidence": "Cited per word for Indo-European and Latin/Greek etymology. Members: Oxford English Dictionary (3rd ed., etymology sections), Online Etymology Dictionary, Lewis & Short Latin Dictionary, Liddell-Scott-Jones Greek Lexicon, Wiktionary etymology sections.",
+      "rights": "Consulted for facts only. No text reproduced.",
+      "citationPolicy": "A citation must name the specific entry, e.g. {id:'S5', detail:'OED 3e, s.v. religion, etymology'}. A bare 'S5' with no detail is recorded as an unlocated citation and cannot alone justify etymology.status='documented'."
+    },
+    {
+      "id": "G1",
+      "title": "English gloss / definition reference",
+      "edition": "varies",
+      "publisher": "varies",
+      "status": "reference-set",
+      "role": "supporting",
+      "evidence": "Used for modern English senses and register labels (e.g. Merriam-Webster, Cambridge, Wiktionary senses).",
+      "rights": "Consulted for facts only.",
+      "citationPolicy": "A citation must name the entry and sense, e.g. {id:'G1', detail:'MW, s.v. lucid, sense 1a'}."
+    },
+    {
+      "id": "LEX",
+      "title": "Internal lexical rules (project-defined)",
+      "edition": "—",
+      "publisher": "WordRoots",
+      "status": "derived",
+      "role": "method",
+      "evidence": "Orthographic rules of this project: silent-e loss, y→i, consonant doubling, assimilation sets. These are rules, not sources of linguistic fact.",
+      "rights": "Project original.",
+      "citationPolicy": "Citing LEX means 'derived by a project rule', never 'verified by a dictionary'."
     }
   ]
 }

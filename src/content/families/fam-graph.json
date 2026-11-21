@@ -1,0 +1,187 @@
+{
+  "id": "fam-graph",
+  "root": {
+    "form": "graph",
+    "glossEn": "write, record",
+    "glossZh": "写、记录",
+    "origin": "Gk",
+    "etymon": "graphein",
+    "etymonGloss": "to write, scratch, draw"
+  },
+  "coreIdea": "「写下来」：光写下来是照片，写一生是传记，写大地是地理。",
+  "members": [
+    {
+      "w": "photograph",
+      "relation": "derivative",
+      "glossZh": "照片",
+      "layer": ["photo", "graph"],
+      "note": "photo 光 + graph 写 → 用光写下的；1839 年新造词"
+    },
+    {
+      "w": "biography",
+      "relation": "derivative",
+      "glossZh": "传记",
+      "layer": ["bio", "graph", "-y"],
+      "note": "bio 生命 + 写 + -y 表作品"
+    },
+    {
+      "w": "geography",
+      "relation": "derivative",
+      "glossZh": "地理学",
+      "layer": ["geo", "graph", "-y"],
+      "note": "geo 大地 + 写 → 描写大地"
+    },
+    {
+      "w": "telegraph",
+      "relation": "derivative",
+      "glossZh": "电报机",
+      "layer": ["tele", "graph"],
+      "note": "tele 远 + 写 → 远距离写过来"
+    },
+    {
+      "w": "telegram",
+      "relation": "derivative",
+      "glossZh": "电报",
+      "layer": ["tele", "gram"],
+      "note": "gram 写下的东西：远处写来的那一条"
+    },
+    {
+      "w": "diagram",
+      "relation": "derivative",
+      "glossZh": "图解",
+      "layer": ["dia", "gram"],
+      "note": "dia 穿过、对着 + 写 → 用线条画出结构"
+    },
+    {
+      "w": "grammar",
+      "relation": "derivative",
+      "glossZh": "语法",
+      "layer": ["gram"],
+      "note": "拉丁 grammatica < 希腊 gramma「字母」；词尾 -ar 是法语演变结果，不作后缀切分"
+    },
+    {
+      "w": "program",
+      "relation": "derivative",
+      "glossZh": "程序；节目单",
+      "layer": ["pro-", "gram"],
+      "note": "希腊 programma「公开写出的通告」→ 预先写好的流程"
+    },
+    {
+      "w": "graphic",
+      "relation": "derivative",
+      "glossZh": "图像的；生动的",
+      "layer": ["graph", "-ic"],
+      "note": "-ic …的：与书写、描绘有关的"
+    },
+    {
+      "w": "paragraph",
+      "relation": "derivative",
+      "glossZh": "段落",
+      "layer": ["para-", "graph"],
+      "note": "para- 旁边 + 写 → 原指书页边上的记号，后指分段"
+    },
+    {
+      "w": "autograph",
+      "relation": "derivative",
+      "glossZh": "亲笔签名",
+      "layer": ["auto-", "graph"],
+      "note": "auto- 自己 + 写 → 本人写的"
+    },
+    {
+      "w": "monograph",
+      "relation": "derivative",
+      "glossZh": "专著",
+      "layer": ["mono-", "graph"],
+      "note": "mono- 单一 + 写 → 专写一个题目的书"
+    },
+    {
+      "w": "polygraph",
+      "relation": "derivative",
+      "glossZh": "测谎仪",
+      "layer": ["poly-", "graph"],
+      "note": "poly- 多 + 写 → 同时记录多项生理指标"
+    },
+    {
+      "w": "graphology",
+      "relation": "derivative",
+      "glossZh": "笔迹学",
+      "layer": ["graph", "-o-", "-logy"],
+      "note": "-o- 是希腊复合词的连接元音，-logy 表学科"
+    }
+  ],
+  "allomorphs": [
+    {
+      "form": "graphy",
+      "note": "表「记录过程或学科」，与 -graph（工具/记录物）分工",
+      "examples": ["geography", "photography", "tomography"]
+    },
+    {
+      "form": "gram",
+      "note": "希腊 gramma「写下的东西」，指具体的记录物",
+      "examples": ["telegram", "diagram", "program"]
+    }
+  ],
+  "derivationChains": [
+    {
+      "stages": ["graph", "photograph", "photographer", "photographic"],
+      "note": "每一级都真实成词；-er 表人，-ic 表性质"
+    },
+    {
+      "stages": ["graph", "biography", "biographer", "biographical"],
+      "note": "biography 的 -y 换成 -er 时拼作 biographer"
+    },
+    {
+      "stages": ["graph", "geography", "geographer", "geographic"],
+      "note": "geographic 与 geographical 并存，后者更常见"
+    },
+    {
+      "stages": ["graph", "telegraph", "telegraphy", "telegraphic"],
+      "note": "-y 表技术体系，-ic 表性质"
+    }
+  ],
+  "semanticShifts": [
+    {
+      "w": "graphic",
+      "from": "书写的",
+      "to": "图像的；生动的",
+      "why": "书写与描绘同源 → 从文字转向视觉，再转为「画面感强」"
+    },
+    {
+      "w": "grammar",
+      "from": "字母的技艺",
+      "to": "语法",
+      "why": "从认字、读写的技艺收窄为语言规则"
+    },
+    {
+      "w": "photograph",
+      "from": "用光写下的",
+      "to": "照片",
+      "why": "手段转指成品"
+    }
+  ],
+  "homographTraps": [
+    {
+      "form": "gram",
+      "other": "gram flour（鹰嘴豆粉）里的 gram 来自葡萄牙语 grão < 拉丁 granum「谷粒」",
+      "note": "同形异源：重量单位 gram 才与希腊 gramma 有关，鹰嘴豆粉的 gram 无关"
+    }
+  ],
+  "teaching": {
+    "induction": "给出 photograph、biography、geography、telegraph、diagram 五个词，问：共同的「写」在哪里？-graph 与 -gram 一个指工具、一个指成品，能各举一例吗？",
+    "transfer": {
+      "word": "cryptography",
+      "question": "拆开并猜义：crypto- + graph + -y 合起来是什么技术？",
+      "answer": "crypto- 隐藏 + graph 写 + -y 技艺 → 把信息「隐藏地写」的技术，即密码术。例句：Modern cryptography secures most online transactions."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "detail": "ch.9 Greek element list（graph-/gram- 条）；ch.3 组合形式与连接元音"
+    },
+    {
+      "id": "S5",
+      "detail": "Oxford Dictionary of English Etymology，graphein 与 gramma 条"
+    }
+  ]
+}

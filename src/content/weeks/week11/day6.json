@@ -85,11 +85,7 @@
           "en": "visual odometry"
         }
       ],
-      "morphemeIds": [
-        "rx-od",
-        "cx-metr",
-        "cx-y"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "text",

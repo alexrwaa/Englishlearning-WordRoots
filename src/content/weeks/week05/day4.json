@@ -37,7 +37,9 @@
       "morphemes": [
         "spect"
       ],
-      "morphemeIds": []
+      "morphemeIds": [
+        "rx-spec"
+      ]
     },
     {
       "kind": "text",
@@ -54,7 +56,10 @@
         "re",
         "spect"
       ],
-      "morphemeIds": []
+      "morphemeIds": [
+        "px-re",
+        "rx-spec"
+      ]
     },
     {
       "kind": "matrix",
@@ -211,7 +216,9 @@
       "morphemes": [
         "spect"
       ],
-      "morphemeIds": []
+      "morphemeIds": [
+        "rx-spec"
+      ]
     }
   ],
   "practice": [

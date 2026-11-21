@@ -1,336 +1,328 @@
 {
- "id": "w38d6",
- "week": 38,
- "day": 6,
- "title": "三层派生：一个词根能走多远",
- "tagline": "从词根到词基再到新词基，每加一层都要问：词性变了没有，意义还透明吗",
- "objectives": [
-  "能画出以 manu（手）为核心的三层派生矩阵，并说明每层的词性变化",
-  "能判断哪一层之后词义不再透明、必须整词记忆",
-  "能用矩阵补出一个没见过的合法组合，并排除不合法组合"
- ],
- "prereqs": [
-  "w38d3",
-  "c-word-matrix",
-  "c-word-sum"
- ],
- "concepts": [
-  "c-word-matrix",
-  "c-word-sum",
-  "c-derivation",
-  "c-base"
- ],
- "minutes": {
-  "review": 5,
-  "learn": 8,
-  "practice": 8,
-  "apply": 5
- },
- "level": "B2",
- "cards": [
-  {
-   "kind": "matrix",
-   "title": "manu 的矩阵：四个真实组合",
-   "body": "矩阵的读法是“列 × 行”：后缀列给出能接在词根后的成分，行给出实际存在的词。空格不是随便填的——只有词典里确有的组合才能进矩阵。注意 -facture 这一格：它不是 -ure 直接接 manu，而是先有 fact（做）再合成。",
-   "base": "manu",
-   "prefixes": [
+  "id": "w38d6",
+  "week": 38,
+  "day": 6,
+  "title": "三层派生：一个词根能走多远",
+  "tagline": "从词根到词基再到新词基，每加一层都要问：词性变了没有，意义还透明吗",
+  "objectives": [
+    "能画出以 manu（手）为核心的三层派生矩阵，并说明每层的词性变化",
+    "能判断哪一层之后词义不再透明、必须整词记忆",
+    "能用矩阵补出一个没见过的合法组合，并排除不合法组合"
+  ],
+  "prereqs": [
+    "w38d3",
+    "c-word-matrix",
+    "c-word-sum"
+  ],
+  "concepts": [
+    "c-word-matrix",
+    "c-word-sum",
+    "c-derivation",
+    "c-base"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
     {
-     "text": "—",
-     "glossZh": "该族不使用前缀"
+      "kind": "matrix",
+      "title": "manu 的矩阵：四个真实组合",
+      "body": "矩阵的读法是“列 × 行”：后缀列给出能接在词根后的成分，行给出实际存在的词。空格不是随便填的——只有词典里确有的组合才能进矩阵。注意 -facture 这一格：它不是 -ure 直接接 manu，而是先有 fact（做）再合成。",
+      "base": "manu",
+      "prefixes": [
+        {
+          "text": "—",
+          "glossZh": "该族不使用前缀"
+        }
+      ],
+      "suffixes": [
+        {
+          "text": "-al",
+          "glossZh": "形容词：与……有关的"
+        },
+        {
+          "text": "-script",
+          "glossZh": "写下的东西"
+        },
+        {
+          "text": "-facture",
+          "glossZh": "制作（fact 做 + ure 名词）"
+        },
+        {
+          "text": "-ally",
+          "glossZh": "副词：以……方式"
+        }
+      ],
+      "words": [
+        {
+          "w": "manual",
+          "parts": [
+            "manu",
+            "al"
+          ],
+          "glossZh": "手工的；手册"
+        },
+        {
+          "w": "manuscript",
+          "parts": [
+            "manu",
+            "script"
+          ],
+          "glossZh": "手稿"
+        },
+        {
+          "w": "manufacture",
+          "parts": [
+            "manu",
+            "fact",
+            "ure"
+          ],
+          "glossZh": "制造"
+        },
+        {
+          "w": "manually",
+          "parts": [
+            "manu",
+            "al",
+            "ly"
+          ],
+          "glossZh": "用手地；手动地"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "三层是怎么叠起来的",
+      "body": "第一层：词根 + 派生后缀 → 新词基。manu + al → manual（形容词）。此时 manual 已经是一个可以独立使用的词基。\n\n第二层：新词基 + 派生后缀 → 再新词基。manual + ly → manually（副词）。注意这一层加的不是“另一个词根”，而是把形容词变成副词，词性又变了一次。\n\n第三层：再新词基 + 屈折词尾。manually 若要表比较，只能走 more manually，因为 -ly 副词不接受 -er。这一层属于屈折，不造新词。\n\n每一层都要问两个问题：**词性变了没有？意义还能从成分推出来吗？**两个都答“是”，这一层就是透明的派生；有一个答“否”，就要在这一层停下来，把整词当作新的记忆单位。",
+      "terms": [
+        {
+          "term": "derivational layer",
+          "zh": "派生层级",
+          "en": "derivational layer",
+          "note": "每加一个派生后缀算一层，可能改变词性"
+        }
+      ],
+      "morphemes": [
+        "manu",
+        "al",
+        "ly"
+      ],
+      "morphemeIds": []
+    },
+    {
+      "kind": "table",
+      "title": "三层派生的透明度检查",
+      "body": "最后一列是判断依据：如果一层之后意义还能逐段对上，就继续往下拆；如果对不上，就把那一层以上当作整词。",
+      "head": [
+        "层级",
+        "形式",
+        "词性",
+        "意义是否透明"
+      ],
+      "rows": [
+        [
+          "词根",
+          "manu（手）",
+          "黏着词根",
+          "—"
+        ],
+        [
+          "第一层",
+          "manu + al → manual",
+          "形容词／名词",
+          "透明：与手有关的 → 手工的"
+        ],
+        [
+          "第二层",
+          "manual + ly → manually",
+          "副词",
+          "透明：以手工的方式"
+        ],
+        [
+          "平行第一层",
+          "manu + script → manuscript",
+          "名词",
+          "半透明：手写的东西 → 手稿（今义已窄化为“未刊稿”）"
+        ],
+        [
+          "平行第一层",
+          "manu + fact + ure → manufacture",
+          "名词／动词",
+          "半透明：用手做 → 制造（现代义已工业化）"
+        ]
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "同一族里的三条算式",
+      "body": "算式写出来以后，横向比较三条例子的后缀层级：-al（第一层）、-ally（第二层）、-ure（第一层但带词根复合）。层级不同，词性与意义的变化幅度也不同。",
+      "sums": [
+        {
+          "parts": [
+            "manu",
+            "al"
+          ],
+          "result": "manual",
+          "glossZh": "手工的；手册",
+          "note": "第一层：词根 → 形容词"
+        },
+        {
+          "parts": [
+            "manu",
+            "al",
+            "ly"
+          ],
+          "result": "manually",
+          "glossZh": "用手地",
+          "note": "第二层：形容词 → 副词"
+        },
+        {
+          "parts": [
+            "manu",
+            "fact",
+            "ure"
+          ],
+          "result": "manufacture",
+          "glossZh": "制造",
+          "note": "复合词根 fact（做）+ 名词后缀"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "矩阵的边界：哪些格子必须空着",
+      "body": "矩阵不是生成器，它只登记已经被语言接受的组合。manu 后面可以接 -al、-script、-facture，但不能接 -ness（*manuness）、-ment（*manument）、-able（*manuable）。原因各不相同：-ness 要形容词宿主，manu 不是；-ment 要动词宿主；-able 在英语里接的是 manual 这样的形容词，且已有现成说法（hand-made）。\n\n所以做矩阵题的正确姿势是：先用规则排除明显违规的格子，再用词典确认剩下的格子。只做第一步会造出伪词，只做第二步则学不到规则。",
+      "morphemes": [
+        "manu",
+        "ness",
+        "able"
+      ],
+      "morphemeIds": []
     }
-   ],
-   "suffixes": [
+  ],
+  "practice": [
     {
-     "text": "-al",
-     "glossZh": "形容词：与……有关的"
+      "id": "w38d6-p1",
+      "kind": "matrix",
+      "prompt": "以 dent（牙）为词根，加上表示“从事者”的后缀，构成“牙医”",
+      "base": "dent",
+      "suffix": "ist",
+      "answer": "dentist",
+      "explain": "dent + ist → dentist。-ist 接名词词根表“从事者”，同族还有 dental（dent + al，形容词）、dentine 之类。这里体现的是第一层派生：词根 → 名词，词性改变、意义透明。注意 -ist 的宿主是名词性成分，不能接动词，也不能接形容词。",
+      "concepts": [
+        "dent",
+        "ist"
+      ]
     },
     {
-     "text": "-script",
-     "glossZh": "写下的东西"
+      "id": "w38d6-p2",
+      "kind": "wordSum",
+      "prompt": "用 + 连接两段，写出“骨化、僵化”这个动词",
+      "parts": [
+        "oss",
+        "ify"
+      ],
+      "answer": "ossify",
+      "explain": "oss（骨）+ -ify（使成为）→ ossify，字面“使变成骨”，医学上指骨化，引申为“僵化”。这是第一层派生：名词性词根 + 动词化后缀。同族的 ossuary（oss + uary，藏骨堂）走的是名词路径，可见同一词根能分叉出不同词性。",
+      "concepts": [
+        "oss",
+        "ify"
+      ]
     },
     {
-     "text": "-facture",
-     "glossZh": "制作（fact 做 + ure 名词）"
+      "id": "w38d6-p3",
+      "kind": "mcq",
+      "prompt": "在 manual → manually 这一步，发生的变化是：",
+      "choices": [
+        "加派生后缀，词性从形容词变为副词",
+        "加屈折词尾，只是同一形容词的另一种形式",
+        "加前缀，改变了词义方向",
+        "复合了两个词根，产生新词基"
+      ],
+      "answer": 0,
+      "explain": "-ly 是派生后缀：它改变了词性（形容词 → 副词），并造出一个词典要另立条目的新词，所以属于派生而非屈折。屈折只标语法关系（manuals 的 -s、walked 的 -ed），不改变词性。判断标准始终是功能：这一步有没有造出新词。",
+      "concepts": [
+        "man",
+        "al",
+        "ly"
+      ]
     },
     {
-     "text": "-ally",
-     "glossZh": "副词：以……方式"
+      "id": "w38d6-p4",
+      "kind": "mcq",
+      "prompt": "下面哪个组合不能进入 manu 的构词矩阵？",
+      "choices": [
+        "manu + al → manual",
+        "manu + script → manuscript",
+        "manu + ment → manument",
+        "manu + fact + ure → manufacture"
+      ],
+      "answer": 2,
+      "explain": "-ment 的宿主必须是动词词干（govern → government、argue → argument），manu 是名词性黏着词根，不能作宿主，所以 *manument 不成立。其余三个都是词典里确有的词。注意 argument 里也有 -ment，但它的宿主 argu- 是动词性词干；宿主词性才是判据，不是拼写。",
+      "concepts": [
+        "man",
+        "ment",
+        "script"
+      ]
+    },
+    {
+      "id": "w38d6-p5",
+      "kind": "boundary",
+      "prompt": "切开 manuscript：这个词由两个词根直接复合，没有连接元音",
+      "word": "manuscript",
+      "segments": [
+        "manu",
+        "script"
+      ],
+      "explain": "manu + script。manu 是“手”，script 是“写下的东西”，字面义“手写的东西”→ 手稿。这里只有两段，因为它是词根复合而非“词根 + 后缀”：script 本身是 scrib 的分词词干（写过的东西），不是后缀。切分时不要写成 man|u|script——u 属于 manu 这个语素，不能单独切出。",
+      "concepts": [
+        "man",
+        "script"
+      ]
     }
-   ],
-   "words": [
+  ],
+  "apply": [
     {
-     "w": "manual",
-     "parts": [
-      "manu",
-      "al"
-     ],
-     "glossZh": "手工的；手册"
-    },
-    {
-     "w": "manuscript",
-     "parts": [
-      "manu",
-      "script"
-     ],
-     "glossZh": "手稿"
-    },
-    {
-     "w": "manufacture",
-     "parts": [
-      "manu",
-      "fact",
-      "ure"
-     ],
-     "glossZh": "制造"
-    },
-    {
-     "w": "manually",
-     "parts": [
-      "manu",
-      "al",
-      "ly"
-     ],
-     "glossZh": "用手地；手动地"
+      "id": "w38d6-a1",
+      "kind": "infer",
+      "prompt": "（迁移）读句子，推测 manuscript 在投稿语境中的含义",
+      "passage": "The manuscript was accepted subject to minor revisions, but the journal asked the authors to shorten the methods section before the final version.",
+      "word": "manuscript",
+      "choices": [
+        "投稿的论文稿",
+        "手写的原始文件",
+        "出版后的印刷版本",
+        "研究用的实验仪器"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：manu（手）+ script（写下的东西）；② 句法：The manuscript was accepted subject to minor revisions 是同行评审的标准表述；③ 语境：期刊要求作者缩短方法部分、再出 final version，说明这是“待刊稿”；④ 校验：印刷版本与 revisions 矛盾，仪器与 accepted 不搭。",
+      "explain": "manuscript 在学术语境里指“投稿的论文稿”。字面义“手写的东西”已经只剩历史痕迹：今天稿件都是电子文件，词义却保留了“作者提交的文本”这一核心。这是“字面义窄化后固定下来”的例子——和 d4 讲的 bonus 相反，bonus 是缩小到“额外所得”，manuscript 是从“手写”扩大到“任何待刊文本”。",
+      "concepts": [
+        "man",
+        "script"
+      ]
     }
-   ]
-  },
-  {
-   "kind": "text",
-   "title": "三层是怎么叠起来的",
-   "body": "第一层：词根 + 派生后缀 → 新词基。manu + al → manual（形容词）。此时 manual 已经是一个可以独立使用的词基。\n\n第二层：新词基 + 派生后缀 → 再新词基。manual + ly → manually（副词）。注意这一层加的不是“另一个词根”，而是把形容词变成副词，词性又变了一次。\n\n第三层：再新词基 + 屈折词尾。manually 若要表比较，只能走 more manually，因为 -ly 副词不接受 -er。这一层属于屈折，不造新词。\n\n每一层都要问两个问题：**词性变了没有？意义还能从成分推出来吗？**两个都答“是”，这一层就是透明的派生；有一个答“否”，就要在这一层停下来，把整词当作新的记忆单位。",
-   "terms": [
+  ],
+  "sources": [
     {
-     "term": "derivational layer",
-     "zh": "派生层级",
-     "en": "derivational layer",
-     "note": "每加一个派生后缀算一层，可能改变词性"
-    }
-   ],
-   "morphemes": [
-    "manu",
-    "al",
-    "ly"
-   ],
-   "morphemeIds": [
-    "rx-man",
-    "sx-al",
-    "sx-ly"
-   ]
-  },
-  {
-   "kind": "table",
-   "title": "三层派生的透明度检查",
-   "body": "最后一列是判断依据：如果一层之后意义还能逐段对上，就继续往下拆；如果对不上，就把那一层以上当作整词。",
-   "head": [
-    "层级",
-    "形式",
-    "词性",
-    "意义是否透明"
-   ],
-   "rows": [
-    [
-     "词根",
-     "manu（手）",
-     "黏着词根",
-     "—"
-    ],
-    [
-     "第一层",
-     "manu + al → manual",
-     "形容词／名词",
-     "透明：与手有关的 → 手工的"
-    ],
-    [
-     "第二层",
-     "manual + ly → manually",
-     "副词",
-     "透明：以手工的方式"
-    ],
-    [
-     "平行第一层",
-     "manu + script → manuscript",
-     "名词",
-     "半透明：手写的东西 → 手稿（今义已窄化为“未刊稿”）"
-    ],
-    [
-     "平行第一层",
-     "manu + fact + ure → manufacture",
-     "名词／动词",
-     "半透明：用手做 → 制造（现代义已工业化）"
-    ]
-   ]
-  },
-  {
-   "kind": "sum",
-   "title": "同一族里的三条算式",
-   "body": "算式写出来以后，横向比较三条例子的后缀层级：-al（第一层）、-ally（第二层）、-ure（第一层但带词根复合）。层级不同，词性与意义的变化幅度也不同。",
-   "sums": [
-    {
-     "parts": [
-      "manu",
-      "al"
-     ],
-     "result": "manual",
-     "glossZh": "手工的；手册",
-     "note": "第一层：词根 → 形容词"
+      "id": "S3",
+      "title": "WordWorks SWI",
+      "detail": "词矩阵的构建规则与合法格子"
     },
     {
-     "parts": [
-      "manu",
-      "al",
-      "ly"
-     ],
-     "result": "manually",
-     "glossZh": "用手地",
-     "note": "第二层：形容词 → 副词"
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 6 章：多层派生与词基"
     },
     {
-     "parts": [
-      "manu",
-      "fact",
-      "ure"
-     ],
-     "result": "manufacture",
-     "glossZh": "制造",
-     "note": "复合词根 fact（做）+ 名词后缀"
+      "id": "S2",
+      "title": "Essentials of Linguistics",
+      "detail": "派生与屈折的层级顺序"
     }
-   ]
-  },
-  {
-   "kind": "text",
-   "title": "矩阵的边界：哪些格子必须空着",
-   "body": "矩阵不是生成器，它只登记已经被语言接受的组合。manu 后面可以接 -al、-script、-facture，但不能接 -ness（*manuness）、-ment（*manument）、-able（*manuable）。原因各不相同：-ness 要形容词宿主，manu 不是；-ment 要动词宿主；-able 在英语里接的是 manual 这样的形容词，且已有现成说法（hand-made）。\n\n所以做矩阵题的正确姿势是：先用规则排除明显违规的格子，再用词典确认剩下的格子。只做第一步会造出伪词，只做第二步则学不到规则。",
-   "morphemes": [
-    "manu",
-    "ness",
-    "able"
-   ],
-   "morphemeIds": [
-    "rx-man",
-    "sx-ness",
-    "sx-able"
-   ]
-  }
- ],
- "practice": [
-  {
-   "id": "w38d6-p1",
-   "kind": "matrix",
-   "prompt": "以 dent（牙）为词根，加上表示“从事者”的后缀，构成“牙医”",
-   "base": "dent",
-   "suffix": "ist",
-   "answer": "dentist",
-   "explain": "dent + ist → dentist。-ist 接名词词根表“从事者”，同族还有 dental（dent + al，形容词）、dentine 之类。这里体现的是第一层派生：词根 → 名词，词性改变、意义透明。注意 -ist 的宿主是名词性成分，不能接动词，也不能接形容词。",
-   "concepts": [
-    "dent",
-    "ist"
-   ]
-  },
-  {
-   "id": "w38d6-p2",
-   "kind": "wordSum",
-   "prompt": "用 + 连接两段，写出“骨化、僵化”这个动词",
-   "parts": [
-    "oss",
-    "ify"
-   ],
-   "answer": "ossify",
-   "explain": "oss（骨）+ -ify（使成为）→ ossify，字面“使变成骨”，医学上指骨化，引申为“僵化”。这是第一层派生：名词性词根 + 动词化后缀。同族的 ossuary（oss + uary，藏骨堂）走的是名词路径，可见同一词根能分叉出不同词性。",
-   "concepts": [
-    "oss",
-    "ify"
-   ]
-  },
-  {
-   "id": "w38d6-p3",
-   "kind": "mcq",
-   "prompt": "在 manual → manually 这一步，发生的变化是：",
-   "choices": [
-    "加派生后缀，词性从形容词变为副词",
-    "加屈折词尾，只是同一形容词的另一种形式",
-    "加前缀，改变了词义方向",
-    "复合了两个词根，产生新词基"
-   ],
-   "answer": 0,
-   "explain": "-ly 是派生后缀：它改变了词性（形容词 → 副词），并造出一个词典要另立条目的新词，所以属于派生而非屈折。屈折只标语法关系（manuals 的 -s、walked 的 -ed），不改变词性。判断标准始终是功能：这一步有没有造出新词。",
-   "concepts": [
-    "man",
-    "al",
-    "ly"
-   ]
-  },
-  {
-   "id": "w38d6-p4",
-   "kind": "mcq",
-   "prompt": "下面哪个组合不能进入 manu 的构词矩阵？",
-   "choices": [
-    "manu + al → manual",
-    "manu + script → manuscript",
-    "manu + ment → manument",
-    "manu + fact + ure → manufacture"
-   ],
-   "answer": 2,
-   "explain": "-ment 的宿主必须是动词词干（govern → government、argue → argument），manu 是名词性黏着词根，不能作宿主，所以 *manument 不成立。其余三个都是词典里确有的词。注意 argument 里也有 -ment，但它的宿主 argu- 是动词性词干；宿主词性才是判据，不是拼写。",
-   "concepts": [
-    "man",
-    "ment",
-    "script"
-   ]
-  },
-  {
-   "id": "w38d6-p5",
-   "kind": "boundary",
-   "prompt": "切开 manuscript：这个词由两个词根直接复合，没有连接元音",
-   "word": "manuscript",
-   "segments": [
-    "manu",
-    "script"
-   ],
-   "explain": "manu + script。manu 是“手”，script 是“写下的东西”，字面义“手写的东西”→ 手稿。这里只有两段，因为它是词根复合而非“词根 + 后缀”：script 本身是 scrib 的分词词干（写过的东西），不是后缀。切分时不要写成 man|u|script——u 属于 manu 这个语素，不能单独切出。",
-   "concepts": [
-    "man",
-    "script"
-   ]
-  }
- ],
- "apply": [
-  {
-   "id": "w38d6-a1",
-   "kind": "infer",
-   "prompt": "（迁移）读句子，推测 manuscript 在投稿语境中的含义",
-   "passage": "The manuscript was accepted subject to minor revisions, but the journal asked the authors to shorten the methods section before the final version.",
-   "word": "manuscript",
-   "choices": [
-    "投稿的论文稿",
-    "手写的原始文件",
-    "出版后的印刷版本",
-    "研究用的实验仪器"
-   ],
-   "answer": 0,
-   "strategy": "① 切分：manu（手）+ script（写下的东西）；② 句法：The manuscript was accepted subject to minor revisions 是同行评审的标准表述；③ 语境：期刊要求作者缩短方法部分、再出 final version，说明这是“待刊稿”；④ 校验：印刷版本与 revisions 矛盾，仪器与 accepted 不搭。",
-   "explain": "manuscript 在学术语境里指“投稿的论文稿”。字面义“手写的东西”已经只剩历史痕迹：今天稿件都是电子文件，词义却保留了“作者提交的文本”这一核心。这是“字面义窄化后固定下来”的例子——和 d4 讲的 bonus 相反，bonus 是缩小到“额外所得”，manuscript 是从“手写”扩大到“任何待刊文本”。",
-   "concepts": [
-    "man",
-    "script"
-   ]
-  }
- ],
- "sources": [
-  {
-   "id": "S3",
-   "title": "WordWorks SWI",
-   "detail": "词矩阵的构建规则与合法格子"
-  },
-  {
-   "id": "S1",
-   "title": "English Vocabulary Elements",
-   "detail": "第 6 章：多层派生与词基"
-  },
-  {
-   "id": "S2",
-   "title": "Essentials of Linguistics",
-   "detail": "派生与屈折的层级顺序"
-  }
- ],
- "knowledgePoints": []
+  ],
+  "knowledgePoints": []
 }

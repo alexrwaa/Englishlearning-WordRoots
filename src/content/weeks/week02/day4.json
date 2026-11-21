@@ -44,14 +44,7 @@
         "ize",
         "ly"
       ],
-      "morphemeIds": [
-        "rx-nation",
-        "sx-al",
-        "sx-ity",
-        "sx-ism",
-        "sx-ize",
-        "sx-ly"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "matrix",

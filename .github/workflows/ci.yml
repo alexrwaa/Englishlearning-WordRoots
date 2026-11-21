@@ -47,6 +47,13 @@ jobs:
         run: node scripts/bundle-lessons.mjs --check
       - name: Lesson time audit
         run: npm run audit:time
+      # Word status is derived, never hand-edited: a drifting status block means
+      # someone changed the lexicon without re-deriving, which is how "verified"
+      # stopped meaning anything in 0.7.0.
+      - name: Word status is current
+        run: node scripts/migrate-word-status.mjs --check
+      - name: Review evidence audit
+        run: node scripts/audit-reviews.mjs
       # A single unbalanced here-string in package-portable.ps1 broke the 0.5.0
       # portable build without any readable error. Parsing costs a second.
       - name: Script syntax check

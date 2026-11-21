@@ -45,9 +45,7 @@
       "morphemes": [
         "ent"
       ],
-      "morphemeIds": [
-        "sx-ent"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "text",
@@ -57,10 +55,7 @@
         "ia",
         "ence"
       ],
-      "morphemeIds": [
-        "sx-ia",
-        "sx-ence"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "text",
@@ -71,11 +66,7 @@
         "ance",
         "ancy"
       ],
-      "morphemeIds": [
-        "sx-ence",
-        "sx-ance",
-        "sx-ancy"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "table",

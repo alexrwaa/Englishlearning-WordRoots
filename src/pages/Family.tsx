@@ -1,6 +1,6 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { allMorphemes, allWords, getWord } from '../lib/content';
+import { allMorphemes, allWords, familyDossier, getWord, loadFamilies, type FamilyDossier } from '../lib/content';
 import { affixRole, familyBaseForm, familyMembers, resolveFamilyId } from '../lib/derive';
 import { Badge, EmptyState, Panel } from '../components/ui';
 import { FamilyTree } from '../components/lab/FamilyTree';
@@ -31,6 +31,17 @@ export default function Family() {
   const familyId = resolveFamilyId(id);
   const morpheme = useMemo(() => allMorphemes().find((m) => m.id === familyId), [familyId]);
   const baseForm = familyId ? (familyBaseForm(familyId) ?? '') : '';
+  const [dossier, setDossier] = useState<FamilyDossier | undefined>();
+
+  useEffect(() => {
+    let alive = true;
+    void loadFamilies().then(() => {
+      if (alive) setDossier(familyId ? familyDossier(familyId) : undefined);
+    });
+    return () => {
+      alive = false;
+    };
+  }, [familyId]);
 
   const members = useMemo(() => {
     if (!familyId) return [];
@@ -120,6 +131,115 @@ export default function Family() {
           换一个词基
         </Link>
       </div>
+
+      {dossier ? (
+        <Panel>
+          <h2 className="h2">词族档案</h2>
+          <p className="small muted">核心义、派生链、语义演变与反例——按可复核的语源整理</p>
+          {dossier.coreIdea ? <p className="lede">{dossier.coreIdea}</p> : null}
+          {dossier.root?.etymon ? (
+            <p className="small muted">
+              语源：{dossier.root.origin} <strong>{dossier.root.etymon}</strong>
+              {dossier.root.etymonGloss ? `「${dossier.root.etymonGloss}」` : ''}
+            </p>
+          ) : null}
+
+          {dossier.teaching?.induction ? (
+            <div className="callout" style={{ marginTop: 12 }}>
+              <strong>先自己归纳：</strong>
+              {dossier.teaching.induction}
+            </div>
+          ) : null}
+
+          {dossier.members?.length ? (
+            <>
+              <h3 className="h3" style={{ marginTop: 16 }}>真实成员（{dossier.members.length}）</h3>
+              <table className="table">
+                <thead>
+                  <tr>
+                    <th>词</th>
+                    <th>关系</th>
+                    <th>切分</th>
+                    <th>释义</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {dossier.members.map((member) => (
+                    <tr key={member.w}>
+                      <td><code>{member.w}</code></td>
+                      <td>
+                        <Badge tone={member.relation === 'cognate' ? 'green' : 'accent'}>
+                          {member.relation === 'cognate' ? '同源异途' : '派生'}
+                        </Badge>
+                      </td>
+                      <td className="small">{(member.layer ?? []).join(' + ') || '—'}</td>
+                      <td className="small">{member.glossZh ?? member.note ?? '—'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </>
+          ) : null}
+
+          {dossier.derivationChains?.length ? (
+            <>
+              <h3 className="h3" style={{ marginTop: 16 }}>多层派生</h3>
+              <ul className="list">
+                {dossier.derivationChains.map((chain) => (
+                  <li key={chain.stages.join('-')}>
+                    <strong>{chain.stages.join(' → ')}</strong>
+                    {chain.note ? <span className="small muted"> — {chain.note}</span> : null}
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+
+          {dossier.semanticShifts?.length ? (
+            <>
+              <h3 className="h3" style={{ marginTop: 16 }}>语义演变</h3>
+              <ul className="list">
+                {dossier.semanticShifts.map((shift) => (
+                  <li key={shift.w}>
+                    <code>{shift.w}</code>：{shift.from ?? '?'} → {shift.to ?? '?'}
+                    {shift.why ? <span className="small muted">（{shift.why}）</span> : null}
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+
+          {dossier.homographTraps?.length ? (
+            <>
+              <h3 className="h3" style={{ marginTop: 16 }}>同形异源的反例</h3>
+              <ul className="list">
+                {dossier.homographTraps.map((trap) => (
+                  <li key={trap.form}>
+                    <code>{trap.form}</code>：{trap.note ?? trap.other ?? '—'}
+                  </li>
+                ))}
+              </ul>
+            </>
+          ) : null}
+
+          {dossier.teaching?.transfer ? (
+            <div className="callout" style={{ marginTop: 16 }}>
+              <strong>迁移检验：</strong>
+              {dossier.teaching.transfer.question ?? `把 ${dossier.teaching.transfer.word} 拆开并猜义`}
+              <details style={{ marginTop: 6 }}>
+                <summary className="small">看答案</summary>
+                <p className="small">{dossier.teaching.transfer.answer ?? '—'}</p>
+              </details>
+            </div>
+          ) : null}
+
+          {dossier.sources?.length ? (
+            <p className="tiny faint" style={{ marginTop: 12 }}>
+              来源：{dossier.sources.map((s) => `${s.id}${s.detail ? `（${s.detail}）` : ''}`).join('；')}
+            </p>
+          ) : null}
+        </Panel>
+      ) : null}
 
       <div
         style={{

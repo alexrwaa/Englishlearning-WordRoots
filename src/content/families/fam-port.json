@@ -1,0 +1,187 @@
+{
+  "id": "fam-port",
+  "root": {
+    "form": "port",
+    "glossEn": "carry",
+    "glossZh": "携带、运送",
+    "origin": "Lat",
+    "etymon": "portare",
+    "etymonGloss": "to carry, bear"
+  },
+  "coreIdea": "一个「带」字：带走是出口，带回是报告，从下面带是支持。",
+  "members": [
+    {
+      "w": "transport",
+      "relation": "derivative",
+      "glossZh": "运输",
+      "layer": ["trans-", "port"],
+      "note": "trans- 穿过 + port 带 → 从一地带到另一地"
+    },
+    {
+      "w": "export",
+      "relation": "derivative",
+      "glossZh": "出口",
+      "layer": ["ex-", "port"],
+      "note": "ex- 向外 + 带"
+    },
+    {
+      "w": "import",
+      "relation": "derivative",
+      "glossZh": "进口",
+      "layer": ["im-", "port"],
+      "note": "im- 是 in- 的变体，向内 + 带"
+    },
+    {
+      "w": "report",
+      "relation": "derivative",
+      "glossZh": "报告",
+      "layer": ["re-", "port"],
+      "note": "re- 回 + 带 → 把见闻带回来"
+    },
+    {
+      "w": "support",
+      "relation": "derivative",
+      "glossZh": "支持",
+      "layer": ["sup-", "port"],
+      "note": "sup- 是 sub- 的变体，从下面 + 扛 → 在底下托住"
+    },
+    {
+      "w": "deport",
+      "relation": "derivative",
+      "glossZh": "驱逐出境",
+      "layer": ["de-", "port"],
+      "note": "de- 离开 + 带 → 把人带走"
+    },
+    {
+      "w": "portable",
+      "relation": "derivative",
+      "glossZh": "便携的",
+      "layer": ["port", "-able"],
+      "note": "-able 能…的：能被带的"
+    },
+    {
+      "w": "porter",
+      "relation": "derivative",
+      "glossZh": "搬运工",
+      "layer": ["port", "-er"],
+      "note": "-er 表人；注意「门房」的 porter 另出一源，见 homographTraps"
+    },
+    {
+      "w": "teleport",
+      "relation": "derivative",
+      "glossZh": "瞬间传送",
+      "layer": ["tele-", "port"],
+      "note": "tele- 远 + 带，19 世纪科幻与物理借词"
+    },
+    {
+      "w": "comport",
+      "relation": "derivative",
+      "glossZh": "举止相称",
+      "layer": ["com-", "port"],
+      "note": "com- 一起 + 带 → 把自己带得与场合一致"
+    },
+    {
+      "w": "importance",
+      "relation": "derivative",
+      "glossZh": "重要性",
+      "layer": ["im-", "port", "-ance"],
+      "note": "import 原义「带入」→ 带进来的分量 → 重要"
+    },
+    {
+      "w": "portage",
+      "relation": "derivative",
+      "glossZh": "搬运；陆上转运",
+      "layer": ["port", "-age"],
+      "note": "-age 表动作或费用：把船货扛过陆地的路段"
+    },
+    {
+      "w": "transportation",
+      "relation": "derivative",
+      "glossZh": "运输（系统）",
+      "layer": ["trans-", "port", "-ation"],
+      "note": "-ation 在 -tion 前多一层 -a-，是拉丁分词词干的残留"
+    },
+    {
+      "w": "exportable",
+      "relation": "derivative",
+      "glossZh": "可出口的",
+      "layer": ["ex-", "port", "-able"],
+      "note": "三层：前缀 + 词根 + 形容词后缀"
+    }
+  ],
+  "allomorphs": [],
+  "derivationChains": [
+    {
+      "stages": ["port", "export", "exportation", "exporter"],
+      "note": "每一级都真实成词；-ation 与 -er 是两条并行派生"
+    },
+    {
+      "stages": ["port", "transport", "transportation", "transporter"],
+      "note": "transportation 指系统，transporter 指设备或人"
+    },
+    {
+      "stages": ["port", "import", "importance", "important"],
+      "note": "importance 不是「进口行为」，而是「带进来的分量」，词义已转移"
+    },
+    {
+      "stages": ["port", "report", "reporter", "reportage"],
+      "note": "reportage 借自法语，指报道文体"
+    }
+  ],
+  "semanticShifts": [
+    {
+      "w": "report",
+      "from": "把消息带回来",
+      "to": "报告、报道",
+      "why": "带回来的对象从实物变成信息"
+    },
+    {
+      "w": "support",
+      "from": "从下面扛住",
+      "to": "支持、供养",
+      "why": "物理托举 → 抽象支援"
+    },
+    {
+      "w": "important",
+      "from": "被带进来的",
+      "to": "重要的",
+      "why": "能带进后果、有分量的，才叫重要"
+    },
+    {
+      "w": "comport",
+      "from": "把自己带到一起",
+      "to": "举止与…相称",
+      "why": "自我收束 → 合乎分寸"
+    }
+  ],
+  "homographTraps": [
+    {
+      "form": "port",
+      "other": "port（港口）、opportunity、opportune 里的 port 来自拉丁 portus「港口」",
+      "note": "同形异源：opportune 原指「风把船吹向港口」，与 portare「携带」无关"
+    },
+    {
+      "form": "porter",
+      "other": "「门房、守门人」的 porter 来自拉丁 porta「门」，与「搬运工」同形异源",
+      "note": "读同一个词，要看上下文判断是「门」还是「扛」"
+    }
+  ],
+  "teaching": {
+    "induction": "给出 export、import、report、support、transport 五个词，问：它们的共同动作是什么？每个前缀把「带」的方向改成了哪边？",
+    "transfer": {
+      "word": "purport",
+      "question": "拆开并猜义：pur-（pro- 的变体）+ port 合起来是什么动作？",
+      "answer": "pur- 向前 + port 带 → 把（某种说法）带到人前 → 声称、意味着（常含「未必属实」的语气）。例句：The memo purports to explain the delay but offers no evidence."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "detail": "ch.9 Latin/Greek element list（port- 条）；ch.3 前缀同化（in- → im-, sub- → sup-）"
+    },
+    {
+      "id": "S5",
+      "detail": "Oxford Dictionary of English Etymology，portare 与 portus 两条对照"
+    }
+  ]
+}

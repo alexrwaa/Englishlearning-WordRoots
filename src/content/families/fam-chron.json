@@ -1,0 +1,179 @@
+{
+  "id": "fam-chron",
+  "root": {
+    "form": "chron",
+    "glossEn": "time",
+    "glossZh": "时间",
+    "origin": "Gk",
+    "etymon": "chronos",
+    "etymonGloss": "time"
+  },
+  "coreIdea": "「时间」：同一时间是一起，错的时间是错位，穿过时间是历时。",
+  "members": [
+    {
+      "w": "synchronize",
+      "relation": "derivative",
+      "glossZh": "使同步",
+      "layer": ["syn-", "chron", "-ize"],
+      "note": "syn- 一起 + chron 时间 + -ize → 让时间对齐"
+    },
+    {
+      "w": "chronic",
+      "relation": "derivative",
+      "glossZh": "慢性的；长期的",
+      "layer": ["chron", "-ic"],
+      "note": "-ic …的：与时间有关 → 拖很长时间的"
+    },
+    {
+      "w": "chronicle",
+      "relation": "derivative",
+      "glossZh": "编年史",
+      "layer": ["chron"],
+      "note": "拉丁 chronica < 希腊 chronika「按时间排列的事」；-icle 是借入后的词尾，不作后缀切分"
+    },
+    {
+      "w": "chronology",
+      "relation": "derivative",
+      "glossZh": "年代学；时间顺序",
+      "layer": ["chrono", "-logy"],
+      "note": "chrono 时间 + -logy 学科 → 研究时间顺序"
+    },
+    {
+      "w": "chronological",
+      "relation": "derivative",
+      "glossZh": "按时间顺序的",
+      "layer": ["chrono", "-logy", "-ical"],
+      "note": "chronology 去 y 加 -ical"
+    },
+    {
+      "w": "chronometer",
+      "relation": "derivative",
+      "glossZh": "精密计时器",
+      "layer": ["chrono", "-meter"],
+      "note": "chrono 时间 + -meter 测量 → 测时的仪器"
+    },
+    {
+      "w": "anachronism",
+      "relation": "derivative",
+      "glossZh": "时代错误",
+      "layer": ["ana-", "chron", "-ism"],
+      "note": "ana- 反、错 + 时间 + -ism → 放错时代的东西"
+    },
+    {
+      "w": "asynchronous",
+      "relation": "derivative",
+      "glossZh": "异步的",
+      "layer": ["a-", "syn-", "chron", "-ous"],
+      "note": "a- 否定 + syn- 一起 + 时间 + -ous → 不同时的"
+    },
+    {
+      "w": "chronograph",
+      "relation": "derivative",
+      "glossZh": "计时记录仪",
+      "layer": ["chrono", "-graph"],
+      "note": "chrono 时间 + graph 记录 → 把时间写下来"
+    },
+    {
+      "w": "chronometry",
+      "relation": "derivative",
+      "glossZh": "测时学",
+      "layer": ["chrono", "-metry"],
+      "note": "-metry 测量术，比 -meter 更偏方法"
+    },
+    {
+      "w": "synchronic",
+      "relation": "derivative",
+      "glossZh": "共时的",
+      "layer": ["syn-", "chron", "-ic"],
+      "note": "syn- 一起 + 时间 → 截取同一时点看系统"
+    },
+    {
+      "w": "diachronic",
+      "relation": "derivative",
+      "glossZh": "历时的",
+      "layer": ["dia-", "chron", "-ic"],
+      "note": "dia- 穿过 + 时间 → 沿时间轴看变化"
+    },
+    {
+      "w": "chronobiology",
+      "relation": "derivative",
+      "glossZh": "时间生物学",
+      "layer": ["chrono", "bio", "-logy"],
+      "note": "20 世纪复合词：研究生物节律的时间维度"
+    }
+  ],
+  "allomorphs": [
+    {
+      "form": "chrono",
+      "note": "接 -logy / -meter / -graph 时的连接形式，-o- 已并入词根",
+      "examples": ["chronology", "chronometer", "chronograph"]
+    }
+  ],
+  "derivationChains": [
+    {
+      "stages": ["chron", "chronic", "chronicity"],
+      "note": "每一级都真实成词；chronicity 是医学用语「慢性程度」"
+    },
+    {
+      "stages": ["chron", "chronology", "chronological", "chronologically"],
+      "note": "-logy → -logical → -logically 是常规三层"
+    },
+    {
+      "stages": ["chron", "synchronize", "synchronization"],
+      "note": "synchronize 去 e 加 -ation"
+    },
+    {
+      "stages": ["chron", "chronometer", "chronometric"],
+      "note": "chronometric 指「测时的」，与 chronometrical 并存"
+    }
+  ],
+  "semanticShifts": [
+    {
+      "w": "chronic",
+      "from": "与时间有关的",
+      "to": "长期的、慢性的",
+      "why": "时间跨度长 → 疾病迁延不愈"
+    },
+    {
+      "w": "anachronism",
+      "from": "错的时间",
+      "to": "时代错误",
+      "why": "把某物放进不属于它的时代"
+    },
+    {
+      "w": "chronicle",
+      "from": "按时间记录",
+      "to": "编年史",
+      "why": "记录方式转指成书"
+    }
+  ],
+  "homographTraps": [
+    {
+      "form": "Chronos",
+      "other": "希腊 Χρόνος（Chronos，时间）与 Τιτάν Κρόνος（Cronus，泰坦神）只是读音相近",
+      "note": "chronological 与 Cronus 无词源关系；英语里 Cronus 只出现在神话语境"
+    }
+  ],
+  "teaching": {
+    "induction": "给出 synchronize、chronic、chronology、anachronism、diachronic 五个词，问：共同的「时间」在哪里？syn-、ana-、dia- 分别把时间怎样摆布？",
+    "transfer": {
+      "word": "diachronic",
+      "question": "拆开并猜义：dia- + chron + -ic 与 synchronic 相对在何处？",
+      "answer": "dia- 穿过 + chron 时间 + -ic …的 → 沿时间轴看变化的，即「历时的」；synchronic 则是截取同一时点。例句：The paper takes a diachronic view of vowel shifts in English."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "detail": "ch.9 Greek element list（chron- 条）"
+    },
+    {
+      "id": "S2",
+      "detail": "Chapter 14 Historical Linguistics（共时与历时的区分）"
+    },
+    {
+      "id": "S5",
+      "detail": "Oxford Dictionary of English Etymology，chronos 条"
+    }
+  ]
+}

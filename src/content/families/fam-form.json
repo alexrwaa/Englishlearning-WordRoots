@@ -1,0 +1,180 @@
+{
+  "id": "fam-form",
+  "root": {
+    "form": "form",
+    "glossEn": "shape, form",
+    "glossZh": "形状、形成",
+    "origin": "Lat",
+    "etymon": "forma",
+    "etymonGloss": "shape, mould, form"
+  },
+  "coreIdea": "「形状」：把形状放进心里是告知，变成同一形状是统一。",
+  "members": [
+    {
+      "w": "form",
+      "relation": "derivative",
+      "glossZh": "形式；形成",
+      "layer": ["form"],
+      "note": "拉丁 forma 直接进入英语，既指形状也指构成"
+    },
+    {
+      "w": "formal",
+      "relation": "derivative",
+      "glossZh": "正式的",
+      "layer": ["form", "-al"],
+      "note": "-al …的：有明确形式的 → 合规矩的"
+    },
+    {
+      "w": "formation",
+      "relation": "derivative",
+      "glossZh": "形成；编队",
+      "layer": ["form", "-ation"],
+      "note": "-ation 表动作或结果"
+    },
+    {
+      "w": "inform",
+      "relation": "derivative",
+      "glossZh": "告知",
+      "layer": ["in-", "form"],
+      "note": "in- 在内 + form 形状 → 把形状放进人心里，即让他知道"
+    },
+    {
+      "w": "information",
+      "relation": "derivative",
+      "glossZh": "信息",
+      "layer": ["in-", "form", "-ation"],
+      "note": "inform 的名词形：被放进心里的东西"
+    },
+    {
+      "w": "reform",
+      "relation": "derivative",
+      "glossZh": "改革",
+      "layer": ["re-", "form"],
+      "note": "re- 再 + 成形 → 重新塑造"
+    },
+    {
+      "w": "transform",
+      "relation": "derivative",
+      "glossZh": "转变",
+      "layer": ["trans-", "form"],
+      "note": "trans- 越过 + 形状 → 跨到另一种形态"
+    },
+    {
+      "w": "uniform",
+      "relation": "derivative",
+      "glossZh": "制服；统一的",
+      "layer": ["uni-", "form"],
+      "note": "uni- 一个 + 形状 → 同一种样式"
+    },
+    {
+      "w": "conform",
+      "relation": "derivative",
+      "glossZh": "遵从",
+      "layer": ["con-", "form"],
+      "note": "con- 一起 + 形状 → 把自己塑成同一形状"
+    },
+    {
+      "w": "deform",
+      "relation": "derivative",
+      "glossZh": "使变形",
+      "layer": ["de-", "form"],
+      "note": "de- 去掉、向下 + 形状 → 破坏原形"
+    },
+    {
+      "w": "formative",
+      "relation": "derivative",
+      "glossZh": "形成性的",
+      "layer": ["form", "-ative"],
+      "note": "-ative …的：起塑造作用的"
+    },
+    {
+      "w": "formless",
+      "relation": "derivative",
+      "glossZh": "无形的",
+      "layer": ["form", "-less"],
+      "note": "-less 无…的"
+    },
+    {
+      "w": "multiform",
+      "relation": "derivative",
+      "glossZh": "多形态的",
+      "layer": ["multi-", "form"],
+      "note": "multi- 多 + 形状"
+    }
+  ],
+  "allomorphs": [],
+  "derivationChains": [
+    {
+      "stages": ["form", "inform", "information", "informational"],
+      "note": "每一级都真实成词；-ation 与 -ational 是两层"
+    },
+    {
+      "stages": ["form", "reform", "reformation", "reformer"],
+      "note": "reformation 既指一般「重塑」，也特指 16 世纪宗教改革"
+    },
+    {
+      "stages": ["form", "transform", "transformation", "transformative"],
+      "note": "transformative 走 -ative，不经过 transformation"
+    },
+    {
+      "stages": ["form", "conform", "conformity", "conformist"],
+      "note": "conform 的 -ity 前拼作 -ity，不是 -ation"
+    }
+  ],
+  "semanticShifts": [
+    {
+      "w": "inform",
+      "from": "把形状放进",
+      "to": "告知",
+      "why": "在头脑中塑出同样的形状 → 让对方知道"
+    },
+    {
+      "w": "uniform",
+      "from": "一个形状",
+      "to": "统一的；制服",
+      "why": "样式统一 → 统一着装"
+    },
+    {
+      "w": "formal",
+      "from": "有形状的",
+      "to": "正式的",
+      "why": "形式明确、合乎规范"
+    },
+    {
+      "w": "formation",
+      "from": "成形",
+      "to": "形成；编队",
+      "why": "从过程转指排好的队形"
+    }
+  ],
+  "homographTraps": [
+    {
+      "form": "form",
+      "other": "formidable、formidably 里的 form 来自拉丁 formido「恐惧」",
+      "note": "同形异源：formidable 是「可怕的」，与 forma「形状」无关"
+    },
+    {
+      "form": "form",
+      "other": "formic acid（甲酸）、formication 里的 form 来自拉丁 formica「蚂蚁」",
+      "note": "化学与医学术语，不要按「形状」解释"
+    }
+  ],
+  "teaching": {
+    "induction": "给出 inform、reform、transform、uniform、conform 五个词，问：共同的「形状」在哪里？前缀把「形状」改成了什么状态？",
+    "transfer": {
+      "word": "transformative",
+      "question": "拆开并猜义：trans- + form + -ative 描述的是哪一种改变？",
+      "answer": "trans- 越过 + form 形状 + -ative …的 → 能跨到另一种形态、带来根本改变的。例句：The discovery was transformative for the field of materials science."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "detail": "ch.9 Latin/Greek element list（form- 条）；ch.3 派生后缀 -ation / -ative"
+    },
+    {
+      "id": "S5",
+      "detail": "Oxford Dictionary of English Etymology，forma 与 formido 两条对照"
+    }
+  ]
+}

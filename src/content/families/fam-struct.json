@@ -1,0 +1,186 @@
+{
+  "id": "fam-struct",
+  "root": {
+    "form": "struct",
+    "glossEn": "build, pile up",
+    "glossZh": "建造、堆叠",
+    "origin": "Lat",
+    "etymon": "struere",
+    "etymonGloss": "to build, heap up, arrange"
+  },
+  "coreIdea": "核心动作是「搭」：往里搭是教，往外搭是建，挡着搭是堵。",
+  "members": [
+    {
+      "w": "construct",
+      "relation": "derivative",
+      "glossZh": "建造",
+      "layer": ["con-", "struct"],
+      "note": "con- 一起 + struct 堆 → 把材料堆到一起"
+    },
+    {
+      "w": "destruction",
+      "relation": "derivative",
+      "glossZh": "破坏",
+      "layer": ["de-", "struct", "-ion"],
+      "note": "de- 向下、反着来 + 建造 → 拆掉已搭好的"
+    },
+    {
+      "w": "instruct",
+      "relation": "derivative",
+      "glossZh": "指导",
+      "layer": ["in-", "struct"],
+      "note": "in- 在内 + 搭建 → 在人心里把知识搭起来"
+    },
+    {
+      "w": "obstruct",
+      "relation": "derivative",
+      "glossZh": "阻碍",
+      "layer": ["ob-", "struct"],
+      "note": "ob- 对着、挡在前面 + 堆 → 在前方堆起障碍"
+    },
+    {
+      "w": "structure",
+      "relation": "derivative",
+      "glossZh": "结构",
+      "layer": ["struct", "-ure"],
+      "note": "-ure 造名词：搭建的方式与结果"
+    },
+    {
+      "w": "infrastructure",
+      "relation": "derivative",
+      "glossZh": "基础设施",
+      "layer": ["infra-", "struct", "-ure"],
+      "note": "infra- 在下方 + 结构 → 托住上层设施的底层结构"
+    },
+    {
+      "w": "superstructure",
+      "relation": "derivative",
+      "glossZh": "上层建筑",
+      "layer": ["super-", "struct", "-ure"],
+      "note": "super- 在上 + 结构，与 infrastructure 成对"
+    },
+    {
+      "w": "substructure",
+      "relation": "derivative",
+      "glossZh": "下部结构",
+      "layer": ["sub-", "struct", "-ure"],
+      "note": "sub- 在下 + 结构，工程术语"
+    },
+    {
+      "w": "nanostructure",
+      "relation": "derivative",
+      "glossZh": "纳米结构",
+      "layer": ["nano-", "struct", "-ure"],
+      "note": "nano- 纳米级 + 结构，20 世纪科技复合词"
+    },
+    {
+      "w": "reconstruct",
+      "relation": "derivative",
+      "glossZh": "重建",
+      "layer": ["re-", "con-", "struct"],
+      "note": "re- 再 + con- 一起 + 搭"
+    },
+    {
+      "w": "instrument",
+      "relation": "derivative",
+      "glossZh": "仪器；乐器",
+      "layer": ["in-", "stru", "-ment"],
+      "note": "拉丁 instruere「装备、布置」→ 为完成某事搭起来的东西"
+    },
+    {
+      "w": "construe",
+      "relation": "derivative",
+      "glossZh": "理解；解释",
+      "layer": ["con-", "stru"],
+      "note": "con- 一起 + stru 搭 → 把词句的意义搭起来（词尾 e 不承载意义）"
+    },
+    {
+      "w": "structural",
+      "relation": "derivative",
+      "glossZh": "结构的",
+      "layer": ["struct", "-ure", "-al"],
+      "note": "structure 去 e 加 -al"
+    },
+    {
+      "w": "destroy",
+      "relation": "cognate",
+      "glossZh": "摧毁",
+      "note": "同源异途：拉丁 destruere = de- + struere，但英语拼写已磨平，不能按 struct 切分"
+    }
+  ],
+  "allomorphs": [
+    {
+      "form": "stru",
+      "note": "拉丁现在词干，出现在 instrument、construe 这类早期借词里",
+      "examples": ["instrument", "instrumental", "construe"]
+    }
+  ],
+  "derivationChains": [
+    {
+      "stages": ["struct", "construct", "construction", "constructionist"],
+      "note": "每一级都真实成词；-ion 造动作名词，-ist 再造人"
+    },
+    {
+      "stages": ["struct", "instruct", "instruction", "instructional"],
+      "note": "-al 把名词转成形容词"
+    },
+    {
+      "stages": ["struct", "structure", "structural", "structurally"],
+      "note": "structure → structural 去 e，是拼写规则不是词根变化"
+    },
+    {
+      "stages": ["struct", "obstruct", "obstruction", "obstructive"],
+      "note": "-ive 造形容词，与 -ion 名词并行"
+    }
+  ],
+  "semanticShifts": [
+    {
+      "w": "instruct",
+      "from": "在里面搭建",
+      "to": "教导",
+      "why": "把知识一层层搭进学习者心里"
+    },
+    {
+      "w": "instrument",
+      "from": "被装备起来的东西",
+      "to": "仪器；乐器",
+      "why": "为完成某件事而专门搭起来的工具"
+    },
+    {
+      "w": "construe",
+      "from": "一起搭建",
+      "to": "解释、理解",
+      "why": "把零散词句搭成一个可理解的整体"
+    }
+  ],
+  "homographTraps": [
+    {
+      "form": "stru",
+      "other": "menstrual 的 stru 来自拉丁 mensis「月」（menstruus），与 struere「建造」无关",
+      "note": "不要因为拼写含 stru 就归入本族；instrument 才是 struere"
+    },
+    {
+      "form": "struct",
+      "other": "obstruct 的 ob- 是「对着、挡住」，不是「反对」的独立单词义",
+      "note": "前缀义要从拉丁动词整体看，不能逐字翻译"
+    }
+  ],
+  "teaching": {
+    "induction": "给出 construct、destruct、instruct、obstruct、structure 五个词，问：共同的「搭」在哪个词里看得最清楚？前缀分别把搭建的方向改成了什么？",
+    "transfer": {
+      "word": "construe",
+      "question": "拆开并猜义：con- 与 stru 合起来为什么能表示「解释」？",
+      "answer": "con- 一起 + stru 搭建 → 把字词搭成一个整体 → 理解为、解释（多指对文本或条文的解读）。例句：Courts must construe the statute as written, not as they wish it read."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "detail": "ch.9 Latin/Greek element list（stru-/struct- 条）；ch.3 派生与词基"
+    },
+    {
+      "id": "S5",
+      "detail": "Oxford Dictionary of English Etymology，struere 与 instrumentum 条"
+    }
+  ]
+}

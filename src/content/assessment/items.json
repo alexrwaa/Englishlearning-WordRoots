@@ -1,0 +1,663 @@
+{
+  "version": 1,
+  "note": "题池与课程隔离：带 word 字段的词均不出现在 src/content/weeks/** 中，测的是迁移而非记忆。recall 维度只考课程已教词素，不带 word 字段。",
+  "items": [
+    {
+      "id": "as-recall-01",
+      "dimension": "recall",
+      "difficulty": 1,
+      "prompt": "词素 duc-（conduct、deduce 中出现）的核心义是？",
+      "choices": ["引导、带领", "携带、运送", "书写", "观看"],
+      "answer": 0,
+      "explain": "duc 来自拉丁 ducere「引导、带领」；conduct 即「一起引导」，deduce 是「往下引」→ 推出。"
+    },
+    {
+      "id": "as-recall-02",
+      "dimension": "recall",
+      "difficulty": 1,
+      "prompt": "词素 fer-（transfer、refer 中出现）的核心义是？",
+      "choices": ["切割", "携带、带来", "站立", "感觉"],
+      "answer": 1,
+      "explain": "fer 来自拉丁 ferre「携带、带来」；transfer 是「横过携带」→ 转移，refer 是「带回去」→ 提及。"
+    },
+    {
+      "id": "as-recall-03",
+      "dimension": "recall",
+      "difficulty": 1,
+      "prompt": "前缀 circum-（circumstance、circumference 中出现）的核心义是？",
+      "choices": ["在……之下", "在……之后", "环绕", "穿过"],
+      "answer": 2,
+      "explain": "circum 是拉丁语「环绕」；circumference 是「绕一圈量」→ 周长。"
+    },
+    {
+      "id": "as-recall-04",
+      "dimension": "recall",
+      "difficulty": 1,
+      "prompt": "词素 tact-（contact、tactile 中出现）的核心义是？",
+      "choices": ["看", "说", "拿", "触摸"],
+      "answer": 3,
+      "explain": "tact 来自拉丁 tangere「触摸」的过去分词词干 tactus；contact 是「共同接触」。"
+    },
+    {
+      "id": "as-recall-05",
+      "dimension": "recall",
+      "difficulty": 2,
+      "prompt": "词素 mit-（emit、transmit 中出现）的核心义是？",
+      "choices": ["拿、取", "送、放出", "打破", "覆盖"],
+      "answer": 1,
+      "explain": "mit 来自拉丁 mittere「送、放出」；emit 是「送出去」→ 发出，transmit 是「送过去」→ 传输。"
+    },
+    {
+      "id": "as-recall-06",
+      "dimension": "recall",
+      "difficulty": 2,
+      "prompt": "词素 scrib-（describe、inscribe 中出现）的核心义是？",
+      "choices": ["画", "数", "写", "读"],
+      "answer": 2,
+      "explain": "scrib 来自拉丁 scribere「写」；describe 是「写下来」→ 描述，inscribe 是「写进去」→ 刻写。"
+    },
+    {
+      "id": "as-recall-07",
+      "dimension": "recall",
+      "difficulty": 2,
+      "prompt": "词素 chron-（chronic、synchronize 中出现）的核心义是？",
+      "choices": ["声音", "热", "光", "时间"],
+      "answer": 3,
+      "explain": "chron 来自希腊 chronos「时间」；chronic 是「拖时间的」→ 慢性的，synchronize 是「使同一时间」。"
+    },
+    {
+      "id": "as-recall-08",
+      "dimension": "recall",
+      "difficulty": 2,
+      "prompt": "词素 therm-（thermal、thermometer 中出现）的核心义是？",
+      "choices": ["热", "冷", "水", "力"],
+      "answer": 0,
+      "explain": "therm 来自希腊 thermē「热」；thermometer 是「热的测量器」→ 温度计。"
+    },
+    {
+      "id": "as-recall-09",
+      "dimension": "recall",
+      "difficulty": 3,
+      "prompt": "graph-（lithograph）与 gram-（monogram）的分工，哪一项最准确？",
+      "choices": [
+        "两者完全同义，可以互换",
+        "graph 指图画，gram 指语法",
+        "graph 偏「书写、记录」的行为或工具；gram 偏「写下的东西」",
+        "graph 是名词后缀，gram 是动词后缀"
+      ],
+      "answer": 2,
+      "explain": "二者同出希腊 graphein「写」：graph 表书写行为或工具（lithograph 石版印刷），gram 表写下的结果（monogram 字母组合图案）。"
+    },
+    {
+      "id": "as-recall-10",
+      "dimension": "recall",
+      "difficulty": 3,
+      "prompt": "词素 sens-（sensitive、sensory 中出现）的核心义是？",
+      "choices": ["判断", "选择", "记忆", "感觉"],
+      "answer": 3,
+      "explain": "sens 来自拉丁 sentire「感觉、感知」的分词词干 sensus；sensory 是「感觉的」。"
+    },
+    {
+      "id": "as-recall-11",
+      "dimension": "recall",
+      "difficulty": 3,
+      "prompt": "词素 tempor-（temporary、contemporary 中出现）的核心义是？",
+      "choices": ["时间", "身体", "地方", "秩序"],
+      "answer": 0,
+      "explain": "tempor 来自拉丁 tempus「时间」；temporary 是「只在一段时间内的」→ 临时的。"
+    },
+    {
+      "id": "as-recall-12",
+      "dimension": "recall",
+      "difficulty": 3,
+      "prompt": "后缀 -ics（physics、linguistics 中出现）通常构成什么？",
+      "choices": ["形容词后缀", "学科名称（作单数）", "动词过去式", "复数名词"],
+      "answer": 1,
+      "explain": "-ics 来自希腊形容词中性复数，进入英语后表示一门学科，语法上作单数：physics is…。"
+    },
+
+    {
+      "id": "as-boundary-01",
+      "dimension": "boundary",
+      "difficulty": 1,
+      "word": "superscript",
+      "prompt": "superscript 的正确切分是？",
+      "choices": ["super + script", "su + per + script", "supers + cript"],
+      "answer": 0,
+      "explain": "super「在上」+ script「写」：写在上方的字符 → 上标。"
+    },
+    {
+      "id": "as-boundary-02",
+      "dimension": "boundary",
+      "difficulty": 1,
+      "word": "substandard",
+      "prompt": "substandard 的正确切分是？",
+      "choices": ["subs + tandard", "sub + standard", "su + bstandard"],
+      "answer": 1,
+      "explain": "sub「在下/低于」+ standard「标准」：低于标准的。subs 不是前缀，不能切出来。"
+    },
+    {
+      "id": "as-boundary-03",
+      "dimension": "boundary",
+      "difficulty": 1,
+      "word": "multiform",
+      "prompt": "multiform 的正确切分是？",
+      "choices": ["mul + ti + form", "mult + iform", "multi + form"],
+      "answer": 2,
+      "explain": "multi「多」+ form「形状」：多种形式的。不能把 multi 拆成 mul + ti，它本身是一个前缀。"
+    },
+    {
+      "id": "as-boundary-04",
+      "dimension": "boundary",
+      "difficulty": 1,
+      "word": "semitone",
+      "prompt": "semitone 的正确切分是？",
+      "choices": ["se + mit + one", "sem + itone", "semi + ton + e", "semi + tone"],
+      "answer": 3,
+      "explain": "semi「一半」+ tone「音」：半音。不能因为拼写里有 mit 就切出 mit-「送」。"
+    },
+    {
+      "id": "as-boundary-05",
+      "dimension": "boundary",
+      "difficulty": 2,
+      "word": "circumscribe",
+      "prompt": "circumscribe 的正确切分是？",
+      "choices": ["cir + cum + scribe", "circums + cribe", "circum + scribe", "circum + sc + ribe"],
+      "answer": 2,
+      "explain": "circum「环绕」+ scribe「写」：绕着写一圈 → 划定范围、限制。cir 不是独立词素。"
+    },
+    {
+      "id": "as-boundary-06",
+      "dimension": "boundary",
+      "difficulty": 2,
+      "word": "conformity",
+      "prompt": "conformity 的正确切分是？",
+      "choices": ["conf + orm + ity", "con + form + ity", "con + for + mity"],
+      "answer": 1,
+      "explain": "con「共同」+ form「形状」+ ity「性质」：形状一致 → 遵从、一致性。"
+    },
+    {
+      "id": "as-boundary-07",
+      "dimension": "boundary",
+      "difficulty": 2,
+      "word": "conducive",
+      "prompt": "conducive 的正确切分是？",
+      "choices": ["con + duc + ive", "con + du + cive", "cond + uc + ive", "conduc + tive"],
+      "answer": 0,
+      "explain": "con「共同」+ duc「引导」+ ive「具有……性质的」：能一起引向某结果 → 有助于……的。"
+    },
+    {
+      "id": "as-boundary-08",
+      "dimension": "boundary",
+      "difficulty": 2,
+      "word": "chronometer",
+      "prompt": "chronometer 的正确切分是？",
+      "choices": ["chrono + meter", "chron + ometer", "chron + met + er", "chron + o + meter"],
+      "answer": 3,
+      "explain": "chron「时间」+ 连接元音 o + meter「测量仪器」。本课程把连接元音当作独立的构词成分，所以不并进词根。"
+    },
+    {
+      "id": "as-boundary-09",
+      "dimension": "boundary",
+      "difficulty": 3,
+      "word": "autobiography",
+      "prompt": "autobiography 的正确切分是？",
+      "choices": ["auto + biograph + y", "auto + bio + graphy", "auto + bio + graph + y", "aut + obio + graphy"],
+      "answer": 2,
+      "explain": "auto「自己」+ bio「生命」+ graph「写」+ y（名词后缀）：写自己一生 → 自传。-y 是独立的构词成分。"
+    },
+    {
+      "id": "as-boundary-10",
+      "dimension": "boundary",
+      "difficulty": 3,
+      "word": "biotechnology",
+      "prompt": "biotechnology 的正确切分是？",
+      "choices": ["bio + techno + logy", "bio + techn + o + logy", "bi + o + technology"],
+      "answer": 1,
+      "explain": "bio「生命」+ techn「技艺」+ 连接元音 o + logy「学科」：生物技术。techno 不是不可再分的整体。"
+    },
+    {
+      "id": "as-boundary-11",
+      "dimension": "boundary",
+      "difficulty": 3,
+      "word": "transcription",
+      "prompt": "transcription 的正确切分是？",
+      "choices": ["trans + script + ion", "tra + nscript + ion", "transc + ript + ion", "trans + crip + tion"],
+      "answer": 0,
+      "explain": "trans「横过、转」+ script「写」+ ion「动作/结果」：转写下来的东西 → 转录、抄本。"
+    },
+    {
+      "id": "as-boundary-12",
+      "dimension": "boundary",
+      "difficulty": 3,
+      "word": "circumscription",
+      "prompt": "circumscription 的正确切分是？",
+      "choices": ["cir + cum + scription", "circum + scrip + tion", "circumscript + ion", "circum + script + ion"],
+      "answer": 3,
+      "explain": "circum「环绕」+ script「写」+ ion「动作/结果」：划界、限制。script 与 ion 各自承载意义，不能并成 -scription 一块。"
+    },
+
+    {
+      "id": "as-etymology-01",
+      "dimension": "etymology",
+      "difficulty": 1,
+      "word": "catgut",
+      "prompt": "catgut（羊肠线，旧时用于琴弦和缝合）常被望文生义为 cat + gut。词源上更准确的是？",
+      "choices": [
+        "cat + gut，字面就是「猫的肠子」",
+        "来自 kitgut，kit 指小型提琴，与猫无关",
+        "来自拉丁 cattus「猫」+ gutta「滴」",
+        "来自阿拉伯语 qat「切」+ gut「肠」"
+      ],
+      "answer": 1,
+      "explain": "catgut 是 kitgut 的变体：kit 指小型提琴，最初指肠衣做的琴弦。拼写后来受 cat 影响，但词义与猫无关。"
+    },
+    {
+      "id": "as-etymology-02",
+      "dimension": "etymology",
+      "difficulty": 1,
+      "word": "penthouse",
+      "prompt": "penthouse（顶层公寓）从词源上看最接近哪一项？",
+      "choices": [
+        "pent + house，「五间房」",
+        "pen + thouse，「围起来的房子」",
+        "来自古法语 pentis「附属建筑」，与「五」无关",
+        "来自希腊 penta「五」+ house"
+      ],
+      "answer": 2,
+      "explain": "penthouse 源自古法语 apentis/pentis「附属建筑」，后指屋顶上的小屋；拼写被 house 吸引，但并非「五」。"
+    },
+    {
+      "id": "as-etymology-03",
+      "dimension": "etymology",
+      "difficulty": 1,
+      "word": "sandblind",
+      "prompt": "sandblind（视力模糊的）里的 sand- 实际是什么？",
+      "choices": [
+        "sand「沙」，指沙眼",
+        "san-「健康」的反义",
+        "sand 是古英语「看见」",
+        "sam-「半」的变体，意为半盲"
+      ],
+      "answer": 3,
+      "explain": "sandblind 来自古英语 sam-blind，sam- 表示「一半」（与拉丁 semi- 同源），与 sand 无关。"
+    },
+    {
+      "id": "as-etymology-04",
+      "dimension": "etymology",
+      "difficulty": 1,
+      "word": "bridegroom",
+      "prompt": "bridegroom 的第二部分 groom，词源上是什么？",
+      "choices": [
+        "古英语 guma「男人」，后被 groom 替换",
+        "groom 原指马夫，指婚礼上牵马的人",
+        "groom 是「房间」room 的变体",
+        "groom 来自拉丁 grammaticus「有学问的」"
+      ],
+      "answer": 0,
+      "explain": "古英语是 brydguma（bride + guma「男人」）。guma 不再通用后，被形近的 groom 取代，属于民间词源改写。"
+    },
+    {
+      "id": "as-etymology-05",
+      "dimension": "etymology",
+      "difficulty": 2,
+      "word": "posthumous",
+      "prompt": "posthumous（死后发生的）常被解释为 post + humus「入土之后」。更准确的说法是？",
+      "choices": [
+        "确实是 post + humus，字面「入土之后」",
+        "拉丁原词是 postumus「最后的」，h 是后人受 humus 影响加上的",
+        "来自 post + human，「身后的人」",
+        "来自希腊 posthimos「墓前」"
+      ],
+      "answer": 1,
+      "explain": "拉丁 postumus 意为「最后的、遗腹的」。文艺复兴时期的拼写把 posthumous 与 humus（土）联系起来，属于后起的伪词源联想。"
+    },
+    {
+      "id": "as-etymology-06",
+      "dimension": "etymology",
+      "difficulty": 2,
+      "word": "preposterous",
+      "prompt": "preposterous（荒谬的）的词源结构是？",
+      "choices": [
+        "pre + post + erous，「前后都有」",
+        "pre + poster「海报之前」",
+        "prae「前」+ posterus「后」，字面「前后颠倒」",
+        "来自法语 prépostère「预先张贴」"
+      ],
+      "answer": 2,
+      "explain": "拉丁 praeposterus = prae（前）+ posterus（后），字面「前在后之后」，即顺序颠倒，引申为荒谬。"
+    },
+    {
+      "id": "as-etymology-07",
+      "dimension": "etymology",
+      "difficulty": 2,
+      "word": "noisome",
+      "prompt": "noisome（难闻的、有害的）中的 noise 部分实际来自？",
+      "choices": [
+        "noy「伤害」（annoy 的词根）+ -some",
+        "noise「噪音」，指吵得让人难受",
+        "nois「坚果」+ -some",
+        "拉丁 noxa「夜晚」"
+      ],
+      "answer": 0,
+      "explain": "中古英语 noysome 来自 noy「伤害、麻烦」+ -some「充满……的」，与 noise（噪音）只是形近音近。"
+    },
+    {
+      "id": "as-etymology-08",
+      "dimension": "etymology",
+      "difficulty": 2,
+      "word": "winsome",
+      "prompt": "winsome（迷人的）中的 win 部分实际来自？",
+      "choices": [
+        "win「赢」，指赢得人心",
+        "wind「风」的变体",
+        "wine「酒」+ -some",
+        "古英语 wynn「喜悦」+ -some"
+      ],
+      "answer": 3,
+      "explain": "古英语 wynsum = wynn（喜悦）+ -sum（-some），意为「令人愉快的」，与 win 无关。"
+    },
+    {
+      "id": "as-etymology-09",
+      "dimension": "etymology",
+      "difficulty": 3,
+      "word": "hypocrite",
+      "prompt": "hypocrite（伪君子）常被拆成 hypo + crite。词源上更准确的是？",
+      "choices": [
+        "hypo「在下」+ crite「评判」，指暗中评判的人",
+        "希腊 hypokritēs 原指「演员、假装者」，来自 hypokrinesthai「扮演」",
+        "hyper + crite，「过度评判」",
+        "来自拉丁 hypocrita「地下工作者」"
+      ],
+      "answer": 1,
+      "explain": "hypokritēs 是古希腊剧场的「演员」，引申为「假装的人」。它是希腊语借词，不能按现代 hypo- 构词规则重新切分。"
+    },
+    {
+      "id": "as-etymology-10",
+      "dimension": "etymology",
+      "difficulty": 3,
+      "word": "hyperbole",
+      "prompt": "hyperbole（夸张）与几何里的 hyperbola（双曲线）同源。哪项说法最准确？",
+      "choices": [
+        "hyperbole 是 hyper + bole 的现代英语复合词",
+        "hyperbole 来自拉丁 hyperbolus「过度」",
+        "hyperbola 是 hyperbole 的拼写错误",
+        "两者都来自希腊 hyperballein「抛过头」，进入英语后分属修辞与几何"
+      ],
+      "answer": 3,
+      "explain": "希腊 hyperbolē「抛过头、过度」既是修辞的「夸张」，也是圆锥曲线的「双曲线」。两词同源，但在英语中是不同历史层次的借词。"
+    },
+    {
+      "id": "as-etymology-11",
+      "dimension": "etymology",
+      "difficulty": 3,
+      "word": "cathode",
+      "prompt": "cathode（阴极）常被拆成 cat + hode。词源上更准确的是？",
+      "choices": [
+        "kata「向下」+ hodos「路」，Faraday 造词指「下行之路」，即阴极",
+        "cat「猫」+ hode「路」",
+        "cata「完全」+ hode「通道」",
+        "来自拉丁 cathodus「通道」"
+      ],
+      "answer": 0,
+      "explain": "Faraday 用希腊 kata（下）+ hodos（路）造出 cathode，指电流「下行」的一极；对应的 anode 是 ana（上）+ hodos。它与猫无关。"
+    },
+    {
+      "id": "as-etymology-12",
+      "dimension": "etymology",
+      "difficulty": 3,
+      "word": "egregious",
+      "prompt": "egregious 今天多指「极坏的」，它的词源原义是？",
+      "choices": [
+        "e + greg「聚集」，原义「群居的」",
+        "来自希腊 egregoros「清醒的」",
+        "e + greg「羊群」，字面「出众的」，原为褒义",
+        "来自拉丁 gravis「沉重的」"
+      ],
+      "answer": 2,
+      "explain": "拉丁 egregius = e（出）+ grex/greg（羊群），字面「从羊群中挑出来的」，原指「卓越的」。现代英语主要保留反讽式的贬义「极坏的」。"
+    },
+
+    {
+      "id": "as-transfer-01",
+      "dimension": "transfer",
+      "difficulty": 1,
+      "word": "antisocial",
+      "prompt": "没见过 antisocial 这个词。根据词素，它最可能的意思是？",
+      "choices": ["反社会的、不合群的", "非常社交的", "社会之前的", "多社会的"],
+      "answer": 0,
+      "explain": "anti「反对」+ social「社会的」：反对社会交往的 → 反社会的、不合群的。"
+    },
+    {
+      "id": "as-transfer-02",
+      "dimension": "transfer",
+      "difficulty": 1,
+      "word": "subtitle",
+      "prompt": "没见过 subtitle 这个词。根据词素，它最可能的意思是？",
+      "choices": ["主标题", "副标题、字幕", "标题的复数", "无标题"],
+      "answer": 1,
+      "explain": "sub「在下」+ title「标题」：位于主标题之下的文字 → 副标题；影视里指字幕。"
+    },
+    {
+      "id": "as-transfer-03",
+      "dimension": "transfer",
+      "difficulty": 1,
+      "word": "multitude",
+      "prompt": "没见过 multitude 这个词。根据词素，它最可能的意思是？",
+      "choices": ["少量", "多重人格", "众多、大量", "多数表决"],
+      "answer": 2,
+      "explain": "multi「多」+ -tude（状态、程度）：多的状态 → 众多、大量。"
+    },
+    {
+      "id": "as-transfer-04",
+      "dimension": "transfer",
+      "difficulty": 1,
+      "word": "prenatal",
+      "prompt": "没见过 prenatal 这个词。根据词素，它最可能的意思是？",
+      "choices": ["出生后的", "多胎的", "非自然的", "产前的"],
+      "answer": 3,
+      "explain": "pre「在……之前」+ natal「出生的」：出生之前的 → 产前的。"
+    },
+    {
+      "id": "as-transfer-05",
+      "dimension": "transfer",
+      "difficulty": 2,
+      "word": "conscription",
+      "prompt": "没见过 conscription 这个词。根据词素，它最可能的意思是？",
+      "choices": ["征兵", "共同书写", "禁止出版", "消费"],
+      "answer": 0,
+      "explain": "con「共同」+ script「写」+ ion「动作」：把名字一起写进名册 → 征兵。不能只按字面读成「一起写」。"
+    },
+    {
+      "id": "as-transfer-06",
+      "dimension": "transfer",
+      "difficulty": 2,
+      "word": "chronological",
+      "prompt": "没见过 chronological 这个词。根据词素，它最可能的意思是？",
+      "choices": ["按字母顺序的", "按时间顺序的", "按重要性排序的", "按地理位置排序的"],
+      "answer": 1,
+      "explain": "chron「时间」+ o + log「法则/学科」+ ical「……的」：按时间法则排列的 → 按时间顺序的。"
+    },
+    {
+      "id": "as-transfer-07",
+      "dimension": "transfer",
+      "difficulty": 2,
+      "word": "thermostat",
+      "prompt": "没见过 thermostat 这个词。根据词素，它最可能的意思是？",
+      "choices": ["散热器", "温度计", "恒温器", "热力学"],
+      "answer": 2,
+      "explain": "therm「热」+ o + stat「保持站立/稳定」：让温度保持稳定的装置 → 恒温器。温度计只测量，不控制。"
+    },
+    {
+      "id": "as-transfer-08",
+      "dimension": "transfer",
+      "difficulty": 2,
+      "word": "antibody",
+      "prompt": "没见过 antibody 这个词。根据词素，它最可能的意思是？",
+      "choices": ["反身体的结构", "身体的支架", "抗菌药", "抗体"],
+      "answer": 3,
+      "explain": "anti「对抗」+ body「身体」：免疫系统中对抗外来物的蛋白质 → 抗体。它是现代复合词，但意义已专门化，不是字面的「反身体」。"
+    },
+    {
+      "id": "as-transfer-09",
+      "dimension": "transfer",
+      "difficulty": 3,
+      "word": "anachronism",
+      "prompt": "没见过 anachronism 这个词。根据词素，它最可能的意思是？",
+      "choices": ["时代错误、不合时宜", "年代测量", "反时间旅行", "慢性病"],
+      "answer": 0,
+      "explain": "ana「向后/反」+ chron「时间」+ ism「现象/体系」：放到错误时代的东西 → 时代错误。"
+    },
+    {
+      "id": "as-transfer-10",
+      "dimension": "transfer",
+      "difficulty": 3,
+      "word": "metronome",
+      "prompt": "没见过 metronome 这个词。根据词素，它最可能的意思是？",
+      "choices": ["测量距离的仪器", "节拍器", "气象仪", "万用表"],
+      "answer": 1,
+      "explain": "metr「测量」+ o + nom「法则」：按规则测量节拍的装置 → 节拍器。"
+    },
+    {
+      "id": "as-transfer-11",
+      "dimension": "transfer",
+      "difficulty": 3,
+      "word": "proscription",
+      "prompt": "没见过 proscription 这个词。根据词素，它最可能的意思是？",
+      "choices": ["处方", "预先写好的说明", "禁止、放逐", "散文写作"],
+      "answer": 2,
+      "explain": "pro「向前/公开」+ script「写」+ ion「动作」：公开写榜宣布某人为非法 → 禁止、放逐。与 prescription（处方）同根但前缀不同。"
+    },
+    {
+      "id": "as-transfer-12",
+      "dimension": "transfer",
+      "difficulty": 3,
+      "word": "extraneous",
+      "prompt": "没见过 extraneous 这个词。根据词素，它最可能的意思是？",
+      "choices": ["极其陌生的", "内部的", "格外的、额外的", "外来的、无关的"],
+      "answer": 3,
+      "explain": "extra「外面」+ -neous（形容词后缀）：来自外部的 → 外来的、与主题无关的。"
+    },
+
+    {
+      "id": "as-repair-01",
+      "dimension": "repair",
+      "difficulty": 1,
+      "word": "tactless",
+      "prompt": "He regretted the tactless remark at once.（tact 有「触摸」义）此处 tactless 最接近？",
+      "choices": ["没有触感的", "不得体的、不圆通的", "无法触摸的", "触觉不敏感的"],
+      "answer": 1,
+      "explain": "tact 由「触摸」引申为「待人接物的分寸感」；tactless 是「没有分寸的」→ 不得体的。这不是生理触觉。"
+    },
+    {
+      "id": "as-repair-02",
+      "dimension": "repair",
+      "difficulty": 1,
+      "word": "antiseptic",
+      "prompt": "Clean the cut with an antiseptic solution. 此处 antiseptic 最接近？",
+      "choices": ["抗菌的、消毒的", "反生命的", "口服抗生素", "已经无菌的"],
+      "answer": 0,
+      "explain": "anti「对抗」+ septic「腐败的」：抑制微生物腐败的 → 消毒的。抗生素是 antibiotic；「已经无菌」是 aseptic。"
+    },
+    {
+      "id": "as-repair-03",
+      "dimension": "repair",
+      "difficulty": 1,
+      "word": "anticlimax",
+      "prompt": "The long-awaited finale was an anticlimax. 此处 anticlimax 最接近？",
+      "choices": ["反高潮的修辞手法", "第二次高潮", "令人失望的结局、虎头蛇尾", "高潮前的铺垫"],
+      "answer": 2,
+      "explain": "anti「相反」+ climax「高潮」：期待很高却平淡收场 → 令人失望的结局。它也可指修辞上的「突降」，但句中说的是观感。"
+    },
+    {
+      "id": "as-repair-04",
+      "dimension": "repair",
+      "difficulty": 1,
+      "word": "mundane",
+      "prompt": "He found the paperwork mundane. 此处 mundane 最接近？",
+      "choices": ["与月亮有关的", "世界性的", "地下的", "世俗的、平凡的"],
+      "answer": 3,
+      "explain": "mundane 来自拉丁 mundus「世界」：属于现世的 → 世俗的；再引申为「平淡无奇的」。句中不是天文学意义。"
+    },
+    {
+      "id": "as-repair-05",
+      "dimension": "repair",
+      "difficulty": 2,
+      "word": "invaluable",
+      "prompt": "Her advice proved invaluable. 此处 invaluable 最接近？",
+      "choices": ["毫无价值的", "极其宝贵的", "没有定价的", "不值钱的"],
+      "answer": 1,
+      "explain": "in- 在这里是「不能」而非「没有」：价值高到无法估价 → 极其宝贵的。拼写像否定，意思却是强肯定。"
+    },
+    {
+      "id": "as-repair-06",
+      "dimension": "repair",
+      "difficulty": 2,
+      "word": "uncanny",
+      "prompt": "There was an uncanny resemblance between them. 此处 uncanny 最接近？",
+      "choices": ["不精明的", "不礼貌的", "离奇的、难以解释的", "不谨慎的"],
+      "answer": 2,
+      "explain": "canny 原义「精明的、知晓的」，un- 否定后原指「超乎常人知晓的」→ 诡异的、难以解释的。不是「不聪明」。"
+    },
+    {
+      "id": "as-repair-07",
+      "dimension": "repair",
+      "difficulty": 2,
+      "word": "enormous",
+      "prompt": "The project required an enormous budget. 此处 enormous 最接近？",
+      "choices": ["巨大的", "不符合规范的", "异常的（贬义）", "编号的"],
+      "answer": 0,
+      "explain": "e「出」+ norm「规范」+ ous：超出常规 → 巨大。词源里的「反常」在现代英语中已弱化，句中只表示规模大。"
+    },
+    {
+      "id": "as-repair-08",
+      "dimension": "repair",
+      "difficulty": 2,
+      "word": "prosaic",
+      "prompt": "His explanation was prosaic but accurate. 此处 prosaic 最接近？",
+      "choices": ["散文体的", "赞成性的", "冗长难懂的", "平淡无奇的"],
+      "answer": 3,
+      "explain": "prosaic 来自拉丁 prosa「散文」：像散文一样不加修饰 → 平淡无奇的。句中与 accurate 并列，说的是风格朴素，不是文体分类。"
+    },
+    {
+      "id": "as-repair-09",
+      "dimension": "repair",
+      "difficulty": 3,
+      "word": "restive",
+      "prompt": "The audience grew restive as the delay stretched on. 此处 restive 最接近？",
+      "choices": ["休息的、放松的", "静止不动的", "焦躁不安的", "恢复体力的"],
+      "answer": 2,
+      "explain": "restive 源自古法语 restif「不肯前进的」，由「倔强、不受控」转为「焦躁不安的」。它与 rest「休息」只是形近。"
+    },
+    {
+      "id": "as-repair-10",
+      "dimension": "repair",
+      "difficulty": 3,
+      "word": "pedantic",
+      "prompt": "A pedantic insistence on every comma. 此处 pedantic 最接近？",
+      "choices": ["迂腐的、卖弄细节的", "与脚有关的", "步行的", "儿科医生的"],
+      "answer": 0,
+      "explain": "pedantic 指过分拘泥书本细节、卖弄学问 → 迂腐的。不要因为拼写里有 ped「脚」就按字面理解。"
+    },
+    {
+      "id": "as-repair-11",
+      "dimension": "repair",
+      "difficulty": 3,
+      "word": "disgruntled",
+      "prompt": "Disgruntled customers queued at the counter. 此处 disgruntled 最接近？",
+      "choices": ["没有咕哝的", "被剥夺声音的", "不再抱怨的", "不满的、恼火的"],
+      "answer": 3,
+      "explain": "disgruntled = dis- + gruntle（grunt 的小称，18 世纪诙谐构词）：咕哝得厉害 → 不满的。它不是「不抱怨」。"
+    },
+    {
+      "id": "as-repair-12",
+      "dimension": "repair",
+      "difficulty": 3,
+      "word": "obtrusive",
+      "prompt": "The obtrusive logo spoiled the photograph. 此处 obtrusive 最接近？",
+      "choices": ["推入的（物理）", "显眼的、碍眼的", "不真实的", "退缩的"],
+      "answer": 1,
+      "explain": "ob「对着」+ trus「推」+ ive：硬推到眼前 → 显眼的、碍眼的。不是物理上的「推入」。"
+    }
+  ]
+}

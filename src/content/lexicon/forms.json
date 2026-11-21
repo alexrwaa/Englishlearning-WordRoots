@@ -1,7 +1,8 @@
 {
   "a": [
     "px-a",
-    "px-a-lat"
+    "px-a-lat",
+    "px-ab"
   ],
   "ab": [
     "px-ab"
@@ -10,7 +11,15 @@
     "sx-abil"
   ],
   "able": [
+    "cx-ble-able",
+    "sx-abil",
     "sx-able"
+  ],
+  "abs": [
+    "px-ab"
+  ],
+  "ac": [
+    "px-ad"
   ],
   "acanth": [
     "rx-acanth"
@@ -30,6 +39,9 @@
   "act": [
     "rx-act"
   ],
+  "acul": [
+    "cx-acl-acul"
+  ],
   "acy": [
     "sfx-acy"
   ],
@@ -45,6 +57,15 @@
   "aesth": [
     "cx-aesth-esth"
   ],
+  "aestim": [
+    "rx-estim"
+  ],
+  "aev": [
+    "cx-ev"
+  ],
+  "af": [
+    "px-ad"
+  ],
   "ag": [
     "cx-ag-ig"
   ],
@@ -58,7 +79,10 @@
     "sx-ain"
   ],
   "al": [
-    "sx-al"
+    "cx-ol-al",
+    "px-ad",
+    "sx-al",
+    "sx-ial"
   ],
   "alb": [
     "cx-alb"
@@ -75,13 +99,22 @@
   "all": [
     "cx-all-allel"
   ],
+  "allel": [
+    "cx-all-allel"
+  ],
   "alt": [
     "cx-alt"
   ],
   "alumn": [
     "rx-alumn"
   ],
+  "alumna": [
+    "rx-alumn"
+  ],
   "alveol": [
+    "rx-alveol"
+  ],
+  "alveolus": [
     "rx-alveol"
   ],
   "am": [
@@ -91,6 +124,7 @@
     "cx-ambul"
   ],
   "an": [
+    "px-a",
     "sx-an"
   ],
   "ana": [
@@ -105,6 +139,9 @@
   "and": [
     "cx-and-end"
   ],
+  "anda": [
+    "cx-and-end"
+  ],
   "andr": [
     "cx-andr"
   ],
@@ -115,6 +152,7 @@
     "cx-ann-enn"
   ],
   "ant": [
+    "px-anti",
     "sx-ant"
   ],
   "ante": [
@@ -126,6 +164,9 @@
   "anti": [
     "px-anti"
   ],
+  "ap": [
+    "px-ad"
+  ],
   "api": [
     "cx-api"
   ],
@@ -134,6 +175,12 @@
   ],
   "apt": [
     "cx-apt-ept"
+  ],
+  "aqu": [
+    "cx-aque"
+  ],
+  "aqua": [
+    "cx-aque"
   ],
   "aque": [
     "cx-aque"
@@ -162,11 +209,20 @@
   "ary": [
     "cx-ary"
   ],
+  "as": [
+    "px-ad"
+  ],
   "aster": [
+    "cx-aster-astr"
+  ],
+  "astr": [
     "cx-aster-astr"
   ],
   "astro": [
     "cx-astro"
+  ],
+  "at": [
+    "px-ad"
   ],
   "ata": [
     "sx-ata"
@@ -181,7 +237,8 @@
     "sx-atic"
   ],
   "ation": [
-    "sx-ation"
+    "sx-ation",
+    "sx-tion"
   ],
   "ative": [
     "sx-ative"
@@ -213,6 +270,9 @@
   "bath": [
     "cx-bath-bathy"
   ],
+  "bathy": [
+    "cx-bath-bathy"
+  ],
   "bell": [
     "cx-bell"
   ],
@@ -235,6 +295,12 @@
   "ble": [
     "cx-ble-able"
   ],
+  "bol": [
+    "cx-bl-bol"
+  ],
+  "bon": [
+    "cx-bene-bon"
+  ],
   "bou": [
     "cx-bou-bu"
   ],
@@ -244,6 +310,12 @@
   "brach": [
     "cx-brach-brachy"
   ],
+  "brachy": [
+    "cx-brach-brachy"
+  ],
+  "bu": [
+    "cx-bou-bu"
+  ],
   "build": [
     "rx-build"
   ],
@@ -252,6 +324,9 @@
   ],
   "cad": [
     "cx-cad-cas"
+  ],
+  "calc": [
+    "rx-calcul"
   ],
   "calcul": [
     "rx-calcul"
@@ -263,6 +338,9 @@
     "rx-call"
   ],
   "camer": [
+    "rx-camer"
+  ],
+  "camera": [
     "rx-camer"
   ],
   "camp": [
@@ -280,6 +358,10 @@
   "caps": [
     "rx-caps"
   ],
+  "capt": [
+    "rx-capit",
+    "rx-capt"
+  ],
   "car": [
     "cx-car-carn"
   ],
@@ -289,8 +371,14 @@
   "card": [
     "cx-card"
   ],
+  "carn": [
+    "cx-car-carn"
+  ],
   "carry": [
     "rx-carry"
+  ],
+  "cas": [
+    "cx-cad-cas"
   ],
   "cata": [
     "cx-cata"
@@ -304,10 +392,16 @@
   "caution": [
     "rx-caution"
   ],
+  "cav": [
+    "rx-caut"
+  ],
   "caval": [
     "rx-caval"
   ],
   "ced": [
+    "cx-ced-cess"
+  ],
+  "cede": [
     "cx-ced-cess"
   ],
   "ceipt": [
@@ -319,10 +413,15 @@
   "cent": [
     "cx-cent"
   ],
+  "cep": [
+    "rx-cap"
+  ],
   "cephal": [
     "cx-cephal"
   ],
   "cept": [
+    "rx-cap",
+    "rx-ceipt",
     "rx-cept"
   ],
   "cer": [
@@ -333,6 +432,9 @@
   ],
   "cervic": [
     "cx-cervic"
+  ],
+  "cess": [
+    "cx-ced-cess"
   ],
   "chase": [
     "rx-chase"
@@ -349,8 +451,15 @@
   "chron": [
     "cx-chron"
   ],
+  "chrono": [
+    "cx-chron"
+  ],
   "cid": [
+    "cx-cad-cas",
     "rx-cid"
+  ],
+  "cip": [
+    "rx-cap"
   ],
   "circ": [
     "rx-circ"
@@ -358,8 +467,15 @@
   "circle": [
     "rx-circle"
   ],
+  "circul": [
+    "rx-circle"
+  ],
   "circum": [
     "px-circum"
+  ],
+  "cis": [
+    "cx-cad-cas",
+    "rx-cid"
   ],
   "cit": [
     "rx-cit"
@@ -376,14 +492,32 @@
   "clav": [
     "cx-clav"
   ],
+  "cle": [
+    "cx-cule-cle"
+  ],
   "cli": [
     "cx-cli"
   ],
   "clud": [
     "rx-clud"
   ],
+  "clude": [
+    "rx-clud"
+  ],
+  "clus": [
+    "rx-clud"
+  ],
+  "co": [
+    "px-com"
+  ],
+  "cod": [
+    "cx-caud-cod"
+  ],
   "coel": [
     "rx-coel"
+  ],
+  "col": [
+    "px-com"
   ],
   "com": [
     "px-com"
@@ -403,20 +537,33 @@
   "cop": [
     "rx-cop"
   ],
+  "cor": [
+    "px-com"
+  ],
   "cord": [
     "cx-cord"
   ],
   "corp": [
     "cx-corp-corpor"
   ],
+  "corpor": [
+    "cx-corp-corpor"
+  ],
   "cosm": [
     "cx-cosm"
   ],
   "counter": [
+    "cx-contra-counter",
     "px-counter"
   ],
   "crac": [
     "cx-crac-crat"
+  ],
+  "crat": [
+    "cx-crac-crat"
+  ],
+  "cre": [
+    "cx-cer-cri"
   ],
   "create": [
     "rx-create"
@@ -425,6 +572,7 @@
     "rx-cred"
   ],
   "cri": [
+    "cx-cer-cri",
     "cx-cri"
   ],
   "criter": [
@@ -432,6 +580,9 @@
   ],
   "cruc": [
     "cx-cruc"
+  ],
+  "cryp": [
+    "cx-cryph-cryp"
   ],
   "cryph": [
     "cx-cryph-cryp"
@@ -442,6 +593,9 @@
   "cub": [
     "cx-cub-cumb"
   ],
+  "cul": [
+    "cx-cl-cul"
+  ],
   "cule": [
     "cx-cule-cle"
   ],
@@ -451,9 +605,18 @@
   "cult": [
     "rx-cult"
   ],
+  "cumb": [
+    "cx-cub-cumb"
+  ],
+  "cup": [
+    "rx-cap"
+  ],
   "cur": [
     "cx-cur",
     "cx-cur-2"
+  ],
+  "curr": [
+    "cx-curs-curr"
   ],
   "curs": [
     "cx-curs-curr"
@@ -477,6 +640,7 @@
     "rx-danger"
   ],
   "de": [
+    "cx-div-de",
     "px-de"
   ],
   "debt": [
@@ -491,11 +655,17 @@
   "decem": [
     "cx-decem"
   ],
+  "deci": [
+    "cx-decim-deci"
+  ],
   "decim": [
     "cx-decim-deci"
   ],
   "dem": [
     "cx-dem"
+  ],
+  "demn": [
+    "cx-damn-demn"
   ],
   "den": [
     "cx-den"
@@ -506,11 +676,19 @@
   "dent": [
     "cx-dent"
   ],
+  "derm": [
+    "cx-dermat-derm"
+  ],
   "dermat": [
     "cx-dermat-derm"
   ],
   "deuter": [
     "cx-deuter"
+  ],
+  "di": [
+    "cx-da-do",
+    "cx-dy-di",
+    "px-dis"
   ],
   "dia": [
     "cx-dia"
@@ -523,6 +701,9 @@
   ],
   "dict": [
     "rx-dict"
+  ],
+  "dif": [
+    "px-dis"
   ],
   "dipl": [
     "cx-dipl"
@@ -537,9 +718,13 @@
     "cx-div-de"
   ],
   "do": [
+    "cx-da-do",
     "cx-do"
   ],
   "doc": [
+    "cx-doc"
+  ],
+  "doct": [
     "cx-doc"
   ],
   "dol": [
@@ -551,6 +736,12 @@
   "dram": [
     "rx-dram"
   ],
+  "drama": [
+    "rx-dram"
+  ],
+  "dry": [
+    "cx-dendr-dry"
+  ],
   "du": [
     "cx-du"
   ],
@@ -560,10 +751,20 @@
   "duc2": [
     "rx-duc2"
   ],
+  "duce": [
+    "rx-duc"
+  ],
+  "duct": [
+    "rx-duc"
+  ],
   "dy": [
+    "cx-da-do",
     "cx-dy-di"
   ],
   "dyn": [
+    "cx-dyn"
+  ],
+  "dynam": [
     "cx-dyn"
   ],
   "dynamics": [
@@ -590,32 +791,53 @@
   "ee": [
     "sx-ee"
   ],
+  "ef": [
+    "px-e"
+  ],
   "el1": [
     "cx-el1"
   ],
   "em": [
+    "cx-haem-hem",
     "px-em"
   ],
   "eme": [
     "cx-eme"
   ],
+  "en": [
+    "cx-oen-en"
+  ],
   "ence": [
+    "sx-ance",
     "sx-ence"
   ],
   "ency": [
     "sx-ency"
   ],
+  "end": [
+    "cx-and-end"
+  ],
+  "enda": [
+    "cx-and-end"
+  ],
   "endo": [
     "cx-endo"
+  ],
+  "enn": [
+    "cx-ann-enn"
   ],
   "ennea": [
     "cx-ennea"
   ],
   "ent": [
+    "sx-ant",
     "sx-ent"
   ],
   "epi": [
     "cx-epi"
+  ],
+  "ept": [
+    "cx-apt-ept"
   ],
   "equ": [
     "cx-equ-iqu"
@@ -635,6 +857,9 @@
   "err": [
     "cx-err"
   ],
+  "es": [
+    "sx-s"
+  ],
   "esc": [
     "cx-esc-sc"
   ],
@@ -643,6 +868,9 @@
   ],
   "est": [
     "sx-est"
+  ],
+  "esth": [
+    "cx-aesth-esth"
   ],
   "estim": [
     "rx-estim"
@@ -659,6 +887,9 @@
   "ev": [
     "cx-ev"
   ],
+  "ex": [
+    "px-e"
+  ],
   "extra": [
     "cx-extra"
   ],
@@ -668,14 +899,29 @@
   "fac": [
     "cx-fac-fec"
   ],
+  "fact": [
+    "cx-fac-fec"
+  ],
+  "fec": [
+    "cx-fac-fec"
+  ],
+  "fect": [
+    "cx-fac-fec"
+  ],
   "fer": [
     "rx-fer"
   ],
   "fer2": [
     "rx-fer2"
   ],
+  "fert": [
+    "rx-fer"
+  ],
   "fet": [
     "rx-fet"
+  ],
+  "fic": [
+    "cx-fac-fec"
   ],
   "fict": [
     "rx-fict"
@@ -692,6 +938,12 @@
   "flu": [
     "cx-flu-fluc"
   ],
+  "fluc": [
+    "cx-flu-fluc"
+  ],
+  "fluv": [
+    "cx-flu-fluc"
+  ],
   "foc": [
     "rx-foc"
   ],
@@ -701,14 +953,29 @@
   "formic": [
     "cx-formic"
   ],
+  "fract": [
+    "cx-frag-frang"
+  ],
   "frag": [
     "cx-frag-frang"
+  ],
+  "frang": [
+    "cx-frag-frang"
+  ],
+  "frat": [
+    "cx-fratr"
+  ],
+  "frater": [
+    "cx-fratr"
   ],
   "fratr": [
     "cx-fratr"
   ],
   "fraud": [
     "rx-fraud"
+  ],
+  "fring": [
+    "cx-frag-frang"
   ],
   "fug": [
     "cx-fug"
@@ -717,6 +984,9 @@
     "sx-ful"
   ],
   "fund": [
+    "cx-fund-fus"
+  ],
+  "fus": [
     "cx-fund-fus"
   ],
   "galact": [
@@ -737,7 +1007,15 @@
   "gemin": [
     "cx-gemin"
   ],
+  "gen": [
+    "cx-gn-gen",
+    "cx-gon-gen",
+    "rx-gener"
+  ],
   "gener": [
+    "rx-gener"
+  ],
+  "genera": [
     "rx-gener"
   ],
   "geo": [
@@ -755,14 +1033,24 @@
   "gland": [
     "rx-gland"
   ],
+  "glans": [
+    "rx-gland"
+  ],
   "gloss": [
+    "cx-gloss-glott"
+  ],
+  "glott": [
     "cx-gloss-glott"
   ],
   "gn": [
     "cx-gn-gen"
   ],
+  "gni": [
+    "cx-no-gno"
+  ],
   "gno": [
-    "cx-gno"
+    "cx-gno",
+    "cx-no-gno"
   ],
   "gon": [
     "cx-gon-gen"
@@ -773,8 +1061,12 @@
   "grad": [
     "cx-grad-gred"
   ],
+  "grain": [
+    "rx-gran"
+  ],
   "gram": [
-    "cx-gram"
+    "cx-gram",
+    "cx-graph"
   ],
   "gran": [
     "rx-gran"
@@ -783,6 +1075,7 @@
     "cx-graph"
   ],
   "graphy": [
+    "cx-graph",
     "cx-graphy"
   ],
   "grat": [
@@ -794,8 +1087,14 @@
   "gravid": [
     "cx-gravid"
   ],
+  "gred": [
+    "cx-grad-gred"
+  ],
   "greg": [
     "cx-greg"
+  ],
+  "gress": [
+    "cx-grad-gred"
   ],
   "ground": [
     "rx-ground"
@@ -803,8 +1102,14 @@
   "gyn": [
     "cx-gyn-gynec"
   ],
+  "gynec": [
+    "cx-gyn-gynec"
+  ],
   "haem": [
     "cx-haem-hem"
+  ],
+  "haer": [
+    "rx-her"
   ],
   "happy": [
     "rx-happy"
@@ -821,11 +1126,17 @@
   "heli": [
     "cx-heli"
   ],
+  "helic": [
+    "cx-helico"
+  ],
   "helico": [
     "cx-helico"
   ],
   "help": [
     "rx-help"
+  ],
+  "hem": [
+    "cx-haem-hem"
   ],
   "hemi": [
     "cx-hemi"
@@ -844,6 +1155,12 @@
   ],
   "herp": [
     "cx-herp-herpet"
+  ],
+  "herpet": [
+    "cx-herp-herpet"
+  ],
+  "hes": [
+    "rx-her"
   ],
   "hetero": [
     "cx-hetero"
@@ -869,6 +1186,12 @@
   "hum": [
     "rx-hum"
   ],
+  "humil": [
+    "rx-hum"
+  ],
+  "hydr": [
+    "cx-hydro"
+  ],
   "hydro": [
     "cx-hydro"
   ],
@@ -890,6 +1213,9 @@
   "ial": [
     "sx-ial"
   ],
+  "ian": [
+    "sx-an"
+  ],
   "iate": [
     "sx-iate"
   ],
@@ -900,6 +1226,9 @@
     "cx-iatr"
   ],
   "ible": [
+    "cx-ble-able",
+    "sx-abil",
+    "sx-able",
     "sx-ible"
   ],
   "ic": [
@@ -914,11 +1243,17 @@
   "icl": [
     "cx-icl-icul"
   ],
+  "icle": [
+    "sx-acle"
+  ],
   "icosa": [
     "cx-icosa"
   ],
   "ics": [
     "sx-ics"
+  ],
+  "icul": [
+    "cx-icl-icul"
   ],
   "iculum": [
     "sx-iculum"
@@ -941,8 +1276,16 @@
   "ify": [
     "sx-ify"
   ],
+  "ig": [
+    "cx-ag-ig"
+  ],
   "igo": [
     "sx-igo"
+  ],
+  "il": [
+    "px-im",
+    "px-in",
+    "sx-ile"
   ],
   "ile": [
     "sx-ile"
@@ -952,6 +1295,11 @@
   ],
   "ill": [
     "cx-ill"
+  ],
+  "im": [
+    "cx-am-im",
+    "px-im",
+    "px-in"
   ],
   "iment": [
     "sx-iment"
@@ -987,17 +1335,35 @@
   "intra": [
     "px-intra"
   ],
+  "intro": [
+    "px-intra"
+  ],
   "ion": [
-    "sx-ion"
+    "sx-ion",
+    "sx-tion"
   ],
   "ior": [
     "sfx-ior"
   ],
+  "ious": [
+    "sx-ous"
+  ],
+  "iqu": [
+    "cx-equ-iqu"
+  ],
   "ique": [
     "sx-ique"
   ],
+  "ir": [
+    "px-im",
+    "px-in"
+  ],
+  "is": [
+    "sx-ize"
+  ],
   "ise": [
-    "sx-ise"
+    "sx-ise",
+    "sx-ize"
   ],
   "island": [
     "rx-island"
@@ -1036,6 +1402,8 @@
     "cx-ium-um"
   ],
   "ive": [
+    "cx-tive-ive",
+    "sx-ative",
     "sx-ive"
   ],
   "ivity": [
@@ -1043,6 +1411,9 @@
   ],
   "ix": [
     "sx-ix"
+  ],
+  "iz": [
+    "sx-ize"
   ],
   "ize": [
     "sx-ize"
@@ -1059,8 +1430,14 @@
   "jun": [
     "cx-jun-juven"
   ],
+  "jur": [
+    "cx-jus-jur"
+  ],
   "jus": [
     "cx-jus-jur"
+  ],
+  "juven": [
+    "cx-jun-juven"
   ],
   "kilo": [
     "cx-kilo"
@@ -1077,16 +1454,26 @@
   "lachrym": [
     "cx-lachrym-lacrim"
   ],
+  "lacrim": [
+    "cx-lachrym-lacrim"
+  ],
   "lact": [
     "cx-lact"
   ],
   "laryng": [
     "cx-laryng"
   ],
+  "larynx": [
+    "cx-laryng"
+  ],
   "laser": [
     "rx-laser"
   ],
   "lat": [
+    "rx-fer",
+    "rx-lat"
+  ],
+  "late": [
     "rx-lat"
   ],
   "later": [
@@ -1096,7 +1483,10 @@
     "rx-lect"
   ],
   "leg": [
-    "cx-leg"
+    "cx-leg",
+    "cx-lex-leg",
+    "cx-lig",
+    "rx-lect"
   ],
   "legal": [
     "rx-legal"
@@ -1108,6 +1498,7 @@
     "rx-lev"
   ],
   "lex": [
+    "cx-leg",
     "cx-lex-leg"
   ],
   "libr": [
@@ -1120,7 +1511,11 @@
   "lidar": [
     "rx-lidar"
   ],
+  "liev": [
+    "rx-lev"
+  ],
   "lig": [
+    "cx-leg",
     "cx-lig"
   ],
   "lign": [
@@ -1135,13 +1530,18 @@
   "lingu": [
     "rx-lingu"
   ],
+  "lingua": [
+    "rx-lingu"
+  ],
   "lit": [
-    "cx-lit-lith"
+    "cx-lit-lith",
+    "cx-lith-lit"
   ],
   "liter": [
     "cx-liter"
   ],
   "lith": [
+    "cx-lit-lith",
     "cx-lith-lit"
   ],
   "loc": [
@@ -1150,8 +1550,16 @@
   "locu": [
     "cx-locu-loqu"
   ],
+  "log": [
+    "cx-leg",
+    "cx-lex-leg",
+    "cx-logy"
+  ],
   "logy": [
     "cx-logy"
+  ],
+  "loqu": [
+    "cx-locu-loqu"
   ],
   "loy": [
     "rx-loy"
@@ -1159,16 +1567,28 @@
   "lu": [
     "cx-lu-lv"
   ],
+  "luc": [
+    "cx-lumen-lumin"
+  ],
   "lumen": [
+    "cx-lumen-lumin"
+  ],
+  "lumin": [
     "cx-lumen-lumin"
   ],
   "lun": [
     "rx-lun"
   ],
+  "lv": [
+    "cx-lu-lv"
+  ],
   "ly": [
     "sx-ly"
   ],
   "lys": [
+    "rx-lys"
+  ],
+  "lyt": [
     "rx-lys"
   ],
   "ma": [
@@ -1192,6 +1612,9 @@
   "mal": [
     "cx-mal-male"
   ],
+  "male": [
+    "cx-mal-male"
+  ],
   "mamm": [
     "cx-mamm"
   ],
@@ -1202,8 +1625,14 @@
   "manage": [
     "rx-manage"
   ],
+  "manc": [
+    "cx-mant-manc"
+  ],
   "mant": [
     "cx-mant-manc"
+  ],
+  "manu": [
+    "rx-man"
   ],
   "matr": [
     "cx-matr"
@@ -1215,6 +1644,9 @@
     "rx-medi"
   ],
   "mega": [
+    "cx-mega-megal"
+  ],
+  "megal": [
     "cx-mega-megal"
   ],
   "memor": [
@@ -1229,6 +1661,9 @@
   "merg": [
     "rx-merg"
   ],
+  "mers": [
+    "rx-merg"
+  ],
   "meso": [
     "cx-meso"
   ],
@@ -1239,10 +1674,14 @@
     "cx-meter"
   ],
   "metr": [
+    "cx-meter",
     "cx-metr"
   ],
   "metre": [
     "cx-metre"
+  ],
+  "metry": [
+    "cx-metr"
   ],
   "micr": [
     "cx-micr"
@@ -1269,7 +1708,8 @@
     "cx-misc-mix"
   ],
   "miss": [
-    "rx-miss"
+    "rx-miss",
+    "rx-mit"
   ],
   "mit": [
     "rx-mit"
@@ -1277,10 +1717,16 @@
   "mitt": [
     "rx-mitt"
   ],
+  "mix": [
+    "cx-misc-mix"
+  ],
   "mne": [
     "cx-mne"
   ],
   "mo": [
+    "cx-mo"
+  ],
+  "mob": [
     "cx-mo"
   ],
   "modern": [
@@ -1288,6 +1734,10 @@
   ],
   "mole": [
     "rx-mole"
+  ],
+  "mon": [
+    "cx-men-mon",
+    "px-mono"
   ],
   "mono": [
     "px-mono"
@@ -1304,6 +1754,12 @@
   "mort": [
     "rx-mort"
   ],
+  "mos": [
+    "rx-mor"
+  ],
+  "mot": [
+    "cx-mo"
+  ],
   "mult": [
     "cx-mult"
   ],
@@ -1319,10 +1775,16 @@
   "myri": [
     "cx-myri"
   ],
+  "na": [
+    "cx-gn-gen"
+  ],
   "nano": [
     "px-nano"
   ],
   "nar": [
+    "cx-nar-nas"
+  ],
+  "nas": [
     "cx-nar-nas"
   ],
   "nat": [
@@ -1334,6 +1796,9 @@
   "natur": [
     "rx-natur"
   ],
+  "nature": [
+    "rx-natur"
+  ],
   "nau": [
     "cx-nau"
   ],
@@ -1341,7 +1806,8 @@
     "rx-naut"
   ],
   "nav": [
-    "cx-nav"
+    "cx-nav",
+    "rx-navig"
   ],
   "navig": [
     "rx-navig"
@@ -1370,14 +1836,26 @@
   "neur": [
     "rx-neur"
   ],
+  "nex": [
+    "rx-nect"
+  ],
+  "nic": [
+    "cx-nec-noc"
+  ],
   "nice": [
     "rx-nice"
   ],
   "nihil": [
     "cx-nihil-nil"
   ],
+  "nil": [
+    "cx-nihil-nil"
+  ],
   "no": [
     "cx-no-gno"
+  ],
+  "noc": [
+    "cx-nec-noc"
   ],
   "noct": [
     "cx-noct"
@@ -1386,10 +1864,17 @@
     "rx-noise"
   ],
   "nom": [
-    "cx-nom"
+    "cx-nom",
+    "cx-nomen-nomin"
   ],
   "nomen": [
     "cx-nomen-nomin"
+  ],
+  "nomin": [
+    "cx-nomen-nomin"
+  ],
+  "nomy": [
+    "cx-nom"
   ],
   "non": [
     "px-non"
@@ -1406,6 +1891,9 @@
   "noven": [
     "cx-noven"
   ],
+  "nox": [
+    "cx-nec-noc"
+  ],
   "nt": [
     "cx-nt"
   ],
@@ -1415,6 +1903,9 @@
   "number": [
     "rx-number"
   ],
+  "numer": [
+    "rx-number"
+  ],
   "nyct": [
     "cx-nyct"
   ],
@@ -1422,6 +1913,9 @@
     "cx-o"
   ],
   "ob": [
+    "px-ob"
+  ],
+  "oc": [
     "px-ob"
   ],
   "octa": [
@@ -1442,14 +1936,23 @@
   "od": [
     "rx-od"
   ],
+  "ode": [
+    "rx-od"
+  ],
   "odont": [
     "cx-odont"
   ],
   "odor": [
     "rx-odor"
   ],
+  "odori": [
+    "rx-odor"
+  ],
   "oen": [
     "cx-oen-en"
+  ],
+  "of": [
+    "px-ob"
   ],
   "oid": [
     "cx-oid"
@@ -1459,6 +1962,9 @@
   ],
   "olig": [
     "cx-olig"
+  ],
+  "ology": [
+    "cx-logy"
   ],
   "oma": [
     "cx-oma"
@@ -1475,8 +1981,17 @@
   "onomat": [
     "cx-onomat"
   ],
+  "ononat": [
+    "cx-onom-ononat"
+  ],
+  "onym": [
+    "cx-onom-ononat"
+  ],
   "oo": [
     "cx-oo"
+  ],
+  "op": [
+    "px-ob"
   ],
   "ophthalm": [
     "cx-ophthalm"
@@ -1485,9 +2000,17 @@
     "rx-opul"
   ],
   "or": [
+    "cx-os-or",
+    "sx-er",
     "sx-or"
   ],
+  "org": [
+    "cx-erg-urg"
+  ],
   "orn": [
+    "cx-orn-ornith"
+  ],
+  "ornith": [
     "cx-orn-ornith"
   ],
   "orth": [
@@ -1526,6 +2049,9 @@
   "ox": [
     "cx-ox-oxy"
   ],
+  "oxy": [
+    "cx-ox-oxy"
+  ],
   "pact": [
     "rx-pact"
   ],
@@ -1535,18 +2061,28 @@
   "pag": [
     "rx-pag"
   ],
+  "palae": [
+    "cx-pale-palae"
+  ],
   "pale": [
     "cx-pale-palae"
   ],
   "pan": [
     "cx-pan-pant"
   ],
+  "pant": [
+    "cx-pan-pant"
+  ],
   "par": [
+    "cx-pan-pant",
     "cx-par",
     "cx-par-2"
   ],
   "para": [
     "cx-para"
+  ],
+  "pass": [
+    "rx-pat"
   ],
   "pat": [
     "rx-pat"
@@ -1563,7 +2099,11 @@
   "pay": [
     "rx-pay"
   ],
+  "pect": [
+    "rx-spec"
+  ],
   "ped": [
+    "cx-paed-ped",
     "rx-ped"
   ],
   "pen": [
@@ -1596,6 +2136,9 @@
   "phag": [
     "cx-phag"
   ],
+  "phe": [
+    "cx-pha-phe"
+  ],
   "pher": [
     "cx-pher-phor"
   ],
@@ -1611,6 +2154,15 @@
   "phon": [
     "cx-phon"
   ],
+  "phone": [
+    "cx-phon"
+  ],
+  "phor": [
+    "cx-pher-phor"
+  ],
+  "phos": [
+    "cx-phot-phos"
+  ],
   "phot": [
     "cx-phot-phos"
   ],
@@ -1624,6 +2176,9 @@
     "cx-phyll"
   ],
   "phys": [
+    "rx-phys"
+  ],
+  "physi": [
     "rx-phys"
   ],
   "phyt": [
@@ -1651,11 +2206,23 @@
   "ple": [
     "cx-ple"
   ],
+  "plec": [
+    "cx-pl-plec"
+  ],
+  "plect": [
+    "rx-plex"
+  ],
+  "plet": [
+    "rx-plete"
+  ],
   "plete": [
     "rx-plete"
   ],
   "plex": [
     "rx-plex"
+  ],
+  "plic": [
+    "cx-pl-plec"
   ],
   "plur": [
     "cx-plur"
@@ -1663,7 +2230,11 @@
   "pne": [
     "cx-pne-pneum"
   ],
+  "pneum": [
+    "cx-pne-pneum"
+  ],
   "pod": [
+    "rx-ped",
     "rx-pod"
   ],
   "pol": [
@@ -1674,6 +2245,12 @@
   ],
   "pom": [
     "cx-pom"
+  ],
+  "pon": [
+    "rx-pos"
+  ],
+  "pond": [
+    "cx-pend-pond"
   ],
   "port": [
     "rx-port"
@@ -1690,10 +2267,16 @@
   "post": [
     "px-post"
   ],
+  "pot": [
+    "cx-poss-pot"
+  ],
   "power": [
     "rx-power"
   ],
   "prac": [
+    "cx-prac"
+  ],
+  "pract": [
     "cx-prac"
   ],
   "pragmat": [
@@ -1712,7 +2295,8 @@
     "rx-pri"
   ],
   "prim": [
-    "cx-prim"
+    "cx-prim",
+    "rx-press"
   ],
   "pro": [
     "px-pro"
@@ -1753,6 +2337,12 @@
   "pulm": [
     "cx-pulm-pulmon"
   ],
+  "pulmon": [
+    "cx-pulm-pulmon"
+  ],
+  "pun": [
+    "cx-pen-pun"
+  ],
   "pung": [
     "cx-pung"
   ],
@@ -1760,6 +2350,9 @@
     "rx-pus"
   ],
   "put": [
+    "rx-put"
+  ],
+  "pute": [
     "rx-put"
   ],
   "pyr": [
@@ -1803,6 +2396,9 @@
   ],
   "real": [
     "rx-real"
+  ],
+  "reg": [
+    "cx-rig-reg"
   ],
   "reg-rig": [
     "cx-reg-rig"
@@ -1859,8 +2455,14 @@
     "cx-sal-2",
     "cx-sal-sil"
   ],
+  "salu": [
+    "cx-salv-salu"
+  ],
   "salv": [
     "cx-salv-salu"
+  ],
+  "sanc": [
+    "cx-sacr-sanc"
   ],
   "sap": [
     "rx-sap"
@@ -1871,10 +2473,19 @@
   "satell": [
     "rx-satell"
   ],
+  "sc": [
+    "cx-esc-sc"
+  ],
   "scend": [
     "rx-scend"
   ],
+  "scens": [
+    "rx-scend"
+  ],
   "schem": [
+    "rx-schem"
+  ],
+  "schema": [
     "rx-schem"
   ],
   "sci": [
@@ -1883,8 +2494,14 @@
   "scind": [
     "cx-scind-sciss"
   ],
+  "sciss": [
+    "cx-scind-sciss"
+  ],
   "scler": [
     "cx-scler"
+  ],
+  "scop": [
+    "cx-scope"
   ],
   "scope": [
     "cx-scope"
@@ -1896,6 +2513,7 @@
     "rx-scrib"
   ],
   "script": [
+    "rx-scrib",
     "rx-script"
   ],
   "se": [
@@ -1903,6 +2521,12 @@
   ],
   "sec": [
     "cx-sec"
+  ],
+  "secr": [
+    "cx-sacr-sanc"
+  ],
+  "sed": [
+    "px-se"
   ],
   "segment": [
     "rx-segment"
@@ -1913,6 +2537,9 @@
   "semi": [
     "px-semi"
   ],
+  "semin": [
+    "cx-semen-semin"
+  ],
   "sen": [
     "cx-sen"
   ],
@@ -1921,6 +2548,9 @@
   ],
   "sensor": [
     "rx-sensor"
+  ],
+  "sent": [
+    "rx-sens"
   ],
   "sep": [
     "cx-sep"
@@ -1940,6 +2570,12 @@
   "serv": [
     "rx-serv"
   ],
+  "servat": [
+    "rx-serv"
+  ],
+  "serve": [
+    "rx-serv"
+  ],
   "sesqui": [
     "cx-sesqui"
   ],
@@ -1953,11 +2589,15 @@
   "sign": [
     "rx-sign"
   ],
+  "sil": [
+    "cx-sal-sil"
+  ],
   "simpl": [
     "rx-simpl"
   ],
   "sion": [
-    "sx-sion"
+    "sx-sion",
+    "sx-tion"
   ],
   "sis": [
     "cx-sis"
@@ -1981,8 +2621,15 @@
   "solut": [
     "rx-solut"
   ],
+  "solv": [
+    "rx-solut"
+  ],
   "som": [
     "cx-som-somat"
+  ],
+  "somat": [
+    "cx-som-somat",
+    "cx-somn"
   ],
   "some": [
     "sx-some"
@@ -2000,7 +2647,12 @@
     "cx-soror"
   ],
   "spec": [
-    "rx-spec"
+    "rx-spec",
+    "rx-specul"
+  ],
+  "spect": [
+    "rx-spec",
+    "rx-spectr"
   ],
   "spectr": [
     "rx-spectr"
@@ -2011,8 +2663,14 @@
   "specul": [
     "rx-specul"
   ],
+  "spher": [
+    "cx-sphere"
+  ],
   "sphere": [
     "cx-sphere"
+  ],
+  "spic": [
+    "rx-spec"
   ],
   "spir": [
     "rx-spir"
@@ -2020,11 +2678,26 @@
   "spor": [
     "cx-spor"
   ],
+  "st": [
+    "rx-sist"
+  ],
+  "sta": [
+    "rx-sist"
+  ],
   "stal": [
     "rx-stal"
   ],
   "standard": [
     "rx-standard"
+  ],
+  "stant": [
+    "rx-sist"
+  ],
+  "stat": [
+    "rx-sist"
+  ],
+  "ste": [
+    "rx-sist"
   ],
   "stimul": [
     "rx-stimul"
@@ -2032,10 +2705,19 @@
   "stom": [
     "cx-stom-stomat"
   ],
+  "stomat": [
+    "cx-stom-stomat"
+  ],
   "stor": [
     "rx-stor"
   ],
+  "store": [
+    "rx-stor"
+  ],
   "strat": [
+    "cx-strat"
+  ],
+  "strata": [
     "cx-strat"
   ],
   "strateg": [
@@ -2044,10 +2726,19 @@
   "stru": [
     "rx-stru"
   ],
+  "struct": [
+    "rx-stru"
+  ],
   "stud": [
     "rx-stud"
   ],
   "sub": [
+    "px-sub"
+  ],
+  "suf": [
+    "px-sub"
+  ],
+  "sup": [
     "px-sub"
   ],
   "super": [
@@ -2055,6 +2746,15 @@
   ],
   "supra": [
     "px-supra"
+  ],
+  "sus": [
+    "px-sub"
+  ],
+  "syl": [
+    "px-syn"
+  ],
+  "sym": [
+    "px-syn"
   ],
   "syn": [
     "px-syn"
@@ -2065,16 +2765,28 @@
   "tabl": [
     "rx-tabl"
   ],
+  "tabul": [
+    "rx-tabl"
+  ],
   "tac": [
     "cx-tac"
   ],
   "tach": [
     "cx-tach-tachy"
   ],
+  "tachy": [
+    "cx-tach-tachy"
+  ],
   "tact": [
     "rx-tact"
   ],
   "tag": [
+    "cx-tag-teg"
+  ],
+  "tain": [
+    "rx-ten"
+  ],
+  "tang": [
     "cx-tag-teg"
   ],
   "teach": [
@@ -2086,19 +2798,27 @@
   "tect": [
     "rx-tect"
   ],
+  "teg": [
+    "cx-tag-teg"
+  ],
   "tel": [
     "cx-tel-tele"
   ],
   "tele": [
+    "cx-tel-tele",
     "px-tele"
   ],
   "tempor": [
     "cx-tempor"
   ],
   "ten": [
+    "cx-tend-tens",
     "rx-ten"
   ],
   "tend": [
+    "cx-tend-tens"
+  ],
+  "tens": [
     "cx-tend-tens"
   ],
   "tenu": [
@@ -2116,6 +2836,9 @@
   ],
   "terti": [
     "cx-terti"
+  ],
+  "tessara": [
+    "cx-tetta-tessara"
   ],
   "test": [
     "rx-test"
@@ -2135,7 +2858,13 @@
   "therm": [
     "cx-therm"
   ],
+  "thermo": [
+    "cx-therm"
+  ],
   "thes": [
+    "rx-thes"
+  ],
+  "thet": [
     "rx-thes"
   ],
   "thromb": [
@@ -2144,14 +2873,26 @@
   "tie": [
     "rx-tie"
   ],
+  "tig": [
+    "cx-tag-teg"
+  ],
   "tim": [
     "rx-tim"
+  ],
+  "tin": [
+    "rx-ten"
+  ],
+  "ting": [
+    "cx-tag-teg"
   ],
   "tion": [
     "sx-tion"
   ],
   "tive": [
     "cx-tive-ive"
+  ],
+  "tm": [
+    "cx-tom-tm"
   ],
   "tom": [
     "cx-tom-tm"
@@ -2167,6 +2908,9 @@
   ],
   "tract": [
     "rx-tract"
+  ],
+  "trans": [
+    "cx-tra-trans"
   ],
   "tri": [
     "cx-tri"
@@ -2186,6 +2930,9 @@
   "true": [
     "rx-true"
   ],
+  "trus": [
+    "cx-trud-trus"
+  ],
   "tum": [
     "rx-tum"
   ],
@@ -2199,9 +2946,13 @@
     "rx-turn"
   ],
   "ty": [
+    "sx-ity",
     "sx-ty"
   ],
   "typ": [
+    "rx-typ"
+  ],
+  "type": [
     "rx-typ"
   ],
   "uary": [
@@ -2225,6 +2976,9 @@
   "ulter": [
     "rx-ulter"
   ],
+  "um": [
+    "cx-ium-um"
+  ],
   "ument": [
     "sx-ument"
   ],
@@ -2241,7 +2995,11 @@
     "px-uni"
   ],
   "ure": [
+    "cx-ture-ure",
     "sx-ure"
+  ],
+  "urg": [
+    "cx-erg-urg"
   ],
   "ury": [
     "sx-ury"
@@ -2258,12 +3016,21 @@
   "val": [
     "cx-val"
   ],
+  "valu": [
+    "cx-val"
+  ],
+  "van": [
+    "cx-vac-van"
+  ],
   "vas": [
     "cx-vas"
   ],
   "ven": [
     "cx-ven",
     "cx-ven-2"
+  ],
+  "vent": [
+    "cx-ven"
   ],
   "ver": [
     "cx-ver",
@@ -2278,11 +3045,23 @@
   "verm": [
     "cx-verm"
   ],
+  "vers": [
+    "rx-vert"
+  ],
   "vert": [
     "rx-vert"
   ],
+  "vi": [
+    "cx-via"
+  ],
   "via": [
     "cx-via"
+  ],
+  "vic": [
+    "cx-vinc-vic"
+  ],
+  "vict": [
+    "cx-vinc-vic"
   ],
   "vid": [
     "rx-vid"
@@ -2300,9 +3079,13 @@
     "cx-vinc-vic"
   ],
   "vis": [
+    "rx-vid",
     "rx-vis"
   ],
   "vit": [
+    "cx-vit-viv"
+  ],
+  "viv": [
     "cx-vit-viv"
   ],
   "voc": [

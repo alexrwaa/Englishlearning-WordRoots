@@ -79,6 +79,27 @@ export interface Concept {
 }
 
 /** A verified word entry used by the Word Matrix / Word Sum engines. */
+/**
+ * Multi-dimensional word status (0.8.0). `verified` used to answer four
+ * questions at once; these fields answer them separately so a claim can be
+ * checked instead of trusted. See docs/WORD_STATUS.md.
+ */
+export interface WordAnalysis {
+  /** The word exists in English. */
+  lexical: boolean;
+  /** A speaker can decompose it today. */
+  analyzable: boolean;
+  /** Every part is accounted for (morpheme ID, free base, or orthographic). */
+  segmentation: 'verified' | 'partial' | 'unverified' | 'none';
+  /** Parts without an ID, and why. */
+  unresolved?: { part: string; reason: 'free-base' | 'orthographic' | 'unresolved' }[];
+  etymology: { status: 'documented' | 'inferred' | 'disputed' | 'unknown'; sources?: string[] };
+  /** Competing scholarly views; never collapsed to one. */
+  contested?: { view: string; evidence: string; confidence: 'low' | 'medium' | 'high' }[];
+  /** Safe to grade automatically: the structure is verified. */
+  quizSafe: boolean;
+}
+
 export interface WordEntry {
   /** Surface spelling, lowercase. */
   w: string;
@@ -87,12 +108,22 @@ export interface WordEntry {
   pos?: 'n' | 'v' | 'adj' | 'adv' | 'other';
   glossZh: string;
   glossEn?: string;
-  /** Etymology note, only when backed by a source. */
+  /**
+   * Etymology, split into four layers that prose used to blur (0.8.0):
+   * how the word was coined, how it analyses today, how we teach it, and what a
+   * learner can generalise. `contested` keeps competing scholarly views rather
+   * than collapsing them into one story.
+   */
   ety?: {
     from?: string;
     firstAttested?: string;
     note?: string;
     sources?: SourceRef[];
+    historical?: string;
+    synchronic?: string;
+    teaching?: string;
+    productive?: string;
+    contested?: { view: string; evidence: string; confidence: 'low' | 'medium' | 'high' }[];
   };
   /** Concepts / morphemes this word demonstrates. */
   tags?: string[];
@@ -102,6 +133,10 @@ export interface WordEntry {
   partResolution?: 'exact' | 'ambiguous' | 'unresolved';
   /** True when the morphemic split has been checked against a dictionary. */
   verified?: boolean;
+  /** The spelling is a real English word (0.8.0 status field). */
+  lexical?: boolean;
+  /** Explicit status, derived by scripts/migrate-word-status.mjs. */
+  analysis?: WordAnalysis;
   /** Domain tag for scientific-English lessons. */
   domain?: 'robotics' | 'slam' | 'sensor' | 'cs' | 'ai' | 'science' | 'general';
 }

@@ -116,11 +116,7 @@
         "sion",
         "ation"
       ],
-      "morphemeIds": [
-        "sx-tion",
-        "sx-sion",
-        "sx-ation"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "compare",

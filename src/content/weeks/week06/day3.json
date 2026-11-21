@@ -41,10 +41,7 @@
         "graph",
         "gram"
       ],
-      "morphemeIds": [
-        "cx-graph",
-        "cx-gram"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "etym",
@@ -83,12 +80,7 @@
         "tele",
         "syn"
       ],
-      "morphemeIds": [
-        "cx-metr",
-        "cx-meter",
-        "px-tele",
-        "px-syn"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "table",
@@ -231,10 +223,7 @@
         "metr",
         "tele"
       ],
-      "morphemeIds": [
-        "cx-metr",
-        "px-tele"
-      ]
+      "morphemeIds": []
     }
   ],
   "practice": [

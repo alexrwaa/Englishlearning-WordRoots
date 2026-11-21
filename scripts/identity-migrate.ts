@@ -173,6 +173,10 @@ const SENSE_PATTERNS: Record<string, RegExp[]> = {
   'cx-cur-2': [/currere/i, /\bcurs/i, /跑/, /current|cursor|excursion/i],
   'cx-ven': [/venire/i, /来/, /invent|prevent|convene/i],
   'cx-ven-2': [/\bvena\b/i, /\bvein\b/i, /静脉|血管/, /intravenous/i],
+  // capt- is two etymologies: caput "head" (captain, capital) and capere "take"
+  // (capture, captive). The word's own etymology decides.
+  'rx-capit': [/\bcaput|capit/i, /头|首/, /capital|captain|chapter|decapitate/i],
+  'rx-capt': [/\bcapere|\bcaptus/i, /抓|取|拿/, /capture|captive|caption|captivate|accept/i],
   'cx-plac-gk': [/flat/i, /plako?s?\b/i, /平面/, /平板/, /placoid|placenta|placoderm/i],
   'cx-ver': [/\btrue\b/i, /verus/i, /真实/, /verify|veracity|verdict/i],
   'cx-ver-lat-2': [/fear/i, /awe/i, /revere/i, /vereri/i, /敬畏/, /revere|reverence|reverent/i],
@@ -533,6 +537,10 @@ function evidenceText(word: LWord): string {
     // (`verdict`, `inject`) is a curated word-family assignment, not a guess.
     word.w,
     word.etymology,
+    // 0.8.0 splits etymology into layers; the historical layer is exactly the
+    // evidence a homograph needs, so it must be part of the blob.
+    word.ety?.historical,
+    word.ety?.teaching,
     Array.isArray(word.derivation) ? word.derivation.join(' ') : '',
     word.semanticShift,
     word.glossEn,
@@ -584,7 +592,7 @@ function resolveParts(
   let sawAmbiguous = false;
   let sawUnresolved = false;
 
-  for (const part of parts) {
+  for (const [partIndex, part] of parts.entries()) {
     const form = normalizeForm(part);
     if (!form) {
       ids.push(null);
@@ -601,12 +609,46 @@ function resolveParts(
     if (process.env.IDENTITY_DEBUG) {
       console.log(`[${word.w}] ${part} -> ${JSON.stringify(direct)} text=${text.slice(0, 60)}`);
     }
-    if (direct.id) {
+    // `resolve` already collapses same-family candidates, which is fine for the
+    // UI but too eager here: capt- in *captain* is caput "head", not capere
+    // "take", and both sit in fam-cap. So any multi-candidate spelling goes
+    // through the evidence pipeline below first.
+    if (direct.id && direct.candidates.length <= 1) {
       ids.push(direct.id);
       continue;
     }
-    if (direct.ambiguous) {
-      const picked = pickFromEvidence(direct.candidates, text, (id) => index.byId(id));
+    if (direct.ambiguous || direct.candidates.length > 1) {
+      // Position is evidence the spelling itself carries: the first part of a
+      // multi-part word is a prefix, the last is a suffix. `al` is -al (suffix),
+      // ad- (prefix) and a root; where it stands decides which can be meant.
+      const mayBePrefix = partIndex === 0 && parts.length > 1;
+      const mayBeSuffix = partIndex === parts.length - 1 && parts.length > 1;
+      const byType = direct.candidates.filter((id) => {
+        const morpheme = index.byId(id);
+        if (!morpheme) return false;
+        if (mayBePrefix) return morpheme.type === 'prefix';
+        if (mayBeSuffix) return morpheme.type === 'suffix';
+        return morpheme.type === 'root' || morpheme.type === 'combining';
+      });
+      if (byType.length === 1) {
+        ids.push(byType[0]);
+        continue;
+      }
+      // The word's own etymology outranks spelling identity: capt- is "head" in
+      // captain and "take" in capture, and only the evidence can tell them apart.
+      const pool = byType.length > 1 ? byType : direct.candidates;
+      const byEvidence = pickFromEvidence(pool, text, (id) => index.byId(id));
+      if (byEvidence) {
+        ids.push(byEvidence);
+        continue;
+      }
+      // No evidence: fall back to the candidate written exactly like the part.
+      const exactForm = pool.filter((id) => index.byId(id)?.form === form);
+      if (exactForm.length === 1) {
+        ids.push(exactForm[0]);
+        continue;
+      }
+      const picked = byEvidence;
       if (picked) {
         ids.push(picked);
         continue;
@@ -787,10 +829,15 @@ function main() {
   // `struct`) into a false identity conflict.
   const forms: FormIndex = {};
   for (const m of final) {
-    const key = normalizeForm(m.form);
-    if (!key) continue;
-    const list = forms[key] ?? (forms[key] = []);
-    if (!list.includes(m.id)) list.push(m.id);
+    // Index the canonical form **and every allomorph**. Without the allomorphs
+    // `spect`, `spic` and `miss` were unresolvable: 164 words were marked
+    // "partial" only because the index could not see the spelling the word uses.
+    for (const spelling of [m.form, ...((m.allomorphs ?? []) as string[])]) {
+      const key = normalizeForm(spelling);
+      if (!key) continue;
+      const list = forms[key] ?? (forms[key] = []);
+      if (!list.includes(m.id)) list.push(m.id);
+    }
   }
   const formsOrdered: FormIndex = {};
   for (const key of Object.keys(forms).sort()) formsOrdered[key] = forms[key].sort();

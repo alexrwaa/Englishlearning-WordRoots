@@ -1,0 +1,212 @@
+{
+  "id": "fam-mit",
+  "root": {
+    "form": "mit",
+    "glossEn": "send, let go",
+    "glossZh": "送、放出",
+    "origin": "Lat",
+    "etymon": "mittere",
+    "etymonGloss": "to send, let go, release"
+  },
+  "coreIdea": "「送」：送上去是提交，送过去是传输，送出去是发射。",
+  "members": [
+    {
+      "w": "submit",
+      "relation": "derivative",
+      "glossZh": "提交；屈服",
+      "layer": ["sub-", "mit"],
+      "note": "sub- 在下 + 送 → 送到上级或规则之下"
+    },
+    {
+      "w": "transmit",
+      "relation": "derivative",
+      "glossZh": "传输",
+      "layer": ["trans-", "mit"],
+      "note": "trans- 穿过 + 送 → 从一端送到另一端"
+    },
+    {
+      "w": "permit",
+      "relation": "derivative",
+      "glossZh": "允许",
+      "layer": ["per-", "mit"],
+      "note": "per- 通过 + 送 → 放它通过"
+    },
+    {
+      "w": "commit",
+      "relation": "derivative",
+      "glossZh": "承诺；犯（罪）",
+      "layer": ["com-", "mit"],
+      "note": "com- 完全 + 送 → 把自己整个交出去"
+    },
+    {
+      "w": "admit",
+      "relation": "derivative",
+      "glossZh": "承认；准许进入",
+      "layer": ["ad-", "mit"],
+      "note": "ad- 向 + 送 → 让人进来；把事实送进自己口中"
+    },
+    {
+      "w": "emit",
+      "relation": "derivative",
+      "glossZh": "发出",
+      "layer": ["e-", "mit"],
+      "note": "e- 向外 + 送"
+    },
+    {
+      "w": "omit",
+      "relation": "derivative",
+      "glossZh": "省略",
+      "layer": ["mit"],
+      "note": "拉丁 omittere = ob- + mittere「放掉」；o- 是 ob- 的弱化，未单列"
+    },
+    {
+      "w": "remit",
+      "relation": "derivative",
+      "glossZh": "汇款；宽恕",
+      "layer": ["re-", "mit"],
+      "note": "re- 回 + 送 → 把钱送回；把责罚送回（免掉）"
+    },
+    {
+      "w": "dismiss",
+      "relation": "derivative",
+      "glossZh": "解散；解雇",
+      "layer": ["dis-", "miss"],
+      "note": "dis- 分开 + 送 → 让各自散去"
+    },
+    {
+      "w": "mission",
+      "relation": "derivative",
+      "glossZh": "使命；任务",
+      "layer": ["miss", "-ion"],
+      "note": "-ion 造名词：被派出去做的事"
+    },
+    {
+      "w": "missile",
+      "relation": "derivative",
+      "glossZh": "导弹",
+      "layer": ["miss", "-ile"],
+      "note": "-ile 表物：被投送出去的东西"
+    },
+    {
+      "w": "message",
+      "relation": "derivative",
+      "glossZh": "消息",
+      "layer": ["miss", "-age"],
+      "note": "拉丁 missaticum「被送出的东西」→ 经法语 message 进入英语"
+    },
+    {
+      "w": "submission",
+      "relation": "derivative",
+      "glossZh": "提交；顺从",
+      "layer": ["sub-", "miss", "-ion"],
+      "note": "与 submit 同一拉丁词，名词走分词词干 miss-"
+    },
+    {
+      "w": "transmission",
+      "relation": "derivative",
+      "glossZh": "传输（过程）",
+      "layer": ["trans-", "miss", "-ion"],
+      "note": "-ion 把动作变成可计量的过程"
+    },
+    {
+      "w": "permission",
+      "relation": "derivative",
+      "glossZh": "许可",
+      "layer": ["per-", "miss", "-ion"],
+      "note": "permit 的名词形，词干换 miss"
+    },
+    {
+      "w": "intermittent",
+      "relation": "derivative",
+      "glossZh": "间歇的",
+      "layer": ["inter-", "mitt", "-ent"],
+      "note": "inter- 在…之间 + 送 + -ent → 送一阵停一阵"
+    }
+  ],
+  "allomorphs": [
+    {
+      "form": "miss",
+      "note": "拉丁过去分词词干，名词与形容词多走这一支",
+      "examples": ["mission", "dismiss", "permission"]
+    },
+    {
+      "form": "mitt",
+      "note": "加后缀时双写 t 的形式，出现在 -ance / -ent 前",
+      "examples": ["intermittent", "remittance", "committee"]
+    }
+  ],
+  "derivationChains": [
+    {
+      "stages": ["mit", "submit", "submission", "submissive"],
+      "note": "每一级都真实成词；动词走 mit，名词与形容词走 miss"
+    },
+    {
+      "stages": ["mit", "transmit", "transmission", "transmitter"],
+      "note": "transmitter 是「发送器」，不是「传输行为」"
+    },
+    {
+      "stages": ["mit", "permit", "permission", "permissive"],
+      "note": "permit 重音在第二音节，名词 permission 重音前移"
+    },
+    {
+      "stages": ["mit", "admit", "admission", "admissible"],
+      "note": "admissible 的 -ible 是 -able 的拉丁变体"
+    }
+  ],
+  "semanticShifts": [
+    {
+      "w": "permit",
+      "from": "让通过",
+      "to": "允许",
+      "why": "不拦住 = 放行"
+    },
+    {
+      "w": "commit",
+      "from": "把自己交出去",
+      "to": "承诺；犯罪",
+      "why": "交付自己 → 承担责任；交付给坏事 → 犯下"
+    },
+    {
+      "w": "mission",
+      "from": "被送出去",
+      "to": "使命",
+      "why": "被派出去要完成的事"
+    },
+    {
+      "w": "remit",
+      "from": "送回",
+      "to": "汇款；宽恕",
+      "why": "送回的既可以是钱，也可以是把责罚送走"
+    }
+  ],
+  "homographTraps": [
+    {
+      "form": "mit",
+      "other": "mitigate、mitigation 里的 mit 来自拉丁 mitis「温和的」",
+      "note": "同形异源：mitigate 是「使变温和」，与「送」无关"
+    },
+    {
+      "form": "mitre",
+      "other": "mitre / miter（主教冠、斜接）来自希腊 mitra「头带」",
+      "note": "拼写含 mit，但不属于 mittere 族"
+    }
+  ],
+  "teaching": {
+    "induction": "给出 submit、transmit、permit、emit、dismiss 五个词，问：共同的「送」在哪里？前缀决定了往哪送？名词里词根为什么变成了 miss？",
+    "transfer": {
+      "word": "intermittent",
+      "question": "拆开并猜义：inter- + mitt + -ent 描述的是什么样的信号？",
+      "answer": "inter- 在…之间 + mitt 送 + -ent …的 → 送来一阵、停一阵的，即「间歇的」。例句：The sensor logged intermittent failures over 48 hours."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "detail": "ch.9 Latin/Greek element list（mit-/miss- 条）；ch.4 分词词干与双写辅音"
+    },
+    {
+      "id": "S5",
+      "detail": "Oxford Dictionary of English Etymology，mittere 与 missaticum 条"
+    }
+  ]
+}

@@ -40,10 +40,7 @@
         "scrib",
         "script"
       ],
-      "morphemeIds": [
-        "rx-scrib",
-        "rx-script"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "text",

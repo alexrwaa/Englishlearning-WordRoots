@@ -1,6 +1,6 @@
 [package]
 name = "wordroots"
-version = "0.7.0"
+version = "0.8.0"
 description = "WordRoots portable English morphology learning app"
 authors = ["WordRoots contributors"]
 license = "MIT"

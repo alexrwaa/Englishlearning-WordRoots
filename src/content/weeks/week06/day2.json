@@ -100,12 +100,7 @@
         "metr",
         "logy"
       ],
-      "morphemeIds": [
-        "cx-geo",
-        "cx-therm",
-        "cx-metr",
-        "cx-logy"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "matrix",

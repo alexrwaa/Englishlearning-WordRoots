@@ -45,7 +45,9 @@
       "morphemes": [
         "a"
       ],
-      "morphemeIds": []
+      "morphemeIds": [
+        "px-a"
+      ]
     },
     {
       "kind": "table",

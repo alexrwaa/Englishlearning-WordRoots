@@ -1,0 +1,212 @@
+{
+  "id": "fam-fer",
+  "root": {
+    "form": "fer",
+    "glossEn": "carry, bring",
+    "glossZh": "携带、带来",
+    "origin": "Lat",
+    "etymon": "ferre",
+    "etymonGloss": "to bear, carry, bring"
+  },
+  "coreIdea": "「带」的方向决定词义：带到前面是偏爱，带到下面承受是受苦。",
+  "members": [
+    {
+      "w": "transfer",
+      "relation": "derivative",
+      "glossZh": "转移",
+      "layer": ["trans-", "fer"],
+      "note": "trans- 越过 + 带 → 从一方带到另一方"
+    },
+    {
+      "w": "refer",
+      "relation": "derivative",
+      "glossZh": "提及；查阅",
+      "layer": ["re-", "fer"],
+      "note": "re- 回 + 带 → 把话题带回某处"
+    },
+    {
+      "w": "prefer",
+      "relation": "derivative",
+      "glossZh": "更喜欢",
+      "layer": ["pre-", "fer"],
+      "note": "pre- 在前 + 带 → 把某物放到前面"
+    },
+    {
+      "w": "offer",
+      "relation": "derivative",
+      "glossZh": "提供",
+      "layer": ["of-", "fer"],
+      "note": "of- 是 ob- 的同化变体，向着 + 带 → 带到对方面前"
+    },
+    {
+      "w": "confer",
+      "relation": "derivative",
+      "glossZh": "商议；授予",
+      "layer": ["con-", "fer"],
+      "note": "con- 一起 + 带 → 把意见带到一处"
+    },
+    {
+      "w": "infer",
+      "relation": "derivative",
+      "glossZh": "推断",
+      "layer": ["in-", "fer"],
+      "note": "in- 向内 + 带 → 把结论带进已知里"
+    },
+    {
+      "w": "differ",
+      "relation": "derivative",
+      "glossZh": "不同",
+      "layer": ["dif-", "fer"],
+      "note": "dif- 是 dis- 的变体，分开 + 带 → 各带各的方向"
+    },
+    {
+      "w": "suffer",
+      "relation": "derivative",
+      "glossZh": "受苦",
+      "layer": ["suf-", "fer"],
+      "note": "suf- 是 sub- 的变体，在下面 + 扛"
+    },
+    {
+      "w": "fertile",
+      "relation": "derivative",
+      "glossZh": "肥沃的",
+      "layer": ["fert", "-ile"],
+      "note": "fert 是 fer 的分词词干 + -ile 能…的 → 能带来（收成）的"
+    },
+    {
+      "w": "circumference",
+      "relation": "derivative",
+      "glossZh": "圆周",
+      "layer": ["circum-", "fer", "-ence"],
+      "note": "circum- 环绕 + 带 + -ence → 绕着带一圈的长度"
+    },
+    {
+      "w": "conifer",
+      "relation": "derivative",
+      "glossZh": "针叶树",
+      "layer": ["coni-", "fer"],
+      "note": "coni- 圆锥（conus）+ fer 带 → 带球果的树"
+    },
+    {
+      "w": "aquifer",
+      "relation": "derivative",
+      "glossZh": "含水层",
+      "layer": ["aqui-", "fer"],
+      "note": "aqui- 水（aqua）+ fer 含 → 带水的岩层"
+    },
+    {
+      "w": "vociferous",
+      "relation": "derivative",
+      "glossZh": "大声疾呼的",
+      "layer": ["voci-", "fer", "-ous"],
+      "note": "voci- 声音（vox）+ fer 带 + -ous → 把声音带出来的"
+    },
+    {
+      "w": "proliferate",
+      "relation": "derivative",
+      "glossZh": "激增",
+      "layer": ["proli-", "fer", "-ate"],
+      "note": "proli- 后代（proles）+ fer 带 → 不断带出后代"
+    },
+    {
+      "w": "translate",
+      "relation": "derivative",
+      "glossZh": "翻译",
+      "layer": ["trans-", "lat"],
+      "note": "lat 是 ferre 的分词词干 latus（异根替换）：trans- 越过 + 带过去"
+    },
+    {
+      "w": "referendum",
+      "relation": "derivative",
+      "glossZh": "公投",
+      "layer": ["re-", "fer"],
+      "note": "re- 回 + 带：交给选民「带回决定」的事；-endum 是拉丁将来被动分词，未单列"
+    }
+  ],
+  "allomorphs": [
+    {
+      "form": "fert",
+      "note": "拉丁分词词干，出现在「带来收成」这一支",
+      "examples": ["fertile", "fertility", "fertilizer"]
+    },
+    {
+      "form": "lat",
+      "note": "异根替换（suppletion）：ferre 的过去分词是 latus，不是 *fertus",
+      "examples": ["translate", "relate", "collate"]
+    }
+  ],
+  "derivationChains": [
+    {
+      "stages": ["fer", "refer", "reference", "referential"],
+      "note": "每一级都真实成词；-ence 与 -ential 是两条并行后缀"
+    },
+    {
+      "stages": ["fer", "prefer", "preference", "preferential"],
+      "note": "preference 去 e 加 -ial 时拼作 -ential"
+    },
+    {
+      "stages": ["fer", "transfer", "transference", "transferable"],
+      "note": "transference 偏心理学「移情」，transferable 偏「可转让」"
+    },
+    {
+      "stages": ["fer", "fertile", "fertility", "fertilization"],
+      "note": "fertile 的 -ile 换 -ity 时要插 -il-"
+    }
+  ],
+  "semanticShifts": [
+    {
+      "w": "prefer",
+      "from": "带到前面",
+      "to": "更喜欢",
+      "why": "把某个选项放到其他选项之前"
+    },
+    {
+      "w": "offer",
+      "from": "带到面前",
+      "to": "提供、奉献",
+      "why": "把东西带到对方面前，就是给出"
+    },
+    {
+      "w": "suffer",
+      "from": "在下面扛着",
+      "to": "受苦",
+      "why": "重压之下仍要承担"
+    },
+    {
+      "w": "differ",
+      "from": "分开带",
+      "to": "不同",
+      "why": "各自被带往不同方向 → 有差别"
+    }
+  ],
+  "homographTraps": [
+    {
+      "form": "fer",
+      "other": "ferrous、ferric、ferrite 里的 fer 来自拉丁 ferrum「铁」",
+      "note": "同形异源：ferrous 与「携带」无关；冶金语境一律按「铁」读"
+    },
+    {
+      "form": "conifer",
+      "other": "coni- 是 conus「圆锥」，不是 con-「共同」",
+      "note": "拆成 con + i + fer 会得到错误释义；应是「带球果的」"
+    }
+  ],
+  "teaching": {
+    "induction": "给出 transfer、refer、prefer、offer、suffer 五个词，问：共同的「带」在哪个词里最直观？前缀把「带」的方向改成了什么？",
+    "transfer": {
+      "word": "vociferous",
+      "question": "拆开并猜义：voci- + fer + -ous 三部分各是什么？",
+      "answer": "voci- 声音（vox）+ fer 带 + -ous 多…的 → 把声音大声带出来的，即「大声疾呼的」。例句：The proposal drew vociferous objections from residents."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "detail": "ch.9 Latin/Greek element list（fer-/lat- 条）；ch.4 异根替换（suppletion）说明"
+    },
+    {
+      "id": "S5",
+      "detail": "Oxford Dictionary of English Etymology，ferre 与 latus 条"
+    }
+  ]
+}

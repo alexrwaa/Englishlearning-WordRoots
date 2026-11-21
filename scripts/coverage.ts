@@ -60,7 +60,21 @@ type Element = {
   source: string;
   page?: number;
 };
-type Word = Pick<WordEntry, 'w' | 'parts' | 'glossZh' | 'verified' | 'partIds'>;
+type Word = Pick<WordEntry, 'w' | 'parts' | 'glossZh' | 'verified' | 'partIds'> & {
+  analysis?: { segmentation?: string; quizSafe?: boolean; etymology?: { status?: string } };
+};
+
+/**
+ * L4's evidence rule (0.8.0): a word only counts when its own segmentation is
+ * verified. `verified: true` alone is not enough — 101 such words still had a
+ * part with no morpheme ID, so counting them would credit a morpheme with an
+ * example that nobody has actually analysed.
+ */
+function countsForL4(word: Word): boolean {
+  const segmentation = word.analysis?.segmentation;
+  if (segmentation) return segmentation === 'verified';
+  return Boolean(word.verified);
+}
 type Kp = { id: string; title: string; type: string; summary: string; terms?: string[]; examples?: string[] };
 type Chapter = {
   id: string;
@@ -91,7 +105,7 @@ const LEVEL_RULES: Record<LevelId, string> = {
   L1: '出现在 s1-elements.json',
   L2: '元素 → 词素 ID，form 与 origin 同时一致',
   L3: 'glossZh 与 glossEn 均非空且无占位符',
-  L4: '≥2 个 verified:true 且 partIds 含该 ID 的词条',
+  L4: '≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true）',
   L5: '某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段）',
   L6: 'practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds）',
   L7: '该词素在 reviews.json 有审校记录（或记录自带 review.by）',
@@ -398,7 +412,7 @@ function linkElement(element: Element): Link {
 // --------------------------------------------------------------- L4 / L6 -----
 const verifiedWordsByMorpheme = new Map<string, string[]>();
 for (const word of words) {
-  if (!word.verified) continue;
+  if (!countsForL4(word)) continue;
   for (const id of word.partIds ?? []) {
     if (!id) continue;
     const list = verifiedWordsByMorpheme.get(id) ?? [];

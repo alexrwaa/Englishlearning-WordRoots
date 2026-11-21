@@ -90,13 +90,7 @@
         "ly",
         "ing"
       ],
-      "morphemeIds": [
-        "sx-al",
-        "sx-ant",
-        "sx-ate",
-        "sx-ly",
-        "sx-ing"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "text",

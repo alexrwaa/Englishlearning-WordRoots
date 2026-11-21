@@ -1,0 +1,158 @@
+{
+  "id": "fam-phon",
+  "root": {
+    "form": "phon",
+    "glossEn": "sound, voice",
+    "glossZh": "声音",
+    "origin": "Gk",
+    "etymon": "phōnē",
+    "etymonGloss": "voice, sound"
+  },
+  "coreIdea": "「声音」：远处的声音是电话，一起发声是交响，最小单位是音位。",
+  "members": [
+    {
+      "w": "telephone",
+      "relation": "derivative",
+      "glossZh": "电话",
+      "layer": ["tele-", "phone"],
+      "note": "tele- 远 + phone 声音 → 远处传来的声音"
+    },
+    {
+      "w": "microphone",
+      "relation": "derivative",
+      "glossZh": "麦克风",
+      "layer": ["micro-", "phone"],
+      "note": "micro- 小 + 声音 → 把小声放大的器件"
+    },
+    {
+      "w": "phonograph",
+      "relation": "derivative",
+      "glossZh": "留声机",
+      "layer": ["phon", "-o-", "-graph"],
+      "note": "phon 声音 + -o- 连接元音 + graph 记录 → 把声音记下来"
+    },
+    {
+      "w": "homophone",
+      "relation": "derivative",
+      "glossZh": "同音词",
+      "layer": ["homo-", "phone"],
+      "note": "homo- 相同 + 声音 → 读音相同、拼写或意义不同"
+    },
+    {
+      "w": "euphony",
+      "relation": "derivative",
+      "glossZh": "悦耳",
+      "layer": ["eu-", "phon", "-y"],
+      "note": "eu- 好 + 声音 + -y → 好听的声音"
+    },
+    {
+      "w": "symphony",
+      "relation": "derivative",
+      "glossZh": "交响乐",
+      "layer": ["sym-", "phon", "-y"],
+      "note": "sym- 一起 + 声音 → 一起发声"
+    },
+    {
+      "w": "phonics",
+      "relation": "derivative",
+      "glossZh": "自然拼读法",
+      "layer": ["phon", "-ics"],
+      "note": "-ics 表方法或学科：由声音入手教读写"
+    },
+    {
+      "w": "phoneme",
+      "relation": "derivative",
+      "glossZh": "音位",
+      "layer": ["phon", "-eme"],
+      "note": "-eme 是语言学专用后缀，表最小的区别性单位"
+    },
+    {
+      "w": "phonetics",
+      "relation": "derivative",
+      "glossZh": "语音学",
+      "layer": ["phon", "-ics"],
+      "note": "希腊 -ētikos；英语里 -et- 不单列，只保留 -ics 作学科后缀"
+    },
+    {
+      "w": "polyphony",
+      "relation": "derivative",
+      "glossZh": "复调",
+      "layer": ["poly-", "phon", "-y"],
+      "note": "poly- 多 + 声音 → 多条旋律同时发声"
+    }
+  ],
+  "allomorphs": [
+    {
+      "form": "phone",
+      "note": "希腊 phōnē 经法语传入后的拼写，多用于复合词第二成分",
+      "examples": ["telephone", "microphone", "homophone"]
+    }
+  ],
+  "derivationChains": [
+    {
+      "stages": ["phon", "phone", "telephone", "telephony"],
+      "note": "每一级都真实成词；telephony 指电话技术体系"
+    },
+    {
+      "stages": ["phon", "symphony", "symphonic"],
+      "note": "symphony 的 -y 换 -ic 时拼作 symphonic"
+    },
+    {
+      "stages": ["phon", "phoneme", "phonemic", "phonemics"],
+      "note": "phonemic 是「音位的」，phonemics 是「音位学」"
+    },
+    {
+      "stages": ["phon", "phonetics", "phonetician"],
+      "note": "phonetician 由 phonetics 换 -ician，指语音学家"
+    }
+  ],
+  "semanticShifts": [
+    {
+      "w": "phone",
+      "from": "声音",
+      "to": "电话",
+      "why": "telephone 截短为 phone，用部分代整体"
+    },
+    {
+      "w": "symphony",
+      "from": "一起发声",
+      "to": "交响乐",
+      "why": "动作转指这类作品"
+    },
+    {
+      "w": "phoneme",
+      "from": "说出的声音",
+      "to": "音位",
+      "why": "从物理声音收窄为能区别意义的最小单位"
+    }
+  ],
+  "homographTraps": [
+    {
+      "form": "phon",
+      "other": "siphon（虹吸管）里的 phon 来自希腊 siphōn「管子」",
+      "note": "同形异源：siphon 与「声音」无关，别按 phon 拆义"
+    }
+  ],
+  "teaching": {
+    "induction": "给出 telephone、microphone、symphony、homophone、phoneme 五个词，问：共同的「声音」在哪里？哪些词指声音本身，哪些指处理声音的器物或单位？",
+    "transfer": {
+      "word": "phonemic",
+      "question": "拆开并猜义：phon + -eme + -ic 在语言学里指什么？",
+      "answer": "phon 声音 + -eme 最小区别单位 + -ic …的 → 能区别意义的音位层面的。例句：The two vowels are phonemic in English but merely allophonic in Spanish."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "detail": "ch.9 Greek element list（phōn- 条）；ch.3 组合形式与连接元音"
+    },
+    {
+      "id": "S2",
+      "detail": "Chapter 5 Phonetics（音位与语音单位的区分）"
+    },
+    {
+      "id": "S5",
+      "detail": "Oxford Dictionary of English Etymology，phōnē 条"
+    }
+  ]
+}

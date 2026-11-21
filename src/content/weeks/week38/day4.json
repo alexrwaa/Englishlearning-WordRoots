@@ -1,302 +1,299 @@
 {
- "id": "w38d4",
- "week": 38,
- "day": 4,
- "title": "字面义不是词义：三道落差怎么算",
- "tagline": "secure 不是“不关心”，bonus 不是“好东西”——字面义只是推理的起点",
- "objectives": [
-  "能算出六个词的字面义，并指出今义与字面义的落差类型",
-  "能用转喻、隐喻、词义扩大三种机制解释落差，而不是笼统说“引申”",
-  "能判断一个陌生词该按字面义理解还是按固定词义理解"
- ],
- "prereqs": [
-  "w38d1",
-  "c-semantic-shift",
-  "c-metaphor"
- ],
- "concepts": [
-  "c-semantic-shift",
-  "c-metaphor",
-  "c-metonymy",
-  "c-broadening"
- ],
- "minutes": {
-  "review": 5,
-  "learn": 8,
-  "practice": 8,
-  "apply": 5
- },
- "level": "B2",
- "cards": [
-  {
-   "kind": "text",
-   "title": "三道落差，三种机制",
-   "body": "字面义是把词素义按顺序加起来的读法。它有时就是今义（incision 切口），有时只是今义的历史来源（secure 安全）。落差有三种常见机制：\n\n**转喻（metonymy）**：用相关的部分代替整体。bonus 字面是“好东西”，因为早期拉丁 bonus 就是“好”，用作名词指“好处”，后来专指“额外给的好处”→ 奖金。\n\n**隐喻（metaphor）**：把具体域映射到抽象域。cordial 字面是“与心有关的”，中世纪医学认为心是情感之源，于是“心的”变成“发自内心的”→ 热诚的。\n\n**词义扩大（broadening）**：外延变大。nation 字面是“出生”（nasci），指“同一出生来源的人群”，后来扩到“民族”，再扩到“国家”。\n\n做题时要先算字面义，再判断落差属于哪一类。算不出来，说明切分错了；算出来但今义对不上，说明该按固定词义记。",
-   "terms": [
+  "id": "w38d4",
+  "week": 38,
+  "day": 4,
+  "title": "字面义不是词义：三道落差怎么算",
+  "tagline": "secure 不是“不关心”，bonus 不是“好东西”——字面义只是推理的起点",
+  "objectives": [
+    "能算出六个词的字面义，并指出今义与字面义的落差类型",
+    "能用转喻、隐喻、词义扩大三种机制解释落差，而不是笼统说“引申”",
+    "能判断一个陌生词该按字面义理解还是按固定词义理解"
+  ],
+  "prereqs": [
+    "w38d1",
+    "c-semantic-shift",
+    "c-metaphor"
+  ],
+  "concepts": [
+    "c-semantic-shift",
+    "c-metaphor",
+    "c-metonymy",
+    "c-broadening"
+  ],
+  "minutes": {
+    "review": 5,
+    "learn": 8,
+    "practice": 8,
+    "apply": 5
+  },
+  "level": "B2",
+  "cards": [
     {
-     "term": "literal meaning",
-     "zh": "字面义",
-     "en": "literal meaning",
-     "note": "词素义按顺序组合得到的读法，不等于今义"
+      "kind": "text",
+      "title": "三道落差，三种机制",
+      "body": "字面义是把词素义按顺序加起来的读法。它有时就是今义（incision 切口），有时只是今义的历史来源（secure 安全）。落差有三种常见机制：\n\n**转喻（metonymy）**：用相关的部分代替整体。bonus 字面是“好东西”，因为早期拉丁 bonus 就是“好”，用作名词指“好处”，后来专指“额外给的好处”→ 奖金。\n\n**隐喻（metaphor）**：把具体域映射到抽象域。cordial 字面是“与心有关的”，中世纪医学认为心是情感之源，于是“心的”变成“发自内心的”→ 热诚的。\n\n**词义扩大（broadening）**：外延变大。nation 字面是“出生”（nasci），指“同一出生来源的人群”，后来扩到“民族”，再扩到“国家”。\n\n做题时要先算字面义，再判断落差属于哪一类。算不出来，说明切分错了；算出来但今义对不上，说明该按固定词义记。",
+      "terms": [
+        {
+          "term": "literal meaning",
+          "zh": "字面义",
+          "en": "literal meaning",
+          "note": "词素义按顺序组合得到的读法，不等于今义"
+        },
+        {
+          "term": "semantic broadening",
+          "zh": "词义扩大",
+          "en": "broadening",
+          "note": "词的外延从窄变宽，如“出生的人群”→“国家”"
+        }
+      ]
     },
     {
-     "term": "semantic broadening",
-     "zh": "词义扩大",
-     "en": "broadening",
-     "note": "词的外延从窄变宽，如“出生的人群”→“国家”"
+      "kind": "table",
+      "title": "六个词的字面义与今义",
+      "body": "最后一列是学习时要记住的东西：落差类型决定了这个词该“推”还是该“记”。落差机制越规则，越可以推；越依赖历史文化，越要背。",
+      "head": [
+        "词",
+        "字面义",
+        "今义",
+        "落差类型"
+      ],
+      "rows": [
+        [
+          "secure",
+          "se（去除）+ cur（操心）→ 不必操心",
+          "安全的、牢固的",
+          "转喻：无忧的状态代替造成它的条件"
+        ],
+        [
+          "cordial",
+          "cord（心）+ -ial（与……有关）→ 心的",
+          "热诚的、诚恳的",
+          "隐喻：心作为情感之源"
+        ],
+        [
+          "nation",
+          "nat（出生）+ -ion → 同出生来源的人群",
+          "民族；国家",
+          "词义扩大：人群 → 民族 → 政治实体"
+        ],
+        [
+          "legal",
+          "leg（法）+ -al → 与法有关的",
+          "合法的、法律的",
+          "几乎无落差：字面义即今义"
+        ],
+        [
+          "bonus",
+          "bon（好）+ -us → 好东西",
+          "奖金、额外的好处",
+          "词义缩小：泛指的“好”专指“额外所得”"
+        ],
+        [
+          "document",
+          "doc（教）+ -ument → 用来教的东西",
+          "文件；记录；证明",
+          "转喻：教学材料 → 书面凭证"
+        ]
+      ]
+    },
+    {
+      "kind": "compare",
+      "title": "能推的词与只能记的词",
+      "body": "同样有字面义，两组词的处理方式不同。左组的落差是规则性的，可以现场推；右组的落差来自具体的历史事件或制度，推不出来，只能作为固定词义记住。",
+      "a": "可推（落差有规则）",
+      "b": "需记（落差靠历史）",
+      "rows": [
+        [
+          "例子",
+          "legal、secure、nation、incision",
+          "bonus、document、legend"
+        ],
+        [
+          "推理依据",
+          "词素义 + 常规转喻/隐喻路径",
+          "需要知道拉丁或中世纪的制度背景"
+        ],
+        [
+          "学习动作",
+          "算一遍就能记住，且能迁移到同族新词",
+          "记词义与典型搭配，不要硬推"
+        ],
+        [
+          "风险",
+          "过度推理（把 secure 讲成“不关心”）",
+          "完全不看词素，把它当成不可分析的整词"
+        ]
+      ]
+    },
+    {
+      "kind": "sum",
+      "title": "先算字面，再对今义",
+      "body": "三条算式都成立，但只有第一条的字面义与今义基本一致。后两条必须补上一步：先算出字面义，再用转喻或词义扩大解释落差。这一步要写出来——跳过它，就等于把“字面义 = 词义”当成默认规则，遇到 bonus 这类词立刻会错。",
+      "sums": [
+        {
+          "parts": [
+            "leg",
+            "al"
+          ],
+          "result": "legal",
+          "glossZh": "合法的",
+          "note": "字面义“与法有关的”，今义基本一致"
+        },
+        {
+          "parts": [
+            "cord",
+            "ial"
+          ],
+          "result": "cordial",
+          "glossZh": "热诚的",
+          "note": "字面义“心的”，需经隐喻一步"
+        },
+        {
+          "parts": [
+            "nat",
+            "ion"
+          ],
+          "result": "nation",
+          "glossZh": "民族；国家",
+          "note": "字面义“出生的人群”，经词义扩大"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "title": "一个必须点明的同形陷阱：legend",
+      "body": "legend 的切分是 leg + end，但它与 legal 的 leg 并不同源：legal 的 leg 来自 lex（法），legend 的 leg 来自 legere（读、收集），字面义是“应当被读的东西”→ 圣徒传记 → 传说。词库里这两条来源被并作一条记录（释义写作“法、委任”），做题时要按词义自行分流，不要因为共用一个 ID 就以为它们同义。\n\n这类同形不同源在本单元反复出现（cur / curr、plac / plac）。处理方法只有一条：**按词分流，不按拼写合并**。做题时若发现同族词拉不出同一串（legal 拉出 legislate，legend 拉出 legible），就说明它们只是拼写相同，词根义要分别记。legend 的 -end 是拉丁动形词后缀（“应被……的”），与 agenda 的 -enda 同源。",
+      "morphemes": [
+        "leg",
+        "end"
+      ],
+      "morphemeIds": []
     }
-   ]
-  },
-  {
-   "kind": "table",
-   "title": "六个词的字面义与今义",
-   "body": "最后一列是学习时要记住的东西：落差类型决定了这个词该“推”还是该“记”。落差机制越规则，越可以推；越依赖历史文化，越要背。",
-   "head": [
-    "词",
-    "字面义",
-    "今义",
-    "落差类型"
-   ],
-   "rows": [
-    [
-     "secure",
-     "se（去除）+ cur（操心）→ 不必操心",
-     "安全的、牢固的",
-     "转喻：无忧的状态代替造成它的条件"
-    ],
-    [
-     "cordial",
-     "cord（心）+ -ial（与……有关）→ 心的",
-     "热诚的、诚恳的",
-     "隐喻：心作为情感之源"
-    ],
-    [
-     "nation",
-     "nat（出生）+ -ion → 同出生来源的人群",
-     "民族；国家",
-     "词义扩大：人群 → 民族 → 政治实体"
-    ],
-    [
-     "legal",
-     "leg（法）+ -al → 与法有关的",
-     "合法的、法律的",
-     "几乎无落差：字面义即今义"
-    ],
-    [
-     "bonus",
-     "bon（好）+ -us → 好东西",
-     "奖金、额外的好处",
-     "词义缩小：泛指的“好”专指“额外所得”"
-    ],
-    [
-     "document",
-     "doc（教）+ -ument → 用来教的东西",
-     "文件；记录；证明",
-     "转喻：教学材料 → 书面凭证"
-    ]
-   ]
-  },
-  {
-   "kind": "compare",
-   "title": "能推的词与只能记的词",
-   "body": "同样有字面义，两组词的处理方式不同。左组的落差是规则性的，可以现场推；右组的落差来自具体的历史事件或制度，推不出来，只能作为固定词义记住。",
-   "a": "可推（落差有规则）",
-   "b": "需记（落差靠历史）",
-   "rows": [
-    [
-     "例子",
-     "legal、secure、nation、incision",
-     "bonus、document、legend"
-    ],
-    [
-     "推理依据",
-     "词素义 + 常规转喻/隐喻路径",
-     "需要知道拉丁或中世纪的制度背景"
-    ],
-    [
-     "学习动作",
-     "算一遍就能记住，且能迁移到同族新词",
-     "记词义与典型搭配，不要硬推"
-    ],
-    [
-     "风险",
-     "过度推理（把 secure 讲成“不关心”）",
-     "完全不看词素，把它当成不可分析的整词"
-    ]
-   ]
-  },
-  {
-   "kind": "sum",
-   "title": "先算字面，再对今义",
-   "body": "三条算式都成立，但只有第一条的字面义与今义基本一致。后两条必须补上一步：先算出字面义，再用转喻或词义扩大解释落差。这一步要写出来——跳过它，就等于把“字面义 = 词义”当成默认规则，遇到 bonus 这类词立刻会错。",
-   "sums": [
+  ],
+  "practice": [
     {
-     "parts": [
-      "leg",
-      "al"
-     ],
-     "result": "legal",
-     "glossZh": "合法的",
-     "note": "字面义“与法有关的”，今义基本一致"
+      "id": "w38d4-p1",
+      "kind": "mcq",
+      "prompt": "secure 的字面义是“不必操心”，它与今义“安全的”之间的落差属于：",
+      "choices": [
+        "转喻：用无忧的状态指造成它的条件",
+        "隐喻：把心的感受投射到安全上",
+        "词义扩大：从个人安全扩到国家安全",
+        "没有落差，字面义就是今义"
+      ],
+      "answer": 0,
+      "explain": "se-（分开、去除）+ cur（关心、照料）→“把操心去掉”。人不必操心，就意味着处境有保障，于是“无忧”转指“安全”。这是转喻：用相关的状态代替造成状态的条件。它不是隐喻（没有跨域映射），也不是词义扩大（外延没有变大）。注意别把它读成“不关心”——那是把 se- 的“去除”错安在“关心”这个动作上，而不是安在“操心”这个负担上。",
+      "concepts": [
+        "se",
+        "cur"
+      ]
     },
     {
-     "parts": [
-      "cord",
-      "ial"
-     ],
-     "result": "cordial",
-     "glossZh": "热诚的",
-     "note": "字面义“心的”，需经隐喻一步"
+      "id": "w38d4-p2",
+      "kind": "wordSum",
+      "prompt": "用 + 连接两段，写出“奖金、额外好处”这个词",
+      "parts": [
+        "bon",
+        "us"
+      ],
+      "answer": "bonus",
+      "explain": "bon（好）+ -us（拉丁阳性名词词尾）→ bonus，字面就是“好东西”。拉丁里 bonus 是形容词“好的”，作名词用指“好处”；英语借入后专指“额外给的好处”，于是有了“奖金”。这是一次词义缩小：从泛指的“好”缩到“额外所得”。同根的 benefit（bene + fit“做好事”）走的是另一条路，落点是“益处”。",
+      "concepts": [
+        "bene",
+        "us"
+      ]
     },
     {
-     "parts": [
-      "nat",
-      "ion"
-     ],
-     "result": "nation",
-     "glossZh": "民族；国家",
-     "note": "字面义“出生的人群”，经词义扩大"
+      "id": "w38d4-p3",
+      "kind": "cloze",
+      "prompt": "填入一个英语名词，补全 nation 的词源说明",
+      "sentence": "Nation goes back to Latin nasci, 'to be ___': a nation was originally a group of people sharing the same origin, not a state with borders.",
+      "answer": "born",
+      "accept": [
+        "born",
+        "birth"
+      ],
+      "explain": "nation 的词根 nat 来自 nasci“出生”。字面义是“同出生来源的人群”，所以 native（本地的、天生的）、innate（天生的）同族。从“同源人群”到“民族”，再到“国家”，外延一路扩大——这是词义扩大的标准案例。理解这一点，读到时事文本里的 national、nationality 就不会把它们只当成“国家”的形容词。",
+      "concepts": [
+        "nat",
+        "ion"
+      ]
+    },
+    {
+      "id": "w38d4-p4",
+      "kind": "mcq",
+      "prompt": "cordial 从“与心有关的”变成“热诚的”，这一步依赖的是：",
+      "choices": [
+        "把心当作情感之源的隐喻",
+        "心在解剖学上控制情绪的事实",
+        "词义缩小：只指心里的感受",
+        "前缀同化造成的读音变化"
+      ],
+      "answer": 0,
+      "explain": "cord 是“心”，-ial 是“与……有关的”。字面义只到“心的”为止；从“心的”到“热诚的”，靠的是把“心”映射到“情感”这个抽象域的隐喻。这条隐喻在英语里成体系：cordial、record（re + cord，重新记在心上）、accord（心贴心 → 一致）。注意这不是解剖学事实，而是文化模型——隐喻的可靠性来自语言共同体，不来自生理。",
+      "concepts": [
+        "cord",
+        "ial"
+      ]
+    },
+    {
+      "id": "w38d4-p5",
+      "kind": "mcq",
+      "prompt": "下面哪个词的今义最不能只靠字面义推出来，必须作为固定词义记住？",
+      "choices": [
+        "incision",
+        "legal",
+        "secure",
+        "legend"
+      ],
+      "answer": 3,
+      "explain": "legend 的字面义是“应当被读的东西”（leg 读 + -end 应被……的），今义“传说”要经过“圣徒传记 → 名人故事 → 传说”这条具体的历史链，推不出来，只能记。incision（切进去 → 切口）、legal（与法有关）、secure（无忧 → 安全）都能靠词素义加一条常规转喻推到位。判断标准是：落差是否需要具体的历史知识。",
+      "concepts": [
+        "leg",
+        "end",
+        "cid",
+        "ion"
+      ]
     }
-   ]
-  },
-  {
-   "kind": "text",
-   "title": "一个必须点明的同形陷阱：legend",
-   "body": "legend 的切分是 leg + end，但它与 legal 的 leg 并不同源：legal 的 leg 来自 lex（法），legend 的 leg 来自 legere（读、收集），字面义是“应当被读的东西”→ 圣徒传记 → 传说。词库里这两条来源被并作一条记录（释义写作“法、委任”），做题时要按词义自行分流，不要因为共用一个 ID 就以为它们同义。\n\n这类同形不同源在本单元反复出现（cur / curr、plac / plac）。处理方法只有一条：**按词分流，不按拼写合并**。做题时若发现同族词拉不出同一串（legal 拉出 legislate，legend 拉出 legible），就说明它们只是拼写相同，词根义要分别记。legend 的 -end 是拉丁动形词后缀（“应被……的”），与 agenda 的 -enda 同源。",
-   "morphemes": [
-    "leg",
-    "end"
-   ],
-   "morphemeIds": [
-    "cx-leg",
-    "cx-and-end"
-   ]
-  }
- ],
- "practice": [
-  {
-   "id": "w38d4-p1",
-   "kind": "mcq",
-   "prompt": "secure 的字面义是“不必操心”，它与今义“安全的”之间的落差属于：",
-   "choices": [
-    "转喻：用无忧的状态指造成它的条件",
-    "隐喻：把心的感受投射到安全上",
-    "词义扩大：从个人安全扩到国家安全",
-    "没有落差，字面义就是今义"
-   ],
-   "answer": 0,
-   "explain": "se-（分开、去除）+ cur（关心、照料）→“把操心去掉”。人不必操心，就意味着处境有保障，于是“无忧”转指“安全”。这是转喻：用相关的状态代替造成状态的条件。它不是隐喻（没有跨域映射），也不是词义扩大（外延没有变大）。注意别把它读成“不关心”——那是把 se- 的“去除”错安在“关心”这个动作上，而不是安在“操心”这个负担上。",
-   "concepts": [
-    "se",
-    "cur"
-   ]
-  },
-  {
-   "id": "w38d4-p2",
-   "kind": "wordSum",
-   "prompt": "用 + 连接两段，写出“奖金、额外好处”这个词",
-   "parts": [
-    "bon",
-    "us"
-   ],
-   "answer": "bonus",
-   "explain": "bon（好）+ -us（拉丁阳性名词词尾）→ bonus，字面就是“好东西”。拉丁里 bonus 是形容词“好的”，作名词用指“好处”；英语借入后专指“额外给的好处”，于是有了“奖金”。这是一次词义缩小：从泛指的“好”缩到“额外所得”。同根的 benefit（bene + fit“做好事”）走的是另一条路，落点是“益处”。",
-   "concepts": [
-    "bene",
-    "us"
-   ]
-  },
-  {
-   "id": "w38d4-p3",
-   "kind": "cloze",
-   "prompt": "填入一个英语名词，补全 nation 的词源说明",
-   "sentence": "Nation goes back to Latin nasci, 'to be ___': a nation was originally a group of people sharing the same origin, not a state with borders.",
-   "answer": "born",
-   "accept": [
-    "born",
-    "birth"
-   ],
-   "explain": "nation 的词根 nat 来自 nasci“出生”。字面义是“同出生来源的人群”，所以 native（本地的、天生的）、innate（天生的）同族。从“同源人群”到“民族”，再到“国家”，外延一路扩大——这是词义扩大的标准案例。理解这一点，读到时事文本里的 national、nationality 就不会把它们只当成“国家”的形容词。",
-   "concepts": [
-    "nat",
-    "ion"
-   ]
-  },
-  {
-   "id": "w38d4-p4",
-   "kind": "mcq",
-   "prompt": "cordial 从“与心有关的”变成“热诚的”，这一步依赖的是：",
-   "choices": [
-    "把心当作情感之源的隐喻",
-    "心在解剖学上控制情绪的事实",
-    "词义缩小：只指心里的感受",
-    "前缀同化造成的读音变化"
-   ],
-   "answer": 0,
-   "explain": "cord 是“心”，-ial 是“与……有关的”。字面义只到“心的”为止；从“心的”到“热诚的”，靠的是把“心”映射到“情感”这个抽象域的隐喻。这条隐喻在英语里成体系：cordial、record（re + cord，重新记在心上）、accord（心贴心 → 一致）。注意这不是解剖学事实，而是文化模型——隐喻的可靠性来自语言共同体，不来自生理。",
-   "concepts": [
-    "cord",
-    "ial"
-   ]
-  },
-  {
-   "id": "w38d4-p5",
-   "kind": "mcq",
-   "prompt": "下面哪个词的今义最不能只靠字面义推出来，必须作为固定词义记住？",
-   "choices": [
-    "incision",
-    "legal",
-    "secure",
-    "legend"
-   ],
-   "answer": 3,
-   "explain": "legend 的字面义是“应当被读的东西”（leg 读 + -end 应被……的），今义“传说”要经过“圣徒传记 → 名人故事 → 传说”这条具体的历史链，推不出来，只能记。incision（切进去 → 切口）、legal（与法有关）、secure（无忧 → 安全）都能靠词素义加一条常规转喻推到位。判断标准是：落差是否需要具体的历史知识。",
-   "concepts": [
-    "leg",
-    "end",
-    "cid",
-    "ion"
-   ]
-  }
- ],
- "apply": [
-  {
-   "id": "w38d4-a1",
-   "kind": "infer",
-   "prompt": "（迁移）读句子，推测 cordial 在学术评议语境中的含义",
-   "passage": "The two labs have remained cordial since the dispute, but they no longer share data or co-author papers; the warmth is procedural, not personal.",
-   "word": "cordial",
-   "choices": [
-    "客气而友好的（但不亲密）",
-    "敌对的、冷淡的",
-    "真诚而热烈的",
-    "正式的、法律意义上的"
-   ],
-   "answer": 0,
-   "strategy": "① 切分：cord（心）+ -ial（与……有关）→ 字面“心的”；② 句法：remained cordial 是状态表语，but 引导转折；③ 语境：不再共享数据、不再合写论文，且 the warmth is procedural, not personal——有礼但非私人情谊；④ 校验：敌对对 remained cordial 直接矛盾；真诚热烈与 not personal 冲突；法律意义与 warmth 无关。",
-   "explain": "cordial 是“客气友好的”，程度低于“亲密”。这里的关键是 but 与 procedural：字面义“心的”只给出方向（朝向友好），具体强度由语境限定。这说明字面义的作用是给一个可信的语义范围，而不是精确值；真正的取值要靠句内对比。",
-   "concepts": [
-    "cord",
-    "ial"
-   ]
-  }
- ],
- "sources": [
-  {
-   "id": "S1",
-   "title": "English Vocabulary Elements",
-   "detail": "第 12 章：语义演变与词义扩大"
-  },
-  {
-   "id": "S4",
-   "title": "New Word-Analysis",
-   "detail": "cura、cor、nasci 的派生与语义路径"
-  },
-  {
-   "id": "S5",
-   "title": "Oxford English Dictionary",
-   "detail": "cordial、bonus、legend 的义项年代"
-  }
- ],
- "knowledgePoints": []
+  ],
+  "apply": [
+    {
+      "id": "w38d4-a1",
+      "kind": "infer",
+      "prompt": "（迁移）读句子，推测 cordial 在学术评议语境中的含义",
+      "passage": "The two labs have remained cordial since the dispute, but they no longer share data or co-author papers; the warmth is procedural, not personal.",
+      "word": "cordial",
+      "choices": [
+        "客气而友好的（但不亲密）",
+        "敌对的、冷淡的",
+        "真诚而热烈的",
+        "正式的、法律意义上的"
+      ],
+      "answer": 0,
+      "strategy": "① 切分：cord（心）+ -ial（与……有关）→ 字面“心的”；② 句法：remained cordial 是状态表语，but 引导转折；③ 语境：不再共享数据、不再合写论文，且 the warmth is procedural, not personal——有礼但非私人情谊；④ 校验：敌对对 remained cordial 直接矛盾；真诚热烈与 not personal 冲突；法律意义与 warmth 无关。",
+      "explain": "cordial 是“客气友好的”，程度低于“亲密”。这里的关键是 but 与 procedural：字面义“心的”只给出方向（朝向友好），具体强度由语境限定。这说明字面义的作用是给一个可信的语义范围，而不是精确值；真正的取值要靠句内对比。",
+      "concepts": [
+        "cord",
+        "ial"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "English Vocabulary Elements",
+      "detail": "第 12 章：语义演变与词义扩大"
+    },
+    {
+      "id": "S4",
+      "title": "New Word-Analysis",
+      "detail": "cura、cor、nasci 的派生与语义路径"
+    },
+    {
+      "id": "S5",
+      "title": "Oxford English Dictionary",
+      "detail": "cordial、bonus、legend 的义项年代"
+    }
+  ],
+  "knowledgePoints": []
 }

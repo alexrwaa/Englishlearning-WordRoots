@@ -35,6 +35,7 @@ const WordLab = lazyWithLexicon(() => import('./pages/WordLab'));
 const Library = lazyWithLexicon(() => import('./pages/Library'));
 const Stats = lazyWithLexicon(() => import('./pages/Stats'));
 const SettingsPage = lazyWithLexicon(() => import('./pages/SettingsPage'));
+const Assessment = lazyWithLexicon(() => import('./pages/Assessment'));
 
 const nav = [
   { to: '/', label: '今日学习', icon: '◈', end: true },
@@ -44,6 +45,7 @@ const nav = [
   { to: '/word', label: '词源词典', icon: '⌘' },
   { to: '/library', label: '知识库', icon: '❏' },
   { to: '/stats', label: '学习统计', icon: '◔' },
+  { to: '/assessment', label: '能力测评', icon: '◎' },
   { to: '/settings', label: '设置与数据', icon: '⚙' },
 ];
 
@@ -151,6 +153,7 @@ function Shell() {
             <Route path="/word/:word" element={<WordLab />} />
             <Route path="/library" element={<Library />} />
             <Route path="/stats" element={<Stats />} />
+            <Route path="/assessment" element={<Assessment />} />
             <Route path="/settings" element={<SettingsPage />} />
             <Route path="*" element={<Home />} />
           </Routes>

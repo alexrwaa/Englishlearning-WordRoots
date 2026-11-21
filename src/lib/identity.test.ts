@@ -155,7 +155,11 @@ describe('shipped content consistency', () => {
       for (const id of ids) {
         const morpheme = identity.byId(id);
         expect(morpheme, `${form} -> ${id}`).toBeDefined();
-        expect(normalizeForm(morpheme?.form)).toBe(form);
+        // Since 0.8.0 the index also lists allomorphs, so a key is either the
+        // canonical form or one of the recorded variant spellings — both are
+        // legitimate ways to reach the same morpheme.
+        const spellings = [morpheme?.form, ...(morpheme?.allomorphs ?? [])].map((f) => normalizeForm(f ?? ''));
+        expect(spellings, `${form} -> ${id}`).toContain(form);
       }
     }
     for (const morpheme of morphemes) {

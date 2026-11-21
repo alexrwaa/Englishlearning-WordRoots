@@ -1,0 +1,201 @@
+{
+  "id": "fam-duct",
+  "root": {
+    "form": "duct",
+    "glossEn": "lead",
+    "glossZh": "引导、带领",
+    "origin": "Lat",
+    "etymon": "ducere",
+    "etymonGloss": "to lead, draw"
+  },
+  "coreIdea": "「引」：向前引是生产，往回引是减少，往旁边引是诱。",
+  "members": [
+    {
+      "w": "conduct",
+      "relation": "derivative",
+      "glossZh": "进行；指挥；行为",
+      "layer": ["con-", "duct"],
+      "note": "con- 一起 + 引 → 把众人引到一处"
+    },
+    {
+      "w": "produce",
+      "relation": "derivative",
+      "glossZh": "生产",
+      "layer": ["pro-", "duce"],
+      "note": "pro- 向前 + 引 → 引到眼前、拿出来"
+    },
+    {
+      "w": "reduce",
+      "relation": "derivative",
+      "glossZh": "减少",
+      "layer": ["re-", "duce"],
+      "note": "re- 往回 + 引 → 引回原处、收小"
+    },
+    {
+      "w": "introduce",
+      "relation": "derivative",
+      "glossZh": "介绍；引入",
+      "layer": ["intro-", "duce"],
+      "note": "intro- 向内 + 引 → 把人或物带进来"
+    },
+    {
+      "w": "educate",
+      "relation": "derivative",
+      "glossZh": "教育",
+      "layer": ["e-", "duc", "-ate"],
+      "note": "e- 出 + duc 引 → 拉丁 educare 本义「抚养、带大」，不是「把潜能拉出来」"
+    },
+    {
+      "w": "deduction",
+      "relation": "derivative",
+      "glossZh": "推论；扣除",
+      "layer": ["de-", "duct", "-ion"],
+      "note": "de- 向下、离开 + 引 → 从前提中引出结论"
+    },
+    {
+      "w": "abduct",
+      "relation": "derivative",
+      "glossZh": "绑架",
+      "layer": ["ab-", "duct"],
+      "note": "ab- 离开 + 引 → 把人带走"
+    },
+    {
+      "w": "seduce",
+      "relation": "derivative",
+      "glossZh": "引诱",
+      "layer": ["se-", "duce"],
+      "note": "se- 到一边 + 引 → 引离正路"
+    },
+    {
+      "w": "induce",
+      "relation": "derivative",
+      "glossZh": "诱导；引起",
+      "layer": ["in-", "duce"],
+      "note": "in- 向内 + 引 → 引入某种状态"
+    },
+    {
+      "w": "aqueduct",
+      "relation": "derivative",
+      "glossZh": "高架渠",
+      "layer": ["aque-", "duct"],
+      "note": "aque- 水（aqua）+ duct 引导 → 导水槽"
+    },
+    {
+      "w": "viaduct",
+      "relation": "derivative",
+      "glossZh": "高架桥",
+      "layer": ["via-", "duct"],
+      "note": "via- 道路 + 引 → 把路引过去；19 世纪按 aqueduct 类推造出"
+    },
+    {
+      "w": "ductile",
+      "relation": "derivative",
+      "glossZh": "可延展的",
+      "layer": ["duct", "-ile"],
+      "note": "-ile 能…的：能被拉长的"
+    },
+    {
+      "w": "transducer",
+      "relation": "derivative",
+      "glossZh": "换能器",
+      "layer": ["trans-", "duc", "-er"],
+      "note": "trans- 转换 + 引 + -er 表物 → 把一种能量引成另一种"
+    },
+    {
+      "w": "subduction",
+      "relation": "derivative",
+      "glossZh": "俯冲（地质）",
+      "layer": ["sub-", "duct", "-ion"],
+      "note": "sub- 向下 + 引 → 一块板块被引到另一块之下"
+    },
+    {
+      "w": "misconduct",
+      "relation": "derivative",
+      "glossZh": "不当行为",
+      "layer": ["mis-", "con-", "duct"],
+      "note": "mis- 坏 + conduct 行为"
+    },
+    {
+      "w": "conducive",
+      "relation": "derivative",
+      "glossZh": "有助于…的",
+      "layer": ["con-", "duc", "-ive"],
+      "note": "con- 一起 + 引 + -ive → 能把事情引向某结果的"
+    }
+  ],
+  "allomorphs": [
+    {
+      "form": "duc",
+      "note": "拉丁现在词干，与分词词干 duct 交替出现",
+      "examples": ["educate", "induce", "conducive"]
+    },
+    {
+      "form": "duce",
+      "note": "经法语传入的动词不定式词干，词尾 -e 不承载意义",
+      "examples": ["produce", "reduce", "introduce"]
+    }
+  ],
+  "derivationChains": [
+    {
+      "stages": ["duc", "produce", "production", "productive"],
+      "note": "词干从 duc 换成 duct，再挂 -ion / -ive，每一级都真实成词"
+    },
+    {
+      "stages": ["duc", "reduce", "reduction", "reducible"],
+      "note": "reducible 的 -ible 是 -able 的拉丁变体"
+    },
+    {
+      "stages": ["duc", "introduce", "introduction", "introductory"],
+      "note": "introduction 的 -ory 形容词是 introductory，拼写有音变"
+    },
+    {
+      "stages": ["duc", "educate", "education", "educational"],
+      "note": "educate 的 -ate 去掉再加 -ion"
+    }
+  ],
+  "semanticShifts": [
+    {
+      "w": "educate",
+      "from": "抚养、带大",
+      "to": "教育",
+      "why": "从「把孩子带大」转为「把心智带出来」"
+    },
+    {
+      "w": "seduce",
+      "from": "引到一边",
+      "to": "引诱",
+      "why": "使人偏离正道"
+    },
+    {
+      "w": "reduce",
+      "from": "引回",
+      "to": "减少",
+      "why": "把数量带回较小的范围"
+    },
+    {
+      "w": "conduct",
+      "from": "一起引",
+      "to": "行为；指挥",
+      "why": "把自己引向某处 → 举止；把众人引向一处 → 指挥"
+    }
+  ],
+  "homographTraps": [],
+  "teaching": {
+    "induction": "给出 produce、reduce、introduce、seduce、conduct 五个词，问：共同的「引」在哪个词里最清楚？前缀把「引」的方向改成了哪边？",
+    "transfer": {
+      "word": "conducive",
+      "question": "拆开并猜义：con- + duc + -ive 为什么会表示「有助于」？",
+      "answer": "con- 一起 + duc 引 + -ive …的 → 能把事情一起引向某个结果的，即「有助于…的」。例句：A quiet environment is conducive to deep work."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "detail": "ch.9 Latin/Greek element list（duc-/duct- 条）；ch.3 现在词干与分词词干"
+    },
+    {
+      "id": "S5",
+      "detail": "Oxford Dictionary of English Etymology，ducere 与 educare 条"
+    }
+  ]
+}

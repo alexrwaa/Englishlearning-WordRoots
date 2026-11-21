@@ -1,23 +1,78 @@
 {
-  "generatedAt": "2026-11-20T15:53:47.111Z",
+  "generatedAt": "2026-11-21T00:57:42.657Z",
   "identity": {
-    "morphemes": 796,
-    "forms": 782,
+    "morphemes": 797,
+    "forms": 1019,
     "ambiguousForms": [
       "a",
+      "able",
+      "al",
+      "an",
+      "ant",
+      "ation",
       "bi",
+      "capt",
+      "cept",
+      "cid",
+      "cis",
+      "counter",
+      "cri",
       "cur",
+      "de",
+      "di",
+      "do",
+      "dy",
+      "em",
+      "ence",
+      "ent",
+      "gen",
+      "gno",
+      "gram",
+      "graphy",
+      "ible",
+      "il",
+      "im",
       "in",
+      "ion",
+      "ir",
+      "ise",
+      "ive",
+      "lat",
+      "leg",
+      "lex",
       "libr",
+      "lig",
+      "lit",
+      "lith",
+      "log",
       "man",
+      "metr",
+      "miss",
+      "mon",
+      "nav",
+      "nom",
+      "or",
       "par",
+      "ped",
       "plac",
+      "pod",
+      "prim",
       "sal",
+      "script",
       "sex",
+      "sion",
       "sol",
+      "somat",
+      "spec",
+      "spect",
+      "tele",
+      "ten",
       "terr",
+      "ty",
+      "ure",
       "ven",
-      "ver"
+      "ver",
+      "vis"
     ]
   },
   "sources": [
@@ -44,14 +99,32 @@
       "title": "New Word-Analysis",
       "status": "full-text",
       "role": "historical"
+    },
+    {
+      "id": "S5",
+      "title": "Historical and etymological references (reference set)",
+      "status": "reference-set",
+      "role": "supporting"
+    },
+    {
+      "id": "G1",
+      "title": "English gloss / definition reference",
+      "status": "reference-set",
+      "role": "supporting"
+    },
+    {
+      "id": "LEX",
+      "title": "Internal lexical rules (project-defined)",
+      "status": "derived",
+      "role": "method"
     }
   ],
   "knowledgeBase": {
-    "morphemes": 796,
+    "morphemes": 797,
     "words": 1473,
-    "verifiedWords": 925,
+    "verifiedWords": 972,
     "concepts": 35,
-    "families": 418
+    "families": 420
   },
   "curriculum": {
     "lessons": 243,
@@ -71,19 +144,24 @@
       "level": "L2",
       "name": "已关联",
       "rule": "元素 → 词素 ID，form 与 origin 同时一致",
-      "count": 526,
+      "count": 519,
       "total": 559,
-      "pct": 94,
+      "pct": 93,
       "gaps": [
+        {
+          "element": "-ise",
+          "chapter": "3",
+          "reason": "同形同源多条记录且释义不匹配（sx-ise / sx-ize）"
+        },
         {
           "element": "-a",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat）"
+          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）"
         },
         {
           "element": "-able~-ible~-ble",
           "chapter": "3, 11",
-          "reason": "同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）"
         },
         {
           "element": "-ac",
@@ -93,7 +171,17 @@
         {
           "element": "-al~-ial",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（sx-al / sx-ial）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
+        },
+        {
+          "element": "al",
+          "chapter": "10",
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
+        },
+        {
+          "element": "al",
+          "chapter": "11",
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         },
         {
           "element": "-ance",
@@ -103,7 +191,7 @@
         {
           "element": "-ble~-able~-ible",
           "chapter": "3, 11",
-          "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-ible）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）"
         },
         {
           "element": "cli",
@@ -121,14 +209,9 @@
           "reason": "同形同源多条记录，释义仍无法区分（px-con / px-com）"
         },
         {
-          "element": "leg~lig",
-          "chapter": "5",
-          "reason": "同形同源多条记录且释义不匹配（cx-leg / cx-lig）"
-        },
-        {
-          "element": "lig~leg",
-          "chapter": "5",
-          "reason": "同形同源多条记录且释义不匹配（cx-lig / cx-leg）"
+          "element": "-ive~-tive",
+          "chapter": "3,4,6",
+          "reason": "同形同源多条记录且释义不匹配（cx-tive-ive / sx-ative）"
         },
         {
           "element": "ly",
@@ -141,9 +224,19 @@
           "reason": "词库中没有 form+origin 一致的记录（ment · L）"
         },
         {
+          "element": "metr",
+          "chapter": "10",
+          "reason": "同形同源多条记录且释义不匹配（cx-meter / cx-metr）"
+        },
+        {
           "element": "mis",
           "chapter": "1",
           "reason": "词库中没有 form+origin 一致的记录（mis · G）"
+        },
+        {
+          "element": "mitt~miss",
+          "chapter": "3,4",
+          "reason": "同形同源多条记录，释义仍无法区分（rx-mitt / rx-mit）"
         },
         {
           "element": "nano-",
@@ -154,26 +247,6 @@
           "element": "-nd~-and~-end",
           "chapter": "9",
           "reason": "同形同源多条记录，释义仍无法区分（sx-nd / cx-and-end）"
-        },
-        {
-          "element": "nec~necr",
-          "chapter": "4",
-          "reason": "词库中没有 form+origin 一致的记录（nec/necr · G）"
-        },
-        {
-          "element": "op",
-          "chapter": "8",
-          "reason": "词库中没有 form+origin 一致的记录（op · G）"
-        },
-        {
-          "element": "-ous~-ose",
-          "chapter": "3",
-          "reason": "同形同源多条记录且释义不匹配（sx-ous / sx-ose）"
-        },
-        {
-          "element": "sta~ste",
-          "chapter": "4",
-          "reason": "词库中没有 form+origin 一致的记录（sta/ste · G）"
         }
       ]
     },
@@ -181,19 +254,24 @@
       "level": "L3",
       "name": "释义已核",
       "rule": "glossZh 与 glossEn 均非空且无占位符",
-      "count": 526,
+      "count": 519,
       "total": 559,
-      "pct": 94,
+      "pct": 93,
       "gaps": [
+        {
+          "element": "-ise",
+          "chapter": "3",
+          "reason": "同形同源多条记录且释义不匹配（sx-ise / sx-ize）"
+        },
         {
           "element": "-a",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat）"
+          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）"
         },
         {
           "element": "-able~-ible~-ble",
           "chapter": "3, 11",
-          "reason": "同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）"
         },
         {
           "element": "-ac",
@@ -203,7 +281,17 @@
         {
           "element": "-al~-ial",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（sx-al / sx-ial）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
+        },
+        {
+          "element": "al",
+          "chapter": "10",
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
+        },
+        {
+          "element": "al",
+          "chapter": "11",
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         },
         {
           "element": "-ance",
@@ -213,7 +301,7 @@
         {
           "element": "-ble~-able~-ible",
           "chapter": "3, 11",
-          "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-ible）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）"
         },
         {
           "element": "cli",
@@ -231,14 +319,9 @@
           "reason": "同形同源多条记录，释义仍无法区分（px-con / px-com）"
         },
         {
-          "element": "leg~lig",
-          "chapter": "5",
-          "reason": "同形同源多条记录且释义不匹配（cx-leg / cx-lig）"
-        },
-        {
-          "element": "lig~leg",
-          "chapter": "5",
-          "reason": "同形同源多条记录且释义不匹配（cx-lig / cx-leg）"
+          "element": "-ive~-tive",
+          "chapter": "3,4,6",
+          "reason": "同形同源多条记录且释义不匹配（cx-tive-ive / sx-ative）"
         },
         {
           "element": "ly",
@@ -251,9 +334,19 @@
           "reason": "词库中没有 form+origin 一致的记录（ment · L）"
         },
         {
+          "element": "metr",
+          "chapter": "10",
+          "reason": "同形同源多条记录且释义不匹配（cx-meter / cx-metr）"
+        },
+        {
           "element": "mis",
           "chapter": "1",
           "reason": "词库中没有 form+origin 一致的记录（mis · G）"
+        },
+        {
+          "element": "mitt~miss",
+          "chapter": "3,4",
+          "reason": "同形同源多条记录，释义仍无法区分（rx-mitt / rx-mit）"
         },
         {
           "element": "nano-",
@@ -264,37 +357,22 @@
           "element": "-nd~-and~-end",
           "chapter": "9",
           "reason": "同形同源多条记录，释义仍无法区分（sx-nd / cx-and-end）"
-        },
-        {
-          "element": "nec~necr",
-          "chapter": "4",
-          "reason": "词库中没有 form+origin 一致的记录（nec/necr · G）"
-        },
-        {
-          "element": "op",
-          "chapter": "8",
-          "reason": "词库中没有 form+origin 一致的记录（op · G）"
-        },
-        {
-          "element": "-ous~-ose",
-          "chapter": "3",
-          "reason": "同形同源多条记录且释义不匹配（sx-ous / sx-ose）"
-        },
-        {
-          "element": "sta~ste",
-          "chapter": "4",
-          "reason": "词库中没有 form+origin 一致的记录（sta/ste · G）"
         }
       ]
     },
     {
       "level": "L4",
       "name": "例词充分",
-      "rule": "≥2 个 verified:true 且 partIds 含该 ID 的词条",
-      "count": 241,
+      "rule": "≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true）",
+      "count": 253,
       "total": 559,
-      "pct": 43,
+      "pct": 45,
       "gaps": [
+        {
+          "element": "-ise",
+          "chapter": "3",
+          "reason": "同形同源多条记录且释义不匹配（sx-ise / sx-ize）"
+        },
         {
           "element": "onomat",
           "chapter": "10",
@@ -318,12 +396,12 @@
         {
           "element": "-a",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat）"
+          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）"
         },
         {
           "element": "-able~-ible~-ble",
           "chapter": "3, 11",
-          "reason": "同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）"
         },
         {
           "element": "-ac",
@@ -353,12 +431,17 @@
         {
           "element": "-al~-ial",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（sx-al / sx-ial）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         },
         {
-          "element": "al~ol~ul",
-          "chapter": "4",
-          "reason": "verified 词条只有 0 个（需要 2 个）"
+          "element": "al",
+          "chapter": "10",
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
+        },
+        {
+          "element": "al",
+          "chapter": "11",
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         },
         {
           "element": "alb",
@@ -384,16 +467,6 @@
           "element": "am~im",
           "chapter": "4",
           "reason": "verified 词条只有 0 个（需要 2 个）"
-        },
-        {
-          "element": "-ance",
-          "chapter": "3, 4",
-          "reason": "词库中没有 form+origin 一致的记录（ance · L）"
-        },
-        {
-          "element": "andr",
-          "chapter": "5",
-          "reason": "verified 词条只有 1 个（需要 2 个）"
         }
       ]
     },
@@ -401,9 +474,9 @@
       "level": "L5",
       "name": "有讲解",
       "rule": "某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段）",
-      "count": 234,
+      "count": 230,
       "total": 559,
-      "pct": 42,
+      "pct": 41,
       "gaps": [
         {
           "element": "crypt",
@@ -414,6 +487,11 @@
           "element": "du",
           "chapter": "6",
           "reason": "没有任何课时讲到它"
+        },
+        {
+          "element": "-ise",
+          "chapter": "3",
+          "reason": "同形同源多条记录且释义不匹配（sx-ise / sx-ize）"
         },
         {
           "element": "nat",
@@ -436,14 +514,9 @@
           "reason": "verified 词条只有 0 个（需要 2 个）"
         },
         {
-          "element": "a-~an-",
-          "chapter": "3, 4",
-          "reason": "没有任何课时讲到它"
-        },
-        {
           "element": "-a",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat）"
+          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）"
         },
         {
           "element": "ab-~abs-",
@@ -453,7 +526,7 @@
         {
           "element": "-able~-ible~-ble",
           "chapter": "3, 11",
-          "reason": "同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）"
         },
         {
           "element": "abs-~ab-",
@@ -498,12 +571,12 @@
         {
           "element": "-al~-ial",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（sx-al / sx-ial）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         },
         {
-          "element": "al~ol~ul",
-          "chapter": "4",
-          "reason": "verified 词条只有 0 个（需要 2 个）"
+          "element": "al",
+          "chapter": "10",
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         }
       ]
     },
@@ -511,7 +584,7 @@
       "level": "L6",
       "name": "有练习",
       "rule": "practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds）",
-      "count": 206,
+      "count": 207,
       "total": 559,
       "pct": 37,
       "gaps": [
@@ -528,7 +601,7 @@
         {
           "element": "-ise",
           "chapter": "3",
-          "reason": "讲到它的课时没有练习用到它"
+          "reason": "同形同源多条记录且释义不匹配（sx-ise / sx-ize）"
         },
         {
           "element": "onomat",
@@ -553,12 +626,12 @@
         {
           "element": "-a",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat）"
+          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）"
         },
         {
           "element": "-able~-ible~-ble",
           "chapter": "3, 11",
-          "reason": "同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）"
         },
         {
           "element": "-ac",
@@ -598,21 +671,21 @@
         {
           "element": "-al~-ial",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（sx-al / sx-ial）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         },
         {
-          "element": "al~ol~ul",
-          "chapter": "4",
-          "reason": "verified 词条只有 0 个（需要 2 个）"
+          "element": "al",
+          "chapter": "10",
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
+        },
+        {
+          "element": "al",
+          "chapter": "11",
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         },
         {
           "element": "alb",
           "chapter": "9",
-          "reason": "verified 词条只有 0 个（需要 2 个）"
-        },
-        {
-          "element": "alg",
-          "chapter": "8",
           "reason": "verified 词条只有 0 个（需要 2 个）"
         }
       ]
@@ -626,14 +699,19 @@
       "pct": 42,
       "gaps": [
         {
+          "element": "-ise",
+          "chapter": "3",
+          "reason": "同形同源多条记录且释义不匹配（sx-ise / sx-ize）"
+        },
+        {
           "element": "a-~an-",
           "chapter": "3, 4",
-          "reason": "没有任何课时讲到它"
+          "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）"
         },
         {
           "element": "-a",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat）"
+          "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）"
         },
         {
           "element": "ab-~abs-",
@@ -643,7 +721,7 @@
         {
           "element": "-able~-ible~-ble",
           "chapter": "3, 11",
-          "reason": "同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）"
         },
         {
           "element": "abs-~ab-",
@@ -698,31 +776,26 @@
         {
           "element": "-al~-ial",
           "chapter": "9",
-          "reason": "同形同源多条记录且释义不匹配（sx-al / sx-ial）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         },
         {
           "element": "al",
           "chapter": "10",
-          "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         },
         {
           "element": "al",
           "chapter": "11",
-          "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）"
+          "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）"
         },
         {
           "element": "al~ol~ul",
           "chapter": "4",
-          "reason": "verified 词条只有 0 个（需要 2 个）"
+          "reason": "没有任何课时讲到它"
         },
         {
           "element": "alb",
           "chapter": "9",
-          "reason": "verified 词条只有 0 个（需要 2 个）"
-        },
-        {
-          "element": "alg",
-          "chapter": "8",
           "reason": "verified 词条只有 0 个（需要 2 个）"
         }
       ]
@@ -739,44 +812,44 @@
     "stuck": [
       {
         "at": "L5",
-        "count": 95
-      },
-      {
-        "at": "L6",
-        "count": 23
-      },
-      {
-        "at": "done",
-        "count": 64
-      },
-      {
-        "at": "L4",
-        "count": 285
+        "count": 98
       },
       {
         "at": "L2",
-        "count": 33
+        "count": 40
+      },
+      {
+        "at": "done",
+        "count": 68
+      },
+      {
+        "at": "L4",
+        "count": 266
       },
       {
         "at": "L7",
-        "count": 59
+        "count": 61
+      },
+      {
+        "at": "L6",
+        "count": 26
       }
     ]
   },
   "evidence": {
     "l5": {
-      "id": 47,
-      "text": 170,
-      "form": 17
+      "id": 41,
+      "text": 167,
+      "form": 22
     },
     "l6": {
-      "form": 179,
-      "text": 27
+      "form": 175,
+      "text": 32
     },
-    "chapterTopicOnly": 290,
+    "chapterTopicOnly": 287,
     "l7": {
-      "gloss+etymology": 18,
-      "identity+gloss+etymology+derivation": 208,
+      "gloss+etymology": 19,
+      "identity+gloss+etymology+derivation": 207,
       "identity+etymology": 5,
       "identity+etymology+derivation": 1,
       "identity": 2
@@ -854,53 +927,19 @@
       "chapter": "3",
       "source": "G",
       "page": 299,
-      "morphemeId": "sx-ise",
       "levels": {
         "L1": true,
-        "L2": true,
-        "L3": true,
-        "L4": true,
-        "L5": true,
+        "L2": false,
+        "L3": false,
+        "L4": false,
+        "L5": false,
         "L6": false,
-        "L7": true
+        "L7": false
       },
-      "gap": "L6",
-      "reason": "讲到它的课时没有练习用到它",
-      "verifiedWords": [
-        "localise",
-        "modernise"
-      ],
-      "teaching": [
-        {
-          "kind": "id",
-          "lesson": "w04d3",
-          "card": "动词后缀只有四个常用"
-        },
-        {
-          "kind": "text",
-          "lesson": "w04d5",
-          "card": "后缀到词性的速查表",
-          "snippet": "ss, necessary, distant -ize/-ise, -ify, -en, -ate standardize, sim"
-        },
-        {
-          "kind": "text",
-          "lesson": "w04d7",
-          "card": "四类后缀的最终速查",
-          "snippet": "mic, hopeful, wireless -ize/-ise, -ify, -en, -ate standardize, sim"
-        },
-        {
-          "kind": "text",
-          "lesson": "w24d2",
-          "card": "-ize 不是“懒写法”",
-          "snippet": "-iser** 进入英语，16 世纪起英语就写作 -ize；-ise 是后来受法语拼写影响的形式。牛津系列词典至今优先 -ize。 ana"
-        },
-        {
-          "kind": "text",
-          "lesson": "w38d3",
-          "card": "四个伪构词，四处违规",
-          "snippet": "- localiseable 拼写连接规则错误 -ise 接 -able 时要先去掉 e：localis + able → lo"
-        }
-      ],
+      "gap": "L2",
+      "reason": "同形同源多条记录且释义不匹配（sx-ise / sx-ize）",
+      "verifiedWords": [],
+      "teaching": [],
       "practice": [],
       "chapterTopicOnly": false
     },
@@ -930,7 +969,8 @@
         "monogamy",
         "monolingual",
         "monolith",
-        "monologue"
+        "monopoly",
+        "monument"
       ],
       "teaching": [
         {
@@ -1178,7 +1218,7 @@
       ],
       "teaching": [
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w12d4",
           "card": "consistent：站得住、对得上"
         }
@@ -1248,18 +1288,24 @@
         "L2": true,
         "L3": true,
         "L4": true,
-        "L5": false,
+        "L5": true,
         "L6": true,
         "L7": false
       },
-      "gap": "L5",
-      "reason": "没有任何课时讲到它",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "amoral",
-        "asexual",
+        "annihilate",
         "atypical"
       ],
-      "teaching": [],
+      "teaching": [
+        {
+          "kind": "id",
+          "lesson": "w17d3",
+          "card": "希腊语的一条硬条件"
+        }
+      ],
       "practice": [
         {
           "kind": "text",
@@ -1267,7 +1313,7 @@
           "snippet": "answer: atypical"
         }
       ],
-      "chapterTopicOnly": true
+      "chapterTopicOnly": false
     },
     {
       "id": "el-a-l-g-9",
@@ -1289,7 +1335,7 @@
         "L7": false
       },
       "gap": "L2",
-      "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat）",
+      "reason": "同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）",
       "verifiedWords": [],
       "teaching": [],
       "practice": [],
@@ -1357,7 +1403,7 @@
         "L7": false
       },
       "gap": "L2",
-      "reason": "同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）",
+      "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）",
       "verifiedWords": [],
       "teaching": [],
       "practice": [],
@@ -1426,12 +1472,12 @@
       "gap": "L7",
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "accept",
+        "acceptable",
+        "access",
         "accuracy",
         "accurate",
-        "adapt",
-        "adhere",
-        "administer",
-        "advent"
+        "ad"
       ],
       "teaching": [
         {
@@ -1640,12 +1686,12 @@
       "gap": "L7",
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "accept",
+        "acceptable",
+        "access",
         "accuracy",
         "accurate",
-        "adapt",
-        "adhere",
-        "administer",
-        "advent"
+        "ad"
       ],
       "teaching": [
         {
@@ -1828,7 +1874,6 @@
       "verifiedWords": [
         "agency",
         "agenda",
-        "agility",
         "agitate",
         "navigate"
       ],
@@ -1898,7 +1943,7 @@
         "L7": false
       },
       "gap": "L2",
-      "reason": "同形同源多条记录且释义不匹配（sx-al / sx-ial）",
+      "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）",
       "verifiedWords": [],
       "teaching": [],
       "practice": [],
@@ -1914,152 +1959,20 @@
       "chapter": "10",
       "source": "L",
       "page": 266,
-      "morphemeId": "sx-al",
       "levels": {
         "L1": true,
-        "L2": true,
-        "L3": true,
-        "L4": true,
-        "L5": true,
-        "L6": true,
+        "L2": false,
+        "L3": false,
+        "L4": false,
+        "L5": false,
+        "L6": false,
         "L7": false
       },
-      "gap": "L7",
-      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
-      "verifiedWords": [
-        "abnormal",
-        "allocate",
-        "amoral",
-        "animal",
-        "antisocial",
-        "aural"
-      ],
-      "teaching": [
-        {
-          "kind": "id",
-          "lesson": "w01d4",
-          "card": "顺序：屈折永远在最外层"
-        },
-        {
-          "kind": "id",
-          "lesson": "w02d4",
-          "card": "一个词基，四种词性"
-        },
-        {
-          "kind": "id",
-          "lesson": "w04d2",
-          "card": "形容词后缀的两种语义"
-        },
-        {
-          "kind": "id",
-          "lesson": "w04d5",
-          "card": "四个“一词多性”的后缀"
-        },
-        {
-          "kind": "id",
-          "lesson": "w04d6",
-          "card": "派生是分层的，不是一次性拼合"
-        },
-        {
-          "kind": "id",
-          "lesson": "w11d5",
-          "card": "neural：从神经到网络"
-        },
-        {
-          "kind": "id",
-          "lesson": "w12d2",
-          "card": "为什么摘要里的名词这么长"
-        },
-        {
-          "kind": "form",
-          "lesson": "w12d4",
-          "card": "generalization：从“种类”到“泛化”"
-        },
-        {
-          "kind": "id",
-          "lesson": "w38d6",
-          "card": "三层是怎么叠起来的"
-        }
-      ],
-      "practice": [
-        {
-          "kind": "form",
-          "lesson": "w01d5"
-        },
-        {
-          "kind": "text",
-          "lesson": "w02d4",
-          "snippet": "answer: nationalize"
-        },
-        {
-          "kind": "text",
-          "lesson": "w03d2",
-          "snippet": "answer: international"
-        },
-        {
-          "kind": "form",
-          "lesson": "w04d2"
-        },
-        {
-          "kind": "form",
-          "lesson": "w04d5"
-        },
-        {
-          "kind": "form",
-          "lesson": "w06d2"
-        },
-        {
-          "kind": "form",
-          "lesson": "w11d3",
-          "snippet": "parts: loc + al + ize + ation"
-        },
-        {
-          "kind": "text",
-          "lesson": "w11d7",
-          "snippet": "answer: localization"
-        },
-        {
-          "kind": "form",
-          "lesson": "w12d5",
-          "snippet": "parts: nomin + al + ize + ation"
-        },
-        {
-          "kind": "text",
-          "lesson": "w16d2",
-          "snippet": "answer: nationality"
-        },
-        {
-          "kind": "text",
-          "lesson": "w16d3",
-          "snippet": "answer: loyal"
-        },
-        {
-          "kind": "form",
-          "lesson": "w31d3",
-          "snippet": "parts: frat + ern + al"
-        },
-        {
-          "kind": "form",
-          "lesson": "w38d3"
-        },
-        {
-          "kind": "form",
-          "lesson": "w38d6"
-        },
-        {
-          "kind": "form",
-          "lesson": "w38d7",
-          "snippet": "parts: tempor + al"
-        },
-        {
-          "kind": "form",
-          "lesson": "w39d4"
-        },
-        {
-          "kind": "form",
-          "lesson": "w39d5"
-        }
-      ],
+      "gap": "L2",
+      "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）",
+      "verifiedWords": [],
+      "teaching": [],
+      "practice": [],
       "chapterTopicOnly": false
     },
     {
@@ -2072,152 +1985,20 @@
       "chapter": "11",
       "source": "L",
       "page": 266,
-      "morphemeId": "sx-al",
       "levels": {
         "L1": true,
-        "L2": true,
-        "L3": true,
-        "L4": true,
-        "L5": true,
-        "L6": true,
+        "L2": false,
+        "L3": false,
+        "L4": false,
+        "L5": false,
+        "L6": false,
         "L7": false
       },
-      "gap": "L7",
-      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
-      "verifiedWords": [
-        "abnormal",
-        "allocate",
-        "amoral",
-        "animal",
-        "antisocial",
-        "aural"
-      ],
-      "teaching": [
-        {
-          "kind": "id",
-          "lesson": "w01d4",
-          "card": "顺序：屈折永远在最外层"
-        },
-        {
-          "kind": "id",
-          "lesson": "w02d4",
-          "card": "一个词基，四种词性"
-        },
-        {
-          "kind": "id",
-          "lesson": "w04d2",
-          "card": "形容词后缀的两种语义"
-        },
-        {
-          "kind": "id",
-          "lesson": "w04d5",
-          "card": "四个“一词多性”的后缀"
-        },
-        {
-          "kind": "id",
-          "lesson": "w04d6",
-          "card": "派生是分层的，不是一次性拼合"
-        },
-        {
-          "kind": "id",
-          "lesson": "w11d5",
-          "card": "neural：从神经到网络"
-        },
-        {
-          "kind": "id",
-          "lesson": "w12d2",
-          "card": "为什么摘要里的名词这么长"
-        },
-        {
-          "kind": "form",
-          "lesson": "w12d4",
-          "card": "generalization：从“种类”到“泛化”"
-        },
-        {
-          "kind": "id",
-          "lesson": "w38d6",
-          "card": "三层是怎么叠起来的"
-        }
-      ],
-      "practice": [
-        {
-          "kind": "form",
-          "lesson": "w01d5"
-        },
-        {
-          "kind": "text",
-          "lesson": "w02d4",
-          "snippet": "answer: nationalize"
-        },
-        {
-          "kind": "text",
-          "lesson": "w03d2",
-          "snippet": "answer: international"
-        },
-        {
-          "kind": "form",
-          "lesson": "w04d2"
-        },
-        {
-          "kind": "form",
-          "lesson": "w04d5"
-        },
-        {
-          "kind": "form",
-          "lesson": "w06d2"
-        },
-        {
-          "kind": "form",
-          "lesson": "w11d3",
-          "snippet": "parts: loc + al + ize + ation"
-        },
-        {
-          "kind": "text",
-          "lesson": "w11d7",
-          "snippet": "answer: localization"
-        },
-        {
-          "kind": "form",
-          "lesson": "w12d5",
-          "snippet": "parts: nomin + al + ize + ation"
-        },
-        {
-          "kind": "text",
-          "lesson": "w16d2",
-          "snippet": "answer: nationality"
-        },
-        {
-          "kind": "text",
-          "lesson": "w16d3",
-          "snippet": "answer: loyal"
-        },
-        {
-          "kind": "form",
-          "lesson": "w31d3",
-          "snippet": "parts: frat + ern + al"
-        },
-        {
-          "kind": "form",
-          "lesson": "w38d3"
-        },
-        {
-          "kind": "form",
-          "lesson": "w38d6"
-        },
-        {
-          "kind": "form",
-          "lesson": "w38d7",
-          "snippet": "parts: tempor + al"
-        },
-        {
-          "kind": "form",
-          "lesson": "w39d4"
-        },
-        {
-          "kind": "form",
-          "lesson": "w39d5"
-        }
-      ],
+      "gap": "L2",
+      "reason": "同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）",
+      "verifiedWords": [],
+      "teaching": [],
+      "practice": [],
       "chapterTopicOnly": false
     },
     {
@@ -2237,16 +2018,44 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
-        "L6": false,
+        "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
+      "verifiedWords": [
+        "formalism",
+        "formalist",
+        "formality",
+        "formalize",
+        "formally",
+        "informality"
+      ],
       "teaching": [],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "text",
+          "lesson": "w02d4",
+          "snippet": "answer: nationalize"
+        },
+        {
+          "kind": "text",
+          "lesson": "w11d3",
+          "snippet": "answer: localization"
+        },
+        {
+          "kind": "text",
+          "lesson": "w11d7",
+          "snippet": "answer: localization"
+        },
+        {
+          "kind": "text",
+          "lesson": "w16d2",
+          "snippet": "answer: nationality"
+        }
+      ],
       "chapterTopicOnly": true
     },
     {
@@ -2433,18 +2242,24 @@
         "L2": true,
         "L3": true,
         "L4": true,
-        "L5": false,
+        "L5": true,
         "L6": true,
         "L7": false
       },
-      "gap": "L5",
-      "reason": "没有任何课时讲到它",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "amoral",
-        "asexual",
+        "annihilate",
         "atypical"
       ],
-      "teaching": [],
+      "teaching": [
+        {
+          "kind": "id",
+          "lesson": "w17d3",
+          "card": "希腊语的一条硬条件"
+        }
+      ],
       "practice": [
         {
           "kind": "text",
@@ -2452,7 +2267,7 @@
           "snippet": "answer: atypical"
         }
       ],
-      "chapterTopicOnly": true
+      "chapterTopicOnly": false
     },
     {
       "id": "el-ana-g-3-6",
@@ -2478,6 +2293,7 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "analyses",
+        "analysis",
         "analytic"
       ],
       "teaching": [
@@ -2573,7 +2389,7 @@
           "snippet": "美国科技与媒体 英语 → 各国 le week-end（法语）、コンピューター（日语）"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w38d4",
           "card": "一个必须点明的同形陷阱：legend"
         },
@@ -2715,11 +2531,11 @@
         "L3": true,
         "L4": true,
         "L5": true,
-        "L6": true,
+        "L6": false,
         "L7": false
       },
-      "gap": "L7",
-      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
+      "gap": "L6",
+      "reason": "讲到它的课时没有练习用到它",
       "verifiedWords": [
         "applicant",
         "expectant",
@@ -2734,11 +2550,6 @@
           "lesson": "w04d5",
           "card": "后缀到词性的速查表",
           "snippet": "-al, -ic, -ful, -less, -ary, -ant/-ent readable, active, dangerous,"
-        },
-        {
-          "kind": "form",
-          "lesson": "w05d2",
-          "card": "import 为什么既“进口”又“重要”"
         },
         {
           "kind": "text",
@@ -2807,21 +2618,7 @@
           "snippet": "出词性：-ent 与 -al 是形容词，-ance 是名词，-ant 是名词（人）。词性一确定，你在句子里要找的东西就确定了。 句中可能"
         }
       ],
-      "practice": [
-        {
-          "kind": "form",
-          "lesson": "w04d5"
-        },
-        {
-          "kind": "form",
-          "lesson": "w19d4",
-          "snippet": "parts: ant + onym"
-        },
-        {
-          "kind": "form",
-          "lesson": "w39d7"
-        }
-      ],
+      "practice": [],
       "chapterTopicOnly": false
     },
     {
@@ -3188,8 +2985,8 @@
         "apiary",
         "binary",
         "contemporary",
-        "library",
-        "literary"
+        "dictionary",
+        "library"
       ],
       "teaching": [
         {
@@ -3268,15 +3065,16 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
         "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
       "verifiedWords": [
-        "asteroid"
+        "asteroid",
+        "disaster"
       ],
       "teaching": [],
       "practice": [
@@ -3311,11 +3109,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "accurate",
+        "activate",
+        "actuate",
         "agitate",
         "allocate",
-        "animate",
-        "annihilate",
-        "attenuate"
+        "animate"
       ],
       "teaching": [
         {
@@ -3536,7 +3334,9 @@
       "verifiedWords": [
         "autobiography",
         "autocracy",
-        "autocrat"
+        "autocrat",
+        "autonomous",
+        "autonomy"
       ],
       "teaching": [
         {
@@ -3718,15 +3518,14 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": true,
+        "L4": false,
         "L5": false,
         "L6": true,
         "L7": false
       },
-      "gap": "L5",
-      "reason": "没有任何课时讲到它",
+      "gap": "L4",
+      "reason": "verified 词条只有 1 个（需要 2 个）",
       "verifiedWords": [
-        "benefit",
         "bonus"
       ],
       "teaching": [],
@@ -3754,14 +3553,17 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
         "L6": false,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
+      "verifiedWords": [
+        "bicycle",
+        "bilingual"
+      ],
       "teaching": [],
       "practice": [],
       "chapterTopicOnly": true
@@ -3896,7 +3698,7 @@
         "L7": false
       },
       "gap": "L2",
-      "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-ible）",
+      "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）",
       "verifiedWords": [],
       "teaching": [],
       "practice": [],
@@ -3955,15 +3757,14 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": true,
+        "L4": false,
         "L5": false,
         "L6": true,
         "L7": false
       },
-      "gap": "L5",
-      "reason": "没有任何课时讲到它",
+      "gap": "L4",
+      "reason": "verified 词条只有 1 个（需要 2 个）",
       "verifiedWords": [
-        "benefit",
         "bonus"
       ],
       "teaching": [],
@@ -4157,9 +3958,17 @@
       ],
       "practice": [
         {
+          "kind": "form",
+          "lesson": "w16d3"
+        },
+        {
           "kind": "text",
           "lesson": "w26d3",
           "snippet": "answer: case"
+        },
+        {
+          "kind": "form",
+          "lesson": "w38d5"
         }
       ],
       "chapterTopicOnly": false
@@ -4182,15 +3991,18 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "done",
+      "reason": "",
       "verifiedWords": [
-        "capability"
+        "capability",
+        "capable",
+        "capacity",
+        "except"
       ],
       "teaching": [
         {
@@ -4375,9 +4187,17 @@
       ],
       "practice": [
         {
+          "kind": "form",
+          "lesson": "w16d3"
+        },
+        {
           "kind": "text",
           "lesson": "w26d3",
           "snippet": "answer: case"
+        },
+        {
+          "kind": "form",
+          "lesson": "w38d5"
         }
       ],
       "chapterTopicOnly": false
@@ -4488,6 +4308,7 @@
       "gap": "L5",
       "reason": "没有任何课时讲到它",
       "verifiedWords": [
+        "access",
         "antecedent",
         "secede"
       ],
@@ -4611,15 +4432,18 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "done",
+      "reason": "",
       "verifiedWords": [
-        "capability"
+        "capability",
+        "capable",
+        "capacity",
+        "except"
       ],
       "teaching": [
         {
@@ -4940,9 +4764,17 @@
       ],
       "practice": [
         {
+          "kind": "form",
+          "lesson": "w16d3"
+        },
+        {
           "kind": "text",
           "lesson": "w26d3",
           "snippet": "answer: case"
+        },
+        {
+          "kind": "form",
+          "lesson": "w38d5"
         }
       ],
       "chapterTopicOnly": false
@@ -5030,15 +4862,18 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "done",
+      "reason": "",
       "verifiedWords": [
-        "capability"
+        "capability",
+        "capable",
+        "capacity",
+        "except"
       ],
       "teaching": [
         {
@@ -5309,9 +5144,10 @@
       "verifiedWords": [
         "conclude",
         "conclusion",
+        "exclude",
         "include",
         "occlude",
-        "seclude"
+        "occluded"
       ],
       "teaching": [
         {
@@ -5386,9 +5222,9 @@
         "coherent",
         "collate",
         "combine",
+        "commit",
         "commitment",
-        "committee",
-        "communicate"
+        "committee"
       ],
       "teaching": [
         {
@@ -5525,14 +5361,17 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": false,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "gap": "L6",
+      "reason": "讲到它的课时没有练习用到它",
+      "verifiedWords": [
+        "contradict",
+        "contradiction"
+      ],
       "teaching": [
         {
           "kind": "text",
@@ -5718,14 +5557,17 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": false,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "gap": "L6",
+      "reason": "讲到它的课时没有练习用到它",
+      "verifiedWords": [
+        "contradict",
+        "contradiction"
+      ],
       "teaching": [
         {
           "kind": "text",
@@ -5882,7 +5724,8 @@
       "verifiedWords": [
         "credence",
         "credential",
-        "credo"
+        "credible",
+        "incredible"
       ],
       "teaching": [],
       "practice": [
@@ -6165,15 +6008,18 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "done",
+      "reason": "",
       "verifiedWords": [
-        "capability"
+        "capability",
+        "capable",
+        "capacity",
+        "except"
       ],
       "teaching": [
         {
@@ -6246,11 +6092,11 @@
         "L3": true,
         "L4": true,
         "L5": true,
-        "L6": false,
+        "L6": true,
         "L7": false
       },
-      "gap": "L6",
-      "reason": "讲到它的课时没有练习用到它",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "accuracy",
         "accurate",
@@ -6265,9 +6111,32 @@
           "lesson": "w02d3",
           "card": "规则三：辅音双写",
           "snippet": "cur + ence occurrence 重音在 -cur，双写 r visit + ed visited 重音在第一"
+        },
+        {
+          "kind": "id",
+          "lesson": "w38d1",
+          "card": "材料：五个词，一个不查词典的任务"
+        },
+        {
+          "kind": "id",
+          "lesson": "w38d5",
+          "card": "学习笔记怎么写才不丢信息"
         }
       ],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "form",
+          "lesson": "w38d1"
+        },
+        {
+          "kind": "form",
+          "lesson": "w38d4"
+        },
+        {
+          "kind": "form",
+          "lesson": "w38d5"
+        }
+      ],
       "chapterTopicOnly": false
     },
     {
@@ -6544,16 +6413,16 @@
       "gap": "L7",
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
-        "agility",
+        "activity",
         "capability",
         "community",
-        "compatibility",
         "complexity",
-        "conformity"
+        "conformity",
+        "creativity"
       ],
       "teaching": [
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w02d4",
           "card": "一个词基，四种词性"
         },
@@ -6569,7 +6438,7 @@
           "snippet": "**，得到一个候选集合：-tion、-ment、-ness、-ity、-ism、-ist、-ance、-ship 多半是名词；-able、-"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w04d6",
           "card": "派生是分层的，不是一次性拼合"
         },
@@ -6753,123 +6622,19 @@
       "chapter": "3,4,6",
       "source": "L",
       "page": 274,
-      "morphemeId": "cx-tive-ive",
       "levels": {
         "L1": true,
-        "L2": true,
-        "L3": true,
+        "L2": false,
+        "L3": false,
         "L4": false,
-        "L5": true,
+        "L5": false,
         "L6": false,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
+      "gap": "L2",
+      "reason": "同形同源多条记录且释义不匹配（cx-tive-ive / sx-ative）",
       "verifiedWords": [],
-      "teaching": [
-        {
-          "kind": "text",
-          "lesson": "w02d2",
-          "card": "换一个词基：struct",
-          "snippet": "建造（过程）”。同一个词基，不同后缀带来不同的抽象层次；而 -ive 只接在带前缀的形式后，单独 struct + ive 并不成立。"
-        },
-        {
-          "kind": "text",
-          "lesson": "w02d4",
-          "card": "同族与同源：native 算不算 nation 的家人",
-          "snippet": "。但在现代英语里，native 无法切成 nation + ive——没有哪个成分承载“国家”这一核心义。这类词属于“词源同源、形态不同族”"
-        },
-        {
-          "kind": "text",
-          "lesson": "w04d1",
-          "card": "-ness 与 -ity：两条名词化路径",
-          "snippet": "xity 常与日常形容词搭配 常与 -able / -ive / -ous 形容词搭配"
-        },
-        {
-          "kind": "text",
-          "lesson": "w04d2",
-          "card": "形容词后缀的两种语义",
-          "snippet": "们的共同点是“可以被动词所作用”。 表关联或性质的是 **-ive / -ous / -al / -ic**：active（倾向于行动的）"
-        },
-        {
-          "kind": "text",
-          "lesson": "w04d5",
-          "card": "两步法：先看词尾，再看位置",
-          "snippet": "、-ist、-ance、-ship 多半是名词；-able、-ive、-ous、-al、-ic、-ful、-less 多半是形容词；-ize"
-        },
-        {
-          "kind": "text",
-          "lesson": "w04d7",
-          "card": "四类后缀的最终速查",
-          "snippet": "ism, scientist -able/-ible, -ive, -ous, -al, -ic, -ful, -less read"
-        },
-        {
-          "kind": "text",
-          "lesson": "w05d4",
-          "card": "spect 的构词矩阵",
-          "snippet": "阵的读法是“方向 + 看 + 词性”。注意 -ator 与 -ive 的分工：spectator 是“看的人”，perspective 是“"
-        },
-        {
-          "kind": "text",
-          "lesson": "w11d6",
-          "card": "四步法：把猜测变成假设",
-          "snippet": "语整体）。 2. **定词性**：看后缀与句法位置。-ed/-ive/-ous 多是形容词，-tion/-ence 是名词，-ize 是动词"
-        },
-        {
-          "kind": "text",
-          "lesson": "w12d2",
-          "card": "为什么摘要里的名词这么长",
-          "snippet": "词直接修饰名词，最后一个才是中心词。 - 形容词化：-al、-ive、-ed 把整段关系压进一个词，如 translational drif"
-        },
-        {
-          "kind": "text",
-          "lesson": "w12d6",
-          "card": "示范解析：一对可以互相定义的词",
-          "snippet": "分：**cept**（拉丁 capere“抓取、接受”）+ -ive（形容词后缀）——“感知……的”。 - 区别在前半：**proprio-"
-        },
-        {
-          "kind": "text",
-          "lesson": "w14d1",
-          "card": "-sis 与 -tio：过程 vs 动作事件",
-          "snippet": "-tic：analytic、static 多作 -al／-ive：electoral、active 医学、生物、系统描述 法律、"
-        },
-        {
-          "kind": "text",
-          "lesson": "w14d2",
-          "card": "七个形容词后缀与它们的英语形式",
-          "snippet": "里常作 -al，-osus 作 -ous，-tivus 作 -ive。看到英语词尾，要能反推拉丁后缀，而不是把 -al 当成一个独立的英语后"
-        },
-        {
-          "kind": "text",
-          "lesson": "w14d3",
-          "card": "那个不发音的 e 在做什么",
-          "snippet": "tive 的 e 也来自拉丁 -ivus → 法语 -if／-ive，同样不发音但作用不同（它标记的是 -ive 这个后缀整体）。 结论："
-        },
-        {
-          "kind": "text",
-          "lesson": "w21d2",
-          "card": "五个词，一条读音规则",
-          "snippet": "tivate [ˈæktɪveɪt] act（做）＋-ive＋-ate decapitate [dɪˈkæpɪteɪt]"
-        },
-        {
-          "kind": "text",
-          "lesson": "w38d2",
-          "card": "四个长词，四种陷阱",
-          "snippet": "nter 是“反对”的完整前缀；product 是现成词基；-ive 构成形容词"
-        },
-        {
-          "kind": "text",
-          "lesson": "w39d5",
-          "card": "九个词的成分表",
-          "snippet": "状态／集合 native nat + ive -ive 形容词 本地的；天生的 octopus octo + pu"
-        },
-        {
-          "kind": "text",
-          "lesson": "w39d7",
-          "card": "四步法在抽象名词上的调整",
-          "snippet": "nce、-ity、-ment 多半是名词，-ent、-al、-ive、-ous 多半是形容词。词性定错，后面全错：把 innocence 当"
-        }
-      ],
+      "teaching": [],
       "practice": [],
       "chapterTopicOnly": false
     },
@@ -6898,8 +6663,8 @@
       "verifiedWords": [
         "acropolis",
         "analyses",
-        "carbonize",
-        "fertilize",
+        "analysis",
+        "civilization",
         "fertilizer",
         "formalize"
       ],
@@ -6911,7 +6676,7 @@
           "snippet": "d、-ing、-er（比较级） -ness、-tion、-ize、-able、un-"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w02d4",
           "card": "一个词基，四种词性"
         },
@@ -6933,7 +6698,7 @@
           "snippet": "ous、-al、-ic、-ful、-less 多半是形容词；-ize、-ify、-en、-ate 可能是动词；-ly、-ward、-wise"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w04d6",
           "card": "派生是分层的，不是一次性拼合"
         },
@@ -6950,7 +6715,7 @@
           "snippet": "，edit 是删出来的 派生：modern 先出现，加 -ize 造新词 NASA / CPU acronym：/ˈnæsə/"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w11d3",
           "card": "SLAM：四个词，四层构词"
         },
@@ -7255,8 +7020,10 @@
         "L7": false
       },
       "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "verifiedWords": [
+        "lab"
+      ],
       "teaching": [],
       "practice": [],
       "chapterTopicOnly": true
@@ -7431,7 +7198,7 @@
       "chapter": "10",
       "source": "L",
       "page": 274,
-      "morphemeId": "rx-lat",
+      "morphemeId": "rx-fer",
       "levels": {
         "L1": true,
         "L2": true,
@@ -7439,20 +7206,28 @@
         "L4": true,
         "L5": true,
         "L6": true,
-        "L7": false
+        "L7": true
       },
-      "gap": "L7",
-      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
+      "gap": "done",
+      "reason": "",
       "verifiedWords": [
-        "collate",
-        "relate"
+        "aquifer",
+        "carboniferous",
+        "circumference",
+        "confer",
+        "conference",
+        "conifer"
       ],
       "teaching": [
         {
-          "kind": "text",
+          "kind": "id",
           "lesson": "w05d5",
-          "card": "ferre：一个动词，两套词干",
-          "snippet": "*fer-**，完成时是 **tul-**，分词词干是 **lat-**。英语把两套都借来了，于是出现了一个容易误判的现象： - tran"
+          "card": "ferre：一个动词，两套词干"
+        },
+        {
+          "kind": "id",
+          "lesson": "w05d6",
+          "card": "transmit 与 transfer：都是“转”，转的东西不同"
         },
         {
           "kind": "text",
@@ -7461,26 +7236,49 @@
           "snippet": "r, refer, offer translate 的 lat- 也是它 mit / miss submit, transmit"
         },
         {
-          "kind": "id",
-          "lesson": "w12d2",
-          "card": "为什么摘要里的名词这么长"
+          "kind": "text",
+          "lesson": "w08d5",
+          "card": "重音条件：preferred 与 visited",
+          "snippet": "d 与 visited **prefer** 的重音在 -fer /prɪˈfɜː/，末音节重读，所以双写：preferred、pref"
+        },
+        {
+          "kind": "text",
+          "lesson": "w20d4",
+          "card": "邻接辅音会改动元音的音色",
+          "snippet": "：看到 -sult-、-cult- 就想到“跳、耕”，看到 -fer-、-sert- 就想到“带、连”。"
+        },
+        {
+          "kind": "text",
+          "lesson": "w30d3",
+          "card": "五组对照：拉丁与英语的两副面孔",
+          "snippet": "四列是英语本土形态。这张表可以直接当“词族连接器”用：看到 fer-／bear、fac-／do、for-／door，就知道是同一根的两条路—"
         }
       ],
       "practice": [
         {
           "kind": "form",
-          "lesson": "w12d2",
-          "snippet": "parts: trans + lat + ion"
+          "lesson": "w05d5"
         },
         {
           "kind": "form",
-          "lesson": "w26d5",
-          "snippet": "parts: legis + late"
+          "lesson": "w11d5"
         },
         {
           "kind": "form",
-          "lesson": "w31d1",
-          "snippet": "parts: trans + lat + e"
+          "lesson": "w12d2"
+        },
+        {
+          "kind": "form",
+          "lesson": "w23d2",
+          "snippet": "parts: ef + fer + ent"
+        },
+        {
+          "kind": "form",
+          "lesson": "w31d1"
+        },
+        {
+          "kind": "form",
+          "lesson": "w31d2"
         }
       ],
       "chapterTopicOnly": false
@@ -7502,11 +7300,11 @@
         "L3": true,
         "L4": true,
         "L5": true,
-        "L6": true,
+        "L6": false,
         "L7": true
       },
-      "gap": "done",
-      "reason": "",
+      "gap": "L6",
+      "reason": "讲到它的课时没有练习用到它",
       "verifiedWords": [
         "legal",
         "legend"
@@ -7523,19 +7321,9 @@
           "lesson": "w24d5",
           "card": "ligare：把两样东西绑在一起",
           "snippet": "一起 一个“绑”字，撑起一整族词。这条链值得记住，因为 -lig- 在现代英语里几乎不单独出现，却反复出现在法律、医学、解剖术语里：你在"
-        },
-        {
-          "kind": "id",
-          "lesson": "w38d4",
-          "card": "一个必须点明的同形陷阱：legend"
         }
       ],
-      "practice": [
-        {
-          "kind": "form",
-          "lesson": "w38d4"
-        }
-      ],
+      "practice": [],
       "chapterTopicOnly": false
     },
     {
@@ -7589,20 +7377,36 @@
       "chapter": "5",
       "source": "L",
       "page": 274,
+      "morphemeId": "rx-lect",
       "levels": {
         "L1": true,
-        "L2": false,
-        "L3": false,
+        "L2": true,
+        "L3": true,
         "L4": false,
-        "L5": false,
-        "L6": false,
+        "L5": true,
+        "L6": true,
         "L7": false
       },
-      "gap": "L2",
-      "reason": "同形同源多条记录且释义不匹配（cx-leg / cx-lig）",
-      "verifiedWords": [],
-      "teaching": [],
-      "practice": [],
+      "gap": "L4",
+      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "verifiedWords": [
+        "election"
+      ],
+      "teaching": [
+        {
+          "kind": "text",
+          "lesson": "w19d2",
+          "card": "一条规则，五组交替",
+          "snippet": "n、active、exact legere 读、选 lect-（g→c） legend / collect、select、ele"
+        }
+      ],
+      "practice": [
+        {
+          "kind": "text",
+          "lesson": "w13d7",
+          "snippet": "answer: election"
+        }
+      ],
       "chapterTopicOnly": false
     },
     {
@@ -7718,11 +7522,11 @@
         "L3": true,
         "L4": true,
         "L5": true,
-        "L6": true,
+        "L6": false,
         "L7": false
       },
-      "gap": "L7",
-      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
+      "gap": "L6",
+      "reason": "讲到它的课时没有练习用到它",
       "verifiedWords": [
         "ligature",
         "religion"
@@ -7735,13 +7539,7 @@
           "snippet": "一起 一个“绑”字，撑起一整族词。这条链值得记住，因为 -lig- 在现代英语里几乎不单独出现，却反复出现在法律、医学、解剖术语里：你在"
         }
       ],
-      "practice": [
-        {
-          "kind": "form",
-          "lesson": "w24d5",
-          "snippet": "parts: lig + ament"
-        }
-      ],
+      "practice": [],
       "chapterTopicOnly": false
     },
     {
@@ -7755,20 +7553,36 @@
       "chapter": "5",
       "source": "L",
       "page": 274,
+      "morphemeId": "rx-lect",
       "levels": {
         "L1": true,
-        "L2": false,
-        "L3": false,
+        "L2": true,
+        "L3": true,
         "L4": false,
-        "L5": false,
-        "L6": false,
+        "L5": true,
+        "L6": true,
         "L7": false
       },
-      "gap": "L2",
-      "reason": "同形同源多条记录且释义不匹配（cx-lig / cx-leg）",
-      "verifiedWords": [],
-      "teaching": [],
-      "practice": [],
+      "gap": "L4",
+      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "verifiedWords": [
+        "election"
+      ],
+      "teaching": [
+        {
+          "kind": "text",
+          "lesson": "w19d2",
+          "card": "一条规则，五组交替",
+          "snippet": "n、active、exact legere 读、选 lect-（g→c） legend / collect、select、ele"
+        }
+      ],
+      "practice": [
+        {
+          "kind": "text",
+          "lesson": "w13d7",
+          "snippet": "answer: election"
+        }
+      ],
       "chapterTopicOnly": false
     },
     {
@@ -7918,8 +7732,9 @@
       ],
       "practice": [
         {
-          "kind": "form",
-          "lesson": "w18d5"
+          "kind": "text",
+          "lesson": "w18d5",
+          "snippet": "answer: monolith"
         }
       ],
       "chapterTopicOnly": false
@@ -7948,13 +7763,15 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "allocate",
+        "local",
         "localise",
+        "localization",
         "localize",
-        "locomotive"
+        "locate"
       ],
       "teaching": [
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w11d3",
           "card": "SLAM：四个词，四层构词"
         }
@@ -8362,15 +8179,20 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
-        "L6": false,
+        "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
-        "cameraman"
+        "cameraman",
+        "manual",
+        "manually",
+        "manufacture",
+        "manufacturer",
+        "manuscript"
       ],
       "teaching": [
         {
@@ -8380,12 +8202,17 @@
           "snippet": "ription 既是“描述”这个行为，也指“一段描述文字”。manu- 来自拉丁 manus“手”，是这一族里唯一保留手工痕迹的成分。"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w38d6",
           "card": "三层是怎么叠起来的"
         }
       ],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "form",
+          "lesson": "w38d6"
+        }
+      ],
       "chapterTopicOnly": false
     },
     {
@@ -8639,105 +8466,20 @@
       "chapter": "10",
       "source": "G",
       "page": 275,
-      "morphemeId": "cx-metr",
       "levels": {
         "L1": true,
-        "L2": true,
-        "L3": true,
-        "L4": true,
-        "L5": true,
-        "L6": true,
+        "L2": false,
+        "L3": false,
+        "L4": false,
+        "L5": false,
+        "L6": false,
         "L7": false
       },
-      "gap": "L7",
-      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
-      "verifiedWords": [
-        "hexameter",
-        "isometric",
-        "kilometer",
-        "metric",
-        "millimeter",
-        "photogrammetry"
-      ],
-      "teaching": [
-        {
-          "kind": "id",
-          "lesson": "w06d1",
-          "card": "实操：三步切开一个希腊长词"
-        },
-        {
-          "kind": "id",
-          "lesson": "w06d2",
-          "card": "geo 与 therm：一个词里可以装两三个零件"
-        },
-        {
-          "kind": "id",
-          "lesson": "w06d3",
-          "card": "metron 是“测量”，metry 是“测量术”"
-        },
-        {
-          "kind": "text",
-          "lesson": "w06d5",
-          "card": "四个尺度与位置成分",
-          "snippet": "成分；这也解释了为什么它们总出现在词的左边，而 -logy、-metry 总在右边。 micro- mikros 小 micro"
-        },
-        {
-          "kind": "text",
-          "lesson": "w06d7",
-          "card": "本周解码表",
-          "snippet": "telegram, diagram, program metr- / -meter geometry, thermometer,"
-        },
-        {
-          "kind": "text",
-          "lesson": "w09d4",
-          "card": "希腊学术词的三个识别信号",
-          "snippet": "mata / -a -logy / -graphy / -metry biology, geography, geometry"
-        },
-        {
-          "kind": "id",
-          "lesson": "w11d6",
-          "card": "案例二：odometry（里程计）"
-        },
-        {
-          "kind": "id",
-          "lesson": "w12d1",
-          "card": "复合词的中心词在右边，规则不一样"
-        },
-        {
-          "kind": "text",
-          "lesson": "w26d6",
-          "card": "希腊拉丁词素的组装线",
-          "snippet": "-（不足）、-ectomy（切除）、-graphy（记录）、-metry（测量）。 它们的能产性来自**可组合性**：ot-o-laryn"
-        },
-        {
-          "kind": "text",
-          "lesson": "w29d4",
-          "card": "元音：希腊改，拉丁守",
-          "snippet": "与 u。这一对照是认学术词的实用工具：看到 -meter／-metr- 与 māter 一族，就知道它们是同一个“母”的两种走法。 ē"
-        }
-      ],
-      "practice": [
-        {
-          "kind": "form",
-          "lesson": "w06d2"
-        },
-        {
-          "kind": "form",
-          "lesson": "w06d3"
-        },
-        {
-          "kind": "form",
-          "lesson": "w06d6"
-        },
-        {
-          "kind": "form",
-          "lesson": "w06d7"
-        },
-        {
-          "kind": "form",
-          "lesson": "w11d6"
-        }
-      ],
+      "gap": "L2",
+      "reason": "同形同源多条记录且释义不匹配（cx-meter / cx-metr）",
+      "verifiedWords": [],
+      "teaching": [],
+      "practice": [],
       "chapterTopicOnly": false
     },
     {
@@ -8915,29 +8657,21 @@
       "chapter": "3,4",
       "source": "L",
       "page": 275,
-      "morphemeId": "rx-mitt",
       "levels": {
         "L1": true,
-        "L2": true,
-        "L3": true,
+        "L2": false,
+        "L3": false,
         "L4": false,
         "L5": false,
-        "L6": true,
+        "L6": false,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
-      "verifiedWords": [
-        "intermittent"
-      ],
+      "gap": "L2",
+      "reason": "同形同源多条记录，释义仍无法区分（rx-mitt / rx-mit）",
+      "verifiedWords": [],
       "teaching": [],
-      "practice": [
-        {
-          "kind": "form",
-          "lesson": "w03d7"
-        }
-      ],
-      "chapterTopicOnly": true
+      "practice": [],
+      "chapterTopicOnly": false
     },
     {
       "id": "el-mne-g-4",
@@ -9028,7 +8762,8 @@
         "monogamy",
         "monolingual",
         "monolith",
-        "monologue"
+        "monopoly",
+        "monument"
       ],
       "teaching": [
         {
@@ -9589,15 +9324,14 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": true,
+        "L4": false,
         "L5": false,
         "L6": false,
         "L7": true
       },
-      "gap": "L5",
-      "reason": "没有任何课时讲到它",
+      "gap": "L4",
+      "reason": "verified 词条只有 1 个（需要 2 个）",
       "verifiedWords": [
-        "navigate",
         "navy"
       ],
       "teaching": [],
@@ -9959,9 +9693,11 @@
       "reason": "",
       "verifiedWords": [
         "agronomy",
+        "astronomy",
+        "autonomous",
+        "autonomy",
         "economic",
-        "gastronomy",
-        "macroeconomics"
+        "economy"
       ],
       "teaching": [
         {
@@ -10019,7 +9755,8 @@
       "verifiedWords": [
         "denominator",
         "nominal",
-        "nominate"
+        "nominate",
+        "nomination"
       ],
       "teaching": [
         {
@@ -10091,8 +9828,10 @@
       "gap": "L7",
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "nondeterministic",
         "nonfiction",
-        "nonlinear"
+        "nonlinear",
+        "nonsense"
       ],
       "teaching": [
         {
@@ -10447,12 +10186,12 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
+        "object",
+        "objection",
+        "objective",
         "objectivity",
         "obnoxious",
-        "observe",
-        "obsolescent",
-        "obstacle",
-        "obstructive"
+        "observe"
       ],
       "teaching": [
         {
@@ -10584,6 +10323,7 @@
       "gap": "L7",
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "octopi",
         "octopodes",
         "octopus",
         "octopuses"
@@ -10717,8 +10457,8 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "enable",
-        "energy",
-        "enslave"
+        "endanger",
+        "energy"
       ],
       "teaching": [
         {
@@ -10761,16 +10501,44 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
-        "L6": false,
+        "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
+      "verifiedWords": [
+        "formalism",
+        "formalist",
+        "formality",
+        "formalize",
+        "formally",
+        "informality"
+      ],
       "teaching": [],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "text",
+          "lesson": "w02d4",
+          "snippet": "answer: nationalize"
+        },
+        {
+          "kind": "text",
+          "lesson": "w11d3",
+          "snippet": "answer: localization"
+        },
+        {
+          "kind": "text",
+          "lesson": "w11d7",
+          "snippet": "answer: localization"
+        },
+        {
+          "kind": "text",
+          "lesson": "w16d2",
+          "snippet": "answer: nationality"
+        }
+      ],
       "chapterTopicOnly": true
     },
     {
@@ -10788,16 +10556,44 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
-        "L6": false,
+        "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
+      "verifiedWords": [
+        "formalism",
+        "formalist",
+        "formality",
+        "formalize",
+        "formally",
+        "informality"
+      ],
       "teaching": [],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "text",
+          "lesson": "w02d4",
+          "snippet": "answer: nationalize"
+        },
+        {
+          "kind": "text",
+          "lesson": "w11d3",
+          "snippet": "answer: localization"
+        },
+        {
+          "kind": "text",
+          "lesson": "w11d7",
+          "snippet": "answer: localization"
+        },
+        {
+          "kind": "text",
+          "lesson": "w16d2",
+          "snippet": "answer: nationality"
+        }
+      ],
       "chapterTopicOnly": true
     },
     {
@@ -10912,6 +10708,7 @@
       "verifiedWords": [
         "cyclone",
         "lexicon",
+        "neuron",
         "union"
       ],
       "teaching": [
@@ -11185,9 +10982,9 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "ambulatory",
-        "directory",
         "factory",
         "introductory",
+        "sensory",
         "territory",
         "victory"
       ],
@@ -11239,18 +11036,36 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
-        "L6": false,
+        "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
       "verifiedWords": [
-        "cosmos"
+        "corporeal",
+        "cosmos",
+        "scissors"
       ],
       "teaching": [],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "text",
+          "lesson": "w17d1",
+          "snippet": "answer: corporeal"
+        },
+        {
+          "kind": "text",
+          "lesson": "w17d6",
+          "snippet": "answer: corporeal"
+        },
+        {
+          "kind": "text",
+          "lesson": "w20d2",
+          "snippet": "answer: corporeal"
+        }
+      ],
       "chapterTopicOnly": true
     },
     {
@@ -12202,6 +12017,7 @@
       "reason": "",
       "verifiedWords": [
         "semicircle",
+        "semiconductor",
         "semifinal"
       ],
       "teaching": [
@@ -12358,13 +12174,14 @@
       "verifiedWords": [
         "absent",
         "consensus",
+        "sensation",
         "sense",
-        "sensitive",
-        "sentience"
+        "sensible",
+        "sensing"
       ],
       "teaching": [
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w11d4",
           "card": "sense 与 detect：感知这一族的两条线"
         },
@@ -12893,7 +12710,8 @@
       "verifiedWords": [
         "infrasonic",
         "resonance",
-        "sonic"
+        "sonic",
+        "supersonic"
       ],
       "teaching": [],
       "practice": [
@@ -12987,20 +12805,24 @@
         "expectancy",
         "expectant",
         "expectation",
-        "retrospect"
+        "inspect"
       ],
       "teaching": [
         {
-          "kind": "text",
+          "kind": "id",
           "lesson": "w05d4",
-          "card": "specere 是“看”，spectare 是“盯着看”",
-          "snippet": "specere 是“看”，spectare 是“盯着看” 拉丁 **specere** 意为“看、看"
+          "card": "specere 是“看”，spectare 是“盯着看”"
         },
         {
           "kind": "text",
           "lesson": "w05d6",
           "card": "前缀与词根的语义叠加：谁送给谁",
           "snippet": "特别有用：emission 是“排放”，但 emission spectrum 是“发射光谱”，都是“送出去”。"
+        },
+        {
+          "kind": "form",
+          "lesson": "w05d7",
+          "card": "三个必须校正的说法"
         },
         {
           "kind": "text",
@@ -13035,9 +12857,26 @@
       ],
       "practice": [
         {
-          "kind": "text",
-          "lesson": "w05d4",
-          "snippet": "answer: inspect"
+          "kind": "form",
+          "lesson": "w03d3"
+        },
+        {
+          "kind": "form",
+          "lesson": "w05d4"
+        },
+        {
+          "kind": "form",
+          "lesson": "w05d7"
+        },
+        {
+          "kind": "form",
+          "lesson": "w13d1",
+          "snippet": "parts: spect + ator"
+        },
+        {
+          "kind": "form",
+          "lesson": "w13d7",
+          "snippet": "parts: re + spect + abil + ity"
         },
         {
           "kind": "form",
@@ -13135,7 +12974,7 @@
       ],
       "teaching": [
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w12d4",
           "card": "consistent：站得住、对得上"
         }
@@ -13287,9 +13126,9 @@
         "insufferable",
         "insupportable",
         "subduction",
-        "substandard",
-        "substantiate",
-        "substantiation"
+        "subject",
+        "submission",
+        "submit"
       ],
       "teaching": [
         {
@@ -13447,7 +13286,9 @@
       "verifiedWords": [
         "superconductivity",
         "superior",
+        "supernatural",
         "superscript",
+        "supersonic",
         "superstructure"
       ],
       "teaching": [
@@ -13542,10 +13383,12 @@
       "gap": "L7",
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "photosynthesis",
         "symmetry",
         "sympathy",
         "synchronize",
-        "synergy"
+        "synergy",
+        "synthesis"
       ],
       "teaching": [
         {
@@ -13561,7 +13404,7 @@
           "snippet": "tic 的 anti- 是“反对”，symbiosis 的 syn- 是“一起”，geothermal 则是 geo 与 therm 两个零"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w06d3",
           "card": "metron 是“测量”，metry 是“测量术”"
         },
@@ -13738,7 +13581,9 @@
       "verifiedWords": [
         "autobiography",
         "autocracy",
-        "autocrat"
+        "autocrat",
+        "autonomous",
+        "autonomy"
       ],
       "teaching": [
         {
@@ -13901,8 +13746,12 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
+        "telegram",
+        "telemetry",
+        "telephone",
         "teleport",
-        "teleportation"
+        "teleportation",
+        "telescope"
       ],
       "teaching": [
         {
@@ -13911,7 +13760,7 @@
           "card": "hydr 与 phon：水与声"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w06d3",
           "card": "metron 是“测量”，metry 是“测量术”"
         },
@@ -14094,9 +13943,12 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
+        "abstain",
+        "contain",
+        "container",
+        "containment",
         "continent",
-        "maintain",
-        "tenant"
+        "detain"
       ],
       "teaching": [
         {
@@ -14533,12 +14385,12 @@
       "gap": "L7",
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "debug",
         "decapitate",
         "decide",
         "decision",
         "deconstruct",
-        "deconstruction",
-        "dedicate"
+        "deconstruction"
       ],
       "teaching": [
         {
@@ -14562,7 +14414,7 @@
           "card": "前缀决定“写在哪”，语义随之分化"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w11d4",
           "card": "sense 与 detect：感知这一族的两条线"
         }
@@ -14647,14 +14499,22 @@
         "L3": true,
         "L4": false,
         "L5": false,
-        "L6": false,
+        "L6": true,
         "L7": true
       },
       "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "verifiedWords": [
+        "nondeterministic"
+      ],
       "teaching": [],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "text",
+          "lesson": "w12d1",
+          "snippet": "answer: nondeterministic"
+        }
+      ],
       "chapterTopicOnly": true
     },
     {
@@ -15246,14 +15106,22 @@
         "L3": true,
         "L4": false,
         "L5": false,
-        "L6": false,
+        "L6": true,
         "L7": true
       },
       "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "verifiedWords": [
+        "nondeterministic"
+      ],
       "teaching": [],
-      "practice": [],
+      "practice": [
+        {
+          "kind": "text",
+          "lesson": "w12d1",
+          "snippet": "answer: nondeterministic"
+        }
+      ],
       "chapterTopicOnly": true
     },
     {
@@ -15412,8 +15280,8 @@
         "abduction",
         "abductor",
         "aqueduct",
-        "conductance",
-        "conduction"
+        "conduct",
+        "conductance"
       ],
       "teaching": [
         {
@@ -15516,6 +15384,7 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "dynamic",
+        "dynamics",
         "dynamite",
         "dynamo"
       ],
@@ -15577,11 +15446,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "effect",
-        "efficiency",
-        "ex-president",
         "exact",
         "except",
-        "excite"
+        "exception",
+        "excite",
+        "exclude"
       ],
       "teaching": [
         {
@@ -15829,8 +15698,8 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "enable",
-        "energy",
-        "enslave"
+        "endanger",
+        "energy"
       ],
       "teaching": [
         {
@@ -15882,10 +15751,10 @@
       "verifiedWords": [
         "audience",
         "circumference",
+        "conference",
+        "convergence",
         "credence",
-        "deference",
-        "eloquence",
-        "existence"
+        "deference"
       ],
       "teaching": [
         {
@@ -15919,9 +15788,10 @@
           "snippet": "常见后缀 -tion/-ation、-ment、-ance/-ence、-ity、-ness。 效果有三个： 1. 动作可以作主语、宾语"
         },
         {
-          "kind": "id",
+          "kind": "text",
           "lesson": "w14d5",
-          "card": "加 -ia：把“正在做”变成“这种性质”"
+          "card": "加 -ia：把“正在做”变成“这种性质”",
+          "snippet": "门化——形态没变，义域变了。 这条链也解释了为什么英语里 -ence 结尾的词多是抽象名词：它们几乎都是 -entia 的直接后代。"
         },
         {
           "kind": "text",
@@ -15944,26 +15814,29 @@
       ],
       "practice": [
         {
-          "kind": "form",
+          "kind": "text",
           "lesson": "w11d5",
-          "snippet": "parts: in + fer + ence"
+          "snippet": "answer: inference"
         },
         {
-          "kind": "form",
-          "lesson": "w12d2"
+          "kind": "text",
+          "lesson": "w12d2",
+          "snippet": "answer: inference"
         },
         {
-          "kind": "form",
+          "kind": "text",
           "lesson": "w12d3",
-          "snippet": "parts: con + verg + ence"
+          "snippet": "answer: convergence"
         },
         {
-          "kind": "form",
-          "lesson": "w14d5"
+          "kind": "text",
+          "lesson": "w14d5",
+          "snippet": "answer: prudence"
         },
         {
-          "kind": "form",
-          "lesson": "w39d7"
+          "kind": "text",
+          "lesson": "w39d7",
+          "snippet": "answer: innocence"
         }
       ],
       "chapterTopicOnly": false
@@ -16007,7 +15880,7 @@
           "snippet": "美国科技与媒体 英语 → 各国 le week-end（法语）、コンピューター（日语）"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w38d4",
           "card": "一个必须点明的同形陷阱：legend"
         },
@@ -16152,111 +16025,20 @@
       "chapter": "3,9",
       "source": "L",
       "page": 271,
-      "morphemeId": "sx-ent",
       "levels": {
         "L1": true,
-        "L2": true,
-        "L3": true,
-        "L4": true,
-        "L5": true,
-        "L6": true,
+        "L2": false,
+        "L3": false,
+        "L4": false,
+        "L5": false,
+        "L6": false,
         "L7": false
       },
-      "gap": "L7",
-      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
-      "verifiedWords": [
-        "antecedent",
-        "coherent",
-        "consistent",
-        "continent",
-        "credential",
-        "deferential"
-      ],
-      "teaching": [
-        {
-          "kind": "text",
-          "lesson": "w04d5",
-          "card": "后缀到词性的速查表",
-          "snippet": "-ic, -ful, -less, -ary, -ant/-ent readable, active, dangerous, nati"
-        },
-        {
-          "kind": "id",
-          "lesson": "w12d4",
-          "card": "consistent：站得住、对得上"
-        },
-        {
-          "kind": "text",
-          "lesson": "w12d6",
-          "card": "示范解析：一对可以互相定义的词",
-          "snippet": "：in-（在内）+ her（粘附，拉丁 haerere）+ -ent →“附着于内的”，即“固有的”。它与 inherit（继承）共享 he"
-        },
-        {
-          "kind": "id",
-          "lesson": "w14d5",
-          "card": "-ent- 是“正在做”的词干"
-        },
-        {
-          "kind": "id",
-          "lesson": "w14d6",
-          "card": "英语里的分工：-t- 词干管“结果”，现在词干管“过程”"
-        },
-        {
-          "kind": "text",
-          "lesson": "w14d7",
-          "card": "综合阅读：一份委员会备忘录",
-          "snippet": "合检验。先扫一遍找拉丁痕迹（-nd-、-tio、-a 复数、-ent-），再判断每个词的词性与句法位置，最后才读细节。第二遍再回答下面的三个"
-        },
-        {
-          "kind": "text",
-          "lesson": "w18d1",
-          "card": "三个陷阱",
-          "snippet": "有中缀。 2. **别把中缀当后缀**：tangent 的 -ent 才是后缀，n 在词根内部；切作 tang + ent，不能切作 ta"
-        },
-        {
-          "kind": "text",
-          "lesson": "w20d3",
-          "card": "判据：音节形状 + 重音位置",
-          "snippet": "音节（单辅音 + 元音）里 e 会升到 i：re-ci-pi-ent、ef-fi-ci-ent、dif-fi-ci-lis。闭音节（后面还有"
-        },
-        {
-          "kind": "text",
-          "lesson": "w23d7",
-          "card": "schwa：所有非重读元音的最后归宿",
-          "snippet": "-able/-ible、-ance/-ence、-ant/-ent 的差别全落在弱化元音上，读音一样，只能按词记。 - parliamen"
-        },
-        {
-          "kind": "text",
-          "lesson": "w32d3",
-          "card": "先承认：耳朵救不了你",
-          "snippet": "与 -ence、-able 与 -ible、-ant 与 -ent 在口语里几乎没有区别。**只要靠听，你就只能猜**；而拼写错误在写作里"
-        },
-        {
-          "kind": "text",
-          "lesson": "w39d7",
-          "card": "六个词的拆读",
-          "snippet": "六个词的拆读 注意第二列的后缀如何直接给出词性：-ent 与 -al 是形容词，-ance 是名词，-ant 是名词（人）。词性"
-        }
-      ],
-      "practice": [
-        {
-          "kind": "text",
-          "lesson": "w12d4",
-          "snippet": "answer: consistent"
-        },
-        {
-          "kind": "form",
-          "lesson": "w14d5"
-        },
-        {
-          "kind": "form",
-          "lesson": "w23d2",
-          "snippet": "parts: ef + fer + ent"
-        },
-        {
-          "kind": "form",
-          "lesson": "w39d7"
-        }
-      ],
+      "gap": "L2",
+      "reason": "同形同源多条记录且释义不匹配（sx-ant / sx-ent）",
+      "verifiedWords": [],
+      "teaching": [],
+      "practice": [],
       "chapterTopicOnly": false
     },
     {
@@ -16599,14 +16381,15 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "mediaeval",
         "medieval"
       ],
       "teaching": [
@@ -16649,11 +16432,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "effect",
-        "efficiency",
-        "ex-president",
         "exact",
         "except",
-        "excite"
+        "exception",
+        "excite",
+        "exclude"
       ],
       "teaching": [
         {
@@ -16805,9 +16588,10 @@
       "reason": "",
       "verifiedWords": [
         "effect",
-        "efficiency",
         "facile",
         "factory",
+        "manufacture",
+        "manufacturer",
         "proficient"
       ],
       "teaching": [
@@ -16891,9 +16675,10 @@
       "reason": "",
       "verifiedWords": [
         "effect",
-        "efficiency",
         "facile",
         "factory",
+        "manufacture",
+        "manufacturer",
         "proficient"
       ],
       "teaching": [
@@ -16978,8 +16763,8 @@
         "carboniferous",
         "circumference",
         "confer",
-        "conifer",
-        "coniferous"
+        "conference",
+        "conifer"
       ],
       "teaching": [
         {
@@ -17072,9 +16857,10 @@
       "reason": "",
       "verifiedWords": [
         "effect",
-        "efficiency",
         "facile",
         "factory",
+        "manufacture",
+        "manufacturer",
         "proficient"
       ],
       "teaching": [
@@ -17184,6 +16970,7 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
+        "flu",
         "fluency",
         "fluent",
         "fluid"
@@ -18137,7 +17924,7 @@
         "L2": true,
         "L3": true,
         "L4": false,
-        "L5": true,
+        "L5": false,
         "L6": true,
         "L7": false
       },
@@ -18146,21 +17933,15 @@
       "verifiedWords": [
         "diagnosis"
       ],
-      "teaching": [
-        {
-          "kind": "form",
-          "lesson": "w39d7",
-          "card": "三个高频误读"
-        }
-      ],
+      "teaching": [],
       "practice": [
         {
-          "kind": "form",
+          "kind": "text",
           "lesson": "w39d1",
-          "snippet": "parts: dia + gno + sis"
+          "snippet": "answer: diagnosis"
         }
       ],
-      "chapterTopicOnly": false
+      "chapterTopicOnly": true
     },
     {
       "id": "el-gon-g-4",
@@ -18302,10 +18083,10 @@
       "verifiedWords": [
         "autobiography",
         "biography",
-        "homograph",
-        "lithography",
-        "orthography",
-        "topography"
+        "cardiogram",
+        "geography",
+        "graphic",
+        "graphite"
       ],
       "teaching": [
         {
@@ -18325,7 +18106,7 @@
           "card": "bio：从“生命”到“共同生活”"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w06d3",
           "card": "graphein 是“刻划”，graph 与 gram 分工不同"
         },
@@ -19359,7 +19140,9 @@
       "reason": "",
       "verifiedWords": [
         "hypodermic",
-        "hypotheses"
+        "hypothermia",
+        "hypotheses",
+        "hypothesis"
       ],
       "teaching": [
         {
@@ -19498,9 +19281,8 @@
       "verifiedWords": [
         "criteria",
         "euphoria",
-        "inertia",
-        "phobia",
-        "pneumonia"
+        "hypothermia",
+        "phobia"
       ],
       "teaching": [
         {
@@ -19509,7 +19291,7 @@
           "card": "media 与 mediums：一个词干，两条路"
         },
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w14d5",
           "card": "加 -ia：把“正在做”变成“这种性质”"
         }
@@ -19553,7 +19335,7 @@
         "L7": false
       },
       "gap": "L2",
-      "reason": "同形同源多条记录且释义不匹配（sx-ial / sx-al）",
+      "reason": "同形同源多条记录且释义不匹配（sx-ial / cx-ol-al / px-ad / sx-al）",
       "verifiedWords": [],
       "teaching": [],
       "practice": [],
@@ -19616,7 +19398,7 @@
         "L7": false
       },
       "gap": "L2",
-      "reason": "同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）",
+      "reason": "同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）",
       "verifiedWords": [],
       "teaching": [],
       "practice": [],
@@ -19654,7 +19436,7 @@
       ],
       "teaching": [
         {
-          "kind": "id",
+          "kind": "form",
           "lesson": "w04d2",
           "card": "形容词后缀的两种语义"
         }
@@ -19818,7 +19600,6 @@
       "verifiedWords": [
         "agency",
         "agenda",
-        "agility",
         "agitate",
         "navigate"
       ],
@@ -19941,12 +19722,12 @@
       "gap": "L5",
       "reason": "没有任何课时讲到它",
       "verifiedWords": [
+        "illegal",
         "inaccurate",
         "incompatible",
         "incomplete",
-        "inerrant",
-        "informality",
-        "informally"
+        "incredible",
+        "inerrant"
       ],
       "teaching": [],
       "practice": [
@@ -20003,10 +19784,10 @@
       "verifiedWords": [
         "fertilizer",
         "impact",
+        "import",
         "importable",
         "importance",
-        "important",
-        "importation"
+        "important"
       ],
       "teaching": [],
       "practice": [
@@ -20066,8 +19847,8 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
-        "infrared",
-        "infrasonic"
+        "infrasonic",
+        "infrastructure"
       ],
       "teaching": [
         {
@@ -20132,8 +19913,11 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
-        "intercom",
+        "interact",
+        "interaction",
+        "intercept",
         "intermittent",
+        "international",
         "intervene"
       ],
       "teaching": [
@@ -20277,11 +20061,11 @@
       "reason": "",
       "verifiedWords": [
         "intracellular",
-        "intranet",
+        "intranational",
         "intravenous",
-        "introductory",
-        "introspect",
-        "introspection"
+        "introduce",
+        "introduction",
+        "introductory"
       ],
       "teaching": [
         {
@@ -20369,123 +20153,19 @@
       "chapter": "2, 3, 6",
       "source": "L",
       "page": 282,
-      "morphemeId": "cx-tive-ive",
       "levels": {
         "L1": true,
-        "L2": true,
-        "L3": true,
+        "L2": false,
+        "L3": false,
         "L4": false,
-        "L5": true,
+        "L5": false,
         "L6": false,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
+      "gap": "L2",
+      "reason": "同形同源多条记录且释义不匹配（cx-tive-ive / sx-ative）",
       "verifiedWords": [],
-      "teaching": [
-        {
-          "kind": "text",
-          "lesson": "w02d2",
-          "card": "换一个词基：struct",
-          "snippet": "建造（过程）”。同一个词基，不同后缀带来不同的抽象层次；而 -ive 只接在带前缀的形式后，单独 struct + ive 并不成立。"
-        },
-        {
-          "kind": "text",
-          "lesson": "w02d4",
-          "card": "同族与同源：native 算不算 nation 的家人",
-          "snippet": "。但在现代英语里，native 无法切成 nation + ive——没有哪个成分承载“国家”这一核心义。这类词属于“词源同源、形态不同族”"
-        },
-        {
-          "kind": "text",
-          "lesson": "w04d1",
-          "card": "-ness 与 -ity：两条名词化路径",
-          "snippet": "xity 常与日常形容词搭配 常与 -able / -ive / -ous 形容词搭配"
-        },
-        {
-          "kind": "text",
-          "lesson": "w04d2",
-          "card": "形容词后缀的两种语义",
-          "snippet": "们的共同点是“可以被动词所作用”。 表关联或性质的是 **-ive / -ous / -al / -ic**：active（倾向于行动的）"
-        },
-        {
-          "kind": "text",
-          "lesson": "w04d5",
-          "card": "两步法：先看词尾，再看位置",
-          "snippet": "、-ist、-ance、-ship 多半是名词；-able、-ive、-ous、-al、-ic、-ful、-less 多半是形容词；-ize"
-        },
-        {
-          "kind": "text",
-          "lesson": "w04d7",
-          "card": "四类后缀的最终速查",
-          "snippet": "ism, scientist -able/-ible, -ive, -ous, -al, -ic, -ful, -less read"
-        },
-        {
-          "kind": "text",
-          "lesson": "w05d4",
-          "card": "spect 的构词矩阵",
-          "snippet": "阵的读法是“方向 + 看 + 词性”。注意 -ator 与 -ive 的分工：spectator 是“看的人”，perspective 是“"
-        },
-        {
-          "kind": "text",
-          "lesson": "w11d6",
-          "card": "四步法：把猜测变成假设",
-          "snippet": "语整体）。 2. **定词性**：看后缀与句法位置。-ed/-ive/-ous 多是形容词，-tion/-ence 是名词，-ize 是动词"
-        },
-        {
-          "kind": "text",
-          "lesson": "w12d2",
-          "card": "为什么摘要里的名词这么长",
-          "snippet": "词直接修饰名词，最后一个才是中心词。 - 形容词化：-al、-ive、-ed 把整段关系压进一个词，如 translational drif"
-        },
-        {
-          "kind": "text",
-          "lesson": "w12d6",
-          "card": "示范解析：一对可以互相定义的词",
-          "snippet": "分：**cept**（拉丁 capere“抓取、接受”）+ -ive（形容词后缀）——“感知……的”。 - 区别在前半：**proprio-"
-        },
-        {
-          "kind": "text",
-          "lesson": "w14d1",
-          "card": "-sis 与 -tio：过程 vs 动作事件",
-          "snippet": "-tic：analytic、static 多作 -al／-ive：electoral、active 医学、生物、系统描述 法律、"
-        },
-        {
-          "kind": "text",
-          "lesson": "w14d2",
-          "card": "七个形容词后缀与它们的英语形式",
-          "snippet": "里常作 -al，-osus 作 -ous，-tivus 作 -ive。看到英语词尾，要能反推拉丁后缀，而不是把 -al 当成一个独立的英语后"
-        },
-        {
-          "kind": "text",
-          "lesson": "w14d3",
-          "card": "那个不发音的 e 在做什么",
-          "snippet": "tive 的 e 也来自拉丁 -ivus → 法语 -if／-ive，同样不发音但作用不同（它标记的是 -ive 这个后缀整体）。 结论："
-        },
-        {
-          "kind": "text",
-          "lesson": "w21d2",
-          "card": "五个词，一条读音规则",
-          "snippet": "tivate [ˈæktɪveɪt] act（做）＋-ive＋-ate decapitate [dɪˈkæpɪteɪt]"
-        },
-        {
-          "kind": "text",
-          "lesson": "w38d2",
-          "card": "四个长词，四种陷阱",
-          "snippet": "nter 是“反对”的完整前缀；product 是现成词基；-ive 构成形容词"
-        },
-        {
-          "kind": "text",
-          "lesson": "w39d5",
-          "card": "九个词的成分表",
-          "snippet": "状态／集合 native nat + ive -ive 形容词 本地的；天生的 octopus octo + pu"
-        },
-        {
-          "kind": "text",
-          "lesson": "w39d7",
-          "card": "四步法在抽象名词上的调整",
-          "snippet": "nce、-ity、-ment 多半是名词，-ent、-al、-ive、-ous 多半是形容词。词性定错，后面全错：把 innocence 当"
-        }
-      ],
+      "teaching": [],
       "practice": [],
       "chapterTopicOnly": false
     },
@@ -20621,11 +20301,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "transducer",
+        "transfer",
+        "transferable",
         "transferee",
         "transference",
-        "transferor",
-        "transformative",
-        "transformer"
+        "transferor"
       ],
       "teaching": [
         {
@@ -20817,11 +20497,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "transducer",
+        "transfer",
+        "transferable",
         "transferee",
         "transference",
-        "transferor",
-        "transformative",
-        "transformer"
+        "transferor"
       ],
       "teaching": [
         {
@@ -21012,7 +20692,8 @@
       "reason": "",
       "verifiedWords": [
         "trilogy",
-        "triple"
+        "triple",
+        "tripod"
       ],
       "teaching": [
         {
@@ -21212,33 +20893,21 @@
       "chapter": "4, 9",
       "source": "L",
       "page": 282,
-      "morphemeId": "sx-ty",
       "levels": {
         "L1": true,
-        "L2": true,
-        "L3": true,
-        "L4": true,
+        "L2": false,
+        "L3": false,
+        "L4": false,
         "L5": false,
-        "L6": true,
+        "L6": false,
         "L7": false
       },
-      "gap": "L5",
-      "reason": "没有任何课时讲到它",
-      "verifiedWords": [
-        "certainty",
-        "loyalty",
-        "safety",
-        "specialty"
-      ],
+      "gap": "L2",
+      "reason": "同形同源多条记录且释义不匹配（sx-ity / sx-ty）",
+      "verifiedWords": [],
       "teaching": [],
-      "practice": [
-        {
-          "kind": "form",
-          "lesson": "w03d1",
-          "snippet": "parts: un + certain + ty"
-        }
-      ],
-      "chapterTopicOnly": true
+      "practice": [],
+      "chapterTopicOnly": false
     },
     {
       "id": "el-ule-l-9",
@@ -21663,9 +21332,8 @@
       "teaching": [],
       "practice": [
         {
-          "kind": "text",
-          "lesson": "w39d6",
-          "snippet": "answer: adventure"
+          "kind": "form",
+          "lesson": "w39d6"
         }
       ],
       "chapterTopicOnly": true
@@ -21714,14 +21382,15 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
         "L6": true,
         "L7": true
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
       "verifiedWords": [
+        "verdict",
         "verify"
       ],
       "teaching": [],
@@ -21775,14 +21444,18 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
+      "verifiedWords": [
+        "converge",
+        "convergence",
+        "divergence"
+      ],
       "teaching": [
         {
           "kind": "form",
@@ -22293,14 +21966,16 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
+        "pedal",
+        "pedestal",
         "pedestrian"
       ],
       "teaching": [
@@ -22537,9 +22212,11 @@
       "reason": "",
       "verifiedWords": [
         "percent",
+        "perception",
         "perennial",
-        "permanent",
-        "persist"
+        "perform",
+        "performance",
+        "permanent"
       ],
       "teaching": [
         {
@@ -22926,6 +22603,8 @@
       "verifiedWords": [
         "homophone",
         "megaphone",
+        "microphone",
+        "phone",
         "phonetics",
         "polyphony"
       ],
@@ -23542,6 +23221,7 @@
       "gap": "L5",
       "reason": "没有任何课时讲到它",
       "verifiedWords": [
+        "monopoly",
         "oligopoly",
         "polygamy",
         "polygon",
@@ -23600,14 +23280,21 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
         "L6": false,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
+      "verifiedWords": [
+        "component",
+        "compose",
+        "expose",
+        "exposure",
+        "oppose",
+        "postpone"
+      ],
       "teaching": [],
       "practice": [],
       "chapterTopicOnly": true
@@ -23667,14 +23354,21 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": false,
         "L6": false,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 0 个（需要 2 个）",
-      "verifiedWords": [],
+      "gap": "L5",
+      "reason": "没有任何课时讲到它",
+      "verifiedWords": [
+        "component",
+        "compose",
+        "expose",
+        "exposure",
+        "oppose",
+        "postpone"
+      ],
       "teaching": [],
       "practice": [],
       "chapterTopicOnly": true
@@ -23695,15 +23389,16 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
-        "omnipotent"
+        "omnipotent",
+        "possible"
       ],
       "teaching": [
         {
@@ -23757,6 +23452,7 @@
       "verifiedWords": [
         "postgraduate",
         "postmodern",
+        "postpone",
         "postscript"
       ],
       "teaching": [
@@ -23812,15 +23508,16 @@
         "L1": true,
         "L2": true,
         "L3": true,
-        "L4": false,
+        "L4": true,
         "L5": true,
         "L6": true,
         "L7": false
       },
-      "gap": "L4",
-      "reason": "verified 词条只有 1 个（需要 2 个）",
+      "gap": "L7",
+      "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
-        "omnipotent"
+        "omnipotent",
+        "possible"
       ],
       "teaching": [
         {
@@ -23920,10 +23617,12 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
+        "precaution",
         "predicate",
-        "preferential",
-        "preheat",
-        "preview"
+        "predict",
+        "predictable",
+        "prediction",
+        "prefer"
       ],
       "teaching": [
         {
@@ -24087,12 +23786,12 @@
       "gap": "done",
       "reason": "",
       "verifiedWords": [
+        "irreproducible",
         "proactive",
         "proclamation",
         "procure",
-        "producer",
-        "productivity",
-        "proffer"
+        "produce",
+        "producer"
       ],
       "teaching": [
         {
@@ -24793,11 +24492,11 @@
       "reason": "没有语言学审校记录（reviews.json 抽样未覆盖到它）",
       "verifiedWords": [
         "irreducible",
+        "irreproducible",
         "react",
+        "reaction",
         "realign",
-        "rebuild",
-        "recalibrate",
-        "recall"
+        "rebuild"
       ],
       "teaching": [
         {
@@ -24811,7 +24510,7 @@
           "card": "re- 的两个义项：再一次，还是往回"
         },
         {
-          "kind": "form",
+          "kind": "id",
           "lesson": "w05d4",
           "card": "respect 的三步跳：回头看 → 顾及 → 尊重"
         },

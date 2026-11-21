@@ -1,0 +1,188 @@
+{
+  "id": "fam-scrib",
+  "root": {
+    "form": "scrib",
+    "glossEn": "write",
+    "glossZh": "写",
+    "origin": "Lat",
+    "etymon": "scribere",
+    "etymonGloss": "to write, draw"
+  },
+  "coreIdea": "「写」：往下写是描述，预先写是规定，公开写是禁止。",
+  "members": [
+    {
+      "w": "describe",
+      "relation": "derivative",
+      "glossZh": "描述",
+      "layer": ["de-", "scrib"],
+      "note": "de- 向下 + 写 → 一笔笔写下来"
+    },
+    {
+      "w": "inscribe",
+      "relation": "derivative",
+      "glossZh": "刻写；题献",
+      "layer": ["in-", "scrib"],
+      "note": "in- 在内 + 写 → 写进表面里"
+    },
+    {
+      "w": "subscribe",
+      "relation": "derivative",
+      "glossZh": "订阅；赞同",
+      "layer": ["sub-", "scrib"],
+      "note": "sub- 在下 + 写 → 在文件下方签名"
+    },
+    {
+      "w": "prescribe",
+      "relation": "derivative",
+      "glossZh": "开处方；规定",
+      "layer": ["pre-", "scrib"],
+      "note": "pre- 预先 + 写 → 事先写下该怎么做"
+    },
+    {
+      "w": "proscribe",
+      "relation": "derivative",
+      "glossZh": "禁止",
+      "layer": ["pro-", "scrib"],
+      "note": "pro- 公开 + 写 → 把名单公开写出，即宣布为非法"
+    },
+    {
+      "w": "manuscript",
+      "relation": "derivative",
+      "glossZh": "手稿",
+      "layer": ["manu-", "script"],
+      "note": "manu- 手（manus）+ script 写 → 手写的东西"
+    },
+    {
+      "w": "script",
+      "relation": "derivative",
+      "glossZh": "脚本；笔迹",
+      "layer": ["script"],
+      "note": "拉丁 scriptum「写下的东西」直接借入"
+    },
+    {
+      "w": "scripture",
+      "relation": "derivative",
+      "glossZh": "经文",
+      "layer": ["script", "-ure"],
+      "note": "-ure 造名词：被写下的神圣文本"
+    },
+    {
+      "w": "prescription",
+      "relation": "derivative",
+      "glossZh": "处方",
+      "layer": ["pre-", "script", "-ion"],
+      "note": "prescribe 的名词形，词干换 script"
+    },
+    {
+      "w": "subscription",
+      "relation": "derivative",
+      "glossZh": "订阅（行为）",
+      "layer": ["sub-", "script", "-ion"],
+      "note": "与 subscribe 同源，名词走分词词干"
+    },
+    {
+      "w": "description",
+      "relation": "derivative",
+      "glossZh": "描述（文字）",
+      "layer": ["de-", "script", "-ion"],
+      "note": "describe 的名词形，-b- 变 -p-"
+    },
+    {
+      "w": "transcript",
+      "relation": "derivative",
+      "glossZh": "转录本；成绩单",
+      "layer": ["trans-", "script"],
+      "note": "trans- 转 + 写 → 从一处抄写到另一处"
+    },
+    {
+      "w": "conscript",
+      "relation": "derivative",
+      "glossZh": "征召",
+      "layer": ["con-", "script"],
+      "note": "con- 一起 + 写 → 把名字一起写进名册"
+    },
+    {
+      "w": "postscript",
+      "relation": "derivative",
+      "glossZh": "附言",
+      "layer": ["post-", "script"],
+      "note": "post- 之后 + 写 → 写完之后又添的"
+    },
+    {
+      "w": "scribble",
+      "relation": "cognate",
+      "glossZh": "涂写",
+      "note": "同源异途：拉丁指小形式 scribillare，-ble 不是英语后缀，不能按 scrib + ble 讲"
+    }
+  ],
+  "allomorphs": [
+    {
+      "form": "script",
+      "note": "拉丁过去分词词干，名词与形容词几乎都走这一支",
+      "examples": ["script", "prescription", "manuscript"]
+    }
+  ],
+  "derivationChains": [
+    {
+      "stages": ["scrib", "describe", "description", "descriptive"],
+      "note": "每一级都真实成词；动词 b → 名词 p 是拉丁音变，不是拼写错误"
+    },
+    {
+      "stages": ["scrib", "prescribe", "prescription", "prescriptive"],
+      "note": "prescriptive 从「预先写下」转为「规定性的」"
+    },
+    {
+      "stages": ["scrib", "subscribe", "subscription", "subscriber"],
+      "note": "subscriber 由 subscribe + -er，不经 subscription"
+    },
+    {
+      "stages": ["scrib", "inscribe", "inscription", "inscriptional"],
+      "note": "inscriptional 较少用，但词典有收"
+    }
+  ],
+  "semanticShifts": [
+    {
+      "w": "subscribe",
+      "from": "在下面签名",
+      "to": "订阅；赞同",
+      "why": "签名表示同意 → 同意定期付费"
+    },
+    {
+      "w": "prescribe",
+      "from": "预先写下",
+      "to": "开处方；规定",
+      "why": "医生预先写下用药，权威预先写下规则"
+    },
+    {
+      "w": "proscribe",
+      "from": "公开写出",
+      "to": "禁止",
+      "why": "古罗马公开张贴被剥夺保护者的名单"
+    },
+    {
+      "w": "manuscript",
+      "from": "手写的",
+      "to": "手稿；未刊稿",
+      "why": "从书写方式转指载体本身"
+    }
+  ],
+  "homographTraps": [],
+  "teaching": {
+    "induction": "给出 describe、prescribe、proscribe、subscribe、manuscript 五个词，问：共同的「写」在哪里？pre- 与 pro- 只差一个字母，为什么词义几乎相反？",
+    "transfer": {
+      "word": "proscribed",
+      "question": "拆开并猜义：pro- + scrib + -ed 为什么是「被禁止」而不是「被预先写下」？",
+      "answer": "pro- 公开 + scrib 写 + -ed → 被公开写进禁令名单的，即「被禁止的」。注意与 prescribed（被规定的、处方开的）区分。例句：The regulation proscribes the use of the chemical in food packaging."
+    }
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "detail": "ch.9 Latin/Greek element list（scrib-/script- 条）；ch.4 分词词干 b → p"
+    },
+    {
+      "id": "S5",
+      "detail": "Oxford Dictionary of English Etymology，scribere 与 proscribere 条"
+    }
+  ]
+}

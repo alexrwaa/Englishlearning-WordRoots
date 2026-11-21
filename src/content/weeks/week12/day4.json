@@ -82,11 +82,7 @@
           "note": "用 may、suggest、be consistent with 等弱化主张"
         }
       ],
-      "morphemeIds": [
-        "px-con",
-        "rx-sist",
-        "sx-ent"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "text",
@@ -104,11 +100,7 @@
           "en": "limitation"
         }
       ],
-      "morphemeIds": [
-        "rx-limit",
-        "sx-ation",
-        "px-un"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "text",

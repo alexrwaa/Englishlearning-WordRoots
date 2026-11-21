@@ -1,6 +1,6 @@
 # 教材覆盖率审计（自动生成）
 
-生成时间：2026-11-20T15:53:58.015Z
+生成时间：2026-11-21T00:57:46.077Z
 
 > 本文件由 `npx tsx scripts/coverage.ts --write` 生成，请勿手工编辑。
 > 数据来自教材清单、词库（含 `forms.json` 身份索引）、课程与审校记录四处独立来源。
@@ -11,25 +11,25 @@
 | 级别 | 判据 | 数量 | 占比 |
 | --- | --- | --- | --- |
 | L1 已登记 | 出现在 s1-elements.json | 559 | 100% |
-| L2 已关联 | 元素 → 词素 ID，form 与 origin 同时一致 | 526 | 94% |
-| L3 释义已核 | glossZh 与 glossEn 均非空且无占位符 | 526 | 94% |
-| L4 例词充分 | ≥2 个 verified:true 且 partIds 含该 ID 的词条 | 241 | 43% |
-| L5 有讲解 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） | 234 | 42% |
-| L6 有练习 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） | 206 | 37% |
+| L2 已关联 | 元素 → 词素 ID，form 与 origin 同时一致 | 519 | 93% |
+| L3 释义已核 | glossZh 与 glossEn 均非空且无占位符 | 519 | 93% |
+| L4 例词充分 | ≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true） | 253 | 45% |
+| L5 有讲解 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） | 230 | 41% |
+| L6 有练习 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） | 207 | 37% |
 | L7 已审校 | 该词素在 reviews.json 有审校记录（或记录自带 review.by） | 234 | 42% |
 
 ## 一之二、证据构成（可抽样复核）
 
 | 级别 | 证据类型 | 数量 | 说明 |
 | --- | --- | --- | --- |
-| L5 | 卡片/课时声明 ID | 47 | 最强：作者显式声明 |
-| L5 | 卡片声明拼写 | 17 | 拼写经身份索引解析到唯一 ID |
-| L5 | 卡片正文释义 | 170 | 命中处附近有释义线索，报告存片段 |
-| L6 | 题目声明成分 | 179 | parts / concepts / matrix base |
-| L6 | 答案为已知词 | 27 | wordSum/cloze 答案词的 partIds 含该 ID |
+| L5 | 卡片/课时声明 ID | 41 | 最强：作者显式声明 |
+| L5 | 卡片声明拼写 | 22 | 拼写经身份索引解析到唯一 ID |
+| L5 | 卡片正文释义 | 167 | 命中处附近有释义线索，报告存片段 |
+| L6 | 题目声明成分 | 175 | parts / concepts / matrix base |
+| L6 | 答案为已知词 | 32 | wordSum/cloze 答案词的 partIds 含该 ID |
 | L7 | 有来源的审校 | 234 | 必须带 sources，否则不计 |
 
-> 另有 **290** 个成分：所在章有知识点被讲到，但没有任何卡片或题目点名它。
+> 另有 **287** 个成分：所在章有知识点被讲到，但没有任何卡片或题目点名它。
 > 这部分**不计入 L5**——章节相近不等于讲解证据，仅作为排课线索。
 
 ## 二、卡点分布（每个成分停在第一处未达标）
@@ -37,13 +37,13 @@
 | 停在 | 数量 | 含义 |
 | --- | --- | --- |
 | L1 已登记 未过 | 0 | 出现在 s1-elements.json 尚未满足 |
-| L2 已关联 未过 | 33 | 元素 → 词素 ID，form 与 origin 同时一致 尚未满足 |
+| L2 已关联 未过 | 40 | 元素 → 词素 ID，form 与 origin 同时一致 尚未满足 |
 | L3 释义已核 未过 | 0 | glossZh 与 glossEn 均非空且无占位符 尚未满足 |
-| L4 例词充分 未过 | 285 | ≥2 个 verified:true 且 partIds 含该 ID 的词条 尚未满足 |
-| L5 有讲解 未过 | 95 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） 尚未满足 |
-| L6 有练习 未过 | 23 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） 尚未满足 |
-| L7 已审校 未过 | 59 | 该词素在 reviews.json 有审校记录（或记录自带 review.by） 尚未满足 |
-| — 七级全过 | 64 | 已登记、已关联、释义已核、例词充分、有讲解、有练习、已审校 |
+| L4 例词充分 未过 | 266 | ≥2 个「切分已核验」且 partIds 含该 ID 的词条（切分未核验的不计，即使 verified:true） 尚未满足 |
+| L5 有讲解 未过 | 98 | 某课的 concepts 或卡片声明该 ID，或卡片正文以释义线索讲到它（存证据片段） 尚未满足 |
+| L6 有练习 未过 | 26 | practice/apply 里有题目真正用到该 ID（parts / concepts / matrix base / 答案词的 partIds） 尚未满足 |
+| L7 已审校 未过 | 61 | 该词素在 reviews.json 有审校记录（或记录自带 review.by） 尚未满足 |
+| — 七级全过 | 68 | 已登记、已关联、释义已核、例词充分、有讲解、有练习、已审校 |
 
 ## 三、各级差异清单（前 20 条）
 
@@ -51,87 +51,87 @@
 
 - 无
 
-### L2 已关联（缺 33 条）
+### L2 已关联（缺 40 条）
 
-- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat）
-- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）
+- `-ise`（第 3 章）：同形同源多条记录且释义不匹配（sx-ise / sx-ize）
+- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）
+- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）
 - `-ac`（第 9 章）：词库中没有 form+origin 一致的记录（ac · G）
-- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（sx-al / sx-ial）
+- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 10 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 11 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
 - `-ance`（第 3, 4 章）：词库中没有 form+origin 一致的记录（ance · L）
-- `-ble~-able~-ible`（第 3, 11 章）：同形同源多条记录且释义不匹配（cx-ble-able / sx-ible）
+- `-ble~-able~-ible`（第 3, 11 章）：同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）
 - `cli`（第 9 章）：词库中没有 form+origin 一致的记录（cli · L, G）
 - `co-~con-~com-`（第 3 章）：同形同源多条记录，释义仍无法区分（px-com / px-con）
 - `con-~com-~co-`（第 3 章）：同形同源多条记录，释义仍无法区分（px-con / px-com）
-- `leg~lig`（第 5 章）：同形同源多条记录且释义不匹配（cx-leg / cx-lig）
-- `lig~leg`（第 5 章）：同形同源多条记录且释义不匹配（cx-lig / cx-leg）
+- `-ive~-tive`（第 3,4,6 章）：同形同源多条记录且释义不匹配（cx-tive-ive / sx-ative）
 - `ly`（第 11 章）：词库中没有 form+origin 一致的记录（ly · G）
 - `-ment`（第 9 章）：词库中没有 form+origin 一致的记录（ment · L）
+- `metr`（第 10 章）：同形同源多条记录且释义不匹配（cx-meter / cx-metr）
 - `mis`（第 1 章）：词库中没有 form+origin 一致的记录（mis · G）
+- `mitt~miss`（第 3,4 章）：同形同源多条记录，释义仍无法区分（rx-mitt / rx-mit）
 - `nano-`（第 6 章）：词库中没有 form+origin 一致的记录（nano · G）
 - `-nd~-and~-end`（第 9 章）：同形同源多条记录，释义仍无法区分（sx-nd / cx-and-end）
-- `nec~necr`（第 4 章）：词库中没有 form+origin 一致的记录（nec/necr · G）
-- `op`（第 8 章）：词库中没有 form+origin 一致的记录（op · G）
-- `-ous~-ose`（第 3 章）：同形同源多条记录且释义不匹配（sx-ous / sx-ose）
-- `sta~ste`（第 4 章）：词库中没有 form+origin 一致的记录（sta/ste · G）
 
-### L3 释义已核（缺 33 条）
+### L3 释义已核（缺 40 条）
 
-- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat）
-- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）
+- `-ise`（第 3 章）：同形同源多条记录且释义不匹配（sx-ise / sx-ize）
+- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）
+- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）
 - `-ac`（第 9 章）：词库中没有 form+origin 一致的记录（ac · G）
-- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（sx-al / sx-ial）
+- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 10 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 11 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
 - `-ance`（第 3, 4 章）：词库中没有 form+origin 一致的记录（ance · L）
-- `-ble~-able~-ible`（第 3, 11 章）：同形同源多条记录且释义不匹配（cx-ble-able / sx-ible）
+- `-ble~-able~-ible`（第 3, 11 章）：同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）
 - `cli`（第 9 章）：词库中没有 form+origin 一致的记录（cli · L, G）
 - `co-~con-~com-`（第 3 章）：同形同源多条记录，释义仍无法区分（px-com / px-con）
 - `con-~com-~co-`（第 3 章）：同形同源多条记录，释义仍无法区分（px-con / px-com）
-- `leg~lig`（第 5 章）：同形同源多条记录且释义不匹配（cx-leg / cx-lig）
-- `lig~leg`（第 5 章）：同形同源多条记录且释义不匹配（cx-lig / cx-leg）
+- `-ive~-tive`（第 3,4,6 章）：同形同源多条记录且释义不匹配（cx-tive-ive / sx-ative）
 - `ly`（第 11 章）：词库中没有 form+origin 一致的记录（ly · G）
 - `-ment`（第 9 章）：词库中没有 form+origin 一致的记录（ment · L）
+- `metr`（第 10 章）：同形同源多条记录且释义不匹配（cx-meter / cx-metr）
 - `mis`（第 1 章）：词库中没有 form+origin 一致的记录（mis · G）
+- `mitt~miss`（第 3,4 章）：同形同源多条记录，释义仍无法区分（rx-mitt / rx-mit）
 - `nano-`（第 6 章）：词库中没有 form+origin 一致的记录（nano · G）
 - `-nd~-and~-end`（第 9 章）：同形同源多条记录，释义仍无法区分（sx-nd / cx-and-end）
-- `nec~necr`（第 4 章）：词库中没有 form+origin 一致的记录（nec/necr · G）
-- `op`（第 8 章）：词库中没有 form+origin 一致的记录（op · G）
-- `-ous~-ose`（第 3 章）：同形同源多条记录且释义不匹配（sx-ous / sx-ose）
-- `sta~ste`（第 4 章）：词库中没有 form+origin 一致的记录（sta/ste · G）
 
-### L4 例词充分（缺 318 条）
+### L4 例词充分（缺 306 条）
 
+- `-ise`（第 3 章）：同形同源多条记录且释义不匹配（sx-ise / sx-ize）
 - `onomat`（第 10 章）：verified 词条只有 0 个（需要 2 个）
 - `pug`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `pung`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `tetra`（第 6 章）：verified 词条只有 0 个（需要 2 个）
-- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat）
-- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）
+- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）
+- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）
 - `-ac`（第 9 章）：词库中没有 form+origin 一致的记录（ac · G）
 - `-acl~-acul (< -l diminutive)`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `-aden`（第 8 章）：verified 词条只有 0 个（需要 2 个）
 - `-ae`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `aesth~esth`（第 5 章）：verified 词条只有 0 个（需要 2 个）
-- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（sx-al / sx-ial）
-- `al~ol~ul`（第 4 章）：verified 词条只有 0 个（需要 2 个）
+- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 10 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 11 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
 - `alb`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `alg`（第 8 章）：verified 词条只有 0 个（需要 2 个）
 - `all~allel`（第 10 章）：verified 词条只有 0 个（需要 2 个）
 - `alt (< al 'grow')`（第 5 章）：verified 词条只有 0 个（需要 2 个）
 - `am~im`（第 4 章）：verified 词条只有 0 个（需要 2 个）
-- `-ance`（第 3, 4 章）：词库中没有 form+origin 一致的记录（ance · L）
-- `andr`（第 5 章）：verified 词条只有 1 个（需要 2 个）
 
-### L5 有讲解（缺 325 条）
+### L5 有讲解（缺 329 条）
 
 - `crypt`（第 9 章）：没有任何课时讲到它
 - `du`（第 6 章）：没有任何课时讲到它
+- `-ise`（第 3 章）：同形同源多条记录且释义不匹配（sx-ise / sx-ize）
 - `nat`（第 2 章）：没有任何课时讲到它
 - `-oid`（第 3 章）：没有任何课时讲到它
 - `pug`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `pung`（第 9 章）：verified 词条只有 0 个（需要 2 个）
-- `a-~an-`（第 3, 4 章）：没有任何课时讲到它
-- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat）
+- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）
 - `ab-~abs-`（第 3, 6 章）：没有任何课时讲到它
-- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）
+- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）
 - `abs-~ab-`（第 3, 6 章）：没有任何课时讲到它
 - `-ac`（第 9 章）：词库中没有 form+origin 一致的记录（ac · G）
 - `-acl~-acul (< -l diminutive)`（第 9 章）：verified 词条只有 0 个（需要 2 个）
@@ -140,20 +140,20 @@
 - `-aden`（第 8 章）：verified 词条只有 0 个（需要 2 个）
 - `aesth~esth`（第 5 章）：verified 词条只有 0 个（需要 2 个）
 - `agr`（第 9 章）：没有任何课时讲到它
-- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（sx-al / sx-ial）
-- `al~ol~ul`（第 4 章）：verified 词条只有 0 个（需要 2 个）
+- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 10 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
 
-### L6 有练习（缺 353 条）
+### L6 有练习（缺 352 条）
 
 - `crypt`（第 9 章）：没有任何课时讲到它
 - `du`（第 6 章）：没有任何课时讲到它
-- `-ise`（第 3 章）：讲到它的课时没有练习用到它
+- `-ise`（第 3 章）：同形同源多条记录且释义不匹配（sx-ise / sx-ize）
 - `onomat`（第 10 章）：verified 词条只有 0 个（需要 2 个）
 - `pug`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `pung`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `tetra`（第 6 章）：verified 词条只有 0 个（需要 2 个）
-- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat）
-- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）
+- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）
+- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）
 - `-ac`（第 9 章）：词库中没有 form+origin 一致的记录（ac · G）
 - `-acl~-acul (< -l diminutive)`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `-acle~-acule (< -l diminutive)`（第 9 章）：没有任何课时讲到它
@@ -161,17 +161,18 @@
 - `-ae`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `aesth~esth`（第 5 章）：verified 词条只有 0 个（需要 2 个）
 - `agr`（第 9 章）：没有任何课时讲到它
-- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（sx-al / sx-ial）
-- `al~ol~ul`（第 4 章）：verified 词条只有 0 个（需要 2 个）
+- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 10 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 11 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
 - `alb`（第 9 章）：verified 词条只有 0 个（需要 2 个）
-- `alg`（第 8 章）：verified 词条只有 0 个（需要 2 个）
 
 ### L7 已审校（缺 325 条）
 
-- `a-~an-`（第 3, 4 章）：没有任何课时讲到它
-- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat）
+- `-ise`（第 3 章）：同形同源多条记录且释义不匹配（sx-ise / sx-ize）
+- `a-~an-`（第 3, 4 章）：没有语言学审校记录（reviews.json 抽样未覆盖到它）
+- `-a`（第 9 章）：同形同源多条记录且释义不匹配（px-a / px-a-lat / px-ab）
 - `ab-~abs-`（第 3, 6 章）：没有任何课时讲到它
-- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（sx-ible / cx-ble-able）
+- `-able~-ible~-ble`（第 3, 11 章）：同形同源多条记录且释义不匹配（cx-ble-able / sx-abil / sx-ible）
 - `abs-~ab-`（第 3, 6 章）：没有任何课时讲到它
 - `ac`（第 9 章）：没有语言学审校记录（reviews.json 抽样未覆盖到它）
 - `-ac`（第 9 章）：词库中没有 form+origin 一致的记录（ac · G）
@@ -182,12 +183,11 @@
 - `-aden`（第 8 章）：verified 词条只有 0 个（需要 2 个）
 - `-ae`（第 9 章）：verified 词条只有 0 个（需要 2 个）
 - `agr`（第 9 章）：没有任何课时讲到它
-- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（sx-al / sx-ial）
-- `al`（第 10 章）：没有语言学审校记录（reviews.json 抽样未覆盖到它）
-- `al`（第 11 章）：没有语言学审校记录（reviews.json 抽样未覆盖到它）
-- `al~ol~ul`（第 4 章）：verified 词条只有 0 个（需要 2 个）
+- `-al~-ial`（第 9 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 10 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al`（第 11 章）：同形同源多条记录且释义不匹配（cx-ol-al / px-ad / sx-al / sx-ial）
+- `al~ol~ul`（第 4 章）：没有任何课时讲到它
 - `alb`（第 9 章）：verified 词条只有 0 个（需要 2 个）
-- `alg`（第 8 章）：verified 词条只有 0 个（需要 2 个）
 
 ## 四、词素明细
 
@@ -195,7 +195,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | crypt | secret, hidden | 9 | G | cx-crypt | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | du | two | 6 | L | cx-du | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
-| -ise | V | 3 | G | sx-ise | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
+| -ise | V | 3 | G | — | ✓ | — | — | — | — | — | — | L2 |
 | mono | one | 6 | G | px-mono | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | nat | source, birth, tribe | 2 | L | cx-nat | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | -oid | resembling | 3 | G | cx-oid | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
@@ -204,7 +204,7 @@
 | pung | fight | 9 | L | cx-pung | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | sist | stand, state | 4 | L | rx-sist | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | tetra | four | 6 | G | cx-tetra | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | L4 |
-| a-~an- | not, without | 3, 4 | G | px-a | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
+| a-~an- | not, without | 3, 4 | G | px-a | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | -a | [plural] | 9 | L, G | — | ✓ | — | — | — | — | — | — | L2 |
 | ab-~abs- | from, away | 3, 6 | L | px-ab | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
 | -able~-ible~-ble | A | 3, 11 | L | — | ✓ | — | — | — | — | — | — | L2 |
@@ -221,23 +221,23 @@
 | ag~ig | act, do, drive | 5 | L | cx-ag-ig | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | agr | field | 9 | L | cx-agr | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
 | -al~-ial | A | 9 | L | — | ✓ | — | — | — | — | — | — | L2 |
-| al | other | 10 | L | sx-al | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| al | wing | 11 | L | sx-al | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| al~ol~ul | nurture, grow | 4 | L | cx-ol-al | ✓ | ✓ | ✓ | — | — | — | — | L4 |
+| al | other | 10 | L | — | ✓ | — | — | — | — | — | — | L2 |
+| al | wing | 11 | L | — | ✓ | — | — | — | — | — | — | L2 |
+| al~ol~ul | nurture, grow | 4 | L | cx-ol-al | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
 | alb | white | 9 | L | cx-alb | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | alg | pain | 8 | G | cx-alg | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | all~allel | other | 10 | G | cx-all-allel | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | alt (< al 'grow') | high | 5 | L | cx-alt | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | am~im | love | 4 | L | cx-am-im | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | ambul | walk, go | 5 | L | cx-ambul | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
-| an-~a- | not, without | 3, 4 | G | px-a | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
+| an-~a- | not, without | 3, 4 | G | px-a | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | ana- | up, again, back | 3, 6 | G | cx-ana | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | -ance | N | 3, 4 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | -and~-end | N [gerundive] | 9 | L | cx-and-end | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | andr | male, man | 5 | G | cx-andr | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | anim | soul, mind, spirit, (nonplant) life | 2 | L | cx-anim | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
 | ann~enn | year | 4 | L | cx-ann-enn | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
-| -ant | A, N [present participle] | 3, 9 | L | sx-ant | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
+| -ant | A, N [present participle] | 3, 9 | L | sx-ant | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | L6 |
 | ante-~anti- | before | 3 | L | px-ante | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | anthrop | human | 1 | G | cx-anthrop | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | anti-~ante- | before | 3 | L | px-ante | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
@@ -248,7 +248,7 @@
 | arch | first, govern | 5 | G | cx-arch | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | -arium | place | 9 | L | cx-arium | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | -ary | A, N | 3 | L | cx-ary | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| aster~astr | star | 9 | G | cx-aster-astr | ✓ | ✓ | ✓ | — | — | ✓ | — | L4 |
+| aster~astr | star | 9 | G | cx-aster-astr | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
 | -ate | N, A, V | 3, 7 | L | sx-ate | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | aud | hear | 9 | L | cx-aud | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | aur | ear | 8 | L | cx-aur | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
@@ -257,21 +257,21 @@
 | axill | armpit | 8 | L | cx-axill | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | bath~bathy | depth | 9 | G | cx-bath-bathy | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
 | bell | war | 6 | L | cx-bell | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | L4 |
-| bene~bon | good, well | 9 | L | cx-bene-bon | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
-| bi | two | 6 | L | cx-bi | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
+| bene~bon | good, well | 9 | L | cx-bene-bon | ✓ | ✓ | ✓ | — | — | ✓ | — | L4 |
+| bi | two | 6 | L | cx-bi | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | bi | life | 1 | G | cx-bi-gk | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | bin | two (each) | 6 | L | cx-bin | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | bl~bol | throw, extend | 4 | G | cx-bl-bol | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
 | -ble~-able~-ible | A | 3, 11 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | bol~bl | throw, extend | 4 | G | cx-bl-bol | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
-| bon~bene | good | 9 | L | cx-bene-bon | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
+| bon~bene | good | 9 | L | cx-bene-bon | ✓ | ✓ | ✓ | — | — | ✓ | — | L4 |
 | bou~bu | cow | 11 | G | cx-bou-bu | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | bov | cow | 11 | L | cx-bov | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | brach~brachy | short | 9 | G | cx-brach-brachy | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | bu~bou | cow | 11 | G | cx-bou-bu | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | cac | bad | 1 | G | cx-cac | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | cad~cas~cid | fall | 5 | L | cx-cad-cas | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
-| cap~cep~cip~cup | take, contain | 4 | L | rx-cap | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | L4 |
+| cap~cep~cip~cup | take, contain | 4 | L | rx-cap | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | car~carn | flesh | 9 | L | cx-car-carn | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | card | heart | 10 | G | cx-card | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
 | carn~car | flesh | 9 | L | cx-car-carn | ✓ | ✓ | ✓ | — | — | — | — | L4 |
@@ -281,7 +281,7 @@
 | ced~cess | go, let go | 5 | L | cx-ced-cess | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | cens | judge, assess | 6 | L | cx-cens | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | cent | hundred | 6 | L | cx-cent | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
-| cep~cap~cip~cup | take, contain | 4 | L | rx-cap | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | L4 |
+| cep~cap~cip~cup | take, contain | 4 | L | rx-cap | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | cephal | head | 6 | G | cx-cephal | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | cer~cri~cre | separate | 4 | L | cx-cer-cri | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | cervic | neck | 8 | L | cx-cervic | ✓ | ✓ | ✓ | — | — | — | — | L4 |
@@ -291,7 +291,7 @@
 | chron | time | 1 | G | cx-chron | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | cid~cad~cas | fall | 5 | L | cx-cad-cas | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
 | cid~cis | cut, kill | 4 | L | rx-cid | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
-| cip~cap~cep~cup | take, contain | 4 | L | rx-cap | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | L4 |
+| cip~cap~cep~cup | take, contain | 4 | L | rx-cap | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | cis~cid | cut, kill | 4 | L | rx-cid | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | clam | call out | 11 | L | cx-clam | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
 | clav | key, locked | 11 | L | cx-clav | ✓ | ✓ | ✓ | — | — | — | — | L4 |
@@ -301,11 +301,11 @@
 | co-~con-~com- | with, together | 3 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | col | inhabit, grow | 11 | L | px-com | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | con-~com-~co- | with, together | 3 | L | — | ✓ | — | — | — | — | — | — | L2 |
-| contra~counter- | against, facing | 3 | L | cx-contra-counter | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | L4 |
+| contra~counter- | against, facing | 3 | L | cx-contra-counter | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
 | cord | heart | 10 | L | cx-cord | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
 | corp~corpor | body, flesh | 2, 3 | L | cx-corp-corpor | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | cosm | universe, adorn, order | 1 | G | cx-cosm | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
-| counter~contra- | against, facing | 3 | L | cx-contra-counter | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | L4 |
+| counter~contra- | against, facing | 3 | L | cx-contra-counter | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
 | crac~crat | govern | 6 | G | cx-crac-crat | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | L6 |
 | crat~crac | govern | 6 | G | cx-crac-crat | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | L6 |
 | cre~cri~cer | separate | 4 | L | cx-cer-cri | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
@@ -318,8 +318,8 @@
 | -cule~-cle (< -l diminutive) | little | 9 | L | cx-cule-cle | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | culp | fault | 2 | L | cx-culp | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | cumb~cub | lie down, remain | 4 | L | cx-cub-cumb | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | L4 |
-| cup~cap~cep~cip | take, contain | 4 | L | rx-cap | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | L4 |
-| cur | care | 6 | L | cx-cur | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | L6 |
+| cup~cap~cep~cip | take, contain | 4 | L | rx-cap | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
+| cur | care | 6 | L | cx-cur | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | curs~curr | run | 11 | L | cx-curs-curr | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | cut | skin | 8 | L | cx-cut | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
 | da~do~di | give | 9 | L | cx-da-do | ✓ | ✓ | ✓ | — | — | ✓ | — | L4 |
@@ -328,7 +328,7 @@
 | -itis | inflammation | 8 | G | cx-itis | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | -ity | N | 3 | L | sx-ity | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | -ium~-um | thing [singular] | 9 | L | cx-ium-um | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| -ive~-tive | A, N | 3,4,6 | L | cx-tive-ive | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
+| -ive~-tive | A, N | 3,4,6 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | -ize | V | 3 | G | sx-ize | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | jun~juven | young | 10 | L | cx-jun-juven | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
 | jus~jur | law, judge | 9 | L | cx-jus-jur | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
@@ -340,15 +340,15 @@
 | lacrim~lachrym | tear [tir] | 8 | L | cx-lachrym-lacrim | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | lact | milk | 8 | L | cx-lact | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
 | laryng | voice box | 8 | G | cx-laryng | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
-| lat | carry | 10 | L | rx-lat | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| leg | law, deputize | 2 | L | cx-leg | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
+| lat | carry | 10 | L | rx-fer | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
+| leg | law, deputize | 2 | L | cx-leg | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
 | leg~lex~log | speak, study | 1 | G | cx-lex-leg | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
-| leg~lig | gather, read | 5 | L | — | ✓ | — | — | — | — | — | — | L2 |
+| leg~lig | gather, read | 5 | L | rx-lect | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
 | lex~leg~log | word, speak | 1 | G | cx-lex-leg | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
 | libr | balance, weigh | 2 | L | cx-libr | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | lic | permit, unrestrained | 5 | L | cx-lic | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
-| lig | tie, bind | 10 | L | cx-lig | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| lig~leg | gather, read | 5 | L | — | ✓ | — | — | — | — | — | — | L2 |
+| lig | tie, bind | 10 | L | cx-lig | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | L6 |
+| lig~leg | gather, read | 5 | L | rx-lect | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
 | lign | wood | 10 | L | cx-lign | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | lit~lith | stone | 9 | L | cx-lit-lith | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | liter | letter | 2 | L | cx-liter | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
@@ -365,7 +365,7 @@
 | magn | great, large | 10 | L | cx-magn | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | mal~male | bad | 11 | L | cx-mal-male | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
 | mamm | breast | 8 | L | cx-mamm | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
-| man | hand, handle | 6 | L | rx-man | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
+| man | hand, handle | 6 | L | rx-man | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | mant~manc | prophesy | 11 | G | cx-mant-manc | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | matr | mother | 10 | L | cx-matr | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | mega~megal | great, million | 9 | G | cx-mega-megal | ✓ | ✓ | ✓ | ✓ | ✓ | — | — | L6 |
@@ -373,13 +373,13 @@
 | -ment | N | 9 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | meso- | middle | 3 | G | cx-meso | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | meta- | beyond | 3 | G | cx-meta | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
-| metr | mother, uterus | 10 | G | cx-metr | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
+| metr | mother, uterus | 10 | G | — | ✓ | — | — | — | — | — | — | L2 |
 | micr | small | 1 | G | cx-micr | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | mille | thousand | 6 | L | cx-mille | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
 | milli- | thousandth | 6 | L | cx-milli | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
 | mis | hate | 1 | G | — | ✓ | — | — | — | — | — | — | L2 |
 | misc~mix | mix | 9 | L | cx-misc-mix | ✓ | ✓ | ✓ | — | — | — | — | L4 |
-| mitt~miss | send | 3,4 | L | rx-mitt | ✓ | ✓ | ✓ | — | — | ✓ | — | L4 |
+| mitt~miss | send | 3,4 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | mne | remember | 4 | G | cx-mne | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | mo | move | 4 | L | cx-mo | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | mon | one | 6 | G | px-mono | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
@@ -396,7 +396,7 @@
 | nar~nas | nose | 8 | L | cx-nar-nas | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | nas~nar | nose | 8 | L | cx-nar-nas | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | nau | boat | 11 | G | cx-nau | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
-| nav | boat | 11 | L | cx-nav | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
+| nav | boat | 11 | L | cx-nav | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | -nd~-and~-end | N [gerundive] | 9 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | ne | new, recent | 5 | G | cx-ne | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | nec~noc~nic~nox | harm | 4 | L | cx-nec-noc | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
@@ -426,8 +426,8 @@
 | ocul | eye | 9 | L | cx-ocul | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
 | odont | tooth | 11 | G | cx-odont | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | oen~en | wine | 11 | G | cx-oen-en | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| ol~al | nurture, grow | 4 | L | cx-ol-al | ✓ | ✓ | ✓ | — | — | — | — | L4 |
-| -ol (< -l diminutive) | little | 9 | L | cx-ol-al | ✓ | ✓ | ✓ | — | — | — | — | L4 |
+| ol~al | nurture, grow | 4 | L | cx-ol-al | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
+| -ol (< -l diminutive) | little | 9 | L | cx-ol-al | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
 | olig | few | 6 | G | cx-olig | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
 | -oma | tumor, growth | 8 | G | cx-oma | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | omn | all | 2,6 | L | cx-omn | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
@@ -440,7 +440,7 @@
 | orn~ornith | bird | 11 | G | cx-orn-ornith | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | orth | straight, correct | 10 | G | cx-orth | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | -ory | A, N | 3 | L | sx-ory | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| os~or | mouth, opening | 8 | L | cx-os-or | ✓ | ✓ | ✓ | — | — | — | — | L4 |
+| os~or | mouth, opening | 8 | L | cx-os-or | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
 | oss | bone | 8 | L | cx-oss | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | oste | bone | 8 | G | cx-oste | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | -ous~-ose | A | 3 | L | — | ✓ | — | — | — | — | — | — | L2 |
@@ -517,7 +517,7 @@
 | tig~ting~tag~teg~tang | touch | 4 | L | cx-tag-teg | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | L4 |
 | -tion~-ion | N | 3 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | de- | reverse, from | 3,7 | L | px-de | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
-| de~div | god, augury | 4 | L | cx-div-de | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
+| de~div | god, augury | 4 | L | cx-div-de | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | L4 |
 | dec | acceptable | 10 | L | cx-dec | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | deca | ten | 6 | G | cx-deca | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | L4 |
 | decem | ten | 6 | L | cx-decem | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
@@ -535,7 +535,7 @@
 | dic | say, point | 9 | L | cx-dic | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | dich | (split in) two | 6 | G | cx-dich | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | dipl | double | 6 | G | cx-dipl | ✓ | ✓ | ✓ | — | — | — | — | L4 |
-| div~de | god, augury | 4 | L | cx-div-de | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
+| div~de | god, augury | 4 | L | cx-div-de | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | L4 |
 | do | give | 9 | G | cx-do | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | doc | teach | 5 | L | cx-doc | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | doc~dog | opinion | 5 | G | — | ✓ | — | — | — | — | — | — | L2 |
@@ -556,7 +556,7 @@
 | endo- | inside | 3 | G | cx-endo | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | enn~ann | year | 4 | L | cx-ann-enn | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | ennea | nine | 6 | G | cx-ennea | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
-| -ent | A, N [present participle] | 3,9 | L | sx-ent | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
+| -ent | A, N [present participle] | 3,9 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | epi- | on, over | 3 | G | cx-epi | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | ept~apt | fit, capable | 4 | L | cx-apt-ept | ✓ | ✓ | ✓ | — | — | ✓ | — | L4 |
 | equ~iqu | even, level | 4 | L | cx-equ-iqu | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
@@ -567,7 +567,7 @@
 | -esim | -th (ordinal number) | 6 | L | cx-esim | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | esth~aesth | feel | 5 | G | cx-aesth-esth | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | eu- | good | 5 | G | cx-eu | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
-| ev | age | 11 | L | cx-ev | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
+| ev | age | 11 | L | cx-ev | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | ex-~e- | out | 3,6,7 | L | px-e | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | extra- | outside | 3,7 | L | cx-extra | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
 | fa | speak | 10 | L | cx-fa | ✓ | ✓ | ✓ | — | — | — | — | L4 |
@@ -596,7 +596,7 @@
 | giga | giant, billion | 6 | G | cx-giga | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
 | gloss~glott | tongue, speech | 9 | G | cx-gloss-glott | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
 | gn~gen~na | birth, type, origin | 4 | L | cx-gn-gen | ✓ | ✓ | ✓ | — | ✓ | — | ✓ | L4 |
-| gno | know | 9 | G | cx-gno | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
+| gno | know | 9 | G | cx-gno | ✓ | ✓ | ✓ | — | — | ✓ | — | L4 |
 | gon~gen | birth | 4 | G | cx-gon-gen | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | grad~gred~gress | step, go | 5 | L | cx-grad-gred | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | graph~gramm | write | 10 | G | cx-graph | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
@@ -645,7 +645,7 @@
 | inter- | between, among | 3 | L | px-inter | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | intra- | within | 3 | L | px-intra | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | iqu~equ | even, level | 4 | L | cx-equ-iqu | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
-| -tive~-ive | A, N | 2, 3, 6 | L | cx-tive-ive | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
+| -tive~-ive | A, N | 2, 3, 6 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | tom~tm | cut | 4 | G | cx-tom-tm | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | L4 |
 | top | place | 1 | G | cx-top | ✓ | ✓ | ✓ | ✓ | ✓ | — | ✓ | L6 |
 | tot | whole, all | 6 | L | cx-tot | ✓ | ✓ | ✓ | — | — | — | — | L4 |
@@ -657,7 +657,7 @@
 | trop | to turn | 11 | G | cx-trop | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | trud~trus | thrust | 5 | L | cx-trud-trus | ✓ | ✓ | ✓ | ✓ | — | — | ✓ | L5 |
 | -ture~-ure | N | 9 | L | — | ✓ | — | — | — | — | — | — | L2 |
-| -ty | N | 4, 9 | L | sx-ty | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
+| -ty | N | 4, 9 | L | — | ✓ | — | — | — | — | — | — | L2 |
 | -ule (< -l diminutive) | little | 9 | L | cx-ule | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
 | -um~-ium | thing [singular] | 9 | L | cx-ium-um | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | un | one | 6 | L | — | ✓ | — | — | — | — | — | — | L2 |
@@ -670,9 +670,9 @@
 | vas | vessel, blood vessel, duct | 8 | L | cx-vas | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | ven | come | 2 | L | cx-ven | ✓ | ✓ | ✓ | ✓ | — | ✓ | — | L5 |
 | ven | vein | 8 | L | cx-ven-2 | ✓ | ✓ | ✓ | — | — | — | — | L4 |
-| ver | true | 2 | L | cx-ver | ✓ | ✓ | ✓ | — | — | ✓ | ✓ | L4 |
+| ver | true | 2 | L | cx-ver | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | ver | turn | 9 | L | — | ✓ | — | — | — | — | — | — | L2 |
-| verg (< ver) | turn | 9 | L | cx-verg | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
+| verg (< ver) | turn | 9 | L | cx-verg | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | verm (< ver 'turn') | worm | 11 | L | cx-verm | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | viginti | twenty | 6 | L | cx-viginti | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | vin | wine | 11 | L | cx-vin | ✓ | ✓ | ✓ | — | — | — | — | L4 |
@@ -689,7 +689,7 @@
 | path | feel, illness | 1 | G | cx-path | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | L4 |
 | patr | father, country | 10 | G, L | — | ✓ | — | — | — | — | — | — | L2 |
 | pauc | few | 6 | L | cx-pauc | ✓ | ✓ | ✓ | — | — | — | — | L4 |
-| ped | foot | 10 | L | rx-ped | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
+| ped | foot | 10 | L | rx-ped | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | ped~paed | child, teach | 10 | G | cx-paed-ped | ✓ | ✓ | ✓ | — | ✓ | — | — | L4 |
 | pen~pun | punish | 9 | L | cx-pen-pun | ✓ | ✓ | ✓ | — | — | — | — | L4 |
 | pend~pond | hang, weigh | 4 | L | cx-pend-pond | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
@@ -724,12 +724,12 @@
 | pol | community | 1 | G | cx-pol | ✓ | ✓ | ✓ | — | — | — | ✓ | L4 |
 | poly | many | 6 | G | cx-poly | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
 | pom | fruit, apple | 10 | L | cx-pom | ✓ | ✓ | ✓ | — | — | — | — | L4 |
-| pon~pos | place, put | 9 | L | rx-pos | ✓ | ✓ | ✓ | — | — | — | — | L4 |
+| pon~pos | place, put | 9 | L | rx-pos | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
 | pond~pend | hang, weigh | 4 | L | cx-pend-pond | ✓ | ✓ | ✓ | ✓ | — | ✓ | ✓ | L5 |
-| pos~pon | place, put | 9 | L | rx-pos | ✓ | ✓ | ✓ | — | — | — | — | L4 |
-| poss~pot | able, powerful | 2 | L | cx-poss-pot | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
+| pos~pon | place, put | 9 | L | rx-pos | ✓ | ✓ | ✓ | ✓ | — | — | — | L5 |
+| poss~pot | able, powerful | 2 | L | cx-poss-pot | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | post- | after, behind | 3 | L | px-post | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
-| pot | able, powerful | 2 | L | cx-poss-pot | ✓ | ✓ | ✓ | — | ✓ | ✓ | — | L4 |
+| pot | able, powerful | 2 | L | cx-poss-pot | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | — | L7 |
 | prac | act, do | 5 | G | cx-prac | ✓ | ✓ | ✓ | — | ✓ | ✓ | ✓ | L4 |
 | pre- | before | 3 | L | px-pre | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | 全过 |
 | pred | preying | 10 | L | cx-pred | ✓ | ✓ | ✓ | — | — | — | — | L4 |

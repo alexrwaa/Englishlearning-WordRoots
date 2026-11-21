@@ -103,6 +103,56 @@ export async function loadLessons(): Promise<void> {
   loadStats.lessonLoads += 1;
 }
 
+/* ------------------------------ family dossiers --------------------------- *
+ * Hand-researched family files (src/content/families/*.json): core sense,
+ * real members, derivation chains, semantic shifts and homograph traps. They
+ * are optional — a family without a dossier still renders from the lexicon —
+ * and lazy, because they are only read on the family page.
+ * ------------------------------------------------------------------------- */
+
+export interface FamilyDossier {
+  id: string;
+  root: { form: string; glossEn: string; glossZh: string; origin: string; etymon?: string; etymonGloss?: string };
+  coreIdea?: string;
+  members?: { w: string; relation: 'derivative' | 'cognate'; glossZh?: string; layer?: string[]; note?: string }[];
+  allomorphs?: { form: string; note?: string; examples?: string[] }[];
+  derivationChains?: { stages: string[]; note?: string }[];
+  semanticShifts?: { w: string; from?: string; to?: string; why?: string }[];
+  homographTraps?: { form: string; other?: string; note?: string }[];
+  teaching?: {
+    induction?: string;
+    transfer?: { word: string; question?: string; answer?: string };
+  } | null;
+  sources?: { id: string; detail?: string }[];
+}
+
+const familyModules = import.meta.glob<{ default: FamilyDossier }>('../content/families/*.json');
+let familyDossiers: FamilyDossier[] | null = null;
+
+export async function loadFamilies(): Promise<FamilyDossier[]> {
+  if (familyDossiers) return familyDossiers;
+  const loaded: FamilyDossier[] = [];
+  for (const mod of Object.values(familyModules)) {
+    try {
+      const { default: dossier } = await mod();
+      if (dossier?.id) loaded.push(dossier);
+    } catch {
+      /* a malformed dossier must not take the page down */
+    }
+  }
+  familyDossiers = loaded.sort((a, b) => a.id.localeCompare(b.id));
+  return familyDossiers;
+}
+
+/** Dossier for a family id, or undefined when none was researched yet. */
+export function familyDossier(id: string): FamilyDossier | undefined {
+  return familyDossiers?.find((dossier) => dossier.id === id);
+}
+
+export function familyDossierCount(): number {
+  return familyDossiers?.length ?? 0;
+}
+
 /* ------------------------------ lexicon slots ----------------------------- *
  * These arrays are the public, synchronous view of the lexicon. They are
  * intentionally mutable: `loadLexicon()` replaces their contents in place so

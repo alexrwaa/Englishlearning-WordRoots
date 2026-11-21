@@ -2724,6 +2724,35 @@
     "homographs": []
   },
   {
+    "id": "rx-capt",
+    "form": "capt",
+    "type": "root",
+    "origin": "Lat",
+    "senseKey": "capere",
+    "glossZh": "抓、取",
+    "glossEn": "take, seize",
+    "root": "capere",
+    "examples": [
+      "capture",
+      "captive",
+      "caption",
+      "captivate",
+      "accept",
+      "receive"
+    ],
+    "familyId": "fam-cap",
+    "note": "拉丁 capere「抓取」的完成分词词干 capt-。与 caput「头」（rx-capit）同形异源：captain/capital 属「头」，capture/captive 属「抓」。",
+    "sources": [
+      {
+        "id": "S1",
+        "detail": "appendix 1, ch.11 element list"
+      }
+    ],
+    "formKey": "capt",
+    "identityStatus": "verified",
+    "homographs": []
+  },
+  {
     "id": "cx-car-carn",
     "form": "car",
     "type": "root",
@@ -3345,13 +3374,22 @@
     "origin": "Gk",
     "glossZh": "时间",
     "glossEn": "time",
-    "allomorphs": [],
-    "examples": [],
+    "allomorphs": [
+      "chrono"
+    ],
+    "examples": [
+      "chronic",
+      "chronicle",
+      "chronology",
+      "synchronize",
+      "anachronism",
+      "chronological"
+    ],
     "familyId": "fam-chron",
     "textbookRefs": [
       "S1 C1"
     ],
-    "note": "",
+    "note": "希腊 khronos「时间」。组合形式 chrono-（chronology、chronometer）中的 -o- 是连接元音，不是第二个词素；与拉丁-英语的 chron 同形同源，非两项。",
     "sources": [
       {
         "id": "S1",
@@ -5348,7 +5386,8 @@
     "legacyIds": [
       "rx-duct",
       "cx-duct"
-    ]
+    ],
+    "familyId": "fam-duct"
   },
   {
     "id": "rx-duc2",
@@ -19360,7 +19399,6 @@
     ],
     "examples": [
       "instrument",
-      "menstrual",
       "instrumental",
       "instrumentation",
       "construct",

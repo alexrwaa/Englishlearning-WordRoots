@@ -270,6 +270,19 @@ export function loadIdentity(morphemes: Morpheme[], forms?: FormIndex): Identity
     }
 
     if (pool.length === 1) return { id: pool[0], candidates, ambiguous: false };
+
+    // Same spelling, same family: `cept` is listed by cap, ceipt and cept, but
+    // they are one lineage, so picking within it makes no linguistic claim. Use
+    // the record whose canonical form is exactly this spelling, else the first
+    // by id — deterministic, and never crosses into a different etymon.
+    const families = new Set(pool.map((id) => byIdMap.get(id)?.familyId).filter(Boolean));
+    const generics = new Set(['fam-general', 'fam-misc', 'fam-unknown']);
+    const sameFamily = families.size === 1 && ![...families].some((f) => generics.has(f as string));
+    if (sameFamily) {
+      const exact = pool.find((id) => byIdMap.get(id)?.form === form);
+      return { id: exact ?? [...pool].sort()[0], candidates, ambiguous: false };
+    }
+
     return { candidates, ambiguous: true };
   };
 

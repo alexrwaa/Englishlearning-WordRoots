@@ -44,16 +44,7 @@
         "ful",
         "less"
       ],
-      "morphemeIds": [
-        "sx-able",
-        "sx-ible",
-        "sx-ive",
-        "sx-ous",
-        "sx-al",
-        "sx-ic",
-        "sx-ful",
-        "sx-less"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "table",
@@ -118,10 +109,7 @@
         "able",
         "ible"
       ],
-      "morphemeIds": [
-        "sx-able",
-        "sx-ible"
-      ]
+      "morphemeIds": []
     },
     {
       "kind": "compare",
@@ -166,11 +154,7 @@
         "ive",
         "ic"
       ],
-      "morphemeIds": [
-        "sx-al",
-        "sx-ive",
-        "sx-ic"
-      ]
+      "morphemeIds": []
     }
   ],
   "practice": [

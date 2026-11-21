@@ -55,6 +55,9 @@ type WordEntry = {
   cognates?: string[];
   example?: string;
   verified?: boolean;
+  lexical?: boolean;
+  ety?: Record<string, unknown>;
+  note?: string;
   sources?: { id: string; title: string; detail?: string }[];
   partIds?: (string | null)[];
   partResolution?: string;
@@ -81,10 +84,15 @@ function naturalKey(m: { form: string; origin: string; senseKey?: string }): str
 function writeForms(morphemes: Morpheme[]) {
   const forms: FormIndex = {};
   for (const m of morphemes) {
-    const key = normalizeForm(m.form);
-    if (!key) continue;
-    const list = forms[key] ?? (forms[key] = []);
-    if (!list.includes(m.id)) list.push(m.id);
+    // Index the canonical form **and every allomorph**. Without the allomorphs
+    // `spect`, `spic` and `miss` were unresolvable: 164 words were marked
+    // "partial" only because the index could not see the spelling the word uses.
+    for (const spelling of [m.form, ...((m.allomorphs ?? []) as string[])]) {
+      const key = normalizeForm(spelling);
+      if (!key) continue;
+      const list = forms[key] ?? (forms[key] = []);
+      if (!list.includes(m.id)) list.push(m.id);
+    }
   }
   const ordered: FormIndex = {};
   for (const key of Object.keys(forms).sort()) ordered[key] = forms[key].sort();
@@ -311,11 +319,37 @@ function merge(dry: boolean) {
         addedW += 1;
       } else {
         let touched = false;
-        for (const field of ['glossEn', 'etymology', 'semanticShift', 'family', 'example', 'pos'] as const) {
+        // `ety` (structured historical/synchronic/teaching/productive layers),
+        // `lexical` and `note` come from correction batches; without them a
+        // batch that fixes an etymology would silently keep the old story.
+        for (const field of [
+          'glossEn',
+          'etymology',
+          'semanticShift',
+          'family',
+          'example',
+          'pos',
+          'ety',
+          'lexical',
+        ] as const) {
           if (!existing[field] && w[field]) {
             (existing as Record<string, unknown>)[field] = w[field];
             touched = true;
           }
+        }
+        // Correction fields: a later batch is authoritative. Only overwriting
+        // when empty made an iterative fix impossible — the first (incomplete)
+        // version stuck forever.
+        for (const field of ['ety', 'sources', 'note'] as const) {
+          if (w[field]) {
+            (existing as Record<string, unknown>)[field] = w[field];
+            touched = true;
+          }
+        }
+        // A correction batch may explicitly retract a verification claim.
+        if (w.verified === false && existing.verified !== false) {
+          existing.verified = false;
+          touched = true;
         }
         if (!existing.derivation?.length && w.derivation?.length) {
           existing.derivation = w.derivation;
@@ -326,7 +360,10 @@ function merge(dry: boolean) {
         // split silently corrupts the matrix and the derivation tree.
         const nextParts = normParts(w.parts);
         if (nextParts.length && nextParts.join('+') !== (existing.parts ?? []).join('+')) {
-          if (w.verified !== false) {
+          // A batch that carries a structured etymology is a deliberate
+          // correction, so its split wins even when it also marks the word
+          // unverified (that is the point: the old split was the error).
+          if (w.verified !== false || w.ety) {
             existing.parts = nextParts;
             // The old IDs no longer describe the new split; the identity
             // migration recomputes them. Stale IDs are worse than missing ones.
