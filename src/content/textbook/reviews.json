@@ -1334,7 +1334,7 @@
     },
     {
       "id": "cx-leg",
-      "note": "拉丁 lex / legis「法」；legal / legislate / legitimate 属此。与希腊 leg「说」（cx-lex-leg）同形异源。",
+      "note": "拉丁 lex / legis「法」；legal / legislate / legitimate 属此。与希腊 leg「说」（cx-lex-leg）同形异源。（S1 附录未收 leg/lex，故不引教材页码；证据全部来自词典条目。）",
       "kinds": [
         "identity",
         "gloss",
@@ -1342,10 +1342,6 @@
         "derivation"
       ],
       "sources": [
-        {
-          "id": "S1",
-          "detail": "appendix 1, p.274 (ch.2)"
-        },
         {
           "id": "S5",
           "detail": "Wiktionary, s.v. legal: https://en.wiktionary.org/w/index.php?title=legal&action=raw"

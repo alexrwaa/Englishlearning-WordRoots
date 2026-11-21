@@ -21,8 +21,18 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # Every gate that can run without Windows, executed on the *tagged commit*.
+  # A release may not inherit another commit's green checks: v0.9.0's tag built
+  # successfully while the same SHA had failed CI on a stale lesson bundle.
+  gate:
+    name: Quality gate (same commit)
+    uses: ./.github/workflows/ci.yml
+    permissions:
+      contents: read
+
   build:
     name: Windows x64 portable ZIP
+    needs: gate
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4

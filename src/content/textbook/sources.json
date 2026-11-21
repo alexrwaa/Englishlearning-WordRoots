@@ -63,7 +63,8 @@
       "acquiredFormats": [
         "pdf"
       ],
-      "parsedAt": "2026-11-19"
+      "parsedAt": "2026-11-19",
+      "rights": "Author-copyrighted handouts and papers (Bowers & Kirby 2010, workshop booklet, spelling-out paper). Not redistributed: only the method is described, no PDF pages, no verbatim prose."
     },
     {
       "id": "S4",
@@ -78,7 +79,8 @@
         "txt",
         "epub"
       ],
-      "parsedAt": "2026-11-19"
+      "parsedAt": "2026-11-19",
+      "rights": "Public domain (New Word-Analysis, 1879). Quoted only for historical framing; no facsimile pages shipped."
     },
     {
       "id": "S5",
@@ -99,7 +101,7 @@
       "status": "reference-set",
       "role": "supporting",
       "evidence": "Used for modern English senses and register labels (e.g. Merriam-Webster, Cambridge, Wiktionary senses).",
-      "rights": "Consulted for facts only.",
+      "rights": "Licensed reference works consulted for facts only. Not redistributed: no entries, definitions or article text are shipped; citations point at the work, not at copied content.",
       "citationPolicy": "A citation must name the entry and sense, e.g. {id:'G1', detail:'MW, s.v. lucid, sense 1a'}."
     },
     {
@@ -108,10 +110,22 @@
       "edition": "—",
       "publisher": "WordRoots",
       "status": "derived",
-      "role": "method",
+      "role": "rule",
       "evidence": "Orthographic rules of this project: silent-e loss, y→i, consonant doubling, assimilation sets. These are rules, not sources of linguistic fact.",
-      "rights": "Project original.",
+      "rights": "Project original (MIT). Not a linguistic source: records our own analysis rules. Not an external reference.",
       "citationPolicy": "Citing LEX means 'derived by a project rule', never 'verified by a dictionary'."
+    },
+    {
+      "id": "G2",
+      "title": "A Latin Dictionary (Lewis & Short, 1879)",
+      "year": "1879",
+      "publisher": "Clarendon Press (Internet Archive scan)",
+      "status": "full-text",
+      "role": "dictionary",
+      "evidence": "Full text retrieved from Internet Archive (latindictionaryf00lewiiala_djvu.txt); headword entries quoted with file offsets.",
+      "url": "https://archive.org/details/latindictionaryf00lewiiala",
+      "rights": "Public domain (1879). Quoted in short excerpts only for verification; the full text is not redistributed.",
+      "note": "Independent editorial source from Wiktionary: 19th-century Latin lexicography, useful for checking etymon and sense."
     }
   ]
 }

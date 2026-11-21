@@ -10,6 +10,10 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+  # Called by portable-windows.yml so a tag runs *these* checks on *its own*
+  # commit. Before 0.9.1 the release trusted main's green CI, and v0.9.0 shipped
+  # a tag whose identical SHA had failed here on a stale lesson bundle.
+  workflow_call:
 
 permissions:
   contents: read
@@ -56,7 +60,9 @@ jobs:
       - name: Word status doc is current
         run: node scripts/word-status-report.mjs --check
       - name: Review evidence audit
-        run: node scripts/audit-reviews.mjs
+        run: node scripts/audit-reviews.mjs --check
+      - name: Licence and provenance
+        run: node scripts/check-license.mjs
       # A single unbalanced here-string in package-portable.ps1 broke the 0.5.0
       # portable build without any readable error. Parsing costs a second.
       - name: Script syntax check
