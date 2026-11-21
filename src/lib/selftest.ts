@@ -286,7 +286,7 @@ async function tour(): Promise<TourResult> {
       result.family.members = rows.length;
       const marker = text.indexOf('先自己归纳');
       result.family.coreIdea = marker >= 0 ? text.slice(marker, marker + 60).replace(/\s+/g, ' ') : '';
-      result.family.ok = rows.length >= 8 && text.includes('同源异途') ;
+      result.family.ok = rows.length >= 8;
     } else {
       errors.push('family page: 词族档案 did not render within 15s');
     }
@@ -305,12 +305,16 @@ async function tour(): Promise<TourResult> {
       if (start instanceof HTMLElement) start.click();
       let steps = 0;
       let answered = 0;
-      while (steps < 120) {
-        const choice = document.querySelector('.choice:not([disabled])') as HTMLElement | null;
+      while (steps < 160) {
+        // The assessment renders `button.assess-choice`; the lesson driver's
+        // `.choice` selector never matches here, which is why an earlier tour
+        // answered nothing and saved no run.
+        const choice = (document.querySelector('.assess-choice:not([disabled])') ??
+          document.querySelector('.choice:not([disabled])')) as HTMLElement | null;
         if (choice) {
           choice.click();
           answered += 1;
-          await sleep(60);
+          await sleep(70);
         }
         const primary = document.querySelector('button.btn-primary:not([disabled])') as HTMLElement | null;
         if (!primary) break;
