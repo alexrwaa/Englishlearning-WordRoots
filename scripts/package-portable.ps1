@@ -49,7 +49,10 @@ Copy-Item (Join-Path $lex '*.json') (Join-Path $app 'courses/lexicon') -Force
 # read the shipped text without unpacking the JS — the same reason courses/weeks
 # is present even though the runtime reads the bundle.
 foreach ($extra in @(@{ from = 'src/content/families'; to = 'courses/families' },
-                     @{ from = 'src/content/assessment'; to = 'courses/assessment' })) {
+                     @{ from = 'src/content/assessment'; to = 'courses/assessment' },
+                     # Evidence records + source registry: a reader holding only the
+                     # zip should be able to check a citation without a clone.
+                     @{ from = 'src/content/textbook'; to = 'courses/textbook' })) {
   $srcDir = Join-Path $root $extra.from
   if (Test-Path $srcDir) {
     Copy-Item (Join-Path $srcDir '*.json') (Join-Path $app $extra.to) -Force
@@ -166,6 +169,7 @@ Write-Utf8NoBom -Path (Join-Path $app 'README.txt') -Text $readme
 $required = @('WordRoots.exe', 'README.txt', 'BUILD-INFO.json', 'data', 'courses', 'courses/manifest.json',
   'courses/lexicon/forms.json', 'courses/lexicon/morphemes.json', 'courses/lexicon/words.json',
   'courses/lexicon/concepts.json', 'courses/families', 'courses/assessment/items.json',
+  'courses/textbook/sources.json', 'courses/textbook/reviews.json',
   'app-data', 'backups')
 foreach ($item in $required) {
   if (-not (Test-Path (Join-Path $app $item))) { throw "portable layout missing: $item" }
@@ -210,6 +214,18 @@ foreach ($file in @(Get-ChildItem -LiteralPath (Join-Path $app 'courses/families
   $hashes["families/$($file.Name)"] = (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash.ToLower()
 }
 $hashes['assessment/items.json'] = (Get-FileHash -LiteralPath $bankPath -Algorithm SHA256).Hash.ToLower()
+foreach ($file in @(Get-ChildItem -LiteralPath (Join-Path $app 'courses/textbook') -Filter '*.json' -File | Sort-Object Name)) {
+  $hashes["textbook/$($file.Name)"] = (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash.ToLower()
+}
+
+# Evidence records must survive packaging: a release whose citations cannot be
+# followed is a release nobody can audit.
+$reviewsPath = Join-Path $app 'courses/textbook/reviews.json'
+$reviewDoc = Get-Content -LiteralPath $reviewsPath -Raw -Encoding UTF8 | ConvertFrom-Json
+$reviewCount = @($reviewDoc.entries).Count
+if ($reviewCount -lt 200) { throw "courses/textbook/reviews.json has $reviewCount entries, expected at least 200" }
+$withClaims = @($reviewDoc.entries | Where-Object { $_.verification }).Count
+if ($withClaims -lt 10) { throw "only $withClaims review entries carry verification records" }
 $hashFile = [ordered]@{ generatedAt = (Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ'); files = $hashes }
 Write-Utf8NoBom -Path (Join-Path $app 'courses/CONTENT-HASHES.json') -Text ($hashFile | ConvertTo-Json -Depth 4)
 Write-Host "families: $($familyFiles.Count), assessment items: $($items.Count), dimensions: $($dims.Count)"

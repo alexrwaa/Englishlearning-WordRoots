@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T23:39:23.811Z",
+  "generatedAt": "2026-11-22T00:02:20.374Z",
   "command": "node scripts/audit-textbook.mjs",
   "criteria": {
     "taught": "卡片正文有实质讲解（正文 ≥120 字，或 ≥80 字且含定义句），且至少出现 1 个真实例词；card.terms 术语表不算",
