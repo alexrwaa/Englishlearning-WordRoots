@@ -35,6 +35,9 @@ export default function FamilyInquiry({ dossier, familyId, known }: Props) {
   const [sumInputs, setSumInputs] = useState<Record<string, string>>({});
   const [sumResults, setSumResults] = useState<Record<string, boolean>>({});
   const [hintLevel, setHintLevel] = useState(0);
+  // Guards the autosave: without it the first render would write the initial
+  // empty state over a learner's saved progress before the load effect runs.
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     const saved = loadProgress(familyId, window.localStorage);
@@ -43,20 +46,24 @@ export default function FamilyInquiry({ dossier, familyId, known }: Props) {
       setDone(saved.done);
       setHypothesis(saved.hypothesis);
     }
+    setLoaded(true);
   }, [familyId, model.steps.length]);
 
+  // Persist on every change rather than only on "next": a learner who answers a
+  // step and closes the app should keep that answer, and the GUI smoke test needs
+  // a state that is written as soon as it interacts.
+  useEffect(() => {
+    if (!loaded) return;
+    saveProgress(familyId, { step, done, hypothesis }, window.localStorage);
+  }, [loaded, familyId, step, done, hypothesis]);
+
   const markDone = (id: InquiryStepId) => {
-    const nextDone = done.includes(id) ? done : [...done, id];
-    setDone(nextDone);
-    saveProgress(familyId, { step, done: nextDone, hypothesis }, window.localStorage);
+    if (!done.includes(id)) setDone([...done, id]);
   };
 
   const advance = () => {
-    const id = model.steps[step].id;
-    markDone(id);
-    const next = Math.min(step + 1, model.steps.length - 1);
-    setStep(next);
-    saveProgress(familyId, { step: next, done: done.includes(id) ? done : [...done, id], hypothesis }, window.localStorage);
+    markDone(model.steps[step].id);
+    setStep(Math.min(step + 1, model.steps.length - 1));
   };
 
   const current = model.steps[step];
