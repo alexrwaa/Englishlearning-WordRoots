@@ -22,7 +22,7 @@ New-Item -ItemType Directory -Path $app | Out-Null
 
 Copy-Item $exe (Join-Path $app 'WordRoots.exe')
 
-foreach ($dir in @('data', 'app-data/cache', 'app-data/config', 'app-data/logs', 'backups', 'courses/weeks', 'courses/lexicon', 'courses/families', 'courses/assessment')) {
+foreach ($dir in @('data', 'app-data/cache', 'app-data/config', 'app-data/logs', 'backups', 'courses/weeks', 'courses/lexicon', 'courses/families', 'courses/assessment', 'courses/textbook')) {
   New-Item -ItemType Directory -Path (Join-Path $app $dir) -Force | Out-Null
 }
 
@@ -55,7 +55,11 @@ foreach ($extra in @(@{ from = 'src/content/families'; to = 'courses/families' }
                      @{ from = 'src/content/textbook'; to = 'courses/textbook' })) {
   $srcDir = Join-Path $root $extra.from
   if (Test-Path $srcDir) {
-    Copy-Item (Join-Path $srcDir '*.json') (Join-Path $app $extra.to) -Force
+    $destDir = Join-Path $app $extra.to
+    # The destination must exist first: copying onto a non-existent path makes
+    # Copy-Item treat the folder name as a file name and fail.
+    if (-not (Test-Path $destDir)) { New-Item -ItemType Directory -Path $destDir -Force | Out-Null }
+    Copy-Item (Join-Path $srcDir '*.json') $destDir -Force
   }
 }
 
