@@ -1,4 +1,13 @@
-#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+// Unconditional on purpose. The old `cfg_attr(not(debug_assertions), ...)` only
+// fixed *release* builds: any binary compiled with debug assertions on (a plain
+// `cargo build`, a debug-profile package, a profile with `debug-assertions=true`)
+// came out as a CONSOLE-subsystem executable, and Windows opened a black console
+// beside the window. Nothing in this crate prints to stdout — every message goes
+// to `app-data/logs/wordroots.log` — so asking for the GUI subsystem always is
+// safe, and `scripts/check-window-mode.ps1` fails the build if the shipped exe
+// is anything else. `not(test)` keeps the cargo test harness on stdout, where
+// its reporting belongs; every binary users can run is GUI-subsystem.
+#![cfg_attr(not(test), windows_subsystem = "windows")]
 
 mod commands;
 mod db;

@@ -1,116 +1,84 @@
-# WordRoots 0.12.0
+# WordRoots 0.12.1
 
-**探究记录进了 SQLite，Word Sum 判题改成有语言学依据的规则，词族可以一轮一轮往深走。**
-上一版见 [`releases/v0.11.1.md`](v0.11.1.md)。
+**三处 P0：双击不再可能弹出控制台、Word Sum 不再把未核验结构当标准答案、探究进度不再有丢失窗口。**
+上一版见 [`releases/v0.12.0.md`](v0.12.0.md)。
 
-## 一、P0：探究记录迁到 SQLite
+## 一、P0：控制台窗口（根因 + 门禁）
 
-`wordroots.family.inquiry.v1`（localStorage）不再权威。新表 `inquiry_progress`，库 schema 3→4，
-行级 `schema_version=1`：
+### 根因
 
-| 字段 | 内容 |
+入口写的是 `#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]`——
+**只在关闭 debug_assertions 的构建里**才是 GUI 子系统。任何带断言的构建（`cargo build` 不带 `--release`、
+自定义 profile、本地打包）产出的都是 **CONSOLE 子系统** 的可执行文件，
+Windows 会在 `main()` 执行前就给它分配控制台窗口。程序内部无论怎么隐藏都没用，
+因为窗口在代码运行之前就出现了。
+
+排查过的其他可能，都不是原因：
+
+| 排查项 | 结论 |
 | --- | --- |
-| `family_id` | 稳定族 id（`fam-spect`），主键 |
-| `step` / `done` | 当前步骤、已完成步骤 |
-| `hypothesis` | 学习者写的假设原文 |
-| `picks` | 发现阶段选择、验证答案、已见词、探索轮次、修改次数 |
-| `sums` | Word Sum 输入 |
-| `hints` / `elapsed_ms` | 提示级别、实际用时 |
+| 子进程（`reg.exe` 读代理设置） | 早已用 `CREATE_NO_WINDOW` |
+| `explorer.exe` 打开数据目录 | GUI 程序，不建控制台；本轮也补上了 `CREATE_NO_WINDOW` |
+| 程序自己往 stdout 写 | 全仓库没有一处 `println!`/`eprintln!`，日志只写 `app-data/logs/wordroots.log` |
+| 启动器 / 脚本 | 便携包直接放 `WordRoots.exe`，没有 .bat/.cmd 包装 |
+| Debug 与 Release 差异 | 就是这个差异——即根因本身 |
 
-- **迁移**：localStorage 一次性搬入（marker `…migrated.v1`），库非空则库胜、不合并；跑两次不变。
-- **失败可见**：保存被拒时界面显示「进度未保存…重试」，**不再**出现"已保存"。
-  读失败不武装自动保存，避免用空状态覆盖读不到的数据。
-- **多族串进度已修**：`loaded: boolean` 改成 `{familyId, loadedFor}` 状态机，
-  快速切族时 A 的 `true` 不会让 B 存下 A 的答案。
-- **备份**：快照新增 `inquiry_progress`，**只有备份文件里带这个键时**才清空重灌——
-  旧备份没有这个字段时保留现有进度，不会被"恢复"清掉。
-- 浏览器预览仍走 localStorage shim，错误语义一致。
+### 修复
 
-## 二、P0：Word Sum 判题重写
+1. 子系统改为 `#![cfg_attr(not(test), windows_subsystem = "windows")]`：
+   **所有给用户的二进制都是 GUI 子系统**，只有 `cargo test` 的测试宿主保留 stdout。
+2. `explorer` 子进程补 `CREATE_NO_WINDOW`，让"每个子进程都隐藏"成为可检查的不变量。
+3. 新增 `scripts/check-window-mode.ps1`：
+   - 直接读 PE 头里的 `Subsystem`（2=GUI，3=控制台）；
+   - 连续启动两次，每 100ms 枚举**可见**的 `ConsoleWindowClass` / `PseudoConsoleWindow` /
+     `CASCADIA_HOSTING_WINDOW_CLASS` 窗口，与启动前的基线做差集。
+   **conhost.exe 存在不算失败**，只有"出现可见控制台窗口"才算。
+4. 两道门禁：
+   - 构建阶段 `-SubsystemOnly`：编译完立刻查 PE 头，几秒内失败，不必等打包；
+   - 冒烟场景 13：在正式 ZIP 上启动两次并观察窗口。
 
-旧 `checkSum()` 把所有连续双写字母压成一个，于是 `press → pres`、`miss → mis` 被判等价。
+### 验收（本地已验证探针本身）
 
-现在只有 5 条具名规则能改字母，其余必须逐字符相同：
+| 目标 | 结果 |
+| --- | --- |
+| `notepad.exe`（GUI） | `subsystem: 2`，两次启动 0 个控制台窗口 |
+| `cmd.exe`（控制台） | `subsystem: 3`，退出码 1，报"会给控制台程序开窗" |
 
-| 规则 | 例子 | 不适用 |
+正式 EXE 的结果由 CI 场景 13 在真实 Windows Runner 上跑出，未通过则阻断发布。
+
+## 二、P0：Word Sum 不再把未核验结构当标准答案
+
+参考结构现在带 `analysis: { kind, verified, source }`：
+
+| `kind` | 含义 | 能否自动判分 |
 | --- | --- | --- |
-| `e-drop` | `create + ion → creation` | `care + ful` |
-| `y-to-i` | `happy + ness → happiness` | `play + ing` |
-| `consonant-doubling` | `admit + ed → admitted` | `visit + ed`（非重读） |
-| `assimilation` | `ad + ferent → afferent`（白名单） | 白名单外一律不认 |
-| `connective-vowel` | `spectr + o + meter` | 任意元音不套用 |
+| `synchronous` | 现代共时可分析 | 仅当 `verified: true` |
+| `historical` | 历史借入/拉丁形态 | 否，判 `unverified` 并说明 |
+| `analogical` | 教学拆分/助记 | 否 |
+| `cognate` | 历史同源 | 否 |
 
-判题结果分三层：`structure`（切分对不对）/ `spelling`（拼写是否合法）/ `ruleIds`（命中了哪条）。
-无法判断时返回 `unresolved` 并说明原因，不判错：空输入、词库无此词素、差异 ≥2 字母无法归因。
+**spectator**：现代切分改为 `spectate + -or`，`spect + -ator` 降为 `historical` 备选；
+说明里明确"spectate 是由 spectator 逆构出来的动词，方向不能反过来讲"。
 
-`press/pres`、`miss/mis`、`add/ad`、`occ/oc`、`curr/cur` 现在全部判错，并给出
-"双写是词本身的拼写，删掉一个不是任何规则允许的变化"。
+12 个词族全部扫描，结果写在 `docs/SUM_ANSWER_AUDIT.md`。
 
-## 三、P1：词族可以一轮一轮往深走
+## 三、P0：探究进度不再丢
 
-- 成员按**层**选：基础（词根+一个词缀）/ 变化（多词缀）/ 进阶（同源词）。
-- 观察、验证、Word Sum 都随**轮次**轮换，已见词记在记录里，下一轮优先给没见过的。
-- 第六步给「再探一次」按钮：保留见过的词，清掉这一轮的作答。
-- 验证用的词**不会**是刚在观察里出现过的。
-- Word Matrix 不再只显示前 3 条派生链；Word Sum 最多 3 条但按轮次轮换。
-- 同源词在验证里明确写"历史同源，不是现代派生"。
+- **单飞 + 合并**：同一族同时只有一个写入，期间的修改合并成"待写最新值"，写完再补一次。
+- **立即落盘**：关窗、页面隐藏、切族、卸载都立刻触发一次写；卸载时那次是尽力而为，
+  未完成会记进日志，**不假装成功**。
+- **序号**：每次修改递增 `revision`，只有 `savedRevision === currentRevision` 才显示"已保存"——
+  上一笔的成功回调再也不能点亮新状态的"已保存"。
+- 失败显示错误 + 重试；恢复备份后重读库，不沿用旧内存。
 
-## 四、P1：S1/S2 缺口清零
+## 四、测试
 
-44 条 partial 逐条归因，不是一律加题：
+**481 条**（27 文件），本轮新增 28 条：判题门禁 13、进度冲刷 15。
 
-| 归因 | S1 | S2 |
-| --- | --- | --- |
-| 有题但审计没识别 | 23 | 1 |
-| 讲了但缺定点练习 | 14 | 1 |
-| 真的没讲 | 4 | 1（缺例词） |
-| 内容事实错误 | 0 | 0 |
+## 五、仍未完成
 
-新增 18 道原创题（都带 ≥60 字 explain 与错因）、4 张正文卡、2 处补句，动 18 个课时。
-审计新增 25 条 `S1_PRACTICE_ANCHORS`（必须命中题干/选项/答案才算），改 `selection` 的匹配正则
-覆盖「宿主必须」。**taught 门槛与 0.35 阈值一个字没动。**
-
-结果：**S1 283/283、S2 43/43、S3 5/5、S4 16/16，0 missing。**
-逐条记录见 `docs/GAP_CLOSURE.md`；抽样 3 条复核写在报告里。
-
-## 五、P1：主张级核验继续深入
-
-| 主张 | 有证据 | 单一来源 | 跨来源 |
-| --- | --- | --- | --- |
-| root-sense | 18 | 4 | 14 |
-| classical-derivation | 0 | 0 | 0 |
-| **borrowing-path** | **13** | 13 | 0 |
-| **modern-structure** | **12** | 12 | 0 |
-| modern-sense | 0 | 0 | 0 |
-
-12 个深度词族各补了两类主张，证据是 Wiktionary 词源模板原文（如
-`Borrowed from {{bor|en|la|spectātor}}`）。**全部单一来源**——这是实话，不是进度。
-
-顺带查出一处教学数据问题：`spectator` 的共时切分是 `spectate + -or`，
-不是族里写的 `spect + -ator`。历史形态 ≠ 现代能产切分，已标为 `modern-structure: partial`。
-
-希腊索引：1187 组同键冲突不再合并成一条，改为多候选（原始词形、词条 id、定位都保留）；
-`--disambiguate` 报告 198 组可完整消歧、13 组部分、**976 组无法消歧就保留多候选，不猜**。
-`docs/GREEK_SOURCES.md` 已改正「核验记录未入库」的过期说法。
-
-## 六、P2：口径与埋点
-
-- **修了日期口径不一致**：学习报告按 UTC 切活跃天数，统计页按本地日期，午夜前后会差一天。
-  统一为本地日期，加三条时区测试。
-- 探究记录新增「修改次数」（改过几次答案），与提示级别、实际用时一起落库。
-- **没做**：题目级"点开提示"事件。需要独立的 `hint_event` 表 + 迁移 + 备份路径，
-  本轮没有铺开，写在这里而不是假装有。
-
-## 七、测试与冒烟
-
-- **453 条单元测试**（25 个文件）：新增 `word-sum` 45 条、`inquiry-store` 16 条、分层 6 条、时区 3 条。
-- Windows 冒烟 12 场景，第 12 场景**新增关闭重开**：同目录连续启动两次，
-  第二次断言 `restored=true`（第一轮存下的记录被读回）且 `isolated=true`（没访问的族没有记录）。
-
-## 八、仍未完成
-
-1. 借词路径与共时结构**没有一条跨来源证据**（都只有 Wiktionary）。
+1. `borrowing-path` / `modern-structure` 仍无跨来源证据。
 2. `classical-derivation`、`modern-sense` 仍为 0。
-3. 题目级提示事件未埋点。
-4. S3「观察」环节的现象仍由课程挑选，不是学生自选语料（报告里已注明）。
+3. 题目级"点开提示"事件仍未埋点。
+4. 用户环境（Clash Verge / TUN、便携迁移）验收未做。
 5. 没有真人学习效果数据。

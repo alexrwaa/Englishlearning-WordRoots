@@ -14,129 +14,273 @@
       "w": "describe",
       "relation": "derivative",
       "glossZh": "描述",
-      "layer": ["de-", "scrib"],
-      "note": "de- 向下 + 写 → 一笔笔写下来"
+      "layer": [
+        "de-",
+        "scribe"
+      ],
+      "note": "de- 向下 + 写 → 一笔笔写下来",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "inscribe",
       "relation": "derivative",
       "glossZh": "刻写；题献",
-      "layer": ["in-", "scrib"],
-      "note": "in- 在内 + 写 → 写进表面里"
+      "layer": [
+        "in-",
+        "scribe"
+      ],
+      "note": "in- 在内 + 写 → 写进表面里",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "subscribe",
       "relation": "derivative",
       "glossZh": "订阅；赞同",
-      "layer": ["sub-", "scrib"],
-      "note": "sub- 在下 + 写 → 在文件下方签名"
+      "layer": [
+        "sub-",
+        "scribe"
+      ],
+      "note": "sub- 在下 + 写 → 在文件下方签名",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "prescribe",
       "relation": "derivative",
       "glossZh": "开处方；规定",
-      "layer": ["pre-", "scrib"],
-      "note": "pre- 预先 + 写 → 事先写下该怎么做"
+      "layer": [
+        "pre-",
+        "scribe"
+      ],
+      "note": "pre- 预先 + 写 → 事先写下该怎么做",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "proscribe",
       "relation": "derivative",
       "glossZh": "禁止",
-      "layer": ["pro-", "scrib"],
-      "note": "pro- 公开 + 写 → 把名单公开写出，即宣布为非法"
+      "layer": [
+        "pro-",
+        "scribe"
+      ],
+      "note": "pro- 公开 + 写 → 把名单公开写出，即宣布为非法",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "manuscript",
       "relation": "derivative",
       "glossZh": "手稿",
-      "layer": ["manu-", "script"],
-      "note": "manu- 手（manus）+ script 写 → 手写的东西"
+      "layer": [
+        "manu-",
+        "script"
+      ],
+      "note": "manu- 手（manus）+ script 写 → 手写的东西",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S5",
+        "note": "manu- 是 manus 的连接形式，不是前缀"
+      }
     },
     {
       "w": "script",
       "relation": "derivative",
       "glossZh": "脚本；笔迹",
-      "layer": ["script"],
-      "note": "拉丁 scriptum「写下的东西」直接借入"
+      "layer": [
+        "script"
+      ],
+      "note": "拉丁 scriptum「写下的东西」直接借入",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "scripture",
       "relation": "derivative",
       "glossZh": "经文",
-      "layer": ["script", "-ure"],
-      "note": "-ure 造名词：被写下的神圣文本"
+      "layer": [
+        "script",
+        "-ure"
+      ],
+      "note": "-ure 造名词：被写下的神圣文本",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "prescription",
       "relation": "derivative",
       "glossZh": "处方",
-      "layer": ["pre-", "script", "-ion"],
-      "note": "prescribe 的名词形，词干换 script"
+      "layer": [
+        "pre-",
+        "script",
+        "-ion"
+      ],
+      "note": "prescribe 的名词形，词干换 script",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "subscription",
       "relation": "derivative",
       "glossZh": "订阅（行为）",
-      "layer": ["sub-", "script", "-ion"],
-      "note": "与 subscribe 同源，名词走分词词干"
+      "layer": [
+        "sub-",
+        "script",
+        "-ion"
+      ],
+      "note": "与 subscribe 同源，名词走分词词干",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "description",
       "relation": "derivative",
       "glossZh": "描述（文字）",
-      "layer": ["de-", "script", "-ion"],
-      "note": "describe 的名词形，-b- 变 -p-"
+      "layer": [
+        "de-",
+        "script",
+        "-ion"
+      ],
+      "note": "describe 的名词形，-b- 变 -p-",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "transcript",
       "relation": "derivative",
       "glossZh": "转录本；成绩单",
-      "layer": ["trans-", "script"],
-      "note": "trans- 转 + 写 → 从一处抄写到另一处"
+      "layer": [
+        "trans-",
+        "script"
+      ],
+      "note": "trans- 转 + 写 → 从一处抄写到另一处",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S5",
+        "note": "trans + script 拼出 transscript；实际的 s 脱落（haplology）不是现代规则"
+      }
     },
     {
       "w": "conscript",
       "relation": "derivative",
       "glossZh": "征召",
-      "layer": ["con-", "script"],
-      "note": "con- 一起 + 写 → 把名字一起写进名册"
+      "layer": [
+        "con-",
+        "script"
+      ],
+      "note": "con- 一起 + 写 → 把名字一起写进名册",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "postscript",
       "relation": "derivative",
       "glossZh": "附言",
-      "layer": ["post-", "script"],
-      "note": "post- 之后 + 写 → 写完之后又添的"
+      "layer": [
+        "post-",
+        "script"
+      ],
+      "note": "post- 之后 + 写 → 写完之后又添的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "scribble",
       "relation": "cognate",
       "glossZh": "涂写",
-      "note": "同源异途：拉丁指小形式 scribillare，-ble 不是英语后缀，不能按 scrib + ble 讲"
+      "note": "同源异途：拉丁指小形式 scribillare，-ble 不是英语后缀，不能按 scrib + ble 讲",
+      "analysis": {
+        "kind": "cognate",
+        "verified": false
+      }
     }
   ],
   "allomorphs": [
     {
       "form": "script",
       "note": "拉丁过去分词词干，名词与形容词几乎都走这一支",
-      "examples": ["script", "prescription", "manuscript"]
+      "examples": [
+        "script",
+        "prescription",
+        "manuscript"
+      ]
     }
   ],
   "derivationChains": [
     {
-      "stages": ["scrib", "describe", "description", "descriptive"],
+      "stages": [
+        "scrib",
+        "describe",
+        "description",
+        "descriptive"
+      ],
       "note": "每一级都真实成词；动词 b → 名词 p 是拉丁音变，不是拼写错误"
     },
     {
-      "stages": ["scrib", "prescribe", "prescription", "prescriptive"],
+      "stages": [
+        "scrib",
+        "prescribe",
+        "prescription",
+        "prescriptive"
+      ],
       "note": "prescriptive 从「预先写下」转为「规定性的」"
     },
     {
-      "stages": ["scrib", "subscribe", "subscription", "subscriber"],
+      "stages": [
+        "scrib",
+        "subscribe",
+        "subscription",
+        "subscriber"
+      ],
       "note": "subscriber 由 subscribe + -er，不经 subscription"
     },
     {
-      "stages": ["scrib", "inscribe", "inscription", "inscriptional"],
+      "stages": [
+        "scrib",
+        "inscribe",
+        "inscription",
+        "inscriptional"
+      ],
       "note": "inscriptional 较少用，但词典有收"
     }
   ],

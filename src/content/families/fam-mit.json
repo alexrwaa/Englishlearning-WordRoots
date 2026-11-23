@@ -18,7 +18,12 @@
         "sub-",
         "mit"
       ],
-      "note": "sub- 在下 + 送 → 送到上级或规则之下"
+      "note": "sub- 在下 + 送 → 送到上级或规则之下",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "transmit",
@@ -28,7 +33,12 @@
         "trans-",
         "mit"
       ],
-      "note": "trans- 穿过 + 送 → 从一端送到另一端"
+      "note": "trans- 穿过 + 送 → 从一端送到另一端",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "permit",
@@ -38,7 +48,12 @@
         "per-",
         "mit"
       ],
-      "note": "per- 通过 + 送 → 放它通过"
+      "note": "per- 通过 + 送 → 放它通过",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "commit",
@@ -48,7 +63,12 @@
         "com-",
         "mit"
       ],
-      "note": "com- 完全 + 送 → 把自己整个交出去"
+      "note": "com- 完全 + 送 → 把自己整个交出去",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "admit",
@@ -58,7 +78,12 @@
         "ad-",
         "mit"
       ],
-      "note": "ad- 向 + 送 → 让人进来；把事实送进自己口中"
+      "note": "ad- 向 + 送 → 让人进来；把事实送进自己口中",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "emit",
@@ -68,7 +93,12 @@
         "e-",
         "mit"
       ],
-      "note": "e- 向外 + 送"
+      "note": "e- 向外 + 送",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "omit",
@@ -77,7 +107,13 @@
       "layer": [
         "mit"
       ],
-      "note": "拉丁 omittere = ob- + mittere「放掉」；o- 是 ob- 的弱化，未单列"
+      "note": "拉丁 omittere = ob- + mittere「放掉」；o- 是 ob- 的弱化，未单列",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S1",
+        "note": "omit 的 mit 前还有 o-（< ob-），mit 单独拼不出 omit"
+      }
     },
     {
       "w": "remit",
@@ -87,7 +123,12 @@
         "re-",
         "mit"
       ],
-      "note": "re- 回 + 送 → 把钱送回；把责罚送回（免掉）"
+      "note": "re- 回 + 送 → 把钱送回；把责罚送回（免掉）",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "dismiss",
@@ -97,7 +138,12 @@
         "dis-",
         "miss"
       ],
-      "note": "dis- 分开 + 送 → 让各自散去"
+      "note": "dis- 分开 + 送 → 让各自散去",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "mission",
@@ -107,7 +153,12 @@
         "miss",
         "-ion"
       ],
-      "note": "-ion 造名词：被派出去做的事"
+      "note": "-ion 造名词：被派出去做的事",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "missile",
@@ -117,7 +168,12 @@
         "miss",
         "-ile"
       ],
-      "note": "-ile 表物：被投送出去的东西"
+      "note": "-ile 表物：被投送出去的东西",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "message",
@@ -127,7 +183,13 @@
         "miss",
         "-age"
       ],
-      "note": "拉丁 missaticum「被送出的东西」→ 经法语 message 进入英语"
+      "note": "拉丁 missaticum「被送出的东西」→ 经法语 message 进入英语",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S5",
+        "note": "miss + -age 拼不出 message；现代 message 是整体借入，-age 只是历史成分"
+      }
     },
     {
       "w": "submission",
@@ -138,7 +200,12 @@
         "miss",
         "-ion"
       ],
-      "note": "与 submit 同一拉丁词，名词走分词词干 miss-"
+      "note": "与 submit 同一拉丁词，名词走分词词干 miss-",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "transmission",
@@ -149,7 +216,12 @@
         "miss",
         "-ion"
       ],
-      "note": "-ion 把动作变成可计量的过程"
+      "note": "-ion 把动作变成可计量的过程",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "permission",
@@ -160,7 +232,12 @@
         "miss",
         "-ion"
       ],
-      "note": "permit 的名词形，词干换 miss"
+      "note": "permit 的名词形，词干换 miss",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "intermittent",
@@ -171,7 +248,13 @@
         "mitt",
         "-ent"
       ],
-      "note": "inter- 在…之间 + 送 + -ent → 送一阵停一阵"
+      "note": "inter- 在…之间 + 送 + -ent → 送一阵停一阵",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "mitt 是 mit 在元音前的双写异形"
+      }
     }
   ],
   "allomorphs": [

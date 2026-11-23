@@ -18,7 +18,12 @@
         "con-",
         "duct"
       ],
-      "note": "con- 一起 + 引 → 把众人引到一处"
+      "note": "con- 一起 + 引 → 把众人引到一处",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "produce",
@@ -28,7 +33,12 @@
         "pro-",
         "duce"
       ],
-      "note": "pro- 向前 + 引 → 引到眼前、拿出来"
+      "note": "pro- 向前 + 引 → 引到眼前、拿出来",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "reduce",
@@ -38,7 +48,12 @@
         "re-",
         "duce"
       ],
-      "note": "re- 往回 + 引 → 引回原处、收小"
+      "note": "re- 往回 + 引 → 引回原处、收小",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "introduce",
@@ -48,7 +63,12 @@
         "intro-",
         "duce"
       ],
-      "note": "intro- 向内 + 引 → 把人或物带进来"
+      "note": "intro- 向内 + 引 → 把人或物带进来",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "educate",
@@ -59,7 +79,13 @@
         "duc",
         "-ate"
       ],
-      "note": "e- 出 + duc 引 → 拉丁 educare 本义「抚养、带大」，不是「把潜能拉出来」"
+      "note": "e- 出 + duc 引 → 拉丁 educare 本义「抚养、带大」，不是「把潜能拉出来」",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "e- + duc + -ate 是拉丁 educare 的历史形态；现代基式是 educate"
+      }
     },
     {
       "w": "deduction",
@@ -70,7 +96,12 @@
         "duct",
         "-ion"
       ],
-      "note": "de- 向下、离开 + 引 → 从前提中引出结论"
+      "note": "de- 向下、离开 + 引 → 从前提中引出结论",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "abduct",
@@ -80,7 +111,12 @@
         "ab-",
         "duct"
       ],
-      "note": "ab- 离开 + 引 → 把人带走"
+      "note": "ab- 离开 + 引 → 把人带走",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "seduce",
@@ -90,7 +126,12 @@
         "se-",
         "duce"
       ],
-      "note": "se- 到一边 + 引 → 引离正路"
+      "note": "se- 到一边 + 引 → 引离正路",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "induce",
@@ -100,7 +141,12 @@
         "in-",
         "duce"
       ],
-      "note": "in- 向内 + 引 → 引入某种状态"
+      "note": "in- 向内 + 引 → 引入某种状态",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "aqueduct",
@@ -110,7 +156,13 @@
         "aque-",
         "duct"
       ],
-      "note": "aque- 水（aqua）+ duct 引导 → 导水槽"
+      "note": "aque- 水（aqua）+ duct 引导 → 导水槽",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "aque- 是 aquae 的属格形式，不是现代前缀"
+      }
     },
     {
       "w": "viaduct",
@@ -120,7 +172,13 @@
         "via-",
         "duct"
       ],
-      "note": "via- 道路 + 引 → 把路引过去；19 世纪按 aqueduct 类推造出"
+      "note": "via- 道路 + 引 → 把路引过去；19 世纪按 aqueduct 类推造出",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S5",
+        "note": "19 世纪仿 aqueduct 造词；via 不是前缀"
+      }
     },
     {
       "w": "ductile",
@@ -130,7 +188,12 @@
         "duct",
         "-ile"
       ],
-      "note": "-ile 能…的：能被拉长的"
+      "note": "-ile 能…的：能被拉长的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "transducer",
@@ -141,7 +204,12 @@
         "duc",
         "-er"
       ],
-      "note": "trans- 转换 + 引 + -er 表物 → 把一种能量引成另一种"
+      "note": "trans- 转换 + 引 + -er 表物 → 把一种能量引成另一种",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "subduction",
@@ -152,7 +220,12 @@
         "duct",
         "-ion"
       ],
-      "note": "sub- 向下 + 引 → 一块板块被引到另一块之下"
+      "note": "sub- 向下 + 引 → 一块板块被引到另一块之下",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "misconduct",
@@ -163,7 +236,12 @@
         "con-",
         "duct"
       ],
-      "note": "mis- 坏 + conduct 行为"
+      "note": "mis- 坏 + conduct 行为",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "conducive",
@@ -174,7 +252,12 @@
         "duc",
         "-ive"
       ],
-      "note": "con- 一起 + 引 + -ive → 能把事情引向某结果的"
+      "note": "con- 一起 + 引 + -ive → 能把事情引向某结果的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     }
   ],
   "allomorphs": [

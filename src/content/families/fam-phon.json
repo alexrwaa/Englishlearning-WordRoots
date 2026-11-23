@@ -14,95 +14,203 @@
       "w": "telephone",
       "relation": "derivative",
       "glossZh": "电话",
-      "layer": ["tele-", "phone"],
-      "note": "tele- 远 + phone 声音 → 远处传来的声音"
+      "layer": [
+        "tele-",
+        "phone"
+      ],
+      "note": "tele- 远 + phone 声音 → 远处传来的声音",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "microphone",
       "relation": "derivative",
       "glossZh": "麦克风",
-      "layer": ["micro-", "phone"],
-      "note": "micro- 小 + 声音 → 把小声放大的器件"
+      "layer": [
+        "micro-",
+        "phone"
+      ],
+      "note": "micro- 小 + 声音 → 把小声放大的器件",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "phonograph",
       "relation": "derivative",
       "glossZh": "留声机",
-      "layer": ["phon", "-o-", "-graph"],
-      "note": "phon 声音 + -o- 连接元音 + graph 记录 → 把声音记下来"
+      "layer": [
+        "phon",
+        "-o-",
+        "-graph"
+      ],
+      "note": "phon 声音 + -o- 连接元音 + graph 记录 → 把声音记下来",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "homophone",
       "relation": "derivative",
       "glossZh": "同音词",
-      "layer": ["homo-", "phone"],
-      "note": "homo- 相同 + 声音 → 读音相同、拼写或意义不同"
+      "layer": [
+        "homo-",
+        "phone"
+      ],
+      "note": "homo- 相同 + 声音 → 读音相同、拼写或意义不同",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "euphony",
       "relation": "derivative",
       "glossZh": "悦耳",
-      "layer": ["eu-", "phon", "-y"],
-      "note": "eu- 好 + 声音 + -y → 好听的声音"
+      "layer": [
+        "eu-",
+        "phon",
+        "-y"
+      ],
+      "note": "eu- 好 + 声音 + -y → 好听的声音",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "symphony",
       "relation": "derivative",
       "glossZh": "交响乐",
-      "layer": ["sym-", "phon", "-y"],
-      "note": "sym- 一起 + 声音 → 一起发声"
+      "layer": [
+        "sym-",
+        "phon",
+        "-y"
+      ],
+      "note": "sym- 一起 + 声音 → 一起发声",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "sym- 是 syn- 在 p 前的同化形式"
+      }
     },
     {
       "w": "phonics",
       "relation": "derivative",
       "glossZh": "自然拼读法",
-      "layer": ["phon", "-ics"],
-      "note": "-ics 表方法或学科：由声音入手教读写"
+      "layer": [
+        "phon",
+        "-ics"
+      ],
+      "note": "-ics 表方法或学科：由声音入手教读写",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "phoneme",
       "relation": "derivative",
       "glossZh": "音位",
-      "layer": ["phon", "-eme"],
-      "note": "-eme 是语言学专用后缀，表最小的区别性单位"
+      "layer": [
+        "phon",
+        "-eme"
+      ],
+      "note": "-eme 是语言学专用后缀，表最小的区别性单位",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "phonetics",
       "relation": "derivative",
       "glossZh": "语音学",
-      "layer": ["phon", "-ics"],
-      "note": "希腊 -ētikos；英语里 -et- 不单列，只保留 -ics 作学科后缀"
+      "layer": [
+        "phon",
+        "-ics"
+      ],
+      "note": "希腊 -ētikos；英语里 -et- 不单列，只保留 -ics 作学科后缀",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S1",
+        "note": "现代切分是 phonet + -ics；phon + -ics 拼出的是 phonics"
+      }
     },
     {
       "w": "polyphony",
       "relation": "derivative",
       "glossZh": "复调",
-      "layer": ["poly-", "phon", "-y"],
-      "note": "poly- 多 + 声音 → 多条旋律同时发声"
+      "layer": [
+        "poly-",
+        "phon",
+        "-y"
+      ],
+      "note": "poly- 多 + 声音 → 多条旋律同时发声",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     }
   ],
   "allomorphs": [
     {
       "form": "phone",
       "note": "希腊 phōnē 经法语传入后的拼写，多用于复合词第二成分",
-      "examples": ["telephone", "microphone", "homophone"]
+      "examples": [
+        "telephone",
+        "microphone",
+        "homophone"
+      ]
     }
   ],
   "derivationChains": [
     {
-      "stages": ["phon", "phone", "telephone", "telephony"],
+      "stages": [
+        "phon",
+        "phone",
+        "telephone",
+        "telephony"
+      ],
       "note": "每一级都真实成词；telephony 指电话技术体系"
     },
     {
-      "stages": ["phon", "symphony", "symphonic"],
+      "stages": [
+        "phon",
+        "symphony",
+        "symphonic"
+      ],
       "note": "symphony 的 -y 换 -ic 时拼作 symphonic"
     },
     {
-      "stages": ["phon", "phoneme", "phonemic", "phonemics"],
+      "stages": [
+        "phon",
+        "phoneme",
+        "phonemic",
+        "phonemics"
+      ],
       "note": "phonemic 是「音位的」，phonemics 是「音位学」"
     },
     {
-      "stages": ["phon", "phonetics", "phonetician"],
+      "stages": [
+        "phon",
+        "phonetics",
+        "phonetician"
+      ],
       "note": "phonetician 由 phonetics 换 -ician，指语音学家"
     }
   ],

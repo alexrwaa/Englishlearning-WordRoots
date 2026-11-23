@@ -110,11 +110,48 @@ export async function loadLessons(): Promise<void> {
  * and lazy, because they are only read on the family page.
  * ------------------------------------------------------------------------- */
 
+/**
+ * What a reference structure actually claims (0.12.1).
+ *
+ * `layer` alone cannot tell a live analysis from an etymological one. Latin
+ * `spectator` is `spect + -ator` historically, but modern English reanalysed it
+ * as `spectate + -or`; teaching the first as *the* answer gets the direction of
+ * the back-formation backwards. The kinds are therefore:
+ *
+ *   - synchronous — a modern speaker can make this split today;
+ *   - historical  — the split is the etymon's, not the modern word's;
+ *   - analogical  — a teaching mnemonic, not a rule;
+ *   - cognate     — shared root, not a derivation;
+ *   - unverified  — nobody has checked yet (also the default when absent).
+ *
+ * Only `synchronous` + `verified` + a `source` may be auto-graded.
+ */
+export type AnalysisKind = 'historical' | 'synchronous' | 'analogical' | 'cognate' | 'unverified';
+
+export interface MemberAnalysis {
+  kind: AnalysisKind;
+  /** True only when the structure was checked against `source`. */
+  verified?: boolean;
+  /** Id in the dossier's own `sources`, or a review record id. */
+  source?: string;
+  /** Learner-facing caveat; required in practice for non-synchronous kinds. */
+  note?: string;
+  /** Other analyses that also hold; each is gated on its own kind/verified. */
+  alternatives?: { layer: string[]; kind: AnalysisKind; verified?: boolean; source?: string; note?: string }[];
+}
+
 export interface FamilyDossier {
   id: string;
   root: { form: string; glossEn: string; glossZh: string; origin: string; etymon?: string; etymonGloss?: string };
   coreIdea?: string;
-  members?: { w: string; relation: 'derivative' | 'cognate'; glossZh?: string; layer?: string[]; note?: string }[];
+  members?: {
+    w: string;
+    relation: 'derivative' | 'cognate';
+    glossZh?: string;
+    layer?: string[];
+    note?: string;
+    analysis?: MemberAnalysis;
+  }[];
   allomorphs?: { form: string; note?: string; examples?: string[] }[];
   derivationChains?: { stages: string[]; note?: string }[];
   semanticShifts?: { w: string; from?: string; to?: string; why?: string }[];

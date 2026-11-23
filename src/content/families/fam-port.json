@@ -18,7 +18,12 @@
         "trans-",
         "port"
       ],
-      "note": "trans- 穿过 + port 带 → 从一地带到另一地"
+      "note": "trans- 穿过 + port 带 → 从一地带到另一地",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "export",
@@ -28,7 +33,12 @@
         "ex-",
         "port"
       ],
-      "note": "ex- 向外 + 带"
+      "note": "ex- 向外 + 带",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "import",
@@ -38,7 +48,12 @@
         "im-",
         "port"
       ],
-      "note": "im- 是 in- 的变体，向内 + 带"
+      "note": "im- 是 in- 的变体，向内 + 带",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "report",
@@ -48,7 +63,12 @@
         "re-",
         "port"
       ],
-      "note": "re- 回 + 带 → 把见闻带回来"
+      "note": "re- 回 + 带 → 把见闻带回来",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "support",
@@ -58,7 +78,13 @@
         "sup-",
         "port"
       ],
-      "note": "sup- 是 sub- 的变体，从下面 + 扛 → 在底下托住"
+      "note": "sup- 是 sub- 的变体，从下面 + 扛 → 在底下托住",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "sup- 是 sub- 在 p 前的同化形式"
+      }
     },
     {
       "w": "deport",
@@ -68,7 +94,12 @@
         "de-",
         "port"
       ],
-      "note": "de- 离开 + 带 → 把人带走"
+      "note": "de- 离开 + 带 → 把人带走",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "portable",
@@ -78,7 +109,12 @@
         "port",
         "-able"
       ],
-      "note": "-able 能…的：能被带的"
+      "note": "-able 能…的：能被带的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "porter",
@@ -88,7 +124,12 @@
         "port",
         "-er"
       ],
-      "note": "-er 表人；注意「门房」的 porter 另出一源，见 homographTraps"
+      "note": "-er 表人；注意「门房」的 porter 另出一源，见 homographTraps",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "teleport",
@@ -98,7 +139,12 @@
         "tele-",
         "port"
       ],
-      "note": "tele- 远 + 带，19 世纪科幻与物理借词"
+      "note": "tele- 远 + 带，19 世纪科幻与物理借词",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "comport",
@@ -108,7 +154,13 @@
         "com-",
         "port"
       ],
-      "note": "com- 一起 + 带 → 把自己带得与场合一致"
+      "note": "com- 一起 + 带 → 把自己带得与场合一致",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "com- 是 con- 在 p 前的同化形式"
+      }
     },
     {
       "w": "importance",
@@ -119,7 +171,13 @@
         "port",
         "-ance"
       ],
-      "note": "import 原义「带入」→ 带进来的分量 → 重要"
+      "note": "import 原义「带入」→ 带进来的分量 → 重要",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "im- 是 in- 在 p 前的同化形式"
+      }
     },
     {
       "w": "portage",
@@ -129,7 +187,12 @@
         "port",
         "-age"
       ],
-      "note": "-age 表动作或费用：把船货扛过陆地的路段"
+      "note": "-age 表动作或费用：把船货扛过陆地的路段",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "transportation",
@@ -140,7 +203,12 @@
         "port",
         "-ation"
       ],
-      "note": "-ation 在 -tion 前多一层 -a-，是拉丁分词词干的残留"
+      "note": "-ation 在 -tion 前多一层 -a-，是拉丁分词词干的残留",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "exportable",
@@ -151,7 +219,12 @@
         "port",
         "-able"
       ],
-      "note": "三层：前缀 + 词根 + 形容词后缀"
+      "note": "三层：前缀 + 词根 + 形容词后缀",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     }
   ],
   "allomorphs": [],

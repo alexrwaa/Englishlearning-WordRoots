@@ -17,7 +17,12 @@
       "layer": [
         "form"
       ],
-      "note": "拉丁 forma 直接进入英语，既指形状也指构成"
+      "note": "拉丁 forma 直接进入英语，既指形状也指构成",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "formal",
@@ -27,7 +32,12 @@
         "form",
         "-al"
       ],
-      "note": "-al …的：有明确形式的 → 合规矩的"
+      "note": "-al …的：有明确形式的 → 合规矩的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "formation",
@@ -37,7 +47,12 @@
         "form",
         "-ation"
       ],
-      "note": "-ation 表动作或结果"
+      "note": "-ation 表动作或结果",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "inform",
@@ -47,7 +62,12 @@
         "in-",
         "form"
       ],
-      "note": "in- 在内 + form 形状 → 把形状放进人心里，即让他知道"
+      "note": "in- 在内 + form 形状 → 把形状放进人心里，即让他知道",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "information",
@@ -58,7 +78,12 @@
         "form",
         "-ation"
       ],
-      "note": "inform 的名词形：被放进心里的东西"
+      "note": "inform 的名词形：被放进心里的东西",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "reform",
@@ -68,7 +93,12 @@
         "re-",
         "form"
       ],
-      "note": "re- 再 + 成形 → 重新塑造"
+      "note": "re- 再 + 成形 → 重新塑造",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "transform",
@@ -78,7 +108,12 @@
         "trans-",
         "form"
       ],
-      "note": "trans- 越过 + 形状 → 跨到另一种形态"
+      "note": "trans- 越过 + 形状 → 跨到另一种形态",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "uniform",
@@ -88,7 +123,12 @@
         "uni-",
         "form"
       ],
-      "note": "uni- 一个 + 形状 → 同一种样式"
+      "note": "uni- 一个 + 形状 → 同一种样式",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "conform",
@@ -98,7 +138,12 @@
         "con-",
         "form"
       ],
-      "note": "con- 一起 + 形状 → 把自己塑成同一形状"
+      "note": "con- 一起 + 形状 → 把自己塑成同一形状",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "deform",
@@ -108,7 +153,12 @@
         "de-",
         "form"
       ],
-      "note": "de- 去掉、向下 + 形状 → 破坏原形"
+      "note": "de- 去掉、向下 + 形状 → 破坏原形",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "formative",
@@ -118,7 +168,12 @@
         "form",
         "-ative"
       ],
-      "note": "-ative …的：起塑造作用的"
+      "note": "-ative …的：起塑造作用的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "formless",
@@ -128,7 +183,12 @@
         "form",
         "-less"
       ],
-      "note": "-less 无…的"
+      "note": "-less 无…的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "multiform",
@@ -138,7 +198,12 @@
         "multi-",
         "form"
       ],
-      "note": "multi- 多 + 形状"
+      "note": "multi- 多 + 形状",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     }
   ],
   "allomorphs": [],

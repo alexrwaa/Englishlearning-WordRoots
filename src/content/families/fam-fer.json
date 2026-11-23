@@ -14,142 +14,311 @@
       "w": "transfer",
       "relation": "derivative",
       "glossZh": "转移",
-      "layer": ["trans-", "fer"],
-      "note": "trans- 越过 + 带 → 从一方带到另一方"
+      "layer": [
+        "trans-",
+        "fer"
+      ],
+      "note": "trans- 越过 + 带 → 从一方带到另一方",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "refer",
       "relation": "derivative",
       "glossZh": "提及；查阅",
-      "layer": ["re-", "fer"],
-      "note": "re- 回 + 带 → 把话题带回某处"
+      "layer": [
+        "re-",
+        "fer"
+      ],
+      "note": "re- 回 + 带 → 把话题带回某处",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "prefer",
       "relation": "derivative",
       "glossZh": "更喜欢",
-      "layer": ["pre-", "fer"],
-      "note": "pre- 在前 + 带 → 把某物放到前面"
+      "layer": [
+        "pre-",
+        "fer"
+      ],
+      "note": "pre- 在前 + 带 → 把某物放到前面",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "offer",
       "relation": "derivative",
       "glossZh": "提供",
-      "layer": ["of-", "fer"],
-      "note": "of- 是 ob- 的同化变体，向着 + 带 → 带到对方面前"
+      "layer": [
+        "of-",
+        "fer"
+      ],
+      "note": "of- 是 ob- 的同化变体，向着 + 带 → 带到对方面前",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "of- 是 ob- 在 f 前的同化形式"
+      }
     },
     {
       "w": "confer",
       "relation": "derivative",
       "glossZh": "商议；授予",
-      "layer": ["con-", "fer"],
-      "note": "con- 一起 + 带 → 把意见带到一处"
+      "layer": [
+        "con-",
+        "fer"
+      ],
+      "note": "con- 一起 + 带 → 把意见带到一处",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "infer",
       "relation": "derivative",
       "glossZh": "推断",
-      "layer": ["in-", "fer"],
-      "note": "in- 向内 + 带 → 把结论带进已知里"
+      "layer": [
+        "in-",
+        "fer"
+      ],
+      "note": "in- 向内 + 带 → 把结论带进已知里",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "differ",
       "relation": "derivative",
       "glossZh": "不同",
-      "layer": ["dif-", "fer"],
-      "note": "dif- 是 dis- 的变体，分开 + 带 → 各带各的方向"
+      "layer": [
+        "dif-",
+        "fer"
+      ],
+      "note": "dif- 是 dis- 的变体，分开 + 带 → 各带各的方向",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "dif- 是 dis- 在 f 前的同化形式"
+      }
     },
     {
       "w": "suffer",
       "relation": "derivative",
       "glossZh": "受苦",
-      "layer": ["suf-", "fer"],
-      "note": "suf- 是 sub- 的变体，在下面 + 扛"
+      "layer": [
+        "suf-",
+        "fer"
+      ],
+      "note": "suf- 是 sub- 的变体，在下面 + 扛",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "suf- 是 sub- 在 f 前的同化形式"
+      }
     },
     {
       "w": "fertile",
       "relation": "derivative",
       "glossZh": "肥沃的",
-      "layer": ["fert", "-ile"],
-      "note": "fert 是 fer 的分词词干 + -ile 能…的 → 能带来（收成）的"
+      "layer": [
+        "fert",
+        "-ile"
+      ],
+      "note": "fert 是 fer 的分词词干 + -ile 能…的 → 能带来（收成）的",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "fert- 只出现在这一组，-ile 也不具能产性；fert + -ile 是历史形态"
+      }
     },
     {
       "w": "circumference",
       "relation": "derivative",
       "glossZh": "圆周",
-      "layer": ["circum-", "fer", "-ence"],
-      "note": "circum- 环绕 + 带 + -ence → 绕着带一圈的长度"
+      "layer": [
+        "circum-",
+        "fer",
+        "-ence"
+      ],
+      "note": "circum- 环绕 + 带 + -ence → 绕着带一圈的长度",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "conifer",
       "relation": "derivative",
       "glossZh": "针叶树",
-      "layer": ["coni-", "fer"],
-      "note": "coni- 圆锥（conus）+ fer 带 → 带球果的树"
+      "layer": [
+        "coni-",
+        "fer"
+      ],
+      "note": "coni- 圆锥（conus）+ fer 带 → 带球果的树",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S5",
+        "note": "coni- 是 cone 的连接形式，不是前缀"
+      }
     },
     {
       "w": "aquifer",
       "relation": "derivative",
       "glossZh": "含水层",
-      "layer": ["aqui-", "fer"],
-      "note": "aqui- 水（aqua）+ fer 含 → 带水的岩层"
+      "layer": [
+        "aqui-",
+        "fer"
+      ],
+      "note": "aqui- 水（aqua）+ fer 含 → 带水的岩层",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S5",
+        "note": "aqui- 是 aqua 的连接形式，不是前缀"
+      }
     },
     {
       "w": "vociferous",
       "relation": "derivative",
       "glossZh": "大声疾呼的",
-      "layer": ["voci-", "fer", "-ous"],
-      "note": "voci- 声音（vox）+ fer 带 + -ous → 把声音带出来的"
+      "layer": [
+        "voci-",
+        "fer",
+        "-ous"
+      ],
+      "note": "voci- 声音（vox）+ fer 带 + -ous → 把声音带出来的",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S5",
+        "note": "voci- 是 vox 的连接形式，不是前缀"
+      }
     },
     {
       "w": "proliferate",
       "relation": "derivative",
       "glossZh": "激增",
-      "layer": ["proli-", "fer", "-ate"],
-      "note": "proli- 后代（proles）+ fer 带 → 不断带出后代"
+      "layer": [
+        "proli-",
+        "fer",
+        "-ate"
+      ],
+      "note": "proli- 后代（proles）+ fer 带 → 不断带出后代",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "proli- 来自 proles，不是现代词素"
+      }
     },
     {
       "w": "translate",
       "relation": "derivative",
       "glossZh": "翻译",
-      "layer": ["trans-", "lat"],
-      "note": "lat 是 ferre 的分词词干 latus（异根替换）：trans- 越过 + 带过去"
+      "layer": [
+        "trans-",
+        "lat"
+      ],
+      "note": "lat 是 ferre 的分词词干 latus（异根替换）：trans- 越过 + 带过去",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "lat- 是 fer 的异干（拉丁 latus）；现代 translate 里没有 fer"
+      }
     },
     {
       "w": "referendum",
       "relation": "derivative",
       "glossZh": "公投",
-      "layer": ["re-", "fer"],
-      "note": "re- 回 + 带：交给选民「带回决定」的事；-endum 是拉丁将来被动分词，未单列"
+      "layer": [
+        "re-",
+        "fer"
+      ],
+      "note": "re- 回 + 带：交给选民「带回决定」的事；-endum 是拉丁将来被动分词，未单列",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "拉丁动形词整体借入；re + fer 拼不出 referendum"
+      }
     }
   ],
   "allomorphs": [
     {
       "form": "fert",
       "note": "拉丁分词词干，出现在「带来收成」这一支",
-      "examples": ["fertile", "fertility", "fertilizer"]
+      "examples": [
+        "fertile",
+        "fertility",
+        "fertilizer"
+      ]
     },
     {
       "form": "lat",
       "note": "异根替换（suppletion）：ferre 的过去分词是 latus，不是 *fertus",
-      "examples": ["translate", "relate", "collate"]
+      "examples": [
+        "translate",
+        "relate",
+        "collate"
+      ]
     }
   ],
   "derivationChains": [
     {
-      "stages": ["fer", "refer", "reference", "referential"],
+      "stages": [
+        "fer",
+        "refer",
+        "reference",
+        "referential"
+      ],
       "note": "每一级都真实成词；-ence 与 -ential 是两条并行后缀"
     },
     {
-      "stages": ["fer", "prefer", "preference", "preferential"],
+      "stages": [
+        "fer",
+        "prefer",
+        "preference",
+        "preferential"
+      ],
       "note": "preference 去 e 加 -ial 时拼作 -ential"
     },
     {
-      "stages": ["fer", "transfer", "transference", "transferable"],
+      "stages": [
+        "fer",
+        "transfer",
+        "transference",
+        "transferable"
+      ],
       "note": "transference 偏心理学「移情」，transferable 偏「可转让」"
     },
     {
-      "stages": ["fer", "fertile", "fertility", "fertilization"],
+      "stages": [
+        "fer",
+        "fertile",
+        "fertility",
+        "fertilization"
+      ],
       "note": "fertile 的 -ile 换 -ity 时要插 -il-"
     }
   ],

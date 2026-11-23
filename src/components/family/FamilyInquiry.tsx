@@ -6,21 +6,30 @@
  * persist — persistence goes through `lib/inquiry-store` (SQLite on desktop),
  * never directly through localStorage.
  */
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 import type { FamilyDossier } from '../../lib/content';
-import { buildInquiry, checkSum, compareHypothesis, type InquiryStepId } from '../../lib/family-inquiry';
+import {
+  buildInquiry,
+  compareHypothesis,
+  gradeSum,
+  type AnalysisKind,
+  type InquiryStepId,
+} from '../../lib/family-inquiry';
 import {
   beginFamilyView,
   canAutosave,
   findProgress,
   loadInquiryAsync,
+  logInquiryEvent,
   markFamilyLoaded,
   saveInquiryAsync,
   toStepIds,
   type InquiryRecord,
   type InquiryViewState,
+  type InquiryWrite,
 } from '../../lib/inquiry-store';
+import { InquiryFlusher, type InquirySaveStatus } from '../../lib/inquiry-revision';
 import { Badge, Button, Panel } from '../ui';
 
 interface Props {
@@ -29,7 +38,7 @@ interface Props {
   known: (word: string) => boolean;
 }
 
-type SaveState = 'idle' | 'saving' | 'saved' | 'error';
+type SaveState = InquirySaveStatus;
 
 function errText(err: unknown): string {
   return err instanceof Error ? err.message : String(err);
@@ -38,6 +47,42 @@ function errText(err: unknown): string {
 function isPlainRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
 }
+
+/** Stable JSON (sorted keys) so key order cannot make equal records look different. */
+function stableStringify(value: unknown): string {
+  if (Array.isArray(value)) return `[${value.map(stableStringify).join(',')}]`;
+  if (isPlainRecord(value)) {
+    const keys = Object.keys(value).sort();
+    return `{${keys.map((key) => `${JSON.stringify(key)}:${stableStringify(value[key])}`).join(',')}}`;
+  }
+  return JSON.stringify(value) ?? 'null';
+}
+
+interface ProgressShape {  step: number;
+  done: string[];
+  hypothesis: string;
+  picks: Record<string, unknown>;
+  sums: Record<string, string>;
+  hints: number;
+}
+
+/** The fields the store owns; `elapsedMs`/`updatedAt` deliberately excluded. */
+function progressKey(value: ProgressShape): string {
+  return stableStringify([value.step, value.done, value.hypothesis, value.picks, value.sums, value.hints]);
+}
+
+function sameProgress(a: InquiryWrite, b: InquiryRecord): boolean {
+  return progressKey(a) === progressKey(b);
+}
+
+/** Why a structure is ungraded, so the reference block never looks like an error. */
+const ANALYSIS_KIND_LABEL: Record<AnalysisKind, string> = {
+  historical: '历史形态',
+  synchronous: '现代共时',
+  analogical: '教学拆分',
+  cognate: '历史同源',
+  unverified: '未核验',
+};
 
 /** Answers are stored as booleans; anything else is dropped, not guessed. */
 function verifyAnswersOf(record: InquiryRecord): Record<string, boolean> {
@@ -90,8 +135,133 @@ export default function FamilyInquiry({ dossier, familyId, known }: Props) {
   const [saveError, setSaveError] = useState('');
   const [loadError, setLoadError] = useState('');
   const [loadAttempt, setLoadAttempt] = useState(0);
-  const [saveAttempt, setSaveAttempt] = useState(0);
   const startedAt = useRef(Date.now());
+
+  // One coordinator per mounted family. It owns the single-flight write, the
+  // debounce and the revision counters (`inquiry-revision.ts`).
+  const flusherRef = useRef<InquiryFlusher<InquiryWrite> | null>(null);
+  // Bumped whenever the family changes so a late callback from the previous
+  // coordinator cannot touch this family's save indicator.
+  const generationRef = useRef(0);
+  // Last state handed to the coordinator; used to detect a database change
+  // (e.g. a restored backup) without mistaking our own write for one.
+  const lastWriteRef = useRef<InquiryWrite | null>(null);
+  // Set while applying a record read back from the store, so that hydration
+  // does not immediately schedule an identical write.
+  const skipMarkRef = useRef(false);
+  // The record the *current render* would persist, plus which family its data
+  // belongs to and whether autosave is armed. Written during render on
+  // purpose: `beforeunload` and the switch cleanup must see the last committed
+  // keystroke even when its effect never ran (React skips effects for a tree
+  // that unmounts in the same commit).
+  const latestWriteRef = useRef<InquiryWrite | null>(null);
+  const dataFamilyRef = useRef<string | null>(null);
+  const armedFamilyRef = useRef<string | null>(null);
+
+  latestWriteRef.current = {
+    // The id of the data, not of the prop: during a switch the render still
+    // carries family A's state, and that is what the A cleanup must flush.
+    familyId: dataFamilyRef.current ?? familyId,
+    step,
+    done,
+    hypothesis,
+    picks: {
+      discover: guessPick,
+      verify: verifyAnswers,
+      // Union, not replacement: leaving the first pass must not forget the
+      // words met before it, or the next pass would repeat them.
+      seen: [...new Set([...seen, ...model.observe.map((o) => o.w)])],
+      sessions,
+      revisions,
+    },
+    sums: sumInputs,
+    hints: hintLevel,
+    elapsedMs: Date.now() - startedAt.current,
+  };
+  armedFamilyRef.current = canAutosave(view) ? view.familyId : null;
+
+  /**
+   * Hand the newest rendered state to the coordinator. Cheap and idempotent:
+   * a change that does not touch a persisted field (a checkmark, the hint
+   * panel) is not written again.
+   */
+  const markLatest = useCallback(() => {
+    const flusher = flusherRef.current;
+    const live = latestWriteRef.current;
+    if (!flusher || !live) return;
+    if (live.familyId !== familyId || armedFamilyRef.current !== familyId) return;
+    const previous = lastWriteRef.current;
+    if (previous && progressKey(previous) === progressKey(live)) return;
+    lastWriteRef.current = live;
+    flusher.mark(live);
+  }, [familyId]);
+
+  const applySaved = useCallback(
+    (saved: InquiryRecord) => {
+      setStep(Math.min(saved.step, model.steps.length - 1));
+      setDone(toStepIds(saved.done));
+      setHypothesis(saved.hypothesis);
+      setGuessPick(typeof saved.picks.discover === 'string' ? saved.picks.discover : null);
+      setVerifyAnswers(verifyAnswersOf(saved));
+      setSumInputs(sumInputsOf(saved));
+      setHintLevel(Math.min(Math.max(0, saved.hints), model.hints.length));
+      const savedSeen = saved.picks.seen;
+      setSeen(Array.isArray(savedSeen) ? savedSeen.filter((w): w is string => typeof w === 'string') : []);
+      setSessions(typeof saved.picks.sessions === 'number' ? saved.picks.sessions : 0);
+      setRevisions(typeof saved.picks.revisions === 'number' ? saved.picks.revisions : 0);
+    },
+    [model.steps.length, model.hints.length],
+  );
+
+  // Created before the loader below so the loader's state updates are already
+  // owned by a coordinator when the autosave effect runs.
+  useEffect(() => {
+    generationRef.current += 1;
+    const generation = generationRef.current;
+    const flusher = new InquiryFlusher<InquiryWrite>({
+      save: async (write) => {
+        await saveInquiryAsync(write);
+      },
+      onStatus: (status, info) => {
+        if (generation !== generationRef.current) return;
+        setSaveState(status);
+        setSaveError(status === 'error' ? info.error : '');
+      },
+      onLog: (level, message) => logInquiryEvent(level, message),
+    });
+    flusherRef.current = flusher;
+    lastWriteRef.current = null;
+
+    return () => {
+      // Invalidate first: the flush below reports "saving" synchronously, and a
+      // callback from the outgoing family must not repaint the incoming one.
+      generationRef.current += 1;
+      // Pick up a change whose effect did not run in the unmounting commit,
+      // then write the newest state without waiting for the 300 ms debounce.
+      // The write can outlive the component, so its outcome is logged.
+      markLatest();
+      if (flusher.hasUnsaved()) {
+        logInquiryEvent(
+          'warn',
+          `离开词族 ${familyId} 前仍有未保存修改（revision ${flusher.currentRevision} > saved ${flusher.savedRevision}），立即写入`,
+        );
+      }
+      void flusher.flush('unmount').then((result) => {
+        if (result.pending) {
+          logInquiryEvent(
+            'error',
+            `词族 ${familyId} 的最终写入未完成（revision ${result.currentRevision} > saved ${result.savedRevision}）${
+              result.error ? `：${result.error}` : ''
+            }`,
+          );
+        } else if (result.currentRevision > 0) {
+          logInquiryEvent('info', `词族 ${familyId} 已保存到 revision ${result.savedRevision}`);
+        }
+      });
+      flusher.close();
+      if (flusherRef.current === flusher) flusherRef.current = null;
+    };
+  }, [familyId, markLatest]);
 
   useEffect(() => {
     let cancelled = false;
@@ -111,25 +281,16 @@ export default function FamilyInquiry({ dossier, familyId, known }: Props) {
     setSaveState('idle');
     setSaveError('');
     setLoadError('');
+    lastWriteRef.current = null;
+    dataFamilyRef.current = null;
     startedAt.current = Date.now();
 
     loadInquiryAsync()
       .then((snapshot) => {
         if (cancelled) return;
+        dataFamilyRef.current = familyId;
         const saved = findProgress(snapshot, familyId);
-        if (saved) {
-          setStep(Math.min(saved.step, model.steps.length - 1));
-          setDone(toStepIds(saved.done));
-          setHypothesis(saved.hypothesis);
-          setGuessPick(typeof saved.picks.discover === 'string' ? saved.picks.discover : null);
-          setVerifyAnswers(verifyAnswersOf(saved));
-          setSumInputs(sumInputsOf(saved));
-          setHintLevel(Math.min(Math.max(0, saved.hints), model.hints.length));
-          const savedSeen = saved.picks.seen;
-          setSeen(Array.isArray(savedSeen) ? savedSeen.filter((w): w is string => typeof w === 'string') : []);
-          setSessions(typeof saved.picks.sessions === 'number' ? saved.picks.sessions : 0);
-          setRevisions(typeof saved.picks.revisions === 'number' ? saved.picks.revisions : 0);
-        }
+        if (saved) applySaved(saved);
         // Marking loaded only for this family is what arms the autosave below.
         setView((current) => markFamilyLoaded(current, familyId));
       })
@@ -143,47 +304,104 @@ export default function FamilyInquiry({ dossier, familyId, known }: Props) {
     return () => {
       cancelled = true;
     };
-  }, [familyId, loadAttempt, model.steps.length, model.hints.length]);
+  }, [familyId, loadAttempt, applySaved]);
 
-  // Persist on every change rather than only on "next": a learner who answers a
-  // step and closes the app should keep that answer. The write is debounced so
-  // typing a hypothesis does not hammer SQLite.
+  /**
+   * Re-read the store when the window regains focus. A restored backup (or a
+   * database replaced outside the app) changes the rows behind our back; if the
+   * database no longer matches the last state we wrote, the in-memory panel is
+   * stale and must be reset instead of writing those stale values back.
+   * Unsaved local edits always win: we never clobber work the user just did.
+   */
+  const revalidate = useCallback(
+    async (reason: string) => {
+      const flusher = flusherRef.current;
+      if (!flusher || flusher.hasUnsaved()) return;
+      const local = lastWriteRef.current;
+      if (!local) return; // the mount-time read already hydrated this family
+      const generation = generationRef.current;
+      try {
+        const snapshot = await loadInquiryAsync();
+        if (generation !== generationRef.current) return;
+        const stored = findProgress(snapshot, familyId);
+        if (!stored) return;
+        if (sameProgress(local, stored)) {
+          return;
+        }
+        skipMarkRef.current = true;
+        applySaved(stored);
+        lastWriteRef.current = null;
+        setView((current) => markFamilyLoaded(current, familyId));
+        logInquiryEvent('info', `词族 ${familyId} 的库内记录已变化（${reason}），已按库内容重置界面`);
+      } catch (err) {
+        logInquiryEvent('warn', `重新读取词族 ${familyId} 失败（${reason}）：${errText(err)}`);
+      }
+    },
+    [applySaved, familyId],
+  );
+
+  // Best-effort flush on the events that can end the session without a React
+  // unmount. The real guarantee is "write soon + single flight"; these hooks
+  // only shrink the window, and every unfinished attempt is logged.
+  useEffect(() => {
+    const flushNow = (reason: string) => {
+      const flusher = flusherRef.current;
+      if (!flusher) return;
+      // Capture a keystroke whose autosave effect has not run yet.
+      markLatest();
+      if (flusher.hasUnsaved()) {
+        logInquiryEvent(
+          'warn',
+          `${reason} 时仍有未保存修改（revision ${flusher.currentRevision} > saved ${flusher.savedRevision}），立即写入；若进程随即退出，这次写入可能来不及确认`,
+        );
+      }
+      void flusher.flush(reason).then((result) => {
+        if (result.pending) {
+          logInquiryEvent(
+            'error',
+            `${reason} 的写入未完成（revision ${result.currentRevision} > saved ${result.savedRevision}）${
+              result.error ? `：${result.error}` : ''
+            }`,
+          );
+        }
+      });
+    };
+    const onBeforeUnload = () => flushNow('beforeunload');
+    const onPageHide = () => flushNow('pagehide');
+    const onVisibility = () => {
+      if (document.visibilityState === 'hidden') flushNow('visibilitychange');
+      else void revalidate('visibilitychange');
+    };
+    const onFocus = () => void revalidate('focus');
+    const onStorage = () => void revalidate('storage');
+
+    window.addEventListener('beforeunload', onBeforeUnload);
+    window.addEventListener('pagehide', onPageHide);
+    window.addEventListener('focus', onFocus);
+    window.addEventListener('storage', onStorage);
+    document.addEventListener('visibilitychange', onVisibility);
+    return () => {
+      window.removeEventListener('beforeunload', onBeforeUnload);
+      window.removeEventListener('pagehide', onPageHide);
+      window.removeEventListener('focus', onFocus);
+      window.removeEventListener('storage', onStorage);
+      document.removeEventListener('visibilitychange', onVisibility);
+    };
+  }, [markLatest, revalidate]);
+
+  // Hand every change to the coordinator. It debounces typing, coalesces
+  // changes made during a write, and only reports "saved" once the newest
+  // revision is confirmed.
   useEffect(() => {
     // `view` is read from the render that still belongs to the previous family;
     // require both to agree so a fast switch cannot schedule A's state under B.
     if (!canAutosave(view) || view.familyId !== familyId) return;
-    const timer = window.setTimeout(() => {
-      setSaveState('saving');
-      const record = {
-        familyId,
-        step,
-        done,
-        hypothesis,
-        picks: {
-          discover: guessPick,
-          verify: verifyAnswers,
-          // Union, not replacement: leaving the first pass must not forget the
-          // words met before it, or the next pass would repeat them.
-          seen: [...new Set([...seen, ...model.observe.map((o) => o.w)])],
-          sessions,
-          revisions,
-        },
-        sums: sumInputs,
-        hints: hintLevel,
-        elapsedMs: Date.now() - startedAt.current,
-      };
-      saveInquiryAsync(record)
-        .then(() => {
-          setSaveState('saved');
-          setSaveError('');
-        })
-        .catch((err: unknown) => {
-          // A rejection is "not saved": never leave the success label up.
-          setSaveState('error');
-          setSaveError(errText(err));
-        });
-    }, 300);
-    return () => window.clearTimeout(timer);
+    if (!flusherRef.current) return;
+    if (skipMarkRef.current) {
+      skipMarkRef.current = false;
+      return;
+    }
+    markLatest();
   }, [
     view,
     familyId,
@@ -194,13 +412,11 @@ export default function FamilyInquiry({ dossier, familyId, known }: Props) {
     verifyAnswers,
     sumInputs,
     hintLevel,
-    saveAttempt,
-    // The record embeds which words were observed and which pass this is, so a
-    // change there is a change to what must be stored.
     model.observe,
     seen,
     sessions,
     revisions,
+    markLatest,
   ]);
 
   const markDone = (id: InquiryStepId) => {
@@ -269,7 +485,8 @@ export default function FamilyInquiry({ dossier, familyId, known }: Props) {
               size="sm"
               onClick={() => {
                 setSaveError('');
-                setSaveAttempt((n) => n + 1);
+                // Retry writes the newest value, not the one that failed.
+                void flusherRef.current?.retry();
               }}
             >
               重试保存
@@ -437,7 +654,9 @@ export default function FamilyInquiry({ dossier, familyId, known }: Props) {
                 <Button
                   size="sm"
                   onClick={() => {
-                    const result = checkSum(sumInputs[sum.word] ?? '', sum.accepted);
+                    // `gradeSum` refuses to grade a non-modern reference, so a
+                    // historical/analogical row can never be marked wrong.
+                    const result = gradeSum(sumInputs[sum.word] ?? '', sum);
                     setSumResults({ ...sumResults, [sum.word]: result.ok });
                   }}
                 >
@@ -456,6 +675,28 @@ export default function FamilyInquiry({ dossier, familyId, known }: Props) {
               ) : null}
             </div>
           ))}
+          {model.ungraded.length ? (
+            <div style={{ marginTop: 16 }}>
+              <p className="small faint">
+                参考结构（不判分）：历史形态、教学拆分、同源词或多解词，只供对照，不是唯一答案。
+              </p>
+              <ul className="list small">
+                {model.ungraded.map((entry) => (
+                  <li key={`ungraded-${entry.word}`} style={{ marginBottom: 8 }}>
+                    <code>{entry.word}</code>
+                    {entry.analyses.map((analysis, index) => (
+                      <span key={`${entry.word}-${index}`}>
+                        {index === 0 ? '：' : ' 或 '}
+                        <code>{analysis.layer.join(' + ')}</code>
+                        <span className="tiny faint">（{ANALYSIS_KIND_LABEL[analysis.kind]}）</span>
+                      </span>
+                    ))}
+                    {entry.note ? <div className="tiny faint">{entry.note}</div> : null}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
           {model.matrix.length ? (
             <div style={{ marginTop: 12 }}>
               <p className="small faint">参考派生链（写完再看）：</p>

@@ -18,7 +18,12 @@
         "con-",
         "struct"
       ],
-      "note": "con- 一起 + struct 堆 → 把材料堆到一起"
+      "note": "con- 一起 + struct 堆 → 把材料堆到一起",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "destruction",
@@ -29,7 +34,12 @@
         "struct",
         "-ion"
       ],
-      "note": "de- 向下、反着来 + 建造 → 拆掉已搭好的"
+      "note": "de- 向下、反着来 + 建造 → 拆掉已搭好的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "instruct",
@@ -39,7 +49,12 @@
         "in-",
         "struct"
       ],
-      "note": "in- 在内 + 搭建 → 在人心里把知识搭起来"
+      "note": "in- 在内 + 搭建 → 在人心里把知识搭起来",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "obstruct",
@@ -49,7 +64,12 @@
         "ob-",
         "struct"
       ],
-      "note": "ob- 对着、挡在前面 + 堆 → 在前方堆起障碍"
+      "note": "ob- 对着、挡在前面 + 堆 → 在前方堆起障碍",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "structure",
@@ -59,7 +79,12 @@
         "struct",
         "-ure"
       ],
-      "note": "-ure 造名词：搭建的方式与结果"
+      "note": "-ure 造名词：搭建的方式与结果",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "infrastructure",
@@ -70,7 +95,12 @@
         "struct",
         "-ure"
       ],
-      "note": "infra- 在下方 + 结构 → 托住上层设施的底层结构"
+      "note": "infra- 在下方 + 结构 → 托住上层设施的底层结构",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "superstructure",
@@ -81,7 +111,12 @@
         "struct",
         "-ure"
       ],
-      "note": "super- 在上 + 结构，与 infrastructure 成对"
+      "note": "super- 在上 + 结构，与 infrastructure 成对",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "substructure",
@@ -92,7 +127,12 @@
         "struct",
         "-ure"
       ],
-      "note": "sub- 在下 + 结构，工程术语"
+      "note": "sub- 在下 + 结构，工程术语",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "nanostructure",
@@ -103,7 +143,12 @@
         "struct",
         "-ure"
       ],
-      "note": "nano- 纳米级 + 结构，20 世纪科技复合词"
+      "note": "nano- 纳米级 + 结构，20 世纪科技复合词",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "reconstruct",
@@ -114,7 +159,12 @@
         "con-",
         "struct"
       ],
-      "note": "re- 再 + con- 一起 + 搭"
+      "note": "re- 再 + con- 一起 + 搭",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "instrument",
@@ -125,7 +175,13 @@
         "stru",
         "-ment"
       ],
-      "note": "拉丁 instruere「装备、布置」→ 为完成某事搭起来的东西"
+      "note": "拉丁 instruere「装备、布置」→ 为完成某事搭起来的东西",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "instrumentum 整体借入；stru 不是现代词素"
+      }
     },
     {
       "w": "construe",
@@ -135,7 +191,13 @@
         "con-",
         "stru"
       ],
-      "note": "con- 一起 + stru 搭 → 把词句的意义搭起来（词尾 e 不承载意义）"
+      "note": "con- 一起 + stru 搭 → 把词句的意义搭起来（词尾 e 不承载意义）",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "con + stru 是拉丁 construere 的历史形态"
+      }
     },
     {
       "w": "structural",
@@ -146,13 +208,23 @@
         "-ure",
         "-al"
       ],
-      "note": "structure 去 e 加 -al"
+      "note": "structure 去 e 加 -al",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S1",
+        "note": "构词层级是 structure + -al；struct + ure + al 拼不出 structural"
+      }
     },
     {
       "w": "destroy",
       "relation": "cognate",
       "glossZh": "摧毁",
-      "note": "同源异途：拉丁 destruere = de- + struere，但英语拼写已磨平，不能按 struct 切分"
+      "note": "同源异途：拉丁 destruere = de- + struere，但英语拼写已磨平，不能按 struct 切分",
+      "analysis": {
+        "kind": "cognate",
+        "verified": false
+      }
     }
   ],
   "allomorphs": [

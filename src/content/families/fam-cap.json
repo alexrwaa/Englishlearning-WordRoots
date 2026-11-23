@@ -18,7 +18,12 @@
         "capt",
         "-ure"
       ],
-      "note": "capt 是 capere 的分词词干 + -ure 表动作"
+      "note": "capt 是 capere 的分词词干 + -ure 表动作",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "captive",
@@ -28,7 +33,12 @@
         "capt",
         "-ive"
       ],
-      "note": "-ive 表人或性质：被抓住的"
+      "note": "-ive 表人或性质：被抓住的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "capacity",
@@ -38,7 +48,13 @@
         "cap",
         "-ity"
       ],
-      "note": "拉丁 capax「能容纳的」+ -ity；-ac- 是 capax 的词干残留"
+      "note": "拉丁 capax「能容纳的」+ -ity；-ac- 是 capax 的词干残留",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S1",
+        "note": "cap + -ity 拼不出 capacity；现代切分是 capac + -ity（cap 的异形）"
+      }
     },
     {
       "w": "accept",
@@ -48,7 +64,13 @@
         "ac-",
         "cept"
       ],
-      "note": "ac- 是 ad- 的同化变体，向 + 拿 → 拿到自己这里"
+      "note": "ac- 是 ad- 的同化变体，向 + 拿 → 拿到自己这里",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "ac- 是 ad- 在 c 前的同化形式"
+      }
     },
     {
       "w": "except",
@@ -58,7 +80,12 @@
         "ex-",
         "cept"
       ],
-      "note": "ex- 向外 + 拿 → 拿到外面去"
+      "note": "ex- 向外 + 拿 → 拿到外面去",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "intercept",
@@ -68,7 +95,12 @@
         "inter-",
         "cept"
       ],
-      "note": "inter- 在中间 + 拿 → 半路拿走"
+      "note": "inter- 在中间 + 拿 → 半路拿走",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "concept",
@@ -78,7 +110,12 @@
         "con-",
         "cept"
       ],
-      "note": "con- 一起 + 拿 → 把特征拿到一起形成的想法"
+      "note": "con- 一起 + 拿 → 把特征拿到一起形成的想法",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "reception",
@@ -89,7 +126,12 @@
         "cept",
         "-ion"
       ],
-      "note": "re- 回 + 拿 + -ion → 把来者接回来"
+      "note": "re- 回 + 拿 + -ion → 把来者接回来",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "receipt",
@@ -99,7 +141,13 @@
         "re-",
         "ceipt"
       ],
-      "note": "ceipt 是受法语影响的拼写变体，与 reception 同源"
+      "note": "ceipt 是受法语影响的拼写变体，与 reception 同源",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "ceipt 是受古法语 receite 影响的拼写，不是现代词素；re + ceipt 只是历史形态"
+      }
     },
     {
       "w": "deception",
@@ -110,7 +158,12 @@
         "cept",
         "-ion"
       ],
-      "note": "de- 向下、偏离 + 拿 → 把人拿进圈套"
+      "note": "de- 向下、偏离 + 拿 → 把人拿进圈套",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "occupy",
@@ -121,7 +174,13 @@
         "cup",
         "-y"
       ],
-      "note": "oc- 是 ob- 的同化变体 + cup 拿 → 压上去拿住"
+      "note": "oc- 是 ob- 的同化变体 + cup 拿 → 压上去拿住",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S1",
+        "note": "-y 不是后缀；oc + cup + y 是教学拆分"
+      }
     },
     {
       "w": "capable",
@@ -131,7 +190,12 @@
         "cap",
         "-able"
       ],
-      "note": "-able 能…的：能拿得住事的"
+      "note": "-able 能…的：能拿得住事的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "caption",
@@ -141,7 +205,12 @@
         "capt",
         "-ion"
       ],
-      "note": "拉丁 captio 原义「抓取」，后指「抓住要点的文字」"
+      "note": "拉丁 captio 原义「抓取」，后指「抓住要点的文字」",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "susceptible",
@@ -152,7 +221,13 @@
         "cept",
         "-ible"
       ],
-      "note": "sus- 是 sub- 的变体，在下面 + 拿 + -ible → 容易被拿住的"
+      "note": "sus- 是 sub- 的变体，在下面 + 拿 + -ible → 容易被拿住的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "sus- 是 sub- 在 c 前的历史形式，现代只在这个词族里出现"
+      }
     }
   ],
   "allomorphs": [

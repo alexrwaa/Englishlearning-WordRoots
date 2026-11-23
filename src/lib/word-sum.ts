@@ -663,3 +663,26 @@ export function checkSum(input: string, accepted: string[][], options: SumOption
   }
   return best;
 }
+
+/* ------------------------------- no verdict -------------------------------- */
+
+/**
+ * A verdict for a reference structure we deliberately refuse to grade.
+ *
+ * Added in 0.12.1 for the sum gate. `layer` alone cannot tell a live modern
+ * analysis from an etymological or teaching one, so a historical split must be
+ * shown without being turned into "the one right answer". The learner is not
+ * wrong — we are not judging. Multiple *live* analyses are not ungraded; those
+ * go through `checkSum` with several entries in `accepted`.
+ */
+export function ungradedVerdict(note: string, normalized: string[] = []): SumVerdict {
+  return {
+    structure: 'unresolved',
+    spelling: 'unknown',
+    ruleIds: [],
+    note,
+    normalized,
+    ok: false,
+  };
+}
+

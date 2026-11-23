@@ -65,10 +65,17 @@ describe('buildInquiry', () => {
     for (const item of model.verify) expect(item.explain.length).toBeGreaterThan(5);
   });
 
-  it('accepts more than one legitimate word sum where the dossier supports it', () => {
+  it('offers at least one legitimate word sum per graded item', () => {
     expect(model.sums.length).toBeGreaterThanOrEqual(1);
     for (const sum of model.sums) {
-      expect(sum.accepted.length).toBeGreaterThanOrEqual(2);
+      // The old shape always returned [layer, layer] — two identical entries
+      // that only looked like alternatives. Every entry now has to be a real
+      // spelling of the word, and more than one only when the dossier documents
+      // more than one live analysis (covered in sum-gating.test.ts).
+      expect(sum.accepted.length).toBeGreaterThanOrEqual(1);
+      for (const accepted of sum.accepted) {
+        expect(accepted.join('').replace(/-/g, '')).toBe(sum.word);
+      }
     }
   });
 });

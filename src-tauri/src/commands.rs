@@ -388,8 +388,15 @@ pub fn open_folder(which: String) -> Result<(), String> {
     };
     #[cfg(windows)]
     {
+        // Every child this app starts passes CREATE_NO_WINDOW, even for a GUI
+        // program like explorer: if this ever becomes a shell invocation, the
+        // console must not start appearing along with it. conhost.exe may still
+        // exist; what matters is that it owns no visible window.
+        use std::os::windows::process::CommandExt;
+        const CREATE_NO_WINDOW: u32 = 0x0800_0000;
         std::process::Command::new("explorer")
             .arg(path)
+            .creation_flags(CREATE_NO_WINDOW)
             .spawn()
             .map_err(|e| e.to_string())?;
     }

@@ -433,6 +433,19 @@ export function findProgress(snapshot: InquirySnapshot, familyId: string): Inqui
   return snapshot.items.find((item) => item.familyId === familyId) ?? null;
 }
 
+/**
+ * Diagnostics for the inquiry panel's save path. Goes to the console and, on
+ * desktop, to `app-data/logs/wordroots.log` via the existing `log_event`
+ * command. Fire-and-forget: logging must never turn a write into a failure.
+ */
+export function logInquiryEvent(level: 'info' | 'warn' | 'error', message: string): void {
+  const line = `[inquiry] ${message}`;
+  if (level === 'error') console.error(line);
+  else if (level === 'warn') console.warn(line);
+  else console.log(line);
+  void call<void>('log_event', { level, message: line }).catch(() => undefined);
+}
+
 /** Keep only known step ids; stored rows may come from a hand-edited backup. */
 export function toStepIds(values: unknown): InquiryStepId[] {
   return Array.isArray(values) ? values.filter(isStepId) : [];

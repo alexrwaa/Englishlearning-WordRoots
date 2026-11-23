@@ -69,6 +69,13 @@ jobs:
         working-directory: src-tauri
         run: cargo build --release --features custom-protocol
 
+      # Fail in seconds, not after packaging: a console-subsystem binary opens a
+      # black window from the PE header, before any of our code runs, so no API
+      # call can suppress it afterwards.
+      - name: Binary is a GUI program (no console window)
+        shell: pwsh
+        run: ./scripts/check-window-mode.ps1 -Exe ./src-tauri/target/release/wordroots.exe -SubsystemOnly
+
       - name: Assemble portable folder
         shell: pwsh
         run: ./scripts/package-portable.ps1

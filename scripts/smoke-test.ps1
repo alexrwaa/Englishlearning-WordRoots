@@ -643,6 +643,69 @@ function Invoke-DiagnoseCase {
   }
 }
 
+# --------------------------------------------------------------- scenario 13 ---
+# "No console window" cannot be asserted from inside the app: Windows creates the
+# console before main() runs, from the PE header. So the check reads the header of
+# the shipped exe and then samples *visible* console-class windows while it runs.
+# conhost.exe existing is not a failure; a console window appearing is.
+function Invoke-ConsoleCase {
+  param([string]$Id, [string]$Title, [string]$Expect)
+
+  $caseDir = $null
+  try {
+    $caseDir = New-CaseDir
+    $appDir = New-AppCopy $caseDir
+    Reset-CaseState $appDir
+    $exe = Join-Path $appDir 'WordRoots.exe'
+    $probe = Join-Path $PSScriptRoot 'check-window-mode.ps1'
+
+    if (-not (Test-Path -LiteralPath $exe)) { throw "exe missing: $exe" }
+    $hostExe = (Get-Process -Id $PID).Path
+    $raw = & $hostExe -NoProfile -ExecutionPolicy Bypass -File $probe -Exe $exe -Seconds 6 -Json 2>&1 | Out-String
+    $payload = $null
+    try { $payload = $raw | ConvertFrom-Json } catch { $payload = $null }
+
+    $verdict = 'FAIL'
+    $note = "probe output unreadable: $($raw.Trim())"
+    if ($null -ne $payload) {
+      $subsystem = [int]$payload.subsystem
+      $consoleCount = [int]$payload.consoleWindowsAppeared
+      $note = "subsystem=$subsystem($($payload.subsystemName)) consoleWindows=$consoleCount"
+      if ($subsystem -eq 2 -and $consoleCount -eq 0) {
+        $verdict = 'PASS'
+      } elseif ($subsystem -ne 2) {
+        $note = "$note - the exe is a console program; Windows opens a console before any app code runs"
+      } else {
+        $classes = @($payload.consoleWindows | ForEach-Object { "$($_.class)(pid=$($_.pid))" }) -join ', '
+        $note = "$note - appeared: $classes"
+      }
+    }
+    Write-Host "console: $verdict ($note)"
+
+    $row = New-ResultRow -Id $Id -Title $Title -Expect $Expect -Ready 'n/a' `
+      -Db 'n/a' -Selftest 'n/a' -Content 'n/a' -Verdict $verdict -Detail $note
+    $script:Results += $row
+    if ($verdict -ne 'PASS') {
+      $script:Failures += $row
+      Show-FailureContext $appDir
+      Save-FailureLogs $appDir $Title
+    }
+    return $row
+  } catch {
+    $message = $_.Exception.Message
+    Write-Host "EXCEPTION: $message" -ForegroundColor Red
+    $row = New-ResultRow -Id $Id -Title $Title -Expect $Expect -Ready 'n/a' `
+      -Db 'n/a' -Selftest 'n/a' -Content 'n/a' -Verdict 'FAIL' -Detail "exception: $message"
+    $script:Results += $row
+    $script:Failures += $row
+    return $null
+  } finally {
+    if ($caseDir -and (Test-Path -LiteralPath $caseDir) -and -not $KeepTemp) {
+      Remove-Item -LiteralPath $caseDir -Recurse -Force -ErrorAction SilentlyContinue
+    }
+  }
+}
+
 # ------------------------------------------------------------------- report ---
 
 function Write-Report {
@@ -805,6 +868,12 @@ try {
   Invoke-Case -Id '12' -Title '12 词族档案与测评' `
     -Expect 'fam-spect 档案显示成员；测评答题后保存至少 1 条记录' `
     -Workspace $asciiRoot -Selftest -SelftestTour -SelftestLesson 'w01d1' -EnvVars $cleanEnv | Out-Null
+
+  # 13 - double-clicking must show the window and nothing else. Read the PE
+  # subsystem of the shipped exe, then watch for visible console windows while it
+  # runs (conhost existing is fine; a console window is not).
+  Invoke-ConsoleCase -Id '13' -Title '13 启动无控制台' `
+    -Expect 'WordRoots.exe 为 GUI 子系统；启动期间不出现可见控制台窗口' | Out-Null
 } finally {
   if ($null -ne $registryBackup) { Restore-ProxyRegistry $registryBackup }
   Restore-ProcessEnv

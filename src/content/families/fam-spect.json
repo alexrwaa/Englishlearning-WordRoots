@@ -18,7 +18,12 @@
         "in-",
         "spect"
       ],
-      "note": "in- 向内 + spect 看 → 往里看，逐处查看"
+      "note": "in- 向内 + spect 看 → 往里看，逐处查看",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "expect",
@@ -28,7 +33,13 @@
         "ex-",
         "pect"
       ],
-      "note": "ex- 向外 + spect；x 后 s 脱落写作 pect → 向外张望、等候"
+      "note": "ex- 向外 + spect；x 后 s 脱落写作 pect → 向外张望、等候",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S1",
+        "note": "ex + pect：pect 是 spect 在 ex- 后掉 s 的异形，属于教学拆分，不是现代能产规则"
+      }
     },
     {
       "w": "respect",
@@ -38,7 +49,12 @@
         "re-",
         "spect"
       ],
-      "note": "re- 回 + 看 → 回头看，引申为看重"
+      "note": "re- 回 + 看 → 回头看，引申为看重",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "suspect",
@@ -48,7 +64,13 @@
         "sus-",
         "spect"
       ],
-      "note": "sus- 是 sub- 的变体，从下往上看 → 暗中打量"
+      "note": "sus- 是 sub- 的变体，从下往上看 → 暗中打量",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S1",
+        "note": "sus + spect 拼出 susspect；实际写作 sus + pect（s 脱落）"
+      }
     },
     {
       "w": "prospect",
@@ -58,7 +80,12 @@
         "pro-",
         "spect"
       ],
-      "note": "pro- 向前 + 看 → 向前望到的景象"
+      "note": "pro- 向前 + 看 → 向前望到的景象",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "retrospect",
@@ -68,17 +95,40 @@
         "retro-",
         "spect"
       ],
-      "note": "retro- 向后 + 看"
+      "note": "retro- 向后 + 看",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "spectator",
       "relation": "derivative",
       "glossZh": "观众",
       "layer": [
-        "spect",
-        "-ator"
+        "spectate",
+        "-or"
       ],
-      "note": "-ator 表施动者：看的人"
+      "note": "现代共时切分：spectate + -or。spectate 是由 spectator 逆构出来的动词；拉丁历史形态是 spect + -ator，方向不能反过来讲。",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S5",
+        "note": "现代共时是 spectate + -or；spectate 是由 spectator 逆构出来的动词",
+        "alternatives": [
+          {
+            "layer": [
+              "spect",
+              "-ator"
+            ],
+            "kind": "historical",
+            "verified": false,
+            "source": "S5",
+            "note": "拉丁历史形态 spect + -ator；不能反过来讲成 spectate 由它派生"
+          }
+        ]
+      }
     },
     {
       "w": "perspective",
@@ -89,7 +139,12 @@
         "spect",
         "-ive"
       ],
-      "note": "per- 穿过 + 看 → 透过某处看到的景象"
+      "note": "per- 穿过 + 看 → 透过某处看到的景象",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "specify",
@@ -99,7 +154,12 @@
         "spec",
         "-ify"
       ],
-      "note": "源自 species「外观、种类」（< specere）+ -ify → 把类别说定"
+      "note": "源自 species「外观、种类」（< specere）+ -ify → 把类别说定",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "specific",
@@ -109,7 +169,12 @@
         "spec",
         "-ific"
       ],
-      "note": "-ific 使…的：被指明到某一类的"
+      "note": "-ific 使…的：被指明到某一类的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "spectacle",
@@ -119,7 +184,13 @@
         "spect",
         "-acle"
       ],
-      "note": "-acle 表对象或工具 → 供观看之物；spectacles 是「用来看的东西」"
+      "note": "-acle 表对象或工具 → 供观看之物；spectacles 是「用来看的东西」",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S1",
+        "note": "-acle 不具能产性；spect + -acle 是教学拆分"
+      }
     },
     {
       "w": "introspect",
@@ -129,7 +200,12 @@
         "intro-",
         "spect"
       ],
-      "note": "intro- 向内 + 看"
+      "note": "intro- 向内 + 看",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "circumspect",
@@ -139,7 +215,12 @@
         "circum-",
         "spect"
       ],
-      "note": "circum- 环绕 + 看 → 四面都看到，不冒进"
+      "note": "circum- 环绕 + 看 → 四面都看到，不冒进",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "despise",
@@ -149,19 +230,33 @@
         "de-",
         "spic"
       ],
-      "note": "de- 向下 + spic 看 → 从上往下看"
+      "note": "de- 向下 + spic 看 → 从上往下看",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "de + spic 拼不出 despise；spic 是拉丁 specere 的内部形式"
+      }
     },
     {
       "w": "auspices",
       "relation": "cognate",
       "glossZh": "预兆；赞助",
-      "note": "auspex = avis 鸟 + specere 看：观鸟占卜，走的是名词复合这条路，不按 spect 切分"
+      "note": "auspex = avis 鸟 + specere 看：观鸟占卜，走的是名词复合这条路，不按 spect 切分",
+      "analysis": {
+        "kind": "cognate",
+        "verified": false
+      }
     },
     {
       "w": "spectrum",
       "relation": "cognate",
       "glossZh": "光谱；范围",
-      "note": "spectrum 原义「影像、幻象」，同出 specere；19 世纪才被借为物理术语"
+      "note": "spectrum 原义「影像、幻象」，同出 specere；19 世纪才被借为物理术语",
+      "analysis": {
+        "kind": "cognate",
+        "verified": false
+      }
     }
   ],
   "allomorphs": [

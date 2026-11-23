@@ -14,128 +14,286 @@
       "w": "photograph",
       "relation": "derivative",
       "glossZh": "照片",
-      "layer": ["photo", "graph"],
-      "note": "photo 光 + graph 写 → 用光写下的；1839 年新造词"
+      "layer": [
+        "photo",
+        "graph"
+      ],
+      "note": "photo 光 + graph 写 → 用光写下的；1839 年新造词",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "biography",
       "relation": "derivative",
       "glossZh": "传记",
-      "layer": ["bio", "graph", "-y"],
-      "note": "bio 生命 + 写 + -y 表作品"
+      "layer": [
+        "bio",
+        "graph",
+        "-y"
+      ],
+      "note": "bio 生命 + 写 + -y 表作品",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "-graphy 作为后缀整体使用",
+        "alternatives": [
+          {
+            "layer": [
+              "bio",
+              "graphy"
+            ],
+            "kind": "synchronous",
+            "verified": true,
+            "source": "S1",
+            "note": "-graphy 作为后缀整体使用"
+          }
+        ]
+      }
     },
     {
       "w": "geography",
       "relation": "derivative",
       "glossZh": "地理学",
-      "layer": ["geo", "graph", "-y"],
-      "note": "geo 大地 + 写 → 描写大地"
+      "layer": [
+        "geo",
+        "graph",
+        "-y"
+      ],
+      "note": "geo 大地 + 写 → 描写大地",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "telegraph",
       "relation": "derivative",
       "glossZh": "电报机",
-      "layer": ["tele", "graph"],
-      "note": "tele 远 + 写 → 远距离写过来"
+      "layer": [
+        "tele",
+        "graph"
+      ],
+      "note": "tele 远 + 写 → 远距离写过来",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "telegram",
       "relation": "derivative",
       "glossZh": "电报",
-      "layer": ["tele", "gram"],
-      "note": "gram 写下的东西：远处写来的那一条"
+      "layer": [
+        "tele",
+        "gram"
+      ],
+      "note": "gram 写下的东西：远处写来的那一条",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "diagram",
       "relation": "derivative",
       "glossZh": "图解",
-      "layer": ["dia", "gram"],
-      "note": "dia 穿过、对着 + 写 → 用线条画出结构"
+      "layer": [
+        "dia",
+        "gram"
+      ],
+      "note": "dia 穿过、对着 + 写 → 用线条画出结构",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "dia + gram 是希腊 diagramma 的历史形态，现代 diagram 整体借入"
+      }
     },
     {
       "w": "grammar",
       "relation": "derivative",
       "glossZh": "语法",
-      "layer": ["gram"],
-      "note": "拉丁 grammatica < 希腊 gramma「字母」；词尾 -ar 是法语演变结果，不作后缀切分"
+      "layer": [
+        "gram"
+      ],
+      "note": "拉丁 grammatica < 希腊 gramma「字母」；词尾 -ar 是法语演变结果，不作后缀切分",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "整体借入，gram 拼不出 grammar"
+      }
     },
     {
       "w": "program",
       "relation": "derivative",
       "glossZh": "程序；节目单",
-      "layer": ["pro-", "gram"],
-      "note": "希腊 programma「公开写出的通告」→ 预先写好的流程"
+      "layer": [
+        "pro-",
+        "gram"
+      ],
+      "note": "希腊 programma「公开写出的通告」→ 预先写好的流程",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "pro- 不是希腊 programma 的前缀；属于借入后整体使用"
+      }
     },
     {
       "w": "graphic",
       "relation": "derivative",
       "glossZh": "图像的；生动的",
-      "layer": ["graph", "-ic"],
-      "note": "-ic …的：与书写、描绘有关的"
+      "layer": [
+        "graph",
+        "-ic"
+      ],
+      "note": "-ic …的：与书写、描绘有关的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "paragraph",
       "relation": "derivative",
       "glossZh": "段落",
-      "layer": ["para-", "graph"],
-      "note": "para- 旁边 + 写 → 原指书页边上的记号，后指分段"
+      "layer": [
+        "para-",
+        "graph"
+      ],
+      "note": "para- 旁边 + 写 → 原指书页边上的记号，后指分段",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "autograph",
       "relation": "derivative",
       "glossZh": "亲笔签名",
-      "layer": ["auto-", "graph"],
-      "note": "auto- 自己 + 写 → 本人写的"
+      "layer": [
+        "auto-",
+        "graph"
+      ],
+      "note": "auto- 自己 + 写 → 本人写的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "monograph",
       "relation": "derivative",
       "glossZh": "专著",
-      "layer": ["mono-", "graph"],
-      "note": "mono- 单一 + 写 → 专写一个题目的书"
+      "layer": [
+        "mono-",
+        "graph"
+      ],
+      "note": "mono- 单一 + 写 → 专写一个题目的书",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "polygraph",
       "relation": "derivative",
       "glossZh": "测谎仪",
-      "layer": ["poly-", "graph"],
-      "note": "poly- 多 + 写 → 同时记录多项生理指标"
+      "layer": [
+        "poly-",
+        "graph"
+      ],
+      "note": "poly- 多 + 写 → 同时记录多项生理指标",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "graphology",
       "relation": "derivative",
       "glossZh": "笔迹学",
-      "layer": ["graph", "-o-", "-logy"],
-      "note": "-o- 是希腊复合词的连接元音，-logy 表学科"
+      "layer": [
+        "graph",
+        "-o-",
+        "-logy"
+      ],
+      "note": "-o- 是希腊复合词的连接元音，-logy 表学科",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     }
   ],
   "allomorphs": [
     {
       "form": "graphy",
       "note": "表「记录过程或学科」，与 -graph（工具/记录物）分工",
-      "examples": ["geography", "photography", "tomography"]
+      "examples": [
+        "geography",
+        "photography",
+        "tomography"
+      ]
     },
     {
       "form": "gram",
       "note": "希腊 gramma「写下的东西」，指具体的记录物",
-      "examples": ["telegram", "diagram", "program"]
+      "examples": [
+        "telegram",
+        "diagram",
+        "program"
+      ]
     }
   ],
   "derivationChains": [
     {
-      "stages": ["graph", "photograph", "photographer", "photographic"],
+      "stages": [
+        "graph",
+        "photograph",
+        "photographer",
+        "photographic"
+      ],
       "note": "每一级都真实成词；-er 表人，-ic 表性质"
     },
     {
-      "stages": ["graph", "biography", "biographer", "biographical"],
+      "stages": [
+        "graph",
+        "biography",
+        "biographer",
+        "biographical"
+      ],
       "note": "biography 的 -y 换成 -er 时拼作 biographer"
     },
     {
-      "stages": ["graph", "geography", "geographer", "geographic"],
+      "stages": [
+        "graph",
+        "geography",
+        "geographer",
+        "geographic"
+      ],
       "note": "geographic 与 geographical 并存，后者更常见"
     },
     {
-      "stages": ["graph", "telegraph", "telegraphy", "telegraphic"],
+      "stages": [
+        "graph",
+        "telegraph",
+        "telegraphy",
+        "telegraphic"
+      ],
       "note": "-y 表技术体系，-ic 表性质"
     }
   ],

@@ -16,10 +16,11 @@
  *      the dossier, which lists real English words whether or not we have an
  *      entry for them.
  */
-import type { FamilyDossier } from '../lib/content';
-import { checkSum as judgeWordSum, splitSum, type SumVerdict } from './word-sum';
+import type { AnalysisKind, FamilyDossier } from '../lib/content';
+import { checkSum as judgeWordSum, splitSum, ungradedVerdict, type SumVerdict } from './word-sum';
 
 export { splitSum };
+export type { AnalysisKind };
 
 export type InquiryStepId = 'observe' | 'discover' | 'hypothesize' | 'verify' | 'counterexample' | 'summarize';
 
@@ -47,6 +48,38 @@ export interface VerifyItem {
 /** Exploration depth. Members are sorted into these by how much structure they show. */
 export type Tier = 'basic' | 'variation' | 'advanced' | 'transfer';
 
+/** One documented analysis of a word, kept with the claim it makes. */
+export interface SumAnalysis {
+  layer: string[];
+  kind: AnalysisKind;
+  verified: boolean;
+  /** Id in the dossier's `sources`, required before this may be graded. */
+  source?: string;
+  note?: string;
+}
+
+/**
+ * One row of the summarize step.
+ *
+ * `graded` is the gate. When false the reference structure is still shown, but
+ * `gradeSum` returns `unresolved`: a historical, analogical or unverified split
+ * must never be the one right answer.
+ */
+export interface SumEntry {
+  word: string;
+  /** Every live analysis. More than one means the question accepts all of them. */
+  accepted: string[][];
+  graded: boolean;
+  /** The primary analysis, or `unverified` when nothing was checked. */
+  kind: AnalysisKind;
+  source?: string;
+  /** Why this row is or is not graded; shown to the learner either way. */
+  note?: string;
+  /** All documented analyses, so the page can show more than one. */
+  analyses: SumAnalysis[];
+}
+
+
 export interface InquiryOptions {
   /** Which pass through this family this is; shifts which words appear. */
   session?: number;
@@ -66,7 +99,12 @@ export interface InquiryModel {
   /** Root sense in the learner's language, revealed only on request. */
   rootSense: string;
   /** Accepted word sums for the summary step; alternatives are all legitimate. */
-  sums: { word: string; accepted: string[][] }[];
+  sums: SumEntry[];
+  /**
+   * Reference structures shown but never graded: historical, analogical,
+   * unverified, cognate, or words with more than one live analysis.
+   */
+  ungraded: SumEntry[];
   matrix: string[][];
   hints: string[];
 }
@@ -170,6 +208,145 @@ const HINT_BANK = [
   '有一个词的"像"只是拼写上的：它的词源和这一族没有关系。',
 ];
 
+/* -------------------------------- sum gate -------------------------------- */
+
+type MemberLike = NonNullable<FamilyDossier['members']>[number];
+
+function stripBoundary(part: string): string {
+  return part.replace(/^-+|-+$/g, '');
+}
+
+/**
+ * Does `layer` actually spell `word`?
+ *
+ * `capacity` as `cap + -ity` does not — the letters give "capity". Such a split
+ * can still be a useful historical note, but it cannot be the spelling a
+ * learner is asked to reproduce. A silent e may drop at a morpheme seam before
+ * a vowel, because e-drop is a documented rule (`create + ion` → `creation`,
+ * `spectate + -or` → `spectator`).
+ */
+export function spellsOut(layer: string[], word: string): boolean {
+  const parts = layer.map(stripBoundary);
+  const plain = parts.join('');
+  const withEDrop = parts
+    .map((part, index) => {
+      const next = parts[index + 1] ?? '';
+      // e-drop only at a real morpheme seam, before a vowel-initial suffix:
+      // create + ion → creation, spectate + -or → spectator.
+      const drops = index < parts.length - 1 && part.endsWith('e') && /^[aeiou]/.test(next);
+      return drops ? part.slice(0, -1) : part;
+    })
+    .join('');
+  return plain === word || withEDrop === word;
+}
+
+/**
+ * The claim a member's `layer` makes.
+ *
+ * Absence of `analysis` means nobody checked, not that the split is modern:
+ * the default is `unverified`, which never grades.
+ */
+export function classifyMember(member: Pick<MemberLike, 'relation' | 'layer' | 'analysis'>): SumAnalysis {
+  const analysis = member.analysis;
+  const kind: AnalysisKind =
+    analysis?.kind ?? (member.relation === 'cognate' ? 'cognate' : 'unverified');
+  return {
+    layer: member.layer ?? [],
+    kind,
+    verified: analysis?.verified === true,
+    source: analysis?.source,
+    note: analysis?.note,
+  };
+}
+
+/**
+ * The gate. A structure is auto-gradable only when it is a modern analysis,
+ * someone verified it, the verification names a source, the split has at least
+ * two parts, and the letters actually build the word.
+ */
+export function isGradable(analysis: SumAnalysis, word: string): boolean {
+  return (
+    analysis.kind === 'synchronous' &&
+    analysis.verified &&
+    typeof analysis.source === 'string' &&
+    analysis.source.trim().length > 0 &&
+    analysis.layer.length >= 2 &&
+    spellsOut(analysis.layer, word)
+  );
+}
+
+/** Every documented analysis of a member: the primary layer plus alternatives. */
+export function analysesOf(member: Pick<MemberLike, 'relation' | 'layer' | 'analysis'>): SumAnalysis[] {
+  const primary = classifyMember(member);
+  const alternatives = (member.analysis?.alternatives ?? []).map((alt) => ({
+    layer: alt.layer,
+    kind: alt.kind,
+    verified: alt.verified === true,
+    source: alt.source,
+    note: alt.note,
+  }));
+  const seen = new Set<string>();
+  return [primary, ...alternatives].filter((entry) => {
+    if (entry.layer.length === 0) return false;
+    const key = `${entry.kind}:${entry.layer.join('|')}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+/** Why a row is displayed without a verdict, in the learner's language. */
+function ungradedNote(primary: SumAnalysis, word: string): string {
+  const split = primary.layer.join(' + ');
+  switch (primary.kind) {
+    case 'cognate':
+      return `${word} 与这一族历史同源，不是现代派生，不给标准答案。`;
+    case 'historical':
+      return `${word} 的 ${split} 是历史形态，不作为现代标准答案。`;
+    case 'analogical':
+      return `${word} 的 ${split} 是教学拆分，不是一条现代构词规则，不作为标准答案。`;
+    default:
+      return `${word} 的参考结构尚未核实来源，不作为标准答案。`;
+  }
+}
+
+/** Factual membership line for the verify step; never claims a rule it lacks. */
+function explainMember(member: MemberLike): string {
+  const primary = classifyMember(member);
+  const split = primary.layer.join(' + ') || '该词根';
+  if (primary.kind === 'cognate' || member.relation === 'cognate') {
+    return `${member.w} 与这一族历史同源，但不是现代派生——同源与派生不能混为一谈。`;
+  }
+  if (primary.kind === 'historical') {
+    return `${member.w} 历史上来自 ${split}，现代共时不按这个切分分析；它仍属于这一族。`;
+  }
+  if (primary.kind === 'analogical') {
+    return `${member.w} 可以用 ${split} 作教学拆分来记，但这不是一条现代构词规则。`;
+  }
+  if (primary.kind === 'unverified') {
+    return `${member.w} 属于这一族；参考结构尚未核实，不作为标准答案。`;
+  }
+  return member.note ?? `${member.w} 由 ${split} 构成，属于这一族。`;
+}
+
+/**
+ * Judge one summarize-step row.
+ *
+ * An ungraded row always returns `unresolved` with the reason: the learner is
+ * not wrong, the reference is simply not a modern rule. Graded rows may accept
+ * several analyses, and any one of them passes.
+ */
+export function gradeSum(input: string, entry: SumEntry): SumVerdict {
+  if (!entry.graded) {
+    return ungradedVerdict(
+      entry.note ?? '这条参考结构不作为标准答案，不判对错。',
+      entry.analyses.flatMap((analysis) => analysis.layer),
+    );
+  }
+  return judgeWordSum(input, entry.accepted);
+}
+
+
 /** Build the inquiry model for one dossier. Pure: same input, same output. */
 export function buildInquiry(
   dossier: FamilyDossier,
@@ -231,11 +408,7 @@ export function buildInquiry(
     ...(verifyMembers.length >= 2 ? verifyMembers : members.slice(0, 2)).map((member) => ({
       w: member.w,
       inFamily: true,
-      explain:
-        member.relation === 'cognate'
-          ? `${member.w} 与这一族历史同源，但不是现代派生——同源与派生不能混为一谈。`
-          : member.note ??
-            `${member.w} 由 ${(member.layer ?? []).join(' + ') || '该词根'} 构成，属于这一族。`,
+      explain: explainMember(member),
     })),
     ...traps.slice(0, 2).map((trap) => ({
       w: trap.form,
@@ -244,19 +417,59 @@ export function buildInquiry(
     })),
   ];
 
-  // Rotate the sums with the session instead of always taking the first three:
-  // a family with twelve analysable members should not ask the same three sums
-  // every time, and the reference split is not the only legitimate one.
+  // Only a modern, verified, sourced structure may be graded. Everything else
+  // is still shown — but as a reference, never as the one right answer. A word
+  // with a documented historical analysis alongside a live one (spectator) is
+  // not a unique-answer question at all.
   const analysable = members.filter((member) => (member.layer?.length ?? 0) >= 2);
-  const sumStart = analysable.length > 0 ? session % analysable.length : 0;
-  const sums = [...analysable.slice(sumStart), ...analysable.slice(0, sumStart)]
-    .slice(0, 3)
-    .map((member) => ({
+  const sumEntries: SumEntry[] = [];
+  const ungradedEntries: SumEntry[] = [];
+  for (const member of analysable) {
+    const analyses = analysesOf(member);
+    const live = analyses.filter((entry) => isGradable(entry, member.w));
+    const historical = analyses.filter((entry) => entry.kind === 'historical');
+    const contested = historical.length > 0;
+
+    if (live.length > 0 && !contested) {
+      const accepted: string[][] = [];
+      const seenForms = new Set<string>();
+      for (const entry of live) {
+        const key = entry.layer.join('|');
+        if (seenForms.has(key)) continue;
+        seenForms.add(key);
+        accepted.push(entry.layer);
+      }
+      sumEntries.push({
+        word: member.w,
+        accepted,
+        graded: true,
+        kind: 'synchronous',
+        source: live[0].source,
+        note: live.length > 1 ? '这个词有多种成立的分析，写哪一种都算对。' : undefined,
+        analyses,
+      });
+      continue;
+    }
+
+    const primary = live[0] ?? analyses[0];
+    const note =
+      live.length > 0
+        ? `${member.w} 有两种都成立的分析：${live[0].layer.join(' + ')}（现代）与 ` +
+          `${historical.map((entry) => entry.layer.join(' + ')).join(' / ')}（历史）。不设唯一答案。`
+        : ungradedNote(primary, member.w);
+    ungradedEntries.push({
       word: member.w,
-      // The dossier's own split plus the same split without the connecting vowel,
-      // which is the alternative learners most often write.
-      accepted: [member.layer as string[], (member.layer as string[]).filter((part) => part !== 'o')],
-    }));
+      accepted: analyses.map((entry) => entry.layer),
+      graded: false,
+      kind: primary.kind,
+      source: primary.source,
+      note,
+      analyses,
+    });
+  }
+
+  const sumStart = sumEntries.length > 0 ? session % sumEntries.length : 0;
+  const sums = [...sumEntries.slice(sumStart), ...sumEntries.slice(0, sumStart)].slice(0, 3);
 
   // Every documented chain, not the first three: truncating here hid real
   // members of large families from the summary step.
@@ -273,6 +486,7 @@ export function buildInquiry(
     verify,
     rootSense: dossier.root?.glossZh ?? '',
     sums,
+    ungraded: ungradedEntries,
     matrix,
     hints: HINT_BANK,
   };

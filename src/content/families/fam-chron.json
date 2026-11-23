@@ -14,116 +14,263 @@
       "w": "synchronize",
       "relation": "derivative",
       "glossZh": "使同步",
-      "layer": ["syn-", "chron", "-ize"],
-      "note": "syn- 一起 + chron 时间 + -ize → 让时间对齐"
+      "layer": [
+        "syn-",
+        "chron",
+        "-ize"
+      ],
+      "note": "syn- 一起 + chron 时间 + -ize → 让时间对齐",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "chronic",
       "relation": "derivative",
       "glossZh": "慢性的；长期的",
-      "layer": ["chron", "-ic"],
-      "note": "-ic …的：与时间有关 → 拖很长时间的"
+      "layer": [
+        "chron",
+        "-ic"
+      ],
+      "note": "-ic …的：与时间有关 → 拖很长时间的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "chronicle",
       "relation": "derivative",
       "glossZh": "编年史",
-      "layer": ["chron"],
-      "note": "拉丁 chronica < 希腊 chronika「按时间排列的事」；-icle 是借入后的词尾，不作后缀切分"
+      "layer": [
+        "chron"
+      ],
+      "note": "拉丁 chronica < 希腊 chronika「按时间排列的事」；-icle 是借入后的词尾，不作后缀切分",
+      "analysis": {
+        "kind": "historical",
+        "verified": false,
+        "source": "S5",
+        "note": "chronicle 整体借入；chron 只是词源成分，拼不出 chronicle"
+      }
     },
     {
       "w": "chronology",
       "relation": "derivative",
       "glossZh": "年代学；时间顺序",
-      "layer": ["chrono", "-logy"],
-      "note": "chrono 时间 + -logy 学科 → 研究时间顺序"
+      "layer": [
+        "chrono",
+        "-logy"
+      ],
+      "note": "chrono 时间 + -logy 学科 → 研究时间顺序",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "chronological",
       "relation": "derivative",
       "glossZh": "按时间顺序的",
-      "layer": ["chrono", "-logy", "-ical"],
-      "note": "chronology 去 y 加 -ical"
+      "layer": [
+        "chrono",
+        "-logy",
+        "-ical"
+      ],
+      "note": "chronology 去 y 加 -ical",
+      "analysis": {
+        "kind": "analogical",
+        "verified": false,
+        "source": "S1",
+        "note": "构词层级是 chronology + -ical；扁平分拆无法表达 y→i"
+      }
     },
     {
       "w": "chronometer",
       "relation": "derivative",
       "glossZh": "精密计时器",
-      "layer": ["chrono", "-meter"],
-      "note": "chrono 时间 + -meter 测量 → 测时的仪器"
+      "layer": [
+        "chrono",
+        "-meter"
+      ],
+      "note": "chrono 时间 + -meter 测量 → 测时的仪器",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "anachronism",
       "relation": "derivative",
       "glossZh": "时代错误",
-      "layer": ["ana-", "chron", "-ism"],
-      "note": "ana- 反、错 + 时间 + -ism → 放错时代的东西"
+      "layer": [
+        "ana-",
+        "chron",
+        "-ism"
+      ],
+      "note": "ana- 反、错 + 时间 + -ism → 放错时代的东西",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "asynchronous",
       "relation": "derivative",
       "glossZh": "异步的",
-      "layer": ["a-", "syn-", "chron", "-ous"],
-      "note": "a- 否定 + syn- 一起 + 时间 + -ous → 不同时的"
+      "layer": [
+        "a-",
+        "syn-",
+        "chron",
+        "-ous"
+      ],
+      "note": "a- 否定 + syn- 一起 + 时间 + -ous → 不同时的",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "chronograph",
       "relation": "derivative",
       "glossZh": "计时记录仪",
-      "layer": ["chrono", "-graph"],
-      "note": "chrono 时间 + graph 记录 → 把时间写下来"
+      "layer": [
+        "chrono",
+        "-graph"
+      ],
+      "note": "chrono 时间 + graph 记录 → 把时间写下来",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "chronometry",
       "relation": "derivative",
       "glossZh": "测时学",
-      "layer": ["chrono", "-metry"],
-      "note": "-metry 测量术，比 -meter 更偏方法"
+      "layer": [
+        "chrono",
+        "-metry"
+      ],
+      "note": "-metry 测量术，比 -meter 更偏方法",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "synchronic",
       "relation": "derivative",
       "glossZh": "共时的",
-      "layer": ["syn-", "chron", "-ic"],
-      "note": "syn- 一起 + 时间 → 截取同一时点看系统"
+      "layer": [
+        "syn-",
+        "chron",
+        "-ic"
+      ],
+      "note": "syn- 一起 + 时间 → 截取同一时点看系统",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "diachronic",
       "relation": "derivative",
       "glossZh": "历时的",
-      "layer": ["dia-", "chron", "-ic"],
-      "note": "dia- 穿过 + 时间 → 沿时间轴看变化"
+      "layer": [
+        "dia-",
+        "chron",
+        "-ic"
+      ],
+      "note": "dia- 穿过 + 时间 → 沿时间轴看变化",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1"
+      }
     },
     {
       "w": "chronobiology",
       "relation": "derivative",
       "glossZh": "时间生物学",
-      "layer": ["chrono", "bio", "-logy"],
-      "note": "20 世纪复合词：研究生物节律的时间维度"
+      "layer": [
+        "chrono",
+        "bio",
+        "-logy"
+      ],
+      "note": "20 世纪复合词：研究生物节律的时间维度",
+      "analysis": {
+        "kind": "synchronous",
+        "verified": true,
+        "source": "S1",
+        "note": "chrono + biology 同样成立",
+        "alternatives": [
+          {
+            "layer": [
+              "chrono",
+              "biology"
+            ],
+            "kind": "synchronous",
+            "verified": true,
+            "source": "S1",
+            "note": "chrono + biology 同样成立"
+          }
+        ]
+      }
     }
   ],
   "allomorphs": [
     {
       "form": "chrono",
       "note": "接 -logy / -meter / -graph 时的连接形式，-o- 已并入词根",
-      "examples": ["chronology", "chronometer", "chronograph"]
+      "examples": [
+        "chronology",
+        "chronometer",
+        "chronograph"
+      ]
     }
   ],
   "derivationChains": [
     {
-      "stages": ["chron", "chronic", "chronicity"],
+      "stages": [
+        "chron",
+        "chronic",
+        "chronicity"
+      ],
       "note": "每一级都真实成词；chronicity 是医学用语「慢性程度」"
     },
     {
-      "stages": ["chron", "chronology", "chronological", "chronologically"],
+      "stages": [
+        "chron",
+        "chronology",
+        "chronological",
+        "chronologically"
+      ],
       "note": "-logy → -logical → -logically 是常规三层"
     },
     {
-      "stages": ["chron", "synchronize", "synchronization"],
+      "stages": [
+        "chron",
+        "synchronize",
+        "synchronization"
+      ],
       "note": "synchronize 去 e 加 -ation"
     },
     {
-      "stages": ["chron", "chronometer", "chronometric"],
+      "stages": [
+        "chron",
+        "chronometer",
+        "chronometric"
+      ],
       "note": "chronometric 指「测时的」，与 chronometrical 并存"
     }
   ],
