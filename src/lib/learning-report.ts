@@ -44,6 +44,20 @@ export interface LearningReport {
   limitations: string[];
 }
 
+/**
+ * Local calendar day, matching the rest of the app.
+ *
+ * This used to be `toISOString().slice(0,10)`, i.e. UTC, while the daily stats
+ * elsewhere use the local day — so an evening session west of Greenwich, or an
+ * early morning east of it, landed on a different date in the two panels.
+ */
+export function localDay(ts: number): string {
+  const date = new Date(ts);
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+  return `${date.getFullYear()}-${month}-${day}`;
+}
+
 /** Exercise lookup by id, so attempts can be joined to the concepts they tested. */
 export type ExerciseIndex = Map<string, Exercise & { lessonId: string }>;
 
@@ -94,7 +108,7 @@ export function buildReport(attempts: Attempt[], index: ExerciseIndex, now = Dat
     if (attempt.correct) kindRow.correct += 1;
     byKind.set(attempt.kind, kindRow);
 
-    days.add(new Date(attempt.ts).toISOString().slice(0, 10));
+    days.add(localDay(attempt.ts));
 
     const exercise = index.get(attempt.exerciseId);
     if (exercise?.concepts?.length) {

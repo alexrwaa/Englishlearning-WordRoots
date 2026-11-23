@@ -10,7 +10,7 @@ import { readFileSync } from 'node:fs';
 
 import { describe, expect, it } from 'vitest';
 
-import { buildInquiry, checkSum, compareHypothesis, loadProgress, saveProgress, splitSum } from './family-inquiry';
+import { buildInquiry, checkSum, compareHypothesis, loadProgress, saveProgress, splitSum, tierLabel, tierOf } from './family-inquiry';
 import type { FamilyDossier } from './content';
 
 const dossier = JSON.parse(
@@ -73,6 +73,53 @@ describe('buildInquiry', () => {
   });
 });
 
+describe('layered exploration', () => {
+  const first = buildInquiry(dossier, known, { session: 0 });
+  const second = buildInquiry(dossier, known, { session: 1 });
+
+  it('classifies members by how much structure they show', () => {
+    expect(tierOf({ layer: ['in', 'spect'] })).toBe('basic');
+    expect(tierOf({ layer: ['in', 'spect', 'ion'] })).toBe('variation');
+    expect(tierOf({ relation: 'cognate', layer: ['spec', 't'] })).toBe('advanced');
+    expect(tierLabel('advanced')).toBe('进阶');
+  });
+
+  it('offers a different set of words on a second pass', () => {
+    const firstWords = first.observe.map((o) => o.w).join(',');
+    const secondWords = second.observe.map((o) => o.w).join(',');
+    expect(firstWords).not.toBe(secondWords);
+  });
+
+  it('prefers words the learner has not met yet', () => {
+    const met = first.observe.map((o) => o.w);
+    const third = buildInquiry(dossier, known, { session: 0, explored: met });
+    const overlap = third.observe.filter((o) => met.includes(o.w));
+    expect(overlap.length).toBeLessThanOrEqual(1);
+  });
+
+  it('does not verify with a word it just showed', () => {
+    for (const model of [first, second]) {
+      const shown = new Set(model.observe.map((o) => o.w));
+      const reused = model.verify.filter((v) => v.inFamily && shown.has(v.w));
+      expect(reused).toEqual([]);
+    }
+  });
+
+  it('never presents a cognate as a modern derivation', () => {
+    for (const item of first.verify.filter((v) => v.inFamily)) {
+      if (item.explain.includes('派生')) {
+        expect(item.explain).not.toMatch(/同源.*派生(?!——)/);
+      }
+    }
+  });
+
+  it('reports how many words the learner has already seen', () => {
+    expect(first.seen).toBe(0);
+    const withHistory = buildInquiry(dossier, known, { explored: first.observe.map((o) => o.w) });
+    expect(withHistory.seen).toBeGreaterThan(0);
+  });
+});
+
 describe('checkSum', () => {
   it('accepts the dossier split and its connecting-vowel variant', () => {
     expect(checkSum('in + spect + ion', [['in', 'spect', 'ion']]).ok).toBe(true);
@@ -83,11 +130,22 @@ describe('checkSum', () => {
     expect(checkSum('in + spect', [['in', 'spect', 'ion']]).ok).toBe(false);
   });
 
-  it('tolerates a doubled consonant at the join (orthography, not analysis)', () => {
-    // A learner who writes "add + ferent" has the right analysis and the wrong
-    // spelling at the seam; that should not be marked as a structural error.
-    expect(checkSum('add + ferent', [['ad', 'ferent']]).ok).toBe(true);
-    expect(checkSum('ad + ferent', [['add', 'ferent']]).ok).toBe(true);
+  it('no longer treats any doubled letter as free variation', () => {
+    // The old normaliser collapsed every doubled letter, so a dropped letter at
+    // the seam looked like a valid variant. That let "im + pres + ion" pass.
+    const dropped = checkSum('im + pres + ion', [['im', 'press', 'ion']]);
+    expect(dropped.ok).toBe(false);
+    expect(dropped.structure).toBe('correct');
+    expect(dropped.spelling).toBe('misspelled');
+    expect(dropped.note).toContain('press');
+  });
+
+  it('accepts an assimilation only through the named prefix rule', () => {
+    // ad + ferent → afferent is licensed (ad- assimilates before f-); the extra
+    // d in "add + ferent" is not, because the suffix does not begin with a vowel
+    // and ad- is a prefix, not a stem that doubles.
+    expect(checkSum('ad + ferent', [['af', 'ferent']]).ok).toBe(true);
+    expect(checkSum('add + ferent', [['ad', 'ferent']]).ok).toBe(false);
   });
 
   it('splits on the arrows learners actually type', () => {

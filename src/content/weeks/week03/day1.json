@@ -152,6 +152,11 @@
           "disconnect, disarm, dishonest"
         ]
       ]
+    },
+    {
+      "kind": "text",
+      "title": "规则跟着词层走：为什么只有借词才同化",
+      "body": "拉丁的 in- 在 p、b、m 前同化成 im-，在 l、r 前同化成 il-、ir-；本土的 un- 从不这样：unkind、unable、unclear，哪怕后面接 b 也不变（unbalanced）。原因不在拼写，而在词层：同化是拉丁借词层内部的音系规则，随词一起借进来，不会自动推广到本土词。软化的 c 是同一条道理——cell、cent 里的 c 读 [s]，而本土的 cat、keep 不软化。判断一个新词该不该同化，先问它属于哪一层，再看接缝上的音。"
     }
   ],
   "practice": [
@@ -259,6 +264,24 @@
         "un",
         "non",
         "c-register"
+      ]
+    },
+    {
+      "id": "w03d1-p7",
+      "kind": "mcq",
+      "prompt": "为什么 in- 的同化（im- / il- / ir-）只出现在拉丁来源的词里，而本土的 un- 从不发生同化？",
+      "choices": [
+        "同化是拉丁借词层内部的音系规则；规则随词层一起借入，不自动推广到本土词",
+        "因为 un- 后面从不接 p、b、m 开头的词基",
+        "因为英语本土词根本没有前缀，所以看不到同化",
+        "因为 in- 与 un- 的意义不同，意义不同就不会发生同化"
+      ],
+      "answer": 0,
+      "explain": "同化是「接缝处的音互相迁就」，拉丁层借入时把这套规则一并带进来，所以 impossible、illegal、irregular 成立；本土的 un- 走的是另一条构词传统，unkind、unable、unclear 都不同化。选项 B 举一个反例即可推翻：unbalanced 就是 un- 接 b。这条也解释了软化的 c 为什么只作用于借词——give、girl 里的 g 至今不软化。",
+      "concepts": [
+        "c-prefix",
+        "c-allomorph",
+        "c-borrowing"
       ]
     }
   ],

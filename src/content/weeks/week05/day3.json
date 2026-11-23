@@ -313,6 +313,24 @@
         "duct",
         "ion"
       ]
+    },
+    {
+      "id": "w05d3-p7",
+      "kind": "mcq",
+      "prompt": "produce 与 product 里「引导」这个词根形状不同（duc / duct）。最准确的解释是：",
+      "choices": [
+        "拉丁动词有两套词干：现在时 duc-，分词 duct-；英语按词性分别继承，不是加后缀时变出来的",
+        "英语为了让名词好读，在 c 后面自动插入一个 t",
+        "duct 是 duc 的复数形式，所以只出现在名词里",
+        "两者其实是两个不同的词根，只是意思相近"
+      ],
+      "answer": 0,
+      "explain": "词干分工是拉丁语本身的事实：ducere 的现在时词干是 duc-，完成分词是 duct-。英语借动词多取前者（produce、reduce、induce），借名词与形容词多取后者（product、reduction、conduct）。选项 B 把它说成英语的拼写调整，会让你错误预期所有 -tion 都触发 c→ct；选项 D 否认了同源关系，与本课的词族矩阵直接矛盾。",
+      "concepts": [
+        "duc",
+        "duct",
+        "c-root"
+      ]
     }
   ],
   "apply": [

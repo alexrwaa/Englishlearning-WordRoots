@@ -147,6 +147,11 @@
       "kind": "text",
       "title": "以 [l] 开头的指小后缀",
       "body": "拉丁的指小后缀有一个显著的形式特征：**多以 [l] 开头**——-lus、-la、-lum、-culus、-olus。它们表示“小”，但语义不止于小：\n\n- **molecula**（小 mass）→ molecule“分子”：小到成为技术单位。\n- **alveolus**（小槽）→ alveolar“牙槽的、肺泡的”：解剖学里指小腔。\n- **formula**（小形式）→ formula“公式”：从“小形状”变成“固定格式”。\n- **capsula**（小盒）→ capsule“胶囊、太空舱”。\n\n三种引申要分清：① 真的小（molecula）；② 技术上的标准小单位（alveolus）；③ 由“小”转为“精致／固定”的抽象义（formula）。指小后缀也常带感情色彩（亲昵或轻蔑），这一点在意大利语、西班牙语的 -ito／-illo 里更明显。\n\n实用提醒：不要看到 -ula 就一律译“小”，要先看它在学科里的固定译法。"
+    },
+    {
+      "kind": "text",
+      "title": "两种单音节词根：黏着的与自由的",
+      "body": "同样是单音节，能不能独立成词要看它属于哪一层。拉丁借来的词根大多是黏着的：caud- 要加 -a 才是 cauda「尾巴」，dent- 要加 -alis 才是 dentalis「牙的」，英语借的是加过词缀的形式（caudal、dental），所以你从来看不到单独出现的 caud 或 dent。本土词根不同：sun、man、hand 本身就是词，也能直接复合与派生（sunny、manly、handful）。判断时不要数音节，要问一句「它能不能单独说」。"
     }
   ],
   "practice": [
@@ -238,6 +243,23 @@
         "c-suffix",
         "c-scientific",
         "c-derivation"
+      ]
+    },
+    {
+      "id": "w13d6-p6",
+      "kind": "mcq",
+      "prompt": "下面哪一项正确区分了「能独立成词的单音节词根」与「只能加词缀才成词的拉丁词根」？",
+      "choices": [
+        "sun、man、hand 是能独立成词的单音节词根；caud-、dent-、oss- 是黏着的拉丁词根，必须加词尾或后缀",
+        "所有单音节词根都能独立成词，包括 caud- 与 dent-",
+        "所有单音节词根都不能独立成词，包括 sun 与 man",
+        "能否独立成词只取决于音节数，与词根的来源无关"
+      ],
+      "answer": 0,
+      "explain": "拉丁的单音节词根大多是黏着的：caud- 要加 -a 才是 cauda，dent- 要加 -alis 才是 dentalis，英语借的是加过词缀的形式（caudal、dental）。本土词根不同，sun、man、hand 本身就是词，也能继续复合与派生。选项 B 与 caud- 的事实相反；选项 D 把音节数当判据，正好解释了这条为什么容易错——错的不是音节，而是「黏着还是自由」。",
+      "concepts": [
+        "c-root",
+        "c-suffix"
       ]
     }
   ],

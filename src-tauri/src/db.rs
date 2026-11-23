@@ -5,7 +5,7 @@ use std::path::Path;
 
 use crate::paths;
 
-pub const SCHEMA_VERSION: i32 = 3;
+pub const SCHEMA_VERSION: i32 = 4;
 
 const MIGRATION_V1: &str = r#"
 CREATE TABLE IF NOT EXISTS meta (
@@ -114,6 +114,31 @@ CREATE TABLE IF NOT EXISTS assessment_runs (
 CREATE INDEX IF NOT EXISTS idx_assessment_finished ON assessment_runs(finished_at DESC);
 "#;
 
+/// v4: family-inquiry progress moves out of `localStorage` into the product
+/// database, so it is covered by backups and travels with the portable folder.
+///
+/// `schema_version` is the *record* shape, not the database schema: it lets a
+/// future build tell a row it understands from one written by a newer app.
+/// `done` / `picks` / `sums` are JSON text. A row whose JSON no longer parses is
+/// counted as skipped by the read path; it never blocks startup. An unknown
+/// `schema_version` is *not* skipped — it is reported as an error, because
+/// silently dropping a newer record would lose data.
+const MIGRATION_V4: &str = r#"
+CREATE TABLE IF NOT EXISTS inquiry_progress (
+  family_id TEXT PRIMARY KEY,
+  schema_version INTEGER NOT NULL,
+  step INTEGER NOT NULL,
+  done TEXT NOT NULL,
+  hypothesis TEXT NOT NULL DEFAULT '',
+  picks TEXT NOT NULL DEFAULT '{}',
+  sums TEXT NOT NULL DEFAULT '{}',
+  hints INTEGER NOT NULL DEFAULT 0,
+  elapsed_ms INTEGER NOT NULL DEFAULT 0,
+  updated_at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_inquiry_updated ON inquiry_progress(updated_at DESC);
+"#;
+
 /// Apply every migration the database is missing. Kept separate from `open()` so
 /// it can be tested against an in-memory database at any starting version.
 pub fn migrate(conn: &mut Connection) -> Result<(), String> {
@@ -150,6 +175,17 @@ pub fn migrate(conn: &mut Connection) -> Result<(), String> {
         )
         .map_err(|e| e.to_string())?;
         version = 3;
+    }
+
+    if version < 4 {
+        conn.execute_batch(MIGRATION_V4).map_err(|e| e.to_string())?;
+        conn.execute(
+            "INSERT INTO meta(key, value) VALUES('schema_version', '4')
+             ON CONFLICT(key) DO UPDATE SET value = excluded.value",
+            [],
+        )
+        .map_err(|e| e.to_string())?;
+        version = 4;
     }
 
     paths::log_line(&format!(
@@ -686,6 +722,189 @@ pub fn assessment_count(conn: &Connection) -> Result<i64, String> {
         .map_err(|e| e.to_string())
 }
 
+/* ------------------------- family inquiry progress ------------------------- */
+
+/// Version of the *record* shape stored in `inquiry_progress.schema_version`.
+/// Independent of `SCHEMA_VERSION` (the database schema): a row written here
+/// stays readable even if the table gains a column later.
+pub const INQUIRY_RECORD_VERSION: i64 = 1;
+
+/// Input of `inquiry_progress_save`. JSON fields arrive as values (the shim and
+/// the renderer both send objects) and are serialised here.
+#[derive(Debug, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct InquiryProgressInput {
+    pub family_id: String,
+    #[serde(default = "default_inquiry_record_version")]
+    pub schema_version: i64,
+    pub step: i64,
+    /// Omitted by an older caller: an empty step list is the honest default.
+    #[serde(default)]
+    pub done: serde_json::Value,
+    #[serde(default)]
+    pub hypothesis: String,
+    #[serde(default)]
+    pub picks: serde_json::Value,
+    #[serde(default)]
+    pub sums: serde_json::Value,
+    #[serde(default)]
+    pub hints: i64,
+    #[serde(default)]
+    pub elapsed_ms: i64,
+    /// 0 / missing means "now"; the caller may pass a value in tests.
+    #[serde(default)]
+    pub updated_at: i64,
+}
+
+fn default_inquiry_record_version() -> i64 {
+    INQUIRY_RECORD_VERSION
+}
+
+/// `{items, skipped}`. `skipped` counts rows whose JSON columns are unreadable:
+/// one damaged family must not make every other family's progress disappear.
+#[derive(Debug, Serialize)]
+#[serde(rename_all = "camelCase")]
+pub struct InquiryList {
+    pub items: Vec<serde_json::Value>,
+    pub skipped: usize,
+}
+
+/// Persist one family's progress. `INSERT OR REPLACE` makes a retry idempotent.
+pub fn inquiry_progress_save(
+    conn: &Connection,
+    progress: &InquiryProgressInput,
+) -> Result<(), String> {
+    let family_id = progress.family_id.trim();
+    if family_id.is_empty() {
+        return Err("family id is required".into());
+    }
+    if progress.schema_version > INQUIRY_RECORD_VERSION {
+        return Err(format!(
+            "refusing to write inquiry record v{} (this build understands v{INQUIRY_RECORD_VERSION})",
+            progress.schema_version
+        ));
+    }
+
+    let done = match &progress.done {
+        serde_json::Value::Null => serde_json::json!([]),
+        serde_json::Value::Array(_) => progress.done.clone(),
+        _ => return Err("inquiry `done` must be an array".into()),
+    };
+    let picks = if progress.picks.is_null() {
+        serde_json::json!({})
+    } else if progress.picks.is_object() {
+        progress.picks.clone()
+    } else {
+        return Err("inquiry `picks` must be an object".into());
+    };
+    let sums = if progress.sums.is_null() {
+        serde_json::json!({})
+    } else if progress.sums.is_object() {
+        progress.sums.clone()
+    } else {
+        return Err("inquiry `sums` must be an object".into());
+    };
+    let updated_at = if progress.updated_at > 0 {
+        progress.updated_at
+    } else {
+        paths::now_ms()
+    };
+
+    conn.execute(
+        "INSERT OR REPLACE INTO inquiry_progress
+           (family_id, schema_version, step, done, hypothesis, picks, sums, hints, elapsed_ms, updated_at)
+         VALUES(?1,?2,?3,?4,?5,?6,?7,?8,?9,?10)",
+        params![
+            family_id,
+            INQUIRY_RECORD_VERSION,
+            progress.step,
+            serde_json::to_string(&done).map_err(|e| e.to_string())?,
+            &progress.hypothesis,
+            serde_json::to_string(&picks).map_err(|e| e.to_string())?,
+            serde_json::to_string(&sums).map_err(|e| e.to_string())?,
+            progress.hints,
+            progress.elapsed_ms,
+            updated_at,
+        ],
+    )
+    .map_err(|e| e.to_string())?;
+    Ok(())
+}
+
+/// All families, most recently touched first.
+///
+/// A row with unknown `schema_version` aborts the read with an error: the UI is
+/// told the data is too new for this build instead of being handed a partial
+/// list that looks complete. Corrupt JSON columns only cost that one row.
+pub fn inquiry_progress_list(conn: &Connection) -> Result<InquiryList, String> {
+    let mut stmt = conn
+        .prepare(
+            "SELECT family_id, schema_version, step, done, hypothesis, picks, sums, hints, elapsed_ms, updated_at
+             FROM inquiry_progress ORDER BY updated_at DESC",
+        )
+        .map_err(|e| e.to_string())?;
+    let rows = stmt
+        .query_map([], |r| {
+            Ok((
+                r.get::<_, String>(0)?,
+                r.get::<_, i64>(1)?,
+                r.get::<_, i64>(2)?,
+                r.get::<_, String>(3)?,
+                r.get::<_, String>(4)?,
+                r.get::<_, String>(5)?,
+                r.get::<_, String>(6)?,
+                r.get::<_, i64>(7)?,
+                r.get::<_, i64>(8)?,
+                r.get::<_, i64>(9)?,
+            ))
+        })
+        .map_err(|e| e.to_string())?;
+
+    let mut items = Vec::new();
+    let mut skipped = 0usize;
+    for row in rows {
+        let (family_id, schema_version, step, done_raw, hypothesis, picks_raw, sums_raw, hints, elapsed_ms, updated_at) =
+            row.map_err(|e| e.to_string())?;
+
+        if schema_version > INQUIRY_RECORD_VERSION {
+            return Err(format!(
+                "inquiry progress for `{family_id}` was saved by a newer app version (record v{schema_version})"
+            ));
+        }
+
+        let done = serde_json::from_str::<serde_json::Value>(&done_raw);
+        let picks = serde_json::from_str::<serde_json::Value>(&picks_raw);
+        let sums = serde_json::from_str::<serde_json::Value>(&sums_raw);
+        let (Ok(done), Ok(picks), Ok(sums)) = (done, picks, sums) else {
+            skipped += 1;
+            continue;
+        };
+        if !done.is_array() || !picks.is_object() || !sums.is_object() {
+            skipped += 1;
+            continue;
+        }
+
+        items.push(serde_json::json!({
+            "familyId": family_id,
+            "schemaVersion": schema_version,
+            "step": step,
+            "done": done,
+            "hypothesis": hypothesis,
+            "picks": picks,
+            "sums": sums,
+            "hints": hints,
+            "elapsedMs": elapsed_ms,
+            "updatedAt": updated_at,
+        }));
+    }
+    Ok(InquiryList { items, skipped })
+}
+
+pub fn inquiry_progress_count(conn: &Connection) -> Result<i64, String> {
+    conn.query_row("SELECT COUNT(*) FROM inquiry_progress", [], |r| r.get(0))
+        .map_err(|e| e.to_string())
+}
+
 /* ---------------------------- export ---------------------------- */
 
 #[derive(Serialize, Deserialize)]
@@ -707,6 +926,10 @@ struct Snapshot {
     /// export must not wipe a history it never carried.
     #[serde(default, alias = "assessment_runs")]
     assessment_run: Vec<serde_json::Value>,
+    /// Family-inquiry progress (v4). Defaulted so a backup written before the
+    /// table existed imports cleanly instead of wiping progress it never had.
+    #[serde(default)]
+    inquiry_progress: Vec<serde_json::Value>,
 }
 
 /// Canonical snapshot body (no file I/O). Separated so it can be tested without
@@ -748,6 +971,9 @@ pub fn snapshot_json(conn: &Connection) -> Result<String, String> {
         bookmark: bookmarks(conn)?,
         settings: rows(conn, "SELECT key, value FROM settings")?,
         assessment_run: rows(conn, "SELECT * FROM assessment_runs ORDER BY finished_at ASC")?,
+        // Raw rows on purpose: a backup must stay lossless even for a record
+        // shape this build does not understand yet.
+        inquiry_progress: rows(conn, "SELECT * FROM inquiry_progress ORDER BY updated_at ASC")?,
     };
     serde_json::to_string_pretty(&snapshot).map_err(|e| e.to_string())
 }
@@ -771,6 +997,16 @@ fn write_with_checksum(path: &Path, content: &str) -> Result<(), String> {
     let sidecar = path.with_extension("json.fnv");
     fs::write(sidecar, format!("{hash:016x}")).map_err(|e| e.to_string())?;
     Ok(())
+}
+
+/// Read a JSON column that may arrive either as text (a Rust snapshot writes
+/// TEXT columns verbatim) or as a real value (the renderer's `toSnapshot`).
+fn json_column_text(value: Option<&serde_json::Value>, fallback: &str) -> String {
+    match value {
+        Some(serde_json::Value::String(s)) => s.clone(),
+        Some(v) if !v.is_null() => v.to_string(),
+        _ => fallback.to_string(),
+    }
 }
 
 pub fn import_snapshot(conn: &mut Connection, json: &str) -> Result<(), String> {
@@ -913,6 +1149,60 @@ pub fn import_snapshot(conn: &mut Connection, json: &str) -> Result<(), String> 
                    (id,mode,item_bank_version,started_at,finished_at,duration_ms,payload,created_at)
                  VALUES(?1,?2,?3,?4,?5,?6,?7,?8)",
                 params![id, mode, bank, started, finished, duration, payload, created],
+            )
+            .map_err(|e| e.to_string())?;
+        }
+    }
+    // Inquiry progress is replaced only when the file carries it. That keeps an
+    // old backup (no such table in the file) from erasing progress recorded
+    // after the backup was taken.
+    if !snapshot.inquiry_progress.is_empty() {
+        tx.execute_batch("DELETE FROM inquiry_progress")
+            .map_err(|e| e.to_string())?;
+        for item in &snapshot.inquiry_progress {
+            let family_id = item
+                .get("family_id")
+                .or_else(|| item.get("familyId"))
+                .and_then(|v| v.as_str())
+                .unwrap_or_default();
+            if family_id.is_empty() {
+                continue;
+            }
+            let number = |snake: &str, camel: &str, fallback: i64| {
+                item.get(snake)
+                    .or_else(|| item.get(camel))
+                    .and_then(|v| v.as_i64())
+                    .unwrap_or(fallback)
+            };
+            let schema_version = number("schema_version", "schemaVersion", INQUIRY_RECORD_VERSION);
+            let step = number("step", "step", 0);
+            let hints = number("hints", "hints", 0);
+            let elapsed_ms = number("elapsed_ms", "elapsedMs", 0);
+            let updated_at = number("updated_at", "updatedAt", 0);
+            let hypothesis = item
+                .get("hypothesis")
+                .and_then(|v| v.as_str())
+                .unwrap_or_default();
+            let done = json_column_text(item.get("done"), "[]");
+            let picks = json_column_text(item.get("picks"), "{}");
+            let sums = json_column_text(item.get("sums"), "{}");
+
+            tx.execute(
+                "INSERT OR REPLACE INTO inquiry_progress
+                   (family_id, schema_version, step, done, hypothesis, picks, sums, hints, elapsed_ms, updated_at)
+                 VALUES(?1,?2,?3,?4,?5,?6,?7,?8,?9,?10)",
+                params![
+                    family_id,
+                    schema_version,
+                    step,
+                    done,
+                    hypothesis,
+                    picks,
+                    sums,
+                    hints,
+                    elapsed_ms,
+                    updated_at
+                ],
             )
             .map_err(|e| e.to_string())?;
         }
@@ -1149,5 +1439,112 @@ mod tests {
         let list = assessment_list(&fresh, ASSESSMENT_READ_LIMIT).unwrap();
         assert_eq!(list.runs.len(), 1);
         assert_eq!(list.runs[0]["id"], "a");
+    }
+
+    fn sample_inquiry(family_id: &str, step: i64, updated_at: i64) -> InquiryProgressInput {
+        InquiryProgressInput {
+            family_id: family_id.to_string(),
+            schema_version: INQUIRY_RECORD_VERSION,
+            step,
+            done: serde_json::json!(["observe", "discover"]),
+            hypothesis: "表示「看」".into(),
+            picks: serde_json::json!({ "discover": "suspect", "verify": { "inspect": true } }),
+            sums: serde_json::json!({ "inspect": "in + spect" }),
+            hints: 1,
+            elapsed_ms: 42_000,
+            updated_at,
+        }
+    }
+
+    #[test]
+    fn inquiry_save_is_upsert_and_keeps_families_apart() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        inquiry_progress_save(&conn, &sample_inquiry("fam-spect", 2, 1000)).unwrap();
+        inquiry_progress_save(&conn, &sample_inquiry("fam-port", 1, 2000)).unwrap();
+        inquiry_progress_save(&conn, &sample_inquiry("fam-spect", 4, 3000)).unwrap();
+
+        assert_eq!(inquiry_progress_count(&conn).unwrap(), 2);
+
+        let list = inquiry_progress_list(&conn).unwrap();
+        assert_eq!(list.skipped, 0);
+        assert_eq!(list.items.len(), 2);
+        // Most recently touched first.
+        assert_eq!(list.items[0]["familyId"], "fam-spect");
+        assert_eq!(list.items[0]["step"], 4);
+        assert_eq!(list.items[0]["done"], serde_json::json!(["observe", "discover"]));
+        assert_eq!(list.items[0]["picks"]["discover"], "suspect");
+        assert_eq!(list.items[1]["familyId"], "fam-port");
+    }
+
+    #[test]
+    fn inquiry_list_skips_corrupt_json_but_keeps_the_rest() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        inquiry_progress_save(&conn, &sample_inquiry("fam-good", 1, 1000)).unwrap();
+        conn.execute(
+            "INSERT INTO inquiry_progress(family_id,schema_version,step,done,hypothesis,picks,sums,hints,elapsed_ms,updated_at)
+             VALUES('fam-bad',1,0,'{not json','','{}','{}',0,0,2000)",
+            [],
+        )
+        .unwrap();
+
+        let list = inquiry_progress_list(&conn).unwrap();
+        assert_eq!(list.items.len(), 1);
+        assert_eq!(list.items[0]["familyId"], "fam-good");
+        assert_eq!(list.skipped, 1);
+    }
+
+    #[test]
+    fn inquiry_list_refuses_an_unknown_record_version() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        conn.execute(
+            "INSERT INTO inquiry_progress(family_id,schema_version,step,done,hypothesis,picks,sums,hints,elapsed_ms,updated_at)
+             VALUES('fam-future',99,0,'[]','','{}','{}',0,0,1000)",
+            [],
+        )
+        .unwrap();
+
+        let err = inquiry_progress_list(&conn).unwrap_err();
+        assert!(err.contains("newer app version"), "{err}");
+    }
+
+    #[test]
+    fn snapshot_carries_inquiry_progress() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        inquiry_progress_save(&conn, &sample_inquiry("fam-spect", 3, 1000)).unwrap();
+
+        let json = snapshot_json(&conn).unwrap();
+        assert!(json.contains("inquiry_progress"));
+
+        let mut fresh = Connection::open_in_memory().unwrap();
+        migrate(&mut fresh).unwrap();
+        import_snapshot(&mut fresh, &json).unwrap();
+
+        let list = inquiry_progress_list(&fresh).unwrap();
+        assert_eq!(list.items.len(), 1);
+        assert_eq!(list.items[0]["familyId"], "fam-spect");
+        assert_eq!(list.items[0]["step"], 3);
+        assert_eq!(list.items[0]["hypothesis"], "表示「看」");
+        assert_eq!(list.items[0]["elapsedMs"], 42_000);
+    }
+
+    #[test]
+    fn importing_an_old_snapshot_keeps_current_inquiry_progress() {
+        let mut conn = Connection::open_in_memory().unwrap();
+        migrate(&mut conn).unwrap();
+        inquiry_progress_save(&conn, &sample_inquiry("fam-spect", 2, 1000)).unwrap();
+
+        // A v3-era snapshot has no `inquiry_progress` key at all.
+        let json = snapshot_json(&conn).unwrap();
+        let mut serialized: serde_json::Value = serde_json::from_str(&json).unwrap();
+        serialized.as_object_mut().unwrap().remove("inquiry_progress");
+        import_snapshot(&mut conn, &serialized.to_string()).unwrap();
+
+        let list = inquiry_progress_list(&conn).unwrap();
+        assert_eq!(list.items.len(), 1, "an old backup must not erase progress");
+        assert_eq!(list.items[0]["step"], 2);
     }
 }

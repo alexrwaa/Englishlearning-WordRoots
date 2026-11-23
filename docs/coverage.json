@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T23:38:45.256Z",
+  "generatedAt": "2026-11-23T00:28:51.527Z",
   "identity": {
     "morphemes": 809,
     "forms": 1055,
@@ -817,7 +817,7 @@
     "elements": 559,
     "knowledgePoints": 283,
     "knowledgePointsTaught": 283,
-    "elementsCrossVerified": 11,
+    "elementsCrossVerified": 14,
     "knowledgePointsMappedOnly": 0,
     "chapters": 11,
     "sections": 116,
@@ -9009,7 +9009,7 @@
           "kind": "text",
           "lesson": "w32d4",
           "card": "先给已经做过的事命名",
-          "snippet": "学过 cats 的 [s] 与 dogs 的 [z]。 **morphology（形态学）**：词怎么由更小的意义单位构成。这是本书的主干"
+          "snippet": "学过 cats 的 [s] 与 dogs 的 [z]。 **morphology（形态学）**：词怎么由更小的意义单位构成。teacher"
         },
         {
           "kind": "text",
@@ -20131,6 +20131,12 @@
         },
         {
           "kind": "text",
+          "lesson": "w12d7",
+          "card": "四重收益：这一门课到底给了什么",
+          "snippet": "必逐词背字母。第四，选语域：ask / question / interrogate 是同一个意思的三档，选哪一档由读者与场合决定。四项都不"
+        },
+        {
+          "kind": "text",
           "lesson": "w14d3",
           "card": "-(i)or：拉丁比较级，英语里没有原级",
           "snippet": "prior（在先的）、ulterior（更远的、别有用心的）、interior／exterior（内／外）。 语法后果有三个：① 不能说"
@@ -20524,6 +20530,12 @@
         },
         {
           "kind": "text",
+          "lesson": "w12d7",
+          "card": "四重收益：这一门课到底给了什么",
+          "snippet": "再让语境确认，而不是等查词典。第二，收词族：认出一个 fer，transfer、conference、fertile 一起进来，记忆量按族算"
+        },
+        {
+          "kind": "text",
           "lesson": "w16d4",
           "card": "不透明，所以不被重拼",
           "snippet": "age** 都属于“认不出”的一类，因此保持法语拼法。透明度（transparency）决定了重拼的可能性。 opacity opa"
@@ -20717,6 +20729,12 @@
           "lesson": "w12d2",
           "card": "八个技术词的构词解剖",
           "snippet": "ume + pixel 三维像素，20 世纪后期造词 translational trans（越过）+ lat（被携带）+ io"
+        },
+        {
+          "kind": "text",
+          "lesson": "w12d7",
+          "card": "四重收益：这一门课到底给了什么",
+          "snippet": "再让语境确认，而不是等查词典。第二，收词族：认出一个 fer，transfer、conference、fertile 一起进来，记忆量按族算"
         },
         {
           "kind": "text",

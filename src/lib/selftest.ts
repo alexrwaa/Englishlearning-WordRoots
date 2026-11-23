@@ -16,6 +16,7 @@
  */
 import { call, db, getInvoke, IS_TAURI, type AppInfo } from './api';
 import { contentStatus } from './content';
+import { loadInquiryAsync } from './inquiry-store';
 
 // The gate asks for a specific lesson via WORDROOTS_SELFTEST_LESSON, so the same
 // self-test proves that a C9 or C11 lesson can be entered and finished in the
@@ -35,7 +36,16 @@ const MAX_ERRORS = 10;
 export interface TourResult {
   family: { ok: boolean; route: string; members: number; hasDossier: boolean; coreIdea: string };
   /** 0.11.0: the inquiry loop must be drivable in the packaged app, not just in tests. */
-  inquiry: { ok: boolean; steps: number; feedback: string; persisted: boolean };
+  inquiry: {
+    ok: boolean;
+    steps: number;
+    feedback: string;
+    persisted: boolean;
+    /** A record saved by an earlier launch — proves the SQLite store, not a page. */
+    restored: boolean;
+    /** Families are isolated: visiting one must not create a row for another. */
+    isolated: boolean;
+  };
   assessment: { ok: boolean; route: string; runs: number; storageKey: string; answered: number };
   errors: string[];
 }
@@ -270,7 +280,7 @@ async function tour(): Promise<TourResult> {
   const errors: string[] = [];
   const result: TourResult = {
     family: { ok: false, route: '#/family/rx-spec', members: 0, hasDossier: false, coreIdea: '' },
-    inquiry: { ok: false, steps: 0, feedback: '', persisted: false },
+    inquiry: { ok: false, steps: 0, feedback: '', persisted: false, restored: false, isolated: true },
     assessment: { ok: false, route: '#/assessment', runs: 0, storageKey: 'wordroots.assessment.v1', answered: 0 },
     errors,
   };
@@ -304,6 +314,10 @@ async function tour(): Promise<TourResult> {
   // too: open a step, pick an answer, check it, and confirm progress is stored.
   try {
     if (result.family.hasDossier) {
+      // Read before the tour writes anything: a row here means an earlier launch
+      // already saved progress, which is the "close and reopen" case.
+      const before = await loadInquiryAsync();
+      result.inquiry.restored = before.items.some((item) => item.familyId === 'fam-spect');
       const panel = await waitFor(
         () => (document.body.innerText.includes('探究这一族') ? document.body : null),
         10_000,
@@ -344,11 +358,16 @@ async function tour(): Promise<TourResult> {
             await sleep(250);
           }
         }
-        result.inquiry.persisted = Boolean(localStorage.getItem('wordroots.family.inquiry.v1'));
-        result.inquiry.ok = result.inquiry.steps >= 3 && result.inquiry.persisted;
+        // Persistence is now the SQLite store, not localStorage: the old key may
+        // legitimately be empty after migration.
+        const after = await loadInquiryAsync();
+        result.inquiry.persisted = after.items.some((item) => item.familyId === 'fam-spect');
+        // A row for a family never visited would mean the store mixes families.
+        result.inquiry.isolated = !after.items.some((item) => item.familyId === 'fam-struct');
+        result.inquiry.ok = result.inquiry.steps >= 3 && result.inquiry.persisted && result.inquiry.isolated;
         if (!result.inquiry.ok) {
           errors.push(
-            `family inquiry: steps=${result.inquiry.steps} feedback=${result.inquiry.feedback || 'none'} persisted=${result.inquiry.persisted}`,
+            `family inquiry: steps=${result.inquiry.steps} feedback=${result.inquiry.feedback || 'none'} persisted=${result.inquiry.persisted} isolated=${result.inquiry.isolated}`,
           );
         }
       }

@@ -65,6 +65,18 @@ const WEB_BACKUP_KEY = 'wordroots.dev.backup.last';
 export const ASSESSMENT_KEY = 'wordroots.assessment.v1';
 export const ASSESSMENT_MIGRATED_KEY = 'wordroots.assessment.migrated.v1';
 
+/**
+ * Family-inquiry progress. `INQUIRY_KEY` is the legacy per-family map written
+ * by the pre-SQLite build; `INQUIRY_DB_KEY` is the browser-preview table that
+ * stands in for `inquiry_progress`. Shared with `lib/inquiry-store.ts`, which
+ * imports this module, so they cannot live there.
+ */
+export const INQUIRY_KEY = 'wordroots.family.inquiry.v1';
+export const INQUIRY_DB_KEY = 'wordroots.family.inquiry.db.v1';
+export const INQUIRY_MIGRATED_KEY = 'wordroots.family.inquiry.migrated.v1';
+/** Record-shape version of one `inquiry_progress` row (matches Rust). */
+export const INQUIRY_RECORD_VERSION = 1;
+
 function emptyDb(): WebDb {
   return { settings: {}, lessonStates: [], cards: [], reviews: [], attempts: [], notes: [], bookmarks: [] };
 }
@@ -116,6 +128,26 @@ function writeAssessmentRuns(runs: unknown[]) {
   } catch {
     // Quota / locked webview: the restore of the main database already happened.
   }
+}
+
+/** Browser-preview `inquiry_progress` rows (the shim's stand-in for SQLite). */
+function readInquiryItems(): unknown[] {
+  try {
+    const raw = localStorage.getItem(INQUIRY_DB_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw) as { items?: unknown };
+    return Array.isArray(parsed.items) ? parsed.items : [];
+  } catch {
+    return [];
+  }
+}
+
+/**
+ * Unlike the assessment mirror this deliberately lets `setItem` throw: the
+ * page must be able to tell "saved" from "not saved".
+ */
+function writeInquiryItems(items: unknown[]) {
+  localStorage.setItem(INQUIRY_DB_KEY, JSON.stringify({ version: 1, items }));
 }
 
 function localDay(ts: number): string {
@@ -227,6 +259,77 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
       return undefined as T;
     case 'assessment_count':
       return readAssessmentRuns().length as T;
+    case 'inquiry_progress_list': {
+      const all = readInquiryItems();
+      const items: InquiryProgressRecord[] = [];
+      let skipped = 0;
+      for (const entry of all) {
+        const row = (typeof entry === 'object' && entry !== null ? entry : null) as
+          | Partial<InquiryProgressRecord>
+          | null;
+        if (!row || typeof row.familyId !== 'string' || row.familyId === '' || typeof row.step !== 'number') {
+          skipped += 1;
+          continue;
+        }
+        const schemaVersion = Number(row.schemaVersion ?? INQUIRY_RECORD_VERSION);
+        if (schemaVersion > INQUIRY_RECORD_VERSION) {
+          throw new Error(
+            `family inquiry progress for ${row.familyId} was saved by a newer app version (record v${schemaVersion})`,
+          );
+        }
+        if (
+          !Array.isArray(row.done) ||
+          typeof row.picks !== 'object' ||
+          row.picks === null ||
+          typeof row.sums !== 'object' ||
+          row.sums === null
+        ) {
+          skipped += 1;
+          continue;
+        }
+        items.push({
+          familyId: row.familyId,
+          schemaVersion,
+          step: row.step,
+          done: row.done as string[],
+          hypothesis: typeof row.hypothesis === 'string' ? row.hypothesis : '',
+          picks: row.picks as Record<string, unknown>,
+          sums: row.sums as Record<string, string>,
+          hints: Number(row.hints ?? 0),
+          elapsedMs: Number(row.elapsedMs ?? 0),
+          updatedAt: Number(row.updatedAt ?? 0),
+        });
+      }
+      items.sort((a, b) => b.updatedAt - a.updatedAt);
+      return { items, skipped } as T;
+    }
+    case 'inquiry_progress_save': {
+      const progress = args.progress as InquiryProgressRecord;
+      if (!progress || typeof progress.familyId !== 'string' || progress.familyId.trim() === '') {
+        throw new Error('family id is required');
+      }
+      const schemaVersion = Number(progress.schemaVersion ?? INQUIRY_RECORD_VERSION);
+      if (schemaVersion > INQUIRY_RECORD_VERSION) {
+        throw new Error(`refusing to write inquiry record v${schemaVersion}`);
+      }
+      const record: InquiryProgressRecord = {
+        ...progress,
+        schemaVersion,
+        hypothesis: progress.hypothesis ?? '',
+        picks: progress.picks ?? {},
+        sums: progress.sums ?? {},
+        hints: Number(progress.hints ?? 0),
+        elapsedMs: Number(progress.elapsedMs ?? 0),
+        updatedAt: Number(progress.updatedAt || now),
+      };
+      const rest = readInquiryItems().filter(
+        (entry) => (entry as { familyId?: unknown }).familyId !== record.familyId,
+      );
+      writeInquiryItems([record, ...rest]);
+      return undefined as T;
+    }
+    case 'inquiry_progress_count':
+      return readInquiryItems().length as T;
     case 'load_daily_stats': {
       const byDay = new Map<string, { minutes: number; reviews: number; correct: number; total: number }>();
       for (const a of db.attempts) {
@@ -276,8 +379,22 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
     }
     case 'export_data': {
       // The browser has no file system: hand the canonical backup JSON back to
-      // the caller, which downloads it as a .json file.
-      return JSON.stringify({ ...readBackup(), assessments: readAssessmentRuns() }) as T;
+      // the caller, which downloads it as a .json file. `counts` must include
+      // every extra collection, otherwise the import-time integrity check
+      // would reject a file this very function produced.
+      const base = readBackup();
+      const assessments = readAssessmentRuns();
+      const inquiryProgress = readInquiryItems();
+      return JSON.stringify({
+        ...base,
+        ...(assessments.length ? { assessments } : {}),
+        ...(inquiryProgress.length ? { inquiryProgress } : {}),
+        counts: {
+          ...base.counts,
+          ...(assessments.length ? { assessments: assessments.length } : {}),
+          ...(inquiryProgress.length ? { inquiryProgress: inquiryProgress.length } : {}),
+        },
+      }) as T;
     }
     case 'import_data': {
       // Validate first, snapshot the current database second, write third: the
@@ -298,6 +415,15 @@ async function webCall<T>(cmd: string, args: Record<string, unknown> = {}): Prom
         assessments = undefined;
       }
       if (Array.isArray(assessments)) writeAssessmentRuns(assessments);
+      // Family-inquiry progress rides at the top level for the same reason.
+      let inquiryProgress: unknown;
+      try {
+        inquiryProgress = (JSON.parse(String(args.json ?? '{}')) as { inquiryProgress?: unknown })
+          .inquiryProgress;
+      } catch {
+        inquiryProgress = undefined;
+      }
+      if (Array.isArray(inquiryProgress)) writeInquiryItems(inquiryProgress);
       return undefined as T;
     }
     case 'db_health':
@@ -392,6 +518,30 @@ export interface AssessmentListResult {
   skipped: number;
 }
 
+/**
+ * One family's inquiry progress. JSON columns are real objects here: Rust and
+ * the shim both decode them, so the UI never parses a string twice.
+ */
+export interface InquiryProgressRecord {
+  familyId: string;
+  /** Record shape, not the database schema. A newer value is an error. */
+  schemaVersion: number;
+  step: number;
+  done: string[];
+  hypothesis: string;
+  picks: Record<string, unknown>;
+  sums: Record<string, string>;
+  hints: number;
+  elapsedMs: number;
+  updatedAt: number;
+}
+
+export interface InquiryListResult {
+  items: InquiryProgressRecord[];
+  /** Rows whose JSON columns were unreadable; dropped but reported. */
+  skipped: number;
+}
+
 /** Map a stored run (RunResult-shaped) onto the row shape `import_data` reads. */
 function toAssessmentRow(run: unknown): Record<string, unknown> {
   const r = (typeof run === 'object' && run !== null ? run : {}) as Record<string, unknown>;
@@ -440,6 +590,11 @@ export const db = {
   assessmentSave: (run: AssessmentRunRecord) => call<void>('assessment_save', { run }),
   assessmentClear: () => call<void>('assessment_clear'),
   assessmentCount: () => call<number>('assessment_count'),
+  /** Desktop: SQLite `inquiry_progress`, damaged rows counted as `skipped`. */
+  inquiryProgressList: () => call<InquiryListResult>('inquiry_progress_list'),
+  inquiryProgressSave: (progress: InquiryProgressRecord) =>
+    call<void>('inquiry_progress_save', { progress }),
+  inquiryProgressCount: () => call<number>('inquiry_progress_count'),
   backup: () => call<string>('backup_now'),
   /**
    * Desktop: `export_data` writes a snapshot into `backups/` and returns its

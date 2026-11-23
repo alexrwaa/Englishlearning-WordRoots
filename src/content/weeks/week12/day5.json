@@ -257,6 +257,23 @@
         "c-register",
         "c-semantic-shift"
       ]
+    },
+    {
+      "id": "w12d5-p7",
+      "kind": "mcq",
+      "prompt": "hypertension 与 high blood pressure 指同一件事。下面哪项最准确？",
+      "choices": [
+        "前者是专业术语（精确、可作诊断标签），后者是日常说法；选哪个取决于读者与语域，不是哪个更「高级」",
+        "前者更高级，任何场合都该用 hypertension",
+        "两者完全等同，区别只在拼写的长度",
+        "后者是错误说法，医学上不承认"
+      ],
+      "answer": 0,
+      "explain": "术语与语域分工不同：术语追求精确、可复现（诊断与论文里的标签），日常说法追求易懂（对病人解释）。本课反复说堆砌拉丁词不会让内容更学术——把 high blood pressure 全换成 hypertension，只会让科普文难读。选项 B 把语域当成高低等级；选项 D 与临床实际不符，医生对病人常说的正是后者。",
+      "concepts": [
+        "c-register",
+        "c-scientific"
+      ]
     }
   ],
   "apply": [

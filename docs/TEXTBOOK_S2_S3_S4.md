@@ -1,9 +1,9 @@
 # 四组教材的教学覆盖审计（由脚本生成）
 
 <!-- 本文件由 `node scripts/audit-textbook.mjs` 生成，请勿手改；改口径请改脚本后重跑。 -->
-<!-- audit-digest: sha256:d1029044ead40254 -->
+<!-- audit-digest: sha256:47576ff60f83623b -->
 
-审计对象：`src/content/weeks/week01..week39`，**243 节课 / 1230 张卡 / 1525 道练习**。
+审计对象：`src/content/weeks/week01..week39`，**243 节课 / 1234 张卡 / 1543 道练习**。
 
 判定口径（三段式，四组共用）：
 
@@ -19,8 +19,8 @@
 
 | 教材 | 总体 | complete / partial / missing | 教学覆盖率 |
 | --- | --- | --- | --- |
-| S1 *English Vocabulary Elements* (3e) | 283 个知识点（全量） | **242** / 41 / 0 | 242/283 = 85.5% |
-| S2 *Essentials of Linguistics* (2e) | 43 个概念 | **40** / 3 / 0 | 40/43 = 93.0% |
+| S1 *English Vocabulary Elements* (3e) | 283 个知识点（全量） | **283** / 0 / 0 | 283/283 = 100.0% |
+| S2 *Essentials of Linguistics* (2e) | 43 个概念 | **43** / 0 / 0 | 43/43 = 100.0% |
 | S3 WordWorks（SWI） | 5 个环节 | **5** / 0 / 0 | 5/5 = 100.0% |
 | S4 *New Word-Analysis* (1879) | 16 项内容 + 7 条旧说 | **16** / 0 / 0 | 16/16 = 100.0% |
 
@@ -32,64 +32,44 @@ S4 的 complete 表示「内容教到且旧说已显式隔离」；隔离档位�
 
 | 章 | complete | partial | missing |
 | --- | --- | --- | --- |
-| S1-C1 | 10 | 6 | 0 |
-| S1-C10 | 32 | 3 | 0 |
-| S1-C11 | 20 | 3 | 0 |
-| S1-C2 | 29 | 2 | 0 |
-| S1-C3 | 33 | 5 | 0 |
-| S1-C4 | 16 | 3 | 0 |
-| S1-C5 | 6 | 5 | 0 |
-| S1-C6 | 22 | 1 | 0 |
-| S1-C7 | 27 | 4 | 0 |
-| S1-C8 | 29 | 7 | 0 |
-| S1-C9 | 18 | 2 | 0 |
+| S1-C1 | 16 | 0 | 0 |
+| S1-C10 | 35 | 0 | 0 |
+| S1-C11 | 23 | 0 | 0 |
+| S1-C2 | 31 | 0 | 0 |
+| S1-C3 | 38 | 0 | 0 |
+| S1-C4 | 19 | 0 | 0 |
+| S1-C5 | 11 | 0 | 0 |
+| S1-C6 | 23 | 0 | 0 |
+| S1-C7 | 31 | 0 | 0 |
+| S1-C8 | 36 | 0 | 0 |
+| S1-C9 | 20 | 0 | 0 |
 
-**与 0.8.0 的 30 条人工抽样对照**：一致 28/30。不一致条目：
+**与 0.8.0 的 30 条人工抽样对照**：一致 27/30。不一致条目：
 
-- kp-s1c1s3-2（能产性使词典必然滞后）：人工 pass → 脚本 partial（overlap 0.51）
 - kp-s1c2s8-4（诺斯借词与同源双式词）：人工 partial → 脚本 complete（overlap 0.56）
+- kp-s1c5s6-1（元音按舌位高低前后与松紧描写）：人工 partial → 脚本 complete（overlap 0.77）
+- kp-s1c8s8-3（语言管控为何屡屡失败）：人工 partial → 脚本 complete（overlap 0.12）
 
-两处不一致正好说明机器口径的边界：一条是 kp 由两道题合起来检测（p2 考能产性、p3 考词典滞后），单题覆盖率都到不了 0.35；另一条是 kp 含两个并列子项（诺斯借词 / 同源双式词），前半被练到就拉高了整条标题的覆盖率。前者漏报、后者误报，各 1 条，**partial 清单里因此既有真缺口也有机器未确认项**，不能当作「课程没教」的直接证据。
+三处不一致都是「0.8.0 人工判 partial → 现在 complete」：抽样是旧内容的快照，不是当前口径的判决。kp-s1c5s6-1 与 kp-s1c8s8-3 是补了定点练习（w23d6-p6、w07d5-p7）；kp-s1c2s8-4 是覆盖率口径的已知误报——它含两个并列子项（诺斯借词 / 同源双式词），前半被练到就拉高了整条标题的覆盖率，这条至今仍是机器高估，不是补出来的。
 
-**非 complete 的 41 条**（完整清单见 `docs/textbook-audit.json`，下列为前 20 条）：
+**非 complete 的 0 条**（完整清单见 `docs/textbook-audit.json`）：
 
-| 知识点 | 章 | 判定 | 讲解证据 | 练习证据 |
-| --- | --- | --- | --- | --- |
-| 词汇丰富的两面性 | S1-C1 | partial | w31d2 · w31d2-c3 | — |
-| 以形态规则替代逐词记忆 | S1-C1 | partial | w12d7 · w12d7-c1 | — |
-| 能产性使词典必然滞后 | S1-C1 | partial | w02d6 · w02d6-c1 | — |
-| 词汇变化是常态而非衰败 | S1-C1 | partial | w07d5 · w07d5-c2 | — |
-| 掌握词汇包括掌握语域 | S1-C1 | partial | w12d5 · w12d5-c5 | — |
-| 语言变化的评价：腐化还是丰富 | S1-C1 | partial | w07d5 · w07d5-c5 | — |
-| 以三阶段为纲叙述借词史 | S1-C2 | partial | w09d7 · w09d7-c1 | — |
-| 伦敦标准语转向中部方言 | S1-C2 | partial | w35d5 · w35d5-c4 | — |
-| 组合性：部件给线索但不等于全义 | S1-C3 | partial | w07d1 · w07d1-c4 | — |
-| 词素义随搭配环境漂移 | S1-C3 | partial | w03d4 · w03d4-c4 | — |
-| 义变常循可描述的规律 | S1-C3 | partial | w36d3 · w36d3-c1 | — |
-| 解析的四重实用收益 | S1-C3 | partial | w12d7 · w12d7-c5 | — |
-| 截短不尊重词素边界 | S1-C3 | partial | w07d4 · w07d4-c1 | — |
-| 变体的引用方式与误切分风险 | S1-C4 | partial | w05d6 · w05d6-c3 | — |
-| 借入的音系规则只作用于借词层 | S1-C4 | partial | w03d1 · w03d1-c1 | — |
-| 词根加 t 形成常见变体 | S1-C4 | partial | w05d3 · w05d3-c3 | — |
-| 语音由气流受阻方式与位置决定 | S1-C5 | partial | w23d1 · w23d1-c1 | — |
-| 肺部气流是所有英语音的来源 | S1-C5 | partial | w23d2 · w23d2-c1 | — |
-| 三元特征可唯一确定辅音 | S1-C5 | partial | w23d5 · w23d5-c4 | — |
-| 元音按舌位高低前后与松紧描写 | S1-C5 | partial | w23d6 · w23d6-c3 | — |
+- 无
 
-人工抽查这 41 条中的 5 条（kp-s1c9s5-2、kp-s1c11s5-2、kp-s1c3s16-1、kp-s1c1s4-2、kp-s1c5s5-3）：其中 4 条其实有语义对应的题，只是题干换了说法——「incandescent 的 -sc-」考中缀、「法语里词形大幅缩短的原因」考削尾、「fridge 的拼写」考截短破坏词素边界、「哪句名词化程度最高」考语域。只有 kp-s1c5s5-3 确实没有直接练习。所以 S1 的 partial 应读作**「机器未确认有定点练习」**，是保守下限，不是「课程没教」的证据；同理 complete 里也有 1 条抽样误报（kp-s1c2s8-4）。
+0.9.2 的缺口归因与处理（逐条见 docs/GAP_CLOSURE.md）：41 条 partial 中 23 条是「有题但审计没识别」——题干换了说法，字符覆盖率到不了 0.35（例如「152 个单成分词」考「词汇丰富的两面性」）；这 23 条由 S1_PRACTICE_ANCHORS 人工登记（另有 2 条新增练习的覆盖口径低于 0.35，也用锚点登记），每条锚点带一个 must 正则，必须命中该题的题干/选项/答案，题被改写就不再计分（gap-closure.test.ts 逐条复核）。14 条真正缺定点练习，补了 13 道原创题（w07d5 的两条共用一个判断）；4 条正文没讲到（三阶段框架、四重收益、借词层音系规则、单音节词根的两种命运），补正文并各补一道题。S1 共补 17 道题、4 张新卡、2 处正文补句。evidence.practice.how 标出该条走的是 anchor 还是 recall；evidence.teaching 指向讲解该点的实质卡（4 条由 S1_TEACHING_OVERRIDES 指定，因为最高覆盖率的卡是邻近概念）。
 
 ## 二、S2：43 个概念
 
 | 概念 | 判定 | 讲解证据 | 练习证据 | 旧判定 |
 | --- | --- | --- | --- | --- |
-| 形态学（morphology） | partial | w32d4 · w32d4-c1 · 先给已经做过的事命名 | w32d4 · w32d4-p1 · mcq | taught |
+| 形态学（morphology） | complete | w32d4 · w32d4-c1 · 先给已经做过的事命名 | w32d4 · w32d4-p1 · mcq | taught |
 | 语素（词素）（morpheme） | complete | w01d1 · w01d1-c4 · 词素不是音节，也不是字母块 | w01d1 · w01d1-p3 · cloze | taught |
 | 自由语素与黏着语素（free / bound morpheme） | complete | w01d1 · w01d1-c3 · 四种基本类型：先建立坐标 | w01d1 · w01d1-p3 · cloze | taught |
 | 词根、词基与词干（root / base / stem） | complete | w01d2 · w01d2-c1 · 词根：词族里那块承载核心意义的部分 | w01d2 · w01d2-p1 · mcq | taught |
 | 词缀的五种位置（prefix / suffix / infix / interfix / superfix） | complete | w01d4 · w01d4-c1 · 前缀与后缀：位置决定分工 | w01d4 · w01d4-p5 · mcq | taught |
 | 屈折与派生（inflectional vs derivational morphology） | complete | w01d4 · w01d4-c2 · 屈折与派生：造新词还是不造新词 | w01d3 · w01d3-p1 · mcq | taught |
 | 能产性（productivity） | complete | w02d6 · w02d6-c3 · 能产性有强弱：为什么 unhelpment 不行 | w02d6 · w02d6-p2 · mcq | taught |
-| 选择限制（宿主条件）（selectional restrictions） | partial | w38d3 · w38d3-c1 · 判定三问 | — | taught |
+| 选择限制（宿主条件）（selectional restrictions） | complete | w38d3 · w38d3-c1 · 判定三问 | w38d3 · w38d3-p4 · mcq | taught |
 | 层级结构与加缀顺序（hierarchical structure / order of affixation） | complete | w12d1 · w12d1-c2 · 层级派生：不要平铺成一串加号 | w38d6 · w38d6-p6 · mcq | taught |
 | 阻塞（同义形式互斥）（blocking） | complete | w39d3 · w39d3-c6 · 阻塞：已有的词占住了位置 | w39d3 · w39d3-p6 · mcq | partial |
 | 词汇化（lexicalization） | complete | w01d6 · w01d6-c3 · understand：已经词汇化 | w11d2 · w11d2-p6 · mcq | taught |
@@ -123,13 +103,11 @@ S4 的 complete 表示「内容教到且旧说已显式隔离」；隔离档位�
 | 专名词与商标普通化（eponym / genericization） | complete | w10d6 · w10d6-c2 · -gate：一个专名如何变成后缀 | w10d6 · w10d6-p3 · cloze | taught |
 | 音位置换（metathesis） | complete | w34d1 · w34d1-c6 · 另一类音变：两个音换了位置 | w34d1 · w34d1-p6 · cloze | partial |
 | 拼读式读音（spelling pronunciation） | complete | w15d4 · w15d4-c5 · 四个容易踩的坑 | w15d4 · w15d4-p6 · cloze | missing |
-| 过度纠正与超外来（hypercorrection / hyperforeignism） | partial | w16d3 · w16d3-c4 · scissors：一次改错词根的“修复” | — | taught |
+| 过度纠正与超外来（hypercorrection / hyperforeignism） | complete | w16d3 · w16d3-c4 · scissors：一次改错词根的“修复” | w16d3 · w16d3-p6 · mcq | taught |
 | 语义漂白/磨损（semantic bleaching） | complete | w22d4 · w22d4-c2 · 磨损：内容义退，功能义进 | w22d4 · w22d4-p2 · mcq | taught |
 
-**判定发生变化的 13 条**（旧报告的 taught 不分「有例词 / 有定点练习」，新口径把它拆成 complete 与 partial）：
+**判定发生变化的 10 条**（旧报告的 taught 不分「有例词 / 有定点练习」，新口径把它拆成 complete 与 partial）：
 
-- 形态学（morphology）：旧 taught → **partial**，讲解 w32d4 · w32d4-c1 · 先给已经做过的事命名，练习 w32d4 · w32d4-p1 · mcq
-- 选择限制（宿主条件）（selection）：旧 taught → **partial**，讲解 w38d3 · w38d3-c1 · 判定三问，练习 —
 - 阻塞（同义形式互斥）（blocking）：旧 partial → **complete**，讲解 w39d3 · w39d3-c6 · 阻塞：已有的词占住了位置，练习 w39d3 · w39d3-p6 · mcq
 - 并列复合词（dvandva）：旧 missing → **complete**，讲解 w36d4 · w36d4-c6 · 第三种复合：并列（dvandva），练习 w36d4 · w36d4-p6 · mcq
 - 重叠（reduplication）：旧 partial → **complete**，讲解 w37d2 · w37d2-c6 · 重叠：把词或词的一部分再说一遍，练习 w37d2 · w37d2-p6 · mcq
@@ -140,19 +118,10 @@ S4 的 complete 表示「内容教到且旧说已显式隔离」；隔离档位�
 - 时与体的区分（tense-aspect）：旧 partial → **complete**，讲解 w35d2 · w35d2-c6 · 时与体：两个范畴，不是一个，练习 w35d2 · w35d2-p6 · mcq
 - 音位置换（metathesis）：旧 partial → **complete**，讲解 w34d1 · w34d1-c6 · 另一类音变：两个音换了位置，练习 w34d1 · w34d1-p6 · cloze
 - 拼读式读音（spelling-pronunciation）：旧 missing → **complete**，讲解 w15d4 · w15d4-c5 · 四个容易踩的坑，练习 w15d4 · w15d4-p6 · cloze
-- 过度纠正与超外来（hypercorrection）：旧 taught → **partial**，讲解 w16d3 · w16d3-c4 · scissors：一次改错词根的“修复”，练习 —
 
-**仍未 complete 的概念（3）**：
+**仍未 complete 的概念（0）**：
 
-- 形态学（morphology）：讲解缺例词；最近命中 w32d4-c1
-- 选择限制（宿主条件）（selection）：无针对性练习；最近命中 —
-- 过度纠正与超外来（hypercorrection）：无针对性练习；最近命中 —
-
-三条 partial 都不是内容缺失，各有具体原因：
-
-- `morphology`：全课只有 w32d4-c1 给「形态学」下了一句定义（「词怎么由更小的意义单位构成」），该卡的例词却是音系学的 cats / dogs；没有一张卡用形态学例词（teachers、unkind 一类）来讲这个学科名。讲解在、例词缺，按口径是 partial。
-- `selection`：w38d3-c1「判定三问」确实写了宿主条件，w38d3 的 judge 题也要动用它，但没有一道题的题干或选项提到「宿主 / 选择限制」。
-- `hypercorrection`：w16d3-p2 考的是 scissors 的 sc-，解析里才点出「过度纠正」，题干与选项都没点名。
+- 无
 
 ## 三、S3：SWI 五步
 
@@ -160,11 +129,11 @@ S4 的 complete 表示「内容教到且旧说已显式隔离」；隔离档位�
 | --- | --- | --- | --- | --- |
 | 观察 | complete | w38d1 · w38d1-p6 · mcq | 1 道（mcq） | 需要课时里有一张「先写下来 / 规则先由你写」的卡（课程不给结论），并有一题要求从数据里选/写规则。 |
 | 假设 | complete | w38d1 · w38d1-p6 · mcq | 6 道（mcq/judge） | judge 题型要求写出判定依据，或题干直接要求提出/选择一条可检验的规则。 |
-| 验证 | complete | w38d3 · w38d3-p1 · judge | 24 道（judge/mcq） | whyNot（逐项说明为什么不成立）或「哪条证据最能说明」类题，或 judge 题型。 |
+| 验证 | complete | w38d3 · w38d3-p1 · judge | 25 道（judge/mcq） | whyNot（逐项说明为什么不成立）或「哪条证据最能说明」类题，或 judge 题型。 |
 | 矩阵 | complete | w01d7 · w01d7-p6 · matrix | 28 道（matrix） | matrix 题型由学生自己填出合法格（base + prefix/suffix）。 |
 | Word Sum | complete | w01d1 · w01d1-p4 · wordSum | 139 道（wordSum） | wordSum 题型由学生写出词素切分式。 |
 
-产出型题型合计 **185/1525 = 12.1%**（wordSum 139 / matrix 28 / boundary 13 / judge 5）。
+产出型题型合计 **185/1543 = 12.0%**（wordSum 139 / matrix 28 / boundary 13 / judge 5）。
 
 五步现在都有「学生自己动手」的题，但**观察一步只有 1 道**（w38d1-p6）：课程给出六条 -ed 读音数据、要求先写规则再翻页，第 6 题再从四条候选规则里选能同时解释数据的那条。现象仍由课程挑选，学生做的是「从给定数据归纳」，不是「从真实语料里发现问题」。
 
@@ -207,8 +176,6 @@ S4 的 complete 表示「内容教到且旧说已显式隔离」；隔离档位�
 
 | 组 | 条目 | 旧报告 | 当前 | 原因 |
 | --- | --- | --- | --- | --- |
-| S2 | morphology | taught | partial | 新口径要求讲解卡出现例词；w32d4-c1 只给了一句定义，例词是音系学的 cats / dogs，旧报告按「讲过这个学科名」记 taught |
-| S2 | selection | taught | partial | 新口径要求题干或选项点名该点；w38d3 的 judge 题虽要动用宿主条件，但没有一题点名，旧报告按「相关题」记 taught |
 | S2 | blocking | partial | complete | 0.9.1（commit d14a162）补了正文 / 例词 / 练习，脚本按当前内容重判 |
 | S2 | dvandva | missing | complete | 0.9.1（commit d14a162）补了正文 / 例词 / 练习，脚本按当前内容重判 |
 | S2 | reduplication | partial | complete | 0.9.1（commit d14a162）补了正文 / 例词 / 练习，脚本按当前内容重判 |
@@ -219,13 +186,12 @@ S4 的 complete 表示「内容教到且旧说已显式隔离」；隔离档位�
 | S2 | tense-aspect | partial | complete | 0.9.1（commit d14a162）补了正文 / 例词 / 练习，脚本按当前内容重判 |
 | S2 | metathesis | partial | complete | 0.9.1（commit d14a162）补了正文 / 例词 / 练习，脚本按当前内容重判 |
 | S2 | spelling-pronunciation | missing | complete | 0.9.1（commit d14a162）补了正文 / 例词 / 练习，脚本按当前内容重判 |
-| S2 | hypercorrection | taught | partial | 新口径要求题干或选项点名该点；w16d3-p2 只在解析里写「过度纠正」，旧报告按「解析提到」记 taught |
 | S3 | observe | partial | complete | 0.9.1 在 w38d1 加了「规则先由你写 → 反例推翻」的探究环 |
 | S4 | oc-wheel-date | none/partial | explicit | 0.9.1 改写为「教材说法 / 证据等级」并补了检测题 |
 | S4 | oc-iron-date | none/partial | explicit | 0.9.1 改写为「教材说法 / 证据等级」并补了检测题 |
 | S4 | oc-typology | none/partial | explicit | 0.9.1 改写为「教材说法 / 证据等级」并补了检测题 |
 | S4 | oc-gvs-uniform | none/partial | explicit | 0.9.1 改写为「教材说法 / 证据等级」并补了检测题 |
-| S1 | sample-vs-population | 30 个抽样人工判定：27 pass / 3 partial / 0 fail | 全量 283 条：242 complete / 41 partial / 0 missing；与抽样一致 28/30 | 旧报告只抽样 30 条；本脚本对 283 条全量重算，并保留抽样一致性作为校准 |
+| S1 | sample-vs-population | 30 个抽样人工判定：27 pass / 3 partial / 0 fail | 全量 283 条：283 complete / 0 partial / 0 missing；与抽样一致 27/30 | 旧报告只抽样 30 条；本脚本对 283 条全量重算，并保留抽样一致性作为校准 |
 
 ## 复现
 

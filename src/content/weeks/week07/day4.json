@@ -32,7 +32,7 @@
     {
       "kind": "text",
       "title": "把长词砍短：gym、lab、flu、exam",
-      "body": "**gym** 来自 gymnasium，**lab** 来自 laboratory，**flu** 来自 influenza，**exam** 来自 examination。这类把原词截去一部分、核心意义不变的构词方式叫**截短**（`clipping`）。\n\n按截去的位置分三类：\n\n1. **截尾**（保留开头）：gym、lab、exam、photo\n2. **截首**（保留结尾）：phone（telephone）、plane（aeroplane）、bus（omnibus）\n3. **两头截**（保留中间）：flu（in-flu-enza）、fridge（re-frig-erator）\n\n截短词不是“缩写”，它没有取首字母，也没有保留词组的痕迹，只是一个长词被削短了。",
+      "body": "**gym** 来自 gymnasium，**lab** 来自 laboratory，**flu** 来自 influenza，**exam** 来自 examination。这类把原词截去一部分、核心意义不变的构词方式叫**截短**（`clipping`）。\n\n按截去的位置分三类：\n\n1. **截尾**（保留开头）：gym、lab、exam、photo\n2. **截首**（保留结尾）：phone（telephone）、plane（aeroplane）、bus（omnibus）\n3. **两头截**（保留中间）：flu（in-flu-enza）、fridge（re-frig-erator）\n\n截短词不是“缩写”，它没有取首字母，也没有保留词组的痕迹，只是一个长词被削短了。 截短切的是读音，不是词素边界：in-flu-enza 里的 flu、re-frig-er-ator 里的 frig 都不是词素，所以截短词不能再按源词切分，只能整体记。",
       "terms": [
         {
           "term": "clipping",
@@ -196,6 +196,23 @@
       "concepts": [
         "c-acronym",
         "c-frequency"
+      ]
+    },
+    {
+      "id": "w07d4-p6",
+      "kind": "mcq",
+      "prompt": "flu（← influenza）保留了中间的 -flu-，fridge（← refrigerator）保留了 -frig-。这两个例子说明截短：",
+      "choices": [
+        "按音节切，不按词素边界切；留下的片段可以不含任何词素",
+        "总是保留第一个词素，因此截短词都还能继续切分",
+        "只截词尾、不截词首，所以 flu 仍然是 in + flu + enza",
+        "保留的总是重读音节，因此截短词的词素与源词一一对应"
+      ],
+      "answer": 0,
+      "explain": "in-flu-enza 里 -flu- 不是词素，re-frig-er-ator 里 -frig- 也不是；截短取的是读音上顺手的片段，词素边界对它没有约束。所以截短词不能再按源词切分，只能整体记——这也是为什么 fridge 要补一个 d 来标读音。选项 B 与选项 D 都把「读音片段」误当成「词素片段」，这正是本课要拆掉的那一步。",
+      "concepts": [
+        "c-clipping",
+        "c-morpheme"
       ]
     }
   ],

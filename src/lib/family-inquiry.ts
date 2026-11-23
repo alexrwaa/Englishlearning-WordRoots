@@ -17,6 +17,9 @@
  *      entry for them.
  */
 import type { FamilyDossier } from '../lib/content';
+import { checkSum as judgeWordSum, splitSum, type SumVerdict } from './word-sum';
+
+export { splitSum };
 
 export type InquiryStepId = 'observe' | 'discover' | 'hypothesize' | 'verify' | 'counterexample' | 'summarize';
 
@@ -41,7 +44,20 @@ export interface VerifyItem {
   explain: string;
 }
 
+/** Exploration depth. Members are sorted into these by how much structure they show. */
+export type Tier = 'basic' | 'variation' | 'advanced' | 'transfer';
+
+export interface InquiryOptions {
+  /** Which pass through this family this is; shifts which words appear. */
+  session?: number;
+  /** Words already met in earlier sessions, so a second pass is not a repeat. */
+  explored?: string[];
+}
+
 export interface InquiryModel {
+  session: number;
+  /** How many words the learner has already seen in this family. */
+  seen: number;
   steps: InquiryStep[];
   observe: ObserveItem[];
   /** Words that look like members but are not (homographs, loans). */
@@ -94,30 +110,17 @@ const STEPS: InquiryStep[] = [
   },
 ];
 
-/** Split "in + spect + ion" style strings into parts, dropping arrows/spaces. */
-export function splitSum(sum: string): string[] {
-  return sum
-    .split(/[+\-–—>→]/)
-    .map((part) => part.trim().toLowerCase())
-    .filter(Boolean);
-}
-
 /**
  * Check a learner's sum against the accepted alternatives.
  *
- * A sum matches when it uses the same parts as any accepted split, ignoring
- * order-insensitive spelling differences such as a doubled consonant at the
- * join (ad + ferent vs afferent) — that is orthography, not analysis.
+ * The analysis (structure) and the spelling are graded separately. A sum only
+ * passes when the morphemes match and every letter is either identical to the
+ * reference or changed by one of the five documented rules in `word-sum`
+ * (e-drop, y→i, consonant doubling, whitelisted assimilation, connective
+ * vowel). Different letters are no longer smoothed away: `pres` is not `press`.
  */
-export function checkSum(input: string, accepted: string[][]): { ok: boolean; normalized: string[] } {
-  const parts = splitSum(input);
-  const normalized = parts.map((part) => part.replace(/(.)\1+/g, '$1'));
-  for (const alternative of accepted) {
-    const wanted = alternative.map((part) => part.toLowerCase().replace(/(.)\1+/g, '$1'));
-    if (wanted.length !== normalized.length) continue;
-    if (wanted.every((part, index) => part === normalized[index])) return { ok: true, normalized };
-  }
-  return { ok: false, normalized };
+export function checkSum(input: string, accepted: string[][]): SumVerdict {
+  return judgeWordSum(input, accepted);
 }
 
 /**
@@ -138,6 +141,29 @@ export function compareHypothesis(input: string, reference: string): 'close' | '
   return 'distant';
 }
 
+/**
+ * Which layer a member belongs to.
+ *
+ * A bare root+affix member teaches the pattern; a member with more affixes
+ * teaches how the pattern varies; a cognate teaches that a shared root is not a
+ * modern derivation. The learner meets them in that order.
+ */
+export function tierOf(member: { relation?: string; layer?: string[] }): Tier {
+  if (member.relation === 'cognate') return 'advanced';
+  return (member.layer?.length ?? 0) >= 3 ? 'variation' : 'basic';
+}
+
+const TIER_LABEL: Record<Tier, string> = {
+  basic: '基础',
+  variation: '变化',
+  advanced: '进阶',
+  transfer: '迁移',
+};
+
+export function tierLabel(tier: Tier): string {
+  return TIER_LABEL[tier];
+}
+
 const HINT_BANK = [
   '去掉前缀和后缀，剩下的那段字母在各词里是同一串吗？',
   '把每个词的意思用一句话说出来，找它们共同指向的动作或状态。',
@@ -148,11 +174,46 @@ const HINT_BANK = [
 export function buildInquiry(
   dossier: FamilyDossier,
   known: (word: string) => boolean,
+  options: InquiryOptions = {},
 ): InquiryModel {
   const members = (dossier.members ?? []).filter((member) => member.w);
   // Observe on real members only; the traps arrive later so the first step is not
   // a guessing game about which rows are fake.
-  const observe = members.slice(0, 6).map((member) => ({ w: member.w, known: known(member.w) }));
+  const session = Math.max(0, options.session ?? 0);
+  const explored = new Set((options.explored ?? []).map((w) => w.toLowerCase()));
+
+  // Three pools, chosen by what a word shows: a bare root+affix member teaches
+  // the pattern, a multi-affix member teaches the variation, and a cognate
+  // teaches that similarity is not descent.
+  const pools: Record<'basic' | 'variation' | 'advanced', typeof members> = {
+    basic: members.filter((m) => m.relation !== 'cognate' && (m.layer?.length ?? 0) <= 2),
+    variation: members.filter((m) => m.relation !== 'cognate' && (m.layer?.length ?? 0) >= 3),
+    advanced: members.filter((m) => m.relation === 'cognate'),
+  };
+
+  /** Rotate through a pool by session, preferring words this learner has not met. */
+  const pick = (pool: typeof members, count: number): typeof members => {
+    const fresh = pool.filter((m) => !explored.has(m.w.toLowerCase()));
+    const source = fresh.length >= count ? fresh : pool;
+    if (source.length === 0) return [];
+    const out: typeof members = [];
+    for (let i = 0; i < Math.min(count, source.length); i += 1) {
+      const member = source[(session + i) % source.length];
+      if (!out.some((m) => m.w === member.w)) out.push(member);
+    }
+    return out;
+  };
+
+  const observed = [
+    ...pick(pools.basic, 3),
+    ...pick(pools.variation, 2),
+    ...pick(pools.advanced, 1),
+  ];
+  // A family with few members must still show something: fall back to the head
+  // of the list rather than an empty first step.
+  const observeMembers = observed.length >= 4 ? observed : members.slice(0, 6);
+  const observe = observeMembers.map((member) => ({ w: member.w, known: known(member.w) }));
+  const seen = members.filter((m) => explored.has(m.w.toLowerCase())).length;
 
   const traps = (dossier.homographTraps ?? []).map((trap) => ({
     form: trap.form,
@@ -161,13 +222,20 @@ export function buildInquiry(
 
   // Verification uses members as positives and traps as negatives; both are
   // factual, so this is the one place auto-grading is safe.
+  // Verification uses words this session did not show, so the answer cannot be
+  // read off the observe step.
+  const shown = new Set(observeMembers.map((m) => m.w));
+  const unseen = members.filter((m) => !shown.has(m.w));
+  const verifyMembers = (unseen.length >= 2 ? unseen : members).slice(session % Math.max(1, (unseen.length || members.length) - 1), undefined).slice(0, 2);
   const verify: VerifyItem[] = [
-    ...members.slice(0, 4).map((member) => ({
+    ...(verifyMembers.length >= 2 ? verifyMembers : members.slice(0, 2)).map((member) => ({
       w: member.w,
       inFamily: true,
       explain:
-        member.note ??
-        `${member.w} 由 ${(member.layer ?? []).join(' + ') || '该词根'} 构成，属于这一族。`,
+        member.relation === 'cognate'
+          ? `${member.w} 与这一族历史同源，但不是现代派生——同源与派生不能混为一谈。`
+          : member.note ??
+            `${member.w} 由 ${(member.layer ?? []).join(' + ') || '该词根'} 构成，属于这一族。`,
     })),
     ...traps.slice(0, 2).map((trap) => ({
       w: trap.form,
@@ -176,8 +244,12 @@ export function buildInquiry(
     })),
   ];
 
-  const sums = members
-    .filter((member) => (member.layer?.length ?? 0) >= 2)
+  // Rotate the sums with the session instead of always taking the first three:
+  // a family with twelve analysable members should not ask the same three sums
+  // every time, and the reference split is not the only legitimate one.
+  const analysable = members.filter((member) => (member.layer?.length ?? 0) >= 2);
+  const sumStart = analysable.length > 0 ? session % analysable.length : 0;
+  const sums = [...analysable.slice(sumStart), ...analysable.slice(0, sumStart)]
     .slice(0, 3)
     .map((member) => ({
       word: member.w,
@@ -186,11 +258,15 @@ export function buildInquiry(
       accepted: [member.layer as string[], (member.layer as string[]).filter((part) => part !== 'o')],
     }));
 
-  const matrix = (dossier.derivationChains ?? [])
-    .slice(0, 3)
-    .map((chain) => chain.stages.map((stage) => stage.toLowerCase()));
+  // Every documented chain, not the first three: truncating here hid real
+  // members of large families from the summary step.
+  const matrix = (dossier.derivationChains ?? []).map((chain) =>
+    chain.stages.map((stage) => stage.toLowerCase()),
+  );
 
   return {
+    session,
+    seen,
     steps: STEPS,
     observe,
     traps,

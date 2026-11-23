@@ -445,7 +445,7 @@ function Invoke-Case {
             $inquiryNote = ''
             if ($null -ne $tour.inquiry) {
               $inquiryOk = [bool]$tour.inquiry.ok
-              $inquiryNote = " | inquiry ok=$inquiryOk steps=$($tour.inquiry.steps) persisted=$($tour.inquiry.persisted)"
+              $inquiryNote = " | inquiry ok=$inquiryOk steps=$($tour.inquiry.steps) persisted=$($tour.inquiry.persisted) restored=$($tour.inquiry.restored)"
             }
             $selftestNote = "$selftestNote | family ok=$famOk members=$famMembers$inquiryNote | assessment ok=$assessOk runs=$runs"
             if (-not $famOk -or -not $assessOk -or -not $inquiryOk) {
@@ -458,6 +458,41 @@ function Invoke-Case {
         }
       }
       Write-Host "selftest: $selftestVerdict ($selftestNote)"
+
+      # --- assertion 3b: close the app, open it again, keep the progress ----
+      # A row written to SQLite proves nothing about the next launch. This is the
+      # only check that a learner can quit mid-inquiry and come back to it.
+      if ($SelftestTour -and $selftestVerdict -eq 'PASS') {
+        Stop-App $proc
+        Remove-Item -LiteralPath $selftestPath -Force -ErrorAction SilentlyContinue
+        Set-ProcessEnv $effectiveEnv
+        try {
+          $proc2 = Start-Process -FilePath $exe -WorkingDirectory $appDir -PassThru `
+            -RedirectStandardOutput $stdoutPath -RedirectStandardError $stderrPath
+        } finally {
+          Restore-ProcessEnv
+        }
+        $report2 = Wait-ForJson $selftestPath $SelftestTimeoutSec
+        $restoreVerdict = 'FAIL'
+        $restoreNote = 'second launch produced no selftest.json'
+        if ($null -ne $report2 -and $null -ne $report2.payload -and $null -ne $report2.payload.tour) {
+          $tour2 = $report2.payload.tour
+          if ($null -ne $tour2.inquiry) {
+            $restored = [bool]$tour2.inquiry.restored
+            $isolated = [bool]$tour2.inquiry.isolated
+            $restoreNote = "restored=$restored isolated=$isolated"
+            if ($restored -and $isolated) { $restoreVerdict = 'PASS' }
+          } else {
+            $restoreNote = 'tour.inquiry missing on the second launch'
+          }
+        }
+        Write-Host "inquiry restore: $restoreVerdict ($restoreNote)"
+        Stop-App $proc2
+        if ($restoreVerdict -ne 'PASS') {
+          $selftestVerdict = 'FAIL'
+          $selftestNote = "$selftestNote | reopen: $restoreNote"
+        }
+      }
     }
 
     # --- scenario-specific extra assertion (folder migration) ---------------

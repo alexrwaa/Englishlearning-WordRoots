@@ -62,10 +62,11 @@ export const BACKUP_FORMAT = 'wordroots-backup';
 export const LEGACY_SNAPSHOT_FORMAT = 'wordroots-snapshot';
 /**
  * Schema version this build writes and understands. Must match
- * `SCHEMA_VERSION` in `src-tauri/src/db.rs` (v2 added
- * `lesson_state.last_seen_at` plus three indexes).
+ * `SCHEMA_VERSION` in `src-tauri/src/db.rs`: v2 added `lesson_state.last_seen_at`
+ * plus three indexes, v3 added `assessment_runs`, v4 added `inquiry_progress`.
+ * Older files stay importable; a newer file is refused rather than truncated.
  */
-export const BACKUP_SCHEMA_VERSION = 2;
+export const BACKUP_SCHEMA_VERSION = 4;
 /** Version stamped into every export; keep in sync with package.json. */
 export const APP_VERSION = '0.2.0';
 /** Browser-preview key holding the snapshot taken right before an import. */
@@ -99,6 +100,12 @@ export interface BackupData {
    * without this module having to understand it.
    */
   assessments?: unknown[];
+  /**
+   * Family-inquiry progress (db schema v4). One row per family, opaque here for
+   * the same reason as `assessments`: the six-step record belongs to
+   * `lib/inquiry-store.ts`.
+   */
+  inquiryProgress?: unknown[];
 }
 
 export interface BackupCounts {
@@ -112,6 +119,8 @@ export interface BackupCounts {
   bookmarks: number;
   /** Present only when the file actually carries assessment runs (schema v3). */
   assessments?: number;
+  /** Present only when the file carries inquiry progress (db schema v4). */
+  inquiryProgress?: number;
 }
 
 export interface BackupFile extends BackupData {
@@ -172,7 +181,8 @@ function total(counts: BackupCounts): number {
     counts.attempts +
     counts.notes +
     counts.bookmarks +
-    (counts.assessments ?? 0)
+    (counts.assessments ?? 0) +
+    (counts.inquiryProgress ?? 0)
   );
 }
 
@@ -186,6 +196,7 @@ export function countsOf(data: BackupData): BackupCounts {
     notes: data.notes.length,
     bookmarks: data.bookmarks.length,
     ...(data.assessments?.length ? { assessments: data.assessments.length } : {}),
+    ...(data.inquiryProgress?.length ? { inquiryProgress: data.inquiryProgress.length } : {}),
   };
 }
 
@@ -224,6 +235,7 @@ export function buildExport(
     notes: data.notes,
     bookmarks: data.bookmarks,
     ...(data.assessments?.length ? { assessments: data.assessments } : {}),
+    ...(data.inquiryProgress?.length ? { inquiryProgress: data.inquiryProgress } : {}),
   };
 }
 
@@ -343,6 +355,32 @@ function fromSnapshot(raw: Rec, migrationNotes: string[]): Rec {
         targetType: pick(r, 'targetType', 'target_type'),
         targetId: pick(r, 'targetId', 'target_id'),
         createdAt: r.createdAt ?? r.created_at ?? 0,
+      };
+    }),
+    // Rust snapshots keep `done` / `picks` / `sums` as JSON *text* (the table
+    // stores TEXT); the renderer's own `toSnapshot` writes real values. Both
+    // must survive a round trip.
+    inquiryProgress: rows('inquiry_progress').map((row) => {
+      const r = (isObj(row) ? row : {}) as Rec;
+      const json = (value: unknown, fallback: unknown): unknown => {
+        if (typeof value !== 'string') return value ?? fallback;
+        try {
+          return JSON.parse(value) as unknown;
+        } catch {
+          return fallback;
+        }
+      };
+      return {
+        familyId: pick(r, 'familyId', 'family_id'),
+        schemaVersion: r.schemaVersion ?? r.schema_version ?? 1,
+        step: r.step ?? 0,
+        done: json(r.done, []),
+        hypothesis: r.hypothesis ?? '',
+        picks: json(r.picks, {}),
+        sums: json(r.sums, {}),
+        hints: r.hints ?? 0,
+        elapsedMs: r.elapsedMs ?? r.elapsed_ms ?? 0,
+        updatedAt: r.updatedAt ?? r.updated_at ?? 0,
       };
     }),
   };
@@ -490,6 +528,7 @@ export function validateBackup(raw: unknown): ValidateResult {
     notes: Array.isArray(src.notes) ? src.notes : [],
     bookmarks: Array.isArray(src.bookmarks) ? src.bookmarks : [],
     assessments: Array.isArray(src.assessments) ? src.assessments : [],
+    inquiryProgress: Array.isArray(src.inquiryProgress) ? src.inquiryProgress : [],
   };
   const actual: BackupCounts = {
     settings: src.settings ? 1 : 0,
@@ -500,6 +539,7 @@ export function validateBackup(raw: unknown): ValidateResult {
     notes: lists.notes.length,
     bookmarks: lists.bookmarks.length,
     ...(lists.assessments.length ? { assessments: lists.assessments.length } : {}),
+    ...(lists.inquiryProgress.length ? { inquiryProgress: lists.inquiryProgress.length } : {}),
   };
 
   if (src.counts !== undefined && src.counts !== null) {
@@ -507,9 +547,10 @@ export function validateBackup(raw: unknown): ValidateResult {
     for (const key of Object.keys(actual) as (keyof BackupCounts)[]) {
       const declared = src.counts[key];
       if (declared === undefined) {
-        // `assessments` arrived with schema v3. A v2 file that carries none is
-        // complete, not broken — only complain when rows are actually present.
-        if (key === 'assessments' && actual.assessments === 0) continue;
+        // `assessments` arrived with schema v3 and `inquiryProgress` with db v4.
+        // A file that carries none of them is complete, not broken — only
+        // complain when rows are actually present.
+        if ((key === 'assessments' || key === 'inquiryProgress') && actual[key] === 0) continue;
         return fail(`counts 缺少 ${key}，无法校验文件完整性。`);
       }
       if (typeof declared !== 'number' || !Number.isFinite(declared)) {
@@ -635,6 +676,9 @@ export function validateBackup(raw: unknown): ValidateResult {
         createdAt: asNumber(r.createdAt, 0),
       };
     }),
+    // Kept opaque: `lib/inquiry-store.ts` owns the record shape and rejects an
+    // unknown `schemaVersion` on read. Restoring must not silently drop it.
+    ...(lists.inquiryProgress.length ? { inquiryProgress: lists.inquiryProgress } : {}),
   };
 
   if (migrationNotes.length) file.migrationNotes = migrationNotes;
@@ -724,6 +768,24 @@ export function toSnapshot(file: BackupFile): Record<string, unknown> {
       targetId: b.targetId,
       createdAt: b.createdAt,
     })),
+    // Inquiry progress: Rust replaces the table only when this array is
+    // non-empty, so an older file restores everything else and keeps progress.
+    inquiry_progress: (file.inquiryProgress ?? []).map((row) => {
+      const r = (typeof row === 'object' && row !== null ? row : {}) as Record<string, unknown>;
+      const num = (v: unknown, fallback = 0) => (typeof v === 'number' && Number.isFinite(v) ? v : fallback);
+      return {
+        family_id: asString(r.familyId),
+        schema_version: num(r.schemaVersion, 1),
+        step: num(r.step, 0),
+        done: Array.isArray(r.done) ? r.done : [],
+        hypothesis: asString(r.hypothesis),
+        picks: typeof r.picks === 'object' && r.picks !== null ? r.picks : {},
+        sums: typeof r.sums === 'object' && r.sums !== null ? r.sums : {},
+        hints: num(r.hints, 0),
+        elapsed_ms: num(r.elapsedMs, 0),
+        updated_at: num(r.updatedAt, 0),
+      };
+    }),
   };
 }
 

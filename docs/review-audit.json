@@ -1,5 +1,5 @@
 {
-  "version": "0.11.1",
+  "version": "0.12.0",
   "rows": [
     {
       "id": "cx-aesth-esth",
@@ -644,24 +644,25 @@
       "form": "chron",
       "kinds": [
         "textbook",
+        "dictionary",
         "review"
       ],
       "citedPage": 268,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false,
+      "l7b": true,
       "evidenceLevels": {
         "registered": true,
         "located": true,
         "supported": true,
-        "independent": false,
+        "independent": true,
         "reviewed": true
       },
       "indicators": {
         "registered": true,
         "contentVerified": true,
-        "sameWorkMultiEntry": false,
-        "crossSource": false,
+        "sameWorkMultiEntry": true,
+        "crossSource": true,
         "signed": true,
         "performed": true
       },
@@ -670,7 +671,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 1
+        "records": 8
       }
     },
     {
@@ -1691,7 +1692,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 4
+        "records": 8
       }
     },
     {
@@ -3529,7 +3530,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 4
+        "records": 10
       }
     },
     {
@@ -5441,7 +5442,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 4
+        "records": 9
       }
     },
     {
@@ -5599,58 +5600,70 @@
       "form": "duc",
       "kinds": [
         "textbook",
+        "dictionary",
         "review"
       ],
       "citedPage": 270,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false,
+      "l7b": true,
       "evidenceLevels": {
         "registered": true,
         "located": true,
-        "supported": false,
-        "independent": false,
+        "supported": true,
+        "independent": true,
         "reviewed": true
       },
       "indicators": {
         "registered": true,
-        "contentVerified": false,
-        "sameWorkMultiEntry": false,
+        "contentVerified": true,
+        "sameWorkMultiEntry": true,
         "crossSource": false,
         "signed": true,
-        "performed": false
+        "performed": true
       },
-      "works": [],
-      "verification": null
+      "works": [
+        "unknown"
+      ],
+      "verification": {
+        "verdict": "partial",
+        "records": 7
+      }
     },
     {
       "id": "rx-fer",
       "form": "fer",
       "kinds": [
         "textbook",
+        "dictionary",
         "review"
       ],
       "citedPage": 271,
       "pageCheck": "page-matches",
       "l7a": true,
-      "l7b": false,
+      "l7b": true,
       "evidenceLevels": {
         "registered": true,
         "located": true,
-        "supported": false,
-        "independent": false,
+        "supported": true,
+        "independent": true,
         "reviewed": true
       },
       "indicators": {
         "registered": true,
-        "contentVerified": false,
-        "sameWorkMultiEntry": false,
+        "contentVerified": true,
+        "sameWorkMultiEntry": true,
         "crossSource": false,
         "signed": true,
-        "performed": false
+        "performed": true
       },
-      "works": [],
-      "verification": null
+      "works": [
+        "unknown"
+      ],
+      "verification": {
+        "verdict": "partial",
+        "records": 6
+      }
     },
     {
       "id": "rx-form",
@@ -5684,7 +5697,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 4
+        "records": 9
       }
     },
     {
@@ -5812,7 +5825,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 4
+        "records": 9
       }
     },
     {
@@ -5876,7 +5889,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 4
+        "records": 10
       }
     },
     {
@@ -5913,29 +5926,35 @@
       "form": "scrib",
       "kinds": [
         "textbook",
+        "dictionary",
         "review"
       ],
       "citedPage": null,
       "pageCheck": "unlocated",
       "l7a": true,
-      "l7b": false,
+      "l7b": true,
       "evidenceLevels": {
         "registered": true,
-        "located": false,
-        "supported": false,
-        "independent": false,
+        "located": true,
+        "supported": true,
+        "independent": true,
         "reviewed": true
       },
       "indicators": {
         "registered": true,
-        "contentVerified": false,
-        "sameWorkMultiEntry": false,
+        "contentVerified": true,
+        "sameWorkMultiEntry": true,
         "crossSource": false,
         "signed": true,
-        "performed": false
+        "performed": true
       },
-      "works": [],
-      "verification": null
+      "works": [
+        "unknown"
+      ],
+      "verification": {
+        "verdict": "partial",
+        "records": 5
+      }
     },
     {
       "id": "rx-script",
@@ -6056,7 +6075,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 5
+        "records": 10
       }
     },
     {
@@ -6091,7 +6110,7 @@
       ],
       "verification": {
         "verdict": "verified",
-        "records": 4
+        "records": 9
       }
     },
     {
@@ -6284,6 +6303,6 @@
   "kindStats": {
     "textbook": 207,
     "review": 213,
-    "dictionary": 14
+    "dictionary": 18
   }
 }

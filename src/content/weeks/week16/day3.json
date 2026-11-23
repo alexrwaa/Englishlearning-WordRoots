@@ -243,6 +243,25 @@
         "c-etymology",
         "cap"
       ]
+    },
+    {
+      "id": "w16d3-p6",
+      "kind": "mcq",
+      "prompt": "scissors 的 sc- 与 debt 的 b 都是后来加进去的字母。两者的区别是：",
+      "choices": [
+        "scissors 的 sc- 是过度纠正：改写者依据的 scindere 不是它的祖先；debt 的 b 有真实的拉丁形 debitum 支持",
+        "两者都是有依据的复原，因为都能在拉丁语里找到形近词",
+        "两者都是过度纠正，因为现代读音里都听不出这两个字母",
+        "debt 的 b 是过度纠正，scissors 的 sc- 是有依据的复原"
+      ],
+      "answer": 0,
+      "explain": "判据只有一条：改写依据的词根是不是这个词真正的祖先。scissors 出自 cisoria（cis-「切」），学者却按 scindere「裂开」改写，拼写指错了祖先，这就是 hypercorrection；debt 出自 debitum，b 本来就在拉丁形里，属于有依据的复原。选项 C 把「读音听不出」当成判据，而本课要的正是文献链，不是听觉印象。",
+      "concepts": [
+        "c-etymology",
+        "c-borrowing",
+        "scind",
+        "cis"
+      ]
     }
   ],
   "apply": [

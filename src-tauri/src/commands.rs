@@ -5,8 +5,8 @@ use std::sync::{Arc, Mutex};
 use tauri::{Manager, State};
 
 use crate::db::{
-    self, AssessmentList, AssessmentRunInput, AttemptRow, BookmarkRow, CardRow, DailyStat, KindStat,
-    LessonStateRow, NoteRow, ReviewRow,
+    self, AssessmentList, AssessmentRunInput, AttemptRow, BookmarkRow, CardRow, DailyStat,
+    InquiryList, InquiryProgressInput, KindStat, LessonStateRow, NoteRow, ReviewRow,
 };
 use crate::paths;
 
@@ -325,6 +325,31 @@ pub fn assessment_clear(db: State<Db>) -> Result<(), String> {
 pub fn assessment_count(db: State<Db>) -> Result<i64, String> {
     let conn = db.0.lock().map_err(|e| e.to_string())?;
     db::assessment_count(&conn)
+}
+
+/* ------------------------ family inquiry progress ------------------------ */
+
+/// Every family's progress, plus a count of rows whose JSON columns are damaged.
+/// A row written by a newer build is reported as an error, not skipped.
+#[tauri::command]
+pub fn inquiry_progress_list(db: State<Db>) -> Result<InquiryList, String> {
+    let conn = db.0.lock().map_err(|e| e.to_string())?;
+    db::inquiry_progress_list(&conn)
+}
+
+#[tauri::command]
+pub fn inquiry_progress_save(
+    db: State<Db>,
+    progress: InquiryProgressInput,
+) -> Result<(), String> {
+    let conn = db.0.lock().map_err(|e| e.to_string())?;
+    db::inquiry_progress_save(&conn, &progress)
+}
+
+#[tauri::command]
+pub fn inquiry_progress_count(db: State<Db>) -> Result<i64, String> {
+    let conn = db.0.lock().map_err(|e| e.to_string())?;
+    db::inquiry_progress_count(&conn)
 }
 
 #[tauri::command]

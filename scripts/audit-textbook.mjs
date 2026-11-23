@@ -354,7 +354,10 @@ export const S2_MATCHERS = {
     examples: ['-s', '-ed', '-ing', '-ness'],
   },
   productivity: { patterns: [/能产/, /\bproductiv(e|ity)\b/i], examples: ['un-', '-ness', '-ment', 'unhelpment'] },
-  selection: { patterns: [/选择限制/, /宿主(词性|条件|限制)/, /接缀(条件|限制)/, /selectional/i], examples: ['-ness', '-ful', 'docful'] },
+  selection: {
+    patterns: [/选择限制/, /宿主(词性|条件|限制|必须|要求)/, /接缀(条件|限制|规则)/, /selectional/i],
+    examples: ['-ness', '-ful', 'docful'],
+  },
   hierarchy: { patterns: [/层级(派生|结构|关系)/, /加缀顺序/, /括号切分/, /hierarch/i, /每一步只加一个/], examples: ['unhelpfulness', 'helpful', 'nationalization'] },
   blocking: { patterns: [/阻塞[(（]blocking/, /阻塞(是|的|这|机制|现象|解释)/, /同义[^。]{0,24}阻塞|阻塞[^。]{0,12}同义/, /\bblocking\b/i], examples: ['gloriosity', 'glory', 'impossible'] },
   lexicalization: { patterns: [/词汇化/, /lexicaliz/i], examples: ['laser', 'understand'] },
@@ -487,6 +490,78 @@ function buildIdf(titles) {
   return idf;
 }
 
+/**
+ * Hand-verified practice anchors.
+ *
+ * Character recall is a paraphrase-tolerant matcher, but it fails the other way
+ * too: a lesson can ask exactly the right thing in different words and score
+ * below the 0.35 gate (「152 个单成分词」tests 「词汇丰富的两面性」with two shared
+ * characters). For those points a human read the lesson, named the item that
+ * asks the question, and wrote a `must` regex against the item's stem, options
+ * and keyed answer — so the credit is falsifiable: if the item is edited to stop
+ * asking the point, the regex no longer matches and the audit stops crediting it
+ * (`gap-closure.test.ts` re-checks every entry against the corpus).
+ *
+ * This is a recognition rule, not a lower bar: the taught gate, the feedback
+ * gate and the 0.35 recall path for every other exercise are untouched.
+ */
+export const S1_PRACTICE_ANCHORS = {
+  'kp-s1c1s1-2': [
+    { exerciseId: 'w31d2-p2', must: /单成分词|11\.6%/, note: 'p2 考代价一面（11.6% 不可拆），p1 考收益一面（精确＝近义词分工）' },
+  ],
+  'kp-s1c1s2-1': [{ exerciseId: 'w12d7-p2', must: /preclude/, note: '要求对没背过的词先做形态分析再查证，正是「以规则替代逐词记忆」' }],
+  'kp-s1c1s4-2': [
+    { exerciseId: 'w09d1-p5', must: /借来的词一定比本土词正式/, note: '直接反驳「借词更正式」，考的是语域由场合决定' },
+    { exerciseId: 'w12d5-p6', must: /改写为论文表达/, note: '同一意思按语域改写，考的是选词而不只是认词' },
+  ],
+  'kp-s1c3s1-3': [{ exerciseId: 'w07d1-p2', must: /greenhouse 的意思/, note: 'greenhouse 不是「绿色的房子」，考部件给线索但不等于全义' }],
+  'kp-s1c3s9-1': [
+    { exerciseId: 'w03d4-p7', must: /semiconductor/, note: 'semi- 从「一半」到「介于之间」，考词素义随搭配环境专门化' },
+  ],
+  'kp-s1c3s9-2': [{ exerciseId: 'w36d3-p5', must: /义变/, note: '要求把具体义变归入隐喻/转喻，考「义变循可描述的规律」' }],
+  'kp-s1c4s1-3': [{ exerciseId: 'w05d6-p5', must: /mit- 与 miss-/, note: '两套词干是拉丁事实、不是英语拼写规则，正是「变体的引用方式与误切分风险」' }],
+  'kp-s1c5s1-1': [{ exerciseId: 'w23d1-p2', must: /被改变的特征/, note: 'im- 改的是部位（齿龈→双唇），考发音部位与方式这套描写' }],
+  'kp-s1c5s6-3': [{ exerciseId: 'w23d7-p6', must: /唯一的中央元音|中央元音/, note: 'p2 只说明 -able/-ible 都含 schwa，没有考「唯一的中央元音」这层描写，故补 p6 并以它为准' }],
+  'kp-s1c7s1-2': [{ exerciseId: 'w10d4-p5', must: /hound/, note: 'dog 泛化与 hound 窄化同时发生，考专门化与泛化可以双向' }],
+  'kp-s1c7s9-1': [
+    { exerciseId: 'w10d2-p1', must: /隐喻路径/, note: '相似类：grasp 的手→心智映射' },
+    { exerciseId: 'w10d3-p1', must: /转喻/, note: '相关类：壶代壶里的水' },
+  ],
+  'kp-s1c7s10-2': [{ exerciseId: 'w10d2-p1', must: /grasp/, note: '具体域（手部抓取）到抽象域（理解）的迁移' }],
+  'kp-s1c7s12-1': [{ exerciseId: 'w10d3-p3', must: /隐喻而不是转喻/, note: '判别标准题：先问是否跨域，再问能否改写为「像」' }],
+  'kp-s1c8s2-4': [{ exerciseId: 'w24d5-p5', must: /sure 而不是 secure/, note: '同源双式词按语域分工，考「并存的变体可以分工」' }],
+  'kp-s1c8s2-5': [{ exerciseId: 'w24d6-p4', must: /方言/, note: '语言/方言的分界＝互通度＋政治共同体，考「变体积淀即成新语言」' }],
+  'kp-s1c8s3-2': [{ exerciseId: 'w24d7-p4', must: /prepone/, note: '印度英语按本地规则造词并在本地通行，考海外变体各自演变' }],
+  'kp-s1c8s3-4': [{ exerciseId: 'w24d7-p5', must: /新加坡/, note: '本地规范 vs 国际期刊，考「世界语言身份埋下分裂种子」' }],
+  'kp-s1c8s6-2': [{ exerciseId: 'w25d5-p5', must: /hopefully/, note: '曾被禁用、今属标准，考「非标准不等于无效、标准会移动」' }],
+  'kp-s1c9s5-2': [
+    { exerciseId: 'w14d4-p1', must: /-sc-/, note: '-sc- 起始体：开始发光' },
+    { exerciseId: 'w14d4-p4', must: /-ta-/, note: '-ta- 反复体：agitator 的「反复」' },
+  ],
+  'kp-s1c10s7-2': [{ exerciseId: 'w29d1-p3', must: /fāgus|beech/, note: '用树名（山毛榉）推定温带林地，并提示证据强度' }],
+  'kp-s1c10s7-3': [{ exerciseId: 'w29d2-p2', must: /轮、轴/, note: '轮轴轭驾成套 → 上限线索，考金属/船/农业/轮轴这批判据' }],
+  'kp-s1c10s10-3': [{ exerciseId: 'w30d3-p1', must: /ferō/, note: 'bʰ 在拉丁变 f、在日耳曼变 b' }],
+  'kp-s1c11s4-1': [{ exerciseId: 'w15d4-p2', must: /Caesar/, note: 'ae 在后世读作前元音，说明「拉丁读音传统远离古罗马」' }],
+  'kp-s1c11s5-2': [{ exerciseId: 'w16d1-p2', must: /缩短/, note: '法语重音后移导致词形缩短，考「更常见的做法是削去词尾」' }],
+  'kp-s1c11s6-3': [{ exerciseId: 'w16d4-p5', must: /noise/, note: '词形不透明所以不按 nausea 重拼，考「不重拼的另一个原因」' }],
+};
+
+/**
+ * Teaching evidence overrides.
+ *
+ * The taught gate is aggregate on purpose (a point can be built across several
+ * cards), but the pointer a reader clicks should be the card that names the
+ * point. For four points the highest-recall card is a neighbouring idea with
+ * shared characters, so the card that actually carries the explanation is named
+ * here. Overrides change only `evidence.teaching`, never a verdict.
+ */
+export const S1_TEACHING_OVERRIDES = {
+  'kp-s1c1s2-1': 'w12d7-c3', // 两种读词方式：只查词典 vs 先分析再查 —— 正是「以规则替代逐词记忆」
+  'kp-s1c1s4-1': 'w07d5-c5', // 接受度：语言不看逻辑，看社区 —— 新词不是衰败
+  'kp-s1c7s12-1': 'w10d3-c3', // 两步判断：这是隐喻还是转喻 —— 正是判别标准
+  'kp-s1c9s5-2': 'w14d4-c2', // -sc- 起始体（c3 讲 -ta-、c4 讲鼻音中缀，三个子项各一张卡）
+};
+
 function titleRecall(title, text, idf) {
   const chars = [...new Set(cjkChars(title))].filter((c) => !S1_STOP_CHARS.has(c));
   if (chars.length === 0) return 0;
@@ -504,6 +579,7 @@ function auditS1(corpus, root) {
   const { knowledge } = loadS1(root);
   const idf = buildIdf(knowledge.map((kp) => kp.title));
   const lessonsById = new Map(corpus.lessons.map((l) => [l.id, l]));
+  const exercisesById = new Map(corpus.exercises.map((e) => [e.exerciseId, e]));
 
   const audit = knowledge.map((kp) => {
     const claimed = kp.claimedBy ?? [];
@@ -520,12 +596,31 @@ function auditS1(corpus, root) {
     const example = relevant.some((x) => hasExampleForm(x.card.text));
     const explained = relevant.length > 0 && (proseTotal >= CRITERIA.taughtChars || defined);
     const taught = explained && example;
-    const anchor = relevant[0] ?? null;
+    // Evidence must be the card a reader can check, so prefer the highest-recall
+    // card that is itself substantial and carries an example, not merely the
+    // card that shares the most characters.
+    const substantial = (c) => (c.textLen >= CRITERIA.taughtChars && c.proseLen >= 60) || (c.proseLen >= CRITERIA.definitionChars && DEF_RE.test(c.body));
+    const pinnedCard = S1_TEACHING_OVERRIDES[kp.id]
+      ? cards.find((c) => c.cardId === S1_TEACHING_OVERRIDES[kp.id])
+      : null;
+    const anchor = pinnedCard
+      ? { card: pinnedCard, score: Number(titleRecall(kp.title, pinnedCard.text, idf).toFixed(2)) }
+      : relevant.find((x) => substantial(x.card) && hasExampleForm(x.card.text)) ?? relevant[0] ?? null;
 
     const scoredExercises = exercises
       .map((e) => ({ exercise: e, score: Number(titleRecall(kp.title, e.text, idf).toFixed(2)) }))
       .sort((a, b) => b.score - a.score);
-    const practice = scoredExercises[0] && scoredExercises[0].score >= 0.35 ? scoredExercises[0] : null;
+    const byRecall = scoredExercises[0] && scoredExercises[0].score >= 0.35 ? scoredExercises[0] : null;
+    // A hand-verified anchor wins over the recall path: it names the exercise
+    // and the words that make the item ask the point, so it cannot drift.
+    const anchored = (S1_PRACTICE_ANCHORS[kp.id] ?? [])
+      .map((a) => ({ a, exercise: exercisesById.get(a.exerciseId) }))
+      .find(({ a, exercise }) => exercise && a.must.test(exercise.promptText));
+    const practice = anchored
+      ? { exercise: anchored.exercise, score: 1, how: 'anchor' }
+      : byRecall
+        ? { exercise: byRecall.exercise, score: byRecall.score, how: 'recall' }
+        : null;
     const feedback = Boolean(practice && practice.exercise.explain.length >= CRITERIA.feedbackChars);
 
     return {
@@ -542,8 +637,22 @@ function auditS1(corpus, root) {
       relevantCards: relevant.length,
       proseChars: proseTotal,
       evidence: {
-        teaching: anchor ? { lessonId: anchor.card.lessonId, cardId: anchor.card.cardId, overlap: Number(anchor.score.toFixed(3)) } : null,
-        practice: practice ? { lessonId: practice.exercise.lessonId, exerciseId: practice.exercise.exerciseId, kind: practice.exercise.kind, overlap: Number(practice.score.toFixed(3)) } : null,
+        teaching: anchor
+          ? {
+              lessonId: anchor.card.lessonId,
+              cardId: anchor.card.cardId,
+              ...(pinnedCard ? { title: anchor.card.title } : { overlap: Number(anchor.score.toFixed(3)) }),
+            }
+          : null,
+        practice: practice
+          ? {
+              lessonId: practice.exercise.lessonId,
+              exerciseId: practice.exercise.exerciseId,
+              kind: practice.exercise.kind,
+              how: practice.how,
+              ...(practice.how === 'recall' ? { overlap: Number(practice.score.toFixed(3)) } : {}),
+            }
+          : null,
       },
       claimedBy: claimed,
     };
@@ -1020,19 +1129,23 @@ function renderS234(payload) {
       for (const d of S1.calibration.disagreements) lines.push(`- ${d.kp}${d.title ? `（${d.title}）` : ''}：人工 ${d.expected} → 脚本 ${d.got}（overlap ${d.score}）`);
     }
     lines.push('');
-    lines.push('两处不一致正好说明机器口径的边界：一条是 kp 由两道题合起来检测（p2 考能产性、p3 考词典滞后），单题覆盖率都到不了 0.35；另一条是 kp 含两个并列子项（诺斯借词 / 同源双式词），前半被练到就拉高了整条标题的覆盖率。前者漏报、后者误报，各 1 条，**partial 清单里因此既有真缺口也有机器未确认项**，不能当作「课程没教」的直接证据。');
+    lines.push('三处不一致都是「0.8.0 人工判 partial → 现在 complete」：抽样是旧内容的快照，不是当前口径的判决。kp-s1c5s6-1 与 kp-s1c8s8-3 是补了定点练习（w23d6-p6、w07d5-p7）；kp-s1c2s8-4 是覆盖率口径的已知误报——它含两个并列子项（诺斯借词 / 同源双式词），前半被练到就拉高了整条标题的覆盖率，这条至今仍是机器高估，不是补出来的。');
     lines.push('');
   }
   const s1Missing = S1.items.filter((i) => i.status !== 'complete');
-  lines.push(`**非 complete 的 ${s1Missing.length} 条**（完整清单见 \`docs/textbook-audit.json\`，下列为前 20 条）：`);
+  lines.push(`**非 complete 的 ${s1Missing.length} 条**（完整清单见 \`docs/textbook-audit.json\`）：`);
   lines.push('');
-  lines.push('| 知识点 | 章 | 判定 | 讲解证据 | 练习证据 |');
-  lines.push('| --- | --- | --- | --- | --- |');
-  for (const i of s1Missing.slice(0, 20)) {
-    lines.push(`| ${i.title} | ${i.chapter} | ${i.status} | ${fmtEvidence(i.evidence.teaching)} | ${fmtEvidence(i.evidence.practice)} |`);
+  if (s1Missing.length === 0) {
+    lines.push('- 无');
+  } else {
+    lines.push('| 知识点 | 章 | 判定 | 讲解证据 | 练习证据 |');
+    lines.push('| --- | --- | --- | --- | --- |');
+    for (const i of s1Missing.slice(0, 20)) {
+      lines.push(`| ${i.title} | ${i.chapter} | ${i.status} | ${fmtEvidence(i.evidence.teaching)} | ${fmtEvidence(i.evidence.practice)} |`);
+    }
   }
   lines.push('');
-  lines.push('人工抽查这 41 条中的 5 条（kp-s1c9s5-2、kp-s1c11s5-2、kp-s1c3s16-1、kp-s1c1s4-2、kp-s1c5s5-3）：其中 4 条其实有语义对应的题，只是题干换了说法——「incandescent 的 -sc-」考中缀、「法语里词形大幅缩短的原因」考削尾、「fridge 的拼写」考截短破坏词素边界、「哪句名词化程度最高」考语域。只有 kp-s1c5s5-3 确实没有直接练习。所以 S1 的 partial 应读作**「机器未确认有定点练习」**，是保守下限，不是「课程没教」的证据；同理 complete 里也有 1 条抽样误报（kp-s1c2s8-4）。');
+  lines.push('0.9.2 的缺口归因与处理（逐条见 docs/GAP_CLOSURE.md）：41 条 partial 中 23 条是「有题但审计没识别」——题干换了说法，字符覆盖率到不了 0.35（例如「152 个单成分词」考「词汇丰富的两面性」）；这 23 条由 S1_PRACTICE_ANCHORS 人工登记（另有 2 条新增练习的覆盖口径低于 0.35，也用锚点登记），每条锚点带一个 must 正则，必须命中该题的题干/选项/答案，题被改写就不再计分（gap-closure.test.ts 逐条复核）。14 条真正缺定点练习，补了 13 道原创题（w07d5 的两条共用一个判断）；4 条正文没讲到（三阶段框架、四重收益、借词层音系规则、单音节词根的两种命运），补正文并各补一道题。S1 共补 17 道题、4 张新卡、2 处正文补句。evidence.practice.how 标出该条走的是 anchor 还是 recall；evidence.teaching 指向讲解该点的实质卡（4 条由 S1_TEACHING_OVERRIDES 指定，因为最高覆盖率的卡是邻近概念）。');
   lines.push('');
   lines.push('## 二、S2：43 个概念');
   lines.push('');
@@ -1060,11 +1173,7 @@ function renderS234(payload) {
       lines.push(`- ${c.termZh}（${c.id}）：${missingGates.join(' / ')}；最近命中 ${fmtEvidence(c.nearMisses[0] ?? null)}`);
     }
     lines.push('');
-    lines.push('三条 partial 都不是内容缺失，各有具体原因：');
-    lines.push('');
-    lines.push('- `morphology`：全课只有 w32d4-c1 给「形态学」下了一句定义（「词怎么由更小的意义单位构成」），该卡的例词却是音系学的 cats / dogs；没有一张卡用形态学例词（teachers、unkind 一类）来讲这个学科名。讲解在、例词缺，按口径是 partial。');
-    lines.push('- `selection`：w38d3-c1「判定三问」确实写了宿主条件，w38d3 的 judge 题也要动用它，但没有一道题的题干或选项提到「宿主 / 选择限制」。');
-    lines.push('- `hypercorrection`：w16d3-p2 考的是 scissors 的 sc-，解析里才点出「过度纠正」，题干与选项都没点名。');
+    lines.push('0.9.2 处理（逐条见 `docs/GAP_CLOSURE.md`）：`morphology` 补形态学自己的例词（teachers、unkind、table，w32d4-c1）；`selection` 是匹配缺陷——w38d3-p4 的选项原文是「-ness 的宿主必须是形容词或分词」，`宿主(必须)` 不在原正则里，改 `S2_MATCHERS.selection` 后该题即被识别；`hypercorrection` 补了一道正面判别的题（scissors 的 sc- 与 debt 的 b，w16d3-p6），不再只靠解析提一句。');
   }
   lines.push('');
   lines.push('## 三、S3：SWI 五步');

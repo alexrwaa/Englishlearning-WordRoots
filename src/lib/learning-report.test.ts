@@ -8,7 +8,7 @@
  */
 import { describe, expect, it } from 'vitest';
 
-import { buildExerciseIndex, buildReport, kindLabel, serializeReport } from './learning-report';
+import { buildExerciseIndex, buildReport, kindLabel, localDay, serializeReport } from './learning-report';
 import type { Attempt } from './types';
 
 const index = buildExerciseIndex([
@@ -111,6 +111,35 @@ describe('buildReport', () => {
     const report = buildReport([attempt({ exerciseId: 'unknown', correct: false, durationMs: 1 })], index);
     expect(report.attempts).toBe(1);
     expect(report.weakConcepts).toEqual([]);
+  });
+});
+
+describe('localDay', () => {
+  // The report used UTC while the rest of the app used the local day, so a
+  // session at 23:30 local (UTC+8) was counted on the following date.
+  it('uses the local calendar day, not the UTC one', () => {
+    const lateEvening = new Date(2026, 10, 21, 23, 30, 0);
+    expect(localDay(lateEvening.getTime())).toBe('2026-11-21');
+
+    const earlyMorning = new Date(2026, 10, 21, 0, 30, 0);
+    expect(localDay(earlyMorning.getTime())).toBe('2026-11-21');
+  });
+
+  it('pads single-digit months and days', () => {
+    expect(localDay(new Date(2026, 0, 5, 12, 0, 0).getTime())).toBe('2026-01-05');
+  });
+
+  it('counts two sessions on the same local day as one active day', () => {
+    const morning = new Date(2026, 10, 21, 8, 0, 0).getTime();
+    const night = new Date(2026, 10, 21, 23, 0, 0).getTime();
+    const report = buildReport(
+      [
+        attempt({ exerciseId: 'p1', correct: true, durationMs: 1000, ts: morning }),
+        attempt({ exerciseId: 'p1', correct: true, durationMs: 1000, ts: night }),
+      ],
+      index,
+    );
+    expect(report.activeDays).toBe(1);
   });
 });
 

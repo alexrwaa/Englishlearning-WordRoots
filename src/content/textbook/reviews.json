@@ -410,6 +410,10 @@
         {
           "id": "G3",
           "detail": "LSJ (Liddell-Scott-Jones, 9th ed.), s.v. χρόνος: https://github.com/helmadik/LSJLogeion/blob/e15ac7b194ace23b8fd3e568323c107395f3e996/greatscott83.xml#L2308"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary (English), s.v. chronic: https://en.wiktionary.org/w/index.php?title=chronic&oldid=94549968"
         }
       ],
       "reviewer": "lead-review",
@@ -432,6 +436,125 @@
             "source": "G3",
             "claimType": "root-sense",
             "tz": "Asia/Shanghai"
+          },
+          {
+            "word": "chronic",
+            "entry": "chronic",
+            "url": "https://en.wiktionary.org/w/index.php?title=chronic&oldid=94549968",
+            "quote": "from {{der|en|fro|cronike}}, from {{der|en|la|chronicus}}, from {{der|en|grc|χρονικός||of time}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94549968",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 94549968,
+            "tz": "Asia/Shanghai",
+            "note": "完整四级链：希腊 → 拉丁 → 古法语 → 英语。",
+            "claim": "chron 族有三条路径：①希腊 → 拉丁 → 古法语 → 英语（chronic：χρονικός > L chronicus > OF cronike > ME chronical）；②希腊 → 新拉丁学术造词 → 英语（chronology 仿新拉丁 chronologia）；③希腊 → 法语/新拉丁 → 英语（anachronism < F anachronisme / NL anachronismus < Gk ἀναχρονισμός）。"
+          },
+          {
+            "word": "chronology",
+            "entry": "chronology",
+            "url": "https://en.wiktionary.org/w/index.php?title=chronology&oldid=92412689",
+            "quote": "after {{bor|en|la-new|chronologia}} from {{der|en|grc|χρόνος|t=time}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 92412689",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 92412689,
+            "tz": "Asia/Shanghai",
+            "note": "新拉丁 chronologia 是近代学术造词，再进英语；不是古典希腊语直接借入。",
+            "claim": "chron 族有三条路径：①希腊 → 拉丁 → 古法语 → 英语（chronic：χρονικός > L chronicus > OF cronike > ME chronical）；②希腊 → 新拉丁学术造词 → 英语（chronology 仿新拉丁 chronologia）；③希腊 → 法语/新拉丁 → 英语（anachronism < F anachronisme / NL anachronismus < Gk ἀναχρονισμός）。"
+          },
+          {
+            "word": "anachronism",
+            "entry": "anachronism",
+            "url": "https://en.wiktionary.org/w/index.php?title=anachronism&oldid=95463006",
+            "quote": "From {{bor|en|fr|anachronisme}} or its etymon {{bor|en|la-new|anachronismus}}, from {{der|en|grc|ἀναχρονισμός}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95463006",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95463006,
+            "tz": "Asia/Shanghai",
+            "note": "法语与新拉丁两条中间语并列，词典本身不判定哪条为主。",
+            "claim": "chron 族有三条路径：①希腊 → 拉丁 → 古法语 → 英语（chronic：χρονικός > L chronicus > OF cronike > ME chronical）；②希腊 → 新拉丁学术造词 → 英语（chronology 仿新拉丁 chronologia）；③希腊 → 法语/新拉丁 → 英语（anachronism < F anachronisme / NL anachronismus < Gk ἀναχρονισμός）。"
+          },
+          {
+            "word": "chronic",
+            "entry": "chronic",
+            "url": "https://en.wiktionary.org/w/index.php?title=chronic&oldid=94549968",
+            "quote": "{{surf|en|chron-|-ic}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94549968",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 94549968,
+            "tz": "Asia/Shanghai",
+            "note": "chron- + -ic。",
+            "claim": "现代英语里 chron- / chrono- 是能产的粘着词基：chron- + -ic（chronic）、chrono- + -logy（chronology）、syn- + chrono- + -ize（synchronize）、ana- + chron- + -ism（anachronism）。"
+          },
+          {
+            "word": "chronology",
+            "entry": "chronology",
+            "url": "https://en.wiktionary.org/w/index.php?title=chronology&oldid=92412689",
+            "quote": "{{confix|en|chrono|t1=relating to time|logy|t2=study of, account of}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 92412689",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 92412689,
+            "tz": "Asia/Shanghai",
+            "note": "chrono- + -logy 的构缀分析。",
+            "claim": "现代英语里 chron- / chrono- 是能产的粘着词基：chron- + -ic（chronic）、chrono- + -logy（chronology）、syn- + chrono- + -ize（synchronize）、ana- + chron- + -ism（anachronism）。"
+          },
+          {
+            "word": "synchronize",
+            "entry": "synchronize",
+            "url": "https://en.wiktionary.org/w/index.php?title=synchronize&oldid=92118053",
+            "quote": "equivalent to {{af|en|syn-|chrono-|-ize}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 92118053",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 92118053,
+            "tz": "Asia/Shanghai",
+            "note": "三成分切分。",
+            "claim": "现代英语里 chron- / chrono- 是能产的粘着词基：chron- + -ic（chronic）、chrono- + -logy（chronology）、syn- + chrono- + -ize（synchronize）、ana- + chron- + -ism（anachronism）。"
+          },
+          {
+            "word": "anachronism",
+            "entry": "anachronism",
+            "url": "https://en.wiktionary.org/w/index.php?title=anachronism&oldid=95463006",
+            "quote": "{{surf|en|ana-|chron-|-ism}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95463006",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 95463006,
+            "tz": "Asia/Shanghai",
+            "note": "ana- + chron- + -ism。",
+            "claim": "现代英语里 chron- / chrono- 是能产的粘着词基：chron- + -ic（chronic）、chrono- + -logy（chronology）、syn- + chrono- + -ize（synchronize）、ana- + chron- + -ism（anachronism）。"
           }
         ],
         "claims": [
@@ -451,15 +574,19 @@
           },
           {
             "type": "borrowing-path",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 3
           },
           {
             "type": "modern-structure",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 4
           },
           {
             "type": "modern-sense",
@@ -1164,6 +1291,74 @@
             "source": "G3",
             "claimType": "root-sense",
             "tz": "Asia/Shanghai"
+          },
+          {
+            "word": "geography",
+            "entry": "geography",
+            "url": "https://en.wiktionary.org/w/index.php?title=geography&oldid=93696794",
+            "quote": "From {{uder|en|frm|géographie}}, from {{uder|en|la|geōgraphia}}, from {{uder|en|grc|γεωγραφία||a [[description]] of the [[earth]]}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93696794",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93696794,
+            "tz": "Asia/Shanghai",
+            "note": "四级链完整。",
+            "claim": "graph 族不是一条路：geography 走「希腊 → 拉丁 → 中古法语 → 英语」（géographie < L geōgraphia < Gk γεωγραφία）；telegraph 是 19 世纪法语新造词再借入（F télégraphe）。photograph 的词典条目只给 photo- + -graph 构词，没有中间语记录，所以它只能算构词证据（见本族 modern-structure），不能算借词路径。"
+          },
+          {
+            "word": "telegraph",
+            "entry": "telegraph",
+            "url": "https://en.wiktionary.org/w/index.php?title=telegraph&oldid=94574408",
+            "quote": "suggested as a new name for {{w|Claude Chappe}}'s overland [[semaphore]] network by {{w|André François Miot de Mélito}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94574408",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 94574408,
+            "tz": "Asia/Shanghai",
+            "note": "法语新造术语（1790s）再借入英语，属近代造词而非古典借词。",
+            "claim": "graph 族不是一条路：geography 走「希腊 → 拉丁 → 中古法语 → 英语」（géographie < L geōgraphia < Gk γεωγραφία）；telegraph 是 19 世纪法语新造词再借入（F télégraphe）。photograph 的词典条目只给 photo- + -graph 构词，没有中间语记录，所以它只能算构词证据（见本族 modern-structure），不能算借词路径。"
+          },
+          {
+            "word": "photograph",
+            "entry": "photograph",
+            "url": "https://en.wiktionary.org/w/index.php?title=photograph&oldid=95681763",
+            "quote": "From {{confix|en|photo|graph}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95681763",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 95681763,
+            "tz": "Asia/Shanghai",
+            "note": "photo- + -graph。",
+            "claim": "现代英语里 -graph 是能产后缀（「写/记录/描绘」），前接 photo-、tele- 等成分：photo- + -graph、tele- + -graph；geography 则是 geo- + -graphy。"
+          },
+          {
+            "word": "telegraph",
+            "entry": "telegraph",
+            "url": "https://en.wiktionary.org/w/index.php?title=telegraph&oldid=94574408",
+            "quote": "{{eq|en|tele-|-graph|t1=far, distant|t2=writing|nocap=1}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94574408",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 94574408,
+            "tz": "Asia/Shanghai",
+            "note": "tele- + -graph，且词典给出两部分的意义。",
+            "claim": "现代英语里 -graph 是能产后缀（「写/记录/描绘」），前接 photo-、tele- 等成分：photo- + -graph、tele- + -graph；geography 则是 geo- + -graphy。"
           }
         ],
         "claims": [
@@ -1188,13 +1383,15 @@
             "works": [
               "Wiktionary"
             ],
-            "records": 1
+            "records": 3
           },
           {
             "type": "modern-structure",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 2
           },
           {
             "type": "modern-sense",
@@ -2530,6 +2727,108 @@
             "source": "G3",
             "claimType": "root-sense",
             "tz": "Asia/Shanghai"
+          },
+          {
+            "word": "symphony",
+            "entry": "symphony",
+            "url": "https://en.wiktionary.org/w/index.php?title=symphony&oldid=90310425",
+            "quote": "from {{der|en|fro|simphonie}}, from {{der|en|la|symphonia}}, from {{der|en|grc|συμφωνία}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 90310425",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 90310425,
+            "tz": "Asia/Shanghai",
+            "note": "四级链完整。",
+            "claim": "phon 族分两类：symphony 走「希腊 → 拉丁 → 古法语 → 英语」（OF simphonie < L symphonia < Gk συμφωνία）；telephone / microphone / phonograph 是 19 世纪用 tele-、micro-、phono- 加 -phone/-graph 新造的术语，不是古典借词。"
+          },
+          {
+            "word": "telephone",
+            "entry": "telephone",
+            "url": "https://en.wiktionary.org/w/index.php?title=telephone&oldid=94635994",
+            "quote": "is derived from {{affix|en|tele-|pos1={{lg|prefix}} meaning ‘from a distance’|-phone|pos2={{lg|suffix}} denoting a device which makes a sound}}",
+            "supports": true,
+            "direct": false,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94635994",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 94635994,
+            "tz": "Asia/Shanghai",
+            "note": "直接支持「用成分新造」；没写这些成分来自希腊语，所以对「希腊来源」不算直接证据。",
+            "claim": "phon 族分两类：symphony 走「希腊 → 拉丁 → 古法语 → 英语」（OF simphonie < L symphonia < Gk συμφωνία）；telephone / microphone / phonograph 是 19 世纪用 tele-、micro-、phono- 加 -phone/-graph 新造的术语，不是古典借词。"
+          },
+          {
+            "word": "telephone",
+            "entry": "telephone",
+            "url": "https://en.wiktionary.org/w/index.php?title=telephone&oldid=94635994",
+            "quote": "{{affix|en|tele-|pos1={{lg|prefix}} meaning ‘from a distance’|-phone|pos2={{lg|suffix}} denoting a device which makes a sound}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94635994",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 94635994,
+            "tz": "Asia/Shanghai",
+            "note": "tele- + -phone，两部分意义都标了。",
+            "claim": "现代英语里 -phone / -phony 是能产后缀，phone 可作第二成分：tele- + -phone、micro- + phone、phono- + graph、sym- + -phony。"
+          },
+          {
+            "word": "microphone",
+            "entry": "microphone",
+            "url": "https://en.wiktionary.org/w/index.php?title=microphone&oldid=91535807",
+            "quote": "From {{confix|en|micro|phone}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 91535807",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 91535807,
+            "tz": "Asia/Shanghai",
+            "note": "micro- + phone。",
+            "claim": "现代英语里 -phone / -phony 是能产后缀，phone 可作第二成分：tele- + -phone、micro- + phone、phono- + graph、sym- + -phony。"
+          },
+          {
+            "word": "phonograph",
+            "entry": "phonograph",
+            "url": "https://en.wiktionary.org/w/index.php?title=phonograph&oldid=93738974",
+            "quote": "From {{confix|en|phono|graph}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93738974",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 93738974,
+            "tz": "Asia/Shanghai",
+            "note": "phono- + graph。",
+            "claim": "现代英语里 -phone / -phony 是能产后缀，phone 可作第二成分：tele- + -phone、micro- + phone、phono- + graph、sym- + -phony。"
+          },
+          {
+            "word": "symphony",
+            "entry": "symphony",
+            "url": "https://en.wiktionary.org/w/index.php?title=symphony&oldid=90310425",
+            "quote": "{{surf|en|sym-|-phony}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 90310425",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 90310425,
+            "tz": "Asia/Shanghai",
+            "note": "sym- + -phony。",
+            "claim": "现代英语里 -phone / -phony 是能产后缀，phone 可作第二成分：tele- + -phone、micro- + phone、phono- + graph、sym- + -phony。"
           }
         ],
         "claims": [
@@ -2550,9 +2849,11 @@
           },
           {
             "type": "borrowing-path",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 2
           },
           {
             "type": "modern-structure",
@@ -2560,7 +2861,7 @@
             "works": [
               "Wiktionary"
             ],
-            "records": 1
+            "records": 5
           },
           {
             "type": "modern-sense",
@@ -4137,6 +4438,91 @@
             "source": "G2",
             "claimType": "root-sense",
             "tz": "Asia/Shanghai"
+          },
+          {
+            "word": "capture",
+            "entry": "capture",
+            "url": "https://en.wiktionary.org/w/index.php?title=capture&oldid=94549339",
+            "quote": "{{bor+|en|frm|capture|pos=noun}}, from {{der|en|la|captūra}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94549339",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 94549339,
+            "tz": "Asia/Shanghai",
+            "note": "MF capture 是名词，英语借的是这个法语名词形，不是直接借 captūra。",
+            "claim": "cap 族的英语词走两条路：中古/古法语转手（capture < MF capture < L captūra；except < MF excepter < L exceptus；capacity < OF capacite < L capācitās），与直接借入拉丁（captivate 借晚期拉丁 captīvātus 的分词）。两条路都以 capiō「拿、取」为共同祖语词。"
+          },
+          {
+            "word": "except",
+            "entry": "except",
+            "url": "https://en.wiktionary.org/w/index.php?title=except&oldid=95586425",
+            "quote": "Borrowed from {{bor|en|frm|excepter}}, from {{der|en|la|exceptus}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95586425",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95586425,
+            "tz": "Asia/Shanghai",
+            "note": "中古法语动词 → 拉丁分词。",
+            "claim": "cap 族的英语词走两条路：中古/古法语转手（capture < MF capture < L captūra；except < MF excepter < L exceptus；capacity < OF capacite < L capācitās），与直接借入拉丁（captivate 借晚期拉丁 captīvātus 的分词）。两条路都以 capiō「拿、取」为共同祖语词。"
+          },
+          {
+            "word": "capacity",
+            "entry": "capacity",
+            "url": "https://en.wiktionary.org/w/index.php?title=capacity&oldid=92915499",
+            "quote": "From {{inh|en|enm|capacite}}, from {{der|en|fro|capacite}}, from {{der|en|la|capācitās}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 92915499",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 92915499,
+            "tz": "Asia/Shanghai",
+            "note": "英语 ← 中古英语 ← 古法语 ← 拉丁，三级链完整。",
+            "claim": "cap 族的英语词走两条路：中古/古法语转手（capture < MF capture < L captūra；except < MF excepter < L exceptus；capacity < OF capacite < L capācitās），与直接借入拉丁（captivate 借晚期拉丁 captīvātus 的分词）。两条路都以 capiō「拿、取」为共同祖语词。"
+          },
+          {
+            "word": "captivity",
+            "entry": "captivity",
+            "url": "https://en.wiktionary.org/w/index.php?title=captivity&oldid=89995004",
+            "quote": "{{surf|en|captive|-ity}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 89995004",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 89995004,
+            "tz": "Asia/Shanghai",
+            "note": "词典明确把 captivity 分析为 captive + -ity。",
+            "claim": "现代英语把 capt- 当粘着词基：captive + -ity → captivity；capācitās 在英语里被切成 -acity 后缀。也就是说共时切分是「词基+后缀」，不要求每个成员都能拆成 in-/ex- + cap。"
+          },
+          {
+            "word": "capacity",
+            "entry": "capacity",
+            "url": "https://en.wiktionary.org/w/index.php?title=capacity&oldid=92915499",
+            "quote": "(whence {{suf|en|-acity}})",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 92915499",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 92915499,
+            "tz": "Asia/Shanghai",
+            "note": "词典指出英语后缀 -acity 出自 capācitās，属后缀层面的共时切分。",
+            "claim": "现代英语把 capt- 当粘着词基：captive + -ity → captivity；capācitās 在英语里被切成 -acity 后缀。也就是说共时切分是「词基+后缀」，不要求每个成员都能拆成 in-/ex- + cap。"
           }
         ],
         "claims": [
@@ -4157,15 +4543,19 @@
           },
           {
             "type": "borrowing-path",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 3
           },
           {
             "type": "modern-structure",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 2
           },
           {
             "type": "modern-sense",
@@ -4381,10 +4771,177 @@
         {
           "id": "S1",
           "detail": "appendix 1, p.270 (ch.2)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary (English), s.v. reduce: https://en.wiktionary.org/w/index.php?title=reduce&oldid=93770863"
         }
       ],
       "reviewer": "lead-review",
-      "at": "2026-11-19"
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "",
+        "verdict": "partial",
+        "checkedAt": "2026-11-22",
+        "verifier": "claim-deepen",
+        "records": [
+          {
+            "word": "reduce",
+            "entry": "reduce",
+            "url": "https://en.wiktionary.org/w/index.php?title=reduce&oldid=93770863",
+            "quote": "From {{inh|en|enm|reducen}}, from {{der|en|fro|reduire}}, from {{der|en|la|redūcō||reduce}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93770863",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93770863,
+            "tz": "Asia/Shanghai",
+            "note": "英语 ← 中古英语 ← 古法语 ← 拉丁。",
+            "claim": "duc 族两条路并存：经古法语（reduce < OF reduire < L redūcō；introduce < OF introduire < L intrōdūcō；production < OF production < L prōductiō），与经中古英语直承拉丁（produce < ME produce < L prōdūcō；conduct < L conductus）。"
+          },
+          {
+            "word": "introduce",
+            "entry": "introduce",
+            "url": "https://en.wiktionary.org/w/index.php?title=introduce&oldid=95586772",
+            "quote": "From {{inh|en|enm|introducen}}, from {{der|en|fro|introduire}}, from {{der|en|la|intrōdūcō}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95586772",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95586772,
+            "tz": "Asia/Shanghai",
+            "note": "同一模式：古法语转手。",
+            "claim": "duc 族两条路并存：经古法语（reduce < OF reduire < L redūcō；introduce < OF introduire < L intrōdūcō；production < OF production < L prōductiō），与经中古英语直承拉丁（produce < ME produce < L prōdūcō；conduct < L conductus）。"
+          },
+          {
+            "word": "produce",
+            "entry": "produce",
+            "url": "https://en.wiktionary.org/w/index.php?title=produce&oldid=93716534",
+            "quote": "From {{inh|en|enm|produce}}, from {{der|en|la|prōdūcō|t=to lead forth}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93716534",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93716534,
+            "tz": "Asia/Shanghai",
+            "note": "这条没有法语环节：中古英语直接承拉丁。",
+            "claim": "duc 族两条路并存：经古法语（reduce < OF reduire < L redūcō；introduce < OF introduire < L intrōdūcō；production < OF production < L prōductiō），与经中古英语直承拉丁（produce < ME produce < L prōdūcō；conduct < L conductus）。"
+          },
+          {
+            "word": "conduct",
+            "entry": "conduct",
+            "url": "https://en.wiktionary.org/w/index.php?title=conduct&oldid=95591196",
+            "quote": "From {{der|en|la-lat|conductus|t=defense, escort}}, from {{der|en|la|conductus}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95591196",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95591196,
+            "tz": "Asia/Shanghai",
+            "note": "直接借晚期拉丁分词形。",
+            "claim": "duc 族两条路并存：经古法语（reduce < OF reduire < L redūcō；introduce < OF introduire < L intrōdūcō；production < OF production < L prōductiō），与经中古英语直承拉丁（produce < ME produce < L prōdūcō；conduct < L conductus）。"
+          },
+          {
+            "word": "production",
+            "entry": "production",
+            "url": "https://en.wiktionary.org/w/index.php?title=production&oldid=92064238",
+            "quote": "Equivalent to {{suf|en|produce|tion}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 92064238",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 92064238,
+            "tz": "Asia/Shanghai",
+            "note": "produce + -tion。",
+            "claim": "现代英语的 duct 是粘着词基：produce + -tion → production、reduce + -tion → reduction、instruct + -ion → instruction、conduct + -or → conductor（后者历史上经法语借入，共时仍可切）。"
+          },
+          {
+            "word": "reduction",
+            "entry": "reduction",
+            "url": "https://en.wiktionary.org/w/index.php?title=reduction&oldid=95150046",
+            "quote": "Equivalent to {{suf|en|reduce|tion}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95150046",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 95150046,
+            "tz": "Asia/Shanghai",
+            "note": "reduce + -tion。",
+            "claim": "现代英语的 duct 是粘着词基：produce + -tion → production、reduce + -tion → reduction、instruct + -ion → instruction、conduct + -or → conductor（后者历史上经法语借入，共时仍可切）。"
+          },
+          {
+            "word": "instruction",
+            "entry": "instruction",
+            "url": "https://en.wiktionary.org/w/index.php?title=instruction&oldid=95586764",
+            "quote": "equivalent to {{suffix|en|instruct|ion}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95586764",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 95586764,
+            "tz": "Asia/Shanghai",
+            "note": "instruct + -ion。",
+            "claim": "现代英语的 duct 是粘着词基：produce + -tion → production、reduce + -tion → reduction、instruct + -ion → instruction、conduct + -or → conductor（后者历史上经法语借入，共时仍可切）。"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 4
+          },
+          {
+            "type": "modern-structure",
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 3
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          }
+        ]
+      }
     },
     {
       "id": "rx-fer",
@@ -4397,10 +4954,160 @@
         {
           "id": "S1",
           "detail": "appendix 1, p.271 (ch.10)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary (English), s.v. transfer: https://en.wiktionary.org/w/index.php?title=transfer&oldid=95572907"
         }
       ],
       "reviewer": "lead-review",
-      "at": "2026-11-19"
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "",
+        "verdict": "partial",
+        "checkedAt": "2026-11-22",
+        "verifier": "claim-deepen",
+        "records": [
+          {
+            "word": "transfer",
+            "entry": "transfer",
+            "url": "https://en.wiktionary.org/w/index.php?title=transfer&oldid=95572907",
+            "quote": "From {{der|en|la|trānsferō|t=to bear across}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95572907",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95572907,
+            "tz": "Asia/Shanghai",
+            "note": "一步直借拉丁动词。",
+            "claim": "fer 族：直接借入拉丁（transfer < L trānsferō），经英吉利法语/古法语（prefer < AN preferer < L praeferō；refer < OF referer < L referre），offer 另有古英语 offrian 的教会借词路，与古法语 offre 并行。"
+          },
+          {
+            "word": "prefer",
+            "entry": "prefer",
+            "url": "https://en.wiktionary.org/w/index.php?title=prefer&oldid=93715973",
+            "quote": "from {{der|en|xno|preferer}}, from {{der|en|la|praeferō}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93715973",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93715973,
+            "tz": "Asia/Shanghai",
+            "note": "英吉利法语（xno）转手。",
+            "claim": "fer 族：直接借入拉丁（transfer < L trānsferō），经英吉利法语/古法语（prefer < AN preferer < L praeferō；refer < OF referer < L referre），offer 另有古英语 offrian 的教会借词路，与古法语 offre 并行。"
+          },
+          {
+            "word": "refer",
+            "entry": "refer",
+            "url": "https://en.wiktionary.org/w/index.php?title=refer&oldid=94569433",
+            "quote": "from {{der|en|fro|referer}}, from {{der|en|la|referre}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94569433",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 94569433,
+            "tz": "Asia/Shanghai",
+            "note": "古法语转手。",
+            "claim": "fer 族：直接借入拉丁（transfer < L trānsferō），经英吉利法语/古法语（prefer < AN preferer < L praeferō；refer < OF referer < L referre），offer 另有古英语 offrian 的教会借词路，与古法语 offre 并行。"
+          },
+          {
+            "word": "offer",
+            "entry": "offer",
+            "url": "https://en.wiktionary.org/w/index.php?title=offer&oldid=95675362",
+            "quote": "from {{inh|en|ang|offrian||offer or make a sacrifice}} rather than from {{der|en|fro|offre||offer}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95675362",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95675362,
+            "tz": "Asia/Shanghai",
+            "note": "词典明确「来自古英语 offrian，而非古法语 offre」——借词路径不能想当然按法语算。",
+            "claim": "fer 族：直接借入拉丁（transfer < L trānsferō），经英吉利法语/古法语（prefer < AN preferer < L praeferō；refer < OF referer < L referre），offer 另有古英语 offrian 的教会借词路，与古法语 offre 并行。"
+          },
+          {
+            "word": "reference",
+            "entry": "reference",
+            "url": "https://en.wiktionary.org/w/index.php?title=reference&oldid=95490791",
+            "quote": "Morphologically {{suffix|en|refer|ence}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95490791",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 95490791,
+            "tz": "Asia/Shanghai",
+            "note": "refer + -ence。",
+            "claim": "fer 族的共时词基是动词形（refer / prefer），加 -ence 造名词：refer + -ence → reference、prefer + -ence → preference。拉丁词根 fer- 本身在现代英语不是自由形式。"
+          },
+          {
+            "word": "preference",
+            "entry": "preference",
+            "url": "https://en.wiktionary.org/w/index.php?title=preference&oldid=95587587",
+            "quote": "Morphologically {{suffix|en|prefer|ence}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95587587",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 95587587,
+            "tz": "Asia/Shanghai",
+            "note": "prefer + -ence。",
+            "claim": "fer 族的共时词基是动词形（refer / prefer），加 -ence 造名词：refer + -ence → reference、prefer + -ence → preference。拉丁词根 fer- 本身在现代英语不是自由形式。"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 4
+          },
+          {
+            "type": "modern-structure",
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 2
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          }
+        ]
+      }
     },
     {
       "id": "rx-form",
@@ -4491,6 +5198,91 @@
             "source": "G2",
             "claimType": "root-sense",
             "tz": "Asia/Shanghai"
+          },
+          {
+            "word": "form",
+            "entry": "form",
+            "url": "https://en.wiktionary.org/w/index.php?title=form&oldid=95648322",
+            "quote": "borrowed from {{der|en|fro|forme}}, from {{der|en|la|fōrma||shape, figure, image, outline, plan, mold, frame, case, etc., manner, sort, kind, etc.}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95648322",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95648322,
+            "tz": "Asia/Shanghai",
+            "note": "中古英语 forme 借自古法语 forme。",
+            "claim": "form 族抽到的四个词条全部经古法语进入：form < OF forme < L fōrma；inform < OF enformer < L īnfōrmō；reform < OF reformer < L reformāre；formal < OF formel < L fōrmālis。本批没有出现「英语直接借拉丁 fōrma」的成员。"
+          },
+          {
+            "word": "inform",
+            "entry": "inform",
+            "url": "https://en.wiktionary.org/w/index.php?title=inform&oldid=93777083",
+            "quote": "borrowed from {{der|en|fro|enformer}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93777083",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93777083,
+            "tz": "Asia/Shanghai",
+            "note": "古法语转手。",
+            "claim": "form 族抽到的四个词条全部经古法语进入：form < OF forme < L fōrma；inform < OF enformer < L īnfōrmō；reform < OF reformer < L reformāre；formal < OF formel < L fōrmālis。本批没有出现「英语直接借拉丁 fōrma」的成员。"
+          },
+          {
+            "word": "formal",
+            "entry": "formal",
+            "url": "https://en.wiktionary.org/w/index.php?title=formal&oldid=95636222",
+            "quote": "borrowed from {{der|en|fro|formel}}, from {{der|en|la|fōrmālis}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95636222",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95636222,
+            "tz": "Asia/Shanghai",
+            "note": "古法语转手。",
+            "claim": "form 族抽到的四个词条全部经古法语进入：form < OF forme < L fōrma；inform < OF enformer < L īnfōrmō；reform < OF reformer < L reformāre；formal < OF formel < L fōrmālis。本批没有出现「英语直接借拉丁 fōrma」的成员。"
+          },
+          {
+            "word": "inform",
+            "entry": "inform",
+            "url": "https://en.wiktionary.org/w/index.php?title=inform&oldid=93777083",
+            "quote": "equivalent to {{prefix|en|in|form}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93777083",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 93777083,
+            "tz": "Asia/Shanghai",
+            "note": "in- + form。",
+            "claim": "form 在现代英语既能自由成词，也能当粘着词基：in- + form（inform）、form + -al（formal）。"
+          },
+          {
+            "word": "formal",
+            "entry": "formal",
+            "url": "https://en.wiktionary.org/w/index.php?title=formal&oldid=95636222",
+            "quote": "equivalent to {{suf|en|form|al}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95636222",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 95636222,
+            "tz": "Asia/Shanghai",
+            "note": "form + -al。",
+            "claim": "form 在现代英语既能自由成词，也能当粘着词基：in- + form（inform）、form + -al（formal）。"
           }
         ],
         "claims": [
@@ -4511,15 +5303,19 @@
           },
           {
             "type": "borrowing-path",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 3
           },
           {
             "type": "modern-structure",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 2
           },
           {
             "type": "modern-sense",
@@ -4779,6 +5575,91 @@
             "source": "G2",
             "claimType": "root-sense",
             "tz": "Asia/Shanghai"
+          },
+          {
+            "word": "admit",
+            "entry": "admit",
+            "url": "https://en.wiktionary.org/w/index.php?title=admit&oldid=95673162",
+            "quote": "borrowed from {{der|en|fro|admettre}}, {{m|fro|amettre||to admit}}, from {{der|en|la|admittō||to allow entrance, [[inlet]]|lit=to send to}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95673162",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95673162,
+            "tz": "Asia/Shanghai",
+            "note": "古法语转手。",
+            "claim": "mit 族：经法语（admit < OF admettre < L admittō；permit < MF permettre < L permittō）与直接借入拉丁（transmit < L trānsmittō；submit < L submittere）并行。"
+          },
+          {
+            "word": "permit",
+            "entry": "permit",
+            "url": "https://en.wiktionary.org/w/index.php?title=permit&oldid=94566619",
+            "quote": "borrowed from {{der|en|frm|permettre}}, from {{der|en|la|permittō||give up, allow}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94566619",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 94566619,
+            "tz": "Asia/Shanghai",
+            "note": "中古法语转手。",
+            "claim": "mit 族：经法语（admit < OF admettre < L admittō；permit < MF permettre < L permittō）与直接借入拉丁（transmit < L trānsmittō；submit < L submittere）并行。"
+          },
+          {
+            "word": "transmit",
+            "entry": "transmit",
+            "url": "https://en.wiktionary.org/w/index.php?title=transmit&oldid=90921713",
+            "quote": "borrowed from {{der|en|la|trānsmittō||transmit|lit=across-send|pos=verb}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 90921713",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 90921713,
+            "tz": "Asia/Shanghai",
+            "note": "直接借拉丁动词。",
+            "claim": "mit 族：经法语（admit < OF admettre < L admittō；permit < MF permettre < L permittō）与直接借入拉丁（transmit < L trānsmittō；submit < L submittere）并行。"
+          },
+          {
+            "word": "permission",
+            "entry": "permission",
+            "url": "https://en.wiktionary.org/w/index.php?title=permission&oldid=93132007",
+            "quote": "Equivalent to {{suf|en|permit|ion}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93132007",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 93132007,
+            "tz": "Asia/Shanghai",
+            "note": "permit + -ion。",
+            "claim": "现代英语里 mit 的完成分词词干 miss 当名词化词基：sub- + miss + -ion → submission、permit + -ion → permission；动词形也能加 -er：transmit + -er → transmitter。"
+          },
+          {
+            "word": "transmitter",
+            "entry": "transmitter",
+            "url": "https://en.wiktionary.org/w/index.php?title=transmitter&oldid=93728966",
+            "quote": "{{ety|en|:af|transmit|-er<id:agent noun>|text=+|tree=1}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93728966",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 93728966,
+            "tz": "Asia/Shanghai",
+            "note": "词典的 affix 分析：transmit + -er（施动）。",
+            "claim": "现代英语里 mit 的完成分词词干 miss 当名词化词基：sub- + miss + -ion → submission、permit + -ion → permission；动词形也能加 -er：transmit + -er → transmitter。"
           }
         ],
         "claims": [
@@ -4799,15 +5680,19 @@
           },
           {
             "type": "borrowing-path",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 3
           },
           {
             "type": "modern-structure",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 2
           },
           {
             "type": "modern-sense",
@@ -4923,6 +5808,108 @@
             "source": "G2",
             "claimType": "root-sense",
             "tz": "Asia/Shanghai"
+          },
+          {
+            "word": "transport",
+            "entry": "transport",
+            "url": "https://en.wiktionary.org/w/index.php?title=transport&oldid=95572939",
+            "quote": "a borrowing from {{der|en|fro|transporter|t=carry or convey across}}, from {{der|en|la|trānsportō|trānsportāre|to carry over, take across, carry, convey, remove, transport}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95572939",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95572939,
+            "tz": "Asia/Shanghai",
+            "note": "古法语转手。",
+            "claim": "port 族主要经古法语/英吉利法语（transport < OF transporter < L trānsportō；support < OF supporter < L supportō；report < AN reporter < L reportō），export 直接借自拉丁 exportāre。"
+          },
+          {
+            "word": "support",
+            "entry": "support",
+            "url": "https://en.wiktionary.org/w/index.php?title=support&oldid=95457677",
+            "quote": "from {{der|en|fro|supporter}}, from {{der|en|la|supportō}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95457677",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95457677,
+            "tz": "Asia/Shanghai",
+            "note": "古法语转手。",
+            "claim": "port 族主要经古法语/英吉利法语（transport < OF transporter < L trānsportō；support < OF supporter < L supportō；report < AN reporter < L reportō），export 直接借自拉丁 exportāre。"
+          },
+          {
+            "word": "report",
+            "entry": "report",
+            "url": "https://en.wiktionary.org/w/index.php?title=report&oldid=95717791",
+            "quote": "from {{der|en|xno|reporter}}, from {{der|en|la|reporto|reportāre|to carry back, return, remit, refer}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95717791",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95717791,
+            "tz": "Asia/Shanghai",
+            "note": "英吉利法语转手。",
+            "claim": "port 族主要经古法语/英吉利法语（transport < OF transporter < L trānsportō；support < OF supporter < L supportō；report < AN reporter < L reportō），export 直接借自拉丁 exportāre。"
+          },
+          {
+            "word": "export",
+            "entry": "export",
+            "url": "https://en.wiktionary.org/w/index.php?title=export&oldid=93076293",
+            "quote": "From {{der|en|la|exportare}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93076293",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93076293,
+            "tz": "Asia/Shanghai",
+            "note": "一步直借拉丁。",
+            "claim": "port 族主要经古法语/英吉利法语（transport < OF transporter < L trānsportō；support < OF supporter < L supportō；report < AN reporter < L reportō），export 直接借自拉丁 exportāre。"
+          },
+          {
+            "word": "portable",
+            "entry": "portable",
+            "url": "https://en.wiktionary.org/w/index.php?title=portable&oldid=94567380",
+            "quote": "{{surf|en|port<id:carry><t:to carry>|-able}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94567380",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 94567380,
+            "tz": "Asia/Shanghai",
+            "note": "port + -able。",
+            "claim": "现代英语把 port 当粘着词基（「搬运」）：port + -able → portable、report + -er → reporter。"
+          },
+          {
+            "word": "reporter",
+            "entry": "reporter",
+            "url": "https://en.wiktionary.org/w/index.php?title=reporter&oldid=95563716",
+            "quote": "equivalent to {{affix|en|report|-er|id2=agent noun}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95563716",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 95563716,
+            "tz": "Asia/Shanghai",
+            "note": "report + -er。",
+            "claim": "现代英语把 port 当粘着词基（「搬运」）：port + -able → portable、report + -er → reporter。"
           }
         ],
         "claims": [
@@ -4943,15 +5930,19 @@
           },
           {
             "type": "borrowing-path",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 4
           },
           {
             "type": "modern-structure",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 2
           },
           {
             "type": "modern-sense",
@@ -4991,10 +5982,143 @@
         {
           "id": "S1",
           "detail": "element list (no appendix row; form scrib)"
+        },
+        {
+          "id": "S5",
+          "detail": "Wiktionary (English), s.v. describe: https://en.wiktionary.org/w/index.php?title=describe&oldid=94552605"
         }
       ],
       "reviewer": "lead-review",
-      "at": "2026-11-19"
+      "at": "2026-11-19",
+      "verification": {
+        "claim": "",
+        "verdict": "partial",
+        "checkedAt": "2026-11-22",
+        "verifier": "claim-deepen",
+        "records": [
+          {
+            "word": "describe",
+            "entry": "describe",
+            "url": "https://en.wiktionary.org/w/index.php?title=describe&oldid=94552605",
+            "quote": "from {{der|en|fro|descrivre}}, from {{der|en|la|dēscrībō||to copy off, transcribe, sketch off, describe in painting or writing}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94552605",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 94552605,
+            "tz": "Asia/Shanghai",
+            "note": "古法语转手。",
+            "claim": "scrib 族：经古法语（describe < OF descrivre < L dēscrībō；describe 的名词 description < OF description < L dēscrīptiō），与直接借入拉丁（subscribe < L subscrībō；prescribe < L praescrībere）；manuscript 是近代拉丁 manūscrīptus，词典注明古典拉丁无此词。"
+          },
+          {
+            "word": "subscribe",
+            "entry": "subscribe",
+            "url": "https://en.wiktionary.org/w/index.php?title=subscribe&oldid=93725586",
+            "quote": "from {{der|en|la|subscrībō|subscrībere|t=write beneath}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93725586",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93725586,
+            "tz": "Asia/Shanghai",
+            "note": "直接借拉丁。",
+            "claim": "scrib 族：经古法语（describe < OF descrivre < L dēscrībō；describe 的名词 description < OF description < L dēscrīptiō），与直接借入拉丁（subscribe < L subscrībō；prescribe < L praescrībere）；manuscript 是近代拉丁 manūscrīptus，词典注明古典拉丁无此词。"
+          },
+          {
+            "word": "manuscript",
+            "entry": "manuscript",
+            "url": "https://en.wiktionary.org/w/index.php?title=manuscript&oldid=93800297",
+            "quote": "from {{bor|en|la-med|manūscrīptus}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93800297",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93800297,
+            "tz": "Asia/Shanghai",
+            "note": "借近代拉丁（la-med），不是古典拉丁。",
+            "claim": "scrib 族：经古法语（describe < OF descrivre < L dēscrībō；describe 的名词 description < OF description < L dēscrīptiō），与直接借入拉丁（subscribe < L subscrībō；prescribe < L praescrībere）；manuscript 是近代拉丁 manūscrīptus，词典注明古典拉丁无此词。"
+          },
+          {
+            "word": "subscription",
+            "entry": "subscription",
+            "url": "https://en.wiktionary.org/w/index.php?title=subscription&oldid=91688652",
+            "quote": "{{surf|en|sub-|script|-ion|nocap=1}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 91688652",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 91688652,
+            "tz": "Asia/Shanghai",
+            "note": "sub- + script + -ion。",
+            "claim": "现代英语有 scrib 与 script 两个词基形：sub- + scribe（subscribe）、sub- + script + -ion（subscription）、describe + -tion（description）。"
+          },
+          {
+            "word": "description",
+            "entry": "description",
+            "url": "https://en.wiktionary.org/w/index.php?title=description&oldid=93131318",
+            "quote": "Equivalent to {{suf|en|describe|tion}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93131318",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 93131318,
+            "tz": "Asia/Shanghai",
+            "note": "describe + -tion。",
+            "claim": "现代英语有 scrib 与 script 两个词基形：sub- + scribe（subscribe）、sub- + script + -ion（subscription）、describe + -tion（description）。"
+          }
+        ],
+        "claims": [
+          {
+            "type": "root-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "classical-derivation",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          },
+          {
+            "type": "borrowing-path",
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 3
+          },
+          {
+            "type": "modern-structure",
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 2
+          },
+          {
+            "type": "modern-sense",
+            "status": "no-evidence",
+            "works": [],
+            "records": 0
+          }
+        ]
+      }
     },
     {
       "id": "rx-script",
@@ -5154,6 +6278,91 @@
             "source": "G2",
             "claimType": "root-sense",
             "tz": "Asia/Shanghai"
+          },
+          {
+            "word": "spectator",
+            "entry": "spectator",
+            "url": "https://en.wiktionary.org/w/index.php?title=spectator&oldid=93156634",
+            "quote": "Borrowed from {{bor|en|la|spectātor}}, from [[frequentative]] verb {{m|la|spectō||watch}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93156634",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93156634,
+            "tz": "Asia/Shanghai",
+            "note": "一步直借拉丁施动名词。",
+            "claim": "spect 族两条路并存：直接借入拉丁（spectator < L spectātor；inspect < L inspectum；expect < L expectāre），与经古法语（respect < OF respect < L respectus）。"
+          },
+          {
+            "word": "inspect",
+            "entry": "inspect",
+            "url": "https://en.wiktionary.org/w/index.php?title=inspect&oldid=92362661",
+            "quote": "From {{uder|en|la|inspectum}}, past participle of {{m|la|inspicio|inspicere|to look into}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 92362661",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 92362661,
+            "tz": "Asia/Shanghai",
+            "note": "直借拉丁分词。",
+            "claim": "spect 族两条路并存：直接借入拉丁（spectator < L spectātor；inspect < L inspectum；expect < L expectāre），与经古法语（respect < OF respect < L respectus）。"
+          },
+          {
+            "word": "respect",
+            "entry": "respect",
+            "url": "https://en.wiktionary.org/w/index.php?title=respect&oldid=93719127",
+            "quote": "from {{der|en|fro|respect}}, also {{m|fro|respit||respect, regard, consideration}}, from {{der|en|la|respectus||a looking at, regard, respect}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93719127",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93719127,
+            "tz": "Asia/Shanghai",
+            "note": "古法语转手，且词典并列 respit 这一异形来源。",
+            "claim": "spect 族两条路并存：直接借入拉丁（spectator < L spectātor；inspect < L inspectum；expect < L expectāre），与经古法语（respect < OF respect < L respectus）。"
+          },
+          {
+            "word": "inspect",
+            "entry": "inspect",
+            "url": "https://en.wiktionary.org/w/index.php?title=inspect&oldid=92362661",
+            "quote": "equivalent to {{confix|en|in|spect}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 92362661",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 92362661,
+            "tz": "Asia/Shanghai",
+            "note": "in- + spect，词典明写。",
+            "claim": "现代英语把 spect 当粘着词基：in- + spect（inspect）。但 spectator 的共时切分是 spectate + -or，不是族里写的 spect + -ator——-ator 是历史形态，不是现代能产切分。"
+          },
+          {
+            "word": "spectator",
+            "entry": "spectator",
+            "url": "https://en.wiktionary.org/w/index.php?title=spectator&oldid=93156634",
+            "quote": "Equivalent to {{suffix|en|spectate|or}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93156634",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 93156634,
+            "tz": "Asia/Shanghai",
+            "note": "词典的共时切分是 spectate + -or；这条不支持 spect + -ator，而是修正它。",
+            "claim": "现代英语把 spect 当粘着词基：in- + spect（inspect）。但 spectator 的共时切分是 spectate + -or，不是族里写的 spect + -ator——-ator 是历史形态，不是现代能产切分。"
           }
         ],
         "claims": [
@@ -5174,9 +6383,11 @@
           },
           {
             "type": "borrowing-path",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 3
           },
           {
             "type": "modern-structure",
@@ -5184,7 +6395,7 @@
             "works": [
               "Wiktionary"
             ],
-            "records": 1
+            "records": 3
           },
           {
             "type": "modern-sense",
@@ -5284,6 +6495,91 @@
             "source": "G2",
             "claimType": "root-sense",
             "tz": "Asia/Shanghai"
+          },
+          {
+            "word": "construct",
+            "entry": "construct",
+            "url": "https://en.wiktionary.org/w/index.php?title=construct&oldid=93686256",
+            "quote": "Borrowed from {{bor|en|la|cōnstrūctus}}, from {{m|la|cōnstruō||to heap together}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93686256",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 93686256,
+            "tz": "Asia/Shanghai",
+            "note": "直借拉丁分词。",
+            "claim": "stru 族三条路：直接借拉丁分词（construct < L cōnstrūctus；instruct < L īnstrūctus）、经中古法语（structure < MF structure < L structūra）、经古法语（destroy < OF destruire < 俗拉丁 *destrugō）。"
+          },
+          {
+            "word": "structure",
+            "entry": "structure",
+            "url": "https://en.wiktionary.org/w/index.php?title=structure&oldid=95805851",
+            "quote": "From {{der|en|frm|structure}}, from {{der|en|la|structūra||a fitting together, adjustment, building, erection, a building, edifice, structure}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 95805851",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 95805851,
+            "tz": "Asia/Shanghai",
+            "note": "中古法语转手。",
+            "claim": "stru 族三条路：直接借拉丁分词（construct < L cōnstrūctus；instruct < L īnstrūctus）、经中古法语（structure < MF structure < L structūra）、经古法语（destroy < OF destruire < 俗拉丁 *destrugō）。"
+          },
+          {
+            "word": "destroy",
+            "entry": "destroy",
+            "url": "https://en.wiktionary.org/w/index.php?title=destroy&oldid=94552760",
+            "quote": "from {{der|en|fro|destruire}}, {{der|en|la-vul|*destrugō}}, from Classical {{der|en|la|dēstruō}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94552760",
+            "source": "S5",
+            "claimType": "borrowing-path",
+            "revision": 94552760,
+            "tz": "Asia/Shanghai",
+            "note": "古法语 → 俗拉丁 → 古典拉丁。",
+            "claim": "stru 族三条路：直接借拉丁分词（construct < L cōnstrūctus；instruct < L īnstrūctus）、经中古法语（structure < MF structure < L structūra）、经古法语（destroy < OF destruire < 俗拉丁 *destrugō）。"
+          },
+          {
+            "word": "construction",
+            "entry": "construction",
+            "url": "https://en.wiktionary.org/w/index.php?title=construction&oldid=93131230",
+            "quote": "Morphologically {{suffix|en|construct|-ion}}",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 93131230",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 93131230,
+            "tz": "Asia/Shanghai",
+            "note": "construct + -ion。",
+            "claim": "现代英语的 struct 是粘着词基：construct + -ion → construction、structure + -al → structural。"
+          },
+          {
+            "word": "structural",
+            "entry": "structural",
+            "url": "https://en.wiktionary.org/w/index.php?title=structural&oldid=94573250",
+            "quote": "From {{suffix|en|structure|-al}}, 19th century",
+            "supports": true,
+            "direct": true,
+            "fetchedAt": "2026-11-22",
+            "work": "Wiktionary",
+            "locator": "==English== / Etymology section, revision 94573250",
+            "source": "S5",
+            "claimType": "modern-structure",
+            "revision": 94573250,
+            "tz": "Asia/Shanghai",
+            "note": "structure + -al，19 世纪。",
+            "claim": "现代英语的 struct 是粘着词基：construct + -ion → construction、structure + -al → structural。"
           }
         ],
         "claims": [
@@ -5304,15 +6600,19 @@
           },
           {
             "type": "borrowing-path",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 3
           },
           {
             "type": "modern-structure",
-            "status": "no-evidence",
-            "works": [],
-            "records": 0
+            "status": "single-work",
+            "works": [
+              "Wiktionary"
+            ],
+            "records": 2
           },
           {
             "type": "modern-sense",

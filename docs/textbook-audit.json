@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T00:02:20.374Z",
+  "generatedAt": "2026-11-23T00:28:47.654Z",
   "command": "node scripts/audit-textbook.mjs",
   "criteria": {
     "taught": "卡片正文有实质讲解（正文 ≥120 字，或 ≥80 字且含定义句），且至少出现 1 个真实例词；card.terms 术语表不算",
@@ -12,8 +12,8 @@
   "corpus": {
     "weeks": 39,
     "lessons": 243,
-    "cards": 1230,
-    "exercises": 1525
+    "cards": 1234,
+    "exercises": 1543
   },
   "groups": {
     "S1": {
@@ -22,84 +22,91 @@
       "calibration": {
         "available": true,
         "total": 30,
-        "agree": 28,
-        "rate": "28/30",
+        "agree": 27,
+        "rate": "27/30",
         "disagreements": [
-          {
-            "kp": "kp-s1c1s3-2",
-            "title": "能产性使词典必然滞后",
-            "expected": "pass",
-            "got": "partial",
-            "score": 0.51
-          },
           {
             "kp": "kp-s1c2s8-4",
             "title": "诺斯借词与同源双式词",
             "expected": "partial",
             "got": "complete",
             "score": 0.56
+          },
+          {
+            "kp": "kp-s1c5s6-1",
+            "title": "元音按舌位高低前后与松紧描写",
+            "expected": "partial",
+            "got": "complete",
+            "score": 0.77
+          },
+          {
+            "kp": "kp-s1c8s8-3",
+            "title": "语言管控为何屡屡失败",
+            "expected": "partial",
+            "got": "complete",
+            "score": 0.12
           }
         ]
       },
       "byChapter": {
         "S1-C1": {
-          "complete": 10,
-          "partial": 6,
+          "complete": 16,
+          "partial": 0,
           "missing": 0
         },
         "S1-C2": {
-          "complete": 29,
-          "partial": 2,
+          "complete": 31,
+          "partial": 0,
           "missing": 0
         },
         "S1-C3": {
-          "complete": 33,
-          "partial": 5,
+          "complete": 38,
+          "partial": 0,
           "missing": 0
         },
         "S1-C4": {
-          "complete": 16,
-          "partial": 3,
+          "complete": 19,
+          "partial": 0,
           "missing": 0
         },
         "S1-C5": {
-          "complete": 6,
-          "partial": 5,
+          "complete": 11,
+          "partial": 0,
           "missing": 0
         },
         "S1-C6": {
-          "complete": 22,
-          "partial": 1,
+          "complete": 23,
+          "partial": 0,
           "missing": 0
         },
         "S1-C7": {
-          "complete": 27,
-          "partial": 4,
+          "complete": 31,
+          "partial": 0,
           "missing": 0
         },
         "S1-C8": {
-          "complete": 29,
-          "partial": 7,
+          "complete": 36,
+          "partial": 0,
           "missing": 0
         },
         "S1-C9": {
-          "complete": 18,
-          "partial": 2,
+          "complete": 20,
+          "partial": 0,
           "missing": 0
         },
         "S1-C10": {
-          "complete": 32,
-          "partial": 3,
+          "complete": 35,
+          "partial": 0,
           "missing": 0
         },
         "S1-C11": {
-          "complete": 20,
-          "partial": 3,
+          "complete": 23,
+          "partial": 0,
           "missing": 0
         }
       },
-      "complete": 242,
-      "partial": 41,
+      "complete": 283,
+      "partial": 0,
       "missing": 0,
       "items": [
         {
@@ -125,6 +132,7 @@
               "lessonId": "w31d1",
               "exerciseId": "w31d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.44
             }
           },
@@ -136,13 +144,13 @@
           "id": "kp-s1c1s1-2",
           "title": "词汇丰富的两面性",
           "chapter": "S1-C1",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.87,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 1023,
           "evidence": {
@@ -151,7 +159,12 @@
               "cardId": "w31d2-c3",
               "overlap": 0.87
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w31d2",
+              "exerciseId": "w31d2-p2",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w31d2"
@@ -161,22 +174,27 @@
           "id": "kp-s1c1s2-1",
           "title": "以形态规则替代逐词记忆",
           "chapter": "S1-C1",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
-          "score": 0.51,
-          "practiceScore": 0,
-          "relevantCards": 4,
-          "proseChars": 776,
+          "practiced": true,
+          "feedback": true,
+          "score": 0.29,
+          "practiceScore": 1,
+          "relevantCards": 5,
+          "proseChars": 1046,
           "evidence": {
             "teaching": {
               "lessonId": "w12d7",
-              "cardId": "w12d7-c1",
-              "overlap": 0.51
+              "cardId": "w12d7-c3",
+              "title": "两种读词方式：只查词典 vs 先分析再查"
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w12d7",
+              "exerciseId": "w12d7-p2",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w12d7"
@@ -205,6 +223,7 @@
               "lessonId": "w31d3",
               "exerciseId": "w31d3-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.6
             }
           },
@@ -216,13 +235,13 @@
           "id": "kp-s1c1s3-2",
           "title": "能产性使词典必然滞后",
           "chapter": "S1-C1",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.51,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 9,
           "proseChars": 2100,
           "evidence": {
@@ -231,7 +250,13 @@
               "cardId": "w02d6-c1",
               "overlap": 0.51
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w02d6",
+              "exerciseId": "w02d6-p6",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 1
+            }
           },
           "claimedBy": [
             "w02d6",
@@ -242,22 +267,28 @@
           "id": "kp-s1c1s4-1",
           "title": "词汇变化是常态而非衰败",
           "chapter": "S1-C1",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
-          "score": 0.23,
-          "practiceScore": 0,
+          "practiced": true,
+          "feedback": true,
+          "score": 0.15,
+          "practiceScore": 0.76,
           "relevantCards": 4,
           "proseChars": 682,
           "evidence": {
             "teaching": {
               "lessonId": "w07d5",
-              "cardId": "w07d5-c2",
-              "overlap": 0.23
+              "cardId": "w07d5-c5",
+              "title": "接受度：语言不看逻辑，看社区"
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w07d5",
+              "exerciseId": "w07d5-p6",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.76
+            }
           },
           "claimedBy": [
             "w07d5"
@@ -267,13 +298,13 @@
           "id": "kp-s1c1s4-2",
           "title": "掌握词汇包括掌握语域",
           "chapter": "S1-C1",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.54,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 8,
           "proseChars": 1813,
           "evidence": {
@@ -282,7 +313,12 @@
               "cardId": "w12d5-c5",
               "overlap": 0.54
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w09d1",
+              "exerciseId": "w09d1-p5",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w09d1",
@@ -312,6 +348,7 @@
               "lessonId": "w09d5",
               "exerciseId": "w09d5-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.36
             }
           },
@@ -330,8 +367,8 @@
           "feedback": true,
           "score": 0.67,
           "practiceScore": 0.91,
-          "relevantCards": 10,
-          "proseChars": 2088,
+          "relevantCards": 11,
+          "proseChars": 2343,
           "evidence": {
             "teaching": {
               "lessonId": "w09d7",
@@ -342,6 +379,7 @@
               "lessonId": "w09d1",
               "exerciseId": "w09d1-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.91
             }
           },
@@ -373,6 +411,7 @@
               "lessonId": "w32d1",
               "exerciseId": "w32d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.79
             }
           },
@@ -403,6 +442,7 @@
               "lessonId": "w32d2",
               "exerciseId": "w32d2-p5",
               "kind": "wordSum",
+              "how": "recall",
               "overlap": 0.55
             }
           },
@@ -433,6 +473,7 @@
               "lessonId": "w31d4",
               "exerciseId": "w31d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.63
             }
           },
@@ -463,6 +504,7 @@
               "lessonId": "w31d5",
               "exerciseId": "w31d5-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.61
             }
           },
@@ -493,6 +535,7 @@
               "lessonId": "w32d3",
               "exerciseId": "w32d3-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.71
             }
           },
@@ -504,13 +547,13 @@
           "id": "kp-s1c1s8-2",
           "title": "语言变化的评价：腐化还是丰富",
           "chapter": "S1-C1",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.24,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 2,
           "proseChars": 319,
           "evidence": {
@@ -519,7 +562,13 @@
               "cardId": "w07d5-c5",
               "overlap": 0.24
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w07d5",
+              "exerciseId": "w07d5-p7",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 1
+            }
           },
           "claimedBy": [
             "w07d5"
@@ -537,7 +586,7 @@
           "score": 0.81,
           "practiceScore": 0.66,
           "relevantCards": 5,
-          "proseChars": 1270,
+          "proseChars": 1348,
           "evidence": {
             "teaching": {
               "lessonId": "w32d4",
@@ -548,6 +597,7 @@
               "lessonId": "w32d4",
               "exerciseId": "w32d4-p5",
               "kind": "wordSum",
+              "how": "recall",
               "overlap": 0.66
             }
           },
@@ -578,6 +628,7 @@
               "lessonId": "w33d1",
               "exerciseId": "w33d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.89
             }
           },
@@ -601,13 +652,14 @@
           "evidence": {
             "teaching": {
               "lessonId": "w33d2",
-              "cardId": "w33d2-c3",
+              "cardId": "w33d2-c5",
               "overlap": 0.86
             },
             "practice": {
               "lessonId": "w33d2",
               "exerciseId": "w33d2-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.86
             }
           },
@@ -638,6 +690,7 @@
               "lessonId": "w33d3",
               "exerciseId": "w33d3-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.92
             }
           },
@@ -668,6 +721,7 @@
               "lessonId": "w33d4",
               "exerciseId": "w33d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.52
             }
           },
@@ -684,20 +738,21 @@
           "taught": true,
           "practiced": true,
           "feedback": true,
-          "score": 0.63,
+          "score": 0.58,
           "practiceScore": 0.74,
           "relevantCards": 5,
           "proseChars": 949,
           "evidence": {
             "teaching": {
               "lessonId": "w33d5",
-              "cardId": "w33d5-c2",
-              "overlap": 0.63
+              "cardId": "w33d5-c5",
+              "overlap": 0.58
             },
             "practice": {
               "lessonId": "w33d5",
               "exerciseId": "w33d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.74
             }
           },
@@ -728,6 +783,7 @@
               "lessonId": "w33d6",
               "exerciseId": "w33d6-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.73
             }
           },
@@ -758,6 +814,7 @@
               "lessonId": "w33d6",
               "exerciseId": "w33d6-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.71
             }
           },
@@ -788,6 +845,7 @@
               "lessonId": "w34d1",
               "exerciseId": "w34d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.76
             }
           },
@@ -818,6 +876,7 @@
               "lessonId": "w34d2",
               "exerciseId": "w34d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.7
             }
           },
@@ -848,6 +907,7 @@
               "lessonId": "w34d3",
               "exerciseId": "w34d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.81
             }
           },
@@ -878,6 +938,7 @@
               "lessonId": "w34d4",
               "exerciseId": "w34d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.49
             }
           },
@@ -908,6 +969,7 @@
               "lessonId": "w34d4",
               "exerciseId": "w34d4-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.64
             }
           },
@@ -919,22 +981,28 @@
           "id": "kp-s1c2s6-1",
           "title": "以三阶段为纲叙述借词史",
           "chapter": "S1-C2",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.37,
-          "practiceScore": 0,
-          "relevantCards": 5,
-          "proseChars": 858,
+          "practiceScore": 0.46,
+          "relevantCards": 6,
+          "proseChars": 1113,
           "evidence": {
             "teaching": {
               "lessonId": "w09d7",
               "cardId": "w09d7-c1",
               "overlap": 0.37
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w09d7",
+              "exerciseId": "w09d7-p6",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.46
+            }
           },
           "claimedBy": [
             "w09d7"
@@ -963,6 +1031,7 @@
               "lessonId": "w34d5",
               "exerciseId": "w34d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -993,6 +1062,7 @@
               "lessonId": "w34d6",
               "exerciseId": "w34d6-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.72
             }
           },
@@ -1023,6 +1093,7 @@
               "lessonId": "w35d1",
               "exerciseId": "w35d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -1053,6 +1124,7 @@
               "lessonId": "w35d1",
               "exerciseId": "w35d1-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.4
             }
           },
@@ -1083,6 +1155,7 @@
               "lessonId": "w35d2",
               "exerciseId": "w35d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.82
             }
           },
@@ -1099,20 +1172,21 @@
           "taught": true,
           "practiced": true,
           "feedback": true,
-          "score": 0.53,
+          "score": 0.49,
           "practiceScore": 0.56,
           "relevantCards": 6,
           "proseChars": 1087,
           "evidence": {
             "teaching": {
               "lessonId": "w35d2",
-              "cardId": "w35d2-c2",
-              "overlap": 0.53
+              "cardId": "w35d2-c3",
+              "overlap": 0.49
             },
             "practice": {
               "lessonId": "w35d2",
               "exerciseId": "w35d2-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.56
             }
           },
@@ -1143,6 +1217,7 @@
               "lessonId": "w35d3",
               "exerciseId": "w35d3-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.5
             }
           },
@@ -1173,6 +1248,7 @@
               "lessonId": "w09d2",
               "exerciseId": "w09d2-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.72
             }
           },
@@ -1203,6 +1279,7 @@
               "lessonId": "w09d1",
               "exerciseId": "w09d1-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.54
             }
           },
@@ -1233,6 +1310,7 @@
               "lessonId": "w09d1",
               "exerciseId": "w09d1-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.43
             }
           },
@@ -1263,6 +1341,7 @@
               "lessonId": "w35d4",
               "exerciseId": "w35d4-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.9
             }
           },
@@ -1293,6 +1372,7 @@
               "lessonId": "w35d5",
               "exerciseId": "w35d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.75
             }
           },
@@ -1304,13 +1384,13 @@
           "id": "kp-s1c2s9-5",
           "title": "伦敦标准语转向中部方言",
           "chapter": "S1-C2",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.79,
-          "practiceScore": 0,
+          "practiceScore": 0.79,
           "relevantCards": 4,
           "proseChars": 779,
           "evidence": {
@@ -1319,7 +1399,13 @@
               "cardId": "w35d5-c4",
               "overlap": 0.79
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w35d5",
+              "exerciseId": "w35d5-p6",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.79
+            }
           },
           "claimedBy": [
             "w35d5"
@@ -1348,6 +1434,7 @@
               "lessonId": "w35d6",
               "exerciseId": "w35d6-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.43
             }
           },
@@ -1378,6 +1465,7 @@
               "lessonId": "w35d6",
               "exerciseId": "w35d6-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -1396,8 +1484,8 @@
           "feedback": true,
           "score": 0.6,
           "practiceScore": 0.39,
-          "relevantCards": 11,
-          "proseChars": 2327,
+          "relevantCards": 12,
+          "proseChars": 2582,
           "evidence": {
             "teaching": {
               "lessonId": "w09d7",
@@ -1408,6 +1496,7 @@
               "lessonId": "w09d5",
               "exerciseId": "w09d5-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.39
             }
           },
@@ -1439,6 +1528,7 @@
               "lessonId": "w06d6",
               "exerciseId": "w06d6-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.6
             }
           },
@@ -1473,6 +1563,7 @@
               "lessonId": "w09d2",
               "exerciseId": "w09d2-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.86
             }
           },
@@ -1503,6 +1594,7 @@
               "lessonId": "w01d1",
               "exerciseId": "w01d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.73
             }
           },
@@ -1533,6 +1625,7 @@
               "lessonId": "w01d1",
               "exerciseId": "w01d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.42
             }
           },
@@ -1544,13 +1637,13 @@
           "id": "kp-s1c3s1-3",
           "title": "组合性：部件给线索但不等于全义",
           "chapter": "S1-C3",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.49,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 4,
           "proseChars": 791,
           "evidence": {
@@ -1559,7 +1652,12 @@
               "cardId": "w07d1-c4",
               "overlap": 0.49
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w07d1",
+              "exerciseId": "w07d1-p2",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w07d1"
@@ -1588,6 +1686,7 @@
               "lessonId": "w09d6",
               "exerciseId": "w09d6-p4",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.65
             }
           },
@@ -1623,6 +1722,7 @@
               "lessonId": "w01d1",
               "exerciseId": "w01d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.71
             }
           },
@@ -1654,6 +1754,7 @@
               "lessonId": "w01d2",
               "exerciseId": "w01d2-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.83
             }
           },
@@ -1685,6 +1786,7 @@
               "lessonId": "w36d1",
               "exerciseId": "w36d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.78
             }
           },
@@ -1715,6 +1817,7 @@
               "lessonId": "w01d4",
               "exerciseId": "w01d4-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.88
             }
           },
@@ -1745,6 +1848,7 @@
               "lessonId": "w12d1",
               "exerciseId": "w12d1-p2",
               "kind": "wordSum",
+              "how": "recall",
               "overlap": 0.55
             }
           },
@@ -1780,6 +1884,7 @@
               "lessonId": "w36d2",
               "exerciseId": "w36d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.93
             }
           },
@@ -1810,6 +1915,7 @@
               "lessonId": "w01d7",
               "exerciseId": "w01d7-p5",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.6
             }
           },
@@ -1844,6 +1950,7 @@
               "lessonId": "w05d3",
               "exerciseId": "w05d3-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.46
             }
           },
@@ -1876,6 +1983,7 @@
               "lessonId": "w01d4",
               "exerciseId": "w01d4-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.62
             }
           },
@@ -1899,9 +2007,9 @@
           "practiced": true,
           "feedback": true,
           "score": 0.73,
-          "practiceScore": 0.45,
-          "relevantCards": 22,
-          "proseChars": 5810,
+          "practiceScore": 0.48,
+          "relevantCards": 23,
+          "proseChars": 6040,
           "evidence": {
             "teaching": {
               "lessonId": "w04d3",
@@ -1909,10 +2017,11 @@
               "overlap": 0.73
             },
             "practice": {
-              "lessonId": "w04d3",
-              "exerciseId": "w04d3-p4",
+              "lessonId": "w03d1",
+              "exerciseId": "w03d1-p7",
               "kind": "mcq",
-              "overlap": 0.45
+              "how": "recall",
+              "overlap": 0.48
             }
           },
           "claimedBy": [
@@ -1927,13 +2036,13 @@
           "id": "kp-s1c3s9-1",
           "title": "词素义随搭配环境漂移",
           "chapter": "S1-C3",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.21,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 4,
           "proseChars": 940,
           "evidence": {
@@ -1942,7 +2051,12 @@
               "cardId": "w03d4-c4",
               "overlap": 0.21
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w03d4",
+              "exerciseId": "w03d4-p7",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w03d4"
@@ -1952,13 +2066,13 @@
           "id": "kp-s1c3s9-2",
           "title": "义变常循可描述的规律",
           "chapter": "S1-C3",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 1,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 1190,
           "evidence": {
@@ -1967,7 +2081,12 @@
               "cardId": "w36d3-c1",
               "overlap": 1
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w36d3",
+              "exerciseId": "w36d3-p5",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w36d3"
@@ -1996,6 +2115,7 @@
               "lessonId": "w36d4",
               "exerciseId": "w36d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -2007,22 +2127,28 @@
           "id": "kp-s1c3s11-1",
           "title": "解析的四重实用收益",
           "chapter": "S1-C3",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
-          "score": 0.49,
-          "practiceScore": 0,
-          "relevantCards": 4,
-          "proseChars": 776,
+          "practiced": true,
+          "feedback": true,
+          "score": 0.73,
+          "practiceScore": 0.85,
+          "relevantCards": 5,
+          "proseChars": 1046,
           "evidence": {
             "teaching": {
               "lessonId": "w12d7",
-              "cardId": "w12d7-c5",
-              "overlap": 0.49
+              "cardId": "w12d7-c6",
+              "overlap": 0.73
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w12d7",
+              "exerciseId": "w12d7-p7",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.85
+            }
           },
           "claimedBy": [
             "w12d7"
@@ -2037,20 +2163,21 @@
           "taught": true,
           "practiced": true,
           "feedback": true,
-          "score": 0.73,
+          "score": 0.57,
           "practiceScore": 0.48,
           "relevantCards": 30,
           "proseChars": 6251,
           "evidence": {
             "teaching": {
-              "lessonId": "w02d1",
-              "cardId": "w02d1-c3",
-              "overlap": 0.73
+              "lessonId": "w12d1",
+              "cardId": "w12d1-c3",
+              "overlap": 0.57
             },
             "practice": {
               "lessonId": "w02d1",
               "exerciseId": "w02d1-p4",
               "kind": "wordSum",
+              "how": "recall",
               "overlap": 0.48
             }
           },
@@ -2086,6 +2213,7 @@
               "lessonId": "w08d4",
               "exerciseId": "w08d4-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.39
             }
           },
@@ -2120,6 +2248,7 @@
               "lessonId": "w07d1",
               "exerciseId": "w07d1-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.43
             }
           },
@@ -2152,6 +2281,7 @@
               "lessonId": "w06d1",
               "exerciseId": "w06d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.69
             }
           },
@@ -2182,6 +2312,7 @@
               "lessonId": "w07d1",
               "exerciseId": "w07d1-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.56
             }
           },
@@ -2212,6 +2343,7 @@
               "lessonId": "w36d5",
               "exerciseId": "w36d5-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.64
             }
           },
@@ -2223,22 +2355,28 @@
           "id": "kp-s1c3s16-1",
           "title": "截短不尊重词素边界",
           "chapter": "S1-C3",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
-          "score": 0.32,
-          "practiceScore": 0,
+          "practiced": true,
+          "feedback": true,
+          "score": 0.72,
+          "practiceScore": 0.83,
           "relevantCards": 7,
-          "proseChars": 1411,
+          "proseChars": 1490,
           "evidence": {
             "teaching": {
               "lessonId": "w07d4",
               "cardId": "w07d4-c1",
-              "overlap": 0.32
+              "overlap": 0.72
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w07d4",
+              "exerciseId": "w07d4-p6",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.83
+            }
           },
           "claimedBy": [
             "w07d4",
@@ -2268,6 +2406,7 @@
               "lessonId": "w07d3",
               "exerciseId": "w07d3-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.71
             }
           },
@@ -2299,6 +2438,7 @@
               "lessonId": "w07d6",
               "exerciseId": "w07d6-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.63
             }
           },
@@ -2319,7 +2459,7 @@
           "score": 1,
           "practiceScore": 0.87,
           "relevantCards": 18,
-          "proseChars": 4943,
+          "proseChars": 5022,
           "evidence": {
             "teaching": {
               "lessonId": "w07d4",
@@ -2330,6 +2470,7 @@
               "lessonId": "w07d7",
               "exerciseId": "w07d7-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.87
             }
           },
@@ -2363,6 +2504,7 @@
               "lessonId": "w36d6",
               "exerciseId": "w36d6-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.63
             }
           },
@@ -2393,6 +2535,7 @@
               "lessonId": "w37d1",
               "exerciseId": "w37d1-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.84
             }
           },
@@ -2423,6 +2566,7 @@
               "lessonId": "w37d2",
               "exerciseId": "w37d2-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.56
             }
           },
@@ -2453,6 +2597,7 @@
               "lessonId": "w37d3",
               "exerciseId": "w37d3-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.52
             }
           },
@@ -2483,6 +2628,7 @@
               "lessonId": "w07d5",
               "exerciseId": "w07d5-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.65
             }
           },
@@ -2513,6 +2659,7 @@
               "lessonId": "w09d6",
               "exerciseId": "w09d6-p3",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.75
             }
           },
@@ -2545,6 +2692,7 @@
               "lessonId": "w11d4",
               "exerciseId": "w11d4-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.43
             }
           },
@@ -2575,6 +2723,7 @@
               "lessonId": "w09d6",
               "exerciseId": "w09d6-p4",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.47
             }
           },
@@ -2608,6 +2757,7 @@
               "lessonId": "w37d4",
               "exerciseId": "w37d4-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -2638,6 +2788,7 @@
               "lessonId": "w37d5",
               "exerciseId": "w37d5-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.9
             }
           },
@@ -2668,6 +2819,7 @@
               "lessonId": "w08d7",
               "exerciseId": "w08d7-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.63
             }
           },
@@ -2700,6 +2852,7 @@
               "lessonId": "w03d5",
               "exerciseId": "w03d5-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.47
             }
           },
@@ -2712,13 +2865,13 @@
           "id": "kp-s1c4s1-3",
           "title": "变体的引用方式与误切分风险",
           "chapter": "S1-C4",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.37,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 1278,
           "evidence": {
@@ -2727,7 +2880,12 @@
               "cardId": "w05d6-c3",
               "overlap": 0.37
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w05d6",
+              "exerciseId": "w05d6-p5",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w05d6"
@@ -2756,6 +2914,7 @@
               "lessonId": "w17d1",
               "exerciseId": "w17d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.68
             }
           },
@@ -2786,6 +2945,7 @@
               "lessonId": "w03d5",
               "exerciseId": "w03d5-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.36
             }
           },
@@ -2816,6 +2976,7 @@
               "lessonId": "w17d2",
               "exerciseId": "w17d2-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.67
             }
           },
@@ -2827,22 +2988,28 @@
           "id": "kp-s1c4s5-1",
           "title": "借入的音系规则只作用于借词层",
           "chapter": "S1-C4",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
-          "score": 0.5,
-          "practiceScore": 0,
-          "relevantCards": 5,
-          "proseChars": 1255,
+          "practiced": true,
+          "feedback": true,
+          "score": 0.71,
+          "practiceScore": 1,
+          "relevantCards": 6,
+          "proseChars": 1485,
           "evidence": {
             "teaching": {
               "lessonId": "w03d1",
-              "cardId": "w03d1-c1",
-              "overlap": 0.5
+              "cardId": "w03d1-c6",
+              "overlap": 0.71
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w03d1",
+              "exerciseId": "w03d1-p7",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 1
+            }
           },
           "claimedBy": [
             "w03d1"
@@ -2871,6 +3038,7 @@
               "lessonId": "w17d3",
               "exerciseId": "w17d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -2901,6 +3069,7 @@
               "lessonId": "w17d4",
               "exerciseId": "w17d4-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.51
             }
           },
@@ -2931,6 +3100,7 @@
               "lessonId": "w17d5",
               "exerciseId": "w17d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.44
             }
           },
@@ -2961,6 +3131,7 @@
               "lessonId": "w17d6",
               "exerciseId": "w17d6-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.64
             }
           },
@@ -2972,13 +3143,13 @@
           "id": "kp-s1c4s8-1",
           "title": "词根加 t 形成常见变体",
           "chapter": "S1-C4",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.37,
-          "practiceScore": 0,
+          "practiceScore": 0.59,
           "relevantCards": 5,
           "proseChars": 1314,
           "evidence": {
@@ -2987,7 +3158,13 @@
               "cardId": "w05d3-c3",
               "overlap": 0.37
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w05d3",
+              "exerciseId": "w05d3-p7",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.59
+            }
           },
           "claimedBy": [
             "w05d3"
@@ -3016,6 +3193,7 @@
               "lessonId": "w17d7",
               "exerciseId": "w17d7-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.91
             }
           },
@@ -3046,6 +3224,7 @@
               "lessonId": "w18d1",
               "exerciseId": "w18d1-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.61
             }
           },
@@ -3076,6 +3255,7 @@
               "lessonId": "w18d2",
               "exerciseId": "w18d2-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -3106,6 +3286,7 @@
               "lessonId": "w18d3",
               "exerciseId": "w18d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.69
             }
           },
@@ -3136,6 +3317,7 @@
               "lessonId": "w18d4",
               "exerciseId": "w18d4-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.73
             }
           },
@@ -3166,6 +3348,7 @@
               "lessonId": "w18d5",
               "exerciseId": "w18d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.48
             }
           },
@@ -3196,6 +3379,7 @@
               "lessonId": "w18d6",
               "exerciseId": "w18d6-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.72
             }
           },
@@ -3207,13 +3391,13 @@
           "id": "kp-s1c5s1-1",
           "title": "语音由气流受阻方式与位置决定",
           "chapter": "S1-C5",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.55,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 1091,
           "evidence": {
@@ -3222,7 +3406,12 @@
               "cardId": "w23d1-c1",
               "overlap": 0.55
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w23d1",
+              "exerciseId": "w23d1-p2",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w23d1"
@@ -3251,6 +3440,7 @@
               "lessonId": "w23d1",
               "exerciseId": "w23d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.5
             }
           },
@@ -3262,22 +3452,28 @@
           "id": "kp-s1c5s2-1",
           "title": "肺部气流是所有英语音的来源",
           "chapter": "S1-C5",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
-          "score": 0.82,
-          "practiceScore": 0,
+          "practiced": true,
+          "feedback": true,
+          "score": 0.67,
+          "practiceScore": 0.92,
           "relevantCards": 4,
           "proseChars": 883,
           "evidence": {
             "teaching": {
               "lessonId": "w23d2",
-              "cardId": "w23d2-c1",
-              "overlap": 0.82
+              "cardId": "w23d2-c4",
+              "overlap": 0.67
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w23d2",
+              "exerciseId": "w23d2-p6",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.92
+            }
           },
           "claimedBy": [
             "w23d2"
@@ -3306,6 +3502,7 @@
               "lessonId": "w23d3",
               "exerciseId": "w23d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.48
             }
           },
@@ -3336,6 +3533,7 @@
               "lessonId": "w23d4",
               "exerciseId": "w23d4-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.51
             }
           },
@@ -3366,6 +3564,7 @@
               "lessonId": "w23d5",
               "exerciseId": "w23d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.89
             }
           },
@@ -3396,6 +3595,7 @@
               "lessonId": "w23d6",
               "exerciseId": "w23d6-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.85
             }
           },
@@ -3407,13 +3607,13 @@
           "id": "kp-s1c5s5-3",
           "title": "三元特征可唯一确定辅音",
           "chapter": "S1-C5",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.65,
-          "practiceScore": 0,
+          "practiceScore": 0.35,
           "relevantCards": 5,
           "proseChars": 1001,
           "evidence": {
@@ -3422,7 +3622,13 @@
               "cardId": "w23d5-c4",
               "overlap": 0.65
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w23d5",
+              "exerciseId": "w23d5-p6",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.35
+            }
           },
           "claimedBy": [
             "w23d5"
@@ -3432,13 +3638,13 @@
           "id": "kp-s1c5s6-1",
           "title": "元音按舌位高低前后与松紧描写",
           "chapter": "S1-C5",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.77,
-          "practiceScore": 0,
+          "practiceScore": 0.85,
           "relevantCards": 5,
           "proseChars": 988,
           "evidence": {
@@ -3447,7 +3653,13 @@
               "cardId": "w23d6-c3",
               "overlap": 0.77
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w23d6",
+              "exerciseId": "w23d6-p6",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.85
+            }
           },
           "claimedBy": [
             "w23d6"
@@ -3476,6 +3688,7 @@
               "lessonId": "w23d7",
               "exerciseId": "w23d7-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.83
             }
           },
@@ -3487,13 +3700,13 @@
           "id": "kp-s1c5s6-3",
           "title": "schwa 是唯一的中央元音",
           "chapter": "S1-C5",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.66,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 1041,
           "evidence": {
@@ -3502,7 +3715,12 @@
               "cardId": "w23d7-c3",
               "overlap": 0.66
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w23d7",
+              "exerciseId": "w23d7-p6",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w23d7"
@@ -3531,6 +3749,7 @@
               "lessonId": "w08d2",
               "exerciseId": "w08d2-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.46
             }
           },
@@ -3561,6 +3780,7 @@
               "lessonId": "w19d1",
               "exerciseId": "w19d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.63
             }
           },
@@ -3591,6 +3811,7 @@
               "lessonId": "w09d4",
               "exerciseId": "w09d4-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.58
             }
           },
@@ -3621,6 +3842,7 @@
               "lessonId": "w03d5",
               "exerciseId": "w03d5-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.58
             }
           },
@@ -3654,6 +3876,7 @@
               "lessonId": "w08d1",
               "exerciseId": "w08d1-p3",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.71
             }
           },
@@ -3685,6 +3908,7 @@
               "lessonId": "w19d2",
               "exerciseId": "w19d2-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.69
             }
           },
@@ -3715,6 +3939,7 @@
               "lessonId": "w19d3",
               "exerciseId": "w19d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.6
             }
           },
@@ -3745,6 +3970,7 @@
               "lessonId": "w19d4",
               "exerciseId": "w19d4-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.8
             }
           },
@@ -3775,6 +4001,7 @@
               "lessonId": "w19d5",
               "exerciseId": "w19d5-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.82
             }
           },
@@ -3805,6 +4032,7 @@
               "lessonId": "w19d6",
               "exerciseId": "w19d6-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.5
             }
           },
@@ -3835,6 +4063,7 @@
               "lessonId": "w20d1",
               "exerciseId": "w20d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -3865,6 +4094,7 @@
               "lessonId": "w20d1",
               "exerciseId": "w20d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.37
             }
           },
@@ -3895,6 +4125,7 @@
               "lessonId": "w20d2",
               "exerciseId": "w20d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -3925,6 +4156,7 @@
               "lessonId": "w20d3",
               "exerciseId": "w20d3-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.54
             }
           },
@@ -3955,6 +4187,7 @@
               "lessonId": "w20d4",
               "exerciseId": "w20d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.56
             }
           },
@@ -3985,6 +4218,7 @@
               "lessonId": "w05d6",
               "exerciseId": "w05d6-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.65
             }
           },
@@ -4015,6 +4249,7 @@
               "lessonId": "w20d5",
               "exerciseId": "w20d5-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.58
             }
           },
@@ -4045,6 +4280,7 @@
               "lessonId": "w09d4",
               "exerciseId": "w09d4-p3",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.65
             }
           },
@@ -4075,6 +4311,7 @@
               "lessonId": "w20d6",
               "exerciseId": "w20d6-p5",
               "kind": "wordSum",
+              "how": "recall",
               "overlap": 0.53
             }
           },
@@ -4105,6 +4342,7 @@
               "lessonId": "w20d5",
               "exerciseId": "w20d5-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.76
             }
           },
@@ -4135,6 +4373,7 @@
               "lessonId": "w20d6",
               "exerciseId": "w20d6-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -4165,6 +4404,7 @@
               "lessonId": "w20d7",
               "exerciseId": "w20d7-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.46
             }
           },
@@ -4176,13 +4416,13 @@
           "id": "kp-s1c6s10-1",
           "title": "本章规则需整体掌握并用于解析",
           "chapter": "S1-C6",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.49,
-          "practiceScore": 0,
+          "practiceScore": 0.37,
           "relevantCards": 3,
           "proseChars": 974,
           "evidence": {
@@ -4191,7 +4431,13 @@
               "cardId": "w20d7-c5",
               "overlap": 0.49
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w20d7",
+              "exerciseId": "w20d7-p6",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.37
+            }
           },
           "claimedBy": [
             "w20d7"
@@ -4220,6 +4466,7 @@
               "lessonId": "w10d1",
               "exerciseId": "w10d1-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.44
             }
           },
@@ -4231,13 +4478,13 @@
           "id": "kp-s1c7s1-2",
           "title": "专门化与泛化可以双向发生",
           "chapter": "S1-C7",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.32,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 4,
           "proseChars": 863,
           "evidence": {
@@ -4246,7 +4493,12 @@
               "cardId": "w10d4-c1",
               "overlap": 0.32
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w10d4",
+              "exerciseId": "w10d4-p5",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w10d4"
@@ -4275,6 +4527,7 @@
               "lessonId": "w21d1",
               "exerciseId": "w21d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -4305,6 +4558,7 @@
               "lessonId": "w21d1",
               "exerciseId": "w21d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -4335,6 +4589,7 @@
               "lessonId": "w21d2",
               "exerciseId": "w21d2-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.67
             }
           },
@@ -4365,6 +4620,7 @@
               "lessonId": "w09d6",
               "exerciseId": "w09d6-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.8
             }
           },
@@ -4397,6 +4653,7 @@
               "lessonId": "w10d1",
               "exerciseId": "w10d1-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.41
             }
           },
@@ -4427,6 +4684,7 @@
               "lessonId": "w21d2",
               "exerciseId": "w21d2-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.82
             }
           },
@@ -4457,6 +4715,7 @@
               "lessonId": "w21d3",
               "exerciseId": "w21d3-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.58
             }
           },
@@ -4487,6 +4746,7 @@
               "lessonId": "w21d4",
               "exerciseId": "w21d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -4517,6 +4777,7 @@
               "lessonId": "w21d5",
               "exerciseId": "w21d5-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.61
             }
           },
@@ -4547,6 +4808,7 @@
               "lessonId": "w21d6",
               "exerciseId": "w21d6-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.36
             }
           },
@@ -4577,6 +4839,7 @@
               "lessonId": "w22d1",
               "exerciseId": "w22d1-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.83
             }
           },
@@ -4607,6 +4870,7 @@
               "lessonId": "w22d2",
               "exerciseId": "w22d2-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.43
             }
           },
@@ -4637,6 +4901,7 @@
               "lessonId": "w10d6",
               "exerciseId": "w10d6-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.42
             }
           },
@@ -4668,6 +4933,7 @@
               "lessonId": "w22d3",
               "exerciseId": "w22d3-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.59
             }
           },
@@ -4698,6 +4964,7 @@
               "lessonId": "w11d3",
               "exerciseId": "w11d3-p4",
               "kind": "matrix",
+              "how": "recall",
               "overlap": 0.44
             }
           },
@@ -4710,13 +4977,13 @@
           "id": "kp-s1c7s9-1",
           "title": "联想的两大类：相似与相关",
           "chapter": "S1-C7",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.27,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 1221,
           "evidence": {
@@ -4725,7 +4992,12 @@
               "cardId": "w10d2-c1",
               "overlap": 0.27
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w10d2",
+              "exerciseId": "w10d2-p1",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w10d2"
@@ -4754,6 +5026,7 @@
               "lessonId": "w11d1",
               "exerciseId": "w11d1-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -4768,13 +5041,13 @@
           "id": "kp-s1c7s10-2",
           "title": "由具体到抽象的迁移",
           "chapter": "S1-C7",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.52,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 4,
           "proseChars": 1164,
           "evidence": {
@@ -4783,7 +5056,12 @@
               "cardId": "w10d2-c3",
               "overlap": 0.52
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w10d2",
+              "exerciseId": "w10d2-p1",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w10d2"
@@ -4812,6 +5090,7 @@
               "lessonId": "w03d2",
               "exerciseId": "w03d2-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.46
             }
           },
@@ -4842,6 +5121,7 @@
               "lessonId": "w22d4",
               "exerciseId": "w22d4-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -4872,6 +5152,7 @@
               "lessonId": "w10d7",
               "exerciseId": "w10d7-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.67
             }
           },
@@ -4903,6 +5184,7 @@
               "lessonId": "w10d3",
               "exerciseId": "w10d3-p4",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.81
             }
           },
@@ -4914,22 +5196,27 @@
           "id": "kp-s1c7s12-1",
           "title": "判别标准：相似还是相关",
           "chapter": "S1-C7",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
-          "score": 0.64,
-          "practiceScore": 0,
+          "practiced": true,
+          "feedback": true,
+          "score": 0.54,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 988,
           "evidence": {
             "teaching": {
               "lessonId": "w10d3",
-              "cardId": "w10d3-c5",
-              "overlap": 0.64
+              "cardId": "w10d3-c3",
+              "title": "两步判断：这是隐喻还是转喻"
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w10d3",
+              "exerciseId": "w10d3-p3",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w10d3"
@@ -4958,6 +5245,7 @@
               "lessonId": "w22d5",
               "exerciseId": "w22d5-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.44
             }
           },
@@ -4988,6 +5276,7 @@
               "lessonId": "w10d4",
               "exerciseId": "w10d4-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.72
             }
           },
@@ -5019,6 +5308,7 @@
               "lessonId": "w22d6",
               "exerciseId": "w22d6-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -5049,6 +5339,7 @@
               "lessonId": "w10d5",
               "exerciseId": "w10d5-p4",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -5080,6 +5371,7 @@
               "lessonId": "w22d6",
               "exerciseId": "w22d6-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -5110,6 +5402,7 @@
               "lessonId": "w22d6",
               "exerciseId": "w22d6-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.77
             }
           },
@@ -5140,6 +5433,7 @@
               "lessonId": "w24d1",
               "exerciseId": "w24d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.74
             }
           },
@@ -5151,13 +5445,13 @@
           "id": "kp-s1c8s1-2",
           "title": "语域与专业词汇的分工",
           "chapter": "S1-C8",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.34,
-          "practiceScore": 0,
+          "practiceScore": 0.86,
           "relevantCards": 4,
           "proseChars": 888,
           "evidence": {
@@ -5166,7 +5460,13 @@
               "cardId": "w12d5-c3",
               "overlap": 0.34
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w12d5",
+              "exerciseId": "w12d5-p7",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.86
+            }
           },
           "claimedBy": [
             "w12d5"
@@ -5195,6 +5495,7 @@
               "lessonId": "w24d1",
               "exerciseId": "w24d1-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -5225,6 +5526,7 @@
               "lessonId": "w24d2",
               "exerciseId": "w24d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.8
             }
           },
@@ -5255,6 +5557,7 @@
               "lessonId": "w24d3",
               "exerciseId": "w24d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.64
             }
           },
@@ -5285,6 +5588,7 @@
               "lessonId": "w24d3",
               "exerciseId": "w24d3-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -5315,6 +5619,7 @@
               "lessonId": "w24d4",
               "exerciseId": "w24d4-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -5326,13 +5631,13 @@
           "id": "kp-s1c8s2-4",
           "title": "并存的变体可以分工",
           "chapter": "S1-C8",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.46,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 1009,
           "evidence": {
@@ -5341,7 +5646,12 @@
               "cardId": "w24d5-c2",
               "overlap": 0.46
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w24d5",
+              "exerciseId": "w24d5-p5",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w24d5"
@@ -5351,13 +5661,13 @@
           "id": "kp-s1c8s2-5",
           "title": "变体积淀即成新语言",
           "chapter": "S1-C8",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.68,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 800,
           "evidence": {
@@ -5366,7 +5676,12 @@
               "cardId": "w24d6-c1",
               "overlap": 0.68
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w24d6",
+              "exerciseId": "w24d6-p4",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w24d6"
@@ -5395,6 +5710,7 @@
               "lessonId": "w24d7",
               "exerciseId": "w24d7-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.35
             }
           },
@@ -5406,13 +5722,13 @@
           "id": "kp-s1c8s3-2",
           "title": "海外变体各自演变",
           "chapter": "S1-C8",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 1,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 796,
           "evidence": {
@@ -5421,7 +5737,12 @@
               "cardId": "w24d7-c2",
               "overlap": 1
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w24d7",
+              "exerciseId": "w24d7-p4",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w24d7"
@@ -5450,6 +5771,7 @@
               "lessonId": "w24d7",
               "exerciseId": "w24d7-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -5461,13 +5783,13 @@
           "id": "kp-s1c8s3-4",
           "title": "世界语言身份埋下分裂种子",
           "chapter": "S1-C8",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 1,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 796,
           "evidence": {
@@ -5476,7 +5798,12 @@
               "cardId": "w24d7-c5",
               "overlap": 1
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w24d7",
+              "exerciseId": "w24d7-p5",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w24d7"
@@ -5505,6 +5832,7 @@
               "lessonId": "w25d1",
               "exerciseId": "w25d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -5521,20 +5849,21 @@
           "taught": true,
           "practiced": true,
           "feedback": true,
-          "score": 0.72,
+          "score": 0.55,
           "practiceScore": 0.4,
           "relevantCards": 5,
           "proseChars": 752,
           "evidence": {
             "teaching": {
               "lessonId": "w25d1",
-              "cardId": "w25d1-c2",
-              "overlap": 0.72
+              "cardId": "w25d1-c1",
+              "overlap": 0.55
             },
             "practice": {
               "lessonId": "w25d1",
               "exerciseId": "w25d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.4
             }
           },
@@ -5565,6 +5894,7 @@
               "lessonId": "w25d2",
               "exerciseId": "w25d2-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.64
             }
           },
@@ -5595,6 +5925,7 @@
               "lessonId": "w25d3",
               "exerciseId": "w25d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.36
             }
           },
@@ -5625,6 +5956,7 @@
               "lessonId": "w25d3",
               "exerciseId": "w25d3-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.37
             }
           },
@@ -5655,6 +5987,7 @@
               "lessonId": "w25d4",
               "exerciseId": "w25d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.81
             }
           },
@@ -5685,6 +6018,7 @@
               "lessonId": "w25d4",
               "exerciseId": "w25d4-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.93
             }
           },
@@ -5715,6 +6049,7 @@
               "lessonId": "w25d5",
               "exerciseId": "w25d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.84
             }
           },
@@ -5745,6 +6080,7 @@
               "lessonId": "w25d5",
               "exerciseId": "w25d5-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -5756,13 +6092,13 @@
           "id": "kp-s1c8s6-2",
           "title": "非标准不等于无效",
           "chapter": "S1-C8",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 1,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 4,
           "proseChars": 600,
           "evidence": {
@@ -5771,7 +6107,12 @@
               "cardId": "w25d5-c4",
               "overlap": 1
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w25d5",
+              "exerciseId": "w25d5-p5",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w25d5"
@@ -5800,6 +6141,7 @@
               "lessonId": "w26d1",
               "exerciseId": "w26d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.8
             }
           },
@@ -5830,6 +6172,7 @@
               "lessonId": "w26d1",
               "exerciseId": "w26d1-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.64
             }
           },
@@ -5860,6 +6203,7 @@
               "lessonId": "w26d2",
               "exerciseId": "w26d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.72
             }
           },
@@ -5890,6 +6234,7 @@
               "lessonId": "w26d3",
               "exerciseId": "w26d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.41
             }
           },
@@ -5901,13 +6246,13 @@
           "id": "kp-s1c8s8-3",
           "title": "语言管控为何屡屡失败",
           "chapter": "S1-C8",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.12,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 1,
           "proseChars": 239,
           "evidence": {
@@ -5916,7 +6261,13 @@
               "cardId": "w07d5-c5",
               "overlap": 0.12
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w07d5",
+              "exerciseId": "w07d5-p7",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 1
+            }
           },
           "claimedBy": [
             "w07d5"
@@ -5945,6 +6296,7 @@
               "lessonId": "w26d3",
               "exerciseId": "w26d3-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.55
             }
           },
@@ -5975,6 +6327,7 @@
               "lessonId": "w26d4",
               "exerciseId": "w26d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -6005,6 +6358,7 @@
               "lessonId": "w26d4",
               "exerciseId": "w26d4-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.82
             }
           },
@@ -6035,6 +6389,7 @@
               "lessonId": "w26d5",
               "exerciseId": "w26d5-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.48
             }
           },
@@ -6065,6 +6420,7 @@
               "lessonId": "w26d5",
               "exerciseId": "w26d5-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.54
             }
           },
@@ -6095,6 +6451,7 @@
               "lessonId": "w26d6",
               "exerciseId": "w26d6-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.82
             }
           },
@@ -6125,6 +6482,7 @@
               "lessonId": "w26d6",
               "exerciseId": "w26d6-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.86
             }
           },
@@ -6155,6 +6513,7 @@
               "lessonId": "w26d6",
               "exerciseId": "w26d6-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.44
             }
           },
@@ -6185,6 +6544,7 @@
               "lessonId": "w13d1",
               "exerciseId": "w13d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -6215,6 +6575,7 @@
               "lessonId": "w13d2",
               "exerciseId": "w13d2-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.68
             }
           },
@@ -6246,6 +6607,7 @@
               "lessonId": "w13d3",
               "exerciseId": "w13d3-p3",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -6276,6 +6638,7 @@
               "lessonId": "w13d4",
               "exerciseId": "w13d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.68
             }
           },
@@ -6306,6 +6669,7 @@
               "lessonId": "w13d4",
               "exerciseId": "w13d4-p3",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.68
             }
           },
@@ -6336,6 +6700,7 @@
               "lessonId": "w13d5",
               "exerciseId": "w13d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.82
             }
           },
@@ -6366,6 +6731,7 @@
               "lessonId": "w13d5",
               "exerciseId": "w13d5-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.86
             }
           },
@@ -6377,22 +6743,28 @@
           "id": "kp-s1c9s2-2",
           "title": "单音节词根可直接成词",
           "chapter": "S1-C9",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 1,
-          "practiceScore": 0,
-          "relevantCards": 5,
-          "proseChars": 1264,
+          "practiceScore": 0.66,
+          "relevantCards": 6,
+          "proseChars": 1494,
           "evidence": {
             "teaching": {
               "lessonId": "w13d6",
               "cardId": "w13d6-c1",
               "overlap": 1
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w13d6",
+              "exerciseId": "w13d6-p6",
+              "kind": "mcq",
+              "how": "recall",
+              "overlap": 0.66
+            }
           },
           "claimedBy": [
             "w13d6"
@@ -6409,8 +6781,8 @@
           "feedback": true,
           "score": 1,
           "practiceScore": 1,
-          "relevantCards": 5,
-          "proseChars": 1264,
+          "relevantCards": 6,
+          "proseChars": 1494,
           "evidence": {
             "teaching": {
               "lessonId": "w13d6",
@@ -6421,6 +6793,7 @@
               "lessonId": "w13d6",
               "exerciseId": "w13d6-p3",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -6451,6 +6824,7 @@
               "lessonId": "w13d7",
               "exerciseId": "w13d7-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.75
             }
           },
@@ -6481,6 +6855,7 @@
               "lessonId": "w14d1",
               "exerciseId": "w14d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.8
             }
           },
@@ -6511,6 +6886,7 @@
               "lessonId": "w14d1",
               "exerciseId": "w14d1-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.65
             }
           },
@@ -6541,6 +6917,7 @@
               "lessonId": "w14d2",
               "exerciseId": "w14d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -6571,6 +6948,7 @@
               "lessonId": "w14d3",
               "exerciseId": "w14d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.84
             }
           },
@@ -6601,6 +6979,7 @@
               "lessonId": "w14d3",
               "exerciseId": "w14d3-p3",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.72
             }
           },
@@ -6631,6 +7010,7 @@
               "lessonId": "w14d4",
               "exerciseId": "w14d4-p5",
               "kind": "wordSum",
+              "how": "recall",
               "overlap": 0.8
             }
           },
@@ -6642,22 +7022,27 @@
           "id": "kp-s1c9s5-2",
           "title": "-sc-、-ta- 与鼻音中缀",
           "chapter": "S1-C9",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
-          "score": 1,
-          "practiceScore": 0,
+          "practiced": true,
+          "feedback": true,
+          "score": 0,
+          "practiceScore": 1,
           "relevantCards": 4,
           "proseChars": 1348,
           "evidence": {
             "teaching": {
               "lessonId": "w14d4",
-              "cardId": "w14d4-c4",
-              "overlap": 1
+              "cardId": "w14d4-c2",
+              "title": "-sc-：不是“做”，而是“开始做”"
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w14d4",
+              "exerciseId": "w14d4-p1",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w14d4"
@@ -6686,6 +7071,7 @@
               "lessonId": "w14d5",
               "exerciseId": "w14d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -6716,6 +7102,7 @@
               "lessonId": "w14d6",
               "exerciseId": "w14d6-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.89
             }
           },
@@ -6746,6 +7133,7 @@
               "lessonId": "w14d7",
               "exerciseId": "w14d7-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -6776,6 +7164,7 @@
               "lessonId": "w27d1",
               "exerciseId": "w27d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -6806,6 +7195,7 @@
               "lessonId": "w27d1",
               "exerciseId": "w27d1-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.48
             }
           },
@@ -6836,6 +7226,7 @@
               "lessonId": "w27d2",
               "exerciseId": "w27d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -6866,6 +7257,7 @@
               "lessonId": "w27d2",
               "exerciseId": "w27d2-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.71
             }
           },
@@ -6896,6 +7288,7 @@
               "lessonId": "w27d3",
               "exerciseId": "w27d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.76
             }
           },
@@ -6926,6 +7319,7 @@
               "lessonId": "w27d3",
               "exerciseId": "w27d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.84
             }
           },
@@ -6956,6 +7350,7 @@
               "lessonId": "w27d4",
               "exerciseId": "w27d4-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -6986,6 +7381,7 @@
               "lessonId": "w27d4",
               "exerciseId": "w27d4-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -7016,6 +7412,7 @@
               "lessonId": "w27d5",
               "exerciseId": "w27d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.55
             }
           },
@@ -7046,6 +7443,7 @@
               "lessonId": "w27d5",
               "exerciseId": "w27d5-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.46
             }
           },
@@ -7076,6 +7474,7 @@
               "lessonId": "w28d1",
               "exerciseId": "w28d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -7106,6 +7505,7 @@
               "lessonId": "w28d1",
               "exerciseId": "w28d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.86
             }
           },
@@ -7136,6 +7536,7 @@
               "lessonId": "w28d2",
               "exerciseId": "w28d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.81
             }
           },
@@ -7166,6 +7567,7 @@
               "lessonId": "w28d2",
               "exerciseId": "w28d2-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.77
             }
           },
@@ -7196,6 +7598,7 @@
               "lessonId": "w28d3",
               "exerciseId": "w28d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.85
             }
           },
@@ -7226,6 +7629,7 @@
               "lessonId": "w28d4",
               "exerciseId": "w28d4-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.43
             }
           },
@@ -7256,6 +7660,7 @@
               "lessonId": "w28d4",
               "exerciseId": "w28d4-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -7286,6 +7691,7 @@
               "lessonId": "w28d5",
               "exerciseId": "w28d5-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.63
             }
           },
@@ -7316,6 +7722,7 @@
               "lessonId": "w29d1",
               "exerciseId": "w29d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.58
             }
           },
@@ -7327,13 +7734,13 @@
           "id": "kp-s1c10s7-2",
           "title": "由动植物词推定温带林地",
           "chapter": "S1-C10",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.85,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 3,
           "proseChars": 671,
           "evidence": {
@@ -7342,7 +7749,12 @@
               "cardId": "w29d1-c4",
               "overlap": 0.85
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w29d1",
+              "exerciseId": "w29d1-p3",
+              "kind": "cloze",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w29d1"
@@ -7352,13 +7764,13 @@
           "id": "kp-s1c10s7-3",
           "title": "金属、船、农业与轮轴",
           "chapter": "S1-C10",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.58,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 3,
           "proseChars": 765,
           "evidence": {
@@ -7367,7 +7779,12 @@
               "cardId": "w29d2-c3",
               "overlap": 0.58
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w29d2",
+              "exerciseId": "w29d2-p2",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w29d2"
@@ -7396,6 +7813,7 @@
               "lessonId": "w29d2",
               "exerciseId": "w29d2-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.7
             }
           },
@@ -7426,6 +7844,7 @@
               "lessonId": "w29d3",
               "exerciseId": "w29d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.86
             }
           },
@@ -7456,6 +7875,7 @@
               "lessonId": "w29d3",
               "exerciseId": "w29d3-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.66
             }
           },
@@ -7486,6 +7906,7 @@
               "lessonId": "w29d4",
               "exerciseId": "w29d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -7516,6 +7937,7 @@
               "lessonId": "w29d4",
               "exerciseId": "w29d4-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.66
             }
           },
@@ -7546,6 +7968,7 @@
               "lessonId": "w30d1",
               "exerciseId": "w30d1-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.43
             }
           },
@@ -7576,6 +7999,7 @@
               "lessonId": "w30d1",
               "exerciseId": "w30d1-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -7606,6 +8030,7 @@
               "lessonId": "w30d2",
               "exerciseId": "w30d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.46
             }
           },
@@ -7636,6 +8061,7 @@
               "lessonId": "w30d2",
               "exerciseId": "w30d2-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.82
             }
           },
@@ -7647,13 +8073,13 @@
           "id": "kp-s1c10s10-3",
           "title": "送气音变 f，*gʷ 变 w",
           "chapter": "S1-C10",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.83,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 4,
           "proseChars": 1024,
           "evidence": {
@@ -7662,7 +8088,12 @@
               "cardId": "w30d3-c1",
               "overlap": 0.83
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w30d3",
+              "exerciseId": "w30d3-p1",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w30d3"
@@ -7691,6 +8122,7 @@
               "lessonId": "w30d3",
               "exerciseId": "w30d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.38
             }
           },
@@ -7721,6 +8153,7 @@
               "lessonId": "w30d4",
               "exerciseId": "w30d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.73
             }
           },
@@ -7751,6 +8184,7 @@
               "lessonId": "w30d4",
               "exerciseId": "w30d4-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.76
             }
           },
@@ -7781,6 +8215,7 @@
               "lessonId": "w30d4",
               "exerciseId": "w30d4-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.56
             }
           },
@@ -7811,6 +8246,7 @@
               "lessonId": "w15d1",
               "exerciseId": "w15d1-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.87
             }
           },
@@ -7841,6 +8277,7 @@
               "lessonId": "w15d1",
               "exerciseId": "w15d1-p4",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -7871,6 +8308,7 @@
               "lessonId": "w15d2",
               "exerciseId": "w15d2-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.75
             }
           },
@@ -7901,6 +8339,7 @@
               "lessonId": "w15d3",
               "exerciseId": "w15d3-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.61
             }
           },
@@ -7917,20 +8356,21 @@
           "taught": true,
           "practiced": true,
           "feedback": true,
-          "score": 0.72,
+          "score": 0.51,
           "practiceScore": 0.37,
           "relevantCards": 4,
           "proseChars": 805,
           "evidence": {
             "teaching": {
               "lessonId": "w15d3",
-              "cardId": "w15d3-c2",
-              "overlap": 0.72
+              "cardId": "w15d3-c1",
+              "overlap": 0.51
             },
             "practice": {
               "lessonId": "w15d3",
               "exerciseId": "w15d3-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.37
             }
           },
@@ -7961,6 +8401,7 @@
               "lessonId": "w15d3",
               "exerciseId": "w15d3-p3",
               "kind": "cloze",
+              "how": "recall",
               "overlap": 0.53
             }
           },
@@ -7972,13 +8413,13 @@
           "id": "kp-s1c11s4-1",
           "title": "拉丁读音传统远离古罗马",
           "chapter": "S1-C11",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 1,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 1237,
           "evidence": {
@@ -7987,7 +8428,12 @@
               "cardId": "w15d4-c1",
               "overlap": 1
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w15d4",
+              "exerciseId": "w15d4-p2",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w15d4"
@@ -8016,6 +8462,7 @@
               "lessonId": "w15d4",
               "exerciseId": "w15d4-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.68
             }
           },
@@ -8046,6 +8493,7 @@
               "lessonId": "w15d5",
               "exerciseId": "w15d5-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.43
             }
           },
@@ -8076,6 +8524,7 @@
               "lessonId": "w15d5",
               "exerciseId": "w15d5-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.74
             }
           },
@@ -8106,6 +8555,7 @@
               "lessonId": "w15d6",
               "exerciseId": "w15d6-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.42
             }
           },
@@ -8136,6 +8586,7 @@
               "lessonId": "w15d6",
               "exerciseId": "w15d6-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.88
             }
           },
@@ -8147,13 +8598,13 @@
           "id": "kp-s1c11s5-2",
           "title": "更常见的做法是削去词尾",
           "chapter": "S1-C11",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.36,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 915,
           "evidence": {
@@ -8162,7 +8613,12 @@
               "cardId": "w16d1-c1",
               "overlap": 0.36
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w16d1",
+              "exerciseId": "w16d1-p2",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w16d1"
@@ -8191,6 +8647,7 @@
               "lessonId": "w16d1",
               "exerciseId": "w16d1-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.89
             }
           },
@@ -8221,6 +8678,7 @@
               "lessonId": "w16d2",
               "exerciseId": "w16d2-a1",
               "kind": "infer",
+              "how": "recall",
               "overlap": 0.37
             }
           },
@@ -8251,6 +8709,7 @@
               "lessonId": "w16d2",
               "exerciseId": "w16d2-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.47
             }
           },
@@ -8268,7 +8727,7 @@
           "practiced": true,
           "feedback": true,
           "score": 0.52,
-          "practiceScore": 0.52,
+          "practiceScore": 0.62,
           "relevantCards": 5,
           "proseChars": 1011,
           "evidence": {
@@ -8279,9 +8738,10 @@
             },
             "practice": {
               "lessonId": "w16d3",
-              "exerciseId": "w16d3-p2",
+              "exerciseId": "w16d3-p6",
               "kind": "mcq",
-              "overlap": 0.52
+              "how": "recall",
+              "overlap": 0.62
             }
           },
           "claimedBy": [
@@ -8311,6 +8771,7 @@
               "lessonId": "w16d3",
               "exerciseId": "w16d3-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.42
             }
           },
@@ -8341,6 +8802,7 @@
               "lessonId": "w16d4",
               "exerciseId": "w16d4-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.69
             }
           },
@@ -8352,13 +8814,13 @@
           "id": "kp-s1c11s6-3",
           "title": "不重拼的另一个原因",
           "chapter": "S1-C11",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "score": 0.74,
-          "practiceScore": 0,
+          "practiceScore": 1,
           "relevantCards": 5,
           "proseChars": 1092,
           "evidence": {
@@ -8367,7 +8829,12 @@
               "cardId": "w16d4-c5",
               "overlap": 0.74
             },
-            "practice": null
+            "practice": {
+              "lessonId": "w16d4",
+              "exerciseId": "w16d4-p5",
+              "kind": "mcq",
+              "how": "anchor"
+            }
           },
           "claimedBy": [
             "w16d4"
@@ -8396,6 +8863,7 @@
               "lessonId": "w16d5",
               "exerciseId": "w16d5-p5",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.72
             }
           },
@@ -8426,6 +8894,7 @@
               "lessonId": "w16d5",
               "exerciseId": "w16d5-p1",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 0.65
             }
           },
@@ -8456,6 +8925,7 @@
               "lessonId": "w16d5",
               "exerciseId": "w16d5-p2",
               "kind": "mcq",
+              "how": "recall",
               "overlap": 1
             }
           },
@@ -8468,17 +8938,17 @@
     "S2": {
       "population": 43,
       "source": "analysis/textbook/s2-concepts.json",
-      "complete": 40,
-      "partial": 3,
+      "complete": 43,
+      "partial": 0,
       "missing": 0,
       "items": [
         {
           "id": "morphology",
           "term": "morphology",
           "termZh": "形态学",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
-          "taught": false,
+          "taught": true,
           "practiced": true,
           "feedback": true,
           "lessons": [
@@ -8488,8 +8958,7 @@
             "teaching": {
               "lessonId": "w32d4",
               "cardId": "w32d4-c1",
-              "title": "先给已经做过的事命名",
-              "noExample": true
+              "title": "先给已经做过的事命名"
             },
             "practice": {
               "lessonId": "w32d4",
@@ -8501,26 +8970,7 @@
               "exerciseId": "w32d4-p1"
             }
           },
-          "nearMisses": [
-            {
-              "cardId": "w32d4-c1",
-              "proseLen": 375,
-              "substantial": true,
-              "example": false
-            },
-            {
-              "cardId": "w32d4-c4",
-              "proseLen": 80,
-              "substantial": true,
-              "example": false
-            },
-            {
-              "cardId": "w32d4-c5",
-              "proseLen": 419,
-              "substantial": true,
-              "example": false
-            }
-          ],
+          "nearMisses": [],
           "practiceKinds": [
             "mcq",
             "cloze"
@@ -8594,6 +9044,7 @@
             "w38d5",
             "w01d6",
             "w07d1",
+            "w07d4",
             "w08d6",
             "w12d6",
             "w22d6",
@@ -8759,6 +9210,7 @@
             "w12d4",
             "w12d7",
             "w13d4",
+            "w13d6",
             "w13d7",
             "w14d1",
             "w16d2",
@@ -8785,6 +9237,7 @@
             "w39d7",
             "w01d1",
             "w02d6",
+            "w03d1",
             "w03d6",
             "w05d6",
             "w06d1",
@@ -8796,7 +9249,6 @@
             "w11d4",
             "w13d1",
             "w13d5",
-            "w13d6",
             "w14d2",
             "w14d4",
             "w14d5",
@@ -8810,6 +9262,7 @@
             "w18d6",
             "w19d2",
             "w19d4",
+            "w20d7",
             "w22d6",
             "w23d6",
             "w23d7",
@@ -9105,11 +9558,11 @@
           "id": "selection",
           "term": "selectional restrictions",
           "termZh": "选择限制（宿主条件）",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "lessons": [
             "w38d3"
           ],
@@ -9119,11 +9572,20 @@
               "cardId": "w38d3-c1",
               "title": "判定三问"
             },
-            "practice": null,
-            "feedback": null
+            "practice": {
+              "lessonId": "w38d3",
+              "exerciseId": "w38d3-p4",
+              "kind": "mcq"
+            },
+            "feedback": {
+              "lessonId": "w38d3",
+              "exerciseId": "w38d3-p4"
+            }
           },
           "nearMisses": [],
-          "practiceKinds": [],
+          "practiceKinds": [
+            "mcq"
+          ],
           "oldStatus": "taught",
           "oldMapped": "complete"
         },
@@ -9905,6 +10367,7 @@
             "w15d1",
             "w24d3",
             "w34d2",
+            "w03d1",
             "w09d2",
             "w15d4",
             "w16d5",
@@ -10388,11 +10851,11 @@
           "id": "hypercorrection",
           "term": "hypercorrection / hyperforeignism",
           "termZh": "过度纠正与超外来",
-          "status": "partial",
+          "status": "complete",
           "explained": true,
           "taught": true,
-          "practiced": false,
-          "feedback": false,
+          "practiced": true,
+          "feedback": true,
           "lessons": [
             "w16d3"
           ],
@@ -10402,11 +10865,20 @@
               "cardId": "w16d3-c4",
               "title": "scissors：一次改错词根的“修复”"
             },
-            "practice": null,
-            "feedback": null
+            "practice": {
+              "lessonId": "w16d3",
+              "exerciseId": "w16d3-p6",
+              "kind": "mcq"
+            },
+            "feedback": {
+              "lessonId": "w16d3",
+              "exerciseId": "w16d3-p6"
+            }
           },
           "nearMisses": [],
-          "practiceKinds": [],
+          "practiceKinds": [
+            "mcq"
+          ],
           "oldStatus": "taught",
           "oldMapped": "complete"
         },
@@ -10447,46 +10919,6 @@
         }
       ],
       "changes": [
-        {
-          "id": "morphology",
-          "termZh": "形态学",
-          "from": "complete",
-          "oldRaw": "taught",
-          "to": "partial",
-          "evidence": {
-            "teaching": {
-              "lessonId": "w32d4",
-              "cardId": "w32d4-c1",
-              "title": "先给已经做过的事命名",
-              "noExample": true
-            },
-            "practice": {
-              "lessonId": "w32d4",
-              "exerciseId": "w32d4-p1",
-              "kind": "mcq"
-            },
-            "feedback": {
-              "lessonId": "w32d4",
-              "exerciseId": "w32d4-p1"
-            }
-          }
-        },
-        {
-          "id": "selection",
-          "termZh": "选择限制（宿主条件）",
-          "from": "complete",
-          "oldRaw": "taught",
-          "to": "partial",
-          "evidence": {
-            "teaching": {
-              "lessonId": "w38d3",
-              "cardId": "w38d3-c1",
-              "title": "判定三问"
-            },
-            "practice": null,
-            "feedback": null
-          }
-        },
         {
           "id": "blocking",
           "termZh": "阻塞（同义形式互斥）",
@@ -10716,22 +11148,6 @@
               "exerciseId": "w15d4-p6"
             }
           }
-        },
-        {
-          "id": "hypercorrection",
-          "termZh": "过度纠正与超外来",
-          "from": "complete",
-          "oldRaw": "taught",
-          "to": "partial",
-          "evidence": {
-            "teaching": {
-              "lessonId": "w16d3",
-              "cardId": "w16d3-c4",
-              "title": "scissors：一次改错词根的“修复”"
-            },
-            "practice": null,
-            "feedback": null
-          }
         }
       ]
     },
@@ -10841,7 +11257,7 @@
           "taught": true,
           "practiced": true,
           "feedback": true,
-          "studentItemCount": 24,
+          "studentItemCount": 25,
           "studentKinds": [
             "judge",
             "mcq"
@@ -10986,9 +11402,9 @@
         }
       ],
       "tooling": {
-        "exercises": 1525,
+        "exercises": 1543,
         "byKind": {
-          "mcq": 841,
+          "mcq": 859,
           "cloze": 240,
           "wordSum": 139,
           "infer": 259,
@@ -10997,7 +11413,7 @@
           "judge": 5
         },
         "producedItems": 185,
-        "producedShare": "185/1525 = 12.1%"
+        "producedShare": "185/1543 = 12.0%"
       },
       "caveat": "S3 的「观察」判定的是「从课程给出的数据里自己归纳」，不是「学生自选真实语料」。现象仍由课程挑选，这一点写在 steps.observe.note 里。"
     },
@@ -11640,46 +12056,6 @@
   "conflicts": [
     {
       "group": "S2",
-      "item": "morphology",
-      "old": "taught",
-      "now": "partial",
-      "why": "新口径要求讲解卡出现例词；w32d4-c1 只给了一句定义，例词是音系学的 cats / dogs，旧报告按「讲过这个学科名」记 taught",
-      "evidence": {
-        "teaching": {
-          "lessonId": "w32d4",
-          "cardId": "w32d4-c1",
-          "title": "先给已经做过的事命名",
-          "noExample": true
-        },
-        "practice": {
-          "lessonId": "w32d4",
-          "exerciseId": "w32d4-p1",
-          "kind": "mcq"
-        },
-        "feedback": {
-          "lessonId": "w32d4",
-          "exerciseId": "w32d4-p1"
-        }
-      }
-    },
-    {
-      "group": "S2",
-      "item": "selection",
-      "old": "taught",
-      "now": "partial",
-      "why": "新口径要求题干或选项点名该点；w38d3 的 judge 题虽要动用宿主条件，但没有一题点名，旧报告按「相关题」记 taught",
-      "evidence": {
-        "teaching": {
-          "lessonId": "w38d3",
-          "cardId": "w38d3-c1",
-          "title": "判定三问"
-        },
-        "practice": null,
-        "feedback": null
-      }
-    },
-    {
-      "group": "S2",
       "item": "blocking",
       "old": "partial",
       "now": "complete",
@@ -11909,22 +12285,6 @@
       }
     },
     {
-      "group": "S2",
-      "item": "hypercorrection",
-      "old": "taught",
-      "now": "partial",
-      "why": "新口径要求题干或选项点名该点；w16d3-p2 只在解析里写「过度纠正」，旧报告按「解析提到」记 taught",
-      "evidence": {
-        "teaching": {
-          "lessonId": "w16d3",
-          "cardId": "w16d3-c4",
-          "title": "scissors：一次改错词根的“修复”"
-        },
-        "practice": null,
-        "feedback": null
-      }
-    },
-    {
       "group": "S3",
       "item": "observe",
       "old": "partial",
@@ -11984,10 +12344,10 @@
       "group": "S1",
       "item": "sample-vs-population",
       "old": "30 个抽样人工判定：27 pass / 3 partial / 0 fail",
-      "now": "全量 283 条：242 complete / 41 partial / 0 missing；与抽样一致 28/30",
+      "now": "全量 283 条：283 complete / 0 partial / 0 missing；与抽样一致 27/30",
       "why": "旧报告只抽样 30 条；本脚本对 283 条全量重算，并保留抽样一致性作为校准",
       "evidence": null
     }
   ],
-  "digest": "sha256:d1029044ead40254"
+  "digest": "sha256:47576ff60f83623b"
 }
