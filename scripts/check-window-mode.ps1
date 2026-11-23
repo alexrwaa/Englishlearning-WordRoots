@@ -64,6 +64,29 @@ function Get-VisibleConsoleWindows {
   return $found
 }
 
+# Which process opened this console? On modern Windows the console *window* is
+# owned by conhost.exe, so the client is its parent. Walk up a few levels and ask
+# whether our app is anywhere in that chain; anything else (a runner, a build
+# step, another tool) is reported but not blamed.
+function Resolve-ConsoleOwner {
+  param([int]$ConsolePid, [int]$AppPid)
+
+  $app = Get-Process -Id $AppPid -ErrorAction SilentlyContinue
+  if ($null -eq $app) { return [pscustomobject]@{ ours = $false; chain = 'app already exited' } }
+
+  $chain = New-Object System.Collections.Generic.List[string]
+  $current = $ConsolePid
+  $ours = $false
+  for ($depth = 0; $depth -lt 6 -and $current -gt 0; $depth++) {
+    $process = Get-CimInstance -ClassName Win32_Process -Filter "ProcessId=$current" -ErrorAction SilentlyContinue
+    if ($null -eq $process) { break }
+    $chain.Add("$($process.Name)($current)")
+    if ($current -eq $AppPid) { $ours = $true; break }
+    $current = [int]$process.ParentProcessId
+  }
+  return [pscustomobject]@{ ours = $ours; chain = ($chain -join ' <- ') }
+}
+
 $subsystem = Get-PeSubsystem $Exe
 $subsystemName = switch ($subsystem) {
   2 { 'WINDOWS_GUI' }
@@ -98,6 +121,10 @@ for ($round = 1; $round -le 2; $round++) {
           if (-not ($appeared | Where-Object { $_.Handle -eq $window.Handle })) {
             $window | Add-Member -NotePropertyName SeenAt -NotePropertyValue ((Get-Date).ToString('HH:mm:ss.fff'))
             $window | Add-Member -NotePropertyName Round -NotePropertyValue $round
+            # Attribute before blaming: a CI runner starts console programs all
+            # the time, and "a console appeared" is not "our app made one".
+            $owner = Resolve-ConsoleOwner -ConsolePid $window.ProcessId -AppPid $proc.Id
+            $window | Add-Member -NotePropertyName Owner -NotePropertyValue $owner
             $appeared += $window
             $roundNew++
           }
@@ -121,7 +148,10 @@ $result = [pscustomobject]@{
   guiSubsystem = ($subsystem -eq 2)
   launches = $rounds
   consoleWindowsAppeared = @($appeared).Count
-  consoleWindows = @($appeared | ForEach-Object { [pscustomobject]@{ class = $_.Class; pid = $_.ProcessId; seenAt = $_.SeenAt } })
+  oursAppeared = @($appeared | Where-Object { $_.Owner.ours }).Count
+  consoleWindows = @($appeared | ForEach-Object {
+    [pscustomobject]@{ class = $_.Class; pid = $_.ProcessId; round = $_.Round; seenAt = $_.SeenAt; ours = $_.Owner.ours; chain = $_.Owner.chain }
+  })
 }
 
 if ($Json) {
@@ -131,9 +161,11 @@ if ($Json) {
   if ($result.consoleWindowsAppeared -eq 0) {
     Write-Host 'visible console windows during launch: none'
   } else {
-    Write-Host "visible console windows during launch: $($result.consoleWindowsAppeared)"
+    Write-Host "visible console windows during launch: $($result.consoleWindowsAppeared) (ours: $($result.oursAppeared))"
     foreach ($window in $result.consoleWindows) {
-      Write-Host "  pid=$($window.pid) class=$($window.class) round=$($window.round) at $($window.seenAt)"
+      $tag = 'other'
+      if ($window.ours) { $tag = 'OURS' }
+      Write-Host "  [$tag] class=$($window.class) round=$($window.round) at $($window.seenAt) chain=$($window.chain)"
     }
   }
   foreach ($round in $result.launches) {
@@ -141,5 +173,7 @@ if ($Json) {
   }
 }
 
-if (-not $result.guiSubsystem -or $result.consoleWindowsAppeared -ne 0) { exit 1 }
+# Only a console window that traces back to our own process tree fails the run;
+# conhost.exe existing, or another tool opening a console, does not.
+if (-not $result.guiSubsystem -or $result.oursAppeared -ne 0) { exit 1 }
 exit 0

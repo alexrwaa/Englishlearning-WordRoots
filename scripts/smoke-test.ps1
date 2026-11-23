@@ -672,14 +672,21 @@ function Invoke-ConsoleCase {
     if ($null -ne $payload) {
       $subsystem = [int]$payload.subsystem
       $consoleCount = [int]$payload.consoleWindowsAppeared
-      $note = "subsystem=$subsystem($($payload.subsystemName)) consoleWindows=$consoleCount"
-      if ($subsystem -eq 2 -and $consoleCount -eq 0) {
+      $ourCount = $consoleCount
+      if ($null -ne $payload.oursAppeared) { $ourCount = [int]$payload.oursAppeared }
+      $note = "subsystem=$subsystem($($payload.subsystemName)) consoleWindows=$consoleCount ours=$ourCount"
+      if ($subsystem -eq 2 -and $ourCount -eq 0) {
         $verdict = 'PASS'
+        if ($consoleCount -gt 0) {
+          # Say it out loud: on a busy runner other tools open consoles, and the
+          # point of the attribution is that they are not ours.
+          $note = "$note - other processes' consoles ignored"
+        }
       } elseif ($subsystem -ne 2) {
         $note = "$note - the exe is a console program; Windows opens a console before any app code runs"
       } else {
-        $classes = @($payload.consoleWindows | ForEach-Object { "$($_.class)(pid=$($_.pid))" }) -join ', '
-        $note = "$note - appeared: $classes"
+        $chains = @($payload.consoleWindows | Where-Object { $_.ours } | ForEach-Object { $_.chain }) -join ' | '
+        $note = "$note - ours: $chains"
       }
     }
     Write-Host "console: $verdict ($note)"
