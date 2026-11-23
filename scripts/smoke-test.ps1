@@ -653,7 +653,9 @@ function Invoke-ConsoleCase {
 
   $caseDir = $null
   try {
-    $caseDir = New-CaseDir
+    # Same layout the other scenarios use: history/<id>, so a failed run leaves
+    # its folder where the report says it will be.
+    $caseDir = Join-Path $asciiRoot ("case{0}" -f $Id)
     $appDir = New-AppCopy $caseDir
     Reset-CaseState $appDir
     $exe = Join-Path $appDir 'WordRoots.exe'
