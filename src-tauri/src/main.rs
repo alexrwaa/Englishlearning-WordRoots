@@ -32,8 +32,13 @@ use tauri::Manager;
 ///
 /// `--disable-features=...` mirrors the defaults wry sets, because specifying
 /// additional arguments replaces them.
+// `--enable-logging` is deliberately absent. Chromium writes that log to a console,
+// and when the process has none it allocates one — the black window users saw
+// flashing next to the app. The console belonged to msedgewebview2.exe, a child of
+// ours, which is why hiding our own subsystem never helped. Diagnostics do not
+// depend on it: startup.json and wordroots.log are written by our own code.
 const BROWSER_ARGS: &str = "--disable-features=msWebOOUI,msPdfOOUI,msSmartScreenProtection \
-     --proxy-server=direct:// --proxy-bypass-list=* --disable-gpu --enable-logging";
+     --proxy-server=direct:// --proxy-bypass-list=* --disable-gpu";
 
 fn main() {
     // Support mode: collect environment info without opening a window.

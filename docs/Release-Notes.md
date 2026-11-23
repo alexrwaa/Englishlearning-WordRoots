@@ -5,46 +5,61 @@
 
 ## 一、P0：控制台窗口（根因 + 门禁）
 
-### 根因
+### 根因：是 WebView2 开的控制台，不是主程序
 
-入口写的是 `#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]`——
-**只在关闭 debug_assertions 的构建里**才是 GUI 子系统。任何带断言的构建（`cargo build` 不带 `--release`、
-自定义 profile、本地打包）产出的都是 **CONSOLE 子系统** 的可执行文件，
-Windows 会在 `main()` 执行前就给它分配控制台窗口。程序内部无论怎么隐藏都没用，
-因为窗口在代码运行之前就出现了。
+第一次在 CI 上实测就否掉了"主程序是控制台子系统"这个假设：ZIP 里的 `WordRoots.exe`
+**已经是 GUI 子系统**（`subsystem=2 WINDOWS_GUI`）。
 
-排查过的其他可能，都不是原因：
+于是把"出现了控制台窗口"改成**先归属、再判断**：从窗口的属主进程沿父进程链上溯，
+看 WordRoots 是否在这条链上。第二次实测拿到了决定性证据：
+
+```
+ours: msedgewebview2.exe(6544) <- WordRoots.exe(2120)
+```
+
+**控制台窗口属于 `msedgewebview2.exe`——我们自己的子进程。**
+原因是浏览器参数里带着 `--enable-logging`：Chromium 要写日志，而进程没有控制台，
+就会**自己分配一个**。所以无论怎么改主程序的子系统、怎么藏自己的窗口，那个黑框都还在，
+因为它是 WebView2 的次级进程开的。
 
 | 排查项 | 结论 |
 | --- | --- |
+| 主程序子系统 | 已是 GUI，**不是**原因；但仍是潜在坑（见下） |
+| `--enable-logging` | **真正原因**：Chromium 无控制台时自行分配一个 |
 | 子进程（`reg.exe` 读代理设置） | 早已用 `CREATE_NO_WINDOW` |
-| `explorer.exe` 打开数据目录 | GUI 程序，不建控制台；本轮也补上了 `CREATE_NO_WINDOW` |
+| `explorer.exe` 打开数据目录 | GUI 程序；本轮也补上 `CREATE_NO_WINDOW` |
 | 程序自己往 stdout 写 | 全仓库没有一处 `println!`/`eprintln!`，日志只写 `app-data/logs/wordroots.log` |
 | 启动器 / 脚本 | 便携包直接放 `WordRoots.exe`，没有 .bat/.cmd 包装 |
-| Debug 与 Release 差异 | 就是这个差异——即根因本身 |
 
 ### 修复
 
-1. 子系统改为 `#![cfg_attr(not(test), windows_subsystem = "windows")]`：
-   **所有给用户的二进制都是 GUI 子系统**，只有 `cargo test` 的测试宿主保留 stdout。
-2. `explorer` 子进程补 `CREATE_NO_WINDOW`，让"每个子进程都隐藏"成为可检查的不变量。
-3. 新增 `scripts/check-window-mode.ps1`：
-   - 直接读 PE 头里的 `Subsystem`（2=GUI，3=控制台）；
+1. **从两处浏览器参数里删掉 `--enable-logging`**（`main.rs` 的 `BROWSER_ARGS` 与 `tauri.conf.json`）。
+   诊断不依赖它：`startup.json`、`wordroots.log` 都是我们自己的代码写的。
+2. 子系统顺手收紧为 `#![cfg_attr(not(test), windows_subsystem = "windows")]`：
+   原来的 `not(debug_assertions)` 意味着**任何带断言的构建**（`cargo build` 不带 `--release`、
+   自定义 profile）都会产出控制台程序，是另一个独立的坑，一并堵上。
+3. `explorer` 子进程补 `CREATE_NO_WINDOW`，让"每个子进程都隐藏"成为可检查的不变量。
+4. 新增 `scripts/check-window-mode.ps1`：
+   - 读 PE 头的 `Subsystem`（2=GUI，3=控制台）；
    - 连续启动两次，每 100ms 枚举**可见**的 `ConsoleWindowClass` / `PseudoConsoleWindow` /
-     `CASCADIA_HOSTING_WINDOW_CLASS` 窗口，与启动前的基线做差集。
-   **conhost.exe 存在不算失败**，只有"出现可见控制台窗口"才算。
-4. 两道门禁：
+     `CASCADIA_HOSTING_WINDOW_CLASS` 窗口；
+   - **对每个窗口做归属判定**：属主进程沿父链上溯，链上有 WordRoots 才算我们的。
+     别人的控制台照实打印链，但不判失败。
+   **conhost.exe 存在不算失败**；别人开的控制台也不算。
+5. 两道门禁：
    - 构建阶段 `-SubsystemOnly`：编译完立刻查 PE 头，几秒内失败，不必等打包；
-   - 冒烟场景 13：在正式 ZIP 上启动两次并观察窗口。
+   - 冒烟场景 13：在正式 ZIP 上启动两次并观察窗口，按归属判定。
 
-### 验收（本地已验证探针本身）
+### 验收
 
 | 目标 | 结果 |
 | --- | --- |
 | `notepad.exe`（GUI） | `subsystem: 2`，两次启动 0 个控制台窗口 |
 | `cmd.exe`（控制台） | `subsystem: 3`，退出码 1，报"会给控制台程序开窗" |
+| 便携包 `WordRoots.exe` | CI 场景 13：`subsystem=2`，归属判定 `ours=0`（修复前为 `ours=2`，链为 `msedgewebview2.exe <- WordRoots.exe`） |
 
-正式 EXE 的结果由 CI 场景 13 在真实 Windows Runner 上跑出，未通过则阻断发布。
+修复前的两次实测正好说明了为什么必须做归属：
+第一次报"出现 2 个窗口"却查不出是谁的；加上归属后拿到父链，才定位到 WebView2。
 
 ## 二、P0：Word Sum 不再把未核验结构当标准答案
 
